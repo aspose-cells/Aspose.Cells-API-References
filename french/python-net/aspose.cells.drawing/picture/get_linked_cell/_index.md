@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_linked_cell méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,12 +22,12 @@ def get_linked_cell(self, is_r1c1, is_local):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | is_r1c1 | bool | Indique si la formule doit être formatée en tant que R1C1.|
 | is_local | bool | Indique si la formule doit être formatée par les paramètres régionaux.|
 
-###  Exemples
+###  Exemple
 
 ```python
 

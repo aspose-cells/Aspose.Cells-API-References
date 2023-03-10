@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_case_sensitive fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Indikerar om den sökta strängen är skiftlägeskänslig.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
  använd egenskapen FindOptions.CaseSensitive.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

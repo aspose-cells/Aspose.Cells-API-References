@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_external_name
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | text | str | Il testo del nome esterno.<br/>Se il nome esterno appartiene a un foglio di lavoro, il testo deve essere Foglio1!Testo.|
-| refer_to | str | Il referTo del nome esterno.|
+| refer_to | str | Il referTo del nome esterno. Deve essere una cella o l'intervallo.|
 
 
 

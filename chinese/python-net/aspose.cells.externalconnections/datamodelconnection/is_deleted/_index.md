@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_deleted 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -9,8 +9,8 @@ is_root: false
 ---
 ## is_deleted 属性
 
-指示关联的工作簿连接是否已被删除。如果
-否则，假的。
+指示关联的工作簿连接是否已删除。如果
+连接已被删除；否则，假的。
 ### 定义：
 ```python
 @property

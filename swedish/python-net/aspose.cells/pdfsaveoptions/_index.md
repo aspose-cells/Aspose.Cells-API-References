@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/pdfsaveoptions/
 is_root: false
 ---
 ##  PdfSaveOptions klass
-Representerar alternativen för att spara pdf-filer.
+Representerar alternativen för att spara pdf-fil.
 
 
 
@@ -23,7 +23,7 @@ Typen PdfSaveOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [PdfSaveOptions()](/cells/sv/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Skapar alternativen för att spara pdf-filer.|
+| [PdfSaveOptions()](/cells/sv/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Skapar alternativen för att spara pdf-fil.|
 
 
 ###  Egenskaper
@@ -38,8 +38,8 @@ Typen PdfSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/pdfsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/pdfsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/pdfsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/pdfsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [default_font](/cells/sv/python-net/aspose.cells/pdfsaveoptions/default_font) | När tecken i Excel är Unicode och inte är inställda med korrekt typsnitt i cellstil,<br/>De kan visas som block i pdf, bild.<br/>Ställ in standardteckensnittet som MingLiu eller MS Gothic för att visa dessa tecken.<br/> Om den här egenskapen inte är inställd kommer Aspose.Cells att använda systemets standardteckensnitt för att visa dessa unicode-tecken.|
 | [check_workbook_default_font](/cells/sv/python-net/aspose.cells/pdfsaveoptions/check_workbook_default_font) | När tecken i Excel är Unicode och inte är inställda med korrekt typsnitt i cellstil,<br/>De kan visas som block i pdf, bild.<br/> Ställ in detta på sant för att försöka använda arbetsbokens standardteckensnitt för att visa dessa tecken först.|
 | [check_font_compatibility](/cells/sv/python-net/aspose.cells/pdfsaveoptions/check_font_compatibility) |Anger om teckensnittskompatibilitet ska kontrolleras för varje tecken i texten.|
@@ -67,7 +67,7 @@ Typen PdfSaveOptions avslöjar följande medlemmar:
 | [created_time](/cells/sv/python-net/aspose.cells/pdfsaveoptions/created_time) | Hämtar och ställer in tiden för generering av pdf-dokumentet.|
 | [producer](/cells/sv/python-net/aspose.cells/pdfsaveoptions/producer) | Hämtar och ställer in producent av genererade pdf-dokument.|
 | [optimization_type](/cells/sv/python-net/aspose.cells/pdfsaveoptions/optimization_type) | Hämtar och ställer in pdf-optimeringstyp.|
-| [custom_properties_export](/cells/sv/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Hämtar eller ställer in ett värde som bestämmer hur [CustomDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection) exporteras till filen PDF. Standardvärdet är Inget.|
+| [custom_properties_export](/cells/sv/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Hämtar eller ställer in ett värde som bestämmer hur [CustomDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection) exporteras till filen PDF. Standardvärdet är None.|
 | [export_document_structure](/cells/sv/python-net/aspose.cells/pdfsaveoptions/export_document_structure) | Indikerar om dokumentstruktur ska exporteras.|
 | [emf_render_setting](/cells/sv/python-net/aspose.cells/pdfsaveoptions/emf_render_setting) | Inställning för rendering av Emf-metafil.|
 | [display_doc_title](/cells/sv/python-net/aspose.cells/pdfsaveoptions/display_doc_title) | Indikerar om fönstrets namnlist ska visa dokumentets titel.|

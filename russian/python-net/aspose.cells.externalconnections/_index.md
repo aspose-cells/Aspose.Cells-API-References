@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.externalconnections
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | [DataModelConnection](/cells/ru/python-net/aspose.cells.externalconnections/datamodelconnection) | Указывает подключение к модели данных|
 | [ExternalConnection](/cells/ru/python-net/aspose.cells.externalconnections/externalconnection) | Указывает внешнее подключение для передачи данных|
 | [ExternalConnectionCollection](/cells/ru/python-net/aspose.cells.externalconnections/externalconnectioncollection) | Указывает коллекцию [ExternalConnection](/cells/ru/python-net/aspose.cells.externalconnections/externalconnection)|
-| [WebQueryConnection](/cells/ru/python-net/aspose.cells.externalconnections/webqueryconnection) | Веб-запрос извлечет данные из HTML таблиц,<br/> а также может предоставлять параметры HTTP "Get" для обработки веб-сервером при создании HTML по<br/> включая параметры и элементы параметров.|
+| [WebQueryConnection](/cells/ru/python-net/aspose.cells.externalconnections/webqueryconnection) | Указывает свойства источника веб-запроса. Веб-запрос извлечет данные из HTML таблиц,<br/> а также может предоставлять параметры HTTP "Get" для обработки веб-сервером при создании HTML по<br/> включая параметры и элементы параметров.|
 
 
 ###  Перечисления
@@ -30,6 +30,6 @@ is_root: false
 | [HtmlFormatHandlingType](/cells/ru/python-net/aspose.cells.externalconnections/htmlformathandlingtype) | Указывает, как обрабатывать форматирование из источника HTML.|
 | [OLEDBCommandType](/cells/ru/python-net/aspose.cells.externalconnections/oledbcommandtype) | Указывает тип команды OLE DB.|
 | [ReConnectionMethodType](/cells/ru/python-net/aspose.cells.externalconnections/reconnectionmethodtype) | Указывает, что должно делать приложение для работы с электронными таблицами при сбое подключения.|
-| [SqlDataType](/cells/ru/python-net/aspose.cells.externalconnections/sqldatatype) | Указывает тип данных SQL параметра.|
+| [SqlDataType](/cells/ru/python-net/aspose.cells.externalconnections/sqldatatype) | Указывает тип данных SQL параметра. Допустимо только для источников ODBC.|
 
 

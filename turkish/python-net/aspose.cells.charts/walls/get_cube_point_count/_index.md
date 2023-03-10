@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cube_point_count yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

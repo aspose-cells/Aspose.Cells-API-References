@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_valid_signed mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: geometry mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 geometry'i alır
 
-###  örnekler
+###  Örnek
 
 ```python
 

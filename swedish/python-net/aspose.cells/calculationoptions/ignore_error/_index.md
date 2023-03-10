@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_error fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  ignore_error fastighet
 
 Indikerar om du behöver dölja felet i beräkningsformler.
-Felet kan vara funktioner som inte stöds, externa länkar etc.
+Felet kan vara en funktion som inte stöds, externa länkar, etc.
 ###  Definition:
 ```python
 @property

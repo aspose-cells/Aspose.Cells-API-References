@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_row_height(self, row, height):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | height | float | Sıra yüksekliği Nokta biriminde 0 ile 409,5 arasında olmalıdır.|

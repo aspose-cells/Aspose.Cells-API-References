@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_point_color Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

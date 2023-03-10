@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -36,11 +36,11 @@ Typen CustomDocumentPropertyCollection avslöjar följande medlemmar:
 | [last_index_of(item)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom hela arraylistan.|
 | [last_index_of(item, index)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som sträcker sig från det första elementet till det angivna indexet.|
 | [last_index_of(item, index, count)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int-int) |Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som innehåller det angivna antalet element och slutar vid det angivna indexet.|
-| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | Skapar en ny anpassad dokumentegenskap för**PropertyType. Sträng** data typ.|
+| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | Skapar en ny anpassad dokumentegenskap för**PropertyType.String** data typ.|
 | [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) | Skapar en ny anpassad dokumentegenskap för**PropertyType.Number** data typ.|
-| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Skapar en ny anpassad dokumentegenskap för**PropertyType. DateTime** data typ.|
-| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Skapar en ny anpassad dokumentegenskap för**PropertyType. Boolean** data typ.|
-| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Skapar en ny anpassad dokumentegenskap för**PropertyType. Flytande** data typ.|
+| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Skapar en ny anpassad dokumentegenskap för**PropertyType.DateTime** data typ.|
+| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Skapar en ny anpassad dokumentegenskap för**PropertyType.Boolean** data typ.|
+| [add(name, value)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Skapar en ny anpassad dokumentegenskap för**PropertyType.Float** data typ.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 | [add_link_to_content(name, source)](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) | Skapar en ny anpassad dokumentegenskap som länkar till innehåll.|
 | [update_linked_property_value()](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |Uppdatera anpassat dokumentegenskapsvärde som länkar till innehåll.|

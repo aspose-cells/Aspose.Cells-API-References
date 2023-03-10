@@ -1,4 +1,4 @@
-﻿---
+---
 title: foreground_theme_color الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

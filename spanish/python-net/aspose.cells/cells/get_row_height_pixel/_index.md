@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_row_height_pixel método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_row_height_pixel(self, row):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila|
 

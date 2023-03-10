@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,12 +22,12 @@ def add(self, row):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Cell indice riga, base zero.|
 ###  Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra nella cella.
+L'interruzione di pagina viene aggiunta in alto a sinistra della cella.
 Imposta contemporaneamente un'interruzione di pagina orizzontale e un'interruzione di pagina verticale.
 
 ##  add(cell_name) {#str}
@@ -45,12 +45,12 @@ def add(self, cell_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_name | str | Cell nome.|
 ###  Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra nella cella.
+L'interruzione di pagina viene aggiunta in alto a sinistra della cella.
 Imposta contemporaneamente un'interruzione di pagina orizzontale e un'interruzione di pagina verticale.
 
 ##  add(row, column) {#int-int}
@@ -68,13 +68,13 @@ def add(self, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Cell indice riga, base zero.|
 | column | int | Cell indice colonna, base zero.|
 ###  Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra nella cella.
+L'interruzione di pagina viene aggiunta in alto a sinistra della cella.
 Imposta contemporaneamente un'interruzione di pagina orizzontale e un'interruzione di pagina verticale.
 
 ##  add(row, start_column, end_column) {#int-int-int}
@@ -92,7 +92,7 @@ def add(self, row, start_column, end_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga, in base zero.|
 | start_column | int | Inizia l'indice della colonna, in base zero.|

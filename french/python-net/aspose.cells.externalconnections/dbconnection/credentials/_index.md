@@ -1,4 +1,4 @@
-﻿---
+---
 title: credentials propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Spécifie la méthode d'authentification à utiliser lors de l'établissement (o
 
 ###  Remarques
 
- REMARQUE : Cette propriété est désormais obsolète.
+ REMARQUE : Cette propriété est désormais obsolète. Plutôt,
 veuillez utiliser la propriété ExternalConnection.CredentialsMethodType.
  Cette propriété sera supprimée 12 mois plus tard depuis octobre 2017.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

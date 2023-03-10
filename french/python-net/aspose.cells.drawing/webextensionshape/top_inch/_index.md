@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_inch propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_inch propriété
 
-Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en unités de pouces.
+Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en pouces.
 
-###  Exemples
+###  Exemple
 
 ```python
 

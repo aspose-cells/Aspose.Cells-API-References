@@ -1,4 +1,4 @@
-﻿---
+---
 title: shadow_effect fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shadow_effect fastighet
 
-Representerar ett [ShapePropertyCollection.shadow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect)-objekt som anger en skuggeffekt för diagramelementet eller formen.
+Representerar ett [ShapePropertyCollection.shadow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect)-objekt som anger skuggeffekt för diagramelementet eller formen.
 ###  Definition:
 ```python
 @property

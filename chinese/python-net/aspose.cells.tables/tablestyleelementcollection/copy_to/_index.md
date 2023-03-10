@@ -1,6 +1,6 @@
-﻿---
+---
 title: copy_to方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -18,9 +18,9 @@ def copy_to(self, array):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| array | list |作为元素复制数组列表目标的一维数组列表。|
+| array | list |作为元素复制数组列表目标的一维数组列表。数组列表必须具有从零开始的索引。|
 
 
 ##  copy_to(index, array, array_index, count) {#int-list-int-int}
@@ -34,11 +34,11 @@ def copy_to(self, index, array, array_index, count):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | index | int |复制开始处的源数组列表中从零开始的索引。|
-| array | list |作为从数组列表复制的元素的目的地的一维数组列表。|
-| array_index | int |数组列表中从零开始的索引，复制从这里开始。|
+| array | list |作为从数组列表复制的元素的目的地的一维数组列表。数组列表必须具有从零开始的索引。|
+| array_index | int |数组列表中从零开始的索引，复制开始于此。|
 | count | int |要复制的元素数。|
 
 

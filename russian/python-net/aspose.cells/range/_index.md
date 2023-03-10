@@ -1,4 +1,4 @@
-﻿---
+---
 title: Range класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -42,8 +42,8 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [auto_fill(target)](/cells/ru/python-net/aspose.cells/range/auto_fill/#Range) | Автоматически все заполняют целевой диапазон.|
-| [auto_fill(target, auto_fill_type)](/cells/ru/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Автоматически все заполняют целевой диапазон.|
+| [auto_fill(target)](/cells/ru/python-net/aspose.cells/range/auto_fill/#Range) | Автоматическое заполнение целевого диапазона.|
+| [auto_fill(target, auto_fill_type)](/cells/ru/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Автоматическое заполнение целевого диапазона.|
 | [set_style(style, explicit_flag)](/cells/ru/python-net/aspose.cells/range/set_style/#Style-bool) | Примените стиль ячейки.|
 | [set_style(style)](/cells/ru/python-net/aspose.cells/range/set_style/#Style) | Устанавливает стиль диапазона.|
 | [set_outline_borders(border_style, border_color)](/cells/ru/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Устанавливает границы контура вокруг диапазона ячеек с одинаковым стилем и цветом границы.|
@@ -71,7 +71,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

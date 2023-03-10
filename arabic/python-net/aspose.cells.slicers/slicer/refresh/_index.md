@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة refresh
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 

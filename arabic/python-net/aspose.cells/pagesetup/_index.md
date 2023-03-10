@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageSetup الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -26,19 +26,19 @@ is_root: false
 | [center_horizontally](/cells/ar/python-net/aspose.cells/pagesetup/center_horizontally) | قم بتمثيل ما إذا كانت الورقة مطبوعة في المنتصف أفقيًا.|
 | [center_vertically](/cells/ar/python-net/aspose.cells/pagesetup/center_vertically) | تمثيل ما إذا كانت الورقة مطبوعة في المنتصف عموديًا.|
 | [print_draft](/cells/ar/python-net/aspose.cells/pagesetup/print_draft) | يمثل ما إذا كانت الورقة ستتم طباعتها بدون رسومات.|
-| [footer_margin](/cells/ar/python-net/aspose.cells/pagesetup/footer_margin) | يمثل المسافة من أسفل الصفحة إلى التذييل بوحدات السنتيمترات.|
-| [footer_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/footer_margin_inch) | يمثل المسافة من أسفل الصفحة إلى التذييل بوحدات البوصة.|
-| [header_margin](/cells/ar/python-net/aspose.cells/pagesetup/header_margin) | يمثل المسافة من أعلى الصفحة إلى الرأس بوحدات السنتيمتر.|
-| [header_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/header_margin_inch) | يمثل المسافة من أعلى الصفحة إلى الرأس بوحدات البوصة.|
+| [footer_margin](/cells/ar/python-net/aspose.cells/pagesetup/footer_margin) | يمثل المسافة من أسفل الصفحة إلى التذييل بوحدة سنتيمترات.|
+| [footer_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/footer_margin_inch) | يمثل المسافة من أسفل الصفحة إلى التذييل بوحدة بوصة.|
+| [header_margin](/cells/ar/python-net/aspose.cells/pagesetup/header_margin) | يمثل المسافة من أعلى الصفحة إلى الرأس بوحدة سنتيمترات.|
+| [header_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/header_margin_inch) | يمثل المسافة من أعلى الصفحة إلى الرأس بوحدة البوصة.|
 | [printer_settings](/cells/ar/python-net/aspose.cells/pagesetup/printer_settings) | الحصول على إعدادات الطابعة الافتراضية وتعيينها.|
-| [left_margin](/cells/ar/python-net/aspose.cells/pagesetup/left_margin) |يمثل حجم الهامش الأيسر بوحدات السنتيمتر.|
-| [left_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/left_margin_inch) | يمثل حجم الهامش الأيسر بوحدات البوصة.|
-| [right_margin](/cells/ar/python-net/aspose.cells/pagesetup/right_margin) | يمثل حجم الهامش الأيمن بوحدات السنتيمتر.|
-| [right_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/right_margin_inch) | يمثل حجم الهامش الأيمن بوحدات البوصة.|
-| [top_margin](/cells/ar/python-net/aspose.cells/pagesetup/top_margin) | يمثل حجم الهامش العلوي بوحدات السنتيمتر.|
-| [top_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/top_margin_inch) | يمثل حجم الهامش العلوي بوحدات البوصة.|
-| [bottom_margin](/cells/ar/python-net/aspose.cells/pagesetup/bottom_margin) | يمثل حجم الهامش السفلي بوحدات السنتيمتر.|
-| [bottom_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/bottom_margin_inch) | يمثل حجم الهامش السفلي بوحدات البوصة.|
+| [left_margin](/cells/ar/python-net/aspose.cells/pagesetup/left_margin) |يمثل حجم الهامش الأيسر بوحدة السنتيمترات.|
+| [left_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/left_margin_inch) | يمثل حجم الهامش الأيسر بوحدة البوصة.|
+| [right_margin](/cells/ar/python-net/aspose.cells/pagesetup/right_margin) | يمثل حجم الهامش الأيمن بوحدة سنتيمترات.|
+| [right_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/right_margin_inch) | يمثل حجم الهامش الأيمن بوحدة البوصة.|
+| [top_margin](/cells/ar/python-net/aspose.cells/pagesetup/top_margin) | يمثل حجم الهامش العلوي بوحدة سنتيمترات.|
+| [top_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/top_margin_inch) | يمثل حجم الهامش العلوي بوحدة البوصة.|
+| [bottom_margin](/cells/ar/python-net/aspose.cells/pagesetup/bottom_margin) | يمثل حجم الهامش السفلي بوحدة سنتيمترات.|
+| [bottom_margin_inch](/cells/ar/python-net/aspose.cells/pagesetup/bottom_margin_inch) | يمثل حجم الهامش السفلي بوحدة البوصة.|
 | [first_page_number](/cells/ar/python-net/aspose.cells/pagesetup/first_page_number) | يمثل رقم الصفحة الأولى الذي سيتم استخدامه عند طباعة هذه الورقة.|
 | [fit_to_pages_tall](/cells/ar/python-net/aspose.cells/pagesetup/fit_to_pages_tall) | يمثل عدد الصفحات في الطول التي سيتم تغيير حجم ورقة العمل إليها عند طباعتها.<br/> القيمة الافتراضية هي 1.|
 | [fit_to_pages_wide](/cells/ar/python-net/aspose.cells/pagesetup/fit_to_pages_wide) | يمثل عدد الصفحات بعرض ورقة العمل التي سيتم تحجيمها عند طباعتها.<br/> القيمة الافتراضية هي 1.|
@@ -70,8 +70,8 @@ is_root: false
 | [get_picture(is_first, is_even, is_header, section)](/cells/ar/python-net/aspose.cells/pagesetup/get_picture/#bool-bool-bool-int) | الحصول على عنصر [Picture](/cells/ar/python-net/aspose.cells.drawing/picture) للرأس / التذييل.|
 | [copy(source, copy_options)](/cells/ar/python-net/aspose.cells/pagesetup/copy/#PageSetup-CopyOptions) | ينسخ إعدادات إعداد الصفحة.|
 | [set_fit_to_pages(wide, tall)](/cells/ar/python-net/aspose.cells/pagesetup/set_fit_to_pages/#int-int) | يعيّن عدد الصفحات التي سيتم تغيير حجم ورقة العمل إليها عند طباعتها.|
-| [custom_paper_size(width, height)](/cells/ar/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | يضبط حجم الورق المخصص بوحدات البوصة.|
-| [clear_header_footer()](/cells/ar/python-net/aspose.cells/pagesetup/clear_header_footer/#) | يمسح إعدادات الرأس والتذييل.|
+| [custom_paper_size(width, height)](/cells/ar/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | يضبط حجم الورق المخصص بوحدة البوصة.|
+| [clear_header_footer()](/cells/ar/python-net/aspose.cells/pagesetup/clear_header_footer/#) | يمسح إعداد الرأس والتذييل.|
 | [get_header(section)](/cells/ar/python-net/aspose.cells/pagesetup/get_header/#int) | يحصل على برنامج نصي بتنسيق رأس ملف Excel.|
 | [get_commands(header_footer_script)](/cells/ar/python-net/aspose.cells/pagesetup/get_commands/#str) | يحصل على كافة أوامر الرأس أو التذييل.|
 | [get_footer(section)](/cells/ar/python-net/aspose.cells/pagesetup/get_footer/#int) | يحصل على برنامج نصي بتنسيق تذييل ملف Excel.|
@@ -91,7 +91,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

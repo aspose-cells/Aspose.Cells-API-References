@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_picture método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/pagesetup/set_picture/
 is_root: false
 ---
 ##  set_picture(is_first, is_even, is_header, section, image_data) {#bool-bool-bool-int-bytes}
-Establece una imagen en el encabezado/pie de página de una hoja de cálculo.
+Establece una imagen en el encabezado/pie de página de una hoja de trabajo.
 
 
 ###  Devoluciones
@@ -22,7 +22,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_first | bool | Indica si se configura la imagen del encabezado/pie de página de la primera página.|
 | is_even | bool | Indica si se configura la imagen del encabezado/pie de página par.|

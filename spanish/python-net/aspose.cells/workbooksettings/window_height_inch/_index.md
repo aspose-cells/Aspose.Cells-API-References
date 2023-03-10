@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_height_inch propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch propiedad
 
-La altura de la ventana, en unidades de pulgadas.
+La altura de la ventana, en unidades de pulgada.
 ###  Definición:
 ```python
 @property

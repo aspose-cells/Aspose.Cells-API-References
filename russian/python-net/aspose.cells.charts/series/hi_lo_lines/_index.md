@@ -1,4 +1,4 @@
-﻿---
+---
 title: hi_lo_lines недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

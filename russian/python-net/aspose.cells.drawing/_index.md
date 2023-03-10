@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /ru/python-net/aspose.cells.drawing/
 is_root: false
 ---
-**Aspose.Cells.Drawing** Пространство имен предоставляет классы, которые позволяют создавать и изменять фигуры рисования, элементы управления формами и более сложные объекты рисования.
+**Aspose.Cells.Drawing** namespace предоставляет классы, которые позволяют создавать и изменять фигуры рисования, элементы управления формами и более сложные объекты рисования.
 
 ###  Классы
 | Сорт| Описание|
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/ru/python-net/aspose.cells.drawing/combobox) | Представляет форму элемента управления ComboBox.|
 | [CommentShape](/cells/ru/python-net/aspose.cells.drawing/commentshape) | Представляет форму комментария.|
 | [CustomGeometry](/cells/ru/python-net/aspose.cells.drawing/customgeometry) | Представляет пользовательскую геометрическую фигуру.|
-| [CustomXmlShape](/cells/ru/python-net/aspose.cells.drawing/customxmlshape) | Представляет пользовательские фигуры xml, такие как Ink.|
+| [CustomXmlShape](/cells/ru/python-net/aspose.cells.drawing/customxmlshape) | Представляет пользовательскую форму xml, например Ink.|
 | [DialogBox](/cells/ru/python-net/aspose.cells.drawing/dialogbox) | Представляет диалоговое окно.|
 | [Fill](/cells/ru/python-net/aspose.cells.drawing/fill) | Представляет формат заливки фигуры.|
 | [FillFormat](/cells/ru/python-net/aspose.cells.drawing/fillformat) | Инкапсулирует объект, представляющий форматирование заливки для фигуры.|
@@ -64,7 +64,7 @@ is_root: false
 | [ScrollBar](/cells/ru/python-net/aspose.cells.drawing/scrollbar) | Представляет объект полосы прокрутки.|
 | [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect) |Этот класс определяет эффект тени элемента или фигуры диаграммы.|
 | [Shape](/cells/ru/python-net/aspose.cells.drawing/shape) | Представляет объект msodrawing.|
-| [ShapeCollection](/cells/ru/python-net/aspose.cells.drawing/shapecollection) | Представляет все фигуры на листе/диаграмме.|
+| [ShapeCollection](/cells/ru/python-net/aspose.cells.drawing/shapecollection) | Представляет всю форму на листе/диаграмме.|
 | [ShapeFormat](/cells/ru/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/ru/python-net/aspose.cells.drawing/shapeguide) | Инкапсулирует направляющую формы указывает наличие направляющей формы, которая будет использоваться для<br/> управлять геометрией указанной формы|
 | [ShapeGuideCollection](/cells/ru/python-net/aspose.cells.drawing/shapeguidecollection) | Инкапсулирует коллекцию направляющих фигур|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/ru/python-net/aspose.cells.drawing/texteffectformat) | Содержит свойства и методы, применяемые к объектам WordArt.|
 | [TextureFill](/cells/ru/python-net/aspose.cells.drawing/texturefill) | Инкапсулирует объект, представляющий формат заливки текстурой.|
 | [ThreeDFormat](/cells/ru/python-net/aspose.cells.drawing/threedformat) | Представляет трехмерное форматирование фигуры.|
-| [TilePicOption](/cells/ru/python-net/aspose.cells.drawing/tilepicoption) | Представляет мозаичные изображения в виде текстур.|
+| [TilePicOption](/cells/ru/python-net/aspose.cells.drawing/tilepicoption) | Представляет изображение плитки в виде текстуры.|
 | [VmlShapeGuide](/cells/ru/python-net/aspose.cells.drawing/vmlshapeguide) | только для вмл<br/> Инкапсулирует направляющую формы, указывает наличие фигуры.<br/> направляющая, которая будет использоваться для управления геометрией указанной формы|
 | [WebExtensionShape](/cells/ru/python-net/aspose.cells.drawing/webextensionshape) | Представляет форму веб-расширения.|
 

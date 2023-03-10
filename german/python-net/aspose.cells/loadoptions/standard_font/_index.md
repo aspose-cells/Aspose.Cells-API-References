@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_font Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Legt den standardmäßigen Standardschriftnamen fest
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte DefaultStyleSettings.
  Diese Property wird 12 Monate später seit März 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

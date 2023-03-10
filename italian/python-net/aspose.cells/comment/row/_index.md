@@ -1,4 +1,4 @@
-﻿---
+---
 title: row proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene l'indice row del commento.
 
-###  Esempi
+###  Esempio
 
 ```python
 

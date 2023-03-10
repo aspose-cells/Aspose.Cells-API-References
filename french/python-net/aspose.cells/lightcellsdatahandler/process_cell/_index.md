@@ -1,4 +1,4 @@
-﻿---
+---
 title: process_cell méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Généralement, il doit être faux afin que toutes les cellules ne soient pas co
 Dans un but particulier, tel que l'utilisateur doit accéder à certaines cellules plus tard après le traitement de l'ensemble du classeur,
 l'utilisateur peut faire en sorte que cette méthode renvoie true pour conserver ces cellules spéciales dans le modèle Cells et y accéder ultérieurement par des API telles que Cells[ligne, colonne].
 Cependant, conserver les données des cellules dans le modèle Cells nécessitera plus de mémoire et si toutes les cellules sont conservées, la lecture du fichier modèle
-en mode LightCells deviendra le même avec une lecture normale.
+en mode LightCells deviendra identique à la lecture normale.
 
 
 ```python
@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | cell | [Cell](/cells/fr/python-net/aspose.cells/cell) | Cell objet en cours de traitement actuellement|
 ###  Remarques

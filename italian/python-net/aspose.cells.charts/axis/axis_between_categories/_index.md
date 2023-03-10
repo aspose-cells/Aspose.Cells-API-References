@@ -1,4 +1,4 @@
-﻿---
+---
 title: axis_between_categories proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

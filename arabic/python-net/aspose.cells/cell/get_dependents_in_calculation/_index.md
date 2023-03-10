@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_dependents_in_calculation
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, recursive):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | recursive | bool | ما إذا كان يُرجع هؤلاء المعالين الذين لا يشيرون إلى هذه الخلية مباشرةً<br/> لكن بالإشارة إلى أوراق أخرى لهذه الخلية|
 ###  ملاحظات
@@ -30,7 +30,7 @@ def get_dependents_in_calculation(self, recursive):
 لاستخدام هذه الطريقة ، يرجى التأكد من تعيين المصنف بقيمة حقيقية لـ
 تم احتساب [FormulaSettings.enable_calculation_chain](/cells/ar/python-net/aspose.cells/formulasettings#enable_calculation_chain) بالكامل باستخدام هذه المحددات.
 إذا لم يكن هناك مرجع صيغة لهذه الخلية ، فسيتم إرجاع قيمة خالية.
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

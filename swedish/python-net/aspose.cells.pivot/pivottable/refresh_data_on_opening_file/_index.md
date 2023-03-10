@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_data_on_opening_file fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

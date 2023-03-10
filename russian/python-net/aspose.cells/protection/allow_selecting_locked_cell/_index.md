@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_selecting_locked_cell недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_font_folder方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -18,7 +18,7 @@ def set_font_folder(self, font_folder, recursive):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | font_folder | str |包含 TrueType 字体的文件夹。|
 | recursive | bool |确定是否扫描子文件夹。|

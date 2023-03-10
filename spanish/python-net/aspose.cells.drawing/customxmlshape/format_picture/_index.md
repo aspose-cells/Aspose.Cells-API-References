@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_picture propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece las opciones del formato de imagen.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

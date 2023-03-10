@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReferenceCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.vba/vbaprojectreferencecollection/
 is_root: false
 ---
 ##  VbaProjectReferenceCollection sınıfı
-VBA projelerinin tüm referanslarını temsil eder.
+VBA projesinin tüm referanslarını temsil eder.
 
 
 
@@ -37,7 +37,7 @@ VbaProjectReferenceCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

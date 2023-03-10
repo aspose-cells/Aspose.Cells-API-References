@@ -1,4 +1,4 @@
-﻿---
+---
 title: Legend الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -29,7 +29,7 @@ is_root: false
 | [text_font](/cells/ar/python-net/aspose.cells.charts/legend/text_font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
 | [text_options](/cells/ar/python-net/aspose.cells.charts/legend/text_options) | الحصول على خيارات النص وتعيينها.|
 | [font](/cells/ar/python-net/aspose.cells.charts/legend/font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
-| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/legend/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.|
+| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/legend/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/legend/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [background](/cells/ar/python-net/aspose.cells.charts/legend/background) | الحصول على وضبط وضع عرض الخلفية|
 | [is_automatic_size](/cells/ar/python-net/aspose.cells.charts/legend/is_automatic_size) | يشير إلى ما إذا كان حجم إطار المخطط تلقائيًا أم لا.|
@@ -45,7 +45,7 @@ is_root: false
 | [default_width](/cells/ar/python-net/aspose.cells.charts/legend/default_width) | يمثل عرض الموضع الافتراضي|
 | [default_height](/cells/ar/python-net/aspose.cells.charts/legend/default_height) | يمثل ارتفاع الموضع الافتراضي|
 | [is_auto_text](/cells/ar/python-net/aspose.cells.charts/legend/is_auto_text) | يشير إلى أن النص تم إنشاؤه تلقائيًا.|
-| [is_deleted](/cells/ar/python-net/aspose.cells.charts/legend/is_deleted) | يشير إلى ما إذا تم حذف تسمية البيانات هذه.|
+| [is_deleted](/cells/ar/python-net/aspose.cells.charts/legend/is_deleted) | يشير إلى ما إذا تم حذف تسميات البيانات هذه.|
 | [text_horizontal_alignment](/cells/ar/python-net/aspose.cells.charts/legend/text_horizontal_alignment) | الحصول على المحاذاة الأفقية للنص وتعيينها.|
 | [text_vertical_alignment](/cells/ar/python-net/aspose.cells.charts/legend/text_vertical_alignment) |الحصول على المحاذاة الرأسية للنص أو تعيينها.|
 | [rotation_angle](/cells/ar/python-net/aspose.cells.charts/legend/rotation_angle) | يمثل زاوية استدارة النص.|
@@ -56,7 +56,7 @@ is_root: false
 | [reading_order](/cells/ar/python-net/aspose.cells.charts/legend/reading_order) | يمثل ترتيب قراءة النص.|
 | [direction_type](/cells/ar/python-net/aspose.cells.charts/legend/direction_type) | الحصول على اتجاه النص وتحديده.|
 | [is_text_wrapped](/cells/ar/python-net/aspose.cells.charts/legend/is_text_wrapped) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان النص ملتفًا أم لا.|
-| [is_resize_shape_to_fit_text](/cells/ar/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | الحصول على أو تحديد ما إذا كان يجب أن يكون الشكل مناسبًا تلقائيًا ليحتوي بالكامل على النص الموصوف بداخله.<br/> عندما يتم تحجيم النص داخل الشكل ليحتوي على كل النص الموجود بداخله.|
+| [is_resize_shape_to_fit_text](/cells/ar/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | الحصول على أو تحديد ما إذا كان يجب أن يكون الشكل مناسبًا تلقائيًا ليحتوي بالكامل على النص الموصوف بداخله. التركيب التلقائي هو<br/> عندما يتم تحجيم النص داخل الشكل ليحتوي على كل النص الموجود بداخله.|
 | [position](/cells/ar/python-net/aspose.cells.charts/legend/position) | الحصول على نوع موضع وسيلة الإيضاح أو تحديده.|
 | [legend_entries](/cells/ar/python-net/aspose.cells.charts/legend/legend_entries) | الحصول على مجموعة من كافة الكائنات LegendEntry في وسيلة إيضاح المخطط المحدد.<br/>تعيين مدخلات وسيلة الإيضاح للمخطط السطحي غير مدعوم.<br/> لذلك سيعود فارغًا إذا كان نوع المخطط هو نوع المخطط السطحي.|
 | [legend_entries_labels](/cells/ar/python-net/aspose.cells.charts/legend/legend_entries_labels) |يحصل على تسميات إدخالات وسيلة الإيضاح بعد استدعاء طريقة Chart.Calculate ().|
@@ -71,7 +71,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

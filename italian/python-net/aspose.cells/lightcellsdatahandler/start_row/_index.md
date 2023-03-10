@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Si prepara a elaborare una riga.
 
 ###  ritorna
 
-se questa riga (proprietà o dati delle celle) deve essere elaborata. false per ignorare questa riga e le sue celle e controllare la riga successiva.
+se questa riga (proprietà o dati delle celle) deve essere elaborata. false per ignorare questa riga e le relative celle e controllare la riga successiva.
 
 
 ```python
@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | l'indice della riga successiva da elaborare|
 

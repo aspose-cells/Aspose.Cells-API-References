@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_actual_size Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ Ruft die tatsächliche Größe des Diagramms in Pixeleinheiten ab.
 ###  Kehrt zurück
 
 Tatsächliche Größe in einem Array (Breite und Höhe).
-[0] ist Breite, [1] ist Höhe.
+[0] ist Breite; [1] ist die Höhe.
 
 
 ```python

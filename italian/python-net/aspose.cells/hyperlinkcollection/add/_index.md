@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_name | str | Cell nome.|
 | total_rows | int | Numero di righe in questo intervallo di collegamenti ipertestuali.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | first_row | int | Prima riga dell'intervallo di collegamenti ipertestuali.|
 | first_column | int | Prima colonna dell'intervallo di collegamenti ipertestuali.|
@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | Numero di colonne di questo intervallo di collegamenti ipertestuali.|
 | address | str | Indirizzo del collegamento ipertestuale.|
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook
@@ -82,7 +82,7 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_cell_name | str | La cella in alto a sinistra dell'intervallo.|
 | end_cell_name | str | La cella in basso a destra dell'intervallo.|

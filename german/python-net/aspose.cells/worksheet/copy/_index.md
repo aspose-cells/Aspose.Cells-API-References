@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -40,7 +40,7 @@ def copy(self, source_sheet, copy_options):
 | copy_options | [CopyOptions](/cells/de/python-net/aspose.cells/copyoptions) |  |
 ###  Bemerkungen
 
-Sie können copy Daten aus einem anderen Arbeitsblatt in derselben Datei oder einer anderen Datei speichern.
+Sie können copy Daten aus einem anderen Arbeitsblatt in derselben Datei oder einer anderen Datei speichern. Diese Methode unterstützt jedoch nicht das copy Zeichnen von Objekten wie Kommentaren, Bildern und Diagrammen.
 
 
 ###  Siehe auch

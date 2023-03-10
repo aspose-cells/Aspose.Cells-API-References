@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_row_lables_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ def get_row_lables_name(self):
 
 ###  ملاحظات
 
- ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
 الرجاء استخدام طريقة GlobalizationSettings.GetRowLabelsOfPivotTable ().
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ سبتمبر 2020.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

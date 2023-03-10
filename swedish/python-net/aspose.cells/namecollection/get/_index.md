@@ -1,4 +1,4 @@
-﻿---
+---
 title: get metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Elementets nollbaserade index.|
 
@@ -42,7 +42,7 @@ def get(self, text):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | text | str | Namntext.|
 

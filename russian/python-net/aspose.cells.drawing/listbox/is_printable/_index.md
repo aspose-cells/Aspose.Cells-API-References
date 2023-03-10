@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_printable недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Истинно, если объект доступен для печати
 
-###  Примеры
+###  Пример
 
 ```python
 

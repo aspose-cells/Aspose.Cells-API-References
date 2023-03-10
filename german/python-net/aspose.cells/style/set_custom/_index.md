@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_custom Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,7 +20,7 @@ def set_custom(self, custom, builtin_preference):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| custom | str | Benutzerdefinierte Zahlenformatzeichenfolge, sollte ein Invariantes Kulturmuster sein.|
+| custom | str | Benutzerdefinierte Zahlenformatzeichenfolge, sollte InvariantCulture-Muster sein.|
 | builtin_preference | bool | Wenn angegeben, stimmt die Zeichenfolge für das benutzerdefinierte Zahlenformat mit einem der integrierten Zahlenformate überein<br/> entsprechend den aktuellen regionalen Einstellungen, ob das Zahlenformat als integriert anstelle von Benutzerdefiniert eingestellt ist.|
 
 

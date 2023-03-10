@@ -1,4 +1,4 @@
-﻿---
+---
 title: align_top_right_corner yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,12 +18,12 @@ def align_top_right_corner(self, top_row, right_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | top_row | int | satır dizini.|
 | right_column | int | sütun indeksi.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

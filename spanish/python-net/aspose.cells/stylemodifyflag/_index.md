@@ -1,4 +1,4 @@
-﻿---
+---
 title: StyleModifyFlag enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -52,7 +52,7 @@ El tipo StyleModifyFlag expone los siguientes miembros:
 | FONT_UNDERLINE | Indica si se ha modificado la propiedad de subrayado de la fuente.|
 | FONT_STRIKE | Indica si se ha modificado la fuente de la propiedad de tachado.|
 | FONT_SCRIPT | Indica si se ha modificado la propiedad de subíndice o superíndice de la fuente.|
-| FONT_FAMILY | Indica si la familia de fuentes ha sido modificada.|
+| FONT_FAMILY | Indica si se ha modificado la familia de fuentes.|
 | FONT_CHARSET | Indica si se ha modificado el juego de caracteres de la fuente.|
 | FONT_SCHEME | no usado.|
 | FONT_DIRTY | no usado.|

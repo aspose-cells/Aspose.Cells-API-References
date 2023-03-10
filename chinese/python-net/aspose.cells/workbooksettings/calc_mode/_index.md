@@ -1,6 +1,6 @@
-﻿---
+---
 title: calc_mode 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -16,7 +16,7 @@ is_root: false
 
 仅为 MS Excel 设置。
 请手动调用 Workbook.CalculateFormula() 方法来计算带有 Aspose.Cells 的公式。
-注意：该成员现在已过时。请改用 FormulaSettings.CalculationMode。
+注意：该成员现已过时。相反，请使用 FormulaSettings.CalculationMode。
 自 2022 年 2 月起，此属性将在 12 个月后移除。
 Aspose 对您可能遇到的任何不便深表歉意。
 ### 定义：

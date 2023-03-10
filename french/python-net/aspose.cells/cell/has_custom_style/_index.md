@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_custom_style propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_custom_style propriété
 
-Indique si cette cellule a des paramètres de style personnalisés (différents de celui par défaut hérité
+Indique si cette cellule a des paramètres de style personnalisés (différents de ceux par défaut hérités
 de la ligne, de la colonne ou du classeur correspondant).
 ###  Définition:
 ```python

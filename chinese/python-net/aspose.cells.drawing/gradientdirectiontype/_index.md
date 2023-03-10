@@ -1,6 +1,6 @@
-﻿---
+---
 title: GradientDirectionType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 860
@@ -14,11 +14,11 @@ is_root: false
 
 GradientDirectionType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | FROM_UPPER_LEFT_CORNER |从左上角|
-| FROM_UPPER_RIGHT_CORNER |从右上角|
+| FROM_UPPER_RIGHT_CORNER |来自右上角|
 | FROM_LOWER_LEFT_CORNER |从左下角|
 | FROM_LOWER_RIGHT_CORNER |从右下角|
 | FROM_CENTER |从中心|

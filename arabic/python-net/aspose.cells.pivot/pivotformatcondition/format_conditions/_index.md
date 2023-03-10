@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_conditions الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions الملكية
 
-احصل على شروط التنسيق لتنسيق حالة الجدول المحوري.
+احصل على شروط التنسيق لتنسيق شرط الجدول المحوري.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_tiff yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | çıkış görüntüsünün akışı|
 
@@ -34,13 +34,13 @@ def to_tiff(self, filename):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | filename | str | çıktı görüntüsünün dosya adı|
 
-###  örnekler
+###  Örnek
 
-Aşağıdaki kod, ilk sayfanın tüm sayfalarını bir Tiff görüntüsüne çıkarır.
+Aşağıdaki kod, ilk sayfanın tüm sayfalarını Tiff görüntüsüne çıkarır.
 
 ```python
 from aspose.cells import SaveFormat, Workbook

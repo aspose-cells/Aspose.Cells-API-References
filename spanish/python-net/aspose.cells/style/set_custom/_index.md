@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_custom método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,9 +18,9 @@ def set_custom(self, custom, builtin_preference):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| custom | str | Cadena de formato de número personalizado, debe ser un patrón de referencia cultural invariable.|
+| custom | str | Cadena de formato de número personalizado, debe ser el patrón InvariantCulture.|
 | builtin_preference | bool | Si la cadena de formato de número personalizado coincide con uno de los formatos de número incorporados<br/> correspondiente a la configuración regional actual, ya sea que establezca el formato de número como incorporado en lugar de Personalizado.|
 
 

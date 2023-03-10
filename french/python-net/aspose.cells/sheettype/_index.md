@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,13 +17,13 @@ Le type SheetType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| VB | Modules Visual Basic|
+| VB | Module Visual Basic|
 | WORKSHEET |  |
-| CHART | graphique|
+| CHART | Graphique|
 | BIFF4_MACRO | Feuille macro BIFF4|
 | INTERNATIONAL_MACRO | Fiche macro internationale|
 | OTHER |  |
-| DIALOG |Feuille de travail sur les dialogues|
+| DIALOG |Feuille de travail de dialogue|
 
 
 

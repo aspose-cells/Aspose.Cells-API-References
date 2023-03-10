@@ -1,6 +1,6 @@
-﻿---
+---
 title: PageSetup类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1140
@@ -53,7 +53,7 @@ PageSetup 类型公开了以下成员：
 | [print_errors](/cells/zh/python-net/aspose.cells/pagesetup/print_errors) |指定显示的打印错误类型。|
 | [print_headings](/cells/zh/python-net/aspose.cells/pagesetup/print_headings) |表示行标题和列标题是否与此页一起打印。|
 | [print_gridlines](/cells/zh/python-net/aspose.cells/pagesetup/print_gridlines) |表示是否在页面上打印单元格网格线。|
-| [zoom](/cells/zh/python-net/aspose.cells/pagesetup/zoom) |以百分比表示比例因子。它应该在 10 到 400 之间。|
+| [zoom](/cells/zh/python-net/aspose.cells/pagesetup/zoom) |表示以百分比表示的比例因子。它应该在 10 到 400 之间。|
 | [is_auto_first_page_number](/cells/zh/python-net/aspose.cells/pagesetup/is_auto_first_page_number) |指示第一个页码是否自动分配。|
 | [print_quality](/cells/zh/python-net/aspose.cells/pagesetup/print_quality) |代表打印质量。|
 | [print_copies](/cells/zh/python-net/aspose.cells/pagesetup/print_copies) |获取和设置要打印的份数。|

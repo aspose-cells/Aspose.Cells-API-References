@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_dynamic_array_formula método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,11 +22,11 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_formula | str | la expresión de la fórmula|
 | options | [FormulaParseOptions](/cells/es/python-net/aspose.cells/formulaparseoptions) | opciones para analizar la fórmula.<br/> La opción "Analizar" se ignorará y la fórmula siempre se analizará inmediatamente|
-| calculate_value | bool | si calcular esta fórmula de matriz dinámica para aquellas celdas en el rango derramado.|
+| calculate_value | bool | si calcula esta fórmula de matriz dinámica para esas celdas en el rango derramado.|
 
 
 ##  set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value) {#str-FormulaParseOptions-list-bool-bool}
@@ -44,7 +44,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_formula | str | la expresión de la fórmula|
 | options | [FormulaParseOptions](/cells/es/python-net/aspose.cells/formulaparseoptions) | opciones para analizar la fórmula.<br/> La opción "Analizar" se ignorará y la fórmula siempre se analizará inmediatamente|
@@ -68,7 +68,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_formula | str | la expresión de la fórmula|
 | options | [FormulaParseOptions](/cells/es/python-net/aspose.cells/formulaparseoptions) | opciones para analizar la fórmula.<br/> La opción "Analizar" se ignorará y la fórmula siempre se analizará inmediatamente|

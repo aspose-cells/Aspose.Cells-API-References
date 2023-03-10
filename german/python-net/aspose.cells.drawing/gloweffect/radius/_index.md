@@ -1,4 +1,4 @@
-﻿---
+---
 title: radius Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die radius des Glühens in Punkteinheiten ab und legt sie fest.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die GlowEffect.Size-Eigenschaft.
  Diese Property wird 6 Monate später seit September 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

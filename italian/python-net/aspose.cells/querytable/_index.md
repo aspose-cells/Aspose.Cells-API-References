@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe QueryTable
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -20,13 +20,13 @@ Il tipo QueryTable espone i membri seguenti:
 | [connection_id](/cells/it/python-net/aspose.cells/querytable/connection_id) |Ottiene l'ID connessione della tabella di query.|
 | [external_connection](/cells/it/python-net/aspose.cells/querytable/external_connection) | Ottiene la connessione esterna correlata.|
 | [name](/cells/it/python-net/aspose.cells/querytable/name) | Ottiene il nome di querytable.|
-| [result_range](/cells/it/python-net/aspose.cells/querytable/result_range) | Ottiene l'intervallo dei risultati.|
+| [result_range](/cells/it/python-net/aspose.cells/querytable/result_range) | Ottiene l'intervallo del risultato.|
 | [preserve_formatting](/cells/it/python-net/aspose.cells/querytable/preserve_formatting) | Restituisce o imposta PreserveFormatting dell'oggetto.|
 | [adjust_column_width](/cells/it/python-net/aspose.cells/querytable/adjust_column_width) | Restituisce o imposta l'oggetto AdjustColumnWidth dell'oggetto.|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

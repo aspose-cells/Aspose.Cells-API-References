@@ -1,4 +1,4 @@
-﻿---
+---
 title: x_error_bar الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

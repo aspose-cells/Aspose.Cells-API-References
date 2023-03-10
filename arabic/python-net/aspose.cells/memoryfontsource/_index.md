@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemoryFontSource الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/ar/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | مخرج.|
+| [MemoryFontSource(font_data)](/cells/ar/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Ctor.|
 
 
 ###  ملكيات

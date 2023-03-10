@@ -1,4 +1,4 @@
-﻿---
+---
 title: alternative_text Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die beschreibende (alternative) Textzeichenfolge des Slicer-Objekts zurück oder legt sie fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

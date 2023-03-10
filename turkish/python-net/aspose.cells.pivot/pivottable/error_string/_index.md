@@ -1,4 +1,4 @@
-﻿---
+---
 title: error_string mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  error_string mülk
 
 Hata içeren hücrelerde görüntülenen dizeyi alır
-DisplayErrorString özelliği true olduğunda Varsayılan değer boş bir dizedir.
+DisplayErrorString özelliği true olduğunda. Varsayılan değer boş bir dizedir.
 ###  Tanım:
 ```python
 @property

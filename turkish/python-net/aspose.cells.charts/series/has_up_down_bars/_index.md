@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_up_down_bars mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

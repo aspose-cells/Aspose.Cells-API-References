@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_3d fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_3d fastighet
 
-Indikerar om sjökortet är ett 3D-diagram.
+Anger om diagrammet är ett 3d-diagram.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_link_to_content metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_link_to_content(self, name, source):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på fastigheten.|
 | source | str | Källan till fastigheten|

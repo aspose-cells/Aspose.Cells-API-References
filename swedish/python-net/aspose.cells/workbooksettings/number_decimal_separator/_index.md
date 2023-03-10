@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_decimal_separator fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator fastighet
 
-Hämtar eller ställer in decimalavgränsaren för formatering/analys av numeriska värden.
+Hämtar eller ställer in decimalavgränsaren för formatering/analys av numeriska värden. Standard är decimalavgränsaren för aktuell region.
 ###  Definition:
 ```python
 @property

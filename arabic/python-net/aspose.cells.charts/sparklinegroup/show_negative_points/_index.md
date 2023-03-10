@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_negative_points الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

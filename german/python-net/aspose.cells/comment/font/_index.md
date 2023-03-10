@@ -1,4 +1,4 @@
-﻿---
+---
 title: font Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die font des Kommentars ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

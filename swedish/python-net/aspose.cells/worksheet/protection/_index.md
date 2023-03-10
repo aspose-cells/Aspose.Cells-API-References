@@ -1,4 +1,4 @@
-﻿---
+---
 title: protection fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection fastighet
 
-Representerar de olika typerna av protection-alternativ som är tillgängliga för ett kalkylblad.
+Representerar de olika typerna av protection-alternativ som är tillgängliga för ett kalkylblad. Stöder avancerade protection-alternativ i ExcelXP och högre version.
 
 ###  Anmärkningar
 

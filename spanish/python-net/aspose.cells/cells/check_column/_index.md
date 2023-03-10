@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_column método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def check_column(self, column_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | El índice de la columna.|
 

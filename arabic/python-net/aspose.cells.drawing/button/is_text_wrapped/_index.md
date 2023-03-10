@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_text_wrapped الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على وتعيين نوع التفاف النص للشكل الذي يحتوي على نص.
 
-###  أمثلة
+###  مثال
 
 ```python
 

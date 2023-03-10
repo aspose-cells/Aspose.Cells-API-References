@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_threaded_comment mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bu yorumun zincirleme bir yorum olup olmadığını gösterir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

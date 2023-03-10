@@ -1,4 +1,4 @@
-﻿---
+---
 title: macro_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el nombre de la macro.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

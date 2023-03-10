@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFieldSubtotalType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,7 +19,7 @@ Der Typ PivotFieldSubtotalType macht die folgenden Member verfügbar:
 | :- | :- |
 | NONE | Stellt den Zwischensummentyp Keine dar.|
 | AUTOMATIC | Stellt den automatischen Zwischensummentyp dar.|
-| SUM | Stellt den Zwischensummentyp Summe dar.|
+| SUM | Stellt den Zwischensummentyp Sum dar.|
 | COUNT | Stellt den Zwischensummentyp "Anzahl" dar.|
 | AVERAGE | Stellt den Zwischensummentyp Durchschnitt dar.|
 | MAX | Stellt den maximalen Zwischensummentyp dar.|

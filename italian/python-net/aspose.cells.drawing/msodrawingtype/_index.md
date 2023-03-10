@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -21,15 +21,15 @@ Il tipo MsoDrawingType espone i membri seguenti:
 | LINE | Linea|
 | RECTANGLE | Rettangolo|
 | OVAL | Ovale|
-| ARC | arco|
-| CHART | grafico|
+| ARC | Arco|
+| CHART | Grafico|
 | TEXT_BOX | Casella di testo|
-| BUTTON | pulsante|
-| PICTURE | Immagini|
+| BUTTON | Pulsante|
+| PICTURE | Immagine|
 | POLYGON | Poligono|
-| CHECK_BOX | casella di controllo|
-| RADIO_BUTTON | tasti della radio|
-| LABEL | etichetta|
+| CHECK_BOX | Casella di controllo|
+| RADIO_BUTTON | Pulsante di radio|
+| LABEL | Etichetta|
 | DIALOG_BOX | La finestra di dialogo|
 | SPINNER | Filatore|
 | SCROLL_BAR | Barra di scorrimento|
@@ -38,13 +38,13 @@ Il tipo MsoDrawingType espone i membri seguenti:
 | COMBO_BOX | Casella combinata|
 | COMMENT | Commento|
 | OLE_OBJECT | OleObject|
-| CELLS_DRAWING | Solo per preservare gli oggetti di disegno nel file modello.|
+| CELLS_DRAWING | Solo per preservare l'oggetto di disegno nel file modello.|
 | UNKNOWN | Solo per preservare l'oggetto di disegno nel file xlsx.|
-| SLICER | affettatrice|
+| SLICER | Affettatrice|
 | WEB_EXTENSION | Estensione web|
 | SMART_ART | Arte intelligente|
-| CUSTOM_XML | Forme xml personalizzate, ad esempio Ink.|
-| TIMELINE | sequenza temporale|
+| CUSTOM_XML | Forma xml personalizzata, ad esempio Ink.|
+| TIMELINE | Sequenza temporale|
 | MODEL_3D | Modello 3D|
 
 

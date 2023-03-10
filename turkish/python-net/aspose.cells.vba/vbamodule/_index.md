@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModule sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,11 +19,11 @@ VbaModule türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [name](/cells/tr/python-net/aspose.cells.vba/vbamodule/name) | Module adını alır ve ayarlar.|
 | [type](/cells/tr/python-net/aspose.cells.vba/vbamodule/type) | Modül tipini alır.|
-| [codes](/cells/tr/python-net/aspose.cells.vba/vbamodule/codes) | Modüllerin kodlarını alır ve ayarlar.|
+| [codes](/cells/tr/python-net/aspose.cells.vba/vbamodule/codes) | Modülün kodlarını alır ve ayarlar.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

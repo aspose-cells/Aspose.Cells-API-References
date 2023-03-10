@@ -1,4 +1,4 @@
-﻿---
+---
 title: footer_margin_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin_inch Eigentum
 
-Stellt den Abstand vom unteren Rand der Seite zur Fußzeile in Zolleinheiten dar.
+Stellt den Abstand vom unteren Rand der Seite zur Fußzeile in Zoll dar.
 ###  Definition:
 ```python
 @property

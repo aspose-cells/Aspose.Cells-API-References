@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_view_column_width_pixel
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,12 +8,12 @@ url: /ar/python-net/aspose.cells/cells/get_view_column_width_pixel/
 is_root: false
 ---
 ##  get_view_column_width_pixel(column) {#int}
-احصل على العرض في أنواع طرق العرض المختلفة.
+احصل على العرض بنوع عرض مختلف.
 
 
 ###  عائدات
 
-عرض العمود بوحدات البكسل
+عرض العمود بوحدة البكسل
 
 
 ```python
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود.|
 

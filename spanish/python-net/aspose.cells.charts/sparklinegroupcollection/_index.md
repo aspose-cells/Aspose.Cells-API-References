@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroupCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,13 +31,13 @@ El tipo SparklineGroupCollection expone los siguientes miembros:
 | [last_index_of(item, index)](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) | Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de arreglos que se extiende desde el primer elemento hasta el índice especificado.|
 | [last_index_of(item, index, count)](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) |Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de matriz que contiene el número especificado de elementos y termina en el índice especificado.|
 | [add(type, data_range, is_vertical, location_range)](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection/add/#SparklineType-str-bool-CellArea) | Agrega un artículo [SparklineGroup](/cells/es/python-net/aspose.cells.charts/sparklinegroup) a la colección.|
-| [clear_sparklines(cell_area)](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Borra los minigráficos que hay dentro de un área de celdas.|
+| [clear_sparklines(cell_area)](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Borra los minigráficos que se encuentran dentro de un área de celdas.|
 | [clear_sparkline_groups(cell_area)](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Borra los grupos de minigráficos que se superponen a un área de celdas.|
 | [binary_search(item)](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection/binary_search/#SparklineGroup) | Busca un elemento en toda la lista de matrices ordenadas mediante el comparador predeterminado y devuelve el índice de base cero del elemento.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

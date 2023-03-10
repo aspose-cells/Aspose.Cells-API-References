@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_font_folders metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_font_folders(self, font_folders, recursive):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | font_folders | list | Mapparna som innehåller TrueType-teckensnitt.|
 | recursive | bool | Bestämmer om undermappar ska skannas eller inte.|

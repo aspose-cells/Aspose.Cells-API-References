@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة insert_row
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def insert_row(self, row_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 

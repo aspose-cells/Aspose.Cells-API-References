@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range2 Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 Eigentum
 
 Gibt ein CellArea-Objekt zurück, das den Bereich darstellt, der den gesamten PivotTable-Bericht enthält.
-enthält Seitenfelder.
+enthält Seitenfelder. Schreibgeschützt.
 ###  Definition:
 ```python
 @property

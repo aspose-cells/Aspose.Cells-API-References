@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListColumn Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -33,7 +33,7 @@ Der Typ ListColumn macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellsHelper, Workbook

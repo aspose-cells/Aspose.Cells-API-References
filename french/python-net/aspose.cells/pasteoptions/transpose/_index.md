@@ -1,4 +1,4 @@
-﻿---
+---
 title: transpose propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose propriété
 
-Fidèle à transpose lignes et colonnes lorsque la plage est collée.
+Fidèle à transpose lignes et colonnes lorsque la plage est collée. La valeur par défaut est Faux.
 ###  Définition:
 ```python
 @property

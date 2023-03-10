@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellValueType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -20,7 +20,7 @@ Typen CellValueType avslöjar följande medlemmar:
 | IS_BOOL | Cell-värdet är booleskt.|
 | IS_DATE_TIME | Cell värde är datetime.|
 | IS_ERROR | Cell innehåller felvärde|
-| IS_NULL | Tomma celler.|
+| IS_NULL | Tom cell.|
 | IS_NUMERIC | Cell-värdet är numeriskt.|
 | IS_STRING | Cell värde är sträng.|
 | IS_UNKNOWN | Cell värdetyp är okänd.|

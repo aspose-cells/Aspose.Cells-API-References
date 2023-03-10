@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfBookmarkEntry класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -34,7 +34,7 @@ PdfBookmarkEntry — запись в закладке pdf.
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

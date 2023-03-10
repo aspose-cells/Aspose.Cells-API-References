@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_height_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch fastighet
 
-Höjden på fönstret, i enheter av tum.
+Fönstrets höjd, i enhet av tum.
 ###  Definition:
 ```python
 @property

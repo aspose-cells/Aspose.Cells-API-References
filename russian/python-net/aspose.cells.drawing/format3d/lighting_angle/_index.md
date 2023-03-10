@@ -1,4 +1,4 @@
-﻿---
+---
 title: lighting_angle недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  lighting_angle недвижимость
 
-Получает и задает угол освещения в диапазоне от 0 до 359,9 градусов.
+Получает и задает угол освещения. Диапазон от 0 до 359,9 градусов.
 ###  Определение:
 ```python
 @property

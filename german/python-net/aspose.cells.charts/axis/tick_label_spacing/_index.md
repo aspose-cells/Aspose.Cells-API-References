@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_label_spacing Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing Eigentum
 
-Stellt die Anzahl der Kategorien oder Serien zwischen Teilstrichbeschriftungen dar.
+Stellt die Anzahl der Kategorien oder Serien zwischen Teilstrichbeschriftungen dar. Gilt nur für Kategorie- und Serienachsen.
 
 ###  Bemerkungen
 

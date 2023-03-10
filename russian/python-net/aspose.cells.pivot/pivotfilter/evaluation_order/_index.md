@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluation_order недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

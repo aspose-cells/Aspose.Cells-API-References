@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableAutoFormatType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -38,7 +38,7 @@ is_root: false
 | TABLE7 | Представляет тип формата Table7.|
 | TABLE8 | Представляет тип формата Table8.|
 | TABLE9 | Представляет тип формата Table9.|
-| TABLE10 | Представляет тип формата таблицы 10.|
+| TABLE10 | Представляет тип формата Table10.|
 
 
 

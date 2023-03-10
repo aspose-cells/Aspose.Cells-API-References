@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_name | str | Namn på källarbetsblad.|
 ###  Undantag
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| sheet_index | int | Källregister källblad.|
+| sheet_index | int | Index över källarbetsblad.|
 
 
 

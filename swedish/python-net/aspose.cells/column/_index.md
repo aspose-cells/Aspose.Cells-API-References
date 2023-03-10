@@ -1,4 +1,4 @@
-﻿---
+---
 title: Column klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,11 +18,11 @@ Typen Column avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [index](/cells/sv/python-net/aspose.cells/column/index) | Hämtar indexet för denna kolumn.|
-| [width](/cells/sv/python-net/aspose.cells/column/width) | Hämtar och ställer in kolumnbredden i teckenenheter.|
+| [width](/cells/sv/python-net/aspose.cells/column/width) | Hämtar och ställer in kolumnbredden i teckenenhet.|
 | [group_level](/cells/sv/python-net/aspose.cells/column/group_level) |Hämtar gruppnivån för kolumnen.|
 | [is_hidden](/cells/sv/python-net/aspose.cells/column/is_hidden) | Indikerar om kolumnen är dold.|
-| [has_custom_style](/cells/sv/python-net/aspose.cells/column/has_custom_style) | Indikerar om den här kolumnen har anpassade stilinställningar (andra från standarden som ärvts från arbetsboken).|
-| [style](/cells/sv/python-net/aspose.cells/column/style) | Får stilen i denna kolumn.|
+| [has_custom_style](/cells/sv/python-net/aspose.cells/column/has_custom_style) | Indikerar om den här kolumnen har anpassade stilinställningar (som skiljer sig från standarden som ärvts från arbetsboken).|
+| [style](/cells/sv/python-net/aspose.cells/column/style) | Får stilen på den här kolumnen.|
 | [is_collapsed](/cells/sv/python-net/aspose.cells/column/is_collapsed) | om kolumnen är kollapsad|
 
 
@@ -30,7 +30,7 @@ Typen Column avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [apply_style(style, flag)](/cells/sv/python-net/aspose.cells/column/apply_style/#Style-StyleFlag) | Tillämpar format för en hel kolumn.|
-| [get_style()](/cells/sv/python-net/aspose.cells/column/get_style/#) | Får stilen i denna kolumn.|
+| [get_style()](/cells/sv/python-net/aspose.cells/column/get_style/#) | Får stilen på den här kolumnen.|
 | [set_style(style)](/cells/sv/python-net/aspose.cells/column/set_style/#Style) | Ställer in stilen för denna kolumn.|
 
 

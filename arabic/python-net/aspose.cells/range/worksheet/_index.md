@@ -1,4 +1,4 @@
-﻿---
+---
 title: worksheet الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  worksheet الملكية
 
-الحصول على العنصر [Range.worksheet](/cells/ar/python-net/aspose.cells/range#worksheet) الذي يحتوي على هذا النطاق.
+الحصول على الكائن [Range.worksheet](/cells/ar/python-net/aspose.cells/range#worksheet) الذي يحتوي على هذا النطاق.
 ###  تعريف:
 ```python
 @property

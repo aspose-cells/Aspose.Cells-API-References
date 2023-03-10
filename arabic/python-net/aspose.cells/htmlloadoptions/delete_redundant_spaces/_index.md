@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_redundant_spaces الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  delete_redundant_spaces الملكية
 
- يشير إلى ما إذا كان سيتم حذف المسافات الزائدة عند التفاف النص على الأسطر أم لا<br>العلامة. القيمة الافتراضية هي false.
+ الإشارة إلى ما إذا كان سيتم حذف المسافات الزائدة عند التفاف النص على الأسطر أم لا<br>العلامة ، القيمة الافتراضية هي false.
 ###  تعريف:
 ```python
 @property

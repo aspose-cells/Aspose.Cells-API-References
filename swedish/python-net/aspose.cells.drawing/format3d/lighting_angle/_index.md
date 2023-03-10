@@ -1,4 +1,4 @@
-﻿---
+---
 title: lighting_angle fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  lighting_angle fastighet
 
-Hämtar och ställer in belysningsvinkeln. Omfång från 0 till 359,9 grader.
+Hämtar och ställer in belysningsvinkeln. Spänning från 0 till 359,9 grader.
 ###  Definition:
 ```python
 @property

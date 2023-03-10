@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_inch الملكية
 
-الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، بوحدات البوصات.
+الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، بوحدة البوصة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد TotalsCalculation
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ is_root: false
 | VAR | يمثل حساب مجاميع المتغيرات.|
 | COUNT_NUMS | يمثل حساب مجاميع التعداد.|
 | STD_DEV | يمثل حساب مجاميع StdDev.|
-| NONE | لا يمثل حساب مجاميع.|
+| NONE | لا يمثل حساب إجمالي.|
 | CUSTOM | يمثل الحساب المخصص.|
 
 

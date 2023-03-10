@@ -1,6 +1,6 @@
-﻿---
+---
 title: image_scalable 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 440
@@ -10,7 +10,7 @@ is_root: false
 ## image_scalable 属性
 
 指示是否使用可伸缩单位来描述图像宽度
-当使用可缩放单位来描述列宽时。
+当使用可伸缩单位来描述列宽时。
 默认值是true。
 ### 定义：
 ```python

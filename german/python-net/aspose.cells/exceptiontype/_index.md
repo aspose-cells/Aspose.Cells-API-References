@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExceptionType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,7 +29,7 @@ Der Typ ExceptionType macht die folgenden Member verfügbar:
 | LICENSE | Lizenzbezogene Fehler.|
 | LIMITATION |Fehler außerhalb der MS Excel-Beschränkung.|
 | PAGE_SETUP | Ungültige Seiteneinrichtungseinstellung.|
-| PIVOT_TABLE | Ungültige Pivot-Tabelleneinstellung.|
+| PIVOT_TABLE | Ungültige PivotTable-Einstellung.|
 | SHAPE | Ungültige Zeichnungsobjekteinstellung.|
 | SPARKLINE | Ungültige Sparkline-Objekteinstellung.|
 | SHEET_NAME | Ungültiger Arbeitsblattname.|
@@ -37,9 +37,9 @@ Der Typ ExceptionType macht die folgenden Member verfügbar:
 | INTERRUPTED | Der Vorgang wird unterbrochen.|
 | IO | Die Datei ist ungültig.|
 | PERMISSION | Zum Öffnen dieser Datei ist eine Berechtigung erforderlich.|
-| UNSUPPORTED_FEATURE | Nicht unterstützte Funktionen.|
+| UNSUPPORTED_FEATURE | Nicht unterstützte Funktion.|
 | UNSUPPORTED_STREAM | Nicht unterstützter Stream, der geöffnet werden soll.|
-| UNDISCLOSED_INFORMATION | Die Dateien enthalten einige nicht offengelegte Informationen.|
+| UNDISCLOSED_INFORMATION | Dateien enthält einige nicht offengelegte Informationen.|
 | FILE_CORRUPTED | Dateiinhalt ist beschädigt.|
 
 

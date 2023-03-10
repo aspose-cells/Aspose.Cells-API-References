@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_standard_built_in_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,9 +22,9 @@ def get_standard_built_in_name(self, local_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| local_name | str | النص المعتمد على الإعدادات المحلية للاسم المضمن.|
+| local_name | str | النص المعتمد على الإعدادات المحلية للاسم المضمن. تم تحديد الإعدادات المحلية بواسطة المصنف الذي يتم استخدام هذه الإعدادات من أجله.|
 
 
 

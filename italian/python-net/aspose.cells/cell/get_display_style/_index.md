@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_display_style
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | include_merged_borders | bool | Indica se controllare i bordi delle celle unite.|
 

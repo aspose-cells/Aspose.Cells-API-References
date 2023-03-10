@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -39,7 +39,7 @@ Le type PivotField expose les membres suivants :
 | [is_auto_sort](/cells/fr/python-net/aspose.cells.pivot/pivotfield/is_auto_sort) | Indique si le champ de tableau croisé dynamique spécifié est trié automatiquement.|
 | [is_ascend_sort](/cells/fr/python-net/aspose.cells.pivot/pivotfield/is_ascend_sort) | Indique si le champ de tableau croisé dynamique spécifié est trié automatiquement par ordre croissant.|
 | [auto_sort_field](/cells/fr/python-net/aspose.cells.pivot/pivotfield/auto_sort_field) | Représente l'index de champ de tri automatique.<br/> -1 signifie PivotField lui-même, les autres signifient la position des champs de données.|
-| [is_auto_show](/cells/fr/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Indique si le champ de tableau croisé dynamique spécifié est automatiquement affiché, valide uniquement pour Excel 2003.|
+| [is_auto_show](/cells/fr/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Indique si le champ de tableau croisé dynamique spécifié est automatiquement affiché, uniquement valable pour Excel 2003.|
 | [is_ascend_show](/cells/fr/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) | Indique si le champ de tableau croisé dynamique spécifié s'affiche automatiquement en ordre croissant.|
 | [auto_show_count](/cells/fr/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |Représente le nombre d'éléments du haut ou du bas<br/> qui sont automatiquement affichés dans le champ de tableau croisé dynamique spécifié.|
 | [auto_show_field](/cells/fr/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Représente l'index de champ d'affichage automatique. -1 signifie PivotField lui-même.<br/> Il doit s'agir de l'index des champs de données.|
@@ -68,7 +68,7 @@ Le type PivotField expose les membres suivants :
 | [get_pivot_filter_by_type(type)](/cells/fr/python-net/aspose.cells.pivot/pivotfield/get_pivot_filter_by_type/#PivotFilterType) | Obtient le filtre pivot du champ pivot par type|
 | [get_pivot_filters()](/cells/fr/python-net/aspose.cells.pivot/pivotfield/get_pivot_filters/#) | Obtient les filtres de pivot du champ pivot|
 | [init_pivot_items()](/cells/fr/python-net/aspose.cells.pivot/pivotfield/init_pivot_items/#) | Init les éléments pivot du champ pivot|
-| [get_calculated_field_formula()](/cells/fr/python-net/aspose.cells.pivot/pivotfield/get_calculated_field_formula/#) | Obtient la chaîne de formule du champ calculé spécifié.|
+| [get_calculated_field_formula()](/cells/fr/python-net/aspose.cells.pivot/pivotfield/get_calculated_field_formula/#) | Récupère la chaîne de formule du champ calculé spécifié .|
 | [set_subtotals(subtotal_type, shown)](/cells/fr/python-net/aspose.cells.pivot/pivotfield/set_subtotals/#PivotFieldSubtotalType-bool) | Définit si le champ spécifié affiche ces sous-totaux.|
 | [get_subtotals(subtotal_type)](/cells/fr/python-net/aspose.cells.pivot/pivotfield/get_subtotals/#PivotFieldSubtotalType) | Obtient si le champ spécifié affiche ces sous-totaux.|
 | [is_hidden_item(index)](/cells/fr/python-net/aspose.cells.pivot/pivotfield/is_hidden_item/#int) | Indique si le PivotItem spécifique est masqué.|
@@ -79,7 +79,7 @@ Le type PivotField expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

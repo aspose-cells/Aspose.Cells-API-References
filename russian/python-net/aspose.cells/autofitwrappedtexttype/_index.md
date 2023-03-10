@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFitWrappedTextType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  AutoFitWrappedTextType перечисление
-Представляет тип автоподгонки обернутого текста.
+Представляет тип автоподбора обернутого текста.
 
 
 

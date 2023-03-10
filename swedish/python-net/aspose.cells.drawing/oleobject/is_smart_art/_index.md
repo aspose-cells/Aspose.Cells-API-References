@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_smart_art fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Indikerar om formen är smart konst.
 
 ###  Anmärkningar
 
-Endast för ooxml-filer.
+Endast för ooxml-fil.
 
 ###  Exempel
 

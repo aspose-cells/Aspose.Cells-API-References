@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /sv/python-net/aspose.cells.drawing/
 is_root: false
 ---
- De**Aspose.Cells.Drawing** Namnutrymmet tillhandahåller klasser som gör det möjligt att skapa och ändra ritningsformer, formulärkontroller och mer avancerade ritobjekt.
+ De**Aspose.Cells.Drawing** namnutrymme tillhandahåller klasser som gör det möjligt att skapa och ändra ritformer, formulärkontroller och mer avancerade ritobjekt.
 
 ###  Klasser
 | Klass| Beskrivning|
@@ -16,8 +16,8 @@ is_root: false
 | [Area](/cells/sv/python-net/aspose.cells.drawing/area) | Kapslar in objektet som representerar ett områdesformat.|
 | [AutomaticFill](/cells/sv/python-net/aspose.cells.drawing/automaticfill) | representerar automatisk fyllning.|
 | [BaseShapeGuide](/cells/sv/python-net/aspose.cells.drawing/baseshapeguide) | Representerar formguiden.|
-| [Bevel](/cells/sv/python-net/aspose.cells.drawing/bevel) | Representerar en avfasning av en form|
-| [Button](/cells/sv/python-net/aspose.cells.drawing/button) | Representerar formulärkontroll:-knappen|
+| [Bevel](/cells/sv/python-net/aspose.cells.drawing/bevel) | Representerar en fas av en form|
+| [Button](/cells/sv/python-net/aspose.cells.drawing/button) | Representerar formulärkontrollen:-knappen|
 | [CellsDrawing](/cells/sv/python-net/aspose.cells.drawing/cellsdrawing) | Representerar den automatiska formen och ritobjektet.|
 | [ChartShape](/cells/sv/python-net/aspose.cells.drawing/chartshape) | Representerar diagrammets form.<br/> Egenskaper och metoder för ChartObject-objektet styr utseendet och storleken på det inbäddade diagrammet i kalkylbladet.|
 | [CheckBox](/cells/sv/python-net/aspose.cells.drawing/checkbox) |Representerar ett kryssruteobjekt i ett kalkylblad.|
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/sv/python-net/aspose.cells.drawing/combobox) | Representerar kontrollformuläret ComboBox.|
 | [CommentShape](/cells/sv/python-net/aspose.cells.drawing/commentshape) | Representerar formen på kommentaren.|
 | [CustomGeometry](/cells/sv/python-net/aspose.cells.drawing/customgeometry) | Representerar en anpassad geometrisk form.|
-| [CustomXmlShape](/cells/sv/python-net/aspose.cells.drawing/customxmlshape) | Representerar anpassade xml-former, som bläck.|
+| [CustomXmlShape](/cells/sv/python-net/aspose.cells.drawing/customxmlshape) | Representerar anpassad xml-form, som bläck.|
 | [DialogBox](/cells/sv/python-net/aspose.cells.drawing/dialogbox) | Representerar dialogrutan.|
 | [Fill](/cells/sv/python-net/aspose.cells.drawing/fill) | Representerar formens fyllnadsformat.|
 | [FillFormat](/cells/sv/python-net/aspose.cells.drawing/fillformat) | Kapslar in objektet som representerar fyllningsformatering för en form.|
@@ -41,7 +41,7 @@ is_root: false
 | [GroupShape](/cells/sv/python-net/aspose.cells.drawing/groupshape) |Representerar gruppformen som innehåller de individuella formerna.|
 | [Label](/cells/sv/python-net/aspose.cells.drawing/label) | Kapslar in objektet som representerar en etikett i ett kalkylblad.|
 | [Line](/cells/sv/python-net/aspose.cells.drawing/line) | Kapslar in objektet som representerar linjeformatet.|
-| [LineFormat](/cells/sv/python-net/aspose.cells.drawing/lineformat) | Representerar alla inställningar för linjen.|
+| [LineFormat](/cells/sv/python-net/aspose.cells.drawing/lineformat) | Representerar alla inställningar av linjen.|
 | [LineShape](/cells/sv/python-net/aspose.cells.drawing/lineshape) | Representerar linjeformen.|
 | [ListBox](/cells/sv/python-net/aspose.cells.drawing/listbox) | Representerar ett listboxobjekt.|
 | [MsoFillFormat](/cells/sv/python-net/aspose.cells.drawing/msofillformat) | Representerar fyllningsformatering för en form.|
@@ -64,7 +64,7 @@ is_root: false
 | [ScrollBar](/cells/sv/python-net/aspose.cells.drawing/scrollbar) | Representerar ett rullningslistobjekt.|
 | [ShadowEffect](/cells/sv/python-net/aspose.cells.drawing/shadoweffect) |Den här klassen anger skuggeffekten för diagramelementet eller formen.|
 | [Shape](/cells/sv/python-net/aspose.cells.drawing/shape) | Representerar msodrawing-objektet.|
-| [ShapeCollection](/cells/sv/python-net/aspose.cells.drawing/shapecollection) | Representerar alla former i ett kalkylblad/diagram.|
+| [ShapeCollection](/cells/sv/python-net/aspose.cells.drawing/shapecollection) | Representerar all form i ett kalkylblad/diagram.|
 | [ShapeFormat](/cells/sv/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/sv/python-net/aspose.cells.drawing/shapeguide) | Kapslar in en formguide anger närvaron av en formguide som kommer att vara van vid<br/> styr geometrin för den angivna formen|
 | [ShapeGuideCollection](/cells/sv/python-net/aspose.cells.drawing/shapeguidecollection) | Kapslar in en samling formguider|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/sv/python-net/aspose.cells.drawing/texteffectformat) | Innehåller egenskaper och metoder som gäller för WordArt-objekt.|
 | [TextureFill](/cells/sv/python-net/aspose.cells.drawing/texturefill) | Kapslar in objektet som representerar texturfyllningsformat|
 | [ThreeDFormat](/cells/sv/python-net/aspose.cells.drawing/threedformat) | Representerar en forms tredimensionella formatering.|
-| [TilePicOption](/cells/sv/python-net/aspose.cells.drawing/tilepicoption) | Representerar kakelbilder som texturer.|
+| [TilePicOption](/cells/sv/python-net/aspose.cells.drawing/tilepicoption) | Representerar kakelbild som struktur.|
 | [VmlShapeGuide](/cells/sv/python-net/aspose.cells.drawing/vmlshapeguide) | bara för vml<br/> Kapslar in en formguide anger närvaron av en form<br/> guide som kommer att användas för att styra geometrin för den angivna formen|
 | [WebExtensionShape](/cells/sv/python-net/aspose.cells.drawing/webextensionshape) | Representerar formen på webbförlängning.|
 
@@ -103,11 +103,11 @@ is_root: false
 | [FormatSetType](/cells/sv/python-net/aspose.cells.drawing/formatsettype) | Uppsättningstyp för fyllningsformat.|
 | [GradientColorType](/cells/sv/python-net/aspose.cells.drawing/gradientcolortype) | Representerar övertoningsfärgtypen för den angivna fyllningen.|
 | [GradientDirectionType](/cells/sv/python-net/aspose.cells.drawing/gradientdirectiontype) | Representerar typ av gradient i alla riktningar.|
-| [GradientFillType](/cells/sv/python-net/aspose.cells.drawing/gradientfilltype) |Representerar alla gradientfyllningstyper.|
+| [GradientFillType](/cells/sv/python-net/aspose.cells.drawing/gradientfilltype) |Representerar alla övertoningsfyllningstyper.|
 | [GradientPresetType](/cells/sv/python-net/aspose.cells.drawing/gradientpresettype) | Representerar förinställd färgtyp för gradient.|
 | [GradientStyleType](/cells/sv/python-net/aspose.cells.drawing/gradientstyletype) | Representerar gradient skuggstil.|
 | [ImageType](/cells/sv/python-net/aspose.cells.drawing/imagetype) | Anger typen (format) för en bild.|
-| [LightRigDirectionType](/cells/sv/python-net/aspose.cells.drawing/lightrigdirectiontype) | Representerar typen av ljusriggriktning.|
+| [LightRigDirectionType](/cells/sv/python-net/aspose.cells.drawing/lightrigdirectiontype) | Representerar ljusriggsriktningstypen.|
 | [LightRigType](/cells/sv/python-net/aspose.cells.drawing/lightrigtype) | Representerar en förinställd ljusrätt som kan appliceras på en form|
 | [LineCapType](/cells/sv/python-net/aspose.cells.drawing/linecaptype) | Representerar kapslarna på en linje|
 | [LineJoinType](/cells/sv/python-net/aspose.cells.drawing/linejointype) | Representerar kopplingsstilarna för en linje.|

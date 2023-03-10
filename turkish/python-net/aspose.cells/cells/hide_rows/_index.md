@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_rows yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def hide_rows(self, row, total_rows):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | total_rows | int | Satır numarası.|

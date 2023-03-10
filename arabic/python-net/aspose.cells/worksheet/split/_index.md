@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة split
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-نافذة انقسام.
+نافذة الانقسام.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [ChartType](/cells/ar/python-net/aspose.cells.charts/charttype) | نوع التخطيط|
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
@@ -46,7 +46,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [ChartType](/cells/ar/python-net/aspose.cells.charts/charttype) | نوع التخطيط|
 | data_range | str | يحدد نطاق بيانات الرسم البياني|
@@ -56,7 +56,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | bottom_column | int | فهرس العمود الأيمن السفلي|
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
 الرجاء استخدام خاصية [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/ar/python-net/aspose.cells.charts/chartcollection/add).
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ مايو 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
@@ -76,7 +76,7 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | data | bytes | بيانات ملف قالب الرسم البياني (.crtx).|
 | data_range | str | يحدد نطاق بيانات الرسم البياني|
@@ -102,7 +102,7 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [ChartType](/cells/ar/python-net/aspose.cells.charts/charttype) | نوع التخطيط|
 | data_range | str | يحدد نطاق بيانات الرسم البياني|

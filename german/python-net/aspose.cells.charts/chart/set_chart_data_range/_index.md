@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_chart_data_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,7 +21,7 @@ def set_chart_data_range(self, area, is_vertical):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | area | str | Gibt Werte an, aus denen die Datenreihe gezeichnet werden soll|
-| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten nach Zeile oder nach Spalte gezeichnet werden soll.|
+| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: far_east_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name fastighet
 
-Får och anger namnet Fjärran Östern.
+Hämtar och ställer in FarEast-namnet.
 ###  Definition:
 ```python
 @property

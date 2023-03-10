@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta la larghezza, in punti, di ogni colonna nell'affettatrice.
 
-###  Esempi
+###  Esempio
 
 ```python
 

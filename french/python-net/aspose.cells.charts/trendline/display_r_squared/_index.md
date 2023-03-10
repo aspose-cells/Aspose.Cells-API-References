@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_r_squared propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

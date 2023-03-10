@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_add_in_function método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def add_add_in_function(self, function, min_count_of_parameters, max_count_of_pa
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | function | str | El nombre de la función.|
 | min_count_of_parameters | int | Número mínimo de parámetros que requiere esta función|
@@ -27,7 +27,7 @@ def add_add_in_function(self, function, min_count_of_parameters, max_count_of_pa
 | function_value_type | [ParameterType](/cells/es/python-net/aspose.cells/parametertype) | El tipo de valor de la función.|
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto.
+NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice los métodos WorksheetCollection.RegisterAddInFunction().
  Este método se eliminará 12 meses después desde enero de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

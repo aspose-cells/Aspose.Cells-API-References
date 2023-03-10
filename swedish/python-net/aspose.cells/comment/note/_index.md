@@ -1,4 +1,4 @@
-﻿---
+---
 title: note fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  note fastighet
 
-Representerar innehållet i kommentarer.
+Representerar innehållet i kommentaren.
 
 ###  Anmärkningar
 

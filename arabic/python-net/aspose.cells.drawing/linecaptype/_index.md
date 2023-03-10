@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد LineCapType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | SQUARE | يبرز المربع بمقدار نصف عرض الخط.|
 | ROUND |نهايات مدورة.|
-| FLAT | ينتهي الخط عند نقاط النهاية.|
+| FLAT | ينتهي الخط عند نقطة النهاية.|
 | NONE | لا يوجد غطاء|
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: FindOptions类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 630
@@ -27,11 +27,11 @@ FindOptions 类型公开了以下成员：
 | [case_sensitive](/cells/zh/python-net/aspose.cells/findoptions/case_sensitive) |指示搜索的字符串是否区分大小写。|
 | [look_at_type](/cells/zh/python-net/aspose.cells/findoptions/look_at_type) |看类型。|
 | [is_range_set](/cells/zh/python-net/aspose.cells/findoptions/is_range_set) |表示是否设置了搜索范围。|
-| [search_next](/cells/zh/python-net/aspose.cells/findoptions/search_next) |搜索顺序。True：搜索下一个。False：搜索上一个。|
+| [search_next](/cells/zh/python-net/aspose.cells/findoptions/search_next) |搜索顺序。 True：下一步搜索。 False：搜索上一个。|
 | [search_backward](/cells/zh/python-net/aspose.cells/findoptions/search_backward) |是否向后搜索单元格。|
 | [seach_order_by_rows](/cells/zh/python-net/aspose.cells/findoptions/seach_order_by_rows) |指示搜索顺序是按行还是按列。|
 | [look_in_type](/cells/zh/python-net/aspose.cells/findoptions/look_in_type) |看类型。|
-| [regex_key](/cells/zh/python-net/aspose.cells/findoptions/regex_key) |指示搜索的键是否为正则表达式。<br/>如果为真，则搜索到的键将被视为正则表达式并进行解析。|
+| [regex_key](/cells/zh/python-net/aspose.cells/findoptions/regex_key) |指示搜索的键是否为正则表达式。<br/>如果为真，则搜索到的键将被视为正则表达式并进行解析。否则密钥将根据 ms excel 中的规则进行解析。|
 | [value_type_sensitive](/cells/zh/python-net/aspose.cells/findoptions/value_type_sensitive) |指示搜索的单元格值类型是否应与搜索的键相同。|
 | [style](/cells/zh/python-net/aspose.cells/findoptions/style) |要搜索的格式。|
 | [convert_numeric_data](/cells/zh/python-net/aspose.cells/findoptions/convert_numeric_data) |获取或设置一个值，该值指示是否将搜索到的字符串值转换为数字数据。|

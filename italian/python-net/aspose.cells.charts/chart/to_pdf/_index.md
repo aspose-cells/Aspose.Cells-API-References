@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo to_pdf
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def to_pdf(self, file_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | il nome del file pdf con il percorso completo|
 
@@ -34,7 +34,7 @@ def to_pdf(self, stream):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di uscita.|
 
@@ -50,7 +50,7 @@ def to_pdf(self, file_name, desired_page_width, desired_page_height, h_alignment
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | il nome del file pdf con il percorso completo|
 | desired_page_width | float | La larghezza della pagina desiderata in pollici.|
@@ -70,7 +70,7 @@ def to_pdf(self, stream, desired_page_width, desired_page_height, h_alignment_ty
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di uscita.|
 | desired_page_width | float | La larghezza della pagina desiderata in pollici.|

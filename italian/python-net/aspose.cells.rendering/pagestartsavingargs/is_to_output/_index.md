@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_to_output proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  is_to_output proprietà
 
  Ottiene o imposta un valore che indica se la pagina deve essere restituita.
-Il valore predefinito è true.
+Il valore predefinito è vero.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlScriptSaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/
 is_root: false
 ---
 ##  SqlScriptSaveOptions() {#}
-يخلق خيارات لحفظ ملفات SQL.
+يخلق خيارات لحفظ ملف SQL.
 
 
 

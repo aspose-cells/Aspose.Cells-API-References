@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_threaded_comment الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يشير إلى ما إذا كان هذا التعليق تعليقًا مترابطًا.
 
-###  أمثلة
+###  مثال
 
 ```python
 

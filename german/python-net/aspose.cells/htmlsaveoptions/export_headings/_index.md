@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_headings Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt an, ob beim Speichern in HTML-Dateien die Zeilen- und Spaltenüberschriften
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die HtmlSaveOptions.ExportRowColumnHeadings-Eigenschaft.
  Diese Property wird 12 Monate später seit Juni 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

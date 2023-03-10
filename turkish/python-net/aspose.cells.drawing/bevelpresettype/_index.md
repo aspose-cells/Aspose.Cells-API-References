@@ -1,4 +1,4 @@
-﻿---
+---
 title: BevelPresetType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ BevelPresetType türü aşağıdaki üyeleri gösterir:
 | COOL_SLANT | Soğuk eğimli|
 | CROSS | Geçmek|
 | DIVOT | Çimen|
-| HARD_EDGE | Sert kenarlar|
+| HARD_EDGE | Sert kenar|
 | RELAXED_INSET | rahat ek|
 | RIBLET | Riblet|
 | SLOPE | Eğim|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_all_items propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

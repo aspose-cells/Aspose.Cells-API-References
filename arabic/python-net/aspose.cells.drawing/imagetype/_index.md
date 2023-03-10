@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ImageType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,11 +24,11 @@ is_root: false
 | JPEG | JPEG جفيف.|
 | PNG | رسومات الشبكة المحمولة.|
 | BMP | Windows صورة نقطية|
-| GIF | صور متحركة|
+| GIF | GIF|
 | TIFF | شجار|
 | SVG | SVG|
 | SVM | Svm|
-| GLTF | المزيد|
+| GLTF | جي إل تي إف|
 | OFFICE_COMPATIBLE_EMF | Windows Enhanced Metafile وهو أكثر توافقًا مع Office.|
 | WEB_P |تنسيق صورة Weppy|
 

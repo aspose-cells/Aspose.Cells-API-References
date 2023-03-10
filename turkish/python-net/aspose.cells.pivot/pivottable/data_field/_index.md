@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_field mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  data_field mülk
 
 Bir PivotTable'daki tüm veri alanlarını temsil eden bir PivotField nesnesi alır.
-Salt okunur.Yalnızca DataPiovtFields içinde iki veya daha fazla veri alanı olduğunda init olacaktır.
-Yalnızca PivotTable satır/sütun alanına DataPivotField eklemek için kullanılır.Varsayılan, satır alanındadır.
+Salt okunur. Yalnızca DataPiovtFiels'de iki veya daha fazla veri alanı olduğunda init olur.
+Yalnızca PivotTable satır/sütun alanına DataPivotField eklemek için kullanılır. Varsayılan satır alanındadır.
 ###  Tanım:
 ```python
 @property

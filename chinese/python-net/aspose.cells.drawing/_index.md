@@ -1,6 +1,6 @@
-﻿---
+---
 title: aspose.cells.drawing
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -41,7 +41,7 @@ is_root: false
 | [GroupShape](/cells/zh/python-net/aspose.cells.drawing/groupshape) |表示包含单个形状的组形状。|
 | [Label](/cells/zh/python-net/aspose.cells.drawing/label) |封装代表电子表格中标签的对象。|
 | [Line](/cells/zh/python-net/aspose.cells.drawing/line) |封装表示行格式的对象。|
-| [LineFormat](/cells/zh/python-net/aspose.cells.drawing/lineformat) |代表线路的所有设置。|
+| [LineFormat](/cells/zh/python-net/aspose.cells.drawing/lineformat) |表示线路的所有设置。|
 | [LineShape](/cells/zh/python-net/aspose.cells.drawing/lineshape) |表示线条形状。|
 | [ListBox](/cells/zh/python-net/aspose.cells.drawing/listbox) |代表一个列表框对象。|
 | [MsoFillFormat](/cells/zh/python-net/aspose.cells.drawing/msofillformat) |表示形状的填充格式。|

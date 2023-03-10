@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_paper_size الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

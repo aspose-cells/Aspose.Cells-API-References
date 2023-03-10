@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_arc Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 | height | int | Stellt die Höhe von ArcShape in Pixeleinheiten dar.|
 | width | int |Stellt die Breite von ArcShape in Pixeleinheiten dar.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

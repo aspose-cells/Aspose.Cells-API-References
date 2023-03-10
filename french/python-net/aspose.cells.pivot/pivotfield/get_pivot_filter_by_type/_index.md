@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_pivot_filter_by_type méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def get_pivot_filter_by_type(self, type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [PivotFilterType](/cells/fr/python-net/aspose.cells.pivot/pivotfiltertype) |  |
 

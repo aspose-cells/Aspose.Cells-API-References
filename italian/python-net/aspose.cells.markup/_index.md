@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.markup
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ is_root: false
 | [SmartTagCollection](/cells/it/python-net/aspose.cells.markup/smarttagcollection) | Rappresenta tutti gli smart tag nella cella.|
 | [SmartTagOptions](/cells/it/python-net/aspose.cells.markup/smarttagoptions) | Rappresenta le opzioni dello smart tag.|
 | [SmartTagProperty](/cells/it/python-net/aspose.cells.markup/smarttagproperty) | Rappresenta la proprietà dello smart tag della cella.|
-| [SmartTagPropertyCollection](/cells/it/python-net/aspose.cells.markup/smarttagpropertycollection) |Rappresenta tutte le proprietà degli smart tag di cella.|
+| [SmartTagPropertyCollection](/cells/it/python-net/aspose.cells.markup/smarttagpropertycollection) |Rappresenta tutte le proprietà dello smart tag della cella.|
 | [SmartTagSetting](/cells/it/python-net/aspose.cells.markup/smarttagsetting) | Rappresenta tutti gli oggetti [SmartTagCollection](/cells/it/python-net/aspose.cells.markup/smarttagcollection) nel foglio di lavoro.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Lägger till egendom för webbtillägg.
 
 ###  Returnerar
 
-Indexet över tillagda egenskaper.
+Indexet för tillagd egendom.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Egendomens namn.|
 | value | str | Egendomens värde.|

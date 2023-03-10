@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_calc_chain недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  create_calc_chain недвижимость
 
-Создает ли цепочку вычисляемых формул.По умолчанию false.
+Создает ли цепочку расчетных формул. Значение по умолчанию — ложь.
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо него используйте FormulaSettings.EnableCalculationChain.
+ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо этого используйте FormulaSettings.EnableCalculationChain.
  Это свойство будет удалено через 12 месяцев, начиная с февраля 2022 года.
 Aspose приносит извинения за возможные неудобства.
 ###  Определение:

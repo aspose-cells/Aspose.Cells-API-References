@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_blanks метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def match_blanks(self, field_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | Целочисленное смещение поля, на котором вы хотите основывать фильтр.<br/> (слева в списке; крайнее левое поле — поле 0).|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_tailing_blank_cells Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells Eigentum
 
-Gibt an, ob nachlaufende leere Zellen in einer Zeile gekürzt werden sollen. Der Standardwert ist "false".
+Gibt an, ob nachlaufende leere Zellen in einer Zeile gekürzt werden sollen. Standard ist falsch.
 
 ###  Bemerkungen
 

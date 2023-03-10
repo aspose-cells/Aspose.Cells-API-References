@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def add(self, name, val):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | namnet på justera. Det är som "adj(Används när det bara finns ett justeringsvärde)", "adj1", "adj2", "adj3" och så vidare.|
 | val | float | värdet av justera|

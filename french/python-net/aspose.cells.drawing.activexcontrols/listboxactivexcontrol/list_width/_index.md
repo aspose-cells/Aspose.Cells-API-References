@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_width propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width propriété
 
-Obtient et définit la largeur en unités de points.
+Obtient et définit la largeur en unité de points.
 ###  Définition:
 ```python
 @property

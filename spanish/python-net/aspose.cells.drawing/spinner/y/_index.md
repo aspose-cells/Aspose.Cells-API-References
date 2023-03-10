@@ -1,4 +1,4 @@
-﻿---
+---
 title: y propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterColumn класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/filtercolumn/
 is_root: false
 ---
 ##  FilterColumn класс
-Представляет фильтр для одного столбца.
+Представляет фильтр для одного столбца. Объект Filter является членом коллекции Filters.
 
 
 

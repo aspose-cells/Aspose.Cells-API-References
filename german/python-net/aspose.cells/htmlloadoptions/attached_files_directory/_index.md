@@ -1,4 +1,4 @@
-﻿---
+---
 title: attached_files_directory Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Das Verzeichnis, in dem die angehängten Dateien gespeichert werden.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die HtmlLoadOptions.StreamProvider-Eigenschaft.
  Diese Property wird 12 Monate später seit Dezember 2014 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

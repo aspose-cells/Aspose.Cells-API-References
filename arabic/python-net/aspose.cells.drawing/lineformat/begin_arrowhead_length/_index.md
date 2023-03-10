@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_length الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع طول الخط للخط وتعيينه.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import MsoArrowheadLength

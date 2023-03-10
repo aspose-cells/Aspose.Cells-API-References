@@ -1,4 +1,4 @@
-﻿---
+---
 title: regex_key Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key Eigentum
 
-Gibt an, ob der gesuchte Schlüssel ein regulärer Ausdruck ist. Wenn wahr, wird der gesuchte Schlüssel als regulärer Ausdruck angenommen.
+Gibt an, ob es sich bei dem gesuchten Schlüssel um Regex handelt. Wenn wahr, wird der gesuchte Schlüssel als Regex angenommen.
 ###  Definition:
 ```python
 @property

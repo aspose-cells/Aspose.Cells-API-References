@@ -1,4 +1,4 @@
-﻿---
+---
 title: bar_3d_shape_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

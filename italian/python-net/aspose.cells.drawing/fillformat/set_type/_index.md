@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene il tipo di set di formati di riempimento.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare invece la proprietà FillFormat.FillType.
  Questa proprietà verrà rimossa 12 mesi dopo da luglio 2016.
 Aspose si scusa per gli eventuali disagi causati.

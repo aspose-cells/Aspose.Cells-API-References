@@ -1,4 +1,4 @@
-﻿---
+---
 title: Name sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ Name türü aşağıdaki üyeleri gösterir:
 | [full_text](/cells/tr/python-net/aspose.cells/name/full_text) | Kapsam ayarı ile nesnenin adını tam metnini alır.|
 | [refers_to](/cells/tr/python-net/aspose.cells/name/refers_to) | Adın başvurmak üzere tanımlandığı formülü, eşittir işaretiyle başlayarak döndürür veya ayarlar.|
 | [r1c1_refers_to](/cells/tr/python-net/aspose.cells/name/r1c1_refers_to) | [Name](/cells/tr/python-net/aspose.cells/name)'in bir R1C1 referansını alır veya ayarlar.|
-| [is_referred](/cells/tr/python-net/aspose.cells/name/is_referred) | Bu ada başka formüller tarafından atıfta bulunulup bulunulmadığını gösterir.|
+| [is_referred](/cells/tr/python-net/aspose.cells/name/is_referred) | Bu adın diğer formüller tarafından başvuruda bulunup bulunmadığını gösterir.|
 | [is_visible](/cells/tr/python-net/aspose.cells/name/is_visible) | Adın görünür olup olmadığını gösterir.|
 | [sheet_index](/cells/tr/python-net/aspose.cells/name/sheet_index) | Bu adın Çalışma Kitabı veya Çalışma Sayfasına ait olduğunu gösterir.<br/> 0 = Genel ad, aksi takdirde dizinden sayfaya (tek tabanlı)|
 
@@ -42,7 +42,7 @@ Name türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

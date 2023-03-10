@@ -1,4 +1,4 @@
-﻿---
+---
 title: embed_ooxml_as_ole_object propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Indique si les fichiers Ooxml d'OleObject sont incorporés en tant qu'objet ole.
 
 ###  Remarques
 
-Uniquement pour les objets Ole.
+Uniquement pour OleObject.
 ###  Définition:
 ```python
 @property

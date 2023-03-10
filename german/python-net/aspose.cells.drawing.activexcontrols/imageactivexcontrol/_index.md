@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageActiveXControl Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,8 +25,8 @@ Der Typ ImageActiveXControl macht die folgenden Member verfügbar:
 | :- | :- |
 | [workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/workbook) | Ruft das [ActiveXControlBase.workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook)-Objekt ab.|
 | [type](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/type) | Ruft den Typ des ActiveX-Steuerelements ab.|
-| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt diese fest.|
-| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt diese fest.|
+| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt sie fest.|
+| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt sie fest.|
 | [mouse_icon](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/mouse_icon) | Ruft ein benutzerdefiniertes Symbol ab und legt es fest, das als Mauszeiger für das Steuerelement angezeigt wird.|
 | [mouse_pointer](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/mouse_pointer) | Ruft den Symboltyp ab, der als Mauszeiger für das Steuerelement angezeigt wird, und legt diesen fest.|
 | [fore_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/fore_ole_color) | Ruft die alte Farbe des Vordergrunds ab und legt sie fest.|
@@ -44,7 +44,7 @@ Der Typ ImageActiveXControl macht die folgenden Member verfügbar:
 | [font](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/font) | Stellt die Schriftart des Steuerelements dar.|
 | [text_align](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/text_align) | Stellt dar, wie der vom Steuerelement verwendete Text ausgerichtet wird.|
 | [border_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_ole_color) | Ruft die Ole-Farbe des Hintergrunds ab und legt sie fest.|
-| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt diesen fest.|
+| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt ihn fest.|
 | [picture_size_mode](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picture_size_mode) | Ruft ab und legt fest, wie das Bild angezeigt wird.|
 | [special_effect](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/special_effect) | Ruft den Spezialeffekt des Steuerelements ab und legt diesen fest.|
 | [picture](/cells/de/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picture) | Ruft die Daten des Bildes ab und setzt sie.|

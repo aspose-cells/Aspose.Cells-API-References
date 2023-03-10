@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_series_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  show_series_name Eigentum
 
 Gibt einen booleschen Wert zurück oder legt ihn fest, um das Verhalten der Reihennamenanzeige für die Datenbeschriftungen in einem Diagramm anzugeben.
-True, um den Seriennamen anzuzeigen, False, um ihn auszublenden.
+True, um den Seriennamen anzuzeigen. Falsch zu verstecken.
 ###  Definition:
 ```python
 @property

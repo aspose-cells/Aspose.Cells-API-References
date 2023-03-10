@@ -1,4 +1,4 @@
-﻿---
+---
 title: line_space_size_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

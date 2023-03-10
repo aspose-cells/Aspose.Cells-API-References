@@ -1,6 +1,6 @@
-﻿---
+---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -24,11 +24,11 @@ def add(self, cell_area, type, operator_type, formula1, formula2):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |有条件格式化的单元格区域。|
+| cell_area | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |条件格式的单元格范围。|
 | type | [FormatConditionType](/cells/zh/python-net/aspose.cells/formatconditiontype) |条件格式的类型。它可以是 FormatConditionType 的成员之一。|
-| operator_type | [OperatorType](/cells/zh/python-net/aspose.cells/operatortype) |比较运算符，可以是OperatorType的成员之一。|
+| operator_type | [OperatorType](/cells/zh/python-net/aspose.cells/operatortype) |比较运算符。它可以是 OperatorType 的成员之一。|
 | formula1 | str |与条件格式关联的值或表达式。|
 | formula2 | str |与条件格式关联的值或表达式|
 

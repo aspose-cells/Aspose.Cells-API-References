@@ -1,4 +1,4 @@
-﻿---
+---
 title: tab_position недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

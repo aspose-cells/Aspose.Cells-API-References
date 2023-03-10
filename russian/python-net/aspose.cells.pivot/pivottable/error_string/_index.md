@@ -1,4 +1,4 @@
-﻿---
+---
 title: error_string недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  error_string недвижимость
 
 Получает строку, отображаемую в ячейках, содержащих ошибки
-когда свойство DisplayErrorString имеет значение true.Значением по умолчанию является пустая строка.
+когда свойство DisplayErrorString имеет значение true. Значением по умолчанию является пустая строка.
 ###  Определение:
 ```python
 @property

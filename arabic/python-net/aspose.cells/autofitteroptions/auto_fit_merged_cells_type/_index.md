@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

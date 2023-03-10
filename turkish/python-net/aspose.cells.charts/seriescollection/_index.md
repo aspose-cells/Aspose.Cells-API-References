@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,8 +17,8 @@ SeriesCollection türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [category_data](/cells/tr/python-net/aspose.cells.charts/seriescollection/category_data) | Eksen değerleri kategorisinin aralığını alır veya ayarlar.<br/> Bir hücre aralığı olabilir ("d1:e10" gibi),<br/> veya bir dizi değer ("{2,6,8,10}" gibi).|
-| [second_category_data](/cells/tr/python-net/aspose.cells.charts/seriescollection/second_category_data) | İkinci kategori Eksen değerlerinin aralığını alır veya ayarlar.<br/> Bir hücre aralığı olabilir ("d1:e10" gibi),<br/> veya bir dizi değer ("{2,6,8,10}" gibi).<br/> Yalnızca bazı ASeries ikinci eksende çizildiğinde etki eder.|
+| [category_data](/cells/tr/python-net/aspose.cells.charts/seriescollection/category_data) | Eksen değerleri kategorisinin aralığını alır veya ayarlar.<br/> Bir hücre aralığı olabilir ("d1:e10" gibi),<br/> veya bir değer dizisi ("{2,6,8,10}" gibi).|
+| [second_category_data](/cells/tr/python-net/aspose.cells.charts/seriescollection/second_category_data) | İkinci kategori Eksen değerlerinin aralığını alır veya ayarlar.<br/> Bir hücre aralığı olabilir ("d1:e10" gibi),<br/> veya bir değer dizisi ("{2,6,8,10}" gibi).<br/> Yalnızca bazı ASeries'ler ikinci eksende çizildiğinde etki eder.|
 | [is_color_varied](/cells/tr/python-net/aspose.cells.charts/seriescollection/is_color_varied) | Noktaların renginin değişip değişmediğini temsil eder.|
 | [capacity](/cells/tr/python-net/aspose.cells.charts/seriescollection/capacity) | Dizi listesinin içerebileceği öğe sayısını alır veya ayarlar.|
 
@@ -43,7 +43,7 @@ SeriesCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

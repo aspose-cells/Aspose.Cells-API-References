@@ -1,4 +1,4 @@
-﻿---
+---
 title: WarningType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ Il tipo WarningType espone i membri seguenti:
 | :- | :- |
 | FONT_SUBSTITUTION | Tipo di avviso di sostituzione dei caratteri<br/> quando un font non è stato trovato, questo tipo di avviso può essere ricevuto.|
 | DUPLICATE_DEFINED_NAME |Nel file è stato trovato un nome definito duplicato.|
-| UNSUPPORTED_FILE_FORMAT | Formati di file non supportati.|
+| UNSUPPORTED_FILE_FORMAT | Formato file non supportato.|
 | INVALID_TEXT_OF_DEFINED_NAME | Testo non valido del nome definito.|
 | INVALID_FONT_NAME | Il nome del carattere non è valido.|
 | INVALID_AUTO_FILTER_RANGE | Intervallo di filtro automatico non valido.|

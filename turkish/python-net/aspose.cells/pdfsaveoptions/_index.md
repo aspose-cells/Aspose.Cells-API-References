@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/pdfsaveoptions/
 is_root: false
 ---
 ##  PdfSaveOptions sınıfı
-Pdf dosyalarını kaydetme seçeneklerini temsil eder.
+Pdf dosyasını kaydetme seçeneklerini temsil eder.
 
 
 
@@ -23,7 +23,7 @@ PdfSaveOptions türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [PdfSaveOptions()](/cells/tr/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Pdf dosyalarını kaydetme seçeneklerini oluşturur.|
+| [PdfSaveOptions()](/cells/tr/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Pdf dosyasını kaydetme seçeneklerini oluşturur.|
 
 
 ###  Özellikler
@@ -36,9 +36,9 @@ PdfSaveOptions türü aşağıdaki üyeleri gösterir:
 | [merge_areas](/cells/tr/python-net/aspose.cells/pdfsaveoptions/merge_areas) | Dosyayı kaydetmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmediğini belirtir.|
 | [create_directory](/cells/tr/python-net/aspose.cells/pdfsaveoptions/create_directory) | true ise ve dizin yoksa, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur.|
 | [sort_names](/cells/tr/python-net/aspose.cells/pdfsaveoptions/sort_names) | Dosyayı kaydetmeden önce tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [sort_external_names](/cells/tr/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.|
+| [sort_external_names](/cells/tr/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.|
 | [refresh_chart_cache](/cells/tr/python-net/aspose.cells/pdfsaveoptions/refresh_chart_cache) | Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
 | [update_smart_art](/cells/tr/python-net/aspose.cells/pdfsaveoptions/update_smart_art) | Akıllı sanat ayarının güncellenip güncellenmediğini gösterir.<br/> Varsayılan değer yanlıştır.|
 | [default_font](/cells/tr/python-net/aspose.cells/pdfsaveoptions/default_font) | Excel'deki karakterler Unicode olduğunda ve hücre stilinde doğru yazı tipiyle ayarlanmadığında,<br/>Pdf, görüntüde blok olarak görünebilirler.<br/>Bu karakterleri göstermek için MingLiu veya MS Gothic gibi bir Varsayılan Yazı Tipi ayarlayın.<br/> Bu özellik ayarlanmazsa, Aspose.Cells, bu unicode karakterleri göstermek için sistem varsayılan yazı tipini kullanır.|
 | [check_workbook_default_font](/cells/tr/python-net/aspose.cells/pdfsaveoptions/check_workbook_default_font) | Excel'deki karakterler Unicode olduğunda ve hücre stilinde doğru yazı tipiyle ayarlanmadığında,<br/>Pdf, görüntüde blok olarak görünebilirler.<br/> Önce bu karakterleri göstermek için çalışma kitabının varsayılan yazı tipini kullanmayı denemek için bunu true olarak ayarlayın.|
@@ -61,13 +61,13 @@ PdfSaveOptions türü aşağıdaki üyeleri gösterir:
 | [bookmark](/cells/tr/python-net/aspose.cells/pdfsaveoptions/bookmark) |[PdfBookmarkEntry](/cells/tr/python-net/aspose.cells.rendering/pdfbookmarkentry) nesnesini alır ve ayarlar.|
 | [compliance](/cells/tr/python-net/aspose.cells/pdfsaveoptions/compliance) | Çalışma kitabı bu özellikte PdfCompliance'a göre pdf'ye dönüştürülür.|
 | [security_options](/cells/tr/python-net/aspose.cells/pdfsaveoptions/security_options) | xls2pdf sonucunda güvenlik gerektiğinde bu seçenekleri ayarlayın.|
-| [image_type](/cells/tr/python-net/aspose.cells/pdfsaveoptions/image_type) | Grafiği ve şekli dönüştürürken görüntü türünü temsil eder.|
+| [image_type](/cells/tr/python-net/aspose.cells/pdfsaveoptions/image_type) | Grafiği ve şekli dönüştürürken görüntü tipini temsil eder.|
 | [calculate_formula](/cells/tr/python-net/aspose.cells/pdfsaveoptions/calculate_formula) | PDF dosyasını kaydetmeden önce formüllerin hesaplanıp hesaplanmayacağını belirtir.|
 | [pdf_compression](/cells/tr/python-net/aspose.cells/pdfsaveoptions/pdf_compression) | Sıkıştırma algoritmasını belirtin|
 | [created_time](/cells/tr/python-net/aspose.cells/pdfsaveoptions/created_time) | Pdf belgesi oluşturma zamanını alır ve ayarlar.|
 | [producer](/cells/tr/python-net/aspose.cells/pdfsaveoptions/producer) | Oluşturulan pdf belgesinin üreticisini alır ve ayarlar.|
 | [optimization_type](/cells/tr/python-net/aspose.cells/pdfsaveoptions/optimization_type) | Pdf optimizasyon türünü alır ve ayarlar.|
-| [custom_properties_export](/cells/tr/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | [CustomDocumentPropertyCollection](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection)'in PDF dosyasına nasıl aktarılacağını belirleyen bir değer alır veya ayarlar.Varsayılan değer Yok'tur.|
+| [custom_properties_export](/cells/tr/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | [CustomDocumentPropertyCollection](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection)'in PDF dosyasına nasıl aktarılacağını belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.|
 | [export_document_structure](/cells/tr/python-net/aspose.cells/pdfsaveoptions/export_document_structure) | Belge yapısının dışa aktarılıp aktarılmayacağını belirtir.|
 | [emf_render_setting](/cells/tr/python-net/aspose.cells/pdfsaveoptions/emf_render_setting) | Emf meta dosyasını işlemek için ayar.|
 | [display_doc_title](/cells/tr/python-net/aspose.cells/pdfsaveoptions/display_doc_title) | Pencerenin başlık çubuğunun belge başlığını gösterip göstermeyeceğini belirtir.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: to_printer方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -18,7 +18,7 @@ def to_printer(self, printer_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | printer_name | str |打印机的名称，例如：“Microsoft Office Document Image Writer”|
 
@@ -34,7 +34,7 @@ def to_printer(self, printer_settings):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings |打印机的设置，例如 PrinterName、Duplex|
 
@@ -50,7 +50,7 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | printer_name | str |打印机的名称，例如：“Microsoft Office Document Image Writer”|
 | job_name | str |设置打印作业名称|
@@ -67,7 +67,7 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings |打印机的设置，例如 PrinterName、Duplex|
 | job_name | str |设置打印作业名称|
@@ -84,7 +84,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | printer_name | str |打印机的名称，例如：“Microsoft Office Document Image Writer”|
 | print_page_index | int |要打印的第一页从 0 开始的索引，它必须在范围 [0, WorkbookRender.PageCount-1] 内|

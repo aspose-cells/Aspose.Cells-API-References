@@ -1,4 +1,4 @@
-﻿---
+---
 title: shadow_effect недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  shadow_effect недвижимость
 
-Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), задающий эффект тени для элемента диаграммы или фигуры.
+Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), определяющий эффект тени для элемента диаграммы или фигуры.
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WeightType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,7 +19,7 @@ Der Typ WeightType macht die folgenden Member verfügbar:
 | :- | :- |
 | HAIR_LINE | Repräsentiert das Gewicht des Haaransatzes.|
 | MEDIUM_LINE | Repräsentiert das Gewicht der mittleren Linie.|
-| SINGLE_LINE | Stellt die Stärke einer einzelnen Linie dar.|
+| SINGLE_LINE | Repräsentiert das Gewicht einer einzelnen Linie.|
 | WIDE_LINE | Repräsentiert das Gewicht der breiten Linie.|
 
 

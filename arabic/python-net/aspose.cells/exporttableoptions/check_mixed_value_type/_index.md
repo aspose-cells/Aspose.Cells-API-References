@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_mixed_value_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

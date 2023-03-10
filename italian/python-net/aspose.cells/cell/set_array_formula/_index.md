@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_array_formula
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
 | row_number | int |Numero di righe da popolare risultato della formula di matrice.|
@@ -36,7 +36,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
 | row_number | int |Numero di righe da popolare risultato della formula di matrice.|
@@ -55,7 +55,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
 | row_number | int |Numero di righe da popolare risultato della formula di matrice.|
@@ -64,7 +64,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | is_local | bool | se la formula è in formato locale|
 ###  Osservazioni
 
-NOTA: questa classe è ora obsoleta.
+NOTA: questa classe è ora obsoleta. Invece,
 si prega di utilizzare Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Questa proprietà verrà rimossa 12 mesi dopo da dicembre 2019.
 Aspose si scusa per gli eventuali disagi causati.
@@ -80,7 +80,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | array_formula | str | Formula matrice.|
 | row_number | int |Numero di righe da popolare risultato della formula di matrice.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [ChartType](/cells/ru/python-net/aspose.cells.charts/charttype) | Тип диаграммы|
 | upper_left_row | int | Индекс верхней левой строки.|
@@ -46,7 +46,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [ChartType](/cells/ru/python-net/aspose.cells.charts/charttype) | Тип диаграммы|
 | data_range | str | Указывает диапазон данных диаграммы|
@@ -56,7 +56,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | bottom_column | int | Индекс нижнего правого столбца|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел.
+ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 пожалуйста, используйте свойство [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/ru/python-net/aspose.cells.charts/chartcollection/add).
  Это свойство будет удалено через 12 месяцев, начиная с мая 2022 года.
 Aspose приносит извинения за возможные неудобства.
@@ -76,11 +76,11 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| data | bytes | Данные файла шаблона графика (.crtx).|
+| data | bytes | Данные файла шаблона диаграммы (.crtx).|
 | data_range | str | Указывает диапазон данных диаграммы|
-| is_vertical | bool | Указывает, строить ли серию из диапазона значений ячеек по строке или по столбцу.|
+| is_vertical | bool | Указывает, следует ли отображать серию из диапазона значений ячеек по строке или по столбцу.|
 | top_row | int | Индекс верхней левой строки.|
 | left_column | int | Индекс левого верхнего столбца.|
 | right_row | int | Нижний индекс правой строки|
@@ -102,11 +102,11 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [ChartType](/cells/ru/python-net/aspose.cells.charts/charttype) | Тип диаграммы|
 | data_range | str | Указывает диапазон данных диаграммы|
-| is_vertical | bool | Указывает, строить ли серию из диапазона значений ячеек по строке или по столбцу.|
+| is_vertical | bool | Указывает, следует ли отображать серию из диапазона значений ячеек по строке или по столбцу.|
 | top_row | int | Индекс верхней левой строки.|
 | left_column | int | Индекс левого верхнего столбца.|
 | right_row | int | Нижний индекс правой строки|

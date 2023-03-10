@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_on_category_axis_point_count метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_co
 is_root: false
 ---
 ##  get_on_category_axis_point_count() {#}
-Получает количество точек на оси категорий после вызова метода Chart.Calculate() Применяется только к диаграмме с областями.
+Получает количество точек на оси категорий после вызова метода Chart.Calculate(). Применяется только к диаграмме с областями.
 
 
 

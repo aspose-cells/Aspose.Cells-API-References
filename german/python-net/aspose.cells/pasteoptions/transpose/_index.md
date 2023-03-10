@@ -1,4 +1,4 @@
-﻿---
+---
 title: transpose Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose Eigentum
 
-Entspricht transpose Zeilen und Spalten, wenn der Bereich eingefügt wird.
+Entspricht transpose Zeilen und Spalten, wenn der Bereich eingefügt wird. Der Standardwert ist False.
 ###  Definition:
 ```python
 @property

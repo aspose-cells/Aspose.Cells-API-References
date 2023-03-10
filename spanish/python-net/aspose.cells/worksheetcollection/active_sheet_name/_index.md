@@ -1,4 +1,4 @@
-﻿---
+---
 title: active_sheet_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

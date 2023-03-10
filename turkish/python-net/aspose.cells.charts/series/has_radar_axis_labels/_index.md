@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_radar_axis_labels mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels mülk
 
-Bir radar grafiğinin kategori ekseni etiketleri varsa doğrudur.
+Bir radar grafiğinin kategori ekseni etiketleri varsa doğrudur. Yalnızca radar haritaları için geçerlidir.
 ###  Tanım:
 ```python
 @property

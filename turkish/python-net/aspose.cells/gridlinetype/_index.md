@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridlineType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType numaralandırma
-Izgara çizgisi türlerini numaralandırır.
+Izgara çizgisi Türünü numaralandırır.
 
 
 

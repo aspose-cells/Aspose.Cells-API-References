@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetML2003SaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions() {#}
-ينشئ خيارات حفظ ملفات Excel 2003 المنتشرة.
+ينشئ خيارات حفظ ملف Excel 2003 Spreadml.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SpreadsheetML2003SaveOptions(save_format) {#SaveFormat}
-ينشئ خيارات حفظ ملفات Excel 2003 المنتشرة.
+ينشئ خيارات حفظ ملف Excel 2003 Spreadml.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق الحفظ.|
 ###  ملاحظات

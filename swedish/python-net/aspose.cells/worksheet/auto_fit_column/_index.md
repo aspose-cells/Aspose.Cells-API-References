@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_column metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def auto_fit_column(self, column_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 ###  Anmärkningar
@@ -37,7 +37,7 @@ def auto_fit_column(self, column_index, first_row, last_row):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 | first_row | int | Första radens index.|

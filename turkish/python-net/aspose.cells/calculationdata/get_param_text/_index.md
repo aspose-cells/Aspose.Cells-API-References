@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_param_text yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,9 +22,9 @@ def get_param_text(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| index | int | parametre indeksi (0 tabanlı)|
+| index | int | parametre indeksi(0 tabanlı)|
 
 
 

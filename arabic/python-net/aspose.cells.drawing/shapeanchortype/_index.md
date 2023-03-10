@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ShapeAnchorType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  مجالات
 | مجال| وصف|
 | :- | :- |
-| TWO_CELL_ANCHOR | يمثل عنصر نائب من خليتين|
+| TWO_CELL_ANCHOR | يمثل عنصرًا نائبًا لربط خليتين|
 | ONE_CELL_ANCHOR | يمثل عنصرًا نائبًا لخلية واحدة|
 
 

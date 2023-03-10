@@ -1,4 +1,4 @@
-﻿---
+---
 title: gradient_style_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

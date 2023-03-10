@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | range | [UnionRange](/cells/es/python-net/aspose.cells/unionrange) | El rango de la fuente.|
 | options | [PasteOptions](/cells/es/python-net/aspose.cells/pasteoptions) | Las opciones especiales de pegado.|

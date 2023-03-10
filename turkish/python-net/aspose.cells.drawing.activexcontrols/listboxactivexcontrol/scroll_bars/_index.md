@@ -1,4 +1,4 @@
-﻿---
+---
 title: scroll_bars mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scroll_bars mülk
 
-Kontrolün dikey kaydırma çubuklarına, yatay kaydırma çubuklarına veya her ikisine birden sahip olup olmadığını veya hiçbirine sahip olmadığını gösterir.
+Denetimin dikey kaydırma çubuklarına, yatay kaydırma çubuklarına veya her ikisine birden sahip olup olmadığını veya hiçbirine sahip olmadığını belirtir.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_css_prefix mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_css_prefix mülk
 
-Css adının önekini alır ve ayarlar, varsayılan değer "" şeklindedir.
+Css adının önekini alır ve ayarlar, varsayılan değer "" dir.
 ###  Tanım:
 ```python
 @property

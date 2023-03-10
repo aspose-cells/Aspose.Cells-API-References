@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_xml metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def export_xml(self, map_name, path):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | map_name | str | namnet på XML-kartan som behöver exporteras|
 | path | str | exportvägen|
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | map_name | str | namnet på XML-kartan som behöver exporteras|
 | stream | io.RawIOBase | exportströmmen|

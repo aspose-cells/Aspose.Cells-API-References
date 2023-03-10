@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_reference mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_reference mülk
 
-Cell Sorgu parametresi için hangi hücrenin değerinin kullanılacağını gösteren referans. Yalnızca parameterType cell olduğunda kullanılır.
+Cell sorgu parametresi için hangi hücrenin değerinin kullanılacağını gösteren referans. Yalnızca parameterType hücre olduğunda kullanılır.
 ###  Tanım:
 ```python
 @property

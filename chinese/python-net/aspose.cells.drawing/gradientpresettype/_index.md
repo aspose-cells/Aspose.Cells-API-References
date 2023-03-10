@@ -1,6 +1,6 @@
-﻿---
+---
 title: GradientPresetType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 880
@@ -14,7 +14,7 @@ is_root: false
 
 GradientPresetType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BRASS |黄铜预设颜色|
@@ -30,7 +30,7 @@ GradientPresetType 类型公开了以下成员：
 | GOLD_II |Gold II 预设颜色|
 | HORIZON |地平线预设颜色|
 | LATE_SUNSET |晚日落预设颜色|
-| MAHOGANY |桃花心木预设颜色|
+| MAHOGANY |红木预设色|
 | MOSS |苔藓预设颜色|
 | NIGHTFALL |黄昏预设颜色|
 | OCEAN |海洋预设颜色|

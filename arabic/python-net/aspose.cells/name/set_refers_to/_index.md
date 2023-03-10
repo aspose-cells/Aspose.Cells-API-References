@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_refers_to
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_refers_to(self, refers_to, is_r1c1, is_local):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | refers_to | str | المرجع.|
 | is_r1c1 | bool |ما إذا كان المرجع هو تنسيق R1C1.|

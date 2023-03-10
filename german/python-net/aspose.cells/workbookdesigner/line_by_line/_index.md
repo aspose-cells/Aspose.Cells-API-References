@@ -1,4 +1,4 @@
-﻿---
+---
 title: line_by_line Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

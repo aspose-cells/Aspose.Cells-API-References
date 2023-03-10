@@ -1,4 +1,4 @@
-﻿---
+---
 title: footer_margin_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin_inch الملكية
 
-يمثل المسافة من أسفل الصفحة إلى التذييل بوحدات البوصة.
+يمثل المسافة من أسفل الصفحة إلى التذييل بوحدة بوصة.
 ###  تعريف:
 ```python
 @property

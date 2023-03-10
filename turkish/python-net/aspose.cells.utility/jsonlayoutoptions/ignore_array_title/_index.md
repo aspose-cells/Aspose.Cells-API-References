@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_array_title mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title mülk
 
-Dizi, nesnenin bir özelliğiyse, başlığın yoksayılıp dikkate alınmayacağını belirtir.
+Dizi, nesnenin bir özelliğiyse, başlığın yoksayılıp dikkate alınmadığını gösterir.
 
 ###  Notlar
 

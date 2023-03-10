@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_leading_blank_row_and_column mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ MS Excel'deki kuralla aynı şekilde, özel bir stile sahip bir satır/sütun bo
 hücre verisi içermese bile.
 LightCells moduyla kaydederken bu seçeneğin hiçbir etkisi olmaz.
 Kullanıcı, [TxtSaveOptions.light_cells_data_provider](/cells/tr/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider)'i uygulayarak çıkış aralığını kontrol etmelidir.
-veya [TxtSaveOptions.export_area](/cells/tr/python-net/aspose.cells/txtsaveoptions#export_area) konuşarak
+veya [TxtSaveOptions.export_area](/cells/tr/python-net/aspose.cells/txtsaveoptions#export_area) belirterek
 ###  Tanım:
 ```python
 @property

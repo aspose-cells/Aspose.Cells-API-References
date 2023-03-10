@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta l'offset orizzontale della forma dal bordo sinistro del foglio di lavoro.
 
-###  Esempi
+###  Esempio
 
 ```python
 

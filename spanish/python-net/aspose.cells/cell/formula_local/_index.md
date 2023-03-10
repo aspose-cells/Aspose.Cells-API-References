@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula_local propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

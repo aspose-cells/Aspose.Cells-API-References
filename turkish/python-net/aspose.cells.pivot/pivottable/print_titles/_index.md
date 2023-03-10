@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_titles mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles mülk
 
 Çalışma sayfası için yazdırma başlıklarının temel alınarak ayarlanıp ayarlanmadığını gösterir.
-PivotTable raporunda.
+PivotTable raporunda. Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

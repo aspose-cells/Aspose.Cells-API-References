@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_text_of_row_labels méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_position propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si le segment spécifié peut être déplacé ou redimensionné à l'aide de l'interface utilisateur.
 
-###  Exemples
+###  Exemple
 
 ```python
 

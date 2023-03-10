@@ -1,4 +1,4 @@
-﻿---
+---
 title: actual_chart_size mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Grafiğin gerçek boyutunu piksel birimi cinsinden alır.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen Chart.GetActualSize() yöntemini kullanın.
  Bu mülk, Temmuz 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

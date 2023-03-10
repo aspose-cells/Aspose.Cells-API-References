@@ -1,4 +1,4 @@
-﻿---
+---
 title: CommentCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,8 +29,8 @@ Der Typ CommentCollection macht die folgenden Member verfügbar:
 | [get_threaded_comments(cell_name)](/cells/de/python-net/aspose.cells/commentcollection/get_threaded_comments/#str) | Ruft die Thread-Kommentare nach Zellname ab.|
 | [add(row, column)](/cells/de/python-net/aspose.cells/commentcollection/add/#int-int) | Fügt der Sammlung einen Kommentar hinzu.|
 | [add(cell_name)](/cells/de/python-net/aspose.cells/commentcollection/add/#str) | Fügt der Sammlung einen Kommentar hinzu.|
-| [remove_at(cell_name)](/cells/de/python-net/aspose.cells/commentcollection/remove_at/#str) | Entfernt den Kommentar der bestimmten Zelle.|
-| [remove_at(row, column)](/cells/de/python-net/aspose.cells/commentcollection/remove_at/#int-int) | Entfernt den Kommentar der bestimmten Zelle.|
+| [remove_at(cell_name)](/cells/de/python-net/aspose.cells/commentcollection/remove_at/#str) | Entfernt den Kommentar der spezifischen Zelle.|
+| [remove_at(row, column)](/cells/de/python-net/aspose.cells/commentcollection/remove_at/#int-int) | Entfernt den Kommentar der spezifischen Zelle.|
 | [copy_to(array)](/cells/de/python-net/aspose.cells/commentcollection/copy_to/#list) | Kopiert die gesamte Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am Anfang der Ziel-Array-Liste.|
 | [copy_to(index, array, array_index, count)](/cells/de/python-net/aspose.cells/commentcollection/copy_to/#int-list-int-int) |Kopiert eine Reihe von Elementen aus der Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am angegebenen Index der Ziel-Array-Liste.|
 | [index_of(item, index)](/cells/de/python-net/aspose.cells/commentcollection/index_of/#Comment-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des ersten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom angegebenen Index bis zum letzten Element erstreckt.|
@@ -42,7 +42,7 @@ Der Typ CommentCollection macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

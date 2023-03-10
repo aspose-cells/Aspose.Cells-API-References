@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,11 +22,11 @@ def add(self, name, user_id, provider_id):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم الشخص.|
 | user_id | str |  |
-| provider_id | str | هوية المزود|
+| provider_id | str | معرف المزود|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: move metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def move(self, count, is_same_parent):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | count | int | Antalet flyttar upp eller ner.<br/>Flytta objektet uppåt om det är mindre än noll;<br/>Flytta objektet nedåt om det är större än noll.|
 | is_same_parent | bool | Anger om flyttoperationen är i samma överordnade nod eller inte|

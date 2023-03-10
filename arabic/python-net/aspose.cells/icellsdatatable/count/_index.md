@@ -1,4 +1,4 @@
-﻿---
+---
 title: count الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count الملكية
 
-يحصل على count من السجلات. -1 للسجلات غير المعروفة count.
+يحصل على count من السجلات. -1 لسجلات غير معروفة count.
 ###  تعريف:
 ```python
 @property

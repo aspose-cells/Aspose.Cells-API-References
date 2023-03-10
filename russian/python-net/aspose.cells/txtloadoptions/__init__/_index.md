@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtLoadOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/txtloadoptions/__init__/
 is_root: false
 ---
 ##  TxtLoadOptions() {#}
-Создает параметры для загрузки текстовых файлов.
+Создает параметры для загрузки текстового файла.
 
 
 
@@ -24,7 +24,7 @@ def __init__(self):
 
 ##  TxtLoadOptions(load_format) {#LoadFormat}
 
-Создает параметры для загрузки текстовых файлов.
+Создает параметры для загрузки текстового файла.
 
 
 
@@ -34,7 +34,7 @@ def __init__(self, load_format):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/ru/python-net/aspose.cells/loadformat) | Формат загрузки|
 

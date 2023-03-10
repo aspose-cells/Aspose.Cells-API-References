@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,11 +17,11 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| VB | Модули Visual Basic|
+| VB | Модуль Visual Basic|
 | WORKSHEET |  |
-| CHART | диаграмма|
+| CHART | Диаграмма|
 | BIFF4_MACRO | Лист макросов BIFF4|
-| INTERNATIONAL_MACRO | Международный макро лист|
+| INTERNATIONAL_MACRO | Международный лист макросов|
 | OTHER |  |
 | DIALOG |Рабочий лист диалога|
 

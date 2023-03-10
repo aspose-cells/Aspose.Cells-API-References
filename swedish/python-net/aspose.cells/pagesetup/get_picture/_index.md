@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_picture metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,7 +23,7 @@ def get_picture(self, is_header, section):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | is_header | bool | Indikerar om det finns i sidhuvudet eller sidfoten.|
 | section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
@@ -44,7 +44,7 @@ def get_picture(self, is_first, is_even, is_header, section):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | is_first | bool | Indikerar om bilden av första sidans sidhuvud/sidfot hämtas.|
 | is_even | bool | Indikerar om bilden av sidhuvud/sidfot på jämna sidor.|

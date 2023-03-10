@@ -1,4 +1,4 @@
-﻿---
+---
 title: points Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die Sammlung von points in einer Reihe in einem Diagramm ab.
 
 ###  Bemerkungen
 
-Wenn das Diagramm Pie of Pie oder Bar of Pie ist, ist der letzte Punkt der andere Punkt im ersten Tortendiagramm.
+Wenn das Diagramm Pie of Pie oder Bar of Pie ist, ist der letzte Punkt ein anderer Punkt im ersten Tortendiagramm.
 ###  Definition:
 ```python
 @property

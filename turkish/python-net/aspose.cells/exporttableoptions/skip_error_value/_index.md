@@ -1,4 +1,4 @@
-﻿---
+---
 title: skip_error_value mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

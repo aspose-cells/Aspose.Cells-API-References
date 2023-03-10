@@ -1,4 +1,4 @@
-﻿---
+---
 title: worksheet недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает объект [Shape.worksheet](/cells/ru/python-net/aspose.cells.drawing/shape#worksheet), содержащий эту фигуру.
 
-###  Примеры
+###  Пример
 
 ```python
 

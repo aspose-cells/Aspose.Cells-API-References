@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_header_caption недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: foreground_color الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-يعني عدم وجود إعداد للون إذا تم إرجاع "اللون".
+هذا يعني عدم وجود إعداد للون إذا تم إرجاع Color.Empty.
 ###  تعريف:
 ```python
 @property

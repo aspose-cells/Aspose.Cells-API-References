@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/lightcellsdatahandler/start_sheet/
 is_root: false
 ---
 ##  start_sheet(sheet) {#Worksheet}
-Comienza a procesar una hoja de trabajo.
+Comienza a procesar una hoja de cálculo.
 
 
 ###  Devoluciones
@@ -22,7 +22,7 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/es/python-net/aspose.cells/worksheet) | la hoja de cálculo para leer los datos de las celdas.|
 ###  Observaciones

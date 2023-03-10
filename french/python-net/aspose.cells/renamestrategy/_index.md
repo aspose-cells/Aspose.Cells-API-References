@@ -1,4 +1,4 @@
-﻿---
+---
 title: RenameStrategy dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type RenameStrategy expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | EXCEPTION | Lève une exception.|
-| DIGIT | Nommé avec un chiffre. Les noms en double deviendront ...1, ...2, etc.|
+| DIGIT | Nommé avec un chiffre. Les noms dupliqués deviendront ...1, ...2, etc.|
 | LETTER | Nommé avec une lettre.. Les noms dupliqués deviendront ...A, ...B, etc.|
 
 
@@ -27,8 +27,8 @@ Le type RenameStrategy expose les membres suivants :
 
 Lors du traitement de données avec des en-têtes, certains scénarios exigent que les en-têtes ne soient pas dupliqués pour toutes les colonnes.
 Par exemple, lors de l'exportation de données vers une table de données et que l'en-tête doit être pris comme nom de colonne de la table de données,
-les valeurs dupliquées de l'en-tête ne sont pas valides.
-Pour ce genre de situations, l'utilisateur peut déterminer comment les gérer en spécifiant cette stratégie.
+les valeurs en double de l'en-tête ne sont pas valides.
+Pour ce type de situations, l'utilisateur peut déterminer comment les gérer en spécifiant cette stratégie.
 
 ###  Voir également
 * module [aspose.cells](..)

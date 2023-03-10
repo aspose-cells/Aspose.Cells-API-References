@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range2 mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 mülk
 
 PivotTable raporunun tamamını içeren aralığı temsil eden bir CellArea nesnesi döndürür,
-sayfa alanlarını içerir.
+sayfa alanlarını içerir. Sadece oku.
 ###  Tanım:
 ```python
 @property

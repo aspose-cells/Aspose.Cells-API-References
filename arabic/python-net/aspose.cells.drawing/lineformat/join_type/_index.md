@@ -1,4 +1,4 @@
-﻿---
+---
 title: join_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحدد نوع ربط الخط.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import LineJoinType

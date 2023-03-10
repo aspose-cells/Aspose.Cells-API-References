@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_pixel Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den horizontalen Versatz der Slicer-Form von der linken Spalte in Pixel zurück oder legt ihn fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_cell_auto_fit mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Varsayılan değer yanlıştır.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen [Worksheet.auto_fit_columns()](/cells/tr/python-net/aspose.cells/worksheet/auto_fit_columns) ve [Worksheet.auto_fit_rows()](/cells/tr/python-net/aspose.cells/worksheet/auto_fit_rows)'i kullanın.
  Bu mülk, Ağustos 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

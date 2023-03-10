@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_line Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft ab und legt fest, dass der Linienrahmen der Form sichtbar ist.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

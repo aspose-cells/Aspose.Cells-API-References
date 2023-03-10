@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_dynamic_array_formulas yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,9 +19,9 @@ def refresh_dynamic_array_formulas(self, calculate):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplar ve günceller.|
+| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplayıp güncellemediği|
 
 
 ##  refresh_dynamic_array_formulas(calculate, copts) {#bool-CalculationOptions}
@@ -35,9 +35,9 @@ def refresh_dynamic_array_formulas(self, calculate, copts):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplar ve günceller.|
+| calculate | bool | Bu dinamik dizi formülleri için hücre değerlerini hesaplayıp güncellemediği|
 | copts | [CalculationOptions](/cells/tr/python-net/aspose.cells/calculationoptions) | Formül hesaplama seçenekleri|
 
 

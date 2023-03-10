@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_value metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def copy_value(self, range):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [Range](/cells/sv/python-net/aspose.cells/range) | Källa [Range](/cells/sv/python-net/aspose.cells/range) objekt.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -67,10 +67,10 @@ Typen Workbook avslöjar följande medlemmar:
 | [replace(place_holder, new_value)](/cells/sv/python-net/aspose.cells/workbook/replace/#str-int) | Ersätter en cells värde med ett nytt heltal.|
 | [replace(place_holder, new_value)](/cells/sv/python-net/aspose.cells/workbook/replace/#str-float) |Ersätter en cells värde med en ny dubbel.|
 | [replace(place_holder, new_values, is_vertical)](/cells/sv/python-net/aspose.cells/workbook/replace/#str-list-bool) | Ersätter en cells värde med en ny strängmatris.|
-| [replace(place_holder, new_values, is_vertical)](/cells/sv/python-net/aspose.cells/workbook/replace/#str-list-bool) | Ersätter cellernas värden med en heltalsmatris.|
+| [replace(place_holder, new_values, is_vertical)](/cells/sv/python-net/aspose.cells/workbook/replace/#str-list-bool) | Ersätter cellvärden med en heltalsmatris.|
 | [replace(place_holder, new_values, is_vertical)](/cells/sv/python-net/aspose.cells/workbook/replace/#str-list-bool) | Ersätter cellernas värden med en dubbelmatris.|
-| [replace(bool_value, new_value)](/cells/sv/python-net/aspose.cells/workbook/replace/#bool-any) | Ersätter cellernas värden med ny data.|
-| [replace(int_value, new_value)](/cells/sv/python-net/aspose.cells/workbook/replace/#int-any) | Ersätter cellernas värden med ny data.|
+| [replace(bool_value, new_value)](/cells/sv/python-net/aspose.cells/workbook/replace/#bool-any) | Ersätter cellernas värden med nya data.|
+| [replace(int_value, new_value)](/cells/sv/python-net/aspose.cells/workbook/replace/#int-any) | Ersätter cellernas värden med nya data.|
 | [replace(place_holder, new_value, options)](/cells/sv/python-net/aspose.cells/workbook/replace/#str-str-ReplaceOptions) | Ersätter en cells värde med en ny sträng.|
 | [copy(source, copy_options)](/cells/sv/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) | Kopierar data från ett källarbetsboksobjekt.|
 | [copy(source)](/cells/sv/python-net/aspose.cells/workbook/copy/#Workbook) | Kopierar data från ett källarbetsboksobjekt.|
@@ -122,13 +122,13 @@ Typen Workbook avslöjar följande medlemmar:
 
 ###  Anmärkningar
 
-Klassen Workbook betecknar ett Excel-kalkylblad.
+Klassen Workbook betecknar ett Excel-kalkylblad. Varje kalkylblad kan innehålla flera kalkylblad.
 Klassens grundläggande funktion är att öppna och spara inbyggda Excel-filer.
 Klassen har några avancerade funktioner som att kopiera data från andra arbetsböcker, kombinera två arbetsböcker och skydda Excel-kalkylarket.
 
 ###  Exempel
 
-Följande exempel laddar ett Workbook från en fil med namnet designer.xls och gör de horisontella och vertikala rullningslisterna osynliga för Workbook. Det ersätter sedan två strängvärden med ett heltalsvärde respektive ett strängvärde i kalkylarket och skickar slutligen den uppdaterade filen till klientens webbläsare.
+Följande exempel laddar ett Workbook från en fil med namnet designer.xls och gör de horisontella och vertikala rullningslisterna osynliga för Workbook. Det ersätter sedan två strängvärden med ett heltalsvärde respektive ett strängvärde i kalkylbladet och skickar slutligen den uppdaterade filen till klientens webbläsare.
 
 ```python
 from aspose.cells import Workbook

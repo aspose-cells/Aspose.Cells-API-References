@@ -1,4 +1,4 @@
-﻿---
+---
 title: CategoryType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,8 +18,8 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | AUTOMATIC_SCALE | Автоматическая шкала|
-| CATEGORY_SCALE | Шкала категории|
-| TIME_SCALE | Шкала времени|
+| CATEGORY_SCALE | КатегорияМасштаб|
+| TIME_SCALE | шкала времени|
 
 
 

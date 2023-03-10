@@ -1,4 +1,4 @@
-﻿---
+---
 title: radius fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,8 +13,8 @@ Hämtar och ställer in radius för glöden, i poängenhet.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
- Använd egenskapen GlowEffect.Size.
+ OBS: Denna medlem är nu föråldrad. Istället,
+ använd egenskapen GlowEffect.Size.
  Den här egenskapen kommer att tas bort sex månader senare sedan september 2016.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

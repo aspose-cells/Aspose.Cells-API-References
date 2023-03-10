@@ -1,6 +1,6 @@
-﻿---
+---
 title: DisplayUnitLabel类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 130
@@ -29,7 +29,7 @@ DisplayUnitLabel 类型公开了以下成员：
 | [text_font](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/text_font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
 | [text_options](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/text_options) |获取和设置文本的选项。|
 | [font](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/font) |获取指定 ChartFrame 对象的 [DisplayUnitLabel.font](/cells/zh/python-net/aspose.cells.charts/displayunitlabel#font) 对象。|
-| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。|
+| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。|
 | [background_mode](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/background_mode) |获取和设置背景的显示方式|
 | [background](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/background) |获取和设置背景的显示方式|
 | [is_automatic_size](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/is_automatic_size) |指示图表框是否自动调整大小。|
@@ -56,7 +56,7 @@ DisplayUnitLabel 类型公开了以下成员：
 | [reading_order](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/reading_order) |表示文本阅读顺序。|
 | [direction_type](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/direction_type) |获取和设置文本的方向。|
 | [is_text_wrapped](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/is_text_wrapped) |获取或设置一个值，该值指示文本是否换行。|
-| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。<br/>当缩放形状内的文本以包含内部的所有文本时。|
+| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/displayunitlabel/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。自动拟合是<br/>当缩放形状内的文本以包含内部的所有文本时。|
 
 
 ### 方法

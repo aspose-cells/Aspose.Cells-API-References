@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_sheet_by_code_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_sheet_by_code_name(self, code_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | code_name | str | Çalışma sayfası kod adı.|
 

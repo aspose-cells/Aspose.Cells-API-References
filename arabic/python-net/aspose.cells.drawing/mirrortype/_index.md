@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد MirrorType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | NONE | لا أحد|
-| HORIZONAL | أفقي|
+| HORIZONAL | أفقى|
 | VERTICAL | رَأسِيّ|
 | BOTH | كلاهما|
 

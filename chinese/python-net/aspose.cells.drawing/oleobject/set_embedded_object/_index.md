@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_embedded_object方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 170
@@ -18,9 +18,9 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| link_to_file | bool |指示对象是否链接到文件。如果为真，参数 objectData 将被忽略。|
+| link_to_file | bool |指示对象是否链接到文件。如果为 true，则忽略参数 objectData。|
 | object_data | bytes |嵌入式对象数据。|
 | source_file_name | str |文件名。|
 | display_as_icon | bool |指示是否将对象显示为图标。<br/>如果为 true，则原始图像数据将被图标覆盖。|
@@ -38,9 +38,9 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| link_to_file | bool |指示对象是否链接到文件。如果为真，参数 objectData 将被忽略。|
+| link_to_file | bool |指示对象是否链接到文件。如果为 true，则忽略参数 objectData。|
 | object_data | bytes |嵌入式对象数据。|
 | source_file_name | str |文件名。|
 | display_as_icon | bool |指示是否将对象显示为图标。<br/>如果为 true，则原始图像数据将被图标覆盖。|

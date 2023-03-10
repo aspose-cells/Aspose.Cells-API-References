@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Line
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -35,14 +35,14 @@ Il tipo Line espone i membri seguenti:
 | [weight_pt](/cells/it/python-net/aspose.cells.drawing/line/weight_pt) | Ottiene o imposta lo spessore della linea in unità di punti.|
 | [weight_px](/cells/it/python-net/aspose.cells.drawing/line/weight_px) | Ottiene o imposta lo spessore della linea in unità di pixel.|
 | [formatting_type](/cells/it/python-net/aspose.cells.drawing/line/formatting_type) | Ottiene o imposta il tipo di formato.|
-| [is_automatic_color](/cells/it/python-net/aspose.cells.drawing/line/is_automatic_color) | Indica se il colore della linea viene assegnato automaticamente.|
+| [is_automatic_color](/cells/it/python-net/aspose.cells.drawing/line/is_automatic_color) | Indica se il colore della linea è assegnato automaticamente.|
 | [is_visible](/cells/it/python-net/aspose.cells.drawing/line/is_visible) | Indica se la linea è visibile.|
 | [is_auto](/cells/it/python-net/aspose.cells.drawing/line/is_auto) | Indica se questo stile di linea è assegnato automaticamente.|
 | [gradient_fill](/cells/it/python-net/aspose.cells.drawing/line/gradient_fill) | Rappresenta il riempimento sfumato.|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

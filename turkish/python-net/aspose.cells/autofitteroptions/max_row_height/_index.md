@@ -1,4 +1,4 @@
-﻿---
+---
 title: max_row_height mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  max_row_height mülk
 
-Satırları otomatik sığdırırken maksimum satır yüksekliğini (Nokta birimi cinsinden) alır ve ayarlar.
+Satırları otomatik sığdırırken maksimum satır yüksekliğini (Nokta birimi olarak) alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

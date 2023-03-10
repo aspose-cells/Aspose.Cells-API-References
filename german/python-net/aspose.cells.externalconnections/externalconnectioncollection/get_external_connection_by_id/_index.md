@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_external_connection_by_id Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_native_source_full_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_native_source_full_name(self, source_full_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | source_full_name | str | den ursprungliga källans fullständiga filnamn|
 

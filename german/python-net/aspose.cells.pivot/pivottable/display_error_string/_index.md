@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_error_string Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

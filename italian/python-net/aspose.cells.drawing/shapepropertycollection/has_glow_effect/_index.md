@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo has_glow_effect
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

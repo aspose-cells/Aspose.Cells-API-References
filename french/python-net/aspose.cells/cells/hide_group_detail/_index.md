@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_group_detail méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def hide_group_detail(self, is_vertical, index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | is_vertical | bool | Vrai, réduire les lignes groupées.|
 | index | int | L'index de ligne/colonne|

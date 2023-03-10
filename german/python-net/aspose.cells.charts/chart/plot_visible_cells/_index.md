@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_visible_cells Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt an, ob nur sichtbare Zellen gezeichnet werden sollen.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die Eigenschaft PlotVisibleCellsOnly.
  Diese Methode wird 12 Monate später seit Dezember 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

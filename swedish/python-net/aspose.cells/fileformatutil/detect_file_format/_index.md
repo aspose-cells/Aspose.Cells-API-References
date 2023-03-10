@@ -1,4 +1,4 @@
-﻿---
+---
 title: detect_file_format metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def detect_file_format(self, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 
@@ -42,7 +42,7 @@ def detect_file_format(self, file_path):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_path | str | Filsökvägen.|
 
@@ -62,7 +62,7 @@ def detect_file_format(self, stream, password):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | password | str | Lösenordet för krypterade ooxml-filer.|
@@ -83,7 +83,7 @@ def detect_file_format(self, file_path, password):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_path | str | Filsökvägen.|
 | password | str | Lösenordet för krypterade ooxml-filer.|

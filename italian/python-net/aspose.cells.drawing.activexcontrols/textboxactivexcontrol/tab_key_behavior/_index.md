@@ -1,4 +1,4 @@
-﻿---
+---
 title: tab_key_behavior proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

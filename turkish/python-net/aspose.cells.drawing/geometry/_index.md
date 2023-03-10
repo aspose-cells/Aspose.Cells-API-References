@@ -1,4 +1,4 @@
-﻿---
+---
 title: Geometry sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ Geometry türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [shape_adjust_values](/cells/tr/python-net/aspose.cells.drawing/geometry/shape_adjust_values) | Şekil ayarlama değerleri koleksiyonunu alır|
+| [shape_adjust_values](/cells/tr/python-net/aspose.cells.drawing/geometry/shape_adjust_values) | Şekil ayarlama değeri koleksiyonunu alır|
 
 
 

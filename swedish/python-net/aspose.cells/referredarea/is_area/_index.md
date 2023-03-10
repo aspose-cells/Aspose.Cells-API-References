@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_area fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Anger om detta är ett område.
 
 ###  Anmärkningar
 
-Om detta inte är ett område, endast StartRow och StartColumn effekter.
+Om detta inte är ett område, endast StartRow och StartColumn effekt.
 ###  Definition:
 ```python
 @property

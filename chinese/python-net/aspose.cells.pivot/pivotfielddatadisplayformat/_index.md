@@ -1,6 +1,6 @@
-﻿---
+---
 title: PivotFieldDataDisplayFormat枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 150
@@ -14,7 +14,7 @@ is_root: false
 
 PivotFieldDataDisplayFormat 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NORMAL |表示正常显示格式。|

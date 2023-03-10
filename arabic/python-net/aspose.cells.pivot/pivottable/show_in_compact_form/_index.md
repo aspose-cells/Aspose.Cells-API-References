@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة show_in_compact_form
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

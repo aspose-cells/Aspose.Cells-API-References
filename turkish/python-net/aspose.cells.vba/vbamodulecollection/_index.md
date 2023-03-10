@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModuleCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -23,7 +23,7 @@ VbaModuleCollection türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [add(sheet)](/cells/tr/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Bir çalışma sayfası için modüller ekler.|
+| [add(sheet)](/cells/tr/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Bir çalışma sayfası için modül ekler.|
 | [add(type, name)](/cells/tr/python-net/aspose.cells.vba/vbamodulecollection/add/#VbaModuleType-str) | Modül ekler.|
 | [copy_to(array)](/cells/tr/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#list) | Hedef dizi listesinin başından başlayarak tüm dizi listesini uyumlu bir tek boyutlu dizi listesine kopyalar.|
 | [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#int-list-int-int) |Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
@@ -38,7 +38,7 @@ VbaModuleCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_header_row mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_header_row mülk
 
-Aralığın bir başlık satırı içerip içermediğini gösterir.
+Aralığın başlık satırı içerip içermediğini gösterir.
 ###  Tanım:
 ```python
 @property

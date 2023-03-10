@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_glow_effect метод
 second_title: Aspose.Cells for Python via .NET API
 description:

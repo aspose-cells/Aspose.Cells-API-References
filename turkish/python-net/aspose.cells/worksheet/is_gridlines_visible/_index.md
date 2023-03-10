@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_gridlines_visible mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_gridlines_visible mülk
 
-Kılavuz çizgilerinin görünür olup olmadığını belirten bir değer alır veya ayarlar.Varsayılan değer true'dur.
+Kılavuz çizgilerinin görünür olup olmadığını gösteren bir değer alır veya ayarlar.Default true'dur.
 ###  Tanım:
 ```python
 @property

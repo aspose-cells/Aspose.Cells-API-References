@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_not_printed الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-فقط لملفات xlsx.
+فقط لملف xlsx.
 ###  تعريف:
 ```python
 @property

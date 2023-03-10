@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetSet konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | sheets | list | nollbaserade arkindex.|
 ###  Anmärkningar

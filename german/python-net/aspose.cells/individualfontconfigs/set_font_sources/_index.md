@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_font_sources Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

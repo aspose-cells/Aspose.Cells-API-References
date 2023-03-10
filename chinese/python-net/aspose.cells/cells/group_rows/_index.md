@@ -1,6 +1,6 @@
-﻿---
+---
 title: group_rows方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 550
@@ -18,7 +18,7 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | first_index | int |要分组的第一行索引。|
 | last_index | int |要分组的最后一行索引。|
@@ -35,7 +35,7 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | first_index | int |要分组的第一行索引。|
 | last_index | int |要分组的最后一行索引。|

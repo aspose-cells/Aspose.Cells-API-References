@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellFieldType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType numaralandırma
-Oranların hücre alanı tipini temsil eder.
+ods hücre alanı tipini temsil eder.
 
 
 

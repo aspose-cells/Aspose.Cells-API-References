@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد CategoryType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | AUTOMATIC_SCALE | مقياس تلقائي|
-| CATEGORY_SCALE | مقياس الفئة|
+| CATEGORY_SCALE | الفئةالمقياس|
 | TIME_SCALE | مقياس الوقت|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает горизонтальное смещение фигуры от левой границы рабочего листа.
 
-###  Примеры
+###  Пример
 
 ```python
 

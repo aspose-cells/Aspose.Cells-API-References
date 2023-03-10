@@ -1,4 +1,4 @@
-﻿---
+---
 title: z_order_position mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bir şeklin z-sırasındaki konumunu döndürür.
 
-###  örnekler
+###  Örnek
 
 ```python
 

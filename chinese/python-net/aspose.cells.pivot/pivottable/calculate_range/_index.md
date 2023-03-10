@@ -1,6 +1,6 @@
-﻿---
+---
 title: calculate_range方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -20,7 +20,7 @@ def calculate_range(self):
 
 ### 评论
 
-如果不调用此方法，则数据透视表范围可能未更正。
+如果未调用此方法，则数据透视表范围可能未更正。
 
 
 ### 也可以看看

@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Kaynak çalışma sayfası.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Kaynak çalışma sayfası.|
 | copy_options | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) |  |
 ###  Notlar
 
-Aynı dosyadaki veya başka bir dosyadaki başka bir çalışma sayfasındaki verileri copy alabilirsiniz.
+Aynı dosyadaki veya başka bir dosyadaki başka bir çalışma sayfasındaki verileri copy alabilirsiniz. Ancak bu yöntem, yorumlar, resimler ve çizelgeler gibi copy çizim nesnelerini desteklemez.
 
 
 ###  Ayrıca bakınız

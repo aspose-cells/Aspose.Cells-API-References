@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatCondition класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,14 +21,14 @@ is_root: false
 | [formula2](/cells/ru/python-net/aspose.cells/formatcondition/formula2) | Получает и задает значение или выражение, связанное с условным форматированием.|
 | [operator](/cells/ru/python-net/aspose.cells/formatcondition/operator) | Получает и задает тип оператора условного формата.|
 | [stop_if_true](/cells/ru/python-net/aspose.cells/formatcondition/stop_if_true) |Правда, никакие правила с более низким приоритетом не могут быть применены к этому правилу, когда это правило оценивается как истинное.<br/> Применяется только для Excel 2007;|
-| [priority](/cells/ru/python-net/aspose.cells/formatcondition/priority) | Приоритет этого правила условного форматирования.<br/>Формат должен быть оценен и отображен. Меньшие числовые значения имеют более высокий приоритет, чем<br/> более высокие числовые значения, где «1» — наивысший приоритет.|
+| [priority](/cells/ru/python-net/aspose.cells/formatcondition/priority) | Приоритет этого правила условного форматирования. Это значение используется для определения того, какой<br/>формат должен быть оценен и отрендерен. Меньшие числовые значения имеют более высокий приоритет, чем<br/> более высокие числовые значения, где «1» — наивысший приоритет.|
 | [style](/cells/ru/python-net/aspose.cells/formatcondition/style) | Получает или задает стиль диапазонов ячеек с условным форматированием.|
 | [type](/cells/ru/python-net/aspose.cells/formatcondition/type) | Получает и задает тип условного формата.|
 | [icon_set](/cells/ru/python-net/aspose.cells/formatcondition/icon_set) | Получите экземпляр IconSet условного форматирования.<br/>IconSetType экземпляра по умолчанию — TrafficLights31.<br/> Допустимо только для типа = IconSet.|
 | [data_bar](/cells/ru/python-net/aspose.cells/formatcondition/data_bar) | Получите экземпляр условного форматирования "DataBar".<br/>Цвет экземпляра по умолчанию — синий.<br/> Допустим только для типа DataBar.|
 | [color_scale](/cells/ru/python-net/aspose.cells/formatcondition/color_scale) | Получите экземпляр условного форматирования "ColorScale".<br/>Экземпляр по умолчанию — «зелено-желто-красный» 3ColorScale.<br/> Допустимо только для type = ColorScale.|
-| [top10](/cells/ru/python-net/aspose.cells/formatcondition/top10) | Получите экземпляр условного форматирования «Top10».<br/>Правило экземпляра по умолчанию выделяет ячейки,<br/>значения попадают в верхнюю 10 скобку.<br/> Действительно только для типа Top10.|
-| [above_average](/cells/ru/python-net/aspose.cells/formatcondition/above_average) |Получите экземпляр условного форматирования «AboveAverage».<br/> Правило экземпляра по умолчанию выделяет ячейки, которые<br/>выше среднего по всем значениям диапазона.<br/> Допустимо только для типа = AboveAverage.|
+| [top10](/cells/ru/python-net/aspose.cells/formatcondition/top10) | Получите экземпляр условного форматирования «Top10».<br/>Правило экземпляра по умолчанию выделяет ячейки,<br/>значения попадают в первую десятку.<br/> Действительно только для типа Top10.|
+| [above_average](/cells/ru/python-net/aspose.cells/formatcondition/above_average) |Получите экземпляр условного форматирования «AboveAverage».<br/> Правило экземпляра по умолчанию выделяет ячейки, которые<br/>выше среднего для всех значений в диапазоне.<br/> Допустимо только для типа = AboveAverage.|
 | [text](/cells/ru/python-net/aspose.cells/formatcondition/text) | Текстовое значение в правиле условного форматирования «текст содержит».<br/>Допустимо только для type = containsText, notContainsText, beginWith и EndsWith.<br/> Значение по умолчанию равно нулю.|
 | [time_period](/cells/ru/python-net/aspose.cells/formatcondition/time_period) | Применимый период времени в правиле условного форматирования «дата возникновения…».<br/>Допустимо только для type = timePeriod.<br/> Значение по умолчанию — TimePeriodType.Today.|
 
@@ -48,7 +48,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

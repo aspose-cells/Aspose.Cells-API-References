@@ -1,4 +1,4 @@
-﻿---
+---
 title: count_of_data_values proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

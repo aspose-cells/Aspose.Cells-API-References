@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_standard_function_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,9 +22,9 @@ def get_standard_function_name(self, local_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| local_name | str | اسم وظيفة تعتمد على الإعدادات المحلية.|
+| local_name | str | اسم وظيفة تعتمد على الإعدادات المحلية. تم تحديد الإعدادات المحلية بواسطة المصنف الذي يتم استخدام هذه الإعدادات من أجله.|
 
 
 

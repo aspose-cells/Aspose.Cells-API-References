@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_dependents метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_dependents(self, is_all, row, column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | is_all | bool | Указывает, следует ли проверять другие рабочие листы|
 | row | int | Индекс строки.|

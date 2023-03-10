@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_zeros proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_zeros proprietà
 
-Vero se vengono visualizzati valori zero.
+Vero se vengono visualizzati valori pari a zero.
 ###  Definizione:
 ```python
 @property

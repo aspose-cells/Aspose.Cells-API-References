@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt ein Characters-Objekt zurück, das einen Bereich von characters im Zellente
 
 ###  Kehrt zurück
 
-Charakterobjekte.
+Zeichenobjekt.
 
 
 ```python
@@ -29,7 +29,7 @@ def characters(self, start_index, length):
 ###  Bemerkungen
 
 Diese Methode funktioniert nur bei Zellen mit Zeichenfolgenwerten.
-###  Beispiele
+###  Beispiel
 
 
 ```python

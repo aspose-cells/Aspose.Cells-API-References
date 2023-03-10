@@ -1,6 +1,6 @@
-﻿---
+---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-列表中智能标签的索引。
+智能标签在列表中的索引。
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | uri | str |指定智能标记的命名空间 URI|
 | name | str |指定智能标记的名称。|

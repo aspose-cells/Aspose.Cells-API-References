@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_autofilter mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_autofilter mülk
 
-Bu çalışma sayfasında bir otomatik filtre olup olmadığını gösterir.
+Bu çalışma sayfasında otomatik filtre olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

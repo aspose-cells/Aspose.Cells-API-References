@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_values_row propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_values_row propriété
 
-Spécifie une valeur booléenne qui indique si afficher les valeurs de ligne.
+Spécifie une valeur booléenne qui indique si afficher la ligne des valeurs.
 afficher la ligne des valeurs
 ###  Définition:
 ```python

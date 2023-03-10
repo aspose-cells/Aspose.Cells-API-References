@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_blank_column метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/is_blank_column/
 is_root: false
 ---
 ##  is_blank_column(column_index) {#int}
-Проверяет, является ли данный столбец пустым (не содержит данных).
+Проверяет, является ли данный столбец пустым (не содержит никаких данных).
 
 
 ###  Возвращает
@@ -22,7 +22,7 @@ def is_blank_column(self, column_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | индекс столбца|
 

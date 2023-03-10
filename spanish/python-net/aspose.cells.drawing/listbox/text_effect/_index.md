@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_effect propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -12,7 +12,7 @@ is_root: false
  Devuelve un objeto TextEffectFormat que contiene propiedades de formato de efecto de texto para la forma especificada.
 Se aplica a los objetos Shape que representan WordArt.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: case_sensitive proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive proprietà
 
-Ottiene e imposta la distinzione tra maiuscole e minuscole durante il confronto delle stringhe.
+Ottiene e imposta la distinzione tra maiuscole e minuscole durante il confronto di stringhe.
 ###  Definizione:
 ```python
 @property

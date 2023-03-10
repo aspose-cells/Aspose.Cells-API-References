@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_bevel_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

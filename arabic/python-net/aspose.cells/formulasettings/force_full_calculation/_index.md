@@ -1,4 +1,4 @@
-﻿---
+---
 title: force_full_calculation الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  force_full_calculation الملكية
 
-يشير إلى ما إذا كان سيتم حساب جميع الصيغ في كل مرة يتم فيها تشغيل عملية حسابية.
+يشير إلى ما إذا كان سيتم حساب كل الصيغ في كل مرة يتم فيها تشغيل عملية حسابية.
 
 ###  ملاحظات
 

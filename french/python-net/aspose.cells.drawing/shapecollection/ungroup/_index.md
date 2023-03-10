@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing/shapecollection/ungroup/
 is_root: false
 ---
 ##  ungroup(group) {#GroupShape}
-Dissociez les éléments de forme.
+Dissocie les éléments de forme.
 
 
 
@@ -18,13 +18,13 @@ def ungroup(self, group):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | group | [GroupShape](/cells/fr/python-net/aspose.cells.drawing/groupshape) | La forme du groupe.|
 ###  Remarques
 
 Si la forme de groupe est groupée par une autre forme de groupe, rien ne sera fait.
-###  Exemples
+###  Exemple
 
 
 ```python

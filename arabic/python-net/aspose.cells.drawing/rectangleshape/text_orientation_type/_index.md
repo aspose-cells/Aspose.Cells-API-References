@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_orientation_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع اتجاه النص للشكل وتعيينه.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import TextOrientationType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inner_mode الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -14,7 +14,7 @@ is_root: false
 
 ###  ملاحظات
 
-فقط لملفات Xlsx.
+فقط لملف Xlsx.
 ###  تعريف:
 ```python
 @property

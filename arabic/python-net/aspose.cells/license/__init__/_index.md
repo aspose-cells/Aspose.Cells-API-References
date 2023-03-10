@@ -1,4 +1,4 @@
-﻿---
+---
 title: License المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  أمثلة
+###  مثال
 
 في هذا المثال ، سيتم إجراء محاولة للعثور على ملف ترخيص باسم MyLicense.lic
  في المجلد الذي يحتوي على

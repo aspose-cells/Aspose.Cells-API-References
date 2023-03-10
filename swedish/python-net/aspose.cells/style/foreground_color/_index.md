@@ -1,4 +1,4 @@
-﻿---
+---
 title: foreground_color fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar eller ställer in en stils förgrundsfärg.
 
 ###  Anmärkningar
 
-Det betyder ingen färginställning om Color. Empty returneras.
+Det betyder ingen färginställning om Color.Empty returneras.
 ###  Definition:
 ```python
 @property

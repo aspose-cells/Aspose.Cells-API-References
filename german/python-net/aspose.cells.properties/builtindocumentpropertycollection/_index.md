@@ -1,4 +1,4 @@
-﻿---
+---
 title: BuiltInDocumentPropertyCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -33,13 +33,13 @@ Der Typ BuiltInDocumentPropertyCollection macht die folgenden Member verfügbar:
 | [content_type](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/content_type) | Ruft den Inhaltstyp des Dokuments ab oder legt diesen fest.|
 | [content_status](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/content_status) | Ruft den Inhaltsstatus des Dokuments ab oder legt diesen fest.|
 | [company](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/company) | Ruft die Unternehmenseigenschaft ab oder legt diese fest.|
-| [hyperlink_base](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/hyperlink_base) |Ruft die hyperlinkbase-Eigenschaft ab oder legt diese fest.|
+| [hyperlink_base](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/hyperlink_base) |Ruft die hyperlinkbase-Eigenschaft ab oder legt sie fest.|
 | [created_time](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_time) | Ruft das Datum der Dokumenterstellung in der lokalen Zeitzone ab oder legt es fest.|
 | [created_universal_time](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_universal_time) | Ruft die Weltzeit der Dokumenterstellung ab oder legt diese fest.|
 | [keywords](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/keywords) | Ruft die Schlüsselwörter des Dokuments ab oder legt sie fest.|
 | [last_printed](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_printed) | Ruft das Datum ab, an dem das Dokument zuletzt in der lokalen Zeitzone gedruckt wurde, oder legt es fest.|
 | [last_printed_universal_time](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_printed_universal_time) | Ruft die Weltzeit ab oder legt sie fest, als das Dokument zuletzt gedruckt wurde.|
-| [last_saved_by](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_saved_by) | Ruft den Namen des letzten Autors ab oder legt ihn fest.|
+| [last_saved_by](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_saved_by) | Ruft den Namen des letzten Autors ab oder legt diesen fest.|
 | [last_saved_time](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_saved_time) | Ruft die Zeit der letzten Speicherung in der lokalen Zeitzone ab oder legt sie fest.|
 | [last_saved_universal_time](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_saved_universal_time) | Ruft die Weltzeit der letzten Speicherung ab oder legt sie fest.|
 | [lines](/cells/de/python-net/aspose.cells.properties/builtindocumentpropertycollection/lines) | Stellt eine Schätzung der Anzahl der Zeilen im Dokument dar.|
@@ -77,7 +77,7 @@ Der Typ BuiltInDocumentPropertyCollection macht die folgenden Member verfügbar:
 ###  Bemerkungen
 
 Bietet Zugriff auf [DocumentProperty](/cells/de/python-net/aspose.cells.properties/documentproperty)-Objekte anhand ihrer Namen (mithilfe eines Indexers) und
-über eine Reihe von typisierten Eigenschaften, die Werte geeigneter Typen zurückgeben.
+über einen Satz typisierter Eigenschaften, die Werte geeigneter Typen zurückgeben.
 
 ###  Siehe auch
 * Modul [aspose.cells.properties](..)

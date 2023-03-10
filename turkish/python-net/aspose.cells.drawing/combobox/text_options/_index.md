@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_options mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin metin seçeneklerini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.pydrawing import Color

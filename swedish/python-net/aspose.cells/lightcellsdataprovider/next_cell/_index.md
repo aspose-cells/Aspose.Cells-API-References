@@ -1,4 +1,4 @@
-﻿---
+---
 title: next_cell metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar nästa cell som ska sparas.
 
 ###  Returnerar
 
--1 betyder att slutet av aktuell raddata har nåtts och ingen ytterligare cell i den aktuella raden ska sparas.
+kolumnindex för nästa cell som ska sparas. -1 betyder att slutet av aktuell raddata har nåtts och ingen ytterligare cell i den aktuella raden ska sparas.
 
 
 ```python

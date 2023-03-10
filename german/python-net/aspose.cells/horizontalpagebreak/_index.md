@@ -1,4 +1,4 @@
-﻿---
+---
 title: HorizontalPageBreak Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ Der Typ HorizontalPageBreak macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

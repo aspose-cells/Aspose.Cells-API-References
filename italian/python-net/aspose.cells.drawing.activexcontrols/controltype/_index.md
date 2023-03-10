@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.drawing.activexcontrols/controltype/
 is_root: false
 ---
 ##  ControlType enumerazione
-Rappresenta tutti i tipi di controlli ActiveX.
+Rappresenta tutti i tipi di controllo ActiveX.
 
 
 
@@ -17,14 +17,14 @@ Il tipo ControlType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| COMMAND_BUTTON | pulsante|
+| COMMAND_BUTTON | Pulsante|
 | COMBO_BOX | Casella combinata|
-| CHECK_BOX | casella di controllo|
+| CHECK_BOX | Casella di controllo|
 | LIST_BOX | Casella di riepilogo|
 | TEXT_BOX | Casella di testo|
 | SPIN_BUTTON | Filatore|
-| RADIO_BUTTON | tasti della radio|
-| LABEL | etichetta|
+| RADIO_BUTTON | Pulsante di radio|
+| LABEL | Etichetta|
 | IMAGE | Immagine|
 | TOGGLE_BUTTON | Interruttore|
 | SCROLL_BAR | Barra di scorrimento|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_column_width
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,10 +18,10 @@ def set_column_width(self, column, width):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Indice di colonna.|
-| width | float | Larghezza della colonna. La larghezza della colonna deve essere compresa tra 0 e 255.|
+| width | float | Larghezza della colonna.La larghezza della colonna deve essere compresa tra 0 e 255.|
 ###  Osservazioni
 
 Per nascondere una colonna, imposta la larghezza della colonna su zero.

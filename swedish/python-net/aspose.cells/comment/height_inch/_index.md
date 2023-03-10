@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height_inch fastighet
 
-Representerar höjden på kommentaren, i enheter av tum.
+Representerar höjden på kommentaren, i enhet av tum.
 
 ###  Exempel
 

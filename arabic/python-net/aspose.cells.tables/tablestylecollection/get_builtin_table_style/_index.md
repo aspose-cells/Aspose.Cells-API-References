@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_builtin_table_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_builtin_table_style(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [TableStyleType](/cells/ar/python-net/aspose.cells.tables/tablestyletype) | نوع نمط الجدول المدمج.|
 

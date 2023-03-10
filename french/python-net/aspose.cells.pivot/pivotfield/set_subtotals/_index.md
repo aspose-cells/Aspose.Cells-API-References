@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_subtotals méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_subtotals(self, subtotal_type, shown):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | subtotal_type | [PivotFieldSubtotalType](/cells/fr/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | type de sous-totaux.|
 | shown | bool | si le champ spécifié affiche ces sous-totaux.|

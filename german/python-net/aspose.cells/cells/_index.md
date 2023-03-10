@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cells Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,21 +17,21 @@ Der Typ Cells macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [ods_cell_fields](/cells/de/python-net/aspose.cells/cells/ods_cell_fields) | Ruft die Liste der Quotenfelder ab.|
+| [ods_cell_fields](/cells/de/python-net/aspose.cells/cells/ods_cell_fields) | Ruft die Liste der Felder von Ods ab.|
 | [count](/cells/de/python-net/aspose.cells/cells/count) | Ruft die Gesamtzahl der instanziierten Cell-Objekte ab.|
 | [count_large](/cells/de/python-net/aspose.cells/cells/count_large) | Ruft die Gesamtzahl der instanziierten Cell-Objekte ab.|
 | [rows](/cells/de/python-net/aspose.cells/cells/rows) | Ruft die Auflistung von [Row](/cells/de/python-net/aspose.cells/row)-Objekten ab, die die einzelnen Zeilen in diesem Arbeitsblatt darstellen.|
 | [merged_cells](/cells/de/python-net/aspose.cells/cells/merged_cells) | Ruft die Auflistung verbundener Zellen ab.|
 | [multi_thread_reading](/cells/de/python-net/aspose.cells/cells/multi_thread_reading) | Ruft ab oder legt fest, ob das Zellendatenmodell Multi-Thread-Lesen unterstützen soll.<br/> Der Standardwert dieser Eigenschaft ist false.|
-| [memory_setting](/cells/de/python-net/aspose.cells/cells/memory_setting) | Ruft die Speichernutzungsoption für diese Zelle ab oder legt diese fest.|
+| [memory_setting](/cells/de/python-net/aspose.cells/cells/memory_setting) | Ruft die Speichernutzungsoption für diese Zellen ab oder legt sie fest.|
 | [style](/cells/de/python-net/aspose.cells/cells/style) | Ruft den Standardstil ab und legt ihn fest.|
-| [standard_width_inch](/cells/de/python-net/aspose.cells/cells/standard_width_inch) |Ruft die Standardspaltenbreite im Arbeitsblatt in Zolleinheiten ab oder legt diese fest.|
+| [standard_width_inch](/cells/de/python-net/aspose.cells/cells/standard_width_inch) |Ruft die Standardspaltenbreite im Arbeitsblatt in Zoll ab oder legt diese fest.|
 | [standard_width_pixels](/cells/de/python-net/aspose.cells/cells/standard_width_pixels) | Ruft die Standardspaltenbreite im Arbeitsblatt in Pixeleinheiten ab oder legt diese fest.|
 | [standard_width](/cells/de/python-net/aspose.cells/cells/standard_width) | Ruft die Standardspaltenbreite im Arbeitsblatt in Zeicheneinheiten ab oder legt diese fest.|
 | [standard_height](/cells/de/python-net/aspose.cells/cells/standard_height) | Ruft die Standardzeilenhöhe in diesem Arbeitsblatt in Punkteinheiten ab oder legt diese fest.|
 | [standard_height_pixels](/cells/de/python-net/aspose.cells/cells/standard_height_pixels) | Ruft die Standardzeilenhöhe in diesem Arbeitsblatt in Pixeleinheiten ab oder legt diese fest.|
-| [standard_height_inch](/cells/de/python-net/aspose.cells/cells/standard_height_inch) | Ruft die Standardzeilenhöhe in diesem Arbeitsblatt in Zolleinheiten ab oder legt diese fest.|
-| [preserve_string](/cells/de/python-net/aspose.cells/cells/preserve_string) | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob alle Arbeitsblattwerte als Zeichenfolgen beibehalten werden.<br/> Standard ist falsch.|
+| [standard_height_inch](/cells/de/python-net/aspose.cells/cells/standard_height_inch) | Ruft die Standardzeilenhöhe in diesem Arbeitsblatt in Zoll ab oder legt diese fest.|
+| [preserve_string](/cells/de/python-net/aspose.cells/cells/preserve_string) | Ruft einen Wert ab, der angibt, ob alle Arbeitsblattwerte als Zeichenfolgen beibehalten werden, oder legt diesen fest.<br/> Standard ist falsch.|
 | [min_row](/cells/de/python-net/aspose.cells/cells/min_row) | Minimaler Zeilenindex der Zelle, die Daten oder Stil enthält.|
 | [max_row](/cells/de/python-net/aspose.cells/cells/max_row) | Maximaler Zeilenindex der Zelle, die Daten oder Stil enthält.|
 | [min_column](/cells/de/python-net/aspose.cells/cells/min_column) | Minimaler Spaltenindex der Zellen, die in der Sammlung instanziiert wurden (enthält nicht die Spalte<br/> wobei der Stil für die gesamte Spalte definiert ist, aber keine Zelle darin instanziiert wurde).|
@@ -68,9 +68,9 @@ Ruft [Cell](/cells/de/python-net/aspose.cells/cell)-Element im Arbeitsblatt ab
 | [get(cell_name)](/cells/de/python-net/aspose.cells/cells/get/#str) | Fügen Sie API for Python über .Net hinzu, da diese [Zeichenfolge Zellenname] nicht unterstützt wird|
 | [import_object_array(obj_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool) | Importiert ein Array von Daten in ein Arbeitsblatt.|
 | [import_object_array(obj_array, first_row, first_column, is_vertical, skip)](/cells/de/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool-int) | Importiert ein Array von Daten in ein Arbeitsblatt.|
-| [import_array(string_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Importiert ein Array von Zeichenfolgen in ein Arbeitsblatt.|
-| [import_array(int_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Importiert ein Array von Ganzzahlen in ein Arbeitsblatt.|
-| [import_array(double_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Importiert ein Array von Doubles in ein Arbeitsblatt.|
+| [import_array(string_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Importiert ein String-Array in ein Arbeitsblatt.|
+| [import_array(int_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Importiert ein Integer-Array in ein Arbeitsblatt.|
+| [import_array(double_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Importiert ein Array von Double in ein Arbeitsblatt.|
 | [import_csv(file_name, splitter, convert_numeric_data, first_row, first_column)](/cells/de/python-net/aspose.cells/cells/import_csv/#str-str-bool-int-int) | Importieren Sie eine CSV-Datei in die Zellen.|
 | [import_csv(stream, splitter, convert_numeric_data, first_row, first_column)](/cells/de/python-net/aspose.cells/cells/import_csv/#io.RawIOBase-str-bool-int-int) | Importieren Sie eine CSV-Datei in die Zellen.|
 | [import_csv(file_name, options, first_row, first_column)](/cells/de/python-net/aspose.cells/cells/import_csv/#str-TxtLoadOptions-int-int) | Importieren Sie eine CSV-Datei in die Zellen.|
@@ -84,10 +84,10 @@ Ruft [Cell](/cells/de/python-net/aspose.cells/cell)-Element im Arbeitsblatt ab
 | [copy_rows(source_cells, source_row_index, destination_row_index, row_number)](/cells/de/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int) | Kopiert Daten und Formate einiger ganzer Zeilen.|
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options)](/cells/de/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions) | Kopiert Daten und Formate einiger ganzer Zeilen.|
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options, paste_options)](/cells/de/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions-PasteOptions) | Kopiert Daten und Formate einiger ganzer Zeilen.|
-| [group_columns(first_index, last_index)](/cells/de/python-net/aspose.cells/cells/group_columns/#int-int) | Spalten gruppieren.|
-| [group_columns(first_index, last_index, is_hidden)](/cells/de/python-net/aspose.cells/cells/group_columns/#int-int-bool) | Spalten gruppieren.|
-| [ungroup_rows(first_index, last_index, is_all)](/cells/de/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | Gruppierung von Zeilen aufheben.|
-| [ungroup_rows(first_index, last_index)](/cells/de/python-net/aspose.cells/cells/ungroup_rows/#int-int) | Gruppierung von Zeilen aufheben.|
+| [group_columns(first_index, last_index)](/cells/de/python-net/aspose.cells/cells/group_columns/#int-int) | Gruppiert Spalten.|
+| [group_columns(first_index, last_index, is_hidden)](/cells/de/python-net/aspose.cells/cells/group_columns/#int-int-bool) | Gruppiert Spalten.|
+| [ungroup_rows(first_index, last_index, is_all)](/cells/de/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | Hebt die Gruppierung von Zeilen auf.|
+| [ungroup_rows(first_index, last_index)](/cells/de/python-net/aspose.cells/cells/ungroup_rows/#int-int) | Hebt die Gruppierung von Zeilen auf.|
 | [group_rows(first_index, last_index, is_hidden)](/cells/de/python-net/aspose.cells/cells/group_rows/#int-int-bool) | Gruppiert Zeilen.|
 | [group_rows(first_index, last_index)](/cells/de/python-net/aspose.cells/cells/group_rows/#int-int) | Gruppiert Zeilen.|
 | [delete_column(column_index, update_reference)](/cells/de/python-net/aspose.cells/cells/delete_column/#int-bool) | Löscht eine Spalte.|
@@ -140,26 +140,26 @@ Ruft [Cell](/cells/de/python-net/aspose.cells/cell)-Element im Arbeitsblatt ab
 | [import_data(table, first_row, first_column, options)](/cells/de/python-net/aspose.cells/cells/import_data/#ICellsDataTable-int-int-ImportTableOptions) | Importieren Sie Daten aus benutzerdefinierten Datentabellen.|
 | [import_array_list(array_list, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_array_list/#list-int-int-bool) | Importiert eine Arrayliste von Daten in ein Arbeitsblatt.|
 | [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/de/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) | Importiert ein Array von Formeln in ein Arbeitsblatt.|
-| [text_to_columns(row, column, total_rows, options)](/cells/de/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | Teilt den Text in den Spalten in Spalten auf.|
+| [text_to_columns(row, column, total_rows, options)](/cells/de/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | Teilt den Text in der Spalte in Spalten auf.|
 | [un_merge(first_row, first_column, total_rows, total_columns)](/cells/de/python-net/aspose.cells/cells/un_merge/#int-int-int-int) | Hebt die Zusammenführung eines angegebenen Bereichs verbundener Zellen auf.|
 | [clear_merged_cells()](/cells/de/python-net/aspose.cells/cells/clear_merged_cells/#) | Löscht alle zusammengeführten Bereiche.|
 | [hide_row(row)](/cells/de/python-net/aspose.cells/cells/hide_row/#int) | Blendet eine Zeile aus.|
-| [unhide_row(row, height)](/cells/de/python-net/aspose.cells/cells/unhide_row/#int-float) | Eine Zeile einblenden.|
+| [unhide_row(row, height)](/cells/de/python-net/aspose.cells/cells/unhide_row/#int-float) | Blendet eine Zeile ein.|
 | [hide_rows(row, total_rows)](/cells/de/python-net/aspose.cells/cells/hide_rows/#int-int) | Blendet mehrere Zeilen aus.|
 | [unhide_rows(row, total_rows, height)](/cells/de/python-net/aspose.cells/cells/unhide_rows/#int-int-float) | Blendet die ausgeblendeten Zeilen ein.|
 | [set_row_height_pixel(row, pixels)](/cells/de/python-net/aspose.cells/cells/set_row_height_pixel/#int-int) | Legt die Zeilenhöhe in Pixeleinheiten fest.|
-| [set_row_height_inch(row, inches)](/cells/de/python-net/aspose.cells/cells/set_row_height_inch/#int-float) | Legt die Zeilenhöhe in Einheiten von Zoll fest.|
+| [set_row_height_inch(row, inches)](/cells/de/python-net/aspose.cells/cells/set_row_height_inch/#int-float) | Legt die Zeilenhöhe in Zoll fest.|
 | [set_row_height(row, height)](/cells/de/python-net/aspose.cells/cells/set_row_height/#int-float) | Legt die Höhe der angegebenen Zeile fest.|
 | [get_row_original_height_point(row)](/cells/de/python-net/aspose.cells/cells/get_row_original_height_point/#int) | Ruft die Höhe der ursprünglichen Zeile in Punkteinheiten ab, wenn die Zeile ausgeblendet ist|
 | [hide_column(column)](/cells/de/python-net/aspose.cells/cells/hide_column/#int) | Blendet eine Spalte aus.|
-| [unhide_column(column, width)](/cells/de/python-net/aspose.cells/cells/unhide_column/#int-float) | Eine Spalte einblenden|
+| [unhide_column(column, width)](/cells/de/python-net/aspose.cells/cells/unhide_column/#int-float) | Blendet eine Spalte ein|
 | [hide_columns(column, total_columns)](/cells/de/python-net/aspose.cells/cells/hide_columns/#int-int) | Mehrere Spalten ausblenden.|
 | [unhide_columns(column, total_columns, width)](/cells/de/python-net/aspose.cells/cells/unhide_columns/#int-int-float) |Blenden Sie mehrere Spalten ein.|
 | [get_row_height(row)](/cells/de/python-net/aspose.cells/cells/get_row_height/#int) | Ruft die Höhe einer angegebenen Zeile ab.|
 | [get_view_row_height(row)](/cells/de/python-net/aspose.cells/cells/get_view_row_height/#int) | Ruft die Höhe einer angegebenen Zeile ab.|
 | [get_row_height_pixel(row)](/cells/de/python-net/aspose.cells/cells/get_row_height_pixel/#int) | Ruft die Höhe einer angegebenen Zeile in Pixeleinheiten ab.|
-| [get_row_height_inch(row)](/cells/de/python-net/aspose.cells/cells/get_row_height_inch/#int) | Ruft die Höhe einer angegebenen Zeile in Einheiten von Zoll ab.|
-| [get_view_row_height_inch(row)](/cells/de/python-net/aspose.cells/cells/get_view_row_height_inch/#int) | Ruft die Höhe einer angegebenen Zeile in Einheiten von Zoll ab.|
+| [get_row_height_inch(row)](/cells/de/python-net/aspose.cells/cells/get_row_height_inch/#int) | Ruft die Höhe einer angegebenen Zeile in Zoll ab.|
+| [get_view_row_height_inch(row)](/cells/de/python-net/aspose.cells/cells/get_view_row_height_inch/#int) | Ruft die Höhe einer angegebenen Zeile in Zoll ab.|
 | [set_column_width_pixel(column, pixels)](/cells/de/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) | Legt die Spaltenbreite in der Einheit Pixel in der Normalansicht fest.|
 | [set_column_width_inch(column, inches)](/cells/de/python-net/aspose.cells/cells/set_column_width_inch/#int-float) | Legt die Spaltenbreite in der Einheit Zoll in der Normalansicht fest.|
 | [set_column_width(column, width)](/cells/de/python-net/aspose.cells/cells/set_column_width/#int-float) | Legt die Breite der angegebenen Spalte in der Normalansicht fest.|
@@ -167,7 +167,7 @@ Ruft [Cell](/cells/de/python-net/aspose.cells/cell)-Element im Arbeitsblatt ab
 | [get_column_width_inch(column)](/cells/de/python-net/aspose.cells/cells/get_column_width_inch/#int) | Ruft die Breite der angegebenen Spalte in der Normalansicht in Zoll ab.|
 | [get_column_width(column)](/cells/de/python-net/aspose.cells/cells/get_column_width/#int) | Ruft die Breite der angegebenen Spalte in der Normalansicht ab|
 | [get_view_column_width_pixel(column)](/cells/de/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | Holen Sie sich die Breite in verschiedenen Ansichtstypen.|
-| [set_view_column_width_pixel(column, pixels)](/cells/de/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | Legt die Breite der Spalte in verschiedenen Ansichten fest.|
+| [set_view_column_width_pixel(column, pixels)](/cells/de/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | Legt die Breite der Spalte in einer anderen Ansicht fest.|
 | [get_last_data_row(column)](/cells/de/python-net/aspose.cells/cells/get_last_data_row/#int) | Ruft den letzten Zeilenindex der Zelle ab, die Daten in der angegebenen Spalte enthält.|
 | [apply_column_style(column, style, flag)](/cells/de/python-net/aspose.cells/cells/apply_column_style/#int-Style-StyleFlag) | Wendet Formate für eine ganze Spalte an.|
 | [apply_row_style(row, style, flag)](/cells/de/python-net/aspose.cells/cells/apply_row_style/#int-Style-StyleFlag) | Wendet Formate für eine ganze Zeile an.|
@@ -184,7 +184,7 @@ Ruft [Cell](/cells/de/python-net/aspose.cells/cell)-Element im Arbeitsblatt ab
 | [delete_columns(column_index, total_columns, update_reference)](/cells/de/python-net/aspose.cells/cells/delete_columns/#int-int-bool) | Löscht mehrere Spalten.|
 | [is_deleting_range_enabled(start_row, start_column, total_rows, total_columns)](/cells/de/python-net/aspose.cells/cells/is_deleting_range_enabled/#int-int-int-int) | Prüfen Sie, ob der Bereich gelöscht werden konnte.|
 | [delete_row(row_index)](/cells/de/python-net/aspose.cells/cells/delete_row/#int) | Löscht eine Zeile.|
-| [is_blank_column(column_index)](/cells/de/python-net/aspose.cells/cells/is_blank_column/#int) | Überprüft, ob die angegebene Spalte leer ist (keine Daten enthält).|
+| [is_blank_column(column_index)](/cells/de/python-net/aspose.cells/cells/is_blank_column/#int) | Überprüft, ob die angegebene Spalte leer ist (enthält keine Daten).|
 | [insert_row(row_index)](/cells/de/python-net/aspose.cells/cells/insert_row/#int) | Fügt eine neue Zeile in das Arbeitsblatt ein.|
 | [link_to_xml_map(map_name, row, column, path)](/cells/de/python-net/aspose.cells/cells/link_to_xml_map/#str-int-int-str) | Link zu einer XML-Karte.|
 | [find_formula(formula, previous_cell)](/cells/de/python-net/aspose.cells/cells/find_formula/#str-Cell) | Findet die Zelle mit der Eingabezeichenfolge.|
@@ -196,7 +196,7 @@ Ruft [Cell](/cells/de/python-net/aspose.cells/cell)-Element im Arbeitsblatt ab
 | [remove_formulas()](/cells/de/python-net/aspose.cells/cells/remove_formulas/#) | Entfernt alle Formeln und ersetzt sie durch den Wert der Formel.|
 | [convert_string_to_numeric_value()](/cells/de/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) |Konvertiert Zeichenfolgendaten in Zellen nach Möglichkeit in numerische Werte.|
 | [get_dependents(is_all, row, column)](/cells/de/python-net/aspose.cells/cells/get_dependents/#bool-int-int) | Holen Sie sich alle Zellen, die sich auf die bestimmte Zelle beziehen.|
-| [get_dependents_in_calculation(row, column, recursive)](/cells/de/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | Ruft alle Zellen ab, deren berechnetes Ergebnis von bestimmten Zellen abhängt.|
+| [get_dependents_in_calculation(row, column, recursive)](/cells/de/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | Ruft alle Zellen ab, deren berechnetes Ergebnis von einer bestimmten Zelle abhängt.|
 | [get_cell_style(row, column)](/cells/de/python-net/aspose.cells/cells/get_cell_style/#int-int) | Holen Sie sich den Stil der angegebenen Zelle.|
 
 

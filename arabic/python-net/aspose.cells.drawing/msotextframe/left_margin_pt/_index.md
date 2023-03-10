@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin_pt الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_pt الملكية
 
-تُرجع الهامش الأيسر بوحدات من النقاط
+إرجاع الهامش الأيسر بوحدة النقاط
 ###  تعريف:
 ```python
 @property

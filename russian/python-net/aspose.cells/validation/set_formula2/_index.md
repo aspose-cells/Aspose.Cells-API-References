@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_formula2 метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_formula2(self, formula, is_r1c1, is_local):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | formula | str |Значение или выражение, связанное с этим условием формата.|
 | is_r1c1 | bool | Является ли формула формулой R1C1.|

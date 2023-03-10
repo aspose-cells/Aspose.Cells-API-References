@@ -1,4 +1,4 @@
-﻿---
+---
 title: SelectionType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ SelectionType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| SINGLE | Tek seçim türü.|
+| SINGLE | Sigle seçim türü.|
 | MULTI |Çoklu seçim türü.|
 | EXTEND | Seçim türünü genişletin.|
 

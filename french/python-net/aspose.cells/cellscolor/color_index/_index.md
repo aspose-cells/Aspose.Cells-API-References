@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_index propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index propriété
 
-Obtient et définit l'index de couleur dans la palette de couleurs.
+Obtient et définit l'index de couleur dans la palette de couleurs. S'applique uniquement de couleur indexée.
 ###  Définition:
 ```python
 @property

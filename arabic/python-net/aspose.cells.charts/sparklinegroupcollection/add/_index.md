@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, type, data_range, is_vertical, location_range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [SparklineType](/cells/ar/python-net/aspose.cells.charts/sparklinetype) | يحدد نوع مجموعة Sparkline.|
 | data_range | str | يحدد نطاق البيانات لمجموعة خط المؤشر.|

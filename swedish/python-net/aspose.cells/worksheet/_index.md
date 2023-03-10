@@ -1,4 +1,4 @@
-﻿---
+---
 title: Worksheet klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen Worksheet avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [protection](/cells/sv/python-net/aspose.cells/worksheet/protection) | Representerar de olika typerna av skyddsalternativ som är tillgängliga för ett kalkylblad.|
+| [protection](/cells/sv/python-net/aspose.cells/worksheet/protection) | Representerar de olika typerna av skyddsalternativ som är tillgängliga för ett kalkylblad. Stöder avancerade skyddsalternativ i ExcelXP och högre version.|
 | [unique_id](/cells/sv/python-net/aspose.cells/worksheet/unique_id) | Hämtar och ställer in det unika ID:t, det är samma som {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.|
 | [workbook](/cells/sv/python-net/aspose.cells/worksheet/workbook) | Hämtar arbetsboksobjektet som innehåller detta ark.|
 | [cells](/cells/sv/python-net/aspose.cells/worksheet/cells) | Får samlingen [Worksheet.cells](/cells/sv/python-net/aspose.cells/worksheet#cells).|
@@ -40,7 +40,7 @@ Typen Worksheet avslöjar följande medlemmar:
 | [hyperlinks](/cells/sv/python-net/aspose.cells/worksheet/hyperlinks) | Får samlingen [HyperlinkCollection](/cells/sv/python-net/aspose.cells/hyperlinkcollection).|
 | [page_setup](/cells/sv/python-net/aspose.cells/worksheet/page_setup) | Representerar beskrivningen av sidinställningarna i det här bladet.|
 | [auto_filter](/cells/sv/python-net/aspose.cells/worksheet/auto_filter) | Representerar autofilter för det angivna kalkylbladet.|
-| [has_autofilter](/cells/sv/python-net/aspose.cells/worksheet/has_autofilter) | Anger om detta kalkylblad har ett autofilter.|
+| [has_autofilter](/cells/sv/python-net/aspose.cells/worksheet/has_autofilter) | Indikerar om detta kalkylblad har autofilter.|
 | [transition_evaluation](/cells/sv/python-net/aspose.cells/worksheet/transition_evaluation) | Anger om alternativet Utvärdering av övergångsformel (Lotus-kompatibilitet) är aktiverat.|
 | [transition_entry](/cells/sv/python-net/aspose.cells/worksheet/transition_entry) | Anger om alternativet Transition Formula Entry (Lotus-kompatibilitet) är aktiverat.|
 | [visibility_type](/cells/sv/python-net/aspose.cells/worksheet/visibility_type) | Indikerar det synliga tillståndet för detta ark.|
@@ -56,7 +56,7 @@ Typen Worksheet avslöjar följande medlemmar:
 | [shapes](/cells/sv/python-net/aspose.cells/worksheet/shapes) | Returnerar alla ritningsformer i detta kalkylblad.|
 | [slicers](/cells/sv/python-net/aspose.cells/worksheet/slicers) | Hämta Slicer-samlingen i arbetsbladet|
 | [timelines](/cells/sv/python-net/aspose.cells/worksheet/timelines) | Hämta tidslinjesamlingen i kalkylbladet|
-| [index](/cells/sv/python-net/aspose.cells/worksheet/index) | Hämtar index över ark i kalkylbladssamlingen.|
+| [index](/cells/sv/python-net/aspose.cells/worksheet/index) | Hämtar indexet för arket i kalkylbladssamlingen.|
 | [is_protected](/cells/sv/python-net/aspose.cells/worksheet/is_protected) | Indikerar om kalkylbladet är skyddat.|
 | [validations](/cells/sv/python-net/aspose.cells/worksheet/validations) | Hämtar insamlingen av datavalideringsinställning i kalkylbladet.|
 | [allow_edit_ranges](/cells/sv/python-net/aspose.cells/worksheet/allow_edit_ranges) | Hämtar samlingen tillåt redigeringsintervall i kalkylbladet.|
@@ -64,19 +64,19 @@ Typen Worksheet avslöjar följande medlemmar:
 | [outline](/cells/sv/python-net/aspose.cells/worksheet/outline) | Får dispositionen på detta arbetsblad.|
 | [first_visible_row](/cells/sv/python-net/aspose.cells/worksheet/first_visible_row) | Representerar första synliga radindex.|
 | [first_visible_column](/cells/sv/python-net/aspose.cells/worksheet/first_visible_column) | Representerar första synliga kolumnindex.|
-| [zoom](/cells/sv/python-net/aspose.cells/worksheet/zoom) | Representerar skalningsfaktorn i procent. Den bör vara mellan 10 och 400.|
+| [zoom](/cells/sv/python-net/aspose.cells/worksheet/zoom) | Representerar skalningsfaktorn i procent. Det bör vara mellan 10 och 400.|
 | [view_type](/cells/sv/python-net/aspose.cells/worksheet/view_type) | Hämtar och ställer in vytypen.|
 | [is_page_break_preview](/cells/sv/python-net/aspose.cells/worksheet/is_page_break_preview) | Anger om det angivna kalkylbladet visas i normal vy eller förhandsvisning av sidbrytning.|
-| [is_ruler_visible](/cells/sv/python-net/aspose.cells/worksheet/is_ruler_visible) |Indikerar om linjalen är synlig.|
+| [is_ruler_visible](/cells/sv/python-net/aspose.cells/worksheet/is_ruler_visible) |Indikerar om linjalen är synlig. Den här egenskapen används endast för förhandsgranskning av sidbrytningar.|
 | [tab_color](/cells/sv/python-net/aspose.cells/worksheet/tab_color) | Representerar kalkylbladsflikfärg.|
 | [code_name](/cells/sv/python-net/aspose.cells/worksheet/code_name) | Får kalkylbladskodnamn.|
 | [background_image](/cells/sv/python-net/aspose.cells/worksheet/background_image) | Hämtar och ställer in kalkylbladsbakgrundsbild.|
-| [conditional_formattings](/cells/sv/python-net/aspose.cells/worksheet/conditional_formattings) | Hämtar den villkorliga formateringen i kalkylbladet.|
+| [conditional_formattings](/cells/sv/python-net/aspose.cells/worksheet/conditional_formattings) | Hämtar Conditional Formattings i kalkylbladet.|
 | [active_cell](/cells/sv/python-net/aspose.cells/worksheet/active_cell) | Hämtar eller ställer in den aktiva cellen i kalkylbladet.|
 | [custom_properties](/cells/sv/python-net/aspose.cells/worksheet/custom_properties) | Får ett objekt som representerar<br/> identifieringsinformationen som är kopplad till ett kalkylblad.|
 | [smart_tag_setting](/cells/sv/python-net/aspose.cells/worksheet/smart_tag_setting) | Hämtar alla [SmartTagCollection](/cells/sv/python-net/aspose.cells.markup/smarttagcollection) objekt i kalkylbladet.|
 | [scenarios](/cells/sv/python-net/aspose.cells/worksheet/scenarios) | Får samlingen på [Scenario](/cells/sv/python-net/aspose.cells/scenario).|
-| [cell_watches](/cells/sv/python-net/aspose.cells/worksheet/cell_watches) | Får en samling celler på detta kalkylblad som övervakas i "bevakningsfönstret".|
+| [cell_watches](/cells/sv/python-net/aspose.cells/worksheet/cell_watches) | Får samling av celler på detta kalkylblad som övervakas i "bevakningsfönstret".|
 
 
 ###  Metoder
@@ -90,10 +90,10 @@ Typen Worksheet avslöjar följande medlemmar:
 | [auto_fit_column(column_index)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_column/#int) | Anpassar kolumnbredden automatiskt.|
 | [auto_fit_columns()](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#) | Autopassar alla kolumner i detta kalkylblad.|
 | [auto_fit_columns(options)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#AutoFitterOptions) | Autopassar alla kolumner i detta kalkylblad.|
-| [auto_fit_columns(first_column, last_column)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int) | Anpassar kolumnbredden automatiskt.|
-| [auto_fit_columns(first_column, last_column, options)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-AutoFitterOptions) | Anpassar kolumnbredden automatiskt.|
-| [auto_fit_columns(first_row, first_column, last_row, last_column)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int) | Anpassar kolumnbredden automatiskt.|
-| [auto_fit_columns(first_row, first_column, last_row, last_column, options)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int-AutoFitterOptions) | Anpassar kolumnbredden automatiskt.|
+| [auto_fit_columns(first_column, last_column)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int) | Anpassar kolumnernas bredd automatiskt.|
+| [auto_fit_columns(first_column, last_column, options)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-AutoFitterOptions) | Anpassar kolumnernas bredd automatiskt.|
+| [auto_fit_columns(first_row, first_column, last_row, last_column)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int) | Anpassar kolumnernas bredd automatiskt.|
+| [auto_fit_columns(first_row, first_column, last_row, last_column, options)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int-AutoFitterOptions) | Anpassar kolumnernas bredd automatiskt.|
 | [auto_fit_row(row_index, first_column, last_column)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_row/#int-int-int) | Autopassar radhöjden.|
 | [auto_fit_row(row_index, first_column, last_column, options)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_row/#int-int-int-AutoFitterOptions) | Autopassar radhöjden.|
 | [auto_fit_row(start_row, end_row, start_column, end_column)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_row/#int-int-int-int) | Autopassar radhöjd i ett rektangelområde.|
@@ -105,15 +105,15 @@ Typen Worksheet avslöjar följande medlemmar:
 | [auto_fit_rows(start_row, end_row, options)](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_rows/#int-int-AutoFitterOptions) |Autopassar radhöjd i ett intervall.|
 | [protect(type)](/cells/sv/python-net/aspose.cells/worksheet/protect/#ProtectionType) | Skyddar kalkylblad.|
 | [protect(type, password, old_password)](/cells/sv/python-net/aspose.cells/worksheet/protect/#ProtectionType-str-str) | Skyddar kalkylblad.|
-| [unprotect()](/cells/sv/python-net/aspose.cells/worksheet/unprotect/#) | Ta bort skyddet för arbetsbladet.|
-| [unprotect(password)](/cells/sv/python-net/aspose.cells/worksheet/unprotect/#str) | Ta bort skyddet för arbetsbladet.|
+| [unprotect()](/cells/sv/python-net/aspose.cells/worksheet/unprotect/#) | Tar bort skyddet för arbetsbladet.|
+| [unprotect(password)](/cells/sv/python-net/aspose.cells/worksheet/unprotect/#str) | Tar bort skyddet för arbetsbladet.|
 | [calculate_formula(formula)](/cells/sv/python-net/aspose.cells/worksheet/calculate_formula/#str) | Beräknar en formel.|
 | [calculate_formula(formula, opts)](/cells/sv/python-net/aspose.cells/worksheet/calculate_formula/#str-CalculationOptions) | Beräknar en formel.|
 | [calculate_formula(recursive, ignore_error, custom_function)](/cells/sv/python-net/aspose.cells/worksheet/calculate_formula/#bool-bool-ICustomFunction) | Beräknar alla formler i detta kalkylblad.|
 | [calculate_formula(options, recursive)](/cells/sv/python-net/aspose.cells/worksheet/calculate_formula/#CalculationOptions-bool) | Beräknar alla formler i detta kalkylblad.|
 | [get_panes()](/cells/sv/python-net/aspose.cells/worksheet/get_panes/#) | Får fönsterrutorna.|
 | [get_freezed_panes(row, column, freezed_rows, freezed_columns)](/cells/sv/python-net/aspose.cells/worksheet/get_freezed_panes/#any-any-any-any) | Får frysrutorna.|
-| [split()](/cells/sv/python-net/aspose.cells/worksheet/split/#) | Delat fönster.|
+| [split()](/cells/sv/python-net/aspose.cells/worksheet/split/#) | Delar fönster.|
 | [un_freeze_panes()](/cells/sv/python-net/aspose.cells/worksheet/un_freeze_panes/#) | Frigör rutor i kalkylbladet.|
 | [remove_split()](/cells/sv/python-net/aspose.cells/worksheet/remove_split/#) | Tar bort delat fönster.|
 | [add_page_breaks(cell_name)](/cells/sv/python-net/aspose.cells/worksheet/add_page_breaks/#str) | Lägger till sidbrytning.|

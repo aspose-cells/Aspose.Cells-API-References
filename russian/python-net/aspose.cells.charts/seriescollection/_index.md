@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [category_data](/cells/ru/python-net/aspose.cells.charts/seriescollection/category_data) | Получает или задает диапазон значений оси категории.<br/> Это может быть диапазон ячеек (например, «d1:e10»),<br/> или последовательность значений (например, "{2,6,8,10}").|
-| [second_category_data](/cells/ru/python-net/aspose.cells.charts/seriescollection/second_category_data) | Получает или задает диапазон значений оси второй категории.<br/> Это может быть диапазон ячеек (например, «d1:e10»),<br/> или последовательность значений (например, "{2,6,8,10}").<br/> Воздействует только тогда, когда некоторые ASeries строят график по второй оси.|
+| [second_category_data](/cells/ru/python-net/aspose.cells.charts/seriescollection/second_category_data) | Получает или задает диапазон значений оси второй категории.<br/> Это может быть диапазон ячеек (например, «d1:e10»),<br/> или последовательность значений (например, "{2,6,8,10}").<br/> Воздействует только тогда, когда некоторые ASeries строятся по второй оси.|
 | [is_color_varied](/cells/ru/python-net/aspose.cells.charts/seriescollection/is_color_varied) | Представляет, если цвет точек различен.|
 | [capacity](/cells/ru/python-net/aspose.cells.charts/seriescollection/capacity) | Получает или задает количество элементов, которые может содержать список массивов.|
 
@@ -43,7 +43,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

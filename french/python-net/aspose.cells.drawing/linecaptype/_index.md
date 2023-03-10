@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineCapType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type LineCapType expose les membres suivants :
 | :- | :- |
 | SQUARE | Le carré dépasse d'une demi-largeur de ligne.|
 | ROUND |Extrémités arrondies.|
-| FLAT | La ligne se termine aux extrémités.|
+| FLAT | La ligne se termine au point final.|
 | NONE | Aucun plafond|
 
 

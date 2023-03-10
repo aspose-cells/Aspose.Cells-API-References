@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  filter_type proprietà
 
-Ottiene e imposta il tipo per filtrare i dati.
+Ottiene e imposta il tipo per i dati di filtro.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة page_start_saving
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def page_start_saving(self, args):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | args | [PageStartSavingArgs](/cells/ar/python-net/aspose.cells.rendering/pagestartsavingargs) | تبدأ معلومات الصفحة في عملية الحفظ.|
 

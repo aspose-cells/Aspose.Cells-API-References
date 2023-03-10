@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_pivot_field_list الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

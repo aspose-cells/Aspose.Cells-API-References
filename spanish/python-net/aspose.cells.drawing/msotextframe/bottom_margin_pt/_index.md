@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin_pt propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

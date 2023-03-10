@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_strict_schema11 proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_strict_schema11 proprietà
 
-Indica se il file ods deve essere salvato in formato ODF versione 1.1. Il valore predefinito è false.
+Indica se il file ods deve essere salvato in formato ODF versione 1.1. L'impostazione predefinita è false.
 ###  Definizione:
 ```python
 @property

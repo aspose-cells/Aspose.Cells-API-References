@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_outline_borders Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/range/set_outline_borders/
 is_root: false
 ---
 ##  set_outline_borders(border_style, border_color) {#CellBorderType-CellsColor}
-Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Rahmenfarbe fest.
+Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Farbe fest.
 
 
 
@@ -25,7 +25,7 @@ def set_outline_borders(self, border_style, border_color):
 
 
 ##  set_outline_borders(border_style, border_color) {#CellBorderType-aspose.pydrawing.Color}
-Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Rahmenfarbe fest.
+Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Farbe fest.
 
 
 

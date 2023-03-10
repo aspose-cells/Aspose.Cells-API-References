@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_column_area_condition方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def add_column_area_condition(self, field_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | field_name | str |数据透视字段的名称。|
 
@@ -34,7 +34,7 @@ def add_column_area_condition(self, column_field):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | column_field | [PivotField](/cells/zh/python-net/aspose.cells.pivot/pivotfield) |列字段中的 PivotField。|
 

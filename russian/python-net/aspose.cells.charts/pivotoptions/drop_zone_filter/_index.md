@@ -1,4 +1,4 @@
-﻿---
+---
 title: drop_zone_filter недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

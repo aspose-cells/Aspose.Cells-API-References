@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields الملكية
 
-يحصل على قائمة مجالات الاحتمالات.
+يحصل على قائمة الحقول.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridlineType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType Aufzählung
-Listet Rasterlinientypen auf.
+Listet den Rasterlinientyp auf.
 
 
 

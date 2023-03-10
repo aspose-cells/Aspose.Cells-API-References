@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_of_columns недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает или задает количество столбцов в указанном слайсере.
 
-###  Примеры
+###  Пример
 
 ```python
 

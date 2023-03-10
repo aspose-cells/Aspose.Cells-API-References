@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_ascend_sort proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

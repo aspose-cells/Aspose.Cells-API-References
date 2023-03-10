@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | image_file | str | Tam yol ile görüntü dosyası adı.|
 ###  Notlar
 
 Resmin biçimi, dosya adının uzantısı kullanılarak belirtilir.
 Örneğin, "dosyam.png" belirtirseniz, resim kaydedilir.
- PNG biçiminde.
+ PNG biçiminde. Aşağıdaki dosya uzantıları tanınır:
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | image_file | str | Tam yol ile görüntü dosyası adı.|
 | image_type | aspose.cells.drawing.ImageType | Görüntünün kaydedileceği görüntü türü.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | image_file | str | Tam yol ile görüntü dosyası adı.|
 | jpeg_quality | int | JPEG kalitesi.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Çıkış akışı.|
 | jpeg_quality | int | JPEG kalitesi.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Çıkış akışı.|
 | image_type | aspose.cells.drawing.ImageType | Görüntünün kaydedileceği görüntü türü.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | image_file | str | Tam yol ile görüntü dosyası adı.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Ek görüntü oluşturma seçenekleri|
@@ -140,15 +140,15 @@ def to_image(self, image_file, options):
 
 Resmin biçimi, dosya adının uzantısı kullanılarak belirtilir.
 Örneğin, "dosyam.png" belirtirseniz, resim kaydedilir.
- PNG biçiminde.
+ PNG biçiminde. Aşağıdaki dosya uzantıları tanınır:
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Genişlik veya yükseklik sıfırsa veya tablo Desteklenen Haritalar Listesi'ne göre desteklenmiyorsa, bu yöntem hiçbir şey yapmaz.
  Bakınız[Desteklenen Grafikler Listesi](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)daha fazla ayrıntı için.
-###  örnekler
+###  Örnek
 
-300dpi ve CCITT4 sıkıştırma ile Tiff'e kaydeder.
+300 dpi ve CCITT4 sıkıştırma ile Tiff'e kaydeder.
 
 ```python
 from aspose.cells import Workbook
@@ -191,7 +191,7 @@ def to_image(self, stream, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Çıkış akışı.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Ek görüntü oluşturma seçenekleri|

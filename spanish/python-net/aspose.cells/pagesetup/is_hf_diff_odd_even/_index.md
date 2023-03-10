@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hf_diff_odd_even propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

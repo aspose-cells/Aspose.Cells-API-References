@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_table_row_type_of_headers
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

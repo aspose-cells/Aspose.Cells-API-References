@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup_columns méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def ungroup_columns(self, first_index, last_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | first_index | int | Le premier index de colonne à dissocier.|
 | last_index | int | Le dernier index de colonne à dissocier.|

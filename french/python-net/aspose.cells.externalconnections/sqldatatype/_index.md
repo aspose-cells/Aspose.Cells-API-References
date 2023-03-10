@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType dénombrement
-Spécifie le type de données SQL du paramètre.
+Spécifie le type de données SQL du paramètre. Valable uniquement pour les sources ODBC.
 
 
 
@@ -19,7 +19,7 @@ Le type SqlDataType expose les membres suivants :
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | décalage non signé sql|
 | SQL_SIGNED_OFFSET | offset signé sql|
-| SQL_GUID | guides sql|
+| SQL_GUID | guide sql|
 | SQL_W_LONG_VARCHAR | caractère long variable sql large|
 | SQL_W_VARCHAR | caractère variable large sql|
 | SQL_W_CHAR | caractère large sql|

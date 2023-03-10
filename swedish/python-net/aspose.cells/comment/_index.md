@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,7 +23,7 @@ Typen Comment avslöjar följande medlemmar:
 | [column](/cells/sv/python-net/aspose.cells/comment/column) | Hämtar kolumnindex för kommentaren.|
 | [is_threaded_comment](/cells/sv/python-net/aspose.cells/comment/is_threaded_comment) | Anger om denna kommentar är en trådad kommentar.|
 | [threaded_comments](/cells/sv/python-net/aspose.cells/comment/threaded_comments) | Hämtar listan med trådade kommentarer;|
-| [note](/cells/sv/python-net/aspose.cells/comment/note) | Representerar innehållet i kommentarer.|
+| [note](/cells/sv/python-net/aspose.cells/comment/note) | Representerar innehållet i kommentaren.|
 | [html_note](/cells/sv/python-net/aspose.cells/comment/html_note) | Hämtar och ställer in html-strängen som innehåller data och vissa format i denna kommentar.|
 | [font](/cells/sv/python-net/aspose.cells/comment/font) | Får typsnittet kommentar.|
 | [is_visible](/cells/sv/python-net/aspose.cells/comment/is_visible) | Representerar om kommentaren är synlig eller inte.|
@@ -32,11 +32,11 @@ Typen Comment avslöjar följande medlemmar:
 | [text_vertical_alignment](/cells/sv/python-net/aspose.cells/comment/text_vertical_alignment) | Hämtar och ställer in den vertikala textjusteringstypen för kommentaren.|
 | [auto_size](/cells/sv/python-net/aspose.cells/comment/auto_size) |Indikerar om storleken på kommentaren justeras automatiskt efter dess innehåll.|
 | [height_cm](/cells/sv/python-net/aspose.cells/comment/height_cm) | Representerar höjden på kommentaren, i centimeterenhet.|
-| [width_cm](/cells/sv/python-net/aspose.cells/comment/width_cm) | Representerar bredden på kommentaren, i enheter av centimeter.|
-| [width](/cells/sv/python-net/aspose.cells/comment/width) | Representerar bredden på kommentaren, i enheter av pixlar.|
-| [height](/cells/sv/python-net/aspose.cells/comment/height) | Representerar höjden på kommentaren, i enheter av pixlar.|
-| [width_inch](/cells/sv/python-net/aspose.cells/comment/width_inch) | Representerar bredden på kommentaren, i enheter av tum.|
-| [height_inch](/cells/sv/python-net/aspose.cells/comment/height_inch) | Representerar höjden på kommentaren, i enheter av tum.|
+| [width_cm](/cells/sv/python-net/aspose.cells/comment/width_cm) | Representerar bredden på kommentaren, i centimeterenhet.|
+| [width](/cells/sv/python-net/aspose.cells/comment/width) | Representerar bredden på kommentaren, i pixelenhet.|
+| [height](/cells/sv/python-net/aspose.cells/comment/height) | Representerar höjden på kommentaren, i pixelenhet.|
+| [width_inch](/cells/sv/python-net/aspose.cells/comment/width_inch) | Representerar bredden på kommentaren, i enhet av tum.|
+| [height_inch](/cells/sv/python-net/aspose.cells/comment/height_inch) | Representerar höjden på kommentaren, i enhet av tum.|
 
 
 ###  Metoder

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Range clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,10 +18,10 @@ El tipo Range expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [current_region](/cells/es/python-net/aspose.cells/range/current_region) |Devuelve un objeto Range que representa la región actual.<br/> La región actual es un rango limitado por cualquier combinación de filas y columnas en blanco.|
-| [hyperlinks](/cells/es/python-net/aspose.cells/range/hyperlinks) | Obtiene todos los hipervínculos del intervalo.|
+| [hyperlinks](/cells/es/python-net/aspose.cells/range/hyperlinks) | Obtiene todos los hipervínculos del rango.|
 | [row_count](/cells/es/python-net/aspose.cells/range/row_count) | Obtiene el recuento de filas en el rango.|
 | [column_count](/cells/es/python-net/aspose.cells/range/column_count) | Obtiene el recuento de columnas en el rango.|
-| [cell_count](/cells/es/python-net/aspose.cells/range/cell_count) | Obtiene todos los recuentos de celdas en el rango.|
+| [cell_count](/cells/es/python-net/aspose.cells/range/cell_count) | Obtiene todo el recuento de celdas en el rango.|
 | [name](/cells/es/python-net/aspose.cells/range/name) | Obtiene o establece el nombre del rango.|
 | [refers_to](/cells/es/python-net/aspose.cells/range/refers_to) | Obtiene el rango al que se refiere.|
 | [address](/cells/es/python-net/aspose.cells/range/address) | Obtiene la dirección del rango.|
@@ -42,8 +42,8 @@ El tipo Range expone los siguientes miembros:
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [auto_fill(target)](/cells/es/python-net/aspose.cells/range/auto_fill/#Range) | Automático todo llena el rango objetivo.|
-| [auto_fill(target, auto_fill_type)](/cells/es/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Automático todo llena el rango objetivo.|
+| [auto_fill(target)](/cells/es/python-net/aspose.cells/range/auto_fill/#Range) | Automaticall llena el rango objetivo.|
+| [auto_fill(target, auto_fill_type)](/cells/es/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Automaticall llena el rango objetivo.|
 | [set_style(style, explicit_flag)](/cells/es/python-net/aspose.cells/range/set_style/#Style-bool) | Aplicar el estilo de celda.|
 | [set_style(style)](/cells/es/python-net/aspose.cells/range/set_style/#Style) | Establece el estilo del rango.|
 | [set_outline_borders(border_style, border_color)](/cells/es/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Establece los bordes del contorno alrededor de un rango de celdas con el mismo estilo y color de borde.|
@@ -71,7 +71,7 @@ El tipo Range expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

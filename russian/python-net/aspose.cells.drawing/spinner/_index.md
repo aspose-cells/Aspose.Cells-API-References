@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spinner класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -34,7 +34,7 @@ is_root: false
 | [format](/cells/ru/python-net/aspose.cells.drawing/spinner/format) | Представляет параметр форматирования фигуры.|
 | [line](/cells/ru/python-net/aspose.cells.drawing/spinner/line) | Получает стиль линии|
 | [fill](/cells/ru/python-net/aspose.cells.drawing/spinner/fill) | Возвращает объект [Shape.fill_format](/cells/ru/python-net/aspose.cells.drawing/shape#fill_format), содержащий свойства форматирования заливки для указанной фигуры.|
-| [shadow_effect](/cells/ru/python-net/aspose.cells.drawing/spinner/shadow_effect) | Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), задающий эффект тени для элемента диаграммы или фигуры.|
+| [shadow_effect](/cells/ru/python-net/aspose.cells.drawing/spinner/shadow_effect) | Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), определяющий эффект тени для элемента диаграммы или фигуры.|
 | [reflection](/cells/ru/python-net/aspose.cells.drawing/spinner/reflection) | Представляет объект [ReflectionEffect](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect), задающий эффект отражения для элемента диаграммы или фигуры.|
 | [glow](/cells/ru/python-net/aspose.cells.drawing/spinner/glow) | Представляет объект [GlowEffect](/cells/ru/python-net/aspose.cells.drawing/gloweffect), задающий эффект свечения для элемента диаграммы или фигуры.|
 | [soft_edges](/cells/ru/python-net/aspose.cells.drawing/spinner/soft_edges) | Получает и задает радиус размытия, применяемый к краям, в точках.|
@@ -46,7 +46,7 @@ is_root: false
 | [rotation_angle](/cells/ru/python-net/aspose.cells.drawing/spinner/rotation_angle) | Получает и задает поворот фигуры.|
 | [hyperlink](/cells/ru/python-net/aspose.cells.drawing/spinner/hyperlink) | Получает гиперссылку фигуры.|
 | [id](/cells/ru/python-net/aspose.cells.drawing/spinner/id) | Получает идентификатор этой фигуры.|
-| [spid](/cells/ru/python-net/aspose.cells.drawing/spinner/spid) | Указывает необязательную строку, которую приложение может использовать для идентификации конкретной формы.|
+| [spid](/cells/ru/python-net/aspose.cells.drawing/spinner/spid) | Указывает необязательную строку, которую приложение может использовать для идентификации конкретной фигуры.|
 | [spt](/cells/ru/python-net/aspose.cells.drawing/spinner/spt) | Указывает необязательный номер, который приложение может использовать для связывания конкретной фигуры с определенным типом фигуры.|
 | [worksheet](/cells/ru/python-net/aspose.cells.drawing/spinner/worksheet) | Получает объект [Shape.worksheet](/cells/ru/python-net/aspose.cells.drawing/shape#worksheet), содержащий эту фигуру.|
 | [is_group](/cells/ru/python-net/aspose.cells.drawing/spinner/is_group) | Указывает, является ли фигура группой.|
@@ -71,7 +71,7 @@ is_root: false
 | [bottom](/cells/ru/python-net/aspose.cells.drawing/spinner/bottom) |Представляет ширину смещения фигуры по вертикали от нижнего нижнего углового ряда в пикселях.|
 | [width](/cells/ru/python-net/aspose.cells.drawing/spinner/width) | Представляет ширину фигуры в пикселях.|
 | [width_inch](/cells/ru/python-net/aspose.cells.drawing/spinner/width_inch) | Представляет ширину фигуры в дюймах.|
-| [width_pt](/cells/ru/python-net/aspose.cells.drawing/spinner/width_pt) | Представляет ширину фигуры в точках.|
+| [width_pt](/cells/ru/python-net/aspose.cells.drawing/spinner/width_pt) | Представляет ширину фигуры в пунктах.|
 | [width_cm](/cells/ru/python-net/aspose.cells.drawing/spinner/width_cm) | Представляет ширину фигуры в сантиметрах.|
 | [height](/cells/ru/python-net/aspose.cells.drawing/spinner/height) | Представляет высоту фигуры в пикселях.|
 | [height_inch](/cells/ru/python-net/aspose.cells.drawing/spinner/height_inch) | Представляет высоту фигуры в дюймах.|
@@ -85,13 +85,13 @@ is_root: false
 | [top_cm](/cells/ru/python-net/aspose.cells.drawing/spinner/top_cm) | Представляет вертикальное смещение фигуры от верхнего ряда в сантиметрах.|
 | [top_to_corner](/cells/ru/python-net/aspose.cells.drawing/spinner/top_to_corner) | Получает и задает вертикальное смещение фигуры от верхней границы рабочего листа в пикселях.|
 | [left_to_corner](/cells/ru/python-net/aspose.cells.drawing/spinner/left_to_corner) | Получает и задает горизонтальное смещение фигуры от левой границы рабочего листа.|
-| [x](/cells/ru/python-net/aspose.cells.drawing/spinner/x) | Получает и задает смещение фигуры по горизонтали от левой границы рабочего листа в пикселях.|
-| [y](/cells/ru/python-net/aspose.cells.drawing/spinner/y) | Получает и задает вертикальное смещение фигуры от верхней границы рабочего листа в пикселях.|
-| [width_scale](/cells/ru/python-net/aspose.cells.drawing/spinner/width_scale) | Получает и задает масштаб ширины в процентах от исходной ширины изображения.<br/> Если фигура не picture , свойство WidthScale возвращает только 100;|
-| [height_scale](/cells/ru/python-net/aspose.cells.drawing/spinner/height_scale) | Получает и задает масштаб высоты в процентах от исходной высоты изображения.<br/> Если фигура не picture , свойство HeightScale возвращает только 100;|
+| [x](/cells/ru/python-net/aspose.cells.drawing/spinner/x) | Получает и задает горизонтальное смещение фигуры от левой границы рабочего листа в единицах пикселей.|
+| [y](/cells/ru/python-net/aspose.cells.drawing/spinner/y) | Получает и задает вертикальное смещение фигуры от верхней границы рабочего листа в единицах пикселей.|
+| [width_scale](/cells/ru/python-net/aspose.cells.drawing/spinner/width_scale) | Получает и задает масштаб ширины в процентах от исходной ширины изображения.<br/> Если фигура не является изображением, свойство WidthScale возвращает только 100;|
+| [height_scale](/cells/ru/python-net/aspose.cells.drawing/spinner/height_scale) | Получает и задает масштаб высоты в процентах от исходной высоты изображения.<br/> Если фигура не является изображением, свойство HeightScale возвращает только 100;|
 | [top_in_shape](/cells/ru/python-net/aspose.cells.drawing/spinner/top_in_shape) | Представляет вертикальное смещение фигуры от верхней границы родительской фигуры,<br/> в единице 1/4000 высоты родительской формы.|
 | [left_in_shape](/cells/ru/python-net/aspose.cells.drawing/spinner/left_in_shape) |Представляет горизонтальное смещение фигуры от левой границы родительской фигуры,<br/> в единицах 1/4000 ширины родительской формы.|
-| [width_in_shape](/cells/ru/python-net/aspose.cells.drawing/spinner/width_in_shape) | Представляет ширину фигуры в единицах 1/4000 родительской фигуры.|
+| [width_in_shape](/cells/ru/python-net/aspose.cells.drawing/spinner/width_in_shape) | Представляет ширину фигуры в 1/4000 от родительской фигуры.|
 | [height_in_shape](/cells/ru/python-net/aspose.cells.drawing/spinner/height_in_shape) | Представляет вертикальное смещение фигуры от верхней границы родительской фигуры в единицах 1/4000 высоты родительской фигуры.|
 | [group](/cells/ru/python-net/aspose.cells.drawing/spinner/group) | Получает фигуру группы, содержащую эту фигуру.|
 | [type](/cells/ru/python-net/aspose.cells.drawing/spinner/type) | Получает автоматический тип фигуры.|
@@ -122,7 +122,7 @@ is_root: false
 | [active_x_control](/cells/ru/python-net/aspose.cells.drawing/spinner/active_x_control) | Получает элемент управления ActiveX.|
 | [paths](/cells/ru/python-net/aspose.cells.drawing/spinner/paths) |Получает пути пользовательской геометрической формы.|
 | [geometry](/cells/ru/python-net/aspose.cells.drawing/spinner/geometry) | Получает геометрию|
-| [create_id](/cells/ru/python-net/aspose.cells.drawing/spinner/create_id) | Получает и задает идентификатор создания для этой формы.|
+| [create_id](/cells/ru/python-net/aspose.cells.drawing/spinner/create_id) | Получает и задает идентификатор создания для этой фигуры.|
 | [current_value](/cells/ru/python-net/aspose.cells.drawing/spinner/current_value) | Получает или задает текущее значение.|
 | [min](/cells/ru/python-net/aspose.cells.drawing/spinner/min) | Получает или задает минимальное значение диапазона полосы прокрутки или счетчика.|
 | [max](/cells/ru/python-net/aspose.cells.drawing/spinner/max) | Получает или задает максимальное значение диапазона полосы прокрутки или счетчика.|
@@ -155,9 +155,9 @@ is_root: false
 | [update_selected_value()](/cells/ru/python-net/aspose.cells.drawing/spinner/update_selected_value/#) | Обновите выбранное значение значением связанной ячейки.|
 | [calculate_text_size()](/cells/ru/python-net/aspose.cells.drawing/spinner/calculate_text_size/#) | Пересчитать текстовую область|
 | [characters(start_index, length)](/cells/ru/python-net/aspose.cells.drawing/spinner/characters/#int-int) | Возвращает объект Characters, представляющий диапазон символов в тексте.|
-| [get_characters()](/cells/ru/python-net/aspose.cells.drawing/spinner/get_characters/#) | Возвращает все объекты символов<br/> который представляет диапазон символов в тексте.|
+| [get_characters()](/cells/ru/python-net/aspose.cells.drawing/spinner/get_characters/#) | Возвращает все объекты символов<br/> который представляет собой диапазон символов в тексте.|
 | [remove_active_x_control()](/cells/ru/python-net/aspose.cells.drawing/spinner/remove_active_x_control/#) | Удалить элемент управления ActiveX.|
-| [is_same_setting(obj)](/cells/ru/python-net/aspose.cells.drawing/spinner/is_same_setting/#any) | Возвращает, является ли форма такой же.|
+| [is_same_setting(obj)](/cells/ru/python-net/aspose.cells.drawing/spinner/is_same_setting/#any) | Возвращает, совпадает ли форма.|
 
 
 

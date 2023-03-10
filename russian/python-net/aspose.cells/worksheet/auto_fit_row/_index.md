@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_row метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def auto_fit_row(self, row_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 ###  Примечания
@@ -37,7 +37,7 @@ def auto_fit_row(self, row_index, first_column, last_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | first_column | int | Индекс первого столбца.|
@@ -58,7 +58,7 @@ def auto_fit_row(self, row_index, first_column, last_column, options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | first_column | int | Индекс первого столбца.|
@@ -80,7 +80,7 @@ def auto_fit_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Индекс начальной строки.|
 | end_row | int | Индекс конечной строки.|

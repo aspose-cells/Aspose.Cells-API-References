@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_cell_area yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def create_cell_area(self, start_cell_name, end_cell_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_cell_name | str | Aralığın sol üst hücresi.|
 | end_cell_name | str | Aralığın sağ alt hücresi.|
@@ -43,7 +43,7 @@ def create_cell_area(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Başlangıç satırı.|
 | start_column | int | Başlangıç sütunu.|

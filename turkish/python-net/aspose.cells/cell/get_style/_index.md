@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_style yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -42,7 +42,7 @@ def get_style(self, check_borders):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | check_borders | bool | Diğer hücrelerin kenarlıklarını kontrol edin|
 ###  Notlar

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_table_formula metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cell/set_table_formula/
 is_root: false
 ---
 ##  set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values) {#int-int-str-str-list}
-Skapa en datatabell med två variabler för ett givet intervall med start från den här cellen.
+Skapa datatabell med två variabler för ett givet intervall med start från den här cellen.
 
 
 
@@ -18,7 +18,7 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_number | int |Antal rader att fylla i formeln.|
 | column_number | int | Antal kolumner att fylla i formeln.|
@@ -38,7 +38,7 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_number | int |Antal rader att fylla i formeln.|
 | column_number | int | Antal kolumner att fylla i formeln.|
@@ -58,7 +58,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_number | int |Antal rader att fylla i formeln.|
 | column_number | int | Antal kolumner att fylla i formeln.|
@@ -69,7 +69,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 
 
 ##  set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values) {#int-int-int-int-int-int-list}
-Skapa en datatabell med två variabler för ett givet intervall med start från den här cellen.
+Skapa datatabell med två variabler för ett givet intervall med start från den här cellen.
 
 
 
@@ -79,7 +79,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_number | int |Antal rader att fylla i formeln.|
 | column_number | int | Antal kolumner att fylla i formeln.|

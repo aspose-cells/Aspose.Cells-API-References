@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_license méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/license/set_license/
 is_root: false
 ---
 ##  set_license(license_name) {#str}
-Licences des composants.
+Licence du composant.
 
 
 
@@ -18,12 +18,12 @@ def set_license(self, license_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | license_name | str |  |
 ###  Remarques
 
-Essayez de trouver la licence aux emplacements suivants :
+Essaie de trouver la licence aux emplacements suivants :
 
 
 1. Chemin explicite.
@@ -41,14 +41,14 @@ Essayez de trouver la licence aux emplacements suivants :
 5. Une ressource intégrée dans l'assembly appelant du client.
 
 
-**Remarques:** Sur le Compact Framework .NET, essaie de trouver la licence uniquement dans ces emplacements :
+**Note:** Sur le Compact Framework .NET, essaie de trouver la licence uniquement dans ces emplacements :
 
 
 1. Chemin explicite.
 
 
 2. Une ressource intégrée dans l'assembly appelant du client.
-###  Exemples
+###  Exemple
 
 
 Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic
@@ -70,7 +70,7 @@ Utilisez une chaîne vide pour passer en mode d'évaluation.
 
 
 ##  set_license(stream) {#io.RawIOBase}
-Licences des composants.
+Licence du composant.
 
 
 
@@ -80,13 +80,13 @@ def set_license(self, stream):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Un flux qui contient la licence.|
 ###  Remarques
 
 Utilisez cette méthode pour charger une licence à partir d'un flux.
-###  Exemples
+###  Exemple
 
 
 ```python

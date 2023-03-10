@@ -1,4 +1,4 @@
-﻿---
+---
 title: compare_to método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Compare dos objetos CellArea según su esquina superior izquierda.
 
 ###  Devoluciones
 
-Si dos esquinas están en filas diferentes, compare su índice de fila.
+Si dos esquinas están en filas diferentes, compare su índice de fila. De lo contrario, compare su índice de columna.
 Si dos esquinas son iguales, se devolverá 0.
 
 
@@ -23,7 +23,7 @@ def compare_to(self, obj):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | obj | any |  |
 

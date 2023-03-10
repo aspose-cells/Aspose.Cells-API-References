@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_of_columns propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit le nombre de colonnes dans le segment spécifié.
 
-###  Exemples
+###  Exemple
 
 ```python
 

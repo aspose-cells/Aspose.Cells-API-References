@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_right_row Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Repräsentiert den Zeilenindex der unteren rechten Ecke.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

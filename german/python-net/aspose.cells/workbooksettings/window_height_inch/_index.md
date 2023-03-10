@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_height_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch Eigentum
 
-Die Höhe des Fensters in Zolleinheiten.
+Die Höhe des Fensters in Zoll.
 ###  Definition:
 ```python
 @property

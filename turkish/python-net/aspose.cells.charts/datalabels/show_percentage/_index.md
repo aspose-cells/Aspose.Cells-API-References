@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_percentage mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_percentage mülk
 
-Belirli bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. False gizlenecek.
+Belirtilen bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. Gizlemek için yanlış.
 ###  Tanım:
 ```python
 @property

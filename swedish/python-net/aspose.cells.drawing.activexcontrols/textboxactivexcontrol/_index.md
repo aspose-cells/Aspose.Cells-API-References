@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextBoxActiveXControl klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,8 +25,8 @@ Typen TextBoxActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Hämtar och ställer in kontrollens bredd i poängenhet.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
 | [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|
@@ -43,11 +43,11 @@ Typen TextBoxActiveXControl avslöjar följande medlemmar:
 | [ime_mode](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/ime_mode) |Hämtar och ställer in standardkörtidsläget för Input Method Editor för kontrollen när den tar emot fokus.|
 | [font](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/font) | Representerar kontrollens teckensnitt.|
 | [text_align](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/text_align) | Representerar hur man justerar texten som används av kontrollen.|
-| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_style) | Hämtar och ställer in den typ av kantlinje som används av kontrollen.|
+| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_style) | Hämtar och ställer in den typ av gräns som används av kontrollen.|
 | [border_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_ole_color) | Hämtar och ställer in ole-färgen på bakgrunden.|
 | [special_effect](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/special_effect) | Får och ställer in kontrollens specialeffekt.|
 | [max_length](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/max_length) | Hämtar och ställer in det maximala antalet tecken|
-| [scroll_bars](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Indikerar om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.|
+| [scroll_bars](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Indikerar anger om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.|
 | [password_char](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/password_char) | Hämtar och ställer in ett tecken som ska visas i stället för de angivna tecknen.|
 | [is_editable](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_editable) | Indikerar om användaren kan skriva i kontrollen.|
 | [integral_height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/integral_height) | Indikerar om kontrollen endast kommer att visa hela textrader utan att visa några partiella rader.|

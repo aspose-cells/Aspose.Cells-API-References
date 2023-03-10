@@ -1,6 +1,6 @@
-﻿---
+---
 title: BackgroundType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1780
@@ -14,13 +14,13 @@ is_root: false
 
 BackgroundType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DIAGONAL_CROSSHATCH |表示对角交叉影线图案。|
-| DIAGONAL_STRIPE |表示斜条纹图案。|
+| DIAGONAL_STRIPE |代表斜条纹图案。|
 | GRAY6 |代表 6.25% 灰色图案|
-| GRAY12 |代表12.5%灰度的图案|
+| GRAY12 |代表 12.5% 灰色图案|
 | GRAY25 |代表 25% 的灰色图案。|
 | GRAY50 |代表 50% 灰色图案。|
 | GRAY75 |代表 75% 的灰色图案。|

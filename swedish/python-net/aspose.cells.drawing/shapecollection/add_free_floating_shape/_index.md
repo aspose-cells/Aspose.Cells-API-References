@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_free_floating_shape metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/sv/python-net/aspose.cells.drawing/msodrawingtype) | Formtypen.|
 | top | int | Representerar den vertikala förskjutningen av formen från kalkylbladets översta rad, i pixelenhet.|

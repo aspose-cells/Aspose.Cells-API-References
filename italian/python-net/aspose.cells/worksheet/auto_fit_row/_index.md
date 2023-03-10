@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo auto_fit_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def auto_fit_row(self, row_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | Indice di riga.|
 ###  Osservazioni
@@ -37,7 +37,7 @@ def auto_fit_row(self, row_index, first_column, last_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | Indice di riga.|
 | first_column | int | Indice della prima colonna.|
@@ -58,7 +58,7 @@ def auto_fit_row(self, row_index, first_column, last_column, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_index | int | Indice di riga.|
 | first_column | int | Indice della prima colonna.|
@@ -80,7 +80,7 @@ def auto_fit_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | Inizia l'indice della riga.|
 | end_row | int | Indice di fine riga.|

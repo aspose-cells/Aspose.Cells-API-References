@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_named_ranges_and_tables
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-مجموعة من كائنات النطاق.
+مصفوفة من كائنات النطاق.
 
 
 إرجاع القيمة فارغة إذا كان النطاق المسمى غير موجود.

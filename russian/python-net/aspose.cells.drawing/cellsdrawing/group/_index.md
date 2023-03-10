@@ -1,4 +1,4 @@
-﻿---
+---
 title: group недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает фигуру group, содержащую эту фигуру.
 
-###  Примеры
+###  Пример
 
 ```python
 

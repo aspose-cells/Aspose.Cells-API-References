@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo unhide_column
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/cells/unhide_column/
 is_root: false
 ---
 ##  unhide_column(column, width) {#int-float}
-Scopri una colonna
+Mostra una colonna
 
 
 
@@ -18,7 +18,7 @@ def unhide_column(self, column, width):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Indice di colonna.|
 | width | float | Larghezza della colonna.|

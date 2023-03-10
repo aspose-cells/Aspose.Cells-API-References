@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد CopyFormatType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | SAME_AS_ABOVE |تنسيقات مماثلة للصف أعلاه.|
 | SAME_AS_BELOW | تنسيقات مماثلة للصف أدناه.|
-| CLEAR | تنسيق واضح.|
+| CLEAR | مسح التنسيق.|
 
 
 

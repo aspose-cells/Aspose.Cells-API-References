@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsDataTableFactory класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 | [get_instance(vals, vertial)](/cells/ru/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Создает ICellsDataTable из заданной последовательности двойных значений.|
 | [get_instance(vals, column_names)](/cells/ru/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Создает ICellsDataTable из заданной последовательности объектов.|
 | [get_instance(vals, vertial)](/cells/ru/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Создает ICellsDataTable из заданной последовательности объектов.|
-| [get_instance(collection)](/cells/ru/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Создает ICellsDataTable из заданной коллекции.|
+| [get_instance(collection)](/cells/ru/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Создает ICellsDataTable из данной коллекции.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe SignatureLine
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -24,7 +24,7 @@ Il tipo SignatureLine espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [id](/cells/it/python-net/aspose.cells.drawing/signatureline/id) | Ottiene o imposta l'identificatore per questa riga della firma.|
-| [provider_id](/cells/it/python-net/aspose.cells.drawing/signatureline/provider_id) | Ottiene e imposta l'ID del provider della firma.|
+| [provider_id](/cells/it/python-net/aspose.cells.drawing/signatureline/provider_id) | Ottiene e imposta l'ID del provider di firme.|
 | [signer](/cells/it/python-net/aspose.cells.drawing/signatureline/signer) | Ottiene e imposta il firmatario.|
 | [title](/cells/it/python-net/aspose.cells.drawing/signatureline/title) | Ottiene e imposta il titolo del cantante.|
 | [email](/cells/it/python-net/aspose.cells.drawing/signatureline/email) | Ottiene e imposta l'e-mail del cantante.|
@@ -35,7 +35,7 @@ Il tipo SignatureLine espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

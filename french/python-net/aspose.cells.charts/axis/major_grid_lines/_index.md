@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_grid_lines propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente le quadrillage principal sur un axe de graphique.
 
-###  Exemples
+###  Exemple
 
 ```python
 

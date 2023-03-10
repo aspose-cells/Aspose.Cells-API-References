@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_param_value método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/calculationdata/get_param_value/
 is_root: false
 ---
 ##  get_param_value(index) {#int}
-Obtiene el objeto de valor representado del parámetro en el índice especificado.
+Obtiene el objeto de valor representado del parámetro en el índice dado.
 
 
 ###  Devoluciones
@@ -24,7 +24,7 @@ def get_param_value(self, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | índice del parámetro (basado en 0)|
 

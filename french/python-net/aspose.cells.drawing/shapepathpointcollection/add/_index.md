@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def add(self, x, y):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | x | int | La coordonnée x.|
 | y | int | La coordonnée y.|

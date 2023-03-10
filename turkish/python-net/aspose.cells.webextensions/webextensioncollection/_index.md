@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.webextensions/webextensioncollection/
 is_root: false
 ---
 ##  WebExtensionCollection sınıfı
-Web uzantılarının listesini temsil eder.
+Web uzantısı listesini temsil eder.
 
 
 
@@ -31,7 +31,7 @@ WebExtensionCollection türü aşağıdaki üyeleri gösterir:
 | [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int) | Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int-int) |Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [add()](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection/add/#) | Bir web uzantısı ekler.|
-| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Excel'e bir web video oynatıcısı ekleyin.|
+| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Exel'e bir web video oynatıcısı ekleyin.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.webextensions/webextensioncollection/binary_search/#WebExtension) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 

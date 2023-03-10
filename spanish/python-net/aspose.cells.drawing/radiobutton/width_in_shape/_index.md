@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_in_shape propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Representa el ancho de la forma, en unidades de 1/4000 de la forma principal.
 
 Solo se aplica cuando esta forma está en el grupo o gráfico.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

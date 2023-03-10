@@ -1,4 +1,4 @@
-﻿---
+---
 title: linked_cell propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient ou définit la plage de feuille de calcul liée à la valeur du contrôle.
 
-###  Exemples
+###  Exemple
 
 ```python
 

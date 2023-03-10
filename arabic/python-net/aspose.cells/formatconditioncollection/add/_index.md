@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,10 +24,10 @@ def add(self, cell_area, type, operator_type, formula1, formula2):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) |نطاق الخلايا المنسق شرطيًا.|
-| type | [FormatConditionType](/cells/ar/python-net/aspose.cells/formatconditiontype) | نوع التنسيق الشرطي. قد يكون أحد أعضاء FormatConditionType.|
+| cell_area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) |نطاق الخلايا المنسق الشرطي.|
+| type | [FormatConditionType](/cells/ar/python-net/aspose.cells/formatconditiontype) | نوع التنسيق الشرطي: يمكن أن يكون أحد أعضاء FormatConditionType.|
 | operator_type | [OperatorType](/cells/ar/python-net/aspose.cells/operatortype) | عامل المقارنة: يمكن أن يكون أحد أعضاء OperatorType.|
 | formula1 | str | القيمة أو التعبير المرتبط بالتنسيق الشرطي.|
 | formula2 | str | القيمة أو التعبير المرتبط بالتنسيق الشرطي|

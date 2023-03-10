@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_calculated_field方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def add_calculated_field(self, name, formula):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |计算字段的名称|
 | formula | str |计算字段的公式。|
@@ -35,7 +35,7 @@ def add_calculated_field(self, name, formula, drag_to_data_area):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |计算字段的名称|
 | formula | str |计算字段的公式。|

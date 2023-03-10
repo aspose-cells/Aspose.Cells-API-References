@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_instance yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cellsdatatablefactory/get_instance/
 is_root: false
 ---
 ##  get_instance(collection) {#list}
-Belirli bir koleksiyondan ICellsDataTable oluşturur.
+Verilen koleksiyondan ICellsDataTable oluşturur.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get_instance(self, collection):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | collection | list | tablo oluşturmak için koleksiyon|
 
@@ -42,7 +42,7 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | vals | list | tablo oluşturmak için int değerleri|
 | column_names | list | Tablonun sütun adları.<br/>Uzunluğu yalnızca 1 olabilir (dikey olarak int değerlerine göre tablo oluşturun)<br/> veya int değerlerinin uzunluğu (tabloyu int değerlerine göre yatay olarak oluşturun)|
@@ -63,10 +63,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | vals | list | tablo oluşturmak için int değerleri|
-| vertial | bool |tabloyu int değerlerine göre dikey olarak (doğru) veya yatay olarak (yanlış) oluşturup oluşturmadığınızı|
+| vertial | bool |tabloyu int değerlerine göre dikey olarak (doğru) veya yatay olarak (yanlış) oluşturup oluşturmadığınız|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -84,10 +84,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | vals | list | tablo oluşturmak için çift değerler|
-| column_names | list | Tablonun sütun adları.<br/>Uzunluğu yalnızca 1 olabilir (dikey olarak çift değerlerle tablo oluşturun)<br/> veya çift değerlerin uzunluğu (yatay olarak çift değerlere göre tablo oluşturun)|
+| column_names | list | Tablonun sütun adları.<br/>Uzunluğu yalnızca 1 olabilir (dikey olarak çift değerlerle tablo oluşturun)<br/> veya çift değerlerin uzunluğu (tabloyu çift değerlerle yatay olarak oluşturun)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -105,10 +105,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | vals | list | tablo oluşturmak için çift değerler|
-| vertial | bool | tabloyu çift değerlerle dikey olarak (doğru) veya yatay olarak (yanlış) oluşturup oluşturmadığınızı|
+| vertial | bool | tabloyu dikey olarak (doğru) veya yatay olarak (yanlış) çift değerlerle oluşturup oluşturmadığınız|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -126,7 +126,7 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | vals | list | tablo oluşturmak için nesneler|
 | column_names | list | Tablonun sütun adları.<br/>Uzunluğu yalnızca 1 olabilir (nesneler tarafından dikey olarak tablo oluşturun)<br/> veya nesnelerin uzunluğu (nesneler tarafından yatay olarak tablo oluşturun)|
@@ -147,10 +147,10 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | vals | list | tablo oluşturmak için nesneler|
-| vertial | bool | nesneler tarafından dikey (doğru) veya yatay (yanlış) tablo oluşturup oluşturmadığı|
+| vertial | bool | nesneler tarafından dikey olarak (doğru) veya yatay olarak (yanlış) tablo oluşturup oluşturmadığınız|
 
 
 

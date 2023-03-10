@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_theme_color
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_theme_color(self, type, color):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/it/python-net/aspose.cells/themecolortype) | Il tipo di colore del tema.|
 | color | aspose.pydrawing.Color | il colore del tema|

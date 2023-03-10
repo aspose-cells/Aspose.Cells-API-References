@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_scale недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,9 +10,9 @@ is_root: false
 ##  width_scale недвижимость
 
 Получает и задает масштаб ширины в процентах от исходной ширины изображения.
-Если фигура не picture , свойство WidthScale возвращает только 100;
+Если фигура не является изображением, свойство WidthScale возвращает только 100;
 
-###  Примеры
+###  Пример
 
 ```python
 

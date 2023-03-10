@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_image
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الصورة الناتجة|
 
@@ -34,13 +34,13 @@ def to_image(self, filename):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | filename | str | اسم ملف الصورة الناتجة|
 
 
 ##  to_image(page_index, file_name) {#int-str}
-تقديم صفحات معينة إلى ملف.
+تقديم صفحة معينة إلى ملف.
 
 
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | page_index | int | الإشارة إلى الصفحة المراد تحويلها|
 | file_name | str | اسم ملف الصورة الناتجة|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-تقديم صفحات معينة إلى دفق.
+تقديم صفحة معينة إلى دفق.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | page_index | int | الإشارة إلى الصفحة المراد تحويلها|
 | stream | io.RawIOBase | تيار الصورة الناتجة|

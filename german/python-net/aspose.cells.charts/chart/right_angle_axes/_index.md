@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_angle_axes Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes Eigentum
 
-Wahr, wenn die Diagrammachsen rechtwinklig sind Gilt nur für 3D-Diagramme (außer Column3D- und 3D-Kreisdiagramme).
+True, wenn die Diagrammachsen rechtwinklig sind. Gilt nur für 3D-Diagramme (außer Column3D- und 3D-Kreisdiagramme).
 
 ###  Bemerkungen
 

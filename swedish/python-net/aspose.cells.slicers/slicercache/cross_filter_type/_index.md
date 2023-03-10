@@ -1,4 +1,4 @@
-﻿---
+---
 title: cross_filter_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  cross_filter_type fastighet
 
 Returnerar eller ställer in om en slicer deltar i korsfiltrering med andra slicers
-som delar samma slicercache och hur korsfiltrering visas.
+som delar samma slicercache och hur korsfiltrering visas. Läsa skriva
 ###  Definition:
 ```python
 @property

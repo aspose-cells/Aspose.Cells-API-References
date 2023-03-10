@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo is_selected
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def is_selected(self, item_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | item_index | int | L'indice degli articoli.|
 

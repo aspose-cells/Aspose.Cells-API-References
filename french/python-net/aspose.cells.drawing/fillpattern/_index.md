@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPattern dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -36,7 +36,7 @@ Le type FillPattern expose les membres suivants :
 | DARK_DOWNWARD_DIAGONAL | Représente un motif diagonal vers le bas sombre.|
 | DARK_UPWARD_DIAGONAL | Représente un motif diagonal vers le haut sombre.|
 | WIDE_DOWNWARD_DIAGONAL | Représente une large diagonale descendante.|
-| WIDE_UPWARD_DIAGONAL | Représente un large motif diagonal vers le haut.|
+| WIDE_UPWARD_DIAGONAL | Représente une large diagonale ascendante.|
 | LIGHT_VERTICAL | Représente un motif vertical léger.|
 | LIGHT_HORIZONTAL | Représente un motif horizontal léger.|
 | NARROW_VERTICAL | Représente un motif vertical étroit.|
@@ -44,7 +44,7 @@ Le type FillPattern expose les membres suivants :
 | DARK_VERTICAL | Représente un motif vertical sombre.|
 | DARK_HORIZONTAL | Représente un motif horizontal sombre.|
 | DASHED_DOWNWARD_DIAGONAL | Représente un motif diagonal descendant en pointillés.|
-| DASHED_UPWARD_DIAGONAL | Représente un motif en diagonale vers le haut en pointillés.|
+| DASHED_UPWARD_DIAGONAL | Représente un motif diagonal vers le haut en pointillés.|
 | DASHED_VERTICAL |Représente un motif vertical en pointillés.|
 | DASHED_HORIZONTAL | Représente un motif horizontal en pointillés.|
 | SMALL_CONFETTI | Représente un petit motif de confettis.|
@@ -55,19 +55,19 @@ Le type FillPattern expose les membres suivants :
 | HORIZONTAL_BRICK | Représente un motif de brique horizontal.|
 | WEAVE | Représente le motif de tissage.|
 | PLAID | Représente le motif à carreaux.|
-| DIVOT | Représente les motifs divot.|
+| DIVOT | Représente le motif divot.|
 | DOTTED_GRID | Représente un motif de grille en pointillés.|
 | DOTTED_DIAMOND | Représente le motif de losanges en pointillés.|
-| SHINGLE | Représente un motif unique.|
+| SHINGLE | Représente le modèle de bardeau.|
 | TRELLIS | Représente le motif en treillis.|
 | SPHERE | Représente le motif de la sphère.|
-| SMALL_GRID | Représente de petits motifs de grille.|
+| SMALL_GRID | Représente un petit motif de grille.|
 | LARGE_GRID | Représente un grand motif de grille.|
 | SMALL_CHECKER_BOARD | Représente un petit motif en damier.|
 | LARGE_CHECKER_BOARD | Représente un grand motif de damier.|
 | OUTLINED_DIAMOND | Représente le motif de diamant décrit.|
 | SOLID_DIAMOND | Représente un motif de diamant solide.|
-| UNKNOWN | Représente des motifs inconnus.|
+| UNKNOWN | Représente un modèle inconnu.|
 
 
 

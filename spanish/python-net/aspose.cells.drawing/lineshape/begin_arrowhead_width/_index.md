@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_width propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene y establece el ancho inicial de la punta de flecha de la línea.
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
  utilice la propiedad Shape.Line.BeginArrowheadWidth.
  Esta propiedad se eliminará 12 meses después desde agosto de 2016.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

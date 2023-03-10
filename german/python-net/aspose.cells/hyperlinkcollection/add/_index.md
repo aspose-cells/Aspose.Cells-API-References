@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | Anzahl der Spalten dieses Hyperlinkbereichs.|
 | address | str | Adresse des Hyperlinks.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

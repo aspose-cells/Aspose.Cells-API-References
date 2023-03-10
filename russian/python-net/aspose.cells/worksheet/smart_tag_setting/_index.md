@@ -1,4 +1,4 @@
-﻿---
+---
 title: smart_tag_setting недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add(self, source_data, dest_cell_name, table_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_data | str | Les données du nouveau cache de tableau croisé dynamique.|
 | dest_cell_name | str |La cellule dans le coin supérieur gauche de la plage de destination du rapport de tableau croisé dynamique.|
@@ -44,7 +44,7 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/fr/python-net/aspose.cells.pivot/pivottable) | Le tableau croisé dynamique source.|
 | dest_cell_name | str |La cellule dans le coin supérieur gauche de la plage de destination du rapport de tableau croisé dynamique.|
@@ -66,12 +66,12 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_data | str | Les données du nouveau cache de tableau croisé dynamique.|
 | dest_cell_name | str |La cellule dans le coin supérieur gauche de la plage de destination du rapport de tableau croisé dynamique.|
 | table_name | str | Nom du nouveau rapport de tableau croisé dynamique.|
-| use_same_source | bool | Indique si vous utilisez la même source de données lorsqu'un autre tableau croisé dynamique existant a utilisé cette source de données.<br/> Si la propriété est vraie, cela économisera de la mémoire.|
+| use_same_source | bool | Indique si la même source de données est utilisée lorsqu'un autre tableau croisé dynamique existant a utilisé cette source de données.<br/> Si la propriété est vraie, cela économisera de la mémoire.|
 
 
 ##  add(source_data, row, column, table_name) {#str-int-int-str}
@@ -89,7 +89,7 @@ def add(self, source_data, row, column, table_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_data | str | La plage de cellules de données pour le nouveau tableau croisé dynamique.Exemple : Sheet1!A1:C8|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage de destination du rapport de tableau croisé dynamique.|
@@ -112,7 +112,7 @@ def add(self, pivot_table, row, column, table_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/fr/python-net/aspose.cells.pivot/pivottable) | Le tableau croisé dynamique source.|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage de destination du rapport de tableau croisé dynamique.|
@@ -135,13 +135,13 @@ def add(self, source_data, row, column, table_name, use_same_source):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_data | str | La plage de cellules de données pour le nouveau tableau croisé dynamique.Exemple : Sheet1!A1:C8|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage de destination du rapport de tableau croisé dynamique.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage de destination du rapport de tableau croisé dynamique.|
 | table_name | str | Nom du nouveau rapport de tableau croisé dynamique.|
-| use_same_source | bool | Indique si vous utilisez la même source de données lorsqu'un autre tableau croisé dynamique existant a utilisé cette source de données.<br/> Si la propriété est vraie, cela économisera de la mémoire.|
+| use_same_source | bool | Indique si la même source de données est utilisée lorsqu'un autre tableau croisé dynamique existant a utilisé cette source de données.<br/> Si la propriété est vraie, cela économisera de la mémoire.|
 
 
 ##  add(source_data, is_auto_page, page_fields, dest_cell_name, table_name) {#list-bool-PivotPageFields-str-str}
@@ -159,7 +159,7 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_data | list | Les plages de consolidation multiples, telles que {"Sheet1!A1:C8","Sheet2!A1:B8"} |
 | is_auto_page | bool | Si auto créer un champ de page unique.<br/>Si vrai, le paramètre pageFields suivant sera ignoré.|
@@ -183,7 +183,7 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_data | list | Les plages de consolidation multiples, telles que {"Sheet1!A1:C8","Sheet2!A1:B8"} |
 | is_auto_page | bool | Si auto créer un champ de page unique.<br/> Si vrai, le paramètre pageFields suivant sera ignoré|

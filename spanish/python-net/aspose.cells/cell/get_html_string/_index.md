@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_html_string método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_html_string(self, html5):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | html5 | bool | Indica si el valor es compatible para html5|
 

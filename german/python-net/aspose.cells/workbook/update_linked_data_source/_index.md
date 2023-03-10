@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_linked_data_source Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -26,7 +26,7 @@ def update_linked_data_source(self, external_workbooks):
 
 Wenn die Methode nicht vor dem Berechnen von Formeln aufgerufen wird,
 Aspose.Cells verwendet die vorherigen Informationen (in der Datei zwischengespeichert);
- Bitte setzen Sie CellsHelper.StartupPath, CellsHelper.AltStartPath, CellsHelper.LibraryPath.
+ Bitte legen Sie CellsHelper.StartupPath,CellsHelper.AltStartPath,CellsHelper.LibraryPath fest.
 Und bitte setzen Sie Workbook.FilePath, wenn diese Arbeitsmappe aus einem Stream stammt,
 andernfalls konnte Aspose.Cells manchmal den vollständigen Pfad des externen Links nicht abrufen.
 

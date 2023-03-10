@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد Bar3DShapeType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,10 +19,10 @@ is_root: false
 | :- | :- |
 | BOX | صندوق|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | الهرم إلى ماكس|
+| PYRAMID_TO_MAX | PyramidToMax|
 | CYLINDER | اسطوانة|
-| CONE_TO_POINT | مخروط إلى نقطة|
-| CONE_TO_MAX | مخروط إلى ماكس|
+| CONE_TO_POINT | كونتوبوينت|
+| CONE_TO_MAX | ConeToMax|
 
 
 

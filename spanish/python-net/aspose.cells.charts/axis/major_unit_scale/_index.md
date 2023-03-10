@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_unit_scale propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa la escala de unidad principal para el eje de categorías.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

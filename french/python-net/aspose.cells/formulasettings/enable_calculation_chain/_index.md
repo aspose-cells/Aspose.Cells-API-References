@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_calculation_chain propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain propriété
 
-Activer ou non la chaîne de calcul pour les formules.
+Activer ou non la chaîne de calcul pour les formules. La valeur par défaut est false.
 
 ###  Remarques
 

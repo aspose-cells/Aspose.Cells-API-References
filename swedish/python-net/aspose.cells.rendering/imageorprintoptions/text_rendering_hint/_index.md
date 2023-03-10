@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_rendering_hint fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint fastighet
 
 Anger kvaliteten på textåtergivningen.
-Standardvärdet är TextRenderingHint. SystemDefault
+Standardvärdet är TextRenderingHint.SystemDefault
 ###  Definition:
 ```python
 @property

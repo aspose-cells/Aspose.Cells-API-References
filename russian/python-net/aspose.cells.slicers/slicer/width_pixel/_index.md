@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pixel недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает или задает ширину указанного среза в пикселях.
 
-###  Примеры
+###  Пример
 
 ```python
 

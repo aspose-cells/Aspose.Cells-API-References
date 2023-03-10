@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_height الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على الارتفاع الأصلي للصورة.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

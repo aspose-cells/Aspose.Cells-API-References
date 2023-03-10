@@ -1,4 +1,4 @@
-﻿---
+---
 title: right الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل عرض الإزاحة الأفقية للشكل من عمود الزاوية السفلي right ، بوحدة البكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

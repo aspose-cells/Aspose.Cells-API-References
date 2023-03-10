@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Dolgu formatı set tipini alır.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen bunun yerine FillFormat.FillType özelliğini kullanın.
  Bu mülk, Temmuz 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

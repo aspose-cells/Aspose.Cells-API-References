@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_double
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

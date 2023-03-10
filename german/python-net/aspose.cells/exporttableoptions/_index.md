@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportTableOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,8 +31,8 @@ Der Typ ExportTableOptions macht die folgenden Member verfügbar:
 | [export_as_string](/cells/de/python-net/aspose.cells/exporttableoptions/export_as_string) | Exportiert den Zeichenfolgenwert der Zellen in die DataTable.|
 | [export_as_html_string](/cells/de/python-net/aspose.cells/exporttableoptions/export_as_html_string) | Exportiert den HTML-String-Wert der Zellen in die DataTable.|
 | [format_strategy](/cells/de/python-net/aspose.cells/exporttableoptions/format_strategy) | Ruft die Formatstrategie ab und legt sie fest, wenn der Wert als Zeichenfolgewert exportiert wird.|
-| [check_mixed_value_type](/cells/de/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) | False, Aspose.Cells legt den Typ der DataColumn aus Leistungsgründen anhand des Werttyps der ersten Zeile fest.<br/> True, Aspose.Cells prüft, ob die Werttypen in der Spalte gemischt sind, bevor der Typ der DataColumn festgelegt wird<br/> Und der Werttyp ist gemischt, der Typ der DataColumn ist eine Zeichenfolge.|
-| [is_vertical](/cells/de/python-net/aspose.cells/exporttableoptions/is_vertical) | True, wenn eine Zeile in der Arbeitsmappendatei eine Zeile in DataTable darstellt.|
+| [check_mixed_value_type](/cells/de/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) | False, Aspose.Cells legt den Typ der DataColumn aus Leistungsgründen anhand des Werttyps der ersten Zeile fest.<br/> True, Aspose.Cells prüft, ob die Werttypen in der Spalte gemischt sind, bevor der Typ der DataColumn festgelegt wird<br/> Und die Werttypen sind gemischt, der Typ der DataColumn ist eine Zeichenfolge.|
+| [is_vertical](/cells/de/python-net/aspose.cells/exporttableoptions/is_vertical) | True, wenn eine Zeile in der Arbeitsmappendatei eine Zeile in DataTable darstellt. False, wenn eine Spalte in der Arbeitsmappendatei eine Zeile in DataTable darstellt.|
 | [indexes](/cells/de/python-net/aspose.cells/exporttableoptions/indexes) | Die Indizes der Spalten/Zeilen, die exportiert werden sollen.|
 | [rename_strategy](/cells/de/python-net/aspose.cells/exporttableoptions/rename_strategy) | Strategie für doppelte Namen von Spalten.|
 

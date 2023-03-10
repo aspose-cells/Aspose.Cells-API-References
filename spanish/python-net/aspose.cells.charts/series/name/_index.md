@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el name de la serie de datos.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

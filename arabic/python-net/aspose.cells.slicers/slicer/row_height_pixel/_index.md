@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_height_pixel الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تعيين الارتفاع بالبكسل لكل صف في مقسم طريقة العرض المحددة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

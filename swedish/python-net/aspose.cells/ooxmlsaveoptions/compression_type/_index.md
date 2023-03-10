@@ -1,4 +1,4 @@
-﻿---
+---
 title: compression_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type fastighet
 
-Hämtar och ställer in komprimeringstypen för ooxml-filer.
+Hämtar och ställer in komprimeringstypen för ooxml-fil.
 
 ###  Anmärkningar
 

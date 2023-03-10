@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_css_id недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_css_id недвижимость
 
  Получает и устанавливает префикс имени типа css, например, tr,col,td и т. д., они содержатся в элементе таблицы
-который имеет определенный атрибут TableCssId.
+который имеет определенный атрибут TableCssId. Значение по умолчанию — «».
 ###  Определение:
 ```python
 @property

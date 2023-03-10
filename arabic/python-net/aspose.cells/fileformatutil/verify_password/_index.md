@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة verify_password
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def verify_password(self, stream, password):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | password | str | كلمة المرور لملفات ooxml المشفرة.|

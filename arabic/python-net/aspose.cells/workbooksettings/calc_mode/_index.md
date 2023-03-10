@@ -1,4 +1,4 @@
-﻿---
+---
 title: calc_mode الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -16,7 +16,7 @@ is_root: false
 
 مجموعات فقط لبرنامج MS Excel.
 يرجى استدعاء طريقة Workbook.CalculateFormula () يدويًا لحساب الصيغ باستخدام Aspose.Cells.
-ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام FormulaSettings.CalculationMode.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من ذلك ، يرجى استخدام FormulaSettings.CalculationMode.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ فبراير 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 ###  تعريف:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_minor_unit недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: all_columns_in_one_page_per_sheet Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

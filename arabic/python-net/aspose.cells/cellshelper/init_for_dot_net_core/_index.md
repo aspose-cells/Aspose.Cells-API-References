@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة init_for_dot_net_core
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,7 +24,7 @@ El tipo WorksheetCollection expone los siguientes miembros:
 | [names](/cells/es/python-net/aspose.cells/worksheetcollection/names) | Obtiene la colección de todos los objetos Name de la hoja de cálculo.|
 | [active_sheet_name](/cells/es/python-net/aspose.cells/worksheetcollection/active_sheet_name) | Representa el nombre de la hoja de cálculo activa cuando se abre la hoja de cálculo.|
 | [active_sheet_index](/cells/es/python-net/aspose.cells/worksheetcollection/active_sheet_index) | Representa el índice de la hoja de cálculo activa cuando se abre la hoja de cálculo.|
-| [dxfs](/cells/es/python-net/aspose.cells/worksheetcollection/dxfs) | Obtiene los registros de formato diferencial principal.|
+| [dxfs](/cells/es/python-net/aspose.cells/worksheetcollection/dxfs) | Obtiene los registros de formato diferencial maestro.|
 | [xml_maps](/cells/es/python-net/aspose.cells/worksheetcollection/xml_maps) | Obtiene y establece los mapas XML en el libro.|
 | [built_in_document_properties](/cells/es/python-net/aspose.cells/worksheetcollection/built_in_document_properties) | Devuelve una colección [DocumentProperty](/cells/es/python-net/aspose.cells.properties/documentproperty) que representa todas las propiedades de documento integradas de la hoja de cálculo.|
 | [custom_document_properties](/cells/es/python-net/aspose.cells/worksheetcollection/custom_document_properties) | Devuelve una colección [DocumentProperty](/cells/es/python-net/aspose.cells.properties/documentproperty) que representa todas las propiedades del documento personalizado de la hoja de cálculo.|
@@ -45,8 +45,8 @@ El tipo WorksheetCollection expone los siguientes miembros:
 | [add(sheet_name)](/cells/es/python-net/aspose.cells/worksheetcollection/add/#str) | Agrega una hoja de cálculo a la colección.|
 | [register_add_in_function(add_in_file, function_name, lib)](/cells/es/python-net/aspose.cells/worksheetcollection/register_add_in_function/#str-str-bool) | Agrega la función addin al libro de trabajo|
 | [register_add_in_function(id, function_name)](/cells/es/python-net/aspose.cells/worksheetcollection/register_add_in_function/#int-str) | Agrega la función addin al libro de trabajo|
-| [add_copy(sheet_name)](/cells/es/python-net/aspose.cells/worksheetcollection/add_copy/#str) | Agrega una hoja de trabajo a la colección y copia datos de una hoja de trabajo existente.|
-| [add_copy(sheet_index)](/cells/es/python-net/aspose.cells/worksheetcollection/add_copy/#int) | Agrega una hoja de trabajo a la colección y copia datos de una hoja de trabajo existente.|
+| [add_copy(sheet_name)](/cells/es/python-net/aspose.cells/worksheetcollection/add_copy/#str) | Agrega una hoja de trabajo a la colección y copia los datos de una hoja de trabajo existente.|
+| [add_copy(sheet_index)](/cells/es/python-net/aspose.cells/worksheetcollection/add_copy/#int) | Agrega una hoja de trabajo a la colección y copia los datos de una hoja de trabajo existente.|
 | [get_range_by_name(range_name)](/cells/es/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str) | Obtiene el objeto Range por nombre predefinido.|
 | [get_range_by_name(range_name, current_sheet_index, include_table)](/cells/es/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str-int-bool) | Obtiene [Range](/cells/es/python-net/aspose.cells/range) por nombre predefinido o nombre de tabla|
 | [copy_to(array)](/cells/es/python-net/aspose.cells/worksheetcollection/copy_to/#list) | Copia toda la lista de matrices en una lista de matrices unidimensional compatible, comenzando por el principio de la lista de matrices de destino.|
@@ -71,7 +71,7 @@ El tipo WorksheetCollection expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

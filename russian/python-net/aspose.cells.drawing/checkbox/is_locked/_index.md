@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_locked недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 True, если объект заблокирован, False, если объект можно изменить, когда лист защищен.
 
-###  Примеры
+###  Пример
 
 ```python
 

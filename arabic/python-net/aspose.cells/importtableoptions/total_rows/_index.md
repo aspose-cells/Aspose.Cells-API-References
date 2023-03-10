@@ -1,4 +1,4 @@
-﻿---
+---
 title: total_rows الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_rows الملكية
 
--1 تعني جميع صفوف مصدر البيانات المحدد.
+الحصول على أو تعيين إجمالي عدد الصفوف للاستيراد من مصدر البيانات. -1 تعني جميع صفوف مصدر البيانات المحدد.
 ###  تعريف:
 ```python
 @property

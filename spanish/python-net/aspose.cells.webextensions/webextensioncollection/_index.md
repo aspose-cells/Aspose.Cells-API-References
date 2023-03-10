@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,7 +31,7 @@ El tipo WebExtensionCollection expone los siguientes miembros:
 | [last_index_of(item, index)](/cells/es/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int) | Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de arreglos que se extiende desde el primer elemento hasta el índice especificado.|
 | [last_index_of(item, index, count)](/cells/es/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int-int) |Busca el objeto especificado y devuelve el índice basado en cero de la última aparición dentro del rango de elementos en la lista de matriz que contiene el número especificado de elementos y termina en el índice especificado.|
 | [add()](/cells/es/python-net/aspose.cells.webextensions/webextensioncollection/add/#) | Agrega una extensión web.|
-| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/es/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Agregue un reproductor de video web en Excel.|
+| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/es/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Agregue un reproductor de video web en exel.|
 | [binary_search(item)](/cells/es/python-net/aspose.cells.webextensions/webextensioncollection/binary_search/#WebExtension) | Busca un elemento en toda la lista de matrices ordenadas mediante el comparador predeterminado y devuelve el índice de base cero del elemento.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThemeColor costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def __init__(self, type, tint):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/it/python-net/aspose.cells/themecolortype) | Il tipo di tema.|
 | tint | float | Il valore della tinta.|

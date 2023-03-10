@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_to_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_not_printed недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Только для файлов xlsx.
+Только для файла xlsx.
 ###  Определение:
 ```python
 @property

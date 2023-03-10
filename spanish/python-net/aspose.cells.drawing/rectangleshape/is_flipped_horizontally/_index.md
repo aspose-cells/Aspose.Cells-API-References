@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_flipped_horizontally propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece si la forma se invierte horizontalmente.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: VerticalPageBreak classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,7 +23,7 @@ Le type VerticalPageBreak expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

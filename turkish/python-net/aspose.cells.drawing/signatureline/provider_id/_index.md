@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Genellikle sağlayıcı com eklentisinin CLSID'sidir.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing import SignatureLine

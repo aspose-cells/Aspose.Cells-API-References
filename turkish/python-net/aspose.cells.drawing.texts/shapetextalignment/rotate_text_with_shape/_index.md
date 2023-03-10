@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotate_text_with_shape mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Metnin şekil ile döndürülüp döndürülmediğini gösterir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def remove_range(self, index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | index | int | индекс удаляемого диапазона.|
 

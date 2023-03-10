@@ -1,6 +1,6 @@
-﻿---
+---
 title: gradient_variant 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -14,7 +14,7 @@ is_root: false
 
 ### 评论
 
-只能是 1 到 4 之间的值，对应于填充效果对话框中渐变选项卡上的四个变体之一。如果样式是 GradientStyle.FromCenter，则 Variant 参数只能是 1 或 2。
+只能是 1 到 4 之间的值，对应于“填充效果”对话框中“渐变”选项卡上的四个变体之一。如果样式为 GradientStyle.FromCenter，则 Variant 参数只能为 1 或 2。
 ### 定义：
 ```python
 @property

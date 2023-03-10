@@ -1,4 +1,4 @@
-﻿---
+---
 title: locale_dependent mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  locale_dependent mülk
 
-Formülün yerel olarak biçimlendirilip biçimlendirilmediği. Varsayılan değer yanlıştır.
+Formülün yerel biçimlendirilmiş olup olmadığı. Varsayılan yanlıştır.
 ###  Tanım:
 ```python
 @property

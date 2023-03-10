@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_file propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  source_file propiedad
 
- Se utiliza cuando la fuente de datos externa está basada en archivos.
- fuente falla, la aplicación de hoja de cálculo intenta conectarse directamente a este archivo.
+ Se utiliza cuando la fuente de datos externa está basada en archivos. Cuando una conexión a tales datos
+ fuente falla, la aplicación de hoja de cálculo intenta conectarse directamente a este archivo. Tal vez
 expresado en URI o notación de ruta de archivo específica del sistema.
 ###  Definición:
 ```python

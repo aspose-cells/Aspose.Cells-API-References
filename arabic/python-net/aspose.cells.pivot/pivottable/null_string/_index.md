@@ -1,4 +1,4 @@
-﻿---
+---
 title: null_string الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  null_string الملكية
 
 الحصول على السلسلة المعروضة في الخلايا التي تحتوي على قيم خالية
-عندما تكون الخاصية DisplayNullString صحيحة.
+عندما تكون الخاصية DisplayNullString صحيحة ، فالقيمة الافتراضية هي سلسلة فارغة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد RenameStrategy
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/renamestrategy/
 is_root: false
 ---
 ##  العد RenameStrategy
-خيار الإستراتيجية لتكرار أسماء الأعمدة.
+خيار الإستراتيجية لأسماء الأعمدة المكررة.
 
 
 

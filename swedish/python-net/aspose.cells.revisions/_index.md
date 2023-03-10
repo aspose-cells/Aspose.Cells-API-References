@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.revisions
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -28,7 +28,7 @@ is_root: false
 | [RevisionLogCollection](/cells/sv/python-net/aspose.cells.revisions/revisionlogcollection) | Representerar alla revisionsloggar.|
 | [RevisionMergeConflict](/cells/sv/python-net/aspose.cells.revisions/revisionmergeconflict) | Representerar en revisionspost som indikerar att det fanns en sammanslagningskonflikt.|
 | [RevisionQueryTable](/cells/sv/python-net/aspose.cells.revisions/revisionquerytable) | Representerar en revidering av en ändring i frågetabellfältet.|
-| [RevisionRenameSheet](/cells/sv/python-net/aspose.cells.revisions/revisionrenamesheet) | Representerar en revidering av det byta namnbladet.|
+| [RevisionRenameSheet](/cells/sv/python-net/aspose.cells.revisions/revisionrenamesheet) | Representerar en revision av att byta namn på arket.|
 
 
 ###  Uppräkningar

@@ -1,4 +1,4 @@
-﻿---
+---
 title: top الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 إذا كان الشكل في المخطط ، فإنه يمثل الإزاحة الرأسية للشكل من حده top.
 
-###  أمثلة
+###  مثال
 
 ```python
 

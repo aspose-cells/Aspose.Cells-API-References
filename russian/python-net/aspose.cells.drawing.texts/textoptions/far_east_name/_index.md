@@ -1,4 +1,4 @@
-﻿---
+---
 title: far_east_name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name недвижимость
 
-Получает и задает название Дальнего Востока.
+Получает и задает имя FarEast.
 ###  Определение:
 ```python
 @property

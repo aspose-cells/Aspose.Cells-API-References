@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_art Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Gibt an, ob es sich bei dieser Form um eine Wortkunst handelt.
 
 Nur für die Legacy-Form der xls-Datei.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

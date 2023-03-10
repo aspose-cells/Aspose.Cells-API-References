@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_dependents_in_calculation metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, recursive):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | recursive | bool | Om returnerar de beroende som inte refererar till den här cellen direkt<br/> men hänvisning till andra blad i denna cell|
 ###  Anmärkningar

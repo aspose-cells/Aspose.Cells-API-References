@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_radar_axis_labels الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels الملكية
 
-صواب إذا كان المخطط النسيجي يحتوي على تسميات محور الفئة.
+صواب إذا كان المخطط النسيجي يحتوي على تسميات محور الفئة. ينطبق فقط على مخططات الرادار.
 ###  تعريف:
 ```python
 @property

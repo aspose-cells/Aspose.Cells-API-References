@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -42,10 +42,10 @@ Typen TextOptions avslöjar följande medlemmar:
 | [scheme_type](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Hämtar och ställer in schematypen för teckensnittet.|
 | [language_code](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Hämtar och ställer in språket för användargränssnittet.|
 | [latin_name](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Hämtar och ställer in det latinska namnet.|
-| [far_east_name](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Får och anger namnet Fjärran Östern.|
+| [far_east_name](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Hämtar och ställer in FarEast-namnet.|
 | [fill](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/fill) | Representerar textens fyllnadsformat.|
 | [outline](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/outline) | Representerar textens dispositionsformat.|
-| [shadow](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Representerar ett [ShadowEffect](/cells/sv/python-net/aspose.cells.drawing/shadoweffect)-objekt som anger en skuggeffekt för diagramelementet eller formen.|
+| [shadow](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Representerar ett [ShadowEffect](/cells/sv/python-net/aspose.cells.drawing/shadoweffect)-objekt som anger skuggeffekt för diagramelementet eller formen.|
 | [underline_color](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Får eller ställer in färgen på understrykning.|
 | [kerning](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Anger den lägsta teckenstorleken vid vilken teckenkärning kommer att ske för denna textkörning.|
 | [spacing](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Anger avståndet mellan tecken i en textkörning.|

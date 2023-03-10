@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range2 propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 propriété
 
 Renvoie un objet CellArea qui représente la plage contenant l'intégralité du rapport de tableau croisé dynamique,
-inclut des champs de page.
+inclut des champs de page. Lecture seulement.
 ###  Définition:
 ```python
 @property

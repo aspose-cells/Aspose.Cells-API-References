@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name mülk
 
-Yazı tipinin adını alın ve ayarlayın.
+Yazı tipinin adını alın ve ayarlar.
 ###  Tanım:
 ```python
 @property

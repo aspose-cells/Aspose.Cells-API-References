@@ -1,4 +1,4 @@
-﻿---
+---
 title: union метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | range | str | Диапазон.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/ru/python-net/aspose.cells/unionrange) | Диапазон.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | ranges | list | Диапазоны.|
 

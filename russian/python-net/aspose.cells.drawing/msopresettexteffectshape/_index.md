@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoPresetTextEffectShape перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,46 +17,46 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| PLAIN_TEXT | простой текст|
+| PLAIN_TEXT | Простой текст|
 | STOP | Останавливаться|
-| TRIANGLE_UP | Треугольник вверх|
-| TRIANGLE_DOWN | Треугольник вниз|
-| CHEVRON_UP | Шеврон вверх|
-| CHEVRON_DOWN | Шеврон вниз|
-| RING_INSIDE | Кольцо внутри|
-| RING_OUTSIDE | Кольцо снаружи|
+| TRIANGLE_UP | ТреугольникВверх|
+| TRIANGLE_DOWN | ТреугольникВниз|
+| CHEVRON_UP | ШевронВверх|
+| CHEVRON_DOWN | ChevronDown|
+| RING_INSIDE | КольцоВнутри|
+| RING_OUTSIDE | КольцоСнаружи|
 | ARCH_UP_CURVE | АркаВверхКривая|
-| ARCH_DOWN_CURVE |Кривая арки вниз|
-| CIRCLE_CURVE | Круговая кривая|
-| BUTTON_CURVE | Кривая кнопки|
-| ARCH_UP_POUR | Арка до заливки|
-| ARCH_DOWN_POUR | Арка вниз заливка|
-| CIRCLE_POUR | Круг Залить|
-| BUTTON_POUR | Кнопка Залить|
-| CURVE_UP | Изгиб вверх|
-| CURVE_DOWN | Кривая вниз|
-| CAN_UP | Может вверх|
-| CAN_DOWN | может вниз|
+| ARCH_DOWN_CURVE |АркаВнизКривая|
+| CIRCLE_CURVE | КругКривая|
+| BUTTON_CURVE | КнопкаКривая|
+| ARCH_UP_POUR | ArchUpPour|
+| ARCH_DOWN_POUR | АркаВнизНалить|
+| CIRCLE_POUR | КругНалить|
+| BUTTON_POUR | КнопкаНалить|
+| CURVE_UP | КриваяВверх|
+| CURVE_DOWN | КриваяВниз|
+| CAN_UP | CanUp|
+| CAN_DOWN | CanDown|
 | WAVE1 | Волна 1|
 | WAVE2 | Волна2|
 | DOUBLE_WAVE1 | Даблволна1|
 | DOUBLE_WAVE2 | ДаблВейв2|
 | INFLATE | Надувать|
 | DEFLATE | Выкачать|
-| INFLATE_BOTTOM | Надуть дно|
-| DEFLATE_BOTTOM | Спустить дно|
-| INFLATE_TOP | Надуть верх|
-| DEFLATE_TOP | Спустить верх|
-| DEFLATE_INFLATE | Выкачать Надуть|
+| INFLATE_BOTTOM | InflateBottom|
+| DEFLATE_BOTTOM | DeflateBottom|
+| INFLATE_TOP | InflateTop|
+| DEFLATE_TOP | DeflateTop|
+| DEFLATE_INFLATE | ВыкачатьНадуть|
 | DEFLATE_INFLATE_DEFLATE | DeflateInflateDeflate|
-| FADE_RIGHT | Исчезать вправо|
-| FADE_LEFT | Исчезать влево|
+| FADE_RIGHT | FadeRight|
+| FADE_LEFT | FadeLeft|
 | FADE_UP | Растворяться|
-| FADE_DOWN | Исчезать|
+| FADE_DOWN | FadeDown|
 | SLANT_UP | Наклонный|
-| SLANT_DOWN | Наклон вниз|
-| CASCADE_UP | Каскад вверх|
-| CASCADE_DOWN | Каскад вниз|
+| SLANT_DOWN | наклон вниз|
+| CASCADE_UP | КаскадВверх|
+| CASCADE_DOWN | КаскадВниз|
 | MIXED | Смешанный|
 
 

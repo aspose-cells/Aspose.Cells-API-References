@@ -1,4 +1,4 @@
-﻿---
+---
 title: encoding mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding mülk
 
-Ayarlanmazsa varsayılan kodlama türü olarak Encoding.UTF8'i kullanın.
+Ayarlanmamışsa varsayılan kodlama türü olarak Encoding.UTF8'i kullanın.
 ###  Tanım:
 ```python
 @property

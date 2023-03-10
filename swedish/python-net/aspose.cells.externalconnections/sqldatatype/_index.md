@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType uppräkning
-Anger SQL-datatypen för parametern.
+Anger SQL-datatypen för parametern. Endast giltigt för ODBC-källor.
 
 
 
@@ -19,7 +19,7 @@ Typen SqlDataType avslöjar följande medlemmar:
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | sql osignerad offset|
 | SQL_SIGNED_OFFSET | sql signerad offset|
-| SQL_GUID | sql guider|
+| SQL_GUID | sql guide|
 | SQL_W_LONG_VARCHAR | sql bred lång variabel char|
 | SQL_W_VARCHAR | sql wide variabel char|
 | SQL_W_CHAR | sql wide char|

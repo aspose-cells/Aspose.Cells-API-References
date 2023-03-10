@@ -1,4 +1,4 @@
-﻿---
+---
 title: recursive fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  recursive fastighet
 
-Indikerar om de beroende cellerna ska beräknas rekursivt vid beräkning av en cell och det beror på andra celler.
+Anger om de beroende cellerna beräknas rekursivt vid beräkning av en cell och det beror på andra celler.
 ###  Definition:
 ```python
 @property

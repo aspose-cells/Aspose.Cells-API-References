@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_width metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar bredden på den angivna kolumnen i normal vy
 
 ###  Returnerar
 
-Bredd på kolumner
+Kolumns bredd
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width(self, column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex|
 

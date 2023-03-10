@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge_files метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def merge_files(self, files, cached_file, dest_file):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | files | list | Файлы.|
 | cached_file | str | Кэшированный файл.|

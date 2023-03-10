@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_date_time_data mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

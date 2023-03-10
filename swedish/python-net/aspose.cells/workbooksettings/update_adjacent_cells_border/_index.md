@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_adjacent_cells_border fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Indikerar om uppdatering av angränsande cellers kantlinje.
 ###  Anmärkningar
 
 Standardvärdet är falskt.
- Till exempel: den nedre kanten av cellen A1 uppdateras,
+ Till exempel: den nedre kanten av cell A1 är uppdatering,
 den övre kanten av cell A2 bör också ändras.
 ###  Definition:
 ```python

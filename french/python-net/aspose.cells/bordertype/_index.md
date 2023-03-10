@@ -1,4 +1,4 @@
-﻿---
+---
 title: BorderType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,8 +23,8 @@ Le type BorderType expose les membres suivants :
 | LEFT_BORDER | Représente la ligne de bordure gauche.|
 | RIGHT_BORDER |Représente que la ligne de bordure droite existe.|
 | TOP_BORDER | Représente la ligne de bordure supérieure.|
-| HORIZONTAL | Uniquement pour le style dynamique, comme la mise en forme conditionnelle.|
-| VERTICAL | Uniquement pour le style dynamique, comme la mise en forme conditionnelle.|
+| HORIZONTAL | Uniquement pour le style dynamique, tel que la mise en forme conditionnelle.|
+| VERTICAL | Uniquement pour le style dynamique, tel que la mise en forme conditionnelle.|
 
 
 

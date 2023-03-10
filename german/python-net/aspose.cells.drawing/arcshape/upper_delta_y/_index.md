@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_y Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Ruft den vertikalen Versatz des Shapes von seiner oberen linken Eckzeile ab oder
 
 Der Wertebereich ist 0 bis 256.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

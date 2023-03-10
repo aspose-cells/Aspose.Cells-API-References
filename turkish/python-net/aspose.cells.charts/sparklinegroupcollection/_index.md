@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroupCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -31,13 +31,13 @@ SparklineGroupCollection türü aşağıdaki üyeleri gösterir:
 | [last_index_of(item, index)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) | Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) |Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [add(type, data_range, is_vertical, location_range)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/add/#SparklineType-str-bool-CellArea) | Koleksiyona bir [SparklineGroup](/cells/tr/python-net/aspose.cells.charts/sparklinegroup) öğe ekler.|
-| [clear_sparklines(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Bir hücre alanı içindeki mini çizgileri temizler.|
-| [clear_sparkline_groups(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Bir hücre alanıyla örtüşen mini grafik gruplarını temizler.|
+| [clear_sparklines(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Bir hücre alanı içindeki küçük çizgileri temizler.|
+| [clear_sparkline_groups(cell_area)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Bir hücre alanıyla çakışan mini grafik gruplarını temizler.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection/binary_search/#SparklineGroup) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

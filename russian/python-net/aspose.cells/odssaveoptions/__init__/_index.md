@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) |  |
 

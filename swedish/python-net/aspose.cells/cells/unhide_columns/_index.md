@@ -1,4 +1,4 @@
-﻿---
+---
 title: unhide_columns metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def unhide_columns(self, column, total_columns, width):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex.|
 | total_columns | int | Kolumnnummer|

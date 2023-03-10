@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den Namen des Cache-Felds zurück
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

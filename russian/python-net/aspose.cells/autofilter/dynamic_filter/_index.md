@@ -1,4 +1,4 @@
-﻿---
+---
 title: dynamic_filter метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def dynamic_filter(self, field_index, dynamic_filter_type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | Целочисленное смещение поля, на котором вы хотите основывать фильтр.<br/> (слева в списке; крайнее левое поле — поле 0).|
 | dynamic_filter_type | [DynamicFilterType](/cells/ru/python-net/aspose.cells/dynamicfiltertype) | Тип динамического фильтра.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: weight propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient ou définit le weight de la ligne en unité de points.
 
-###  Exemples
+###  Exemple
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: group metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def group(self, group_items):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | group_items | list | gruppobjekten.|
 ###  Anmärkningar

@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_formulas метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/remove_formulas/
 is_root: false
 ---
 ##  remove_formulas() {#}
-Удаляет все формулы и заменяет значением формулы.
+Удаляет всю формулу и заменяет значением формулы.
 
 
 

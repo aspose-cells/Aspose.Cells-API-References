@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_pivot_field_buttons mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_weight недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает вес линии границы изображения в единицах pt.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

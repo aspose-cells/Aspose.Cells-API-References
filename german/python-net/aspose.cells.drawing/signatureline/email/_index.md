@@ -1,4 +1,4 @@
-﻿---
+---
 title: email Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Erhält und setzt die email des Sängers.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import SignatureLine

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_margin propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

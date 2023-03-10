@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trendline класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -51,15 +51,15 @@ is_root: false
 | [period](/cells/ru/python-net/aspose.cells.charts/trendline/period) | Возвращает или задает период для линии тренда скользящей средней.|
 | [forward](/cells/ru/python-net/aspose.cells.charts/trendline/forward) | Возвращает или задает количество периодов (или единиц на точечной диаграмме), на которое линия тренда продолжается вперед.<br/> Количество периодов должно быть больше или равно нулю.|
 | [backward](/cells/ru/python-net/aspose.cells.charts/trendline/backward) | Возвращает или задает количество периодов (или единиц на точечной диаграмме), на которые линия тренда тянется назад.<br/>Количество периодов должно быть больше или равно нулю.<br/> Если тип диаграммы — столбец, количество периодов должно быть от 0 до 0,5.|
-| [display_equation](/cells/ru/python-net/aspose.cells.charts/trendline/display_equation) |Указывает, отображается ли уравнение для линии тренда на диаграмме (в той же метке данных, что и значение R-квадрата).|
-| [display_r_squared](/cells/ru/python-net/aspose.cells.charts/trendline/display_r_squared) | Указывает, отображается ли на диаграмме значение R-квадрата линии тренда (в той же метке данных, что и уравнение).Установка этого свойства в значение True автоматически включает метки данных.|
+| [display_equation](/cells/ru/python-net/aspose.cells.charts/trendline/display_equation) |Указывает, отображается ли уравнение для линии тренда на диаграмме (в той же метке данных, что и значение R-квадрата). Установка для этого свойства значения True автоматически включает метки данных.|
+| [display_r_squared](/cells/ru/python-net/aspose.cells.charts/trendline/display_r_squared) | Указывает, отображается ли на диаграмме значение R-квадрата линии тренда (в той же метке данных, что и уравнение). Установка для этого свойства значения True автоматически включает метки данных.|
 | [intercept](/cells/ru/python-net/aspose.cells.charts/trendline/intercept) | Возвращает или задает точку, в которой линия тренда пересекает ось значений.|
 | [data_labels](/cells/ru/python-net/aspose.cells.charts/trendline/data_labels) | Представляет объект DataLabels для указанной серии.|
 | [legend_entry](/cells/ru/python-net/aspose.cells.charts/trendline/legend_entry) | Получает запись легенды в соответствии с этой линией тренда|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

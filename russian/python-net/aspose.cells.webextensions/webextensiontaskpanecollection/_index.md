@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionTaskPaneCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/
 is_root: false
 ---
 ##  WebExtensionTaskPaneCollection класс
-Представляет список областей задач.
+Представляет список области задач.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_condition yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Kaldırılacak biçimlendirme koşulunun dizini.|
 

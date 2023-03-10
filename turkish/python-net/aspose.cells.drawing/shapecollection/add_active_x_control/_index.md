@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_active_x_control yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,17 +22,17 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | aspose.cells.drawing.activexcontrols.ControlType | Denetimin türü.|
 | top_row | int | Sol üst sıra dizini.|
 | top | int | Shape öğesinin sol satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
 | left_column | int | Sol üst sütun dizini.|
 | left | int | Shape'in sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
-| width | int | Şeklin genişliğini piksel cinsinden temsil eder.|
-| height | int | Şeklin yüksekliğini piksel birimleri cinsinden temsil eder.|
+| width | int | Şeklin genişliğini piksel birimi cinsinden temsil eder.|
+| height | int | Şeklin yüksekliğini piksel birimi cinsinden temsil eder.|
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing.activexcontrols import ControlType

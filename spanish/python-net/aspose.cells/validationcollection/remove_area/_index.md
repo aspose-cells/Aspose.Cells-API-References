@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/validationcollection/remove_area/
 is_root: false
 ---
 ##  remove_area(ca) {#CellArea}
-Elimina todas las configuraciones de validación en el rango.
+Elimina toda la configuración de validación en el rango.
 
 
 
@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | ca | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | El rango que contiene la configuración de validaciones.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_link
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | uri | str | مساحة الاسم URI للعلامة الذكية.|
 | name | str | اسم العلامة الذكية.|

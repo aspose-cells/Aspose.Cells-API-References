@@ -1,4 +1,4 @@
-﻿---
+---
 title: title الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحصل ويضع title للمغني.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import SignatureLine

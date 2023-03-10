@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPoint klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -61,7 +61,7 @@ Typen ChartPoint avslöjar följande medlemmar:
 | [get_bottom_point_count()](/cells/sv/python-net/aspose.cells.charts/chartpoint/get_bottom_point_count/#) | Får antalet bottenpoäng efter anrop av metoden Chart.Calculate().|
 | [get_bottom_point_x_px(index)](/cells/sv/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) | Får x-koordinaten för formens nedre punkt efter anrop av metoden Chart.Calculate().<br/> Tillämpar 3D-diagram: Column3D, Bar3D, Cone, Cylinder, Pyramid|
 | [get_bottom_point_y_px(index)](/cells/sv/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) | Hämtar y-koordinaten för formens nedre punkt efter anrop av metoden Chart.Calculate().<br/> Tillämpar 3D-diagram: Column3D, Bar3D, Cone, Cylinder, Pyramid|
-| [get_on_category_axis_point_count()](/cells/sv/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Hämtar antalet punkter på kategoriaxeln efter anrop av metoden Chart.Calculate(). Gäller endast för ytdiagram.|
+| [get_on_category_axis_point_count()](/cells/sv/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Hämtar antalet punkter på kategoriaxeln efter anrop av metoden Chart.Calculate(). Gäller endast områdesdiagram.|
 | [get_on_category_axis_point_x_px(index)](/cells/sv/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Hämtar x-koordinaten för punkten på kategoriaxeln efter anrop av metoden Chart.Calculate(). Gäller endast Ytdiagram.|
 | [get_on_category_axis_point_y_px(index)](/cells/sv/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Hämtar y-koordinaten för punkten på kategoriaxeln efter anrop av metoden Chart.Calculate(). Gäller endast Ytdiagram.|
 

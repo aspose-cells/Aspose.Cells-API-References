@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/ar/python-net/aspose.cells/workbook) | ملف مصنف القالب.|
 

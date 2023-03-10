@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة detect_file_format
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def detect_file_format(self, stream):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 
@@ -42,7 +42,7 @@ def detect_file_format(self, file_path):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_path | str | مسار الملف.|
 
@@ -62,7 +62,7 @@ def detect_file_format(self, stream, password):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | password | str | كلمة المرور لملفات ooxml المشفرة.|
@@ -83,7 +83,7 @@ def detect_file_format(self, file_path, password):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_path | str | مسار الملف.|
 | password | str | كلمة المرور لملفات ooxml المشفرة.|

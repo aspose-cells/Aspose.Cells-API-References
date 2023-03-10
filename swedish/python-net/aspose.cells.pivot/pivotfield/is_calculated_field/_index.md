@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_calculated_field fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_calculated_field fastighet
 
-Anger om det angivna pivottabellfältet är ett beräknat fält.
+Anger om det angivna pivottabellfältet är beräknat fält.
 ###  Definition:
 ```python
 @property

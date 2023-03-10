@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveXControl classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ Le type ActiveXControl expose les membres suivants :
 | :- | :- |
 | [workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/workbook) | Obtient l'objet [ActiveXControlBase.workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/type) | Obtient le type du contrôle ActiveX.|
-| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/width) |Obtient et définit la largeur du contrôle en unités de points.|
+| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/width) |Obtient et définit la largeur du contrôle en unité de points.|
 | [height](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/height) | Obtient et définit la hauteur du contrôle en unités de points.|
 | [mouse_icon](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/mouse_icon) | Obtient et définit une icône personnalisée à afficher comme pointeur de souris pour le contrôle.|
 | [mouse_pointer](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/mouse_pointer) | Obtient et définit le type d'icône affichée comme pointeur de souris pour le contrôle.|

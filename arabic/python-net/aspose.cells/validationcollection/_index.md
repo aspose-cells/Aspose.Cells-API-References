@@ -1,4 +1,4 @@
-﻿---
+---
 title: ValidationCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/validationcollection/
 is_root: false
 ---
 ##  ValidationCollection الدرجة
-يمثل مجموعات التحقق من صحة البيانات.
+يمثل جمع التحقق من صحة البيانات.
 
 
 
@@ -32,14 +32,14 @@ is_root: false
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells/validationcollection/last_index_of/#Validation) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
 | [last_index_of(item, index)](/cells/ar/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
 | [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
-| [remove_a_cell(row, column)](/cells/ar/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | يزيل كافة إعدادات التحقق من صحة الخلية.|
-| [remove_area(ca)](/cells/ar/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | يزيل كافة إعدادات التحقق من النطاق ..|
+| [remove_a_cell(row, column)](/cells/ar/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | يزيل كل إعدادات التحقق من صحة الخلية.|
+| [remove_area(ca)](/cells/ar/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | يزيل كل إعدادات التحقق من النطاق ..|
 | [get_validation_in_cell(row, column)](/cells/ar/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | يحصل على التحقق المطبق على خلية معينة.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells/validationcollection/binary_search/#Validation) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, ValidationType, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraph klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -41,7 +41,7 @@ Typen TextParagraph avslöjar följande medlemmar:
 | [right_margin](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/right_margin) | Anger styckets högra marginal.|
 | [left_margin](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/left_margin) | Anger styckets vänstra marginal.|
 | [first_line_indent](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/first_line_indent) | Anger indragsstorleken som kommer att tillämpas på den första textraden i stycket.|
-| [font_align_type](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Bestämmer var vertikalt på en textrad de faktiska orden är placerade.<br/> med vertikal placering av tecknen i förhållande till baslinjerna.|
+| [font_align_type](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Bestämmer var vertikalt på en textrad de faktiska orden är placerade. Det här handlar om<br/> med vertikal placering av tecknen i förhållande till baslinjerna.|
 | [alignment_type](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/alignment_type) | Hämtar och ställer in textens horisontella inriktningstyp för stycket.|
 | [default_tab_size](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/default_tab_size) | Hämtar och ställer in standardstorleken för ett tabbtecken i detta stycke.|
 | [children](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph/children) | Hämtar all textkörning i detta stycke.<br/> Om detta stycke är tomt, returnera själva stycket.|

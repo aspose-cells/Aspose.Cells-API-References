@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackground Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.ods/odspagebackground/
 is_root: false
 ---
 ##  OdsPageBackground Klasse
-Stellt den Seitenhintergrund der Quoten dar.
+Repräsentiert den Seitenhintergrund von ods.
 
 
 
@@ -24,7 +24,7 @@ Der Typ OdsPageBackground macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [type](/cells/de/python-net/aspose.cells.ods/odspagebackground/type) | Ruft den Seitenhintergrundtyp ab und legt ihn fest.|
-| [color](/cells/de/python-net/aspose.cells.ods/odspagebackground/color) | Ruft die Farbe des Hintergrunds ab und legt sie fest.|
+| [color](/cells/de/python-net/aspose.cells.ods/odspagebackground/color) | Ruft die Hintergrundfarbe ab und legt sie fest.|
 | [graphic_type](/cells/de/python-net/aspose.cells.ods/odspagebackground/graphic_type) | Ruft den Grafiktyp des Seitenhintergrunds ab und legt ihn fest.|
 | [graphic_position_type](/cells/de/python-net/aspose.cells.ods/odspagebackground/graphic_position_type) | Ruft die Position der Hintergrundgrafik ab und legt sie fest.|
 | [is_link](/cells/de/python-net/aspose.cells.ods/odspagebackground/is_link) | Gibt an, ob es sich um eine verknüpfte Grafik handelt.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,8 +20,8 @@ def __init__(self):
 
 ###  Notlar
 
-Varsayılan dosya formatı tipi Xlsx'tir. Başka formatta dosya tipi oluşturmak için lütfen Workbook(FileFormatType) kullanın.
-###  örnekler
+Varsayılan dosya biçimi türü Xlsx'tir. Başka formatta dosya türü oluşturmak için lütfen Workbook(FileFormatType) kullanın.
+###  Örnek
 
 
 Aşağıdaki kod, sınıfın yeni bir örneğini oluşturmak ve başlatmak için Workbook yapıcısının nasıl kullanılacağını gösterir.
@@ -45,13 +45,13 @@ def __init__(self, file_format_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/tr/python-net/aspose.cells/fileformattype) | Yeni dosya formatı.|
 ###  Notlar
 
 Varsayılan dosya biçimi türü Excel97To2003'tür.
-###  örnekler
+###  Örnek
 
 
 Aşağıdaki kod, sınıfın yeni bir örneğini oluşturmak ve başlatmak için Workbook yapıcısının nasıl kullanılacağını gösterir.
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file | str | Dosya adı.|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Akış.|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file | str | Dosya adı.|
 | load_options | [LoadOptions](/cells/tr/python-net/aspose.cells/loadoptions) | yükleme seçenekleri|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Akış.|
 | load_options | [LoadOptions](/cells/tr/python-net/aspose.cells/loadoptions) | yükleme seçenekleri|

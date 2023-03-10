@@ -1,6 +1,6 @@
-﻿---
+---
 title: underflow 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## underflow 属性
 
-获取或设置轴箱数underflow
+获取或设置轴bin的underflow
 ### 定义：
 ```python
 @property

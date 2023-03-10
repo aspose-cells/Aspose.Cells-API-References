@@ -1,4 +1,4 @@
-﻿---
+---
 title: odc_file mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  odc_file mülk
 
  Bu bağlantının yapıldığı harici bağlantı dosyasının tam yolunu belirtir.
- Verileri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1,
+ oluşturuldu. Verileri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1,
  ardından elektronik tablo uygulaması, harici bağlantı dosyasındaki bilgileri kullanarak tekrar deneyecektir.
 çalışma kitabına katıştırılmış bağlantı nesnesi yerine.
 ###  Tanım:

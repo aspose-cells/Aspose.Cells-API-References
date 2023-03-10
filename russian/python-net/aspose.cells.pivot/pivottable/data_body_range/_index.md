@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_body_range недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range недвижимость
 
 Возвращает объект CellArea, представляющий диапазон, содержащий область данных.
-в списке между строкой заголовка и строкой вставки.
+в списке между строкой заголовка и строкой вставки. Только для чтения.
 ###  Определение:
 ```python
 @property

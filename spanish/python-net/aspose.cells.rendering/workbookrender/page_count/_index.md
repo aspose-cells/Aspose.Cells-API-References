@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count propiedad
 
-Obtiene el número total de páginas de los libros de trabajo.
+Obtiene el recuento total de páginas del libro.
 ###  Definición:
 ```python
 @property

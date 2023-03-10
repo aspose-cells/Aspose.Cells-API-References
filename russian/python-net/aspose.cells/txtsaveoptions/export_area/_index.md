@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_area недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  Примечания
 
 Если экспортируемая область была указана, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/ru/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-не подействует.
+не вступит в силу.
 ###  Определение:
 ```python
 @property

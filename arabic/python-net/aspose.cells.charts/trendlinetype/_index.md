@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد TrendlineType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,7 +20,7 @@ is_root: false
 | EXPONENTIAL | متسارع|
 | LINEAR | خطي|
 | LOGARITHMIC | لوغاريتمي|
-| MOVING_AVERAGE | المتوسط المتحرك|
+| MOVING_AVERAGE | متوسط الحركة|
 | POLYNOMIAL | متعدد الحدود|
 | POWER | قوة|
 

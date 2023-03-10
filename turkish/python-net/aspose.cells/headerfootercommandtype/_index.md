@@ -1,4 +1,4 @@
-﻿---
+---
 title: HeaderFooterCommandType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ HeaderFooterCommandType türü aşağıdaki üyeleri gösterir:
 | SHEET_NAME | Sayfa adı|
 | FILE_NAME | Yolsuz dosya adı|
 | FILE_PATH | Dosya adı olmayan dosya yolu|
-| PICTURE | resimler|
+| PICTURE | Resim|
 
 
 

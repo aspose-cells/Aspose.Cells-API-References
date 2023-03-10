@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | position | float | Yüzde birimi cinsinden durağın konumu.|
 | color | [CellsColor](/cells/tr/python-net/aspose.cells/cellscolor) | Durağın rengi.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | position | float | Yüzde birimi cinsinden durağın konumu.|
 | color | aspose.pydrawing.Color | Durağın rengi.|

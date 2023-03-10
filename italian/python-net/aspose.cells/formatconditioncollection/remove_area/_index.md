@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo remove_area
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,9 +18,9 @@ def remove_area(self, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| index | int | L'indice dell'intervallo di celle formattato in modo condizionale da rimuovere.|
+| index | int | L'indice dell'intervallo di celle formattato condizionale da rimuovere.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ Rimuovi la formattazione condizionale nell'intervallo.
 
 ###  ritorna
 
-Restituisce TRUE, questo FormatConditionCollection deve essere rimosso.
+Restituisce TRUE, questo FormatCondtionCollection deve essere rimosso.
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| start_row | int | La riga iniziale dell'intervallo.|
-| start_column | int | La colonna iniziale dell'intervallo.|
+| start_row | int | StartRow dell'intervallo.|
+| start_column | int | StartColumn dell'intervallo.|
 | total_rows | int | Il numero di righe dell'intervallo.|
 | total_columns | int | Il numero di colonne dell'intervallo.|
 

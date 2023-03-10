@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_blank_rows proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

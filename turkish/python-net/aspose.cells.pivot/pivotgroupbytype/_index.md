@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotGroupByType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,11 +19,11 @@ PivotGroupByType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | RANGE_OF_VALUES | Türe göre grup değer aralığı sunar.|
 | SECONDS | Saniye grubuna göre tür sunar.|
-| MINUTES | Dakika grubunu türe göre sunar.|
+| MINUTES | Dakikaları gruba göre sunar.|
 | HOURS | Türe göre Saat sunar.|
 | DAYS | Bugünkü Günler grubuna göre tür.|
 | MONTHS | Ayları gruba göre sunar.|
-| QUARTERS | Quarters grubunu türe göre sunar.|
+| QUARTERS | Türe göre Quarters sunar.|
 | YEARS | Türüne göre Yıllar sunar.|
 
 

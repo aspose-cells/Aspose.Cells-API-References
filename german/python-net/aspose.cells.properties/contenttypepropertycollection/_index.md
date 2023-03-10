@@ -1,4 +1,4 @@
-﻿---
+---
 title: ContentTypePropertyCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -36,7 +36,7 @@ Der Typ ContentTypePropertyCollection macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

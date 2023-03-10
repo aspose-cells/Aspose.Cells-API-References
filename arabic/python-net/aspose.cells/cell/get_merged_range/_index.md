@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_merged_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-كائن [Range](/cells/ar/python-net/aspose.cells/range). خالي إذا لم يتم دمج هذه الخلية.
+[Range](/cells/ar/python-net/aspose.cells/range) كائن. خالية إذا لم يتم دمج هذه الخلية.
 
 
 ```python

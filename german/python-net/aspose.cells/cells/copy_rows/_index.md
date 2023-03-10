@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_rows Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ def copy_rows(self, source_cells, source_row_index, destination_row_index, row_n
 | source_cells | [Cells](/cells/de/python-net/aspose.cells/cells) | Quellobjekt Cells enthält zu kopierende Daten und Formate.|
 | source_row_index | int | Quellzeilenindex.|
 | destination_row_index | int | Zielzeilenindex.|
-| row_number | int | Die kopierten Zeilennummern.|
+| row_number | int | Die kopierte Zeilennummer.|
 
 
 ##  copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options) {#Cells-int-int-int-CopyOptions}
@@ -42,7 +42,7 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 | source_cells0 | [Cells](/cells/de/python-net/aspose.cells/cells) | Quellobjekt Cells enthält zu kopierende Daten und Formate.|
 | source_row_index | int | Quellzeilenindex.|
 | destination_row_index | int | Zielzeilenindex.|
-| row_number | int | Die kopierten Zeilennummern.|
+| row_number | int | Die kopierte Zeilennummer.|
 | copy_options | [CopyOptions](/cells/de/python-net/aspose.cells/copyoptions) | Die Kopieroptionen.|
 
 
@@ -62,7 +62,7 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 | source_cells0 | [Cells](/cells/de/python-net/aspose.cells/cells) | Quellobjekt Cells enthält zu kopierende Daten und Formate.|
 | source_row_index | int | Quellzeilenindex.|
 | destination_row_index | int | Zielzeilenindex.|
-| row_number | int | Die kopierten Zeilennummern.|
+| row_number | int | Die kopierte Zeilennummer.|
 | copy_options | [CopyOptions](/cells/de/python-net/aspose.cells/copyoptions) | Die Kopieroptionen.|
 | paste_options | [PasteOptions](/cells/de/python-net/aspose.cells/pasteoptions) | die Möglichkeiten des Einfügens.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightRigType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,16 +24,16 @@ El tipo LightRigType expone los siguientes miembros:
 | FLAT | Departamento|
 | FLOOD | Inundación|
 | FREEZING | Congelación|
-| GLOW | brillo|
+| GLOW | Brillo|
 | HARSH | Duro|
 | LEGACY_FLAT1 | LegacyFlat1|
-| LEGACY_FLAT2 | Legado Flat2|
-| LEGACY_FLAT3 | Piso heredado 3|
-| LEGACY_FLAT4 | Piso heredado 4|
-| LEGACY_HARSH1 | Legado Duro1|
-| LEGACY_HARSH2 | Legado duro2|
-| LEGACY_HARSH3 | Legado Duro3|
-| LEGACY_HARSH4 | Legado duro4|
+| LEGACY_FLAT2 | LegacyFlat2|
+| LEGACY_FLAT3 | LegacyFlat3|
+| LEGACY_FLAT4 | LegacyFlat4|
+| LEGACY_HARSH1 | LegadoHarsh1|
+| LEGACY_HARSH2 | LegadoHarsh2|
+| LEGACY_HARSH3 | LegadoHarsh3|
+| LEGACY_HARSH4 | LegadoHarsh4|
 | LEGACY_NORMAL1 | LegadoNormal1|
 | LEGACY_NORMAL2 | LegadoNormal2|
 | LEGACY_NORMAL3 | LegadoNormal3|

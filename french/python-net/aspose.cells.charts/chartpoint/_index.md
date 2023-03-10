@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPoint classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -40,8 +40,8 @@ Le type ChartPoint expose les membres suivants :
 | [border_width_px](/cells/fr/python-net/aspose.cells.charts/chartpoint/border_width_px) | Obtient la largeur de la bordure en pixels après avoir appelé la méthode Chart.Calculate().|
 | [radius_px](/cells/fr/python-net/aspose.cells.charts/chartpoint/radius_px) | Obtient le rayon d'une bulle, d'un secteur ou d'un beignet en unités de pixels après avoir appelé la méthode Chart.Calculate().|
 | [inner_radius_px](/cells/fr/python-net/aspose.cells.charts/chartpoint/inner_radius_px) | Obtient le rayon intérieur de la tranche de beignet en unités de pixels après avoir appelé la méthode Chart.Calculate().<br/> S'applique au graphique en anneau.|
-| [start_angle](/cells/fr/python-net/aspose.cells.charts/chartpoint/start_angle) | Obtient l'angle de départ de la section du secteur, mesuré en degrés dans le sens des aiguilles d'une montre à partir de l'axe des x après avoir appelé la méthode Chart.Calculate().<br/> S'applique au graphique circulaire.|
-| [end_angle](/cells/fr/python-net/aspose.cells.charts/chartpoint/end_angle) | Obtient l'angle de fin de la section du secteur, mesuré en degrés dans le sens des aiguilles d'une montre à partir de l'axe des x après avoir appelé la méthode Chart.Calculate().<br/> S'applique au graphique circulaire.|
+| [start_angle](/cells/fr/python-net/aspose.cells.charts/chartpoint/start_angle) | Obtient l'angle de départ de la section du secteur, mesuré en degrés dans le sens des aiguilles d'une montre à partir de l'axe des x après avoir appelé la méthode Chart.Calculate().<br/> S'applique au graphique à secteurs.|
+| [end_angle](/cells/fr/python-net/aspose.cells.charts/chartpoint/end_angle) | Obtient l'angle de fin de la section du secteur, mesuré en degrés dans le sens des aiguilles d'une montre à partir de l'axe des x après avoir appelé la méthode Chart.Calculate().<br/> S'applique au graphique à secteurs.|
 | [arc_start_point_x_px](/cells/fr/python-net/aspose.cells.charts/chartpoint/arc_start_point_x_px) | Obtient la coordonnée x du point de départ de la section du secteur après avoir appelé la méthode Chart.Calculate().<br/> S'applique aux graphiques à secteurs et en anneau.|
 | [arc_start_point_y_px](/cells/fr/python-net/aspose.cells.charts/chartpoint/arc_start_point_y_px) |Obtient la coordonnée y du point de départ de la section du secteur après avoir appelé la méthode Chart.Calculate().<br/> S'applique aux graphiques à secteurs et en anneau.|
 | [arc_end_point_x_px](/cells/fr/python-net/aspose.cells.charts/chartpoint/arc_end_point_x_px) | Obtient la coordonnée x du point de fin de la section du secteur après avoir appelé la méthode Chart.Calculate().<br/> S'applique aux graphiques à secteurs et en anneau.|
@@ -61,13 +61,13 @@ Le type ChartPoint expose les membres suivants :
 | [get_bottom_point_count()](/cells/fr/python-net/aspose.cells.charts/chartpoint/get_bottom_point_count/#) | Obtient le nombre de points inférieurs après les appels de la méthode Chart.Calculate().|
 | [get_bottom_point_x_px(index)](/cells/fr/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) | Obtient la coordonnée x du point inférieur de la forme après les appels de la méthode Chart.Calculate().<br/> Applique des graphiques 3D : Column3D, Bar3D, Cone, Cylinder, Pyramid|
 | [get_bottom_point_y_px(index)](/cells/fr/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) | Obtient la coordonnée y du point inférieur de la forme après avoir appelé la méthode Chart.Calculate().<br/> Applique des graphiques 3D : Column3D, Bar3D, Cone, Cylinder, Pyramid|
-| [get_on_category_axis_point_count()](/cells/fr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Obtient le nombre de points sur l'axe des abscisses après avoir appelé la méthode Chart.Calculate(). S'applique uniquement au graphique en aires.|
+| [get_on_category_axis_point_count()](/cells/fr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Obtient le nombre de points sur l'axe des catégories après avoir appelé la méthode Chart.Calculate(). Ne s'applique qu'au graphique en aires.|
 | [get_on_category_axis_point_x_px(index)](/cells/fr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Obtient la coordonnée x du point sur l'axe des catégories après avoir appelé la méthode Chart.Calculate(). S'applique uniquement au graphique en aires.|
 | [get_on_category_axis_point_y_px(index)](/cells/fr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Obtient la coordonnée y du point sur l'axe des catégories après avoir appelé la méthode Chart.Calculate(). S'applique uniquement au graphique en aires.|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

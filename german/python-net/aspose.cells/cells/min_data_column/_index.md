@@ -1,4 +1,4 @@
-﻿---
+---
 title: min_data_column Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

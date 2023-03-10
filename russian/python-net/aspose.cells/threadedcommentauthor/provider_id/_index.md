@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id недвижимость
 
-Получает идентификатор поставщика.
+Получает идентификатор провайдера.
 ###  Определение:
 ```python
 @property

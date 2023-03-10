@@ -1,4 +1,4 @@
-﻿---
+---
 title: force_full_calculation proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  force_full_calculation proprietà
 
-Indica se tutte le formule vengono calcolate ogni volta che viene attivato un calcolo.
+Indica se calcola tutte le formule ogni volta che viene attivato un calcolo.
 
 ###  Osservazioni
 

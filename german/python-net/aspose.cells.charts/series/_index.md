@@ -1,4 +1,4 @@
-﻿---
+---
 title: Series Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,7 +19,7 @@ Der Typ Series macht die folgenden Member verfügbar:
 | :- | :- |
 | [layout_properties](/cells/de/python-net/aspose.cells.charts/series/layout_properties) | Repräsentiert die Eigenschaften des Layouts.|
 | [points](/cells/de/python-net/aspose.cells.charts/series/points) | Ruft die Sammlung von Punkten in einer Reihe in einem Diagramm ab.|
-| [area](/cells/de/python-net/aspose.cells.charts/series/area) | Stellt den Hintergrundbereich von Serienobjekten dar.|
+| [area](/cells/de/python-net/aspose.cells.charts/series/area) | Repräsentiert den Hintergrundbereich des Series-Objekts.|
 | [border](/cells/de/python-net/aspose.cells.charts/series/border) | Stellt den Rand des Series-Objekts dar.|
 | [name](/cells/de/python-net/aspose.cells.charts/series/name) | Ruft den Namen der Datenreihe ab oder legt ihn fest.|
 | [display_name](/cells/de/python-net/aspose.cells.charts/series/display_name) | Ruft den Namen der Reihe ab, der im Diagrammdiagramm angezeigt wird.|
@@ -27,8 +27,8 @@ Der Typ Series macht die folgenden Member verfügbar:
 | [is_vertical_values](/cells/de/python-net/aspose.cells.charts/series/is_vertical_values) | Gibt an, ob die Datenquelle vertikal ist.|
 | [values](/cells/de/python-net/aspose.cells.charts/series/values) | Stellt die Daten der Diagrammreihe dar.|
 | [values_format_code](/cells/de/python-net/aspose.cells.charts/series/values_format_code) | Stellt den Formatcode der NumberList von Values dar.|
-| [x_values](/cells/de/python-net/aspose.cells.charts/series/x_values) | Stellt die x-Werte der Diagrammreihe dar.|
-| [bubble_sizes](/cells/de/python-net/aspose.cells.charts/series/bubble_sizes) | Ruft die Blasengrößenwerte der Diagrammreihe ab oder legt sie fest.|
+| [x_values](/cells/de/python-net/aspose.cells.charts/series/x_values) | Repräsentiert die x-Werte der Diagrammreihe.|
+| [bubble_sizes](/cells/de/python-net/aspose.cells.charts/series/bubble_sizes) | Ruft die Blasengrößenwerte der Diagrammreihe ab oder legt diese fest.|
 | [trend_lines](/cells/de/python-net/aspose.cells.charts/series/trend_lines) | Gibt ein Objekt zurück, das eine Sammlung aller Trendlinien für die Serie darstellt.|
 | [smooth](/cells/de/python-net/aspose.cells.charts/series/smooth) | Stellt die Kurvenglättung dar.<br/>True, wenn die Kurvenglättung für das Linien- oder Punktdiagramm aktiviert ist.<br/> Gilt nur für Linien- und Streudiagramme, die durch Liniendiagramme verbunden sind.|
 | [shadow](/cells/de/python-net/aspose.cells.charts/series/shadow) | True, wenn die Serie einen Schatten hat.|
@@ -52,7 +52,7 @@ Der Typ Series macht die folgenden Member verfügbar:
 | [down_bars](/cells/de/python-net/aspose.cells.charts/series/down_bars) | Gibt ein [DropBars](/cells/de/python-net/aspose.cells.charts/dropbars)-Objekt zurück, das die Abwärtsbalken in einem Liniendiagramm darstellt.<br/> Gilt nur für Liniendiagramme.|
 | [is_color_varied](/cells/de/python-net/aspose.cells.charts/series/is_color_varied) | Stellt dar, ob die Farbe der Punkte variiert wird.<br/> Das Diagramm darf nur eine Reihe enthalten.|
 | [gap_width](/cells/de/python-net/aspose.cells.charts/series/gap_width) | Gibt den Abstand zwischen Balken- oder Spaltenclustern als Prozentsatz der Balken- oder Spaltenbreite zurück oder legt ihn fest.<br/>Der Wert dieser Eigenschaft muss zwischen 0 und 500 liegen.|
-| [first_slice_angle](/cells/de/python-net/aspose.cells.charts/series/first_slice_angle) | Ruft den Winkel des ersten Segments des Kreisdiagramms oder Ringdiagramms in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest.<br/> Gilt nur für Kreis-, 3D-Kreis- und Ringdiagramme, 0 bis 360.|
+| [first_slice_angle](/cells/de/python-net/aspose.cells.charts/series/first_slice_angle) | Ruft den Winkel des ersten Tortendiagramm- oder Doughnut-Diagrammsegments in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest.<br/> Gilt nur für Kreis-, 3D-Kreis- und Ringdiagramme, 0 bis 360.|
 | [overlap](/cells/de/python-net/aspose.cells.charts/series/overlap) | Gibt an, wie Balken und Säulen positioniert werden.<br/> Kann ein Wert zwischen – 100 und 100 sein.<br/> Gilt nur für 2D-Balken- und 2D-Säulendiagramme.|
 | [second_plot_size](/cells/de/python-net/aspose.cells.charts/series/second_plot_size) | Gibt die Größe des sekundären Abschnitts eines Torten- oder Tortendiagramms oder eines Balken- oder Tortendiagramms zurück oder legt sie fest.<br/>als Prozentsatz der Größe des primären Kuchens.<br/> Kann ein Wert zwischen 5 und 200 sein.|
 | [split_type](/cells/de/python-net/aspose.cells.charts/series/split_type) |Gibt einen Wert zurück oder legt einen Wert fest, der bestimmt, welche Datenpunkte sich im zweiten Kreis oder Balken auf einem Kreis aus Kreis oder Balken befinden<br/> Kuchendiagramm.|
@@ -60,12 +60,12 @@ Der Typ Series macht die folgenden Member verfügbar:
 | [is_auto_split](/cells/de/python-net/aspose.cells.charts/series/is_auto_split) | Gibt an, ob der Schwellenwert automatisch ist.|
 | [bubble_scale](/cells/de/python-net/aspose.cells.charts/series/bubble_scale) | Ruft den Skalierungsfaktor für Blasen in der angegebenen Diagrammgruppe ab oder legt diesen fest.<br/> Es kann ein ganzzahliger Wert von 0 (Null) bis 300 sein,<br/>entsprechend einem Prozentsatz der Standardgröße.<br/> Gilt nur für Blasendiagramme.|
 | [size_represents](/cells/de/python-net/aspose.cells.charts/series/size_represents) | Ruft ab oder legt fest, was die Blasengröße in einem Blasendiagramm darstellt.|
-| [show_negative_bubbles](/cells/de/python-net/aspose.cells.charts/series/show_negative_bubbles) | True, wenn für die Diagrammgruppe negative Blasen angezeigt werden. Nur für Blasendiagramme gültig.|
+| [show_negative_bubbles](/cells/de/python-net/aspose.cells.charts/series/show_negative_bubbles) | True, wenn negative Blasen für die Diagrammgruppe angezeigt werden. Gilt nur für Blasendiagramme.|
 | [doughnut_hole_size](/cells/de/python-net/aspose.cells.charts/series/doughnut_hole_size) | Gibt die Größe des Lochs in einer Ringdiagrammgruppe zurück oder legt sie fest.<br/> Die Lochgröße wird als Prozentsatz der Diagrammgröße zwischen 10 und 90 Prozent ausgedrückt.|
 | [explosion](/cells/de/python-net/aspose.cells.charts/series/explosion) | Der Abstand eines offenen Tortenstücks von der Mitte des Tortendiagramms wird als Prozentsatz des Tortendurchmessers ausgedrückt.|
-| [has_radar_axis_labels](/cells/de/python-net/aspose.cells.charts/series/has_radar_axis_labels) | True, wenn ein Netzdiagramm über Kategorieachsenbeschriftungen verfügt.|
+| [has_radar_axis_labels](/cells/de/python-net/aspose.cells.charts/series/has_radar_axis_labels) | True, wenn ein Netzdiagramm über Kategorieachsenbeschriftungen verfügt. Gilt nur für Netzkarten.|
 | [has_leader_lines](/cells/de/python-net/aspose.cells.charts/series/has_leader_lines) | True, wenn die Reihe Führungslinien hat.|
-| [leader_lines](/cells/de/python-net/aspose.cells.charts/series/leader_lines) | Stellt Führungslinien in einem Diagramm dar. Führungslinien verbinden Datenbeschriftungen mit Datenpunkten.<br/>Dieses Objekt ist keine Sammlung; es gibt kein Objekt, das eine einzelne Führungslinie darstellt.|
+| [leader_lines](/cells/de/python-net/aspose.cells.charts/series/leader_lines) | Stellt Führungslinien in einem Diagramm dar. Führungslinien verbinden Datenbeschriftungen mit Datenpunkten.<br/>Dieses Objekt ist keine Sammlung; Es gibt kein Objekt, das eine einzelne Führungslinie darstellt.|
 | [legend_entry](/cells/de/python-net/aspose.cells.charts/series/legend_entry) | Ruft den Legendeneintrag gemäß dieser Reihe ab.|
 | [shape_properties](/cells/de/python-net/aspose.cells.charts/series/shape_properties) | Ruft das [ShapePropertyCollection](/cells/de/python-net/aspose.cells.drawing/shapepropertycollection)-Objekt ab, das die visuellen Formeigenschaften der Serie enthält.|
 
@@ -77,7 +77,7 @@ Der Typ Series macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

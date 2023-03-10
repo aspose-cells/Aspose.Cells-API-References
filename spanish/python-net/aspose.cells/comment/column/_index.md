@@ -1,4 +1,4 @@
-﻿---
+---
 title: column propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene el índice column del comentario.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

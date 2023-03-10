@@ -1,4 +1,4 @@
-﻿---
+---
 title: marker_size Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size Eigentum
 
-Stellt die Markierungsgröße in Punkteinheiten dar. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
+Repräsentiert die Markergröße in Punkteinheiten. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
 ###  Definition:
 ```python
 @property

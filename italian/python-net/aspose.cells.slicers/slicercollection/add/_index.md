@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | dest_cell_name | str | La cella nell'angolo in alto a sinistra dell'intervallo Slicer.|
 | base_field_name | str | Il nome di PivotField in PivotTable.BaseFields|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -52,13 +52,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | dest_cell_name | str | La cella nell'angolo in alto a sinistra dell'intervallo Slicer.|
 | base_field_index | int | L'indice di PivotField in PivotTable.BaseFields|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -82,13 +82,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | dest_cell_name | str | La cella nell'angolo in alto a sinistra dell'intervallo Slicer.|
 | base_field | aspose.cells.pivot.PivotField | Il campo pivot in PivotTable.BaseFields|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -112,13 +112,13 @@ def add(self, table, index, dest_cell_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | Oggetto ListObject|
 | index | int | L'indice di ListColumn in ListObject.ListColumns|
 | dest_cell_name | str | La cella nell'angolo in alto a sinistra dell'intervallo Slicer.|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -142,13 +142,13 @@ def add(self, table, list_column, dest_cell_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | Oggetto ListObject|
 | list_column | aspose.cells.tables.ListColumn | ListColumn in ListObject.ListColumns|
 | dest_cell_name | str | La cella nell'angolo in alto a sinistra dell'intervallo Slicer.|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -172,14 +172,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | row | int | Indice di riga della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 | column | int | Indice di colonna della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 | base_field_name | str | Il nome di PivotField in PivotTable.BaseFields|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -203,14 +203,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | row | int | Indice di riga della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 | column | int | Indice di colonna della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 | base_field_index | int | L'indice di PivotField in PivotTable.BaseFields|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -234,14 +234,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Oggetto tabella pivot|
 | row | int | Indice di riga della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 | column | int | Indice di colonna della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 | base_field | aspose.cells.pivot.PivotField | Il campo pivot in PivotTable.BaseFields|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -265,14 +265,14 @@ def add(self, table, list_column, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | Oggetto ListObject|
 | list_column | aspose.cells.tables.ListColumn | ListColumn in ListObject.ListColumns|
 | row | int | Indice di riga della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 | column | int | Indice di colonna della cella nell'angolo superiore sinistro dell'intervallo Slicer.|
 
-###  Esempi
+###  Esempio
 
 ```python
 

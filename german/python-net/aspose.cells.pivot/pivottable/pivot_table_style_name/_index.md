@@ -1,4 +1,4 @@
-﻿---
+---
 title: pivot_table_style_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

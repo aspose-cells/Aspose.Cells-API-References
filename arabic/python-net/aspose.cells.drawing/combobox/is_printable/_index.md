@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_printable الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 صحيح إذا كان الكائن قابل للطباعة
 
-###  أمثلة
+###  مثال
 
 ```python
 

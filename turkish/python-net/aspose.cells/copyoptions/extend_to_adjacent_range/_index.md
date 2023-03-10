@@ -1,4 +1,4 @@
-﻿---
+---
 title: extend_to_adjacent_range mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

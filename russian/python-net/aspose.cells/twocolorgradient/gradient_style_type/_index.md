@@ -1,4 +1,4 @@
-﻿---
+---
 title: gradient_style_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

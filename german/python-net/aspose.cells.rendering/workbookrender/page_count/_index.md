@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count Eigentum
 
-Ruft die Gesamtseitenanzahl von Arbeitsmappen ab.
+Ruft die Gesamtseitenzahl der Arbeitsmappe ab.
 ###  Definition:
 ```python
 @property

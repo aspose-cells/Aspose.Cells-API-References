@@ -1,4 +1,4 @@
-﻿---
+---
 title: sign método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,9 +18,9 @@ def sign(self, digital_signature):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| digital_signature | aspose.cells.digitalsignatures.DigitalSignature | firma digital|
+| digital_signature | aspose.cells.digitalsignatures.DigitalSignature | Firma digital|
 
 
 

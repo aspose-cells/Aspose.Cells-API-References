@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_document_structure недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

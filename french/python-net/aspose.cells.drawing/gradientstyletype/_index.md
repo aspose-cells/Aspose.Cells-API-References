@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientStyleType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,7 +23,7 @@ Le type GradientStyleType expose les membres suivants :
 | FROM_CORNER | Du style d'ombrage d'angle|
 | HORIZONTAL | Style d'ombrage horizontal|
 | VERTICAL | Style d'ombrage vertical|
-| UNKNOWN |Style d'ombrage inconnu. Uniquement pour le style d'ombrage (qui n'appartient à aucun membre de GradientStyleType) dans le fichier de modèle.|
+| UNKNOWN |Style d'ombrage inconnu.Uniquement pour le style d'ombrage (qui n'est pour aucun membre du GradientStyleType) dans le fichier de modèle.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة select_by_id
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def select_by_id(self, id):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | id | str | يحتوي على GUID لجزء XML المخصص.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_inside_borders
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_inside_borders(self, border_edge, line_style, border_color):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/ar/python-net/aspose.cells/bordertype) | داخل نوع بورد ، يمكن أن يكون فقط [BorderType.VERTICAL](/cells/ar/python-net/aspose.cells/bordertype#VERTICAL) و [BorderType.HORIZONTAL](/cells/ar/python-net/aspose.cells/bordertype#HORIZONTAL).|
 | line_style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | نمط الحدود.|

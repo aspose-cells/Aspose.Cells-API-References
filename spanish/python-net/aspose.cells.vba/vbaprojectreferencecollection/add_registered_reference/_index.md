@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_registered_reference método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add_registered_reference(self, name, libid):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de referencia.|
 | libid | str | El identificador de una biblioteca de tipos de automatización.|

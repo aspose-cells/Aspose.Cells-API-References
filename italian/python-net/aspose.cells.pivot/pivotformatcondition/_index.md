@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PivotFormatCondition
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ Il tipo PivotFormatCondition espone i membri seguenti:
 | :- | :- |
 | [scope_type](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | Ottenere e impostare il tipo di ambito per il formato della condizione della tabella pivot.|
 | [rule_type](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | Ottieni e imposta il tipo di regola per il formato della condizione della tabella pivot.|
-| [format_conditions](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Ottieni condizioni di formato per il formato della condizione della tabella pivot .|
+| [format_conditions](/cells/it/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Ottieni formatconditions per la condizione della tabella pivot format .|
 
 
 ###  Metodi
@@ -35,7 +35,7 @@ Il tipo PivotFormatCondition espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

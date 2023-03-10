@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_drill الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_drill الملكية
 
-الحصول على ما إذا كانت أزرار التوسيع / الطي معروضة أم لا.
+الحصول على ما إذا كان سيتم عرض أزرار التوسيع / الطي.
 ###  تعريف:
 ```python
 @property

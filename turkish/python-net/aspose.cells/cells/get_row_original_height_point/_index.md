@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_row_original_height_point yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_row_original_height_point(self, row):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 

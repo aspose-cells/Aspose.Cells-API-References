@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_ruler_visible propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible propriété
 
-Indique si la règle est visible.
+Indique si la règle est visible. Cette propriété s'applique uniquement à l'aperçu des sauts de page.
 ###  Définition:
 ```python
 @property

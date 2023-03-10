@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_local_function_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-اسم وظيفة تعتمد على الإعدادات المحلية.
+اسم وظيفة تعتمد على الإعدادات المحلية. تم تحديد الإعدادات المحلية بواسطة المصنف الذي يتم استخدام هذه الإعدادات من أجله.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_local_function_name(self, standard_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | standard_name | str | اسم الوظيفة القياسي (اللغة المحلية في الولايات المتحدة).|
 

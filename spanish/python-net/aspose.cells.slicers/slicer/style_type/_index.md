@@ -1,4 +1,4 @@
-﻿---
+---
 title: style_type propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -12,7 +12,7 @@ is_root: false
 Especifique el tipo de estilo de segmentación incorporado
 el tipo predeterminado es SlicerStyleLight1
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

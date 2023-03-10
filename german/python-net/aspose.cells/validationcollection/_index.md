@@ -1,4 +1,4 @@
-﻿---
+---
 title: ValidationCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/validationcollection/
 is_root: false
 ---
 ##  ValidationCollection Klasse
-Stellt Datenvalidierungssammlungen dar.
+Stellt die Datenvalidierungssammlung dar.
 
 
 
@@ -34,12 +34,12 @@ Der Typ ValidationCollection macht die folgenden Member verfügbar:
 | [last_index_of(item, index, count)](/cells/de/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int-int) |Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der die angegebene Anzahl von Elementen enthält und am angegebenen Index endet.|
 | [remove_a_cell(row, column)](/cells/de/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | Entfernt alle Validierungseinstellungen für die Zelle.|
 | [remove_area(ca)](/cells/de/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | Entfernt alle Validierungseinstellungen für den Bereich.|
-| [get_validation_in_cell(row, column)](/cells/de/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Ruft die auf eine bestimmte Zelle angewendete Validierung ab.|
+| [get_validation_in_cell(row, column)](/cells/de/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Ruft die auf die angegebene Zelle angewendete Validierung ab.|
 | [binary_search(item)](/cells/de/python-net/aspose.cells/validationcollection/binary_search/#Validation) | Durchsucht die gesamte sortierte Array-Liste mithilfe des Standardvergleichs nach einem Element und gibt den nullbasierten Index des Elements zurück.|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellArea, ValidationType, Workbook

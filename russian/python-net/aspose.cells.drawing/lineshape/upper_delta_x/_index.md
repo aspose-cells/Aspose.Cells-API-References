@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_x недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Диапазон значений от 0 до 1024.
 
-###  Примеры
+###  Пример
 
 ```python
 

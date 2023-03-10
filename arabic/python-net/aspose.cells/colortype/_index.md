@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ColorType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/colortype/
 is_root: false
 ---
 ##  العد ColorType
-يمثل جميع أنواع الألوان
+يمثل كل أنواع الألوان
 
 
 
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | AUTOMATIC | لون تلقائي.|
-| AUTOMATIC_INDEX | إنه لون تلقائي ، لكن اللون المعروض يعتمد على إعداد نظام التشغيل.|
+| AUTOMATIC_INDEX | إنه لون تلقائي ، لكن اللون المعروض يعتمد على إعداد نظام OS.|
 | RGB | لون RGB.|
 | INDEXED_COLOR | مؤشر اللون في لوحة الألوان.|
 | THEME | لون الموضوع.|

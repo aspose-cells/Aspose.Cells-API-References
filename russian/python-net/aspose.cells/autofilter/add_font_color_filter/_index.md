@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_font_color_filter метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def add_font_color_filter(self, field_index, color):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | Целочисленное смещение поля, на котором вы хотите основывать фильтр.<br/> (слева в списке; крайнее левое поле — поле 0).|
 | color | [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor) | Объект [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor).|

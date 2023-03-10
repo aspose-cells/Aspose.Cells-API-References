@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_theme_color метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_theme_color(self, type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/ru/python-net/aspose.cells/themecolortype) | Цветовой тип темы.|
 

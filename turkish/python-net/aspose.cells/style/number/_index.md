@@ -1,4 +1,4 @@
-﻿---
+---
 title: number mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  number mülk
 
-Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar.
+Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar. Biçimlendirme modelleri farklı bölgeler için farklıdır.
 
 ###  Notlar
 
-Örneğin, en_US bölgesi için sayılarla temsil edilen biçimlendirme kalıpları:
+Örneğin, en_US bölgesi için sayılarla gösterilen biçimlendirme kalıpları:
 | Değer| Tip| Dizeyi Biçimlendir|
 | :- | :- | :- |
 | 0| Genel|
@@ -30,10 +30,10 @@ Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar.
 | 11| İlmi|
 | 12| kesir|
 | 13| kesir|
-| 14| tarih|
-| 15| tarih|
-| 16| tarih|
-| 17| tarih|
+| 14| Tarih|
+| 15| Tarih|
+| 16| Tarih|
+| 17| Tarih|
 | 18| Zaman|
 | 19| Zaman|
 | 20| Zaman|

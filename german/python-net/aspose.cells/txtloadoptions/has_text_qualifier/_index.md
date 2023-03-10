@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_text_qualifier Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_text_qualifier Eigentum
 
-Gibt an, ob ein Textqualifizierer für den Zellenwert vorhanden ist. Der Standardwert ist „true“.
+Ob es einen Textqualifizierer für den Zellenwert gibt. Standard ist wahr.
 ###  Definition:
 ```python
 @property

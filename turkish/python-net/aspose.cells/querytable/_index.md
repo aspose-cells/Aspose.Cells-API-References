@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryTable sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,13 +20,13 @@ QueryTable türü aşağıdaki üyeleri gösterir:
 | [connection_id](/cells/tr/python-net/aspose.cells/querytable/connection_id) |Sorgu tablosunun bağlantı kimliğini alır.|
 | [external_connection](/cells/tr/python-net/aspose.cells/querytable/external_connection) | İlgili dış bağlantıyı alır.|
 | [name](/cells/tr/python-net/aspose.cells/querytable/name) | Querytable'ın adını alır.|
-| [result_range](/cells/tr/python-net/aspose.cells/querytable/result_range) | Sonuçların aralığını alır.|
+| [result_range](/cells/tr/python-net/aspose.cells/querytable/result_range) | Sonucun aralığını alır.|
 | [preserve_formatting](/cells/tr/python-net/aspose.cells/querytable/preserve_formatting) | Nesnenin PreserveFormatting'ini döndürür veya ayarlar.|
 | [adjust_column_width](/cells/tr/python-net/aspose.cells/querytable/adjust_column_width) | Nesnenin AdjustColumnWidth değerini döndürür veya ayarlar.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing.activexcontrols/controltype/
 is_root: false
 ---
 ##  ControlType numaralandırma
-Tüm ActiveX denetim türlerini temsil eder.
+Her türlü ActiveX denetimini temsil eder.
 
 
 
@@ -17,14 +17,14 @@ ControlType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| COMMAND_BUTTON | düğme|
+| COMMAND_BUTTON | Düğme|
 | COMBO_BOX | Açılan kutu|
-| CHECK_BOX | onay kutusu|
+| CHECK_BOX | Onay Kutusu|
 | LIST_BOX | Liste kutusu|
 | TEXT_BOX | Metin kutusu|
 | SPIN_BUTTON | Döndürücü|
-| RADIO_BUTTON | radyo düğmeleri|
-| LABEL | etiket|
+| RADIO_BUTTON | Radyo düğmesi|
+| LABEL | Etiket|
 | IMAGE | resim|
 | TOGGLE_BUTTON | Geçiş Düğmesi|
 | SCROLL_BAR | Kaydırma çubuğu|

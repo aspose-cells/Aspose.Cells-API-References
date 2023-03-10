@@ -1,4 +1,4 @@
-﻿---
+---
 title: save yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | Dosya adı.|
 
@@ -34,7 +34,7 @@ def save(self, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Akış.|
 

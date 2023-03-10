@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_table_style_first_column proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

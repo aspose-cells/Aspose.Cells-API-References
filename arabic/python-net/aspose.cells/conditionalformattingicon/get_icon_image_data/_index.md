@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_icon_image_data
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_icon_image_data(self, type, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [IconSetType](/cells/ar/python-net/aspose.cells/iconsettype) | نوع الرمز|
 | index | int | فهرس الأيقونة|

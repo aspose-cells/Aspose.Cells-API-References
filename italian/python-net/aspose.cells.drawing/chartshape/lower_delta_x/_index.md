@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_delta_x proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Ottiene o imposta l'offset orizzontale della forma rispetto alla colonna nell'an
 
 L'intervallo di valori va da 0 a 1024.
 
-###  Esempi
+###  Esempio
 
 ```python
 

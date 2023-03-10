@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trendline klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -51,8 +51,8 @@ Typen Trendline avslöjar följande medlemmar:
 | [period](/cells/sv/python-net/aspose.cells.charts/trendline/period) | Returnerar eller ställer in perioden för trendlinjen för glidande medelvärde.|
 | [forward](/cells/sv/python-net/aspose.cells.charts/trendline/forward) | Returnerar eller ställer in antalet perioder (eller enheter på ett punktdiagram) som trendlinjen sträcker sig framåt.<br/> Antalet perioder måste vara större än eller lika med noll.|
 | [backward](/cells/sv/python-net/aspose.cells.charts/trendline/backward) | Returnerar eller ställer in antalet perioder (eller enheter på ett punktdiagram) som trendlinjen sträcker sig bakåt.<br/>Antalet perioder måste vara större än eller lika med noll.<br/> Om diagramtypen är kolumn måste antalet perioder vara mellan 0 och 0,5|
-| [display_equation](/cells/sv/python-net/aspose.cells.charts/trendline/display_equation) |Representerar om ekvationen för trendlinjen visas i diagrammet (i samma dataetikett som R-kvadratvärdet).|
-| [display_r_squared](/cells/sv/python-net/aspose.cells.charts/trendline/display_r_squared) | Representerar om trendlinjens R-kvadratvärde visas i diagrammet (i samma dataetikett som ekvationen). Om du ställer in den här egenskapen på True aktiveras dataetiketter automatiskt.|
+| [display_equation](/cells/sv/python-net/aspose.cells.charts/trendline/display_equation) |Representerar om ekvationen för trendlinjen visas i diagrammet (i samma dataetikett som R-kvadratvärdet). Om du ställer in den här egenskapen till True aktiveras dataetiketter automatiskt.|
+| [display_r_squared](/cells/sv/python-net/aspose.cells.charts/trendline/display_r_squared) | Representerar om trendlinjens R-kvadratvärde visas i diagrammet (i samma dataetikett som ekvationen). Om du ställer in den här egenskapen till True aktiveras dataetiketter automatiskt.|
 | [intercept](/cells/sv/python-net/aspose.cells.charts/trendline/intercept) | Returnerar eller ställer in punkten där trendlinjen korsar värdeaxeln.|
 | [data_labels](/cells/sv/python-net/aspose.cells.charts/trendline/data_labels) | Representerar DataLabels-objektet för den angivna serien.|
 | [legend_entry](/cells/sv/python-net/aspose.cells.charts/trendline/legend_entry) | Får legendposten enligt denna trendlinje|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add(self, tab_alignment, tab_position):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | tab_alignment | [TextTabAlignmentType](/cells/it/python-net/aspose.cells.drawing.texts/texttabalignmenttype) |  |
 | tab_position | float |  |

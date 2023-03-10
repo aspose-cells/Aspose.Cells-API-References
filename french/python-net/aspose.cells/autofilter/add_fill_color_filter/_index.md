@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_fill_color_filter méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def add_fill_color_filter(self, field_index, pattern, foreground_color, backgrou
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | field_index | int | Le décalage entier du champ sur lequel vous souhaitez baser le filtre<br/> (à partir de la gauche de la liste ; le champ le plus à gauche est le champ 0).|
 | pattern | [BackgroundType](/cells/fr/python-net/aspose.cells/backgroundtype) | Le type de motif d'arrière-plan.|

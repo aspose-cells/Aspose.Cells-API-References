@@ -1,4 +1,4 @@
-﻿---
+---
 title: move_to método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def move_to(self, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | Índice de hojas de destino.|
 

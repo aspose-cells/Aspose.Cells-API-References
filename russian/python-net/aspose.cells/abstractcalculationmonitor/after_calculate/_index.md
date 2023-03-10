@@ -1,4 +1,4 @@
-﻿---
+---
 title: after_calculate метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def after_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | sheet_index | int | Индекс листа, которому принадлежит ячейка.|
 | row_index | int | Индекс строки ячейки|

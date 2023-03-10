@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_height_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_height_inch الملكية
 
-ارتفاع النافذة بوحدات البوصة.
+ارتفاع النافذة بوحدة البوصة.
 ###  تعريف:
 ```python
 @property

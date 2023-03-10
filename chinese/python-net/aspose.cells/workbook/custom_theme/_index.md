@@ -1,6 +1,6 @@
-﻿---
+---
 title: custom_theme方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 130
@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | theme_name | str |主题名称|
 | colors | aspose.pydrawing.Color[] |主题色|

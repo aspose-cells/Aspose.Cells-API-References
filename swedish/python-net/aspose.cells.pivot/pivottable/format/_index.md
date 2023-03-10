@@ -1,4 +1,4 @@
-﻿---
+---
 title: format metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.pivot/pivottable/format/
 is_root: false
 ---
 ##  format(row, column, style) {#int-int-Style}
-Formatera cellen i pivottabellområdet
+Formatera cellen i det vridbara området
 
 
 
@@ -18,7 +18,7 @@ def format(self, row, column, style):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex för cellen|
 | column | int | Kolumnindex för cellen|

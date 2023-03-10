@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Font
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -44,7 +44,7 @@ Il tipo Font espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

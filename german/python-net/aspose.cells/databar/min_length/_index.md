@@ -1,4 +1,4 @@
-﻿---
+---
 title: min_length Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  min_length Eigentum
 
-Repräsentiert die Mindestlänge des Datenbalkens.
+Repräsentiert die Mindestlänge des Datenbalkens .
 ###  Definition:
 ```python
 @property

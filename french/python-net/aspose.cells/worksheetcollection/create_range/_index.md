@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def create_range(self, address, sheet_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | address | str | L'adresse de la plage.|
 | sheet_index | int | L'index de la feuille.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: days_preserving_history الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

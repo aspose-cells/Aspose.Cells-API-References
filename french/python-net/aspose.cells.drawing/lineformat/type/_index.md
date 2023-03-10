@@ -1,4 +1,4 @@
-﻿---
+---
 title: type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient et définit le remplissage type.
 
 ###  Remarques
 
- REMARQUE : ce membre est désormais obsolète.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
 veuillez utiliser la propriété FillFormat.FillType à la place.
  Cette propriété sera supprimée 12 mois plus tard depuis juillet 2016.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

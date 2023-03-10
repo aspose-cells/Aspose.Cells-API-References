@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد FontSourceType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | FONT_FILE | يمثل ملف خط واحد.|
-| FONTS_FOLDER | يمثل المجلدات مع ملفات الخط.|
+| FONTS_FOLDER | يمثل المجلد مع ملفات الخط.|
 | MEMORY_FONT | يمثل خطًا واحدًا في الذاكرة.|
 
 

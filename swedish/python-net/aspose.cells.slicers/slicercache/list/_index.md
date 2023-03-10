@@ -1,4 +1,4 @@
-﻿---
+---
 title: list fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list fastighet
 
-Returnerar om slicern är associerad med den angivna slicer-cachen är baserad på en icke-OLAP-datakälla.
+Returnerar om utsnittet som är kopplat till den angivna utsnittscachen är baserad på en icke-OLAP-datakälla. Skrivskyddad
 
 ###  Exempel
 

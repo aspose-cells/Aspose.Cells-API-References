@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_up_down_bars الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

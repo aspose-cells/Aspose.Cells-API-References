@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_line недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает видимую границу линии фигуры.
 
-###  Примеры
+###  Пример
 
 ```python
 

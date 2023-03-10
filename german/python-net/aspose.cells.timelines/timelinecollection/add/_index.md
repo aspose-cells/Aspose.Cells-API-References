@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -28,7 +28,7 @@ def add(self, pivot, dest_cell_name, base_field_name):
 | dest_cell_name | str | Der Zellenname in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_name | str | Der Name von PivotField in PivotTable.BaseFields|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -59,7 +59,7 @@ def add(self, pivot, dest_cell_name, base_field_index):
 | dest_cell_name | str | Der Zellenname in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_index | int | Der Index von PivotField in PivotTable.BaseFields|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -90,7 +90,7 @@ def add(self, pivot, dest_cell_name, base_field):
 | dest_cell_name | str | Der Zellenname in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field | aspose.cells.pivot.PivotField | Das PivotField in PivotTable.BaseFields|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -122,7 +122,7 @@ def add(self, pivot, row, column, base_field_name):
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_name | str | Der Name von PivotField in PivotTable.BaseFields|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -154,7 +154,7 @@ def add(self, pivot, row, column, base_field_index):
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field_index | int | Der Index von PivotField in PivotTable.BaseFields|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -186,7 +186,7 @@ def add(self, pivot, row, column, base_field):
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Timeline-Bereichs.|
 | base_field | aspose.cells.pivot.PivotField | Das PivotField in PivotTable.BaseFields|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

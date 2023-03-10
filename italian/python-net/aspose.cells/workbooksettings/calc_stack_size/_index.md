@@ -1,4 +1,4 @@
-﻿---
+---
 title: calc_stack_size proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -16,7 +16,7 @@ Se l'utente ottiene StackOverflowException durante il calcolo delle formule, que
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto.
+NOTA: questo membro è ora obsoleto. Utilizzare invece CalculationOptions
 con il CalcStackSize specificato durante il calcolo delle formule.
  Questa proprietà verrà rimossa 12 mesi dopo da febbraio 2022.
 Aspose si scusa per gli eventuali disagi causati.

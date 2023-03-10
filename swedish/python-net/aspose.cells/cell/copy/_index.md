@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def copy(self, cell):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Källa [Cell](/cells/sv/python-net/aspose.cells/cell) objekt.|
 

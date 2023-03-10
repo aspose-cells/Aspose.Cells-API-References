@@ -1,4 +1,4 @@
-﻿---
+---
 title: verify_password yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def verify_password(self, password):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | password | str | Şifre.|
 

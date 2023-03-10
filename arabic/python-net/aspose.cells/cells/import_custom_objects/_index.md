@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة import_custom_objects
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,10 +22,10 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | list | list | الكائن المخصص|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 | options | [ImportTableOptions](/cells/ar/python-net/aspose.cells/importtableoptions) | خيارات الاستيراد.|
 ###  ملاحظات
@@ -48,12 +48,12 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | list | list | الكائن المخصص|
-| property_names | list | أسماء الخصائص. إذا كانت خالية ، فسنقوم باستيراد جميع خصائص الكائن.|
+| property_names | list | أسماء الخصائص ، إذا كانت خالية ، فسنقوم باستيراد جميع خصائص الكائن.|
 | is_property_name_shown | bool | يشير إلى ما إذا كان سيتم استيراد اسم الخاصية إلى الصف الأول.|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 | row_number | int | عدد الصفوف المراد استيرادها.|
 | insert_rows | bool | يشير إلى ما إذا كانت الصفوف الإضافية ستتم إضافتها لملاءمة البيانات.|

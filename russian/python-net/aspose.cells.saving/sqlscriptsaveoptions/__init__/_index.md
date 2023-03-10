@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlScriptSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/
 is_root: false
 ---
 ##  SqlScriptSaveOptions() {#}
-Создает параметры для сохранения файлов sql.
+Создает параметры для сохранения файла sql.
 
 
 

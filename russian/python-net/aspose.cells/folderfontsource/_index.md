@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/ru/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Директор.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/ru/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Стор.|
 
 
 ###  Характеристики

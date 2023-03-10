@@ -1,4 +1,4 @@
-﻿---
+---
 title: encoding Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding Eigentum
 
-Ruft den Standardwert encoding ab und legt ihn fest. Gilt nur für CSV-Dateien.
+Ruft den Standardwert encoding ab und legt ihn fest. Gilt nur für CSV-Datei.
 ###  Definition:
 ```python
 @property

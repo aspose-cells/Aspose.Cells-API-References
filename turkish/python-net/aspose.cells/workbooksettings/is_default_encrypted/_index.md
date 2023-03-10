@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_default_encrypted mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Notlar
 
-Varsayılan değer artık false, MS Excel 2013 ile aynı.
+Varsayılan değer artık yanlıştır. MS Excel 2013 ile aynıdır.
 ###  Tanım:
 ```python
 @property

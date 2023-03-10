@@ -1,4 +1,4 @@
-﻿---
+---
 title: MirrorType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ MirrorType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | NONE | Hiçbiri|
-| HORIZONAL | Yatay|
+| HORIZONAL | yatay|
 | VERTICAL | Dikey|
 | BOTH | İkisi birden|
 

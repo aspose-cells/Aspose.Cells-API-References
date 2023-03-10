@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_named_style metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get_named_style(self, name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | stilens namn|
 

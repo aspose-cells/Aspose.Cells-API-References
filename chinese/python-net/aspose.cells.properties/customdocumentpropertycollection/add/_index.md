@@ -1,6 +1,6 @@
-﻿---
+---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add
 is_root: false
 ---
 ##  add(name, value) {#str-str}
-创建一个新的自定义文档属性**PropertyType.String**数据类型。
+创建一个新的自定义文档属性**属性类型.String**数据类型。
 
 
 ### 返回
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |属性的名称。|
 | value | str |属性的价值。|
@@ -43,14 +43,14 @@ def add(self, name, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |属性的名称。|
 | value | int |属性的价值。|
 
 
 ##  add(name, value) {#str-DateTime}
-创建一个新的自定义文档属性**PropertyType.DateTime**数据类型。
+创建一个新的自定义文档属性**属性类型.日期时间**数据类型。
 
 
 ### 返回
@@ -64,14 +64,14 @@ def add(self, name, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |属性的名称。|
 | value | DateTime |属性的价值。|
 
 
 ##  add(name, value) {#str-bool}
-创建一个新的自定义文档属性**PropertyType.Boolean**数据类型。
+创建一个新的自定义文档属性**PropertyType.布尔值**数据类型。
 
 
 ### 返回
@@ -85,14 +85,14 @@ def add(self, name, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |属性的名称。|
 | value | bool |属性的价值。|
 
 
 ##  add(name, value) {#str-float}
-创建一个新的自定义文档属性**PropertyType.Float**数据类型。
+创建一个新的自定义文档属性**属性类型.Float**数据类型。
 
 
 ### 返回
@@ -106,7 +106,7 @@ def add(self, name, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |属性的名称。|
 | value | float |属性的价值。|

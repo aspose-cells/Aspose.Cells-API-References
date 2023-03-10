@@ -1,4 +1,4 @@
-﻿---
+---
 title: perspective الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  perspective الملكية
 
-إرجاع أو تعيين perspective لعرض التخطيط ثلاثي الأبعاد. يجب أن يكون بين 0 و 100.
+ارجاع او تحديد perspective لمشاهدة المخطط ثلاثي الابعاد. يجب أن يكون بين 0 و 100.
 يتم تجاهل هذه الخاصية إذا كانت الخاصية RightAngleAxes هي True.
 ###  تعريف:
 ```python

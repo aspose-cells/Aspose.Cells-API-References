@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_count_of_range método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene el recuento de rangos que influyeron en esta configuración.
 
 ###  Devoluciones
 
-el conteo de rangos que están influenciados por esta configuración.
+el conteo de rangos que influyeron en esta configuración.
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: foreground_color propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient ou définit la couleur de premier plan d'un style.
 
 ###  Remarques
 
-Cela signifie qu'aucun paramètre de couleur n'est défini si Color.Empty est renvoyé.
+Cela signifie qu'aucun paramètre de couleur n'est renvoyé si Color.Empty est renvoyé.
 ###  Définition:
 ```python
 @property

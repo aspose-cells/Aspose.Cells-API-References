@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_mark_spacing الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing الملكية
 
-إرجاع أو تعيين عدد الفئات أو السلاسل بين علامات التجزئة.
+إرجاع أو تعيين عدد الفئات أو السلاسل بين علامات التجزئة. ينطبق فقط على محاور الفئة والسلسلة.
 
 ###  ملاحظات
 

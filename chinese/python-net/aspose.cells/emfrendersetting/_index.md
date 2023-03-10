@@ -1,6 +1,6 @@
-﻿---
+---
 title: EmfRenderSetting枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1990
@@ -14,7 +14,7 @@ is_root: false
 
 EmfRenderSetting 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | EMF_ONLY |仅呈现 Emf 记录。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_standard_function_name método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene el nombre de función estándar de acuerdo con el nombre de función dep
 
 ###  Devoluciones
 
-Nombre de función estándar (en-US).
+Nombre de función estándar (en-US locale).
 
 
 ```python
@@ -22,9 +22,9 @@ def get_standard_function_name(self, local_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| local_name | str | Nombre de función dependiente de la configuración regional.|
+| local_name | str | Nombre de función dependiente de la configuración regional. La configuración regional fue especificada por el libro de trabajo para el que se utiliza esta configuración.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_direction недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает/устанавливает направление потока текста для этого объекта.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import TextDirectionType

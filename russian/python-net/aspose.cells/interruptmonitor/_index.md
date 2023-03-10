@@ -1,4 +1,4 @@
-﻿---
+---
 title: InterruptMonitor класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/interruptmonitor/
 is_root: false
 ---
 ##  InterruptMonitor класс
-Представляет все операторы прерывания.
+Представляет весь оператор о прерывании.
 
 
 
@@ -29,7 +29,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [is_interruption_requested](/cells/ru/python-net/aspose.cells/interruptmonitor/is_interruption_requested) | Пометить монитор как требующий прерывания|
-| [terminate_without_exception](/cells/ru/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | Когда процедура прерывается, следует ли завершить процедуру тихо или выдать исключение.<br/>По умолчанию false, то есть когда [AbstractInterruptMonitor.is_interruption_requested](/cells/ru/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) истинно,<br/> будет выброшен [CellsException](/cells/ru/python-net/aspose.cells/cellsexception) с кодом [ExceptionType.INTERRUPTED](/cells/ru/python-net/aspose.cells/exceptiontype#INTERRUPTED).|
+| [terminate_without_exception](/cells/ru/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | Когда процедура прерывается, завершайте процедуру тихо или выбрасывайте исключение.<br/>По умолчанию false, то есть когда [AbstractInterruptMonitor.is_interruption_requested](/cells/ru/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) истинно,<br/> будет выброшен [CellsException](/cells/ru/python-net/aspose.cells/cellsexception) с кодом [ExceptionType.INTERRUPTED](/cells/ru/python-net/aspose.cells/exceptiontype#INTERRUPTED).|
 
 
 ###  Методы

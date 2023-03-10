@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe WebExtensionTaskPaneCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/
 is_root: false
 ---
 ##  classe WebExtensionTaskPaneCollection
-Rappresenta l'elenco dei riquadri attività.
+Rappresenta l'elenco del riquadro delle attività.
 
 
 

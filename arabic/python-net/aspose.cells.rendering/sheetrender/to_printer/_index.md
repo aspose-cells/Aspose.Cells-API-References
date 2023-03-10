@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_printer
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def to_printer(self, printer_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | printer_name | str | اسم الطابعة ، على سبيل المثال: "Microsoft Office Document Image Writer"|
 
@@ -34,7 +34,7 @@ def to_printer(self, printer_settings):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | إعدادات الطابعة ، على سبيل المثال اسم الطابعة ، الطباعة على الوجهين|
 
@@ -50,7 +50,7 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | printer_name | str | اسم الطابعة ، على سبيل المثال: "Microsoft Office Document Image Writer"|
 | job_name | str | قم بتعيين اسم مهمة الطباعة|
@@ -67,7 +67,7 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | إعدادات الطابعة ، على سبيل المثال اسم الطابعة ، الطباعة على الوجهين|
 | job_name | str | قم بتعيين اسم مهمة الطباعة|
@@ -84,7 +84,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | printer_name | str | اسم الطابعة ، على سبيل المثال: "Microsoft Office Document Image Writer"|
 | print_page_index | int | الفهرس الذي يستند إلى 0 للصفحة الأولى للطباعة ، يجب أن يكون في النطاق [0 ، SheetRender.PageCount-1]|
@@ -92,7 +92,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ###  ملاحظات
 
 ملاحظة: هذه الطريقة عفا عليها الزمن الآن.
-بدلاً من ذلك ، يرجى استخدام ToPrinter (سلسلة PrinterName) و ImageOrPrintOptions.PageIndex و PageCount لتعيين الصفحة الأولى وعدد الصفحات المطلوب طباعتها.
+بدلاً من ذلك ، الرجاء استخدام ToPrinter (سلسلة PrinterName) و ImageOrPrintOptions.PageIndex و PageCount لتعيين الصفحة الأولى وعدد الصفحات المطلوب طباعتها.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2021.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 

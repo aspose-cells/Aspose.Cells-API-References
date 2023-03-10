@@ -1,4 +1,4 @@
-﻿---
+---
 title: fit_to_pages_wide Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

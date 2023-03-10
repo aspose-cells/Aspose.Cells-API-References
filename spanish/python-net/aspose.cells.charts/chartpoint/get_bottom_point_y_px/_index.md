@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_bottom_point_y_px método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ def get_bottom_point_y_px(self, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int |  |
 

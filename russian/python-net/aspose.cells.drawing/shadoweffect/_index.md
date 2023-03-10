@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShadowEffect класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,11 +19,11 @@ is_root: false
 | :- | :- |
 | [preset_type](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/preset_type) | Получает и задает заданный тип тени тени.|
 | [color](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/color) | Получает и задает цвет тени.|
-| [transparency](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/transparency) | Получает и задает степень прозрачности тени в диапазоне от 0,0 (непрозрачная) до 1,0 (прозрачная).|
-| [size](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/size) | Получает и задает размер тени в диапазоне от 0 до 2,0.<br/> Бессмысленно во внутренней тени.|
-| [blur](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/blur) |Получает и задает размытие тени в диапазоне от 0 до 100 баллов.|
-| [angle](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/angle) | Получает и задает угол освещения в диапазоне от 0 до 359,9 градусов.|
-| [distance](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/distance) | Получает и задает расстояние тени в диапазоне от 0 до 200 точек.|
+| [transparency](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/transparency) | Получает и задает степень прозрачности тени. Диапазон значений от 0,0 (непрозрачный) до 1,0 (прозрачный).|
+| [size](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/size) | Получает и задает размер тени. Диапазон от 0 до 2,0.<br/> Бессмысленно во внутренней тени.|
+| [blur](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/blur) |Получает и задает размытие тени. Диапазон от 0 до 100 баллов.|
+| [angle](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/angle) | Получает и задает угол освещения. Диапазон от 0 до 359,9 градусов.|
+| [distance](/cells/ru/python-net/aspose.cells.drawing/shadoweffect/distance) | Получает и задает расстояние тени. Диапазон от 0 до 200 баллов.|
 
 
 

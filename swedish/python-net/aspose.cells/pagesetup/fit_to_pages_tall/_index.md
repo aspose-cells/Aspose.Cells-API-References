@@ -1,4 +1,4 @@
-﻿---
+---
 title: fit_to_pages_tall fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

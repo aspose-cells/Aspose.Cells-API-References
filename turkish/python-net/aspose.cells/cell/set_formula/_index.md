@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_formula yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Formül.|
 | value | any | Formülün değeri.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Formül.|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | Formülü ayrıştırma seçenekleri.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | Formül.|
 | is_r1c1 | bool | Formülün R1C1 formülü olup olmadığı.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | Formülün değeri.|
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor.
+NOT: Bu sınıf artık kullanılmıyor. Yerine,
 lütfen Cell.SetFormula(string,FormulaParseOptions,object) kullanın.
 Bu mülk, Aralık 2019'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

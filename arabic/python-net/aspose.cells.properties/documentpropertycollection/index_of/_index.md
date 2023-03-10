@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة index_of
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-الفهرس على أساس الصفر. القيمة السالبة إذا لم يتم العثور عليها.
+المؤشر الصفري. القيمة السلبية إذا لم يتم العثور عليها.
 
 
 ```python
@@ -22,7 +22,7 @@ def index_of(self, name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | الاسم غير المتحسس لحالة الأحرف للممتلكات.|
 
@@ -33,7 +33,7 @@ def index_of(self, name):
 
 ###  عائدات
 
-الفهرس الصفري للتواجد الأول للقيمة ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من startIndex إلى العنصر الأخير ، إذا وجد ؛ وإلا ، -1.
+الفهرس الصفري للتواجد الأول للقيمة ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من startIndex إلى العنصر الأخير ، إذا تم العثور عليه ؛ خلاف ذلك ، -1.
 
 
 ```python
@@ -42,9 +42,9 @@ def index_of(self, item, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/ar/python-net/aspose.cells.properties/documentproperty) | الكائن المطلوب تحديد موقعه في قائمة الصفيف.|
+| item | [DocumentProperty](/cells/ar/python-net/aspose.cells.properties/documentproperty) | الكائن المطلوب تحديد موقعه في قائمة الصفيف. يمكن أن تكون القيمة فارغة.|
 | index | int | فهرس البداية الصفري للبحث. 0 (صفر) صالح في قائمة فارغة.|
 
 
@@ -54,7 +54,7 @@ def index_of(self, item, index):
 
 ###  عائدات
 
-الفهرس الصفري لأول تواجد للقيمة داخل نطاق العناصر في قائمة الصفيف الذي يبدأ في startIndex ويحتوي على عدد العناصر ، إذا وجد ؛ وإلا ، -1.
+الفهرس الصفري للتواجد الأول للقيمة ضمن نطاق العناصر في قائمة الصفيف الذي يبدأ في startIndex ويحتوي على عدد العناصر ، إذا تم العثور عليه ؛ خلاف ذلك ، -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def index_of(self, item, index, count):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/ar/python-net/aspose.cells.properties/documentproperty) | الكائن المطلوب تحديد موقعه في قائمة الصفيف.|
+| item | [DocumentProperty](/cells/ar/python-net/aspose.cells.properties/documentproperty) | الكائن المطلوب تحديد موقعه في قائمة الصفيف. يمكن أن تكون القيمة فارغة.|
 | index | int | فهرس البداية الصفري للبحث. 0 (صفر) صالح في قائمة فارغة.|
 | count | int | عدد العناصر في القسم للبحث.|
 

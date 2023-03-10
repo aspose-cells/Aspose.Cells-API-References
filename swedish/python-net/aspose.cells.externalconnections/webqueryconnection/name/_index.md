@@ -1,4 +1,4 @@
-﻿---
+---
 title: name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name fastighet
 
-Anger name för anslutningen.
+Anger name för anslutningen. Varje anslutning måste ha ett unikt name.
 ###  Definition:
 ```python
 @property

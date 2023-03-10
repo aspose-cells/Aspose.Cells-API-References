@@ -1,4 +1,4 @@
-﻿---
+---
 title: line_separator mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

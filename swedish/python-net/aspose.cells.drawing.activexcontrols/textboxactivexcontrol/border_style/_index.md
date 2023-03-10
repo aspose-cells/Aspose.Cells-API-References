@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_style fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  border_style fastighet
 
-Hämtar och ställer in den typ av kantlinje som används av kontrollen.
+Hämtar och ställer in den typ av gräns som används av kontrollen.
 ###  Definition:
 ```python
 @property

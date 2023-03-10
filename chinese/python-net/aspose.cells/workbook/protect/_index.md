@@ -1,6 +1,6 @@
-﻿---
+---
 title: protect方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 250
@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/zh/python-net/aspose.cells/protectiontype) |保护类型。|
 | password | str |保护工作簿的密码。|

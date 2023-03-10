@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_document_properties propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie une collection [DocumentProperty](/cells/fr/python-net/aspose.cells.properties/documentproperty) qui représente toutes les propriétés de document personnalisées de la feuille de calcul.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

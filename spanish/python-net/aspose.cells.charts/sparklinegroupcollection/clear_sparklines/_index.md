@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_sparklines método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline
 is_root: false
 ---
 ##  clear_sparklines(cell_area) {#CellArea}
-Borra los minigráficos que hay dentro de un área de celdas.
+Borra los minigráficos que se encuentran dentro de un área de celdas.
 
 
 
@@ -18,7 +18,7 @@ def clear_sparklines(self, cell_area):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | Especifica el área de las celdas.|
 

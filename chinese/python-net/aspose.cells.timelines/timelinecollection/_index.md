@@ -1,6 +1,6 @@
-﻿---
+---
 title: TimelineCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.timelines/timelinecollection/
 is_root: false
 ---
 ## TimelineCollection类
-指定指定工作表上所有时间线对象的集合。
+指定指定工作表上所有时间轴对象的集合。
 由于 MS Excel，Excel 2003 不支持时间轴。
 
 

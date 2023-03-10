@@ -1,4 +1,4 @@
-﻿---
+---
 title: Validation clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -39,9 +39,9 @@ El tipo Validation expone los siguientes miembros:
 | Método| Descripción|
 | :- | :- |
 | [get_formula1(is_r1c1, is_local)](/cells/es/python-net/aspose.cells/validation/get_formula1/#bool-bool) | Obtiene el valor o la expresión asociada a esta validación.|
-| [get_formula1(is_r1c1, is_local, row, column)](/cells/es/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Obtiene el valor o la expresión asociada a esta validación para la celda específica.|
+| [get_formula1(is_r1c1, is_local, row, column)](/cells/es/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Obtiene el valor o la expresión asociada a esta validación para una celda específica.|
 | [get_formula2(is_r1c1, is_local)](/cells/es/python-net/aspose.cells/validation/get_formula2/#bool-bool) | Obtiene el valor o la expresión asociada a esta validación.|
-| [get_formula2(is_r1c1, is_local, row, column)](/cells/es/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Obtiene el valor o la expresión asociada a esta validación para la celda específica.|
+| [get_formula2(is_r1c1, is_local, row, column)](/cells/es/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Obtiene el valor o la expresión asociada a esta validación para una celda específica.|
 | [add_area(cell_area)](/cells/es/python-net/aspose.cells/validation/add_area/#CellArea) | Aplica la validación al área.|
 | [add_area(cell_area, check_intersection, check_edge)](/cells/es/python-net/aspose.cells/validation/add_area/#CellArea-bool-bool) | Aplica la validación al área.|
 | [set_formula1(formula, is_r1c1, is_local)](/cells/es/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Establece el valor o la expresión asociada a esta validación.|
@@ -55,7 +55,7 @@ El tipo Validation expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

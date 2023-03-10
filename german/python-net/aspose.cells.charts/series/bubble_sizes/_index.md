@@ -1,4 +1,4 @@
-﻿---
+---
 title: bubble_sizes Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bubble_sizes Eigentum
 
-Ruft die Blasengrößenwerte der Diagrammreihe ab oder legt sie fest.
+Ruft die Blasengrößenwerte der Diagrammreihe ab oder legt diese fest.
 ###  Definition:
 ```python
 @property

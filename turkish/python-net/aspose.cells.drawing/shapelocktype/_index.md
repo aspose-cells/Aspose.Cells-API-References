@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeLockType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,7 +20,7 @@ ShapeLockType türü aşağıdaki üyeleri gösterir:
 | GROUP | Grup|
 | ADJUST_HANDLES | Kolları Ayarla|
 | TEXT | Metin|
-| POINTS | puan|
+| POINTS | Puanlar|
 | CROP |Mahsul|
 | SELECTION | seçim|
 | MOVE | Taşınmak|

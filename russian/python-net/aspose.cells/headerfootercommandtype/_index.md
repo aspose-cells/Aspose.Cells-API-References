@@ -1,4 +1,4 @@
-﻿---
+---
 title: HeaderFooterCommandType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ is_root: false
 | SHEET_NAME | Имя листа|
 | FILE_NAME | Имя файла без пути|
 | FILE_PATH | Путь к файлу без имени файла|
-| PICTURE | Картинки|
+| PICTURE | Картина|
 
 
 

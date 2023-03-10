@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_format fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format fastighet
 
-Hämtar och ställer in formatet för numeriska värden.
+Hämtar och ställer in formatet för numeriskt värde.
 ###  Definition:
 ```python
 @property

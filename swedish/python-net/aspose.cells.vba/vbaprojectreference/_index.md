@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReference klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen VbaProjectReference avslöjar följande medlemmar:
 | :- | :- |
 | [type](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference/type) | Får typen av denna referens.|
 | [name](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference/name) | Hämtar och ställer in namnet på referensen.|
-| [libid](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference/libid) | Hämtar och ställer in referensens libid.|
+| [libid](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference/libid) | Hämtar och ställer in referensens Libid.|
 | [twiddledlibid](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | Får och ställer in referensens vridna Libid.|
 | [extended_libid](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | Hämtar och ställer in referensens utökade Libid.|
 | [relative_libid](/cells/sv/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | Hämtar och ställer in det refererade VBA-projektets identifierare med en relativ sökväg.|

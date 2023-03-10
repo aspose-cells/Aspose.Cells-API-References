@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد AutoFitWrappedTextType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  العد AutoFitWrappedTextType
-يمثل نوع التوفيق التلقائي للنص الملفوف.
+يمثل نوع النص المغلف المناسب تلقائيًا.
 
 
 

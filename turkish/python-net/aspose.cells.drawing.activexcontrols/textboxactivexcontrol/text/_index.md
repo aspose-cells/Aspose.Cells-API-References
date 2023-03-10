@@ -1,4 +1,4 @@
-﻿---
+---
 title: text mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text mülk
 
-Denetimin text'ini alır ve ayarlar.
+Kontrolün text'ini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

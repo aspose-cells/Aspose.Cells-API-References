@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_xml metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | url | str | URL/sökväg till xml-filen.|
 | sheet_name | str | destinationsbladets namn.|
@@ -50,7 +50,7 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | xml-filströmmen.|
 | sheet_name | str | destinationsbladets namn.|

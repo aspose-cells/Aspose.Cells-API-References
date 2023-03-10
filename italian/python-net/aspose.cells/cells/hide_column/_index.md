@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo hide_column
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def hide_column(self, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Indice di colonna.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingValueCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/conditionalformattingvaluecollection/
 is_root: false
 ---
 ##  ConditionalFormattingValueCollection classe
-Décrit une collection de CFValueObjects.
+Décrit une collection de CFValueObject.
 À utiliser uniquement pour les jeux d'icônes.
 
 
@@ -18,7 +18,7 @@ Le type ConditionalFormattingValueCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells/conditionalformattingvaluecollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells/conditionalformattingvaluecollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

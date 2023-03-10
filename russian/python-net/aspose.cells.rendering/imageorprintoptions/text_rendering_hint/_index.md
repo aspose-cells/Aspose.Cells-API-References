@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_rendering_hint недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint недвижимость
 
 Определяет качество рендеринга текста.
-Значение по умолчанию — TextRenderingHint.
+Значение по умолчанию — TextRenderingHint.SystemDefault.
 ###  Определение:
 ```python
 @property

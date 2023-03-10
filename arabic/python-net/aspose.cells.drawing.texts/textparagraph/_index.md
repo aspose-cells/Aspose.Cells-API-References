@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraph الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [type](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/type) | يحصل على نوع العقدة النصية.|
-| [start_index](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/start_index) | يحصل على فهرس بداية الشخصيات.|
+| [start_index](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/start_index) | يحصل على فهرس البداية للأحرف.|
 | [length](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/length) |يحصل على طول الأحرف.|
 | [font](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/font) | إرجاع خط هذا الكائن.|
 | [text_options](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/text_options) | إرجاع خيارات النص.|
@@ -41,7 +41,7 @@ is_root: false
 | [right_margin](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/right_margin) | يحدد الهامش الأيمن للفقرة.|
 | [left_margin](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/left_margin) | يحدد الهامش الأيسر للفقرة.|
 | [first_line_indent](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/first_line_indent) | يحدد حجم المسافة البادئة الذي سيتم تطبيقه على السطر الأول من النص في الفقرة.|
-| [font_align_type](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |يحدد مكان وضع الكلمات الفعلية رأسيًا على سطر من النص.<br/> مع الوضع الرأسي للأحرف فيما يتعلق بالخطوط الأساسية.|
+| [font_align_type](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |يحدد مكان وضع الكلمات الفعلية رأسيًا على سطر من النص. هذه الصفقات<br/> مع الوضع الرأسي للأحرف فيما يتعلق بالخطوط الأساسية.|
 | [alignment_type](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/alignment_type) | الحصول على نوع المحاذاة الأفقية للنص وتعيينه.|
 | [default_tab_size](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/default_tab_size) | الحصول على الحجم الافتراضي لحرف جدولة وتعيينه داخل هذه الفقرة.|
 | [children](/cells/ar/python-net/aspose.cells.drawing.texts/textparagraph/children) | يحصل على كل النص يعمل في هذه الفقرة.<br/> إذا كانت هذه الفقرة فارغة ، قم بإرجاع الفقرة نفسها.|

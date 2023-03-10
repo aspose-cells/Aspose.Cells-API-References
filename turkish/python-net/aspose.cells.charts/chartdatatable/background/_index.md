@@ -1,4 +1,4 @@
-﻿---
+---
 title: background mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ background'in görüntüleme modunu alır ve ayarlar
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen ChartDataTable.BackgroundMode özelliğini kullanın.
  Bu mülk, OCAK 2012'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDataSourceType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,7 +20,7 @@ Der Typ TableDataSourceType macht die folgenden Member verfügbar:
 | WORKSHEET | Excel-Arbeitsblatt-Tabelle|
 | SHARE_POINT | Verknüpfte SharePoint-Liste mit Lese- und Schreibzugriff|
 | XML | XML-Mapper-Tabelle|
-| QUERY_TABLE | Tabelle abfragen|
+| QUERY_TABLE | Abfragetabelle|
 
 
 

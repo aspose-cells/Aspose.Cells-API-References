@@ -1,4 +1,4 @@
-﻿---
+---
 title: name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name proprietà
 
-Ottiene il titolo dell'intervallo.
+Ottiene il titolo dell'intervallo. Viene utilizzato come descrittore, non come definizione di intervallo denominato.
 ###  Definizione:
 ```python
 @property

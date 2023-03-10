@@ -1,6 +1,6 @@
-﻿---
+---
 title: FontConfigs类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 660
@@ -34,7 +34,7 @@ FontConfigs 类型公开了以下成员：
 | [get_font_substitutes(original_font_name)](/cells/zh/python-net/aspose.cells/fontconfigs/get_font_substitutes/#str) |如果未显示原始字体，则返回包含要使用的字体替代名称的数组。|
 | [set_font_folder(font_folder, recursive)](/cells/zh/python-net/aspose.cells/fontconfigs/set_font_folder/#str-bool) |设置字体文件夹|
 | [set_font_folders(font_folders, recursive)](/cells/zh/python-net/aspose.cells/fontconfigs/set_font_folders/#list-bool) |设置字体文件夹|
-| [set_font_sources(sources)](/cells/zh/python-net/aspose.cells/fontconfigs/set_font_sources/#list) |设置字体源。|
+| [set_font_sources(sources)](/cells/zh/python-net/aspose.cells/fontconfigs/set_font_sources/#list) |设置字体来源。|
 | [get_font_sources()](/cells/zh/python-net/aspose.cells/fontconfigs/get_font_sources/#) |获取包含源列表的数组副本|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة before_first
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

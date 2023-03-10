@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarkdownSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -37,11 +37,11 @@ Typen MarkdownSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/markdownsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/markdownsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/markdownsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/markdownsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/markdownsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/markdownsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/markdownsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [encoding](/cells/sv/python-net/aspose.cells/markdownsaveoptions/encoding) | Hämtar och ställer in standardkodningen.|
 | [format_strategy](/cells/sv/python-net/aspose.cells/markdownsaveoptions/format_strategy) | Hämtar och ställer in formatstrategin när cellvärdet exporteras som sträng.|
-| [light_cells_data_provider](/cells/sv/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) | Dataleverantören tillhandahåller celldata för att spara arbetsböcker i lätt läge.|
+| [light_cells_data_provider](/cells/sv/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) | Dataleverantören för att tillhandahålla celldata för att spara arbetsbok i lätt läge.|
 | [line_separator](/cells/sv/python-net/aspose.cells/markdownsaveoptions/line_separator) | Hämtar och ställer in radavgränsaren.|
 
 

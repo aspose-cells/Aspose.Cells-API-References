@@ -1,4 +1,4 @@
-﻿---
+---
 title: load_data_filter_options недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة find
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def find(self, what, previous_cell):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | what | any | الكائن المطلوب البحث عنه.<br/> يجب أن يكون النوع int ، double ، DateTime ، string ، bool.|
 | previous_cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | الخلية السابقة بنفس الكائن.<br/> يمكن ضبط هذه المعلمة على قيمة خالية في حالة البحث من البداية.|
@@ -46,7 +46,7 @@ def find(self, what, previous_cell, find_options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | what | any | الكائن المطلوب البحث عنه.<br/> يجب أن يكون النوع int ، double ، DateTime ، string ، bool.|
 | previous_cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | الخلية السابقة بنفس الكائن.<br/> يمكن ضبط هذه المعلمة على قيمة خالية في حالة البحث من البداية.|

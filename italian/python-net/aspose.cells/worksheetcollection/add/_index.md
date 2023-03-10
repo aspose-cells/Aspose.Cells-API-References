@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [SheetType](/cells/it/python-net/aspose.cells/sheettype) | Tipo di foglio di lavoro.|
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_name | str | Nome del foglio di lavoro|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_size propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size propiedad
 
-Indica si el tamaño del área de trazado se ajusta automáticamente.
+Indica si el tamaño del área de trazado es automático.
 ###  Definición:
 ```python
 @property

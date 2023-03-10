@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_free_floating_shape
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,17 +22,17 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/it/python-net/aspose.cells.drawing/msodrawingtype) | Il tipo di forma.|
 | top | int | Rappresenta l'offset verticale della forma dalla riga superiore del foglio di lavoro, in unità di pixel.|
 | left | int |Rappresenta l'offset orizzontale della forma dalla colonna sinistra del foglio di lavoro, in unità di pixel.|
 | height | int | Rappresenta l'altezza di LineShape, in unità di pixel.|
 | width | int | Rappresenta la larghezza di LineShape, in unità di pixel.|
-| image_data | bytes | I dati dell'immagine valgono solo per l'immagine.|
-| is_original_size | bool | Indica se la forma utilizza le dimensioni originali se la forma è un'immagine.|
+| image_data | bytes | I dati dell'immagine si applicano solo all'immagine.|
+| is_original_size | bool | Se la forma usa la dimensione originale se la forma è un'immagine.|
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose import pycore

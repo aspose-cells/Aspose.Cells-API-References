@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparent недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Значение по умолчанию неверно.
+Значение по умолчанию неверно. Это означает, что фон сгенерированных изображений белый.
 ###  Определение:
 ```python
 @property

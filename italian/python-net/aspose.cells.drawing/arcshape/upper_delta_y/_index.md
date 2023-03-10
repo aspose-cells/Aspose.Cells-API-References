@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_y proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Ottiene o imposta l'offset verticale della forma dalla riga dell'angolo superior
 
 L'intervallo di valori va da 0 a 256.
 
-###  Esempi
+###  Esempio
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: header_margin mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin mülk
 
-Sayfanın üstünden başlığa olan mesafeyi santimetre cinsinden temsil eder.
+Sayfanın üstünden başlığa olan mesafeyi santimetre biriminde temsil eder.
 ###  Tanım:
 ```python
 @property

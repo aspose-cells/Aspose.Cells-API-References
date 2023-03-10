@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bir akıllı etiket ekler.
 
 ###  İadeler
 
-Listedeki akıllı etiketlerin dizini.
+Listedeki akıllı etiketin dizini.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | uri | str | Akıllı etiketin ad alanı URI'sini belirtir|
 | name | str | Akıllı etiketin adını belirtir.|

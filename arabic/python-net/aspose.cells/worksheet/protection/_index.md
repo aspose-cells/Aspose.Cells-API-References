@@ -1,4 +1,4 @@
-﻿---
+---
 title: protection الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection الملكية
 
-يمثل الأنواع المختلفة من خيارات protection المتاحة لورقة العمل.
+يمثل الأنواع المختلفة من خيارات protection المتاحة لورقة العمل. يدعم خيارات protection المتقدمة في ExcelXP والإصدار الأعلى.
 
 ###  ملاحظات
 

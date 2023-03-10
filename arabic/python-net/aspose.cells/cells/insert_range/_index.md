@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة insert_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | منطقة التحول.|
 | shift_type | [ShiftType](/cells/ar/python-net/aspose.cells/shifttype) | خيار تحويل الخلايا.|
@@ -35,7 +35,7 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | منطقة التحول.|
 | shift_number | int | عدد الصفوف أو الأعمدة المراد إدراجها.|
@@ -53,7 +53,7 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | منطقة التحول.|
 | shift_number | int | عدد الصفوف أو الأعمدة المراد إدراجها.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: repeat_formulas_with_subtotal الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal الملكية
 
-يشير إلى ما إذا كان يتم تكرار الصيغ مع صفوف الإجمالي الفرعي.
+يشير إلى ما إذا كان يتم تكرار الصيغ مع صف الإجمالي الفرعي.
 ###  تعريف:
 ```python
 @property

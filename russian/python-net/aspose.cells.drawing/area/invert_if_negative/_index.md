@@ -1,4 +1,4 @@
-﻿---
+---
 title: invert_if_negative недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -12,7 +12,7 @@ is_root: false
 Если свойство истинно и значение точки диаграммы является отрицательным числом,
 цвет переднего плана и цвет фона будут заменены.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

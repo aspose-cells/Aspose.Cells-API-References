@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo protect
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def protect(self, islocked_for_viewing, password):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | islocked_for_viewing | bool | indica se blocca il progetto per la visualizzazione.|
 | password | str | Se il valore è nullo, rimuove la protezione di questo progetto VBA, altrimenti proietta questo progetto VBA.|

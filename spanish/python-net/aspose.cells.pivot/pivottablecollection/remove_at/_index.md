@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_at método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice de posición en la colección de tabla dinámica|
 | keep_data | bool | Ya sea para mantener los datos de la tabla dinámica|

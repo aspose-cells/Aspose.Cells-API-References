@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_in_table propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Indica si esta celda es parte de la fórmula de la tabla.
 
 ###  Observaciones
 
- NOTA: Esta clase ahora está obsoleta.
+ NOTA: Esta clase ahora está obsoleta. En cambio,
 utilice Cell.IsTableFormula para verificar si la fórmula de la celda es parte de la fórmula de la tabla.
 Esta propiedad se eliminará 12 meses después desde mayo de 2018.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

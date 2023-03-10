@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_in_shape mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Ana şeklin yüksekliğinin 1/4000'i biriminde, şeklin ana şeklin üst sınır
 
 Yalnızca bu şekil grup veya grafikte olduğunda geçerlidir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

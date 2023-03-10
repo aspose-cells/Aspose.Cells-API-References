@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PageStartSavingArgs
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -24,7 +24,7 @@ Il tipo PageStartSavingArgs espone i membri seguenti:
 | :- | :- |
 | [page_index](/cells/it/python-net/aspose.cells.rendering/pagestartsavingargs/page_index) | Indice della pagina corrente, in base zero.|
 | [page_count](/cells/it/python-net/aspose.cells.rendering/pagestartsavingargs/page_count) | Numero totale di pagine.|
-| [is_to_output](/cells/it/python-net/aspose.cells.rendering/pagestartsavingargs/is_to_output) | Ottiene o imposta un valore che indica se la pagina deve essere restituita.<br/> Il valore predefinito è true.|
+| [is_to_output](/cells/it/python-net/aspose.cells.rendering/pagestartsavingargs/is_to_output) | Ottiene o imposta un valore che indica se la pagina deve essere restituita.<br/> Il valore predefinito è vero.|
 
 
 

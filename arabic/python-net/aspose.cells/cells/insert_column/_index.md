@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة insert_column
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 
@@ -34,7 +34,7 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 | update_reference | bool |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|

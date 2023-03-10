@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -41,8 +41,8 @@ El tipo IconSetType expone los siguientes miembros:
 | TRIANGLES3 | 3 triángulos conjunto|
 | NONE | Ninguno|
 | CUSTOM_SET | Conjunto personalizado.<br/> Este elemento es de solo lectura.|
-| SMILIES3 | 3 sonrisas.<br/> Solo para .ods.|
-| COLOR_SMILIES3 | Sonrisas de 3 colores.<br/> Solo para .ods.|
+| SMILIES3 | 3 caritas.<br/> Solo para .ods.|
+| COLOR_SMILIES3 | Emoticones de 3 colores.<br/> Solo para .ods.|
 
 
 

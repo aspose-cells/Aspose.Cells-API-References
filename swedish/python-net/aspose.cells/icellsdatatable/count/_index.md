@@ -1,4 +1,4 @@
-﻿---
+---
 title: count fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count fastighet
 
-Hämtar count av posterna. -1 för okända poster count.
+Hämtar count av posterna. -1 för okända uppgifter count.
 ###  Definition:
 ```python
 @property

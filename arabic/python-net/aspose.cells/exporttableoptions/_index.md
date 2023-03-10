@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportTableOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -32,7 +32,7 @@ is_root: false
 | [export_as_html_string](/cells/ar/python-net/aspose.cells/exporttableoptions/export_as_html_string) | يصدر قيمة سلسلة html للخلايا إلى DataTable.|
 | [format_strategy](/cells/ar/python-net/aspose.cells/exporttableoptions/format_strategy) | الحصول على استراتيجية التنسيق وتعيينها عند تصدير القيمة كقيمة سلسلة.|
 | [check_mixed_value_type](/cells/ar/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) | خطأ ، سيقوم Aspose.Cells بتعيين نوع DataColumn بواسطة نوع قيمة الصف الأول للأداء.<br/> صحيح ، سيتحقق Aspose.Cells مما إذا كان نوع القيمة في العمود مختلطًا قبل تعيين نوع DataColumn<br/> ونوع القيمة مختلط ، سيكون نوع DataColumn عبارة عن سلسلة.|
-| [is_vertical](/cells/ar/python-net/aspose.cells/exporttableoptions/is_vertical) | صواب إذا كان أحد الصفوف في ملف المصنف يمثل صفًا في DataTable.|
+| [is_vertical](/cells/ar/python-net/aspose.cells/exporttableoptions/is_vertical) | صواب إذا كان أحد الصفوف في ملف المصنف يمثل صفًا في DataTable. خطأ إذا كان أحد الأعمدة في ملف المصنف يمثل صفًا في DataTable.|
 | [indexes](/cells/ar/python-net/aspose.cells/exporttableoptions/indexes) | فهارس الأعمدة / الصفوف التي يجب تصديرها للخارج.|
 | [rename_strategy](/cells/ar/python-net/aspose.cells/exporttableoptions/rename_strategy) | استراتيجية لتكرار أسماء الأعمدة.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة start_sheet
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def start_sheet(self, sheet):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | ورقة العمل لقراءة بيانات الخلايا.|
 ###  ملاحظات

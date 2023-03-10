@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_comments_in_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

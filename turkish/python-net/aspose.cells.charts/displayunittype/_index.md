@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -26,8 +26,8 @@ DisplayUnitType türü aşağıdaki üyeleri gösterir:
 | TEN_MILLIONS | Tablodaki değerlerin 10.000.000'e bölüneceğini belirtir.|
 | HUNDRED_MILLIONS | Tablodaki değerlerin 100.000.000'e bölüneceğini belirtir.|
 | BILLIONS | Tablodaki değerlerin 1.000.000.000'e bölüneceğini belirtir.|
-| TRILLIONS |Tablodaki değerlerin 1.000.000.000.000'e bölüneceğini belirtir.|
-| PERCENTAGE | Çizelgedeki değerler 0,01'e bölünecektir.|
+| TRILLIONS |Tablodaki değerlerin 1.000.000.000.000'a bölüneceğini belirtir.|
+| PERCENTAGE | Tablodaki değerler 0,01'e bölünecektir.|
 | CUST | görüntüleme birimi için özel bir değer belirtir.|
 | CUSTOM | görüntüleme birimi için özel bir değer belirtir.|
 

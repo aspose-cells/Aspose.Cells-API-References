@@ -1,4 +1,4 @@
-﻿---
+---
 title: unhide_columns yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def unhide_columns(self, column, total_columns, width):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 | total_columns | int | sütun numarası|

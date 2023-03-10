@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartMarkerType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -28,7 +28,7 @@ Der Typ ChartMarkerType macht die folgenden Member verfügbar:
 | SQUARE_STAR | Quadratische Markierungen mit einem Sternchen.|
 | TRIANGLE | Dreieckige Markierungen.|
 | SQUARE_X | Quadratische Markierungen mit einem X.|
-| PICTURE | Bilder|
+| PICTURE | Bild|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_triple_state propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,10 +13,10 @@ Indique comment le contrôle spécifié affichera les valeurs Null.
 
 ###  Remarques
 
-| Paramètres| Description|
+| Paramètre| Description|
 | :- | :- |
-| Vrai| Le contrôle passera par les états pour les valeurs Oui, Non et Null.|
-| FAUX|(Par défaut) La commande passera par les états pour les valeurs Oui et Non.|
+| Vrai| Le contrôle passera par les états pour les valeurs Oui, Non et Null. Le contrôle apparaît estompé (grisé) lorsque sa propriété Value est définie sur Null.|
+| FAUX|(Par défaut) La commande passera par les états pour les valeurs Oui et Non. Les valeurs nulles s'affichent comme si elles n'étaient pas des valeurs.|
 ###  Définition:
 ```python
 @property

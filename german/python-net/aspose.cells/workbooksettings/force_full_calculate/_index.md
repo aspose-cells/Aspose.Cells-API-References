@@ -1,4 +1,4 @@
-﻿---
+---
 title: force_full_calculate Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Berechnet jedes Mal vollständig, wenn eine Berechnung ausgelöst wird.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.ForceFullCalculation.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.ForceFullCalculation.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

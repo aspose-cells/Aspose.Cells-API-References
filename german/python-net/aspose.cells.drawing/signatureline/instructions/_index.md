@@ -1,4 +1,4 @@
-﻿---
+---
 title: instructions Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Text ab, der dem Benutzer beim Signieren angezeigt wird, und legt ihn fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import SignatureLine

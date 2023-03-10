@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectedRange الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [name](/cells/ar/python-net/aspose.cells/protectedrange/name) | يحصل على عنوان النطاق.|
+| [name](/cells/ar/python-net/aspose.cells/protectedrange/name) | يحصل على عنوان النطاق. يتم استخدام هذا كواصف ، وليس كتعريف نطاق مسمى.|
 | [cell_area](/cells/ar/python-net/aspose.cells/protectedrange/cell_area) | الحصول على العنصر [ProtectedRange.cell_area](/cells/ar/python-net/aspose.cells/protectedrange#cell_area) الذي يمثل مساحة الخانة المطلوب حمايتها.|
 | [is_protected_with_password](/cells/ar/python-net/aspose.cells/protectedrange/is_protected_with_password) |يشير إلى ما إذا كانت أوراق العمل محمية بكلمة مرور.|
 | [password](/cells/ar/python-net/aspose.cells/protectedrange/password) | يمثل كلمة المرور لحماية النطاق.|

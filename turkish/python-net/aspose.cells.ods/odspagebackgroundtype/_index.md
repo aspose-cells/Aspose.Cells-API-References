@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackgroundType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType numaralandırma
-Sayfa arka plan oran türünü temsil eder.
+ods'un sayfa arka plan tipini temsil eder.
 
 
 

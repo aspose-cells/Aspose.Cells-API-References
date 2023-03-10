@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICellsDataTable класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [columns](/cells/ru/python-net/aspose.cells/icellsdatatable/columns) | Получает имя столбца.|
-| [count](/cells/ru/python-net/aspose.cells/icellsdatatable/count) | -1 для количества неизвестных записей.|
+| [count](/cells/ru/python-net/aspose.cells/icellsdatatable/count) | Получает количество записей. -1 для количества неизвестных записей.|
 
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: BevelType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 780
@@ -14,10 +14,10 @@ is_root: false
 
 BevelType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
-| NONE |无斜面|
+| NONE |无斜角|
 | ANGLE |角度|
 | ART_DECO |艺术装饰|
 | CIRCLE |圆圈|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: marker_size_px propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size_px propriété
 
-Représente la taille du marqueur en pixels. S'applique aux graphiques en courbes, en nuage de points ou en radar.
+Représente la taille du marqueur en pixels. S'applique au graphique en courbes, au graphique en nuage de points ou au graphique en radar.
 ###  Définition:
 ```python
 @property

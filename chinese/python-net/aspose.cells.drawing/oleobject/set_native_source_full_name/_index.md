@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_native_source_full_name方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 210
@@ -18,7 +18,7 @@ def set_native_source_full_name(self, source_full_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | source_full_name | str | ole 本机源完整文件名|
 

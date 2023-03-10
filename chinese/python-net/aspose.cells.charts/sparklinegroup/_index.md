@@ -1,6 +1,6 @@
-﻿---
+---
 title: SparklineGroup类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 280
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
 ## SparklineGroup类
-[Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) is organized into sparkline group. SparklineGroup 包含可变数量的迷你图项目。
+[Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) 被组织到迷你图组中。 SparklineGroup 包含可变数量的迷你图项目。
 迷你图组指定迷你图的类型、显示设置和轴设置。
 
 
@@ -28,8 +28,8 @@ SparklineGroup 类型公开了以下成员：
 | [high_point_color](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/high_point_color) |获取和设置迷你图组中数据最高点的颜色。|
 | [show_low_point](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/show_low_point) |指示是否突出显示迷你图组中数据的最低点。|
 | [low_point_color](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/low_point_color) |获取和设置迷你图组中数据最低点的颜色。|
-| [show_negative_points](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/show_negative_points) |指示是否用不同的颜色或标记突出显示迷你图组上的负值。|
-| [negative_points_color](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/negative_points_color) |获取和设置迷你图组上负值的颜色。|
+| [show_negative_points](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/show_negative_points) |指示是否使用不同的颜色或标记突出显示迷你图组中的负值。|
+| [negative_points_color](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/negative_points_color) |获取和设置迷你图组中负值的颜色。|
 | [show_first_point](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/show_first_point) |指示是否突出显示迷你图组中的第一个数据点。|
 | [first_point_color](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/first_point_color) |获取和设置迷你图组中第一个数据点的颜色。|
 | [show_last_point](/cells/zh/python-net/aspose.cells.charts/sparklinegroup/show_last_point) |指示是否突出显示迷你图组中的最后一个数据点。|

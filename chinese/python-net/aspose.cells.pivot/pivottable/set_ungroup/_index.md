@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_ungroup方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -18,7 +18,7 @@ def set_ungroup(self, base_field_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | base_field_index | int |基本字段中的行或列字段索引|
 
@@ -34,7 +34,7 @@ def set_ungroup(self, pivot_field):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/zh/python-net/aspose.cells.pivot/pivotfield) |基本字段中的行或列字段|
 

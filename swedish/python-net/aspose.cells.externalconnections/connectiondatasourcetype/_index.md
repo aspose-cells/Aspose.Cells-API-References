@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionDataSourceType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,10 +18,10 @@ Typen ConnectionDataSourceType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | ODBC_BASED_SOURCE | ODBC-baserad källa|
-| DAO_BASED_SOURCE | DAO-baserade källor|
+| DAO_BASED_SOURCE | DAO-baserad källa|
 | FILE_BASED_DATA_BASE_SOURCE | Filbaserad databaskälla|
-| WEB_QUERY | Webbfrågor|
-| OLEDB_BASED_SOURCE | OLE DB-baserade källor|
+| WEB_QUERY | Webbfråga|
+| OLEDB_BASED_SOURCE | OLE DB-baserad källa|
 | TEXT_BASED_SOURCE | Textbaserad källa|
 | ADO_RECORD_SET | ADO rekord satt|
 | DSP | DSP |

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_grand_total_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_grand_total_name(self, function_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | function_type | [ConsolidationFunction](/cells/tr/python-net/aspose.cells/consolidationfunction) | işlev türü.|
 

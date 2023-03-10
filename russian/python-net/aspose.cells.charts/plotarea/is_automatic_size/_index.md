@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_size недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size недвижимость
 
-Указывает, автоматически ли размер области графика изменяется.
+Указывает, имеет ли область графика автоматический размер.
 ###  Определение:
 ```python
 @property

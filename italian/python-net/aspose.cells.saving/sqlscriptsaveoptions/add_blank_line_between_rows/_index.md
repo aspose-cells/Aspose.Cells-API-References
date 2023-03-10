@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_blank_line_between_rows proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

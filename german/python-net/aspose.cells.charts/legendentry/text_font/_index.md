@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_font Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft ein [LegendEntry.font](/cells/de/python-net/aspose.cells.charts/legendentry
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die LegendEntry.Font-Eigenschaft.
  Diese Property wird 12 Monate später seit JANUAR 2012 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

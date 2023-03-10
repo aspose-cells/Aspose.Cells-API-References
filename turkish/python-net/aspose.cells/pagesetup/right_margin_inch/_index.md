@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_margin_inch mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_inch mülk
 
-Sağ kenar boşluğunun boyutunu inç cinsinden temsil eder.
+İnç birimi cinsinden sağ kenar boşluğunun boyutunu temsil eder.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ScenarioCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type ScenarioCollection expose les membres suivants :
 | :- | :- |
 | [active_index](/cells/fr/python-net/aspose.cells/scenariocollection/active_index) |Obtient et définit le scénario sélectionné.|
 | [last_selected](/cells/fr/python-net/aspose.cells/scenariocollection/last_selected) | Indique quel scénario a été sélectionné en dernier par l'utilisateur pour être exécuté/affiché.|
-| [capacity](/cells/fr/python-net/aspose.cells/scenariocollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells/scenariocollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

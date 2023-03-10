@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pt fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  width_pt fastighet
 
-Representerar formens bredd i enheter av punkter.
+Representerar formens bredd, i punktenhet.
 
 ###  Exempel
 

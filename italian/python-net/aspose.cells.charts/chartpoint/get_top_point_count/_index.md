@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_top_point_count
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_arc метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение ArcShape от его левой строки в пикселях.|
@@ -31,7 +31,7 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 | height | int | Представляет высоту ArcShape в пикселях.|
 | width | int |Представляет ширину ArcShape в пикселях.|
 
-###  Примеры
+###  Пример
 
 ```python
 

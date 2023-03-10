@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_builtin_table_style yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_builtin_table_style(self, type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [TableStyleType](/cells/tr/python-net/aspose.cells.tables/tablestyletype) | Yerleşik tablo stili türü.|
 

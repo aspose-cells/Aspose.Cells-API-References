@@ -1,4 +1,4 @@
-﻿---
+---
 title: missing_items_limit proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

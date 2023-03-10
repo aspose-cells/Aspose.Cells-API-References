@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_effect yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/tr/python-net/aspose.cells.drawing/msopresettexteffect) | mso hazır metin efekti türü.|
 | text | str | WordArt metni.|
@@ -34,10 +34,10 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | top | int | Şeklin sol satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
 | upper_left_column | int | Sol üst sütun dizini.|
 | left | int |Şeklin sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
-| height | int | Piksel birimleri cinsinden şeklin yüksekliğini temsil eder.|
-| width | int | Şeklin genişliğini piksel cinsinden temsil eder.|
+| height | int | Piksel birimi cinsinden şeklin yüksekliğini temsil eder.|
+| width | int | Şeklin genişliğini piksel birimi cinsinden temsil eder.|
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing import MsoPresetTextEffect

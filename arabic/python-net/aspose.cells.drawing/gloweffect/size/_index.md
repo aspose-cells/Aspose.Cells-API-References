@@ -1,4 +1,4 @@
-﻿---
+---
 title: size الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size الملكية
 
-الحصول على نصف قطر التوهج وتعيينه بوحدات من النقاط.
+الحصول على نصف قطر التوهج وتعيينه بوحدة النقاط.
 ###  تعريف:
 ```python
 @property

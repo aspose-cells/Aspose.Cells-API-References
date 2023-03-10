@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_at
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس الموضع في مجموعة PivotTable|
 | keep_data | bool | ما إذا كان سيتم الاحتفاظ ببيانات PivotTable أم لا|

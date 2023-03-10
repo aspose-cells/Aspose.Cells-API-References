@@ -1,4 +1,4 @@
-﻿---
+---
 title: invert_if_negative Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -12,7 +12,7 @@ is_root: false
 Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist,
 Vorder- und Hintergrundfarbe werden vertauscht.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

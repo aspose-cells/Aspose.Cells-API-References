@@ -1,4 +1,4 @@
-﻿---
+---
 title: type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على أو تعيين type لعنصر قيمة التنسيق الشرطي هذا.
  تعيين type إلى FormatConditionValueType.Min أو FormatConditionValueType.Max
-سيتم تعيين "القيمة" تلقائيًا على قيمة خالية.
+سيعمل تلقائيًا على تعيين "القيمة" على قيمة خالية.
 ###  تعريف:
 ```python
 @property

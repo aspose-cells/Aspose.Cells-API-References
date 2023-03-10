@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة insert_cut_cells
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def insert_cut_cells(self, cut_range, row, column, shift_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cut_range | [Range](/cells/ar/python-net/aspose.cells/range) | نطاق القطع.|
 | row | int | الصف.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_pt propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa la altura de la forma, en unidades de puntos.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

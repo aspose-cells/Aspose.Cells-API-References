@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_margin_pt недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_pt недвижимость
 
-Возвращает правое поле в единицах Points
+Возвращает правое поле в баллах
 ###  Определение:
 ```python
 @property

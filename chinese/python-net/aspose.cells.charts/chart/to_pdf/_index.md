@@ -1,6 +1,6 @@
-﻿---
+---
 title: to_pdf方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 130
@@ -18,7 +18,7 @@ def to_pdf(self, file_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str |带有完整路径的 pdf 文件名|
 
@@ -34,7 +34,7 @@ def to_pdf(self, stream):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出流。|
 
@@ -50,7 +50,7 @@ def to_pdf(self, file_name, desired_page_width, desired_page_height, h_alignment
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str |带有完整路径的 pdf 文件名|
 | desired_page_width | float |所需的页面宽度（以英寸为单位）。|
@@ -70,7 +70,7 @@ def to_pdf(self, stream, desired_page_width, desired_page_height, h_alignment_ty
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出流。|
 | desired_page_width | float |所需的页面宽度（以英寸为单位）。|

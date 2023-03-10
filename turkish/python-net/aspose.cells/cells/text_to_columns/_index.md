@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_columns yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/text_to_columns/
 is_root: false
 ---
 ##  text_to_columns(row, column, total_rows, options) {#int-int-int-TxtLoadOptions}
-Sütunlardaki metni sütunlara böler.
+Sütundaki metni sütunlara böler.
 
 
 
@@ -18,7 +18,7 @@ def text_to_columns(self, row, column, total_rows, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|

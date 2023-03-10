@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_offset yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_offset(self, row_offset, column_offset):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_offset | int | Bu aralıktaki satır ofseti, sıfır tabanlı.|
 | column_offset | int |Sütun ofseti bu aralıkta, sıfır tabanlı.|

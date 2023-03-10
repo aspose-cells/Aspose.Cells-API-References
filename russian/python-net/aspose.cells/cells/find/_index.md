@@ -1,4 +1,4 @@
-﻿---
+---
 title: find метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def find(self, what, previous_cell):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | what | any | Объект для поиска.<br/> Тип должен быть int, double, DateTime, string, bool.|
 | previous_cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | Предыдущая ячейка с тем же объектом.<br/> Этот параметр может быть установлен равным нулю, если поиск выполняется с самого начала.|
@@ -46,7 +46,7 @@ def find(self, what, previous_cell, find_options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | what | any | Объект для поиска.<br/> Тип должен быть int, double, DateTime, string, bool.|
 | previous_cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | Предыдущая ячейка с тем же объектом.<br/> Этот параметр может быть установлен равным нулю, если поиск выполняется с самого начала.|

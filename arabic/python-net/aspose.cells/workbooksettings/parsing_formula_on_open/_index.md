@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_formula_on_open الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 ينطبق فقط على ملفات Excel Xlsx و Xltx و Xltm و Xlsm
 لأن الصيغ في الملفات مخزنة بصيغة سلسلة.
-ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام LoadOptions.ParsingFormulaOnOpen.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من ذلك ، يرجى استخدام LoadOptions.ParsingFormulaOnOpen.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ يناير 2020.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 ###  تعريف:

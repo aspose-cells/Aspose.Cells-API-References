@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_auto_shape_in_chart方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -22,7 +22,7 @@ def add_auto_shape_in_chart(self, type, top, left, height, width):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/zh/python-net/aspose.cells.drawing/autoshapetype) |自动形状类型。|
 | top | int |表示文本框距左上角的垂直偏移量，单位为图表区域的 1/4000。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: register_add_in_function метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def register_add_in_function(self, id, function_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | id | int | ID данных, которые содержат дополнительные функции,<br/> можно получить по первому звонку [WorksheetCollection.register_add_in_function(add_in_file, function_name, lib)](/cells/ru/python-net/aspose.cells/worksheetcollection/register_add_in_function) для того же файла надстройки.|
 | function_name | str | имя функции надстройки|
@@ -43,7 +43,7 @@ def register_add_in_function(self, add_in_file, function_name, lib):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | add_in_file | str | файл содержит функции надстройки|
 | function_name | str | имя функции надстройки|

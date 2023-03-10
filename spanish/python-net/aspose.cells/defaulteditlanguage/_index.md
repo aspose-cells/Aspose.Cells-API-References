@@ -1,4 +1,4 @@
-﻿---
+---
 title: DefaultEditLanguage enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -17,7 +17,7 @@ El tipo DefaultEditLanguage expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| AUTO | Representa el idioma de edición de detección automática de acuerdo con el texto en sí.|
+| AUTO | Representa la detección automática del idioma de edición según el propio texto.|
 | ENGLISH | Representa el idioma inglés.|
 | CJK | Representa el idioma chino, japonés y coreano.|
 

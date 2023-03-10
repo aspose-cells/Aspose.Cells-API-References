@@ -1,4 +1,4 @@
-﻿---
+---
 title: Area Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -26,7 +26,7 @@ Der Typ Area macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

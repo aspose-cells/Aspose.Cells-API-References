@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_line Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_line(self, upper_left_row, top, upper_left_column, left, height, width):
 | height | int | Repräsentiert die Höhe von LineShape in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von LineShape in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_weight mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bir resmin kenar çizgisinin ağırlığını pt birimi cinsinden alır veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

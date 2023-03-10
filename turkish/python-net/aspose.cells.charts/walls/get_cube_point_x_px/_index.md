@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cube_point_x_px yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/walls/get_cube_point_x_px/
 is_root: false
 ---
 ##  get_cube_point_x_px(index) {#int}
-Chart.Calculate() yöntemini çağırdıktan sonra, walls küpünün tepe noktasının x koordinatlarını alır.
+Chart.Calculate() yöntemini çağırdıktan sonra, walls küpünün tepe noktasının x koordinatını alır.
 Duvar küpünün tepe noktalarının sayısı sekizdir.
 
 
@@ -19,7 +19,7 @@ def get_cube_point_x_px(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int |  |
 

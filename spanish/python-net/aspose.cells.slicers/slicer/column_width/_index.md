@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el ancho, en puntos, de cada columna en la segmentación.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

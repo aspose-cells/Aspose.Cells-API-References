@@ -1,4 +1,4 @@
-﻿---
+---
 title: three_d_format Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft das 3D-Format der Form ab und legt es fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

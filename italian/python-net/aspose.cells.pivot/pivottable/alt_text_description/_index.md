@@ -1,4 +1,4 @@
-﻿---
+---
 title: alt_text_description proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

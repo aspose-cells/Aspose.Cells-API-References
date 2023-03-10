@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_custom_objects Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -51,7 +51,7 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | list | list | Das benutzerdefinierte Objekt|
-| property_names | list | Die Eigenschaftsnamen. Wenn es null ist, werden wir alle Eigenschaften des Objekts importieren.|
+| property_names | list | Die Eigenschaftsnamen. Wenn es null ist, importieren wir alle Eigenschaften des Objekts.|
 | is_property_name_shown | bool | Gibt an, ob der Eigenschaftsname in die erste Zeile importiert wird.|
 | first_row | int | Die Zeilennummer der ersten Zelle, in die importiert werden soll.|
 | first_column | int | Die Spaltennummer der ersten Zelle, in die importiert werden soll.|

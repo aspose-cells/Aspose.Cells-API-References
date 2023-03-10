@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_drop_button_type_when mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

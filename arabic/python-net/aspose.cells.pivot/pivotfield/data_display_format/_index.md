@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_display_format الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

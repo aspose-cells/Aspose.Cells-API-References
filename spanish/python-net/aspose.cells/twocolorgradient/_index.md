@@ -1,4 +1,4 @@
-﻿---
+---
 title: TwoColorGradient clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
 ##  TwoColorGradient clase
-Representa dos degradados de color.
+Representa un degradado de dos colores.
 
 
 

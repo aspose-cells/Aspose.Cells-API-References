@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_set fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

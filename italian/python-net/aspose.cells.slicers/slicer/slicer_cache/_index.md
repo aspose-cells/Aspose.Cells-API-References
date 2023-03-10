@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache proprietà
 
-Restituisce l'oggetto SlicerCache associato all'affettatrice.
+Restituisce l'oggetto SlicerCache associato all'affettatrice. Sola lettura.
 
-###  Esempi
+###  Esempio
 
 ```python
 

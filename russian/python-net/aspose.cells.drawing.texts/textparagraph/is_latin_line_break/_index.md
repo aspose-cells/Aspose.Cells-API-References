@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_latin_line_break недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

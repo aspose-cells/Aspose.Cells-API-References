@@ -1,4 +1,4 @@
-﻿---
+---
 title: drop_lines الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  drop_lines الملكية
 
 إرجاع عنصر [Line](/cells/ar/python-net/aspose.cells.drawing/line) يمثل خطوط الإسقاط لسلسلة على مخطط خطي أو مخطط مساحي.
-ينطبق فقط على المخططات الخطية أو المخططات المساحية.
+ينطبق فقط على المخطط الخطي أو المخططات المساحية.
 ###  تعريف:
 ```python
 @property

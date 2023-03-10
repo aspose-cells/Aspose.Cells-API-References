@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReference الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [type](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference/type) | يحصل على نوع هذا المرجع.|
 | [name](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference/name) | الحصول على اسم المرجع وتعيينه.|
-| [libid](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference/libid) | الحصول على المرجع الشرياني وتعيينه.|
+| [libid](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference/libid) | الحصول على وتعيين Libid الخاص بالمرجع.|
 | [twiddledlibid](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | الحصول على وتعيين الفهرس الملتوي للمرجع.|
 | [extended_libid](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | الحصول على وتعيين Libid الموسع للمرجع.|
 | [relative_libid](/cells/ar/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | الحصول على معرف مشروع VBA المشار إليه مع مسار نسبي وتعيينه.|
@@ -32,7 +32,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

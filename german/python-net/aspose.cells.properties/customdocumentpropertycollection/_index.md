@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -39,8 +39,8 @@ Der Typ CustomDocumentPropertyCollection macht die folgenden Member verfügbar:
 | [add(name, value)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**PropertyType.String** Datentyp.|
 | [add(name, value)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**PropertyType.Number** Datentyp.|
 | [add(name, value)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**PropertyType.DateTime** Datentyp.|
-| [add(name, value)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**Eigenschaftstyp.Boolean** Datentyp.|
-| [add(name, value)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**Eigenschaftstyp Float** Datentyp.|
+| [add(name, value)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**PropertyType.Boolean** Datentyp.|
+| [add(name, value)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**PropertyType.Float** Datentyp.|
 | [binary_search(item)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) | Durchsucht die gesamte sortierte Array-Liste mithilfe des Standardvergleichs nach einem Element und gibt den nullbasierten Index des Elements zurück.|
 | [add_link_to_content(name, source)](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft, die mit Inhalt verknüpft ist.|
 | [update_linked_property_value()](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |Aktualisieren Sie den benutzerdefinierten Dokumenteneigenschaftswert, der mit dem Inhalt verknüpft ist.|
@@ -52,7 +52,7 @@ Der Typ CustomDocumentPropertyCollection macht die folgenden Member verfügbar:
 
 Jedes [DocumentProperty](/cells/de/python-net/aspose.cells.properties/documentproperty)-Objekt repräsentiert eine benutzerdefinierte Eigenschaft eines Containerdokuments.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

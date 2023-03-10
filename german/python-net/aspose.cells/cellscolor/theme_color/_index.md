@@ -1,4 +1,4 @@
-﻿---
+---
 title: theme_color Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color Eigentum
 
-Ruft die Designfarbe ab.
+Ruft die Designfarbe ab. Gilt nur für den Farbtyp des Themas.
 ###  Definition:
 ```python
 @property

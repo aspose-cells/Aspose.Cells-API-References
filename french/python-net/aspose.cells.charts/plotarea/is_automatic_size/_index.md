@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_size propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size propriété
 
-Indique si la zone de traçage est automatiquement dimensionnée.
+Indique si la zone de traçage est dimensionnée automatiquement.
 ###  Définition:
 ```python
 @property

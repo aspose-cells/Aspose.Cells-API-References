@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_frame mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Belirtilen şekil için hizalama ve bağlantı özelliklerini içeren bir TextFr
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen Shape.TextBody.TextAlignment özelliğini kullanın.
  Bu mülk, Mayıs 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

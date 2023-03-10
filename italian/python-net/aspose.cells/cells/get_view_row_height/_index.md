@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_view_row_height
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_view_row_height(self, row):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga|
 

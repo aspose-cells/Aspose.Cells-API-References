@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_duplicate_names metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

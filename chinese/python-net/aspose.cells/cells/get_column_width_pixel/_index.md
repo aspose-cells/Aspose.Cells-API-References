@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_column_width_pixel方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 370
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/cells/get_column_width_pixel/
 is_root: false
 ---
 ##  get_column_width_pixel(column) {#int}
-获取指定列在普通视图中的宽度，以像素为单位。
+获取指定列在普通视图中的宽度，单位为像素。
 
 
 ### 返回
@@ -22,7 +22,7 @@ def get_column_width_pixel(self, column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | column | int |列索引|
 

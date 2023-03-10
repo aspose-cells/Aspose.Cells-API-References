@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSettingCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -41,7 +41,7 @@ is_root: false
 | [append_text(text)](/cells/ar/python-net/aspose.cells.drawing.texts/fontsettingcollection/append_text/#str) | يُلحق النص.|
 | [insert_text(index, text)](/cells/ar/python-net/aspose.cells.drawing.texts/fontsettingcollection/insert_text/#int-str) | أدخل الفهرس في الموضع.|
 | [delete_text(index, count)](/cells/ar/python-net/aspose.cells.drawing.texts/fontsettingcollection/delete_text/#int-int) | احذف بعض الأحرف.|
-| [format(start_index, length, font, flag)](/cells/ar/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | تنسيق النص باستخدام إعدادات الخط.|
+| [format(start_index, length, font, flag)](/cells/ar/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | تنسيق النص مع إعداد الخط.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells.drawing.texts/fontsettingcollection/binary_search/#FontSetting) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 

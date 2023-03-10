@@ -1,4 +1,4 @@
-﻿---
+---
 title: parent fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parent fastighet
 
-Returnerar kalkylbladsobjektet som representerar arket som innehåller utsnittet.
+Returnerar kalkylbladsobjektet som representerar arket som innehåller utsnittet. Skrivskyddad.
 
 ###  Exempel
 

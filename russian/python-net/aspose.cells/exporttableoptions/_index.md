@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportTableOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -32,7 +32,7 @@ is_root: false
 | [export_as_html_string](/cells/ru/python-net/aspose.cells/exporttableoptions/export_as_html_string) | Экспортирует строковое значение html ячеек в DataTable.|
 | [format_strategy](/cells/ru/python-net/aspose.cells/exporttableoptions/format_strategy) | Получает и задает стратегию форматирования при экспорте значения в виде строкового значения.|
 | [check_mixed_value_type](/cells/ru/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) | False, Aspose.Cells установит тип DataColumn по типу значения первой строки для повышения производительности.<br/> Правда, Aspose.Cells проверит, смешаны ли типы значений в столбце, прежде чем установить тип DataColumn.<br/> И тип значения смешанный, тип DataColumn будет строковым.|
-| [is_vertical](/cells/ru/python-net/aspose.cells/exporttableoptions/is_vertical) | Истинно, если строка в файле рабочей книги представляет строку в DataTable.|
+| [is_vertical](/cells/ru/python-net/aspose.cells/exporttableoptions/is_vertical) | Истинно, если строка в файле рабочей книги представляет строку в DataTable. False, если столбец в файле рабочей книги представляет строку в DataTable.|
 | [indexes](/cells/ru/python-net/aspose.cells/exporttableoptions/indexes) | Индексы столбцов/строк, которые необходимо экспортировать.|
 | [rename_strategy](/cells/ru/python-net/aspose.cells/exporttableoptions/rename_strategy) | Стратегия дублирования имен столбцов.|
 

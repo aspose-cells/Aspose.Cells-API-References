@@ -1,6 +1,6 @@
-﻿---
+---
 title: support_div_tag 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 360
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## support_div_tag 属性
 
-表示是否支持布局<div>当 html 文件包含时标记<div>标签。
+表示是否支持布局<div>当 html 文件包含时标记<div>标签。默认值为假。
 ### 定义：
 ```python
 @property

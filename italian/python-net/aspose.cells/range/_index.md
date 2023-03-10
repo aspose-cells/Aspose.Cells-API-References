@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -21,7 +21,7 @@ Il tipo Range espone i membri seguenti:
 | [hyperlinks](/cells/it/python-net/aspose.cells/range/hyperlinks) | Ottiene tutti i collegamenti ipertestuali nell'intervallo.|
 | [row_count](/cells/it/python-net/aspose.cells/range/row_count) | Ottiene il conteggio delle righe nell'intervallo.|
 | [column_count](/cells/it/python-net/aspose.cells/range/column_count) | Ottiene il conteggio delle colonne nell'intervallo.|
-| [cell_count](/cells/it/python-net/aspose.cells/range/cell_count) | Ottiene tutti i conteggi di celle nell'intervallo.|
+| [cell_count](/cells/it/python-net/aspose.cells/range/cell_count) | Ottiene tutto il conteggio delle celle nell'intervallo.|
 | [name](/cells/it/python-net/aspose.cells/range/name) | Ottiene o imposta il nome dell'intervallo.|
 | [refers_to](/cells/it/python-net/aspose.cells/range/refers_to) | Ottiene i riferimenti dell'intervallo a.|
 | [address](/cells/it/python-net/aspose.cells/range/address) | Ottiene l'indirizzo dell'intervallo.|
@@ -42,8 +42,8 @@ Il tipo Range espone i membri seguenti:
 ###  Metodi
 | Metodo| Descrizione|
 | :- | :- |
-| [auto_fill(target)](/cells/it/python-net/aspose.cells/range/auto_fill/#Range) | Tutti automatici riempiono l'intervallo target.|
-| [auto_fill(target, auto_fill_type)](/cells/it/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Tutti automatici riempiono l'intervallo target.|
+| [auto_fill(target)](/cells/it/python-net/aspose.cells/range/auto_fill/#Range) | Riempiono automaticamente l'intervallo target.|
+| [auto_fill(target, auto_fill_type)](/cells/it/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Riempiono automaticamente l'intervallo target.|
 | [set_style(style, explicit_flag)](/cells/it/python-net/aspose.cells/range/set_style/#Style-bool) | Applicare lo stile della cella.|
 | [set_style(style)](/cells/it/python-net/aspose.cells/range/set_style/#Style) | Imposta lo stile dell'intervallo.|
 | [set_outline_borders(border_style, border_color)](/cells/it/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Imposta i bordi del contorno attorno a un intervallo di celle con lo stesso stile e colore del bordo.|
@@ -71,7 +71,7 @@ Il tipo Range espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

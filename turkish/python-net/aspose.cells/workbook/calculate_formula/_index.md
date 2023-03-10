@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_formula yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -34,9 +34,9 @@ def calculate_formula(self, ignore_error):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| ignore_error | bool | Formüllerin hesaplanmasındaki hatayı gizleyip gizlemediğini gösterir.|
+| ignore_error | bool | Formüllerin hesaplanmasındaki hatayı gizleyip gizlemediğini gösterir. Hata, desteklenmeyen işlev, harici bağlantılar vb. olabilir.|
 
 
 ##  calculate_formula(options) {#CalculationOptions}
@@ -50,7 +50,7 @@ def calculate_formula(self, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/tr/python-net/aspose.cells/calculationoptions) | Hesaplama seçenekleri|
 
@@ -66,13 +66,13 @@ def calculate_formula(self, ignore_error, custom_function):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| ignore_error | bool | Formüllerin hesaplanmasındaki hatayı gizleyip gizlemediğini gösterir.|
+| ignore_error | bool | Formüllerin hesaplanmasındaki hatayı gizleyip gizlemediğini gösterir. Hata, desteklenmeyen işlev, harici bağlantılar vb. olabilir.|
 | custom_function | [ICustomFunction](/cells/tr/python-net/aspose.cells/icustomfunction) | Özel formül hesaplama, hesaplama motorunu genişletmek için çalışır.|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor.
+NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen CalculateFormula(CalculationOptions) yöntemini kullanın.
  Bu yöntem Ağustos 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

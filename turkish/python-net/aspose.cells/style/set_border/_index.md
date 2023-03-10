@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_border yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,9 +22,9 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| border_type | [BorderType](/cells/tr/python-net/aspose.cells/bordertype) | Ayarlanacak sınır(lar), [BorderType](/cells/tr/python-net/aspose.cells/bordertype)'in bir kombinasyonu olabilir.|
+| border_type | [BorderType](/cells/tr/python-net/aspose.cells/bordertype) | Ayarlanacak sınır(lar) [BorderType](/cells/tr/python-net/aspose.cells/bordertype) kombinasyonu olabilir.|
 | border_style | [CellBorderType](/cells/tr/python-net/aspose.cells/cellbordertype) | Kenarlığın stili.|
 | border_color | aspose.pydrawing.Color | Kenarlığın rengi.|
 
@@ -44,9 +44,9 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| border_type | [BorderType](/cells/tr/python-net/aspose.cells/bordertype) | Ayarlanacak sınır(lar), [BorderType](/cells/tr/python-net/aspose.cells/bordertype)'in bir kombinasyonu olabilir.|
+| border_type | [BorderType](/cells/tr/python-net/aspose.cells/bordertype) | Ayarlanacak sınır(lar) [BorderType](/cells/tr/python-net/aspose.cells/bordertype) kombinasyonu olabilir.|
 | border_style | [CellBorderType](/cells/tr/python-net/aspose.cells/cellbordertype) | Kenarlığın stili.|
 | border_color | [CellsColor](/cells/tr/python-net/aspose.cells/cellscolor) | Kenarlığın rengi.|
 

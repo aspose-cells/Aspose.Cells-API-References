@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_position الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يشير إلى ما إذا كان يمكن نقل مقسم الشرائح المحدد أو تغيير حجمه باستخدام واجهة المستخدم.
 
-###  أمثلة
+###  مثال
 
 ```python
 

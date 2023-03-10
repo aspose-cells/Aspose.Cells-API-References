@@ -1,6 +1,6 @@
-﻿---
+---
 title: quality 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 270
@@ -10,7 +10,7 @@ is_root: false
 ## quality 属性
 
 获取或设置一个值，该值确定生成的图像的 quality
-仅在将页面保存为 `Jpeg` 格式时应用。
+仅在将页面保存为 `Jpeg` 格式时应用。默认值为 100
 
 ### 评论
 

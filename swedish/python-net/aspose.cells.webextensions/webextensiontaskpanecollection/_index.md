@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionTaskPaneCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/
 is_root: false
 ---
 ##  WebExtensionTaskPaneCollection klass
-Representerar listan med uppgiftsrutor.
+Representerar listan över aktivitetsfönstret.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: values_format_code الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

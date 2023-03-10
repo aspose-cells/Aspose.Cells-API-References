@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_date_filter méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def add_date_filter(self, field_index, date_time_grouping_type, year, month, day
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | field_index | int | Le décalage entier du champ sur lequel vous souhaitez baser le filtre<br/> (à partir de la gauche de la liste ; le champ le plus à gauche est le champ 0).|
 | date_time_grouping_type | [DateTimeGroupingType](/cells/fr/python-net/aspose.cells/datetimegroupingtype) | [DateTimeGroupingType](/cells/fr/python-net/aspose.cells/datetimegroupingtype) |

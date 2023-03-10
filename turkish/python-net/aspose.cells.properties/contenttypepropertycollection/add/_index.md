@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def add(self, name, value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name | str | İçerik türü özelliğinin adı.|
 | value | str | İçerik türü özelliğinin değeri.|
@@ -35,7 +35,7 @@ def add(self, name, value, type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name | str | İçerik türü özelliğinin adı.|
 | value | str | İçerik türü özelliğinin değeri.|

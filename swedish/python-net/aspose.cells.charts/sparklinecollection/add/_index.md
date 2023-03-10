@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def add(self, data_range, row, column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | data_range | str | Anger det nya dataintervallet för sparkline.|
 | row | int | Platsens radindex.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: glow الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) يحدد تأثير glow لعنصر المخطط أو شكله.
 
-###  أمثلة
+###  مثال
 
 ```python
 

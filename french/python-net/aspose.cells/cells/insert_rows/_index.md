@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_rows méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_index | int | Indice de ligne.|
 | total_rows | int | Nombre de lignes à insérer.|
@@ -35,7 +35,7 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_index | int | Indice de ligne.|
 | total_rows | int | Nombre de lignes à insérer.|
@@ -53,7 +53,7 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_index | int | Indice de ligne.|
 | total_rows | int | Nombre de lignes à insérer.|

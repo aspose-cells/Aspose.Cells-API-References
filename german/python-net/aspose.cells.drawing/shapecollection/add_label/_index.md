@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_label Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Fügt dem Arbeitsblatt eine Beschriftung hinzu.
 
 ###  Kehrt zurück
 
-Ein Etikettenobjekt.
+Ein Label-Objekt.
 
 
 ```python
@@ -31,7 +31,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | height | int | Repräsentiert die Höhe von Label in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von Label in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

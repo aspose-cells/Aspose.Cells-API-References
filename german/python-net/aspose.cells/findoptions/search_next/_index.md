@@ -1,4 +1,4 @@
-﻿---
+---
 title: search_next Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  search_next Eigentum
 
-Suchreihenfolge True: Nächstes suchen False: Vorheriges suchen
+Suchreihenfolge. True: Weitersuchen. False: Vorherige suchen.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die Eigenschaft FindOptions.SearchBackward.
  Diese Property wird 12 Monate später seit November 2018 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

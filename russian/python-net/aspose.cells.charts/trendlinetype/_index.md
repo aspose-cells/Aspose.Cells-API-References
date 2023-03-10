@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrendlineType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,8 +20,8 @@ is_root: false
 | EXPONENTIAL | экспоненциальный|
 | LINEAR | Линейный|
 | LOGARITHMIC | Логарифмический|
-| MOVING_AVERAGE | Скользящее среднее|
-| POLYNOMIAL | многочлен|
+| MOVING_AVERAGE | скользящее среднее|
+| POLYNOMIAL | Полиномиальный|
 | POWER | Власть|
 
 

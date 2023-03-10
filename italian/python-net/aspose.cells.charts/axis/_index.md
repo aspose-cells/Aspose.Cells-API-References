@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Axis
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -32,14 +32,14 @@ Il tipo Axis espone i membri seguenti:
 | [tick_label_position](/cells/it/python-net/aspose.cells.charts/axis/tick_label_position) | Rappresenta la posizione delle etichette dei segni di graduazione sull'asse specificato.|
 | [cross_at](/cells/it/python-net/aspose.cells.charts/axis/cross_at) | Rappresenta il punto sull'asse dei valori in cui l'asse delle categorie lo interseca.|
 | [cross_type](/cells/it/python-net/aspose.cells.charts/axis/cross_type) | Rappresenta lo [Axis.cross_type](/cells/it/python-net/aspose.cells.charts/axis#cross_type) sull'asse specificato dove si interseca l'altro asse.|
-| [log_base](/cells/it/python-net/aspose.cells.charts/axis/log_base) | Rappresenta la base logaritmica.Il valore predefinito è 10.Si applica solo a Excel2007.|
+| [log_base](/cells/it/python-net/aspose.cells.charts/axis/log_base) | Rappresenta la base logaritmica. Il valore predefinito è 10. Si applica solo a Excel2007.|
 | [is_logarithmic](/cells/it/python-net/aspose.cells.charts/axis/is_logarithmic) | Indica se il tipo di scala dell'asse dei valori è logaritmico o meno.|
 | [is_plot_order_reversed](/cells/it/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Rappresenta se Microsoft Excel traccia i punti dati dall'ultimo al primo.|
 | [axis_between_categories](/cells/it/python-net/aspose.cells.charts/axis/axis_between_categories) | Indica se l'asse dei valori attraversa l'asse delle categorie tra le categorie.|
 | [tick_labels](/cells/it/python-net/aspose.cells.charts/axis/tick_labels) | Restituisce un oggetto [Axis.tick_labels](/cells/it/python-net/aspose.cells.charts/axis#tick_labels) che rappresenta le etichette dei segni di graduazione per l'asse specificato.|
-| [tick_label_spacing](/cells/it/python-net/aspose.cells.charts/axis/tick_label_spacing) |Rappresenta il numero di categorie o serie tra le etichette dei segni di graduazione.|
+| [tick_label_spacing](/cells/it/python-net/aspose.cells.charts/axis/tick_label_spacing) |Rappresenta il numero di categorie o serie tra le etichette dei segni di graduazione. Si applica solo agli assi categoria e serie.|
 | [is_auto_tick_label_spacing](/cells/it/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Indica se la spaziatura dell'etichetta di spunta è automatica|
-| [tick_mark_spacing](/cells/it/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Restituisce o imposta il numero di categorie o serie tra i segni di graduazione.|
+| [tick_mark_spacing](/cells/it/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Restituisce o imposta il numero di categorie o serie tra i segni di graduazione. Si applica solo agli assi categoria e serie.|
 | [display_unit](/cells/it/python-net/aspose.cells.charts/axis/display_unit) | Rappresenta l'etichetta dell'unità per l'asse specificato.|
 | [cust_unit](/cells/it/python-net/aspose.cells.charts/axis/cust_unit) | Specifica un valore personalizzato per l'unità di visualizzazione.|
 | [custom_unit](/cells/it/python-net/aspose.cells.charts/axis/custom_unit) | Specifica un valore personalizzato per l'unità di visualizzazione.|
@@ -54,12 +54,12 @@ Il tipo Axis espone i membri seguenti:
 | [major_grid_lines](/cells/it/python-net/aspose.cells.charts/axis/major_grid_lines) | Rappresenta le principali linee della griglia su un asse del grafico.|
 | [minor_grid_lines](/cells/it/python-net/aspose.cells.charts/axis/minor_grid_lines) | Rappresenta le linee della griglia minori su un asse del grafico.|
 | [has_multi_level_labels](/cells/it/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Indica se le etichette devono essere visualizzate come multilivello.|
-| [axis_labels](/cells/it/python-net/aspose.cells.charts/axis/axis_labels) | Ottiene le etichette dell'asse dopo aver chiamato il metodo Chart.Calculate().|
+| [axis_labels](/cells/it/python-net/aspose.cells.charts/axis/axis_labels) | Ottiene le etichette dell'asse dopo la chiamata al metodo Chart.Calculate().|
 | [bins](/cells/it/python-net/aspose.cells.charts/axis/bins) | Rappresenta i contenitori su un asse del grafico (istogramma/pareto).|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

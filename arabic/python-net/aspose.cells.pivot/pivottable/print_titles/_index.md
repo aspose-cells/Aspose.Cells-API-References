@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_titles الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles الملكية
 
 يشير إلى ما إذا كانت عناوين الطباعة لورقة العمل قد تم تعيينها على أساس
-في تقرير PivotTable.
+في تقرير PivotTable. القيمة الافتراضية هي كاذبة.
 ###  تعريف:
 ```python
 @property

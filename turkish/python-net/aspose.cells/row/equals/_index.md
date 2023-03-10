@@ -1,4 +1,4 @@
-﻿---
+---
 title: equals yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def equals(self, row):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | [Row](/cells/tr/python-net/aspose.cells/row) | başka bir satır nesnesi|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_tailing_blank_cells الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells الملكية
 
-الإشارة إلى ما إذا كان يجب قطع خلايا فارغة في صف واحد أم لا. الافتراضي هو خطأ.
+يشير إلى ما إذا كان يجب قطع خلايا فارغة في صف واحد أم لا. الافتراضي هو خطأ.
 
 ###  ملاحظات
 

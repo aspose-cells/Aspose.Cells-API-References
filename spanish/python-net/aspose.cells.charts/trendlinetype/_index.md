@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrendlineType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -21,7 +21,7 @@ El tipo TrendlineType expone los siguientes miembros:
 | LINEAR | Lineal|
 | LOGARITHMIC | logarítmico|
 | MOVING_AVERAGE | Media móvil|
-| POLYNOMIAL | polinomio|
+| POLYNOMIAL | Polinomio|
 | POWER | Fuerza|
 
 

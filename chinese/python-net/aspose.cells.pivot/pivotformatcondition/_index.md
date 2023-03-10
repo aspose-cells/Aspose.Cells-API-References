@@ -1,6 +1,6 @@
-﻿---
+---
 title: PivotFormatCondition类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ PivotFormatCondition 类型公开了以下成员：
 | :- | :- |
 | [scope_type](/cells/zh/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) |获取和设置数据透视表条件格式的范围类型。|
 | [rule_type](/cells/zh/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) |获取和设置数据透视表条件格式的规则类型。|
-| [format_conditions](/cells/zh/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) |获取数据透视表条件 format 的格式条件。|
+| [format_conditions](/cells/zh/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) |获取数据透视表条件格式的格式条件。|
 
 
 ### 方法

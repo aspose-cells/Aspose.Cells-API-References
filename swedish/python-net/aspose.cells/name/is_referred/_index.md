@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_referred fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_referred fastighet
 
-Anger om detta namn refereras till av andra formler.
+Anger om detta namn refereras av andra formler.
 ###  Definition:
 ```python
 @property

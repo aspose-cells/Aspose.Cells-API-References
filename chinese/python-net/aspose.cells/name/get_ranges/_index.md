@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_ranges方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -39,9 +39,9 @@ def get_ranges(self, recalculate):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| recalculate | bool |如果在本次调用之前已计算此名称，是否重新计算它。|
+| recalculate | bool |如果在本次调用之前已经计算过该名称，是否重新计算。|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,11 +22,11 @@ def add(self, url):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | url | str | URL-адрес/путь файла xml/xsd.|
 
-###  Примеры
+###  Пример
 
 Следующий код добавляет две карты XmlMaps с помощью файла xsd и файла xml.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: resize metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def resize(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startradindex för det nya intervallet.|
 | start_column | int | Startkolumnindex för det nya intervallet.|

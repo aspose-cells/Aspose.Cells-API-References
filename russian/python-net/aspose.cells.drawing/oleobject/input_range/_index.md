@@ -1,4 +1,4 @@
-﻿---
+---
 title: input_range недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает диапазон рабочего листа, используемый для заполнения указанного поля со списком.
 
-###  Примеры
+###  Пример
 
 ```python
 

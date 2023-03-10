@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_offset | int | إزاحة صف من صف البداية لهذه المنطقة|
 | col_offset | int |العمود من صف البداية لهذه المنطقة|
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_offset | int | إزاحة صف من صف البداية لهذه المنطقة|
 | col_offset | int |العمود من صف البداية لهذه المنطقة|
-| calculate_formulas | bool | ما إذا كان يحسبها بشكل متكرر إذا كان المرجع المحدد هو صيغة|
+| calculate_formulas | bool | سواء احسبها بشكل متكرر إذا كان المرجع المحدد هو صيغة|
 
 
 

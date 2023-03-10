@@ -1,4 +1,4 @@
-﻿---
+---
 title: DateTimeGroupItem yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def __init__(self, type, year, month, day, hour, minute, second):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [DateTimeGroupingType](/cells/tr/python-net/aspose.cells/datetimegroupingtype) |  |
 | year | int |  |

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignatureCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,13 +23,13 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [add(digital_signature)](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Добавьте одну подпись в коллекцию цифровых подписей.|
+| [add(digital_signature)](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Добавьте одну подпись в DigitalSignatureCollection.|
 
 
 
-###  Примеры
+###  Пример
 
-В следующем примере показано, как проверять цифровые подписи.
+В следующем примере показано, как проверить цифровую подпись.
 
 ```python
 from aspose.cells import Workbook

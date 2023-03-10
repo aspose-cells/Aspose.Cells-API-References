@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomFilterCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ Le type CustomFilterCollection expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [both](/cells/fr/python-net/aspose.cells/customfiltercollection/both) | Indique si les deux critères ont une relation "et".|
-| [capacity](/cells/fr/python-net/aspose.cells/customfiltercollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells/customfiltercollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

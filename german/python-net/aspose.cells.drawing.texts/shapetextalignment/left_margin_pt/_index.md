@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin_pt Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den linken Rand in Punkteinheiten zurück
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

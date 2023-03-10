@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa el ancho del desplazamiento vertical de la forma desde su fila de esquina inferior bottom, en unidades de píxeles.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

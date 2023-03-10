@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_digital_signature metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_digital_signature(self, digital_signature_collection):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | digital_signature_collection | aspose.cells.digitalsignatures.DigitalSignatureCollection |  |
 ###  Anmärkningar

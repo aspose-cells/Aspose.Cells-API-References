@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo extension_to_save_format
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| extension | str | L'estensione del file. Può essere con o senza punto iniziale.|
+| extension | str | L'estensione del file. Può essere con o senza punto iniziale. Senza distinzione tra maiuscole e minuscole.|
 ###  Osservazioni
 
 Se l'interno non può essere riconosciuto, restituisce [SaveFormat.UNKNOWN](/cells/it/python-net/aspose.cells/saveformat#UNKNOWN).

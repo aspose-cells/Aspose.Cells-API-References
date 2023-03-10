@@ -1,4 +1,4 @@
-﻿---
+---
 title: fore_ole_color الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

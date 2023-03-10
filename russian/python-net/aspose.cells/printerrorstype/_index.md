@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintErrorsType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType перечисление
-Представляет константы ошибки печати.
+Представляет константы ошибок печати.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_column_width_pixel
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_column_width_pixel(self, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود|
 

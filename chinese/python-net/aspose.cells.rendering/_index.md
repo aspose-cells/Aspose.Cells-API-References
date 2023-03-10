@@ -1,6 +1,6 @@
-﻿---
+---
 title: aspose.cells.rendering
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ is_root: false
 | [PageEndSavingArgs](/cells/zh/python-net/aspose.cells.rendering/pageendsavingargs) |页面信息结束保存过程。|
 | [PageSavingArgs](/cells/zh/python-net/aspose.cells.rendering/pagesavingargs) |页面保存过程的信息。|
 | [PageStartSavingArgs](/cells/zh/python-net/aspose.cells.rendering/pagestartsavingargs) |页面信息开始保存过程。|
-| [PdfBookmarkEntry](/cells/zh/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry 是 pdfbookmark 中的一个条目。<br/>如果当前实例的 Text 属性为 null 或 ""，<br/>当前实例将被隐藏，子实例将被插入到当前级别。|
+| [PdfBookmarkEntry](/cells/zh/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry 是 pdf 书签中的条目。<br/>如果当前实例的 Text 属性为 null 或 ""，<br/>当前实例将被隐藏，子实例将被插入到当前级别。|
 | [SheetPrintingPreview](/cells/zh/python-net/aspose.cells.rendering/sheetprintingpreview) |工作表打印预览。|
 | [SheetRender](/cells/zh/python-net/aspose.cells.rendering/sheetrender) |表示一个工作表渲染器，它可以将工作表渲染成各种图像，例如 (BMP, PNG, JPEG, TIFF..)<br/>该类的构造函数，必须在pagesetup、cell style修改后使用。|
 | [SheetSet](/cells/zh/python-net/aspose.cells.rendering/sheetset) |描述一组工作表。|

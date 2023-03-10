@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pt mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_pt mülk
 
-Nokta birimleri cinsinden şeklin genişliğini temsil eder.
+Nokta biriminde şeklin genişliğini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

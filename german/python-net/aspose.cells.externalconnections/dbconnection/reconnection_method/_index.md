@@ -1,4 +1,4 @@
-﻿---
+---
 title: reconnection_method Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ Der Standardwert ist ReConnectionMethodType.Required.
 
 ###  Bemerkungen
 
- HINWEIS: Diese Eigenschaft ist jetzt veraltet.
+ HINWEIS: Diese Eigenschaft ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die Eigenschaft ExternalConnection.ReconnectionMethodType.
  Diese Property wird 12 Monate später seit Oktober 2017 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

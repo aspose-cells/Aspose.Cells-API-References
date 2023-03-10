@@ -1,4 +1,4 @@
-﻿---
+---
 title: prompt propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  prompt propriété
 
- Chaîne d'invite pour le paramètre. Présentée à l'utilisateur de la feuille de calcul avec l'interface utilisateur d'entrée
- pour collecter la valeur du paramètre avant d'actualiser les données externes.
+ Chaîne d'invite pour le paramètre. Présenté à l'utilisateur de la feuille de calcul avec l'interface utilisateur d'entrée
+ pour collecter la valeur du paramètre avant d'actualiser les données externes. Utilisé uniquement lorsque
 paramètreType = prompt.
 ###  Définition:
 ```python

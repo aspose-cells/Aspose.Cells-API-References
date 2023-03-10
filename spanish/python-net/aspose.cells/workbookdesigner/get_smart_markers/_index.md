@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_smart_markers método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Observaciones
 
-Se crea una matriz de cadenas en cada llamada.
+Se crea una matriz de cadenas en cada llamada. La matriz se ordena y los valores duplicados se eliminan.
 
 
 ###  Ver también

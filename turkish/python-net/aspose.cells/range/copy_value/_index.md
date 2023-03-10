@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_value yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def copy_value(self, range):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Kaynak [Range](/cells/tr/python-net/aspose.cells/range) nesnesi.|
 

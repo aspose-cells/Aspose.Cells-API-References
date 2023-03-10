@@ -1,4 +1,4 @@
-﻿---
+---
 title: quote_prefix propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix propiedad
 
-Indica si el valor de la celda comienza con una comilla simple.
+Indica si el valor de la celda comienza con comillas simples.
 ###  Definición:
 ```python
 @property

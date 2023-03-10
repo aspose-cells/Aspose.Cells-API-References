@@ -1,4 +1,4 @@
-﻿---
+---
 title: x الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على الإزاحة الأفقية للشكل وتعيينها من الحد الأيسر لورقة العمل ، بوحدة البكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

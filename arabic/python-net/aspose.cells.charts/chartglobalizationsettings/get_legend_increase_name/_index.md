@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_legend_increase_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

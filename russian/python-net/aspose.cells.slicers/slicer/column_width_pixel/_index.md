@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width_pixel недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает ширину в пикселях для каждого столбца среза.
 
-###  Примеры
+###  Пример
 
 ```python
 

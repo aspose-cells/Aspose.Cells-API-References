@@ -1,4 +1,4 @@
-﻿---
+---
 title: in_cell_drop_down mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

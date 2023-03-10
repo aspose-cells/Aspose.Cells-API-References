@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_list_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def get_list_value(self, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | column | int | فهرس العمود.|

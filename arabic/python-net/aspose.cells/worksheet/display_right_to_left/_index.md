@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_right_to_left الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

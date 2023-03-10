@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | file_name | str | Внешнее имя файла.|
 | sheet_names | list | Все имена листов внешнего файла.|
@@ -43,7 +43,7 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | directory_type | [DirectoryType](/cells/ru/python-net/aspose.cells/directorytype) |Тип каталога имени файла.|
 | file_name | str | имя файла.|

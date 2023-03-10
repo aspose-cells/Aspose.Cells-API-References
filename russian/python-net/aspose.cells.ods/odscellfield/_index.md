@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellField класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.ods/odscellfield/
 is_root: false
 ---
 ##  OdsCellField класс
-Представляет ячейку поля шансов.
+Представляет поле ячейки ods.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_conditions недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions недвижимость
 
-Получить условия формата для формата условия сводной таблицы.
+Получите formatconditions для формата условия сводной таблицы.
 ###  Определение:
 ```python
 @property

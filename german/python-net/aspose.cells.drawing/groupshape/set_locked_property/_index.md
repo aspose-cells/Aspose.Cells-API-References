@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_locked_property Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ def set_locked_property(self, type, value):
 | type | [ShapeLockType](/cells/de/python-net/aspose.cells.drawing/shapelocktype) | Der gesperrte Typ.|
 | value | bool | Der Wert der Immobilie.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import ShapeLockType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICustomParser الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/icustomparser/
 is_root: false
 ---
 ##  ICustomParser الدرجة
-يسمح للمستخدمين بإضافة محلل القيمة المخصص الخاص بهم لتحليل قيم السلسلة إلى كائنات قيمة الخلية المناسبة الأخرى.
+يسمح للمستخدمين بإضافة محلل القيمة المخصص الخاص بهم لتحليل قيم السلسلة إلى كائن آخر لقيمة الخلية المناسبة.
 
 
 

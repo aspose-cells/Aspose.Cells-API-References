@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  width_inch fastighet
 
-Representerar formens bredd, i enheter av tum.
+Representerar formens bredd, i tumenhet.
 
 ###  Exempel
 

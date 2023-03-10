@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_provider proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider proprietà
 
-Il provider di dati per fornire i dati delle celle per il salvataggio delle cartelle di lavoro in modalità ridotta.
+Il provider di dati per fornire i dati delle celle per il salvataggio della cartella di lavoro in modalità light.
 ###  Definizione:
 ```python
 @property

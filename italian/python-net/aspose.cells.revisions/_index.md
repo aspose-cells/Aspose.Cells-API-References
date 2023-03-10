@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.revisions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -28,7 +28,7 @@ is_root: false
 | [RevisionLogCollection](/cells/it/python-net/aspose.cells.revisions/revisionlogcollection) | Rappresenta tutti i registri di revisione.|
 | [RevisionMergeConflict](/cells/it/python-net/aspose.cells.revisions/revisionmergeconflict) | Rappresenta un record di revisione che indica che si è verificato un conflitto di unione.|
 | [RevisionQueryTable](/cells/it/python-net/aspose.cells.revisions/revisionquerytable) | Rappresenta una revisione di una modifica del campo della tabella di query.|
-| [RevisionRenameSheet](/cells/it/python-net/aspose.cells.revisions/revisionrenamesheet) | Rappresenta una revisione del foglio di ridenominazione.|
+| [RevisionRenameSheet](/cells/it/python-net/aspose.cells.revisions/revisionrenamesheet) | Rappresenta una revisione della ridenominazione del foglio.|
 
 
 ###  Enumerazioni

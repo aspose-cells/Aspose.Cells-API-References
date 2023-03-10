@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationData sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -30,7 +30,7 @@ CalculationData türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [get_param_value(index)](/cells/tr/python-net/aspose.cells/calculationdata/get_param_value/#int) | Verilen dizindeki parametrenin temsil edilen değer nesnesini alır.|
+| [get_param_value(index)](/cells/tr/python-net/aspose.cells/calculationdata/get_param_value/#int) | Belirtilen dizindeki parametrenin temsil edilen değer nesnesini alır.|
 | [get_param_text(index)](/cells/tr/python-net/aspose.cells/calculationdata/get_param_text/#int) | Verilen dizindeki parametrenin değişmez metnini alır.|
 
 

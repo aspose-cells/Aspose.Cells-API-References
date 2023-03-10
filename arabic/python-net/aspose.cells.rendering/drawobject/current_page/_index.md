@@ -1,4 +1,4 @@
-﻿---
+---
 title: current_page الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
  يشير إلى فهرس صفحة DrawObject.
 فهرس الصفحة يعتمد على الصفر.
-تحتوي الورقة الواحدة على عدة صفحات عند التقديم.
+تحتوي ورقة واحدة على عدة صفحات عند التقديم.
 ###  تعريف:
 ```python
 @property

@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_ole_size方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 190
@@ -18,7 +18,7 @@ def set_ole_size(self, start_row, end_row, start_column, end_column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | start_row | int |开始行索引。|
 | end_row | int |结束行索引。|

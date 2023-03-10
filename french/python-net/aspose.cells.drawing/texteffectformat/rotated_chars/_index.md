@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotated_chars propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rotated_chars propriété
 
-Si true, les caractères du WordArt spécifié sont pivotés de 90 degrés par rapport à la forme de délimitation du WordArt.
+Si true, les caractères du WordArt spécifié pivotent de 90 degrés par rapport à la forme de délimitation du WordArt.
 ###  Définition:
 ```python
 @property

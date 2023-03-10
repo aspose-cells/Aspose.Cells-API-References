@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.rendering
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /ru/python-net/aspose.cells.rendering/
 is_root: false
 ---
-**Aspose.Cells.Rendering**namespace предоставляет классы для рендеринга изображений и PDF-файлов.
+**Aspose.Cells.Rendering**namespace предоставляет классы для рендеринга изображений и pdf.
 
 ###  Классы
 | Сорт| Описание|
@@ -19,7 +19,7 @@ is_root: false
 | [PageEndSavingArgs](/cells/ru/python-net/aspose.cells.rendering/pageendsavingargs) | Информация для страницы завершает процесс сохранения.|
 | [PageSavingArgs](/cells/ru/python-net/aspose.cells.rendering/pagesavingargs) | Информация для процесса сохранения страницы.|
 | [PageStartSavingArgs](/cells/ru/python-net/aspose.cells.rendering/pagestartsavingargs) | Информация для страницы начинает процесс сохранения.|
-| [PdfBookmarkEntry](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry — это запись в pdfbookmark.<br/>если свойство Text текущего экземпляра равно null или "",<br/> текущий экземпляр будет скрыт, а дочерние элементы будут вставлены на текущий уровень.|
+| [PdfBookmarkEntry](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry — это запись в закладке pdf.<br/>если свойство Text текущего экземпляра равно null или "",<br/> текущий экземпляр будет скрыт, а дочерние элементы будут вставлены на текущий уровень.|
 | [SheetPrintingPreview](/cells/ru/python-net/aspose.cells.rendering/sheetprintingpreview) | Предварительный просмотр печати рабочего листа.|
 | [SheetRender](/cells/ru/python-net/aspose.cells.rendering/sheetrender) | Представляет визуализацию рабочего листа, который может отображать рабочий лист для различных изображений, таких как (BMP, PNG, JPEG, TIFF..)<br/> Конструктор этого класса должен использоваться после модификации pagesetup, стиля ячейки.|
 | [SheetSet](/cells/ru/python-net/aspose.cells.rendering/sheetset) | Описывает набор листов.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-فهرس الخصائص المضافة.
+فهرس الممتلكات المضافة.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم الملكية.|
 | value | str | قيمة الممتلكات.|

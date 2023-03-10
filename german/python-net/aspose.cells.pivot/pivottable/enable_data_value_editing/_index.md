@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_data_value_editing Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_data_value_editing Eigentum
 
-Gibt einen booleschen Wert an, der angibt, ob der Benutzer die Zellen im Datenbereich der Pivottable bearbeiten darf.
+Gibt einen booleschen Wert an, der angibt, ob der Benutzer berechtigt ist, die Zellen im Datenbereich der PivotTable zu bearbeiten.
 Aktivieren Sie die Zellenbearbeitung im Wertebereich
 ###  Definition:
 ```python

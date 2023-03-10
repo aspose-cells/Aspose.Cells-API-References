@@ -1,4 +1,4 @@
-﻿---
+---
 title: preserve_formatting الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

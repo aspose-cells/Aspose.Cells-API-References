@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ChartTextDirectionType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/charttextdirectiontype/
 is_root: false
 ---
 ##  العد ChartTextDirectionType
-يمثل نوع اتجاه النص للمخطط.
+يمثل نوع اتجاه النص في الرسم البياني.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotation_y propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rotation_y propiedad
 
-Obtiene y establece la rotación de la forma extruida alrededor del eje y en grados.
+Obtiene y establece la rotación de la forma extruida alrededor del eje Y en grados.
 ###  Definición:
 ```python
 @property

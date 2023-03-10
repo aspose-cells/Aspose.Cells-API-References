@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_arrowhead_style propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de flèche de fin de la ligne.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells.drawing import MsoArrowheadStyle

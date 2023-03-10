@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_formatting_cell propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  allow_formatting_cell propiedad
 
-Representa si se permite el formato de celdas en una hoja de trabajo protegida.
+Representa si se permite el formato de celdas en una hoja de cálculo protegida.
 ###  Definición:
 ```python
 @property

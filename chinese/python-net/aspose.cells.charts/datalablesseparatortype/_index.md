@@ -1,6 +1,6 @@
-﻿---
+---
 title: DataLablesSeparatorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 480
@@ -14,7 +14,7 @@ is_root: false
 
 DataLablesSeparatorType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | AUTO |代表自动分隔符|
@@ -29,7 +29,7 @@ DataLablesSeparatorType 类型公开了以下成员：
 
 ### 评论
 
-注意：该成员现已过时。
+注意：该成员现已过时。反而，
 请使用 DataLabelsSeparatorType 枚举。
 自 2020 年 9 月起，此属性将在 12 个月后移除。
 Aspose 对您可能遇到的任何不便深表歉意。

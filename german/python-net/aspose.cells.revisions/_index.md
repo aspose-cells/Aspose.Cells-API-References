@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.revisions
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

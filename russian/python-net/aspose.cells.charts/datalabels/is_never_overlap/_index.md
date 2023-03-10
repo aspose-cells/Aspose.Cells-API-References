@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_never_overlap недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_never_overlap недвижимость
 
-Указывает, не перекрываются ли отображаемые метки данных (для круговой диаграммы).
+Указывает, не перекрываются ли отображаемые метки данных. (Для круговой диаграммы)
 ###  Определение:
 ```python
 @property

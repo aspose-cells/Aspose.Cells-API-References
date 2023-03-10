@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,13 +15,13 @@ is_root: false
 | [WebExtension](/cells/ar/python-net/aspose.cells.webextensions/webextension) | يمثل مثيل Office Add-in.|
 | [WebExtensionBinding](/cells/ar/python-net/aspose.cells.webextensions/webextensionbinding) | يمثل علاقة ربط بين وظيفة Office الإضافية والبيانات الموجودة في المستند.|
 | [WebExtensionBindingCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensionbindingcollection) |يمثل قائمة علاقات الربط بين وظيفة Office الإضافية والبيانات الموجودة في المستند.|
-| [WebExtensionCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection) | يمثل قائمة امتدادات الويب.|
+| [WebExtensionCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection) | يمثل قائمة امتداد الويب.|
 | [WebExtensionProperty](/cells/ar/python-net/aspose.cells.webextensions/webextensionproperty) | يمثل خاصية مخصصة لـ Office Add-in.|
 | [WebExtensionPropertyCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensionpropertycollection) | يمثل قائمة خصائص امتداد الويب.|
-| [WebExtensionReference](/cells/ar/python-net/aspose.cells.webextensions/webextensionreference) | يُحدد موقع الموفر وإصدار الامتداد.|
-| [WebExtensionReferenceCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensionreferencecollection) | يمثل قائمة مراجع امتداد الويب.|
+| [WebExtensionReference](/cells/ar/python-net/aspose.cells.webextensions/webextensionreference) | يمثل الممثل موقع الموفر وإصدار الامتداد.|
+| [WebExtensionReferenceCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensionreferencecollection) | يمثل قائمة مرجع ملحق الويب.|
 | [WebExtensionTaskPane](/cells/ar/python-net/aspose.cells.webextensions/webextensiontaskpane) | يمثل كائن جزء مهام مستمر.|
-| [WebExtensionTaskPaneCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | يمثل قائمة أجزاء المهام.|
+| [WebExtensionTaskPaneCollection](/cells/ar/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | يمثل قائمة جزء المهام.|
 
 
 ###  التعداد

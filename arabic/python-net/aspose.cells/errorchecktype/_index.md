@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ErrorCheckType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/errorchecktype/
 is_root: false
 ---
 ##  العد ErrorCheckType
-يمثل جميع أنواع التحقق من الأخطاء.
+يمثل كل نوع التحقق من الخطأ.
 
 
 

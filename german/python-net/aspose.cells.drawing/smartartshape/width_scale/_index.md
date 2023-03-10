@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_scale Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -12,7 +12,7 @@ is_root: false
 Ruft die Breitenskalierung in Prozent der ursprünglichen Bildbreite ab und legt sie fest.
 Wenn die Form nicht picture ist, gibt die Eigenschaft WidthScale nur 100 zurück;
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

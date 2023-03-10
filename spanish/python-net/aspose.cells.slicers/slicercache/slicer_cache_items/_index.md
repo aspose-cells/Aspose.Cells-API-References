@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache_items propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items propiedad
 
-Devuelve una colección SlicerCacheItem que contiene la colección de todos los elementos en la memoria caché de la segmentación.
+Devuelve una colección SlicerCacheItem que contiene la colección de todos los elementos en la memoria caché de la segmentación. Solo lectura
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

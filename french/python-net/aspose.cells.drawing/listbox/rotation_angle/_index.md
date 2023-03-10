@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotation_angle propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la rotation de la forme.
 
-###  Exemples
+###  Exemple
 
 ```python
 

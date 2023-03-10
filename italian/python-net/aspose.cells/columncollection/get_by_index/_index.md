@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_by_index
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,12 +22,12 @@ def get_by_index(self, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int |  |
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto.
+NOTA: questo membro è ora obsoleto. Invece,
 si prega di utilizzare il metodo Columns.GetColumnByIndex().
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

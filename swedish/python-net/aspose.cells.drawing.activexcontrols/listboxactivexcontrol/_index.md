@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListBoxActiveXControl klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,8 +25,8 @@ Typen ListBoxActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/width) |Hämtar och ställer in kontrollens bredd i poängenhet.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
 | [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|
@@ -43,8 +43,8 @@ Typen ListBoxActiveXControl avslöjar följande medlemmar:
 | [ime_mode](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/ime_mode) |Hämtar och ställer in standardkörtidsläget för Input Method Editor för kontrollen när den tar emot fokus.|
 | [font](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/font) | Representerar kontrollens teckensnitt.|
 | [text_align](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_align) | Representerar hur man justerar texten som används av kontrollen.|
-| [scroll_bars](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |Indikerar om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.|
-| [list_width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_width) | Hämtar och ställer in bredden i poängenheter.|
+| [scroll_bars](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |Indikerar anger om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.|
+| [list_width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_width) | Hämtar och ställer in bredden i poängenhet.|
 | [bound_column](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/bound_column) | Representerar hur egenskapen Value bestäms för en ComboBox eller ListBox<br/>när egenskapsvärdet för MultiSelect (fmMultiSelectSingle).|
 | [text_column](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_column) | Representerar kolumnen i en ComboBox eller ListBox som ska visas för användaren.|
 | [column_count](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/column_count) | Representerar antalet kolumner som ska visas i en ComboBox eller ListBox.|
@@ -52,7 +52,7 @@ Typen ListBoxActiveXControl avslöjar följande medlemmar:
 | [list_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_style) | Får och ställer in det visuella utseendet.|
 | [selection_type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/selection_type) | Indikerar om kontrollen tillåter flera val.|
 | [value](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/value) | Får och ställer in värdet på kontrollen.|
-| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/border_style) | Hämtar och ställer in den typ av kantlinje som används av kontrollen.|
+| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/border_style) | Hämtar och ställer in den typ av gräns som används av kontrollen.|
 | [border_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/border_ole_color) | Hämtar och ställer in ole-färgen på bakgrunden.|
 | [special_effect](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/special_effect) | Får och ställer in kontrollens specialeffekt.|
 | [show_column_heads](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/show_column_heads) | Indikerar om kolumnrubriker visas.|

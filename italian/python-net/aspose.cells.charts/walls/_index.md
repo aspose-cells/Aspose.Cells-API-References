@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Walls
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -46,7 +46,7 @@ Il tipo Walls espone i membri seguenti:
 | Metodo| Descrizione|
 | :- | :- |
 | [get_cube_point_count()](/cells/it/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | Ottiene il numero di punti del cubo dopo aver chiamato il metodo Chart.Calculate().|
-| [get_cube_point_x_px(index)](/cells/it/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Ottiene le coordinate x del punto apice del cubo delle pareti dopo aver chiamato il metodo Chart.Calculate().<br/> Il numero di punti apicali del cubo delle pareti è otto|
+| [get_cube_point_x_px(index)](/cells/it/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Ottiene la coordinata x del punto apice del cubo delle pareti dopo aver chiamato il metodo Chart.Calculate().<br/> Il numero di punti apicali del cubo delle pareti è otto|
 | [get_cube_point_y_px(index)](/cells/it/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Ottiene la coordinata y del punto apice del cubo delle pareti dopo aver chiamato il metodo Chart.Calculate().<br/> Il numero di punti apicali del cubo delle pareti è otto.|
 
 

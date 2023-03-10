@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_index الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index الملكية
 
-الحصول على فهرس اللون وتعيينه في لوحة الألوان.
+الحصول على فهرس اللون وتعيينه في لوحة الألوان. ينطبق فقط على اللون المفهرس.
 ###  تعريف:
 ```python
 @property

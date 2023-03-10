@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_display недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display недвижимость
 
-Представляет текст, отображаемый для указанной гиперссылки.
+Представляет текст, отображаемый для указанной гиперссылки. Значением по умолчанию является адрес гиперссылки.
 ###  Определение:
 ```python
 @property

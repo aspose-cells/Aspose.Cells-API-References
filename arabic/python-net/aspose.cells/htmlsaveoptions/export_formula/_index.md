@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_formula الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_formula الملكية
 
-يشير إلى ما إذا كان يتم تصدير الصيغة عند حفظ الملف إلى html.
+يشير إلى ما إذا كان يتم تصدير الصيغة عند حفظ الملف إلى html. القيمة الافتراضية هي الحقيقية.
 إذا كنت تريد استيراد ملف html الناتج إلى Excel ، فيرجى الاحتفاظ بالقيمة الافتراضية.
 ###  تعريف:
 ```python

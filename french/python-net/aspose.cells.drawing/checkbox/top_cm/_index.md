@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_cm propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_cm propriété
 
-Représente le décalage vertical de la forme par rapport à sa ligne supérieure, en centimètres.
+Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en centimètres.
 
-###  Exemples
+###  Exemple
 
 ```python
 

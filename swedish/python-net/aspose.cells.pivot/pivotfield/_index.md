@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen PivotField avslöjar följande medlemmar:
 | :- | :- |
 | [pivot_items](/cells/sv/python-net/aspose.cells.pivot/pivotfield/pivot_items) | Hämtar pivotposterna i pivotfältet|
 | [range](/cells/sv/python-net/aspose.cells.pivot/pivotfield/range) | Hämtar gruppintervallet för pivotfältet|
-| [is_calculated_field](/cells/sv/python-net/aspose.cells.pivot/pivotfield/is_calculated_field) | Anger om det angivna pivottabellfältet är ett beräknat fält.|
+| [is_calculated_field](/cells/sv/python-net/aspose.cells.pivot/pivotfield/is_calculated_field) | Anger om det angivna pivottabellfältet är beräknat fält.|
 | [base_index](/cells/sv/python-net/aspose.cells.pivot/pivotfield/base_index) | Representerar PivotField-indexet i bas PivotFields.|
 | [position](/cells/sv/python-net/aspose.cells.pivot/pivotfield/position) | Representerar PivotField-indexet i PivotFields.|
 | [name](/cells/sv/python-net/aspose.cells.pivot/pivotfield/name) | Representerar PivotField-namnet.|
@@ -42,7 +42,7 @@ Typen PivotField avslöjar följande medlemmar:
 | [is_auto_show](/cells/sv/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Anger om det angivna pivottabellfältet visas automatiskt, endast giltigt för excel 2003.|
 | [is_ascend_show](/cells/sv/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) | Indikerar om det angivna pivottabellfältet automatiskt visas stigande.|
 | [auto_show_count](/cells/sv/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |Representera antalet topp- eller bottenobjekt<br/> som automatiskt visas i det angivna pivottabellfältet.|
-| [auto_show_field](/cells/sv/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Representerar auto show field index. -1 betyder själva PivotField.<br/> Det bör vara indexet för datafälten.|
+| [auto_show_field](/cells/sv/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Representerar auto show fältindex. -1 betyder själva PivotField.<br/> Det bör vara indexet för datafälten.|
 | [function](/cells/sv/python-net/aspose.cells.pivot/pivotfield/function) | Representerar funktionen som används för att sammanfatta pivottabelldatafältet.|
 | [data_display_format](/cells/sv/python-net/aspose.cells.pivot/pivotfield/data_display_format) | Representerar hur man visar värdena som finns i ett datafält.|
 | [base_field_index](/cells/sv/python-net/aspose.cells.pivot/pivotfield/base_field_index) | Representerar basfältet för en anpassad beräkning.|

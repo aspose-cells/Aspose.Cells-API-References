@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة convert_a1_formula_to_r1c1
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def convert_a1_formula_to_r1c1(self, formula, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | صيغة A1.|
 | row | int | فهرس صف الخلية.|

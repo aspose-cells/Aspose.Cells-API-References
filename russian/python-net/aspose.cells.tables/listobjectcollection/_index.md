@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObjectCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -32,7 +32,7 @@ is_root: false
 | [last_index_of(item)](/cells/ru/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения во всем списке массивов.|
 | [last_index_of(item, index)](/cells/ru/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который простирается от первого элемента до указанного индекса.|
 | [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject-int-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
-| [update_column_name()](/cells/ru/python-net/aspose.cells.tables/listobjectcollection/update_column_name/#) | Обновите имена всех столбцов таблиц.|
+| [update_column_name()](/cells/ru/python-net/aspose.cells.tables/listobjectcollection/update_column_name/#) | Обновите все имена столбцов таблиц.|
 | [binary_search(item)](/cells/ru/python-net/aspose.cells.tables/listobjectcollection/binary_search/#ListObject) | Ищет элемент во всем отсортированном списке массивов, используя компаратор по умолчанию, и возвращает отсчитываемый от нуля индекс элемента.|
 
 

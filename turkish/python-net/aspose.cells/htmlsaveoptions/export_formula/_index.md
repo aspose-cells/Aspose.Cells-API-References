@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_formula mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_formula mülk
 
-Dosyayı html'ye kaydederken formülün dışa aktarılıp aktarılmadığını gösterir.
+Dosyayı html'ye kaydederken formülün dışa aktarılıp aktarılmadığını gösterir. Varsayılan değer doğrudur.
 Çıktı html'sini excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
 ###  Tanım:
 ```python

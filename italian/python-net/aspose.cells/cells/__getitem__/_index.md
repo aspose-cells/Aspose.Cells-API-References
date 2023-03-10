@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cells indicizzatore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene l'elemento [Cell](/cells/it/python-net/aspose.cells/cell) all'interno de
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| index | Indice in base zero dell'elemento.|
+| index | L'indice in base zero dell'elemento.|
 
 
 

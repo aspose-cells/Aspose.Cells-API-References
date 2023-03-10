@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PdfSaveOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/pdfsaveoptions/
 is_root: false
 ---
 ##  classe PdfSaveOptions
-Rappresenta le opzioni per salvare i file pdf.
+Rappresenta le opzioni per il salvataggio del file pdf.
 
 
 
@@ -23,7 +23,7 @@ Il tipo PdfSaveOptions espone i membri seguenti:
 ###  Costruttori
 | Costruttore| Descrizione|
 | :- | :- |
-| [PdfSaveOptions()](/cells/it/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Crea le opzioni per salvare i file pdf.|
+| [PdfSaveOptions()](/cells/it/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Crea le opzioni per il salvataggio del file pdf.|
 
 
 ###  Proprietà
@@ -36,9 +36,9 @@ Il tipo PdfSaveOptions espone i membri seguenti:
 | [merge_areas](/cells/it/python-net/aspose.cells/pdfsaveoptions/merge_areas) | Indica se unire le aree di formattazione condizionale e convalida prima di salvare il file.|
 | [create_directory](/cells/it/python-net/aspose.cells/pdfsaveoptions/create_directory) | Se true e la directory non esiste, la directory verrà creata automaticamente prima di salvare il file.|
 | [sort_names](/cells/it/python-net/aspose.cells/pdfsaveoptions/sort_names) | Indica se ordinare i nomi definiti prima di salvare il file.|
-| [sort_external_names](/cells/it/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esternamente prima di salvare il file.|
+| [sort_external_names](/cells/it/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esterni prima di salvare il file.|
 | [refresh_chart_cache](/cells/it/python-net/aspose.cells/pdfsaveoptions/refresh_chart_cache) | Indica se aggiornare i dati della cache del grafico|
-| [warning_callback](/cells/it/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Ottiene o imposta callback di avviso.|
+| [warning_callback](/cells/it/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
 | [update_smart_art](/cells/it/python-net/aspose.cells/pdfsaveoptions/update_smart_art) | Indica se aggiornare l'impostazione della grafica intelligente.<br/> Il valore predefinito è falso.|
 | [default_font](/cells/it/python-net/aspose.cells/pdfsaveoptions/default_font) | Quando i caratteri in Excel sono Unicode e non devono essere impostati con il carattere corretto nello stile della cella,<br/>Possono apparire come blocco in pdf, immagine.<br/>Imposta il DefaultFont come MingLiu o MS Gothic per mostrare questi caratteri.<br/> Se questa proprietà non è impostata, Aspose.Cells utilizzerà il carattere predefinito del sistema per mostrare questi caratteri Unicode.|
 | [check_workbook_default_font](/cells/it/python-net/aspose.cells/pdfsaveoptions/check_workbook_default_font) | Quando i caratteri in Excel sono Unicode e non devono essere impostati con il carattere corretto nello stile della cella,<br/>Possono apparire come blocco in pdf, immagine.<br/> Imposta questo su true per provare a utilizzare il carattere predefinito della cartella di lavoro per mostrare prima questi caratteri.|
@@ -60,14 +60,14 @@ Il tipo PdfSaveOptions espone i membri seguenti:
 | [embed_standard_windows_fonts](/cells/it/python-net/aspose.cells/pdfsaveoptions/embed_standard_windows_fonts) | True per incorporare font true type.<br/>Interessa solo i caratteri ASCII 32-127.<br/>I caratteri per i codici di caratteri superiori a 127 sono sempre incorporati.<br/>I caratteri sono sempre incorporati per lo standard PDF/A-1a, PDF/A-1b.<br/> L'impostazione predefinita è true.|
 | [bookmark](/cells/it/python-net/aspose.cells/pdfsaveoptions/bookmark) |Ottiene e imposta l'oggetto [PdfBookmarkEntry](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry).|
 | [compliance](/cells/it/python-net/aspose.cells/pdfsaveoptions/compliance) | La cartella di lavoro converte in pdf secondo PdfCompliance in questa proprietà.|
-| [security_options](/cells/it/python-net/aspose.cells/pdfsaveoptions/security_options) | Imposta queste opzioni, quando è necessaria la sicurezza nel risultato xls2pdf.|
+| [security_options](/cells/it/python-net/aspose.cells/pdfsaveoptions/security_options) | Imposta queste opzioni, quando la sicurezza è necessaria nel risultato xls2pdf.|
 | [image_type](/cells/it/python-net/aspose.cells/pdfsaveoptions/image_type) | Rappresenta il tipo di immagine durante la conversione del grafico e della forma.|
 | [calculate_formula](/cells/it/python-net/aspose.cells/pdfsaveoptions/calculate_formula) | Indica se calcolare le formule prima di salvare il file pdf.|
 | [pdf_compression](/cells/it/python-net/aspose.cells/pdfsaveoptions/pdf_compression) | Indicare l'algoritmo di compressione|
 | [created_time](/cells/it/python-net/aspose.cells/pdfsaveoptions/created_time) | Ottiene e imposta l'ora di generazione del documento pdf.|
 | [producer](/cells/it/python-net/aspose.cells/pdfsaveoptions/producer) | Ottiene e imposta il produttore del documento pdf generato.|
 | [optimization_type](/cells/it/python-net/aspose.cells/pdfsaveoptions/optimization_type) | Ottiene e imposta il tipo di ottimizzazione pdf.|
-| [custom_properties_export](/cells/it/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Ottiene o imposta un valore che determina la modalità di esportazione di [CustomDocumentPropertyCollection](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection) nel file PDF. Il valore predefinito è Nessuno.|
+| [custom_properties_export](/cells/it/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Ottiene o imposta un valore che determina il modo in cui [CustomDocumentPropertyCollection](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection) viene esportato nel file PDF. Il valore predefinito è Nessuno.|
 | [export_document_structure](/cells/it/python-net/aspose.cells/pdfsaveoptions/export_document_structure) | Indica se esportare la struttura del documento.|
 | [emf_render_setting](/cells/it/python-net/aspose.cells/pdfsaveoptions/emf_render_setting) | Impostazione per il rendering del metafile EMF.|
 | [display_doc_title](/cells/it/python-net/aspose.cells/pdfsaveoptions/display_doc_title) | Indica se la barra del titolo della finestra deve visualizzare il titolo del documento.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: verify_password método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def verify_password(self, password):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | password | str | La contraseña.|
 

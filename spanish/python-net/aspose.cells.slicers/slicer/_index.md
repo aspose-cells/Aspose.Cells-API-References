@@ -1,4 +1,4 @@
-﻿---
+---
 title: Slicer clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,8 +24,8 @@ El tipo Slicer expone los siguientes miembros:
 | [placement](/cells/es/python-net/aspose.cells.slicers/slicer/placement) | Representa la forma en que el objeto de dibujo se adjunta a las celdas debajo de él.<br/> La propiedad controla la ubicación de un objeto en una hoja de cálculo.|
 | [locked_aspect_ratio](/cells/es/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) | Indica si la relación de aspecto de bloqueo.|
 | [locked_position](/cells/es/python-net/aspose.cells.slicers/slicer/locked_position) | Indica si la segmentación de datos especificada se puede mover o cambiar de tamaño mediante la interfaz de usuario.|
-| [slicer_cache](/cells/es/python-net/aspose.cells.slicers/slicer/slicer_cache) |Devuelve el objeto SlicerCache asociado a la segmentación.|
-| [parent](/cells/es/python-net/aspose.cells.slicers/slicer/parent) | Devuelve el objeto Worksheet que representa la hoja que contiene la segmentación.|
+| [slicer_cache](/cells/es/python-net/aspose.cells.slicers/slicer/slicer_cache) |Devuelve el objeto SlicerCache asociado a la segmentación. Solo lectura.|
+| [parent](/cells/es/python-net/aspose.cells.slicers/slicer/parent) | Devuelve el objeto Worksheet que representa la hoja que contiene la segmentación. Solo lectura.|
 | [style_type](/cells/es/python-net/aspose.cells.slicers/slicer/style_type) | Especifique el tipo de estilo de segmentación incorporado<br/> el tipo predeterminado es SlicerStyleLight1|
 | [name](/cells/es/python-net/aspose.cells.slicers/slicer/name) | Devuelve o establece el nombre de la segmentación especificada|
 | [caption](/cells/es/python-net/aspose.cells.slicers/slicer/caption) | Devuelve o establece el título de la segmentación de datos especificada.|
@@ -47,12 +47,12 @@ El tipo Slicer expone los siguientes miembros:
 | Método| Descripción|
 | :- | :- |
 | [add_pivot_connection(pivot)](/cells/es/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) | Agrega conexión de tabla dinámica.|
-| [remove_pivot_connection(pivot)](/cells/es/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Elimina las conexiones de tabla dinámica.|
-| [refresh()](/cells/es/python-net/aspose.cells.slicers/slicer/refresh/#) | Actualizar la segmentación Mientras tanto, actualizar y calcular tablas dinámicas relativas.|
+| [remove_pivot_connection(pivot)](/cells/es/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Elimina la conexión de tabla dinámica.|
+| [refresh()](/cells/es/python-net/aspose.cells.slicers/slicer/refresh/#) | Actualizar la segmentación. Mientras tanto, actualizar y calcular tablas dinámicas relativas.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

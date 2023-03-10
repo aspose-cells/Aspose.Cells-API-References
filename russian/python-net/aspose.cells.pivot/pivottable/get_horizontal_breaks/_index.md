@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_horizontal_breaks метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: sever_command mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -12,7 +12,7 @@ is_root: false
  PivotTable sunucu tabanlı olduğunda kalıcı olan ikinci bir komut metni dizesi belirtir.
  sayfa alanları kullanımda.
  ODBC bağlantıları için, serverCommand genellikle komuttan daha geniş bir sorgudur (no
-WHERE yan tümcesi öncekinde bulunur).
+WHERE yan tümcesi öncekinde bulunur). Bu 2 komuta (Command ve ServerCommand) dayalı olarak,
 parametre kullanıcı arabirimi doldurulabilir ve parametreleştirilmiş sorgular oluşturulabilir
 ###  Tanım:
 ```python

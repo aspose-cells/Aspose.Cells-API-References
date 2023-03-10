@@ -1,4 +1,4 @@
-﻿---
+---
 title: warning_callback Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback Eigentum
 
-Ruft Warnungsrückrufe ab oder legt sie fest.
+Ruft einen Warnungsrückruf ab oder legt ihn fest.
 ###  Definition:
 ```python
 @property

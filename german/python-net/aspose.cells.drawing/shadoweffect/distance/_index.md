@@ -1,4 +1,4 @@
-﻿---
+---
 title: distance Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance Eigentum
 
-Ermittelt und setzt die distance des Schattens. Bereich von 0 bis 200 Punkten.
+Ruft die distance des Schattens ab und setzt sie. Bereich von 0 bis 200 Punkten.
 ###  Definition:
 ```python
 @property

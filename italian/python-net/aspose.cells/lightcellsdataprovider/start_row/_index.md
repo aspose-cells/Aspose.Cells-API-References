@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def start_row(self, row):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | [Row](/cells/it/python-net/aspose.cells/row) | Oggetto riga per l'implementazione per riempire i dati. Il relativo indice di riga è il valore restituito dell'ultima chiamata di [LightCellsDataProvider.next_row()](/cells/it/python-net/aspose.cells/lightcellsdataprovider/next_row).<br/>Se la riga è stata inizializzata nel modello di celle interne, verrà utilizzato l'oggetto riga esistente.<br/> In caso contrario, verrà utilizzato un oggetto Row temporaneo per l'implementazione per riempire i dati.|
 ###  Osservazioni

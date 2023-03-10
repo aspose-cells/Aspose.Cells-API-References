@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo auto_fit_rows
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -31,9 +31,9 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| only_auto | bool |True, adatta automaticamente l'altezza della riga solo quando l'altezza della riga non è personalizzata.|
+| only_auto | bool |Vero, si adatta automaticamente all'altezza della riga solo quando l'altezza della riga non è personalizzata.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/it/python-net/aspose.cells/autofitteroptions) | Le opzioni del montatore automatico|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | Inizia l'indice della riga.|
 | end_row | int | Indice di fine riga.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | Inizia l'indice della riga.|
 | end_row | int | Indice di fine riga.|

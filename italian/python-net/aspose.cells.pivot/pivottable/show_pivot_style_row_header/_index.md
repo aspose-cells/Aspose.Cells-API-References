@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_pivot_style_row_header proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

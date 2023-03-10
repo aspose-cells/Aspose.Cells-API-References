@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_axis_title_name
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

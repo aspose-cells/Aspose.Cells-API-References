@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionValueType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,7 +17,7 @@ Il tipo FormatConditionValueType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| FORMULA | Il valore minimo/punto medio/massimo per il<br/> Il gradiente è determinato da una formula.|
+| FORMULA | Il valore minimo/medio/massimo per il<br/> il gradiente è determinato da una formula.|
 | MAX | Indica che il valore massimo nell'intervallo sarà<br/> utilizzato come valore massimo per il gradiente.|
 | MIN | Indica che il valore minimo nell'intervallo deve essere<br/> utilizzato come valore minimo per il gradiente.|
 | NUMBER | Indica che il minimo / punto medio / massimo<br/>Il valore per il gradiente è specificato da una costante<br/> valore numerico.|

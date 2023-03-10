@@ -1,4 +1,4 @@
-﻿---
+---
 title: cf_icons الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Обновление слайсера, а также обновление и расчет относительных сводных таблиц.
+Обновление слайсера. Между тем, обновление и расчет относительных сводных таблиц.
 
 
 
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 

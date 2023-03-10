@@ -1,4 +1,4 @@
-﻿---
+---
 title: AxisType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -17,7 +17,7 @@ El tipo AxisType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| CATEGORY | Eje de categorías|
+| CATEGORY | Eje de categoría|
 | VALUE | Eje de valor|
 | SERIES | Eje serie|
 

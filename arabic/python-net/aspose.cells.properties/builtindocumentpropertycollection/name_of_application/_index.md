@@ -1,4 +1,4 @@
-﻿---
+---
 title: name_of_application الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

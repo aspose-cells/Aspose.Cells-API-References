@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_font_substitution_char_granularity mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Yalnızca hücre yazı tipi uyumlu olmadığında karakter yazı tipinin değiş
 
 ###  Notlar
 
-Varsayılan değer yanlış.Önce hücre yazı tipi için Çalışma Kitabının varsayılan yazı tipini ve PdfSaveOption/system'i deneyeceğiz.
+Varsayılan yanlıştır. Önce hücre yazı tipi için Çalışma Kitabının varsayılan yazı tipini ve PdfSaveOption/system'i deneyeceğiz.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_blank mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_blank mülk
 
-Aralık veri doğrulaması tarafından boş değerlere izin verilip verilmediğini gösterir.
+Aralık veri doğrulamasının boş değerlere izin verip vermediğini gösterir.
 ###  Tanım:
 ```python
 @property

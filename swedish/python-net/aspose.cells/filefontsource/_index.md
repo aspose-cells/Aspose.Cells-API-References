@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFontSource klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ Typen FileFontSource avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/sv/python-net/aspose.cells/filefontsource/__init__/#str) | Direktör.|
+| [FileFontSource(file_path)](/cells/sv/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
 
 
 ###  Egenskaper

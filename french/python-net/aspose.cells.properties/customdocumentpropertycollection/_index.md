@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type CustomDocumentPropertyCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
@@ -38,9 +38,9 @@ Le type CustomDocumentPropertyCollection expose les membres suivants :
 | [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
 | [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | Crée une nouvelle propriété de document personnalisée du**PropertyType.String** Type de données.|
 | [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) | Crée une nouvelle propriété de document personnalisée du**PropertyType.Number** Type de données.|
-| [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Crée une nouvelle propriété de document personnalisée du**PropertyType. DateTime** Type de données.|
-| [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Crée une nouvelle propriété de document personnalisée du**PropertyType.Booléen** Type de données.|
-| [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Crée une nouvelle propriété de document personnalisée du**Type de propriété. Float** Type de données.|
+| [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Crée une nouvelle propriété de document personnalisée du**PropertyType.DateTime** Type de données.|
+| [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Crée une nouvelle propriété de document personnalisée du**PropertyType.Boolean** Type de données.|
+| [add(name, value)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Crée une nouvelle propriété de document personnalisée du**PropertyType.Float** Type de données.|
 | [binary_search(item)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) | Recherche un élément dans toute la liste de tableaux triés à l'aide du comparateur par défaut et renvoie l'index de base zéro de l'élément.|
 | [add_link_to_content(name, source)](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) | Crée une nouvelle propriété de document personnalisée qui établit un lien vers le contenu.|
 | [update_linked_property_value()](/cells/fr/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |Mettez à jour la valeur de la propriété de document personnalisée liée au contenu.|
@@ -52,7 +52,7 @@ Le type CustomDocumentPropertyCollection expose les membres suivants :
 
 Chaque objet [DocumentProperty](/cells/fr/python-net/aspose.cells.properties/documentproperty) représente une propriété personnalisée d'un document conteneur.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

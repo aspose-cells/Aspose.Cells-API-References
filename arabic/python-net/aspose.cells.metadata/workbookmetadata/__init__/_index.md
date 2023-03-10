@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookMetadata المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def __init__(self, file_name, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str |  |
 | options | [MetadataOptions](/cells/ar/python-net/aspose.cells.metadata/metadataoptions) |  |
@@ -35,7 +35,7 @@ def __init__(self, stream, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | [MetadataOptions](/cells/ar/python-net/aspose.cells.metadata/metadataoptions) |  |

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_case_sensitive proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se la stringa cercata fa distinzione tra maiuscole e minuscole.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
  utilizzare la proprietà FindOptions.CaseSensitive.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

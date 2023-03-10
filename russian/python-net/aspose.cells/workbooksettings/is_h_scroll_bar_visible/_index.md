@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Значение по умолчанию верно.
 
-###  Примеры
+###  Пример
 
 Следующий код делает горизонтальную полосу прокрутки невидимой для электронной таблицы.
 

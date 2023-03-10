@@ -1,4 +1,4 @@
-﻿---
+---
 title: footer_margin الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin الملكية
 
-يمثل المسافة من أسفل الصفحة إلى التذييل بوحدات السنتيمترات.
+يمثل المسافة من أسفل الصفحة إلى التذييل بوحدة سنتيمترات.
 ###  تعريف:
 ```python
 @property

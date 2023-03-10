@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_area proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se si tratta di un'area.
 
 ###  Osservazioni
 
-Se questa non è un'area, solo gli effetti StartRow e StartColumn.
+Se questa non è un'area, solo l'effetto StartRow e StartColumn.
 ###  Definizione:
 ```python
 @property

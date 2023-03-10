@@ -1,4 +1,4 @@
-﻿---
+---
 title: get méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | index | int | Index de base zéro de l'élément.|
 
@@ -42,7 +42,7 @@ def get(self, sheet_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | sheet_name | str | Nom de la feuille de calcul|
 

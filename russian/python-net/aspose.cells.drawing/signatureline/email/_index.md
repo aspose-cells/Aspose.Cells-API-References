@@ -1,4 +1,4 @@
-﻿---
+---
 title: email недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и устанавливает email певца.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing import SignatureLine

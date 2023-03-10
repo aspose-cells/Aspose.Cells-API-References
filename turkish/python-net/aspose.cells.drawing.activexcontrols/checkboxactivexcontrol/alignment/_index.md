@@ -1,4 +1,4 @@
-﻿---
+---
 title: alignment mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  alignment mülk
 
-Kontrole göre Caption konumunu alır ve ayarlar.
+Kontrole göre Resim Yazısının konumunu alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

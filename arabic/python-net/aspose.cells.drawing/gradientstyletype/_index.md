@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد GradientStyleType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ is_root: false
 | FROM_CORNER | من الزاوية التظليل ستايل|
 | HORIZONTAL | أسلوب التظليل الأفقي|
 | VERTICAL | نمط التظليل العمودي|
-| UNKNOWN |نمط تظليل غير معروف. فقط لنمط التظليل (الذي ليس لأي عضو في GradientStyleType) في ملف القالب.|
+| UNKNOWN |نمط تظليل غير معروف فقط لنمط التظليل (الذي ليس لأي عضو في GradientStyleType) في ملف القالب.|
 
 
 

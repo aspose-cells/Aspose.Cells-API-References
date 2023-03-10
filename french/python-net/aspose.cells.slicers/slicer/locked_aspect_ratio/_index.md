@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_aspect_ratio propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si le rapport hauteur/largeur est verrouillé.
 
-###  Exemples
+###  Exemple
 
 ```python
 

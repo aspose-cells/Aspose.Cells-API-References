@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Fügt die Weberweiterungseigenschaft hinzu.
 
 ###  Kehrt zurück
 
-Der Index der hinzugefügten Eigenschaften.
+Der Index der hinzugefügten Eigenschaft.
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsLoadOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -30,23 +30,23 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [load_format](/cells/ar/python-net/aspose.cells/odsloadoptions/load_format) | يحصل على تنسيق التحميل.|
-| [password](/cells/ar/python-net/aspose.cells/odsloadoptions/password) | الحصول على كلمة مرور المصنف وتعيينها.|
+| [password](/cells/ar/python-net/aspose.cells/odsloadoptions/password) | الحصول على كلمة المرور الخاصة بالمصنف وتعيينها.|
 | [parsing_formula_on_open](/cells/ar/python-net/aspose.cells/odsloadoptions/parsing_formula_on_open) | يشير إلى ما إذا كان سيتم تحليل الصيغة عند قراءة الملف.|
 | [parsing_pivot_cached_records](/cells/ar/python-net/aspose.cells/odsloadoptions/parsing_pivot_cached_records) | يشير إلى ما إذا كان تحليل السجلات المحورية المخزنة مؤقتًا عند تحميل الملف.<br/> القيمة الافتراضية هي كاذبة.|
 | [language_code](/cells/ar/python-net/aspose.cells/odsloadoptions/language_code) | الحصول على أو تعيين لغة واجهة المستخدم لإصدار المصنف بناءً على كود البلد الذي حفظ الملف.|
 | [region](/cells/ar/python-net/aspose.cells/odsloadoptions/region) | الحصول على أو تعيين الإعدادات الإقليمية للنظام بناءً على رمز البلد في وقت تحميل الملف.|
 | [default_style_settings](/cells/ar/python-net/aspose.cells/odsloadoptions/default_style_settings) | الحصول على إعدادات النمط الافتراضية لتهيئة أنماط المصنف|
 | [standard_font](/cells/ar/python-net/aspose.cells/odsloadoptions/standard_font) | يعيّن اسم الخط القياسي الافتراضي|
-| [standard_font_size](/cells/ar/python-net/aspose.cells/odsloadoptions/standard_font_size) | يضبط حجم الخط القياسي الافتراضي.|
+| [standard_font_size](/cells/ar/python-net/aspose.cells/odsloadoptions/standard_font_size) | يعيّن حجم الخط القياسي الافتراضي.|
 | [interrupt_monitor](/cells/ar/python-net/aspose.cells/odsloadoptions/interrupt_monitor) | يحصل على جهاز مراقبة المقاطعة ويضبطه.|
 | [ignore_not_printed](/cells/ar/python-net/aspose.cells/odsloadoptions/ignore_not_printed) | تجاهل البيانات التي لم تتم طباعتها إذا قمت بطباعة الملف مباشرة|
 | [check_data_valid](/cells/ar/python-net/aspose.cells/odsloadoptions/check_data_valid) |تحقق مما إذا كانت البيانات صالحة في ملف القالب.|
-| [check_excel_restriction](/cells/ar/python-net/aspose.cells/odsloadoptions/check_excel_restriction) | ما إذا كان التحقق من تقييد ملف Excel عند تعديل المستخدم للكائنات ذات الصلة بالخلايا.<br/>على سبيل المثال ، لا يسمح Excel بإدخال قيمة سلسلة أطول من 32 كيلو بايت.<br/>عند إدخال قيمة أطول من 32 كيلو بايت مثل Cell.PutValue (سلسلة) ، إذا كانت هذه الخاصية صحيحة ، فستحصل على استثناء.<br/>إذا كانت هذه الخاصية خاطئة ، فسنقبل قيمة سلسلة الإدخال كقيمة للخلية حتى يتم ذلك لاحقًا<br/>يمكنك إخراج قيمة السلسلة الكاملة لتنسيقات ملفات أخرى مثل CSV.<br/>ومع ذلك ، إذا قمت بتعيين مثل هذا النوع من القيمة غير الصالحة لتنسيق ملف Excel ،<br/> يجب ألا تحفظ المصنف بتنسيق ملف excel لاحقًا.|
-| [keep_unparsed_data](/cells/ar/python-net/aspose.cells/odsloadoptions/keep_unparsed_data) | سواء احتفظ بالبيانات التي لم يتم تحليلها في الذاكرة للمصنف عند تحميله من ملف القالب أم لا. الافتراضي هو true.|
+| [check_excel_restriction](/cells/ar/python-net/aspose.cells/odsloadoptions/check_excel_restriction) | ما إذا كان التحقق من تقييد ملف Excel عند تعديل المستخدم للكائنات ذات الصلة بالخلايا.<br/>على سبيل المثال ، لا يسمح Excel بإدخال قيمة سلسلة أطول من 32 كيلو بايت.<br/>عند إدخال قيمة أطول من 32 كيلو بايت مثل Cell.PutValue (سلسلة) ، إذا كانت هذه الخاصية صحيحة ، فستحصل على استثناء.<br/>إذا كانت هذه الخاصية خاطئة ، فسنقبل قيمة سلسلة الإدخال كقيمة للخلية حتى يتم ذلك لاحقًا<br/>يمكنك إخراج قيمة السلسلة الكاملة لتنسيقات ملفات أخرى مثل CSV.<br/>ومع ذلك ، إذا قمت بتعيين مثل هذا النوع من القيمة غير الصالحة لتنسيق ملف Excel ،<br/> يجب ألا تحفظ المصنف بتنسيق ملف excel لاحقًا. وإلا فقد يكون هناك خطأ غير متوقع لملف Excel الذي تم إنشاؤه.|
+| [keep_unparsed_data](/cells/ar/python-net/aspose.cells/odsloadoptions/keep_unparsed_data) | ما إذا كان سيتم الاحتفاظ بالبيانات التي لم يتم تحليلها في الذاكرة للمصنف عند تحميله من ملف القالب أم لا. الافتراضي هو الصحيح.|
 | [load_filter](/cells/ar/python-net/aspose.cells/odsloadoptions/load_filter) | عامل التصفية للدلالة على كيفية تحميل البيانات.|
 | [light_cells_data_handler](/cells/ar/python-net/aspose.cells/odsloadoptions/light_cells_data_handler) | معالج البيانات لمعالجة بيانات الخلايا عند قراءة ملف القالب.|
 | [memory_setting](/cells/ar/python-net/aspose.cells/odsloadoptions/memory_setting) | الحصول على أو تعيين خيارات استخدام الذاكرة.|
-| [warning_callback](/cells/ar/python-net/aspose.cells/odsloadoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
+| [warning_callback](/cells/ar/python-net/aspose.cells/odsloadoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
 | [auto_fitter_options](/cells/ar/python-net/aspose.cells/odsloadoptions/auto_fitter_options) | الحصول على خيارات التركيب التلقائي وتعيينها|
 | [auto_filter](/cells/ar/python-net/aspose.cells/odsloadoptions/auto_filter) | يشير إلى ما إذا كانت التصفية التلقائية للبيانات عند تحميل الملفات.|
 | [font_configs](/cells/ar/python-net/aspose.cells/odsloadoptions/font_configs) | يحصل ويضبط تكوينات الخطوط الفردية.<br/> يعمل فقط مع [Workbook](/cells/ar/python-net/aspose.cells/workbook) الذي يستخدم [LoadOptions](/cells/ar/python-net/aspose.cells/loadoptions) للتحميل.|

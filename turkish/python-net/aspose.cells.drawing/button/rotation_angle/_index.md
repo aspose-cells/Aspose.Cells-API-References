@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotation_angle mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin dönüşünü alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

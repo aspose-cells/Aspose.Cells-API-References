@@ -1,4 +1,4 @@
-﻿---
+---
 title: put_value yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 | is_converted | bool | Doğru: uygunsa diğer veri türüne dönüştürülür.|

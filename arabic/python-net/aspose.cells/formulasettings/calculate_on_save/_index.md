@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_on_save الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

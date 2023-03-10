@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hidden propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si l'objet est visible.
 
-###  Exemples
+###  Exemple
 
 ```python
 

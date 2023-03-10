@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_icon_filter方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -18,7 +18,7 @@ def add_icon_filter(self, field_index, icon_set_type, icon_id):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | field_index | int |要作为过滤器基础的字段的整数偏移量<br/>（从列表的左边开始；最左边的字段是字段 0）。|
 | icon_set_type | [IconSetType](/cells/zh/python-net/aspose.cells/iconsettype) |图标集类型。|

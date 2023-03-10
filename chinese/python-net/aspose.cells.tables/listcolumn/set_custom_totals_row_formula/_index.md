@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_custom_totals_row_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -18,7 +18,7 @@ def set_custom_totals_row_formula(self, formula, is_r1c1, is_local):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | formula | str |此列表列的公式。|
 | is_r1c1 | bool |公式是否需要格式化为R1C1。|

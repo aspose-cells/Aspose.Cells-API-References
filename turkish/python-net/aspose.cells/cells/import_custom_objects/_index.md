@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_custom_objects yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | list | list | özel nesne|
 | first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
@@ -48,10 +48,10 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | list | list | özel nesne|
-| property_names | list | Özellik adları Eğer null ise, nesnenin tüm özelliklerini içe aktaracağız.|
+| property_names | list | Özellik adları.Eğer null ise, nesnenin tüm özelliklerini içe aktaracağız.|
 | is_property_name_shown | bool | Özellik adının ilk satıra aktarılıp aktarılmayacağını belirtir.|
 | first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
 | first_column | int | İçe aktarılacak ilk hücrenin sütun numarası.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -30,7 +30,7 @@ Renvoie un objet Characters qui représente une plage de characters dans le text
 
 ###  Retour
 
-Objets de caractère.
+Objet personnages.
 
 
 ```python
@@ -39,7 +39,7 @@ def characters(self, start_index, length):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_index | int | L'index du début du caractère.|
 | length | int | Le nombre de caractères.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: replace méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def replace(self, old_value, new_value):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | old_value | str | L'ancien texte.|
 | new_value | str | Le nouveau texte.|
@@ -35,7 +35,7 @@ def replace(self, index, count, text):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | index | int | L'indice de départ.|
 | count | int | Le nombre de caractères.|

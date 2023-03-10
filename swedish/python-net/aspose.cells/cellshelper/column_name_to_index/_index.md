@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_name_to_index metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cellshelper/column_name_to_index/
 is_root: false
 ---
 ##  column_name_to_index(column_name) {#str}
-Får kolumnindex enligt kolumnnamn.
+Hämtar kolumnindex enligt kolumnnamn.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def column_name_to_index(self, column_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column_name | str | Kolumnnamn.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,13 +22,13 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | upper_left_column | int | Índice de la columna superior izquierda.|
 | stream | io.RawIOBase | Objeto de flujo que contiene los datos de la imagen.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -54,13 +54,13 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | upper_left_column | int | Índice de la columna superior izquierda.|
 | file_name | str | Nombre de archivo de imagen.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -85,7 +85,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | upper_left_column | int | Índice de la columna superior izquierda.|
@@ -93,7 +93,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Índice de la columna inferior derecha|
 | stream | io.RawIOBase | Objeto de flujo que contiene los datos de la imagen.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -119,7 +119,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | upper_left_column | int | Índice de la columna superior izquierda.|
@@ -127,7 +127,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Índice de la columna inferior derecha|
 | file_name | str | Nombre de archivo de imagen.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -152,7 +152,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | upper_left_column | int | Índice de la columna superior izquierda.|
@@ -160,7 +160,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 | width_scale | int | Escala del ancho de la imagen, un porcentaje.|
 | height_scale | int | Escala de altura de la imagen, un porcentaje.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -186,7 +186,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | upper_left_column | int | Índice de la columna superior izquierda.|
@@ -194,7 +194,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 | width_scale | int | Escala del ancho de la imagen, un porcentaje.|
 | height_scale | int | Escala de altura de la imagen, un porcentaje.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

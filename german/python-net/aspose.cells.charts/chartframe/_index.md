@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartFrame Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ Der Typ ChartFrame macht die folgenden Member verfügbar:
 | [text_font](/cells/de/python-net/aspose.cells.charts/chartframe/text_font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
 | [text_options](/cells/de/python-net/aspose.cells.charts/chartframe/text_options) | Ruft die Optionen des Textes ab und legt sie fest.|
 | [font](/cells/de/python-net/aspose.cells.charts/chartframe/font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
-| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/chartframe/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.|
+| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/chartframe/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/chartframe/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [background](/cells/de/python-net/aspose.cells.charts/chartframe/background) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [is_automatic_size](/cells/de/python-net/aspose.cells.charts/chartframe/is_automatic_size) | Gibt an, ob die Größe des Diagrammrahmens automatisch angepasst wird.|

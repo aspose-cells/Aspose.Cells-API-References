@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_group_detail Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_cell_auto_fit fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Standardvärdet är falskt.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
 använd [Worksheet.auto_fit_columns()](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_columns) och [Worksheet.auto_fit_rows()](/cells/sv/python-net/aspose.cells/worksheet/auto_fit_rows).
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

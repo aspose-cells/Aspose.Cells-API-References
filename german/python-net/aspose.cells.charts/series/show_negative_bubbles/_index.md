@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_negative_bubbles Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_negative_bubbles Eigentum
 
-True, wenn für die Diagrammgruppe negative Blasen angezeigt werden. Nur für Blasendiagramme gültig.
+True, wenn negative Blasen für die Diagrammgruppe angezeigt werden. Gilt nur für Blasendiagramme.
 ###  Definition:
 ```python
 @property

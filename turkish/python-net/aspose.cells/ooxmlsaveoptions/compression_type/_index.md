@@ -1,4 +1,4 @@
-﻿---
+---
 title: compression_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type mülk
 
-Ooxml dosyaları için sıkıştırma türünü alır ve ayarlar.
+Ooxml dosyası için sıkıştırma türünü alır ve ayarlar.
 
 ###  Notlar
 

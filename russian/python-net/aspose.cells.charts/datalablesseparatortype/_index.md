@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLablesSeparatorType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -29,7 +29,7 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Этот элемент устарел.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 используйте перечисление DataLabelsSeparatorType.
  Это свойство будет удалено через 12 месяцев, начиная с сентября 2020 года.
 Aspose приносит извинения за возможные неудобства.

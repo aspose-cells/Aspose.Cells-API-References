@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_row_height_pixel方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 890
@@ -18,7 +18,7 @@ def set_row_height_pixel(self, row, pixels):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row | int |行索引。|
 | pixels | int |像素数。|

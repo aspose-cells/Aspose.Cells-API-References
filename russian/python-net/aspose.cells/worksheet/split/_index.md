@@ -1,4 +1,4 @@
-﻿---
+---
 title: split метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-Разделенное окно.
+Разделяет окно.
 
 
 

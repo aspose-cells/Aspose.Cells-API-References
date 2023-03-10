@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 ###  Remarques
 
 Le format de l'image est spécifié en utilisant l'extension du nom de fichier.
 Par exemple, si vous spécifiez "monfichier.png", l'image sera enregistrée
- au format PNG.
+ au format PNG. Les extensions de fichier suivantes sont reconnues :
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 | image_type | aspose.cells.drawing.ImageType | Type d'image dans lequel enregistrer l'image.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 | jpeg_quality | int | Qualité Jpeg.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de sortie.|
 | jpeg_quality | int | Qualité Jpeg.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de sortie.|
 | image_type | aspose.cells.drawing.ImageType | Type d'image dans lequel enregistrer l'image.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | image_file | str | Le nom du fichier image avec le chemin complet.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Options de création d'images supplémentaires|
@@ -140,15 +140,15 @@ def to_image(self, image_file, options):
 
 Le format de l'image est spécifié en utilisant l'extension du nom de fichier.
 Par exemple, si vous spécifiez "monfichier.png", l'image sera enregistrée
- au format PNG.
+ au format PNG. Les extensions de fichier suivantes sont reconnues :
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Si la largeur ou la hauteur est nulle ou si le graphique n'est pas pris en charge conformément à la liste des graphiques pris en charge, cette méthode ne fera rien.
  Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)pour plus de détails.
-###  Exemples
+###  Exemple
 
-Enregistre au format Tiff avec une compression de 300 dpi et CCITT4.
+Enregistre au format Tiff avec 300 dpi et compression CCITT4.
 
 ```python
 from aspose.cells import Workbook
@@ -191,7 +191,7 @@ def to_image(self, stream, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux de sortie.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Options de création d'images supplémentaires|

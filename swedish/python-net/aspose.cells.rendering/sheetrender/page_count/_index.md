@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count fastighet
 
-Hämtar det totala antalet sidor för det aktuella kalkylbladet.
+Hämtar det totala sidantal för aktuellt kalkylblad.
 ###  Definition:
 ```python
 @property

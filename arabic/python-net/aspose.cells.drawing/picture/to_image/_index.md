@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_image
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الإخراج.|
 | image_type | [ImageType](/cells/ar/python-net/aspose.cells.drawing/imagetype) | النوع المراد حفظ الصورة به.|
@@ -26,7 +26,7 @@ def to_image(self, stream, image_type):
 
 التنسيقات التالية مدعومة:
 .bmp ، .gif ، .jpg ، .jpeg ، .tiff ، .emf.
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import ImageType
@@ -49,12 +49,12 @@ def to_image(self, image_file, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions
@@ -76,12 +76,12 @@ def to_image(self, stream, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions

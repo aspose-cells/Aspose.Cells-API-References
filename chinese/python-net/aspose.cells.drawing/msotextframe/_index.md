@@ -1,6 +1,6 @@
-﻿---
+---
 title: MsoTextFrame类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 380
@@ -22,7 +22,7 @@ MsoTextFrame 类型公开了以下成员：
 | [rotate_text_with_shape](/cells/zh/python-net/aspose.cells.drawing/msotextframe/rotate_text_with_shape) |指示是否旋转带有形状的文本。|
 | [left_margin_pt](/cells/zh/python-net/aspose.cells.drawing/msotextframe/left_margin_pt) |以点为单位返回左边距|
 | [right_margin_pt](/cells/zh/python-net/aspose.cells.drawing/msotextframe/right_margin_pt) |以点为单位返回右边距|
-| [top_margin_pt](/cells/zh/python-net/aspose.cells.drawing/msotextframe/top_margin_pt) |以 Points 为单位返回上边距|
+| [top_margin_pt](/cells/zh/python-net/aspose.cells.drawing/msotextframe/top_margin_pt) |以点为单位返回顶部边距|
 | [bottom_margin_pt](/cells/zh/python-net/aspose.cells.drawing/msotextframe/bottom_margin_pt) |以点为单位返回底部边距|
 
 

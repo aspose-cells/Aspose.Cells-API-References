@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_characters yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_characters() {#}
  Tüm Karakterler nesnelerini döndürür
-metin içindeki bir karakter aralığını temsil eder.
+bu, metin içindeki bir karakter aralığını temsil eder.
 
 
 ###  İadeler
@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 

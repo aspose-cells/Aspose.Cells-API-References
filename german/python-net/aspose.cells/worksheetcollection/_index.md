@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -22,7 +22,7 @@ Der Typ WorksheetCollection macht die folgenden Member verfügbar:
 | [threaded_comment_authors](/cells/de/python-net/aspose.cells/worksheetcollection/threaded_comment_authors) | Ruft die Liste der Thread-Kommentarautoren ab.|
 | [is_refresh_all_connections](/cells/de/python-net/aspose.cells/worksheetcollection/is_refresh_all_connections) | Gibt an, ob alle Verbindungen beim Öffnen einer Datei in MS Excel aktualisiert werden.|
 | [names](/cells/de/python-net/aspose.cells/worksheetcollection/names) | Ruft die Auflistung aller Name-Objekte in der Tabelle ab.|
-| [active_sheet_name](/cells/de/python-net/aspose.cells/worksheetcollection/active_sheet_name) | Stellt den Namen des aktiven Arbeitsblatts dar, wenn das Arbeitsblatt geöffnet wird.|
+| [active_sheet_name](/cells/de/python-net/aspose.cells/worksheetcollection/active_sheet_name) | Repräsentiert den Namen des aktiven Arbeitsblatts, wenn das Arbeitsblatt geöffnet wird.|
 | [active_sheet_index](/cells/de/python-net/aspose.cells/worksheetcollection/active_sheet_index) | Stellt den Index des aktiven Arbeitsblatts dar, wenn die Tabelle geöffnet wird.|
 | [dxfs](/cells/de/python-net/aspose.cells/worksheetcollection/dxfs) | Ruft die differenziellen Masterformatierungsdatensätze ab.|
 | [xml_maps](/cells/de/python-net/aspose.cells/worksheetcollection/xml_maps) | Ruft die XML-Zuordnungen in der Arbeitsmappe ab und legt sie fest.|
@@ -71,7 +71,7 @@ Der Typ WorksheetCollection macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

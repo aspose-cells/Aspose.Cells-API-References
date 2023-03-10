@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_numberic_type método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

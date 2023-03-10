@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_effect metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,9 +22,9 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| effect | [MsoPresetTextEffect](/cells/sv/python-net/aspose.cells.drawing/msopresettexteffect) | Den förinställda texteffekttypen för mso.|
+| effect | [MsoPresetTextEffect](/cells/sv/python-net/aspose.cells.drawing/msopresettexteffect) | Den mso förinställda texteffekttypen.|
 | text | str | WordArt-texten.|
 | font_name | str | Teckensnittets namn.|
 | size | int | Teckenstorleken|
@@ -34,8 +34,8 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | top | int | Representerar den vertikala förskjutningen av formen från dess vänstra rad, i pixelenhet.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int |Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
-| height | int | Representerar formens höjd i enheter av pixlar.|
-| width | int | Representerar formens bredd i enheter av pixlar.|
+| height | int | Representerar formhöjden, i pixelenhet.|
+| width | int | Representerar formens bredd i pixelenhet.|
 
 ###  Exempel
 

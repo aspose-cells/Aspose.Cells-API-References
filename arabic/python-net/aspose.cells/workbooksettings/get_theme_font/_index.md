@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_theme_font
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_theme_font(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [FontSchemeType](/cells/ar/python-net/aspose.cells/fontschemetype) | نوع نظام الخط.|
 

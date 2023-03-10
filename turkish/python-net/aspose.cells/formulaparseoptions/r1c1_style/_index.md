@@ -1,4 +1,4 @@
-﻿---
+---
 title: r1c1_style mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  r1c1_style mülk
 
-Formülün R1C1 referans stili olup olmadığı. Varsayılan değer yanlıştır.
+Formülün R1C1 referans stili olup olmadığı. Varsayılan yanlıştır.
 ###  Tanım:
 ```python
 @property

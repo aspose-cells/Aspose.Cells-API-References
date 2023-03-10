@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_link méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | uri | str | URI de l'espace de noms de la balise active.|
 | name | str | Le nom de la balise active.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: edit_web_page mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  edit_web_page mülk
 
-Web sorgusu verilerini gösteren, kullanıcıya yönelik web sayfasının URL'si.
+Web sorgusu verilerini gösteren, kullanıcıya yönelik web sayfasının URL'si. Bu URL kalıcı
 sourceData="true" ve url'nin bir XML dosyasına başvurmak üzere yeniden yönlendirilmesi durumunda.
 Ardından, kullanıcıya bakan sayfa kullanıcı arayüzünde gösterilebilir ve XML verileri alınabilir.
 kamera ARKASI.

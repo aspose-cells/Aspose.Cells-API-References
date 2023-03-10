@@ -1,4 +1,4 @@
-﻿---
+---
 title: arc_start_point_y_px الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_rows méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,7 +31,7 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | only_auto | bool |True, ajuste automatiquement la hauteur de ligne uniquement lorsque la hauteur de ligne n'est pas personnalisée.|
 
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/fr/python-net/aspose.cells/autofitteroptions) | Les options de l'installateur automatique|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début.|
 | end_row | int | Index de fin de ligne.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début.|
 | end_row | int | Index de fin de ligne.|

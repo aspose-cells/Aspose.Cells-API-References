@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de la propiedad.|
 | value | str | El valor de la propiedad.|
@@ -43,7 +43,7 @@ def add(self, name, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de la propiedad.|
 | value | int | El valor de la propiedad.|
@@ -64,14 +64,14 @@ def add(self, name, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de la propiedad.|
 | value | DateTime | El valor de la propiedad.|
 
 
 ##  add(name, value) {#str-bool}
- Crea una nueva propiedad de documento personalizado del**TipoDePropiedad.Booleano** tipo de datos.
+ Crea una nueva propiedad de documento personalizado del**PropertyType.Boolean** tipo de datos.
 
 
 ###  Devoluciones
@@ -85,14 +85,14 @@ def add(self, name, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de la propiedad.|
 | value | bool | El valor de la propiedad.|
 
 
 ##  add(name, value) {#str-float}
- Crea una nueva propiedad de documento personalizado del**PropertyType.Flotador** tipo de datos.
+ Crea una nueva propiedad de documento personalizado del**PropertyType.Float** tipo de datos.
 
 
 ###  Devoluciones
@@ -106,7 +106,7 @@ def add(self, name, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | name | str | El nombre de la propiedad.|
 | value | float | El valor de la propiedad.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: number Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number Eigentum
 
-Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest.
+Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest. Die Formatierungsmuster sind für verschiedene Regionen unterschiedlich.
 
 ###  Bemerkungen
 

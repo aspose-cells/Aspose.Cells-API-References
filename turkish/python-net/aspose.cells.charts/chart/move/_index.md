@@ -1,4 +1,4 @@
-﻿---
+---
 title: move yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def move(self, upper_left_row, upper_left_column, lower_right_row, lower_right_c
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|

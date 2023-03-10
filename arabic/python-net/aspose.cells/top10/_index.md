@@ -1,4 +1,4 @@
-﻿---
+---
 title: Top10 الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -27,11 +27,11 @@ is_root: false
 | :- | :- |
 | [is_percent](/cells/ar/python-net/aspose.cells/top10/is_percent) | الحصول على أو تحديد ما إذا كانت قاعدة "أعلى / أسفل" قاعدة "أعلى / أسفل ن" قاعدة.<br/> القيمة الافتراضية هي كاذبة.|
 | [is_bottom](/cells/ar/python-net/aspose.cells/top10/is_bottom) | احصل على أو عيّن ما إذا كانت قاعدة "أعلى / أسفل" قاعدة "سفلية".<br/> القيمة الافتراضية هي كاذبة.|
-| [rank](/cells/ar/python-net/aspose.cells/top10/rank) | الحصول على قيمة "n" أو تعيينها في قاعدة التنسيق الشرطي "top / bottom n".<br/>إذا كانت IsPercent صحيحة ، فيجب أن تكون القيمة بين 0 و 100.<br/>وإلا يجب أن يكون بين 0 و 1000.<br/> القيمة الافتراضية هي 10.|
+| [rank](/cells/ar/python-net/aspose.cells/top10/rank) | الحصول على قيمة "n" أو تعيينها في قاعدة التنسيق الشرطي "top / bottom n".<br/>إذا كانت IsPercent صحيحة ، فيجب أن تتراوح القيمة بين 0 و 100.<br/>وإلا يجب أن يكون بين 0 و 1000.<br/> القيمة الافتراضية هي 10.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

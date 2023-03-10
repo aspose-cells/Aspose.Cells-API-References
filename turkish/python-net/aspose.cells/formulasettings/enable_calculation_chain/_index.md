@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_calculation_chain mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain mülk
 
-Formüller için hesaplama zincirini etkinleştirip etkinleştirmeyeceği.
+Formüller için hesaplama zincirini etkinleştirip etkinleştirmeyeceği. Varsayılan yanlıştır.
 
 ###  Notlar
 

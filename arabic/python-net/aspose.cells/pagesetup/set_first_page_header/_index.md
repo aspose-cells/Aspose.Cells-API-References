@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_first_page_header
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def set_first_page_header(self, section, header_script):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 | header_script | str | برنامج نصي بتنسيق الرأس.|

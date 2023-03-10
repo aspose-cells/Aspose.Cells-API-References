@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_xml_source_data الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

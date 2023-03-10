@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_optimized 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 170
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-默认值为 false。当前只有当该属性设置为 true 时才会优化边框线。
+默认值为假。当此属性设置为 true 时，当前仅优化边界线。
 ### 定义：
 ```python
 @property

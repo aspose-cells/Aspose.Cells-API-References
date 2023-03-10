@@ -1,4 +1,4 @@
-﻿---
+---
 title: axis_labels Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels Eigentum
 
-Ruft die Beschriftungen der Achse nach dem Aufrufen der Methode Chart.Calculate() ab.
+Ruft die Beschriftungen der Achse nach dem Aufruf der Methode Chart.Calculate() ab.
 ###  Definition:
 ```python
 @property

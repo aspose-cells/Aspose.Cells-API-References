@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_formula_on_open proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Indica se analizzare la formula durante la lettura del file.
 
 Si applica solo ai file Excel Xlsx, Xltx, Xltm e Xlsm
 perché le formule nei file sono memorizzate con una formula stringa.
-NOTA: questo membro è ora obsoleto, utilizzare invece LoadOptions.ParsingFormulaOnOpen.
+NOTA: questo membro è ora obsoleto. Utilizzare invece LoadOptions.ParsingFormulaOnOpen.
  Questa proprietà verrà rimossa 12 mesi dopo da gennaio 2020.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

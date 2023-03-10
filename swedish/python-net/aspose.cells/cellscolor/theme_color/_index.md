@@ -1,4 +1,4 @@
-﻿---
+---
 title: theme_color fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color fastighet
 
-Får temafärgen.
+Får temafärgen. Gäller endast för temafärgstyp.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_3d الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

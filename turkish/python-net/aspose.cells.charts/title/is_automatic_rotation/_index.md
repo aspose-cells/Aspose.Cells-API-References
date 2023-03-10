@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_rotation mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

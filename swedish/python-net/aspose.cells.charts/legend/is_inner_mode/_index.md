@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inner_mode fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ False anger att storleken ska avgöra storleken på tomtområdet, bockarna och a
 
 ###  Anmärkningar
 
-Endast för Xlsx-filer.
+Endast för Xlsx-fil.
 ###  Definition:
 ```python
 @property

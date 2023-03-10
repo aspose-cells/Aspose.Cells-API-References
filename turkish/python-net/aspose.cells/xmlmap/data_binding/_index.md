@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_binding mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

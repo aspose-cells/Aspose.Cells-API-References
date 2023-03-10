@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_multi_level_labels الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_multi_level_labels الملكية
 
-يشير إلى ما إذا كانت الملصقات ستظهر على أنها متعددة المستويات.
+يشير إلى ما إذا كانت الملصقات ستظهر كمستويات متعددة.
 
 ###  ملاحظات
 

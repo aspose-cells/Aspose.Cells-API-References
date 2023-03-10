@@ -1,4 +1,4 @@
-﻿---
+---
 title: separator proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene o imposta il tipo separator utilizzato per le etichette dati in un grafi
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare la proprietà DataLabels.SeparatorType.
  Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
 Aspose si scusa per gli eventuali disagi causati.

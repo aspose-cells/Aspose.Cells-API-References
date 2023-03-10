@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_column_by_index
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_column_by_index(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | المركز في القائمة.|
 

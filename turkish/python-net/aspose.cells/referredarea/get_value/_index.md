@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_value yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,7 +24,7 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_offset | int | bu alanın başlangıç satırından satır ofseti|
 | col_offset | int |bu alanın başlangıç satırından sütun uzaklığı|
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_offset | int | bu alanın başlangıç satırından satır ofseti|
 | col_offset | int |bu alanın başlangıç satırından sütun uzaklığı|
-| calculate_formulas | bool | Belirtilen referans formül ise tekrarlı olarak hesaplayıp hesaplamadığı|
+| calculate_formulas | bool | Belirtilen başvuru formül ise yinelemeli olarak hesaplanıp hesaplanmadığı|
 
 
 

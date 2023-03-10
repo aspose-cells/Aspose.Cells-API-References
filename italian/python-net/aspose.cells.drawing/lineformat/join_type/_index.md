@@ -1,4 +1,4 @@
-﻿---
+---
 title: join_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Specifica il tipo di unione di linea.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import LineJoinType

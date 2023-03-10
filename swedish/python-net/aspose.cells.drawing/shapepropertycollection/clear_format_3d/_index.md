@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_format_3d metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/shapepropertycollection/clear_format_3d
 is_root: false
 ---
 ##  clear_format_3d() {#}
-Rensar 3D-formegenskaperna för formen.
+Rensar formens 3D-formegenskaper.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_permission propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission propriété
 
-Autorisation d'imprimer des documents pdf
+Autorisation d'imprimer un document pdf
 ###  Définition:
 ```python
 @property

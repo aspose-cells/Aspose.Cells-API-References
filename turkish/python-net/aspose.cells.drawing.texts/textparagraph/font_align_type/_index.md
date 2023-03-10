@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_align_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type mülk
 
-Gerçek kelimelerin bir metin satırında dikey olarak nereye yerleştirileceğini belirler.
+Gerçek kelimelerin bir metin satırında dikey olarak nereye yerleştirileceğini belirler. Bu fırsatlar
 karakterlerin taban çizgilerine göre dikey yerleşimi ile.
 ###  Tanım:
 ```python

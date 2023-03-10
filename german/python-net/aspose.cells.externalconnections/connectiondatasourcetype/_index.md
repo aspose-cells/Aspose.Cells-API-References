@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionDataSourceType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -18,10 +18,10 @@ Der Typ ConnectionDataSourceType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | ODBC_BASED_SOURCE | ODBC-basierte Quelle|
-| DAO_BASED_SOURCE | DAO-basierte Quellen|
+| DAO_BASED_SOURCE | DAO-basierte Quelle|
 | FILE_BASED_DATA_BASE_SOURCE | Dateibasierte Datenbankquelle|
-| WEB_QUERY | Webabfragen|
-| OLEDB_BASED_SOURCE | OLE DB-basierte Quellen|
+| WEB_QUERY | Web-Abfrage|
+| OLEDB_BASED_SOURCE | OLE DB-basierte Quelle|
 | TEXT_BASED_SOURCE | Textbasierte Quelle|
 | ADO_RECORD_SET | ADO-Rekordsatz|
 | DSP | DSP |

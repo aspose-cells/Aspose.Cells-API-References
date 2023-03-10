@@ -1,4 +1,4 @@
-﻿---
+---
 title: invert_if_negative proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -12,7 +12,7 @@ is_root: false
 Se la proprietà è vera e il valore del punto del grafico è un numero negativo,
 il colore di primo piano e il colore di sfondo verranno scambiati.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

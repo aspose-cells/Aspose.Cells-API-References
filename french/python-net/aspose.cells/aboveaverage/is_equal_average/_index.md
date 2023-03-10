@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_equal_average propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

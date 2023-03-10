@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/sheettype/
 is_root: false
 ---
 ##  SheetType enumeración
-Especifica el tipo de hoja de cálculo.
+Especifica el tipo de hoja de trabajo.
 
 
 
@@ -17,11 +17,11 @@ El tipo SheetType expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| VB | Módulos de Visual Basic|
+| VB | Módulo Visual Basic|
 | WORKSHEET |  |
-| CHART | cuadro|
+| CHART | Cuadro|
 | BIFF4_MACRO | Hoja de macros BIFF4|
-| INTERNATIONAL_MACRO | hoja macro internacional|
+| INTERNATIONAL_MACRO | Ficha macro internacional|
 | OTHER |  |
 | DIALOG |Hoja de trabajo de diálogo|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection indicizzatore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  RowCollection indicizzatore
 
-Ottiene un oggetto [Row](/cells/it/python-net/aspose.cells/row) in base all'indice di riga specificato.
+Ottiene un oggetto [Row](/cells/it/python-net/aspose.cells/row) in base all'indice di riga specificato. L'oggetto Row dell'indice di riga specificato verrà istanziato se non esiste prima.
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |

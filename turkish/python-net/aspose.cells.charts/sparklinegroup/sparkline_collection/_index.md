@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparkline_collection mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparkline_collection mülk
 
-[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnelerinin koleksiyonunu alır.
+[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnesinin koleksiyonunu alır.
 
 ###  Notlar
 

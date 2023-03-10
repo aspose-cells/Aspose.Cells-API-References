@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_decimal_separator Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator Eigentum
 
-Ruft das Dezimaltrennzeichen zum Formatieren/Parsen numerischer Werte ab oder legt es fest.
+Ruft das Dezimaltrennzeichen zum Formatieren/Parsen numerischer Werte ab oder legt es fest. Standard ist das Dezimaltrennzeichen der aktuellen Region.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: shape_adjust_values propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shape_adjust_values propiedad
 
-Obtiene una colección de valores de ajuste de forma
+Obtiene una colección de valor de ajuste de forma
 ###  Definición:
 ```python
 @property

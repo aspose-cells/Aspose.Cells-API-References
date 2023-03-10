@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_local_built_in_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Текст, зависящий от локали.
+Текст, зависящий от локали. Локаль была указана рабочей книгой, для которой используются эти настройки.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_local_built_in_name(self, standard_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | standard_name | str | Стандартный (локаль en-US) текст встроенного имени.|
 

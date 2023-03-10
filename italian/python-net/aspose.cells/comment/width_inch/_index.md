@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_inch proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch proprietà
 
-Rappresenta la larghezza del commento, in unità di pollici.
+Rappresenta la larghezza del commento, in pollici.
 
-###  Esempi
+###  Esempio
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_member_property_tips недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

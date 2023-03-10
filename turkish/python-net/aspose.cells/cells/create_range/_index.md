@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_range yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def create_range(self, address):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | address | str | Aralığın adresi.|
 
@@ -42,7 +42,7 @@ def create_range(self, upper_left_cell, lower_right_cell):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_cell | str | Sol üst hücre adı.|
 | lower_right_cell | str | Sağ alt hücre adı.|
@@ -63,11 +63,11 @@ def create_range(self, first_index, number, is_vertical):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_index | int | İlk satır dizini veya ilk sütun dizini, sıfır tabanlı.|
 | number | int | Bir tabanlı toplam satır veya sütun sayısı.|
-| is_vertical | bool | True - Hücre sütunlarından oluşturulan aralık.|
+| is_vertical | bool | True - Hücre sütunlarından oluşturulan aralık. Yanlış - Hücre sıralarından oluşturulan aralık.|
 
 
 ##  create_range(first_row, first_column, total_rows, total_columns) {#int-int-int-int}
@@ -85,7 +85,7 @@ def create_range(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı|
 | first_column | int | Bu aralığın ilk sütunu|

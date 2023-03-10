@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة copy_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def copy_style(self, range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range | [Range](/cells/ar/python-net/aspose.cells/range) | المصدر [Range](/cells/ar/python-net/aspose.cells/range) كائن.|
 

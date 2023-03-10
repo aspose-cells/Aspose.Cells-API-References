@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_local_built_in_name
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene il testo dipendente dalle impostazioni locali per il nome incorporato in
 
 ###  ritorna
 
-Testo dipendente dalla lingua.
+Testo dipendente dalla lingua. Le impostazioni locali sono state specificate dalla cartella di lavoro per cui vengono utilizzate queste impostazioni.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_local_built_in_name(self, standard_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | standard_name | str | Testo standard (en-US locale) del nome integrato.|
 

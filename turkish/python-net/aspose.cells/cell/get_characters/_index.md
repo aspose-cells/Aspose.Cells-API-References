@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_characters yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | flag | bool | Hücre tablonun içindeyse hücreye tablo stili uygulanıp uygulanmayacağını gösterir.|
 

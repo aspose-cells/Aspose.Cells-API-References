@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_shared_formula метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
 | row_number | int |Количество строк для заполнения формулы.|
@@ -39,7 +39,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
 | row_number | int |Количество строк для заполнения формулы.|
@@ -58,7 +58,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
 | row_number | int |Количество строк для заполнения формулы.|
@@ -67,7 +67,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 | is_local | bool | отформатирована ли формула в локали|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот класс устарел.
+ПРИМЕЧАНИЕ. Этот класс устарел. Вместо,
 пожалуйста, используйте Cell.SetSharedFormula(string,int,int,FormulaParseOptions).
 Это свойство будет удалено через 12 месяцев, начиная с декабря 2019 года.
 Aspose приносит извинения за возможные неудобства.
@@ -83,7 +83,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
 | row_number | int |Количество строк для заполнения формулы.|

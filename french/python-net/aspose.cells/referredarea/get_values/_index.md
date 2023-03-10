@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_values méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient les valeurs des cellules dans cette zone.
 
 ###  Retour
 
-Si cette zone n'est pas valide, "#REF!" sera renvoyé ;
+Si cette zone est invalide, "#REF!" sera retourné ;
 Si cette zone est une seule cellule, renvoyez l'objet de valeur de cellule ;
 Sinon, renvoyez un tableau 2D pour toutes les valeurs de cette zone.
 
@@ -32,7 +32,7 @@ Obtient les valeurs des cellules dans cette zone.
 
 ###  Retour
 
-Si cette zone n'est pas valide, "#REF!" sera renvoyé ;
+Si cette zone est invalide, "#REF!" sera retourné ;
 Si cette zone est une seule cellule, renvoyez l'objet de valeur de cellule ;
 Sinon, renvoyez un tableau 2D pour toutes les valeurs de cette zone.
 
@@ -43,7 +43,7 @@ def get_values(self, calculate_formulas):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | calculate_formulas | bool | Dans cette plage, s'il y a des formules qui n'ont pas été calculées,<br/> ce drapeau indique si ces formules doivent être calculées de manière récursive|
 

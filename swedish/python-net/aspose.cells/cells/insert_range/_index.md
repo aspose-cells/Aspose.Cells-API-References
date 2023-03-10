@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,10 +18,10 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Skiftområde.|
-| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Skift celler alternativ.|
+| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Alternativet Skift celler.|
 
 
 ##  insert_range(area, shift_number, shift_type) {#CellArea-int-ShiftType}
@@ -35,11 +35,11 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Skiftområde.|
 | shift_number | int | Antal rader eller kolumner som ska infogas.|
-| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Skift celler alternativ.|
+| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Alternativet Skift celler.|
 
 
 ##  insert_range(area, shift_number, shift_type, update_reference) {#CellArea-int-ShiftType-bool}
@@ -53,11 +53,11 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Skiftområde.|
 | shift_number | int | Antal rader eller kolumner som ska infogas.|
-| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Skift celler alternativ.|
+| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Alternativet Skift celler.|
 | update_reference | bool | Indikerar om uppdateringsreferenser i andra kalkylblad.|
 
 

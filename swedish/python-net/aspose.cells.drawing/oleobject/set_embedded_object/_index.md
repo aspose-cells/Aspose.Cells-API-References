@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_embedded_object metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,12 +18,12 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| link_to_file | bool | Indikerar om objektet länkar till filen. Om det är sant ignoreras parametern objectData.|
+| link_to_file | bool | Anger om objektet länkar till filen. Om sant, ignoreras parametern objectData.|
 | object_data | bytes | Data för inbäddade objekt.|
 | source_file_name | str | Filnamnet.|
-| display_as_icon | bool | Anger om objektet visas som en ikon.<br/> Om det är sant kommer den ursprungliga bilddatan att täckas av en ikon.|
+| display_as_icon | bool | Indikerar om objektet visas som en ikon.<br/> Om det är sant kommer den ursprungliga bilddatan att täckas av en ikon.|
 | label | str | Ikonetiketten. Fungerar bara när displayAsIcon är sant.|
 
 
@@ -38,12 +38,12 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| link_to_file | bool | Indikerar om objektet länkar till filen. Om det är sant ignoreras parametern objectData.|
+| link_to_file | bool | Anger om objektet länkar till filen. Om sant, ignoreras parametern objectData.|
 | object_data | bytes | Data för inbäddade objekt.|
 | source_file_name | str | Filnamnet.|
-| display_as_icon | bool | Anger om objektet visas som en ikon.<br/> Om det är sant kommer den ursprungliga bilddatan att täckas av en ikon.|
+| display_as_icon | bool | Indikerar om objektet visas som en ikon.<br/> Om det är sant kommer den ursprungliga bilddatan att täckas av en ikon.|
 | label | str | Ikonetiketten. Fungerar bara när displayAsIcon är sant.|
 | update_icon | bool | Indikerar om ikonen uppdateras automatiskt.|
 ###  Anmärkningar

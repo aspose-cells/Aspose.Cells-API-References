@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparklines propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparklines propiedad
 
-Obtiene la colección de [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline) objetos.
+Obtiene la colección del objeto [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline).
 ###  Definición:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_columns méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,12 +18,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/fr/python-net/aspose.cells/cells) | L'objet source Cells contient les données et les formats à copier.|
 | source_column_index | int | Index de la colonne source.|
 | destination_column_index | int | Index de la colonne de destination.|
-| column_number | int | Les numéros de colonne copiés.|
+| column_number | int | Le numéro de colonne copié.|
 
 
 ##  copy_columns(source_cells0, source_column_index, destination_column_index, column_number, paste_options) {#Cells-int-int-int-PasteOptions}
@@ -37,12 +37,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/fr/python-net/aspose.cells/cells) | L'objet source Cells contient les données et les formats à copier.|
 | source_column_index | int | Index de la colonne source.|
 | destination_column_index | int | Index de la colonne de destination.|
-| column_number | int | Les numéros de colonne copiés.|
+| column_number | int | Le numéro de colonne copié.|
 | paste_options | [PasteOptions](/cells/fr/python-net/aspose.cells/pasteoptions) | les options de collage.|
 
 
@@ -57,7 +57,7 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/fr/python-net/aspose.cells/cells) | L'objet source Cells contient les données et les formats à copier.|
 | source_column_index | int | Index de la colonne source.|

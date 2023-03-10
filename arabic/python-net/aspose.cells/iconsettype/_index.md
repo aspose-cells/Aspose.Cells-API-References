@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد IconSetType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ is_root: false
 | SIGNS3 | 3 تعيين رمز علامات.|
 | SYMBOLS3 | مجموعة أيقونات مكونة من 3 رموز (محاطة بدائرة).|
 | SYMBOLS32 | 3 تعيين رمز الرموز (غير محاطة بدائرة).|
-| TRAFFIC_LIGHTS31 | 3 مجموعة أيقونات إشارات المرور (بدون تشذيب).|
+| TRAFFIC_LIGHTS31 | 3 مجموعة أيقونات إشارات المرور (بدون قطع).|
 | TRAFFIC_LIGHTS32 | 3 رمز إشارات المرور مع حدود سوداء سميكة.|
 | ARROWS4 | 4 مجموعة رمز الأسهم.|
 | ARROWS_GRAY4 | 4 مجموعة أيقونات الأسهم الرمادية.|

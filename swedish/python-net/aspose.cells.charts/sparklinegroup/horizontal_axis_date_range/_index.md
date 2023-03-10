@@ -1,4 +1,4 @@
-﻿---
+---
 title: horizontal_axis_date_range fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

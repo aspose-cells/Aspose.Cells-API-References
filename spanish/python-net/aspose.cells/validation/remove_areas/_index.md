@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_areas método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | areas | list | las áreas donde se debe eliminar esta configuración de validación.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartGlobalizationSettings Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.charts/chartglobalizationsettings/
 is_root: false
 ---
 ##  ChartGlobalizationSettings Klasse
-Stellt die Globalisierungseinstellungen für Diagramme dar.
+Stellt die Globalisierungseinstellungen für das Diagramm dar.
 
 
 

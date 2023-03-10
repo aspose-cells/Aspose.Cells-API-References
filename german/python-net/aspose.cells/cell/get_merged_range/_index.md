@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_merged_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt ein [Range](/cells/de/python-net/aspose.cells/range)-Objekt zurück, das ei
 
 ###  Kehrt zurück
 
-Objekt [Range](/cells/de/python-net/aspose.cells/range). Null, wenn diese Zelle nicht zusammengeführt wird.
+[Range](/cells/de/python-net/aspose.cells/range) Objekt. Null, wenn diese Zelle nicht zusammengeführt wird.
 
 
 ```python

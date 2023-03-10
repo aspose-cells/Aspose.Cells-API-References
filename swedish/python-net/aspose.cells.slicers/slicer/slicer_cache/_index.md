@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  slicer_cache fastighet
 
-Returnerar SlicerCache-objektet som är associerat med slicern.
+Returnerar SlicerCache-objektet som är associerat med slicern. Skrivskyddad.
 
 ###  Exempel
 

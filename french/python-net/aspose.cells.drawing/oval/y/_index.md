@@ -1,4 +1,4 @@
-﻿---
+---
 title: y propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le décalage vertical de la forme par rapport à la bordure supérieure de la feuille de calcul, en pixels.
 
-###  Exemples
+###  Exemple
 
 ```python
 

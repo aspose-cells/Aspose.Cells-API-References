@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_field_name_shown fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

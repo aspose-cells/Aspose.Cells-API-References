@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_redundant_spaces fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  delete_redundant_spaces fastighet
 
- Indikerar om överflödiga blanksteg ska raderas när texten radbryter rader med hjälp av<br>Standardvärdet är false.
+ Indikerar om redundanta blanksteg ska raderas när texten radbryts med hjälp av<br>tag. Standardvärdet är false.
 ###  Definition:
 ```python
 @property

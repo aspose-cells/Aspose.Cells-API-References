@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_calculation_chain الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain الملكية
 
-سواء تم تمكين سلسلة الحساب للصيغ.
+سواء تم تمكين سلسلة الحساب للصيغ. الافتراضي هو خطأ.
 
 ###  ملاحظات
 

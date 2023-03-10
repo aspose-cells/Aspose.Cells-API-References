@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_optimized mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Notlar
 
-Varsayılan değer false'tur. Şu anda bu özellik true olarak ayarlandığında yalnızca sınır çizgileri optimize edilir.
+Varsayılan değer yanlıştır. Şu anda, bu özellik true olarak ayarlandığında yalnızca sınır çizgileri optimize edilir.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_smart_markers метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Примечания
 
-Строковый массив создается при каждом вызове.
+Строковый массив создается при каждом вызове. Массив сортируется и повторяющиеся значения удаляются.
 
 
 ###  Смотрите также

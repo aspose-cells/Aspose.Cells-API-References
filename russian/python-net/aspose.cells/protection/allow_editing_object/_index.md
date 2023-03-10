@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_editing_object недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

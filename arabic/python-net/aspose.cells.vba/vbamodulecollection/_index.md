@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModuleCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [add(sheet)](/cells/ar/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |يضيف وحدات نمطية لورقة العمل.|
+| [add(sheet)](/cells/ar/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |يضيف وحدة لورقة العمل.|
 | [add(type, name)](/cells/ar/python-net/aspose.cells.vba/vbamodulecollection/add/#VbaModuleType-str) | يضيف وحدة.|
 | [copy_to(array)](/cells/ar/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#list) | ينسخ قائمة المصفوفات بأكملها إلى قائمة مصفوفة متوافقة أحادية البعد ، بدءًا من بداية قائمة الصفيف الهدف.|
 | [copy_to(index, array, array_index, count)](/cells/ar/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#int-list-int-int) |ينسخ نطاقًا من العناصر من قائمة المصفوفة إلى قائمة مصفوفة أحادية البعد متوافقة ، بدءًا من الفهرس المحدد لقائمة الصفيف الهدف.|
@@ -38,7 +38,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name mülk
 
-Bağlantının name'ini belirtir.
+Bağlantının name'ini belirtir. Her bağlantının benzersiz bir name numarası olmalıdır.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ Der Typ WorkbookDesigner macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [workbook](/cells/de/python-net/aspose.cells/workbookdesigner/workbook) |Ruft das Objekt [WorkbookDesigner.workbook](/cells/de/python-net/aspose.cells/workbookdesigner#workbook) ab und legt es fest.|
-| [repeat_formulas_with_subtotal](/cells/de/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Gibt an, ob Formeln mit Zwischensummenzeilen wiederholt werden.|
+| [repeat_formulas_with_subtotal](/cells/de/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Gibt an, ob sich Formeln mit Zwischensummenzeile wiederholen.|
 | [update_empty_string_as_null](/cells/de/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | Wenn TRUE, wird Null eingefügt, wenn der Wert "" ist;|
 | [update_reference](/cells/de/python-net/aspose.cells/workbookdesigner/update_reference) |Gibt an, ob Verweise in anderen Arbeitsblättern aktualisiert werden.|
 | [calculate_formula](/cells/de/python-net/aspose.cells/workbookdesigner/calculate_formula) | Gibt an, ob Formeln berechnet werden sollen.|
@@ -46,7 +46,7 @@ Der Typ WorkbookDesigner macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

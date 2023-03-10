@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_pixel недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает или задает смещение формы среза по горизонтали относительно левого столбца в пикселях.
 
-###  Примеры
+###  Пример
 
 ```python
 

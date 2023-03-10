@@ -1,4 +1,4 @@
-﻿---
+---
 title: macro_name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على اسم الماكرو وتعيينه.
 
-###  أمثلة
+###  مثال
 
 ```python
 

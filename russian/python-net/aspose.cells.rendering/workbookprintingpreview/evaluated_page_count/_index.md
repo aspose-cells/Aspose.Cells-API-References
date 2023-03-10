@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Оцените общее количество страниц в этой книге
 
-###  Примеры
+###  Пример
 
 В следующем коде показан самый быстрый способ получить количество страниц книги.
 

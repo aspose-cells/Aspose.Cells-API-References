@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,9 +18,9 @@ def add(self, name, val):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| name | str | le nom de l'ajustement. C'est comme "adj (utilisé lorsqu'il n'y a qu'une seule valeur d'ajustement)", "adj1", "adj2", "adj3" et ainsi de suite.|
+| name | str | le nom de régler. C'est comme "adj (utilisé lorsqu'il n'y a qu'une seule valeur de réglage)", "adj1", "adj2", "adj3" et ainsi de suite.|
 | val | float | la valeur d'ajuster|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: change_data_source método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ def change_data_source(self, source):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source | list |  |
 

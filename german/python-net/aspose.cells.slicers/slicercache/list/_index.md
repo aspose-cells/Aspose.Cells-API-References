@@ -1,4 +1,4 @@
-﻿---
+---
 title: list Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list Eigentum
 
-Gibt zurück, ob der Slicer dem angegebenen Slicer-Cache zugeordnet ist und auf einer Nicht-OLAP-Datenquelle basiert.
+Gibt zurück, ob der Slicer, der dem angegebenen Slicer-Cache zugeordnet ist, auf einer Nicht-OLAP-Datenquelle basiert. Schreibgeschützt
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

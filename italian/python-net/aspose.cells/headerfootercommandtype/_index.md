@@ -1,4 +1,4 @@
-﻿---
+---
 title: HeaderFooterCommandType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -25,7 +25,7 @@ Il tipo HeaderFooterCommandType espone i membri seguenti:
 | SHEET_NAME | Nome del foglio|
 | FILE_NAME | Nome file senza percorso|
 | FILE_PATH | Percorso file senza nome file|
-| PICTURE | Immagini|
+| PICTURE | Immagine|
 
 
 

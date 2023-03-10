@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_index mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Kaydedilecek ilk sayfanın 0 tabanlı dizinini alır veya ayarlar.
 
 Varsayılan 0'dır.
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki örnek, bir Microsoft Excel dosyasındaki sayfa aralığının (3 ve 4) PDF'e nasıl dönüştürüleceğini gösterir.
 

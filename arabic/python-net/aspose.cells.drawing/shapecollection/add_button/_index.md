@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_button
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_button(self, upper_left_row, top, upper_left_column, left, height, width
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ Button من صفه الأيسر ، بوحدة بكسل.|
@@ -31,7 +31,7 @@ def add_button(self, upper_left_row, top, upper_left_column, left, height, width
 | height | int | يمثل ارتفاع الزر ، بوحدة البكسل.|
 | width | int | يمثل عرض الزر ، بوحدة البكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

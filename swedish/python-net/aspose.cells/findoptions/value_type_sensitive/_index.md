@@ -1,4 +1,4 @@
-﻿---
+---
 title: value_type_sensitive fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

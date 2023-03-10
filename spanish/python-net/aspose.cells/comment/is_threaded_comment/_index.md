@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_threaded_comment propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indica si este comentario es un comentario encadenado.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

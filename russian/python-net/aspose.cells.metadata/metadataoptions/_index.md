@@ -1,4 +1,4 @@
-﻿---
+---
 title: MetadataOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [MetadataOptions(metadata_type)](/cells/ru/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Создает возможность загрузки метаданных.|
+| [MetadataOptions(metadata_type)](/cells/ru/python-net/aspose.cells.metadata/metadataoptions/__init__/#MetadataType) | Создает опции загрузки метаданных.|
 
 
 ###  Характеристики

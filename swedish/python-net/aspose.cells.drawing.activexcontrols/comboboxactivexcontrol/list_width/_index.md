@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_width fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width fastighet
 
-Hämtar och ställer in bredden i poängenheter.
+Hämtar och ställer in bredden i poängenhet.
 ###  Definition:
 ```python
 @property

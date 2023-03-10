@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPictureType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen FillPictureType avslöjar följande medlemmar:
 | :- | :- |
 | STRETCH | Sträcka|
 | STACK | Stack|
-| STACK_AND_SCALE | Stack Och Skala|
+| STACK_AND_SCALE | StackAndScale|
 
 
 

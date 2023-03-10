@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_connection_points método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -23,7 +23,7 @@ def get_connection_points(self):
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

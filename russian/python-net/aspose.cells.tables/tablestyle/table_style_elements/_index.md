@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_style_elements недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

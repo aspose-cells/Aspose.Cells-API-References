@@ -1,4 +1,4 @@
-﻿---
+---
 title: replace метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def replace(self, old_value, new_value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | old_value | str | Старый текст.|
 | new_value | str | Новый текст.|
@@ -35,7 +35,7 @@ def replace(self, index, count, text):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | index | int | Начальный индекс.|
 | count | int | Количество символов.|

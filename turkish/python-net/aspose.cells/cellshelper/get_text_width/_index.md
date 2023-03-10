@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_text_width yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_text_width(self, text, font, scaling):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | text | str | Metin.|
 | font | [Font](/cells/tr/python-net/aspose.cells/font) | Metnin yazı tipi.|

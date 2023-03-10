@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة filter
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def filter(self, field_index, criteria):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | إزاحة العدد الصحيح للحقل الذي تريد أن يؤسس عامل التصفية عليه<br/> (من يسار القائمة ؛ الحقل الموجود في أقصى اليسار هو الحقل 0).|
 | criteria | str | المعايير المحددة (سلسلة ؛ على سبيل المثال ، "101").|

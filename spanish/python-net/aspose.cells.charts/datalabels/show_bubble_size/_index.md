@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_bubble_size propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_bubble_size propiedad
 
-Representa el comportamiento de visualización del valor porcentual de la etiqueta de datos de un gráfico especificado. True muestra el valor porcentual. False para ocultarlo.
+Representa el comportamiento de visualización del valor porcentual de la etiqueta de datos de un gráfico especificado. True muestra el valor porcentual. Falso para ocultar.
 ###  Definición:
 ```python
 @property

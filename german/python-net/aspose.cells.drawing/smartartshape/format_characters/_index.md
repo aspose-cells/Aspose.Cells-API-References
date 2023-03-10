@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_characters Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ def format_characters(self, start_index, length, font):
 | font | [Font](/cells/de/python-net/aspose.cells/font) | Die Schriftarteinstellung.|
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die Methode Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag).
  Diese Property wird 12 Monate später seit März 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

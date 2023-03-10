@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width_pixel propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  column_width_pixel propriété
 
-Obtient ou définit la largeur en unités de pixels pour chaque colonne du segment.
+Obtient ou définit la largeur en pixels pour chaque colonne du segment.
 
-###  Exemples
+###  Exemple
 
 ```python
 

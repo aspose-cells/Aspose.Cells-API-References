@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_relationship_data方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def get_relationship_data(self, rel_id):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | rel_id | str |关系标识。|
 

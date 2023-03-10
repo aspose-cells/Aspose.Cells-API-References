@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 | [column](/cells/ru/python-net/aspose.cells/comment/column) | Получает индекс столбца комментария.|
 | [is_threaded_comment](/cells/ru/python-net/aspose.cells/comment/is_threaded_comment) | Указывает, является ли этот комментарий цепочкой комментариев.|
 | [threaded_comments](/cells/ru/python-net/aspose.cells/comment/threaded_comments) | Получает список цепочек комментариев;|
-| [note](/cells/ru/python-net/aspose.cells/comment/note) | Представляет содержимое комментариев.|
+| [note](/cells/ru/python-net/aspose.cells/comment/note) | Представляет содержимое комментария.|
 | [html_note](/cells/ru/python-net/aspose.cells/comment/html_note) | Получает и задает строку html, содержащую данные и некоторые форматы в этом комментарии.|
 | [font](/cells/ru/python-net/aspose.cells/comment/font) | Получает шрифт комментария.|
 | [is_visible](/cells/ru/python-net/aspose.cells/comment/is_visible) | Указывает, виден комментарий или нет.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_column_name método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.tables/listobject/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Actualiza todos los nombres de las columnas de la lista de la hoja de trabajo.
+Actualiza el nombre de todas las columnas de la lista de la hoja de cálculo.
 
 
 

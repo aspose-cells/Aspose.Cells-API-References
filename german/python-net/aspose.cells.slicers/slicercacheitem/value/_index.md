@@ -1,4 +1,4 @@
-﻿---
+---
 title: value Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value Eigentum
 
-Gibt den Beschriftungstext für das Slicer-Element zurück.
+Gibt den Beschriftungstext für das Slicer-Element zurück. Schreibgeschützt.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة copy_settings
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,10 +18,10 @@ def copy_settings(self, source, check_style):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source | [Row](/cells/ar/python-net/aspose.cells/row) | صف المصدر الذي سيتم نسخ إعداداته إلى هذا الصف|
-| check_style | bool | سواء تحقق وجمع النمط.<br/> يسري مفعوله ويكون مطلوبًا فقط عندما ينتمي كائنان من الصف إلى مصنفات مختلفة وأنماط المصنفين مختلفة.|
+| check_style | bool | سواء التحقق وجمع النمط.<br/> يسري مفعوله ويكون مطلوبًا فقط عندما ينتمي كائنان صف إلى مصنف مختلف وأنماط المصنفين مختلفة.|
 
 
 

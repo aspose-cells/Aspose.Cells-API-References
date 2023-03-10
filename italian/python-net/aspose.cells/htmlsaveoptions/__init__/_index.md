@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlSaveOptions costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlSaveOptions(format) {#SaveFormat}
-Crea opzioni per salvare i file htm.
+Crea opzioni per il salvataggio del file htm.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il formato del file di salvataggio.|
 

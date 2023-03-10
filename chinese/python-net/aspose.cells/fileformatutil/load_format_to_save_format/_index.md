@@ -1,6 +1,6 @@
-﻿---
+---
 title: load_format_to_save_format方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 70
@@ -22,7 +22,7 @@ def load_format_to_save_format(self, load_format):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/zh/python-net/aspose.cells/loadformat) |加载格式。|
 

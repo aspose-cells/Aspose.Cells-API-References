@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name Eigentum
 
-Rufen Sie den Namen der Schriftart ab und legen Sie ihn fest.
+Ruft den Namen der Schriftart ab und legt ihn fest.
 ###  Definition:
 ```python
 @property

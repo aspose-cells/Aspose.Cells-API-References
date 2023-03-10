@@ -1,6 +1,6 @@
-﻿---
+---
 title: enable_macros 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 210
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-现在它仅在将工作表复制到工作簿中的另一个工作表时有效。
+现在它仅在将工作表复制到工作簿中的其他工作表时才有效。
 ### 定义：
 ```python
 @property

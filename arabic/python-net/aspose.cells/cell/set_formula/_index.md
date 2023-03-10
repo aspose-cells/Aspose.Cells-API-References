@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_formula
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة.|
 | value | any | قيمة الصيغة.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة.|
 | options | [FormulaParseOptions](/cells/ar/python-net/aspose.cells/formulaparseoptions) | خيارات لتحليل الصيغة.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | formula | str | الصيغة.|
 | is_r1c1 | bool | ما إذا كانت الصيغة هي صيغة R1C1.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | قيمة الصيغة.|
 ###  ملاحظات
 
-ملاحظة: هذه الفئة عفا عليها الزمن الآن.
+ملاحظة: هذه الفئة عفا عليها الزمن الآن. بدلاً من،
 الرجاء استخدام Cell.SetFormula (سلسلة ، FormulaParseOptions ، كائن).
 ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2019.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

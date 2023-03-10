@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_locked الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يشير إلى ما إذا كان شكل تقطيع الشرائح مؤمنًا أم لا.
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: power_query_formulas propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  power_query_formulas propiedad
 
-Obtiene todas las fórmulas de consulta de potencia.
+Obtiene todas las fórmulas de consulta de energía.
 ###  Definición:
 ```python
 @property

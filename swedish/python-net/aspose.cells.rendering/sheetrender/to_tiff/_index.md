@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_tiff metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | strömmen av utdatabilden|
 
@@ -34,13 +34,13 @@ def to_tiff(self, filename):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | filename | str | filnamnet på utdatabilden|
 
 ###  Exempel
 
-Följande kod matar ut alla sidorna i det första arket till en Tiff-bild.
+Följande kod matar ut alla sidorna i det första arket till Tiff-bild.
 
 ```python
 from aspose.cells import SaveFormat, Workbook

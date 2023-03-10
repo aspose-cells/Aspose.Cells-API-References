@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlowEffect klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,9 +19,9 @@ Typen GlowEffect avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [color](/cells/sv/python-net/aspose.cells.drawing/gloweffect/color) | Får färgen på glödeffekten.|
-| [radius](/cells/sv/python-net/aspose.cells.drawing/gloweffect/radius) | Hämtar och ställer in strålens radie, i poängenheter.|
-| [size](/cells/sv/python-net/aspose.cells.drawing/gloweffect/size) | Hämtar och ställer in strålens radie, i poängenheter.|
-| [transparency](/cells/sv/python-net/aspose.cells.drawing/gloweffect/transparency) | Hämtar och ställer in graden av transparens för glödeffekten. Spännvidd från 0,0 (opak) till 1,0 (klar).|
+| [radius](/cells/sv/python-net/aspose.cells.drawing/gloweffect/radius) | Hämtar och ställer in strålens radie, i poängenhet.|
+| [size](/cells/sv/python-net/aspose.cells.drawing/gloweffect/size) | Hämtar och ställer in strålens radie, i poängenhet.|
+| [transparency](/cells/sv/python-net/aspose.cells.drawing/gloweffect/transparency) | Får och ställer in graden av transparens för glödeffekten. Spänner från 0,0 (opak) till 1,0 (klar).|
 
 
 

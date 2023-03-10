@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_saved_time proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

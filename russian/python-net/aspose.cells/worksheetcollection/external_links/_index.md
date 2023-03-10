@@ -1,4 +1,4 @@
-﻿---
+---
 title: external_links недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

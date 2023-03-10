@@ -1,4 +1,4 @@
-﻿---
+---
 title: axis_labels fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels fastighet
 
-Hämtar beteckningarna för axeln efter anrop av metoden Chart.Calculate().
+Hämtar etiketterna för axeln efter anropet Chart.Calculate()-metoden.
 ###  Definition:
 ```python
 @property

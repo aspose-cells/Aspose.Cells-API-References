@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bar3DShapeType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,10 +19,10 @@ Bar3DShapeType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | BOX | Kutu|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | Maksimum Piramit|
+| PYRAMID_TO_MAX | PyramidToMax|
 | CYLINDER | silindir|
-| CONE_TO_POINT | Noktaya Koni|
-| CONE_TO_MAX | Maksimum Koni|
+| CONE_TO_POINT | ConeToPoint|
+| CONE_TO_MAX | ConeToMax|
 
 
 

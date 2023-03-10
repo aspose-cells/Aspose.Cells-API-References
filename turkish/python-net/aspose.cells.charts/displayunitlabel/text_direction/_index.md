@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_direction mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Metin okuma sırasını temsil eder.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen ChartTextFrame.ReadingOrder özelliğini kullanın.
  Bu mülk, Mart 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

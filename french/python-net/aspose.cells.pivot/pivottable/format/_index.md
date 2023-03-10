@@ -1,4 +1,4 @@
-﻿---
+---
 title: format méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.pivot/pivottable/format/
 is_root: false
 ---
 ##  format(row, column, style) {#int-int-Style}
-Mettre en forme la cellule dans la zone du tableau croisé dynamique
+Formater la cellule dans la zone de tableau croisé dynamique
 
 
 
@@ -18,7 +18,7 @@ def format(self, row, column, style):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row | int | Index de ligne de la cellule|
 | column | int | Indice de colonne de la cellule|

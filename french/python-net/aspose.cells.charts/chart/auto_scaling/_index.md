@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scaling propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling propriété
 
  True si Microsoft Excel met à l'échelle un graphique 3D afin qu'il soit plus proche en taille du graphique 2D équivalent.
-La propriété Axes à angle droit doit avoir la valeur True.
+La propriété RightAngleAxes doit être True.
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد HtmlHiddenRowDisplayType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | HIDDEN | الصفوف المخفية في صفحة html المخفية.|
-| REMOVE | قم بإزالة الصفوف المخفية في صفحات html.|
+| REMOVE | قم بإزالة الصفوف المخفية في صفحة html.|
 
 
 

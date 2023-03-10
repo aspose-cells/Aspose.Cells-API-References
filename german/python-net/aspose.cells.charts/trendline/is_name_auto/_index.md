@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_name_auto Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_name_auto Eigentum
 
-Gibt zurück, wenn Microsoft Excel den Namen der Trendlinie automatisch ermittelt.
+Gibt zurück, wenn Microsoft Excel den Namen der Trendlinie automatisch bestimmt.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_field_to_area metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_field_to_area(self, field_type, field_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldtype) | Fältets områdestyp.|
 | field_name | str | Namnet i basfälten.|
@@ -43,7 +43,7 @@ def add_field_to_area(self, field_type, base_field_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldtype) | Fältets områdestyp.|
 | base_field_index | int | Fältindexet i basfälten.|
@@ -64,7 +64,7 @@ def add_field_to_area(self, field_type, pivot_field):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/sv/python-net/aspose.cells.pivot/pivotfieldtype) | fältets områdestyp.|
 | pivot_field | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) | fältet i basfälten.|

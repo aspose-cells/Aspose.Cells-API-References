@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_threaded_comment
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add_threaded_comment(self, cell_name, text, author):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_name | str | Il nome della cella.|
 | text | str | Il testo del commento|
@@ -44,7 +44,7 @@ def add_threaded_comment(self, row, column, text, author):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Cell indice riga.|
 | column | int | Cell indice colonna.|

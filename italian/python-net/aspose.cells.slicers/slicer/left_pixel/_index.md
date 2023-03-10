@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_pixel proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta l'offset orizzontale della forma affettatrice dalla colonna di sinistra, in pixel.
 
-###  Esempi
+###  Esempio
 
 ```python
 

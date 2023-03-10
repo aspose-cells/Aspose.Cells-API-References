@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_cube_point_x_px
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.charts/walls/get_cube_point_x_px/
 is_root: false
 ---
 ##  get_cube_point_x_px(index) {#int}
-Ottiene le coordinate x del punto apice del cubo delle pareti dopo aver chiamato il metodo Chart.Calculate().
+Ottiene la coordinata x del punto apice del cubo delle pareti dopo aver chiamato il metodo Chart.Calculate().
 Il numero di punti apicali del cubo delle pareti è otto
 
 
@@ -19,7 +19,7 @@ def get_cube_point_x_px(self, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int |  |
 

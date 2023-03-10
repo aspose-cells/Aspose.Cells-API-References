@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_calculation_chain Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain Eigentum
 
-Ob Berechnungskette für Formeln aktivieren.
+Ob Berechnungskette für Formeln aktivieren. Standard ist falsch.
 
 ###  Bemerkungen
 

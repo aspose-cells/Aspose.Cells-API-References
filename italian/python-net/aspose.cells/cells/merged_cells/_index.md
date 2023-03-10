@@ -1,4 +1,4 @@
-﻿---
+---
 title: merged_cells proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

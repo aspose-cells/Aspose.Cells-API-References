@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_field_wrap_count propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

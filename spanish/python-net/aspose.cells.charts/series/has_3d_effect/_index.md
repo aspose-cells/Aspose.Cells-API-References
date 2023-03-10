@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_3d_effect propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

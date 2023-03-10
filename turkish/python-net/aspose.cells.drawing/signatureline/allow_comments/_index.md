@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_comments mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Yorumların iliştirilip eklenemeyeceğini belirtir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_margin propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indica si el margen del cuadro de texto es automático.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

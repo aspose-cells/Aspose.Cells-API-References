@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/ad
 is_root: false
 ---
 ##  add(digital_signature) {#DigitalSignature}
-Agregue una firma a la colección de firmas digitales.
+Agregue una firma a DigitalSignatureCollection.
 
 
 
@@ -18,7 +18,7 @@ def add(self, digital_signature):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | digital_signature | [DigitalSignature](/cells/es/python-net/aspose.cells.digitalsignatures/digitalsignature) | Firma digital en colección.|
 

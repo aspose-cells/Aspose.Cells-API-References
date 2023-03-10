@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_signed_date Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob signiertes Datum angezeigt wird.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

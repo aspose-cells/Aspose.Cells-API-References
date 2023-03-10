@@ -1,4 +1,4 @@
-﻿---
+---
 title: far_east_name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name mülk
 
-Uzak Doğu adını alır ve ayarlar.
+FarEast adını alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

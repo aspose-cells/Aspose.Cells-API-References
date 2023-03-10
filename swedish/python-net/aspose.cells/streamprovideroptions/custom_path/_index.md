@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_path fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_path fastighet
 
-Användarens anpassade sökväg (URL) sparad i genererad html-fil för den refererade källan.
+Användarens anpassade sökväg (URL) sparad i genererad html-fil för den refererade källan. Om det inte är definierat av användaren kommer DefaultPath att användas.
 Till exempel kommer arkdata att sparas av användaren till d:/sheet001.htm, webbadressen som används i huvud-html-filen ska vara "d:/sheet001.htm" eller annan giltig relativ sökväg som kan nås av huvud-html fil.
 ###  Definition:
 ```python

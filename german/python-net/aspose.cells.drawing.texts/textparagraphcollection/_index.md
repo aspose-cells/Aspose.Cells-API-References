@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraphCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection Klasse
-Repräsentiert alle Textabsätze.
+Stellt den gesamten Textabsatz dar.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_row_column_headings fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

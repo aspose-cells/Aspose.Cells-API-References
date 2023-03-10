@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_free_floating_shape Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -32,7 +32,7 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 | image_data | bytes | Die Bilddaten gelten nur für das Bild.|
 | is_original_size | bool | Ob die Form die Originalgröße verwendet, wenn es sich bei der Form um ein Bild handelt.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose import pycore

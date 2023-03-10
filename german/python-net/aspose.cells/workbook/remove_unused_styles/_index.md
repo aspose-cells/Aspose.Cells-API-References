@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_unused_styles Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

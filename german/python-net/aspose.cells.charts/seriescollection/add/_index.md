@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ def add(self, area, is_vertical):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | area | str | Gibt Werte an, aus denen die Datenreihe gezeichnet werden soll|
-| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten nach Zeile oder nach Spalte gezeichnet werden soll.|
+| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
 ###  Bemerkungen
 
 
@@ -49,7 +49,7 @@ def add(self, area, is_vertical, check_labels):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | area | str | Gibt Werte an, aus denen die Datenreihe gezeichnet werden soll|
-| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten nach Zeile oder nach Spalte gezeichnet werden soll.|
+| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
 | check_labels | bool | Gibt an, ob der Bereich den Seriennamen enthält|
 ###  Bemerkungen
 

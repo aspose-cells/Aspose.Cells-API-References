@@ -1,4 +1,4 @@
-﻿---
+---
 title: StyleModifyFlag перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -37,10 +37,10 @@ is_root: false
 | TEXT_DIRECTION |Указывает, было ли изменено свойство направления текста.|
 | RELATIVE_INDENT | Указывает, было ли изменено свойство относительного отступа для стиля.<br/> Только для динамического стиля, такого как условное форматирование.|
 | ALIGNMENT_SETTINGS | Указывает, одно или несколько свойств, связанных с выравниванием ([StyleModifyFlag.HORIZONTAL_ALIGNMENT](/cells/ru/python-net/aspose.cells/stylemodifyflag#HORIZONTAL_ALIGNMENT),<br/>[StyleModifyFlag.VERTICAL_ALIGNMENT](/cells/python-net/aspose.cells/stylemodifyflag#VERTICAL_ALIGNMENT), [StyleModifyFlag.ROTATION](/cells/python-net/aspose.cells/stylemodifyflag#ROTATION), [StyleModifyFlag.WRAP_TEXT](/cells/python-net/aspose.cells/stylemodifyflag#WRAP_TEXT),<br/>[StyleModifyFlag.WRAP_TEXT](/cells/python-net/aspose.cells/stylemodifyflag#WRAP_TEXT), [StyleModifyFlag.INDENT](/cells/python-net/aspose.cells/stylemodifyflag#INDENT), [StyleModifyFlag.SHRINK_TO_FIT](/cells/python-net/aspose.cells/stylemodifyflag#SHRINK_TO_FIT), [StyleModifyFlag.TEXT_DIRECTION](/cells/python-net/aspose.cells/stylemodifyflag#TEXT_DIRECTION),<br/> [StyleModifyFlag.RELATIVE_INDENT](/cells/ru/python-net/aspose.cells/stylemodifyflag#RELATIVE_INDENT)) были изменены.|
-| PATTERN | Указывает, был ли изменен шаблон затенения.|
+| PATTERN | Указывает, был ли изменен образец затенения.|
 | FOREGROUND_COLOR | Указывает, был ли изменен цвет переднего плана.|
 | BACKGROUND_COLOR | Указывает, был ли изменен цвет фона.|
-| CELL_SHADING | Указывает, является ли одно или несколько свойств, связанных с затенением ([StyleModifyFlag.PATTERN](/cells/ru/python-net/aspose.cells/stylemodifyflag#PATTERN),<br/> [StyleModifyFlag.FOREGROUND_COLOR](/cells/ru/python-net/aspose.cells/stylemodifyflag#FOREGROUND_COLOR), [StyleModifyFlag.BACKGROUND_COLOR](/cells/ru/python-net/aspose.cells/stylemodifyflag#BACKGROUND_COLOR)).|
+| CELL_SHADING | Указывает, одно или несколько свойств, связанных с затенением ([StyleModifyFlag.PATTERN](/cells/ru/python-net/aspose.cells/stylemodifyflag#PATTERN),<br/> [StyleModifyFlag.FOREGROUND_COLOR](/cells/ru/python-net/aspose.cells/stylemodifyflag#FOREGROUND_COLOR), [StyleModifyFlag.BACKGROUND_COLOR](/cells/ru/python-net/aspose.cells/stylemodifyflag#BACKGROUND_COLOR)).|
 | LOCKED | Указывает, было ли изменено заблокированное свойство.|
 | HIDE_FORMULA | Указывает, была ли изменена формула скрытия.|
 | PROTECTION_SETTINGS | Указывает, является ли одно или несколько свойств, связанных с защитой ([StyleModifyFlag.LOCKED](/cells/ru/python-net/aspose.cells/stylemodifyflag#LOCKED),<br/> [StyleModifyFlag.HIDE_FORMULA](/cells/ru/python-net/aspose.cells/stylemodifyflag#HIDE_FORMULA)) были изменены.|

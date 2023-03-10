@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_full_name método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sheet_name | str | Nombre de la hoja de trabajo|
 

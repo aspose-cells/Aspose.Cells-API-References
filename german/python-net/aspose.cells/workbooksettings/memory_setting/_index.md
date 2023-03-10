@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting Eigentum
 
-Ruft die Speichernutzungsoptionen ab oder legt sie fest. Die neue Option wird als Standardoption für neu erstellte Arbeitsblätter verwendet, wird jedoch nicht für vorhandene Arbeitsblätter wirksam.
+Ruft die Speichernutzungsoptionen ab oder legt diese fest. Die neue Option wird als Standardoption für neu erstellte Arbeitsblätter verwendet, wird jedoch nicht für vorhandene Arbeitsblätter wirksam.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: changeitems_order metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def changeitems_order(self, source_index, dest_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | source_index | int | Det aktuella indexet|
 | dest_index | int | Destindex|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: blur недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  blur недвижимость
 
-Получает и задает значение тени blur. Диапазон значений от 0 до 100.
+Получает и задает blur тени. Диапазон от 0 до 100 баллов.
 ###  Определение:
 ```python
 @property

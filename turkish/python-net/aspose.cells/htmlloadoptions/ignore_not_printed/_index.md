@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_not_printed mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Dosya doğrudan yazdırılıyorsa yazdırılmayan verileri yok sayın
 
 ###  Notlar
 
-Yalnızca xlsx dosyaları için.
+Yalnızca xlsx dosyası için.
 ###  Tanım:
 ```python
 @property

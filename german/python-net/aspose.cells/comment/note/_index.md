@@ -1,4 +1,4 @@
-﻿---
+---
 title: note Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note Eigentum
 
-Stellt den Inhalt von Kommentaren dar.
+Stellt den Inhalt des Kommentars dar.
 
 ###  Bemerkungen
 
 Wenn es sich um einen Thread-Kommentar handelt, könnte die note nicht geändert werden, da MS Excel ihn sonst nicht als Thread-Kommentar verarbeiten könnte.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

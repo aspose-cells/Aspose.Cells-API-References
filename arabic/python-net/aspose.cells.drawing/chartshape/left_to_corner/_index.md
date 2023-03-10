@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  left_to_corner الملكية
 
-الحصول على وتعيين الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل.
+الحصول على الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل وتعيينها.
 
-###  أمثلة
+###  مثال
 
 ```python
 

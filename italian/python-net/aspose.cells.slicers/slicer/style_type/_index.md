@@ -1,4 +1,4 @@
-﻿---
+---
 title: style_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -12,7 +12,7 @@ is_root: false
 Specificare il tipo di stile affettatrice incorporato
 il tipo predefinito è SlicerStyleLight1
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

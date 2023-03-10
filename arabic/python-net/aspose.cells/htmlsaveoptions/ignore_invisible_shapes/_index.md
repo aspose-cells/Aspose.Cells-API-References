@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_invisible_shapes الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

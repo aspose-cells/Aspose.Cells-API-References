@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_add_in_function yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def add_add_in_function(self, function, min_count_of_parameters, max_count_of_pa
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | function | str | işlev adı.|
 | min_count_of_parameters | int | Bu işlevin gerektirdiği minimum parametre sayısı|
@@ -27,7 +27,7 @@ def add_add_in_function(self, function, min_count_of_parameters, max_count_of_pa
 | function_value_type | [ParameterType](/cells/tr/python-net/aspose.cells/parametertype) | İşlev değeri türü.|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor.
+NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen WorksheetCollection.RegisterAddInFunction() yöntemlerini kullanın.
  Bu yöntem Ocak 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

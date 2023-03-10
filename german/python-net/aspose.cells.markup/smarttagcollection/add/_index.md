@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Fügt ein Smarttag hinzu.
 
 ###  Kehrt zurück
 
-Der Index der Smarttags in der Liste.
+Der Index des Smarttags in der Liste.
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: treat_quote_prefix_as_value proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  treat_quote_prefix_as_value proprietà
 
 Indica se il segno delle virgolette singole iniziali deve essere preso come parte del valore di una cella.
-L'impostazione predefinita è True. Se è false, le virgolette singole iniziali verranno rimosse dal valore della cella corrispondente
+L'impostazione predefinita è true. Se è falso, le virgolette singole iniziali verranno rimosse dal valore della cella corrispondente
 e [Style.quote_prefix](/cells/it/python-net/aspose.cells/style#quote_prefix) verrà impostato come vero per la cella.
 ###  Definizione:
 ```python

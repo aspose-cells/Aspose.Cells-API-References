@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting mülk
 
-Bellek kullanım seçeneklerini alır veya ayarlar. Yeni seçenek, yeni oluşturulan çalışma sayfaları için varsayılan seçenek olarak alınır, ancak mevcut çalışma sayfaları için etkili olmaz.
+Bellek kullanım seçeneklerini alır veya ayarlar. Yeni seçenek, yeni oluşturulan çalışma sayfaları için varsayılan seçenek olarak alınacaktır ancak mevcut çalışma sayfaları için geçerli olmayacaktır.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_font_substitutes yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/fontconfigs/set_font_substitutes/
 is_root: false
 ---
 ##  set_font_substitutes(original_font_name, substitute_font_names) {#str-list}
-Verilen orijinal yazı tipi adları için yazı tipi yedek adları.
+Verilen orijinal yazı tipi adı için yazı tipi yedek adları.
 
 
 
@@ -18,7 +18,7 @@ def set_font_substitutes(self, original_font_name, substitute_font_names):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | original_font_name | str | Orijinal yazı tipi adı.|
 | substitute_font_names | list | Orijinal yazı tipinin sunulmaması durumunda kullanılacak yazı tipi yedek adlarının listesi.|

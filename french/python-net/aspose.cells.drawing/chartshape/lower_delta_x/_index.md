@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_delta_x propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Obtient ou définit le décalage horizontal de la forme par rapport à sa colonn
 
 La plage de valeurs est de 0 à 1024.
 
-###  Exemples
+###  Exemple
 
 ```python
 

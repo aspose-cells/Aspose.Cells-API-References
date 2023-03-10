@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_options недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет параметры текста фигуры.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.pydrawing import Color

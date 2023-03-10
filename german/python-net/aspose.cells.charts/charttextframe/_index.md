@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartTextFrame Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -28,7 +28,7 @@ Der Typ ChartTextFrame macht die folgenden Member verfügbar:
 | [text_font](/cells/de/python-net/aspose.cells.charts/charttextframe/text_font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
 | [text_options](/cells/de/python-net/aspose.cells.charts/charttextframe/text_options) | Ruft die Optionen des Textes ab und legt sie fest.|
 | [font](/cells/de/python-net/aspose.cells.charts/charttextframe/font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
-| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/charttextframe/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.|
+| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/charttextframe/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/charttextframe/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [background](/cells/de/python-net/aspose.cells.charts/charttextframe/background) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [is_automatic_size](/cells/de/python-net/aspose.cells.charts/charttextframe/is_automatic_size) | Gibt an, ob die Größe des Diagrammrahmens automatisch angepasst wird.|
@@ -44,7 +44,7 @@ Der Typ ChartTextFrame macht die folgenden Member verfügbar:
 | [default_width](/cells/de/python-net/aspose.cells.charts/charttextframe/default_width) | Repräsentiert die Breite der Standardposition|
 | [default_height](/cells/de/python-net/aspose.cells.charts/charttextframe/default_height) | Repräsentiert die Höhe der Standardposition|
 | [is_auto_text](/cells/de/python-net/aspose.cells.charts/charttextframe/is_auto_text) | Zeigt an, dass der Text automatisch generiert wird.|
-| [is_deleted](/cells/de/python-net/aspose.cells.charts/charttextframe/is_deleted) | Gibt an, ob diese Datenbeschriftung gelöscht wird.|
+| [is_deleted](/cells/de/python-net/aspose.cells.charts/charttextframe/is_deleted) | Gibt an, ob diese Datenbeschriftungen gelöscht werden.|
 | [text_horizontal_alignment](/cells/de/python-net/aspose.cells.charts/charttextframe/text_horizontal_alignment) | Ruft die horizontale Textausrichtung ab und legt sie fest.|
 | [text_vertical_alignment](/cells/de/python-net/aspose.cells.charts/charttextframe/text_vertical_alignment) |Ruft die vertikale Textausrichtung von Text ab oder legt diese fest.|
 | [rotation_angle](/cells/de/python-net/aspose.cells.charts/charttextframe/rotation_angle) | Stellt den Rotationswinkel des Textes dar.|
@@ -55,7 +55,7 @@ Der Typ ChartTextFrame macht die folgenden Member verfügbar:
 | [reading_order](/cells/de/python-net/aspose.cells.charts/charttextframe/reading_order) | Stellt die Lesereihenfolge des Textes dar.|
 | [direction_type](/cells/de/python-net/aspose.cells.charts/charttextframe/direction_type) | Ruft die Textrichtung ab und legt sie fest.|
 | [is_text_wrapped](/cells/de/python-net/aspose.cells.charts/charttextframe/is_text_wrapped) | Ruft einen Wert ab, der angibt, ob der Text umbrochen wird, oder legt diesen fest.|
-| [is_resize_shape_to_fit_text](/cells/de/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) | Ruft ab oder legt fest, ob eine Form automatisch angepasst werden soll, damit sie den darin beschriebenen Text vollständig enthält.<br/> wenn Text innerhalb einer Form skaliert wird, um den gesamten darin enthaltenen Text aufzunehmen.|
+| [is_resize_shape_to_fit_text](/cells/de/python-net/aspose.cells.charts/charttextframe/is_resize_shape_to_fit_text) | Ruft ab oder legt fest, ob eine Form automatisch angepasst werden soll, damit sie den darin beschriebenen Text vollständig enthält. Autofitting ist<br/> wenn Text innerhalb einer Form skaliert wird, um den gesamten darin enthaltenen Text aufzunehmen.|
 
 
 ###  Methoden

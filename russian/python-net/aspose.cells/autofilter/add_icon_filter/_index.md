@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_icon_filter метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def add_icon_filter(self, field_index, icon_set_type, icon_id):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | Целочисленное смещение поля, на котором вы хотите основывать фильтр.<br/> (слева в списке; крайнее левое поле — поле 0).|
 | icon_set_type | [IconSetType](/cells/ru/python-net/aspose.cells/iconsettype) | Тип набора значков.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: soft_edges proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il raggio di sfocatura da applicare ai bordi, in unità di punti.
 
-###  Esempi
+###  Esempio
 
 ```python
 

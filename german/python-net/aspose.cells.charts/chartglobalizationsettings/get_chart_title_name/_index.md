@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_chart_title_name Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

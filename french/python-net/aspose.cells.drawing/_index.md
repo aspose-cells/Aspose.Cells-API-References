@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/python-net/aspose.cells.drawing/
 is_root: false
 ---
- Le**Aspose.Cells.Drawing** L'espace de noms fournit des classes qui permettent de créer et de modifier des formes de dessin, des contrôles de formulaire et des objets de dessin plus avancés.
+ Le**Aspose.Cells.Drawing** namespace fournit des classes qui permettent de créer et de modifier des formes de dessin, des contrôles de formulaire et des objets de dessin plus avancés.
 
 ###  Des classes
 | Classe| Description|
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/fr/python-net/aspose.cells.drawing/combobox) | Représente le formulaire de contrôle ComboBox.|
 | [CommentShape](/cells/fr/python-net/aspose.cells.drawing/commentshape) | Représente la forme du commentaire.|
 | [CustomGeometry](/cells/fr/python-net/aspose.cells.drawing/customgeometry) | Représente une forme géométrique personnalisée.|
-| [CustomXmlShape](/cells/fr/python-net/aspose.cells.drawing/customxmlshape) | Représente des formes xml personnalisées, telles que Ink.|
+| [CustomXmlShape](/cells/fr/python-net/aspose.cells.drawing/customxmlshape) | Représente la forme xml personnalisée, telle que l'encre.|
 | [DialogBox](/cells/fr/python-net/aspose.cells.drawing/dialogbox) | Représente la boîte de dialogue.|
 | [Fill](/cells/fr/python-net/aspose.cells.drawing/fill) | Représente le format de remplissage de la forme.|
 | [FillFormat](/cells/fr/python-net/aspose.cells.drawing/fillformat) | Encapsule l'objet qui représente la mise en forme de remplissage d'une forme.|
@@ -64,10 +64,10 @@ is_root: false
 | [ScrollBar](/cells/fr/python-net/aspose.cells.drawing/scrollbar) | Représente un objet barre de défilement.|
 | [ShadowEffect](/cells/fr/python-net/aspose.cells.drawing/shadoweffect) |Cette classe spécifie l'effet d'ombre de l'élément ou de la forme du graphique.|
 | [Shape](/cells/fr/python-net/aspose.cells.drawing/shape) | Représente l'objet msodrawing.|
-| [ShapeCollection](/cells/fr/python-net/aspose.cells.drawing/shapecollection) | Représente toutes les formes dans une feuille de calcul/un graphique.|
+| [ShapeCollection](/cells/fr/python-net/aspose.cells.drawing/shapecollection) | Représente toute la forme dans une feuille de calcul/un graphique.|
 | [ShapeFormat](/cells/fr/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/fr/python-net/aspose.cells.drawing/shapeguide) | Encapsule un guide de forme spécifie la présence d'un guide de forme qui sera utilisé pour<br/> gouverner la géométrie de la forme spécifiée|
-| [ShapeGuideCollection](/cells/fr/python-net/aspose.cells.drawing/shapeguidecollection) | Encapsule une collection de guides de forme|
+| [ShapeGuideCollection](/cells/fr/python-net/aspose.cells.drawing/shapeguidecollection) | Encapsule une collection de guide de forme|
 | [ShapePath](/cells/fr/python-net/aspose.cells.drawing/shapepath) | Représente un chemin de création composé d'une série de mouvements, de lignes et de courbes qui, une fois combinés, formeront une forme géométrique.|
 | [ShapePathCollection](/cells/fr/python-net/aspose.cells.drawing/shapepathcollection) | Représente les informations de collection de chemin dans la forme automatique NotPrimitive|
 | [ShapePathPoint](/cells/fr/python-net/aspose.cells.drawing/shapepathpoint) | Représente une coordonnée xy dans l'espace de coordonnées du chemin.|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/fr/python-net/aspose.cells.drawing/texteffectformat) | Contient des propriétés et des méthodes qui s'appliquent aux objets WordArt.|
 | [TextureFill](/cells/fr/python-net/aspose.cells.drawing/texturefill) | Encapsule l'objet qui représente le format de remplissage de texture|
 | [ThreeDFormat](/cells/fr/python-net/aspose.cells.drawing/threedformat) | Représente la mise en forme tridimensionnelle d'une forme.|
-| [TilePicOption](/cells/fr/python-net/aspose.cells.drawing/tilepicoption) | Représente les images de tuiles sous forme de textures.|
+| [TilePicOption](/cells/fr/python-net/aspose.cells.drawing/tilepicoption) | Représente l'image de la mosaïque sous forme de texture.|
 | [VmlShapeGuide](/cells/fr/python-net/aspose.cells.drawing/vmlshapeguide) | juste pour vml<br/> Encapsule un guide de forme spécifie la présence d'une forme<br/> guide qui sera utilisé pour régir la géométrie de la forme spécifiée|
 | [WebExtensionShape](/cells/fr/python-net/aspose.cells.drawing/webextensionshape) | Représente la forme de l'extension Web.|
 

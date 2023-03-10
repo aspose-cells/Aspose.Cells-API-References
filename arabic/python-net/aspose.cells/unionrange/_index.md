@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnionRange الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ is_root: false
 | [name](/cells/ar/python-net/aspose.cells/unionrange/name) | الحصول على أو تحديد اسم النطاق.|
 | [refers_to](/cells/ar/python-net/aspose.cells/unionrange/refers_to) | يحصل على النطاق الذي يشير إليه.|
 | [has_range](/cells/ar/python-net/aspose.cells/unionrange/has_range) | يشير إلى ما إذا كان هذا له نطاق.|
-| [hyperlinks](/cells/ar/python-net/aspose.cells/unionrange/hyperlinks) | يحصل على كافة الارتباطات التشعبية الموجودة في النطاق.|
+| [hyperlinks](/cells/ar/python-net/aspose.cells/unionrange/hyperlinks) | يحصل على كل الارتباط التشعبي في النطاق.|
 | [cell_count](/cells/ar/python-net/aspose.cells/unionrange/cell_count) | الحصول على كل عدد الخلايا في النطاق.|
 | [range_count](/cells/ar/python-net/aspose.cells/unionrange/range_count) | يحصل على عدد النطاقات.|
 | [ranges](/cells/ar/python-net/aspose.cells/unionrange/ranges) | يحصل على كافة نطاقات الاتحاد.|

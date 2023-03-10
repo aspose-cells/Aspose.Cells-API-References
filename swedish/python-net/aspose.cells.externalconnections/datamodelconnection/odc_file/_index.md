@@ -1,4 +1,4 @@
-﻿---
+---
 title: odc_file fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  odc_file fastighet
 
  Anger den fullständiga sökvägen till den externa anslutningsfilen från vilken anslutningen kom
- Om en anslutning misslyckas under ett försök att uppdatera data, och reconnectionMethod=1,
+ skapat. Om en anslutning misslyckas under ett försök att uppdatera data, och reconnectionMethod=1,
  då försöker kalkylarket igen med information från den externa anslutningsfilen
 istället för det anslutningsobjekt som är inbäddat i arbetsboken.
 ###  Definition:

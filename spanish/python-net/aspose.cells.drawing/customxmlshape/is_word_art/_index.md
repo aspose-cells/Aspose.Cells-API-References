@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_art propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Indica si esta forma es un arte de la palabra.
 
 Solo para el archivo Legacy Shape of xls.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

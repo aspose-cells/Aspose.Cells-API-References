@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsSaveOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -36,12 +36,12 @@ OdsSaveOptions türü aşağıdaki üyeleri gösterir:
 | [merge_areas](/cells/tr/python-net/aspose.cells/odssaveoptions/merge_areas) | Dosyayı kaydetmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmediğini belirtir.|
 | [create_directory](/cells/tr/python-net/aspose.cells/odssaveoptions/create_directory) | true ise ve dizin yoksa, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur.|
 | [sort_names](/cells/tr/python-net/aspose.cells/odssaveoptions/sort_names) | Dosyayı kaydetmeden önce tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [sort_external_names](/cells/tr/python-net/aspose.cells/odssaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.|
+| [sort_external_names](/cells/tr/python-net/aspose.cells/odssaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.|
 | [refresh_chart_cache](/cells/tr/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) | Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/odssaveoptions/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/odssaveoptions/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
 | [update_smart_art](/cells/tr/python-net/aspose.cells/odssaveoptions/update_smart_art) | Akıllı sanat ayarının güncellenip güncellenmediğini gösterir.<br/> Varsayılan değer yanlıştır.|
 | [generator_type](/cells/tr/python-net/aspose.cells/odssaveoptions/generator_type) | ods dosyasının oluşturucusunu alır ve ayarlar.|
-| [is_strict_schema11](/cells/tr/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Ods dosyasının ODF formatı sürüm 1.1 olarak kaydedilip kaydedilmeyeceğini belirtir.Varsayılan değer yanlıştır.|
+| [is_strict_schema11](/cells/tr/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | ods dosyasının ODF formatı sürüm 1.1 olarak kaydedilip kaydedilmeyeceğini belirtir. Varsayılan yanlıştır.|
 
 
 

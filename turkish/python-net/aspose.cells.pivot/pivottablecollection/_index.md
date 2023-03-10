@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -43,7 +43,7 @@ PivotTableCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

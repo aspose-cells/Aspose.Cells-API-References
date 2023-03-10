@@ -1,4 +1,4 @@
-﻿---
+---
 title: AxisBins clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,7 +25,7 @@ El tipo AxisBins expone los siguientes miembros:
 | :- | :- |
 | [is_by_category](/cells/es/python-net/aspose.cells.charts/axisbins/is_by_category) | Indica si agrupar datos por categoría|
 | [is_automatic](/cells/es/python-net/aspose.cells.charts/axisbins/is_automatic) | Indica si los bins de los ejes son automáticos.|
-| [width](/cells/es/python-net/aspose.cells.charts/axisbins/width) | Obtiene o establece el ancho del contenedor del eje.|
+| [width](/cells/es/python-net/aspose.cells.charts/axisbins/width) | Obtiene o establece el ancho del contenedor del eje|
 | [count](/cells/es/python-net/aspose.cells.charts/axisbins/count) | Obtiene o establece el recuento de contenedores de eje|
 | [overflow](/cells/es/python-net/aspose.cells.charts/axisbins/overflow) | Obtiene o establece el desbordamiento de los contenedores de eje|
 | [underflow](/cells/es/python-net/aspose.cells.charts/axisbins/underflow) | Obtiene o establece el subdesbordamiento de los contenedores de eje|

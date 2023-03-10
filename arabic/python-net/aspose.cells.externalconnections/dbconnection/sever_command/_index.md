@@ -1,4 +1,4 @@
-﻿---
+---
 title: sever_command الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -12,7 +12,7 @@ is_root: false
  تعيين سلسلة نصية للأمر الثاني تستمر عندما يستند إلى خادم PivotTable
  حقول الصفحة قيد الاستخدام.
  بالنسبة لاتصالات ODBC ، يكون serverCommand عادةً استعلامًا أوسع من الأمر (no
-حيث يوجد شرط في السابق).
+حيث يوجد شرط في السابق). بناءً على هذين الأمرين (Command and ServerCommand) ،
 يمكن ملء واجهة المستخدم للمعلمات وإنشاء استعلامات ذات معلمات
 ###  تعريف:
 ```python

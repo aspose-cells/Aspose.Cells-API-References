@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_formula método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | formula | str | La formula.|
 | value | any | El valor de la fórmula.|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | formula | str | La formula.|
 | options | [FormulaParseOptions](/cells/es/python-net/aspose.cells/formulaparseoptions) | Opciones para analizar la fórmula.|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | formula | str | La formula.|
 | is_r1c1 | bool | Si la fórmula es la fórmula R1C1.|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any | El valor de la fórmula.|
 ###  Observaciones
 
-NOTA: Esta clase ahora está obsoleta.
+NOTA: Esta clase ahora está obsoleta. En cambio,
 utilice Cell.SetFormula(string,FormulaParseOptions,object).
 Esta propiedad se eliminará 12 meses después desde diciembre de 2019.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

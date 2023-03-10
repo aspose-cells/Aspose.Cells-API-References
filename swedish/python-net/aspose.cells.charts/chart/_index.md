@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chart klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,12 +17,12 @@ Typen Chart avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [style](/cells/sv/python-net/aspose.cells.charts/chart/style) | Får och sätter den inbyggda stilen.|
+| [style](/cells/sv/python-net/aspose.cells.charts/chart/style) | Får och ställer in den inbyggda stilen.|
 | [chart_object](/cells/sv/python-net/aspose.cells.charts/chart/chart_object) | Representerar diagramformen;|
 | [hide_pivot_field_buttons](/cells/sv/python-net/aspose.cells.charts/chart/hide_pivot_field_buttons) |Indikerar om knapparna för pivotdiagramfältet endast döljs när diagrammet är pivotdiagram.|
 | [pivot_options](/cells/sv/python-net/aspose.cells.charts/chart/pivot_options) | Anger pivotkontrollerna som visas i diagrammet|
 | [pivot_source](/cells/sv/python-net/aspose.cells.charts/chart/pivot_source) | Källan är data från pivottabellen.<br/> Om PivotSource inte är tomt är diagrammet PivotChart.|
-| [plot_by](/cells/sv/python-net/aspose.cells.charts/chart/plot_by) | Hämtar och ställer in om det ska plottas efter rad eller kolumn.|
+| [plot_by](/cells/sv/python-net/aspose.cells.charts/chart/plot_by) | Hämtar och ställer in om plottning efter rad eller kolumn.|
 | [plot_empty_cells_type](/cells/sv/python-net/aspose.cells.charts/chart/plot_empty_cells_type) | Hämtar och ställer in hur de tomma cellerna ska plottas.|
 | [plot_visible_cells](/cells/sv/python-net/aspose.cells.charts/chart/plot_visible_cells) | Indikerar om endast plotta synliga celler.|
 | [plot_visible_cells_only](/cells/sv/python-net/aspose.cells.charts/chart/plot_visible_cells_only) | Anger om endast synliga celler plottas.|
@@ -48,7 +48,7 @@ Typen Chart avslöjar följande medlemmar:
 | [show_legend](/cells/sv/python-net/aspose.cells.charts/chart/show_legend) | Hämtar eller ställer in ett värde som anger om diagramförklaringen kommer att visas. Standard är sant.|
 | [is_rectangular_cornered](/cells/sv/python-net/aspose.cells.charts/chart/is_rectangular_cornered) | Hämtar eller ställer in ett värde som anger om diagramområdet är rektangulärt hörn.<br/> Standard är sant.|
 | [show_data_table](/cells/sv/python-net/aspose.cells.charts/chart/show_data_table) | Hämtar eller ställer in ett värde som anger om diagrammet visar en datatabell.|
-| [first_slice_angle](/cells/sv/python-net/aspose.cells.charts/chart/first_slice_angle) | Hämtar eller ställer in vinkeln för det första cirkeldiagrammet eller munkdiagrammet, i grader (medurs från lodrät). Gäller endast för cirkeldiagram, 3D-cirkeldiagram och munkdiagram, 0 till 360.|
+| [first_slice_angle](/cells/sv/python-net/aspose.cells.charts/chart/first_slice_angle) | Hämtar eller ställer in vinkeln för det första cirkeldiagrammet eller munkdiagrammet, i grader (medsols från lodrät). Gäller endast paj-, 3D-paj- och munkdiagram, 0 till 360.|
 | [gap_width](/cells/sv/python-net/aspose.cells.charts/chart/gap_width) | Returnerar eller ställer in utrymmet mellan stapel- eller kolumnkluster, som en procentandel av stapelns eller kolumnbredden.<br/>Värdet på den här egenskapen måste vara mellan 0 och 500.|
 | [gap_depth](/cells/sv/python-net/aspose.cells.charts/chart/gap_depth) | Hämtar eller ställer in avståndet mellan dataserierna i ett 3D-diagram, i procent av markörens bredd.<br/>Värdet på den här egenskapen måste vara mellan 0 och 500.|
 | [floor](/cells/sv/python-net/aspose.cells.charts/chart/floor) | Returnerar ett [Chart.floor](/cells/sv/python-net/aspose.cells.charts/chart#floor)-objekt som representerar väggarna i ett 3D-diagram.|
@@ -58,11 +58,11 @@ Typen Chart avslöjar följande medlemmar:
 | [walls_and_gridlines_2d](/cells/sv/python-net/aspose.cells.charts/chart/walls_and_gridlines_2d) | Sant om rutnät ritas tvådimensionellt på ett 3D-diagram.|
 | [rotation_angle](/cells/sv/python-net/aspose.cells.charts/chart/rotation_angle) | Representerar rotationen av 3D-diagramvyn (rotationen av plotområdet runt z-axeln, i grader).|
 | [elevation](/cells/sv/python-net/aspose.cells.charts/chart/elevation) | Representerar höjden av 3D-sjökortsvyn, i grader.|
-| [right_angle_axes](/cells/sv/python-net/aspose.cells.charts/chart/right_angle_axes) | Sant om diagrammets axlar är i rät vinkel. Gäller endast för 3D-diagram (förutom Column3D och 3D-cirkeldiagram).|
-| [auto_scaling](/cells/sv/python-net/aspose.cells.charts/chart/auto_scaling) | Sant om Microsoft Excel skalar ett 3D-diagram så att det i storlek är närmare motsvarande 2D-diagram.<br/> Egenskapen Right Angle Axes måste vara True.|
+| [right_angle_axes](/cells/sv/python-net/aspose.cells.charts/chart/right_angle_axes) | Sant om diagrammets axlar är i rät vinkel. Gäller endast för 3-D-diagram (förutom Column3D och 3-D-cirkeldiagram).|
+| [auto_scaling](/cells/sv/python-net/aspose.cells.charts/chart/auto_scaling) | Sant om Microsoft Excel skalar ett 3D-diagram så att det i storlek är närmare motsvarande 2D-diagram.<br/> Egenskapen RightAngleAxes måste vara True.|
 | [height_percent](/cells/sv/python-net/aspose.cells.charts/chart/height_percent) |Returnerar eller ställer in höjden på ett 3D-diagram som en procentandel av diagrammets bredd (mellan 5 och 500 procent).|
 | [perspective](/cells/sv/python-net/aspose.cells.charts/chart/perspective) | Returnerar eller ställer in perspektivet för 3D-diagramvyn. Måste vara mellan 0 och 100.<br/> Den här egenskapen ignoreras om egenskapen RightAngleAxes är True.|
-| [is_3d](/cells/sv/python-net/aspose.cells.charts/chart/is_3d) | Indikerar om sjökortet är ett 3D-diagram.|
+| [is_3d](/cells/sv/python-net/aspose.cells.charts/chart/is_3d) | Anger om diagrammet är ett 3d-diagram.|
 | [depth_percent](/cells/sv/python-net/aspose.cells.charts/chart/depth_percent) | Representerar djupet på ett 3D-diagram som en procentandel av diagrammets bredd (mellan 20 och 2000 procent).|
 | [actual_chart_size](/cells/sv/python-net/aspose.cells.charts/chart/actual_chart_size) | Hämtar den faktiska storleken på diagrammet i pixelenhet.|
 | [placement](/cells/sv/python-net/aspose.cells.charts/chart/placement) | Representerar hur diagrammet är fäst vid cellerna under det.|

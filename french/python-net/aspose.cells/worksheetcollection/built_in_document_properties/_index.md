@@ -1,4 +1,4 @@
-﻿---
+---
 title: built_in_document_properties propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Renvoie une collection [DocumentProperty](/cells/fr/python-net/aspose.cells.prop
 
 ###  Remarques
 
-Une nouvelle propriété ne peut pas être ajoutée à la liste des propriétés de document intégrées.
+Une nouvelle propriété ne peut pas être ajoutée à la liste des propriétés de document intégrées. Vous pouvez uniquement obtenir une propriété intégrée et modifier sa valeur.
 Voici la liste des noms de propriétés intégrées :
 
 Titre
@@ -22,7 +22,7 @@ Titre
 Sujet
 
 
-auteur
+Auteur
 
 
 Mots clés
@@ -73,7 +73,7 @@ Catégorie
 Format
 
 
-directeur
+Directeur
 
 
 Entreprise

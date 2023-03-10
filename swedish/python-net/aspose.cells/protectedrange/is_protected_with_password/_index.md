@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_protected_with_password fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_protected_with_password fastighet
 
-Anger om kalkylbladen är skyddade med lösenord.
+Indikerar om kalkylbladen är skyddade med lösenord.
 ###  Definition:
 ```python
 @property

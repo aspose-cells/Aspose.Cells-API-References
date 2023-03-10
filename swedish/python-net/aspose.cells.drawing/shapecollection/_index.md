@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/shapecollection/
 is_root: false
 ---
 ##  ShapeCollection klass
-Representerar alla former i ett kalkylblad/diagram.
+Representerar all form i ett kalkylblad/diagram.
 
 
 
@@ -25,7 +25,7 @@ Typen ShapeCollection avslöjar följande medlemmar:
 | :- | :- |
 | [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Lägg till en form i diagrammet. Alla enheter är 1/4000 av kartytan.|
 | [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Lägg till en form i diagrammet. Alla enheter är 1/4000 av kartytan.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Lägg till en form till diagrammet Alla enheter är procentuella skala av diagramområdet.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Lägg till en form i diagrammet. Alla enheter är procentuell skala av diagramområdet.|
 | [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Lägg till en form i diagrammet. Alla enheter är 1/4000 av kartytan.|
 | [add_picture(upper_left_row, upper_left_column, lower_right_row, lower_right_column, stream)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-int-int-io.RawIOBase) | Lägger till en bild i samlingen.|
 | [add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-io.RawIOBase-int-int) | Lägger till en bild i samlingen.|
@@ -72,7 +72,7 @@ Typen ShapeCollection avslöjar följande medlemmar:
 | [delete_in_range(ca)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Ta bort former i intervallet. Kommentarsformer kommer inte att tas bort.|
 | [delete_shape(shape)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Ta bort en form. Om formen finns i gruppen eller är en kommentarsform kommer den inte att tas bort.|
 | [group(group_items)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/group/#list) | Gruppera formerna.|
-| [ungroup(group)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Dela upp formobjekten.|
+| [ungroup(group)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Delar upp formobjekten.|
 | [update_selected_value()](/cells/sv/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) | Uppdatera det valda värdet med värdet för den länkade cellen i formerna.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells.drawing/shapecollection/binary_search/#Shape) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 

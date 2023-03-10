@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_slice_angle fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  first_slice_angle fastighet
 
- Hämtar eller ställer in vinkeln för det första cirkeldiagrammet eller munkdiagrammet, i grader (medurs från vertikalt).
+ Hämtar eller ställer in vinkeln för det första cirkeldiagrammet eller munkdiagrammet, i grader (medsols från lodrät).
 Gäller endast paj-, 3D-paj- och munkdiagram, 0 till 360.
 ###  Definition:
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_immediate_items الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items الملكية
 
 يشير إلى ما إذا كانت العناصر الموجودة في مناطق الصفوف والأعمدة مرئية أم لا
-عندما تكون منطقة البيانات في PivotTable فارغة.
+عندما تكون منطقة البيانات في PivotTable فارغة. القيمة الافتراضية هي الحقيقية.
 ###  تعريف:
 ```python
 @property

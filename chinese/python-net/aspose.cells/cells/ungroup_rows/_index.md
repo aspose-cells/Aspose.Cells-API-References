@@ -1,6 +1,6 @@
-﻿---
+---
 title: ungroup_rows方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 960
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/cells/ungroup_rows/
 is_root: false
 ---
 ##  ungroup_rows(first_index, last_index) {#int-int}
-取消组合行。
+取消分组行。
 
 
 
@@ -18,7 +18,7 @@ def ungroup_rows(self, first_index, last_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | first_index | int |要取消分组的第一行索引。|
 | last_index | int |要取消分组的最后一行索引。|
@@ -28,7 +28,7 @@ def ungroup_rows(self, first_index, last_index):
 
 ##  ungroup_rows(first_index, last_index, is_all) {#int-int-bool}
 
-取消组合行。
+取消分组行。
 
 
 
@@ -38,7 +38,7 @@ def ungroup_rows(self, first_index, last_index, is_all):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | first_index | int |要取消分组的第一行索引。|
 | last_index | int |要取消分组的最后一行索引。|

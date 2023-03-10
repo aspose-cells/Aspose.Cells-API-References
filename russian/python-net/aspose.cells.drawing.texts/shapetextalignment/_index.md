@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeTextAlignment класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,16 +25,16 @@ is_root: false
 | [text_vertical_type](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Получает и задает направление текста.|
 | [auto_size](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Указывает, регулируется ли размер фигуры автоматически в соответствии с ее содержимым.|
 | [text_shape_type](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Получает и задает тип преобразования текста.|
-| [top_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Возвращает верхнюю границу в пунктах.|
-| [bottom_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Возвращает нижнее поле в единицах Points|
-| [left_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Возвращает левое поле в единицах Points|
-| [right_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Возвращает правое поле в единицах Points|
+| [top_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Возвращает верхнюю границу в баллах|
+| [bottom_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Возвращает нижнее поле в баллах|
+| [left_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Возвращает левое поле в баллах|
+| [right_margin_pt](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Возвращает правое поле в баллах|
 | [is_auto_margin](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/is_auto_margin) | Указывает, является ли поле текстового фрейма автоматическим.|
 | [number_of_columns](/cells/ru/python-net/aspose.cells.drawing.texts/shapetextalignment/number_of_columns) | Получает и задает количество столбцов текста в ограничивающем прямоугольнике.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

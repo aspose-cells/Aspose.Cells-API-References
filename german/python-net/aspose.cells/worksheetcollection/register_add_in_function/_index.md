@@ -1,4 +1,4 @@
-﻿---
+---
 title: register_add_in_function Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -34,7 +34,7 @@ Fügt der Arbeitsmappe eine Zusatzfunktion hinzu
 
 ###  Kehrt zurück
 
-ID der Daten, die eine bestimmte Zusatzfunktion enthalten
+ID der Daten, die die angegebene Zusatzfunktion enthalten
 
 
 ```python

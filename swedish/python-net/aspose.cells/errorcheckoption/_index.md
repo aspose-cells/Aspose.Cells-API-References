@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorCheckOption klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/errorcheckoption/
 is_root: false
 ---
 ##  ErrorCheckOption klass
-Felkontrollinställning tillämpas på vissa intervall.
+Inställningen för felkontroll tillämpas på vissa intervall.
 
 
 

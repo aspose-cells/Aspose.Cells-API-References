@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة update_linked_data_source
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/workbook/update_linked_data_source/
 is_root: false
 ---
 ##  update_linked_data_source(external_workbooks) {#list}
-إذا احتوى هذا المصنف على ارتباطات خارجية بمصادر بيانات أخرى ،
+إذا احتوى هذا المصنف على ارتباطات خارجية بمصدر بيانات آخر ،
 Aspose.Cells سيحاول استرجاع أحدث البيانات.
 
 
@@ -19,7 +19,7 @@ def update_linked_data_source(self, external_workbooks):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | external_workbooks | list | يتم الرجوع إلى المصنفات الخارجية بواسطة هذا المصنف.<br/>إذا كانت فارغة ، فسنفتح الملفات المرتبطة الخارجية مباشرة ..<br/> إذا لم يكن فارغًا ،<br/>سوف نتحقق مما إذا كان الرابط الخارجي في المصفوفة أولاً ؛<br/> إذا لم يكن كذلك ، فسنفتح الملفات المرتبطة الخارجية مرة أخرى.|
 ###  ملاحظات

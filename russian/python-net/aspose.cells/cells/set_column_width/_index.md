@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_column_width метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_column_width(self, column, width):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | column | int | Индекс столбца.|
 | width | float | Ширина столбца. Ширина столбца должна быть от 0 до 255.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_digital_signature
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_digital_signature(self, digital_signature_collection):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | digital_signature_collection | aspose.cells.digitalsignatures.DigitalSignatureCollection |  |
 ###  ملاحظات

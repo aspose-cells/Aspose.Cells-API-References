@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_icons Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -33,7 +33,7 @@ def add_icons(self, upper_left_row, top, upper_left_column, left, height, width,
 | image_byte_data | bytes | Die Bildbytedaten.|
 | compatible_image_data | bytes |Konvertierte Bilddaten von svg, um mit Excel 2016 oder niedrigeren Versionen kompatibel zu sein.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose import pycore

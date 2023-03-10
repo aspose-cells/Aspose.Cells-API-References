@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_sparklines yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline
 is_root: false
 ---
 ##  clear_sparklines(cell_area) {#CellArea}
-Bir hücre alanı içindeki mini çizgileri temizler.
+Bir hücre alanı içindeki küçük çizgileri temizler.
 
 
 
@@ -18,7 +18,7 @@ def clear_sparklines(self, cell_area):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Hücrelerin alanını belirtir|
 

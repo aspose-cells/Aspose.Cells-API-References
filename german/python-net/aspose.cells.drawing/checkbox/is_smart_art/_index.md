@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_smart_art Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,9 +13,9 @@ Gibt an, ob es sich bei der Form um Smart Art handelt.
 
 ###  Bemerkungen
 
-Nur für ooxml-Dateien.
+Nur für ooxml-Datei.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

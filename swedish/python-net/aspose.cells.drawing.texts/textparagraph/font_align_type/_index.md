@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_align_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type fastighet
 
-Bestämmer var vertikalt på en textrad de faktiska orden är placerade.
+Bestämmer var vertikalt på en textrad de faktiska orden är placerade. Det här handlar om
 med vertikal placering av tecknen i förhållande till baslinjerna.
 ###  Definition:
 ```python

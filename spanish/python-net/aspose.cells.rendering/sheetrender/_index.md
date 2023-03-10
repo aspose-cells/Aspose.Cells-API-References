@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,14 +25,14 @@ El tipo SheetRender expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [page_count](/cells/es/python-net/aspose.cells.rendering/sheetrender/page_count) | Obtiene el recuento total de páginas de la hoja de cálculo actual.|
-| [page_scale](/cells/es/python-net/aspose.cells.rendering/sheetrender/page_scale) | Obtiene la escala de página calculada de la hoja.<br/> Devuelve la escala establecida si se establece [PageSetup.zoom](/cells/es/python-net/aspose.cells/pagesetup#zoom).|
+| [page_scale](/cells/es/python-net/aspose.cells.rendering/sheetrender/page_scale) | Obtiene la escala de página calculada de la hoja.<br/> Devuelve la escala establecida si se establece [PageSetup.zoom](/cells/es/python-net/aspose.cells/pagesetup#zoom). De lo contrario, devuelve la escala calculada según [PageSetup.fit_to_pages_wide](/cells/es/python-net/aspose.cells/pagesetup#fit_to_pages_wide) y [PageSetup.fit_to_pages_tall](/cells/es/python-net/aspose.cells/pagesetup#fit_to_pages_tall).|
 
 
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [to_image(page_index, file_name)](/cells/es/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) | Renderizar ciertas páginas a un archivo.|
-| [to_image(page_index, stream)](/cells/es/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | Renderizar ciertas páginas a una secuencia.|
+| [to_image(page_index, file_name)](/cells/es/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) | Renderizar cierta página a un archivo.|
+| [to_image(page_index, stream)](/cells/es/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | Renderizar cierta página a una secuencia.|
 | [to_tiff(stream)](/cells/es/python-net/aspose.cells.rendering/sheetrender/to_tiff/#io.RawIOBase) | Renderice toda la hoja de trabajo como imagen Tiff para transmitir.|
 | [to_tiff(filename)](/cells/es/python-net/aspose.cells.rendering/sheetrender/to_tiff/#str) | Renderice toda la hoja de trabajo como imagen Tiff en un archivo.|
 | [to_printer(printer_name)](/cells/es/python-net/aspose.cells.rendering/sheetrender/to_printer/#str) | Renderizar la hoja de trabajo a la impresora|

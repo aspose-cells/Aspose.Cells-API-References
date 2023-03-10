@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_custom_calculated_formula
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_custom_calculated_formula(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | formula | str | la formula per questa colonna dell'elenco.|
 | is_r1c1 | bool | Se la formula deve essere formattata come R1C1.|

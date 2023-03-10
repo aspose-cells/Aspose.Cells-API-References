@@ -1,4 +1,4 @@
-﻿---
+---
 title: RectangleAlignmentType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,7 +20,7 @@ RectangleAlignmentType türü aşağıdaki üyeleri gösterir:
 | BOTTOM | Alt|
 | BOTTOM_LEFT | Sol alt|
 | BOTTOM_RIGHT | Sağ alt|
-| CENTER | merkez|
+| CENTER | Merkez|
 | LEFT | Sol|
 | RIGHT | Sağ|
 | TOP | Tepe|

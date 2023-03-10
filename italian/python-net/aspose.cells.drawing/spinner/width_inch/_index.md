@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_inch proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta la larghezza della forma, in unità di pollici.
 
-###  Esempi
+###  Esempio
 
 ```python
 

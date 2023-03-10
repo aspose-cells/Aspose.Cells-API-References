@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add(self, source_data, dest_cell_name, table_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_data | str | Yeni PivotTable önbelleği için veriler.|
 | dest_cell_name | str |PivotTable raporunun hedef aralığının sol üst köşesindeki hücre.|
@@ -44,9 +44,9 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/tr/python-net/aspose.cells.pivot/pivottable) | Kaynak pivot tablosu.|
+| pivot_table | [PivotTable](/cells/tr/python-net/aspose.cells.pivot/pivottable) | Kaynak özet tablosu.|
 | dest_cell_name | str |PivotTable raporunun hedef aralığının sol üst köşesindeki hücre.|
 | table_name | str | Yeni PivotTable raporunun adı.|
 
@@ -66,12 +66,12 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_data | str | Yeni PivotTable önbelleği için veriler.|
 | dest_cell_name | str |PivotTable raporunun hedef aralığının sol üst köşesindeki hücre.|
 | table_name | str | Yeni PivotTable raporunun adı.|
-| use_same_source | bool | Mevcut başka bir pivot tablonun bu veri kaynağını kullandığında aynı veri kaynağının kullanılıp kullanılmadığını gösterir.<br/> Özellik true ise, bellekten tasarruf sağlayacaktır.|
+| use_same_source | bool | Mevcut başka bir pivot tablonun bu veri kaynağını kullanıp kullanmadığını gösterir.<br/> Özellik true ise, bellekten tasarruf sağlayacaktır.|
 
 
 ##  add(source_data, row, column, table_name) {#str-int-int-str}
@@ -89,7 +89,7 @@ def add(self, source_data, row, column, table_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_data | str | Yeni PivotTable için veri hücresi aralığı. Örnek: Sheet1!A1:C8|
 | row | int | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin satır dizini.|
@@ -112,9 +112,9 @@ def add(self, pivot_table, row, column, table_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/tr/python-net/aspose.cells.pivot/pivottable) | Kaynak pivot tablosu.|
+| pivot_table | [PivotTable](/cells/tr/python-net/aspose.cells.pivot/pivottable) | Kaynak özet tablosu.|
 | row | int | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | table_name | str | Yeni PivotTable raporunun adı.|
@@ -135,13 +135,13 @@ def add(self, source_data, row, column, table_name, use_same_source):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_data | str | Yeni PivotTable için veri hücresi aralığı. Örnek: Sheet1!A1:C8|
 | row | int | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin satır dizini.|
 | column | int | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin sütun dizini.|
 | table_name | str | Yeni PivotTable raporunun adı.|
-| use_same_source | bool | Mevcut başka bir pivot tablonun bu veri kaynağını kullandığında aynı veri kaynağının kullanılıp kullanılmadığını gösterir.<br/> Özellik true ise, bellekten tasarruf sağlayacaktır.|
+| use_same_source | bool | Mevcut başka bir pivot tablonun bu veri kaynağını kullanıp kullanmadığını gösterir.<br/> Özellik true ise, bellekten tasarruf sağlayacaktır.|
 
 
 ##  add(source_data, is_auto_page, page_fields, dest_cell_name, table_name) {#list-bool-PivotPageFields-str-str}
@@ -159,9 +159,9 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| source_data | list | {"Sheet1!A1:C8","Sheet2!A1:B8"} gibi çoklu birleştirme aralıkları |
+| source_data | list | {"Sayfa1!A1:C8","Sayfa2!A1:B8"} gibi çoklu birleştirme aralıkları |
 | is_auto_page | bool | İster otomatik tek sayfa alanı oluşturun.<br/>Doğruysa, aşağıdaki pageFields parametresi yok sayılır.|
 | page_fields | [PivotPageFields](/cells/tr/python-net/aspose.cells.pivot/pivotpagefields) | Pivot sayfa alanı öğeleri.|
 | dest_cell_name | str | destCellName Yeni PivotTable raporunun adı.|
@@ -183,9 +183,9 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| source_data | list | {"Sheet1!A1:C8","Sheet2!A1:B8"} gibi çoklu birleştirme aralıkları |
+| source_data | list | {"Sayfa1!A1:C8","Sayfa2!A1:B8"} gibi çoklu birleştirme aralıkları |
 | is_auto_page | bool | İster otomatik tek sayfa alanı oluşturun.<br/> Doğruysa, aşağıdaki pageFields parametresi yok sayılır|
 | page_fields | [PivotPageFields](/cells/tr/python-net/aspose.cells.pivot/pivotpagefields) | Pivot sayfa alanı öğeleri.|
 | row | int | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin satır dizini.|

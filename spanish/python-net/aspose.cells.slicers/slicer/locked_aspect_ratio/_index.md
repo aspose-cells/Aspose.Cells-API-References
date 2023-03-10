@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_aspect_ratio propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indica si la relación de aspecto de bloqueo.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

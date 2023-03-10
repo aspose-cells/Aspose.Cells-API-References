@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def delete_range(self, start_row, start_column, end_row, end_column, shift_type)
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début.|
 | start_column | int | Début de l'index de la colonne.|

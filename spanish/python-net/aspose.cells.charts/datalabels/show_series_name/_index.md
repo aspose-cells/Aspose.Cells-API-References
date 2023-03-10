@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_series_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  show_series_name propiedad
 
 Devuelve o establece un valor booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos en un gráfico.
-True para mostrar el nombre de la serie. False para ocultar.
+True para mostrar el nombre de la serie. Falso para ocultar.
 ###  Definición:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_default_row_hidden недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

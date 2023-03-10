@@ -1,4 +1,4 @@
-﻿---
+---
 title: background_refresh propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

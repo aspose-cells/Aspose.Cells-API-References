@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_selected_ranges
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

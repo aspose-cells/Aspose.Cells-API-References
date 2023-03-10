@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل عرض الإزاحة الرأسية للشكل من صف الزاوية السفلي bottom ، بوحدة البكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

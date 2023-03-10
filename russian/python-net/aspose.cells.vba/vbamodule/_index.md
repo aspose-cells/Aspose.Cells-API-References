@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModule класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,11 +19,11 @@ is_root: false
 | :- | :- |
 | [name](/cells/ru/python-net/aspose.cells.vba/vbamodule/name) | Получает и задает имя модуля.|
 | [type](/cells/ru/python-net/aspose.cells.vba/vbamodule/type) | Получает тип модуля.|
-| [codes](/cells/ru/python-net/aspose.cells.vba/vbamodule/codes) | Получает и устанавливает коды модулей.|
+| [codes](/cells/ru/python-net/aspose.cells.vba/vbamodule/codes) | Получает и устанавливает коды модуля.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: pic_format_option mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

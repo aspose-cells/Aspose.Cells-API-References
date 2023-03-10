@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_width_inch метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Ширина столбцов
+Ширина колонны
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width_inch(self, column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | column | int | Индекс столбца|
 

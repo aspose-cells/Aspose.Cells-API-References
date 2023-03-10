@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_show_field недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_show_field недвижимость
 
-Представляет индекс поля автоматического отображения. -1 означает сам PivotField.
+Представляет индекс поля автопоказа. -1 означает сам PivotField.
 Это должен быть индекс полей данных.
 ###  Определение:
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_type_map недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map недвижимость
 
-Получает и задает карту типов столбцов для разных баз данных.
+Получает и задает карту типа столбца для другой базы данных.
 ###  Определение:
 ```python
 @property

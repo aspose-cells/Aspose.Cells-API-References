@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_color_in_palette
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-يعود صحيحًا إذا كان هذا اللون في اللوحة.
+يعود صحيحًا إذا كان هذا اللون في اللوحة. خلاف ذلك ، ترجع خطأ
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | بنية اللون.|
 

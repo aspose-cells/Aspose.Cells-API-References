@@ -1,4 +1,4 @@
-﻿---
+---
 title: style_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -12,7 +12,7 @@ is_root: false
 Укажите тип стиля встроенного слайсера
 тип по умолчанию — SlicerStyleLight1
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

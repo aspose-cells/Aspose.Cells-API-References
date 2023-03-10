@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_cell_auto_fit proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -14,7 +14,7 @@ Il valore predefinito è falso.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 si prega di utilizzare [Worksheet.auto_fit_columns()](/cells/it/python-net/aspose.cells/worksheet/auto_fit_columns) e [Worksheet.auto_fit_rows()](/cells/it/python-net/aspose.cells/worksheet/auto_fit_rows).
  Questa proprietà verrà rimossa 12 mesi dopo dall'agosto 2022.
 Aspose si scusa per gli eventuali disagi causati.

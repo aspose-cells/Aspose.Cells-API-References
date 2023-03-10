@@ -1,6 +1,6 @@
-﻿---
+---
 title: plot_empty_cells_type 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 440
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## plot_empty_cells_type 属性
 
-获取和设置如何绘制空单元格。
+获取并设置如何绘制空单元格。
 ### 定义：
 ```python
 @property

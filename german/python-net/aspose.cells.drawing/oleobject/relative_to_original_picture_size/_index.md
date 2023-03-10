@@ -1,4 +1,4 @@
-﻿---
+---
 title: relative_to_original_picture_size Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob die Form relativ zur ursprünglichen Bildgröße ist.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

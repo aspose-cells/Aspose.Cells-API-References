@@ -1,4 +1,4 @@
-﻿---
+---
 title: image_scalable proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  image_scalable proprietà
 
 Indica se si utilizza un'unità scalabile per descrivere la larghezza dell'immagine
-quando si utilizzano unità scalabili per descrivere la larghezza della colonna.
-Il valore predefinito è true.
+quando si utilizza l'unità scalabile per descrivere la larghezza della colonna.
+Il valore predefinito è vero.
 ###  Definizione:
 ```python
 @property

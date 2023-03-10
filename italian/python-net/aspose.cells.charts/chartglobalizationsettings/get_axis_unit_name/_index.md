@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_axis_unit_name
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_axis_unit_name(self, type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [DisplayUnitType](/cells/it/python-net/aspose.cells.charts/displayunittype) |  |
 

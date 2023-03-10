@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_row metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def copy_row(self, source_cells, source_row_index, destination_row_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/sv/python-net/aspose.cells/cells) | Källa Cells-objektet innehåller data och format att kopiera.|
 | source_row_index | int | Källradsindex.|

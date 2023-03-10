@@ -1,4 +1,4 @@
-﻿---
+---
 title: WeightType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ Il tipo WeightType espone i membri seguenti:
 | :- | :- |
 | HAIR_LINE | Rappresenta il peso della linea dei capelli.|
 | MEDIUM_LINE | Rappresenta il peso della linea media.|
-| SINGLE_LINE | Rappresenta lo spessore di una singola linea.|
+| SINGLE_LINE | Rappresenta lo spessore della singola riga.|
 | WIDE_LINE | Rappresenta lo spessore della linea larga.|
 
 

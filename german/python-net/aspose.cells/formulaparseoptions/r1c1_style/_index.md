@@ -1,4 +1,4 @@
-﻿---
+---
 title: r1c1_style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  r1c1_style Eigentum
 
-Ob die Formel im R1C1-Referenzstil ist. Der Standardwert ist „false“.
+Ob die Formel R1C1-Referenzstil ist. Standard ist falsch.
 ###  Definition:
 ```python
 @property

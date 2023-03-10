@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Web uzantısı özelliği ekler.
 
 ###  İadeler
 
-Eklenen özelliklerin dizini.
+Eklenen özelliğin dizini.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Mülkün adı.|
 | value | str | Mülkün değeri.|

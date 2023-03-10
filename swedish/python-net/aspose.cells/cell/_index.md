@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cell klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -26,7 +26,7 @@ Typen Cell avslöjar följande medlemmar:
 | [name](/cells/sv/python-net/aspose.cells/cell/name) | Får namnet på cellen.|
 | [is_error_value](/cells/sv/python-net/aspose.cells/cell/is_error_value) | Kontrollerar om värdet på den här cellen är ett fel.|
 | [is_numeric_value](/cells/sv/python-net/aspose.cells/cell/is_numeric_value) | Indikerar om det inre värdet i denna cell är numeriskt (int, double och datetime)|
-| [string_value](/cells/sv/python-net/aspose.cells/cell/string_value) |Hämtar strängvärdet som finns i cellen.<br/>För andra celltyper kommer det formaterade strängvärdet (formaterat med den angivna stilen för denna cell) att returneras.<br/>Det formaterade cellvärdet är detsamma som det du kan få från excel när du kopierar en cell som text (t.ex<br/> kopiera cell till textredigerare eller exportera till csv).|
+| [string_value](/cells/sv/python-net/aspose.cells/cell/string_value) |Hämtar strängvärdet som finns i cellen. Om typen av denna cell är sträng, returnera själva strängvärdet.<br/>För andra celltyper kommer det formaterade strängvärdet (formaterat med den angivna stilen för denna cell) att returneras.<br/>Det formaterade cellvärdet är samma som det du kan få från Excel när du kopierar en cell som text (t.ex<br/> kopiera cell till textredigerare eller exportera till csv).|
 | [string_value_without_format](/cells/sv/python-net/aspose.cells/cell/string_value_without_format) | Hämtar cellens värde som sträng utan något format.|
 | [number_category_type](/cells/sv/python-net/aspose.cells/cell/number_category_type) | Representerar kategoritypen för denna cells nummerformatering.|
 | [display_string_value](/cells/sv/python-net/aspose.cells/cell/display_string_value) | Hämtar det formaterade strängvärdet för denna cell efter cells visningsstil.|
@@ -44,11 +44,11 @@ Typen Cell avslöjar följande medlemmar:
 | [is_dynamic_array_formula](/cells/sv/python-net/aspose.cells/cell/is_dynamic_array_formula) | Anger om cellens formel är dynamisk matrisformel (sant) eller äldre matrisformel (falsk).|
 | [is_array_formula](/cells/sv/python-net/aspose.cells/cell/is_array_formula) | Anger om cellformeln är en matrisformel.|
 | [is_in_array](/cells/sv/python-net/aspose.cells/cell/is_in_array) | Anger om cellformeln är en matrisformel.|
-| [is_shared_formula](/cells/sv/python-net/aspose.cells/cell/is_shared_formula) | Anger om cellformeln är en del av en delad formel.|
+| [is_shared_formula](/cells/sv/python-net/aspose.cells/cell/is_shared_formula) | Anger om cellformeln är en del av delad formel.|
 | [is_table_formula](/cells/sv/python-net/aspose.cells/cell/is_table_formula) | Anger om denna cell är en del av tabellformeln.|
 | [is_in_table](/cells/sv/python-net/aspose.cells/cell/is_in_table) | Anger om denna cell är en del av tabellformeln.|
 | [value](/cells/sv/python-net/aspose.cells/cell/value) | Hämtar värdet som finns i den här cellen.|
-| [is_style_set](/cells/sv/python-net/aspose.cells/cell/is_style_set) | Indikerar om cellens stil är inställd. Om returneras false betyder det att cellen har ett standardcellformat.|
+| [is_style_set](/cells/sv/python-net/aspose.cells/cell/is_style_set) | Indikerar om cellens stil är inställd. Om returnera false betyder det att den här cellen har ett standardcellformat.|
 | [is_merged](/cells/sv/python-net/aspose.cells/cell/is_merged) | Kontrollerar om en cell är en del av ett sammanslaget område eller inte.|
 | [comment](/cells/sv/python-net/aspose.cells/cell/comment) | Får kommentaren från den här cellen.|
 | [html_string](/cells/sv/python-net/aspose.cells/cell/html_string) | Hämtar och ställer in html-strängen som innehåller data och vissa format i denna cell.|
@@ -68,7 +68,7 @@ Typen Cell avslöjar följande medlemmar:
 | [put_value(date_time)](/cells/sv/python-net/aspose.cells/cell/put_value/#DateTime) | Lägger in ett DateTime-värde i cellen.|
 | [put_value(object_value)](/cells/sv/python-net/aspose.cells/cell/put_value/#any) | Lägger ett objektvärde i cellen.|
 | [get_display_style()](/cells/sv/python-net/aspose.cells/cell/get_display_style/#) | Hämtar visningsstilen för cellen.<br/>Om den här cellen också påverkas av andra inställningar som villkorlig formatering, listobjekt etc.,<br/> då kan visningsstilen skilja sig från cell.GetStyle().|
-| [get_display_style(include_merged_borders)](/cells/sv/python-net/aspose.cells/cell/get_display_style/#bool) | Hämtar visningsstilen för cellen.<br/> Om cellen är villkorligt formaterad är visningsstilen inte densamma som cell.GetStyle().|
+| [get_display_style(include_merged_borders)](/cells/sv/python-net/aspose.cells/cell/get_display_style/#bool) | Hämtar visningsstilen för cellen.<br/> Om cellen är villkorligt formaterad är visningsstilen inte samma som cell.GetStyle().|
 | [get_style()](/cells/sv/python-net/aspose.cells/cell/get_style/#) | Får cellstilen.|
 | [get_style(check_borders)](/cells/sv/python-net/aspose.cells/cell/get_style/#bool) | Om checkBorders är sant, kontrollera om andra cellers gränser kommer att påverka stilen för denna cell.|
 | [set_style(style)](/cells/sv/python-net/aspose.cells/cell/set_style/#Style) | Ställer in cellstilen.|
@@ -90,15 +90,15 @@ Typen Cell avslöjar följande medlemmar:
 | [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/sv/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) | Ställer in dynamisk matrisformel och får formeln att spilla in i närliggande celler om möjligt.|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/sv/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) | Ställer in dynamisk matrisformel och får formeln att spilla in i närliggande celler om möjligt.|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/sv/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) | Ställer in dynamisk matrisformel och får formeln att spilla in i närliggande celler om möjligt.|
-| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/sv/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Skapa en datatabell med två variabler för ett givet intervall med start från den här cellen.|
+| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/sv/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Skapa datatabell med två variabler för ett givet intervall med start från den här cellen.|
 | [set_table_formula(row_number, column_number, input_cell, is_row_input, values)](/cells/sv/python-net/aspose.cells/cell/set_table_formula/#int-int-str-bool-list) | Skapa datatabell med en variabel för ett givet intervall med start från den här cellen.|
-| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/sv/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Skapa en datatabell med två variabler för ett givet intervall med start från den här cellen.|
+| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/sv/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Skapa datatabell med två variabler för ett givet intervall med start från den här cellen.|
 | [set_table_formula(row_number, column_number, row_index_of_input_cell, column_index_of_input_cell, is_row_input, values)](/cells/sv/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-bool-list) | Skapa datatabell med en variabel för ett givet intervall med start från den här cellen.|
 | [get_characters()](/cells/sv/python-net/aspose.cells/cell/get_characters/#) | Returnerar alla teckenobjekt<br/> som representerar ett teckenintervall i celltexten.|
 | [get_characters(flag)](/cells/sv/python-net/aspose.cells/cell/get_characters/#bool) | Returnerar alla teckenobjekt<br/> som representerar ett teckenintervall i celltexten.|
 | [get_string_value(format_strategy)](/cells/sv/python-net/aspose.cells/cell/get_string_value/#CellValueFormatStrategy) | Hämtar strängvärdet efter specifik formaterad strategi.|
-| [get_width_of_value()](/cells/sv/python-net/aspose.cells/cell/get_width_of_value/#) | Hämtar bredden på värdet i enheter av pixlar.|
-| [get_height_of_value()](/cells/sv/python-net/aspose.cells/cell/get_height_of_value/#) | Hämtar höjden på värdet i enheter av pixlar.|
+| [get_width_of_value()](/cells/sv/python-net/aspose.cells/cell/get_width_of_value/#) | Hämtar bredden på värdet i enhet pixlar.|
+| [get_height_of_value()](/cells/sv/python-net/aspose.cells/cell/get_height_of_value/#) | Hämtar höjden på värdet i enhet pixlar.|
 | [get_format_conditions()](/cells/sv/python-net/aspose.cells/cell/get_format_conditions/#) | Hämtar formatvillkor som gäller för denna cell.|
 | [get_formula(is_r1c1, is_local)](/cells/sv/python-net/aspose.cells/cell/get_formula/#bool-bool) | Få formeln för denna cell.|
 | [get_precedents()](/cells/sv/python-net/aspose.cells/cell/get_precedents/#) |Hämtar alla referenser som visas i den här cellens formel.|

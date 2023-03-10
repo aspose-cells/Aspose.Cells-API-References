@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_align_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type Eigentum
 
-Bestimmt, wo vertikal in einer Textzeile die eigentlichen Wörter positioniert sind.
+Bestimmt, wo vertikal in einer Textzeile die eigentlichen Wörter positioniert sind. Diese Angebote
 mit vertikaler Anordnung der Zeichen in Bezug auf die Grundlinien.
 ###  Definition:
 ```python

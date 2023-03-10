@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة end_cell_in_row
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def end_cell_in_row(self, row_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 
@@ -42,7 +42,7 @@ def end_cell_in_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | end_row | int | فهرس صف النهاية.|

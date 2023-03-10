@@ -1,4 +1,4 @@
-﻿---
+---
 title: x_values propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  x_values propriété
 
-Représente les valeurs x de la série graphique.
+Représente les valeurs x de la série de graphiques.
 ###  Définition:
 ```python
 @property

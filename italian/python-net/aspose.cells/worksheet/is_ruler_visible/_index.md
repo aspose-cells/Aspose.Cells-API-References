@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_ruler_visible proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible proprietà
 
-Indica se il righello è visibile.
+Indica se il righello è visibile. Questa proprietà viene applicata solo per l'anteprima dell'interruzione di pagina.
 ###  Definizione:
 ```python
 @property

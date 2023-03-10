@@ -1,4 +1,4 @@
-﻿---
+---
 title: axis_between_categories недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

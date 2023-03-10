@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_automatic_color 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 160
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_automatic_color 属性
 
-指示是否自动分配线条颜色。
+指示线的颜色是否自动分配。
 ### 定义：
 ```python
 @property

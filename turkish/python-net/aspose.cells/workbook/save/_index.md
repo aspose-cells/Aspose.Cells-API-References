@@ -1,4 +1,4 @@
-﻿---
+---
 title: save yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | Dosya adı.|
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kaydetme biçimi türü.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | Dosya adı.|
 | save_options | [SaveOptions](/cells/tr/python-net/aspose.cells/saveoptions) | Kaydetme seçenekleri.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Dosya akışı.|
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kayıt dosyası biçimi türü.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Dosya akışı.|
 | save_options | [SaveOptions](/cells/tr/python-net/aspose.cells/saveoptions) | Kaydetme seçenekleri.|

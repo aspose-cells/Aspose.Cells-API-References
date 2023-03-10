@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_inch mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin inç cinsinden yüksekliğini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

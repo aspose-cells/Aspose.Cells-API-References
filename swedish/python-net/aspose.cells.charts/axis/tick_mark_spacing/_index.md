@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_mark_spacing fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing fastighet
 
-Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar.
+Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar. Gäller endast kategori- och serieaxlar.
 
 ###  Anmärkningar
 

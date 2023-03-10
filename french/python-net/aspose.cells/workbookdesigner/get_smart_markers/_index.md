@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_smart_markers méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Remarques
 
-Un tableau de chaînes est créé à chaque appel.
+Un tableau de chaînes est créé à chaque appel. Le tableau est trié et les valeurs en double sont supprimées.
 
 
 ###  Voir également

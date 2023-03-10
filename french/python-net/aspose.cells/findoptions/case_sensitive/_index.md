@@ -1,4 +1,4 @@
-﻿---
+---
 title: case_sensitive propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

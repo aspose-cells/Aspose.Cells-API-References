@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.slicers
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 | [Slicer](/cells/ar/python-net/aspose.cells.slicers/slicer) | وصف موجز لعرض القطاعة|
 | [SlicerCache](/cells/ar/python-net/aspose.cells.slicers/slicercache) | وصف موجز لذاكرة التخزين المؤقت القطاعة|
 | [SlicerCacheItem](/cells/ar/python-net/aspose.cells.slicers/slicercacheitem) | تمثل عنصر مصدر بيانات مقسم طريقة العرض|
-| [SlicerCacheItemCollection](/cells/ar/python-net/aspose.cells.slicers/slicercacheitemcollection) | تمثيل مجموعة SlicerCacheItems|
+| [SlicerCacheItemCollection](/cells/ar/python-net/aspose.cells.slicers/slicercacheitemcollection) | تمثل مجموعة SlicerCacheItem|
 | [SlicerCollection](/cells/ar/python-net/aspose.cells.slicers/slicercollection) | يحدد مجموعة كل كائنات Slicer في ورقة العمل المحددة.|
 
 

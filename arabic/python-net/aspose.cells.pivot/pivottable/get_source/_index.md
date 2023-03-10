@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_source
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

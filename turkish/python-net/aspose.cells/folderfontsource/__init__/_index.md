@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Müdür.
+Ctor.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, folder_path, scan_subfolders):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | folder_path | str | yazı tipi klasörüne giden yol|
 | scan_subfolders | bool | Alt klasörlerin taranıp taranmayacağını belirler.|

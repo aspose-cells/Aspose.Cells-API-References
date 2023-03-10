@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_filter недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  Примечания
 
 Иногда, несмотря на установленный автофильтр, соответствующие строки не скрываются в файле.
-Теперь работает только с файлами SpreadSheetML.
+Теперь работает только с файлом SpreadSheetML.
 ###  Определение:
 ```python
 @property

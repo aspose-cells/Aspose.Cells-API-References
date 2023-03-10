@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_external_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | text | str | Texten för det externa namnet.<br/>Om det externa namnet tillhör ett kalkylblad ska texten vara som Sheet1!Text.|
-| refer_to | str | Hänvisningen till det externa namnet.|
+| refer_to | str | Hänvisningen till det externa namnet. Det måste vara en cell eller intervallet.|
 
 
 

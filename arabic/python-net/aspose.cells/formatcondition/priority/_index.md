@@ -1,4 +1,4 @@
-﻿---
+---
 title: priority الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  priority الملكية
 
-priority لقاعدة التنسيق الشرطي هذه.
-يجب تقييم التنسيق وتقديمه. القيم الرقمية الدنيا أكبر من priority
+priority لقاعدة التنسيق الشرطي هذه. يتم استخدام هذه القيمة لتحديد أي
+يجب تقييم التنسيق وتقديمه. القيم الرقمية الأقل أعلى من priority من
 القيم الرقمية الأعلى ، حيث يكون "1" أعلى priority.
 ###  تعريف:
 ```python

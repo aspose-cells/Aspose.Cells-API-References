@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_xml_source_data mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_xml_source_data mülk
 
-HTML tablosunun kendisi yerine XML kaynak verilerinin içe aktarılması gerektiğini belirten işaret.
+HTML tablosunun kendisi yerine XML kaynak verilerinin içe aktarılması gerektiğini belirten bayrak.
 ###  Tanım:
 ```python
 @property

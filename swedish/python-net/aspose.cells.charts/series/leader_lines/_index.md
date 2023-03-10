@@ -1,4 +1,4 @@
-﻿---
+---
 title: leader_lines fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  leader_lines fastighet
 
  Representerar ledarlinjer på ett diagram. Ledarlinjer kopplar dataetiketter till datapunkter.
-Det här objektet är inte en samling, det finns inget objekt som representerar en enda ledarlinje.
+Detta objekt är inte en samling; det finns inget objekt som representerar en enda ledarlinje.
 ###  Definition:
 ```python
 @property

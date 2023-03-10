@@ -1,4 +1,4 @@
-﻿---
+---
 title: shrink_to_fit الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

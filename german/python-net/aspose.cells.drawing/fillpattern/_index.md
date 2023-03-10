@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPattern Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -35,7 +35,7 @@ Der Typ FillPattern macht die folgenden Member verfügbar:
 | LIGHT_UPWARD_DIAGONAL | Stellt ein leichtes, nach oben gerichtetes Diagonalmuster dar.|
 | DARK_DOWNWARD_DIAGONAL | Stellt ein dunkles nach unten gerichtetes diagonales Muster dar.|
 | DARK_UPWARD_DIAGONAL | Stellt ein dunkles, nach oben gerichtetes diagonales Muster dar.|
-| WIDE_DOWNWARD_DIAGONAL | Stellt ein breites nach unten gerichtetes diagonales Muster dar.|
+| WIDE_DOWNWARD_DIAGONAL | Stellt ein breites nach unten gerichtetes Diagonalmuster dar.|
 | WIDE_UPWARD_DIAGONAL | Stellt ein breites nach oben gerichtetes Diagonalmuster dar.|
 | LIGHT_VERTICAL | Stellt ein helles vertikales Muster dar.|
 | LIGHT_HORIZONTAL | Stellt ein leichtes horizontales Muster dar.|
@@ -44,7 +44,7 @@ Der Typ FillPattern macht die folgenden Member verfügbar:
 | DARK_VERTICAL | Stellt ein dunkles vertikales Muster dar.|
 | DARK_HORIZONTAL | Stellt ein dunkles horizontales Muster dar.|
 | DASHED_DOWNWARD_DIAGONAL | Stellt ein gestricheltes nach unten gerichtetes Diagonalmuster dar.|
-| DASHED_UPWARD_DIAGONAL | Stellt ein gestricheltes nach oben gerichtetes Diagonalmuster dar.|
+| DASHED_UPWARD_DIAGONAL | Stellt ein gestricheltes, nach oben gerichtetes Diagonalmuster dar.|
 | DASHED_VERTICAL |Stellt ein gestricheltes vertikales Muster dar.|
 | DASHED_HORIZONTAL | Stellt ein gestricheltes horizontales Muster dar.|
 | SMALL_CONFETTI | Stellt ein kleines Konfettimuster dar.|
@@ -55,19 +55,19 @@ Der Typ FillPattern macht die folgenden Member verfügbar:
 | HORIZONTAL_BRICK | Stellt ein horizontales Backsteinmuster dar.|
 | WEAVE | Stellt Webmuster dar.|
 | PLAID | Stellt ein kariertes Muster dar.|
-| DIVOT | Stellt Divot-Muster dar.|
+| DIVOT | Repräsentiert das Divot-Muster.|
 | DOTTED_GRID | Stellt ein gepunktetes Gittermuster dar.|
 | DOTTED_DIAMOND | Stellt ein gepunktetes Rautenmuster dar.|
-| SHINGLE | Stellt ein einzelnes Muster dar.|
+| SHINGLE | Stellt Schindelmuster dar.|
 | TRELLIS | Repräsentiert ein Trellis-Muster.|
 | SPHERE | Stellt Kugelmuster dar.|
-| SMALL_GRID | Stellt kleine Gittermuster dar.|
+| SMALL_GRID | Stellt ein kleines Gittermuster dar.|
 | LARGE_GRID | Stellt ein großes Gittermuster dar.|
 | SMALL_CHECKER_BOARD | Stellt ein kleines Schachbrettmuster dar.|
 | LARGE_CHECKER_BOARD | Stellt ein großes Schachbrettmuster dar.|
 | OUTLINED_DIAMOND | Stellt ein umrissenes Rautenmuster dar.|
 | SOLID_DIAMOND | Stellt ein solides Rautenmuster dar.|
-| UNKNOWN | Stellt unbekannte Muster dar.|
+| UNKNOWN | Stellt ein unbekanntes Muster dar.|
 
 
 

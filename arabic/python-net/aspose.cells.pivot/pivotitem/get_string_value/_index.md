@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_string_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

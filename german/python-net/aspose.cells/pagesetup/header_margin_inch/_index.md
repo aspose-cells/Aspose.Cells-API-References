@@ -1,4 +1,4 @@
-﻿---
+---
 title: header_margin_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin_inch Eigentum
 
-Stellt den Abstand vom oberen Rand der Seite zur Kopfzeile in Zolleinheiten dar.
+Stellt den Abstand vom oberen Rand der Seite zur Kopfzeile in Zoll dar.
 ###  Definition:
 ```python
 @property

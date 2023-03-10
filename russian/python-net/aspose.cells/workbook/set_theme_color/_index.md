@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_theme_color метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_theme_color(self, type, color):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/ru/python-net/aspose.cells/themecolortype) | Цветовой тип темы.|
 | color | aspose.pydrawing.Color | цвет темы|

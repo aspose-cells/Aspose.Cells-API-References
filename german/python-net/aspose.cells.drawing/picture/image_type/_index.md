@@ -1,4 +1,4 @@
-﻿---
+---
 title: image_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft das Bildformat des Bildes ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

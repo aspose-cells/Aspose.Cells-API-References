@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -62,7 +62,7 @@ El tipo ChartType expone los siguientes miembros:
 | LINE_100_PERCENT_STACKED_WITH_DATA_MARKERS | Representa un gráfico de líneas apiladas al 100 % con marcadores de datos.|
 | LINE_3D | Representa el gráfico de líneas 3D.|
 | PIE | Representa el gráfico circular.|
-| PIE_3D | Representa gráficos circulares en 3D.|
+| PIE_3D | Representa el gráfico circular 3D.|
 | PIE_PIE | Representa un gráfico circular de un gráfico circular.|
 | PIE_EXPLODED | Representa el gráfico circular despiezado.|
 | PIE_3D_EXPLODED | Representa un gráfico circular explotado en 3D.|
@@ -98,7 +98,7 @@ El tipo ChartType expone los siguientes miembros:
 | WATERFALL | La serie se presenta como una cascada.|
 | HISTOGRAM | La serie se presenta como un histograma.|
 | MAP | La serie se presenta como un mapa de la región.|
-| RADIAL_HISTOGRAM | La serie se presenta como un histograma radial.|
+| RADIAL_HISTOGRAM | La serie se presenta como un historgrama radial. Se usa solo para renderizar.|
 
 
 

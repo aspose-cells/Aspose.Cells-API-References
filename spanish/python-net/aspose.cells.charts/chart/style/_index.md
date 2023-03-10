@@ -1,4 +1,4 @@
-﻿---
+---
 title: style propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style propiedad
 
-Obtiene y establece el style integrado.
+Obtiene y establece el style incorporado.
 
 ###  Observaciones
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/ar/python-net/aspose.cells.charts/trendlinetype) | نوع خط الاتجاه.|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/ar/python-net/aspose.cells.charts/trendlinetype) | نوع خط الاتجاه.|
 | name | str | اسم خط الاتجاه.|

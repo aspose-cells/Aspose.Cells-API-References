@@ -1,4 +1,4 @@
-﻿---
+---
 title: embeded_image_name_in_svg mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

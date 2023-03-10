@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def calculate(self, options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/ru/python-net/aspose.cells/calculationoptions) | Варианты расчета|
 
@@ -34,13 +34,13 @@ def calculate(self, ignore_error, custom_function):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| ignore_error | bool | Указывает, если скрыть ошибку при вычислении формул.<br/> Ошибка может заключаться в неподдерживаемых функциях, внешних ссылках и т.д.|
+| ignore_error | bool | Указывает, если скрыть ошибку при вычислении формул.<br/> Ошибка может быть в неподдерживаемой функции, внешних ссылках и т.п.|
 | custom_function | [ICustomFunction](/cells/ru/python-net/aspose.cells/icustomfunction) | Функции вычисления пользовательских формул для расширения механизма вычислений.|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел.
+ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 пожалуйста, используйте метод Calculate(CalculationOptions).
  Этот метод будет удален через 12 месяцев, начиная с августа 2020 года.
 Aspose приносит извинения за возможные неудобства.

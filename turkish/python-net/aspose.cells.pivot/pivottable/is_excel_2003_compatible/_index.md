@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_excel_2003_compatible mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: distance الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance الملكية
 
-الحصول على distance للظل وتعيينه يتراوح من 0 إلى 200 نقطة.
+الحصول على distance الظل وتعيينه. تتراوح من 0 إلى 200 نقطة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: combine yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,12 +18,12 @@ def combine(self, second_workbook):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| second_workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Başka bir çalışma kitabı nesnesi.|
+| second_workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Başka bir Çalışma Kitabı nesnesi.|
 ###  Notlar
 
-Şu anda yalnızca ikinci Çalışma Kitabı nesnesinin hücre verileri ve hücre stili birleştirilebilir.Görüntüler, grafikler ve diğer çizim nesneleri desteklenmez.
+Şu anda yalnızca ikinci Çalışma Kitabı nesnesinin hücre verileri ve hücre stili birleştirilebilir. Resimler, çizelgeler ve diğer çizim nesneleri desteklenmez.
 
 
 ###  Ayrıca bakınız

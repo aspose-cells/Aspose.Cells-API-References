@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_set mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,9 +11,9 @@ is_root: false
 
 İşlenecek sayfaları alır veya ayarlar. Varsayılan, çalışma kitabındaki tüm görünür sayfalardır: [SheetSet.visible](/cells/tr/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  örnekler
+###  Örnek
 
-Aşağıdaki kod yalnızca etkin sayfaları pdf olarak işler.
+Aşağıdaki kod yalnızca aktif sayfayı pdf'ye dönüştürür.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

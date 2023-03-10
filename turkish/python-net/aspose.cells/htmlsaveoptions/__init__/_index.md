@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/htmlsaveoptions/__init__/
 is_root: false
 ---
 ##  HtmlSaveOptions() {#}
-Html dosyalarını kaydetmek için seçenekler oluşturur.
+Html dosyasını kaydetmek için seçenekler oluşturur.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlSaveOptions(format) {#SaveFormat}
-Htm dosyalarını kaydetmek için seçenekler oluşturur.
+Htm dosyasını kaydetmek için seçenekler oluşturur.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kaydetme dosyası formatı.|
 

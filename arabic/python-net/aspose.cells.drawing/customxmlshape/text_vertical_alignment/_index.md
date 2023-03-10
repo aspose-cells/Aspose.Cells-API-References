@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_alignment الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع المحاذاة الرأسية للنص للشكل وتعيينه.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import TextAlignmentType

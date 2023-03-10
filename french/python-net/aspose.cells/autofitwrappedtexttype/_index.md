@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFitWrappedTextType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  AutoFitWrappedTextType dénombrement
-Représente le type de texte enveloppé d'ajustement automatique.
+Représente le type de texte ajusté automatiquement.
 
 
 

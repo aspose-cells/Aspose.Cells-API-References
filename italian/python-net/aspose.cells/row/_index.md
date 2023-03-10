@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -53,7 +53,7 @@ Ottiene la cella.
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

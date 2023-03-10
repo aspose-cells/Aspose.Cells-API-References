@@ -1,4 +1,4 @@
-﻿---
+---
 title: refer_to_sheet_with_same_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

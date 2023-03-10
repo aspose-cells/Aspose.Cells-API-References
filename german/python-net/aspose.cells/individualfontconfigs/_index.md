@@ -1,4 +1,4 @@
-﻿---
+---
 title: IndividualFontConfigs Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,13 +17,13 @@ Der Typ IndividualFontConfigs macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [IndividualFontConfigs()](/cells/de/python-net/aspose.cells/individualfontconfigs/__init__/#) | Direktor.|
+| [IndividualFontConfigs()](/cells/de/python-net/aspose.cells/individualfontconfigs/__init__/#) | Ctor.|
 
 
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/de/python-net/aspose.cells/individualfontconfigs/set_font_substitutes/#str-list) | Font-Ersatznamen für gegebene Original-Fontnamen.|
+| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/de/python-net/aspose.cells/individualfontconfigs/set_font_substitutes/#str-list) | Schriftart-Ersatznamen für den angegebenen ursprünglichen Schriftartnamen.|
 | [get_font_substitutes(original_font_name)](/cells/de/python-net/aspose.cells/individualfontconfigs/get_font_substitutes/#str) | Gibt ein Array zurück, das Ersatznamen für Schriftarten enthält, die verwendet werden sollen, wenn die Originalschriftart nicht vorhanden ist.|
 | [set_font_folder(font_folder, recursive)](/cells/de/python-net/aspose.cells/individualfontconfigs/set_font_folder/#str-bool) | Legt den Schriftartenordner fest|
 | [set_font_folders(font_folders, recursive)](/cells/de/python-net/aspose.cells/individualfontconfigs/set_font_folders/#list-bool) | Legt die Schriftartenordner fest|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleted الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  is_deleted الملكية
 
-يشير إلى ما إذا كان قد تم حذف اتصال المصنف المرتبط أم لا
-خلاف ذلك ، خطأ.
+يشير إلى ما إذا كان قد تم حذف اتصال المصنف المرتبط. صحيح إذا كان
+تم حذف الاتصال ؛ خلاف ذلك ، خطأ.
 ###  تعريف:
 ```python
 @property

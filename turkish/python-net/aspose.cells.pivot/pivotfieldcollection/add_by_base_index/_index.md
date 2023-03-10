@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_by_base_index yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_by_base_index(self, base_field_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | base_field_index | int | temel PivotFields'deki alan dizini.|
 

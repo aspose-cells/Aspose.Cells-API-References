@@ -1,4 +1,4 @@
-﻿---
+---
 title: signature_line الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على خط التوقيع ويعينه
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

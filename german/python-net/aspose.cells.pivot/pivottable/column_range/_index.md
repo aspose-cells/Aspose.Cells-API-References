@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_range Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  column_range Eigentum
 
 Gibt ein CellArea-Objekt zurück, das den Bereich darstellt
-die den Spaltenbereich im PivotTable-Bericht enthält.
+die den Spaltenbereich im PivotTable-Bericht enthält. Schreibgeschützt.
 ###  Definition:
 ```python
 @property

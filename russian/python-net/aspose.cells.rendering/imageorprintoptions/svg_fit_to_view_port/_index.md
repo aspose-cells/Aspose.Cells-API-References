@@ -1,4 +1,4 @@
-﻿---
+---
 title: svg_fit_to_view_port недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,6 +1,6 @@
-﻿---
+---
 title: insert_columns方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 690
@@ -18,7 +18,7 @@ def insert_columns(self, column_index, total_columns):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | column_index | int |列索引。|
 | total_columns | int |列数。|
@@ -35,7 +35,7 @@ def insert_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | column_index | int |列索引。|
 | total_columns | int |列数。|

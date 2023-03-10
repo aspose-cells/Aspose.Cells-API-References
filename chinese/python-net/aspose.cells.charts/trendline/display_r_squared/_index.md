@@ -1,6 +1,6 @@
-﻿---
+---
 title: display_r_squared 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 130
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## display_r_squared 属性
 
-表示趋势线的 R 平方值是否显示在图表上（在与方程相同的数据标签中）。将此属性设置为 True 会自动打开数据标签。
+表示趋势线的 R 平方值是否显示在图表上（在与方程式相同的数据标签中）。将此属性设置为 True 会自动打开数据标签。
 ### 定义：
 ```python
 @property

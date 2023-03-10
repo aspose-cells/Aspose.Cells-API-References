@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageSetup klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -26,19 +26,19 @@ Typen PageSetup avslöjar följande medlemmar:
 | [center_horizontally](/cells/sv/python-net/aspose.cells/pagesetup/center_horizontally) | Representerar om arket skrivs ut centrerat horisontellt.|
 | [center_vertically](/cells/sv/python-net/aspose.cells/pagesetup/center_vertically) | Representerar om arket skrivs ut centrerat vertikalt.|
 | [print_draft](/cells/sv/python-net/aspose.cells/pagesetup/print_draft) | Anger om arket kommer att skrivas ut utan grafik.|
-| [footer_margin](/cells/sv/python-net/aspose.cells/pagesetup/footer_margin) | Representerar avståndet från botten av sidan till sidfoten, i enheter av centimeter.|
-| [footer_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/footer_margin_inch) | Representerar avståndet från botten av sidan till sidfoten, i enheter av tum.|
-| [header_margin](/cells/sv/python-net/aspose.cells/pagesetup/header_margin) | Representerar avståndet från toppen av sidan till sidhuvudet, i enheter av centimeter.|
-| [header_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/header_margin_inch) | Representerar avståndet från toppen av sidan till sidhuvudet, i enheter av tum.|
+| [footer_margin](/cells/sv/python-net/aspose.cells/pagesetup/footer_margin) | Representerar avståndet från botten av sidan till sidfoten, i centimeterenhet.|
+| [footer_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/footer_margin_inch) | Representerar avståndet från botten av sidan till sidfoten, i enhet av tum.|
+| [header_margin](/cells/sv/python-net/aspose.cells/pagesetup/header_margin) | Representerar avståndet från toppen av sidan till sidhuvudet, i centimeterenhet.|
+| [header_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/header_margin_inch) | Representerar avståndet från toppen av sidan till sidhuvudet, i enhet av tum.|
 | [printer_settings](/cells/sv/python-net/aspose.cells/pagesetup/printer_settings) | Hämtar och ställer in inställningarna för standardskrivaren.|
-| [left_margin](/cells/sv/python-net/aspose.cells/pagesetup/left_margin) |Representerar storleken på den vänstra marginalen, i enheter av centimeter.|
-| [left_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/left_margin_inch) | Representerar storleken på den vänstra marginalen, i enheter av tum.|
-| [right_margin](/cells/sv/python-net/aspose.cells/pagesetup/right_margin) | Representerar storleken på den högra marginalen, i enheter av centimeter.|
-| [right_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/right_margin_inch) | Representerar storleken på den högra marginalen, i enheter av tum.|
-| [top_margin](/cells/sv/python-net/aspose.cells/pagesetup/top_margin) | Representerar storleken på den övre marginalen, i enheter av centimeter.|
-| [top_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/top_margin_inch) | Representerar storleken på den övre marginalen, i enheter av tum.|
-| [bottom_margin](/cells/sv/python-net/aspose.cells/pagesetup/bottom_margin) | Representerar storleken på bottenmarginalen, i enheter av centimeter.|
-| [bottom_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/bottom_margin_inch) | Representerar storleken på bottenmarginalen, i enheter av tum.|
+| [left_margin](/cells/sv/python-net/aspose.cells/pagesetup/left_margin) |Representerar storleken på den vänstra marginalen, i centimeterenhet.|
+| [left_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/left_margin_inch) | Representerar storleken på den vänstra marginalen, i enhet av tum.|
+| [right_margin](/cells/sv/python-net/aspose.cells/pagesetup/right_margin) | Representerar storleken på den högra marginalen, i centimeterenhet.|
+| [right_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/right_margin_inch) | Representerar storleken på den högra marginalen, i enhet av tum.|
+| [top_margin](/cells/sv/python-net/aspose.cells/pagesetup/top_margin) | Representerar storleken på den övre marginalen, i centimeterenhet.|
+| [top_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/top_margin_inch) | Representerar storleken på den övre marginalen, i enhet av tum.|
+| [bottom_margin](/cells/sv/python-net/aspose.cells/pagesetup/bottom_margin) | Representerar storleken på bottenmarginalen, i centimeterenhet.|
+| [bottom_margin_inch](/cells/sv/python-net/aspose.cells/pagesetup/bottom_margin_inch) | Representerar storleken på bottenmarginalen i tumenhet.|
 | [first_page_number](/cells/sv/python-net/aspose.cells/pagesetup/first_page_number) | Representerar det första sidnumret som kommer att användas när detta ark skrivs ut.|
 | [fit_to_pages_tall](/cells/sv/python-net/aspose.cells/pagesetup/fit_to_pages_tall) | Representerar antalet sidor som kalkylbladet skalas till när det skrivs ut.<br/> Standardvärdet är 1.|
 | [fit_to_pages_wide](/cells/sv/python-net/aspose.cells/pagesetup/fit_to_pages_wide) | Representerar antalet sidor som kalkylbladet skalas till när det skrivs ut.<br/> Standardvärdet är 1.|
@@ -53,7 +53,7 @@ Typen PageSetup avslöjar följande medlemmar:
 | [print_errors](/cells/sv/python-net/aspose.cells/pagesetup/print_errors) | Anger vilken typ av utskriftsfel som visas.|
 | [print_headings](/cells/sv/python-net/aspose.cells/pagesetup/print_headings) | Representerar om rad- och kolumnrubriker skrivs ut med denna sida.|
 | [print_gridlines](/cells/sv/python-net/aspose.cells/pagesetup/print_gridlines) | Representerar om cellrutnät skrivs ut på sidan.|
-| [zoom](/cells/sv/python-net/aspose.cells/pagesetup/zoom) | Representerar skalningsfaktorn i procent. Den bör vara mellan 10 och 400.|
+| [zoom](/cells/sv/python-net/aspose.cells/pagesetup/zoom) | Representerar skalningsfaktorn i procent. Det bör vara mellan 10 och 400.|
 | [is_auto_first_page_number](/cells/sv/python-net/aspose.cells/pagesetup/is_auto_first_page_number) | Indikerar om det första sidnumret tilldelas automatiskt.|
 | [print_quality](/cells/sv/python-net/aspose.cells/pagesetup/print_quality) | Representerar utskriftskvaliteten.|
 | [print_copies](/cells/sv/python-net/aspose.cells/pagesetup/print_copies) | Hämta och ställer in antal kopior som ska skrivas ut.|
@@ -70,8 +70,8 @@ Typen PageSetup avslöjar följande medlemmar:
 | [get_picture(is_first, is_even, is_header, section)](/cells/sv/python-net/aspose.cells/pagesetup/get_picture/#bool-bool-bool-int) | Hämtar objektet [Picture](/cells/sv/python-net/aspose.cells.drawing/picture) i sidhuvudet/sidfoten.|
 | [copy(source, copy_options)](/cells/sv/python-net/aspose.cells/pagesetup/copy/#PageSetup-CopyOptions) | Kopierar inställningen för sidinställningarna.|
 | [set_fit_to_pages(wide, tall)](/cells/sv/python-net/aspose.cells/pagesetup/set_fit_to_pages/#int-int) | Ställer in antalet sidor som kalkylbladet skalas till när det skrivs ut.|
-| [custom_paper_size(width, height)](/cells/sv/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | Ställer in den anpassade pappersstorleken, i enheter av tum.|
-| [clear_header_footer()](/cells/sv/python-net/aspose.cells/pagesetup/clear_header_footer/#) | Rensar inställningarna för sidhuvud och sidfot.|
+| [custom_paper_size(width, height)](/cells/sv/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | Ställer in den anpassade pappersstorleken, i enhet tum.|
+| [clear_header_footer()](/cells/sv/python-net/aspose.cells/pagesetup/clear_header_footer/#) | Rensar sidhuvud och sidfotsinställning.|
 | [get_header(section)](/cells/sv/python-net/aspose.cells/pagesetup/get_header/#int) | Får ett skript som formaterar rubriken på en Excel-fil.|
 | [get_commands(header_footer_script)](/cells/sv/python-net/aspose.cells/pagesetup/get_commands/#str) | Får alla kommandon för sidhuvud eller sidfot.|
 | [get_footer(section)](/cells/sv/python-net/aspose.cells/pagesetup/get_footer/#int) | Hämtar ett skript som formaterar sidfoten i en Excel-fil.|

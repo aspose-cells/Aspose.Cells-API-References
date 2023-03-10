@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_custom_style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_custom_style Eigentum
 
-Gibt an, ob diese Zeile über benutzerdefinierte Stileinstellungen verfügt (anders als die von der Arbeitsmappe geerbten Standardeinstellungen).
+Gibt an, ob diese Zeile über benutzerdefinierte Stileinstellungen verfügt (anders als die von der Arbeitsmappe geerbte Standardeinstellung).
 ###  Definition:
 ```python
 @property

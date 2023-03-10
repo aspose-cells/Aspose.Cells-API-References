@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignature الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | منشئ التوقيع الرقمي يستخدم تنفيذ قلعة القفز.|
+| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | منشئ التوقيع الرقمي. يستخدم تنفيذ قلعة نطاط.|
 
 
 ###  ملكيات

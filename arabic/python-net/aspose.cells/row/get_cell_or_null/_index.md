@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_cell_or_null
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-تُرجع كائن الخلية إذا كانت الخلية موجودة.
+إرجاع كائن الخلية إذا كانت الخلية موجودة.
 أو تُرجع فارغة إذا كان كائن الخلية غير موجود.
 
 
@@ -23,7 +23,7 @@ def get_cell_or_null(self, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_text propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la chaîne html qui contient des données et certains formats dans cette zone de texte.
 
-###  Exemples
+###  Exemple
 
 ```python
 

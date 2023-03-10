@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_style mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Satırın başlangıç oku türünü alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing import MsoArrowheadStyle

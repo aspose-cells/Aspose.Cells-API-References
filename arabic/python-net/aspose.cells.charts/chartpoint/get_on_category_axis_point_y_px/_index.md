@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_on_category_axis_point_y_px
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_
 is_root: false
 ---
 ##  get_on_category_axis_point_y_px(index) {#int}
-الحصول على إحداثي ص للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.
+الحصول على إحداثيات ص للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.
 
 
 
@@ -18,7 +18,7 @@ def get_on_category_axis_point_y_px(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int |  |
 ###  ملاحظات

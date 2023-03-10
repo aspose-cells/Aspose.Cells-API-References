@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_or_null metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get_cell_or_null(self, row_offset, column_offset):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_offset | int | Radförskjutning i detta intervall, nollbaserad.|
 | column_offset | int |Kolumnoffset i detta intervall, nollbaserad.|

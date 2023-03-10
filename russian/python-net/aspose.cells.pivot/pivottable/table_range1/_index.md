@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range1 недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range1 недвижимость
 
 Возвращает объект CellArea, представляющий диапазон, содержащий весь отчет сводной таблицы.
-но не включает поля страницы.
+но не включает поля страницы. Только для чтения.
 ###  Определение:
 ```python
 @property

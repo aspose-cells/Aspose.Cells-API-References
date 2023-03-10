@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pt Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Breite der Form in Punkteinheiten dar.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

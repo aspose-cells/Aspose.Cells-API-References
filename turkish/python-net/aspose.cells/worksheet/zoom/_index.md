@@ -1,4 +1,4 @@
-﻿---
+---
 title: zoom mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  zoom mülk
 
-Yüzde olarak ölçeklendirme faktörünü temsil eder. 10 ile 400 arasında olmalıdır.
+Yüzde cinsinden ölçeklendirme faktörünü temsil eder. 10 ile 400 arasında olmalıdır.
 
 ###  Notlar
 

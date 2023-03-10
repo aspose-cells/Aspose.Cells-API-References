@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReferenceCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.vba/vbaprojectreferencecollection/
 is_root: false
 ---
 ##  VbaProjectReferenceCollection clase
-Representa todas las referencias de proyectos de VBA.
+Representa todas las referencias del proyecto VBA.
 
 
 
@@ -37,7 +37,7 @@ El tipo VbaProjectReferenceCollection expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

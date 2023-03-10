@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_grid_drop_zones Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

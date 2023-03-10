@@ -1,4 +1,4 @@
-﻿---
+---
 title: TickLabels الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [font](/cells/ar/python-net/aspose.cells.charts/ticklabels/font) | إرجاع عنصر [TickLabels.font](/cells/ar/python-net/aspose.cells.charts/ticklabels#font) يمثل خط عنصر TickLabels المحدد.|
-| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.|
+| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/ticklabels/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [rotation_angle](/cells/ar/python-net/aspose.cells.charts/ticklabels/rotation_angle) | يمثل زاوية دوران النص في اتجاه عقارب الساعة.|
 | [is_automatic_rotation](/cells/ar/python-net/aspose.cells.charts/ticklabels/is_automatic_rotation) | يشير إلى ما إذا كانت زاوية الدوران تلقائية|

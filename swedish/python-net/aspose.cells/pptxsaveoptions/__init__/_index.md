@@ -1,4 +1,4 @@
-﻿---
+---
 title: PptxSaveOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | save_as_image | bool | Om det är sant kommer arbetsboken att konverteras till några bilder av .pptx-filen.<br/> Om False, kommer arbetsboken att konverteras till vissa tabeller av .pptx-fil.|
 

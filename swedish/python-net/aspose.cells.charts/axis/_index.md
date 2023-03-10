@@ -1,4 +1,4 @@
-﻿---
+---
 title: Axis klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -37,9 +37,9 @@ Typen Axis avslöjar följande medlemmar:
 | [is_plot_order_reversed](/cells/sv/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Representerar om Microsoft Excel plottar datapunkter från sist till första.|
 | [axis_between_categories](/cells/sv/python-net/aspose.cells.charts/axis/axis_between_categories) | Representerar om värdeaxeln korsar kategoriaxeln mellan kategorier.|
 | [tick_labels](/cells/sv/python-net/aspose.cells.charts/axis/tick_labels) | Returnerar ett [Axis.tick_labels](/cells/sv/python-net/aspose.cells.charts/axis#tick_labels)-objekt som representerar tick-mark-etiketterna för den angivna axeln.|
-| [tick_label_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_label_spacing) |Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter.|
+| [tick_label_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_label_spacing) |Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter. Gäller endast kategori- och serieaxlar.|
 | [is_auto_tick_label_spacing](/cells/sv/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Indikerar om avståndet mellan bocketiketten är automatiskt|
-| [tick_mark_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar.|
+| [tick_mark_spacing](/cells/sv/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Returnerar eller ställer in antalet kategorier eller serier mellan bockmarkeringar. Gäller endast kategori- och serieaxlar.|
 | [display_unit](/cells/sv/python-net/aspose.cells.charts/axis/display_unit) | Representerar enhetsetiketten för den angivna axeln.|
 | [cust_unit](/cells/sv/python-net/aspose.cells.charts/axis/cust_unit) | Anger ett anpassat värde för visningsenheten.|
 | [custom_unit](/cells/sv/python-net/aspose.cells.charts/axis/custom_unit) | Anger ett anpassat värde för visningsenheten.|
@@ -54,8 +54,8 @@ Typen Axis avslöjar följande medlemmar:
 | [major_grid_lines](/cells/sv/python-net/aspose.cells.charts/axis/major_grid_lines) | Representerar stora rutnät på en diagramaxel.|
 | [minor_grid_lines](/cells/sv/python-net/aspose.cells.charts/axis/minor_grid_lines) | Representerar mindre rutnät på en diagramaxel.|
 | [has_multi_level_labels](/cells/sv/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Anger om etiketterna ska visas som flernivåer.|
-| [axis_labels](/cells/sv/python-net/aspose.cells.charts/axis/axis_labels) | Hämtar beteckningarna för axeln efter anrop av metoden Chart.Calculate().|
-| [bins](/cells/sv/python-net/aspose.cells.charts/axis/bins) | Representerar fack på en diagramaxel (Histogram/Pareto).|
+| [axis_labels](/cells/sv/python-net/aspose.cells.charts/axis/axis_labels) | Hämtar etiketterna för axeln efter anropet Chart.Calculate()-metoden.|
+| [bins](/cells/sv/python-net/aspose.cells.charts/axis/bins) | Representerar fack på en diagram(Histogram/Pareto) axel|
 
 
 

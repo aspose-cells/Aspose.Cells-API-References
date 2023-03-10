@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def add(self):
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел.
+ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 используйте метод ValidationCollection.Add(CellArea).
  Это свойство будет удалено через 12 месяцев, начиная с ЯНВАРЯ 2015 года.
 Aspose приносит извинения за возможные неудобства.
@@ -44,7 +44,7 @@ def add(self, ca):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | ca | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Область содержит эту валидацию.|
 

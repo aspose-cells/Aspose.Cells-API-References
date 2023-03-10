@@ -1,6 +1,6 @@
-﻿---
+---
 title: has_axis方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -18,13 +18,13 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/zh/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |
 ### 评论
 
-通常情况下，Pie、PieExploded、PiePie、PieBar、Pie3D、Pie3DExploded、Doughnut、DonutExploded 是没有轴的。
+通常情况下，Pie、PieExploded、PiePie、PieBar、Pie3D、Pie3DExploded、Doughnut、DoughnutExploded 是没有轴的。
 
 
 ### 也可以看看

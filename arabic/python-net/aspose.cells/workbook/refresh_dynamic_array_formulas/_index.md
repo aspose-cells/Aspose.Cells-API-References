@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة refresh_dynamic_array_formulas
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def refresh_dynamic_array_formulas(self, calculate):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | calculate | bool | ما إذا كان يقوم بحساب وتحديث قيم الخلايا لصيغ الصفيف الديناميكية هذه أم لا|
 
@@ -35,7 +35,7 @@ def refresh_dynamic_array_formulas(self, calculate, copts):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | calculate | bool | ما إذا كان يقوم بحساب وتحديث قيم الخلايا لصيغ الصفيف الديناميكية هذه أم لا|
 | copts | [CalculationOptions](/cells/ar/python-net/aspose.cells/calculationoptions) | خيارات حساب الصيغ|

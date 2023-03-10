@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintErrorsType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType numaralandırma
-Yazdırma hatası sabitlerini temsil eder.
+Yazdırma hataları sabitlerini temsil eder.
 
 
 

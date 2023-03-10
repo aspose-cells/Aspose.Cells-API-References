@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/shapecollection/
 is_root: false
 ---
 ##  ShapeCollection sınıfı
-Bir çalışma sayfasındaki/grafikteki tüm şekilleri temsil eder.
+Bir çalışma sayfasındaki/grafikteki tüm şekli temsil eder.
 
 
 
@@ -23,10 +23,10 @@ ShapeCollection türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Grafiğe bir şekil ekleyin. Tüm birimler grafik alanının 1/4000'idir.|
-| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Grafiğe bir şekil ekleyin. Tüm birimler grafik alanının 1/4000'idir.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Grafiğe bir şekil ekleyin. Tüm birimler, grafik alanının yüzde ölçeğidir.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Grafiğe bir şekil ekleyin. Tüm birimler grafik alanının 1/4000'idir.|
+| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Grafiğe bir şekil ekleyin. Tüm birim grafik alanının 1/4000'idir.|
+| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Grafiğe bir şekil ekleyin. Tüm birim grafik alanının 1/4000'idir.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Grafiğe bir şekil ekleyin. Tüm birim, grafik alanının yüzde ölçeğidir.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Grafiğe bir şekil ekleyin. Tüm birim grafik alanının 1/4000'idir.|
 | [add_picture(upper_left_row, upper_left_column, lower_right_row, lower_right_column, stream)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-int-int-io.RawIOBase) | Koleksiyona bir resim ekler.|
 | [add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-io.RawIOBase-int-int) | Koleksiyona bir resim ekler.|
 | [copy_to(array)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/copy_to/#list) | Hedef dizi listesinin başından başlayarak tüm dizi listesini uyumlu bir tek boyutlu dizi listesine kopyalar.|
@@ -69,16 +69,16 @@ ShapeCollection türü aşağıdaki üyeleri gösterir:
 | [add_ole_object(upper_left_row, top, upper_left_column, left, height, width, image_data)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/add_ole_object/#int-int-int-int-int-int-bytes) | Bir OleObject ekler.|
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) | Aralıktaki tüm yorumları kopyalayın.|
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) | Aralıktaki şekilleri hedef aralığa kopyalayın.|
-| [delete_in_range(ca)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Aralıktaki şekilleri silin. Yorum şekilleri silinmeyecek.|
-| [delete_shape(shape)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Şekil silme Şekil gruptaysa veya bir yorum şekliyse silinmez.|
+| [delete_in_range(ca)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Aralıktaki şekilleri silin.Yorum şekilleri silinmeyecek.|
+| [delete_shape(shape)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Bir şekli silin. Şekil grup içindeyse veya bir yorum şekliyse silinmez.|
 | [group(group_items)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/group/#list) | Şekilleri gruplandırın.|
-| [ungroup(group)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Şekil öğelerinin grubunu çözün.|
+| [ungroup(group)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Şekil öğelerinin grubunu çözer.|
 | [update_selected_value()](/cells/tr/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) | Seçilen değeri, şekillerin bağlantılı hücresinin değerine göre güncelleyin.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.drawing/shapecollection/binary_search/#Shape) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

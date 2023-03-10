@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает имя поля кеша
 
-###  Примеры
+###  Пример
 
 ```python
 

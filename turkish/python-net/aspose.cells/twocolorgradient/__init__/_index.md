@@ -1,4 +1,4 @@
-﻿---
+---
 title: TwoColorGradient yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def __init__(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color |  |
 | color2 | aspose.pydrawing.Color |  |

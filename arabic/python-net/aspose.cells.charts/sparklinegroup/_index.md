@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
 ##  SparklineGroup الدرجة
-تم تنظيم [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) في مجموعة خط مؤشر يحتوي SparklineGroup على عدد متغير من عناصر خط المؤشر.
+[Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) منظم في مجموعة خط المؤشر. يحتوي SparklineGroup على عدد متغير من عناصر خط المؤشر.
 تحدد مجموعة خط المؤشر النوع وإعدادات العرض وإعدادات المحور لخطوط المؤشرات.
 
 
@@ -19,8 +19,8 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [preset_style](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/preset_style) | الحصول على نوع النمط المعين مسبقًا لمجموعة خط المؤشر وتعيينه.|
-| [sparkline_collection](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | الحصول على مجموعة [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) عنصر.|
-| [sparklines](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/sparklines) | الحصول على مجموعة [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) عنصر.|
+| [sparkline_collection](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | الحصول على مجموعة عنصر [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline).|
+| [sparklines](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/sparklines) | الحصول على مجموعة عنصر [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline).|
 | [type](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/type) | يشير إلى نوع خط المؤشر لمجموعة خط المؤشر.|
 | [plot_empty_cells_type](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/plot_empty_cells_type) | يشير إلى كيفية رسم الخلايا الفارغة.|
 | [display_hidden](/cells/ar/python-net/aspose.cells.charts/sparklinegroup/display_hidden) |يشير إلى ما إذا كان سيتم إظهار البيانات في صفوف وأعمدة مخفية.|
@@ -55,7 +55,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

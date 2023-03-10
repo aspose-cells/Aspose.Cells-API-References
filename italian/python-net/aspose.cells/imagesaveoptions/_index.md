@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ImageSaveOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -23,8 +23,8 @@ Il tipo ImageSaveOptions espone i membri seguenti:
 ###  Costruttori
 | Costruttore| Descrizione|
 | :- | :- |
-| [ImageSaveOptions()](/cells/it/python-net/aspose.cells/imagesaveoptions/__init__/#) | Crea le opzioni per il salvataggio dei file immagine.|
-| [ImageSaveOptions(save_format)](/cells/it/python-net/aspose.cells/imagesaveoptions/__init__/#SaveFormat) | Crea le opzioni per il salvataggio dei file immagine.|
+| [ImageSaveOptions()](/cells/it/python-net/aspose.cells/imagesaveoptions/__init__/#) | Crea le opzioni per il salvataggio del file immagine.|
+| [ImageSaveOptions(save_format)](/cells/it/python-net/aspose.cells/imagesaveoptions/__init__/#SaveFormat) | Crea le opzioni per il salvataggio del file immagine.|
 
 
 ###  Proprietà
@@ -37,9 +37,9 @@ Il tipo ImageSaveOptions espone i membri seguenti:
 | [merge_areas](/cells/it/python-net/aspose.cells/imagesaveoptions/merge_areas) | Indica se unire le aree di formattazione condizionale e convalida prima di salvare il file.|
 | [create_directory](/cells/it/python-net/aspose.cells/imagesaveoptions/create_directory) | Se true e la directory non esiste, la directory verrà creata automaticamente prima di salvare il file.|
 | [sort_names](/cells/it/python-net/aspose.cells/imagesaveoptions/sort_names) | Indica se ordinare i nomi definiti prima di salvare il file.|
-| [sort_external_names](/cells/it/python-net/aspose.cells/imagesaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esternamente prima di salvare il file.|
+| [sort_external_names](/cells/it/python-net/aspose.cells/imagesaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esterni prima di salvare il file.|
 | [refresh_chart_cache](/cells/it/python-net/aspose.cells/imagesaveoptions/refresh_chart_cache) | Indica se aggiornare i dati della cache del grafico|
-| [warning_callback](/cells/it/python-net/aspose.cells/imagesaveoptions/warning_callback) | Ottiene o imposta callback di avviso.|
+| [warning_callback](/cells/it/python-net/aspose.cells/imagesaveoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
 | [update_smart_art](/cells/it/python-net/aspose.cells/imagesaveoptions/update_smart_art) | Indica se aggiornare l'impostazione della grafica intelligente.<br/> Il valore predefinito è falso.|
 | [image_or_print_options](/cells/it/python-net/aspose.cells/imagesaveoptions/image_or_print_options) | Ulteriori opzioni per la creazione di immagini|
 | [stream_provider](/cells/it/python-net/aspose.cells/imagesaveoptions/stream_provider) | Ottiene o imposta IStreamProvider per l'esportazione di oggetti.|

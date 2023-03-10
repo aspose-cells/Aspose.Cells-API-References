@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة create_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

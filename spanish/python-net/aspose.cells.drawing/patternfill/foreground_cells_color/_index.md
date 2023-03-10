@@ -1,4 +1,4 @@
-﻿---
+---
 title: foreground_cells_color propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

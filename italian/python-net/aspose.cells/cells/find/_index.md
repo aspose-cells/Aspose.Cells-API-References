@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo find
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,9 +22,9 @@ def find(self, what, previous_cell):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| what | any | L'oggetto da cercare.<br/> Il tipo deve essere int, double, DateTime, string, bool.|
+| what | any | L'oggetto da cercare.<br/> Il tipo deve essere int,double,DateTime,string,bool.|
 | previous_cell | [Cell](/cells/it/python-net/aspose.cells/cell) | Cella precedente con lo stesso oggetto.<br/> Questo parametro può essere impostato su null se si esegue la ricerca dall'inizio.|
 ###  Osservazioni
 
@@ -46,9 +46,9 @@ def find(self, what, previous_cell, find_options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| what | any | L'oggetto da cercare.<br/> Il tipo deve essere int, double, DateTime, string, bool.|
+| what | any | L'oggetto da cercare.<br/> Il tipo deve essere int,double,DateTime,string,bool.|
 | previous_cell | [Cell](/cells/it/python-net/aspose.cells/cell) | Cella precedente con lo stesso oggetto.<br/> Questo parametro può essere impostato su null se si esegue la ricerca dall'inizio.|
 | find_options | [FindOptions](/cells/it/python-net/aspose.cells/findoptions) | Trova le opzioni|
 ###  Osservazioni

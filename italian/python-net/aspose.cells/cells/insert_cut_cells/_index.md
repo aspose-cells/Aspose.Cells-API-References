@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo insert_cut_cells
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def insert_cut_cells(self, cut_range, row, column, shift_type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | cut_range | [Range](/cells/it/python-net/aspose.cells/range) | La gamma di taglio.|
 | row | int | La riga.|

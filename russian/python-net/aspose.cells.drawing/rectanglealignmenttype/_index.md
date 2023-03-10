@@ -1,4 +1,4 @@
-﻿---
+---
 title: RectangleAlignmentType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | BOTTOM | Нижний|
 | BOTTOM_LEFT | Внизу слева|
 | BOTTOM_RIGHT | Внизу справа|
-| CENTER | центр|
+| CENTER | Центр|
 | LEFT | Левый|
 | RIGHT | Верно|
 | TOP | Вершина|

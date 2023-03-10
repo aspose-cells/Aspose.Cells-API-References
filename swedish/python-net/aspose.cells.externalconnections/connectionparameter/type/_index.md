@@ -1,4 +1,4 @@
-﻿---
+---
 title: type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Typ av parameter som används.
  Om parameterType=värde, då värdet från boolean, double, integer,
- eller sträng kommer att användas.
+ eller sträng kommer att användas. I detta fall förväntas endast en av
 {boolean, double, integer, or string} kommer att anges.
 ###  Definition:
 ```python

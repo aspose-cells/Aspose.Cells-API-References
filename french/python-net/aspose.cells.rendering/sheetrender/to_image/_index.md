@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,12 +18,12 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | file_name | str | nom de fichier de l'image de sortie|
 
-###  Exemples
+###  Exemple
 
 Le code suivant génère la première page de la première feuille en image png.
 
@@ -46,7 +46,7 @@ sr.to_image(0, "output.png")
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Afficher certaines pages dans un flux.
+Rendre certaines pages dans un flux.
 
 
 
@@ -56,7 +56,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | stream | io.RawIOBase | le flux de l'image de sortie|

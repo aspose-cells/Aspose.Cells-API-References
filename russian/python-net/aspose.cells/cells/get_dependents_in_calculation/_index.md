@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_dependents_in_calculation метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/get_dependents_in_calculation/
 is_root: false
 ---
 ##  get_dependents_in_calculation(row, column, recursive) {#int-int-bool}
-Получает все ячейки, вычисленный результат которых зависит от определенных ячеек.
+Получает все ячейки, вычисленный результат которых зависит от конкретной ячейки.
 
 
 ###  Возвращает
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, row, column, recursive):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row | int | Индекс строки конкретной ячейки|
 | column | int | Индекс столбца конкретной ячейки.|

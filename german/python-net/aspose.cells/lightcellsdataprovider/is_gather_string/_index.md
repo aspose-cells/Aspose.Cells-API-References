@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_gather_string Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def is_gather_string(self):
 
 ###  Bemerkungen
 
-Das Sammeln von Zeichenfolgenwerten wird nur dann genutzt, wenn viele doppelte Zeichenfolgenwerte für die von dieser Implementierung bereitgestellten Zellen vorhanden sind.
+Das Sammeln von Zeichenfolgenwerten wird nur dann Vorteile bringen, wenn viele duplizierte Zeichenfolgenwerte für die von dieser Implementierung bereitgestellten Zellen vorhanden sind.
 In dieser Situation spart das Sammeln von Zeichenfolgen viel Speicherplatz und erzeugt eine kleinere resultierende Datei.
 Wenn es viele Zeichenfolgenwerte für die von LightCellsDataProvider bereitgestellten Zellen gibt, aber nur wenige davon gleich sind,
 Das Sammeln von Zeichenfolgen kostet mehr Speicher und Zeit und hat keinen Vorteil für die resultierende Datei.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_full_name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bağlantılı OLE nesnesi için kaynak dosyanın kaynak tam adını döndürür.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen OleObject.ObjectSourceFullName özelliğini kullanın.
  Bu mülk, Kasım 2013'ten bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

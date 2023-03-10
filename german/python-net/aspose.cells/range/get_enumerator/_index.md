@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_enumerator Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -27,7 +27,7 @@ def get_enumerator(self):
 Beim Durchlaufen von Elementen durch den zurückgegebenen Enumerator, die Zellensammlung
 sollten nicht geändert werden (z. B. Operationen, die dazu führen, dass neue Cell/Row instanziiert oder vorhandene Cell/Row gelöscht werden).
 Andernfalls ist der Enumerator möglicherweise nicht in der Lage, alle Zellen korrekt zu durchlaufen (einige Elemente werden möglicherweise wiederholt durchlaufen oder übersprungen).
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

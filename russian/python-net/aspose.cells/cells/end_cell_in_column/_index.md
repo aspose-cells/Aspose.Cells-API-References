@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_cell_in_column метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def end_cell_in_column(self, column_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 
@@ -42,7 +42,7 @@ def end_cell_in_column(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Индекс начальной строки.|
 | end_row | int | Индекс конечной строки.|

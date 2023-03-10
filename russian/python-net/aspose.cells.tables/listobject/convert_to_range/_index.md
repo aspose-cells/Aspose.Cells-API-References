@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_to_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def convert_to_range(self, options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | options | [TableToRangeOptions](/cells/ru/python-net/aspose.cells.tables/tabletorangeoptions) | параметры при преобразовании таблицы в диапазон.|
 

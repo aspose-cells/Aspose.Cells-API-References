@@ -1,4 +1,4 @@
-﻿---
+---
 title: recursive Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  recursive Eigentum
 
-Gibt an, ob die abhängigen Zellen rekursiv berechnet werden sollen, wenn eine Zelle berechnet wird und ob sie von anderen Zellen abhängt.
+Gibt an, ob die abhängigen Zellen bei der Berechnung einer Zelle rekursiv berechnet werden und ob es von anderen Zellen abhängt.
 ###  Definition:
 ```python
 @property

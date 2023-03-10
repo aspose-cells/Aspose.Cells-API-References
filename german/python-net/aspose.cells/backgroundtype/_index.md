@@ -1,4 +1,4 @@
-﻿---
+---
 title: BackgroundType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,7 +29,7 @@ Der Typ BackgroundType macht die folgenden Member verfügbar:
 | REVERSE_DIAGONAL_STRIPE | Stellt umgekehrtes diagonales Streifenmuster dar.|
 | SOLID | Stellt ein durchgehendes Muster dar.|
 | THICK_DIAGONAL_CROSSHATCH | Stellt ein dickes diagonales Schraffurmuster dar.|
-| THIN_DIAGONAL_CROSSHATCH | Stellt dünne diagonale Schraffurmuster dar.|
+| THIN_DIAGONAL_CROSSHATCH | Stellt ein dünnes diagonales Schraffurmuster dar.|
 | THIN_DIAGONAL_STRIPE | Stellt ein dünnes diagonales Streifenmuster dar.|
 | THIN_HORIZONTAL_CROSSHATCH | Stellt ein dünnes horizontales Schraffurmuster dar.|
 | THIN_HORIZONTAL_STRIPE | Repräsentiert ein dünnes horizontales Streifenmuster.|

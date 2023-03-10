@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCache класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,15 +17,15 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [cross_filter_type](/cells/ru/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Возвращает или задает, участвует ли слайсер в перекрестной фильтрации с другими слайсерами.<br/> которые используют один и тот же кэш слайсера, и как отображается перекрестная фильтрация.|
-| [list](/cells/ru/python-net/aspose.cells.slicers/slicercache/list) | Возвращает информацию о том, связан ли слайсер с указанным кэшем слайсера на основе источника данных, отличного от OLAP.|
-| [slicer_cache_items](/cells/ru/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Возвращает коллекцию SlicerCacheItem, содержащую коллекцию всех элементов в кэше среза.|
+| [cross_filter_type](/cells/ru/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Возвращает или задает, участвует ли слайсер в перекрестной фильтрации с другими слайсерами.<br/> которые используют один и тот же кэш слайсера, и как отображается перекрестная фильтрация. Читай пиши|
+| [list](/cells/ru/python-net/aspose.cells.slicers/slicercache/list) | Возвращает значение, указывающее, основан ли слайсер, связанный с указанным кэшем слайсера, на источнике данных, отличном от OLAP. Только для чтения|
+| [slicer_cache_items](/cells/ru/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Возвращает коллекцию SlicerCacheItem, содержащую коллекцию всех элементов в кэше среза. Только для чтения|
 | [name](/cells/ru/python-net/aspose.cells.slicers/slicercache/name) | Возвращает имя кеша слайсера.|
 | [source_name](/cells/ru/python-net/aspose.cells.slicers/slicercache/source_name) | Возвращает имя поля кеша|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

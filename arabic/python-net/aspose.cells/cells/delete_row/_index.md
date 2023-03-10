@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة delete_row
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def delete_row(self, row_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 

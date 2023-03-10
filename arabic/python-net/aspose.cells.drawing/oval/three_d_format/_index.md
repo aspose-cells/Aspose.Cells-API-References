@@ -1,4 +1,4 @@
-﻿---
+---
 title: three_d_format الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على تنسيق ثلاثي الأبعاد للشكل وتعيينه.
 
-###  أمثلة
+###  مثال
 
 ```python
 

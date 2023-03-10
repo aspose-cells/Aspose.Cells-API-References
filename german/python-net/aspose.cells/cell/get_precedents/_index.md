@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_precedents Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -36,7 +36,7 @@ Es wird immer noch als Präzedenzfall der Formel angesehen. Um die Referenzen zu
 * Gibt null zurück, wenn es sich nicht um eine Formelzelle handelt. Alle Referenzen, die in der Formel dieser Zelle erscheinen, werden zurückgegeben, unabhängig davon, ob sie während der Berechnung referenziert werden oder nicht.
 Obwohl beispielsweise die Zelle A2 in der Formel "=IF(TRUE,A1,A2)" während der Berechnung nicht verwendet wird,
 Es wird immer noch als Präzedenzfall der Formel angesehen. Um die Referenzen zu erhalten, die nur die Berechnung beeinflussen, verwenden Sie bitte [Cell.get_precedents_in_calculation()](/cells/de/python-net/aspose.cells/cell/get_precedents_in_calculation).
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellsHelper, Workbook

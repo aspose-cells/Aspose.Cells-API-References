@@ -1,4 +1,4 @@
-﻿---
+---
 title: count mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count mülk
 
-Kayıtların count'ini alır. Bilinmeyen kayıtlar için -1 count.
+Kayıtların count'ini alır. -1 bilinmeyen kayıtlar için count.
 ###  Tanım:
 ```python
 @property

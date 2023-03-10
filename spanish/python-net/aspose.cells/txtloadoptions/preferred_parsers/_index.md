@@ -1,4 +1,4 @@
-﻿---
+---
 title: preferred_parsers propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers propiedad
 
-Obtiene y establece analizadores de valores preferidos para cargar archivos de texto.
+Obtiene y establece los analizadores de valores preferidos para cargar archivos de texto.
 
 ###  Observaciones
 

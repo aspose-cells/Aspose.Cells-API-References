@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientPresetType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,25 +20,25 @@ Der Typ GradientPresetType macht die folgenden Member verfügbar:
 | BRASS | Messing voreingestellte Farbe|
 | CALM_WATER | Voreingestellte Farbe für ruhiges Wasser|
 | CHROME | Voreingestellte Chrome-Farbe|
-| CHROME_II | Chrome II voreingestellte Farben|
+| CHROME_II | Chrome II voreingestellte Farbe|
 | DAYBREAK | Voreingestellte Farbe für Daybreak|
-| DESERT | Desert voreingestellte Farben|
+| DESERT | Voreingestellte Wüstenfarbe|
 | EARLY_SUNSET | Voreingestellte Farbe für frühen Sonnenuntergang|
 | FIRE | Voreingestellte Farbe abfeuern|
 | FOG | Voreingestellte Nebelfarbe|
 | GOLD | Voreingestellte Farbe Gold|
 | GOLD_II | Voreingestellte Farbe Gold II|
 | HORIZON | Voreingestellte Farbe des Horizonts|
-| LATE_SUNSET | Voreingestellte Farben für den späten Sonnenuntergang|
-| MAHOGANY | Mahagoni voreingestellte Farben|
-| MOSS | Moos voreingestellte Farben|
-| NIGHTFALL |Voreingestellte Farben für Einbruch der Dunkelheit|
+| LATE_SUNSET | Voreingestellte Farbe für den späten Sonnenuntergang|
+| MAHOGANY | Mahagoni voreingestellte Farbe|
+| MOSS | Moos voreingestellte Farbe|
+| NIGHTFALL |Voreingestellte Farbe für Dämmerung|
 | OCEAN | Ozean voreingestellte Farbe|
-| PARCHMENT | Voreingestellte Farben für Pergament|
+| PARCHMENT | Voreingestellte Farbe für Pergament|
 | PEACOCK | Peacock voreingestellte Farbe|
 | RAINBOW | Voreingestellte Regenbogenfarbe|
 | RAINBOW_II | Rainbow II voreingestellte Farbe|
-| SAPPHIRE | Saphir voreingestellte Farben|
+| SAPPHIRE | Saphir voreingestellte Farbe|
 | SILVER | Silberne voreingestellte Farbe|
 | WHEAT | Weizen voreingestellte Farbe|
 | UNKNOWN | Unbekannte voreingestellte Farbe.<br/> Nur für die voreingestellte Farbe (die nicht mit einer bekannten voreingestellten Farbe identisch ist) in der Vorlagenarbeitsmappe.|

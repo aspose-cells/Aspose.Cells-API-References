@@ -1,4 +1,4 @@
-﻿---
+---
 title: AxisBins الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [is_by_category](/cells/ar/python-net/aspose.cells.charts/axisbins/is_by_category) | يشير إلى ما إذا كان يتم تجميع البيانات حسب الفئة|
 | [is_automatic](/cells/ar/python-net/aspose.cells.charts/axisbins/is_automatic) | يشير إلى ما إذا كانت حاويات المحور تلقائية.|
 | [width](/cells/ar/python-net/aspose.cells.charts/axisbins/width) | الحصول على عرض حاوية المحور أو تحديده|
-| [count](/cells/ar/python-net/aspose.cells.charts/axisbins/count) | الحصول على عدد حاويات المحور أو تحديده|
+| [count](/cells/ar/python-net/aspose.cells.charts/axisbins/count) | الحصول على عدد حاويات المحور أو تعيينه|
 | [overflow](/cells/ar/python-net/aspose.cells.charts/axisbins/overflow) | الحصول على أو تعيين التدفق الزائد لحاويات المحور|
 | [underflow](/cells/ar/python-net/aspose.cells.charts/axisbins/underflow) | الحصول على أو تعيين التدفق السفلي لحاويات المحور|
 

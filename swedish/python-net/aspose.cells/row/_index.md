@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen Row avslöjar följande medlemmar:
 | :- | :- |
 | [is_blank](/cells/sv/python-net/aspose.cells/row/is_blank) | Anger om raden innehåller data|
 | [is_collapsed](/cells/sv/python-net/aspose.cells/row/is_collapsed) | om raden är kollapsad|
-| [height](/cells/sv/python-net/aspose.cells/row/height) | Hämtar och ställer in radhöjden i enheter av poäng.|
+| [height](/cells/sv/python-net/aspose.cells/row/height) | Hämtar och ställer in radhöjden i poängenhet.|
 | [is_hidden](/cells/sv/python-net/aspose.cells/row/is_hidden) | Indikerar om raden är dold.|
 | [index](/cells/sv/python-net/aspose.cells/row/index) | Hämtar indexet för den här raden.|
 | [group_level](/cells/sv/python-net/aspose.cells/row/group_level) | Hämtar radens gruppnivå.|

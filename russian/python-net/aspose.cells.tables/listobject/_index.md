@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObject класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ is_root: false
 | [end_column](/cells/ru/python-net/aspose.cells.tables/listobject/end_column) |Получает конечный столбец диапазона.|
 | [list_columns](/cells/ru/python-net/aspose.cells.tables/listobject/list_columns) | Получает ListColumns объекта ListObject.|
 | [show_header_row](/cells/ru/python-net/aspose.cells.tables/listobject/show_header_row) | Получает и устанавливает, показывает ли этот ListObject строку заголовка.|
-| [show_totals](/cells/ru/python-net/aspose.cells.tables/listobject/show_totals) | Получает и устанавливает, показывает ли этот ListObject общее количество строк.|
+| [show_totals](/cells/ru/python-net/aspose.cells.tables/listobject/show_totals) | Получает и устанавливает, показывает ли этот ListObject итоговую строку.|
 | [data_range](/cells/ru/python-net/aspose.cells.tables/listobject/data_range) | Получает диапазон данных ListObject.|
 | [query_table](/cells/ru/python-net/aspose.cells.tables/listobject/query_table) | Получает связанную таблицу запросов.|
 | [data_source_type](/cells/ru/python-net/aspose.cells.tables/listobject/data_source_type) | Получает тип источника данных таблицы.|
@@ -56,7 +56,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellsHelper, Workbook

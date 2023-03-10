@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_conditions Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions Eigentum
 
-Rufen Sie Formatbedingungen für das Bedingungsformat der Pivot-Tabelle ab.
+Rufen Sie formatconditions für das Format der Pivot-Tabellenbedingung ab.
 ###  Definition:
 ```python
 @property

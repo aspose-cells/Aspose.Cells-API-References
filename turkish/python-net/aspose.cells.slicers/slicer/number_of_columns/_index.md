@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_of_columns mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicideki sütun sayısını döndürür veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

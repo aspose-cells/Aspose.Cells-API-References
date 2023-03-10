@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
 ##  SparklineGroup klass
-[Sparkline](/cells/sv/python-net/aspose.cells.charts/sparkline) är organiserad i sparkline-grupp. En SparklineGroup innehåller ett variabelt antal sparkline-objekt.
+[Sparkline](/cells/sv/python-net/aspose.cells.charts/sparkline) är organiserad i sparkline-grupp. En SparklineGroup innehåller ett varierande antal sparkline-objekt.
 En sparkline-grupp anger typ, visningsinställningar och axelinställningar för sparklines.
 
 
@@ -29,7 +29,7 @@ Typen SparklineGroup avslöjar följande medlemmar:
 | [show_low_point](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/show_low_point) | Indikerar om de lägsta datapunkterna i sparklinegruppen ska markeras.|
 | [low_point_color](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/low_point_color) | Hämtar och ställer in färgen på de lägsta datapunkterna i sparklinegruppen.|
 | [show_negative_points](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/show_negative_points) | Indikerar om de negativa värdena på sparklinegruppen ska markeras med en annan färg eller markör.|
-| [negative_points_color](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/negative_points_color) | Får och ställer in färgen på de negativa värdena på sparklinegruppen.|
+| [negative_points_color](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/negative_points_color) | Hämtar och ställer in färgen på de negativa värdena på sparklinegruppen.|
 | [show_first_point](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/show_first_point) | Indikerar om den första datapunkten i sparklinegruppen ska markeras.|
 | [first_point_color](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/first_point_color) | Hämtar och ställer in färgen på den första datapunkten i sparklinegruppen.|
 | [show_last_point](/cells/sv/python-net/aspose.cells.charts/sparklinegroup/show_last_point) | Indikerar om den sista datapunkten i sparklinegruppen ska markeras.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_iterative_calculation mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation mülk
 
-Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmeyeceğini gösterir.
+Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmediğini gösterir.
 ###  Tanım:
 ```python
 @property

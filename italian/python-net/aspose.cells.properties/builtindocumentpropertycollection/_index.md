@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe BuiltInDocumentPropertyCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.properties/builtindocumentpropertycollection/
 is_root: false
 ---
 ##  classe BuiltInDocumentPropertyCollection
-Una raccolta di proprietà del documento incorporate.
+Una raccolta di proprietà del documento predefinite.
 
 
 

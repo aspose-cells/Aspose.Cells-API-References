@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/pdfsaveoptions/
 is_root: false
 ---
 ##  PdfSaveOptions Klasse
-Repräsentiert die Optionen zum Speichern von PDF-Dateien.
+Stellt die Optionen zum Speichern von PDF-Dateien dar.
 
 
 
@@ -38,7 +38,7 @@ Der Typ PdfSaveOptions macht die folgenden Member verfügbar:
 | [sort_names](/cells/de/python-net/aspose.cells/pdfsaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [sort_external_names](/cells/de/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [refresh_chart_cache](/cells/de/python-net/aspose.cells/pdfsaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
+| [warning_callback](/cells/de/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells/pdfsaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [default_font](/cells/de/python-net/aspose.cells/pdfsaveoptions/default_font) | Wenn Zeichen in Excel Unicode sind und nicht mit der richtigen Schriftart im Zellenstil festgelegt werden,<br/>Sie können als Block in PDF, Bild erscheinen.<br/>Legen Sie die DefaultFont wie MingLiu oder MS Gothic fest, um diese Zeichen anzuzeigen.<br/> Wenn diese Eigenschaft nicht festgelegt ist, verwendet Aspose.Cells die Systemstandardschriftart, um diese Unicode-Zeichen anzuzeigen.|
 | [check_workbook_default_font](/cells/de/python-net/aspose.cells/pdfsaveoptions/check_workbook_default_font) | Wenn Zeichen in Excel Unicode sind und nicht mit der richtigen Schriftart im Zellenstil festgelegt werden,<br/>Sie können als Block in PDF, Bild erscheinen.<br/> Setzen Sie dies auf „true“, um zu versuchen, die Standardschriftart der Arbeitsmappe zu verwenden, um diese Zeichen zuerst anzuzeigen.|
@@ -54,20 +54,20 @@ Der Typ PdfSaveOptions macht die folgenden Member verfügbar:
 | [gridline_type](/cells/de/python-net/aspose.cells/pdfsaveoptions/gridline_type) | Ruft den Rasterlinientyp ab oder legt diesen fest.|
 | [text_cross_type](/cells/de/python-net/aspose.cells/pdfsaveoptions/text_cross_type) | Ruft die Anzeige des Texttyps ab oder legt diese fest, wenn die Textbreite größer als die Zellenbreite ist.|
 | [default_edit_language](/cells/de/python-net/aspose.cells/pdfsaveoptions/default_edit_language) | Ruft die Standardbearbeitungssprache ab oder legt sie fest.|
-| [sheet_set](/cells/de/python-net/aspose.cells/pdfsaveoptions/sheet_set) |Ruft die zu rendernden Blätter ab oder legt sie fest. Standardmäßig sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).|
+| [sheet_set](/cells/de/python-net/aspose.cells/pdfsaveoptions/sheet_set) |Ruft die zu rendernden Blätter ab oder legt diese fest. Standard sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).|
 | [draw_object_event_handler](/cells/de/python-net/aspose.cells/pdfsaveoptions/draw_object_event_handler) | Implementiert diese Schnittstelle, um DrawObject und Bound beim Rendern abzurufen.|
 | [page_saving_callback](/cells/de/python-net/aspose.cells/pdfsaveoptions/page_saving_callback) | Steuerung/Fortschritt des Seitenspeichervorgangs anzeigen.|
 | [embed_standard_windows_fonts](/cells/de/python-net/aspose.cells/pdfsaveoptions/embed_standard_windows_fonts) | True zum Einbetten von TrueType-Schriftarten.<br/>Betrifft nur die ASCII-Zeichen 32-127.<br/>Schriftarten für Zeichencodes größer als 127 werden immer eingebettet.<br/>Bei PDF/A-1a, PDF/A-1b Standard sind Schriften immer eingebettet.<br/> Standard ist wahr.|
 | [bookmark](/cells/de/python-net/aspose.cells/pdfsaveoptions/bookmark) |Ruft das Objekt [PdfBookmarkEntry](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry) ab und legt es fest.|
 | [compliance](/cells/de/python-net/aspose.cells/pdfsaveoptions/compliance) | Die Arbeitsmappe wird gemäß PdfCompliance in dieser Eigenschaft in PDF konvertiert.|
-| [security_options](/cells/de/python-net/aspose.cells/pdfsaveoptions/security_options) | Stellen Sie diese Optionen ein, wenn Sicherheit im xls2pdf-Ergebnis benötigt wird.|
+| [security_options](/cells/de/python-net/aspose.cells/pdfsaveoptions/security_options) | Stellen Sie diese Optionen ein, wenn Sicherheit im xls2pdf-Ergebnis erforderlich ist.|
 | [image_type](/cells/de/python-net/aspose.cells/pdfsaveoptions/image_type) | Stellt den Bildtyp dar, wenn das Diagramm und die Form konvertiert werden.|
 | [calculate_formula](/cells/de/python-net/aspose.cells/pdfsaveoptions/calculate_formula) | Gibt an, ob Formeln vor dem Speichern der PDF-Datei berechnet werden sollen.|
 | [pdf_compression](/cells/de/python-net/aspose.cells/pdfsaveoptions/pdf_compression) | Geben Sie den Komprimierungsalgorithmus an|
 | [created_time](/cells/de/python-net/aspose.cells/pdfsaveoptions/created_time) | Ruft den Zeitpunkt der Generierung des PDF-Dokuments ab und legt ihn fest.|
 | [producer](/cells/de/python-net/aspose.cells/pdfsaveoptions/producer) | Ruft den Erzeuger des generierten PDF-Dokuments ab und legt ihn fest.|
 | [optimization_type](/cells/de/python-net/aspose.cells/pdfsaveoptions/optimization_type) | Ruft den PDF-Optimierungstyp ab und legt ihn fest.|
-| [custom_properties_export](/cells/de/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Ruft einen Wert ab oder legt diesen fest, der festlegt, wie [CustomDocumentPropertyCollection](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection) in die Datei PDF exportiert werden Der Standardwert ist None.|
+| [custom_properties_export](/cells/de/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie [CustomDocumentPropertyCollection](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection) in die PDF-Datei exportiert werden. Der Standardwert ist „Keine“.|
 | [export_document_structure](/cells/de/python-net/aspose.cells/pdfsaveoptions/export_document_structure) | Gibt an, ob die Dokumentstruktur exportiert werden soll.|
 | [emf_render_setting](/cells/de/python-net/aspose.cells/pdfsaveoptions/emf_render_setting) | Einstellung zum Rendern der EMF-Metadatei.|
 | [display_doc_title](/cells/de/python-net/aspose.cells/pdfsaveoptions/display_doc_title) | Gibt an, ob die Titelleiste des Fensters den Dokumenttitel anzeigen soll.|

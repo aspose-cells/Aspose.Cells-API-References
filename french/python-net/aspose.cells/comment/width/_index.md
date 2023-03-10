@@ -1,4 +1,4 @@
-﻿---
+---
 title: width propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente le width du commentaire, en unité de pixels.
 
-###  Exemples
+###  Exemple
 
 ```python
 

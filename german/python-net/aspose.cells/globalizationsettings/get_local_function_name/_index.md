@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_local_function_name Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den vom Gebietsschema abhängigen Funktionsnamen gemäß dem angegebenen St
 
 ###  Kehrt zurück
 
-Vom Gebietsschema abhängiger Funktionsname.
+Vom Gebietsschema abhängiger Funktionsname. Das Gebietsschema wurde von der Arbeitsmappe angegeben, für die diese Einstellungen verwendet werden.
 
 
 ```python

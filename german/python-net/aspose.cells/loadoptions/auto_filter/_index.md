@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_filter Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,8 +13,8 @@ Gibt an, ob die Daten beim Laden der Dateien automatisch gefiltert werden.
 
 ###  Bemerkungen
 
-Manchmal werden trotz gesetztem Autofilter die entsprechenden Zeilen nicht in der Datei ausgeblendet.
-Funktioniert jetzt nur noch für SpreadSheetML-Dateien.
+Manchmal wird, obwohl Autofilter gesetzt ist, die entsprechende Zeile nicht in der Datei ausgeblendet.
+Funktioniert jetzt nur für SpreadSheetML-Dateien.
 ###  Definition:
 ```python
 @property

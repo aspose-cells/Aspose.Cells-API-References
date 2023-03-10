@@ -1,4 +1,4 @@
-﻿---
+---
 title: put_value yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | int_value | int | Girdi değeri|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | double_value | float | Girdi değeri|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | date_time | DateTime | Girdi değeri|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | object_value | any | Girdi değeri|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 | is_converted | bool | Doğru: uygunsa diğer veri türüne dönüştürülür.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | string_value | str | Girdi değeri|
 | is_converted | bool | Doğru: uygunsa diğer veri türüne dönüştürülür.|

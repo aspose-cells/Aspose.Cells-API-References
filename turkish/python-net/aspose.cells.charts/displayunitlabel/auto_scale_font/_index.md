@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scale_font mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_scale_font mülk
 
-Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.
+Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.
 ###  Tanım:
 ```python
 @property

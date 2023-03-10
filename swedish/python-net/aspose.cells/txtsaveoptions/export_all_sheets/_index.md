@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_all_sheets fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Om det är falskt, exportera bara det aktiva arket, precis som MS Excel.
 
 ###  Anmärkningar
 
-Standardvärdet är falskt.
+Defult-värdet är falskt.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_rectangle méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add_rectangle(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical de RectangleShape par rapport à sa ligne de gauche, en unité de pixel.|
@@ -31,7 +31,7 @@ def add_rectangle(self, upper_left_row, top, upper_left_column, left, height, wi
 | height | int | Représente la hauteur de RectangleShape, en unité de pixel.|
 | width | int | Représente la largeur de RectangleShape, en unité de pixel.|
 
-###  Exemples
+###  Exemple
 
 ```python
 

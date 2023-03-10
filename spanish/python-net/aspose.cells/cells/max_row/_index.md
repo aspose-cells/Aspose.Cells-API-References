@@ -1,4 +1,4 @@
-﻿---
+---
 title: max_row propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Observaciones
 
-Devuelva -1 si no hay una celda que contenga datos o estilo en la hoja de cálculo.
+Devuelva -1 si no hay una celda que contenga datos o estilo en la hoja de trabajo.
 ###  Definición:
 ```python
 @property

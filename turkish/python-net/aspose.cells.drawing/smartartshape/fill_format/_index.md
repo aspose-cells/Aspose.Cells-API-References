@@ -1,4 +1,4 @@
-﻿---
+---
 title: fill_format mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,8 +13,8 @@ Belirtilen şekil için dolgu biçimlendirme özelliklerini içeren bir MsoFillF
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
- Lütfen Shape.Fill özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
+ lütfen Shape.Fill özelliğini kullanın.
  Bu mülk, Temmuz 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

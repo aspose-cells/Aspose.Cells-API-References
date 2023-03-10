@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_vertical propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_vertical propriété
 
-True si une ligne dans le fichier Workbook représente une ligne dans DataTable.
+True si une ligne dans le fichier Workbook représente une ligne dans DataTable. False si une colonne dans le fichier Workbook représente une ligne dans DataTable.
 ###  Définition:
 ```python
 @property

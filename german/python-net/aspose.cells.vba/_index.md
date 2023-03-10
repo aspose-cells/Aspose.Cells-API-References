@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.vba
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -16,7 +16,7 @@ is_root: false
 | [VbaModuleCollection](/cells/de/python-net/aspose.cells.vba/vbamodulecollection) | Stellt die Liste von [VbaModule](/cells/de/python-net/aspose.cells.vba/vbamodule) dar |
 | [VbaProject](/cells/de/python-net/aspose.cells.vba/vbaproject) | Stellt das VBA-Projekt dar.|
 | [VbaProjectReference](/cells/de/python-net/aspose.cells.vba/vbaprojectreference) |Stellt die Referenz des VBA-Projekts dar.|
-| [VbaProjectReferenceCollection](/cells/de/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Repräsentiert alle Referenzen von VBA-Projekten.|
+| [VbaProjectReferenceCollection](/cells/de/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Stellt alle Referenzen des VBA-Projekts dar.|
 
 
 ###  Aufzählungen

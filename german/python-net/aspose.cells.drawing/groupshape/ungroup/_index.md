@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-Heben Sie die Gruppierung der Formelemente auf.
+Hebt die Gruppierung der Formelemente auf.
 
 
 

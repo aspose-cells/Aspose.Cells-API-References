@@ -1,4 +1,4 @@
-﻿---
+---
 title: power_query_formula الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

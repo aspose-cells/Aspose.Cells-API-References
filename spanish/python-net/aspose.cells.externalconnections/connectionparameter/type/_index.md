@@ -1,4 +1,4 @@
-﻿---
+---
 title: type propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Tipo de parámetro utilizado.
  Si el tipo de parámetro = valor, entonces el valor de booleano, doble, entero,
- o se usará una cadena.
+ o se usará una cadena. En este caso, se espera que sólo uno de
 Se especificará {booleano, doble, entero o cadena}.
 ###  Definición:
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_format الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-سلسلة التنسيق هي نفسها كإعداد سلسلة تنسيق مخصص لخلية. على سبيل المثال ، "$ 0".
+سلسلة التنسيق هي نفس إعداد سلسلة تنسيق مخصص لخلية. على سبيل المثال ، "$ 0".
 ###  تعريف:
 ```python
 @property

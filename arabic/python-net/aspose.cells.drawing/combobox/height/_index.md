@@ -1,4 +1,4 @@
-﻿---
+---
 title: height الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل height للشكل بوحدة بكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

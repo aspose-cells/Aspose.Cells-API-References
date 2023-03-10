@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagShowType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -18,7 +18,7 @@ Der Typ SmartTagShowType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | ALL | Zeigt an, dass Smart Tags aktiviert und angezeigt werden|
-| NO_SMART_TAG_INDICATOR | Zeigt an, dass die Smarttags aktiviert sind, aber die Anzeige nicht angezeigt wird.|
+| NO_SMART_TAG_INDICATOR | Zeigt an, dass die Smarttags aktiviert sind, aber der Indikator nicht angezeigt wird.|
 | NONE | Gibt an, dass Smarttags deaktiviert sind und nicht angezeigt werden.|
 
 

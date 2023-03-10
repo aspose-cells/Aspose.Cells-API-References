@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_function Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Die Berechnungsfunktionen für benutzerdefinierte Formeln erweitern die Berechnu
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die CustomEngine-Eigenschaft, AbstractCalculationEngine bietet bequemere und flexiblere APIs
 zum Bearbeiten benutzerdefinierter Funktionen.
  Diese Property wird 12 Monate später seit August 2020 entfernt.

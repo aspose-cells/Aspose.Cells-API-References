@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,10 +25,10 @@ Der Typ MsoDrawingType macht die folgenden Member verfügbar:
 | CHART | Diagramm|
 | TEXT_BOX | Textfeld|
 | BUTTON | Taste|
-| PICTURE | Bilder|
+| PICTURE | Bild|
 | POLYGON | Vieleck|
 | CHECK_BOX | Kontrollkästchen|
-| RADIO_BUTTON | Radio Knöpfe|
+| RADIO_BUTTON | Radio knopf|
 | LABEL | Etikett|
 | DIALOG_BOX | Dialogbox|
 | SPINNER | Spinner|
@@ -38,12 +38,12 @@ Der Typ MsoDrawingType macht die folgenden Member verfügbar:
 | COMBO_BOX | Kombinationsfeld|
 | COMMENT | Kommentar|
 | OLE_OBJECT | OLE-Objekt|
-| CELLS_DRAWING | Nur zum Beibehalten der Zeichnungsobjekte in der Vorlagendatei.|
+| CELLS_DRAWING | Nur zum Beibehalten des Zeichnungsobjekts in der Vorlagendatei.|
 | UNKNOWN | Nur zum Beibehalten des Zeichnungsobjekts in der xlsx-Datei.|
-| SLICER | Schneidemaschine|
+| SLICER | Aufschnitt|
 | WEB_EXTENSION | Web-Erweiterung|
 | SMART_ART | Tolle Kunst|
-| CUSTOM_XML | Benutzerdefinierte XML-Formen, z. B. Ink.|
+| CUSTOM_XML | Benutzerdefinierte XML-Form, z. B. Ink.|
 | TIMELINE | Zeitleiste|
 | MODEL_3D | 3D-Modell|
 

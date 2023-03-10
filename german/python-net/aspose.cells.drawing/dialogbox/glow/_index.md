@@ -1,4 +1,4 @@
-﻿---
+---
 title: glow Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Stellt ein [GlowEffect](/cells/de/python-net/aspose.cells.drawing/gloweffect)-Objekt dar, das den glow-Effekt für das Diagrammelement oder die Form angibt.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

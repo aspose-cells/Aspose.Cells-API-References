@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_cell_coordinate fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_cell_coordinate fastighet
 
-Anger om excel-koordinater för icke-tomma celler exporteras när filen sparas till html.
+Anger om excel-koordinater för icke-tomma celler exporteras när filen sparas till html. Standardvärdet är falskt.
 Om du vill importera utdata-html till excel, behåll standardvärdet.
 ###  Definition:
 ```python

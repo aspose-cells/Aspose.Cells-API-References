@@ -1,4 +1,4 @@
-﻿---
+---
 title: DynamicFilterType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,8 +17,8 @@ Le type DynamicFilterType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| ABOVE_AVERAGE | Affiche des valeurs supérieures à la moyenne.|
-| BELOW_AVERAGE | Affiche des valeurs inférieures à la moyenne.|
+| ABOVE_AVERAGE | Affiche les valeurs supérieures à la moyenne.|
+| BELOW_AVERAGE | Affiche les valeurs inférieures à la moyenne.|
 | LAST_MONTH | Affiche les dates du mois dernier.|
 | LAST_QUARTER | Affiche les dates du dernier trimestre.|
 | LAST_WEEK | Affiche les dates de la semaine dernière.|

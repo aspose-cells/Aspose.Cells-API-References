@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_text_size yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -23,7 +23,7 @@ def calculate_text_size(self):
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 

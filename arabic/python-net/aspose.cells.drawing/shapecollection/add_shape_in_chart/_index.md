@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_shape_in_chart
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/
 is_root: false
 ---
 ##  add_shape_in_chart(type, placement, left, top, right, bottom) {#MsoDrawingType-PlacementType-int-int-int-int}
-أضف شكلاً إلى الرسم البياني. جميع الوحدات هي 1/4000 من منطقة المخطط.
+أضف شكلاً إلى الرسم البياني. كل وحدة هي 1/4000 من منطقة المخطط.
 
 
 
@@ -18,7 +18,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/ar/python-net/aspose.cells.drawing/msodrawingtype) | نوع الرسم.|
 | placement | [PlacementType](/cells/ar/python-net/aspose.cells.drawing/placementtype) | نوع التنسيب.|
@@ -29,7 +29,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom):
 
 
 ##  add_shape_in_chart(type, placement, left, top, right, bottom, image_data) {#MsoDrawingType-PlacementType-int-int-int-int-bytes}
-أضف شكلاً إلى الرسم البياني. جميع الوحدات هي 1/4000 من منطقة المخطط.
+أضف شكلاً إلى الرسم البياني. كل وحدة هي 1/4000 من منطقة المخطط.
 
 
 
@@ -39,7 +39,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom, image_da
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/ar/python-net/aspose.cells.drawing/msodrawingtype) | نوع الرسم.|
 | placement | [PlacementType](/cells/ar/python-net/aspose.cells.drawing/placementtype) | نوع التنسيب.|

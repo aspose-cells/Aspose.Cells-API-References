@@ -1,4 +1,4 @@
-﻿---
+---
 title: chart_image_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,8 +14,8 @@ Standardwert: PNG.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
-Diagramme und Formen werden aus Qualitätsgründen immer als Vektorelemente (z. B. Punkte, Linien) gerendert.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+Diagramm und Form werden immer als Vektorelemente (z. B. Punkt, Linie) für die Renderqualität gerendert.
  Diese Property wird 12 Monate später seit Juni 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

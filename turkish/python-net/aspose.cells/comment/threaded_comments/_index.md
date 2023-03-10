@@ -1,4 +1,4 @@
-﻿---
+---
 title: threaded_comments mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Zincirleme yorumların listesini alır;
 
-###  örnekler
+###  Örnek
 
 ```python
 

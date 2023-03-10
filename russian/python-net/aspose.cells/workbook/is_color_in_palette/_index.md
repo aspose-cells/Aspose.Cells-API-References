@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_color_in_palette метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Возвращает true, если этот цвет есть в палитре.
+Возвращает true, если этот цвет есть в палитре. В противном случае возвращает ложь
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Цветовая структура.|
 

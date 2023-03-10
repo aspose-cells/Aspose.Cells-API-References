@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_column метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 
@@ -34,7 +34,7 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | column_index | int | Индекс столбца.|
 | update_reference | bool |Указывает, будут ли обновлены ссылки на других рабочих листах.|

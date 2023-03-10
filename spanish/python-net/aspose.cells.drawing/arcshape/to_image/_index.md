@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | El flujo de salida.|
 | image_type | [ImageType](/cells/es/python-net/aspose.cells.drawing/imagetype) | El tipo en el que guardar la imagen.|
@@ -26,7 +26,7 @@ def to_image(self, stream, image_type):
 
 Se admiten los siguientes formatos:
 .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.drawing import ImageType
@@ -49,12 +49,12 @@ def to_image(self, image_file, options):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | image_file | str |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions
@@ -76,12 +76,12 @@ def to_image(self, stream, options):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | aspose.cells.rendering.ImageOrPrintOptions |  |
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.rendering import ImageOrPrintOptions

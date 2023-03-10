@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,14 +25,14 @@ Le type SheetRender expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [page_count](/cells/fr/python-net/aspose.cells.rendering/sheetrender/page_count) | Obtient le nombre total de pages de la feuille de calcul actuelle.|
-| [page_scale](/cells/fr/python-net/aspose.cells.rendering/sheetrender/page_scale) | Obtient l'échelle de page calculée de la feuille.<br/> Renvoie l'échelle définie si [PageSetup.zoom](/cells/fr/python-net/aspose.cells/pagesetup#zoom) est défini.|
+| [page_scale](/cells/fr/python-net/aspose.cells.rendering/sheetrender/page_scale) | Obtient l'échelle de page calculée de la feuille.<br/> Renvoie l'échelle définie si [PageSetup.zoom](/cells/fr/python-net/aspose.cells/pagesetup#zoom) est défini. Sinon, renvoie l'échelle calculée selon [PageSetup.fit_to_pages_wide](/cells/fr/python-net/aspose.cells/pagesetup#fit_to_pages_wide) et [PageSetup.fit_to_pages_tall](/cells/fr/python-net/aspose.cells/pagesetup#fit_to_pages_tall).|
 
 
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
 | [to_image(page_index, file_name)](/cells/fr/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) | Afficher certaines pages dans un fichier.|
-| [to_image(page_index, stream)](/cells/fr/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | Afficher certaines pages dans un flux.|
+| [to_image(page_index, stream)](/cells/fr/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | Rendre certaines pages dans un flux.|
 | [to_tiff(stream)](/cells/fr/python-net/aspose.cells.rendering/sheetrender/to_tiff/#io.RawIOBase) | Rendre la feuille de calcul entière en tant qu'image Tiff à diffuser.|
 | [to_tiff(filename)](/cells/fr/python-net/aspose.cells.rendering/sheetrender/to_tiff/#str) | Rendre la feuille de calcul entière en tant qu'image Tiff dans un fichier.|
 | [to_printer(printer_name)](/cells/fr/python-net/aspose.cells.rendering/sheetrender/to_printer/#str) | Rendre la feuille de calcul à l'imprimante|

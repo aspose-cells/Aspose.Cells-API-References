@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_right_column الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل فهرس عمود الركن الأيمن السفلي.
 
-###  أمثلة
+###  مثال
 
 ```python
 

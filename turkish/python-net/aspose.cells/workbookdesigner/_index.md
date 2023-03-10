@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ WorkbookDesigner türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [workbook](/cells/tr/python-net/aspose.cells/workbookdesigner/workbook) |[WorkbookDesigner.workbook](/cells/tr/python-net/aspose.cells/workbookdesigner#workbook) nesnesini alır ve ayarlar.|
-| [repeat_formulas_with_subtotal](/cells/tr/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Ara toplam satırları ile yinelenen formülleri gösterir.|
+| [repeat_formulas_with_subtotal](/cells/tr/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Ara toplam satırı ile formüllerin tekrarlanıp tekrarlanmadığını gösterir.|
 | [update_empty_string_as_null](/cells/tr/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | DOĞRU ise, değer "" ise Null eklenecektir;|
 | [update_reference](/cells/tr/python-net/aspose.cells/workbookdesigner/update_reference) |Diğer çalışma sayfalarındaki başvuruların güncellenip güncellenmeyeceğini belirtir.|
 | [calculate_formula](/cells/tr/python-net/aspose.cells/workbookdesigner/calculate_formula) | Formüllerin hesaplanıp hesaplanmayacağını belirtir.|
@@ -46,7 +46,7 @@ WorkbookDesigner türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

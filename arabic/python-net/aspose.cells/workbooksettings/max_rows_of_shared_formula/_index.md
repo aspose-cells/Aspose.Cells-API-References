@@ -1,4 +1,4 @@
-﻿---
+---
 title: max_rows_of_shared_formula الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

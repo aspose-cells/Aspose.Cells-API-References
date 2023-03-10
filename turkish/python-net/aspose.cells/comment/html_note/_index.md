@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_note mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Bu yorumdaki verileri ve bazı biçimleri içeren html dizesini alır ve ayarlar
 
 Bu bir zincirleme yorumsa, not değiştirilemez, aksi halde MS Excel bunu zincirleme bir yorum olarak işleyemez.
 
-###  örnekler
+###  Örnek
 
 ```python
 

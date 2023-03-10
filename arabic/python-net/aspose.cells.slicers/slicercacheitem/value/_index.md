@@ -1,4 +1,4 @@
-﻿---
+---
 title: value الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value الملكية
 
-إرجاع نص التسمية لعنصر تقطيع الشرائح.
+إرجاع نص التسمية لعنصر تقطيع الشرائح. يقرأ فقط.
 ###  تعريف:
 ```python
 @property

@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_condition方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -22,7 +22,7 @@ def add_condition(self, type):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/zh/python-net/aspose.cells/formatconditiontype) |格式条件类型。|
 
@@ -42,7 +42,7 @@ def add_condition(self, type, operator_type, formula1, formula2):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/zh/python-net/aspose.cells/formatconditiontype) | [FormatConditionType](/cells/zh/python-net/aspose.cells/formatconditiontype) 条件格式。<br/>它可以是 FormatConditionType 的成员之一。|
 | operator_type | [OperatorType](/cells/zh/python-net/aspose.cells/operatortype) |比较 [OperatorType](/cells/zh/python-net/aspose.cells/operatortype)。<br/>它可以是 OperatorType 的成员之一。|

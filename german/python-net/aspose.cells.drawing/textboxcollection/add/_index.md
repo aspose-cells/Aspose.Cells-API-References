@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,7 +29,7 @@ def add(self, upper_left_row, upper_left_column, height, width):
 | height | int | Höhe des Textfelds in Pixeleinheiten.|
 | width | int | Breite des Textfelds in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

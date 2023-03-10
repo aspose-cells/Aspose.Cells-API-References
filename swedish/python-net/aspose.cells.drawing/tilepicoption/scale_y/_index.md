@@ -1,4 +1,4 @@
-﻿---
+---
 title: scale_y fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y fastighet
 
-Hämtar eller ställer in Y-skalan för sida vid sida av bilder.
+Hämtar eller ställer in Y-skalan för sida vid sida.
 ###  Definition:
 ```python
 @property

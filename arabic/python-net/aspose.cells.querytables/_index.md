@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.querytables
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 | [PowerQueryFormulaCollection](/cells/ar/python-net/aspose.cells.querytables/powerqueryformulacollection) | يمثل جميع صيغ استعلام الطاقة في بيانات المزج.|
 | [PowerQueryFormulaFunction](/cells/ar/python-net/aspose.cells.querytables/powerqueryformulafunction) | يمثل وظيفة استعلام الطاقة.|
 | [PowerQueryFormulaItem](/cells/ar/python-net/aspose.cells.querytables/powerqueryformulaitem) | يمثل عنصر صيغة الاستعلام القوي.|
-| [PowerQueryFormulaItemCollection](/cells/ar/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) | يمثل جميع عناصر صيغة الاستعلام القوي.|
+| [PowerQueryFormulaItemCollection](/cells/ar/python-net/aspose.cells.querytables/powerqueryformulaitemcollection) | يمثل كل عنصر من صيغة الاستعلام القوي.|
 | [PowerQueryFormulaParameter](/cells/ar/python-net/aspose.cells.querytables/powerqueryformulaparameter) | يمثل معلمة صيغة استعلام الطاقة.|
 | [PowerQueryFormulaParameterCollection](/cells/ar/python-net/aspose.cells.querytables/powerqueryformulaparametercollection) |يمثل|
 

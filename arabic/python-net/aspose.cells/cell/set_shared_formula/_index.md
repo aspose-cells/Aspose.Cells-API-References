@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_shared_formula
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|
@@ -39,7 +39,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|
@@ -58,7 +58,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|
@@ -67,7 +67,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 | is_local | bool | ما إذا كانت الصيغة منسقة محليًا|
 ###  ملاحظات
 
-ملاحظة: هذه الفئة عفا عليها الزمن الآن.
+ملاحظة: هذه الفئة عفا عليها الزمن الآن. بدلاً من،
 الرجاء استخدام Cell.SetSharedFormula (سلسلة ، int ، int ، FormulaParseOptions).
 ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2019.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
@@ -83,7 +83,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | shared_formula | str | صيغة مشتركة.|
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|

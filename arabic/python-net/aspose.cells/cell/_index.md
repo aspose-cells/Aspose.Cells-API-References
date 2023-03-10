@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cell الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [name](/cells/ar/python-net/aspose.cells/cell/name) | يحصل على اسم الخلية.|
 | [is_error_value](/cells/ar/python-net/aspose.cells/cell/is_error_value) | للتحقق مما إذا كانت قيمة هذه الخلية خطأ.|
 | [is_numeric_value](/cells/ar/python-net/aspose.cells/cell/is_numeric_value) | الإشارة إلى ما إذا كانت القيمة الداخلية لهذه الخلية رقمية (عدد صحيح ومزدوج وتاريخ ووقت)|
-| [string_value](/cells/ar/python-net/aspose.cells/cell/string_value) |الحصول على قيمة السلسلة الموجودة في الخلية.<br/>بالنسبة لأنواع الخلايا الأخرى ، سيتم إرجاع قيمة السلسلة المنسقة (المنسقة بالنمط المحدد لهذه الخلية).<br/>قيمة الخلية المنسقة هي نفسها مع ما يمكنك الحصول عليه من Excel عند نسخ خلية كنص (مثل<br/> نسخ الخلية إلى محرر نصوص أو تصديرها إلى ملف csv).|
+| [string_value](/cells/ar/python-net/aspose.cells/cell/string_value) |الحصول على قيمة السلسلة الموجودة في الخلية. إذا كان نوع هذه الخلية عبارة عن سلسلة ، فقم بإرجاع قيمة السلسلة نفسها.<br/>بالنسبة لأنواع الخلايا الأخرى ، سيتم إرجاع قيمة السلسلة المنسقة (المنسقة بالنمط المحدد لهذه الخلية).<br/>تتشابه قيمة الخلية المنسقة مع ما يمكنك الحصول عليه من Excel عند نسخ خلية كنص (مثل<br/> نسخ الخلية إلى محرر نصوص أو تصديرها إلى ملف csv).|
 | [string_value_without_format](/cells/ar/python-net/aspose.cells/cell/string_value_without_format) | الحصول على قيمة الخلية كسلسلة بدون أي تنسيق.|
 | [number_category_type](/cells/ar/python-net/aspose.cells/cell/number_category_type) | يمثل نوع فئة تنسيق رقم هذه الخلية.|
 | [display_string_value](/cells/ar/python-net/aspose.cells/cell/display_string_value) | الحصول على قيمة السلسلة المنسقة لهذه الخلية حسب نمط عرض الخلية.|
@@ -48,7 +48,7 @@ is_root: false
 | [is_table_formula](/cells/ar/python-net/aspose.cells/cell/is_table_formula) | يشير إلى ما إذا كانت هذه الخلية جزء من صيغة الجدول.|
 | [is_in_table](/cells/ar/python-net/aspose.cells/cell/is_in_table) | يشير إلى ما إذا كانت هذه الخلية جزء من صيغة الجدول.|
 | [value](/cells/ar/python-net/aspose.cells/cell/value) | الحصول على القيمة الموجودة في هذه الخلية.|
-| [is_style_set](/cells/ar/python-net/aspose.cells/cell/is_style_set) | الإشارة إلى ما إذا كان نمط الخلية قد تم تعيينه أم لا. إذا تم إرجاع خطأ ، فهذا يعني أن هذه الخلية لها تنسيق افتراضي للخلية.|
+| [is_style_set](/cells/ar/python-net/aspose.cells/cell/is_style_set) | يشير إلى ما إذا كان نمط الخلية معينًا أم لا. إذا تم إرجاع خطأ ، فهذا يعني أن هذه الخلية لها تنسيق افتراضي للخلية.|
 | [is_merged](/cells/ar/python-net/aspose.cells/cell/is_merged) | للتحقق مما إذا كانت الخلية جزءًا من نطاق مدمج أم لا.|
 | [comment](/cells/ar/python-net/aspose.cells/cell/comment) | يحصل على تعليق هذه الخلية.|
 | [html_string](/cells/ar/python-net/aspose.cells/cell/html_string) | الحصول على وتعيين سلسلة html التي تحتوي على بيانات وبعض التنسيقات في هذه الخلية.|
@@ -68,7 +68,7 @@ is_root: false
 | [put_value(date_time)](/cells/ar/python-net/aspose.cells/cell/put_value/#DateTime) | يضع قيمة DateTime في الخلية.|
 | [put_value(object_value)](/cells/ar/python-net/aspose.cells/cell/put_value/#any) | يضع قيمة كائن في الخلية.|
 | [get_display_style()](/cells/ar/python-net/aspose.cells/cell/get_display_style/#) | يحصل على نمط عرض الخلية.<br/>إذا تأثرت هذه الخلية أيضًا بإعدادات أخرى مثل التنسيق الشرطي وكائنات القائمة وما إلى ذلك ،<br/> ثم قد يختلف نمط العرض عن cell.GetStyle ().|
-| [get_display_style(include_merged_borders)](/cells/ar/python-net/aspose.cells/cell/get_display_style/#bool) | يحصل على نمط عرض الخلية.<br/> إذا تم تنسيق الخلية بشكل مشروط ، فلن يكون نمط العرض هو نفسه الخلية.|
+| [get_display_style(include_merged_borders)](/cells/ar/python-net/aspose.cells/cell/get_display_style/#bool) | يحصل على نمط عرض الخلية.<br/> إذا كانت الخلية منسقة شرطيًا ، فلن يكون نمط العرض مماثلاً للخلية.|
 | [get_style()](/cells/ar/python-net/aspose.cells/cell/get_style/#) | يحصل على نمط الخلية.|
 | [get_style(check_borders)](/cells/ar/python-net/aspose.cells/cell/get_style/#bool) | إذا كانت checkBorders صحيحة ، فتحقق مما إذا كانت حدود الخلايا الأخرى ستؤثر على نمط هذه الخلية.|
 | [set_style(style)](/cells/ar/python-net/aspose.cells/cell/set_style/#Style) | يعيّن نمط الخلية.|
@@ -87,9 +87,9 @@ is_root: false
 | [set_shared_formula(shared_formula, row_number, column_number, options, values)](/cells/ar/python-net/aspose.cells/cell/set_shared_formula/#str-int-int-FormulaParseOptions-list) | يضبط الصيغ المشتركة على نطاق من الخلايا.|
 | [get_leafs()](/cells/ar/python-net/aspose.cells/cell/get_leafs/#) | احصل على جميع الخلايا التي تشير إلى هذه الخلية مباشرةً وتحتاج إلى تحديث عند تعديل هذه الخلية.|
 | [get_leafs(recursive)](/cells/ar/python-net/aspose.cells/cell/get_leafs/#bool) | احصل على جميع الخلايا التي سيتم تحديثها عند تعديل هذه الخلية.|
-| [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/ar/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) | يعيّن صيغة صفيف ديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.|
-| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/ar/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) | يعيّن صيغة صفيف ديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.|
-| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/ar/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) | يعيّن صيغة صفيف ديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.|
+| [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/ar/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) | يضبط صيغة الصفيف الديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.|
+| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/ar/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) | يضبط صيغة الصفيف الديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.|
+| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/ar/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) | يضبط صيغة الصفيف الديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.|
 | [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/ar/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | قم بإنشاء جدول بيانات ذي متغيرين لنطاق معين يبدأ من هذه الخلية.|
 | [set_table_formula(row_number, column_number, input_cell, is_row_input, values)](/cells/ar/python-net/aspose.cells/cell/set_table_formula/#int-int-str-bool-list) | قم بإنشاء جدول بيانات ذو متغير واحد لنطاق معين يبدأ من هذه الخلية.|
 | [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/ar/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | قم بإنشاء جدول بيانات ذي متغيرين لنطاق معين يبدأ من هذه الخلية.|
@@ -97,8 +97,8 @@ is_root: false
 | [get_characters()](/cells/ar/python-net/aspose.cells/cell/get_characters/#) | ترجع جميع كائنات الأحرف<br/> يمثل نطاقًا من الأحرف داخل نص الخلية.|
 | [get_characters(flag)](/cells/ar/python-net/aspose.cells/cell/get_characters/#bool) | ترجع جميع كائنات الأحرف<br/> يمثل نطاقًا من الأحرف داخل نص الخلية.|
 | [get_string_value(format_strategy)](/cells/ar/python-net/aspose.cells/cell/get_string_value/#CellValueFormatStrategy) | يحصل على قيمة السلسلة من خلال استراتيجية محددة منسقة.|
-| [get_width_of_value()](/cells/ar/python-net/aspose.cells/cell/get_width_of_value/#) | الحصول على عرض القيمة بوحدات البكسل.|
-| [get_height_of_value()](/cells/ar/python-net/aspose.cells/cell/get_height_of_value/#) | الحصول على ارتفاع القيمة بوحدات البكسل.|
+| [get_width_of_value()](/cells/ar/python-net/aspose.cells/cell/get_width_of_value/#) | الحصول على عرض القيمة بوحدة البكسل.|
+| [get_height_of_value()](/cells/ar/python-net/aspose.cells/cell/get_height_of_value/#) | الحصول على ارتفاع القيمة بوحدة البكسل.|
 | [get_format_conditions()](/cells/ar/python-net/aspose.cells/cell/get_format_conditions/#) | يحصل على شروط التنسيق التي تنطبق على هذه الخلية.|
 | [get_formula(is_r1c1, is_local)](/cells/ar/python-net/aspose.cells/cell/get_formula/#bool-bool) | احصل على صيغة هذه الخلية.|
 | [get_precedents()](/cells/ar/python-net/aspose.cells/cell/get_precedents/#) |الحصول على كافة المراجع التي تظهر في صيغة هذه الخلية.|
@@ -110,7 +110,7 @@ is_root: false
 | [copy(cell)](/cells/ar/python-net/aspose.cells/cell/copy/#Cell) | ينسخ البيانات من خلية مصدر.|
 | [characters(start_index, length)](/cells/ar/python-net/aspose.cells/cell/characters/#int-int) | يُرجع كائن الأحرف الذي يمثل نطاقًا من الأحرف داخل نص الخلية.|
 | [is_rich_text()](/cells/ar/python-net/aspose.cells/cell/is_rich_text/#) | الإشارة إلى ما إذا كانت قيمة سلسلة الخلية نصًا منسقًا.|
-| [set_characters(characters)](/cells/ar/python-net/aspose.cells/cell/set_characters/#list) | يعيّن تنسيق النص المنسق للخلية.|
+| [set_characters(characters)](/cells/ar/python-net/aspose.cells/cell/set_characters/#list) | يضبط تنسيق النص المنسق للخلية.|
 | [get_merged_range()](/cells/ar/python-net/aspose.cells/cell/get_merged_range/#) | تقوم بإرجاع عنصر [Range](/cells/ar/python-net/aspose.cells/range) الذي يمثل نطاقًا مدمجًا.|
 | [get_html_string(html5)](/cells/ar/python-net/aspose.cells/cell/get_html_string/#bool) | الحصول على سلسلة html التي تحتوي على بيانات وبعض التنسيقات في هذه الخلية.|
 | [to_json()](/cells/ar/python-net/aspose.cells/cell/to_json/#) | تحويل [Cell](/cells/ar/python-net/aspose.cells/cell) إلى JSON بيانات هيكلية.|
@@ -122,7 +122,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import TextAlignmentType, Workbook

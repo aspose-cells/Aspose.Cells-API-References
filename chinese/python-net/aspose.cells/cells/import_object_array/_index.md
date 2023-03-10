@@ -1,6 +1,6 @@
-﻿---
+---
 title: import_object_array方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 670
@@ -18,7 +18,7 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | obj_array | list |数据数组。|
 | first_row | int |要导入的第一个单元格的行号。|
@@ -37,7 +37,7 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical, s
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | obj_array | list |数据数组。|
 | first_row | int |要导入的第一个单元格的行号。|

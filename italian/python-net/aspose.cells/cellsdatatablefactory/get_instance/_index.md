@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_instance
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/cellsdatatablefactory/get_instance/
 is_root: false
 ---
 ##  get_instance(collection) {#list}
-Crea ICellsDataTable da una determinata raccolta.
+Crea ICellsDataTable dalla raccolta specificata.
 
 
 ###  ritorna
@@ -22,7 +22,7 @@ def get_instance(self, collection):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | collection | list | la collezione per costruire la tavola|
 
@@ -42,10 +42,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| vals | list | int valori per costruire la tabella|
-| column_names | list | Nomi delle colonne della tabella.<br/>La sua lunghezza può essere solo 1 (costruisci la tabella in base ai valori int verticalmente)<br/> o la lunghezza dei valori int (costruisci la tabella in base ai valori int orizzontalmente)|
+| vals | list | valori int per costruire la tabella|
+| column_names | list | Nomi delle colonne della tabella.<br/>La sua lunghezza può essere solo 1 (costruisci la tabella in base ai valori int verticalmente)<br/> o lunghezza dei valori int (costruisci la tabella in base ai valori int orizzontalmente)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -63,9 +63,9 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| vals | list | int valori per costruire la tabella|
+| vals | list | valori int per costruire la tabella|
 | vertial | bool |se costruisci la tabella in base ai valori int verticalmente (vero) o orizzontalmente (falso)|
 
 
@@ -84,10 +84,10 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | vals | list | doppi valori per costruire la tabella|
-| column_names | list | Nomi delle colonne della tabella.<br/>La sua lunghezza può essere solo 1 (costruisci la tabella con i doppi valori verticalmente)<br/> o lunghezza dei doppi valori (costruisci la tabella dai doppi valori orizzontalmente)|
+| column_names | list | Nomi delle colonne della tabella.<br/>La sua lunghezza può essere solo 1 (costruisci la tabella con i doppi valori verticalmente)<br/> o lunghezza dei doppi valori (costruisci la tabella con i doppi valori orizzontalmente)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -105,7 +105,7 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | vals | list | doppi valori per costruire la tabella|
 | vertial | bool | se costruisci la tabella con i doppi valori verticalmente (vero) o orizzontalmente (falso)|
@@ -126,7 +126,7 @@ def get_instance(self, vals, column_names):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | vals | list | oggetti per costruire tabella|
 | column_names | list | Nomi delle colonne della tabella.<br/>La sua lunghezza può essere solo 1 (costruisci la tabella dagli oggetti verticalmente)<br/> o lunghezza degli oggetti (costruisci la tabella dagli oggetti orizzontalmente)|
@@ -147,7 +147,7 @@ def get_instance(self, vals, vertial):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | vals | list | oggetti per costruire tabella|
 | vertial | bool | se costruisci la tabella dagli oggetti verticalmente (vero) o orizzontalmente (falso)|

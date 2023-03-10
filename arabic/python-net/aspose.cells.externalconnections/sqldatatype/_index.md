@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد SqlDataType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  العد SqlDataType
-يحدد نوع بيانات SQL للمعلمة.
+يحدد نوع بيانات SQL للمعلمة. صالح فقط لمصادر ODBC.
 
 
 
@@ -19,8 +19,8 @@ is_root: false
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | إزاحة SQL غير الموقعة|
 | SQL_SIGNED_OFFSET | SQL الإزاحة الموقعة|
-| SQL_GUID | أدلة SQL|
-| SQL_W_LONG_VARCHAR | حرف متغير عريض وطويل|
+| SQL_GUID | دليل SQL|
+| SQL_W_LONG_VARCHAR | حرف متغير عريض طويل|
 | SQL_W_VARCHAR | حرف متغير عريض SQL|
 | SQL_W_CHAR | حرف S واسع|
 | SQL_BIT | بت SQL|

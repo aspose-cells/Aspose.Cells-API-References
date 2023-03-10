@@ -1,4 +1,4 @@
-﻿---
+---
 title: load_table_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_in_range yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,15 +18,15 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_shapes | [ShapeCollection](/cells/tr/python-net/aspose.cells.drawing/shapecollection) | Kaynak şekiller.|
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Kaynak aralığı.|
 | dest_row | int | Hedef aralığın hedef satır dizini.|
 | dest_column | int | Hedef aralığın hedef sütunu.|
-| is_contained | bool | Yalnızca aralıkta bulunan şekillerin kopyalanıp kopyalanmadığı.<br/> True ise, yalnızca aralıktaki şekilleri kopyalar.<br/> Aksi takdirde, MS Office olarak çalışır.|
+| is_contained | bool | Yalnızca aralıkta bulunan şekillerin kopyalanıp kopyalanmadığı.<br/> Doğruysa, yalnızca aralıktaki şekilleri kopyalar.<br/> Aksi takdirde, MS Office olarak çalışır.|
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea

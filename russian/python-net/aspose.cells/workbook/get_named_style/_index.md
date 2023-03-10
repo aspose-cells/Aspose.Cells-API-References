@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_named_style метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_named_style(self, name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | name | str | название стиля|
 

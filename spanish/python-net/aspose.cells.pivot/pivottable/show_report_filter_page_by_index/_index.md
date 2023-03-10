@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_report_filter_page_by_index método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def show_report_filter_page_by_index(self, pos_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pos_index | int | El índice de posición en PageFields|
 

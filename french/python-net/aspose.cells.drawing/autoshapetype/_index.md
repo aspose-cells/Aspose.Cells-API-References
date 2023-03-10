@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoShapeType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -182,8 +182,8 @@ Le type AutoShapeType expose les membres suivants :
 | TEXT_DEFLATE_BOTTOM | Une forme de texte qui se rétrécit vers le haut au milieu.|
 | TEXT_INFLATE_TOP | Une forme de texte qui se développe vers le haut au milieu.|
 | TEXT_DEFLATE_TOP | Une forme de texte qui se rétrécit vers le bas au milieu.|
-| TEXT_DEFLATE_INFLATE |Forme de texte dans laquelle les lignes inférieures s'agrandissent vers le haut. Les lignes supérieures se rétrécissent pour compenser.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | Forme de texte dans laquelle les lignes du centre s'agrandissent verticalement. Les lignes supérieures et inférieures se rétrécissent pour compenser.|
+| TEXT_DEFLATE_INFLATE |Une forme de texte où les lignes inférieures s'étendent vers le haut. Les lignes supérieures rétrécissent pour compenser.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | Une forme de texte où les lignes au centre s'étendent verticalement. Les lignes supérieures et inférieures rétrécissent pour compenser.|
 | TEXT_FADE_RIGHT | Une forme de texte qui se rétrécit verticalement sur le côté droit.|
 | TEXT_FADE_LEFT | Une forme de texte qui se rétrécit verticalement sur le côté gauche.|
 | TEXT_FADE_UP | Une forme de texte qui se rétrécit horizontalement en haut.|

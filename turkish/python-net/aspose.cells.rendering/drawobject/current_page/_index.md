@@ -1,4 +1,4 @@
-﻿---
+---
 title: current_page mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
  DrawObject'in sayfa dizinini gösterir.
 Sayfa dizini sıfıra dayalıdır.
-Bir sayfa, oluşturulurken birkaç sayfa içerir.
+Bir Sayfa, oluşturulurken birkaç sayfa içerir.
 ###  Tanım:
 ```python
 @property

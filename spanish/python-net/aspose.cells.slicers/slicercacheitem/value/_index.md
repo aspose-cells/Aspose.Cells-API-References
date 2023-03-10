@@ -1,4 +1,4 @@
-﻿---
+---
 title: value propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value propiedad
 
-Devuelve el texto de la etiqueta del elemento de segmentación.
+Devuelve el texto de la etiqueta del elemento de segmentación. Solo lectura.
 ###  Definición:
 ```python
 @property

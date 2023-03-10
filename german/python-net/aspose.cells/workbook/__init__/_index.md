@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook Konstrukteur
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,7 +21,7 @@ def __init__(self):
 ###  Bemerkungen
 
 Der Standarddateiformattyp ist Xlsx. Um einen anderen Formatdateityp zu erstellen, verwenden Sie bitte Workbook (FileFormatType).
-###  Beispiele
+###  Beispiel
 
 
 Der folgende Code zeigt, wie der Konstruktor Workbook verwendet wird, um eine neue Instanz der Klasse zu erstellen und zu initialisieren.
@@ -51,7 +51,7 @@ def __init__(self, file_format_type):
 ###  Bemerkungen
 
 Der Standarddateiformattyp ist Excel97To2003.
-###  Beispiele
+###  Beispiel
 
 
 Der folgende Code zeigt, wie der Konstruktor Workbook verwendet wird, um eine neue Instanz der Klasse zu erstellen und zu initialisieren.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: value proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  value proprietà
 
 Numerico non intero value, intero value, stringa value o booleano value
-da utilizzare come parametro di query.Usato solo quando parameterType è value.
+da utilizzare come parametro di query. Utilizzato solo quando parameterType è value.
 ###  Definizione:
 ```python
 @property

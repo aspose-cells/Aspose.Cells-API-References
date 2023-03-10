@@ -1,6 +1,6 @@
-﻿---
+---
 title: provider_id 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## provider_id 属性
 
-获取提供者的身份。
+获取提供者的 ID。
 ### 定义：
 ```python
 @property

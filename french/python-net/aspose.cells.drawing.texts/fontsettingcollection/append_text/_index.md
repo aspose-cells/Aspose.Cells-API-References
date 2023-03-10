@@ -1,4 +1,4 @@
-﻿---
+---
 title: append_text méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def append_text(self, text):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | text | str | Le texte.|
 

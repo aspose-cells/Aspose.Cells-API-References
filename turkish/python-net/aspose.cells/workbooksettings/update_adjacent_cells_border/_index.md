@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_adjacent_cells_border mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Bitişik hücrelerin kenarlığının güncellenip güncellenmediğini gösterir
 ###  Notlar
 
 Varsayılan değer yanlıştır.
- Örneğin: A1 hücresinin alt kenarlığı güncellenir,
+ Örneğin: A1 hücresinin alt kenarlığı güncellemedir,
 A2 hücresinin üst kenarlığı da değiştirilmelidir.
 ###  Tanım:
 ```python

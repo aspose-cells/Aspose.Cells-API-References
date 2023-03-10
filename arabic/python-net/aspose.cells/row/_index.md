@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [is_blank](/cells/ar/python-net/aspose.cells/row/is_blank) | يشير إلى ما إذا كان الصف يحتوي على أية بيانات|
 | [is_collapsed](/cells/ar/python-net/aspose.cells/row/is_collapsed) | ما إذا كان الصف مطويًا أم لا|
-| [height](/cells/ar/python-net/aspose.cells/row/height) | الحصول على ارتفاع الصف وتعيينه بوحدات من النقاط.|
+| [height](/cells/ar/python-net/aspose.cells/row/height) | الحصول على ارتفاع الصف وتعيينه بوحدة النقاط.|
 | [is_hidden](/cells/ar/python-net/aspose.cells/row/is_hidden) | يشير إلى ما إذا كان الصف مخفيًا.|
 | [index](/cells/ar/python-net/aspose.cells/row/index) | يحصل على فهرس هذا الصف.|
 | [group_level](/cells/ar/python-net/aspose.cells/row/group_level) | يحصل على مستوى المجموعة للصف.|
@@ -53,7 +53,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

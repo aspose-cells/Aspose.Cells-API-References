@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintErrorsType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType uppräkning
-Representerar utskriftsfelskonstanter.
+Representerar konstanter för utskriftsfel.
 
 
 

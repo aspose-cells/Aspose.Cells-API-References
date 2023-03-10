@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_value mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value mülk
 
-Belirli bir grafiğin veri etiketi değerlerini görüntüleme davranışını temsil eder.True değerleri görüntüler.False gizlemek için.
+Belirtilen bir grafiğin veri etiketi değerlerinin görüntülenme davranışını temsil eder. True değerleri görüntüler. Gizlemek için yanlış.
 ###  Tanım:
 ```python
 @property

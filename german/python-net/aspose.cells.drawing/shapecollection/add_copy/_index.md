@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/shapecollection/add_copy/
 is_root: false
 ---
 ##  add_copy(source_shape, upper_left_row, top, upper_left_column, left) {#Shape-int-int-int-int}
-Fügt dem Arbeitsblatt eine Form hinzu und kopiert sie.
+Fügt eine Form zum Arbeitsblatt hinzu und kopiert sie.
 
 
 ###  Kehrt zurück
@@ -30,7 +30,7 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 | upper_left_column | int | Spaltenindex oben links.|
 | left | int | Repräsentiert den horizontalen Versatz des Textfelds von seiner linken Spalte in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

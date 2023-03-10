@@ -1,4 +1,4 @@
-﻿---
+---
 title: sql_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sql_type Eigentum
 
-SQL-Datentyp des Parameters Nur gültig für ODBC-Quellen.
+SQL-Datentyp des Parameters. Nur gültig für ODBC-Quellen.
 ###  Definition:
 ```python
 @property

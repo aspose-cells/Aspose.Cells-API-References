@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_page_break_preview propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

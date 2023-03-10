@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_reference propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_reference propriété
 
-Référence Cell indiquant la valeur de cellule à utiliser pour le paramètre de requête. Utilisé uniquement lorsque type de paramètre est cellule.
+Cell référence indiquant quelle valeur de cellule utiliser pour le paramètre de requête. Utilisé uniquement lorsque parameterType est cell.
 ###  Définition:
 ```python
 @property

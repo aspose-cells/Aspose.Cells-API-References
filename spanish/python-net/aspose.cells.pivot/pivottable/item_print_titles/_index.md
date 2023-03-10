@@ -1,4 +1,4 @@
-﻿---
+---
 title: item_print_titles propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

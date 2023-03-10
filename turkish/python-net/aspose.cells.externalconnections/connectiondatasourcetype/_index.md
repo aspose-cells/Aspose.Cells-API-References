@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionDataSourceType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,10 +18,10 @@ ConnectionDataSourceType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | ODBC_BASED_SOURCE | ODBC tabanlı kaynak|
-| DAO_BASED_SOURCE | DAO tabanlı kaynaklar|
+| DAO_BASED_SOURCE | DAO tabanlı kaynak|
 | FILE_BASED_DATA_BASE_SOURCE | Dosya tabanlı veritabanı kaynağı|
-| WEB_QUERY | Web sorguları|
-| OLEDB_BASED_SOURCE | OLE DB tabanlı kaynaklar|
+| WEB_QUERY | Web sorgusu|
+| OLEDB_BASED_SOURCE | OLE DB tabanlı kaynak|
 | TEXT_BASED_SOURCE | Metin tabanlı kaynak|
 | ADO_RECORD_SET | ADO kayıt seti|
 | DSP | DSP |

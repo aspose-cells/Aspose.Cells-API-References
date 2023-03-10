@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 عادةً ما يكون هو CLSID الخاص بالوظيفة الإضافية الخاصة بالموفر.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import SignatureLine

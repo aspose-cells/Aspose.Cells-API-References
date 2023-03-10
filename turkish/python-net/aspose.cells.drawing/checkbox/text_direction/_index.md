@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_direction mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bu nesne için metin akışının yönünü alır/ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import TextDirectionType

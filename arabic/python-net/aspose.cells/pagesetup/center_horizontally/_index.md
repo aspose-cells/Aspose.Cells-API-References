@@ -1,4 +1,4 @@
-﻿---
+---
 title: center_horizontally الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

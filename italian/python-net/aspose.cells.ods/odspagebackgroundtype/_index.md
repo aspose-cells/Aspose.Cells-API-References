@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackgroundType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType enumerazione
-Rappresenta il tipo di sfondo della pagina delle quote.
+Rappresenta il tipo di sfondo della pagina di ods.
 
 
 

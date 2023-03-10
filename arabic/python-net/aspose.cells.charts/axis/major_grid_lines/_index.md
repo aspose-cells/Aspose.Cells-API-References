@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_grid_lines الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل خطوط الشبكة الرئيسية على محور الرسم البياني.
 
-###  أمثلة
+###  مثال
 
 ```python
 

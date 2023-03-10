@@ -1,4 +1,4 @@
-﻿---
+---
 title: extend_to_adjacent_range недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

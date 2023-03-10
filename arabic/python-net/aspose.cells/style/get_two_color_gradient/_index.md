@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_two_color_gradient
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,10 +18,10 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | لون واحد متدرج.|
-| color2 | aspose.pydrawing.Color& | لونان متدرجان.|
+| color2 | aspose.pydrawing.Color& | اثنين من لون التدرج.|
 | gradient_style_type | any | أسلوب التظليل المتدرج.|
 | variant | any | متغير التدرج.|
 ###  ملاحظات

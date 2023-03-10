@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_style mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Satırın başlangıç ok başı stilini alır ve ayarlar.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen Shape.Line.BeginArrowheadStyle özelliğini kullanın.
  Bu mülk, Ağustos 2016'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: dash_style proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Specifica il tipo di trattino della linea.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

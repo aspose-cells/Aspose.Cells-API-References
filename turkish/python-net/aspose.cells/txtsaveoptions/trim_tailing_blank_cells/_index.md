@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_tailing_blank_cells mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells mülk
 
-Bir satırdaki boş hücrelerin kuyruğunun kırpılıp kırpılmayacağını belirtir.Varsayılan değer yanlıştır.
+Bir satırdaki kuyruk boş hücrelerinin kırpılıp kırpılmayacağını belirtir. Varsayılan yanlıştır.
 
 ###  Notlar
 

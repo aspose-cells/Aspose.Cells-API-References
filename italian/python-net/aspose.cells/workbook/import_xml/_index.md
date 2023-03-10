@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo import_xml
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,14 +18,14 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | url | str | l'URL/percorso del file xml.|
 | sheet_name | str | il nome del foglio di destinazione.|
 | row | int | la riga di destinazione|
 | col | int | la colonna di destinazione|
 
-###  Esempi
+###  Esempio
 
 Il codice seguente importa i dati XML nel foglio di lavoro "Foglio 1" in Cell A1.
 
@@ -50,7 +50,7 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | il flusso di file xml.|
 | sheet_name | str | il nome del foglio di destinazione.|

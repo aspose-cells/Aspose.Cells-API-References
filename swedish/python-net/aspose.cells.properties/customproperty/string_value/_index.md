@@ -1,4 +1,4 @@
-﻿---
+---
 title: string_value fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Returnerar eller ställer in värdet på den anpassade egenskapen.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
  använd egendomen CustomProperty.Value.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

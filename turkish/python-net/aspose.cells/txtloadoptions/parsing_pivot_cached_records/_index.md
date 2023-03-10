@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_pivot_cached_records mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Varsayılan değer yanlıştır.
 
 ###  Notlar
 
-Yalnızca Excel Xlsx, Xltx, Xltm , Xlsm ve xlsb dosyaları için geçerlidir
+Yalnızca Excel Xlsx, Xltx, Xltm , Xlsm ve xlsb dosyası için geçerlidir
 ###  Tanım:
 ```python
 @property

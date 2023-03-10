@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPictureType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type FillPictureType expose les membres suivants :
 | :- | :- |
 | STRETCH | Extensible|
 | STACK | Empiler|
-| STACK_AND_SCALE | Empiler et mettre à l'échelle|
+| STACK_AND_SCALE | PileEtEchelle|
 
 
 

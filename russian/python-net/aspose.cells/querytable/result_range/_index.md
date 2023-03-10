@@ -1,4 +1,4 @@
-﻿---
+---
 title: result_range недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range недвижимость
 
-Получает диапазон результатов.
+Получает диапазон результата.
 ###  Определение:
 ```python
 @property

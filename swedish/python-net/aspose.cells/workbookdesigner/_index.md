@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ Typen WorkbookDesigner avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells/workbookdesigner/workbook) |Hämtar och ställer in objektet [WorkbookDesigner.workbook](/cells/sv/python-net/aspose.cells/workbookdesigner#workbook).|
-| [repeat_formulas_with_subtotal](/cells/sv/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Anger om repeterande formler med delsumma rader.|
+| [repeat_formulas_with_subtotal](/cells/sv/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Anger om repeterande formler med delsumma rad.|
 | [update_empty_string_as_null](/cells/sv/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | Om TRUE, kommer Null att infogas om värdet är "";|
 | [update_reference](/cells/sv/python-net/aspose.cells/workbookdesigner/update_reference) |Anger om referenser i andra arbetsblad kommer att uppdateras.|
 | [calculate_formula](/cells/sv/python-net/aspose.cells/workbookdesigner/calculate_formula) | Anger om formler ska beräknas.|

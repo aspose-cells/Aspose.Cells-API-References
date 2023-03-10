@@ -1,4 +1,4 @@
-﻿---
+---
 title: disable_downlevel_revealed_comments mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

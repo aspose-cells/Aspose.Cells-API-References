@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_format propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  html_format propiedad
 
 Cómo manejar el formato de la fuente HTML al traer datos de consultas web al
-hoja de trabajo. Relevante cuando sourceData es True.
+hoja de cálculo. Relevante cuando sourceData es True.
 ###  Definición:
 ```python
 @property

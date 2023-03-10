@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  caption الملكية
 
-الحصول على النص الوصفي الذي يظهر في عنصر تحكم وتعيينه.
+الحصول على النص الوصفي الذي يظهر في عنصر التحكم وتعيينه.
 ###  تعريف:
 ```python
 @property

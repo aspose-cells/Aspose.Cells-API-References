@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorCheckOptionCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/errorcheckoptioncollection/
 is_root: false
 ---
 ##  ErrorCheckOptionCollection sınıfı
-Tüm hata denetimi seçeneklerini temsil eder.
+Tüm hata denetimi seçeneğini temsil eder.
 
 
 

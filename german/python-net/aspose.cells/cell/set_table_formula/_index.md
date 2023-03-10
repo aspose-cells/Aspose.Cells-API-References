@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_table_formula Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cell/set_table_formula/
 is_root: false
 ---
 ##  set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values) {#int-int-str-str-list}
-Erstellen Sie ausgehend von dieser Zelle eine Datentabelle mit zwei Variablen für einen bestimmten Bereich.
+Erstellen Sie eine Datentabelle mit zwei Variablen für einen bestimmten Bereich, beginnend mit dieser Zelle.
 
 
 
@@ -69,7 +69,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 
 
 ##  set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values) {#int-int-int-int-int-int-list}
-Erstellen Sie ausgehend von dieser Zelle eine Datentabelle mit zwei Variablen für einen bestimmten Bereich.
+Erstellen Sie eine Datentabelle mit zwei Variablen für einen bestimmten Bereich, beginnend mit dieser Zelle.
 
 
 

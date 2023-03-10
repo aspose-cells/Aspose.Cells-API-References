@@ -1,4 +1,4 @@
-﻿---
+---
 title: priority fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  priority fastighet
 
-priority för denna villkorliga formateringsregel.
-format bör utvärderas och renderas. Lägre numeriska värden är högre än priority
+priority för denna villkorliga formateringsregel. Detta värde används för att bestämma vilken
+formatet bör utvärderas och återges. Lägre numeriska värden är högre priority än
 högre numeriska värden, där '1' är det högsta priority.
 ###  Definition:
 ```python

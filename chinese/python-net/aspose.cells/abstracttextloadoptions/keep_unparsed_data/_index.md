@@ -1,6 +1,6 @@
-﻿---
+---
 title: keep_unparsed_data 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 160
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## keep_unparsed_data 属性
 
-从模板文件加载时是否将未解析的数据保留在内存中，默认为true。
+从模板文件加载工作簿时，是否将未解析的数据保留在内存中。默认为真。
 
 ### 评论
 

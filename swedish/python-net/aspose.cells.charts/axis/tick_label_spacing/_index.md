@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_label_spacing fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing fastighet
 
-Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter.
+Representerar antalet kategorier eller serier mellan bockmarkeringsetiketter. Gäller endast kategori- och serieaxlar.
 
 ###  Anmärkningar
 

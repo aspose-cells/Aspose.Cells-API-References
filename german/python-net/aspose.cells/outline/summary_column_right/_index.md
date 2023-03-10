@@ -1,4 +1,4 @@
-﻿---
+---
 title: summary_column_right Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

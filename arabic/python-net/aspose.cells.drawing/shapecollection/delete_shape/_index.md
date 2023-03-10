@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة delete_shape
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/shapecollection/delete_shape/
 is_root: false
 ---
 ##  delete_shape(shape) {#Shape}
-حذف شكل. إذا كان الشكل في المجموعة أو شكل تعليق ، فلن يتم حذفه.
+حذف شكل. إذا كان الشكل في المجموعة أو كان شكل تعليق ، فلن يتم حذفه.
 
 
 
@@ -18,11 +18,11 @@ def delete_shape(self, shape):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | shape | [Shape](/cells/ar/python-net/aspose.cells.drawing/shape) |  |
 
-###  أمثلة
+###  مثال
 
 ```python
 

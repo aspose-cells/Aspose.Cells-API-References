@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_right_to_left mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_fit_to_pages método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_fit_to_pages(self, wide, tall):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | wide | int | Páginas de ancho.|
 | tall | int | Páginas altas.|

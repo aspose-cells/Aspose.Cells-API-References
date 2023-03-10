@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_builtin_style metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def create_builtin_style(self, type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [BuiltinStyleType](/cells/sv/python-net/aspose.cells/builtinstyletype) |  |
 

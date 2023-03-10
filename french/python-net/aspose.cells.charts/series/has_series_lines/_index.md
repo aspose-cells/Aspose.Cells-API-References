@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_series_lines propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 True si un histogramme empilé ou un graphique à barres comporte des lignes de série ou
  si un graphique à secteurs ou à barres comporte des lignes de connexion entre les deux sections.
-S'applique uniquement aux graphiques à colonnes empilées, aux graphiques à barres, aux graphiques à secteurs ou à barres de graphiques à secteurs.
+S'applique uniquement aux graphiques à colonnes empilées, aux graphiques à barres, aux graphiques à secteurs ou aux graphiques à barres.
 ###  Définition:
 ```python
 @property

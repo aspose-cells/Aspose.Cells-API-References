@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_macros недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Только для копирования книг.
+Только для копирования книги.
 ###  Определение:
 ```python
 @property

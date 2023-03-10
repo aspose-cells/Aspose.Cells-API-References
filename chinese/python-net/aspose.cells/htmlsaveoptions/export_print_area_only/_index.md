@@ -1,6 +1,6 @@
-﻿---
+---
 title: export_print_area_only 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 310
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## export_print_area_only 属性
 
-表示是否只将打印区域导出到html文件。
+表示是否只将打印区域导出到html文件。默认值为假。
 ### 定义：
 ```python
 @property

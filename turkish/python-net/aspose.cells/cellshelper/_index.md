@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsHelper sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -46,7 +46,7 @@ CellsHelper türü aşağıdaki üyeleri gösterir:
 | [get_used_colors(workbook)](/cells/tr/python-net/aspose.cells/cellshelper/get_used_colors/#Workbook) | Çalışma kitabında kullanılan tüm renkleri alır.|
 | [add_add_in_function(function, min_count_of_parameters, max_count_of_parameters, paramers_type, function_value_type)](/cells/tr/python-net/aspose.cells/cellshelper/add_add_in_function/#str-int-int-list-ParameterType) | Eklenti işlevi ekleyin.|
 | [merge_files(files, cached_file, dest_file)](/cells/tr/python-net/aspose.cells/cellshelper/merge_files/#list-str-str) | Bazı büyük xls dosyalarını bir xls dosyasında birleştirir.|
-| [init_for_dot_net_core()](/cells/tr/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) | .NetCore programı için başlatma işlemini gerçekleştirin.<br/> Tüm .NetCore başlatma işlemleri için önce bu yöntemi çağırmanızı öneririz.<br/>Örneğin:<br/>CellsHelper.InitForDotNetCore();<br/> Çalışma kitabı wb = yeni Çalışma Kitabı();|
+| [init_for_dot_net_core()](/cells/tr/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) | .NetCore programı için başlatma işlemini yapın.<br/> Tüm .NetCore başlatma işlemleri için önce bu yöntemi çağırmanızı öneririz.<br/>Örneğin:<br/>CellsHelper.InitForDotNetCore();<br/> Çalışma kitabı wb = yeni Çalışma Kitabı();|
 
 
 

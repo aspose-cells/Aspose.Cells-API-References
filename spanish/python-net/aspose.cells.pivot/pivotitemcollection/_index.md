@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotItemCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,7 +31,7 @@ Obtiene el objeto PivotItem en el índice específico.
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [changeitems_order(source_index, dest_index)](/cells/es/python-net/aspose.cells.pivot/pivotitemcollection/changeitems_order/#int-int) | Cambia directamente el orden de los dos artículos.|
+| [changeitems_order(source_index, dest_index)](/cells/es/python-net/aspose.cells.pivot/pivotitemcollection/changeitems_order/#int-int) | Cambia directamente el orden de los dos elementos.|
 
 
 

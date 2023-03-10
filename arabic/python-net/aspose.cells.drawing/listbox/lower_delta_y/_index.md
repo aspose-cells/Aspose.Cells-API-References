@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_delta_y الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,9 +13,9 @@ is_root: false
 
 ###  ملاحظات
 
-نطاق القيم من 0 إلى 256.
+نطاق القيمة من 0 إلى 256.
 
-###  أمثلة
+###  مثال
 
 ```python
 

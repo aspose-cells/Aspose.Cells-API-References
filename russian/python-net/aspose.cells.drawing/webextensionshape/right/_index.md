@@ -1,4 +1,4 @@
-﻿---
+---
 title: right недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет ширину горизонтального смещения фигуры от ее нижнего углового столбца right в единицах пикселей.
 
-###  Примеры
+###  Пример
 
 ```python
 

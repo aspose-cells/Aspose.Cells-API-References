@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_vertical Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_vertical Eigentum
 
-True, wenn eine Zeile in der Arbeitsmappendatei eine Zeile in DataTable darstellt.
+True, wenn eine Zeile in der Arbeitsmappendatei eine Zeile in DataTable darstellt. False, wenn eine Spalte in der Arbeitsmappendatei eine Zeile in DataTable darstellt.
 ###  Definition:
 ```python
 @property

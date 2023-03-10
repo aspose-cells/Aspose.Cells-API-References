@@ -1,4 +1,4 @@
-﻿---
+---
 title: group yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,14 +22,14 @@ def group(self, group_items):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | group_items | list | grup öğeleri.|
 ###  Notlar
 
 groupItems içindeki şekil gruplandırılmamalıdır.
 Şekil, bu Şekiller koleksiyonunda olmalıdır.
-###  örnekler
+###  Örnek
 
 ```python
 

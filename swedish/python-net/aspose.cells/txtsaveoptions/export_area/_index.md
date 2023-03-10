@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_area fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Omfånget av celler som ska exporteras.
 ###  Anmärkningar
 
 Om det exporterade området har angetts, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/sv/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-får ingen effekt.
+kommer inte att få effekt.
 ###  Definition:
 ```python
 @property

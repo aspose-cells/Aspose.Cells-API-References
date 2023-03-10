@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_size mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size mülk
 
-Çizim alanının otomatik olarak boyutlandırılıp boyutlandırılmayacağını gösterir.
+Çizim alanının otomatik boyutlandırılıp boyutlandırılmadığını gösterir.
 ###  Tanım:
 ```python
 @property

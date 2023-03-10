@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة import_object_array
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,10 +18,10 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | obj_array | list | مجموعة البيانات.|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 | is_vertical | bool | يُحدد لاستيراد البيانات عموديًا أو أفقيًا.|
 
@@ -37,10 +37,10 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical, s
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | obj_array | list | مجموعة البيانات.|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 | is_vertical | bool | يُحدد لاستيراد البيانات عموديًا أو أفقيًا.|
 | skip | int | تم تخطي عدد الصفوف أو الأعمدة.|

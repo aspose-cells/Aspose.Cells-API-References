@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveXControl klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,8 +24,8 @@ Typen ActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/width) |Hämtar och ställer in kontrollens bredd i poängenhet.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
 | [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|

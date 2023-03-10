@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_picture
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_first | bool | يشير إلى ما إذا كان يتم تعيين صورة رأس / تذييل الصفحة الأولى.|
 | is_even | bool | يشير إلى ما إذا كان يتم تعيين صورة رأس / تذييل الصفحة الزوجية.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: fore_ole_color proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene e imposta il colore ole del primo piano.
 
 ###  Osservazioni
 
-Non si applica al controllo dell'immagine.
+Non si applica al controllo Immagine.
 ###  Definizione:
 ```python
 @property

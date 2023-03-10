@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_series_names yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,11 +18,11 @@ def set_series_names(self, start_index, area, is_vertical):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_index | int | Adını ayarlamak istediğiniz ilk dizinin dizini.|
 | area | str | Seri adı için alanı belirtir.|
-| is_vertical | bool | >Bir dizi hücre değeri aralığından serinin satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
+| is_vertical | bool | >Bir dizi hücre değeri aralığından serinin satıra mı yoksa sütuna mı göre çizileceğini belirtir.|
 ###  Notlar
 
 

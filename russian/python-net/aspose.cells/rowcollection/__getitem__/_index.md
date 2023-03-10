@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection индексатор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  RowCollection индексатор
 
-Получает объект [Row](/cells/ru/python-net/aspose.cells/row) по заданному индексу строки.
+Получает объект [Row](/cells/ru/python-net/aspose.cells/row) по заданному индексу строки. Объект Row с заданным индексом строки будет создан, если он не существовал ранее.
 ###  Индексатор
 | Имя| Описание|
 | :- | :- |

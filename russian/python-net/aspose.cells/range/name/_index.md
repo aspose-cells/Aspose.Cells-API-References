@@ -1,4 +1,4 @@
-﻿---
+---
 title: name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Поддерживается именованный диапазон.
+Поддерживается именованный диапазон. Например,
 
 range.Name = "Лист1!МойДиапазон";
 ###  Определение:

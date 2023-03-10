@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_cell_area方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-条件格式的单元格区域
+条件格式的单元格范围
 
 
 ```python
@@ -22,9 +22,9 @@ def get_cell_area(self, index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| index | int |条件格式单元格范围的索引。|
+| index | int |条件格式化单元格范围的索引。|
 
 
 

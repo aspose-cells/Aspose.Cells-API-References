@@ -1,4 +1,4 @@
-﻿---
+---
 title: result_range الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range الملكية
 
-يحصل على نطاق النتائج.
+يحصل على مدى النتيجة.
 ###  تعريف:
 ```python
 @property

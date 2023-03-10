@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_key方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def add_key(self, key, order):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | key | int |排序后的列索引（绝对位置，A列为0，B列为1，...）|
 | order | [SortOrder](/cells/zh/python-net/aspose.cells/sortorder) |排序顺序|
@@ -35,7 +35,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | key | int |排序后的列索引（绝对位置，A列为0，B列为1，...）|
 | order | [SortOrder](/cells/zh/python-net/aspose.cells/sortorder) |排序顺序。|
@@ -53,7 +53,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | key | int |排序后的列索引（绝对位置，A列为0，B列为1，...）|
 | order | [SortOrder](/cells/zh/python-net/aspose.cells/sortorder) |排序顺序。|
@@ -71,7 +71,7 @@ def add_key(self, key, type, order, custom_list):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | key | int |排序后的列索引（绝对位置，A列为0，B列为1，...）|
 | type | [SortOnType](/cells/zh/python-net/aspose.cells/sortontype) |已排序的值类型。|

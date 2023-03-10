@@ -1,4 +1,4 @@
-﻿---
+---
 title: spid mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bir uygulamanın belirli şekli Tanımlamak için kullanabileceği isteğe bağlı bir dize belirtir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

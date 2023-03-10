@@ -1,6 +1,6 @@
-﻿---
+---
 title: clear_sparkline_groups方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -18,9 +18,9 @@ def clear_sparkline_groups(self, cell_area):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |指定单元格的面积|
+| cell_area | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |指定单元格的区域|
 
 
 

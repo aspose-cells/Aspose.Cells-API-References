@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_invisible_shapes proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indicare se esportare quelle forme non visibili
 
 ###  Osservazioni
 
-I valori predefiniti sono false.
+Il valore predefinito è false.
 ###  Definizione:
 ```python
 @property

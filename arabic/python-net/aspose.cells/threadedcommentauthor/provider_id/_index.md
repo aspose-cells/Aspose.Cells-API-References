@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id الملكية
 
-يحصل على هوية المزود.
+يحصل على معرف المزود.
 ###  تعريف:
 ```python
 @property

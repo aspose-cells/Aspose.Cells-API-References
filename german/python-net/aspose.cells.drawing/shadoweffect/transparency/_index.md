@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparency Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency Eigentum
 
-Ruft den Schattengrad von transparency ab und legt ihn fest. Bereich von 0,0 (undurchsichtig) bis 1,0 (klar).
+Ruft den Grad transparency des Schattens ab und legt ihn fest. Bereich von 0,0 (undurchsichtig) bis 1,0 (durchsichtig).
 ###  Definition:
 ```python
 @property

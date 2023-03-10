@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_crop الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_crop الملكية
 
-يمثل موقع يمين مستطيل الاقتصاص ، معبرًا عنه كنسبة من عرض الصورة.
+يمثل موقع يمين مستطيل الاقتصاص معبرًا عنه كنسبة من عرض الصورة.
 ###  تعريف:
 ```python
 @property

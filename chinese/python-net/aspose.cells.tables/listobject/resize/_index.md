@@ -1,6 +1,6 @@
-﻿---
+---
 title: resize方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -18,7 +18,7 @@ def resize(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | start_row | int |新范围的起始行索引。|
 | start_column | int |新范围的起始列索引。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: font mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin font'ini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.pydrawing import Color

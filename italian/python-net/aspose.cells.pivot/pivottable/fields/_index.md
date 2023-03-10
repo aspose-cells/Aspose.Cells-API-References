@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo fields
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def fields(self, field_type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/it/python-net/aspose.cells.pivot/pivotfieldtype) | il tipo di campo|
 

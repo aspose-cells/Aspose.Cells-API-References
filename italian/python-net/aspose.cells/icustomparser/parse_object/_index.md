@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo parse_object
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Analizza la stringa data in base al valore corretto dell'oggetto.
 
 ###  ritorna
 
-Oggetto valore analizzato dalla stringa data.
+Oggetto valore analizzato dalla stringa data. Se la stringa data non può essere analizzata nell'oggetto valore corretto, restituisce null.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | value | str | Il valore della stringa da analizzare|
 

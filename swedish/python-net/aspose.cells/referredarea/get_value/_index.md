@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_value metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,7 +24,7 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_offset | int | radförskjutning från startraden i detta område|
 | col_offset | int |kolumnförskjutning från startraden i detta område|
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_offset | int | radförskjutning från startraden i detta område|
 | col_offset | int |kolumnförskjutning från startraden i detta område|
-| calculate_formulas | bool | Om den beräknar det rekursivt om den angivna referensen är formel|
+| calculate_formulas | bool | Beräkna det rekursivt om den angivna referensen är formel|
 
 
 

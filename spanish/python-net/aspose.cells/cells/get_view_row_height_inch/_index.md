@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_view_row_height_inch método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_view_row_height_inch(self, row):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila|
 

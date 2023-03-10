@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeGuide الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [value](/cells/ar/python-net/aspose.cells.drawing/shapeguide/value) | الحصول على أو تعيين قيم هذا الدليل|
+| [value](/cells/ar/python-net/aspose.cells.drawing/shapeguide/value) | الحصول على قيمة هذا الدليل أو تعيينها|
 
 
 

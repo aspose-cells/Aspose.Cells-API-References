@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagPropertyCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.markup/smarttagpropertycollection/
 is_root: false
 ---
 ##  SmartTagPropertyCollection Klasse
-Stellt alle Eigenschaften von Zellen-Smarttags dar.
+Stellt alle Eigenschaften des Zellen-Smarttags dar.
 
 
 

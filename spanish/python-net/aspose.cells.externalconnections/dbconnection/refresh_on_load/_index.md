@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_on_load propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  refresh_on_load propiedad
 
-True si esta conexión debe actualizarse al abrir el archivo;
+True si esta conexión debe actualizarse al abrir el archivo; en caso contrario, falso.
 ###  Definición:
 ```python
 @property

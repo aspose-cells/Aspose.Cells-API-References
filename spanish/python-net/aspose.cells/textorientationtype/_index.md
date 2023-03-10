@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOrientationType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -20,7 +20,7 @@ El tipo TextOrientationType expone los siguientes miembros:
 | CLOCK_WISE | Gira el texto 90 grados en el sentido de las agujas del reloj.|
 | COUNTER_CLOCK_WISE | Gira el texto 90 grados en sentido contrario a las agujas del reloj.|
 | NO_ROTATION | Representa el valor predeterminado.|
-| TOP_TO_BOTTOM | Muestra el texto de arriba a abajo de la celda.|
+| TOP_TO_BOTTOM | Muestra el texto de arriba a abajo de la celda. Texto apilado.|
 
 
 

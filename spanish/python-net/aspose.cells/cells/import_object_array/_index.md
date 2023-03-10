@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_object_array método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | obj_array | list | matriz de datos.|
 | first_row | int | El número de fila de la primera celda a importar.|
@@ -37,7 +37,7 @@ def import_object_array(self, obj_array, first_row, first_column, is_vertical, s
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | obj_array | list | matriz de datos.|
 | first_row | int | El número de fila de la primera celda a importar.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_rich_text Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ob der Text Rich-Text ist oder nicht.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

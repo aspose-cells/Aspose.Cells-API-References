@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_never_overlap propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_never_overlap propiedad
 
-Indica si las etiquetas de datos nunca se superponen (para gráfico circular).
+Indica si las etiquetas de datos nunca se superponen. (Para gráfico circular)
 ###  Definición:
 ```python
 @property

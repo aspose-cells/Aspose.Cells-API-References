@@ -1,4 +1,4 @@
-﻿---
+---
 title: apply_style método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,14 +18,14 @@ def apply_style(self, style, flag):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El objeto de estilo que se aplicará.|
-| flag | [StyleFlag](/cells/es/python-net/aspose.cells/styleflag) |Marcas que indican las propiedades de formato aplicadas.|
+| flag | [StyleFlag](/cells/es/python-net/aspose.cells/styleflag) |Banderas que indican las propiedades de formato aplicadas.|
 ###  Observaciones
 
 Cada celda en este rango contendrá un objeto [Style](/cells/es/python-net/aspose.cells/style).
-Así que este es un método que consume memoria.
+Así que este es un método que consume memoria. Úselo con cuidado.
 
 
 ###  Ver también

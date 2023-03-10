@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_font_substitution_char_granularity الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  is_font_substitution_char_granularity الملكية
 
-الإشارة إلى ما إذا كان سيتم استبدال خط الحرف فقط عندما يكون خط الخلية غير متوافق معه.
+الإشارة إلى ما إذا كان سيتم استبدال خط الحرف فقط عندما لا يكون خط الخلية متوافقًا معه.
 
 ###  ملاحظات
 
-الافتراضي غير صحيح. سنحاول استخدام الخط الافتراضي لـ Workbook و PdfSaveOption / system لخط الخلية أولاً.
+الافتراضي هو خطأ. سنحاول الخط الافتراضي لـ Workbook و PdfSaveOption / system لخط الخلية أولاً.
 ###  تعريف:
 ```python
 @property

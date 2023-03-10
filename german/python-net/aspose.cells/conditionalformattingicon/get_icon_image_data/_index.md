@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_icon_image_data Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

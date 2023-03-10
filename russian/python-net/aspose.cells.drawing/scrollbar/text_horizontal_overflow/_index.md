@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_overflow недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает тип горизонтального переполнения текста для фигуры, содержащей текст.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing import TextOverflowType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_height_cm الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_height_cm الملكية
 
-الحصول على الارتفاع الأصلي للصورة بوحدات السنتيمتر.
+الحصول على الارتفاع الأصلي للصورة بوحدة السنتيمتر.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CategoryType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ El tipo CategoryType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | AUTOMATIC_SCALE | Escala automática|
-| CATEGORY_SCALE | Escala de categoría|
+| CATEGORY_SCALE | CategoríaEscala|
 | TIME_SCALE | Escala de tiempo|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_icon_filter
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_icon_filter(self, field_index, icon_set_type, icon_id):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | إزاحة العدد الصحيح للحقل الذي تريد أن يؤسس عامل التصفية عليه<br/> (من يسار القائمة ؛ الحقل الموجود في أقصى اليسار هو الحقل 0).|
 | icon_set_type | [IconSetType](/cells/ar/python-net/aspose.cells/iconsettype) | نوع مجموعة الأيقونات.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_group_detail metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def hide_group_detail(self, is_vertical, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | is_vertical | bool | Det är sant, komprimera de grupperade raderna.|
 | index | int | Rad-/kolumnindex|

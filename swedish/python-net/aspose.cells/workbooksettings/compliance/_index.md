@@ -1,4 +1,4 @@
-﻿---
+---
 title: compliance fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compliance fastighet
 
-Anger OOXML-versionen för utdatadokumentet.
+Anger OOXML-versionen för utdatadokumentet. Standardvärdet är Ecma376_2006.
 
 ###  Anmärkningar
 

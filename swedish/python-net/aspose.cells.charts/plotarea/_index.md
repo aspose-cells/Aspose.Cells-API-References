@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotArea klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -28,10 +28,10 @@ Typen PlotArea avslöjar följande medlemmar:
 | [text_font](/cells/sv/python-net/aspose.cells.charts/plotarea/text_font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
 | [text_options](/cells/sv/python-net/aspose.cells.charts/plotarea/text_options) | Hämtar och ställer in alternativen för texten.|
 | [font](/cells/sv/python-net/aspose.cells.charts/plotarea/font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
-| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.|
+| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True.|
 | [background_mode](/cells/sv/python-net/aspose.cells.charts/plotarea/background_mode) | Hämtar och ställer in visningsläget för bakgrunden|
 | [background](/cells/sv/python-net/aspose.cells.charts/plotarea/background) | Hämtar och ställer in visningsläget för bakgrunden|
-| [is_automatic_size](/cells/sv/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indikerar om tomtområdet automatiskt dimensioneras.|
+| [is_automatic_size](/cells/sv/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indikerar om tomtområdet är automatiskt dimensionerat.|
 | [x](/cells/sv/python-net/aspose.cells.charts/plotarea/x) | Hämtar eller hämtar x-koordinaten för det övre vänstra hörnet av avgränsningsrutan för plot-area i enheter på 1/4000 av kartytan.|
 | [y](/cells/sv/python-net/aspose.cells.charts/plotarea/y) | Hämtar eller hämtar y-koordinaten för det övre övre hörnet av gränsrutan för plot-area i enheter på 1/4000 av sjökortsytan.|
 | [height](/cells/sv/python-net/aspose.cells.charts/plotarea/height) |Hämtar eller ställer in höjden på plot-area begränsningsrutan i enheter på 1/4000 av diagramområdet.|

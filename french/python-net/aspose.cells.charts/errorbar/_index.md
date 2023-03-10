@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBar classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -40,7 +40,7 @@ Le type ErrorBar expose les membres suivants :
 | [weight_pt](/cells/fr/python-net/aspose.cells.charts/errorbar/weight_pt) | Obtient ou définit l'épaisseur de la ligne en unités de points.|
 | [weight_px](/cells/fr/python-net/aspose.cells.charts/errorbar/weight_px) | Obtient ou définit l'épaisseur de la ligne en pixels.|
 | [formatting_type](/cells/fr/python-net/aspose.cells.charts/errorbar/formatting_type) | Obtient ou définit le type de format.|
-| [is_automatic_color](/cells/fr/python-net/aspose.cells.charts/errorbar/is_automatic_color) | Indique si la couleur de la ligne est automatiquement attribuée.|
+| [is_automatic_color](/cells/fr/python-net/aspose.cells.charts/errorbar/is_automatic_color) | Indique si la couleur de la ligne est attribuée automatiquement.|
 | [is_visible](/cells/fr/python-net/aspose.cells.charts/errorbar/is_visible) | Indique si la ligne est visible.|
 | [is_auto](/cells/fr/python-net/aspose.cells.charts/errorbar/is_auto) | Indique si ce style de ligne est attribué automatiquement.|
 | [gradient_fill](/cells/fr/python-net/aspose.cells.charts/errorbar/gradient_fill) | Représente le remplissage dégradé.|
@@ -53,7 +53,7 @@ Le type ErrorBar expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

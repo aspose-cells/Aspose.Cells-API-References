@@ -1,4 +1,4 @@
-﻿---
+---
 title: spid الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 تحدد سلسلة اختيارية يمكن لتطبيق ما استخدامها لتعريف الشكل المعين.
 
-###  أمثلة
+###  مثال
 
 ```python
 

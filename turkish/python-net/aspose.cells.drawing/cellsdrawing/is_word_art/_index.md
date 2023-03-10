@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_art mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Bu şeklin bir kelime sanatı olup olmadığını gösterir.
 
 Yalnızca xls dosyasının Eski Şekli için.
 
-###  örnekler
+###  Örnek
 
 ```python
 

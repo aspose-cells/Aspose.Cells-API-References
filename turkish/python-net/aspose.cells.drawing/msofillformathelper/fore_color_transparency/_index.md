@@ -1,4 +1,4 @@
-﻿---
+---
 title: fore_color_transparency mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: inner_x propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,13 +17,13 @@ La boîte englobante de la zone de tracé comprend la zone de tracé, les gradua
  Si la valeur n'est pas créée par MS Excel, veuillez appeler la méthode Chart.Calculate() avant d'appeler cette méthode.
 
 
- Le**X** , **Y** , **Largeur** et**Hauteur** de**Superficie du terrain** représente la surface de la parcelle
- Une zone de délimitation qui inclut la zone de tracé, des graduations (étiquettes de graduation) et une petite bordure autour des graduations.
- Si vous voulez obtenir la taille réelle de la zone de tracé, vous devez appeler**X intérieur** , **Y intérieur** , **Largeur intérieure** et
-**Hauteur intérieure** propriétés.
+ Le**X** , **Y** , **Largeur** et**Hauteur** de**Zone de tracé** représente la surface de la parcelle
+ boîte englobante qui comprend la zone de tracé, les graduations (étiquettes de graduation) et une petite bordure autour des graduations.
+ Si vous voulez obtenir la taille réelle de la zone de tracé, vous devez appeler**IntérieurX** , **IntérieurY** , **Largeurintérieure** et
+**Hauteurintérieure** propriétés.
 
 
-Pour Excel 2007 ou ultérieur, la valeur par défaut est zéro.
+Pour Excel 2007 ou ultérieur, la valeur par défaut est zéro. vous devez appeler obtenir la valeur après avoir appelé Chart.Calculate().
 ###  Définition:
 ```python
 @property

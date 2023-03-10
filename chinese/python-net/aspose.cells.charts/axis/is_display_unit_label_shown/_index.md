@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_display_unit_label_shown 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220

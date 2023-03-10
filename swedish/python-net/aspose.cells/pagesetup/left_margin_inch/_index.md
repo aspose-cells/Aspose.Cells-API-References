@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_inch fastighet
 
-Representerar storleken på den vänstra marginalen, i enheter av tum.
+Representerar storleken på den vänstra marginalen, i enhet av tum.
 ###  Definition:
 ```python
 @property

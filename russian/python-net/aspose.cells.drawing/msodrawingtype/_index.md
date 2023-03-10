@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,15 +21,15 @@ is_root: false
 | LINE | Линия|
 | RECTANGLE | Прямоугольник|
 | OVAL | Овал|
-| ARC | дуга|
-| CHART | диаграмма|
+| ARC | Дуга|
+| CHART | Диаграмма|
 | TEXT_BOX | Текстовое окно|
-| BUTTON | кнопка|
-| PICTURE | Картинки|
+| BUTTON | Кнопка|
+| PICTURE | Картина|
 | POLYGON | Полигон|
-| CHECK_BOX | флажок|
-| RADIO_BUTTON | Радио-кнопки|
-| LABEL | этикетка|
+| CHECK_BOX | Флажок|
+| RADIO_BUTTON | Переключатель|
+| LABEL | Этикетка|
 | DIALOG_BOX | Диалоговое окно|
 | SPINNER | Спиннер|
 | SCROLL_BAR | Полоса прокрутки|
@@ -38,13 +38,13 @@ is_root: false
 | COMBO_BOX | Поле со списком|
 | COMMENT | Комментарий|
 | OLE_OBJECT | ОлеОбъект|
-| CELLS_DRAWING | Только для сохранения объектов чертежа в файле шаблона.|
+| CELLS_DRAWING | Только для сохранения объекта чертежа в файле шаблона.|
 | UNKNOWN | Только для сохранения объекта чертежа в файле xlsx.|
-| SLICER | слайсер|
+| SLICER | Слайсер|
 | WEB_EXTENSION | Веб-расширение|
 | SMART_ART | Смарт-арт|
-| CUSTOM_XML | Пользовательские формы xml, такие как Ink.|
-| TIMELINE | Лента новостей|
+| CUSTOM_XML | Пользовательская форма xml, например Ink.|
+| TIMELINE | График|
 | MODEL_3D | 3D модель|
 
 

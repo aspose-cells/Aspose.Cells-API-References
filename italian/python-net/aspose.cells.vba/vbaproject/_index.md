@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe VbaProject
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -37,7 +37,7 @@ Il tipo VbaProject espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

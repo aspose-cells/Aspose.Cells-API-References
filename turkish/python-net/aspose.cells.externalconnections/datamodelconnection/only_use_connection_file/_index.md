@@ -1,4 +1,4 @@
-﻿---
+---
 title: only_use_connection_file mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
  Elektronik tablo uygulamasının her zaman ve yalnızca
  odcFile özniteliği tarafından belirtilen harici bağlantı dosyasındaki bağlantı bilgileri
- bağlantı yenilendiğinde. Yanlışsa elektronik tablo uygulaması
+ bağlantı yenilendiğinde. Yanlışsa, elektronik tablo uygulaması
 reconnectionMethod özniteliği tarafından belirtilen prosedürü izlemelidir
 ###  Tanım:
 ```python

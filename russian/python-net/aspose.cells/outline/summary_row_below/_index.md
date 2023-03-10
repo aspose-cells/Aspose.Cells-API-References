@@ -1,4 +1,4 @@
-﻿---
+---
 title: summary_row_below недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

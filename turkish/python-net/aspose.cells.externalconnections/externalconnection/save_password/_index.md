@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_password mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password mülk
 
-Parola bağlantı dizesinin bir parçası olarak kaydedilecekse true, aksi takdirde False.
+Parola bağlantı dizesinin bir parçası olarak kaydedilecekse doğrudur; Aksi takdirde, Yanlış.
 ###  Tanım:
 ```python
 @property

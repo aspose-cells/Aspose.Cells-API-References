@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count الملكية
 
-الحصول على إجمالي عدد صفحات المصنفات.
+الحصول على إجمالي عدد صفحات المصنف.
 ###  تعريف:
 ```python
 @property

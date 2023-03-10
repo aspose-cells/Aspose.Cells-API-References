@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_row yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Row nesnesinin Satır Dizini|
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Biçimlendirilecek stil|

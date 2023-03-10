@@ -1,4 +1,4 @@
-﻿---
+---
 title: WeightType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ WeightType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | HAIR_LINE | Saç çizgisinin ağırlığını temsil eder.|
 | MEDIUM_LINE | Orta çizginin ağırlığını temsil eder.|
-| SINGLE_LINE | Tek bir satırın ağırlığını temsil eder.|
+| SINGLE_LINE | Tek satırın ağırlığını temsil eder.|
 | WIDE_LINE | Geniş çizginin ağırlığını temsil eder.|
 
 

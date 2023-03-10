@@ -1,4 +1,4 @@
-﻿---
+---
 title: DrawObject klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen DrawObject avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [cell](/cells/sv/python-net/aspose.cells.rendering/drawobject/cell) |Indikerar objektet Cell vid rendering.<br/> Alla egenskaper hos celler kan nås.|
+| [cell](/cells/sv/python-net/aspose.cells.rendering/drawobject/cell) |Indikerar objektet Cell vid rendering.<br/> Alla egenskaper för cellen kan nås.|
 | [shape](/cells/sv/python-net/aspose.cells.rendering/drawobject/shape) | Indikerar Shape-objektet vid rendering.<br/> Alla formegenskaper kan nås.|
 | [image_bytes](/cells/sv/python-net/aspose.cells.rendering/drawobject/image_bytes) | Indikerar bildbytes av renderat diagram, form vid rendering.|
 | [type](/cells/sv/python-net/aspose.cells.rendering/drawobject/type) | Indikerar typen av DrawObject.|

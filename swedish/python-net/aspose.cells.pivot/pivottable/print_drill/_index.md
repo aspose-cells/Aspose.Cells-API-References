@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_drill fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill fastighet
 
 Anger ett booleskt värde som anger om borrindikatorer ska skrivas ut.
-skriv ut expandera/komprimera knappar när de visas på pivottabellen.
+skriv ut expandera/komprimera knappar när de visas på vridbar.
 ###  Definition:
 ```python
 @property

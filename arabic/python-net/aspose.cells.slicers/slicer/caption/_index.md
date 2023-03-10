@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تعيين caption الخاص بمقسم طريقة العرض المحدد.
 
-###  أمثلة
+###  مثال
 
 ```python
 

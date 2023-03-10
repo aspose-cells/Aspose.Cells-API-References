@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة move
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def move(self, dest_cell_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | dest_cell_name | str | اسم خلية الوجهة.|
 
@@ -34,7 +34,7 @@ def move(self, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | column | int | فهرس العمود.|

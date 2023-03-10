@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_link
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | uri | str | L'URI dello spazio dei nomi dello smart tag.|
 | name | str | Il nome dello smart tag.|

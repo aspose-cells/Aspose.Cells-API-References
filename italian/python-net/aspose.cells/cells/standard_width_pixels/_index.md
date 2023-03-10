@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width_pixels proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

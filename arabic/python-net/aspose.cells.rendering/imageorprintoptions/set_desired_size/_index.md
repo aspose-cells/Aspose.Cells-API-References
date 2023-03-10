@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_desired_size
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_desired_size(self, desired_width, desired_height):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | desired_width | int | العرض المطلوب بالبكسل|
 | desired_height | int | الارتفاع المطلوب بالبكسل|

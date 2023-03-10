@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_lock_aspect_ratio mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Doğru, en boy oranında değişiklik yapılmasına izin verilmediği anlamına gelir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

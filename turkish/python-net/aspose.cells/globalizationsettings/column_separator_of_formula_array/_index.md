@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_separator_of_formula_array mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

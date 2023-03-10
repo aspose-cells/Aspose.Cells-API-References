@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_referred_areas метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,9 +22,9 @@ def get_referred_areas(self, recalculate):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| recalculate | bool | следует ли пересчитывать его, если это имя было вычислено до этого вызова.|
+| recalculate | bool | пересчитать ли его, если это имя было вычислено до этого вызова.|
 
 
 

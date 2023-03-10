@@ -1,4 +1,4 @@
-﻿---
+---
 title: max_iteration الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام FormulaSettings.MaxIteration.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من ذلك ، يرجى استخدام FormulaSettings.MaxIteration.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ فبراير 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 ###  تعريف:

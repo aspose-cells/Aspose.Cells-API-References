@@ -1,4 +1,4 @@
-﻿---
+---
 title: size_with_window الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

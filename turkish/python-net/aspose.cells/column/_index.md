@@ -1,4 +1,4 @@
-﻿---
+---
 title: Column sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ Column türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [index](/cells/tr/python-net/aspose.cells/column/index) | Bu sütunun indeksini alır.|
-| [width](/cells/tr/python-net/aspose.cells/column/width) | Karakter birimleri cinsinden sütun genişliğini alır ve ayarlar.|
+| [width](/cells/tr/python-net/aspose.cells/column/width) | Karakter birimi cinsinden sütun genişliğini alır ve ayarlar.|
 | [group_level](/cells/tr/python-net/aspose.cells/column/group_level) |Sütunun grup düzeyini alır.|
 | [is_hidden](/cells/tr/python-net/aspose.cells/column/is_hidden) | Sütunun gizli olup olmadığını gösterir.|
 | [has_custom_style](/cells/tr/python-net/aspose.cells/column/has_custom_style) | Bu sütunun özel stil ayarları olup olmadığını gösterir (çalışma kitabından devralınan varsayılandan farklı).|
@@ -35,7 +35,7 @@ Column türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

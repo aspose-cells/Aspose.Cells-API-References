@@ -1,4 +1,4 @@
-﻿---
+---
 title: gradient_variant propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ Ne s'applique qu'à Excel 2007.
 
 ###  Remarques
 
-Ne peut être qu'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variante ne peut être que 1 ou 2.
+Ne peut être qu'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variant ne peut être que 1 ou 2.
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TickMarkType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,9 +18,9 @@ Le type TickMarkType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | CROSS | Le type de coche est Croix.|
-| INSIDE | Le type de coche est à l'intérieur.|
+| INSIDE | Le type de coche est Intérieur.|
 | NONE |Le type de coche est Aucun.|
-| OUTSIDE | Le type de coche est extérieur|
+| OUTSIDE | Le type de coche est Extérieur|
 
 
 

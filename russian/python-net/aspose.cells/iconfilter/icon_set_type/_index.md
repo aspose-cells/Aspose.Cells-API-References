@@ -1,4 +1,4 @@
-﻿---
+---
 title: icon_set_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  icon_set_type недвижимость
 
-Получает и задает, какой набор значков используется в критериях фильтра.
+Получает и задает, какой набор значков используется в критериях фильтрации.
 ###  Определение:
 ```python
 @property

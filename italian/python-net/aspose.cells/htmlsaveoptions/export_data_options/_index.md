@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_data_options proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo ungroup_rows
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def ungroup_rows(self, first_index, last_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | first_index | int | L'indice della prima riga da separare.|
 | last_index | int | L'ultimo indice di riga da separare.|
@@ -38,7 +38,7 @@ def ungroup_rows(self, first_index, last_index, is_all):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | first_index | int | L'indice della prima riga da separare.|
 | last_index | int | L'ultimo indice di riga da separare.|

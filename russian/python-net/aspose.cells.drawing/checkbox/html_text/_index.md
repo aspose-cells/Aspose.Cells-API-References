@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_text недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает строку html, содержащую данные и некоторые форматы в этом текстовом поле.
 
-###  Примеры
+###  Пример
 
 ```python
 

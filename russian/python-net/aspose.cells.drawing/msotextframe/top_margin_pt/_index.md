@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_pt недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_pt недвижимость
 
-Возвращает верхнюю границу в пунктах.
+Возвращает верхнюю границу в баллах
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_macros fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Indikerar om makron behålls;
 
 ###  Anmärkningar
 
-Endast för kopiering av arbetsböcker.
+Endast för kopiering av arbetsbok.
 ###  Definition:
 ```python
 @property

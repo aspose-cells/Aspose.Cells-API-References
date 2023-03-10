@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie le name du cache du segment.
 
-###  Exemples
+###  Exemple
 
 ```python
 

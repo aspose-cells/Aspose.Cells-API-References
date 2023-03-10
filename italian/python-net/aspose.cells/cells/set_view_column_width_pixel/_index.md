@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_view_column_width_pixel
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/cells/set_view_column_width_pixel/
 is_root: false
 ---
 ##  set_view_column_width_pixel(column, pixels) {#int-int}
-Imposta la larghezza della colonna in diverse viste.
+Imposta la larghezza della colonna in una vista diversa.
 
 
 
@@ -18,7 +18,7 @@ def set_view_column_width_pixel(self, column, pixels):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | L'indice di colonna.|
 | pixels | int | La larghezza in unità di pixel.|

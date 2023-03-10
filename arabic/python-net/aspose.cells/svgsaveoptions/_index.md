@@ -1,4 +1,4 @@
-﻿---
+---
 title: SvgSaveOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,8 +24,8 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [SvgSaveOptions()](/cells/ar/python-net/aspose.cells/svgsaveoptions/__init__/#) | ينشئ خيارات لحفظ ملفات svg.|
-| [SvgSaveOptions(save_format)](/cells/ar/python-net/aspose.cells/svgsaveoptions/__init__/#SaveFormat) | ينشئ خيارات لحفظ ملفات svg.|
+| [SvgSaveOptions()](/cells/ar/python-net/aspose.cells/svgsaveoptions/__init__/#) | ينشئ خيارات حفظ ملف svg.|
+| [SvgSaveOptions(save_format)](/cells/ar/python-net/aspose.cells/svgsaveoptions/__init__/#SaveFormat) | ينشئ خيارات حفظ ملف svg.|
 
 
 ###  ملكيات
@@ -38,9 +38,9 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/svgsaveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/svgsaveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/svgsaveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/svgsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/svgsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
 | [refresh_chart_cache](/cells/ar/python-net/aspose.cells/svgsaveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/svgsaveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
+| [warning_callback](/cells/ar/python-net/aspose.cells/svgsaveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/svgsaveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
 | [image_or_print_options](/cells/ar/python-net/aspose.cells/svgsaveoptions/image_or_print_options) | خيارات إنشاء الصور الإضافية|
 | [stream_provider](/cells/ar/python-net/aspose.cells/svgsaveoptions/stream_provider) | الحصول على أو تعيين IStreamProvider لتصدير الكائنات.|

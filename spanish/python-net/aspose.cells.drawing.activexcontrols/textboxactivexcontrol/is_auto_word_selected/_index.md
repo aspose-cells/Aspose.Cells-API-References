@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_word_selected propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

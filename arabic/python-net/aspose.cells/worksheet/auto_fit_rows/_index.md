@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة auto_fit_rows
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,7 +31,7 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | only_auto | bool |صحيح ، يتم احتواء ارتفاع الصف تلقائيًا فقط عندما لا يتم تخصيص ارتفاع الصف.|
 
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/ar/python-net/aspose.cells/autofitteroptions) | خيارات التركيب التلقائي|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | end_row | int | فهرس صف النهاية.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | end_row | int | فهرس صف النهاية.|

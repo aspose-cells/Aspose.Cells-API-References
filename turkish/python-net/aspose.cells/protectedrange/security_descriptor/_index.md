@@ -1,4 +1,4 @@
-﻿---
+---
 title: security_descriptor mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

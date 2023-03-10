@@ -1,4 +1,4 @@
-﻿---
+---
 title: size propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size propiedad
 
- Obtiene y establece el size de la sombra Rango de 0 a 2.0.
+ Obtiene y establece el size de la sombra. Rango de 0 a 2.0.
 Sin sentido en la sombra interior.
 ###  Definición:
 ```python

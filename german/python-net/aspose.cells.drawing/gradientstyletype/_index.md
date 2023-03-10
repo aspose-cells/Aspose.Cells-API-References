@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientStyleType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ Der Typ GradientStyleType macht die folgenden Member verfügbar:
 | FROM_CORNER | Vom Eckschattierungsstil|
 | HORIZONTAL | Horizontaler Schattierungsstil|
 | VERTICAL | Vertikaler Schattierungsstil|
-| UNKNOWN |Unbekannter Schattierungsstil Nur für den Schattierungsstil (der für kein Mitglied des GradientStyleType gilt) in der Vorlagendatei.|
+| UNKNOWN |Unbekannter Schattierungsstil. Nur für den Schattierungsstil (der für kein Mitglied des GradientStyleType gilt) in der Vorlagendatei.|
 
 
 

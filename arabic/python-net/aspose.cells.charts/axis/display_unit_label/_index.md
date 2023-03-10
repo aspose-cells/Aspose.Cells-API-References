@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_unit_label الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

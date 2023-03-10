@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache_items mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items mülk
 
-Dilimleyici önbelleğindeki tüm öğelerin koleksiyonunu içeren bir SlicerCacheItem koleksiyonu döndürür.
+Dilimleyici önbelleğindeki tüm öğelerin koleksiyonunu içeren bir SlicerCacheItem koleksiyonu döndürür. Sadece oku
 
-###  örnekler
+###  Örnek
 
 ```python
 

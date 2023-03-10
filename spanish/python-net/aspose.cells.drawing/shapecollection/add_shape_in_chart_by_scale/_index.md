@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_shape_in_chart_by_scale método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_s
 is_root: false
 ---
 ##  add_shape_in_chart_by_scale(type, placement, left, top, right, bottom) {#MsoDrawingType-PlacementType-float-float-float-float}
-Agregue una forma al gráfico.Todas las unidades son una escala porcentual del área del gráfico.
+Agrega una forma al gráfico. Todas las unidades son una escala porcentual del área del gráfico.
 
 
 
@@ -18,7 +18,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom)
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/es/python-net/aspose.cells.drawing/msodrawingtype) | El tipo de dibujo.|
 | placement | [PlacementType](/cells/es/python-net/aspose.cells.drawing/placementtype) | el tipo de colocación.|
@@ -39,7 +39,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom,
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/es/python-net/aspose.cells.drawing/msodrawingtype) | El tipo de dibujo.|
 | placement | [PlacementType](/cells/es/python-net/aspose.cells.drawing/placementtype) | el tipo de colocación.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: color_index 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## color_index 属性
 
-获取和设置调色板中的颜色索引。
+获取和设置调色板中的颜色索引。仅适用于索引颜色。
 ### 定义：
 ```python
 @property

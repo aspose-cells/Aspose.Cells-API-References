@@ -1,4 +1,4 @@
-﻿---
+---
 title: process_row yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bir satırı işlemeye başlar.
 
 ###  İadeler
 
-bu satırdaki hücrelerin işlenmesi gerekip gerekmediği false bu satırdaki tüm hücreleri yoksaymak için.
+bu satırın hücrelerinin işlenmesi gerekip gerekmediği. false bu satırdaki tüm hücreleri yok saymak için.
 
 
 ```python
@@ -22,12 +22,12 @@ def process_row(self, row):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | [Row](/cells/tr/python-net/aspose.cells/row) | Şu anda işlenmekte olan satır nesnesi.|
 ###  Notlar
 
-Satırın yükseklik, stil vb. özelliklerinden sonra çağrılacaktır.
+Satırın yükseklik, stil vb. özelliklerinden sonra çağrılacaktır. okundu. Ancak bu satırdaki hücreler henüz okunmamıştır.
 
 
 ###  Ayrıca bakınız

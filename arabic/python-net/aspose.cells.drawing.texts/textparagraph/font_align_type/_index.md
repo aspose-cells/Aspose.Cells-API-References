@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_align_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type الملكية
 
-يحدد مكان وضع الكلمات الفعلية رأسيًا على سطر من النص.
+يحدد مكان وضع الكلمات الفعلية رأسيًا على سطر من النص. هذه الصفقات
 مع الوضع الرأسي للأحرف فيما يتعلق بالخطوط الأساسية.
 ###  تعريف:
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: chart_image_type propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,8 +14,8 @@ valor predeterminado: PNG.
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
-Los gráficos y las formas siempre se representan como elementos vectoriales (p. ej., puntos, líneas) para obtener calidad de representación.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
+Chart y Shape siempre se representan como elementos vectoriales (p. ej., punto, línea) para obtener calidad de representación.
  Esta propiedad se eliminará 12 meses después desde junio de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

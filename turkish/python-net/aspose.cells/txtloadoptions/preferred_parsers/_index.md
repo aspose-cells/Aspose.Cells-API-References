@@ -1,4 +1,4 @@
-﻿---
+---
 title: preferred_parsers mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers mülk
 
-Metin dosyalarını yüklemek için tercih edilen değer ayrıştırıcılarını alır ve ayarlar.
+Metin dosyasını yüklemek için tercih edilen değer ayrıştırıcılarını alır ve ayarlar.
 
 ###  Notlar
 

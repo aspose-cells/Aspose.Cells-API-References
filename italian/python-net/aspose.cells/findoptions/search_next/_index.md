@@ -1,4 +1,4 @@
-﻿---
+---
 title: search_next proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  search_next proprietà
 
-Ordine di ricerca True: ricerca successiva False: ricerca precedente
+Ordine di ricerca. Vero: cerca dopo. Falso: ricerca precedente.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
  utilizzare la proprietà FindOptions.SearchBackward.
  Questa proprietà verrà rimossa 12 mesi dopo da novembre 2018.
 Aspose si scusa per gli eventuali disagi causati.

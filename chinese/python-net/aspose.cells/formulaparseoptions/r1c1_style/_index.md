@@ -1,6 +1,6 @@
-﻿---
+---
 title: r1c1_style 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## r1c1_style 属性
 
-公式是否为R1C1引用样式，默认为false。
+公式是否为R1C1参考风格。默认为假。
 ### 定义：
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: security_options fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Ställ in detta alternativ när säkerhet behövs i xls2pdf-resultat.
 
 ###  Exempel
 
-Följande kod anger högupplöst utskriftsbehörighet för utdata-pdf.
+Följande kod anger utskriftstillstånd för hög upplösning för utdata-pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: password недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  password недвижимость
 
-Получает и задает password книги.
+Получает и устанавливает password книги.
 ###  Определение:
 ```python
 @property

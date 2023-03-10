@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة unhide_rows
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,11 +18,11 @@ def unhide_rows(self, row, total_rows, height):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | total_rows | int | رقم الصف.|
-| height | float | ارتفاع الصف: سيتم تغيير ارتفاع الصف فقط عندما يكون الصف مخفيًا وتكون قيمة ارتفاعه موجبة.|
+| height | float | ارتفاع الصف. سيتم تغيير ارتفاع الصف فقط عندما يكون الصف مخفيًا وتكون قيمة الارتفاع المعطاة موجبة.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlSaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/htmlsaveoptions/__init__/
 is_root: false
 ---
 ##  HtmlSaveOptions() {#}
-يخلق خيارات لحفظ ملفات html.
+ينشئ خيارات لحفظ ملف html.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlSaveOptions(format) {#SaveFormat}
-يخلق خيارات لحفظ ملفات htm.
+يخلق خيارات لحفظ ملف htm.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق ملف الحفظ.|
 

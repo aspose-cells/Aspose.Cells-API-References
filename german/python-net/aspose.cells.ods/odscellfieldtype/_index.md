@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellFieldType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType Aufzählung
-Repräsentiert den Zellenfeldtyp der Quoten.
+Repräsentiert den Zellenfeldtyp von ods.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_array_formula método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def remove_array_formula(self, leave_normal_formula):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | leave_normal_formula | bool | True representa la conversión de la fórmula matricial a una fórmula normal.|
 

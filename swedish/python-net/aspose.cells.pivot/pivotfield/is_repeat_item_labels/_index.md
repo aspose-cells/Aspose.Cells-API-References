@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_repeat_item_labels fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

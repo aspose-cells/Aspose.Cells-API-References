@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_line propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique s'il s'agit d'une ligne de signature.
 
-###  Exemples
+###  Exemple
 
 ```python
 

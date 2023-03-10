@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_dependents_in_calculation метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, recursive):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | recursive | bool | Возвращает ли те иждивенцы, которые не ссылаются на эту ячейку напрямую<br/> но ссылка на другие листы этой ячейки|
 ###  Примечания
@@ -30,7 +30,7 @@ def get_dependents_in_calculation(self, recursive):
 Чтобы использовать этот метод, убедитесь, что в рабочей книге задано истинное значение для
 [FormulaSettings.enable_calculation_chain](/cells/ru/python-net/aspose.cells/formulasettings#enable_calculation_chain) и был полностью рассчитан с этой настройкой.
 Если в этой ячейке нет ссылки на формулу, будет возвращено значение NULL.
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

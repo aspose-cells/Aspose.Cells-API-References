@@ -1,6 +1,6 @@
-﻿---
+---
 title: total_rows 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 170
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## total_rows 属性
 
--1 表示给定数据源的所有行。
+获取或设置要从数据源导入的总行数。 -1 表示给定数据源的所有行。
 ### 定义：
 ```python
 @property

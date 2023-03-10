@@ -1,4 +1,4 @@
-﻿---
+---
 title: signature_line Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Signaturzeile ab und legt sie fest
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

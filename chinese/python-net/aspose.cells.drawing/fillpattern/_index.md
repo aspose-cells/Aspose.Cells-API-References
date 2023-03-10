@@ -1,6 +1,6 @@
-﻿---
+---
 title: FillPattern枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 810
@@ -14,7 +14,7 @@ is_root: false
 
 FillPattern 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |代表没有背景。|
@@ -40,7 +40,7 @@ FillPattern 类型公开了以下成员：
 | LIGHT_VERTICAL |表示浅色垂直图案。|
 | LIGHT_HORIZONTAL |表示浅色水平图案。|
 | NARROW_VERTICAL |表示窄垂直图案。|
-| NARROW_HORIZONTAL |代表一个狭窄的水平模式。|
+| NARROW_HORIZONTAL |表示窄水平图案。|
 | DARK_VERTICAL |表示深色垂直图案。|
 | DARK_HORIZONTAL |表示深色水平图案。|
 | DASHED_DOWNWARD_DIAGONAL |表示虚线向下对角线图案。|
@@ -58,7 +58,7 @@ FillPattern 类型公开了以下成员：
 | DIVOT |表示草皮图案。|
 | DOTTED_GRID |表示点状网格图案。|
 | DOTTED_DIAMOND |表示点状菱形图案。|
-| SHINGLE |表示单一模式。|
+| SHINGLE |代表木瓦图案。|
 | TRELLIS |表示格子图案。|
 | SPHERE |表示球体图案。|
 | SMALL_GRID |代表小网格图案。|

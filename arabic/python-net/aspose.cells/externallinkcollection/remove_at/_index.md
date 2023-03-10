@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_at
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس الارتباط الخارجي المراد إزالته.|
 ###  ملاحظات
@@ -37,7 +37,7 @@ def remove_at(self, index, update_references_as_local):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس الارتباط الخارجي المراد إزالته.|
 | update_references_as_local | bool | ما إذا كان يتم تحديث كافة المراجع الخاصة بالارتباط الخارجي المعطى لمرجع المصنف الحالي نفسه.|
@@ -47,7 +47,7 @@ def remove_at(self, index, update_references_as_local):
 على سبيل المثال ، الرابط الخارجي المراد إزالته هو "externalsource.xlam" ويحدد وظيفة مخصصة واحدة "customfunction ()" ،
 الصيغة الأصلية لخلية واحدة هي "= 'externalsource.xlam'! customfunction ()" ،
 بعد إزالة الصيغة ستصبح "= customfunction ()".
-إذا لم تكن هناك حاجة إلى تحديث المراجع ، فكل الصيغ التي تشير إلى هذا الارتباط الخارجي
+إذا لم تكن هناك حاجة إلى تحديث المرجع ، فكل الصيغ التي تشير إلى هذا الارتباط الخارجي
 ستتم إزالتها أيضًا لأن هذه المراجع تصبح غير صالحة.
 
 

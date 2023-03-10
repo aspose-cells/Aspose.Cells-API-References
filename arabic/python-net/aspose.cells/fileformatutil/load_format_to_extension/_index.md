@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة load_format_to_extension
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,12 +22,12 @@ def load_format_to_extension(self, load_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/ar/python-net/aspose.cells/loadformat) | تنسيق الملف الذي تم تحميله.|
 ###  ملاحظات
 
-إذا كان لا يمكن تحويلها ، فإنها ترجع فارغة.
+إذا كان لا يمكن تحويله ، يتم إرجاعه فارغًا.
 
 
 ###  أنظر أيضا

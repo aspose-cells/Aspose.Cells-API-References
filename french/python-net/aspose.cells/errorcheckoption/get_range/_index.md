@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def get_range(self, index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | index | int | l'indice de gamme|
 

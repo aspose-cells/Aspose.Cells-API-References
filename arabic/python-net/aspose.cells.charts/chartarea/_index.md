@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartArea الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -28,7 +28,7 @@ is_root: false
 | [text_font](/cells/ar/python-net/aspose.cells.charts/chartarea/text_font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
 | [text_options](/cells/ar/python-net/aspose.cells.charts/chartarea/text_options) | الحصول على خيارات النص وتعيينها.|
 | [font](/cells/ar/python-net/aspose.cells.charts/chartarea/font) | يحصل على كائن [ChartArea.font](/cells/ar/python-net/aspose.cells.charts/chartarea#font) من كائن المخطط المحدد.|
-| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/chartarea/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.|
+| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/chartarea/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/chartarea/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [background](/cells/ar/python-net/aspose.cells.charts/chartarea/background) | الحصول على وضبط وضع عرض الخلفية|
 | [is_automatic_size](/cells/ar/python-net/aspose.cells.charts/chartarea/is_automatic_size) | يشير إلى ما إذا كان حجم إطار المخطط تلقائيًا أم لا.|
@@ -52,7 +52,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

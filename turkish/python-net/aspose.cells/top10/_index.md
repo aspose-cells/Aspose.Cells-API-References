@@ -1,4 +1,4 @@
-﻿---
+---
 title: Top10 sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  Top10 sınıfı
  Top10 koşullu biçimlendirme kuralını açıklayın.
 Bu koşullu biçimlendirme kuralı,
-değerler, belirtildiği gibi üst N veya alt N parantezine düşer.
+değerler, belirtildiği gibi üst N veya alt N köşeli parantez içinde yer alır.
 
 
 
@@ -31,7 +31,7 @@ Top10 türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ Der Standardwert ist falsch.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie stattdessen die Eigenschaft AutoFitterOptions.AutoFitMergedCellsType.
  Diese Property wird 12 Monate später seit Dezember 2018 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

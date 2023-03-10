@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo next_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene la riga successiva da salvare.
 
 ###  ritorna
 
--1 significa che è stata raggiunta la fine dei dati del foglio corrente e non è stata salvata alcuna riga ulteriore del foglio corrente.
+l'indice di riga successivo da salvare. -1 significa che è stata raggiunta la fine dei dati del foglio corrente e non è stata salvata alcuna riga ulteriore del foglio corrente.
 
 
 ```python

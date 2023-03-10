@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSetting الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [type](/cells/ar/python-net/aspose.cells/fontsetting/type) | يحصل على نوع العقدة النصية.|
-| [start_index](/cells/ar/python-net/aspose.cells/fontsetting/start_index) | يحصل على فهرس بداية الشخصيات.|
+| [start_index](/cells/ar/python-net/aspose.cells/fontsetting/start_index) | يحصل على فهرس البداية للأحرف.|
 | [length](/cells/ar/python-net/aspose.cells/fontsetting/length) |يحصل على طول الأحرف.|
 | [font](/cells/ar/python-net/aspose.cells/fontsetting/font) | إرجاع خط هذا الكائن.|
 | [text_options](/cells/ar/python-net/aspose.cells/fontsetting/text_options) | إرجاع خيارات النص.|
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

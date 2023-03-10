@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_insert_page_breaks_between_items 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 390

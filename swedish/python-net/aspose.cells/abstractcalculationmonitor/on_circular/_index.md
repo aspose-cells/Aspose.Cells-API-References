@@ -1,4 +1,4 @@
-﻿---
+---
 title: on_circular metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,7 +24,7 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | circular_cells_data | collections.abc.Iterator | IEnumerator med CalculationCell-objekt som representerar celler som<br/> beror på cirkulära referenser.|
 ###  Anmärkningar

@@ -1,4 +1,4 @@
-﻿---
+---
 title: bins fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bins fastighet
 
-Representerar bins på en diagramaxel (Histogram/Pareto)
+Representerar bins på en diagram(Histogram/Pareto) axel
 ###  Definition:
 ```python
 @property

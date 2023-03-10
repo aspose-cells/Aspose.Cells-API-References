@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObjectCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.tables/listobjectcollection/
 is_root: false
 ---
 ##  ListObjectCollection clase
-Representa una colección de [ListObject](/cells/es/python-net/aspose.cells.tables/listobject) objetos en la hoja de trabajo.
+Representa una colección de [ListObject](/cells/es/python-net/aspose.cells.tables/listobject) objetos en la hoja de cálculo.
 
 
 

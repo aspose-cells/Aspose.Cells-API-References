@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleted mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted mülk
 
-Bu veri etiketinin silinip silinmediğini gösterir.
+Bu veri etiketlerinin silinip silinmediğini gösterir.
 ###  Tanım:
 ```python
 @property

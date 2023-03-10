@@ -1,4 +1,4 @@
-﻿---
+---
 title: on_circular méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ Implémentez cette méthode pour faire des affaires lors du calcul de formules a
 ###  Retour
 
 Indique si le moteur de formule doit calculer ces cellules en circulaire après cet appel.
-True pour laisser le moteur de formule continuer à effectuer les calculs à leur place.
+True pour laisser le moteur de formule continuer à faire le calcul pour eux.
 False pour laisser le moteur de formule simplement marquer ces cellules comme calculées.
 
 
@@ -24,7 +24,7 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | circular_cells_data | collections.abc.Iterator | IEnumerator avec des éléments CalculationCell représentant des cellules qui<br/> dépendent de références circulaires.|
 ###  Remarques

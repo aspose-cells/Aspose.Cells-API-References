@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo has_axis
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,13 +18,13 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/it/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |
 ###  Osservazioni
 
-Normalmente, Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DonutExploded non sono assi.
+Normalmente, Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded non sono assi.
 
 
 ###  Guarda anche

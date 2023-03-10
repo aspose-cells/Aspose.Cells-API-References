@@ -1,4 +1,4 @@
-﻿---
+---
 title: compare_to metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Jämför två CellArea-objekt enligt deras övre vänstra hörn.
 
 ###  Returnerar
 
-Om två hörn är i olika rader, jämför sedan deras radindex.
+Om två hörn är i olika rader, jämför sedan deras radindex. Jämför annars deras kolumnindex.
 Om två hörn är lika, kommer 0 att returneras.
 
 
@@ -23,7 +23,7 @@ def compare_to(self, obj):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | obj | any |  |
 

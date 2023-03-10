@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo create_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def create_range(self, address):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | address | str | L'indirizzo dell'intervallo.|
 
@@ -42,7 +42,7 @@ def create_range(self, upper_left_cell, lower_right_cell):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_cell | str | Nome della cella in alto a sinistra.|
 | lower_right_cell | str | Nome della cella in basso a destra.|
@@ -63,11 +63,11 @@ def create_range(self, first_index, number, is_vertical):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | first_index | int | Indice della prima riga o indice della prima colonna, in base zero.|
 | number | int | Numero totale di righe o colonne, una basata.|
-| is_vertical | bool | True: intervallo creato da colonne di celle.|
+| is_vertical | bool | True: intervallo creato da colonne di celle. Falso: intervallo creato da righe di celle.|
 
 
 ##  create_range(first_row, first_column, total_rows, total_columns) {#int-int-int-int}
@@ -85,7 +85,7 @@ def create_range(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | first_row | int | Prima fila di questa gamma|
 | first_column | int | Prima colonna di questo intervallo|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TwoColorGradient класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
 ##  TwoColorGradient класс
-Представляет два цветовых градиента.
+Представляет собой двухцветный градиент.
 
 
 

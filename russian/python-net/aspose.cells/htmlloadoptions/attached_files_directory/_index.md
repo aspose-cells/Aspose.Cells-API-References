@@ -1,4 +1,4 @@
-﻿---
+---
 title: attached_files_directory недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Этот элемент устарел.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 используйте свойство HtmlLoadOptions.StreamProvider.
  Этот ресурс будет удален через 12 месяцев, начиная с декабря 2014 года.
 Aspose приносит извинения за возможные неудобства.

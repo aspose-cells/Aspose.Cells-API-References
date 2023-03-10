@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  filter_type fastighet
 
-Hämtar och ställer in typen för filtrering av data.
+Hämtar och ställer in typen för filtreringsdata.
 ###  Definition:
 ```python
 @property

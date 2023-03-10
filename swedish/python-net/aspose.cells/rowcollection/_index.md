@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -21,7 +21,7 @@ Typen RowCollection avslöjar följande medlemmar:
 
 
 
-Hämtar ett [Row](/cells/sv/python-net/aspose.cells/row)-objekt efter givet radindex.
+Hämtar ett [Row](/cells/sv/python-net/aspose.cells/row)-objekt efter givet radindex. Radobjektet för givet radindex kommer att instansieras om det inte finns tidigare.
 ###  Indexerare
 | namn| Beskrivning|
 | :- | :- |

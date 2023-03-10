@@ -1,4 +1,4 @@
-﻿---
+---
 title: only_visible_cells propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

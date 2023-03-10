@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge_empty_td_forcely Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  merge_empty_td_forcely Eigentum
 
  Gibt an, ob leere TD-Elemente beim Exportieren der Datei in HTML zwangsweise zusammengeführt werden.
- Die Größe der HTML-Datei wird erheblich reduziert, nachdem der Wert auf true gesetzt wurde.
+ Die Größe der HTML-Datei wird erheblich reduziert, nachdem der Wert auf true gesetzt wurde. Der Standardwert ist falsch.
  Wenn Sie die HTML-Datei in Excel importieren oder perfekte Gitterlinien exportieren möchten, wenn Sie die Datei in HTML speichern,
 Bitte behalten Sie den Standardwert bei.
 ###  Definition:

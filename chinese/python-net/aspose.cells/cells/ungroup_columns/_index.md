@@ -1,6 +1,6 @@
-﻿---
+---
 title: ungroup_columns方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 950
@@ -18,7 +18,7 @@ def ungroup_columns(self, first_index, last_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | first_index | int |要取消分组的第一个列索引。|
 | last_index | int |要取消分组的最后一个列索引。|

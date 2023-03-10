@@ -1,6 +1,6 @@
-﻿---
+---
 title: transparent 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 360
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-默认值为假。
+默认值为假。这意味着生成的图像的背景是白色的。
 ### 定义：
 ```python
 @property

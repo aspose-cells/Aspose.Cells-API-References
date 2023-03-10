@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_picture_in_chart yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Grafiğe bir resim ekler.
 
 ###  İadeler
 
-Bir resim nesnesi döndürür.
+Bir Picture nesnesi döndürür.
 
 
 ```python
@@ -22,7 +22,7 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | top | int |Grafik alanının 1/4000'lik birimlerinde sol üst köşeden şeklin dikey sapmasını temsil eder.|
 | left | int | Grafik alanının 1/4000 biriminde sol üst köşeden şeklin yatay sapmasını temsil eder.|

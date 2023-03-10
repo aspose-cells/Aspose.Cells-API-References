@@ -1,4 +1,4 @@
-﻿---
+---
 title: subtotal_hidden_page_items proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

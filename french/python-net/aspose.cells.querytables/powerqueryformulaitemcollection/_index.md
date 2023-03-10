@@ -1,4 +1,4 @@
-﻿---
+---
 title: PowerQueryFormulaItemCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/
 is_root: false
 ---
 ##  PowerQueryFormulaItemCollection classe
-Représente tous les éléments de la formule de requête avancée.
+Représente tous les éléments de la formule de requête de puissance.
 
 
 
@@ -17,7 +17,7 @@ Le type PowerQueryFormulaItemCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

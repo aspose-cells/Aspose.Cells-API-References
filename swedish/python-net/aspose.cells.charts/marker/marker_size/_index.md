@@ -1,4 +1,4 @@
-﻿---
+---
 title: marker_size fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size fastighet
 
-Representerar markörstorleken i punktenheter. Gäller linjediagram, punktdiagram eller radardiagram.
+Representerar markörstorleken i poängenhet. Gäller linjediagram, punktdiagram eller radardiagram.
 ###  Definition:
 ```python
 @property

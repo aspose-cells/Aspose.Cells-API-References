@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_deleting_range_enabled
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def is_deleting_range_enabled(self, start_row, start_column, total_rows, total_c
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية للنطاق.|
 | start_column | int |فهرس عمود البداية للنطاق.|

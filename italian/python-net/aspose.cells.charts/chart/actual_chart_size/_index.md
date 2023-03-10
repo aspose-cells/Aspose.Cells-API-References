@@ -1,4 +1,4 @@
-﻿---
+---
 title: actual_chart_size proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene la dimensione effettiva del grafico in unità di pixel.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
  si prega di utilizzare il metodo Chart.GetActualSize().
  Questa proprietà verrà rimossa 12 mesi dopo da luglio 2022.
 Aspose si scusa per gli eventuali disagi causati.

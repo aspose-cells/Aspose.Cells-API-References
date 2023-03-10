@@ -1,4 +1,4 @@
-﻿---
+---
 title: scale_y الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y الملكية
 
-الحصول على أو تحديد المقياس Y لتجانب الصور.
+الحصول على أو تحديد مقياس Y للصورة المتجانبة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_indented_formatting proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Fa rientrare gli elementi figlio.
 
 ###  Osservazioni
 
-Il valore predefinito è true.
+Il valore predefinito è vero.
 Se il valore è false, ridurrà la dimensione del file xml
 ###  Definizione:
 ```python

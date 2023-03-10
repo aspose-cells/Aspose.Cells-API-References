@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -38,13 +38,13 @@ Biçimlendirme koşulunu dizine göre alır.
 | [remove_area(index)](/cells/tr/python-net/aspose.cells/formatconditioncollection/remove_area/#int) | Koşullu biçimlendirilmiş hücre aralığını dizine göre kaldırır.|
 | [remove_area(start_row, start_column, total_rows, total_columns)](/cells/tr/python-net/aspose.cells/formatconditioncollection/remove_area/#int-int-int-int) | Aralıktaki koşullu biçimlendirmeyi kaldırın.|
 | [add(cell_area, type, operator_type, formula1, formula2)](/cells/tr/python-net/aspose.cells/formatconditioncollection/add/#CellArea-FormatConditionType-OperatorType-str-str) | FormatConditions'a bir biçimlendirme koşulu ve etkilenen hücre aralığı ekler<br/>FormatConditions en fazla üç koşullu biçim içerebilir.<br/> Koşullu biçimlendirme formüllerinde diğer sayfalara atıfta bulunulmasına izin verilmez.|
-| [add_area(cell_area)](/cells/tr/python-net/aspose.cells/formatconditioncollection/add_area/#CellArea) | Koşullu olarak biçimlendirilmiş bir hücre aralığı ekler.|
-| [get_cell_area(index)](/cells/tr/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | Koşullu olarak biçimlendirilmiş hücre aralığını dizine göre alır.|
+| [add_area(cell_area)](/cells/tr/python-net/aspose.cells/formatconditioncollection/add_area/#CellArea) | Koşullu biçimlendirilmiş bir hücre aralığı ekler.|
+| [get_cell_area(index)](/cells/tr/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | Koşullu biçimlendirilmiş hücre aralığını dizine göre alır.|
 | [remove_condition(index)](/cells/tr/python-net/aspose.cells/formatconditioncollection/remove_condition/#int) | Biçimlendirme koşulunu dizine göre kaldırır.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_custom
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,9 +18,9 @@ def set_custom(self, custom, builtin_preference):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| custom | str | سلسلة تنسيق الأرقام المخصصة ، يجب أن تكون نمط الثقافة الثابتة.|
+| custom | str | سلسلة تنسيق الأرقام المخصصة ، يجب أن تكون نمط InvariantCulture.|
 | builtin_preference | bool | إذا كانت سلسلة تنسيق الأرقام المخصصة تتطابق مع أحد تنسيقات الأرقام المضمنة<br/> المطابق للإعدادات الإقليمية الحالية ، سواء قمت بتعيين تنسيق الأرقام على أنه مضمن بدلاً من مخصص.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: soft_edge_radius недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

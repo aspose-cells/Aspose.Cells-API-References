@@ -1,4 +1,4 @@
-﻿---
+---
 title: indent_level mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level mülk
 
-Hücre veya aralık için girinti düzeyini temsil eder.
+Hücre veya aralık için girinti düzeyini temsil eder. Yalnızca 0 ile 250 arasında bir tam sayı olabilir.
 
 ###  Notlar
 

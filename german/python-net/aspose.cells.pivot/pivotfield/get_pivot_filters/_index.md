@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_pivot_filters Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

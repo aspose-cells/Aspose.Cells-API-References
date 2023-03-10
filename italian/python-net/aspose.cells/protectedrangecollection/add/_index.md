@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| name | str | Titolo dell'intervallo Viene utilizzato come descrittore, non come definizione di intervallo con nome.|
+| name | str | Titolo della gamma. Viene utilizzato come descrittore, non come definizione di intervallo denominato.|
 | start_row | int | Inizia l'indice di riga dell'intervallo.|
 | start_column | int | Inizia l'indice di colonna dell'intervallo.|
 | end_row | int | Indice di fine riga dell'intervallo.|

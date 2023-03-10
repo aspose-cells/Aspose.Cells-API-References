@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add
 is_root: false
 ---
 ##  add(name, value) {#str-str}
- ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية. سلسلة** نوع البيانات.
+ ينشئ خاصية جديدة مخصصة للمستند**PropertyType.String** نوع البيانات.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم العقار.|
 | value | str | قيمة العقار.|
@@ -43,14 +43,14 @@ def add(self, name, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم العقار.|
 | value | int | قيمة العقار.|
 
 
 ##  add(name, value) {#str-DateTime}
- ينشئ خاصية جديدة مخصصة للمستند**نوع الخاصية. التاريخ والوقت** نوع البيانات.
+ ينشئ خاصية جديدة مخصصة للمستند**PropertyType.DateTime** نوع البيانات.
 
 
 ###  عائدات
@@ -64,13 +64,34 @@ def add(self, name, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم العقار.|
 | value | DateTime | قيمة العقار.|
 
 
 ##  add(name, value) {#str-bool}
+ ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية. منطقي** نوع البيانات.
+
+
+###  عائدات
+
+كائن الخاصية الذي تم إنشاؤه حديثًا.
+
+
+```python
+def add(self, name, value):
+    ...
+```
+
+
+| معامل| يكتب| وصف|
+| :- | :- | :- |
+| name | str | اسم العقار.|
+| value | bool | قيمة العقار.|
+
+
+##  add(name, value) {#str-float}
  ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية** نوع البيانات.
 
 
@@ -85,28 +106,7 @@ def add(self, name, value):
 ```
 
 
-| حدود| يكتب| وصف|
-| :- | :- | :- |
-| name | str | اسم العقار.|
-| value | bool | قيمة العقار.|
-
-
-##  add(name, value) {#str-float}
- ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية. تعويم** نوع البيانات.
-
-
-###  عائدات
-
-كائن الخاصية الذي تم إنشاؤه حديثًا.
-
-
-```python
-def add(self, name, value):
-    ...
-```
-
-
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم العقار.|
 | value | float | قيمة العقار.|

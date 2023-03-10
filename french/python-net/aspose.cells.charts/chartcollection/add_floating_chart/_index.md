@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_floating_chart méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [ChartType](/cells/fr/python-net/aspose.cells.charts/charttype) | Type de graphique|
 | left | int | Le décalage x au coin|

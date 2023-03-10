@@ -1,4 +1,4 @@
-﻿---
+---
 title: value_axis الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

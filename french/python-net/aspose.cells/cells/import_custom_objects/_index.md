@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_custom_objects méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | list | list | L'objet personnalisé|
 | first_row | int | Le numéro de ligne de la première cellule à importer.|
@@ -48,7 +48,7 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | list | list | L'objet personnalisé|
 | property_names | list | Les noms de propriété. S'il est nul, nous importerons toutes les propriétés de l'objet.|

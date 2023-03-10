@@ -1,4 +1,4 @@
-﻿---
+---
 title: RectangleAlignmentType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -20,7 +20,7 @@ Il tipo RectangleAlignmentType espone i membri seguenti:
 | BOTTOM | Metter il fondo a|
 | BOTTOM_LEFT | In basso a sinistra|
 | BOTTOM_RIGHT | In basso a destra|
-| CENTER | centro|
+| CENTER | Centro|
 | LEFT | Sinistra|
 | RIGHT | Giusto|
 | TOP | Superiore|

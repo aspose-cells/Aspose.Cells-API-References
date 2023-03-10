@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridlineType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType enumerazione
-Enumera i tipi di linea della griglia.
+Enumera il tipo di linea della griglia.
 
 
 

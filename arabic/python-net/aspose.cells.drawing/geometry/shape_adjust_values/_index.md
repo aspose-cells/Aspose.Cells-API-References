@@ -1,4 +1,4 @@
-﻿---
+---
 title: shape_adjust_values الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

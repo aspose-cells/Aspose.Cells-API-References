@@ -1,6 +1,6 @@
-﻿---
+---
 title: TickMarkType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 650
@@ -14,13 +14,13 @@ is_root: false
 
 TickMarkType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CROSS |刻度线类型为十字。|
-| INSIDE |刻度标记类型为Inside。|
-| NONE |刻度标记类型为None。|
-| OUTSIDE |刻度线类型为Outside|
+| INSIDE |刻度线类型为内部。|
+| NONE |刻度线类型为无。|
+| OUTSIDE |刻度线类型为外部|
 
 
 

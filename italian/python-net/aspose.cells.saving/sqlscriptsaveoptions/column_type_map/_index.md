@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_type_map proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map proprietà
 
-Ottiene e imposta la mappa dei tipi di colonna per diversi database.
+Ottiene e imposta la mappa del tipo di colonna per database diversi.
 ###  Definizione:
 ```python
 @property

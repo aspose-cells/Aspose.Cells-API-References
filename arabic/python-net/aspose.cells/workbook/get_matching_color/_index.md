@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_matching_color
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | اللون الخام.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: recursive proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  recursive proprietà
 
-Indica se calcolare le celle dipendenti in modo ricorsivo quando si calcola una cella e dipende da altre celle.
+Indica se calcolare le celle dipendenti in modo ricorsivo durante il calcolo di una cella e dipende da altre celle.
 ###  Definizione:
 ```python
 @property

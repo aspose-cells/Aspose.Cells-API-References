@@ -1,4 +1,4 @@
-﻿---
+---
 title: threaded_comments Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Liste der Thread-Kommentare ab;
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

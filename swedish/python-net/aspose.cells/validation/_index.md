@@ -1,4 +1,4 @@
-﻿---
+---
 title: Validation klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -39,9 +39,9 @@ Typen Validation avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [get_formula1(is_r1c1, is_local)](/cells/sv/python-net/aspose.cells/validation/get_formula1/#bool-bool) | Hämtar värdet eller uttrycket som är kopplat till denna validering.|
-| [get_formula1(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för den specifika cellen.|
+| [get_formula1(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för specifik cell.|
 | [get_formula2(is_r1c1, is_local)](/cells/sv/python-net/aspose.cells/validation/get_formula2/#bool-bool) | Hämtar värdet eller uttrycket som är kopplat till denna validering.|
-| [get_formula2(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för den specifika cellen.|
+| [get_formula2(is_r1c1, is_local, row, column)](/cells/sv/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Hämtar värdet eller uttrycket som är associerat med denna validering för specifik cell.|
 | [add_area(cell_area)](/cells/sv/python-net/aspose.cells/validation/add_area/#CellArea) | Tillämpar valideringen på området.|
 | [add_area(cell_area, check_intersection, check_edge)](/cells/sv/python-net/aspose.cells/validation/add_area/#CellArea-bool-bool) | Tillämpar valideringen på området.|
 | [set_formula1(formula, is_r1c1, is_local)](/cells/sv/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Ställer in värdet eller uttrycket som är associerat med denna validering.|

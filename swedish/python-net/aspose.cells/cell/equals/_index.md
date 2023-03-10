@@ -1,4 +1,4 @@
-﻿---
+---
 title: equals metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def equals(self, cell):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | ett annat cellobjekt|
 

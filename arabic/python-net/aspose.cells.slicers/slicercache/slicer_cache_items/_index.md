@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache_items الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items الملكية
 
-تُرجع مجموعة SlicerCacheItem التي تحتوي على مجموعة كل العناصر الموجودة في ذاكرة التخزين المؤقت لمقسم طريقة العرض.
+تُرجع مجموعة SlicerCacheItem التي تحتوي على مجموعة كل العناصر الموجودة في ذاكرة التخزين المؤقت لمقسم طريقة العرض. يقرأ فقط
 
-###  أمثلة
+###  مثال
 
 ```python
 

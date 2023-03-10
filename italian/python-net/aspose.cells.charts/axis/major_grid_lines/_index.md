@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_grid_lines proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta le principali linee della griglia su un asse del grafico.
 
-###  Esempi
+###  Esempio
 
 ```python
 

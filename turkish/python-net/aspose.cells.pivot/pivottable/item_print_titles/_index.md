@@ -1,4 +1,4 @@
-﻿---
+---
 title: item_print_titles mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_index_to_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def column_index_to_name(self, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 

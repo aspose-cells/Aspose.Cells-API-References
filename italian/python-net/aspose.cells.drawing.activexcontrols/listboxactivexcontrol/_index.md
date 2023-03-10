@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ListBoxActiveXControl
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -43,7 +43,7 @@ Il tipo ListBoxActiveXControl espone i membri seguenti:
 | [ime_mode](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/ime_mode) |Ottiene e imposta la modalità di runtime predefinita dell'Input Method Editor per il controllo quando riceve lo stato attivo.|
 | [font](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/font) | Rappresenta il tipo di carattere del controllo.|
 | [text_align](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_align) | Rappresenta come allineare il testo utilizzato dal controllo.|
-| [scroll_bars](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |Indica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna.|
+| [scroll_bars](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |Indica specifica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna delle due.|
 | [list_width](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_width) | Ottiene e imposta la larghezza in unità di punti.|
 | [bound_column](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/bound_column) | Rappresenta il modo in cui viene determinata la proprietà Value per un oggetto ComboBox o ListBox<br/>quando il valore delle proprietà MultiSelect (fmMultiSelectSingle).|
 | [text_column](/cells/it/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_column) | Rappresenta la colonna in un ComboBox o ListBox da visualizzare all'utente.|

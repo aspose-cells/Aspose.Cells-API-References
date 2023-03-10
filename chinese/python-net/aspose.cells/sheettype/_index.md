@@ -1,6 +1,6 @@
-﻿---
+---
 title: SheetType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2460
@@ -14,7 +14,7 @@ is_root: false
 
 SheetType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | VB | Visual Basic 模块|

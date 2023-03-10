@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_custom_calculated_formula metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get_custom_calculated_formula(self, is_r1c1, is_local):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | is_r1c1 | bool | Om formeln behöver formateras som R1C1.|
 | is_local | bool | Huruvida formeln behöver formateras efter språk.|

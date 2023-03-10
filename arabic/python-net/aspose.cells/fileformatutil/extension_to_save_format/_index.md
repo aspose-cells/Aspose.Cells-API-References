@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة extension_to_save_format
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| extension | str | امتداد الملف. يمكن أن يكون بنقطة بادئة أو بدونها.|
+| extension | str | امتداد الملف. يمكن أن يكون بنقطة بادئة أو بدونها. حالة الأحرف.|
 ###  ملاحظات
 
 إذا تعذر التعرف على الامتداد ، يتم إرجاع [SaveFormat.UNKNOWN](/cells/ar/python-net/aspose.cells/saveformat#UNKNOWN).

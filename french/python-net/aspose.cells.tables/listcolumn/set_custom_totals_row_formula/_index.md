@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_custom_totals_row_formula méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_custom_totals_row_formula(self, formula, is_r1c1, is_local):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | formula | str | la formule pour cette colonne de liste.|
 | is_r1c1 | bool | Indique si la formule doit être formatée en tant que R1C1.|

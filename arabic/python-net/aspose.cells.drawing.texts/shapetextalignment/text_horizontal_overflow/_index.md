@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_overflow الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نوع تجاوز النص الأفقي لمربع النص وتعيينه.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import TextOverflowType

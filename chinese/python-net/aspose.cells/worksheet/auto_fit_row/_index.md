@@ -1,6 +1,6 @@
-﻿---
+---
 title: auto_fit_row方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -18,7 +18,7 @@ def auto_fit_row(self, row_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_index | int |行索引。|
 ### 评论
@@ -37,7 +37,7 @@ def auto_fit_row(self, row_index, first_column, last_column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_index | int |行索引。|
 | first_column | int |第一列索引。|
@@ -58,7 +58,7 @@ def auto_fit_row(self, row_index, first_column, last_column, options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_index | int |行索引。|
 | first_column | int |第一列索引。|
@@ -80,7 +80,7 @@ def auto_fit_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | start_row | int |开始行索引。|
 | end_row | int |结束行索引。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingValue sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/conditionalformattingvalue/
 is_root: false
 ---
 ##  ConditionalFormattingValue sınıfı
-Gradyan ölçeğinde, dataBar veya iconSet'te enterpolasyon noktalarının değerlerini açıklar.
+Gradyan ölçeğindeki, dataBar veya iconSet'teki enterpolasyon noktalarının değerlerini açıklar.
 
 
 

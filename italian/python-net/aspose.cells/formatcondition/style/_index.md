@@ -1,4 +1,4 @@
-﻿---
+---
 title: style proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style proprietà
 
-Ottiene o imposta style di intervalli di celle con formattazione condizionale.
+Ottiene o imposta style di intervalli di celle formattati condizionali.
 ###  Definizione:
 ```python
 @property

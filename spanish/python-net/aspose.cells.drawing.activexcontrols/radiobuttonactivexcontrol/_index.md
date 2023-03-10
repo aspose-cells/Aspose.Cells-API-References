@@ -1,4 +1,4 @@
-﻿---
+---
 title: RadioButtonActiveXControl clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -52,12 +52,12 @@ El tipo RadioButtonActiveXControl expone los siguientes miembros:
 | [value](/cells/es/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/value) |Indica si el control está marcado o no.|
 | [is_triple_state](/cells/es/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/is_triple_state) | Indica cómo el control especificado mostrará valores nulos.|
 | [group_name](/cells/es/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/group_name) | Obtiene y establece el nombre del grupo.|
-| [alignment](/cells/es/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment) | Obtiene y establece la posición de Caption en relación con el control.|
+| [alignment](/cells/es/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment) | Obtiene y establece la posición del Caption en relación con el control.|
 | [is_word_wrapped](/cells/es/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/is_word_wrapped) | Indica si el contenido del control se ajusta automáticamente al final de una línea.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose import pycore

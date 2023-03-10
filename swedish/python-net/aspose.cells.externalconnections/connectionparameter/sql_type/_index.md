@@ -1,4 +1,4 @@
-﻿---
+---
 title: sql_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sql_type fastighet
 
-SQL-datatyp för parametern. Endast giltig för ODBC-källor.
+SQL-datatyp för parametern. Endast giltigt för ODBC-källor.
 ###  Definition:
 ```python
 @property

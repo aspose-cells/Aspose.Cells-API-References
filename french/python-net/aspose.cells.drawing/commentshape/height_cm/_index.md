@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_cm propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente la hauteur de la forme, en centimètres.
 
-###  Exemples
+###  Exemple
 
 ```python
 

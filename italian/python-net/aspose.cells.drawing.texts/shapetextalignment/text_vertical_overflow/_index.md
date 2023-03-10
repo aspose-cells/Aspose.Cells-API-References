@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_overflow proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di overflow verticale del testo della casella di testo.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import TextOverflowType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: dash_style mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Çizgi tire tipini belirtir.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Chart
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ Il tipo Chart espone i membri seguenti:
 | [hide_pivot_field_buttons](/cells/it/python-net/aspose.cells.charts/chart/hide_pivot_field_buttons) |Indica se nascondere i pulsanti del campo del grafico pivot solo quando il grafico è un grafico pivot.|
 | [pivot_options](/cells/it/python-net/aspose.cells.charts/chart/pivot_options) | Specifica i controlli pivot visualizzati sul grafico|
 | [pivot_source](/cells/it/python-net/aspose.cells.charts/chart/pivot_source) | La fonte sono i dati della tabella pivot.<br/> Se PivotSource non è vuoto, il grafico è PivotChart.|
-| [plot_by](/cells/it/python-net/aspose.cells.charts/chart/plot_by) | Ottiene e imposta se tracciare per riga o colonna.|
+| [plot_by](/cells/it/python-net/aspose.cells.charts/chart/plot_by) | Ottiene e imposta se tracciare per riga o per colonna.|
 | [plot_empty_cells_type](/cells/it/python-net/aspose.cells.charts/chart/plot_empty_cells_type) | Ottiene e imposta come tracciare le celle vuote.|
 | [plot_visible_cells](/cells/it/python-net/aspose.cells.charts/chart/plot_visible_cells) | Indica se tracciare solo le celle visibili.|
 | [plot_visible_cells_only](/cells/it/python-net/aspose.cells.charts/chart/plot_visible_cells_only) | Indica se tracciare solo le celle visibili.|
@@ -45,7 +45,7 @@ Il tipo Chart espone i membri seguenti:
 | [series_axis](/cells/it/python-net/aspose.cells.charts/chart/series_axis) | Ottiene l'asse della serie del grafico.|
 | [legend](/cells/it/python-net/aspose.cells.charts/chart/legend) | Ottiene la legenda del grafico.|
 | [chart_data_table](/cells/it/python-net/aspose.cells.charts/chart/chart_data_table) | Rappresenta la tabella dei dati del grafico.|
-| [show_legend](/cells/it/python-net/aspose.cells.charts/chart/show_legend) | Ottiene o imposta un valore che indica se verrà visualizzata la legenda del grafico.Il valore predefinito è true.|
+| [show_legend](/cells/it/python-net/aspose.cells.charts/chart/show_legend) | Ottiene o imposta un valore che indica se verrà visualizzata la legenda del grafico. L'impostazione predefinita è true.|
 | [is_rectangular_cornered](/cells/it/python-net/aspose.cells.charts/chart/is_rectangular_cornered) | Ottiene o imposta un valore che indica se l'area del grafico è rettangolare con angoli.<br/> L'impostazione predefinita è true.|
 | [show_data_table](/cells/it/python-net/aspose.cells.charts/chart/show_data_table) | Ottiene o imposta un valore che indica se il grafico visualizza una tabella di dati.|
 | [first_slice_angle](/cells/it/python-net/aspose.cells.charts/chart/first_slice_angle) | Ottiene o imposta l'angolo della prima sezione del grafico a torta o ad anello, in gradi (in senso orario dalla verticale). Si applica solo ai grafici a torta, a torta 3D e ad anello, da 0 a 360.|
@@ -58,8 +58,8 @@ Il tipo Chart espone i membri seguenti:
 | [walls_and_gridlines_2d](/cells/it/python-net/aspose.cells.charts/chart/walls_and_gridlines_2d) | Vero se le griglie vengono disegnate in modo bidimensionale su un grafico 3D.|
 | [rotation_angle](/cells/it/python-net/aspose.cells.charts/chart/rotation_angle) | Rappresenta la rotazione della visualizzazione del grafico 3D (la rotazione dell'area del tracciato attorno all'asse z, in gradi).|
 | [elevation](/cells/it/python-net/aspose.cells.charts/chart/elevation) | Rappresenta l'elevazione della visualizzazione del grafico 3D, in gradi.|
-| [right_angle_axes](/cells/it/python-net/aspose.cells.charts/chart/right_angle_axes) | Vero se gli assi del grafico sono ad angolo retto. Si applica solo ai grafici 3D (eccetto i grafici Column3D e 3D Pie Charts).|
-| [auto_scaling](/cells/it/python-net/aspose.cells.charts/chart/auto_scaling) | True se Microsoft Excel ridimensiona un grafico 3D in modo che sia di dimensioni più vicine al grafico 2D equivalente.<br/> La proprietà Right Angle Axes deve essere True.|
+| [right_angle_axes](/cells/it/python-net/aspose.cells.charts/chart/right_angle_axes) | Vero se gli assi del grafico sono ad angolo retto. Si applica solo ai grafici 3D (tranne Column3D e 3D Pie Charts).|
+| [auto_scaling](/cells/it/python-net/aspose.cells.charts/chart/auto_scaling) | True se Microsoft Excel ridimensiona un grafico 3D in modo che sia di dimensioni più vicine al grafico 2D equivalente.<br/> La proprietà RightAngleAxes deve essere True.|
 | [height_percent](/cells/it/python-net/aspose.cells.charts/chart/height_percent) |Restituisce o imposta l'altezza di un grafico 3D come percentuale della larghezza del grafico (tra 5 e 500 percento).|
 | [perspective](/cells/it/python-net/aspose.cells.charts/chart/perspective) | Restituisce o imposta la prospettiva per la visualizzazione del grafico 3D. Deve essere compreso tra 0 e 100.<br/> Questa proprietà viene ignorata se la proprietà RightAngleAxes è True.|
 | [is_3d](/cells/it/python-net/aspose.cells.charts/chart/is_3d) | Indica se il grafico è un grafico 3D.|
@@ -97,7 +97,7 @@ Il tipo Chart espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_columns_allowed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Représente si la mise en forme des colonnes est autorisée sur une feuille de c
 
 ###  Remarques
 
- REMARQUE : ce membre est désormais obsolète.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
  veuillez utiliser la propriété Protection.AllowFormattingColumn.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

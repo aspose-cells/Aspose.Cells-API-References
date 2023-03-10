@@ -1,4 +1,4 @@
-﻿---
+---
 title: get metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get(self, cell_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cell_name | str | Cell namn, inklusive dess kolumnbokstav och radnummer, till exempel A5.|
 
@@ -42,7 +42,7 @@ def get(self, row, column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | column | int | Kolumnindex.|

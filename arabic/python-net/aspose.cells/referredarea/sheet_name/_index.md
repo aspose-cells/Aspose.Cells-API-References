@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThemeColorType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

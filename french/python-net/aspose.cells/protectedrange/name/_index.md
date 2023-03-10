@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propriété
 
-Obtient le titre de la plage.
+Obtient le titre de la plage. Ceci est utilisé comme descripteur, pas comme une définition de plage nommée.
 ###  Définition:
 ```python
 @property

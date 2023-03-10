@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_style metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def copy_style(self, pivot_table):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/sv/python-net/aspose.cells.pivot/pivottable) |Källpivottabell.|
 

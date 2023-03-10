@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -20,7 +20,7 @@ def __init__(self):
 
 ###  Anmärkningar
 
-Standardfilformatet är Xlsx. För att skapa en annan filtyp, använd Workbook(FileFormatType).
+Standardfilformatstypen är Xlsx. För att skapa annan filtyp, använd Workbook(FileFormatType).
 ###  Exempel
 
 
@@ -45,7 +45,7 @@ def __init__(self, file_format_type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/sv/python-net/aspose.cells/fileformattype) | Det nya filformatet.|
 ###  Anmärkningar
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file | str | Filnamnet.|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Strömmen.|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file | str | Filnamnet.|
 | load_options | [LoadOptions](/cells/sv/python-net/aspose.cells/loadoptions) | Lastalternativen|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Strömmen.|
 | load_options | [LoadOptions](/cells/sv/python-net/aspose.cells/loadoptions) | Lastalternativen|

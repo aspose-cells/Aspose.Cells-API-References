@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_scale Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,9 +10,9 @@ is_root: false
 ##  page_scale Eigentum
 
 Ruft den berechneten Seitenmaßstab des Blatts ab.
-Gibt die eingestellte Skala zurück, wenn [PageSetup.zoom](/cells/de/python-net/aspose.cells/pagesetup#zoom) eingestellt ist.
+Gibt die eingestellte Skala zurück, wenn [PageSetup.zoom](/cells/de/python-net/aspose.cells/pagesetup#zoom) eingestellt ist. Gibt andernfalls die berechnete Skala gemäß [PageSetup.fit_to_pages_wide](/cells/de/python-net/aspose.cells/pagesetup#fit_to_pages_wide) und [PageSetup.fit_to_pages_tall](/cells/de/python-net/aspose.cells/pagesetup#fit_to_pages_tall) zurück.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

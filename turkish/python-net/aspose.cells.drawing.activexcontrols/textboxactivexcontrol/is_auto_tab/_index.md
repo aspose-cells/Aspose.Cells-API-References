@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_tab mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_tab mülk
 
-Kullanıcı maksimum karakter sayısını girdiğinde odağın otomatik olarak bir sonraki kontrole geçip geçmeyeceğini belirtir.
+Kullanıcı maksimum karakter sayısını girdiğinde odağın otomatik olarak bir sonraki kontrole geçip geçmeyeceğini gösterir.
 ###  Tanım:
 ```python
 @property

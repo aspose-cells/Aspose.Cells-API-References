@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_formula2 yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_formula2(self, is_r1c1, is_local):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | is_r1c1 | bool | Formülün R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|
 | is_local | bool | Formülün yerel ayarlara göre biçimlendirilmesi gerekip gerekmediği.|
@@ -43,7 +43,7 @@ def get_formula2(self, row, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|
@@ -64,7 +64,7 @@ def get_formula2(self, is_r1c1, is_local, row, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | is_r1c1 | bool | Formülün R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|
 | is_local | bool | Formülün yerel ayarlara göre biçimlendirilmesi gerekip gerekmediği.|

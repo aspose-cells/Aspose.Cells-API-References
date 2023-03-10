@@ -1,4 +1,4 @@
-﻿---
+---
 title: perspective fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  perspective fastighet
 
-Returnerar eller ställer in perspective för 3D-diagramvyn. Måste vara mellan 0 och 100.
+Returnerar eller ställer in perspective för 3D-sjökortsvyn. Måste vara mellan 0 och 100.
 Den här egenskapen ignoreras om egenskapen RightAngleAxes är True.
 ###  Definition:
 ```python

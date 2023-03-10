@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_settings yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,10 +18,10 @@ def copy_settings(self, source, check_style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source | [Row](/cells/tr/python-net/aspose.cells/row) | ayarları buna kopyalanacak olan kaynak satır|
-| check_style | bool | Kontrol et ve topla tarzı olsun.<br/> Yalnızca iki satır nesnesi farklı çalışma kitaplarına ait olduğunda ve iki çalışma kitabının stilleri farklı olduğunda etkili olur ve gereklidir.|
+| check_style | bool | kontrol edin ve stil toplayın.<br/> Yalnızca iki satır nesnesi farklı çalışma kitabına ait olduğunda ve iki çalışma kitabının stilleri farklı olduğunda etkili olur ve gereklidir.|
 
 
 

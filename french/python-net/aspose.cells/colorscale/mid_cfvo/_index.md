@@ -1,4 +1,4 @@
-﻿---
+---
 title: mid_cfvo propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

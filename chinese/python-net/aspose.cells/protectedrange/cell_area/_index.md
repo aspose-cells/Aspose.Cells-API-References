@@ -1,6 +1,6 @@
-﻿---
+---
 title: cell_area 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## cell_area 属性
 
-获取表示要保护的单元格区域的 [ProtectedRange.cell_area](/cells/zh/python-net/aspose.cells/protectedrange#cell_area) 对象。
+获取[ProtectedRange.cell_area](/cells/zh/python-net/aspose.cells/protectedrange#cell_area)对象表示要保护的单元格区域。
 ### 定义：
 ```python
 @property

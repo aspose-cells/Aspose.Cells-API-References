@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeAnchorType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| TWO_CELL_ANCHOR | Представляет заполнитель привязки из двух ячеек.|
+| TWO_CELL_ANCHOR | Представляет заполнитель привязки с двумя ячейками|
 | ONE_CELL_ANCHOR | Представляет заполнитель привязки к одной ячейке|
 
 

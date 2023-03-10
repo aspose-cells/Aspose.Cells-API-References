@@ -1,4 +1,4 @@
-﻿---
+---
 title: type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Kullanılan parametre türü.
  parameterType=value ise, boolean, double, integer'dan gelen değer,
- veya dize kullanılacaktır.
+ veya dize kullanılacaktır. Bu durumda, yalnızca birinin olması beklenir.
 {boolean, double, integer veya string} belirtilecektir.
 ###  Tanım:
 ```python

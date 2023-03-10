@@ -1,4 +1,4 @@
-﻿---
+---
 title: id mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bu revizyonun numarasını alır.
 
 ###  Notlar
 
-Sıfır, bu revizyonun id içermediği anlamına gelir.
+Sıfır, bu revizyonun id'i içermediği anlamına gelir.
 ###  Tanım:
 ```python
 @property

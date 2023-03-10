@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Breite jeder Spalte im Slicer in Punkt zurück oder legt sie fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

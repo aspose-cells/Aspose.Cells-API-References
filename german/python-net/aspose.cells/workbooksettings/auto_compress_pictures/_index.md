@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_compress_pictures Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

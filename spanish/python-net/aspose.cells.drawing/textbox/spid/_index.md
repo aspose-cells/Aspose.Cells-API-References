@@ -1,4 +1,4 @@
-﻿---
+---
 title: spid propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Especifica una cadena opcional que una aplicación puede usar para identificar la forma particular.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

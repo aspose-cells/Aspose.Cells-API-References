@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObject sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ ListObject türü aşağıdaki üyeleri gösterir:
 | [end_column](/cells/tr/python-net/aspose.cells.tables/listobject/end_column) |Aralığın bitiş sütununu alır.|
 | [list_columns](/cells/tr/python-net/aspose.cells.tables/listobject/list_columns) | ListObject öğesinin ListColumns değerini alır.|
 | [show_header_row](/cells/tr/python-net/aspose.cells.tables/listobject/show_header_row) | Bu ListObject başlık satırını gösterip göstermediğini alır ve ayarlar.|
-| [show_totals](/cells/tr/python-net/aspose.cells.tables/listobject/show_totals) | Bu ListObject'in toplam satırları gösterip göstermediğini alır ve ayarlar.|
+| [show_totals](/cells/tr/python-net/aspose.cells.tables/listobject/show_totals) | Bu ListObject'in toplam satırı gösterip göstermediğini alır ve ayarlar.|
 | [data_range](/cells/tr/python-net/aspose.cells.tables/listobject/data_range) | ListObject veri aralığını alır.|
 | [query_table](/cells/tr/python-net/aspose.cells.tables/listobject/query_table) | Bağlantılı QueryTable'ı alır.|
 | [data_source_type](/cells/tr/python-net/aspose.cells.tables/listobject/data_source_type) | Tablonun veri kaynağı türünü alır.|
@@ -50,13 +50,13 @@ ListObject türü aşağıdaki üyeleri gösterir:
 | [convert_to_range(options)](/cells/tr/python-net/aspose.cells.tables/listobject/convert_to_range/#TableToRangeOptions) | Tabloyu aralığa dönüştürün.|
 | [resize(start_row, start_column, end_row, end_column, has_headers)](/cells/tr/python-net/aspose.cells.tables/listobject/resize/#int-int-int-int-bool) | Liste nesnesinin aralığını yeniden boyutlandırın.|
 | [put_cell_value(row_offset, column_offset, value)](/cells/tr/python-net/aspose.cells.tables/listobject/put_cell_value/#int-int-any) | Değeri hücreye koyun.|
-| [update_column_name()](/cells/tr/python-net/aspose.cells.tables/listobject/update_column_name/#) |Çalışma sayfasındaki tüm liste sütunlarının adlarını günceller.|
+| [update_column_name()](/cells/tr/python-net/aspose.cells.tables/listobject/update_column_name/#) |Çalışma sayfasındaki tüm liste sütunlarının adını günceller.|
 | [filter()](/cells/tr/python-net/aspose.cells.tables/listobject/filter/#) | Tabloyu filtreleyin.|
 | [apply_style_to_range()](/cells/tr/python-net/aspose.cells.tables/listobject/apply_style_to_range/#) | Tablo stilini aralığa uygulayın.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellsHelper, Workbook

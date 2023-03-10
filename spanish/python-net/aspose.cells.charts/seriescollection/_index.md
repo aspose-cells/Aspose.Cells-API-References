@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ El tipo SeriesCollection expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [category_data](/cells/es/python-net/aspose.cells.charts/seriescollection/category_data) | Obtiene o establece el rango de valores de Axis de categoría.<br/> Puede ser un rango de celdas (como "d1:e10"),<br/> o una secuencia de valores (como,"{2,6,8,10}").|
-| [second_category_data](/cells/es/python-net/aspose.cells.charts/seriescollection/second_category_data) | Obtiene o establece el rango de valores de Axis de segunda categoría.<br/> Puede ser un rango de celdas (como "d1:e10"),<br/> o una secuencia de valores (como,"{2,6,8,10}").<br/> Solo efectos cuando alguna ASeries se traza en el segundo eje.|
+| [second_category_data](/cells/es/python-net/aspose.cells.charts/seriescollection/second_category_data) | Obtiene o establece el rango de valores de Axis de segunda categoría.<br/> Puede ser un rango de celdas (como "d1:e10"),<br/> o una secuencia de valores (como,"{2,6,8,10}").<br/> Solo efectos cuando algunas ASeries se trazan en el segundo eje.|
 | [is_color_varied](/cells/es/python-net/aspose.cells.charts/seriescollection/is_color_varied) | Representa si el color de los puntos es variado.|
 | [capacity](/cells/es/python-net/aspose.cells.charts/seriescollection/capacity) | Obtiene o establece el número de elementos que puede contener la lista de matrices.|
 
@@ -43,7 +43,7 @@ El tipo SeriesCollection expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

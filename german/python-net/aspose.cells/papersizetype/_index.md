@@ -1,4 +1,4 @@
-﻿---
+---
 title: PaperSizeType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,9 +25,9 @@ Der Typ PaperSizeType macht die folgenden Member verfügbar:
 | PAPER_STATEMENT | Erklärung (5-1/2 Zoll x 8-1/2 Zoll)|
 | PAPER_EXECUTIVE | Executive (7-1/4 Zoll x 10-1/2 Zoll)|
 | PAPER_A3 | A3 (297 mm x 420 mm)|
-| PAPER_A4 | A4 (210 mm x 297 mm)|
+| PAPER_A4 | A4 (210 x 297 mm)|
 | PAPER_A4_SMALL | A4 klein (210 mm x 297 mm)|
-| PAPER_A5 | A5 (148 mm x 210 mm)|
+| PAPER_A5 | A5 (148 x 210 mm)|
 | PAPER_B4 | JIS B4 (257 mm x 364 mm)|
 | PAPER_B5 | JIS B5 (182 mm x 257 mm)|
 | PAPER_FOLIO | Folio (8-1/2 Zoll x 13 Zoll)|
@@ -52,7 +52,7 @@ Der Typ PaperSizeType macht die folgenden Member verfügbar:
 | PAPER_ENVELOPE_B4 | Umschlag B4 (250 mm x 353 mm)|
 | PAPER_ENVELOPE_B5 | Umschlag B5 (176 mm x 250 mm)|
 | PAPER_ENVELOPE_B6 | Umschlag B6 (176 mm x 125 mm)|
-| PAPER_ENVELOPE_ITALY | Umschlag Italien (110 mm x 230 mm)|
+| PAPER_ENVELOPE_ITALY | Briefumschlag Italien (110 mm x 230 mm)|
 | PAPER_ENVELOPE_MONARCH | Umschlag Monarch (3-7/8 Zoll x 7-1/2 Zoll)|
 | PAPER_ENVELOPE_PERSONAL | Umschlag (3-5/8 Zoll x 6-1/2 Zoll)|
 | PAPER_FANFOLD_US | Endlosfaltung nach US-Standard (14-7/8 Zoll x 11 Zoll)|
@@ -73,10 +73,10 @@ Der Typ PaperSizeType macht die folgenden Member verfügbar:
 | PAPER_LETTER_EXTRA_TRANSVERSE | Buchstabe extra quer 9\275 x 12 Zoll|
 | PAPER_SUPER_A | SuperA/SuperA/A4 227 x 356 mm|
 | PAPER_SUPER_B | SuperB/SuperB/A3 305 x 487 mm|
-| PAPER_LETTER_PLUS | US-Letter Plus 8,5 x 12,69 Zoll|
-| PAPER_A4_PLUS | A4 plus 210 x 330 mm|
+| PAPER_LETTER_PLUS | US Letter Plus 8,5 x 12,69 Zoll|
+| PAPER_A4_PLUS | A4 Plus 210 x 330 mm|
 | PAPER_A5_TRANSVERSE | A5 quer 148 x 210 mm|
-| PAPER_JISB5_TRANSVERSE |B5 (JIS) Querformat 182 x 257 mm|
+| PAPER_JISB5_TRANSVERSE |B5 (JIS) Quer 182 x 257 mm|
 | PAPER_A3_EXTRA | A3 Extra 322 x 445 mm|
 | PAPER_A5_EXTRA | A5 Extra 174 x 235 mm|
 | PAPER_ISOB5_EXTRA | B5 (ISO) Extra 201 x 276 mm|
@@ -89,11 +89,11 @@ Der Typ PaperSizeType macht die folgenden Member verfügbar:
 | PAPER_JAPANESE_ENVELOPE_KAKU3 | Japanischer Umschlag Kaku #3|
 | PAPER_JAPANESE_ENVELOPE_CHOU3 | Japanischer Umschlag Chou #3|
 | PAPER_JAPANESE_ENVELOPE_CHOU4 | Japanischer Umschlag Chou #4|
-| PAPER_LETTER_ROTATED | 11 Zoll x 8,5 Zoll|
-| PAPER_A3_ROTATED | 420 x 297 mm|
-| PAPER_A4_ROTATED | 297 mm x 210 mm|
-| PAPER_A5_ROTATED | 210 mm x 148 mm|
-| PAPER_JISB4_ROTATED | B4 (JIS) gedreht 364 x 257 mm|
+| PAPER_LETTER_ROTATED | 11 Zoll × 8,5 Zoll|
+| PAPER_A3_ROTATED | 420 mm × 297 mm|
+| PAPER_A4_ROTATED | 297 mm × 210 mm|
+| PAPER_A5_ROTATED | 210 mm × 148 mm|
+| PAPER_JISB4_ROTATED | B4 (JIS) Gedreht 364 x 257 mm|
 | PAPER_JISB5_ROTATED | B5 (JIS) gedreht 257 x 182 mm|
 | PAPER_JAPANESE_POSTCARD_ROTATED | Japanische Postkarte gedreht 148 x 100 mm|
 | PAPER_JAPANESE_DOUBLE_POSTCARD_ROTATED | Doppelte japanische Postkarte gedreht 148 x 200 mm|
@@ -112,26 +112,26 @@ Der Typ PaperSizeType macht die folgenden Member verfügbar:
 | PAPER_PRC_BIG_32K | PRC 32K (groß) 97 x 151 mm|
 | PAPER_PRC_ENVELOPE1 | PRC-Umschlag #1 102 x 165 mm|
 | PAPER_PRC_ENVELOPE2 | PRC-Umschlag #2 102 x 176 mm|
-| PAPER_PRC_ENVELOPE3 | PRC-Umschlag Nr. 3 125 x 176 mm|
-| PAPER_PRC_ENVELOPE4 | PRC-Umschlag Nr. 4 110 x 208 mm|
-| PAPER_PRC_ENVELOPE5 | PRC-Umschlag Nr. 5 110 x 220 mm|
-| PAPER_PRC_ENVELOPE6 | PRC-Umschlag Nr. 6 120 x 230 mm|
-| PAPER_PRC_ENVELOPE7 | PRC-Umschlag Nr. 7 160 x 230 mm|
-| PAPER_PRC_ENVELOPE8 | PRC-Umschlag Nr. 8 120 x 309 mm|
-| PAPER_PRC_ENVELOPE9 | PRC-Umschlag Nr. 9 229 x 324 mm|
-| PAPER_PRC_ENVELOPE10 | PRC-Umschlag Nr. 10 324 x 458 mm|
+| PAPER_PRC_ENVELOPE3 | PRC-Umschlag #3 125 x 176 mm|
+| PAPER_PRC_ENVELOPE4 | PRC-Umschlag #4 110 x 208 mm|
+| PAPER_PRC_ENVELOPE5 | PRC-Umschlag #5 110 x 220 mm|
+| PAPER_PRC_ENVELOPE6 | PRC-Umschlag #6 120 x 230 mm|
+| PAPER_PRC_ENVELOPE7 | PRC-Umschlag #7 160 x 230 mm|
+| PAPER_PRC_ENVELOPE8 | PRC-Umschlag #8 120 x 309 mm|
+| PAPER_PRC_ENVELOPE9 | PRC-Umschlag #9 229 x 324 mm|
+| PAPER_PRC_ENVELOPE10 | PRC-Umschlag #10 324 x 458 mm|
 | PAPER_PRC16K_ROTATED | PRC 16K gedreht|
 | PAPER_PRC32K_ROTATED | PRC 32K gedreht|
 | PAPER_PRC_BIG_32K_ROTATED | PRC 32K (groß) gedreht|
-| PAPER_PRC_ENVELOPE_1_ROTATED | PRC-Umschlag #1 gedreht 165 x 102 mm|
-| PAPER_PRC_ENVELOPE_2_ROTATED | PRC-Umschlag #2 gedreht 176 x 102 mm|
-| PAPER_PRC_ENVELOPE_3_ROTATED | PRC-Umschlag #3 gedreht 176 x 125 mm|
+| PAPER_PRC_ENVELOPE_1_ROTATED | PRC-Umschlag #1 Gedreht 165 x 102 mm|
+| PAPER_PRC_ENVELOPE_2_ROTATED | PRC-Umschlag Nr. 2 gedreht 176 x 102 mm|
+| PAPER_PRC_ENVELOPE_3_ROTATED | PRC-Umschlag #3 Gedreht 176 x 125 mm|
 | PAPER_PRC_ENVELOPE_4_ROTATED | PRC-Umschlag #4 gedreht 208 x 110 mm|
-| PAPER_PRC_ENVELOPE_5_ROTATED | PRC-Umschlag Nr. 5, gedreht, 220 x 110 mm|
-| PAPER_PRC_ENVELOPE_6_ROTATED | PRC-Umschlag Nr. 6, gedreht, 230 x 120 mm|
+| PAPER_PRC_ENVELOPE_5_ROTATED | PRC-Umschlag #5 Gedreht 220 x 110 mm|
+| PAPER_PRC_ENVELOPE_6_ROTATED | PRC-Umschlag #6 Gedreht 230 x 120 mm|
 | PAPER_PRC_ENVELOPE_7_ROTATED | PRC-Umschlag #7 gedreht 230 x 160 mm|
-| PAPER_PRC_ENVELOPE_8_ROTATED | PRC-Umschlag #8 gedreht 309 x 120 mm|
-| PAPER_PRC_ENVELOPE_9_ROTATED | PRC-Umschlag #9 gedreht 324 x 229 mm|
+| PAPER_PRC_ENVELOPE_8_ROTATED | PRC-Umschlag #8 Gedreht 309 x 120 mm|
+| PAPER_PRC_ENVELOPE_9_ROTATED | PRC-Umschlag #9 Gedreht 324 x 229 mm|
 | PAPER_PRC_ENVELOPE_10_ROTATED |PRC-Umschlag #10 gedreht 458 x 324 mm|
 | PAPER_B3 | normales B3 (13,9 x 19,7 Zoll)|
 | PAPER_BUSINESS_CARD | Visitenkarte (90 mm x 55 mm)|

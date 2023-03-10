@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,14 +25,14 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [page_count](/cells/ar/python-net/aspose.cells.rendering/sheetrender/page_count) | الحصول على إجمالي عدد الصفحات لورقة العمل الحالية.|
-| [page_scale](/cells/ar/python-net/aspose.cells.rendering/sheetrender/page_scale) | يحصل على مقياس الصفحة المحسوب للورقة.<br/> إرجاع المقياس المحدد إذا تم تعيين [PageSetup.zoom](/cells/ar/python-net/aspose.cells/pagesetup#zoom).|
+| [page_scale](/cells/ar/python-net/aspose.cells.rendering/sheetrender/page_scale) | يحصل على مقياس الصفحة المحسوب للورقة.<br/> إرجاع المقياس المحدد إذا تم تعيين [PageSetup.zoom](/cells/ar/python-net/aspose.cells/pagesetup#zoom). وإلا ، تُرجع المقياس المحسوب وفقًا لـ [PageSetup.fit_to_pages_wide](/cells/ar/python-net/aspose.cells/pagesetup#fit_to_pages_wide) و [PageSetup.fit_to_pages_tall](/cells/ar/python-net/aspose.cells/pagesetup#fit_to_pages_tall).|
 
 
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [to_image(page_index, file_name)](/cells/ar/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) | تقديم صفحات معينة إلى ملف.|
-| [to_image(page_index, stream)](/cells/ar/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | تقديم صفحات معينة إلى دفق.|
+| [to_image(page_index, file_name)](/cells/ar/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) | تقديم صفحة معينة إلى ملف.|
+| [to_image(page_index, stream)](/cells/ar/python-net/aspose.cells.rendering/sheetrender/to_image/#int-io.RawIOBase) | تقديم صفحة معينة إلى دفق.|
 | [to_tiff(stream)](/cells/ar/python-net/aspose.cells.rendering/sheetrender/to_tiff/#io.RawIOBase) | عرض ورقة العمل بأكملها على شكل Tiff Image للدفق.|
 | [to_tiff(filename)](/cells/ar/python-net/aspose.cells.rendering/sheetrender/to_tiff/#str) | تقديم ورقة العمل بأكملها على شكل Tiff Image إلى ملف.|
 | [to_printer(printer_name)](/cells/ar/python-net/aspose.cells.rendering/sheetrender/to_printer/#str) | تقديم ورقة العمل للطابعة|

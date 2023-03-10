@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_by_base_index方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -22,7 +22,7 @@ def add_by_base_index(self, base_field_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | base_field_index | int |基础 PivotFields 中的字段索引。|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة hide_item
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def hide_item(self, index, is_hidden):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس العنصر المحوري في الحقل المحوري.|
 | is_hidden | bool | ما إذا كان PivotItem المحدد مخفيًا|
@@ -35,7 +35,7 @@ def hide_item(self, item_value, is_hidden):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | item_value | str | قيمة العنصر المحوري في الحقل المحوري.|
 | is_hidden | bool | ما إذا كان PivotItem المحدد مخفيًا|

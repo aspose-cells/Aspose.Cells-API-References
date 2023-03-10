@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_alignment proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotGroupByType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,11 +19,11 @@ El tipo PivotGroupByType expone los siguientes miembros:
 | :- | :- |
 | RANGE_OF_VALUES | Presenta rango de valores agrupados por tipo.|
 | SECONDS | Presenta Segundos agrupados por tipo.|
-| MINUTES | Presenta el grupo de Actas por tipo.|
+| MINUTES | Presenta los minutos agrupados por tipo.|
 | HOURS | Presenta Horas agrupadas por tipo.|
 | DAYS | Presenta Días agrupados por tipo.|
 | MONTHS | Presenta Meses agrupados por tipo.|
-| QUARTERS | Presenta el grupo de Quarters por tipo.|
+| QUARTERS | Presenta Trimestres agrupados por tipo.|
 | YEARS | Presenta Años agrupados por tipo.|
 
 

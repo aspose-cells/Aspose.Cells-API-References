@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_picture metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | is_first | bool | Anger om bilden av sidhuvud/sidfot på första sidan ställs in.|
 | is_even | bool | Anger om bilden av sidhuvud/sidfot på jämna sidor ställs in.|

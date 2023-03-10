@@ -1,4 +1,4 @@
-﻿---
+---
 title: apply_row_style metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Stilobjektet som kommer att tillämpas.|

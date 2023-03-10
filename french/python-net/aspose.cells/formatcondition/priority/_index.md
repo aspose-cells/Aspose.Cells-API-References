@@ -1,4 +1,4 @@
-﻿---
+---
 title: priority propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  priority propriété
 
-Le priority de cette règle de mise en forme conditionnelle.
-format doit être évalué et rendu. Les valeurs numériques inférieures sont supérieures à priority
+Le priority de cette règle de mise en forme conditionnelle. Cette valeur est utilisée pour déterminer quel
+format doit être évalué et rendu. Les valeurs numériques inférieures sont supérieures priority à
 valeurs numériques plus élevées, où '1' est le priority le plus élevé.
 ###  Définition:
 ```python

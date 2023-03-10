@@ -1,4 +1,4 @@
-﻿---
+---
 title: underflow недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  underflow недвижимость
 
-Получает или задает underflow интервалов оси.
+Получает или задает underflow бинов осей
 ###  Определение:
 ```python
 @property

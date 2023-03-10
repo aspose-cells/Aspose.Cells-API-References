@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ Der Typ Row macht die folgenden Member verfügbar:
 | [group_level](/cells/de/python-net/aspose.cells/row/group_level) | Ruft die Gruppenebene der Zeile ab.|
 | [is_height_matched](/cells/de/python-net/aspose.cells/row/is_height_matched) |Gibt an, dass die Zeilenhöhe und die Standardschrifthöhe übereinstimmen.|
 | [style](/cells/de/python-net/aspose.cells/row/style) | Stellt den Stil dieser Zeile dar.|
-| [has_custom_style](/cells/de/python-net/aspose.cells/row/has_custom_style) | Gibt an, ob diese Zeile über benutzerdefinierte Stileinstellungen verfügt (anders als die von der Arbeitsmappe geerbten Standardeinstellungen).|
+| [has_custom_style](/cells/de/python-net/aspose.cells/row/has_custom_style) | Gibt an, ob diese Zeile über benutzerdefinierte Stileinstellungen verfügt (anders als die von der Arbeitsmappe geerbte Standardeinstellung).|
 | [first_cell](/cells/de/python-net/aspose.cells/row/first_cell) | Ruft das erste Zellobjekt in der Zeile ab.|
 | [first_data_cell](/cells/de/python-net/aspose.cells/row/first_data_cell) | Ruft die erste nicht leere Zelle in der Zeile ab.|
 | [last_cell](/cells/de/python-net/aspose.cells/row/last_cell) | Ruft das letzte Zellobjekt in der Zeile ab.|
@@ -53,7 +53,7 @@ Ruft die Zelle ab.
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

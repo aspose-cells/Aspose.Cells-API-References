@@ -1,4 +1,4 @@
-﻿---
+---
 title: CheckBoxActiveXControl klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,8 +25,8 @@ Typen CheckBoxActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) |Hämtar och ställer in kontrollens bredd i poängenhet.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
 | [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|

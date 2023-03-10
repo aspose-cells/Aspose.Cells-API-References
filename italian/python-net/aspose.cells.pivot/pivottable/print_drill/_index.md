@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_drill proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill proprietà
 
 Specifica un valore booleano che indica se gli indicatori di drill devono essere stampati.
-stampa i pulsanti espandi/comprimi quando vengono visualizzati nella tabella pivot.
+stampa i pulsanti espandi/comprimi quando visualizzati su pivottable.
 ###  Definizione:
 ```python
 @property

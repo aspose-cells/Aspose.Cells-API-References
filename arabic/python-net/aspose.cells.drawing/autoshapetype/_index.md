@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد AutoShapeType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/autoshapetype/
 is_root: false
 ---
 ##  العد AutoShapeType
-يمثل جميع أنواع الأشكال التلقائية المضمنة.
+يمثل كل نوع الشكل التلقائي المدمج.
 
 
 
@@ -182,8 +182,8 @@ is_root: false
 | TEXT_DEFLATE_BOTTOM | شكل نص يتقلص لأعلى في المنتصف.|
 | TEXT_INFLATE_TOP | شكل نص يتوسع لأعلى في المنتصف.|
 | TEXT_DEFLATE_TOP | شكل نص يتقلص لأسفل في المنتصف.|
-| TEXT_DEFLATE_INFLATE |شكل نص تتوسع فيه الأسطر السفلية لأعلى. تتقلص الأسطر العلوية للتعويض.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | شكل نص تتسع فيه الأسطر الموجودة في الوسط رأسيًا. تتقلص الأسطر العلوية والسفلية للتعويض.|
+| TEXT_DEFLATE_INFLATE |شكل نص تتوسع فيه الأسطر السفلية لأعلى. تتقلص الخطوط العلوية للتعويض.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | شكل نص تتسع فيه الخطوط الموجودة في المركز عموديًا. تتقلص الخطوط العلوية والسفلية للتعويض.|
 | TEXT_FADE_RIGHT | شكل نص يتقلص رأسيًا على الجانب الأيمن.|
 | TEXT_FADE_LEFT | شكل نص يتقلص رأسيًا على الجانب الأيسر.|
 | TEXT_FADE_UP | شكل نص يتقلص أفقيًا في الأعلى.|

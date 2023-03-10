@@ -1,4 +1,4 @@
-﻿---
+---
 title: checked_value الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  checked_value الملكية
 
-يحصل أو يحدد قيمة خانة الاختيار.
+الحصول على أو تعيين قيمة خانة الاختيار.
 ###  تعريف:
 ```python
 @property

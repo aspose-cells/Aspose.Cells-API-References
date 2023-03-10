@@ -1,4 +1,4 @@
-﻿---
+---
 title: DefaultEditLanguage Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,7 +17,7 @@ Der Typ DefaultEditLanguage macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| AUTO | Stellt die automatische Erkennung der Bearbeitungssprache gemäß dem Text selbst dar.|
+| AUTO | Repräsentiert die automatische Erkennung der Bearbeitungssprache entsprechend dem Text selbst.|
 | ENGLISH | Stellt die englische Sprache dar.|
 | CJK | Stellt die chinesische, japanische und koreanische Sprache dar.|
 

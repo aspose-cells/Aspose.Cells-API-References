@@ -1,4 +1,4 @@
-﻿---
+---
 title: resource_loading_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

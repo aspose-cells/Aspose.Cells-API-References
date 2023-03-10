@@ -1,4 +1,4 @@
-﻿---
+---
 title: reset_ranges yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | data_range | str | Mini grafik grubunun yeni veri aralığını belirtir.|
 | is_vertical | bool | Mini grafiklerin yeni veri aralığından satıra mı yoksa sütuna göre mi çizileceğini belirtir.|

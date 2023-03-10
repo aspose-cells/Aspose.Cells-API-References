@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraph класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -41,7 +41,7 @@ is_root: false
 | [right_margin](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/right_margin) | Определяет правое поле абзаца.|
 | [left_margin](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/left_margin) | Определяет левое поле абзаца.|
 | [first_line_indent](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/first_line_indent) | Указывает размер отступа, который будет применяться к первой строке текста в абзаце.|
-| [font_align_type](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Определяет, где по вертикали в строке текста располагаются фактические слова.<br/> с вертикальным размещением символов по отношению к базовым линиям.|
+| [font_align_type](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Определяет, где по вертикали в строке текста располагаются фактические слова. Это касается<br/> с вертикальным размещением символов по отношению к базовым линиям.|
 | [alignment_type](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/alignment_type) | Получает и задает тип горизонтального выравнивания текста абзаца.|
 | [default_tab_size](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/default_tab_size) | Получает и задает размер по умолчанию для символа табуляции в этом абзаце.|
 | [children](/cells/ru/python-net/aspose.cells.drawing.texts/textparagraph/children) | Получает все текстовые прогоны в этом абзаце.<br/> Если этот абзац пуст, вернуть сам абзац.|

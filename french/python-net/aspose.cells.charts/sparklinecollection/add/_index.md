@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def add(self, data_range, row, column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | data_range | str | Spécifie la nouvelle plage de données du graphique sparkline.|
 | row | int | Index de ligne de l'emplacement.|

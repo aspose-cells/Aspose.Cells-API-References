@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_local_function_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar det språkberoende funktionsnamnet enligt givet standardfunktionsnamn.
 
 ###  Returnerar
 
-Platsberoende funktionsnamn.
+Platsberoende funktionsnamn. Lokalen specificerades av arbetsboken för vilken de här inställningarna används.
 
 
 ```python
@@ -22,9 +22,9 @@ def get_local_function_name(self, standard_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| standard_name | str | Standardfunktionsnamn (en-US locale).|
+| standard_name | str | Standard(en-US locale) funktionsnamn.|
 
 
 

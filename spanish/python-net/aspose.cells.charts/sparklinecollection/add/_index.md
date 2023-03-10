@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def add(self, data_range, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | data_range | str | Especifica el nuevo rango de datos del minigráfico.|
 | row | int | El índice de fila de la ubicación.|

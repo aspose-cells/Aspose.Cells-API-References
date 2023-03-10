@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def add(self, name, value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på innehållstypsegenskapen.|
 | value | str | Värdet på innehållstypsegenskapen.|
@@ -35,7 +35,7 @@ def add(self, name, value, type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på innehållstypsegenskapen.|
 | value | str | Värdet på innehållstypsegenskapen.|

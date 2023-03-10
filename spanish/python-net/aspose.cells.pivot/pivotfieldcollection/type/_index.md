@@ -1,4 +1,4 @@
-﻿---
+---
 title: type propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type propiedad
 
-Obtiene los campos pivote type.
+Obtiene los campos dinámicos type.
 ###  Definición:
 ```python
 @property

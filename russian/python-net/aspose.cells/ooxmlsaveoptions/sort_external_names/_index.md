@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_external_names недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sort_external_names недвижимость
 
-Указывает, выполняется ли сортировка внешних имен перед сохранением файла.
+Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.
 ###  Определение:
 ```python
 @property

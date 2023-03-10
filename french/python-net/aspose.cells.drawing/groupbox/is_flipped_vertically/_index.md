@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_flipped_vertically propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit si la forme est retournée verticalement.
 
-###  Exemples
+###  Exemple
 
 ```python
 

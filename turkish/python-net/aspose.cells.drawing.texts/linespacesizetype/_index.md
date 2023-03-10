@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineSpaceSizeType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ LineSpaceSizeType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | PERCENTAGE | Metin boyutunun yüzde birimini temsil eder.|
-| POINTS | Puan birimlerinde temsil eder.|
+| POINTS | Puan biriminde temsil eder.|
 
 
 

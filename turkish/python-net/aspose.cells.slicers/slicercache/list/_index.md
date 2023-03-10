@@ -1,4 +1,4 @@
-﻿---
+---
 title: list mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list mülk
 
-Dilimleyicinin, OLAP Olmayan bir veri kaynağına dayalı olarak belirtilen dilimleyici önbelleğiyle ilişkilendirilip ilişkilendirilmediğini döndürür.
+Belirtilen dilimleyici önbelleğiyle ilişkili dilimleyicinin OLAP Olmayan bir veri kaynağına dayalı olup olmadığını döndürür. Sadece oku
 
-###  örnekler
+###  Örnek
 
 ```python
 

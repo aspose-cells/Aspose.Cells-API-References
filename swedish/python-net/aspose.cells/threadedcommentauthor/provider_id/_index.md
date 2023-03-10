@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id fastighet
 
-Får leverantörens identitet.
+Får id:t för leverantören.
 ###  Definition:
 ```python
 @property

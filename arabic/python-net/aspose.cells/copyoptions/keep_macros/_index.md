@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_macros الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-فقط لنسخ المصنفات.
+فقط لنسخ المصنف.
 ###  تعريف:
 ```python
 @property

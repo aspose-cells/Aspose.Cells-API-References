@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_left_to_right fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

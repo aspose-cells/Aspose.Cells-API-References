@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe WorkbookSettings
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,7 +17,7 @@ Il tipo WorkbookSettings espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [stream_provider](/cells/it/python-net/aspose.cells/workbooksettings/stream_provider) | Ottiene e imposta il provider di flussi per le risorse esterne.|
+| [stream_provider](/cells/it/python-net/aspose.cells/workbooksettings/stream_provider) | Ottiene e imposta il provider di flussi per la risorsa esterna.|
 | [resource_provider](/cells/it/python-net/aspose.cells/workbooksettings/resource_provider) | Ottiene e imposta il provider del flusso per la risorsa esterna, ad esempio il caricamento dei dati dell'immagine per l'immagine di tipo "LinkToFile".|
 | [author](/cells/it/python-net/aspose.cells/workbooksettings/author) | Ottiene e imposta l'autore del file.|
 | [check_custom_number_format](/cells/it/python-net/aspose.cells/workbooksettings/check_custom_number_format) | Indica se controllare il formato numerico personalizzato durante l'impostazione di Style.Custom.|
@@ -32,10 +32,10 @@ Il tipo WorkbookSettings espone i membri seguenti:
 | [is_v_scroll_bar_visible](/cells/it/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) | Ottiene o imposta un valore che indica se il foglio di calcolo generato conterrà una barra di scorrimento verticale.|
 | [shared](/cells/it/python-net/aspose.cells/workbooksettings/shared) | Ottiene o imposta un valore che indica se la cartella di lavoro è condivisa.|
 | [language_code](/cells/it/python-net/aspose.cells/workbooksettings/language_code) | Ottiene o imposta la lingua dell'interfaccia utente della versione della cartella di lavoro basata su CountryCode che ha salvato il file.|
-| [region](/cells/it/python-net/aspose.cells/workbooksettings/region) | Ottiene o imposta le impostazioni internazionali per le cartelle di lavoro.|
+| [region](/cells/it/python-net/aspose.cells/workbooksettings/region) | Ottiene o imposta le impostazioni internazionali per la cartella di lavoro.|
 | [globalization_settings](/cells/it/python-net/aspose.cells/workbooksettings/globalization_settings) | Ottiene e imposta le impostazioni di globalizzazione.|
-| [number_decimal_separator](/cells/it/python-net/aspose.cells/workbooksettings/number_decimal_separator) | Ottiene o imposta il separatore decimale per la formattazione/l'analisi dei valori numerici.|
-| [number_group_separator](/cells/it/python-net/aspose.cells/workbooksettings/number_group_separator) | Ottiene o imposta il carattere che separa i gruppi di cifre a sinistra del decimale nei valori numerici.L'impostazione predefinita è il separatore di gruppo dell'area corrente.|
+| [number_decimal_separator](/cells/it/python-net/aspose.cells/workbooksettings/number_decimal_separator) | Ottiene o imposta il separatore decimale per la formattazione/l'analisi dei valori numerici. L'impostazione predefinita è il separatore decimale della regione corrente.|
+| [number_group_separator](/cells/it/python-net/aspose.cells/workbooksettings/number_group_separator) | Ottiene o imposta il carattere che separa i gruppi di cifre a sinistra del decimale nei valori numerici. L'impostazione predefinita è il separatore di gruppo della regione corrente.|
 | [password](/cells/it/python-net/aspose.cells/workbooksettings/password) | Rappresenta la password di crittografia del file della cartella di lavoro.|
 | [write_protection](/cells/it/python-net/aspose.cells/workbooksettings/write_protection) | Fornisce l'accesso alle opzioni di protezione da scrittura della cartella di lavoro.|
 | [is_encrypted](/cells/it/python-net/aspose.cells/workbooksettings/is_encrypted) |Ottiene un valore che indica se è necessaria una password per aprire questa cartella di lavoro.|
@@ -56,7 +56,7 @@ Il tipo WorkbookSettings espone i membri seguenti:
 | [window_top](/cells/it/python-net/aspose.cells/workbooksettings/window_top) | La distanza dal bordo superiore dell'area client al bordo superiore della finestra, in unità di punto.|
 | [window_top_inch](/cells/it/python-net/aspose.cells/workbooksettings/window_top_inch) | La distanza dal bordo superiore dell'area client al bordo superiore della finestra, in unità di pollici.|
 | [window_top_cm](/cells/it/python-net/aspose.cells/workbooksettings/window_top_cm) | La distanza dal bordo superiore dell'area client al bordo superiore della finestra, in unità di centimetri.|
-| [window_width](/cells/it/python-net/aspose.cells/workbooksettings/window_width) | La larghezza della finestra, in unità di punti.|
+| [window_width](/cells/it/python-net/aspose.cells/workbooksettings/window_width) | La larghezza della finestra, in unità di punto.|
 | [window_width_inch](/cells/it/python-net/aspose.cells/workbooksettings/window_width_inch) | La larghezza della finestra, in unità di pollici.|
 | [window_width_cm](/cells/it/python-net/aspose.cells/workbooksettings/window_width_cm) | La larghezza della finestra, in unità di centimetri.|
 | [window_height](/cells/it/python-net/aspose.cells/workbooksettings/window_height) | L'altezza della finestra, in unità di punto.|
@@ -64,18 +64,18 @@ Il tipo WorkbookSettings espone i membri seguenti:
 | [window_height_cm](/cells/it/python-net/aspose.cells/workbooksettings/window_height_cm) | L'altezza della finestra, in unità di centimetri.|
 | [update_adjacent_cells_border](/cells/it/python-net/aspose.cells/workbooksettings/update_adjacent_cells_border) | Indica se aggiornare il bordo delle celle adiacenti.|
 | [significant_digits](/cells/it/python-net/aspose.cells/workbooksettings/significant_digits) | Ottiene e imposta il numero di cifre significative.<br/> Il valore predefinito è [CellsHelper.significant_digits](/cells/it/python-net/aspose.cells/cellshelper#significant_digits).|
-| [check_compatibility](/cells/it/python-net/aspose.cells/workbooksettings/check_compatibility) | Indica se verificare la compatibilità con le versioni precedenti durante il salvataggio delle cartelle di lavoro.|
-| [check_excel_restriction](/cells/it/python-net/aspose.cells/workbooksettings/check_excel_restriction) | Se controllare la restrizione del file excel quando l'utente modifica gli oggetti relativi alle celle.<br/>Ad esempio, Excel non consente di inserire un valore di stringa più lungo di 32K.<br/>Quando inserisci un valore più lungo di 32K, ad esempio Cell.PutValue(string), se questa proprietà è true, otterrai un'eccezione.<br/>Se questa proprietà è falsa, accetteremo il valore della stringa di input come valore della cella in modo che in seguito<br/>puoi emettere il valore di stringa completo per altri formati di file come CSV.<br/>Tuttavia, se hai impostato un tipo di valore non valido per il formato di file excel,<br/> non dovresti salvare la cartella di lavoro come formato di file excel in un secondo momento.|
+| [check_compatibility](/cells/it/python-net/aspose.cells/workbooksettings/check_compatibility) | Indica se verificare la compatibilità con le versioni precedenti durante il salvataggio della cartella di lavoro.|
+| [check_excel_restriction](/cells/it/python-net/aspose.cells/workbooksettings/check_excel_restriction) | Se controllare la restrizione del file excel quando l'utente modifica gli oggetti relativi alle celle.<br/>Ad esempio, Excel non consente di inserire un valore di stringa più lungo di 32K.<br/>Quando inserisci un valore più lungo di 32K, ad esempio Cell.PutValue(string), se questa proprietà è true, otterrai un'eccezione.<br/>Se questa proprietà è falsa, accetteremo il valore della stringa di input come valore della cella in modo che in seguito<br/>puoi emettere il valore di stringa completo per altri formati di file come CSV.<br/>Tuttavia, se hai impostato un tipo di valore non valido per il formato di file excel,<br/> non dovresti salvare la cartella di lavoro come formato di file excel in un secondo momento. Altrimenti potrebbe esserci un errore imprevisto per il file excel generato.|
 | [auto_recover](/cells/it/python-net/aspose.cells/workbooksettings/auto_recover) |Indica se il file è contrassegnato per il ripristino automatico.|
 | [crash_save](/cells/it/python-net/aspose.cells/workbooksettings/crash_save) | indica se l'applicazione ha salvato per ultimo il file della cartella di lavoro dopo un arresto anomalo.|
 | [data_extract_load](/cells/it/python-net/aspose.cells/workbooksettings/data_extract_load) | indica se l'applicazione ha aperto l'ultima volta la cartella di lavoro per il ripristino dei dati.|
 | [repair_load](/cells/it/python-net/aspose.cells/workbooksettings/repair_load) | Indica se l'applicazione ha aperto l'ultima volta la cartella di lavoro in modalità provvisoria o di ripristino.|
 | [build_version](/cells/it/python-net/aspose.cells/workbooksettings/build_version) | Specifica la versione pubblica incrementale dell'applicazione.|
-| [memory_setting](/cells/it/python-net/aspose.cells/workbooksettings/memory_setting) | Ottiene o imposta le opzioni di utilizzo della memoria.La nuova opzione verrà utilizzata come opzione predefinita per i fogli di lavoro appena creati, ma non avrà effetto per i fogli di lavoro esistenti.|
+| [memory_setting](/cells/it/python-net/aspose.cells/workbooksettings/memory_setting) | Ottiene o imposta le opzioni di utilizzo della memoria. La nuova opzione verrà presa come opzione predefinita per i fogli di lavoro appena creati, ma non avrà effetto per i fogli di lavoro esistenti.|
 | [paper_size](/cells/it/python-net/aspose.cells/workbooksettings/paper_size) | Ottiene e imposta il formato della carta di stampa predefinito.|
-| [warning_callback](/cells/it/python-net/aspose.cells/workbooksettings/warning_callback) | Ottiene o imposta callback di avviso.|
+| [warning_callback](/cells/it/python-net/aspose.cells/workbooksettings/warning_callback) | Ottiene o imposta la richiamata di avviso.|
 | [max_rows_of_shared_formula](/cells/it/python-net/aspose.cells/workbooksettings/max_rows_of_shared_formula) | Ottiene e imposta il numero massimo di righe della formula condivisa.|
-| [compliance](/cells/it/python-net/aspose.cells/workbooksettings/compliance) | Specifica la versione OOXML per il documento di output.|
+| [compliance](/cells/it/python-net/aspose.cells/workbooksettings/compliance) | Specifica la versione OOXML per il documento di output. Il valore predefinito è Ecma376_2006.|
 | [quote_prefix_to_style](/cells/it/python-net/aspose.cells/workbooksettings/quote_prefix_to_style) | Indica se impostare la proprietà [Style.quote_prefix](/cells/it/python-net/aspose.cells/style#quote_prefix) quando si immette il valore della stringa (che inizia con virgolette singole) nella cella|
 | [formula_settings](/cells/it/python-net/aspose.cells/workbooksettings/formula_settings) | Ottiene le impostazioni per le funzionalità correlate alla formula.|
 | [precision_as_displayed](/cells/it/python-net/aspose.cells/workbooksettings/precision_as_displayed) |True se i calcoli in questa cartella di lavoro verranno eseguiti utilizzando solo la precisione dei numeri così come vengono visualizzati|
@@ -99,7 +99,7 @@ Il tipo WorkbookSettings espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

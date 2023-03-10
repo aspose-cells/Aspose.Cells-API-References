@@ -1,4 +1,4 @@
-﻿---
+---
 title: id proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene l'identificatore di questa forma.
 
-###  Esempi
+###  Esempio
 
 ```python
 

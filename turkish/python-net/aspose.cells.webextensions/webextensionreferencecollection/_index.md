@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionReferenceCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.webextensions/webextensionreferencecollection/
 is_root: false
 ---
 ##  WebExtensionReferenceCollection sınıfı
-Web uzantısı referanslarının listesini temsil eder.
+Web uzantısı referansı listesini temsil eder.
 
 
 

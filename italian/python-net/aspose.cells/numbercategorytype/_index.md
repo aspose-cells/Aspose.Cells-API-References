@@ -1,4 +1,4 @@
-﻿---
+---
 title: NumberCategoryType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

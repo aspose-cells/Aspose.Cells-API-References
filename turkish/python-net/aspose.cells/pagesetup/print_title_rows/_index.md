@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_rows mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Her sayfanın başında yinelenecek hücreleri içeren satırları temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

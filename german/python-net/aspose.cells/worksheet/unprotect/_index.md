@@ -1,4 +1,4 @@
-﻿---
+---
 title: unprotect Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/worksheet/unprotect/
 is_root: false
 ---
 ##  unprotect() {#}
-Schutz des Arbeitsblatts aufheben.
+Hebt den Schutz des Arbeitsblatts auf.
 
 
 
@@ -24,7 +24,7 @@ Diese Methode hebt den Schutz des Arbeitsblatts auf, das ohne Passwort geschütz
 
 ##  unprotect(password) {#str}
 
-Schutz des Arbeitsblatts aufheben.
+Hebt den Schutz des Arbeitsblatts auf.
 
 
 

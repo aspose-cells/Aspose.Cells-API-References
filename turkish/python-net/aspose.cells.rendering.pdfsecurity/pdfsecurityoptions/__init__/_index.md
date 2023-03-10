@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSecurityOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, çıktı pdf için yüksek çözünürlüklü yazdırma iznini ayarlar.
 

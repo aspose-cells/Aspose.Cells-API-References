@@ -1,4 +1,4 @@
-﻿---
+---
 title: un_merge yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def un_merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|

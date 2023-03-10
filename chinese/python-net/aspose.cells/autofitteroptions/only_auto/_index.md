@@ -1,6 +1,6 @@
-﻿---
+---
 title: only_auto 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 100
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## only_auto 属性
 
-是否只适合未自定义高度的行。
+表示是否只适合不自定义高度的行。
 ### 定义：
 ```python
 @property

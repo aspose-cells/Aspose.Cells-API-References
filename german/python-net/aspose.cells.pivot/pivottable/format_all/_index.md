@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_all Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Formatieren Sie alle Zellen im Bereich der Pivot-Tabelle
+Formatieren Sie alle Zellen im schwenkbaren Bereich
 
 
 

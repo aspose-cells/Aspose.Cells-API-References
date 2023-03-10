@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_pivot_table_style Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

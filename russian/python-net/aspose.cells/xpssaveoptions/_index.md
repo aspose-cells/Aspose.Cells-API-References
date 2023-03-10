@@ -1,4 +1,4 @@
-﻿---
+---
 title: XpsSaveOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,8 +23,8 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [XpsSaveOptions()](/cells/ru/python-net/aspose.cells/xpssaveoptions/__init__/#) | Создает параметры для сохранения файлов xps.|
-| [XpsSaveOptions(save_format)](/cells/ru/python-net/aspose.cells/xpssaveoptions/__init__/#SaveFormat) | Создает параметры для сохранения файлов xps.|
+| [XpsSaveOptions()](/cells/ru/python-net/aspose.cells/xpssaveoptions/__init__/#) | Создает параметры для сохранения файла xps.|
+| [XpsSaveOptions(save_format)](/cells/ru/python-net/aspose.cells/xpssaveoptions/__init__/#SaveFormat) | Создает параметры для сохранения файла xps.|
 
 
 ###  Характеристики
@@ -37,9 +37,9 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/xpssaveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/xpssaveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/xpssaveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/xpssaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних имен перед сохранением файла.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/xpssaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
 | [refresh_chart_cache](/cells/ru/python-net/aspose.cells/xpssaveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
-| [warning_callback](/cells/ru/python-net/aspose.cells/xpssaveoptions/warning_callback) | Получает или задает обратные вызовы предупреждения.|
+| [warning_callback](/cells/ru/python-net/aspose.cells/xpssaveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/xpssaveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [default_font](/cells/ru/python-net/aspose.cells/xpssaveoptions/default_font) | Когда символы в Excel имеют формат Unicode и для них не задан правильный шрифт в стиле ячейки,<br/>Они могут отображаться как блок в pdf, изображение.<br/>Установите DefaultFont, например MingLiu или MS Gothic, чтобы отображались эти символы.<br/> Если это свойство не установлено, Aspose.Cells будет использовать системный шрифт по умолчанию для отображения этих символов Юникода.|
 | [check_workbook_default_font](/cells/ru/python-net/aspose.cells/xpssaveoptions/check_workbook_default_font) | Когда символы в Excel имеют формат Unicode и для них не задан правильный шрифт в стиле ячейки,<br/>Они могут отображаться как блок в pdf, изображение.<br/> Установите для этого параметра значение true, чтобы попытаться использовать шрифт рабочей книги по умолчанию для отображения этих символов в первую очередь.|

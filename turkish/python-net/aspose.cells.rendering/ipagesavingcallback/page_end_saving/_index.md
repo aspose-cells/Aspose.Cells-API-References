@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_end_saving yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def page_end_saving(self, args):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | args | [PageEndSavingArgs](/cells/tr/python-net/aspose.cells.rendering/pageendsavingargs) | Bir sayfa için bilgi kaydetme işlemi sona erer.|
 

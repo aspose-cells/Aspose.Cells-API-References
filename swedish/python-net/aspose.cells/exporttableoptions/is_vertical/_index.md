@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_vertical fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_vertical fastighet
 
-Sant om en rad i arbetsboksfilen representerar en rad i DataTable.
+Sant om en rad i arbetsboksfilen representerar en rad i DataTable. Falskt om en kolumn i arbetsboksfilen representerar en rad i DataTable.
 ###  Definition:
 ```python
 @property

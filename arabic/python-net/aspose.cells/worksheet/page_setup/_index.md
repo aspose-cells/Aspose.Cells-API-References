@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_setup الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

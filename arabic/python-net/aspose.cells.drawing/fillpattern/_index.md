@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد FillPattern
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -36,15 +36,15 @@ is_root: false
 | DARK_DOWNWARD_DIAGONAL | يمثل نمط قطري داكن داكن.|
 | DARK_UPWARD_DIAGONAL | يمثل نمط قطري صاعد داكن.|
 | WIDE_DOWNWARD_DIAGONAL | يمثل نمط قطري عريض للأسفل.|
-| WIDE_UPWARD_DIAGONAL | يمثل نمطًا قطريًا عريضًا صاعدًا.|
+| WIDE_UPWARD_DIAGONAL | يمثل نمط قطري عريض صاعد.|
 | LIGHT_VERTICAL | يمثل نمطًا عموديًا خفيفًا.|
 | LIGHT_HORIZONTAL | يمثل نمط أفقي فاتح.|
 | NARROW_VERTICAL | يمثل نمطًا رأسيًا ضيقًا.|
-| NARROW_HORIZONTAL | يمثل نمطًا أفقيًا ضيقًا.|
+| NARROW_HORIZONTAL | يمثل نمط أفقي ضيق.|
 | DARK_VERTICAL | يمثل نمطًا عموديًا داكنًا.|
 | DARK_HORIZONTAL | يمثل نمط أفقي داكن.|
 | DASHED_DOWNWARD_DIAGONAL | يمثل نمط قطري متقطع للأسفل.|
-| DASHED_UPWARD_DIAGONAL | يمثل نمطًا قطريًا متقطعًا صاعدًا.|
+| DASHED_UPWARD_DIAGONAL | يمثل نمط قطري متقطع للأعلى.|
 | DASHED_VERTICAL |يمثل نمطًا رأسيًا متقطعًا.|
 | DASHED_HORIZONTAL | يمثل نمطًا أفقيًا متقطعًا.|
 | SMALL_CONFETTI | يمثل نمط قصاصات صغيرة.|
@@ -55,19 +55,19 @@ is_root: false
 | HORIZONTAL_BRICK | يمثل نمط الطوب الأفقي.|
 | WEAVE | يمثل نمط نسج.|
 | PLAID | يمثل نمط منقوش.|
-| DIVOT | يمثل أنماط الانقسام.|
+| DIVOT | يمثل نمط القسمة.|
 | DOTTED_GRID | يمثل نمط الشبكة المنقط.|
 | DOTTED_DIAMOND | يمثل نمط الماس المنقط.|
-| SHINGLE | يمثل نمط واحد.|
+| SHINGLE | يمثل نمط لوحة خشبية.|
 | TRELLIS | يمثل نمط التعريشة.|
 | SPHERE | يمثل نمط المجال.|
-| SMALL_GRID | يمثل أنماط الشبكة الصغيرة.|
+| SMALL_GRID | يمثل نمط شبكة صغير.|
 | LARGE_GRID | يمثل نمط شبكة كبير.|
 | SMALL_CHECKER_BOARD | يمثل نمط رقعة صغيرة.|
 | LARGE_CHECKER_BOARD | يمثل نمط رقعة كبيرة.|
 | OUTLINED_DIAMOND | يمثل نمط الماس المحدد.|
 | SOLID_DIAMOND | يمثل نمط الماس الصلب.|
-| UNKNOWN | يمثل أنماطًا غير معروفة.|
+| UNKNOWN | يمثل نمط غير معروف.|
 
 
 

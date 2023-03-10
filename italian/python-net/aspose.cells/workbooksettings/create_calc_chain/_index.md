@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_calc_chain proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

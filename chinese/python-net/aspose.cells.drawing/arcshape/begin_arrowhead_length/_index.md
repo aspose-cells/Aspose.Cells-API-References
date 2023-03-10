@@ -1,6 +1,6 @@
-﻿---
+---
 title: begin_arrowhead_length 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 290
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-注意：该成员现已过时。
+注意：该成员现已过时。反而，
 请使用 Shape.Line.BeginArrowheadLength 属性。
 自 2016 年 8 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。

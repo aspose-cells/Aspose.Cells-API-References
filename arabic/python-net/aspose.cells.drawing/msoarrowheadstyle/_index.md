@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد MsoArrowheadStyle
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -21,7 +21,7 @@ is_root: false
 | ARROW | نوع خط نهاية السهم.|
 | ARROW_STEALTH | نوع نهاية خط السهم التسلل.|
 | ARROW_DIAMOND | نوع نهاية خط سهم ماسي.|
-| ARROW_OVAL | نوع نهاية خط بيضاوي السهم.|
+| ARROW_OVAL | نوع نهاية خط سهم بيضاوي.|
 | ARROW_OPEN | سهم فتح نوع نهاية السطر.|
 
 

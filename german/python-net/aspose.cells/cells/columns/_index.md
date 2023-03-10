@@ -1,4 +1,4 @@
-﻿---
+---
 title: columns Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  columns Eigentum
 
-Ruft die Auflistung von [Column](/cells/de/python-net/aspose.cells/column)-Objekten ab, die die Person columns in diesem Arbeitsblatt darstellen.
+Ruft die Auflistung von [Column](/cells/de/python-net/aspose.cells/column)-Objekten ab, die das Individuum columns in diesem Arbeitsblatt darstellt.
 ###  Definition:
 ```python
 @property

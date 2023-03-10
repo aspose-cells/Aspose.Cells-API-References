@@ -1,4 +1,4 @@
-﻿---
+---
 title: DateTimeGroupItem konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def __init__(self, type, year, month, day, hour, minute, second):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [DateTimeGroupingType](/cells/sv/python-net/aspose.cells/datetimegroupingtype) |  |
 | year | int |  |

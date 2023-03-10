@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFitWrappedTextType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/autofitwrappedtexttype/
 is_root: false
 ---
 ##  AutoFitWrappedTextType numaralandırma
-Otomatik sığdırılan sarılmış metnin türünü temsil eder.
+Sarılmış metnin otomatik sığdırma türünü temsil eder.
 
 
 

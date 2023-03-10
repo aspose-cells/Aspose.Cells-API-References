@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_column_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.tables/listobjectcollection/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Обновите имена всех столбцов таблиц.
+Обновите все имена столбцов таблиц.
 
 
 

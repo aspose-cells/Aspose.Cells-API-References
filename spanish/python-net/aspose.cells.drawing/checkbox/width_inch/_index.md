@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_inch propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch propiedad
 
-Representa el ancho de la forma, en unidades de pulgadas.
+Representa el ancho de la forma, en unidades de pulgada.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

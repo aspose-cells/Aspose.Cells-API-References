@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_a1_formula_to_r1c1 Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_chart_data_changed metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

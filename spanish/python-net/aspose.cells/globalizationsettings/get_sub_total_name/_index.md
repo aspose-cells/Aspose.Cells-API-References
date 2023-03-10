@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_sub_total_name método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,12 +22,12 @@ def get_sub_total_name(self, sub_total_type):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | El tipo [PivotFieldSubtotalType](/cells/es/python-net/aspose.cells.pivot/pivotfieldsubtotaltype)|
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto.
+NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice el método GlobalizationSettings.GetColumnLabelsOfPivotTable().
  Esta propiedad se eliminará 12 meses después desde diciembre de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

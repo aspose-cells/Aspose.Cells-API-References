@@ -1,4 +1,4 @@
-﻿---
+---
 title: IndividualFontConfigs costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/individualfontconfigs/__init__/
 is_root: false
 ---
 ##  IndividualFontConfigs() {#}
-Direttore.
+rettore.
 
 
 

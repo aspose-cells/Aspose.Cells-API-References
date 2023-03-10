@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoLineStyle uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen MsoLineStyle avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| SINGLE | Enkel rad (av bredd lineWidth)|
+| SINGLE | Enstaka rad (av bredd lineWidth)|
 | THICK_BETWEEN_THIN | Tre streck, tunna, tjocka, tunna|
 | THIN_THICK |Dubbla linjer, en tunn, en tjock|
 | THICK_THIN | Dubbla linjer, en tjock, en tunn|

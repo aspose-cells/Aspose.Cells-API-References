@@ -1,4 +1,4 @@
-﻿---
+---
 title: style_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -12,7 +12,7 @@ is_root: false
 Spécifiez le type de style de trancheuse intégré
 le type par défaut est SlicerStyleLight1
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

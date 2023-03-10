@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_sheet
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -20,9 +20,9 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/it/python-net/aspose.cells/worksheet) | Il foglio di lavoro da caricare.<br/>Ci sono solo poche proprietà che possono essere utilizzate per l'oggetto del foglio di lavoro qui<br/>perché la maggior parte dei dati e delle proprietà non sono stati caricati.<br/> Nome, indice, tipo di visibilità|
+| sheet | [Worksheet](/cells/it/python-net/aspose.cells/worksheet) | Il foglio di lavoro da caricare.<br/>Ci sono solo poche proprietà che possono essere utilizzate per l'oggetto del foglio di lavoro qui<br/>perché la maggior parte dei dati e delle proprietà non sono stati caricati. Le proprietà disponibili sono:<br/> Nome, indice, tipo di visibilità|
 
 
 

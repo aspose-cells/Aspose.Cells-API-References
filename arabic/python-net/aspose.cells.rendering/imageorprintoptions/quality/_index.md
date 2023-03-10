@@ -1,4 +1,4 @@
-﻿---
+---
 title: quality الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  quality الملكية
 
 الحصول على أو تحديد قيمة تحدد quality للصور التي تم تكوينها
-لتطبيقه فقط عند حفظ الصفحات بتنسيق `Jpeg`.
+لتطبيقه فقط عند حفظ الصفحات بتنسيق `Jpeg`. القيمة الافتراضية هي 100
 
 ###  ملاحظات
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatCondition Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,8 +21,8 @@ Der Typ FormatCondition macht die folgenden Member verfügbar:
 | [formula2](/cells/de/python-net/aspose.cells/formatcondition/formula2) | Ruft den Wert oder Ausdruck ab, der der bedingten Formatierung zugeordnet ist, und legt diesen fest.|
 | [operator](/cells/de/python-net/aspose.cells/formatcondition/operator) | Ruft den Typ des bedingten Formatoperators ab und legt ihn fest.|
 | [stop_if_true](/cells/de/python-net/aspose.cells/formatcondition/stop_if_true) |True, keine Regeln mit niedrigerer Priorität können auf diese Regel angewendet werden, wenn diese Regel als wahr ausgewertet wird.<br/> Gilt nur für Excel 2007;|
-| [priority](/cells/de/python-net/aspose.cells/formatcondition/priority) | Die Priorität dieser Regel zur bedingten Formatierung.<br/>format ausgewertet und gerendert werden sollen. Niedrigere Zahlenwerte haben höhere Priorität als<br/> höhere numerische Werte, wobei '1' die höchste Priorität hat.|
-| [style](/cells/de/python-net/aspose.cells/formatcondition/style) | Ruft den Stil von bedingt formatierten Zellbereichen ab oder legt diesen fest.|
+| [priority](/cells/de/python-net/aspose.cells/formatcondition/priority) | Die Priorität dieser Regel zur bedingten Formatierung. Dieser Wert wird verwendet, um zu bestimmen, welche<br/>Format ausgewertet und gerendert werden soll. Niedrigere numerische Werte haben eine höhere Priorität als<br/> höhere numerische Werte, wobei '1' die höchste Priorität hat.|
+| [style](/cells/de/python-net/aspose.cells/formatcondition/style) | Ruft den Stil von bedingt formatierten Zellbereichen ab oder legt ihn fest.|
 | [type](/cells/de/python-net/aspose.cells/formatcondition/type) | Ruft ab und legt fest, ob das bedingte Format Type.|
 | [icon_set](/cells/de/python-net/aspose.cells/formatcondition/icon_set) | Rufen Sie die „IconSet“-Instanz der bedingten Formatierung ab.<br/>Der IconSetType der Standardinstanz ist TrafficLights31.<br/> Gültig nur für type = IconSet.|
 | [data_bar](/cells/de/python-net/aspose.cells/formatcondition/data_bar) | Rufen Sie die „DataBar“-Instanz der bedingten Formatierung ab.<br/>Die Farbe der Standardinstanz ist blau.<br/> Gültig nur für Typ ist DataBar.|
@@ -48,7 +48,7 @@ Der Typ FormatCondition macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

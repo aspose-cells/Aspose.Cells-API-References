@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPattern uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -36,7 +36,7 @@ Typen FillPattern avslöjar följande medlemmar:
 | DARK_DOWNWARD_DIAGONAL | Representerar mörkt diagonalt mönster nedåt.|
 | DARK_UPWARD_DIAGONAL | Representerar mörkt diagonalt mönster uppåt.|
 | WIDE_DOWNWARD_DIAGONAL | Representerar ett brett diagonalt mönster nedåt.|
-| WIDE_UPWARD_DIAGONAL | Representerar ett brett uppåtriktat diagonalt mönster.|
+| WIDE_UPWARD_DIAGONAL | Representerar ett brett diagonalt mönster uppåt.|
 | LIGHT_VERTICAL | Representerar ljust vertikalt mönster.|
 | LIGHT_HORIZONTAL | Representerar ljust horisontellt mönster.|
 | NARROW_VERTICAL | Representerar ett smalt vertikalt mönster.|
@@ -52,22 +52,22 @@ Typen FillPattern avslöjar följande medlemmar:
 | ZIG_ZAG | Representerar sicksackmönster.|
 | WAVE | Representerar vågmönster.|
 | DIAGONAL_BRICK | Representerar diagonalt tegelmönster.|
-| HORIZONTAL_BRICK | Representerar ett horisontellt tegelmönster.|
+| HORIZONTAL_BRICK | Representerar horisontellt tegelmönster.|
 | WEAVE | Representerar vävmönster.|
 | PLAID | Representerar rutigt mönster.|
 | DIVOT | Representerar divotmönster.|
 | DOTTED_GRID | Representerar ett prickat rutmönster.|
 | DOTTED_DIAMOND | Representerar prickigt diamantmönster.|
-| SHINGLE | Representerar ett enda mönster.|
+| SHINGLE | Representerar singelmönster.|
 | TRELLIS | Representerar spaljémönster.|
 | SPHERE | Representerar sfärmönster.|
-| SMALL_GRID | Representerar små rutmönster.|
+| SMALL_GRID | Representerar litet rutmönster.|
 | LARGE_GRID | Representerar stort rutmönster.|
 | SMALL_CHECKER_BOARD | Representerar litet rutmönster.|
 | LARGE_CHECKER_BOARD | Representerar stort rutmönster.|
 | OUTLINED_DIAMOND | Representerar det skisserade diamantmönster.|
 | SOLID_DIAMOND | Representerar massivt diamantmönster.|
-| UNKNOWN | Representerar okända mönster.|
+| UNKNOWN | Representerar okänt mönster.|
 
 
 

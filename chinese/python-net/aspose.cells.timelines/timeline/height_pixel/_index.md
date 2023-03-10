@@ -1,6 +1,6 @@
-﻿---
+---
 title: height_pixel 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## height_pixel 属性
 
-返回或设置指定时间轴的高度，以像素为单位。
+返回或设置指定时间线的高度，以像素为单位。
 ### 定义：
 ```python
 @property

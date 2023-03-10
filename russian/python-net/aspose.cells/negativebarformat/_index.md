@@ -1,4 +1,4 @@
-﻿---
+---
 title: NegativeBarFormat класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/negativebarformat/
 is_root: false
 ---
 ##  NegativeBarFormat класс
-Представляет настройки цвета гистограмм для отрицательных значений, которые определяются правилом условного форматирования гистограммы.
+Представляет параметры цвета гистограмм для отрицательных значений, которые определяются правилом условного форматирования гистограммы.
 
 
 

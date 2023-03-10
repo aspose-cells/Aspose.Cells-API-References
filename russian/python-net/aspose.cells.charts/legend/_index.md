@@ -1,4 +1,4 @@
-﻿---
+---
 title: Legend класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -29,7 +29,7 @@ is_root: false
 | [text_font](/cells/ru/python-net/aspose.cells.charts/legend/text_font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
 | [text_options](/cells/ru/python-net/aspose.cells.charts/legend/text_options) | Получает и задает параметры текста.|
 | [font](/cells/ru/python-net/aspose.cells.charts/legend/font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
-| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/legend/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта.|
+| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/legend/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию верно.|
 | [background_mode](/cells/ru/python-net/aspose.cells.charts/legend/background_mode) | Получает и задает режим отображения фона|
 | [background](/cells/ru/python-net/aspose.cells.charts/legend/background) | Получает и задает режим отображения фона|
 | [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/legend/is_automatic_size) | Указывает, имеет ли рамка диаграммы автоматический размер.|
@@ -45,7 +45,7 @@ is_root: false
 | [default_width](/cells/ru/python-net/aspose.cells.charts/legend/default_width) | Представляет ширину положения по умолчанию|
 | [default_height](/cells/ru/python-net/aspose.cells.charts/legend/default_height) | Представляет высоту позиции по умолчанию|
 | [is_auto_text](/cells/ru/python-net/aspose.cells.charts/legend/is_auto_text) | Указывает, что текст генерируется автоматически.|
-| [is_deleted](/cells/ru/python-net/aspose.cells.charts/legend/is_deleted) | Указывает, удалена ли эта метка данных.|
+| [is_deleted](/cells/ru/python-net/aspose.cells.charts/legend/is_deleted) | Указывает, удалены ли эти метки данных.|
 | [text_horizontal_alignment](/cells/ru/python-net/aspose.cells.charts/legend/text_horizontal_alignment) | Получает и задает выравнивание текста по горизонтали.|
 | [text_vertical_alignment](/cells/ru/python-net/aspose.cells.charts/legend/text_vertical_alignment) |Получает или задает выравнивание текста по вертикали.|
 | [rotation_angle](/cells/ru/python-net/aspose.cells.charts/legend/rotation_angle) | Представляет угол поворота текста.|
@@ -56,7 +56,7 @@ is_root: false
 | [reading_order](/cells/ru/python-net/aspose.cells.charts/legend/reading_order) | Представляет порядок чтения текста.|
 | [direction_type](/cells/ru/python-net/aspose.cells.charts/legend/direction_type) | Получает и задает направление текста.|
 | [is_text_wrapped](/cells/ru/python-net/aspose.cells.charts/legend/is_text_wrapped) | Получает или задает значение, указывающее, переносится ли текст.|
-| [is_resize_shape_to_fit_text](/cells/ru/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | Получает или задает значение, указывающее, должна ли фигура автоматически подбираться, чтобы полностью содержать описанный в ней текст.<br/> когда текст внутри фигуры масштабируется, чтобы содержать весь текст внутри.|
+| [is_resize_shape_to_fit_text](/cells/ru/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | Получает или задает значение, указывающее, должна ли фигура автоматически подбираться, чтобы полностью содержать описанный в ней текст. Автоподгонка есть<br/> когда текст внутри фигуры масштабируется, чтобы содержать весь текст внутри.|
 | [position](/cells/ru/python-net/aspose.cells.charts/legend/position) | Получает или задает тип положения легенды.|
 | [legend_entries](/cells/ru/python-net/aspose.cells.charts/legend/legend_entries) | Получает коллекцию всех объектов LegendEntry в указанной легенде диаграммы.<br/>Установка записей легенды поверхностной диаграммы не поддерживается.<br/> Таким образом, он вернет null, если тип диаграммы является типом поверхностной диаграммы.|
 | [legend_entries_labels](/cells/ru/python-net/aspose.cells.charts/legend/legend_entries_labels) |Получает метки записей легенды после вызова метода Chart.Calculate().|
@@ -71,7 +71,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

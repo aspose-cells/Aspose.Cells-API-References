@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count fastighet
 
-Får det totala antalet sidor av arbetsböcker.
+Får det totala antalet sidor i arbetsboken.
 ###  Definition:
 ```python
 @property

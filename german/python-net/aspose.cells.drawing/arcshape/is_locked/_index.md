@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_locked Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 True, wenn das Objekt gesperrt ist, False, wenn das Objekt geändert werden kann, wenn das Blatt geschützt ist.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

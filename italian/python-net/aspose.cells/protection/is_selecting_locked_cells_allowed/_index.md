@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_selecting_locked_cells_allowed proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se l'utente può selezionare celle bloccate in un foglio di lavoro protet
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare la proprietà Protection.AllowSelectingLockedCell.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

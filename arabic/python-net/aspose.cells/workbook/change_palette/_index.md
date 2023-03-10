@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة change_palette
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def change_palette(self, color, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | بنية اللون.|
 | index | int | فهرس لوح الألوان ، 0-55.|

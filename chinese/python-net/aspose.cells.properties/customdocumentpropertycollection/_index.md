@@ -1,6 +1,6 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -36,11 +36,11 @@ CustomDocumentPropertyCollection 类型公开了以下成员：
 | [last_index_of(item)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty) |搜索指定的对象并返回整个数组列表中最后一次出现的从零开始的索引。|
 | [last_index_of(item, index)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int) |搜索指定的对象并返回数组列表中从第一个元素到指定索引的元素范围内最后一次出现的从零开始的索引。|
 | [last_index_of(item, index, count)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int-int) |搜索指定的对象并返回数组列表中包含指定数量的元素并以指定索引结束的元素范围内最后一次出现的从零开始的索引。|
-| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) |创建一个新的自定义文档属性**PropertyType.String**数据类型。|
+| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) |创建一个新的自定义文档属性**属性类型.String**数据类型。|
 | [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) |创建一个新的自定义文档属性**属性类型.编号**数据类型。|
-| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) |创建一个新的自定义文档属性**PropertyType.DateTime**数据类型。|
-| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) |创建一个新的自定义文档属性**PropertyType.Boolean**数据类型。|
-| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) |创建一个新的自定义文档属性**PropertyType.Float**数据类型。|
+| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) |创建一个新的自定义文档属性**属性类型.日期时间**数据类型。|
+| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) |创建一个新的自定义文档属性**PropertyType.布尔值**数据类型。|
+| [add(name, value)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) |创建一个新的自定义文档属性**属性类型.Float**数据类型。|
 | [binary_search(item)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) |使用默认比较器在整个排序数组列表中搜索元素，并返回元素的从零开始的索引。|
 | [add_link_to_content(name, source)](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) |创建链接到内容的新自定义文档属性。|
 | [update_linked_property_value()](/cells/zh/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |更新链接到内容的自定义文档属性值。|

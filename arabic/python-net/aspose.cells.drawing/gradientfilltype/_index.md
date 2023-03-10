@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد GradientFillType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  العد GradientFillType
-يمثل جميع أنواع التعبئة المتدرجة.
+يمثل كل أنواع التعبئة المتدرجة.
 
 
 

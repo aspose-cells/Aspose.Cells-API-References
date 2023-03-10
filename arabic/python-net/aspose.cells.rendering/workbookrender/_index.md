@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [page_count](/cells/ar/python-net/aspose.cells.rendering/workbookrender/page_count) | الحصول على إجمالي عدد صفحات المصنفات.|
+| [page_count](/cells/ar/python-net/aspose.cells.rendering/workbookrender/page_count) | الحصول على إجمالي عدد صفحات المصنف.|
 
 
 ###  طُرق
@@ -32,8 +32,8 @@ is_root: false
 | :- | :- |
 | [to_image(stream)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_image/#io.RawIOBase) | عرض المصنف بأكمله كصورة Tiff للدفق.|
 | [to_image(filename)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_image/#str) | عرض المصنف بأكمله على هيئة Tiff Image إلى ملف.|
-| [to_image(page_index, file_name)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) | تقديم صفحات معينة إلى ملف.|
-| [to_image(page_index, stream)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) | تقديم صفحات معينة إلى دفق.|
+| [to_image(page_index, file_name)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) | تقديم صفحة معينة إلى ملف.|
+| [to_image(page_index, stream)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) | تقديم صفحة معينة إلى دفق.|
 | [to_printer(printer_name)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_printer/#str) | تقديم المصنف إلى الطابعة|
 | [to_printer(printer_name, job_name)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_printer/#str-str) | تقديم المصنف إلى الطابعة|
 | [to_printer(printer_settings)](/cells/ar/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) | تقديم المصنف إلى الطابعة|

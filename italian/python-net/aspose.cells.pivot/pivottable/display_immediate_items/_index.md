@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_immediate_items proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items proprietà
 
 Indica se gli elementi nelle aree di riga e colonna sono visibili
-quando l'area dati della tabella pivot è vuota.
+quando l'area dati della tabella pivot è vuota. Il valore predefinito è vero.
 ###  Definizione:
 ```python
 @property

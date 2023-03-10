@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_single_tab propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_single_tab propiedad
 
-Indica si exportar la pestaña única cuando el archivo solo tiene una hoja de cálculo.
+Indica si exportar la pestaña única cuando el archivo solo tiene una hoja de trabajo.
 El valor predeterminado es falso.
 ###  Definición:
 ```python

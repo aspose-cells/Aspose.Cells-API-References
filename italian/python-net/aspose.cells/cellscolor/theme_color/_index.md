@@ -1,4 +1,4 @@
-﻿---
+---
 title: theme_color proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color proprietà
 
-Ottiene il colore del tema.
+Ottiene il colore del tema. Si applica solo per il tipo di colore del tema.
 ###  Definizione:
 ```python
 @property

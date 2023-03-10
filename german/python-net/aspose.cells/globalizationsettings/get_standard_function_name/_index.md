@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_standard_function_name Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def get_standard_function_name(self, local_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| local_name | str | Vom Gebietsschema abhängiger Funktionsname.|
+| local_name | str | Vom Gebietsschema abhängiger Funktionsname. Das Gebietsschema wurde von der Arbeitsmappe angegeben, für die diese Einstellungen verwendet werden.|
 
 
 

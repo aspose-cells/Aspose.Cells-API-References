@@ -1,4 +1,4 @@
-﻿---
+---
 title: OoxmlCompressionType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ Der Typ OoxmlCompressionType macht die folgenden Member verfügbar:
 | LEVEL5 | Etwas langsamer als Stufe 4, aber mit besserer Komprimierung.|
 | LEVEL6 | Eine gute Balance zwischen Geschwindigkeit und Kompressionseffizienz.|
 | LEVEL7 | Ziemlich gute Kompression!|
-| LEVEL8 | Bessere Komprimierung als Level 7!|
+| LEVEL8 | Bessere Komprimierung als Level7!|
 | LEVEL9 |Die "beste" Komprimierung, wobei am besten die größte Reduzierung der Größe des Eingangsdatenstroms bedeutet.<br/> Dies ist auch die langsamste Komprimierung.|
 
 

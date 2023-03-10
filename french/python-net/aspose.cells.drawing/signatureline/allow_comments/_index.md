@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_comments propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si des commentaires peuvent être joints.
 
-###  Exemples
+###  Exemple
 
 ```python
 

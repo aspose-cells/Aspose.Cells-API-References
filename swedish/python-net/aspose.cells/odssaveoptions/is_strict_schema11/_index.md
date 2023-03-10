@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_strict_schema11 fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

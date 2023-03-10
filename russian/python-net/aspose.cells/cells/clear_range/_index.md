@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def clear_range(self, range):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | range | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Диапазон, который нужно очистить.|
 
@@ -34,7 +34,7 @@ def clear_range(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Индекс начальной строки.|
 | start_column | int | Начальный индекс столбца.|

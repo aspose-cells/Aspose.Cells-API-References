@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_columns الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل الأعمدة التي تحتوي على الخلايا المراد تكرارها على الجانب الأيسر من كل صفحة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

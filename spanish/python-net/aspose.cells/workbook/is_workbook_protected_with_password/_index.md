@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_workbook_protected_with_password propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

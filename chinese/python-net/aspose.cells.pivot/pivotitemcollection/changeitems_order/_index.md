@@ -1,6 +1,6 @@
-﻿---
+---
 title: changeitems_order方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def changeitems_order(self, source_index, dest_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | source_index | int |当前指数|
 | dest_index | int |目标索引|

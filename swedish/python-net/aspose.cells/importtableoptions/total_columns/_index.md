@@ -1,4 +1,4 @@
-﻿---
+---
 title: total_columns fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_columns fastighet
 
--1 betyder alla rader av given datakälla.
+Hämtar eller ställer in totalt kolumnantal för import från datakällan. -1 betyder alla rader av given datakälla.
 ###  Definition:
 ```python
 @property

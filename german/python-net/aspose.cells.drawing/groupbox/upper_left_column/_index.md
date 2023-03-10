@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_left_column Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Repräsentiert den Spaltenindex der oberen linken Ecke.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

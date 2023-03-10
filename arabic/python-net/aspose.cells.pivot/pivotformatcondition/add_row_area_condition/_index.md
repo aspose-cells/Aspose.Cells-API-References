@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_row_area_condition
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_row_area_condition(self, field_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_name | str | اسم PivotField.|
 
@@ -34,7 +34,7 @@ def add_row_area_condition(self, row_field):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) |PivotField في حقول الصفوف.|
 

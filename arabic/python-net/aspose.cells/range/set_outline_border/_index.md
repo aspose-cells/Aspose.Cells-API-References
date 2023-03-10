@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_outline_border
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_outline_border(self, border_edge, border_style, border_color):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/ar/python-net/aspose.cells/bordertype) | حافة الحدود.|
 | border_style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | نمط الحدود.|
@@ -36,7 +36,7 @@ def set_outline_border(self, border_edge, border_style, border_color):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/ar/python-net/aspose.cells/bordertype) | حافة الحدود.|
 | border_style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | نمط الحدود.|

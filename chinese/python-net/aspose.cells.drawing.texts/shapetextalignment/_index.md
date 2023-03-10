@@ -1,6 +1,6 @@
-﻿---
+---
 title: ShapeTextAlignment类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -25,7 +25,7 @@ ShapeTextAlignment 类型公开了以下成员：
 | [text_vertical_type](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) |获取和设置文本方向。|
 | [auto_size](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |指示形状的大小是否根据其内容自动调整。|
 | [text_shape_type](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) |获取和设置文本的转换类型。|
-| [top_margin_pt](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) |以 Points 为单位返回上边距|
+| [top_margin_pt](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) |以点为单位返回顶部边距|
 | [bottom_margin_pt](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) |以点为单位返回底部边距|
 | [left_margin_pt](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) |以点为单位返回左边距|
 | [right_margin_pt](/cells/zh/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) |以点为单位返回右边距|

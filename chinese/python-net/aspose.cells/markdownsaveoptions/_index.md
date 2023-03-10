@@ -1,6 +1,6 @@
-﻿---
+---
 title: MarkdownSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1030
@@ -41,7 +41,7 @@ MarkdownSaveOptions 类型公开了以下成员：
 | [update_smart_art](/cells/zh/python-net/aspose.cells/markdownsaveoptions/update_smart_art) |指示是否更新智能艺术设置。<br/>默认值为假。|
 | [encoding](/cells/zh/python-net/aspose.cells/markdownsaveoptions/encoding) |获取和设置默认编码。|
 | [format_strategy](/cells/zh/python-net/aspose.cells/markdownsaveoptions/format_strategy) |获取和设置将单元格值导出为字符串时的格式策略。|
-| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在浅色模式下保存工作簿。|
+| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在轻模式下保存工作簿。|
 | [line_separator](/cells/zh/python-net/aspose.cells/markdownsaveoptions/line_separator) |获取和设置行分隔符。|
 
 

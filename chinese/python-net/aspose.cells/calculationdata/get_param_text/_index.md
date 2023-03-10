@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_param_text方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -22,9 +22,9 @@ def get_param_text(self, index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| index | int |参数的索引（基于 0）|
+| index | int |参数索引（基于0）|
 
 
 

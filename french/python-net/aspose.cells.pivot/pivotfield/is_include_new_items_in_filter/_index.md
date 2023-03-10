@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_include_new_items_in_filter propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

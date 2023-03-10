@@ -1,4 +1,4 @@
-﻿---
+---
 title: NameCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -33,7 +33,7 @@ is_root: false
 | [last_index_of(item, index)](/cells/ar/python-net/aspose.cells/namecollection/last_index_of/#Name-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
 | [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells/namecollection/last_index_of/#Name-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
 | [add(text)](/cells/ar/python-net/aspose.cells/namecollection/add/#str) | يعرّف اسمًا جديدًا.|
-| [filter(type, sheet_index)](/cells/ar/python-net/aspose.cells/namecollection/filter/#NameScopeType-int) | يحصل على جميع الأسماء المحددة حسب النطاق.|
+| [filter(type, sheet_index)](/cells/ar/python-net/aspose.cells/namecollection/filter/#NameScopeType-int) | يحصل على كل الاسم المحدد حسب النطاق.|
 | [remove_duplicate_names()](/cells/ar/python-net/aspose.cells/namecollection/remove_duplicate_names/#) | قم بإزالة الأسماء المعرفة المكررة|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells/namecollection/binary_search/#Name) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 

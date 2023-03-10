@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleted propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted propiedad
 
-Indica si esta etiqueta de datos se elimina.
+Indica si se eliminan estas etiquetas de datos.
 ###  Definición:
 ```python
 @property

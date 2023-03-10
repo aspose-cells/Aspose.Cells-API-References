@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [key3](/cells/ar/python-net/aspose.cells/datasorter/key3) | يمثل فهرس العمود الثالث المصنف (الموضع المطلق ، العمود A هو 0 ، B هو 1 ، ...).|
 | [order3](/cells/ar/python-net/aspose.cells/datasorter/order3) | يمثل ترتيب الفرز للمفتاح الثالث.|
 | [sort_left_to_right](/cells/ar/python-net/aspose.cells/datasorter/sort_left_to_right) | صحيح يعني أن اتجاه الفرز يكون من اليسار إلى اليمين.<br/>خطأ يعني أن اتجاه الفرز من أعلى إلى أسفل.<br/> القيمة الافتراضية هي كاذبة.|
-| [case_sensitive](/cells/ar/python-net/aspose.cells/datasorter/case_sensitive) | الحصول على وتحديد ما إذا كانت حساسة لحالة الأحرف عند مقارنة السلاسل.|
+| [case_sensitive](/cells/ar/python-net/aspose.cells/datasorter/case_sensitive) | الحصول على وتحديد ما إذا كانت حساسة لحالة الأحرف عند مقارنة السلسلة.|
 | [sort_as_number](/cells/ar/python-net/aspose.cells/datasorter/sort_as_number) | يشير إلى ما إذا كان يتم فرز أي شيء يشبه الرقم.|
 
 
@@ -44,7 +44,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

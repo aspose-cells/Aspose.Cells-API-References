@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_color_in_palette méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Vérifie si une couleur se trouve dans la palette de la feuille de calcul.
 
 ###  Retour
 
-Renvoie true si cette couleur est dans la palette.
+Renvoie true si cette couleur est dans la palette. Sinon, renvoie faux
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Structure de couleur.|
 

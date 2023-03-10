@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_active_x_control yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ def remove_active_x_control(self):
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 

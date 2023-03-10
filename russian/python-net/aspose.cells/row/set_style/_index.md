@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_style метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | стиль, который будет использоваться в качестве стиля по умолчанию для ячеек в этой строке.|
 ###  Примечания

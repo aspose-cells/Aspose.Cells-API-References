@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe DataBar
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  classe DataBar
  Descrivi la regola di formattazione condizionale DataBar.
-Questa regola di formattazione condizionale visualizza un voto
+Questa regola di formattazione condizionale visualizza un file graduato
 barra dei dati nell'intervallo di celle.
 
 
@@ -30,7 +30,7 @@ Il tipo DataBar espone i membri seguenti:
 | [color](/cells/it/python-net/aspose.cells/databar/color) | Ottieni o imposta questo DataBar's Color.|
 | [min_length](/cells/it/python-net/aspose.cells/databar/min_length) | Rappresenta la lunghezza minima della barra dei dati.|
 | [max_length](/cells/it/python-net/aspose.cells/databar/max_length) | Rappresenta la lunghezza massima della barra dei dati.|
-| [show_value](/cells/it/python-net/aspose.cells/databar/show_value) | Ottieni o imposta il flag che indica se mostrare i valori delle celle su cui è applicata questa barra dati.<br/> Il valore predefinito è vero.|
+| [show_value](/cells/it/python-net/aspose.cells/databar/show_value) | Ottenere o impostare il flag che indica se mostrare i valori delle celle su cui è applicata questa barra dei dati.<br/> Il valore predefinito è vero.|
 
 
 ###  Metodi
@@ -40,7 +40,7 @@ Il tipo DataBar espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

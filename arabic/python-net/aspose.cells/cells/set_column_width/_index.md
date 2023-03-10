@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_column_width
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,13 +18,13 @@ def set_column_width(self, column, width):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود.|
-| width | float | عرض العمود. يجب أن يكون عرض العمود بين 0 و 255.|
+| width | float | عرض العمود يجب أن يكون عرض العمود بين 0 و 255.|
 ###  ملاحظات
 
-لإخفاء عمود ، اضبط عرض العمود على الصفر.
+لإخفاء عمود ، قم بتعيين عرض العمود على صفر.
 
 
 ###  أنظر أيضا

@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Obtient ou définit le nombre de pages à enregistrer.
 
 La valeur par défaut est System.Int32.MaxValue, ce qui signifie que toutes les pages seront rendues.
 
-###  Exemples
+###  Exemple
 
 L'exemple suivant montre comment rendre une plage de pages (3 et 4) dans un fichier Excel Microsoft en PDF.
 

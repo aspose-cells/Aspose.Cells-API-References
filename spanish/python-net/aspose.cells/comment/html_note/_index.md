@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_note propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Obtiene y establece la cadena html que contiene datos y algunos formatos en este
 
 Si se trata de un comentario encadenado, la nota no se puede cambiar; de lo contrario, MS Excel no podría procesarlo como un comentario encadenado.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

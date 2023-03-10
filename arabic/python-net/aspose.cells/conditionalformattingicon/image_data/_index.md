@@ -1,4 +1,4 @@
-﻿---
+---
 title: image_data الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  image_data الملكية
 
-يحصل على بيانات مجموعة الأيقونات.
+يحصل على بيانات مجموعة الرموز.
 ###  تعريف:
 ```python
 @property

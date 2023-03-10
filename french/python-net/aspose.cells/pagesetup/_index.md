@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageSetup classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -33,7 +33,7 @@ Le type PageSetup expose les membres suivants :
 | [printer_settings](/cells/fr/python-net/aspose.cells/pagesetup/printer_settings) | Obtient et définit les paramètres de l'imprimante par défaut.|
 | [left_margin](/cells/fr/python-net/aspose.cells/pagesetup/left_margin) |Représente la taille de la marge de gauche, en centimètres.|
 | [left_margin_inch](/cells/fr/python-net/aspose.cells/pagesetup/left_margin_inch) | Représente la taille de la marge de gauche, en pouces.|
-| [right_margin](/cells/fr/python-net/aspose.cells/pagesetup/right_margin) | Représente la taille de la marge de droite, en centimètres.|
+| [right_margin](/cells/fr/python-net/aspose.cells/pagesetup/right_margin) | Représente la taille de la marge droite, en centimètres.|
 | [right_margin_inch](/cells/fr/python-net/aspose.cells/pagesetup/right_margin_inch) | Représente la taille de la marge de droite, en pouces.|
 | [top_margin](/cells/fr/python-net/aspose.cells/pagesetup/top_margin) | Représente la taille de la marge supérieure, en centimètres.|
 | [top_margin_inch](/cells/fr/python-net/aspose.cells/pagesetup/top_margin_inch) | Représente la taille de la marge supérieure, en pouces.|
@@ -70,7 +70,7 @@ Le type PageSetup expose les membres suivants :
 | [get_picture(is_first, is_even, is_header, section)](/cells/fr/python-net/aspose.cells/pagesetup/get_picture/#bool-bool-bool-int) | Obtient l'objet [Picture](/cells/fr/python-net/aspose.cells.drawing/picture) de l'en-tête/pied de page.|
 | [copy(source, copy_options)](/cells/fr/python-net/aspose.cells/pagesetup/copy/#PageSetup-CopyOptions) | Copie le réglage de la mise en page.|
 | [set_fit_to_pages(wide, tall)](/cells/fr/python-net/aspose.cells/pagesetup/set_fit_to_pages/#int-int) | Définit le nombre de pages sur lesquelles la feuille de calcul sera mise à l'échelle lors de son impression.|
-| [custom_paper_size(width, height)](/cells/fr/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | Définit le format de papier personnalisé, en unités de pouces.|
+| [custom_paper_size(width, height)](/cells/fr/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | Définit le format de papier personnalisé, en pouces.|
 | [clear_header_footer()](/cells/fr/python-net/aspose.cells/pagesetup/clear_header_footer/#) | Efface les paramètres d'en-tête et de pied de page.|
 | [get_header(section)](/cells/fr/python-net/aspose.cells/pagesetup/get_header/#int) | Obtient un script mettant en forme l'en-tête d'un fichier Excel.|
 | [get_commands(header_footer_script)](/cells/fr/python-net/aspose.cells/pagesetup/get_commands/#str) | Obtient toutes les commandes d'en-tête ou de pied de page.|
@@ -91,7 +91,7 @@ Le type PageSetup expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

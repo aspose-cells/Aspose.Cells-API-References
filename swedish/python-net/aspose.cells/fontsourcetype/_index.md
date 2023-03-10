@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSourceType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,9 +17,9 @@ Typen FontSourceType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| FONT_FILE | representerar en enda teckensnittsfil.|
-| FONTS_FOLDER | representerar mappar med teckensnittsfiler.|
-| MEMORY_FONT | representerar ett enda teckensnitt i minnet.|
+| FONT_FILE | representerar en fil med ett teckensnitt.|
+| FONTS_FOLDER | representerar mapp med teckensnittsfiler.|
+| MEMORY_FONT | representerar enstaka teckensnitt i minnet.|
 
 
 

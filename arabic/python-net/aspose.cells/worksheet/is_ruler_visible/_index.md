@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_ruler_visible الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible الملكية
 
-يشير إلى ما إذا كانت المسطرة مرئية أم لا.
+يشير إلى ما إذا كانت المسطرة مرئية أم لا. يتم تطبيق هذه الخاصية فقط لمعاينة فاصل الصفحة.
 ###  تعريف:
 ```python
 @property

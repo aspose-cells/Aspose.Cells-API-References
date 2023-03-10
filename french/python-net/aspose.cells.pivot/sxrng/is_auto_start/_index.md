@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_start propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

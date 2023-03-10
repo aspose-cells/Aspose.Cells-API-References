@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_designer_storage
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,12 +18,12 @@ def get_designer_storage(self, name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str |  |
 ###  Osservazioni
 
-Non supportiamo per analizzarli.
+Non supportiamo per analizzarli. Solo solo per copiare.
 
 
 ###  Guarda anche

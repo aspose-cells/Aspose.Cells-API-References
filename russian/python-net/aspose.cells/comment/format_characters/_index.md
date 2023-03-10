@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_characters метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def format_characters(self, start_index, length, font, flag):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_index | int | Начальный индекс.|
 | length | int | Длина.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: foreground_color 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 210
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-如果返回 Color.Empty，则表示没有设置颜色。
+如果返回 Color.Empty，则表示没有颜色设置。
 ### 定义：
 ```python
 @property

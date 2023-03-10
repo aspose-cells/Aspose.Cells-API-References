@@ -1,4 +1,4 @@
-﻿---
+---
 title: diagonal_style propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  diagonal_style propiedad
 
-Obtiene o establece el estilo de las líneas diagonales.
+Obtiene o establece el estilo de las líneas Diagonal.
 ###  Definición:
 ```python
 @property

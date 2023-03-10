@@ -1,4 +1,4 @@
-﻿---
+---
 title: prompt mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  prompt mülk
 
- Parametre için bilgi istemi dizesi. Elektronik tablo kullanıcısına giriş kullanıcı arayüzüyle birlikte sunulur.
- harici verileri yenilemeden önce parametre değerini toplamak için.
+ Parametre için bilgi istemi dizesi. Elektronik tablo kullanıcısına giriş kullanıcı arabirimiyle birlikte sunulur
+ harici verileri yenilemeden önce parametre değerini toplamak için. Sadece ne zaman kullanılır
 parametreTürü = prompt.
 ###  Tanım:
 ```python

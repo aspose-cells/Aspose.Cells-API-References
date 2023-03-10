@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_grouped_column_outline_level método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_grouped_column_outline_level(self, column_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | El índice de la columna|
 ###  Observaciones

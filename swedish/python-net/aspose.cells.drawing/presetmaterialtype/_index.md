@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetMaterialType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen PresetMaterialType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | CLEAR | Klar|
-| DARK_EDGE | Mörka kanter|
+| DARK_EDGE | Mörk kant|
 | FLAT | Platt|
 | LEGACY_MATTE | Legacy matt|
 | LEGACY_METAL | Äldre metall|
@@ -28,10 +28,10 @@ Typen PresetMaterialType avslöjar följande medlemmar:
 | METAL | Metall|
 | PLASTIC | Plast|
 | POWDER | Pulver|
-| SOFT_EDGE | Mjuka kanter|
+| SOFT_EDGE | Mjuk kant|
 | SOFT_METAL | Mjuk metall|
 | TRANSLUCENT_POWDER | Genomskinligt pulver|
-| WARM_MATTE | varm matt|
+| WARM_MATTE | Varm matt|
 
 
 

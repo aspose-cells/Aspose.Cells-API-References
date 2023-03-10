@@ -1,4 +1,4 @@
-﻿---
+---
 title: null_string Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  null_string Eigentum
 
 Ruft die Zeichenfolge ab, die in Zellen angezeigt wird, die Nullwerte enthalten
-wenn die DisplayNullString-Eigenschaft wahr ist.
+wenn die DisplayNullString-Eigenschaft wahr ist. Der Standardwert ist eine leere Zeichenfolge.
 ###  Definition:
 ```python
 @property

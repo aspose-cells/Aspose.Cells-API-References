@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_cm propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de centímetros.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

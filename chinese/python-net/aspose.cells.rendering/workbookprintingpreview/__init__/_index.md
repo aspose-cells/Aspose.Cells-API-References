@@ -1,6 +1,6 @@
-﻿---
+---
 title: WorkbookPrintingPreview 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ def __init__(self, workbook, options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/zh/python-net/aspose.cells/workbook) |指明要打印的工作簿。|
 | options | [ImageOrPrintOptions](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions 包含一些输出属性|

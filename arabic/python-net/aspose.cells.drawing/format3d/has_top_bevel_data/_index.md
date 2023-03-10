@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة has_top_bevel_data
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

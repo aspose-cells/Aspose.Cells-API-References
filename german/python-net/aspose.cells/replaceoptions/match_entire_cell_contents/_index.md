@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_entire_cell_contents Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents Eigentum
 
-Gibt an, ob der gesamte Zellinhalt abgeglichen werden soll
+Gibt an, ob ganze Zelleninhalte abgeglichen werden sollen
 ###  Definition:
 ```python
 @property

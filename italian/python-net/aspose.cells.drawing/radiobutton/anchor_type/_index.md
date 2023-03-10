@@ -1,4 +1,4 @@
-﻿---
+---
 title: anchor_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il segnaposto dell'ancora della forma.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

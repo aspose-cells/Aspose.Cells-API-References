@@ -1,4 +1,4 @@
-﻿---
+---
 title: data недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает data изображения.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

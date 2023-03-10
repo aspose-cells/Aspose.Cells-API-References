@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_edit_language mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Varsayılan düzenleme dilini alır veya ayarlar.
 
 ###  Notlar
 
-Farklı düzenleme dilleri ayarlandığında, metin paragrafı için farklı düzenleri görüntüleyebilir/işleyebilir.
+Farklı düzenleme dilleri ayarlandığında, metin paragrafı için farklı düzenler görüntüleyebilir/işleyebilir.
 Varsayılan [DefaultEditLanguage.AUTO](/cells/tr/python-net/aspose.cells/defaulteditlanguage#AUTO)'dir.
 ###  Tanım:
 ```python

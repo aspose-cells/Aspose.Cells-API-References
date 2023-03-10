@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_matching_color方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 170
@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color |原色。|
 

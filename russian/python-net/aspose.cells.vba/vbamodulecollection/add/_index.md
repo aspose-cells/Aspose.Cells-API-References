@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Добавляет модули для рабочего листа.
+Добавляет модуль для рабочего листа.
 
 
 ###  Возвращает
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | Рабочий лист|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/ru/python-net/aspose.cells.vba/vbamoduletype) | Тип модуля.|
 | name | str | Имя модуля.|

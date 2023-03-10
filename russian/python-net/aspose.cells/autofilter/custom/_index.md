@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def custom(self, field_index, operator_type1, criteria1):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | Целочисленное смещение поля, на котором вы хотите основывать фильтр.<br/> (слева в списке; крайнее левое поле — поле 0).|
 | operator_type1 | [FilterOperatorType](/cells/ru/python-net/aspose.cells/filteroperatortype) | Тип оператора фильтра|
@@ -36,7 +36,7 @@ def custom(self, field_index, operator_type1, criteria1, is_and, operator_type2,
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | Целочисленное смещение поля, на котором вы хотите основывать фильтр.<br/> (слева в списке; крайнее левое поле — поле 0).|
 | operator_type1 | [FilterOperatorType](/cells/ru/python-net/aspose.cells/filteroperatortype) | Тип оператора фильтра|

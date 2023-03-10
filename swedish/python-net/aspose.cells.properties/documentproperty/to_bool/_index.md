@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_bool metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.properties/documentproperty/to_bool/
 is_root: false
 ---
 ##  to_bool() {#}
-Returnerar egenskapsvärdet som en bool.
+Returnerar egenskapsvärdet som bool.
 
 
 

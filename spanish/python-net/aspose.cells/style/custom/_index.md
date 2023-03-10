@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  custom propiedad
 
 Representa la cadena de formato de número custom de este objeto de estilo.
-Si no se establece el formato de número custom (por ejemplo, el formato de número está integrado), se devolverá "".
+Si el formato de número custom no está configurado (por ejemplo, el formato de número está integrado), se devolverá "".
 
 ###  Observaciones
 

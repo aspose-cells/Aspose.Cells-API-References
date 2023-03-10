@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_max_grouped_column_outline_level метод
 second_title: Aspose.Cells for Python via .NET API
 description:

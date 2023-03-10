@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_height_pixel proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta l'altezza, in pixel, di ogni riga nell'affettatrice specificata.
 
-###  Esempi
+###  Esempio
 
 ```python
 

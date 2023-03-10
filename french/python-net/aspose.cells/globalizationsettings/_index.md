@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlobalizationSettings classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -48,7 +48,7 @@ Le type GlobalizationSettings expose les membres suivants :
 | [get_table_row_type_of_headers()](/cells/fr/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_headers/#) | Obtient le nom de type des lignes de table qui se compose de l'en-tête de table.<br/> La valeur par défaut est "Headers", donc dans la formule "#Headers" représente l'en-tête du tableau.|
 | [get_table_row_type_of_data()](/cells/fr/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_data/#) | Obtient le nom de type des lignes de table qui se compose de la région de données de la table référencée.<br/> La valeur par défaut est "Data", donc dans la formule "#Data" représente la région de données de la table.|
 | [get_table_row_type_of_all()](/cells/fr/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_all/#) | Obtient le nom de type des lignes de table qui se compose de toutes les lignes de la table référencée.<br/>La valeur par défaut est "All", donc dans la formule "#All" représente toutes les lignes de la table référencée.|
-| [get_table_row_type_of_totals()](/cells/fr/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Obtient le nom de type des lignes de table qui consistent en la ligne totale de la table référencée.<br/> La valeur par défaut est "Totals", donc dans la formule "#Totals" représente la ligne totale de la table référencée.|
+| [get_table_row_type_of_totals()](/cells/fr/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Obtient le nom de type des lignes de table qui se compose de la ligne totale de la table référencée.<br/> La valeur par défaut est "Totals", donc dans la formule "#Totals" représente la ligne totale de la table référencée.|
 | [get_table_row_type_of_current()](/cells/fr/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_current/#) | Obtient le nom de type des lignes de table qui se compose de la ligne actuelle dans la table référencée.<br/> La valeur par défaut est "Cette ligne", donc dans la formule "#Cette ligne" représente la ligne actuelle dans la table référencée.|
 | [get_error_value_string(err)](/cells/fr/python-net/aspose.cells/globalizationsettings/get_error_value_string/#str) | Obtient la valeur de la chaîne d'affichage pour la valeur d'erreur de la cellule|
 | [get_boolean_value_string(bv)](/cells/fr/python-net/aspose.cells/globalizationsettings/get_boolean_value_string/#bool) | Obtient la valeur de la chaîne d'affichage pour la valeur booléenne de la cellule|

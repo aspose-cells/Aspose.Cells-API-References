@@ -1,4 +1,4 @@
-﻿---
+---
 title: right propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente la largeur du décalage horizontal de la forme par rapport à sa colonne d'angle inférieure right, en pixels.
 
-###  Exemples
+###  Exemple
 
 ```python
 

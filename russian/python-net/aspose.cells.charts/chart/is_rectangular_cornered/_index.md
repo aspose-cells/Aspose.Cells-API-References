@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_rectangular_cornered недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

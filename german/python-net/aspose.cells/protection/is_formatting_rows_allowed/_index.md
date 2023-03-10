@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_rows_allowed Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Stellt dar, ob die Formatierung von Zeilen auf einem geschützten Arbeitsblatt z
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die Protection.AllowFormattingRow-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

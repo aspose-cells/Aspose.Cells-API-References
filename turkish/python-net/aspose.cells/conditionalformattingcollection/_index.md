@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -36,7 +36,7 @@ ConditionalFormattingCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPattern numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -35,16 +35,16 @@ FillPattern türü aşağıdaki üyeleri gösterir:
 | LIGHT_UPWARD_DIAGONAL | Hafif yukarı çapraz deseni temsil eder.|
 | DARK_DOWNWARD_DIAGONAL | Koyu aşağı çapraz deseni temsil eder.|
 | DARK_UPWARD_DIAGONAL | Koyu yukarı çapraz deseni temsil eder.|
-| WIDE_DOWNWARD_DIAGONAL | Aşağıya doğru geniş bir diyagonal deseni temsil eder.|
-| WIDE_UPWARD_DIAGONAL | Yukarıya doğru geniş bir diyagonal deseni temsil eder.|
+| WIDE_DOWNWARD_DIAGONAL | Aşağıya doğru geniş diyagonal deseni temsil eder.|
+| WIDE_UPWARD_DIAGONAL | Yukarıya doğru geniş diyagonal deseni temsil eder.|
 | LIGHT_VERTICAL | Hafif dikey deseni temsil eder.|
 | LIGHT_HORIZONTAL | Hafif yatay deseni temsil eder.|
 | NARROW_VERTICAL | Dar dikey deseni temsil eder.|
-| NARROW_HORIZONTAL | Dar bir yatay deseni temsil eder.|
+| NARROW_HORIZONTAL | Dar yatay deseni temsil eder.|
 | DARK_VERTICAL | Koyu dikey deseni temsil eder.|
 | DARK_HORIZONTAL | Koyu yatay deseni temsil eder.|
 | DASHED_DOWNWARD_DIAGONAL | Aşağı doğru kesikli çapraz deseni temsil eder.|
-| DASHED_UPWARD_DIAGONAL | Kesikli bir yukarı çapraz deseni temsil eder.|
+| DASHED_UPWARD_DIAGONAL | Kesikli yukarı çapraz deseni temsil eder.|
 | DASHED_VERTICAL |Kesikli dikey deseni temsil eder.|
 | DASHED_HORIZONTAL | Kesikli yatay deseni temsil eder.|
 | SMALL_CONFETTI | Küçük konfeti desenini temsil eder.|
@@ -52,22 +52,22 @@ FillPattern türü aşağıdaki üyeleri gösterir:
 | ZIG_ZAG | Zig zag desenini temsil eder.|
 | WAVE | Dalga modelini temsil eder.|
 | DIAGONAL_BRICK | Çapraz tuğla desenini temsil eder.|
-| HORIZONTAL_BRICK | Yatay bir tuğla desenini temsil eder.|
+| HORIZONTAL_BRICK | Yatay tuğla desenini temsil eder.|
 | WEAVE | Örgü modelini temsil eder.|
 | PLAID | Ekose deseni temsil eder.|
-| DIVOT | Divot modellerini temsil eder.|
+| DIVOT | Divot desenini temsil eder.|
 | DOTTED_GRID | Noktalı ızgara desenini temsil eder.|
 | DOTTED_DIAMOND | Noktalı baklava desenini temsil eder.|
-| SHINGLE | Tek deseni temsil eder.|
+| SHINGLE | Shingle desenini temsil eder.|
 | TRELLIS | Kafes desenini temsil eder.|
 | SPHERE | Küre desenini temsil eder.|
-| SMALL_GRID | Küçük ızgara modellerini temsil eder.|
+| SMALL_GRID | Küçük ızgara desenini temsil eder.|
 | LARGE_GRID | Büyük ızgara desenini temsil eder.|
 | SMALL_CHECKER_BOARD | Küçük dama tahtası desenini temsil eder.|
 | LARGE_CHECKER_BOARD | Büyük dama tahtası desenini temsil eder.|
 | OUTLINED_DIAMOND | Ana hatlarıyla baklava desenini temsil eder.|
 | SOLID_DIAMOND | Katı baklava desenini temsil eder.|
-| UNKNOWN | Bilinmeyen kalıpları temsil eder.|
+| UNKNOWN | Bilinmeyen modeli temsil eder.|
 
 
 

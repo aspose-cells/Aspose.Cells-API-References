@@ -1,4 +1,4 @@
-﻿---
+---
 title: hidden_col_display_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

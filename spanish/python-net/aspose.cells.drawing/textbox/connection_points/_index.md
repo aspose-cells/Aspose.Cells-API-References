@@ -1,4 +1,4 @@
-﻿---
+---
 title: connection_points propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,8 +13,8 @@ Obtener los puntos de conexión
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
-Utilice el método GetConnectionPoints().
+ NOTA: Este miembro ahora está obsoleto. En cambio,
+utilice el método GetConnectionPoints().
  Este método se eliminará 12 meses después desde abril de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

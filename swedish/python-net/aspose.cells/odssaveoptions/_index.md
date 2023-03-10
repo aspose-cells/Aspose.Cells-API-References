@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -38,8 +38,8 @@ Typen OdsSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/odssaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/odssaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/odssaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/odssaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/odssaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/odssaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [generator_type](/cells/sv/python-net/aspose.cells/odssaveoptions/generator_type) | Hämtar och ställer in generatorn för ods-filen.|
 | [is_strict_schema11](/cells/sv/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Indikerar om ods-filen ska sparas som ODF-format version 1.1. Standard är falskt.|
 

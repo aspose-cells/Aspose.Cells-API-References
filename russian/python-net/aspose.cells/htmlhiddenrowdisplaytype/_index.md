@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlHiddenRowDisplayType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | HIDDEN | Скрытые скрытые строки в html-странице.|
-| REMOVE | Удалите скрытые строки на html-страницах.|
+| REMOVE | Удалите скрытые строки в html-странице.|
 
 
 

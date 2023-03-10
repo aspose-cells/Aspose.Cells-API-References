@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ExternalLinkCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  classe ExternalLinkCollection
-Rappresenta una raccolta di collegamenti esterni in una cartella di lavoro.
+Rappresenta la raccolta di collegamenti esterni in una cartella di lavoro.
 
 
 
@@ -25,14 +25,14 @@ Ottiene l'elemento [ExternalLink](/cells/it/python-net/aspose.cells/externallink
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| [index] | Indice in base zero dell'elemento.|
+| [index] | L'indice in base zero dell'elemento.|
 
 
 ###  Metodi
 | Metodo| Descrizione|
 | :- | :- |
 | [add(file_name, sheet_names)](/cells/it/python-net/aspose.cells/externallinkcollection/add/#str-list) | Aggiunge un collegamento esterno.|
-| [add(directory_type, file_name, sheet_names)](/cells/it/python-net/aspose.cells/externallinkcollection/add/#DirectoryType-str-list) | Aggiungi un link esterno.|
+| [add(directory_type, file_name, sheet_names)](/cells/it/python-net/aspose.cells/externallinkcollection/add/#DirectoryType-str-list) | Aggiungi un collegamento esterno .|
 | [clear()](/cells/it/python-net/aspose.cells/externallinkcollection/clear/#) | Rimuove tutti i link esterni.|
 | [clear(update_references_as_local)](/cells/it/python-net/aspose.cells/externallinkcollection/clear/#bool) | Rimuove tutti i link esterni.|
 | [remove_at(index)](/cells/it/python-net/aspose.cells/externallinkcollection/remove_at/#int) | Rimuove il collegamento esterno specificato dalla cartella di lavoro.|
@@ -40,7 +40,7 @@ Ottiene l'elemento [ExternalLink](/cells/it/python-net/aspose.cells/externallink
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

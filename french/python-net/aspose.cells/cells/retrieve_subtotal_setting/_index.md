@@ -1,4 +1,4 @@
-﻿---
+---
 title: retrieve_subtotal_setting méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def retrieve_subtotal_setting(self, ca):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | La gamme|
 

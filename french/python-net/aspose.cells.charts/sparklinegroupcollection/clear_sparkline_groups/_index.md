@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_sparkline_groups méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline
 is_root: false
 ---
 ##  clear_sparkline_groups(cell_area) {#CellArea}
-Efface les groupes sparkline qui chevauchent une zone de cellules.
+Efface les groupes de graphiques sparkline qui chevauchent une zone de cellules.
 
 
 
@@ -18,9 +18,9 @@ def clear_sparkline_groups(self, cell_area):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Spécifie la zone de cellules|
+| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Spécifie la zone des cellules|
 
 
 

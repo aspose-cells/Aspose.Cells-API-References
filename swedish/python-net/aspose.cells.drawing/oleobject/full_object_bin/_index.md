@@ -1,4 +1,4 @@
-﻿---
+---
 title: full_object_bin fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

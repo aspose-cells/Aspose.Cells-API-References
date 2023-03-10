@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBarType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,11 +17,11 @@ Typen ErrorBarType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| CUSTOM | Typ av inre anpassat värde.|
+| CUSTOM | InnerCustom värdetyp.|
 | FIXED_VALUE | Typ av fast värde.|
 | PERCENT | Procenttyp|
 | ST_DEV | Standardavvikelse typ.|
-| ST_ERROR | Standard feltyp.|
+| ST_ERROR | Standardfeltyp.|
 
 
 

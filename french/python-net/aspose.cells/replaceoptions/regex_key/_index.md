@@ -1,4 +1,4 @@
-﻿---
+---
 title: regex_key propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key propriété
 
-Indique si la clé recherchée est une expression régulière. Si vrai, la clé recherchée sera considérée comme une expression régulière.
+Indique si la clé recherchée est une expression régulière. Si vrai, la clé recherchée sera prise comme regex.
 ###  Définition:
 ```python
 @property

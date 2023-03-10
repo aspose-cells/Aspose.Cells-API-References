@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_calc_chain mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  create_calc_chain mülk
 
-Hesaplanmış formüller zinciri oluşturup oluşturmadığı. Varsayılan değer yanlıştır.
+Hesaplanmış formüller zinciri oluşturup oluşturmadığı. Varsayılan yanlıştır.
 
 ###  Notlar
 

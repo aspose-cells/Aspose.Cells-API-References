@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_password fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password fastighet
 
-Sant om lösenordet ska sparas som en del av anslutningssträngen, annars False.
+True om lösenordet ska sparas som en del av anslutningssträngen; annars, Falskt.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: BuiltInDocumentPropertyCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type BuiltInDocumentPropertyCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 | [language](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/language) | Obtient ou définit la langue du document.|
 | [author](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/author) | Obtient ou définit le nom de l'auteur du document.|
 | [bytes](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/bytes) | Représente une estimation du nombre d'octets dans le document.|

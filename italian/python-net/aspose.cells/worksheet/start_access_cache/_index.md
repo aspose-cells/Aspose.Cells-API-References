@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_access_cache
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def start_access_cache(self, opts):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | opts | [AccessCacheOptions](/cells/it/python-net/aspose.cells/accesscacheoptions) | opzioni di accesso ai dati|
 ###  Osservazioni

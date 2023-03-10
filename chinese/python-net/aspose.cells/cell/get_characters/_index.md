@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_characters方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 70
@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | flag | bool |指示如果单元格在表格中，是否将表格样式应用于单元格。|
 

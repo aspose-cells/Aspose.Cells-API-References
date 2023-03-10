@@ -1,4 +1,4 @@
-﻿---
+---
 title: store_name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name proprietà
 
-Ottiene e imposta l'istanza del marketplace in cui è archiviato il componente aggiuntivo di Office.
+Ottiene e imposta l'istanza del marketplace in cui è archiviato il componente aggiuntivo di Office. .
 ###  Definizione:
 ```python
 @property

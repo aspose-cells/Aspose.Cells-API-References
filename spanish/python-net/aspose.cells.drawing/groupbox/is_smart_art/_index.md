@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_smart_art propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Indica si la forma es arte inteligente.
 
 Solo para archivos ooxml.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

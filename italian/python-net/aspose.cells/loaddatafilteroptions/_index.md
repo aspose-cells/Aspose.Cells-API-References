@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadDataFilterOptions enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -29,7 +29,7 @@ Il tipo LoadDataFilterOptions espone i membri seguenti:
 | CELL_DATA | Carica i dati delle celle inclusi valori, formule e formattazione|
 | CHART | Carica grafici|
 | SHAPE | Carica forme|
-| DRAWING | Oggetti di disegno (inclusi Grafici, Immagini, OleObjects e tutti gli altri oggetti di disegno)|
+| DRAWING | Oggetti di disegno (inclusi Grafico, Immagine, OleObject e tutti gli altri oggetti di disegno)|
 | MERGED_AREA | Carica le celle unite|
 | CONDITIONAL_FORMATTING | Carica la formattazione condizionale|
 | DATA_VALIDATION | Carica le convalide dei dati|
@@ -38,12 +38,12 @@ Il tipo LoadDataFilterOptions espone i membri seguenti:
 | HYPERLINKS | Carica collegamenti ipertestuali|
 | SHEET_SETTINGS | Carica le impostazioni per il foglio di lavoro|
 | SHEET_DATA |Carica tutti i dati del foglio di lavoro, come i dati delle celle, le impostazioni, gli oggetti, ... ecc.|
-| BOOK_SETTINGS | Carica le impostazioni per le cartelle di lavoro|
-| SETTINGS | Carica le impostazioni per cartelle di lavoro e fogli di lavoro|
+| BOOK_SETTINGS | Carica le impostazioni per la cartella di lavoro|
+| SETTINGS | Carica le impostazioni per la cartella di lavoro e il foglio di lavoro|
 | XML_MAP | Carica XmlMap|
 | STRUCTURE | Carica la struttura della cartella di lavoro|
 | DOCUMENT_PROPERTIES | Carica le proprietà del documento|
-| DEFINED_NAMES | Carica oggetti con nome definito|
+| DEFINED_NAMES | Carica gli oggetti Nome definiti|
 | VBA | Carica progetti VBA|
 | STYLE | Carica gli stili per la formattazione delle celle|
 | PICTURE | Carica immagini|

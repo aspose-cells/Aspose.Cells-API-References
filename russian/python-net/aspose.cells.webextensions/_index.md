@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,10 +18,10 @@ is_root: false
 | [WebExtensionCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection) | Представляет список веб-расширений.|
 | [WebExtensionProperty](/cells/ru/python-net/aspose.cells.webextensions/webextensionproperty) | Представляет настраиваемое свойство надстройки Office.|
 | [WebExtensionPropertyCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Представляет список свойств веб-расширения.|
-| [WebExtensionReference](/cells/ru/python-net/aspose.cells.webextensions/webextensionreference) | Представляет идентифицирует местоположение поставщика и версию расширения.|
+| [WebExtensionReference](/cells/ru/python-net/aspose.cells.webextensions/webextensionreference) | Представляет идентификацию местоположения поставщика и версии расширения.|
 | [WebExtensionReferenceCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Представляет список ссылок на веб-расширения.|
 | [WebExtensionTaskPane](/cells/ru/python-net/aspose.cells.webextensions/webextensiontaskpane) | Представляет сохраняемый объект области задач.|
-| [WebExtensionTaskPaneCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Представляет список областей задач.|
+| [WebExtensionTaskPaneCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Представляет список области задач.|
 
 
 ###  Перечисления

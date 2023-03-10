@@ -1,4 +1,4 @@
-﻿---
+---
 title: id_name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene e imposta il nome della colonna id.
 
 ###  Osservazioni
 
-Se questa proprietà è impostata, verrà inserita una colonna con un valore int di incremento automatico.
+Se questa proprietà è impostata, verrà inserita una colonna con incremento automatico del valore int.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_color
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_color(self, sheets):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sheets | [WorksheetCollection](/cells/it/python-net/aspose.cells/worksheetcollection) |  |
 

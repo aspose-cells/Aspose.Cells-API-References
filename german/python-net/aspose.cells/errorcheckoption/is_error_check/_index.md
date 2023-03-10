@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_error_check Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

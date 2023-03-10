@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_font mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.c
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen ChartFrame.Font özelliğini kullanın.
  Bu mülk, OCAK 2012'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

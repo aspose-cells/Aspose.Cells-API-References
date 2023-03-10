@@ -1,4 +1,4 @@
-﻿---
+---
 title: GroupShape Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -34,9 +34,9 @@ Der Typ GroupShape macht die folgenden Member verfügbar:
 | [format](/cells/de/python-net/aspose.cells.drawing/groupshape/format) | Stellt die Einstellung der Formatierung der Form dar.|
 | [line](/cells/de/python-net/aspose.cells.drawing/groupshape/line) | Ruft den Linienstil ab|
 | [fill](/cells/de/python-net/aspose.cells.drawing/groupshape/fill) | Gibt ein [Shape.fill_format](/cells/de/python-net/aspose.cells.drawing/shape#fill_format)-Objekt zurück, das Füllformatierungseigenschaften für die angegebene Form enthält.|
-| [shadow_effect](/cells/de/python-net/aspose.cells.drawing/groupshape/shadow_effect) | Stellt ein [ShadowEffect](/cells/de/python-net/aspose.cells.drawing/shadoweffect)-Objekt dar, das einen Schatteneffekt für das Diagrammelement oder die Form angibt.|
+| [shadow_effect](/cells/de/python-net/aspose.cells.drawing/groupshape/shadow_effect) | Stellt ein [ShadowEffect](/cells/de/python-net/aspose.cells.drawing/shadoweffect)-Objekt dar, das den Schatteneffekt für das Diagrammelement oder die Form angibt.|
 | [reflection](/cells/de/python-net/aspose.cells.drawing/groupshape/reflection) | Stellt ein [ReflectionEffect](/cells/de/python-net/aspose.cells.drawing/reflectioneffect)-Objekt dar, das den Reflexionseffekt für das Diagrammelement oder die Form angibt.|
-| [glow](/cells/de/python-net/aspose.cells.drawing/groupshape/glow) | Stellt ein [GlowEffect](/cells/de/python-net/aspose.cells.drawing/gloweffect)-Objekt dar, das einen Leuchteffekt für das Diagrammelement oder die Form angibt.|
+| [glow](/cells/de/python-net/aspose.cells.drawing/groupshape/glow) | Stellt ein [GlowEffect](/cells/de/python-net/aspose.cells.drawing/gloweffect)-Objekt dar, das den Glüheffekt für das Diagrammelement oder die Form angibt.|
 | [soft_edges](/cells/de/python-net/aspose.cells.drawing/groupshape/soft_edges) | Ruft den auf die Kanten anzuwendenden Weichzeichnungsradius in Punkteinheiten ab und legt diesen fest.|
 | [three_d_format](/cells/de/python-net/aspose.cells.drawing/groupshape/three_d_format) | Ruft das 3D-Format der Form ab und legt es fest.|
 | [text_frame](/cells/de/python-net/aspose.cells.drawing/groupshape/text_frame) | Gibt ein TextFrame-Objekt zurück, das die Ausrichtungs- und Verankerungseigenschaften für die angegebene Form enthält.|
@@ -57,7 +57,7 @@ Der Typ GroupShape macht die folgenden Member verfügbar:
 | [is_printable](/cells/de/python-net/aspose.cells.drawing/groupshape/is_printable) |True, wenn das Objekt druckbar ist|
 | [mso_drawing_type](/cells/de/python-net/aspose.cells.drawing/groupshape/mso_drawing_type) | Ruft den MSO-Zeichnungstyp ab.|
 | [auto_shape_type](/cells/de/python-net/aspose.cells.drawing/groupshape/auto_shape_type) | Ruft den automatischen Formtyp ab und legt ihn fest.|
-| [anchor_type](/cells/de/python-net/aspose.cells.drawing/groupshape/anchor_type) | Ruft den Formankerplatzhalter ab und legt diesen fest.|
+| [anchor_type](/cells/de/python-net/aspose.cells.drawing/groupshape/anchor_type) | Ruft den Formankerplatzhalter ab und legt ihn fest.|
 | [placement](/cells/de/python-net/aspose.cells.drawing/groupshape/placement) | Stellt die Art und Weise dar, wie das Zeichnungsobjekt an die darunter liegenden Zellen angehängt ist.<br/> Die Eigenschaft steuert die Platzierung eines Objekts auf einem Arbeitsblatt.|
 | [upper_left_row](/cells/de/python-net/aspose.cells.drawing/groupshape/upper_left_row) | Repräsentiert den Zeilenindex der oberen linken Ecke.|
 | [upper_delta_y](/cells/de/python-net/aspose.cells.drawing/groupshape/upper_delta_y) | Ruft den vertikalen Versatz des Shapes von seiner oberen linken Eckzeile ab oder legt diesen fest.|
@@ -70,25 +70,25 @@ Der Typ GroupShape macht die folgenden Member verfügbar:
 | [right](/cells/de/python-net/aspose.cells.drawing/groupshape/right) | Repräsentiert die Breite des horizontalen Versatzes der Form von ihrer unteren rechten Eckspalte in Pixeleinheiten.|
 | [bottom](/cells/de/python-net/aspose.cells.drawing/groupshape/bottom) |Repräsentiert die Breite des vertikalen Versatzes der Form von ihrer unteren unteren Eckreihe in Pixeleinheiten.|
 | [width](/cells/de/python-net/aspose.cells.drawing/groupshape/width) | Stellt die Breite der Form in Pixeleinheiten dar.|
-| [width_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/width_inch) | Stellt die Breite der Form in Zolleinheiten dar.|
+| [width_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/width_inch) | Stellt die Breite der Form in Zoll dar.|
 | [width_pt](/cells/de/python-net/aspose.cells.drawing/groupshape/width_pt) | Stellt die Breite der Form in Punkteinheiten dar.|
 | [width_cm](/cells/de/python-net/aspose.cells.drawing/groupshape/width_cm) | Stellt die Breite der Form in Zentimetern dar.|
 | [height](/cells/de/python-net/aspose.cells.drawing/groupshape/height) | Stellt die Höhe der Form in Pixeleinheiten dar.|
-| [height_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/height_inch) | Stellt die Höhe der Form in Zolleinheiten dar.|
+| [height_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/height_inch) | Stellt die Höhe der Form in Zoll dar.|
 | [height_pt](/cells/de/python-net/aspose.cells.drawing/groupshape/height_pt) | Stellt die Höhe der Form in Punkteinheiten dar.|
 | [height_cm](/cells/de/python-net/aspose.cells.drawing/groupshape/height_cm) | Stellt die Höhe der Form in Zentimetern dar.|
 | [left](/cells/de/python-net/aspose.cells.drawing/groupshape/left) | Stellt den horizontalen Versatz der Form von ihrer linken Spalte in Pixeleinheiten dar.|
-| [left_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/left_inch) | Stellt den horizontalen Versatz der Form von der linken Spalte in Zolleinheiten dar.|
+| [left_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/left_inch) | Stellt den horizontalen Versatz der Form von der linken Spalte in Zoll dar.|
 | [left_cm](/cells/de/python-net/aspose.cells.drawing/groupshape/left_cm) | Stellt den horizontalen Versatz der Form von der linken Spalte in Zentimetern dar.|
 | [top](/cells/de/python-net/aspose.cells.drawing/groupshape/top) | Stellt den vertikalen Versatz der Form von der obersten Zeile in Pixeleinheiten dar.|
-| [top_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/top_inch) |Stellt den vertikalen Versatz der Form von der obersten Reihe in Zolleinheiten dar.|
-| [top_cm](/cells/de/python-net/aspose.cells.drawing/groupshape/top_cm) | Stellt den vertikalen Versatz der Form von der obersten Zeile in Zentimetern dar.|
+| [top_inch](/cells/de/python-net/aspose.cells.drawing/groupshape/top_inch) |Stellt den vertikalen Versatz der Form von der obersten Reihe in Zoll dar.|
+| [top_cm](/cells/de/python-net/aspose.cells.drawing/groupshape/top_cm) | Stellt den vertikalen Versatz der Form von der oberen Reihe in Zentimetern dar.|
 | [top_to_corner](/cells/de/python-net/aspose.cells.drawing/groupshape/top_to_corner) | Ruft den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts in Pixeleinheiten ab und legt diesen fest.|
 | [left_to_corner](/cells/de/python-net/aspose.cells.drawing/groupshape/left_to_corner) | Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts ab und legt diesen fest.|
-| [x](/cells/de/python-net/aspose.cells.drawing/groupshape/x) | Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts in Pixeleinheiten ab und legt diesen fest.|
-| [y](/cells/de/python-net/aspose.cells.drawing/groupshape/y) | Ruft den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts in Pixeleinheiten ab und legt diesen fest.|
+| [x](/cells/de/python-net/aspose.cells.drawing/groupshape/x) | Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts in Pixeln ab und legt ihn fest.|
+| [y](/cells/de/python-net/aspose.cells.drawing/groupshape/y) | Ruft den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts in Pixeln ab und legt ihn fest.|
 | [width_scale](/cells/de/python-net/aspose.cells.drawing/groupshape/width_scale) | Ruft die Breitenskalierung in Prozent der ursprünglichen Bildbreite ab und legt sie fest.<br/> Wenn die Form nicht picture ist, gibt die Eigenschaft WidthScale nur 100 zurück;|
-| [height_scale](/cells/de/python-net/aspose.cells.drawing/groupshape/height_scale) | Ruft die Höhenskala in Prozent der ursprünglichen Bildhöhe ab und legt sie fest.<br/> Wenn die Form nicht picture ist, gibt die Eigenschaft HeightScale nur 100 zurück;|
+| [height_scale](/cells/de/python-net/aspose.cells.drawing/groupshape/height_scale) | Ruft die Höhenskala in Prozent der ursprünglichen Bildhöhe ab und legt sie fest.<br/> Wenn es sich bei der Form nicht um ein Bild handelt, gibt die Eigenschaft HeightScale nur 100 zurück;|
 | [top_in_shape](/cells/de/python-net/aspose.cells.drawing/groupshape/top_in_shape) | Stellt den vertikalen Versatz der Form vom oberen Rand der übergeordneten Form dar,<br/> in Einheiten von 1/4000 der Höhe der übergeordneten Form.|
 | [left_in_shape](/cells/de/python-net/aspose.cells.drawing/groupshape/left_in_shape) |Stellt den horizontalen Versatz der Form vom linken Rand der übergeordneten Form dar,<br/> in Einheiten von 1/4000 der Breite der übergeordneten Form.|
 | [width_in_shape](/cells/de/python-net/aspose.cells.drawing/groupshape/width_in_shape) | Stellt die Breite der Form in Einheiten von 1/4000 der übergeordneten Form dar.|
@@ -160,12 +160,12 @@ Ruft die untergeordnete Form nach Index ab.
 | [get_characters()](/cells/de/python-net/aspose.cells.drawing/groupshape/get_characters/#) | Gibt alle Characters-Objekte zurück<br/> die eine Reihe von Zeichen innerhalb des Textes darstellt.|
 | [remove_active_x_control()](/cells/de/python-net/aspose.cells.drawing/groupshape/remove_active_x_control/#) | Entfernen Sie das ActiveX-Steuerelement.|
 | [is_same_setting(obj)](/cells/de/python-net/aspose.cells.drawing/groupshape/is_same_setting/#any) | Gibt zurück, ob die Form gleich ist.|
-| [ungroup()](/cells/de/python-net/aspose.cells.drawing/groupshape/ungroup/#) | Heben Sie die Gruppierung der Formelemente auf.|
+| [ungroup()](/cells/de/python-net/aspose.cells.drawing/groupshape/ungroup/#) | Hebt die Gruppierung der Formelemente auf.|
 | [get_grouped_shapes()](/cells/de/python-net/aspose.cells.drawing/groupshape/get_grouped_shapes/#) | Ruft die Shapes ab, die nach diesem Shape gruppiert sind.|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_font_substitution_char_granularity Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt an, ob die Zeichenschrift nur dann ersetzt werden soll, wenn die Zellenschr
 
 ###  Bemerkungen
 
-Der Standardwert ist „false“. Wir werden zuerst die Standardschriftart von Workbook und PdfSaveOption/system für die Zellenschriftart ausprobieren.
+Standard ist falsch. Wir werden zuerst die Standardschriftart von Workbook und PdfSaveOption/system für Zellenschriftart ausprobieren.
 ###  Definition:
 ```python
 @property

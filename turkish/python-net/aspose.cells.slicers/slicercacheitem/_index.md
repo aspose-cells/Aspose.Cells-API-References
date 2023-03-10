@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItem sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ SlicerCacheItem türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [selected](/cells/tr/python-net/aspose.cells.slicers/slicercacheitem/selected) | SlicerItem seçili olup olmadığını belirtir.|
-| [value](/cells/tr/python-net/aspose.cells.slicers/slicercacheitem/value) | Dilimleyici öğesi için etiket metnini döndürür.|
+| [value](/cells/tr/python-net/aspose.cells.slicers/slicercacheitem/value) | Dilimleyici öğesi için etiket metnini döndürür. Sadece oku.|
 
 
 

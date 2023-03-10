@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trendline clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -51,15 +51,15 @@ El tipo Trendline expone los siguientes miembros:
 | [period](/cells/es/python-net/aspose.cells.charts/trendline/period) | Devuelve o establece el período de la línea de tendencia del promedio móvil.|
 | [forward](/cells/es/python-net/aspose.cells.charts/trendline/forward) | Devuelve o establece el número de períodos (o unidades en un gráfico de dispersión) que la línea de tendencia se extiende hacia delante.<br/> El número de periodos debe ser mayor o igual a cero.|
 | [backward](/cells/es/python-net/aspose.cells.charts/trendline/backward) | Devuelve o establece el número de períodos (o unidades en un gráfico de dispersión) que la línea de tendencia se extiende hacia atrás.<br/>El número de periodos debe ser mayor o igual a cero.<br/> Si el tipo de gráfico es columna, el número de períodos debe estar entre 0 y 0,5|
-| [display_equation](/cells/es/python-net/aspose.cells.charts/trendline/display_equation) |Representa si la ecuación de la línea de tendencia se muestra en el gráfico (en la misma etiqueta de datos que el valor R-cuadrado).|
-| [display_r_squared](/cells/es/python-net/aspose.cells.charts/trendline/display_r_squared) | Representa si el valor R-cuadrado de la línea de tendencia se muestra en el gráfico (en la misma etiqueta de datos que la ecuación). Establecer esta propiedad en Verdadero activa automáticamente las etiquetas de datos.|
+| [display_equation](/cells/es/python-net/aspose.cells.charts/trendline/display_equation) |Representa si la ecuación de la línea de tendencia se muestra en el gráfico (en la misma etiqueta de datos que el valor R-cuadrado). Establecer esta propiedad en True activa automáticamente las etiquetas de datos.|
+| [display_r_squared](/cells/es/python-net/aspose.cells.charts/trendline/display_r_squared) | Representa si el valor R cuadrado de la línea de tendencia se muestra en el gráfico (en la misma etiqueta de datos que la ecuación). Establecer esta propiedad en True activa automáticamente las etiquetas de datos.|
 | [intercept](/cells/es/python-net/aspose.cells.charts/trendline/intercept) | Devuelve o establece el punto donde la línea de tendencia cruza el eje de valores.|
 | [data_labels](/cells/es/python-net/aspose.cells.charts/trendline/data_labels) | Representa el objeto DataLabels para la serie especificada.|
 | [legend_entry](/cells/es/python-net/aspose.cells.charts/trendline/legend_entry) | Obtiene la entrada de la leyenda de acuerdo con esta línea de tendencia|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

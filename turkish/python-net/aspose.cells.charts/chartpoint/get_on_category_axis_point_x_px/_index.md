@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_on_category_axis_point_x_px yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_
 is_root: false
 ---
 ##  get_on_category_axis_point_x_px(index) {#int}
-Chart.Calculate() metodu çağrıldıktan sonra kategori eksenindeki noktanın x koordinatını alır.Sadece Alan grafiği için geçerlidir.
+Chart.Calculate() yöntemini çağırdıktan sonra kategori eksenindeki noktanın x koordinatını alır. Yalnızca Alan grafiği için geçerlidir.
 
 
 
@@ -18,7 +18,7 @@ def get_on_category_axis_point_x_px(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int |  |
 ###  Notlar

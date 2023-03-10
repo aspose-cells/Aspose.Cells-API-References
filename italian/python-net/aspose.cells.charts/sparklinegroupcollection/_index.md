@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe SparklineGroupCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -37,7 +37,7 @@ Il tipo SparklineGroupCollection espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

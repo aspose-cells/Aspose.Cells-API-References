@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_a_cell yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|

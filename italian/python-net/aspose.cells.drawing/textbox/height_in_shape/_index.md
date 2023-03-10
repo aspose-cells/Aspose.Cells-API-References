@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_in_shape proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Rappresenta l'offset verticale della forma dal bordo superiore della forma padre
 
 Si applica solo quando questa forma è nel gruppo o nel grafico.
 
-###  Esempi
+###  Esempio
 
 ```python
 

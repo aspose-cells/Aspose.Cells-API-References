@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة sort
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -41,7 +41,7 @@ def sort(self, cells, area):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cells | [Cells](/cells/ar/python-net/aspose.cells/cells) | تحتوي الخلايا على منطقة البيانات.|
 | area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | المنطقة بحاجة للفرز|
@@ -63,7 +63,7 @@ def sort(self, cells, start_row, start_column, end_row, end_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cells | [Cells](/cells/ar/python-net/aspose.cells/cells) | تحتوي الخلايا على منطقة البيانات.|
 | start_row | int | صف البداية للمنطقة.|

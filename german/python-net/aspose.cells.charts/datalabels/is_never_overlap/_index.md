@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_never_overlap Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_never_overlap Eigentum
 
-Gibt an, ob sich die Datenbeschriftungen nie überlappen (für Kreisdiagramm).
+Gibt an, ob sich die angezeigten Datenbeschriftungen niemals überlappen. (Für Kreisdiagramm)
 ###  Definition:
 ```python
 @property

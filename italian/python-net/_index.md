@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,9 +13,9 @@ is_root: true
 | [aspose.cells](/cells/it/python-net/aspose.cells) | IL**Aspose.Cells** namespace fornisce classi fondamentali e di base per la generazione, la conversione, la modifica, il rendering e la stampa di fogli di calcolo senza utilizzare Microsoft Excel.<br/>Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è la voce principale per creare o caricare e quindi manipolare un file di foglio di calcolo,<br/> [Cells](/cells/it/python-net/aspose.cells/cells) class è la classe principale per manipolare tutti i dati e le proprietà in un foglio, ... ecc.|
 | [aspose.cells.charts](/cells/it/python-net/aspose.cells.charts) | IL**Aspose.Cells.Charts** namespace fornisce classi che consentono di accedere e disegnare grafici e sparkline nei fogli di calcolo Excel Microsoft.|
 | [aspose.cells.digitalsignatures](/cells/it/python-net/aspose.cells.digitalsignatures) | IL**Aspose.Cells.DigitalSignatures** namespace fornisce classi per firmare documenti e verificare le firme.|
-| [aspose.cells.drawing](/cells/it/python-net/aspose.cells.drawing) | IL**Aspose.Cells.Drawing** Lo spazio dei nomi fornisce classi che consentono di creare e modificare forme di disegno, controlli di forma e oggetti di disegno più avanzati.|
+| [aspose.cells.drawing](/cells/it/python-net/aspose.cells.drawing) | IL**Aspose.Cells.Drawing** namespace fornisce classi che consentono di creare e modificare forme di disegno, controlli di forma e oggetti di disegno più avanzati.|
 | [aspose.cells.drawing.activexcontrols](/cells/it/python-net/aspose.cells.drawing.activexcontrols) | IL**Aspose.Cells.Drawing.ActiveXControls**namespace fornisce classi che consentono di disegnare e accedere ad ActiveXControl.|
-| [aspose.cells.drawing.texts](/cells/it/python-net/aspose.cells.drawing.texts) | IL**Aspose.Cells.Drawing.Texts** namespace fornisce classi che disegnano e formattano oggetti di testo come paragrafi, elenchi puntati e altro.|
+| [aspose.cells.drawing.texts](/cells/it/python-net/aspose.cells.drawing.texts) | IL**Aspose.Cells.Drawing.Texts** namespace fornisce classi che disegnano e formattano oggetti di testo come paragrafo, punto elenco e altro.|
 | [aspose.cells.externalconnections](/cells/it/python-net/aspose.cells.externalconnections) | IL**Aspose.Cells.ExternalConnections** namespace fornisce classi per le connessioni esterne per recuperare dati da fonti esterne come database e Web.|
 | [aspose.cells.json](/cells/it/python-net/aspose.cells.json) | IL**Aspose.Cells.Json** namespace contiene tutte le classi di JSON.|
 | [aspose.cells.markup](/cells/it/python-net/aspose.cells.markup) | IL**Aspose.Cells.Markup** namespace contiene classi che rappresentano la semantica definita dal cliente in un documento: smart tag, XML personalizzato e altri tag di markup.|

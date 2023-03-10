@@ -1,4 +1,4 @@
-﻿---
+---
 title: query_tables propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  query_tables propiedad
 
-Obtiene [QueryTableCollection](/cells/es/python-net/aspose.cells/querytablecollection) en la hoja de trabajo.
+Obtiene [QueryTableCollection](/cells/es/python-net/aspose.cells/querytablecollection) en la hoja de cálculo.
 ###  Definición:
 ```python
 @property

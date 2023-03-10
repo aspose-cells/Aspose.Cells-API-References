@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_totals fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals fastighet
 
-Hämtar och ställer in om detta ListObject visar totala rader.
+Hämtar och ställer in om detta ListObject visar total rad.
 ###  Definition:
 ```python
 @property

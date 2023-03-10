@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoShapeType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/autoshapetype/
 is_root: false
 ---
 ##  AutoShapeType enumeración
-Representa todos los tipos de formas automáticas integrados.
+Representa todo el tipo de forma automática integrado.
 
 
 
@@ -180,10 +180,10 @@ El tipo AutoShapeType expone los siguientes miembros:
 | TEXT_DEFLATE | Una forma de texto que se encoge verticalmente en el medio.|
 | TEXT_INFLATE_BOTTOM | Una forma de texto que se expande hacia abajo en el medio.|
 | TEXT_DEFLATE_BOTTOM | Una forma de texto que se encoge hacia arriba en el medio.|
-| TEXT_INFLATE_TOP | Una forma de texto que se expande hacia arriba en el medio.|
+| TEXT_INFLATE_TOP | Una forma de texto que se expande hacia arriba en el centro.|
 | TEXT_DEFLATE_TOP | Una forma de texto que se encoge hacia abajo en el medio.|
-| TEXT_DEFLATE_INFLATE |Una forma de texto en la que las líneas inferiores se expanden hacia arriba y las superiores se contraen para compensar.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | Una forma de texto donde las líneas en el centro se expanden verticalmente. Las líneas superior e inferior se contraen para compensar.|
+| TEXT_DEFLATE_INFLATE |Una forma de texto donde las líneas inferiores se expanden hacia arriba. Las líneas superiores se encogen para compensar.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | Una forma de texto donde las líneas en el centro se expanden verticalmente. Las líneas superior e inferior se encogen para compensar.|
 | TEXT_FADE_RIGHT | Una forma de texto que se contrae verticalmente en el lado derecho.|
 | TEXT_FADE_LEFT | Una forma de texto que se contrae verticalmente en el lado izquierdo.|
 | TEXT_FADE_UP | Una forma de texto que se contrae horizontalmente en la parte superior.|

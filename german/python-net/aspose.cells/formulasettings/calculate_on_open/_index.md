@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_on_open Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_scroll_bar metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av ScrollBar från dess vänstra rad, i pixelenhet.|

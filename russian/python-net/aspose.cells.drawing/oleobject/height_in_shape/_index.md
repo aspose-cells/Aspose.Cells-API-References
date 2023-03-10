@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_in_shape недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Применяется только тогда, когда эта фигура находится в группе или на диаграмме.
 
-###  Примеры
+###  Пример
 
 ```python
 

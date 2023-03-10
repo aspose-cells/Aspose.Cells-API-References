@@ -1,4 +1,4 @@
-﻿---
+---
 title: theme_color недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color недвижимость
 
-Получает цвет темы.
+Получает цвет темы. Применяется только для цветового типа темы.
 ###  Определение:
 ```python
 @property

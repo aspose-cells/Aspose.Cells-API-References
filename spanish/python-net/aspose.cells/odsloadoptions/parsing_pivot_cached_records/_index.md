@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_pivot_cached_records propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,7 +14,7 @@ El valor predeterminado es falso.
 
 ###  Observaciones
 
-Solo aplica para archivos Excel Xlsx, Xltx, Xltm, Xlsm y xlsb
+Solo aplica para archivo Excel Xlsx, Xltx, Xltm, Xlsm y xlsb
 ###  Definición:
 ```python
 @property

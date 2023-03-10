@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_dropdown_visible mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_dropdown_visible mülk
 
-Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını gösterir.
+Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını belirtir.
 ###  Tanım:
 ```python
 @property

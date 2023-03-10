@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hf_diff_first propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

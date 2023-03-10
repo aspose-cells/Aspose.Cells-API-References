@@ -1,4 +1,4 @@
-﻿---
+---
 title: XpsSaveOptions constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/xpssaveoptions/__init__/
 is_root: false
 ---
 ##  XpsSaveOptions() {#}
-Crea opciones para guardar archivos xps.
+Crea opciones para guardar el archivo xps.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  XpsSaveOptions(save_format) {#SaveFormat}
-Crea opciones para guardar archivos xps.
+Crea opciones para guardar el archivo xps.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El formato de guardado, debe ser formato xps.|
 ###  Observaciones

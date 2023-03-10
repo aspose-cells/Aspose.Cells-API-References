@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_lock_aspect_ratio fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

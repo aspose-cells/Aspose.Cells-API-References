@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pixel Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Breite des angegebenen Slicers in Pixel zurück oder legt sie fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

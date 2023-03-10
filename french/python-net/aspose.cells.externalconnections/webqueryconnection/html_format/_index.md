@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_format propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  html_format propriété
 
 Comment gérer le formatage à partir de la source HTML lors de l'importation de données de requête Web dans le
-worksheet.Pertinent lorsque sourceData est True.
+feuille de travail. Pertinent lorsque sourceData est True.
 ###  Définition:
 ```python
 @property

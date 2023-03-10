@@ -1,4 +1,4 @@
-﻿---
+---
 title: calc_stack_size propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -16,8 +16,8 @@ Especifica el tamaño de pila para calcular celdas recursivamente.
 Cuando hay una gran cantidad de celdas que deben calcularse recursivamente en el árbol de dependencia,
 StackOverflowException puede producirse en el proceso de cálculo.
 Si es así, el usuario debe especificar un valor menor para esta propiedad.
-Para tales situaciones, el usuario debe determinar el valor adecuado para esta propiedad de acuerdo con las fórmulas y los datos reales.
-Los valores demasiado pequeños pueden causar una degradación del rendimiento para el cálculo de la fórmula.
+Para tal situación, el usuario debe determinar el valor adecuado para esta propiedad de acuerdo con las fórmulas y los datos reales.
+Un valor demasiado pequeño puede causar una degradación del rendimiento para el cálculo de la fórmula.
 ###  Definición:
 ```python
 @property

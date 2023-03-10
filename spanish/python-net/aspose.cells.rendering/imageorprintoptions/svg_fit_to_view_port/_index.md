@@ -1,4 +1,4 @@
-﻿---
+---
 title: svg_fit_to_view_port propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  svg_fit_to_view_port propiedad
 
-si esta propiedad es verdadera, el svg generado se ajustará al puerto de vista.
+si esta propiedad es verdadera, el svg generado se ajustará al puerto de visualización.
 ###  Definición:
 ```python
 @property

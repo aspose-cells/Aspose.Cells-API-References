@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo save
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | Il nome del file.|
 
@@ -34,7 +34,7 @@ def save(self, stream):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso.|
 

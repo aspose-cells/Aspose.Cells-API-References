@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_full_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Returnerar det fullständiga källnamnet för källfilen för det länkade OLE-o
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
 använd egenskapen OleObject.ObjectSourceFullName.
  Den här egenskapen kommer att tas bort 12 månader senare sedan november 2013.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

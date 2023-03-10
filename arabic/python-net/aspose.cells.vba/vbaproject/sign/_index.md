@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة sign
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.vba/vbaproject/sign/
 is_root: false
 ---
 ##  sign(digital_signature) {#aspose.cells.digitalsignatures.DigitalSignature}
-قم بتوقيع مشروع VBA هذا بواسطة توقيع رقمي
+قم بتوقيع مشروع VBA هذا بواسطة DigitalSignature
 
 
 
@@ -18,7 +18,7 @@ def sign(self, digital_signature):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | digital_signature | aspose.cells.digitalsignatures.DigitalSignature | توقيع إلكتروني|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraph Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -41,7 +41,7 @@ Der Typ TextParagraph macht die folgenden Member verfügbar:
 | [right_margin](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/right_margin) | Gibt den rechten Rand des Absatzes an.|
 | [left_margin](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/left_margin) | Gibt den linken Rand des Absatzes an.|
 | [first_line_indent](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/first_line_indent) | Gibt die Einzugsgröße an, die auf die erste Textzeile im Absatz angewendet wird.|
-| [font_align_type](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Bestimmt, wo vertikal in einer Textzeile die eigentlichen Wörter positioniert sind.<br/> mit vertikaler Anordnung der Zeichen in Bezug auf die Grundlinien.|
+| [font_align_type](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Bestimmt, wo vertikal in einer Textzeile die eigentlichen Wörter positioniert sind. Diese Angebote<br/> mit vertikaler Anordnung der Zeichen in Bezug auf die Grundlinien.|
 | [alignment_type](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/alignment_type) | Ruft den horizontalen Textausrichtungstyp des Absatzes ab und legt diesen fest.|
 | [default_tab_size](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/default_tab_size) | Ruft die Standardgröße für ein Tabulatorzeichen in diesem Absatz ab und legt diese fest.|
 | [children](/cells/de/python-net/aspose.cells.drawing.texts/textparagraph/children) | Ruft alle Textläufe in diesem Absatz ab.<br/> Wenn dieser Absatz leer ist, geben Sie den Absatz selbst zurück.|

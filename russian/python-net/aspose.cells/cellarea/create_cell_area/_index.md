@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_cell_area метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def create_cell_area(self, start_cell_name, end_cell_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_cell_name | str | Верхняя левая ячейка диапазона.|
 | end_cell_name | str | Нижняя правая ячейка диапазона.|
@@ -43,7 +43,7 @@ def create_cell_area(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Стартовый ряд.|
 | start_column | int | Стартовая колонка.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: z_order_position propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve la posición de una forma en el orden z.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

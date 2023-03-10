@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_condition
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس شرط التنسيق المراد إزالته.|
 

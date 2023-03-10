@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_array yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def import_array(self, string_array, first_row, first_column, is_vertical):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | string_array | list | Dize dizisi.|
 | first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
@@ -37,7 +37,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | int_array | list | Tamsayı dizisi.|
 | first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|
@@ -46,7 +46,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 
 
 ##  import_array(double_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Bir çiftler dizisini bir çalışma sayfasına aktarır.
+Double dizisini bir çalışma sayfasına aktarır.
 
 
 
@@ -56,7 +56,7 @@ def import_array(self, double_array, first_row, first_column, is_vertical):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | double_array | list | Çift dizi.|
 | first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|

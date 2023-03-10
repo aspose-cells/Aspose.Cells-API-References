@@ -1,6 +1,6 @@
-﻿---
+---
 title: name 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 150
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## name 属性
 
-指定连接的 name。
+指定连接的 name。每个连接都必须有唯一的 name。
 ### 定义：
 ```python
 @property

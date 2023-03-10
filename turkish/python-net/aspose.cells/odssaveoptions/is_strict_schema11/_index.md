@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_strict_schema11 mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_strict_schema11 mülk
 
-Ods dosyasının ODF formatı sürüm 1.1 olarak kaydedilip kaydedilmeyeceğini belirtir.Varsayılan değer yanlıştır.
+ods dosyasının ODF formatı sürüm 1.1 olarak kaydedilip kaydedilmeyeceğini belirtir. Varsayılan yanlıştır.
 ###  Tanım:
 ```python
 @property

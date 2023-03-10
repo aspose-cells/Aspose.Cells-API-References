@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_height mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height mülk
 
-Bu çalışma sayfasındaki varsayılan satır yüksekliğini nokta birimleri cinsinden alır veya ayarlar.
+Bu çalışma sayfasındaki varsayılan satır yüksekliğini nokta birimi cinsinden alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

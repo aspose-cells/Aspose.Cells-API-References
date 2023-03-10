@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pixel الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تعيين عرض أداة تقطيع الشرائح المحددة بالبكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

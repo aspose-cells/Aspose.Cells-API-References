@@ -1,4 +1,4 @@
-﻿---
+---
 title: BuiltInDocumentPropertyCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -34,7 +34,7 @@ is_root: false
 | [content_status](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/content_status) | الحصول على أو تحديد حالة محتوى المستند.|
 | [company](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/company) | الحصول على أو تعيين ممتلكات الشركة.|
 | [hyperlink_base](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/hyperlink_base) |الحصول على خاصية قاعدة الارتباط التشعبي أو تعيينها.|
-| [created_time](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_time) | الحصول على أو تحديد تاريخ إنشاء المستند حسب المنطقة الزمنية المحلية.|
+| [created_time](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_time) | الحصول على أو تحديد تاريخ إنشاء المستند في المنطقة الزمنية المحلية.|
 | [created_universal_time](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_universal_time) | الحصول على أو تحديد التوقيت العالمي لإنشاء المستند.|
 | [keywords](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/keywords) | يحصل أو يحدد الكلمات الأساسية للوثيقة.|
 | [last_printed](/cells/ar/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_printed) | الحصول على أو تحديد تاريخ آخر طباعة للمستند حسب المنطقة الزمنية المحلية.|

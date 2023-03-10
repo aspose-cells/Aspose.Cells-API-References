@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ImageOrPrintOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -30,7 +30,7 @@ Il tipo ImageOrPrintOptions espone i membri seguenti:
 | [tiff_compression](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression) | Ottiene o imposta il tipo di compressione da applicare solo quando si salvano le pagine nel formato `Tiff`.|
 | [tiff_color_depth](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth) | Ottiene o imposta la profondità di bit da applicare solo quando si salvano le pagine nel formato `Tiff`.|
 | [printing_page](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/printing_page) | Indica quali pagine non verranno stampate.|
-| [quality](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Ottiene o imposta un valore che determina la qualità delle immagini generate<br/>da applicare solo quando si salvano le pagine nel formato `Jpeg`.|
+| [quality](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Ottiene o imposta un valore che determina la qualità delle immagini generate<br/>da applicare solo quando si salvano le pagine nel formato `Jpeg`. Il valore predefinito è 100|
 | [image_type](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/image_type) | Ottiene o imposta il formato delle immagini generate.<br/> valore predefinito: PNG.|
 | [is_cell_auto_fit](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/is_cell_auto_fit) | Indica se la larghezza e l'altezza delle celle vengono adattate automaticamente in base al valore della cella.<br/> Il valore predefinito è falso.|
 | [one_page_per_sheet](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/one_page_per_sheet) | Se OnePagePerSheet è true , tutto il contenuto di un foglio verrà restituito a una sola pagina nel risultato.<br/> Il formato carta di pagesetup non sarà valido e le altre impostazioni di pagesetup<br/> avrà ancora effetto.|
@@ -44,7 +44,7 @@ Il tipo ImageOrPrintOptions espone i membri seguenti:
 | [smoothing_mode](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode) | Specifica se l'attenuazione (antialiasing) viene applicata a linee e curve e ai bordi delle aree piene.<br/> Il valore predefinito è SmoothingMode.None|
 | [transparent](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/transparent) | Indica se lo sfondo dell'immagine generata deve essere trasparente.|
 | [pixel_format](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/pixel_format) |Ottiene o imposta il formato in pixel per le immagini generate.|
-| [warning_callback](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Ottiene o imposta callback di avviso.|
+| [warning_callback](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
 | [page_saving_callback](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/page_saving_callback) | Controlla/Indica l'avanzamento del processo di salvataggio della pagina.|
 | [is_font_substitution_char_granularity](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/is_font_substitution_char_granularity) | Indica se sostituire il font del carattere solo quando il font della cella non è compatibile con esso.|
 | [page_index](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions/page_index) | Ottiene o imposta l'indice in base 0 della prima pagina da salvare.|
@@ -67,7 +67,7 @@ Il tipo ImageOrPrintOptions espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

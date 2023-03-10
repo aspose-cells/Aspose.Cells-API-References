@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetMaterialType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | CLEAR | Прозрачный|
-| DARK_EDGE | Темные края|
+| DARK_EDGE | Темный край|
 | FLAT | Плоский|
 | LEGACY_MATTE | Устаревший матовый|
 | LEGACY_METAL | Устаревший металл|
@@ -28,10 +28,10 @@ is_root: false
 | METAL | Металл|
 | PLASTIC | Пластик|
 | POWDER | Пудра|
-| SOFT_EDGE | Мягкие края|
+| SOFT_EDGE | Мягкий край|
 | SOFT_METAL | Мягкий металл|
 | TRANSLUCENT_POWDER | Полупрозрачная пудра|
-| WARM_MATTE | теплый матовый|
+| WARM_MATTE | Теплый матовый|
 
 
 

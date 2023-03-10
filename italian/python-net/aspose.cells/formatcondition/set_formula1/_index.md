@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_formula1
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,9 +18,9 @@ def set_formula1(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| formula | str | Il valore o l'espressione associata a questa condizione di formato.<br/>Se il valore di input inizia con '=', verrà preso come formula.<br/> Per il valore di testo che inizia con '=', l'utente può inserirlo come formula nel formato: "=\"=...\"".|
+| formula | str | Il valore o l'espressione associata a questa condizione di formato.<br/>Se il valore di input inizia con '=', verrà preso come formula. Altrimenti verrà preso come semplice valore (testo, numero, bool).<br/> Per il valore di testo che inizia con '=', l'utente può inserirlo come formula nel formato: "=\"=...\"".|
 | is_r1c1 | bool | Se la formula è una formula R1C1.|
 | is_local | bool | Se la formula è in formato locale.|
 

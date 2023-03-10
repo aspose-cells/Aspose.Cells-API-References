@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_iterative_calculation недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation недвижимость
 
-Указывает, следует ли включить итеративный расчет для разрешения циклических ссылок.
+Указывает, разрешено ли итеративное вычисление для разрешения циклических ссылок.
 ###  Определение:
 ```python
 @property

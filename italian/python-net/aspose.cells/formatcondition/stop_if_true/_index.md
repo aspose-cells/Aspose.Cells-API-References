@@ -1,4 +1,4 @@
-﻿---
+---
 title: stop_if_true proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

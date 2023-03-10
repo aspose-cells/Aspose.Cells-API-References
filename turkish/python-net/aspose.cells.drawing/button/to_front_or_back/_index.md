@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_front_or_back yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,11 +18,11 @@ def to_front_or_back(self, orders):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | orders | int | Sıfırdan küçükse, şekli geri ayarlar.<br/>Sıfırdan büyükse şekli öne getirir.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

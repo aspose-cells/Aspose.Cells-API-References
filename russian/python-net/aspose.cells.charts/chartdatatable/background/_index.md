@@ -1,4 +1,4 @@
-﻿---
+---
 title: background недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Этот элемент устарел.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
  используйте свойство ChartDataTable.BackgroundMode.
  Это свойство будет удалено через 12 месяцев, начиная с ЯНВАРЯ 2012 Г.
 Aspose приносит извинения за возможные неудобства.

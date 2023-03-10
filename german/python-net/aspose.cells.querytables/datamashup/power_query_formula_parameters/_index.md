@@ -1,4 +1,4 @@
-﻿---
+---
 title: power_query_formula_parameters Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookMetadata sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -37,7 +37,7 @@ WorkbookMetadata türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki örnek bir WorkbookMetadata oluşturur.
 

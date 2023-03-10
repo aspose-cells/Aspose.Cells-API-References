@@ -1,6 +1,6 @@
-﻿---
+---
 title: Cell类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 140
@@ -26,7 +26,7 @@ Cell 类型公开了以下成员：
 | [name](/cells/zh/python-net/aspose.cells/cell/name) |获取单元格的名称。|
 | [is_error_value](/cells/zh/python-net/aspose.cells/cell/is_error_value) |检查此单元格的值是否有误。|
 | [is_numeric_value](/cells/zh/python-net/aspose.cells/cell/is_numeric_value) |指示此单元格的内部值是否为数字（int、double 和 datetime）|
-| [string_value](/cells/zh/python-net/aspose.cells/cell/string_value) |获取包含在单元格中的字符串值。<br/>对于其他单元格类型，将返回格式化的字符串值（使用该单元格的指定样式格式化）。<br/>格式化的单元格值与将单元格复制为文本时从 excel 中获得的值相同（例如<br/>将单元格复制到文本编辑器或导出到 csv）。|
+| [string_value](/cells/zh/python-net/aspose.cells/cell/string_value) |获取包含在单元格中的字符串值。如果此单元格的类型是字符串，则返回字符串值本身。<br/>对于其他单元格类型，将返回格式化的字符串值（使用该单元格的指定样式格式化）。<br/>格式化的单元格值与将单元格复制为文本时从 excel 中获得的值相同（例如<br/>将单元格复制到文本编辑器或导出到 csv）。|
 | [string_value_without_format](/cells/zh/python-net/aspose.cells/cell/string_value_without_format) |获取单元格的值作为不带任何格式的字符串。|
 | [number_category_type](/cells/zh/python-net/aspose.cells/cell/number_category_type) |表示此单元格的数字格式的类别类型。|
 | [display_string_value](/cells/zh/python-net/aspose.cells/cell/display_string_value) |根据单元格的显示样式获取该单元格的格式化字符串值。|
@@ -48,7 +48,7 @@ Cell 类型公开了以下成员：
 | [is_table_formula](/cells/zh/python-net/aspose.cells/cell/is_table_formula) |指示此单元格是否是表格公式的一部分。|
 | [is_in_table](/cells/zh/python-net/aspose.cells/cell/is_in_table) |指示此单元格是否是表格公式的一部分。|
 | [value](/cells/zh/python-net/aspose.cells/cell/value) |获取此单元格中包含的值。|
-| [is_style_set](/cells/zh/python-net/aspose.cells/cell/is_style_set) |指示是否设置了单元格的样式。如果返回false，则表示该单元格具有默认的单元格格式。|
+| [is_style_set](/cells/zh/python-net/aspose.cells/cell/is_style_set) |指示是否设置了单元格的样式。如果返回 false，则表示此单元格具有默认单元格格式。|
 | [is_merged](/cells/zh/python-net/aspose.cells/cell/is_merged) |检查单元格是否是合并范围的一部分。|
 | [comment](/cells/zh/python-net/aspose.cells/cell/comment) |获取此单元格的注释。|
 | [html_string](/cells/zh/python-net/aspose.cells/cell/html_string) |获取和设置此单元格中包含数据和某些格式的 html 字符串。|
@@ -68,7 +68,7 @@ Cell 类型公开了以下成员：
 | [put_value(date_time)](/cells/zh/python-net/aspose.cells/cell/put_value/#DateTime) |将 DateTime 值放入单元格。|
 | [put_value(object_value)](/cells/zh/python-net/aspose.cells/cell/put_value/#any) |将对象值放入单元格。|
 | [get_display_style()](/cells/zh/python-net/aspose.cells/cell/get_display_style/#) |获取单元格的显示样式。<br/>如果此单元格还受到条件格式、列表对象等其他设置的影响，<br/>那么显示样式可能与cell.GetStyle()不同。|
-| [get_display_style(include_merged_borders)](/cells/zh/python-net/aspose.cells/cell/get_display_style/#bool) |获取单元格的显示样式。<br/>如果单元格是有条件格式化的，则显示样式与 cell.GetStyle() 不同。|
+| [get_display_style(include_merged_borders)](/cells/zh/python-net/aspose.cells/cell/get_display_style/#bool) |获取单元格的显示样式。<br/>如果单元格是条件格式，则显示样式与 cell.GetStyle() 不同。|
 | [get_style()](/cells/zh/python-net/aspose.cells/cell/get_style/#) |获取单元格样式。|
 | [get_style(check_borders)](/cells/zh/python-net/aspose.cells/cell/get_style/#bool) |如果 checkBorders 为真，则检查其他单元格的边框是否会影响该单元格的样式。|
 | [set_style(style)](/cells/zh/python-net/aspose.cells/cell/set_style/#Style) |设置单元格样式。|
@@ -90,9 +90,9 @@ Cell 类型公开了以下成员：
 | [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/zh/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) |设置动态数组公式并尽可能使公式溢出到相邻的单元格中。|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/zh/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) |设置动态数组公式并尽可能使公式溢出到相邻的单元格中。|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/zh/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) |设置动态数组公式并尽可能使公式溢出到相邻的单元格中。|
-| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/zh/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) |从此单元格开始为给定范围创建一个双变量数据表。|
+| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/zh/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) |从此单元格开始为给定范围创建双变量数据表。|
 | [set_table_formula(row_number, column_number, input_cell, is_row_input, values)](/cells/zh/python-net/aspose.cells/cell/set_table_formula/#int-int-str-bool-list) |从此单元格开始为给定范围创建单变量数据表。|
-| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/zh/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) |从此单元格开始为给定范围创建一个双变量数据表。|
+| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/zh/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) |从此单元格开始为给定范围创建双变量数据表。|
 | [set_table_formula(row_number, column_number, row_index_of_input_cell, column_index_of_input_cell, is_row_input, values)](/cells/zh/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-bool-list) |从此单元格开始为给定范围创建单变量数据表。|
 | [get_characters()](/cells/zh/python-net/aspose.cells/cell/get_characters/#) |返回所有字符对象<br/>表示单元格文本中的一系列字符。|
 | [get_characters(flag)](/cells/zh/python-net/aspose.cells/cell/get_characters/#bool) |返回所有字符对象<br/>表示单元格文本中的一系列字符。|

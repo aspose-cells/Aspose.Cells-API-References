@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin_pt недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_pt недвижимость
 
-Возвращает левое поле в единицах Points
+Возвращает левое поле в баллах
 ###  Определение:
 ```python
 @property

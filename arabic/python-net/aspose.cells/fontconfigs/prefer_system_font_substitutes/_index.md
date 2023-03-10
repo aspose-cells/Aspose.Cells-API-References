@@ -1,4 +1,4 @@
-﻿---
+---
 title: prefer_system_font_substitutes الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

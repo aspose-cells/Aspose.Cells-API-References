@@ -1,4 +1,4 @@
-﻿---
+---
 title: transpose fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose fastighet
 
-Sant till transpose rader och kolumner när intervallet klistras in.
+Sant till transpose rader och kolumner när intervallet klistras in. Standardvärdet är False.
 ###  Definition:
 ```python
 @property

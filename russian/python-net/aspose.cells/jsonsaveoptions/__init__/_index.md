@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/jsonsaveoptions/__init__/
 is_root: false
 ---
 ##  JsonSaveOptions() {#}
-Создает параметры для сохранения файлов json.
+Создает параметры для сохранения файла json.
 
 
 

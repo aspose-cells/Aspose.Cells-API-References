@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_param_literal_required mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_param_literal_required mülk
 
-Hesaplama yaparken bu motorun parametrenin sabit metnine ihtiyaç duyup duymadığını gösterir. Varsayılan değer yanlıştır.
+Hesaplama yaparken bu motorun parametrenin değişmez metnine ihtiyaç duyup duymadığını gösterir. Varsayılan değer yanlıştır.
 
 ###  Notlar
 

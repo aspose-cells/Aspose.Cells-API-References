@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة clear
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -34,7 +34,7 @@ def clear(self, update_references_as_local):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | update_references_as_local | bool | ما إذا كان يتم تحديث كافة مراجع الارتباطات الخارجية كمراجع للمصنف الحالي نفسه.|
 ###  ملاحظات

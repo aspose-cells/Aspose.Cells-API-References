@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellBorderType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen CellBorderType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| DASH_DOT | Representerar tunna streckade linjer.|
+| DASH_DOT | Representerar en tunn streckad linje.|
 | DASH_DOT_DOT | Representerar en tunn streckprickad linje.|
 | DASHED | Representerar en streckad linje.|
 | DOTTED | Representerar en prickad linje.|

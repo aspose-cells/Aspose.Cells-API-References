@@ -1,4 +1,4 @@
-﻿---
+---
 title: preferred_parsers الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers الملكية
 
-الحصول على وتعيين محللات القيمة المفضلة لتحميل الملفات النصية.
+الحصول على وتعيين محللات القيمة المفضلة لتحميل ملف نصي.
 
 ###  ملاحظات
 

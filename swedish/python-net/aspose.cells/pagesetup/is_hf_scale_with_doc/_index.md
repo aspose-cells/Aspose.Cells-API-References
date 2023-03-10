@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hf_scale_with_doc fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

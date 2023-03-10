@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatCondition الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -21,13 +21,13 @@ is_root: false
 | [formula2](/cells/ar/python-net/aspose.cells/formatcondition/formula2) | الحصول على القيمة أو التعبير المرتبط بالتنسيق الشرطي وتعيينهما.|
 | [operator](/cells/ar/python-net/aspose.cells/formatcondition/operator) | الحصول على نوع مشغل التنسيق الشرطي وتعيينه.|
 | [stop_if_true](/cells/ar/python-net/aspose.cells/formatcondition/stop_if_true) |صحيح ، لا يمكن تطبيق أي قواعد ذات أولوية أقل على هذه القاعدة ، عندما يتم تقييم هذه القاعدة على صواب.<br/> ينطبق فقط على Excel 2007 ؛|
-| [priority](/cells/ar/python-net/aspose.cells/formatcondition/priority) | أولوية قاعدة التنسيق الشرطي هذه.<br/>يجب تقييم التنسيق وعرضه. القيم الرقمية الأقل أولوية أعلى من<br/> القيم الرقمية الأعلى ، حيث يمثل "1" الأولوية القصوى.|
-| [style](/cells/ar/python-net/aspose.cells/formatcondition/style) | الحصول على أو تعيين نمط نطاقات الخلايا المنسقة شرطيًا.|
+| [priority](/cells/ar/python-net/aspose.cells/formatcondition/priority) | أولوية قاعدة التنسيق الشرطي هذه. يتم استخدام هذه القيمة لتحديد أي<br/>يجب تقييم التنسيق وتقديمه. القيم الرقمية الأقل أولوية أعلى من<br/> القيم الرقمية الأعلى ، حيث يمثل "1" الأولوية القصوى.|
+| [style](/cells/ar/python-net/aspose.cells/formatcondition/style) | الحصول على أو تحديد نمط نطاقات الخلايا المنسقة الشرطية.|
 | [type](/cells/ar/python-net/aspose.cells/formatcondition/type) | الحصول على نوع التنسيق الشرطي وتحديده.|
 | [icon_set](/cells/ar/python-net/aspose.cells/formatcondition/icon_set) | احصل على مثيل "IconSet" للتنسيق الشرطي.<br/>IconSetType للمثيل الافتراضي هو TrafficLights31.<br/> صالح فقط لنوع = IconSet.|
 | [data_bar](/cells/ar/python-net/aspose.cells/formatcondition/data_bar) | احصل على مثيل "DataBar" الخاص بالتنسيق الشرطي.<br/>اللون الافتراضي للمثيل هو الأزرق.<br/> صالح فقط للنوع هو DataBar.|
 | [color_scale](/cells/ar/python-net/aspose.cells/formatcondition/color_scale) | احصل على مثيل "ColorScale" الخاص بالتنسيق الشرطي.<br/>المثيل الافتراضي هو 3ColorScale "أخضر - أصفر - أحمر".<br/> صالح فقط للنوع = ColorScale.|
-| [top10](/cells/ar/python-net/aspose.cells/formatcondition/top10) | احصل على مثيل "Top10" للتنسيق الشرطي.<br/>تقوم قاعدة المثيل الافتراضي بتمييز الخلايا التي تحتوي على<br/>تقع القيم في أعلى 10 شريحة.<br/> صالح فقط للنوع هو Top10.|
+| [top10](/cells/ar/python-net/aspose.cells/formatcondition/top10) | احصل على مثيل "Top10" للتنسيق الشرطي.<br/>تبرز قاعدة المثيل الافتراضي الخلايا التي تحتوي على<br/>تقع القيم في أعلى 10 شريحة.<br/> صالح فقط للنوع هو Top10.|
 | [above_average](/cells/ar/python-net/aspose.cells/formatcondition/above_average) |احصل على مثيل "AboveAverage" للتنسيق الشرطي.<br/> تقوم قاعدة المثيل الافتراضية بتمييز الخلايا الموجودة<br/>فوق المتوسط لجميع القيم في النطاق.<br/> صالح فقط لنوع = AboveAverage.|
 | [text](/cells/ar/python-net/aspose.cells/formatcondition/text) | قيمة النص في "نص يحتوي على" قاعدة تنسيق شرطي.<br/>صالح فقط للنوع = يحتوي على نص ، لا يحتوي على نص ، يبدأ مع وينتهي.<br/> القيمه الافتراضيه فارغه.|
 | [time_period](/cells/ar/python-net/aspose.cells/formatcondition/time_period) | الفترة الزمنية المطبقة في قاعدة التنسيق الشرطي "تاريخ حدوث ...".<br/>صالح فقط للنوع = timePeriod.<br/> القيمة الافتراضية هي TimePeriodType.Today.|
@@ -48,7 +48,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

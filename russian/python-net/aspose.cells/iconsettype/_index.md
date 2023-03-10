@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -36,13 +36,13 @@ is_root: false
 | ARROWS_GRAY5 | Набор значков 5 серых стрелок.|
 | QUARTERS5 | Набор иконок 5 кварталов.|
 | RATING5 | Набор значков рейтинга 5.|
-| STARS3 | 3 звезды набор|
+| STARS3 | набор 3 звезды|
 | BOXES5 | набор из 5 коробок|
 | TRIANGLES3 | Набор из 3 треугольников|
 | NONE | Никто|
 | CUSTOM_SET | Пользовательский набор.<br/> Этот элемент доступен только для чтения.|
-| SMILIES3 | 3 улыбки.<br/> Только для .ods.|
-| COLOR_SMILIES3 | 3 цветные улыбки.<br/> Только для .ods.|
+| SMILIES3 | 3 смайлика.<br/> Только для .ods.|
+| COLOR_SMILIES3 | 3 цветных смайлика.<br/> Только для .ods.|
 
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: size 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## size 属性
 
-获取和设置结束 alpha 值的结束位置（沿着 alpha 梯度斜坡），以百分比为单位
+获取和设置结束 alpha 值的结束位置（沿 alpha 梯度斜坡），以百分比为单位
 ### 定义：
 ```python
 @property

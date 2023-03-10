@@ -1,4 +1,4 @@
-﻿---
+---
 title: always_export_as_json_object Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

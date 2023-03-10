@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_dependents_in_calculation
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/get_dependents_in_calculation/
 is_root: false
 ---
 ##  get_dependents_in_calculation(row, column, recursive) {#int-int-bool}
-يحصل على جميع الخلايا التي تعتمد نتيجتها المحسوبة على خلايا معينة.
+يحصل على جميع الخلايا التي تعتمد نتيجتها المحسوبة على خلية معينة.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, row, column, recursive):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس صف الخلية المحددة|
 | column | int | فهرس العمود للخلية المحددة.|

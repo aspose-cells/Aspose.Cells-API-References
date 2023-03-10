@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartFrame klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,7 +23,7 @@ Typen ChartFrame avslöjar följande medlemmar:
 | [text_font](/cells/sv/python-net/aspose.cells.charts/chartframe/text_font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
 | [text_options](/cells/sv/python-net/aspose.cells.charts/chartframe/text_options) | Hämtar och ställer in alternativen för texten.|
 | [font](/cells/sv/python-net/aspose.cells.charts/chartframe/font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
-| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/chartframe/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.|
+| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/chartframe/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True.|
 | [background_mode](/cells/sv/python-net/aspose.cells.charts/chartframe/background_mode) | Hämtar och ställer in visningsläget för bakgrunden|
 | [background](/cells/sv/python-net/aspose.cells.charts/chartframe/background) | Hämtar och ställer in visningsläget för bakgrunden|
 | [is_automatic_size](/cells/sv/python-net/aspose.cells.charts/chartframe/is_automatic_size) | Indikerar om kartramen har automatisk storlek.|

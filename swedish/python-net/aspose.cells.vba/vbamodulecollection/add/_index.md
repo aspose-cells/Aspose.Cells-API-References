@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Lägger till moduler för ett kalkylblad.
+Lägger till modul för ett kalkylblad.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Arbetsbladet|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/sv/python-net/aspose.cells.vba/vbamoduletype) | Typen av modul.|
 | name | str | Namnet på modulen.|

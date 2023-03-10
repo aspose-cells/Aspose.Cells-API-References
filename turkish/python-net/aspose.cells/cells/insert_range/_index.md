@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_range yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Geçiş alanı.|
 | shift_type | [ShiftType](/cells/tr/python-net/aspose.cells/shifttype) | Hücreleri değiştir seçeneği.|
@@ -35,7 +35,7 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Geçiş alanı.|
 | shift_number | int | Eklenecek satır veya sütun sayısı.|
@@ -53,7 +53,7 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Geçiş alanı.|
 | shift_number | int | Eklenecek satır veya sütun sayısı.|

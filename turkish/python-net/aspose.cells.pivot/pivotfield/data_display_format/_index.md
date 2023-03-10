@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_display_format mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  data_display_format mülk
 
-Bir veri alanında yer alan değerlerin nasıl görüntüleneceğini temsil eder.
+Bir veri alanında bulunan değerlerin nasıl görüntüleneceğini temsil eder.
 ###  Tanım:
 ```python
 @property

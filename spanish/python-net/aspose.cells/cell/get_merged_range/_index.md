@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_merged_range método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Devuelve un objeto [Range](/cells/es/python-net/aspose.cells/range) que represen
 
 ###  Devoluciones
 
-Objeto [Range](/cells/es/python-net/aspose.cells/range). Nulo si esta celda no está fusionada.
+[Range](/cells/es/python-net/aspose.cells/range) objeto. Nulo si esta celda no está fusionada.
 
 
 ```python

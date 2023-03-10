@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_picture方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -22,7 +22,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | is_first | bool |是否设置首页页眉/页脚图片。|
 | is_even | bool |是否设置偶数页页眉/页脚图片。|

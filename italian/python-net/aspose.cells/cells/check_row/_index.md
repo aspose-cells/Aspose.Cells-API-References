@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo check_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def check_row(self, row):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga|
 

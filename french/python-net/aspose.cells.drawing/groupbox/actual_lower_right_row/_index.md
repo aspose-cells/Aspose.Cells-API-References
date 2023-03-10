@@ -1,4 +1,4 @@
-﻿---
+---
 title: actual_lower_right_row propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtenez la rangée du bas réelle.
 
-###  Exemples
+###  Exemple
 
 ```python
 

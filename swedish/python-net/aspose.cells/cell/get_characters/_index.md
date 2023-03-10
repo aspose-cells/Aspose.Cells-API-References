@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_characters metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | flag | bool | Anger om tabellformat tillämpas på cellen om cellen finns i tabellen.|
 

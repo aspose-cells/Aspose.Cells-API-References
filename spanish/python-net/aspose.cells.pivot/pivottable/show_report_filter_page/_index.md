@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_report_filter_page método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def show_report_filter_page(self, page_field):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | page_field | [PivotField](/cells/es/python-net/aspose.cells.pivot/pivotfield) | El objeto PivotField|
 

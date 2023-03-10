@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReflectionEffectType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,11 +22,11 @@ Le type ReflectionEffectType expose les membres suivants :
 | TIGHT_REFLECTION_TOUCHING | Réflexion serrée, touchante.|
 | HALF_REFLECTION_TOUCHING | Demi reflet, touchant.|
 | FULL_REFLECTION_TOUCHING | Pleine réflexion, touchante.|
-| TIGHT_REFLECTION_4_PT_OFFSET | Réflexion serrée, décalage de 4 points.|
+| TIGHT_REFLECTION_4_PT_OFFSET | Réflexion serrée, décalage de 4 pt.|
 | HALF_REFLECTION_4_PT_OFFSET | Demi-réflexion, décalage de 4 points.|
 | FULL_REFLECTION_4_PT_OFFSET | Réflexion complète, décalage de 4 points.|
-| TIGHT_REFLECTION_8_PT_OFFSET | Réflexion serrée, décalage de 8 points.|
-| HALF_REFLECTION_8_PT_OFFSET | Demi-réflexion, décalage de 8 points.|
+| TIGHT_REFLECTION_8_PT_OFFSET | Réflexion serrée, décalage de 8 pt.|
+| HALF_REFLECTION_8_PT_OFFSET | Demi-réflexion, décalage de 8 pt.|
 | FULL_REFLECTION_8_PT_OFFSET |Réflexion complète, décalage de 8 points.|
 
 

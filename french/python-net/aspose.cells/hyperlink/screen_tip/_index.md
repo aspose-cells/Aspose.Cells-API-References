@@ -1,4 +1,4 @@
-﻿---
+---
 title: screen_tip propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

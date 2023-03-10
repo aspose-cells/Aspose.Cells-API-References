@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_enumerator метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ def get_enumerator(self):
 При обходе элементов возвращаемым Enumerator коллекция ячеек
 не следует изменять (например, операции, которые вызовут создание новой строки Cell/Row или удаление существующей строки Cell/Row).
 В противном случае счетчик не сможет правильно пройти все ячейки (некоторые элементы могут быть пройдены повторно или пропущены).
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

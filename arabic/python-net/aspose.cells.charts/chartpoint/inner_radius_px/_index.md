@@ -1,4 +1,4 @@
-﻿---
+---
 title: inner_radius_px الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  inner_radius_px الملكية
 
 الحصول على نصف القطر الداخلي للشريحة المجوفة بوحدات البكسل بعد استدعاء طريقة Chart.Calculate ().
-ينطبق على المخطط الدائري المجوف.
+ينطبق على الرسم البياني الدائري المجوف.
 ###  تعريف:
 ```python
 @property

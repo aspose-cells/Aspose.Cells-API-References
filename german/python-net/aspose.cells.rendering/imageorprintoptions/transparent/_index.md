@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparent Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt an, ob der Hintergrund des generierten Bildes transparent sein soll.
 
 ###  Bemerkungen
 
-Der Standardwert ist falsch.
+Der Standardwert ist falsch. Das bedeutet, dass der Hintergrund der generierten Bilder weiß ist.
 ###  Definition:
 ```python
 @property

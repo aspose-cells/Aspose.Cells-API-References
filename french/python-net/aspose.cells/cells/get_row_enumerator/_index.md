@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_row_enumerator méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

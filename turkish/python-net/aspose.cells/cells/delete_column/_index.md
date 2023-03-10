@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_column yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def delete_column(self, column_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 
@@ -34,7 +34,7 @@ def delete_column(self, column_index, update_reference):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | column_index | int | Sütun dizini.|
 | update_reference | bool | Diğer çalışma sayfalarındaki güncelleme başvurularının olup olmadığını gösterir.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDataSourceType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | WORKSHEET | Таблица рабочего листа Excel|
 | SHARE_POINT | Связанный список SharePoint для чтения и записи|
-| XML | XML-таблица сопоставления|
+| XML | Таблица сопоставления XML|
 | QUERY_TABLE | Таблица запросов|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_rows yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -31,7 +31,7 @@ def auto_fit_rows(self, only_auto):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | only_auto | bool |Doğru, yalnızca satır yüksekliği özelleştirilmediğinde satır yüksekliğini otomatik olarak sığdırır.|
 
@@ -47,7 +47,7 @@ def auto_fit_rows(self, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/tr/python-net/aspose.cells/autofitteroptions) | Otomatik tesisatçı seçenekleri|
 
@@ -63,7 +63,7 @@ def auto_fit_rows(self, start_row, end_row):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | end_row | int | Son satır dizini.|
@@ -80,7 +80,7 @@ def auto_fit_rows(self, start_row, end_row, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | end_row | int | Son satır dizini.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_view_column_width_pixel yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/get_view_column_width_pixel/
 is_root: false
 ---
 ##  get_view_column_width_pixel(column) {#int}
-Genişliği farklı görünüm türlerinde alın.
+Genişliği farklı görünüm tipinde alın.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 

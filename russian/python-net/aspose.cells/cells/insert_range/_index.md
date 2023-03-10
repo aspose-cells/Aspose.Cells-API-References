@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Область смены.|
 | shift_type | [ShiftType](/cells/ru/python-net/aspose.cells/shifttype) | Вариант сдвига ячеек.|
@@ -35,7 +35,7 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Область смены.|
 | shift_number | int | Количество строк или столбцов, которые необходимо вставить.|
@@ -53,7 +53,7 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Область смены.|
 | shift_number | int | Количество строк или столбцов, которые необходимо вставить.|

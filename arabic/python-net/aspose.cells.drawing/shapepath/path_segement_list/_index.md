@@ -1,4 +1,4 @@
-﻿---
+---
 title: path_segement_list الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

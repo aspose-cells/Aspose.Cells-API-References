@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,7 +21,7 @@ Der Typ RowCollection macht die folgenden Member verfügbar:
 
 
 
-Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeilenindex ab.
+Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeilenindex ab. Das Zeilenobjekt des angegebenen Zeilenindex wird instanziiert, wenn es vorher nicht existiert.
 ###  Indexierer
 | Name| Beschreibung|
 | :- | :- |
@@ -37,7 +37,7 @@ Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeil
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

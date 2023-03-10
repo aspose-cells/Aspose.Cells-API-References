@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_condition
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_condition(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/ar/python-net/aspose.cells/formatconditiontype) | نوع شرط التنسيق.|
 
@@ -42,7 +42,7 @@ def add_condition(self, type, operator_type, formula1, formula2):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/ar/python-net/aspose.cells/formatconditiontype) | [FormatConditionType](/cells/ar/python-net/aspose.cells/formatconditiontype) التنسيق الشرطي.<br/> قد يكون أحد أعضاء FormatConditionType.|
 | operator_type | [OperatorType](/cells/ar/python-net/aspose.cells/operatortype) | المقارنة [OperatorType](/cells/ar/python-net/aspose.cells/operatortype).<br/> يمكن أن يكون أحد أعضاء OperatorType.|

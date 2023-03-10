@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackground sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.ods/odspagebackground/
 is_root: false
 ---
 ##  OdsPageBackground sınıfı
-Oranların sayfa arka planını temsil eder.
+ods'un sayfa arka planını temsil eder.
 
 
 

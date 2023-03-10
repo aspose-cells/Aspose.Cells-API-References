@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_worksheet_css_separately недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_worksheet_css_separately недвижимость
 
-Указывает, следует ли экспортировать рабочий лист css отдельно. Значение по умолчанию — false.
+Указывает, экспортировать ли рабочий лист css отдельно. Значение по умолчанию — false.
 ###  Определение:
 ```python
 @property

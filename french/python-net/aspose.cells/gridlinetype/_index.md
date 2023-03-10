@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridlineType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType dénombrement
-Énumère les types de lignes de grille.
+Énumère le type de ligne de grille.
 
 
 

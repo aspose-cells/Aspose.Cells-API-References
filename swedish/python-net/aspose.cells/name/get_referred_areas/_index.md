@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_referred_areas metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/name/get_referred_areas/
 is_root: false
 ---
 ##  get_referred_areas(recalculate) {#bool}
-Hämtar alla referenser som hänvisas till med detta namn.
+Får alla referenser som hänvisas till med detta namn.
 
 
 ###  Returnerar
@@ -22,9 +22,9 @@ def get_referred_areas(self, recalculate):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| recalculate | bool | om det ska räknas om om detta namn har beräknats före denna anrop.|
+| recalculate | bool | om du räknar om det om detta namn har beräknats före denna anrop.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_row méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.pivot/pivottable/format_row/
 is_root: false
 ---
 ##  format_row(row, style) {#int-Style}
-Mettre en forme les données de ligne dans la zone du tableau croisé dynamique
+Mettre en forme les données de ligne dans la zone de tableau croisé dynamique
 
 
 
@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row | int | Index de ligne de l'objet Row|
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | Style à mettre en forme|

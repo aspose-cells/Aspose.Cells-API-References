@@ -1,4 +1,4 @@
-﻿---
+---
 title: treat_quote_prefix_as_value الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  treat_quote_prefix_as_value الملكية
 
 يشير إلى ما إذا كان يجب أخذ علامة الاقتباس المفردة كجزء من قيمة خلية واحدة.
-الافتراضي هو صحيح. إذا كان خطأ ، ستتم إزالة علامة الاقتباس المفردة البادئة من قيمة الخلية المقابلة
+الافتراضي هو الصحيح. إذا كانت خاطئة ، فستتم إزالة علامة الاقتباس المفردة البادئة من قيمة الخلية المقابلة
 وسيتم تعيين [Style.quote_prefix](/cells/ar/python-net/aspose.cells/style#quote_prefix) على أنه صحيح للخلية.
 ###  تعريف:
 ```python

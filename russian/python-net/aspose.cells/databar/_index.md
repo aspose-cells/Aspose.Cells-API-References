@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBar класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  DataBar класс
  Опишите правило условного форматирования DataBar.
-Это правило условного форматирования отображает оцениваемый
+Это правило условного форматирования отображает градуированный
 панель данных в диапазоне ячеек.
 
 
@@ -28,9 +28,9 @@ is_root: false
 | [min_cfvo](/cells/ru/python-net/aspose.cells/databar/min_cfvo) | Получите или установите объект минимального значения этого DataBar.<br/> Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Max.|
 | [max_cfvo](/cells/ru/python-net/aspose.cells/databar/max_cfvo) | Получите или установите объект максимального значения этого DataBar.<br/> Невозможно установить значение null или CFValueObject с типом FormatConditionValueType.Min.|
 | [color](/cells/ru/python-net/aspose.cells/databar/color) | Получить или установить цвет этого DataBar.|
-| [min_length](/cells/ru/python-net/aspose.cells/databar/min_length) | Представляет минимальную длину панели данных.|
+| [min_length](/cells/ru/python-net/aspose.cells/databar/min_length) | Представляет минимальную длину строки данных.|
 | [max_length](/cells/ru/python-net/aspose.cells/databar/max_length) | Представляет максимальную длину строки данных.|
-| [show_value](/cells/ru/python-net/aspose.cells/databar/show_value) | Получите или установите флаг, указывающий, показывать ли значения ячеек, к которым применяется эта панель данных.<br/> Значение по умолчанию — истина.|
+| [show_value](/cells/ru/python-net/aspose.cells/databar/show_value) | Получите или установите флаг, указывающий, следует ли отображать значения ячеек, к которым применяется эта панель данных.<br/> Значение по умолчанию — истина.|
 
 
 ###  Методы
@@ -40,7 +40,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

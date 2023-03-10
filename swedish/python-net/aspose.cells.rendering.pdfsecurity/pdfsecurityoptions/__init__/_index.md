@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSecurityOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -21,7 +21,7 @@ def __init__(self):
 
 ###  Exempel
 
-Följande kod anger högupplöst utskriftsbehörighet för utdata-pdf.
+Följande kod anger utskriftstillstånd för hög upplösning för utdata-pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

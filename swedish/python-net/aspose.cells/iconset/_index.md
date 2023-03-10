@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSet klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -21,9 +21,9 @@ Typen IconSet avslöjar följande medlemmar:
 | :- | :- |
 | [cf_icons](/cells/sv/python-net/aspose.cells/iconset/cf_icons) | Få [ConditionalFormattingIcon](/cells/sv/python-net/aspose.cells/conditionalformattingicon) från samlingen|
 | [cfvos](/cells/sv/python-net/aspose.cells/iconset/cfvos) | Hämta CFValueObjects-instansen.|
-| [type](/cells/sv/python-net/aspose.cells/iconset/type) | Hämta eller Ställ in vilken typ av ikonuppsättning som ska visas.<br/>Att ställa in typen kommer att automatiskt kontrollera om det aktuella Cfvos antal är<br/> överensstämmer med den nya typen. Om inte, kommer gamla Cfvos att rengöras och<br/> standard Cfvos kommer att läggas till.|
+| [type](/cells/sv/python-net/aspose.cells/iconset/type) | Hämta eller Ställ in vilken typ av ikonuppsättning som ska visas.<br/>Att ställa in typen kommer att automatiskt kontrollera om det aktuella Cfvos antal är<br/> överensstämmer med den nya typen. Om inte överensstämmelse kommer gamla Cfvos att rengöras och<br/> standard Cfvos kommer att läggas till.|
 | [is_custom](/cells/sv/python-net/aspose.cells/iconset/is_custom) | Indikerar om ikonuppsättningen är anpassad.<br/> Standardvärdet är falskt.|
-| [show_value](/cells/sv/python-net/aspose.cells/iconset/show_value) | Hämta eller ställ in flaggan som anger om värdena för cellerna som denna ikonuppsättning tillämpas på ska visas.<br/> Standardvärdet är sant.|
+| [show_value](/cells/sv/python-net/aspose.cells/iconset/show_value) | Hämta eller ställ in flaggan som anger om värdena för cellerna som denna ikonuppsättning används på ska visas.<br/> Standardvärdet är sant.|
 | [reverse](/cells/sv/python-net/aspose.cells/iconset/reverse) | Hämta eller ställ in flaggan som anger om standardordningen för ikonerna i denna ikonuppsättning ska ändras.<br/> Standardvärdet är falskt.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: drag_to_column الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

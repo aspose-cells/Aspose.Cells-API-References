@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width_pixel proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene o imposta la larghezza in unità di pixel per ogni colonna dell'affettatrice.
 
-###  Esempi
+###  Esempio
 
 ```python
 

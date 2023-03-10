@@ -1,6 +1,6 @@
-﻿---
+---
 title: TextVerticalType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 200
@@ -14,7 +14,7 @@ is_root: false
 
 TextVerticalType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | VERTICAL |东亚垂直显示。|

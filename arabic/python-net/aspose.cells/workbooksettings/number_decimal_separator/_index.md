@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_decimal_separator الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator الملكية
 
-الحصول على أو تعيين الفاصل العشري لتنسيق / تحليل القيم الرقمية.
+الحصول على أو تعيين الفاصل العشري لتنسيق / تحليل القيم الرقمية. الافتراضي هو الفاصل العشري للمنطقة الحالية.
 ###  تعريف:
 ```python
 @property

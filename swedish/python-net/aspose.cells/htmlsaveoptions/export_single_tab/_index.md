@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_single_tab fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

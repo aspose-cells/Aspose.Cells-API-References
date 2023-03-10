@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_in_table mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bu hücrenin tablo formülünün parçası olup olmadığını gösterir.
 
 ###  Notlar
 
- NOT: Bu sınıf artık kullanılmıyor.
+ NOT: Bu sınıf artık kullanılmıyor. Yerine,
 hücre formülünün tablo formülünün bir parçası olup olmadığını kontrol etmek için lütfen Cell.IsTableFormula'yı kullanın.
 Bu mülk, Mayıs 2018'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

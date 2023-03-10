@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookMetadata konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def __init__(self, file_name, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str |  |
 | options | [MetadataOptions](/cells/sv/python-net/aspose.cells.metadata/metadataoptions) |  |
@@ -35,7 +35,7 @@ def __init__(self, stream, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | [MetadataOptions](/cells/sv/python-net/aspose.cells.metadata/metadataoptions) |  |

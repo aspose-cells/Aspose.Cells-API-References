@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_leafs yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,7 +24,7 @@ def get_leafs(self):
 
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor.
+NOT: Bu sınıf artık kullanılmıyor. Yerine,
 hesaplama zincirindeki tüm bağımlıları almak için lütfen Cell.GetDependentsInCalculation(bool) kullanın.
 Bu mülk, Mayıs 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -44,12 +44,12 @@ def get_leafs(self, recursive):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | recursive | bool | Doğrudan bu hücreye referans vermeyen yaprakları döndürür.<br/> ancak bu hücrenin diğer yapraklarına referans|
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor.
+NOT: Bu sınıf artık kullanılmıyor. Yerine,
 hesaplama zincirindeki tüm bağımlıları almak için lütfen Cell.GetDependentsInCalculation(bool) kullanın.
 Bu mülk, Mayıs 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

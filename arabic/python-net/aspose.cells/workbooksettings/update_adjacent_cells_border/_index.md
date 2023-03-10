@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_adjacent_cells_border الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

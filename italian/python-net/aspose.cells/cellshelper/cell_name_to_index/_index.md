@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo cell_name_to_index
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def cell_name_to_index(self, cell_name, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_name | str | Nome della cella.|
 | row | any | Indice di riga di output|

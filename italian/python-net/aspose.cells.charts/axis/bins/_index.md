@@ -1,4 +1,4 @@
-﻿---
+---
 title: bins proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bins proprietà
 
-Rappresenta bins sull'asse di un grafico (istogramma/pareto).
+Rappresenta bins su un asse del grafico (istogramma/pareto).
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: checked_value Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  checked_value Eigentum
 
-Ruft den Wert des Kontrollkästchens ab oder legt ihn fest.
+Ruft den Wert des Kontrollkästchens ab oder setzt ihn.
 ###  Definition:
 ```python
 @property

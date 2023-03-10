@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeTextAlignment classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,16 +25,16 @@ Le type ShapeTextAlignment expose les membres suivants :
 | [text_vertical_type](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Obtient et définit la direction du texte.|
 | [auto_size](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Indique si la taille de la forme est ajustée automatiquement en fonction de son contenu.|
 | [text_shape_type](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Obtient et définit le type de transformation du texte.|
-| [top_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Renvoie la marge supérieure en unités de points|
-| [bottom_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Renvoie la marge inférieure en unités de Points|
-| [left_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Renvoie la marge de gauche en unités de points|
-| [right_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Renvoie la marge de droite en unités de points|
+| [top_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Renvoie la marge supérieure en unité de points|
+| [bottom_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Renvoie la marge inférieure en unité de points|
+| [left_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Renvoie la marge de gauche en unité de Points|
+| [right_margin_pt](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Renvoie la marge de droite en unité de Points|
 | [is_auto_margin](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/is_auto_margin) | Indique si la marge du cadre de texte est automatique.|
 | [number_of_columns](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment/number_of_columns) | Obtient et définit le nombre de colonnes de texte dans le rectangle englobant.|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

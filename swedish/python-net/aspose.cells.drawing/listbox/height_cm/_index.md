@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_cm fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height_cm fastighet
 
-Representerar höjden på formen, i enheter av centimeter.
+Representerar höjden på formen, i centimeterenhet.
 
 ###  Exempel
 

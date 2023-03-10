@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_line mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Görünür şeklin çizgi kenarlığını alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

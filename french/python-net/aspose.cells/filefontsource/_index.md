@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFontSource classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type FileFontSource expose les membres suivants :
 ###  Constructeurs
 | Constructeur| Description|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/fr/python-net/aspose.cells/filefontsource/__init__/#str) | Directeur.|
+| [FileFontSource(file_path)](/cells/fr/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
 
 
 ###  Propriétés

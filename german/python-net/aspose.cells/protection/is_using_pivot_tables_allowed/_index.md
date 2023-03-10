@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_using_pivot_tables_allowed Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,8 +13,8 @@ Stellt dar, ob der Benutzer berechtigt ist, Pivot-Tabellen auf einem geschützte
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
- Bitte verwenden Sie den Schutz Verwenden der PivotTable-Eigenschaft zulassen.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
+ Bitte verwenden Sie die Protection.AllowUsingPivotTable-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة characters
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-كائنات الحرف.
+كائن الأحرف.
 
 
 ```python
@@ -22,14 +22,14 @@ def characters(self, start_index, length):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_index | int | فهرس بداية الحرف.|
 | length | int | عدد الأحرف.|
 ###  ملاحظات
 
-تعمل هذه الطريقة فقط على الخلايا التي تحتوي على قيم سلسلة.
-###  أمثلة
+تعمل هذه الطريقة فقط على الخلية ذات قيمة السلسلة.
+###  مثال
 
 
 ```python

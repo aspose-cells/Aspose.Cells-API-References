@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_param_text metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get_param_text(self, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | index för parametern (0 baserat)|
 

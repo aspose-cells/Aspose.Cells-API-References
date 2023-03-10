@@ -1,4 +1,4 @@
-﻿---
+---
 title: next метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-если новая текущая строка действительна; false, если строк больше нет
+если новая текущая строка действительна; false, если больше нет строк
 
 
 ```python

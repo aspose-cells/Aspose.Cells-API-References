@@ -1,4 +1,4 @@
-﻿---
+---
 title: connection_id Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  connection_id Eigentum
 
-Gibt die eindeutige Kennung dieser Verbindung an.
+Gibt den eindeutigen Bezeichner dieser Verbindung an.
 ###  Definition:
 ```python
 @property

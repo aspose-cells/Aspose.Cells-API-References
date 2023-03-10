@@ -1,4 +1,4 @@
-﻿---
+---
 title: parent proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent proprietà
 
-Restituisce l'oggetto Worksheet che rappresenta il foglio che contiene lo slicer.
+Restituisce l'oggetto Worksheet che rappresenta il foglio che contiene lo slicer. Sola lettura.
 
-###  Esempi
+###  Esempio
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get(self, cell_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | Cell nombre, incluida la letra de la columna y el número de fila, por ejemplo, A5.|
 
@@ -42,7 +42,7 @@ def get(self, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
 | column | int | Índice de columnas.|

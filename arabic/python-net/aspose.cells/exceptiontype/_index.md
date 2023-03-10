@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ExceptionType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -29,7 +29,7 @@ is_root: false
 | LICENSE | الأخطاء المتعلقة بالترخيص.|
 | LIMITATION |من خطأ تحديد MS Excel.|
 | PAGE_SETUP | إعداد إعداد الصفحة غير صالح.|
-| PIVOT_TABLE | إعداد جدول محوري غير صالح.|
+| PIVOT_TABLE | إعداد pivotTable غير صالح.|
 | SHAPE | إعداد كائن رسومي غير صالح.|
 | SPARKLINE | إعداد كائن خط مؤشر غير صالح.|
 | SHEET_NAME | اسم ورقة العمل غير صالح.|
@@ -37,7 +37,7 @@ is_root: false
 | INTERRUPTED | تمت مقاطعة العملية.|
 | IO | الملف غير صالح.|
 | PERMISSION | مطلوب إذن لفتح هذا الملف.|
-| UNSUPPORTED_FEATURE | الميزات غير المدعومة.|
+| UNSUPPORTED_FEATURE | ميزة غير مدعومة.|
 | UNSUPPORTED_STREAM | سيتم فتح دفق غير مدعوم.|
 | UNDISCLOSED_INFORMATION | تحتوي الملفات على بعض المعلومات غير المكشوف عنها.|
 | FILE_CORRUPTED | محتوى الملف تالف.|

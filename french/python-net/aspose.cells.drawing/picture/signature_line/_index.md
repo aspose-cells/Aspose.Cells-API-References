@@ -1,4 +1,4 @@
-﻿---
+---
 title: signature_line propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la ligne de signature
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

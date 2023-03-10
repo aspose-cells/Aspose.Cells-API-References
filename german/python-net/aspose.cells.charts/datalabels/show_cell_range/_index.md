@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_cell_range Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

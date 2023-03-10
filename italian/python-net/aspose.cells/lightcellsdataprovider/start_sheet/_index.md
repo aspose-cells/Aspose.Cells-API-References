@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_sheet
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Inizia a salvare un foglio di lavoro.
 
 ###  ritorna
 
-true se questo fornitore fornirà i dati per il foglio specificato; false se il foglio specificato deve utilizzare il suo normale modello di dati (Cells).
+true se questo provider fornirà i dati per il foglio specificato; false se il foglio specificato deve utilizzare il suo normale modello di dati (Cells).
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_index | int | indice del foglio corrente da salvare.|
 ###  Osservazioni

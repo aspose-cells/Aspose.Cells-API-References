@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo warning
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def warning(self, warning_info):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | warning_info | [WarningInfo](/cells/it/python-net/aspose.cells/warninginfo) | informazioni di avviso|
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: PivotTable类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 100
@@ -17,7 +17,7 @@ PivotTable 类型公开了以下成员：
 ### 特性
 |属性|描述|
 | :- | :- |
-| [is_excel_2003_compatible](/cells/zh/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible) |指定刷新数据透视表时数据透视表是否兼容Excel2003，<br/>如果为真，则字符串必须小于或等于 255 个字符，因此如果字符串大于 255 个字符，<br/>它将被截断。如果为假，则字符串将没有上述限制。<br/>默认值是true。|
+| [is_excel_2003_compatible](/cells/zh/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible) |指定刷新数据透视表时数据透视表是否兼容Excel2003，<br/>如果为真，则字符串必须小于或等于 255 个字符，因此如果字符串大于 255 个字符，<br/>它将被截断。如果为 false，字符串将没有上述限制。<br/>默认值是true。|
 | [refreshed_by_who](/cells/zh/python-net/aspose.cells.pivot/pivottable/refreshed_by_who) |获取上次刷新数据透视表的用户的名称|
 | [refresh_date](/cells/zh/python-net/aspose.cells.pivot/pivottable/refresh_date) |获取上次刷新数据透视表的日期。|
 | [pivot_table_style_name](/cells/zh/python-net/aspose.cells.pivot/pivottable/pivot_table_style_name) |获取和设置数据透视表样式名称。|
@@ -25,23 +25,23 @@ PivotTable 类型公开了以下成员：
 | [column_fields](/cells/zh/python-net/aspose.cells.pivot/pivottable/column_fields) |返回当前显示为列字段的 PivotFields 对象。|
 | [row_fields](/cells/zh/python-net/aspose.cells.pivot/pivottable/row_fields) |返回当前显示为行字段的 PivotFields 对象。|
 | [page_fields](/cells/zh/python-net/aspose.cells.pivot/pivottable/page_fields) |返回当前显示为页面字段的 PivotFields 对象。|
-| [data_fields](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_fields) |获取表示数据透视表中所有数据字段的 PivotField 对象。<br/>只读，只有当DataPiovtFields中有两个或多个数据字段时才会初始化。<br/>它只用于将DataPivotField添加到数据透视表的行/列区域。默认是在行区域。|
-| [data_field](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_field) |获取表示数据透视表中所有数据字段的 PivotField 对象。<br/>只读，只有当DataPiovtFields中有两个或多个数据字段时才会初始化。<br/>它只用于将DataPivotField添加到数据透视表的行/列区域。默认是在行区域。|
+| [data_fields](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_fields) |获取表示数据透视表中所有数据字段的 PivotField 对象。<br/>只读。只有当DataPiovtFiels中有两个或多个数据字段时才会被初始化。<br/>它仅用于将 DataPivotField 添加到数据透视表的行/列区域。默认在行区域。|
+| [data_field](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_field) |获取表示数据透视表中所有数据字段的 PivotField 对象。<br/>只读。只有当DataPiovtFiels中有两个或多个数据字段时才会被初始化。<br/>它仅用于将 DataPivotField 添加到数据透视表的行/列区域。默认在行区域。|
 | [base_fields](/cells/zh/python-net/aspose.cells.pivot/pivottable/base_fields) |返回一个 PivotFields 对象，该对象包含数据透视表中的所有字段|
 | [pivot_filters](/cells/zh/python-net/aspose.cells.pivot/pivottable/pivot_filters) |返回一个 PivotFilterCollection 对象。|
-| [column_range](/cells/zh/python-net/aspose.cells.pivot/pivottable/column_range) |返回表示范围的 CellArea 对象<br/>包含数据透视表中的列区域。|
-| [row_range](/cells/zh/python-net/aspose.cells.pivot/pivottable/row_range) |返回表示范围的 CellArea 对象<br/>包含数据透视表中的行区域。|
-| [data_body_range](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_body_range) |返回一个 CellArea 对象，表示包含数据区域的范围<br/>在标题行和插入行之间的列表中。|
-| [table_range1](/cells/zh/python-net/aspose.cells.pivot/pivottable/table_range1) |返回一个 CellArea 对象，该对象表示包含整个数据透视表的区域，<br/>但不包括页面字段。|
-| [table_range2](/cells/zh/python-net/aspose.cells.pivot/pivottable/table_range2) |返回一个 CellArea 对象，该对象表示包含整个数据透视表的区域，<br/>包括页面字段。|
+| [column_range](/cells/zh/python-net/aspose.cells.pivot/pivottable/column_range) |返回表示范围的 CellArea 对象<br/>包含数据透视表中的列区域。只读。|
+| [row_range](/cells/zh/python-net/aspose.cells.pivot/pivottable/row_range) |返回表示范围的 CellArea 对象<br/>包含数据透视表中的行区域。只读。|
+| [data_body_range](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_body_range) |返回一个 CellArea 对象，表示包含数据区域的范围<br/>在标题行和插入行之间的列表中。只读。|
+| [table_range1](/cells/zh/python-net/aspose.cells.pivot/pivottable/table_range1) |返回一个 CellArea 对象，该对象表示包含整个数据透视表的区域，<br/>但不包括页面字段。只读。|
+| [table_range2](/cells/zh/python-net/aspose.cells.pivot/pivottable/table_range2) |返回一个 CellArea 对象，该对象表示包含整个数据透视表的区域，<br/>包括页面字段。只读。|
 | [column_grand](/cells/zh/python-net/aspose.cells.pivot/pivottable/column_grand) |指示数据透视表是否显示列的总计。|
 | [is_grid_drop_zones](/cells/zh/python-net/aspose.cells.pivot/pivottable/is_grid_drop_zones) |指示数据透视表是否显示经典数据透视表布局。<br/> （允许拖动网格中的字段）|
 | [row_grand](/cells/zh/python-net/aspose.cells.pivot/pivottable/row_grand) |指示数据透视表是否显示行的总计。|
 | [display_null_string](/cells/zh/python-net/aspose.cells.pivot/pivottable/display_null_string) |指示数据透视表是否显示自定义字符串<br/>在包含空值的单元格中。|
-| [null_string](/cells/zh/python-net/aspose.cells.pivot/pivottable/null_string) |获取显示在包含空值的单元格中的字符串<br/>当 DisplayNullString 属性为真时。|
+| [null_string](/cells/zh/python-net/aspose.cells.pivot/pivottable/null_string) |获取显示在包含空值的单元格中的字符串<br/>当 DisplayNullString 属性为 true 时。默认值为空字符串。|
 | [display_error_string](/cells/zh/python-net/aspose.cells.pivot/pivottable/display_error_string) |指示数据透视表是否在包含错误的单元格中显示自定义字符串。|
 | [data_field_header_name](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_field_header_name) |获取和设置数据透视表中值区域字段标题的名称。|
-| [error_string](/cells/zh/python-net/aspose.cells.pivot/pivottable/error_string) |获取显示在包含错误的单元格中的字符串<br/>当 DisplayErrorString 属性为真时。默认值为空字符串。|
+| [error_string](/cells/zh/python-net/aspose.cells.pivot/pivottable/error_string) |获取显示在包含错误的单元格中的字符串<br/>当 DisplayErrorString 属性为 true 时。默认值为空字符串。|
 | [is_auto_format](/cells/zh/python-net/aspose.cells.pivot/pivottable/is_auto_format) |指示数据透视表是否自动设置格式。<br/>Excel 2003 的数据透视表选项中的复选框“自动格式表”<br/>数据透视表选项中的复选框“更新时自动调整列宽”：Excel 2007 的布局格式|
 | [auto_format_type](/cells/zh/python-net/aspose.cells.pivot/pivottable/auto_format_type) |获取数据透视表自动格式类型。|
 | [has_blank_rows](/cells/zh/python-net/aspose.cells.pivot/pivottable/has_blank_rows) |是否添加空行。<br/>此属性仅适用于需要添加空行的数据透视表自动格式类型。|
@@ -57,10 +57,10 @@ PivotTable 类型公开了以下成员：
 | [manual_update](/cells/zh/python-net/aspose.cells.pivot/pivottable/manual_update) |指示是否仅在用户请求时才重新计算数据透视表。|
 | [is_multiple_field_filters](/cells/zh/python-net/aspose.cells.pivot/pivottable/is_multiple_field_filters) |指定一个布尔值，指示数据透视表的字段是否可以设置多个筛选器。|
 | [missing_items_limit](/cells/zh/python-net/aspose.cells.pivot/pivottable/missing_items_limit) |指定一个布尔值，指示数据透视表的字段是否可以设置多个筛选器。|
-| [enable_data_value_editing](/cells/zh/python-net/aspose.cells.pivot/pivottable/enable_data_value_editing) |指定一个布尔值，表示是否允许用户编辑数据透视表数据区域中的单元格。<br/>在值区域启用单元格编辑|
+| [enable_data_value_editing](/cells/zh/python-net/aspose.cells.pivot/pivottable/enable_data_value_editing) |指定一个布尔值，指示是否允许用户编辑数据透视表数据区域中的单元格。<br/>在值区域中启用单元格编辑|
 | [show_data_tips](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_data_tips) |指定一个布尔值，指示是否应为数据透视表数据单元格显示工具提示。|
 | [show_member_property_tips](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_member_property_tips) |指定一个布尔值，该值指示是否应从数据透视表工具提示中省略成员属性信息。|
-| [show_values_row](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_values_row) |指定一个布尔值，表示是否显示值行。<br/>显示值行|
+| [show_values_row](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_values_row) |指定一个布尔值，指示是否显示值行。<br/>显示值行|
 | [show_empty_col](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_empty_col) |指定一个布尔值，指示是否在表中包含空列|
 | [show_empty_row](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_empty_row) |指定一个布尔值，指示是否在表中包含空行。|
 | [field_list_sort_ascending](/cells/zh/python-net/aspose.cells.pivot/pivottable/field_list_sort_ascending) |指定一个布尔值，指示数据透视表中的字段是否在字段列表中按非默认顺序排序。|
@@ -83,8 +83,8 @@ PivotTable 类型公开了以下成员：
 | [external_connection_data_source](/cells/zh/python-net/aspose.cells.pivot/pivottable/external_connection_data_source) |获取外部连接数据源。|
 | [data_source](/cells/zh/python-net/aspose.cells.pivot/pivottable/data_source) |获取和设置数据透视表的数据源。|
 | [item_print_titles](/cells/zh/python-net/aspose.cells.pivot/pivottable/item_print_titles) |指定是否在行轴上透视项目标题的位<br/>在表格形式的数据透视字段的每个打印页面上重复。|
-| [print_titles](/cells/zh/python-net/aspose.cells.pivot/pivottable/print_titles) |指示工作表的打印标题是否设置为基于<br/>在数据透视表上。|
-| [display_immediate_items](/cells/zh/python-net/aspose.cells.pivot/pivottable/display_immediate_items) |指示行和列区域中的项目是否可见<br/>当数据透视表的数据区为空时。|
+| [print_titles](/cells/zh/python-net/aspose.cells.pivot/pivottable/print_titles) |指示工作表的打印标题是否设置为基于<br/>在数据透视表上。默认值为假。|
+| [display_immediate_items](/cells/zh/python-net/aspose.cells.pivot/pivottable/display_immediate_items) |指示行和列区域中的项目是否可见<br/>当数据透视表的数据区域为空时。默认值是true。|
 | [is_selected](/cells/zh/python-net/aspose.cells.pivot/pivottable/is_selected) |指示是否选择了数据透视表。|
 | [show_pivot_style_row_header](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_pivot_style_row_header) |指示数据透视表中的行标题是否应应用样式。|
 | [show_pivot_style_column_header](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_pivot_style_column_header) |指示数据透视表中的列标题是否应应用样式。|
@@ -127,7 +127,7 @@ PivotTable 类型公开了以下成员：
 | [calculate_range()](/cells/zh/python-net/aspose.cells.pivot/pivottable/calculate_range/#) |计算数据透视表的范围。|
 | [format_all(style)](/cells/zh/python-net/aspose.cells.pivot/pivottable/format_all/#Style) |格式化数据透视表区域中的所有单元格|
 | [format_row(row, style)](/cells/zh/python-net/aspose.cells.pivot/pivottable/format_row/#int-Style) |格式化数据透视表区域中的行数据|
-| [format(row, column, style)](/cells/zh/python-net/aspose.cells.pivot/pivottable/format/#int-int-Style) |格式化数据透视表区域中的单元格|
+| [format(row, column, style)](/cells/zh/python-net/aspose.cells.pivot/pivottable/format/#int-int-Style) |格式化数据透视区域中的单元格|
 | [get_horizontal_breaks()](/cells/zh/python-net/aspose.cells.pivot/pivottable/get_horizontal_breaks/#) |获取水平分页符的数据透视表行索引列表|
 | [show_in_compact_form()](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#) |以紧凑的形式布置数据透视表。|
 | [show_in_outline_form()](/cells/zh/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#) |以大纲形式布置数据透视表。|

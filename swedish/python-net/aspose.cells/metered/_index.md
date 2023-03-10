@@ -1,4 +1,4 @@
-﻿---
+---
 title: Metered klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/metered/
 is_root: false
 ---
 ##  Metered klass
-Tillhandahåller metoder för att ställa in mätnycklar.
+Ger metoder för att ställa in mätt nyckel.
 
 
 
@@ -23,7 +23,7 @@ Typen Metered avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [set_metered_key(public_key, private_key)](/cells/sv/python-net/aspose.cells/metered/set_metered_key/#str-str) | Ställer in mätta offentliga och privata nycklar.<br/>Om du köper mätlicens, när du startar ansökan, ska denna API kallas, normalt räcker det. Du bör regelbundet kontrollera licensstatusen, om det är utvärderingsstatus, ring detta API igen.|
+| [set_metered_key(public_key, private_key)](/cells/sv/python-net/aspose.cells/metered/set_metered_key/#str-str) | Ställer in mätt offentlig och privat nyckel.<br/>Om du köper mätlicens, när du startar ansökan, bör denna API kallas, normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar, kommer licensen att ställas in på utvärderingsstatus, för att undvika sådana fall bör du regelbundet kontrollera licensstatusen, om det är utvärderingsstatus, ring detta API igen.|
 | [get_consumption_quantity()](/cells/sv/python-net/aspose.cells/metered/get_consumption_quantity/#) | Får förbrukningsfilstorlek|
 | [get_consumption_credit()](/cells/sv/python-net/aspose.cells/metered/get_consumption_credit/#) | Får konsumtionskredit|
 
@@ -31,7 +31,7 @@ Typen Metered avslöjar följande medlemmar:
 
 ###  Exempel
 
-I det här exemplet kommer ett försök att göras att ställa in mätta publika och privata nycklar
+I det här exemplet kommer ett försök att göras att ställa in mätt offentlig och privat nyckel
 
 
 ```python

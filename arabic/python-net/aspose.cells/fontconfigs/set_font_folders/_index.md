@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_font_folders
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_font_folders(self, font_folders, recursive):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | font_folders | list | المجلدات التي تحتوي على خطوط تروتايب.|
 | recursive | bool | يحدد ما إذا كان سيتم فحص المجلدات الفرعية أم لا.|

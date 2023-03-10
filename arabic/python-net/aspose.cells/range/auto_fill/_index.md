@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة auto_fill
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/range/auto_fill/
 is_root: false
 ---
 ##  auto_fill(target) {#Range}
-كل ملء تلقائي للنطاق المستهدف.
+كل ملء النطاق المستهدف.
 
 
 
@@ -18,11 +18,11 @@ def auto_fill(self, target):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | target | [Range](/cells/ar/python-net/aspose.cells/range) | النطاق المستهدف.|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -44,7 +44,7 @@ workbook.save("book1.xlsm")
 
 
 ##  auto_fill(target, auto_fill_type) {#Range-AutoFillType}
-كل ملء تلقائي للنطاق المستهدف.
+كل ملء النطاق المستهدف.
 
 
 
@@ -54,9 +54,9 @@ def auto_fill(self, target, auto_fill_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| target | [Range](/cells/ar/python-net/aspose.cells/range) | النطاق المستهدف.|
+| target | [Range](/cells/ar/python-net/aspose.cells/range) | النطاق الملون.|
 | auto_fill_type | [AutoFillType](/cells/ar/python-net/aspose.cells/autofilltype) | نوع الملء التلقائي.|
 
 

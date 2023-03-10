@@ -1,4 +1,4 @@
-﻿---
+---
 title: active_x_control الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على عنصر تحكم ActiveX.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose import pycore

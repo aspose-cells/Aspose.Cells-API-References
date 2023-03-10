@@ -1,4 +1,4 @@
-﻿---
+---
 title: key2 الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

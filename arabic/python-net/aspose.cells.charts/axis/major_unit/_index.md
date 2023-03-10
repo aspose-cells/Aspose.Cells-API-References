@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_unit الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

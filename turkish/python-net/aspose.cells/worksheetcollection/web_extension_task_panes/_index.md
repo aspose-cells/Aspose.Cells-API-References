@@ -1,4 +1,4 @@
-﻿---
+---
 title: web_extension_task_panes mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

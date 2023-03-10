@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_display_format proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

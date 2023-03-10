@@ -1,4 +1,4 @@
-﻿---
+---
 title: width mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,17 +13,17 @@ is_root: false
 
 ###  Notlar
 
-Çizim alanı sınırlama kutusu, çizim alanını, onay işaretlerini (tik etiketleri) ve onay işaretlerinin çevresinde küçük bir kenarlığı içerir.
+Çizim alanı sınırlayıcı kutusu, çizim alanını, onay işaretlerini (tik etiketleri) ve onay işaretlerinin etrafında küçük bir kenarlığı içerir.
  Değer MS Excel tarafından oluşturulmadıysa, lütfen bu yöntemi çağırmadan önce Chart.Calculate() yöntemini çağırın.
 
 
- bu**X** , **E** , **Genişlik** Ve**Yükseklik** ile ilgili**Arsa alanı** arsa alanını temsil eder
- Çizim alanı, değer işaretleri (tik etiketleri) ve onay işaretlerinin çevresinde küçük bir kenarlık içeren bir sınırlayıcı kutu.
+ bu**X** , **Y** , **Genişlik** Ve**Yükseklik** ile ilgili**Arsa alanı** arsa alanını temsil eder
+ çizim alanını, onay işaretlerini (tik etiketleri) ve onay işaretlerinin çevresinde küçük bir kenarlığı içeren sınırlayıcı kutu.
  Arsa alanının gerçek boyutunu almak istiyorsanız, aramalısınız.**İç X** , **İç Y** , **İç Genişlik** Ve
 **İç Yükseklik** özellikler.
 
 
-Excel 2007 veya sonraki sürümleri için varsayılan değer sıfırdır.
+Excel 2007 veya sonraki sürümleri için varsayılan değer sıfırdır. Chart.Calculate() öğesini çağırdıktan sonra get değerini çağırmalısınız.
 ###  Tanım:
 ```python
 @property

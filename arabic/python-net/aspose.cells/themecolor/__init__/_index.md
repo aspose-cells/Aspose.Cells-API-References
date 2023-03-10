@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThemeColor المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def __init__(self, type, tint):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/ar/python-net/aspose.cells/themecolortype) | نوع الموضوع.|
 | tint | float | قيمة الصبغة.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: alternative_text propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece la cadena de texto descriptiva (alternativa) del objeto [Shape](/cells/es/python-net/aspose.cells.drawing/shape).
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

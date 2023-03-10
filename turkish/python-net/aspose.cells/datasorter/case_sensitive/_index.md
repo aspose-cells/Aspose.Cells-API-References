@@ -1,4 +1,4 @@
-﻿---
+---
 title: case_sensitive mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive mülk
 
-Dizeleri karşılaştırırken büyük/küçük harfe duyarlı olup olmadığını alır ve ayarlar.
+Dizeyi karşılaştırırken büyük/küçük harfe duyarlı olup olmadığını alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnionRange sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -21,7 +21,7 @@ UnionRange türü aşağıdaki üyeleri gösterir:
 | [first_column](/cells/tr/python-net/aspose.cells/unionrange/first_column) | Aralığın ilk sütununun dizinini alır.|
 | [row_count](/cells/tr/python-net/aspose.cells/unionrange/row_count) | Aralıktaki satır sayısını alır.|
 | [column_count](/cells/tr/python-net/aspose.cells/unionrange/column_count) | Aralıktaki satır sayısını alır.|
-| [value](/cells/tr/python-net/aspose.cells/unionrange/value) | Aralık değerlerini alır ve ayarlar.|
+| [value](/cells/tr/python-net/aspose.cells/unionrange/value) | Aralığın değerlerini alır ve ayarlar.|
 | [name](/cells/tr/python-net/aspose.cells/unionrange/name) | Aralığın adını alır veya ayarlar.|
 | [refers_to](/cells/tr/python-net/aspose.cells/unionrange/refers_to) | Aralığın referanslarını alır.|
 | [has_range](/cells/tr/python-net/aspose.cells/unionrange/has_range) | Bunun menzile sahip olup olmadığını gösterir.|

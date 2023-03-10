@@ -1,4 +1,4 @@
-﻿---
+---
 title: name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name Eigentum
 
-Gibt die name der Verbindung an.
+Gibt die name der Verbindung an. Jede Verbindung muss eine eindeutige name haben.
 ###  Definition:
 ```python
 @property

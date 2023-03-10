@@ -1,4 +1,4 @@
-﻿---
+---
 title: BackgroundType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,8 +17,8 @@ Il tipo BackgroundType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| DIAGONAL_CROSSHATCH | Rappresenta un motivo a tratteggio incrociato diagonale.|
-| DIAGONAL_STRIPE | Rappresenta un motivo a strisce diagonali.|
+| DIAGONAL_CROSSHATCH | Rappresenta il modello di tratteggio incrociato diagonale.|
+| DIAGONAL_STRIPE | Rappresenta il motivo a strisce diagonali.|
 | GRAY6 |Rappresenta il motivo grigio al 6,25%.|
 | GRAY12 | Rappresenta il motivo grigio al 12,5%.|
 | GRAY25 | Rappresenta il motivo grigio al 25%.|
@@ -29,9 +29,9 @@ Il tipo BackgroundType espone i membri seguenti:
 | REVERSE_DIAGONAL_STRIPE | Rappresenta il motivo a strisce diagonali inverse.|
 | SOLID | Rappresenta un modello solido.|
 | THICK_DIAGONAL_CROSSHATCH | Rappresenta un motivo a tratteggio incrociato diagonale spesso.|
-| THIN_DIAGONAL_CROSSHATCH | Rappresenta sottili motivi di tratteggio diagonale.|
-| THIN_DIAGONAL_STRIPE | Rappresenta un sottile motivo a strisce diagonali.|
-| THIN_HORIZONTAL_CROSSHATCH | Rappresenta un sottile motivo a tratteggio orizzontale.|
+| THIN_DIAGONAL_CROSSHATCH | Rappresenta un motivo a tratteggio diagonale sottile.|
+| THIN_DIAGONAL_STRIPE | Rappresenta il motivo a strisce diagonali sottili.|
+| THIN_HORIZONTAL_CROSSHATCH | Rappresenta un motivo a tratteggio incrociato orizzontale sottile.|
 | THIN_HORIZONTAL_STRIPE | Rappresenta un motivo a strisce orizzontali sottili.|
 | THIN_REVERSE_DIAGONAL_STRIPE | Rappresenta un sottile motivo a strisce diagonali inverse.|
 | THIN_VERTICAL_STRIPE | Rappresenta un motivo a strisce verticali sottili.|

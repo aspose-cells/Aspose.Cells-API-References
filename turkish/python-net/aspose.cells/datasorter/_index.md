@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -26,7 +26,7 @@ DataSorter türü aşağıdaki üyeleri gösterir:
 | [key3](/cells/tr/python-net/aspose.cells/datasorter/key3) | Üçüncü sıralanmış sütun indeksini temsil eder (mutlak konum, A sütunu 0'dır, B 1'dir, ...).|
 | [order3](/cells/tr/python-net/aspose.cells/datasorter/order3) | Üçüncü anahtarın sıralama düzenini temsil eder.|
 | [sort_left_to_right](/cells/tr/python-net/aspose.cells/datasorter/sort_left_to_right) | Doğru, sıralama yönünün soldan sağa olduğu anlamına gelir.<br/>Yanlış, sıralama yönünün yukarıdan aşağıya olduğu anlamına gelir.<br/> Varsayılan değer yanlıştır.|
-| [case_sensitive](/cells/tr/python-net/aspose.cells/datasorter/case_sensitive) | Dizeleri karşılaştırırken büyük/küçük harfe duyarlı olup olmadığını alır ve ayarlar.|
+| [case_sensitive](/cells/tr/python-net/aspose.cells/datasorter/case_sensitive) | Dizeyi karşılaştırırken büyük/küçük harfe duyarlı olup olmadığını alır ve ayarlar.|
 | [sort_as_number](/cells/tr/python-net/aspose.cells/datasorter/sort_as_number) | Sayı gibi görünen herhangi bir şeyin sıralanıp sıralanmadığını gösterir.|
 
 
@@ -44,7 +44,7 @@ DataSorter türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

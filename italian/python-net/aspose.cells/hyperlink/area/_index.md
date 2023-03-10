@@ -1,4 +1,4 @@
-﻿---
+---
 title: area proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  area proprietà
 
-Ottiene l'intervallo di collegamenti ipertestuali.
+Ottiene l'intervallo del collegamento ipertestuale.
 ###  Definizione:
 ```python
 @property

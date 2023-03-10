@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache propriété
 
-Renvoie l'objet SlicerCache associé au segment.
+Renvoie l'objet SlicerCache associé au segment. Lecture seulement.
 
-###  Exemples
+###  Exemple
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_at
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,11 +18,11 @@ def remove_at(self, cell_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cell_name | str | اسم الخلية التي تحتوي على تعليق.|
 
-###  أمثلة
+###  مثال
 
 ```python
 
@@ -42,12 +42,12 @@ def remove_at(self, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | column | int | فهرس العمود.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

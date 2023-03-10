@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_color_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

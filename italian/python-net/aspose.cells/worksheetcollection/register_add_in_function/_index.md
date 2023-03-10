@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo register_add_in_function
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def register_add_in_function(self, id, function_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | id | int | ID dei dati che contengono funzioni aggiuntive,<br/> può essere ottenuto dalla prima chiamata di [WorksheetCollection.register_add_in_function(add_in_file, function_name, lib)](/cells/it/python-net/aspose.cells/worksheetcollection/register_add_in_function) per lo stesso file addin.|
 | function_name | str | il nome della funzione addin|
@@ -34,7 +34,7 @@ Aggiunge la funzione addin nella cartella di lavoro
 
 ###  ritorna
 
-ID dei dati che contengono una data funzione addin
+ID dei dati che contengono una determinata funzione aggiuntiva
 
 
 ```python
@@ -43,11 +43,11 @@ def register_add_in_function(self, add_in_file, function_name, lib):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | add_in_file | str | il file contiene le funzioni addin|
 | function_name | str | il nome della funzione addin|
-| lib | bool | se il file del componente aggiuntivo specificato si trova nella directory o nella sottodirectory della libreria del componente aggiuntivo della cartella di lavoro.<br/>Questo flag ha effetto e fa la differenza quando dato addInFile è di percorso relativo:<br/> true indica che il percorso è relativo alla libreria del componente aggiuntivo e false indica che il percorso è relativo a questa cartella di lavoro.|
+| lib | bool | se il file aggiuntivo specificato si trova nella directory o nella sottodirectory della libreria del componente aggiuntivo della cartella di lavoro.<br/>Questo flag ha effetto e fa la differenza quando dato addInFile è di percorso relativo:<br/> true indica che il percorso è relativo alla libreria del componente aggiuntivo e false indica che il percorso è relativo a questa cartella di lavoro.|
 
 
 

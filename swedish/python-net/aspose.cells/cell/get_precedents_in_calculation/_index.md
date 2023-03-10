@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_precedents_in_calculation metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar alla prejudikat (referens till celler i aktuell arbetsbok) som används 
 
 ###  Returnerar
 
-Enumerator för att räkna upp alla referenser (Refererat område)
+Enumerator för att räkna upp alla referenser (ReferredArea)
 
 
 ```python

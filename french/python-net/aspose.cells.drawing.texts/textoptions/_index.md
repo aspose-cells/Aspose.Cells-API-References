@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -42,10 +42,10 @@ Le type TextOptions expose les membres suivants :
 | [scheme_type](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Obtient et définit le type de schéma de la police.|
 | [language_code](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Obtient et définit la langue de l'interface utilisateur.|
 | [latin_name](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Obtient et définit le nom latin.|
-| [far_east_name](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Obtient et définit le nom de l'Extrême-Orient.|
+| [far_east_name](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Obtient et définit le nom FarEast.|
 | [fill](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/fill) | Représente le format de remplissage du texte.|
 | [outline](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/outline) | Représente le format de plan du texte.|
-| [shadow](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Représente un objet [ShadowEffect](/cells/fr/python-net/aspose.cells.drawing/shadoweffect) qui spécifie un effet d'ombre pour l'élément ou la forme du graphique.|
+| [shadow](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Représente un objet [ShadowEffect](/cells/fr/python-net/aspose.cells.drawing/shadoweffect) qui spécifie l'effet d'ombre pour l'élément ou la forme du graphique.|
 | [underline_color](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Obtient ou définit la couleur du soulignement.|
 | [kerning](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Spécifie la taille de police minimale à laquelle le crénage des caractères se produira pour cette exécution de texte.|
 | [spacing](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Spécifie l'espacement entre les caractères dans une séquence de texte.|

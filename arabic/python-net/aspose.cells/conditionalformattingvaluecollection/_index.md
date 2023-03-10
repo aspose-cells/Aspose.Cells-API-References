@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingValueCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/conditionalformattingvaluecollection/
 is_root: false
 ---
 ##  ConditionalFormattingValueCollection الدرجة
-يصف مجموعة من CFValueObjects.
+يصف مجموعة من CFValueObject.
 استخدم فقط لمجموعات الرموز.
 
 

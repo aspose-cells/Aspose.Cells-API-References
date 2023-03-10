@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsSaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) |  |
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_visible_row_of_bottom_pane fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

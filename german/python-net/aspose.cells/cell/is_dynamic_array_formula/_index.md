@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_dynamic_array_formula Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

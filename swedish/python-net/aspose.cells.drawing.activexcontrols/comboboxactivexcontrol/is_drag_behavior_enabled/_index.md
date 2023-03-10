@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_drag_behavior_enabled fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -43,7 +43,7 @@ def add(self, type):
 | :- | :- | :- |
 | type | [SheetType](/cells/de/python-net/aspose.cells/sheettype) | Arbeitsblatttyp.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import SheetType, Workbook

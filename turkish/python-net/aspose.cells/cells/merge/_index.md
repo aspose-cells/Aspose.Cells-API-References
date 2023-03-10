@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|
@@ -40,7 +40,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|
@@ -51,7 +51,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 
 Aralıktaki sol üst hücrenin adresi aracılığıyla birleştirilmiş hücreye başvurun.
 mergeConflict true ise ve birleştirilmiş aralık diğer birleştirilmiş hücrelerle çakışıyorsa,
-Diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
+diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
 
 ##  merge(first_row, first_column, total_rows, total_columns, check_conflict, merge_conflict) {#int-int-int-int-bool-bool}
 Belirli bir hücre aralığını tek bir hücrede birleştirir.
@@ -64,7 +64,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | Bu aralığın ilk satırı (sıfır tabanlı)|
 | first_column | int | Bu aralığın ilk sütunu (sıfır tabanlı)|
@@ -76,7 +76,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 
 Aralıktaki sol üst hücrenin adresi aracılığıyla birleştirilmiş hücreye başvurun.
 mergeConflict true ise ve birleştirilmiş aralık diğer birleştirilmiş hücrelerle çakışıyorsa,
-Diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
+diğer birleştirilmiş hücreler otomatik olarak kaldırılacaktır.
 
 
 ###  Ayrıca bakınız

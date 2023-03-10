@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width_pixel الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  column_width_pixel الملكية
 
-الحصول على أو تحديد العرض بوحدات البكسل لكل عمود في آلة التقطيع.
+الحصول على أو تحديد العرض بوحدة البكسل لكل عمود في آلة التقطيع.
 
-###  أمثلة
+###  مثال
 
 ```python
 

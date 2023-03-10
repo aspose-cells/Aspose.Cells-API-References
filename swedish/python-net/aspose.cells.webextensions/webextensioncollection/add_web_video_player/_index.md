@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_web_video_player metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.webextensions/webextensioncollection/add_web_vi
 is_root: false
 ---
 ##  add_web_video_player(url, auto_play, start_time, end_time) {#str-bool-int-int}
-Lägg till en webbvideospelare i Excel.
+Lägg till en webbvideospelare i exel.
 
 
 
@@ -18,7 +18,7 @@ def add_web_video_player(self, url, auto_play, start_time, end_time):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | url | str |  |
 | auto_play | bool | Indikerar om videon spelas upp automatiskt.|

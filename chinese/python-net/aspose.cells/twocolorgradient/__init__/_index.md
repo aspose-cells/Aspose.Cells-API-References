@@ -1,6 +1,6 @@
-﻿---
+---
 title: TwoColorGradient 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ def __init__(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color |  |
 | color2 | aspose.pydrawing.Color |  |

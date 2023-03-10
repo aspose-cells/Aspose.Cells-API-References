@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد GridlineType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  العد GridlineType
-تعداد أنواع خطوط الشبكة.
+تعداد نوع خط الشبكة.
 
 
 

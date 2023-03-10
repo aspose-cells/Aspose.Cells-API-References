@@ -1,6 +1,6 @@
-﻿---
+---
 title: SlicerCacheCrossFilterType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -14,7 +14,7 @@ is_root: false
 
 SlicerCacheCrossFilterType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |切片器项目的切片器样式的表格样式元素<br/>没有数据不适用于没有数据的切片器项目和切片器项目<br/>没有数据在切片器视图的切片器项目列表中不单独排序|

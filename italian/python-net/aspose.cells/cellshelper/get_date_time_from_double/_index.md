@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_date_time_from_double
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_date_time_from_double(self, double_value, date1904):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | double_value | float | Il doppio valore.|
 | date1904 | bool | Sistema data 1904.|

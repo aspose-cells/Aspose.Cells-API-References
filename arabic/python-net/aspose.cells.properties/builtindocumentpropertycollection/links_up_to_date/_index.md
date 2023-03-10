@@ -1,4 +1,4 @@
-﻿---
+---
 title: links_up_to_date الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

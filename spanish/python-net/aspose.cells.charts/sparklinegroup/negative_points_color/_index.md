@@ -1,4 +1,4 @@
-﻿---
+---
 title: negative_points_color propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  negative_points_color propiedad
 
-Obtiene y establece el color de los valores negativos en el grupo minigráfico.
+Obtiene y establece el color de los valores negativos en el grupo de minigráficos.
 ###  Definición:
 ```python
 @property

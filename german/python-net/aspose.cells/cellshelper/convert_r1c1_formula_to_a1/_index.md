@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_r1c1_formula_to_a1 Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/
 is_root: false
 ---
 ##  convert_r1c1_formula_to_a1(r_1c1_formula, row, column) {#str-int-int}
-Konvertiert die r1c1-Formel der Zelle in die A1-Formel.
+Wandelt die r1c1-Formel der Zelle in eine A1-Formel um.
 
 
 ###  Kehrt zurück

@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_to_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ def convert_to_range(self, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | options | [TableToRangeOptions](/cells/sv/python-net/aspose.cells.tables/tabletorangeoptions) | alternativen när du konverterar tabell till intervall.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectedRange classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,9 +17,9 @@ Le type ProtectedRange expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [name](/cells/fr/python-net/aspose.cells/protectedrange/name) | Obtient le titre de la plage.|
+| [name](/cells/fr/python-net/aspose.cells/protectedrange/name) | Obtient le titre de la plage. Ceci est utilisé comme descripteur, pas comme une définition de plage nommée.|
 | [cell_area](/cells/fr/python-net/aspose.cells/protectedrange/cell_area) | Obtient l'objet [ProtectedRange.cell_area](/cells/fr/python-net/aspose.cells/protectedrange#cell_area) représentant la zone de cellule à protéger.|
-| [is_protected_with_password](/cells/fr/python-net/aspose.cells/protectedrange/is_protected_with_password) |Indique si les feuilles de calcul sont protégées par mot de passe.|
+| [is_protected_with_password](/cells/fr/python-net/aspose.cells/protectedrange/is_protected_with_password) |Indique si les feuilles de calcul sont protégées par un mot de passe.|
 | [password](/cells/fr/python-net/aspose.cells/protectedrange/password) | Représente le mot de passe pour protéger la plage.|
 | [security_descriptor](/cells/fr/python-net/aspose.cells/protectedrange/security_descriptor) | Le descripteur de sécurité définit les comptes d'utilisateurs qui peuvent modifier cette plage sans fournir de mot de passe pour accéder à la plage.|
 

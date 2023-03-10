@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_scale proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -12,7 +12,7 @@ is_root: false
 Ottiene e imposta la scala dell'altezza, in unità di percentuale dell'altezza dell'immagine originale.
 Se la forma non è picture , la proprietà HeightScale restituisce solo 100;
 
-###  Esempi
+###  Esempio
 
 ```python
 

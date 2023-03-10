@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLablesSeparatorType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -29,7 +29,7 @@ Il tipo DataLablesSeparatorType espone i membri seguenti:
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare l'enumerazione DataLabelsSeparatorType.
  Questa proprietà verrà rimossa 12 mesi dopo da settembre 2020.
 Aspose si scusa per gli eventuali disagi causati.

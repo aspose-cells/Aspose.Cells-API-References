@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo remove_at
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,11 +18,11 @@ def remove_at(self, cell_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_name | str | Il nome della cella che contiene un commento.|
 
-###  Esempi
+###  Esempio
 
 ```python
 
@@ -42,12 +42,12 @@ def remove_at(self, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | L'indice di riga.|
 | column | int | l'indice di colonna.|
 
-###  Esempi
+###  Esempio
 
 ```python
 

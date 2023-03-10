@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparkline_groups mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

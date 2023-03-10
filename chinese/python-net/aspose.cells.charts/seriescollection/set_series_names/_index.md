@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_series_names方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 100
@@ -18,11 +18,11 @@ def set_series_names(self, start_index, area, is_vertical):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | start_index | int |要设置名称的第一个系列的索引。|
 | area | str |指定系列名称的区域。|
-| is_vertical | bool | >指定是按行还是按列绘制一系列单元格值的序列。|
+| is_vertical | bool | > 指定是按行还是按列绘制一系列单元格值。|
 ### 评论
 
 

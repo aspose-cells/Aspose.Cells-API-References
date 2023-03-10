@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_all_sheets propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ S'il est faux, exportez uniquement la feuille active, tout comme MS Excel.
 
 ###  Remarques
 
-La valeur par défaut est faux.
+La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

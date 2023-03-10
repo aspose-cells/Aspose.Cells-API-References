@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/fr/python-net/aspose.cells.charts/trendlinetype) | Type de ligne de tendance.|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/fr/python-net/aspose.cells.charts/trendlinetype) | Type de ligne de tendance.|
 | name | str | Nom de la ligne de tendance.|

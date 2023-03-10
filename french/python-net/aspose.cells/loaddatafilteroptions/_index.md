@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadDataFilterOptions dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -29,7 +29,7 @@ Le type LoadDataFilterOptions expose les membres suivants :
 | CELL_DATA | Chargez les données des cellules, y compris les valeurs, les formules et le formatage|
 | CHART | Tableaux de charge|
 | SHAPE | Charger des formes|
-| DRAWING | Objets de dessin (y compris les graphiques, les images, les OleObjects et tous les autres objets de dessin)|
+| DRAWING | Objets de dessin (y compris Chart, Picture, OleObject et tous les autres objets de dessin)|
 | MERGED_AREA | Charger les cellules fusionnées|
 | CONDITIONAL_FORMATTING | Charger la mise en forme conditionnelle|
 | DATA_VALIDATION | Charger les validations de données|
@@ -38,12 +38,12 @@ Le type LoadDataFilterOptions expose les membres suivants :
 | HYPERLINKS | Charger les hyperliens|
 | SHEET_SETTINGS | Charger les paramètres de la feuille de calcul|
 | SHEET_DATA |Chargez toutes les données de la feuille de calcul, telles que les données des cellules, les paramètres, les objets, etc.|
-| BOOK_SETTINGS | Charger les paramètres des classeurs|
-| SETTINGS | Charger les paramètres des classeurs et des feuilles de calcul|
+| BOOK_SETTINGS | Charger les paramètres du classeur|
+| SETTINGS | Charger les paramètres du classeur et de la feuille de calcul|
 | XML_MAP | Charger XmlMap|
 | STRUCTURE | Charger la structure du classeur|
 | DOCUMENT_PROPERTIES | Charger les propriétés du document|
-| DEFINED_NAMES | Charger les objets de nom définis|
+| DEFINED_NAMES | Charger les objets Name définis|
 | VBA | Charger des projets VBA|
 | STYLE | Charger les styles pour la mise en forme des cellules|
 | PICTURE | Charger des images|

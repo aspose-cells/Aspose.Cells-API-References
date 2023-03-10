@@ -1,6 +1,6 @@
-﻿---
+---
 title: multi_thread_reading 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1200
@@ -15,7 +15,7 @@ is_root: false
 ### 评论
 
 如果有多个线程同时读取这个集合中的Row/Cell对象，
-此属性应设置为 true，否则可能会产生意外结果。
+此属性应设置为 true，否则可能会产生意想不到的结果。
 支持多线程读取可能会降低从该集合访问 Row/Cell 对象的性能。
 请注意，部分功能不支持多线程读取，
 例如格式化值（按 [Cell.string_value](/cells/zh/python-net/aspose.cells/cell#string_value)、[Cell.display_string_value](/cells/zh/python-net/aspose.cells/cell#display_string_value) 等）。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReference класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [type](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/type) | Получает тип этой ссылки.|
 | [name](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/name) | Получает и задает имя ссылки.|
-| [libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/libid) | Получает и задает либид ссылки.|
+| [libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/libid) | Получает и задает Libid ссылки.|
 | [twiddledlibid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | Получает и устанавливает измененную Libid ссылки.|
 | [extended_libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | Получает и задает расширенную либиду ссылки.|
 | [relative_libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | Получает и задает идентификатор указанного проекта VBA с относительным путем.|
@@ -32,7 +32,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

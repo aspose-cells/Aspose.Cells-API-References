@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_at yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | PivotTable koleksiyonundaki konum dizini|
 | keep_data | bool | PivotTable verilerinin saklanıp saklanmayacağı|

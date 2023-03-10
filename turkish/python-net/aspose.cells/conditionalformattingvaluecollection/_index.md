@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingValueCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/conditionalformattingvaluecollection/
 is_root: false
 ---
 ##  ConditionalFormattingValueCollection sınıfı
-Bir CFValueObjects koleksiyonunu açıklar.
+Bir CFValueObject koleksiyonunu açıklar.
 Yalnızca simge setleri için kullanın.
 
 

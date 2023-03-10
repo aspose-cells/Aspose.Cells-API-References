@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryTable класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,13 +20,13 @@ is_root: false
 | [connection_id](/cells/ru/python-net/aspose.cells/querytable/connection_id) |Получает идентификатор соединения таблицы запроса.|
 | [external_connection](/cells/ru/python-net/aspose.cells/querytable/external_connection) | Получает связанное внешнее соединение.|
 | [name](/cells/ru/python-net/aspose.cells/querytable/name) | Получает имя запрашиваемой таблицы.|
-| [result_range](/cells/ru/python-net/aspose.cells/querytable/result_range) | Получает диапазон результатов.|
+| [result_range](/cells/ru/python-net/aspose.cells/querytable/result_range) | Получает диапазон результата.|
 | [preserve_formatting](/cells/ru/python-net/aspose.cells/querytable/preserve_formatting) | Возвращает или задает PreserveFormatting объекта.|
 | [adjust_column_width](/cells/ru/python-net/aspose.cells/querytable/adjust_column_width) | Возвращает или задает AdjustColumnWidth объекта.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

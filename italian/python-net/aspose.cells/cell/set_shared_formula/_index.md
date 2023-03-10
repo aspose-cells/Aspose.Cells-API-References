@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_shared_formula
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | shared_formula | str | Formula condivisa.|
 | row_number | int |Numero di righe per popolare la formula.|
@@ -39,7 +39,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | shared_formula | str | Formula condivisa.|
 | row_number | int |Numero di righe per popolare la formula.|
@@ -58,7 +58,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | shared_formula | str | Formula condivisa.|
 | row_number | int |Numero di righe per popolare la formula.|
@@ -67,7 +67,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 | is_local | bool | se la formula è in formato locale|
 ###  Osservazioni
 
-NOTA: questa classe è ora obsoleta.
+NOTA: questa classe è ora obsoleta. Invece,
 si prega di utilizzare Cell.SetSharedFormula(string,int,int,FormulaParseOptions).
 Questa proprietà verrà rimossa 12 mesi dopo da dicembre 2019.
 Aspose si scusa per gli eventuali disagi causati.
@@ -83,7 +83,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | shared_formula | str | Formula condivisa.|
 | row_number | int |Numero di righe per popolare la formula.|

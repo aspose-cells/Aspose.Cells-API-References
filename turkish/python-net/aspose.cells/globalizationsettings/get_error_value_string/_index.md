@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_error_value_string yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_error_value_string(self, err):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | err | str | #DEĞER!,#NAME gibi hata değerleri?|
 

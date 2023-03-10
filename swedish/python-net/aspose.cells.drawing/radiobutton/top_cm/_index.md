@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_cm fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_cm fastighet
 
-Representerar den vertikala förskjutningen av formen från dess översta rad, i enheter av centimeter.
+Representerar den vertikala förskjutningen av formen från dess översta rad, i centimeterenhet.
 
 ###  Exempel
 

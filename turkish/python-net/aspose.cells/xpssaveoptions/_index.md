@@ -1,4 +1,4 @@
-﻿---
+---
 title: XpsSaveOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -23,8 +23,8 @@ XpsSaveOptions türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [XpsSaveOptions()](/cells/tr/python-net/aspose.cells/xpssaveoptions/__init__/#) | xps dosyalarını kaydetmek için seçenekler oluşturur.|
-| [XpsSaveOptions(save_format)](/cells/tr/python-net/aspose.cells/xpssaveoptions/__init__/#SaveFormat) | xps dosyalarını kaydetmek için seçenekler oluşturur.|
+| [XpsSaveOptions()](/cells/tr/python-net/aspose.cells/xpssaveoptions/__init__/#) | xps dosyasını kaydetmek için seçenekler oluşturur.|
+| [XpsSaveOptions(save_format)](/cells/tr/python-net/aspose.cells/xpssaveoptions/__init__/#SaveFormat) | xps dosyasını kaydetmek için seçenekler oluşturur.|
 
 
 ###  Özellikler
@@ -37,9 +37,9 @@ XpsSaveOptions türü aşağıdaki üyeleri gösterir:
 | [merge_areas](/cells/tr/python-net/aspose.cells/xpssaveoptions/merge_areas) | Dosyayı kaydetmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmediğini belirtir.|
 | [create_directory](/cells/tr/python-net/aspose.cells/xpssaveoptions/create_directory) | true ise ve dizin yoksa, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur.|
 | [sort_names](/cells/tr/python-net/aspose.cells/xpssaveoptions/sort_names) | Dosyayı kaydetmeden önce tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [sort_external_names](/cells/tr/python-net/aspose.cells/xpssaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.|
+| [sort_external_names](/cells/tr/python-net/aspose.cells/xpssaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.|
 | [refresh_chart_cache](/cells/tr/python-net/aspose.cells/xpssaveoptions/refresh_chart_cache) | Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/xpssaveoptions/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/xpssaveoptions/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
 | [update_smart_art](/cells/tr/python-net/aspose.cells/xpssaveoptions/update_smart_art) | Akıllı sanat ayarının güncellenip güncellenmediğini gösterir.<br/> Varsayılan değer yanlıştır.|
 | [default_font](/cells/tr/python-net/aspose.cells/xpssaveoptions/default_font) | Excel'deki karakterler Unicode olduğunda ve hücre stilinde doğru yazı tipiyle ayarlanmadığında,<br/>Pdf, görüntüde blok olarak görünebilirler.<br/>Bu karakterleri göstermek için MingLiu veya MS Gothic gibi bir Varsayılan Yazı Tipi ayarlayın.<br/> Bu özellik ayarlanmazsa, Aspose.Cells, bu unicode karakterleri göstermek için sistem varsayılan yazı tipini kullanır.|
 | [check_workbook_default_font](/cells/tr/python-net/aspose.cells/xpssaveoptions/check_workbook_default_font) | Excel'deki karakterler Unicode olduğunda ve hücre stilinde doğru yazı tipiyle ayarlanmadığında,<br/>Pdf, görüntüde blok olarak görünebilirler.<br/> Önce bu karakterleri göstermek için çalışma kitabının varsayılan yazı tipini kullanmayı denemek için bunu true olarak ayarlayın.|

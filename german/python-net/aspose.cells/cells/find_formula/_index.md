@@ -1,4 +1,4 @@
-﻿---
+---
 title: find_formula Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,7 +29,7 @@ def find_formula(self, formula, previous_cell):
 ###  Bemerkungen
 
 Gibt null (Nichts) zurück, wenn keine Zelle gefunden wird.
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die Methode Cells.Find(object,Cell,FindOptions) mit LookInType als LookInType.OnlyFormulas
  und LookAtType als LookAtType.EntireContent.
  Dieses Mitglied wird 12 Monate später seit November 2018 entfernt.

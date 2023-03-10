@@ -1,6 +1,6 @@
-﻿---
+---
 title: aspose.cells
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -14,7 +14,7 @@ is_root: false
 ### 类
 |类|描述|
 | :- | :- |
-| [AboveAverage](/cells/zh/python-net/aspose.cells/aboveaverage) |描述高于平均水平的条件格式规则。<br/>此条件格式规则突出显示单元格<br/>高于或低于范围内所有值的平均值。|
+| [AboveAverage](/cells/zh/python-net/aspose.cells/aboveaverage) |描述 AboveAverage 条件格式规则。<br/>此条件格式规则突出显示单元格<br/>高于或低于范围内所有值的平均值。|
 | [AbstractCalculationEngine](/cells/zh/python-net/aspose.cells/abstractcalculationengine) |代表用户自定义计算引擎，扩展Aspose.Cells默认计算引擎。|
 | [AbstractCalculationMonitor](/cells/zh/python-net/aspose.cells/abstractcalculationmonitor) |监视用户以跟踪公式计算的进度。|
 | [AbstractGlobalizationSettings](/cells/zh/python-net/aspose.cells/abstractglobalizationsettings) |代表全球化设置。|
@@ -28,7 +28,7 @@ is_root: false
 | [CalculationData](/cells/zh/python-net/aspose.cells/calculationdata) |表示计算一个函数时需要的数据，如函数名、参数、...等。|
 | [CalculationOptions](/cells/zh/python-net/aspose.cells/calculationoptions) |表示计算选项。|
 | [Cell](/cells/zh/python-net/aspose.cells/cell) |封装表示单个工作簿单元格的对象。|
-| [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |代表一个区域的细胞。|
+| [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |表示一个单元格区域。|
 | [CellWatch](/cells/zh/python-net/aspose.cells/cellwatch) |代表“监视窗口”中的 Cell 监视项。|
 | [CellWatchCollection](/cells/zh/python-net/aspose.cells/cellwatchcollection) |表示在“监视窗口”中监视的此工作表上的单元格集合。|
 | [Cells](/cells/zh/python-net/aspose.cells/cells) |封装单元格相关对象的集合，例如 [Cell](/cells/zh/python-net/aspose.cells/cell)、[Row](/cells/zh/python-net/aspose.cells/row) 等。|
@@ -36,24 +36,24 @@ is_root: false
 | [CellsDataTableFactory](/cells/zh/python-net/aspose.cells/cellsdatatablefactory) |从自定义对象构建 ICellsDataTable 的实用程序，以方便用户。|
 | [CellsException](/cells/zh/python-net/aspose.cells/cellsexception) |发生 Aspose.Cells 指定错误时抛出的异常。|
 | [CellsFactory](/cells/zh/python-net/aspose.cells/cellsfactory) |用于实例化 Cells 模型类的实用程序。|
-| [CellsHelper](/cells/zh/python-net/aspose.cells/cellshelper) |提供辅助函数。|
+| [CellsHelper](/cells/zh/python-net/aspose.cells/cellshelper) |提供辅助功能。|
 | [ColorFilter](/cells/zh/python-net/aspose.cells/colorfilter) |表示滤色器。|
-| [ColorScale](/cells/zh/python-net/aspose.cells/colorscale) |描述 ColorScale 条件格式规则。<br/>此条件格式规则在单元格上创建分级色标。|
+| [ColorScale](/cells/zh/python-net/aspose.cells/colorscale) |描述 ColorScale 条件格式规则。<br/>此条件格式规则在单元格上创建渐变色标。|
 | [Column](/cells/zh/python-net/aspose.cells/column) |代表工作表中的单个列。|
-| [ColumnCollection](/cells/zh/python-net/aspose.cells/columncollection) |代表工作表中各个列（设置）的 [Column](/cells/zh/python-net/aspose.cells/column) 对象的集合。<br/>Column 对象仅表示列宽、样式等设置。<br/>与相应列中是否存在非空单元格（数据）无关。<br/>而这个集合的“Count”只代表这个集合中已经实例化的count个Column对象，<br/>与工作表中是否存在非空单元格（数据）无关。|
+| [ColumnCollection](/cells/zh/python-net/aspose.cells/columncollection) |代表工作表中各个列（设置）的 [Column](/cells/zh/python-net/aspose.cells/column) 对象的集合。<br/>Column 对象仅表示列宽、样式等设置。对于整个专栏，<br/>与相应列中是否存在非空单元格（数据）无关。<br/>而这个集合的“Count”只代表这个集合中已经实例化的count个Column对象，<br/>与工作表中是否存在非空单元格（数据）无关。|
 | [Comment](/cells/zh/python-net/aspose.cells/comment) |封装表示单元格注释的对象。|
 | [CommentCollection](/cells/zh/python-net/aspose.cells/commentcollection) |封装 [Comment](/cells/zh/python-net/aspose.cells/comment) 对象的集合。|
 | [ConditionalFormattingCollection](/cells/zh/python-net/aspose.cells/conditionalformattingcollection) |封装 [FormatCondition](/cells/zh/python-net/aspose.cells/formatcondition) 对象的集合。|
 | [ConditionalFormattingIcon](/cells/zh/python-net/aspose.cells/conditionalformattingicon) |表示条件格式规则的自定义图标。|
 | [ConditionalFormattingIconCollection](/cells/zh/python-net/aspose.cells/conditionalformattingiconcollection) |表示 [ConditionalFormattingIcon](/cells/zh/python-net/aspose.cells/conditionalformattingicon) 个对象的集合。|
 | [ConditionalFormattingResult](/cells/zh/python-net/aspose.cells/conditionalformattingresult) |表示适用于单元格的条件格式的结果。|
-| [ConditionalFormattingValue](/cells/zh/python-net/aspose.cells/conditionalformattingvalue) |描述了渐变刻度、dataBar 或 iconSet 中插值点的值。|
-| [ConditionalFormattingValueCollection](/cells/zh/python-net/aspose.cells/conditionalformattingvaluecollection) |描述 CFValueObjects 的集合。<br/>仅用于图标集。|
+| [ConditionalFormattingValue](/cells/zh/python-net/aspose.cells/conditionalformattingvalue) |描述渐变刻度、dataBar 或 iconSet 中插值点的值。|
+| [ConditionalFormattingValueCollection](/cells/zh/python-net/aspose.cells/conditionalformattingvaluecollection) |描述 CFValueObject 的集合。<br/>仅用于图标集。|
 | [CopyOptions](/cells/zh/python-net/aspose.cells/copyoptions) |表示复制选项。|
 | [CustomFilter](/cells/zh/python-net/aspose.cells/customfilter) |表示自定义筛选器。|
 | [CustomFilterCollection](/cells/zh/python-net/aspose.cells/customfiltercollection) |表示自定义筛选器。|
 | [CustomImplementationFactory](/cells/zh/python-net/aspose.cells/customimplementationfactory) |工厂创建一些实例，用户可以为特殊目的重新实现这些实例。|
-| [DataBar](/cells/zh/python-net/aspose.cells/databar) |描述 DataBar 条件格式规则。<br/>此条件格式规则显示分级<br/>单元格区域中的数据栏。|
+| [DataBar](/cells/zh/python-net/aspose.cells/databar) |描述 DataBar 条件格式规则。<br/>此条件格式规则显示渐变<br/>单元格区域中的数据栏。|
 | [DataBarBorder](/cells/zh/python-net/aspose.cells/databarborder) |表示由条件格式规则指定的数据条的边框。|
 | [DataSorter](/cells/zh/python-net/aspose.cells/datasorter) | DataSorter 的摘要说明。|
 | [DataSorterKey](/cells/zh/python-net/aspose.cells/datasorterkey) |表示数据排序器的键。|
@@ -74,8 +74,8 @@ is_root: false
 | [FileFontSource](/cells/zh/python-net/aspose.cells/filefontsource) |表示存储在文件系统中的单个 TrueType 字体文件。|
 | [FileFormatInfo](/cells/zh/python-net/aspose.cells/fileformatinfo) |包含 [FileFormatUtil](/cells/zh/python-net/aspose.cells/fileformatutil) 文件格式检测方法返回的数据。|
 | [FileFormatUtil](/cells/zh/python-net/aspose.cells/fileformatutil) |提供用于将文件格式枚举转换为字符串或文件扩展名并返回的实用方法。|
-| [FilterColumn](/cells/zh/python-net/aspose.cells/filtercolumn) |表示单个列的筛选器。|
-| [FilterColumnCollection](/cells/zh/python-net/aspose.cells/filtercolumncollection) | Filter 对象的集合，表示自动筛选范围内的所有筛选器。|
+| [FilterColumn](/cells/zh/python-net/aspose.cells/filtercolumn) |表示单个列的筛选器。 Filter 对象是 Filters 集合的成员|
+| [FilterColumnCollection](/cells/zh/python-net/aspose.cells/filtercolumncollection) |Filter 对象的集合，表示自动筛选范围内的所有筛选器。|
 | [FindOptions](/cells/zh/python-net/aspose.cells/findoptions) |表示查找选项。|
 | [FolderFontSource](/cells/zh/python-net/aspose.cells/folderfontsource) |表示包含 TrueType 字体文件的文件夹。|
 | [Font](/cells/zh/python-net/aspose.cells/font) |封装电子表格中使用的字体对象。|
@@ -108,7 +108,7 @@ is_root: false
 | [ImportTableOptions](/cells/zh/python-net/aspose.cells/importtableoptions) |表示将数据导入单元格的选项。|
 | [IndividualFontConfigs](/cells/zh/python-net/aspose.cells/individualfontconfigs) |每个 [Workbook](/cells/zh/python-net/aspose.cells/workbook) 对象的字体配置。|
 | [InsertOptions](/cells/zh/python-net/aspose.cells/insertoptions) |表示插入的选项。|
-| [InterruptMonitor](/cells/zh/python-net/aspose.cells/interruptmonitor) |表示有关中断的所有操作符。|
+| [InterruptMonitor](/cells/zh/python-net/aspose.cells/interruptmonitor) |代表关于中断的所有操作符。|
 | [JsonLoadOptions](/cells/zh/python-net/aspose.cells/jsonloadoptions) |代表加载json文件的选项|
 | [JsonSaveOptions](/cells/zh/python-net/aspose.cells/jsonsaveoptions) |表示将工作簿保存为 json 文件的选项。|
 | [License](/cells/zh/python-net/aspose.cells/license) |提供许可组件的方法。|
@@ -118,11 +118,11 @@ is_root: false
 | [LoadOptions](/cells/zh/python-net/aspose.cells/loadoptions) |表示加载文件的选项。|
 | [MarkdownSaveOptions](/cells/zh/python-net/aspose.cells/markdownsaveoptions) |表示降价的保存选项。|
 | [MemoryFontSource](/cells/zh/python-net/aspose.cells/memoryfontsource) |表示存储在内存中的单个 TrueType 字体文件。|
-| [Metered](/cells/zh/python-net/aspose.cells/metered) |提供设置计量键的方法。|
+| [Metered](/cells/zh/python-net/aspose.cells/metered) |提供设置计量密钥的方法。|
 | [MultipleFilterCollection](/cells/zh/python-net/aspose.cells/multiplefiltercollection) |表示多过滤器集合。|
 | [Name](/cells/zh/python-net/aspose.cells/name) |代表一系列单元格的定义名称。|
 | [NameCollection](/cells/zh/python-net/aspose.cells/namecollection) |表示电子表格中所有 [Name](/cells/zh/python-net/aspose.cells/name) 对象的集合。|
-| [NegativeBarFormat](/cells/zh/python-net/aspose.cells/negativebarformat) |表示数据条条件格式规则定义的负值数据条的颜色设置。|
+| [NegativeBarFormat](/cells/zh/python-net/aspose.cells/negativebarformat) |表示由数据栏条件格式设置规则定义的负值的数据栏的颜色设置。|
 | [OdsLoadOptions](/cells/zh/python-net/aspose.cells/odsloadoptions) |表示加载ods文件的选项。|
 | [OdsSaveOptions](/cells/zh/python-net/aspose.cells/odssaveoptions) |表示保存ods文件的选项。|
 | [OoxmlSaveOptions](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions) |表示保存office打开的xml文件的选项。|
@@ -150,9 +150,9 @@ is_root: false
 | [ScenarioCollection](/cells/zh/python-net/aspose.cells/scenariocollection) |代表场景列表。|
 | [ScenarioInputCell](/cells/zh/python-net/aspose.cells/scenarioinputcell) |表示场景的输入单元格。|
 | [ScenarioInputCellCollection](/cells/zh/python-net/aspose.cells/scenarioinputcellcollection) |表示场景的输入单元列表。|
-| [SpreadsheetML2003SaveOptions](/cells/zh/python-net/aspose.cells/spreadsheetml2003saveoptions) |表示用于保存 Excel 2003 spreadml 文件的选项。|
+| [SpreadsheetML2003SaveOptions](/cells/zh/python-net/aspose.cells/spreadsheetml2003saveoptions) |表示保存 Excel 2003 spreadml 文件的选项。|
 | [StreamProviderOptions](/cells/zh/python-net/aspose.cells/streamprovideroptions) |表示流选项。|
-| [Style](/cells/zh/python-net/aspose.cells/style) |表示excel文档的显示风格，如字体、颜色、对齐方式、边框等。<br/> Style 对象包含所有样式属性（字体、数字格式、对齐方式等）作为属性。|
+| [Style](/cells/zh/python-net/aspose.cells/style) |表示excel文档的显示样式，如字体、颜色、对齐方式、边框等。<br/> Style 对象包含所有样式属性（字体、数字格式、对齐方式等）作为属性。|
 | [StyleFlag](/cells/zh/python-net/aspose.cells/styleflag) |表示指示应用格式属性的标志。|
 | [SubtotalSetting](/cells/zh/python-net/aspose.cells/subtotalsetting) |表示小计的设置。|
 | [SvgSaveOptions](/cells/zh/python-net/aspose.cells/svgsaveoptions) |表示 Svg 保存选项。<br/>如需高级用法，请使用 [WorkbookRender](/cells/zh/python-net/aspose.cells.rendering/workbookrender) 或 [SheetRender](/cells/zh/python-net/aspose.cells.rendering/sheetrender)。|
@@ -161,7 +161,7 @@ is_root: false
 | [ThreadedCommentAuthor](/cells/zh/python-net/aspose.cells/threadedcommentauthor) |代表创建线程评论的人；|
 | [ThreadedCommentAuthorCollection](/cells/zh/python-net/aspose.cells/threadedcommentauthorcollection) |代表所有的人。|
 | [ThreadedCommentCollection](/cells/zh/python-net/aspose.cells/threadedcommentcollection) |表示线程评论列表。|
-| [Top10](/cells/zh/python-net/aspose.cells/top10) |描述 Top 10 条件格式规则。<br/>此条件格式规则突出显示其单元格<br/>值落在前 N 个或后 N 个括号中，如指定的那样。|
+| [Top10](/cells/zh/python-net/aspose.cells/top10) |描述 Top10 条件格式规则。<br/>此条件格式规则突出显示其单元格<br/>值落在顶部 N 或底部 N 括号中，如指定的那样。|
 | [Top10Filter](/cells/zh/python-net/aspose.cells/top10filter) |代表前 10 个过滤器。|
 | [TwoColorGradient](/cells/zh/python-net/aspose.cells/twocolorgradient) |表示两种颜色渐变。|
 | [TxtLoadOptions](/cells/zh/python-net/aspose.cells/txtloadoptions) |表示加载文本文件的选项。|
@@ -192,15 +192,15 @@ is_root: false
 ### 枚举
 |枚举|描述|
 | :- | :- |
-| [AccessCacheOptions](/cells/zh/python-net/aspose.cells/accesscacheoptions) |数据访问的缓存选项。|用于多个选项的运算符。|
+| [AccessCacheOptions](/cells/zh/python-net/aspose.cells/accesscacheoptions) |数据访问的缓存选项。可以结合\|用于多个选项的运算符。|
 | [AutoFillType](/cells/zh/python-net/aspose.cells/autofilltype) |表示自动填充类型。|
-| [AutoFitMergedCellsType](/cells/zh/python-net/aspose.cells/autofitmergedcellstype) |表示自动适配合并单元格的类型。|
+| [AutoFitMergedCellsType](/cells/zh/python-net/aspose.cells/autofitmergedcellstype) |表示自动拟合合并单元格的类型。|
 | [AutoFitWrappedTextType](/cells/zh/python-net/aspose.cells/autofitwrappedtexttype) |表示自动调整换行文本的类型。|
 | [BackgroundType](/cells/zh/python-net/aspose.cells/backgroundtype) |枚举单元格背景图案类型。|
 | [BorderType](/cells/zh/python-net/aspose.cells/bordertype) |枚举边界线和对角线类型。|
 | [BuiltinStyleType](/cells/zh/python-net/aspose.cells/builtinstyletype) |表示所有内置样式类型。|
 | [CalcModeType](/cells/zh/python-net/aspose.cells/calcmodetype) |表示计算公式的模式类型。|
-| [CalculationPrecisionStrategy](/cells/zh/python-net/aspose.cells/calculationprecisionstrategy) |枚举处理计算精度的策略。<br/>由于 IEEE 754 Floating-Point Arithmetic 的精度问题，一些“看似简单”的公式可能无法计算出预期的结果。<br/>如公式“=-0.45+0.43+0.02”，直接用'+'运算符计算操作数时，结果不为零。<br/>一些特殊的策略可能会产生预期的结果。|
+| [CalculationPrecisionStrategy](/cells/zh/python-net/aspose.cells/calculationprecisionstrategy) |枚举处理计算精度的策略。<br/>由于 IEEE 754 Floating-Point Arithmetic 的精度问题，一些“看似简单”的公式可能无法计算出预期的结果。<br/>如公式“=-0.45+0.43+0.02”，直接用'+'运算符计算操作数时，结果不为零。对于这种精度问题，<br/>一些特殊的策略可能会产生预期的结果。|
 | [CellBorderType](/cells/zh/python-net/aspose.cells/cellbordertype) |枚举单元格的边框类型。|
 | [CellValueFormatStrategy](/cells/zh/python-net/aspose.cells/cellvalueformatstrategy) |指定如何为单元格的值应用样式。|
 | [CellValueType](/cells/zh/python-net/aspose.cells/cellvaluetype) |指定单元格值类型。|
@@ -251,7 +251,7 @@ is_root: false
 | [PageLayoutAlignmentType](/cells/zh/python-net/aspose.cells/pagelayoutalignmenttype) |枚举页面布局对齐类型。|
 | [PageOrientationType](/cells/zh/python-net/aspose.cells/pageorientationtype) |表示打印方向常量。|
 | [PaneStateType](/cells/zh/python-net/aspose.cells/panestatetype) |表示工作表窗格的状态。|
-| [PaperSizeType](/cells/zh/python-net/aspose.cells/papersizetype) |表示纸张尺寸常量。|
+| [PaperSizeType](/cells/zh/python-net/aspose.cells/papersizetype) |表示纸张大小常量。|
 | [ParameterType](/cells/zh/python-net/aspose.cells/parametertype) |表示函数的所有参数类型或返回值类型。|
 | [PasteOperationType](/cells/zh/python-net/aspose.cells/pasteoperationtype) |表示粘贴范围时的操作类型。|
 | [PasteType](/cells/zh/python-net/aspose.cells/pastetype) |表示粘贴特殊类型。|

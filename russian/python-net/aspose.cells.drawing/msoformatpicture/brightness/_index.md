@@ -1,4 +1,4 @@
-﻿---
+---
 title: brightness недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Он находится между -100% и 100%.
+Он находится между -100% и 100%. Он работает так же, как Excel 2007 или более поздняя версия.
 ###  Определение:
 ```python
 @property

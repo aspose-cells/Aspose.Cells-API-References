@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_object método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Analiza la cadena dada al objeto de valor adecuado.
 
 ###  Devoluciones
 
-Objeto de valor analizado de una cadena dada.
+Objeto de valor analizado de una cadena dada. Si la cadena dada no se puede analizar en el objeto de valor adecuado, devuelve nulo.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | value | str | El valor de la cadena que se analizará|
 

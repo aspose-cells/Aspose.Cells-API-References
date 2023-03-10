@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_fill_range الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

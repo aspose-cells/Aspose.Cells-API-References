@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_characters méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_characters() {#}
  Renvoie tous les objets Characters
-qui représente une plage de caractères dans le texte.
+qui représente une plage de caractères dans le texte .
 
 
 ###  Retour
@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 

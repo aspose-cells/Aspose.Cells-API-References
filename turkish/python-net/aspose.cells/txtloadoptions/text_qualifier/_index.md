@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_qualifier mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier mülk
 
-Hücre değerleri için metin niteleyicisini belirtir.Varsayılan niteleyici '"' şeklindedir.
+Hücre değerleri için metin niteleyicisini belirtir. Varsayılan niteleyici '''' şeklindedir.
 
 ###  Notlar
 

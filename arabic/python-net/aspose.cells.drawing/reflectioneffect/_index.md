@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReflectionEffect الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,7 +20,7 @@ is_root: false
 | [type](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/type) | يحصل ويضبط تأثير الانعكاس المحدد مسبقًا.|
 | [transparency](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/transparency) |الحصول على درجة شفافية انعكاس البداية وتعيينها كقيمة من 0.0 (معتم) إلى 1.0 (واضح).|
 | [size](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/size) | الحصول على وتعيين موضع النهاية (على طول منحدر التدرج ألفا) لقيمة ألفا النهائية ، بوحدة النسبة المئوية|
-| [blur](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/blur) | الحصول على نصف قطر التمويه وتعيينه بوحدات من النقاط.|
+| [blur](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/blur) | الحصول على نصف قطر التمويه وتعيينه ، بوحدة النقاط.|
 | [direction](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/direction) | الحصول على وتعيين اتجاه منحدر التدرج ألفا بالنسبة للشكل نفسه.|
 | [distance](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/distance) | الحصول على المسافة بين الظل وتعيينها ، بوحدة النقاط.|
 | [fade_direction](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect/fade_direction) | يحصل على الاتجاه ويضبطه لتعويض الانعكاس.|

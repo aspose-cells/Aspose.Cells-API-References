@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextBoxActiveXControl Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,8 +25,8 @@ Der Typ TextBoxActiveXControl macht die folgenden Member verfügbar:
 | :- | :- |
 | [workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/workbook) | Ruft das [ActiveXControlBase.workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook)-Objekt ab.|
 | [type](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/type) | Ruft den Typ des ActiveX-Steuerelements ab.|
-| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt diese fest.|
-| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt diese fest.|
+| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt sie fest.|
+| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt sie fest.|
 | [mouse_icon](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_icon) | Ruft ein benutzerdefiniertes Symbol ab und legt es fest, das als Mauszeiger für das Steuerelement angezeigt wird.|
 | [mouse_pointer](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_pointer) | Ruft den Symboltyp ab, der als Mauszeiger für das Steuerelement angezeigt wird, und legt diesen fest.|
 | [fore_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/fore_ole_color) | Ruft die alte Farbe des Vordergrunds ab und legt sie fest.|
@@ -43,7 +43,7 @@ Der Typ TextBoxActiveXControl macht die folgenden Member verfügbar:
 | [ime_mode](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/ime_mode) |Ruft den standardmäßigen Laufzeitmodus des Eingabemethoden-Editors für das Steuerelement ab und legt diesen fest, wenn es den Fokus erhält.|
 | [font](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/font) | Stellt die Schriftart des Steuerelements dar.|
 | [text_align](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/text_align) | Stellt dar, wie der vom Steuerelement verwendete Text ausgerichtet wird.|
-| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt diesen fest.|
+| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt ihn fest.|
 | [border_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_ole_color) | Ruft die Ole-Farbe des Hintergrunds ab und legt sie fest.|
 | [special_effect](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/special_effect) | Ruft den Spezialeffekt des Steuerelements ab und legt diesen fest.|
 | [max_length](/cells/de/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/max_length) | Ruft die maximale Anzahl von Zeichen ab und legt sie fest|
@@ -66,7 +66,7 @@ Der Typ TextBoxActiveXControl macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose import pycore

@@ -1,4 +1,4 @@
-﻿---
+---
 title: leader_lines propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  leader_lines propriété
 
  Représente les lignes de repère sur un graphique. Les lignes de repère relient les étiquettes de données aux points de données.
-Cet objet n'est pas une collection ; aucun objet ne représente une seule ligne de repère.
+Cet objet n'est pas une collection ; aucun objet ne représente une seule ligne de repère.
 ###  Définition:
 ```python
 @property

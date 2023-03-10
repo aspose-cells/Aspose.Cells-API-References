@@ -1,4 +1,4 @@
-﻿---
+---
 title: attached_files_directory fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Mappen som de bifogade filerna kommer att sparas i.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
 använd egenskapen HtmlLoadOptions.StreamProvider.
  Den här egenskapen kommer att tas bort 12 månader senare sedan december 2014.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

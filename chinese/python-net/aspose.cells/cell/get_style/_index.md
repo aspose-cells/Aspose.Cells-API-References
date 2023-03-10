@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_style方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 210
@@ -42,7 +42,7 @@ def get_style(self, check_borders):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | check_borders | bool |检查其他单元格的边界|
 ### 评论

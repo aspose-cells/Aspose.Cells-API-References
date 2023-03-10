@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineCapType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ Il tipo LineCapType espone i membri seguenti:
 | :- | :- |
 | SQUARE | Il quadrato sporge di metà larghezza della linea.|
 | ROUND |Estremità arrotondate.|
-| FLAT | La linea termina nei punti finali.|
+| FLAT | La linea termina nel punto finale.|
 | NONE | Nessuno tappo|
 
 

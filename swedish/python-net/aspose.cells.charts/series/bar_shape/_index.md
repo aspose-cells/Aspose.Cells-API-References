@@ -1,4 +1,4 @@
-﻿---
+---
 title: bar_shape fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar eller ställer in 3D-formtypen som används med 3D-stapel- eller kolumnd
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
  använd egenskapen ASeries.Bar3DShapeType.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

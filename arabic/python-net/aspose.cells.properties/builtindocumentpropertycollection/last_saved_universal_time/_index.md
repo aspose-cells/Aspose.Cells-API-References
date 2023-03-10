@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_saved_universal_time الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

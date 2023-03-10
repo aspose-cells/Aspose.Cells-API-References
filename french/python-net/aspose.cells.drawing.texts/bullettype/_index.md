@@ -1,4 +1,4 @@
-﻿---
+---
 title: BulletType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ Le type BulletType expose les membres suivants :
 | NONE | Pas de balle.|
 | CHARACTER | Balle de caractère.|
 | PICTURE | Puce d'image.|
-| AUTO_NUMBERED | Puces numérotées automatiques.|
+| AUTO_NUMBERED | Puce numérotée automatique.|
 
 
 

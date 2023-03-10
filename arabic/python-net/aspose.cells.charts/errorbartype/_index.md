@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ErrorBarType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  مجالات
 | مجال| وصف|
 | :- | :- |
-| CUSTOM | نوع القيمة المخصصة الداخلية.|
+| CUSTOM | نوع قيمة InnerCustom.|
 | FIXED_VALUE | نوع القيمة الثابتة.|
 | PERCENT | نوع النسبة المئوية|
 | ST_DEV | نوع الانحراف المعياري.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/chartpointcollection/clear/
 is_root: false
 ---
 ##  clear() {#}
-Elimina todas las configuraciones de los puntos del gráfico.
+Elimina todos los ajustes de los puntos del gráfico.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_pivot_cached_records Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

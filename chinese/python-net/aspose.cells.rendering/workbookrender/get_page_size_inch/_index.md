@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_page_size_inch方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -22,7 +22,7 @@ def get_page_size_inch(self, page_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | page_index | int |页面索引基于零。|
 

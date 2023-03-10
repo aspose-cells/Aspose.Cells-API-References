@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_inside_borders método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_inside_borders(self, border_edge, line_style, border_color):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/es/python-net/aspose.cells/bordertype) | Tipo borde interior, solo puede ser [BorderType.VERTICAL](/cells/es/python-net/aspose.cells/bordertype#VERTICAL) y [BorderType.HORIZONTAL](/cells/es/python-net/aspose.cells/bordertype#HORIZONTAL).|
 | line_style | [CellBorderType](/cells/es/python-net/aspose.cells/cellbordertype) | El estilo de la frontera.|

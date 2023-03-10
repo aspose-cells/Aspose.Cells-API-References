@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReferenceCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.vba/vbaprojectreferencecollection/
 is_root: false
 ---
 ##  VbaProjectReferenceCollection الدرجة
-يمثل جميع مراجع مشاريع VBA.
+يمثل جميع مراجع مشروع VBA.
 
 
 
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

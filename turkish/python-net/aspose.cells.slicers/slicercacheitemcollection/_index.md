@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItemCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.slicers/slicercacheitemcollection/
 is_root: false
 ---
 ##  SlicerCacheItemCollection sınıfı
-SlicerCacheItems koleksiyonunu temsil eder
+SlicerCacheItem koleksiyonunu temsil eder
 
 
 
@@ -34,7 +34,7 @@ SlicerCacheItemCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة reset_underflow
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

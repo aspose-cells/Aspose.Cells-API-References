@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_page_size_inch Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

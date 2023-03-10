@@ -1,4 +1,4 @@
-﻿---
+---
 title: top proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Rappresenta l'offset verticale della forma dalla relativa riga top, in unità di
 
 Se la forma è nel grafico, rappresenta l'offset verticale della forma dal suo bordo top.
 
-###  Esempi
+###  Esempio
 
 ```python
 

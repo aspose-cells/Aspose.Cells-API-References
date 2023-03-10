@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente la largeur du décalage vertical de la forme par rapport à sa ligne d'angle inférieure bottom, en pixels.
 
-###  Exemples
+###  Exemple
 
 ```python
 

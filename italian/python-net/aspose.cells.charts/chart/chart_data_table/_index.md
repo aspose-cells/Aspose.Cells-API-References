@@ -1,4 +1,4 @@
-﻿---
+---
 title: chart_data_table proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

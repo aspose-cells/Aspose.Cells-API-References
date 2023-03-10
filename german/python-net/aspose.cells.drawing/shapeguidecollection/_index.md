@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeGuideCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/shapeguidecollection/
 is_root: false
 ---
 ##  ShapeGuideCollection Klasse
-Kapselt eine Sammlung von Formhilfslinien
+Kapselt eine Sammlung von Formführern
 
 
 

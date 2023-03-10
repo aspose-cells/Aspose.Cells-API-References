@@ -1,4 +1,4 @@
-﻿---
+---
 title: quality Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  quality Eigentum
 
 Ruft einen Wert ab oder legt diesen fest, der quality der generierten Bilder bestimmt
-nur anzuwenden, wenn Seiten im Format `Jpeg` gespeichert werden.
+nur anzuwenden, wenn Seiten im Format `Jpeg` gespeichert werden. Der Standardwert ist 100
 
 ###  Bemerkungen
 

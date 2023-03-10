@@ -1,4 +1,4 @@
-﻿---
+---
 title: placement propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -12,7 +12,7 @@ is_root: false
 Représente la manière dont l'objet dessin est attaché aux cellules situées en dessous.
 La propriété contrôle le placement d'un objet sur une feuille de calcul.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells.drawing import PlacementType

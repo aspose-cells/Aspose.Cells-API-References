@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_drill mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill mülk
 
 Detay göstergelerinin yazdırılıp yazdırılmayacağını belirten bir boole değeri belirtir.
-Pivot tabloda görüntülendiğinde genişlet/daralt düğmelerini yazdırın.
+Pivot tablo üzerinde görüntülendiğinde genişletme/daraltma düğmelerini yazdırın.
 ###  Tanım:
 ```python
 @property

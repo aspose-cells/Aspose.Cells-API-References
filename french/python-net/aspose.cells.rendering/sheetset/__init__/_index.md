@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetSet constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | sheets | list | index de feuille à base zéro.|
 ###  Remarques

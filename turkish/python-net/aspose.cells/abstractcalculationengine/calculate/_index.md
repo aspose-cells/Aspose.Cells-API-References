@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def calculate(self, data):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | data | [CalculationData](/cells/tr/python-net/aspose.cells/calculationdata) | fonksiyon adı, parametreler, vb. gibi fonksiyonu hesaplamak için gerekli veriler.|
 ###  Notlar

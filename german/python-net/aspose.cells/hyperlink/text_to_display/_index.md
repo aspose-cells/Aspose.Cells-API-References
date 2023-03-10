@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_display Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display Eigentum
 
-Stellt den Text dar, der für den angegebenen Hyperlink angezeigt werden soll.
+Stellt den Text dar, der für den angegebenen Hyperlink angezeigt werden soll. Der Standardwert ist die Adresse des Hyperlinks.
 ###  Definition:
 ```python
 @property

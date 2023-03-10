@@ -1,4 +1,4 @@
-﻿---
+---
 title: size mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size mülk
 
- Gölgenin size'ini alır ve ayarlar. 0 ile 2.0 arasında değişir.
+ Gölgenin size değerini alır ve ayarlar. 0 ila 2.0 aralığında.
 İç gölgede anlamsız.
 ###  Tanım:
 ```python

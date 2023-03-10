@@ -1,4 +1,4 @@
-﻿---
+---
 title: graphic_position_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  graphic_position_type الملكية
 
-الحصول على موضع رسم الخلفية وتعيينه.
+يحصل ويضبط موضع رسم الخلفية.
 ###  تعريف:
 ```python
 @property

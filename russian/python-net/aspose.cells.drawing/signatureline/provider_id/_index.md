@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Обычно это CLSID надстройки com поставщика.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing import SignatureLine

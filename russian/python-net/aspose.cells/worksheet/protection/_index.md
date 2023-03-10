@@ -1,4 +1,4 @@
-﻿---
+---
 title: protection недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection недвижимость
 
-Представляет различные типы protection параметров, доступных для рабочего листа.
+Представляет различные типы protection параметров, доступных для рабочего листа. Поддерживает расширенные параметры protection в ExcelXP и более поздних версиях.
 
 ###  Примечания
 

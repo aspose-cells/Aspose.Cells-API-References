@@ -1,4 +1,4 @@
-﻿---
+---
 title: weight mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Çizginin weight'ini puan birimi olarak alır veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

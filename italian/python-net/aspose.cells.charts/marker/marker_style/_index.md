@@ -1,4 +1,4 @@
-﻿---
+---
 title: marker_style proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_style proprietà
 
-Rappresenta lo stile dell'indicatore. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.
+Rappresenta lo stile del marcatore. Si applica al grafico a linee, al grafico a dispersione o al grafico a radar.
 ###  Definizione:
 ```python
 @property

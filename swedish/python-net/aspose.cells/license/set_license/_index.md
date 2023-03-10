@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_license metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/license/set_license/
 is_root: false
 ---
 ##  set_license(license_name) {#str}
-Licensierar komponenterna.
+Licensierar komponenten.
 
 
 
@@ -18,12 +18,12 @@ def set_license(self, license_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | license_name | str |  |
 ###  Anmärkningar
 
-Försök att hitta licensen på följande platser:
+Försöker hitta licensen på följande platser:
 
 
 1. Explicit väg.
@@ -41,7 +41,7 @@ Försök att hitta licensen på följande platser:
 5. En inbäddad resurs i klientens anropssammansättning.
 
 
-**Anmärkningar:** På .NET Compact Framework försöker du hitta licensen endast på dessa platser:
+**Notera:** På .NET Compact Framework försöker du hitta licensen endast på dessa platser:
 
 
 1. Explicit väg.
@@ -70,7 +70,7 @@ Använd en tom sträng för att växla till utvärderingsläge.
 
 
 ##  set_license(stream) {#io.RawIOBase}
-Licensierar komponenterna.
+Licensierar komponenten.
 
 
 
@@ -80,7 +80,7 @@ def set_license(self, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | En stream som innehåller licensen.|
 ###  Anmärkningar

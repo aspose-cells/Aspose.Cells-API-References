@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_array_formula
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def remove_array_formula(self, leave_normal_formula):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | leave_normal_formula | bool | يمثل True تحويل صيغة الصفيف إلى صيغة عادية.|
 

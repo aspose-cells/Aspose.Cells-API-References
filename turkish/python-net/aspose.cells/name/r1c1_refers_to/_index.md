@@ -1,4 +1,4 @@
-﻿---
+---
 title: r1c1_refers_to mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

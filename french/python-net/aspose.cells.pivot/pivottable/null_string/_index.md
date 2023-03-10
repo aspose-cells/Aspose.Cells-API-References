@@ -1,4 +1,4 @@
-﻿---
+---
 title: null_string propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  null_string propriété
 
 Obtient la chaîne affichée dans les cellules contenant des valeurs nulles
-lorsque la propriété DisplayNullString est vraie.
+lorsque la propriété DisplayNullString est vraie. La valeur par défaut est une chaîne vide.
 ###  Définition:
 ```python
 @property

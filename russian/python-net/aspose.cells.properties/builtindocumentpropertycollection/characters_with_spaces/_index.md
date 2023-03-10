@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters_with_spaces недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

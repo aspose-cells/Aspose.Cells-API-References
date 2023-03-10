@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_link yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | uri | str | Akıllı etiketin ad alanı URI'si.|
 | name | str | Akıllı etiketin adı.|

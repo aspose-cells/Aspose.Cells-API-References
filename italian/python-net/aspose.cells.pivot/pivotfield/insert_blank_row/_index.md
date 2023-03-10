@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_blank_row proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  insert_blank_row proprietà
 
-Indica se inserire una riga vuota dopo ogni voce.
+Indica se inserire una riga vuota dopo ogni elemento.
 ###  Definizione:
 ```python
 @property

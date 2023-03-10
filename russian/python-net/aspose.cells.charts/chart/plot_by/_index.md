@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_by недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by недвижимость
 
-Получает и задает, следует ли строить график по строкам или столбцам.
+Получает и задает график по строке или по столбцу.
 ###  Определение:
 ```python
 @property

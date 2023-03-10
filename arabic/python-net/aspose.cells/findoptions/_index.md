@@ -1,4 +1,4 @@
-﻿---
+---
 title: FindOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -27,11 +27,11 @@ is_root: false
 | [case_sensitive](/cells/ar/python-net/aspose.cells/findoptions/case_sensitive) | يشير إلى ما إذا كانت السلسلة التي تم البحث عنها حساسة لحالة الأحرف.|
 | [look_at_type](/cells/ar/python-net/aspose.cells/findoptions/look_at_type) | انظر إلى النوع.|
 | [is_range_set](/cells/ar/python-net/aspose.cells/findoptions/is_range_set) | يشير إلى ما إذا كان النطاق الذي تم البحث عنه قد تم تعيينه.|
-| [search_next](/cells/ar/python-net/aspose.cells/findoptions/search_next) | ترتيب البحث صواب: البحث التالي خطأ: البحث السابق.|
+| [search_next](/cells/ar/python-net/aspose.cells/findoptions/search_next) | ترتيب البحث. صواب: ابحث بعد ذلك. خطأ: البحث السابق.|
 | [search_backward](/cells/ar/python-net/aspose.cells/findoptions/search_backward) | سواء كان البحث للخلف عن الخلايا.|
 | [seach_order_by_rows](/cells/ar/python-net/aspose.cells/findoptions/seach_order_by_rows) | يشير إلى ما إذا كان ترتيب البحث حسب الصفوف أو الأعمدة.|
 | [look_in_type](/cells/ar/python-net/aspose.cells/findoptions/look_in_type) | ابحث في النوع.|
-| [regex_key](/cells/ar/python-net/aspose.cells/findoptions/regex_key) | يشير إلى ما إذا كان المفتاح الذي تم البحث عنه هو regex أم لا.<br/>إذا كان هذا صحيحًا ، فسيتم اعتبار المفتاح الذي تم البحث عنه كـ regex وتحليله.|
+| [regex_key](/cells/ar/python-net/aspose.cells/findoptions/regex_key) | يشير إلى ما إذا كان المفتاح الذي تم البحث عنه هو regex أم لا.<br/>إذا كان هذا صحيحًا ، فسيتم اعتبار المفتاح الذي تم البحث عنه كـ regex وتحليله. وإلا فسيتم تحليل المفتاح وفقًا للقواعد الواردة في ms excel.|
 | [value_type_sensitive](/cells/ar/python-net/aspose.cells/findoptions/value_type_sensitive) | يشير إلى ما إذا كان يجب أن يكون نوع قيمة الخلية التي تم البحث عنها هو نفسه مع المفتاح الذي تم البحث عنه.|
 | [style](/cells/ar/python-net/aspose.cells/findoptions/style) | التنسيق المطلوب البحث عنه.|
 | [convert_numeric_data](/cells/ar/python-net/aspose.cells/findoptions/convert_numeric_data) | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل قيمة السلسلة التي تم البحث عنها إلى بيانات رقمية.|
@@ -45,7 +45,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, FindOptions, LookInType, Workbook

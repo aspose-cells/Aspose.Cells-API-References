@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inserting_hyperlinks_allowed propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,8 +13,8 @@ Representa si se permite la inserción de hipervínculos en una hoja de trabajo 
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
- por favor use Protección Permitir la inserción de la propiedad Hipervínculo.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
+ utilice la propiedad Protection.AllowInsertingHyperlink.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_index_of метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Отсчитываемый от нуля индекс последнего вхождения значения во всем списке массивов, если он найден, иначе -1.
+Отсчитываемый от нуля индекс последнего вхождения значения во всем списке массивов, если он найден; иначе -1.
 
 
 ```python
@@ -22,9 +22,9 @@ def last_index_of(self, item):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| item | [PowerQueryFormula](/cells/ru/python-net/aspose.cells.querytables/powerqueryformula) | Объект, который нужно найти в списке массивов.|
+| item | [PowerQueryFormula](/cells/ru/python-net/aspose.cells.querytables/powerqueryformula) | Объект, который нужно найти в списке массивов. Значение может быть нулевым.|
 
 
 ##  last_index_of(item, index) {#PowerQueryFormula-int}
@@ -33,7 +33,7 @@ def last_index_of(self, item):
 
 ###  Возвращает
 
-Отсчитываемый от нуля индекс последнего вхождения значения в диапазоне элементов в списке массивов, простирающемся от первого элемента до startIndex, если он найден; в противном случае -1.
+Отсчитываемый от нуля индекс последнего вхождения значения в диапазоне элементов в списке массивов, простирающемся от первого элемента до startIndex, если он найден; иначе -1.
 
 
 ```python
@@ -42,9 +42,9 @@ def last_index_of(self, item, index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| item | [PowerQueryFormula](/cells/ru/python-net/aspose.cells.querytables/powerqueryformula) | Объект, который нужно найти в списке массивов.|
+| item | [PowerQueryFormula](/cells/ru/python-net/aspose.cells.querytables/powerqueryformula) | Объект, который нужно найти в списке массивов. Значение может быть нулевым.|
 | index | int | Отсчитываемый от нуля начальный индекс обратного поиска.|
 
 
@@ -54,7 +54,7 @@ def last_index_of(self, item, index):
 
 ###  Возвращает
 
-Отсчитываемый от нуля индекс последнего вхождения значения в диапазоне элементов в списке массивов System.Collections., который содержит число элементов count и заканчивается на startIndex, если он найден, иначе -1.
+Отсчитываемый от нуля индекс последнего вхождения значения в диапазоне элементов в System.Collections. Список массивов, содержащий число элементов count и заканчивающийся на startIndex, если он найден; иначе -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def last_index_of(self, item, index, count):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| item | [PowerQueryFormula](/cells/ru/python-net/aspose.cells.querytables/powerqueryformula) | Объект, который нужно найти в списке массивов.|
+| item | [PowerQueryFormula](/cells/ru/python-net/aspose.cells.querytables/powerqueryformula) | Объект, который нужно найти в списке массивов. Значение может быть нулевым.|
 | index | int | Отсчитываемый от нуля начальный индекс обратного поиска.|
 | count | int | Количество элементов в разделе для поиска.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExceptionType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -29,7 +29,7 @@ Typen ExceptionType avslöjar följande medlemmar:
 | LICENSE | Licensrelaterade fel.|
 | LIMITATION |Av MS Excel-begränsningsfel.|
 | PAGE_SETUP | Ogiltig inställning för sidinställningar.|
-| PIVOT_TABLE | Ogiltig inställning för pivottabell.|
+| PIVOT_TABLE | Ogiltig pivottabellinställning.|
 | SHAPE | Ogiltig inställning för ritobjekt.|
 | SPARKLINE | Ogiltig inställning för sparkline-objekt.|
 | SHEET_NAME | Ogiltigt kalkylbladsnamn.|
@@ -37,7 +37,7 @@ Typen ExceptionType avslöjar följande medlemmar:
 | INTERRUPTED | Processen avbryts.|
 | IO | Filen är ogiltig.|
 | PERMISSION | Tillstånd krävs för att öppna den här filen.|
-| UNSUPPORTED_FEATURE | Funktioner som inte stöds.|
+| UNSUPPORTED_FEATURE | Funktionen stöds inte.|
 | UNSUPPORTED_STREAM | Ström som inte stöds ska öppnas.|
 | UNDISCLOSED_INFORMATION | Filer innehåller en del hemlig information.|
 | FILE_CORRUPTED | Filinnehållet är skadat.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotDataByType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  PlotDataByType Aufzählung
-Stellt den Datentyp dar, der nach Zeile oder Spalte dargestellt wird.
+Stellt den Typ der Datenzeichnung nach Zeile oder Spalte dar.
 
 
 

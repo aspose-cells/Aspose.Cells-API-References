@@ -1,4 +1,4 @@
-﻿---
+---
 title: Format3D klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -20,7 +20,7 @@ Typen Format3D avslöjar följande medlemmar:
 | [top_bevel](/cells/sv/python-net/aspose.cells.drawing/format3d/top_bevel) | Hämtar objektet [Bevel](/cells/sv/python-net/aspose.cells.drawing/bevel) som har egenskaperna som är associerade med att definiera en avfasning på toppen eller framsidan av en form.|
 | [surface_material_type](/cells/sv/python-net/aspose.cells.drawing/format3d/surface_material_type) |Får och ställer in materialtypen som kombineras med ljusegenskaperna för att ge det slutliga utseendet och känslan av en form.<br/> Standardvärdet är PresetMaterialType.WarmMatte.|
 | [surface_lighting_type](/cells/sv/python-net/aspose.cells.drawing/format3d/surface_lighting_type) | Får och ställer in belysningstypen som ska appliceras på scenen för formen.<br/> Standardvärdet är LightRigType.ThreePoint.|
-| [lighting_angle](/cells/sv/python-net/aspose.cells.drawing/format3d/lighting_angle) | Hämtar och ställer in belysningsvinkeln. Omfång från 0 till 359,9 grader.|
+| [lighting_angle](/cells/sv/python-net/aspose.cells.drawing/format3d/lighting_angle) | Hämtar och ställer in belysningsvinkeln. Spänning från 0 till 359,9 grader.|
 
 
 ###  Metoder

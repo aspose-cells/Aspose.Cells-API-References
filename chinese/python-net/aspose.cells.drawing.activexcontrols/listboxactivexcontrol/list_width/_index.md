@@ -1,6 +1,6 @@
-﻿---
+---
 title: list_width 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 230
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## list_width 属性
 
-以点为单位获取和设置宽度。
+获取和设置以点为单位的宽度。
 ### 定义：
 ```python
 @property

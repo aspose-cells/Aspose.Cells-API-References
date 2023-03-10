@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_data_value_editing fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_data_value_editing fastighet
 
-Anger ett booleskt värde som indikerar om användaren har tillåtelse att redigera cellerna i dataområdet i pivottabellen.
+Anger ett booleskt värde som indikerar om användaren har tillåtelse att redigera cellerna i dataområdet för pivottabellen.
 Aktivera cellredigering i värdeområdet
 ###  Definition:
 ```python

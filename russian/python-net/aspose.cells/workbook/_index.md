@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -112,7 +112,7 @@ is_root: false
 | [custom_theme(theme_name, colors)](/cells/ru/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | Таможня тема.|
 | [copy_theme(source)](/cells/ru/python-net/aspose.cells/workbook/copy_theme/#Workbook) | Копирует тему из другой книги.|
 | [has_exernal_links()](/cells/ru/python-net/aspose.cells/workbook/has_exernal_links/#) | Указывает, содержит ли эта книга внешние ссылки на другие источники данных.|
-| [update_linked_data_source(external_workbooks)](/cells/ru/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Если эта книга содержит внешние ссылки на другие источники данных,<br/> Aspose.Cells попытается получить последние данные.|
+| [update_linked_data_source(external_workbooks)](/cells/ru/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Если эта рабочая книга содержит внешние ссылки на другой источник данных,<br/> Aspose.Cells попытается получить последние данные.|
 | [set_digital_signature(digital_signature_collection)](/cells/ru/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Устанавливает цифровую подпись для файла электронной таблицы (Excel2007 и более поздние версии).|
 | [add_digital_signature(digital_signature_collection)](/cells/ru/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Добавляет цифровую подпись в файл электронной таблицы OOXML (Excel2007 и более поздние версии).|
 | [get_digital_signature()](/cells/ru/python-net/aspose.cells/workbook/get_digital_signature/#) | Получает цифровую подпись из файла.|
@@ -122,13 +122,13 @@ is_root: false
 
 ###  Примечания
 
-Класс Workbook обозначает электронную таблицу Excel.
+Класс Workbook обозначает электронную таблицу Excel. Каждая электронная таблица может содержать несколько рабочих листов.
 Основная функция класса — открывать и сохранять собственные файлы Excel.
 У класса есть некоторые дополнительные функции, такие как копирование данных из других рабочих книг, объединение двух рабочих книг и защита электронной таблицы Excel.
 
-###  Примеры
+###  Пример
 
-Следующий пример загружает Workbook из файла с именем Designer.xls и делает горизонтальную и вертикальную полосы прокрутки невидимыми для Workbook. Затем он заменяет два строковых значения целочисленным значением и строковым значением соответственно в электронной таблице и, наконец, отправляет обновленный файл в клиентский браузер.
+Следующий пример загружает Workbook из файла с именем Designer.xls и делает горизонтальную и вертикальную полосы прокрутки невидимыми для Workbook. Затем он заменяет два строковых значения целочисленным значением и строковым значением соответственно в электронной таблице и, наконец, отправляет обновленный файл в браузер клиента.
 
 ```python
 from aspose.cells import Workbook

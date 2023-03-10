@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_format الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format الملكية
 
-الحصول على تنسيق القيم الرقمية وتعيينه.
+الحصول على تنسيق القيمة الرقمية وتعيينه.
 ###  تعريف:
 ```python
 @property

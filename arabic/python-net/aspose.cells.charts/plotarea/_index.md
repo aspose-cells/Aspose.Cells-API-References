@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotArea الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -28,10 +28,10 @@ is_root: false
 | [text_font](/cells/ar/python-net/aspose.cells.charts/plotarea/text_font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
 | [text_options](/cells/ar/python-net/aspose.cells.charts/plotarea/text_options) | الحصول على خيارات النص وتعيينها.|
 | [font](/cells/ar/python-net/aspose.cells.charts/plotarea/font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
-| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/plotarea/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.|
+| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/plotarea/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/plotarea/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [background](/cells/ar/python-net/aspose.cells.charts/plotarea/background) | الحصول على وضبط وضع عرض الخلفية|
-| [is_automatic_size](/cells/ar/python-net/aspose.cells.charts/plotarea/is_automatic_size) | يشير إلى ما إذا كان سيتم تغيير حجم مساحة الرسم تلقائيًا.|
+| [is_automatic_size](/cells/ar/python-net/aspose.cells.charts/plotarea/is_automatic_size) | يشير إلى ما إذا كان حجم مساحة الرسم آليًا.|
 | [x](/cells/ar/python-net/aspose.cells.charts/plotarea/x) | الحصول على أو الحصول على إحداثيات x للركن الأيسر العلوي من المربع المحيط بمنطقة الرسم بوحدات 1/4000 من منطقة المخطط.|
 | [y](/cells/ar/python-net/aspose.cells.charts/plotarea/y) | الحصول على أو الحصول على إحداثيات y للركن العلوي العلوي لمربع إحاطة منطقة الرسم بوحدات 1/4000 من منطقة المخطط.|
 | [height](/cells/ar/python-net/aspose.cells.charts/plotarea/height) |الحصول على أو تحديد ارتفاع المربع المحيط بمنطقة الرسم بوحدات 1/4000 من مساحة المخطط.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitLabel sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -29,7 +29,7 @@ DisplayUnitLabel türü aşağıdaki üyeleri gösterir:
 | [text_font](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/text_font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
 | [text_options](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/text_options) | Metnin seçeneklerini alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/font) | Belirtilen ChartFrame nesnesinin [DisplayUnitLabel.font](/cells/tr/python-net/aspose.cells.charts/displayunitlabel#font) nesnesini alır.|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/background) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/is_automatic_size) | Grafik çerçevesinin otomatik boyutlandırılıp boyutlandırılmadığını gösterir.|
@@ -45,7 +45,7 @@ DisplayUnitLabel türü aşağıdaki üyeleri gösterir:
 | [default_width](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/default_width) | Varsayılan konumun genişliğini temsil eder|
 | [default_height](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/default_height) | Varsayılan konumun yüksekliğini temsil eder|
 | [is_auto_text](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/is_auto_text) | Metnin otomatik olarak oluşturulduğunu gösterir.|
-| [is_deleted](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/is_deleted) | Bu veri etiketinin silinip silinmediğini gösterir.|
+| [is_deleted](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/is_deleted) | Bu veri etiketlerinin silinip silinmediğini gösterir.|
 | [text_horizontal_alignment](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/text_horizontal_alignment) | Metin yatay hizalamasını alır ve ayarlar.|
 | [text_vertical_alignment](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/text_vertical_alignment) |Metnin dikey hizalamasını alır veya ayarlar.|
 | [rotation_angle](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/rotation_angle) | Metin döndürme açısını temsil eder.|
@@ -56,7 +56,7 @@ DisplayUnitLabel türü aşağıdaki üyeleri gösterir:
 | [reading_order](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/reading_order) | Metin okuma sırasını temsil eder.|
 | [direction_type](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/direction_type) | Metnin yönünü alır ve ayarlar.|
 | [is_text_wrapped](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/is_text_wrapped) | Metnin kaydırılıp kaydırılmadığını gösteren bir değer alır veya ayarlar.|
-| [is_resize_shape_to_fit_text](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/is_resize_shape_to_fit_text) | İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar.<br/> şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.|
+| [is_resize_shape_to_fit_text](/cells/tr/python-net/aspose.cells.charts/displayunitlabel/is_resize_shape_to_fit_text) | İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar. Otomatik sığdırma:<br/> şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.|
 
 
 ###  Yöntemler
@@ -67,7 +67,7 @@ DisplayUnitLabel türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

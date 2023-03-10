@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_edit_language недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Он может отображать / отображать разные макеты для текстового абзаца, когда установлены разные языки редактирования.
+Он может отображать/рендерить разные макеты для текстового абзаца, если установлены разные языки редактирования.
 По умолчанию [DefaultEditLanguage.AUTO](/cells/ru/python-net/aspose.cells/defaulteditlanguage#AUTO).
 ###  Определение:
 ```python

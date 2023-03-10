@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_unparsed_data Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  keep_unparsed_data Eigentum
 
-Ob die ungeparsten Daten für die Arbeitsmappe im Arbeitsspeicher bleiben, wenn sie aus der Vorlagendatei geladen wird. Der Standardwert ist „true“.
+Ob die ungeparsten Daten für die Arbeitsmappe im Arbeitsspeicher bleiben, wenn sie aus der Vorlagendatei geladen wird. Standard ist wahr.
 
 ###  Bemerkungen
 

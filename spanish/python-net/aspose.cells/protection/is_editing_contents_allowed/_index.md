@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_editing_contents_allowed propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,12 +9,12 @@ is_root: false
 ---
 ##  is_editing_contents_allowed propiedad
 
-Representa si el usuario puede editar el contenido de las celdas bloqueadas en una hoja de trabajo protegida.
+Representa si el usuario puede editar el contenido de las celdas bloqueadas en una hoja de cálculo protegida.
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
- por favor use Protección Permitir la propiedad de edición de contenido.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
+ utilice la propiedad Protection.AllowEditingContent.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

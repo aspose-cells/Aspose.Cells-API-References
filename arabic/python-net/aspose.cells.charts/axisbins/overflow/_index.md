@@ -1,4 +1,4 @@
-﻿---
+---
 title: overflow الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  overflow الملكية
 
-الحصول على أو تحديد overflow لحاويات المحور
+الحصول على أو تعيين overflow لحاويات المحور
 ###  تعريف:
 ```python
 @property

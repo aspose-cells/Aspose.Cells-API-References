@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_type_map mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map mülk
 
-Farklı veritabanları için sütun türlerinin haritasını alır ve ayarlar.
+Farklı veritabanı için sütun türünün haritasını alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

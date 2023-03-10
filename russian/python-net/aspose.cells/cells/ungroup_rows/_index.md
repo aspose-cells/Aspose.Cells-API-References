@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup_rows метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cells/ungroup_rows/
 is_root: false
 ---
 ##  ungroup_rows(first_index, last_index) {#int-int}
-Разгруппировать строки.
+Разгруппирует строки.
 
 
 
@@ -18,9 +18,9 @@ def ungroup_rows(self, first_index, last_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| first_index | int | Индекс первой строки, которую необходимо разгруппировать.|
+| first_index | int | Индекс первой строки, которую нужно разгруппировать.|
 | last_index | int | Индекс последней строки, которую необходимо разгруппировать.|
 ###  Примечания
 
@@ -28,7 +28,7 @@ def ungroup_rows(self, first_index, last_index):
 
 ##  ungroup_rows(first_index, last_index, is_all) {#int-int-bool}
 
-Разгруппировать строки.
+Разгруппирует строки.
 
 
 
@@ -38,9 +38,9 @@ def ungroup_rows(self, first_index, last_index, is_all):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| first_index | int | Индекс первой строки, которую необходимо разгруппировать.|
+| first_index | int | Индекс первой строки, которую нужно разгруппировать.|
 | last_index | int | Индекс последней строки, которую необходимо разгруппировать.|
 | is_all | bool | Правда, удаляет всю сгруппированную информацию. В противном случае удаляет информацию о внешней группе.|
 

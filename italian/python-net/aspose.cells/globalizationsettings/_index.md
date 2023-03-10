@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe GlobalizationSettings
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -48,7 +48,7 @@ Il tipo GlobalizationSettings espone i membri seguenti:
 | [get_table_row_type_of_headers()](/cells/it/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_headers/#) | Ottiene il nome del tipo di righe della tabella costituito dall'intestazione della tabella.<br/> L'impostazione predefinita è "Headers", quindi nella formula "#Headers" rappresenta l'intestazione della tabella.|
 | [get_table_row_type_of_data()](/cells/it/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_data/#) | Ottiene il nome del tipo delle righe della tabella costituite dall'area dati della tabella a cui si fa riferimento.<br/> L'impostazione predefinita è "Dati", quindi nella formula "#Dati" rappresenta l'area dati della tabella.|
 | [get_table_row_type_of_all()](/cells/it/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_all/#) | Ottiene il nome del tipo di righe della tabella costituito da tutte le righe nella tabella di riferimento.<br/>L'impostazione predefinita è "Tutto", quindi nella formula "#Tutto" rappresenta tutte le righe nella tabella di riferimento.|
-| [get_table_row_type_of_totals()](/cells/it/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Ottiene il nome del tipo delle righe della tabella costituite dalla riga totale della tabella a cui si fa riferimento.<br/> L'impostazione predefinita è "Totali", quindi nella formula "#Totali" rappresenta la riga totale della tabella di riferimento.|
+| [get_table_row_type_of_totals()](/cells/it/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Ottiene il nome del tipo di righe della tabella costituito dalla riga totale della tabella a cui si fa riferimento.<br/> L'impostazione predefinita è "Totali", quindi nella formula "#Totali" rappresenta la riga totale della tabella di riferimento.|
 | [get_table_row_type_of_current()](/cells/it/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_current/#) | Ottiene il nome del tipo di righe della tabella costituito dalla riga corrente nella tabella di riferimento.<br/> L'impostazione predefinita è "This Row", quindi nella formula "#This Row" rappresenta la riga corrente nella tabella di riferimento.|
 | [get_error_value_string(err)](/cells/it/python-net/aspose.cells/globalizationsettings/get_error_value_string/#str) | Ottiene il valore della stringa di visualizzazione per il valore di errore della cella|
 | [get_boolean_value_string(bv)](/cells/it/python-net/aspose.cells/globalizationsettings/get_boolean_value_string/#bool) | Ottiene il valore della stringa di visualizzazione per il valore booleano della cella|
@@ -58,7 +58,7 @@ Il tipo GlobalizationSettings espone i membri seguenti:
 | [get_standard_built_in_name(local_name)](/cells/it/python-net/aspose.cells/globalizationsettings/get_standard_built_in_name/#str) | Ottiene il testo standard del nome predefinito in base al testo dipendente dalle impostazioni locali specificato.|
 | [get_standard_header_footer_font_style_name(localfont_style_name)](/cells/it/python-net/aspose.cells/globalizationsettings/get_standard_header_footer_font_style_name/#str) |Ottiene il nome dello stile del carattere inglese standard (regolare, grassetto, corsivo) per intestazione/piè di pagina in base al nome dello stile del carattere locale specificato.|
 | [get_comment_title_name(type)](/cells/it/python-net/aspose.cells/globalizationsettings/get_comment_title_name/#aspose.cells.rendering.CommentTitleType) | Ottiene il nome del titolo del commento dipendente dalle impostazioni locali in base al tipo di titolo del commento.|
-| [compare(v1, v2, ignore_case)](/cells/it/python-net/aspose.cells/globalizationsettings/compare/#str-str-bool) | Confronta due valori di stringa in base a determinate regole di confronto.|
+| [compare(v1, v2, ignore_case)](/cells/it/python-net/aspose.cells/globalizationsettings/compare/#str-str-bool) | Confronta due valori stringa in base a determinate regole di confronto.|
 
 
 

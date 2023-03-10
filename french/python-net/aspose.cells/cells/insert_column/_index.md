@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_column méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def insert_column(self, column_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 
@@ -34,7 +34,7 @@ def insert_column(self, column_index, update_reference):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 | update_reference | bool |Indique si les références dans d'autres feuilles de calcul seront mises à jour.|

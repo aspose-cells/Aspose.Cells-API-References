@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_format mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  html_format mülk
 
 Web sorgu verilerini HTML kaynağından biçimlendirme nasıl yapılır?
-worksheet.Relevant, sourceData True olduğunda.
+çalışma kağıdı. sourceData True olduğunda geçerlidir.
 ###  Tanım:
 ```python
 @property

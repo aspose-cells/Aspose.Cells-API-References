@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_ole_object_with_linked_image método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,12 +22,12 @@ def add_ole_object_with_linked_image(self, upper_left_row, upper_left_column, he
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | upper_left_column | int | Índice de la columna superior izquierda.|
-| height | int | La altura de la forma.|
-| width | int | El ancho de la forma.|
+| height | int | La altura de la forma. En unidad de píxeles|
+| width | int | El ancho de la forma. En unidad de píxeles|
 | source_full_name | str | La ruta y el nombre del archivo de origen de la imagen vinculada|
 
 

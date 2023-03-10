@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -38,13 +38,13 @@ FormatConditions может содержать до трех условных ф
 | [remove_area(index)](/cells/ru/python-net/aspose.cells/formatconditioncollection/remove_area/#int) | Удаляет условно отформатированный диапазон ячеек по индексу.|
 | [remove_area(start_row, start_column, total_rows, total_columns)](/cells/ru/python-net/aspose.cells/formatconditioncollection/remove_area/#int-int-int-int) | Удалить условное форматирование в диапазоне.|
 | [add(cell_area, type, operator_type, formula1, formula2)](/cells/ru/python-net/aspose.cells/formatconditioncollection/add/#CellArea-FormatConditionType-OperatorType-str-str) | Добавляет условие форматирования и диапазон ячеек в FormatConditions.<br/>FormatConditions может содержать до трех условных форматов.<br/> Ссылки на другие листы в формулах условного форматирования не допускаются.|
-| [add_area(cell_area)](/cells/ru/python-net/aspose.cells/formatconditioncollection/add_area/#CellArea) | Добавляет условно отформатированный диапазон ячеек.|
-| [get_cell_area(index)](/cells/ru/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | Получает условно отформатированный диапазон ячеек по индексу.|
+| [add_area(cell_area)](/cells/ru/python-net/aspose.cells/formatconditioncollection/add_area/#CellArea) | Добавляет диапазон ячеек с условным форматированием.|
+| [get_cell_area(index)](/cells/ru/python-net/aspose.cells/formatconditioncollection/get_cell_area/#int) | Получает диапазон ячеек с условным форматированием по индексу.|
 | [remove_condition(index)](/cells/ru/python-net/aspose.cells/formatconditioncollection/remove_condition/#int) | Удаляет условие форматирования по индексу.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

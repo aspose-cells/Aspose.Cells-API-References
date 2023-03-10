@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo last_index_of
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occo
 
 ###  ritorna
 
-L'indice in base zero dell'ultima occorrenza di value all'interno dell'intero elenco di matrici, se trovato; in caso contrario, -1.
+L'indice in base zero dell'ultima occorrenza di value all'interno dell'intero elenco di array, se trovato; altrimenti, -1.
 
 
 ```python
@@ -22,9 +22,9 @@ def last_index_of(self, item):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| item | [XmlMap](/cells/it/python-net/aspose.cells/xmlmap) | L'oggetto da individuare nell'elenco dell'array.|
+| item | [XmlMap](/cells/it/python-net/aspose.cells/xmlmap) | L'oggetto da individuare nell'elenco dell'array. Il valore può essere nullo.|
 
 
 ##  last_index_of(item, index) {#XmlMap-int}
@@ -33,7 +33,7 @@ Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occo
 
 ###  ritorna
 
-L'indice in base zero dell'ultima occorrenza di value all'interno dell'intervallo di elementi nell'elenco di matrici che si estende dal primo elemento a startIndex, se trovato; in caso contrario, -1.
+L'indice in base zero dell'ultima occorrenza di value all'interno dell'intervallo di elementi nell'elenco di matrici che si estende dal primo elemento a startIndex, se trovato; altrimenti, -1.
 
 
 ```python
@@ -42,9 +42,9 @@ def last_index_of(self, item, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| item | [XmlMap](/cells/it/python-net/aspose.cells/xmlmap) | L'oggetto da individuare nell'elenco dell'array.|
+| item | [XmlMap](/cells/it/python-net/aspose.cells/xmlmap) | L'oggetto da individuare nell'elenco dell'array. Il valore può essere nullo.|
 | index | int | L'indice iniziale in base zero della ricerca all'indietro.|
 
 
@@ -54,7 +54,7 @@ Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occo
 
 ###  ritorna
 
-L'indice in base zero dell'ultima occorrenza di value all'interno dell'intervallo di elementi nell'elenco System.Collections.Array che contiene count number di elementi e termina con startIndex, se trovato, altrimenti -1.
+Indice in base zero dell'ultima occorrenza di value all'interno dell'intervallo di elementi in System.Collections. Elenco di array che contiene count number di elementi e termina con startIndex, se trovato; altrimenti, -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def last_index_of(self, item, index, count):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| item | [XmlMap](/cells/it/python-net/aspose.cells/xmlmap) | L'oggetto da individuare nell'elenco dell'array.|
+| item | [XmlMap](/cells/it/python-net/aspose.cells/xmlmap) | L'oggetto da individuare nell'elenco dell'array. Il valore può essere nullo.|
 | index | int | L'indice iniziale in base zero della ricerca all'indietro.|
 | count | int | Il numero di elementi nella sezione da cercare.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Zone de décalage.|
 | shift_type | [ShiftType](/cells/fr/python-net/aspose.cells/shifttype) | Option de décalage des cellules.|
@@ -35,7 +35,7 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Zone de décalage.|
 | shift_number | int | Nombre de lignes ou de colonnes à insérer.|
@@ -53,7 +53,7 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Zone de décalage.|
 | shift_number | int | Nombre de lignes ou de colonnes à insérer.|

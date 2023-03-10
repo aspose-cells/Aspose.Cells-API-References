@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_grid_style propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style propriété
 
-Indique s'il faut appliquer le style de la vue de grille aux cellules.
+Indique si le style de la vue grille est appliqué aux cellules.
 ###  Définition:
 ```python
 @property

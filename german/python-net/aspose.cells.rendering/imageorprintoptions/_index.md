@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageOrPrintOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -30,7 +30,7 @@ Der Typ ImageOrPrintOptions macht die folgenden Member verfügbar:
 | [tiff_compression](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression) | Ruft den Komprimierungstyp ab oder legt diesen fest, der nur angewendet wird, wenn Seiten im Format `Tiff` gespeichert werden.|
 | [tiff_color_depth](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth) | Ruft die Bittiefe ab oder legt sie so fest, dass sie nur angewendet wird, wenn Seiten im Format `Tiff` gespeichert werden.|
 | [printing_page](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/printing_page) | Gibt an, welche Seiten nicht gedruckt werden.|
-| [quality](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Ruft einen Wert ab, der die Qualität der generierten Bilder bestimmt, oder legt diesen fest<br/>nur anzuwenden, wenn Seiten im Format `Jpeg` gespeichert werden.|
+| [quality](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Ruft einen Wert ab, der die Qualität der generierten Bilder bestimmt, oder legt diesen fest<br/>nur anzuwenden, wenn Seiten im Format `Jpeg` gespeichert werden. Der Standardwert ist 100|
 | [image_type](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/image_type) | Ruft das Format der generierten Bilder ab oder legt es fest.<br/> Standardwert: PNG.|
 | [is_cell_auto_fit](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/is_cell_auto_fit) | Gibt an, ob die Breite und Höhe der Zellen automatisch an den Zellenwert angepasst wird.<br/> Der Standardwert ist falsch.|
 | [one_page_per_sheet](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/one_page_per_sheet) | Wenn OnePagePerSheet true ist, wird der gesamte Inhalt eines Blatts als Ergebnis nur auf einer Seite ausgegeben.<br/> Die Papiergröße von pagesetup und die anderen Einstellungen von pagesetup werden ungültig<br/> wird noch wirksam.|
@@ -44,7 +44,7 @@ Der Typ ImageOrPrintOptions macht die folgenden Member verfügbar:
 | [smoothing_mode](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode) | Legt fest, ob Glättung (Antialiasing) auf Linien und Kurven sowie die Kanten gefüllter Bereiche angewendet wird.<br/> Der Standardwert ist SmoothingMode.None|
 | [transparent](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/transparent) | Gibt an, ob der Hintergrund des generierten Bildes transparent sein soll.|
 | [pixel_format](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/pixel_format) |Ruft das Pixelformat für die generierten Bilder ab oder legt es fest.|
-| [warning_callback](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
+| [warning_callback](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
 | [page_saving_callback](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/page_saving_callback) | Steuerung/Fortschritt des Seitenspeichervorgangs anzeigen.|
 | [is_font_substitution_char_granularity](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/is_font_substitution_char_granularity) | Gibt an, ob die Zeichenschrift nur dann ersetzt werden soll, wenn die Zellenschrift nicht damit kompatibel ist.|
 | [page_index](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/page_index) | Ruft den 0-basierten Index der ersten zu speichernden Seite ab oder legt diesen fest.|
@@ -57,7 +57,7 @@ Der Typ ImageOrPrintOptions macht die folgenden Member verfügbar:
 | [text_cross_type](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/text_cross_type) | Ruft die Anzeige des Texttyps ab oder legt diese fest, wenn die Textbreite größer als die Zellenbreite ist.|
 | [emf_type](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/emf_type) | Ruft einen EmfType ab oder legt diesen fest, der das Format der Metadatei angibt.<br/> Der Standardwert ist EmfPlusDual.|
 | [default_edit_language](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/default_edit_language) | Ruft die Standardbearbeitungssprache ab oder legt sie fest.|
-| [sheet_set](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/sheet_set) |Ruft die zu rendernden Blätter ab oder legt sie fest. Standardmäßig sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).|
+| [sheet_set](/cells/de/python-net/aspose.cells.rendering/imageorprintoptions/sheet_set) |Ruft die zu rendernden Blätter ab oder legt diese fest. Standard sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).|
 
 
 ###  Methoden
@@ -67,7 +67,7 @@ Der Typ ImageOrPrintOptions macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

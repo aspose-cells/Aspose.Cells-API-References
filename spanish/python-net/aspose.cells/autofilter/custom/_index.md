@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def custom(self, field_index, operator_type1, criteria1):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | field_index | int | El desplazamiento entero del campo en el que desea basar el filtro<br/> (desde la izquierda de la lista; el campo más a la izquierda es el campo 0).|
 | operator_type1 | [FilterOperatorType](/cells/es/python-net/aspose.cells/filteroperatortype) | El tipo de operador de filtro|
@@ -36,7 +36,7 @@ def custom(self, field_index, operator_type1, criteria1, is_and, operator_type2,
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | field_index | int | El desplazamiento entero del campo en el que desea basar el filtro<br/> (desde la izquierda de la lista; el campo más a la izquierda es el campo 0).|
 | operator_type1 | [FilterOperatorType](/cells/es/python-net/aspose.cells/filteroperatortype) | El tipo de operador de filtro|

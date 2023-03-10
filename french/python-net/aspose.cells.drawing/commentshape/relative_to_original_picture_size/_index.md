@@ -1,4 +1,4 @@
-﻿---
+---
 title: relative_to_original_picture_size propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si la forme est relative à la taille de l'image d'origine.
 
-###  Exemples
+###  Exemple
 
 ```python
 

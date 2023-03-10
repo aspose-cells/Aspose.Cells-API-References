@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFontSource sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ FileFontSource türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/tr/python-net/aspose.cells/filefontsource/__init__/#str) | Müdür.|
+| [FileFontSource(file_path)](/cells/tr/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
 
 
 ###  Özellikler

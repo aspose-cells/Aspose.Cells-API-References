@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_label_in_chart Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

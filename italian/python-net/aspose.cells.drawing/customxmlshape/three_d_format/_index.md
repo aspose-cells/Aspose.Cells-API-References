@@ -1,4 +1,4 @@
-﻿---
+---
 title: three_d_format proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il formato 3D della forma.
 
-###  Esempi
+###  Esempio
 
 ```python
 

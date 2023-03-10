@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeTextAlignment sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ ShapeTextAlignment türü aşağıdaki üyeleri gösterir:
 | [text_vertical_type](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Metin yönünü alır ve ayarlar.|
 | [auto_size](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Şeklin boyutunun içeriğine göre otomatik olarak ayarlanıp ayarlanmadığını gösterir.|
 | [text_shape_type](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Metnin dönüştürme türünü alır ve ayarlar.|
-| [top_margin_pt](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Üst marjı Puan birimi cinsinden verir|
+| [top_margin_pt](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Puan birimi cinsinden üst marjı verir|
 | [bottom_margin_pt](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Alt kenar boşluğunu Puan birimi cinsinden verir|
 | [left_margin_pt](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Sol kenar boşluğunu Puan birimi cinsinden verir|
 | [right_margin_pt](/cells/tr/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Sağ kenar boşluğunu Puan birimi cinsinden verir|
@@ -34,7 +34,7 @@ ShapeTextAlignment türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

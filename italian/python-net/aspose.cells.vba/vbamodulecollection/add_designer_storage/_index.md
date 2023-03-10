@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_designer_storage
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def add_designer_storage(self, name, data):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str |  |
 | data | bytes |  |

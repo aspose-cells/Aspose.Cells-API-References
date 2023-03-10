@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_error_check метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-вернуть true, если будет проверен данный тип ошибки (для ячейки будет показан зеленый треугольник, если проверка не удалась).
+вернуть true, если данный тип ошибки будет проверен (для ячейки будет показан зеленый треугольник, если проверка не удалась).
 
 
 ```python
@@ -22,7 +22,7 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/ru/python-net/aspose.cells/errorchecktype) | тип ошибки можно проверить|
 

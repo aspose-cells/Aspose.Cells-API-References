@@ -1,4 +1,4 @@
-﻿---
+---
 title: field_list_sort_ascending Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterColumn Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/filtercolumn/
 is_root: false
 ---
 ##  FilterColumn Klasse
-Stellt einen Filter für eine einzelne Spalte dar.
+Stellt einen Filter für eine einzelne Spalte dar. Das Filter-Objekt ist ein Mitglied der Filters-Auflistung
 
 
 

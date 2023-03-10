@@ -1,4 +1,4 @@
-﻿---
+---
 title: WarningType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | FONT_SUBSTITUTION | Тип предупреждения о замене шрифта<br/> когда шрифт не найден, может быть получен этот тип предупреждения.|
 | DUPLICATE_DEFINED_NAME |В файле найдено повторяющееся имя.|
-| UNSUPPORTED_FILE_FORMAT | Неподдерживаемые форматы файлов.|
+| UNSUPPORTED_FILE_FORMAT | Неподдерживаемый формат файла.|
 | INVALID_TEXT_OF_DEFINED_NAME | Недопустимый текст определенного имени.|
 | INVALID_FONT_NAME | Недопустимое имя шрифта.|
 | INVALID_AUTO_FILTER_RANGE | Недопустимый диапазон автофильтра.|

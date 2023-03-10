@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ Der Typ Comment macht die folgenden Member verfügbar:
 | [column](/cells/de/python-net/aspose.cells/comment/column) | Ruft den Spaltenindex des Kommentars ab.|
 | [is_threaded_comment](/cells/de/python-net/aspose.cells/comment/is_threaded_comment) | Gibt an, ob dieser Kommentar ein Thread-Kommentar ist.|
 | [threaded_comments](/cells/de/python-net/aspose.cells/comment/threaded_comments) | Ruft die Liste der Thread-Kommentare ab;|
-| [note](/cells/de/python-net/aspose.cells/comment/note) | Stellt den Inhalt von Kommentaren dar.|
+| [note](/cells/de/python-net/aspose.cells/comment/note) | Stellt den Inhalt des Kommentars dar.|
 | [html_note](/cells/de/python-net/aspose.cells/comment/html_note) | Ruft die HTML-Zeichenfolge ab und legt sie fest, die Daten und einige Formate in diesem Kommentar enthält.|
 | [font](/cells/de/python-net/aspose.cells/comment/font) | Ruft die Schriftart des Kommentars ab.|
 | [is_visible](/cells/de/python-net/aspose.cells/comment/is_visible) | Stellt dar, ob der Kommentar sichtbar ist oder nicht.|
@@ -35,8 +35,8 @@ Der Typ Comment macht die folgenden Member verfügbar:
 | [width_cm](/cells/de/python-net/aspose.cells/comment/width_cm) | Stellt die Breite des Kommentars in Zentimetern dar.|
 | [width](/cells/de/python-net/aspose.cells/comment/width) | Stellt die Breite des Kommentars in Pixeleinheiten dar.|
 | [height](/cells/de/python-net/aspose.cells/comment/height) | Stellt die Höhe des Kommentars in Pixeleinheiten dar.|
-| [width_inch](/cells/de/python-net/aspose.cells/comment/width_inch) | Stellt die Breite des Kommentars in Zolleinheiten dar.|
-| [height_inch](/cells/de/python-net/aspose.cells/comment/height_inch) | Stellt die Höhe des Kommentars in Zolleinheiten dar.|
+| [width_inch](/cells/de/python-net/aspose.cells/comment/width_inch) | Stellt die Breite des Kommentars in Zoll dar.|
+| [height_inch](/cells/de/python-net/aspose.cells/comment/height_inch) | Stellt die Höhe des Kommentars in Zoll dar.|
 
 
 ###  Methoden

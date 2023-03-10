@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyicideki her sütunun genişliğini punto cinsinden döndürür veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

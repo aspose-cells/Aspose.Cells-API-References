@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_text_box_in_chart
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_text_box_in_chart(self, top, left, height, width):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | top | int | يمثل الإزاحة الرأسية لمربع النص من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.|
 | left | int | يمثل الإزاحة الرأسية لمربع النص من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.|

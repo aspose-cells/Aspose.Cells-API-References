@@ -1,4 +1,4 @@
-﻿---
+---
 title: License klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,8 +23,8 @@ Typen License avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [set_license(license_name)](/cells/sv/python-net/aspose.cells/license/set_license/#str) | Licensierar komponenterna.|
-| [set_license(stream)](/cells/sv/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Licensierar komponenterna.|
+| [set_license(license_name)](/cells/sv/python-net/aspose.cells/license/set_license/#str) | Licensierar komponenten.|
+| [set_license(stream)](/cells/sv/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Licensierar komponenten.|
 
 
 

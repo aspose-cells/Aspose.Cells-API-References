@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,10 +18,10 @@ is_root: false
 | [WebExtensionCollection](/cells/sv/python-net/aspose.cells.webextensions/webextensioncollection) | Representerar listan över webbtillägg.|
 | [WebExtensionProperty](/cells/sv/python-net/aspose.cells.webextensions/webextensionproperty) | Representerar en anpassad egenskap för Office-tillägg.|
 | [WebExtensionPropertyCollection](/cells/sv/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Representerar listan över webbtilläggsegenskaper.|
-| [WebExtensionReference](/cells/sv/python-net/aspose.cells.webextensions/webextensionreference) | Representerar identifierar leverantörens plats och version av tillägget.|
+| [WebExtensionReference](/cells/sv/python-net/aspose.cells.webextensions/webextensionreference) | Representerar identifiera leverantörens plats och version av tillägget.|
 | [WebExtensionReferenceCollection](/cells/sv/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Representerar listan över webbtilläggsreferenser.|
 | [WebExtensionTaskPane](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpane) | Representerar ett kvarstående objekt i aktivitetsfönstret.|
-| [WebExtensionTaskPaneCollection](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Representerar listan med uppgiftsrutor.|
+| [WebExtensionTaskPaneCollection](/cells/sv/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Representerar listan över aktivitetsfönstret.|
 
 
 ###  Uppräkningar

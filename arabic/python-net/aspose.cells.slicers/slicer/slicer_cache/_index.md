@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache الملكية
 
-تُرجع كائن SlicerCache المرتبط بقطعة شرائح.
+تُرجع كائن SlicerCache المرتبط بقطعة شرائح. يقرأ فقط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

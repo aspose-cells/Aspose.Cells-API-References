@@ -1,4 +1,4 @@
-﻿---
+---
 title: id_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar och ställer in namnet på id-kolumnen.
 
 ###  Anmärkningar
 
-Om den här egenskapen är inställd kommer en kolumn att infogas med ett automatiskt inkrement int-värde.
+Om den här egenskapen är inställd kommer en kolumn att infogas med automatiskt inkrement int-värde.
 ###  Definition:
 ```python
 @property

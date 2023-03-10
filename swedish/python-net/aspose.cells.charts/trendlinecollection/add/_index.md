@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/sv/python-net/aspose.cells.charts/trendlinetype) | Trendlinjetyp.|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/sv/python-net/aspose.cells.charts/trendlinetype) | Trendlinjetyp.|
 | name | str | Trendlinjenamn.|

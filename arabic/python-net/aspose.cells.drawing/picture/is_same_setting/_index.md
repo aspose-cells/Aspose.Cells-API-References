@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_same_setting
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | obj | any |  |
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

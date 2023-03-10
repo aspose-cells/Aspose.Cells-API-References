@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_scale الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -12,7 +12,7 @@ is_root: false
 الحصول على مقياس الارتفاع وتعيينه ، بوحدة نسبة مئوية من ارتفاع الصورة الأصلي.
 إذا لم يكن الشكل صورة ، تقوم الخاصية HeightScale بإرجاع 100 فقط ؛
 
-###  أمثلة
+###  مثال
 
 ```python
 

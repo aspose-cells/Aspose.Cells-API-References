@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة binary_search
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-فهرس القيمة على أساس الصفر في قائمة المصفوفات التي تم فرزها ، إذا تم العثور على عنصر ؛ خلاف ذلك ، رقم سالب ، وهو مكمل بت لمؤشر العنصر التالي الأكبر من القيمة ، أو إذا لم يكن هناك عنصر أكبر ، تكملة البتات لقائمة الصفيف العدد.
+فهرس القيمة الصفري في قائمة الصفيف التي تم فرزها ، إذا تم العثور على العنصر ؛ خلاف ذلك ، رقم سالب ، وهو تكملة البتات لفهرس العنصر التالي الأكبر من القيمة ، أو إذا لم يكن هناك عنصر أكبر ، فإن تكملة البت لقائمة الصفيف العدد.
 
 
 ```python
@@ -22,9 +22,9 @@ def binary_search(self, item):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| item | [WebExtensionBinding](/cells/ar/python-net/aspose.cells.webextensions/webextensionbinding) | النظام. كائن لتحديد مكانه.|
+| item | [WebExtensionBinding](/cells/ar/python-net/aspose.cells.webextensions/webextensionbinding) | System.Object لتحديد موقع. يمكن أن تكون القيمة فارغة.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSettingCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -41,7 +41,7 @@ FontSettingCollection türü aşağıdaki üyeleri gösterir:
 | [append_text(text)](/cells/tr/python-net/aspose.cells.drawing.texts/fontsettingcollection/append_text/#str) | Metni ekler.|
 | [insert_text(index, text)](/cells/tr/python-net/aspose.cells.drawing.texts/fontsettingcollection/insert_text/#int-str) | Dizini konuma yerleştirin.|
 | [delete_text(index, count)](/cells/tr/python-net/aspose.cells.drawing.texts/fontsettingcollection/delete_text/#int-int) | Bazı karakterleri silin.|
-| [format(start_index, length, font, flag)](/cells/tr/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Metni yazı tipi ayarlarıyla biçimlendirin.|
+| [format(start_index, length, font, flag)](/cells/tr/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Metni yazı tipi ayarıyla biçimlendirin.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.drawing.texts/fontsettingcollection/binary_search/#FontSetting) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type fastighet
 
-Hämtar pivotfälten type.
+Hämtar PivotFields type.
 ###  Definition:
 ```python
 @property

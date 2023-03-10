@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_picture_in_chart方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -22,7 +22,7 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | top | int |表示形状相对于图表区域左上角的垂直偏移量，以图表区域的 1/4000 为单位。|
 | left | int |表示形状相对于图表区域左上角的水平偏移量，以图表区域的 1/4000 为单位。|

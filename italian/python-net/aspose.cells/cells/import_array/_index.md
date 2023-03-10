@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo import_array
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def import_array(self, string_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | string_array | list | Matrice di stringhe.|
 | first_row | int | Il numero di riga della prima cella in cui importare.|
@@ -37,7 +37,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | int_array | list | Matrice intera.|
 | first_row | int | Il numero di riga della prima cella in cui importare.|
@@ -56,7 +56,7 @@ def import_array(self, double_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | double_array | list | Doppia matrice.|
 | first_row | int | Il numero di riga della prima cella in cui importare.|

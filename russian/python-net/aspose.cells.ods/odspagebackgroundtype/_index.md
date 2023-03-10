@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackgroundType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType перечисление
-Представляет тип фона страницы коэффициентов.
+Представляет тип фона страницы ods.
 
 
 

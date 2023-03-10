@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo import_csv
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,10 +18,10 @@ def import_csv(self, file_name, options, first_row, first_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | Il nome del file CSV.|
-| options | [TxtLoadOptions](/cells/it/python-net/aspose.cells/txtloadoptions) | Le opzioni di caricamento per la lettura di file di testo|
+| options | [TxtLoadOptions](/cells/it/python-net/aspose.cells/txtloadoptions) | Le opzioni di caricamento per la lettura del file di testo|
 | first_row | int | Il numero di riga della prima cella in cui importare.|
 | first_column | int | Il numero di colonna della prima cella in cui importare.|
 
@@ -37,10 +37,10 @@ def import_csv(self, stream, options, first_row, first_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di file CSV.|
-| options | [TxtLoadOptions](/cells/it/python-net/aspose.cells/txtloadoptions) | Le opzioni di caricamento per la lettura di file di testo|
+| options | [TxtLoadOptions](/cells/it/python-net/aspose.cells/txtloadoptions) | Le opzioni di caricamento per la lettura del file di testo|
 | first_row | int | Il numero di riga della prima cella in cui importare.|
 | first_column | int | Il numero di colonna della prima cella in cui importare.|
 
@@ -56,7 +56,7 @@ def import_csv(self, file_name, splitter, convert_numeric_data, first_row, first
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | Il nome del file CSV.|
 | splitter | str | Lo spaccalegna|
@@ -76,7 +76,7 @@ def import_csv(self, stream, splitter, convert_numeric_data, first_row, first_co
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di file CSV.|
 | splitter | str | Lo spaccalegna|

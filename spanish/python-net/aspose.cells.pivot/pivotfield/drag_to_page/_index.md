@@ -1,4 +1,4 @@
-﻿---
+---
 title: drag_to_page propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

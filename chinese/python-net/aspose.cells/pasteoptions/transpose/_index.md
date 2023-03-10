@@ -1,6 +1,6 @@
-﻿---
+---
 title: transpose 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 70
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## transpose 属性
 
-粘贴范围时为 transpose 行和列。
+粘贴范围时为 transpose 行和列。默认值为假。
 ### 定义：
 ```python
 @property

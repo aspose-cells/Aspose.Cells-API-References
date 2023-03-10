@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_compatibility mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility mülk
 
-Çalışma kitaplarını kaydederken önceki sürümlerle uyumluluğun kontrol edilip edilmediğini gösterir.
+Çalışma kitabını kaydederken önceki sürümlerle uyumluluğun kontrol edilip edilmediğini gösterir.
 
 ###  Notlar
 

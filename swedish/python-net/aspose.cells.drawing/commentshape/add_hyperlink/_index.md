@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_hyperlink metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_hyperlink(self, address):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | address | str | Adress till hyperlänken.|
 

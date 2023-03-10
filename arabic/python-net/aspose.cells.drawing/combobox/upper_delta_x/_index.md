@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_x الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,9 +13,9 @@ is_root: false
 
 ###  ملاحظات
 
-نطاق القيم من 0 إلى 1024.
+نطاق القيمة من 0 إلى 1024.
 
-###  أمثلة
+###  مثال
 
 ```python
 

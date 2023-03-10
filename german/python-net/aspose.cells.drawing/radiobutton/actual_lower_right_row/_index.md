@@ -1,4 +1,4 @@
-﻿---
+---
 title: actual_lower_right_row Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  actual_lower_right_row Eigentum
 
-Holen Sie sich die tatsächliche untere Reihe.
+Holen Sie sich die tatsächliche untere Zeile.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

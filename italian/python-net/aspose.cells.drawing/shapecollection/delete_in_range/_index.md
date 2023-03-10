@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo delete_in_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,11 +18,11 @@ def delete_in_range(self, ca):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) |L'intervallo Se le forme sono contenute nell'intervallo, verranno rimosse.|
+| ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) |L'intervallo. Se le forme sono contenute nell'intervallo, verranno rimosse.|
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_display fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display fastighet
 
-Representerar texten som ska visas för den angivna hyperlänken.
+Representerar texten som ska visas för den angivna hyperlänken. Standardvärdet är adressen till hyperlänken.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_macros mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Makroların tutulup tutulmadığını gösterir;
 
 ###  Notlar
 
-Yalnızca çalışma kitaplarını kopyalamak için.
+Yalnızca çalışma kitabını kopyalamak için.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: scan_sub_folders mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextureType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -31,7 +31,7 @@ TextureType türü aşağıdaki üyeleri gösterir:
 | OAK | Meşe doku tipini temsil eder.|
 | PAPER_BAG | Kağıt Torba doku tipini temsil eder.|
 | PAPYRUS | Papirüs doku tipini temsil eder.|
-| PARCHMENT | Parşömen doku tipini temsil eder.|
+| PARCHMENT | Parşömen doku türünü temsil eder.|
 | PINK_TISSUE_PAPER | Pembe Doku Kağıdı doku tipini temsil eder.|
 | PURPLE_MESH | Purple Mesh doku tipini temsil eder.|
 | RECYCLED_PAPER | Geri Dönüştürülmüş Kağıt doku türünü temsil eder.|

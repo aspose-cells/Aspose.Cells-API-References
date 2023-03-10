@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_columns Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/text_to_columns/
 is_root: false
 ---
 ##  text_to_columns(row, column, total_rows, options) {#int-int-int-TxtLoadOptions}
-Teilt den Text in den Spalten in Spalten auf.
+Teilt den Text in der Spalte in Spalten auf.
 
 
 

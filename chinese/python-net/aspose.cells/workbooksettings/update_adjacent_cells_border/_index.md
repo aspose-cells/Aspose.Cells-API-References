@@ -1,6 +1,6 @@
-﻿---
+---
 title: update_adjacent_cells_border 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 610
@@ -14,7 +14,7 @@ is_root: false
 ### 评论
 
 默认值为假。
-例如：单元格A1的底部边框被更新，
+例如：更新A1单元格的下边框，
 单元格 A2 的上边框也应更改。
 ### 定义：
 ```python

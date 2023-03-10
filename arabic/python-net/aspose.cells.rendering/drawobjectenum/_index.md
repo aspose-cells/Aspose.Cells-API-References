@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد DrawObjectEnum
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

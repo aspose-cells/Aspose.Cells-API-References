@@ -1,4 +1,4 @@
-﻿---
+---
 title: move_to_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,14 +18,14 @@ def move_to_range(self, upper_left_row, upper_left_column, lower_right_row, lowe
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | upper_left_column | int | Index de la colonne en haut à gauche.|
 | lower_right_row | int | Index de ligne en bas à droite|
 | lower_right_column | int | Index de la colonne en bas à droite|
 
-###  Exemples
+###  Exemple
 
 ```python
 

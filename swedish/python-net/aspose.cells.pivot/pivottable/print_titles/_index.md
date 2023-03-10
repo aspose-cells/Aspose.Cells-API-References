@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_titles fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles fastighet
 
 Anger om utskriftstitlarna för kalkylbladet är inställda
-i pivottabellsrapporten.
+i pivottabellsrapporten. Standardvärdet är falskt.
 ###  Definition:
 ```python
 @property

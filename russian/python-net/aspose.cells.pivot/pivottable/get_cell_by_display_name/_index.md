@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_by_display_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_cell_by_display_name(self, display_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | display_name | str | DisplayName PivotField|
 

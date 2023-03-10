@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [key3](/cells/ru/python-net/aspose.cells/datasorter/key3) | Представляет индекс третьего отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...).|
 | [order3](/cells/ru/python-net/aspose.cells/datasorter/order3) | Представляет порядок сортировки третьего ключа.|
 | [sort_left_to_right](/cells/ru/python-net/aspose.cells/datasorter/sort_left_to_right) | True означает, что сортировка выполняется слева направо.<br/>False означает, что сортировка осуществляется сверху вниз.<br/> Значение по умолчанию неверно.|
-| [case_sensitive](/cells/ru/python-net/aspose.cells/datasorter/case_sensitive) | Получает и устанавливает, учитывается ли регистр при сравнении строк.|
+| [case_sensitive](/cells/ru/python-net/aspose.cells/datasorter/case_sensitive) | Получает и устанавливает, учитывается ли регистр при сравнении строки.|
 | [sort_as_number](/cells/ru/python-net/aspose.cells/datasorter/sort_as_number) | Указывает, сортируется ли что-либо, похожее на число.|
 
 
@@ -44,7 +44,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: StyleFlag sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -49,7 +49,7 @@ StyleFlag türü aşağıdaki üyeleri gösterir:
 | [wrap_text](/cells/tr/python-net/aspose.cells/styleflag/wrap_text) | Metni kaydır ayarı uygulanacaktır.|
 | [shrink_to_fit](/cells/tr/python-net/aspose.cells/styleflag/shrink_to_fit) | Sığdırmak için küçült ayarı uygulanacaktır.|
 | [text_direction](/cells/tr/python-net/aspose.cells/styleflag/text_direction) | Metin yönü ayarı uygulanacaktır.|
-| [cell_shading](/cells/tr/python-net/aspose.cells/styleflag/cell_shading) | Cell gölgeleme ayarı uygulanacaktır.|
+| [cell_shading](/cells/tr/python-net/aspose.cells/styleflag/cell_shading) | Cell gölgelendirme ayarı uygulanacaktır.|
 | [locked](/cells/tr/python-net/aspose.cells/styleflag/locked) | Kilitli ayarı uygulanacaktır.|
 | [hide_formula](/cells/tr/python-net/aspose.cells/styleflag/hide_formula) | Formülü gizle ayarı uygulanacaktır.|
 | [quote_prefix](/cells/tr/python-net/aspose.cells/styleflag/quote_prefix) | Formülü gizle ayarı uygulanacaktır.|

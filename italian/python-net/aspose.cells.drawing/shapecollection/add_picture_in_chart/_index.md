@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_picture_in_chart
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Aggiunge un'immagine al grafico.
 
 ###  ritorna
 
-Restituisce un oggetto immagine.
+Restituisce un oggetto Picture.
 
 
 ```python
@@ -22,7 +22,7 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | top | int |Rappresenta l'offset verticale della forma dall'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|
 | left | int | Rappresenta l'offset orizzontale della forma dall'angolo superiore sinistro in unità di 1/4000 dell'area del grafico.|

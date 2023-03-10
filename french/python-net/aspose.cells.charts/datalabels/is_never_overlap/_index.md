@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_never_overlap propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_never_overlap propriété
 
-Indique si les étiquettes de données ne se chevauchent jamais. (Pour les graphiques à secteurs)
+Indique si les étiquettes de données ne se chevauchent jamais. (Pour le graphique à secteurs)
 ###  Définition:
 ```python
 @property

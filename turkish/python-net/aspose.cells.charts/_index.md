@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/tr/python-net/aspose.cells.charts/chartcollection) | [Chart](/cells/tr/python-net/aspose.cells.charts/chart) nesne koleksiyonunu kapsüller.|
 | [ChartDataTable](/cells/tr/python-net/aspose.cells.charts/chartdatatable) | Bir grafik veri tablosunu temsil eder.|
 | [ChartFrame](/cells/tr/python-net/aspose.cells.charts/chartframe) | Bir grafikte çerçeve nesnesini temsil eden nesneyi kapsüller.|
-| [ChartGlobalizationSettings](/cells/tr/python-net/aspose.cells.charts/chartglobalizationsettings) | Grafikler için genelleştirme ayarlarını temsil eder.|
+| [ChartGlobalizationSettings](/cells/tr/python-net/aspose.cells.charts/chartglobalizationsettings) | Grafik için genelleştirme ayarlarını temsil eder.|
 | [ChartPoint](/cells/tr/python-net/aspose.cells.charts/chartpoint) |Grafikteki bir dizideki tek bir noktayı temsil eder.|
 | [ChartPointCollection](/cells/tr/python-net/aspose.cells.charts/chartpointcollection) | Bir serideki tüm noktaları içeren bir koleksiyonu temsil eder.|
 | [ChartTextFrame](/cells/tr/python-net/aspose.cells.charts/charttextframe) | Metin içeren çerçeve nesnesini temsil eden nesneyi kapsüller.|
@@ -39,7 +39,7 @@ is_root: false
 | [SeriesLayoutProperties](/cells/tr/python-net/aspose.cells.charts/serieslayoutproperties) | Seri düzeninin özelliklerini temsil eder.|
 | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) | Mini grafik, verilerin görsel bir temsilini sağlayan bir çalışma sayfası hücresindeki küçük bir grafiği veya grafiği temsil eder.|
 | [SparklineCollection](/cells/tr/python-net/aspose.cells.charts/sparklinecollection) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesne koleksiyonunu kapsüller.|
-| [SparklineGroup](/cells/tr/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) mini grafik grubu halinde düzenlenmiştir. Bir SparklineGroup değişken sayıda mini grafik öğesi içerir.<br/> Mini grafik grubu, mini grafikler için türü, görüntüleme ayarlarını ve eksen ayarlarını belirtir.|
+| [SparklineGroup](/cells/tr/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) mini grup halinde düzenlenmiştir. Bir SparklineGroup değişken sayıda mini grafik öğesi içerir.<br/> Mini grafik grubu, mini grafikler için türü, görüntüleme ayarlarını ve eksen ayarlarını belirtir.|
 | [SparklineGroupCollection](/cells/tr/python-net/aspose.cells.charts/sparklinegroupcollection) | [SparklineGroup](/cells/tr/python-net/aspose.cells.charts/sparklinegroup) nesne koleksiyonunu kapsüller.|
 | [TickLabelItem](/cells/tr/python-net/aspose.cells.charts/ticklabelitem) | Bir Ticklabel öğesinin bilgilerini dahil edin|
 | [TickLabels](/cells/tr/python-net/aspose.cells.charts/ticklabels) | Grafik eksenindeki değer işaretleriyle ilişkili onay işareti etiketlerini temsil eder.|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/tr/python-net/aspose.cells.charts/mapchartlabellayout) | Harita grafiği etiketlerinin düzenini temsil eder.|
 | [MapChartProjectionType](/cells/tr/python-net/aspose.cells.charts/mapchartprojectiontype) | Harita grafiğinin projeksiyon tipini temsil eder.|
 | [MapChartRegionType](/cells/tr/python-net/aspose.cells.charts/mapchartregiontype) | Harita grafiğinin bölge türünü temsil eder.|
-| [PlotDataByType](/cells/tr/python-net/aspose.cells.charts/plotdatabytype) |Satır veya sütuna göre çizilen veri türünü temsil eder.|
+| [PlotDataByType](/cells/tr/python-net/aspose.cells.charts/plotdatabytype) |Satır veya sütuna göre veri grafiği türünü temsil eder.|
 | [PlotEmptyCellsType](/cells/tr/python-net/aspose.cells.charts/plotemptycellstype) | Bir grafiğin tüm çizim boş hücre türünü temsil eder.|
 | [QuartileCalculationType](/cells/tr/python-net/aspose.cells.charts/quartilecalculationtype) | Çeyrek hesaplama yöntemlerini temsil eder.|
 | [SparklineAxisMinMaxType](/cells/tr/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Mini grafik dikey ekseni için minimum ve maksimum değer türlerini temsil eder.|

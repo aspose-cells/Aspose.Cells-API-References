@@ -1,4 +1,4 @@
-﻿---
+---
 title: un_freeze_panes метод
 second_title: Aspose.Cells for Python via .NET API
 description:

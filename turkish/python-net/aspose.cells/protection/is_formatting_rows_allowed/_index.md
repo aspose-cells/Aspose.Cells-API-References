@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_rows_allowed mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Korumalı bir çalışma sayfasında satırların biçimlendirilmesine izin veri
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen Protection.AllowFormattingRow özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

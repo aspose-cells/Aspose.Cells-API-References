@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_images_as_base64 mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

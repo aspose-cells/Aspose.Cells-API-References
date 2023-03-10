@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeGuideCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/shapeguidecollection/
 is_root: false
 ---
 ##  ShapeGuideCollection sınıfı
-Bir şekil kılavuzları koleksiyonunu kapsüller
+Bir şekil kılavuzu koleksiyonunu kapsüller
 
 
 

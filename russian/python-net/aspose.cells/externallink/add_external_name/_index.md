@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_external_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | text | str | Текст внешнего имени.<br/>Если внешнее имя принадлежит рабочему листу, текст должен иметь вид Лист1!Текст.|
-| refer_to | str | ReferTo внешнего имени.|
+| refer_to | str | ReferTo внешнего имени. Это должна быть ячейка или диапазон.|
 
 
 

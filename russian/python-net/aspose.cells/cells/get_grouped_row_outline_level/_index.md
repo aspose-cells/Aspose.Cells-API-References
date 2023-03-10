@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_grouped_row_outline_level метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_grouped_row_outline_level(self, row_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 ###  Примечания

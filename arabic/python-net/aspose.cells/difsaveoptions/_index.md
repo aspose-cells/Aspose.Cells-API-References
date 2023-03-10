@@ -1,4 +1,4 @@
-﻿---
+---
 title: DifSaveOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/difsaveoptions/
 is_root: false
 ---
 ##  DifSaveOptions الدرجة
-يمثل خيارات حفظ ملفات dif.
+يمثل خيارات حفظ ملف DIF.
 
 
 
@@ -35,9 +35,9 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/difsaveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/difsaveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/difsaveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/difsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/difsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
 | [refresh_chart_cache](/cells/ar/python-net/aspose.cells/difsaveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/difsaveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
+| [warning_callback](/cells/ar/python-net/aspose.cells/difsaveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/difsaveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
 
 

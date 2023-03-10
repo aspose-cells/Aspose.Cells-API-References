@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_weight propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el peso de la línea de borde de una imagen en unidades de pt.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

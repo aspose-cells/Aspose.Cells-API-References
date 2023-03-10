@@ -1,4 +1,4 @@
-﻿---
+---
 title: size proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size proprietà
 
- Ottiene e imposta size dell'ombra.Intervallo da 0 a 2.0.
+ Ottiene e imposta il numero size dell'ombra. Intervallo da 0 a 2.0.
 Senza significato nell'ombra interiore.
 ###  Definizione:
 ```python

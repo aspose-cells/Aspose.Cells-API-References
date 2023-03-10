@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,10 +23,10 @@ Der Typ ShapeCollection macht die folgenden Member verfügbar:
 ###  Methoden
 | Methode| Beschreibung|
 | :- | :- |
-| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 der Diagrammfläche.|
-| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 der Diagrammfläche.|
+| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 des Diagrammbereichs.|
+| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 des Diagrammbereichs.|
 | [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind Prozentskalen des Diagrammbereichs.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 der Diagrammfläche.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Fügen Sie dem Diagramm eine Form hinzu. Alle Einheiten sind 1/4000 des Diagrammbereichs.|
 | [add_picture(upper_left_row, upper_left_column, lower_right_row, lower_right_column, stream)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-int-int-io.RawIOBase) | Fügt der Sammlung ein Bild hinzu.|
 | [add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-io.RawIOBase-int-int) | Fügt der Sammlung ein Bild hinzu.|
 | [copy_to(array)](/cells/de/python-net/aspose.cells.drawing/shapecollection/copy_to/#list) | Kopiert die gesamte Array-Liste in eine kompatible eindimensionale Array-Liste, beginnend am Anfang der Ziel-Array-Liste.|
@@ -36,7 +36,7 @@ Der Typ ShapeCollection macht die folgenden Member verfügbar:
 | [last_index_of(item)](/cells/de/python-net/aspose.cells.drawing/shapecollection/last_index_of/#Shape) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens in der gesamten Array-Liste zurück.|
 | [last_index_of(item, index)](/cells/de/python-net/aspose.cells.drawing/shapecollection/last_index_of/#Shape-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom ersten Element bis zum angegebenen Index erstreckt.|
 | [last_index_of(item, index, count)](/cells/de/python-net/aspose.cells.drawing/shapecollection/last_index_of/#Shape-int-int) |Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der die angegebene Anzahl von Elementen enthält und am angegebenen Index endet.|
-| [add_copy(source_shape, upper_left_row, top, upper_left_column, left)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_copy/#Shape-int-int-int-int) | Fügt dem Arbeitsblatt eine Form hinzu und kopiert sie.|
+| [add_copy(source_shape, upper_left_row, top, upper_left_column, left)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_copy/#Shape-int-int-int-int) | Fügt eine Form zum Arbeitsblatt hinzu und kopiert sie.|
 | [add_check_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_check_box/#int-int-int-int-int-int) | Fügt dem Arbeitsblatt ein Kontrollkästchen hinzu.|
 | [add_text_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_text_box/#int-int-int-int-int-int) | Fügt dem Arbeitsblatt ein Textfeld hinzu.|
 | [add_spinner(upper_left_row, top, upper_left_column, left, height, width)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_spinner/#int-int-int-int-int-int) | Fügt dem Arbeitsblatt ein Kreisel hinzu.|
@@ -69,16 +69,16 @@ Der Typ ShapeCollection macht die folgenden Member verfügbar:
 | [add_ole_object(upper_left_row, top, upper_left_column, left, height, width, image_data)](/cells/de/python-net/aspose.cells.drawing/shapecollection/add_ole_object/#int-int-int-int-int-int-bytes) | Fügt ein OleObject hinzu.|
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/de/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) | Kopieren Sie alle Kommentare im Bereich.|
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/de/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) | Formen im Bereich in den Zielbereich kopieren.|
-| [delete_in_range(ca)](/cells/de/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Formen im Bereich löschen. Kommentarformen werden nicht gelöscht.|
-| [delete_shape(shape)](/cells/de/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Löschen einer Form. Wenn sich die Form in der Gruppe befindet oder eine Kommentarform ist, wird sie nicht gelöscht.|
+| [delete_in_range(ca)](/cells/de/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Formen im Bereich löschen.Kommentarformen werden nicht gelöscht.|
+| [delete_shape(shape)](/cells/de/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Löschen Sie eine Form. Wenn sich die Form in der Gruppe befindet oder eine Kommentarform ist, wird sie nicht gelöscht.|
 | [group(group_items)](/cells/de/python-net/aspose.cells.drawing/shapecollection/group/#list) | Gruppieren Sie die Formen.|
-| [ungroup(group)](/cells/de/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Heben Sie die Gruppierung der Formelemente auf.|
+| [ungroup(group)](/cells/de/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Hebt die Gruppierung der Formelemente auf.|
 | [update_selected_value()](/cells/de/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) | Aktualisieren Sie den ausgewählten Wert um den Wert der verknüpften Zelle der Formen.|
 | [binary_search(item)](/cells/de/python-net/aspose.cells.drawing/shapecollection/binary_search/#Shape) | Durchsucht die gesamte sortierte Array-Liste mithilfe des Standardvergleichs nach einem Element und gibt den nullbasierten Index des Elements zurück.|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

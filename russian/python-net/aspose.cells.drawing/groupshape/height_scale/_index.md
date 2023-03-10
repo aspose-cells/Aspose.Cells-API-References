@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_scale недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,9 +10,9 @@ is_root: false
 ##  height_scale недвижимость
 
 Получает и задает масштаб высоты в процентах от исходной высоты изображения.
-Если фигура не picture , свойство HeightScale возвращает только 100;
+Если фигура не является изображением, свойство HeightScale возвращает только 100;
 
-###  Примеры
+###  Пример
 
 ```python
 

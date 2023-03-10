@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_formula_array yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/import_formula_array/
 is_root: false
 ---
 ##  import_formula_array(string_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Bir dizi formülü bir çalışma sayfasına aktarır.
+Bir formül dizisini bir çalışma sayfasına aktarır.
 
 
 
@@ -18,7 +18,7 @@ def import_formula_array(self, string_array, first_row, first_column, is_vertica
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | string_array | list | Formül dizisi.|
 | first_row | int | İçe aktarılacak ilk hücrenin satır numarası.|

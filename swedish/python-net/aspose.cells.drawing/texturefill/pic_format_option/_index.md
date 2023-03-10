@@ -1,4 +1,4 @@
-﻿---
+---
 title: pic_format_option fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

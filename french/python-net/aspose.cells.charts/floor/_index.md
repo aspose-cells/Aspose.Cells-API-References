@@ -1,4 +1,4 @@
-﻿---
+---
 title: Floor classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -32,7 +32,7 @@ Le type Floor expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import License, Workbook

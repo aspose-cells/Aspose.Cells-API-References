@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_same_setting méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing/listbox/is_same_setting/
 is_root: false
 ---
 ##  is_same_setting(obj) {#any}
-Retourne si la forme est la même.
+Renvoie si la forme est identique.
 
 
 ###  Retour
@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | obj | any |  |
 
-###  Exemples
+###  Exemple
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: printing_page_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -16,7 +16,7 @@ Hangi sayfaların yazdırılmayacağını belirtir.
 Sayfadaki içerik seyrekse, çıktı pdf dosyasında bazı sayfalar tamamen boş olacaktır.
 Bu boş sayfaları istemiyorsanız, onları atlamak için bu seçeneği kullanabilirsiniz.
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, boş sayfaları veya yalnızca hücre arka planı, kenarlıklar gibi bazı stil içeriği içeren sayfaları atlar.
 

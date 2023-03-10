@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_qualifier Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier Eigentum
 
-Gibt den Textbezeichner für Zellenwerte an. Der Standardbezeichner ist „““.
+Gibt den Textqualifizierer für Zellenwerte an. Der Standardqualifizierer ist „““.
 
 ###  Bemerkungen
 

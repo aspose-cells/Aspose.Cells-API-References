@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectionType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -23,7 +23,7 @@ El tipo ProtectionType expone los siguientes miembros:
 | SCENARIOS | Representa escenarios de protección, utilizados en la protección de la hoja de trabajo.|
 | STRUCTURE | Representa para proteger la estructura, utilizada en la protección del libro de trabajo.|
 | WINDOWS | Representa para proteger la ventana, utilizada en la protección del libro de trabajo.|
-| NONE | No representa protección Solo para la propiedad de lectura.|
+| NONE | Representa ninguna protección. Sólo para la propiedad de lectura.|
 
 
 

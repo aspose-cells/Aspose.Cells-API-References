@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_grid_style mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style mülk
 
-Izgara görünümü stilinin hücrelere uygulanıp uygulanmayacağını belirtir.
+Izgara görünümü stilinin hücrelere uygulanıp uygulanmayacağını gösterir.
 ###  Tanım:
 ```python
 @property

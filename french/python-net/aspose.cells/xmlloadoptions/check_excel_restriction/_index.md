@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_excel_restriction propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Lorsque vous saisissez une valeur supérieure à 32 Ko, par exemple Cell.PutValu
 Si cette propriété est fausse, nous accepterons votre valeur de chaîne d'entrée comme valeur de la cellule afin que plus tard
 vous pouvez générer la valeur de chaîne complète pour d'autres formats de fichier tels que CSV.
 Cependant, si vous avez défini un type de valeur non valide pour le format de fichier Excel,
-vous ne devez pas enregistrer le classeur au format de fichier Excel ultérieurement.
+vous ne devez pas enregistrer le classeur au format de fichier Excel ultérieurement. Sinon, il peut y avoir une erreur inattendue pour le fichier Excel généré.
 ###  Définition:
 ```python
 @property

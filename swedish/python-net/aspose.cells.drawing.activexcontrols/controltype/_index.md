@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,14 +17,14 @@ Typen ControlType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| COMMAND_BUTTON | knapp|
+| COMMAND_BUTTON | Knapp|
 | COMBO_BOX | Kombinationsrutan|
-| CHECK_BOX | kryssruta|
+| CHECK_BOX | Kryssruta|
 | LIST_BOX | ListBox|
 | TEXT_BOX | Textruta|
 | SPIN_BUTTON | Spinnare|
-| RADIO_BUTTON | radioknappar|
-| LABEL | märka|
+| RADIO_BUTTON | Radio knapp|
+| LABEL | Märka|
 | IMAGE | Bild|
 | TOGGLE_BUTTON | Växlingsknapp|
 | SCROLL_BAR | Rullningslist|

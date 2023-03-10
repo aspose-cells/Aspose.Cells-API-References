@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_filtering_allowed mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,8 +13,8 @@ Kullanıcının, sayfa korunmadan önce oluşturulmuş bir Otomatik Filtreyi kul
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
- lütfen Korumayı kullanın. Filtrelemeye İzin Ver özelliğini kullanın.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
+ lütfen Protection.AllowFiltering özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

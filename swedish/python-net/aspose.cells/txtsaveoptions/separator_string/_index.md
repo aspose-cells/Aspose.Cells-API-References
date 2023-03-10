@@ -1,4 +1,4 @@
-﻿---
+---
 title: separator_string fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  separator_string fastighet
 
-Hämtar och ställer in ett strängvärde som en separator.
+Hämtar och ställer in ett strängvärde som separator.
 ###  Definition:
 ```python
 @property

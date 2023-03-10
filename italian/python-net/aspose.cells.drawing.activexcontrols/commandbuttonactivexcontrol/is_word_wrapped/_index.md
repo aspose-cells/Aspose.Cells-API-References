@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_wrapped proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

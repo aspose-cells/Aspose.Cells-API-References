@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_footer
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_footer(self, section, footer_script):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 | footer_script | str | نص تنسيق التذييل.|
@@ -36,7 +36,7 @@ def set_footer(self, section, footer_script):
 | &F| اسم الملف بدون مسار|
 | &"<FontName>"| اسم الخط ، على سبيل المثال: & "Arial"|
 | &"<FontName>, <FontStyle>"| اسم الخط ونمطه ، على سبيل المثال: & "Arial، Bold"|
-| &<FontSize>| حجم الخط: إذا تبع هذا الأمر رقم عادي ليتم طباعته في الرأس ، فسيتم فصله عن ارتفاع الخط بحرف مسافة.|
+| &<FontSize>| حجم الخط. إذا كان هذا الأمر متبوعًا برقم عادي ليتم طباعته في الرأس ، فسيتم فصله عن ارتفاع الخط بحرف مسافة.|
 | &ك<RRGGBB>|لون الخط ، على سبيل المثال (أحمر): & KFF0000|
 | & ج| نص الصورة|
 

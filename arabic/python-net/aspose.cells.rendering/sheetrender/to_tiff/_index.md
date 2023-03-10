@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_tiff
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الصورة الناتجة|
 
@@ -34,11 +34,11 @@ def to_tiff(self, filename):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | filename | str | اسم ملف الصورة الناتجة|
 
-###  أمثلة
+###  مثال
 
 يقوم الكود التالي بإخراج جميع صفحات الورقة الأولى إلى صورة Tiff.
 

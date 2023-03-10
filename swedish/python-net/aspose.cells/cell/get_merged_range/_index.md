@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_merged_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Returnerar ett [Range](/cells/sv/python-net/aspose.cells/range)-objekt som repre
 
 ###  Returnerar
 
-[Range](/cells/sv/python-net/aspose.cells/range) objekt. Null om denna cell inte är sammanfogad.
+[Range](/cells/sv/python-net/aspose.cells/range) objekt. Null om denna cell inte slås samman.
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_pixel الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 تُرجع أو تحدد ارتفاع أداة تقطيع الشرائح المحددة بالبكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagSetting sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
 ##  SmartTagSetting sınıfı
-Çalışma sayfasındaki tüm [SmartTagCollection](/cells/tr/python-net/aspose.cells.markup/smarttagcollection) nesnelerini temsil eder.
+Çalışma sayfasındaki tüm [SmartTagCollection](/cells/tr/python-net/aspose.cells.markup/smarttagcollection) nesnesini temsil eder.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | style | [CellBorderType](/cells/ar/python-net/aspose.cells/cellbordertype) | أسلوب الحدود|
 

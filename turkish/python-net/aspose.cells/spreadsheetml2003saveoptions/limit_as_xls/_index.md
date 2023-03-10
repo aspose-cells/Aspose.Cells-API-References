@@ -1,4 +1,4 @@
-﻿---
+---
 title: limit_as_xls mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

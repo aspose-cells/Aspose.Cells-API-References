@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,11 +22,11 @@ def add(self, name, user_id, provider_id):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | name | str | Имя человека.|
 | user_id | str |  |
-| provider_id | str | Личность провайдера|
+| provider_id | str | Идентификатор провайдера|
 
 
 

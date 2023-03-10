@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range_object | [Range](/cells/ar/python-net/aspose.cells/range) | سيتم احتواء كائن النطاق في الخلايا|
 

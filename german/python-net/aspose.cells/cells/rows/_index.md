@@ -1,4 +1,4 @@
-﻿---
+---
 title: rows Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rows Eigentum
 
-Ruft die Auflistung von [Row](/cells/de/python-net/aspose.cells/row)-Objekten ab, die die Person rows in diesem Arbeitsblatt darstellen.
+Ruft die Auflistung von [Row](/cells/de/python-net/aspose.cells/row)-Objekten ab, die das Individuum rows in diesem Arbeitsblatt darstellt.
 ###  Definition:
 ```python
 @property

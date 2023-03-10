@@ -1,6 +1,6 @@
-﻿---
+---
 title: ListObject类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -25,7 +25,7 @@ ListObject 类型公开了以下成员：
 | [end_column](/cells/zh/python-net/aspose.cells.tables/listobject/end_column) |获取范围的结束列。|
 | [list_columns](/cells/zh/python-net/aspose.cells.tables/listobject/list_columns) |获取 ListObject 的 ListColumns。|
 | [show_header_row](/cells/zh/python-net/aspose.cells.tables/listobject/show_header_row) |获取和设置此 ListObject 是否显示标题行。|
-| [show_totals](/cells/zh/python-net/aspose.cells.tables/listobject/show_totals) |获取和设置此 ListObject 是否显示总行数。|
+| [show_totals](/cells/zh/python-net/aspose.cells.tables/listobject/show_totals) |获取和设置此 ListObject 是否显示总行。|
 | [data_range](/cells/zh/python-net/aspose.cells.tables/listobject/data_range) |获取 ListObject 的数据范围。|
 | [query_table](/cells/zh/python-net/aspose.cells.tables/listobject/query_table) |获取链接的 QueryTable。|
 | [data_source_type](/cells/zh/python-net/aspose.cells.tables/listobject/data_source_type) |获取表的数据源类型。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_frame proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Restituisce un oggetto TextFrame che contiene le proprietà di allineamento e an
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
  si prega di utilizzare la proprietà Shape.TextBody.TextAlignment.
  Questa proprietà verrà rimossa 12 mesi dopo da maggio 2016.
 Aspose si scusa per gli eventuali disagi causati.

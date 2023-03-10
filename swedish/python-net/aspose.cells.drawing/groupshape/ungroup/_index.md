@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-Dela upp formobjekten.
+Delar upp formobjekten.
 
 
 

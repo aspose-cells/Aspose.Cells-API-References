@@ -1,6 +1,6 @@
-﻿---
+---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |范围标题。这用作描述符，而不是命名范围定义。|
 | start_row | int |范围的起始行索引。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة save
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | اسم الملف.|
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | نوع تنسيق الحفظ.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | اسم الملف.|
 | save_options | [SaveOptions](/cells/ar/python-net/aspose.cells/saveoptions) | خيارات الحفظ.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | دفق الملف.|
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | نوع تنسيق ملف الحفظ.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | دفق الملف.|
 | save_options | [SaveOptions](/cells/ar/python-net/aspose.cells/saveoptions) | خيارات الحفظ.|

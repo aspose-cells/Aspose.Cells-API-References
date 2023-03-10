@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_overflow propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el tipo de desbordamiento horizontal de texto del cuadro de texto.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.drawing import TextOverflowType

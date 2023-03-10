@@ -1,4 +1,4 @@
-﻿---
+---
 title: linked_cell الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نطاق ورقة العمل المرتبط بقيمة عنصر التحكم أو تعيينه.
 
-###  أمثلة
+###  مثال
 
 ```python
 

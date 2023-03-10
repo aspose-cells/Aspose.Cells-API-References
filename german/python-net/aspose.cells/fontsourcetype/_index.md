@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSourceType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -18,7 +18,7 @@ Der Typ FontSourceType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | FONT_FILE | stellt eine einzelne Schriftdatei dar.|
-| FONTS_FOLDER | stellt Ordner mit Schriftdateien dar.|
+| FONTS_FOLDER | steht für Ordner mit Schriftdateien.|
 | MEMORY_FONT | stellt eine einzelne Schriftart im Speicher dar.|
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: parse_object方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-来自给定字符串的解析值对象。
+来自给定字符串的解析值对象。如果给定的字符串无法解析为正确的值对象，则返回 null。
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | value | str |要解析的字符串值|
 

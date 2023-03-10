@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_auto_shape метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/ru/python-net/aspose.cells.drawing/autoshapetype) | Автоматический тип формы.|
 | upper_left_row | int | Индекс верхней левой строки.|
@@ -34,7 +34,7 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 ###  Примечания
 
 Тип не может быть Chart/Comment/Picture/OleObject/Polygon/DialogBox.
-###  Примеры
+###  Пример
 
 
 ```python

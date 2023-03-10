@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_standard_header_footer_font_style_name Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

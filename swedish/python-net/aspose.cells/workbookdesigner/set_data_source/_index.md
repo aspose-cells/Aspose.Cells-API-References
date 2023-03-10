@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_data_source metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_data_source(self, data_source, cells_data_table):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | data_source | str | Namnet på datakällan.|
 | cells_data_table | [ICellsDataTable](/cells/sv/python-net/aspose.cells/icellsdatatable) | datatabell.|
@@ -35,7 +35,7 @@ def set_data_source(self, variable, data):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | variable | str | Variabelnamn skapat med smart markör.|
 | data | any | Källdata.|

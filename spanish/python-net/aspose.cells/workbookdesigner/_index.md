@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,7 +25,7 @@ El tipo WorkbookDesigner expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [workbook](/cells/es/python-net/aspose.cells/workbookdesigner/workbook) |Obtiene y establece el objeto [WorkbookDesigner.workbook](/cells/es/python-net/aspose.cells/workbookdesigner#workbook).|
-| [repeat_formulas_with_subtotal](/cells/es/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Indica si se repiten fórmulas con filas de subtotales.|
+| [repeat_formulas_with_subtotal](/cells/es/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | Indica si se repiten fórmulas con fila de subtotal.|
 | [update_empty_string_as_null](/cells/es/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | Si es VERDADERO, se insertará Nulo si el valor es "";|
 | [update_reference](/cells/es/python-net/aspose.cells/workbookdesigner/update_reference) |Indica si se actualizarán las referencias en otras hojas de trabajo.|
 | [calculate_formula](/cells/es/python-net/aspose.cells/workbookdesigner/calculate_formula) | Indica si se deben calcular las fórmulas.|
@@ -46,7 +46,7 @@ El tipo WorkbookDesigner expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

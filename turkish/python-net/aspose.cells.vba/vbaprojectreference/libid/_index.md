@@ -1,4 +1,4 @@
-﻿---
+---
 title: libid mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid mülk
 
-Referansın libidini alır ve ayarlar.
+Referansın Libid'ini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

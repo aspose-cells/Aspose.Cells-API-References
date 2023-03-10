@@ -1,4 +1,4 @@
-﻿---
+---
 title: blur الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  blur الملكية
 
-الحصول على blur للظل وتعيينه يتراوح من 0 إلى 100 نقطة.
+الحصول على blur الظل وتعيينه. تتراوح من 0 إلى 100 نقطة.
 ###  تعريف:
 ```python
 @property

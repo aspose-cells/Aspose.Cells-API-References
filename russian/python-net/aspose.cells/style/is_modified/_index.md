@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_modified метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/ru/python-net/aspose.cells/stylemodifyflag) | Флаги изменения стиля|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo check_cell
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -23,7 +23,7 @@ def check_cell(self, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga|
 | column | int | Indice di colonna|

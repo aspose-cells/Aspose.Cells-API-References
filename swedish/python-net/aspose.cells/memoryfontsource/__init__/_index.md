@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemoryFontSource konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/memoryfontsource/__init__/
 is_root: false
 ---
 ##  MemoryFontSource(font_data) {#bytes}
-Direktör.
+Ctor.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, font_data):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | font_data | bytes | Binära teckensnittsdata.|
 

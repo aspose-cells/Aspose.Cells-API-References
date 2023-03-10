@@ -1,4 +1,4 @@
-﻿---
+---
 title: priority Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  priority Eigentum
 
-Die priority dieser Regel zur bedingten Formatierung.
-format ausgewertet und gerendert werden sollen. Niedrigere Zahlenwerte sind höher als priority
+Die priority dieser Regel zur bedingten Formatierung. Dieser Wert wird verwendet, um zu bestimmen, welche
+Format ausgewertet und gerendert werden soll. Niedrigere Zahlenwerte sind höher als priority
 höhere numerische Werte, wobei '1' der höchste priority ist.
 ###  Definition:
 ```python

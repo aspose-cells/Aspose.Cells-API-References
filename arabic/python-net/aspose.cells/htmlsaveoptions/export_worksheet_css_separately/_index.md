@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_worksheet_css_separately الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_worksheet_css_separately الملكية
 
-الإشارة إلى ما إذا كان سيتم تصدير ورقة العمل css بشكل منفصل ، فالقيمة الافتراضية هي false.
+الإشارة إلى ما إذا كان تصدير ورقة العمل css بشكل منفصل أم لا. القيمة الافتراضية هي false.
 ###  تعريف:
 ```python
 @property

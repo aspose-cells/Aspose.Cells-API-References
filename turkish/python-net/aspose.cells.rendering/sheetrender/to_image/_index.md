@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.rendering/sheetrender/to_image/
 is_root: false
 ---
 ##  to_image(page_index, file_name) {#int-str}
-Belirli sayfaları bir dosyaya dönüştürün.
+Belirli bir sayfayı bir dosyaya dönüştürün.
 
 
 
@@ -18,12 +18,12 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | page_index | int | hangi sayfanın dönüştürüleceğini belirtin|
 | file_name | str | çıktı görüntüsünün dosya adı|
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, ilk sayfanın ilk sayfasını png görüntüsüne çıkarır.
 
@@ -46,7 +46,7 @@ sr.to_image(0, "output.png")
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Belirli sayfaları bir akışa dönüştürün.
+Belirli bir sayfayı bir akışa dönüştürün.
 
 
 
@@ -56,7 +56,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | page_index | int | hangi sayfanın dönüştürüleceğini belirtin|
 | stream | io.RawIOBase | çıkış görüntüsünün akışı|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ControlScrollOrientation
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | AUTO | يتم تقديم التحكم أفقيًا عندما يكون عرض عنصر التحكم أكبر من ارتفاعه.<br/> يتم تقديم التحكم عموديًا بخلاف ذلك.|
-| VERTICAL |يتم تقديم عناصر التحكم عموديًا.|
+| VERTICAL |يتم تقديم التحكم عموديًا.|
 | HORIZONTAL | يتم تقديم التحكم أفقيًا.|
 
 

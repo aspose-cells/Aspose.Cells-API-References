@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة move
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def move(self, count):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | count | int | عدد التحرك لأعلى أو لأسفل.<br/>حرك المتسلسلة لأعلى إذا كانت أقل من صفر ؛<br/> انقل المتسلسلة لأسفل إذا كانت أكبر من صفر.|
 

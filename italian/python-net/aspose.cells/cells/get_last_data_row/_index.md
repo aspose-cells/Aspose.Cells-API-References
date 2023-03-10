@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_last_data_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_last_data_row(self, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Indice di colonna.|
 

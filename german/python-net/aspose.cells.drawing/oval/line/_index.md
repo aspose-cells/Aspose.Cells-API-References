@@ -1,4 +1,4 @@
-﻿---
+---
 title: line Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Stil line ab
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bir çalışma sayfasını kaydetmeye başlar.
 
 ###  İadeler
 
-Bu sağlayıcı verilen sayfa için veri sağlayacaksa true ; verilen sayfanın normal veri modelini kullanması gerekiyorsa false (Cells).
+true bu sağlayıcı verilen sayfa için veri sağlayacaksa; false eğer verilen sayfa normal veri modelini kullanmalıdır(Cells).
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index | int | kaydedilecek geçerli sayfanın dizini.|
 ###  Notlar

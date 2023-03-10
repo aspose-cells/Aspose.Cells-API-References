@@ -1,4 +1,4 @@
-﻿---
+---
 title: indent_level proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level proprietà
 
-Rappresenta il livello di rientro per la cella o l'intervallo.
+Rappresenta il livello di rientro per la cella o l'intervallo. Può essere solo un numero intero compreso tra 0 e 250.
 
 ###  Osservazioni
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableAutoFormatType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -38,7 +38,7 @@ PivotTableAutoFormatType türü aşağıdaki üyeleri gösterir:
 | TABLE7 | Table7 biçim türünü temsil eder.|
 | TABLE8 | Table8 biçim türünü temsil eder.|
 | TABLE9 | Table9 biçim türünü temsil eder.|
-| TABLE10 | Tablo 10 format tipini temsil eder.|
+| TABLE10 | Table10 biçim türünü temsil eder.|
 
 
 

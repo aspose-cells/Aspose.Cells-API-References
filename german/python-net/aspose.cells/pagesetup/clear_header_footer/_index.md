@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_header_footer Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-Löscht Kopf- und Fußzeileneinstellungen.
+Löscht die Kopf- und Fußzeileneinstellung.
 
 
 

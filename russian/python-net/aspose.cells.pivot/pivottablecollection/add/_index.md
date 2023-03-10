@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add(self, source_data, dest_cell_name, table_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_data | str | Данные для нового кэша сводной таблицы.|
 | dest_cell_name | str |Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы.|
@@ -44,7 +44,7 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/ru/python-net/aspose.cells.pivot/pivottable) | Исходная сводная таблица.|
 | dest_cell_name | str |Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы.|
@@ -66,7 +66,7 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_data | str | Данные для нового кэша сводной таблицы.|
 | dest_cell_name | str |Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы.|
@@ -89,7 +89,7 @@ def add(self, source_data, row, column, table_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_data | str | Диапазон ячеек данных для новой сводной таблицы. Пример: Sheet1!A1:C8.|
 | row | int | Индекс строки ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы.|
@@ -112,7 +112,7 @@ def add(self, pivot_table, row, column, table_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/ru/python-net/aspose.cells.pivot/pivottable) | Исходная сводная таблица.|
 | row | int | Индекс строки ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы.|
@@ -135,7 +135,7 @@ def add(self, source_data, row, column, table_name, use_same_source):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_data | str | Диапазон ячеек данных для новой сводной таблицы. Пример: Sheet1!A1:C8.|
 | row | int | Индекс строки ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы.|
@@ -159,7 +159,7 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_data | list | Несколько диапазонов консолидации, например {"Лист1!A1:C8","Лист2!A1:B8"} |
 | is_auto_page | bool | Будет ли автоматически создаваться одностраничное поле.<br/>Если true, следующие параметры pageFields будут игнорироваться.|
@@ -183,7 +183,7 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_data | list | Несколько диапазонов консолидации, например {"Лист1!A1:C8","Лист2!A1:B8"} |
 | is_auto_page | bool | Будет ли автоматически создаваться одностраничное поле.<br/> Если true, следующие параметры pageFields будут игнорироваться.|

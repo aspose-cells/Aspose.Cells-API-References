@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_characters
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_characters(self, characters):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | characters | list | كل كائنات الشخصيات.|
 

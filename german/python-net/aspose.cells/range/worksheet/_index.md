@@ -1,4 +1,4 @@
-﻿---
+---
 title: worksheet Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  worksheet Eigentum
 
-Ruft das [Range.worksheet](/cells/de/python-net/aspose.cells/range#worksheet)-Objekt ab, das diesen Bereich enthält.
+Ruft das Objekt [Range.worksheet](/cells/de/python-net/aspose.cells/range#worksheet) ab, das diesen Bereich enthält.
 ###  Definition:
 ```python
 @property

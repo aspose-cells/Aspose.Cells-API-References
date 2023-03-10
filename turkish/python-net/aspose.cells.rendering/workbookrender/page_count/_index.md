@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_count mülk
 
-Çalışma kitaplarının toplam sayfa sayısını alır.
+Çalışma kitabının toplam sayfa sayısını alır.
 ###  Tanım:
 ```python
 @property

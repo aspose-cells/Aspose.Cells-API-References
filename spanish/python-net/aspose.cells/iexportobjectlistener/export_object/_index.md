@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_object método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,7 +25,7 @@ def export_object(self, e):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | e | [ExportObjectEvent](/cells/es/python-net/aspose.cells/exportobjectevent) | El evento se activa cuando es necesario exportar un objeto.|
 

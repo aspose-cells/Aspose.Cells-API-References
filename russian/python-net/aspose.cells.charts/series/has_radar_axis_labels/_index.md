@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_radar_axis_labels недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels недвижимость
 
-Значение true, если лепестковая диаграмма имеет метки оси категорий.
+Значение true, если лепестковая диаграмма имеет метки оси категорий. Применяется только к радиолокационным картам.
 ###  Определение:
 ```python
 @property

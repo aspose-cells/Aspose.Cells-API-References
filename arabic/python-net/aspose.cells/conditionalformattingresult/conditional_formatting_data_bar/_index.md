@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formatting_data_bar الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_custom_objects metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def import_custom_objects(self, list, first_row, first_column, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | list | list | Det anpassade objektet|
 | first_row | int | Radnumret för den första cellen att importera i.|
@@ -48,10 +48,10 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | list | list | Det anpassade objektet|
-| property_names | list | Egenskapsnamnen. Om den är null kommer vi att importera alla egenskaper för objektet.|
+| property_names | list | Egenskapens namn. Om den är null kommer vi att importera alla egenskaper för objektet.|
 | is_property_name_shown | bool | Anger om egenskapsnamnet kommer att importeras till den första raden.|
 | first_row | int | Radnumret för den första cellen att importera i.|
 | first_column | int | Kolumnnumret för den första cellen att importera i.|

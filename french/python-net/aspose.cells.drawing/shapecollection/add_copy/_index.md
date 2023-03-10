@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/fr/python-net/aspose.cells.drawing/shape) | Forme source.|
 | upper_left_row | int | Index de ligne en haut à gauche.|
@@ -30,7 +30,7 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 | upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal de la zone de texte par rapport à sa colonne de gauche, en unité de pixel.|
 
-###  Exemples
+###  Exemple
 
 ```python
 

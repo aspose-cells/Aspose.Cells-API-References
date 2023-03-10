@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_header_picture方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 210
@@ -22,7 +22,7 @@ def set_header_picture(self, section, header_picture):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | section | int | 0：左部分，1：中部分，2：右部分。|
 | header_picture | bytes |图像数据。|

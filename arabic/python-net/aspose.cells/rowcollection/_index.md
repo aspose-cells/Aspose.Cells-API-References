@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -21,7 +21,7 @@ is_root: false
 
 
 
-يحصل على عنصر [Row](/cells/ar/python-net/aspose.cells/row) من خلال فهرس الصف المحدد.
+يحصل على عنصر [Row](/cells/ar/python-net/aspose.cells/row) من خلال فهرس الصف المحدد. سيتم إنشاء كائن الصف لفهرس الصف المحدد إذا لم يكن موجودًا من قبل.
 ###  مفهرس
 | اسم| وصف|
 | :- | :- |
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

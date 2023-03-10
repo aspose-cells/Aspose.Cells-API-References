@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة import_formula_array
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/import_formula_array/
 is_root: false
 ---
 ##  import_formula_array(string_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-يستورد صفيف من الصيغ في ورقة عمل.
+يستورد مصفوفة من الصيغة في ورقة عمل.
 
 
 
@@ -18,10 +18,10 @@ def import_formula_array(self, string_array, first_row, first_column, is_vertica
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | string_array | list | صفيف الصيغة.|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 | is_vertical | bool | يُحدد لاستيراد البيانات عموديًا أو أفقيًا.|
 

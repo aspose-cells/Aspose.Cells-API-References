@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add_range(self, ca):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | ca | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | la plage à ajouter.|
 

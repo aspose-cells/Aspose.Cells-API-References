@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_columns yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -31,7 +31,7 @@ def auto_fit_columns(self, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/tr/python-net/aspose.cells/autofitteroptions) | Otomatik sığdırma seçenekleri|
 
@@ -47,7 +47,7 @@ def auto_fit_columns(self, first_column, last_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_column | int | İlk sütun dizini.|
 | last_column | int | Son sütun dizini.|
@@ -67,7 +67,7 @@ def auto_fit_columns(self, first_column, last_column, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_column | int | İlk sütun dizini.|
 | last_column | int | Son sütun dizini.|
@@ -88,7 +88,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | İlk satır dizini.|
 | first_column | int | İlk sütun dizini.|
@@ -110,7 +110,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column, optio
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | first_row | int | İlk satır dizini.|
 | first_column | int | İlk sütun dizini.|

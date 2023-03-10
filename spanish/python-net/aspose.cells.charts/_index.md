@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/es/python-net/aspose.cells.charts/chartcollection) | Encapsula una colección de [Chart](/cells/es/python-net/aspose.cells.charts/chart) objetos.|
 | [ChartDataTable](/cells/es/python-net/aspose.cells.charts/chartdatatable) | Representa una tabla de datos de gráficos.|
 | [ChartFrame](/cells/es/python-net/aspose.cells.charts/chartframe) | Encapsula el objeto que representa el objeto de marco en un gráfico.|
-| [ChartGlobalizationSettings](/cells/es/python-net/aspose.cells.charts/chartglobalizationsettings) | Representa la configuración de globalización de los gráficos.|
+| [ChartGlobalizationSettings](/cells/es/python-net/aspose.cells.charts/chartglobalizationsettings) | Representa la configuración de globalización para el gráfico.|
 | [ChartPoint](/cells/es/python-net/aspose.cells.charts/chartpoint) |Representa un solo punto en una serie en un gráfico.|
 | [ChartPointCollection](/cells/es/python-net/aspose.cells.charts/chartpointcollection) | Representa una colección que contiene todos los puntos de una serie.|
 | [ChartTextFrame](/cells/es/python-net/aspose.cells.charts/charttextframe) | Encapsula el objeto que representa el objeto de marco que contiene texto.|
@@ -39,7 +39,7 @@ is_root: false
 | [SeriesLayoutProperties](/cells/es/python-net/aspose.cells.charts/serieslayoutproperties) | Representa las propiedades del diseño de la serie.|
 | [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline) | Un minigráfico representa un cuadro o gráfico diminuto en una celda de una hoja de cálculo que proporciona una representación visual de los datos.|
 | [SparklineCollection](/cells/es/python-net/aspose.cells.charts/sparklinecollection) | Encapsula una colección de [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline) objetos.|
-| [SparklineGroup](/cells/es/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline) está organizado en un grupo de minigráficos. Un grupo de minigráficos contiene una cantidad variable de elementos de minigráficos.<br/> Un grupo de minigráficos especifica el tipo, la configuración de visualización y la configuración de ejes para los minigráficos.|
+| [SparklineGroup](/cells/es/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/es/python-net/aspose.cells.charts/sparkline) está organizado en grupo minigráfico. Un SparklineGroup contiene un número variable de elementos de minigráfico.<br/> Un grupo de minigráficos especifica el tipo, la configuración de visualización y la configuración de ejes para los minigráficos.|
 | [SparklineGroupCollection](/cells/es/python-net/aspose.cells.charts/sparklinegroupcollection) | Encapsula una colección de [SparklineGroup](/cells/es/python-net/aspose.cells.charts/sparklinegroup) objetos.|
 | [TickLabelItem](/cells/es/python-net/aspose.cells.charts/ticklabelitem) | Incluir información de un elemento de Ticklabel|
 | [TickLabels](/cells/es/python-net/aspose.cells.charts/ticklabels) | Representa las etiquetas de marca de graduación asociadas con marcas de graduación en un eje de gráfico.|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/es/python-net/aspose.cells.charts/mapchartlabellayout) | Representa el diseño de las etiquetas del gráfico de mapa.|
 | [MapChartProjectionType](/cells/es/python-net/aspose.cells.charts/mapchartprojectiontype) | Representa el tipo de proyección del gráfico de mapa.|
 | [MapChartRegionType](/cells/es/python-net/aspose.cells.charts/mapchartregiontype) | Representa el tipo de región del gráfico de mapa.|
-| [PlotDataByType](/cells/es/python-net/aspose.cells.charts/plotdatabytype) |Representa el tipo de datos trazados por fila o columna.|
+| [PlotDataByType](/cells/es/python-net/aspose.cells.charts/plotdatabytype) |Representa el tipo de gráfico de datos por fila o columna.|
 | [PlotEmptyCellsType](/cells/es/python-net/aspose.cells.charts/plotemptycellstype) | Representa todos los tipos de celdas vacías de un gráfico.|
 | [QuartileCalculationType](/cells/es/python-net/aspose.cells.charts/quartilecalculationtype) | Representa los métodos de cálculo del cuartil.|
 | [SparklineAxisMinMaxType](/cells/es/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Representa los tipos de valor mínimo y máximo para el eje vertical minigráfico.|

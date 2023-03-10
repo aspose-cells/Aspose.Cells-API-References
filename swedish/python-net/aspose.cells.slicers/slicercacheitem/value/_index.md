@@ -1,4 +1,4 @@
-﻿---
+---
 title: value fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value fastighet
 
-Returnerar etiketttexten för utsnittsobjektet.
+Returnerar etiketttexten för utsnittsobjektet. Skrivskyddad.
 ###  Definition:
 ```python
 @property

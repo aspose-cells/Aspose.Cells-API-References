@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_pattern_color метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,11 +18,11 @@ def set_pattern_color(self, pattern, color1, color2):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | pattern | [BackgroundType](/cells/ru/python-net/aspose.cells/backgroundtype) | Шаблон.|
 | color1 | aspose.pydrawing.Color | Цвет переднего плана.|
-| color2 | aspose.pydrawing.Color | Цвет фона. Работает только в том случае, если шаблон отличается от BackgroundType.None и BackgroundType.Solid.|
+| color2 | aspose.pydrawing.Color | Цвет фона. Работает, только если шаблон отличается от BackgroundType.None и BackgroundType.Solid.|
 
 
 

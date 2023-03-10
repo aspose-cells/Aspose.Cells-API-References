@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageOrPrintOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -30,7 +30,7 @@ is_root: false
 | [tiff_compression](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression) | Получает или задает тип сжатия, применяемый только при сохранении страниц в формате `Tiff`.|
 | [tiff_color_depth](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth) | Получает или задает разрядность, которая применяется только при сохранении страниц в формате `Tiff`.|
 | [printing_page](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/printing_page) | Указывает, какие страницы не будут распечатаны.|
-| [quality](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Получает или задает значение, определяющее качество сгенерированных изображений.<br/>применять только при сохранении страниц в формате `Jpeg`.|
+| [quality](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Получает или задает значение, определяющее качество сгенерированных изображений.<br/>применять только при сохранении страниц в формате `Jpeg`. Значение по умолчанию – 100.|
 | [image_type](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/image_type) | Получает или задает формат сгенерированных изображений.<br/> значение по умолчанию: PNG.|
 | [is_cell_auto_fit](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/is_cell_auto_fit) | Указывает, подгоняются ли ширина и высота ячеек автоматически по значению ячейки.<br/> Значение по умолчанию неверно.|
 | [one_page_per_sheet](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/one_page_per_sheet) | Если OnePagePerSheet имеет значение true , все содержимое одного листа будет выводиться только на одну страницу в результате.<br/> Размер бумаги в pagesetup будет неверным, а другие настройки pagesetup<br/> все равно вступит в силу.|
@@ -40,11 +40,11 @@ is_root: false
 | [embeded_image_name_in_svg](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/embeded_image_name_in_svg) | Укажите имя файла встроенного изображения в svg.<br/> Это должен быть полный путь с каталогом типа "c:\\xpsEmbedded"|
 | [svg_fit_to_view_port](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port) | если это свойство истинно, сгенерированный svg будет соответствовать порту просмотра.|
 | [only_area](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/only_area) | Если это свойство имеет значение true , будет выведена одна область, и масштаб не будет действовать.|
-| [text_rendering_hint](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint) | Определяет качество рендеринга текста.<br/> Значение по умолчанию — TextRenderingHint.|
+| [text_rendering_hint](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint) | Определяет качество рендеринга текста.<br/> Значение по умолчанию — TextRenderingHint.SystemDefault.|
 | [smoothing_mode](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode) | Указывает, применяется ли сглаживание (сглаживание) к линиям и кривым, а также к краям заполненных областей.<br/> Значение по умолчанию — SmoothingMode.None.|
 | [transparent](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/transparent) | Указывает, должен ли фон сгенерированного изображения быть прозрачным.|
 | [pixel_format](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/pixel_format) |Получает или задает формат пикселей для сгенерированных изображений.|
-| [warning_callback](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Получает или задает обратные вызовы предупреждения.|
+| [warning_callback](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
 | [page_saving_callback](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/page_saving_callback) | Управление/указание хода процесса сохранения страницы.|
 | [is_font_substitution_char_granularity](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/is_font_substitution_char_granularity) | Указывает, следует ли заменять шрифт символа только в том случае, если шрифт ячейки несовместим с ним.|
 | [page_index](/cells/ru/python-net/aspose.cells.rendering/imageorprintoptions/page_index) | Получает или задает отсчитываемый от 0 индекс первой страницы для сохранения.|
@@ -67,7 +67,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

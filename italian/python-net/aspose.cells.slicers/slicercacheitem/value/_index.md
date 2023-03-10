@@ -1,4 +1,4 @@
-﻿---
+---
 title: value proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value proprietà
 
-Restituisce il testo dell'etichetta per l'elemento slicer.
+Restituisce il testo dell'etichetta per l'elemento slicer. Sola lettura.
 ###  Definizione:
 ```python
 @property

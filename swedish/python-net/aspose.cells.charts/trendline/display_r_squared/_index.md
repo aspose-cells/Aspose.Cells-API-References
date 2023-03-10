@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_r_squared fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_r_squared fastighet
 
-Representerar om trendlinjens R-kvadratvärde visas i diagrammet (i samma dataetikett som ekvationen). Om du ställer in den här egenskapen på True aktiveras dataetiketter automatiskt.
+Representerar om trendlinjens R-kvadratvärde visas i diagrammet (i samma dataetikett som ekvationen). Om du ställer in den här egenskapen till True aktiveras dataetiketter automatiskt.
 ###  Definition:
 ```python
 @property

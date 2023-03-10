@@ -1,6 +1,6 @@
-﻿---
+---
 title: Protection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1220
@@ -43,8 +43,8 @@ Protection 类型公开了以下成员：
 | [is_editing_contents_allowed](/cells/zh/python-net/aspose.cells/protection/is_editing_contents_allowed) |表示是否允许用户编辑受保护工作表上锁定单元格的内容。|
 | [allow_editing_object](/cells/zh/python-net/aspose.cells/protection/allow_editing_object) |表示是否允许用户在受保护的工作表上操作绘图对象。|
 | [is_editing_objects_allowed](/cells/zh/python-net/aspose.cells/protection/is_editing_objects_allowed) |表示是否允许用户在受保护的工作表上操作绘图对象。|
-| [allow_editing_scenario](/cells/zh/python-net/aspose.cells/protection/allow_editing_scenario) |表示是否允许用户在受保护的工作表上编辑场景。|
-| [is_editing_scenarios_allowed](/cells/zh/python-net/aspose.cells/protection/is_editing_scenarios_allowed) |表示是否允许用户在受保护的工作表上编辑场景。|
+| [allow_editing_scenario](/cells/zh/python-net/aspose.cells/protection/allow_editing_scenario) |表示是否允许用户在受保护的工作表上编辑方案。|
+| [is_editing_scenarios_allowed](/cells/zh/python-net/aspose.cells/protection/is_editing_scenarios_allowed) |表示是否允许用户在受保护的工作表上编辑方案。|
 | [password](/cells/zh/python-net/aspose.cells/protection/password) |表示保护工作表的密码。|
 | [is_protected_with_password](/cells/zh/python-net/aspose.cells/protection/is_protected_with_password) |指示工作表是否受密码保护。|
 | [allow_selecting_locked_cell](/cells/zh/python-net/aspose.cells/protection/allow_selecting_locked_cell) |表示是否允许用户选择受保护工作表上的锁定单元格。|

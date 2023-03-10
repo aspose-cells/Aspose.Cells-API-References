@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [AbstractCalculationEngine](/cells/it/python-net/aspose.cells/abstractcalculationengine) | Rappresenta il motore di calcolo personalizzato dell'utente per estendere il motore di calcolo predefinito di Aspose.Cells.|
 | [AbstractCalculationMonitor](/cells/it/python-net/aspose.cells/abstractcalculationmonitor) | Monitora per consentire all'utente di monitorare l'avanzamento del calcolo della formula.|
 | [AbstractGlobalizationSettings](/cells/it/python-net/aspose.cells/abstractglobalizationsettings) | Rappresenta le impostazioni di globalizzazione.|
-| [AbstractInterruptMonitor](/cells/it/python-net/aspose.cells/abstractinterruptmonitor) |Monitora le richieste interrotte in tutte le operazioni che richiedono tempo.|
+| [AbstractInterruptMonitor](/cells/it/python-net/aspose.cells/abstractinterruptmonitor) |Monitora le richieste di interruzione in tutte le operazioni che richiedono tempo.|
 | [AbstractTextLoadOptions](/cells/it/python-net/aspose.cells/abstracttextloadoptions) | Opzioni comuni per il caricamento dei valori di testo|
 | [AutoFilter](/cells/it/python-net/aspose.cells/autofilter) | Rappresenta il filtro automatico per il foglio di lavoro specificato.|
 | [AutoFitterOptions](/cells/it/python-net/aspose.cells/autofitteroptions) | Rappresenta tutte le opzioni del montatore automatico.|
@@ -38,9 +38,9 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [CellsFactory](/cells/it/python-net/aspose.cells/cellsfactory) | Utility per istanziare le classi del modello Cells.|
 | [CellsHelper](/cells/it/python-net/aspose.cells/cellshelper) | Fornisce funzioni di supporto.|
 | [ColorFilter](/cells/it/python-net/aspose.cells/colorfilter) | Rappresenta il filtro colore.|
-| [ColorScale](/cells/it/python-net/aspose.cells/colorscale) | Descrivi la regola di formattazione condizionale ColorScale.<br/> Questa regola di formattazione condizionale crea una scala di colori graduata sulle celle.|
+| [ColorScale](/cells/it/python-net/aspose.cells/colorscale) | Descrivi la regola di formattazione condizionale ColorScale.<br/> Questa regola di formattazione condizionale crea una scala di colori sfumati sulle celle.|
 | [Column](/cells/it/python-net/aspose.cells/column) | Rappresenta una singola colonna in un foglio di lavoro.|
-| [ColumnCollection](/cells/it/python-net/aspose.cells/columncollection) | Raccolta degli oggetti [Column](/cells/it/python-net/aspose.cells/column) che rappresentano le singole colonne (impostazioni) in un foglio di lavoro.<br/>L'oggetto Colonna rappresenta solo le impostazioni come la larghezza della colonna, gli stili, ecc.<br/>non ha nulla a che fare con il fatto che ci siano celle non vuote (dati) o meno nelle colonne corrispondenti.<br/>il "Count" di questa raccolta rappresenta solo gli oggetti Count Column di cui è stata creata un'istanza in questa raccolta,<br/> non ha nulla a che fare con il fatto che ci siano celle non vuote (dati) o meno nel foglio di lavoro.|
+| [ColumnCollection](/cells/it/python-net/aspose.cells/columncollection) | Raccolta degli oggetti [Column](/cells/it/python-net/aspose.cells/column) che rappresentano le singole colonne (impostazioni) in un foglio di lavoro.<br/>L'oggetto Colonna rappresenta solo le impostazioni come la larghezza della colonna, gli stili, ecc. per tutta la colonna,<br/>non ha nulla a che fare con il fatto che ci sono celle non vuote (dati) o non nella colonna corrispondente.<br/>il "Count" di questa raccolta rappresenta solo gli oggetti Count Column di cui è stata creata un'istanza in questa raccolta,<br/> non ha nulla a che fare con il fatto che ci sono celle non vuote (dati) o meno nel foglio di lavoro.|
 | [Comment](/cells/it/python-net/aspose.cells/comment) | Incapsula l'oggetto che rappresenta un commento di cella.|
 | [CommentCollection](/cells/it/python-net/aspose.cells/commentcollection) | Incapsula una raccolta di oggetti [Comment](/cells/it/python-net/aspose.cells/comment).|
 | [ConditionalFormattingCollection](/cells/it/python-net/aspose.cells/conditionalformattingcollection) | Incapsula una raccolta di oggetti [FormatCondition](/cells/it/python-net/aspose.cells/formatcondition).|
@@ -48,12 +48,12 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [ConditionalFormattingIconCollection](/cells/it/python-net/aspose.cells/conditionalformattingiconcollection) | Rappresenta una raccolta di [ConditionalFormattingIcon](/cells/it/python-net/aspose.cells/conditionalformattingicon) oggetti.|
 | [ConditionalFormattingResult](/cells/it/python-net/aspose.cells/conditionalformattingresult) | Rappresenta il risultato della formattazione condizionale che si applica a una cella.|
 | [ConditionalFormattingValue](/cells/it/python-net/aspose.cells/conditionalformattingvalue) |Descrive i valori dei punti di interpolazione in una scala gradiente, dataBar o iconSet.|
-| [ConditionalFormattingValueCollection](/cells/it/python-net/aspose.cells/conditionalformattingvaluecollection) | Descrive una raccolta di CFValueObjects.<br/> Utilizzare solo per i set di icone.|
+| [ConditionalFormattingValueCollection](/cells/it/python-net/aspose.cells/conditionalformattingvaluecollection) | Descrive una raccolta di CFValueObject.<br/> Utilizzare solo per i set di icone.|
 | [CopyOptions](/cells/it/python-net/aspose.cells/copyoptions) | Rappresenta le opzioni di copia.|
 | [CustomFilter](/cells/it/python-net/aspose.cells/customfilter) | Rappresenta il filtro personalizzato.|
 | [CustomFilterCollection](/cells/it/python-net/aspose.cells/customfiltercollection) | Rappresenta i filtri personalizzati.|
 | [CustomImplementationFactory](/cells/it/python-net/aspose.cells/customimplementationfactory) | Factory per creare alcune istanze che possono essere reimplementate dall'utente per scopi speciali.|
-| [DataBar](/cells/it/python-net/aspose.cells/databar) | Descrivere la regola di formattazione condizionale di DataBar.<br/>Questa regola di formattazione condizionale visualizza un voto<br/> barra dei dati nell'intervallo di celle.|
+| [DataBar](/cells/it/python-net/aspose.cells/databar) | Descrivere la regola di formattazione condizionale di DataBar.<br/>Questa regola di formattazione condizionale visualizza un file graduato<br/> barra dei dati nell'intervallo di celle.|
 | [DataBarBorder](/cells/it/python-net/aspose.cells/databarborder) | Rappresenta il bordo delle barre dei dati specificato da una regola di formattazione condizionale.|
 | [DataSorter](/cells/it/python-net/aspose.cells/datasorter) | Descrizione di riepilogo per DataSorter.|
 | [DataSorterKey](/cells/it/python-net/aspose.cells/datasorterkey) | Rappresenta la chiave dell'ordinatore di dati.|
@@ -61,8 +61,8 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [DateTimeGroupItem](/cells/it/python-net/aspose.cells/datetimegroupitem) | Rappresenta l'impostazione del gruppo di datetime.|
 | [DefaultStyleSettings](/cells/it/python-net/aspose.cells/defaultstylesettings) | Impostazioni per i valori predefiniti delle proprietà di stile della cartella di lavoro.|
 | [DeleteOptions](/cells/it/python-net/aspose.cells/deleteoptions) | Rappresenta l'impostazione di eliminazione di righe/colonne.|
-| [DifSaveOptions](/cells/it/python-net/aspose.cells/difsaveoptions) | Rappresenta le opzioni di salvataggio dei file dif.|
-| [DocxSaveOptions](/cells/it/python-net/aspose.cells/docxsaveoptions) | Rappresenta le opzioni di salvataggio dei file .docx.|
+| [DifSaveOptions](/cells/it/python-net/aspose.cells/difsaveoptions) | Rappresenta le opzioni di salvataggio del file dif.|
+| [DocxSaveOptions](/cells/it/python-net/aspose.cells/docxsaveoptions) | Rappresenta le opzioni di salvataggio del file .docx.|
 | [DxfCollection](/cells/it/python-net/aspose.cells/dxfcollection) | Rappresenta i record di formattazione differenziale master.|
 | [DynamicFilter](/cells/it/python-net/aspose.cells/dynamicfilter) | Rappresenta il filtro dinamico.|
 | [ErrorCheckOption](/cells/it/python-net/aspose.cells/errorcheckoption) |Impostazione del controllo degli errori applicata su determinati intervalli.|
@@ -70,12 +70,12 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [ExportObjectEvent](/cells/it/python-net/aspose.cells/exportobjectevent) | L'evento attivato durante l'esportazione di un oggetto, ad esempio Picture.|
 | [ExportTableOptions](/cells/it/python-net/aspose.cells/exporttableoptions) | Rappresenta tutte le opzioni della tabella di esportazione.|
 | [ExternalLink](/cells/it/python-net/aspose.cells/externallink) | Rappresenta un collegamento esterno in una cartella di lavoro.|
-| [ExternalLinkCollection](/cells/it/python-net/aspose.cells/externallinkcollection) | Rappresenta una raccolta di collegamenti esterni in una cartella di lavoro.|
+| [ExternalLinkCollection](/cells/it/python-net/aspose.cells/externallinkcollection) | Rappresenta la raccolta di collegamenti esterni in una cartella di lavoro.|
 | [FileFontSource](/cells/it/python-net/aspose.cells/filefontsource) | Rappresenta il singolo file di carattere TrueType archiviato nel file system.|
 | [FileFormatInfo](/cells/it/python-net/aspose.cells/fileformatinfo) | Contiene i dati restituiti dai metodi di rilevamento del formato file [FileFormatUtil](/cells/it/python-net/aspose.cells/fileformatutil).|
 | [FileFormatUtil](/cells/it/python-net/aspose.cells/fileformatutil) | Fornisce metodi di utilità per convertire le enumerazioni del formato di file in stringhe o estensioni di file e viceversa.|
-| [FilterColumn](/cells/it/python-net/aspose.cells/filtercolumn) | Rappresenta un filtro per una singola colonna.|
-| [FilterColumnCollection](/cells/it/python-net/aspose.cells/filtercolumncollection) | Raccolta di oggetti Filter che rappresentano tutti i filtri in un intervallo filtrato automaticamente.|
+| [FilterColumn](/cells/it/python-net/aspose.cells/filtercolumn) | Rappresenta un filtro per una singola colonna. L'oggetto Filter è un membro della raccolta Filters|
+| [FilterColumnCollection](/cells/it/python-net/aspose.cells/filtercolumncollection) | Una raccolta di oggetti Filter che rappresenta tutti i filtri in un intervallo filtrato automaticamente.|
 | [FindOptions](/cells/it/python-net/aspose.cells/findoptions) | Rappresenta le opzioni di ricerca.|
 | [FolderFontSource](/cells/it/python-net/aspose.cells/folderfontsource) | Rappresenta la cartella che contiene i file dei caratteri TrueType.|
 | [Font](/cells/it/python-net/aspose.cells/font) | Incapsula l'oggetto font utilizzato in un foglio di calcolo.|
@@ -85,18 +85,18 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [FormatCondition](/cells/it/python-net/aspose.cells/formatcondition) | Rappresenta la condizione di formattazione condizionale.|
 | [FormatConditionCollection](/cells/it/python-net/aspose.cells/formatconditioncollection) | Rappresenta la formattazione condizionale.<br/> FormatConditions può contenere fino a tre formati condizionali.|
 | [FormulaParseOptions](/cells/it/python-net/aspose.cells/formulaparseoptions) | Rappresenta le opzioni durante l'analisi della formula.|
-| [FormulaSettings](/cells/it/python-net/aspose.cells/formulasettings) | Impostazioni di formule e calcoli.|
+| [FormulaSettings](/cells/it/python-net/aspose.cells/formulasettings) | Impostazioni di formule e calcolo.|
 | [GlobalizationSettings](/cells/it/python-net/aspose.cells/globalizationsettings) | Rappresenta le impostazioni di globalizzazione.|
 | [HeaderFooterCommand](/cells/it/python-net/aspose.cells/headerfootercommand) | Rappresenta il comando di intestazione/piè di pagina|
 | [HorizontalPageBreak](/cells/it/python-net/aspose.cells/horizontalpagebreak) | Incapsula l'oggetto che rappresenta un'interruzione di pagina orizzontale.|
 | [HorizontalPageBreakCollection](/cells/it/python-net/aspose.cells/horizontalpagebreakcollection) | Incapsula una raccolta di oggetti [HorizontalPageBreak](/cells/it/python-net/aspose.cells/horizontalpagebreak).|
 | [HtmlLoadOptions](/cells/it/python-net/aspose.cells/htmlloadoptions) | Rappresenta le opzioni durante l'importazione di un file html.|
-| [HtmlSaveOptions](/cells/it/python-net/aspose.cells/htmlsaveoptions) | Rappresenta le opzioni per salvare i file html.|
+| [HtmlSaveOptions](/cells/it/python-net/aspose.cells/htmlsaveoptions) | Rappresenta le opzioni per il salvataggio del file html.|
 | [Hyperlink](/cells/it/python-net/aspose.cells/hyperlink) | Incapsula l'oggetto che rappresenta un collegamento ipertestuale.|
 | [HyperlinkCollection](/cells/it/python-net/aspose.cells/hyperlinkcollection) | Incapsula una raccolta di oggetti [Hyperlink](/cells/it/python-net/aspose.cells/hyperlink).|
 | [ICellsDataTable](/cells/it/python-net/aspose.cells/icellsdatatable) | Rappresenta la tabella dei dati.|
 | [ICustomFunction](/cells/it/python-net/aspose.cells/icustomfunction) |  |
-| [ICustomParser](/cells/it/python-net/aspose.cells/icustomparser) | Consente agli utenti di aggiungere il proprio analizzatore di valori personalizzato per l'analisi dei valori stringa ad altri oggetti valore di cella appropriati.|
+| [ICustomParser](/cells/it/python-net/aspose.cells/icustomparser) | Consente agli utenti di aggiungere il proprio analizzatore di valori personalizzato per l'analisi dei valori stringa ad un altro oggetto valore di cella appropriato.|
 | [IExportObjectListener](/cells/it/python-net/aspose.cells/iexportobjectlistener) | Consente agli utenti di manipolare gli oggetti durante l'esportazione.|
 | [IFilePathProvider](/cells/it/python-net/aspose.cells/ifilepathprovider) | Rappresenta il provider del percorso del file esportato.|
 | [ISmartMarkerCallBack](/cells/it/python-net/aspose.cells/ismartmarkercallback) |Rappresenta l'interfaccia di callback dell'elaborazione di smartmarker.|
@@ -118,7 +118,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [LoadOptions](/cells/it/python-net/aspose.cells/loadoptions) |Rappresenta le opzioni di caricamento del file.|
 | [MarkdownSaveOptions](/cells/it/python-net/aspose.cells/markdownsaveoptions) | Rappresenta le opzioni di salvataggio per markdown.|
 | [MemoryFontSource](/cells/it/python-net/aspose.cells/memoryfontsource) | Rappresenta il singolo file di font TrueType archiviato in memoria.|
-| [Metered](/cells/it/python-net/aspose.cells/metered) | Fornisce metodi per impostare le chiavi misurate.|
+| [Metered](/cells/it/python-net/aspose.cells/metered) | Fornisce metodi per impostare la chiave misurata.|
 | [MultipleFilterCollection](/cells/it/python-net/aspose.cells/multiplefiltercollection) | Rappresenta la raccolta di filtri multipli.|
 | [Name](/cells/it/python-net/aspose.cells/name) | Rappresenta un nome definito per un intervallo di celle.|
 | [NameCollection](/cells/it/python-net/aspose.cells/namecollection) | Rappresenta una raccolta di tutti gli oggetti [Name](/cells/it/python-net/aspose.cells/name) nel foglio di calcolo.|
@@ -131,7 +131,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [PaginatedSaveOptions](/cells/it/python-net/aspose.cells/paginatedsaveoptions) | Rappresenta le opzioni per l'impaginazione.|
 | [PaneCollection](/cells/it/python-net/aspose.cells/panecollection) | Rappresenta tutti gli oggetti Pane visualizzati nella finestra specificata.|
 | [PasteOptions](/cells/it/python-net/aspose.cells/pasteoptions) | Rappresenta le opzioni speciali di incolla.|
-| [PdfSaveOptions](/cells/it/python-net/aspose.cells/pdfsaveoptions) |Rappresenta le opzioni per salvare i file pdf.|
+| [PdfSaveOptions](/cells/it/python-net/aspose.cells/pdfsaveoptions) |Rappresenta le opzioni per il salvataggio del file pdf.|
 | [PptxSaveOptions](/cells/it/python-net/aspose.cells/pptxsaveoptions) | Rappresenta le opzioni di salvataggio pptx.|
 | [ProtectedRange](/cells/it/python-net/aspose.cells/protectedrange) | Un intervallo specificato che può essere modificato quando la protezione del foglio è attiva.|
 | [ProtectedRangeCollection](/cells/it/python-net/aspose.cells/protectedrangecollection) | Incapsula una raccolta di oggetti [ProtectedRange](/cells/it/python-net/aspose.cells/protectedrange).|
@@ -150,7 +150,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [ScenarioCollection](/cells/it/python-net/aspose.cells/scenariocollection) | Rappresenta l'elenco degli scenari.|
 | [ScenarioInputCell](/cells/it/python-net/aspose.cells/scenarioinputcell) | Rappresenta la cella di input per lo scenario.|
 | [ScenarioInputCellCollection](/cells/it/python-net/aspose.cells/scenarioinputcellcollection) | Rappresenta l'elenco delle celle di input dello scenario.|
-| [SpreadsheetML2003SaveOptions](/cells/it/python-net/aspose.cells/spreadsheetml2003saveoptions) | Rappresenta le opzioni per il salvataggio dei file spreadml di Excel 2003.|
+| [SpreadsheetML2003SaveOptions](/cells/it/python-net/aspose.cells/spreadsheetml2003saveoptions) | Rappresenta le opzioni per il salvataggio del file spreadml di Excel 2003.|
 | [StreamProviderOptions](/cells/it/python-net/aspose.cells/streamprovideroptions) |Rappresenta le opzioni del flusso.|
 | [Style](/cells/it/python-net/aspose.cells/style) | Rappresenta lo stile di visualizzazione del documento Excel, come carattere, colore, allineamento, bordo, ecc.<br/> L'oggetto Style contiene tutti gli attributi di stile (carattere, formato numerico, allineamento e così via) come proprietà.|
 | [StyleFlag](/cells/it/python-net/aspose.cells/styleflag) | Rappresenta flag che indicano le proprietà di formattazione applicate.|
@@ -159,16 +159,16 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [ThemeColor](/cells/it/python-net/aspose.cells/themecolor) | Rappresenta un colore del tema.|
 | [ThreadedComment](/cells/it/python-net/aspose.cells/threadedcomment) | Rappresenta il commento con thread.|
 | [ThreadedCommentAuthor](/cells/it/python-net/aspose.cells/threadedcommentauthor) | Rappresenta la persona che crea i commenti in thread;|
-| [ThreadedCommentAuthorCollection](/cells/it/python-net/aspose.cells/threadedcommentauthorcollection) | Rappresenta tutte le persone che.|
+| [ThreadedCommentAuthorCollection](/cells/it/python-net/aspose.cells/threadedcommentauthorcollection) | Rappresenta tutte le persone che .|
 | [ThreadedCommentCollection](/cells/it/python-net/aspose.cells/threadedcommentcollection) | Rappresenta l'elenco dei commenti in thread.|
-| [Top10](/cells/it/python-net/aspose.cells/top10) | Descrivi le 10 principali regole di formattazione condizionale.<br/>Questa regola di formattazione condizionale evidenzia le celle cui<br/> i valori rientrano nella parentesi N superiore o N inferiore, come specificato.|
+| [Top10](/cells/it/python-net/aspose.cells/top10) | Descrivi la regola di formattazione condizionale Top10.<br/>Questa regola di formattazione condizionale evidenzia le celle cui<br/> i valori rientrano nella parentesi N superiore o N inferiore, come specificato.|
 | [Top10Filter](/cells/it/python-net/aspose.cells/top10filter) | Rappresenta i primi 10 filtri.|
 | [TwoColorGradient](/cells/it/python-net/aspose.cells/twocolorgradient) | Rappresenta due sfumature di colore.|
-| [TxtLoadOptions](/cells/it/python-net/aspose.cells/txtloadoptions) | Rappresenta le opzioni per il caricamento dei file di testo.|
+| [TxtLoadOptions](/cells/it/python-net/aspose.cells/txtloadoptions) | Rappresenta le opzioni per il caricamento del file di testo.|
 | [TxtSaveOptions](/cells/it/python-net/aspose.cells/txtsaveoptions) | Rappresenta le opzioni di salvataggio per csv/delimitato da tabulazioni/altro formato di testo.|
 | [UnionRange](/cells/it/python-net/aspose.cells/unionrange) | Rappresenta l'intervallo di unione.|
 | [Validation](/cells/it/python-net/aspose.cells/validation) |Rappresenta la convalida dei dati.impostazioni.|
-| [ValidationCollection](/cells/it/python-net/aspose.cells/validationcollection) | Rappresenta le raccolte di convalida dei dati.|
+| [ValidationCollection](/cells/it/python-net/aspose.cells/validationcollection) | Rappresenta la raccolta di convalida dei dati.|
 | [VerticalPageBreak](/cells/it/python-net/aspose.cells/verticalpagebreak) | Incapsula l'oggetto che rappresenta un'interruzione di pagina verticale.|
 | [VerticalPageBreakCollection](/cells/it/python-net/aspose.cells/verticalpagebreakcollection) | Incapsula una raccolta di oggetti [VerticalPageBreak](/cells/it/python-net/aspose.cells/verticalpagebreak).|
 | [WarningInfo](/cells/it/python-net/aspose.cells/warninginfo) | Informazioni di avviso|
@@ -179,7 +179,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [WorksheetCollection](/cells/it/python-net/aspose.cells/worksheetcollection) | Incapsula una raccolta di oggetti [Worksheet](/cells/it/python-net/aspose.cells/worksheet).|
 | [WriteProtection](/cells/it/python-net/aspose.cells/writeprotection) | Specifica le impostazioni di protezione da scrittura per una cartella di lavoro.|
 | [XlsSaveOptions](/cells/it/python-net/aspose.cells/xlssaveoptions) | Rappresenta le opzioni di salvataggio per il formato di file Excel 97-2003: xls e xlt.|
-| [XlsbSaveOptions](/cells/it/python-net/aspose.cells/xlsbsaveoptions) | Rappresenta le opzioni per il salvataggio dei file xlsb.|
+| [XlsbSaveOptions](/cells/it/python-net/aspose.cells/xlsbsaveoptions) | Rappresenta le opzioni per il salvataggio del file xlsb.|
 | [XmlColumnProperty](/cells/it/python-net/aspose.cells/xmlcolumnproperty) | Rappresenta le informazioni sull'associazione dati Xml.|
 | [XmlDataBinding](/cells/it/python-net/aspose.cells/xmldatabinding) | Rappresenta le informazioni sull'associazione dati Xml.|
 | [XmlLoadOptions](/cells/it/python-net/aspose.cells/xmlloadoptions) | Rappresenta le opzioni di caricamento di xml.|
@@ -192,7 +192,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 ###  Enumerazioni
 |Enumerazione| Descrizione|
 | :- | :- |
-| [AccessCacheOptions](/cells/it/python-net/aspose.cells/accesscacheoptions) | Opzioni di cache per l'accesso ai dati.| operatore per più opzioni insieme.|
+| [AccessCacheOptions](/cells/it/python-net/aspose.cells/accesscacheoptions) | Opzioni di cache per l'accesso ai dati. Combinabile con \| operatore per più opzioni insieme.|
 | [AutoFillType](/cells/it/python-net/aspose.cells/autofilltype) | Rappresenta il tipo di riempimento automatico.|
 | [AutoFitMergedCellsType](/cells/it/python-net/aspose.cells/autofitmergedcellstype) | Rappresenta il tipo di celle unite con adattamento automatico.|
 | [AutoFitWrappedTextType](/cells/it/python-net/aspose.cells/autofitwrappedtexttype) | Rappresenta il tipo di testo a capo con adattamento automatico.|
@@ -200,7 +200,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [BorderType](/cells/it/python-net/aspose.cells/bordertype) | Enumera i tipi di linea di confine e di linea diagonale.|
 | [BuiltinStyleType](/cells/it/python-net/aspose.cells/builtinstyletype) | Rappresenta tutti i tipi di stile incorporati.|
 | [CalcModeType](/cells/it/python-net/aspose.cells/calcmodetype) | Rappresenta il tipo di modalità delle formule di calcolo.|
-| [CalculationPrecisionStrategy](/cells/it/python-net/aspose.cells/calculationprecisionstrategy) | Enumera le strategie per la gestione della precisione di calcolo.<br/>A causa del problema di precisione dell'aritmetica in virgola mobile IEEE 754, alcune formule "apparentemente semplici" potrebbero non essere calcolate come risultato previsto.<br/>Come la formula "=-0.45+0.43+0.02", quando si calcolano direttamente gli operandi con l'operatore '+', il risultato non è zero.<br/> alcune strategie speciali possono dare il risultato atteso.|
+| [CalculationPrecisionStrategy](/cells/it/python-net/aspose.cells/calculationprecisionstrategy) | Enumera le strategie per la gestione della precisione di calcolo.<br/>A causa del problema di precisione dell'aritmetica in virgola mobile IEEE 754, alcune formule "apparentemente semplici" potrebbero non essere calcolate come risultato previsto.<br/>Come la formula "=-0.45+0.43+0.02", quando si calcolano direttamente gli operandi con l'operatore '+', il risultato non è zero. Per questo tipo di problema di precisione,<br/> alcune strategie speciali possono dare il risultato atteso.|
 | [CellBorderType](/cells/it/python-net/aspose.cells/cellbordertype) | Enumera il tipo di bordo di una cella.|
 | [CellValueFormatStrategy](/cells/it/python-net/aspose.cells/cellvalueformatstrategy) | Specifica come applicare lo stile per il valore della cella.|
 | [CellValueType](/cells/it/python-net/aspose.cells/cellvaluetype) | Specifica un tipo di valore di cella.|
@@ -225,15 +225,15 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [FileFormatType](/cells/it/python-net/aspose.cells/fileformattype) | Rappresenta i tipi di formato file.|
 | [FilterOperatorType](/cells/it/python-net/aspose.cells/filteroperatortype) | Tipo di operatore filtro personalizzato.|
 | [FilterType](/cells/it/python-net/aspose.cells/filtertype) | Il tipo di filtro.|
-| [FontSchemeType](/cells/it/python-net/aspose.cells/fontschemetype) | Rappresenta il tipo di schema del font.|
+| [FontSchemeType](/cells/it/python-net/aspose.cells/fontschemetype) | Rappresenta il tipo di schema del carattere.|
 | [FontSourceType](/cells/it/python-net/aspose.cells/fontsourcetype) | Specifica il tipo di un'origine font.|
 | [FontUnderlineType](/cells/it/python-net/aspose.cells/fontunderlinetype) |Enumera i tipi di sottolineatura del carattere.|
 | [FormatConditionType](/cells/it/python-net/aspose.cells/formatconditiontype) | Tipo di regola di formato condizionale.|
 | [FormatConditionValueType](/cells/it/python-net/aspose.cells/formatconditionvaluetype) | Tipo di valore della condizione.|
-| [GridlineType](/cells/it/python-net/aspose.cells/gridlinetype) | Enumera i tipi di linea della griglia.|
+| [GridlineType](/cells/it/python-net/aspose.cells/gridlinetype) | Enumera il tipo di linea della griglia.|
 | [HeaderFooterCommandType](/cells/it/python-net/aspose.cells/headerfootercommandtype) | Rappresenta il tipo di comando di intestazione e piè di pagina.|
 | [HtmlCrossType](/cells/it/python-net/aspose.cells/htmlcrosstype) | Rappresenta cinque tipi di stringhe incrociate html.|
-| [HtmlExportDataOptions](/cells/it/python-net/aspose.cells/htmlexportdataoptions) | Rappresenta le opzioni per l'esportazione dei dati html.|
+| [HtmlExportDataOptions](/cells/it/python-net/aspose.cells/htmlexportdataoptions) | Rappresenta le opzioni per l'esportazione di dati html.|
 | [HtmlHiddenColDisplayType](/cells/it/python-net/aspose.cells/htmlhiddencoldisplaytype) | Rappresenta due tipi di visualizzazione delle colonne nascoste in html.|
 | [HtmlHiddenRowDisplayType](/cells/it/python-net/aspose.cells/htmlhiddenrowdisplaytype) | Rappresenta due tipi di visualizzazione delle righe nascoste in html.|
 | [HtmlLinkTargetType](/cells/it/python-net/aspose.cells/htmllinktargettype) | Rappresenta il tipo di attributo target nel tag HTML []().|
@@ -256,7 +256,7 @@ Ad esempio, la classe [Workbook](/cells/it/python-net/aspose.cells/workbook) è 
 | [PasteOperationType](/cells/it/python-net/aspose.cells/pasteoperationtype) | Rappresenta il tipo di operazione quando si incolla l'intervallo.|
 | [PasteType](/cells/it/python-net/aspose.cells/pastetype) | Rappresenta il tipo speciale di pasta.|
 | [PrintCommentsType](/cells/it/python-net/aspose.cells/printcommentstype) | Rappresenta il modo in cui i commenti vengono stampati con il foglio.|
-| [PrintErrorsType](/cells/it/python-net/aspose.cells/printerrorstype) | Rappresenta le costanti di errore di stampa.|
+| [PrintErrorsType](/cells/it/python-net/aspose.cells/printerrorstype) | Rappresenta le costanti degli errori di stampa.|
 | [PrintOrderType](/cells/it/python-net/aspose.cells/printordertype) | Rappresenta le costanti dell'ordine di stampa.|
 | [PrintSizeType](/cells/it/python-net/aspose.cells/printsizetype) | Rappresenta la dimensione del grafico stampato.|
 | [PrintingPageType](/cells/it/python-net/aspose.cells/printingpagetype) | Indica quali pagine non verranno stampate.|

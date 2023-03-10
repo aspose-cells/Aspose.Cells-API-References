@@ -1,4 +1,4 @@
-﻿---
+---
 title: replace metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def replace(self, old_string, new_string):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | old_string | str | Gammalt strängvärde.|
 | new_string | str | Nytt strängvärde.|

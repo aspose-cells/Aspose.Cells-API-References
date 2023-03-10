@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_comment_title_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_comment_title_name(self, type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | aspose.cells.rendering.CommentTitleType |  |
 

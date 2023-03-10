@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_on_second_axis fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

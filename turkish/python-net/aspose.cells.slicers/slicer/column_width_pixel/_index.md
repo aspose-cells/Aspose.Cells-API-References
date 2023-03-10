@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width_pixel mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  column_width_pixel mülk
 
-Dilimleyicinin her sütunu için genişliği piksel cinsinden alır veya ayarlar.
+Dilimleyicinin her sütunu için genişliği piksel birimi cinsinden alır veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

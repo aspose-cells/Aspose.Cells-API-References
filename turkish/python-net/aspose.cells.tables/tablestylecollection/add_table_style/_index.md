@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_table_style yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_table_style(self, name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Tablo stili adı.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_values_row proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

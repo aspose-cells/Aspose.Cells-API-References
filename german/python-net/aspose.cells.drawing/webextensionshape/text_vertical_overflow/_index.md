@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_overflow Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den vertikalen Textüberlauftyp der Form ab, die Text enthält, und legt diesen fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import TextOverflowType

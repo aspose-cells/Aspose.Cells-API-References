@@ -1,4 +1,4 @@
-﻿---
+---
 title: extension_to_save_format metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| extension | str | Filtillägget. Kan vara med eller utan en inledande prick.|
+| extension | str | Filtillägget. Kan vara med eller utan en inledande prick. Fallet okänslig.|
 ###  Anmärkningar
 
 Om tillägget inte kan kännas igen, returnerar [SaveFormat.UNKNOWN](/cells/sv/python-net/aspose.cells/saveformat#UNKNOWN).

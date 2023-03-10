@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFilter Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -38,18 +38,18 @@ Der Typ AutoFilter macht die folgenden Member verfügbar:
 | [add_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/de/python-net/aspose.cells/autofilter/add_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Fügt einen Datumsfilter hinzu.|
 | [remove_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/de/python-net/aspose.cells/autofilter/remove_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Entfernt einen Datumsfilter.|
 | [filter(field_index, criteria)](/cells/de/python-net/aspose.cells/autofilter/filter/#int-str) | Filtert eine Liste mit angegebenen Kriterien.|
-| [filter_top10(field_index, is_top, is_percent, item_count)](/cells/de/python-net/aspose.cells/autofilter/filter_top10/#int-bool-bool-int) | Filtern Sie die Top 10 Elemente in der Liste|
+| [filter_top10(field_index, is_top, is_percent, item_count)](/cells/de/python-net/aspose.cells/autofilter/filter_top10/#int-bool-bool-int) | Filtern Sie die Top-10-Elemente in der Liste|
 | [dynamic_filter(field_index, dynamic_filter_type)](/cells/de/python-net/aspose.cells/autofilter/dynamic_filter/#int-DynamicFilterType) | Fügt einen dynamischen Filter hinzu.|
 | [add_font_color_filter(field_index, color)](/cells/de/python-net/aspose.cells/autofilter/add_font_color_filter/#int-CellsColor) | Fügt einen Schriftfarbenfilter hinzu.|
 | [add_fill_color_filter(field_index, pattern, foreground_color, background_color)](/cells/de/python-net/aspose.cells/autofilter/add_fill_color_filter/#int-BackgroundType-CellsColor-CellsColor) | Fügt einen Füllfarbenfilter hinzu.|
 | [add_icon_filter(field_index, icon_set_type, icon_id)](/cells/de/python-net/aspose.cells/autofilter/add_icon_filter/#int-IconSetType-int) | Fügt einen Symbolfilter hinzu.|
 | [match_blanks(field_index)](/cells/de/python-net/aspose.cells/autofilter/match_blanks/#int) | Übereinstimmung mit allen leeren Zellen in der Liste.|
-| [match_non_blanks(field_index)](/cells/de/python-net/aspose.cells/autofilter/match_non_blanks/#int) | Ordnen Sie alle nicht leeren Zellen in der Liste zu.|
+| [match_non_blanks(field_index)](/cells/de/python-net/aspose.cells/autofilter/match_non_blanks/#int) | Übereinstimmung mit allen nicht leeren Zellen in der Liste.|
 | [show_all()](/cells/de/python-net/aspose.cells/autofilter/show_all/#) | Alle Zeilen einblenden.|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields propiedad
 
-Obtiene la lista de campos de probabilidades.
+Obtiene la lista de campos de ods.
 ###  Definición:
 ```python
 @property

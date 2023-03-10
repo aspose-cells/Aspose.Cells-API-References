@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSecurityOptions constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 El siguiente código establece el permiso de impresión de alta resolución para el pdf de salida.
 

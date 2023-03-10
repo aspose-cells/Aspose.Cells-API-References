@@ -1,6 +1,6 @@
-﻿---
+---
 title: merged_cells 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1150
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-在这个集合中，每个项目都是一个 [CellArea](/cells/zh/python-net/aspose.cells/cellarea) 结构，代表合并单元格的区域。
+在此集合中，每个项目都是一个 [CellArea](/cells/zh/python-net/aspose.cells/cellarea) 结构，代表合并单元格的区域。
 ### 定义：
 ```python
 @property

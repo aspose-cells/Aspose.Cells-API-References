@@ -1,4 +1,4 @@
-﻿---
+---
 title: move_to yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def move_to(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Hedef sayfa dizini.|
 

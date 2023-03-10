@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_date_time yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

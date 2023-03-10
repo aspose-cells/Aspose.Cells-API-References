@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlHiddenRowDisplayType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo HtmlHiddenRowDisplayType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | HIDDEN | Nascoste le righe nascoste nella pagina html.|
-| REMOVE | Rimuovi le righe nascoste nelle pagine html.|
+| REMOVE | Rimuovi le righe nascoste nella pagina html.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: title propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie le title de l'objet Slicer actuel.
 
-###  Exemples
+###  Exemple
 
 ```python
 

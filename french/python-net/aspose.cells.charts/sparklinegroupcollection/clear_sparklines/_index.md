@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_sparklines méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,9 +18,9 @@ def clear_sparklines(self, cell_area):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Spécifie la zone de cellules|
+| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Spécifie la zone des cellules|
 
 
 

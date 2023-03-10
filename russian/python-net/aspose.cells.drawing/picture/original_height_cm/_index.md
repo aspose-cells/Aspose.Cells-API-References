@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_height_cm недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает исходную высоту изображения в сантиметрах.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: soft_edges Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den auf die Kanten anzuwendenden Weichzeichnungsradius in Punkteinheiten ab und legt diesen fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

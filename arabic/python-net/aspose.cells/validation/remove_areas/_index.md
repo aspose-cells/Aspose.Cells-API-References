@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_areas
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | areas | list | المناطق حيث يجب إزالة إعدادات التحقق من الصحة.|
 

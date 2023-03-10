@@ -1,4 +1,4 @@
-﻿---
+---
 title: Protection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -46,7 +46,7 @@ Le type Protection expose les membres suivants :
 | [allow_editing_scenario](/cells/fr/python-net/aspose.cells/protection/allow_editing_scenario) | Représente si l'utilisateur est autorisé à modifier des scénarios sur une feuille de calcul protégée.|
 | [is_editing_scenarios_allowed](/cells/fr/python-net/aspose.cells/protection/is_editing_scenarios_allowed) | Représente si l'utilisateur est autorisé à modifier des scénarios sur une feuille de calcul protégée.|
 | [password](/cells/fr/python-net/aspose.cells/protection/password) | Représente le mot de passe pour protéger la feuille de calcul.|
-| [is_protected_with_password](/cells/fr/python-net/aspose.cells/protection/is_protected_with_password) |Indique si les feuilles de calcul sont protégées par mot de passe.|
+| [is_protected_with_password](/cells/fr/python-net/aspose.cells/protection/is_protected_with_password) |Indique si les feuilles de calcul sont protégées par un mot de passe.|
 | [allow_selecting_locked_cell](/cells/fr/python-net/aspose.cells/protection/allow_selecting_locked_cell) | Indique si l'utilisateur est autorisé à sélectionner des cellules verrouillées dans une feuille de calcul protégée.|
 | [is_selecting_locked_cells_allowed](/cells/fr/python-net/aspose.cells/protection/is_selecting_locked_cells_allowed) | Indique si l'utilisateur est autorisé à sélectionner des cellules verrouillées dans une feuille de calcul protégée.|
 | [allow_selecting_unlocked_cell](/cells/fr/python-net/aspose.cells/protection/allow_selecting_unlocked_cell) |Indique si l'utilisateur est autorisé à sélectionner des cellules déverrouillées dans une feuille de calcul protégée.|
@@ -62,7 +62,7 @@ Le type Protection expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

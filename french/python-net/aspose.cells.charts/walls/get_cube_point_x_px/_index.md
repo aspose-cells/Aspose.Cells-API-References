@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cube_point_x_px méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.charts/walls/get_cube_point_x_px/
 is_root: false
 ---
 ##  get_cube_point_x_px(index) {#int}
-Obtient les coordonnées x du point culminant du cube des murs après avoir appelé la méthode Chart.Calculate().
+Obtient la coordonnée x du point culminant du cube des murs après avoir appelé la méthode Chart.Calculate().
 Le nombre de points de sommet du cube des murs est de huit
 
 
@@ -19,7 +19,7 @@ def get_cube_point_x_px(self, index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | index | int |  |
 

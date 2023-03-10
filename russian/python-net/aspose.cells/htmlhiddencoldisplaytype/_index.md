@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlHiddenColDisplayType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | HIDDEN | Скрытые скрытые столбцы в html-странице.|
-| REMOVE | Удалите скрытые столбцы на html-страницах.|
+| REMOVE | Удалите скрытые столбцы в html-странице.|
 
 
 

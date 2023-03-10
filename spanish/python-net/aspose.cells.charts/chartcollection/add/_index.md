@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [ChartType](/cells/es/python-net/aspose.cells.charts/charttype) | Tipo de gráfico|
 | upper_left_row | int | Índice de la fila superior izquierda.|
@@ -46,7 +46,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [ChartType](/cells/es/python-net/aspose.cells.charts/charttype) | Tipo de gráfico|
 | data_range | str | Especifica el rango de datos del gráfico.|
@@ -56,7 +56,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | bottom_column | int | Índice de la columna inferior derecha|
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto.
+NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice la propiedad [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/es/python-net/aspose.cells.charts/chartcollection/add).
  Esta propiedad se eliminará 12 meses después desde mayo de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
@@ -76,7 +76,7 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | data | bytes | Los datos del archivo de plantilla de gráfico (.crtx).|
 | data_range | str | Especifica el rango de datos del gráfico.|
@@ -102,7 +102,7 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [ChartType](/cells/es/python-net/aspose.cells.charts/charttype) | Tipo de gráfico|
 | data_range | str | Especifica el rango de datos del gráfico.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.rendering/sheetrender/to_image/
 is_root: false
 ---
 ##  to_image(page_index, file_name) {#int-str}
-Renderizar ciertas páginas a un archivo.
+Renderizar cierta página a un archivo.
 
 
 
@@ -18,12 +18,12 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | page_index | int | indicar qué página se va a convertir|
 | file_name | str | nombre de archivo de la imagen de salida|
 
-###  Ejemplos
+###  Ejemplo
 
 El siguiente código genera la primera página de la primera hoja en una imagen png.
 
@@ -46,7 +46,7 @@ sr.to_image(0, "output.png")
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Renderizar ciertas páginas a una secuencia.
+Renderizar cierta página a una secuencia.
 
 
 
@@ -56,7 +56,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | page_index | int | indicar qué página se va a convertir|
 | stream | io.RawIOBase | el flujo de la imagen de salida|

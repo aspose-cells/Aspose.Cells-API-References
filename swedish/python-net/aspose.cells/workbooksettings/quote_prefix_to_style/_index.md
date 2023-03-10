@@ -1,4 +1,4 @@
-﻿---
+---
 title: quote_prefix_to_style fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix_to_style fastighet
 
-Anger om egenskapen [Style.quote_prefix](/cells/sv/python-net/aspose.cells/style#quote_prefix) anges när strängvärdet (som börjar med enkla citattecken) skrivs in i cellen
+Anger om egenskapen [Style.quote_prefix](/cells/sv/python-net/aspose.cells/style#quote_prefix) anges när strängvärdet (som börjar med enkla citattecken ) anges i cellen
 ###  Definition:
 ```python
 @property

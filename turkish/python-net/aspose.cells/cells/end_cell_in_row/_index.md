@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_cell_in_row yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def end_cell_in_row(self, row_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | Satır dizini.|
 
@@ -42,7 +42,7 @@ def end_cell_in_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | end_row | int | Son satır dizini.|

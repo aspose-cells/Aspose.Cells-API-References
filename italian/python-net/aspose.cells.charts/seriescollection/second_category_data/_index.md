@@ -1,4 +1,4 @@
-﻿---
+---
 title: second_category_data proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -12,7 +12,7 @@ is_root: false
  Ottiene o imposta l'intervallo dei valori Axis della seconda categoria.
  Può essere un intervallo di celle (come "d1:e10"),
  o una sequenza di valori (come "{2,6,8,10}").
-Effetti solo quando alcuni ASeries tracciano sul secondo asse.
+Ha effetto solo quando alcuni ASeries tracciano sul secondo asse.
 ###  Definizione:
 ```python
 @property

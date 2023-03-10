@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Beginnt mit dem Speichern eines Arbeitsblatts.
 
 ###  Kehrt zurück
 
-true, wenn dieser Anbieter Daten für das angegebene Blatt bereitstellt, false, wenn das angegebene Blatt sein normales Datenmodell verwenden soll (Cells).
+wahr, wenn dieser Anbieter Daten für das angegebene Blatt bereitstellt; false, wenn das angegebene Blatt sein normales Datenmodell verwenden soll (Cells).
 
 
 ```python

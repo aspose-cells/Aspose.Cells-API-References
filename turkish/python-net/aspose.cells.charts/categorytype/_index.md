@@ -1,4 +1,4 @@
-﻿---
+---
 title: CategoryType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,8 +17,8 @@ CategoryType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| AUTOMATIC_SCALE | Otomatik Terazi|
-| CATEGORY_SCALE | Kategori Ölçeği|
+| AUTOMATIC_SCALE | Otomatik Ölçek|
+| CATEGORY_SCALE | KategoriÖlçek|
 | TIME_SCALE | Zaman Ölçeği|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagPropertyCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.markup/smarttagpropertycollection/
 is_root: false
 ---
 ##  SmartTagPropertyCollection الدرجة
-يمثل جميع خصائص العلامات الذكية للخلية.
+يمثل كافة خصائص العلامة الذكية للخلية.
 
 
 

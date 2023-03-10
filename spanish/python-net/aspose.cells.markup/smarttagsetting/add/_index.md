@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, cell_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | El nombre de la celda.|
 
@@ -33,7 +33,7 @@ Agrega un objeto [SmartTagCollection](/cells/es/python-net/aspose.cells.markup/s
 
 ###  Devoluciones
 
-Devuelve el índice de un objeto [SmartTagCollection](/cells/es/python-net/aspose.cells.markup/smarttagcollection) en la hoja de trabajo.
+Devuelve el índice de un objeto [SmartTagCollection](/cells/es/python-net/aspose.cells.markup/smarttagcollection) en la hoja de cálculo.
 
 
 ```python
@@ -42,7 +42,7 @@ def add(self, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | La fila de la celda.|
 | column | int | La columna de la celda.|

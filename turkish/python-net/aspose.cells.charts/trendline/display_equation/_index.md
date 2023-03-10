@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_equation mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation mülk
 
-Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde).
+Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde). Bu özelliği True olarak ayarlamak veri etiketlerini otomatik olarak açar.
 ###  Tanım:
 ```python
 @property

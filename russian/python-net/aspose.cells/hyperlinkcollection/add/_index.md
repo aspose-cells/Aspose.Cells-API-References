@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | cell_name | str | Cell имя.|
 | total_rows | int | Количество строк в этом диапазоне гиперссылок.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | first_row | int | Первая строка диапазона гиперссылок.|
 | first_column | int | Первый столбец диапазона гиперссылок.|
@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | Количество столбцов этого диапазона гиперссылок.|
 | address | str | Адрес гиперссылки.|
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook
@@ -82,7 +82,7 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_cell_name | str | Верхняя левая ячейка диапазона.|
 | end_cell_name | str | Нижняя правая ячейка диапазона.|

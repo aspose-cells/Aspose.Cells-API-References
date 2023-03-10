@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetMaterialType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ El tipo PresetMaterialType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | CLEAR | Claro|
-| DARK_EDGE | bordes oscuros|
+| DARK_EDGE | borde oscuro|
 | FLAT | Departamento|
 | LEGACY_MATTE | Mate heredado|
 | LEGACY_METAL | Metal heredado|
@@ -28,10 +28,10 @@ El tipo PresetMaterialType expone los siguientes miembros:
 | METAL | Metal|
 | PLASTIC | El plastico|
 | POWDER | Polvo|
-| SOFT_EDGE | Bordes suaves|
+| SOFT_EDGE | Borde suave|
 | SOFT_METAL | metal blando|
 | TRANSLUCENT_POWDER | Polvo translúcido|
-| WARM_MATTE | cálido mate|
+| WARM_MATTE | Mate cálido|
 
 
 

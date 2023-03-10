@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect_shared_workbook yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def protect_shared_workbook(self, password):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | password | str | Çalışma kitabını korumak için parola.|
 

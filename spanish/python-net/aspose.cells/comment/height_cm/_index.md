@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_cm propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa la altura del comentario, en unidades de centímetros.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: contrast mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Picture.in yüzde birimi için contrast değişikliğini temsil eder.
 
 ###  Notlar
 
--%100 ile %100 arasındadır.
+-%100 ile %100 arasındadır. Excel 2007 veya üzeri sürümlerle aynı şekilde çalışır.
 ###  Tanım:
 ```python
 @property

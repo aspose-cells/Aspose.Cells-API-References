@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_columns fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_columns fastighet
 
-Hämtar ListColumns av ListObject.
+Hämtar ListColumns för ListObject.
 ###  Definition:
 ```python
 @property

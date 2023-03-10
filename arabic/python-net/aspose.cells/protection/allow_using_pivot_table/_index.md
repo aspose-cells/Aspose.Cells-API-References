@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_using_pivot_table الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

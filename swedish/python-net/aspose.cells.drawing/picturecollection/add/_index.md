@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
@@ -54,7 +54,7 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
@@ -85,7 +85,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
@@ -119,7 +119,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
@@ -152,7 +152,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
@@ -186,7 +186,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | upper_left_column | int | Övre vänstra kolumnindex.|

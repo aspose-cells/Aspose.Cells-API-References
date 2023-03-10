@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-يضيف وحدات نمطية لورقة العمل.
+يضيف وحدة لورقة العمل.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | ورقة العمل|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/ar/python-net/aspose.cells.vba/vbamoduletype) | نوع الوحدة.|
 | name | str | اسم الوحدة.|

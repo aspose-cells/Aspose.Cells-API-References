@@ -1,4 +1,4 @@
-﻿---
+---
 title: shift_first_row_down الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_show mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_show mülk
 
-Belirtilen PivotTable alanının otomatik olarak gösterilip gösterilmediğini belirtir, yalnızca excel 2003 için geçerlidir.
+Belirtilen PivotTable alanının otomatik olarak gösterilip gösterilmediğini gösterir, yalnızca excel 2003 için geçerlidir.
 ###  Tanım:
 ```python
 @property

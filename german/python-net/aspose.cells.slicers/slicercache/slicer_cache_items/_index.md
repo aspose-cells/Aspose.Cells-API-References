@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache_items Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items Eigentum
 
-Gibt eine SlicerCacheItem-Auflistung zurück, die die Auflistung aller Elemente im Slicer-Cache enthält.
+Gibt eine SlicerCacheItem-Auflistung zurück, die die Auflistung aller Elemente im Slicer-Cache enthält. Schreibgeschützt
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parse propiedad
 
-Si la fórmula dada es parse. El valor predeterminado es verdadero.
+Si parse fórmula dada. El valor predeterminado es verdadero.
 Si es falso, la cadena de fórmula dada se mantendrá como está para la celda hasta que el usuario llame a otros métodos para parse.
 o se requieren datos de fórmulas analizadas para otras operaciones, como el cálculo de fórmulas.
 ###  Definición:

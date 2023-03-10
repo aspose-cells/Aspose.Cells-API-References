@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_width недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Этот элемент устарел.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
  используйте свойство Shape.Line.BeginArrowheadWidth.
  Это свойство будет удалено через 12 месяцев, начиная с августа 2016 года.
 Aspose приносит извинения за возможные неудобства.

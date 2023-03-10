@@ -1,4 +1,4 @@
-﻿---
+---
 title: terminate_without_exception propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  terminate_without_exception propriété
 
-Lorsque la procédure est interrompue, s'il faut terminer la procédure silencieusement ou lever une exception.
+Lorsque la procédure est interrompue, qu'elle soit terminée silencieusement ou qu'elle lève une exception.
 La valeur par défaut est false, c'est-à-dire que lorsque [AbstractInterruptMonitor.is_interruption_requested](/cells/fr/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) est vrai,
 un [CellsException](/cells/fr/python-net/aspose.cells/cellsexception) avec le code [ExceptionType.INTERRUPTED](/cells/fr/python-net/aspose.cells/exceptiontype#INTERRUPTED) sera lancé.
 ###  Définition:

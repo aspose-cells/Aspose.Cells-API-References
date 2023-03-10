@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_effect_in_chart metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,9 +22,9 @@ def add_text_effect_in_chart(self, effect, text, font_name, size, font_bold, fon
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| effect | [MsoPresetTextEffect](/cells/sv/python-net/aspose.cells.drawing/msopresettexteffect) | Den förinställda texteffekttypen för mso.|
+| effect | [MsoPresetTextEffect](/cells/sv/python-net/aspose.cells.drawing/msopresettexteffect) | Den mso förinställda texteffekttypen.|
 | text | str | WordArt-texten.|
 | font_name | str | Teckensnittets namn.|
 | size | int | Teckenstorleken|

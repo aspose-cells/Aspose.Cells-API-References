@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridlineType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType uppräkning
-Räknar upp rutnätslinjetyper.
+Räknar upp rutnätslinjetyp.
 
 
 

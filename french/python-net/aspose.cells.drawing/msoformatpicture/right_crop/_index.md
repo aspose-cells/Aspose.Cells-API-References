@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_crop propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_crop propriété
 
-Représente l'emplacement de la droite du rectangle de recadrage, exprimé sous la forme d'un rapport de la largeur de l'image.
+Représente l'emplacement de la droite du rectangle de recadrage exprimé, exprimé sous la forme d'un rapport de la largeur de l'image.
 ###  Définition:
 ```python
 @property

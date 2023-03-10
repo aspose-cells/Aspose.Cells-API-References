@@ -1,4 +1,4 @@
-﻿---
+---
 title: next metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Flyttar markören ned en rad från dess nuvarande position.
 
 ###  Returnerar
 
-om den nya aktuella raden är giltig, falsk om det inte finns fler rader
+om den nya aktuella raden är giltig; falskt om det inte finns fler rader
 
 
 ```python

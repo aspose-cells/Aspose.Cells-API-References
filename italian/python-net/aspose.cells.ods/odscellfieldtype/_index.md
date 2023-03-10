@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellFieldType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType enumerazione
-Rappresenta il tipo di campo della cella delle quote.
+Rappresenta il tipo di campo cella di ods.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_full_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ def get_full_name(self, sheet_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet_name | str | اسم ورقة العمل|
 

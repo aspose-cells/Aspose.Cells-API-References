@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_rendering_hint mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint mülk
 
 Metin oluşturma kalitesini belirtir.
-Varsayılan değer TextRenderingHint'tir.SystemDefault
+Varsayılan değer TextRenderingHint.SystemDefault şeklindedir.
 ###  Tanım:
 ```python
 @property

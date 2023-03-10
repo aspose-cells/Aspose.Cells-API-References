@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_width_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_inch الملكية
 
-عرض النافذة بوحدات البوصة.
+عرض النافذة بوحدة البوصة.
 ###  تعريف:
 ```python
 @property

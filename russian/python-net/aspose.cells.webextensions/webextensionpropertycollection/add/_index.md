@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Индекс добавленных свойств.
+Индекс добавленного свойства.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | name | str | Имя свойства.|
 | value | str | Стоимость имущества.|

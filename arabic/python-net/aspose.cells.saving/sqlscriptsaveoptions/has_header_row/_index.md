@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_header_row الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_header_row الملكية
 
-يشير إلى ما إذا كان النطاق يحتوي على صف رأس.
+يشير إلى ما إذا كان النطاق يحتوي على صف الرأس.
 ###  تعريف:
 ```python
 @property

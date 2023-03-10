@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_refers_to método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def get_refers_to(self, is_r1c1, is_local):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_r1c1 | bool | Si la referencia debe formatearse como R1C1.|
 | is_local | bool | Si la referencia debe formatearse según la configuración regional.|
@@ -35,7 +35,7 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_r1c1 | bool | Si la referencia debe formatearse como R1C1.|
 | is_local | bool | Si la referencia debe formatearse según la configuración regional.|

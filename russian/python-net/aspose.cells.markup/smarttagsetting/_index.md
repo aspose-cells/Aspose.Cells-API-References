@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagSetting класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
 ##  SmartTagSetting класс
-Представляет все [SmartTagCollection](/cells/ru/python-net/aspose.cells.markup/smarttagcollection) объектов на листе.
+Представляет все объекты [SmartTagCollection](/cells/ru/python-net/aspose.cells.markup/smarttagcollection) на листе.
 
 
 

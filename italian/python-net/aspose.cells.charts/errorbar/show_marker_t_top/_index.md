@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_marker_t_top proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

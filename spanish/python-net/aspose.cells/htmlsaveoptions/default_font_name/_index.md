@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_font_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

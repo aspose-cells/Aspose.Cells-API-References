@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_offset méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def get_offset(self, row_offset, column_offset):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_offset | int | Décalage de ligne dans cette plage, basé sur zéro.|
 | column_offset | int |Décalage de colonne dans cette plage, basé sur zéro.|

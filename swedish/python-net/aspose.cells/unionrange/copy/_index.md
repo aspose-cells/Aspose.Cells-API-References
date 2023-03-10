@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def copy(self, range, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [UnionRange](/cells/sv/python-net/aspose.cells/unionrange) | Källomfånget.|
 | options | [PasteOptions](/cells/sv/python-net/aspose.cells/pasteoptions) | Klistra specialalternativ.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: compare_to yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  İadeler
 
-İki köşe farklı sıralardaysa, sıra dizinlerini karşılaştırın.
+İki köşe farklı sıralardaysa, sıra dizinlerini karşılaştırın. Aksi takdirde, sütun dizinlerini karşılaştırın.
 İki köşe aynıysa, 0 döndürülür.
 
 
@@ -23,7 +23,7 @@ def compare_to(self, obj):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | obj | any |  |
 

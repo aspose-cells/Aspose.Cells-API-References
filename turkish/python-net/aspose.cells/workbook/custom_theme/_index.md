@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_theme yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | theme_name | str | tema adı|
 | colors | aspose.pydrawing.Color[] | Tema renkleri|
@@ -27,10 +27,10 @@ def custom_theme(self, theme_name, colors):
 Renklerin uzunluğu 12 olmalıdır.
 | dizi dizini| Tema türü|
 | :- | :- |
-| 0| arka plan 1|
+| 0| Arka plan1|
 | 1| Metin 1|
 | 2| Arka plan2|
-| 3| Metin2|
+| 3| metin2|
 | 4| aksan1|
 | 5| aksan2|
 | 6| Vurgu3|

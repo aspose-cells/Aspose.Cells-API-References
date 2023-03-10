@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionLogCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type RevisionLogCollection expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [days_preserving_history](/cells/fr/python-net/aspose.cells.revisions/revisionlogcollection/days_preserving_history) |Obtient et définit le nombre de jours pendant lesquels l'application de feuille de calcul conservera l'historique des modifications pour ce classeur.|
-| [capacity](/cells/fr/python-net/aspose.cells.revisions/revisionlogcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.revisions/revisionlogcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

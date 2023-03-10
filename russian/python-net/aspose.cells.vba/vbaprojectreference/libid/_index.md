@@ -1,4 +1,4 @@
-﻿---
+---
 title: libid недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid недвижимость
 
-Получает и задает либид ссылки.
+Получает и задает Libid ссылки.
 ###  Определение:
 ```python
 @property

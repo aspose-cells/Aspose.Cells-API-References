@@ -1,4 +1,4 @@
-﻿---
+---
 title: max_change Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  max_change Eigentum
 
-Gibt die maximale Anzahl von Änderungen zum Auflösen eines Zirkelverweises zurück oder legt sie fest.
+Gibt die maximale Anzahl der Änderungen zurück oder legt sie fest, um einen Zirkelverweis aufzulösen.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.MaxChange.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.MaxChange.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

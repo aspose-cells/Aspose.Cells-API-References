@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_calculated_field الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_calculated_field الملكية
 
-الإشارة إلى ما إذا كان حقل PivotTable المحدد حقلاً محسوبًا.
+الإشارة إلى ما إذا كان حقل PivotTable المحدد محسوبًا أم لا.
 ###  تعريف:
 ```python
 @property

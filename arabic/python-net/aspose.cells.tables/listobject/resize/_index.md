@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة resize
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def resize(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية للنطاق الجديد.|
 | start_column | int | فهرس عمود البداية للنطاق الجديد.|

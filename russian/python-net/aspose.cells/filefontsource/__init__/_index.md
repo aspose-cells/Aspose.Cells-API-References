@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFontSource конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/filefontsource/__init__/
 is_root: false
 ---
 ##  FileFontSource(file_path) {#str}
-Директор.
+Стор.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, file_path):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | file_path | str | путь к файлу шрифта|
 

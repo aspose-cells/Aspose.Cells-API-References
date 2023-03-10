@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id Eigentum
 
-Ruft die Identität des Anbieters ab.
+Ruft die ID des Anbieters ab.
 ###  Definition:
 ```python
 @property

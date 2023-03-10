@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_size الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size الملكية
 
-يشير إلى ما إذا كان سيتم تغيير حجم مساحة الرسم تلقائيًا.
+يشير إلى ما إذا كان حجم مساحة الرسم آليًا.
 ###  تعريف:
 ```python
 @property

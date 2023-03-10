@@ -1,4 +1,4 @@
-﻿---
+---
 title: y mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Çalışma sayfasının üst sınırından dikey şeklin uzaklığını piksel birimi cinsinden alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

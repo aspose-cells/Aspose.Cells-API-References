@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_entire_cell_contents propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents propiedad
 
-Indica si hacer coincidir todo el contenido de la celda
+Indica si hacer coincidir el contenido de celdas completas
 ###  Definición:
 ```python
 @property

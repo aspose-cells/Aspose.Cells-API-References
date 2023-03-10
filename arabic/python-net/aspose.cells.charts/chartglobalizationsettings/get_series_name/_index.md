@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_series_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

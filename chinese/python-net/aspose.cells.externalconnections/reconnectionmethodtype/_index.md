@@ -1,6 +1,6 @@
-﻿---
+---
 title: ReConnectionMethodType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 130
@@ -14,7 +14,7 @@ is_root: false
 
 ReConnectionMethodType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | REQUIRED |刷新时使用现有的连接信息，如果它最终无效<br/>然后获取更新的连接信息（如果可从外部连接文件获得）。|

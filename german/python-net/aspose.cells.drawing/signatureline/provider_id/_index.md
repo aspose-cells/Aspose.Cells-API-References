@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Ruft die ID des Signaturanbieters ab und legt sie fest.
 
 Dies ist in der Regel die CLSID des Provider-COM-Add-Ins.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import SignatureLine

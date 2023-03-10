@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_array metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/import_array/
 is_root: false
 ---
 ##  import_array(string_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importerar en uppsättning strängar till ett kalkylblad.
+Importerar en array av sträng till ett kalkylblad.
 
 
 
@@ -18,7 +18,7 @@ def import_array(self, string_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | string_array | list | Strängarray.|
 | first_row | int | Radnumret för den första cellen att importera i.|
@@ -37,7 +37,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | int_array | list | Heltalsmatris.|
 | first_row | int | Radnumret för den första cellen att importera i.|
@@ -46,7 +46,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 
 
 ##  import_array(double_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importerar en uppsättning dubblar till ett kalkylblad.
+Importerar en array av dubbel till ett kalkylblad.
 
 
 
@@ -56,7 +56,7 @@ def import_array(self, double_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | double_array | list | Dubbel array.|
 | first_row | int | Radnumret för den första cellen att importera i.|

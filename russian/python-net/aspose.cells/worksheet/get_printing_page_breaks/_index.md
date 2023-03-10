@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_printing_page_breaks метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Области автоматического разрыва страницы.
+Области автоматического разрыва страниц.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | options | aspose.cells.rendering.ImageOrPrintOptions | Параметры печати|
 ###  Примечания

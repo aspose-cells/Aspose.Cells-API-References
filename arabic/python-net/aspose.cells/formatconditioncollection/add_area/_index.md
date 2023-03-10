@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_area
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-فهرس نطاق الخلية المنسق شرطيًا.
+فهرس رن الخلية المنسق الشرطي.
 
 
 ```python
@@ -22,9 +22,9 @@ def add_area(self, cell_area):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) |نطاق الخلايا المنسق شرطيًا.|
+| cell_area | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) |نطاق الخلايا المنسق الشرطي.|
 
 
 

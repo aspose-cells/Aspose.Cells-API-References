@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_condition método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add_condition(self, type):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/es/python-net/aspose.cells/formatconditiontype) | Tipo de condición de formato.|
 
@@ -42,7 +42,7 @@ def add_condition(self, type, operator_type, formula1, formula2):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/es/python-net/aspose.cells/formatconditiontype) | [FormatConditionType](/cells/es/python-net/aspose.cells/formatconditiontype) de formato condicional.<br/> Podría ser uno de los miembros de FormatConditionType.|
 | operator_type | [OperatorType](/cells/es/python-net/aspose.cells/operatortype) | La comparación [OperatorType](/cells/es/python-net/aspose.cells/operatortype).<br/> Podría ser uno de los miembros de OperatorType.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: distance propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance propiedad
 
-Obtiene y establece la distancia a distance de la sombra, en unidades de puntos.
+Obtiene y establece hasta dónde distance la sombra, en unidades de puntos.
 ###  Definición:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.texts
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -12,7 +12,7 @@ is_root: false
 ###  Clases
 | Clase| Descripción|
 | :- | :- |
-| [AutoNumberedBulletValue](/cells/es/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Representa viñetas numeradas automáticamente.|
+| [AutoNumberedBulletValue](/cells/es/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Representa una viñeta numerada automáticamente.|
 | [Bullet](/cells/es/python-net/aspose.cells.drawing.texts/bullet) | Representa la bala.|
 | [BulletValue](/cells/es/python-net/aspose.cells.drawing.texts/bulletvalue) | Representa el valor de la bala.|
 | [CharacterBulletValue](/cells/es/python-net/aspose.cells.drawing.texts/characterbulletvalue) | Representa la viñeta del carácter.|
@@ -22,7 +22,7 @@ is_root: false
 | [ShapeTextAlignment](/cells/es/python-net/aspose.cells.drawing.texts/shapetextalignment) | Representa la configuración de la alineación del texto de la forma;|
 | [TextOptions](/cells/es/python-net/aspose.cells.drawing.texts/textoptions) | Representa las opciones de texto.|
 | [TextParagraph](/cells/es/python-net/aspose.cells.drawing.texts/textparagraph) | Representa la configuración del párrafo de texto.|
-| [TextParagraphCollection](/cells/es/python-net/aspose.cells.drawing.texts/textparagraphcollection) | Representa todos los párrafos de texto.|
+| [TextParagraphCollection](/cells/es/python-net/aspose.cells.drawing.texts/textparagraphcollection) | Representa todo el párrafo de texto.|
 | [TextTabStop](/cells/es/python-net/aspose.cells.drawing.texts/texttabstop) | Representa tabulación.|
 | [TextTabStopCollection](/cells/es/python-net/aspose.cells.drawing.texts/texttabstopcollection) | Representa la lista de todas las tabulaciones.|
 
@@ -32,7 +32,7 @@ is_root: false
 | :- | :- |
 | [BulletType](/cells/es/python-net/aspose.cells.drawing.texts/bullettype) | Representa el tipo de bala.|
 | [LineSpaceSizeType](/cells/es/python-net/aspose.cells.drawing.texts/linespacesizetype) | Representa el tipo de unidad del tamaño del espacio de línea.|
-| [TextAutonumberScheme](/cells/es/python-net/aspose.cells.drawing.texts/textautonumberscheme) | Representa todos los esquemas de números automáticos.|
+| [TextAutonumberScheme](/cells/es/python-net/aspose.cells.drawing.texts/textautonumberscheme) | Representa todo el esquema numérico automático.|
 | [TextFontAlignType](/cells/es/python-net/aspose.cells.drawing.texts/textfontaligntype) | Representa los diferentes tipos de alineación de fuentes.|
 | [TextNodeType](/cells/es/python-net/aspose.cells.drawing.texts/textnodetype) | Representa el tipo de nodo.|
 | [TextTabAlignmentType](/cells/es/python-net/aspose.cells.drawing.texts/texttabalignmenttype) | Representa los tipos de alineación de pestañas de texto.|

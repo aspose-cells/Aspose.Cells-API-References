@@ -1,4 +1,4 @@
-﻿---
+---
 title: skip_empty_rows fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

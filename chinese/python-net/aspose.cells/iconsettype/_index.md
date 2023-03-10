@@ -1,6 +1,6 @@
-﻿---
+---
 title: IconSetType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2190
@@ -16,7 +16,7 @@ is_root: false
 
 IconSetType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ARROWS3 | 3 个箭头图标集。|
@@ -41,8 +41,8 @@ IconSetType 类型公开了以下成员：
 | TRIANGLES3 |3个三角形组|
 | NONE |没有任何|
 | CUSTOM_SET |自定义设置。<br/>该元素是只读的。|
-| SMILIES3 | 3个微笑。<br/>仅适用于 .ods。|
-| COLOR_SMILIES3 | 3 种颜色的微笑。<br/>仅适用于 .ods。|
+| SMILIES3 | 3 个表情符号。<br/>仅适用于 .ods。|
+| COLOR_SMILIES3 | 3 种颜色的表情符号。<br/>仅适用于 .ods。|
 
 
 

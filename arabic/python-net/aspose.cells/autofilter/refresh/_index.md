@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة refresh
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -39,7 +39,7 @@ def refresh(self, hide_rows):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | hide_rows | bool | إذا كان صحيحًا ، قم بإخفاء الصفوف التي تمت تصفيتها.|
 

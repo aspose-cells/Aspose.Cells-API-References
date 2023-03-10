@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة equals
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,9 +22,9 @@ def equals(self, font):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| font | [Font](/cells/ar/python-net/aspose.cells/font) |مقارنة كائنات الخط.|
+| font | [Font](/cells/ar/python-net/aspose.cells/font) |مقارنة كائن الخط.|
 
 
 

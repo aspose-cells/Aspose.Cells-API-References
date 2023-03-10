@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_width_cm Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Originalbreite des Bildes in Zentimetern ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

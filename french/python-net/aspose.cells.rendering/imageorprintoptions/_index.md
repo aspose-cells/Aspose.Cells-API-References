@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageOrPrintOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -30,7 +30,7 @@ Le type ImageOrPrintOptions expose les membres suivants :
 | [tiff_compression](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression) | Obtient ou définit le type de compression à appliquer uniquement lors de l'enregistrement de pages au format `Tiff`.|
 | [tiff_color_depth](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth) | Obtient ou définit la profondeur de bits à appliquer uniquement lors de l'enregistrement de pages au format `Tiff`.|
 | [printing_page](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/printing_page) | Indique quelles pages ne seront pas imprimées.|
-| [quality](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Obtient ou définit une valeur déterminant la qualité des images générées<br/>à appliquer uniquement lors de l'enregistrement de pages au format `Jpeg`.|
+| [quality](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/quality) | Obtient ou définit une valeur déterminant la qualité des images générées<br/>à appliquer uniquement lors de l'enregistrement de pages au format `Jpeg`. La valeur par défaut est 100|
 | [image_type](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/image_type) | Obtient ou définit le format des images générées.<br/> valeur par défaut : PNG.|
 | [is_cell_auto_fit](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/is_cell_auto_fit) | Indique si la largeur et la hauteur des cellules sont ajustées automatiquement par valeur de cellule.<br/> La valeur par défaut est faux.|
 | [one_page_per_sheet](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/one_page_per_sheet) | Si OnePagePerSheet est true , tout le contenu d'une feuille sortira sur une seule page dans le résultat.<br/> Le format de papier de pagesetup sera invalide, et les autres paramètres de pagesetup<br/> prendra toujours effet.|
@@ -40,13 +40,13 @@ Le type ImageOrPrintOptions expose les membres suivants :
 | [embeded_image_name_in_svg](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/embeded_image_name_in_svg) | Indiquez le nom de fichier de l'image intégrée en svg.<br/> Cela devrait être un chemin complet avec un répertoire comme "c:\\xpsEmbedded"|
 | [svg_fit_to_view_port](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port) | si cette propriété est vraie, le svg généré s'adaptera au port d'affichage.|
 | [only_area](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/only_area) | Si cette propriété est true , une zone sera générée et aucune échelle ne prendra effet.|
-| [text_rendering_hint](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint) | Spécifie la qualité du rendu du texte.<br/> La valeur par défaut est TextRenderingHint.|
+| [text_rendering_hint](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint) | Spécifie la qualité du rendu du texte.<br/> La valeur par défaut est TextRenderingHint.SystemDefault|
 | [smoothing_mode](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode) | Spécifie si le lissage (anti-crénelage) est appliqué aux lignes et aux courbes et aux bords des zones remplies.<br/> La valeur par défaut est SmoothingMode.None|
 | [transparent](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/transparent) | Indique si le fond de l'image générée doit être transparent.|
 | [pixel_format](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/pixel_format) |Obtient ou définit le format de pixel des images générées.|
-| [warning_callback](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Obtient ou définit des rappels d'avertissement.|
+| [warning_callback](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/warning_callback) | Obtient ou définit un rappel d'avertissement.|
 | [page_saving_callback](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/page_saving_callback) | Contrôler/indiquer la progression du processus d'enregistrement de la page.|
-| [is_font_substitution_char_granularity](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/is_font_substitution_char_granularity) | Indique s'il faut uniquement remplacer la police de caractère lorsque la police de la cellule n'est pas compatible avec celle-ci.|
+| [is_font_substitution_char_granularity](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/is_font_substitution_char_granularity) | Indique s'il faut uniquement remplacer la police de caractère lorsque la police de cellule n'est pas compatible avec celle-ci.|
 | [page_index](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/page_index) | Obtient ou définit l'index de base 0 de la première page à enregistrer.|
 | [page_count](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/page_count) | Obtient ou définit le nombre de pages à enregistrer.|
 | [is_optimized](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/is_optimized) | Indique s'il faut optimiser les éléments de sortie.|
@@ -57,7 +57,7 @@ Le type ImageOrPrintOptions expose les membres suivants :
 | [text_cross_type](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/text_cross_type) | Obtient ou définit l'affichage du type de texte lorsque la largeur du texte est supérieure à la largeur de la cellule.|
 | [emf_type](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/emf_type) | Obtient ou définit un EmfType qui spécifie le format du métafichier.<br/> La valeur par défaut est EmfPlusDual.|
 | [default_edit_language](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/default_edit_language) | Obtient ou définit la langue d'édition par défaut.|
-| [sheet_set](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/sheet_set) |Obtient ou définit les feuilles à afficher. La valeur par défaut est toutes les feuilles visibles dans le classeur : [SheetSet.visible](/cells/fr/python-net/aspose.cells.rendering/sheetset#visible).|
+| [sheet_set](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions/sheet_set) |Obtient ou définit les feuilles à rendre. La valeur par défaut est toutes les feuilles visibles dans le classeur : [SheetSet.visible](/cells/fr/python-net/aspose.cells.rendering/sheetset#visible).|
 
 
 ###  Méthodes
@@ -67,7 +67,7 @@ Le type ImageOrPrintOptions expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextAutonumberScheme numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  TextAutonumberScheme numaralandırma
-Tüm otomatik sayı şemalarını temsil eder.
+Tüm otomatik sayı düzenini temsil eder.
 
 
 

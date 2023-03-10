@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_format proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format proprietà
 
-Ottiene e imposta il formato dei valori numerici.
+Ottiene e imposta il formato del valore numerico.
 ###  Definizione:
 ```python
 @property

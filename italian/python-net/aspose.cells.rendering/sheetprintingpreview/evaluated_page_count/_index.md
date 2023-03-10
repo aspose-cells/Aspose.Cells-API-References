@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,9 +11,9 @@ is_root: false
 
 Valuta il conteggio totale delle pagine di questo foglio di lavoro
 
-###  Esempi
+###  Esempio
 
-Il codice seguente mostra il modo più rapido per ottenere un conteggio delle pagine di un foglio di lavoro.
+Il codice seguente mostra il modo più rapido per ottenere il conteggio delle pagine di un foglio di lavoro.
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -41,7 +41,7 @@ def sort(self, cells, area):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cells | [Cells](/cells/sv/python-net/aspose.cells/cells) | Cellerna innehåller dataområdet.|
 | area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Området som behövs för att sortera|
@@ -63,10 +63,10 @@ def sort(self, cells, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cells | [Cells](/cells/sv/python-net/aspose.cells/cells) | Cellerna innehåller dataområdet.|
-| start_row | int | Områdets startrad.|
+| start_row | int | Startraden i området.|
 | start_column | int | Startkolumnen för området.|
 | end_row | int | Den sista raden av området.|
 | end_column | int | Områdets ändkolumn.|

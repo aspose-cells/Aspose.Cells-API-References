@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheets_in_loading_order Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sheets_in_loading_order Eigentum
 
-Gibt die Blätter (Indizes) und die Reihenfolge an, die geladen werden sollen.
+Gibt die zu ladenden Blätter (Indizes) und die Reihenfolge an.
 Der Standardwert ist null, was bedeutet, dass alle Blätter in der Standardreihenfolge in die Vorlagendatei geladen werden.
 Wenn nicht null und der Index eines Blatts nicht im zurückgegebenen Array enthalten ist, wird das Blatt nicht geladen.
 ###  Definition:

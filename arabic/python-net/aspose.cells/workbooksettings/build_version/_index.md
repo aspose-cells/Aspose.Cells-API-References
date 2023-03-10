@@ -1,4 +1,4 @@
-﻿---
+---
 title: build_version الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

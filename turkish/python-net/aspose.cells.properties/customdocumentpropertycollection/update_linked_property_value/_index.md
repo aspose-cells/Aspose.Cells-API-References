@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_linked_property_value yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.properties/customdocumentpropertycollection/upd
 is_root: false
 ---
 ##  update_linked_property_value() {#}
-İçeriğe bağlanan özel belge özelliği değerini güncelleyin.
+İçeriğe bağlanan özel belge özellik değerini güncelleyin.
 
 
 

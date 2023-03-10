@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_bogus_row_data proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_bogus_row_data proprietà
 
-Indica se esportare i dati della riga inferiore fasulli. Il valore predefinito è true. Se si desidera importare il file html o mht
+Indica se esportare i dati della riga inferiore fasulli. Il valore predefinito è true. Se vuoi importare il file html o mht
 per eccellere, mantieni il valore predefinito.
 ###  Definizione:
 ```python

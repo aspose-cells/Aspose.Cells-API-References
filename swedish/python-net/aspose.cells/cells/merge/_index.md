@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första raden i detta intervall (nollbaserat)|
 | first_column | int | Första kolumnen i detta intervall (nollbaserat)|
@@ -40,7 +40,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första raden i detta intervall (nollbaserat)|
 | first_column | int | Första kolumnen i detta intervall (nollbaserat)|
@@ -51,7 +51,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 
 Referera till den sammanslagna cellen via adressen till den övre vänstra cellen i intervallet.
 Om mergeConflict är sant och det sammanslagna området är i konflikt med andra sammanslagna celler,
-Andra sammanslagna celler tas automatiskt bort.
+andra sammanslagna celler kommer att tas bort automatiskt.
 
 ##  merge(first_row, first_column, total_rows, total_columns, check_conflict, merge_conflict) {#int-int-int-int-bool-bool}
 Slår samman ett specificerat cellområde till en enda cell.
@@ -64,7 +64,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första raden i detta intervall (nollbaserat)|
 | first_column | int | Första kolumnen i detta intervall (nollbaserat)|
@@ -76,7 +76,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 
 Referera till den sammanslagna cellen via adressen till den övre vänstra cellen i intervallet.
 Om mergeConflict är sant och det sammanslagna området är i konflikt med andra sammanslagna celler,
-Andra sammanslagna celler tas automatiskt bort.
+andra sammanslagna celler kommer att tas bort automatiskt.
 
 
 ###  Se även

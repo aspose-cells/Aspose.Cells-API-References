@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_multiple_field_filters mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

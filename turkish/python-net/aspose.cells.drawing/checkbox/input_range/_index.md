@@ -1,4 +1,4 @@
-﻿---
+---
 title: input_range mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen açılan kutuyu doldurmak için kullanılan çalışma sayfası aralığını alır veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

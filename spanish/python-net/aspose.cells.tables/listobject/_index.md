@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObject clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,7 +25,7 @@ El tipo ListObject expone los siguientes miembros:
 | [end_column](/cells/es/python-net/aspose.cells.tables/listobject/end_column) |Obtiene la última columna del rango.|
 | [list_columns](/cells/es/python-net/aspose.cells.tables/listobject/list_columns) | Obtiene ListColumns de ListObject.|
 | [show_header_row](/cells/es/python-net/aspose.cells.tables/listobject/show_header_row) | Obtiene y establece si ListObject muestra la fila de encabezado.|
-| [show_totals](/cells/es/python-net/aspose.cells.tables/listobject/show_totals) | Obtiene y establece si ListObject muestra el total de filas.|
+| [show_totals](/cells/es/python-net/aspose.cells.tables/listobject/show_totals) | Obtiene y establece si este ListObject muestra la fila total.|
 | [data_range](/cells/es/python-net/aspose.cells.tables/listobject/data_range) | Obtiene el rango de datos de ListObject.|
 | [query_table](/cells/es/python-net/aspose.cells.tables/listobject/query_table) | Obtiene la QueryTable vinculada.|
 | [data_source_type](/cells/es/python-net/aspose.cells.tables/listobject/data_source_type) | Obtiene el tipo de origen de datos de la tabla.|
@@ -50,13 +50,13 @@ El tipo ListObject expone los siguientes miembros:
 | [convert_to_range(options)](/cells/es/python-net/aspose.cells.tables/listobject/convert_to_range/#TableToRangeOptions) | Convierte la tabla a rango.|
 | [resize(start_row, start_column, end_row, end_column, has_headers)](/cells/es/python-net/aspose.cells.tables/listobject/resize/#int-int-int-int-bool) | Cambiar el tamaño del rango del objeto de la lista.|
 | [put_cell_value(row_offset, column_offset, value)](/cells/es/python-net/aspose.cells.tables/listobject/put_cell_value/#int-int-any) | Poner el valor a la celda.|
-| [update_column_name()](/cells/es/python-net/aspose.cells.tables/listobject/update_column_name/#) |Actualiza todos los nombres de las columnas de la lista de la hoja de trabajo.|
+| [update_column_name()](/cells/es/python-net/aspose.cells.tables/listobject/update_column_name/#) |Actualiza el nombre de todas las columnas de la lista de la hoja de trabajo.|
 | [filter()](/cells/es/python-net/aspose.cells.tables/listobject/filter/#) | Filtrar la tabla.|
 | [apply_style_to_range()](/cells/es/python-net/aspose.cells.tables/listobject/apply_style_to_range/#) | Aplique el estilo de tabla al rango.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import CellsHelper, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cells 索引器
 second_title: Aspose.Cells for Python via .NET API 参考文献
 description:

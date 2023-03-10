@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_as_single_file fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_as_single_file fastighet
 
-Anger om HTML-filen ska sparas som en enda fil.
+Anger om HTML-filen sparas som en enda fil.
 Standardvärdet är falskt.
 
 ###  Anmärkningar

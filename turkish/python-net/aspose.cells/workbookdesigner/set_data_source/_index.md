@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_data_source yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_data_source(self, data_source, cells_data_table):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | data_source | str | Veri kaynağının adı.|
 | cells_data_table | [ICellsDataTable](/cells/tr/python-net/aspose.cells/icellsdatatable) | veri tablosu.|
@@ -35,7 +35,7 @@ def set_data_source(self, variable, data):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | variable | str | Akıllı işaretleyici kullanılarak oluşturulan değişken adı.|
 | data | any | Kaynak verileri.|

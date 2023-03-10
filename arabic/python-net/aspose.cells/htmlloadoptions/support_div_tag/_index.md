@@ -1,4 +1,4 @@
-﻿---
+---
 title: support_div_tag الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag الملكية
 
-يشير إلى ما إذا كان يدعم تخطيط<div> علامة عندما يحتوي ملف html<div> العلامات.
+يشير إلى ما إذا كان يدعم تخطيط<div> علامة عندما يحتوي ملف html<div> العلامات. القيمة الافتراضية هي كاذبة.
 ###  تعريف:
 ```python
 @property

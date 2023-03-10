@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_triple_state Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,10 +13,10 @@ Gibt an, wie das angegebene Steuerelement Nullwerte anzeigt.
 
 ###  Bemerkungen
 
-| Einstellungen| Beschreibung|
+| Einstellung| Beschreibung|
 | :- | :- |
-| WAHR| Die Steuerung durchläuft die Zustände für Ja-, Nein- und Nullwerte.|
-| FALSCH|(Standard) Die Steuerung durchläuft die Zustände für Ja- und Nein-Werte.|
+| WAHR| Die Steuerung durchläuft die Zustände für Ja-, Nein- und Nullwerte. Das Steuerelement wird abgeblendet (grau) angezeigt, wenn seine Value-Eigenschaft auf Null festgelegt ist.|
+| FALSCH|(Standard) Die Steuerung durchläuft die Zustände für Ja- und Nein-Werte. Nullwerte werden so angezeigt, als wären sie keine Werte.|
 ###  Definition:
 ```python
 @property

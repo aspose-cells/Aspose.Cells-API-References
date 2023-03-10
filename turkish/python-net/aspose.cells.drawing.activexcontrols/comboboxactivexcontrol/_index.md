@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComboBoxActiveXControl sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,8 +25,8 @@ ComboBoxActiveXControl türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/workbook) | [ActiveXControlBase.workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook) nesnesini alır.|
 | [type](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/type) | ActiveX denetiminin türünü alır.|
-| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Denetimin genişliğini nokta birimleri cinsinden alır ve ayarlar.|
-| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | Denetimin yüksekliğini nokta birimleri cinsinden alır ve ayarlar.|
+| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Denetimin genişliğini nokta birimi cinsinden alır ve ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | Kontrolün yüksekliğini puan birimi cinsinden alır ve ayarlar.|
 | [mouse_icon](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_icon) | Denetim için fare işaretçisi olarak görüntülenecek özel bir simge alır ve ayarlar.|
 | [mouse_pointer](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_pointer) | Denetim için fare işaretçisi olarak görüntülenen simge türünü alır ve ayarlar.|
 | [fore_ole_color](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/fore_ole_color) | Ön planın ole rengini alır ve ayarlar.|
@@ -44,7 +44,7 @@ ComboBoxActiveXControl türü aşağıdaki üyeleri gösterir:
 | [font](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/font) | Denetimin yazı tipini temsil eder.|
 | [text_align](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_align) | Denetim tarafından kullanılan metnin nasıl hizalanacağını temsil eder.|
 | [max_length](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/max_length) | Maksimum karakter sayısını alır ve ayarlar|
-| [list_width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | Genişliği nokta birimleri cinsinden alır ve ayarlar.|
+| [list_width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | Genişliği nokta birimi cinsinden alır ve ayarlar.|
 | [bound_column](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/bound_column) | Bir ComboBox veya ListBox için Value özelliğinin nasıl belirlendiğini temsil eder<br/>MultiSelect özellikleri değeri (fmMultiSelectSingle) olduğunda.|
 | [text_column](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_column) | Kullanıcıya görüntülenecek bir ComboBox veya ListBox içindeki sütunu temsil eder.|
 | [column_count](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/column_count) | ComboBox veya ListBox'ta görüntülenecek sütun sayısını temsil eder.|

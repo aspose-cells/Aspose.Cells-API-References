@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_by_base_index metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_by_base_index(self, base_field_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | base_field_index | int | fältindex i baspivotfälten.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.tables
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 | Sınıf| Tanım|
 | :- | :- |
 | [ListColumn](/cells/tr/python-net/aspose.cells.tables/listcolumn) | Listedeki bir sütunu temsil eder.|
-| [ListColumnCollection](/cells/tr/python-net/aspose.cells.tables/listcolumncollection) | Belirtilen ListObject nesnesindeki tüm [ListColumn](/cells/tr/python-net/aspose.cells.tables/listcolumn) nesnelerinin koleksiyonunu temsil eder.|
+| [ListColumnCollection](/cells/tr/python-net/aspose.cells.tables/listcolumncollection) | Belirtilen ListObject nesnesindeki tüm [ListColumn](/cells/tr/python-net/aspose.cells.tables/listcolumn) nesnelerinin bir koleksiyonunu temsil eder.|
 | [ListObject](/cells/tr/python-net/aspose.cells.tables/listobject) | Çalışma sayfasındaki bir liste nesnesini temsil eder.<br/> ListObject nesnesi, ListObjects koleksiyonunun bir üyesidir.<br/> ListObjects koleksiyonu, bir çalışma sayfasındaki tüm liste nesnelerini içerir.|
 | [ListObjectCollection](/cells/tr/python-net/aspose.cells.tables/listobjectcollection) | Çalışma sayfasındaki [ListObject](/cells/tr/python-net/aspose.cells.tables/listobject) nesne koleksiyonunu temsil eder.|
 | [TableStyle](/cells/tr/python-net/aspose.cells.tables/tablestyle) | Tablo stilini temsil eder.|

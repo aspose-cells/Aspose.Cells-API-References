@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Uppdaterar skivaren. Under tiden uppdaterar och beräknar relativa pivottabeller.
+Uppdatera skivaren. Under tiden uppdaterar och beräknar relativa pivottabeller.
 
 
 

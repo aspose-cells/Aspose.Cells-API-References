@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_tabs propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Obtiene o establece un valor si se muestran las pestañas del Libro de trabajo.
 
 El valor por defecto es verdadero.
 
-###  Ejemplos
+###  Ejemplo
 
 El siguiente código oculta las pestañas de hoja y los botones de desplazamiento de pestañas para la hoja de cálculo.
 

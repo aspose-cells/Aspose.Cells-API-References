@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_pdf yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def to_pdf(self, file_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | tam yol ile pdf dosya adı|
 
@@ -34,7 +34,7 @@ def to_pdf(self, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Çıkış akışı.|
 
@@ -50,7 +50,7 @@ def to_pdf(self, file_name, desired_page_width, desired_page_height, h_alignment
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | file_name | str | tam yol ile pdf dosya adı|
 | desired_page_width | float | İnç cinsinden istenen sayfa genişliği.|
@@ -70,7 +70,7 @@ def to_pdf(self, stream, desired_page_width, desired_page_height, h_alignment_ty
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Çıkış akışı.|
 | desired_page_width | float | İnç cinsinden istenen sayfa genişliği.|

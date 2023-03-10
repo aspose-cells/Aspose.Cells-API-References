@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_cell метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,9 +18,9 @@ def start_cell(self, cell):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | Cell для реализации заполнения данных. Его индекс столбца — это возвращаемое значение последнего вызова [LightCellsDataProvider.next_cell()](/cells/ru/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Если ячейка была инициализирована во внутренней модели ячеек, будет использоваться существующий объект ячейки.<br/> В противном случае для реализации для заполнения данных будет использоваться временный объект Cell.|
+| cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | Cell объект для реализации для заполнения данных. Его индекс столбца — это возвращаемое значение последнего вызова [LightCellsDataProvider.next_cell()](/cells/ru/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Если ячейка была инициализирована во внутренней модели ячеек, будет использоваться существующий объект ячейки.<br/> В противном случае для реализации для заполнения данных будет использоваться временный объект Cell.|
 ###  Примечания
 
 

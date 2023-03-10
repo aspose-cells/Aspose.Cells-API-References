@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_delta_y proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Ottiene o imposta l'offset verticale della forma rispetto alla riga dell'angolo 
 
 L'intervallo di valori va da 0 a 256.
 
-###  Esempi
+###  Esempio
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, data, shema_data):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | data | bytes | El contenido XML de esta parte de almacenamiento de datos XML personalizados.|
 | shema_data | bytes | El conjunto de esquemas XML que están asociados con esta parte XML personalizada.|

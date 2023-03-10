@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_hi_lo_lines Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

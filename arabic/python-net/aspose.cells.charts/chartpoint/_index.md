@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPoint الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [y_value](/cells/ar/python-net/aspose.cells.charts/chartpoint/y_value) | الحصول على أو تحديد قيمة Y لنقطة المخطط.|
 | [y_value_type](/cells/ar/python-net/aspose.cells.charts/chartpoint/y_value_type) | الحصول على نوع القيمة Y لنقطة المخطط.|
 | [x_value](/cells/ar/python-net/aspose.cells.charts/chartpoint/x_value) |الحصول على أو تحديد قيمة X لنقطة المخطط.|
-| [x_value_type](/cells/ar/python-net/aspose.cells.charts/chartpoint/x_value_type) | يحصل على نوع القيمة X لنقطة المخطط.|
+| [x_value_type](/cells/ar/python-net/aspose.cells.charts/chartpoint/x_value_type) | الحصول على نوع القيمة X لنقطة المخطط.|
 | [shape_properties](/cells/ar/python-net/aspose.cells.charts/chartpoint/shape_properties) | الحصول على العنصر [ShapePropertyCollection](/cells/ar/python-net/aspose.cells.drawing/shapepropertycollection) الذي يحتفظ بخصائص الشكل المرئي لـ ChartPoint.|
 | [is_in_secondary_plot](/cells/ar/python-net/aspose.cells.charts/chartpoint/is_in_secondary_plot) | الحصول على قيمة أو تعيينها يشير إلى ما إذا كانت نقاط البيانات هذه موجودة في الدائرة أو الشريط الثاني<br/> على مخطط دائري أو شريط دائري|
 | [shape_x](/cells/ar/python-net/aspose.cells.charts/chartpoint/shape_x) | الحصول على إحداثي x للركن الأيسر العلوي بوحدات 1/4000 من عرض الرسم البياني بعد استدعاء طريقة Chart.Calculate ().|
@@ -62,12 +62,12 @@ is_root: false
 | [get_bottom_point_x_px(index)](/cells/ar/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) | الحصول على إحداثيات x للنقطة السفلية للشكل بعد استدعاء طريقة Chart.Calculate ().<br/> يطبق المخططات ثلاثية الأبعاد: Column3D، Bar3D، Cone، Cylinder، Pyramid|
 | [get_bottom_point_y_px(index)](/cells/ar/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) | الحصول على إحداثيات y للنقطة السفلية للشكل بعد استدعاء طريقة Chart.Calculate ().<br/> يطبق المخططات ثلاثية الأبعاد: Column3D، Bar3D، Cone، Cylinder، Pyramid|
 | [get_on_category_axis_point_count()](/cells/ar/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |الحصول على عدد النقاط على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.|
-| [get_on_category_axis_point_x_px(index)](/cells/ar/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | الحصول على إحداثي س للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.|
-| [get_on_category_axis_point_y_px(index)](/cells/ar/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | الحصول على إحداثي ص للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.|
+| [get_on_category_axis_point_x_px(index)](/cells/ar/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | الحصول على تنسيق x للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.|
+| [get_on_category_axis_point_y_px(index)](/cells/ar/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | الحصول على إحداثيات ص للنقطة على محور الفئة بعد استدعاء طريقة Chart.Calculate (). ينطبق فقط على مخطط المنطقة.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

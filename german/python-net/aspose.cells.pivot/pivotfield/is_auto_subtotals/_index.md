@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_subtotals Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_subtotals Eigentum
 
-Gibt an, ob das angegebene Feld automatische Zwischensummen anzeigt. Der Standardwert ist wahr.
+Gibt an, ob das angegebene Feld automatische Zwischensummen anzeigt. Standard ist wahr.
 ###  Definition:
 ```python
 @property

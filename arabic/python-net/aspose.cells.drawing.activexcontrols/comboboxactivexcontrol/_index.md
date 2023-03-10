@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComboBoxActiveXControl الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,8 +25,8 @@ is_root: false
 | :- | :- |
 | [workbook](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/workbook) | الحصول على كائن [ActiveXControlBase.workbook](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/type) | يحصل على نوع عنصر تحكم ActiveX.|
-| [width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |الحصول على عرض عنصر التحكم وتعيينه بوحدات من النقاط.|
-| [height](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | الحصول على ارتفاع عنصر التحكم وتعيينه بوحدات من النقاط.|
+| [width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |الحصول على عرض عنصر التحكم وتعيينه بوحدة النقاط.|
+| [height](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | الحصول على ارتفاع عنصر التحكم وتعيينه بوحدة النقاط.|
 | [mouse_icon](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_icon) | الحصول على رمز مخصص وتعيينه لعرضه كمؤشر الماوس لعنصر التحكم.|
 | [mouse_pointer](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_pointer) | الحصول على نوع الرمز المعروض كمؤشر الماوس لعنصر التحكم وتعيينه.|
 | [fore_ole_color](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/fore_ole_color) | الحصول على لون الأولي للمقدمة وتعيينه.|
@@ -44,7 +44,7 @@ is_root: false
 | [font](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/font) | يمثل خط عنصر التحكم.|
 | [text_align](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_align) | يمثل كيفية محاذاة النص المستخدم بواسطة عنصر التحكم.|
 | [max_length](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/max_length) | الحصول على وتعيين الحد الأقصى لعدد الأحرف|
-| [list_width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | الحصول على العرض وتعيينه بوحدات من النقاط.|
+| [list_width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | الحصول على العرض وتعيينه بوحدة النقاط.|
 | [bound_column](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/bound_column) | يمثل كيفية تحديد الخاصية Value لـ ComboBox أو ListBox<br/>عندما تكون قيمة خصائص MultiSelect (fmMultiSelectSingle).|
 | [text_column](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_column) | يمثل العمود في ComboBox أو ListBox لعرضه على المستخدم.|
 | [column_count](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/column_count) | يمثل عدد الأعمدة المراد عرضها في ComboBox أو ListBox.|
@@ -53,7 +53,7 @@ is_root: false
 | [drop_button_style](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/drop_button_style) | يحدد الرمز المعروض على زر الإسقاط|
 | [show_drop_button_type_when](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/show_drop_button_type_when) | يحدد الرمز المعروض على زر الإسقاط|
 | [list_style](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_style) | الحصول على المظهر المرئي وتعيينه.|
-| [border_style](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/border_style) | الحصول على نوع الحد المستخدم بواسطة عنصر التحكم وتعيينه.|
+| [border_style](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/border_style) | يحصل ويضبط نوع الحدود المستخدمة بواسطة عنصر التحكم.|
 | [border_ole_color](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/border_ole_color) | الحصول على لون الخلفية للخلفية وتعيينه.|
 | [special_effect](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/special_effect) | الحصول على التأثير الخاص لعنصر التحكم وتعيينه.|
 | [is_editable](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/is_editable) | يشير إلى ما إذا كان يمكن للمستخدم الكتابة في عنصر التحكم.|

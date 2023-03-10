@@ -1,4 +1,4 @@
-﻿---
+---
 title: Picture الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -36,7 +36,7 @@ is_root: false
 | [fill](/cells/ar/python-net/aspose.cells.drawing/picture/fill) | إرجاع عنصر [Shape.fill_format](/cells/ar/python-net/aspose.cells.drawing/shape#fill_format) يحتوي على خصائص تنسيق تعبئة للشكل المحدد.|
 | [shadow_effect](/cells/ar/python-net/aspose.cells.drawing/picture/shadow_effect) | يمثل عنصر [ShadowEffect](/cells/ar/python-net/aspose.cells.drawing/shadoweffect) يحدد تأثير الظل لعنصر المخطط أو شكله.|
 | [reflection](/cells/ar/python-net/aspose.cells.drawing/picture/reflection) | يمثل عنصر [ReflectionEffect](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect) يحدد تأثير الانعكاس لعنصر المخطط أو شكله.|
-| [glow](/cells/ar/python-net/aspose.cells.drawing/picture/glow) | يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) الذي يحدد تأثير التوهج لعنصر المخطط أو شكله.|
+| [glow](/cells/ar/python-net/aspose.cells.drawing/picture/glow) | يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) يحدد تأثير التوهج لعنصر المخطط أو شكله.|
 | [soft_edges](/cells/ar/python-net/aspose.cells.drawing/picture/soft_edges) | الحصول على نصف قطر التمويه وتعيينه لتطبيقه على الحواف ، في وحدة من النقاط.|
 | [three_d_format](/cells/ar/python-net/aspose.cells.drawing/picture/three_d_format) | الحصول على تنسيق ثلاثي الأبعاد للشكل وتعيينه.|
 | [text_frame](/cells/ar/python-net/aspose.cells.drawing/picture/text_frame) | إرجاع كائن TextFrame يحتوي على خصائص المحاذاة والتثبيت للشكل المحدد.|
@@ -57,7 +57,7 @@ is_root: false
 | [is_printable](/cells/ar/python-net/aspose.cells.drawing/picture/is_printable) |صحيح إذا كان الكائن قابل للطباعة|
 | [mso_drawing_type](/cells/ar/python-net/aspose.cells.drawing/picture/mso_drawing_type) | يحصل على نوع الرسم MSO.|
 | [auto_shape_type](/cells/ar/python-net/aspose.cells.drawing/picture/auto_shape_type) | الحصول على نوع الشكل التلقائي وتعيينه.|
-| [anchor_type](/cells/ar/python-net/aspose.cells.drawing/picture/anchor_type) | الحصول على العنصر النائب للشكل وتعيينه.|
+| [anchor_type](/cells/ar/python-net/aspose.cells.drawing/picture/anchor_type) | الحصول على الشكل وتعيين العنصر النائب لنقطة الارتساء.|
 | [placement](/cells/ar/python-net/aspose.cells.drawing/picture/placement) | يمثل الطريقة التي يتم بها إرفاق الكائن الرسومي بالخلايا الموجودة أسفله.<br/> تتحكم الخاصية في وضع كائن في ورقة العمل.|
 | [upper_left_row](/cells/ar/python-net/aspose.cells.drawing/picture/upper_left_row) | يمثل فهرس صف الزاوية اليسرى العليا.|
 | [upper_delta_y](/cells/ar/python-net/aspose.cells.drawing/picture/upper_delta_y) | الحصول على أو تعيين الإزاحة الرأسية للشكل من صف الزاوية اليسرى العليا.|
@@ -65,33 +65,33 @@ is_root: false
 | [upper_delta_x](/cells/ar/python-net/aspose.cells.drawing/picture/upper_delta_x) | الحصول على أو تعيين الإزاحة الأفقية للشكل من عمود الزاوية اليسرى العليا.|
 | [lower_right_row](/cells/ar/python-net/aspose.cells.drawing/picture/lower_right_row) | يمثل فهرس صف الزاوية اليمنى السفلي.|
 | [lower_delta_y](/cells/ar/python-net/aspose.cells.drawing/picture/lower_delta_y) | الحصول على أو تعيين الإزاحة الرأسية للشكل من صف الزاوية اليمنى السفلية.|
-| [lower_right_column](/cells/ar/python-net/aspose.cells.drawing/picture/lower_right_column) | يمثل فهرس عمود الزاوية اليمنى السفلي.|
+| [lower_right_column](/cells/ar/python-net/aspose.cells.drawing/picture/lower_right_column) | يمثل فهرس عمود الركن الأيمن السفلي.|
 | [lower_delta_x](/cells/ar/python-net/aspose.cells.drawing/picture/lower_delta_x) | الحصول على أو تعيين الإزاحة الأفقية للشكل من عمود الركن الأيمن السفلي.|
 | [right](/cells/ar/python-net/aspose.cells.drawing/picture/right) | يمثل عرض الإزاحة الأفقية للشكل من عمود الركن الأيمن السفلي ، بوحدة البكسل.|
 | [bottom](/cells/ar/python-net/aspose.cells.drawing/picture/bottom) |يمثل عرض الإزاحة الرأسية للشكل من صف الزاوية السفلية السفلية ، بوحدة البكسل.|
-| [width](/cells/ar/python-net/aspose.cells.drawing/picture/width) | يمثل عرض الشكل بوحدات البكسل.|
-| [width_inch](/cells/ar/python-net/aspose.cells.drawing/picture/width_inch) | يمثل عرض الشكل بوحدات البوصة.|
-| [width_pt](/cells/ar/python-net/aspose.cells.drawing/picture/width_pt) | يمثل عرض الشكل بوحدات من النقاط.|
-| [width_cm](/cells/ar/python-net/aspose.cells.drawing/picture/width_cm) | يمثل عرض الشكل بوحدات السنتيمترات.|
-| [height](/cells/ar/python-net/aspose.cells.drawing/picture/height) | يمثل ارتفاع الشكل بوحدات البكسل.|
-| [height_inch](/cells/ar/python-net/aspose.cells.drawing/picture/height_inch) | يمثل ارتفاع الشكل بوحدات البوصة.|
-| [height_pt](/cells/ar/python-net/aspose.cells.drawing/picture/height_pt) | يمثل ارتفاع الشكل بوحدات من النقاط.|
-| [height_cm](/cells/ar/python-net/aspose.cells.drawing/picture/height_cm) | يمثل ارتفاع الشكل بوحدات السنتيمترات.|
+| [width](/cells/ar/python-net/aspose.cells.drawing/picture/width) | يمثل عرض الشكل بوحدة البكسل.|
+| [width_inch](/cells/ar/python-net/aspose.cells.drawing/picture/width_inch) | يمثل عرض الشكل بوحدة البوصة.|
+| [width_pt](/cells/ar/python-net/aspose.cells.drawing/picture/width_pt) | يمثل عرض الشكل بوحدة النقطة.|
+| [width_cm](/cells/ar/python-net/aspose.cells.drawing/picture/width_cm) | يمثل عرض الشكل بوحدة سنتيمترات.|
+| [height](/cells/ar/python-net/aspose.cells.drawing/picture/height) | يمثل ارتفاع الشكل بوحدة البكسل.|
+| [height_inch](/cells/ar/python-net/aspose.cells.drawing/picture/height_inch) | يمثل ارتفاع الشكل بوحدة البوصة.|
+| [height_pt](/cells/ar/python-net/aspose.cells.drawing/picture/height_pt) | يمثل ارتفاع الشكل بوحدة النقاط.|
+| [height_cm](/cells/ar/python-net/aspose.cells.drawing/picture/height_cm) | يمثل ارتفاع الشكل بوحدة السنتيمترات.|
 | [left](/cells/ar/python-net/aspose.cells.drawing/picture/left) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البكسل.|
-| [left_inch](/cells/ar/python-net/aspose.cells.drawing/picture/left_inch) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدات البوصة.|
-| [left_cm](/cells/ar/python-net/aspose.cells.drawing/picture/left_cm) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدات السنتيمتر.|
+| [left_inch](/cells/ar/python-net/aspose.cells.drawing/picture/left_inch) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البوصة.|
+| [left_cm](/cells/ar/python-net/aspose.cells.drawing/picture/left_cm) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة السنتيمترات.|
 | [top](/cells/ar/python-net/aspose.cells.drawing/picture/top) | يمثل الإزاحة الرأسية للشكل من صفه العلوي ، بوحدة بكسل.|
-| [top_inch](/cells/ar/python-net/aspose.cells.drawing/picture/top_inch) |يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات البوصة.|
-| [top_cm](/cells/ar/python-net/aspose.cells.drawing/picture/top_cm) | يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات السنتيمتر.|
+| [top_inch](/cells/ar/python-net/aspose.cells.drawing/picture/top_inch) |يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة البوصة.|
+| [top_cm](/cells/ar/python-net/aspose.cells.drawing/picture/top_cm) | يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة سنتيمترات.|
 | [top_to_corner](/cells/ar/python-net/aspose.cells.drawing/picture/top_to_corner) | الحصول على الإزاحة الرأسية للشكل وتعيينها من الحد العلوي لورقة العمل ، بوحدة البكسل.|
-| [left_to_corner](/cells/ar/python-net/aspose.cells.drawing/picture/left_to_corner) | الحصول على وتعيين الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل.|
+| [left_to_corner](/cells/ar/python-net/aspose.cells.drawing/picture/left_to_corner) | الحصول على الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل وتعيينها.|
 | [x](/cells/ar/python-net/aspose.cells.drawing/picture/x) | الحصول على الإزاحة الأفقية للشكل وتعيينها من الحد الأيسر لورقة العمل ، بوحدة البكسل.|
 | [y](/cells/ar/python-net/aspose.cells.drawing/picture/y) | الحصول على الإزاحة الرأسية للشكل وتعيينها من الحد العلوي لورقة العمل ، بوحدة البكسل.|
 | [width_scale](/cells/ar/python-net/aspose.cells.drawing/picture/width_scale) | الحصول على مقياس العرض وتعيينه ، بوحدة نسبة مئوية من عرض الصورة الأصلي.<br/> إذا لم يكن الشكل صورة ، تقوم الخاصية WidthScale بإرجاع 100 فقط ؛|
 | [height_scale](/cells/ar/python-net/aspose.cells.drawing/picture/height_scale) | الحصول على مقياس الارتفاع وتعيينه ، بوحدة نسبة مئوية من ارتفاع الصورة الأصلي.<br/> إذا لم يكن الشكل صورة ، تقوم الخاصية HeightScale بإرجاع 100 فقط ؛|
 | [top_in_shape](/cells/ar/python-net/aspose.cells.drawing/picture/top_in_shape) | يمثل الإزاحة الرأسية للشكل من الحد العلوي للشكل الأصل ،<br/> بوحدة 1/4000 من ارتفاع الشكل الأصل.|
 | [left_in_shape](/cells/ar/python-net/aspose.cells.drawing/picture/left_in_shape) |يمثل الإزاحة الأفقية للشكل من الحد الأيسر للشكل الأصل ،<br/> بوحدة 1/4000 من عرض الشكل الأصل.|
-| [width_in_shape](/cells/ar/python-net/aspose.cells.drawing/picture/width_in_shape) | يمثل عرض الشكل بوحدات 1/4000 من الشكل الأصل.|
+| [width_in_shape](/cells/ar/python-net/aspose.cells.drawing/picture/width_in_shape) | يمثل عرض الشكل بوحدة 1/4000 من الشكل الأصل.|
 | [height_in_shape](/cells/ar/python-net/aspose.cells.drawing/picture/height_in_shape) | يمثل الإزاحة الرأسية للشكل من الحد العلوي للشكل الأصلي ، بوحدة 1/4000 من ارتفاع الشكل الأصل ..|
 | [group](/cells/ar/python-net/aspose.cells.drawing/picture/group) | الحصول على شكل المجموعة الذي يحتوي على هذا الشكل.|
 | [type](/cells/ar/python-net/aspose.cells.drawing/picture/type) | يحصل على نوع الشكل التلقائي.|
@@ -135,10 +135,10 @@ is_root: false
 | [is_dynamic_data_exchange](/cells/ar/python-net/aspose.cells.drawing/picture/is_dynamic_data_exchange) | يحصل أو يحدد ما إذا كان تبادل البيانات الديناميكي|
 | [display_as_icon](/cells/ar/python-net/aspose.cells.drawing/picture/display_as_icon) | صواب إذا تم عرض الكائن المحدد كرمز<br/> ولن يتم تغيير الصورة تلقائيًا.|
 | [image_type](/cells/ar/python-net/aspose.cells.drawing/picture/image_type) | يحصل على تنسيق صورة الصورة.|
-| [original_height_cm](/cells/ar/python-net/aspose.cells.drawing/picture/original_height_cm) | الحصول على الارتفاع الأصلي للصورة بوحدات السنتيمتر.|
+| [original_height_cm](/cells/ar/python-net/aspose.cells.drawing/picture/original_height_cm) | الحصول على الارتفاع الأصلي للصورة بوحدة السنتيمتر.|
 | [original_width_cm](/cells/ar/python-net/aspose.cells.drawing/picture/original_width_cm) | الحصول على عرض الصورة الأصلي بوحدة السنتيمتر.|
-| [original_height_inch](/cells/ar/python-net/aspose.cells.drawing/picture/original_height_inch) | الحصول على الارتفاع الأصلي للصورة بوحدات البوصة.|
-| [original_width_inch](/cells/ar/python-net/aspose.cells.drawing/picture/original_width_inch) | الحصول على العرض الأصلي للصورة ، بوحدات البوصة.|
+| [original_height_inch](/cells/ar/python-net/aspose.cells.drawing/picture/original_height_inch) | الحصول على الارتفاع الأصلي للصورة بوحدة البوصة.|
+| [original_width_inch](/cells/ar/python-net/aspose.cells.drawing/picture/original_width_inch) | الحصول على عرض الصورة الأصلي بوحدة البوصة.|
 | [signature_line](/cells/ar/python-net/aspose.cells.drawing/picture/signature_line) | يحصل على خط التوقيع ويعينه|
 
 
@@ -174,7 +174,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import SaveFormat, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption_visible propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -12,7 +12,7 @@ is_root: false
 Renvoie ou définit si l'en-tête qui affiche la légende du segment est visible
 la valeur par défaut est true
 
-###  Exemples
+###  Exemple
 
 ```python
 

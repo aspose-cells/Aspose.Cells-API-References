@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_null الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null الملكية
 
-يشير إلى ما إذا كان يتم تجاهل القيم الخالية أم لا.
+يشير إلى ما إذا كان يتم تجاهل قيمة فارغة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_alive fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  keep_alive fastighet
 
  Sant när kalkylprogrammet ska anstränga sig för att behålla anslutningen
-När det är falskt ska applikationen stänga anslutningen efter att ha hämtat
+öppen. När det är falskt bör applikationen stänga anslutningen efter att ha hämtat
 information.
 ###  Definition:
 ```python

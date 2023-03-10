@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -42,7 +42,7 @@ is_root: false
 | [scheme_type](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | الحصول على نوع مخطط الخط وتعيينه.|
 | [language_code](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/language_code) | الحصول على لغة واجهة المستخدم وتعيينها.|
 | [latin_name](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | الحصول على الاسم اللاتيني وتعيينه.|
-| [far_east_name](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | الحصول على اسم الشرق الأقصى وتعيينه.|
+| [far_east_name](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | الحصول على اسم FarEast وتعيينه.|
 | [fill](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/fill) | يمثل تنسيق تعبئة النص.|
 | [outline](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/outline) | يمثل تنسيق المخطط التفصيلي للنص.|
 | [shadow](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/shadow) | يمثل عنصر [ShadowEffect](/cells/ar/python-net/aspose.cells.drawing/shadoweffect) يحدد تأثير الظل لعنصر المخطط أو شكله.|
@@ -54,7 +54,7 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [equals(font)](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/equals/#Font) | للتحقق مما إذا كان الخطان متساويان.|
+| [equals(font)](/cells/ar/python-net/aspose.cells.drawing.texts/textoptions/equals/#Font) | للتحقق مما إذا كان خطان متساويان.|
 
 
 

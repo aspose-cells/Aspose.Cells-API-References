@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_selecting_unlocked_cell propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  allow_selecting_unlocked_cell propiedad
 
-Representa si el usuario puede seleccionar celdas desbloqueadas en una hoja de cálculo protegida.
+Representa si el usuario puede seleccionar celdas desbloqueadas en una hoja de trabajo protegida.
 ###  Definición:
 ```python
 @property

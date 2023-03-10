@@ -1,4 +1,4 @@
-﻿---
+---
 title: after_calculate méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def after_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | sheet_index | int | Index de la feuille à laquelle appartient la cellule.|
 | row_index | int | Indice de ligne de la cellule|

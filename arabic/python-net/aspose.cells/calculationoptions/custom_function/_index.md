@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_function الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
 الرجاء استخدام خاصية CustomEngine ، يوفر AbstractCalculationEngine واجهات برمجة تطبيقات أكثر ملاءمة ومرونة
 لمعالجة الوظائف المخصصة.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ أغسطس 2020.

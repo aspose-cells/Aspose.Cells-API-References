@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/pdfsaveoptions/__init__/
 is_root: false
 ---
 ##  PdfSaveOptions() {#}
-Crée les options d'enregistrement des fichiers pdf.
+Crée les options pour enregistrer le fichier pdf.
 
 
 

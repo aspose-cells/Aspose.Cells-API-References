@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_column_heads недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

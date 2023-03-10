@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsbSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/xlsbsaveoptions/
 is_root: false
 ---
 ##  XlsbSaveOptions klass
-Representerar alternativen för att spara xlsb-filer.
+Representerar alternativen för att spara xlsb-fil.
 
 
 
@@ -38,9 +38,9 @@ Typen XlsbSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
-| [compression_type](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/compression_type) | Hämtar och ställer in komprimeringstypen för ooxml-filer.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [compression_type](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/compression_type) | Hämtar och ställer in komprimeringstypen för ooxml-fil.|
 | [export_all_column_indexes](/cells/sv/python-net/aspose.cells/xlsbsaveoptions/export_all_column_indexes) | Anger om alla kolumnindex för celler exporteras.|
 
 

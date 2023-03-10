@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/pdfsaveoptions/__init__/
 is_root: false
 ---
 ##  PdfSaveOptions() {#}
-Создает параметры для сохранения файлов PDF.
+Создает параметры для сохранения файла PDF.
 
 
 

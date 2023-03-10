@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -16,7 +16,7 @@ is_root: false
  Строка formula всегда начинается со знака равенства (=).
 И, пожалуйста, всегда используйте запятую (,) в качестве разделителя параметров, например "=СУММ(A1, E1, H2)".
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

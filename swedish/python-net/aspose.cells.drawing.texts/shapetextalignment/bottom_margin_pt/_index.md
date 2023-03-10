@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin_pt fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_pt fastighet
 
-Returnerar bottenmarginalen i enheter av poäng
+Returnerar bottenmarginalen i poängenhet
 
 ###  Exempel
 

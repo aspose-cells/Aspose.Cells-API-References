@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_intersect yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def is_intersect(self, range):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Menzil.|
 ###  Notlar

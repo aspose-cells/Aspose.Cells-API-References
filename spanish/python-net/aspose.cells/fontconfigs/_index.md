@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontConfigs clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -30,11 +30,11 @@ El tipo FontConfigs expone los siguientes miembros:
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/es/python-net/aspose.cells/fontconfigs/set_font_substitutes/#str-list) | Nombres de sustitución de fuentes para nombres de fuentes originales dados.|
+| [set_font_substitutes(original_font_name, substitute_font_names)](/cells/es/python-net/aspose.cells/fontconfigs/set_font_substitutes/#str-list) | Nombres sustitutos de fuente para el nombre de fuente original dado.|
 | [get_font_substitutes(original_font_name)](/cells/es/python-net/aspose.cells/fontconfigs/get_font_substitutes/#str) | Devuelve una matriz que contiene los nombres de fuentes sustitutas que se utilizarán si no se presenta la fuente original.|
 | [set_font_folder(font_folder, recursive)](/cells/es/python-net/aspose.cells/fontconfigs/set_font_folder/#str-bool) | Establece la carpeta de fuentes|
 | [set_font_folders(font_folders, recursive)](/cells/es/python-net/aspose.cells/fontconfigs/set_font_folders/#list-bool) | Establece las carpetas de fuentes|
-| [set_font_sources(sources)](/cells/es/python-net/aspose.cells/fontconfigs/set_font_sources/#list) | Establece las fuentes de fuente.|
+| [set_font_sources(sources)](/cells/es/python-net/aspose.cells/fontconfigs/set_font_sources/#list) | Establece las fuentes de las fuentes.|
 | [get_font_sources()](/cells/es/python-net/aspose.cells/fontconfigs/get_font_sources/#) | Obtiene una copia de la matriz que contiene la lista de fuentes|
 
 

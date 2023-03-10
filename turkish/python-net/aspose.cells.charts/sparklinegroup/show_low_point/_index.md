@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_low_point mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

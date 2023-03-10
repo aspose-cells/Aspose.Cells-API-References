@@ -1,4 +1,4 @@
-﻿---
+---
 title: geometry proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene lo geometry
 
-###  Esempi
+###  Esempio
 
 ```python
 

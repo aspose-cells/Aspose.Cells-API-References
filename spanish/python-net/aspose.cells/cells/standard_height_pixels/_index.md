@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_height_pixels propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

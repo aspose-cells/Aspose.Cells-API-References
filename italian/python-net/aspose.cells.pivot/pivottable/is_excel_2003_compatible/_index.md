@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_excel_2003_compatible proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,8 +11,8 @@ is_root: false
 
 Specifica se la tabella pivot è compatibile con Excel2003 durante l'aggiornamento della tabella pivot,
 se vero, una stringa deve essere minore o uguale a 255 caratteri, quindi se la stringa è maggiore di 255 caratteri,
-verrà troncato.se falso, una stringa non avrà la suddetta restrizione.
-Il valore predefinito è true.
+verrà troncato. se false, una stringa non avrà la suddetta restrizione.
+Il valore predefinito è vero.
 ###  Definizione:
 ```python
 @property

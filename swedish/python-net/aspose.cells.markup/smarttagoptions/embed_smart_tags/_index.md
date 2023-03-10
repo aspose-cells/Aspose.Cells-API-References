@@ -1,4 +1,4 @@
-﻿---
+---
 title: embed_smart_tags fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_type الملكية
 
-يحصل ويضبط نوع الموضوع.
+يحصل ويضبط نوع السمة.
 ###  تعريف:
 ```python
 @property

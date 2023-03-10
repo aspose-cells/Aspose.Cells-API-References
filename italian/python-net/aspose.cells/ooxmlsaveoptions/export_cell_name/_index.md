@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_cell_name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -12,7 +12,7 @@ is_root: false
  Indica se esportare il nome della cella nel file Excel2007 .xlsx (.xlsm, .xltx, .xltm).
 Se è possibile accedere al file di output da SQL Server DTS, questo valore deve essere true.
 L'impostazione del valore su false aumenterà notevolmente le prestazioni e ridurrà le dimensioni del file durante la creazione di file di grandi dimensioni.
-Il valore predefinito è vero.
+Il valore predefinito è true.
 ###  Definizione:
 ```python
 @property

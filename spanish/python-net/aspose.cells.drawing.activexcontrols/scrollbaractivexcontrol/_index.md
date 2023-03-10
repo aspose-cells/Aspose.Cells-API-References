@@ -1,4 +1,4 @@
-﻿---
+---
 title: ScrollBarActiveXControl clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -53,7 +53,7 @@ El tipo ScrollBarActiveXControl expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose import pycore

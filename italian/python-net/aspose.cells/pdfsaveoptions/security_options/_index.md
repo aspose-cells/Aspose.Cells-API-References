@@ -1,4 +1,4 @@
-﻿---
+---
 title: security_options proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  security_options proprietà
 
-Imposta queste opzioni, quando è necessaria la sicurezza nel risultato xls2pdf.
+Imposta queste opzioni, quando la sicurezza è necessaria nel risultato xls2pdf.
 
-###  Esempi
+###  Esempio
 
 Il codice seguente imposta il permesso di stampa ad alta risoluzione per il pdf di output.
 

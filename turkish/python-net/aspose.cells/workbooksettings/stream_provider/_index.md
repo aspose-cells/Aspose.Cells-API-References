@@ -1,4 +1,4 @@
-﻿---
+---
 title: stream_provider mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  stream_provider mülk
 
-Dış kaynaklar için akış sağlayıcısını alır ve ayarlar.
+Dış kaynak için akış sağlayıcısını alır ve ayarlar.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen ResourceProvider özelliğini kullanın.
  Bu mülk, Haziran 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

@@ -1,6 +1,6 @@
-﻿---
+---
 title: WorkbookMetadata 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ def __init__(self, file_name, options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str |  |
 | options | [MetadataOptions](/cells/zh/python-net/aspose.cells.metadata/metadataoptions) |  |
@@ -35,7 +35,7 @@ def __init__(self, stream, options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | options | [MetadataOptions](/cells/zh/python-net/aspose.cells.metadata/metadataoptions) |  |

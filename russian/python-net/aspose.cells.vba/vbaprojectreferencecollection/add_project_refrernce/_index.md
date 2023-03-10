@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_project_refrernce метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add_project_refrernce(self, name, absolute_libid, relative_libid):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | name | str | Имя ссылки.|
 | absolute_libid | str | Идентификатор упомянутого проекта VBA с абсолютным путем.|

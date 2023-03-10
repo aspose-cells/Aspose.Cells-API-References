@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource Konstrukteur
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Direktor.
+Ctor.
 
 
 

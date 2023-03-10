@@ -1,4 +1,4 @@
-﻿---
+---
 title: group méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,14 +22,14 @@ def group(self, group_items):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | group_items | list | les éléments du groupe.|
 ###  Remarques
 
 La forme dans groupItems ne doit pas être groupée.
 La forme doit se trouver dans cette collection Shapes.
-###  Exemples
+###  Exemple
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_table_formula
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
@@ -38,7 +38,7 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
@@ -58,7 +58,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|
@@ -79,7 +79,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_number | int |عدد الصفوف لتعبئة الصيغة.|
 | column_number | int | عدد الأعمدة لتعبئة الصيغة.|

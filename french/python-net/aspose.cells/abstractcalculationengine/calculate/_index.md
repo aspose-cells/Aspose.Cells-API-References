@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def calculate(self, data):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | data | [CalculationData](/cells/fr/python-net/aspose.cells/calculationdata) | les données requises pour calculer la fonction telles que le nom de la fonction, les paramètres, etc.|
 ###  Remarques

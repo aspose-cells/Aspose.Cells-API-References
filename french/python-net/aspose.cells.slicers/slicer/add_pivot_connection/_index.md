@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_pivot_connection méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,11 +18,11 @@ def add_pivot_connection(self, pivot):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | L'objet tableau croisé dynamique|
 
-###  Exemples
+###  Exemple
 
 ```python
 

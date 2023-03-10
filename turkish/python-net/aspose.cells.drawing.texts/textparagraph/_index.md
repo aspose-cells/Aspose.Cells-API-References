@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraph sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -41,7 +41,7 @@ TextParagraph türü aşağıdaki üyeleri gösterir:
 | [right_margin](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/right_margin) | Paragrafın sağ kenar boşluğunu belirtir.|
 | [left_margin](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/left_margin) | Paragrafın sol kenar boşluğunu belirtir.|
 | [first_line_indent](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/first_line_indent) | Paragraftaki metnin ilk satırına uygulanacak girinti boyutunu belirtir.|
-| [font_align_type](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Gerçek kelimelerin bir metin satırında dikey olarak nereye yerleştirileceğini belirler.<br/> karakterlerin taban çizgilerine göre dikey yerleşimi ile.|
+| [font_align_type](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Gerçek kelimelerin bir metin satırında dikey olarak nereye yerleştirileceğini belirler. Bu fırsatlar<br/> karakterlerin taban çizgilerine göre dikey yerleşimi ile.|
 | [alignment_type](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/alignment_type) | Paragrafın metin yatay hizalama türünü alır ve ayarlar.|
 | [default_tab_size](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/default_tab_size) | Bu paragraftaki sekme karakteri için varsayılan boyutu alır ve ayarlar.|
 | [children](/cells/tr/python-net/aspose.cells.drawing.texts/textparagraph/children) | Bu paragraftaki tüm metin çalıştırmalarını alır.<br/> Bu paragraf boşsa, paragrafın kendisini döndürün.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: upper_delta_x 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1110
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-值的范围是0到1024。
+取值范围为 0 到 1024。
 
 ### 例子
 

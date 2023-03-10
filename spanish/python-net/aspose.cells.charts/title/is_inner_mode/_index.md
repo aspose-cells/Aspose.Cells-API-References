@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inner_mode propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,7 +14,7 @@ False especifica que el tamaño determinará el tamaño del área de trazado, la
 
 ###  Observaciones
 
-Solo para archivos Xlsx.
+Solo para archivo Xlsx.
 ###  Definición:
 ```python
 @property

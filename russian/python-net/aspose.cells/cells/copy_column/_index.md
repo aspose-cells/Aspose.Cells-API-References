@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_column метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def copy_column(self, source_cells, source_column_index, destination_column_inde
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|

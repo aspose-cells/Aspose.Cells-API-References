@@ -1,4 +1,4 @@
-﻿---
+---
 title: iteration mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  iteration mülk
 
-Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmeyeceğini gösterir.
+Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmediğini gösterir.
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.EnableIterativeCalculation kullanın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.EnableIterativeCalculation'ı kullanın.
  Bu mülk, Şubat 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

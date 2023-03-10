@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_html_tables الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

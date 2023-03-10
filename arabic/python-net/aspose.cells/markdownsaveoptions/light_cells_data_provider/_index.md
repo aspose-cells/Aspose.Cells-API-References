@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_provider الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider الملكية
 
-موفر البيانات لتوفير بيانات الخلايا لحفظ المصنفات في وضع الضوء.
+موفر البيانات لتوفير بيانات الخلايا لحفظ المصنف في الوضع الخفيف.
 ###  تعريف:
 ```python
 @property

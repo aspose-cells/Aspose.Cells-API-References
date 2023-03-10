@@ -1,4 +1,4 @@
-﻿---
+---
 title: transpose propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose propiedad
 
-Fiel a transpose filas y columnas cuando se pega el rango.
+Fiel a transpose filas y columnas cuando se pega el rango. El valor predeterminado es Falso.
 ###  Definición:
 ```python
 @property

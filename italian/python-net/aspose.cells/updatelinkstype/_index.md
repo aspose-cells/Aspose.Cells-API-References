@@ -1,4 +1,4 @@
-﻿---
+---
 title: UpdateLinksType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo UpdateLinksType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | USER_SET | Richiedi all'utente di aggiornare.|
-| NEVER | Non aggiornare e non chiedere all'utente.|
+| NEVER | Non aggiornare e non richiedere all'utente.|
 | ALWAYS | Aggiorna sempre.|
 
 

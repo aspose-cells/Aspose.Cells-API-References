@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_width Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die Breite der angegebenen Spalte in der Normalansicht ab
 
 ###  Kehrt zurück
 
-Breite der Spalten
+Breite der Spalte
 
 
 ```python

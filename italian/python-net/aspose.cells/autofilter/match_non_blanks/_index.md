@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo match_non_blanks
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def match_non_blanks(self, field_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'intero offset del campo su cui si desidera basare il filtro<br/> (da sinistra dell'elenco; il campo più a sinistra è il campo 0).|
 

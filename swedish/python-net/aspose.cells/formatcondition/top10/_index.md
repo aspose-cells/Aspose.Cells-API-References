@@ -1,4 +1,4 @@
-﻿---
+---
 title: top10 fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Hämta den villkorliga formateringens "Top10"-instans.
 Standardinstansens regel markerar celler vars
-värden hamnar i topp 10 parentes.
+värden hamnar i topp 10-parentesen.
 Gäller endast för typ är Top10.
 ###  Definition:
 ```python

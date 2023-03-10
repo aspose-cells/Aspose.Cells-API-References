@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShadowEffect sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,11 +19,11 @@ ShadowEffect türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [preset_type](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/preset_type) | Gölgenin ön ayarlı gölge türünü alır ve ayarlar.|
 | [color](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/color) | Gölgenin rengini alır ve ayarlar.|
-| [transparency](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/transparency) | Gölgenin saydamlık derecesini alır ve ayarlar. 0,0 (opak) ila 1,0 (açık) aralığındadır.|
-| [size](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/size) | Gölgenin boyutunu alır ve ayarlar. 0 ile 2.0 arasında değişir.<br/> İç gölgede anlamsız.|
+| [transparency](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/transparency) | Gölgenin şeffaflık derecesini alır ve ayarlar. 0,0 (opak) ile 1,0 (berrak) arasında değişir.|
+| [size](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/size) | Gölgenin boyutunu alır ve ayarlar. 0 ila 2.0 aralığında.<br/> İç gölgede anlamsız.|
 | [blur](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/blur) |Gölgenin bulanıklığını alır ve ayarlar. 0 ila 100 puan aralığındadır.|
 | [angle](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/angle) | Aydınlatma açısını alır ve ayarlar. 0 ile 359,9 derece arasında değişir.|
-| [distance](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/distance) | Gölgenin mesafesini alır ve ayarlar. 0 ila 200 puan aralığındadır.|
+| [distance](/cells/tr/python-net/aspose.cells.drawing/shadoweffect/distance) | Gölgenin uzaklığını alır ve ayarlar. 0 ila 200 puan aralığındadır.|
 
 
 

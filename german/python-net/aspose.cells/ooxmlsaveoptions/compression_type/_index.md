@@ -1,4 +1,4 @@
-﻿---
+---
 title: compression_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type Eigentum
 
-Ruft den Komprimierungstyp für Ooxml-Dateien ab und legt ihn fest.
+Ruft den Komprimierungstyp für die Ooxml-Datei ab und legt ihn fest.
 
 ###  Bemerkungen
 

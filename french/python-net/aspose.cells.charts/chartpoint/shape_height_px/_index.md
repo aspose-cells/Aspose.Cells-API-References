@@ -1,4 +1,4 @@
-﻿---
+---
 title: shape_height_px propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_row_header_caption propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

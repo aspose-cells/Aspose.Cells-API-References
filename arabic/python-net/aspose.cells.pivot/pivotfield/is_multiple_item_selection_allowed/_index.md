@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_multiple_item_selection_allowed الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

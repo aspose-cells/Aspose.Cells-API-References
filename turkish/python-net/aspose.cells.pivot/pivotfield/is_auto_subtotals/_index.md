@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_subtotals mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_subtotals mülk
 
-Belirtilen alanın otomatik alt toplamları gösterip göstermediğini gösterir.Varsayılan değer doğrudur.
+Belirtilen alanın otomatik alt toplamları gösterip göstermediğini gösterir. Varsayılan doğrudur.
 ###  Tanım:
 ```python
 @property

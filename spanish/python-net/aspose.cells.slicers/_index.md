@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.slicers
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ is_root: false
 | [Slicer](/cells/es/python-net/aspose.cells.slicers/slicer) | descripción resumida de la vista Slicer|
 | [SlicerCache](/cells/es/python-net/aspose.cells.slicers/slicercache) | descripción resumida de la caché de la segmentación|
 | [SlicerCacheItem](/cells/es/python-net/aspose.cells.slicers/slicercacheitem) | Representar elemento de fuente de datos de segmentación|
-| [SlicerCacheItemCollection](/cells/es/python-net/aspose.cells.slicers/slicercacheitemcollection) | Representar la colección de SlicerCacheItems|
+| [SlicerCacheItemCollection](/cells/es/python-net/aspose.cells.slicers/slicercacheitemcollection) | Representar la colección de SlicerCacheItem|
 | [SlicerCollection](/cells/es/python-net/aspose.cells.slicers/slicercollection) | Especifica la colección de todos los objetos Slicer en la hoja de cálculo especificada.|
 
 

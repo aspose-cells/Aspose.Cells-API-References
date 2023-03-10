@@ -1,4 +1,4 @@
-﻿---
+---
 title: linked_cell недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает диапазон рабочего листа, связанный со значением элемента управления.
 
-###  Примеры
+###  Пример
 
 ```python
 

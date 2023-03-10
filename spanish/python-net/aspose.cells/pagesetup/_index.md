@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageSetup clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -66,8 +66,8 @@ El tipo PageSetup expone los siguientes miembros:
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [get_picture(is_header, section)](/cells/es/python-net/aspose.cells/pagesetup/get_picture/#bool-int) | Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado o pie de página.|
-| [get_picture(is_first, is_even, is_header, section)](/cells/es/python-net/aspose.cells/pagesetup/get_picture/#bool-bool-bool-int) | Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado o pie de página.|
+| [get_picture(is_header, section)](/cells/es/python-net/aspose.cells/pagesetup/get_picture/#bool-int) | Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado/pie de página.|
+| [get_picture(is_first, is_even, is_header, section)](/cells/es/python-net/aspose.cells/pagesetup/get_picture/#bool-bool-bool-int) | Obtiene el objeto [Picture](/cells/es/python-net/aspose.cells.drawing/picture) del encabezado/pie de página.|
 | [copy(source, copy_options)](/cells/es/python-net/aspose.cells/pagesetup/copy/#PageSetup-CopyOptions) | Copia la configuración de la configuración de página.|
 | [set_fit_to_pages(wide, tall)](/cells/es/python-net/aspose.cells/pagesetup/set_fit_to_pages/#int-int) | Establece el número de páginas a las que se escalará la hoja de trabajo cuando se imprima.|
 | [custom_paper_size(width, height)](/cells/es/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | Establece el tamaño de papel personalizado, en unidades de pulgadas.|
@@ -91,7 +91,7 @@ El tipo PageSetup expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

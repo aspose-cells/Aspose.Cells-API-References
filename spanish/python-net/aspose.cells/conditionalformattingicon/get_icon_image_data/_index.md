@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_icon_image_data método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_icon_image_data(self, type, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [IconSetType](/cells/es/python-net/aspose.cells/iconsettype) | tipo de icono|
 | index | int | índice de iconos|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotArea класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -28,10 +28,10 @@ is_root: false
 | [text_font](/cells/ru/python-net/aspose.cells.charts/plotarea/text_font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
 | [text_options](/cells/ru/python-net/aspose.cells.charts/plotarea/text_options) | Получает и задает параметры текста.|
 | [font](/cells/ru/python-net/aspose.cells.charts/plotarea/font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
-| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта.|
+| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/plotarea/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию верно.|
 | [background_mode](/cells/ru/python-net/aspose.cells.charts/plotarea/background_mode) | Получает и задает режим отображения фона|
 | [background](/cells/ru/python-net/aspose.cells.charts/plotarea/background) | Получает и задает режим отображения фона|
-| [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Указывает, автоматически ли размер области графика изменяется.|
+| [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Указывает, имеет ли область графика автоматический размер.|
 | [x](/cells/ru/python-net/aspose.cells.charts/plotarea/x) | Получает или получает координату x верхнего левого угла ограничивающей рамки области графика в единицах 1/4000 области диаграммы.|
 | [y](/cells/ru/python-net/aspose.cells.charts/plotarea/y) | Получает или получает координату y верхнего верхнего угла ограничивающей рамки области графика в единицах 1/4000 области диаграммы.|
 | [height](/cells/ru/python-net/aspose.cells.charts/plotarea/height) |Получает или задает высоту ограничивающей рамки области графика в единицах, равных 1/4000 области диаграммы.|

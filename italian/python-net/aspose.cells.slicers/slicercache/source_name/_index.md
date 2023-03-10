@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce il nome del campo cache
 
-###  Esempi
+###  Esempio
 
 ```python
 

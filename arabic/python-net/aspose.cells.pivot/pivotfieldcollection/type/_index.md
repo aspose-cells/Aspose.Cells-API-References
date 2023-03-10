@@ -1,4 +1,4 @@
-﻿---
+---
 title: type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type الملكية
 
-يحصل على الحقول المحورية type.
+يحصل على PivotFields type.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_bool метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.properties/documentproperty/to_bool/
 is_root: false
 ---
 ##  to_bool() {#}
-Возвращает значение свойства как логическое значение.
+Возвращает значение свойства как bool.
 
 
 

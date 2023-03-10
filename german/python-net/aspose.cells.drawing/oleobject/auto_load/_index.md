@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_load Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: refer_to_destination_sheet fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

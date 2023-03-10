@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_inside_borders方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 160
@@ -18,7 +18,7 @@ def set_inside_borders(self, border_edge, line_style, border_color):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | border_edge | [BorderType](/cells/zh/python-net/aspose.cells/bordertype) |内边框类型，只能是[BorderType.VERTICAL](/cells/zh/python-net/aspose.cells/bordertype#VERTICAL)和[BorderType.HORIZONTAL](/cells/zh/python-net/aspose.cells/bordertype#HORIZONTAL)。|
 | line_style | [CellBorderType](/cells/zh/python-net/aspose.cells/cellbordertype) |边框样式。|

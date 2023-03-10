@@ -1,4 +1,4 @@
-﻿---
+---
 title: x_values Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  x_values Eigentum
 
-Stellt die x-Werte der Diagrammreihe dar.
+Repräsentiert die x-Werte der Diagrammreihe.
 ###  Definition:
 ```python
 @property

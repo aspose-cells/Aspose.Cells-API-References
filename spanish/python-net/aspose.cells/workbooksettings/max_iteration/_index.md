@@ -1,4 +1,4 @@
-﻿---
+---
 title: max_iteration propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Devuelve o establece el número máximo de iteraciones para resolver una referen
 
 ###  Observaciones
 
-NOTA: este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.MaxIteration.
+NOTA: Este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.MaxIteration.
  Esta propiedad se eliminará 12 meses después desde febrero de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

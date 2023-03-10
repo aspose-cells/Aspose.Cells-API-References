@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoArrowheadStyle dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ Le type MsoArrowheadStyle expose les membres suivants :
 | ARROW | Type de fin de ligne de flèche.|
 | ARROW_STEALTH | Type d'extrémité de ligne Stealth Arrow.|
 | ARROW_DIAMOND | Type d'extrémité de ligne de diamant de flèche.|
-| ARROW_OVAL | Type de fin de ligne ovale de flèche.|
+| ARROW_OVAL | Flèche Type de fin de ligne ovale.|
 | ARROW_OPEN | Flèche Type de fin de ligne ouverte.|
 
 

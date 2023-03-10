@@ -1,4 +1,4 @@
-﻿---
+---
 title: alternative_text недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает или задает описательную (альтернативную) текстовую строку объекта Slicer.
 
-###  Примеры
+###  Пример
 
 ```python
 

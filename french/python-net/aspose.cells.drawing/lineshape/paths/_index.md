@@ -1,4 +1,4 @@
-﻿---
+---
 title: paths propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient le paths d'une forme géométrique personnalisée.
 
-###  Exemples
+###  Exemple
 
 ```python
 

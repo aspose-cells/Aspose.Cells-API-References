@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_sheet
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/it/python-net/aspose.cells/worksheet) | il foglio di lavoro per leggere i dati delle celle.|
 ###  Osservazioni

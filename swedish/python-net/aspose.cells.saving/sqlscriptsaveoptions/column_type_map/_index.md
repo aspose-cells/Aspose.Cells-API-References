@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_type_map fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map fastighet
 
-Hämtar och ställer in kartan över kolumntyper för olika databaser.
+Hämtar och ställer in kartan över kolumntyp för olika databas.
 ###  Definition:
 ```python
 @property

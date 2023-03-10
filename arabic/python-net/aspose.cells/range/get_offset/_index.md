@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_offset
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_offset(self, row_offset, column_offset):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_offset | int | إزاحة الصف في هذا النطاق ، على أساس الصفر.|
 | column_offset | int |عمود الإزاحة في هذا النطاق ، على أساس الصفر.|

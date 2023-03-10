@@ -1,4 +1,4 @@
-﻿---
+---
 title: terminate_without_exception Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  terminate_without_exception Eigentum
 
-Wenn die Prozedur unterbrochen wird, ob die Prozedur ruhig beendet oder eine Ausnahme ausgelöst werden soll.
+Wenn die Prozedur unterbrochen wird, ob die Prozedur stillschweigend beendet oder eine Ausnahme ausgelöst wird.
 Standard ist falsch, das heißt, wenn [AbstractInterruptMonitor.is_interruption_requested](/cells/de/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) wahr ist,
 ein [CellsException](/cells/de/python-net/aspose.cells/cellsexception) mit dem Code [ExceptionType.INTERRUPTED](/cells/de/python-net/aspose.cells/exceptiontype#INTERRUPTED) wird geworfen.
 ###  Definition:

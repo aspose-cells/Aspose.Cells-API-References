@@ -1,6 +1,6 @@
-﻿---
+---
 title: trim_leading_blank_row_and_column 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -18,7 +18,7 @@ is_root: false
 即使它不包含单元格数据。
 使用 LightCells 模式保存时，此选项无效。
 用户应通过执行 [TxtSaveOptions.light_cells_data_provider](/cells/zh/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider) 来控制输出范围
-或拨打 [TxtSaveOptions.export_area](/cells/zh/python-net/aspose.cells/txtsaveoptions#export_area)
+或指定 [TxtSaveOptions.export_area](/cells/zh/python-net/aspose.cells/txtsaveoptions#export_area)
 ### 定义：
 ```python
 @property

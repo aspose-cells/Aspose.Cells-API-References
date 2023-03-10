@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparklines الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparklines الملكية
 
-الحصول على مجموعة [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) عنصر.
+الحصول على مجموعة عنصر [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline).
 ###  تعريف:
 ```python
 @property

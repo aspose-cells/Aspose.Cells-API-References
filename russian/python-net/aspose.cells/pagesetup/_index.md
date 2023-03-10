@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageSetup класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -53,7 +53,7 @@ is_root: false
 | [print_errors](/cells/ru/python-net/aspose.cells/pagesetup/print_errors) | Указывает тип отображаемой ошибки печати.|
 | [print_headings](/cells/ru/python-net/aspose.cells/pagesetup/print_headings) | Указывает, печатаются ли заголовки строк и столбцов на этой странице.|
 | [print_gridlines](/cells/ru/python-net/aspose.cells/pagesetup/print_gridlines) | Указывает, печатаются ли линии сетки ячеек на странице.|
-| [zoom](/cells/ru/python-net/aspose.cells/pagesetup/zoom) | Представляет коэффициент масштабирования в процентах. Он должен находиться в диапазоне от 10 до 400.|
+| [zoom](/cells/ru/python-net/aspose.cells/pagesetup/zoom) | Представляет коэффициент масштабирования в процентах. Должно быть от 10 до 400.|
 | [is_auto_first_page_number](/cells/ru/python-net/aspose.cells/pagesetup/is_auto_first_page_number) | Указывает, присваивается ли автоматически номер первой страницы.|
 | [print_quality](/cells/ru/python-net/aspose.cells/pagesetup/print_quality) | Представляет качество печати.|
 | [print_copies](/cells/ru/python-net/aspose.cells/pagesetup/print_copies) | Получить и установить количество копий для печати.|
@@ -91,7 +91,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

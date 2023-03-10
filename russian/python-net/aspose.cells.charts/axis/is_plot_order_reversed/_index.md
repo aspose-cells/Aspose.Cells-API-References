@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_plot_order_reversed недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

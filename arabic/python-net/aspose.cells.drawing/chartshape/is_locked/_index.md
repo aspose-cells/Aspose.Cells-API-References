@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_locked الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 صواب إذا كان الكائن مؤمنًا ، خطأ إذا كان من الممكن تعديل الكائن عندما تكون الورقة محمية.
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_in_shape propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -16,7 +16,7 @@ en unité de 1/4000 de largeur de la forme parent.
 
 S'applique uniquement lorsque cette forme se trouve dans le groupe ou le graphique.
 
-###  Exemples
+###  Exemple
 
 ```python
 

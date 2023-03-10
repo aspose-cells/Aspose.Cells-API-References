@@ -1,4 +1,4 @@
-﻿---
+---
 title: selected_item метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def selected_item(self, item_index, is_selected):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | item_index | int | Индекс элемента|
 | is_selected | bool | Выбран ли элемент.<br/>True означает, что этот элемент должен быть выбран.<br/> False означает, что этот элемент не должен быть выбран.|

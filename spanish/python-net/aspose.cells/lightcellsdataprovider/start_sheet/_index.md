@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sheet_index | int | índice de la hoja actual que se va a guardar.|
 ###  Observaciones

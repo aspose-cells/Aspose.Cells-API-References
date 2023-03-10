@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoNumberedBulletValue класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue класс
-Представляет автоматически пронумерованные маркеры.
+Представляет автоматически пронумерованный маркер.
 
 
 

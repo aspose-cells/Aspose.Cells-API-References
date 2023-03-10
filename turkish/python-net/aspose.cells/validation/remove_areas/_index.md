@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_areas yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_areas(self, areas):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | areas | list | bu doğrulama ayarlarının kaldırılması gereken alanlar.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Shape класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -29,7 +29,7 @@ is_root: false
 | [format](/cells/ru/python-net/aspose.cells.drawing/shape/format) | Представляет параметр форматирования фигуры.|
 | [line](/cells/ru/python-net/aspose.cells.drawing/shape/line) | Получает стиль линии|
 | [fill](/cells/ru/python-net/aspose.cells.drawing/shape/fill) | Возвращает объект [Shape.fill_format](/cells/ru/python-net/aspose.cells.drawing/shape#fill_format), содержащий свойства форматирования заливки для указанной фигуры.|
-| [shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shape/shadow_effect) | Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), задающий эффект тени для элемента диаграммы или фигуры.|
+| [shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shape/shadow_effect) | Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), определяющий эффект тени для элемента диаграммы или фигуры.|
 | [reflection](/cells/ru/python-net/aspose.cells.drawing/shape/reflection) | Представляет объект [ReflectionEffect](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect), задающий эффект отражения для элемента диаграммы или фигуры.|
 | [glow](/cells/ru/python-net/aspose.cells.drawing/shape/glow) | Представляет объект [GlowEffect](/cells/ru/python-net/aspose.cells.drawing/gloweffect), задающий эффект свечения для элемента диаграммы или фигуры.|
 | [soft_edges](/cells/ru/python-net/aspose.cells.drawing/shape/soft_edges) | Получает и задает радиус размытия, применяемый к краям, в точках.|
@@ -41,7 +41,7 @@ is_root: false
 | [rotation_angle](/cells/ru/python-net/aspose.cells.drawing/shape/rotation_angle) | Получает и задает поворот фигуры.|
 | [hyperlink](/cells/ru/python-net/aspose.cells.drawing/shape/hyperlink) | Получает гиперссылку фигуры.|
 | [id](/cells/ru/python-net/aspose.cells.drawing/shape/id) | Получает идентификатор этой фигуры.|
-| [spid](/cells/ru/python-net/aspose.cells.drawing/shape/spid) | Указывает необязательную строку, которую приложение может использовать для идентификации конкретной формы.|
+| [spid](/cells/ru/python-net/aspose.cells.drawing/shape/spid) | Указывает необязательную строку, которую приложение может использовать для идентификации конкретной фигуры.|
 | [spt](/cells/ru/python-net/aspose.cells.drawing/shape/spt) | Указывает необязательный номер, который приложение может использовать для связывания конкретной фигуры с определенным типом фигуры.|
 | [worksheet](/cells/ru/python-net/aspose.cells.drawing/shape/worksheet) | Получает объект [Shape.worksheet](/cells/ru/python-net/aspose.cells.drawing/shape#worksheet), содержащий эту фигуру.|
 | [is_group](/cells/ru/python-net/aspose.cells.drawing/shape/is_group) | Указывает, является ли фигура группой.|
@@ -66,7 +66,7 @@ is_root: false
 | [bottom](/cells/ru/python-net/aspose.cells.drawing/shape/bottom) |Представляет ширину смещения фигуры по вертикали от нижнего нижнего углового ряда в пикселях.|
 | [width](/cells/ru/python-net/aspose.cells.drawing/shape/width) | Представляет ширину фигуры в пикселях.|
 | [width_inch](/cells/ru/python-net/aspose.cells.drawing/shape/width_inch) | Представляет ширину фигуры в дюймах.|
-| [width_pt](/cells/ru/python-net/aspose.cells.drawing/shape/width_pt) | Представляет ширину фигуры в точках.|
+| [width_pt](/cells/ru/python-net/aspose.cells.drawing/shape/width_pt) | Представляет ширину фигуры в пунктах.|
 | [width_cm](/cells/ru/python-net/aspose.cells.drawing/shape/width_cm) | Представляет ширину фигуры в сантиметрах.|
 | [height](/cells/ru/python-net/aspose.cells.drawing/shape/height) | Представляет высоту фигуры в пикселях.|
 | [height_inch](/cells/ru/python-net/aspose.cells.drawing/shape/height_inch) | Представляет высоту фигуры в дюймах.|
@@ -80,13 +80,13 @@ is_root: false
 | [top_cm](/cells/ru/python-net/aspose.cells.drawing/shape/top_cm) | Представляет вертикальное смещение фигуры от верхнего ряда в сантиметрах.|
 | [top_to_corner](/cells/ru/python-net/aspose.cells.drawing/shape/top_to_corner) | Получает и задает вертикальное смещение фигуры от верхней границы рабочего листа в пикселях.|
 | [left_to_corner](/cells/ru/python-net/aspose.cells.drawing/shape/left_to_corner) | Получает и задает горизонтальное смещение фигуры от левой границы рабочего листа.|
-| [x](/cells/ru/python-net/aspose.cells.drawing/shape/x) | Получает и задает смещение фигуры по горизонтали от левой границы рабочего листа в пикселях.|
-| [y](/cells/ru/python-net/aspose.cells.drawing/shape/y) | Получает и задает вертикальное смещение фигуры от верхней границы рабочего листа в пикселях.|
-| [width_scale](/cells/ru/python-net/aspose.cells.drawing/shape/width_scale) | Получает и задает масштаб ширины в процентах от исходной ширины изображения.<br/> Если фигура не picture , свойство WidthScale возвращает только 100;|
-| [height_scale](/cells/ru/python-net/aspose.cells.drawing/shape/height_scale) | Получает и задает масштаб высоты в процентах от исходной высоты изображения.<br/> Если фигура не picture , свойство HeightScale возвращает только 100;|
+| [x](/cells/ru/python-net/aspose.cells.drawing/shape/x) | Получает и задает горизонтальное смещение фигуры от левой границы рабочего листа в единицах пикселей.|
+| [y](/cells/ru/python-net/aspose.cells.drawing/shape/y) | Получает и задает вертикальное смещение фигуры от верхней границы рабочего листа в единицах пикселей.|
+| [width_scale](/cells/ru/python-net/aspose.cells.drawing/shape/width_scale) | Получает и задает масштаб ширины в процентах от исходной ширины изображения.<br/> Если фигура не является изображением, свойство WidthScale возвращает только 100;|
+| [height_scale](/cells/ru/python-net/aspose.cells.drawing/shape/height_scale) | Получает и задает масштаб высоты в процентах от исходной высоты изображения.<br/> Если фигура не является изображением, свойство HeightScale возвращает только 100;|
 | [top_in_shape](/cells/ru/python-net/aspose.cells.drawing/shape/top_in_shape) | Представляет вертикальное смещение фигуры от верхней границы родительской фигуры,<br/> в единице 1/4000 высоты родительской формы.|
 | [left_in_shape](/cells/ru/python-net/aspose.cells.drawing/shape/left_in_shape) |Представляет горизонтальное смещение фигуры от левой границы родительской фигуры,<br/> в единицах 1/4000 ширины родительской формы.|
-| [width_in_shape](/cells/ru/python-net/aspose.cells.drawing/shape/width_in_shape) | Представляет ширину фигуры в единицах 1/4000 родительской фигуры.|
+| [width_in_shape](/cells/ru/python-net/aspose.cells.drawing/shape/width_in_shape) | Представляет ширину фигуры в 1/4000 от родительской фигуры.|
 | [height_in_shape](/cells/ru/python-net/aspose.cells.drawing/shape/height_in_shape) | Представляет вертикальное смещение фигуры от верхней границы родительской фигуры в единицах 1/4000 высоты родительской фигуры.|
 | [group](/cells/ru/python-net/aspose.cells.drawing/shape/group) | Получает фигуру группы, содержащую эту фигуру.|
 | [type](/cells/ru/python-net/aspose.cells.drawing/shape/type) | Получает автоматический тип фигуры.|
@@ -117,7 +117,7 @@ is_root: false
 | [active_x_control](/cells/ru/python-net/aspose.cells.drawing/shape/active_x_control) | Получает элемент управления ActiveX.|
 | [paths](/cells/ru/python-net/aspose.cells.drawing/shape/paths) |Получает пути пользовательской геометрической формы.|
 | [geometry](/cells/ru/python-net/aspose.cells.drawing/shape/geometry) | Получает геометрию|
-| [create_id](/cells/ru/python-net/aspose.cells.drawing/shape/create_id) | Получает и задает идентификатор создания для этой формы.|
+| [create_id](/cells/ru/python-net/aspose.cells.drawing/shape/create_id) | Получает и задает идентификатор создания для этой фигуры.|
 
 
 ###  Методы
@@ -144,13 +144,13 @@ is_root: false
 | [update_selected_value()](/cells/ru/python-net/aspose.cells.drawing/shape/update_selected_value/#) | Обновите выбранное значение значением связанной ячейки.|
 | [calculate_text_size()](/cells/ru/python-net/aspose.cells.drawing/shape/calculate_text_size/#) | Пересчитать текстовую область|
 | [characters(start_index, length)](/cells/ru/python-net/aspose.cells.drawing/shape/characters/#int-int) | Возвращает объект Characters, представляющий диапазон символов в тексте.|
-| [get_characters()](/cells/ru/python-net/aspose.cells.drawing/shape/get_characters/#) | Возвращает все объекты символов<br/> который представляет диапазон символов в тексте.|
+| [get_characters()](/cells/ru/python-net/aspose.cells.drawing/shape/get_characters/#) | Возвращает все объекты символов<br/> который представляет собой диапазон символов в тексте.|
 | [remove_active_x_control()](/cells/ru/python-net/aspose.cells.drawing/shape/remove_active_x_control/#) | Удалить элемент управления ActiveX.|
-| [is_same_setting(obj)](/cells/ru/python-net/aspose.cells.drawing/shape/is_same_setting/#any) | Возвращает, является ли форма такой же.|
+| [is_same_setting(obj)](/cells/ru/python-net/aspose.cells.drawing/shape/is_same_setting/#any) | Возвращает, совпадает ли форма.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

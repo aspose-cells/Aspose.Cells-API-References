@@ -1,4 +1,4 @@
-﻿---
+---
 title: build_version недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

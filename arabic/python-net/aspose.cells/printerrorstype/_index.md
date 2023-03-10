@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد PrintErrorsType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  العد PrintErrorsType
-يمثل ثوابت خطأ الطباعة.
+يمثل ثوابت أخطاء الطباعة.
 
 
 

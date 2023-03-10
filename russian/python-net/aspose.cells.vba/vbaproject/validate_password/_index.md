@@ -1,4 +1,4 @@
-﻿---
+---
 title: validate_password метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def validate_password(self, password):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | password | str | пароль|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_label
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Aggiunge un'etichetta al foglio di lavoro.
 
 ###  ritorna
 
-Un oggetto etichetta.
+Un oggetto Etichetta.
 
 
 ```python
@@ -22,7 +22,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
 | top | int | Rappresenta l'offset verticale di Label dalla relativa riga sinistra, in unità di pixel.|
@@ -31,7 +31,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | height | int | Rappresenta l'altezza di Label, in unità di pixel.|
 | width | int | Rappresenta la larghezza dell'etichetta, in unità di pixel.|
 
-###  Esempi
+###  Esempio
 
 ```python
 

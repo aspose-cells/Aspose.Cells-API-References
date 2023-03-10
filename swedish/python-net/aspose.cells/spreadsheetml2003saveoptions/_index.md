@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetML2003SaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/spreadsheetml2003saveoptions/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions klass
-Representerar alternativen för att spara Excel 2003 spreadml-filer.
+Representerar alternativen för att spara Excel 2003 spreadml-fil.
 
 
 
@@ -22,8 +22,8 @@ Typen SpreadsheetML2003SaveOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [SpreadsheetML2003SaveOptions()](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#) | Skapar alternativen för att spara Excel 2003 spreadml-filer.|
-| [SpreadsheetML2003SaveOptions(save_format)](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#SaveFormat) | Skapar alternativen för att spara Excel 2003 spreadml-filer.|
+| [SpreadsheetML2003SaveOptions()](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#) | Skapar alternativen för att spara Excel 2003 spreadml-fil.|
+| [SpreadsheetML2003SaveOptions(save_format)](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#SaveFormat) | Skapar alternativen för att spara Excel 2003 spreadml-fil.|
 
 
 ###  Egenskaper
@@ -38,8 +38,8 @@ Typen SpreadsheetML2003SaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [is_indented_formatting](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/is_indented_formatting) | Gör att underordnade element dras in.|
 | [limit_as_xls](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/limit_as_xls) | Begränsa som xls, max radindex är 65535 och max kolumnindex är 255.|
 | [export_column_index_of_cell](/cells/sv/python-net/aspose.cells/spreadsheetml2003saveoptions/export_column_index_of_cell) |Standardvärdet är false, det betyder att kolumnindex kommer att ignoreras om cellen gränsar till föregående cell.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_permission недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission недвижимость
 
-Разрешение на печать pdf документов
+Разрешение на печать pdf документа
 ###  Определение:
 ```python
 @property

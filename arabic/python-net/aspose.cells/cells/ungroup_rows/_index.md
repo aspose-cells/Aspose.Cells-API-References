@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة ungroup_rows
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/ungroup_rows/
 is_root: false
 ---
 ##  ungroup_rows(first_index, last_index) {#int-int}
-فك تجميع الصفوف.
+يفك تجميع الصفوف.
 
 
 
@@ -18,7 +18,7 @@ def ungroup_rows(self, first_index, last_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس الصف الأول المراد فك تجميعه.|
 | last_index | int | فهرس الصف الأخير المراد فك تجميعه.|
@@ -28,7 +28,7 @@ def ungroup_rows(self, first_index, last_index):
 
 ##  ungroup_rows(first_index, last_index, is_all) {#int-int-bool}
 
-فك تجميع الصفوف.
+يفك تجميع الصفوف.
 
 
 
@@ -38,7 +38,7 @@ def ungroup_rows(self, first_index, last_index, is_all):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | first_index | int | فهرس الصف الأول المراد فك تجميعه.|
 | last_index | int | فهرس الصف الأخير المراد فك تجميعه.|

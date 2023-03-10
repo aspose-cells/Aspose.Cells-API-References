@@ -1,4 +1,4 @@
-﻿---
+---
 title: height fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height fastighet
 
-Representerar höjden på kommentaren, i enheter av pixlar.
+Representerar höjden på kommentaren, i pixelenhet.
 
 ###  Exempel
 

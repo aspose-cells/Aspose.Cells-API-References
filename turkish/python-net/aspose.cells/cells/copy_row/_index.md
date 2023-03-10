@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_row yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def copy_row(self, source_cells, source_row_index, destination_row_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_row_index | int | Kaynak satır dizini.|

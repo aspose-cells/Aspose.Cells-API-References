@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetPrintingPreview constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheet, options):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/es/python-net/aspose.cells/worksheet) | Indique qué hoja de cálculo se va a imprimir.|
 | options | [ImageOrPrintOptions](/cells/es/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions contiene alguna propiedad de salida|

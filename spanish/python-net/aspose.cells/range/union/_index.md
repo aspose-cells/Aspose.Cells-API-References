@@ -1,4 +1,4 @@
-﻿---
+---
 title: union método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | range | [Range](/cells/es/python-net/aspose.cells/range) | El rango|
 

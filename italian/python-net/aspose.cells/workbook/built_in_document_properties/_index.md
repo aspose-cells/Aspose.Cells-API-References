@@ -1,4 +1,4 @@
-﻿---
+---
 title: built_in_document_properties proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,8 +13,8 @@ Restituisce una raccolta [DocumentProperty](/cells/it/python-net/aspose.cells.pr
 
 ###  Osservazioni
 
-Non è possibile aggiungere una nuova proprietà all'elenco delle proprietà del documento integrato.
-Di seguito è riportato l'elenco dei nomi delle proprietà integrate:
+Non è possibile aggiungere una nuova proprietà all'elenco delle proprietà del documento integrato. Puoi solo ottenere una proprietà incorporata e modificarne il valore.
+Di seguito è riportato l'elenco dei nomi delle proprietà predefinite:
 
 Titolo
 
@@ -22,7 +22,7 @@ Titolo
 Soggetto
 
 
-autore
+Autore
 
 
 Parole chiave
@@ -73,7 +73,7 @@ Categoria
 Formato
 
 
-manager
+Manager
 
 
 Azienda
@@ -82,7 +82,7 @@ Azienda
 Numero di byte
 
 
-Numero di linee
+Numero di righe
 
 
 Numero di paragrafi

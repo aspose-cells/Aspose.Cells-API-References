@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_format недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format недвижимость
 
-Получает и задает формат числовых значений.
+Получает и задает формат числового значения.
 ###  Определение:
 ```python
 @property

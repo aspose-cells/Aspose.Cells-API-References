@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_param_value
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -24,9 +24,9 @@ def get_param_value(self, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| index | int | indice del parametro (a base 0)|
+| index | int | indice del parametro (basato su 0)|
 
 
 

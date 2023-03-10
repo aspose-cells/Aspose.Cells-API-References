@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_left_column proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'indice della colonna nell'angolo superiore sinistro.
 
-###  Esempi
+###  Esempio
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_columns proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta le colonne che contengono le celle da ripetere sul lato sinistro di ogni pagina.
 
-###  Esempi
+###  Esempio
 
 ```python
 

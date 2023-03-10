@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_sheet_by_code_name Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

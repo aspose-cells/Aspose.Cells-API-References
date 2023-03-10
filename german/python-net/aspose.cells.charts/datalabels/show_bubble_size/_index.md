@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_bubble_size Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_bubble_size Eigentum
 
-Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. False zum Ausblenden.
+Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. Falsch zu verstecken.
 ###  Definition:
 ```python
 @property

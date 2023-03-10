@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.revisions
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ is_root: false
 | [RevisionLog](/cells/ru/python-net/aspose.cells.revisions/revisionlog) |Представляет журнал изменений.|
 | [RevisionLogCollection](/cells/ru/python-net/aspose.cells.revisions/revisionlogcollection) | Представляет все журналы изменений.|
 | [RevisionMergeConflict](/cells/ru/python-net/aspose.cells.revisions/revisionmergeconflict) | Представляет запись редакции, указывающую на конфликт слияния.|
-| [RevisionQueryTable](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable) | Представляет ревизию изменения поля таблицы запросов.|
+| [RevisionQueryTable](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable) | Представляет ревизию изменения поля таблицы запроса.|
 | [RevisionRenameSheet](/cells/ru/python-net/aspose.cells.revisions/revisionrenamesheet) | Представляет редакцию листа переименования.|
 
 

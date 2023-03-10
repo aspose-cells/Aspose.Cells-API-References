@@ -1,4 +1,4 @@
-﻿---
+---
 title: selection_margin proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

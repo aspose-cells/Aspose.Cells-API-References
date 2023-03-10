@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_deleted 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_deleted 属性
 
-指示是否删除输入单元格。
+指示输入单元格是否被删除。
 ### 定义：
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: StreamProviderOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -26,7 +26,7 @@ StreamProviderOptions türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [resource_loading_type](/cells/tr/python-net/aspose.cells/streamprovideroptions/resource_loading_type) | Yükleme kaynağının türünü alır ve ayarlar.|
 | [default_path](/cells/tr/python-net/aspose.cells/streamprovideroptions/default_path) | Başvurulan kaynak için oluşturulan html dosyasına kaydedilen varsayılan yol (URL).<br/> Örneğin, xxx_files/sheet001.htm'de kaydedilen sayfa verileri, ana html dosyasında kullanılan url "src="xxx_files/sheet001.htm"" gibi olmalıdır.|
-| [custom_path](/cells/tr/python-net/aspose.cells/streamprovideroptions/custom_path) | Başvurulan kaynak için oluşturulan html dosyasına kaydedilen kullanıcı özel yolu (URL).<br/> Örneğin, sayfa verileri kullanıcı tarafından d:/sheet001.htm'ye kaydedilecek, ana html dosyasında kullanılan url "d:/sheet001.htm" veya ana html tarafından erişilebilen diğer geçerli göreli yol olmalıdır. dosya.|
+| [custom_path](/cells/tr/python-net/aspose.cells/streamprovideroptions/custom_path) | Başvurulan kaynak için oluşturulan html dosyasına kaydedilen kullanıcı özel yolu (URL). Kullanıcı tarafından tanımlanmamışsa, DefaultPath kullanılacaktır.<br/> Örneğin, sayfa verileri kullanıcı tarafından d:/sheet001.htm'ye kaydedilecek, ana html dosyasında kullanılan url "d:/sheet001.htm" veya ana html tarafından erişilebilen diğer geçerli göreli yol olmalıdır. dosya.|
 | [stream](/cells/tr/python-net/aspose.cells/streamprovideroptions/stream) | Akışı alır/ayarlar|
 
 

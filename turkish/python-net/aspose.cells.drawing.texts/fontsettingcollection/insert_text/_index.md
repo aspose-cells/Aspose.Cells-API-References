@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_text yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def insert_text(self, index, text):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Başlangıç dizini.|
 | text | str | Metin.|

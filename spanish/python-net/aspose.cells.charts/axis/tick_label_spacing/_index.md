@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_label_spacing propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing propiedad
 
-Representa el número de categorías o series entre etiquetas de marca de verificación.
+Representa el número de categorías o series entre etiquetas de marca de verificación. Aplica solo para ejes de categoría y serie.
 
 ###  Observaciones
 

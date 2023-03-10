@@ -1,4 +1,4 @@
-﻿---
+---
 title: security_descriptor الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

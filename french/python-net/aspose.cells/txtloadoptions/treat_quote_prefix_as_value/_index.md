@@ -1,4 +1,4 @@
-﻿---
+---
 title: treat_quote_prefix_as_value propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  treat_quote_prefix_as_value propriété
 
 Indique si le guillemet simple de début doit être considéré comme faisant partie de la valeur d'une cellule.
-La valeur par défaut est true. S'il est false, le guillemet simple de début sera supprimé de la valeur de la cellule correspondante
+La valeur par défaut est true. S'il est faux, le premier guillemet simple sera supprimé de la valeur de la cellule correspondante
 et [Style.quote_prefix](/cells/fr/python-net/aspose.cells/style#quote_prefix) seront définis comme vrais pour la cellule.
 ###  Définition:
 ```python

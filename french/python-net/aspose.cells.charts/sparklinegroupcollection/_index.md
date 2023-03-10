@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroupCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type SparklineGroupCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
@@ -32,12 +32,12 @@ Le type SparklineGroupCollection expose les membres suivants :
 | [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
 | [add(type, data_range, is_vertical, location_range)](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/add/#SparklineType-str-bool-CellArea) | Ajoute un élément [SparklineGroup](/cells/fr/python-net/aspose.cells.charts/sparklinegroup) à la collection.|
 | [clear_sparklines(cell_area)](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Efface les sparklines qui se trouvent à l'intérieur d'une zone de cellules.|
-| [clear_sparkline_groups(cell_area)](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Efface les groupes sparkline qui chevauchent une zone de cellules.|
+| [clear_sparkline_groups(cell_area)](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Efface les groupes de graphiques sparkline qui chevauchent une zone de cellules.|
 | [binary_search(item)](/cells/fr/python-net/aspose.cells.charts/sparklinegroupcollection/binary_search/#SparklineGroup) | Recherche un élément dans toute la liste de tableaux triés à l'aide du comparateur par défaut et renvoie l'index de base zéro de l'élément.|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

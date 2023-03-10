@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_width_cm الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_cm الملكية
 
-عرض النافذة بوحدات السنتيمتر.
+عرض النافذة بوحدة سنتيمتر.
 ###  تعريف:
 ```python
 @property

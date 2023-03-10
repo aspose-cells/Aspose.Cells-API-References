@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_formula2 método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_formula2(self, is_r1c1, is_local):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_r1c1 | bool | Si la fórmula debe formatearse como R1C1.|
 | is_local | bool | Si la fórmula debe formatearse según la configuración regional.|
@@ -43,7 +43,7 @@ def get_formula2(self, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | El índice de fila.|
 | column | int | El índice de la columna.|
@@ -64,7 +64,7 @@ def get_formula2(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_r1c1 | bool | Si la fórmula debe formatearse como R1C1.|
 | is_local | bool | Si la fórmula debe formatearse según la configuración regional.|

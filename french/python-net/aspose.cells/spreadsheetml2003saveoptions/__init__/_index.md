@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetML2003SaveOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions() {#}
-Crée les options d'enregistrement des fichiers spreadml Excel 2003.
+Crée les options d'enregistrement du fichier spreadml Excel 2003.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SpreadsheetML2003SaveOptions(save_format) {#SaveFormat}
-Crée les options d'enregistrement des fichiers spreadml Excel 2003.
+Crée les options d'enregistrement du fichier spreadml Excel 2003.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Le format de sauvegarde.|
 ###  Remarques

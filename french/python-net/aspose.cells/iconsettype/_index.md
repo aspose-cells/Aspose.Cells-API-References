@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  IconSetType dénombrement
  Type de jeu d'icônes pour la mise en forme conditionnelle.
-Les valeurs seuils de déclenchement des différentes icônes au sein d'un ensemble sont
+Les valeurs seuils de déclenchement des différentes icônes d'un ensemble sont
 configurable et l'ordre des icônes est réversible.
 
 
@@ -36,13 +36,13 @@ Le type IconSetType expose les membres suivants :
 | ARROWS_GRAY5 | Jeu d'icônes de 5 flèches grises.|
 | QUARTERS5 | Jeu d'icônes de 5 quarts.|
 | RATING5 | 5 jeu d'icônes de classement.|
-| STARS3 | ensemble 3 étoiles|
+| STARS3 | Ensemble 3 étoiles|
 | BOXES5 | Coffret 5 boîtes|
 | TRIANGLES3 | Ensemble de 3 triangles|
 | NONE | Aucun|
 | CUSTOM_SET | Ensemble personnalisé.<br/> Cet élément est en lecture seule.|
-| SMILIES3 | 3 sourires.<br/> Uniquement pour .ods.|
-| COLOR_SMILIES3 | 3 sourires de couleur.<br/> Uniquement pour .ods.|
+| SMILIES3 | 3 smileys.<br/> Uniquement pour .ods.|
+| COLOR_SMILIES3 | Smileys 3 couleurs.<br/> Uniquement pour .ods.|
 
 
 

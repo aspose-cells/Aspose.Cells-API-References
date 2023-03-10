@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة hide_columns
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def hide_columns(self, column, total_columns):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود.|
 | total_columns | int | رقم العمود.|

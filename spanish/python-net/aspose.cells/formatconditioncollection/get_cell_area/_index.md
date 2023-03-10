@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_area método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_cell_area(self, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice del rango de celdas con formato condicional.|
 

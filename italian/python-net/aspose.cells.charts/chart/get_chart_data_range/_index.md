@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_chart_data_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

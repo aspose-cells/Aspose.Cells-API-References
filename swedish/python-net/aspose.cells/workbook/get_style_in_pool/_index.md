@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_style_in_pool metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -15,7 +15,7 @@ Det finns bara ett enkelt referensindex i cellerna.
 
 ###  Returnerar
 
-Stilen i poolen motsvarar ett givet index, kan vara null.
+Stilen i poolen motsvarar givet index, kan vara null.
 
 
 ```python
@@ -24,12 +24,12 @@ def get_style_in_pool(self, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Indexet.|
 ###  Anmärkningar
 
-Om den returnerade stilen ändras kommer stilen för alla celler (som hänvisar till denna stil) att ändras.
+Om den returnerade stilen ändras, kommer stilen för alla celler (som hänvisar till denna stil) att ändras.
 
 
 ###  Se även

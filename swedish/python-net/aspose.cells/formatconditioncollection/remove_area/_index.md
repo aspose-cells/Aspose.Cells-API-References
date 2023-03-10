@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def remove_area(self, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Indexet för det villkorligt formaterade cellintervallet som ska tas bort.|
 
@@ -29,7 +29,7 @@ Ta bort villkorlig formatering i intervallet.
 
 ###  Returnerar
 
-Returnerar TRUE, denna FormatConditionCollection bör tas bort.
+Returnerar TRUE, denna FormatCondtionCollection bör tas bort.
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startraden i intervallet.|
-| start_column | int | Seriens startkolumn.|
+| start_column | int | Startkolumnen för intervallet.|
 | total_rows | int | Antalet rader i intervallet.|
 | total_columns | int | Antalet kolumner i intervallet.|
 

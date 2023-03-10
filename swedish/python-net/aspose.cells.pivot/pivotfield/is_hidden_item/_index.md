@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hidden_item metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def is_hidden_item(self, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | indexet för pivotItem i pivotfältet.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_refresh_all_connections mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

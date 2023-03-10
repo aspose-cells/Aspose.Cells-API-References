@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | position | float | Stoppets position, i procentenhet.|
 | color | [CellsColor](/cells/sv/python-net/aspose.cells/cellscolor) | Färgen på stoppet.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | position | float | Stoppets position, i procentenhet.|
 | color | aspose.pydrawing.Color | Färgen på stoppet.|

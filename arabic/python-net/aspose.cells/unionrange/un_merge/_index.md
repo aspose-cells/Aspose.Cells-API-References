@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة un_merge
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

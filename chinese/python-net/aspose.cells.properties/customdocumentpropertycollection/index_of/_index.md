@@ -1,6 +1,6 @@
-﻿---
+---
 title: index_of方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-从零开始的索引。如果找不到则为负值。
+零基指数。如果找不到则为负值。
 
 
 ```python
@@ -22,7 +22,7 @@ def index_of(self, name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |属性的不区分大小写的名称。|
 
@@ -33,7 +33,7 @@ def index_of(self, name):
 
 ### 返回
 
-数组列表中从 startIndex 延伸到最后一个元素的元素范围内第一次出现值的从零开始的索引（如果找到）；否则为 -1。
+如果找到，从 startIndex 延伸到最后一个元素的数组列表中元素范围内第一次出现值的从零开始的索引；否则，-1。
 
 
 ```python
@@ -42,10 +42,10 @@ def index_of(self, item, index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/zh/python-net/aspose.cells.properties/documentproperty) |要在数组列表中定位的对象。|
-| index | int |搜索的从零开始的起始索引。0（零）在空列表中有效。|
+| item | [DocumentProperty](/cells/zh/python-net/aspose.cells.properties/documentproperty) |要在数组列表中定位的对象。该值可以为空。|
+| index | int |搜索的从零开始的起始索引。 0（零）在空列表中有效。|
 
 
 ##  index_of(item, index, count) {#DocumentProperty-int-int}
@@ -54,7 +54,7 @@ def index_of(self, item, index):
 
 ### 返回
 
-数组列表中元素范围内第一次出现值的从零开始的索引，该范围从 startIndex 开始并且包含 count 个元素（如果找到）；否则为 -1。
+数组列表中元素范围内第一次出现值的从零开始的索引，该范围从 startIndex 开始并包含 count 个元素（如果找到）；否则，-1。
 
 
 ```python
@@ -63,10 +63,10 @@ def index_of(self, item, index, count):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| item | [DocumentProperty](/cells/zh/python-net/aspose.cells.properties/documentproperty) |要在数组列表中定位的对象。|
-| index | int |搜索的从零开始的起始索引。0（零）在空列表中有效。|
+| item | [DocumentProperty](/cells/zh/python-net/aspose.cells.properties/documentproperty) |要在数组列表中定位的对象。该值可以为空。|
+| index | int |搜索的从零开始的起始索引。 0（零）在空列表中有效。|
 | count | int |要搜索的部分中的元素数。|
 
 

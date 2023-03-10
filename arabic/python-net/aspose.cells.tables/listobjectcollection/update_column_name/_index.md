@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة update_column_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.tables/listobjectcollection/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-تحديث جميع أسماء الأعمدة في الجداول.
+تحديث اسم كل عمود من الجداول.
 
 
 

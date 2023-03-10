@@ -1,4 +1,4 @@
-﻿---
+---
 title: comment propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient l'objet comment.
 
-###  Exemples
+###  Exemple
 
 ```python
 

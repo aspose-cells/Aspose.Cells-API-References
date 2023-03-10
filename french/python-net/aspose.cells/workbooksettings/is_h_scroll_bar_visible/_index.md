@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Obtient ou définit une valeur indiquant si la feuille de calcul générée cont
 
 La valeur par défaut est true.
 
-###  Exemples
+###  Exemple
 
 Le code suivant rend la barre de défilement horizontale invisible pour la feuille de calcul.
 

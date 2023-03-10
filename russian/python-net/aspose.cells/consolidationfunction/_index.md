@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConsolidationFunction перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ is_root: false
 | AVERAGE | Представляет среднюю функцию.|
 | MAX | Представляет функцию Max.|
 | MIN | Представляет минимальную функцию.|
-| PRODUCT | Представляет функции продукта.|
+| PRODUCT | Представляет функцию продукта.|
 | COUNT_NUMS | Представляет функцию подсчета чисел.|
 | STD_DEV | Представляет функцию StdDev.|
 | STD_DEVP | Представляет функцию StdDevp.|

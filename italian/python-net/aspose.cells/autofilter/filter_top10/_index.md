@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo filter_top10
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,11 +18,11 @@ def filter_top10(self, field_index, is_top, is_percent, item_count):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'intero offset del campo su cui si desidera basare il filtro<br/> (da sinistra dell'elenco; il campo più a sinistra è il campo 0).|
 | is_top | bool | Indica se filtrare dall'alto o dal basso|
-| is_percent | bool | Indica se gli elementi sono percentuale o conteggio|
+| is_percent | bool | Indica se gli elementi sono percentuali o conteggi|
 | item_count | int | Il conteggio degli articoli|
 
 

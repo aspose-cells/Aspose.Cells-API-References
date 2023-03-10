@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFilter clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -43,13 +43,13 @@ El tipo AutoFilter expone los siguientes miembros:
 | [add_font_color_filter(field_index, color)](/cells/es/python-net/aspose.cells/autofilter/add_font_color_filter/#int-CellsColor) | Agrega un filtro de color de fuente.|
 | [add_fill_color_filter(field_index, pattern, foreground_color, background_color)](/cells/es/python-net/aspose.cells/autofilter/add_fill_color_filter/#int-BackgroundType-CellsColor-CellsColor) | Agrega un filtro de color de relleno.|
 | [add_icon_filter(field_index, icon_set_type, icon_id)](/cells/es/python-net/aspose.cells/autofilter/add_icon_filter/#int-IconSetType-int) | Añade un filtro de iconos.|
-| [match_blanks(field_index)](/cells/es/python-net/aspose.cells/autofilter/match_blanks/#int) | Haga coincidir todas las celdas en blanco de la lista.|
+| [match_blanks(field_index)](/cells/es/python-net/aspose.cells/autofilter/match_blanks/#int) | Coincide con todas las celdas en blanco de la lista.|
 | [match_non_blanks(field_index)](/cells/es/python-net/aspose.cells/autofilter/match_non_blanks/#int) | Haga coincidir todas las celdas que no están en blanco en la lista.|
 | [show_all()](/cells/es/python-net/aspose.cells/autofilter/show_all/#) | Mostrar todas las filas.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

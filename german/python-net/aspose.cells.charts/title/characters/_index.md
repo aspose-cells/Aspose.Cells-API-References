@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -30,7 +30,7 @@ Gibt ein Characters-Objekt zurück, das einen Bereich von characters im Text dar
 
 ###  Kehrt zurück
 
-Charakterobjekte.
+Zeichenobjekt.
 
 
 ```python

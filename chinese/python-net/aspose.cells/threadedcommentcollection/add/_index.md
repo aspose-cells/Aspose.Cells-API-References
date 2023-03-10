@@ -1,6 +1,6 @@
-﻿---
+---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | text | str |线程评论的文本。|
 | author | [ThreadedCommentAuthor](/cells/zh/python-net/aspose.cells/threadedcommentauthor) |线程评论的作者|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: style mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style mülk
 
-Koşullu olarak biçimlendirilmiş hücre aralıklarının style'ini alır veya ayarlar.
+Koşullu biçimlendirilmiş hücre aralıklarının style'ini alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

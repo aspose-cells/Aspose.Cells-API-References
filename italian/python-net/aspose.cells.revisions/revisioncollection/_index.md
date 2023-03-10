@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe RevisionCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

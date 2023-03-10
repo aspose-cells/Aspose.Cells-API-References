@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/sv/python-net/aspose.cells.drawing/shape) | Källform.|
 | upper_left_row | int | Övre vänstra radens index.|

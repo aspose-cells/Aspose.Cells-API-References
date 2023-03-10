@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_range método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def add_range(self, range_object):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | range_object | [Range](/cells/es/python-net/aspose.cells/range) | El objeto de rango estará contenido en las celdas.|
 

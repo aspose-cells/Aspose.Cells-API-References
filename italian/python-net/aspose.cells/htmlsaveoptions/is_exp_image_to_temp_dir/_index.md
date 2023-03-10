@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_exp_image_to_temp_dir proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

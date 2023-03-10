@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,12 +9,12 @@ is_root: false
 ---
 ##  auto_fit_merged_cells propiedad
 
-Indica si se ajusta automáticamente el alto de la fila cuando las celdas se combinan en una fila.
+Indica si se ajusta automáticamente la altura de la fila cuando las celdas se combinan en una fila.
 El valor predeterminado es falso.
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice la propiedad AutoFitterOptions.AutoFitMergedCellsType en su lugar.
  Esta propiedad se eliminará 12 meses después desde diciembre de 2018.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

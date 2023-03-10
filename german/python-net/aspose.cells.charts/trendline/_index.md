@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trendline Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -44,14 +44,14 @@ Der Typ Trendline macht die folgenden Member verfügbar:
 | [is_visible](/cells/de/python-net/aspose.cells.charts/trendline/is_visible) | Stellt dar, ob die Linie sichtbar ist.|
 | [is_auto](/cells/de/python-net/aspose.cells.charts/trendline/is_auto) | Gibt an, ob dieser Linienstil automatisch zugewiesen wird.|
 | [gradient_fill](/cells/de/python-net/aspose.cells.charts/trendline/gradient_fill) | Stellt eine Verlaufsfüllung dar.|
-| [is_name_auto](/cells/de/python-net/aspose.cells.charts/trendline/is_name_auto) | Gibt zurück, wenn Microsoft Excel den Namen der Trendlinie automatisch bestimmt.|
+| [is_name_auto](/cells/de/python-net/aspose.cells.charts/trendline/is_name_auto) | Gibt zurück, wenn Microsoft Excel den Namen der Trendlinie automatisch ermittelt.|
 | [type](/cells/de/python-net/aspose.cells.charts/trendline/type) | Gibt den Trendlinientyp zurück.|
 | [name](/cells/de/python-net/aspose.cells.charts/trendline/name) | Gibt den Namen der Trendlinie zurück.|
 | [order](/cells/de/python-net/aspose.cells.charts/trendline/order) | Gibt die Trendlinienreihenfolge (eine ganze Zahl größer als 1) zurück oder legt sie fest, wenn der Trendlinientyp Polynomial ist.<br/> Die Reihenfolge muss zwischen 2 und 6 liegen.|
 | [period](/cells/de/python-net/aspose.cells.charts/trendline/period) | Gibt den Zeitraum für die Trendlinie des gleitenden Durchschnitts zurück oder legt ihn fest.|
 | [forward](/cells/de/python-net/aspose.cells.charts/trendline/forward) | Gibt die Anzahl der Perioden (oder Einheiten in einem Streudiagramm), um die sich die Trendlinie nach vorne erstreckt, zurück oder legt sie fest.<br/> Die Anzahl der Perioden muss größer oder gleich Null sein.|
 | [backward](/cells/de/python-net/aspose.cells.charts/trendline/backward) | Gibt die Anzahl der Perioden (oder Einheiten in einem Streudiagramm), um die sich die Trendlinie nach hinten erstreckt, zurück oder legt sie fest.<br/>Die Anzahl der Perioden muss größer oder gleich Null sein.<br/> Wenn der Diagrammtyp Spalte ist, muss die Anzahl der Perioden zwischen 0 und 0,5 liegen|
-| [display_equation](/cells/de/python-net/aspose.cells.charts/trendline/display_equation) |Stellt dar, ob die Gleichung für die Trendlinie im Diagramm angezeigt wird (in derselben Datenbeschriftung wie der R-Quadrat-Wert).|
+| [display_equation](/cells/de/python-net/aspose.cells.charts/trendline/display_equation) |Stellt dar, ob die Gleichung für die Trendlinie im Diagramm angezeigt wird (in derselben Datenbeschriftung wie der R-Quadrat-Wert). Wenn Sie diese Eigenschaft auf True setzen, werden Datenbeschriftungen automatisch aktiviert.|
 | [display_r_squared](/cells/de/python-net/aspose.cells.charts/trendline/display_r_squared) | Stellt dar, ob der R-Quadrat-Wert der Trendlinie im Diagramm angezeigt wird (in derselben Datenbeschriftung wie die Gleichung). Wenn Sie diese Eigenschaft auf True setzen, werden Datenbeschriftungen automatisch aktiviert.|
 | [intercept](/cells/de/python-net/aspose.cells.charts/trendline/intercept) | Gibt den Punkt zurück, an dem die Trendlinie die Werteachse schneidet, oder legt ihn fest.|
 | [data_labels](/cells/de/python-net/aspose.cells.charts/trendline/data_labels) | Stellt das DataLabels-Objekt für die angegebene Reihe dar.|
@@ -59,7 +59,7 @@ Der Typ Trendline macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

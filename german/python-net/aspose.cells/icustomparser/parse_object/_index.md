@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_object Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Analysiert die angegebene Zeichenfolge in das richtige Wertobjekt.
 
 ###  Kehrt zurück
 
-Geparstes Wertobjekt aus der angegebenen Zeichenfolge.
+Geparstes Wertobjekt aus der angegebenen Zeichenfolge. Wenn die angegebene Zeichenfolge nicht in das richtige Wertobjekt geparst werden kann, wird null zurückgegeben.
 
 
 ```python

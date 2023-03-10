@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_xml Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ def import_xml(self, url, sheet_name, row, col):
 | row | int | die Zielzeile|
 | col | int | die Zielspalte|
 
-###  Beispiele
+###  Beispiel
 
 Der folgende Code importiert XML-Daten in das Arbeitsblatt „Blatt 1“ um Cell A1.
 

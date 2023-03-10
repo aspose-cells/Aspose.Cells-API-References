@@ -1,4 +1,4 @@
-﻿---
+---
 title: embed_ooxml_as_ole_object mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  embed_ooxml_as_ole_object mülk
 
-OleObject'in Ooxml dosyalarının ole nesnesi olarak gömülüp gömülmediğini belirtir.
+OleObject'in Ooxml dosyalarının ole nesnesi olarak gömülüp gömülmediğini gösterir.
 
 ###  Notlar
 
-Yalnızca Ole Nesneleri için.
+Yalnızca OleObject için.
 ###  Tanım:
 ```python
 @property

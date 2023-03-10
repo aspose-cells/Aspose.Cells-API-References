@@ -1,6 +1,6 @@
-﻿---
+---
 title: unhide_column方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 970
@@ -18,7 +18,7 @@ def unhide_column(self, column, width):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | column | int |列索引。|
 | width | float |列宽。|

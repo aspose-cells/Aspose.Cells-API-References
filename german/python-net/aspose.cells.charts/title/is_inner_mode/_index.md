@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inner_mode Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ False gibt an, dass die Größe die Größe des Plotbereichs, der Teilstriche un
 
 ###  Bemerkungen
 
-Nur für XLSX-Dateien.
+Nur für XLSX-Datei.
 ###  Definition:
 ```python
 @property

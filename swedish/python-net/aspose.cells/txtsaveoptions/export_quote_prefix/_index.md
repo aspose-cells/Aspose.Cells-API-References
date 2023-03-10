@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_quote_prefix fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

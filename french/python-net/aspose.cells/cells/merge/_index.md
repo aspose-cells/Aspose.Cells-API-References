@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | first_row | int | Première ligne de cette plage (base zéro)|
 | first_column | int | Première colonne de cette plage (base zéro)|
@@ -40,7 +40,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | first_row | int | Première ligne de cette plage (base zéro)|
 | first_column | int | Première colonne de cette plage (base zéro)|
@@ -51,7 +51,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, merge_confli
 
 Référencez la cellule fusionnée via l'adresse de la cellule supérieure gauche de la plage.
 Si mergeConflict est vrai et que la plage fusionnée est en conflit avec d'autres cellules fusionnées,
-Les autres cellules fusionnées seront automatiquement supprimées.
+les autres cellules fusionnées seront automatiquement supprimées.
 
 ##  merge(first_row, first_column, total_rows, total_columns, check_conflict, merge_conflict) {#int-int-int-int-bool-bool}
 Fusionne une plage de cellules spécifiée en une seule cellule.
@@ -64,7 +64,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | first_row | int | Première ligne de cette plage (base zéro)|
 | first_column | int | Première colonne de cette plage (base zéro)|
@@ -76,7 +76,7 @@ def merge(self, first_row, first_column, total_rows, total_columns, check_confli
 
 Référencez la cellule fusionnée via l'adresse de la cellule supérieure gauche de la plage.
 Si mergeConflict est vrai et que la plage fusionnée est en conflit avec d'autres cellules fusionnées,
-Les autres cellules fusionnées seront automatiquement supprimées.
+les autres cellules fusionnées seront automatiquement supprimées.
 
 
 ###  Voir également

@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_drop_lines mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  has_drop_lines mülk
 
 Grafikte düşme çizgileri varsa doğrudur.
-Yalnızca çizgi grafikler veya alan grafikler için geçerlidir.
+Yalnızca çizgi grafiği veya alan grafikleri için geçerlidir.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ Typen WebExtensionCollection avslöjar följande medlemmar:
 | [last_index_of(item, index)](/cells/sv/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som sträcker sig från det första elementet till det angivna indexet.|
 | [last_index_of(item, index, count)](/cells/sv/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int-int) |Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som innehåller det angivna antalet element och slutar vid det angivna indexet.|
 | [add()](/cells/sv/python-net/aspose.cells.webextensions/webextensioncollection/add/#) | Lägger till ett webbtillägg.|
-| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/sv/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Lägg till en webbvideospelare i Excel.|
+| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/sv/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Lägg till en webbvideospelare i exel.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells.webextensions/webextensioncollection/binary_search/#WebExtension) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption_visible proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -12,7 +12,7 @@ is_root: false
 Restituisce o imposta se l'intestazione che visualizza l'affettatrice Caption è visibile
 il valore predefinito è vero
 
-###  Esempi
+###  Esempio
 
 ```python
 

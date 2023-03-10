@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSettingCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -41,7 +41,7 @@ Der Typ FontSettingCollection macht die folgenden Member verfügbar:
 | [append_text(text)](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection/append_text/#str) | Fügt den Text an.|
 | [insert_text(index, text)](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection/insert_text/#int-str) | Index an Position einfügen.|
 | [delete_text(index, count)](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection/delete_text/#int-int) | Löschen Sie einige Zeichen.|
-| [format(start_index, length, font, flag)](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Formatieren Sie den Text mit Schriftarteinstellungen.|
+| [format(start_index, length, font, flag)](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Formatieren Sie den Text mit der Schriftarteinstellung.|
 | [binary_search(item)](/cells/de/python-net/aspose.cells.drawing.texts/fontsettingcollection/binary_search/#FontSetting) | Durchsucht die gesamte sortierte Array-Liste mithilfe des Standardvergleichs nach einem Element und gibt den nullbasierten Index des Elements zurück.|
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: SlicerCacheItemCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.slicers/slicercacheitemcollection/
 is_root: false
 ---
 ## SlicerCacheItemCollection类
-表示 SlicerCacheItems 的集合
+表示 SlicerCacheItem 的集合
 
 
 

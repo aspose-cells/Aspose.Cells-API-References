@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_3d mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_3d mülk
 
-Grafiğin bir 3B grafik olup olmadığını gösterir.
+Grafiğin 3 boyutlu bir grafik olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

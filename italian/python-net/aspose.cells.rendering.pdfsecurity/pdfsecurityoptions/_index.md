@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PdfSecurityOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -25,7 +25,7 @@ Il tipo PdfSecurityOptions espone i membri seguenti:
 | :- | :- |
 | [user_password](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/user_password) | Ottiene o imposta la password dell'utente|
 | [owner_password](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/owner_password) | Ottiene o imposta la password del proprietario del documento|
-| [print_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Autorizzazione alla stampa di documenti pdf|
+| [print_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Autorizzazione alla stampa del documento pdf|
 | [modify_document_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modify_document_permission) | Autorizzazione a modificare il documento pdf|
 | [extract_content_permission_obsolete](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission_obsolete) | Autorizzazione a copiare o estrarre contenuto Obsoleto secondo riferimento PDF.|
 | [annotations_permission](/cells/it/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) | Autorizzazione a commentare il documento.|

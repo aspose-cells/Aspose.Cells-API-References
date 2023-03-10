@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_margin Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob der Rand des Textrahmens automatisch ist.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

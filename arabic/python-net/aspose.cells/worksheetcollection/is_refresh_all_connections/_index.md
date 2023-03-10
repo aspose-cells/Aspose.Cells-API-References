@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_refresh_all_connections الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

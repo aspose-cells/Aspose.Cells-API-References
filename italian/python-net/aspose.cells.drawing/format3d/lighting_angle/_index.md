@@ -1,4 +1,4 @@
-﻿---
+---
 title: lighting_angle proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  lighting_angle proprietà
 
-Ottiene e imposta l'angolo di illuminazione.Intervallo compreso tra 0 e 359,9 gradi.
+Ottiene e imposta l'angolo di illuminazione. Intervallo da 0 a 359,9 gradi.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: bar_shape Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den mit dem 3D-Balken- oder Säulendiagramm verwendeten 3D-Formtyp ab oder 
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die Eigenschaft ASeries.Bar3DShapeType.
  Diese Eigenschaft wird 12 Monate später seit Juni 2010 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

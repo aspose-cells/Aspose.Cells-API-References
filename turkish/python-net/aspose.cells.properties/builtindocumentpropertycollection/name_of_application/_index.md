@@ -1,4 +1,4 @@
-﻿---
+---
 title: name_of_application mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

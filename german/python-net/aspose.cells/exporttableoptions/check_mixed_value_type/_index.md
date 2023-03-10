@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_mixed_value_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 False, Aspose.Cells legt den Typ der DataColumn aus Leistungsgründen anhand des Werttyps der ersten Zeile fest.
  True, Aspose.Cells prüft, ob die Werttypen in der Spalte gemischt sind, bevor der Typ der DataColumn festgelegt wird
-Und der Werttyp ist gemischt, der Typ der DataColumn ist eine Zeichenfolge.
+Und die Werttypen sind gemischt, der Typ der DataColumn ist eine Zeichenfolge.
 ###  Definition:
 ```python
 @property

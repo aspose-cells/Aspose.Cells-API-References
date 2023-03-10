@@ -1,4 +1,4 @@
-﻿---
+---
 title: size недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size недвижимость
 
- Получает и задает номер тени size. Диапазон значений от 0 до 2,0.
+ Получает и задает size тени. Диапазон от 0 до 2,0.
 Бессмысленно во внутренней тени.
 ###  Определение:
 ```python

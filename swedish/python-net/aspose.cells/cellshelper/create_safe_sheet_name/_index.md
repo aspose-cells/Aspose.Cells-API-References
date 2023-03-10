@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_safe_sheet_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ def create_safe_sheet_name(self, name_proposal):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name_proposal | str | arknamn som ska användas|
 
@@ -48,7 +48,7 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name_proposal | str | arknamn som ska användas|
 | replace_char | char | tecken som kommer att användas för att ersätta ogiltiga tecken i det angivna arknamnet|

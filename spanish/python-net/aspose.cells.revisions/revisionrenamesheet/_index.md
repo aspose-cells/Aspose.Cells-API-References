@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionRenameSheet clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -26,7 +26,7 @@ El tipo RevisionRenameSheet expone los siguientes miembros:
 | [worksheet](/cells/es/python-net/aspose.cells.revisions/revisionrenamesheet/worksheet) | Obtiene la hoja de trabajo.|
 | [id](/cells/es/python-net/aspose.cells.revisions/revisionrenamesheet/id) | Obtiene el número de esta revisión.|
 | [old_name](/cells/es/python-net/aspose.cells.revisions/revisionrenamesheet/old_name) | Obtiene el nombre antiguo de la hoja de cálculo.|
-| [new_name](/cells/es/python-net/aspose.cells.revisions/revisionrenamesheet/new_name) | Obtiene el nuevo nombre de la hoja de cálculo.|
+| [new_name](/cells/es/python-net/aspose.cells.revisions/revisionrenamesheet/new_name) | Obtiene el nuevo nombre de la hoja de trabajo.|
 
 
 

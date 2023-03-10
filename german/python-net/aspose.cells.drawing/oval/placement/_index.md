@@ -1,4 +1,4 @@
-﻿---
+---
 title: placement Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -12,7 +12,7 @@ is_root: false
 Stellt die Art und Weise dar, wie das Zeichnungsobjekt an die darunter liegenden Zellen angehängt ist.
 Die Eigenschaft steuert die placement eines Objekts auf einem Arbeitsblatt.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import PlacementType

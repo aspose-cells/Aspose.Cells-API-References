@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_locked_property Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -26,7 +26,7 @@ def get_locked_property(self, type):
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/de/python-net/aspose.cells.drawing/shapelocktype) | Der Typ der formgesperrten Eigenschaft.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import ShapeLockType

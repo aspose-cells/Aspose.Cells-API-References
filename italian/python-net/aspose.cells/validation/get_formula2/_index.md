@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_formula2
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,14 +22,14 @@ def get_formula2(self, is_r1c1, is_local):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | is_r1c1 | bool | Se la formula deve essere formattata come R1C1.|
 | is_local | bool | Se la formula deve essere formattata in base alle impostazioni locali.|
 
 
 ##  get_formula2(is_r1c1, is_local, row, column) {#bool-bool-int-int}
-Ottiene il valore o l'espressione associati a questa convalida per la cella specifica.
+Ottiene il valore o l'espressione associati a questa convalida per una cella specifica.
 
 
 ###  ritorna
@@ -43,7 +43,7 @@ def get_formula2(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | is_r1c1 | bool | Se la formula deve essere formattata come R1C1.|
 | is_local | bool | Se la formula deve essere formattata in base alle impostazioni locali.|

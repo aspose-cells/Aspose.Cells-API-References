@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_width fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width fastighet
 
-Fönstrets bredd, i poängenheter.
+Fönstrets bredd, i punktenhet.
 ###  Definition:
 ```python
 @property

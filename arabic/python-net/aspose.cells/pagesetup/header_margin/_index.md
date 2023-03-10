@@ -1,4 +1,4 @@
-﻿---
+---
 title: header_margin الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin الملكية
 
-يمثل المسافة من أعلى الصفحة إلى الرأس بوحدات السنتيمتر.
+يمثل المسافة من أعلى الصفحة إلى الرأس بوحدة سنتيمترات.
 ###  تعريف:
 ```python
 @property

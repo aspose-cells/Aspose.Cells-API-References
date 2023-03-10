@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo unprotect
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/worksheet/unprotect/
 is_root: false
 ---
 ##  unprotect() {#}
-Rimuovere la protezione del foglio di lavoro.
+Foglio di lavoro non protetto.
 
 
 
@@ -24,7 +24,7 @@ Questo metodo rimuove la protezione del foglio di lavoro protetto senza password
 
 ##  unprotect(password) {#str}
 
-Rimuovere la protezione del foglio di lavoro.
+Foglio di lavoro non protetto.
 
 
 
@@ -34,7 +34,7 @@ def unprotect(self, password):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | password | str | Parola d'ordine|
 ###  Osservazioni

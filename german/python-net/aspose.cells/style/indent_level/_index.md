@@ -1,4 +1,4 @@
-﻿---
+---
 title: indent_level Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level Eigentum
 
-Stellt die Einzugsebene für die Zelle oder den Bereich dar.
+Stellt die Einzugsebene für die Zelle oder den Bereich dar. Kann nur eine ganze Zahl von 0 bis 250 sein.
 
 ###  Bemerkungen
 

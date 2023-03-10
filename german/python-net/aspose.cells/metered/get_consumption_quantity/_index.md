@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_consumption_quantity Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

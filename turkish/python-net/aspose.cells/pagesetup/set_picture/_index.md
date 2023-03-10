@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_picture yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | is_first | bool | İlk sayfa üst bilgi/alt bilgi resminin ayarlanıp ayarlanmadığını gösterir.|
 | is_even | bool | Çift sayfa üst bilgi/alt bilgi resminin ayarlanıp ayarlanmadığını gösterir.|

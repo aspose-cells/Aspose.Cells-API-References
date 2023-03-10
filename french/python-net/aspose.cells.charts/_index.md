@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/fr/python-net/aspose.cells.charts/chartcollection) | Encapsule une collection de [Chart](/cells/fr/python-net/aspose.cells.charts/chart) objets.|
 | [ChartDataTable](/cells/fr/python-net/aspose.cells.charts/chartdatatable) | Représente une table de données de graphique.|
 | [ChartFrame](/cells/fr/python-net/aspose.cells.charts/chartframe) | Encapsule l'objet qui représente l'objet cadre dans un graphique.|
-| [ChartGlobalizationSettings](/cells/fr/python-net/aspose.cells.charts/chartglobalizationsettings) | Représente les paramètres de globalisation des graphiques.|
+| [ChartGlobalizationSettings](/cells/fr/python-net/aspose.cells.charts/chartglobalizationsettings) | Représente les paramètres de globalisation du graphique.|
 | [ChartPoint](/cells/fr/python-net/aspose.cells.charts/chartpoint) |Représente un seul point d'une série dans un graphique.|
 | [ChartPointCollection](/cells/fr/python-net/aspose.cells.charts/chartpointcollection) | Représente une collection qui contient tous les points d'une série.|
 | [ChartTextFrame](/cells/fr/python-net/aspose.cells.charts/charttextframe) | Encapsule l'objet qui représente l'objet frame qui contient du texte.|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/fr/python-net/aspose.cells.charts/mapchartlabellayout) | Représente la disposition des étiquettes du graphique de la carte.|
 | [MapChartProjectionType](/cells/fr/python-net/aspose.cells.charts/mapchartprojectiontype) | Représente le type de projection du graphique cartographique.|
 | [MapChartRegionType](/cells/fr/python-net/aspose.cells.charts/mapchartregiontype) | Représente le type de région du graphique de la carte.|
-| [PlotDataByType](/cells/fr/python-net/aspose.cells.charts/plotdatabytype) |Représente le type de données tracées par ligne ou colonne.|
+| [PlotDataByType](/cells/fr/python-net/aspose.cells.charts/plotdatabytype) |Représente le type de tracé de données par ligne ou colonne.|
 | [PlotEmptyCellsType](/cells/fr/python-net/aspose.cells.charts/plotemptycellstype) | Représente tous les types de cellules vides d'un graphique.|
 | [QuartileCalculationType](/cells/fr/python-net/aspose.cells.charts/quartilecalculationtype) | Représente les méthodes de calcul des quartiles.|
 | [SparklineAxisMinMaxType](/cells/fr/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Représente les types de valeurs minimum et maximum pour l'axe vertical du graphique sparkline.|

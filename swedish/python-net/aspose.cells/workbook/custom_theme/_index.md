@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_theme metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | theme_name | str | Temat namn|
 | colors | aspose.pydrawing.Color[] | Temafärgerna|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة reset_ranges
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | data_range | str | يحدد نطاق البيانات الجديد لمجموعة خط المؤشر.|
 | is_vertical | bool | يحدد ما إذا كان سيتم رسم خطوط المؤشرات من نطاق البيانات الجديد حسب الصف أو العمود.|

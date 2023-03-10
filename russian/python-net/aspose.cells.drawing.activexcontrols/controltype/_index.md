@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,14 +17,14 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| COMMAND_BUTTON | кнопка|
+| COMMAND_BUTTON | Кнопка|
 | COMBO_BOX | Поле со списком|
-| CHECK_BOX | флажок|
+| CHECK_BOX | Флажок|
 | LIST_BOX | СписокБокс|
 | TEXT_BOX | Текстовое окно|
 | SPIN_BUTTON | Спиннер|
-| RADIO_BUTTON | Радио-кнопки|
-| LABEL | этикетка|
+| RADIO_BUTTON | Переключатель|
+| LABEL | Этикетка|
 | IMAGE | Изображение|
 | TOGGLE_BUTTON | Кнопка-переключатель|
 | SCROLL_BAR | Полоса прокрутки|

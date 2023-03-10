@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_pt mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_margin_pt mülk
 
-Üst marjı Puan birimi cinsinden verir
+Puan birimi cinsinden üst marjı verir
 
-###  örnekler
+###  Örnek
 
 ```python
 

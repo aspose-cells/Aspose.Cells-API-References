@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_web_video_player
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.webextensions/webextensioncollection/add_web_vi
 is_root: false
 ---
 ##  add_web_video_player(url, auto_play, start_time, end_time) {#str-bool-int-int}
-أضف مشغل فيديو على شبكة الإنترنت إلى برنامج Excel.
+أضف مشغل فيديو ويب إلى exel.
 
 
 
@@ -18,7 +18,7 @@ def add_web_video_player(self, url, auto_play, start_time, end_time):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | url | str |  |
 | auto_play | bool | يشير إلى ما إذا كان يتم تشغيل الفيديو تلقائيًا.|

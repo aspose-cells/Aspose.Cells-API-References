@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scaling الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling الملكية
 
  صحيح إذا قام Microsoft Excel بقياس مخطط ثلاثي الأبعاد بحيث يكون أقرب في الحجم إلى المخطط ثنائي الأبعاد المكافئ.
-يجب أن تكون خاصية محاور الزاوية اليمنى صحيحة.
+يجب أن تكون الخاصية RightAngleAxes صحيحة.
 ###  تعريف:
 ```python
 @property

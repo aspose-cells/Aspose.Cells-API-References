@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoShapeType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -182,8 +182,8 @@ Der Typ AutoShapeType macht die folgenden Member verfügbar:
 | TEXT_DEFLATE_BOTTOM | Eine Textform, die in der Mitte nach oben schrumpft.|
 | TEXT_INFLATE_TOP | Eine Textform, die in der Mitte nach oben erweitert wird.|
 | TEXT_DEFLATE_TOP | Eine Textform, die in der Mitte nach unten schrumpft.|
-| TEXT_DEFLATE_INFLATE |Eine Textform, bei der sich die unteren Linien nach oben ausdehnen und die oberen Linien zum Ausgleich schrumpfen.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | Eine Textform, bei der Linien in der Mitte vertikal erweitert werden. Obere und untere Linien werden zum Ausgleich verkleinert.|
+| TEXT_DEFLATE_INFLATE |Eine Textform, bei der untere Linien nach oben erweitert werden. Obere Linien schrumpfen, um dies zu kompensieren.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | Eine Textform, bei der Linien in der Mitte vertikal erweitert werden. Obere und untere Linien schrumpfen zum Ausgleich.|
 | TEXT_FADE_RIGHT | Eine Textform, die auf der rechten Seite vertikal schrumpft.|
 | TEXT_FADE_LEFT | Eine Textform, die auf der linken Seite vertikal schrumpft.|
 | TEXT_FADE_UP | Eine Textform, die oben horizontal schrumpft.|

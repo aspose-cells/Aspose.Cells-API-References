@@ -1,4 +1,4 @@
-﻿---
+---
 title: attached_files_url_prefix fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

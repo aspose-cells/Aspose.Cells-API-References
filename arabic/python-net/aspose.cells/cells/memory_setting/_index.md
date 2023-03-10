@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting الملكية
 
-الحصول على أو تعيين خيار استخدام الذاكرة لهذه الخلية.
+الحصول على أو تعيين خيار استخدام الذاكرة لهذه الخلايا.
 ###  تعريف:
 ```python
 @property

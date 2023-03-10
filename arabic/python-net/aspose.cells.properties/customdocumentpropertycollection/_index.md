@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -36,11 +36,11 @@ is_root: false
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
 | [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
 | [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
-| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية. سلسلة** نوع البيانات.|
+| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | ينشئ خاصية جديدة مخصصة للمستند**PropertyType.String** نوع البيانات.|
 | [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) | ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية** نوع البيانات.|
-| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | ينشئ خاصية جديدة مخصصة للمستند**نوع الخاصية. التاريخ والوقت** نوع البيانات.|
-| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية** نوع البيانات.|
-| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية. تعويم** نوع البيانات.|
+| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | ينشئ خاصية جديدة مخصصة للمستند**PropertyType.DateTime** نوع البيانات.|
+| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية. منطقي** نوع البيانات.|
+| [add(name, value)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | ينشئ خاصية جديدة مخصصة للمستند**نوع الملكية** نوع البيانات.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 | [add_link_to_content(name, source)](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) | يقوم بإنشاء خاصية وثيقة مخصصة جديدة ترتبط بالمحتوى.|
 | [update_linked_property_value()](/cells/ar/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |تحديث قيمة خاصية الوثيقة المخصصة التي ترتبط بالمحتوى.|
@@ -52,7 +52,7 @@ is_root: false
 
 يمثل كل عنصر [DocumentProperty](/cells/ar/python-net/aspose.cells.properties/documentproperty) خاصية مهيأة لوثيقة الحاوية.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

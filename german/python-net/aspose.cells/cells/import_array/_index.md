@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_array Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/import_array/
 is_root: false
 ---
 ##  import_array(string_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importiert ein Array von Zeichenfolgen in ein Arbeitsblatt.
+Importiert ein String-Array in ein Arbeitsblatt.
 
 
 
@@ -27,7 +27,7 @@ def import_array(self, string_array, first_row, first_column, is_vertical):
 
 
 ##  import_array(int_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importiert ein Array von Ganzzahlen in ein Arbeitsblatt.
+Importiert ein Integer-Array in ein Arbeitsblatt.
 
 
 
@@ -46,7 +46,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 
 
 ##  import_array(double_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importiert ein Array von Doubles in ein Arbeitsblatt.
+Importiert ein Array von Double in ein Arbeitsblatt.
 
 
 

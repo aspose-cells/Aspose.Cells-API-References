@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_area недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Если это не область, только эффекты StartRow и StartColumn.
+Если это не область, действуют только StartRow и StartColumn.
 ###  Определение:
 ```python
 @property

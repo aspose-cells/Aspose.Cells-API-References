@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLoadOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/jsonloadoptions/__init__/
 is_root: false
 ---
 ##  JsonLoadOptions() {#}
-Dosyayı yükleme seçeneği oluşturur.
+Dosyayı yükleme seçeneklerini oluşturur.
 
 
 

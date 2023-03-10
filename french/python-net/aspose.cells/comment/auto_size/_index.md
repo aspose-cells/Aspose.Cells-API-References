@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_size propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si la taille du commentaire est ajustée automatiquement en fonction de son contenu.
 
-###  Exemples
+###  Exemple
 
 ```python
 

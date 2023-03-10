@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_label
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ Label من صفه الأيسر ، بوحدة البكسل.|
@@ -31,7 +31,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | height | int | يمثل ارتفاع التسمية بوحدة البكسل.|
 | width | int | يمثل عرض التسمية بوحدة البكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

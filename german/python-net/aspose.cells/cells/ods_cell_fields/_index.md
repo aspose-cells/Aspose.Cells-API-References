@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields Eigentum
 
-Ruft die Liste der Quotenfelder ab.
+Ruft die Liste der Felder von Ods ab.
 ###  Definition:
 ```python
 @property

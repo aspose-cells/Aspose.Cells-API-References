@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_exernal_links метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def has_exernal_links(self):
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел.
+ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 используйте ExternalLinkCollection.Count, чтобы проверить, есть ли внешние ссылки в этой книге.
  Этот метод будет удален через 12 месяцев, начиная с декабря 2021 года.
 Aspose приносит извинения за возможные неудобства.

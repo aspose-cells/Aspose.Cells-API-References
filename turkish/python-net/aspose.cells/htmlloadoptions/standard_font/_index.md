@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_font mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Varsayılan standart yazı tipi adını ayarlar
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine, lütfen DefaultStyleSettings'i kullanın.
  Bu mülk, Mart 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

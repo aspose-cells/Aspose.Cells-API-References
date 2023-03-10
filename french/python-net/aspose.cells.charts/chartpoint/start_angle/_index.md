@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_angle propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  start_angle propriété
 
 Obtient l'angle de départ de la section du secteur, mesuré en degrés dans le sens des aiguilles d'une montre à partir de l'axe des x après avoir appelé la méthode Chart.Calculate().
-S'applique au graphique circulaire.
+S'applique au graphique à secteurs.
 ###  Définition:
 ```python
 @property

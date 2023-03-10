@@ -1,4 +1,4 @@
-﻿---
+---
 title: protection propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection propiedad
 
-Representa los distintos tipos de opciones protection disponibles para una hoja de trabajo.
+Representa los distintos tipos de opciones protection disponibles para una hoja de trabajo. Admite opciones avanzadas protection en ExcelXP y versiones superiores.
 
 ###  Observaciones
 

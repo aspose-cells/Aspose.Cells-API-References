@@ -1,4 +1,4 @@
-﻿---
+---
 title: mso_drawing_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den MSO-Zeichnungstyp ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_object metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Parsar given sträng till objekt med rätt värde.
 
 ###  Returnerar
 
-Analyserat värdeobjekt från given sträng.
+Analyserat värdeobjekt från given sträng. Om en given sträng inte kan tolkas till objekt med rätt värde, returnerar null.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | value | str | Strängvärdet som ska analyseras|
 

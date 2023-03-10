@@ -1,4 +1,4 @@
-﻿---
+---
 title: header_margin fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  header_margin fastighet
 
-Representerar avståndet från toppen av sidan till sidhuvudet, i enheter av centimeter.
+Representerar avståndet från toppen av sidan till sidhuvudet, i centimeterenhet.
 ###  Definition:
 ```python
 @property

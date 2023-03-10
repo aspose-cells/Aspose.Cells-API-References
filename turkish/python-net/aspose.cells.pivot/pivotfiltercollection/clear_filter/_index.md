@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_filter yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def clear_filter(self, field_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | PivotField dizini|
 

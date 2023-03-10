@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_worksheet_css_separately mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_worksheet_css_separately mülk
 
-Çalışma sayfası css'sinin ayrı olarak dışa aktarılıp aktarılmayacağını belirtir. Varsayılan değer yanlıştır.
+Çalışma sayfası css'sinin ayrı olarak dışa aktarılıp aktarılmadığını belirtir. Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -40,7 +40,7 @@ def to_image(self, filename):
 
 
 ##  to_image(page_index, file_name) {#int-str}
-Bestimmte Seiten in eine Datei rendern.
+Bestimmte Seite in eine Datei rendern.
 
 
 
@@ -57,7 +57,7 @@ def to_image(self, page_index, file_name):
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Rendern Sie bestimmte Seiten in einen Stream.
+Bestimmte Seite in einem Stream rendern.
 
 
 

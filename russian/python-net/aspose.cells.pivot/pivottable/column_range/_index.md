@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_range недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  column_range недвижимость
 
 Возвращает объект CellArea, представляющий диапазон
-который содержит область столбца в отчете сводной таблицы.
+который содержит область столбца в отчете сводной таблицы. Только для чтения.
 ###  Определение:
 ```python
 @property

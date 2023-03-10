@@ -1,4 +1,4 @@
-﻿---
+---
 title: string_value_without_format propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene el valor de la celda como cadena sin ningún formato.
 
 ###  Observaciones
 
-NOTA: Este método ahora está obsoleto.
+NOTA: Este método ahora está obsoleto. En cambio,
 El usuario debe obtener el objeto de valor y formatearlo de acuerdo con el tipo de valor y el requisito específico.
 Esta propiedad se eliminará 12 meses después desde diciembre de 2020.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

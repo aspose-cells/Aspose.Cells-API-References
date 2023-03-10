@@ -1,4 +1,4 @@
-﻿---
+---
 title: only_auto propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  only_auto propiedad
 
-Indica si solo caben las filas cuya altura no se personaliza.
+Indica si solo caben las filas cuya altura no está personalizada.
 ###  Definición:
 ```python
 @property

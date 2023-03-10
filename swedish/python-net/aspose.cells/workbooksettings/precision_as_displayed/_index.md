@@ -1,4 +1,4 @@
-﻿---
+---
 title: precision_as_displayed fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Sant om beräkningar i den här arbetsboken kommer att göras med enbart precisi
 
 ###  Anmärkningar
 
-OBS: Den här medlemmen är nu föråldrad. Använd istället FormulaSettings.PrecisionAsDisplayed.
+OBS: Denna medlem är nu föråldrad. Använd istället FormulaSettings.PrecisionAsDisplayed.
  Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

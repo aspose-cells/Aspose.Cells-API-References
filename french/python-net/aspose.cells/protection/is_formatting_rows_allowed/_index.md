@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_rows_allowed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Représente si la mise en forme des lignes est autorisée sur une feuille de cal
 
 ###  Remarques
 
- REMARQUE : ce membre est désormais obsolète.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
  veuillez utiliser la propriété Protection.AllowFormattingRow.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

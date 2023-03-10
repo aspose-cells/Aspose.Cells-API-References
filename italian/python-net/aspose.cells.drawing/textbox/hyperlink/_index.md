@@ -1,4 +1,4 @@
-﻿---
+---
 title: hyperlink proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene hyperlink della forma.
 
-###  Esempi
+###  Esempio
 
 ```python
 

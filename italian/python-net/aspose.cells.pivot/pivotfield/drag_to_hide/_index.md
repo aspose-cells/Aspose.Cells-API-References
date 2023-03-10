@@ -1,4 +1,4 @@
-﻿---
+---
 title: drag_to_hide proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  drag_to_hide proprietà
 
 Indica se il campo specificato può essere trascinato nella posizione nascosta.
-Il valore predefinito è true.
+Il valore predefinito è vero.
 ###  Definizione:
 ```python
 @property

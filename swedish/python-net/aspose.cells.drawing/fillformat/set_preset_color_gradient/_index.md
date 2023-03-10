@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_preset_color_gradient metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ def set_preset_color_gradient(self, preset_color, style, variant):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | preset_color | [GradientPresetType](/cells/sv/python-net/aspose.cells.drawing/gradientpresettype) | Förinställd färgtyp|
 | style | [GradientStyleType](/cells/sv/python-net/aspose.cells.drawing/gradientstyletype) | Gradient skuggstil.|

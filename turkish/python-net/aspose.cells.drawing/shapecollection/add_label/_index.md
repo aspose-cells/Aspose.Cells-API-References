@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_label yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  İadeler
 
-Bir etiket nesnesi.
+Bir Etiket nesnesi.
 
 
 ```python
@@ -22,7 +22,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Label öğesinin sol satırından piksel birimi cinsinden dikey uzaklığını temsil eder.|
@@ -31,7 +31,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | height | int | Etiketin piksel birimi cinsinden yüksekliğini temsil eder.|
 | width | int | Etiket genişliğini piksel birimi cinsinden temsil eder.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

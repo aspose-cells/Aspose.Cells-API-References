@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_numeric_or_date недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

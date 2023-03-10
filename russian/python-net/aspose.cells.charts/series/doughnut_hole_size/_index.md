@@ -1,4 +1,4 @@
-﻿---
+---
 title: doughnut_hole_size недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

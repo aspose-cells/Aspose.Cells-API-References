@@ -1,6 +1,6 @@
-﻿---
+---
 title: ICellsDataTable类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 810
@@ -18,7 +18,7 @@ ICellsDataTable 类型公开了以下成员：
 |属性|描述|
 | :- | :- |
 | [columns](/cells/zh/python-net/aspose.cells/icellsdatatable/columns) |获取列的名称。|
-| [count](/cells/zh/python-net/aspose.cells/icellsdatatable/count) | -1 表示未知记录数。|
+| [count](/cells/zh/python-net/aspose.cells/icellsdatatable/count) |获取记录的计数。 -1 表示未知记录数。|
 
 
 

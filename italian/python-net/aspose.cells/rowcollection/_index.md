@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe RowCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -21,7 +21,7 @@ Il tipo RowCollection espone i membri seguenti:
 
 
 
-Ottiene un oggetto [Row](/cells/it/python-net/aspose.cells/row) in base all'indice di riga specificato.
+Ottiene un oggetto [Row](/cells/it/python-net/aspose.cells/row) in base all'indice di riga specificato. L'oggetto Row dell'indice di riga specificato verrà istanziato se non esiste prima.
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
@@ -37,7 +37,7 @@ Ottiene un oggetto [Row](/cells/it/python-net/aspose.cells/row) in base all'indi
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

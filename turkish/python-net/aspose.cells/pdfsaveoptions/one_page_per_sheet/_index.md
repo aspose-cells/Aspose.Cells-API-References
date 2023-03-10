@@ -1,4 +1,4 @@
-﻿---
+---
 title: one_page_per_sheet mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

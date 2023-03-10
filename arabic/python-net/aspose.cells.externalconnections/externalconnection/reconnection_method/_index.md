@@ -1,4 +1,4 @@
-﻿---
+---
 title: reconnection_method الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -14,7 +14,7 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذه الخاصية عفا عليها الزمن الآن.
+ ملاحظة: هذه الخاصية عفا عليها الزمن الآن. بدلاً من،
 الرجاء استخدام خاصية ExternalConnection.ReconnectionMethodType.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ أكتوبر 2017.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: actual_lower_right_row mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gerçek alt sırayı alın.
 
-###  örnekler
+###  Örnek
 
 ```python
 

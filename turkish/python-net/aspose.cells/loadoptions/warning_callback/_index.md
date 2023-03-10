@@ -1,4 +1,4 @@
-﻿---
+---
 title: warning_callback mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback mülk
 
-Uyarı geri aramalarını alır veya ayarlar.
+Uyarı geri aramasını alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

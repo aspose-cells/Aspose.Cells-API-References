@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_smart_art الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,9 +13,9 @@ is_root: false
 
 ###  ملاحظات
 
-فقط لملفات ooxml.
+فقط لملف ooxml.
 
-###  أمثلة
+###  مثال
 
 ```python
 

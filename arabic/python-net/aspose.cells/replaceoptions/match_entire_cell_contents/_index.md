@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_entire_cell_contents الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents الملكية
 
-يشير إلى ما إذا كان سيتم مطابقة محتويات الخلية بالكامل
+يشير إلى ما إذا كان سيتم مطابقة محتويات الخلايا بأكملها
 ###  تعريف:
 ```python
 @property

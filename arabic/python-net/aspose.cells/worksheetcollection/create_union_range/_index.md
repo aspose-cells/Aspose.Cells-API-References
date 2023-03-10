@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة create_union_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def create_union_range(self, address, sheet_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | address | str | عنوان النطاق.|
 | sheet_index | int | فهرس الورقة.|

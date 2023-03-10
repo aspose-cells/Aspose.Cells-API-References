@@ -1,4 +1,4 @@
-﻿---
+---
 title: value_type_sensitive الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

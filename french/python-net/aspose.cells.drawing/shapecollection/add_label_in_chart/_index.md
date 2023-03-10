@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_label_in_chart méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add_label_in_chart(self, top, left, height, width):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | top | int | Représente le décalage vertical de l'étiquette à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.|
 | left | int | Représente le décalage vertical de l'étiquette à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.|

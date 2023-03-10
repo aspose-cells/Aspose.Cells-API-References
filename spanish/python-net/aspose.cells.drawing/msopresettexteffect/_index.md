@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoPresetTextEffect enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -17,36 +17,36 @@ El tipo MsoPresetTextEffect expone los siguientes miembros:
 ###  Campos
 | Campo| Descripción|
 | :- | :- |
-| TEXT_EFFECT1 | Efecto de texto1|
-| TEXT_EFFECT2 | Efecto de texto2|
-| TEXT_EFFECT3 | Efecto de texto3|
-| TEXT_EFFECT4 | Efecto de texto4|
-| TEXT_EFFECT5 | Efecto de texto5|
-| TEXT_EFFECT6 | Efecto de texto6|
-| TEXT_EFFECT7 | Efecto de texto7|
-| TEXT_EFFECT8 | Efecto de texto8|
-| TEXT_EFFECT9 | Efecto de texto9|
-| TEXT_EFFECT10 | Efecto de texto10|
-| TEXT_EFFECT11 | Efecto de texto11|
-| TEXT_EFFECT12 | Efecto de texto12|
-| TEXT_EFFECT13 | Efecto de texto13|
-| TEXT_EFFECT14 | Efecto de texto14|
-| TEXT_EFFECT15 | Efecto de texto15|
-| TEXT_EFFECT16 | Efecto de texto16|
-| TEXT_EFFECT17 | Efecto de texto17|
-| TEXT_EFFECT18 | Efecto de texto18|
-| TEXT_EFFECT19 | Efecto de texto19|
-| TEXT_EFFECT20 | Efecto de texto20|
-| TEXT_EFFECT21 | Efecto de texto21|
-| TEXT_EFFECT22 | Efecto de texto22|
-| TEXT_EFFECT23 | Efecto de texto23|
-| TEXT_EFFECT24 | Efecto de texto24|
-| TEXT_EFFECT25 | Efecto de texto25|
-| TEXT_EFFECT26 | Efecto de texto26|
-| TEXT_EFFECT27 | Efecto de texto27|
-| TEXT_EFFECT28 | Efecto de texto28|
-| TEXT_EFFECT29 | Efecto de texto29|
-| TEXT_EFFECT30 | Efecto de texto30|
+| TEXT_EFFECT1 | TextEffect1|
+| TEXT_EFFECT2 | TextEffect2|
+| TEXT_EFFECT3 | TextEffect3|
+| TEXT_EFFECT4 | TextEffect4|
+| TEXT_EFFECT5 | TextEffect5|
+| TEXT_EFFECT6 | TextEffect6|
+| TEXT_EFFECT7 | TextEffect7|
+| TEXT_EFFECT8 | TextEffect8|
+| TEXT_EFFECT9 | TextEffect9|
+| TEXT_EFFECT10 | TextEffect10|
+| TEXT_EFFECT11 | TextEffect11|
+| TEXT_EFFECT12 | TextEffect12|
+| TEXT_EFFECT13 | TextEffect13|
+| TEXT_EFFECT14 | TextEffect14|
+| TEXT_EFFECT15 | TextEffect15|
+| TEXT_EFFECT16 | TextEffect16|
+| TEXT_EFFECT17 | TextEffect17|
+| TEXT_EFFECT18 | TextEffect18|
+| TEXT_EFFECT19 | TextEffect19|
+| TEXT_EFFECT20 | TextEffect20|
+| TEXT_EFFECT21 | TextEffect21|
+| TEXT_EFFECT22 | TextEffect22|
+| TEXT_EFFECT23 | TextEffect23|
+| TEXT_EFFECT24 | TextEffect24|
+| TEXT_EFFECT25 | TextEffect25|
+| TEXT_EFFECT26 | TextEffect26|
+| TEXT_EFFECT27 | TextEffect27|
+| TEXT_EFFECT28 | TextEffect28|
+| TEXT_EFFECT29 | TextEffect29|
+| TEXT_EFFECT30 | TextEffect30|
 
 
 

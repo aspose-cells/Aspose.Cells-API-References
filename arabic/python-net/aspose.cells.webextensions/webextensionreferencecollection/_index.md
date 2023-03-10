@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionReferenceCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.webextensions/webextensionreferencecollection/
 is_root: false
 ---
 ##  WebExtensionReferenceCollection الدرجة
-يمثل قائمة مراجع امتداد الويب.
+يمثل قائمة مرجع ملحق الويب.
 
 
 

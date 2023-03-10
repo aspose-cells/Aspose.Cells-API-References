@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_value fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar eller ställer in kryssrutans värde.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
  använd egenskapen CheckBox.CheckValueType.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/folderfontsource/__init__/
 is_root: false
 ---
 ##  FolderFontSource(folder_path, scan_subfolders) {#str-bool}
-Direktör.
+Ctor.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, folder_path, scan_subfolders):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | folder_path | str | sökväg till mappen typsnitt|
 | scan_subfolders | bool | Bestämmer om undermappar ska skannas eller inte.|

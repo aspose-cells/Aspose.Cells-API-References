@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_equation mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin yalnızca bir denklem içerip içermediğini gösterir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

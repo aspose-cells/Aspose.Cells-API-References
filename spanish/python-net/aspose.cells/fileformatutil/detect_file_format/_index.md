@@ -1,4 +1,4 @@
-﻿---
+---
 title: detect_file_format método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def detect_file_format(self, stream):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 
@@ -42,7 +42,7 @@ def detect_file_format(self, file_path):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | file_path | str | La ruta del archivo.|
 
@@ -62,7 +62,7 @@ def detect_file_format(self, stream, password):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | password | str | La contraseña para archivos ooxml encriptados.|
@@ -83,7 +83,7 @@ def detect_file_format(self, file_path, password):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | file_path | str | La ruta del archivo.|
 | password | str | La contraseña para archivos ooxml encriptados.|

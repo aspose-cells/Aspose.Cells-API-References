@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_more_pages الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

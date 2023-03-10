@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_grid_style fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style fastighet
 
-Anger om stilen för rutnätsvyn ska tillämpas på celler.
+Anger om formatet för rutnätsvyn tillämpas på celler.
 ###  Definition:
 ```python
 @property

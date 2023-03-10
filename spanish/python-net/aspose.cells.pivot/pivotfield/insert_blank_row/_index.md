@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_blank_row propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

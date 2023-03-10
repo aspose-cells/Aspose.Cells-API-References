@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotated_chars fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rotated_chars fastighet
 
-Om det är sant roteras tecknen i den angivna WordArt 90 grader i förhållande till WordArts begränsningsform.
+Om det är sant, roteras tecken i den angivna WordArt 90 grader i förhållande till WordArts avgränsande form.
 ###  Definition:
 ```python
 @property

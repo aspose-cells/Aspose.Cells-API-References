@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | le flux de l'image de sortie|
 
@@ -34,7 +34,7 @@ def to_image(self, filename):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | filename | str | le nom de fichier de l'image de sortie|
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | file_name | str | nom de fichier de l'image de sortie|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Afficher certaines pages dans un flux.
+Rendre certaines pages dans un flux.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | page_index | int | indiquer quelle page doit être convertie|
 | stream | io.RawIOBase | le flux de l'image de sortie|

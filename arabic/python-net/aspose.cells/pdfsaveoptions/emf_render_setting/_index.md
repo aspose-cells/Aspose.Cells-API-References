@@ -1,4 +1,4 @@
-﻿---
+---
 title: emf_render_setting الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

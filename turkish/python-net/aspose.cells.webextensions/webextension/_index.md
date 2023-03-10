@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtension sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ WebExtension türü aşağıdaki üyeleri gösterir:
 | [reference](/cells/tr/python-net/aspose.cells.webextensions/webextension/reference) | Bir Office Eklentisi için birincil referansı alın.|
 | [alter_references](/cells/tr/python-net/aspose.cells.webextensions/webextension/alter_references) | Değişiklik referanslarının bir listesini alır.|
 | [properties](/cells/tr/python-net/aspose.cells.webextensions/webextension/properties) | Web uzantısının tüm özelliklerini alır.|
-| [bindings](/cells/tr/python-net/aspose.cells.webextensions/webextension/bindings) |Bir Office Eklentisi ile belgedeki veriler arasındaki tüm bağlama ilişkilerini alır.|
+| [bindings](/cells/tr/python-net/aspose.cells.webextensions/webextension/bindings) |Bir Office Eklentisi ile belgedeki veriler arasındaki tüm bağlamaları alır.|
 
 
 

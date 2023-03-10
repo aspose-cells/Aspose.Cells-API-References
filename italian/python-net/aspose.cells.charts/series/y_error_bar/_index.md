@@ -1,4 +1,4 @@
-﻿---
+---
 title: y_error_bar proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: foreground_color_set_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

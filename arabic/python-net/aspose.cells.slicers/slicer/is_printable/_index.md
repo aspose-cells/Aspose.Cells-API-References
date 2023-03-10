@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_printable الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يشير إلى ما إذا كان كائن تقطيع الشرائح قابل للطباعة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

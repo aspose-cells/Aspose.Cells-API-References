@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة move_to_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,14 +18,14 @@ def move_to_range(self, upper_left_row, upper_left_column, lower_right_row, lowe
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | lower_right_row | int | فهرس الصف السفلي الأيمن|
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 
-###  أمثلة
+###  مثال
 
 ```python
 

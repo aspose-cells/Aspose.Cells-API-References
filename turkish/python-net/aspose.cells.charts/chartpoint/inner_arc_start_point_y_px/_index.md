@@ -1,4 +1,4 @@
-﻿---
+---
 title: inner_arc_start_point_y_px mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

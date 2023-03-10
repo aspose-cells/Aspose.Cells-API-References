@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_inch Eigentum
 
-Stellt die Größe des linken Rands in Zolleinheiten dar.
+Stellt die Größe des linken Rands in Zoll dar.
 ###  Definition:
 ```python
 @property

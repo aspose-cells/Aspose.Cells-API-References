@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_link метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_link(self, uri, name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | uri | str | URI пространства имен смарт-тега.|
 | name | str | Имя смарт-тега.|

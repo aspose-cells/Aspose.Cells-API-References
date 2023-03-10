@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_external_names الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sort_external_names الملكية
 
-يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.
+يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.
 ###  تعريف:
 ```python
 @property

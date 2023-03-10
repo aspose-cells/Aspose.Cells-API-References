@@ -1,4 +1,4 @@
-﻿---
+---
 title: legend_entries_labels mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

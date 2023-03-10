@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_left_row недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Если фигура находится в форме или в группе, UpperLeftRow будет игнорироваться.
 
-###  Примеры
+###  Пример
 
 ```python
 

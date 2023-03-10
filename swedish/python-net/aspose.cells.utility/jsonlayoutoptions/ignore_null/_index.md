@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_null fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null fastighet
 
-Anger om nollvärden ignoreras.
+Anger om nollvärde ignoreras.
 ###  Definition:
 ```python
 @property

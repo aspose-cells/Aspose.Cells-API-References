@@ -1,4 +1,4 @@
-﻿---
+---
 title: libid fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid fastighet
 
-Hämtar och ställer in referensens libid.
+Hämtar och ställer in referensens Libid.
 ###  Definition:
 ```python
 @property

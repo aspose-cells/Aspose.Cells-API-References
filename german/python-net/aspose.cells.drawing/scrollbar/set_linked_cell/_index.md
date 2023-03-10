@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_linked_cell Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def set_linked_cell(self, formula, is_r1c1, is_local):
 | is_r1c1 | bool | Ob die Formel als R1C1 formatiert werden muss.|
 | is_local | bool | Ob die Formel nach Gebietsschema formatiert werden muss.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

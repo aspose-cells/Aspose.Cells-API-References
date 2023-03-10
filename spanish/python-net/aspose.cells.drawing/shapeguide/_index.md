@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeGuide clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -23,7 +23,7 @@ El tipo ShapeGuide expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [value](/cells/es/python-net/aspose.cells.drawing/shapeguide/value) | Obtiene o establece valores de esta guía|
+| [value](/cells/es/python-net/aspose.cells.drawing/shapeguide/value) | Obtiene o establece el valor de esta guía|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list Eigentum
 
-Ruft ab, ob die Feldliste für die PivotTable aktiviert werden soll.
+Ruft ab, ob die Feldliste für die PivotTable aktiviert ist.
 ###  Definition:
 ```python
 @property

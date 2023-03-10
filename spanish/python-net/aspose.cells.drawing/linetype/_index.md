@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,7 +24,7 @@ El tipo LineType expone los siguientes miembros:
 | DOT | Representa una línea de puntos.|
 | LIGHT_GRAY | Representa una línea gris claro.|
 | MEDIUM_GRAY | Representa una línea gris media.|
-| SOLID | Representa una línea sólida.|
+| SOLID | Representa una línea continua.|
 
 
 

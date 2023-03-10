@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_row fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  start_row fastighet
 
-Områdets startrad.
+Startraden i området.
 ###  Definition:
 ```python
 @property

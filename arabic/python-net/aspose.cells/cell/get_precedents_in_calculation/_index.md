@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_precedents_in_calculation
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-عداد لتعداد جميع المراجع (المنطقة المرجعية)
+العداد لتعداد جميع المراجع (RefifiedArea)
 
 
 ```python
@@ -27,7 +27,7 @@ def get_precedents_in_calculation(self):
 يمكن أن تعمل هذه الطريقة فقط مع الموقف الذي هو [FormulaSettings.enable_calculation_chain](/cells/ar/python-net/aspose.cells/formulasettings#enable_calculation_chain)
 هذا صحيح بالنسبة للمصنف وقد تم حساب المصنف بالكامل.
 إذا لم تكن هذه الخلية صيغة أو لا تشير إلى أي خلايا أخرى ، فسيتم إرجاع القيمة الخالية.
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

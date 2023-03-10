@@ -1,6 +1,6 @@
-﻿---
+---
 title: Line类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 290
@@ -35,7 +35,7 @@ Line 类型公开了以下成员：
 | [weight_pt](/cells/zh/python-net/aspose.cells.drawing/line/weight_pt) |以点为单位获取或设置线的权重。|
 | [weight_px](/cells/zh/python-net/aspose.cells.drawing/line/weight_px) |以像素为单位获取或设置线条的粗细。|
 | [formatting_type](/cells/zh/python-net/aspose.cells.drawing/line/formatting_type) |获取或设置格式类型。|
-| [is_automatic_color](/cells/zh/python-net/aspose.cells.drawing/line/is_automatic_color) |指示是否自动分配线条颜色。|
+| [is_automatic_color](/cells/zh/python-net/aspose.cells.drawing/line/is_automatic_color) |指示线的颜色是否自动分配。|
 | [is_visible](/cells/zh/python-net/aspose.cells.drawing/line/is_visible) |表示线条是否可见。|
 | [is_auto](/cells/zh/python-net/aspose.cells.drawing/line/is_auto) |指示此线型是否自动指定。|
 | [gradient_fill](/cells/zh/python-net/aspose.cells.drawing/line/gradient_fill) |代表渐变填充。|

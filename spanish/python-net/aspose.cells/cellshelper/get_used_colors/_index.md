@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_used_colors método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_used_colors(self, workbook):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/es/python-net/aspose.cells/workbook) | El objeto del libro.|
 

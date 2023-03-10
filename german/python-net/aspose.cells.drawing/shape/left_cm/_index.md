@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_cm Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Stellt den horizontalen Versatz der Form von der linken Spalte in Zentimetern dar.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

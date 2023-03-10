@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_width الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width الملكية
 
-الحصول على العرض وتعيينه بوحدات من النقاط.
+الحصول على العرض وتعيينه بوحدة النقاط.
 ###  تعريف:
 ```python
 @property

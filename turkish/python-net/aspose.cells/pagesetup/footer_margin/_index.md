@@ -1,4 +1,4 @@
-﻿---
+---
 title: footer_margin mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin mülk
 
-Sayfanın altından alt bilgiye olan mesafeyi santimetre cinsinden temsil eder.
+Sayfanın altından alt bilgiye olan mesafeyi santimetre biriminde temsil eder.
 ###  Tanım:
 ```python
 @property

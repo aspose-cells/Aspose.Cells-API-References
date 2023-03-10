@@ -1,4 +1,4 @@
-﻿---
+---
 title: ToggleButtonActiveXControl Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,8 +25,8 @@ Der Typ ToggleButtonActiveXControl macht die folgenden Member verfügbar:
 | :- | :- |
 | [workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/workbook) | Ruft das [ActiveXControlBase.workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook)-Objekt ab.|
 | [type](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/type) | Ruft den Typ des ActiveX-Steuerelements ab.|
-| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt diese fest.|
-| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt diese fest.|
+| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt sie fest.|
+| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt sie fest.|
 | [mouse_icon](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/mouse_icon) | Ruft ein benutzerdefiniertes Symbol ab und legt es fest, das als Mauszeiger für das Steuerelement angezeigt wird.|
 | [mouse_pointer](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/mouse_pointer) | Ruft den Symboltyp ab, der als Mauszeiger für das Steuerelement angezeigt wird, und legt diesen fest.|
 | [fore_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/fore_ole_color) | Ruft die alte Farbe des Vordergrunds ab und legt sie fest.|
@@ -53,7 +53,7 @@ Der Typ ToggleButtonActiveXControl macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose import pycore

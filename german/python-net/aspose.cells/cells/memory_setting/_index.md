@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting Eigentum
 
-Ruft die Speichernutzungsoption für diese Zelle ab oder legt diese fest.
+Ruft die Speichernutzungsoption für diese Zellen ab oder legt sie fest.
 ###  Definition:
 ```python
 @property

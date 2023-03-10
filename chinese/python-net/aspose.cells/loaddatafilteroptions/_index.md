@@ -1,6 +1,6 @@
-﻿---
+---
 title: LoadDataFilterOptions枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2200
@@ -14,7 +14,7 @@ is_root: false
 
 LoadDataFilterOptions 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |不加载工作表数据|
@@ -29,7 +29,7 @@ LoadDataFilterOptions 类型公开了以下成员：
 | CELL_DATA |称重传感器数据，包括值、公式和格式|
 | CHART |加载图表|
 | SHAPE |加载形状|
-| DRAWING |绘图对象（包括图表、图片、OleObjects 和所有其他绘图对象）|
+| DRAWING |绘图对象（包括Chart、Picture、OleObject等所有绘图对象）|
 | MERGED_AREA |加载合并的单元格|
 | CONDITIONAL_FORMATTING |加载条件格式|
 | DATA_VALIDATION |加载数据验证|

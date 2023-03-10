@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_height недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  default_height недвижимость
 
-Представляет высоту положения по умолчанию
+Представляет высоту позиции по умолчанию
 ###  Определение:
 ```python
 @property

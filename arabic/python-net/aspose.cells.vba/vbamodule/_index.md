@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModule الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,11 +19,11 @@ is_root: false
 | :- | :- |
 | [name](/cells/ar/python-net/aspose.cells.vba/vbamodule/name) | الحصول على اسم الوحدة وتعيينه.|
 | [type](/cells/ar/python-net/aspose.cells.vba/vbamodule/type) | يحصل على نوع الوحدة.|
-| [codes](/cells/ar/python-net/aspose.cells.vba/vbamodule/codes) | يحصل على رموز الوحدات ويضبطها.|
+| [codes](/cells/ar/python-net/aspose.cells.vba/vbamodule/codes) | يحصل على رموز الوحدة وتعيينها.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Workbook
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -67,7 +67,7 @@ Il tipo Workbook espone i membri seguenti:
 | [replace(place_holder, new_value)](/cells/it/python-net/aspose.cells/workbook/replace/#str-int) | Sostituisce il valore di una cella con un nuovo numero intero.|
 | [replace(place_holder, new_value)](/cells/it/python-net/aspose.cells/workbook/replace/#str-float) |Sostituisce il valore di una cella con un nuovo double.|
 | [replace(place_holder, new_values, is_vertical)](/cells/it/python-net/aspose.cells/workbook/replace/#str-list-bool) | Sostituisce il valore di una cella con un nuovo array di stringhe.|
-| [replace(place_holder, new_values, is_vertical)](/cells/it/python-net/aspose.cells/workbook/replace/#str-list-bool) | Sostituisce i valori delle celle con un array intero.|
+| [replace(place_holder, new_values, is_vertical)](/cells/it/python-net/aspose.cells/workbook/replace/#str-list-bool) | Sostituisce i valori delle celle con un array di interi.|
 | [replace(place_holder, new_values, is_vertical)](/cells/it/python-net/aspose.cells/workbook/replace/#str-list-bool) | Sostituisce i valori delle celle con un doppio array.|
 | [replace(bool_value, new_value)](/cells/it/python-net/aspose.cells/workbook/replace/#bool-any) | Sostituisce i valori delle celle con nuovi dati.|
 | [replace(int_value, new_value)](/cells/it/python-net/aspose.cells/workbook/replace/#int-any) | Sostituisce i valori delle celle con nuovi dati.|
@@ -78,8 +78,8 @@ Il tipo Workbook espone i membri seguenti:
 | [calculate_formula(ignore_error)](/cells/it/python-net/aspose.cells/workbook/calculate_formula/#bool) | Calcola il risultato delle formule.|
 | [calculate_formula(ignore_error, custom_function)](/cells/it/python-net/aspose.cells/workbook/calculate_formula/#bool-ICustomFunction) | Calcola il risultato delle formule.|
 | [calculate_formula(options)](/cells/it/python-net/aspose.cells/workbook/calculate_formula/#CalculationOptions) | Calcolo delle formule in questa cartella di lavoro.|
-| [refresh_dynamic_array_formulas(calculate)](/cells/it/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool) | Aggiorna le formule di matrice dinamica (si riversa in un nuovo intervallo di celle adiacenti in base ai dati correnti)<br/> Altre formule nella cartella di lavoro non verranno calcolate in modo ricorsivo anche se sono state utilizzate da formule di matrice dinamica.|
-| [refresh_dynamic_array_formulas(calculate, copts)](/cells/it/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool-CalculationOptions) | Aggiorna le formule di matrice dinamica (si riversa in un nuovo intervallo di celle adiacenti in base ai dati correnti)|
+| [refresh_dynamic_array_formulas(calculate)](/cells/it/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool) | Aggiorna le formule di matrice dinamica (si riversa in un nuovo intervallo di celle vicine in base ai dati correnti)<br/> Altre formule nella cartella di lavoro non verranno calcolate in modo ricorsivo anche se sono state utilizzate da formule di matrice dinamica.|
+| [refresh_dynamic_array_formulas(calculate, copts)](/cells/it/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool-CalculationOptions) | Aggiorna le formule di matrice dinamica (si riversa in un nuovo intervallo di celle vicine in base ai dati correnti)|
 | [import_xml(url, sheet_name, row, col)](/cells/it/python-net/aspose.cells/workbook/import_xml/#str-str-int-int) | Importa/aggiorna un file di dati XML nella cartella di lavoro.|
 | [import_xml(stream, sheet_name, row, col)](/cells/it/python-net/aspose.cells/workbook/import_xml/#io.RawIOBase-str-int-int) | Importa/aggiorna un file di dati XML nella cartella di lavoro.|
 | [export_xml(map_name, path)](/cells/it/python-net/aspose.cells/workbook/export_xml/#str-str) | Esporta i dati XML collegati dalla mappa XML specificata.|
@@ -112,7 +112,7 @@ Il tipo Workbook espone i membri seguenti:
 | [custom_theme(theme_name, colors)](/cells/it/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | Personalizza il tema.|
 | [copy_theme(source)](/cells/it/python-net/aspose.cells/workbook/copy_theme/#Workbook) | Copia il tema da un'altra cartella di lavoro.|
 | [has_exernal_links()](/cells/it/python-net/aspose.cells/workbook/has_exernal_links/#) | Indica se questa cartella di lavoro contiene collegamenti esterni ad altre origini dati.|
-| [update_linked_data_source(external_workbooks)](/cells/it/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Se questa cartella di lavoro contiene collegamenti esterni ad altre origini dati,<br/> Aspose.Cells tenterà di recuperare i dati più recenti.|
+| [update_linked_data_source(external_workbooks)](/cells/it/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Se questa cartella di lavoro contiene collegamenti esterni ad un'altra origine dati,<br/> Aspose.Cells tenterà di recuperare i dati più recenti.|
 | [set_digital_signature(digital_signature_collection)](/cells/it/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Imposta la firma digitale su un file di foglio di calcolo (Excel2007 e versioni successive).|
 | [add_digital_signature(digital_signature_collection)](/cells/it/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Aggiunge la firma digitale a un file di foglio di calcolo OOXML (Excel2007 e versioni successive).|
 | [get_digital_signature()](/cells/it/python-net/aspose.cells/workbook/get_digital_signature/#) | Ottiene la firma digitale dal file.|
@@ -122,13 +122,13 @@ Il tipo Workbook espone i membri seguenti:
 
 ###  Osservazioni
 
-La classe Workbook denota un foglio di calcolo Excel.
+La classe Workbook denota un foglio di calcolo Excel. Ogni foglio di calcolo può contenere più fogli di lavoro.
 La caratteristica di base della classe è aprire e salvare file excel nativi.
 La classe ha alcune funzionalità avanzate come la copia dei dati da altre cartelle di lavoro, la combinazione di due cartelle di lavoro e la protezione del foglio di calcolo Excel.
 
-###  Esempi
+###  Esempio
 
-L'esempio seguente carica un Workbook da un file denominato designer.xls e rende invisibili le barre di scorrimento orizzontale e verticale per Workbook. Sostituisce quindi due valori stringa rispettivamente con un valore intero e un valore stringa all'interno del foglio di calcolo e infine invia il valore aggiornato file nel browser del client.
+L'esempio seguente carica un Workbook da un file denominato designer.xls e rende invisibili le barre di scorrimento orizzontale e verticale per Workbook. Sostituisce quindi due valori stringa rispettivamente con un valore intero e un valore stringa all'interno del foglio di calcolo e infine invia il file aggiornato a il navigatore del cliente.
 
 ```python
 from aspose.cells import Workbook

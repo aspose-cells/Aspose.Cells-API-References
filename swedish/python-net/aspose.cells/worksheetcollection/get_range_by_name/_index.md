@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_range_by_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | range_name | str | Namn på intervall.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | range_name | str | Namn på området eller tabellens namn.|
-| current_sheet_index | int | Bladindex -1 representerar globalt.|
+| current_sheet_index | int | Arkindex. -1 representerar global .|
 | include_table | bool | Anger om alla tabeller kontrolleras.|
 
 

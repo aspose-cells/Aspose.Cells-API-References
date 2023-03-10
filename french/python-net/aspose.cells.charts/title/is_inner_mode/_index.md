@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inner_mode propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ False spécifie que la taille doit déterminer la taille de la zone de tracé, l
 
 ###  Remarques
 
-Uniquement pour les fichiers Xlsx.
+Uniquement pour le fichier Xlsx.
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: reflection Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Stellt ein [ReflectionEffect](/cells/de/python-net/aspose.cells.drawing/reflectioneffect)-Objekt dar, das den reflection-Effekt für das Diagrammelement oder die Form angibt.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_on_load mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  refresh_on_load mülk
 
-Dosya açılırken bu bağlantının yenilenmesi gerekiyorsa doğrudur;
+Dosya açılırken bu bağlantının yenilenmesi gerekiyorsa doğrudur; Aksi takdirde, yanlış.
 ###  Tanım:
 ```python
 @property

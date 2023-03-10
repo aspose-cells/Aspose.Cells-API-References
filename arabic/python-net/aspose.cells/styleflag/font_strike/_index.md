@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_strike الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

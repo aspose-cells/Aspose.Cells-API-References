@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellBorderType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,7 +17,7 @@ Der Typ CellBorderType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| DASH_DOT | Repräsentiert dünne strichpunktierte Linien.|
+| DASH_DOT | Repräsentiert eine dünne strichpunktierte Linie.|
 | DASH_DOT_DOT | Repräsentiert eine dünne Strich-Punkt-Punkt-Linie.|
 | DASHED | Stellt eine gestrichelte Linie dar.|
 | DOTTED | Stellt eine gepunktete Linie dar.|

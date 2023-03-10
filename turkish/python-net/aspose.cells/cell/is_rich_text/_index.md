@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_rich_text yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

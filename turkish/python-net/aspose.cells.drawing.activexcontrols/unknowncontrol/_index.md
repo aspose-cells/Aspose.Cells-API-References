@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnknownControl sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,8 +25,8 @@ UnknownControl türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/workbook) | [ActiveXControlBase.workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook) nesnesini alır.|
 | [type](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/type) | ActiveX denetiminin türünü alır.|
-| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/width) |Denetimin genişliğini nokta birimleri cinsinden alır ve ayarlar.|
-| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/height) | Denetimin yüksekliğini nokta birimleri cinsinden alır ve ayarlar.|
+| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/width) |Denetimin genişliğini nokta birimi cinsinden alır ve ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/height) | Kontrolün yüksekliğini puan birimi cinsinden alır ve ayarlar.|
 | [mouse_icon](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/mouse_icon) | Denetim için fare işaretçisi olarak görüntülenecek özel bir simge alır ve ayarlar.|
 | [mouse_pointer](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/mouse_pointer) | Denetim için fare işaretçisi olarak görüntülenen simge türünü alır ve ayarlar.|
 | [fore_ole_color](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/fore_ole_color) | Ön planın ole rengini alır ve ayarlar.|

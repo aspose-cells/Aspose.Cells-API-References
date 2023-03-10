@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonSaveOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/jsonsaveoptions/__init__/
 is_root: false
 ---
 ##  JsonSaveOptions() {#}
-Skapar alternativ för att spara json-filer.
+Skapar alternativ för att spara json-fil.
 
 
 

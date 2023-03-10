@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -41,7 +41,7 @@ def get_range(self, recalculate):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| recalculate | bool | ob er neu berechnet werden soll, wenn dieser Name vor diesem Aufruf berechnet wurde.|
+| recalculate | bool | ob er neu berechnet wird, wenn dieser Name vor diesem Aufruf berechnet wurde.|
 
 
 ##  get_range(sheet_index, row, column) {#int-int-int}

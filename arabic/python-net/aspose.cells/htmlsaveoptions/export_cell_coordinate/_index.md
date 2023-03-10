@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_cell_coordinate الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_cell_coordinate الملكية
 
-يشير إلى ما إذا كان تصدير تنسيق Excel للخلايا غير الفارغة عند حفظ الملف إلى html.
+يشير إلى ما إذا كان تصدير تنسيق Excel للخلايا غير الفارغة عند حفظ الملف إلى html. القيمة الافتراضية هي كاذبة.
 إذا كنت تريد استيراد ملف html الناتج إلى Excel ، فيرجى الاحتفاظ بالقيمة الافتراضية.
 ###  تعريف:
 ```python

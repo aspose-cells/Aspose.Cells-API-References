@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyle sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ TableStyle türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import BackgroundType, CellsHelper, Workbook

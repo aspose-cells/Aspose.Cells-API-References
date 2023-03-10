@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_v_scroll_bar_visible الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 القيمة الافتراضية هي الحقيقية.
 
-###  أمثلة
+###  مثال
 
 تجعل الكود التالي شريط التمرير العمودي غير مرئي لجدول البيانات.
 

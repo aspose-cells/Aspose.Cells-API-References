@@ -1,4 +1,4 @@
-﻿---
+---
 title: only_use_connection_file propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
  Indique si le tableur doit toujours et uniquement utiliser le
  informations de connexion dans le fichier de connexion externe indiqué par l'attribut odcFile
- lors de l'actualisation de la connexion. Si false, l'application de tableur
+ lorsque la connexion est actualisée. Si false, alors l'application de feuille de calcul
 doit suivre la procédure indiquée par l'attribut reconnectionMethod
 ###  Définition:
 ```python

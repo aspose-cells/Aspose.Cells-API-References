@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroupCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,8 +31,8 @@ Typen SparklineGroupCollection avslöjar följande medlemmar:
 | [last_index_of(item, index)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som sträcker sig från det första elementet till det angivna indexet.|
 | [last_index_of(item, index, count)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) |Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som innehåller det angivna antalet element och slutar vid det angivna indexet.|
 | [add(type, data_range, is_vertical, location_range)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/add/#SparklineType-str-bool-CellArea) | Lägger till ett [SparklineGroup](/cells/sv/python-net/aspose.cells.charts/sparklinegroup) föremål till samlingen.|
-| [clear_sparklines(cell_area)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Rensar gnistlinjerna som finns inuti ett område av celler.|
-| [clear_sparkline_groups(cell_area)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Rensar sparklinegrupperna som överlappar ett område med celler.|
+| [clear_sparklines(cell_area)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Rensar gnistlinjerna som finns inuti ett cellområde.|
+| [clear_sparkline_groups(cell_area)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Rensar gnistlinjegrupperna som överlappar ett område med celler.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells.charts/sparklinegroupcollection/binary_search/#SparklineGroup) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 
 

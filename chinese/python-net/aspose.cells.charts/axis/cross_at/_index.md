@@ -1,6 +1,6 @@
-﻿---
+---
 title: cross_at 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 100
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-当应用于类别轴时，该数字应为整数。
+适用于类别轴时，该数字应为整数。
 并且该值必须在 1 到 31999 之间。
 ### 定义：
 ```python

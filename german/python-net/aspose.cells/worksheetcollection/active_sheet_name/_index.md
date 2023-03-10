@@ -1,4 +1,4 @@
-﻿---
+---
 title: active_sheet_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  active_sheet_name Eigentum
 
-Stellt den Namen des aktiven Arbeitsblatts dar, wenn das Arbeitsblatt geöffnet wird.
+Repräsentiert den Namen des aktiven Arbeitsblatts, wenn das Arbeitsblatt geöffnet wird.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: intersect metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | range | str | Räckvidden.|
 ###  Anmärkningar
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/sv/python-net/aspose.cells/unionrange) | Räckvidden.|
 ###  Anmärkningar
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | ranges | list | Räckvidden.|
 ###  Anmärkningar

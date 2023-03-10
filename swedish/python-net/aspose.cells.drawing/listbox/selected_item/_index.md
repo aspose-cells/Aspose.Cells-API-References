@@ -1,4 +1,4 @@
-﻿---
+---
 title: selected_item metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def selected_item(self, item_index, is_selected):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | item_index | int | Artikelindex|
 | is_selected | bool | Om objektet är valt.<br/>True betyder att detta objekt ska väljas.<br/> False betyder att det här objektet ska avmarkeras.|

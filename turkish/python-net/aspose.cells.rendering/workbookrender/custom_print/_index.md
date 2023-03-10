@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_print yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def custom_print(self, next_page_after_print, print_page_event_args):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | next_page_after_print | bool | true ise, yazıcı mevcut sayfayı yazdırdıktan sonra bir sonraki sayfaya gidecektir|
 | print_page_event_args | aspose.pydrawing.printing.PrintPageEventArgs | System.Drawing.Printing.PrintPageEventArgs |

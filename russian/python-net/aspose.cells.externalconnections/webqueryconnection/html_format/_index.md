@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_format недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  html_format недвижимость
 
 Как обрабатывать форматирование из источника HTML при переносе данных веб-запроса в
-рабочий лист. Релевантно, когда sourceData имеет значение True.
+рабочий лист. Актуально, когда sourceData имеет значение True.
 ###  Определение:
 ```python
 @property

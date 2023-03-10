@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد TextCapsType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | NONE | لا يوجد قبعات|
 | ALL | قم بتطبيق كل الأحرف الاستهلالية على النص.|
-| SMALL | ضع أحرفًا صغيرة على النص.|
+| SMALL | ضع حروف استهلالية صغيرة على النص.|
 
 
 

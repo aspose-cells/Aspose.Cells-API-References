@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotDataByType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  PlotDataByType перечисление
-Представляет тип данных, отображаемых по строке или столбцу.
+Представляет тип графика данных по строке или столбцу.
 
 
 

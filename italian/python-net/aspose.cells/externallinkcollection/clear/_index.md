@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo clear
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -34,14 +34,14 @@ def clear(self, update_references_as_local):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | update_references_as_local | bool | Se aggiornare tutti i riferimenti dei collegamenti esterni come riferimenti della cartella di lavoro corrente stessa.|
 ###  Osservazioni
 
 Se è necessario aggiornare i riferimenti, i riferimenti ai collegamenti esterni nelle formule verranno modificati nella cartella di lavoro corrente.
 Ad esempio, la formula originale di una cella è "='externalsource.xlam'!customfunction()",
-Dopo aver rimosso i link esterni, la formula diventerà "=customfunction()".
+dopo aver rimosso i link esterni, la formula diventerà "=customfunction()".
 Se i riferimenti non devono essere aggiornati, tutte le formule con riferimenti a collegamenti esterni
 verrà rimosso anche perché quei riferimenti diventano non validi.
 

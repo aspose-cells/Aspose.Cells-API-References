@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,7 +24,7 @@ def add(self):
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto.
+NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice el método ValidationCollection.Add(CellArea).
  Esta propiedad se eliminará 12 meses después desde ENERO 2015.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
@@ -44,7 +44,7 @@ def add(self, ca):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | ca | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | El área contiene esta validación.|
 

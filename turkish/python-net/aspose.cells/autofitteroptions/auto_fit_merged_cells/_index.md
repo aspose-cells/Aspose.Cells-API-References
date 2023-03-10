@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Varsayılan değer yanlıştır.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen bunun yerine AutoFitterOptions.AutoFitMergedCellsType özelliğini kullanın.
  Bu mülk, Aralık 2018'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

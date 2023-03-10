@@ -1,4 +1,4 @@
-﻿---
+---
 title: value недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value недвижимость
 
-Возвращает текст метки для элемента среза.
+Возвращает текст метки для элемента среза. Только для чтения.
 ###  Определение:
 ```python
 @property

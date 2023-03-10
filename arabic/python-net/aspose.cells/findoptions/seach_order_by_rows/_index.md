@@ -1,4 +1,4 @@
-﻿---
+---
 title: seach_order_by_rows الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

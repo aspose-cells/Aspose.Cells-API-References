@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_adjacent_cells_border proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -14,7 +14,7 @@ Indica se aggiornare il bordo delle celle adiacenti.
 ###  Osservazioni
 
 Il valore predefinito è falso.
- Ad esempio: il bordo inferiore della cella A1 viene aggiornato,
+ Ad esempio: il bordo inferiore della cella A1 è aggiornato,
 anche il bordo superiore della cella A2 dovrebbe essere modificato.
 ###  Definizione:
 ```python

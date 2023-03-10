@@ -1,4 +1,4 @@
-﻿---
+---
 title: name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name الملكية
 
-يحدد name للاتصال.
+يحدد name للاتصال. يجب أن يكون لكل اتصال name فريدًا.
 ###  تعريف:
 ```python
 @property

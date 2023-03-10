@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -38,11 +38,11 @@ El tipo PivotField expone los siguientes miembros:
 | [non_auto_sort_default](/cells/es/python-net/aspose.cells.pivot/pivotfield/non_auto_sort_default) | Indica si una operación de clasificación que se aplicará a este campo dinámico es una operación de clasificación automática o una clasificación de datos simple.|
 | [is_auto_sort](/cells/es/python-net/aspose.cells.pivot/pivotfield/is_auto_sort) | Indica si el campo de tabla dinámica especificado se ordena automáticamente.|
 | [is_ascend_sort](/cells/es/python-net/aspose.cells.pivot/pivotfield/is_ascend_sort) | Indica si el campo de tabla dinámica especificado se ordena automáticamente de forma ascendente.|
-| [auto_sort_field](/cells/es/python-net/aspose.cells.pivot/pivotfield/auto_sort_field) | Representa el índice de campo de clasificación automática.<br/> -1 significa PivotField en sí mismo, otros significan la posición de los campos de datos.|
+| [auto_sort_field](/cells/es/python-net/aspose.cells.pivot/pivotfield/auto_sort_field) | Representa el índice de campo de clasificación automática.<br/> -1 significa PivotField en sí mismo, otros significa la posición de los campos de datos.|
 | [is_auto_show](/cells/es/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Indica si el campo de tabla dinámica especificado se muestra automáticamente, solo válido para excel 2003.|
 | [is_ascend_show](/cells/es/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) | Indica si el campo de tabla dinámica especificado se muestra automáticamente de forma ascendente.|
 | [auto_show_count](/cells/es/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |Representar el número de elementos superiores o inferiores<br/> que se muestran automáticamente en el campo de tabla dinámica especificado.|
-| [auto_show_field](/cells/es/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Representa el índice de campo de exhibición automática -1 significa PivotField en sí mismo.<br/> Debe ser el índice de los campos de datos.|
+| [auto_show_field](/cells/es/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Representa el índice de campo de exhibición automática. -1 significa PivotField en sí mismo.<br/> Debe ser el índice de los campos de datos.|
 | [function](/cells/es/python-net/aspose.cells.pivot/pivotfield/function) | Representa la función utilizada para resumir el campo de datos de la tabla dinámica.|
 | [data_display_format](/cells/es/python-net/aspose.cells.pivot/pivotfield/data_display_format) | Representa cómo mostrar los valores contenidos en un campo de datos.|
 | [base_field_index](/cells/es/python-net/aspose.cells.pivot/pivotfield/base_field_index) | Representa el campo base para un cálculo personalizado.|
@@ -79,7 +79,7 @@ El tipo PivotField expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

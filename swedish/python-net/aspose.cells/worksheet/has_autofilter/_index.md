@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_autofilter fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_autofilter fastighet
 
-Anger om detta kalkylblad har ett autofilter.
+Indikerar om detta kalkylblad har autofilter.
 ###  Definition:
 ```python
 @property

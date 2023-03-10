@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد DisplayUnitType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

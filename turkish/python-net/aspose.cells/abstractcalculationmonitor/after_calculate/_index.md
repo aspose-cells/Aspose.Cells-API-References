@@ -1,4 +1,4 @@
-﻿---
+---
 title: after_calculate yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def after_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index | int | Hücrenin ait olduğu sayfanın dizini.|
 | row_index | int | Hücrenin satır dizini|

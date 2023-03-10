@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_axis yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def has_axis(self, aixs_type, is_primary):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | aixs_type | [AxisType](/cells/tr/python-net/aspose.cells.charts/axistype) |  |
 | is_primary | bool |  |

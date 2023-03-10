@@ -1,4 +1,4 @@
-﻿---
+---
 title: on_circular Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

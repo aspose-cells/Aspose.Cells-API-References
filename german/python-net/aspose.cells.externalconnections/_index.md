@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.externalconnections
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -18,7 +18,7 @@ is_root: false
 | [DataModelConnection](/cells/de/python-net/aspose.cells.externalconnections/datamodelconnection) | Gibt eine Datenmodellverbindung an|
 | [ExternalConnection](/cells/de/python-net/aspose.cells.externalconnections/externalconnection) | Gibt eine externe Datenverbindung an|
 | [ExternalConnectionCollection](/cells/de/python-net/aspose.cells.externalconnections/externalconnectioncollection) | Gibt die Sammlung [ExternalConnection](/cells/de/python-net/aspose.cells.externalconnections/externalconnection) an|
-| [WebQueryConnection](/cells/de/python-net/aspose.cells.externalconnections/webqueryconnection) | Eine Webabfrage ruft Daten aus HTML-Tabellen ab,<br/> und kann auch HTTP-"Get"-Parameter liefern, die vom Webserver beim Generieren der HTML verarbeitet werden sollen<br/> einschließlich der Parameter und Parameterelemente.|
+| [WebQueryConnection](/cells/de/python-net/aspose.cells.externalconnections/webqueryconnection) | Gibt die Eigenschaften für eine Webabfragequelle an. Eine Webabfrage ruft Daten aus HTML-Tabellen ab,<br/> und kann auch HTTP-"Get"-Parameter liefern, die vom Webserver beim Generieren der HTML verarbeitet werden sollen<br/> einschließlich der Parameter und Parameterelemente.|
 
 
 ###  Aufzählungen
@@ -30,6 +30,6 @@ is_root: false
 | [HtmlFormatHandlingType](/cells/de/python-net/aspose.cells.externalconnections/htmlformathandlingtype) | Gibt an, wie die Formatierung aus der Quelle HTML gehandhabt wird|
 | [OLEDBCommandType](/cells/de/python-net/aspose.cells.externalconnections/oledbcommandtype) | Gibt den OLE DB-Befehlstyp an.|
 | [ReConnectionMethodType](/cells/de/python-net/aspose.cells.externalconnections/reconnectionmethodtype) | Gibt an, was die Tabellenkalkulationsanwendung tun soll, wenn eine Verbindung fehlschlägt.|
-| [SqlDataType](/cells/de/python-net/aspose.cells.externalconnections/sqldatatype) | Gibt den SQL-Datentyp des Parameters an.|
+| [SqlDataType](/cells/de/python-net/aspose.cells.externalconnections/sqldatatype) | Gibt den SQL-Datentyp des Parameters an. Nur gültig für ODBC-Quellen.|
 
 

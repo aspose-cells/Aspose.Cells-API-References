@@ -1,4 +1,4 @@
-﻿---
+---
 title: Axis الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -37,9 +37,9 @@ is_root: false
 | [is_plot_order_reversed](/cells/ar/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | يمثل إذا كان Microsoft Excel يرسم نقاط البيانات من الأخير إلى الأول.|
 | [axis_between_categories](/cells/ar/python-net/aspose.cells.charts/axis/axis_between_categories) | يمثل إذا تقاطع محور القيمة مع محور الفئة بين الفئات.|
 | [tick_labels](/cells/ar/python-net/aspose.cells.charts/axis/tick_labels) | إرجاع عنصر [Axis.tick_labels](/cells/ar/python-net/aspose.cells.charts/axis#tick_labels) يمثل تسميات علامات التجزئة للمحور المحدد.|
-| [tick_label_spacing](/cells/ar/python-net/aspose.cells.charts/axis/tick_label_spacing) |يمثل عدد الفئات أو السلاسل بين تسميات علامات التجزئة.|
+| [tick_label_spacing](/cells/ar/python-net/aspose.cells.charts/axis/tick_label_spacing) |يمثل عدد الفئات أو السلاسل بين تسميات علامات التجزئة. ينطبق فقط على محاور الفئات والسلسلة.|
 | [is_auto_tick_label_spacing](/cells/ar/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | يشير إلى ما إذا كان التباعد بين تسمية التجزئة تلقائي|
-| [tick_mark_spacing](/cells/ar/python-net/aspose.cells.charts/axis/tick_mark_spacing) | إرجاع أو تعيين عدد الفئات أو السلاسل بين علامات التجزئة.|
+| [tick_mark_spacing](/cells/ar/python-net/aspose.cells.charts/axis/tick_mark_spacing) | إرجاع أو تعيين عدد الفئات أو السلاسل بين علامات التجزئة. ينطبق فقط على محاور الفئات والسلسلة.|
 | [display_unit](/cells/ar/python-net/aspose.cells.charts/axis/display_unit) | يمثل تسمية الوحدة للمحور المحدد.|
 | [cust_unit](/cells/ar/python-net/aspose.cells.charts/axis/cust_unit) | يحدد قيمة مخصصة لوحدة العرض.|
 | [custom_unit](/cells/ar/python-net/aspose.cells.charts/axis/custom_unit) | يحدد قيمة مخصصة لوحدة العرض.|
@@ -53,13 +53,13 @@ is_root: false
 | [is_visible](/cells/ar/python-net/aspose.cells.charts/axis/is_visible) | يمثل إذا كان المحور مرئيًا.|
 | [major_grid_lines](/cells/ar/python-net/aspose.cells.charts/axis/major_grid_lines) | يمثل خطوط الشبكة الرئيسية على محور الرسم البياني.|
 | [minor_grid_lines](/cells/ar/python-net/aspose.cells.charts/axis/minor_grid_lines) | يمثل خطوط شبكة ثانوية على محور مخطط.|
-| [has_multi_level_labels](/cells/ar/python-net/aspose.cells.charts/axis/has_multi_level_labels) |يشير إلى ما إذا كانت الملصقات ستظهر على أنها متعددة المستويات.|
-| [axis_labels](/cells/ar/python-net/aspose.cells.charts/axis/axis_labels) | يحصل على تسميات المحور بعد استدعاء طريقة Chart.Calculate ().|
+| [has_multi_level_labels](/cells/ar/python-net/aspose.cells.charts/axis/has_multi_level_labels) |يشير إلى ما إذا كانت الملصقات ستظهر كمستويات متعددة.|
+| [axis_labels](/cells/ar/python-net/aspose.cells.charts/axis/axis_labels) | الحصول على تسميات المحور بعد استدعاء طريقة Chart.Calculate ().|
 | [bins](/cells/ar/python-net/aspose.cells.charts/axis/bins) | يمثل الصناديق على محور الرسم البياني (المدرج التكراري / باريتو)|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Legend Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,7 +29,7 @@ Der Typ Legend macht die folgenden Member verfügbar:
 | [text_font](/cells/de/python-net/aspose.cells.charts/legend/text_font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
 | [text_options](/cells/de/python-net/aspose.cells.charts/legend/text_options) | Ruft die Optionen des Textes ab und legt sie fest.|
 | [font](/cells/de/python-net/aspose.cells.charts/legend/font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
-| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/legend/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.|
+| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/legend/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/legend/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [background](/cells/de/python-net/aspose.cells.charts/legend/background) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [is_automatic_size](/cells/de/python-net/aspose.cells.charts/legend/is_automatic_size) | Gibt an, ob die Größe des Diagrammrahmens automatisch angepasst wird.|
@@ -45,7 +45,7 @@ Der Typ Legend macht die folgenden Member verfügbar:
 | [default_width](/cells/de/python-net/aspose.cells.charts/legend/default_width) | Repräsentiert die Breite der Standardposition|
 | [default_height](/cells/de/python-net/aspose.cells.charts/legend/default_height) | Repräsentiert die Höhe der Standardposition|
 | [is_auto_text](/cells/de/python-net/aspose.cells.charts/legend/is_auto_text) | Zeigt an, dass der Text automatisch generiert wird.|
-| [is_deleted](/cells/de/python-net/aspose.cells.charts/legend/is_deleted) | Gibt an, ob diese Datenbeschriftung gelöscht wird.|
+| [is_deleted](/cells/de/python-net/aspose.cells.charts/legend/is_deleted) | Gibt an, ob diese Datenbeschriftungen gelöscht werden.|
 | [text_horizontal_alignment](/cells/de/python-net/aspose.cells.charts/legend/text_horizontal_alignment) | Ruft die horizontale Textausrichtung ab und legt sie fest.|
 | [text_vertical_alignment](/cells/de/python-net/aspose.cells.charts/legend/text_vertical_alignment) |Ruft die vertikale Textausrichtung von Text ab oder legt diese fest.|
 | [rotation_angle](/cells/de/python-net/aspose.cells.charts/legend/rotation_angle) | Stellt den Rotationswinkel des Textes dar.|
@@ -56,7 +56,7 @@ Der Typ Legend macht die folgenden Member verfügbar:
 | [reading_order](/cells/de/python-net/aspose.cells.charts/legend/reading_order) | Stellt die Lesereihenfolge des Textes dar.|
 | [direction_type](/cells/de/python-net/aspose.cells.charts/legend/direction_type) | Ruft die Textrichtung ab und legt sie fest.|
 | [is_text_wrapped](/cells/de/python-net/aspose.cells.charts/legend/is_text_wrapped) | Ruft einen Wert ab, der angibt, ob der Text umbrochen wird, oder legt diesen fest.|
-| [is_resize_shape_to_fit_text](/cells/de/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | Ruft ab oder legt fest, ob eine Form automatisch angepasst werden soll, damit sie den darin beschriebenen Text vollständig enthält.<br/> wenn Text innerhalb einer Form skaliert wird, um den gesamten darin enthaltenen Text aufzunehmen.|
+| [is_resize_shape_to_fit_text](/cells/de/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | Ruft ab oder legt fest, ob eine Form automatisch angepasst werden soll, damit sie den darin beschriebenen Text vollständig enthält. Autofitting ist<br/> wenn Text innerhalb einer Form skaliert wird, um den gesamten darin enthaltenen Text aufzunehmen.|
 | [position](/cells/de/python-net/aspose.cells.charts/legend/position) | Ruft den Positionstyp der Legende ab oder legt diesen fest.|
 | [legend_entries](/cells/de/python-net/aspose.cells.charts/legend/legend_entries) | Ruft eine Auflistung aller LegendEntry-Objekte in der angegebenen Diagrammlegende ab.<br/>Das Setzen der Legendeneinträge des Oberflächendiagramms wird nicht unterstützt.<br/> Es wird also null zurückgegeben, wenn der Diagrammtyp ein Oberflächendiagrammtyp ist.|
 | [legend_entries_labels](/cells/de/python-net/aspose.cells.charts/legend/legend_entries_labels) |Ruft die Beschriftungen der Legendeneinträge nach dem Aufruf der Methode Chart.Calculate() ab.|
@@ -71,7 +71,7 @@ Der Typ Legend macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

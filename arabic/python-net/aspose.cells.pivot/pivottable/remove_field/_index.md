@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_field
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def remove_field(self, field_type, field_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | نوع منطقة الحقول.|
 | field_name | str | الاسم في الحقول الأساسية.|
@@ -35,7 +35,7 @@ def remove_field(self, field_type, base_field_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | نوع منطقة الحقول.|
 | base_field_index | int | فهرس المجال في الحقول الأساسية.|
@@ -52,7 +52,7 @@ def remove_field(self, field_type, pivot_field):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldtype) | نوع منطقة الحقول.|
 | pivot_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | الحقل في الحقول الأساسية.|

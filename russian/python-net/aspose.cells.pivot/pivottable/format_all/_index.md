@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_all метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Отформатируйте все ячейки в области сводной таблицы
+Отформатировать всю ячейку в сводной области
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Стиль для форматирования|
 

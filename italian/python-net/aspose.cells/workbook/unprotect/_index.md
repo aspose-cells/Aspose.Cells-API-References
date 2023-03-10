@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo unprotect
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def unprotect(self, password):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | password | str | Password per rimuovere la protezione della cartella di lavoro.|
 

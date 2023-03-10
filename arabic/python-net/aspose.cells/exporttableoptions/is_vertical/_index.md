@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_vertical الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_vertical الملكية
 
-صواب إذا كان أحد الصفوف في ملف المصنف يمثل صفًا في DataTable.
+صواب إذا كان أحد الصفوف في ملف المصنف يمثل صفًا في DataTable. خطأ إذا كان أحد الأعمدة في ملف المصنف يمثل صفًا في DataTable.
 ###  تعريف:
 ```python
 @property

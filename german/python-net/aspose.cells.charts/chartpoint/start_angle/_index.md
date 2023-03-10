@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_angle Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  start_angle Eigentum
 
 Ruft den Startwinkel für den Tortenabschnitt ab, gemessen in Grad im Uhrzeigersinn von der x-Achse nach dem Aufruf der Chart.Calculate()-Methode.
-Gilt für Tortendiagramm.
+Gilt für Kreisdiagramm.
 ###  Definition:
 ```python
 @property

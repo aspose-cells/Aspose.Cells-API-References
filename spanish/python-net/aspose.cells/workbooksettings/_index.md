@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookSettings clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -17,7 +17,7 @@ El tipo WorkbookSettings expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [stream_provider](/cells/es/python-net/aspose.cells/workbooksettings/stream_provider) | Obtiene y establece el proveedor de flujo para los recursos externos.|
+| [stream_provider](/cells/es/python-net/aspose.cells/workbooksettings/stream_provider) | Obtiene y establece el proveedor de transmisión para el recurso externo.|
 | [resource_provider](/cells/es/python-net/aspose.cells/workbooksettings/resource_provider) | Obtiene y establece el proveedor de transmisión para recursos externos, como cargar datos de imagen para una imagen de tipo "LinkToFile".|
 | [author](/cells/es/python-net/aspose.cells/workbooksettings/author) | Obtiene y establece el autor del archivo.|
 | [check_custom_number_format](/cells/es/python-net/aspose.cells/workbooksettings/check_custom_number_format) | Indica si se comprueba el formato de número personalizado al configurar Style.Custom.|
@@ -32,10 +32,10 @@ El tipo WorkbookSettings expone los siguientes miembros:
 | [is_v_scroll_bar_visible](/cells/es/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) | Obtiene o establece un valor que indica si la hoja de cálculo generada contendrá una barra de desplazamiento vertical.|
 | [shared](/cells/es/python-net/aspose.cells/workbooksettings/shared) | Obtiene o establece un valor que indica si el Libro de trabajo se comparte.|
 | [language_code](/cells/es/python-net/aspose.cells/workbooksettings/language_code) | Obtiene o establece el idioma de la interfaz de usuario de la versión del libro de trabajo en función del código de país que guardó el archivo.|
-| [region](/cells/es/python-net/aspose.cells/workbooksettings/region) | Obtiene o establece la configuración regional de los libros.|
+| [region](/cells/es/python-net/aspose.cells/workbooksettings/region) | Obtiene o establece la configuración regional del libro de trabajo.|
 | [globalization_settings](/cells/es/python-net/aspose.cells/workbooksettings/globalization_settings) | Obtiene y establece la configuración de globalización.|
-| [number_decimal_separator](/cells/es/python-net/aspose.cells/workbooksettings/number_decimal_separator) | Obtiene o establece el separador decimal para dar formato o analizar valores numéricos.|
-| [number_group_separator](/cells/es/python-net/aspose.cells/workbooksettings/number_group_separator) | Obtiene o establece el carácter que separa los grupos de dígitos a la izquierda del decimal en valores numéricos. El valor predeterminado es el separador de grupos de la región actual.|
+| [number_decimal_separator](/cells/es/python-net/aspose.cells/workbooksettings/number_decimal_separator) | Obtiene o establece el separador decimal para dar formato o analizar valores numéricos. El valor predeterminado es el separador decimal de la región actual.|
+| [number_group_separator](/cells/es/python-net/aspose.cells/workbooksettings/number_group_separator) | Obtiene o establece el carácter que separa grupos de dígitos a la izquierda del decimal en valores numéricos. El valor predeterminado es el separador de grupo de la Región actual.|
 | [password](/cells/es/python-net/aspose.cells/workbooksettings/password) | Representa la contraseña de cifrado del archivo del libro de trabajo.|
 | [write_protection](/cells/es/python-net/aspose.cells/workbooksettings/write_protection) | Proporciona acceso a las opciones de protección contra escritura del libro de trabajo.|
 | [is_encrypted](/cells/es/python-net/aspose.cells/workbooksettings/is_encrypted) |Obtiene un valor que indica si se requiere una contraseña para abrir este libro.|
@@ -56,16 +56,16 @@ El tipo WorkbookSettings expone los siguientes miembros:
 | [window_top](/cells/es/python-net/aspose.cells/workbooksettings/window_top) | La distancia desde el borde superior del área del cliente hasta el borde superior de la ventana, en unidad de punto.|
 | [window_top_inch](/cells/es/python-net/aspose.cells/workbooksettings/window_top_inch) | La distancia desde el borde superior del área del cliente hasta el borde superior de la ventana, en unidades de pulgada.|
 | [window_top_cm](/cells/es/python-net/aspose.cells/workbooksettings/window_top_cm) | La distancia desde el borde superior del área del cliente hasta el borde superior de la ventana, en unidades de centímetros.|
-| [window_width](/cells/es/python-net/aspose.cells/workbooksettings/window_width) | El ancho de la ventana, en unidades de puntos.|
-| [window_width_inch](/cells/es/python-net/aspose.cells/workbooksettings/window_width_inch) | El ancho de la ventana, en unidades de pulgadas.|
-| [window_width_cm](/cells/es/python-net/aspose.cells/workbooksettings/window_width_cm) | El ancho de la ventana, en unidades de centímetros.|
+| [window_width](/cells/es/python-net/aspose.cells/workbooksettings/window_width) | El ancho de la ventana, en unidad de punto.|
+| [window_width_inch](/cells/es/python-net/aspose.cells/workbooksettings/window_width_inch) | El ancho de la ventana, en unidades de pulgada.|
+| [window_width_cm](/cells/es/python-net/aspose.cells/workbooksettings/window_width_cm) | El ancho de la ventana, en unidades de centímetro.|
 | [window_height](/cells/es/python-net/aspose.cells/workbooksettings/window_height) | La altura de la ventana, en unidad de punto.|
-| [window_height_inch](/cells/es/python-net/aspose.cells/workbooksettings/window_height_inch) | La altura de la ventana, en unidades de pulgadas.|
-| [window_height_cm](/cells/es/python-net/aspose.cells/workbooksettings/window_height_cm) | La altura de la ventana, en unidades de centímetros.|
+| [window_height_inch](/cells/es/python-net/aspose.cells/workbooksettings/window_height_inch) | La altura de la ventana, en unidades de pulgada.|
+| [window_height_cm](/cells/es/python-net/aspose.cells/workbooksettings/window_height_cm) | La altura de la ventana, en unidades de centímetro.|
 | [update_adjacent_cells_border](/cells/es/python-net/aspose.cells/workbooksettings/update_adjacent_cells_border) | Indica si se actualiza el borde de las celdas adyacentes.|
 | [significant_digits](/cells/es/python-net/aspose.cells/workbooksettings/significant_digits) | Obtiene y establece el número de dígitos significativos.<br/> El valor predeterminado es [CellsHelper.significant_digits](/cells/es/python-net/aspose.cells/cellshelper#significant_digits).|
-| [check_compatibility](/cells/es/python-net/aspose.cells/workbooksettings/check_compatibility) | Indica si se comprueba la compatibilidad con versiones anteriores al guardar libros de trabajo.|
-| [check_excel_restriction](/cells/es/python-net/aspose.cells/workbooksettings/check_excel_restriction) | Si verifica la restricción del archivo de Excel cuando el usuario modifica los objetos relacionados con las celdas.<br/>Por ejemplo, Excel no permite ingresar un valor de cadena de más de 32K.<br/>Cuando ingresa un valor de más de 32 K, como Cell.PutValue (cadena), si esta propiedad es verdadera, obtendrá una excepción.<br/>Si esta propiedad es falsa, aceptaremos su valor de cadena de entrada como el valor de la celda para que luego<br/>puede generar el valor de cadena completo para otros formatos de archivo como CSV.<br/>Sin embargo, si ha establecido un tipo de valor que no es válido para el formato de archivo de Excel,<br/> no debe guardar el libro de trabajo como formato de archivo de Excel más tarde.|
+| [check_compatibility](/cells/es/python-net/aspose.cells/workbooksettings/check_compatibility) | Indica si se comprueba la compatibilidad con versiones anteriores al guardar el libro de trabajo.|
+| [check_excel_restriction](/cells/es/python-net/aspose.cells/workbooksettings/check_excel_restriction) | Si verifica la restricción del archivo de Excel cuando el usuario modifica los objetos relacionados con las celdas.<br/>Por ejemplo, Excel no permite ingresar un valor de cadena de más de 32K.<br/>Cuando ingresa un valor de más de 32 K, como Cell.PutValue (cadena), si esta propiedad es verdadera, obtendrá una excepción.<br/>Si esta propiedad es falsa, aceptaremos su valor de cadena de entrada como el valor de la celda para que luego<br/>puede generar el valor de cadena completo para otros formatos de archivo como CSV.<br/>Sin embargo, si ha establecido un tipo de valor que no es válido para el formato de archivo de Excel,<br/> no debe guardar el libro de trabajo como formato de archivo de Excel más adelante. De lo contrario, puede haber un error inesperado para el archivo de Excel generado.|
 | [auto_recover](/cells/es/python-net/aspose.cells/workbooksettings/auto_recover) |Indica si el archivo está marcado para recuperación automática.|
 | [crash_save](/cells/es/python-net/aspose.cells/workbooksettings/crash_save) | indica si la aplicación guardó por última vez el archivo del libro de trabajo después de un bloqueo.|
 | [data_extract_load](/cells/es/python-net/aspose.cells/workbooksettings/data_extract_load) | indica si la aplicación abrió por última vez el libro de trabajo para la recuperación de datos.|
@@ -73,16 +73,16 @@ El tipo WorkbookSettings expone los siguientes miembros:
 | [build_version](/cells/es/python-net/aspose.cells/workbooksettings/build_version) | Especifica la versión pública incremental de la aplicación.|
 | [memory_setting](/cells/es/python-net/aspose.cells/workbooksettings/memory_setting) | Obtiene o establece las opciones de uso de la memoria. La nueva opción se tomará como la opción predeterminada para las hojas de trabajo recién creadas, pero no tendrá efecto para las hojas de trabajo existentes.|
 | [paper_size](/cells/es/python-net/aspose.cells/workbooksettings/paper_size) | Obtiene y establece el tamaño de papel de impresión predeterminado.|
-| [warning_callback](/cells/es/python-net/aspose.cells/workbooksettings/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
+| [warning_callback](/cells/es/python-net/aspose.cells/workbooksettings/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
 | [max_rows_of_shared_formula](/cells/es/python-net/aspose.cells/workbooksettings/max_rows_of_shared_formula) | Obtiene y establece el número máximo de filas de la fórmula compartida.|
-| [compliance](/cells/es/python-net/aspose.cells/workbooksettings/compliance) | Especifica la versión OOXML del documento de salida.|
+| [compliance](/cells/es/python-net/aspose.cells/workbooksettings/compliance) | Especifica la versión OOXML del documento de salida. El valor predeterminado es Ecma376_2006.|
 | [quote_prefix_to_style](/cells/es/python-net/aspose.cells/workbooksettings/quote_prefix_to_style) | Indica si se establece la propiedad [Style.quote_prefix](/cells/es/python-net/aspose.cells/style#quote_prefix) al ingresar el valor de la cadena (que comienza con una comilla simple) en la celda|
 | [formula_settings](/cells/es/python-net/aspose.cells/workbooksettings/formula_settings) | Obtiene la configuración de las funciones relacionadas con fórmulas.|
 | [precision_as_displayed](/cells/es/python-net/aspose.cells/workbooksettings/precision_as_displayed) |True si los cálculos en este libro de trabajo se realizarán usando solo la precisión de los números tal como se muestran|
-| [re_calculate_on_open](/cells/es/python-net/aspose.cells/workbooksettings/re_calculate_on_open) | Indica si se deben volver a calcular todas las fórmulas al abrir el archivo.|
+| [re_calculate_on_open](/cells/es/python-net/aspose.cells/workbooksettings/re_calculate_on_open) | Indica si se vuelven a calcular todas las fórmulas al abrir el archivo.|
 | [create_calc_chain](/cells/es/python-net/aspose.cells/workbooksettings/create_calc_chain) | Si crea una cadena de fórmulas calculadas. El valor predeterminado es falso.|
 | [force_full_calculate](/cells/es/python-net/aspose.cells/workbooksettings/force_full_calculate) | Calcula completamente cada vez que se activa un cálculo.|
-| [iteration](/cells/es/python-net/aspose.cells/workbooksettings/iteration) | Indica si habilitar el cálculo iterativo para resolver referencias circulares.|
+| [iteration](/cells/es/python-net/aspose.cells/workbooksettings/iteration) | Indica si se habilita el cálculo iterativo para resolver referencias circulares.|
 | [max_iteration](/cells/es/python-net/aspose.cells/workbooksettings/max_iteration) | Devuelve o establece el número máximo de iteraciones para resolver una referencia circular.|
 | [max_change](/cells/es/python-net/aspose.cells/workbooksettings/max_change) | Devuelve o establece el número máximo de cambios para resolver una referencia circular.|
 | [calc_mode](/cells/es/python-net/aspose.cells/workbooksettings/calc_mode) | Especifica si calcular las fórmulas manualmente,<br/> de forma automática o automática, excepto para operaciones con varias tablas.|
@@ -99,7 +99,7 @@ El tipo WorkbookSettings expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

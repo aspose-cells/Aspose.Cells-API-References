@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -26,7 +26,7 @@ Der Typ DisplayUnitType macht die folgenden Member verfügbar:
 | TEN_MILLIONS | Gibt an, dass die Werte im Diagramm durch 10.000.000 geteilt werden sollen.|
 | HUNDRED_MILLIONS | Gibt an, dass die Werte im Diagramm durch 100.000.000 geteilt werden sollen.|
 | BILLIONS | Gibt an, dass die Werte im Diagramm durch 1.000.000.000 geteilt werden sollen.|
-| TRILLIONS |Gibt an, dass die Werte im Diagramm durch 1.000.000.000.000 geteilt werden sollen.|
+| TRILLIONS |Gibt an, dass die Werte im Diagramm durch 1.000.000.000.000 dividiert werden sollen.|
 | PERCENTAGE | Die Werte im Diagramm werden durch 0,01 geteilt.|
 | CUST | gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an.|
 | CUSTOM | gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an.|

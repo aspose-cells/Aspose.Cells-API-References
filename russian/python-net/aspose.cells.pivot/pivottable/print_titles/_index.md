@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_titles недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles недвижимость
 
 Указывает, установлены ли печатные заголовки рабочего листа на основе
-в отчете сводной таблицы.
+в отчете сводной таблицы. Значение по умолчанию неверно.
 ###  Определение:
 ```python
 @property

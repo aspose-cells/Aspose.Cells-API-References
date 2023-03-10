@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_to_corner недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает вертикальное смещение фигуры от верхней границы рабочего листа в пикселях.
 
-###  Примеры
+###  Пример
 
 ```python
 

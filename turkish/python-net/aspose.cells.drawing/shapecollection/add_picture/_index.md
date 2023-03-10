@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_picture yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
@@ -30,7 +30,7 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 | lower_right_column | int | Sağ alt sütun dizini|
 | stream | io.RawIOBase | Görüntü verilerini içeren akış nesnesi.|
 
-###  örnekler
+###  Örnek
 
 ```python
 
@@ -56,7 +56,7 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
@@ -64,7 +64,7 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 | width_scale | int | Görüntü genişliği ölçeği, yüzde.|
 | height_scale | int | Görüntü yüksekliği ölçeği, yüzde.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

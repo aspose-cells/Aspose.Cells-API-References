@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_printing_page_breaks
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-مناطق فاصل الصفحات التلقائية.
+تقوم الصفحة التلقائية بتقسيم المناطق.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | options | aspose.cells.rendering.ImageOrPrintOptions | خيارات الطباعة|
 ###  ملاحظات

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportTableOptions clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,8 +31,8 @@ El tipo ExportTableOptions expone los siguientes miembros:
 | [export_as_string](/cells/es/python-net/aspose.cells/exporttableoptions/export_as_string) | Exporta el valor de cadena de las celdas a DataTable.|
 | [export_as_html_string](/cells/es/python-net/aspose.cells/exporttableoptions/export_as_html_string) | Exporta el valor de cadena html de las celdas a DataTable.|
 | [format_strategy](/cells/es/python-net/aspose.cells/exporttableoptions/format_strategy) | Obtiene y establece la estrategia de formato al exportar el valor como valor de cadena.|
-| [check_mixed_value_type](/cells/es/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) | Falso, Aspose.Cells establecerá el tipo de DataColumn según el tipo de valor de la primera fila para el rendimiento.<br/> Cierto, Aspose.Cells verificará si el tipo de valor en la columna se mezcla antes de establecer el tipo de DataColumn<br/> Y el tipo de valor es mixto, el tipo de DataColumn será una cadena.|
-| [is_vertical](/cells/es/python-net/aspose.cells/exporttableoptions/is_vertical) | True si una fila en el archivo Workbook representa una fila en DataTable.|
+| [check_mixed_value_type](/cells/es/python-net/aspose.cells/exporttableoptions/check_mixed_value_type) | Falso, Aspose.Cells establecerá el tipo de DataColumn según el tipo de valor de la primera fila para el rendimiento.<br/> Cierto, Aspose.Cells verificará si el tipo de valor en la columna se mezcla antes de establecer el tipo de DataColumn<br/> Y el tipo de valor se mezcla, el tipo de DataColumn será una cadena.|
+| [is_vertical](/cells/es/python-net/aspose.cells/exporttableoptions/is_vertical) | True si una fila en el archivo Workbook representa una fila en DataTable. Falso si una columna en el archivo Workbook representa una fila en DataTable.|
 | [indexes](/cells/es/python-net/aspose.cells/exporttableoptions/indexes) | Los índices de columnas/filas que deben exportarse.|
 | [rename_strategy](/cells/es/python-net/aspose.cells/exporttableoptions/rename_strategy) | Estrategia para nombres duplicados de columnas.|
 

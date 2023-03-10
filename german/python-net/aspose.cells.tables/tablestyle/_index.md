@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyle Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -22,7 +22,7 @@ Der Typ TableStyle macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import BackgroundType, CellsHelper, Workbook

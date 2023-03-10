@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePathType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/shapepathtype/
 is_root: false
 ---
 ##  ShapePathType uppräkning
-Representerar typ av vägsegment.
+Representerar typ av bansegment.
 
 
 

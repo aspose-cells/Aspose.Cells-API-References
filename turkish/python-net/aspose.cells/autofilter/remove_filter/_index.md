@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_filter yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_filter(self, field_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Belirli filtre dizini|
 
@@ -34,7 +34,7 @@ def remove_filter(self, field_index, criteria):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | criteria | str | Belirtilen ölçüt (bir dize; örneğin, "101").<br/> Yalnızca boş olabilir veya bu sütundaki hücrelerin değerlerinden biri olabilir.|

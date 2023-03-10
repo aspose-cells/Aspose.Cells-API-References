@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_picture_in_chart Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Fügt dem Diagramm ein Bild hinzu.
 
 ###  Kehrt zurück
 
-Gibt ein Bildobjekt zurück.
+Gibt ein Picture-Objekt zurück.
 
 
 ```python

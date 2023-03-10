@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_validation_in_cell yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/validationcollection/get_validation_in_cell/
 is_root: false
 ---
 ##  get_validation_in_cell(row, column) {#int-int}
-Belirli bir hücreye uygulanan doğrulamayı alır.
+Verilen hücreye uygulanan doğrulamayı alır.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get_validation_in_cell(self, row, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | column | int | Sütun dizini.|

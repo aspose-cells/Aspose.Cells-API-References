@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_workbook_default_font propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

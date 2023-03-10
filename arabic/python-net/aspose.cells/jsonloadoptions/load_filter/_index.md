@@ -1,4 +1,4 @@
-﻿---
+---
 title: load_filter الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

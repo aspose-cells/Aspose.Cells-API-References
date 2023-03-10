@@ -1,4 +1,4 @@
-﻿---
+---
 title: unhide_column metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/unhide_column/
 is_root: false
 ---
 ##  unhide_column(column, width) {#int-float}
-Visa en kolumn
+Visar en kolumn
 
 
 
@@ -18,7 +18,7 @@ def unhide_column(self, column, width):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex.|
 | width | float | Kolumnbredd.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_radio_button
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ RadioButton من صفه الأيسر بوحدة البكسل.|
@@ -31,7 +31,7 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 | height | int | يمثل ارتفاع RadioButton ، بوحدة البكسل.|
 | width | int | يمثل عرض RadioButton بوحدة البكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

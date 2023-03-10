@@ -1,6 +1,6 @@
-﻿---
+---
 title: number 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 350
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## number 属性
 
-获取或设置数字和日期的显示格式。
+获取或设置数字和日期的显示格式。不同地区的格式化模式不同。
 
 ### 评论
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_item método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def hide_item(self, index, is_hidden):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | el índice de pivotItem en pivotField.|
 | is_hidden | bool | si el PivotItem específico está oculto|
@@ -35,7 +35,7 @@ def hide_item(self, item_value, is_hidden):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | item_value | str | el valor de pivotItem en pivotField.|
 | is_hidden | bool | si el PivotItem específico está oculto|

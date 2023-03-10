@@ -1,4 +1,4 @@
-﻿---
+---
 title: limit_as_xls الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

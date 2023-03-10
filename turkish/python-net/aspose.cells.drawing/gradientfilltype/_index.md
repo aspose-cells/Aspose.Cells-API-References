@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientFillType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  GradientFillType numaralandırma
-Tüm degrade dolgu türlerini temsil eder.
+Tüm Degrade dolgu türünü temsil eder.
 
 
 

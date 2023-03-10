@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_cell_coordinate mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_cell_coordinate mülk
 
-Dosyayı html'ye kaydederken boş olmayan hücrelerin excel koordinatlarının dışa aktarılıp aktarılmadığını gösterir.
+Dosyayı html'ye kaydederken boş olmayan hücrelerin excel koordinatlarının dışa aktarılıp aktarılmadığını gösterir. Varsayılan değer yanlıştır.
 Çıktı html'sini excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
 ###  Tanım:
 ```python

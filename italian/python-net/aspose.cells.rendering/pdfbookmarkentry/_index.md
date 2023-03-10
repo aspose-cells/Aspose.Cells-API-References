@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PdfBookmarkEntry
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -34,7 +34,7 @@ Il tipo PdfBookmarkEntry espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

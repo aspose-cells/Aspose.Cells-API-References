@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartGlobalizationSettings الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/chartglobalizationsettings/
 is_root: false
 ---
 ##  ChartGlobalizationSettings الدرجة
-يمثل إعدادات العولمة للمخططات.
+يمثل إعدادات العولمة للمخطط.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: columns propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  columns propiedad
 
-Obtiene la colección de objetos [Column](/cells/es/python-net/aspose.cells/column) que representan al individuo columns en esta hoja de trabajo.
+Obtiene la colección de objetos [Column](/cells/es/python-net/aspose.cells/column) que representa al individuo columns en esta hoja de cálculo.
 ###  Definición:
 ```python
 @property

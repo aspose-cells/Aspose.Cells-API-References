@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,13 +18,13 @@ def delete_range(self, start_row, start_column, end_row, end_column, shift_type)
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Starta radindex.|
 | start_column | int | Starta kolumnindex.|
 | end_row | int | Slutradindex.|
 | end_column | int | Slut kolumnindex.|
-| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Skift celler alternativ.|
+| shift_type | [ShiftType](/cells/sv/python-net/aspose.cells/shifttype) | Alternativet Skift celler.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cell класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [name](/cells/ru/python-net/aspose.cells/cell/name) | Получает имя ячейки.|
 | [is_error_value](/cells/ru/python-net/aspose.cells/cell/is_error_value) | Проверяет, является ли значение этой ячейки ошибкой.|
 | [is_numeric_value](/cells/ru/python-net/aspose.cells/cell/is_numeric_value) | Указывает, является ли внутреннее значение этой ячейки числовым (int, double и datetime)|
-| [string_value](/cells/ru/python-net/aspose.cells/cell/string_value) |Получает строковое значение, содержащееся в ячейке.<br/>Для других типов ячеек будет возвращено форматированное строковое значение (отформатированное в соответствии с указанным стилем этой ячейки).<br/>Отформатированное значение ячейки совпадает с тем, что вы можете получить из Excel при копировании ячейки в виде текста (например,<br/> копирование ячейки в текстовый редактор или экспорт в csv).|
+| [string_value](/cells/ru/python-net/aspose.cells/cell/string_value) |Получает строковое значение, содержащееся в ячейке. Если тип этой ячейки — строка, верните само строковое значение.<br/>Для других типов ячеек будет возвращено форматированное строковое значение (отформатированное в соответствии с указанным стилем этой ячейки).<br/>Отформатированное значение ячейки совпадает с тем, что вы можете получить из Excel при копировании ячейки в виде текста (например,<br/> копирование ячейки в текстовый редактор или экспорт в csv).|
 | [string_value_without_format](/cells/ru/python-net/aspose.cells/cell/string_value_without_format) | Получает значение ячейки в виде строки без какого-либо формата.|
 | [number_category_type](/cells/ru/python-net/aspose.cells/cell/number_category_type) | Представляет тип категории числового форматирования этой ячейки.|
 | [display_string_value](/cells/ru/python-net/aspose.cells/cell/display_string_value) | Получает отформатированное строковое значение этой ячейки по стилю отображения ячейки.|
@@ -68,7 +68,7 @@ is_root: false
 | [put_value(date_time)](/cells/ru/python-net/aspose.cells/cell/put_value/#DateTime) | Помещает значение DateTime в ячейку.|
 | [put_value(object_value)](/cells/ru/python-net/aspose.cells/cell/put_value/#any) | Помещает значение объекта в ячейку.|
 | [get_display_style()](/cells/ru/python-net/aspose.cells/cell/get_display_style/#) | Получает стиль отображения ячейки.<br/>Если на эту ячейку также влияют другие параметры, такие как условное форматирование, объекты списка и т. д.,<br/> тогда стиль отображения может отличаться от cell.GetStyle().|
-| [get_display_style(include_merged_borders)](/cells/ru/python-net/aspose.cells/cell/get_display_style/#bool) | Получает стиль отображения ячейки.<br/> Если ячейка условно отформатирована, стиль отображения отличается от стиля cell.GetStyle().|
+| [get_display_style(include_merged_borders)](/cells/ru/python-net/aspose.cells/cell/get_display_style/#bool) | Получает стиль отображения ячейки.<br/> Если ячейка имеет условное форматирование, стиль отображения отличается от стиля cell.GetStyle().|
 | [get_style()](/cells/ru/python-net/aspose.cells/cell/get_style/#) | Получает стиль ячейки.|
 | [get_style(check_borders)](/cells/ru/python-net/aspose.cells/cell/get_style/#bool) | Если checkBorders имеет значение true, проверьте, повлияют ли границы других ячеек на стиль этой ячейки.|
 | [set_style(style)](/cells/ru/python-net/aspose.cells/cell/set_style/#Style) | Задает стиль ячейки.|
@@ -98,7 +98,7 @@ is_root: false
 | [get_characters(flag)](/cells/ru/python-net/aspose.cells/cell/get_characters/#bool) | Возвращает все объекты символов<br/> который представляет собой диапазон символов в тексте ячейки.|
 | [get_string_value(format_strategy)](/cells/ru/python-net/aspose.cells/cell/get_string_value/#CellValueFormatStrategy) | Получает строковое значение по определенной стратегии форматирования.|
 | [get_width_of_value()](/cells/ru/python-net/aspose.cells/cell/get_width_of_value/#) | Получает ширину значения в пикселях.|
-| [get_height_of_value()](/cells/ru/python-net/aspose.cells/cell/get_height_of_value/#) | Получает высоту значения в пикселях.|
+| [get_height_of_value()](/cells/ru/python-net/aspose.cells/cell/get_height_of_value/#) | Получает высоту значения в единицах пикселей.|
 | [get_format_conditions()](/cells/ru/python-net/aspose.cells/cell/get_format_conditions/#) | Получает условия формата, применимые к этой ячейке.|
 | [get_formula(is_r1c1, is_local)](/cells/ru/python-net/aspose.cells/cell/get_formula/#bool-bool) | Получите формулу этой ячейки.|
 | [get_precedents()](/cells/ru/python-net/aspose.cells/cell/get_precedents/#) |Получает все ссылки, встречающиеся в формуле этой ячейки.|
@@ -122,7 +122,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import TextAlignmentType, Workbook

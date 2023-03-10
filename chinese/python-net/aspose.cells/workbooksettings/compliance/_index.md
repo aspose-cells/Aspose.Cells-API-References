@@ -1,6 +1,6 @@
-﻿---
+---
 title: compliance 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 150
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## compliance 属性
 
-指定输出文档的 OOXML 版本。
+指定输出文档的 OOXML 版本。默认值为 Ecma376_2006。
 
 ### 评论
 

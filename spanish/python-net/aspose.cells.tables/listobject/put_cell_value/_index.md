@@ -1,4 +1,4 @@
-﻿---
+---
 title: put_cell_value método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def put_cell_value(self, row_offset, column_offset, value):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row_offset | int | El desplazamiento de fila.|
 | column_offset | int | El desplazamiento de la columna.|

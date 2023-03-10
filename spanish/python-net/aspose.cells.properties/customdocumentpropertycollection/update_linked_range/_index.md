@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_linked_range método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

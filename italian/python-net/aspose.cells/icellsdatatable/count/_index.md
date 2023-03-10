@@ -1,4 +1,4 @@
-﻿---
+---
 title: count proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count proprietà
 
-Ottiene lo count dei record. -1 per i record sconosciuti count.
+Ottiene lo count dei record. -1 per record sconosciuti count.
 ###  Definizione:
 ```python
 @property

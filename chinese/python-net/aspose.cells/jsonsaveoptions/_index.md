@@ -1,6 +1,6 @@
-﻿---
+---
 title: JsonSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 970
@@ -45,7 +45,7 @@ JsonSaveOptions 类型公开了以下成员：
 | [export_area](/cells/zh/python-net/aspose.cells/jsonsaveoptions/export_area) |获取或设置导出范围。|
 | [has_header_row](/cells/zh/python-net/aspose.cells/jsonsaveoptions/has_header_row) |指示范围是否包含标题行。|
 | [export_as_string](/cells/zh/python-net/aspose.cells/jsonsaveoptions/export_as_string) |将单元格的字符串值导出到 json。|
-| [indent](/cells/zh/python-net/aspose.cells/jsonsaveoptions/indent) |表示索引。|
+| [indent](/cells/zh/python-net/aspose.cells/jsonsaveoptions/indent) |表示缩进。|
 | [export_nested_structure](/cells/zh/python-net/aspose.cells/jsonsaveoptions/export_nested_structure) |导出为父子层次 Json 结构。|
 | [export_empty_cells](/cells/zh/python-net/aspose.cells/jsonsaveoptions/export_empty_cells) |指示是否将空单元格导出为 null。|
 | [always_export_as_json_object](/cells/zh/python-net/aspose.cells/jsonsaveoptions/always_export_as_json_object) |指示是否始终将 excel 导出为 json 作为对象，即使文件中只有一个工作表。|

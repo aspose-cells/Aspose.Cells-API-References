@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_size недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, регулируется ли размер фигуры автоматически в соответствии с ее содержимым.
 
-###  Примеры
+###  Пример
 
 ```python
 

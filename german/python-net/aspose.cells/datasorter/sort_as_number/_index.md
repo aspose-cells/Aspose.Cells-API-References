@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_as_number Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

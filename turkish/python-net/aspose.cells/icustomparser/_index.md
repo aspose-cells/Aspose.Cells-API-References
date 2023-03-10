@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICustomParser sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/icustomparser/
 is_root: false
 ---
 ##  ICustomParser sınıfı
-Kullanıcıların, dize değerlerini diğer uygun hücre değeri nesnelerine ayrıştırmak için özel değer ayrıştırıcılarını eklemelerine olanak tanır.
+Kullanıcıların, dize değerlerini diğer uygun hücre değeri nesnesine ayrıştırmak için kendi özel değer ayrıştırıcısını eklemesine izin verir.
 
 
 

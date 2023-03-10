@@ -1,4 +1,4 @@
-﻿---
+---
 title: skip_empty_rows الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

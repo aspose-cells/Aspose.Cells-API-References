@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scale_font недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

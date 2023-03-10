@@ -1,4 +1,4 @@
-﻿---
+---
 title: Picture klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -34,9 +34,9 @@ Typen Picture avslöjar följande medlemmar:
 | [format](/cells/sv/python-net/aspose.cells.drawing/picture/format) | Representerar inställningen för formens formatering.|
 | [line](/cells/sv/python-net/aspose.cells.drawing/picture/line) | Får linjestil|
 | [fill](/cells/sv/python-net/aspose.cells.drawing/picture/fill) | Returnerar ett [Shape.fill_format](/cells/sv/python-net/aspose.cells.drawing/shape#fill_format)-objekt som innehåller fyllningsformateringsegenskaper för den angivna formen.|
-| [shadow_effect](/cells/sv/python-net/aspose.cells.drawing/picture/shadow_effect) | Representerar ett [ShadowEffect](/cells/sv/python-net/aspose.cells.drawing/shadoweffect)-objekt som anger en skuggeffekt för diagramelementet eller formen.|
+| [shadow_effect](/cells/sv/python-net/aspose.cells.drawing/picture/shadow_effect) | Representerar ett [ShadowEffect](/cells/sv/python-net/aspose.cells.drawing/shadoweffect)-objekt som anger skuggeffekt för diagramelementet eller formen.|
 | [reflection](/cells/sv/python-net/aspose.cells.drawing/picture/reflection) | Representerar ett [ReflectionEffect](/cells/sv/python-net/aspose.cells.drawing/reflectioneffect)-objekt som anger reflektionseffekt för diagramelementet eller formen.|
-| [glow](/cells/sv/python-net/aspose.cells.drawing/picture/glow) | Representerar ett [GlowEffect](/cells/sv/python-net/aspose.cells.drawing/gloweffect)-objekt som anger en glödeffekt för diagramelementet eller formen.|
+| [glow](/cells/sv/python-net/aspose.cells.drawing/picture/glow) | Representerar ett [GlowEffect](/cells/sv/python-net/aspose.cells.drawing/gloweffect)-objekt som anger glödeffekt för diagramelementet eller formen.|
 | [soft_edges](/cells/sv/python-net/aspose.cells.drawing/picture/soft_edges) | Hämtar och ställer in oskärmens radie som ska appliceras på kanterna, i punktenhet.|
 | [three_d_format](/cells/sv/python-net/aspose.cells.drawing/picture/three_d_format) | Hämtar och ställer in 3d-format av formen.|
 | [text_frame](/cells/sv/python-net/aspose.cells.drawing/picture/text_frame) | Returnerar ett TextFrame-objekt som innehåller justerings- och förankringsegenskaperna för den angivna formen.|
@@ -69,29 +69,29 @@ Typen Picture avslöjar följande medlemmar:
 | [lower_delta_x](/cells/sv/python-net/aspose.cells.drawing/picture/lower_delta_x) | Hämtar eller ställer in formens horisontella förskjutning från dess nedre högra hörnkolumn.|
 | [right](/cells/sv/python-net/aspose.cells.drawing/picture/right) | Representerar bredden på formens horisontella förskjutning från dess nedre högra hörnkolumn, i pixelenhet.|
 | [bottom](/cells/sv/python-net/aspose.cells.drawing/picture/bottom) |Representerar bredden på formens vertikala förskjutning från dess nedre nedre hörnrad, i pixelenhet.|
-| [width](/cells/sv/python-net/aspose.cells.drawing/picture/width) | Representerar formens bredd i enheter av pixlar.|
-| [width_inch](/cells/sv/python-net/aspose.cells.drawing/picture/width_inch) | Representerar formens bredd, i enheter av tum.|
-| [width_pt](/cells/sv/python-net/aspose.cells.drawing/picture/width_pt) | Representerar formens bredd i enheter av punkter.|
-| [width_cm](/cells/sv/python-net/aspose.cells.drawing/picture/width_cm) | Representerar formens bredd, i enheter av centimeter.|
-| [height](/cells/sv/python-net/aspose.cells.drawing/picture/height) | Representerar formens höjd i enheter av pixlar.|
-| [height_inch](/cells/sv/python-net/aspose.cells.drawing/picture/height_inch) | Representerar höjden på formen, i enheter av tum.|
-| [height_pt](/cells/sv/python-net/aspose.cells.drawing/picture/height_pt) | Representerar höjden på formen, i poängenheter.|
-| [height_cm](/cells/sv/python-net/aspose.cells.drawing/picture/height_cm) | Representerar höjden på formen, i enheter av centimeter.|
+| [width](/cells/sv/python-net/aspose.cells.drawing/picture/width) | Representerar formens bredd i pixelenhet.|
+| [width_inch](/cells/sv/python-net/aspose.cells.drawing/picture/width_inch) | Representerar formens bredd, i tumenhet.|
+| [width_pt](/cells/sv/python-net/aspose.cells.drawing/picture/width_pt) | Representerar formens bredd, i punktenhet.|
+| [width_cm](/cells/sv/python-net/aspose.cells.drawing/picture/width_cm) | Representerar formens bredd, i centimeterenhet.|
+| [height](/cells/sv/python-net/aspose.cells.drawing/picture/height) | Representerar formhöjden, i pixelenhet.|
+| [height_inch](/cells/sv/python-net/aspose.cells.drawing/picture/height_inch) | Representerar höjden på formen, i enhet av tum.|
+| [height_pt](/cells/sv/python-net/aspose.cells.drawing/picture/height_pt) | Representerar höjden på formen, i punktenhet.|
+| [height_cm](/cells/sv/python-net/aspose.cells.drawing/picture/height_cm) | Representerar höjden på formen, i centimeterenhet.|
 | [left](/cells/sv/python-net/aspose.cells.drawing/picture/left) | Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enhet av pixlar.|
-| [left_inch](/cells/sv/python-net/aspose.cells.drawing/picture/left_inch) | Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enheter av tum.|
-| [left_cm](/cells/sv/python-net/aspose.cells.drawing/picture/left_cm) | Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enheter av centimeter.|
+| [left_inch](/cells/sv/python-net/aspose.cells.drawing/picture/left_inch) | Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enhet av tum.|
+| [left_cm](/cells/sv/python-net/aspose.cells.drawing/picture/left_cm) | Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i centimeterenhet.|
 | [top](/cells/sv/python-net/aspose.cells.drawing/picture/top) | Representerar den vertikala förskjutningen av formen från dess översta rad, i pixelenhet.|
-| [top_inch](/cells/sv/python-net/aspose.cells.drawing/picture/top_inch) |Representerar den vertikala förskjutningen av formen från dess översta rad, i enheter av tum.|
-| [top_cm](/cells/sv/python-net/aspose.cells.drawing/picture/top_cm) | Representerar den vertikala förskjutningen av formen från dess översta rad, i enheter av centimeter.|
+| [top_inch](/cells/sv/python-net/aspose.cells.drawing/picture/top_inch) |Representerar den vertikala förskjutningen av formen från dess översta rad, i enhet av tum.|
+| [top_cm](/cells/sv/python-net/aspose.cells.drawing/picture/top_cm) | Representerar den vertikala förskjutningen av formen från dess översta rad, i centimeterenhet.|
 | [top_to_corner](/cells/sv/python-net/aspose.cells.drawing/picture/top_to_corner) | Hämtar och ställer in den vertikala förskjutningen av formen från kalkylbladets övre kant, i pixelenhet.|
 | [left_to_corner](/cells/sv/python-net/aspose.cells.drawing/picture/left_to_corner) | Hämtar och ställer in den horisontella förskjutningen av formen från kalkylbladets vänstra kant.|
 | [x](/cells/sv/python-net/aspose.cells.drawing/picture/x) | Hämtar och ställer in den horisontella förskjutningen av formen från kalkylbladets vänstra kant, i pixelenhet.|
 | [y](/cells/sv/python-net/aspose.cells.drawing/picture/y) | Hämtar och ställer in den vertikala förskjutningen av formen från kalkylbladets övre kant, i pixelenhet.|
-| [width_scale](/cells/sv/python-net/aspose.cells.drawing/picture/width_scale) | Hämtar och ställer in breddskalan, i procentenhet av den ursprungliga bildens bredd.<br/> Om formen inte är bild returnerar egenskapen WidthScale endast 100;|
-| [height_scale](/cells/sv/python-net/aspose.cells.drawing/picture/height_scale) | Hämtar och ställer in höjdskalan, i procentenhet av den ursprungliga bildhöjden.<br/> Om formen inte är bild returnerar egenskapen HeightScale endast 100;|
+| [width_scale](/cells/sv/python-net/aspose.cells.drawing/picture/width_scale) | Hämtar och ställer in breddskalan, i procentenhet av den ursprungliga bildens bredd.<br/> Om formen inte är bild, returnerar egenskapen WidthScale endast 100;|
+| [height_scale](/cells/sv/python-net/aspose.cells.drawing/picture/height_scale) | Hämtar och ställer in höjdskalan, i procentenhet av den ursprungliga bildhöjden.<br/> Om formen inte är bild, returnerar egenskapen HeightScale endast 100;|
 | [top_in_shape](/cells/sv/python-net/aspose.cells.drawing/picture/top_in_shape) | Representerar den vertikala förskjutningen av formen från den övre kanten av den överordnade formen,<br/> i enhet av 1/4000 av höjden på den överordnade formen.|
 | [left_in_shape](/cells/sv/python-net/aspose.cells.drawing/picture/left_in_shape) |Representerar den horisontella förskjutningen av formen från den vänstra kanten av den överordnade formen,<br/> i enhet av 1/4000 av bredden av den överordnade formen.|
-| [width_in_shape](/cells/sv/python-net/aspose.cells.drawing/picture/width_in_shape) | Representerar formens bredd, i enheter på 1/4000 av den överordnade formen.|
+| [width_in_shape](/cells/sv/python-net/aspose.cells.drawing/picture/width_in_shape) | Representerar formens bredd, i enheten 1/4000 av den överordnade formen.|
 | [height_in_shape](/cells/sv/python-net/aspose.cells.drawing/picture/height_in_shape) | Representerar den vertikala förskjutningen av formen från den övre kanten av den överordnade formen, i enhet av 1/4000 av höjden på den överordnade formen.|
 | [group](/cells/sv/python-net/aspose.cells.drawing/picture/group) | Hämtar gruppformen som innehåller denna form.|
 | [type](/cells/sv/python-net/aspose.cells.drawing/picture/type) | Hämtar den automatiska formtypen.|
@@ -135,10 +135,10 @@ Typen Picture avslöjar följande medlemmar:
 | [is_dynamic_data_exchange](/cells/sv/python-net/aspose.cells.drawing/picture/is_dynamic_data_exchange) | Hämtar eller ställer in om dynamiskt datautbyte|
 | [display_as_icon](/cells/sv/python-net/aspose.cells.drawing/picture/display_as_icon) | Sant om det angivna objektet visas som en ikon<br/> och bilden kommer inte att ändras automatiskt.|
 | [image_type](/cells/sv/python-net/aspose.cells.drawing/picture/image_type) | Hämtar bildens bildformat.|
-| [original_height_cm](/cells/sv/python-net/aspose.cells.drawing/picture/original_height_cm) | Hämtar bildens ursprungliga höjd, i enheter av centimeter.|
+| [original_height_cm](/cells/sv/python-net/aspose.cells.drawing/picture/original_height_cm) | Får bildens ursprungliga höjd, i centimeterenhet.|
 | [original_width_cm](/cells/sv/python-net/aspose.cells.drawing/picture/original_width_cm) | Får bildens ursprungliga bredd, i centimeterenhet.|
-| [original_height_inch](/cells/sv/python-net/aspose.cells.drawing/picture/original_height_inch) | Får bildens ursprungliga höjd, i enheter av tum.|
-| [original_width_inch](/cells/sv/python-net/aspose.cells.drawing/picture/original_width_inch) | Får bildens ursprungliga bredd, i enheter av tum.|
+| [original_height_inch](/cells/sv/python-net/aspose.cells.drawing/picture/original_height_inch) | Får bildens ursprungliga höjd, i enhet av tum.|
+| [original_width_inch](/cells/sv/python-net/aspose.cells.drawing/picture/original_width_inch) | Får bildens ursprungliga bredd, i enhet av tum.|
 | [signature_line](/cells/sv/python-net/aspose.cells.drawing/picture/signature_line) | Hämtar och ställer in signaturlinjen|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: repeat_formulas_with_subtotal недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal недвижимость
 
-Указывает, повторяются ли формулы со строками промежуточных итогов.
+Указывает, повторяются ли формулы со строкой промежуточных итогов.
 ###  Определение:
 ```python
 @property

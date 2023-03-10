@@ -1,4 +1,4 @@
-﻿---
+---
 title: r1c1_style недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  r1c1_style недвижимость
 
-Является ли формула эталонным стилем R1C1. Значение по умолчанию — false.
+Является ли формула эталонным стилем R1C1. Значение по умолчанию — ложь.
 ###  Определение:
 ```python
 @property

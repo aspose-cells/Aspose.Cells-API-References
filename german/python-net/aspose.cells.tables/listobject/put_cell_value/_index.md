@@ -1,4 +1,4 @@
-﻿---
+---
 title: put_cell_value Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

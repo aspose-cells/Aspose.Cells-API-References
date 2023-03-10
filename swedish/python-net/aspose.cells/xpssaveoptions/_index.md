@@ -1,4 +1,4 @@
-﻿---
+---
 title: XpsSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,8 +23,8 @@ Typen XpsSaveOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [XpsSaveOptions()](/cells/sv/python-net/aspose.cells/xpssaveoptions/__init__/#) | Skapar alternativ för att spara xps-filer.|
-| [XpsSaveOptions(save_format)](/cells/sv/python-net/aspose.cells/xpssaveoptions/__init__/#SaveFormat) | Skapar alternativ för att spara xps-filer.|
+| [XpsSaveOptions()](/cells/sv/python-net/aspose.cells/xpssaveoptions/__init__/#) | Skapar alternativ för att spara xps-fil.|
+| [XpsSaveOptions(save_format)](/cells/sv/python-net/aspose.cells/xpssaveoptions/__init__/#SaveFormat) | Skapar alternativ för att spara xps-fil.|
 
 
 ###  Egenskaper
@@ -39,8 +39,8 @@ Typen XpsSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/xpssaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/xpssaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/xpssaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/xpssaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/xpssaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/xpssaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/xpssaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [default_font](/cells/sv/python-net/aspose.cells/xpssaveoptions/default_font) | När tecken i Excel är Unicode och inte är inställda med korrekt typsnitt i cellstil,<br/>De kan visas som block i pdf, bild.<br/>Ställ in standardteckensnittet som MingLiu eller MS Gothic för att visa dessa tecken.<br/> Om den här egenskapen inte är inställd kommer Aspose.Cells att använda systemets standardteckensnitt för att visa dessa unicode-tecken.|
 | [check_workbook_default_font](/cells/sv/python-net/aspose.cells/xpssaveoptions/check_workbook_default_font) | När tecken i Excel är Unicode och inte är inställda med korrekt typsnitt i cellstil,<br/>De kan visas som block i pdf, bild.<br/> Ställ in detta på sant för att försöka använda arbetsbokens standardteckensnitt för att visa dessa tecken först.|
 | [check_font_compatibility](/cells/sv/python-net/aspose.cells/xpssaveoptions/check_font_compatibility) |Anger om teckensnittskompatibilitet ska kontrolleras för varje tecken i texten.|

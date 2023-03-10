@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
 ##  SparklineGroup sınıfı
-[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) mini grafik grubu olarak düzenlenmiştir. SparklineGroup değişken sayıda mini grafik öğesi içerir.
+[Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) mini grup halinde düzenlenmiştir. SparklineGroup, değişken sayıda mini grafik öğesi içerir.
 Mini grafik grubu, mini grafikler için türü, görüntüleme ayarlarını ve eksen ayarlarını belirtir.
 
 
@@ -19,8 +19,8 @@ SparklineGroup türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [preset_style](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/preset_style) | Mini grafik grubunun önceden ayarlanmış stil türünü alır ve ayarlar.|
-| [sparkline_collection](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnelerinin koleksiyonunu alır.|
-| [sparklines](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparklines) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnelerinin koleksiyonunu alır.|
+| [sparkline_collection](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnesinin koleksiyonunu alır.|
+| [sparklines](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/sparklines) | [Sparkline](/cells/tr/python-net/aspose.cells.charts/sparkline) nesnesinin koleksiyonunu alır.|
 | [type](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/type) | Mini grafik grubunun mini grafik tipini belirtir.|
 | [plot_empty_cells_type](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/plot_empty_cells_type) | Boş hücrelerin nasıl çizileceğini gösterir.|
 | [display_hidden](/cells/tr/python-net/aspose.cells.charts/sparklinegroup/display_hidden) |Verilerin gizli satırlarda ve sütunlarda gösterilip gösterilmeyeceğini belirtir.|
@@ -55,7 +55,7 @@ SparklineGroup türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

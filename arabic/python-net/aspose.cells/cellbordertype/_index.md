@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد CellBorderType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  مجالات
 | مجال| وصف|
 | :- | :- |
-| DASH_DOT | يمثل خطوطًا رقيقة منقطة بشرطة.|
+| DASH_DOT | يمثل خطًا رفيعًا منقّطًا بشرطة.|
 | DASH_DOT_DOT | يمثل خطًا رفيعًا منقّطًا بشرطة.|
 | DASHED | يمثل خط متقطع.|
 | DOTTED | يمثل خط منقط.|

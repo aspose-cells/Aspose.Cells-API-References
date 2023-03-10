@@ -1,6 +1,6 @@
-﻿---
+---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/zh/python-net/aspose.cells.charts/trendlinetype) |趋势线类型。|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/zh/python-net/aspose.cells.charts/trendlinetype) |趋势线类型。|
 | name | str |趋势线名称。|

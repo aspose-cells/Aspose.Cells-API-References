@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_area метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,12 +8,12 @@ url: /ru/python-net/aspose.cells/formatconditioncollection/get_cell_area/
 is_root: false
 ---
 ##  get_cell_area(index) {#int}
-Получает условно отформатированный диапазон ячеек по индексу.
+Получает диапазон ячеек с условным форматированием по индексу.
 
 
 ###  Возвращает
 
-условно отформатированный диапазон ячеек
+диапазон ячеек с условным форматированием
 
 
 ```python
@@ -22,9 +22,9 @@ def get_cell_area(self, index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| index | int | индекс условно отформатированного диапазона ячеек.|
+| index | int | индекс диапазона ячеек с условным форматированием.|
 
 
 

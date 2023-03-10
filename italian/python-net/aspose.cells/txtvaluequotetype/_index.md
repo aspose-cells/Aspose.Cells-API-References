@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtValueQuoteType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,10 +17,10 @@ Il tipo TxtValueQuoteType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| NORMAL | Verranno quotati tutti i valori che contengono caratteri speciali come virgolette, caratteri separatori.<br/> Lo stesso vale per il comportamento di ms excel per l'esportazione di file di testo.|
-| ALWAYS | Tutti i valori saranno quotati sempre.|
-| MINIMUM | Citare solo i valori quando necessario. Ad esempio, se un valore contiene virgolette ma le virgolette non sono all'inizio di questo valore, questo valore non verrà quotato.|
-| NEVER | Tutti i valori non verranno quotati.Il file di testo esportato con questo tipo potrebbe non essere riletto correttamente perché le virgolette necessarie sono assenti.|
+| NORMAL | Tutti i valori che contengono caratteri speciali come virgolette, carattere separatore verranno quotati.<br/> Lo stesso vale per il comportamento di ms excel per l'esportazione di file di testo.|
+| ALWAYS | Tutti i valori saranno sempre quotati.|
+| MINIMUM | Quotare i valori solo quando necessario. Ad esempio, se un valore contiene virgolette ma le virgolette non sono all'inizio di questo valore, questo valore non verrà quotato.|
+| NEVER | Tutti i valori non saranno quotati. Il file di testo esportato con questo tipo potrebbe non essere riletto correttamente perché le virgolette necessarie sono assenti.|
 
 
 

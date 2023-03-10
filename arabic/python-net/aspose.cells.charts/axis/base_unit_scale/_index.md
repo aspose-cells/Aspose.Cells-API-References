@@ -1,4 +1,4 @@
-﻿---
+---
 title: base_unit_scale الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

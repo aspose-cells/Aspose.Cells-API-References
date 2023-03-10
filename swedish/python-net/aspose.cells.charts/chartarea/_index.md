@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartArea klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -28,7 +28,7 @@ Typen ChartArea avslöjar följande medlemmar:
 | [text_font](/cells/sv/python-net/aspose.cells.charts/chartarea/text_font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
 | [text_options](/cells/sv/python-net/aspose.cells.charts/chartarea/text_options) | Hämtar och ställer in alternativen för texten.|
 | [font](/cells/sv/python-net/aspose.cells.charts/chartarea/font) | Hämtar ett [ChartArea.font](/cells/sv/python-net/aspose.cells.charts/chartarea#font)-objekt av det angivna chartarea-objektet.|
-| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.|
+| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True.|
 | [background_mode](/cells/sv/python-net/aspose.cells.charts/chartarea/background_mode) | Hämtar och ställer in visningsläget för bakgrunden|
 | [background](/cells/sv/python-net/aspose.cells.charts/chartarea/background) | Hämtar och ställer in visningsläget för bakgrunden|
 | [is_automatic_size](/cells/sv/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Indikerar om kartramen har automatisk storlek.|

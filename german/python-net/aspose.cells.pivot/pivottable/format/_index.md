@@ -1,4 +1,4 @@
-﻿---
+---
 title: format Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.pivot/pivottable/format/
 is_root: false
 ---
 ##  format(row, column, style) {#int-int-Style}
-Formatieren Sie die Zelle im Pivot-Tabellenbereich
+Formatieren Sie die Zelle im schwenkbaren Bereich
 
 
 

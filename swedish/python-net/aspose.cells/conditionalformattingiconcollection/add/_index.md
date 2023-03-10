@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/sv/python-net/aspose.cells/conditionalformattingicon) | Returnerar index för nytt objekt i listan.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [IconSetType](/cells/sv/python-net/aspose.cells/iconsettype) | Värdetypen.|
 | index | int | Indexet.|

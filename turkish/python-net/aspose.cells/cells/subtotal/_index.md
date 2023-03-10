@@ -1,4 +1,4 @@
-﻿---
+---
 title: subtotal yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def subtotal(self, ca, group_by, function, total_list):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Menzil|
 | group_by | int | Sıfır tabanlı bir tamsayı ofseti olarak gruplandırılacak alan|
@@ -37,13 +37,13 @@ def subtotal(self, ca, group_by, function, total_list, replace, page_breaks, sum
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Menzil|
 | group_by | int | Sıfır tabanlı bir tamsayı ofseti olarak gruplandırılacak alan|
 | function | [ConsolidationFunction](/cells/tr/python-net/aspose.cells/consolidationfunction) | Alt toplam işlevi.|
 | total_list | list | Ara toplamların eklendiği alanları gösteren sıfır tabanlı alan ofsetleri dizisi.|
-| replace | bool | Geçerli ara toplamların değiştirilip değiştirilmeyeceğini gösterir|
+| replace | bool | Geçerli ara toplamların değiştirilip değiştirilmediğini gösterir|
 | page_breaks | bool | Gruplar arasında sayfa sonu eklenip eklenmeyeceğini belirtir|
 | summary_below_data | bool | Verilerin altına özet eklenip eklenmeyeceğini belirtir.|
 

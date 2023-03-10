@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -26,7 +26,7 @@ def to_image(self, image_file):
 
 Das Format des Bildes wird durch die Erweiterung des Dateinamens angegeben.
 Wenn Sie beispielsweise „myfile.png“ angeben, wird das Bild gespeichert
- im Format PNG.
+ im Format PNG. Die folgenden Dateierweiterungen werden erkannt:
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
@@ -140,13 +140,13 @@ def to_image(self, image_file, options):
 
 Das Format des Bildes wird durch die Erweiterung des Dateinamens angegeben.
 Wenn Sie beispielsweise „myfile.png“ angeben, wird das Bild gespeichert
- im Format PNG.
+ im Format PNG. Die folgenden Dateierweiterungen werden erkannt:
 .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 
 Wenn die Breite oder Höhe Null ist oder das Diagramm gemäß der Liste der unterstützten Diagramme nicht unterstützt wird, wird diese Methode nichts bewirken.
  Bitte beziehen Sie sich auf[Liste der unterstützten Diagramme](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)für mehr Details.
-###  Beispiele
+###  Beispiel
 
 Speichert im Tiff-Format mit 300 dpi und CCITT4-Komprimierung.
 

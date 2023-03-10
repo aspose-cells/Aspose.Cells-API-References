@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTag klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen SmartTag avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [deleted](/cells/sv/python-net/aspose.cells.markup/smarttag/deleted) | Indikerar om smart-taggen är raderad.|
-| [properties](/cells/sv/python-net/aspose.cells.markup/smarttag/properties) | Hämtar och ställer in egenskaperna för den smarta taggen.|
+| [properties](/cells/sv/python-net/aspose.cells.markup/smarttag/properties) | Hämtar och ställer in egenskaperna för smarttaggen.|
 | [uri](/cells/sv/python-net/aspose.cells.markup/smarttag/uri) | Hämtar namnutrymmes-URI för smarttaggen.|
 | [name](/cells/sv/python-net/aspose.cells.markup/smarttag/name) | Får namnet på smarttaggen.|
 

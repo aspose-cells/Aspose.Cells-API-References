@@ -1,4 +1,4 @@
-﻿---
+---
 title: value mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  value mülk
 
-Dilimleyici öğesi için etiket metnini döndürür.
+Dilimleyici öğesi için etiket metnini döndürür. Sadece oku.
 ###  Tanım:
 ```python
 @property

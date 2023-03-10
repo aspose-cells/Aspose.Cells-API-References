@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_picture mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Resim biçimi seçeneklerini alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-необходимо ли обрабатывать данные ячеек этого листа. false, чтобы игнорировать этот лист.
+нужно ли обрабатывать данные ячеек этого листа. false, чтобы игнорировать этот лист.
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | рабочий лист для чтения данных ячеек.|
 ###  Примечания

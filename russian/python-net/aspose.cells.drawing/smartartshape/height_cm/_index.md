@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_cm недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет высоту фигуры в сантиметрах.
 
-###  Примеры
+###  Пример
 
 ```python
 

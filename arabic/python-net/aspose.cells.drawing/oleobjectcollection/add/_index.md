@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
@@ -46,7 +46,7 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|

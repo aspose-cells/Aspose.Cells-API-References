@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_filled propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indica si el formato de relleno es visible.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

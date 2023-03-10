@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_view_row_height_inch metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/get_view_row_height_inch/
 is_root: false
 ---
 ##  get_view_row_height_inch(row) {#int}
-Hämtar höjden på en angiven rad i enheter av tum.
+Hämtar höjden på en angiven rad i enhet av tum.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def get_view_row_height_inch(self, row):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: locale_dependent propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  locale_dependent propiedad
 
-Indica si la fórmula tiene formato de configuración regional. El valor predeterminado es falso.
+Si la fórmula tiene formato de configuración regional. El valor predeterminado es falso.
 ###  Definición:
 ```python
 @property

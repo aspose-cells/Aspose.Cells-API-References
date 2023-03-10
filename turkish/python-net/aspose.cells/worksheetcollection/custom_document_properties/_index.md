@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_document_properties mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Elektronik tablonun tüm özel belge özelliklerini temsil eden bir [DocumentProperty](/cells/tr/python-net/aspose.cells.properties/documentproperty) koleksiyonunu döndürür.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

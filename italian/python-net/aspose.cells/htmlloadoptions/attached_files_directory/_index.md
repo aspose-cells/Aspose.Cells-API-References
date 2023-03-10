@@ -1,4 +1,4 @@
-﻿---
+---
 title: attached_files_directory proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ La directory in cui verranno salvati i file allegati.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare la proprietà HtmlLoadOptions.StreamProvider.
  Questa proprietà verrà rimossa 12 mesi dopo da dicembre 2014.
 Aspose si scusa per gli eventuali disagi causati.

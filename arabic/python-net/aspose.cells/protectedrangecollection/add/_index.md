@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| name | str | عنوان النطاق. يستخدم هذا كواصف ، وليس كتعريف نطاق مسمى.|
+| name | str | عنوان النطاق. يتم استخدام هذا كواصف ، وليس كتعريف نطاق مسمى.|
 | start_row | int | فهرس صف البداية للنطاق.|
 | start_column | int | بدء فهرس العمود للنطاق.|
 | end_row | int | فهرس صف نهاية النطاق.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/es/python-net/aspose.cells.drawing/combobox) | Representa el formulario de control ComboBox.|
 | [CommentShape](/cells/es/python-net/aspose.cells.drawing/commentshape) | Representa la forma del comentario.|
 | [CustomGeometry](/cells/es/python-net/aspose.cells.drawing/customgeometry) | Representa una forma geométrica personalizada.|
-| [CustomXmlShape](/cells/es/python-net/aspose.cells.drawing/customxmlshape) | Representa formas xml personalizadas, como Ink.|
+| [CustomXmlShape](/cells/es/python-net/aspose.cells.drawing/customxmlshape) | Representa la forma xml personalizada, como la tinta.|
 | [DialogBox](/cells/es/python-net/aspose.cells.drawing/dialogbox) | Representa el cuadro de diálogo.|
 | [Fill](/cells/es/python-net/aspose.cells.drawing/fill) | Representa el formato de relleno de la forma.|
 | [FillFormat](/cells/es/python-net/aspose.cells.drawing/fillformat) | Encapsula el objeto que representa el formato de relleno de una forma.|
@@ -67,7 +67,7 @@ is_root: false
 | [ShapeCollection](/cells/es/python-net/aspose.cells.drawing/shapecollection) | Representa todas las formas en una hoja de cálculo/gráfico.|
 | [ShapeFormat](/cells/es/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/es/python-net/aspose.cells.drawing/shapeguide) | Encapsula una guía de forma especifica la presencia de una guía de forma que se utilizará para<br/> gobiernan la geometría de la forma especificada|
-| [ShapeGuideCollection](/cells/es/python-net/aspose.cells.drawing/shapeguidecollection) | Encapsula una colección de guías de forma|
+| [ShapeGuideCollection](/cells/es/python-net/aspose.cells.drawing/shapeguidecollection) | Encapsula una colección de guía de forma|
 | [ShapePath](/cells/es/python-net/aspose.cells.drawing/shapepath) | Representa un camino de creación que consta de una serie de movimientos, líneas y curvas que, al combinarse, formarán una forma geométrica.|
 | [ShapePathCollection](/cells/es/python-net/aspose.cells.drawing/shapepathcollection) | Representa información de recopilación de ruta en forma automática NotPrimitive|
 | [ShapePathPoint](/cells/es/python-net/aspose.cells.drawing/shapepathpoint) | Representa una coordenada xy dentro del espacio de coordenadas de la ruta.|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/es/python-net/aspose.cells.drawing/texteffectformat) | Contiene propiedades y métodos que se aplican a los objetos de WordArt.|
 | [TextureFill](/cells/es/python-net/aspose.cells.drawing/texturefill) | Encapsula el objeto que representa el formato de relleno de textura|
 | [ThreeDFormat](/cells/es/python-net/aspose.cells.drawing/threedformat) | Representa el formato tridimensional de una forma.|
-| [TilePicOption](/cells/es/python-net/aspose.cells.drawing/tilepicoption) | Representa imágenes de mosaicos como texturas.|
+| [TilePicOption](/cells/es/python-net/aspose.cells.drawing/tilepicoption) | Representa la imagen del mosaico como textura.|
 | [VmlShapeGuide](/cells/es/python-net/aspose.cells.drawing/vmlshapeguide) | solo para vml<br/> Encapsula una guía de forma especifica la presencia de una forma<br/> guía que se utilizará para gobernar la geometría de la forma especificada|
 | [WebExtensionShape](/cells/es/python-net/aspose.cells.drawing/webextensionshape) | Representa la forma de la extensión web.|
 
@@ -92,7 +92,7 @@ is_root: false
 ###  enumeraciones
 |Enumeración| Descripción|
 | :- | :- |
-| [AutoShapeType](/cells/es/python-net/aspose.cells.drawing/autoshapetype) | Representa todos los tipos de formas automáticas integrados.|
+| [AutoShapeType](/cells/es/python-net/aspose.cells.drawing/autoshapetype) | Representa todo el tipo de forma automática integrado.|
 | [BevelPresetType](/cells/es/python-net/aspose.cells.drawing/bevelpresettype) | Representa un ajuste preestablecido para un tipo de bisel que se puede aplicar a una forma en 3D.|
 | [BevelType](/cells/es/python-net/aspose.cells.drawing/beveltype) | Representa un ajuste preestablecido para un tipo de bisel que se puede aplicar a una forma en 3D.|
 | [CheckValueType](/cells/es/python-net/aspose.cells.drawing/checkvaluetype) | Representa el tipo de valor de verificación de la casilla de verificación.|
@@ -103,7 +103,7 @@ is_root: false
 | [FormatSetType](/cells/es/python-net/aspose.cells.drawing/formatsettype) | Tipo de conjunto de formato de relleno.|
 | [GradientColorType](/cells/es/python-net/aspose.cells.drawing/gradientcolortype) | Representa el tipo de color de degradado para el relleno especificado.|
 | [GradientDirectionType](/cells/es/python-net/aspose.cells.drawing/gradientdirectiontype) | Representa todos los tipos de dirección de gradiente.|
-| [GradientFillType](/cells/es/python-net/aspose.cells.drawing/gradientfilltype) |Representa todos los tipos de relleno degradado.|
+| [GradientFillType](/cells/es/python-net/aspose.cells.drawing/gradientfilltype) |Representa todos los tipos de relleno de degradado.|
 | [GradientPresetType](/cells/es/python-net/aspose.cells.drawing/gradientpresettype) | Representa el tipo de color predeterminado de degradado.|
 | [GradientStyleType](/cells/es/python-net/aspose.cells.drawing/gradientstyletype) | Representa el estilo de sombreado degradado.|
 | [ImageType](/cells/es/python-net/aspose.cells.drawing/imagetype) | Especifica el tipo (formato) de una imagen.|

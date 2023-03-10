@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraphCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection clase
-Representa todos los párrafos de texto.
+Representa todo el párrafo de texto.
 
 
 

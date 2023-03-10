@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد WeightType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | HAIR_LINE | يمثل وزن خط الشعر.|
 | MEDIUM_LINE | يمثل وزن الخط المتوسط.|
-| SINGLE_LINE | يمثل وزن سطر واحد.|
+| SINGLE_LINE | يمثل وزن الخط الفردي.|
 | WIDE_LINE | يمثل وزن الخط العريض.|
 
 

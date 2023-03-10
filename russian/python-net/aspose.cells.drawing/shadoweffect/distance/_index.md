@@ -1,4 +1,4 @@
-﻿---
+---
 title: distance недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  distance недвижимость
 
-Получает и задает номер тени distance. Диапазон значений от 0 до 200.
+Получает и задает distance тени. Диапазон от 0 до 200 баллов.
 ###  Определение:
 ```python
 @property

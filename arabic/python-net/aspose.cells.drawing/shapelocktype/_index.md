@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ShapeLockType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | GROUP | مجموعة|
-| ADJUST_HANDLES | ضبط المقابض|
+| ADJUST_HANDLES | اضبط المقابض|
 | TEXT | نص|
 | POINTS | نقاط|
 | CROP |اقتصاص|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: next_row yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Kaydedilecek bir sonraki satırı alır.
 
 ###  İadeler
 
--1, geçerli sayfa verilerinin sonuna ulaşıldığı ve kaydedilecek başka geçerli sayfa satırı olmadığı anlamına gelir.
+kaydedilecek bir sonraki satır dizini. -1, geçerli sayfa verilerinin sonuna ulaşıldığı ve kaydedilecek başka geçerli sayfa satırı olmadığı anlamına gelir.
 
 
 ```python

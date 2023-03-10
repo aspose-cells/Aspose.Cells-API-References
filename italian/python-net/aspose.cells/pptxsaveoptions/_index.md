@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PptxSaveOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -37,9 +37,9 @@ Il tipo PptxSaveOptions espone i membri seguenti:
 | [merge_areas](/cells/it/python-net/aspose.cells/pptxsaveoptions/merge_areas) | Indica se unire le aree di formattazione condizionale e convalida prima di salvare il file.|
 | [create_directory](/cells/it/python-net/aspose.cells/pptxsaveoptions/create_directory) | Se true e la directory non esiste, la directory verrà creata automaticamente prima di salvare il file.|
 | [sort_names](/cells/it/python-net/aspose.cells/pptxsaveoptions/sort_names) | Indica se ordinare i nomi definiti prima di salvare il file.|
-| [sort_external_names](/cells/it/python-net/aspose.cells/pptxsaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esternamente prima di salvare il file.|
+| [sort_external_names](/cells/it/python-net/aspose.cells/pptxsaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esterni prima di salvare il file.|
 | [refresh_chart_cache](/cells/it/python-net/aspose.cells/pptxsaveoptions/refresh_chart_cache) | Indica se aggiornare i dati della cache del grafico|
-| [warning_callback](/cells/it/python-net/aspose.cells/pptxsaveoptions/warning_callback) | Ottiene o imposta callback di avviso.|
+| [warning_callback](/cells/it/python-net/aspose.cells/pptxsaveoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
 | [update_smart_art](/cells/it/python-net/aspose.cells/pptxsaveoptions/update_smart_art) | Indica se aggiornare l'impostazione della grafica intelligente.<br/> Il valore predefinito è falso.|
 | [default_font](/cells/it/python-net/aspose.cells/pptxsaveoptions/default_font) | Quando i caratteri in Excel sono Unicode e non devono essere impostati con il carattere corretto nello stile della cella,<br/>Possono apparire come blocco in pdf, immagine.<br/>Imposta il DefaultFont come MingLiu o MS Gothic per mostrare questi caratteri.<br/> Se questa proprietà non è impostata, Aspose.Cells utilizzerà il carattere predefinito del sistema per mostrare questi caratteri Unicode.|
 | [check_workbook_default_font](/cells/it/python-net/aspose.cells/pptxsaveoptions/check_workbook_default_font) | Quando i caratteri in Excel sono Unicode e non devono essere impostati con il carattere corretto nello stile della cella,<br/>Possono apparire come blocco in pdf, immagine.<br/> Imposta questo su true per provare a utilizzare il carattere predefinito della cartella di lavoro per mostrare prima questi caratteri.|

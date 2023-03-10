@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_justify_distributed proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

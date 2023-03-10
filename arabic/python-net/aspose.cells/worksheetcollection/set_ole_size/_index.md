@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_ole_size
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_ole_size(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | end_row | int | فهرس صف النهاية.|

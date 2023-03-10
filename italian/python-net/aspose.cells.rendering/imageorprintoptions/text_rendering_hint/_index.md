@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_rendering_hint proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

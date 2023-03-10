@@ -1,4 +1,4 @@
-﻿---
+---
 title: comment_shape mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen yoruma eklenen şekli temsil eden bir Shape nesnesi alın.
 
-###  örnekler
+###  Örnek
 
 ```python
 

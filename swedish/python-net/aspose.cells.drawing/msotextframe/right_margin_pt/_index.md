@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_margin_pt fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_pt fastighet
 
-Returnerar högermarginalen i enheter av poäng
+Returnerar högermarginalen i poängenhet
 ###  Definition:
 ```python
 @property

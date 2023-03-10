@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarkdownSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-İşaretleme belgelerini kaydetmek için seçenekler oluşturur
+İşaretleme belgesini kaydetmek için seçenekler oluşturur
 
 
 

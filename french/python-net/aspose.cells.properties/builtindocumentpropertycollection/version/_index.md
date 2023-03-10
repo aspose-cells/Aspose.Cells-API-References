@@ -1,4 +1,4 @@
-﻿---
+---
 title: version propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Représente le numéro version de l'application qui a créé le document.
 
 ###  Remarques
 
-Son format est "00.0000", par exemple : 12.0000
+Son format est "00.0000", par exemple : 12.0000
 ###  Définition:
 ```python
 @property

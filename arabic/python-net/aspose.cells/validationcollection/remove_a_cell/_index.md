@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_a_cell
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/validationcollection/remove_a_cell/
 is_root: false
 ---
 ##  remove_a_cell(row, column) {#int-int}
-يزيل كافة إعدادات التحقق من صحة الخلية.
+يزيل كل إعدادات التحقق من صحة الخلية.
 
 
 
@@ -18,7 +18,7 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس صف الخلية.|
 | column | int | فهرس العمود للخلية.|

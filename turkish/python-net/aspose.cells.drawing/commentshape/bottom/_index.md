@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin alt bottom köşe satırından dikey uzaklığının genişliğini piksel birimi cinsinden temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

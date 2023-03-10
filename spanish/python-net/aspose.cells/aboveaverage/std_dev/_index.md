@@ -1,4 +1,4 @@
-﻿---
+---
 title: std_dev propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  std_dev propiedad
 
 Obtener o establecer el número de desviaciones estándar para incluir por encima o por debajo del promedio en el
- Regla de formato condicional.
+ regla de formato condicional.
  El valor de entrada debe estar entre 0 y 3 (incluye 0 y 3).
 Establecer este valor en 0 significa que stdDev no está establecido.
 El valor predeterminado es 0.

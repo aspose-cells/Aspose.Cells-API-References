@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientDirectionType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | FROM_UPPER_LEFT_CORNER | из верхнего левого угла|
-| FROM_UPPER_RIGHT_CORNER | Из верхнего правого угла|
+| FROM_UPPER_RIGHT_CORNER | FromUpperRightCorner|
 | FROM_LOWER_LEFT_CORNER | из нижнего левого угла|
 | FROM_LOWER_RIGHT_CORNER | из нижнего правого угла|
 | FROM_CENTER | Из центра|

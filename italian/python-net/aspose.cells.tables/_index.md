@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.tables
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ is_root: false
 | Classe| Descrizione|
 | :- | :- |
 | [ListColumn](/cells/it/python-net/aspose.cells.tables/listcolumn) | Rappresenta una colonna in un elenco.|
-| [ListColumnCollection](/cells/it/python-net/aspose.cells.tables/listcolumncollection) | Rappresenta una raccolta di tutti gli oggetti [ListColumn](/cells/it/python-net/aspose.cells.tables/listcolumn) nell'oggetto ListObject specificato.|
+| [ListColumnCollection](/cells/it/python-net/aspose.cells.tables/listcolumncollection) | Rappresenta Una raccolta di tutti gli oggetti [ListColumn](/cells/it/python-net/aspose.cells.tables/listcolumn) nell'oggetto ListObject specificato.|
 | [ListObject](/cells/it/python-net/aspose.cells.tables/listobject) | Rappresenta un oggetto elenco in un foglio di lavoro.<br/> L'oggetto ListObject è un membro della raccolta ListObjects.<br/> La raccolta ListObjects contiene tutti gli oggetti elenco in un foglio di lavoro.|
 | [ListObjectCollection](/cells/it/python-net/aspose.cells.tables/listobjectcollection) | Rappresenta una raccolta di [ListObject](/cells/it/python-net/aspose.cells.tables/listobject) oggetti nel foglio di lavoro.|
 | [TableStyle](/cells/it/python-net/aspose.cells.tables/tablestyle) | Rappresenta lo stile della tabella.|

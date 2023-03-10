@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width mülk
 
-Çalışma sayfasındaki varsayılan sütun genişliğini karakter birimleri cinsinden alır veya ayarlar.
+Çalışma sayfasındaki varsayılan sütun genişliğini karakter birimi cinsinden alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

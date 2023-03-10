@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ChartPointCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,7 +17,7 @@ Il tipo ChartPointCollection espone i membri seguenti:
 ###  Proprietà
 | Proprietà| Descrizione|
 | :- | :- |
-| [count](/cells/it/python-net/aspose.cells.charts/chartpointcollection/count) | Ottiene il conteggio dei punti del grafico.|
+| [count](/cells/it/python-net/aspose.cells.charts/chartpointcollection/count) | Ottiene il conteggio del punto del grafico.|
 
 
 
@@ -25,7 +25,7 @@ Ottiene l'elemento [ChartPoint](/cells/it/python-net/aspose.cells.charts/chartpo
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| [index] | L'indice dei punti del grafico nella serie.|
+| [index] | L'indice del punto grafico nella serie.|
 
 
 ###  Metodi
@@ -37,7 +37,7 @@ Ottiene l'elemento [ChartPoint](/cells/it/python-net/aspose.cells.charts/chartpo
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

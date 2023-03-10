@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_area الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-إذا لم تكن هذه منطقة ، فقط تأثيرات StartRow و StartColumn.
+إذا لم تكن هذه منطقة ، فقط تأثير StartRow و StartColumn.
 ###  تعريف:
 ```python
 @property

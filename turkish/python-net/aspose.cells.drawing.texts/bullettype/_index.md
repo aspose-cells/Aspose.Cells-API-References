@@ -1,4 +1,4 @@
-﻿---
+---
 title: BulletType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,7 +20,7 @@ BulletType türü aşağıdaki üyeleri gösterir:
 | NONE | Kurşun yok.|
 | CHARACTER | Karakter mermisi.|
 | PICTURE | Resim mermisi.|
-| AUTO_NUMBERED | Otomatik numaralı madde işaretleri.|
+| AUTO_NUMBERED | Otomatik numaralı madde işareti.|
 
 
 

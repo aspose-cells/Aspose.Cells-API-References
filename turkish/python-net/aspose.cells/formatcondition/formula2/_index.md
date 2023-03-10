@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula2 mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Koşullu biçimlendirmeyle ilişkili değeri veya ifadeyi alır ve ayarlar.
 
 Formülü ayarlamadan önce lütfen tüm alanları ekleyin.
 Bu koşul için formül ayarlamak için, giriş değeri '=' ile başlıyorsa formül olarak alınacaktır.
-Aksi takdirde düz değer(metin, sayı, bool) olarak alınacaktır.'=' ile başlayan metin değeri için kullanıcı bunu "=\"=...\"" formatında formül olarak girebilir.
+Aksi takdirde düz değer(metin, sayı, bool) olarak alınacaktır. '=' ile başlayan metin değeri için, kullanıcı bunu şu biçimde formül olarak girebilir: "=\"=...\"".
 ###  Tanım:
 ```python
 @property

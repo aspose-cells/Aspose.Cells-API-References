@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة update_column_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,7 +20,7 @@ def update_column_name(self):
 
 ###  ملاحظات
 
-يجب أن تكون قيمة الخلايا في صف الرأس للجدول هي نفسها اسم ListColumn ؛
+يجب أن تكون قيمة الخلايا الموجودة في صف الرأس للجدول مماثلة لاسم ListColumn ؛
 Cell.PutValue لا تقوم بتعديل تلقائي لاسم ListColumn للأداء.
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeGuide klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,7 +23,7 @@ Typen ShapeGuide avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [value](/cells/sv/python-net/aspose.cells.drawing/shapeguide/value) | Hämtar eller ställer in värden för denna guide|
+| [value](/cells/sv/python-net/aspose.cells.drawing/shapeguide/value) | Hämtar eller sätter värdet på den här guiden|
 
 
 

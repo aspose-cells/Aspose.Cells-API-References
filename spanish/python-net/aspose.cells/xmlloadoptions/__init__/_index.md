@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlLoadOptions constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,7 +31,7 @@ def __init__(self, type):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [LoadFormat](/cells/es/python-net/aspose.cells/loadformat) | El tipo de formato de carga.|
 

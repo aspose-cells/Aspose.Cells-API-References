@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_formula fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_formula fastighet
 
-Anger om formeln exporteras när filen sparas till html.
+Anger om formeln exporteras när filen sparas till html. Standardvärdet är sant.
 Om du vill importera utdata-html till excel, behåll standardvärdet.
 ###  Definition:
 ```python

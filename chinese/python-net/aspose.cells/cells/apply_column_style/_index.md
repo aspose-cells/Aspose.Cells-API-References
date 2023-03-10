@@ -1,6 +1,6 @@
-﻿---
+---
 title: apply_column_style方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -18,7 +18,7 @@ def apply_column_style(self, column, style, flag):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | column | int |列索引。|
 | style | [Style](/cells/zh/python-net/aspose.cells/style) |将应用的样式对象。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_width_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  original_width_inch fastighet
 
-Får bildens ursprungliga bredd, i enheter av tum.
+Får bildens ursprungliga bredd, i enhet av tum.
 
 ###  Exempel
 

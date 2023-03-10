@@ -1,4 +1,4 @@
-﻿---
+---
 title: OoxmlSaveOptions clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -36,16 +36,16 @@ El tipo OoxmlSaveOptions expone los siguientes miembros:
 | [merge_areas](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/merge_areas) | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo.|
 | [create_directory](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/create_directory) | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo.|
 | [sort_names](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/sort_names) | Indica si ordenar los nombres definidos antes de guardar el archivo.|
-| [sort_external_names](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externamente antes de guardar el archivo.|
+| [sort_external_names](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externos antes de guardar el archivo.|
 | [refresh_chart_cache](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/refresh_chart_cache) | Indica si se actualizan los datos de la memoria caché del gráfico|
-| [warning_callback](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
+| [warning_callback](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
 | [update_smart_art](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/update_smart_art) | Indica si se está actualizando la configuración de arte inteligente.<br/> El valor predeterminado es falso.|
-| [export_cell_name](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/export_cell_name) | Indica si se exporta el nombre de la celda a un archivo Excel2007 .xlsx (.xlsm, .xltx, .xltm).<br/>Si SQL Server DTS puede acceder al archivo de salida, este valor debe ser verdadero.<br/>Establecer el valor en falso aumentará considerablemente el rendimiento y reducirá el tamaño del archivo al crear archivos grandes.<br/> El valor predeterminado es verdadero.|
-| [light_cells_data_provider](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/light_cells_data_provider) | El proveedor de datos para proporcionar datos de celdas para guardar libros de trabajo en modo ligero.|
+| [export_cell_name](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/export_cell_name) | Indica si se exporta el nombre de la celda a un archivo Excel2007 .xlsx (.xlsm, .xltx, .xltm).<br/>Si SQL Server DTS puede acceder al archivo de salida, este valor debe ser verdadero.<br/>Establecer el valor en falso aumentará en gran medida el rendimiento y reducirá el tamaño del archivo al crear un archivo grande.<br/> El valor predeterminado es verdadero.|
+| [light_cells_data_provider](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/light_cells_data_provider) | El proveedor de datos para proporcionar datos de celdas para guardar el libro de trabajo en modo ligero.|
 | [update_zoom](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/update_zoom) | Indica si actualizar el factor de escala antes de guardar el archivo<br/> si las propiedades PageSetup.FitToPagesWide y PageSetup.FitToPagesTall controlan cómo se escala la hoja de cálculo.|
 | [enable_zip64](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/enable_zip64) | Siempre use extensiones ZIP64 cuando escriba archivos zip, incluso cuando no sea necesario.|
 | [embed_ooxml_as_ole_object](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/embed_ooxml_as_ole_object) | Indica si se incrustan archivos Ooxml de OleObject como objeto ole.|
-| [compression_type](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/compression_type) | Obtiene y establece el tipo de compresión de los archivos ooxml.|
+| [compression_type](/cells/es/python-net/aspose.cells/ooxmlsaveoptions/compression_type) | Obtiene y establece el tipo de compresión para el archivo ooxml.|
 
 
 

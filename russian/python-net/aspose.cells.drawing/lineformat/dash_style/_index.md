@@ -1,4 +1,4 @@
-﻿---
+---
 title: dash_style недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Определяет тип пунктира линии.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

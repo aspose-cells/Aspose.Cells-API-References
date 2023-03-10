@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_precedents metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,16 +24,16 @@ def get_precedents(self):
 
 ###  Anmärkningar
 
-* Returnerar null om detta inte är en formelcell. Alla referenser som visas i denna cells formel kommer att returneras oavsett om de refereras till eller inte under beräkningen.
+* Returnerar null om detta inte är en formelcell. Alla referenser som visas i den här cellens formel kommer att returneras oavsett om de refereras till eller inte under beräkningen.
 
 Till exempel, även om cell A2 i formeln "=OM(TRUE,A1,A2)" inte används vid beräkning,
 det tas fortfarande som formelns prejudikat. För att få de referenser som endast påverkar beräkningen, använd [Cell.get_precedents_in_calculation()](/cells/sv/python-net/aspose.cells/cell/get_precedents_in_calculation).
 
-* Returnerar null om detta inte är en formelcell. Alla referenser som visas i denna cells formel kommer att returneras oavsett om de refereras till eller inte under beräkningen.
+* Returnerar null om detta inte är en formelcell. Alla referenser som visas i den här cellens formel kommer att returneras oavsett om de refereras till eller inte under beräkningen.
 Till exempel, även om cell A2 i formeln "=OM(TRUE,A1,A2)" inte används vid beräkning,
 det tas fortfarande som formelns prejudikat. För att få de referenser som endast påverkar beräkningen, använd [Cell.get_precedents_in_calculation()](/cells/sv/python-net/aspose.cells/cell/get_precedents_in_calculation).
 
-* Returnerar null om detta inte är en formelcell. Alla referenser som visas i denna cells formel kommer att returneras oavsett om de refereras till eller inte under beräkningen.
+* Returnerar null om detta inte är en formelcell. Alla referenser som visas i den här cellens formel kommer att returneras oavsett om de refereras till eller inte under beräkningen.
 Till exempel, även om cell A2 i formeln "=OM(TRUE,A1,A2)" inte används vid beräkning,
 det tas fortfarande som formelns prejudikat. För att få de referenser som endast påverkar beräkningen, använd [Cell.get_precedents_in_calculation()](/cells/sv/python-net/aspose.cells/cell/get_precedents_in_calculation).
 ###  Exempel

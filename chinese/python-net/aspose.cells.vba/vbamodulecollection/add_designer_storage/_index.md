@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_designer_storage方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -18,7 +18,7 @@ def add_designer_storage(self, name, data):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |  |
 | data | bytes |  |

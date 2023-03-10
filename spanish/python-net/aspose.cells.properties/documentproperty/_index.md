@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocumentProperty clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,7 +31,7 @@ El tipo DocumentProperty expone los siguientes miembros:
 | [to_int()](/cells/es/python-net/aspose.cells.properties/documentproperty/to_int/#) | Devuelve el valor de la propiedad como un entero.|
 | [to_double()](/cells/es/python-net/aspose.cells.properties/documentproperty/to_double/#) |Devuelve el valor de la propiedad como doble.|
 | [to_date_time()](/cells/es/python-net/aspose.cells.properties/documentproperty/to_date_time/#) | Devuelve el valor de la propiedad como DateTime en la zona horaria local.|
-| [to_bool()](/cells/es/python-net/aspose.cells.properties/documentproperty/to_bool/#) | Devuelve el valor de la propiedad como un bool.|
+| [to_bool()](/cells/es/python-net/aspose.cells.properties/documentproperty/to_bool/#) | Devuelve el valor de la propiedad como bool.|
 
 
 

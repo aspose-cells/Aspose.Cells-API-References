@@ -1,4 +1,4 @@
-﻿---
+---
 title: shadow_effect الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل عنصر [ShadowEffect](/cells/ar/python-net/aspose.cells.drawing/shadoweffect) يحدد تأثير الظل لعنصر المخطط أو شكله.
 
-###  أمثلة
+###  مثال
 
 ```python
 

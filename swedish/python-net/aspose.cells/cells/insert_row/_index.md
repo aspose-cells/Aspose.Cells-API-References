@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_row metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def insert_row(self, row_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 

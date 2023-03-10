@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache mülk
 
-Dilimleyiciyle ilişkili SlicerCache nesnesini döndürür.
+Dilimleyiciyle ilişkili SlicerCache nesnesini döndürür. Sadece oku.
 
-###  örnekler
+###  Örnek
 
 ```python
 

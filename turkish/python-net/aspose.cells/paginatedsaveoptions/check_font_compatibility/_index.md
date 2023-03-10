@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_font_compatibility mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ Varsayılan değer doğrudur.
 Bu özelliği devre dışı bırakmak daha iyi performans sağlayabilir.
 Ancak varsayılan veya belirtilen metin/karakter yazı tipi onu oluşturmak için kullanılamıyorsa,
 oluşturulan pdf'de okunamayan karakterler (blok gibi) oluşabilir.
-Bu tür durumlar için kullanıcı bu özelliği true olarak tutmalıdır, böylece
+Böyle bir durum için kullanıcı bu özelliği true olarak tutmalıdır, böylece
 bunun yerine metni oluşturmak için alternatif yazı tipi aranabilir ve kullanılabilir;
 ###  Tanım:
 ```python

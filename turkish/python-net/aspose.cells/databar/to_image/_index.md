@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | cell | [Cell](/cells/tr/python-net/aspose.cells/cell) | Hangi hücrede oluşturulacağını veri çubuğunu belirtin|
 | img_opts | aspose.cells.rendering.ImageOrPrintOptions | ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|

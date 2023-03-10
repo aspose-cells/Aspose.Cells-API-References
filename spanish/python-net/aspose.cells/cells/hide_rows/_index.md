@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_rows método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def hide_rows(self, row, total_rows):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | El índice de fila.|
 | total_rows | int | El número de fila.|

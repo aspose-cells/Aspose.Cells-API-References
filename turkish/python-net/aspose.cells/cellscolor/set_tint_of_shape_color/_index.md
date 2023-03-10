@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_tint_of_shape_color yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_tint_of_shape_color(self, tint):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | tint | float |  |
 

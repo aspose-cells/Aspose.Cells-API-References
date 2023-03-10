@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_sorting_allowed недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,8 +13,8 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Этот элемент устарел.
- Используйте свойство Protection.AllowSorting.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ используйте свойство Protection.AllowSorting.
  Это свойство будет удалено через 12 месяцев, начиная с июня 2010 года.
 Aspose приносит извинения за возможные неудобства.
 ###  Определение:

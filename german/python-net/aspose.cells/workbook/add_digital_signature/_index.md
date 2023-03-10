@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_digital_signature Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

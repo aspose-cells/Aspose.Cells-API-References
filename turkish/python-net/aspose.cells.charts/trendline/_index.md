@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trendline sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -51,15 +51,15 @@ Trendline türü aşağıdaki üyeleri gösterir:
 | [period](/cells/tr/python-net/aspose.cells.charts/trendline/period) | Hareketli ortalama eğilim çizgisi için süreyi döndürür veya ayarlar.|
 | [forward](/cells/tr/python-net/aspose.cells.charts/trendline/forward) | Eğilim çizgisinin ileriye doğru uzandığı dönemlerin (veya bir dağılım grafiğindeki birimlerin) sayısını döndürür veya ayarlar.<br/> Nokta sayısı sıfırdan büyük veya sıfıra eşit olmalıdır.|
 | [backward](/cells/tr/python-net/aspose.cells.charts/trendline/backward) | Eğilim çizgisinin geriye doğru uzandığı dönemlerin (veya bir dağılım grafiğindeki birimlerin) sayısını döndürür veya ayarlar.<br/>Nokta sayısı sıfırdan büyük veya sıfıra eşit olmalıdır.<br/> Grafik türü sütun ise, nokta sayısı 0 ile 0,5 arasında olmalıdır.|
-| [display_equation](/cells/tr/python-net/aspose.cells.charts/trendline/display_equation) |Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde).|
-| [display_r_squared](/cells/tr/python-net/aspose.cells.charts/trendline/display_r_squared) | Eğilim çizgisinin R-kare değerinin grafikte görüntülenip görüntülenmediğini temsil eder (denklemle aynı veri etiketinde).Bu özelliğin Doğru olarak ayarlanması, veri etiketlerini otomatik olarak açar.|
+| [display_equation](/cells/tr/python-net/aspose.cells.charts/trendline/display_equation) |Eğilim çizgisi denkleminin grafikte gösterilip gösterilmediğini temsil eder (R-kare değeriyle aynı veri etiketinde). Bu özelliği True olarak ayarlamak veri etiketlerini otomatik olarak açar.|
+| [display_r_squared](/cells/tr/python-net/aspose.cells.charts/trendline/display_r_squared) | Eğilim çizgisinin R-kare değerinin grafikte gösterilip gösterilmediğini temsil eder (denklemle aynı veri etiketinde). Bu özelliği True olarak ayarlamak veri etiketlerini otomatik olarak açar.|
 | [intercept](/cells/tr/python-net/aspose.cells.charts/trendline/intercept) | Eğilim çizgisinin değer eksenini kestiği noktayı döndürür veya ayarlar.|
 | [data_labels](/cells/tr/python-net/aspose.cells.charts/trendline/data_labels) | Belirtilen seri için DataLabels nesnesini temsil eder.|
 | [legend_entry](/cells/tr/python-net/aspose.cells.charts/trendline/legend_entry) | Bu trend çizgisine göre gösterge girişini alır|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

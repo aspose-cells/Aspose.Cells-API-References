@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBar klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  DataBar klass
  Beskriv DataBar villkorlig formateringsregel.
-Denna regel för villkorlig formatering visar ett betyg
+Denna regel för villkorlig formatering visar en graderad
 datafältet i cellintervallet.
 
 
@@ -27,16 +27,16 @@ Typen DataBar avslöjar följande medlemmar:
 | [negative_bar_format](/cells/sv/python-net/aspose.cells/databar/negative_bar_format) | Hämtar NegativeBarFormat-objektet som är kopplat till en regel för villkorlig formatering av datafält.|
 | [min_cfvo](/cells/sv/python-net/aspose.cells/databar/min_cfvo) | Hämta eller ställ in denna DataBars minvärdeobjekt.<br/> Det går inte att ställa in null eller CFValueObject med typen FormatConditionValueType.Max.|
 | [max_cfvo](/cells/sv/python-net/aspose.cells/databar/max_cfvo) | Hämta eller ställ in denna DataBars maxvärdeobjekt.<br/> Det går inte att ställa in null eller CFValueObject med typen FormatConditionValueType.Min.|
-| [color](/cells/sv/python-net/aspose.cells/databar/color) | Hämta eller ställ in denna DataBars färg.|
+| [color](/cells/sv/python-net/aspose.cells/databar/color) | Skaffa eller ställ in denna DataBars färg.|
 | [min_length](/cells/sv/python-net/aspose.cells/databar/min_length) | Representerar den minsta längden på datafältet.|
 | [max_length](/cells/sv/python-net/aspose.cells/databar/max_length) | Representerar den maximala längden på datafältet.|
-| [show_value](/cells/sv/python-net/aspose.cells/databar/show_value) | Hämta eller ställ in flaggan som anger om värdena för cellerna ska visas på vilka denna datafält används.<br/> Standardvärdet är sant.|
+| [show_value](/cells/sv/python-net/aspose.cells/databar/show_value) | Hämta eller ställ in flaggan som indikerar om värdena för cellerna som denna datafält används på ska visas.<br/> Standardvärdet är sant.|
 
 
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [to_image(cell, img_opts)](/cells/sv/python-net/aspose.cells/databar/to_image/#Cell-aspose.cells.rendering.ImageOrPrintOptions) | Rendera datafält i cell till bildbyte-array.|
+| [to_image(cell, img_opts)](/cells/sv/python-net/aspose.cells/databar/to_image/#Cell-aspose.cells.rendering.ImageOrPrintOptions) | Rendera datafältet i cell till bildbyte-array.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo intersect
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,13 +22,13 @@ def intersect(self, range):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [Range](/cells/it/python-net/aspose.cells/range) | La gamma intersecante.|
 ###  Osservazioni
 
 Se i due intervalli non sono intersecati, restituisce null.
-###  Esempi
+###  Esempio
 
 
 ```python

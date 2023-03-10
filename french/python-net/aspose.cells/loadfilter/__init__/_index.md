@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadFilter constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,7 +31,7 @@ def __init__(self, opts):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | opts | [LoadDataFilterOptions](/cells/fr/python-net/aspose.cells/loaddatafilteroptions) | les options de filtre par défaut|
 

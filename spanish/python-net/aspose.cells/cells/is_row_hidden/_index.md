@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_row_hidden método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def is_row_hidden(self, row_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | índice de fila|
 

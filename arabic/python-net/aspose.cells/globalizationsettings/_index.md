@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlobalizationSettings الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -48,7 +48,7 @@ is_root: false
 | [get_table_row_type_of_headers()](/cells/ar/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_headers/#) | الحصول على اسم نوع صفوف الجدول الذي يتكون من رأس الجدول.<br/> الافتراضي هو "رؤوس" ، لذلك في الصيغة "#Headers" يمثل رأس الجدول.|
 | [get_table_row_type_of_data()](/cells/ar/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_data/#) | الحصول على اسم نوع صفوف الجدول التي تتكون من منطقة البيانات للجدول المرجعي.<br/> الافتراضي هو "البيانات" ، لذلك في الصيغة "#Data" تمثل منطقة البيانات في الجدول.|
 | [get_table_row_type_of_all()](/cells/ar/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_all/#) | الحصول على اسم نوع صفوف الجدول الذي يتكون من كافة الصفوف في الجدول المرجعي.<br/>الإعداد الافتراضي هو "الكل" ، لذلك في الصيغة "#All" يمثل جميع الصفوف في الجدول المشار إليه.|
-| [get_table_row_type_of_totals()](/cells/ar/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | الحصول على اسم نوع صفوف الجدول التي تتكون من الصف الإجمالي للجدول المشار إليه.<br/> الافتراضي هو "الإجماليات" ، لذلك في الصيغة "#Totals" تمثل الصف الإجمالي للجدول المشار إليه.|
+| [get_table_row_type_of_totals()](/cells/ar/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | الحصول على اسم نوع صفوف الجدول الذي يتكون من الصف الإجمالي للجدول المشار إليه.<br/> الافتراضي هو "الإجماليات" ، لذلك في الصيغة "#Totals" تمثل الصف الإجمالي للجدول المشار إليه.|
 | [get_table_row_type_of_current()](/cells/ar/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_current/#) | الحصول على اسم نوع صفوف الجدول التي تتكون من الصف الحالي في الجدول المرجعي.<br/> الافتراضي هو "هذا الصف" ، لذلك في الصيغة "# هذا الصف" يمثل الصف الحالي في الجدول المشار إليه.|
 | [get_error_value_string(err)](/cells/ar/python-net/aspose.cells/globalizationsettings/get_error_value_string/#str) | الحصول على قيمة سلسلة العرض لقيمة خطأ الخلية|
 | [get_boolean_value_string(bv)](/cells/ar/python-net/aspose.cells/globalizationsettings/get_boolean_value_string/#bool) | الحصول على قيمة سلسلة العرض للقيمة المنطقية للخلية|

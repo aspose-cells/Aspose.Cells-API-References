@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة export_xml
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,12 +18,12 @@ def export_xml(self, map_name, path):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | map_name | str | اسم مخطط XML المطلوب تصديره|
 | path | str | مسار التصدير|
 
-###  أمثلة
+###  مثال
 
 قام الكود التالي بتصدير البيانات المرتبطة بأول XmlMap.
 
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | map_name | str | اسم مخطط XML المطلوب تصديره|
 | stream | io.RawIOBase | تيار التصدير|

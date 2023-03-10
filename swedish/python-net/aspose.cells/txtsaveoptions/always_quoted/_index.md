@@ -1,4 +1,4 @@
-﻿---
+---
 title: always_quoted fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Standard är falskt.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
 använd QuoteType-egenskapen istället.
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2012.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

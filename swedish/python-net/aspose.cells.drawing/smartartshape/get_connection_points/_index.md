@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_connection_points metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

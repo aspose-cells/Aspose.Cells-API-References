@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_area mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bunun bir alan olup olmadığını gösterir.
 
 ###  Notlar
 
-Bu bir alan değilse, yalnızca StartRow ve StartColumn efektleri.
+Bu bir alan değilse, yalnızca StartRow ve StartColumn efekti.
 ###  Tanım:
 ```python
 @property

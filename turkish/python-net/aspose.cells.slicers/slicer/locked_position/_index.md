@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_position mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen dilimleyicinin kullanıcı arabirimi kullanılarak taşınabileceğini veya yeniden boyutlandırılabileceğini gösterir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

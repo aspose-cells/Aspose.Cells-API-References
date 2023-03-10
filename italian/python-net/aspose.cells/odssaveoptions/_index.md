@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe OdsSaveOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -36,12 +36,12 @@ Il tipo OdsSaveOptions espone i membri seguenti:
 | [merge_areas](/cells/it/python-net/aspose.cells/odssaveoptions/merge_areas) | Indica se unire le aree di formattazione condizionale e convalida prima di salvare il file.|
 | [create_directory](/cells/it/python-net/aspose.cells/odssaveoptions/create_directory) | Se true e la directory non esiste, la directory verrà creata automaticamente prima di salvare il file.|
 | [sort_names](/cells/it/python-net/aspose.cells/odssaveoptions/sort_names) | Indica se ordinare i nomi definiti prima di salvare il file.|
-| [sort_external_names](/cells/it/python-net/aspose.cells/odssaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esternamente prima di salvare il file.|
+| [sort_external_names](/cells/it/python-net/aspose.cells/odssaveoptions/sort_external_names) |Indica se ordinare i nomi definiti esterni prima di salvare il file.|
 | [refresh_chart_cache](/cells/it/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) | Indica se aggiornare i dati della cache del grafico|
-| [warning_callback](/cells/it/python-net/aspose.cells/odssaveoptions/warning_callback) | Ottiene o imposta callback di avviso.|
+| [warning_callback](/cells/it/python-net/aspose.cells/odssaveoptions/warning_callback) | Ottiene o imposta la richiamata di avviso.|
 | [update_smart_art](/cells/it/python-net/aspose.cells/odssaveoptions/update_smart_art) | Indica se aggiornare l'impostazione della grafica intelligente.<br/> Il valore predefinito è falso.|
 | [generator_type](/cells/it/python-net/aspose.cells/odssaveoptions/generator_type) | Ottiene e imposta il generatore del file ods.|
-| [is_strict_schema11](/cells/it/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Indica se il file ods deve essere salvato in formato ODF versione 1.1. Il valore predefinito è false.|
+| [is_strict_schema11](/cells/it/python-net/aspose.cells/odssaveoptions/is_strict_schema11) | Indica se il file ods deve essere salvato in formato ODF versione 1.1. L'impostazione predefinita è false.|
 
 
 

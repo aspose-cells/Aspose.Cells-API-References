@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_set Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  sheet_set Eigentum
 
-Ruft die zu rendernden Blätter ab oder legt sie fest. Standardmäßig sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).
+Ruft die zu rendernden Blätter ab oder legt diese fest. Standard sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  Beispiele
+###  Beispiel
 
-Der folgende Code rendert nur aktive Blätter in PDF.
+Der folgende Code rendert nur das aktive Blatt in PDF.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

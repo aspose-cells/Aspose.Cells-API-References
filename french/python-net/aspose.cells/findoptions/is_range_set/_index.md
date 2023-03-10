@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_range_set propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

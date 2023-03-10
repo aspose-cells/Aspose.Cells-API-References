@@ -1,4 +1,4 @@
-﻿---
+---
 title: binary_search Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [Chart](/cells/de/python-net/aspose.cells.charts/chart) | Das zu lokalisierende System.Objekt.|
+| item | [Chart](/cells/de/python-net/aspose.cells.charts/chart) | Das zu suchende System.Object. Der Wert kann null sein.|
 
 
 

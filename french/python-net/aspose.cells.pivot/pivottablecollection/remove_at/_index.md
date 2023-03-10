@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_at méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | index | int | l'index de position dans la collection PivotTable|
 | keep_data | bool | Si vous souhaitez conserver les données du tableau croisé dynamique|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorCheckOptionCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/errorcheckoptioncollection/
 is_root: false
 ---
 ##  ErrorCheckOptionCollection الدرجة
-يمثل جميع خيارات التحقق من الخطأ.
+يمثل كل خيار التحقق من الخطأ.
 
 
 
@@ -30,7 +30,7 @@ is_root: false
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells/errorcheckoptioncollection/last_index_of/#ErrorCheckOption) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
 | [last_index_of(item, index)](/cells/ar/python-net/aspose.cells/errorcheckoptioncollection/last_index_of/#ErrorCheckOption-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
 | [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells/errorcheckoptioncollection/last_index_of/#ErrorCheckOption-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
-| [add()](/cells/ar/python-net/aspose.cells/errorcheckoptioncollection/add/#) | أضف خيار التحقق من الخطأ.|
+| [add()](/cells/ar/python-net/aspose.cells/errorcheckoptioncollection/add/#) | إضافة خيار التحقق من الخطأ.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells/errorcheckoptioncollection/binary_search/#ErrorCheckOption) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 

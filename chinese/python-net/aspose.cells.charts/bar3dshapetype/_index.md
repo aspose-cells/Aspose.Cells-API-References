@@ -1,6 +1,6 @@
-﻿---
+---
 title: Bar3DShapeType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 380
@@ -14,15 +14,15 @@ is_root: false
 
 Bar3DShapeType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BOX |盒子|
 | PYRAMID_TO_POINT |金字塔到点|
-| PYRAMID_TO_MAX |金字塔到最大|
+| PYRAMID_TO_MAX |金字塔至最大|
 | CYLINDER |圆柱|
 | CONE_TO_POINT |锥到点|
-| CONE_TO_MAX |圆锥到最大|
+| CONE_TO_MAX |ConeToMax|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: put_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | int_value | int | Входное значение|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | double_value | float | Входное значение|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | string_value | str | Входное значение|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | date_time | DateTime | Входное значение|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | object_value | any | входное значение|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | string_value | str | Входное значение|
 | is_converted | bool | True: преобразуется в другой тип данных, если это необходимо.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | string_value | str | Входное значение|
 | is_converted | bool | True: преобразуется в другой тип данных, если это необходимо.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_row_column_headers_visible fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

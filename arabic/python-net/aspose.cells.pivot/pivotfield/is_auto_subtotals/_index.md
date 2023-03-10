@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_subtotals الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_subtotals الملكية
 
-الإشارة إلى ما إذا كان الحقل المحدد يعرض الإجماليات الفرعية التلقائية أم لا. الإعداد الافتراضي هو "true".
+يشير إلى ما إذا كان الحقل المحدد يعرض الإجماليات الفرعية التلقائية. الافتراضي هو الصحيح.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ScenarioInputCell sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,8 +20,8 @@ ScenarioInputCell türü aşağıdaki üyeleri gösterir:
 | [row](/cells/tr/python-net/aspose.cells/scenarioinputcell/row) | Giriş hücresinin satır dizinini alır ve ayarlar.|
 | [column](/cells/tr/python-net/aspose.cells/scenarioinputcell/column) | Giriş hücresinin sütun dizinini alır ve ayarlar.|
 | [name](/cells/tr/python-net/aspose.cells/scenarioinputcell/name) | Giriş hücre adresini alır ve ayarlar.|
-| [value](/cells/tr/python-net/aspose.cells/scenarioinputcell/value) | Giriş hücresinin değerlerini alır ve ayarlar.|
-| [is_deleted](/cells/tr/python-net/aspose.cells/scenarioinputcell/is_deleted) | Giriş hücrelerinin silinip silinmediğini gösterir.|
+| [value](/cells/tr/python-net/aspose.cells/scenarioinputcell/value) | Giriş hücresinin değerini alır ve ayarlar.|
+| [is_deleted](/cells/tr/python-net/aspose.cells/scenarioinputcell/is_deleted) | Giriş hücresinin silinip silinmediğini gösterir.|
 
 
 

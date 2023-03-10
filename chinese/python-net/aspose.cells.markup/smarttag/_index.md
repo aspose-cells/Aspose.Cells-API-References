@@ -1,6 +1,6 @@
-﻿---
+---
 title: SmartTag类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -26,7 +26,7 @@ SmartTag 类型公开了以下成员：
 ### 方法
 |方法|描述|
 | :- | :- |
-| [set_link(uri, name)](/cells/zh/python-net/aspose.cells.markup/smarttag/set_link/#str-str) |更改智能标记的名称和名称空间 URI。|
+| [set_link(uri, name)](/cells/zh/python-net/aspose.cells.markup/smarttag/set_link/#str-str) |更改智能标记的名称和命名空间 URI。|
 
 
 

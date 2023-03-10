@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد TextureType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,7 +31,7 @@ is_root: false
 | OAK | يمثل نوع نسيج البلوط.|
 | PAPER_BAG | يمثل نوع نسيج كيس الورق.|
 | PAPYRUS | يمثل نوع نسيج ورق البردي.|
-| PARCHMENT | يمثل نوع نسيج الرق.|
+| PARCHMENT | يمثل نوع مادة الرق.|
 | PINK_TISSUE_PAPER | يمثل نوع نسيج ورق المناديل الورقية.|
 | PURPLE_MESH | يمثل نوع نسيج شبكي أرجواني.|
 | RECYCLED_PAPER | يمثل نوع نسيج الورق المعاد تدويره.|

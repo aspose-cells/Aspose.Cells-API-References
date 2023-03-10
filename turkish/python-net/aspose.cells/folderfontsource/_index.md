@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ FolderFontSource türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/tr/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Müdür.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/tr/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
 
 
 ###  Özellikler

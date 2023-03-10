@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_cols_and_rows proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_cols_and_rows proprietà
 
-Indica se le colonne e le righe vengono adattate automaticamente.
+Indica se le colonne e le righe vengono adattate automaticamente. Il valore predefinito è falso.
 ###  Definizione:
 ```python
 @property

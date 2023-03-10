@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get(self, cell_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cell_name | str | Cell الاسم متضمنًا حرف العمود ورقم الصف ، على سبيل المثال A5.|
 
@@ -42,7 +42,7 @@ def get(self, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | column | int | فهرس العمود.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: change_series_order yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def change_series_order(self, source_index, dest_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_index | int | geçerli dizin|
 | dest_index | int | hedef dizin|

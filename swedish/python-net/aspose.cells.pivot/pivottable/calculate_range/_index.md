@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -20,7 +20,7 @@ def calculate_range(self):
 
 ###  Anmärkningar
 
-Om denna metod inte anropas kanske det vridbara intervallet inte korrigeras.
+Om denna metod inte anropas kanske det vridbara området inte korrigeras.
 
 
 ###  Se även

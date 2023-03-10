@@ -1,4 +1,4 @@
-﻿---
+---
 title: PasteOperationType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:

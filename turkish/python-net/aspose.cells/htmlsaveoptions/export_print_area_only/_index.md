@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_print_area_only mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_print_area_only mülk
 
-Yalnızca yazdırma alanının html dosyasına aktarılıp aktarılmadığını gösterir.
+Yalnızca yazdırma alanının html dosyasına aktarılıp aktarılmadığını gösterir. Varsayılan değer yanlıştır.
 ###  Tanım:
 ```python
 @property

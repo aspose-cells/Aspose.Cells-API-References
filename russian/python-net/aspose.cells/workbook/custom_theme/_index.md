@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_theme метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def custom_theme(self, theme_name, colors):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | theme_name | str | Название темы|
 | colors | aspose.pydrawing.Color[] | Цвета темы|
@@ -27,7 +27,7 @@ def custom_theme(self, theme_name, colors):
 Длина цветов должна быть 12.
 | Индекс массива| Тип темы|
 | :- | :- |
-| 0| Фон 1|
+| 0| Фон1|
 | 1| Текст 1|
 | 2| Фон2|
 | 3| Текст2|

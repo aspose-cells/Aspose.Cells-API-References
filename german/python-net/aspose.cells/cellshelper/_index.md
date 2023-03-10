@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsHelper Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -39,7 +39,7 @@ Der Typ CellsHelper macht die folgenden Member verfügbar:
 | [column_name_to_index(column_name)](/cells/de/python-net/aspose.cells/cellshelper/column_name_to_index/#str) |Ruft den Spaltenindex gemäß dem Spaltennamen ab.|
 | [row_index_to_name(row)](/cells/de/python-net/aspose.cells/cellshelper/row_index_to_name/#int) | Ruft den Zeilennamen gemäß dem Zeilenindex ab.|
 | [row_name_to_index(row_name)](/cells/de/python-net/aspose.cells/cellshelper/row_name_to_index/#str) | Ruft den Zeilenindex gemäß dem Zeilennamen ab.|
-| [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/de/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | Konvertiert die r1c1-Formel der Zelle in die A1-Formel.|
+| [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/de/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | Wandelt die r1c1-Formel der Zelle in eine A1-Formel um.|
 | [convert_a1_formula_to_r1c1(formula, row, column)](/cells/de/python-net/aspose.cells/cellshelper/convert_a1_formula_to_r1c1/#str-int-int) | Konvertiert die A1-Formel der Zelle in die r1c1-Formel.|
 | [get_date_time_from_double(double_value, date1904)](/cells/de/python-net/aspose.cells/cellshelper/get_date_time_from_double/#float-bool) | Konvertieren Sie den Double-Wert in den Datumszeitwert.|
 | [get_double_from_date_time(date_time, date1904)](/cells/de/python-net/aspose.cells/cellshelper/get_double_from_date_time/#DateTime-bool) | Konvertieren Sie die Datumszeit in den doppelten Wert.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  provider_id proprietà
 
-Ottiene e imposta l'ID del provider della firma.
+Ottiene e imposta l'ID del provider di firme.
 
 ###  Osservazioni
 
 In genere è il CLSID del componente aggiuntivo com del provider.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import SignatureLine

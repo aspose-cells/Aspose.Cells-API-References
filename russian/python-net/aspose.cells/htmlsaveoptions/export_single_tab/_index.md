@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_single_tab недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

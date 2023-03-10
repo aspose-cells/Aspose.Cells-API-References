@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_series_lines fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Sant om ett staplat kolumndiagram eller stapeldiagram har serielinjer eller
  om ett cirkeldiagram eller ett cirkeldiagram har anslutningslinjer mellan de två sektionerna.
-Gäller endast staplade kolumndiagram, stapeldiagram, cirkeldiagram eller stapeldiagram.
+Gäller endast staplade kolumndiagram, stapeldiagram, cirkeldiagram eller cirkeldiagram.
 ###  Definition:
 ```python
 @property

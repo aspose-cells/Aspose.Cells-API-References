@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_row_by_index
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_row_by_index(self, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int | La posizione.|
 

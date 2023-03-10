@@ -1,4 +1,4 @@
-﻿---
+---
 title: size الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size الملكية
 
- الحصول على size للظل وتعيينه يتراوح من 0 إلى 2.0.
+ الحصول على size الظل وتعيينه. تتراوح من 0 إلى 2.0.
 لا معنى له في الظل الداخلي.
 ###  تعريف:
 ```python

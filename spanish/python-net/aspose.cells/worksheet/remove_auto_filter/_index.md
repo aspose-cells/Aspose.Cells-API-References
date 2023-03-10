@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_auto_filter método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

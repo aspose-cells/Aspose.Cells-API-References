@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_grand_total_name méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def get_grand_total_name(self, function_type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | function_type | [ConsolidationFunction](/cells/fr/python-net/aspose.cells/consolidationfunction) | Le type de fonction.|
 

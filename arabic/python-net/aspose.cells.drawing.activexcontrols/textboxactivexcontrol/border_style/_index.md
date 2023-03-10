@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_style الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  border_style الملكية
 
-الحصول على نوع الحد المستخدم بواسطة عنصر التحكم وتعيينه.
+يحصل ويضبط نوع الحدود المستخدمة بواسطة عنصر التحكم.
 ###  تعريف:
 ```python
 @property

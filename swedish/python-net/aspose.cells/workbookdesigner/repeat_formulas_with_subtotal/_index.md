@@ -1,4 +1,4 @@
-﻿---
+---
 title: repeat_formulas_with_subtotal fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal fastighet
 
-Anger om repeterande formler med delsumma rader.
+Anger om repeterande formler med delsumma rad.
 ###  Definition:
 ```python
 @property

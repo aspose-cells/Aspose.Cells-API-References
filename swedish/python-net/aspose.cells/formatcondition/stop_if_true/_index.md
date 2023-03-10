@@ -1,4 +1,4 @@
-﻿---
+---
 title: stop_if_true fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

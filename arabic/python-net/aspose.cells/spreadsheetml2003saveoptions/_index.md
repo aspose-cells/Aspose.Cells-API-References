@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetML2003SaveOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/spreadsheetml2003saveoptions/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions الدرجة
-يمثل خيارات حفظ ملفات Excel 2003 المنتشرة.
+يمثل خيارات حفظ ملف Excel 2003 المنتشر.
 
 
 
@@ -22,8 +22,8 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [SpreadsheetML2003SaveOptions()](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#) | ينشئ خيارات حفظ ملفات Excel 2003 المنتشرة.|
-| [SpreadsheetML2003SaveOptions(save_format)](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#SaveFormat) | ينشئ خيارات حفظ ملفات Excel 2003 المنتشرة.|
+| [SpreadsheetML2003SaveOptions()](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#) | ينشئ خيارات حفظ ملف Excel 2003 Spreadml.|
+| [SpreadsheetML2003SaveOptions(save_format)](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/#SaveFormat) | ينشئ خيارات حفظ ملف Excel 2003 Spreadml.|
 
 
 ###  ملكيات
@@ -36,9 +36,9 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
 | [refresh_chart_cache](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
+| [warning_callback](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
 | [is_indented_formatting](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/is_indented_formatting) | يتسبب في وضع مسافة بادئة للعناصر الفرعية.|
 | [limit_as_xls](/cells/ar/python-net/aspose.cells/spreadsheetml2003saveoptions/limit_as_xls) | حد xls ، مؤشر الصف الأقصى هو 65535 وفهرس العمود الأقصى هو 255.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_precedents yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,19 +24,19 @@ def get_precedents(self):
 
 ###  Notlar
 
-* Bu bir formül hücresi değilse null döndürür.Bu hücrenin formülünde görünen tüm başvurular, hesaplama sırasında başvurulsa da başvurulmasa da döndürülür.
+* Bu bir formül hücresi değilse null döndürür. Bu hücrenin formülünde görünen tüm başvurular, hesaplama sırasında başvurulsa da başvurulmasa da döndürülür.
 
 Örneğin "=EĞER(DOĞRU,A1,A2)" formülündeki A2 hücresi hesaplama yapılırken kullanılmasa da,
 hala formülün emsalleri olarak alınmaktadır. Yalnızca hesaplamayı etkileyen referansları almak için lütfen [Cell.get_precedents_in_calculation()](/cells/tr/python-net/aspose.cells/cell/get_precedents_in_calculation)'i kullanın.
 
-* Bu bir formül hücresi değilse null döndürür.Bu hücrenin formülünde görünen tüm başvurular, hesaplama sırasında başvurulsa da başvurulmasa da döndürülür.
+* Bu bir formül hücresi değilse null döndürür. Bu hücrenin formülünde görünen tüm başvurular, hesaplama sırasında başvurulsa da başvurulmasa da döndürülür.
 Örneğin "=EĞER(DOĞRU,A1,A2)" formülündeki A2 hücresi hesaplama yapılırken kullanılmasa da,
 hala formülün emsalleri olarak alınmaktadır. Yalnızca hesaplamayı etkileyen referansları almak için lütfen [Cell.get_precedents_in_calculation()](/cells/tr/python-net/aspose.cells/cell/get_precedents_in_calculation)'i kullanın.
 
-* Bu bir formül hücresi değilse null döndürür.Bu hücrenin formülünde görünen tüm başvurular, hesaplama sırasında başvurulsa da başvurulmasa da döndürülür.
+* Bu bir formül hücresi değilse null döndürür. Bu hücrenin formülünde görünen tüm başvurular, hesaplama sırasında başvurulsa da başvurulmasa da döndürülür.
 Örneğin "=EĞER(DOĞRU,A1,A2)" formülündeki A2 hücresi hesaplama yapılırken kullanılmasa da,
 hala formülün emsalleri olarak alınmaktadır. Yalnızca hesaplamayı etkileyen referansları almak için lütfen [Cell.get_precedents_in_calculation()](/cells/tr/python-net/aspose.cells/cell/get_precedents_in_calculation)'i kullanın.
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellsHelper, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: security_descriptor недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

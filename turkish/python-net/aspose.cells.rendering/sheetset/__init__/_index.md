@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetSet yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sheets | list | sıfır tabanlı sayfa indeksleri.|
 ###  Notlar

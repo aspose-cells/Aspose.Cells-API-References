@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_web_video_player Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

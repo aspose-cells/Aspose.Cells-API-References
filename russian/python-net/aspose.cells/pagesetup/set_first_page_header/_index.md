@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_first_page_header метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ def set_first_page_header(self, section, header_script):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | section | int | 0: левая часть, 1: центральная часть, 2: правая часть.|
 | header_script | str | Скрипт формата заголовка.|

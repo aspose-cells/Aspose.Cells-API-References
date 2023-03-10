@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_preset_color_gradient méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,11 +19,11 @@ def set_preset_color_gradient(self, preset_color, style, variant):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | preset_color | [GradientPresetType](/cells/fr/python-net/aspose.cells.drawing/gradientpresettype) | Type de couleur prédéfini|
 | style | [GradientStyleType](/cells/fr/python-net/aspose.cells.drawing/gradientstyletype) | Style d'ombrage dégradé.|
-| variant | int |Variante de dégradé. Il peut s'agir d'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variante ne peut être que 1 ou 2.|
+| variant | int |La variante dégradée. Il peut s'agir d'une valeur comprise entre 1 et 4, correspondant à l'une des quatre variantes de l'onglet Dégradé de la boîte de dialogue Effets de remplissage. Si style est GradientStyle.FromCenter, l'argument Variant ne peut être que 1 ou 2.|
 
 
 

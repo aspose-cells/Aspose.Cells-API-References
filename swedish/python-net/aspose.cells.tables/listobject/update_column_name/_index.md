@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_column_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.tables/listobject/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Uppdaterar alla listkolumners namn från kalkylbladet.
+Uppdaterar namnet på alla listkolumner från kalkylbladet.
 
 
 
@@ -20,7 +20,7 @@ def update_column_name(self):
 
 ###  Anmärkningar
 
-Värdet på cellerna i rubrikraden i tabellen måste vara detsamma som namnet på ListColumn;
+Värdet på cellerna i rubrikraden i tabellen måste vara samma som namnet på ListColumn;
 Cell.PutValue ändrar inte namnet på ListColumn automatiskt för prestanda.
 
 

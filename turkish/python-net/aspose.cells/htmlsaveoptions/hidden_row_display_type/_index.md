@@ -1,4 +1,4 @@
-﻿---
+---
 title: hidden_row_display_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Excel'de gizli satır (bu satırın yüksekliği 0'dır), bunu html biçiminde kaydetmeden önce,
 HtmlHiddenRowDisplayType "Kaldır" ise, gizli satır çıkarılmaz,
-değer "Gizli" ise, satır çıkarılacaktı ancak gizliydi, varsayılan değer "Gizli"dir
+değer "Gizli" ise, satır çıkar, ancak gizlenir, varsayılan değer "Gizli" olur
 ###  Tanım:
 ```python
 @property

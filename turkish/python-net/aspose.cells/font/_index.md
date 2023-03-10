@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -44,7 +44,7 @@ Font türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

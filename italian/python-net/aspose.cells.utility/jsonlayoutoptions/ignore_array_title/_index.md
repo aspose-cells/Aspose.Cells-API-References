@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_array_title proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title proprietà
 
-Indica se ignorare title se array è una proprietà di object.
+Indica se ignorare il titolo se l'array è una proprietà dell'oggetto.
 
 ###  Osservazioni
 

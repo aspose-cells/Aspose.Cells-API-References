@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_all_column_indexes proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se esportare tutti gli indici di colonna per le celle.
 
 ###  Osservazioni
 
-Il valore predefinito è true.
+Il valore predefinito è vero.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextureType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | BLUE_TISSUE_PAPER | Представляет тип текстуры Blue Tissue Paper.|
-| BOUQUET | Представляет тип текстуры букета.|
+| BOUQUET | Представляет тип текстуры Bouquet.|
 | BROWN_MARBLE | Представляет тип текстуры «Коричневый мрамор».|
 | CANVAS | Представляет тип текстуры Canvas.|
 | CORK | Представляет тип текстуры Cork.|

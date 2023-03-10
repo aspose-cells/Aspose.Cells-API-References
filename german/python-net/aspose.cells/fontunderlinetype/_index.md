@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontUnderlineType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -18,7 +18,7 @@ Der Typ FontUnderlineType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | NONE | Steht für keine Unterstreichung.|
-| SINGLE | Stellt eine einzelne Unterstreichung dar.|
+| SINGLE | Stellt eine einfache Unterstreichung dar.|
 | DOUBLE | Steht für doppelte Unterstreichung.|
 | ACCOUNTING | Repräsentiert eine einzelne Buchhaltungsunterstreichung.|
 | DOUBLE_ACCOUNTING | Repräsentiert eine doppelte Buchhaltungsunterstreichung.|

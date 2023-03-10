@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_xml Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ def export_xml(self, map_name, path):
 | map_name | str | Name der zu exportierenden XML-Map|
 | path | str | den Exportpfad|
 
-###  Beispiele
+###  Beispiel
 
 Der folgende Code exportierte die von der ersten XmlMap verknüpften Daten.
 

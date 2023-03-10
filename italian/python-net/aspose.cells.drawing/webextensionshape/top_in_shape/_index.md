@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_in_shape proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -16,7 +16,7 @@ in unità di 1/4000 di altezza della forma madre.
 
 Si applica solo quando questa forma è nel gruppo o nel grafico.
 
-###  Esempi
+###  Esempio
 
 ```python
 

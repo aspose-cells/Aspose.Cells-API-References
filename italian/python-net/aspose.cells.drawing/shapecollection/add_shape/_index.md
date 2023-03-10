@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_shape
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/it/python-net/aspose.cells.drawing/msodrawingtype) | Tipo di disegno Mso.|
 | upper_left_row | int | Indice della riga in alto a sinistra.|
@@ -34,7 +34,7 @@ def add_shape(self, type, upper_left_row, top, upper_left_column, left, height, 
 ###  Osservazioni
 
 Il tipo non può essere Chart/Comment/Picture/OleObject/Polygon/DialogBox
-###  Esempi
+###  Esempio
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparkline_group_collection mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmamaktadır, bunun yerine lütfen Worksheet.SparklineGroups özelliğini kullanın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen Worksheet.SparklineGroups özelliğini kullanın.
  Bu mülk, Kasım 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

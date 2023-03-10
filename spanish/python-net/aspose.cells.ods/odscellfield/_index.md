@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellField clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.ods/odscellfield/
 is_root: false
 ---
 ##  OdsCellField clase
-Representa el campo de celda de probabilidades.
+Representa el campo de celdas de ods.
 
 
 
@@ -20,7 +20,7 @@ El tipo OdsCellField expone los siguientes miembros:
 | [custom_format](/cells/es/python-net/aspose.cells.ods/odscellfield/custom_format) | Representa el formato personalizado del valor del campo.|
 | [field_type](/cells/es/python-net/aspose.cells.ods/odscellfield/field_type) | Obtiene y establece el tipo del campo.|
 | [row](/cells/es/python-net/aspose.cells.ods/odscellfield/row) | Obtiene y establece el índice de fila de la celda.|
-| [column](/cells/es/python-net/aspose.cells.ods/odscellfield/column) | Obtenga y establezca el índice de columna de la celda.|
+| [column](/cells/es/python-net/aspose.cells.ods/odscellfield/column) | Obtiene y establece el índice de columna de la celda.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def custom(self, field_index, operator_type1, criteria1):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | operator_type1 | [FilterOperatorType](/cells/tr/python-net/aspose.cells/filteroperatortype) | Filtre operatör tipi|
@@ -36,7 +36,7 @@ def custom(self, field_index, operator_type1, criteria1, is_and, operator_type2,
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | operator_type1 | [FilterOperatorType](/cells/tr/python-net/aspose.cells/filteroperatortype) | Filtre operatör tipi|

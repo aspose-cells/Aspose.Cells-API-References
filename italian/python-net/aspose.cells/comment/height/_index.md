@@ -1,4 +1,4 @@
-﻿---
+---
 title: height proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'altezza del commento, in unità di pixel.
 
-###  Esempi
+###  Esempio
 
 ```python
 

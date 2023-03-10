@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -112,7 +112,7 @@ Workbook türü aşağıdaki üyeleri gösterir:
 | [custom_theme(theme_name, colors)](/cells/tr/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | Gümrük teması.|
 | [copy_theme(source)](/cells/tr/python-net/aspose.cells/workbook/copy_theme/#Workbook) | Temayı başka bir çalışma kitabından kopyalar.|
 | [has_exernal_links()](/cells/tr/python-net/aspose.cells/workbook/has_exernal_links/#) | Bu çalışma kitabının diğer veri kaynaklarına harici bağlantılar içerip içermediğini gösterir.|
-| [update_linked_data_source(external_workbooks)](/cells/tr/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Bu çalışma kitabı diğer veri kaynaklarına harici bağlantılar içeriyorsa,<br/> Aspose.Cells en son verileri almaya çalışacak.|
+| [update_linked_data_source(external_workbooks)](/cells/tr/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Bu çalışma kitabı başka veri kaynaklarına harici bağlantılar içeriyorsa,<br/> Aspose.Cells en son verileri almaya çalışacak.|
 | [set_digital_signature(digital_signature_collection)](/cells/tr/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Elektronik tablo dosyasına dijital imza ayarlar (Excel2007 ve sonrası).|
 | [add_digital_signature(digital_signature_collection)](/cells/tr/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Bir OOXML elektronik tablo dosyasına (Excel2007 ve sonrası) dijital imza ekler.|
 | [get_digital_signature()](/cells/tr/python-net/aspose.cells/workbook/get_digital_signature/#) | Dosyadan dijital imza alır.|
@@ -122,13 +122,13 @@ Workbook türü aşağıdaki üyeleri gösterir:
 
 ###  Notlar
 
-Workbook sınıfı, bir Excel elektronik tablosunu belirtir.
+Workbook sınıfı, bir Excel elektronik tablosunu belirtir. Her elektronik tablo birden çok çalışma sayfası içerebilir.
 Sınıfın temel özelliği, yerel excel dosyalarını açmak ve kaydetmektir.
 Sınıf, diğer Çalışma Kitaplarından veri kopyalama, iki Çalışma Kitabını birleştirme ve Excel elektronik tablosunu koruma gibi bazı gelişmiş özelliklere sahiptir.
 
-###  örnekler
+###  Örnek
 
-Aşağıdaki örnek, designer.xls adlı bir dosyadan bir Workbook yükler ve Workbook için yatay ve dikey kaydırma çubuklarını görünmez hale getirir. istemci tarayıcısına dosya.
+Aşağıdaki örnek, designer.xls adlı bir dosyadan bir Workbook yükler ve Workbook için yatay ve dikey kaydırma çubuklarını görünmez yapar. Ardından, elektronik tablo içinde iki dize değerini sırasıyla bir Tamsayı değeri ve dize değeri ile değiştirir ve son olarak güncellenen dosyayı şuraya gönderir: istemci tarayıcısı.
 
 ```python
 from aspose.cells import Workbook

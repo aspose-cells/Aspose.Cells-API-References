@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة calculate_formula
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -34,9 +34,9 @@ def calculate_formula(self, ignore_error):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ.|
+| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ. قد يكون الخطأ وظيفة غير مدعومة ، أو روابط خارجية ، إلخ.|
 
 
 ##  calculate_formula(options) {#CalculationOptions}
@@ -50,7 +50,7 @@ def calculate_formula(self, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/ar/python-net/aspose.cells/calculationoptions) | خيارات الحساب|
 
@@ -66,13 +66,13 @@ def calculate_formula(self, ignore_error, custom_function):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ.|
+| ignore_error | bool | يشير إلى إخفاء الخطأ في حساب الصيغ. قد يكون الخطأ وظيفة غير مدعومة ، أو روابط خارجية ، إلخ.|
 | custom_function | [ICustomFunction](/cells/ar/python-net/aspose.cells/icustomfunction) | وظائف حساب الصيغة المخصصة لتوسيع محرك الحساب.|
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
 الرجاء استخدام طريقة CalculateFormula (CalculationOptions).
  ستتم إزالة هذه الطريقة بعد 12 شهرًا منذ أغسطس 2020.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

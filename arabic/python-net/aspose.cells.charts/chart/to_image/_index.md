@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_image
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,14 +19,14 @@ def to_image(self, image_file):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | image_file | str | اسم ملف الصورة بالمسار الكامل.|
 ###  ملاحظات
 
 يتم تحديد تنسيق الصورة باستخدام امتداد اسم الملف.
 على سبيل المثال ، إذا حددت "myfile.png" ، فسيتم حفظ الصورة
- بتنسيق PNG.
+ بتنسيق PNG. يتم التعرف على امتدادات الملفات التالية:
 .bmp ، .gif ، .png ، .jpg ، .jpeg ، .tiff ، .tif ، .emf.
 
 
@@ -43,7 +43,7 @@ def to_image(self, image_file, image_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | image_file | str | اسم ملف الصورة بالمسار الكامل.|
 | image_type | aspose.cells.drawing.ImageType | نوع الصورة المراد حفظ الصورة بها.|
@@ -67,7 +67,7 @@ def to_image(self, image_file, jpeg_quality):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | image_file | str | اسم ملف الصورة بالمسار الكامل.|
 | jpeg_quality | int | جودة JPEG.|
@@ -87,7 +87,7 @@ def to_image(self, stream, jpeg_quality):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الإخراج.|
 | jpeg_quality | int | جودة JPEG.|
@@ -107,7 +107,7 @@ def to_image(self, stream, image_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الإخراج.|
 | image_type | aspose.cells.drawing.ImageType | نوع الصورة المراد حفظ الصورة بها.|
@@ -132,7 +132,7 @@ def to_image(self, image_file, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | image_file | str | اسم ملف الصورة بالمسار الكامل.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | خيارات إنشاء الصور الإضافية|
@@ -140,15 +140,15 @@ def to_image(self, image_file, options):
 
 يتم تحديد تنسيق الصورة باستخدام امتداد اسم الملف.
 على سبيل المثال ، إذا حددت "myfile.png" ، فسيتم حفظ الصورة
- بتنسيق PNG.
+ بتنسيق PNG. يتم التعرف على امتدادات الملفات التالية:
 .bmp ، .gif ، .png ، .jpg ، .jpeg ، .tiff ، .tif ، .emf.
 
 
 إذا كان العرض أو الارتفاع صفراً أو كان الرسم البياني غير مدعوم وفقًا لقائمة الرسوم البيانية المدعومة ، فلن تفعل هذه الطريقة شيئًا.
  يرجى الرجوع إلى[قائمة الرسوم البيانية المدعومة](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)لمزيد من التفاصيل.
-###  أمثلة
+###  مثال
 
-يحفظ في Tiff مع ضغط 300 نقطة في البوصة و CCITT4.
+يحفظ في Tiff بدقة 300 نقطة في البوصة وضغط CCITT4.
 
 ```python
 from aspose.cells import Workbook
@@ -191,7 +191,7 @@ def to_image(self, stream, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار الإخراج.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | خيارات إنشاء الصور الإضافية|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_default_encrypted Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt an, ob die Arbeitsmappe mit dem Standardkennwort verschlüsselt wird, wenn 
 
 ###  Bemerkungen
 
-Der Standardwert ist jetzt „false“ und entspricht dem von MS Excel 2013.
+Der Standardwert ist jetzt falsch. Es ist dasselbe wie MS Excel 2013.
 ###  Definition:
 ```python
 @property

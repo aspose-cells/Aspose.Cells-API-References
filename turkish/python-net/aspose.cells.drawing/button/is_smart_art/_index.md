@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_smart_art mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,9 +13,9 @@ is_root: false
 
 ###  Notlar
 
-Yalnızca ooxml dosyaları için.
+Yalnızca ooxml dosyası için.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_input_range方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -22,7 +22,7 @@ def get_input_range(self, is_r1c1, is_local):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | is_r1c1 | bool |公式是否需要格式化为R1C1。|
 | is_local | bool |公式是否需要按语言环境格式化。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_multi_encoded fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: alternative_text proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [SheetType](/cells/tr/python-net/aspose.cells/sheettype) | Çalışma sayfası türü.|
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sheet_name | str | çalışma sayfası adı|
 

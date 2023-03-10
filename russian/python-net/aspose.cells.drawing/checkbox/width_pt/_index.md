@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pt недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_pt недвижимость
 
-Представляет ширину фигуры в точках.
+Представляет ширину фигуры в пунктах.
 
-###  Примеры
+###  Пример
 
 ```python
 

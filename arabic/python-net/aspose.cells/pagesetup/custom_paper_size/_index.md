@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة custom_paper_size
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/pagesetup/custom_paper_size/
 is_root: false
 ---
 ##  custom_paper_size(width, height) {#float-float}
-يضبط حجم الورق المخصص بوحدات البوصة.
+يضبط حجم الورق المخصص بوحدة البوصة.
 
 
 
@@ -18,7 +18,7 @@ def custom_paper_size(self, width, height):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | width | float | عرض الورقة.|
 | height | float | ارتفاع الورقة.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: aspose.cells.drawing.activexcontrols
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -25,7 +25,7 @@ is_root: false
 | [SpinButtonActiveXControl](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol) |表示 SpinButton 控件。|
 | [TextBoxActiveXControl](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol) |表示一个文本框 ActiveX 控件。|
 | [ToggleButtonActiveXControl](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol) |表示 ToggleButton ActiveX 控件。|
-| [UnknownControl](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol) |未知控制。|
+| [UnknownControl](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol) |不知控制。|
 
 
 ### 枚举

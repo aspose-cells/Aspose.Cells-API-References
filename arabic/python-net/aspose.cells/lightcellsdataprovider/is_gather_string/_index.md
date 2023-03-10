@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_gather_string
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

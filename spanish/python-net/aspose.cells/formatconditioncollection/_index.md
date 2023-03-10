@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -44,7 +44,7 @@ Obtiene la condición de formato por índice.
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_last_point الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

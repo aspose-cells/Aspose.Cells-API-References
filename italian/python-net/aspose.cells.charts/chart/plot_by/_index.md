@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_by proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by proprietà
 
-Ottiene e imposta se tracciare per riga o colonna.
+Ottiene e imposta se tracciare per riga o per colonna.
 ###  Definizione:
 ```python
 @property

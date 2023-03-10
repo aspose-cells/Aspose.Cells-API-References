@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_null недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null недвижимость
 
-Указывает, игнорируются ли нулевые значения.
+Указывает, игнорируется ли нулевое значение.
 ###  Определение:
 ```python
 @property

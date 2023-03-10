@@ -1,4 +1,4 @@
-﻿---
+---
 title: ScenarioInputCell Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,8 +20,8 @@ Der Typ ScenarioInputCell macht die folgenden Member verfügbar:
 | [row](/cells/de/python-net/aspose.cells/scenarioinputcell/row) | Ruft den Zeilenindex der Eingabezelle ab und legt ihn fest.|
 | [column](/cells/de/python-net/aspose.cells/scenarioinputcell/column) | Ruft den Spaltenindex der Eingabezelle ab und legt ihn fest.|
 | [name](/cells/de/python-net/aspose.cells/scenarioinputcell/name) | Ruft die Adresse der Eingabezelle ab und legt sie fest.|
-| [value](/cells/de/python-net/aspose.cells/scenarioinputcell/value) | Ruft Werte der Eingabezelle ab und legt sie fest.|
-| [is_deleted](/cells/de/python-net/aspose.cells/scenarioinputcell/is_deleted) | Gibt an, ob Eingabezellen gelöscht werden.|
+| [value](/cells/de/python-net/aspose.cells/scenarioinputcell/value) | Ruft den Wert der Eingabezelle ab und legt ihn fest.|
+| [is_deleted](/cells/de/python-net/aspose.cells/scenarioinputcell/is_deleted) | Gibt an, ob die Eingabezelle gelöscht wird.|
 
 
 

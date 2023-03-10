@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -22,7 +22,7 @@ def copy(self, range):
 | :- | :- | :- |
 | range | [Range](/cells/de/python-net/aspose.cells/range) | Quelle [Range](/cells/de/python-net/aspose.cells/range) Objekt.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

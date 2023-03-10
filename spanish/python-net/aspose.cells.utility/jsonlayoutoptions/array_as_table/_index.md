@@ -1,4 +1,4 @@
-﻿---
+---
 title: array_as_table propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

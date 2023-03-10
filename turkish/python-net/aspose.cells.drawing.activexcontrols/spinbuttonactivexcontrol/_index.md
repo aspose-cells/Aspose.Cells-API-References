@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpinButtonActiveXControl sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,8 +25,8 @@ SpinButtonActiveXControl türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/workbook) | [ActiveXControlBase.workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook) nesnesini alır.|
 | [type](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/type) | ActiveX denetiminin türünü alır.|
-| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/width) |Denetimin genişliğini nokta birimleri cinsinden alır ve ayarlar.|
-| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/height) | Denetimin yüksekliğini nokta birimleri cinsinden alır ve ayarlar.|
+| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/width) |Denetimin genişliğini nokta birimi cinsinden alır ve ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/height) | Kontrolün yüksekliğini puan birimi cinsinden alır ve ayarlar.|
 | [mouse_icon](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/mouse_icon) | Denetim için fare işaretçisi olarak görüntülenecek özel bir simge alır ve ayarlar.|
 | [mouse_pointer](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/mouse_pointer) | Denetim için fare işaretçisi olarak görüntülenen simge türünü alır ve ayarlar.|
 | [fore_ole_color](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/fore_ole_color) | Ön planın ole rengini alır ve ayarlar.|
@@ -51,7 +51,7 @@ SpinButtonActiveXControl türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose import pycore

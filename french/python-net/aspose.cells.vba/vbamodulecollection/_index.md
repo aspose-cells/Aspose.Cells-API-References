@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModuleCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,13 +17,13 @@ Le type VbaModuleCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.vba/vbamodulecollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.vba/vbamodulecollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [add(sheet)](/cells/fr/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Ajoute des modules pour une feuille de calcul.|
+| [add(sheet)](/cells/fr/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Ajoute un module pour une feuille de calcul.|
 | [add(type, name)](/cells/fr/python-net/aspose.cells.vba/vbamodulecollection/add/#VbaModuleType-str) | Ajoute un module.|
 | [copy_to(array)](/cells/fr/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#list) | Copie la totalité de la liste de tableaux dans une liste de tableaux unidimensionnelle compatible, en commençant au début de la liste de tableaux cible.|
 | [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#int-list-int-int) |Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
@@ -38,7 +38,7 @@ Le type VbaModuleCollection expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

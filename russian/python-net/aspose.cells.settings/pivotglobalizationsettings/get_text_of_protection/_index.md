@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_text_of_protection метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineSpaceSizeType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen LineSpaceSizeType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | PERCENTAGE | Representerar i enhet av en procentandel av textstorleken.|
-| POINTS | Representerar i poängenheter.|
+| POINTS | Representerar i poängenhet.|
 
 
 

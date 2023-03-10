@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionTaskPaneCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/
 is_root: false
 ---
 ##  WebExtensionTaskPaneCollection sınıfı
-Görev bölmelerinin listesini temsil eder.
+Görev bölmesinin listesini temsil eder.
 
 
 

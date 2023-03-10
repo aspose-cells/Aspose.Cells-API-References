@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_group propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si la forme est un groupe.
 
-###  Exemples
+###  Exemple
 
 ```python
 

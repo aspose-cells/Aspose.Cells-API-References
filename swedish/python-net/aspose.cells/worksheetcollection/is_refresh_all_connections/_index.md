@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_refresh_all_connections fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

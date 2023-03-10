@@ -1,4 +1,4 @@
-﻿---
+---
 title: Top10 classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  Top10 classe
  Décrivez la règle de mise en forme conditionnelle Top10.
 Cette règle de mise en forme conditionnelle met en évidence les cellules dont
-les valeurs tombent dans la tranche supérieure N ou inférieure N, comme spécifié.
+les valeurs se situent dans la tranche N supérieure ou N inférieure, comme spécifié.
 
 
 
@@ -27,11 +27,11 @@ Le type Top10 expose les membres suivants :
 | :- | :- |
 | [is_percent](/cells/fr/python-net/aspose.cells/top10/is_percent) | Obtenir ou définir si une règle "top/bottom n" est une règle "top/bottom n percent".<br/> La valeur par défaut est faux.|
 | [is_bottom](/cells/fr/python-net/aspose.cells/top10/is_bottom) | Obtenir ou définir si une règle "top/bottom n" est une règle "bottom n".<br/> La valeur par défaut est faux.|
-| [rank](/cells/fr/python-net/aspose.cells/top10/rank) | Obtenez ou définissez la valeur de "n" dans une règle de mise en forme conditionnelle "top/bottom n".<br/>Si IsPercent est vrai, la valeur doit être comprise entre 0 et 100.<br/>Sinon, il doit être compris entre 0 et 1000.<br/> La valeur par défaut est 10.|
+| [rank](/cells/fr/python-net/aspose.cells/top10/rank) | Obtenez ou définissez la valeur de "n" dans une règle de mise en forme conditionnelle "top/bottom n".<br/>Si IsPercent est vrai, la valeur doit être comprise entre 0 et 100.<br/>Sinon il doit être compris entre 0 et 1000.<br/> La valeur par défaut est 10.|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

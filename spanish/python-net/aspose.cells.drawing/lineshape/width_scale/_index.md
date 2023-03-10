@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_scale propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -12,7 +12,7 @@ is_root: false
 Obtiene y establece la escala de ancho, en unidades de porcentaje del ancho de la imagen original.
 Si la forma no es una imagen, la propiedad WidthScale solo devuelve 100;
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_pixel propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece la altura de la segmentación especificada, en píxeles.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

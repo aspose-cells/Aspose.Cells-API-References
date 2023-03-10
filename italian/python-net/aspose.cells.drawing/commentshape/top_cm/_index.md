@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_cm proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta l'offset verticale della forma dalla riga superiore, in unità di centimetri.
 
-###  Esempi
+###  Esempio
 
 ```python
 

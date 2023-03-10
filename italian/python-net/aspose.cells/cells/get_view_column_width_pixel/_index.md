@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_view_column_width_pixel
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | L'indice di colonna.|
 

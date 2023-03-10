@@ -1,4 +1,4 @@
-﻿---
+---
 title: compliance proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compliance proprietà
 
-Specifica la versione OOXML per il documento di output.
+Specifica la versione OOXML per il documento di output. Il valore predefinito è Ecma376_2006.
 
 ###  Osservazioni
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_mark_spacing mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing mülk
 
-Onay işaretleri arasındaki kategorilerin veya serilerin sayısını döndürür veya ayarlar.
+Onay işaretleri arasındaki kategorilerin veya serilerin sayısını döndürür veya ayarlar. Yalnızca kategori ve seri eksenleri için geçerlidir.
 
 ###  Notlar
 

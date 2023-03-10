@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Fügt Module für ein Arbeitsblatt hinzu.
+Fügt ein Modul für ein Arbeitsblatt hinzu.
 
 
 ###  Kehrt zurück

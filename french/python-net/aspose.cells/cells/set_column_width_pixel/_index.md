@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_column_width_pixel méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_column_width_pixel(self, column, pixels):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | column | int | Indice de colonne.|
 | pixels | int | Nombre de pixels.|

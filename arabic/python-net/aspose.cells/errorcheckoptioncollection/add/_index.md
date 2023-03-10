@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/errorcheckoptioncollection/add/
 is_root: false
 ---
 ##  add() {#}
-أضف خيار التحقق من الخطأ.
+إضافة خيار التحقق من الخطأ.
 
 
 ###  عائدات

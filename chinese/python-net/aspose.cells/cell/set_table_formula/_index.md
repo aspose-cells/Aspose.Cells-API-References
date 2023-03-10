@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_table_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 350
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/cell/set_table_formula/
 is_root: false
 ---
 ##  set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values) {#int-int-str-str-list}
-从此单元格开始为给定范围创建一个双变量数据表。
+从此单元格开始为给定范围创建双变量数据表。
 
 
 
@@ -18,7 +18,7 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_number | int |填充公式的行数。|
 | column_number | int |填充公式的列数。|
@@ -38,7 +38,7 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_number | int |填充公式的行数。|
 | column_number | int |填充公式的列数。|
@@ -58,7 +58,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_number | int |填充公式的行数。|
 | column_number | int |填充公式的列数。|
@@ -69,7 +69,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 
 
 ##  set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values) {#int-int-int-int-int-int-list}
-从此单元格开始为给定范围创建一个双变量数据表。
+从此单元格开始为给定范围创建双变量数据表。
 
 
 
@@ -79,7 +79,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_number | int |填充公式的行数。|
 | column_number | int |填充公式的列数。|

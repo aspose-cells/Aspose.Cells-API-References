@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_right_row propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa el índice de la fila de la esquina inferior derecha.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

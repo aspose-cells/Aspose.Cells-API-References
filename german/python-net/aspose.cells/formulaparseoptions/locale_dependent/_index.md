@@ -1,4 +1,4 @@
-﻿---
+---
 title: locale_dependent Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  locale_dependent Eigentum
 
-Ob die Formel in einem Gebietsschema formatiert ist. Der Standardwert ist „false“.
+Ob die Formel im Gebietsschema formatiert ist. Standard ist falsch.
 ###  Definition:
 ```python
 @property

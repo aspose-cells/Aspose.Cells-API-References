@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo remove_at
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def remove_at(self, name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome dell'elemento da rimuovere.|
 

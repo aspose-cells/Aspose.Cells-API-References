@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_bogus_row_data propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

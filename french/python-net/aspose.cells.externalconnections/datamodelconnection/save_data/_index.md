@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_data propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  save_data propriété
 
 Vrai si les données externes récupérées via la connexion pour remplir une table doivent être enregistrées
-avec le classeur ; sinon, faux.
+avec le cahier d'exercices; sinon, faux.
 ###  Définition:
 ```python
 @property

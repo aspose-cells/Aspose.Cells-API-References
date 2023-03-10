@@ -1,6 +1,6 @@
-﻿---
+---
 title: TrendlineType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 670
@@ -14,7 +14,7 @@ is_root: false
 
 TrendlineType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | EXPONENTIAL |指数型|

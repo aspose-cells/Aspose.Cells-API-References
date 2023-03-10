@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_array_formula proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

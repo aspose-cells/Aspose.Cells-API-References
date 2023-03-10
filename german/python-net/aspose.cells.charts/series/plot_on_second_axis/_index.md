@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_on_second_axis Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

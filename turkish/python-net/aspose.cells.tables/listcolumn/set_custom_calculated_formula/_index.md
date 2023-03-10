@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_custom_calculated_formula yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_custom_calculated_formula(self, formula, is_r1c1, is_local):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | formula | str | bu liste sütununun formülü.|
 | is_r1c1 | bool | Formülün R1C1 olarak biçimlendirilmesi gerekip gerekmediği.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.activexcontrols
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -43,7 +43,7 @@ is_root: false
 | [ControlScrollBarType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlscrollbartype) | Représente le type de barre de défilement.|
 | [ControlScrollOrientation](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlscrollorientation) | Représente le type d'orientation de défilement|
 | [ControlSpecialEffectType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype) | Représente le type d'effet spécial.|
-| [ControlType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controltype) | Représente tous les types de contrôles ActiveX.|
+| [ControlType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controltype) | Représente tous les types de contrôle ActiveX.|
 | [DropButtonStyle](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle) | Représente le symbole affiché sur le bouton de dépôt.|
 | [InputMethodEditorMode](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode) | Représente le mode d'exécution par défaut de l'éditeur de méthode d'entrée.|
 | [ShowDropButtonType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/showdropbuttontype) | Spécifie quand afficher le bouton de dépôt|

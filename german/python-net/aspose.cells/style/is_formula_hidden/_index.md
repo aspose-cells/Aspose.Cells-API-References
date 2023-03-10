@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formula_hidden Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

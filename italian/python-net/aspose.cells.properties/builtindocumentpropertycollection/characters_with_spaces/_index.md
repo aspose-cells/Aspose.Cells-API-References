@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters_with_spaces proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

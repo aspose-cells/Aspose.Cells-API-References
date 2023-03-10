@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_border_outline mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

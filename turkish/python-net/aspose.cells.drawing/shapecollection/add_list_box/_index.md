@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_list_box yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_list_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Piksel birimi cinsinden, ListBox öğesinin sol satırından dikey uzaklığını temsil eder.|
@@ -31,7 +31,7 @@ def add_list_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | height | int | Piksel birimi cinsinden ListBox yüksekliğini temsil eder.|
 | width | int | Piksel biriminde ListBox genişliğini temsil eder.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

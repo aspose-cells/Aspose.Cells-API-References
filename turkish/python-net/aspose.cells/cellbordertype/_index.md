@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellBorderType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ CellBorderType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| DASH_DOT | İnce çizgi noktalı çizgileri temsil eder.|
+| DASH_DOT | İnce çizgi noktalı çizgiyi temsil eder.|
 | DASH_DOT_DOT | İnce çizgi noktalı çizgiyi temsil eder.|
 | DASHED | Kesikli çizgiyi temsil eder.|
 | DOTTED | Noktalı çizgiyi temsil eder.|

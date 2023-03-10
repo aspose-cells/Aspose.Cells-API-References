@@ -1,4 +1,4 @@
-﻿---
+---
 title: repeat_formulas_with_subtotal Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal Eigentum
 
-Gibt an, ob Formeln mit Zwischensummenzeilen wiederholt werden.
+Gibt an, ob sich Formeln mit Zwischensummenzeile wiederholen.
 ###  Definition:
 ```python
 @property

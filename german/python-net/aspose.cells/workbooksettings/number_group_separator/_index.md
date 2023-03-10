@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_group_separator Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_group_separator Eigentum
 
-Ruft das Zeichen ab, das Zifferngruppen links vom Dezimaltrennzeichen in numerischen Werten trennt, oder legt dieses fest. Der Standardwert ist das Gruppentrennzeichen der aktuellen Region.
+Ruft das Zeichen ab, das Zifferngruppen links vom Dezimaltrennzeichen in numerischen Werten trennt, oder legt dieses fest. Standard ist das Gruppentrennzeichen der aktuellen Region.
 ###  Definition:
 ```python
 @property

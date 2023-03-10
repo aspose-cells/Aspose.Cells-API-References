@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -23,7 +23,7 @@ El tipo Comment expone los siguientes miembros:
 | [column](/cells/es/python-net/aspose.cells/comment/column) | Obtiene el índice de columna del comentario.|
 | [is_threaded_comment](/cells/es/python-net/aspose.cells/comment/is_threaded_comment) | Indica si este comentario es un comentario encadenado.|
 | [threaded_comments](/cells/es/python-net/aspose.cells/comment/threaded_comments) | Obtiene la lista de comentarios encadenados;|
-| [note](/cells/es/python-net/aspose.cells/comment/note) | Representa el contenido de los comentarios.|
+| [note](/cells/es/python-net/aspose.cells/comment/note) | Representa el contenido del comentario.|
 | [html_note](/cells/es/python-net/aspose.cells/comment/html_note) | Obtiene y establece la cadena html que contiene datos y algunos formatos en este comentario.|
 | [font](/cells/es/python-net/aspose.cells/comment/font) | Obtiene la fuente del comentario.|
 | [is_visible](/cells/es/python-net/aspose.cells/comment/is_visible) | Representa si el comentario es visible o no.|

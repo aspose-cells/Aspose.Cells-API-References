@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_visible недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, виден комментарий или нет.
 
-###  Примеры
+###  Пример
 
 ```python
 

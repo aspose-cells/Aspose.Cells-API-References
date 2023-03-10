@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_headings mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ HTML dosyasına kaydederken sayfanın satır ve sütun başlıklarının dışa 
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen HtmlSaveOptions.ExportRowColumnHeadings özelliğini kullanın.
  Bu mülk, Haziran 2022'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

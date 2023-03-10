@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_objects propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_objects propiedad
 
-Obtiene todos los ListObjects en esta hoja de trabajo.
+Obtiene todos los ListObjects en esta hoja de cálculo.
 ###  Definición:
 ```python
 @property

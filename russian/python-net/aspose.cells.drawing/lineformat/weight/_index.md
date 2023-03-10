@@ -1,4 +1,4 @@
-﻿---
+---
 title: weight недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает weight линии в пунктах.
 
-###  Примеры
+###  Пример
 
 ```python
 

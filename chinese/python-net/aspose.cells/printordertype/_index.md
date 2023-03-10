@@ -1,6 +1,6 @@
-﻿---
+---
 title: PrintOrderType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2390
@@ -14,7 +14,7 @@ is_root: false
 
 PrintOrderType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DOWN_THEN_OVER |下来，然后结束|

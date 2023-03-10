@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_icons méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,18 +22,18 @@ def add_icons(self, upper_left_row, top, upper_left_column, left, height, width,
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical de la forme par rapport à sa ligne de gauche, en unité de pixel.|
 | upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Décalage horizontal de la forme par rapport à sa colonne de gauche, en pixels.|
-| height | int | La hauteur de la forme, en unités de pixels.|
-| width | int | La largeur de la forme, en unités de pixels.|
+| height | int | La hauteur de la forme, en unité de pixel.|
+| width | int | La largeur de la forme, en unité de pixel.|
 | image_byte_data | bytes | Les données d'octet d'image.|
 | compatible_image_data | bytes |Conversion des données d'image à partir de svg afin d'être compatible avec Excel 2016 ou versions antérieures.|
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose import pycore

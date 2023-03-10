@@ -1,4 +1,4 @@
-﻿---
+---
 title: quote_prefix_to_style propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

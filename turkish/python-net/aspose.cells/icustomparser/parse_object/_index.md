@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_object yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Verilen dizgiyi uygun değer nesnesine ayrıştırır.
 
 ###  İadeler
 
-Verilen dizgeden ayrıştırılmış değer nesnesi.
+Verilen dizgeden ayrıştırılmış değer nesnesi. Verilen dize uygun değer nesnesine ayrıştırılamazsa, null değerini döndürür.
 
 
 ```python
@@ -22,7 +22,7 @@ def parse_object(self, value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | value | str | Ayrıştırılacak dize değeri|
 

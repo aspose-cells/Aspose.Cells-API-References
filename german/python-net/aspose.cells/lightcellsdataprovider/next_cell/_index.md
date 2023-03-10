@@ -1,4 +1,4 @@
-﻿---
+---
 title: next_cell Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die nächste zu speichernde Zelle ab.
 
 ###  Kehrt zurück
 
--1 bedeutet, dass das Ende der aktuellen Zeilendaten erreicht wurde und keine weitere Zelle der aktuellen Zeile zu speichern ist.
+Spaltenindex der nächsten zu speichernden Zelle. -1 bedeutet, dass das Ende der aktuellen Zeilendaten erreicht wurde und keine weitere Zelle der aktuellen Zeile zu speichern ist.
 
 
 ```python

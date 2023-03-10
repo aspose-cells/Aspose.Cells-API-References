@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_length Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die Anfangspfeilspitzenlänge der Linie ab und legt sie fest.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die Shape.Line.BeginArrowheadLength-Eigenschaft.
  Diese Property wird 12 Monate später seit August 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

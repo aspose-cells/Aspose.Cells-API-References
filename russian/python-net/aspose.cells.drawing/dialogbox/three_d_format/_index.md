@@ -1,4 +1,4 @@
-﻿---
+---
 title: three_d_format недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает 3D-формат фигуры.
 
-###  Примеры
+###  Пример
 
 ```python
 

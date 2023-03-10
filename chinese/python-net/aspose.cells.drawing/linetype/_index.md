@@ -1,6 +1,6 @@
-﻿---
+---
 title: LineType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 950
@@ -14,7 +14,7 @@ is_root: false
 
 LineType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DARK_GRAY |代表深灰色线。|

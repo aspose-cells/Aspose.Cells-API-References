@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_index_of metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Söker efter det angivna objektet och returnerar det nollbaserade indexet för d
 
 ###  Returnerar
 
-Det nollbaserade indexet för den senaste förekomsten av värde inom hela arraylistan, om det finns, annars -1.
+Det nollbaserade indexet för den senaste förekomsten av värde inom hela arraylistan, om den hittas; annars -1.
 
 
 ```python
@@ -22,9 +22,9 @@ def last_index_of(self, item):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| item | [Style](/cells/sv/python-net/aspose.cells/style) | Objektet som ska lokaliseras i arraylistan.|
+| item | [Style](/cells/sv/python-net/aspose.cells/style) | Objektet som ska lokaliseras i arraylistan. Värdet kan vara null.|
 
 
 ##  last_index_of(item, index) {#Style-int}
@@ -33,7 +33,7 @@ Söker efter det angivna objektet och returnerar det nollbaserade indexet för d
 
 ###  Returnerar
 
-Det nollbaserade indexet för den senaste förekomsten av värde inom intervallet av element i arraylistan som sträcker sig från det första elementet till startIndex, om det finns, annars -1.
+Det nollbaserade indexet för den senaste förekomsten av värde inom intervallet av element i arraylistan som sträcker sig från det första elementet till startIndex, om det hittas; annars -1.
 
 
 ```python
@@ -42,9 +42,9 @@ def last_index_of(self, item, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| item | [Style](/cells/sv/python-net/aspose.cells/style) | Objektet som ska lokaliseras i arraylistan.|
+| item | [Style](/cells/sv/python-net/aspose.cells/style) | Objektet som ska lokaliseras i arraylistan. Värdet kan vara null.|
 | index | int | Det nollbaserade startindexet för bakåtsökningen.|
 
 
@@ -54,7 +54,7 @@ Söker efter det angivna objektet och returnerar det nollbaserade indexet för d
 
 ###  Returnerar
 
-Det nollbaserade indexet för den senaste förekomsten av värde inom intervallet av element i System.Collections. Array-listan som innehåller antalet element och slutar vid startIndex, om det finns, annars -1.
+Det nollbaserade indexet för den senaste förekomsten av värde inom intervallet av element i System.Collections. Arraylista som innehåller antal element och slutar vid startIndex, om den hittas; annars -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def last_index_of(self, item, index, count):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| item | [Style](/cells/sv/python-net/aspose.cells/style) | Objektet som ska lokaliseras i arraylistan.|
+| item | [Style](/cells/sv/python-net/aspose.cells/style) | Objektet som ska lokaliseras i arraylistan. Värdet kan vara null.|
 | index | int | Det nollbaserade startindexet för bakåtsökningen.|
 | count | int | Antalet element i avsnittet att söka efter.|
 

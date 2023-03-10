@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe SlicerCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -43,7 +43,7 @@ Il tipo SlicerCollection espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_data_field_header_name_of_pivot_table Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/globalizationsettings/get_data_field_header_nam
 is_root: false
 ---
 ##  get_data_field_header_name_of_pivot_table() {#}
-Ruft den Namen des Wertbereichsfeldheaders in der PivotTable ab.
+Ruft den Namen der Kopfzeile des Wertbereichsfelds in der PivotTable ab.
 
 
 ###  Kehrt zurück
@@ -24,7 +24,7 @@ def get_data_field_header_name_of_pivot_table(self):
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 verwenden Sie bitte die Methode GlobalizationSettings.GetColumnLabelsOfPivotTable().
  Diese Property wird 12 Monate später seit Dezember 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

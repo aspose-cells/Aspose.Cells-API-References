@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_data_tips fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_merged_cells_type Eigentum
 
-Ruft den Typ der automatischen Anpassung der Zeilenhöhe verbundener Zellen ab und legt diesen fest.
+Ruft den Typ der automatischen Anpassung der Zeilenhöhe von verbundenen Zellen ab und legt ihn fest.
 
 ###  Bemerkungen
 

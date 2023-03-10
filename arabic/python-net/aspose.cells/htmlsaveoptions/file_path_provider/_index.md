@@ -1,4 +1,4 @@
-﻿---
+---
 title: file_path_provider الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

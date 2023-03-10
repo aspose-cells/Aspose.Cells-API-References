@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtSaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق حفظ الملف النصي.|
 

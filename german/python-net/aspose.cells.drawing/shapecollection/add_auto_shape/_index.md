@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_auto_shape Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -34,7 +34,7 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 ###  Bemerkungen
 
 Der Typ konnte nicht Chart/Comment/Picture/OleObject/Polygon/DialogBox sein
-###  Beispiele
+###  Beispiel
 
 
 ```python

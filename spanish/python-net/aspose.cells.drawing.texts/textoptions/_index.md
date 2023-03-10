@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -42,10 +42,10 @@ El tipo TextOptions expone los siguientes miembros:
 | [scheme_type](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Obtiene y establece el tipo de esquema de la fuente.|
 | [language_code](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Obtiene y establece el idioma de la interfaz de usuario.|
 | [latin_name](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Obtiene y establece el nombre latino.|
-| [far_east_name](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Obtiene y establece el nombre del Lejano Oriente.|
+| [far_east_name](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Obtiene y establece el nombre FarEast.|
 | [fill](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/fill) | Representa el formato de relleno del texto.|
 | [outline](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/outline) | Representa el formato de esquema del texto.|
-| [shadow](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica un efecto de sombra para la forma o el elemento del gráfico.|
+| [shadow](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica el efecto de sombra para la forma o el elemento del gráfico.|
 | [underline_color](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Obtiene o establece el color del subrayado.|
 | [kerning](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Especifica el tamaño de fuente mínimo en el que se producirá el interletraje de caracteres para esta ejecución de texto.|
 | [spacing](/cells/es/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Especifica el espacio entre caracteres dentro de una secuencia de texto.|

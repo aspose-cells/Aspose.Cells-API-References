@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_compatibility propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility propriété
 
-Indique si vérifier la compatibilité avec les versions antérieures lors de l'enregistrement des classeurs.
+Indique si vérifier la compatibilité avec les versions antérieures lors de l'enregistrement du classeur.
 
 ###  Remarques
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inner_mode недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ False указывает, что размер должен определять 
 
 ###  Примечания
 
-Только для файлов Xlsx.
+Только для файла Xlsx.
 ###  Определение:
 ```python
 @property

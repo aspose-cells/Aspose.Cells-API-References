@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة put_cell_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def put_cell_value(self, row_offset, column_offset, value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_offset | int | إزاحة الصف.|
 | column_offset | int | إزاحة العمود.|

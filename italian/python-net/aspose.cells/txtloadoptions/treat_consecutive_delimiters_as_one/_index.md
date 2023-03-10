@@ -1,4 +1,4 @@
-﻿---
+---
 title: treat_consecutive_delimiters_as_one proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

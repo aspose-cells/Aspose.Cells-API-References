@@ -1,4 +1,4 @@
-﻿---
+---
 title: stream_provider Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den Streamanbieter für externe Ressourcen ab und legt ihn fest.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die ResourceProvider-Eigenschaft.
  Diese Property wird 12 Monate später seit Juni 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: RenameStrategy enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo RenameStrategy espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | EXCEPTION | Genera un'eccezione.|
-| DIGIT | Nominato con una cifra I nomi duplicati diventeranno ...1, ...2, ecc.|
+| DIGIT | Denominato con cifra. I nomi duplicati diventeranno ...1, ...2, ecc.|
 | LETTER | Nominato con lettera.. I nomi duplicati diventeranno ...A, ...B, ecc.|
 
 

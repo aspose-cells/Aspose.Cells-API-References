@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,7 +25,7 @@ El tipo ShapeCollection expone los siguientes miembros:
 | :- | :- |
 | [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Agregue una forma al gráfico. Todas las unidades son 1/4000 del área del gráfico.|
 | [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Agregue una forma al gráfico. Todas las unidades son 1/4000 del área del gráfico.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Agregue una forma al gráfico.Todas las unidades son una escala porcentual del área del gráfico.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Agrega una forma al gráfico. Todas las unidades son una escala porcentual del área del gráfico.|
 | [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Agregue una forma al gráfico. Todas las unidades son 1/4000 del área del gráfico.|
 | [add_picture(upper_left_row, upper_left_column, lower_right_row, lower_right_column, stream)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-int-int-io.RawIOBase) | Agrega una imagen a la colección.|
 | [add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-io.RawIOBase-int-int) | Agrega una imagen a la colección.|
@@ -40,11 +40,11 @@ El tipo ShapeCollection expone los siguientes miembros:
 | [add_check_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_check_box/#int-int-int-int-int-int) | Agrega una casilla de verificación a la hoja de cálculo.|
 | [add_text_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_text_box/#int-int-int-int-int-int) | Agrega un cuadro de texto a la hoja de cálculo.|
 | [add_spinner(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_spinner/#int-int-int-int-int-int) | Agrega un Spinner a la hoja de trabajo.|
-| [add_scroll_bar(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_scroll_bar/#int-int-int-int-int-int) | Agrega una barra de desplazamiento a la hoja de trabajo.|
-| [add_radio_button(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_radio_button/#int-int-int-int-int-int) | Agrega un RadioButton a la hoja de trabajo.|
-| [add_list_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_list_box/#int-int-int-int-int-int) | Agrega un ListBox a la hoja de cálculo.|
+| [add_scroll_bar(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_scroll_bar/#int-int-int-int-int-int) | Agrega una barra de desplazamiento a la hoja de cálculo.|
+| [add_radio_button(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_radio_button/#int-int-int-int-int-int) | Agrega un RadioButton a la hoja de cálculo.|
+| [add_list_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_list_box/#int-int-int-int-int-int) | Agrega un ListBox a la hoja de trabajo.|
 | [add_combo_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_combo_box/#int-int-int-int-int-int) | Agrega un ComboBox a la hoja de trabajo.|
-| [add_group_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_group_box/#int-int-int-int-int-int) |Agrega un GroupBox a la hoja de trabajo.|
+| [add_group_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_group_box/#int-int-int-int-int-int) |Agrega un GroupBox a la hoja de cálculo.|
 | [add_button(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_button/#int-int-int-int-int-int) | Agrega un botón a la hoja de trabajo.|
 | [add_label(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_label/#int-int-int-int-int-int) | Agrega una etiqueta a la hoja de trabajo.|
 | [add_label_in_chart(top, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_label_in_chart/#int-int-int-int) | Agrega una etiqueta al gráfico.|
@@ -54,10 +54,10 @@ El tipo ShapeCollection expone los siguientes miembros:
 | [add_word_art(style, text, upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_word_art/#PresetWordArtStyle-str-int-int-int-int-int-int) | Agrega WordArt predeterminado desde Excel 2007.s|
 | [add_rectangle(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_rectangle/#int-int-int-int-int-int) | Agrega un RectangleShape a la hoja de cálculo.|
 | [add_oval(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_oval/#int-int-int-int-int-int) | Agrega un óvalo a la hoja de cálculo.|
-| [add_line(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_line/#int-int-int-int-int-int) | Agrega un LineShape a la hoja de trabajo.|
+| [add_line(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_line/#int-int-int-int-int-int) | Agrega un LineShape a la hoja de cálculo.|
 | [add_free_floating_shape(type, top, left, height, width, image_data, is_original_size)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_free_floating_shape/#MsoDrawingType-int-int-int-int-bytes-bool) | Agrega una forma flotante libre a la hoja de cálculo. Solo se aplica a la forma de línea/imagen.|
 | [add_arc(upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_arc/#int-int-int-int-int-int) | Agrega un ArcShape a la hoja de trabajo.|
-| [add_shape(type, upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_shape/#MsoDrawingType-int-int-int-int-int-int) | Agrega una forma a la hoja de trabajo.|
+| [add_shape(type, upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_shape/#MsoDrawingType-int-int-int-int-int-int) | Agrega una forma a la hoja de cálculo.|
 | [add_auto_shape(type, upper_left_row, top, upper_left_column, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_auto_shape/#AutoShapeType-int-int-int-int-int-int) | Agrega una autoforma a la hoja de trabajo.|
 | [add_auto_shape_in_chart(type, top, left, height, width)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_auto_shape_in_chart/#AutoShapeType-int-int-int-int) | Agrega una autoforma al gráfico.|
 | [add_active_x_control(type, top_row, top, left_column, left, width, height)](/cells/es/python-net/aspose.cells.drawing/shapecollection/add_active_x_control/#aspose.cells.drawing.activexcontrols.ControlType-int-int-int-int-int-int) | Crea un Control Activex.|
@@ -70,15 +70,15 @@ El tipo ShapeCollection expone los siguientes miembros:
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/es/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) | Copie todos los comentarios en el rango.|
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/es/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) | Copie formas en el rango al rango de destino.|
 | [delete_in_range(ca)](/cells/es/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Eliminar formas en el rango. Las formas de comentarios no se eliminarán.|
-| [delete_shape(shape)](/cells/es/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Eliminar una forma Si la forma está en el grupo o es una forma de comentario, no se eliminará.|
+| [delete_shape(shape)](/cells/es/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Eliminar una forma. Si la forma está en el grupo o es una forma de comentario, no se eliminará.|
 | [group(group_items)](/cells/es/python-net/aspose.cells.drawing/shapecollection/group/#list) | Agrupa las formas.|
-| [ungroup(group)](/cells/es/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Desagrupe los elementos de forma.|
+| [ungroup(group)](/cells/es/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Desagrupa los elementos de forma.|
 | [update_selected_value()](/cells/es/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) | Actualice el valor seleccionado por el valor de la celda vinculada de las formas.|
 | [binary_search(item)](/cells/es/python-net/aspose.cells.drawing/shapecollection/binary_search/#Shape) | Busca un elemento en toda la lista de matrices ordenadas mediante el comparador predeterminado y devuelve el índice de base cero del elemento.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

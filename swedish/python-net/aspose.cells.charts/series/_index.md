@@ -1,4 +1,4 @@
-﻿---
+---
 title: Series klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen Series avslöjar följande medlemmar:
 | :- | :- |
 | [layout_properties](/cells/sv/python-net/aspose.cells.charts/series/layout_properties) | Representerar egenskaperna för layout.|
 | [points](/cells/sv/python-net/aspose.cells.charts/series/points) | Får samlingen av poäng i en serie i ett diagram.|
-| [area](/cells/sv/python-net/aspose.cells.charts/series/area) | Representerar bakgrundsområdet för serieobjekt.|
+| [area](/cells/sv/python-net/aspose.cells.charts/series/area) | Representerar bakgrundsområdet för serieobjektet.|
 | [border](/cells/sv/python-net/aspose.cells.charts/series/border) | Representerar kanten på serieobjektet.|
 | [name](/cells/sv/python-net/aspose.cells.charts/series/name) | Hämtar eller ställer in namnet på dataserien.|
 | [display_name](/cells/sv/python-net/aspose.cells.charts/series/display_name) | Hämtar seriens namn som visas på diagrammet.|
@@ -27,7 +27,7 @@ Typen Series avslöjar följande medlemmar:
 | [is_vertical_values](/cells/sv/python-net/aspose.cells.charts/series/is_vertical_values) | Anger om datakällan är vertikal.|
 | [values](/cells/sv/python-net/aspose.cells.charts/series/values) | Representerar data för diagramserien.|
 | [values_format_code](/cells/sv/python-net/aspose.cells.charts/series/values_format_code) | Representerar formatkoden för Values NumberList.|
-| [x_values](/cells/sv/python-net/aspose.cells.charts/series/x_values) | Representerar x-värdena i diagramserien.|
+| [x_values](/cells/sv/python-net/aspose.cells.charts/series/x_values) | Representerar x-värdena för diagramserien.|
 | [bubble_sizes](/cells/sv/python-net/aspose.cells.charts/series/bubble_sizes) | Hämtar eller ställer in bubbelstorlekarna för diagramserien.|
 | [trend_lines](/cells/sv/python-net/aspose.cells.charts/series/trend_lines) | Returnerar ett objekt som representerar en samling av alla trendlinjer för serien.|
 | [smooth](/cells/sv/python-net/aspose.cells.charts/series/smooth) | Representerar kurvutjämning.<br/>Sant om kurvutjämning är aktiverat för linjediagrammet eller punktdiagrammet.<br/> Gäller endast för linje och spridning kopplade med linjediagram.|
@@ -43,7 +43,7 @@ Typen Series avslöjar följande medlemmar:
 | [y_error_bar](/cells/sv/python-net/aspose.cells.charts/series/y_error_bar) | Representerar Y-riktningsfelstapeln i serien.|
 | [has_hi_lo_lines](/cells/sv/python-net/aspose.cells.charts/series/has_hi_lo_lines) | Sant om linjediagrammet har hög-låg linjer.<br/> Gäller endast linjediagram.|
 | [hi_lo_lines](/cells/sv/python-net/aspose.cells.charts/series/hi_lo_lines) | Returnerar ett HiLoLines-objekt som representerar hög-låg-linjerna för en serie på ett linjediagram.<br/> Gäller endast linjediagram.|
-| [has_series_lines](/cells/sv/python-net/aspose.cells.charts/series/has_series_lines) | Sant om ett staplat kolumndiagram eller stapeldiagram har serielinjer eller<br/> om ett cirkeldiagram eller ett cirkeldiagram har anslutningslinjer mellan de två sektionerna.<br/> Gäller endast staplade kolumndiagram, stapeldiagram, cirkeldiagram eller stapeldiagram.|
+| [has_series_lines](/cells/sv/python-net/aspose.cells.charts/series/has_series_lines) | Sant om ett staplat kolumndiagram eller stapeldiagram har serielinjer eller<br/> om ett cirkeldiagram eller ett cirkeldiagram har anslutningslinjer mellan de två sektionerna.<br/> Gäller endast staplade kolumndiagram, stapeldiagram, cirkeldiagram eller cirkeldiagram.|
 | [series_lines](/cells/sv/python-net/aspose.cells.charts/series/series_lines) | Returnerar ett SeriesLines-objekt som representerar serielinjerna för ett staplat stapeldiagram eller ett staplat kolumndiagram.<br/> Gäller endast staplade stapel- och staplade kolumndiagram.|
 | [has_drop_lines](/cells/sv/python-net/aspose.cells.charts/series/has_drop_lines) |Sant om diagrammet har dropplinjer.<br/> Gäller endast linjediagram eller områdesdiagram.|
 | [drop_lines](/cells/sv/python-net/aspose.cells.charts/series/drop_lines) | Returnerar ett [Line](/cells/sv/python-net/aspose.cells.drawing/line)-objekt som representerar dropplinjerna för en serie på linjediagrammet eller ytdiagrammet.<br/> Gäller endast linjediagram eller områdesdiagram.|
@@ -52,7 +52,7 @@ Typen Series avslöjar följande medlemmar:
 | [down_bars](/cells/sv/python-net/aspose.cells.charts/series/down_bars) | Returnerar ett [DropBars](/cells/sv/python-net/aspose.cells.charts/dropbars)-objekt som representerar nedstaplarna på ett linjediagram.<br/> Gäller endast linjediagram.|
 | [is_color_varied](/cells/sv/python-net/aspose.cells.charts/series/is_color_varied) | Representerar om färgen på punkterna varieras.<br/> Diagrammet får endast innehålla en serie.|
 | [gap_width](/cells/sv/python-net/aspose.cells.charts/series/gap_width) | Returnerar eller ställer in utrymmet mellan stapel- eller kolumnkluster, som en procentandel av stapelns eller kolumnbredden.<br/>Värdet på den här egenskapen måste vara mellan 0 och 500.|
-| [first_slice_angle](/cells/sv/python-net/aspose.cells.charts/series/first_slice_angle) | Hämtar eller ställer in vinkeln för det första cirkeldiagrammet eller munkdiagrammet, i grader (medurs från vertikalt).<br/> Gäller endast paj-, 3D-paj- och munkdiagram, 0 till 360.|
+| [first_slice_angle](/cells/sv/python-net/aspose.cells.charts/series/first_slice_angle) | Hämtar eller ställer in vinkeln för det första cirkeldiagrammet eller munkdiagrammet, i grader (medsols från lodrät).<br/> Gäller endast paj-, 3D-paj- och munkdiagram, 0 till 360.|
 | [overlap](/cells/sv/python-net/aspose.cells.charts/series/overlap) | Anger hur staplar och kolumner är placerade.<br/> Kan vara ett värde mellan – 100 och 100.<br/> Gäller endast 2D-stapel- och 2D-kolumndiagram.|
 | [second_plot_size](/cells/sv/python-net/aspose.cells.charts/series/second_plot_size) | Returnerar eller ställer in storleken på den sekundära sektionen av antingen ett cirkeldiagram eller ett cirkeldiagram,<br/>som en procentandel av storleken på den primära pajen.<br/> Kan vara ett värde från 5 till 200.|
 | [split_type](/cells/sv/python-net/aspose.cells.charts/series/split_type) |Returnerar eller ställer in ett värde som hur man bestämmer vilka datapunkter som finns i den andra cirkeln eller stapeln på en paj eller stapel av<br/> tårtdiagram.|
@@ -63,9 +63,9 @@ Typen Series avslöjar följande medlemmar:
 | [show_negative_bubbles](/cells/sv/python-net/aspose.cells.charts/series/show_negative_bubbles) | Sant om negativa bubblor visas för diagramgruppen. Gäller endast för bubbeldiagram.|
 | [doughnut_hole_size](/cells/sv/python-net/aspose.cells.charts/series/doughnut_hole_size) | Returnerar eller ställer in storleken på hålet i en munkdiagramgrupp.<br/> Hålstorleken uttrycks i procent av diagramstorleken, mellan 10 och 90 procent.|
 | [explosion](/cells/sv/python-net/aspose.cells.charts/series/explosion) | Avståndet för en öppen pajskiva från mitten av cirkeldiagrammet uttrycks i procent av pajdiametern.|
-| [has_radar_axis_labels](/cells/sv/python-net/aspose.cells.charts/series/has_radar_axis_labels) | Sant om ett radardiagram har kategoriaxeletiketter.|
+| [has_radar_axis_labels](/cells/sv/python-net/aspose.cells.charts/series/has_radar_axis_labels) | Sant om ett radardiagram har kategoriaxeletiketter. Gäller endast radarsjökort.|
 | [has_leader_lines](/cells/sv/python-net/aspose.cells.charts/series/has_leader_lines) | Sant om serien har ledarlinjer.|
-| [leader_lines](/cells/sv/python-net/aspose.cells.charts/series/leader_lines) | Representerar ledarlinjer på ett diagram. Ledarlinjer kopplar dataetiketter till datapunkter.<br/>Det här objektet är inte en samling, det finns inget objekt som representerar en enda ledarlinje.|
+| [leader_lines](/cells/sv/python-net/aspose.cells.charts/series/leader_lines) | Representerar ledarlinjer på ett diagram. Ledarlinjer kopplar dataetiketter till datapunkter.<br/>Detta objekt är inte en samling; det finns inget objekt som representerar en enda ledarlinje.|
 | [legend_entry](/cells/sv/python-net/aspose.cells.charts/series/legend_entry) | Får legendposten enligt denna serie.|
 | [shape_properties](/cells/sv/python-net/aspose.cells.charts/series/shape_properties) | Hämtar objektet [ShapePropertyCollection](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection) som har seriens visuella formegenskaper.|
 

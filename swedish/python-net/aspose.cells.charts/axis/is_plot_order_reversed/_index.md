@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_plot_order_reversed fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

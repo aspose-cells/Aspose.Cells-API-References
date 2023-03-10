@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.pivot
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,7 +14,7 @@ is_root: false
 | :- | :- |
 | [PivotField](/cells/es/python-net/aspose.cells.pivot/pivotfield) |Representa un campo en un informe de tabla dinámica.|
 | [PivotFieldCollection](/cells/es/python-net/aspose.cells.pivot/pivotfieldcollection) | Representa una colección de todos los objetos PivotField.<br/> en el tipo de PivotFields específico de la tabla dinámica.|
-| [PivotFilter](/cells/es/python-net/aspose.cells.pivot/pivotfilter) | Representa un PivotFilter en la colección PivotFilter.|
+| [PivotFilter](/cells/es/python-net/aspose.cells.pivot/pivotfilter) | Representa un PivotFilter en PivotFilter Collection.|
 | [PivotFilterCollection](/cells/es/python-net/aspose.cells.pivot/pivotfiltercollection) | Representa una colección de todos los objetos PivotFilter.|
 | [PivotFormatCondition](/cells/es/python-net/aspose.cells.pivot/pivotformatcondition) | Representa una condición de formato de tabla dinámica en la colección PivotFormatCondition.|
 | [PivotFormatConditionCollection](/cells/es/python-net/aspose.cells.pivot/pivotformatconditioncollection) | Representa condiciones de formato de tabla dinámica.|

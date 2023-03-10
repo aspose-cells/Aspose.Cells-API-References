@@ -1,4 +1,4 @@
-﻿---
+---
 title: input_cells الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

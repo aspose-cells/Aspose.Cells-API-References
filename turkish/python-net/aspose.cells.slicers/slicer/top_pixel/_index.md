@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_pixel mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyici şeklinin üst satırından dikey uzaklığını piksel cinsinden döndürür veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

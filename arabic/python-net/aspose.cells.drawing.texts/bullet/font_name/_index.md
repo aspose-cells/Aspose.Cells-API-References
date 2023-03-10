@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name الملكية
 
-احصل على اسم الخط وقم بتعيينه.
+الحصول على اسم الخط وتعيينه.
 ###  تعريف:
 ```python
 @property

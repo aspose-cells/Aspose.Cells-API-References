@@ -1,4 +1,4 @@
-﻿---
+---
 title: string_value propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Devuelve o establece el valor de la propiedad personalizada.
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
  utilice la propiedad CustomProperty.Value.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

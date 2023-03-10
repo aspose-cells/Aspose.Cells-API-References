@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_rows_allowed proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se la formattazione delle righe è consentita in un foglio di lavoro prot
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
  utilizzare la proprietà Protection.AllowFormattingRow.
  Questa proprietà verrà rimossa 12 mesi dopo da giugno 2010.
 Aspose si scusa per gli eventuali disagi causati.

@@ -1,6 +1,6 @@
-﻿---
+---
 title: embed_ooxml_as_ole_object 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 70
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-仅适用于 Ole 对象。
+仅适用于 OleObject。
 ### 定义：
 ```python
 @property

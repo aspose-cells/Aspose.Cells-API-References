@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_columns metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def insert_columns(self, column_index, total_columns):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 | total_columns | int | Antalet kolumner.|
@@ -35,7 +35,7 @@ def insert_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | Kolumnindex.|
 | total_columns | int | Antalet kolumner.|

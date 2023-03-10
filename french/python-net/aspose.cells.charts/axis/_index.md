@@ -1,4 +1,4 @@
-﻿---
+---
 title: Axis classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -37,9 +37,9 @@ Le type Axis expose les membres suivants :
 | [is_plot_order_reversed](/cells/fr/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Représente si Microsoft Excel trace les points de données du dernier au premier.|
 | [axis_between_categories](/cells/fr/python-net/aspose.cells.charts/axis/axis_between_categories) | Représente si l'axe des valeurs croise l'axe des catégories entre les catégories.|
 | [tick_labels](/cells/fr/python-net/aspose.cells.charts/axis/tick_labels) | Renvoie un objet [Axis.tick_labels](/cells/fr/python-net/aspose.cells.charts/axis#tick_labels) qui représente les étiquettes de graduation pour l'axe spécifié.|
-| [tick_label_spacing](/cells/fr/python-net/aspose.cells.charts/axis/tick_label_spacing) |Représente le nombre de catégories ou de séries entre les étiquettes de graduation.|
+| [tick_label_spacing](/cells/fr/python-net/aspose.cells.charts/axis/tick_label_spacing) |Représente le nombre de catégories ou de séries entre les étiquettes de graduation. S'applique uniquement aux axes de catégorie et de série.|
 | [is_auto_tick_label_spacing](/cells/fr/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Indique si l'espacement du libellé de la coche est automatique|
-| [tick_mark_spacing](/cells/fr/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Renvoie ou définit le nombre de catégories ou de séries entre les graduations.|
+| [tick_mark_spacing](/cells/fr/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Renvoie ou définit le nombre de catégories ou de séries entre les graduations. S'applique uniquement aux axes de catégorie et de série.|
 | [display_unit](/cells/fr/python-net/aspose.cells.charts/axis/display_unit) | Représente l'étiquette d'unité pour l'axe spécifié.|
 | [cust_unit](/cells/fr/python-net/aspose.cells.charts/axis/cust_unit) | Spécifie une valeur personnalisée pour l'unité d'affichage.|
 | [custom_unit](/cells/fr/python-net/aspose.cells.charts/axis/custom_unit) | Spécifie une valeur personnalisée pour l'unité d'affichage.|
@@ -54,12 +54,12 @@ Le type Axis expose les membres suivants :
 | [major_grid_lines](/cells/fr/python-net/aspose.cells.charts/axis/major_grid_lines) | Représente le quadrillage principal sur un axe de graphique.|
 | [minor_grid_lines](/cells/fr/python-net/aspose.cells.charts/axis/minor_grid_lines) | Représente un quadrillage secondaire sur un axe de graphique.|
 | [has_multi_level_labels](/cells/fr/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Indique si les étiquettes doivent être affichées à plusieurs niveaux.|
-| [axis_labels](/cells/fr/python-net/aspose.cells.charts/axis/axis_labels) | Obtient les étiquettes de l'axe après avoir appelé la méthode Chart.Calculate().|
+| [axis_labels](/cells/fr/python-net/aspose.cells.charts/axis/axis_labels) | Obtient les étiquettes de l'axe après l'appel de la méthode Chart.Calculate().|
 | [bins](/cells/fr/python-net/aspose.cells.charts/axis/bins) | Représente les bacs sur un axe de graphique (Histogramme/Pareto)|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

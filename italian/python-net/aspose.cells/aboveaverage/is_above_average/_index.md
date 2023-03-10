@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_above_average proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
  Ottieni o imposta il flag che indica se la regola è una regola "sopra la media".
 true' indica 'sopra la media'.
-Il valore predefinito è vero.
+Il valore predefinito è true.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_xml yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,14 +18,14 @@ def import_xml(self, url, sheet_name, row, col):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | url | str | xml dosyasının url'si/yolu.|
 | sheet_name | str | hedef sayfa adı.|
 | row | int | hedef satır|
 | col | int | hedef sütun|
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, xml verilerini Cell A1'deki 'Sayfa 1' çalışma sayfasına aktarır.
 
@@ -50,7 +50,7 @@ def import_xml(self, stream, sheet_name, row, col):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | xml dosya akışı.|
 | sheet_name | str | hedef sayfa adı.|

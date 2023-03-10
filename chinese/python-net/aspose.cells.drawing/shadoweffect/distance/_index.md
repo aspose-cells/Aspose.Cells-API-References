@@ -1,6 +1,6 @@
-﻿---
+---
 title: distance 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## distance 属性
 
-获取和设置阴影的distance。范围从0到200点。
+获取和设置影子的 distance。范围从 0 到 200 点。
 ### 定义：
 ```python
 @property

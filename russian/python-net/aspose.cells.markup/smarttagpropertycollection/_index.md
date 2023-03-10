@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagPropertyCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.markup/smarttagpropertycollection/
 is_root: false
 ---
 ##  SmartTagPropertyCollection класс
-Представляет все свойства смарт-тегов ячеек.
+Представляет все свойства смарт-тега ячейки.
 
 
 

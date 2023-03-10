@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsSaveOptions clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -36,11 +36,11 @@ El tipo XlsSaveOptions expone los siguientes miembros:
 | [merge_areas](/cells/es/python-net/aspose.cells/xlssaveoptions/merge_areas) | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo.|
 | [create_directory](/cells/es/python-net/aspose.cells/xlssaveoptions/create_directory) | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo.|
 | [sort_names](/cells/es/python-net/aspose.cells/xlssaveoptions/sort_names) | Indica si ordenar los nombres definidos antes de guardar el archivo.|
-| [sort_external_names](/cells/es/python-net/aspose.cells/xlssaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externamente antes de guardar el archivo.|
+| [sort_external_names](/cells/es/python-net/aspose.cells/xlssaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externos antes de guardar el archivo.|
 | [refresh_chart_cache](/cells/es/python-net/aspose.cells/xlssaveoptions/refresh_chart_cache) | Indica si se actualizan los datos de la memoria caché del gráfico|
-| [warning_callback](/cells/es/python-net/aspose.cells/xlssaveoptions/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
+| [warning_callback](/cells/es/python-net/aspose.cells/xlssaveoptions/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
 | [update_smart_art](/cells/es/python-net/aspose.cells/xlssaveoptions/update_smart_art) | Indica si se está actualizando la configuración de arte inteligente.<br/> El valor predeterminado es falso.|
-| [light_cells_data_provider](/cells/es/python-net/aspose.cells/xlssaveoptions/light_cells_data_provider) | El proveedor de datos para proporcionar datos de celdas para guardar libros de trabajo en modo ligero.|
+| [light_cells_data_provider](/cells/es/python-net/aspose.cells/xlssaveoptions/light_cells_data_provider) | El proveedor de datos para proporcionar datos de celdas para guardar el libro de trabajo en modo ligero.|
 | [is_template](/cells/es/python-net/aspose.cells/xlssaveoptions/is_template) | Indica si se guarda un archivo de plantilla.|
 | [match_color](/cells/es/python-net/aspose.cells/xlssaveoptions/match_color) | Indica si el color de la fuente coincide porque hay 56 colores en la paleta de colores estándar.|
 

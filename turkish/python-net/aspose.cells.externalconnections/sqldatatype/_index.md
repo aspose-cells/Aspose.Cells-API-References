@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType numaralandırma
-Parametrenin SQL veri türünü belirtir.
+Parametrenin SQL veri türünü belirtir. Yalnızca ODBC kaynakları için geçerlidir.
 
 
 
@@ -19,7 +19,7 @@ SqlDataType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | sql işaretsiz ofset|
 | SQL_SIGNED_OFFSET | sql imzalı ofset|
-| SQL_GUID | sql kılavuzları|
+| SQL_GUID | sql kılavuzu|
 | SQL_W_LONG_VARCHAR | sql geniş uzun değişken karakter|
 | SQL_W_VARCHAR | sql geniş değişken karakter|
 | SQL_W_CHAR | sql geniş karakter|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: inner_arc_end_point_x_px الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  inner_arc_end_point_x_px الملكية
 
 الحصول على إحداثيات x لنقطة النهاية للقسم الدائري بعد استدعاء طريقة Chart.Calculate ().
-ينطبق على المخطط الدائري المجوف.
+ينطبق على الرسم البياني الدائري المجوف.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_equation propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation propiedad
 
-Representa si la ecuación de la línea de tendencia se muestra en el gráfico (en la misma etiqueta de datos que el valor R-cuadrado).
+Representa si la ecuación de la línea de tendencia se muestra en el gráfico (en la misma etiqueta de datos que el valor R-cuadrado). Establecer esta propiedad en True activa automáticamente las etiquetas de datos.
 ###  Definición:
 ```python
 @property

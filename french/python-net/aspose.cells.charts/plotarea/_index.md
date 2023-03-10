@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotArea classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -28,10 +28,10 @@ Le type PlotArea expose les membres suivants :
 | [text_font](/cells/fr/python-net/aspose.cells.charts/plotarea/text_font) | Obtient un objet [ChartFrame.font](/cells/fr/python-net/aspose.cells.charts/chartframe#font) de l'objet ChartFrame spécifié.|
 | [text_options](/cells/fr/python-net/aspose.cells.charts/plotarea/text_options) | Obtient et définit les options du texte.|
 | [font](/cells/fr/python-net/aspose.cells.charts/plotarea/font) | Obtient un objet [ChartFrame.font](/cells/fr/python-net/aspose.cells.charts/chartframe#font) de l'objet ChartFrame spécifié.|
-| [auto_scale_font](/cells/fr/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change.|
+| [auto_scale_font](/cells/fr/python-net/aspose.cells.charts/plotarea/auto_scale_font) | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai.|
 | [background_mode](/cells/fr/python-net/aspose.cells.charts/plotarea/background_mode) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [background](/cells/fr/python-net/aspose.cells.charts/plotarea/background) | Obtient et définit le mode d'affichage de l'arrière-plan|
-| [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indique si la zone de traçage est automatiquement dimensionnée.|
+| [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indique si la zone de traçage est dimensionnée automatiquement.|
 | [x](/cells/fr/python-net/aspose.cells.charts/plotarea/x) | Obtient ou obtient la coordonnée x du coin supérieur gauche de la zone de délimitation de la zone de tracé en unités de 1/4000 de la zone du graphique.|
 | [y](/cells/fr/python-net/aspose.cells.charts/plotarea/y) | Obtient ou obtient la coordonnée y du coin supérieur supérieur de la zone de délimitation de la zone de tracé en unités de 1/4000 de la zone du graphique.|
 | [height](/cells/fr/python-net/aspose.cells.charts/plotarea/height) |Obtient ou définit la hauteur du cadre de délimitation de la zone de tracé en unités de 1/4 000 de la zone de graphique.|

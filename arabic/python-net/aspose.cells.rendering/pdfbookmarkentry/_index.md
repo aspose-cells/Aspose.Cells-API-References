@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfBookmarkEntry الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -34,7 +34,7 @@ PdfBookmarkEntry هو إدخال في المرجعية pdf.
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

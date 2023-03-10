@@ -1,4 +1,4 @@
-﻿---
+---
 title: area propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  area propiedad
 
-Obtiene el rango de hipervínculos.
+Obtiene el rango del hipervínculo.
 ###  Definición:
 ```python
 @property

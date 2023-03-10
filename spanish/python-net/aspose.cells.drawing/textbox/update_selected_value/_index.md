@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_selected_value método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ def update_selected_value(self):
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose import pycore

@@ -1,4 +1,4 @@
-﻿---
+---
 title: underflow الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  underflow الملكية
 
-الحصول على أو تحديد underflow لحاويات المحور
+الحصول على أو تعيين underflow لحاويات المحور
 ###  تعريف:
 ```python
 @property

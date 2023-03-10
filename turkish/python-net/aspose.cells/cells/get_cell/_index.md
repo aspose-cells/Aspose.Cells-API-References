@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -23,7 +23,7 @@ def get_cell(self, row, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini|
 | column | int | Sütun dizini|

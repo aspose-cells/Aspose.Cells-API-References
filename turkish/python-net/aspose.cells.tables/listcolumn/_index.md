@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListColumn sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -33,7 +33,7 @@ ListColumn türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellsHelper, Workbook

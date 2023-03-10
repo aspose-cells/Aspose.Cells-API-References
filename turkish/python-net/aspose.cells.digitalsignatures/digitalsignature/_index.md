@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignature sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ DigitalSignature türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/tr/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Dijital İmza oluşturucu. Bouncy Castle uygulamasını kullanır.|
+| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/tr/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | DigitalSignature'ın kurucusu. Bouncy Castle uygulamasını kullanır.|
 
 
 ###  Özellikler

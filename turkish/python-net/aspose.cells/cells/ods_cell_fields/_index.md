@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields mülk
 
-Oran alanlarının listesini alır.
+ods alanlarının listesini alır.
 ###  Tanım:
 ```python
 @property

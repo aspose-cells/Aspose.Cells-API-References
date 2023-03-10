@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_input_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,12 +22,12 @@ def get_input_range(self, is_r1c1, is_local):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | is_r1c1 | bool | Нужно ли форматировать формулу как R1C1.|
 | is_local | bool | Нужно ли форматировать формулу по локали.|
 
-###  Примеры
+###  Пример
 
 ```python
 

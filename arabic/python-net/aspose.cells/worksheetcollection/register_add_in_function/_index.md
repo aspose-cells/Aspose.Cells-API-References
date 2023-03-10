@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة register_add_in_function
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def register_add_in_function(self, id, function_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | id | int | معرف البيانات التي تحتوي على وظائف إضافية ،<br/> يمكن الحصول عليها من خلال المكالمة الأولى من [WorksheetCollection.register_add_in_function(add_in_file, function_name, lib)](/cells/ar/python-net/aspose.cells/worksheetcollection/register_add_in_function) لنفس ملف الوظيفة الإضافية.|
 | function_name | str | اسم وظيفة الوظيفة الإضافية|
@@ -43,11 +43,11 @@ def register_add_in_function(self, add_in_file, function_name, lib):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | add_in_file | str | يحتوي الملف على وظائف الوظيفة الإضافية|
 | function_name | str | اسم وظيفة الوظيفة الإضافية|
-| lib | bool | ما إذا كان ملف الوظيفة الإضافية المحدد موجودًا في الدليل أو الدليل الفرعي لمكتبة Workbook Add-In.<br/>تسري هذه العلامة وتحدث فرقًا عندما يكون ملف addIn المعطى ذا مسار نسبي:<br/> تشير القيمة true إلى أن المسار متعلق بمكتبة الوظائف الإضافية بينما تشير القيمة false إلى أن المسار مرتبط بهذا المصنف.|
+| lib | bool | ما إذا كان الملف الإضافي المحدد موجودًا في الدليل أو الدليل الفرعي لمكتبة Workbook Add-In.<br/>تسري هذه العلامة وتحدث فرقًا عندما يكون ملف addIn المعطى ذا مسار نسبي:<br/> تشير القيمة true إلى أن المسار متعلق بمكتبة الوظائف الإضافية بينما تشير القيمة false إلى أن المسار مرتبط بهذا المصنف.|
 
 
 

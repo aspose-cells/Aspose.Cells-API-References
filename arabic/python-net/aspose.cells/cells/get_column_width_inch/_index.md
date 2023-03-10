@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_column_width_inch
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-عرض الأعمدة
+عرض العمود
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width_inch(self, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود|
 

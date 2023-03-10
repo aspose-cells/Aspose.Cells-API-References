@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_subtotal_at_top propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

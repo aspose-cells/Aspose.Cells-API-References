@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_row метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def start_row(self, row):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row | [Row](/cells/ru/python-net/aspose.cells/row) | Объект строки для реализации для заполнения данных. Его индекс строки — это возвращаемое значение последнего вызова [LightCellsDataProvider.next_row()](/cells/ru/python-net/aspose.cells/lightcellsdataprovider/next_row).<br/>Если строка была инициализирована во внутренней модели ячеек, будет использоваться существующий объект строки.<br/> В противном случае для реализации будет использоваться временный объект Row для заполнения данных.|
 ###  Примечания

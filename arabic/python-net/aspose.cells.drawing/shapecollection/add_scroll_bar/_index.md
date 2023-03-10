@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_scroll_bar
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ ScrollBar من صفه الأيسر ، بوحدة بكسل.|
@@ -31,7 +31,7 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 | height | int | يمثل ارتفاع شريط التمرير بوحدة بكسل.|
 | width | int | يمثل عرض شريط التمرير بوحدة بكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

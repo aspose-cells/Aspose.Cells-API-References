@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_page_size_inch
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_page_size_inch(self, page_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | page_index | int | L'indice della pagina è basato su zero.|
 

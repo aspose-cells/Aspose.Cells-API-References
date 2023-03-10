@@ -1,4 +1,4 @@
-﻿---
+---
 title: value Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  value Eigentum
 
 Nicht ganzzahlig numerisch value, Ganzzahl value, Zeichenfolge value oder Boolesch value
-als Abfrageparameter zu verwenden. Wird nur verwendet, wenn parameterType value ist.
+als Abfrageparameter verwenden. Wird nur verwendet, wenn parameterType value ist.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Range classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ Le type Range expose les membres suivants :
 | [hyperlinks](/cells/fr/python-net/aspose.cells/range/hyperlinks) | Obtient tous les liens hypertexte de la plage.|
 | [row_count](/cells/fr/python-net/aspose.cells/range/row_count) | Obtient le nombre de lignes dans la plage.|
 | [column_count](/cells/fr/python-net/aspose.cells/range/column_count) | Obtient le nombre de colonnes dans la plage.|
-| [cell_count](/cells/fr/python-net/aspose.cells/range/cell_count) | Obtient tous les nombres de cellules dans la plage.|
+| [cell_count](/cells/fr/python-net/aspose.cells/range/cell_count) | Obtient tout le nombre de cellules dans la plage.|
 | [name](/cells/fr/python-net/aspose.cells/range/name) | Obtient ou définit le nom de la plage.|
 | [refers_to](/cells/fr/python-net/aspose.cells/range/refers_to) | Obtient les références de la plage.|
 | [address](/cells/fr/python-net/aspose.cells/range/address) | Obtient l'adresse de la plage.|
@@ -42,12 +42,12 @@ Le type Range expose les membres suivants :
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [auto_fill(target)](/cells/fr/python-net/aspose.cells/range/auto_fill/#Range) | Automatique tout remplit la plage cible.|
-| [auto_fill(target, auto_fill_type)](/cells/fr/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Automatique tout remplit la plage cible.|
+| [auto_fill(target)](/cells/fr/python-net/aspose.cells/range/auto_fill/#Range) | Remplit automatiquement la plage cible.|
+| [auto_fill(target, auto_fill_type)](/cells/fr/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Remplit automatiquement la plage cible.|
 | [set_style(style, explicit_flag)](/cells/fr/python-net/aspose.cells/range/set_style/#Style-bool) | Appliquez le style de cellule.|
 | [set_style(style)](/cells/fr/python-net/aspose.cells/range/set_style/#Style) | Définit le style de la plage.|
-| [set_outline_borders(border_style, border_color)](/cells/fr/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Définit les bordures du contour autour d'une plage de cellules avec le même style et la même couleur de bordure.|
-| [set_outline_borders(border_style, border_color)](/cells/fr/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Définit les bordures du contour autour d'une plage de cellules avec le même style et la même couleur de bordure.|
+| [set_outline_borders(border_style, border_color)](/cells/fr/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Définit les bordures de contour autour d'une plage de cellules avec le même style et la même couleur de bordure.|
+| [set_outline_borders(border_style, border_color)](/cells/fr/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Définit les bordures de contour autour d'une plage de cellules avec le même style et la même couleur de bordure.|
 | [set_outline_borders(border_styles, border_colors)](/cells/fr/python-net/aspose.cells/range/set_outline_borders/#list-aspose.pydrawing.Color[]) | Définit des bordures de ligne autour d'une plage de cellules.|
 | [set_outline_border(border_edge, border_style, border_color)](/cells/fr/python-net/aspose.cells/range/set_outline_border/#BorderType-CellBorderType-CellsColor) | Définit une bordure de contour autour d'une plage de cellules.|
 | [set_outline_border(border_edge, border_style, border_color)](/cells/fr/python-net/aspose.cells/range/set_outline_border/#BorderType-CellBorderType-aspose.pydrawing.Color) | Définit une bordure de contour autour d'une plage de cellules.|
@@ -71,7 +71,7 @@ Le type Range expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

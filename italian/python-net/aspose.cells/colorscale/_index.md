@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ColorScale
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  classe ColorScale
  Descrivi la regola di formattazione condizionale ColorScale.
-Questa regola di formattazione condizionale crea una scala di colori graduata sulle celle.
+Questa regola di formattazione condizionale crea una scala di colori sfumati sulle celle.
 
 
 

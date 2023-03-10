@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_view_column_width_pixel Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

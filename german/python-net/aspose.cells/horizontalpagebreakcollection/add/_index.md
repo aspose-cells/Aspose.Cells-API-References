@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/horizontalpagebreakcollection/add/
 is_root: false
 ---
 ##  add(row) {#int}
-Fügt der Sammlung einen horizontalen Seitenumbruch hinzu.
+Fügt der Auflistung einen horizontalen Seitenumbruch hinzu.
 
 
 ###  Kehrt zurück
@@ -31,7 +31,7 @@ Der Seitenumbruch wird oben links in der Zelle hinzugefügt.
 Bitte legen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch fest.
 
 ##  add(cell_name) {#str}
-Fügt der Sammlung einen horizontalen Seitenumbruch hinzu.
+Fügt der Auflistung einen horizontalen Seitenumbruch hinzu.
 
 
 ###  Kehrt zurück
@@ -54,7 +54,7 @@ Der Seitenumbruch wird oben links in der Zelle hinzugefügt.
 Bitte legen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch fest.
 
 ##  add(row, column) {#int-int}
-Fügt der Sammlung einen horizontalen Seitenumbruch hinzu.
+Fügt der Auflistung einen horizontalen Seitenumbruch hinzu.
 
 
 ###  Kehrt zurück
@@ -78,7 +78,7 @@ Der Seitenumbruch wird oben links in der Zelle hinzugefügt.
 Bitte legen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch fest.
 
 ##  add(row, start_column, end_column) {#int-int-int}
-Fügt der Sammlung einen horizontalen Seitenumbruch hinzu.
+Fügt der Auflistung einen horizontalen Seitenumbruch hinzu.
 
 
 ###  Kehrt zurück

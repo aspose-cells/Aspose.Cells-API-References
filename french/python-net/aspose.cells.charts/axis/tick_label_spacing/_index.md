@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_label_spacing propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing propriété
 
-Représente le nombre de catégories ou de séries entre les étiquettes de graduation.
+Représente le nombre de catégories ou de séries entre les étiquettes de graduation. S'applique uniquement aux axes de catégorie et de série.
 
 ###  Remarques
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: IWarningCallback klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/iwarningcallback/
 is_root: false
 ---
 ##  IWarningCallback klass
-Callback gränssnitt för varning.
+Återuppringningsgränssnitt för varning.
 
 
 

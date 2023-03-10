@@ -1,4 +1,4 @@
-﻿---
+---
 title: sever_command propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -12,7 +12,7 @@ is_root: false
  Especifica una segunda cadena de texto de comando que se conserva cuando se basa en un servidor de tabla dinámica.
  los campos de la página están en uso.
  Para las conexiones ODBC, serverCommand suele ser una consulta más amplia que el comando (no
-La cláusula WHERE está presente en el primero).
+La cláusula WHERE está presente en el primero). Basado en estos 2 comandos (Command y ServerCommand),
 la interfaz de usuario del parámetro se puede completar y las consultas parametrizadas se pueden construir
 ###  Definición:
 ```python

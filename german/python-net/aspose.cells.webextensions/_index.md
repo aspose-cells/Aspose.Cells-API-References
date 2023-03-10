@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,13 +15,13 @@ is_root: false
 | [WebExtension](/cells/de/python-net/aspose.cells.webextensions/webextension) | Stellt eine Office-Add-In-Instanz dar.|
 | [WebExtensionBinding](/cells/de/python-net/aspose.cells.webextensions/webextensionbinding) | Stellt eine Bindungsbeziehung zwischen einem Office-Add-In und den Daten im Dokument dar.|
 | [WebExtensionBindingCollection](/cells/de/python-net/aspose.cells.webextensions/webextensionbindingcollection) |Stellt die Liste der Bindungsbeziehungen zwischen einem Office-Add-In und den Daten im Dokument dar.|
-| [WebExtensionCollection](/cells/de/python-net/aspose.cells.webextensions/webextensioncollection) | Stellt die Liste der Weberweiterungen dar.|
+| [WebExtensionCollection](/cells/de/python-net/aspose.cells.webextensions/webextensioncollection) | Stellt die Liste der Weberweiterung dar.|
 | [WebExtensionProperty](/cells/de/python-net/aspose.cells.webextensions/webextensionproperty) | Stellt eine benutzerdefinierte Eigenschaft eines Office-Add-Ins dar.|
 | [WebExtensionPropertyCollection](/cells/de/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Stellt die Liste der Weberweiterungseigenschaften dar.|
-| [WebExtensionReference](/cells/de/python-net/aspose.cells.webextensions/webextensionreference) | Stellt den Standort des Anbieters und die Version der Erweiterung dar.|
+| [WebExtensionReference](/cells/de/python-net/aspose.cells.webextensions/webextensionreference) | Stellt den Anbieterstandort und die Version der Erweiterung dar.|
 | [WebExtensionReferenceCollection](/cells/de/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Stellt die Liste der Weberweiterungsreferenzen dar.|
 | [WebExtensionTaskPane](/cells/de/python-net/aspose.cells.webextensions/webextensiontaskpane) | Stellt ein persistentes Taskpane-Objekt dar.|
-| [WebExtensionTaskPaneCollection](/cells/de/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Stellt die Liste der Aufgabenbereiche dar.|
+| [WebExtensionTaskPaneCollection](/cells/de/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Stellt die Liste des Aufgabenbereichs dar.|
 
 
 ###  Aufzählungen

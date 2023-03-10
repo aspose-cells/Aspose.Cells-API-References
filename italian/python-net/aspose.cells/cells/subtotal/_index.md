@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo subtotal
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def subtotal(self, ca, group_by, function, total_list):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | La gamma|
 | group_by | int | Il campo in base al quale eseguire il raggruppamento, come offset di un numero intero in base zero|
@@ -37,7 +37,7 @@ def subtotal(self, ca, group_by, function, total_list, replace, page_breaks, sum
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | La gamma|
 | group_by | int | Il campo in base al quale eseguire il raggruppamento, come offset di un numero intero in base zero|

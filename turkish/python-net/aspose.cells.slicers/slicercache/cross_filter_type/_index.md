@@ -1,4 +1,4 @@
-﻿---
+---
 title: cross_filter_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  cross_filter_type mülk
 
 Bir dilimleyicinin diğer dilimleyicilerle çapraz filtrelemeye katılıp katılmadığını döndürür veya ayarlar
-aynı dilimleyici önbelleğini paylaşan ve çapraz filtrelemenin nasıl görüntülendiği.
+aynı dilimleyici önbelleğini paylaşan ve çapraz filtrelemenin nasıl görüntülendiği. Okuma yazma
 ###  Tanım:
 ```python
 @property

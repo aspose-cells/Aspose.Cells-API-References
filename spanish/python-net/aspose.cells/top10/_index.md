@@ -1,4 +1,4 @@
-﻿---
+---
 title: Top10 clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -27,11 +27,11 @@ El tipo Top10 expone los siguientes miembros:
 | :- | :- |
 | [is_percent](/cells/es/python-net/aspose.cells/top10/is_percent) | Obtenga o establezca si una regla de "n superior/inferior" es una regla de "n porcentaje superior/inferior".<br/> El valor predeterminado es falso.|
 | [is_bottom](/cells/es/python-net/aspose.cells/top10/is_bottom) | Obtenga o establezca si una regla "n superior/inferior" es una regla "n inferior".<br/> El valor predeterminado es falso.|
-| [rank](/cells/es/python-net/aspose.cells/top10/rank) | Obtener o establecer el valor de "n" en una regla de formato condicional "arriba/abajo n".<br/>Si IsPercent es verdadero, el valor debe estar entre 0 y 100.<br/>De lo contrario, debe estar entre 0 y 1000.<br/> El valor predeterminado es 10.|
+| [rank](/cells/es/python-net/aspose.cells/top10/rank) | Obtener o establecer el valor de "n" en una regla de formato condicional "arriba/abajo n".<br/>Si IsPercent es verdadero, el valor debe estar entre 0 y 100.<br/>En caso contrario debe estar entre 0 y 1000.<br/> El valor predeterminado es 10.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

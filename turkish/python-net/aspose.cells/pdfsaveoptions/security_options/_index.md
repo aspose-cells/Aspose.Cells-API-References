@@ -1,4 +1,4 @@
-﻿---
+---
 title: security_options mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 xls2pdf sonucunda güvenlik gerektiğinde bu seçenekleri ayarlayın.
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, çıktı pdf için yüksek çözünürlüklü yazdırma iznini ayarlar.
 

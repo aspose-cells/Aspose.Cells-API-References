@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_in_shape mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  width_in_shape mülk
 
-Ana şeklin 1/4000'lik birimlerinde şeklin genişliğini temsil eder.
+Ana şeklin 1/4000 biriminde şeklin genişliğini temsil eder.
 
 ###  Notlar
 
 Yalnızca bu şekil grup veya grafikte olduğunda geçerlidir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

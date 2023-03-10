@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleted Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted Eigentum
 
-Gibt an, ob Eingabezellen gelöscht werden.
+Gibt an, ob die Eingabezelle gelöscht wird.
 ###  Definition:
 ```python
 @property

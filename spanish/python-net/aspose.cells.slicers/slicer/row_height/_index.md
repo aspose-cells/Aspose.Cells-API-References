@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_height propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece la altura, en puntos, de cada fila en la segmentación de datos especificada.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

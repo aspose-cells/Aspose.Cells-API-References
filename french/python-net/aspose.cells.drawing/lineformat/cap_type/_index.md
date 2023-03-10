@@ -1,4 +1,4 @@
-﻿---
+---
 title: cap_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie les majuscules de fin.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells.drawing import LineCapType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_first_page_header метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def get_first_page_header(self, section):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | section | int | 0: левая часть, 1: центральная часть, 2: правая часть.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_html_tag_in_cell fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

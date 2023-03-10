@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Этот элемент устарел.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 вместо этого используйте свойство AutoFitterOptions.AutoFitMergedCellsType.
  Это свойство будет удалено через 12 месяцев, начиная с декабря 2018 года.
 Aspose приносит извинения за возможные неудобства.

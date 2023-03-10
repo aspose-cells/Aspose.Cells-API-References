@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_builtin_style Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

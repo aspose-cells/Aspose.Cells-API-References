@@ -1,4 +1,4 @@
-﻿---
+---
 title: name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene lo name della cella.
 
 ###  Osservazioni
 
-Una cella name include la lettera della colonna e il numero della riga.Ad esempio, lo name di una cella nella riga 0 e nella colonna 0 è A1.
+Una cella name include la lettera della colonna e il numero della riga. Ad esempio, lo name di una cella nella riga 0 e nella colonna 0 è A1.
 ###  Definizione:
 ```python
 @property

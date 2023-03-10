@@ -1,4 +1,4 @@
-﻿---
+---
 title: string_value_without_format Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den Wert der Zelle als Zeichenfolge ohne Format ab.
 
 ###  Bemerkungen
 
-HINWEIS: Diese Methode ist jetzt veraltet.
+HINWEIS: Diese Methode ist jetzt veraltet. Stattdessen,
 Der Benutzer sollte das Wertobjekt erhalten und es gemäß dem Werttyp und der spezifischen Anforderung formatieren.
 Diese Property wird 12 Monate später seit Dezember 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeTextAlignment klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,10 +25,10 @@ Typen ShapeTextAlignment avslöjar följande medlemmar:
 | [text_vertical_type](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/text_vertical_type) | Hämtar och anger textriktningen.|
 | [auto_size](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/auto_size) |Indikerar om storleken på formen justeras automatiskt efter dess innehåll.|
 | [text_shape_type](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/text_shape_type) | Hämtar och ställer in transformeringstypen för text.|
-| [top_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Returnerar den övre marginalen i enheter av poäng|
-| [bottom_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Returnerar bottenmarginalen i enheter av poäng|
-| [left_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Returnerar den vänstra marginalen i enheter av poäng|
-| [right_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Returnerar högermarginalen i enheter av poäng|
+| [top_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/top_margin_pt) | Returnerar den övre marginalen i poängenhet|
+| [bottom_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/bottom_margin_pt) | Returnerar bottenmarginalen i poängenhet|
+| [left_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/left_margin_pt) | Returnerar den vänstra marginalen i poängenhet|
+| [right_margin_pt](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/right_margin_pt) | Returnerar högermarginalen i poängenhet|
 | [is_auto_margin](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/is_auto_margin) | Anger om marginalen på textramen är automatisk.|
 | [number_of_columns](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment/number_of_columns) | Hämtar och ställer in antalet kolumner med text i den avgränsande rektangeln.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_by_base_index
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_by_base_index(self, base_field_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | base_field_index | int | فهرس المجال في PivotFields الأساسية.|
 

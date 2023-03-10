@@ -1,4 +1,4 @@
-﻿---
+---
 title: PptxSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | save_as_image | bool | Если True, книга будет преобразована в несколько изображений файла .pptx.<br/> Если False, рабочая книга будет преобразована в несколько таблиц файла .pptx.|
 

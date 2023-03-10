@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICellsDataTable الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [columns](/cells/ar/python-net/aspose.cells/icellsdatatable/columns) | الحصول على اسم الأعمدة.|
-| [count](/cells/ar/python-net/aspose.cells/icellsdatatable/count) | -1 لسجلات غير معروفة العد.|
+| [count](/cells/ar/python-net/aspose.cells/icellsdatatable/count) | يحصل على عدد السجلات. -1 لسجلات غير معروفة العد.|
 
 
 

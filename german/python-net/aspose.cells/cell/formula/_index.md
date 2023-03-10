@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -16,7 +16,7 @@ Ruft eine formula der [Cell](/cells/de/python-net/aspose.cells/cell) ab oder leg
  Ein formula-String beginnt immer mit einem Gleichheitszeichen (=).
 Und verwenden Sie bitte immer Komma (,) als Parametertrennzeichen, z. B. "= SUMME (A1, E1, H2)".
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

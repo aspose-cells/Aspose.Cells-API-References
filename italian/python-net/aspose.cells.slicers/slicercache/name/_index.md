@@ -1,4 +1,4 @@
-﻿---
+---
 title: name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce lo name della cache dello slicer.
 
-###  Esempi
+###  Esempio
 
 ```python
 

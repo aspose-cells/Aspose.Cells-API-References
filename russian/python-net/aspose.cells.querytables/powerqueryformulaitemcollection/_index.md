@@ -1,4 +1,4 @@
-﻿---
+---
 title: PowerQueryFormulaItemCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/
 is_root: false
 ---
 ##  PowerQueryFormulaItemCollection класс
-Представляет все элементы формулы мощного запроса.
+Представляет весь элемент формулы запроса мощности.
 
 
 

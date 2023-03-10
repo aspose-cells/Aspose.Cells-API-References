@@ -1,4 +1,4 @@
-﻿---
+---
 title: lower_right_row недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет индекс строки в правом нижнем углу.
 
-###  Примеры
+###  Пример
 
 ```python
 

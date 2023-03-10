@@ -1,4 +1,4 @@
-﻿---
+---
 title: linked_graphic الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

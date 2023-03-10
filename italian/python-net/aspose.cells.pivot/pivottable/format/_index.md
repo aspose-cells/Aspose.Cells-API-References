@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo format
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def format(self, row, column, style):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Riga Indice della cella|
 | column | int | Indice di colonna della cella|

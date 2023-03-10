@@ -1,4 +1,4 @@
-﻿---
+---
 title: SaveOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,9 +24,9 @@ Le type SaveOptions expose les membres suivants :
 | [merge_areas](/cells/fr/python-net/aspose.cells/saveoptions/merge_areas) | Indique s'il faut fusionner les zones de mise en forme conditionnelle et de validation avant d'enregistrer le fichier.|
 | [create_directory](/cells/fr/python-net/aspose.cells/saveoptions/create_directory) | Si true et que le répertoire n'existe pas, le répertoire sera automatiquement créé avant d'enregistrer le fichier.|
 | [sort_names](/cells/fr/python-net/aspose.cells/saveoptions/sort_names) | Indique s'il faut trier les noms définis avant d'enregistrer le fichier.|
-| [sort_external_names](/cells/fr/python-net/aspose.cells/saveoptions/sort_external_names) |Indique s'il faut trier les noms définis en externe avant d'enregistrer le fichier.|
+| [sort_external_names](/cells/fr/python-net/aspose.cells/saveoptions/sort_external_names) |Indique s'il faut trier les noms définis externes avant d'enregistrer le fichier.|
 | [refresh_chart_cache](/cells/fr/python-net/aspose.cells/saveoptions/refresh_chart_cache) | Indique si l'actualisation des données du cache du graphique|
-| [warning_callback](/cells/fr/python-net/aspose.cells/saveoptions/warning_callback) | Obtient ou définit des rappels d'avertissement.|
+| [warning_callback](/cells/fr/python-net/aspose.cells/saveoptions/warning_callback) | Obtient ou définit un rappel d'avertissement.|
 | [update_smart_art](/cells/fr/python-net/aspose.cells/saveoptions/update_smart_art) | Indique si la mise à jour du paramètre d'art intelligent.<br/> La valeur par défaut est faux.|
 
 

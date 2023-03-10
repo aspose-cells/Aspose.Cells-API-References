@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_qualifier الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier الملكية
 
-تحديد مؤهل النص لقيم الخلية. المؤهل الافتراضي هو '"'.
+يحدد مؤهل النص لقيم الخلية. المؤهل الافتراضي هو '"'.
 
 ###  ملاحظات
 

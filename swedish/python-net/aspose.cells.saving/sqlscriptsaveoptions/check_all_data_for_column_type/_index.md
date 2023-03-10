@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_all_data_for_column_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Kontrollera alla data för att hitta kolumnernas datatyp.
 ###  Anmärkningar
 
 Standardvärdet är falskt, vi kontrollerar bara den första raden för prestanda.
-Om den här egenskapen är sann och kolumnerna innehåller blandad värdetyp, kommer kolumnernas typ att vara text.
+Om den här egenskapen är true och kolumnerna innehåller blandad värdetyp, kommer kolumnernas typ att vara text.
 ###  Definition:
 ```python
 @property

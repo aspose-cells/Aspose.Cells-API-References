@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_color_in_palette Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Kehrt zurück
 
-Gibt true zurück, wenn diese Farbe in der Palette enthalten ist.
+Gibt true zurück, wenn diese Farbe in der Palette enthalten ist. Andernfalls wird false zurückgegeben
 
 
 ```python

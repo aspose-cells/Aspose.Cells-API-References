@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,12 +18,12 @@ def copy(self, source, options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source | [Picture](/cells/ru/python-net/aspose.cells.drawing/picture) | Исходная картинка.|
 | options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) | Варианты копирования.|
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CopyOptions, Workbook

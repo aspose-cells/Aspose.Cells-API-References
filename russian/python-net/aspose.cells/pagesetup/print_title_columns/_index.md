@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_columns недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет столбцы, содержащие повторяющиеся ячейки в левой части каждой страницы.
 
-###  Примеры
+###  Пример
 
 ```python
 

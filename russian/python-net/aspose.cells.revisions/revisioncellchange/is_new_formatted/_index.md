@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_new_formatted недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

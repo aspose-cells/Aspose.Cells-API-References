@@ -1,6 +1,6 @@
-﻿---
+---
 title: freeze_panes方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 120
@@ -18,14 +18,14 @@ def freeze_panes(self, cell_name, freezed_rows, freezed_columns):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | cell_name | str | Cell 名称。|
 | freezed_rows | int |顶部窗格中的可见行数，不超过行索引。|
 | freezed_columns | int |左窗格中可见的列数，不超过列索引。|
 ### 评论
 
-行索引和列索引不能都为零。
+行索引和列索引不能都为零。行数和列数
 也不能全为零。
 
 ##  freeze_panes(row, column, freezed_rows, freezed_columns) {#int-int-int-int}
@@ -39,7 +39,7 @@ def freeze_panes(self, row, column, freezed_rows, freezed_columns):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row | int |行索引。|
 | column | int |列索引。|
@@ -47,7 +47,7 @@ def freeze_panes(self, row, column, freezed_rows, freezed_columns):
 | freezed_columns | int |左窗格中可见的列数，不超过列索引。|
 ### 评论
 
-行索引和列索引不能都为零。
+行索引和列索引不能都为零。行数和列数
 也不能全为零。
 
 

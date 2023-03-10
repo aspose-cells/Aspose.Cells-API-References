@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_array_title fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_array_title fastighet
 
-Indikerar om titel ska ignoreras om array är en egenskap hos objekt.
+Indikerar om ignorera titel om array är en egenskap hos objekt.
 
 ###  Anmärkningar
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_color_varied الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

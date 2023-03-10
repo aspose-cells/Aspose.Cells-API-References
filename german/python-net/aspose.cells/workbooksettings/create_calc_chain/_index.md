@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_calc_chain Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  create_calc_chain Eigentum
 
-Ob eine berechnete Formelkette erstellt wird. Der Standardwert ist „false“.
+Ob eine berechnete Formelkette erstellt wird. Standard ist falsch.
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen FormulaSettings.EnableCalculationChain.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen bitte FormulaSettings.EnableCalculationChain.
  Diese Property wird 12 Monate später seit Februar 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
 ###  Definition:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleting_columns_allowed propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleting_columns_allowed propiedad
 
-Representa si se permite la eliminación de columnas en una hoja de cálculo protegida.
+Representa si se permite la eliminación de columnas en una hoja de trabajo protegida.
 
 ###  Observaciones
 

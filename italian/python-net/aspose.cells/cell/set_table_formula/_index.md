@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_table_formula
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|
@@ -38,7 +38,7 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|
@@ -58,7 +58,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|
@@ -79,7 +79,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_number | int |Numero di righe per popolare la formula.|
 | column_number | int | Numero di colonne per popolare la formula.|

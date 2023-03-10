@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_style_in_pool método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Solo hay un índice de referencia simple en las celdas.
 
 ###  Devoluciones
 
-El estilo en el grupo corresponde a un índice dado, puede ser nulo.
+El estilo en el grupo corresponde al índice dado, puede ser nulo.
 
 
 ```python
@@ -24,12 +24,12 @@ def get_style_in_pool(self, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | El índice.|
 ###  Observaciones
 
-Si se cambia el estilo devuelto, se cambiará el estilo de todas las celdas (que hace referencia a este estilo).
+Si se cambia el estilo devuelto, se cambiará el estilo de todas las celdas (que se refiere a este estilo).
 
 
 ###  Ver también

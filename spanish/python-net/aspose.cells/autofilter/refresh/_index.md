@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -39,7 +39,7 @@ def refresh(self, hide_rows):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | hide_rows | bool | Si es verdadero, oculta las filas filtradas.|
 

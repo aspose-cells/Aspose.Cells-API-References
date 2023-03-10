@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_password propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password propiedad
 
-True si la contraseña se guardará como parte de la cadena de conexión; de lo contrario, False.
+True si la contraseña se guardará como parte de la cadena de conexión; de lo contrario, Falso.
 ###  Definición:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_page_number propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

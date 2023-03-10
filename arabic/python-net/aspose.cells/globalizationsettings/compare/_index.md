@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة compare
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def compare(self, v1, v2, ignore_case):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | v1 | str | السلسلة الأولى|
 | v2 | str | السلسلة الثانية|

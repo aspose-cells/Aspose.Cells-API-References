@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_subtotals
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_subtotals(self, subtotal_type, shown):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | subtotal_type | [PivotFieldSubtotalType](/cells/ar/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | نوع المجاميع الفرعية.|
 | shown | bool | ما إذا كان الحقل المحدد يعرض تلك المجاميع الفرعية.|

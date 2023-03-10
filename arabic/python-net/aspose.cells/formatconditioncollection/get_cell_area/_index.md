@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_cell_area
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,12 +8,12 @@ url: /ar/python-net/aspose.cells/formatconditioncollection/get_cell_area/
 is_root: false
 ---
 ##  get_cell_area(index) {#int}
-الحصول على نطاق الخلايا المنسق شرطيًا حسب الفهرس.
+الحصول على نطاق الخلايا المنسق الشرطي حسب الفهرس.
 
 
 ###  عائدات
 
-نطاق الخلايا المنسق شرطيًا
+نطاق الخلايا المنسقة الشرطي
 
 
 ```python
@@ -22,9 +22,9 @@ def get_cell_area(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| index | int | فهرس نطاق الخلايا المنسق شرطيًا.|
+| index | int | فهرس نطاق الخلايا الشرطي المنسق.|
 
 
 

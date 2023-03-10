@@ -1,4 +1,4 @@
-﻿---
+---
 title: embed_ooxml_as_ole_object fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Anger om Ooxml-filer av OleObject bäddas in som ole-objekt.
 
 ###  Anmärkningar
 
-Endast för Ole Objects.
+Endast för OleObject.
 ###  Definition:
 ```python
 @property

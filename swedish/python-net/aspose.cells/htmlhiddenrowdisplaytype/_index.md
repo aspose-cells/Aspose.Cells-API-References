@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlHiddenRowDisplayType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen HtmlHiddenRowDisplayType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | HIDDEN | Gömde de dolda raderna i HTML-sidan.|
-| REMOVE | Ta bort de dolda raderna i HTML-sidor.|
+| REMOVE | Ta bort de dolda raderna på HTML-sidan.|
 
 
 

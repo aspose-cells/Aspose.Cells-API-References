@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_row_height(self, row, height):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | height | float | Radens höjd. I punktenhet Den ska vara mellan 0 och 409,5.|

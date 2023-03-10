@@ -1,4 +1,4 @@
-﻿---
+---
 title: License yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  örnekler
+###  Örnek
 
 Bu örnekte, MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
  içeren klasörde

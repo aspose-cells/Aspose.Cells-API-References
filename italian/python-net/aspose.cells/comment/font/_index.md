@@ -1,4 +1,4 @@
-﻿---
+---
 title: font proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene lo font di commento.
 
-###  Esempi
+###  Esempio
 
 ```python
 

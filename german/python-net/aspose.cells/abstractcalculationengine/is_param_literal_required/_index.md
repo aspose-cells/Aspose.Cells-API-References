@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_param_literal_required Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_param_literal_required Eigentum
 
-Gibt an, ob diese Engine während der Berechnung den wörtlichen Text des Parameters benötigt. Der Standardwert ist "false".
+Gibt an, ob diese Engine während der Berechnung den wörtlichen Text des Parameters benötigt. Der Standardwert ist falsch.
 
 ###  Bemerkungen
 

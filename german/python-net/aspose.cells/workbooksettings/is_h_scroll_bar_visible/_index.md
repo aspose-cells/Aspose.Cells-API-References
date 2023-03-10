@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Ruft einen Wert ab, der angibt, ob das generierte Arbeitsblatt eine horizontale 
 
 Der Standardwert ist wahr.
 
-###  Beispiele
+###  Beispiel
 
 Der folgende Code macht die horizontale Bildlaufleiste für die Tabelle unsichtbar.
 

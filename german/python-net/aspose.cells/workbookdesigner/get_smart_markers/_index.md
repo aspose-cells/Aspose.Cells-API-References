@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_smart_markers Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Bemerkungen
 
-Bei jedem Aufruf wird ein String-Array erstellt.
+Bei jedem Aufruf wird ein String-Array erstellt. Das Array wird sortiert und doppelte Werte werden entfernt.
 
 
 ###  Siehe auch

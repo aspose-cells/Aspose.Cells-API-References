@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLoadOptions Konstrukteur
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/jsonloadoptions/__init__/
 is_root: false
 ---
 ##  JsonLoadOptions() {#}
-Erstellt eine Option zum Laden der Datei.
+Erstellt Optionen zum Laden der Datei.
 
 
 

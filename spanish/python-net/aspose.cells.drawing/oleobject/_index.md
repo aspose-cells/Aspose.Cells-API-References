@@ -1,4 +1,4 @@
-﻿---
+---
 title: OleObject clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/oleobject/
 is_root: false
 ---
 ##  OleObject clase
-Representa un OleObject en una hoja de cálculo.
+Representa un OleObject en una hoja de trabajo.
 
 
 
@@ -34,9 +34,9 @@ El tipo OleObject expone los siguientes miembros:
 | [format](/cells/es/python-net/aspose.cells.drawing/oleobject/format) | Representa la configuración del formato de la forma.|
 | [line](/cells/es/python-net/aspose.cells.drawing/oleobject/line) | Obtiene el estilo de línea|
 | [fill](/cells/es/python-net/aspose.cells.drawing/oleobject/fill) | Devuelve un objeto [Shape.fill_format](/cells/es/python-net/aspose.cells.drawing/shape#fill_format) que contiene propiedades de formato de relleno para la forma especificada.|
-| [shadow_effect](/cells/es/python-net/aspose.cells.drawing/oleobject/shadow_effect) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica un efecto de sombra para la forma o el elemento del gráfico.|
+| [shadow_effect](/cells/es/python-net/aspose.cells.drawing/oleobject/shadow_effect) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica el efecto de sombra para la forma o el elemento del gráfico.|
 | [reflection](/cells/es/python-net/aspose.cells.drawing/oleobject/reflection) | Representa un objeto [ReflectionEffect](/cells/es/python-net/aspose.cells.drawing/reflectioneffect) que especifica el efecto de reflexión para la forma o el elemento del gráfico.|
-| [glow](/cells/es/python-net/aspose.cells.drawing/oleobject/glow) | Representa un objeto [GlowEffect](/cells/es/python-net/aspose.cells.drawing/gloweffect) que especifica un efecto de brillo para la forma o el elemento del gráfico.|
+| [glow](/cells/es/python-net/aspose.cells.drawing/oleobject/glow) | Representa un objeto [GlowEffect](/cells/es/python-net/aspose.cells.drawing/gloweffect) que especifica el efecto de brillo para el elemento o la forma del gráfico.|
 | [soft_edges](/cells/es/python-net/aspose.cells.drawing/oleobject/soft_edges) | Obtiene y establece el radio de desenfoque que se aplica a los bordes, en unidades de puntos.|
 | [three_d_format](/cells/es/python-net/aspose.cells.drawing/oleobject/three_d_format) | Obtiene y establece el formato 3D de la forma.|
 | [text_frame](/cells/es/python-net/aspose.cells.drawing/oleobject/text_frame) | Devuelve un objeto TextFrame que contiene las propiedades de alineación y anclaje para la forma especificada.|
@@ -70,10 +70,10 @@ El tipo OleObject expone los siguientes miembros:
 | [right](/cells/es/python-net/aspose.cells.drawing/oleobject/right) | Representa el ancho del desplazamiento horizontal de la forma desde la columna de la esquina inferior derecha, en unidades de píxeles.|
 | [bottom](/cells/es/python-net/aspose.cells.drawing/oleobject/bottom) |Representa el ancho del desplazamiento vertical de la forma desde la fila de la esquina inferior inferior, en unidades de píxeles.|
 | [width](/cells/es/python-net/aspose.cells.drawing/oleobject/width) | Representa el ancho de la forma, en unidades de píxeles.|
-| [width_inch](/cells/es/python-net/aspose.cells.drawing/oleobject/width_inch) | Representa el ancho de la forma, en unidades de pulgadas.|
-| [width_pt](/cells/es/python-net/aspose.cells.drawing/oleobject/width_pt) | Representa el ancho de la forma, en unidades de puntos.|
+| [width_inch](/cells/es/python-net/aspose.cells.drawing/oleobject/width_inch) | Representa el ancho de la forma, en unidades de pulgada.|
+| [width_pt](/cells/es/python-net/aspose.cells.drawing/oleobject/width_pt) | Representa el ancho de la forma, en unidades de punto.|
 | [width_cm](/cells/es/python-net/aspose.cells.drawing/oleobject/width_cm) | Representa el ancho de la forma, en unidades de centímetros.|
-| [height](/cells/es/python-net/aspose.cells.drawing/oleobject/height) | Representa la altura de la forma, en unidades de píxeles.|
+| [height](/cells/es/python-net/aspose.cells.drawing/oleobject/height) | Representa la altura de la forma, en unidades de píxel.|
 | [height_inch](/cells/es/python-net/aspose.cells.drawing/oleobject/height_inch) | Representa la altura de la forma, en unidades de pulgadas.|
 | [height_pt](/cells/es/python-net/aspose.cells.drawing/oleobject/height_pt) | Representa la altura de la forma, en unidades de puntos.|
 | [height_cm](/cells/es/python-net/aspose.cells.drawing/oleobject/height_cm) | Representa la altura de la forma, en unidades de centímetros.|
@@ -84,7 +84,7 @@ El tipo OleObject expone los siguientes miembros:
 | [top_inch](/cells/es/python-net/aspose.cells.drawing/oleobject/top_inch) |Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de pulgadas.|
 | [top_cm](/cells/es/python-net/aspose.cells.drawing/oleobject/top_cm) | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de centímetros.|
 | [top_to_corner](/cells/es/python-net/aspose.cells.drawing/oleobject/top_to_corner) | Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.|
-| [left_to_corner](/cells/es/python-net/aspose.cells.drawing/oleobject/left_to_corner) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo.|
+| [left_to_corner](/cells/es/python-net/aspose.cells.drawing/oleobject/left_to_corner) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de trabajo.|
 | [x](/cells/es/python-net/aspose.cells.drawing/oleobject/x) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo, en unidades de píxeles.|
 | [y](/cells/es/python-net/aspose.cells.drawing/oleobject/y) | Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.|
 | [width_scale](/cells/es/python-net/aspose.cells.drawing/oleobject/width_scale) | Obtiene y establece la escala de ancho, en unidades de porcentaje del ancho de la imagen original.<br/> Si la forma no es una imagen, la propiedad WidthScale solo devuelve 100;|
@@ -174,7 +174,7 @@ El tipo OleObject expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

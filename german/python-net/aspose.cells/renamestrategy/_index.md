@@ -1,4 +1,4 @@
-﻿---
+---
 title: RenameStrategy Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -27,8 +27,8 @@ Der Typ RenameStrategy macht die folgenden Member verfügbar:
 
 Bei der Verarbeitung von Daten mit Kopfzeilen erfordern einige Szenarien, dass die Kopfzeilen für alle Spalten nicht dupliziert werden.
 Wenn Sie beispielsweise Daten in eine Datentabelle exportieren und die Kopfzeile als Spaltenname der Datentabelle verwendet werden muss,
-doppelte Werte des Headers sind ungültig.
-Für solche Situationen kann der Benutzer festlegen, wie er damit umgeht, indem er diese Strategie angibt.
+Doppelte Werte des Headers sind ungültig.
+Für solche Situationen kann der Benutzer bestimmen, wie er damit umgehen soll, indem er diese Strategie angibt.
 
 ###  Siehe auch
 * Modul [aspose.cells](..)

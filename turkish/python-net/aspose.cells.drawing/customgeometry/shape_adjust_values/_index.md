@@ -1,4 +1,4 @@
-﻿---
+---
 title: shape_adjust_values mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shape_adjust_values mülk
 
-Şekil ayarlama değerleri koleksiyonunu alır
+Şekil ayarlama değeri koleksiyonunu alır
 ###  Tanım:
 ```python
 @property

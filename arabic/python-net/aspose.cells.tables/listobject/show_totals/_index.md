@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_totals الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals الملكية
 
-الحصول على وتحديد ما إذا كان ListObject هذا يعرض إجمالي الصفوف.
+الحصول على وتحديد ما إذا كان ListObject هذا يعرض صف الإجمالي أم لا.
 ###  تعريف:
 ```python
 @property

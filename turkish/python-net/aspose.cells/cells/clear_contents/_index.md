@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_contents yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def clear_contents(self, range):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Temizlenecek aralık.|
 
@@ -34,7 +34,7 @@ def clear_contents(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | start_column | int | Sütun indeksini başlat.|

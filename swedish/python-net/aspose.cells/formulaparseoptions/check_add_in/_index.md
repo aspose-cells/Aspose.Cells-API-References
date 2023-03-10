@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_add_in fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

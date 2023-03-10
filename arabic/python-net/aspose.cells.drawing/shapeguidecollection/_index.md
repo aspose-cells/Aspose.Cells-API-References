@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeGuideCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/shapeguidecollection/
 is_root: false
 ---
 ##  ShapeGuideCollection الدرجة
-يغلف مجموعة من أدلة الشكل
+يغلف مجموعة من دليل الشكل
 
 
 

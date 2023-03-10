@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_style método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,10 +22,10 @@ def get_cell_style(self, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | índice de fila|
-| column | int | columnas|
+| column | int | columna|
 
 
 

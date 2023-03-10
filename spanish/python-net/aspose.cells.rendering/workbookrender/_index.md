@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,7 +24,7 @@ El tipo WorkbookRender expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [page_count](/cells/es/python-net/aspose.cells.rendering/workbookrender/page_count) | Obtiene el número total de páginas de los libros de trabajo.|
+| [page_count](/cells/es/python-net/aspose.cells.rendering/workbookrender/page_count) | Obtiene el recuento total de páginas del libro.|
 
 
 ###  Métodos
@@ -32,8 +32,8 @@ El tipo WorkbookRender expone los siguientes miembros:
 | :- | :- |
 | [to_image(stream)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_image/#io.RawIOBase) | Renderice todo el libro de trabajo como imagen Tiff para transmitir.|
 | [to_image(filename)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_image/#str) | Renderice todo el libro de trabajo como imagen Tiff en un archivo.|
-| [to_image(page_index, file_name)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) | Renderizar ciertas páginas a un archivo.|
-| [to_image(page_index, stream)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) | Renderizar ciertas páginas a una secuencia.|
+| [to_image(page_index, file_name)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) | Renderizar cierta página a un archivo.|
+| [to_image(page_index, stream)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) | Renderizar cierta página a una secuencia.|
 | [to_printer(printer_name)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_printer/#str) | Renderizar el libro de trabajo a la impresora|
 | [to_printer(printer_name, job_name)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_printer/#str-str) | Renderizar el libro de trabajo a la impresora|
 | [to_printer(printer_settings)](/cells/es/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) | Renderizar el libro de trabajo a la impresora|

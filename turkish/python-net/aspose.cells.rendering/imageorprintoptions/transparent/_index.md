@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparent mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  transparent mülk
 
-Oluşturulan görüntünün arka planının transparent olması gerekip gerekmediğini belirtir.
+Oluşturulan görüntünün arka planının transparent olması gerekip gerekmediğini gösterir.
 
 ###  Notlar
 
-Varsayılan değer yanlıştır.
+Varsayılan değer yanlıştır. Bu, oluşturulan görüntülerin arka planının beyaz olduğu anlamına gelir.
 ###  Tanım:
 ```python
 @property

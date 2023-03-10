@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPattern enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -38,7 +38,7 @@ El tipo FillPattern expone los siguientes miembros:
 | WIDE_DOWNWARD_DIAGONAL | Representa un amplio patrón diagonal hacia abajo.|
 | WIDE_UPWARD_DIAGONAL | Representa un amplio patrón diagonal hacia arriba.|
 | LIGHT_VERTICAL | Representa un patrón vertical ligero.|
-| LIGHT_HORIZONTAL | Representa un patrón horizontal claro.|
+| LIGHT_HORIZONTAL | Representa un patrón horizontal ligero.|
 | NARROW_VERTICAL | Representa un patrón vertical estrecho.|
 | NARROW_HORIZONTAL | Representa un patrón horizontal estrecho.|
 | DARK_VERTICAL | Representa un patrón vertical oscuro.|
@@ -52,22 +52,22 @@ El tipo FillPattern expone los siguientes miembros:
 | ZIG_ZAG | Representa el patrón de zigzag.|
 | WAVE | Representa el patrón de onda.|
 | DIAGONAL_BRICK | Representa el patrón de ladrillo diagonal.|
-| HORIZONTAL_BRICK | Representa un patrón de ladrillo horizontal.|
+| HORIZONTAL_BRICK | Representa el patrón de ladrillo horizontal.|
 | WEAVE | Representa el patrón de tejido.|
 | PLAID | Representa el patrón de cuadros.|
-| DIVOT | Representa patrones de chuletas.|
+| DIVOT | Representa el patrón de chuletas.|
 | DOTTED_GRID | Representa un patrón de cuadrícula punteada.|
 | DOTTED_DIAMOND | Representa el patrón de diamantes punteados.|
-| SHINGLE | Representa un solo patrón.|
+| SHINGLE | Representa el patrón de tejas.|
 | TRELLIS | Representa el patrón de enrejado.|
 | SPHERE | Representa el patrón de esfera.|
-| SMALL_GRID | Representa pequeños patrones de cuadrícula.|
+| SMALL_GRID | Representa un patrón de cuadrícula pequeño.|
 | LARGE_GRID | Representa un patrón de cuadrícula grande.|
 | SMALL_CHECKER_BOARD | Representa un pequeño patrón de tablero de ajedrez.|
 | LARGE_CHECKER_BOARD | Representa un gran patrón de tablero de ajedrez.|
 | OUTLINED_DIAMOND | Representa un patrón de diamante delineado.|
 | SOLID_DIAMOND | Representa un patrón de diamante sólido.|
-| UNKNOWN | Representa patrones desconocidos.|
+| UNKNOWN | Representa un patrón desconocido.|
 
 
 

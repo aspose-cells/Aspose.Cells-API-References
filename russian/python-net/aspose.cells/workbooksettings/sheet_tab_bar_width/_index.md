@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_tab_bar_width недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_alive propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  keep_alive propiedad
 
  Verdadero cuando la aplicación de hoja de cálculo debe esforzarse por mantener la conexión
-Cuando es falso, la aplicación debe cerrar la conexión después de recuperar el
+abierto. Cuando es falso, la aplicación debe cerrar la conexión después de recuperar el
 información.
 ###  Definición:
 ```python

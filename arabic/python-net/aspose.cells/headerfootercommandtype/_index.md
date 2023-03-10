@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد HeaderFooterCommandType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ is_root: false
 | SHEET_NAME | اسم الورقة|
 | FILE_NAME | اسم الملف بدون مسار|
 | FILE_PATH | مسار الملف بدون اسم الملف|
-| PICTURE | الصور|
+| PICTURE | صورة|
 
 
 

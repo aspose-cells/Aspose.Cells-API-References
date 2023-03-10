@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetML2003SaveOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions() {#}
-Skapar alternativen för att spara Excel 2003 spreadml-filer.
+Skapar alternativen för att spara Excel 2003 spreadml-fil.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SpreadsheetML2003SaveOptions(save_format) {#SaveFormat}
-Skapar alternativen för att spara Excel 2003 spreadml-filer.
+Skapar alternativen för att spara Excel 2003 spreadml-fil.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Spara formatet.|
 ###  Anmärkningar

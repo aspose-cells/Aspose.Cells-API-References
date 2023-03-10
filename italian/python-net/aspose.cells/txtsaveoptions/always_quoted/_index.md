@@ -1,4 +1,4 @@
-﻿---
+---
 title: always_quoted proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,14 +10,14 @@ is_root: false
 ##  always_quoted proprietà
 
 Indica se aggiungere sempre '"' per ogni campo.
-Se true allora verranno quotati tutti i valori;
-Se falso, i valori verranno quotati solo quando necessario (ad esempio,
+Se vero, verranno quotati tutti i valori;
+Se false, i valori verranno quotati solo quando necessario (ad esempio,
 quando i valori contengono caratteri speciali come '"' , '\n' o carattere separatore).
 L'impostazione predefinita è false.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare invece la proprietà QuoteType.
  Questa proprietà verrà rimossa 12 mesi dopo, dall'agosto 2012.
 Aspose si scusa per gli eventuali disagi causati.

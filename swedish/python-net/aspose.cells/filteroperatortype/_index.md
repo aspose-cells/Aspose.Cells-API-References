@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterOperatorType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,11 +18,11 @@ Typen FilterOperatorType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | LESS_OR_EQUAL | Representerar LessOrEqual-operatör.|
-| LESS_THAN | Representerar mindre än operatör.|
+| LESS_THAN | Representerar LessThan-operatören.|
 | EQUAL | Representerar Equal-operatör.|
-| GREATER_THAN | Representerar Greater Than-operatören.|
+| GREATER_THAN | Representerar GreaterThan-operatören.|
 | NOT_EQUAL | Representerar NotEqual-operatör.|
-| GREATER_OR_EQUAL | Representerar större eller lika operatör.|
+| GREATER_OR_EQUAL | Representerar GreaterOrEqual-operatören.|
 | NONE | Representerar ingen jämförelse.|
 | BEGINS_WITH | Börjar med texten.|
 | ENDS_WITH |Avslutar med texten.|

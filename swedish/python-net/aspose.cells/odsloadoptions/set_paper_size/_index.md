@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_paper_size metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/sv/python-net/aspose.cells/papersizetype) | Standardpappersstorlek.|
 ###  Anmärkningar

@@ -1,4 +1,4 @@
-﻿---
+---
 title: primary_key mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  primary_key mülk
 
-Veri tablosunun birincil anahtarının hangi sütun olduğunu temsil eder.
+Veri tablosunun birincil anahtarının hangi sütun olduğunu gösterir.
 ###  Tanım:
 ```python
 @property

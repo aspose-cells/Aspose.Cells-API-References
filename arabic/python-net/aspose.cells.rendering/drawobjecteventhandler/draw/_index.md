@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة draw
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,10 +18,10 @@ def draw(self, draw_object, x, y, width, height):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/ar/python-net/aspose.cells.rendering/drawobject) | سيتم تهيئة DrawObject وإعادته عند التقديم|
-| x | float | يسار رسم الكائن|
+| x | float | يسار DrawObject|
 | y | float | الجزء العلوي من DrawObject|
 | width | float | عرض DrawObject|
 | height | float | ارتفاع DrawObject|

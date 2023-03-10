@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_formula1 Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,7 +29,7 @@ def get_formula1(self, is_r1c1, is_local):
 
 
 ##  get_formula1(is_r1c1, is_local, row, column) {#bool-bool-int-int}
-Ruft den Wert oder Ausdruck ab, der dieser Validierung für die bestimmte Zelle zugeordnet ist.
+Ruft den Wert oder Ausdruck ab, der dieser Validierung für eine bestimmte Zelle zugeordnet ist.
 
 
 ###  Kehrt zurück

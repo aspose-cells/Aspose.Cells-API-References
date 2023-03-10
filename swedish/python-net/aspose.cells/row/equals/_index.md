@@ -1,4 +1,4 @@
-﻿---
+---
 title: equals metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Kontrollerar om detta objekt refererar till samma rad med ett annat radobjekt.
 
 ###  Returnerar
 
-sant om två radobjekt hänvisar till samma rad.
+sant om två radobjekt refererar till samma rad.
 
 
 ```python
@@ -22,7 +22,7 @@ def equals(self, row):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | [Row](/cells/sv/python-net/aspose.cells/row) | ett annat radobjekt|
 

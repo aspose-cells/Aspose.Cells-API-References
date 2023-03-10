@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_interruption_requested недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleted proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  is_deleted proprietà
 
-Indica se la connessione alla cartella di lavoro associata è stata eliminata true se il
-altrimenti, falso.
+Indica se la connessione alla cartella di lavoro associata è stata eliminata. vero se il
+la connessione è stata cancellata; altrimenti, falso.
 ###  Definizione:
 ```python
 @property

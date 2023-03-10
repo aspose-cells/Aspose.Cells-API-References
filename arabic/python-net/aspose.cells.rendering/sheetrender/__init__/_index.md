@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def __init__(self, worksheet, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | حدد جدول البيانات الذي سيتم عرضه.|
 | options | [ImageOrPrintOptions](/cells/ar/python-net/aspose.cells.rendering/imageorprintoptions) | يحتوي ImageOrPrintOptions على بعض خصائص صورة الإخراج|

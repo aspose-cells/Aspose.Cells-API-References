@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد OperatorType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

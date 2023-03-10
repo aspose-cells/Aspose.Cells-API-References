@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_style_in_pool
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def get_style_in_pool(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | مؤشر.|
 ###  ملاحظات

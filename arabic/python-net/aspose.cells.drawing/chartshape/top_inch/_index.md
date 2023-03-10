@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_inch الملكية
 
-يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات البوصة.
+يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة البوصة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

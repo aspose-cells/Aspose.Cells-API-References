@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellFieldType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType uppräkning
-Representerar cellfältstypen av odds.
+Representerar cellfältstypen för ods.
 
 
 

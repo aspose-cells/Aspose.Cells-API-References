@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSettingCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ Le type FontSettingCollection expose les membres suivants :
 | [text_paragraphs](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/text_paragraphs) | Obtient tous les paragraphes.|
 | [text](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/text) | Obtient et définit le texte de la forme.|
 | [html_string](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/html_string) | Obtient et définit la chaîne html qui contient des données et certains formats sous cette forme.|
-| [capacity](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
@@ -41,7 +41,7 @@ Le type FontSettingCollection expose les membres suivants :
 | [append_text(text)](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/append_text/#str) | Ajoute le texte.|
 | [insert_text(index, text)](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/insert_text/#int-str) | Insérer l'index à la position.|
 | [delete_text(index, count)](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/delete_text/#int-int) | Supprimer certains caractères.|
-| [format(start_index, length, font, flag)](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Formatez le texte avec les paramètres de police.|
+| [format(start_index, length, font, flag)](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Formatez le texte avec le paramètre de police.|
 | [binary_search(item)](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/binary_search/#FontSetting) | Recherche un élément dans toute la liste de tableaux triés à l'aide du comparateur par défaut et renvoie l'index de base zéro de l'élément.|
 
 

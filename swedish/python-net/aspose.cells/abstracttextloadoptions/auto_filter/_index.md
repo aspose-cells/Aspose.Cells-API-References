@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_filter fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Indikerar om data filtreras automatiskt när filerna laddas.
 ###  Anmärkningar
 
 Ibland, även om autofilter är inställt, döljs inte motsvarande rader i filen.
-Fungerar nu bara för SpreadSheetML-filer.
+Fungerar nu bara för SpreadSheetML-fil.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة format
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.pivot/pivottable/format/
 is_root: false
 ---
 ##  format(row, column, style) {#int-int-Style}
-قم بتنسيق الخلية في منطقة الجدول المحوري
+قم بتنسيق الخلية في المنطقة المحورية
 
 
 
@@ -18,7 +18,7 @@ def format(self, row, column, style):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس صف الخلية|
 | column | int | فهرس العمود للخلية|

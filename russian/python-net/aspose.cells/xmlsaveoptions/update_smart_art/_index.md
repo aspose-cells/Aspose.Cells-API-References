@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_smart_art недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

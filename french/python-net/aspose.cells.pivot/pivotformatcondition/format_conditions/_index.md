@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_conditions propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions propriété
 
-Obtenir les conditions de format pour le format de condition de tableau croisé dynamique .
+Obtenez formatconditions pour le format de condition de tableau croisé dynamique .
 ###  Définition:
 ```python
 @property

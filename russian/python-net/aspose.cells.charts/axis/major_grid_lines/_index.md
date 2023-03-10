@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_grid_lines недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет основные линии сетки на оси диаграммы.
 
-###  Примеры
+###  Пример
 
 ```python
 

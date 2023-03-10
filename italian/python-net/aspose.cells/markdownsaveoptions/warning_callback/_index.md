@@ -1,4 +1,4 @@
-﻿---
+---
 title: warning_callback proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback proprietà
 
-Ottiene o imposta callback di avviso.
+Ottiene o imposta la richiamata di avviso.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_blank_rows метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def delete_blank_rows(self, options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/ru/python-net/aspose.cells/deleteoptions) | Варианты удаления диапазона.|
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: MemoryFontSource类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1040
@@ -22,7 +22,7 @@ MemoryFontSource 类型公开了以下成员：
 ### 构造器
 |构造器|描述|
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/zh/python-net/aspose.cells/memoryfontsource/__init__/#bytes) |导演。|
+| [MemoryFontSource(font_data)](/cells/zh/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Ctor。|
 
 
 ### 特性

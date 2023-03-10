@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.rendering
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /fr/python-net/aspose.cells.rendering/
 is_root: false
 ---
- Le**Aspose.Cells.Rendering**namespace fournit des classes pour le rendu d'images et de fichiers PDF.
+ Le**Aspose.Cells.Rendering**namespace fournit des classes pour le rendu d'image et de pdf.
 
 ###  Des classes
 | Classe| Description|
@@ -19,7 +19,7 @@ is_root: false
 | [PageEndSavingArgs](/cells/fr/python-net/aspose.cells.rendering/pageendsavingargs) | Les informations d'une page terminent le processus d'enregistrement.|
 | [PageSavingArgs](/cells/fr/python-net/aspose.cells.rendering/pagesavingargs) | Informations pour un processus d'enregistrement de page.|
 | [PageStartSavingArgs](/cells/fr/python-net/aspose.cells.rendering/pagestartsavingargs) | Les informations d'une page démarrent le processus d'enregistrement.|
-| [PdfBookmarkEntry](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry est une entrée dans pdfbookmark.<br/>si la propriété Text de l'instance actuelle est nulle ou "",<br/> l'instance actuelle sera masquée et les enfants seront insérés au niveau actuel.|
+| [PdfBookmarkEntry](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry est une entrée dans un signet pdf.<br/>si la propriété Text de l'instance actuelle est nulle ou "",<br/> l'instance actuelle sera masquée et les enfants seront insérés au niveau actuel.|
 | [SheetPrintingPreview](/cells/fr/python-net/aspose.cells.rendering/sheetprintingpreview) | Aperçu de l'impression de la feuille de calcul.|
 | [SheetRender](/cells/fr/python-net/aspose.cells.rendering/sheetrender) | Représente un rendu de feuille de calcul qui peut rendre la feuille de calcul à diverses images telles que (BMP, PNG, JPEG, TIFF..)<br/> Le constructeur de cette classe , doit être utilisé après modification de pagesetup, style cellule.|
 | [SheetSet](/cells/fr/python-net/aspose.cells.rendering/sheetset) | Décrit un ensemble de feuilles.|

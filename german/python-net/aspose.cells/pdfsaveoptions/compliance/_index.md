@@ -1,4 +1,4 @@
-﻿---
+---
 title: compliance Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

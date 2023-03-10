@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_non_blanks yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/autofilter/match_non_blanks/
 is_root: false
 ---
 ##  match_non_blanks(field_index) {#int}
-Listedeki boş olmayan tüm hücreleri eşleştirin.
+Listedeki tüm boş olmayan hücreleri eşleştirin.
 
 
 
@@ -18,7 +18,7 @@ def match_non_blanks(self, field_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 

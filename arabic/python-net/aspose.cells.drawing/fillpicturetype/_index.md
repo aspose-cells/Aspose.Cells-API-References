@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد FillPictureType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | STRETCH | تمتد|
 | STACK | كومة|
-| STACK_AND_SCALE | كومة ومقياس|
+| STACK_AND_SCALE | StackAndScale|
 
 
 

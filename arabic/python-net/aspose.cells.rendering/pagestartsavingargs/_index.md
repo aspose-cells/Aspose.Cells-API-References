@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageStartSavingArgs الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [page_index](/cells/ar/python-net/aspose.cells.rendering/pagestartsavingargs/page_index) | فهرس الصفحة الحالية ، قائم على الصفر.|
+| [page_index](/cells/ar/python-net/aspose.cells.rendering/pagestartsavingargs/page_index) | فهرس الصفحة الحالية ، على أساس الصفر.|
 | [page_count](/cells/ar/python-net/aspose.cells.rendering/pagestartsavingargs/page_count) | إجمالي عدد الصفحات.|
 | [is_to_output](/cells/ar/python-net/aspose.cells.rendering/pagestartsavingargs/is_to_output) | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب إخراج الصفحة أم لا.<br/> القيمة الافتراضية هي الحقيقية.|
 

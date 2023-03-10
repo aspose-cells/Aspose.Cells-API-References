@@ -1,4 +1,4 @@
-﻿---
+---
 title: comment_shape الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 احصل على كائن الشكل الذي يمثل الشكل المرفق بالتعليق المحدد.
 
-###  أمثلة
+###  مثال
 
 ```python
 

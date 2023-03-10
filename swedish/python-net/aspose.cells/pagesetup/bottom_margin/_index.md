@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin fastighet
 
-Representerar storleken på bottenmarginalen, i enheter av centimeter.
+Representerar storleken på bottenmarginalen, i centimeterenhet.
 ###  Definition:
 ```python
 @property

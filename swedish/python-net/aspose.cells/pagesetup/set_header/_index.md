@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_header metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_header(self, section, header_script):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 | header_script | str | Skript i rubrikformat.|
@@ -36,7 +36,7 @@ Skriptkommandon:
 | &F| Filnamn utan sökväg|
 | &"<FontName>"| Teckensnittsnamn, till exempel: &"Arial"|
 | &"<FontName>, <FontStyle>"| Teckensnittsnamn och teckensnittsstil, till exempel: &"Arial,Fet"|
-| &<FontSize>| Teckenstorlek Om detta kommando följs av ett vanligt nummer som ska skrivas ut i rubriken, kommer det att separeras från teckensnittets höjd med ett mellanslag.|
+| &<FontSize>| Textstorlek. Om detta kommando följs av ett vanligt nummer som ska skrivas ut i rubriken, kommer det att separeras från teckensnittets höjd med ett mellanslag.|
 | &K<RRGGBB>|Teckensnittsfärg, till exempel (RÖD): &KFF0000|
 | &G| Bildskript|
 

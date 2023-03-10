@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,8 +24,8 @@ def add(self, row, column, value):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| row | int | Der Zeilenindex der Eingabezellen.|
-| column | int | Der Spaltenindex der Eingabezellen.|
+| row | int | Der Zeilenindex der Eingabezelle.|
+| column | int | Der Spaltenindex der Eingabezelle.|
 | value | str | Der Wert der Eingabezelle.|
 
 

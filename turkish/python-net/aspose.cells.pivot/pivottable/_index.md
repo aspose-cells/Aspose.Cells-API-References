@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTable sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,23 +25,23 @@ PivotTable türü aşağıdaki üyeleri gösterir:
 | [column_fields](/cells/tr/python-net/aspose.cells.pivot/pivottable/column_fields) | Şu anda sütun alanları olarak gösterilen bir PivotFields nesnesi döndürür.|
 | [row_fields](/cells/tr/python-net/aspose.cells.pivot/pivottable/row_fields) | Şu anda satır alanları olarak gösterilen bir PivotFields nesnesi döndürür.|
 | [page_fields](/cells/tr/python-net/aspose.cells.pivot/pivottable/page_fields) | Şu anda sayfa alanları olarak gösterilen bir PivotFields nesnesi döndürür.|
-| [data_fields](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_fields) | Bir PivotTable'daki tüm veri alanlarını temsil eden bir PivotField nesnesi alır.<br/>Salt okunur.Yalnızca DataPiovtFields içinde iki veya daha fazla veri alanı olduğunda init olacaktır.<br/>Yalnızca PivotTable satır/sütun alanına DataPivotField eklemek için kullanılır.Varsayılan, satır alanındadır.|
-| [data_field](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_field) | Bir PivotTable'daki tüm veri alanlarını temsil eden bir PivotField nesnesi alır.<br/>Salt okunur.Yalnızca DataPiovtFields içinde iki veya daha fazla veri alanı olduğunda init olacaktır.<br/>Yalnızca PivotTable satır/sütun alanına DataPivotField eklemek için kullanılır.Varsayılan, satır alanındadır.|
+| [data_fields](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_fields) | Bir PivotTable'daki tüm veri alanlarını temsil eden bir PivotField nesnesi alır.<br/>Salt okunur. Yalnızca DataPiovtFiels'de iki veya daha fazla veri alanı olduğunda init olur.<br/>Yalnızca PivotTable satır/sütun alanına DataPivotField eklemek için kullanılır. Varsayılan satır alanındadır.|
+| [data_field](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_field) | Bir PivotTable'daki tüm veri alanlarını temsil eden bir PivotField nesnesi alır.<br/>Salt okunur. Yalnızca DataPiovtFiels'de iki veya daha fazla veri alanı olduğunda init olur.<br/>Yalnızca PivotTable satır/sütun alanına DataPivotField eklemek için kullanılır. Varsayılan satır alanındadır.|
 | [base_fields](/cells/tr/python-net/aspose.cells.pivot/pivottable/base_fields) | PivotTable raporundaki tüm alanları içeren bir PivotFields nesnesi döndürür|
 | [pivot_filters](/cells/tr/python-net/aspose.cells.pivot/pivottable/pivot_filters) | Bir PivotFilterCollection nesnesi döndürür.|
-| [column_range](/cells/tr/python-net/aspose.cells.pivot/pivottable/column_range) | Aralığı temsil eden bir CellArea nesnesi döndürür<br/> PivotTable raporundaki sütun alanını içerir.|
-| [row_range](/cells/tr/python-net/aspose.cells.pivot/pivottable/row_range) | Aralığı temsil eden bir CellArea nesnesi döndürür<br/> PivotTable raporundaki satır alanını içerir.|
-| [data_body_range](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_body_range) | Veri alanını içeren aralığı temsil eden bir CellArea nesnesi döndürür<br/> başlık satırı ile ekleme satırı arasındaki listede.|
-| [table_range1](/cells/tr/python-net/aspose.cells.pivot/pivottable/table_range1) | PivotTable raporunun tamamını içeren aralığı temsil eden bir CellArea nesnesi döndürür,<br/> ancak sayfa alanlarını içermez.|
-| [table_range2](/cells/tr/python-net/aspose.cells.pivot/pivottable/table_range2) | PivotTable raporunun tamamını içeren aralığı temsil eden bir CellArea nesnesi döndürür,<br/> sayfa alanlarını içerir.|
+| [column_range](/cells/tr/python-net/aspose.cells.pivot/pivottable/column_range) | Aralığı temsil eden bir CellArea nesnesi döndürür<br/> PivotTable raporundaki sütun alanını içerir. Sadece oku.|
+| [row_range](/cells/tr/python-net/aspose.cells.pivot/pivottable/row_range) | Aralığı temsil eden bir CellArea nesnesi döndürür<br/> PivotTable raporundaki satır alanını içerir. Sadece oku.|
+| [data_body_range](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_body_range) | Veri alanını içeren aralığı temsil eden bir CellArea nesnesi döndürür<br/> başlık satırı ile ekleme satırı arasındaki listede. Sadece oku.|
+| [table_range1](/cells/tr/python-net/aspose.cells.pivot/pivottable/table_range1) | PivotTable raporunun tamamını içeren aralığı temsil eden bir CellArea nesnesi döndürür,<br/> ancak sayfa alanlarını içermez. Sadece oku.|
+| [table_range2](/cells/tr/python-net/aspose.cells.pivot/pivottable/table_range2) | PivotTable raporunun tamamını içeren aralığı temsil eden bir CellArea nesnesi döndürür,<br/> sayfa alanlarını içerir. Sadece oku.|
 | [column_grand](/cells/tr/python-net/aspose.cells.pivot/pivottable/column_grand) | PivotTable raporunun sütunlar için genel toplamları gösterip göstermediğini belirtir.|
 | [is_grid_drop_zones](/cells/tr/python-net/aspose.cells.pivot/pivottable/is_grid_drop_zones) | PivotTable raporunun klasik pivot tablo düzenini gösterip göstermediğini gösterir.<br/> (kılavuzdaki alanların sürüklenmesini sağlar)|
 | [row_grand](/cells/tr/python-net/aspose.cells.pivot/pivottable/row_grand) |PivotTable raporunun satırlar için genel toplamları gösterip göstermediğini belirtir.|
 | [display_null_string](/cells/tr/python-net/aspose.cells.pivot/pivottable/display_null_string) | PivotTable raporunun özel bir dize gösterip göstermediğini gösterir<br/> boş değerler içeren hücrelerde.|
-| [null_string](/cells/tr/python-net/aspose.cells.pivot/pivottable/null_string) | Boş değerler içeren hücrelerde görüntülenen dizeyi alır<br/> DisplayNullString özelliği doğru olduğunda.|
+| [null_string](/cells/tr/python-net/aspose.cells.pivot/pivottable/null_string) | Boş değerler içeren hücrelerde görüntülenen dizeyi alır<br/> DisplayNullString özelliği true olduğunda. Varsayılan değer boş bir dizedir.|
 | [display_error_string](/cells/tr/python-net/aspose.cells.pivot/pivottable/display_error_string) | PivotTable raporunun, hata içeren hücrelerde özel bir dize gösterip göstermediğini gösterir.|
 | [data_field_header_name](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_field_header_name) | PivotTable'daki değer alanı alan başlığının adını alır ve ayarlar.|
-| [error_string](/cells/tr/python-net/aspose.cells.pivot/pivottable/error_string) | Hata içeren hücrelerde görüntülenen dizeyi alır<br/> DisplayErrorString özelliği true olduğunda Varsayılan değer boş bir dizedir.|
+| [error_string](/cells/tr/python-net/aspose.cells.pivot/pivottable/error_string) | Hata içeren hücrelerde görüntülenen dizeyi alır<br/> DisplayErrorString özelliği true olduğunda. Varsayılan değer boş bir dizedir.|
 | [is_auto_format](/cells/tr/python-net/aspose.cells.pivot/pivottable/is_auto_format) | PivotTable raporunun otomatik olarak biçimlendirilip biçimlendirilmediğini gösterir.<br/>Excel 2003 için özet tablo seçeneğinde bulunan "tabloyu otomatik biçimlendir" onay kutusu<br/> Pivot tablodaki "güncellemede sütun genişliğini otomatik sığdır" onay kutusu Seçenekler: Excel 2007 için Düzen Biçimi|
 | [auto_format_type](/cells/tr/python-net/aspose.cells.pivot/pivottable/auto_format_type) | PivotTable otomatik biçim türünü alır.|
 | [has_blank_rows](/cells/tr/python-net/aspose.cells.pivot/pivottable/has_blank_rows) | Boş satırların eklenip eklenmeyeceğini belirtir.<br/>Bu özellik yalnızca boş satırlar eklemesi gereken PivotTable otomatik biçim türleri için geçerlidir.|
@@ -50,7 +50,7 @@ PivotTable türü aşağıdaki üyeleri gösterir:
 | [show_drill](/cells/tr/python-net/aspose.cells.pivot/pivottable/show_drill) | Genişletme/daraltma düğmelerinin gösterilip gösterilmediğini alır.|
 | [enable_drilldown](/cells/tr/python-net/aspose.cells.pivot/pivottable/enable_drilldown) | Ayrıntılı incelemenin etkin olup olmadığını alır.|
 | [enable_field_dialog](/cells/tr/python-net/aspose.cells.pivot/pivottable/enable_field_dialog) | PivotTable Alanı iletişim kutusunun kullanılabilir olup olmadığını gösterir<br/> kullanıcı PivotTable alanını çift tıklattığında.|
-| [enable_field_list](/cells/tr/python-net/aspose.cells.pivot/pivottable/enable_field_list) | PivotTable için alan listesinin etkinleştirilip etkinleştirilmeyeceğini alır.|
+| [enable_field_list](/cells/tr/python-net/aspose.cells.pivot/pivottable/enable_field_list) | PivotTable için alan listesini etkinleştirip etkinleştirmediğini alır.|
 | [enable_wizard](/cells/tr/python-net/aspose.cells.pivot/pivottable/enable_wizard) | PivotTable Sihirbazı'nın kullanılabilir olup olmadığını gösterir.|
 | [subtotal_hidden_page_items](/cells/tr/python-net/aspose.cells.pivot/pivottable/subtotal_hidden_page_items) | PivotTable raporundaki gizli sayfa alanı öğelerinin olup olmadığını gösterir.<br/>satır ve sütun alt toplamlarına, blok toplamlarına ve genel toplamlara dahil edilir.<br/> Varsayılan değer Yanlış'tır.|
 | [grand_total_name](/cells/tr/python-net/aspose.cells.pivot/pivottable/grand_total_name) | Genel toplam sütununda veya satır başlığında görüntülenen metin dizesi etiketini döndürür.<br/> Varsayılan değer "Genel Toplam" dizesidir.|
@@ -64,7 +64,7 @@ PivotTable türü aşağıdaki üyeleri gösterir:
 | [show_empty_col](/cells/tr/python-net/aspose.cells.pivot/pivottable/show_empty_col) | Tabloya boş sütunların dahil edilip edilmeyeceğini gösteren bir boole değeri belirtir.|
 | [show_empty_row](/cells/tr/python-net/aspose.cells.pivot/pivottable/show_empty_row) | Tabloya boş satırların dahil edilip edilmeyeceğini gösteren bir boole değeri belirtir.|
 | [field_list_sort_ascending](/cells/tr/python-net/aspose.cells.pivot/pivottable/field_list_sort_ascending) |PivotTable'daki alanların alan listesinde varsayılan olmayan sırayla sıralanıp sıralanmadığını gösteren bir boole değeri belirtir.|
-| [print_drill](/cells/tr/python-net/aspose.cells.pivot/pivottable/print_drill) | Detay göstergelerinin yazdırılıp yazdırılmayacağını belirten bir boole değeri belirtir.<br/> Pivot tabloda görüntülendiğinde genişlet/daralt düğmelerini yazdırın.|
+| [print_drill](/cells/tr/python-net/aspose.cells.pivot/pivottable/print_drill) | Detay göstergelerinin yazdırılıp yazdırılmayacağını belirten bir boole değeri belirtir.<br/> Pivot tablo üzerinde görüntülendiğinde genişletme/daraltma düğmelerini yazdırın.|
 | [alt_text_title](/cells/tr/python-net/aspose.cells.pivot/pivottable/alt_text_title) | Alt metnin başlığını alır|
 | [alt_text_description](/cells/tr/python-net/aspose.cells.pivot/pivottable/alt_text_description) | Alternatif metnin açıklamasını alır|
 | [name](/cells/tr/python-net/aspose.cells.pivot/pivottable/name) | PivotTable'ın adını alır|
@@ -83,8 +83,8 @@ PivotTable türü aşağıdaki üyeleri gösterir:
 | [external_connection_data_source](/cells/tr/python-net/aspose.cells.pivot/pivottable/external_connection_data_source) | Dış bağlantı veri kaynağını alır.|
 | [data_source](/cells/tr/python-net/aspose.cells.pivot/pivottable/data_source) | Pivot tablonun veri kaynağını alır ve ayarlar.|
 | [item_print_titles](/cells/tr/python-net/aspose.cells.pivot/pivottable/item_print_titles) | Satır ekseninde pivot öğe başlıklarının olup olmadığını belirten bir bit<br/> tablo biçiminde pivot alanları için yazdırılan her sayfada tekrarlanır.|
-| [print_titles](/cells/tr/python-net/aspose.cells.pivot/pivottable/print_titles) | Çalışma sayfası için yazdırma başlıklarının temel alınarak ayarlanıp ayarlanmadığını gösterir.<br/> PivotTable raporunda.|
-| [display_immediate_items](/cells/tr/python-net/aspose.cells.pivot/pivottable/display_immediate_items) | Satır ve sütun alanlarındaki öğelerin görünür olup olmadığını gösterir<br/> PivotTable'ın veri alanı boş olduğunda.|
+| [print_titles](/cells/tr/python-net/aspose.cells.pivot/pivottable/print_titles) | Çalışma sayfası için yazdırma başlıklarının temel alınarak ayarlanıp ayarlanmadığını gösterir.<br/> PivotTable raporunda. Varsayılan değer yanlıştır.|
+| [display_immediate_items](/cells/tr/python-net/aspose.cells.pivot/pivottable/display_immediate_items) | Satır ve sütun alanlarındaki öğelerin görünür olup olmadığını gösterir<br/> PivotTable'ın veri alanı boş olduğunda. Varsayılan değer doğrudur.|
 | [is_selected](/cells/tr/python-net/aspose.cells.pivot/pivottable/is_selected) | PivotTable'ın seçili olup olmadığını gösterir.|
 | [show_pivot_style_row_header](/cells/tr/python-net/aspose.cells.pivot/pivottable/show_pivot_style_row_header) | Pivot tablodaki satır başlığına stilin uygulanıp uygulanmayacağını belirtir.|
 | [show_pivot_style_column_header](/cells/tr/python-net/aspose.cells.pivot/pivottable/show_pivot_style_column_header) |Pivot tablodaki sütun başlığına stilin uygulanıp uygulanmayacağını belirtir.|
@@ -108,10 +108,10 @@ PivotTable türü aşağıdaki üyeleri gösterir:
 | [move(dest_cell_name)](/cells/tr/python-net/aspose.cells.pivot/pivottable/move/#str) | PivotTable'ı çalışma sayfasında farklı bir konuma taşır.|
 | [set_auto_group_field(base_field_index)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_auto_group_field/#int) | PivotTable tarafından otomatik alan grubunu ayarlar.|
 | [set_auto_group_field(pivot_field)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_auto_group_field/#PivotField) | PivotTable tarafından otomatik alan grubunu ayarlar.|
-| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) | PivotTable'a göre el ile alan gruplarını ayarlar.|
-| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-float-float-list-float) | PivotTable'a göre el ile alan gruplarını ayarlar.|
-| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-DateTime-DateTime-list-int) | PivotTable'a göre el ile alan gruplarını ayarlar.|
-| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-DateTime-DateTime-list-int) | PivotTable'a göre el ile alan gruplarını ayarlar.|
+| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) | PivotTable'a göre el ile alan grubunu ayarlar.|
+| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-float-float-list-float) | PivotTable'a göre el ile alan grubunu ayarlar.|
+| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-DateTime-DateTime-list-int) | PivotTable'a göre el ile alan grubunu ayarlar.|
+| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-DateTime-DateTime-list-int) | PivotTable'a göre el ile alan grubunu ayarlar.|
 | [set_ungroup(base_field_index)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_ungroup/#int) | PivotTable tarafından grubu çözmeyi ayarlar|
 | [set_ungroup(pivot_field)](/cells/tr/python-net/aspose.cells.pivot/pivottable/set_ungroup/#PivotField) | PivotTable tarafından grubu çözmeyi ayarlar|
 | [copy_style(pivot_table)](/cells/tr/python-net/aspose.cells.pivot/pivottable/copy_style/#PivotTable) | Başka bir pivot tablodan adlı stili kopyalar.|
@@ -121,11 +121,11 @@ PivotTable türü aşağıdaki üyeleri gösterir:
 | [fields(field_type)](/cells/tr/python-net/aspose.cells.pivot/pivottable/fields/#PivotFieldType) | Alan türüne göre belirli alanları alır.|
 | [change_data_source(source)](/cells/tr/python-net/aspose.cells.pivot/pivottable/change_data_source/#list) | pivottable'ın kaynak verilerini ayarlayın.<br/> Sayfa1!$A$1:$C$3|
 | [get_source()](/cells/tr/python-net/aspose.cells.pivot/pivottable/get_source/#) | Pivottable'ın kaynak verilerini alın.|
-| [refresh_data()](/cells/tr/python-net/aspose.cells.pivot/pivottable/refresh_data/#) | Pivot tablonun verilerini ve ayarlarını veri kaynağından yeniler.|
-| [calculate_data()](/cells/tr/python-net/aspose.cells.pivot/pivottable/calculate_data/#) | Pivot tablonun verilerini hücrelere göre hesaplar.|
+| [refresh_data()](/cells/tr/python-net/aspose.cells.pivot/pivottable/refresh_data/#) | Pivot tablonun verilerini ve ayarını veri kaynağından yeniler.|
+| [calculate_data()](/cells/tr/python-net/aspose.cells.pivot/pivottable/calculate_data/#) | Pivottable'ın verilerini hücrelere göre hesaplar.|
 | [clear_data()](/cells/tr/python-net/aspose.cells.pivot/pivottable/clear_data/#) | PivotTable'ın verilerini ve biçimlendirmesini temizle|
 | [calculate_range()](/cells/tr/python-net/aspose.cells.pivot/pivottable/calculate_range/#) | Pivot tablonun aralığını hesaplar.|
-| [format_all(style)](/cells/tr/python-net/aspose.cells.pivot/pivottable/format_all/#Style) | Pivot tablo alanındaki tüm hücreleri biçimlendirin|
+| [format_all(style)](/cells/tr/python-net/aspose.cells.pivot/pivottable/format_all/#Style) | Pivot tablo alanındaki tüm hücreyi biçimlendir|
 | [format_row(row, style)](/cells/tr/python-net/aspose.cells.pivot/pivottable/format_row/#int-Style) | Pivot tablo alanındaki satır verilerini biçimlendirin|
 | [format(row, column, style)](/cells/tr/python-net/aspose.cells.pivot/pivottable/format/#int-int-Style) | Pivot tablo alanında hücreyi biçimlendirme|
 | [get_horizontal_breaks()](/cells/tr/python-net/aspose.cells.pivot/pivottable/get_horizontal_breaks/#) | yatay sayfa sonlarının pivot tablo satırı dizin listesini al|
@@ -137,7 +137,7 @@ PivotTable türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

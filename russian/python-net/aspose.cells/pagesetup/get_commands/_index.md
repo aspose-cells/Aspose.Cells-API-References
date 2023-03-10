@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_commands метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | header_footer_script | str | Скрипт верхнего/нижнего колонтитула|
 

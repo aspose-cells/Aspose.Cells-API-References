@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_grid_style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style Eigentum
 
-Gibt an, ob der Stil der Rasteransicht auf Zellen angewendet werden soll.
+Gibt an, ob der Stil der Rasteransicht auf Zellen angewendet wird.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_cells_color metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

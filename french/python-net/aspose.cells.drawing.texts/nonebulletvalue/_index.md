@@ -1,4 +1,4 @@
-﻿---
+---
 title: NoneBulletValue classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing.texts/nonebulletvalue/
 is_root: false
 ---
 ##  NoneBulletValue classe
-Ne représente aucune balle.
+Ne représente aucune puce.
 
 
 

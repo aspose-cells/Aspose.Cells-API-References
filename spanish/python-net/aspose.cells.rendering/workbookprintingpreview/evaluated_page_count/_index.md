@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Evaluar el recuento total de páginas de este libro de trabajo
 
-###  Ejemplos
+###  Ejemplo
 
 El siguiente código muestra la forma más rápida de obtener el recuento de páginas de un libro de trabajo.
 

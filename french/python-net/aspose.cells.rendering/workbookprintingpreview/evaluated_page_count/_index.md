@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Évaluer le nombre total de pages de ce classeur
 
-###  Exemples
+###  Exemple
 
 Le code suivant montre le moyen le plus rapide d'obtenir le nombre de pages d'un classeur.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | [web_extension_task_panes](/cells/ru/python-net/aspose.cells/worksheetcollection/web_extension_task_panes) | Получает список областей задач.|
 | [web_extensions](/cells/ru/python-net/aspose.cells/worksheetcollection/web_extensions) | Получает список областей задач.|
 | [threaded_comment_authors](/cells/ru/python-net/aspose.cells/worksheetcollection/threaded_comment_authors) | Получает список авторов цепочек комментариев.|
-| [is_refresh_all_connections](/cells/ru/python-net/aspose.cells/worksheetcollection/is_refresh_all_connections) | Указывает, будут ли обновляться все подключения при открытии файла в MS Excel.|
+| [is_refresh_all_connections](/cells/ru/python-net/aspose.cells/worksheetcollection/is_refresh_all_connections) | Указывает, будут ли обновляться все соединения при открытии файла в MS Excel.|
 | [names](/cells/ru/python-net/aspose.cells/worksheetcollection/names) | Получает коллекцию всех объектов Name в электронной таблице.|
 | [active_sheet_name](/cells/ru/python-net/aspose.cells/worksheetcollection/active_sheet_name) | Представляет имя активного рабочего листа при открытии электронной таблицы.|
 | [active_sheet_index](/cells/ru/python-net/aspose.cells/worksheetcollection/active_sheet_index) | Представляет индекс активного рабочего листа при открытии электронной таблицы.|
@@ -71,7 +71,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

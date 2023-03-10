@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_duplicates metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ def remove_duplicates(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startraden.|
 | start_column | int | Startkolumnen|
@@ -40,7 +40,7 @@ def remove_duplicates(self, start_row, start_column, end_row, end_column):
 
 
 ##  remove_duplicates(start_row, start_column, end_row, end_column, has_headers, column_offsets) {#int-int-int-int-bool-list}
-Tar bort dubbletter av data från intervallet.
+Tar bort dubblettdata från intervallet.
 
 
 
@@ -50,7 +50,7 @@ def remove_duplicates(self, start_row, start_column, end_row, end_column, has_he
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startraden.|
 | start_column | int | Startkolumnen|

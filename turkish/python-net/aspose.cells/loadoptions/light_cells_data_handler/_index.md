@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_handler mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

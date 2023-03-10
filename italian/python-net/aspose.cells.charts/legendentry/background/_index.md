@@ -1,4 +1,4 @@
-﻿---
+---
 title: background proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene e imposta la modalità di visualizzazione di background
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
  utilizzare la proprietà LegendEntry.BackgroundMode.
  Questa proprietà verrà rimossa 12 mesi dopo da GENNAIO 2012.
 Aspose si scusa per gli eventuali disagi causati.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_svg metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,14 +22,14 @@ def add_svg(self, upper_left_row, top, upper_left_column, left, height, width, s
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av formen från dess vänstra rad, i pixelenhet.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
-| height | int | Formens höjd, i enheter av pixlar.|
-| width | int | Formens bredd, i enheter av pixlar.|
+| height | int | Formens höjd, i pixelenhet.|
+| width | int | Formens bredd, i pixelenhet.|
 | svg_data | bytes | Svg-bilddata.|
 | compatible_image_data | bytes |Konverterade bilddata från svg för att vara kompatibel med Excel 2016 eller lägre versioner.|
 

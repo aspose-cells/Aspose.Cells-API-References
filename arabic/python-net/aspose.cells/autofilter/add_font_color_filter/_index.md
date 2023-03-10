@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_font_color_filter
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_font_color_filter(self, field_index, color):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | إزاحة العدد الصحيح للحقل الذي تريد أن يؤسس عامل التصفية عليه<br/> (من يسار القائمة ؛ الحقل الموجود في أقصى اليسار هو الحقل 0).|
 | color | [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor) | الكائن [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor).|

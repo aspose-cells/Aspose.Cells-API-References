@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_header_footer metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-Rensar inställningarna för sidhuvud och sidfot.
+Rensar sidhuvud och sidfotsinställning.
 
 
 

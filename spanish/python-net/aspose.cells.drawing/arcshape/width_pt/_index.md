@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pt propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_pt propiedad
 
-Representa el ancho de la forma, en unidades de puntos.
+Representa el ancho de la forma, en unidades de punto.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

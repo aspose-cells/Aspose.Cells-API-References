@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_a_cell метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/validationcollection/remove_a_cell/
 is_root: false
 ---
 ##  remove_a_cell(row, column) {#int-int}
-Удаляет все параметры проверки в ячейке.
+Удаляет все настройки проверки в ячейке.
 
 
 
@@ -18,7 +18,7 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row | int | Индекс строки ячейки.|
 | column | int | Индекс столбца ячейки.|

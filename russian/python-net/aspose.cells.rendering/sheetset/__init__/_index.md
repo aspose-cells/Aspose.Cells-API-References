@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetSet конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | sheets | list | нулевые индексы листа.|
 ###  Примечания

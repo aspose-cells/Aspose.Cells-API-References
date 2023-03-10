@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_series_name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  show_series_name الملكية
 
 إرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات على مخطط.
-صحيح لإظهار اسم المسلسل. خطأ للاختباء.
+صحيح أن تظهر اسم المسلسل. خطأ للاختباء.
 ###  تعريف:
 ```python
 @property

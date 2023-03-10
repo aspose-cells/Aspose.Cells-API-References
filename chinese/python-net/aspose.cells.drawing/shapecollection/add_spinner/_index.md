@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_spinner方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 290
@@ -22,7 +22,7 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | upper_left_row | int |左上行索引。|
 | top | int |表示 Spinner 相对于其左行的垂直偏移量，以像素为单位。|

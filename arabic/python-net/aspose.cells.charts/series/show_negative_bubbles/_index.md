@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_negative_bubbles الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_negative_bubbles الملكية
 
-صحيح إذا تم عرض الفقاعات السالبة لمجموعة المخططات. صالح فقط لمخططات الفقاعات.
+صحيح إذا تم عرض الفقاعات السلبية لمجموعة الرسم البياني. صالح فقط للمخططات الفقاعية.
 ###  تعريف:
 ```python
 @property

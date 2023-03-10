@@ -1,6 +1,6 @@
-﻿---
+---
 title: hide_item方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -18,7 +18,7 @@ def hide_item(self, index, is_hidden):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | index | int | pivotField 中 pivotItem 的索引。|
 | is_hidden | bool |特定的 PivotItem 是否被隐藏|
@@ -35,7 +35,7 @@ def hide_item(self, item_value, is_hidden):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | item_value | str |pivotField 中 pivotItem 的值。|
 | is_hidden | bool |特定的 PivotItem 是否被隐藏|

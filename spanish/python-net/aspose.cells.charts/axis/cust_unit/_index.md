@@ -1,4 +1,4 @@
-﻿---
+---
 title: cust_unit propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Especifica un valor personalizado para la unidad de visualización.
 
 ###  Observaciones
 
- NOTA: Esta propiedad ahora está obsoleta.
+ NOTA: Esta propiedad ahora está obsoleta. En cambio,
 utilice la propiedad Axis.CustomUnit.
  Esta propiedad se eliminará 12 meses después desde enero de 2023.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_theme méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def copy_theme(self, source):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | source | [Workbook](/cells/fr/python-net/aspose.cells/workbook) | Classeur source.|
 

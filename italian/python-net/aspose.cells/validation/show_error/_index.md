@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_error proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

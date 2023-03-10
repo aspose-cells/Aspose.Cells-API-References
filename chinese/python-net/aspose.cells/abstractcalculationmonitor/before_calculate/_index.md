@@ -1,6 +1,6 @@
-﻿---
+---
 title: before_calculate方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -18,7 +18,7 @@ def before_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | sheet_index | int |单元格所属工作表的索引。|
 | row_index | int |单元格的行索引|

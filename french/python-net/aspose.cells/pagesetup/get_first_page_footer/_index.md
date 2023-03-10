@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_first_page_footer méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def get_first_page_footer(self, section):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 

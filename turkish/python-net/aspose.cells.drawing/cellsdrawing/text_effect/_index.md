@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_effect mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -12,7 +12,7 @@ is_root: false
  Belirtilen şekil için metin efekti biçimlendirme özelliklerini içeren bir TextEffectFormat nesnesi döndürür.
 WordArt'ı temsil eden Shape nesneleri için geçerlidir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

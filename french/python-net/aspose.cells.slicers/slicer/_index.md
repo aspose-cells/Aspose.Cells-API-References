@@ -1,4 +1,4 @@
-﻿---
+---
 title: Slicer classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,8 +24,8 @@ Le type Slicer expose les membres suivants :
 | [placement](/cells/fr/python-net/aspose.cells.slicers/slicer/placement) | Représente la manière dont l'objet dessin est attaché aux cellules situées en dessous.<br/> La propriété contrôle le placement d'un objet sur une feuille de calcul.|
 | [locked_aspect_ratio](/cells/fr/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) | Indique si le rapport hauteur/largeur est verrouillé.|
 | [locked_position](/cells/fr/python-net/aspose.cells.slicers/slicer/locked_position) | Indique si le segment spécifié peut être déplacé ou redimensionné à l'aide de l'interface utilisateur.|
-| [slicer_cache](/cells/fr/python-net/aspose.cells.slicers/slicer/slicer_cache) |Renvoie l'objet SlicerCache associé au segment.|
-| [parent](/cells/fr/python-net/aspose.cells.slicers/slicer/parent) | Renvoie l'objet Worksheet qui représente la feuille contenant le segment.|
+| [slicer_cache](/cells/fr/python-net/aspose.cells.slicers/slicer/slicer_cache) |Renvoie l'objet SlicerCache associé au segment. Lecture seulement.|
+| [parent](/cells/fr/python-net/aspose.cells.slicers/slicer/parent) | Renvoie l'objet Worksheet qui représente la feuille contenant le segment. Lecture seulement.|
 | [style_type](/cells/fr/python-net/aspose.cells.slicers/slicer/style_type) | Spécifiez le type de style de trancheuse intégré<br/> le type par défaut est SlicerStyleLight1|
 | [name](/cells/fr/python-net/aspose.cells.slicers/slicer/name) | Renvoie ou définit le nom du segment spécifié|
 | [caption](/cells/fr/python-net/aspose.cells.slicers/slicer/caption) | Renvoie ou définit la légende du segment spécifié.|
@@ -37,7 +37,7 @@ Le type Slicer expose les membres suivants :
 | [width_pixel](/cells/fr/python-net/aspose.cells.slicers/slicer/width_pixel) | Renvoie ou définit la largeur du segment spécifié, en pixels.|
 | [height](/cells/fr/python-net/aspose.cells.slicers/slicer/height) | Renvoie ou définit la hauteur du segment spécifié, en points.|
 | [height_pixel](/cells/fr/python-net/aspose.cells.slicers/slicer/height_pixel) |Renvoie ou définit la hauteur du segment spécifié, en pixels.|
-| [column_width_pixel](/cells/fr/python-net/aspose.cells.slicers/slicer/column_width_pixel) | Obtient ou définit la largeur en unités de pixels pour chaque colonne du segment.|
+| [column_width_pixel](/cells/fr/python-net/aspose.cells.slicers/slicer/column_width_pixel) | Obtient ou définit la largeur en pixels pour chaque colonne du segment.|
 | [column_width](/cells/fr/python-net/aspose.cells.slicers/slicer/column_width) | Renvoie ou définit la largeur, en points, de chaque colonne du segment.|
 | [row_height_pixel](/cells/fr/python-net/aspose.cells.slicers/slicer/row_height_pixel) | Renvoie ou définit la hauteur, en pixels, de chaque ligne dans le segment spécifié.|
 | [row_height](/cells/fr/python-net/aspose.cells.slicers/slicer/row_height) | Renvoie ou définit la hauteur, en points, de chaque ligne dans le segment spécifié.|
@@ -47,12 +47,12 @@ Le type Slicer expose les membres suivants :
 | Méthode| Description|
 | :- | :- |
 | [add_pivot_connection(pivot)](/cells/fr/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) | Ajoute une connexion au tableau croisé dynamique.|
-| [remove_pivot_connection(pivot)](/cells/fr/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Supprime les connexions de tableau croisé dynamique.|
-| [refresh()](/cells/fr/python-net/aspose.cells.slicers/slicer/refresh/#) | Actualisation du segment Pendant ce temps, actualisation et calcul des tableaux croisés dynamiques relatifs.|
+| [remove_pivot_connection(pivot)](/cells/fr/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Supprime la connexion au tableau croisé dynamique.|
+| [refresh()](/cells/fr/python-net/aspose.cells.slicers/slicer/refresh/#) | Actualisation du slicer. Pendant ce temps, actualisation et calcul des tableaux croisés dynamiques relatifs.|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

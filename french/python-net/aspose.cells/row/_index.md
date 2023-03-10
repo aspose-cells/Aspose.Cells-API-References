@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type Row expose les membres suivants :
 | :- | :- |
 | [is_blank](/cells/fr/python-net/aspose.cells/row/is_blank) | Indique si la ligne contient des données|
 | [is_collapsed](/cells/fr/python-net/aspose.cells/row/is_collapsed) | si la ligne est réduite|
-| [height](/cells/fr/python-net/aspose.cells/row/height) | Obtient et définit la hauteur de ligne en unités de Points.|
+| [height](/cells/fr/python-net/aspose.cells/row/height) | Obtient et définit la hauteur de la ligne en unités de points.|
 | [is_hidden](/cells/fr/python-net/aspose.cells/row/is_hidden) | Indique si la ligne est masquée.|
 | [index](/cells/fr/python-net/aspose.cells/row/index) | Obtient l'index de cette ligne.|
 | [group_level](/cells/fr/python-net/aspose.cells/row/group_level) | Obtient le niveau de groupe de la ligne.|
@@ -53,7 +53,7 @@ Obtient la cellule.
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

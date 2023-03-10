@@ -1,4 +1,4 @@
-﻿---
+---
 title: text недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text недвижимость
 
-Получает и задает text элемента управления.
+Получает и устанавливает text элемента управления.
 ###  Определение:
 ```python
 @property

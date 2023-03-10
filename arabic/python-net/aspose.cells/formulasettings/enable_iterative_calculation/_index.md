@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_iterative_calculation الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation الملكية
 
-يشير إلى ما إذا كان سيتم تمكين الحساب التكراري لحل المراجع الدائرية.
+يشير إلى ما إذا كان يتم تمكين الحساب التكراري لحل المراجع الدائرية.
 ###  تعريف:
 ```python
 @property

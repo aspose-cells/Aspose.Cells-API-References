@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPictureType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ FillPictureType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | STRETCH | Uzatmak|
 | STACK | Yığın|
-| STACK_AND_SCALE | Yığınla ve Ölçekle|
+| STACK_AND_SCALE | StackAndScale|
 
 
 

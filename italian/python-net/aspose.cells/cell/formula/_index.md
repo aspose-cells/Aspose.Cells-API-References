@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -16,7 +16,7 @@ Ottiene o imposta formula di [Cell](/cells/it/python-net/aspose.cells/cell).
  Una stringa formula inizia sempre con un segno uguale (=).
 E per favore usa sempre la virgola (,) come delimitatore di parametri, come "=SUM(A1, E1, H2)".
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

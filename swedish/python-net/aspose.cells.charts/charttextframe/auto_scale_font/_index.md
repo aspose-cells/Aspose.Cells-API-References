@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scale_font fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_scale_font fastighet
 
-Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.
+Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True.
 ###  Definition:
 ```python
 @property

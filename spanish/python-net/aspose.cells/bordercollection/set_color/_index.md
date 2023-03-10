@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_color método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_color(self, color):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Color de los bordes.|
 

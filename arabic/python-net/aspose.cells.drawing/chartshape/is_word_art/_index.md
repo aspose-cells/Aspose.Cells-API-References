@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_art الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 فقط من أجل Legacy Shape لملف xls.
 
-###  أمثلة
+###  مثال
 
 ```python
 

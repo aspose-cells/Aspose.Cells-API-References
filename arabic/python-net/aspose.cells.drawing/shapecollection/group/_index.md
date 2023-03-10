@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة group
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,14 +22,14 @@ def group(self, group_items):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | group_items | list | عناصر المجموعة.|
 ###  ملاحظات
 
-لا يجب تجميع الشكل الموجود في مجموعة العناصر.
+لا يجب تجميع الشكل الموجود في groupItems.
 يجب أن يكون الشكل في مجموعة الأشكال هذه.
-###  أمثلة
+###  مثال
 
 ```python
 

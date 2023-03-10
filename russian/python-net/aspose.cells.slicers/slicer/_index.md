@@ -1,4 +1,4 @@
-﻿---
+---
 title: Slicer класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,8 +24,8 @@ is_root: false
 | [placement](/cells/ru/python-net/aspose.cells.slicers/slicer/placement) | Представляет способ прикрепления объекта рисования к ячейкам под ним.<br/> Свойство управляет размещением объекта на рабочем листе.|
 | [locked_aspect_ratio](/cells/ru/python-net/aspose.cells.slicers/slicer/locked_aspect_ratio) | Указывает, блокируется ли соотношение сторон.|
 | [locked_position](/cells/ru/python-net/aspose.cells.slicers/slicer/locked_position) | Указывает, можно ли перемещать указанный срез или изменять его размер с помощью пользовательского интерфейса.|
-| [slicer_cache](/cells/ru/python-net/aspose.cells.slicers/slicer/slicer_cache) |Возвращает объект SlicerCache, связанный со слайсером.|
-| [parent](/cells/ru/python-net/aspose.cells.slicers/slicer/parent) | Возвращает объект Worksheet, представляющий лист, содержащий срез.|
+| [slicer_cache](/cells/ru/python-net/aspose.cells.slicers/slicer/slicer_cache) |Возвращает объект SlicerCache, связанный со слайсером. Только для чтения.|
+| [parent](/cells/ru/python-net/aspose.cells.slicers/slicer/parent) | Возвращает объект Worksheet, представляющий лист, содержащий срез. Только для чтения.|
 | [style_type](/cells/ru/python-net/aspose.cells.slicers/slicer/style_type) | Укажите тип стиля встроенного слайсера<br/> тип по умолчанию — SlicerStyleLight1|
 | [name](/cells/ru/python-net/aspose.cells.slicers/slicer/name) | Возвращает или задает имя указанного слайсера|
 | [caption](/cells/ru/python-net/aspose.cells.slicers/slicer/caption) | Возвращает или задает заголовок указанного слайсера.|
@@ -47,12 +47,12 @@ is_root: false
 | Метод| Описание|
 | :- | :- |
 | [add_pivot_connection(pivot)](/cells/ru/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) | Добавляет соединение со сводной таблицей.|
-| [remove_pivot_connection(pivot)](/cells/ru/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Удаляет соединения сводной таблицы.|
-| [refresh()](/cells/ru/python-net/aspose.cells.slicers/slicer/refresh/#) | Обновление слайсера, а также обновление и расчет относительных сводных таблиц.|
+| [remove_pivot_connection(pivot)](/cells/ru/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) | Удаляет подключение к сводной таблице.|
+| [refresh()](/cells/ru/python-net/aspose.cells.slicers/slicer/refresh/#) | Обновление слайсера. Между тем, обновление и расчет относительных сводных таблиц.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

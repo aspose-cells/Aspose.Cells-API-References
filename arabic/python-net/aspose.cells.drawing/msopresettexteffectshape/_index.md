@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد MsoPresetTextEffectShape
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,43 +19,43 @@ is_root: false
 | :- | :- |
 | PLAIN_TEXT | نص عادي|
 | STOP | قف|
-| TRIANGLE_UP | المثلث لأعلى|
-| TRIANGLE_DOWN | مثلث لأسفل|
+| TRIANGLE_UP | TriangleUp|
+| TRIANGLE_DOWN | مثلث أسفل|
 | CHEVRON_UP | شيفرون أب|
 | CHEVRON_DOWN | شيفرون داون|
-| RING_INSIDE | الحلقة بالداخل|
-| RING_OUTSIDE | عصابة بالخارج|
+| RING_INSIDE | RingInside|
+| RING_OUTSIDE | RingOutside|
 | ARCH_UP_CURVE | ArchUpCurve|
-| ARCH_DOWN_CURVE |منحنى القوس السفلي|
-| CIRCLE_CURVE | منحنى الدائرة|
-| BUTTON_CURVE | منحنى الزر|
-| ARCH_UP_POUR | القوس حتى صب|
-| ARCH_DOWN_POUR | قوس أسفل صب|
-| CIRCLE_POUR | دائرة صب|
-| BUTTON_POUR | زر صب|
-| CURVE_UP | منحنى لأعلى|
+| ARCH_DOWN_CURVE |ArchDownCurve|
+| CIRCLE_CURVE | سيركل كيرف|
+| BUTTON_CURVE | منحنى زر|
+| ARCH_UP_POUR | ArchUpPour|
+| ARCH_DOWN_POUR | ArchDownPour|
+| CIRCLE_POUR | الدائرة|
+| BUTTON_POUR | ButtonPour|
+| CURVE_UP | كيرف أب|
 | CURVE_DOWN | منحنى لأسفل|
 | CAN_UP | يمكن أن تصل|
-| CAN_DOWN | يمكن أن تسقط|
+| CAN_DOWN | كانداون|
 | WAVE1 | الموجة 1|
 | WAVE2 | الموجة 2|
 | DOUBLE_WAVE1 | الموجة المزدوجة 1|
 | DOUBLE_WAVE2 | موجة مزدوجة 2|
 | INFLATE | تضخيم|
 | DEFLATE | ينكمش|
-| INFLATE_BOTTOM | تضخيم القاع|
-| DEFLATE_BOTTOM | ينكمش من الأسفل|
-| INFLATE_TOP | تضخيم الأعلى|
-| DEFLATE_TOP | انكماش من الأعلى|
-| DEFLATE_INFLATE | ينكمش تضخم|
+| INFLATE_BOTTOM | تضخم|
+| DEFLATE_BOTTOM | ينكمش|
+| INFLATE_TOP | تضخم|
+| DEFLATE_TOP | انكماش|
+| DEFLATE_INFLATE | ينكمش|
 | DEFLATE_INFLATE_DEFLATE | انكماش|
-| FADE_RIGHT | تتلاشى الحق|
+| FADE_RIGHT | تتلاشى|
 | FADE_LEFT | تتلاشى اليسار|
 | FADE_UP | تتلاشى|
 | FADE_DOWN | تتلاشى|
 | SLANT_UP | سلانتوب|
-| SLANT_DOWN | انحدر للأسفل|
-| CASCADE_UP | تتالي|
+| SLANT_DOWN | انحدار|
+| CASCADE_UP | كاسكيد أب|
 | CASCADE_DOWN | تتالي أسفل|
 | MIXED | مختلط|
 

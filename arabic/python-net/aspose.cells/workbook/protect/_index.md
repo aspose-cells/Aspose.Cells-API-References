@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة protect
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/ar/python-net/aspose.cells/protectiontype) | نوع الحماية.|
 | password | str | كلمة مرور لحماية المصنف.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  left_inch الملكية
 
-يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدات البوصة.
+يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البوصة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

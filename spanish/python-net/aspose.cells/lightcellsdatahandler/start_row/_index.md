@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_row método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Se prepara para procesar una fila.
 
 ###  Devoluciones
 
-si esta fila (propiedades o datos de celdas) necesita ser procesada.false para ignorar esta fila y sus celdas y verificar la fila siguiente.
+si esta fila (propiedades o datos de celdas) necesita ser procesada. false para ignorar esta fila y sus celdas y comprobar la fila siguiente.
 
 
 ```python
@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row_index | int | el índice de la siguiente fila a procesar|
 

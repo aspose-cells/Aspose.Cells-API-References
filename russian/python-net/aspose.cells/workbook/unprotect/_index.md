@@ -1,4 +1,4 @@
-﻿---
+---
 title: unprotect метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def unprotect(self, password):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | password | str | Пароль для снятия защиты книги.|
 

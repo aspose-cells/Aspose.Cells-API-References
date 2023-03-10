@@ -1,4 +1,4 @@
-﻿---
+---
 title: License Konstrukteur
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Beispiele
+###  Beispiel
 
 In diesem Beispiel wird versucht, eine Lizenzdatei namens MyLicense.lic zu finden
  in dem Ordner, der enthält

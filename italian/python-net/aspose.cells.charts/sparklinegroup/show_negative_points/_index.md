@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_negative_points proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_negative_points proprietà
 
-Indica se evidenziare i valori negativi sul gruppo sparkline con un colore o un indicatore diverso.
+Indica se evidenziare i valori negativi nel gruppo sparkline con un colore o un indicatore diverso.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formattings mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings mülk
 
-Çalışma sayfasındaki Koşullu Biçimlendirmeyi alır.
+Çalışma sayfasındaki ConditionalFormattings'i alır.
 ###  Tanım:
 ```python
 @property

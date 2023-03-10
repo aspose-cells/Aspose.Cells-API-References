@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_scale propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,9 +10,9 @@ is_root: false
 ##  page_scale propriété
 
 Obtient l'échelle de page calculée de la feuille.
-Renvoie l'échelle définie si [PageSetup.zoom](/cells/fr/python-net/aspose.cells/pagesetup#zoom) est défini.
+Renvoie l'échelle définie si [PageSetup.zoom](/cells/fr/python-net/aspose.cells/pagesetup#zoom) est défini. Sinon, renvoie l'échelle calculée selon [PageSetup.fit_to_pages_wide](/cells/fr/python-net/aspose.cells/pagesetup#fit_to_pages_wide) et [PageSetup.fit_to_pages_tall](/cells/fr/python-net/aspose.cells/pagesetup#fit_to_pages_tall).
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

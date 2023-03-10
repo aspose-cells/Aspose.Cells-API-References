@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_int
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

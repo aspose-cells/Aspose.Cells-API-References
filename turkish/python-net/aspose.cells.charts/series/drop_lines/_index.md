@@ -1,4 +1,4 @@
-﻿---
+---
 title: drop_lines mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  drop_lines mülk
 
 Çizgi grafikte veya alan grafiğinde bir seri için bırakma çizgilerini temsil eden bir [Line](/cells/tr/python-net/aspose.cells.drawing/line) nesnesi döndürür.
-Yalnızca çizgi grafikler veya alan grafikler için geçerlidir.
+Yalnızca çizgi grafiği veya alan grafikleri için geçerlidir.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_border_horizontal proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_smart_markers yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Notlar
 
-Her aramada bir dizi dizisi oluşturulur.
+Her aramada bir dizi dizisi oluşturulur. Dizi sıralanır ve yinelenen değerler kaldırılır.
 
 
 ###  Ayrıca bakınız

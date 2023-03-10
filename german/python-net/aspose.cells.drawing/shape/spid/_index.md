@@ -1,4 +1,4 @@
-﻿---
+---
 title: spid Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt eine optionale Zeichenfolge an, die eine Anwendung verwenden kann, um die bestimmte Form zu identifizieren.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

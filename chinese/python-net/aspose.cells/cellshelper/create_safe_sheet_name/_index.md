@@ -1,6 +1,6 @@
-﻿---
+---
 title: create_safe_sheet_name方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -25,7 +25,7 @@ def create_safe_sheet_name(self, name_proposal):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name_proposal | str |要使用的工作表名称|
 
@@ -48,7 +48,7 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name_proposal | str |要使用的工作表名称|
 | replace_char | char |将用于替换给定工作表名称中的无效字符的字符|

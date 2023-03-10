@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -28,7 +28,7 @@ Il tipo ImageType espone i membri seguenti:
 | TIFF | TIFF|
 | SVG | SVG|
 | SVM | Svm|
-| GLTF | glTFAltro|
+| GLTF | glTF|
 | OFFICE_COMPATIBLE_EMF | Windows Enhanced Metafile che è più compatibile con Office.|
 | WEB_P |Formato immagine Weppy|
 

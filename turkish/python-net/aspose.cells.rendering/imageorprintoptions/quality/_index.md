@@ -1,4 +1,4 @@
-﻿---
+---
 title: quality mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  quality mülk
 
 Oluşturulan görüntülerin quality'ini belirleyen bir değer alır veya ayarlar
-yalnızca sayfaları `Jpeg` biçiminde kaydederken uygulanacak.
+yalnızca sayfaları `Jpeg` biçiminde kaydederken uygulanacak. Varsayılan değer 100'dür
 
 ###  Notlar
 

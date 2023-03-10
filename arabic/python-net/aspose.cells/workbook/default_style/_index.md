@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_style الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 تعتبر الخاصية DefaultStyle مفيدة في تنفيذ نمط للمصنف بأكمله.
 
-###  أمثلة
+###  مثال
 
 تقوم التعليمة البرمجية التالية بإنشاء وإنشاء مصنف جديد وتعيين [Style](/cells/ar/python-net/aspose.cells/style) افتراضيًا إليه.
 

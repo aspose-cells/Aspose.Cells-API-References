@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe WorkbookMetadata
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -37,7 +37,7 @@ Il tipo WorkbookMetadata espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 L'esempio seguente crea un WorkbookMetadata.
 

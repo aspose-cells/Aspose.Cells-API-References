@@ -1,4 +1,4 @@
-﻿---
+---
 title: inner_arc_start_point_x_px proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

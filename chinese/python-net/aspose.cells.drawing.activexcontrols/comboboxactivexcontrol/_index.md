@@ -1,6 +1,6 @@
-﻿---
+---
 title: ComboBoxActiveXControl类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -44,7 +44,7 @@ ComboBoxActiveXControl 类型公开了以下成员：
 | [font](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/font) |表示控件的字体。|
 | [text_align](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_align) |表示如何对齐控件使用的文本。|
 | [max_length](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/max_length) |获取和设置最大字符数|
-| [list_width](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) |以点为单位获取和设置宽度。|
+| [list_width](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) |获取和设置以点为单位的宽度。|
 | [bound_column](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/bound_column) |表示如何确定 ComboBox 或 ListBox 的 Value 属性<br/>当 MultiSelect 属性值为 (fmMultiSelectSingle) 时。|
 | [text_column](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_column) |表示 ComboBox 或 ListBox 中要显示给用户的列。|
 | [column_count](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/column_count) |表示要在 ComboBox 或 ListBox 中显示的列数。|

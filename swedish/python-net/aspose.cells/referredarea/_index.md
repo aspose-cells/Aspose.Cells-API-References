@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReferredArea klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,7 +24,7 @@ Typen ReferredArea avslöjar följande medlemmar:
 | [end_column](/cells/sv/python-net/aspose.cells/referredarea/end_column) | Områdets ändkolumn.|
 | [start_column](/cells/sv/python-net/aspose.cells/referredarea/start_column) | Startkolumnen för området.|
 | [end_row](/cells/sv/python-net/aspose.cells/referredarea/end_row) | Den sista raden av området.|
-| [start_row](/cells/sv/python-net/aspose.cells/referredarea/start_row) | Områdets startrad.|
+| [start_row](/cells/sv/python-net/aspose.cells/referredarea/start_row) | Startraden i området.|
 
 
 ###  Metoder

@@ -1,4 +1,4 @@
-﻿---
+---
 title: presentation_preference propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indicando si el archivo html o mht es la preferencia de presentación.
 El valor predeterminado es falso.
-si desea obtener una presentación más hermosa, establezca el valor en verdadero.
+Si desea obtener una presentación más hermosa, establezca el valor en verdadero.
 ###  Definición:
 ```python
 @property

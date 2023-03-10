@@ -1,4 +1,4 @@
-﻿---
+---
 title: title недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает title текущего объекта Slicer.
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ValidationCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/validationcollection/
 is_root: false
 ---
 ##  ValidationCollection класс
-Представляет коллекции проверки данных.
+Представляет коллекцию проверки данных.
 
 
 
@@ -32,14 +32,14 @@ is_root: false
 | [last_index_of(item)](/cells/ru/python-net/aspose.cells/validationcollection/last_index_of/#Validation) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения во всем списке массивов.|
 | [last_index_of(item, index)](/cells/ru/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который простирается от первого элемента до указанного индекса.|
 | [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
-| [remove_a_cell(row, column)](/cells/ru/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | Удаляет все параметры проверки в ячейке.|
+| [remove_a_cell(row, column)](/cells/ru/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | Удаляет все настройки проверки в ячейке.|
 | [remove_area(ca)](/cells/ru/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | Удаляет все настройки проверки в диапазоне.|
 | [get_validation_in_cell(row, column)](/cells/ru/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Получает проверку, применяемую к данной ячейке.|
 | [binary_search(item)](/cells/ru/python-net/aspose.cells/validationcollection/binary_search/#Validation) | Ищет элемент во всем отсортированном списке массивов, используя компаратор по умолчанию, и возвращает отсчитываемый от нуля индекс элемента.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea, ValidationType, Workbook

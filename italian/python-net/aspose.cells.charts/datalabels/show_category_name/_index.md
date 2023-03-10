@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_category_name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_category_name proprietà
 
-Rappresenta il comportamento di visualizzazione del nome della categoria di etichette dati di un grafico specificato.True per visualizzare il nome della categoria per le etichette dati su un grafico.False per nascondere.
+Rappresenta il comportamento di visualizzazione del nome della categoria di etichette dati di un grafico specificato. True per visualizzare il nome della categoria per le etichette dati su un grafico. Falso da nascondere.
 ###  Definizione:
 ```python
 @property

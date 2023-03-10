@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/shapecollection/
 is_root: false
 ---
 ##  ShapeCollection класс
-Представляет все фигуры на листе/диаграмме.
+Представляет всю форму на листе/диаграмме.
 
 
 
@@ -25,7 +25,7 @@ is_root: false
 | :- | :- |
 | [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Добавьте фигуру на диаграмму. Все единицы измерения составляют 1/4000 площади диаграммы.|
 | [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Добавьте фигуру на диаграмму. Все единицы измерения составляют 1/4000 площади диаграммы.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Добавьте фигуру на диаграмму. Все единицы измерения представляют собой процентную шкалу площади диаграммы.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Добавьте фигуру на диаграмму. Все единицы измерения представляют собой процентную шкалу области диаграммы.|
 | [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Добавьте фигуру на диаграмму. Все единицы измерения составляют 1/4000 площади диаграммы.|
 | [add_picture(upper_left_row, upper_left_column, lower_right_row, lower_right_column, stream)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-int-int-io.RawIOBase) | Добавляет изображение в коллекцию.|
 | [add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-io.RawIOBase-int-int) | Добавляет изображение в коллекцию.|
@@ -69,16 +69,16 @@ is_root: false
 | [add_ole_object(upper_left_row, top, upper_left_column, left, height, width, image_data)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/add_ole_object/#int-int-int-int-int-int-bytes) | Добавляет OleObject.|
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) | Скопируйте все комментарии в диапазоне.|
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) | Скопируйте фигуры из диапазона в целевой диапазон.|
-| [delete_in_range(ca)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Удалите фигуры в диапазоне. Фигуры комментариев не будут удалены.|
+| [delete_in_range(ca)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Удалить фигуры в диапазоне. Фигуры комментариев не будут удалены.|
 | [delete_shape(shape)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Удалить фигуру. Если фигура находится в группе или является фигурой комментария, она не будет удалена.|
 | [group(group_items)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/group/#list) | Сгруппируйте фигуры.|
-| [ungroup(group)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Разгруппируйте элементы формы.|
+| [ungroup(group)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Разгруппирует элементы формы.|
 | [update_selected_value()](/cells/ru/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) | Обновите выбранное значение значением связанной ячейки фигур.|
 | [binary_search(item)](/cells/ru/python-net/aspose.cells.drawing/shapecollection/binary_search/#Shape) | Ищет элемент во всем отсортированном списке массивов, используя компаратор по умолчанию, и возвращает отсчитываемый от нуля индекс элемента.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: contains_external_link proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

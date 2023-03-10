@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_area propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,7 +14,7 @@ El rango de celdas a exportar.
 ###  Observaciones
 
 Si se ha especificado el área exportada, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/es/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-no surtirá efecto.
+voluntad no surtirá efecto.
 ###  Definición:
 ```python
 @property

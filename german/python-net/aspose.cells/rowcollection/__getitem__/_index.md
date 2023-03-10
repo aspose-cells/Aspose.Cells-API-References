@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection Indexierer
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  RowCollection Indexierer
 
-Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeilenindex ab.
+Ruft ein [Row](/cells/de/python-net/aspose.cells/row)-Objekt nach gegebenem Zeilenindex ab. Das Zeilenobjekt des angegebenen Zeilenindex wird instanziiert, wenn es vorher nicht existiert.
 ###  Indexierer
 | Name| Beschreibung|
 | :- | :- |

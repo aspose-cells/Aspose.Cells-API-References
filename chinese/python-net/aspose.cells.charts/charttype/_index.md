@@ -1,6 +1,6 @@
-﻿---
+---
 title: ChartType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 450
@@ -14,7 +14,7 @@ is_root: false
 
 ChartType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | AREA |表示面积图。|
@@ -98,7 +98,7 @@ ChartType 类型公开了以下成员：
 | WATERFALL |该系列被布置为瀑布。|
 | HISTOGRAM |该系列被布置为直方图。|
 | MAP |该系列以区域地图的形式布置。|
-| RADIAL_HISTOGRAM |该系列被布置为径向直方图。|
+| RADIAL_HISTOGRAM |该系列被布置为径向直方图。它仅用于渲染|
 
 
 

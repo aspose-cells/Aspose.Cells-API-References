@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_line propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit la bordure de ligne de la forme visible.
 
-###  Exemples
+###  Exemple
 
 ```python
 

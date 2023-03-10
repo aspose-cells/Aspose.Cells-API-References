@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe TableStyleCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -32,7 +32,7 @@ Il tipo TableStyleCollection espone i membri seguenti:
 | [last_index_of(item, index, count)](/cells/it/python-net/aspose.cells.tables/tablestylecollection/last_index_of/#TableStyle-int-int) |Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occorrenza all'interno dell'intervallo di elementi nell'elenco di matrici che contiene il numero specificato di elementi e termina con l'indice specificato.|
 | [add_table_style(name)](/cells/it/python-net/aspose.cells.tables/tablestylecollection/add_table_style/#str) | Aggiunge uno stile di tabella personalizzato.|
 | [add_pivot_table_style(name)](/cells/it/python-net/aspose.cells.tables/tablestylecollection/add_pivot_table_style/#str) | Aggiunge uno stile di tabella pivot personalizzato.|
-| [get_builtin_table_style(type)](/cells/it/python-net/aspose.cells.tables/tablestylecollection/get_builtin_table_style/#TableStyleType) | Ottiene lo stile di tabella predefinito|
+| [get_builtin_table_style(type)](/cells/it/python-net/aspose.cells.tables/tablestylecollection/get_builtin_table_style/#TableStyleType) | Ottiene lo stile di tabella incorporato|
 | [binary_search(item)](/cells/it/python-net/aspose.cells.tables/tablestylecollection/binary_search/#TableStyle) | Cerca un elemento nell'intero elenco di matrici ordinate utilizzando l'operatore di confronto predefinito e restituisce l'indice in base zero dell'elemento.|
 
 

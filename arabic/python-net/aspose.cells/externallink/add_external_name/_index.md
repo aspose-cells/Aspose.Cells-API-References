@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_external_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | text | str | نص الاسم الخارجي.<br/>إذا كان الاسم الخارجي ينتمي إلى ورقة عمل ، فيجب أن يكون النص بالشكل Sheet1! Text.|
-| refer_to | str | الرجوع إلى الاسم الخارجي.|
+| refer_to | str | الرجوع إلى الاسم الخارجي. يجب أن تكون خلية أو نطاقًا.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -21,15 +21,15 @@ MsoDrawingType türü aşağıdaki üyeleri gösterir:
 | LINE | Astar|
 | RECTANGLE | Dikdörtgen|
 | OVAL | Oval|
-| ARC | yay|
-| CHART | çizelge|
+| ARC | ark|
+| CHART | Çizelge|
 | TEXT_BOX | Metin kutusu|
-| BUTTON | düğme|
-| PICTURE | resimler|
+| BUTTON | Düğme|
+| PICTURE | Resim|
 | POLYGON | Çokgen|
-| CHECK_BOX | onay kutusu|
-| RADIO_BUTTON | radyo düğmeleri|
-| LABEL | etiket|
+| CHECK_BOX | Onay Kutusu|
+| RADIO_BUTTON | Radyo düğmesi|
+| LABEL | Etiket|
 | DIALOG_BOX | İletişim kutusu|
 | SPINNER | Döndürücü|
 | SCROLL_BAR | Kaydırma çubuğu|
@@ -38,13 +38,13 @@ MsoDrawingType türü aşağıdaki üyeleri gösterir:
 | COMBO_BOX | Açılan kutu|
 | COMMENT | Yorum|
 | OLE_OBJECT | Ole nesnesi|
-| CELLS_DRAWING | Yalnızca şablon dosyasındaki çizim nesnelerini korumak için.|
+| CELLS_DRAWING | Yalnızca çizim nesnesini şablon dosyasında korumak için.|
 | UNKNOWN | Yalnızca xlsx dosyasındaki çizim nesnesini korumak için.|
 | SLICER | dilimleyici|
 | WEB_EXTENSION | web uzantısı|
 | SMART_ART | Akıllı sanat|
-| CUSTOM_XML | Mürekkep gibi özel xml şekilleri.|
-| TIMELINE | zaman çizelgesi|
+| CUSTOM_XML | Mürekkep gibi özel xml şekli.|
+| TIMELINE | Zaman çizelgesi|
 | MODEL_3D | 3 boyutlu model|
 
 

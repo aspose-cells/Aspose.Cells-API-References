@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo put_value
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def put_value(self, bool_value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | bool_value | bool |  |
 
@@ -34,7 +34,7 @@ def put_value(self, int_value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | int_value | int | Valore di input|
 
@@ -50,7 +50,7 @@ def put_value(self, double_value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | double_value | float | Valore di input|
 
@@ -66,7 +66,7 @@ def put_value(self, string_value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | string_value | str | Valore di input|
 
@@ -82,7 +82,7 @@ def put_value(self, date_time):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | date_time | DateTime | Valore di input|
 
@@ -98,7 +98,7 @@ def put_value(self, object_value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | object_value | any | valore di ingresso|
 
@@ -114,7 +114,7 @@ def put_value(self, string_value, is_converted):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | string_value | str | Valore di input|
 | is_converted | bool | True: convertito in un altro tipo di dati, se appropriato.|
@@ -131,7 +131,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | string_value | str | Valore di input|
 | is_converted | bool | True: convertito in un altro tipo di dati, se appropriato.|

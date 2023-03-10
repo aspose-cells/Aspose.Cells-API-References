@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_calculated_item
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_calculated_item(self, name, formula):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم العنصر.|
 | formula | str | صيغة العنصر|

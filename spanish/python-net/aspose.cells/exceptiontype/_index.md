@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExceptionType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -37,7 +37,7 @@ El tipo ExceptionType expone los siguientes miembros:
 | INTERRUPTED | El proceso se interrumpe.|
 | IO | El archivo no es válido.|
 | PERMISSION | Se requiere permiso para abrir este archivo.|
-| UNSUPPORTED_FEATURE | Funciones no admitidas.|
+| UNSUPPORTED_FEATURE | Función no admitida.|
 | UNSUPPORTED_STREAM | Secuencia no admitida para abrir.|
 | UNDISCLOSED_INFORMATION | Los archivos contienen información no revelada.|
 | FILE_CORRUPTED | El contenido del archivo está dañado.|

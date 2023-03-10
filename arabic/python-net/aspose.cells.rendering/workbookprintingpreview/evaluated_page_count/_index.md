@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 قم بتقييم إجمالي عدد الصفحات لهذا المصنف
 
-###  أمثلة
+###  مثال
 
 يُظهر الكود التالي أسرع طريقة للحصول على عدد صفحات مصنف.
 

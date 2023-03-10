@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintErrorsType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
 ##  PrintErrorsType dénombrement
-Représente les constantes d'erreur d'impression.
+Représente les constantes d'erreurs d'impression.
 
 
 

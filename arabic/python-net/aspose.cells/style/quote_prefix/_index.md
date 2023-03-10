@@ -1,4 +1,4 @@
-﻿---
+---
 title: quote_prefix الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix الملكية
 
-يشير إلى ما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس واحدة.
+يشير إلى ما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة.
 ###  تعريف:
 ```python
 @property

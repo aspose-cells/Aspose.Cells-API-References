@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo close_stream
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def close_stream(self, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | options | [StreamProviderOptions](/cells/it/python-net/aspose.cells/streamprovideroptions) |  |
 

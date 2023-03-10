@@ -1,4 +1,4 @@
-﻿---
+---
 title: null_string недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  null_string недвижимость
 
 Получает строку, отображаемую в ячейках, содержащих нулевые значения.
-когда свойство DisplayNullString имеет значение true.
+когда свойство DisplayNullString имеет значение true. Значение по умолчанию — пустая строка.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagPropertyCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.markup/smarttagpropertycollection/
 is_root: false
 ---
 ##  SmartTagPropertyCollection classe
-Représente toutes les propriétés des balises actives de cellule.
+Représente toutes les propriétés de la balise active de cellule.
 
 
 
@@ -23,7 +23,7 @@ Le type SmartTagPropertyCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.markup/smarttagpropertycollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.markup/smarttagpropertycollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

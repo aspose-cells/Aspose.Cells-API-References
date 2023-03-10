@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_crop mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_crop mülk
 
-Görüntünün genişliğinin oranı olarak ifade edilen, kırpma dikdörtgeninin sağının konumunu temsil eder.
+Görüntünün genişliğinin bir oranı olarak ifade edilen, kırpma dikdörtgeninin sağının konumunu temsil eder.
 ###  Tanım:
 ```python
 @property

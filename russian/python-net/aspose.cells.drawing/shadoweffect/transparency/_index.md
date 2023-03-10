@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparency недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency недвижимость
 
-Получает и задает степень тени transparency. Диапазон значений от 0,0 (непрозрачный) до 1,0 (прозрачный).
+Получает и задает степень transparency тени. Диапазон значений от 0,0 (непрозрачный) до 1,0 (прозрачный).
 ###  Определение:
 ```python
 @property

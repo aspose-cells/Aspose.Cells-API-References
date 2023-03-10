@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_multi_level_labels mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_multi_level_labels mülk
 
-Etiketlerin çok düzeyli olarak gösterilip gösterilmeyeceğini belirtir.
+Etiketlerin çoklu seviye olarak gösterilip gösterilmeyeceğini belirtir.
 
 ###  Notlar
 

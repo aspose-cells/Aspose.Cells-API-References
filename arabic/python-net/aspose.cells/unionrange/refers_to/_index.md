@@ -1,4 +1,4 @@
-﻿---
+---
 title: refers_to الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

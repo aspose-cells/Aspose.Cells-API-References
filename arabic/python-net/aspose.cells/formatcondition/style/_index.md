@@ -1,4 +1,4 @@
-﻿---
+---
 title: style الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style الملكية
 
-الحصول على أو تعيين style من نطاقات الخلايا المنسقة شرطيًا.
+الحصول على أو تحديد style لنطاقات الخلايا المنسقة الشرطية.
 ###  تعريف:
 ```python
 @property

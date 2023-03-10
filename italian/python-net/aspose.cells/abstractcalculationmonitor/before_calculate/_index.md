@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo before_calculate
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def before_calculate(self, sheet_index, row_index, col_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_index | int | Indice del foglio a cui appartiene la cella.|
 | row_index | int | Indice di riga della cella|

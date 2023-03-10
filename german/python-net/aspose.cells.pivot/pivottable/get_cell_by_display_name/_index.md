@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_by_display_name Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_conditional_formatting_result método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

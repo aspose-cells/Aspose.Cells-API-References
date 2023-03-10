@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Cell
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -26,7 +26,7 @@ Il tipo Cell espone i membri seguenti:
 | [name](/cells/it/python-net/aspose.cells/cell/name) | Ottiene il nome della cella.|
 | [is_error_value](/cells/it/python-net/aspose.cells/cell/is_error_value) | Controlla se il valore di questa cella è un errore.|
 | [is_numeric_value](/cells/it/python-net/aspose.cells/cell/is_numeric_value) | Indica se il valore interno di questa cella è numerico (int, double e datetime)|
-| [string_value](/cells/it/python-net/aspose.cells/cell/string_value) |Ottiene il valore stringa contenuto nella cella.<br/>Per altri tipi di cella, verrà restituito il valore di stringa formattato (formattato con lo stile specificato di questa cella).<br/>Il valore della cella formattata è lo stesso di quello che puoi ottenere da Excel quando copi una cella come testo (come<br/> copia della cella nell'editor di testo o esportazione in csv).|
+| [string_value](/cells/it/python-net/aspose.cells/cell/string_value) |Ottiene il valore stringa contenuto nella cella. Se il tipo di questa cella è stringa, restituisce il valore stringa stesso.<br/>Per altri tipi di cella, verrà restituito il valore di stringa formattato (formattato con lo stile specificato di questa cella).<br/>Il valore della cella formattata è lo stesso di quello che puoi ottenere da Excel quando copi una cella come testo (come<br/> copia della cella nell'editor di testo o esportazione in csv).|
 | [string_value_without_format](/cells/it/python-net/aspose.cells/cell/string_value_without_format) | Ottiene il valore della cella come stringa senza alcun formato.|
 | [number_category_type](/cells/it/python-net/aspose.cells/cell/number_category_type) | Rappresenta il tipo di categoria della formattazione del numero di questa cella.|
 | [display_string_value](/cells/it/python-net/aspose.cells/cell/display_string_value) | Ottiene il valore della stringa formattata di questa cella in base allo stile di visualizzazione della cella.|
@@ -44,7 +44,7 @@ Il tipo Cell espone i membri seguenti:
 | [is_dynamic_array_formula](/cells/it/python-net/aspose.cells/cell/is_dynamic_array_formula) | Indica se la formula della cella è una formula di matrice dinamica (vero) o una formula di matrice legacy (falso).|
 | [is_array_formula](/cells/it/python-net/aspose.cells/cell/is_array_formula) | Indica se la formula della cella è una formula di matrice.|
 | [is_in_array](/cells/it/python-net/aspose.cells/cell/is_in_array) | Indica se la formula della cella è una formula di matrice.|
-| [is_shared_formula](/cells/it/python-net/aspose.cells/cell/is_shared_formula) | Indica se la formula della cella fa parte di una formula condivisa.|
+| [is_shared_formula](/cells/it/python-net/aspose.cells/cell/is_shared_formula) | Indica se la formula della cella fa parte della formula condivisa.|
 | [is_table_formula](/cells/it/python-net/aspose.cells/cell/is_table_formula) | Indica se questa cella fa parte della formula della tabella.|
 | [is_in_table](/cells/it/python-net/aspose.cells/cell/is_in_table) | Indica se questa cella fa parte della formula della tabella.|
 | [value](/cells/it/python-net/aspose.cells/cell/value) | Ottiene il valore contenuto in questa cella.|
@@ -122,7 +122,7 @@ Il tipo Cell espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import TextAlignmentType, Workbook

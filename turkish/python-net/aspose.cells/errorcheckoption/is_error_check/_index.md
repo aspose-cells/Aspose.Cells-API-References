@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_error_check yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,9 +22,9 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| error_check_type | [ErrorCheckType](/cells/tr/python-net/aspose.cells/errorchecktype) | hata türü kontrol edilebilir|
+| error_check_type | [ErrorCheckType](/cells/tr/python-net/aspose.cells/errorchecktype) | hata tipi kontrol edilebilir|
 
 
 

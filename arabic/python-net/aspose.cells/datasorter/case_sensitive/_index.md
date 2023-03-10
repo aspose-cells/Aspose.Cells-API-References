@@ -1,4 +1,4 @@
-﻿---
+---
 title: case_sensitive الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive الملكية
 
-الحصول على وتحديد ما إذا كانت حساسة لحالة الأحرف عند مقارنة السلاسل.
+الحصول على وتحديد ما إذا كانت حساسة لحالة الأحرف عند مقارنة السلسلة.
 ###  تعريف:
 ```python
 @property

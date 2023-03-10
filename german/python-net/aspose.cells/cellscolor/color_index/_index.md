@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_index Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index Eigentum
 
-Ruft den Farbindex in der Farbpalette ab und legt ihn fest.
+Ruft den Farbindex in der Farbpalette ab und legt ihn fest. Gilt nur für indizierte Farbe.
 ###  Definition:
 ```python
 @property

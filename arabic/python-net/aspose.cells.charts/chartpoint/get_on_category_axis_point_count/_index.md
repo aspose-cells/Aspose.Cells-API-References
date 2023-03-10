@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_on_category_axis_point_count
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

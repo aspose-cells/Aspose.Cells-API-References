@@ -1,6 +1,6 @@
-﻿---
+---
 title: clear_format_3d方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20

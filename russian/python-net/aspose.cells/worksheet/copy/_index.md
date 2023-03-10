@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | Исходный лист.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | Исходный лист.|
 | copy_options | [CopyOptions](/cells/ru/python-net/aspose.cells/copyoptions) |  |
 ###  Примечания
 
-Вы можете copy данные из другого рабочего листа в том же файле или другом файле.
+Вы можете copy данные из другого рабочего листа в том же файле или другом файле. Однако этот метод не поддерживает объекты рисования copy, такие как комментарии, изображения и диаграммы.
 
 
 ###  Смотрите также

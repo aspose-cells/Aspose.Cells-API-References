@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_tab_bar_width mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

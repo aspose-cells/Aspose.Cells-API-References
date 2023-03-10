@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_on_save fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  calculate_on_save fastighet
 
-Indikerar om arbetsboken ska beräknas om innan dokumentet sparas i manuellt beräkningsläge.
+Anger om arbetsboken ska beräknas om innan dokumentet sparas, i manuellt beräkningsläge.
 
 ###  Anmärkningar
 

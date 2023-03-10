@@ -1,4 +1,4 @@
-﻿---
+---
 title: encoding fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding fastighet
 
-Hämtar och ställer in standardvärdet encoding. Gäller endast för csv-filer.
+Hämtar och ställer in standardvärdet encoding. Gäller endast för csv-fil.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SignatureLine classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -35,7 +35,7 @@ Le type SignatureLine expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

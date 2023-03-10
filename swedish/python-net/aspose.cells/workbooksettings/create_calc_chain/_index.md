@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_calc_chain fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Om skapar beräknade formler kedja. Standard är falskt.
 
 ###  Anmärkningar
 
-OBS: Den här medlemmen är nu föråldrad. Använd istället FormulaSettings.EnableCalculationChain.
+OBS: Denna medlem är nu föråldrad. Använd istället FormulaSettings.EnableCalculationChain.
  Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

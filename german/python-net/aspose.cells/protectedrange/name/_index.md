@@ -1,4 +1,4 @@
-﻿---
+---
 title: name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name Eigentum
 
-Ruft den Range-Titel ab.
+Ruft den Range-Titel ab. Dies wird als Deskriptor verwendet, nicht als benannte Bereichsdefinition.
 ###  Definition:
 ```python
 @property

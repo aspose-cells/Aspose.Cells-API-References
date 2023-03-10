@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo clear_sparkline_groups
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def clear_sparkline_groups(self, cell_area):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | Specifica l'area delle celle|
 

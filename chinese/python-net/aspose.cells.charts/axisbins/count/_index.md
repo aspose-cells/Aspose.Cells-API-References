@@ -1,6 +1,6 @@
-﻿---
+---
 title: count 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## count 属性
 
-获取或设置轴箱数count
+获取或设置轴bin的count
 ### 定义：
 ```python
 @property

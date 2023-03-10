@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartMarkerType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -28,7 +28,7 @@ ChartMarkerType türü aşağıdaki üyeleri gösterir:
 | SQUARE_STAR | Yıldızlı kare işaretçiler.|
 | TRIANGLE | Üçgen işaretçiler.|
 | SQUARE_X | X ile kare işaretleri.|
-| PICTURE | resimler|
+| PICTURE | Resim|
 
 
 

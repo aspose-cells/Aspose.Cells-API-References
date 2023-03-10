@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,9 +13,9 @@ is_root: true
 | [aspose.cells](/cells/ru/python-net/aspose.cells) |**Aspose.Cells** namespace предоставляет фундаментальные и базовые классы для создания, преобразования, изменения, рендеринга и печати электронных таблиц без использования Microsoft Excel.<br/>Например, класс [Workbook](/cells/ru/python-net/aspose.cells/workbook) является основной записью для создания или загрузки, а затем управления файлом электронной таблицы.<br/> Класс [Cells](/cells/ru/python-net/aspose.cells/cells) — это основной класс для управления всеми данными и свойствами на листе и т. д.|
 | [aspose.cells.charts](/cells/ru/python-net/aspose.cells.charts) |**Aspose.Cells.Charts** namespace предоставляет классы, позволяющие получать доступ и рисовать диаграммы и спарклайны в электронных таблицах Excel Microsoft.|
 | [aspose.cells.digitalsignatures](/cells/ru/python-net/aspose.cells.digitalsignatures) |**Aspose.Cells.DigitalSignatures** namespace предоставляет классы для подписи документов и проверки подписей.|
-| [aspose.cells.drawing](/cells/ru/python-net/aspose.cells.drawing) |**Aspose.Cells.Drawing** Пространство имен предоставляет классы, которые позволяют создавать и изменять фигуры рисования, элементы управления формами и более сложные объекты рисования.|
+| [aspose.cells.drawing](/cells/ru/python-net/aspose.cells.drawing) |**Aspose.Cells.Drawing** namespace предоставляет классы, которые позволяют создавать и изменять фигуры рисования, элементы управления формами и более сложные объекты рисования.|
 | [aspose.cells.drawing.activexcontrols](/cells/ru/python-net/aspose.cells.drawing.activexcontrols) |**Aspose.Cells.Drawing.ActiveXControls**namespace предоставляет классы, которые позволяют рисовать и получать доступ к ActiveXControl.|
-| [aspose.cells.drawing.texts](/cells/ru/python-net/aspose.cells.drawing.texts) |**Aspose.Cells.Drawing.Texts** namespace предоставляет классы, которые рисуют и форматируют текстовые объекты, такие как абзацы, маркеры и многое другое.|
+| [aspose.cells.drawing.texts](/cells/ru/python-net/aspose.cells.drawing.texts) |**Aspose.Cells.Drawing.Texts** namespace предоставляет классы, которые рисуют и форматируют текстовые объекты, такие как абзацы, маркеры и другие.|
 | [aspose.cells.externalconnections](/cells/ru/python-net/aspose.cells.externalconnections) |**Aspose.Cells.ExternalConnections** namespace предоставляет классы для внешних подключений для извлечения данных из внешних источников, таких как базы данных и Интернет.|
 | [aspose.cells.json](/cells/ru/python-net/aspose.cells.json) |**Aspose.Cells.Json** пространство имен содержит все классы JSON.|
 | [aspose.cells.markup](/cells/ru/python-net/aspose.cells.markup) |**Aspose.Cells.Markup** пространство имен содержит классы, которые представляют определяемую пользователем семантику в документе: смарт-теги, пользовательский XML и другие теги разметки.|
@@ -25,7 +25,7 @@ is_root: true
 | [aspose.cells.pivot](/cells/ru/python-net/aspose.cells.pivot) |**Aspose.Cells.Pivot** namespace содержит все классы рендеринга и управления сводными таблицами в файлах электронных таблиц Excel.|
 | [aspose.cells.properties](/cells/ru/python-net/aspose.cells.properties) |**Aspose.Cells.Properties** пространство имен предоставляет классы для работы с пользовательскими и встроенными свойствами электронной таблицы, такими как заголовок, ключевые слова, компания и т. д.|
 | [aspose.cells.querytables](/cells/ru/python-net/aspose.cells.querytables) |**Aspose.Cells.QueryTables**namespace предоставляет классы для доступа и обновления таблицы рабочего листа, созданной на основе данных, возвращенных из внешнего источника данных, например, сервера SQL или базы данных Access Microsoft.|
-| [aspose.cells.rendering](/cells/ru/python-net/aspose.cells.rendering) |**Aspose.Cells.Rendering** namespace предоставляет классы для рендеринга изображений и PDF-файлов.|
+| [aspose.cells.rendering](/cells/ru/python-net/aspose.cells.rendering) |**Aspose.Cells.Rendering** namespace предоставляет классы для рендеринга изображений и pdf.|
 | [aspose.cells.rendering.pdfsecurity](/cells/ru/python-net/aspose.cells.rendering.pdfsecurity) |**Aspose.Cells.Rendering.PdfSecurity** пространство имен предоставляет параметры безопасности классов Rendering pdf.|
 | [aspose.cells.revisions](/cells/ru/python-net/aspose.cells.revisions) |**Aspose.Cells.Revisions** namespace предоставляет классы для доступа к версиям файлов электронных таблиц Excel.|
 | [aspose.cells.saving](/cells/ru/python-net/aspose.cells.saving) |**Aspose.Cells.Saving** namespace предоставляет классы параметров сохранения файлов.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_font_substitution_char_granularity fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Indikerar om teckensnittet endast ska bytas ut när cellteckensnittet inte är k
 
 ###  Anmärkningar
 
-Standard är falskt. Vi försöker först med standardteckensnittet för Workbook och PdfSaveOption/system för cellteckensnitt.
+Standard är falskt. Vi kommer att prova standardteckensnittet för Workbook och PdfSaveOption/system för cellteckensnitt först.
 ###  Definition:
 ```python
 @property

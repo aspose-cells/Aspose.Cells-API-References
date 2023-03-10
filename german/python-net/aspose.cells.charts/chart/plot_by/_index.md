@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_by Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by Eigentum
 
-Ruft ab und legt fest, ob nach Zeile oder Spalte gezeichnet werden soll.
+Ruft ab und legt fest, ob nach Zeile oder Spalte gezeichnet wird.
 ###  Definition:
 ```python
 @property

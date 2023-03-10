@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo find_formula_contains
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,14 +22,14 @@ def find_formula_contains(self, formula, previous_cell):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | formula | str | La formula da cercare.|
-| previous_cell | [Cell](/cells/it/python-net/aspose.cells/cell) |Cella precedente con la stessa formula. Questo parametro può essere impostato su null se la ricerca viene eseguita dall'inizio.|
+| previous_cell | [Cell](/cells/it/python-net/aspose.cells/cell) |Cella precedente con la stessa formula. Questo parametro può essere impostato su null se si esegue la ricerca dall'inizio.|
 ###  Osservazioni
 
 Restituisce null (Niente) se non viene trovata alcuna cella.
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare il metodo Cells.Find(object,Cell,FindOptions) con LookInType come LookInType.OnlyFormulas
  e LookAtType come LookAtType.Contains.
  Questo membro verrà rimosso 12 mesi dopo da novembre 2018.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_data_value_editing proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

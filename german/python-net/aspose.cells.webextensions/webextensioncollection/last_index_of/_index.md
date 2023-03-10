@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_index_of Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten V
 
 ###  Kehrt zurück
 
-Der nullbasierte Index des letzten Vorkommens von value in der gesamten Array-Liste, falls gefunden, andernfalls -1.
+Der nullbasierte Index des letzten Vorkommens von value in der gesamten Array-Liste, falls gefunden; andernfalls -1.
 
 
 ```python
@@ -24,7 +24,7 @@ def last_index_of(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [WebExtension](/cells/de/python-net/aspose.cells.webextensions/webextension) | Das Objekt, das in der Arrayliste gesucht werden soll.|
+| item | [WebExtension](/cells/de/python-net/aspose.cells.webextensions/webextension) | Das Objekt, das in der Arrayliste gesucht werden soll. Der Wert kann null sein.|
 
 
 ##  last_index_of(item, index) {#WebExtension-int}
@@ -33,7 +33,7 @@ Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten V
 
 ###  Kehrt zurück
 
-Der nullbasierte Index des letzten Vorkommens von value innerhalb des Bereichs von Elementen in der Arrayliste, der sich vom ersten Element bis startIndex erstreckt, sofern gefunden, andernfalls -1.
+Der nullbasierte Index des letzten Vorkommens von value innerhalb des Bereichs von Elementen in der Array-Liste, der sich vom ersten Element bis startIndex erstreckt, falls gefunden; andernfalls -1.
 
 
 ```python
@@ -44,7 +44,7 @@ def last_index_of(self, item, index):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [WebExtension](/cells/de/python-net/aspose.cells.webextensions/webextension) | Das Objekt, das in der Arrayliste gesucht werden soll.|
+| item | [WebExtension](/cells/de/python-net/aspose.cells.webextensions/webextension) | Das Objekt, das in der Arrayliste gesucht werden soll. Der Wert kann null sein.|
 | index | int | Der nullbasierte Startindex der Rückwärtssuche.|
 
 
@@ -54,7 +54,7 @@ Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten V
 
 ###  Kehrt zurück
 
-Der nullbasierte Index des letzten Vorkommens von value innerhalb des Bereichs von Elementen in der System.Collections.Array-Liste, die die Anzahl der Elemente enthält und bei startIndex endet, falls gefunden, andernfalls -1.
+Der nullbasierte Index des letzten Vorkommens von value innerhalb des Bereichs von Elementen in System.Collections. Array-Liste, die Anzahl der Elemente enthält und bei startIndex endet, falls gefunden; andernfalls -1.
 
 
 ```python
@@ -65,7 +65,7 @@ def last_index_of(self, item, index, count):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [WebExtension](/cells/de/python-net/aspose.cells.webextensions/webextension) | Das Objekt, das in der Arrayliste gesucht werden soll.|
+| item | [WebExtension](/cells/de/python-net/aspose.cells.webextensions/webextension) | Das Objekt, das in der Arrayliste gesucht werden soll. Der Wert kann null sein.|
 | index | int | Der nullbasierte Startindex der Rückwärtssuche.|
 | count | int | Die Anzahl der Elemente im zu durchsuchenden Abschnitt.|
 

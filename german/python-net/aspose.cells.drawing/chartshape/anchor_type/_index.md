@@ -1,4 +1,4 @@
-﻿---
+---
 title: anchor_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  anchor_type Eigentum
 
-Ruft den Formankerplatzhalter ab und legt diesen fest.
+Ruft den Formankerplatzhalter ab und legt ihn fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

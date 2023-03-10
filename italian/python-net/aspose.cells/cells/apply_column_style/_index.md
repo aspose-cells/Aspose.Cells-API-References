@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo apply_column_style
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def apply_column_style(self, column, style, flag):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | L'indice di colonna.|
 | style | [Style](/cells/it/python-net/aspose.cells/style) | L'oggetto stile che verrà applicato.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_visible yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_visible(self, is_visible, ignore_error):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | is_visible | bool | Çalışma sayfasının görünür olup olmadığı|
 | ignore_error | bool | Bu seçenek geçerli değilse hatanın göz ardı edilip edilmeyeceği.|

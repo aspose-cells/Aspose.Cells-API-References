@@ -1,6 +1,6 @@
-﻿---
+---
 title: show_values_row 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 990
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## show_values_row 属性
 
-指定一个布尔值，表示是否显示值行。
+指定一个布尔值，指示是否显示值行。
 显示值行
 ### 定义：
 ```python

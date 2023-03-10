@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PageEndSavingArgs
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -24,7 +24,7 @@ Il tipo PageEndSavingArgs espone i membri seguenti:
 | :- | :- |
 | [page_index](/cells/it/python-net/aspose.cells.rendering/pageendsavingargs/page_index) | Indice della pagina corrente, in base zero.|
 | [page_count](/cells/it/python-net/aspose.cells.rendering/pageendsavingargs/page_count) | Numero totale di pagine.|
-| [has_more_pages](/cells/it/python-net/aspose.cells.rendering/pageendsavingargs/has_more_pages) | Ottiene o imposta un valore che indica se devono essere restituite più pagine.<br/> Il valore predefinito è true.|
+| [has_more_pages](/cells/it/python-net/aspose.cells.rendering/pageendsavingargs/has_more_pages) | Ottiene o imposta un valore che indica se devono essere restituite più pagine.<br/> Il valore predefinito è vero.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة characters
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -30,7 +30,7 @@ def characters(self):
 
 ###  عائدات
 
-كائنات الحرف.
+كائن الأحرف.
 
 
 ```python
@@ -39,7 +39,7 @@ def characters(self, start_index, length):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_index | int | فهرس بداية الحرف.|
 | length | int | عدد الأحرف.|

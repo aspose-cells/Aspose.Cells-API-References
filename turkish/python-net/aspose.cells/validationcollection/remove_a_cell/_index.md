@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_a_cell yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/validationcollection/remove_a_cell/
 is_root: false
 ---
 ##  remove_a_cell(row, column) {#int-int}
-Hücredeki tüm doğrulama ayarlarını kaldırır.
+Hücredeki tüm doğrulama ayarını kaldırır.
 
 
 
@@ -18,7 +18,7 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Hücrenin satır dizini.|
 | column | int | Hücrenin sütun dizini.|

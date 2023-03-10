@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_if_table_exists الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

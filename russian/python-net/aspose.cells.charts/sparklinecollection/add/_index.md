@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,10 +18,10 @@ def add(self, data_range, row, column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | data_range | str | Указывает новый диапазон данных спарклайна.|
-| row | int | Индекс строки местоположения.|
+| row | int | Индекс строки расположения.|
 | column | int | Индекс столбца местоположения.|
 
 

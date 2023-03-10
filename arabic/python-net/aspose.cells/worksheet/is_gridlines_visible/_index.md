@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_gridlines_visible الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_gridlines_visible الملكية
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت خطوط الشبكة مرئية أم لا. الافتراضي هو الصحيح.
+الحصول على أو تحديد قيمة تشير إلى ما إذا كانت خطوط الشبكة مرئية أم لا. الافتراضي هو true.
 ###  تعريف:
 ```python
 @property

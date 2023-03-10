@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_name propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name propriété
 
-Obtenez et définissez le nom de la police.
+Obtient et définit le nom de la police.
 ###  Définition:
 ```python
 @property

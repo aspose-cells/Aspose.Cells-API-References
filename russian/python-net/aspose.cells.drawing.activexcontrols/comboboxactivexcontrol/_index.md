@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComboBoxActiveXControl класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ is_root: false
 | :- | :- |
 | [workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/workbook) | Получает объект [ActiveXControlBase.workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/type) | Получает тип элемента управления ActiveX.|
-| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Получает и задает ширину элемента управления в точках.|
+| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Получает и задает ширину элемента управления в пунктах.|
 | [height](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | Получает и задает высоту элемента управления в пунктах.|
 | [mouse_icon](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_icon) | Получает и задает настраиваемый значок для отображения в качестве указателя мыши для элемента управления.|
 | [mouse_pointer](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_pointer) | Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления.|
@@ -44,7 +44,7 @@ is_root: false
 | [font](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/font) | Представляет шрифт элемента управления.|
 | [text_align](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_align) | Представляет, как выровнять текст, используемый элементом управления.|
 | [max_length](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/max_length) | Получает и устанавливает максимальное количество символов|
-| [list_width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | Получает и задает ширину в пунктах.|
+| [list_width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | Получает и устанавливает ширину в пунктах.|
 | [bound_column](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/bound_column) | Представляет, как свойство Value определяется для ComboBox или ListBox.<br/>когда значение свойства MultiSelect (fmMultiSelectSingle).|
 | [text_column](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_column) | Представляет столбец в ComboBox или ListBox для отображения пользователю.|
 | [column_count](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/column_count) | Представляет количество столбцов, отображаемых в ComboBox или ListBox.|

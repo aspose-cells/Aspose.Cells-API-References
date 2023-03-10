@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  IconSetType numaralandırma
  Koşullu biçimlendirme için simge seti türü.
-Bir küme içindeki farklı simgelerin tetiklenmesi için eşik değerler şunlardır:
+Bir küme içindeki farklı simgeleri tetiklemek için eşik değerleri şunlardır:
 yapılandırılabilir ve simge sırası tersine çevrilebilir.
 
 

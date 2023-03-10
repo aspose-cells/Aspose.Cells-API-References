@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_display proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display proprietà
 
-Rappresenta il testo da visualizzare per il collegamento ipertestuale specificato.
+Rappresenta il testo da visualizzare per il collegamento ipertestuale specificato. Il valore predefinito è l'indirizzo del collegamento ipertestuale.
 ###  Definizione:
 ```python
 @property

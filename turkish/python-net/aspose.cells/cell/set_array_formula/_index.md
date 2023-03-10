@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_array_formula yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
 | row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|
@@ -36,7 +36,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
 | row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|
@@ -55,7 +55,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
 | row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|
@@ -64,7 +64,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | is_local | bool | formülün yerel biçimlendirilmiş olup olmadığı|
 ###  Notlar
 
-NOT: Bu sınıf artık kullanılmıyor.
+NOT: Bu sınıf artık kullanılmıyor. Yerine,
 lütfen Cell.SetArrayFormula(string,int,int,FormulaParseOptions) kullanın.
 Bu mülk, Aralık 2019'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -80,7 +80,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | Dizi formülü.|
 | row_number | int |Dizi formülünün sonucunun doldurulacağı satır sayısı.|

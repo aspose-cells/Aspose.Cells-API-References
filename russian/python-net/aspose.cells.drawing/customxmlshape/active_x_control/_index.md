@@ -1,4 +1,4 @@
-﻿---
+---
 title: active_x_control недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает элемент управления ActiveX.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose import pycore

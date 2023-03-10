@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [SheetType](/cells/fr/python-net/aspose.cells/sheettype) | Type de feuille de calcul.|
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | sheet_name | str | Nom de la feuille de calcul|
 

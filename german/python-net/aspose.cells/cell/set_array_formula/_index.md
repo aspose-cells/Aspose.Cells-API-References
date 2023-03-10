@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_array_formula Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -64,7 +64,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | is_local | bool | ob die Formel im Gebietsschema formatiert ist|
 ###  Bemerkungen
 
-HINWEIS: Diese Klasse ist jetzt veraltet.
+HINWEIS: Diese Klasse ist jetzt veraltet. Stattdessen,
 verwenden Sie bitte Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Diese Property wird 12 Monate später seit Dezember 2019 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
@@ -86,7 +86,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 | row_number | int |Anzahl der Zeilen zum Auffüllen des Ergebnisses der Matrixformel.|
 | column_number | int | Anzahl der Spalten, die das Ergebnis der Matrixformel füllen sollen.|
 | options | [FormulaParseOptions](/cells/de/python-net/aspose.cells/formulaparseoptions) | Optionen zum Analysieren der Formel.|
-| values | list | Werte für diese Zellen mit gegebener Matrixformel|
+| values | list | Werte für die Zellen mit gegebener Matrixformel|
 
 
 

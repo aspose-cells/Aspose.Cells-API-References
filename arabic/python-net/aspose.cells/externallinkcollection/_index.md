@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalLinkCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  ExternalLinkCollection الدرجة
-يمثل مجموعة ارتباطات خارجية في مصنف.
+يمثل مجموعة الارتباطات الخارجية في مصنف.
 
 
 
@@ -40,7 +40,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

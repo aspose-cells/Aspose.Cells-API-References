@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد FilterOperatorType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,9 +20,9 @@ is_root: false
 | LESS_OR_EQUAL | يمثل عامل التشغيل LessOrEqual.|
 | LESS_THAN | يمثل عامل أقل من.|
 | EQUAL | يمثل عامل تشغيل متساوي.|
-| GREATER_THAN | يمثل أكبر من عامل التشغيل.|
+| GREATER_THAN | يمثل مشغل أكبر من.|
 | NOT_EQUAL | يمثل عامل التشغيل NotEqual.|
-| GREATER_OR_EQUAL | يمثل عامل التشغيل الأكبر أو المتساوي.|
+| GREATER_OR_EQUAL | يمثل عامل التشغيل GreaterOrEqual.|
 | NONE | لا يمثل أي مقارنة.|
 | BEGINS_WITH | يبدأ بالنص.|
 | ENDS_WITH |ينتهي بالنص.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_area方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def add_area(self, start_row, start_column, end_row, end_column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | start_row | int |起始行。|
 | start_column | int |起始列。|

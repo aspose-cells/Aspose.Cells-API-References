@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: true
 | [aspose.cells.digitalsignatures](/cells/ar/python-net/aspose.cells.digitalsignatures) | ال**Aspose.Cells.DigitalSignatures** توفر مساحة الاسم فئات لتوقيع المستندات والتحقق من التواقيع.|
 | [aspose.cells.drawing](/cells/ar/python-net/aspose.cells.drawing) | ال**Aspose.Cells.Drawing** توفر مساحة الاسم فئات تسمح بإنشاء وتعديل أشكال الرسم وعناصر تحكم النماذج والمزيد من الكائنات الرسومية المتقدمة.|
 | [aspose.cells.drawing.activexcontrols](/cells/ar/python-net/aspose.cells.drawing.activexcontrols) | ال**Aspose.Cells.Drawing.ActiveXControls**توفر مساحة الاسم الفئات التي تسمح بالرسم والوصول إلى ActiveXControl.|
-| [aspose.cells.drawing.texts](/cells/ar/python-net/aspose.cells.drawing.texts) | ال**Aspose.Cells.Drawing.Texts** توفر مساحة الاسم فئات ترسم وتنسيق كائنات النصوص مثل الفقرات والتعداد النقطي والمزيد.|
+| [aspose.cells.drawing.texts](/cells/ar/python-net/aspose.cells.drawing.texts) | ال**Aspose.Cells.Drawing.Texts** توفر مساحة الاسم فئات ترسم وتنسيق كائنات النصوص مثل الفقرة والرصاص والمزيد.|
 | [aspose.cells.externalconnections](/cells/ar/python-net/aspose.cells.externalconnections) | ال**Aspose.Cells.ExternalConnections** توفر مساحة الاسم فئات للاتصالات الخارجية لاسترداد البيانات من مصادر خارجية مثل قواعد البيانات والويب.|
 | [aspose.cells.json](/cells/ar/python-net/aspose.cells.json) | ال**Aspose.Cells.Json** يحتوي مساحة الاسم على جميع فئات JSON.|
 | [aspose.cells.markup](/cells/ar/python-net/aspose.cells.markup) | ال**Aspose.Cells.Markup** تحتوي مساحة الاسم على فئات تمثل دلالات يحددها العميل في مستند: العلامات الذكية و XML المخصص والمزيد من علامات الترميز.|
@@ -25,7 +25,7 @@ is_root: true
 | [aspose.cells.pivot](/cells/ar/python-net/aspose.cells.pivot) | ال**Aspose.Cells.Pivot** تحتوي مساحة الاسم على جميع فئات العرض ومعالجة PivotTable في ملفات جداول بيانات Excel.|
 | [aspose.cells.properties](/cells/ar/python-net/aspose.cells.properties) | ال**Aspose.Cells.Properties** توفر مساحة الاسم فئات للعمل مع خصائص جداول البيانات المخصصة والمضمنة مثل العنوان والكلمات الرئيسية والشركة وما إلى ذلك.|
 | [aspose.cells.querytables](/cells/ar/python-net/aspose.cells.querytables) | ال**Aspose.Cells.QueryTables**توفر مساحة الاسم فئات للوصول إلى جدول ورقة العمل وتحديثه الذي تم إنشاؤه من البيانات التي تم إرجاعها من مصدر بيانات خارجي ، مثل خادم SQL أو قاعدة بيانات Access Microsoft.|
-| [aspose.cells.rendering](/cells/ar/python-net/aspose.cells.rendering) | ال**Aspose.Cells.Rendering** يوفر مساحة الاسم فئات لعرض الصور وملفات PDF.|
+| [aspose.cells.rendering](/cells/ar/python-net/aspose.cells.rendering) | ال**Aspose.Cells.Rendering** يوفر مساحة الاسم فئات لعرض الصورة وقوات الدفاع الشعبي.|
 | [aspose.cells.rendering.pdfsecurity](/cells/ar/python-net/aspose.cells.rendering.pdfsecurity) | ال**Aspose.Cells.Rendering.PdfSecurity** توفر مساحة الاسم خيارات أمان الفئات الخاصة بـ Rendering pdf.|
 | [aspose.cells.revisions](/cells/ar/python-net/aspose.cells.revisions) | ال**Aspose.Cells.Revisions** توفر مساحة الاسم فئات للوصول إلى مراجعات ملفات جداول بيانات Excel.|
 | [aspose.cells.saving](/cells/ar/python-net/aspose.cells.saving) | ال**Aspose.Cells.Saving** توفر مساحة الاسم خيارات فئات حفظ الملفات.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo is_same_setting
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | obj | any |  |
 
-###  Esempi
+###  Esempio
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartMarkerType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -28,7 +28,7 @@ Typen ChartMarkerType avslöjar följande medlemmar:
 | SQUARE_STAR | Fyrkantiga markörer med en asterisk.|
 | TRIANGLE | Triangulära markörer.|
 | SQUARE_X | Fyrkantiga markörer med ett X.|
-| PICTURE | Bilder|
+| PICTURE | Bild|
 
 
 

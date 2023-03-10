@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة update_fields_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

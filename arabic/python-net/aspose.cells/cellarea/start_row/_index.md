@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_row الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  start_row الملكية
 
-الحصول على أو تحديد صف البداية لهذه المنطقة.
+الحصول على صف البداية لهذه المنطقة أو تعيينه.
 
 ###  أنظر أيضا
 * وحدة [aspose.cells](../../)

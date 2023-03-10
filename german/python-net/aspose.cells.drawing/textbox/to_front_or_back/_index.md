@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_front_or_back Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,9 +20,9 @@ def to_front_or_back(self, orders):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| orders | int | Wenn es kleiner als Null ist, wird die Form auf „Rücken“ gesetzt.<br/>Wenn es größer als Null ist, bringt es die Form nach vorne.|
+| orders | int | Wenn es kleiner als Null ist, wird die Form auf „Rücken“ gesetzt.<br/>Wenn es größer als Null ist, wird die Form nach vorne gebracht.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

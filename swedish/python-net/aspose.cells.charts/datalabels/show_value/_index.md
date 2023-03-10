@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_value fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value fastighet
 
-Representerar ett specificerat diagrams dataetikettvärden visningsbeteende. True visar värdena. Falskt att dölja.
+Representerar ett specificerat diagrams dataetikettvärden som visar beteende. True visar värdena. Falskt att dölja.
 ###  Definition:
 ```python
 @property

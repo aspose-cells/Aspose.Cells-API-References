@@ -1,4 +1,4 @@
-﻿---
+---
 title: SvgSaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/svgsaveoptions/__init__/
 is_root: false
 ---
 ##  SvgSaveOptions() {#}
-ينشئ خيارات لحفظ ملفات svg.
+ينشئ خيارات حفظ ملف svg.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SvgSaveOptions(save_format) {#SaveFormat}
-ينشئ خيارات لحفظ ملفات svg.
+ينشئ خيارات حفظ ملف svg.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق الملف.<br/> يجب أن يكون svg.|
 ###  ملاحظات

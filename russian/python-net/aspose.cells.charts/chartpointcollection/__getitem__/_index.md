@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPointCollection индексатор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 ###  Индексатор
 | Имя| Описание|
 | :- | :- |
-| index | Индекс точек графика в ряду.|
+| index | Индекс точки графика в ряду.|
 
 
 

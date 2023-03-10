@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_pattern_color yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,11 +18,11 @@ def set_pattern_color(self, pattern, color1, color2):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | pattern | [BackgroundType](/cells/tr/python-net/aspose.cells/backgroundtype) | desen.|
 | color1 | aspose.pydrawing.Color | Ön plan rengi.|
-| color2 | aspose.pydrawing.Color | Arka plan rengi Yalnızca desen BackgroundType.None ve BackgroundType.Solid olmadığında çalışır.|
+| color2 | aspose.pydrawing.Color | Arka plan rengi. Yalnızca desen BackgroundType.None ve BackgroundType.Solid olmadığında çalışır.|
 
 
 

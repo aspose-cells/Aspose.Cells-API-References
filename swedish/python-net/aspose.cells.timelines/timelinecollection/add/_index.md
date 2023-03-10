@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellnamnet i det övre vänstra hörnet av tidslinjeintervallet.|
@@ -53,7 +53,7 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellnamnet i det övre vänstra hörnet av tidslinjeintervallet.|
@@ -84,7 +84,7 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | dest_cell_name | str | Cellnamnet i det övre vänstra hörnet av tidslinjeintervallet.|
@@ -115,7 +115,7 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
@@ -147,7 +147,7 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|
@@ -179,7 +179,7 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Pivottabellobjekt|
 | row | int | Radindex för cellen i det övre vänstra hörnet av tidslinjeintervallet.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: overflow недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  overflow недвижимость
 
-Получает или задает overflow интервалов оси.
+Получает или задает overflow бинов осей
 ###  Определение:
 ```python
 @property

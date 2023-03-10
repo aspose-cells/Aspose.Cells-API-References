@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ Der Typ PivotField macht die folgenden Member verfügbar:
 | [position](/cells/de/python-net/aspose.cells.pivot/pivotfield/position) | Stellt den PivotField-Index in den PivotFields dar.|
 | [name](/cells/de/python-net/aspose.cells.pivot/pivotfield/name) | Stellt den PivotField-Namen dar.|
 | [display_name](/cells/de/python-net/aspose.cells.pivot/pivotfield/display_name) | Stellt den PivotField-Anzeigenamen dar.|
-| [is_auto_subtotals](/cells/de/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | Gibt an, ob das angegebene Feld automatische Zwischensummen anzeigt. Der Standardwert ist wahr.|
+| [is_auto_subtotals](/cells/de/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | Gibt an, ob das angegebene Feld automatische Zwischensummen anzeigt. Standard ist wahr.|
 | [drag_to_column](/cells/de/python-net/aspose.cells.pivot/pivotfield/drag_to_column) | Gibt an, ob das angegebene Feld an die Spaltenposition gezogen werden kann.<br/> Der Standardwert ist wahr.|
 | [drag_to_hide](/cells/de/python-net/aspose.cells.pivot/pivotfield/drag_to_hide) | Gibt an, ob das angegebene Feld an die Ausblendposition gezogen werden kann.<br/> Der Standardwert ist wahr.|
 | [drag_to_row](/cells/de/python-net/aspose.cells.pivot/pivotfield/drag_to_row) | Gibt an, ob das angegebene Feld an die Zeilenposition gezogen werden kann.<br/> Der Standardwert ist wahr.|
@@ -79,7 +79,7 @@ Der Typ PivotField macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

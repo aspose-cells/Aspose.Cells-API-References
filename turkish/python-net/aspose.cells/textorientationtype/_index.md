@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOrientationType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,7 +20,7 @@ TextOrientationType türü aşağıdaki üyeleri gösterir:
 | CLOCK_WISE | Metni saat yönünde 90 derece döndürür.|
 | COUNTER_CLOCK_WISE | Metni saat yönünün tersine 90 derece döndürür.|
 | NO_ROTATION | Varsayılan değeri temsil eder.|
-| TOP_TO_BOTTOM | Metni hücrenin üstünden altına doğru görüntüler.|
+| TOP_TO_BOTTOM | Metni hücrenin üstünden altına doğru görüntüler. Yığılmış metin.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: BevelType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ Typen BevelType avslöjar följande medlemmar:
 | COOL_SLANT | Sval lutning|
 | CROSS | Korsa|
 | DIVOT | Divot|
-| HARD_EDGE | Hårda kanter|
+| HARD_EDGE | Hård kant|
 | RELAXED_INSET | Avslappnad infällning|
 | RIBLET | Riblet|
 | SLOPE | Backe|

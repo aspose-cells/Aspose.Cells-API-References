@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_items propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

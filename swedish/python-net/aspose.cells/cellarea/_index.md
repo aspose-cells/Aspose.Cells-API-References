@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellArea klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,7 +24,7 @@ Typen CellArea avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [start_row](/cells/sv/python-net/aspose.cells/cellarea/start_row) | Hämtar eller ställer in startraden för detta område.|
-| [end_row](/cells/sv/python-net/aspose.cells/cellarea/end_row) | Hämtar eller ställer in den sista raden i detta område.|
+| [end_row](/cells/sv/python-net/aspose.cells/cellarea/end_row) | Hämtar eller ställer in den sista raden för detta område.|
 | [start_column](/cells/sv/python-net/aspose.cells/cellarea/start_column) |Hämtar eller ställer in startkolumnen för detta område.|
 | [end_column](/cells/sv/python-net/aspose.cells/cellarea/end_column) | Hämtar eller ställer in slutkolumnen för detta område.|
 

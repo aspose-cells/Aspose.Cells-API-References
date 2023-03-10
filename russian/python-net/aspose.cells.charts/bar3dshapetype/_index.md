@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bar3DShapeType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,10 +19,10 @@ is_root: false
 | :- | :- |
 | BOX | Коробка|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | Пирамида до Макса|
+| PYRAMID_TO_MAX | ПирамидтоМакс|
 | CYLINDER | Цилиндр|
-| CONE_TO_POINT | Конус к точке|
-| CONE_TO_MAX | Конус до макс.|
+| CONE_TO_POINT | КонеТоПоинт|
+| CONE_TO_MAX | КонеТоМакс|
 
 
 

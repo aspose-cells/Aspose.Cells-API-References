@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin الملكية
 
-يمثل حجم الهامش الأيسر بوحدات السنتيمتر.
+يمثل حجم الهامش الأيسر بوحدة السنتيمترات.
 ###  تعريف:
 ```python
 @property

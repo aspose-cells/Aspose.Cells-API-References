@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeTextAlignment clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -34,7 +34,7 @@ El tipo ShapeTextAlignment expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

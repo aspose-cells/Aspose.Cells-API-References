@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPointCollection indexerare
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar elementet [ChartPoint](/cells/sv/python-net/aspose.cells.charts/chartpoi
 ###  Indexerare
 | namn| Beskrivning|
 | :- | :- |
-| index | Indexet över diagrampunkter i serien.|
+| index | Indexet för diagrampunkten i serien.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_custom_function метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def calculate_custom_function(self, function_name, params_list, context_objects)
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | function_name | str |  |
 | params_list | list |  |

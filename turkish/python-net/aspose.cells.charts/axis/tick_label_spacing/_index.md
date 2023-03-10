@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_label_spacing mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing mülk
 
-Onay işareti etiketleri arasındaki kategori veya seri sayısını temsil eder.
+Onay işareti etiketleri arasındaki kategori veya seri sayısını temsil eder. Yalnızca kategori ve seri eksenleri için geçerlidir.
 
 ###  Notlar
 

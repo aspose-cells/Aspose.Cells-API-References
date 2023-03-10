@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_color
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_color(self, color):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | لون الحدود.|
 

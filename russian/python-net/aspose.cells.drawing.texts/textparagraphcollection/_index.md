@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraphCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection класс
-Представляет все абзацы текста.
+Представляет весь абзац текста.
 
 
 

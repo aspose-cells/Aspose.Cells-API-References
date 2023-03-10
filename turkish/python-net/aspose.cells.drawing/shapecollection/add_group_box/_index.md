@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_group_box yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_group_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | GroupBox öğesinin sol satırından piksel birimi cinsinden dikey uzaklığını temsil eder.|
@@ -31,7 +31,7 @@ def add_group_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | height | int | Piksel birimi cinsinden GroupBox yüksekliğini temsil eder.|
 | width | int | Piksel birimi cinsinden GroupBox genişliğini temsil eder.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

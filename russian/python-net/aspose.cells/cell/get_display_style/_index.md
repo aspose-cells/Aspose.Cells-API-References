@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_display_style метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 Получает стиль отображения ячейки.
-Если ячейка условно отформатирована, стиль отображения отличается от стиля cell.GetStyle().
+Если ячейка имеет условное форматирование, стиль отображения отличается от стиля cell.GetStyle().
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | include_merged_borders | bool | Указывает, проверяются ли границы объединенных ячеек.|
 

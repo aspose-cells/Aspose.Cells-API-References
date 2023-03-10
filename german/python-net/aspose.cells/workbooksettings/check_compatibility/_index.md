@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_compatibility Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility Eigentum
 
-Gibt an, ob beim Speichern von Arbeitsmappen die Kompatibilität mit früheren Versionen überprüft werden soll.
+Gibt an, ob beim Speichern der Arbeitsmappe die Kompatibilität mit früheren Versionen überprüft werden soll.
 
 ###  Bemerkungen
 

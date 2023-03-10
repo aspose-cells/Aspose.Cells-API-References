@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_iterative_calculation propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation propiedad
 
-Indica si habilitar el cálculo iterativo para resolver referencias circulares.
+Indica si se habilita el cálculo iterativo para resolver referencias circulares.
 ###  Definición:
 ```python
 @property

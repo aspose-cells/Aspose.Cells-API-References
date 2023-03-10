@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlScriptSaveOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -37,10 +37,10 @@ Der Typ SqlScriptSaveOptions macht die folgenden Member verfügbar:
 | [sort_names](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [sort_external_names](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [refresh_chart_cache](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
+| [warning_callback](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [check_if_table_exists](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/check_if_table_exists) | Prüfen Sie vor dem Erstellen, ob der Tabellenname existiert|
-| [column_type_map](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/column_type_map) |Ruft die Zuordnung von Spaltentypen für verschiedene Datenbanken ab und legt sie fest.|
+| [column_type_map](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/column_type_map) |Ruft die Zuordnung des Spaltentyps für verschiedene Datenbanken ab und legt sie fest.|
 | [check_all_data_for_column_type](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/check_all_data_for_column_type) | Überprüfen Sie alle Daten, um den Datentyp der Spalten zu finden.|
 | [add_blank_line_between_rows](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/add_blank_line_between_rows) | Leerzeile zwischen den einzelnen Daten einfügen.|
 | [separator](/cells/de/python-net/aspose.cells.saving/sqlscriptsaveoptions/separator) | Ruft das Zeichentrennzeichen des SQL-Skripts ab und legt es fest.|

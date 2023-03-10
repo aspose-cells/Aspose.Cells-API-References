@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -26,7 +26,7 @@ def add(self, cell_name):
 | :- | :- | :- |
 | cell_name | str | Cell Name.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -58,7 +58,7 @@ def add(self, row, column):
 | row | int | Cell Zeilenindex.|
 | column | int | Cell Spaltenindex.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

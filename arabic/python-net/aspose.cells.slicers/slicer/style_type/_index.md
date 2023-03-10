@@ -1,4 +1,4 @@
-﻿---
+---
 title: style_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -12,7 +12,7 @@ is_root: false
 حدد نوع نمط تقطيع اللحم المدمج
 النوع الافتراضي هو SlicerStyleLight1
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

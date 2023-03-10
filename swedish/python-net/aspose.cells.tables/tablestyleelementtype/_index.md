@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyleElementType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -28,7 +28,7 @@ Typen TableStyleElementType avslöjar följande medlemmar:
 | FIRST_SUBTOTAL_ROW | Tabellstilselement som gäller för pivottabellens första delsummarad.|
 | GRAND_TOTAL_COLUMN | Tabellstilselement som gäller för pivottabellens totala kolumn.|
 | GRAND_TOTAL_ROW |Tabellstilselement som gäller för pivottabellens totala rad.|
-| FIRST_TOTAL_CELL | Tabellstilselement som gäller för tabellens första totala radcell.|
+| FIRST_TOTAL_CELL | Tabellstilselement som gäller tabellens första totala radcell.|
 | HEADER_ROW | Tabellstilselement som gäller för tabellens rubrikrad.|
 | LAST_COLUMN | Tabellstilselement som gäller för tabellens sista kolumn.|
 | LAST_HEADER_CELL | Tabellstilselement som gäller tabellens sista rubrikradscell.|

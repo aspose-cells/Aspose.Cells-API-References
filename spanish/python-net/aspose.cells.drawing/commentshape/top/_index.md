@@ -1,4 +1,4 @@
-﻿---
+---
 title: top propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Representa el desplazamiento vertical de la forma desde su fila top, en unidades
 
 Si la forma está en el gráfico, representa el desplazamiento vertical de la forma desde su borde top.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

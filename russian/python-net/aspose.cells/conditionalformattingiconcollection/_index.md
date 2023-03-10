@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingIconCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -36,7 +36,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

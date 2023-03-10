@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookMetadata класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -37,7 +37,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 В следующем примере создается файл WorkbookMetadata.
 

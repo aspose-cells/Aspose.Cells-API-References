@@ -1,4 +1,4 @@
-﻿---
+---
 title: in_cell_drop_down propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

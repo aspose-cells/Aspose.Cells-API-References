@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_numeric_value mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_numeric_value mülk
 
-Bu hücrenin iç değerinin sayısal (int, double ve datetime) olup olmadığını gösterir.
+Bu hücrenin iç değerinin sayısal olup olmadığını gösterir(int, double ve tarihsaat)
 
 ###  Notlar
 

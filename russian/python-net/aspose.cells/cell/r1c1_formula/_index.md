@@ -1,4 +1,4 @@
-﻿---
+---
 title: r1c1_formula недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

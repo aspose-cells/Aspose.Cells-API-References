@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_label метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Объект этикетки.
+Объект метки.
 
 
 ```python
@@ -22,7 +22,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение Label от его левой строки в единицах пикселя.|
@@ -31,7 +31,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | height | int | Представляет высоту метки в пикселях.|
 | width | int | Представляет ширину Label в пикселях.|
 
-###  Примеры
+###  Пример
 
 ```python
 

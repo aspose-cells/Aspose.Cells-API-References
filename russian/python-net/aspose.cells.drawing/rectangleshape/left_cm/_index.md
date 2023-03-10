@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_cm недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет горизонтальное смещение фигуры от ее левого столбца в сантиметрах.
 
-###  Примеры
+###  Пример
 
 ```python
 

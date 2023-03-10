@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThemeColor Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -28,7 +28,7 @@ Der Typ ThemeColor macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import BackgroundType, ThemeColor, ThemeColorType, Workbook

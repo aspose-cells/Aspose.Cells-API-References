@@ -1,4 +1,4 @@
-﻿---
+---
 title: array_as_table fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

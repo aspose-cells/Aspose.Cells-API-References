@@ -1,6 +1,6 @@
-﻿---
+---
 title: ChartPointCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 100
@@ -17,7 +17,7 @@ ChartPointCollection 类型公开了以下成员：
 ### 特性
 |属性|描述|
 | :- | :- |
-| [count](/cells/zh/python-net/aspose.cells.charts/chartpointcollection/count) |获取图表点数。|
+| [count](/cells/zh/python-net/aspose.cells.charts/chartpointcollection/count) |获取图表点的计数。|
 
 
 

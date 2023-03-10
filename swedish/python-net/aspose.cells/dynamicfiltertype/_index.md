@@ -1,4 +1,4 @@
-﻿---
+---
 title: DynamicFilterType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen DynamicFilterType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | ABOVE_AVERAGE | Visar värden som är över genomsnittet.|
-| BELOW_AVERAGE | Visar värden som är under genomsnittet.|
+| BELOW_AVERAGE | Visar värden som ligger under genomsnittet.|
 | LAST_MONTH | Visar förra månadens datum.|
 | LAST_QUARTER | Visar senaste kvartalets datum.|
 | LAST_WEEK | Visar förra veckans datum.|

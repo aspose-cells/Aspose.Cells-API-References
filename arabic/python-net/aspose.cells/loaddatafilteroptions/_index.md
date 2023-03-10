@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد LoadDataFilterOptions
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -29,7 +29,7 @@ is_root: false
 | CELL_DATA | تحميل بيانات الخلايا بما في ذلك القيم والصيغ والتنسيق|
 | CHART | مخططات التحميل|
 | SHAPE | تحميل الأشكال|
-| DRAWING | الكائنات الرسومية (بما في ذلك المخططات والصور و OleObjects وجميع الكائنات الرسومية الأخرى)|
+| DRAWING | الكائنات الرسومية (بما في ذلك المخطط والصورة و OleObject وجميع الكائنات الرسومية الأخرى)|
 | MERGED_AREA | تحميل الخلايا المدمجة|
 | CONDITIONAL_FORMATTING | تحميل التنسيق الشرطي|
 | DATA_VALIDATION | تحميل عمليات التحقق من صحة البيانات|
@@ -38,8 +38,8 @@ is_root: false
 | HYPERLINKS | تحميل الارتباطات التشعبية|
 | SHEET_SETTINGS | تحميل الإعدادات لورقة العمل|
 | SHEET_DATA |تحميل جميع بيانات ورقة العمل ، مثل بيانات الخلايا ، والإعدادات ، والكائنات ، ... إلخ.|
-| BOOK_SETTINGS | تحميل الإعدادات للمصنفات|
-| SETTINGS | تحميل الإعدادات للمصنفات وأوراق العمل|
+| BOOK_SETTINGS | تحميل الإعدادات للمصنف|
+| SETTINGS | تحميل إعدادات المصنف وورقة العمل|
 | XML_MAP | تحميل XmlMap|
 | STRUCTURE | هيكل تحميل المصنف|
 | DOCUMENT_PROPERTIES | تحميل خصائص المستند|

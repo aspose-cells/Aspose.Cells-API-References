@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_page_breaks método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def add_page_breaks(self, cell_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str |  |
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartMarkerType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -28,7 +28,7 @@ is_root: false
 | SQUARE_STAR | Квадратные маркеры со звездочкой.|
 | TRIANGLE | Треугольные маркеры.|
 | SQUARE_X | Квадратные маркеры с X.|
-| PICTURE | Картинки|
+| PICTURE | Картина|
 
 
 

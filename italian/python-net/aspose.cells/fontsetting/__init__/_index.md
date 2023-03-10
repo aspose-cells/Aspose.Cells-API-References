@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSetting costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def __init__(self, start_index, length, sheets):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_index | int |  |
 | length | int |  |

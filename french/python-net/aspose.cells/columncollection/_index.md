@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColumnCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,10 +9,10 @@ is_root: false
 ---
 ##  ColumnCollection classe
 Collection des objets [Column](/cells/fr/python-net/aspose.cells/column) qui représentent les colonnes (paramètres) individuelles dans une feuille de calcul.
-L'objet Column représente uniquement les paramètres tels que la largeur de colonne, les styles, etc.
-n'a rien à voir avec le fait qu'il y ait des cellules (données) non vides ou non dans les colonnes correspondantes.
+L'objet Column représente uniquement les paramètres tels que la largeur de colonne, les styles, etc. pour toute la colonne,
+n'a rien à voir avec le fait qu'il y ait des cellules (données) non vides ou non dans la colonne correspondante.
 Et le "Count" de cette collection ne représente que le nombre d'objets Column qui ont été instanciés dans cette collection,
-n'a rien à voir avec le fait qu'il y ait des cellules non vides (données) ou non dans la feuille de calcul.
+n'a rien à voir avec le fait qu'il y ait des cellules (données) non vides ou non dans la feuille de calcul.
 
 
 
@@ -21,7 +21,7 @@ Le type ColumnCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells/columncollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells/columncollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
@@ -40,7 +40,7 @@ Le type ColumnCollection expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

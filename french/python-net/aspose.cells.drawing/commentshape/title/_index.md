@@ -1,4 +1,4 @@
-﻿---
+---
 title: title propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie le title (légende) de l'objet forme actuel.
 
-###  Exemples
+###  Exemple
 
 ```python
 

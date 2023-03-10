@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_array método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cells/import_array/
 is_root: false
 ---
 ##  import_array(string_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importa una matriz de cadenas en una hoja de cálculo.
+Importa una matriz de cadenas en una hoja de trabajo.
 
 
 
@@ -18,7 +18,7 @@ def import_array(self, string_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | string_array | list | Matriz de cadenas.|
 | first_row | int | El número de fila de la primera celda a importar.|
@@ -37,7 +37,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | int_array | list | Matriz de enteros.|
 | first_row | int | El número de fila de la primera celda a importar.|
@@ -46,7 +46,7 @@ def import_array(self, int_array, first_row, first_column, is_vertical):
 
 
 ##  import_array(double_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importa una matriz de dobles en una hoja de cálculo.
+Importa una matriz de doble en una hoja de cálculo.
 
 
 
@@ -56,7 +56,7 @@ def import_array(self, double_array, first_row, first_column, is_vertical):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | double_array | list | Matriz doble.|
 | first_row | int | El número de fila de la primera celda a importar.|

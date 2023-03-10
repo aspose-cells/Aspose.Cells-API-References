@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_characters
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -41,7 +41,7 @@ def get_characters(self, flag):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | flag | bool | يشير إلى ما إذا كان سيتم تطبيق نمط الجدول على الخلية إذا كانت الخلية موجودة في الجدول.|
 

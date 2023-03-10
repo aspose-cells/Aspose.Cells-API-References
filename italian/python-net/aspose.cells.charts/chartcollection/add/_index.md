@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ChartType](/cells/it/python-net/aspose.cells.charts/charttype) | Tipo di grafico|
 | upper_left_row | int | Indice della riga in alto a sinistra.|
@@ -46,7 +46,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ChartType](/cells/it/python-net/aspose.cells.charts/charttype) | Tipo di grafico|
 | data_range | str | Specifica l'intervallo di dati del grafico|
@@ -56,7 +56,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | bottom_column | int | Indice colonna in basso a destra|
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto.
+NOTA: questo membro è ora obsoleto. Invece,
 si prega di utilizzare la proprietà [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/it/python-net/aspose.cells.charts/chartcollection/add).
  Questa proprietà verrà rimossa 12 mesi dopo da maggio 2022.
 Aspose si scusa per gli eventuali disagi causati.
@@ -76,7 +76,7 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | data | bytes | I dati del file modello grafico (.crtx).|
 | data_range | str | Specifica l'intervallo di dati del grafico|
@@ -102,7 +102,7 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [ChartType](/cells/it/python-net/aspose.cells.charts/charttype) | Tipo di grafico|
 | data_range | str | Specifica l'intervallo di dati del grafico|

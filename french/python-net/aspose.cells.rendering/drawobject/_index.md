@@ -1,4 +1,4 @@
-﻿---
+---
 title: DrawObject classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type DrawObject expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [cell](/cells/fr/python-net/aspose.cells.rendering/drawobject/cell) |Indique l'objet Cell lors du rendu.<br/> Toutes les propriétés des cellules sont accessibles.|
+| [cell](/cells/fr/python-net/aspose.cells.rendering/drawobject/cell) |Indique l'objet Cell lors du rendu.<br/> Toutes les propriétés de la cellule sont accessibles.|
 | [shape](/cells/fr/python-net/aspose.cells.rendering/drawobject/shape) | Indique l'objet Shape lors du rendu.<br/> Toutes les propriétés de la forme sont accessibles.|
 | [image_bytes](/cells/fr/python-net/aspose.cells.rendering/drawobject/image_bytes) | Indique les octets d'image du graphique rendu, de la forme lors du rendu.|
 | [type](/cells/fr/python-net/aspose.cells.rendering/drawobject/type) | Indique le type de DrawObject.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_column الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  start_column الملكية
 
-الحصول على أو تحديد عمود البداية لهذه المنطقة.
+الحصول على أو تعيين عمود البداية لهذه المنطقة.
 
 ###  أنظر أيضا
 * وحدة [aspose.cells](../../)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignature Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,7 +17,7 @@ Der Typ DigitalSignature macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/de/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Konstrukteur der digitalen Signatur Verwendet die Hüpfburg-Implementierung.|
+| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/de/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Konstrukteur von digitalSignature. Verwendet die Hüpfburg-Implementierung.|
 
 
 ###  Eigenschaften

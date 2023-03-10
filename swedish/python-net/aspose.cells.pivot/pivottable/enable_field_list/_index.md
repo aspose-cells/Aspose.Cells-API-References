@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list fastighet
 
-Hämtar om fältlistan ska aktiveras för pivottabellen.
+Hämtar om aktivera fältlistan för pivottabellen.
 ###  Definition:
 ```python
 @property

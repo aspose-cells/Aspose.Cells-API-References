@@ -1,4 +1,4 @@
-﻿---
+---
 title: id mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bu imza satırı için tanımlayıcıyı alır veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing import SignatureLine

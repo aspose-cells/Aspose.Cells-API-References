@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.pivot
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,9 +14,9 @@ is_root: false
 | :- | :- |
 | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) |Representerar ett fält i en pivottabellrapport.|
 | [PivotFieldCollection](/cells/sv/python-net/aspose.cells.pivot/pivotfieldcollection) | Representerar en samling av alla PivotField-objekt<br/> i pivottabellens specifika PivotFields-typ.|
-| [PivotFilter](/cells/sv/python-net/aspose.cells.pivot/pivotfilter) | Representerar ett PivotFilter i PivotFilter-samlingen.|
+| [PivotFilter](/cells/sv/python-net/aspose.cells.pivot/pivotfilter) | Representerar ett PivotFilter i PivotFilter Collection.|
 | [PivotFilterCollection](/cells/sv/python-net/aspose.cells.pivot/pivotfiltercollection) | Representerar en samling av alla PivotFilter-objekt|
-| [PivotFormatCondition](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition) | Representerar ett pivottabellformatvillkor i PivotFormatCondition-samlingen.|
+| [PivotFormatCondition](/cells/sv/python-net/aspose.cells.pivot/pivotformatcondition) | Representerar ett pivottabellformatvillkor i PivotFormatCondition Collection.|
 | [PivotFormatConditionCollection](/cells/sv/python-net/aspose.cells.pivot/pivotformatconditioncollection) | Representerar villkor för pivottabellformat.|
 | [PivotItem](/cells/sv/python-net/aspose.cells.pivot/pivotitem) | Representerar ett objekt i en PivotField-rapport.|
 | [PivotItemCollection](/cells/sv/python-net/aspose.cells.pivot/pivotitemcollection) | Representerar en samling av alla PivotItem-objekt i Pivotfältets|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_xl2000 Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotDataByType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  PlotDataByType dénombrement
-Représente le type de données tracées par ligne ou colonne.
+Représente le type de tracé de données par ligne ou colonne.
 
 
 

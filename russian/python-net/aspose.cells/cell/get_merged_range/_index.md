@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_merged_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Объект [Range](/cells/ru/python-net/aspose.cells/range). Нулевой, если эта ячейка не объединена.
+[Range](/cells/ru/python-net/aspose.cells/range) объект. Null, если эта ячейка не объединена.
 
 
 ```python

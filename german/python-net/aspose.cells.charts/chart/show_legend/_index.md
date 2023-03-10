@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_legend Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_legend Eigentum
 
-Ruft einen Wert ab, der angibt, ob die Diagrammlegende angezeigt wird, oder legt diesen fest. Der Standardwert ist „true“.
+Ruft einen Wert ab, der angibt, ob die Diagrammlegende angezeigt wird, oder legt diesen fest. Standard ist wahr.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_percent propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_percent propiedad
 
-Indica si los elementos son porcentajes.
+Indica si los artículos son porcentajes.
 ###  Definición:
 ```python
 @property

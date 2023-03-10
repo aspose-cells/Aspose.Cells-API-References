@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_editing_objects_allowed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,8 +13,8 @@ Représente si l'utilisateur est autorisé à manipuler des objets de dessin sur
 
 ###  Remarques
 
- REMARQUE : ce membre est désormais obsolète.
- veuillez utiliser la propriété Protection. Autoriser la modification de l'objet.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
+ veuillez utiliser la propriété Protection.AllowEditingObject.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

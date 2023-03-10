@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_commands yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_commands(self, header_footer_script):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | header_footer_script | str | Üstbilgi/altbilgi betiği|
 

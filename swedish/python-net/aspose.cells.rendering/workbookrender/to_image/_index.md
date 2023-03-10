@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | strömmen av utdatabilden|
 
@@ -34,13 +34,13 @@ def to_image(self, filename):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | filename | str | filnamnet på utdatabilden|
 
 
 ##  to_image(page_index, file_name) {#int-str}
-Rendera vissa sidor till en fil.
+Gör en viss sida till en fil.
 
 
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | page_index | int | ange vilken sida som ska konverteras|
 | file_name | str | filnamnet på utdatabilden|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Rendera vissa sidor till en stream.
+Gör en viss sida till en stream.
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | page_index | int | ange vilken sida som ska konverteras|
 | stream | io.RawIOBase | strömmen av utdatabilden|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_reference الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_reference الملكية
 
-مرجع Cell يشير إلى قيمة الخلية التي سيتم استخدامها لمعامل الاستعلام. يستخدم فقط عندما يكون نوع المعامل هو خلية.
+مرجع Cell يشير إلى قيمة الخانة التي سيتم استخدامها لمعامل الاستعلام. يُستخدم فقط عندما تكون معلمة نوع الخلية.
 ###  تعريف:
 ```python
 @property

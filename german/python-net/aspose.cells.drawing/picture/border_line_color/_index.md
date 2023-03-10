@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_line_color Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Repräsentiert die Farbe der Rahmenlinie eines Bildes.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

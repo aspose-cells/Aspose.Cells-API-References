@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_picture
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ def get_picture(self, is_header, section):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_header | bool | يشير إلى ما إذا كان في الرأس أو التذييل.|
 | section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
@@ -44,7 +44,7 @@ def get_picture(self, is_first, is_even, is_header, section):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_first | bool | يشير إلى ما إذا كان يتم الحصول على صورة رأس / تذييل الصفحة الأولى.|
 | is_even | bool | يشير إلى ما إذا كان يتم الحصول على صورة رأس / تذييل الصفحة الزوجية.|

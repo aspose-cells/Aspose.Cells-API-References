@@ -1,4 +1,4 @@
-﻿---
+---
 title: quality proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  quality proprietà
 
 Ottiene o imposta un valore che determina il numero quality delle immagini generate
-da applicare solo quando si salvano le pagine nel formato `Jpeg`.
+da applicare solo quando si salvano le pagine nel formato `Jpeg`. Il valore predefinito è 100
 
 ###  Osservazioni
 

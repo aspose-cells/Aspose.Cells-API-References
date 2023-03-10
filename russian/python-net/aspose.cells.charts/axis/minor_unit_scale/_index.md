@@ -1,4 +1,4 @@
-﻿---
+---
 title: minor_unit_scale недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет шкалу основных единиц для оси категорий.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

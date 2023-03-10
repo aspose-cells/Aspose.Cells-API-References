@@ -1,4 +1,4 @@
-﻿---
+---
 title: note mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note mülk
 
-Yorumların içeriğini temsil eder.
+Yorumun içeriğini temsil eder.
 
 ###  Notlar
 
 Bu bir zincirleme yorumsa, note değiştirilemez, aksi halde MS Excel bunu zincirleme bir yorum olarak işleyemez.
 
-###  örnekler
+###  Örnek
 
 ```python
 

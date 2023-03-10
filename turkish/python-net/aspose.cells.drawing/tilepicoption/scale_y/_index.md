@@ -1,4 +1,4 @@
-﻿---
+---
 title: scale_y mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y mülk
 
-Resimleri döşemek için Y ölçeğini alır veya ayarlar.
+Resim döşeme için Y ölçeğini alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

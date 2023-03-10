@@ -1,4 +1,4 @@
-﻿---
+---
 title: BubbleSizeRepresents перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| SIZE_IS_AREA | Представляет собой значение [Series.bubble_sizes](/cells/ru/python-net/aspose.cells.charts/series#bubble_sizes) — площадь пузырька.|
+| SIZE_IS_AREA | Представляет значение [Series.bubble_sizes](/cells/ru/python-net/aspose.cells.charts/series#bubble_sizes) — площадь пузырька.|
 | SIZE_IS_WIDTH | Представляет значение [Series.bubble_sizes](/cells/ru/python-net/aspose.cells.charts/series#bubble_sizes) ширины пузырька.|
 
 

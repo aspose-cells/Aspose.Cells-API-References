@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_inner_points الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

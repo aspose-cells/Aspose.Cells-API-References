@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_filter mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Dosyaları yüklerken verilerin otomatik olarak filtrelenip filtrelenmediğini g
 ###  Notlar
 
 Bazen otomatik filtreleme ayarlanmış olmasına rağmen, ilgili satırlar dosyada gizlenmez.
-Artık yalnızca SpreadSheetML dosyaları için çalışır.
+Artık yalnızca SpreadSheetML dosyası için çalışır.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/namecollection/filter/
 is_root: false
 ---
 ##  filter(type, sheet_index) {#NameScopeType-int}
-Obtient tous les noms définis par étendue.
+Obtient tous les noms définis par portée.
 
 
 ###  Retour
@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/fr/python-net/aspose.cells/namescopetype) | Le type d'étendue.|
 | sheet_index | int | L'index de la feuille.<br/>Effets uniquement lorsque le type de portée est [NameScopeType.WORKSHEET](/cells/fr/python-net/aspose.cells/namescopetype#WORKSHEET) |

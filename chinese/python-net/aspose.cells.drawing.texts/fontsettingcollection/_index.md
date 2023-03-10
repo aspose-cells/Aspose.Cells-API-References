@@ -1,6 +1,6 @@
-﻿---
+---
 title: FontSettingCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.drawing.texts/fontsettingcollection/
 is_root: false
 ---
 ## FontSettingCollection类
-代表[FontSetting](/cells/zh/python-net/aspose.cells/fontsetting)的名单。
+代表[FontSetting](/cells/zh/python-net/aspose.cells/fontsetting)的列表。
 
 
 

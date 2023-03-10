@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_check_box yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int |Piksel birimi cinsinden, onay kutusunun sol satırından dikey uzaklığını temsil eder.|
@@ -31,7 +31,7 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | height | int | Metin kutusunun piksel birimi cinsinden yüksekliği.|
 | width | int | Metin kutusunun piksel birimi cinsinden genişliği.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

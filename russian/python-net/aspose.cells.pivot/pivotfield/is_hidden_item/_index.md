@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hidden_item метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def is_hidden_item(self, index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | index | int | индекс сводного элемента в сводном поле.|
 

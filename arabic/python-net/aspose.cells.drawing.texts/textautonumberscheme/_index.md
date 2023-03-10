@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد TextAutonumberScheme
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  العد TextAutonumberScheme
-يمثل جميع مخططات الأرقام التلقائية.
+يمثل كل مخطط الأرقام التلقائي.
 
 
 

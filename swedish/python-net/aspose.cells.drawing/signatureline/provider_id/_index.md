@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id fastighet
 
-Hämtar och ställer in id för signaturleverantören.
+Hämtar och ställer in id för signaturleverantör.
 
 ###  Anmärkningar
 

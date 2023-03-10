@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_arrowhead_width недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает тип ширины конечной стрелки линии.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing import MsoArrowheadWidth

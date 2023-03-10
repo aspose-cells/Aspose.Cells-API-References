@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_range yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def delete_range(self, start_row, start_column, end_row, end_column, shift_type)
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_row | int | Satır dizini başlat.|
 | start_column | int | Sütun indeksini başlat.|

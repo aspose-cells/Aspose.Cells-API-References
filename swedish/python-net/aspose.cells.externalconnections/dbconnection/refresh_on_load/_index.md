@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_on_load fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  refresh_on_load fastighet
 
-Sant om den här anslutningen ska uppdateras när filen öppnas;
+Sant om den här anslutningen ska uppdateras när filen öppnas; annars falskt.
 ###  Definition:
 ```python
 @property

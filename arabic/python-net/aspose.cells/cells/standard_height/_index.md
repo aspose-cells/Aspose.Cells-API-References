@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_height الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height الملكية
 
-الحصول على أو تعيين ارتفاع الصف الافتراضي في ورقة العمل هذه ، بوحدات النقاط.
+الحصول على أو تعيين ارتفاع الصف الافتراضي في ورقة العمل هذه ، في وحدة النقاط.
 ###  تعريف:
 ```python
 @property

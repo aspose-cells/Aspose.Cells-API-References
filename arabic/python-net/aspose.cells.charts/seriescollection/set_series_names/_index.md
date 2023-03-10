@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_series_names
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/seriescollection/set_series_names/
 is_root: false
 ---
 ##  set_series_names(start_index, area, is_vertical) {#int-str-bool}
-يعيّن اسم كل السلاسل في الرسم البياني.
+يعيّن اسم كل السلاسل في المخطط.
 
 
 
@@ -18,7 +18,7 @@ def set_series_names(self, start_index, area, is_vertical):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_index | int | فهرس السلسلة الأولى التي تريد تعيين اسمها.|
 | area | str | يحدد منطقة اسم السلسلة.|

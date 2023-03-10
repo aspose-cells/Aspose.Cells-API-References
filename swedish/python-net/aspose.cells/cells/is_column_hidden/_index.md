@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_column_hidden metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def is_column_hidden(self, column_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column_index | int | kolumnindex|
 

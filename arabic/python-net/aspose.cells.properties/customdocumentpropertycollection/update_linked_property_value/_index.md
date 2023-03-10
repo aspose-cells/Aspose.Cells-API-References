@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة update_linked_property_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

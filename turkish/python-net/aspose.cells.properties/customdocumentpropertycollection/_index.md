@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -40,7 +40,7 @@ CustomDocumentPropertyCollection türü aşağıdaki üyeleri gösterir:
 | [add(name, value)](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) | için yeni bir özel belge özelliği oluşturur.**PropertyType.Number** veri tipi.|
 | [add(name, value)](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | için yeni bir özel belge özelliği oluşturur.**PropertyType.DateTime** veri tipi.|
 | [add(name, value)](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | için yeni bir özel belge özelliği oluşturur.**PropertyType.Boolean** veri tipi.|
-| [add(name, value)](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | için yeni bir özel belge özelliği oluşturur.**PropertyType.Floot** veri tipi.|
+| [add(name, value)](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | için yeni bir özel belge özelliği oluşturur.**PropertyType.Float** veri tipi.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 | [add_link_to_content(name, source)](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) | İçeriğe bağlanan yeni bir özel belge özelliği oluşturur.|
 | [update_linked_property_value()](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |İçeriğe bağlanan özel belge özellik değerini güncelleyin.|
@@ -52,7 +52,7 @@ CustomDocumentPropertyCollection türü aşağıdaki üyeleri gösterir:
 
 Her [DocumentProperty](/cells/tr/python-net/aspose.cells.properties/documentproperty) nesnesi, bir kapsayıcı belgenin özel bir özelliğini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

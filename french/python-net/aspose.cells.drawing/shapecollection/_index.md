@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing/shapecollection/
 is_root: false
 ---
 ##  ShapeCollection classe
-Représente toutes les formes dans une feuille de calcul/un graphique.
+Représente toute la forme dans une feuille de calcul/un graphique.
 
 
 
@@ -17,16 +17,16 @@ Le type ShapeCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.drawing/shapecollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.drawing/shapecollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Ajouter une forme au graphique. Toutes les unités sont 1/4000 de la zone du graphique.|
-| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Ajouter une forme au graphique. Toutes les unités sont 1/4000 de la zone du graphique.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Ajouter une forme au graphique. Toutes les unités sont exprimées en pourcentage de la zone du graphique.|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Ajouter une forme au graphique. Toutes les unités sont 1/4000 de la zone du graphique.|
+| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) | Ajouter une forme au graphique. Toutes les unités correspondent à 1/4000 de la zone du graphique.|
+| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) | Ajouter une forme au graphique. Toutes les unités correspondent à 1/4000 de la zone du graphique.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) | Ajouter une forme au graphique. Toutes les unités correspondent à l'échelle en pourcentage de la zone du graphique.|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) | Ajouter une forme au graphique. Toutes les unités correspondent à 1/4000 de la zone du graphique.|
 | [add_picture(upper_left_row, upper_left_column, lower_right_row, lower_right_column, stream)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-int-int-io.RawIOBase) | Ajoute une image à la collection.|
 | [add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-io.RawIOBase-int-int) | Ajoute une image à la collection.|
 | [copy_to(array)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/copy_to/#list) | Copie la totalité de la liste de tableaux dans une liste de tableaux unidimensionnelle compatible, en commençant au début de la liste de tableaux cible.|
@@ -69,16 +69,16 @@ Le type ShapeCollection expose les membres suivants :
 | [add_ole_object(upper_left_row, top, upper_left_column, left, height, width, image_data)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/add_ole_object/#int-int-int-int-int-int-bytes) | Ajoute un OleObject.|
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) | Copiez tous les commentaires de la plage.|
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) | Copiez les formes de la plage vers la plage de destination.|
-| [delete_in_range(ca)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Supprimer les formes de la plage. Les formes de commentaire ne seront pas supprimées.|
+| [delete_in_range(ca)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Supprimez les formes de la plage. Les formes de commentaire ne seront pas supprimées.|
 | [delete_shape(shape)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Supprimer une forme. Si la forme fait partie du groupe ou est une forme de commentaire, elle ne sera pas supprimée.|
 | [group(group_items)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/group/#list) | Regroupez les formes.|
-| [ungroup(group)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Dissociez les éléments de forme.|
+| [ungroup(group)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Dissocie les éléments de forme.|
 | [update_selected_value()](/cells/fr/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) | Mettre à jour la valeur sélectionnée par la valeur de la cellule liée des formes.|
 | [binary_search(item)](/cells/fr/python-net/aspose.cells.drawing/shapecollection/binary_search/#Shape) | Recherche un élément dans toute la liste de tableaux triés à l'aide du comparateur par défaut et renvoie l'index de base zéro de l'élément.|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

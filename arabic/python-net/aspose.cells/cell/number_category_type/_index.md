@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_category_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: warning_callback fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback fastighet
 
-Får eller ställer in varningsuppringningar.
+Får eller ställer in varningsåteruppringning.
 ###  Definition:
 ```python
 @property

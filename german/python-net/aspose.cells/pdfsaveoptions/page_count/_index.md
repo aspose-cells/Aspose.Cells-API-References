@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Ruft die Anzahl der zu speichernden Seiten ab oder legt diese fest.
 
 Standard ist System.Int32.MaxValue, was bedeutet, dass alle Seiten gerendert werden.
 
-###  Beispiele
+###  Beispiel
 
 Das folgende Beispiel zeigt, wie ein Seitenbereich (3 und 4) in einer Microsoft-Excel-Datei in PDF gerendert wird.
 

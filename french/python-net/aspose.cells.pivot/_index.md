@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.pivot
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,13 +14,13 @@ is_root: false
 | :- | :- |
 | [PivotField](/cells/fr/python-net/aspose.cells.pivot/pivotfield) |Représente un champ dans un rapport de tableau croisé dynamique.|
 | [PivotFieldCollection](/cells/fr/python-net/aspose.cells.pivot/pivotfieldcollection) | Représente une collection de tous les objets PivotField<br/> dans le type PivotFields spécifique du tableau croisé dynamique.|
-| [PivotFilter](/cells/fr/python-net/aspose.cells.pivot/pivotfilter) | Représente un PivotFilter dans la PivotFilter Collection.|
+| [PivotFilter](/cells/fr/python-net/aspose.cells.pivot/pivotfilter) | Représente un PivotFilter dans PivotFilter Collection.|
 | [PivotFilterCollection](/cells/fr/python-net/aspose.cells.pivot/pivotfiltercollection) | Représente une collection de tous les objets PivotFilter|
 | [PivotFormatCondition](/cells/fr/python-net/aspose.cells.pivot/pivotformatcondition) | Représente une condition de format de tableau croisé dynamique dans la collection PivotFormatCondition.|
 | [PivotFormatConditionCollection](/cells/fr/python-net/aspose.cells.pivot/pivotformatconditioncollection) | Représente les conditions de format de tableau croisé dynamique.|
 | [PivotItem](/cells/fr/python-net/aspose.cells.pivot/pivotitem) | Représente un élément dans un rapport PivotField.|
 | [PivotItemCollection](/cells/fr/python-net/aspose.cells.pivot/pivotitemcollection) | Représente une collection de tous les objets PivotItem dans le champ PivotField|
-| [PivotPageFields](/cells/fr/python-net/aspose.cells.pivot/pivotpagefields) | Représente les éléments de champ de la page pivot<br/>si la source de données du tableau croisé dynamique est des plages de consolidation.<br/> Il ne peut contenir que 4 champs maximum.|
+| [PivotPageFields](/cells/fr/python-net/aspose.cells.pivot/pivotpagefields) | Représente les éléments de champ de la page pivot<br/>si la source de données du tableau croisé dynamique est des plages de consolidation.<br/> Il ne peut contenir que jusqu'à 4 champs.|
 | [PivotTable](/cells/fr/python-net/aspose.cells.pivot/pivottable) | Description récapitulative du tableau croisé dynamique.|
 | [PivotTableCollection](/cells/fr/python-net/aspose.cells.pivot/pivottablecollection) | Représente la collection de tous les objets de tableau croisé dynamique sur la feuille de calcul spécifiée.|
 | [SxRng](/cells/fr/python-net/aspose.cells.pivot/sxrng) | Représente la plage de groupe dans un PivotField.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoShapeType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/autoshapetype/
 is_root: false
 ---
 ##  AutoShapeType numaralandırma
-Tüm yerleşik otomatik şekil türlerini temsil eder.
+Tüm yerleşik otomatik şekil türünü temsil eder.
 
 
 
@@ -182,12 +182,12 @@ AutoShapeType türü aşağıdaki üyeleri gösterir:
 | TEXT_DEFLATE_BOTTOM | Ortada yukarı doğru daralan bir metin şekli.|
 | TEXT_INFLATE_TOP | Ortada yukarı doğru genişleyen bir metin şekli.|
 | TEXT_DEFLATE_TOP | Ortada aşağı doğru daralan bir metin şekli.|
-| TEXT_DEFLATE_INFLATE |Alt satırların yukarı doğru genişlediği bir metin şekli. Üst satırlar telafi etmek için küçülür.|
+| TEXT_DEFLATE_INFLATE |Alt satırların yukarı doğru genişlediği bir metin şekli. Üst çizgiler telafi etmek için küçülür.|
 | TEXT_DEFLATE_INFLATE_DEFLATE | Ortadaki çizgilerin dikey olarak genişlediği bir metin şekli. Üst ve alt çizgiler telafi etmek için küçülür.|
 | TEXT_FADE_RIGHT | Sağ tarafta dikey olarak daralan bir metin şekli.|
 | TEXT_FADE_LEFT | Sol tarafta dikey olarak küçülen bir metin şekli.|
 | TEXT_FADE_UP | Üstte yatay olarak daralan bir metin şekli.|
-| TEXT_FADE_DOWN | Altta yatay olarak daralan bir metin şekli.|
+| TEXT_FADE_DOWN | Altta yatay olarak küçülen bir metin şekli.|
 | TEXT_SLANT_UP | Yukarı eğimli bir metin şekli.|
 | TEXT_SLANT_DOWN | Aşağıya eğimli bir metin şekli.|
 | TEXT_CAN_UP | Bir kutunun yanında okunuyormuş gibi yukarı doğru kıvrılan bir metin şekli.|

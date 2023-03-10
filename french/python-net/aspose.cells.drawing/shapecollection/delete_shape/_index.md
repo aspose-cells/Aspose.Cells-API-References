@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_shape méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,11 +18,11 @@ def delete_shape(self, shape):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | shape | [Shape](/cells/fr/python-net/aspose.cells.drawing/shape) |  |
 
-###  Exemples
+###  Exemple
 
 ```python
 

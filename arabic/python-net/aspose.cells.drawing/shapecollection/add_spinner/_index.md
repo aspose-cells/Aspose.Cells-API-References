@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_spinner
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int |يمثل الإزاحة الرأسية لـ Spinner من صفه الأيسر ، بوحدة بكسل.|
@@ -31,7 +31,7 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 | height | int | يمثل ارتفاع Spinner بوحدة البكسل.|
 | width | int | يمثل عرض Spinner بوحدة البكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة to_image
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cell | [Cell](/cells/ar/python-net/aspose.cells/cell) | حدد شريط البيانات في أي خلية سيتم عرضها|
 | img_opts | aspose.cells.rendering.ImageOrPrintOptions | يحتوي ImageOrPrintOptions على بعض خصائص صورة الإخراج|

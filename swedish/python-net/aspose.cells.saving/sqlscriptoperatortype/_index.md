@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlScriptOperatorType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen SqlScriptOperatorType avslöjar följande medlemmar:
 | :- | :- |
 | INSERT | Infoga data.|
 | UPDATE | Uppdatera data.|
-| DELETE | Radera data.|
+| DELETE | Ta bort data.|
 
 
 

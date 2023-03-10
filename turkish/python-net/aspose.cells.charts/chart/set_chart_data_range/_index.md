@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_chart_data_range yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,10 +18,10 @@ def set_chart_data_range(self, area, is_vertical):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | area | str | Veri serisinin çizileceği değerleri belirtir|
-| is_vertical | bool | Serinin bir dizi hücre değeri aralığından satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
+| is_vertical | bool | Bir dizi hücre değeri aralığından serinin satıra mı yoksa sütuna göre mi çizileceğini belirtir.|
 
 
 

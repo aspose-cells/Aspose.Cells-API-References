@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_data yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.pivot/pivottable/calculate_data/
 is_root: false
 ---
 ##  calculate_data() {#}
-Pivot tablonun verilerini hücrelere göre hesaplar.
+Pivottable'ın verilerini hücrelere göre hesaplar.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_function mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen CustomEngine özelliğini kullanın, AbstractCalculationEngine daha kullanışlı ve esnek API'ler sağlar
 özel işlevleri değiştirmek için.
  Bu mülk, Ağustos 2020'den bu yana 12 ay sonra kaldırılacaktır.

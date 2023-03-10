@@ -1,4 +1,4 @@
-﻿---
+---
 title: Walls Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -46,7 +46,7 @@ Der Typ Walls macht die folgenden Member verfügbar:
 | Methode| Beschreibung|
 | :- | :- |
 | [get_cube_point_count()](/cells/de/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | Ruft die Anzahl der Kubikpunkte nach Aufrufen der Methode Chart.Calculate() ab.|
-| [get_cube_point_x_px(index)](/cells/de/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Ruft die x-Koordinaten des Scheitelpunkts des Wandwürfels ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.<br/> Die Anzahl der Scheitelpunkte des Wandwürfels beträgt acht|
+| [get_cube_point_x_px(index)](/cells/de/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Ruft die x-Koordinate des Scheitelpunkts des Wandwürfels ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.<br/> Die Anzahl der Scheitelpunkte des Wandwürfels beträgt acht|
 | [get_cube_point_y_px(index)](/cells/de/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Ruft die y-Koordinate des Scheitelpunkts des Wandwürfels ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.<br/> Die Anzahl der Scheitelpunkte des Wandwürfels beträgt acht.|
 
 

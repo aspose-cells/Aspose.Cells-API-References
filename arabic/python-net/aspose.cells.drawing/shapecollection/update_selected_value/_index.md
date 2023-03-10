@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة update_selected_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

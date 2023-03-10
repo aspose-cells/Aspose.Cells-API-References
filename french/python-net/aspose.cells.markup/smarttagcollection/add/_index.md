@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Ajoute une balise active.
 
 ###  Retour
 
-L'index des balises actives dans la liste.
+L'index de la balise active dans la liste.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | uri | str | Spécifie l'URI de l'espace de noms de la balise active|
 | name | str | Spécifie le nom de la balise active.|

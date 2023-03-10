@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_selected_value metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

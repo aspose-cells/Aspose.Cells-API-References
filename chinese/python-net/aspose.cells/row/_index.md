@@ -1,6 +1,6 @@
-﻿---
+---
 title: Row类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1300
@@ -19,7 +19,7 @@ Row 类型公开了以下成员：
 | :- | :- |
 | [is_blank](/cells/zh/python-net/aspose.cells/row/is_blank) |指示该行是否包含任何数据|
 | [is_collapsed](/cells/zh/python-net/aspose.cells/row/is_collapsed) |行是否折叠|
-| [height](/cells/zh/python-net/aspose.cells/row/height) |以 Points 为单位获取和设置行高。|
+| [height](/cells/zh/python-net/aspose.cells/row/height) |获取和设置以 Points 为单位的行高。|
 | [is_hidden](/cells/zh/python-net/aspose.cells/row/is_hidden) |指示行是否隐藏。|
 | [index](/cells/zh/python-net/aspose.cells/row/index) |获取该行的索引。|
 | [group_level](/cells/zh/python-net/aspose.cells/row/group_level) |获取行的组级别。|

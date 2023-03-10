@@ -1,4 +1,4 @@
-﻿---
+---
 title: extend_to_next_sheet недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

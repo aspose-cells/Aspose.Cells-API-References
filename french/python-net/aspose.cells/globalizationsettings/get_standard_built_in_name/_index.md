@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_standard_built_in_name méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,9 +22,9 @@ def get_standard_built_in_name(self, local_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| local_name | str | Texte dépendant des paramètres régionaux du nom intégré.|
+| local_name | str | Texte dépendant des paramètres régionaux du nom intégré. Les paramètres régionaux ont été spécifiés par le classeur pour lequel ces paramètres sont utilisés.|
 
 
 

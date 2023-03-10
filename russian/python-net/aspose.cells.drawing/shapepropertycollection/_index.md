@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePropertyCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | [glow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/glow_effect) | Представляет объект [ShapePropertyCollection.glow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect), задающий эффект свечения для элемента диаграммы или фигуры.|
 | [format_3d](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/format_3d) | Представляет объект [ShapePropertyCollection.format_3d](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection#format_3d), задающий свойства трехмерной фигуры для элемента диаграммы или фигуры.|
 | [soft_edge_radius](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/soft_edge_radius) | Получает и задает радиус размытия, применяемый к краям, в точках.|
-| [shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/shadow_effect) | Представляет объект [ShapePropertyCollection.shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect), задающий эффект тени для элемента диаграммы или фигуры.|
+| [shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/shadow_effect) | Представляет объект [ShapePropertyCollection.shadow_effect](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect), определяющий эффект тени для элемента диаграммы или фигуры.|
 
 
 ###  Методы

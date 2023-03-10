@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_pt الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_pt الملكية
 
-يمثل ارتفاع الشكل بوحدات من النقاط.
+يمثل ارتفاع الشكل بوحدة النقاط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

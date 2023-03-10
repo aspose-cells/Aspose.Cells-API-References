@@ -1,4 +1,4 @@
-﻿---
+---
 title: transpose الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose الملكية
 
-يتم تصحيح transpose من الصفوف والأعمدة عند لصق النطاق.
+يتم تصحيح transpose من الصفوف والأعمدة عند لصق النطاق. القيمة الافتراضية هي كاذبة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_series_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.charts/chartglobalizationsettings/get_series_na
 is_root: false
 ---
 ##  get_series_name() {#}
-Grafikteki Dizinin adını alır.
+Grafikteki Serinin adını alır.
 
 
 ###  İadeler

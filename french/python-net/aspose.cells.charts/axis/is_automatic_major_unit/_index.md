@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_major_unit propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

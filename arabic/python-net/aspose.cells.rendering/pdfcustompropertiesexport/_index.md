@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد PdfCustomPropertiesExport
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  مجالات
 | مجال| وصف|
 | :- | :- |
-| NONE | لا يتم تصدير أي خصائص مخصصة.|
+| NONE | لم يتم تصدير أي خصائص مخصصة.|
 | STANDARD | يتم تصدير الخصائص المخصصة كمدخلات في قاموس المعلومات.|
 
 

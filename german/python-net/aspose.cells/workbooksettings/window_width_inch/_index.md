@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_width_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_inch Eigentum
 
-Die Breite des Fensters in Zolleinheiten.
+Die Breite des Fensters in Zoll.
 ###  Definition:
 ```python
 @property

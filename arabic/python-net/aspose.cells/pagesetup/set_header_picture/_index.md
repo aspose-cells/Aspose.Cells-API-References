@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_header_picture
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def set_header_picture(self, section, header_picture):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 | header_picture | bytes | بيانات الصورة.|

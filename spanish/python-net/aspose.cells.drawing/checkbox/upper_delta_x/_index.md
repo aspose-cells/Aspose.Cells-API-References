@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_x propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,9 +13,9 @@ Obtiene o establece el desplazamiento horizontal de la forma desde la columna de
 
 ###  Observaciones
 
-El rango de valores es de 0 a 1024.
+El rango de valor es de 0 a 1024.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

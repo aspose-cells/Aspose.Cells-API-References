@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparkline_collection proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  sparkline_collection proprietà
 
-Ottiene la raccolta di oggetti [Sparkline](/cells/it/python-net/aspose.cells.charts/sparkline).
+Ottiene la raccolta dell'oggetto [Sparkline](/cells/it/python-net/aspose.cells.charts/sparkline).
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto, utilizzare invece la proprietà SparklineGroup.Sparklines.
+NOTA: questo membro è ora obsoleto. Utilizzare invece la proprietà SparklineGroup.Sparklines.
  Questa proprietà verrà rimossa 12 mesi dopo da novembre 2022.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

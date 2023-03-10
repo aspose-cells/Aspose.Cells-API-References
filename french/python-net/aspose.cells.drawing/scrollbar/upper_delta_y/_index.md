@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_y propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,9 +13,9 @@ Obtient ou définit le décalage vertical de la forme par rapport à sa ligne da
 
 ###  Remarques
 
-La plage de valeurs va de 0 à 256.
+La plage de valeurs est de 0 à 256.
 
-###  Exemples
+###  Exemple
 
 ```python
 

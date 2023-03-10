@@ -1,4 +1,4 @@
-﻿---
+---
 title: title Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die title (Beschriftung) des aktuellen Formobjekts an.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitLabel classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -29,7 +29,7 @@ Le type DisplayUnitLabel expose les membres suivants :
 | [text_font](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_font) | Obtient un objet [ChartFrame.font](/cells/fr/python-net/aspose.cells.charts/chartframe#font) de l'objet ChartFrame spécifié.|
 | [text_options](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_options) | Obtient et définit les options du texte.|
 | [font](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/font) | Obtient un objet [DisplayUnitLabel.font](/cells/fr/python-net/aspose.cells.charts/displayunitlabel#font) de l'objet ChartFrame spécifié.|
-| [auto_scale_font](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/auto_scale_font) | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change.|
+| [auto_scale_font](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/auto_scale_font) | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai.|
 | [background_mode](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/background_mode) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [background](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/background) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_automatic_size) | Indique si le cadre du graphique est dimensionné automatiquement.|
@@ -45,7 +45,7 @@ Le type DisplayUnitLabel expose les membres suivants :
 | [default_width](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/default_width) | Représente la largeur de la position par défaut|
 | [default_height](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/default_height) | Représente la hauteur de la position par défaut|
 | [is_auto_text](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_auto_text) | Indique que le texte est généré automatiquement.|
-| [is_deleted](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_deleted) | Indique si cette étiquette de données est supprimée.|
+| [is_deleted](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_deleted) | Indique si ces étiquettes de données sont supprimées.|
 | [text_horizontal_alignment](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_horizontal_alignment) | Obtient et définit l'alignement horizontal du texte.|
 | [text_vertical_alignment](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_vertical_alignment) |Obtient ou définit l'alignement vertical du texte.|
 | [rotation_angle](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/rotation_angle) | Représente l'angle de rotation du texte.|
@@ -56,7 +56,7 @@ Le type DisplayUnitLabel expose les membres suivants :
 | [reading_order](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/reading_order) | Représente l'ordre de lecture du texte.|
 | [direction_type](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/direction_type) | Obtient et définit la direction du texte.|
 | [is_text_wrapped](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_text_wrapped) | Obtient ou définit une valeur indiquant si le texte est encapsulé.|
-| [is_resize_shape_to_fit_text](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_resize_shape_to_fit_text) | Obtient ou définit si une forme doit être ajustée automatiquement pour contenir entièrement le texte qui y est décrit.<br/> lorsque le texte d'une forme est mis à l'échelle afin de contenir tout le texte à l'intérieur.|
+| [is_resize_shape_to_fit_text](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_resize_shape_to_fit_text) | Obtient ou définit si une forme doit être ajustée automatiquement pour contenir entièrement le texte qui y est décrit. L'ajustement automatique est<br/> lorsque le texte d'une forme est mis à l'échelle afin de contenir tout le texte à l'intérieur.|
 
 
 ###  Méthodes
@@ -67,7 +67,7 @@ Le type DisplayUnitLabel expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

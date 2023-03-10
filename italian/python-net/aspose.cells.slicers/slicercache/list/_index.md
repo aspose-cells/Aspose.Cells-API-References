@@ -1,4 +1,4 @@
-﻿---
+---
 title: list proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list proprietà
 
-Restituisce se l'affettatrice è associata alla cache affettatrice specificata è basata su un'origine dati non OLAP.
+Restituisce se l'affettatrice associata alla cache affettatrice specificata è basata su un'origine dati non OLAP. Sola lettura
 
-###  Esempi
+###  Esempio
 
 ```python
 

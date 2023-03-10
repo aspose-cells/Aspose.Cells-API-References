@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_rows الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل الصفوف التي تحتوي على الخلايا المراد تكرارها أعلى كل صفحة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

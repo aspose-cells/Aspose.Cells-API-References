@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationData الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -30,7 +30,7 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [get_param_value(index)](/cells/ar/python-net/aspose.cells/calculationdata/get_param_value/#int) | الحصول على كائن القيمة الممثلة للمعلمة في الفهرس المحدد.|
+| [get_param_value(index)](/cells/ar/python-net/aspose.cells/calculationdata/get_param_value/#int) | الحصول على كائن القيمة الممثلة للمعلمة في فهرس معين.|
 | [get_param_text(index)](/cells/ar/python-net/aspose.cells/calculationdata/get_param_text/#int) | الحصول على النص الحرفي للمعامل عند فهرس معين.|
 
 

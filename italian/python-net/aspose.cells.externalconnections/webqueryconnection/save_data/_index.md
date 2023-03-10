@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_data proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  save_data proprietà
 
 True se i dati esterni recuperati tramite la connessione per popolare una tabella devono essere salvati
-con la cartella di lavoro; in caso contrario, false.
+con la cartella di lavoro; altrimenti, falso.
 ###  Definizione:
 ```python
 @property

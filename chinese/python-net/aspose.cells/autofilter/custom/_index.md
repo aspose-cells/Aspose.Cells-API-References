@@ -1,6 +1,6 @@
-﻿---
+---
 title: custom方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 70
@@ -18,7 +18,7 @@ def custom(self, field_index, operator_type1, criteria1):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | field_index | int |要作为过滤器基础的字段的整数偏移量<br/>（从列表的左边开始；最左边的字段是字段 0）。|
 | operator_type1 | [FilterOperatorType](/cells/zh/python-net/aspose.cells/filteroperatortype) |过滤器运算符类型|
@@ -36,7 +36,7 @@ def custom(self, field_index, operator_type1, criteria1, is_and, operator_type2,
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | field_index | int |要作为过滤器基础的字段的整数偏移量<br/>（从列表的左边开始；最左边的字段是字段 0）。|
 | operator_type1 | [FilterOperatorType](/cells/zh/python-net/aspose.cells/filteroperatortype) |过滤器运算符类型|

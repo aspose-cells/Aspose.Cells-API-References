@@ -1,4 +1,4 @@
-﻿---
+---
 title: cross_filter_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  cross_filter_type propriété
 
 Renvoie ou définit si un segment participe au filtrage croisé avec d'autres segments
-qui partagent le même cache de trancheur et comment le filtrage croisé est affiché.
+qui partagent le même cache de trancheur et comment le filtrage croisé est affiché. Lire écrire
 ###  Définition:
 ```python
 @property

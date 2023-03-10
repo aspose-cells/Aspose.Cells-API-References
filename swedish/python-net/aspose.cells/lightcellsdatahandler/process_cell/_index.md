@@ -1,4 +1,4 @@
-﻿---
+---
 title: process_cell metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Cell objekt som bearbetas för närvarande|
 ###  Anmärkningar

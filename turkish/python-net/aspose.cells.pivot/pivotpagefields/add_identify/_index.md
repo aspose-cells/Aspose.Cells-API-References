@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_identify yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,10 +19,10 @@ def add_identify(self, range_index, page_item_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range_index | int |Konsolidasyon veri aralığı dizini.|
-| page_item_index | list | Her sayfa alanındaki sayfa öğesi dizini.<br/>pageItemIndex[2] = 1, üçüncü alandaki bu aralığı tanımlamak için kullanılacak ikinci öğe anlamına gelir.<br/> pageItemIndex[1] = -1, ikinci alanda bu aralığı tanımlamak için kullanılacak öğe olmadığı anlamına gelir<br/> ve MS, bu aralığı tanımlamak için ikinci alanda otomatik olarak "boş" bir öğe oluşturacaktır.|
+| page_item_index | list | Her sayfa alanındaki sayfa öğesi dizini.<br/>pageItemIndex[2] = 1, üçüncü alandaki bu aralığı tanımlamak için kullanılacak ikinci öğe anlamına gelir.<br/> pageItemIndex[1] = -1, ikinci alanda bu aralığı tanımlamak için kullanılacak öğe olmadığı anlamına gelir<br/> ve MS, bu aralığı tanımlamak için ikinci alanda otomatik olarak "boş" öğe oluşturacaktır.|
 
 
 

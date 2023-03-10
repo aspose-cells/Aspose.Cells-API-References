@@ -1,4 +1,4 @@
-﻿---
+---
 title: ValidationCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/validationcollection/
 is_root: false
 ---
 ##  ValidationCollection sınıfı
-Veri doğrulama koleksiyonlarını temsil eder.
+Veri doğrulama koleksiyonunu temsil eder.
 
 
 
@@ -32,14 +32,14 @@ ValidationCollection türü aşağıdaki üyeleri gösterir:
 | [last_index_of(item)](/cells/tr/python-net/aspose.cells/validationcollection/last_index_of/#Validation) | Belirtilen nesneyi arar ve tüm dizi listesindeki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [last_index_of(item, index)](/cells/tr/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int) | Belirtilen nesneyi arar ve ilk öğeden belirtilen dizine kadar uzanan dizi listesindeki öğe aralığı içindeki son oluşumun sıfır tabanlı dizinini döndürür.|
 | [last_index_of(item, index, count)](/cells/tr/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int-int) |Belirtilen nesneyi arar ve belirtilen sayıda öğeyi içeren ve belirtilen dizinde biten dizi listesindeki öğe aralığındaki son oluşumun sıfır tabanlı dizinini döndürür.|
-| [remove_a_cell(row, column)](/cells/tr/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | Hücredeki tüm doğrulama ayarlarını kaldırır.|
-| [remove_area(ca)](/cells/tr/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | Aralıktaki tüm doğrulama ayarlarını kaldırır.|
-| [get_validation_in_cell(row, column)](/cells/tr/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Belirli bir hücreye uygulanan doğrulamayı alır.|
+| [remove_a_cell(row, column)](/cells/tr/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | Hücredeki tüm doğrulama ayarını kaldırır.|
+| [remove_area(ca)](/cells/tr/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | Aralıktaki tüm doğrulama ayarını kaldırır.|
+| [get_validation_in_cell(row, column)](/cells/tr/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Verilen hücreye uygulanan doğrulamayı alır.|
 | [binary_search(item)](/cells/tr/python-net/aspose.cells/validationcollection/binary_search/#Validation) | Varsayılan karşılaştırıcıyı kullanarak sıralanmış dizi listesinin tamamında bir öğe arar ve öğenin sıfır tabanlı dizinini döndürür.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, ValidationType, Workbook

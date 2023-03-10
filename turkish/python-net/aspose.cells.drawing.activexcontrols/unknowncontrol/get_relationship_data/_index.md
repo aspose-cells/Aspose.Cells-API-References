@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_relationship_data yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def get_relationship_data(self, rel_id):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | rel_id | str | ilişki kimliği.|
 

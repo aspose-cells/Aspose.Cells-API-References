@@ -1,6 +1,6 @@
-﻿---
+---
 title: FolderFontSource类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 640
@@ -22,7 +22,7 @@ FolderFontSource 类型公开了以下成员：
 ### 构造器
 |构造器|描述|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/zh/python-net/aspose.cells/folderfontsource/__init__/#str-bool) |导演。|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/zh/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor。|
 
 
 ### 特性

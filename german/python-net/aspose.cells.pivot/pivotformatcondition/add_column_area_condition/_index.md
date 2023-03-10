@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_column_area_condition Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

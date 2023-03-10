@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_tabs mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Varsayılan değer doğrudur.
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, elektronik tablo için Sayfa Sekmelerini ve Sekme Kaydırma Düğmelerini gizler.
 

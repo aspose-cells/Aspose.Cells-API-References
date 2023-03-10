@@ -1,4 +1,4 @@
-﻿---
+---
 title: indent_level fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level fastighet
 
-Representerar indragsnivån för cellen eller området.
+Representerar indragsnivån för cellen eller området. Kan bara vara ett heltal från 0 till 250.
 
 ###  Anmärkningar
 

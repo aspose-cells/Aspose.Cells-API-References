@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_as_icon الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  display_as_icon الملكية
 
  صواب إذا تم عرض الكائن المحدد كرمز
-ولن تتغير الصورة تلقائيًا.
+ولن يتم تغيير الصورة تلقائيًا.
 ###  تعريف:
 ```python
 @property

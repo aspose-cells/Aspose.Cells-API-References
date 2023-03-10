@@ -1,4 +1,4 @@
-﻿---
+---
 title: x proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta l'offset orizzontale della forma dal bordo sinistro del foglio di lavoro, in unità di pixel.
 
-###  Esempi
+###  Esempio
 
 ```python
 

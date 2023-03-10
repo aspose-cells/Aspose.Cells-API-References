@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_on_category_axis_point_x_px
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def get_on_category_axis_point_x_px(self, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | index | int |  |
 ###  Osservazioni

@@ -1,4 +1,4 @@
-﻿---
+---
 title: stream_provider Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ Ruft den IStreamProvider zum Exportieren von Objekten ab oder legt diesen fest.
 ###  Bemerkungen
 
 Beim Speichern als SVG oder Tiff wird diese Eigenschaft ignoriert .
-Andernfalls, wenn mehr als ein Bild gespeichert werden soll, schreiben wir weitere Bilder dazu.
+Andernfalls, wenn mehr als ein Bild gespeichert werden soll, werden wir andere Bilder darüber schreiben.
 ###  Definition:
 ```python
 @property

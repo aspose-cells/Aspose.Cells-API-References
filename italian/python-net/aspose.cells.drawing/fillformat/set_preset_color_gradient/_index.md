@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_preset_color_gradient
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,11 +19,11 @@ def set_preset_color_gradient(self, preset_color, style, variant):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | preset_color | [GradientPresetType](/cells/it/python-net/aspose.cells.drawing/gradientpresettype) | Tipo di colore preimpostato|
 | style | [GradientStyleType](/cells/it/python-net/aspose.cells.drawing/gradientstyletype) | Stile di sfumatura sfumata.|
-| variant | int |La variante sfumatura. Può essere un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento. Se lo stile è GradientStyle.FromCenter, l'argomento Variante può essere solo 1 o 2.|
+| variant | int |La variante gradiente. Può essere un valore compreso tra 1 e 4, corrispondente a una delle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento. Se style è GradientStyle.FromCenter, l'argomento Variant può essere solo 1 o 2.|
 
 
 

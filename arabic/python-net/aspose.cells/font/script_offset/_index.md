@@ -1,4 +1,4 @@
-﻿---
+---
 title: script_offset الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

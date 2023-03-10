@@ -1,6 +1,6 @@
-﻿---
+---
 title: height 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 110
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## height 属性
 
-表示评论的高度，以像素为单位。
+表示评论的高度，单位为像素。
 
 ### 例子
 

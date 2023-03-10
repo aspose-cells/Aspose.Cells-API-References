@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_equation الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الإشارة إلى ما إذا كان الشكل يحتوي على معادلة فقط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

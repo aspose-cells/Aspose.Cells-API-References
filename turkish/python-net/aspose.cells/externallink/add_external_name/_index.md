@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_external_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,10 +18,10 @@ def add_external_name(self, text, refer_to):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | text | str | Harici adın metni.<br/>Harici ad bir çalışma sayfasına aitse, metin Sayfa1!Metin şeklinde olmalıdır.|
-| refer_to | str | Harici adın referTo'su.|
+| refer_to | str | Harici adın referTo'su. Bir hücre veya aralık olmalıdır.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_height_matched mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

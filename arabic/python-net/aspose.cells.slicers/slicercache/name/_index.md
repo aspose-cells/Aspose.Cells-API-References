@@ -1,4 +1,4 @@
-﻿---
+---
 title: name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 تُرجع name لذاكرة التخزين المؤقت لمقسم طريقة العرض.
 
-###  أمثلة
+###  مثال
 
 ```python
 

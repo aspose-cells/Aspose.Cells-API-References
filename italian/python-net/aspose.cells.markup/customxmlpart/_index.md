@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe CustomXmlPart
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

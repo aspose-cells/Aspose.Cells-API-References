@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_formulas_data Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_formulas_data Eigentum
 
-Wenn wahr, Zeichenfolge in Formel konvertieren, wenn der Zeichenfolgenwert mit dem Zeichen „=“ beginnt, ist der Standardwert falsch.
+Wenn wahr, String in Formel umwandeln, wenn der Stringwert mit dem Zeichen „=“ beginnt, der Standardwert ist „false“.
 ###  Definition:
 ```python
 @property

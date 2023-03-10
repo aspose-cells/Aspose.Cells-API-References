@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_in_shape propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Représente le décalage vertical de la forme par rapport à la bordure supérie
 
 S'applique uniquement lorsque cette forme se trouve dans le groupe ou le graphique.
 
-###  Exemples
+###  Exemple
 
 ```python
 

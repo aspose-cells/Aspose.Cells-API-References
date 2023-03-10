@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_other_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

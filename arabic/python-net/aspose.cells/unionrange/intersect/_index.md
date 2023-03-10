@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة intersect
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range | str | النطاق.|
 ###  ملاحظات
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/ar/python-net/aspose.cells/unionrange) | النطاق.|
 ###  ملاحظات
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | ranges | list | النطاق.|
 ###  ملاحظات

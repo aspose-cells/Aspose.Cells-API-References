@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculation_mode propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,7 +14,7 @@ Obtiene o establece el modo para el cálculo del libro de trabajo en MS Excel.
 ###  Observaciones
 
 Esta propiedad es solo para guardar la configuración en el archivo de hoja de cálculo resultante
-para que otras aplicaciones (como ms excel) puedan actuar en consecuencia al cargar y manipular el archivo resultante.
+para que otras aplicaciones (como MS Excel) puedan actuar en consecuencia al cargar y manipular el archivo resultante.
 Para tener en cuenta el rendimiento de la aplicación de la mayoría de los usuarios, no calculamos ninguna fórmula en el libro de trabajo automáticamente,
 independientemente del modo que se haya establecido para esta propiedad.
 Si el usuario necesita calcular fórmulas, llame siempre a métodos en diferentes objetos según los requisitos:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_index недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 По умолчанию 0.
 
-###  Примеры
+###  Пример
 
 В следующем примере показано, как преобразовать диапазон страниц (3 и 4) в файле Excel Microsoft в PDF.
 

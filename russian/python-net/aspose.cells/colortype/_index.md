@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColorType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/colortype/
 is_root: false
 ---
 ##  ColorType перечисление
-Представляет все типы цветов
+Представляет все цветотипы
 
 
 

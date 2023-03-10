@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -39,11 +39,11 @@ def add(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [SheetType](/cells/ar/python-net/aspose.cells/sheettype) | نوع ورقة العمل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import SheetType, Workbook
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet_name | str | اسم ورقة العمل|
 

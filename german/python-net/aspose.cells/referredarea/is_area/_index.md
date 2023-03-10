@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_area Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt an, ob es sich um einen Bereich handelt.
 
 ###  Bemerkungen
 
-Wenn dies kein Bereich ist, wirken sich nur StartRow und StartColumn aus.
+Wenn dies kein Bereich ist, wirken nur StartRow und StartColumn.
 ###  Definition:
 ```python
 @property

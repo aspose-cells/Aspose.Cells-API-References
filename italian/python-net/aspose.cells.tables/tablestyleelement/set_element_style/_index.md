@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_element_style
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_element_style(self, style):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [Style](/cells/it/python-net/aspose.cells/style) | Lo stile dell'elemento.|
 

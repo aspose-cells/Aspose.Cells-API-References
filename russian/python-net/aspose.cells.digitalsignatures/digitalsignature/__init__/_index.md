@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignature конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/
 is_root: false
 ---
 ##  DigitalSignature(raw_data, password, comments, sign_time) {#bytes-str-str-DateTime}
-Конструктор цифровой подписи, использующий реализацию Bouncy Castle.
+Конструктор digitalSignature. Использует реализацию Bouncy Castle.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, raw_data, password, comments, sign_time):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | raw_data | bytes | Массив байтов, содержащий данные из сертификата X.509.|
 | password | str | Пароль, необходимый для доступа к данным сертификата X.509.|

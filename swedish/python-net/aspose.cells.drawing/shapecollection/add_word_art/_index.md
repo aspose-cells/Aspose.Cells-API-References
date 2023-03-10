@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_word_art metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_word_art(self, style, text, upper_left_row, top, upper_left_column, left
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [PresetWordArtStyle](/cells/sv/python-net/aspose.cells.drawing/presetwordartstyle) | Den förinställda WordArt-stilen.|
 | text | str | Texten.|
@@ -30,8 +30,8 @@ def add_word_art(self, style, text, upper_left_row, top, upper_left_column, left
 | top | int | Representerar den vertikala förskjutningen av formen från dess vänstra rad, i pixelenhet.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int |Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i pixelenhet.|
-| height | int | Representerar formens höjd i enheter av pixlar.|
-| width | int | Representerar formens bredd i enheter av pixlar.|
+| height | int | Representerar formhöjden, i pixelenhet.|
+| width | int | Representerar formens bredd i pixelenhet.|
 
 ###  Exempel
 

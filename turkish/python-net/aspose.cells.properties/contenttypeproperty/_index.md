@@ -1,4 +1,4 @@
-﻿---
+---
 title: ContentTypeProperty sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,7 +24,7 @@ ContentTypeProperty türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

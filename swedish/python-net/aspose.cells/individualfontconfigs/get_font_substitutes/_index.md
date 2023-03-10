@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_font_substitutes metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get_font_substitutes(self, original_font_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | original_font_name | str | originalTeckensnittsnamn|
 

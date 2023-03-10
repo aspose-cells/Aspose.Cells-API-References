@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد OdsCellFieldType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  العد OdsCellFieldType
-يمثل نوع حقل الخلية من الاحتمالات.
+يمثل نوع حقل الخلية من ods.
 
 
 

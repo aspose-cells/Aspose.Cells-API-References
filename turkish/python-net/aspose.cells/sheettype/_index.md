@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,11 +17,11 @@ SheetType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| VB | Visual Basic modülleri|
+| VB | Visual Basic modülü|
 | WORKSHEET |  |
-| CHART | çizelge|
+| CHART | Çizelge|
 | BIFF4_MACRO | BIFF4 Makro sayfası|
-| INTERNATIONAL_MACRO | Uluslararası makro sayfası|
+| INTERNATIONAL_MACRO | Uluslararası Makro sayfası|
 | OTHER |  |
 | DIALOG |Diyalog çalışma sayfası|
 

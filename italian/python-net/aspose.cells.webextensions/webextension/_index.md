@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe WebExtension
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ Il tipo WebExtension espone i membri seguenti:
 | [reference](/cells/it/python-net/aspose.cells.webextensions/webextension/reference) | Ottieni il riferimento principale a un componente aggiuntivo di Office.|
 | [alter_references](/cells/it/python-net/aspose.cells.webextensions/webextension/alter_references) | Ottiene un elenco di riferimenti alter.|
 | [properties](/cells/it/python-net/aspose.cells.webextensions/webextension/properties) | Ottiene tutte le proprietà dell'estensione Web.|
-| [bindings](/cells/it/python-net/aspose.cells.webextensions/webextension/bindings) |Ottiene tutte le relazioni di associazione tra un componente aggiuntivo di Office e i dati nel documento.|
+| [bindings](/cells/it/python-net/aspose.cells.webextensions/webextension/bindings) |Ottiene la relazione di tutte le associazioni tra un componente aggiuntivo di Office e i dati nel documento.|
 
 
 

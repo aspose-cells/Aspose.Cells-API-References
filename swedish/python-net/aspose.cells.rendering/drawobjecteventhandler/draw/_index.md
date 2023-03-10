@@ -1,4 +1,4 @@
-﻿---
+---
 title: draw metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,10 +18,10 @@ def draw(self, draw_object, x, y, width, height):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/sv/python-net/aspose.cells.rendering/drawobject) | DrawObject kommer att initieras och returneras vid rendering|
-| x | float | Vänster om Ritobjekt|
+| x | float | Till vänster om DrawObject|
 | y | float | Toppen av DrawObject|
 | width | float | Bredd på DrawObject|
 | height | float | Höjd på DrawObject|

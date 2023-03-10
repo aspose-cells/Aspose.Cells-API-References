@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_formulas yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,9 +18,9 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| ignore_error | bool | geçersiz formül için hata yoksayılır mı?<br/>Bir geçersiz formül için, hata yoksayılırsa bu formül yok sayılır<br/> ve süreç diğer formülleri ayrıştırmaya devam edecek, aksi takdirde bir istisna atılacaktır.|
+| ignore_error | bool | geçersiz formül için hata yoksayılır mı?<br/>Bir geçersiz formül için, hata yoksayılırsa bu formül yok sayılır<br/> ve süreç diğer formülleri ayrıştırmaya devam edecek, aksi takdirde istisna atılacaktır.|
 
 
 

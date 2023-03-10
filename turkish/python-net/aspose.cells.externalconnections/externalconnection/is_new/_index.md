@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_new mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_new mülk
 
- Bağlantı ilk kez yenilenmediyse doğru, aksi takdirde yanlış.
+ Bağlantı ilk kez yenilenmediyse doğrudur; Aksi takdirde, yanlış.
 Bu durum, bir sorgunun döndürülmesi tamamlanmadan önce kullanıcı dosyayı kaydettiğinde gerçekleşebilir.
 ###  Tanım:
 ```python

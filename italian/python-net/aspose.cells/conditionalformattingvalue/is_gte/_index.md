@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_gte proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ is_root: false
  Usa solo per i set di icone, determina se questo valore di soglia viene utilizzato
  l'operatore maggiore o uguale a.
 false' indica che viene utilizzato 'maggiore di' invece di 'maggiore o uguale a'.
-Il valore predefinito è vero.
+Il valore predefinito è true.
 ###  Definizione:
 ```python
 @property

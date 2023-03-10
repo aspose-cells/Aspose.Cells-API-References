@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge_areas proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

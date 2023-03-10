@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

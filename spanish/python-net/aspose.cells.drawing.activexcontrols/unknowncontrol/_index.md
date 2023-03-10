@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnknownControl clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/
 is_root: false
 ---
 ##  UnknownControl clase
-Mando desconocido.
+Control desconocido.
 
 
 

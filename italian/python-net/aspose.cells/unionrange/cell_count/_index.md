@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_count proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_count proprietà
 
-Ottiene tutti i conteggi di celle nell'intervallo.
+Ottiene tutto il conteggio delle celle nell'intervallo.
 ###  Definizione:
 ```python
 @property

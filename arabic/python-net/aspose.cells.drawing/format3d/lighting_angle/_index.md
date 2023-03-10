@@ -1,4 +1,4 @@
-﻿---
+---
 title: lighting_angle الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  lighting_angle الملكية
 
-الحصول على زاوية الإضاءة وتعيينها تتراوح من 0 إلى 359.9 درجة.
+الحصول على وضبط زاوية الإضاءة. تتراوح من 0 إلى 359.9 درجة.
 ###  تعريف:
 ```python
 @property

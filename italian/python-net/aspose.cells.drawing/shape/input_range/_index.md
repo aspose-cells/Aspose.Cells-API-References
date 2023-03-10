@@ -1,4 +1,4 @@
-﻿---
+---
 title: input_range proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene o imposta l'intervallo del foglio di lavoro utilizzato per riempire la casella combinata specificata.
 
-###  Esempi
+###  Esempio
 
 ```python
 

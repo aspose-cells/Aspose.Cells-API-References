@@ -1,4 +1,4 @@
-﻿---
+---
 title: drag_to_column mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

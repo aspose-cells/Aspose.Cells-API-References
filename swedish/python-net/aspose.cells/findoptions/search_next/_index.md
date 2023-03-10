@@ -1,4 +1,4 @@
-﻿---
+---
 title: search_next fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Sökordning. Sant: sök nästa. Falskt: sök föregående.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
  använd egenskapen FindOptions.SearchBackward.
  Den här egenskapen kommer att tas bort 12 månader senare sedan november 2018.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

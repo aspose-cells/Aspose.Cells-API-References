@@ -1,4 +1,4 @@
-﻿---
+---
 title: soft_edges الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على نصف قطر التمويه وتعيينه لتطبيقه على الحواف ، في وحدة من النقاط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

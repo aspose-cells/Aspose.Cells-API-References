@@ -1,4 +1,4 @@
-﻿---
+---
 title: StyleModifyFlag Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,8 +21,8 @@ Der Typ StyleModifyFlag macht die folgenden Member verfügbar:
 | RIGHT_BORDER | Gibt an, ob der rechte Rand für den Stil geändert wurde.|
 | TOP_BORDER | Gibt an, ob der obere Rahmen für den Stil geändert wurde.|
 | BOTTOM_BORDER | Gibt an, ob der untere Rahmen für den Stil geändert wurde.|
-| DIAGONAL_DOWN_BORDER |Gibt an, ob der diagonal nach unten verlaufende Rahmen für den Stil geändert wurde.|
-| DIAGONAL_UP_BORDER | Gibt an, ob der diagonal nach oben gerichtete Rahmen für den Stil geändert wurde.|
+| DIAGONAL_DOWN_BORDER |Gibt an, ob der Rahmen diagonal nach unten für den Stil geändert wurde.|
+| DIAGONAL_UP_BORDER | Gibt an, ob der Rahmen diagonal nach oben für den Stil geändert wurde.|
 | DIAGONAL | Gibt an, ob ein oder mehrere diagonale Ränder ([StyleModifyFlag.DIAGONAL_DOWN_BORDER](/cells/de/python-net/aspose.cells/stylemodifyflag#DIAGONAL_DOWN_BORDER),<br/> [StyleModifyFlag.DIAGONAL_UP_BORDER](/cells/de/python-net/aspose.cells/stylemodifyflag#DIAGONAL_UP_BORDER)) wurden für den Stil modifiziert.|
 | HORIZONTAL_BORDER | Gibt an, ob der horizontale Rahmen für den Stil geändert wurde.<br/> Nur für dynamische Stile wie bedingte Formatierung.|
 | VERTICAL_BORDER | Gibt an, ob der vertikale Rahmen für den Stil geändert wurde.<br/> Nur für dynamische Stile wie bedingte Formatierung.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFitterOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -28,7 +28,7 @@ AutoFitterOptions türü aşağıdaki üyeleri gösterir:
 | [auto_fit_merged_cells_type](/cells/tr/python-net/aspose.cells/autofitteroptions/auto_fit_merged_cells_type) | Birleştirilmiş hücrelerin satır yüksekliğini otomatik sığdırma türünü alır ve ayarlar.|
 | [only_auto](/cells/tr/python-net/aspose.cells/autofitteroptions/only_auto) | Yalnızca yüksekliğin özelleştirilmediği satırlara sığıp sığmadığını gösterir.|
 | [ignore_hidden](/cells/tr/python-net/aspose.cells/autofitteroptions/ignore_hidden) | Gizli satırları/sütunları yok sayar.|
-| [max_row_height](/cells/tr/python-net/aspose.cells/autofitteroptions/max_row_height) | Satırları otomatik sığdırırken maksimum satır yüksekliğini (Nokta birimi cinsinden) alır ve ayarlar.|
+| [max_row_height](/cells/tr/python-net/aspose.cells/autofitteroptions/max_row_height) | Satırları otomatik sığdırırken maksimum satır yüksekliğini (Nokta birimi olarak) alır ve ayarlar.|
 | [auto_fit_wrapped_text_type](/cells/tr/python-net/aspose.cells/autofitteroptions/auto_fit_wrapped_text_type) | Sarılmış metnin otomatik sığdırma türünü alır ve ayarlar.|
 | [format_strategy](/cells/tr/python-net/aspose.cells/autofitteroptions/format_strategy) | Biçimlendirilmiş stratejiyi alır ve ayarlar.|
 

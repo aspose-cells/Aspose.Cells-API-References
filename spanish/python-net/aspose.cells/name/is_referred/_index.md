@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_referred propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_referred propiedad
 
-Indica si este nombre se refiere a otras fórmulas.
+Indica si este nombre es referido por otras fórmulas.
 ###  Definición:
 ```python
 @property

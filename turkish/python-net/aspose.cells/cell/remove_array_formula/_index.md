@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_array_formula yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_array_formula(self, leave_normal_formula):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | leave_normal_formula | bool | True, dizi formülünün normal formüle dönüştürülmesini temsil eder.|
 

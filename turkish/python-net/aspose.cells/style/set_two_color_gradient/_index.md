@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_two_color_gradient yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,12 +18,12 @@ def set_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color | Bir degrade renk.|
 | color2 | aspose.pydrawing.Color | İki degrade renk.|
 | gradient_style_type | aspose.cells.drawing.GradientStyleType | Degrade gölgeleme stili.|
-| variant | int |Degrade varyantı. Dolgu Efektleri iletişim kutusundaki Degrade sekmesindeki dört varyanttan birine karşılık gelen 1 ile 4 arasında bir değer olabilir. Stil GradientStyle.FromCenter ise, Variant bağımsız değişkeni yalnızca 1 veya 2 olabilir.|
+| variant | int |Gradyan varyantı. Dolgu Efektleri iletişim kutusundaki Degrade sekmesindeki dört değişkenden birine karşılık gelen 1 ile 4 arasında bir değer olabilir. Stil GradientStyle.FromCenter ise, Variant bağımsız değişkeni yalnızca 1 veya 2 olabilir.|
 
 
 

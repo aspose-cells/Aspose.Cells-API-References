@@ -1,4 +1,4 @@
-﻿---
+---
 title: cells_data_table_factory fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBarType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,7 +17,7 @@ Il tipo ErrorBarType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| CUSTOM | Tipo di valore personalizzato interno.|
+| CUSTOM | Tipo di valore InnerCustom.|
 | FIXED_VALUE | Tipo di valore fisso.|
 | PERCENT | Tipo percentuale|
 | ST_DEV | Tipo di deviazione standard.|

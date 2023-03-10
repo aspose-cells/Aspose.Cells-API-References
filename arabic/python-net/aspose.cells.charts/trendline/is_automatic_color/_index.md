@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_color الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_color الملكية
 
-يشير إلى ما إذا كان لون الخط قد تم تعيينه تلقائيًا أم لا.
+يشير إلى ما إذا كان لون الخط معينًا تلقائيًا أم لا.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: warning_callback недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback недвижимость
 
-Получает или задает обратные вызовы предупреждения.
+Получает или задает обратный вызов предупреждения.
 ###  Определение:
 ```python
 @property

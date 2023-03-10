@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -53,7 +53,7 @@ Obtiene el celular.
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

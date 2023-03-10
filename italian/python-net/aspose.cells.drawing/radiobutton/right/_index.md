@@ -1,4 +1,4 @@
-﻿---
+---
 title: right proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta la larghezza dell'offset orizzontale della forma dalla colonna d'angolo inferiore right, in unità di pixel.
 
-###  Esempi
+###  Esempio
 
 ```python
 

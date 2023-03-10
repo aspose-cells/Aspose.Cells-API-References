@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_calculated_field mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_calculated_field mülk
 
-Belirtilen PivotTable alanının hesaplanmış bir alan olup olmadığını gösterir.
+Belirtilen PivotTable alanının hesaplanan alan olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

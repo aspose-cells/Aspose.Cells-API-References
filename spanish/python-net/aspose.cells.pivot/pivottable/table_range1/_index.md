@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range1 propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range1 propiedad
 
 Devuelve un objeto CellArea que representa el rango que contiene todo el informe de tabla dinámica,
-pero no incluye campos de página.
+pero no incluye campos de página. Solo lectura.
 ###  Definición:
 ```python
 @property

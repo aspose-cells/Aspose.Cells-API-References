@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_left_row mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Sol üst köşe satır dizinini temsil eder.
 
 Şekil, şekilde veya gruptaysa, UpperLeftRow yoksayılır.
 
-###  örnekler
+###  Örnek
 
 ```python
 

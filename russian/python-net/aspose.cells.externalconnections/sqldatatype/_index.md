@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType перечисление
-Указывает тип данных SQL параметра.
+Указывает тип данных SQL параметра. Допустимо только для источников ODBC.
 
 
 
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | беззнаковое смещение sql|
 | SQL_SIGNED_OFFSET | смещение со знаком sql|
-| SQL_GUID | руководства по sql|
+| SQL_GUID | руководство по sql|
 | SQL_W_LONG_VARCHAR | sql с широкой длинной переменной char|
 | SQL_W_VARCHAR | Широкая переменная char в SQL|
 | SQL_W_CHAR | sql широкий символ|

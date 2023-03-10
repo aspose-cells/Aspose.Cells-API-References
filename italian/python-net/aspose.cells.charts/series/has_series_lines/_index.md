@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_series_lines proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Vero se un istogramma in pila o un grafico a barre ha linee di serie o
  se un grafico a torta a torta o a barre a torta presenta linee di connessione tra le due sezioni.
-Si applica solo agli istogrammi in pila, ai grafici a barre, ai grafici a torta oa barre dei grafici a torta.
+Si applica solo a istogrammi in pila, grafici a barre, grafici a torta di torta o grafici a barra di torta.
 ###  Definizione:
 ```python
 @property

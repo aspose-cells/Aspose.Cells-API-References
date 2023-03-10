@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_rectangle Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_rectangle(self, upper_left_row, top, upper_left_column, left, height, wi
 | height | int | Stellt die Höhe von RectangleShape in Pixeleinheiten dar.|
 | width | int | Stellt die Breite von RectangleShape in Pixeleinheiten dar.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

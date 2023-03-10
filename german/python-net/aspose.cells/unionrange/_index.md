@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnionRange Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -35,7 +35,7 @@ Der Typ UnionRange macht die folgenden Member verfügbar:
 | Methode| Beschreibung|
 | :- | :- |
 | [set_outline_borders(border_styles, border_colors)](/cells/de/python-net/aspose.cells/unionrange/set_outline_borders/#list-aspose.pydrawing.Color[]) | Legt Linienränder um einen Bereich von Zellen fest.|
-| [set_outline_borders(border_style, border_color)](/cells/de/python-net/aspose.cells/unionrange/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Rahmenfarbe fest.|
+| [set_outline_borders(border_style, border_color)](/cells/de/python-net/aspose.cells/unionrange/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Legt die Umrissrahmen um einen Bereich von Zellen mit demselben Rahmenstil und derselben Farbe fest.|
 | [intersect(range)](/cells/de/python-net/aspose.cells/unionrange/intersect/#str) | Schneidet einen anderen Bereich.|
 | [intersect(union_range)](/cells/de/python-net/aspose.cells/unionrange/intersect/#UnionRange) | Schneidet einen anderen Bereich.|
 | [intersect(ranges)](/cells/de/python-net/aspose.cells/unionrange/intersect/#list) | Schneidet einen anderen Bereich.|

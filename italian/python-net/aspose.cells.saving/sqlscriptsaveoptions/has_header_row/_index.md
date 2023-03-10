@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_header_row proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

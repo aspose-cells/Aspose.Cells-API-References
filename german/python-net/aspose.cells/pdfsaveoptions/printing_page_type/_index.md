@@ -1,4 +1,4 @@
-﻿---
+---
 title: printing_page_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -16,7 +16,7 @@ Gibt an, welche Seiten nicht gedruckt werden.
 Wenn der Inhalt des Blatts spärlich ist, werden einige Seiten in der PDF-Ausgabedatei vollständig leer sein.
 Wenn Sie diese leeren Seiten nicht möchten, können Sie sie mit dieser Option weglassen.
 
-###  Beispiele
+###  Beispiel
 
 Der folgende Code lässt leere Seiten oder Seiten aus, die nur einige Stilinhalte wie Zellenhintergrund oder Rahmen enthalten.
 

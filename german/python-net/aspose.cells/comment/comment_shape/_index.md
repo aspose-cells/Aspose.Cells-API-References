@@ -1,4 +1,4 @@
-﻿---
+---
 title: comment_shape Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rufen Sie ein Shape-Objekt ab, das die an den angegebenen Kommentar angehängte Form darstellt.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

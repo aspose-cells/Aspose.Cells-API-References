@@ -1,4 +1,4 @@
-﻿---
+---
 title: title proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Specifica il title (didascalia) dell'oggetto forma corrente.
 
-###  Esempi
+###  Esempio
 
 ```python
 

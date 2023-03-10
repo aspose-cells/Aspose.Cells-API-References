@@ -1,4 +1,4 @@
-﻿---
+---
 title: StyleModifyFlag enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -21,12 +21,12 @@ Il tipo StyleModifyFlag espone i membri seguenti:
 | RIGHT_BORDER | Indica se il bordo destro è stato modificato per lo stile.|
 | TOP_BORDER | Indica se il bordo superiore è stato modificato per lo stile.|
 | BOTTOM_BORDER | Indica se il bordo inferiore è stato modificato per lo stile.|
-| DIAGONAL_DOWN_BORDER |Indica se il bordo diagonale verso il basso è stato modificato per lo stile.|
-| DIAGONAL_UP_BORDER | Indica se il bordo diagonale verso l'alto è stato modificato per lo stile.|
+| DIAGONAL_DOWN_BORDER |Indica se il bordo diagonale in basso è stato modificato per lo stile.|
+| DIAGONAL_UP_BORDER | Indica se il bordo diagonale in alto è stato modificato per lo stile.|
 | DIAGONAL | Indica se uno o più bordi diagonali([StyleModifyFlag.DIAGONAL_DOWN_BORDER](/cells/it/python-net/aspose.cells/stylemodifyflag#DIAGONAL_DOWN_BORDER),<br/> [StyleModifyFlag.DIAGONAL_UP_BORDER](/cells/it/python-net/aspose.cells/stylemodifyflag#DIAGONAL_UP_BORDER)) sono stati modificati per lo stile.|
 | HORIZONTAL_BORDER | Indica se il bordo orizzontale è stato modificato per lo stile.<br/> Solo per lo stile dinamico, come la formattazione condizionale.|
 | VERTICAL_BORDER | Indica se il bordo verticale è stato modificato per lo stile.<br/> Solo per lo stile dinamico, come la formattazione condizionale.|
-| BORDERS | Indica se uno o più bordi([StyleModifyFlag.LEFT_BORDER](/cells/it/python-net/aspose.cells/stylemodifyflag#LEFT_BORDER),<br/>[StyleModifyFlag.RIGHT_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#RIGHT_BORDER), [StyleModifyFlag.TOP_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#TOP_BORDER), [StyleModifyFlag.BOTTOM_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#BOTTOM_BORDER),<br/>[StyleModifyFlag.DIAGONAL](/cells/python-net/aspose.cells/stylemodifyflag#DIAGONAL), [StyleModifyFlag.HORIZONTAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#HORIZONTAL_BORDER), [StyleModifyFlag.VERTICAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#VERTICAL_BORDER))<br/> sono stati modificati per lo stile.|
+| BORDERS | Indica se uno o più bordi ([StyleModifyFlag.LEFT_BORDER](/cells/it/python-net/aspose.cells/stylemodifyflag#LEFT_BORDER),<br/>[StyleModifyFlag.RIGHT_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#RIGHT_BORDER), [StyleModifyFlag.TOP_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#TOP_BORDER), [StyleModifyFlag.BOTTOM_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#BOTTOM_BORDER),<br/>[StyleModifyFlag.DIAGONAL](/cells/python-net/aspose.cells/stylemodifyflag#DIAGONAL), [StyleModifyFlag.HORIZONTAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#HORIZONTAL_BORDER), [StyleModifyFlag.VERTICAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#VERTICAL_BORDER))<br/> sono stati modificati per lo stile.|
 | NUMBER_FORMAT | Indica se il formato numerico è stato modificato.|
 | HORIZONTAL_ALIGNMENT | Indica se l'allineamento orizzontale è stato modificato.|
 | VERTICAL_ALIGNMENT | Indica se l'allineamento verticale è stato modificato.|

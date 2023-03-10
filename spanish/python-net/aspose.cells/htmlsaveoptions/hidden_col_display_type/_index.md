@@ -1,4 +1,4 @@
-﻿---
+---
 title: hidden_col_display_type propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Columna oculta (el ancho de esta columna es 0) en Excel, antes de guardar esto en formato html,
 si HtmlHiddenColDisplayType es "Eliminar", la columna oculta no se generará,
-si el valor es "Oculto", la columna se habría emitido, pero estaba oculta, el valor predeterminado es "Oculto"
+si el valor es "Oculto", la columna se mostraría, pero estaba oculta, el valor predeterminado es "Oculto"
 ###  Definición:
 ```python
 @property

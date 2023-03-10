@@ -1,4 +1,4 @@
-﻿---
+---
 title: take_focus_on_click propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

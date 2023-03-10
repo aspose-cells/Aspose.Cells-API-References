@@ -1,6 +1,6 @@
-﻿---
+---
 title: to_front_or_back方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -18,9 +18,9 @@ def to_front_or_back(self, orders):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| orders | int |如果它小于零，则将形状设置为背面。<br/>如果它大于零，它会将形状带到前面。|
+| orders | int |如果它小于零，则将形状设置为背面。<br/>如果它大于零，则将形状置于最前面。|
 
 ### 例子
 

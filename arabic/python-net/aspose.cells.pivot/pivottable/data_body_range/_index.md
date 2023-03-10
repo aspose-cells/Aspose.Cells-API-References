@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_body_range الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range الملكية
 
 إرجاع كائن CellArea الذي يمثل النطاق الذي يحتوي على منطقة البيانات
-في القائمة بين صف الرأس وصف الإدراج.
+في القائمة بين صف الرأس وصف الإدراج. يقرأ فقط.
 ###  تعريف:
 ```python
 @property

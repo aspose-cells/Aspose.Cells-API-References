@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_formula_on_open mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Dosyayı okurken formülün ayrıştırılıp ayrıştırılmadığını göster
 
 ###  Notlar
 
-Yalnızca Excel Xlsx, Xltx, Xltm ve Xlsm dosyaları için geçerlidir
+Yalnızca Excel Xlsx, Xltx, Xltm ve Xlsm dosyası için geçerlidir
 çünkü dosyalardaki formüller bir dizi formülü ile depolanır.
 ###  Tanım:
 ```python

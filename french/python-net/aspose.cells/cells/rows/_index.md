@@ -1,4 +1,4 @@
-﻿---
+---
 title: rows propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rows propriété
 
-Obtient la collection d'objets [Row](/cells/fr/python-net/aspose.cells/row) qui représentent l'individu rows dans cette feuille de calcul.
+Obtient la collection d'objets [Row](/cells/fr/python-net/aspose.cells/row) qui représente l'individu rows dans cette feuille de calcul.
 ###  Définition:
 ```python
 @property

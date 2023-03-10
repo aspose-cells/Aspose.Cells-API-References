@@ -1,4 +1,4 @@
-﻿---
+---
 title: xml_map_query metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def xml_map_query(self, path, xml_map):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | path | str | xml-elementets sökväg|
 | xml_map | [XmlMap](/cells/sv/python-net/aspose.cells/xmlmap) |Ange en xml-karta om du vill fråga efter den specifika sökvägen inom en specifik karta|

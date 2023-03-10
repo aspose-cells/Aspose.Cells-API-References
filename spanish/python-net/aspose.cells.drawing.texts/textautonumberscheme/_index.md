@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextAutonumberScheme enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  TextAutonumberScheme enumeración
-Representa todos los esquemas de números automáticos.
+Representa todo el esquema numérico automático.
 
 
 

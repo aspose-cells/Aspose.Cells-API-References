@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد HtmlHiddenColDisplayType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | HIDDEN | إخفاء الأعمدة المخفية في صفحة html.|
-| REMOVE | قم بإزالة الأعمدة المخفية في صفحات html.|
+| REMOVE | قم بإزالة الأعمدة المخفية في صفحة html.|
 
 
 

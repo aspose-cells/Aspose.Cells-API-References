@@ -1,4 +1,4 @@
-﻿---
+---
 title: verify_password método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def verify_password(self, stream, password):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase |  |
 | password | str | La contraseña para archivos ooxml encriptados.|

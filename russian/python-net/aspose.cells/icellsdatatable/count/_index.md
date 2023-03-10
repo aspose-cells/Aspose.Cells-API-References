@@ -1,4 +1,4 @@
-﻿---
+---
 title: count недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count недвижимость
 
-Получает count записей.-1 для неизвестных записей count.
+Получает count записей. -1 для неизвестных записей count.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد OdsPageBackgroundType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  العد OdsPageBackgroundType
-يمثل نوع خلفية الصفحة من الاحتمالات.
+يمثل نوع خلفية الصفحة من ods.
 
 
 

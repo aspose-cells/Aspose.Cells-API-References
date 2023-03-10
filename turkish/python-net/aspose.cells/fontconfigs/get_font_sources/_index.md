@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_font_sources yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

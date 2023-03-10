@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo from_ole_color
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def from_ole_color(self, ole_color):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | ole_color | int |Il valore di OLE_COLOR.|
 

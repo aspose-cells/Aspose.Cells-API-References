@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo remove_personal_information
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

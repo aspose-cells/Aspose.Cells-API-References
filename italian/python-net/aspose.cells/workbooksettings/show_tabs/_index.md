@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_tabs proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,9 +13,9 @@ Ottenere o impostare un valore se vengono visualizzate le schede della cartella 
 
 ###  Osservazioni
 
-Il valore predefinito è true.
+Il valore predefinito è vero.
 
-###  Esempi
+###  Esempio
 
 Il codice seguente nasconde le schede del foglio e i pulsanti di scorrimento delle schede per il foglio di calcolo.
 

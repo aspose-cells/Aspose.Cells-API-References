@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den Typ des Füllformatsatzes ab.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie stattdessen die Eigenschaft FillFormat.FillType.
  Diese Property wird 12 Monate später seit Juli 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

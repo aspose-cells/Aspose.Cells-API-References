@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chart classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type Chart expose les membres suivants :
 | [hide_pivot_field_buttons](/cells/fr/python-net/aspose.cells.charts/chart/hide_pivot_field_buttons) |Indique si les boutons de champ du graphique croisé dynamique sont masqués uniquement lorsque le graphique est un graphique croisé dynamique.|
 | [pivot_options](/cells/fr/python-net/aspose.cells.charts/chart/pivot_options) | Spécifie les contrôles de pivot qui apparaissent sur le graphique|
 | [pivot_source](/cells/fr/python-net/aspose.cells.charts/chart/pivot_source) | La source est les données du tableau croisé dynamique.<br/> Si PivotSource n'est pas vide, le graphique est PivotChart.|
-| [plot_by](/cells/fr/python-net/aspose.cells.charts/chart/plot_by) | Obtient et définit s'il faut tracer par ligne ou par colonne.|
+| [plot_by](/cells/fr/python-net/aspose.cells.charts/chart/plot_by) | Obtient et définit s'il s'agit d'un tracé par ligne ou par colonne.|
 | [plot_empty_cells_type](/cells/fr/python-net/aspose.cells.charts/chart/plot_empty_cells_type) | Obtient et définit comment tracer les cellules vides.|
 | [plot_visible_cells](/cells/fr/python-net/aspose.cells.charts/chart/plot_visible_cells) | Indique si seules les cellules visibles sont tracées.|
 | [plot_visible_cells_only](/cells/fr/python-net/aspose.cells.charts/chart/plot_visible_cells_only) | Indique si tracer uniquement les cellules visibles.|
@@ -58,10 +58,10 @@ Le type Chart expose les membres suivants :
 | [walls_and_gridlines_2d](/cells/fr/python-net/aspose.cells.charts/chart/walls_and_gridlines_2d) | True si le quadrillage est dessiné en deux dimensions sur un graphique 3D.|
 | [rotation_angle](/cells/fr/python-net/aspose.cells.charts/chart/rotation_angle) | Représente la rotation de la vue du graphique 3D (la rotation de la zone de traçage autour de l'axe z, en degrés).|
 | [elevation](/cells/fr/python-net/aspose.cells.charts/chart/elevation) | Représente l'élévation de la vue du graphique 3D, en degrés.|
-| [right_angle_axes](/cells/fr/python-net/aspose.cells.charts/chart/right_angle_axes) | Cet argument a la valeur True si les axes du graphique sont à angle droit. S'applique uniquement aux graphiques 3D (sauf Column3D et Pie Charts 3D).|
-| [auto_scaling](/cells/fr/python-net/aspose.cells.charts/chart/auto_scaling) | True si Microsoft Excel met à l'échelle un graphique 3D afin qu'il soit plus proche en taille du graphique 2D équivalent.<br/> La propriété Axes à angle droit doit avoir la valeur True.|
+| [right_angle_axes](/cells/fr/python-net/aspose.cells.charts/chart/right_angle_axes) | True si les axes du graphique sont à angle droit. S'applique uniquement aux graphiques 3D (sauf Column3D et 3-D Pie Charts).|
+| [auto_scaling](/cells/fr/python-net/aspose.cells.charts/chart/auto_scaling) | True si Microsoft Excel met à l'échelle un graphique 3D afin qu'il soit plus proche en taille du graphique 2D équivalent.<br/> La propriété RightAngleAxes doit être True.|
 | [height_percent](/cells/fr/python-net/aspose.cells.charts/chart/height_percent) |Renvoie ou définit la hauteur d'un graphique 3D sous forme de pourcentage de la largeur du graphique (entre 5 et 500 %).|
-| [perspective](/cells/fr/python-net/aspose.cells.charts/chart/perspective) | Renvoie ou définit la perspective de l'affichage du graphique 3D. Doit être compris entre 0 et 100.<br/> Cette propriété est ignorée si la propriété RightAngleAxes est True.|
+| [perspective](/cells/fr/python-net/aspose.cells.charts/chart/perspective) | Renvoie ou définit la perspective de la vue graphique 3D. Doit être compris entre 0 et 100.<br/> Cette propriété est ignorée si la propriété RightAngleAxes est True.|
 | [is_3d](/cells/fr/python-net/aspose.cells.charts/chart/is_3d) | Indique si le graphique est un graphique 3D.|
 | [depth_percent](/cells/fr/python-net/aspose.cells.charts/chart/depth_percent) | Représente la profondeur d'un graphique 3D sous forme de pourcentage de la largeur du graphique (entre 20 et 2 000 %).|
 | [actual_chart_size](/cells/fr/python-net/aspose.cells.charts/chart/actual_chart_size) | Obtient la taille réelle du graphique en pixels.|
@@ -97,7 +97,7 @@ Le type Chart expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

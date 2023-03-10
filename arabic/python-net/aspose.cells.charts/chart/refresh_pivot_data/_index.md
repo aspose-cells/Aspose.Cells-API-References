@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة refresh_pivot_data
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

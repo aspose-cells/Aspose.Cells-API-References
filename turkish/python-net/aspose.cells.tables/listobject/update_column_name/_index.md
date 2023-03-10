@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_column_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.tables/listobject/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Çalışma sayfasındaki tüm liste sütunlarının adlarını günceller.
+Çalışma sayfasındaki tüm liste sütunlarının adını günceller.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_fields proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  data_fields proprietà
 
 Ottiene un oggetto PivotField che rappresenta tutti i campi dati in una tabella pivot.
-Sola lettura Sarebbe init solo quando ci sono due o più campi dati nei DataPiovtFields.
-Usa solo per aggiungere DataPivotField all'area riga/colonna della tabella pivot.L'impostazione predefinita è nell'area riga.
+Sola lettura. Sarebbe init solo quando ci sono due o più campi dati nei DataPiovtFiels.
+Utilizza solo per aggiungere DataPivotField all'area riga/colonna della tabella pivot. L'impostazione predefinita è nell'area della riga.
 ###  Definizione:
 ```python
 @property

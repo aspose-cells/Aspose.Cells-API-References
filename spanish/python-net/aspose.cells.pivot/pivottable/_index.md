@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTable clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -17,7 +17,7 @@ El tipo PivotTable expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [is_excel_2003_compatible](/cells/es/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible) | Especifica si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica,<br/>si es verdadero, una cadena debe tener menos o igual a 255 caracteres, por lo que si la cadena tiene más de 255 caracteres,<br/>será truncado, si es falso, una cadena no tendrá la restricción antes mencionada.<br/> El valor por defecto es verdadero.|
+| [is_excel_2003_compatible](/cells/es/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible) | Especifica si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica,<br/>si es verdadero, una cadena debe tener menos o igual a 255 caracteres, por lo que si la cadena tiene más de 255 caracteres,<br/>será truncado. si es falso, una cadena no tendrá la restricción antes mencionada.<br/> El valor por defecto es verdadero.|
 | [refreshed_by_who](/cells/es/python-net/aspose.cells.pivot/pivottable/refreshed_by_who) | Obtiene el nombre del usuario que actualizó por última vez la tabla dinámica.|
 | [refresh_date](/cells/es/python-net/aspose.cells.pivot/pivottable/refresh_date) | Obtiene la fecha en la que se actualizó por última vez la tabla dinámica.|
 | [pivot_table_style_name](/cells/es/python-net/aspose.cells.pivot/pivottable/pivot_table_style_name) | Obtiene y establece el nombre del estilo pivotable.|
@@ -25,20 +25,20 @@ El tipo PivotTable expone los siguientes miembros:
 | [column_fields](/cells/es/python-net/aspose.cells.pivot/pivottable/column_fields) | Devuelve un objeto PivotFields que actualmente se muestra como campos de columna.|
 | [row_fields](/cells/es/python-net/aspose.cells.pivot/pivottable/row_fields) | Devuelve un objeto PivotFields que actualmente se muestra como campos de fila.|
 | [page_fields](/cells/es/python-net/aspose.cells.pivot/pivottable/page_fields) | Devuelve un objeto PivotFields que actualmente se muestra como campos de página.|
-| [data_fields](/cells/es/python-net/aspose.cells.pivot/pivottable/data_fields) | Obtiene un objeto PivotField que representa todos los campos de datos de una tabla dinámica.<br/>Solo lectura Sería init solo cuando hay dos o más campos de datos en DataPiovtFields.<br/>Solo se usa para agregar DataPivotField al área de fila/columna de la tabla dinámica. El valor predeterminado es en el área de fila.|
-| [data_field](/cells/es/python-net/aspose.cells.pivot/pivottable/data_field) | Obtiene un objeto PivotField que representa todos los campos de datos de una tabla dinámica.<br/>Solo lectura Sería init solo cuando hay dos o más campos de datos en DataPiovtFields.<br/>Solo se usa para agregar DataPivotField al área de fila/columna de la tabla dinámica. El valor predeterminado es en el área de fila.|
+| [data_fields](/cells/es/python-net/aspose.cells.pivot/pivottable/data_fields) | Obtiene un objeto PivotField que representa todos los campos de datos de una tabla dinámica.<br/>Solo lectura. Sería init solo cuando hay dos o más campos de datos en DataPiovtFiels.<br/>Solo se usa para agregar DataPivotField al área de fila/columna de la tabla dinámica. El valor predeterminado está en el área de la fila.|
+| [data_field](/cells/es/python-net/aspose.cells.pivot/pivottable/data_field) | Obtiene un objeto PivotField que representa todos los campos de datos de una tabla dinámica.<br/>Solo lectura. Sería init solo cuando hay dos o más campos de datos en DataPiovtFiels.<br/>Solo se usa para agregar DataPivotField al área de fila/columna de la tabla dinámica. El valor predeterminado está en el área de la fila.|
 | [base_fields](/cells/es/python-net/aspose.cells.pivot/pivottable/base_fields) | Devuelve un objeto PivotFields que incluye todos los campos en el informe de tabla dinámica|
 | [pivot_filters](/cells/es/python-net/aspose.cells.pivot/pivottable/pivot_filters) | Devuelve un objeto PivotFilterCollection.|
-| [column_range](/cells/es/python-net/aspose.cells.pivot/pivottable/column_range) | Devuelve un objeto CellArea que representa el rango<br/> que contiene el área de la columna en el informe de tabla dinámica.|
-| [row_range](/cells/es/python-net/aspose.cells.pivot/pivottable/row_range) | Devuelve un objeto CellArea que representa el rango<br/> que contiene el área de la fila en el informe de tabla dinámica.|
-| [data_body_range](/cells/es/python-net/aspose.cells.pivot/pivottable/data_body_range) | Devuelve un objeto CellArea que representa el rango que contiene el área de datos<br/> en la lista entre la fila de encabezado y la fila de inserción.|
-| [table_range1](/cells/es/python-net/aspose.cells.pivot/pivottable/table_range1) | Devuelve un objeto CellArea que representa el rango que contiene todo el informe de tabla dinámica,<br/> pero no incluye campos de página.|
-| [table_range2](/cells/es/python-net/aspose.cells.pivot/pivottable/table_range2) | Devuelve un objeto CellArea que representa el rango que contiene todo el informe de tabla dinámica,<br/> incluye campos de página.|
+| [column_range](/cells/es/python-net/aspose.cells.pivot/pivottable/column_range) | Devuelve un objeto CellArea que representa el rango<br/> que contiene el área de la columna en el informe de tabla dinámica. Solo lectura.|
+| [row_range](/cells/es/python-net/aspose.cells.pivot/pivottable/row_range) | Devuelve un objeto CellArea que representa el rango<br/> que contiene el área de la fila en el informe de tabla dinámica. Solo lectura.|
+| [data_body_range](/cells/es/python-net/aspose.cells.pivot/pivottable/data_body_range) | Devuelve un objeto CellArea que representa el rango que contiene el área de datos<br/> en la lista entre la fila de encabezado y la fila de inserción. Solo lectura.|
+| [table_range1](/cells/es/python-net/aspose.cells.pivot/pivottable/table_range1) | Devuelve un objeto CellArea que representa el rango que contiene todo el informe de tabla dinámica,<br/> pero no incluye campos de página. Solo lectura.|
+| [table_range2](/cells/es/python-net/aspose.cells.pivot/pivottable/table_range2) | Devuelve un objeto CellArea que representa el rango que contiene todo el informe de tabla dinámica,<br/> incluye campos de página. Solo lectura.|
 | [column_grand](/cells/es/python-net/aspose.cells.pivot/pivottable/column_grand) | Indica si el informe de tabla dinámica muestra los totales generales de las columnas.|
 | [is_grid_drop_zones](/cells/es/python-net/aspose.cells.pivot/pivottable/is_grid_drop_zones) | Indica si el informe de tabla dinámica muestra un diseño de tabla dinámica clásico.<br/> (permite arrastrar campos en la grilla)|
 | [row_grand](/cells/es/python-net/aspose.cells.pivot/pivottable/row_grand) |Indica si el informe de tabla dinámica muestra los totales generales de las filas.|
 | [display_null_string](/cells/es/python-net/aspose.cells.pivot/pivottable/display_null_string) | Indica si el informe de tabla dinámica muestra una cadena personalizada<br/> en celdas que contienen valores nulos.|
-| [null_string](/cells/es/python-net/aspose.cells.pivot/pivottable/null_string) | Obtiene la cadena que se muestra en las celdas que contienen valores nulos<br/> cuando la propiedad DisplayNullString es verdadera.|
+| [null_string](/cells/es/python-net/aspose.cells.pivot/pivottable/null_string) | Obtiene la cadena que se muestra en las celdas que contienen valores nulos<br/> cuando la propiedad DisplayNullString es verdadera. El valor predeterminado es una cadena vacía.|
 | [display_error_string](/cells/es/python-net/aspose.cells.pivot/pivottable/display_error_string) | Indica si el informe de tabla dinámica muestra una cadena personalizada en las celdas que contienen errores.|
 | [data_field_header_name](/cells/es/python-net/aspose.cells.pivot/pivottable/data_field_header_name) | Obtiene y establece el nombre del encabezado del campo del área de valor en la tabla dinámica.|
 | [error_string](/cells/es/python-net/aspose.cells.pivot/pivottable/error_string) | Obtiene la cadena que se muestra en las celdas que contienen errores<br/> cuando la propiedad DisplayErrorString es verdadera. El valor predeterminado es una cadena vacía.|
@@ -50,7 +50,7 @@ El tipo PivotTable expone los siguientes miembros:
 | [show_drill](/cells/es/python-net/aspose.cells.pivot/pivottable/show_drill) | Obtiene si se muestran los botones de expandir/contraer.|
 | [enable_drilldown](/cells/es/python-net/aspose.cells.pivot/pivottable/enable_drilldown) | Obtiene si el desglose está habilitado.|
 | [enable_field_dialog](/cells/es/python-net/aspose.cells.pivot/pivottable/enable_field_dialog) | Indica si el cuadro de diálogo Campo de tabla dinámica está disponible<br/> cuando el usuario hace doble clic en el campo de tabla dinámica.|
-| [enable_field_list](/cells/es/python-net/aspose.cells.pivot/pivottable/enable_field_list) | Obtiene si se habilita la lista de campos para la tabla dinámica.|
+| [enable_field_list](/cells/es/python-net/aspose.cells.pivot/pivottable/enable_field_list) | Obtiene si habilita la lista de campos para la tabla dinámica.|
 | [enable_wizard](/cells/es/python-net/aspose.cells.pivot/pivottable/enable_wizard) | Indica si el Asistente para tablas dinámicas está disponible.|
 | [subtotal_hidden_page_items](/cells/es/python-net/aspose.cells.pivot/pivottable/subtotal_hidden_page_items) | Indica si los elementos de campo de página ocultos en el informe de tabla dinámica<br/>se incluyen en subtotales de fila y columna, totales de bloque y totales generales.<br/> El valor predeterminado es Falso.|
 | [grand_total_name](/cells/es/python-net/aspose.cells.pivot/pivottable/grand_total_name) | Devuelve la etiqueta de cadena de texto que se muestra en el encabezado de fila o columna de total general.<br/> El valor predeterminado es la cadena "Total general".|
@@ -60,11 +60,11 @@ El tipo PivotTable expone los siguientes miembros:
 | [enable_data_value_editing](/cells/es/python-net/aspose.cells.pivot/pivottable/enable_data_value_editing) | Especifica un valor booleano que indica si el usuario puede editar las celdas en el área de datos de la tabla dinámica.<br/> Habilitar la edición de celdas en el área de valores|
 | [show_data_tips](/cells/es/python-net/aspose.cells.pivot/pivottable/show_data_tips) | Especifica un valor booleano que indica si se debe mostrar información sobre herramientas para las celdas de datos de la tabla dinámica.|
 | [show_member_property_tips](/cells/es/python-net/aspose.cells.pivot/pivottable/show_member_property_tips) | Especifica un valor booleano que indica si la información de propiedad de los miembros debe omitirse de la información sobre herramientas de la tabla dinámica.|
-| [show_values_row](/cells/es/python-net/aspose.cells.pivot/pivottable/show_values_row) | Especifica un valor booleano que indica si mostrar fila de valores.<br/> mostrar la fila de valores|
+| [show_values_row](/cells/es/python-net/aspose.cells.pivot/pivottable/show_values_row) | Especifica un valor booleano que indica si se muestra la fila de valores.<br/> mostrar la fila de valores|
 | [show_empty_col](/cells/es/python-net/aspose.cells.pivot/pivottable/show_empty_col) | Especifica un valor booleano que indica si incluir columnas vacías en la tabla|
 | [show_empty_row](/cells/es/python-net/aspose.cells.pivot/pivottable/show_empty_row) | Especifica un valor booleano que indica si se deben incluir filas vacías en la tabla.|
 | [field_list_sort_ascending](/cells/es/python-net/aspose.cells.pivot/pivottable/field_list_sort_ascending) |Especifica un valor booleano que indica si los campos de la tabla dinámica se ordenan en un orden diferente al predeterminado en la lista de campos.|
-| [print_drill](/cells/es/python-net/aspose.cells.pivot/pivottable/print_drill) | Especifica un valor booleano que indica si se deben imprimir los indicadores de exploración.<br/> imprime los botones expandir/contraer cuando se muestran en la tabla dinámica.|
+| [print_drill](/cells/es/python-net/aspose.cells.pivot/pivottable/print_drill) | Especifica un valor booleano que indica si se deben imprimir los indicadores de exploración.<br/> imprime los botones de expandir/contraer cuando se muestra en la tabla dinámica.|
 | [alt_text_title](/cells/es/python-net/aspose.cells.pivot/pivottable/alt_text_title) | Obtiene el título del altertext|
 | [alt_text_description](/cells/es/python-net/aspose.cells.pivot/pivottable/alt_text_description) | Obtiene la descripción del texto alternativo.|
 | [name](/cells/es/python-net/aspose.cells.pivot/pivottable/name) | Obtiene el nombre de la tabla dinámica|
@@ -83,8 +83,8 @@ El tipo PivotTable expone los siguientes miembros:
 | [external_connection_data_source](/cells/es/python-net/aspose.cells.pivot/pivottable/external_connection_data_source) | Obtiene el origen de datos de la conexión externa.|
 | [data_source](/cells/es/python-net/aspose.cells.pivot/pivottable/data_source) | Obtiene y establece el origen de datos de la tabla dinámica.|
 | [item_print_titles](/cells/es/python-net/aspose.cells.pivot/pivottable/item_print_titles) | Un bit que especifica si los títulos de los elementos de pivote en el eje de la fila<br/> se repiten en cada página impresa para los campos dinámicos en forma tabular.|
-| [print_titles](/cells/es/python-net/aspose.cells.pivot/pivottable/print_titles) | Indica si los títulos de impresión para la hoja de cálculo se establecen según<br/> en el informe de tabla dinámica.|
-| [display_immediate_items](/cells/es/python-net/aspose.cells.pivot/pivottable/display_immediate_items) | Indica si los elementos en las áreas de fila y columna están visibles<br/> cuando el área de datos de la tabla dinámica está vacía.|
+| [print_titles](/cells/es/python-net/aspose.cells.pivot/pivottable/print_titles) | Indica si los títulos de impresión para la hoja de cálculo se establecen según<br/> en el informe de tabla dinámica. El valor predeterminado es falso.|
+| [display_immediate_items](/cells/es/python-net/aspose.cells.pivot/pivottable/display_immediate_items) | Indica si los elementos en las áreas de fila y columna están visibles<br/> cuando el área de datos de la tabla dinámica está vacía. El valor por defecto es verdadero.|
 | [is_selected](/cells/es/python-net/aspose.cells.pivot/pivottable/is_selected) | Indica si la tabla dinámica está seleccionada.|
 | [show_pivot_style_row_header](/cells/es/python-net/aspose.cells.pivot/pivottable/show_pivot_style_row_header) | Indica si el encabezado de la fila en la tabla dinámica debe tener el estilo aplicado.|
 | [show_pivot_style_column_header](/cells/es/python-net/aspose.cells.pivot/pivottable/show_pivot_style_column_header) |Indica si el encabezado de la columna en la tabla dinámica debe tener el estilo aplicado.|
@@ -103,15 +103,15 @@ El tipo PivotTable expone los siguientes miembros:
 | [add_field_to_area(field_type, base_field_index)](/cells/es/python-net/aspose.cells.pivot/pivottable/add_field_to_area/#PivotFieldType-int) | Agrega el campo al área específica.|
 | [add_field_to_area(field_type, pivot_field)](/cells/es/python-net/aspose.cells.pivot/pivottable/add_field_to_area/#PivotFieldType-PivotField) | Agrega el campo al área específica.|
 | [add_calculated_field(name, formula, drag_to_data_area)](/cells/es/python-net/aspose.cells.pivot/pivottable/add_calculated_field/#str-str-bool) | Agrega un campo calculado al campo dinámico.|
-| [add_calculated_field(name, formula)](/cells/es/python-net/aspose.cells.pivot/pivottable/add_calculated_field/#str-str) | Agrega un campo calculado al campo dinámico y lo arrastra al área de datos.|
+| [add_calculated_field(name, formula)](/cells/es/python-net/aspose.cells.pivot/pivottable/add_calculated_field/#str-str) | Agrega un campo calculado al campo pivote y lo arrastra al área de datos.|
 | [move(row, column)](/cells/es/python-net/aspose.cells.pivot/pivottable/move/#int-int) | Mueve la tabla dinámica a una ubicación diferente en la hoja de cálculo.|
 | [move(dest_cell_name)](/cells/es/python-net/aspose.cells.pivot/pivottable/move/#str) | Mueve la tabla dinámica a una ubicación diferente en la hoja de cálculo.|
 | [set_auto_group_field(base_field_index)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_auto_group_field/#int) | Establece el grupo de campos automático por la tabla dinámica.|
 | [set_auto_group_field(pivot_field)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_auto_group_field/#PivotField) | Establece el grupo de campos automático por la tabla dinámica.|
-| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) | Establece grupos de campos manuales por la tabla dinámica.|
-| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-float-float-list-float) | Establece grupos de campos manuales por la tabla dinámica.|
-| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-DateTime-DateTime-list-int) | Establece grupos de campos manuales por la tabla dinámica.|
-| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-DateTime-DateTime-list-int) | Establece grupos de campos manuales por la tabla dinámica.|
+| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) | Establece el grupo de campos manual por la tabla dinámica.|
+| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-float-float-list-float) | Establece el grupo de campos manual por la tabla dinámica.|
+| [set_manual_group_field(base_field_index, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-DateTime-DateTime-list-int) | Establece el grupo de campos manual por la tabla dinámica.|
+| [set_manual_group_field(pivot_field, start_val, end_val, group_by_list, interval_num)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#PivotField-DateTime-DateTime-list-int) | Establece el grupo de campos manual por la tabla dinámica.|
 | [set_ungroup(base_field_index)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_ungroup/#int) | Conjuntos desagrupados por la tabla dinámica|
 | [set_ungroup(pivot_field)](/cells/es/python-net/aspose.cells.pivot/pivottable/set_ungroup/#PivotField) | Conjuntos desagrupados por la tabla dinámica|
 | [copy_style(pivot_table)](/cells/es/python-net/aspose.cells.pivot/pivottable/copy_style/#PivotTable) | Copia el estilo con nombre de otra tabla dinámica.|
@@ -125,9 +125,9 @@ El tipo PivotTable expone los siguientes miembros:
 | [calculate_data()](/cells/es/python-net/aspose.cells.pivot/pivottable/calculate_data/#) | Calcula los datos de la tabla dinámica a las celdas.|
 | [clear_data()](/cells/es/python-net/aspose.cells.pivot/pivottable/clear_data/#) | Borrar los datos y el formato de la tabla dinámica|
 | [calculate_range()](/cells/es/python-net/aspose.cells.pivot/pivottable/calculate_range/#) | Calcula el rango de la tabla dinámica.|
-| [format_all(style)](/cells/es/python-net/aspose.cells.pivot/pivottable/format_all/#Style) | Dar formato a todas las celdas en el área de la tabla dinámica|
-| [format_row(row, style)](/cells/es/python-net/aspose.cells.pivot/pivottable/format_row/#int-Style) | Dar formato a los datos de la fila en el área de la tabla dinámica|
-| [format(row, column, style)](/cells/es/python-net/aspose.cells.pivot/pivottable/format/#int-int-Style) | Dar formato a la celda en el área de la tabla dinámica|
+| [format_all(style)](/cells/es/python-net/aspose.cells.pivot/pivottable/format_all/#Style) | Dar formato a todas las celdas en el área pivotable|
+| [format_row(row, style)](/cells/es/python-net/aspose.cells.pivot/pivottable/format_row/#int-Style) | Dar formato a los datos de la fila en el área pivotable|
+| [format(row, column, style)](/cells/es/python-net/aspose.cells.pivot/pivottable/format/#int-int-Style) | Dar formato a la celda en el área pivotable|
 | [get_horizontal_breaks()](/cells/es/python-net/aspose.cells.pivot/pivottable/get_horizontal_breaks/#) | obtener la lista de índice de fila de la tabla dinámica de saltos de página horizontales|
 | [show_in_compact_form()](/cells/es/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#) | Presenta la tabla dinámica en formato compacto.|
 | [show_in_outline_form()](/cells/es/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#) | Presenta la tabla dinámica en forma de esquema.|
@@ -137,7 +137,7 @@ El tipo PivotTable expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

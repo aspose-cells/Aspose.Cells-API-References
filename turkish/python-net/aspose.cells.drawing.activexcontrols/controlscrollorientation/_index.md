@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlScrollOrientation numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ ControlScrollOrientation türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | AUTO | Denetimin genişliği yüksekliğinden büyük olduğunda denetim yatay olarak işlenir.<br/> Aksi takdirde kontrol dikey olarak sağlanır.|
-| VERTICAL |Kontroller dikey olarak işlenir.|
+| VERTICAL |Kontrol dikey olarak yapılır.|
 | HORIZONTAL | Kontrol yatay olarak yapılır.|
 
 

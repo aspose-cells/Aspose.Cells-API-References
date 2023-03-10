@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListBoxActiveXControl classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,7 +25,7 @@ Le type ListBoxActiveXControl expose les membres suivants :
 | :- | :- |
 | [workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/workbook) | Obtient l'objet [ActiveXControlBase.workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/type) | Obtient le type du contrôle ActiveX.|
-| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/width) |Obtient et définit la largeur du contrôle en unités de points.|
+| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/width) |Obtient et définit la largeur du contrôle en unité de points.|
 | [height](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/height) | Obtient et définit la hauteur du contrôle en unités de points.|
 | [mouse_icon](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/mouse_icon) | Obtient et définit une icône personnalisée à afficher comme pointeur de souris pour le contrôle.|
 | [mouse_pointer](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/mouse_pointer) | Obtient et définit le type d'icône affichée comme pointeur de souris pour le contrôle.|
@@ -43,8 +43,8 @@ Le type ListBoxActiveXControl expose les membres suivants :
 | [ime_mode](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/ime_mode) |Obtient et définit le mode d'exécution par défaut de l'éditeur de méthode d'entrée pour le contrôle lorsqu'il reçoit le focus.|
 | [font](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/font) | Représente la police du contrôle.|
 | [text_align](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_align) | Représente comment aligner le texte utilisé par le contrôle.|
-| [scroll_bars](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |Indique si le contrôle a des barres de défilement verticales, des barres de défilement horizontales, les deux ou aucune.|
-| [list_width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_width) | Obtient et définit la largeur en unités de points.|
+| [scroll_bars](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |Indique spécifie si le contrôle a des barres de défilement verticales, des barres de défilement horizontales, les deux ou aucune.|
+| [list_width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_width) | Obtient et définit la largeur en unité de points.|
 | [bound_column](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/bound_column) | Représente la manière dont la propriété Value est déterminée pour un ComboBox ou un ListBox<br/>lorsque la valeur des propriétés MultiSelect (fmMultiSelectSingle).|
 | [text_column](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_column) | Représente la colonne dans un ComboBox ou ListBox à afficher à l'utilisateur.|
 | [column_count](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/column_count) | Représente le nombre de colonnes à afficher dans un ComboBox ou un ListBox.|

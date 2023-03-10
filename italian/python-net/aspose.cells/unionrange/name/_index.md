@@ -1,4 +1,4 @@
-﻿---
+---
 title: name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene o imposta name dell'intervallo.
 
 ###  Osservazioni
 
-L'intervallo denominato è supportato.
+L'intervallo denominato è supportato. Per esempio,
 
 range.Name = "Foglio1!MyRange";
 ###  Definizione:

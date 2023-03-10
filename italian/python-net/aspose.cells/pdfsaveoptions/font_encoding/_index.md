@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_encoding proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

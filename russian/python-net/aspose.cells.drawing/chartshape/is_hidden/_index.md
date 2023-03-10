@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hidden недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, виден ли объект.
 
-###  Примеры
+###  Пример
 
 ```python
 

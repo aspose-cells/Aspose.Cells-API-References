@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,11 +24,11 @@ Typen ImageType avslöjar följande medlemmar:
 | JPEG | JPEG JFIF.|
 | PNG | Bärbar nätverksgrafik.|
 | BMP | Windows Bitmap|
-| GIF | Gif-bilder|
+| GIF | Gif|
 | TIFF | Tiff|
 | SVG | Svg|
 | SVM | Svm|
-| GLTF | glTFMore|
+| GLTF | glTF|
 | OFFICE_COMPATIBLE_EMF | Windows Förbättrad metafil som är mer kompatibel med Office.|
 | WEB_P |Weppy bildformat|
 

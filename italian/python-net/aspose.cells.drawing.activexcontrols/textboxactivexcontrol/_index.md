@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe TextBoxActiveXControl
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -47,7 +47,7 @@ Il tipo TextBoxActiveXControl espone i membri seguenti:
 | [border_ole_color](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_ole_color) | Ottiene e imposta il colore ole dello sfondo.|
 | [special_effect](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/special_effect) | Ottiene e imposta l'effetto speciale del controllo.|
 | [max_length](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/max_length) | Ottiene e imposta il numero massimo di caratteri|
-| [scroll_bars](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Indica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna.|
+| [scroll_bars](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Indica specifica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna delle due.|
 | [password_char](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/password_char) | Ottiene e imposta un carattere da visualizzare al posto dei caratteri immessi.|
 | [is_editable](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_editable) | Indica se l'utente può digitare nel controllo.|
 | [integral_height](/cells/it/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/integral_height) | Indica se il controllo mostrerà solo righe di testo complete senza mostrare righe parziali.|
@@ -66,7 +66,7 @@ Il tipo TextBoxActiveXControl espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose import pycore

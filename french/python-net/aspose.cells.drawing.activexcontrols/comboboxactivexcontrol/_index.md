@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComboBoxActiveXControl classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,7 +25,7 @@ Le type ComboBoxActiveXControl expose les membres suivants :
 | :- | :- |
 | [workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/workbook) | Obtient l'objet [ActiveXControlBase.workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/type) | Obtient le type du contrôle ActiveX.|
-| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Obtient et définit la largeur du contrôle en unités de points.|
+| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Obtient et définit la largeur du contrôle en unité de points.|
 | [height](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | Obtient et définit la hauteur du contrôle en unités de points.|
 | [mouse_icon](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_icon) | Obtient et définit une icône personnalisée à afficher comme pointeur de souris pour le contrôle.|
 | [mouse_pointer](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_pointer) | Obtient et définit le type d'icône affichée comme pointeur de souris pour le contrôle.|
@@ -44,7 +44,7 @@ Le type ComboBoxActiveXControl expose les membres suivants :
 | [font](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/font) | Représente la police du contrôle.|
 | [text_align](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_align) | Représente comment aligner le texte utilisé par le contrôle.|
 | [max_length](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/max_length) | Obtient et définit le nombre maximum de caractères|
-| [list_width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | Obtient et définit la largeur en unités de points.|
+| [list_width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_width) | Obtient et définit la largeur en unité de points.|
 | [bound_column](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/bound_column) | Représente la manière dont la propriété Value est déterminée pour un ComboBox ou un ListBox<br/>lorsque la valeur des propriétés MultiSelect (fmMultiSelectSingle).|
 | [text_column](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/text_column) | Représente la colonne dans un ComboBox ou ListBox à afficher à l'utilisateur.|
 | [column_count](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/column_count) | Représente le nombre de colonnes à afficher dans un ComboBox ou un ListBox.|

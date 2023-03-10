@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_data_value_editing propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  enable_data_value_editing propriété
 
 Spécifie une valeur booléenne qui indique si l'utilisateur est autorisé à modifier les cellules dans la zone de données du tableau croisé dynamique.
-Activer l'édition de cellule dans la zone des valeurs
+Activer la modification des cellules dans la zone des valeurs
 ###  Définition:
 ```python
 @property

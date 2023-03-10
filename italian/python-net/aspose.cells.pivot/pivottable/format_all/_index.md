@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo format_all
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Formatta tutte le celle nell'area della tabella pivot
+Formatta tutta la cella nell'area pivottable
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [Style](/cells/it/python-net/aspose.cells/style) | Stile che è quello di formattare|
 

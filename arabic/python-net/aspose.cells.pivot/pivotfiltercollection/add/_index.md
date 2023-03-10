@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, field_index, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | فهرس PivotField|
 | type | [PivotFilterType](/cells/ar/python-net/aspose.cells.pivot/pivotfiltertype) | نوع PivotFilter|

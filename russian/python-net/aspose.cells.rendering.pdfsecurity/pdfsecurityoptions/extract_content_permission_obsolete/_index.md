@@ -1,4 +1,4 @@
-﻿---
+---
 title: extract_content_permission_obsolete недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

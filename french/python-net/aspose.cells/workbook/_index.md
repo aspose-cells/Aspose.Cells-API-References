@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -78,8 +78,8 @@ Le type Workbook expose les membres suivants :
 | [calculate_formula(ignore_error)](/cells/fr/python-net/aspose.cells/workbook/calculate_formula/#bool) | Calcule le résultat de formules.|
 | [calculate_formula(ignore_error, custom_function)](/cells/fr/python-net/aspose.cells/workbook/calculate_formula/#bool-ICustomFunction) | Calcule le résultat de formules.|
 | [calculate_formula(options)](/cells/fr/python-net/aspose.cells/workbook/calculate_formula/#CalculationOptions) | Calculer des formules dans ce classeur.|
-| [refresh_dynamic_array_formulas(calculate)](/cells/fr/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool) | Actualise les formules de tableau dynamique (se répand dans une nouvelle plage de cellules voisines en fonction des données actuelles)<br/> Les autres formules du classeur ne seront pas calculées de manière récursive même si elles ont été utilisées par des formules matricielles dynamiques.|
-| [refresh_dynamic_array_formulas(calculate, copts)](/cells/fr/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool-CalculationOptions) | Actualise les formules de tableau dynamique (se répand dans une nouvelle plage de cellules voisines en fonction des données actuelles)|
+| [refresh_dynamic_array_formulas(calculate)](/cells/fr/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool) | Actualise les formules de tableau dynamique (débordement dans une nouvelle plage de cellules voisines en fonction des données actuelles)<br/> Les autres formules du classeur ne seront pas calculées de manière récursive même si elles ont été utilisées par des formules matricielles dynamiques.|
+| [refresh_dynamic_array_formulas(calculate, copts)](/cells/fr/python-net/aspose.cells/workbook/refresh_dynamic_array_formulas/#bool-CalculationOptions) | Actualise les formules de tableau dynamique (débordement dans une nouvelle plage de cellules voisines en fonction des données actuelles)|
 | [import_xml(url, sheet_name, row, col)](/cells/fr/python-net/aspose.cells/workbook/import_xml/#str-str-int-int) | Importe/met à jour un fichier de données XML dans le classeur.|
 | [import_xml(stream, sheet_name, row, col)](/cells/fr/python-net/aspose.cells/workbook/import_xml/#io.RawIOBase-str-int-int) | Importe/met à jour un fichier de données XML dans le classeur.|
 | [export_xml(map_name, path)](/cells/fr/python-net/aspose.cells/workbook/export_xml/#str-str) | Exporter les données XML liées par le mappage XML spécifié.|
@@ -122,13 +122,13 @@ Le type Workbook expose les membres suivants :
 
 ###  Remarques
 
-La classe Workbook désigne une feuille de calcul Excel.
+La classe Workbook désigne une feuille de calcul Excel. Chaque feuille de calcul peut contenir plusieurs feuilles de calcul.
 La fonctionnalité de base de la classe est d'ouvrir et d'enregistrer des fichiers Excel natifs.
 La classe possède des fonctionnalités avancées telles que la copie de données à partir d'autres classeurs, la combinaison de deux classeurs et la protection de la feuille de calcul Excel.
 
-###  Exemples
+###  Exemple
 
-L'exemple suivant charge un Workbook à partir d'un fichier nommé designer.xls et rend les barres de défilement horizontale et verticale invisibles pour le Workbook. Il remplace ensuite deux valeurs de chaîne par une valeur entière et une valeur de chaîne respectivement dans la feuille de calcul et envoie enfin la mise à jour fichier au navigateur client.
+L'exemple suivant charge un Workbook à partir d'un fichier nommé designer.xls et rend les barres de défilement horizontale et verticale invisibles pour le Workbook. Il remplace ensuite deux valeurs de chaîne par une valeur entière et une valeur de chaîne respectivement dans la feuille de calcul et envoie enfin le fichier mis à jour à le navigateur client.
 
 ```python
 from aspose.cells import Workbook

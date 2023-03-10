@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bu çalışma kitabının toplam sayfa sayısını değerlendirin
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, bir çalışma kitabının sayfa sayısını almanın en hızlı yolunu gösterir.
 

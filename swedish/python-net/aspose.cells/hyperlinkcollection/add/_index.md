@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cell_name | str | Cell namn.|
 | total_rows | int | Antal rader i detta hyperlänksintervall.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | first_row | int | Första raden i hyperlänksintervallet.|
 | first_column | int | Första kolumnen i hyperlänksintervallet.|
@@ -82,7 +82,7 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_cell_name | str | Den övre vänstra cellen i intervallet.|
 | end_cell_name | str | Den nedre högra cellen i intervallet.|

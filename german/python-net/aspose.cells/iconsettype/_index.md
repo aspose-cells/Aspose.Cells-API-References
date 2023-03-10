@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  IconSetType Aufzählung
  Symbolsatztyp für bedingte Formatierung.
-Die Schwellenwerte für das Auslösen der verschiedenen Symbole innerhalb eines Satzes sind
+Die Schwellenwerte zum Auslösen der verschiedenen Symbole innerhalb eines Satzes sind
 konfigurierbar, und die Symbolreihenfolge ist umkehrbar.
 
 
@@ -36,13 +36,13 @@ Der Typ IconSetType macht die folgenden Member verfügbar:
 | ARROWS_GRAY5 | Symbolsatz mit 5 grauen Pfeilen.|
 | QUARTERS5 | 5-Viertel-Icon-Set.|
 | RATING5 | 5-Rating-Icon-Set.|
-| STARS3 | 3-Sterne-Set|
+| STARS3 | 3 Sterne gesetzt|
 | BOXES5 | 5 Boxen-Set|
 | TRIANGLES3 | 3 Dreiecke gesetzt|
 | NONE | Keiner|
 | CUSTOM_SET | Benutzerdefiniert.<br/> Dieses Element ist schreibgeschützt.|
-| SMILIES3 | 3 Lächeln.<br/> Nur für .ods.|
-| COLOR_SMILIES3 | 3-farbiges Lächeln.<br/> Nur für .ods.|
+| SMILIES3 | 3 Smileys.<br/> Nur für .ods.|
+| COLOR_SMILIES3 | 3 farbige Smileys.<br/> Nur für .ods.|
 
 
 

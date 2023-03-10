@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCache klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,9 +17,9 @@ Typen SlicerCache avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [cross_filter_type](/cells/sv/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Returnerar eller ställer in om en slicer deltar i korsfiltrering med andra slicers<br/> som delar samma slicercache och hur korsfiltrering visas.|
-| [list](/cells/sv/python-net/aspose.cells.slicers/slicercache/list) | Returnerar om slicern är associerad med den angivna slicer-cachen är baserad på en icke-OLAP-datakälla.|
-| [slicer_cache_items](/cells/sv/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Returnerar en SlicerCacheItem-samling som innehåller samlingen av alla objekt i slicercachen.|
+| [cross_filter_type](/cells/sv/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Returnerar eller ställer in om en slicer deltar i korsfiltrering med andra slicers<br/> som delar samma slicercache och hur korsfiltrering visas. Läsa skriva|
+| [list](/cells/sv/python-net/aspose.cells.slicers/slicercache/list) | Returnerar om utsnittet som är kopplat till den angivna utsnittscachen är baserad på en icke-OLAP-datakälla. Skrivskyddad|
+| [slicer_cache_items](/cells/sv/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Returnerar en SlicerCacheItem-samling som innehåller samlingen av alla objekt i slicercachen. Skrivskyddad|
 | [name](/cells/sv/python-net/aspose.cells.slicers/slicercache/name) | Returnerar namnet på slicer-cachen.|
 | [source_name](/cells/sv/python-net/aspose.cells.slicers/slicercache/source_name) | Returnerar namnet på cachefältet|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_word_art_style yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_word_art_style(self, style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | style | aspose.cells.drawing.PresetWordArtStyle | Önceden ayarlanmış WordArt stili.|
 ###  Notlar

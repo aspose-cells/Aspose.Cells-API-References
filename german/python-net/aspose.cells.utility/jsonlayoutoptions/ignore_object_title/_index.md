@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_object_title Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_object_title Eigentum
 
-Gibt an, ob der Titel ignoriert werden soll, wenn Objekt eine Eigenschaft von Objekt ist.
+Gibt an, ob Titel ignoriert werden soll, wenn Objekt eine Eigenschaft von Objekt ist.
 
 ###  Bemerkungen
 

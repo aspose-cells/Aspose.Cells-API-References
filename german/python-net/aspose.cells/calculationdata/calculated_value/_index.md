@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculated_value Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  calculated_value Eigentum
 
-Ruft den berechneten Wert für diese Funktion ab oder legt diesen fest.
+Ruft den berechneten Wert für diese Funktion ab oder legt ihn fest.
 
 ###  Bemerkungen
 

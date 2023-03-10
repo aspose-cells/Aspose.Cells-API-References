@@ -1,4 +1,4 @@
-﻿---
+---
 title: signer proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta signer.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import SignatureLine

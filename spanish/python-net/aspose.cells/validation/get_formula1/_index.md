@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_formula1 método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,14 +22,14 @@ def get_formula1(self, is_r1c1, is_local):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_r1c1 | bool | Si la fórmula debe formatearse como R1C1.|
 | is_local | bool | Si la fórmula debe formatearse según la configuración regional.|
 
 
 ##  get_formula1(is_r1c1, is_local, row, column) {#bool-bool-int-int}
-Obtiene el valor o la expresión asociada a esta validación para la celda específica.
+Obtiene el valor o la expresión asociada a esta validación para una celda específica.
 
 
 ###  Devoluciones
@@ -43,7 +43,7 @@ def get_formula1(self, is_r1c1, is_local, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_r1c1 | bool | Si la fórmula debe formatearse como R1C1.|
 | is_local | bool | Si la fórmula debe formatearse según la configuración regional.|

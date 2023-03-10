@@ -1,4 +1,4 @@
-﻿---
+---
 title: intersect Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -28,7 +28,7 @@ def intersect(self, range):
 ###  Bemerkungen
 
 Wenn sich die beiden Bereiche nicht schneiden, wird null zurückgegeben.
-###  Beispiele
+###  Beispiel
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_locked propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Vrai si l'objet est verrouillé, Faux si l'objet peut être modifié lorsque la feuille est protégée.
 
-###  Exemples
+###  Exemple
 
 ```python
 

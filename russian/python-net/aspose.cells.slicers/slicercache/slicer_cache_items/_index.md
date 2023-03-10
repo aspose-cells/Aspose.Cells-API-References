@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache_items недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache_items недвижимость
 
-Возвращает коллекцию SlicerCacheItem, содержащую коллекцию всех элементов в кэше среза.
+Возвращает коллекцию SlicerCacheItem, содержащую коллекцию всех элементов в кэше среза. Только для чтения
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: protection mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection mülk
 
-Bir çalışma sayfası için kullanılabilen çeşitli protection seçenek türlerini temsil eder.
+Bir çalışma sayfası için kullanılabilen çeşitli protection seçenek türlerini temsil eder. ExcelXP ve üzeri sürümlerde gelişmiş protection seçeneklerini destekler.
 
 ###  Notlar
 

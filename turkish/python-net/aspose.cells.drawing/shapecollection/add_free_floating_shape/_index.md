@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_free_floating_shape yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,17 +22,17 @@ def add_free_floating_shape(self, type, top, left, height, width, image_data, is
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/tr/python-net/aspose.cells.drawing/msodrawingtype) | şekil tipi.|
 | top | int | Şeklin çalışma sayfasının üst satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
 | left | int |Çalışma sayfasının sol sütunundaki şeklin piksel cinsinden yatay uzaklığını temsil eder.|
 | height | int | Piksel birimi cinsinden LineShape yüksekliğini temsil eder.|
 | width | int | Piksel birimi cinsinden LineShape genişliğini temsil eder.|
-| image_data | bytes | Resim verileri, sadece resim için geçerlidir.|
+| image_data | bytes | Görüntü verileri, yalnızca resim için geçerlidir.|
 | is_original_size | bool | Şekil resim ise, şeklin orijinal boyutu kullanıp kullanmadığı.|
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose import pycore

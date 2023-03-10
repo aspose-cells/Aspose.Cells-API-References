@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_category_name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_category_name mülk
 
-Belirli bir grafiğin veri etiketi kategori adı görüntüleme davranışını temsil eder. Grafikteki veri etiketleri için kategori adını görüntülemek için True. Gizlemek için False.
+Belirli bir grafiğin veri etiketi kategori adı görüntüleme davranışını temsil eder.Bir grafikteki veri etiketleri için kategori adını görüntülemek için True. Gizlemek için yanlış.
 ###  Tanım:
 ```python
 @property

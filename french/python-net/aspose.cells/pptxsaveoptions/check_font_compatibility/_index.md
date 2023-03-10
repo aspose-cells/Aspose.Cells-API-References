@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_font_compatibility propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ La valeur par défaut est true.
 Désactiver cette propriété peut donner de meilleures performances.
 Mais lorsque la police par défaut ou spécifiée du texte/caractère ne peut pas être utilisée pour le rendre,
 des caractères illisibles (tels que bloc) peuvent apparaître dans le pdf généré.
-Pour de telles situations, l'utilisateur doit conserver cette propriété comme vraie afin que
+Pour une telle situation, l'utilisateur doit conserver cette propriété comme vraie afin que
 une police alternative peut être recherchée et utilisée pour rendre le texte à la place ;
 ###  Définition:
 ```python

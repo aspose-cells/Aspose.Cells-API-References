@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def __init__(self, workbook, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Hangi çalışma kitabının oluşturulacağını belirtin.|
 | options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|

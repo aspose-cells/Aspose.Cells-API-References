@@ -1,4 +1,4 @@
-﻿---
+---
 title: pivot_source mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -16,7 +16,7 @@ PivotSource boş değilse, grafik PivotChart'tır.
 
 Çalışma sayfasındaki pivot tablo "PivotTable1" ise "Book1.xls" dosyasındaki "Sayfa1".
 Grafik ve PivotTable aynı çalışma kitabında değilse, pivotSource "[Kitap1.xls]Sayfa1!PivotTable1" olabilir.
-Bu özelliği ayarlarsanız önceki veri kaynağı ayarı kaybolacaktır.
+Bu özelliği ayarlarsanız, önceki veri kaynağı ayarı kaybolacaktır.
 ###  Tanım:
 ```python
 @property

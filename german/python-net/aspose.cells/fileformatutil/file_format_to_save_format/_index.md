@@ -1,4 +1,4 @@
-﻿---
+---
 title: file_format_to_save_format Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

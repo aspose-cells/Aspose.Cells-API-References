@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_index proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Ottiene o imposta l'indice in base 0 della prima pagina da salvare.
 
 Il valore predefinito è 0.
 
-###  Esempi
+###  Esempio
 
 L'esempio seguente mostra come eseguire il rendering di un intervallo di pagine (3 e 4) in un file Excel Microsoft in PDF.
 

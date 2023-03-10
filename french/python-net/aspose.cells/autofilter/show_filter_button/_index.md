@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_filter_button propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

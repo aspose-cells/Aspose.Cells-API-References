@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoShapeType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -182,8 +182,8 @@ Typen AutoShapeType avslöjar följande medlemmar:
 | TEXT_DEFLATE_BOTTOM | En textform som krymper uppåt i mitten.|
 | TEXT_INFLATE_TOP | En textform som expanderar uppåt i mitten.|
 | TEXT_DEFLATE_TOP | En textform som krymper nedåt i mitten.|
-| TEXT_DEFLATE_INFLATE |En textform där nedre linjer expanderar uppåt. Övre linjer krymper för att kompensera.|
-| TEXT_DEFLATE_INFLATE_DEFLATE | En textform där linjer i mitten expanderar vertikalt. Övre och nedre linjer krymper för att kompensera.|
+| TEXT_DEFLATE_INFLATE |En textform där nedre linjer expanderar uppåt. De övre linjerna krymper för att kompensera.|
+| TEXT_DEFLATE_INFLATE_DEFLATE | En textform där linjer i mitten expanderar vertikalt. De övre och nedre linjerna krymper för att kompensera.|
 | TEXT_FADE_RIGHT | En textform som krymper vertikalt på höger sida.|
 | TEXT_FADE_LEFT | En textform som krymper vertikalt på vänster sida.|
 | TEXT_FADE_UP | En textform som krymper horisontellt ovanpå.|

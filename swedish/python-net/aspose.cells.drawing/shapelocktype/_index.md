@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeLockType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,9 +18,9 @@ Typen ShapeLockType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | GROUP | Grupp|
-| ADJUST_HANDLES | Justera handtag|
+| ADJUST_HANDLES | Justera Handtag|
 | TEXT | Text|
-| POINTS | poäng|
+| POINTS | Poäng|
 | CROP |Beskära|
 | SELECTION | Urval|
 | MOVE | Flytta|

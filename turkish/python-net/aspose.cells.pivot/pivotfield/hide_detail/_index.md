@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_detail yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def hide_detail(self, is_hidden_detail):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | is_hidden_detail | bool | Özet Öğelerin gizli olup olmadığı|
 

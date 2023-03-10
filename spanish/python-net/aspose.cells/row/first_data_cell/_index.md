@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_data_cell propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

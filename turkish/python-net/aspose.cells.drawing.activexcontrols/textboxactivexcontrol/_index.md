@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextBoxActiveXControl sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,8 +25,8 @@ TextBoxActiveXControl türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/workbook) | [ActiveXControlBase.workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook) nesnesini alır.|
 | [type](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/type) | ActiveX denetiminin türünü alır.|
-| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Denetimin genişliğini nokta birimleri cinsinden alır ve ayarlar.|
-| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Denetimin yüksekliğini nokta birimleri cinsinden alır ve ayarlar.|
+| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Denetimin genişliğini nokta birimi cinsinden alır ve ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Kontrolün yüksekliğini puan birimi cinsinden alır ve ayarlar.|
 | [mouse_icon](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_icon) | Denetim için fare işaretçisi olarak görüntülenecek özel bir simge alır ve ayarlar.|
 | [mouse_pointer](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_pointer) | Denetim için fare işaretçisi olarak görüntülenen simge türünü alır ve ayarlar.|
 | [fore_ole_color](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/fore_ole_color) | Ön planın ole rengini alır ve ayarlar.|
@@ -47,7 +47,7 @@ TextBoxActiveXControl türü aşağıdaki üyeleri gösterir:
 | [border_ole_color](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_ole_color) | Arka planın ole rengini alır ve ayarlar.|
 | [special_effect](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/special_effect) | Kontrolün özel efektini alır ve ayarlar.|
 | [max_length](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/max_length) | Maksimum karakter sayısını alır ve ayarlar|
-| [scroll_bars](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Kontrolün dikey kaydırma çubuklarına, yatay kaydırma çubuklarına veya her ikisine birden sahip olup olmadığını veya hiçbirine sahip olmadığını gösterir.|
+| [scroll_bars](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Denetimin dikey kaydırma çubuklarına, yatay kaydırma çubuklarına veya her ikisine birden sahip olup olmadığını veya hiçbirine sahip olmadığını belirtir.|
 | [password_char](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/password_char) | Girilen karakterlerin yerine görüntülenecek bir karakter alır ve ayarlar.|
 | [is_editable](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_editable) | Kullanıcının denetime yazıp yazamayacağını gösterir.|
 | [integral_height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/integral_height) | Kontrolün herhangi bir kısmi satır göstermeden yalnızca metnin tam satırlarını gösterip göstermeyeceğini belirtir.|
@@ -66,7 +66,7 @@ TextBoxActiveXControl türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose import pycore

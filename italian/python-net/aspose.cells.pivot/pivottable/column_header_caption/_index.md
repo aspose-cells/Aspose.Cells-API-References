@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_header_caption proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

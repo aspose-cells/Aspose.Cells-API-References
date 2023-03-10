@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def to_image(self, file_name, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | file_name | str | Le nom du fichier image.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Les choix d'images|
@@ -35,7 +35,7 @@ def to_image(self, stream, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux d'images.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Les options d'images.|

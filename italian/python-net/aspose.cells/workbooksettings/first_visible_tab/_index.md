@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_visible_tab proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

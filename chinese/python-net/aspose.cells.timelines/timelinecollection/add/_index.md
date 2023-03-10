@@ -1,6 +1,6 @@
-﻿---
+---
 title: add方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.timelines/timelinecollection/add/
 is_root: false
 ---
 ##  add(pivot, dest_cell_name, base_field_name) {#aspose.cells.pivot.PivotTable-str-str}
-使用数据透视表作为数据源添加新的时间线
+使用数据透视表作为数据源添加新的时间轴
 
 
 ### 返回
@@ -22,7 +22,7 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |时间轴范围左上角的单元格名称。|
@@ -39,7 +39,7 @@ sheet.timelines.add(pivot, "i15", "date")
 
 
 ##  add(pivot, dest_cell_name, base_field_index) {#aspose.cells.pivot.PivotTable-str-int}
-使用数据透视表作为数据源添加新的时间线
+使用数据透视表作为数据源添加新的时间轴
 
 
 ### 返回
@@ -53,7 +53,7 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |时间轴范围左上角的单元格名称。|
@@ -70,7 +70,7 @@ sheet.timelines.add(pivot, "i5", 1)
 
 
 ##  add(pivot, dest_cell_name, base_field) {#aspose.cells.pivot.PivotTable-str-aspose.cells.pivot.PivotField}
-使用数据透视表作为数据源添加新的时间线
+使用数据透视表作为数据源添加新的时间轴
 
 
 ### 返回
@@ -84,7 +84,7 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |时间轴范围左上角的单元格名称。|
@@ -101,7 +101,7 @@ sheet.timelines.add(pivot, "i10", pivot.base_fields[1])
 
 
 ##  add(pivot, row, column, base_field_name) {#aspose.cells.pivot.PivotTable-int-int-str}
-使用数据透视表作为数据源添加新的时间线
+使用数据透视表作为数据源添加新的时间轴
 
 
 ### 返回
@@ -115,7 +115,7 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |时间轴范围左上角单元格的行索引。|
@@ -133,7 +133,7 @@ sheet.timelines.add(pivot, 10, 5, "date")
 
 
 ##  add(pivot, row, column, base_field_index) {#aspose.cells.pivot.PivotTable-int-int-int}
-使用数据透视表作为数据源添加新的时间线
+使用数据透视表作为数据源添加新的时间轴
 
 
 ### 返回
@@ -147,7 +147,7 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |时间轴范围左上角单元格的行索引。|
@@ -165,7 +165,7 @@ sheet.timelines.add(pivot, 15, 5, 1)
 
 
 ##  add(pivot, row, column, base_field) {#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField}
-使用数据透视表作为数据源添加新的时间线
+使用数据透视表作为数据源添加新的时间轴
 
 
 ### 返回
@@ -179,7 +179,7 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |时间轴范围左上角单元格的行索引。|

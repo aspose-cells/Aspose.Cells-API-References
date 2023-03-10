@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsHelper الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -39,7 +39,7 @@ is_root: false
 | [column_name_to_index(column_name)](/cells/ar/python-net/aspose.cells/cellshelper/column_name_to_index/#str) |يحصل على فهرس العمود وفقًا لاسم العمود.|
 | [row_index_to_name(row)](/cells/ar/python-net/aspose.cells/cellshelper/row_index_to_name/#int) | يحصل على اسم الصف وفقا لفهرس الصف.|
 | [row_name_to_index(row_name)](/cells/ar/python-net/aspose.cells/cellshelper/row_name_to_index/#str) | يحصل على فهرس الصف وفقا لاسم الصف.|
-| [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/ar/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | لتحويل صيغة r1c1 للخلية إلى صيغة A1.|
+| [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/ar/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | تحويل صيغة r1c1 للخلية إلى صيغة A1.|
 | [convert_a1_formula_to_r1c1(formula, row, column)](/cells/ar/python-net/aspose.cells/cellshelper/convert_a1_formula_to_r1c1/#str-int-int) | يحول صيغة A1 للخلية إلى صيغة r1c1.|
 | [get_date_time_from_double(double_value, date1904)](/cells/ar/python-net/aspose.cells/cellshelper/get_date_time_from_double/#float-bool) | تحويل القيمة المزدوجة إلى قيمة وقت التاريخ.|
 | [get_double_from_date_time(date_time, date1904)](/cells/ar/python-net/aspose.cells/cellshelper/get_double_from_date_time/#DateTime-bool) | تحويل وقت التاريخ إلى قيمة مضاعفة.|

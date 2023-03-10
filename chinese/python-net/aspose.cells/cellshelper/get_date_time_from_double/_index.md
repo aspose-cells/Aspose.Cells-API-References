@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_date_time_from_double方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 100
@@ -22,7 +22,7 @@ def get_date_time_from_double(self, double_value, date1904):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | double_value | float |双重价值。|
 | date1904 | bool |日期 1904 系统。|

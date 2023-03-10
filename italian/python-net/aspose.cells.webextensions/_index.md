@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,10 +18,10 @@ is_root: false
 | [WebExtensionCollection](/cells/it/python-net/aspose.cells.webextensions/webextensioncollection) | Rappresenta l'elenco delle estensioni web.|
 | [WebExtensionProperty](/cells/it/python-net/aspose.cells.webextensions/webextensionproperty) | Rappresenta una proprietà personalizzata del componente aggiuntivo per Office.|
 | [WebExtensionPropertyCollection](/cells/it/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Rappresenta l'elenco delle proprietà dell'estensione web.|
-| [WebExtensionReference](/cells/it/python-net/aspose.cells.webextensions/webextensionreference) | Rappresenta identifica la posizione del provider e la versione dell'estensione.|
-| [WebExtensionReferenceCollection](/cells/it/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Rappresenta l'elenco dei riferimenti alle estensioni Web.|
+| [WebExtensionReference](/cells/it/python-net/aspose.cells.webextensions/webextensionreference) | Rappresenta identificare la posizione del provider e la versione dell'estensione.|
+| [WebExtensionReferenceCollection](/cells/it/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Rappresenta l'elenco dei riferimenti dell'estensione web.|
 | [WebExtensionTaskPane](/cells/it/python-net/aspose.cells.webextensions/webextensiontaskpane) | Rappresenta un oggetto taskpane persistente.|
-| [WebExtensionTaskPaneCollection](/cells/it/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Rappresenta l'elenco dei riquadri attività.|
+| [WebExtensionTaskPaneCollection](/cells/it/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Rappresenta l'elenco del riquadro delle attività.|
 
 
 ###  Enumerazioni

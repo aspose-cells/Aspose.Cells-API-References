@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -26,7 +26,7 @@ Typen DataSorter avslöjar följande medlemmar:
 | [key3](/cells/sv/python-net/aspose.cells/datasorter/key3) | Representerar tredje sorterade kolumnindex (absolut position, kolumn A är 0, B är 1, ...).|
 | [order3](/cells/sv/python-net/aspose.cells/datasorter/order3) | Representerar sorteringsordningen för den tredje nyckeln.|
 | [sort_left_to_right](/cells/sv/python-net/aspose.cells/datasorter/sort_left_to_right) | Sant betyder att sorteringsorienteringen är från vänster till höger.<br/>Falskt betyder att sorteringsorienteringen är från topp till botten.<br/> Standardvärdet är falskt.|
-| [case_sensitive](/cells/sv/python-net/aspose.cells/datasorter/case_sensitive) | Hämtar och ställer in om skiftlägeskänslighet vid jämförelse av strängar.|
+| [case_sensitive](/cells/sv/python-net/aspose.cells/datasorter/case_sensitive) | Hämtar och ställer in om skiftlägeskänslighet vid jämförelse av sträng.|
 | [sort_as_number](/cells/sv/python-net/aspose.cells/datasorter/sort_as_number) | Anger om något som ser ut som ett nummer sorteras.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_index недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index недвижимость
 
-Получает и задает индекс цвета в цветовой палитре.
+Получает и задает индекс цвета в цветовой палитре. Применяется только к индексированному цвету.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_tiff Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -38,9 +38,9 @@ def to_tiff(self, filename):
 | :- | :- | :- |
 | filename | str | der Dateiname des Ausgabebildes|
 
-###  Beispiele
+###  Beispiel
 
-Der folgende Code gibt alle Seiten des ersten Blatts in ein TIFF-Bild aus.
+Der folgende Code gibt alle Seiten des ersten Blatts als TIFF-Bild aus.
 
 ```python
 from aspose.cells import SaveFormat, Workbook

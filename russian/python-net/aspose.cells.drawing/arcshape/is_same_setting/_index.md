@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_same_setting метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/arcshape/is_same_setting/
 is_root: false
 ---
 ##  is_same_setting(obj) {#any}
-Возвращает, является ли форма такой же.
+Возвращает, совпадает ли форма.
 
 
 ###  Возвращает
@@ -22,11 +22,11 @@ def is_same_setting(self, obj):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | obj | any |  |
 
-###  Примеры
+###  Пример
 
 ```python
 

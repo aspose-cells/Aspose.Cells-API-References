@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_equation propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indique si la forme contient uniquement une équation.
 
-###  Exemples
+###  Exemple
 
 ```python
 

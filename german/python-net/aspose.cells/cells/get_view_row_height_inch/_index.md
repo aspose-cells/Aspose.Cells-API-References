@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_view_row_height_inch Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/get_view_row_height_inch/
 is_root: false
 ---
 ##  get_view_row_height_inch(row) {#int}
-Ruft die Höhe einer angegebenen Zeile in Einheiten von Zoll ab.
+Ruft die Höhe einer angegebenen Zeile in Zoll ab.
 
 
 ###  Kehrt zurück

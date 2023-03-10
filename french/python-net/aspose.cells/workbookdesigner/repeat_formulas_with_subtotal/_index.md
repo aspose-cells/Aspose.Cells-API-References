@@ -1,4 +1,4 @@
-﻿---
+---
 title: repeat_formulas_with_subtotal propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  repeat_formulas_with_subtotal propriété
 
-Indique s'il faut répéter des formules avec des lignes de sous-totaux.
+Indique s'il faut répéter des formules avec une ligne de sous-total.
 ###  Définition:
 ```python
 @property

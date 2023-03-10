@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabels класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -29,7 +29,7 @@ is_root: false
 | [text_font](/cells/ru/python-net/aspose.cells.charts/datalabels/text_font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
 | [text_options](/cells/ru/python-net/aspose.cells.charts/datalabels/text_options) | Получает и задает параметры текста.|
 | [font](/cells/ru/python-net/aspose.cells.charts/datalabels/font) | Получает шрифт DataLabels;|
-| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/datalabels/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта.|
+| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/datalabels/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию верно.|
 | [background_mode](/cells/ru/python-net/aspose.cells.charts/datalabels/background_mode) | Получает и задает режим отображения фона|
 | [background](/cells/ru/python-net/aspose.cells.charts/datalabels/background) | Получает и задает режим отображения фона|
 | [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/datalabels/is_automatic_size) | Указывает, имеет ли рамка диаграммы автоматический размер.|
@@ -45,7 +45,7 @@ is_root: false
 | [default_width](/cells/ru/python-net/aspose.cells.charts/datalabels/default_width) | Представляет ширину положения по умолчанию|
 | [default_height](/cells/ru/python-net/aspose.cells.charts/datalabels/default_height) | Представляет высоту позиции по умолчанию|
 | [is_auto_text](/cells/ru/python-net/aspose.cells.charts/datalabels/is_auto_text) | Указывает, что текст генерируется автоматически.|
-| [is_deleted](/cells/ru/python-net/aspose.cells.charts/datalabels/is_deleted) | Указывает, удалена ли эта метка данных.|
+| [is_deleted](/cells/ru/python-net/aspose.cells.charts/datalabels/is_deleted) | Указывает, удалены ли эти метки данных.|
 | [text_horizontal_alignment](/cells/ru/python-net/aspose.cells.charts/datalabels/text_horizontal_alignment) | Получает и задает выравнивание текста по горизонтали.|
 | [text_vertical_alignment](/cells/ru/python-net/aspose.cells.charts/datalabels/text_vertical_alignment) |Получает или задает выравнивание текста по вертикали.|
 | [rotation_angle](/cells/ru/python-net/aspose.cells.charts/datalabels/rotation_angle) | Представляет угол поворота текста.|
@@ -56,13 +56,13 @@ is_root: false
 | [reading_order](/cells/ru/python-net/aspose.cells.charts/datalabels/reading_order) | Представляет порядок чтения текста.|
 | [direction_type](/cells/ru/python-net/aspose.cells.charts/datalabels/direction_type) | Получает и задает направление текста.|
 | [is_text_wrapped](/cells/ru/python-net/aspose.cells.charts/datalabels/is_text_wrapped) | Получает или задает значение, указывающее, переносится ли текст.|
-| [is_resize_shape_to_fit_text](/cells/ru/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | Получает или задает значение, указывающее, должна ли фигура автоматически подбираться, чтобы полностью содержать описанный в ней текст.<br/> когда текст внутри фигуры масштабируется, чтобы содержать весь текст внутри.|
-| [show_value](/cells/ru/python-net/aspose.cells.charts/datalabels/show_value) | Представляет поведение отображения значений метки данных указанной диаграммы. True отображает значения. False, чтобы скрыть.|
+| [is_resize_shape_to_fit_text](/cells/ru/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | Получает или задает значение, указывающее, должна ли фигура автоматически подбираться, чтобы полностью содержать описанный в ней текст. Автоподгонка есть<br/> когда текст внутри фигуры масштабируется, чтобы содержать весь текст внутри.|
+| [show_value](/cells/ru/python-net/aspose.cells.charts/datalabels/show_value) | Представляет поведение отображения значений меток данных указанной диаграммы. True отображает значения. Ложь скрывать.|
 | [show_cell_range](/cells/ru/python-net/aspose.cells.charts/datalabels/show_cell_range) | Указывает, отображается ли диапазон ячеек в качестве меток данных.|
-| [show_percentage](/cells/ru/python-net/aspose.cells.charts/datalabels/show_percentage) | Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. False, чтобы скрыть.|
-| [show_bubble_size](/cells/ru/python-net/aspose.cells.charts/datalabels/show_bubble_size) | Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. False, чтобы скрыть.|
-| [show_category_name](/cells/ru/python-net/aspose.cells.charts/datalabels/show_category_name) | Представляет поведение отображения имени категории меток данных указанной диаграммы. Значение true, чтобы отобразить имя категории для меток данных на диаграмме. значение False, чтобы скрыть.|
-| [show_series_name](/cells/ru/python-net/aspose.cells.charts/datalabels/show_series_name) | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме.<br/>True, чтобы показать название серии. False, чтобы скрыть.|
+| [show_percentage](/cells/ru/python-net/aspose.cells.charts/datalabels/show_percentage) | Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать.|
+| [show_bubble_size](/cells/ru/python-net/aspose.cells.charts/datalabels/show_bubble_size) | Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать.|
+| [show_category_name](/cells/ru/python-net/aspose.cells.charts/datalabels/show_category_name) | Представляет поведение отображения имени категории меток данных указанной диаграммы. Значение true, чтобы отобразить имя категории для меток данных на диаграмме. Ложь скрывать.|
+| [show_series_name](/cells/ru/python-net/aspose.cells.charts/datalabels/show_series_name) | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме.<br/>Значение true, чтобы показать название серии. Ложь скрывать.|
 | [show_legend_key](/cells/ru/python-net/aspose.cells.charts/datalabels/show_legend_key) | Представляет поведение отображения ключа легенды метки данных указанной диаграммы.<br/> Истинно, если ключ легенды метки данных виден.|
 | [number_format](/cells/ru/python-net/aspose.cells.charts/datalabels/number_format) | Представляет строку формата для объекта DataLabels.|
 | [number](/cells/ru/python-net/aspose.cells.charts/datalabels/number) | Получает и задает встроенный числовой формат.|
@@ -71,7 +71,7 @@ is_root: false
 | [separator_type](/cells/ru/python-net/aspose.cells.charts/datalabels/separator_type) | Получает или задает тип разделителя, используемый для меток данных на диаграмме.|
 | [separator_value](/cells/ru/python-net/aspose.cells.charts/datalabels/separator_value) | Получает или задает значение разделителя, используемое для меток данных на диаграмме.|
 | [position](/cells/ru/python-net/aspose.cells.charts/datalabels/position) | Представляет положение метки данных.|
-| [is_never_overlap](/cells/ru/python-net/aspose.cells.charts/datalabels/is_never_overlap) | Указывает, не перекрываются ли отображаемые метки данных (для круговой диаграммы).|
+| [is_never_overlap](/cells/ru/python-net/aspose.cells.charts/datalabels/is_never_overlap) | Указывает, не перекрываются ли отображаемые метки данных. (Для круговой диаграммы)|
 | [shape_type](/cells/ru/python-net/aspose.cells.charts/datalabels/shape_type) | Получает или задает тип формы метки данных.|
 
 
@@ -83,7 +83,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

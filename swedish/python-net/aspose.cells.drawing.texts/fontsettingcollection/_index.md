@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSettingCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -41,7 +41,7 @@ Typen FontSettingCollection avslöjar följande medlemmar:
 | [append_text(text)](/cells/sv/python-net/aspose.cells.drawing.texts/fontsettingcollection/append_text/#str) | Lägger till texten.|
 | [insert_text(index, text)](/cells/sv/python-net/aspose.cells.drawing.texts/fontsettingcollection/insert_text/#int-str) | Infoga index vid positionen.|
 | [delete_text(index, count)](/cells/sv/python-net/aspose.cells.drawing.texts/fontsettingcollection/delete_text/#int-int) | Ta bort några tecken.|
-| [format(start_index, length, font, flag)](/cells/sv/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Formatera texten med teckensnittsinställningar.|
+| [format(start_index, length, font, flag)](/cells/sv/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Formatera texten med teckensnittsinställning.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells.drawing.texts/fontsettingcollection/binary_search/#FontSetting) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: recalculate_before_save propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Indica si se debe volver a calcular antes de guardar el documento.
 
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto.
+NOTA: Este miembro ahora está obsoleto. En su lugar, utilice FormulaSettings.CalculateOnSave.
  Esta propiedad se eliminará 12 meses después desde febrero de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

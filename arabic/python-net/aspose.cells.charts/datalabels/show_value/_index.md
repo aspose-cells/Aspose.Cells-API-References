@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_value الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value الملكية
 
-يمثل سلوك عرض قيم تسمية بيانات المخطط المحدد. صحيح يعرض القيم. خطأ للإخفاء.
+يمثل سلوك عرض قيم تسمية بيانات المخطط المحدد. يعرض صحيح القيم. خطأ للاختباء.
 ###  تعريف:
 ```python
 @property

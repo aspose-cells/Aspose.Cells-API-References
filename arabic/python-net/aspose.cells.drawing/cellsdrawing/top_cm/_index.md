@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_cm الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_cm الملكية
 
-يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات السنتيمتر.
+يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة سنتيمترات.
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleted proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted proprietà
 
-Indica se le celle di input vengono eliminate.
+Indica se la cella di input viene eliminata.
 ###  Definizione:
 ```python
 @property

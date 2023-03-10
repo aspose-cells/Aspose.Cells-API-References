@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsHelper klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -36,10 +36,10 @@ Typen CellsHelper avslöjar följande medlemmar:
 | [cell_name_to_index(cell_name, row, column)](/cells/sv/python-net/aspose.cells/cellshelper/cell_name_to_index/#str-any-any) | Hämtar cellrads- och kolumnindex enligt dess namn.|
 | [cell_index_to_name(row, column)](/cells/sv/python-net/aspose.cells/cellshelper/cell_index_to_name/#int-int) | Hämtar cellnamn enligt dess rad- och kolumnindex.|
 | [column_index_to_name(column)](/cells/sv/python-net/aspose.cells/cellshelper/column_index_to_name/#int) | Hämtar kolumnnamn enligt kolumnindex.|
-| [column_name_to_index(column_name)](/cells/sv/python-net/aspose.cells/cellshelper/column_name_to_index/#str) |Hämtar kolumnindex enligt kolumnnamn.|
+| [column_name_to_index(column_name)](/cells/sv/python-net/aspose.cells/cellshelper/column_name_to_index/#str) |Får kolumnindex enligt kolumnnamn.|
 | [row_index_to_name(row)](/cells/sv/python-net/aspose.cells/cellshelper/row_index_to_name/#int) | Hämtar radnamn enligt radindex.|
 | [row_name_to_index(row_name)](/cells/sv/python-net/aspose.cells/cellshelper/row_name_to_index/#str) | Får radindex enligt radnamn.|
-| [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/sv/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | Konverterar cellens r1c1-formel till A1-formeln.|
+| [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/sv/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | Konverterar cellens r1c1-formel till A1-formel.|
 | [convert_a1_formula_to_r1c1(formula, row, column)](/cells/sv/python-net/aspose.cells/cellshelper/convert_a1_formula_to_r1c1/#str-int-int) | Konverterar A1-formeln för cellen till r1c1-formeln.|
 | [get_date_time_from_double(double_value, date1904)](/cells/sv/python-net/aspose.cells/cellshelper/get_date_time_from_double/#float-bool) | Konvertera det dubbla värdet till datum och tid.|
 | [get_double_from_date_time(date_time, date1904)](/cells/sv/python-net/aspose.cells/cellshelper/get_double_from_date_time/#DateTime-bool) | Konvertera datum och tid till dubbelt värde.|

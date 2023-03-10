@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_text_of_column_labels
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_formulas
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/remove_formulas/
 is_root: false
 ---
 ##  remove_formulas() {#}
-يزيل كل الصيغ ويستبدل بقيمة الصيغة.
+يزيل كل الصيغة ويستبدل بقيمة الصيغة.
 
 
 

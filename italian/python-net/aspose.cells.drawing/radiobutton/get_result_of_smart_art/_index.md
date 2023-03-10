@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_result_of_smart_art
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ def get_result_of_smart_art(self):
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 

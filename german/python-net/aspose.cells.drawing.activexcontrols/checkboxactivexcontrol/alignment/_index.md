@@ -1,4 +1,4 @@
-﻿---
+---
 title: alignment Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  alignment Eigentum
 
-Ruft die Position der Caption relativ zum Steuerelement ab und legt diese fest.
+Ruft die Position der Caption relativ zum Steuerelement ab und legt sie fest.
 ###  Definition:
 ```python
 @property

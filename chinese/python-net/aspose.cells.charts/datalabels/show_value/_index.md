@@ -1,6 +1,6 @@
-﻿---
+---
 title: show_value 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 450
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## show_value 属性
 
-代表指定图表的数据标签数值显示行为。True显示数值。False隐藏。
+表示指定图表的数据标签值显示行为。 True 显示值。假以掩饰。
 ### 定义：
 ```python
 @property

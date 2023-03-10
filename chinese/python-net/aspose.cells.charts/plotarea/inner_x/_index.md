@@ -1,6 +1,6 @@
-﻿---
+---
 title: inner_x 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 170
@@ -18,12 +18,12 @@ is_root: false
 
 
 这**X** , **Y** , **宽度**和**高度**的**绘图区**代表地块面积
-一个边界框，包括绘图区域、刻度线（刻度标签）和刻度线周围的小边框。
-如果你想获得绘图区域的实际大小，你应该调用**内X** , **内 Y** , **内宽**和
+边界框，包括绘图区域、刻度线（刻度标签）和刻度线周围的小边框。
+如果你想获得绘图区域的实际大小，你应该调用**内X** , **内Y** , **内宽**和
 **内部高度**特性。
 
 
-对于 excel 2007 或更高版本，默认值为零。
+对于 excel 2007 或更高版本，默认值为零。您应该在调用 Chart.Calculate() 之后调用获取值。
 ### 定义：
 ```python
 @property

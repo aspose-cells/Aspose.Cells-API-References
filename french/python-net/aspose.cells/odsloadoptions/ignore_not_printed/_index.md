@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_not_printed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Ignorer les données qui ne sont pas imprimées en cas d'impression directe du f
 
 ###  Remarques
 
-Uniquement pour les fichiers xlsx.
+Uniquement pour le fichier xlsx.
 ###  Définition:
 ```python
 @property

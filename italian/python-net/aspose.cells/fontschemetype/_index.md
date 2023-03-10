@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSchemeType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/fontschemetype/
 is_root: false
 ---
 ##  FontSchemeType enumerazione
-Rappresenta il tipo di schema del font.
+Rappresenta il tipo di schema del carattere.
 
 
 

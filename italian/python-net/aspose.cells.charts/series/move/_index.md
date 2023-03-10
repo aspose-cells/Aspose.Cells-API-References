@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo move
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def move(self, count):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | count | int | Il numero di movimento verso l'alto o verso il basso.<br/>Sposta la serie verso l'alto se questo è minore di zero;<br/> Sposta la serie verso il basso se è maggiore di zero.|
 

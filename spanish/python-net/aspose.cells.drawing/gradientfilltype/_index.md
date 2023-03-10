@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientFillType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  GradientFillType enumeración
-Representa todos los tipos de relleno degradado.
+Representa todos los tipos de relleno de degradado.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_even_header
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def get_even_header(self, section):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 

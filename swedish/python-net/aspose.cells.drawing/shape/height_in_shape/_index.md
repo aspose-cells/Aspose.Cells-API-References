@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_in_shape fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Representerar den vertikala förskjutningen av formen från den övre kanten av 
 
 ###  Anmärkningar
 
-Gäller endast när denna form finns i gruppen eller diagrammet.
+Gäller endast när denna form i gruppen eller diagrammet.
 
 ###  Exempel
 

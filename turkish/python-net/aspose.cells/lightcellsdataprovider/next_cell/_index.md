@@ -1,4 +1,4 @@
-﻿---
+---
 title: next_cell yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Kaydedilecek bir sonraki hücreyi alır.
 
 ###  İadeler
 
--1, geçerli satır verilerinin sonuna ulaşıldığı ve geçerli satırın kaydedilecek başka hücresi olmadığı anlamına gelir.
+kaydedilecek bir sonraki hücrenin sütun dizini. -1, geçerli satır verilerinin sonuna ulaşıldığı ve geçerli satırın kaydedilecek başka hücresi olmadığı anlamına gelir.
 
 
 ```python

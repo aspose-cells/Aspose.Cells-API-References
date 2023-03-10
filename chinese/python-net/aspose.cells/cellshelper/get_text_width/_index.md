@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_text_width方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 120
@@ -22,7 +22,7 @@ def get_text_width(self, text, font, scaling):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | text | str |文本。|
 | font | [Font](/cells/zh/python-net/aspose.cells/font) |文本的字体。|

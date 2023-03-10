@@ -1,4 +1,4 @@
-﻿---
+---
 title: note الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note الملكية
 
-يمثل محتوى التعليقات.
+يمثل محتوى التعليق.
 
 ###  ملاحظات
 
 إذا كان هذا تعليقًا مترابطًا ، فلا يمكن تغيير note ، وإلا فلن يتمكن MS Excel من معالجته كتعليق مترابط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

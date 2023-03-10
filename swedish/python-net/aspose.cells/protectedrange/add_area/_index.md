@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_area metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def add_area(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Startraden.|
 | start_column | int | Startkolumnen.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_sparklines Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline
 is_root: false
 ---
 ##  clear_sparklines(cell_area) {#CellArea}
-Löscht die Sparklines, die sich innerhalb eines Bereichs von Zellen befinden.
+Löscht die Sparklines innerhalb eines Zellbereichs.
 
 
 

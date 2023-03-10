@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_name | str | Le nom de PivotField dans PivotTable.BaseFields|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -52,13 +52,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_index | int | L'index de PivotField dans PivotTable.BaseFields|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -82,13 +82,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field | aspose.cells.pivot.PivotField | Le champ croisé dynamique dans PivotTable.BaseFields|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -112,13 +112,13 @@ def add(self, table, index, dest_cell_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | Objet ListObject|
 | index | int | L'index de ListColumn dans ListObject.ListColumns|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -142,13 +142,13 @@ def add(self, table, list_column, dest_cell_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | Objet ListObject|
 | list_column | aspose.cells.tables.ListColumn | La ListColumn dans ListObject.ListColumns|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -172,14 +172,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_name | str | Le nom de PivotField dans PivotTable.BaseFields|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -203,14 +203,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_index | int | L'index de PivotField dans PivotTable.BaseFields|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -234,14 +234,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field | aspose.cells.pivot.PivotField | Le champ croisé dynamique dans PivotTable.BaseFields|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -265,14 +265,14 @@ def add(self, table, list_column, row, column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | Objet ListObject|
 | list_column | aspose.cells.tables.ListColumn | La ListColumn dans ListObject.ListColumns|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 
-###  Exemples
+###  Exemple
 
 ```python
 

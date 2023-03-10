@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectionType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,7 +23,7 @@ Typen ProtectionType avslöjar följande medlemmar:
 | SCENARIOS | Representerar för att skydda scenarier, som används i kalkylbladsskydd.|
 | STRUCTURE | Representerar för att skydda struktur, används i arbetsboksskydd.|
 | WINDOWS | Representerar för att skydda fönster, används i arbetsboksskydd.|
-| NONE | Representerar inget skydd. Endast för läsegendom.|
+| NONE | Representerar inget skydd. Endast för läsfastigheter.|
 
 
 

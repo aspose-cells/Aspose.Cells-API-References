@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellFieldType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.ods/odscellfieldtype/
 is_root: false
 ---
 ##  OdsCellFieldType перечисление
-Представляет тип поля ячейки шансов.
+Представляет тип поля ячейки ods.
 
 
 

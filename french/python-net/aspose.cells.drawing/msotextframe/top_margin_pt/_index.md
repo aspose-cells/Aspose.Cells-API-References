@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_pt propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_pt propriété
 
-Renvoie la marge supérieure en unités de points
+Renvoie la marge supérieure en unité de points
 ###  Définition:
 ```python
 @property

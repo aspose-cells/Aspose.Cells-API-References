@@ -1,4 +1,4 @@
-﻿---
+---
 title: SelectionType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/selectiontype/
 is_root: false
 ---
 ##  SelectionType uppräkning
-Val av listruta.
+Valet av listruta.
 
 
 
@@ -17,7 +17,7 @@ Typen SelectionType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| SINGLE | Enstaka urvalstyp.|
+| SINGLE | Sigle urvalstyp.|
 | MULTI |Flervalstyp.|
 | EXTEND | Utöka urvalstyp.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_row_height
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_row_height(self, row, height):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Indice di riga.|
 | height | float | Altezza della riga.In unità di punto Dovrebbe essere compresa tra 0 e 409,5.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_formula
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_formula(self, is_r1c1, is_local):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | is_r1c1 | bool | Se la formula deve essere formattata come R1C1.|
 | is_local | bool | Se la formula deve essere formattata in base alle impostazioni locali.|

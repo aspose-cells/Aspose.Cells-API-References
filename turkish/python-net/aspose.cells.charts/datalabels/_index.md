@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabels sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -29,7 +29,7 @@ DataLabels türü aşağıdaki üyeleri gösterir:
 | [text_font](/cells/tr/python-net/aspose.cells.charts/datalabels/text_font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
 | [text_options](/cells/tr/python-net/aspose.cells.charts/datalabels/text_options) | Metnin seçeneklerini alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.charts/datalabels/font) | DataLabels'in yazı tipini alır;|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/datalabels/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/datalabels/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/datalabels/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/datalabels/background) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/datalabels/is_automatic_size) | Grafik çerçevesinin otomatik boyutlandırılıp boyutlandırılmadığını gösterir.|
@@ -45,7 +45,7 @@ DataLabels türü aşağıdaki üyeleri gösterir:
 | [default_width](/cells/tr/python-net/aspose.cells.charts/datalabels/default_width) | Varsayılan konumun genişliğini temsil eder|
 | [default_height](/cells/tr/python-net/aspose.cells.charts/datalabels/default_height) | Varsayılan konumun yüksekliğini temsil eder|
 | [is_auto_text](/cells/tr/python-net/aspose.cells.charts/datalabels/is_auto_text) | Metnin otomatik olarak oluşturulduğunu gösterir.|
-| [is_deleted](/cells/tr/python-net/aspose.cells.charts/datalabels/is_deleted) | Bu veri etiketinin silinip silinmediğini gösterir.|
+| [is_deleted](/cells/tr/python-net/aspose.cells.charts/datalabels/is_deleted) | Bu veri etiketlerinin silinip silinmediğini gösterir.|
 | [text_horizontal_alignment](/cells/tr/python-net/aspose.cells.charts/datalabels/text_horizontal_alignment) | Metin yatay hizalamasını alır ve ayarlar.|
 | [text_vertical_alignment](/cells/tr/python-net/aspose.cells.charts/datalabels/text_vertical_alignment) |Metnin dikey hizalamasını alır veya ayarlar.|
 | [rotation_angle](/cells/tr/python-net/aspose.cells.charts/datalabels/rotation_angle) | Metin döndürme açısını temsil eder.|
@@ -56,13 +56,13 @@ DataLabels türü aşağıdaki üyeleri gösterir:
 | [reading_order](/cells/tr/python-net/aspose.cells.charts/datalabels/reading_order) | Metin okuma sırasını temsil eder.|
 | [direction_type](/cells/tr/python-net/aspose.cells.charts/datalabels/direction_type) | Metnin yönünü alır ve ayarlar.|
 | [is_text_wrapped](/cells/tr/python-net/aspose.cells.charts/datalabels/is_text_wrapped) | Metnin kaydırılıp kaydırılmadığını gösteren bir değer alır veya ayarlar.|
-| [is_resize_shape_to_fit_text](/cells/tr/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar.<br/> şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.|
-| [show_value](/cells/tr/python-net/aspose.cells.charts/datalabels/show_value) | Belirli bir grafiğin veri etiketi değerlerini görüntüleme davranışını temsil eder.True değerleri görüntüler.False gizlemek için.|
+| [is_resize_shape_to_fit_text](/cells/tr/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar. Otomatik sığdırma:<br/> şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.|
+| [show_value](/cells/tr/python-net/aspose.cells.charts/datalabels/show_value) | Belirtilen bir grafiğin veri etiketi değerlerinin görüntülenme davranışını temsil eder. True değerleri görüntüler. Gizlemek için yanlış.|
 | [show_cell_range](/cells/tr/python-net/aspose.cells.charts/datalabels/show_cell_range) | Veri etiketleri olarak hücre aralığının gösterilip gösterilmediğini belirtir.|
-| [show_percentage](/cells/tr/python-net/aspose.cells.charts/datalabels/show_percentage) | Belirli bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. False gizlenecek.|
-| [show_bubble_size](/cells/tr/python-net/aspose.cells.charts/datalabels/show_bubble_size) | Belirli bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. False gizlenecek.|
-| [show_category_name](/cells/tr/python-net/aspose.cells.charts/datalabels/show_category_name) | Belirli bir grafiğin veri etiketi kategori adı görüntüleme davranışını temsil eder. Grafikteki veri etiketleri için kategori adını görüntülemek için True. Gizlemek için False.|
-| [show_series_name](/cells/tr/python-net/aspose.cells.charts/datalabels/show_series_name) | Bir grafikteki veri etiketleri için seri adı görüntüleme davranışını belirtmek üzere bir Boole değeri döndürür veya ayarlar.<br/>Seri adını göstermek için true, gizlemek için false.|
+| [show_percentage](/cells/tr/python-net/aspose.cells.charts/datalabels/show_percentage) | Belirtilen bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. Gizlemek için yanlış.|
+| [show_bubble_size](/cells/tr/python-net/aspose.cells.charts/datalabels/show_bubble_size) | Belirtilen bir grafiğin veri etiketi yüzde değeri görüntüleme davranışını temsil eder. True, yüzde değerini görüntüler. Gizlemek için yanlış.|
+| [show_category_name](/cells/tr/python-net/aspose.cells.charts/datalabels/show_category_name) | Belirli bir grafiğin veri etiketi kategori adı görüntüleme davranışını temsil eder.Bir grafikteki veri etiketleri için kategori adını görüntülemek için True. Gizlemek için yanlış.|
+| [show_series_name](/cells/tr/python-net/aspose.cells.charts/datalabels/show_series_name) | Bir grafikteki veri etiketleri için seri adı görüntüleme davranışını belirtmek üzere bir Boole değeri döndürür veya ayarlar.<br/>Seri adını göstermek için doğru. Gizlemek için yanlış.|
 | [show_legend_key](/cells/tr/python-net/aspose.cells.charts/datalabels/show_legend_key) | Belirtilen bir grafiğin veri etiketi açıklama anahtarı görüntüleme davranışını temsil eder.<br/> Veri etiketi gösterge anahtarı görünüyorsa doğrudur.|
 | [number_format](/cells/tr/python-net/aspose.cells.charts/datalabels/number_format) | DataLabels nesnesi için biçim dizesini temsil eder.|
 | [number](/cells/tr/python-net/aspose.cells.charts/datalabels/number) | Yerleşik sayı biçimini alır ve ayarlar.|
@@ -71,7 +71,7 @@ DataLabels türü aşağıdaki üyeleri gösterir:
 | [separator_type](/cells/tr/python-net/aspose.cells.charts/datalabels/separator_type) | Grafikteki veri etiketleri için kullanılan ayırıcı türünü alır veya ayarlar.|
 | [separator_value](/cells/tr/python-net/aspose.cells.charts/datalabels/separator_value) | Grafikteki veri etiketleri için kullanılan ayırıcı değeri alır veya ayarlar.|
 | [position](/cells/tr/python-net/aspose.cells.charts/datalabels/position) | Veri etiketinin konumunu temsil eder.|
-| [is_never_overlap](/cells/tr/python-net/aspose.cells.charts/datalabels/is_never_overlap) | Veri etiketlerinin ekranının hiçbir zaman çakışıp çakışmadığını gösterir (Pasta grafik için)|
+| [is_never_overlap](/cells/tr/python-net/aspose.cells.charts/datalabels/is_never_overlap) | Veri etiketlerinin ekranının hiçbir zaman çakışıp çakışmadığını gösterir. (Pasta grafiği için)|
 | [shape_type](/cells/tr/python-net/aspose.cells.charts/datalabels/shape_type) | Veri etiketinin şekil türünü alır veya ayarlar.|
 
 
@@ -83,7 +83,7 @@ DataLabels türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

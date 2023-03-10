@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_overflow proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di overflow orizzontale del testo della forma che contiene il testo.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import TextOverflowType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: HeaderFooterCommand klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen HeaderFooterCommand avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [type](/cells/sv/python-net/aspose.cells/headerfootercommand/type) | Hämtar kommandotypen sidhuvud/sidfot.|
+| [type](/cells/sv/python-net/aspose.cells/headerfootercommand/type) | Hämtar kommandotypen sidhuvud/sidfot .|
 | [font](/cells/sv/python-net/aspose.cells/headerfootercommand/font) | Hämtar teckensnittet för kommandots värde.|
 | [text](/cells/sv/python-net/aspose.cells/headerfootercommand/text) | Hämtar texten till kommandot.|
 

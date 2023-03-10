@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_group_box metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_group_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av GroupBox från dess vänstra rad, i pixelenhet.|

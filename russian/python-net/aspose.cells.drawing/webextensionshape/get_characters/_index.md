@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_characters метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_characters() {#}
  Возвращает все объекты символов
-который представляет диапазон символов в тексте.
+который представляет собой диапазон символов в тексте.
 
 
 ###  Возвращает
@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 

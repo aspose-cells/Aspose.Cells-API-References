@@ -1,4 +1,4 @@
-﻿---
+---
 title: r1c1_style الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

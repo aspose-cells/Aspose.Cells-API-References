@@ -1,4 +1,4 @@
-﻿---
+---
 title: sql_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sql_type недвижимость
 
-Тип данных SQL параметра.Действителен только для источников ODBC.
+Тип данных SQL параметра. Допустимо только для источников ODBC.
 ###  Определение:
 ```python
 @property

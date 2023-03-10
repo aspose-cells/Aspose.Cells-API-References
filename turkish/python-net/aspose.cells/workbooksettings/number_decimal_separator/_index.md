@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_decimal_separator mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator mülk
 
-Sayısal değerleri biçimlendirmek/ayrıştırmak için ondalık ayırıcıyı alır veya ayarlar.
+Sayısal değerleri biçimlendirmek/ayrıştırmak için ondalık ayırıcıyı alır veya ayarlar. Varsayılan, geçerli Bölgenin ondalık ayırıcısıdır.
 ###  Tanım:
 ```python
 @property

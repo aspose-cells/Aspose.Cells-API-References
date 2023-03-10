@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotPageFields classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  PivotPageFields classe
  Représente les éléments de champ de la page pivot
 si la source de données du tableau croisé dynamique est des plages de consolidation.
-Il ne peut contenir que 4 champs maximum.
+Il ne peut contenir que jusqu'à 4 champs.
 
 
 

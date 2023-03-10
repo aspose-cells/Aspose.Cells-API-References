@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePropertyCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,10 +17,10 @@ Typen ShapePropertyCollection avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [glow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection/glow_effect) | Representerar ett [ShapePropertyCollection.glow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect)-objekt som anger en glödeffekt för diagramelementet eller formen.|
+| [glow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection/glow_effect) | Representerar ett [ShapePropertyCollection.glow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect)-objekt som anger glödeffekt för diagramelementet eller formen.|
 | [format_3d](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection/format_3d) | Representerar ett [ShapePropertyCollection.format_3d](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#format_3d)-objekt som anger 3D-formegenskaper för diagramelementet eller formen.|
 | [soft_edge_radius](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection/soft_edge_radius) | Hämtar och ställer in oskärmens radie som ska appliceras på kanterna, i punktenhet.|
-| [shadow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection/shadow_effect) | Representerar ett [ShapePropertyCollection.shadow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect)-objekt som anger en skuggeffekt för diagramelementet eller formen.|
+| [shadow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection/shadow_effect) | Representerar ett [ShapePropertyCollection.shadow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#shadow_effect)-objekt som anger skuggeffekt för diagramelementet eller formen.|
 
 
 ###  Metoder

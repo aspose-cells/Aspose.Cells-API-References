@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_actual_size
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  عائدات
 
 الحجم الفعلي في المصفوفة (العرض والارتفاع).
-[0] عرض ؛ [1] ارتفاع.
+[0] هو العرض ؛ [1] ارتفاع.
 
 
 ```python

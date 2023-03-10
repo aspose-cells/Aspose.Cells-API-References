@@ -1,4 +1,4 @@
-﻿---
+---
 title: left недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет горизонтальное смещение фигуры от ее столбца left в единицах пикселей.
 
-###  Примеры
+###  Пример
 
 ```python
 

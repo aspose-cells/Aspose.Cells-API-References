@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPointCollection indeksleyici
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Dizide belirtilen dizindeki [ChartPoint](/cells/tr/python-net/aspose.cells.chart
 ###  İndeksleyici
 | İsim| Tanım|
 | :- | :- |
-| index | Dizideki grafik noktalarının dizini.|
+| index | Dizideki grafik noktasının dizini.|
 
 
 

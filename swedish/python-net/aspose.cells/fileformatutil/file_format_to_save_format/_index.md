@@ -1,4 +1,4 @@
-﻿---
+---
 title: file_format_to_save_format metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/fileformatutil/file_format_to_save_format/
 is_root: false
 ---
 ##  file_format_to_save_format(format) {#FileFormatType}
-Konvertera filformat till sparaformat.
+Konvertera filformat till sparformat.
 
 
 ###  Returnerar
@@ -22,7 +22,7 @@ def file_format_to_save_format(self, format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | format | [FileFormatType](/cells/sv/python-net/aspose.cells/fileformattype) | Filformatstypen.|
 

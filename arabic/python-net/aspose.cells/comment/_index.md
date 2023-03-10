@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ is_root: false
 | [column](/cells/ar/python-net/aspose.cells/comment/column) | يحصل على فهرس عمود التعليق.|
 | [is_threaded_comment](/cells/ar/python-net/aspose.cells/comment/is_threaded_comment) | يشير إلى ما إذا كان هذا التعليق تعليقًا مترابطًا.|
 | [threaded_comments](/cells/ar/python-net/aspose.cells/comment/threaded_comments) | يحصل على قائمة التعليقات المترابطة ؛|
-| [note](/cells/ar/python-net/aspose.cells/comment/note) | يمثل محتوى التعليقات.|
+| [note](/cells/ar/python-net/aspose.cells/comment/note) | يمثل محتوى التعليق.|
 | [html_note](/cells/ar/python-net/aspose.cells/comment/html_note) | الحصول على وتعيين سلسلة html التي تحتوي على بيانات وبعض التنسيقات في هذا التعليق.|
 | [font](/cells/ar/python-net/aspose.cells/comment/font) | يحصل على خط التعليق.|
 | [is_visible](/cells/ar/python-net/aspose.cells/comment/is_visible) | يمثل ما إذا كان التعليق مرئيًا أم لا.|
@@ -32,11 +32,11 @@ is_root: false
 | [text_vertical_alignment](/cells/ar/python-net/aspose.cells/comment/text_vertical_alignment) | الحصول على نوع المحاذاة الرأسية للنص الخاص بالتعليق وتعيينه.|
 | [auto_size](/cells/ar/python-net/aspose.cells/comment/auto_size) |يشير إلى ما إذا تم تعديل حجم التعليق تلقائيًا وفقًا لمحتواه.|
 | [height_cm](/cells/ar/python-net/aspose.cells/comment/height_cm) | يمثل ارتفاع التعليق بوحدة سنتيمترات.|
-| [width_cm](/cells/ar/python-net/aspose.cells/comment/width_cm) | يمثل عرض التعليق بوحدات السنتيمتر.|
-| [width](/cells/ar/python-net/aspose.cells/comment/width) | يمثل عرض التعليق بوحدات البكسل.|
-| [height](/cells/ar/python-net/aspose.cells/comment/height) | يمثل ارتفاع التعليق بوحدات البكسل.|
-| [width_inch](/cells/ar/python-net/aspose.cells/comment/width_inch) | يمثل عرض التعليق بوحدات البوصة.|
-| [height_inch](/cells/ar/python-net/aspose.cells/comment/height_inch) | يمثل ارتفاع التعليق بوحدات البوصة.|
+| [width_cm](/cells/ar/python-net/aspose.cells/comment/width_cm) | يمثل عرض التعليق بوحدة سنتيمترات.|
+| [width](/cells/ar/python-net/aspose.cells/comment/width) | يمثل عرض التعليق بوحدة البكسل.|
+| [height](/cells/ar/python-net/aspose.cells/comment/height) | يمثل ارتفاع التعليق بوحدة البكسل.|
+| [width_inch](/cells/ar/python-net/aspose.cells/comment/width_inch) | يمثل عرض التعليق بوحدة البوصة.|
+| [height_inch](/cells/ar/python-net/aspose.cells/comment/height_inch) | يمثل ارتفاع التعليق بوحدة البوصة.|
 
 
 ###  طُرق

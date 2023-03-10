@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_doc_title propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة ungroup
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-فك تجميع عناصر الشكل.
+يفك تجميع عناصر الشكل.
 
 
 

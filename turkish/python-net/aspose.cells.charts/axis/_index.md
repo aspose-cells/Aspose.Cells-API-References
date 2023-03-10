@@ -1,4 +1,4 @@
-﻿---
+---
 title: Axis sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -32,14 +32,14 @@ Axis türü aşağıdaki üyeleri gösterir:
 | [tick_label_position](/cells/tr/python-net/aspose.cells.charts/axis/tick_label_position) | Belirtilen eksende onay işareti etiketlerinin konumunu temsil eder.|
 | [cross_at](/cells/tr/python-net/aspose.cells.charts/axis/cross_at) | Değer ekseninde kategori ekseninin kesiştiği noktayı temsil eder.|
 | [cross_type](/cells/tr/python-net/aspose.cells.charts/axis/cross_type) | Belirtilen eksende, diğer eksenin kesiştiği yerde [Axis.cross_type](/cells/tr/python-net/aspose.cells.charts/axis#cross_type)'i temsil eder.|
-| [log_base](/cells/tr/python-net/aspose.cells.charts/axis/log_base) | Logaritmik tabanı temsil eder.Varsayılan değer 10'dur.Yalnızca Excel2007 için geçerlidir.|
+| [log_base](/cells/tr/python-net/aspose.cells.charts/axis/log_base) | Logaritmik tabanı temsil eder. Varsayılan değer 10'dur. Yalnızca Excel2007 için geçerlidir.|
 | [is_logarithmic](/cells/tr/python-net/aspose.cells.charts/axis/is_logarithmic) | Değer ekseni ölçek türünün logaritmik olup olmadığını gösterir.|
 | [is_plot_order_reversed](/cells/tr/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Microsoft Excel'in veri noktalarını sondan başa doğru çizip çizmediğini gösterir.|
 | [axis_between_categories](/cells/tr/python-net/aspose.cells.charts/axis/axis_between_categories) | Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini temsil eder.|
 | [tick_labels](/cells/tr/python-net/aspose.cells.charts/axis/tick_labels) | Belirtilen eksen için onay işareti etiketlerini temsil eden bir [Axis.tick_labels](/cells/tr/python-net/aspose.cells.charts/axis#tick_labels) nesnesi döndürür.|
-| [tick_label_spacing](/cells/tr/python-net/aspose.cells.charts/axis/tick_label_spacing) |Onay işareti etiketleri arasındaki kategori veya seri sayısını temsil eder.|
+| [tick_label_spacing](/cells/tr/python-net/aspose.cells.charts/axis/tick_label_spacing) |Onay işareti etiketleri arasındaki kategori veya seri sayısını temsil eder. Yalnızca kategori ve seri eksenleri için geçerlidir.|
 | [is_auto_tick_label_spacing](/cells/tr/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Tik etiketi aralığının otomatik olup olmadığını gösterir|
-| [tick_mark_spacing](/cells/tr/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Onay işaretleri arasındaki kategorilerin veya serilerin sayısını döndürür veya ayarlar.|
+| [tick_mark_spacing](/cells/tr/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Onay işaretleri arasındaki kategorilerin veya serilerin sayısını döndürür veya ayarlar. Yalnızca kategori ve seri eksenleri için geçerlidir.|
 | [display_unit](/cells/tr/python-net/aspose.cells.charts/axis/display_unit) | Belirtilen eksen için birim etiketini temsil eder.|
 | [cust_unit](/cells/tr/python-net/aspose.cells.charts/axis/cust_unit) | Görüntü birimi için özel bir değer belirtir.|
 | [custom_unit](/cells/tr/python-net/aspose.cells.charts/axis/custom_unit) | Görüntü birimi için özel bir değer belirtir.|
@@ -53,13 +53,13 @@ Axis türü aşağıdaki üyeleri gösterir:
 | [is_visible](/cells/tr/python-net/aspose.cells.charts/axis/is_visible) | Eksenin görünür olup olmadığını temsil eder.|
 | [major_grid_lines](/cells/tr/python-net/aspose.cells.charts/axis/major_grid_lines) | Grafik eksenindeki ana kılavuz çizgilerini temsil eder.|
 | [minor_grid_lines](/cells/tr/python-net/aspose.cells.charts/axis/minor_grid_lines) | Grafik eksenindeki küçük kılavuz çizgilerini temsil eder.|
-| [has_multi_level_labels](/cells/tr/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Etiketlerin çok düzeyli olarak gösterilip gösterilmeyeceğini belirtir.|
-| [axis_labels](/cells/tr/python-net/aspose.cells.charts/axis/axis_labels) | Chart.Calculate() yöntemini çağırdıktan sonra eksenin etiketlerini alır.|
+| [has_multi_level_labels](/cells/tr/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Etiketlerin çoklu seviye olarak gösterilip gösterilmeyeceğini belirtir.|
+| [axis_labels](/cells/tr/python-net/aspose.cells.charts/axis/axis_labels) | Chart.Calculate() yöntemi çağrıldıktan sonra eksenin etiketlerini alır.|
 | [bins](/cells/tr/python-net/aspose.cells.charts/axis/bins) | Bir grafik (Histogram/Pareto) eksenindeki bölmeleri temsil eder|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

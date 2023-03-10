@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_cell_auto_fit الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -14,7 +14,7 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
 الرجاء استخدام [Worksheet.auto_fit_columns()](/cells/ar/python-net/aspose.cells/worksheet/auto_fit_columns) و [Worksheet.auto_fit_rows()](/cells/ar/python-net/aspose.cells/worksheet/auto_fit_rows).
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ أغسطس 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

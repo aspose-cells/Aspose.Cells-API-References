@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_consumption_credit
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

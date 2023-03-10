@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.tables
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

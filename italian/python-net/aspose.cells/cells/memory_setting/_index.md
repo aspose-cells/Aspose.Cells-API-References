@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting proprietà
 
-Ottiene o imposta l'opzione di utilizzo della memoria per questa cella.
+Ottiene o imposta l'opzione di utilizzo della memoria per queste celle.
 ###  Definizione:
 ```python
 @property

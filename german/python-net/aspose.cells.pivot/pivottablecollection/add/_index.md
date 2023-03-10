@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -46,7 +46,7 @@ def add(self, pivot_table, dest_cell_name, table_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/de/python-net/aspose.cells.pivot/pivottable) | Die Quell-Pivot-Tabelle.|
+| pivot_table | [PivotTable](/cells/de/python-net/aspose.cells.pivot/pivottable) | Die Quell-PivotTable.|
 | dest_cell_name | str |Die Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts.|
 | table_name | str | Der Name des neuen PivotTable-Berichts.|
 
@@ -114,7 +114,7 @@ def add(self, pivot_table, row, column, table_name):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/de/python-net/aspose.cells.pivot/pivottable) | Die Quell-Pivot-Tabelle.|
+| pivot_table | [PivotTable](/cells/de/python-net/aspose.cells.pivot/pivottable) | Die Quell-PivotTable.|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts.|
 | table_name | str | Der Name des neuen PivotTable-Berichts.|
@@ -162,7 +162,7 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | source_data | list | Die mehreren Konsolidierungsbereiche, z. B. {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| is_auto_page | bool | Ob ein einzelnes Seitenfeld automatisch erstellt wird.<br/>Wenn wahr, werden die folgenden Parameter pageFields ignoriert.|
+| is_auto_page | bool | Ob ein einzelnes Seitenfeld automatisch erstellt wird.<br/>Wenn wahr, werden die folgenden Parameterseitenfelder ignoriert.|
 | page_fields | [PivotPageFields](/cells/de/python-net/aspose.cells.pivot/pivotpagefields) | Die Feldelemente der Pivot-Seite.|
 | dest_cell_name | str | destCellName Der Name des neuen PivotTable-Berichts.|
 | table_name | str | der Name des neuen PivotTable-Berichts.|
@@ -186,7 +186,7 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | source_data | list | Die mehreren Konsolidierungsbereiche, z. B. {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| is_auto_page | bool | Ob ein einzelnes Seitenfeld automatisch erstellt wird.<br/> Wenn wahr, werden die folgenden Parameter pageFields ignoriert|
+| is_auto_page | bool | Ob ein einzelnes Seitenfeld automatisch erstellt wird.<br/> Wenn wahr, werden die folgenden Parameterseitenfelder ignoriert|
 | page_fields | [PivotPageFields](/cells/de/python-net/aspose.cells.pivot/pivotpagefields) | Die Feldelemente der Pivot-Seite.|
 | row | int | Zeilenindex der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts.|
 | column | int | Spaltenindex der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts.|

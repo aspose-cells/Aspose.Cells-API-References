@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_shape yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/shapecollection/delete_shape/
 is_root: false
 ---
 ##  delete_shape(shape) {#Shape}
-Şekil silme Şekil gruptaysa veya bir yorum şekliyse silinmez.
+Bir şekli silin. Şekil grup içindeyse veya bir yorum şekliyse silinmez.
 
 
 
@@ -18,11 +18,11 @@ def delete_shape(self, shape):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | shape | [Shape](/cells/tr/python-net/aspose.cells.drawing/shape) |  |
 
-###  örnekler
+###  Örnek
 
 ```python
 

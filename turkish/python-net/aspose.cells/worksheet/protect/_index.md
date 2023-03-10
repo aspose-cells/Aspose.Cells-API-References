@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/tr/python-net/aspose.cells/protectiontype) | Koruma türü.|
 ###  Notlar
 
-Bu yöntem, çalışma sayfasını parola olmadan korur.
+Bu yöntem, çalışma sayfasını parola olmadan korur. Excel dosyasının tüm sürümlerinde protect çalışma sayfası olabilir.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/tr/python-net/aspose.cells/protectiontype) | Koruma türü.|
 | password | str | Şifre.|
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  Notlar
 
 Bu yöntem, Excel dosyasının tüm sürümlerinde protect çalışma sayfası olabilir.
-###  örnekler
+###  Örnek
 
 
 ```python

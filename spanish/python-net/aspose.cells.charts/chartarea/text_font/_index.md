@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_font propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene un objeto [ChartFrame.font](/cells/es/python-net/aspose.cells.charts/cha
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
  utilice la propiedad ChartFrame.Font.
  Esta propiedad será eliminada 12 meses después desde ENERO 2012.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

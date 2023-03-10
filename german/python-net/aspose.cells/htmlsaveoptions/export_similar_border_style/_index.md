@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_similar_border_style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

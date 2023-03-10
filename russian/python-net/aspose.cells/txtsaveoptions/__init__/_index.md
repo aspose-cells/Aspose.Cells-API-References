@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Формат сохранения текстового файла.|
 

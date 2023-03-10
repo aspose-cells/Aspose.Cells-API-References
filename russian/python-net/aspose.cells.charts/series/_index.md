@@ -1,4 +1,4 @@
-﻿---
+---
 title: Series класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [layout_properties](/cells/ru/python-net/aspose.cells.charts/series/layout_properties) | Представляет свойства макета.|
 | [points](/cells/ru/python-net/aspose.cells.charts/series/points) | Получает набор точек в ряду на диаграмме.|
-| [area](/cells/ru/python-net/aspose.cells.charts/series/area) | Представляет фоновую область объектов Series.|
+| [area](/cells/ru/python-net/aspose.cells.charts/series/area) | Представляет фоновую область объекта Series.|
 | [border](/cells/ru/python-net/aspose.cells.charts/series/border) | Представляет границу объекта Series.|
 | [name](/cells/ru/python-net/aspose.cells.charts/series/name) | Получает или задает имя ряда данных.|
 | [display_name](/cells/ru/python-net/aspose.cells.charts/series/display_name) | Получает имя серии, которое отображается на графике диаграммы.|
@@ -28,7 +28,7 @@ is_root: false
 | [values](/cells/ru/python-net/aspose.cells.charts/series/values) | Представляет данные ряда диаграммы.|
 | [values_format_code](/cells/ru/python-net/aspose.cells.charts/series/values_format_code) | Представляет код формата NumberList Values.|
 | [x_values](/cells/ru/python-net/aspose.cells.charts/series/x_values) | Представляет значения x серии диаграммы.|
-| [bubble_sizes](/cells/ru/python-net/aspose.cells.charts/series/bubble_sizes) | Получает или задает значения размеров пузырьков серии диаграммы.|
+| [bubble_sizes](/cells/ru/python-net/aspose.cells.charts/series/bubble_sizes) | Получает или задает значения размеров пузырьков ряда диаграммы.|
 | [trend_lines](/cells/ru/python-net/aspose.cells.charts/series/trend_lines) | Возвращает объект, представляющий коллекцию всех линий тренда для серии.|
 | [smooth](/cells/ru/python-net/aspose.cells.charts/series/smooth) | Представляет сглаживание кривой.<br/>Значение true, если сглаживание кривой включено для линейной диаграммы или точечной диаграммы.<br/> Применяется только к линейным и точечным графикам, связанным линиями.|
 | [shadow](/cells/ru/python-net/aspose.cells.charts/series/shadow) | Истинно, если у серии есть тень.|
@@ -43,7 +43,7 @@ is_root: false
 | [y_error_bar](/cells/ru/python-net/aspose.cells.charts/series/y_error_bar) | Представляет полосу погрешности направления Y ряда.|
 | [has_hi_lo_lines](/cells/ru/python-net/aspose.cells.charts/series/has_hi_lo_lines) | True, если на линейном графике есть линии максимума-минимума.<br/> Применяется только к линейным графикам.|
 | [hi_lo_lines](/cells/ru/python-net/aspose.cells.charts/series/hi_lo_lines) | Возвращает объект HiLoLines, представляющий линии максимума и минимума для ряда на линейной диаграмме.<br/> Применяется только к линейным графикам.|
-| [has_series_lines](/cells/ru/python-net/aspose.cells.charts/series/has_series_lines) | Значение true, если столбчатая диаграмма с накоплением или линейчатая диаграмма содержит ряды линий или<br/> если круговая диаграмма или гистограмма имеет соединительные линии между двумя разделами.<br/> Применяется только к столбчатым диаграммам с накоплением, линейчатым диаграммам, круговым диаграммам или линейчатым круговым диаграммам.|
+| [has_series_lines](/cells/ru/python-net/aspose.cells.charts/series/has_series_lines) | Значение true, если столбчатая диаграмма с накоплением или линейчатая диаграмма содержит ряды линий или<br/> если круговая диаграмма или гистограмма имеет соединительные линии между двумя разделами.<br/> Применяется только к столбчатым диаграммам с накоплением, столбчатым диаграммам, круговым диаграммам или столбчатым круговым диаграммам.|
 | [series_lines](/cells/ru/python-net/aspose.cells.charts/series/series_lines) | Возвращает объект SeriesLines, представляющий линии ряда для гистограммы с накоплением или гистограммы с накоплением.<br/> Применяется только к линейчатым диаграммам с накоплением и столбчатым диаграммам с накоплением.|
 | [has_drop_lines](/cells/ru/python-net/aspose.cells.charts/series/has_drop_lines) |Истинно, если на диаграмме есть перетаскиваемые линии.<br/> Применяется только к линейным диаграммам или диаграммам с областями.|
 | [drop_lines](/cells/ru/python-net/aspose.cells.charts/series/drop_lines) | Возвращает объект [Line](/cells/ru/python-net/aspose.cells.drawing/line), представляющий перетаскиваемые линии для ряда на линейной диаграмме или диаграмме с областями.<br/> Применяется только к линейным диаграммам или диаграммам с областями.|
@@ -60,10 +60,10 @@ is_root: false
 | [is_auto_split](/cells/ru/python-net/aspose.cells.charts/series/is_auto_split) | Указывает, является ли пороговое значение автоматическим.|
 | [bubble_scale](/cells/ru/python-net/aspose.cells.charts/series/bubble_scale) | Получает или задает масштабный коэффициент для пузырьков в указанной группе диаграммы.<br/> Это может быть целочисленное значение от 0 (ноль) до 300,<br/>соответствует проценту от размера по умолчанию.<br/> Применяется только к пузырьковым диаграммам.|
 | [size_represents](/cells/ru/python-net/aspose.cells.charts/series/size_represents) | Получает или задает то, что представляет размер пузырька на пузырьковой диаграмме.|
-| [show_negative_bubbles](/cells/ru/python-net/aspose.cells.charts/series/show_negative_bubbles) | Верно, если для группы диаграмм отображаются отрицательные кружки. Допустимо только для пузырьковых диаграмм.|
+| [show_negative_bubbles](/cells/ru/python-net/aspose.cells.charts/series/show_negative_bubbles) | Значение true, если для группы диаграммы отображаются отрицательные кружки. Действительно только для пузырьковых диаграмм.|
 | [doughnut_hole_size](/cells/ru/python-net/aspose.cells.charts/series/doughnut_hole_size) | Возвращает или задает размер отверстия в группе кольцевой диаграммы.<br/> Размер отверстия выражается в процентах от размера диаграммы в диапазоне от 10 до 90 процентов.|
 | [explosion](/cells/ru/python-net/aspose.cells.charts/series/explosion) | Расстояние открытого сегмента круговой диаграммы от центра круговой диаграммы выражается в процентах от диаметра круговой диаграммы.|
-| [has_radar_axis_labels](/cells/ru/python-net/aspose.cells.charts/series/has_radar_axis_labels) | Значение true, если лепестковая диаграмма имеет метки оси категорий.|
+| [has_radar_axis_labels](/cells/ru/python-net/aspose.cells.charts/series/has_radar_axis_labels) | Значение true, если лепестковая диаграмма имеет метки оси категорий. Применяется только к радиолокационным картам.|
 | [has_leader_lines](/cells/ru/python-net/aspose.cells.charts/series/has_leader_lines) | Истинно, если ряд имеет линии выноски.|
 | [leader_lines](/cells/ru/python-net/aspose.cells.charts/series/leader_lines) | Представляет линии выноски на диаграмме. Линии выноски соединяют метки данных с точками данных.<br/>Этот объект не является коллекцией; нет объекта, представляющего одну линию выноски.|
 | [legend_entry](/cells/ru/python-net/aspose.cells.charts/series/legend_entry) | Получает запись легенды в соответствии с этой серией.|
@@ -77,7 +77,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

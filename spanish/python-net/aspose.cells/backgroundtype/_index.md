@@ -1,4 +1,4 @@
-﻿---
+---
 title: BackgroundType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,9 +18,9 @@ El tipo BackgroundType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | DIAGONAL_CROSSHATCH | Representa un patrón de sombreado diagonal.|
-| DIAGONAL_STRIPE | Representa un patrón de rayas diagonales.|
+| DIAGONAL_STRIPE | Representa el patrón de rayas diagonales.|
 | GRAY6 |Representa un 6,25 % de patrón gris|
-| GRAY12 | Representa un 12,5% de patrón gris|
+| GRAY12 | Representa un patrón gris del 12,5 %|
 | GRAY25 | Representa un 25% de patrón gris.|
 | GRAY50 | Representa un 50% de patrón gris.|
 | GRAY75 | Representa un 75% de patrón gris.|
@@ -29,9 +29,9 @@ El tipo BackgroundType expone los siguientes miembros:
 | REVERSE_DIAGONAL_STRIPE | Representa el patrón de rayas diagonales inversas.|
 | SOLID | Representa un patrón sólido.|
 | THICK_DIAGONAL_CROSSHATCH | Representa un patrón de sombreado diagonal grueso.|
-| THIN_DIAGONAL_CROSSHATCH | Representa patrones de sombreado cruzado diagonales delgados.|
+| THIN_DIAGONAL_CROSSHATCH | Representa un patrón de sombreado diagonal delgado.|
 | THIN_DIAGONAL_STRIPE | Representa un patrón de rayas diagonales delgadas.|
-| THIN_HORIZONTAL_CROSSHATCH | Representa un patrón de sombreado cruzado horizontal delgado.|
+| THIN_HORIZONTAL_CROSSHATCH | Representa un patrón de sombreado horizontal delgado.|
 | THIN_HORIZONTAL_STRIPE | Representa un patrón de rayas horizontales delgadas.|
 | THIN_REVERSE_DIAGONAL_STRIPE | Representa un patrón de rayas diagonales inversas delgadas.|
 | THIN_VERTICAL_STRIPE | Representa un patrón de rayas verticales delgadas.|

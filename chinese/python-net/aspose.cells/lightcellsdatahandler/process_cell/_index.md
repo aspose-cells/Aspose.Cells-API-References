@@ -1,6 +1,6 @@
-﻿---
+---
 title: process_cell方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | cell | [Cell](/cells/zh/python-net/aspose.cells/cell) | Cell 当前正在处理的对象|
 ### 评论

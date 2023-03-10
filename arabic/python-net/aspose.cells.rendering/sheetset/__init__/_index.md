@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetSet المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheets):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheets | list | فهارس الورقة القائمة على الصفر.|
 ###  ملاحظات

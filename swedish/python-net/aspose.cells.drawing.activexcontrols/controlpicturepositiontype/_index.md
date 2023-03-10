@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlPicturePositionType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -29,7 +29,7 @@ Typen ControlPicturePositionType avslöjar följande medlemmar:
 | BELOW_LEFT | Bilden visas under bildtexten.<br/> Bildtexten är i linje med bildens vänstra kant.|
 | BELOW_CENTER | Bilden visas under bildtexten.<br/>Bildtexten är centrerad ovanför bilden.|
 | BELOW_RIGHT | Bilden visas under bildtexten.<br/> Bildtexten är justerad med bildens högra kant.|
-| CENTER | Bilden visas i mitten av kontrollen.<br/> Bildtexten är centrerad horisontellt och vertikalt överst på bilden.|
+| CENTER | Bilden visas i mitten av kontrollen.<br/> Bildtexten är centrerad horisontellt och vertikalt ovanpå bilden.|
 
 
 

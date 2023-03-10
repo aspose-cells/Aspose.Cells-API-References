@@ -1,4 +1,4 @@
-﻿---
+---
 title: compliance Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compliance Eigentum
 
-Gibt die OOXML-Version für das Ausgabedokument an.
+Gibt die OOXML-Version für das Ausgabedokument an. Der Standardwert ist Ecma376_2006.
 
 ###  Bemerkungen
 

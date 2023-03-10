@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_pt fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_pt fastighet
 
-Returnerar den övre marginalen i enheter av poäng
+Returnerar den övre marginalen i poängenhet
 
 ###  Exempel
 

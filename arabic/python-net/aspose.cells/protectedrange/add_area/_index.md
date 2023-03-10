@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_area
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_area(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | صف البداية.|
 | start_column | int | عمود البداية.|

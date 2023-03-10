@@ -1,4 +1,4 @@
-﻿---
+---
 title: only_auto الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  only_auto الملكية
 
-يشير إلى ما إذا كانت تناسب الصفوف التي لم يتم تخصيص ارتفاعها فقط.
+يشير إلى ما إذا كانت تناسب الصفوف التي لم يتم تخصيص ارتفاعها.
 ###  تعريف:
 ```python
 @property

@@ -1,6 +1,6 @@
-﻿---
+---
 title: SqlDataType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 140
@@ -8,13 +8,13 @@ url: /zh/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ## SqlDataType枚举
-指定参数的 SQL 数据类型。
+指定参数的 SQL 数据类型。仅对 ODBC 源有效。
 
 
 
 SqlDataType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | sql 无符号偏移量|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbstractCalculationEngine classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type AbstractCalculationEngine expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [is_param_literal_required](/cells/fr/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | Indique si ce moteur a besoin du texte littéral du paramètre lors du calcul. La valeur par défaut est false.|
+| [is_param_literal_required](/cells/fr/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) | Indique si ce moteur a besoin du texte littéral du paramètre lors du calcul. La valeur par défaut est faux.|
 | [process_built_in_functions](/cells/fr/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) | Si les fonctions intégrées qui ont été prises en charge par le moteur intégré doivent être vérifiées et traitées par cette implémentation.<br/>La valeur par défaut est false.<br/> Si l'utilisateur doit modifier la logique de calcul de certaines fonctions intégrées, cette propriété doit être définie sur true.|
 
 

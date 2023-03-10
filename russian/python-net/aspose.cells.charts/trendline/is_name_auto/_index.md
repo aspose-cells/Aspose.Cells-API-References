@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_name_auto недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

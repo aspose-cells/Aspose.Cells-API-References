@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormulaParseOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,10 +23,10 @@ Le type FormulaParseOptions expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [locale_dependent](/cells/fr/python-net/aspose.cells/formulaparseoptions/locale_dependent) | Indique si la formule est formatée avec les paramètres régionaux. La valeur par défaut est false.|
-| [r1c1_style](/cells/fr/python-net/aspose.cells/formulaparseoptions/r1c1_style) | Si la formule est de style de référence R1C1. La valeur par défaut est false.|
+| [locale_dependent](/cells/fr/python-net/aspose.cells/formulaparseoptions/locale_dependent) | Indique si la formule est formatée en paramètres régionaux. La valeur par défaut est false.|
+| [r1c1_style](/cells/fr/python-net/aspose.cells/formulaparseoptions/r1c1_style) | Indique si la formule est de style de référence R1C1. La valeur par défaut est false.|
 | [check_add_in](/cells/fr/python-net/aspose.cells/formulaparseoptions/check_add_in) | Vérifier si les compléments dans les liens externes existants du classeur actuel pour la fonction définie par l'utilisateur sans lien externe.<br/> La valeur par défaut est true (si la fonction définie par l'utilisateur correspond à un complément dans les liens externes existants, prenez-le comme complément).|
-| [parse](/cells/fr/python-net/aspose.cells/formulaparseoptions/parse) | Indique si la formule doit être analysée. La valeur par défaut est true.<br/>S'il est faux, la chaîne de formule donnée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les analyser<br/> ou des données de formule analysées sont requises par d'autres opérations telles que le calcul de formules.|
+| [parse](/cells/fr/python-net/aspose.cells/formulaparseoptions/parse) | Que ce soit parse formule donnée. La valeur par défaut est true.<br/>S'il est faux, la chaîne de formule donnée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les analyser<br/> ou des données de formule analysées sont requises par d'autres opérations telles que le calcul de formules.|
 
 
 

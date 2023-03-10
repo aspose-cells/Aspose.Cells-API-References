@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_box Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | height | int | Repräsentiert die Höhe des Textfelds in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite des Textfelds in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

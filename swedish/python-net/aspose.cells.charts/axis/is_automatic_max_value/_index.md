@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_max_value fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

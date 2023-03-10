@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_ruler_visible mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible mülk
 
-Cetvelin görünür olup olmadığını gösterir.
+Cetvelin görünür olup olmadığını gösterir. Bu özellik yalnızca sayfa sonu önizlemesi için uygulanır.
 ###  Tanım:
 ```python
 @property

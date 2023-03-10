@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, row):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | Cell صف فهرس ، على أساس الصفر.|
 ###  ملاحظات
@@ -45,7 +45,7 @@ def add(self, cell_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cell_name | str | Cell الاسم.|
 ###  ملاحظات
@@ -68,7 +68,7 @@ def add(self, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | Cell صف فهرس ، على أساس الصفر.|
 | column | int | Cell عمود فهرس ، قائم على الصفر.|
@@ -92,10 +92,10 @@ def add(self, row, start_column, end_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | مؤشر الصف ، على أساس الصفر.|
-| start_column | int | مؤشر عمود البداية ، قائم على الصفر.|
+| start_column | int | فهرس عمود البداية ، قائم على الصفر.|
 | end_column | int | مؤشر عمود النهاية ، قائم على الصفر.|
 ###  ملاحظات
 

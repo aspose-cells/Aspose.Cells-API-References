@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_slice_angle mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  first_slice_angle mülk
 
-Derece cinsinden (dikeyden saat yönünde) ilk pasta grafiğin veya halka grafik diliminin açısını alır veya ayarlar. Yalnızca pasta, 3-B pasta ve halka grafikler için geçerlidir, 0 - 360.
+Derece cinsinden (dikeyden saat yönünde) ilk pasta grafik veya halka grafik diliminin açısını alır veya ayarlar. Yalnızca pasta, 3-B pasta ve halka grafikler, 0 - 360 için geçerlidir.
 ###  Tanım:
 ```python
 @property

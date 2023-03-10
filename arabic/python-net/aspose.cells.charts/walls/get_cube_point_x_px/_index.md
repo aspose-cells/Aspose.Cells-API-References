@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_cube_point_x_px
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def get_cube_point_x_px(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int |  |
 

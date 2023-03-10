@@ -1,4 +1,4 @@
-﻿---
+---
 title: separator mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bir grafikteki veri etiketleri için kullanılan separator türünü alır veya 
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen DataLabels.SeparatorType özelliğini kullanın.
  Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

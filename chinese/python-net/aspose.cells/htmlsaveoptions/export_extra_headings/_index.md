@@ -1,6 +1,6 @@
-﻿---
+---
 title: export_extra_headings 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 210
@@ -10,7 +10,7 @@ is_root: false
 ## export_extra_headings 属性
 
 指示当文本长度超过最大显示列时是否导出额外的标题。
-默认值为假。
+默认值为假。如果要将html文件导入excel，请保持默认值。
 ### 定义：
 ```python
 @property

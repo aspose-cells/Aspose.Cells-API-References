@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrendlineType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -21,7 +21,7 @@ TrendlineType türü aşağıdaki üyeleri gösterir:
 | LINEAR | Doğrusal|
 | LOGARITHMIC | Logaritmik|
 | MOVING_AVERAGE | Hareketli ortalama|
-| POLYNOMIAL | polinom|
+| POLYNOMIAL | Polinom|
 | POWER | Güç|
 
 

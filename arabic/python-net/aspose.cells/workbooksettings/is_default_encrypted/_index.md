@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_default_encrypted الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-القيمة الافتراضية هي "خطأ" الآن ، وهي مماثلة لـ MS Excel 2013.
+القيمة الافتراضية هي كاذبة الآن. إنه مماثل لـ MS Excel 2013.
 ###  تعريف:
 ```python
 @property

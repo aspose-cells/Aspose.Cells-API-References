@@ -1,4 +1,4 @@
-﻿---
+---
 title: store_name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name الملكية
 
-الحصول على مثيل السوق حيث يتم تخزين الوظيفة الإضافية لـ Office وتعيينه.
+الحصول على مثيل السوق حيث يتم تخزين الوظيفة الإضافية لـ Office وتعيينه. .
 ###  تعريف:
 ```python
 @property

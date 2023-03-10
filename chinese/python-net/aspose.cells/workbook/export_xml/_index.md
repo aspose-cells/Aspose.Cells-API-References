@@ -1,6 +1,6 @@
-﻿---
+---
 title: export_xml方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 140
@@ -18,7 +18,7 @@ def export_xml(self, map_name, path):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | map_name | str |需要导出的XML映射名称|
 | path | str |导出路径|
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | map_name | str |需要导出的XML映射名称|
 | stream | io.RawIOBase |导出流|

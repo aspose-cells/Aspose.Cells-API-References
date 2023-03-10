@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_left_row Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Repräsentiert den Zeilenindex der oberen linken Ecke.
 
 Wenn sich die Form in der Form oder in der Gruppe befindet, wird UpperLeftRow ignoriert.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_pixel الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تعيين الإزاحة الرأسية لشكل مقسم طريقة العرض من صفها العلوي بالبكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

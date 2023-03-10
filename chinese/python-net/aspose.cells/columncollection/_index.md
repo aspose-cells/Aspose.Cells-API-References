@@ -1,6 +1,6 @@
-﻿---
+---
 title: ColumnCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 270
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## ColumnCollection类
 代表工作表中各个列（设置）的 [Column](/cells/zh/python-net/aspose.cells/column) 对象的集合。
-Column 对象仅表示列宽、样式等设置。
+Column 对象仅表示列宽、样式等设置。对于整个专栏，
 与相应列中是否存在非空单元格（数据）无关。
 而这个集合的“Count”只代表这个集合中已经实例化的count个Column对象，
 与工作表中是否存在非空单元格（数据）无关。

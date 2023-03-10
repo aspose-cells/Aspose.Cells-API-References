@@ -1,4 +1,4 @@
-﻿---
+---
 title: Walls clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -46,7 +46,7 @@ El tipo Walls expone los siguientes miembros:
 | Método| Descripción|
 | :- | :- |
 | [get_cube_point_count()](/cells/es/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | Obtiene el número de puntos de cubo después de llamar al método Chart.Calculate().|
-| [get_cube_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Obtiene las coordenadas x del punto de vértice del cubo de las paredes después de llamar al método Chart.Calculate().<br/> El número de puntos de vértice de las paredes del cubo es ocho.|
+| [get_cube_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Obtiene la coordenada x del punto de vértice del cubo de las paredes después de llamar al método Chart.Calculate().<br/> El número de puntos de vértice de las paredes del cubo es ocho.|
 | [get_cube_point_y_px(index)](/cells/es/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Obtiene la coordenada y del punto de vértice del cubo de las paredes después de llamar al método Chart.Calculate().<br/> El número de puntos de vértice de las paredes del cubo es ocho.|
 
 

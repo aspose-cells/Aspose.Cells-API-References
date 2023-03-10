@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_gridlines proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

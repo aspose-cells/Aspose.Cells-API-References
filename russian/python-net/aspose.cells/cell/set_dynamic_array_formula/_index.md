@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_dynamic_array_formula метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,11 +22,11 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | выражение формулы|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | варианты разбора формулы.<br/> Параметр «Разбор» будет игнорироваться, и формула всегда будет анализироваться немедленно.|
-| calculate_value | bool | следует ли вычислять эту формулу динамического массива для тех ячеек в расширенном диапазоне.|
+| calculate_value | bool | вычислить ли эту формулу динамического массива для тех ячеек в разлитом диапазоне.|
 
 
 ##  set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value) {#str-FormulaParseOptions-list-bool-bool}
@@ -44,7 +44,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | выражение формулы|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | варианты разбора формулы.<br/> Параметр «Разбор» будет игнорироваться, и формула всегда будет анализироваться немедленно.|
@@ -68,7 +68,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | выражение формулы|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | варианты разбора формулы.<br/> Параметр «Разбор» будет игнорироваться, и формула всегда будет анализироваться немедленно.|

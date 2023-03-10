@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_outlier_points fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

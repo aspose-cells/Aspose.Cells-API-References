@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_tick_label_spacing mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_overflow الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على وتعيين نوع تجاوز النص العمودي للشكل الذي يحتوي على نص.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import TextOverflowType

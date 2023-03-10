@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_hidden_item
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def is_hidden_item(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس العنصر المحوري في الحقل المحوري.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_format الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  html_format الملكية
 
 كيفية التعامل مع التنسيق من المصدر HTML عند إحضار بيانات استعلام الويب في ملف
-ورقة العمل ذات صلة عندما تكون بيانات المصدر صحيحة.
+ورقة عمل. ذات صلة عندما تكون بيانات المصدر صحيحة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_image_resample yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,12 +20,12 @@ def set_image_resample(self, desired_ppi, jpeg_quality):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | desired_ppi | int | İnç başına istenen piksel sayısı. 220 yüksek kalite. 150 ekran kalitesi. 96 e-posta kalitesi.|
 | jpeg_quality | int | 0 - 100% JPEG kalite.|
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, çıktı pdf'deki resimler için istenen ÜFE'yi 96 ve jpeg kalitesini 80 olarak ayarlar.
 

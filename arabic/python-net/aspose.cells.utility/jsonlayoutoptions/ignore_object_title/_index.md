@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_object_title الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_object_title الملكية
 
-يشير إلى ما إذا كان سيتم تجاهل العنوان إذا كان الكائن خاصية لكائن.
+يشير إلى ما إذا كان تجاهل العنوان إذا كان الكائن خاصية لكائن.
 
 ###  ملاحظات
 

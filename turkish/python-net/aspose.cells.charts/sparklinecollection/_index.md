@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -35,7 +35,7 @@ SparklineCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_count propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_count propiedad
 
-Obtiene todos los recuentos de celdas en el rango.
+Obtiene todo el recuento de celdas en el rango.
 
 ###  Observaciones
 

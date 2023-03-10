@@ -1,4 +1,4 @@
-﻿---
+---
 title: list propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list propiedad
 
-Devuelve si la segmentación está asociada con la caché de segmentación especificada y se basa en un origen de datos no OLAP.
+Devuelve si la segmentación asociada con la caché de segmentación especificada se basa en un origen de datos no OLAP. Solo lectura
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

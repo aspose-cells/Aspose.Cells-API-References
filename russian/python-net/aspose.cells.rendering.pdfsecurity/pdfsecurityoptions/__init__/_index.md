@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSecurityOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  Примеры
+###  Пример
 
 Следующий код устанавливает разрешение на печать с высоким разрешением для выходного PDF-файла.
 

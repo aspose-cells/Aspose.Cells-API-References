@@ -1,4 +1,4 @@
-﻿---
+---
 title: index_of méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,9 +22,9 @@ def index_of(self, item, index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| item | [VbaModule](/cells/fr/python-net/aspose.cells.vba/vbamodule) | L'objet à localiser dans la liste de tableaux.|
+| item | [VbaModule](/cells/fr/python-net/aspose.cells.vba/vbamodule) | L'objet à localiser dans la liste de tableaux. La valeur peut être nulle.|
 | index | int | Index de départ de base zéro de la recherche. 0 (zéro) est valide dans une liste vide.|
 
 
@@ -34,7 +34,7 @@ Recherche l'objet spécifié et renvoie l'index de base zéro de la première oc
 
 ###  Retour
 
-Index de base zéro de la première occurrence de value dans la plage d'éléments de la liste de tableaux qui commence à startIndex et contient le nombre d'éléments, s'il est trouvé ; sinon, -1.
+Index de base zéro de la première occurrence de value dans la plage d'éléments de la liste de tableaux qui commence à startIndex et contient le nombre d'éléments, s'il est trouvé ; sinon, -1.
 
 
 ```python
@@ -43,9 +43,9 @@ def index_of(self, item, index, count):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| item | [VbaModule](/cells/fr/python-net/aspose.cells.vba/vbamodule) | L'objet à localiser dans la liste de tableaux.|
+| item | [VbaModule](/cells/fr/python-net/aspose.cells.vba/vbamodule) | L'objet à localiser dans la liste de tableaux. La valeur peut être nulle.|
 | index | int | Index de départ de base zéro de la recherche. 0 (zéro) est valide dans une liste vide.|
 | count | int | Le nombre d'éléments dans la section à rechercher.|
 

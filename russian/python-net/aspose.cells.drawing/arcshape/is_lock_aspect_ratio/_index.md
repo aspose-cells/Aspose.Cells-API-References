@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_lock_aspect_ratio недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 True означает, что не допускается изменение соотношения сторон.
 
-###  Примеры
+###  Пример
 
 ```python
 

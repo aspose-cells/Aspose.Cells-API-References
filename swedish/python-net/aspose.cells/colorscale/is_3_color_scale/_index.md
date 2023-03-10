@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_3_color_scale fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

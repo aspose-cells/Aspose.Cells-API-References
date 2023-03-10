@@ -1,4 +1,4 @@
-﻿---
+---
 title: paths mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Özel bir geometrik şeklin paths'ini alır.
 
-###  örnekler
+###  Örnek
 
 ```python
 

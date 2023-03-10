@@ -1,4 +1,4 @@
-﻿---
+---
 title: geometry الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على geometry
 
-###  أمثلة
+###  مثال
 
 ```python
 

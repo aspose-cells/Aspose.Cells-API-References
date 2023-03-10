@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_element_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_element_style(self, style):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | نمط العنصر.|
 

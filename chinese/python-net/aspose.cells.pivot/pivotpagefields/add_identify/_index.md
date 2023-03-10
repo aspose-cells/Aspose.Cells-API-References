@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_identify方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -19,10 +19,10 @@ def add_identify(self, range_index, page_item_index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | range_index | int |合并数据范围索引。|
-| page_item_index | list |每个页面字段中的页面项目索引。<br/>pageItemIndex[2] = 1 表示第三个字段中的第二个项目用于标识此范围。<br/> pageItemIndex[1] = -1 表示第二个字段中没有项目可用于标识此范围<br/>MS 将在第二个字段中自动创建一个“空白”项以标识此范围。|
+| page_item_index | list |每个页面字段中的页面项目索引。<br/>pageItemIndex[2] = 1 表示第三个字段中的第二个项目用于标识此范围。<br/> pageItemIndex[1] = -1 表示第二个字段中没有项目可用于标识此范围<br/>MS 将在第二个字段中自动创建“空白”项以标识此范围。|
 
 
 

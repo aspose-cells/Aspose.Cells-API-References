@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_latin_line_break mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_column_width_inch
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene la larghezza della colonna specificata nella visualizzazione normale, in
 
 ###  ritorna
 
-Larghezza delle colonne
+Larghezza della colonna
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width_inch(self, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column | int | Indice di colonna|
 

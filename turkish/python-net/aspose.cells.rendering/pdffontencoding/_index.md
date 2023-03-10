@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfFontEncoding numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ PdfFontEncoding türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | IDENTITY | Pdf'deki tüm gömülü yazı tipleri için Identity-H kodlamasını kullanmayı temsil eder.|
-| ANSI_PREFER | 32-127 karakterlerine sahip TrueType yazı tipleri için WinAnsiEncoding kullanmayı tercih ettiğini temsil eder,<br/> Aksi takdirde, pdf'deki gömülü yazı tipleri için Identity-H kodlaması kullanılacaktır.|
+| ANSI_PREFER | 32-127 karakterlerine sahip TrueType yazı tipleri için WinAnsiEncoding kullanmayı tercih ettiğini temsil eder,<br/> aksi takdirde, pdf'deki gömülü yazı tipleri için Identity-H kodlaması kullanılacaktır.|
 
 
 

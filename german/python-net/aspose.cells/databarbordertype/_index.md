@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBarBorderType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -18,7 +18,7 @@ Der Typ DataBarBorderType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | NONE | Die Datenleiste hat keinen Rand.|
-| SOLID | Die Datenleiste hat einen durchgehenden Rahmen.|
+| SOLID | Die Datenleiste hat einen durchgehenden Rand.|
 
 
 

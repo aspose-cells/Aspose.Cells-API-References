@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,13 +22,13 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 
-###  أمثلة
+###  مثال
 
 ```python
 
@@ -54,13 +54,13 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
 | file_name | str | اسم ملف الصورة.|
 
-###  أمثلة
+###  مثال
 
 ```python
 
@@ -85,7 +85,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
@@ -93,7 +93,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 
-###  أمثلة
+###  مثال
 
 ```python
 
@@ -119,7 +119,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
@@ -127,7 +127,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 | file_name | str | اسم ملف الصورة.|
 
-###  أمثلة
+###  مثال
 
 ```python
 
@@ -152,7 +152,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
@@ -160,7 +160,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 | width_scale | int | مقياس عرض الصورة ، نسبة مئوية.|
 | height_scale | int | مقياس ارتفاع الصورة ، نسبة مئوية.|
 
-###  أمثلة
+###  مثال
 
 ```python
 
@@ -186,7 +186,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
@@ -194,7 +194,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 | width_scale | int | مقياس عرض الصورة ، نسبة مئوية.|
 | height_scale | int | مقياس ارتفاع الصورة ، نسبة مئوية.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

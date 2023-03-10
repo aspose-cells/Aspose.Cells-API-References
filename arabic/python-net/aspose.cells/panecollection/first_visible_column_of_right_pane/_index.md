@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_visible_column_of_right_pane الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

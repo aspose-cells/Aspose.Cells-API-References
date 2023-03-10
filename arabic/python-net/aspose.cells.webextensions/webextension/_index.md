@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtension الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ is_root: false
 | [reference](/cells/ar/python-net/aspose.cells.webextensions/webextension/reference) | احصل على المرجع الأساسي لوظيفة Office الإضافية.|
 | [alter_references](/cells/ar/python-net/aspose.cells.webextensions/webextension/alter_references) | يحصل على قائمة المراجع البديلة.|
 | [properties](/cells/ar/python-net/aspose.cells.webextensions/webextension/properties) | يحصل على جميع خصائص امتداد الويب.|
-| [bindings](/cells/ar/python-net/aspose.cells.webextensions/webextension/bindings) |يحصل على كل علاقات الروابط بين وظيفة Office الإضافية والبيانات الموجودة في المستند.|
+| [bindings](/cells/ar/python-net/aspose.cells.webextensions/webextension/bindings) |يحصل على كل علاقات الارتباطات بين وظيفة Office الإضافية والبيانات الموجودة في المستند.|
 
 
 

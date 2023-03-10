@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,11 +22,11 @@ def add(self, name, user_id, provider_id):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Namnet på personen.|
 | user_id | str |  |
-| provider_id | str | Leverantörens identitet|
+| provider_id | str | Leverantörens ID|
 
 
 

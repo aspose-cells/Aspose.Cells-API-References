@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFormatCondition الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [scope_type](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | الحصول على نوع النطاق وتعيينه لتنسيق شرط الجدول المحوري.|
 | [rule_type](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | الحصول على نوع القاعدة وتعيينه لتنسيق شرط الجدول المحوري.|
-| [format_conditions](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | احصل على شروط التنسيق لتنسيق حالة الجدول المحوري.|
+| [format_conditions](/cells/ar/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | احصل على شروط التنسيق لتنسيق شرط الجدول المحوري.|
 
 
 ###  طُرق
@@ -35,7 +35,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

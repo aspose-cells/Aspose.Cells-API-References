@@ -1,6 +1,6 @@
-﻿---
+---
 title: AbstractCalculationEngine类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ AbstractCalculationEngine 类型公开了以下成员：
 ### 特性
 |属性|描述|
 | :- | :- |
-| [is_param_literal_required](/cells/zh/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) |指示该引擎在计算时是否需要参数的文字文本。默认值为false。|
+| [is_param_literal_required](/cells/zh/python-net/aspose.cells/abstractcalculationengine/is_param_literal_required) |指示该引擎在计算时是否需要参数的文字文本。默认值为假。|
 | [process_built_in_functions](/cells/zh/python-net/aspose.cells/abstractcalculationengine/process_built_in_functions) |内置引擎已经支持的内置函数是否应该被这个实现检查和处理。<br/>默认为假。<br/>如果用户需要更改某些内置函数的计算逻辑，则应将此属性设置为 true。|
 
 

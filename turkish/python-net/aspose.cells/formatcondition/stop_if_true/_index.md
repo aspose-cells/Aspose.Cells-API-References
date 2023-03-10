@@ -1,4 +1,4 @@
-﻿---
+---
 title: stop_if_true mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

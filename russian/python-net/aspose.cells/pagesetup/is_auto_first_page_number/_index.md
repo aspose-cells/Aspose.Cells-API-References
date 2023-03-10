@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_first_page_number недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

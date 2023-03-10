@@ -1,4 +1,4 @@
-﻿---
+---
 title: picture_position الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  picture_position الملكية
 
-الحصول على موقع صورة عنصر التحكم بالنسبة إلى التسمية التوضيحية الخاصة به وتعيينه.
+الحصول على موقع صورة عنصر التحكم وتعيينه بالنسبة إلى التسمية التوضيحية الخاصة به.
 ###  تعريف:
 ```python
 @property

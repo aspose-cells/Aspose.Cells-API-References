@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoArrowheadStyle перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ is_root: false
 | ARROW | Тип конца линии стрелки.|
 | ARROW_STEALTH | Тип конца линии Arrow Stealth.|
 | ARROW_DIAMOND | Тип конца ромбовидной стрелы.|
-| ARROW_OVAL | Тип конца овальной линии стрелки.|
+| ARROW_OVAL | Овальная стрелка типа конца линии.|
 | ARROW_OPEN | Стрелка Открытый тип конца линии.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | upper_left_column | int | Index de la colonne en haut à gauche.|
@@ -46,7 +46,7 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | upper_left_column | int | Index de la colonne en haut à gauche.|

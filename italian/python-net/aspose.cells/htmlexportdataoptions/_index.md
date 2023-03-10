@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlExportDataOptions enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/htmlexportdataoptions/
 is_root: false
 ---
 ##  HtmlExportDataOptions enumerazione
-Rappresenta le opzioni per l'esportazione dei dati html.
+Rappresenta le opzioni per l'esportazione di dati html.
 
 
 

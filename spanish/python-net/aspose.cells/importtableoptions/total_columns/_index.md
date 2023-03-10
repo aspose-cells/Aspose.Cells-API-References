@@ -1,4 +1,4 @@
-﻿---
+---
 title: total_columns propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_columns propiedad
 
--1 significa todas las filas de la fuente de datos dada.
+Obtiene o establece el recuento total de columnas para importar desde el origen de datos. -1 significa todas las filas de la fuente de datos dada.
 ###  Definición:
 ```python
 @property

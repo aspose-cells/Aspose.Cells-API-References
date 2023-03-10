@@ -1,4 +1,4 @@
-﻿---
+---
 title: top недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Если фигура находится на диаграмме, представляет вертикальное смещение фигуры от ее границы top.
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height_inch метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,10 +18,10 @@ def set_row_height_inch(self, row, inches):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row | int | Индекс строки.|
-| inches | float | Количество дюймов. Должно быть от 0 до 409,5/72.|
+| inches | float | Количество дюймов. Оно должно быть между 0 и 409,5/72.|
 
 
 

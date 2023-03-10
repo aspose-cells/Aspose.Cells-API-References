@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_document_properties недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает коллекцию [DocumentProperty](/cells/ru/python-net/aspose.cells.properties/documentproperty), которая представляет все настраиваемые свойства документа электронной таблицы.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

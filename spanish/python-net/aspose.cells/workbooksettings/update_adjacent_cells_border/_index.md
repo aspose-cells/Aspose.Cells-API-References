@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_adjacent_cells_border propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,7 +14,7 @@ Indica si se actualiza el borde de las celdas adyacentes.
 ###  Observaciones
 
 El valor predeterminado es falso.
- Por ejemplo: se actualiza el borde inferior de la celda A1,
+ Por ejemplo: el borde inferior de la celda A1 se actualiza,
 el borde superior de la celda A2 también debe cambiarse.
 ###  Definición:
 ```python

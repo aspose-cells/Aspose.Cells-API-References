@@ -1,4 +1,4 @@
-﻿---
+---
 title: placement الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -12,7 +12,7 @@ is_root: false
 يمثل الطريقة التي يتم بها إرفاق الكائن الرسومي بالخلايا الموجودة أسفله.
 تتحكم الخاصية في placement لكائن موجود بورقة عمل.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import PlacementType

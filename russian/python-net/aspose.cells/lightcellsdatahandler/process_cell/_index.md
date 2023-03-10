@@ -1,4 +1,4 @@
-﻿---
+---
 title: process_cell метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ def process_cell(self, cell):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | Cell объект, который обрабатывается в данный момент|
 ###  Примечания

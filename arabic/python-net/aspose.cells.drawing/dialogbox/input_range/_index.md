@@ -1,4 +1,4 @@
-﻿---
+---
 title: input_range الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على أو تعيين نطاق ورقة العمل المستخدم لتعبئة مربع التحرير والسرد المحدد.
 
-###  أمثلة
+###  مثال
 
 ```python
 

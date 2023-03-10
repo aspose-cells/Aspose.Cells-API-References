@@ -1,4 +1,4 @@
-﻿---
+---
 title: group propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene la forma group que contiene esta forma.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

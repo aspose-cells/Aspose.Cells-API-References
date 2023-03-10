@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_lock_aspect_ratio propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Verdadero significa que no permite cambios en la relación de aspecto.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

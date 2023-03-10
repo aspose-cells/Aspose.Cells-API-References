@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagSetting الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
 ##  SmartTagSetting الدرجة
-يمثل كل [SmartTagCollection](/cells/ar/python-net/aspose.cells.markup/smarttagcollection) كائنات بورقة العمل.
+يمثل كل كائن [SmartTagCollection](/cells/ar/python-net/aspose.cells.markup/smarttagcollection) في ورقة العمل.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_picture_in_chart
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_picture_in_chart(self, top, left, stream, width_scale, height_scale):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | top | int |يمثل الإزاحة الرأسية للشكل من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.|
 | left | int | يمثل الإزاحة الأفقية للشكل من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.|

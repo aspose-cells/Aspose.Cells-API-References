@@ -1,4 +1,4 @@
-﻿---
+---
 title: group الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على الشكل group الذي يحتوي على هذا الشكل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

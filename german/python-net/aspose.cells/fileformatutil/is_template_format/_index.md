@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_template_format Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/fileformatutil/is_template_format/
 is_root: false
 ---
 ##  is_template_format(extension) {#str}
-Gibt wahr zurück, wenn die Erweiterung .xlt, .xltX, .xltm, .ots ist.
+Gibt true zurück, wenn die Erweiterung .xlt, .xltX, .xltm, .ots ist.
 
 
 ###  Kehrt zurück

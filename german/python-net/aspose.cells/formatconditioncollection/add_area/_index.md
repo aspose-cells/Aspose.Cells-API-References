@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_area Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Fügt einen bedingt formatierten Zellbereich hinzu.
 
 ###  Kehrt zurück
 
-Bedingt formatierter Zellbereichsindex.
+Bedingt formatierter Zellenrangindex.
 
 
 ```python

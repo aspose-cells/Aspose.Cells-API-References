@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_shadow_effect yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

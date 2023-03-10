@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlHiddenColDisplayType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen HtmlHiddenColDisplayType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | HIDDEN | Gömde de dolda kolumnerna i HTML-sidan.|
-| REMOVE | Ta bort de dolda kolumnerna i HTML-sidor.|
+| REMOVE | Ta bort de dolda kolumnerna i HTML-sidan.|
 
 
 

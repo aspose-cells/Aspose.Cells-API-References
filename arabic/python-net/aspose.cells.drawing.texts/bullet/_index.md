@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bullet الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [bullet_value](/cells/ar/python-net/aspose.cells.drawing.texts/bullet/bullet_value) | يحصل على قيمة نقطية|
 | [type](/cells/ar/python-net/aspose.cells.drawing.texts/bullet/type) | يحصل على نوع التعداد النقطي ويعينه.|
-| [font_name](/cells/ar/python-net/aspose.cells.drawing.texts/bullet/font_name) |احصل على اسم الخط وقم بتعيينه.|
+| [font_name](/cells/ar/python-net/aspose.cells.drawing.texts/bullet/font_name) |الحصول على اسم الخط وتعيينه.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_on_change mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  refresh_on_change mülk
 
  Bir sorgunun içeriği değiştiğinde sorgunun otomatik olarak yenilenip yenilenmeyeceğini gösteren bayrak
- parametre değerini sağlayan hücre değişir.True ise harici veri yenilenir
- her değişiklik olduğunda yeni parametre değerini kullanarak.
+ parametre değeri değişikliklerini sağlayan hücre. Doğruysa, harici veriler yenilenir
+ her değişiklik olduğunda yeni parametre değerini kullanarak. Yanlışsa, harici veriler
 yalnızca kullanıcı tarafından istendiğinde veya başka bir olay yenilemeyi tetiklediğinde (örneğin, çalışma kitabı açıldı) yenilenir.
 ###  Tanım:
 ```python

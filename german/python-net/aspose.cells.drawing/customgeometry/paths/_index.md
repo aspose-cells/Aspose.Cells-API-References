@@ -1,4 +1,4 @@
-﻿---
+---
 title: paths Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  paths Eigentum
 
-Ruft Pfadsammlungsinformationen ab, wenn die Form eine NotPrimitive-Autoform ist
+Ruft Pfadsammlungsinformationen ab, wenn die Form eine NotPrimitive-AutoForm ist
 ###  Definition:
 ```python
 @property

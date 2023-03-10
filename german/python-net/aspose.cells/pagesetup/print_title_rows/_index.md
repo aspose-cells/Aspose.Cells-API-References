@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_rows Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Zeilen dar, die die zu wiederholenden Zellen oben auf jeder Seite enthalten.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_font propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient un objet [LegendEntry.font](/cells/fr/python-net/aspose.cells.charts/leg
 
 ###  Remarques
 
- REMARQUE : ce membre est désormais obsolète.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
  veuillez utiliser la propriété LegendEntry.Font.
  Cette propriété sera supprimée 12 mois plus tard depuis JANVIER 2012.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

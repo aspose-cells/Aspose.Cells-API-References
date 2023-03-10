@@ -1,4 +1,4 @@
-﻿---
+---
 title: select_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def select_range(self, start_row, start_column, total_rows, total_columns, remov
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_row | int | La ligne de départ.|
 | start_column | int | La colonne de départ|

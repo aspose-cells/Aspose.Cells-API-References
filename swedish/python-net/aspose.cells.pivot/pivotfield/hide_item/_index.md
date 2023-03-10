@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_item metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def hide_item(self, index, is_hidden):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | indexet för pivotItem i pivotfältet.|
 | is_hidden | bool | om den specifika PivotItem är dold|
@@ -35,7 +35,7 @@ def hide_item(self, item_value, is_hidden):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | item_value | str | värdet för pivotItem i pivotfältet.|
 | is_hidden | bool | om den specifika PivotItem är dold|

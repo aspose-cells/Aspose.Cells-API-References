@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_column Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  end_column Eigentum
 
-Ruft die Endspalte dieses Bereichs ab oder legt diese fest.
+Ruft die Endspalte dieses Bereichs ab oder legt sie fest.
 
 ###  Siehe auch
 * Modul [aspose.cells](../../)

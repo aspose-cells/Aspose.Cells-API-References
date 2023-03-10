@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_by_fill_color الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

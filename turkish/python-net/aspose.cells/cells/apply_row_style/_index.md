@@ -1,4 +1,4 @@
-﻿---
+---
 title: apply_row_style yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Uygulanacak stil nesnesi.|

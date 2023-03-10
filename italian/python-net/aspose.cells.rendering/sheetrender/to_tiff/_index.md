@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo to_tiff
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | il flusso dell'immagine di output|
 
@@ -34,13 +34,13 @@ def to_tiff(self, filename):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | filename | str | il nome del file dell'immagine di output|
 
-###  Esempi
+###  Esempio
 
-Il codice seguente emette tutte le pagine del primo foglio in un'immagine Tiff.
+Il codice seguente emette tutte le pagine del primo foglio nell'immagine Tiff.
 
 ```python
 from aspose.cells import SaveFormat, Workbook

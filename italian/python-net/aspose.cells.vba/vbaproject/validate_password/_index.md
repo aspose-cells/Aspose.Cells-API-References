@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo validate_password
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def validate_password(self, password):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | password | str | la password|
 

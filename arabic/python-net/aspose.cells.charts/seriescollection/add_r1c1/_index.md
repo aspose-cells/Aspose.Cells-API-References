@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_r1c1
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_r1c1(self, area, is_vertical):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | area | str | يحدد القيم التي سيتم رسم سلسلة البيانات منها|
 | is_vertical | bool | يحدد ما إذا كان سيتم رسم السلسلة من نطاق من قيم الخلايا حسب الصف أو العمود.|

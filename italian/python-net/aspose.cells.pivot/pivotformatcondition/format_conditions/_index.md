@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_conditions proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  format_conditions proprietà
 
-Ottieni condizioni di formato per il formato della condizione della tabella pivot .
+Ottieni formatconditions per la condizione della tabella pivot format .
 ###  Definizione:
 ```python
 @property

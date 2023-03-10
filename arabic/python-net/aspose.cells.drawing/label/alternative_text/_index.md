@@ -1,4 +1,4 @@
-﻿---
+---
 title: alternative_text الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تحديد السلسلة النصية الوصفية (البديلة) للعنصر [Shape](/cells/ar/python-net/aspose.cells.drawing/shape).
 
-###  أمثلة
+###  مثال
 
 ```python
 

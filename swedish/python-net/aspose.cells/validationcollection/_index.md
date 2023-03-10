@@ -1,4 +1,4 @@
-﻿---
+---
 title: ValidationCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/validationcollection/
 is_root: false
 ---
 ##  ValidationCollection klass
-Representerar datavalideringssamlingar.
+Representerar insamling av datavalidering.
 
 
 
@@ -34,7 +34,7 @@ Typen ValidationCollection avslöjar följande medlemmar:
 | [last_index_of(item, index, count)](/cells/sv/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int-int) |Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som innehåller det angivna antalet element och slutar vid det angivna indexet.|
 | [remove_a_cell(row, column)](/cells/sv/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | Tar bort alla valideringsinställningar i cellen.|
 | [remove_area(ca)](/cells/sv/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | Tar bort alla valideringsinställningar på området..|
-| [get_validation_in_cell(row, column)](/cells/sv/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Får valideringen tillämpad på en given cell.|
+| [get_validation_in_cell(row, column)](/cells/sv/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Får valideringen tillämpad på given cell.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells/validationcollection/binary_search/#Validation) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 
 

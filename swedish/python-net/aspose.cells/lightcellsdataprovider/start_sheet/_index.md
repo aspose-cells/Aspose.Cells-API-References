@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Börjar spara ett kalkylblad.
 
 ###  Returnerar
 
-sant om denna leverantör kommer att tillhandahålla data för det givna bladet; falskt om det givna bladet ska använda sin normala datamodell (Cells).
+sant om denna leverantör kommer att tillhandahålla data för det givna bladet; false om ett givet ark ska använda sin normala datamodell (Cells).
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_index | int | index för aktuellt ark som ska sparas.|
 ###  Anmärkningar

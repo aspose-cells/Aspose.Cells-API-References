@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_cm mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_cm mülk
 
-Şeklin yüksekliğini santimetre cinsinden temsil eder.
+Şeklin santimetre cinsinden yüksekliğini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: next_row Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die nächste zu speichernde Zeile ab.
 
 ###  Kehrt zurück
 
--1 bedeutet, dass das Ende der aktuellen Blattdaten erreicht wurde und keine weitere Zeile des aktuellen Blatts gespeichert werden kann.
+der nächste zu speichernde Zeilenindex. -1 bedeutet, dass das Ende der aktuellen Blattdaten erreicht wurde und keine weitere Zeile des aktuellen Blatts gespeichert werden kann.
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlLoadOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/htmlloadoptions/__init__/
 is_root: false
 ---
 ##  HtmlLoadOptions() {#}
-ينشئ خيارًا لتحميل الملف.
+ينشئ خيارات لتحميل الملف.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlLoadOptions(load_format) {#LoadFormat}
-ينشئ خيارًا لتحميل الملف.
+ينشئ خيارات لتحميل الملف.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, load_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/ar/python-net/aspose.cells/loadformat) | تنسيق التحميل.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Top10
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -31,7 +31,7 @@ Il tipo Top10 espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: size fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size fastighet
 
- Hämtar och ställer in skuggans size. Spännvidd från 0 till 2,0.
+ Hämtar och ställer in size för skuggan. Spänner från 0 till 2,0.
 Meningslös i inre skugga.
 ###  Definition:
 ```python

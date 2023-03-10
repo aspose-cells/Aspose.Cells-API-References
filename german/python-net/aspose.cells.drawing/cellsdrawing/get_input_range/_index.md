@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_input_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -27,7 +27,7 @@ def get_input_range(self, is_r1c1, is_local):
 | is_r1c1 | bool | Ob die Formel als R1C1 formatiert werden muss.|
 | is_local | bool | Ob die Formel nach Gebietsschema formatiert werden muss.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

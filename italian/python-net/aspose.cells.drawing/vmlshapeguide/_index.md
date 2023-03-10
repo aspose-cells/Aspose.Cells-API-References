@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe VmlShapeGuide
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

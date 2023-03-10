@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProject الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -30,14 +30,14 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [sign(digital_signature)](/cells/ar/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | قم بتوقيع مشروع VBA هذا بواسطة توقيع رقمي|
+| [sign(digital_signature)](/cells/ar/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | قم بتوقيع مشروع VBA هذا بواسطة DigitalSignature|
 | [protect(islocked_for_viewing, password)](/cells/ar/python-net/aspose.cells.vba/vbaproject/protect/#bool-str) | يحمي أو يلغي حماية مشروع VBA هذا.|
 | [copy(source)](/cells/ar/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) | انسخ مشروع VBA من ملف آخر.|
 | [validate_password(password)](/cells/ar/python-net/aspose.cells.vba/vbaproject/validate_password/#str) | يتحقق من صحة كلمة مرور الحماية.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

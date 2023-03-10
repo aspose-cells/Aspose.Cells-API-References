@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_formulas_data الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionDataSourceType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,10 +18,10 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | ODBC_BASED_SOURCE | Источник на основе ODBC|
-| DAO_BASED_SOURCE | Источники на основе DAO|
+| DAO_BASED_SOURCE | Источник на основе DAO|
 | FILE_BASED_DATA_BASE_SOURCE | Источник базы данных на основе файлов|
-| WEB_QUERY | Веб-запросы|
-| OLEDB_BASED_SOURCE | Источники на основе OLE DB|
+| WEB_QUERY | Веб-запрос|
+| OLEDB_BASED_SOURCE | Источник на основе OLE DB|
 | TEXT_BASED_SOURCE | Текстовый источник|
 | ADO_RECORD_SET | Набор записей ADO|
 | DSP | DSP |

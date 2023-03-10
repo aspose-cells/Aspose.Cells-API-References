@@ -1,4 +1,4 @@
-﻿---
+---
 title: RadioButtonActiveXControl sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -26,8 +26,8 @@ RadioButtonActiveXControl türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/workbook) | [ActiveXControlBase.workbook](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook) nesnesini alır.|
 | [type](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/type) | ActiveX denetiminin türünü alır.|
-| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/width) |Denetimin genişliğini nokta birimleri cinsinden alır ve ayarlar.|
-| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/height) | Denetimin yüksekliğini nokta birimleri cinsinden alır ve ayarlar.|
+| [width](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/width) |Denetimin genişliğini nokta birimi cinsinden alır ve ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/height) | Kontrolün yüksekliğini puan birimi cinsinden alır ve ayarlar.|
 | [mouse_icon](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/mouse_icon) | Denetim için fare işaretçisi olarak görüntülenecek özel bir simge alır ve ayarlar.|
 | [mouse_pointer](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/mouse_pointer) | Denetim için fare işaretçisi olarak görüntülenen simge türünü alır ve ayarlar.|
 | [fore_ole_color](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/fore_ole_color) | Ön planın ole rengini alır ve ayarlar.|
@@ -52,12 +52,12 @@ RadioButtonActiveXControl türü aşağıdaki üyeleri gösterir:
 | [value](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/value) |Kontrolün kontrol edilip edilmediğini gösterir.|
 | [is_triple_state](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/is_triple_state) | Belirtilen kontrolün Boş değerleri nasıl görüntüleyeceğini gösterir.|
 | [group_name](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/group_name) | Grubun adını alır ve ayarlar.|
-| [alignment](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment) | Kontrole göre Caption konumunu alır ve ayarlar.|
+| [alignment](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment) | Kontrole göre Resim Yazısının konumunu alır ve ayarlar.|
 | [is_word_wrapped](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/is_word_wrapped) | Denetimin içeriğinin otomatik olarak bir satırın sonuna kaydırılıp kaydırılmayacağını gösterir.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose import pycore

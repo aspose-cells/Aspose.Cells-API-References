@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_cols_and_rows الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_cols_and_rows الملكية
 
-يشير إلى ما إذا كان يتم احتواء الأعمدة والصفوف تلقائيًا.
+يشير إلى ما إذا كان يتم احتواء الأعمدة والصفوف تلقائيًا. القيمة الافتراضية هي كاذبة.
 ###  تعريف:
 ```python
 @property

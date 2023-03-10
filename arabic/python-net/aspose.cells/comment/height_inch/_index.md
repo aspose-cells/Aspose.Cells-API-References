@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_inch الملكية
 
-يمثل ارتفاع التعليق بوحدات البوصة.
+يمثل ارتفاع التعليق بوحدة البوصة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

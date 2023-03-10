@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parse mülk
 
-parse formülünün verilip verilmediği. Varsayılan değer doğrudur.
+parse formülü verilmiş olsun. Varsayılan doğrudur.
 Yanlışsa, verilen formül dizesi, kullanıcı diğer yöntemleri parse'e çağırana kadar hücre için olduğu gibi tutulacaktır.
 veya ayrıştırılmış formül verileri, formül hesaplama gibi diğer işlemler için gereklidir.
 ###  Tanım:

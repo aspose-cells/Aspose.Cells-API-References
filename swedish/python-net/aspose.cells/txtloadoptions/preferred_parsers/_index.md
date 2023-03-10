@@ -1,4 +1,4 @@
-﻿---
+---
 title: preferred_parsers fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preferred_parsers fastighet
 
-Hämtar och ställer in föredragna värdeparsers för att ladda textfiler.
+Hämtar och ställer in föredragna värdeparsers för att ladda textfil.
 
 ###  Anmärkningar
 

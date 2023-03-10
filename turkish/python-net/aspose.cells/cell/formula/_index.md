@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -16,7 +16,7 @@ is_root: false
  formula dizesi her zaman eşittir işaretiyle (=) başlar.
 Ve lütfen "=SUM(A1, E1, H2)" gibi parametre ayırıcı olarak her zaman virgül(,) kullanın.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

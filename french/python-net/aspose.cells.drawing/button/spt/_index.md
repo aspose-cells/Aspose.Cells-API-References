@@ -1,4 +1,4 @@
-﻿---
+---
 title: spt propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie un nombre facultatif qu'une application peut utiliser pour associer la forme particulière à un type de forme défini.
 
-###  Exemples
+###  Exemple
 
 ```python
 

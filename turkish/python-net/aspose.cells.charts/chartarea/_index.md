@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartArea sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -28,7 +28,7 @@ ChartArea türü aşağıdaki üyeleri gösterir:
 | [text_font](/cells/tr/python-net/aspose.cells.charts/chartarea/text_font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
 | [text_options](/cells/tr/python-net/aspose.cells.charts/chartarea/text_options) | Metnin seçeneklerini alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.charts/chartarea/font) | Belirtilen chartarea nesnesinin [ChartArea.font](/cells/tr/python-net/aspose.cells.charts/chartarea#font) nesnesini alır.|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/chartarea/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/chartarea/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/chartarea/background) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Grafik çerçevesinin otomatik boyutlandırılıp boyutlandırılmadığını gösterir.|
@@ -52,7 +52,7 @@ ChartArea türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

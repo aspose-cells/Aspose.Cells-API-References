@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_range(self, row, start_column, end_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
 | start_column | int | Starta kolumnindex.|

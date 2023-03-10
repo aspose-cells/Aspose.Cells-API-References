@@ -1,4 +1,4 @@
-﻿---
+---
 title: quote_prefix fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  quote_prefix fastighet
 
-Anger om cellens värde börjar med ett enda citattecken.
+Anger om cellens värde börjar med enkla citattecken.
 ###  Definition:
 ```python
 @property

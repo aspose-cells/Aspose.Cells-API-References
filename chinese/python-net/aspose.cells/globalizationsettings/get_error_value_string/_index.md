@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_error_value_string方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -22,9 +22,9 @@ def get_error_value_string(self, err):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| err | str |#VALUE!,#NAME?等错误值|
+| err | str |错误值，例如#VALUE!、#NAME?|
 
 
 

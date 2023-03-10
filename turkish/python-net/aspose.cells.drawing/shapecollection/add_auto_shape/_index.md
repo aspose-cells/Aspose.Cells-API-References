@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_auto_shape yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,19 +22,19 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/tr/python-net/aspose.cells.drawing/autoshapetype) | Otomatik şekil türü.|
 | upper_left_row | int | Sol üst sıra dizini.|
 | top | int | Shape öğesinin sol satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
 | upper_left_column | int | Sol üst sütun dizini.|
 | left | int | Shape'in sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
-| height | int | Şeklin yüksekliğini piksel birimleri cinsinden temsil eder.|
-| width | int | Şeklin genişliğini piksel cinsinden temsil eder.|
+| height | int | Şeklin yüksekliğini piksel birimi cinsinden temsil eder.|
+| width | int | Şeklin genişliğini piksel birimi cinsinden temsil eder.|
 ###  Notlar
 
 Tür, Grafik/Yorum/Resim/OleObject/Polygon/DialogBox olamaz
-###  örnekler
+###  Örnek
 
 
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExceptionType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -37,7 +37,7 @@ is_root: false
 | INTERRUPTED | Процесс прерывается.|
 | IO | Файл недействителен.|
 | PERMISSION | Требуется разрешение, чтобы открыть этот файл.|
-| UNSUPPORTED_FEATURE | Неподдерживаемые функции.|
+| UNSUPPORTED_FEATURE | Неподдерживаемая функция.|
 | UNSUPPORTED_STREAM | Неподдерживаемый поток для открытия.|
 | UNDISCLOSED_INFORMATION | Файлы содержат некоторую нераскрытую информацию.|
 | FILE_CORRUPTED | Содержимое файла повреждено.|

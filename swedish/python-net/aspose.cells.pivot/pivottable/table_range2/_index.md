@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range2 fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range2 fastighet
 
 Returnerar ett CellArea-objekt som representerar intervallet som innehåller hela pivottabellsrapporten,
-inkluderar sidfält.
+inkluderar sidfält. Skrivskyddad.
 ###  Definition:
 ```python
 @property

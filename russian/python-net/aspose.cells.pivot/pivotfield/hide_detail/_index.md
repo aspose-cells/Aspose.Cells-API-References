@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_detail метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def hide_detail(self, is_hidden_detail):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | is_hidden_detail | bool | скрыты ли PivotItems|
 

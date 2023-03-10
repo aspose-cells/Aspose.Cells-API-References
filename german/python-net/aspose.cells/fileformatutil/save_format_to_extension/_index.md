@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_format_to_extension Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

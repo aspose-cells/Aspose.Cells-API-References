@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_refers_to
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def get_refers_to(self, is_r1c1, is_local):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_r1c1 | bool | ما إذا كان المرجع يحتاج إلى التنسيق R1C1.|
 | is_local | bool | ما إذا كان المرجع يحتاج إلى التنسيق بواسطة الإعدادات المحلية.|
@@ -35,7 +35,7 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_r1c1 | bool | ما إذا كان المرجع يحتاج إلى التنسيق R1C1.|
 | is_local | bool | ما إذا كان المرجع يحتاج إلى التنسيق بواسطة الإعدادات المحلية.|

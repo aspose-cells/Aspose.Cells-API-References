@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -28,7 +28,7 @@ def add(self, upper_left_row, upper_left_column, stream):
 | upper_left_column | int | Spaltenindex oben links.|
 | stream | io.RawIOBase | Stream-Objekt, das die Bilddaten enthält.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -60,7 +60,7 @@ def add(self, upper_left_row, upper_left_column, file_name):
 | upper_left_column | int | Spaltenindex oben links.|
 | file_name | str | Bilddateiname.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -93,7 +93,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Spaltenindex unten rechts|
 | stream | io.RawIOBase | Stream-Objekt, das die Bilddaten enthält.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -127,7 +127,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Spaltenindex unten rechts|
 | file_name | str | Bilddateiname.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -160,7 +160,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 | width_scale | int | Maßstab der Bildbreite, ein Prozentsatz.|
 | height_scale | int | Maßstab der Bildhöhe, ein Prozentsatz.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 
@@ -194,7 +194,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 | width_scale | int | Maßstab der Bildbreite, ein Prozentsatz.|
 | height_scale | int | Maßstab der Bildhöhe, ein Prozentsatz.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

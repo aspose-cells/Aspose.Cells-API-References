@@ -1,4 +1,4 @@
-﻿---
+---
 title: color fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color fastighet
 
-Skaffa eller ställ in denna DataBars färg.
+Hämta eller ställ in denna DataBars färg.
 ###  Definition:
 ```python
 @property

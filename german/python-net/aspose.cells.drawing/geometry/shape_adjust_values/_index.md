@@ -1,4 +1,4 @@
-﻿---
+---
 title: shape_adjust_values Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  shape_adjust_values Eigentum
 
-Ruft eine Auflistung von Formanpassungswerten ab
+Ruft eine Sammlung von Formanpassungswerten ab
 ###  Definition:
 ```python
 @property

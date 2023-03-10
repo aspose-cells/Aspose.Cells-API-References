@@ -1,4 +1,4 @@
-﻿---
+---
 title: x_ad_es_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  x_ad_es_type fastighet
 
 XAdES typ.
-Standardvärdet är Inget (XAdES är avstängt).
+Standardvärdet är None (XAdES är avstängt).
 ###  Definition:
 ```python
 @property

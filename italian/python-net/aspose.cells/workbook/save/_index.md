@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo save
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | Il nome del file.|
 | save_format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il tipo di formato di salvataggio.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | Il nome del file.|
 | save_options | [SaveOptions](/cells/it/python-net/aspose.cells/saveoptions) | Le opzioni di salvataggio.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di file.|
 | save_format | [SaveFormat](/cells/it/python-net/aspose.cells/saveformat) | Il tipo di formato del file di salvataggio.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | stream | io.RawIOBase | Il flusso di file.|
 | save_options | [SaveOptions](/cells/it/python-net/aspose.cells/saveoptions) | Le opzioni di salvataggio.|

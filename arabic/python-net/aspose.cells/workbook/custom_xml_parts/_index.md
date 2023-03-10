@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_xml_parts الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_error_check方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -22,7 +22,7 @@ def is_error_check(self, error_check_type):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/zh/python-net/aspose.cells/errorchecktype) |可以检查错误类型|
 

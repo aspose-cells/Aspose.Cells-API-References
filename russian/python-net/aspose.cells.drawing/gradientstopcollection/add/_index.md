@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | position | float | Положение стопа в процентах.|
 | color | [CellsColor](/cells/ru/python-net/aspose.cells/cellscolor) | Цвет остановки.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | position | float | Положение стопа в процентах.|
 | color | aspose.pydrawing.Color | Цвет остановки.|

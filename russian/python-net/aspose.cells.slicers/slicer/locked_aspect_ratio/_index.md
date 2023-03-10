@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_aspect_ratio недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, блокируется ли соотношение сторон.
 
-###  Примеры
+###  Пример
 
 ```python
 

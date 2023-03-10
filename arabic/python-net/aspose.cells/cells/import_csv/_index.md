@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة import_csv
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,11 +18,11 @@ def import_csv(self, file_name, options, first_row, first_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | CSV اسم الملف.|
-| options | [TxtLoadOptions](/cells/ar/python-net/aspose.cells/txtloadoptions) | خيارات التحميل لقراءة الملفات النصية|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| options | [TxtLoadOptions](/cells/ar/python-net/aspose.cells/txtloadoptions) | خيارات التحميل لقراءة ملف نصي|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 
 
@@ -37,11 +37,11 @@ def import_csv(self, stream, options, first_row, first_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار ملف CSV.|
-| options | [TxtLoadOptions](/cells/ar/python-net/aspose.cells/txtloadoptions) | خيارات التحميل لقراءة الملفات النصية|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| options | [TxtLoadOptions](/cells/ar/python-net/aspose.cells/txtloadoptions) | خيارات التحميل لقراءة ملف نصي|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 
 
@@ -56,12 +56,12 @@ def import_csv(self, file_name, splitter, convert_numeric_data, first_row, first
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | CSV اسم الملف.|
 | splitter | str | الخائن|
 | convert_numeric_data | bool |ما إذا كان يتم تحويل السلسلة في ملف نصي إلى بيانات رقمية.|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 
 
@@ -76,12 +76,12 @@ def import_csv(self, stream, splitter, convert_numeric_data, first_row, first_co
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | stream | io.RawIOBase | تيار ملف CSV.|
 | splitter | str | الخائن|
 | convert_numeric_data | bool |ما إذا كان يتم تحويل السلسلة في ملف نصي إلى بيانات رقمية.|
-| first_row | int | رقم صف الخلية الأولى المراد الاستيراد إليها.|
+| first_row | int | رقم صف الخلية الأولى المطلوب الاستيراد فيها.|
 | first_column | int | رقم العمود الخاص بالخلية الأولى التي سيتم الاستيراد فيها.|
 
 

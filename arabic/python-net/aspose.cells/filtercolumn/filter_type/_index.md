@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  filter_type الملكية
 
-الحصول على نوع تصفية البيانات وتعيينه.
+الحصول على وتعيين نوع بيانات التصفية.
 ###  تعريف:
 ```python
 @property

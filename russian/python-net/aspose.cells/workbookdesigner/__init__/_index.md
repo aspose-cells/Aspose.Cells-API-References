@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Файл рабочей книги шаблона.|
 

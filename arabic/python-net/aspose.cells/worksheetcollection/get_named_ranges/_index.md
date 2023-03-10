@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_named_ranges
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-مجموعة من كائنات النطاق.
+مصفوفة من كائنات النطاق.
 إذا كان مرجع الاسم المحدد خارجيًا أو له نطاقات متعددة ، فلن يتم إرجاع أي كائن نطاق لهذا الاسم.
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: BuiltInDocumentPropertyCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -34,7 +34,7 @@ Typen BuiltInDocumentPropertyCollection avslöjar följande medlemmar:
 | [content_status](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/content_status) | Hämtar eller ställer in innehållsstatus för dokumentet.|
 | [company](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/company) | Får eller sätter företagets egendom.|
 | [hyperlink_base](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/hyperlink_base) |Hämtar eller ställer in hyperlinkbase-egenskapen.|
-| [created_time](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_time) | Hämtar eller ställer in datumet då dokumentet skapades i lokal tidszon.|
+| [created_time](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_time) | Hämtar eller ställer in datum då dokumentet skapades i lokal tidszon.|
 | [created_universal_time](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_universal_time) | Hämtar eller ställer in den universella tiden för dokumentskapandet.|
 | [keywords](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/keywords) | Hämtar eller ställer in dokumentets nyckelord.|
 | [last_printed](/cells/sv/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_printed) | Hämtar eller ställer in datumet när dokumentet senast skrevs ut i lokal tidszon.|

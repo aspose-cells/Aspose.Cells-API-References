@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height_inch método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,10 +18,10 @@ def set_row_height_inch(self, row, inches):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
-| inches | float | Número de pulgadas Debe estar entre 0 y 409.5/72.|
+| inches | float | Número de pulgadas. Debe estar entre 0 y 409.5/72.|
 
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: ValidationAlertType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2630
@@ -14,7 +14,7 @@ is_root: false
 
 ValidationAlertType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | INFORMATION |信息警报样式。|

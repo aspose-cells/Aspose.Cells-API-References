@@ -1,4 +1,4 @@
-﻿---
+---
 title: negative_points_color fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  negative_points_color fastighet
 
-Får och ställer in färgen på de negativa värdena på sparklinegruppen.
+Hämtar och ställer in färgen på de negativa värdena på sparklinegruppen.
 ###  Definition:
 ```python
 @property

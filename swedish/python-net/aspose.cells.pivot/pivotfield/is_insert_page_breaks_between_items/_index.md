@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_insert_page_breaks_between_items fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

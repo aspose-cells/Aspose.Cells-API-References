@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_compatibility proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  check_compatibility proprietà
 
-Indica se verificare la compatibilità con le versioni precedenti durante il salvataggio delle cartelle di lavoro.
+Indica se verificare la compatibilità con le versioni precedenti durante il salvataggio della cartella di lavoro.
 
 ###  Osservazioni
 
-Il valore predefinito è true.
+Il valore predefinito è vero.
 Solo per file Excel97-2003 xls o xlt.
 ###  Definizione:
 ```python

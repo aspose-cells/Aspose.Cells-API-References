@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/pdfsaveoptions/__init__/
 is_root: false
 ---
 ##  PdfSaveOptions() {#}
-Skapar alternativen för att spara pdf-filer.
+Skapar alternativen för att spara pdf-fil.
 
 
 

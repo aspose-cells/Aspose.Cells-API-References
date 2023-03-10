@@ -1,6 +1,6 @@
-﻿---
+---
 title: ShapeCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 530
@@ -23,10 +23,10 @@ ShapeCollection 类型公开了以下成员：
 ### 方法
 |方法|描述|
 | :- | :- |
-| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) |在图表中添加一个形状。所有单位都是图表面积的 1/4000。|
-| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) |在图表中添加一个形状。所有单位都是图表面积的 1/4000。|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) |在图表中添加一个形状。所有单位都是图表面积的百分比比例。|
-| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) |在图表中添加一个形状。所有单位都是图表面积的 1/4000。|
+| [add_shape_in_chart(type, placement, left, top, right, bottom, image_data)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int-bytes) |添加图形到图表。所有单位是图表面积的 1/4000。|
+| [add_shape_in_chart(type, placement, left, top, right, bottom)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart/#MsoDrawingType-PlacementType-int-int-int-int) |添加图形到图表。所有单位是图表面积的 1/4000。|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float) |向图表添加形状。所有单位都是图表区域的百分比比例。|
+| [add_shape_in_chart_by_scale(type, placement, left, top, right, bottom, image_data)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_scale/#MsoDrawingType-PlacementType-float-float-float-float-bytes) |添加图形到图表。所有单位是图表面积的 1/4000。|
 | [add_picture(upper_left_row, upper_left_column, lower_right_row, lower_right_column, stream)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-int-int-io.RawIOBase) |将图片添加到集合中。|
 | [add_picture(upper_left_row, upper_left_column, stream, width_scale, height_scale)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_picture/#int-int-io.RawIOBase-int-int) |将图片添加到集合中。|
 | [copy_to(array)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/copy_to/#list) |将整个数组列表复制到兼容的一维数组列表，从目标数组列表的开头开始。|
@@ -36,7 +36,7 @@ ShapeCollection 类型公开了以下成员：
 | [last_index_of(item)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/last_index_of/#Shape) |搜索指定的对象并返回整个数组列表中最后一次出现的从零开始的索引。|
 | [last_index_of(item, index)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/last_index_of/#Shape-int) |搜索指定的对象并返回数组列表中从第一个元素到指定索引的元素范围内最后一次出现的从零开始的索引。|
 | [last_index_of(item, index, count)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/last_index_of/#Shape-int-int) |搜索指定的对象并返回数组列表中包含指定数量的元素并以指定索引结束的元素范围内最后一次出现的从零开始的索引。|
-| [add_copy(source_shape, upper_left_row, top, upper_left_column, left)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_copy/#Shape-int-int-int-int) |将形状添加并复制到工作表。|
+| [add_copy(source_shape, upper_left_row, top, upper_left_column, left)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_copy/#Shape-int-int-int-int) |添加形状并将其复制到工作表。|
 | [add_check_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_check_box/#int-int-int-int-int-int) |向工作表添加一个复选框。|
 | [add_text_box(upper_left_row, top, upper_left_column, left, height, width)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_text_box/#int-int-int-int-int-int) |向工作表添加文本框。|
 | [add_spinner(upper_left_row, top, upper_left_column, left, height, width)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/add_spinner/#int-int-int-int-int-int) |将微调器添加到工作表。|
@@ -70,7 +70,7 @@ ShapeCollection 类型公开了以下成员：
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) |复制范围内的所有评论。|
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) |将范围内的形状复制到目标范围。|
 | [delete_in_range(ca)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) |删除范围内的形状。注释形状不会被删除。|
-| [delete_shape(shape)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |删除形状，如果形状在组内或者是评论形状，则不会被删除。|
+| [delete_shape(shape)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |删除形状。如果形状在组中或者是评论形状，则不会被删除。|
 | [group(group_items)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/group/#list) |对形状进行分组。|
 | [ungroup(group)](/cells/zh/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) |取消组合形状项目。|
 | [update_selected_value()](/cells/zh/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) |通过形状的链接单元格的值更新所选值。|

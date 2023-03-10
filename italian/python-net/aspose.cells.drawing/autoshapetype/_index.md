@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoShapeType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -187,7 +187,7 @@ Il tipo AutoShapeType espone i membri seguenti:
 | TEXT_FADE_RIGHT | Una forma di testo che si restringe verticalmente sul lato destro.|
 | TEXT_FADE_LEFT | Una forma di testo che si restringe verticalmente sul lato sinistro.|
 | TEXT_FADE_UP | Una forma di testo che si restringe orizzontalmente in alto.|
-| TEXT_FADE_DOWN | Una forma di testo che si restringe orizzontalmente nella parte inferiore.|
+| TEXT_FADE_DOWN | Una forma di testo che si restringe orizzontalmente in basso.|
 | TEXT_SLANT_UP | Una forma di testo inclinata verso l'alto.|
 | TEXT_SLANT_DOWN | Una forma di testo inclinata verso il basso.|
 | TEXT_CAN_UP | Una forma di testo curvata verso l'alto come se fosse letta sul lato di una lattina.|

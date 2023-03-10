@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -27,7 +27,7 @@ ChartCollection türü aşağıdaki üyeleri gösterir:
 | [add(type, data_range, top_row, left_column, right_row, bottom_column)](/cells/tr/python-net/aspose.cells.charts/chartcollection/add/#ChartType-str-int-int-int-int) | Koleksiyona bir grafik ekler.|
 | [add(data, data_range, is_vertical, top_row, left_column, right_row, bottom_column)](/cells/tr/python-net/aspose.cells.charts/chartcollection/add/#bytes-str-bool-int-int-int-int) | Önceden ayarlanmış şablona sahip bir grafik ekler.|
 | [add(type, data_range, is_vertical, top_row, left_column, right_row, bottom_column)](/cells/tr/python-net/aspose.cells.charts/chartcollection/add/#ChartType-str-bool-int-int-int-int) | Koleksiyona bir grafik ekler.|
-| [get(index)](/cells/tr/python-net/aspose.cells.charts/chartcollection/get/#int) |API for Python .Net yoluyla ekleyin, çünkü bu [int dizini] desteklenmiyor|
+| [get(index)](/cells/tr/python-net/aspose.cells.charts/chartcollection/get/#int) |API for Python .Net yoluyla ekleyin, çünkü bu[int dizini] desteklenmiyor|
 | [get(name)](/cells/tr/python-net/aspose.cells.charts/chartcollection/get/#str) | API for Python .Net yoluyla ekleyin, çünkü bu[dize Tablosu] desteklenmiyor|
 | [copy_to(array)](/cells/tr/python-net/aspose.cells.charts/chartcollection/copy_to/#list) | Hedef dizi listesinin başından başlayarak tüm dizi listesini uyumlu bir tek boyutlu dizi listesine kopyalar.|
 | [copy_to(index, array, array_index, count)](/cells/tr/python-net/aspose.cells.charts/chartcollection/copy_to/#int-list-int-int) |Dizi listesindeki bir dizi öğeyi, hedef dizi listesinin belirtilen dizininden başlayarak uyumlu bir tek boyutlu dizi listesine kopyalar.|
@@ -41,7 +41,7 @@ ChartCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

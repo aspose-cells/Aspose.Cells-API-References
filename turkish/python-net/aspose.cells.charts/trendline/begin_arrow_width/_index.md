@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrow_width mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

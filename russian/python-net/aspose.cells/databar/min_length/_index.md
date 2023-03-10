@@ -1,4 +1,4 @@
-﻿---
+---
 title: min_length недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  min_length недвижимость
 
-Представляет минимальную длину панели данных.
+Представляет минимальную длину строки данных.
 ###  Определение:
 ```python
 @property

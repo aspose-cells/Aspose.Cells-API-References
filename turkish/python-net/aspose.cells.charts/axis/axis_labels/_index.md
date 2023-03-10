@@ -1,4 +1,4 @@
-﻿---
+---
 title: axis_labels mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels mülk
 
-Chart.Calculate() yöntemini çağırdıktan sonra eksenin etiketlerini alır.
+Chart.Calculate() yöntemi çağrıldıktan sonra eksenin etiketlerini alır.
 ###  Tanım:
 ```python
 @property

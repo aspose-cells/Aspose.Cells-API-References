@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo selected_item
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def selected_item(self, item_index, is_selected):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | item_index | int | L'indice degli articoli|
 | is_selected | bool | Se l'elemento è selezionato.<br/>True significa che questo elemento deve essere selezionato.<br/> Falso significa che questo elemento deve essere deselezionato.|

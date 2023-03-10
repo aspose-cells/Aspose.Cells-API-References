@@ -1,4 +1,4 @@
-﻿---
+---
 title: equals Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def equals(self, font):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| font | [Font](/cells/de/python-net/aspose.cells/font) |Schriftobjekte verglichen.|
+| font | [Font](/cells/de/python-net/aspose.cells/font) |Verglichenes Schriftobjekt.|
 
 
 

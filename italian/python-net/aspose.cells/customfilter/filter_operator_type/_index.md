@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_operator_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

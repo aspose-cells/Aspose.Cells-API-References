@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_auto_shape metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,15 +22,15 @@ def add_auto_shape(self, type, upper_left_row, top, upper_left_column, left, hei
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/sv/python-net/aspose.cells.drawing/autoshapetype) | Automatisk formtyp.|
 | upper_left_row | int | Övre vänstra radens index.|
 | top | int | Representerar den vertikala förskjutningen av Shape från dess vänstra rad, i pixelenhet.|
 | upper_left_column | int | Övre vänstra kolumnindex.|
 | left | int | Representerar den horisontella förskjutningen av Shape från dess vänstra kolumn, i pixelenhet.|
-| height | int | Representerar höjden på Shape, i enheter av pixlar.|
-| width | int | Representerar bredden på Shape, i enheter av pixlar.|
+| height | int | Representerar höjden på Shape, i pixelenhet.|
+| width | int | Representerar bredden på Shape, i pixelenhet.|
 ###  Anmärkningar
 
 Typen kunde inte vara Chart/Comment/Picture/OleObject/Polygon/DialogBox

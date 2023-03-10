@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch الملكية
 
-يمثل عرض التعليق بوحدات البوصة.
+يمثل عرض التعليق بوحدة البوصة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

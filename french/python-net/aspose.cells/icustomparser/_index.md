@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICustomParser classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/icustomparser/
 is_root: false
 ---
 ##  ICustomParser classe
-Permet aux utilisateurs d'ajouter leur analyseur de valeur personnalisé pour analyser les valeurs de chaîne à d'autres objets de valeur de cellule appropriés.
+Permet aux utilisateurs d'ajouter leur analyseur de valeur personnalisé pour analyser les valeurs de chaîne à un autre objet de valeur de cellule approprié.
 
 
 

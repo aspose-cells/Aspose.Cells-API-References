@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_position_auto método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

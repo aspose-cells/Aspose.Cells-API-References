@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ def __init__(self):
 ###  Примечания
 
 Тип формата файла по умолчанию — Xlsx. Чтобы создать файл другого формата, используйте Workbook (FileFormatType).
-###  Примеры
+###  Пример
 
 
 В следующем коде показано, как использовать конструктор Workbook для создания и инициализации нового экземпляра класса.
@@ -45,13 +45,13 @@ def __init__(self, file_format_type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/ru/python-net/aspose.cells/fileformattype) | Новый формат файла.|
 ###  Примечания
 
 Тип формата файла по умолчанию — Excel97To2003.
-###  Примеры
+###  Пример
 
 
 В следующем коде показано, как использовать конструктор Workbook для создания и инициализации нового экземпляра класса.
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | file | str | Имя файла.|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Поток.|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | file | str | Имя файла.|
 | load_options | [LoadOptions](/cells/ru/python-net/aspose.cells/loadoptions) | Параметры загрузки|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | stream | io.RawIOBase | Поток.|
 | load_options | [LoadOptions](/cells/ru/python-net/aspose.cells/loadoptions) | Параметры загрузки|

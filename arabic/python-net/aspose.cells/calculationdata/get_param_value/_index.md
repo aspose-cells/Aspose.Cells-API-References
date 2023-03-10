@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_param_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/calculationdata/get_param_value/
 is_root: false
 ---
 ##  get_param_value(index) {#int}
-الحصول على كائن القيمة الممثلة للمعلمة في الفهرس المحدد.
+الحصول على كائن القيمة الممثلة للمعلمة في فهرس معين.
 
 
 ###  عائدات
@@ -24,7 +24,7 @@ def get_param_value(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس المعلمة (0 على أساس)|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_images_as_base64 propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

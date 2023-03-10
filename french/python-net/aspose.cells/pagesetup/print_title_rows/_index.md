@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_rows propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente les lignes contenant les cellules à répéter en haut de chaque page.
 
-###  Exemples
+###  Exemple
 
 ```python
 

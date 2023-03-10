@@ -1,6 +1,6 @@
-﻿---
+---
 title: FilterOperatorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2050
@@ -14,7 +14,7 @@ is_root: false
 
 FilterOperatorType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | LESS_OR_EQUAL |表示 LessOrEqual 运算符。|
@@ -22,7 +22,7 @@ FilterOperatorType 类型公开了以下成员：
 | EQUAL |表示等于运算符。|
 | GREATER_THAN |表示大于运算符。|
 | NOT_EQUAL |表示 NotEqual 运算符。|
-| GREATER_OR_EQUAL |表示大于或等于运算符。|
+| GREATER_OR_EQUAL |表示 GreaterOrEqual 运算符。|
 | NONE |代表没有比较。|
 | BEGINS_WITH |从正文开始。|
 | ENDS_WITH |以正文结尾。|

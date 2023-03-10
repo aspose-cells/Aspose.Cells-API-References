@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ValidationCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/validationcollection/
 is_root: false
 ---
 ##  classe ValidationCollection
-Rappresenta le raccolte di convalida dei dati.
+Rappresenta la raccolta di convalida dei dati.
 
 
 
@@ -34,12 +34,12 @@ Il tipo ValidationCollection espone i membri seguenti:
 | [last_index_of(item, index, count)](/cells/it/python-net/aspose.cells/validationcollection/last_index_of/#Validation-int-int) |Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occorrenza all'interno dell'intervallo di elementi nell'elenco di matrici che contiene il numero specificato di elementi e termina con l'indice specificato.|
 | [remove_a_cell(row, column)](/cells/it/python-net/aspose.cells/validationcollection/remove_a_cell/#int-int) | Rimuove tutte le impostazioni di convalida sulla cella.|
 | [remove_area(ca)](/cells/it/python-net/aspose.cells/validationcollection/remove_area/#CellArea) | Rimuove tutte le impostazioni di convalida sull'intervallo..|
-| [get_validation_in_cell(row, column)](/cells/it/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Ottiene la convalida applicata a una determinata cella.|
+| [get_validation_in_cell(row, column)](/cells/it/python-net/aspose.cells/validationcollection/get_validation_in_cell/#int-int) | Ottiene la convalida applicata alla cella specificata.|
 | [binary_search(item)](/cells/it/python-net/aspose.cells/validationcollection/binary_search/#Validation) | Cerca un elemento nell'intero elenco di matrici ordinate utilizzando l'operatore di confronto predefinito e restituisce l'indice in base zero dell'elemento.|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea, ValidationType, Workbook

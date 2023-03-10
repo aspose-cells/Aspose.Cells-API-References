@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe WebExtensionPropertyCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.webextensions/webextensionpropertycollection/
 is_root: false
 ---
 ##  classe WebExtensionPropertyCollection
-Rappresenta l'elenco delle proprietà dell'estensione Web.
+Rappresenta l'elenco delle proprietà dell'estensione web.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TickMarkType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,9 +18,9 @@ TickMarkType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | CROSS | Onay işareti türü Çapraz'dır.|
-| INSIDE | Tik işareti türü İç'tir.|
+| INSIDE | Onay işareti türü Inside'dır.|
 | NONE |Onay işareti türü Yok'tur.|
-| OUTSIDE | Tik işareti türü Dışındadır|
+| OUTSIDE | Onay işareti türü Dışındadır|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type DataSorter expose les membres suivants :
 | [key3](/cells/fr/python-net/aspose.cells/datasorter/key3) | Représente le troisième index de colonne trié (position absolue, la colonne A est 0, B est 1, ...).|
 | [order3](/cells/fr/python-net/aspose.cells/datasorter/order3) | Représente l'ordre de tri de la troisième clé.|
 | [sort_left_to_right](/cells/fr/python-net/aspose.cells/datasorter/sort_left_to_right) | True signifie que l'orientation du tri est de gauche à droite.<br/>False signifie que l'orientation du tri est de haut en bas.<br/> La valeur par défaut est faux.|
-| [case_sensitive](/cells/fr/python-net/aspose.cells/datasorter/case_sensitive) | Obtient et définit si la casse est sensible lors de la comparaison de chaînes.|
+| [case_sensitive](/cells/fr/python-net/aspose.cells/datasorter/case_sensitive) | Obtient et définit si la casse est sensible lors de la comparaison de chaîne.|
 | [sort_as_number](/cells/fr/python-net/aspose.cells/datasorter/sort_as_number) | Indique s'il faut trier tout ce qui ressemble à un nombre.|
 
 
@@ -44,7 +44,7 @@ Le type DataSorter expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import CellArea, SortOrder, Workbook

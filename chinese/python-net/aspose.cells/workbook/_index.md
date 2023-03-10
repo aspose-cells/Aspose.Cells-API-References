@@ -1,6 +1,6 @@
-﻿---
+---
 title: Workbook类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1590
@@ -122,13 +122,13 @@ Workbook 类型公开了以下成员：
 
 ### 评论
 
-Workbook 类表示 Excel 电子表格。
+Workbook 类表示 Excel 电子表格。每个电子表格可以包含多个工作表。
 该类的基本功能是打开和保存本机 excel 文件。
 该类具有一些高级功能，如从其他工作簿复制数据、合并两个工作簿和保护 Excel 电子表格。
 
 ### 例子
 
-下面的示例从名为 designer.xls 的文件中加载一个 Workbook，并使 Workbook 的水平和垂直滚动条不可见。然后在电子表格中分别用 Integer 值和字符串值替换两个字符串值，最后发送更新后的值文件到客户端浏览器。
+以下示例从名为 designer.xls 的文件中加载 Workbook，并使 Workbook 的水平和垂直滚动条不可见。然后在电子表格中分别用整数值和字符串值替换两个字符串值，最后将更新后的文件发送到客户端浏览器。
 
 ```python
 from aspose.cells import Workbook

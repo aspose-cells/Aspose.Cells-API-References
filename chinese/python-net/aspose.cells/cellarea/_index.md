@@ -1,6 +1,6 @@
-﻿---
+---
 title: CellArea类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 150
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/cellarea/
 is_root: false
 ---
 ## CellArea类
-代表一个区域的细胞。
+表示一个单元格区域。
 
 
 

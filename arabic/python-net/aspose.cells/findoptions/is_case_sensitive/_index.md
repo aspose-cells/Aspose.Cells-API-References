@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_case_sensitive الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
  الرجاء استخدام خاصية FindOptions.CaseSensitive.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ يونيو 2010.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

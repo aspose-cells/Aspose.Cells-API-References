@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_count_of_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-عدد النطاقات التي تتأثر بهذا الإعداد.
+عدد النطاقات التي تأثرت بهذا الإعداد.
 
 
 ```python

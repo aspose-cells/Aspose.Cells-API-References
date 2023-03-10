@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_ruler_visible недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible недвижимость
 
-Указывает, видна ли линейка.
+Указывает, видна ли линейка. Это свойство применяется только для предварительного просмотра разрыва страницы.
 ###  Определение:
 ```python
 @property

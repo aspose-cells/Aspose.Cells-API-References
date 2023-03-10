@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chart sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ Chart türü aşağıdaki üyeleri gösterir:
 | [hide_pivot_field_buttons](/cells/tr/python-net/aspose.cells.charts/chart/hide_pivot_field_buttons) |Pivot grafik alan düğmelerinin yalnızca grafik PivotChart olduğunda gizlenip gizlenmediğini gösterir.|
 | [pivot_options](/cells/tr/python-net/aspose.cells.charts/chart/pivot_options) | Grafikte görünen pivot kontrollerini belirtir|
 | [pivot_source](/cells/tr/python-net/aspose.cells.charts/chart/pivot_source) | Kaynak, pivotTable'ın verileridir.<br/> PivotSource boş değilse, grafik PivotChart'tır.|
-| [plot_by](/cells/tr/python-net/aspose.cells.charts/chart/plot_by) | Çizginin satıra mı yoksa sütuna mı göre çizileceğini alır ve ayarlar.|
+| [plot_by](/cells/tr/python-net/aspose.cells.charts/chart/plot_by) | Alır ve arsa satır veya sütun olup olmadığını ayarlar.|
 | [plot_empty_cells_type](/cells/tr/python-net/aspose.cells.charts/chart/plot_empty_cells_type) | Boş hücrelerin nasıl çizileceğini alır ve ayarlar.|
 | [plot_visible_cells](/cells/tr/python-net/aspose.cells.charts/chart/plot_visible_cells) | Yalnızca görünür hücreleri çizip çizmediğini gösterir.|
 | [plot_visible_cells_only](/cells/tr/python-net/aspose.cells.charts/chart/plot_visible_cells_only) | Yalnızca görünür hücreleri çizip çizmediğini gösterir.|
@@ -45,10 +45,10 @@ Chart türü aşağıdaki üyeleri gösterir:
 | [series_axis](/cells/tr/python-net/aspose.cells.charts/chart/series_axis) | Grafiğin seri eksenini alır.|
 | [legend](/cells/tr/python-net/aspose.cells.charts/chart/legend) | Grafik efsanesini alır.|
 | [chart_data_table](/cells/tr/python-net/aspose.cells.charts/chart/chart_data_table) | Grafik veri tablosunu temsil eder.|
-| [show_legend](/cells/tr/python-net/aspose.cells.charts/chart/show_legend) | Grafik açıklamasının görüntülenip görüntülenmeyeceğini gösteren bir değer alır veya ayarlar.Varsayılan değer true'dur.|
+| [show_legend](/cells/tr/python-net/aspose.cells.charts/chart/show_legend) | Grafik açıklamasının görüntülenip görüntülenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan doğrudur.|
 | [is_rectangular_cornered](/cells/tr/python-net/aspose.cells.charts/chart/is_rectangular_cornered) | Grafik alanının dikdörtgen köşeli olup olmadığını gösteren bir değer alır veya ayarlar.<br/> Varsayılan doğrudur.|
 | [show_data_table](/cells/tr/python-net/aspose.cells.charts/chart/show_data_table) | Grafiğin bir veri tablosu gösterip göstermediğini gösteren bir değer alır veya ayarlar.|
-| [first_slice_angle](/cells/tr/python-net/aspose.cells.charts/chart/first_slice_angle) | Derece cinsinden (dikeyden saat yönünde) ilk pasta grafiğin veya halka grafik diliminin açısını alır veya ayarlar. Yalnızca pasta, 3-B pasta ve halka grafikler için geçerlidir, 0 - 360.|
+| [first_slice_angle](/cells/tr/python-net/aspose.cells.charts/chart/first_slice_angle) | Derece cinsinden (dikeyden saat yönünde) ilk pasta grafik veya halka grafik diliminin açısını alır veya ayarlar. Yalnızca pasta, 3-B pasta ve halka grafikler, 0 - 360 için geçerlidir.|
 | [gap_width](/cells/tr/python-net/aspose.cells.charts/chart/gap_width) | Çubuk veya sütun kümeleri arasındaki boşluğu, çubuk veya sütun genişliğinin yüzdesi olarak döndürür veya ayarlar.<br/>Bu özelliğin değeri 0 ile 500 arasında olmalıdır.|
 | [gap_depth](/cells/tr/python-net/aspose.cells.charts/chart/gap_depth) | 3-B grafikteki veri serileri arasındaki mesafeyi işaretçi genişliğinin yüzdesi olarak alır veya ayarlar.<br/>Bu özelliğin değeri 0 ile 500 arasında olmalıdır.|
 | [floor](/cells/tr/python-net/aspose.cells.charts/chart/floor) | 3-B grafiğin duvarlarını temsil eden bir [Chart.floor](/cells/tr/python-net/aspose.cells.charts/chart#floor) nesnesi döndürür.|
@@ -58,11 +58,11 @@ Chart türü aşağıdaki üyeleri gösterir:
 | [walls_and_gridlines_2d](/cells/tr/python-net/aspose.cells.charts/chart/walls_and_gridlines_2d) | Kılavuz çizgileri 3 boyutlu bir grafikte iki boyutlu olarak çizilirse doğrudur.|
 | [rotation_angle](/cells/tr/python-net/aspose.cells.charts/chart/rotation_angle) | 3-B grafik görünümünün dönüşünü temsil eder (çizgi alanının derece cinsinden z ekseni etrafındaki dönüşü).|
 | [elevation](/cells/tr/python-net/aspose.cells.charts/chart/elevation) | Derece cinsinden 3 boyutlu harita görünümünün yüksekliğini temsil eder.|
-| [right_angle_axes](/cells/tr/python-net/aspose.cells.charts/chart/right_angle_axes) | Grafik eksenleri dik açıdaysa doğrudur. Yalnızca 3-B grafikler için geçerlidir (Column3D ve 3-D Pasta Grafikler hariç).|
-| [auto_scaling](/cells/tr/python-net/aspose.cells.charts/chart/auto_scaling) | Microsoft Excel bir 3-B grafiği boyut olarak eşdeğer 2-B grafiğe daha yakın olacak şekilde ölçeklerse doğrudur.<br/> Sağ Açı Eksenleri özelliği True olmalıdır.|
+| [right_angle_axes](/cells/tr/python-net/aspose.cells.charts/chart/right_angle_axes) | Grafik eksenleri dik açıdaysa doğrudur. Yalnızca 3-B grafikler için geçerlidir (Column3D ve 3-B Pasta Grafikler hariç).|
+| [auto_scaling](/cells/tr/python-net/aspose.cells.charts/chart/auto_scaling) | Microsoft Excel bir 3-B grafiği boyut olarak eşdeğer 2-B grafiğe daha yakın olacak şekilde ölçeklerse doğrudur.<br/> RightAngleAxes özelliği True olmalıdır.|
 | [height_percent](/cells/tr/python-net/aspose.cells.charts/chart/height_percent) |3-B grafiğin yüksekliğini grafik genişliğinin yüzdesi olarak döndürür veya ayarlar (yüzde 5 ile 500 arasında).|
 | [perspective](/cells/tr/python-net/aspose.cells.charts/chart/perspective) | 3 boyutlu harita görünümü için perspektifi döndürür veya ayarlar. 0 ile 100 arasında olmalıdır.<br/> RightAngleAxes özelliği True ise bu özellik yoksayılır.|
-| [is_3d](/cells/tr/python-net/aspose.cells.charts/chart/is_3d) | Grafiğin bir 3B grafik olup olmadığını gösterir.|
+| [is_3d](/cells/tr/python-net/aspose.cells.charts/chart/is_3d) | Grafiğin 3 boyutlu bir grafik olup olmadığını gösterir.|
 | [depth_percent](/cells/tr/python-net/aspose.cells.charts/chart/depth_percent) | 3-B grafiğin derinliğini grafik genişliğinin yüzdesi olarak temsil eder (yüzde 20 ile 2000 arasında).|
 | [actual_chart_size](/cells/tr/python-net/aspose.cells.charts/chart/actual_chart_size) | Grafiğin gerçek boyutunu piksel birimi cinsinden alır.|
 | [placement](/cells/tr/python-net/aspose.cells.charts/chart/placement) | Grafiğin altındaki hücrelere iliştirilme şeklini temsil eder.|
@@ -97,7 +97,7 @@ Chart türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

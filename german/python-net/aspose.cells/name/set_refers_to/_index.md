@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_refers_to Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

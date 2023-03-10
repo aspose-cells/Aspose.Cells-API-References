@@ -1,4 +1,4 @@
-﻿---
+---
 title: far_east_name propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name propriété
 
-Obtient et définit le nom de l'Extrême-Orient.
+Obtient et définit le nom FarEast.
 ###  Définition:
 ```python
 @property

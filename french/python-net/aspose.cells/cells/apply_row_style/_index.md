@@ -1,4 +1,4 @@
-﻿---
+---
 title: apply_row_style méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,11 +18,11 @@ def apply_row_style(self, row, style, flag):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row | int | L'index de ligne.|
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | L'objet de style qui sera appliqué.|
-| flag | [StyleFlag](/cells/fr/python-net/aspose.cells/styleflag) |Indicateurs qui indiquent les propriétés de formatage appliquées.|
+| flag | [StyleFlag](/cells/fr/python-net/aspose.cells/styleflag) |Indicateurs indiquant les propriétés de formatage appliquées.|
 
 
 

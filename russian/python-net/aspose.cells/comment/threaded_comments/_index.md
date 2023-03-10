@@ -1,4 +1,4 @@
-﻿---
+---
 title: threaded_comments недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает список цепочек комментариев;
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_value
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene il valore della cella con un determinato offset dall'angolo in alto a si
 
 ###  ritorna
 
-"#REF!" se quest'area non è valida;
+"#RIF!" se quest'area non è valida;
 "#N/A" se viene specificato l'offset al di fuori di quest'area;
 Altrimenti restituisce il valore della cella in una data posizione.
 
@@ -24,7 +24,7 @@ def get_value(self, row_offset, col_offset):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_offset | int | scostamento riga dalla riga iniziale di quest'area|
 | col_offset | int |scostamento di colonna dalla riga iniziale di quest'area|
@@ -36,7 +36,7 @@ Ottiene il valore della cella con un determinato offset dall'angolo in alto a si
 
 ###  ritorna
 
-"#REF!" se quest'area non è valida;
+"#RIF!" se quest'area non è valida;
 "#N/A" se viene specificato l'offset al di fuori di quest'area;
 Altrimenti restituisce il valore della cella in una data posizione.
 
@@ -47,11 +47,11 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row_offset | int | scostamento riga dalla riga iniziale di quest'area|
 | col_offset | int |scostamento di colonna dalla riga iniziale di quest'area|
-| calculate_formulas | bool | Se lo calcola in modo ricorsivo se il riferimento specificato è una formula|
+| calculate_formulas | bool | Indica se calcolarlo in modo ricorsivo se il riferimento specificato è una formula|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OleObject classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -28,15 +28,15 @@ Le type OleObject expose les membres suivants :
 | [z_order_position](/cells/fr/python-net/aspose.cells.drawing/oleobject/z_order_position) | Renvoie la position d'une forme dans l'ordre z.|
 | [name](/cells/fr/python-net/aspose.cells.drawing/oleobject/name) | Obtient et définit le nom de la forme.|
 | [alternative_text](/cells/fr/python-net/aspose.cells.drawing/oleobject/alternative_text) | Renvoie ou définit la chaîne de texte descriptive (alternative) de l'objet [Shape](/cells/fr/python-net/aspose.cells.drawing/shape).|
-| [title](/cells/fr/python-net/aspose.cells.drawing/oleobject/title) |Spécifie le titre (légende) de l'objet forme actuel.|
+| [title](/cells/fr/python-net/aspose.cells.drawing/oleobject/title) |Spécifie le titre (légende) de l'objet forme courant.|
 | [line_format](/cells/fr/python-net/aspose.cells.drawing/oleobject/line_format) | Renvoie un objet MsoLineFormat qui contient les propriétés de mise en forme des lignes pour la forme spécifiée.|
 | [fill_format](/cells/fr/python-net/aspose.cells.drawing/oleobject/fill_format) | Renvoie un objet MsoFillFormat qui contient les propriétés de mise en forme de remplissage pour la forme spécifiée.|
 | [format](/cells/fr/python-net/aspose.cells.drawing/oleobject/format) | Représente le paramètre de mise en forme de la forme.|
 | [line](/cells/fr/python-net/aspose.cells.drawing/oleobject/line) | Obtient le style de ligne|
 | [fill](/cells/fr/python-net/aspose.cells.drawing/oleobject/fill) | Renvoie un objet [Shape.fill_format](/cells/fr/python-net/aspose.cells.drawing/shape#fill_format) qui contient les propriétés de formatage de remplissage pour la forme spécifiée.|
-| [shadow_effect](/cells/fr/python-net/aspose.cells.drawing/oleobject/shadow_effect) | Représente un objet [ShadowEffect](/cells/fr/python-net/aspose.cells.drawing/shadoweffect) qui spécifie un effet d'ombre pour l'élément ou la forme du graphique.|
+| [shadow_effect](/cells/fr/python-net/aspose.cells.drawing/oleobject/shadow_effect) | Représente un objet [ShadowEffect](/cells/fr/python-net/aspose.cells.drawing/shadoweffect) qui spécifie l'effet d'ombre pour l'élément ou la forme du graphique.|
 | [reflection](/cells/fr/python-net/aspose.cells.drawing/oleobject/reflection) | Représente un objet [ReflectionEffect](/cells/fr/python-net/aspose.cells.drawing/reflectioneffect) qui spécifie l'effet de réflexion pour l'élément ou la forme du graphique.|
-| [glow](/cells/fr/python-net/aspose.cells.drawing/oleobject/glow) | Représente un objet [GlowEffect](/cells/fr/python-net/aspose.cells.drawing/gloweffect) qui spécifie un effet d'éclat pour l'élément ou la forme du graphique.|
+| [glow](/cells/fr/python-net/aspose.cells.drawing/oleobject/glow) | Représente un objet [GlowEffect](/cells/fr/python-net/aspose.cells.drawing/gloweffect) qui spécifie l'effet de lueur pour l'élément ou la forme du graphique.|
 | [soft_edges](/cells/fr/python-net/aspose.cells.drawing/oleobject/soft_edges) | Obtient et définit le rayon de flou à appliquer aux bords, en unités de points.|
 | [three_d_format](/cells/fr/python-net/aspose.cells.drawing/oleobject/three_d_format) | Obtient et définit le format 3D de la forme.|
 | [text_frame](/cells/fr/python-net/aspose.cells.drawing/oleobject/text_frame) | Renvoie un objet TextFrame qui contient les propriétés d'alignement et d'ancrage de la forme spécifiée.|
@@ -69,29 +69,29 @@ Le type OleObject expose les membres suivants :
 | [lower_delta_x](/cells/fr/python-net/aspose.cells.drawing/oleobject/lower_delta_x) | Obtient ou définit le décalage horizontal de la forme par rapport à sa colonne d'angle inférieur droit.|
 | [right](/cells/fr/python-net/aspose.cells.drawing/oleobject/right) | Représente la largeur du décalage horizontal de la forme par rapport à sa colonne d'angle inférieur droit, en pixels.|
 | [bottom](/cells/fr/python-net/aspose.cells.drawing/oleobject/bottom) |Représente la largeur du décalage vertical de la forme par rapport à sa ligne d'angle inférieure inférieure, en pixels.|
-| [width](/cells/fr/python-net/aspose.cells.drawing/oleobject/width) | Représente la largeur de la forme, en unités de pixels.|
+| [width](/cells/fr/python-net/aspose.cells.drawing/oleobject/width) | Représente la largeur de la forme, en pixels.|
 | [width_inch](/cells/fr/python-net/aspose.cells.drawing/oleobject/width_inch) | Représente la largeur de la forme, en pouces.|
-| [width_pt](/cells/fr/python-net/aspose.cells.drawing/oleobject/width_pt) | Représente la largeur de la forme, en unités de points.|
+| [width_pt](/cells/fr/python-net/aspose.cells.drawing/oleobject/width_pt) | Représente la largeur de la forme, en unité de point.|
 | [width_cm](/cells/fr/python-net/aspose.cells.drawing/oleobject/width_cm) | Représente la largeur de la forme, en centimètres.|
-| [height](/cells/fr/python-net/aspose.cells.drawing/oleobject/height) | Représente la hauteur de la forme, en unités de pixels.|
+| [height](/cells/fr/python-net/aspose.cells.drawing/oleobject/height) | Représente la hauteur de la forme, en unité de pixel.|
 | [height_inch](/cells/fr/python-net/aspose.cells.drawing/oleobject/height_inch) | Représente la hauteur de la forme, en pouces.|
-| [height_pt](/cells/fr/python-net/aspose.cells.drawing/oleobject/height_pt) | Représente la hauteur de la forme, en unités de points.|
+| [height_pt](/cells/fr/python-net/aspose.cells.drawing/oleobject/height_pt) | Représente la hauteur de la forme, en unité de points.|
 | [height_cm](/cells/fr/python-net/aspose.cells.drawing/oleobject/height_cm) | Représente la hauteur de la forme, en centimètres.|
 | [left](/cells/fr/python-net/aspose.cells.drawing/oleobject/left) | Représente le décalage horizontal de la forme par rapport à sa colonne de gauche, en pixels.|
 | [left_inch](/cells/fr/python-net/aspose.cells.drawing/oleobject/left_inch) | Représente le décalage horizontal de la forme par rapport à sa colonne de gauche, en pouces.|
 | [left_cm](/cells/fr/python-net/aspose.cells.drawing/oleobject/left_cm) | Représente le décalage horizontal de la forme par rapport à sa colonne de gauche, en centimètres.|
 | [top](/cells/fr/python-net/aspose.cells.drawing/oleobject/top) | Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en pixels.|
-| [top_inch](/cells/fr/python-net/aspose.cells.drawing/oleobject/top_inch) |Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en unités de pouces.|
-| [top_cm](/cells/fr/python-net/aspose.cells.drawing/oleobject/top_cm) | Représente le décalage vertical de la forme par rapport à sa ligne supérieure, en centimètres.|
+| [top_inch](/cells/fr/python-net/aspose.cells.drawing/oleobject/top_inch) |Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en pouces.|
+| [top_cm](/cells/fr/python-net/aspose.cells.drawing/oleobject/top_cm) | Représente le décalage vertical de la forme par rapport à sa rangée supérieure, en centimètres.|
 | [top_to_corner](/cells/fr/python-net/aspose.cells.drawing/oleobject/top_to_corner) | Obtient et définit le décalage vertical de la forme par rapport à la bordure supérieure de la feuille de calcul, en pixels.|
 | [left_to_corner](/cells/fr/python-net/aspose.cells.drawing/oleobject/left_to_corner) | Obtient et définit le décalage horizontal de la forme par rapport à la bordure gauche de la feuille de calcul.|
-| [x](/cells/fr/python-net/aspose.cells.drawing/oleobject/x) | Obtient et définit le décalage horizontal de la forme à partir de la bordure gauche de la feuille de calcul, en pixels.|
+| [x](/cells/fr/python-net/aspose.cells.drawing/oleobject/x) | Obtient et définit le décalage horizontal de la forme par rapport à la bordure gauche de la feuille de calcul, en pixels.|
 | [y](/cells/fr/python-net/aspose.cells.drawing/oleobject/y) | Obtient et définit le décalage vertical de la forme par rapport à la bordure supérieure de la feuille de calcul, en pixels.|
 | [width_scale](/cells/fr/python-net/aspose.cells.drawing/oleobject/width_scale) | Obtient et définit l'échelle de largeur, en pourcentage de la largeur de l'image d'origine.<br/> Si la forme n'est pas picture , la propriété WidthScale ne renvoie que 100 ;|
-| [height_scale](/cells/fr/python-net/aspose.cells.drawing/oleobject/height_scale) | Obtient et définit l'échelle de hauteur, en pourcentage de la hauteur de l'image d'origine.<br/> Si la forme n'est pas picture , la propriété HeightScale renvoie uniquement 100 ;|
+| [height_scale](/cells/fr/python-net/aspose.cells.drawing/oleobject/height_scale) | Obtient et définit l'échelle de hauteur, en pourcentage de la hauteur de l'image d'origine.<br/> Si la forme n'est pas picture , la propriété HeightScale ne renvoie que 100 ;|
 | [top_in_shape](/cells/fr/python-net/aspose.cells.drawing/oleobject/top_in_shape) | Représente le décalage vertical de la forme par rapport à la bordure supérieure de la forme parent,<br/> en unité de 1/4000 de hauteur de la forme parent.|
 | [left_in_shape](/cells/fr/python-net/aspose.cells.drawing/oleobject/left_in_shape) |Représente le décalage horizontal de la forme par rapport à la bordure gauche de la forme parent,<br/> en unité de 1/4000 de largeur de la forme parent.|
-| [width_in_shape](/cells/fr/python-net/aspose.cells.drawing/oleobject/width_in_shape) | Représente la largeur de la forme, en unités de 1/4000 de la forme parent.|
+| [width_in_shape](/cells/fr/python-net/aspose.cells.drawing/oleobject/width_in_shape) | Représente la largeur de la forme, en unité de 1/4000 de la forme parent.|
 | [height_in_shape](/cells/fr/python-net/aspose.cells.drawing/oleobject/height_in_shape) | Représente le décalage vertical de la forme par rapport à la bordure supérieure de la forme parent, en unité de 1/4000 de hauteur de la forme parent.|
 | [group](/cells/fr/python-net/aspose.cells.drawing/oleobject/group) | Obtient la forme de groupe qui contient cette forme.|
 | [type](/cells/fr/python-net/aspose.cells.drawing/oleobject/type) | Obtient le type de forme automatique.|
@@ -136,7 +136,7 @@ Le type OleObject expose les membres suivants :
 | [label](/cells/fr/python-net/aspose.cells.drawing/oleobject/label) | Obtient et définit l'étiquette d'affichage de l'objet ole lié.|
 | [source_full_name](/cells/fr/python-net/aspose.cells.drawing/oleobject/source_full_name) | Renvoie le nom complet de la source du fichier source de l'objet OLE lié.|
 | [auto_update](/cells/fr/python-net/aspose.cells.drawing/oleobject/auto_update) | Spécifie si le lien vers l'OleObject est automatiquement mis à jour ou non.|
-| [auto_load](/cells/fr/python-net/aspose.cells.drawing/oleobject/auto_load) | Spécifie si l'application hôte de l'objet intégré doit être appelée pour charger<br/> les données d'objet automatiquement lorsque le classeur parent est ouvert.|
+| [auto_load](/cells/fr/python-net/aspose.cells.drawing/oleobject/auto_load) | Spécifie si l'application hôte de l'objet incorporé doit être appelée pour charger<br/> les données d'objet automatiquement lorsque le classeur parent est ouvert.|
 | [class_identifier](/cells/fr/python-net/aspose.cells.drawing/oleobject/class_identifier) |Obtient et définit l'identificateur de classe de l'objet incorporé.<br/> Cela signifie quelle application ouvre le fichier intégré.|
 | [image_type](/cells/fr/python-net/aspose.cells.drawing/oleobject/image_type) | Obtient le format d'image de l'objet ole.|
 
@@ -167,14 +167,14 @@ Le type OleObject expose les membres suivants :
 | [update_selected_value()](/cells/fr/python-net/aspose.cells.drawing/oleobject/update_selected_value/#) | Mettre à jour la valeur sélectionnée par la valeur de la cellule liée.|
 | [calculate_text_size()](/cells/fr/python-net/aspose.cells.drawing/oleobject/calculate_text_size/#) | Recalculer la zone de texte|
 | [characters(start_index, length)](/cells/fr/python-net/aspose.cells.drawing/oleobject/characters/#int-int) | Renvoie un objet Characters qui représente une plage de caractères dans le texte.|
-| [get_characters()](/cells/fr/python-net/aspose.cells.drawing/oleobject/get_characters/#) | Renvoie tous les objets Characters<br/> qui représente une plage de caractères dans le texte.|
+| [get_characters()](/cells/fr/python-net/aspose.cells.drawing/oleobject/get_characters/#) | Renvoie tous les objets Characters<br/> qui représente une plage de caractères dans le texte .|
 | [remove_active_x_control()](/cells/fr/python-net/aspose.cells.drawing/oleobject/remove_active_x_control/#) | Supprimez le contrôle ActiveX.|
-| [is_same_setting(obj)](/cells/fr/python-net/aspose.cells.drawing/oleobject/is_same_setting/#any) | Retourne si la forme est la même.|
+| [is_same_setting(obj)](/cells/fr/python-net/aspose.cells.drawing/oleobject/is_same_setting/#any) | Renvoie si la forme est identique.|
 | [set_native_source_full_name(source_full_name)](/cells/fr/python-net/aspose.cells.drawing/oleobject/set_native_source_full_name/#str) | Définit le nom complet du fichier source natif ole avec le chemin.|
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

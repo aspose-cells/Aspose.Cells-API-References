@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_header_row Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_header_row Eigentum
 
-Ruft ab und legt fest, ob dieses ListObject die Kopfzeile anzeigt.
+Ruft ab und legt fest, ob dieses ListObject eine Kopfzeile anzeigt.
 ###  Definition:
 ```python
 @property

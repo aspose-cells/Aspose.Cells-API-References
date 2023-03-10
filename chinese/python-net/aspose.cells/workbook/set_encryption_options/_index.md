@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_encryption_options方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 360
@@ -18,7 +18,7 @@ def set_encryption_options(self, encryption_type, key_length):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | encryption_type | [EncryptionType](/cells/zh/python-net/aspose.cells/encryptiontype) |加密类型。|
 | key_length | int |密钥长度。|

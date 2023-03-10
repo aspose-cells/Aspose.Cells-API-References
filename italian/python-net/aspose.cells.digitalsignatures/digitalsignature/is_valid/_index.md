@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_valid proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

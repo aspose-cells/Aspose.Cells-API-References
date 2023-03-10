@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_to metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,9 +18,9 @@ def copy_to(self, array):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| array | list | Den endimensionella arraylistan som är destinationen för elementens kopierade arraylista.|
+| array | list | Den endimensionella arraylistan som är destinationen för elementens kopierade arraylista. Matrislistan måste ha nollbaserad indexering.|
 
 
 ##  copy_to(index, array, array_index, count) {#int-list-int-int}
@@ -34,10 +34,10 @@ def copy_to(self, index, array, array_index, count):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Det nollbaserade indexet i källmatrislistan där kopieringen börjar.|
-| array | list | Den endimensionella arraylistan som är destinationen för elementen som kopierats från arraylistan.|
+| array | list | Den endimensionella arraylistan som är destinationen för elementen som kopierats från arraylistan. Matrislistan måste ha nollbaserad indexering.|
 | array_index | int |Det nollbaserade indexet i arraylistan där kopieringen börjar.|
 | count | int | Antalet element som ska kopieras.|
 

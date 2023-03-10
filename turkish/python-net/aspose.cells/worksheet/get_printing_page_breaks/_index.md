@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_printing_page_breaks yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Otomatik sayfa sonları alır.
 
 ###  İadeler
 
-Otomatik sayfa sonu alanları.
+Otomatik sayfa alanları keser.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | options | aspose.cells.rendering.ImageOrPrintOptions | yazdırma seçenekleri|
 ###  Notlar

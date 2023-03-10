@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_quote_prefix propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  export_quote_prefix propiedad
 
 Indica si el signo de comillas simples debe exportarse como parte del valor de una celda
-cuando es verdadero [Style.quote_prefix](/cells/es/python-net/aspose.cells/style#quote_prefix). El valor predeterminado es falso.
+cuando [Style.quote_prefix](/cells/es/python-net/aspose.cells/style#quote_prefix) es cierto para ello. El valor predeterminado es falso.
 ###  Definición:
 ```python
 @property

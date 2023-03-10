@@ -1,4 +1,4 @@
-﻿---
+---
 title: vertical_page_breaks mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

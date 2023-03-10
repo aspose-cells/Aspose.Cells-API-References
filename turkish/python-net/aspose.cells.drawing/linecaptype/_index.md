@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineCapType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ LineCapType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | SQUARE | Kare, yarım çizgi genişliğinde çıkıntı yapar.|
 | ROUND |Yuvarlak uçlar.|
-| FLAT | Çizgi bitiş noktalarında biter.|
+| FLAT | Çizgi bitiş noktasında biter.|
 | NONE | Yok kapak|
 
 

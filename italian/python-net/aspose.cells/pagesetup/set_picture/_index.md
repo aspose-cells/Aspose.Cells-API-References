@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_picture
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | is_first | bool | Indica se impostare l'immagine dell'intestazione/piè di pagina della prima pagina.|
 | is_even | bool | Indica se impostare l'immagine dell'intestazione/piè di pagina pari.|

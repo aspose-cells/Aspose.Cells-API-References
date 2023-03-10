@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chart Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -22,7 +22,7 @@ Der Typ Chart macht die folgenden Member verfügbar:
 | [hide_pivot_field_buttons](/cells/de/python-net/aspose.cells.charts/chart/hide_pivot_field_buttons) |Gibt an, ob die Feldschaltflächen des Pivot-Diagramms nur ausgeblendet werden, wenn es sich bei dem Diagramm um ein PivotChart handelt.|
 | [pivot_options](/cells/de/python-net/aspose.cells.charts/chart/pivot_options) | Gibt die Pivot-Steuerelemente an, die im Diagramm angezeigt werden|
 | [pivot_source](/cells/de/python-net/aspose.cells.charts/chart/pivot_source) | Quelle sind die Daten der PivotTable.<br/> Wenn PivotSource nicht leer ist, ist das Diagramm PivotChart.|
-| [plot_by](/cells/de/python-net/aspose.cells.charts/chart/plot_by) | Ruft ab und legt fest, ob nach Zeile oder Spalte gezeichnet werden soll.|
+| [plot_by](/cells/de/python-net/aspose.cells.charts/chart/plot_by) | Ruft ab und legt fest, ob nach Zeile oder Spalte gezeichnet wird.|
 | [plot_empty_cells_type](/cells/de/python-net/aspose.cells.charts/chart/plot_empty_cells_type) | Ruft ab und legt fest, wie die leeren Zellen gezeichnet werden.|
 | [plot_visible_cells](/cells/de/python-net/aspose.cells.charts/chart/plot_visible_cells) | Gibt an, ob nur sichtbare Zellen gezeichnet werden sollen.|
 | [plot_visible_cells_only](/cells/de/python-net/aspose.cells.charts/chart/plot_visible_cells_only) | Gibt an, ob nur sichtbare Zellen gezeichnet werden sollen.|
@@ -45,10 +45,10 @@ Der Typ Chart macht die folgenden Member verfügbar:
 | [series_axis](/cells/de/python-net/aspose.cells.charts/chart/series_axis) | Ruft die Reihenachse des Diagramms ab.|
 | [legend](/cells/de/python-net/aspose.cells.charts/chart/legend) | Ruft die Diagrammlegende ab.|
 | [chart_data_table](/cells/de/python-net/aspose.cells.charts/chart/chart_data_table) | Stellt die Diagrammdatentabelle dar.|
-| [show_legend](/cells/de/python-net/aspose.cells.charts/chart/show_legend) | Ruft einen Wert ab, der angibt, ob die Diagrammlegende angezeigt wird, oder legt diesen fest. Der Standardwert ist „true“.|
+| [show_legend](/cells/de/python-net/aspose.cells.charts/chart/show_legend) | Ruft einen Wert ab, der angibt, ob die Diagrammlegende angezeigt wird, oder legt diesen fest. Standard ist wahr.|
 | [is_rectangular_cornered](/cells/de/python-net/aspose.cells.charts/chart/is_rectangular_cornered) | Ruft einen Wert ab, der angibt, ob der Diagrammbereich rechteckige Ecken hat, oder legt diesen fest.<br/> Standard ist wahr.|
 | [show_data_table](/cells/de/python-net/aspose.cells.charts/chart/show_data_table) | Ruft einen Wert ab, der angibt, ob das Diagramm eine Datentabelle anzeigt, oder legt diesen fest.|
-| [first_slice_angle](/cells/de/python-net/aspose.cells.charts/chart/first_slice_angle) | Ruft den Winkel des ersten Torten- oder Ringdiagrammsegments in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest. Gilt nur für Kreis-, 3D-Kreis- und Ringdiagramme, 0 bis 360.|
+| [first_slice_angle](/cells/de/python-net/aspose.cells.charts/chart/first_slice_angle) | Ruft den Winkel des ersten Tortendiagramm- oder Doughnut-Diagrammsegments in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest. Gilt nur für Kreis-, 3D-Kreis- und Ringdiagramme, 0 bis 360.|
 | [gap_width](/cells/de/python-net/aspose.cells.charts/chart/gap_width) | Gibt den Abstand zwischen Balken- oder Spaltenclustern als Prozentsatz der Balken- oder Spaltenbreite zurück oder legt ihn fest.<br/>Der Wert dieser Eigenschaft muss zwischen 0 und 500 liegen.|
 | [gap_depth](/cells/de/python-net/aspose.cells.charts/chart/gap_depth) | Ruft den Abstand zwischen den Datenreihen in einem 3D-Diagramm als Prozentsatz der Markierungsbreite ab oder legt diesen fest.<br/>Der Wert dieser Eigenschaft muss zwischen 0 und 500 liegen.|
 | [floor](/cells/de/python-net/aspose.cells.charts/chart/floor) | Gibt ein [Chart.floor](/cells/de/python-net/aspose.cells.charts/chart#floor)-Objekt zurück, das die Wände eines 3D-Diagramms darstellt.|
@@ -58,8 +58,8 @@ Der Typ Chart macht die folgenden Member verfügbar:
 | [walls_and_gridlines_2d](/cells/de/python-net/aspose.cells.charts/chart/walls_and_gridlines_2d) | True, wenn Gitternetzlinien zweidimensional auf einem 3D-Diagramm gezeichnet werden.|
 | [rotation_angle](/cells/de/python-net/aspose.cells.charts/chart/rotation_angle) | Stellt die Drehung der 3D-Diagrammansicht dar (die Drehung des Diagrammbereichs um die Z-Achse in Grad).|
 | [elevation](/cells/de/python-net/aspose.cells.charts/chart/elevation) | Stellt die Höhe der 3D-Kartenansicht in Grad dar.|
-| [right_angle_axes](/cells/de/python-net/aspose.cells.charts/chart/right_angle_axes) | Wahr, wenn die Diagrammachsen rechtwinklig sind Gilt nur für 3D-Diagramme (außer Column3D- und 3D-Kreisdiagramme).|
-| [auto_scaling](/cells/de/python-net/aspose.cells.charts/chart/auto_scaling) | True, wenn Microsoft Excel ein 3D-Diagramm so skaliert, dass es der Größe des entsprechenden 2D-Diagramms näher kommt.<br/> Die Eigenschaft Right Angle Axes muss True sein.|
+| [right_angle_axes](/cells/de/python-net/aspose.cells.charts/chart/right_angle_axes) | True, wenn die Diagrammachsen rechtwinklig sind. Gilt nur für 3D-Diagramme (außer Column3D- und 3D-Kreisdiagramme).|
+| [auto_scaling](/cells/de/python-net/aspose.cells.charts/chart/auto_scaling) | True, wenn Microsoft Excel ein 3D-Diagramm so skaliert, dass es der Größe des entsprechenden 2D-Diagramms näher kommt.<br/> Die RightAngleAxes-Eigenschaft muss True sein.|
 | [height_percent](/cells/de/python-net/aspose.cells.charts/chart/height_percent) |Gibt die Höhe eines 3D-Diagramms als Prozentsatz der Diagrammbreite (zwischen 5 und 500 Prozent) zurück oder legt sie fest.|
 | [perspective](/cells/de/python-net/aspose.cells.charts/chart/perspective) | Gibt die Perspektive für die 3D-Diagrammansicht zurück oder legt sie fest. Muss zwischen 0 und 100 liegen.<br/> Diese Eigenschaft wird ignoriert, wenn die RightAngleAxes-Eigenschaft True ist.|
 | [is_3d](/cells/de/python-net/aspose.cells.charts/chart/is_3d) | Gibt an, ob das Diagramm ein 3D-Diagramm ist.|
@@ -97,7 +97,7 @@ Der Typ Chart macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

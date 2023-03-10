@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة parse_formulas
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | ignore_error | bool | سواء تجاهل الخطأ لصيغة غير صالحة.<br/>بالنسبة لصيغة واحدة غير صالحة ، إذا تجاهل الخطأ ، فسيتم تجاهل هذه الصيغة<br/> وستستمر العملية في تحليل الصيغ الأخرى ، وإلا فسيتم طرح استثناء.|
 

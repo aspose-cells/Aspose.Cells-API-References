@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ Der Typ WorkbookRender macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [page_count](/cells/de/python-net/aspose.cells.rendering/workbookrender/page_count) | Ruft die Gesamtseitenanzahl von Arbeitsmappen ab.|
+| [page_count](/cells/de/python-net/aspose.cells.rendering/workbookrender/page_count) | Ruft die Gesamtseitenzahl der Arbeitsmappe ab.|
 
 
 ###  Methoden
@@ -32,8 +32,8 @@ Der Typ WorkbookRender macht die folgenden Member verfügbar:
 | :- | :- |
 | [to_image(stream)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_image/#io.RawIOBase) | Rendern Sie die gesamte Arbeitsmappe als Tiff-Bild zum Streamen.|
 | [to_image(filename)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_image/#str) | Rendern Sie die gesamte Arbeitsmappe als Tiff-Bild in eine Datei.|
-| [to_image(page_index, file_name)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) | Bestimmte Seiten in eine Datei rendern.|
-| [to_image(page_index, stream)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) | Rendern Sie bestimmte Seiten in einen Stream.|
+| [to_image(page_index, file_name)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_image/#int-str) | Bestimmte Seite in eine Datei rendern.|
+| [to_image(page_index, stream)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_image/#int-io.RawIOBase) | Bestimmte Seite in einem Stream rendern.|
 | [to_printer(printer_name)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_printer/#str) | Arbeitsmappe auf Drucker übertragen|
 | [to_printer(printer_name, job_name)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_printer/#str-str) | Arbeitsmappe auf Drucker übertragen|
 | [to_printer(printer_settings)](/cells/de/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) | Arbeitsmappe auf Drucker übertragen|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_visible_cells fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Indikerar om endast plotta synliga celler.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
 använd egendomen PlotVisibleCellsOnly.
  Denna metod kommer att tas bort 12 månader senare sedan december 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

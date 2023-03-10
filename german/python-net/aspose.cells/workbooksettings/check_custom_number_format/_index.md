@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_custom_number_format Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

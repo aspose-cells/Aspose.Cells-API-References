@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_field_name_shown proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

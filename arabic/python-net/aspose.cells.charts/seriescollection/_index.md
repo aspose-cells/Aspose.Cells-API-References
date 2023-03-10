@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [category_data](/cells/ar/python-net/aspose.cells.charts/seriescollection/category_data) | الحصول على أو تحديد نطاق قيم محور الفئة.<br/> يمكن أن يكون نطاقًا من الخلايا (مثل ، "d1: e10") ،<br/> أو سلسلة من القيم (مثل ، "{2،6،8،10}").|
-| [second_category_data](/cells/ar/python-net/aspose.cells.charts/seriescollection/second_category_data) | الحصول على أو تحديد نطاق قيم محور الفئة الثانية.<br/> يمكن أن يكون نطاقًا من الخلايا (مثل ، "d1: e10") ،<br/> أو سلسلة من القيم (مثل ، "{2،6،8،10}").<br/> التأثيرات فقط عندما يتم رسم بعض ASeries على المحور الثاني.|
+| [second_category_data](/cells/ar/python-net/aspose.cells.charts/seriescollection/second_category_data) | الحصول على أو تحديد نطاق قيم محور الفئة الثانية.<br/> يمكن أن يكون نطاقًا من الخلايا (مثل ، "d1: e10") ،<br/> أو سلسلة من القيم (مثل ، "{2،6،8،10}").<br/> التأثيرات فقط عندما يتم رسم بعض ASerieses على المحور الثاني.|
 | [is_color_varied](/cells/ar/python-net/aspose.cells.charts/seriescollection/is_color_varied) | يمثل إذا كان لون النقاط متنوعًا.|
 | [capacity](/cells/ar/python-net/aspose.cells.charts/seriescollection/capacity) | الحصول على أو تحديد عدد العناصر التي يمكن أن تحتويها قائمة الصفيف.|
 
@@ -37,13 +37,13 @@ is_root: false
 | [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.charts/seriescollection/last_index_of/#Series-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
 | [get_series_by_order(order)](/cells/ar/python-net/aspose.cells.charts/seriescollection/get_series_by_order/#int) | الحصول على عنصر [Series](/cells/ar/python-net/aspose.cells.charts/series) بالترتيب.|
 | [change_series_order(source_index, dest_index)](/cells/ar/python-net/aspose.cells.charts/seriescollection/change_series_order/#int-int) | يغير أوامر السلسلتين مباشرة.|
-| [set_series_names(start_index, area, is_vertical)](/cells/ar/python-net/aspose.cells.charts/seriescollection/set_series_names/#int-str-bool) | يعيّن اسم كل السلاسل في الرسم البياني.|
+| [set_series_names(start_index, area, is_vertical)](/cells/ar/python-net/aspose.cells.charts/seriescollection/set_series_names/#int-str-bool) | يعيّن اسم كل السلاسل في المخطط.|
 | [add_r1c1(area, is_vertical)](/cells/ar/python-net/aspose.cells.charts/seriescollection/add_r1c1/#str-bool) | اضافة مجموعة [SeriesCollection](/cells/ar/python-net/aspose.cells.charts/seriescollection) الى مخطط.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells.charts/seriescollection/binary_search/#Series) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

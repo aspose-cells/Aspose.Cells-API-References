@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_dependents_in_calculation方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 100
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, recursive):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | recursive | bool |是否返回那些不直接引用此单元格的依赖项<br/>但引用此单元格的其他叶子|
 ### 评论

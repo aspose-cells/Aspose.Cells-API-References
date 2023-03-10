@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocxSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/docxsaveoptions/
 is_root: false
 ---
 ##  DocxSaveOptions klass
-Representerar alternativ för att spara .docx-filer.
+Representerar alternativ för att spara .docx-fil.
 
 
 
@@ -22,8 +22,8 @@ Typen DocxSaveOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [DocxSaveOptions()](/cells/sv/python-net/aspose.cells/docxsaveoptions/__init__/#) | Representerar alternativ för att spara .docx-filer.|
-| [DocxSaveOptions(save_as_image)](/cells/sv/python-net/aspose.cells/docxsaveoptions/__init__/#bool) | Representerar alternativ för att spara .docx-filer.|
+| [DocxSaveOptions()](/cells/sv/python-net/aspose.cells/docxsaveoptions/__init__/#) | Representerar alternativ för att spara .docx-fil.|
+| [DocxSaveOptions(save_as_image)](/cells/sv/python-net/aspose.cells/docxsaveoptions/__init__/#bool) | Representerar alternativ för att spara .docx-fil.|
 
 
 ###  Egenskaper
@@ -38,8 +38,8 @@ Typen DocxSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/docxsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/docxsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/docxsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/docxsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/docxsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/docxsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/docxsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 
 
 

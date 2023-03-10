@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_width_inch propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient la largeur d'origine de l'image, en pouces.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

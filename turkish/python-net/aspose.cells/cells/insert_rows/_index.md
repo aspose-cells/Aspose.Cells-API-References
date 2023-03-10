@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_rows yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | Satır dizini.|
 | total_rows | int | Eklenecek satır sayısı.|
@@ -35,7 +35,7 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | Satır dizini.|
 | total_rows | int | Eklenecek satır sayısı.|
@@ -53,7 +53,7 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | Satır dizini.|
 | total_rows | int | Eklenecek satır sayısı.|

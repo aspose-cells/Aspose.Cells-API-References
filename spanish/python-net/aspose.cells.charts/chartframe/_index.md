@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartFrame clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -23,7 +23,7 @@ El tipo ChartFrame expone los siguientes miembros:
 | [text_font](/cells/es/python-net/aspose.cells.charts/chartframe/text_font) | Obtiene un objeto [ChartFrame.font](/cells/es/python-net/aspose.cells.charts/chartframe#font) del objeto ChartFrame especificado.|
 | [text_options](/cells/es/python-net/aspose.cells.charts/chartframe/text_options) | Obtiene y establece las opciones del texto.|
 | [font](/cells/es/python-net/aspose.cells.charts/chartframe/font) | Obtiene un objeto [ChartFrame.font](/cells/es/python-net/aspose.cells.charts/chartframe#font) del objeto ChartFrame especificado.|
-| [auto_scale_font](/cells/es/python-net/aspose.cells.charts/chartframe/auto_scale_font) | True si el texto del objeto cambia el tamaño de fuente cuando cambia el tamaño del objeto.|
+| [auto_scale_font](/cells/es/python-net/aspose.cells.charts/chartframe/auto_scale_font) | True si el texto del objeto cambia el tamaño de fuente cuando cambia el tamaño del objeto. El valor por defecto es verdadero.|
 | [background_mode](/cells/es/python-net/aspose.cells.charts/chartframe/background_mode) | Obtiene y establece el modo de visualización del fondo.|
 | [background](/cells/es/python-net/aspose.cells.charts/chartframe/background) | Obtiene y establece el modo de visualización del fondo.|
 | [is_automatic_size](/cells/es/python-net/aspose.cells.charts/chartframe/is_automatic_size) | Indica si el marco del gráfico tiene un tamaño automático.|

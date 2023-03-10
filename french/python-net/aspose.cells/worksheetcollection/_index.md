@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -32,7 +32,7 @@ Le type WorksheetCollection expose les membres suivants :
 | [external_links](/cells/fr/python-net/aspose.cells/worksheetcollection/external_links) | Représente des liens externes dans un classeur.|
 | [table_styles](/cells/fr/python-net/aspose.cells/worksheetcollection/table_styles) | Obtient l'objet [WorksheetCollection.table_styles](/cells/fr/python-net/aspose.cells/worksheetcollection#table_styles).|
 | [revision_logs](/cells/fr/python-net/aspose.cells/worksheetcollection/revision_logs) |Représente les journaux de révision.|
-| [capacity](/cells/fr/python-net/aspose.cells/worksheetcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells/worksheetcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
@@ -71,7 +71,7 @@ Le type WorksheetCollection expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

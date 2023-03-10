@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_format_to_load_format yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def save_format_to_load_format(self, save_format):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Kaydetme biçimi.|
 

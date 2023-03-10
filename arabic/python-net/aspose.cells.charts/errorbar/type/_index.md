@@ -1,4 +1,4 @@
-﻿---
+---
 title: type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل مقدار شريط الخطأ type.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el caption de la segmentación de datos especificada.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

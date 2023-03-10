@@ -1,4 +1,4 @@
-﻿---
+---
 title: reset_ranges méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ def reset_ranges(self, data_range, is_vertical, location_range):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | data_range | str | Spécifie la nouvelle plage de données du groupe sparkline.|
 | is_vertical | bool | Spécifie s'il faut tracer les graphiques sparkline de la nouvelle plage de données par ligne ou par colonne.|

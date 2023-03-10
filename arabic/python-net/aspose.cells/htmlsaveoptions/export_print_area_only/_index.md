@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_print_area_only الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_print_area_only الملكية
 
-يشير إلى ما إذا كان يتم تصدير منطقة الطباعة فقط إلى ملف html.
+يشير إلى ما إذا كان يتم تصدير منطقة الطباعة فقط إلى ملف html. القيمة الافتراضية هي كاذبة.
 ###  تعريف:
 ```python
 @property

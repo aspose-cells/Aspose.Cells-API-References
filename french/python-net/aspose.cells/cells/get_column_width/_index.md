@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_width méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient la largeur de la colonne spécifiée en mode normal
 
 ###  Retour
 
-Largeur des colonnes
+Largeur de colonne
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width(self, column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | column | int | Indice de colonne|
 

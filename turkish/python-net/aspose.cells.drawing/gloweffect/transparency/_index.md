@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparency mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency mülk
 
-Işıma efektinin transparency derecesini alır ve ayarlar. 0,0 (opak) ila 1,0 (berrak) aralığındadır.
+Işıma efektinin transparency derecesini alır ve ayarlar. 0,0 (opak) ile 1,0 (berrak) arasında değişir.
 ###  Tanım:
 ```python
 @property

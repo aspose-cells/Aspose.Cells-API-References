@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_characters método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,14 +18,14 @@ def format_characters(self, start_index, length, font):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | start_index | int | El índice de inicio.|
 | length | int | La longitud.|
 | font | [Font](/cells/es/python-net/aspose.cells/font) | La configuración de la fuente.|
 ###  Observaciones
 
-NOTA: Este miembro ahora está obsoleto.
+NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice el método Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag).
  Esta propiedad se eliminará 12 meses después desde marzo de 2016.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
@@ -41,7 +41,7 @@ def format_characters(self, start_index, length, font, flag):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | start_index | int | El índice de inicio.|
 | length | int | La longitud.|

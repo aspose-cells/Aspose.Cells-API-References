@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Obtiene o establece un valor que indica si la hoja de cálculo generada contendr
 
 El valor por defecto es verdadero.
 
-###  Ejemplos
+###  Ejemplo
 
 El siguiente código hace que la barra de desplazamiento horizontal sea invisible para la hoja de cálculo.
 

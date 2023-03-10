@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo has_format_3d
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

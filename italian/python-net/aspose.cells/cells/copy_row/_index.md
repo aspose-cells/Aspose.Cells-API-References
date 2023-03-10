@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo copy_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def copy_row(self, source_cells, source_row_index, destination_row_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_row_index | int | Indice della riga di origine.|

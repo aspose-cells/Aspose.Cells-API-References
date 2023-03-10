@@ -1,4 +1,4 @@
-﻿---
+---
 title: object_source_full_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

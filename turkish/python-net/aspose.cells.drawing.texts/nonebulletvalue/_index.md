@@ -1,4 +1,4 @@
-﻿---
+---
 title: NoneBulletValue sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

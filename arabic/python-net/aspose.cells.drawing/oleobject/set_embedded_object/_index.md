@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_embedded_object
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,13 +18,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| link_to_file | bool | الإشارة إلى ما إذا كان الكائن يرتبط بالملف أم لا. إذا كان هذا صحيحًا ، فسيتم تجاهل المعلمة objectData.|
+| link_to_file | bool | يشير إلى ما إذا كان الكائن مرتبطًا بالملف. إذا كان هذا صحيحًا ، فسيتم تجاهل المعلمة objectData.|
 | object_data | bytes | بيانات الكائن المضمنة.|
 | source_file_name | str | اسم الملف.|
-| display_as_icon | bool | يشير إلى ما إذا كان يتم عرض الكائن كرمز.<br/> إذا كان هذا صحيحًا ، فستتم تغطية بيانات الصورة الأصلية بالرمز.|
-| label | str | تسمية الرمز. تعمل فقط عندما تكون قيمة displayAsIcon صحيحة.|
+| display_as_icon | bool | يشير إلى ما إذا كان كائن دبلجة كرمز.<br/> إذا كان هذا صحيحًا ، فستتم تغطية بيانات الصورة الأصلية بالرمز.|
+| label | str | تسمية الرمز. يعمل فقط عندما تكون قيمة displayAsIcon صحيحة.|
 
 
 ##  set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label, update_icon) {#bool-bytes-str-bool-str-bool}
@@ -38,13 +38,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| link_to_file | bool | الإشارة إلى ما إذا كان الكائن يرتبط بالملف أم لا. إذا كان هذا صحيحًا ، فسيتم تجاهل المعلمة objectData.|
+| link_to_file | bool | يشير إلى ما إذا كان الكائن مرتبطًا بالملف. إذا كان هذا صحيحًا ، فسيتم تجاهل المعلمة objectData.|
 | object_data | bytes | بيانات الكائن المضمنة.|
 | source_file_name | str | اسم الملف.|
-| display_as_icon | bool | يشير إلى ما إذا كان يتم عرض الكائن كرمز.<br/> إذا كان هذا صحيحًا ، فستتم تغطية بيانات الصورة الأصلية بالرمز.|
-| label | str | تسمية الرمز. تعمل فقط عندما تكون قيمة displayAsIcon صحيحة.|
+| display_as_icon | bool | يشير إلى ما إذا كان كائن دبلجة كرمز.<br/> إذا كان هذا صحيحًا ، فستتم تغطية بيانات الصورة الأصلية بالرمز.|
+| label | str | تسمية الرمز. يعمل فقط عندما تكون قيمة displayAsIcon صحيحة.|
 | update_icon | bool | يشير إلى ما إذا كان يتم تحديث الرمز تلقائيًا.|
 ###  ملاحظات
 

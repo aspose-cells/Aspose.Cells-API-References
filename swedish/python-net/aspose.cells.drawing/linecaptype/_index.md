@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineCapType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen LineCapType avslöjar följande medlemmar:
 | :- | :- |
 | SQUARE | Fyrkanten sticker ut med halva linjebredden.|
 | ROUND |Rundade ändar.|
-| FLAT | Linjen slutar vid ändpunkter.|
+| FLAT | Linjen slutar vid ändpunkten.|
 | NONE | Inget lock|
 
 

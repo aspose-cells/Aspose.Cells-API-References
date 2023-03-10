@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_value Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value Eigentum
 
-Stellt das Anzeigeverhalten der Datenbeschriftungswerte eines bestimmten Diagramms dar. True zeigt die Werte an. False zum Ausblenden.
+Stellt das Anzeigeverhalten der Datenbeschriftungswerte eines bestimmten Diagramms dar. True zeigt die Werte an. Falsch zu verstecken.
 ###  Definition:
 ```python
 @property

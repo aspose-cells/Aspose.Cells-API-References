@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_align_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_align_type propriété
 
-Détermine où verticalement sur une ligne de texte les mots réels sont positionnés.
+Détermine où verticalement sur une ligne de texte les mots réels sont positionnés. Cela traite
 avec placement vertical des caractères par rapport aux lignes de base.
 ###  Définition:
 ```python

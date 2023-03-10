@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_shared_formula proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_shared_formula proprietà
 
-Indica se la formula della cella fa parte di una formula condivisa.
+Indica se la formula della cella fa parte della formula condivisa.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_legend_decrease_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

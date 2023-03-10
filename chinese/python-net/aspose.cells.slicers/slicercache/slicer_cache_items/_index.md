@@ -1,6 +1,6 @@
-﻿---
+---
 title: slicer_cache_items 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## slicer_cache_items 属性
 
-返回一个 SlicerCacheItem 集合，其中包含切片器缓存中所有项目的集合。
+返回一个 SlicerCacheItem 集合，其中包含切片器缓存中所有项目的集合。只读
 
 ### 例子
 

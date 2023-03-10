@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo insert_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def insert_range(self, area, shift_type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | Zona cambio.|
 | shift_type | [ShiftType](/cells/it/python-net/aspose.cells/shifttype) | Opzione Sposta celle.|
@@ -35,7 +35,7 @@ def insert_range(self, area, shift_number, shift_type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | Zona cambio.|
 | shift_number | int | Numero di righe o colonne da inserire.|
@@ -53,7 +53,7 @@ def insert_range(self, area, shift_number, shift_type, update_reference):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | Zona cambio.|
 | shift_number | int | Numero di righe o colonne da inserire.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellValueType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | IS_BOOL | Cell значение логическое.|
 | IS_DATE_TIME | Значение Cell — это дата и время.|
 | IS_ERROR | Cell содержит значение ошибки|
-| IS_NULL | Пустые ячейки.|
+| IS_NULL | Пустая ячейка.|
 | IS_NUMERIC | Значение Cell является числовым.|
 | IS_STRING | Значение Cell — строка.|
 | IS_UNKNOWN | Cell тип значения неизвестен.|

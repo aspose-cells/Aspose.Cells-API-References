@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterColumnCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/filtercolumncollection/
 is_root: false
 ---
 ##  FilterColumnCollection класс
-Коллекция объектов Filter, представляющих все фильтры в автофильтрованном диапазоне.
+Коллекция объектов Filter, представляющая все фильтры в автофильтрованном диапазоне.
 
 
 

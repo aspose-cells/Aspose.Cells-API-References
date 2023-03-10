@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_function proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Il calcolo della formula personalizzata funziona per estendere il motore di calc
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 si prega di utilizzare la proprietà CustomEngine, AbstractCalculationEngine fornisce API più convenienti e flessibili
 per manipolare le funzioni personalizzate.
  Questa proprietà verrà rimossa 12 mesi dopo da agosto 2020.

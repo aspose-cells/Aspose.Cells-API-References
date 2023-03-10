@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة show_group_detail
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_vertical | bool | صحيح ، يوسع الصفوف المجمعة.|
 | index | int | فهرس الصف / العمود|

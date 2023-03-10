@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModule klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen VbaModule avslöjar följande medlemmar:
 | :- | :- |
 | [name](/cells/sv/python-net/aspose.cells.vba/vbamodule/name) | Hämtar och ställer in namnet på modulen.|
 | [type](/cells/sv/python-net/aspose.cells.vba/vbamodule/type) | Får typ av modul.|
-| [codes](/cells/sv/python-net/aspose.cells.vba/vbamodule/codes) | Hämtar och ställer in koderna för moduler.|
+| [codes](/cells/sv/python-net/aspose.cells.vba/vbamodule/codes) | Hämtar och ställer in koderna för modulen.|
 
 
 

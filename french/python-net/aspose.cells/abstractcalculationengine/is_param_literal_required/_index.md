@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_param_literal_required propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

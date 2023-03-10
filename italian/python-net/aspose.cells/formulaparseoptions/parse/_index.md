@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  parse proprietà
 
-Indica se la formula data è parse. L'impostazione predefinita è true.
+Se parse data formula. L'impostazione predefinita è true.
 Se è falso, la stringa della formula data verrà mantenuta così com'è per la cella fino a quando l'utente non chiamerà altri metodi per parse
 oppure i dati delle formule analizzate sono richiesti da altre operazioni come il calcolo delle formule.
 ###  Definizione:

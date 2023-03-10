@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnionRange clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,8 +25,8 @@ El tipo UnionRange expone los siguientes miembros:
 | [name](/cells/es/python-net/aspose.cells/unionrange/name) | Obtiene o establece el nombre del rango.|
 | [refers_to](/cells/es/python-net/aspose.cells/unionrange/refers_to) | Obtiene el rango al que se refiere.|
 | [has_range](/cells/es/python-net/aspose.cells/unionrange/has_range) | Indica si esto tiene rango.|
-| [hyperlinks](/cells/es/python-net/aspose.cells/unionrange/hyperlinks) | Obtiene todos los hipervínculos del intervalo.|
-| [cell_count](/cells/es/python-net/aspose.cells/unionrange/cell_count) | Obtiene todos los recuentos de celdas en el rango.|
+| [hyperlinks](/cells/es/python-net/aspose.cells/unionrange/hyperlinks) | Obtiene todos los hipervínculos del rango.|
+| [cell_count](/cells/es/python-net/aspose.cells/unionrange/cell_count) | Obtiene todo el recuento de celdas en el rango.|
 | [range_count](/cells/es/python-net/aspose.cells/unionrange/range_count) | Obtiene el recuento de los rangos.|
 | [ranges](/cells/es/python-net/aspose.cells/unionrange/ranges) | Obtiene todos los rangos de unión.|
 

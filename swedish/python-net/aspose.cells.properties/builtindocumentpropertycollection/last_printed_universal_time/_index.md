@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_printed_universal_time fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

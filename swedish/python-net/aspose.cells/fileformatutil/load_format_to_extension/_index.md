@@ -1,4 +1,4 @@
-﻿---
+---
 title: load_format_to_extension metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,12 +22,12 @@ def load_format_to_extension(self, load_format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/sv/python-net/aspose.cells/loadformat) | Det inlästa filformatet.|
 ###  Anmärkningar
 
-Om den inte kan konverteras, returneras null.
+Om det inte går att konvertera, returneras null.
 
 
 ###  Se även

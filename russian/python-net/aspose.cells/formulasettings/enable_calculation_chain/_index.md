@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_calculation_chain недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain недвижимость
 
-Включить ли цепочку вычислений для формул.
+Включить ли цепочку вычислений для формул. Значение по умолчанию — ложь.
 
 ###  Примечания
 

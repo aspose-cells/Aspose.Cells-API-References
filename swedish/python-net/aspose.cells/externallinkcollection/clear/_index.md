@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -34,14 +34,14 @@ def clear(self, update_references_as_local):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | update_references_as_local | bool | Om du uppdaterar alla referenser till externa länkar som referenser till själva arbetsboken.|
 ###  Anmärkningar
 
 Om referenser måste uppdateras kommer referenser till externa länkar i formler att ändras till aktuell arbetsbok.
 Till exempel är en cells ursprungliga formel "='externalsource.xlam'!customfunction()",
-Efter att ha tagit bort externa länkar blir formeln "=customfunction()".
+efter att ha tagit bort externa länkar blir formeln "=customfunction()".
 Om referenser inte behöver uppdateras, alla formler med referenser till externa länkar
 kommer också att tas bort eftersom dessa referenser blir ogiltiga.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_style_in_pool Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Es gibt nur einen einfachen Referenzindex in den Zellen.
 
 ###  Kehrt zurück
 
-Der Stil im Pool entspricht einem bestimmten Index, kann null sein.
+Der Stil im Pool entspricht dem angegebenen Index, kann null sein.
 
 
 ```python

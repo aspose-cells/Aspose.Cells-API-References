@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_formula_array método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def import_formula_array(self, string_array, first_row, first_column, is_vertica
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | string_array | list | Matriz de fórmulas.|
 | first_row | int | El número de fila de la primera celda a importar.|

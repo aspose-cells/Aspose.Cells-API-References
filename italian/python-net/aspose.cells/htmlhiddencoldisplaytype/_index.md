@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlHiddenColDisplayType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo HtmlHiddenColDisplayType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | HIDDEN | Nascoste le colonne nascoste nella pagina html.|
-| REMOVE | Rimuovi le colonne nascoste nelle pagine html.|
+| REMOVE | Rimuovi le colonne nascoste nella pagina html.|
 
 
 

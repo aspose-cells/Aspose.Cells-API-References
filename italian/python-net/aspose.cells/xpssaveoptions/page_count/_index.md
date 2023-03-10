@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Ottiene o imposta il numero di pagine da salvare.
 
 L'impostazione predefinita è System.Int32.MaxValue, il che significa che verrà eseguito il rendering di tutte le pagine.
 
-###  Esempi
+###  Esempio
 
 L'esempio seguente mostra come eseguire il rendering di un intervallo di pagine (3 e 4) in un file Excel Microsoft in PDF.
 

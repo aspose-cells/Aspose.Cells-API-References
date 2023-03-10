@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_style_settings propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

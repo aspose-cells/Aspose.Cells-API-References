@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagPropertyCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.markup/smarttagpropertycollection/
 is_root: false
 ---
 ##  SmartTagPropertyCollection klass
-Representerar alla egenskaper hos cellsmarta taggar.
+Representerar alla egenskaper för cellsmarta taggar.
 
 
 

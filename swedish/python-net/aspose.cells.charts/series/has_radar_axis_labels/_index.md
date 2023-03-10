@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_radar_axis_labels fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels fastighet
 
-Sant om ett radardiagram har kategoriaxeletiketter.
+Sant om ett radardiagram har kategoriaxeletiketter. Gäller endast radarsjökort.
 ###  Definition:
 ```python
 @property

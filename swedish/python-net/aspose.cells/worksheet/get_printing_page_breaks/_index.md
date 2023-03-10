@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_printing_page_breaks metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Får automatiska sidbrytningar.
 
 ###  Returnerar
 
-De automatiska sidbrytningsområdena.
+Områden för automatiska sidbrytningar.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | options | aspose.cells.rendering.ImageOrPrintOptions | Utskriftsalternativen|
 ###  Anmärkningar

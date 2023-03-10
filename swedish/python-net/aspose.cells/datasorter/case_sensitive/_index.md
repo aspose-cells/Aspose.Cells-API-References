@@ -1,4 +1,4 @@
-﻿---
+---
 title: case_sensitive fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive fastighet
 
-Hämtar och ställer in om skiftlägeskänslighet vid jämförelse av strängar.
+Hämtar och ställer in om skiftlägeskänslighet vid jämförelse av sträng.
 ###  Definition:
 ```python
 @property

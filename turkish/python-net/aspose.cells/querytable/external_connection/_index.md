@@ -1,4 +1,4 @@
-﻿---
+---
 title: external_connection mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

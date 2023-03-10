@@ -1,4 +1,4 @@
-﻿---
+---
 title: name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name недвижимость
 
-Указывает name соединения.
+Указывает name соединения. Каждое соединение должно иметь уникальный номер name.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_password недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password недвижимость
 
-True, если пароль должен быть сохранен как часть строки подключения, в противном случае — False.
+Истинно, если пароль должен быть сохранен как часть строки подключения; в противном случае Ложь.
 ###  Определение:
 ```python
 @property

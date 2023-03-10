@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_slice_angle Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  first_slice_angle Eigentum
 
- Ruft den Winkel des ersten Segments des Kreisdiagramms oder Ringdiagramms in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest.
+ Ruft den Winkel des ersten Tortendiagramm- oder Doughnut-Diagrammsegments in Grad (im Uhrzeigersinn von der Vertikalen) ab oder legt diesen fest.
 Gilt nur für Kreis-, 3D-Kreis- und Ringdiagramme, 0 bis 360.
 ###  Definition:
 ```python

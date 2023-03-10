@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_range propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  row_range propriété
 
 Renvoie un objet CellArea qui représente la plage
-qui contient la zone de ligne dans le rapport de tableau croisé dynamique.
+qui contient la zone de ligne dans le rapport de tableau croisé dynamique. Lecture seulement.
 ###  Définition:
 ```python
 @property

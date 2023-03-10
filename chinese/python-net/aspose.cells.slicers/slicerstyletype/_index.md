@@ -1,6 +1,6 @@
-﻿---
+---
 title: SlicerStyleType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -14,7 +14,7 @@ is_root: false
 
 SlicerStyleType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | SLICER_STYLE_LIGHT1 |内置灯样式一|

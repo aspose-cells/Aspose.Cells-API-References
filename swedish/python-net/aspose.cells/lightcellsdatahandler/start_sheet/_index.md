@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Börjar bearbeta ett kalkylblad.
 
 ###  Returnerar
 
-om detta arks celldata behöver bearbetas. false för att ignorera detta ark.
+om detta arks celldata behöver bearbetas. falskt att ignorera detta ark.
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | kalkylbladet för att läsa celldata.|
 ###  Anmärkningar

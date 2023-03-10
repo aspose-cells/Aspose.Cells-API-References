@@ -1,4 +1,4 @@
-﻿---
+---
 title: glow_effect Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  glow_effect Eigentum
 
-Stellt ein [ShapePropertyCollection.glow_effect](/cells/de/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect)-Objekt dar, das einen Leuchteffekt für das Diagrammelement oder die Form angibt.
+Stellt ein [ShapePropertyCollection.glow_effect](/cells/de/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect)-Objekt dar, das den Glüheffekt für das Diagrammelement oder die Form angibt.
 ###  Definition:
 ```python
 @property

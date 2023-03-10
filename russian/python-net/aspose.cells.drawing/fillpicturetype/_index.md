@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPictureType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | STRETCH | Потягиваться|
 | STACK | Куча|
-| STACK_AND_SCALE | Стек и масштаб|
+| STACK_AND_SCALE | стек и масштаб|
 
 
 

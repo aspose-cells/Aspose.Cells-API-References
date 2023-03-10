@@ -1,6 +1,6 @@
-﻿---
+---
 title: style 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 170
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## style 属性
 
-获取或设置 style 的条件格式单元格范围。
+获取或设置条件格式单元格范围的 style。
 ### 定义：
 ```python
 @property

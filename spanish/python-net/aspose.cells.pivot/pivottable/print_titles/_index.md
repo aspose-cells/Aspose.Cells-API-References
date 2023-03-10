@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_titles propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles propiedad
 
 Indica si los títulos de impresión para la hoja de cálculo se establecen según
-en el informe de tabla dinámica.
+en el informe de tabla dinámica. El valor predeterminado es falso.
 ###  Definición:
 ```python
 @property

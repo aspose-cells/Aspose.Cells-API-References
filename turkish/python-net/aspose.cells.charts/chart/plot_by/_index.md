@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_by mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by mülk
 
-Çizginin satıra mı yoksa sütuna mı göre çizileceğini alır ve ayarlar.
+Alır ve arsa satır veya sütun olup olmadığını ayarlar.
 ###  Tanım:
 ```python
 @property

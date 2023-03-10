@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, type, data_range, is_vertical, location_range):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [SparklineType](/cells/es/python-net/aspose.cells.charts/sparklinetype) | Especifica el tipo del grupo Sparkline.|
 | data_range | str | Especifica el rango de datos del grupo minigráfico.|

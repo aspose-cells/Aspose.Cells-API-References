@@ -1,4 +1,4 @@
-﻿---
+---
 title: spid proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Specifica una stringa facoltativa che può essere utilizzata da un'applicazione per identificare la forma specifica.
 
-###  Esempi
+###  Esempio
 
 ```python
 

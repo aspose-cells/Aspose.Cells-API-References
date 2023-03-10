@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe OdsPageBackground
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.ods/odspagebackground/
 is_root: false
 ---
 ##  classe OdsPageBackground
-Rappresenta lo sfondo della pagina delle quote.
+Rappresenta lo sfondo della pagina di ods.
 
 
 

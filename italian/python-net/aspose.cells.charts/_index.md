@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/it/python-net/aspose.cells.charts/chartcollection) | Incapsula una raccolta di oggetti [Chart](/cells/it/python-net/aspose.cells.charts/chart).|
 | [ChartDataTable](/cells/it/python-net/aspose.cells.charts/chartdatatable) | Rappresenta una tabella di dati del grafico.|
 | [ChartFrame](/cells/it/python-net/aspose.cells.charts/chartframe) | Incapsula l'oggetto che rappresenta l'oggetto frame in un grafico.|
-| [ChartGlobalizationSettings](/cells/it/python-net/aspose.cells.charts/chartglobalizationsettings) | Rappresenta le impostazioni di globalizzazione per i grafici.|
+| [ChartGlobalizationSettings](/cells/it/python-net/aspose.cells.charts/chartglobalizationsettings) | Rappresenta le impostazioni di globalizzazione per il grafico.|
 | [ChartPoint](/cells/it/python-net/aspose.cells.charts/chartpoint) |Rappresenta un singolo punto in una serie in un grafico.|
 | [ChartPointCollection](/cells/it/python-net/aspose.cells.charts/chartpointcollection) | Rappresenta una raccolta che contiene tutti i punti di una serie.|
 | [ChartTextFrame](/cells/it/python-net/aspose.cells.charts/charttextframe) | Incapsula l'oggetto che rappresenta l'oggetto frame che contiene il testo.|
@@ -39,7 +39,7 @@ is_root: false
 | [SeriesLayoutProperties](/cells/it/python-net/aspose.cells.charts/serieslayoutproperties) | Rappresenta le proprietà del layout della serie.|
 | [Sparkline](/cells/it/python-net/aspose.cells.charts/sparkline) | Un grafico sparkline rappresenta un piccolo grafico o grafico in una cella del foglio di lavoro che fornisce una rappresentazione visiva dei dati.|
 | [SparklineCollection](/cells/it/python-net/aspose.cells.charts/sparklinecollection) | Incapsula una raccolta di oggetti [Sparkline](/cells/it/python-net/aspose.cells.charts/sparkline).|
-| [SparklineGroup](/cells/it/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/it/python-net/aspose.cells.charts/sparkline) è organizzato in un gruppo sparkline.Un SparklineGroup contiene un numero variabile di elementi sparkline.<br/> Un gruppo di grafici sparkline specifica il tipo, le impostazioni di visualizzazione e le impostazioni degli assi per i grafici sparkline.|
+| [SparklineGroup](/cells/it/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/it/python-net/aspose.cells.charts/sparkline) è organizzato in un gruppo sparkline. Un SparklineGroup contiene un numero variabile di elementi sparkline.<br/> Un gruppo di grafici sparkline specifica il tipo, le impostazioni di visualizzazione e le impostazioni degli assi per i grafici sparkline.|
 | [SparklineGroupCollection](/cells/it/python-net/aspose.cells.charts/sparklinegroupcollection) | Incapsula una raccolta di oggetti [SparklineGroup](/cells/it/python-net/aspose.cells.charts/sparklinegroup).|
 | [TickLabelItem](/cells/it/python-net/aspose.cells.charts/ticklabelitem) | Includi le informazioni di un elemento Ticklabel|
 | [TickLabels](/cells/it/python-net/aspose.cells.charts/ticklabels) | Rappresenta le etichette dei segni di graduazione associate ai segni di graduazione su un asse del grafico.|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/it/python-net/aspose.cells.charts/mapchartlabellayout) | Rappresenta il layout delle etichette del grafico a mappa.|
 | [MapChartProjectionType](/cells/it/python-net/aspose.cells.charts/mapchartprojectiontype) | Rappresenta il tipo di proiezione del grafico a mappa.|
 | [MapChartRegionType](/cells/it/python-net/aspose.cells.charts/mapchartregiontype) | Rappresenta il tipo di regione del grafico a mappa.|
-| [PlotDataByType](/cells/it/python-net/aspose.cells.charts/plotdatabytype) |Rappresenta il tipo di dati tracciati per riga o colonna.|
+| [PlotDataByType](/cells/it/python-net/aspose.cells.charts/plotdatabytype) |Rappresenta il tipo di tracciato dei dati per riga o colonna.|
 | [PlotEmptyCellsType](/cells/it/python-net/aspose.cells.charts/plotemptycellstype) | Rappresenta tutti i tipi di celle vuote del grafico di un grafico.|
 | [QuartileCalculationType](/cells/it/python-net/aspose.cells.charts/quartilecalculationtype) | Rappresenta i metodi di calcolo del quartile.|
 | [SparklineAxisMinMaxType](/cells/it/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Rappresenta i tipi di valore minimo e massimo per l'asse verticale del grafico sparkline.|

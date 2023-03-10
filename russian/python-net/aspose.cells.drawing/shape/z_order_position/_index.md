@@ -1,4 +1,4 @@
-﻿---
+---
 title: z_order_position недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает позицию фигуры в z-порядке.
 
-###  Примеры
+###  Пример
 
 ```python
 

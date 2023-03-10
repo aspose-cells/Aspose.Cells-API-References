@@ -1,4 +1,4 @@
-﻿---
+---
 title: gradient_variant Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ Gilt nur für Excel 2007.
 
 ###  Bemerkungen
 
-Darf nur ein Wert von 1 bis 4 sein, entsprechend einer der vier Varianten auf der Registerkarte „Verlauf“ im Dialogfeld „Fülleffekte“.Wenn Stil GradientStyle.FromCenter ist, kann das Variant-Argument nur 1 oder 2 sein.
+Kann nur ein Wert von 1 bis 4 sein, der einer der vier Varianten auf der Registerkarte „Verlauf“ im Dialogfeld „Fülleffekte“ entspricht. Wenn style GradientStyle.FromCenter ist, kann das Variant-Argument nur 1 oder 2 sein.
 ###  Definition:
 ```python
 @property

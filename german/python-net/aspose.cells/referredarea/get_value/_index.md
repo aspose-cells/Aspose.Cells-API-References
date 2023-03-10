@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_value Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den Zellenwert mit dem angegebenen Offset von der linken oberen Ecke dieses
 
 ###  Kehrt zurück
 
-„#REF!“ wenn dieser Bereich ungültig ist;
+"#REF!" wenn dieser Bereich ungültig ist;
 "#N/A", wenn ein Offset außerhalb dieses Bereichs angegeben wird;
 Andernfalls den Zellenwert an der angegebenen Position zurückgeben.
 
@@ -36,7 +36,7 @@ Ruft den Zellenwert mit dem angegebenen Offset von der linken oberen Ecke dieses
 
 ###  Kehrt zurück
 
-„#REF!“ wenn dieser Bereich ungültig ist;
+"#REF!" wenn dieser Bereich ungültig ist;
 "#N/A", wenn ein Offset außerhalb dieses Bereichs angegeben wird;
 Andernfalls den Zellenwert an der angegebenen Position zurückgeben.
 

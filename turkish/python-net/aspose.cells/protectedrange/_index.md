@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectedRange sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ ProtectedRange türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [name](/cells/tr/python-net/aspose.cells/protectedrange/name) | Aralık başlığını alır.|
+| [name](/cells/tr/python-net/aspose.cells/protectedrange/name) | Aralık başlığını alır. Bu, adlandırılmış bir aralık tanımı olarak değil, tanımlayıcı olarak kullanılır.|
 | [cell_area](/cells/tr/python-net/aspose.cells/protectedrange/cell_area) | Korunacak hücre alanını temsil eden [ProtectedRange.cell_area](/cells/tr/python-net/aspose.cells/protectedrange#cell_area) nesnesini alır.|
 | [is_protected_with_password](/cells/tr/python-net/aspose.cells/protectedrange/is_protected_with_password) |Çalışma sayfalarının parola ile korunup korunmadığını gösterir.|
 | [password](/cells/tr/python-net/aspose.cells/protectedrange/password) | Aralığı korumak için parolayı temsil eder.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -39,14 +39,14 @@ def get_range(self, recalculate):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | recalculate | bool | se ricalcolarlo se questo nome è stato calcolato prima di questa chiamata.|
 
 
 ##  get_range(sheet_index, row, column) {#int-int-int}
 Ottiene l'intervallo se questo nome fa riferimento a un intervallo.
-Se il riferimento di questo nome non è assoluto, l'intervallo potrebbe essere diverso per celle diverse.
+Se il riferimento di questo nome non è assoluto, l'intervallo potrebbe essere diverso per cella diversa.
 
 
 ###  ritorna
@@ -60,7 +60,7 @@ def get_range(self, sheet_index, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_index | int | L'indice del foglio corrispondente.|
 | row | int | L'indice di riga corrispondente.|

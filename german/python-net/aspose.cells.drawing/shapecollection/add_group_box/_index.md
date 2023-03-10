@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_group_box Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_group_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | height | int | Repräsentiert die Höhe der GroupBox in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite der GroupBox in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

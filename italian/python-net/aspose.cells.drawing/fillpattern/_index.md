@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPattern enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -43,8 +43,8 @@ Il tipo FillPattern espone i membri seguenti:
 | NARROW_HORIZONTAL | Rappresenta uno schema orizzontale stretto.|
 | DARK_VERTICAL | Rappresenta il motivo verticale scuro.|
 | DARK_HORIZONTAL | Rappresenta il motivo orizzontale scuro.|
-| DASHED_DOWNWARD_DIAGONAL | Rappresenta il motivo diagonale tratteggiato verso il basso.|
-| DASHED_UPWARD_DIAGONAL | Rappresenta uno schema diagonale tratteggiato verso l'alto.|
+| DASHED_DOWNWARD_DIAGONAL | Rappresenta il motivo diagonale verso il basso tratteggiato.|
+| DASHED_UPWARD_DIAGONAL | Rappresenta il motivo diagonale verso l'alto tratteggiato.|
 | DASHED_VERTICAL |Rappresenta il motivo verticale tratteggiato.|
 | DASHED_HORIZONTAL | Rappresenta il motivo orizzontale tratteggiato.|
 | SMALL_CONFETTI | Rappresenta il modello di piccoli coriandoli.|
@@ -52,22 +52,22 @@ Il tipo FillPattern espone i membri seguenti:
 | ZIG_ZAG | Rappresenta il motivo a zig zag.|
 | WAVE | Rappresenta il motivo a onde.|
 | DIAGONAL_BRICK | Rappresenta il modello di mattoni diagonale.|
-| HORIZONTAL_BRICK | Rappresenta un motivo a mattoni orizzontale.|
+| HORIZONTAL_BRICK | Rappresenta il motivo a mattoni orizzontali.|
 | WEAVE | Rappresenta il modello di tessitura.|
 | PLAID | Rappresenta il motivo scozzese.|
-| DIVOT | Rappresenta i modelli divot.|
+| DIVOT | Rappresenta il modello divot.|
 | DOTTED_GRID | Rappresenta il motivo a griglia punteggiata.|
 | DOTTED_DIAMOND | Rappresenta il motivo a rombi punteggiato.|
-| SHINGLE | Rappresenta un singolo modello.|
+| SHINGLE | Rappresenta il modello di scandole.|
 | TRELLIS | Rappresenta il motivo a traliccio.|
 | SPHERE | Rappresenta il motivo a sfera.|
-| SMALL_GRID | Rappresenta piccoli modelli di griglia.|
+| SMALL_GRID | Rappresenta un motivo a griglia piccolo.|
 | LARGE_GRID | Rappresenta uno schema a griglia grande.|
 | SMALL_CHECKER_BOARD | Rappresenta un piccolo motivo a scacchiera.|
 | LARGE_CHECKER_BOARD | Rappresenta un grande motivo a scacchiera.|
 | OUTLINED_DIAMOND | Rappresenta il motivo a rombi delineato.|
 | SOLID_DIAMOND | Rappresenta un solido motivo a rombi.|
-| UNKNOWN | Rappresenta modelli sconosciuti.|
+| UNKNOWN | Rappresenta un modello sconosciuto.|
 
 
 

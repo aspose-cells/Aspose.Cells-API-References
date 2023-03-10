@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItem classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type SlicerCacheItem expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [selected](/cells/fr/python-net/aspose.cells.slicers/slicercacheitem/selected) | Spécifie si le SlicerItem est sélectionné ou non.|
-| [value](/cells/fr/python-net/aspose.cells.slicers/slicercacheitem/value) | Renvoie le texte de l'étiquette de l'élément de segment.|
+| [value](/cells/fr/python-net/aspose.cells.slicers/slicercacheitem/value) | Renvoie le texte de l'étiquette de l'élément de segment. Lecture seulement.|
 
 
 

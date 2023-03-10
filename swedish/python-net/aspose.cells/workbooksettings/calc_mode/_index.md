@@ -1,4 +1,4 @@
-﻿---
+---
 title: calc_mode fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -16,7 +16,7 @@ automatiskt eller automatiskt förutom för flera tabelloperationer.
 
 Endast uppsättningar för MS Excel.
 Vänligen anrop manuellt Workbook.CalculateFormula()-metoden för att beräkna formler med Aspose.Cells.
-OBS: Den här medlemmen är nu föråldrad. Använd istället FormulaSettings.CalculationMode.
+OBS: Denna medlem är nu föråldrad. Använd istället FormulaSettings.CalculationMode.
  Den här egenskapen kommer att tas bort 12 månader senare sedan februari 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

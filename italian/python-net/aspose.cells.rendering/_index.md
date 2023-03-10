@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.rendering
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [PageEndSavingArgs](/cells/it/python-net/aspose.cells.rendering/pageendsavingargs) | Le informazioni per una pagina terminano il processo di salvataggio.|
 | [PageSavingArgs](/cells/it/python-net/aspose.cells.rendering/pagesavingargs) | Informazioni per un processo di salvataggio della pagina.|
 | [PageStartSavingArgs](/cells/it/python-net/aspose.cells.rendering/pagestartsavingargs) | Le informazioni per una pagina avviano il processo di salvataggio.|
-| [PdfBookmarkEntry](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry è una voce in pdfbookmark.<br/>se la proprietà Text dell'istanza corrente è nulla o "",<br/> l'istanza corrente verrà nascosta e i figli verranno inseriti al livello corrente.|
+| [PdfBookmarkEntry](/cells/it/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry è una voce nel segnalibro pdf.<br/>se la proprietà Text dell'istanza corrente è nulla o "",<br/> l'istanza corrente verrà nascosta e i figli verranno inseriti al livello corrente.|
 | [SheetPrintingPreview](/cells/it/python-net/aspose.cells.rendering/sheetprintingpreview) | Anteprima di stampa del foglio di lavoro.|
 | [SheetRender](/cells/it/python-net/aspose.cells.rendering/sheetrender) | Rappresenta un rendering del foglio di lavoro che può eseguire il rendering del foglio di lavoro in varie immagini come (BMP, PNG, JPEG, TIFF..)<br/> Il costruttore di questa classe, deve essere utilizzato dopo la modifica di pagesetup, cell style.|
 | [SheetSet](/cells/it/python-net/aspose.cells.rendering/sheetset) | Descrive una serie di fogli.|

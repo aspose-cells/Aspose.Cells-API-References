@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_row méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def start_row(self, row_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_index | int | l'index de la ligne suivante à traiter|
 

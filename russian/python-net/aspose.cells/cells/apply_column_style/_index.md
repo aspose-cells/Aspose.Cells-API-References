@@ -1,4 +1,4 @@
-﻿---
+---
 title: apply_column_style метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,11 +18,11 @@ def apply_column_style(self, column, style, flag):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | column | int | Индекс столбца.|
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Объект стиля, который будет применен.|
-| flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) |Флаги, указывающие на примененные свойства форматирования.|
+| flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) |Флаги, указывающие на применяемые свойства форматирования.|
 
 
 

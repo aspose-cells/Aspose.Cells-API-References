@@ -1,4 +1,4 @@
-﻿---
+---
 title: threaded_comments propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient la liste des commentaires thématiques ;
 
-###  Exemples
+###  Exemple
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: diagonal_down_border mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

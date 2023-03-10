@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta lo caption del filtro dei dati specificato.
 
-###  Esempi
+###  Esempio
 
 ```python
 

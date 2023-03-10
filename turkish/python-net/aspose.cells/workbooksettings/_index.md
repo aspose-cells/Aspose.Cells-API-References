@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookSettings sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ WorkbookSettings türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [stream_provider](/cells/tr/python-net/aspose.cells/workbooksettings/stream_provider) | Dış kaynaklar için akış sağlayıcısını alır ve ayarlar.|
+| [stream_provider](/cells/tr/python-net/aspose.cells/workbooksettings/stream_provider) | Dış kaynak için akış sağlayıcısını alır ve ayarlar.|
 | [resource_provider](/cells/tr/python-net/aspose.cells/workbooksettings/resource_provider) | "LinkToFile" türündeki resim için resim verilerinin yüklenmesi gibi harici kaynak için akış sağlayıcısını alır ve ayarlar.|
 | [author](/cells/tr/python-net/aspose.cells/workbooksettings/author) | Dosyanın yazarını alır ve ayarlar.|
 | [check_custom_number_format](/cells/tr/python-net/aspose.cells/workbooksettings/check_custom_number_format) | Style.Custom'u ayarlarken özel sayı formatının kontrol edilip edilmediğini gösterir.|
@@ -32,10 +32,10 @@ WorkbookSettings türü aşağıdaki üyeleri gösterir:
 | [is_v_scroll_bar_visible](/cells/tr/python-net/aspose.cells/workbooksettings/is_v_scroll_bar_visible) | Oluşturulan elektronik tablonun dikey bir kaydırma çubuğu içerip içermeyeceğini gösteren bir değer alır veya ayarlar.|
 | [shared](/cells/tr/python-net/aspose.cells/workbooksettings/shared) | Çalışma Kitabının paylaşılıp paylaşılmadığını gösteren bir değer alır veya ayarlar.|
 | [language_code](/cells/tr/python-net/aspose.cells/workbooksettings/language_code) | Dosyayı kaydeden CountryCode'a dayalı olarak Çalışma Kitabı sürümünün kullanıcı arabirimi dilini alır veya ayarlar.|
-| [region](/cells/tr/python-net/aspose.cells/workbooksettings/region) | Çalışma kitaplarının bölgesel ayarlarını alır veya ayarlar.|
+| [region](/cells/tr/python-net/aspose.cells/workbooksettings/region) | Çalışma kitabı için bölgesel ayarları alır veya ayarlar.|
 | [globalization_settings](/cells/tr/python-net/aspose.cells/workbooksettings/globalization_settings) | Genelleştirme ayarlarını alır ve ayarlar.|
-| [number_decimal_separator](/cells/tr/python-net/aspose.cells/workbooksettings/number_decimal_separator) | Sayısal değerleri biçimlendirmek/ayrıştırmak için ondalık ayırıcıyı alır veya ayarlar.|
-| [number_group_separator](/cells/tr/python-net/aspose.cells/workbooksettings/number_group_separator) | Sayısal değerlerde ondalığın solundaki basamak gruplarını ayıran karakteri alır veya ayarlar.Varsayılan, geçerli Bölgenin grup ayırıcısıdır.|
+| [number_decimal_separator](/cells/tr/python-net/aspose.cells/workbooksettings/number_decimal_separator) | Sayısal değerleri biçimlendirmek/ayrıştırmak için ondalık ayırıcıyı alır veya ayarlar. Varsayılan, geçerli Bölgenin ondalık ayırıcısıdır.|
+| [number_group_separator](/cells/tr/python-net/aspose.cells/workbooksettings/number_group_separator) | Sayısal değerlerde ondalık sayının solundaki basamak gruplarını ayıran karakteri alır veya ayarlar. Varsayılan, geçerli Bölgenin grup ayırıcısıdır.|
 | [password](/cells/tr/python-net/aspose.cells/workbooksettings/password) | Çalışma Kitabı dosya şifreleme parolasını temsil eder.|
 | [write_protection](/cells/tr/python-net/aspose.cells/workbooksettings/write_protection) | Çalışma kitabı yazma koruması seçeneklerine erişim sağlar.|
 | [is_encrypted](/cells/tr/python-net/aspose.cells/workbooksettings/is_encrypted) |Bu çalışma kitabını açmak için parola gerekip gerekmediğini gösteren bir değer alır.|
@@ -56,33 +56,33 @@ WorkbookSettings türü aşağıdaki üyeleri gösterir:
 | [window_top](/cells/tr/python-net/aspose.cells/workbooksettings/window_top) | Nokta birimi cinsinden istemci alanının üst kenarından pencerenin üst kenarına olan mesafe.|
 | [window_top_inch](/cells/tr/python-net/aspose.cells/workbooksettings/window_top_inch) | İstemci alanının üst kenarından pencerenin üst kenarına olan mesafe, inç cinsinden.|
 | [window_top_cm](/cells/tr/python-net/aspose.cells/workbooksettings/window_top_cm) | Santimetre birimi cinsinden istemci alanının üst kenarından pencerenin üst kenarına olan mesafe.|
-| [window_width](/cells/tr/python-net/aspose.cells/workbooksettings/window_width) | Pencerenin nokta birimi cinsinden genişliği.|
-| [window_width_inch](/cells/tr/python-net/aspose.cells/workbooksettings/window_width_inch) | Pencerenin inç cinsinden genişliği.|
-| [window_width_cm](/cells/tr/python-net/aspose.cells/workbooksettings/window_width_cm) | Pencerenin santimetre cinsinden genişliği.|
+| [window_width](/cells/tr/python-net/aspose.cells/workbooksettings/window_width) | Nokta birimi cinsinden pencerenin genişliği.|
+| [window_width_inch](/cells/tr/python-net/aspose.cells/workbooksettings/window_width_inch) | Pencerenin inç birimi cinsinden genişliği.|
+| [window_width_cm](/cells/tr/python-net/aspose.cells/workbooksettings/window_width_cm) | Pencerenin santimetre birimi cinsinden genişliği.|
 | [window_height](/cells/tr/python-net/aspose.cells/workbooksettings/window_height) | Nokta birimi cinsinden pencerenin yüksekliği.|
 | [window_height_inch](/cells/tr/python-net/aspose.cells/workbooksettings/window_height_inch) | Pencerenin inç cinsinden yüksekliği.|
 | [window_height_cm](/cells/tr/python-net/aspose.cells/workbooksettings/window_height_cm) | Pencerenin santimetre cinsinden yüksekliği.|
 | [update_adjacent_cells_border](/cells/tr/python-net/aspose.cells/workbooksettings/update_adjacent_cells_border) | Bitişik hücrelerin kenarlığının güncellenip güncellenmediğini gösterir.|
 | [significant_digits](/cells/tr/python-net/aspose.cells/workbooksettings/significant_digits) | Anlamlı basamak sayısını alır ve ayarlar.<br/> Varsayılan değer [CellsHelper.significant_digits](/cells/tr/python-net/aspose.cells/cellshelper#significant_digits)'dir.|
-| [check_compatibility](/cells/tr/python-net/aspose.cells/workbooksettings/check_compatibility) | Çalışma kitaplarını kaydederken önceki sürümlerle uyumluluğun kontrol edilip edilmediğini gösterir.|
-| [check_excel_restriction](/cells/tr/python-net/aspose.cells/workbooksettings/check_excel_restriction) | Kullanıcı hücrelerle ilgili nesneleri değiştirdiğinde excel dosyasının kısıtlamasının kontrol edilip edilmeyeceği.<br/>Örneğin, excel 32K'dan daha uzun bir dizi değeri girilmesine izin vermez.<br/>Cell.PutValue(string) gibi 32K'dan uzun bir değer girdiğinizde, bu özellik doğruysa, bir İstisna alırsınız.<br/>Bu özellik yanlışsa, giriş dizesi değerinizi hücrenin değeri olarak kabul edeceğiz, böylece daha sonra<br/>CSV gibi diğer dosya formatları için tam dizi değerinin çıktısını alabilirsiniz.<br/>Ancak excel dosya formatı için geçersiz olan bir değer belirlediyseniz,<br/> çalışma kitabını daha sonra excel dosya formatında kaydetmemelisiniz.|
+| [check_compatibility](/cells/tr/python-net/aspose.cells/workbooksettings/check_compatibility) | Çalışma kitabını kaydederken önceki sürümlerle uyumluluğun kontrol edilip edilmediğini gösterir.|
+| [check_excel_restriction](/cells/tr/python-net/aspose.cells/workbooksettings/check_excel_restriction) | Kullanıcı hücrelerle ilgili nesneleri değiştirdiğinde excel dosyasının kısıtlamasının kontrol edilip edilmeyeceği.<br/>Örneğin, excel 32K'dan daha uzun bir dizi değeri girilmesine izin vermez.<br/>Cell.PutValue(string) gibi 32K'dan uzun bir değer girdiğinizde, bu özellik doğruysa, bir İstisna alırsınız.<br/>Bu özellik yanlışsa, giriş dizesi değerinizi hücrenin değeri olarak kabul edeceğiz, böylece daha sonra<br/>CSV gibi diğer dosya formatları için tam dizi değerinin çıktısını alabilirsiniz.<br/>Ancak excel dosya formatı için geçersiz olan bir değer belirlediyseniz,<br/> çalışma kitabını daha sonra excel dosya formatında kaydetmemelisiniz. Aksi halde oluşturulan excel dosyasında beklenmeyen bir hata olabilir.|
 | [auto_recover](/cells/tr/python-net/aspose.cells/workbooksettings/auto_recover) |Dosyanın otomatik kurtarma için işaretlenip işaretlenmediğini gösterir.|
 | [crash_save](/cells/tr/python-net/aspose.cells/workbooksettings/crash_save) | uygulamanın çalışma kitabı dosyasını bir kilitlenmeden sonra en son kaydedip kaydetmediğini gösterir.|
 | [data_extract_load](/cells/tr/python-net/aspose.cells/workbooksettings/data_extract_load) | uygulamanın veri kurtarma için çalışma kitabını en son açıp açmadığını gösterir.|
 | [repair_load](/cells/tr/python-net/aspose.cells/workbooksettings/repair_load) | Uygulamanın çalışma kitabını en son güvenli modda mı yoksa onarım modunda mı açtığını gösterir.|
 | [build_version](/cells/tr/python-net/aspose.cells/workbooksettings/build_version) | Uygulamanın artımlı genel yayınını belirtir.|
-| [memory_setting](/cells/tr/python-net/aspose.cells/workbooksettings/memory_setting) | Bellek kullanım seçeneklerini alır veya ayarlar. Yeni seçenek, yeni oluşturulan çalışma sayfaları için varsayılan seçenek olarak alınır, ancak mevcut çalışma sayfaları için etkili olmaz.|
+| [memory_setting](/cells/tr/python-net/aspose.cells/workbooksettings/memory_setting) | Bellek kullanım seçeneklerini alır veya ayarlar. Yeni seçenek, yeni oluşturulan çalışma sayfaları için varsayılan seçenek olarak alınacaktır ancak mevcut çalışma sayfaları için geçerli olmayacaktır.|
 | [paper_size](/cells/tr/python-net/aspose.cells/workbooksettings/paper_size) | Varsayılan yazdırma kağıdı boyutunu alır ve ayarlar.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/workbooksettings/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/workbooksettings/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
 | [max_rows_of_shared_formula](/cells/tr/python-net/aspose.cells/workbooksettings/max_rows_of_shared_formula) | Paylaşılan formülün maksimum satır sayısını alır ve ayarlar.|
-| [compliance](/cells/tr/python-net/aspose.cells/workbooksettings/compliance) | Çıktı belgesi için OOXML sürümünü belirtir.|
+| [compliance](/cells/tr/python-net/aspose.cells/workbooksettings/compliance) | Çıktı belgesi için OOXML sürümünü belirtir. Varsayılan değer Ecma376_2006'dır.|
 | [quote_prefix_to_style](/cells/tr/python-net/aspose.cells/workbooksettings/quote_prefix_to_style) | Hücreye dize değeri (tek tırnak işaretiyle başlayan) girilirken [Style.quote_prefix](/cells/tr/python-net/aspose.cells/style#quote_prefix) özelliğinin ayarlanıp ayarlanmadığını gösterir.|
 | [formula_settings](/cells/tr/python-net/aspose.cells/workbooksettings/formula_settings) | Formülle ilgili özelliklerin ayarlarını alır.|
 | [precision_as_displayed](/cells/tr/python-net/aspose.cells/workbooksettings/precision_as_displayed) |Bu çalışma kitabındaki hesaplamalar yalnızca sayıların görüntülendikleri kesinliği kullanılarak yapılacaksa doğrudur|
 | [re_calculate_on_open](/cells/tr/python-net/aspose.cells/workbooksettings/re_calculate_on_open) | Dosya açılırken tüm formüllerin yeniden hesaplanıp hesaplanmayacağını belirtir.|
-| [create_calc_chain](/cells/tr/python-net/aspose.cells/workbooksettings/create_calc_chain) | Hesaplanmış formüller zinciri oluşturup oluşturmadığı. Varsayılan değer yanlıştır.|
+| [create_calc_chain](/cells/tr/python-net/aspose.cells/workbooksettings/create_calc_chain) | Hesaplanmış formüller zinciri oluşturup oluşturmadığı. Varsayılan yanlıştır.|
 | [force_full_calculate](/cells/tr/python-net/aspose.cells/workbooksettings/force_full_calculate) | Bir hesaplama tetiklendiğinde her seferinde tam olarak hesaplar.|
-| [iteration](/cells/tr/python-net/aspose.cells/workbooksettings/iteration) | Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmeyeceğini gösterir.|
+| [iteration](/cells/tr/python-net/aspose.cells/workbooksettings/iteration) | Döngüsel referansları çözmek için yinelemeli hesaplamanın etkinleştirilip etkinleştirilmediğini gösterir.|
 | [max_iteration](/cells/tr/python-net/aspose.cells/workbooksettings/max_iteration) | Döngüsel bir başvuruyu çözmek için maksimum yineleme sayısını döndürür veya ayarlar.|
 | [max_change](/cells/tr/python-net/aspose.cells/workbooksettings/max_change) | Döngüsel bir başvuruyu çözmek için maksimum değişiklik sayısını döndürür veya ayarlar.|
 | [calc_mode](/cells/tr/python-net/aspose.cells/workbooksettings/calc_mode) | Formüllerin manuel olarak hesaplanıp hesaplanmayacağını belirtir,<br/> birden çok tablo işlemi dışında otomatik veya otomatik olarak.|
@@ -99,7 +99,7 @@ WorkbookSettings türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

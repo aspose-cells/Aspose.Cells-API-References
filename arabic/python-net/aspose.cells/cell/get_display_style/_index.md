@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_display_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 يحصل على نمط عرض الخلية.
-إذا تم تنسيق الخلية بشكل مشروط ، فلن يكون نمط العرض هو نفسه الخلية.
+إذا كانت الخلية منسقة شرطيًا ، فلن يكون نمط العرض مماثلاً للخلية.
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | include_merged_borders | bool | يشير إلى ما إذا كان التحقق من حدود الخلايا المدمجة أم لا.|
 

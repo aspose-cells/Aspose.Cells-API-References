@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_width mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width mülk
 
-Genişliği nokta birimleri cinsinden alır ve ayarlar.
+Genişliği nokta birimi cinsinden alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

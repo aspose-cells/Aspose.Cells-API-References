@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_zip64 fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

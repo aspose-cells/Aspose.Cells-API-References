@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_visible_cells proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se tracciare solo le celle visibili.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare la proprietà PlotVisibleCellsOnly.
  Questo metodo verrà rimosso 12 mesi dopo da dicembre 2022.
 Aspose si scusa per gli eventuali disagi causati.

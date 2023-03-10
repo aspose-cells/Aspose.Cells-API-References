@@ -1,4 +1,4 @@
-﻿---
+---
 title: type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type Eigentum
 
-Ruft die Pivot-Felder type ab.
+Ruft die PivotFields type ab.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_font_size fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Ställer in standard standard teckenstorlek.
 
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad.
+OBS: Denna medlem är nu föråldrad. Använd istället DefaultStyleSettings.
  Den här egenskapen kommer att tas bort 12 månader senare sedan mars 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_oval Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_oval(self, upper_left_row, top, upper_left_column, left, height, width):
 | height | int | Repräsentiert die Höhe von Oval in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite des Ovals in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

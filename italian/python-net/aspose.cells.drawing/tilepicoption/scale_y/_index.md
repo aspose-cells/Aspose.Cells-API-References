@@ -1,4 +1,4 @@
-﻿---
+---
 title: scale_y proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y proprietà
 
-Ottiene o imposta la scala Y per l'affiancamento delle immagini.
+Ottiene o imposta la scala Y per l'affiancamento dell'immagine.
 ###  Definizione:
 ```python
 @property

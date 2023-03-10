@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_smart_markers方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ### 评论
 
-每次调用都会创建一个字符串数组。
+每次调用都会创建一个字符串数组。对数组进行排序并删除重复值。
 
 
 ### 也可以看看

@@ -1,4 +1,4 @@
-﻿---
+---
 title: format yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def format(self, row, column, style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Hücrenin Satır Dizini|
 | column | int | Hücrenin sütun dizini|

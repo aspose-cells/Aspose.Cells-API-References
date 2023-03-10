@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /tr/python-net/aspose.cells.drawing/
 is_root: false
 ---
- bu**Aspose.Cells.Drawing** Ad alanı, çizim şekilleri, form kontrolleri ve daha gelişmiş çizim nesneleri oluşturmaya ve değiştirmeye izin veren sınıflar sağlar.
+ bu**Aspose.Cells.Drawing** ad alanı, çizim şekilleri, form kontrolleri ve daha gelişmiş çizim nesneleri oluşturmaya ve değiştirmeye izin veren sınıflar sağlar.
 
 ###  sınıflar
 | Sınıf| Tanım|
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/tr/python-net/aspose.cells.drawing/combobox) | ComboBox denetim formunu temsil eder.|
 | [CommentShape](/cells/tr/python-net/aspose.cells.drawing/commentshape) | Yorumun şeklini temsil eder.|
 | [CustomGeometry](/cells/tr/python-net/aspose.cells.drawing/customgeometry) | Özel bir geometrik şekli temsil eder.|
-| [CustomXmlShape](/cells/tr/python-net/aspose.cells.drawing/customxmlshape) | Mürekkep gibi Özel xml şekillerini temsil eder.|
+| [CustomXmlShape](/cells/tr/python-net/aspose.cells.drawing/customxmlshape) | Mürekkep gibi Özel xml şeklini temsil eder.|
 | [DialogBox](/cells/tr/python-net/aspose.cells.drawing/dialogbox) | İletişim kutusunu temsil eder.|
 | [Fill](/cells/tr/python-net/aspose.cells.drawing/fill) | Şeklin dolgu biçimini temsil eder.|
 | [FillFormat](/cells/tr/python-net/aspose.cells.drawing/fillformat) | Bir şekil için dolgu biçimlendirmesini temsil eden nesneyi kapsüller.|
@@ -64,10 +64,10 @@ is_root: false
 | [ScrollBar](/cells/tr/python-net/aspose.cells.drawing/scrollbar) | Bir kaydırma çubuğu nesnesini temsil eder.|
 | [ShadowEffect](/cells/tr/python-net/aspose.cells.drawing/shadoweffect) |Bu sınıf, grafik öğesinin veya şeklin gölge efektini belirtir.|
 | [Shape](/cells/tr/python-net/aspose.cells.drawing/shape) | msodrawing nesnesini temsil eder.|
-| [ShapeCollection](/cells/tr/python-net/aspose.cells.drawing/shapecollection) | Bir çalışma sayfasındaki/grafikteki tüm şekilleri temsil eder.|
+| [ShapeCollection](/cells/tr/python-net/aspose.cells.drawing/shapecollection) | Bir çalışma sayfasındaki/grafikteki tüm şekli temsil eder.|
 | [ShapeFormat](/cells/tr/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/tr/python-net/aspose.cells.drawing/shapeguide) | Bir şekil kılavuzunu kapsüller, kullanılacak bir şekil kılavuzunun varlığını belirtir.<br/> belirtilen şeklin geometrisini yönetin|
-| [ShapeGuideCollection](/cells/tr/python-net/aspose.cells.drawing/shapeguidecollection) | Bir şekil kılavuzları koleksiyonunu kapsüller|
+| [ShapeGuideCollection](/cells/tr/python-net/aspose.cells.drawing/shapeguidecollection) | Bir şekil kılavuzu koleksiyonunu kapsüller|
 | [ShapePath](/cells/tr/python-net/aspose.cells.drawing/shapepath) | Birleştirildiğinde geometrik bir şekil oluşturacak bir dizi hareket, çizgi ve eğriden oluşan bir oluşturma yolunu temsil eder.|
 | [ShapePathCollection](/cells/tr/python-net/aspose.cells.drawing/shapepathcollection) | NotPrimitive otomatik şekil içindeki yol toplama bilgilerini temsil eder|
 | [ShapePathPoint](/cells/tr/python-net/aspose.cells.drawing/shapepathpoint) | Yol koordinat alanı içindeki bir xy koordinatını temsil eder.|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/tr/python-net/aspose.cells.drawing/texteffectformat) | WordArt nesnelerine uygulanan özellikleri ve yöntemleri içerir.|
 | [TextureFill](/cells/tr/python-net/aspose.cells.drawing/texturefill) | Doku dolgu biçimini temsil eden nesneyi kapsüller|
 | [ThreeDFormat](/cells/tr/python-net/aspose.cells.drawing/threedformat) | Bir şeklin üç boyutlu biçimlendirmesini temsil eder.|
-| [TilePicOption](/cells/tr/python-net/aspose.cells.drawing/tilepicoption) | Döşeme resimlerini dokular olarak temsil eder.|
+| [TilePicOption](/cells/tr/python-net/aspose.cells.drawing/tilepicoption) | Döşeme resmini doku olarak temsil eder.|
 | [VmlShapeGuide](/cells/tr/python-net/aspose.cells.drawing/vmlshapeguide) | sadece vml için<br/> Bir şekil kılavuzunu kapsüller, bir şeklin varlığını belirtir<br/> belirtilen şeklin geometrisini yönetmek için kullanılacak kılavuz|
 | [WebExtensionShape](/cells/tr/python-net/aspose.cells.drawing/webextensionshape) | Web uzantısının şeklini temsil eder.|
 
@@ -92,7 +92,7 @@ is_root: false
 ###  Numaralandırmalar
 |numaralandırma| Tanım|
 | :- | :- |
-| [AutoShapeType](/cells/tr/python-net/aspose.cells.drawing/autoshapetype) | Tüm yerleşik otomatik şekil türlerini temsil eder.|
+| [AutoShapeType](/cells/tr/python-net/aspose.cells.drawing/autoshapetype) | Tüm yerleşik otomatik şekil türünü temsil eder.|
 | [BevelPresetType](/cells/tr/python-net/aspose.cells.drawing/bevelpresettype) | 3B'de bir şekle uygulanabilen bir eğim türü için hazır ayarı temsil eder.|
 | [BevelType](/cells/tr/python-net/aspose.cells.drawing/beveltype) | 3B'de bir şekle uygulanabilen bir eğim türü için hazır ayarı temsil eder.|
 | [CheckValueType](/cells/tr/python-net/aspose.cells.drawing/checkvaluetype) | Onay kutusunun onay değeri türünü temsil eder.|
@@ -103,7 +103,7 @@ is_root: false
 | [FormatSetType](/cells/tr/python-net/aspose.cells.drawing/formatsettype) | Format set tipini doldurun.|
 | [GradientColorType](/cells/tr/python-net/aspose.cells.drawing/gradientcolortype) | Belirtilen dolgu için degrade renk türünü temsil eder.|
 | [GradientDirectionType](/cells/tr/python-net/aspose.cells.drawing/gradientdirectiontype) | Tüm yön tipi degradeyi temsil eder.|
-| [GradientFillType](/cells/tr/python-net/aspose.cells.drawing/gradientfilltype) |Tüm degrade dolgu türlerini temsil eder.|
+| [GradientFillType](/cells/tr/python-net/aspose.cells.drawing/gradientfilltype) |Tüm Degrade dolgu türünü temsil eder.|
 | [GradientPresetType](/cells/tr/python-net/aspose.cells.drawing/gradientpresettype) | Degrade ön ayarlı renk türünü temsil eder.|
 | [GradientStyleType](/cells/tr/python-net/aspose.cells.drawing/gradientstyletype) | Degrade gölgeleme stilini temsil eder.|
 | [ImageType](/cells/tr/python-net/aspose.cells.drawing/imagetype) | Bir görüntünün türünü (biçimini) belirtir.|

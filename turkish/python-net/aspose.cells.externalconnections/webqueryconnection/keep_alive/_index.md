@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_alive mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  keep_alive mülk
 
  Elektronik tablo uygulamasının bağlantıyı sürdürmek için çaba göstermesi gerektiğinde doğrudur
-false olduğunda, uygulama bağlantıyı aldıktan sonra bağlantıyı kapatmalıdır.
+açık. Yanlış olduğunda, uygulama, bağlantıyı aldıktan sonra bağlantıyı kapatmalıdır.
 bilgi.
 ###  Tanım:
 ```python

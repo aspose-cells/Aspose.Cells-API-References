@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | sheet_name | str | Имя исходного рабочего листа.|
 ###  Исключения
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| sheet_index | int | Рабочий лист указателя источников.|
+| sheet_index | int | Указатель исходного листа.|
 
 
 

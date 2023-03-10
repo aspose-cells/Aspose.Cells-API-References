@@ -1,4 +1,4 @@
-﻿---
+---
 title: AboveAverage Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  AboveAverage Klasse
  Beschreiben Sie die bedingte Formatierungsregel AboveAverage.
 Diese Regel zur bedingten Formatierung hebt Zellen hervor, die
-liegen über oder unter dem Durchschnitt für alle Werte im Bereich.
+für alle Werte im Bereich über oder unter dem Durchschnitt liegen.
 
 
 
@@ -19,7 +19,7 @@ Der Typ AboveAverage macht die folgenden Member verfügbar:
 ###  Konstrukteure
 | Konstrukteur| Beschreibung|
 | :- | :- |
-| [AboveAverage()](/cells/de/python-net/aspose.cells/aboveaverage/__init__/#) | Erstellt eine neue Instanz von Above Average|
+| [AboveAverage()](/cells/de/python-net/aspose.cells/aboveaverage/__init__/#) | Erstellt eine neue Instanz von AboveAverage|
 
 
 ###  Eigenschaften

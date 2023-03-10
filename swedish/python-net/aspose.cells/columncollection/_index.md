@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColumnCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,11 +8,11 @@ url: /sv/python-net/aspose.cells/columncollection/
 is_root: false
 ---
 ##  ColumnCollection klass
-Samling av de [Column](/cells/sv/python-net/aspose.cells/column)-objekt som representerar de individuella kolumnerna (inställningarna) i ett kalkylblad.
-Kolumnobjektet representerar endast inställningar som kolumnbredd, stilar osv.
-har inget att göra med att det finns icke-tomma celler (data) eller inte i motsvarande kolumner.
+Samling av de [Column](/cells/sv/python-net/aspose.cells/column)-objekt som representerar de individuella kolumnerna i ett kalkylblad.
+Kolumnobjektet representerar endast inställningar som kolumnbredd, stilar osv. för hela kolumnen,
+har inget att göra med det faktum att det finns icke-tomma celler(data) eller inte i motsvarande kolumn.
 Och "Räkneverket" i denna samling representerar bara de räkningskolumnobjekt som har instansierats i den här samlingen,
-har inget att göra med att det finns icke-tomma celler (data) eller inte i kalkylbladet.
+har inget att göra med det faktum att det finns icke-tomma celler(data) eller inte i kalkylbladet.
 
 
 

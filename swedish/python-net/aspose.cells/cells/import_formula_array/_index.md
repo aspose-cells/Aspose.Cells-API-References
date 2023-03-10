@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_formula_array metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/import_formula_array/
 is_root: false
 ---
 ##  import_formula_array(string_array, first_row, first_column, is_vertical) {#list-int-int-bool}
-Importerar en matris med formler till ett kalkylblad.
+Importerar en matris med formel till ett kalkylblad.
 
 
 
@@ -18,7 +18,7 @@ def import_formula_array(self, string_array, first_row, first_column, is_vertica
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | string_array | list | Formel array.|
 | first_row | int | Radnumret för den första cellen att importera i.|

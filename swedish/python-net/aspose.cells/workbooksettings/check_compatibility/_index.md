@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_compatibility fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility fastighet
 
-Anger om du kontrollerar kompatibilitet med tidigare versioner när du sparar arbetsböcker.
+Anger om du kontrollerar kompatibilitet med tidigare versioner när du sparar arbetsboken.
 
 ###  Anmärkningar
 

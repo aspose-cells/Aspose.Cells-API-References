@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة merge_files
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,14 +18,14 @@ def merge_files(self, files, cached_file, dest_file):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | files | list | الملفات.|
 | cached_file | str | الملف المخبأ.|
 | dest_file | str | ملف dest.|
 ###  ملاحظات
 
-تدعم هذه الطريقة فقط دمج البيانات والأنماط والصيغ في الملف الجديد.
+تدعم هذه الطريقة فقط دمج البيانات والنمط والصيغ في الملف الجديد.
 يتم استخدام الملف المخزن مؤقتًا لتخزين بعض البيانات المؤقتة.
 
 

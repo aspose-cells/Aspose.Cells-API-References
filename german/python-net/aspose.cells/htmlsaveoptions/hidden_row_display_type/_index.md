@@ -1,4 +1,4 @@
-﻿---
+---
 title: hidden_row_display_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Versteckte Zeile (die Höhe dieser Zeile ist 0) in Excel, bevor Sie diese im HTML-Format speichern,
 wenn HtmlHiddenRowDisplayType "Remove" ist, würde die versteckte Zeile nicht ausgegeben,
-wenn der Wert "Hidden" ist, wäre die Zeile ausgegeben worden, wurde aber versteckt, der Standardwert ist "Hidden"
+wenn der Wert "Hidden" ist, würde die Zeile ausgegeben werden, aber war versteckt, der Standardwert ist "Hidden".
 ###  Definition:
 ```python
 @property

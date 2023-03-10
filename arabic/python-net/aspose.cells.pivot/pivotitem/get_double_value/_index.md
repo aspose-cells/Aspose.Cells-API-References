@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_double_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

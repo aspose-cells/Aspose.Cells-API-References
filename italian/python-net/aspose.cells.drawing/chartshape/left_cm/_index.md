@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_cm proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  left_cm proprietà
 
-Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di centimetri.
+Rappresenta l'offset orizzontale della forma dalla colonna sinistra, in unità di centimetri.
 
-###  Esempi
+###  Esempio
 
 ```python
 

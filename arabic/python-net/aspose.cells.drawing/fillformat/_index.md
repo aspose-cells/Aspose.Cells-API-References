@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillFormat الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,7 +20,7 @@ is_root: false
 | [type](/cells/ar/python-net/aspose.cells.drawing/fillformat/type) |الحصول على نوع التعبئة وتعيينه.|
 | [fill_type](/cells/ar/python-net/aspose.cells.drawing/fillformat/fill_type) | الحصول على نوع التعبئة وتعيينه|
 | [transparency](/cells/ar/python-net/aspose.cells.drawing/fillformat/transparency) | إرجاع أو تعيين درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (واضح).|
-| [set_type](/cells/ar/python-net/aspose.cells.drawing/fillformat/set_type) | يحصل على نوع مجموعة تنسيق التعبئة.|
+| [set_type](/cells/ar/python-net/aspose.cells.drawing/fillformat/set_type) | الحصول على نوع مجموعة تنسيق التعبئة.|
 | [gradient_fill](/cells/ar/python-net/aspose.cells.drawing/fillformat/gradient_fill) | يحصل على كائن [FillFormat.gradient_fill](/cells/ar/python-net/aspose.cells.drawing/fillformat#gradient_fill).|
 | [texture_fill](/cells/ar/python-net/aspose.cells.drawing/fillformat/texture_fill) | يحصل على كائن [FillFormat.texture_fill](/cells/ar/python-net/aspose.cells.drawing/fillformat#texture_fill).|
 | [solid_fill](/cells/ar/python-net/aspose.cells.drawing/fillformat/solid_fill) | يحصل على كائن [FillFormat.solid_fill](/cells/ar/python-net/aspose.cells.drawing/fillformat#solid_fill).|
@@ -49,7 +49,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

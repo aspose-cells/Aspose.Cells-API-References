@@ -1,6 +1,6 @@
-﻿---
+---
 title: Timeline类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ Timeline 类型公开了以下成员：
 |属性|描述|
 | :- | :- |
 | [caption](/cells/zh/python-net/aspose.cells.timelines/timeline/caption) |返回或设置指定时间轴的标题。|
-| [name](/cells/zh/python-net/aspose.cells.timelines/timeline/name) |返回或设置指定时间线的名称|
+| [name](/cells/zh/python-net/aspose.cells.timelines/timeline/name) |返回或设置指定时间轴的名称|
 | [left_pixel](/cells/zh/python-net/aspose.cells.timelines/timeline/left_pixel) |返回或设置时间线形状与其左列的水平偏移量（以像素为单位）。|
 | [top_pixel](/cells/zh/python-net/aspose.cells.timelines/timeline/top_pixel) |返回或设置时间线形状与其顶行的垂直偏移量（以像素为单位）。|
 | [width_pixel](/cells/zh/python-net/aspose.cells.timelines/timeline/width_pixel) |返回或设置指定时间线的宽度，以像素为单位。|

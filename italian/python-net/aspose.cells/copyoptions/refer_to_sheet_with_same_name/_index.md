@@ -1,4 +1,4 @@
-﻿---
+---
 title: refer_to_sheet_with_same_name proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -16,7 +16,7 @@ si prega di impostare questa proprietà come true.
 
 ###  Osservazioni
 
-Il valore predefinito è true.
+Il valore predefinito è vero.
 ###  Definizione:
 ```python
 @property

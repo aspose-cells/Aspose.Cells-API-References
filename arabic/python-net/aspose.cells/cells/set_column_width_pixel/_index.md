@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_column_width_pixel
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_column_width_pixel(self, column, pixels):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column | int | فهرس العمود.|
 | pixels | int | عدد البكسل.|

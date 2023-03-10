@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionTaskPaneCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/
 is_root: false
 ---
 ##  WebExtensionTaskPaneCollection الدرجة
-يمثل قائمة أجزاء المهام.
+يمثل قائمة جزء المهام.
 
 
 

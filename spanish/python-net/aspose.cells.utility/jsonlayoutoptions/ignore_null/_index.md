@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_null propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null propiedad
 
-Indica si se ignoran los valores nulos.
+Indica si se ignora el valor nulo.
 ###  Definición:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,9 +13,9 @@ Ottiene o imposta un valore che indica se il foglio di calcolo generato conterr�
 
 ###  Osservazioni
 
-Il valore predefinito è true.
+Il valore predefinito è vero.
 
-###  Esempi
+###  Esempio
 
 Il codice seguente rende invisibile la barra di scorrimento orizzontale per il foglio di calcolo.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: refreshed_by_who الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

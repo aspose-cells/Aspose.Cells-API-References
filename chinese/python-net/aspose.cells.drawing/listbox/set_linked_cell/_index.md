@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_linked_cell方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 200
@@ -18,7 +18,7 @@ def set_linked_cell(self, formula, is_r1c1, is_local):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | formula | str |链接到控件值的范围。|
 | is_r1c1 | bool |公式是否需要格式化为R1C1。|

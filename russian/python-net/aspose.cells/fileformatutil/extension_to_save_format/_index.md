@@ -1,4 +1,4 @@
-﻿---
+---
 title: extension_to_save_format метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| extension | str | Расширение файла. Может быть с точкой в начале или без нее.|
+| extension | str | Расширение файла. Может быть с ведущей точкой или без нее. Без учета регистра.|
 ###  Примечания
 
 Если расширение не может быть распознано, возвращает [SaveFormat.UNKNOWN](/cells/ru/python-net/aspose.cells/saveformat#UNKNOWN).

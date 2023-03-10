@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -20,7 +20,7 @@ Typen FilterType avslöjar följande medlemmar:
 | COLOR_FILTER | Filtrera efter fyllningsfärg för cellen.|
 | CUSTOM_FILTERS | Anpassad filtertyp.|
 | DYNAMIC_FILTER | Dynamisk filtertyp.|
-| MULTIPLE_FILTERS | När flera värden väljs att filtrera efter, eller när en grupp av datumvärden väljs att filtrera efter,<br/> detta element grupperar dessa kriterier.|
+| MULTIPLE_FILTERS | När flera värden väljs att filtrera efter, eller när en grupp datumvärden väljs att filtrera efter,<br/> detta element grupperar dessa kriterier.|
 | ICON_FILTER | Filtrera efter ikon för villkorlig formatering.|
 | TOP10 | Topp 10 filter.|
 | NONE | Inget filter.|

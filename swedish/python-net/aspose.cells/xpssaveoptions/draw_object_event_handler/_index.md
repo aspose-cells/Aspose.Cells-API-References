@@ -1,4 +1,4 @@
-﻿---
+---
 title: draw_object_event_handler fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

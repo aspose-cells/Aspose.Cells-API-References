@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_area
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/validationcollection/remove_area/
 is_root: false
 ---
 ##  remove_area(ca) {#CellArea}
-يزيل كافة إعدادات التحقق من النطاق ..
+يزيل كل إعدادات التحقق من النطاق ..
 
 
 
@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | ca | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | النطاق الذي يحتوي على إعداد عمليات التحقق من الصحة.|
 

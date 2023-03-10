@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_color
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_color(self, sheets):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheets | [WorksheetCollection](/cells/ar/python-net/aspose.cells/worksheetcollection) |  |
 

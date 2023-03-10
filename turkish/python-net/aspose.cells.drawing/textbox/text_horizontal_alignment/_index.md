@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_alignment mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin metin yatay hizalama türünü alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import TextAlignmentType

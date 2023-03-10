@@ -1,4 +1,4 @@
-﻿---
+---
 title: xml_map الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

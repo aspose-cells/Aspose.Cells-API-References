@@ -1,4 +1,4 @@
-﻿---
+---
 title: Range الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [current_region](/cells/ar/python-net/aspose.cells/range/current_region) |إرجاع كائن النطاق الذي يمثل المنطقة الحالية.<br/> المنطقة الحالية عبارة عن نطاق يحده أي مجموعة من الصفوف الفارغة والأعمدة الفارغة.|
-| [hyperlinks](/cells/ar/python-net/aspose.cells/range/hyperlinks) | يحصل على كافة الارتباطات التشعبية الموجودة في النطاق.|
+| [hyperlinks](/cells/ar/python-net/aspose.cells/range/hyperlinks) | يحصل على كل الارتباط التشعبي في النطاق.|
 | [row_count](/cells/ar/python-net/aspose.cells/range/row_count) | الحصول على عدد الصفوف في النطاق.|
 | [column_count](/cells/ar/python-net/aspose.cells/range/column_count) | الحصول على عدد الأعمدة في النطاق.|
 | [cell_count](/cells/ar/python-net/aspose.cells/range/cell_count) | الحصول على كل عدد الخلايا في النطاق.|
@@ -36,14 +36,14 @@ is_root: false
 | [row_height](/cells/ar/python-net/aspose.cells/range/row_height) | تعيين أو الحصول على ارتفاع الصفوف في هذا النطاق|
 | [entire_column](/cells/ar/python-net/aspose.cells/range/entire_column) |الحصول على كائن Range يمثل العمود (أو الأعمدة) بأكمله الذي يحتوي على النطاق المحدد.|
 | [entire_row](/cells/ar/python-net/aspose.cells/range/entire_row) | الحصول على كائن Range يمثل الصف بأكمله (أو الصفوف) الذي يحتوي على النطاق المحدد.|
-| [worksheet](/cells/ar/python-net/aspose.cells/range/worksheet) | الحصول على العنصر [Range.worksheet](/cells/ar/python-net/aspose.cells/range#worksheet) الذي يحتوي على هذا النطاق.|
+| [worksheet](/cells/ar/python-net/aspose.cells/range/worksheet) | الحصول على الكائن [Range.worksheet](/cells/ar/python-net/aspose.cells/range#worksheet) الذي يحتوي على هذا النطاق.|
 
 
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [auto_fill(target)](/cells/ar/python-net/aspose.cells/range/auto_fill/#Range) | كل ملء تلقائي للنطاق المستهدف.|
-| [auto_fill(target, auto_fill_type)](/cells/ar/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | كل ملء تلقائي للنطاق المستهدف.|
+| [auto_fill(target)](/cells/ar/python-net/aspose.cells/range/auto_fill/#Range) | كل ملء النطاق المستهدف.|
+| [auto_fill(target, auto_fill_type)](/cells/ar/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | كل ملء النطاق المستهدف.|
 | [set_style(style, explicit_flag)](/cells/ar/python-net/aspose.cells/range/set_style/#Style-bool) | قم بتطبيق نمط الخلية.|
 | [set_style(style)](/cells/ar/python-net/aspose.cells/range/set_style/#Style) | يعيّن نمط النطاق.|
 | [set_outline_borders(border_style, border_color)](/cells/ar/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | يضبط حدود المخطط التفصيلي حول نطاق من الخلايا بنفس نمط ولون الحدود.|
@@ -71,7 +71,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

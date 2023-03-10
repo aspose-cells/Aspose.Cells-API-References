@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageSaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/imagesaveoptions/__init__/
 is_root: false
 ---
 ##  ImageSaveOptions() {#}
-ينشئ خيارات لحفظ ملفات الصور.
+ينشئ خيارات لحفظ ملف الصورة.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  ImageSaveOptions(save_format) {#SaveFormat}
-ينشئ خيارات لحفظ ملفات الصور.
+ينشئ خيارات لحفظ ملف الصورة.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ar/python-net/aspose.cells/saveformat) | تنسيق الملف.<br/> يجب أن تكون tiff أو svg.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterOperatorType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,11 +18,11 @@ Il tipo FilterOperatorType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | LESS_OR_EQUAL | Rappresenta l'operatore LessOrEqual.|
-| LESS_THAN | Rappresenta l'operatore Minore di.|
+| LESS_THAN | Rappresenta l'operatore LessThan.|
 | EQUAL | Rappresenta l'operatore Uguale.|
-| GREATER_THAN | Rappresenta l'operatore Maggiore di.|
+| GREATER_THAN | Rappresenta l'operatore GreaterThan.|
 | NOT_EQUAL | Rappresenta l'operatore NotEqual.|
-| GREATER_OR_EQUAL | Rappresenta l'operatore maggiore o uguale.|
+| GREATER_OR_EQUAL | Rappresenta l'operatore GreaterOrEqual.|
 | NONE | Non rappresenta alcun confronto.|
 | BEGINS_WITH | Inizia con il testo.|
 | ENDS_WITH |Termina con il testo.|

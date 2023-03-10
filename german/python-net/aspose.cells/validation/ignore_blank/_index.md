@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_blank Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_blank Eigentum
 
-Gibt an, ob Leerwerte von der Bereichsdatenvalidierung zugelassen werden.
+Gibt an, ob bei der Bereichsdatenvalidierung Leerwerte zulässig sind.
 ###  Definition:
 ```python
 @property

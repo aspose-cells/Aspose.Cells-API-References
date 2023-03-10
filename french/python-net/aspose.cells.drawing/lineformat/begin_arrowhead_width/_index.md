@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_width propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de largeur de flèche de début de la ligne.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells.drawing import MsoArrowheadWidth

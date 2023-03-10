@@ -1,4 +1,4 @@
-﻿---
+---
 title: areas Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  areas Eigentum
 
-Ruft alle [CellArea](/cells/de/python-net/aspose.cells/cellarea) ab, die die Datenvalidierungseinstellungen enthalten.
+Ruft alle [CellArea](/cells/de/python-net/aspose.cells/cellarea) ab, die die Datenüberprüfungseinstellungen enthalten.
 ###  Definition:
 ```python
 @property

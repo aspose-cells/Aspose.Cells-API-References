@@ -1,4 +1,4 @@
-﻿---
+---
 title: web_extensions proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

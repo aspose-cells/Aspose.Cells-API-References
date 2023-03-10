@@ -1,4 +1,4 @@
-﻿---
+---
 title: total_columns Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_columns Eigentum
 
--1 bedeutet alle Zeilen der angegebenen Datenquelle.
+Ruft die Gesamtanzahl der Spalten ab, die aus der Datenquelle importiert werden sollen, oder legt diese fest. -1 bedeutet alle Zeilen der angegebenen Datenquelle.
 ###  Definition:
 ```python
 @property

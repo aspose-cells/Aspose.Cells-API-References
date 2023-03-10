@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_in_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/shapecollection/delete_in_range/
 is_root: false
 ---
 ##  delete_in_range(ca) {#CellArea}
-Formen im Bereich löschen. Kommentarformen werden nicht gelöscht.
+Formen im Bereich löschen.Kommentarformen werden nicht gelöscht.
 
 
 
@@ -22,7 +22,7 @@ def delete_in_range(self, ca):
 | :- | :- | :- |
 | ca | [CellArea](/cells/de/python-net/aspose.cells/cellarea) |Der Bereich. Wenn die Formen im Bereich enthalten sind, werden sie entfernt.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellArea

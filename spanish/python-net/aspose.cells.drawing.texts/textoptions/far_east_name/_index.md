@@ -1,4 +1,4 @@
-﻿---
+---
 title: far_east_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name propiedad
 
-Obtiene y establece el nombre del Lejano Oriente.
+Obtiene y establece el nombre FarEast.
 ###  Definición:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_footer Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -36,7 +36,7 @@ Skriptbefehle:
 | &F| Dateiname ohne Pfad|
 | &"<FontName>"| Schriftartname, zum Beispiel: &"Arial"|
 | &"<FontName>, <FontStyle>"| Schriftname und Schriftstil, zum Beispiel: &"Arial,Bold"|
-| &<FontSize>| Schriftgröße Folgt diesem Befehl eine einfache Zahl, die in der Kopfzeile gedruckt werden soll, wird diese durch ein Leerzeichen von der Schrifthöhe getrennt.|
+| &<FontSize>| Schriftgröße. Folgt diesem Befehl eine einfache Zahl, die in der Kopfzeile ausgegeben werden soll, wird diese durch ein Leerzeichen von der Schrifthöhe getrennt.|
 | &K<RRGGBB>|Schriftfarbe, zum Beispiel (ROT): &KFF0000|
 | &G| Bildskript|
 

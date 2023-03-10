@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_text_dates الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

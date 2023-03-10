@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_never_overlap mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_never_overlap mülk
 
-Veri etiketlerinin ekranının hiçbir zaman çakışıp çakışmadığını gösterir (Pasta grafik için)
+Veri etiketlerinin ekranının hiçbir zaman çakışıp çakışmadığını gösterir. (Pasta grafiği için)
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackgroundType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
 ##  OdsPageBackgroundType uppräkning
-Representerar sidans bakgrundstyp av odds.
+Representerar sidans bakgrundstyp för ods.
 
 
 

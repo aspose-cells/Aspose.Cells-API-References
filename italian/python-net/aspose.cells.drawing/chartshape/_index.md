@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ChartShape
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -35,9 +35,9 @@ Il tipo ChartShape espone i membri seguenti:
 | [format](/cells/it/python-net/aspose.cells.drawing/chartshape/format) | Rappresenta l'impostazione della formattazione della forma.|
 | [line](/cells/it/python-net/aspose.cells.drawing/chartshape/line) | Ottiene lo stile della linea|
 | [fill](/cells/it/python-net/aspose.cells.drawing/chartshape/fill) | Restituisce un oggetto [Shape.fill_format](/cells/it/python-net/aspose.cells.drawing/shape#fill_format) che contiene le proprietà di formattazione del riempimento per la forma specificata.|
-| [shadow_effect](/cells/it/python-net/aspose.cells.drawing/chartshape/shadow_effect) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica un effetto ombra per l'elemento o la forma del grafico.|
+| [shadow_effect](/cells/it/python-net/aspose.cells.drawing/chartshape/shadow_effect) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica l'effetto ombra per l'elemento o la forma del grafico.|
 | [reflection](/cells/it/python-net/aspose.cells.drawing/chartshape/reflection) | Rappresenta un oggetto [ReflectionEffect](/cells/it/python-net/aspose.cells.drawing/reflectioneffect) che specifica l'effetto di riflessione per l'elemento o la forma del grafico.|
-| [glow](/cells/it/python-net/aspose.cells.drawing/chartshape/glow) | Rappresenta un oggetto [GlowEffect](/cells/it/python-net/aspose.cells.drawing/gloweffect) che specifica un effetto bagliore per l'elemento o la forma del grafico.|
+| [glow](/cells/it/python-net/aspose.cells.drawing/chartshape/glow) | Rappresenta un oggetto [GlowEffect](/cells/it/python-net/aspose.cells.drawing/gloweffect) che specifica l'effetto bagliore per l'elemento o la forma del grafico.|
 | [soft_edges](/cells/it/python-net/aspose.cells.drawing/chartshape/soft_edges) | Ottiene e imposta il raggio di sfocatura da applicare ai bordi, in unità di punti.|
 | [three_d_format](/cells/it/python-net/aspose.cells.drawing/chartshape/three_d_format) | Ottiene e imposta il formato 3D della forma.|
 | [text_frame](/cells/it/python-net/aspose.cells.drawing/chartshape/text_frame) | Restituisce un oggetto TextFrame che contiene le proprietà di allineamento e ancoraggio per la forma specificata.|
@@ -72,7 +72,7 @@ Il tipo ChartShape espone i membri seguenti:
 | [bottom](/cells/it/python-net/aspose.cells.drawing/chartshape/bottom) |Rappresenta la larghezza dell'offset verticale della forma dalla riga dell'angolo inferiore inferiore, in unità di pixel.|
 | [width](/cells/it/python-net/aspose.cells.drawing/chartshape/width) | Rappresenta la larghezza della forma, in unità di pixel.|
 | [width_inch](/cells/it/python-net/aspose.cells.drawing/chartshape/width_inch) | Rappresenta la larghezza della forma, in unità di pollici.|
-| [width_pt](/cells/it/python-net/aspose.cells.drawing/chartshape/width_pt) | Rappresenta la larghezza della forma, in unità di punti.|
+| [width_pt](/cells/it/python-net/aspose.cells.drawing/chartshape/width_pt) | Rappresenta la larghezza della forma, in unità di punto.|
 | [width_cm](/cells/it/python-net/aspose.cells.drawing/chartshape/width_cm) | Rappresenta la larghezza della forma, in unità di centimetri.|
 | [height](/cells/it/python-net/aspose.cells.drawing/chartshape/height) | Rappresenta l'altezza della forma, in unità di pixel.|
 | [height_inch](/cells/it/python-net/aspose.cells.drawing/chartshape/height_inch) | Rappresenta l'altezza della forma, in unità di pollici.|
@@ -80,7 +80,7 @@ Il tipo ChartShape espone i membri seguenti:
 | [height_cm](/cells/it/python-net/aspose.cells.drawing/chartshape/height_cm) | Rappresenta l'altezza della forma, in unità di centimetri.|
 | [left](/cells/it/python-net/aspose.cells.drawing/chartshape/left) | Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di pixel.|
 | [left_inch](/cells/it/python-net/aspose.cells.drawing/chartshape/left_inch) | Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di pollici.|
-| [left_cm](/cells/it/python-net/aspose.cells.drawing/chartshape/left_cm) | Rappresenta l'offset orizzontale della forma dalla colonna di sinistra, in unità di centimetri.|
+| [left_cm](/cells/it/python-net/aspose.cells.drawing/chartshape/left_cm) | Rappresenta l'offset orizzontale della forma dalla colonna sinistra, in unità di centimetri.|
 | [top](/cells/it/python-net/aspose.cells.drawing/chartshape/top) | Rappresenta l'offset verticale della forma dalla riga superiore, in unità di pixel.|
 | [top_inch](/cells/it/python-net/aspose.cells.drawing/chartshape/top_inch) |Rappresenta l'offset verticale della forma dalla riga superiore, in unità di pollici.|
 | [top_cm](/cells/it/python-net/aspose.cells.drawing/chartshape/top_cm) | Rappresenta l'offset verticale della forma dalla riga superiore, in unità di centimetri.|
@@ -91,7 +91,7 @@ Il tipo ChartShape espone i membri seguenti:
 | [width_scale](/cells/it/python-net/aspose.cells.drawing/chartshape/width_scale) | Ottiene e imposta la scala della larghezza, in unità di percentuale della larghezza dell'immagine originale.<br/> Se la forma non è picture , la proprietà WidthScale restituisce solo 100;|
 | [height_scale](/cells/it/python-net/aspose.cells.drawing/chartshape/height_scale) | Ottiene e imposta la scala dell'altezza, in unità di percentuale dell'altezza dell'immagine originale.<br/> Se la forma non è picture , la proprietà HeightScale restituisce solo 100;|
 | [top_in_shape](/cells/it/python-net/aspose.cells.drawing/chartshape/top_in_shape) | Rappresenta l'offset verticale della forma dal bordo superiore della forma padre,<br/> in unità di 1/4000 di altezza della forma madre.|
-| [left_in_shape](/cells/it/python-net/aspose.cells.drawing/chartshape/left_in_shape) |Rappresenta l'offset orizzontale della forma dal bordo sinistro della forma padre,<br/> in unità di 1/4000 di larghezza della forma genitore.|
+| [left_in_shape](/cells/it/python-net/aspose.cells.drawing/chartshape/left_in_shape) |Rappresenta l'offset orizzontale della forma dal bordo sinistro della forma padre,<br/> in unità di 1/4000 di larghezza della forma padre.|
 | [width_in_shape](/cells/it/python-net/aspose.cells.drawing/chartshape/width_in_shape) | Rappresenta la larghezza della forma, in unità di 1/4000 della forma padre.|
 | [height_in_shape](/cells/it/python-net/aspose.cells.drawing/chartshape/height_in_shape) | Rappresenta l'offset verticale della forma dal bordo superiore della forma padre, in unità di 1/4000 dell'altezza della forma padre.|
 | [group](/cells/it/python-net/aspose.cells.drawing/chartshape/group) | Ottiene la forma del gruppo che contiene questa forma.|
@@ -151,13 +151,13 @@ Il tipo ChartShape espone i membri seguenti:
 | [update_selected_value()](/cells/it/python-net/aspose.cells.drawing/chartshape/update_selected_value/#) | Aggiorna il valore selezionato in base al valore della cella collegata.|
 | [calculate_text_size()](/cells/it/python-net/aspose.cells.drawing/chartshape/calculate_text_size/#) | Ricalcola l'area di testo|
 | [characters(start_index, length)](/cells/it/python-net/aspose.cells.drawing/chartshape/characters/#int-int) | Restituisce un oggetto Characters che rappresenta un intervallo di caratteri all'interno del testo.|
-| [get_characters()](/cells/it/python-net/aspose.cells.drawing/chartshape/get_characters/#) | Restituisce tutti gli oggetti Characters<br/> che rappresenta un intervallo di caratteri all'interno del testo.|
+| [get_characters()](/cells/it/python-net/aspose.cells.drawing/chartshape/get_characters/#) | Restituisce tutti gli oggetti Characters<br/> che rappresenta un intervallo di caratteri all'interno del testo .|
 | [remove_active_x_control()](/cells/it/python-net/aspose.cells.drawing/chartshape/remove_active_x_control/#) | Rimuovi il controllo ActiveX.|
 | [is_same_setting(obj)](/cells/it/python-net/aspose.cells.drawing/chartshape/is_same_setting/#any) | Restituisce se la forma è la stessa.|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

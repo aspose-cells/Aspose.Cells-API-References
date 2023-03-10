@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionValueType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen FormatConditionValueType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| FORMULA | Minsta/mittpunkt/maximivärde för<br/> Gradient bestäms av en formel.|
+| FORMULA | Minsta/mittpunkts-/maxvärde för<br/> gradient bestäms av en formel.|
 | MAX | Indikerar att maxvärdet i intervallet ska vara<br/> används som maxvärde för gradienten.|
 | MIN | Indikerar att minimivärdet i intervallet ska vara<br/> används som minimivärde för gradienten.|
 | NUMBER | Indikerar att minimum / mittpunkt / maximum<br/>värdet för gradienten anges av en konstant<br/> numeriskt värde.|

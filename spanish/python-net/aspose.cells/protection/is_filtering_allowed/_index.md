@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_filtering_allowed propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,8 +13,8 @@ Representa si el usuario puede utilizar un Autofiltro que se creó antes de prot
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
- por favor use Protección Permita la propiedad Filtrado.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
+ utilice la propiedad Protection.AllowFiltering.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

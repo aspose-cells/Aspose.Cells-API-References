@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_display الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display الملكية
 
-يمثل النص الذي سيتم عرضه للارتباط التشعبي المحدد.
+يمثل النص الذي سيتم عرضه للارتباط التشعبي المحدد. القيمة الافتراضية هي عنوان الارتباط التشعبي.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: move_range yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def move_range(self, source_area, dest_row, dest_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Taşınması gereken aralık.|
 | dest_row | int | Hedef sıra.|

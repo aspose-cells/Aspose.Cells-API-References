@@ -1,6 +1,6 @@
-﻿---
+---
 title: refresh_dynamic_array_formulas方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 270
@@ -19,9 +19,9 @@ def refresh_dynamic_array_formulas(self, calculate):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| calculate | bool |是否为那些动态数组公式计算和更新单元格值|
+| calculate | bool |是否计算和更新那些动态数组公式的单元格值|
 
 
 ##  refresh_dynamic_array_formulas(calculate, copts) {#bool-CalculationOptions}
@@ -35,9 +35,9 @@ def refresh_dynamic_array_formulas(self, calculate, copts):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| calculate | bool |是否为那些动态数组公式计算和更新单元格值|
+| calculate | bool |是否计算和更新那些动态数组公式的单元格值|
 | copts | [CalculationOptions](/cells/zh/python-net/aspose.cells/calculationoptions) |计算公式的选项|
 
 

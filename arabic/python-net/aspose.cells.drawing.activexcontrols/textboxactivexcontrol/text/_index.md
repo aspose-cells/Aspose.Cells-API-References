@@ -1,4 +1,4 @@
-﻿---
+---
 title: text الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text الملكية
 
-يحصل على ويسدد text من عنصر التحكم.
+يحصل ويضبط text من السيطرة.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_decimal_separator proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_decimal_separator proprietà
 
-Ottiene o imposta il separatore decimale per la formattazione/l'analisi dei valori numerici.
+Ottiene o imposta il separatore decimale per la formattazione/l'analisi dei valori numerici. L'impostazione predefinita è il separatore decimale della regione corrente.
 ###  Definizione:
 ```python
 @property

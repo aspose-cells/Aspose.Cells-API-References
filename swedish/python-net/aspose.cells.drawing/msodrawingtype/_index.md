@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -21,15 +21,15 @@ Typen MsoDrawingType avslöjar följande medlemmar:
 | LINE | Linje|
 | RECTANGLE | Rektangel|
 | OVAL | Oval|
-| ARC | båge|
+| ARC | Båge|
 | CHART | Diagram|
 | TEXT_BOX | Textruta|
-| BUTTON | knapp|
-| PICTURE | Bilder|
+| BUTTON | Knapp|
+| PICTURE | Bild|
 | POLYGON | Polygon|
-| CHECK_BOX | kryssruta|
-| RADIO_BUTTON | radioknappar|
-| LABEL | märka|
+| CHECK_BOX | Kryssruta|
+| RADIO_BUTTON | Radio knapp|
+| LABEL | Märka|
 | DIALOG_BOX | Dialog ruta|
 | SPINNER | Spinnare|
 | SCROLL_BAR | Rullningslist|
@@ -38,13 +38,13 @@ Typen MsoDrawingType avslöjar följande medlemmar:
 | COMBO_BOX | Kombinationsrutan|
 | COMMENT | Kommentar|
 | OLE_OBJECT | OleObject|
-| CELLS_DRAWING | Endast för att bevara ritobjekten i mallfilen.|
+| CELLS_DRAWING | Endast för att bevara ritobjektet i mallfilen.|
 | UNKNOWN | Endast för att bevara ritobjektet i xlsx-filen.|
-| SLICER | skivare|
+| SLICER | Skivmaskin|
 | WEB_EXTENSION | Webbtillägg|
 | SMART_ART | Smart konst|
-| CUSTOM_XML | Anpassade xml-former, som bläck.|
-| TIMELINE | tidslinjen|
+| CUSTOM_XML | Anpassad xml-form, som bläck.|
+| TIMELINE | Tidslinje|
 | MODEL_3D | 3D-modell|
 
 

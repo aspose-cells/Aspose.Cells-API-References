@@ -1,4 +1,4 @@
-﻿---
+---
 title: Series classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type Series expose les membres suivants :
 | :- | :- |
 | [layout_properties](/cells/fr/python-net/aspose.cells.charts/series/layout_properties) | Représente les propriétés de mise en page.|
 | [points](/cells/fr/python-net/aspose.cells.charts/series/points) | Obtient la collection de points d'une série dans un graphique.|
-| [area](/cells/fr/python-net/aspose.cells.charts/series/area) | Représente la zone d'arrière-plan des objets de la série.|
+| [area](/cells/fr/python-net/aspose.cells.charts/series/area) | Représente la zone d'arrière-plan de l'objet Series.|
 | [border](/cells/fr/python-net/aspose.cells.charts/series/border) | Représente la bordure de l'objet Series.|
 | [name](/cells/fr/python-net/aspose.cells.charts/series/name) | Obtient ou définit le nom de la série de données.|
 | [display_name](/cells/fr/python-net/aspose.cells.charts/series/display_name) | Obtient le nom de la série qui s'affiche sur le graphique du graphique.|
@@ -27,7 +27,7 @@ Le type Series expose les membres suivants :
 | [is_vertical_values](/cells/fr/python-net/aspose.cells.charts/series/is_vertical_values) | Indique si la source de données est verticale.|
 | [values](/cells/fr/python-net/aspose.cells.charts/series/values) | Représente les données de la série de graphiques.|
 | [values_format_code](/cells/fr/python-net/aspose.cells.charts/series/values_format_code) | Représente le code de format de NumberList de Values.|
-| [x_values](/cells/fr/python-net/aspose.cells.charts/series/x_values) | Représente les valeurs x de la série graphique.|
+| [x_values](/cells/fr/python-net/aspose.cells.charts/series/x_values) | Représente les valeurs x de la série de graphiques.|
 | [bubble_sizes](/cells/fr/python-net/aspose.cells.charts/series/bubble_sizes) | Obtient ou définit les valeurs de tailles de bulles de la série de graphiques.|
 | [trend_lines](/cells/fr/python-net/aspose.cells.charts/series/trend_lines) | Renvoie un objet qui représente une collection de toutes les courbes de tendance de la série.|
 | [smooth](/cells/fr/python-net/aspose.cells.charts/series/smooth) | Représente le lissage de la courbe.<br/>True si le lissage des courbes est activé pour le graphique en courbes ou le graphique en nuage de points.<br/> S'applique uniquement aux graphiques linéaires et en nuage de points reliés par des graphiques linéaires.|
@@ -43,7 +43,7 @@ Le type Series expose les membres suivants :
 | [y_error_bar](/cells/fr/python-net/aspose.cells.charts/series/y_error_bar) | Représente la barre d'erreur de direction Y de la série.|
 | [has_hi_lo_lines](/cells/fr/python-net/aspose.cells.charts/series/has_hi_lo_lines) | True si le graphique en courbes comporte des lignes haut-bas.<br/> S'applique uniquement aux graphiques en courbes.|
 | [hi_lo_lines](/cells/fr/python-net/aspose.cells.charts/series/hi_lo_lines) | Renvoie un objet HiLoLines qui représente les lignes haut-bas d'une série sur un graphique en courbes.<br/> S'applique uniquement aux graphiques en courbes.|
-| [has_series_lines](/cells/fr/python-net/aspose.cells.charts/series/has_series_lines) | True si un histogramme empilé ou un graphique à barres comporte des lignes de série ou<br/> si un graphique à secteurs ou à barres comporte des lignes de connexion entre les deux sections.<br/> S'applique uniquement aux graphiques à colonnes empilées, aux graphiques à barres, aux graphiques à secteurs ou à barres de graphiques à secteurs.|
+| [has_series_lines](/cells/fr/python-net/aspose.cells.charts/series/has_series_lines) | True si un histogramme empilé ou un graphique à barres comporte des lignes de série ou<br/> si un graphique à secteurs ou à barres comporte des lignes de connexion entre les deux sections.<br/> S'applique uniquement aux graphiques à colonnes empilées, aux graphiques à barres, aux graphiques à secteurs ou aux graphiques à barres.|
 | [series_lines](/cells/fr/python-net/aspose.cells.charts/series/series_lines) | Renvoie un objet SeriesLines qui représente les lignes de série d'un graphique à barres empilées ou d'un graphique à colonnes empilées.<br/> S'applique uniquement aux histogrammes empilés et aux histogrammes empilés.|
 | [has_drop_lines](/cells/fr/python-net/aspose.cells.charts/series/has_drop_lines) |True si le graphique comporte des lignes de chute.<br/> S'applique uniquement aux graphiques linéaires ou aux graphiques en aires.|
 | [drop_lines](/cells/fr/python-net/aspose.cells.charts/series/drop_lines) | Renvoie un objet [Line](/cells/fr/python-net/aspose.cells.drawing/line) qui représente les lignes de chute d'une série sur le graphique en courbes ou en aires.<br/> S'applique uniquement aux graphiques linéaires ou aux graphiques en aires.|
@@ -60,12 +60,12 @@ Le type Series expose les membres suivants :
 | [is_auto_split](/cells/fr/python-net/aspose.cells.charts/series/is_auto_split) | Indique si la valeur seuil est automatique.|
 | [bubble_scale](/cells/fr/python-net/aspose.cells.charts/series/bubble_scale) | Obtient ou définit le facteur d'échelle des bulles dans le groupe de graphiques spécifié.<br/> Il peut s'agir d'une valeur entière comprise entre 0 (zéro) et 300,<br/>correspondant à un pourcentage de la taille par défaut.<br/> S'applique uniquement aux graphiques à bulles.|
 | [size_represents](/cells/fr/python-net/aspose.cells.charts/series/size_represents) | Obtient ou définit ce que la taille de la bulle représente sur un graphique à bulles.|
-| [show_negative_bubbles](/cells/fr/python-net/aspose.cells.charts/series/show_negative_bubbles) | True si des bulles négatives sont affichées pour le groupe de graphiques. Valide uniquement pour les graphiques à bulles.|
+| [show_negative_bubbles](/cells/fr/python-net/aspose.cells.charts/series/show_negative_bubbles) | True si des bulles négatives sont affichées pour le groupe de graphiques. Valable uniquement pour les graphiques à bulles.|
 | [doughnut_hole_size](/cells/fr/python-net/aspose.cells.charts/series/doughnut_hole_size) | Renvoie ou définit la taille du trou dans un groupe de graphiques en anneau.<br/> La taille du trou est exprimée en pourcentage de la taille du graphique, entre 10 et 90 %.|
 | [explosion](/cells/fr/python-net/aspose.cells.charts/series/explosion) | La distance entre un secteur ouvert et le centre du graphique à secteurs est exprimée en pourcentage du diamètre du secteur.|
-| [has_radar_axis_labels](/cells/fr/python-net/aspose.cells.charts/series/has_radar_axis_labels) | True si un graphique en radar comporte des étiquettes d'axe des catégories.|
+| [has_radar_axis_labels](/cells/fr/python-net/aspose.cells.charts/series/has_radar_axis_labels) | True si un graphique en radar comporte des étiquettes d'axe des catégories. S'applique uniquement aux cartes radar.|
 | [has_leader_lines](/cells/fr/python-net/aspose.cells.charts/series/has_leader_lines) | Vrai si la série a des lignes de repère.|
-| [leader_lines](/cells/fr/python-net/aspose.cells.charts/series/leader_lines) | Représente les lignes de repère sur un graphique. Les lignes de repère relient les étiquettes de données aux points de données.<br/>Cet objet n'est pas une collection ; aucun objet ne représente une seule ligne de repère.|
+| [leader_lines](/cells/fr/python-net/aspose.cells.charts/series/leader_lines) | Représente les lignes de repère sur un graphique. Les lignes de repère relient les étiquettes de données aux points de données.<br/>Cet objet n'est pas une collection ; aucun objet ne représente une seule ligne de repère.|
 | [legend_entry](/cells/fr/python-net/aspose.cells.charts/series/legend_entry) | Obtient l'entrée de légende selon cette série.|
 | [shape_properties](/cells/fr/python-net/aspose.cells.charts/series/shape_properties) | Obtient l'objet [ShapePropertyCollection](/cells/fr/python-net/aspose.cells.drawing/shapepropertycollection) qui contient les propriétés de forme visuelle de la série.|
 
@@ -77,7 +77,7 @@ Le type Series expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

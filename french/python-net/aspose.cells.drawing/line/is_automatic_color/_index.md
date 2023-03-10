@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_color propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_color propriété
 
-Indique si la couleur de la ligne est automatiquement attribuée.
+Indique si la couleur de la ligne est attribuée automatiquement.
 ###  Définition:
 ```python
 @property

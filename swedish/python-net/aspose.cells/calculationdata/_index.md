@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationData klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -30,7 +30,7 @@ Typen CalculationData avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [get_param_value(index)](/cells/sv/python-net/aspose.cells/calculationdata/get_param_value/#int) | Hämtar det representerade värdeobjektet för parametern vid det givna indexet.|
+| [get_param_value(index)](/cells/sv/python-net/aspose.cells/calculationdata/get_param_value/#int) | Hämtar det representerade värdeobjektet för parametern vid ett givet index.|
 | [get_param_text(index)](/cells/sv/python-net/aspose.cells/calculationdata/get_param_text/#int) | Hämtar den bokstavliga texten för parametern vid ett givet index.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting mülk
 
-Bu hücre için bellek kullanım seçeneğini alır veya ayarlar.
+Bu hücreler için bellek kullanım seçeneğini alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo copy_rows
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,12 +18,12 @@ def copy_rows(self, source_cells, source_row_index, destination_row_index, row_n
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_row_index | int | Indice della riga di origine.|
 | destination_row_index | int | Indice della riga di destinazione.|
-| row_number | int | I numeri di riga copiati.|
+| row_number | int | Il numero di riga copiato.|
 
 
 ##  copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options) {#Cells-int-int-int-CopyOptions}
@@ -37,12 +37,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_row_index | int | Indice della riga di origine.|
 | destination_row_index | int | Indice della riga di destinazione.|
-| row_number | int | I numeri di riga copiati.|
+| row_number | int | Il numero di riga copiato.|
 | copy_options | [CopyOptions](/cells/it/python-net/aspose.cells/copyoptions) | Le opzioni di copia.|
 
 
@@ -57,12 +57,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/it/python-net/aspose.cells/cells) | L'oggetto sorgente Cells contiene dati e formati da copiare.|
 | source_row_index | int | Indice della riga di origine.|
 | destination_row_index | int | Indice della riga di destinazione.|
-| row_number | int | I numeri di riga copiati.|
+| row_number | int | Il numero di riga copiato.|
 | copy_options | [CopyOptions](/cells/it/python-net/aspose.cells/copyoptions) | Le opzioni di copia.|
 | paste_options | [PasteOptions](/cells/it/python-net/aspose.cells/pasteoptions) | le opzioni di incollare.|
 

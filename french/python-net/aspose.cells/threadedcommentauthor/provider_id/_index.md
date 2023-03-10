@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  provider_id propriété
 
-Obtient l'identité du fournisseur.
+Obtient l'identifiant du fournisseur.
 ###  Définition:
 ```python
 @property

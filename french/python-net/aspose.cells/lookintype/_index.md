@@ -1,4 +1,4 @@
-﻿---
+---
 title: LookInType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,11 +18,11 @@ Le type LookInType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | FORMULAS |Si la cellule contient une formule, recherchez l'objet à partir de la formule, sinon recherchez-le à partir de la valeur.|
-| VALUES | Rechercher uniquement des objets à partir des valeurs formatées.|
-| VALUES_EXCLUDE_FORMULA_CELL | Ne trouvez l'objet qu'à partir des valeurs des cellules qui ne contiennent pas de formule.|
-| COMMENTS | Ne trouvez que des objets dans les commentaires.|
-| ONLY_FORMULAS | Rechercher uniquement des objets à partir de formules.|
-| ORIGINAL_VALUES | Rechercher uniquement des objets à partir des valeurs d'origine.|
+| VALUES | Ne trouve que l'objet à partir des valeurs formatées.|
+| VALUES_EXCLUDE_FORMULA_CELL | Ne trouvez que l'objet à partir des valeurs des cellules qui ne contiennent pas de formule.|
+| COMMENTS | Ne trouvez que l'objet dans les commentaires.|
+| ONLY_FORMULAS | Ne trouver que des objets à partir de formules.|
+| ORIGINAL_VALUES | Ne trouve que l'objet à partir des valeurs d'origine.|
 
 
 

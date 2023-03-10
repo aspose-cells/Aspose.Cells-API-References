@@ -1,4 +1,4 @@
-﻿---
+---
 title: PptxSaveOptions costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | save_as_image | bool | Se True, la cartella di lavoro verrà convertita in alcune immagini del file .pptx.<br/> Se False, la cartella di lavoro verrà convertita in alcune tabelle del file .pptx.|
 

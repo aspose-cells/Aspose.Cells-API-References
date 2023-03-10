@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe TextOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -42,10 +42,10 @@ Il tipo TextOptions espone i membri seguenti:
 | [scheme_type](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Ottiene e imposta il tipo di schema del carattere.|
 | [language_code](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Ottiene e imposta la lingua dell'interfaccia utente.|
 | [latin_name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Ottiene e imposta il nome latino.|
-| [far_east_name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Ottiene e imposta il nome dell'Estremo Oriente.|
+| [far_east_name](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Ottiene e imposta il nome FarEast.|
 | [fill](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/fill) | Rappresenta il formato di riempimento del testo.|
 | [outline](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/outline) | Rappresenta il formato struttura del testo.|
-| [shadow](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica un effetto ombra per l'elemento o la forma del grafico.|
+| [shadow](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Rappresenta un oggetto [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) che specifica l'effetto ombra per l'elemento o la forma del grafico.|
 | [underline_color](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Ottiene o imposta il colore della sottolineatura.|
 | [kerning](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Specifica la dimensione minima del carattere alla quale si verificherà la crenatura dei caratteri per questa sequenza di testo.|
 | [spacing](/cells/it/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Specifica la spaziatura tra i caratteri all'interno di un'esecuzione di testo.|

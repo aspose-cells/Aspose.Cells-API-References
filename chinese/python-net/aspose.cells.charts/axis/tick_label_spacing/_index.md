@@ -1,6 +1,6 @@
-﻿---
+---
 title: tick_label_spacing 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 380
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## tick_label_spacing 属性
 
-表示刻度线标签之间的类别数或系列数。
+表示刻度线标签之间的类别数或系列数。仅适用于类别和系列轴。
 
 ### 评论
 

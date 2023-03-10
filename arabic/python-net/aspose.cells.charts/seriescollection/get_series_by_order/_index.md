@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_series_by_order
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_series_by_order(self, order):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | order | int | ترتيب السلسلة|
 

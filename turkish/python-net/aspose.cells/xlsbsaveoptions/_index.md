@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsbSaveOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/xlsbsaveoptions/
 is_root: false
 ---
 ##  XlsbSaveOptions sınıfı
-Xlsb dosyalarını kaydetme seçeneklerini temsil eder.
+xlsb dosyasını kaydetme seçeneklerini temsil eder.
 
 
 
@@ -36,11 +36,11 @@ XlsbSaveOptions türü aşağıdaki üyeleri gösterir:
 | [merge_areas](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/merge_areas) | Dosyayı kaydetmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmediğini belirtir.|
 | [create_directory](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/create_directory) | true ise ve dizin yoksa, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur.|
 | [sort_names](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/sort_names) | Dosyayı kaydetmeden önce tanımlı adların sıralanıp sıralanmadığını gösterir.|
-| [sort_external_names](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.|
+| [sort_external_names](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/sort_external_names) |Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.|
 | [refresh_chart_cache](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/refresh_chart_cache) | Grafik önbellek verilerinin yenilenip yenilenmediğini gösterir.|
-| [warning_callback](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | Uyarı geri aramalarını alır veya ayarlar.|
+| [warning_callback](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/warning_callback) | Uyarı geri aramasını alır veya ayarlar.|
 | [update_smart_art](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/update_smart_art) | Akıllı sanat ayarının güncellenip güncellenmediğini gösterir.<br/> Varsayılan değer yanlıştır.|
-| [compression_type](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/compression_type) | Ooxml dosyaları için sıkıştırma türünü alır ve ayarlar.|
+| [compression_type](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/compression_type) | Ooxml dosyası için sıkıştırma türünü alır ve ayarlar.|
 | [export_all_column_indexes](/cells/tr/python-net/aspose.cells/xlsbsaveoptions/export_all_column_indexes) | Hücreler için tüm sütun dizinlerinin dışa aktarılıp aktarılmadığını gösterir.|
 
 

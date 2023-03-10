@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el name de la línea de tiempo especificada
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

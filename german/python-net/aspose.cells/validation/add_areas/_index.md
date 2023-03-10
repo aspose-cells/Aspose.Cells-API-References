@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_areas Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,7 +21,7 @@ def add_areas(self, areas, check_intersection, check_edge):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | areas | list | Die Gebiete.|
-| check_intersection | bool | Ob die Schnittmenge eines bestimmten Bereichs mit den Bereichen bestehender Validierungen überprüft wird.<br/>Wenn eine Validierung in einem bestimmten Bereich (oder einem Teil davon) angewendet wurde,<br/>dann sollte die vorhandene Validierung zunächst aus dem angegebenen Bereich entfernt werden.<br/>Andernfalls kann es durch die generierten Validierungen zu Beschädigungen kommen.<br/>Wenn der Benutzer sicher ist, dass sich alle hinzugefügten Bereiche nicht mit einem vorhandenen Bereich überschneiden,<br/> Dieser Parameter kann aus Leistungsgründen auf „false“ gesetzt werden.|
+| check_intersection | bool | Ob die Schnittmenge eines bestimmten Bereichs mit den Bereichen bestehender Validierungen überprüft wird.<br/>Wenn eine Validierung in einem bestimmten Bereich (oder einem Teil davon) angewendet wurde,<br/>dann sollte die vorhandene Validierung zunächst aus dem angegebenen Bereich entfernt werden.<br/>Andernfalls können die generierten Validierungen beschädigt werden.<br/>Wenn der Benutzer sicher ist, dass sich alle hinzugefügten Bereiche nicht mit einem vorhandenen Bereich überschneiden,<br/> Dieser Parameter kann aus Leistungsgründen auf „false“ gesetzt werden.|
 | check_edge | bool | Ob Sie den Rand der angewendeten Bereiche dieser Validierung überprüfen.<br/>Die internen Einstellungen der Validierung hängen von dem oberen linken der angewendeten Bereiche ab,<br/>Wenn also einer der angegebenen Bereiche der neue obere linke Bereich der angewendeten Bereiche wird,<br/>Die internen Einstellungen sollten geändert und neu erstellt werden, da es sonst zu unerwarteten Ergebnissen kommen kann.<br/>Wenn der Benutzer sicher ist, dass keiner dieser hinzugefügten Bereiche oben links ist,<br/> Dieser Parameter kann aus Leistungsgründen auf „false“ gesetzt werden.|
 ###  Bemerkungen
 

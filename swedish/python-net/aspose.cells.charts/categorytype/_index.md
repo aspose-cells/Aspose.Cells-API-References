@@ -1,4 +1,4 @@
-﻿---
+---
 title: CategoryType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,8 +17,8 @@ Typen CategoryType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| AUTOMATIC_SCALE | Automatisk våg|
-| CATEGORY_SCALE | Kategori Skala|
+| AUTOMATIC_SCALE | AutomaticScale|
+| CATEGORY_SCALE | KategoriSkala|
 | TIME_SCALE | Tidsskala|
 
 

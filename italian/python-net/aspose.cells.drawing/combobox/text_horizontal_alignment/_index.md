@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_alignment proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di allineamento orizzontale del testo della forma.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import TextAlignmentType

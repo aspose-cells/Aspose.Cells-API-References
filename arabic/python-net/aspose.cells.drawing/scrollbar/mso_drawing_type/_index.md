@@ -1,4 +1,4 @@
-﻿---
+---
 title: mso_drawing_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على نوع الرسم MSO.
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_optimized propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Indique s'il faut optimiser les éléments de sortie.
 
 ###  Remarques
 
-La valeur par défaut est false Actuellement, seules les lignes de bordure sont optimisées lorsque cette propriété est définie sur true.
+La valeur par défaut est false. Actuellement, seules les lignes de bordure sont optimisées lorsque cette propriété est définie sur true.
 ###  Définition:
 ```python
 @property

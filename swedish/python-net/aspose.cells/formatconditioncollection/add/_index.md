@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,7 +24,7 @@ def add(self, cell_area, type, operator_type, formula1, formula2):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) |Villkorligt formaterat cellområde.|
 | type | [FormatConditionType](/cells/sv/python-net/aspose.cells/formatconditiontype) | Typ av villkorlig formatering. Det kan vara en av medlemmarna i FormatConditionType.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: FileFontSource 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells/filefontsource/__init__/
 is_root: false
 ---
 ##  FileFontSource(file_path) {#str}
-导演。
+Ctor。
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, file_path):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_path | str |字体文件路径|
 

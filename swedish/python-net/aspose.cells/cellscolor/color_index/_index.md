@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_index fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index fastighet
 
-Hämtar och ställer in färgindex i färgpaletten.
+Hämtar och ställer in färgindex i färgpaletten. Gäller endast indexerad färg.
 ###  Definition:
 ```python
 @property

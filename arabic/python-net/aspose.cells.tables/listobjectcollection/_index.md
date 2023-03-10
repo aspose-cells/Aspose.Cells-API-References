@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObjectCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -32,7 +32,7 @@ is_root: false
 | [last_index_of(item)](/cells/ar/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject) | البحث عن الكائن المحدد وإرجاع الفهرس الصفري للتواجد الأخير ضمن قائمة الصفيف بأكملها.|
 | [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
 | [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
-| [update_column_name()](/cells/ar/python-net/aspose.cells.tables/listobjectcollection/update_column_name/#) | تحديث جميع أسماء الأعمدة في الجداول.|
+| [update_column_name()](/cells/ar/python-net/aspose.cells.tables/listobjectcollection/update_column_name/#) | تحديث اسم كل عمود من الجداول.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells.tables/listobjectcollection/binary_search/#ListObject) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 

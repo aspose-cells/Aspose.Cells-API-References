@@ -1,6 +1,6 @@
-﻿---
+---
 title: save方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 340
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str |文件名。|
 | save_format | [SaveFormat](/cells/zh/python-net/aspose.cells/saveformat) |保存格式类型。|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str |文件名。|
 | save_options | [SaveOptions](/cells/zh/python-net/aspose.cells/saveoptions) |保存选项。|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |文件流。|
 | save_format | [SaveFormat](/cells/zh/python-net/aspose.cells/saveformat) |保存文件格式类型。|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |文件流。|
 | save_options | [SaveOptions](/cells/zh/python-net/aspose.cells/saveoptions) |保存选项。|

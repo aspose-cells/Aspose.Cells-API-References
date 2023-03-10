@@ -1,4 +1,4 @@
-﻿---
+---
 title: TickLabels sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ TickLabels türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [font](/cells/tr/python-net/aspose.cells.charts/ticklabels/font) | Belirtilen TickLabels nesnesinin yazı tipini temsil eden bir [TickLabels.font](/cells/tr/python-net/aspose.cells.charts/ticklabels#font) nesnesi döndürür.|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/ticklabels/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [rotation_angle](/cells/tr/python-net/aspose.cells.charts/ticklabels/rotation_angle) | Metin döndürme açısını saat yönünde temsil eder.|
 | [is_automatic_rotation](/cells/tr/python-net/aspose.cells.charts/ticklabels/is_automatic_rotation) | Dönüş açısının otomatik olup olmadığını gösterir|

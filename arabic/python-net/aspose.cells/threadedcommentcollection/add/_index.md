@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | text | str | نص التعليق المترابط.|
 | author | [ThreadedCommentAuthor](/cells/ar/python-net/aspose.cells/threadedcommentauthor) | مؤلف التعليق المترابط|

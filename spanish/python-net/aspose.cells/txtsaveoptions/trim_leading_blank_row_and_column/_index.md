@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_leading_blank_row_and_column propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ Lo mismo con la regla en ms excel, una fila/columna no se tomará como en blanco
 incluso si no contiene datos de celda.
 Al guardar con el modo LightCells, esta opción no tiene efecto.
 El usuario debe controlar el rango de salida mediante la implementación de [TxtSaveOptions.light_cells_data_provider](/cells/es/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider)
-o hablando al [TxtSaveOptions.export_area](/cells/es/python-net/aspose.cells/txtsaveoptions#export_area)
+o especificando [TxtSaveOptions.export_area](/cells/es/python-net/aspose.cells/txtsaveoptions#export_area)
 ###  Definición:
 ```python
 @property

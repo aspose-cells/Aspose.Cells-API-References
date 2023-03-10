@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_x الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

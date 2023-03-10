@@ -1,4 +1,4 @@
-﻿---
+---
 title: built_in_document_properties Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt eine [DocumentProperty](/cells/de/python-net/aspose.cells.properties/docume
 
 ###  Bemerkungen
 
-Der Liste der integrierten Dokumenteigenschaften kann keine neue Eigenschaft hinzugefügt werden.
+Der Liste der integrierten Dokumenteigenschaften kann keine neue Eigenschaft hinzugefügt werden. Sie können nur eine eingebaute Eigenschaft abrufen und ihren Wert ändern.
 Das Folgende ist die Namensliste der integrierten Eigenschaften:
 
 Titel

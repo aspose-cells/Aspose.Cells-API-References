@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة union
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range | str | النطاق.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/ar/python-net/aspose.cells/unionrange) | النطاق.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | ranges | list | النطاقات.|
 

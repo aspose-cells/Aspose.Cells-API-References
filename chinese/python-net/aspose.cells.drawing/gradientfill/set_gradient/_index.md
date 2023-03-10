@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_gradient方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/zh/python-net/aspose.cells.drawing/gradientfilltype) |渐变填充类型。|
 | angle | float |角度。仅适用于 GradientFillType.Linear。|

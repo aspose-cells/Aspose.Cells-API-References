@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/es/python-net/aspose.cells/namescopetype) | El tipo de alcance.|
 | sheet_index | int | El índice de la hoja.<br/>Solo efectos cuando el tipo de alcance es [NameScopeType.WORKSHEET](/cells/es/python-net/aspose.cells/namescopetype#WORKSHEET) |

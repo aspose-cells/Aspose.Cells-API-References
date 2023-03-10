@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellArea clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cellarea/
 is_root: false
 ---
 ##  CellArea clase
-Representar un área de celdas.
+Representa un área de celdas.
 
 
 
@@ -38,7 +38,7 @@ El tipo CellArea expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import CellArea

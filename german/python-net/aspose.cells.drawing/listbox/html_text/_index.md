@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_text Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die HTML-Zeichenfolge ab und legt sie fest, die Daten und einige Formate in diesem Textfeld enthält.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

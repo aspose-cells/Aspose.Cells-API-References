@@ -1,4 +1,4 @@
-﻿---
+---
 title: glow_effect fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  glow_effect fastighet
 
-Representerar ett [ShapePropertyCollection.glow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect)-objekt som anger en glödeffekt för diagramelementet eller formen.
+Representerar ett [ShapePropertyCollection.glow_effect](/cells/sv/python-net/aspose.cells.drawing/shapepropertycollection#glow_effect)-objekt som anger glödeffekt för diagramelementet eller formen.
 ###  Definition:
 ```python
 @property

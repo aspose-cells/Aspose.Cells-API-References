@@ -1,4 +1,4 @@
-﻿---
+---
 title: active_x_control Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft das ActiveX-Steuerelement ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose import pycore

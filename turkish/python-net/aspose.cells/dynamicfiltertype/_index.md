@@ -1,4 +1,4 @@
-﻿---
+---
 title: DynamicFilterType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,8 +17,8 @@ DynamicFilterType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| ABOVE_AVERAGE | Ortalamanın üzerinde değerler gösterir.|
-| BELOW_AVERAGE | Ortalamanın altında olan değerleri gösterir.|
+| ABOVE_AVERAGE | Ortalamanın üzerinde olan değerleri gösterir.|
+| BELOW_AVERAGE | Ortalamanın altındaki değerleri gösterir.|
 | LAST_MONTH | Geçen ayın tarihlerini gösterir.|
 | LAST_QUARTER | Son çeyreğin tarihlerini gösterir.|
 | LAST_WEEK | Geçen haftanın tarihlerini gösterir.|

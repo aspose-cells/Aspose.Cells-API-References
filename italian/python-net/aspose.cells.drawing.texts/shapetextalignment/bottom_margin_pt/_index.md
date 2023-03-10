@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin_pt proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce il margine inferiore in unità di punti
 
-###  Esempi
+###  Esempio
 
 ```python
 

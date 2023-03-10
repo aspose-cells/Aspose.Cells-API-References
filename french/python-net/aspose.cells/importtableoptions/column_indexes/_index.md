@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_indexes propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_indexes propriété
 
-Récupère ou définit les colonnes (de base 0) à importer à partir de la source de données. null signifie que toutes les colonnes doivent être importées.
+Obtient ou définit les colonnes (base 0) à importer à partir de la source de données. null signifie que toutes les colonnes doivent être importées.
 ###  Définition:
 ```python
 @property

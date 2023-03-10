@@ -1,4 +1,4 @@
-﻿---
+---
 title: find metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,9 +22,9 @@ def find(self, what, previous_cell):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| what | any | Objektet att söka efter.<br/> Typen ska vara int, double, DateTime, string, bool.|
+| what | any | Objektet att söka efter.<br/> Typen ska vara int,double,DateTime,string,bool.|
 | previous_cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Föregående cell med samma objekt.<br/> Denna parameter kan ställas in på null om du söker från början.|
 ###  Anmärkningar
 
@@ -46,9 +46,9 @@ def find(self, what, previous_cell, find_options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| what | any | Objektet att söka efter.<br/> Typen ska vara int, double, DateTime, string, bool.|
+| what | any | Objektet att söka efter.<br/> Typen ska vara int,double,DateTime,string,bool.|
 | previous_cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Föregående cell med samma objekt.<br/> Denna parameter kan ställas in på null om du söker från början.|
 | find_options | [FindOptions](/cells/sv/python-net/aspose.cells/findoptions) | Hitta alternativ|
 ###  Anmärkningar

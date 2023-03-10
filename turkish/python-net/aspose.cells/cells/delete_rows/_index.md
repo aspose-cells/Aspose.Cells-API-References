@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_rows yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int |Silinecek ilk satır dizini.|
 | total_rows | int | Silinecek satır sayısı.|
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_index | int | Satır dizini.|
 | total_rows | int | Silinecek satır sayısı.|

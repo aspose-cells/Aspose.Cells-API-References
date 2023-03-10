@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_set fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar eller ställer in arken att rendera. Standard är alla synliga ark i arb
 
 ###  Exempel
 
-Följande kod återger bara aktiva ark till pdf.
+Följande kod återger endast aktivt ark till pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

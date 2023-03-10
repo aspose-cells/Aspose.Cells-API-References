@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagSetting classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
 ##  SmartTagSetting classe
-Représente tous les objets [SmartTagCollection](/cells/fr/python-net/aspose.cells.markup/smarttagcollection) de la feuille de calcul.
+Représente tous les objets [SmartTagCollection](/cells/fr/python-net/aspose.cells.markup/smarttagcollection) dans la feuille de calcul.
 
 
 

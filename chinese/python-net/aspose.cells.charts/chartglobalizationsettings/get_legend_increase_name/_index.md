@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_legend_increase_name方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60

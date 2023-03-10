@@ -1,4 +1,4 @@
-﻿---
+---
 title: name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name mülk
 
-Aralık başlığını alır.
+Aralık başlığını alır. Bu, adlandırılmış bir aralık tanımı olarak değil, tanımlayıcı olarak kullanılır.
 ###  Tanım:
 ```python
 @property

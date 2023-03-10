@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagShowType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ SmartTagShowType türü aşağıdaki üyeleri gösterir:
 | Alan| Tanım|
 | :- | :- |
 | ALL | Akıllı etiketlerin etkinleştirildiğini ve gösterildiğini gösterir|
-| NO_SMART_TAG_INDICATOR | Akıllı etiketlerin etkinleştirildiğini ancak göstergenin gösterilmediğini belirtir.|
+| NO_SMART_TAG_INDICATOR | Akıllı etiketlerin etkinleştirildiğini ancak göstergenin gösterilmediğini gösterir.|
 | NONE | Akıllı etiketlerin devre dışı bırakıldığını ve gösterilmediğini belirtir.|
 
 

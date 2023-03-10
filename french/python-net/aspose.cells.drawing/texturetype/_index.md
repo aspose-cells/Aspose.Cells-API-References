@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextureType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type TextureType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | BLUE_TISSUE_PAPER | Représente le type de texture du papier de soie bleu.|
-| BOUQUET | Représente le type de texture du bouquet.|
+| BOUQUET | Représente le type de texture Bouquet.|
 | BROWN_MARBLE | Représente le type de texture Marbre brun.|
 | CANVAS | Représente le type de texture Canvas.|
 | CORK | Représente le type de texture Liège.|
@@ -31,7 +31,7 @@ Le type TextureType expose les membres suivants :
 | OAK | Représente le type de texture Chêne.|
 | PAPER_BAG | Représente le type de texture Sac en papier.|
 | PAPYRUS | Représente le type de texture Papyrus.|
-| PARCHMENT | Représente le type de texture parchemin.|
+| PARCHMENT | Représente le type de texture Parchemin.|
 | PINK_TISSUE_PAPER | Représente le type de texture du papier de soie rose.|
 | PURPLE_MESH | Représente le type de texture maillage violet.|
 | RECYCLED_PAPER | Représente le type de texture Papier recyclé.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-فهرس العلامات الذكية في القائمة.
+فهرس العلامة الذكية في القائمة.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | uri | str | يحدد مساحة الاسم URI للعلامة الذكية|
 | name | str | تحدد اسم العلامة الذكية.|

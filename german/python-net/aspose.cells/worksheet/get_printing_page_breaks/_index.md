@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_printing_page_breaks Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

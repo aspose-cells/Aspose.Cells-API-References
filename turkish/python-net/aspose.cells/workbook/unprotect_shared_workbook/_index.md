@@ -1,4 +1,4 @@
-﻿---
+---
 title: unprotect_shared_workbook yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def unprotect_shared_workbook(self, password):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | password | str | Çalışma kitabının korumasını kaldırmak için parola.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_data_flag الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

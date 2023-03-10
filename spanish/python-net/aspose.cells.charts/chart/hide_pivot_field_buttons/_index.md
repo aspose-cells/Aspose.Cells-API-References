@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_pivot_field_buttons propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

@@ -1,6 +1,6 @@
-﻿---
+---
 title: edit_web_page 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## edit_web_page 属性
 
-显示网络查询数据的面向用户的网页的 URL。
+显示网络查询数据的面向用户的网页的 URL。此网址已保存
 在 sourceData="true" 和 url 已被重定向以引用 XML 文件的情况下。
 然后可以在 UI 中显示面向用户的页面，并且可以检索 XML 数据
 在幕后。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnionRange classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type UnionRange expose les membres suivants :
 | [refers_to](/cells/fr/python-net/aspose.cells/unionrange/refers_to) | Obtient les références de la plage.|
 | [has_range](/cells/fr/python-net/aspose.cells/unionrange/has_range) | Indique si cela a une portée.|
 | [hyperlinks](/cells/fr/python-net/aspose.cells/unionrange/hyperlinks) | Obtient tous les liens hypertexte de la plage.|
-| [cell_count](/cells/fr/python-net/aspose.cells/unionrange/cell_count) | Obtient tous les nombres de cellules dans la plage.|
+| [cell_count](/cells/fr/python-net/aspose.cells/unionrange/cell_count) | Obtient tout le nombre de cellules dans la plage.|
 | [range_count](/cells/fr/python-net/aspose.cells/unionrange/range_count) | Obtient le nombre de plages.|
 | [ranges](/cells/fr/python-net/aspose.cells/unionrange/ranges) | Obtient toutes les plages d'union.|
 
@@ -35,7 +35,7 @@ Le type UnionRange expose les membres suivants :
 | Méthode| Description|
 | :- | :- |
 | [set_outline_borders(border_styles, border_colors)](/cells/fr/python-net/aspose.cells/unionrange/set_outline_borders/#list-aspose.pydrawing.Color[]) | Définit des bordures de ligne autour d'une plage de cellules.|
-| [set_outline_borders(border_style, border_color)](/cells/fr/python-net/aspose.cells/unionrange/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Définit les bordures du contour autour d'une plage de cellules avec le même style et la même couleur de bordure.|
+| [set_outline_borders(border_style, border_color)](/cells/fr/python-net/aspose.cells/unionrange/set_outline_borders/#CellBorderType-aspose.pydrawing.Color) | Définit les bordures de contour autour d'une plage de cellules avec le même style et la même couleur de bordure.|
 | [intersect(range)](/cells/fr/python-net/aspose.cells/unionrange/intersect/#str) | Intersecte une autre plage.|
 | [intersect(union_range)](/cells/fr/python-net/aspose.cells/unionrange/intersect/#UnionRange) | Intersecte une autre plage.|
 | [intersect(ranges)](/cells/fr/python-net/aspose.cells/unionrange/intersect/#list) | Intersecte une autre plage.|

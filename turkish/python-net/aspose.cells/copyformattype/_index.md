@@ -1,4 +1,4 @@
-﻿---
+---
 title: CopyFormatType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ CopyFormatType türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | SAME_AS_ABOVE |Yukarıdaki satırla aynı biçimler.|
 | SAME_AS_BELOW | Biçimler aşağıdaki satırla aynıdır.|
-| CLEAR | Biçimlendirmeyi temizle.|
+| CLEAR | Biçimlendirmeyi temizler.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /de/python-net/aspose.cells.drawing/
 is_root: false
 ---
- Der**Aspose.Cells.Drawing** Der Namespace stellt Klassen bereit, die das Erstellen und Ändern von Zeichnungsformen, Formularsteuerelementen und fortgeschritteneren Zeichnungsobjekten ermöglichen.
+ Der**Aspose.Cells.Drawing** namespace stellt Klassen bereit, die das Erstellen und Ändern von Zeichnungsformen, Formularsteuerelementen und fortgeschritteneren Zeichnungsobjekten ermöglichen.
 
 ###  Klassen
 | Klasse| Beschreibung|
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/de/python-net/aspose.cells.drawing/combobox) | Stellt das Steuerelementformular ComboBox dar.|
 | [CommentShape](/cells/de/python-net/aspose.cells.drawing/commentshape) | Stellt die Form des Kommentars dar.|
 | [CustomGeometry](/cells/de/python-net/aspose.cells.drawing/customgeometry) | Stellt eine benutzerdefinierte geometrische Form dar.|
-| [CustomXmlShape](/cells/de/python-net/aspose.cells.drawing/customxmlshape) | Stellt benutzerdefinierte XML-Formen dar, z. B. Ink.|
+| [CustomXmlShape](/cells/de/python-net/aspose.cells.drawing/customxmlshape) | Stellt eine benutzerdefinierte XML-Form dar, z. B. Tinte.|
 | [DialogBox](/cells/de/python-net/aspose.cells.drawing/dialogbox) | Stellt das Dialogfeld dar.|
 | [Fill](/cells/de/python-net/aspose.cells.drawing/fill) | Stellt das Füllformat der Form dar.|
 | [FillFormat](/cells/de/python-net/aspose.cells.drawing/fillformat) | Kapselt das Objekt, das die Füllformatierung für eine Form darstellt.|
@@ -41,7 +41,7 @@ is_root: false
 | [GroupShape](/cells/de/python-net/aspose.cells.drawing/groupshape) |Stellt das Gruppen-Shape dar, das die einzelnen Shapes enthält.|
 | [Label](/cells/de/python-net/aspose.cells.drawing/label) | Kapselt das Objekt, das eine Bezeichnung in einer Tabelle darstellt.|
 | [Line](/cells/de/python-net/aspose.cells.drawing/line) | Kapselt das Objekt, das das Linienformat darstellt.|
-| [LineFormat](/cells/de/python-net/aspose.cells.drawing/lineformat) | Repräsentiert alle Einstellungen der Linie.|
+| [LineFormat](/cells/de/python-net/aspose.cells.drawing/lineformat) | Stellt alle Einstellungen der Linie dar.|
 | [LineShape](/cells/de/python-net/aspose.cells.drawing/lineshape) | Stellt die Linienform dar.|
 | [ListBox](/cells/de/python-net/aspose.cells.drawing/listbox) | Stellt ein Listenfeldobjekt dar.|
 | [MsoFillFormat](/cells/de/python-net/aspose.cells.drawing/msofillformat) | Stellt die Füllformatierung für eine Form dar.|
@@ -67,7 +67,7 @@ is_root: false
 | [ShapeCollection](/cells/de/python-net/aspose.cells.drawing/shapecollection) | Stellt alle Formen in einem Arbeitsblatt/Diagramm dar.|
 | [ShapeFormat](/cells/de/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/de/python-net/aspose.cells.drawing/shapeguide) | Kapselt einen Formleitfaden ein gibt das Vorhandensein eines Formleitfadens an, der verwendet wird<br/> steuern die Geometrie der angegebenen Form|
-| [ShapeGuideCollection](/cells/de/python-net/aspose.cells.drawing/shapeguidecollection) | Kapselt eine Sammlung von Formhilfslinien|
+| [ShapeGuideCollection](/cells/de/python-net/aspose.cells.drawing/shapeguidecollection) | Kapselt eine Sammlung von Formführern|
 | [ShapePath](/cells/de/python-net/aspose.cells.drawing/shapepath) | Stellt einen Erstellungspfad dar, der aus einer Reihe von Bewegungen, Linien und Kurven besteht, die zusammen eine geometrische Form bilden.|
 | [ShapePathCollection](/cells/de/python-net/aspose.cells.drawing/shapepathcollection) | Stellt Pfadsammlungsinformationen in der automatischen Form NotPrimitive dar|
 | [ShapePathPoint](/cells/de/python-net/aspose.cells.drawing/shapepathpoint) | Repräsentiert eine xy-Koordinate innerhalb des Pfadkoordinatenraums.|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/de/python-net/aspose.cells.drawing/texteffectformat) | Enthält Eigenschaften und Methoden, die für WordArt-Objekte gelten.|
 | [TextureFill](/cells/de/python-net/aspose.cells.drawing/texturefill) | Kapselt das Objekt, das das Texturfüllformat darstellt|
 | [ThreeDFormat](/cells/de/python-net/aspose.cells.drawing/threedformat) | Stellt die dreidimensionale Formatierung einer Form dar.|
-| [TilePicOption](/cells/de/python-net/aspose.cells.drawing/tilepicoption) | Repräsentiert Kachelbilder als Texturen.|
+| [TilePicOption](/cells/de/python-net/aspose.cells.drawing/tilepicoption) | Repräsentiert ein Kachelbild als Textur.|
 | [VmlShapeGuide](/cells/de/python-net/aspose.cells.drawing/vmlshapeguide) | nur für vml<br/> Kapselt eine Formhilfe ein, die das Vorhandensein einer Form angibt<br/> Führungslinie, die verwendet wird, um die Geometrie der angegebenen Form zu steuern|
 | [WebExtensionShape](/cells/de/python-net/aspose.cells.drawing/webextensionshape) | Stellt die Form der Weberweiterung dar.|
 

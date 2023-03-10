@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_font_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

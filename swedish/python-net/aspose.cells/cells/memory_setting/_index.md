@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting fastighet
 
-Hämtar eller ställer in minnesanvändningsalternativet för den här cellen.
+Hämtar eller ställer in minnesanvändningsalternativet för dessa celler.
 ###  Definition:
 ```python
 @property

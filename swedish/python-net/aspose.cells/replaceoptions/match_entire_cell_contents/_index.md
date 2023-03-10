@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_entire_cell_contents fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents fastighet
 
-Indikerar om hela cellinnehållet ska matchas
+Indikerar om hela cellinnehåll ska matchas
 ###  Definition:
 ```python
 @property

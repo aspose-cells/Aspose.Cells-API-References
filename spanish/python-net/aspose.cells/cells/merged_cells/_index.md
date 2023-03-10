@@ -1,4 +1,4 @@
-﻿---
+---
 title: merged_cells propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene la colección de celdas combinadas.
 
 ###  Observaciones
 
-En esta colección, cada elemento es una estructura [CellArea](/cells/es/python-net/aspose.cells/cellarea) que representa un área de celdas fusionadas.
+En esta colección, cada elemento es una estructura [CellArea](/cells/es/python-net/aspose.cells/cellarea) que representa un área de celdas combinadas.
 ###  Definición:
 ```python
 @property

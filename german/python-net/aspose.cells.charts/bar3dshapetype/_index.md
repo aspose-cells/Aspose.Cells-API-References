@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bar3DShapeType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,10 +19,10 @@ Der Typ Bar3DShapeType macht die folgenden Member verfügbar:
 | :- | :- |
 | BOX | Kasten|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | Pyramide bis max|
+| PYRAMID_TO_MAX | PyramidToMax|
 | CYLINDER | Zylinder|
-| CONE_TO_POINT | Kegel zu Punkt|
-| CONE_TO_MAX | Kegel bis max|
+| CONE_TO_POINT | KegelZuPunkt|
+| CONE_TO_MAX | ConeToMax|
 
 
 

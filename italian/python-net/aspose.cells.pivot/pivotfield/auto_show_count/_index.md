@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_show_count proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

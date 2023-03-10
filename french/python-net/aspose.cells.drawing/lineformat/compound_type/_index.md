@@ -1,4 +1,4 @@
-﻿---
+---
 title: compound_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie le type composé de ligne.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells.drawing import MsoLineStyle

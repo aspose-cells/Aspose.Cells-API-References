@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionTaskPaneCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.webextensions/webextensiontaskpanecollection/
 is_root: false
 ---
 ##  WebExtensionTaskPaneCollection Klasse
-Stellt die Liste der Aufgabenbereiche dar.
+Stellt die Liste des Aufgabenbereichs dar.
 
 
 

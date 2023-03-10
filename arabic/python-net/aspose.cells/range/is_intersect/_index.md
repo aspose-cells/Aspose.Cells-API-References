@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_intersect
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def is_intersect(self, range):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range | [Range](/cells/ar/python-net/aspose.cells/range) | النطاق.|
 ###  ملاحظات

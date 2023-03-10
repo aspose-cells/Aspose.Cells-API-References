@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_text_wrapped propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le type de texte enveloppé de la forme qui contient du texte.
 
-###  Exemples
+###  Exemple
 
 ```python
 

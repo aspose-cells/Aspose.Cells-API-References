@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingValueCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/conditionalformattingvaluecollection/
 is_root: false
 ---
 ##  ConditionalFormattingValueCollection класс
-Описывает коллекцию CFValueObjects.
+Описывает коллекцию CFValueObject.
 Используйте только для наборов значков.
 
 

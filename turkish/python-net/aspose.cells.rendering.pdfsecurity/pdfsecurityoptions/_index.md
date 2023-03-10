@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSecurityOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ PdfSecurityOptions türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [user_password](/cells/tr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/user_password) | Kullanıcı parolasını alır veya ayarlar|
 | [owner_password](/cells/tr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/owner_password) | Belgenin sahip parolasını alır veya ayarlar|
-| [print_permission](/cells/tr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Pdf belgelerini yazdırma izni|
+| [print_permission](/cells/tr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Pdf belgesini yazdırma izni|
 | [modify_document_permission](/cells/tr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modify_document_permission) | Pdf belgesini değiştirme izni|
 | [extract_content_permission_obsolete](/cells/tr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission_obsolete) | İçeriği kopyalama veya çıkarma izni PDF referansına göre geçerliliğini yitirmiştir.|
 | [annotations_permission](/cells/tr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) | Belge üzerinde yorum yapma izni.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_scale недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

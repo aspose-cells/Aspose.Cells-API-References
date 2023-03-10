@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.vba/vbamodulecollection/add/
 is_root: false
 ---
 ##  add(sheet) {#Worksheet}
-Ajoute des modules pour une feuille de calcul.
+Ajoute un module pour une feuille de calcul.
 
 
 ###  Retour
@@ -22,7 +22,7 @@ def add(self, sheet):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/fr/python-net/aspose.cells/worksheet) | La feuille de travail|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [VbaModuleType](/cells/fr/python-net/aspose.cells.vba/vbamoduletype) | Le type de module.|
 | name | str | Le nom du module.|

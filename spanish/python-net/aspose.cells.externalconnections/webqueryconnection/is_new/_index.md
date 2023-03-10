@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_new propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_new propiedad
 
- True si la conexión no se ha actualizado por primera vez; de lo contrario, false.
+ True si la conexión no se ha actualizado por primera vez; en caso contrario, falso.
 Este estado puede ocurrir cuando el usuario guarda el archivo antes de que termine de regresar una consulta.
 ###  Definición:
 ```python

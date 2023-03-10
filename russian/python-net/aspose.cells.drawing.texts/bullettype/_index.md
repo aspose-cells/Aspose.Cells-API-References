@@ -1,4 +1,4 @@
-﻿---
+---
 title: BulletType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | NONE | Нет пули.|
 | CHARACTER | Характерная пуля.|
 | PICTURE | Образная пуля.|
-| AUTO_NUMBERED | Автоматические пронумерованные пули.|
+| AUTO_NUMBERED | Автоматическая нумерованная пуля.|
 
 
 

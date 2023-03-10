@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_totals mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals mülk
 
-Bu ListObject'in toplam satırları gösterip göstermediğini alır ve ayarlar.
+Bu ListObject'in toplam satırı gösterip göstermediğini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

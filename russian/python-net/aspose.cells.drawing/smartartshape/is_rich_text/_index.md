@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_rich_text недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Является ли текст форматированным текстом.
 
-###  Примеры
+###  Пример
 
 ```python
 

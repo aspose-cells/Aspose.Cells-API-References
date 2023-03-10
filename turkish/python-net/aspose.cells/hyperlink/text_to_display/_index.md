@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_display mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display mülk
 
-Belirtilen köprü için görüntülenecek metni temsil eder.
+Belirtilen köprü için görüntülenecek metni temsil eder. Varsayılan değer, köprünün adresidir.
 ###  Tanım:
 ```python
 @property

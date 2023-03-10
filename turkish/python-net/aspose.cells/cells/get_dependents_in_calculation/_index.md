@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_dependents_in_calculation yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/get_dependents_in_calculation/
 is_root: false
 ---
 ##  get_dependents_in_calculation(row, column, recursive) {#int-int-bool}
-Hesaplanan sonucu belirli hücrelere bağlı olan tüm hücreleri alır.
+Hesaplanan sonucu belirli bir hücreye bağlı olan tüm hücreleri alır.
 
 
 ###  İadeler
@@ -22,7 +22,7 @@ def get_dependents_in_calculation(self, row, column, recursive):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Belirli hücrenin satır dizini|
 | column | int | Belirli hücrenin sütun dizini.|

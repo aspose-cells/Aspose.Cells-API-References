@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.activexcontrols
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -25,7 +25,7 @@ is_root: false
 | [SpinButtonActiveXControl](/cells/es/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol) | Representa el control SpinButton.|
 | [TextBoxActiveXControl](/cells/es/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol) | Representa un control ActiveX de cuadro de texto.|
 | [ToggleButtonActiveXControl](/cells/es/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol) | Representa un control ActiveX ToggleButton.|
-| [UnknownControl](/cells/es/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol) | Mando desconocido.|
+| [UnknownControl](/cells/es/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol) | Control desconocido.|
 
 
 ###  enumeraciones
@@ -43,7 +43,7 @@ is_root: false
 | [ControlScrollBarType](/cells/es/python-net/aspose.cells.drawing.activexcontrols/controlscrollbartype) | Representa el tipo de barra de desplazamiento.|
 | [ControlScrollOrientation](/cells/es/python-net/aspose.cells.drawing.activexcontrols/controlscrollorientation) | Representa el tipo de orientación de desplazamiento|
 | [ControlSpecialEffectType](/cells/es/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype) | Representa el tipo de efecto especial.|
-| [ControlType](/cells/es/python-net/aspose.cells.drawing.activexcontrols/controltype) | Representa todos los tipos de controles ActiveX.|
+| [ControlType](/cells/es/python-net/aspose.cells.drawing.activexcontrols/controltype) | Representa todo tipo de control ActiveX.|
 | [DropButtonStyle](/cells/es/python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle) | Representa el símbolo que se muestra en el botón desplegable.|
 | [InputMethodEditorMode](/cells/es/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode) | Representa el modo de tiempo de ejecución predeterminado del Editor de métodos de entrada.|
 | [ShowDropButtonType](/cells/es/python-net/aspose.cells.drawing.activexcontrols/showdropbuttontype) | Especifica cuándo mostrar el botón de soltar|

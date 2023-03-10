@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparent الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-القيمة الافتراضية هي كاذبة.
+القيمة الافتراضية هي كاذبة. هذا يعني أن خلفية الصور التي تم إنشاؤها بيضاء.
 ###  تعريف:
 ```python
 @property

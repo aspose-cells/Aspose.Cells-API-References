@@ -1,4 +1,4 @@
-﻿---
+---
 title: extract_content_permission الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

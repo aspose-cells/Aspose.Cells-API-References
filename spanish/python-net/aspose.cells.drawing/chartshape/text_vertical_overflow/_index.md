@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_overflow propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el tipo de desbordamiento vertical de texto de la forma que contiene texto.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.drawing import TextOverflowType

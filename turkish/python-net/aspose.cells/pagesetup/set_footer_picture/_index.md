@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_footer_picture yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def set_footer_picture(self, section, footer_picture):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | section | int | 0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
 | footer_picture | bytes | Görüntü verileri.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list недвижимость
 
-Получает, следует ли включить список полей для сводной таблицы.
+Получает, включает ли список полей для сводной таблицы.
 ###  Определение:
 ```python
 @property

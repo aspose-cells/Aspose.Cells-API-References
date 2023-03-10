@@ -1,6 +1,6 @@
-﻿---
+---
 title: XlsSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1650
@@ -40,7 +40,7 @@ XlsSaveOptions 类型公开了以下成员：
 | [refresh_chart_cache](/cells/zh/python-net/aspose.cells/xlssaveoptions/refresh_chart_cache) |指示是否刷新图表缓存数据|
 | [warning_callback](/cells/zh/python-net/aspose.cells/xlssaveoptions/warning_callback) |获取或设置警告回调。|
 | [update_smart_art](/cells/zh/python-net/aspose.cells/xlssaveoptions/update_smart_art) |指示是否更新智能艺术设置。<br/>默认值为假。|
-| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/xlssaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在浅色模式下保存工作簿。|
+| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/xlssaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在轻模式下保存工作簿。|
 | [is_template](/cells/zh/python-net/aspose.cells/xlssaveoptions/is_template) |是否保存模板文件。|
 | [match_color](/cells/zh/python-net/aspose.cells/xlssaveoptions/match_color) |指示是否匹配字体颜色，因为标准调色板中有 56 种颜色。|
 

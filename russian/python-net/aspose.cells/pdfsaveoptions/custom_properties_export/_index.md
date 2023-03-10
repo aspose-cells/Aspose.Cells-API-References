@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_properties_export недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_properties_export недвижимость
 
-Получает или задает значение, определяющее способ экспорта [CustomDocumentPropertyCollection](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection) в файл PDF. Значение по умолчанию — None.
+Получает или задает значение, определяющее способ экспорта [CustomDocumentPropertyCollection](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection) в файл PDF. Значение по умолчанию — Нет.
 ###  Определение:
 ```python
 @property

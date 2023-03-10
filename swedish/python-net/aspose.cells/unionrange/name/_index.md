@@ -1,4 +1,4 @@
-﻿---
+---
 title: name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar eller ställer in name i intervallet.
 
 ###  Anmärkningar
 
-Namngivna intervall stöds.
+Namngivna intervall stöds. Till exempel,
 
 range.Name = "Sheet1!MyRange";
 ###  Definition:

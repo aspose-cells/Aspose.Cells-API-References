@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_text الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على وتعيين سلسلة html التي تحتوي على بيانات وبعض التنسيقات في مربع النص هذا.
 
-###  أمثلة
+###  مثال
 
 ```python
 

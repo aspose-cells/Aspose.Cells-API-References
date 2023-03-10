@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalLinkCollection indicizzatore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene l'elemento [ExternalLink](/cells/it/python-net/aspose.cells/externallink
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| index | Indice in base zero dell'elemento.|
+| index | L'indice in base zero dell'elemento.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlLoadOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/htmlloadoptions/__init__/
 is_root: false
 ---
 ##  HtmlLoadOptions() {#}
-Dosyayı yükleme seçeneği oluşturur.
+Dosyayı yükleme seçeneklerini oluşturur.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  HtmlLoadOptions(load_format) {#LoadFormat}
-Dosyayı yükleme seçeneği oluşturur.
+Dosyayı yükleme seçeneklerini oluşturur.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, load_format):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/tr/python-net/aspose.cells/loadformat) | Yükleme biçimi.|
 

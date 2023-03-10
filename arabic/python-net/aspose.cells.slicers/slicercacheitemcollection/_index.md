@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItemCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.slicers/slicercacheitemcollection/
 is_root: false
 ---
 ##  SlicerCacheItemCollection الدرجة
-تمثيل مجموعة SlicerCacheItems
+تمثل مجموعة SlicerCacheItem
 
 
 
@@ -34,7 +34,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

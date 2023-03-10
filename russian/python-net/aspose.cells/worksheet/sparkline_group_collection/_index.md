@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparkline_group_collection недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

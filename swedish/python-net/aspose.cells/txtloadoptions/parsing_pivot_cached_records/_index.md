@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_pivot_cached_records fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Standardvärdet är falskt.
 
 ###  Anmärkningar
 
-Gäller endast för Excel Xlsx-, Xltx-, Xltm-, Xlsm- och xlsb-filer
+Gäller endast för Excel Xlsx, Xltx, Xltm , Xlsm och xlsb-filer
 ###  Definition:
 ```python
 @property

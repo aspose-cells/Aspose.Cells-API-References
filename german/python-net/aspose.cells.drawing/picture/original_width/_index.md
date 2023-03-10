@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_width Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die ursprüngliche Breite des Bildes ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

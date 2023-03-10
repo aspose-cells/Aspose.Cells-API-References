@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_margin_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_inch Eigentum
 
-Stellt die Größe des rechten Rands in Zolleinheiten dar.
+Stellt die Größe des rechten Rands in Zoll dar.
 ###  Definition:
 ```python
 @property

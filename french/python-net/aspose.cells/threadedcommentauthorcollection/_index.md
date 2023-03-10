@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThreadedCommentAuthorCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/threadedcommentauthorcollection/
 is_root: false
 ---
 ##  ThreadedCommentAuthorCollection classe
-Représente toutes les personnes qui.
+Représente toutes les personnes qui .
 
 
 
@@ -24,7 +24,7 @@ Le type ThreadedCommentAuthorCollection expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [current_person](/cells/fr/python-net/aspose.cells/threadedcommentauthorcollection/current_person) | Obtient et définit l'utilisateur actuel.|
-| [capacity](/cells/fr/python-net/aspose.cells/threadedcommentauthorcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells/threadedcommentauthorcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

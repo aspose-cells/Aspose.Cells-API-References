@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientStyleType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 | FROM_CORNER | От углового стиля затенения|
 | HORIZONTAL | Горизонтальный стиль затенения|
 | VERTICAL | Вертикальный стиль затенения|
-| UNKNOWN |Неизвестный стиль затенения. Только для стиля затенения (который не относится ни к одному элементу GradientStyleType) в файле шаблона.|
+| UNKNOWN |Неизвестный стиль затенения. Только для стиля затенения (который не относится ни к одному члену GradientStyleType) в файле шаблона.|
 
 
 

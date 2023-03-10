@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_style proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Ottiene o imposta l'oggetto [Style](/cells/it/python-net/aspose.cells/style) pre
 
 La proprietà DefaultStyle è utile per implementare uno stile per l'intera cartella di lavoro.
 
-###  Esempi
+###  Esempio
 
 Il codice seguente crea e crea un'istanza di una nuova cartella di lavoro e ne imposta un valore predefinito [Style](/cells/it/python-net/aspose.cells/style).
 

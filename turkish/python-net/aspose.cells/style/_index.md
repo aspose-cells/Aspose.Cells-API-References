@@ -1,4 +1,4 @@
-﻿---
+---
 title: Style sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -35,13 +35,13 @@ Style türü aşağıdaki üyeleri gösterir:
 | [foreground_argb_color](/cells/tr/python-net/aspose.cells/style/foreground_argb_color) | Ön plan rengini 32 bit ARGB değeriyle alır ve ayarlar.|
 | [has_borders](/cells/tr/python-net/aspose.cells/style/has_borders) | Stil için ayarlanmış kenarlıklar olup olmadığını kontrol eder.|
 | [parent_style](/cells/tr/python-net/aspose.cells/style/parent_style) | Bu stilin ana stilini alır.|
-| [indent_level](/cells/tr/python-net/aspose.cells/style/indent_level) | Hücre veya aralık için girinti düzeyini temsil eder.|
+| [indent_level](/cells/tr/python-net/aspose.cells/style/indent_level) | Hücre veya aralık için girinti düzeyini temsil eder. Yalnızca 0 ile 250 arasında bir tam sayı olabilir.|
 | [font](/cells/tr/python-net/aspose.cells/style/font) | [Style.font](/cells/tr/python-net/aspose.cells/style#font) nesnesini alır.|
 | [rotation_angle](/cells/tr/python-net/aspose.cells/style/rotation_angle) | Metin döndürme açısını temsil eder.|
 | [horizontal_alignment](/cells/tr/python-net/aspose.cells/style/horizontal_alignment) | Bir hücredeki metnin yatay hizalama türünü alır veya ayarlar.|
 | [vertical_alignment](/cells/tr/python-net/aspose.cells/style/vertical_alignment) | Bir hücredeki metnin dikey hizalama türünü alır veya ayarlar.|
 | [is_text_wrapped](/cells/tr/python-net/aspose.cells/style/is_text_wrapped) | Bir hücre içindeki metnin kaydırılıp kaydırılmadığını gösteren bir değer alır veya ayarlar.|
-| [number](/cells/tr/python-net/aspose.cells/style/number) | Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar.|
+| [number](/cells/tr/python-net/aspose.cells/style/number) | Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar. Biçimlendirme modelleri farklı bölgeler için farklıdır.|
 | [is_locked](/cells/tr/python-net/aspose.cells/style/is_locked) |Bir hücrenin değiştirilip değiştirilemeyeceğini gösteren bir değer alır veya ayarlar.|
 | [custom](/cells/tr/python-net/aspose.cells/style/custom) | Bu stil nesnesinin özel sayı biçimi dizesini temsil eder.<br/> Özel sayı biçimi ayarlanmamışsa (Örneğin, sayı biçimi yerleşiktir), "" döndürülür.|
 | [culture_custom](/cells/tr/python-net/aspose.cells/style/culture_custom) | Sayı biçimi için kültüre bağlı desen dizesini alır ve ayarlar.<br/>Bu nesne için herhangi bir sayı biçimi ayarlanmamışsa, null döndürülür.<br/> Sayı biçimi yerleşikse, yerleşik sayıya karşılık gelen kalıp dizisi döndürülür.|
@@ -73,7 +73,7 @@ Style türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

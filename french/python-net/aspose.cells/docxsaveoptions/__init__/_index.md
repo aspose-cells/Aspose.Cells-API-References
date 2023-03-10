@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocxSaveOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/docxsaveoptions/__init__/
 is_root: false
 ---
 ##  DocxSaveOptions() {#}
-Représente les options d'enregistrement des fichiers .docx.
+Représente les options d'enregistrement du fichier .docx.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  DocxSaveOptions(save_as_image) {#bool}
-Représente les options d'enregistrement des fichiers .docx.
+Représente les options d'enregistrement du fichier .docx.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | save_as_image | bool |Si True, le classeur sera converti en quelques images du fichier .docx.<br/> Si False, le classeur sera converti en certaines tables du fichier .docx.|
 

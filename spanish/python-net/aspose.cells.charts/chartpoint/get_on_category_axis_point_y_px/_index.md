@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_on_category_axis_point_y_px método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_
 is_root: false
 ---
 ##  get_on_category_axis_point_y_px(index) {#int}
-Obtiene la coordenada Y del punto en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de área.
+Obtiene la coordenada y del punto en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.
 
 
 
@@ -18,7 +18,7 @@ def get_on_category_axis_point_y_px(self, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int |  |
 ###  Observaciones

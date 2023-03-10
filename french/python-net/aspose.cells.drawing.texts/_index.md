@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.texts
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -7,14 +7,14 @@ weight: 10
 url: /fr/python-net/aspose.cells.drawing.texts/
 is_root: false
 ---
- Le**Aspose.Cells.Drawing.Texts** namespace fournit des classes qui dessinent et formatent des objets textes tels que des paragraphes, des puces et plus encore.
+ Le**Aspose.Cells.Drawing.Texts** namespace fournit des classes qui dessinent et formatent des objets textes tels que paragraphe, puce et plus encore.
 
 ###  Des classes
 | Classe| Description|
 | :- | :- |
-| [AutoNumberedBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Représente des puces numérotées automatiquement.|
+| [AutoNumberedBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Représente une puce numérotée automatique.|
 | [Bullet](/cells/fr/python-net/aspose.cells.drawing.texts/bullet) | Représente la balle.|
-| [BulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/bulletvalue) | Représente la valeur de la puce.|
+| [BulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/bulletvalue) | Représente la valeur de la balle.|
 | [CharacterBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/characterbulletvalue) | Représente la puce de caractère.|
 | [FontSettingCollection](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection) |Représente la liste de [FontSetting](/cells/fr/python-net/aspose.cells/fontsetting).|
 | [NoneBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/nonebulletvalue) | Ne représente aucune balle.|

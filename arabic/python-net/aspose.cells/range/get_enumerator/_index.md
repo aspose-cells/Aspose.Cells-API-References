@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_enumerator
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -27,7 +27,7 @@ def get_enumerator(self):
 عند اجتياز العناصر بواسطة Enumerator المرتجع ، فإن مجموعة الخلايا
 لا ينبغي تعديله (مثل العمليات التي ستؤدي إلى إنشاء نسخة جديدة من Cell / صف أو حذف Cell الموجود / الصف).
 وإلا فقد لا يتمكن العداد من اجتياز جميع الخلايا بشكل صحيح (قد يتم اجتياز بعض العناصر بشكل متكرر أو تخطيها).
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: equals метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def equals(self, row):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row | [Row](/cells/ru/python-net/aspose.cells/row) | другой объект строки|
 

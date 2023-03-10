@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_merged_cells الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

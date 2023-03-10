@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_control_refrernce
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_control_refrernce(self, name, libid, twiddledlibid, extended_libid):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم المرجع.|
 | libid | str | معرف مكتبة نوع التنفيذ.|

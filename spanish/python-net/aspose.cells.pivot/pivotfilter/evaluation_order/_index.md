@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluation_order propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

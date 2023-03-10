@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo ungroup
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,13 +18,13 @@ def ungroup(self, group):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | group | [GroupShape](/cells/it/python-net/aspose.cells.drawing/groupshape) | La forma del gruppo.|
 ###  Osservazioni
 
-Se la forma di gruppo è raggruppata da un'altra forma di gruppo, non verrà eseguita alcuna operazione.
-###  Esempi
+Se la forma del gruppo è raggruppata da un'altra forma del gruppo, non verrà eseguita alcuna operazione.
+###  Esempio
 
 
 ```python

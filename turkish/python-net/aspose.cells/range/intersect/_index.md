@@ -1,4 +1,4 @@
-﻿---
+---
 title: intersect yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,13 +22,13 @@ def intersect(self, range):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | kesişen aralık.|
 ###  Notlar
 
 İki aralık kesişmezse, null değerini döndürür.
-###  örnekler
+###  Örnek
 
 
 ```python

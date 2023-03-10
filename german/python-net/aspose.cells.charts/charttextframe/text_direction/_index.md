@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_direction Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Stellt die Lesereihenfolge des Textes dar.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die ChartTextFrame.ReadingOrder-Eigenschaft.
  Diese Property wird 12 Monate später seit März 2020 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

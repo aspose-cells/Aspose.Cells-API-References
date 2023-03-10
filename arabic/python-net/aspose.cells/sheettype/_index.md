@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد SheetType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,11 +17,11 @@ is_root: false
 ###  مجالات
 | مجال| وصف|
 | :- | :- |
-| VB | وحدات Visual Basic|
+| VB | وحدة Visual Basic|
 | WORKSHEET |  |
 | CHART | جدول|
 | BIFF4_MACRO | ورقة ماكرو BIFF4|
-| INTERNATIONAL_MACRO | ورقة الماكرو الدولية|
+| INTERNATIONAL_MACRO | ورقة ماكرو الدولية|
 | OTHER |  |
 | DIALOG |ورقة عمل الحوار|
 

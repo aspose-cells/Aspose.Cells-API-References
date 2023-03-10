@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_ungroup
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_ungroup(self, base_field_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | base_field_index | int | L'indice del campo riga o colonna nei campi di base|
 
@@ -34,7 +34,7 @@ def set_ungroup(self, pivot_field):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/it/python-net/aspose.cells.pivot/pivotfield) | Il campo riga o colonna nei campi base|
 

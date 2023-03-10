@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| name | str | Områdestitel. Detta används som en deskriptor, inte som en namngiven intervalldefinition.|
+| name | str | Räckviddstitel. Detta används som en deskriptor, inte som en namngiven intervalldefinition.|
 | start_row | int | Startradindex för intervallet.|
 | start_column | int | Startkolumnindex för intervallet.|
 | end_row | int | Slutradindex för intervallet.|

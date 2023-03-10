@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_word_art Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -33,7 +33,7 @@ def add_word_art(self, style, text, upper_left_row, top, upper_left_column, left
 | height | int | Stellt die Höhe der Form in Pixeleinheiten dar.|
 | width | int | Stellt die Breite der Form in Pixeleinheiten dar.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import PresetWordArtStyle

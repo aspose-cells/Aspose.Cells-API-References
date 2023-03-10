@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoNumberedBulletValue الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue الدرجة
-يمثل تعداد نقطي تلقائيًا.
+يمثل تعداد نقطي آلي.
 
 
 
@@ -29,7 +29,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [type](/cells/ar/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/type) | يحصل على نوع الرصاصة.|
-| [start_at](/cells/ar/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/start_at) | يحصل على رقم البداية للرصاصة ويحدده.|
+| [start_at](/cells/ar/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/start_at) | يحصل ويضبط رقم البداية للرصاصة.|
 | [autonumber_scheme](/cells/ar/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/autonumber_scheme) | يمثل مخطط الرقم التلقائي.|
 
 

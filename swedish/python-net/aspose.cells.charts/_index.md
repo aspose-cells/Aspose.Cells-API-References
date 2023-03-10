@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/sv/python-net/aspose.cells.charts/mapchartlabellayout) | Representerar layouten för kartkartans etiketter.|
 | [MapChartProjectionType](/cells/sv/python-net/aspose.cells.charts/mapchartprojectiontype) | Representerar projektionstyp för kartdiagrammet.|
 | [MapChartRegionType](/cells/sv/python-net/aspose.cells.charts/mapchartregiontype) | Representerar regiontypen för kartdiagrammet.|
-| [PlotDataByType](/cells/sv/python-net/aspose.cells.charts/plotdatabytype) |Representerar den typ av data som plottas efter rad eller kolumn.|
+| [PlotDataByType](/cells/sv/python-net/aspose.cells.charts/plotdatabytype) |Representerar typen av dataplot per rad eller kolumn.|
 | [PlotEmptyCellsType](/cells/sv/python-net/aspose.cells.charts/plotemptycellstype) | Representerar all plottad tomma celltyp i ett diagram.|
 | [QuartileCalculationType](/cells/sv/python-net/aspose.cells.charts/quartilecalculationtype) | Representerar kvartilberäkningsmetoder.|
 | [SparklineAxisMinMaxType](/cells/sv/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Representerar minimi- och maximivärdestyperna för den vertikala sparklineaxeln.|

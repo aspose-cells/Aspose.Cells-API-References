@@ -1,6 +1,6 @@
-﻿---
+---
 title: aspose.cells.externalconnections
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ is_root: false
 | [DataModelConnection](/cells/zh/python-net/aspose.cells.externalconnections/datamodelconnection) |指定数据模型连接|
 | [ExternalConnection](/cells/zh/python-net/aspose.cells.externalconnections/externalconnection) |指定外部数据连接|
 | [ExternalConnectionCollection](/cells/zh/python-net/aspose.cells.externalconnections/externalconnectioncollection) |指定 [ExternalConnection](/cells/zh/python-net/aspose.cells.externalconnections/externalconnection) 集合|
-| [WebQueryConnection](/cells/zh/python-net/aspose.cells.externalconnections/webqueryconnection) |Web 查询将从 HTML 表中检索数据，<br/>并且还可以提供 HTTP“获取”参数，由 Web 服务器在生成 HTML 时进行处理<br/>包括参数和参数元素。|
+| [WebQueryConnection](/cells/zh/python-net/aspose.cells.externalconnections/webqueryconnection) |指定 Web 查询源的属性。 Web 查询将从 HTML 表中检索数据，<br/>并且还可以提供 HTTP“获取”参数，由 Web 服务器在生成 HTML 时进行处理<br/>包括参数和参数元素。|
 
 
 ### 枚举
@@ -30,6 +30,6 @@ is_root: false
 | [HtmlFormatHandlingType](/cells/zh/python-net/aspose.cells.externalconnections/htmlformathandlingtype) |指定如何处理来自 HTML 源的格式|
 | [OLEDBCommandType](/cells/zh/python-net/aspose.cells.externalconnections/oledbcommandtype) |指定 OLE DB 命令类型。|
 | [ReConnectionMethodType](/cells/zh/python-net/aspose.cells.externalconnections/reconnectionmethodtype) |指定当连接失败时电子表格应用程序应该做什么。|
-| [SqlDataType](/cells/zh/python-net/aspose.cells.externalconnections/sqldatatype) |指定参数的 SQL 数据类型。|
+| [SqlDataType](/cells/zh/python-net/aspose.cells.externalconnections/sqldatatype) |指定参数的 SQL 数据类型。仅对 ODBC 源有效。|
 
 

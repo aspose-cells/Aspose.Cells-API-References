@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -115,20 +115,20 @@ Der Typ Workbook macht die folgenden Member verfügbar:
 | [update_linked_data_source(external_workbooks)](/cells/de/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Wenn diese Arbeitsmappe externe Links zu anderen Datenquellen enthält,<br/> Aspose.Cells wird versuchen, die neuesten Daten abzurufen.|
 | [set_digital_signature(digital_signature_collection)](/cells/de/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Setzt eine digitale Signatur auf eine Tabellenkalkulationsdatei (Excel2007 und höher).|
 | [add_digital_signature(digital_signature_collection)](/cells/de/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Fügt einer OOXML-Tabellenkalkulationsdatei (Excel2007 und höher) eine digitale Signatur hinzu.|
-| [get_digital_signature()](/cells/de/python-net/aspose.cells/workbook/get_digital_signature/#) | Ruft eine digitale Signatur aus der Datei ab.|
+| [get_digital_signature()](/cells/de/python-net/aspose.cells/workbook/get_digital_signature/#) | Ruft eine digitale Signatur aus einer Datei ab.|
 | [remove_personal_information()](/cells/de/python-net/aspose.cells/workbook/remove_personal_information/#) | Entfernt persönliche Informationen.|
 
 
 
 ###  Bemerkungen
 
-Die Klasse Workbook bezeichnet eine Excel-Tabelle.
+Die Klasse Workbook bezeichnet eine Excel-Tabelle. Jede Tabelle kann mehrere Arbeitsblätter enthalten.
 Die grundlegende Funktion der Klasse besteht darin, native Excel-Dateien zu öffnen und zu speichern.
 Die Klasse verfügt über einige erweiterte Funktionen wie das Kopieren von Daten aus anderen Arbeitsmappen, das Kombinieren von zwei Arbeitsmappen und das Schützen der Excel-Tabelle.
 
-###  Beispiele
+###  Beispiel
 
-Das folgende Beispiel lädt eine Workbook aus einer Datei namens designer.xls und macht die horizontalen und vertikalen Bildlaufleisten für die Workbook unsichtbar. Es ersetzt dann zwei String-Werte durch einen Integer-Wert bzw. einen String-Wert innerhalb der Tabelle und sendet schließlich die Aktualisierung Datei an den Client-Browser.
+Das folgende Beispiel lädt Workbook aus einer Datei namens designer.xls und macht die horizontalen und vertikalen Bildlaufleisten für Workbook unsichtbar. Es ersetzt dann zwei Zeichenfolgenwerte durch einen Integer-Wert bzw. einen Zeichenfolgenwert innerhalb der Tabelle und sendet schließlich die aktualisierte Datei an der Client-Browser.
 
 ```python
 from aspose.cells import Workbook

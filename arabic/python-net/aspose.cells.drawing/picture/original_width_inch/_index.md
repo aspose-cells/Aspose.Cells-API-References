@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_width_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_width_inch الملكية
 
-الحصول على العرض الأصلي للصورة ، بوحدات البوصة.
+الحصول على عرض الصورة الأصلي بوحدة البوصة.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

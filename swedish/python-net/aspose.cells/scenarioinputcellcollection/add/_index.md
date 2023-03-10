@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,10 +22,10 @@ def add(self, row, column, value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| row | int | Radindex för indataceller.|
-| column | int | Kolumnindex för indataceller.|
+| row | int | Indatacellens radindex.|
+| column | int | Kolumnindex för indatacell.|
 | value | str | Värdet på ingångscellen.|
 
 

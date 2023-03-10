@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_drag_behavior_enabled الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

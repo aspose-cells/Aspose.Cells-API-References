@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPoint класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -61,13 +61,13 @@ is_root: false
 | [get_bottom_point_count()](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_bottom_point_count/#) | Получает количество точек дна после вызова метода Chart.Calculate().|
 | [get_bottom_point_x_px(index)](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) | Получает x-координату нижней точки фигуры после вызова метода Chart.Calculate().<br/> Применяет трехмерные диаграммы: Column3D, Bar3D, Cone, Cylinder, Pyramid|
 | [get_bottom_point_y_px(index)](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) | Получает координату y нижней точки фигуры после вызова метода Chart.Calculate().<br/> Применяет трехмерные диаграммы: Column3D, Bar3D, Cone, Cylinder, Pyramid|
-| [get_on_category_axis_point_count()](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Получает количество точек на оси категорий после вызова метода Chart.Calculate() Применяется только к диаграмме с областями.|
-| [get_on_category_axis_point_x_px(index)](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Получает x-координату точки на оси категорий после вызова метода Chart.Calculate() Применяется только к диаграмме с областями.|
-| [get_on_category_axis_point_y_px(index)](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Получает координату y точки на оси категорий после вызова метода Chart.Calculate() Применяется только к диаграмме с областями.|
+| [get_on_category_axis_point_count()](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Получает количество точек на оси категорий после вызова метода Chart.Calculate(). Применяется только к диаграмме с областями.|
+| [get_on_category_axis_point_x_px(index)](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Получает x-координату точки на оси категории после вызова метода Chart.Calculate(). Применяется только к диаграмме с областями.|
+| [get_on_category_axis_point_y_px(index)](/cells/ru/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Получает координату y точки на оси категорий после вызова метода Chart.Calculate(). Применяется только к диаграмме с областями.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

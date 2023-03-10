@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObjectCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -32,7 +32,7 @@ Typen ListObjectCollection avslöjar följande medlemmar:
 | [last_index_of(item)](/cells/sv/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom hela arraylistan.|
 | [last_index_of(item, index)](/cells/sv/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject-int) | Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som sträcker sig från det första elementet till det angivna indexet.|
 | [last_index_of(item, index, count)](/cells/sv/python-net/aspose.cells.tables/listobjectcollection/last_index_of/#ListObject-int-int) |Söker efter det angivna objektet och returnerar det nollbaserade indexet för den senaste förekomsten inom intervallet av element i arraylistan som innehåller det angivna antalet element och slutar vid det angivna indexet.|
-| [update_column_name()](/cells/sv/python-net/aspose.cells.tables/listobjectcollection/update_column_name/#) | Uppdatera alla kolumnnamn i tabellerna.|
+| [update_column_name()](/cells/sv/python-net/aspose.cells.tables/listobjectcollection/update_column_name/#) | Uppdatera alla kolumnnamn för tabellerna.|
 | [binary_search(item)](/cells/sv/python-net/aspose.cells.tables/listobjectcollection/binary_search/#ListObject) | Söker i hela den sorterade arraylistan efter ett element med hjälp av standardjämföraren och returnerar elementets nollbaserade index.|
 
 

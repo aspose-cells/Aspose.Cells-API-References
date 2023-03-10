@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_css_id mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_css_id mülk
 
  css adının tr,col,td vb. gibi ön ekini alır ve ayarlar, bunlar tablo öğesinde bulunur
-belirli TableCssId özniteliğine sahip olan.
+belirli TableCssId özniteliğine sahip olan. Varsayılan değer "" şeklindedir.
 ###  Tanım:
 ```python
 @property

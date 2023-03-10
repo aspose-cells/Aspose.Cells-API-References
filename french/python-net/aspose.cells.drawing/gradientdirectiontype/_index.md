@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientDirectionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type GradientDirectionType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | FROM_UPPER_LEFT_CORNER | FromUpperLeftCorner|
-| FROM_UPPER_RIGHT_CORNER | Depuis le coin supérieur droit|
+| FROM_UPPER_RIGHT_CORNER | FromUpperRightCorner|
 | FROM_LOWER_LEFT_CORNER | FromLowerLeftCorner|
 | FROM_LOWER_RIGHT_CORNER | FromLowerRightCorner|
 | FROM_CENTER | DuCentre|

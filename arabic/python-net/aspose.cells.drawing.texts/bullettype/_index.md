@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد BulletType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,7 +20,7 @@ is_root: false
 | NONE | لا رصاصة.|
 | CHARACTER | رمز نقطي.|
 | PICTURE | صورة نقطية.|
-| AUTO_NUMBERED | تعداد نقطي آلي.|
+| AUTO_NUMBERED | رصاصة مرقمة أوتوماتيكية.|
 
 
 

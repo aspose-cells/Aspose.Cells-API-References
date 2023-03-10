@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackground klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.ods/odspagebackground/
 is_root: false
 ---
 ##  OdsPageBackground klass
-Representerar sidans bakgrund för odds.
+Representerar sidbakgrunden för ods.
 
 
 
@@ -24,7 +24,7 @@ Typen OdsPageBackground avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [type](/cells/sv/python-net/aspose.cells.ods/odspagebackground/type) | Hämtar och ställer in sidbakgrundstypen.|
-| [color](/cells/sv/python-net/aspose.cells.ods/odspagebackground/color) | Hämtar och ställer in färgen på bakgrunden.|
+| [color](/cells/sv/python-net/aspose.cells.ods/odspagebackground/color) | Hämtar och ställer in bakgrundsfärgen.|
 | [graphic_type](/cells/sv/python-net/aspose.cells.ods/odspagebackground/graphic_type) | Hämtar och ställer in sidans bakgrundsgrafiktyp.|
 | [graphic_position_type](/cells/sv/python-net/aspose.cells.ods/odspagebackground/graphic_position_type) | Hämtar och ställer in bakgrundens grafiska position.|
 | [is_link](/cells/sv/python-net/aspose.cells.ods/odspagebackground/is_link) | Anger om det är en länkad grafik.|

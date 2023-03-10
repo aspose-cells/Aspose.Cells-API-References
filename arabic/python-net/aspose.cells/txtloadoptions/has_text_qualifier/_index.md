@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_text_qualifier الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_text_qualifier الملكية
 
-ما إذا كان هناك مؤهل نص لقيمة الخلية أم لا. الافتراضي هو صحيح.
+ما إذا كان هناك مؤهل نص لقيمة الخلية. الافتراضي هو الصحيح.
 ###  تعريف:
 ```python
 @property

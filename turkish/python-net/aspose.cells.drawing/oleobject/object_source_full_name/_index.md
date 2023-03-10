@@ -1,4 +1,4 @@
-﻿---
+---
 title: object_source_full_name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Bağlantılı OLE nesnesi için kaynak dosyanın kaynak tam adını döndürür.
 ###  Notlar
 
 Yalnızca dosya türü OleFileType.Unknown olduğunda kaynak tam adının ayarlanmasını destekler.
-wav dosyası, avi dosyası gibi..vb..
+Wav dosyası, avi dosyası gibi..vb..
 ###  Tanım:
 ```python
 @property

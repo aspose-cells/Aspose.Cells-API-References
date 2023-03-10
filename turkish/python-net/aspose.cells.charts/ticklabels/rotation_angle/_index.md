@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotation_angle mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

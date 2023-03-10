@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_set propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,9 +11,9 @@ is_root: false
 
 Obtiene o establece las hojas para representar. El valor predeterminado es todas las hojas visibles en el libro de trabajo: [SheetSet.visible](/cells/es/python-net/aspose.cells.rendering/sheetset#visible).
 
-###  Ejemplos
+###  Ejemplo
 
-El siguiente código solo convierte las hojas activas en pdf.
+El siguiente código solo convierte la hoja activa en pdf.
 
 ```python
 from aspose.cells import PdfSaveOptions, Workbook

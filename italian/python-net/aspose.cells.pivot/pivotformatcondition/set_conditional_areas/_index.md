@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_conditional_areas
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

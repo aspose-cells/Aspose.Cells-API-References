@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_deleting_column mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

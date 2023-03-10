@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_properties_export Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_properties_export Eigentum
 
-Ruft einen Wert ab oder legt diesen fest, der festlegt, wie [CustomDocumentPropertyCollection](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection) in die Datei PDF exportiert werden Der Standardwert ist None.
+Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie [CustomDocumentPropertyCollection](/cells/de/python-net/aspose.cells.properties/customdocumentpropertycollection) in die PDF-Datei exportiert werden. Der Standardwert ist „Keine“.
 ###  Definition:
 ```python
 @property

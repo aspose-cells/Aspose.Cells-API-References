@@ -1,4 +1,4 @@
-﻿---
+---
 title: background_refresh الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

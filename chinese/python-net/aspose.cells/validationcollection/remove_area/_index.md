@@ -1,6 +1,6 @@
-﻿---
+---
 title: remove_area方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | ca | [CellArea](/cells/zh/python-net/aspose.cells/cellarea) |包含验证设置的范围。|
 

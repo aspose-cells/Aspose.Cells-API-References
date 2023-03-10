@@ -1,4 +1,4 @@
-﻿---
+---
 title: sparklines недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sparklines недвижимость
 
-Получает коллекцию из [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) объектов.
+Получает коллекцию объекта [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline).
 ###  Определение:
 ```python
 @property

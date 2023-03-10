@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadFilter sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,13 +25,13 @@ LoadFilter türü aşağıdaki üyeleri gösterir:
 | Mülk| Tanım|
 | :- | :- |
 | [load_data_filter_options](/cells/tr/python-net/aspose.cells/loadfilter/load_data_filter_options) | Hangi verilerin yüklenmesi gerektiğini gösteren filtre seçenekleri.|
-| [sheets_in_loading_order](/cells/tr/python-net/aspose.cells/loadfilter/sheets_in_loading_order) | Sayfaları (endeksleri) ve yüklenecek sırayı belirtir.<br/>Varsayılan, boştur, bu da şablon dosyasındaki tüm sayfaların varsayılan sırayla yüklenmesini belirtir.<br/> Null değilse ve bazı sayfaların dizini döndürülen dizide değilse, sayfa yüklenmeyecektir.|
+| [sheets_in_loading_order](/cells/tr/python-net/aspose.cells/loadfilter/sheets_in_loading_order) | Sayfaları (endeksleri) ve yüklenecek sırayı belirtir.<br/>Varsayılan boştur, bu, şablon dosyasındaki tüm sayfaların varsayılan sırayla yüklenmesini belirtir.<br/> Null değilse ve bazı sayfaların dizini döndürülen dizide değilse, sayfa yüklenmez.|
 
 
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [start_sheet(sheet)](/cells/tr/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Belirli bir çalışma sayfasını yüklemeden önce filtre seçeneklerini hazırlar.<br/>Kullanıcının LoadFilter uygulaması, LoadDataFilterOptions'ı burada değiştirebilir<br/> Bu çalışma sayfası için verilerin nasıl yükleneceğini belirtmek için.|
+| [start_sheet(sheet)](/cells/tr/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Verilen çalışma sayfasını yüklemeden önce filtre seçeneklerini hazırlar.<br/>Kullanıcının LoadFilter uygulaması, LoadDataFilterOptions'ı burada değiştirebilir<br/> Bu çalışma sayfası için verilerin nasıl yükleneceğini belirtmek için.|
 
 
 

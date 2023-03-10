@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_calculated_value
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_calculated_value(self, v):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | v | any |  |
 ###  Osservazioni

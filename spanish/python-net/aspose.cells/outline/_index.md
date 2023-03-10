@@ -1,4 +1,4 @@
-﻿---
+---
 title: Outline clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ El tipo Outline expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [summary_row_below](/cells/es/python-net/aspose.cells/outline/summary_row_below) | Indica si la fila de resumen se colocará debajo de las filas de detalle en el esquema.|
-| [summary_column_right](/cells/es/python-net/aspose.cells/outline/summary_column_right) | Indica si la columna de resumen se colocará a la derecha de las columnas de detalles en el esquema.|
+| [summary_column_right](/cells/es/python-net/aspose.cells/outline/summary_column_right) | Indica si la columna de resumen se colocará a la derecha de las columnas de detalle en el esquema.|
 
 
 

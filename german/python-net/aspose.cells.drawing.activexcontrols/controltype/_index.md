@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ Der Typ ControlType macht die folgenden Member verfügbar:
 | LIST_BOX | Listenfeld|
 | TEXT_BOX | Textfeld|
 | SPIN_BUTTON | Spinner|
-| RADIO_BUTTON | Radio Knöpfe|
+| RADIO_BUTTON | Radio knopf|
 | LABEL | Etikett|
 | IMAGE | Bild|
 | TOGGLE_BUTTON | Umschaltknopf|

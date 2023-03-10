@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def clear_range(self, range):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | range | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Räckvidd ska rensas.|
 
@@ -34,7 +34,7 @@ def clear_range(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Starta radindex.|
 | start_column | int | Starta kolumnindex.|

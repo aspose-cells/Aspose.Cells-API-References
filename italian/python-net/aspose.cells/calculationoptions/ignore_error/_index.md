@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_error proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  ignore_error proprietà
 
 Indica se è necessario nascondere l'errore nel calcolo delle formule.
-L'errore potrebbe essere dovuto a funzioni non supportate, collegamenti esterni e così via.
+L'errore potrebbe essere una funzione non supportata, collegamenti esterni, ecc.
 ###  Definizione:
 ```python
 @property

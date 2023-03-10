@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabels Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -29,7 +29,7 @@ Der Typ DataLabels macht die folgenden Member verfügbar:
 | [text_font](/cells/de/python-net/aspose.cells.charts/datalabels/text_font) | Ruft ein [ChartFrame.font](/cells/de/python-net/aspose.cells.charts/chartframe#font)-Objekt des angegebenen ChartFrame-Objekts ab.|
 | [text_options](/cells/de/python-net/aspose.cells.charts/datalabels/text_options) | Ruft die Optionen des Textes ab und legt sie fest.|
 | [font](/cells/de/python-net/aspose.cells.charts/datalabels/font) | Ruft die Schriftart der DataLabels ab;|
-| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/datalabels/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert.|
+| [auto_scale_font](/cells/de/python-net/aspose.cells.charts/datalabels/auto_scale_font) | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True.|
 | [background_mode](/cells/de/python-net/aspose.cells.charts/datalabels/background_mode) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [background](/cells/de/python-net/aspose.cells.charts/datalabels/background) | Ruft den Anzeigemodus des Hintergrunds ab und legt ihn fest|
 | [is_automatic_size](/cells/de/python-net/aspose.cells.charts/datalabels/is_automatic_size) | Gibt an, ob die Größe des Diagrammrahmens automatisch angepasst wird.|
@@ -45,7 +45,7 @@ Der Typ DataLabels macht die folgenden Member verfügbar:
 | [default_width](/cells/de/python-net/aspose.cells.charts/datalabels/default_width) | Repräsentiert die Breite der Standardposition|
 | [default_height](/cells/de/python-net/aspose.cells.charts/datalabels/default_height) | Repräsentiert die Höhe der Standardposition|
 | [is_auto_text](/cells/de/python-net/aspose.cells.charts/datalabels/is_auto_text) | Zeigt an, dass der Text automatisch generiert wird.|
-| [is_deleted](/cells/de/python-net/aspose.cells.charts/datalabels/is_deleted) | Gibt an, ob diese Datenbeschriftung gelöscht wird.|
+| [is_deleted](/cells/de/python-net/aspose.cells.charts/datalabels/is_deleted) | Gibt an, ob diese Datenbeschriftungen gelöscht werden.|
 | [text_horizontal_alignment](/cells/de/python-net/aspose.cells.charts/datalabels/text_horizontal_alignment) | Ruft die horizontale Textausrichtung ab und legt sie fest.|
 | [text_vertical_alignment](/cells/de/python-net/aspose.cells.charts/datalabels/text_vertical_alignment) |Ruft die vertikale Textausrichtung von Text ab oder legt diese fest.|
 | [rotation_angle](/cells/de/python-net/aspose.cells.charts/datalabels/rotation_angle) | Stellt den Rotationswinkel des Textes dar.|
@@ -56,13 +56,13 @@ Der Typ DataLabels macht die folgenden Member verfügbar:
 | [reading_order](/cells/de/python-net/aspose.cells.charts/datalabels/reading_order) | Stellt die Lesereihenfolge des Textes dar.|
 | [direction_type](/cells/de/python-net/aspose.cells.charts/datalabels/direction_type) | Ruft die Textrichtung ab und legt sie fest.|
 | [is_text_wrapped](/cells/de/python-net/aspose.cells.charts/datalabels/is_text_wrapped) | Ruft einen Wert ab, der angibt, ob der Text umbrochen wird, oder legt diesen fest.|
-| [is_resize_shape_to_fit_text](/cells/de/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | Ruft ab oder legt fest, ob eine Form automatisch angepasst werden soll, damit sie den darin beschriebenen Text vollständig enthält.<br/> wenn Text innerhalb einer Form skaliert wird, um den gesamten darin enthaltenen Text aufzunehmen.|
-| [show_value](/cells/de/python-net/aspose.cells.charts/datalabels/show_value) | Stellt das Anzeigeverhalten der Datenbeschriftungswerte eines bestimmten Diagramms dar. True zeigt die Werte an. False zum Ausblenden.|
+| [is_resize_shape_to_fit_text](/cells/de/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | Ruft ab oder legt fest, ob eine Form automatisch angepasst werden soll, damit sie den darin beschriebenen Text vollständig enthält. Autofitting ist<br/> wenn Text innerhalb einer Form skaliert wird, um den gesamten darin enthaltenen Text aufzunehmen.|
+| [show_value](/cells/de/python-net/aspose.cells.charts/datalabels/show_value) | Stellt das Anzeigeverhalten der Datenbeschriftungswerte eines bestimmten Diagramms dar. True zeigt die Werte an. Falsch zu verstecken.|
 | [show_cell_range](/cells/de/python-net/aspose.cells.charts/datalabels/show_cell_range) | Gibt an, ob der Zellbereich als Datenbeschriftung angezeigt wird.|
-| [show_percentage](/cells/de/python-net/aspose.cells.charts/datalabels/show_percentage) | Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. False zum Ausblenden.|
-| [show_bubble_size](/cells/de/python-net/aspose.cells.charts/datalabels/show_bubble_size) | Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. False zum Ausblenden.|
-| [show_category_name](/cells/de/python-net/aspose.cells.charts/datalabels/show_category_name) | Stellt das Anzeigeverhalten des Kategorienamens der Datenbeschriftung eines bestimmten Diagramms dar. True, um den Kategorienamen für die Datenbeschriftungen in einem Diagramm anzuzeigen. False, um auszublenden.|
-| [show_series_name](/cells/de/python-net/aspose.cells.charts/datalabels/show_series_name) | Gibt einen booleschen Wert zurück oder legt ihn fest, um das Verhalten der Reihennamenanzeige für die Datenbeschriftungen in einem Diagramm anzugeben.<br/>True, um den Seriennamen anzuzeigen, False, um ihn auszublenden.|
+| [show_percentage](/cells/de/python-net/aspose.cells.charts/datalabels/show_percentage) | Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. Falsch zu verstecken.|
+| [show_bubble_size](/cells/de/python-net/aspose.cells.charts/datalabels/show_bubble_size) | Stellt das Anzeigeverhalten des Prozentwerts der Datenbeschriftung eines bestimmten Diagramms dar. True zeigt den Prozentwert an. Falsch zu verstecken.|
+| [show_category_name](/cells/de/python-net/aspose.cells.charts/datalabels/show_category_name) | Stellt das Anzeigeverhalten des Datenbeschriftungs-Kategorienamens eines bestimmten Diagramms dar. True, um den Kategorienamen für die Datenbeschriftungen in einem Diagramm anzuzeigen. Falsch zu verstecken.|
+| [show_series_name](/cells/de/python-net/aspose.cells.charts/datalabels/show_series_name) | Gibt einen booleschen Wert zurück oder legt ihn fest, um das Verhalten der Reihennamenanzeige für die Datenbeschriftungen in einem Diagramm anzugeben.<br/>True, um den Seriennamen anzuzeigen. Falsch zu verstecken.|
 | [show_legend_key](/cells/de/python-net/aspose.cells.charts/datalabels/show_legend_key) | Stellt das Anzeigeverhalten des Legendenschlüssels der Datenbeschriftung eines bestimmten Diagramms dar.<br/> True, wenn der Legendenschlüssel der Datenbeschriftung sichtbar ist.|
 | [number_format](/cells/de/python-net/aspose.cells.charts/datalabels/number_format) | Stellt die Formatzeichenfolge für das DataLabels-Objekt dar.|
 | [number](/cells/de/python-net/aspose.cells.charts/datalabels/number) | Ruft das integrierte Zahlenformat ab und legt es fest.|
@@ -71,7 +71,7 @@ Der Typ DataLabels macht die folgenden Member verfügbar:
 | [separator_type](/cells/de/python-net/aspose.cells.charts/datalabels/separator_type) | Ruft den für die Datenbeschriftungen in einem Diagramm verwendeten Trennzeichentyp ab oder legt diesen fest.|
 | [separator_value](/cells/de/python-net/aspose.cells.charts/datalabels/separator_value) | Ruft den Trennzeichenwert ab, der für die Datenbeschriftungen in einem Diagramm verwendet wird, oder legt diesen fest.|
 | [position](/cells/de/python-net/aspose.cells.charts/datalabels/position) | Repräsentiert die Position der Datenbeschriftung.|
-| [is_never_overlap](/cells/de/python-net/aspose.cells.charts/datalabels/is_never_overlap) | Gibt an, ob sich die Datenbeschriftungen nie überlappen (für Kreisdiagramm).|
+| [is_never_overlap](/cells/de/python-net/aspose.cells.charts/datalabels/is_never_overlap) | Gibt an, ob sich die angezeigten Datenbeschriftungen niemals überlappen. (Für Kreisdiagramm)|
 | [shape_type](/cells/de/python-net/aspose.cells.charts/datalabels/shape_type) | Ruft den Formtyp der Datenbeschriftung ab oder legt diesen fest.|
 
 
@@ -83,7 +83,7 @@ Der Typ DataLabels macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

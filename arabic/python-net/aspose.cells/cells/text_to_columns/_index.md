@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة text_to_columns
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/text_to_columns/
 is_root: false
 ---
 ##  text_to_columns(row, column, total_rows, options) {#int-int-int-TxtLoadOptions}
-يقسم النص في الأعمدة إلى أعمدة.
+يقسم النص في العمود إلى أعمدة.
 
 
 
@@ -18,7 +18,7 @@ def text_to_columns(self, row, column, total_rows, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف.|
 | column | int | فهرس العمود.|

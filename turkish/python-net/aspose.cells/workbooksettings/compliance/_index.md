@@ -1,4 +1,4 @@
-﻿---
+---
 title: compliance mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compliance mülk
 
-Çıktı belgesi için OOXML sürümünü belirtir.
+Çıktı belgesi için OOXML sürümünü belirtir. Varsayılan değer Ecma376_2006'dır.
 
 ###  Notlar
 

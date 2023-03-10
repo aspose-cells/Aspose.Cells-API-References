@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFieldSubtotalType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -23,7 +23,7 @@ Il tipo PivotFieldSubtotalType espone i membri seguenti:
 | COUNT | Rappresenta il tipo di subtotale conteggio.|
 | AVERAGE | Rappresenta il tipo di totale parziale medio.|
 | MAX | Rappresenta il tipo di totale parziale max.|
-| MIN | Rappresenta il tipo di subtotale min.|
+| MIN | Rappresenta il tipo di subtotale minimo.|
 | PRODUCT | Rappresenta il tipo di totale parziale del prodotto.|
 | COUNT_NUMS | Rappresenta il tipo di subtotale Count Nums.|
 | STDEV |Rappresenta il tipo di subtotale Stdev.|

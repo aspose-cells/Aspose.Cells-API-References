@@ -1,4 +1,4 @@
-﻿---
+---
 title: Protection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/protection/
 is_root: false
 ---
 ##  Protection clase
-Representa los distintos tipos de opciones de protección disponibles para una hoja de trabajo.
+Representa los distintos tipos de opciones de protección disponibles para una hoja de cálculo.
 
 
 
@@ -23,8 +23,8 @@ El tipo Protection expone los siguientes miembros:
 | [is_deleting_rows_allowed](/cells/es/python-net/aspose.cells/protection/is_deleting_rows_allowed) | Representa si se permite la eliminación de filas en una hoja de cálculo protegida.|
 | [allow_filtering](/cells/es/python-net/aspose.cells/protection/allow_filtering) | Representa si el usuario puede utilizar un Autofiltro que se creó antes de proteger la hoja.|
 | [is_filtering_allowed](/cells/es/python-net/aspose.cells/protection/is_filtering_allowed) | Representa si el usuario puede utilizar un Autofiltro que se creó antes de proteger la hoja.|
-| [allow_formatting_cell](/cells/es/python-net/aspose.cells/protection/allow_formatting_cell) | Representa si se permite el formato de celdas en una hoja de cálculo protegida.|
-| [is_formatting_cells_allowed](/cells/es/python-net/aspose.cells/protection/is_formatting_cells_allowed) | Representa si se permite el formato de celdas en una hoja de cálculo protegida.|
+| [allow_formatting_cell](/cells/es/python-net/aspose.cells/protection/allow_formatting_cell) | Representa si se permite el formato de celdas en una hoja de trabajo protegida.|
+| [is_formatting_cells_allowed](/cells/es/python-net/aspose.cells/protection/is_formatting_cells_allowed) | Representa si se permite el formato de celdas en una hoja de trabajo protegida.|
 | [allow_formatting_column](/cells/es/python-net/aspose.cells/protection/allow_formatting_column) |Representa si se permite el formato de columnas en una hoja de trabajo protegida|
 | [is_formatting_columns_allowed](/cells/es/python-net/aspose.cells/protection/is_formatting_columns_allowed) |Representa si se permite el formato de columnas en una hoja de trabajo protegida|
 | [allow_formatting_row](/cells/es/python-net/aspose.cells/protection/allow_formatting_row) | Representa si se permite el formato de filas en una hoja de trabajo protegida|
@@ -62,7 +62,7 @@ El tipo Protection expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

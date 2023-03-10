@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_drill Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill Eigentum
 
 Gibt einen booleschen Wert an, der angibt, ob Bohrindikatoren gedruckt werden sollen.
-Schaltflächen zum Erweitern/Reduzieren drucken, wenn sie in der Pivot-Tabelle angezeigt werden.
+Schaltflächen zum Erweitern/Reduzieren drucken, wenn sie auf Pivottable angezeigt werden.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: fore_transparency mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  fore_transparency mülk
 
-Ön plan renginin şeffaflığını alır veya ayarlar.
+Ön plan renginin saydamlığını alır veya ayarlar.
 ###  Tanım:
 ```python
 @property

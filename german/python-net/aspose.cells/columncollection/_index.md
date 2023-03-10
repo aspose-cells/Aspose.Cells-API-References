@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColumnCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,9 +8,9 @@ url: /de/python-net/aspose.cells/columncollection/
 is_root: false
 ---
 ##  ColumnCollection Klasse
-Sammlung der [Column](/cells/de/python-net/aspose.cells/column)-Objekte, die die einzelnen Spalten (Einstellungen) in einem Arbeitsblatt darstellen.
-Das Column-Objekt repräsentiert nur die Einstellungen wie Spaltenbreite, Stile usw.
-hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht in entsprechenden Spalten gibt.
+Sammlung der [Column](/cells/de/python-net/aspose.cells/column)-Objekte, die die einzelnen Spalten(einstellungen) in einem Arbeitsblatt darstellen.
+Das Column-Objekt repräsentiert nur die Einstellungen wie Spaltenbreite, Stile usw. für die ganze Spalte,
+hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht in der entsprechenden Spalte gibt.
 Und die "Anzahl" dieser Sammlung stellt nur die Anzahl der Spaltenobjekte dar, die in dieser Sammlung instanziiert wurden.
 hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht im Arbeitsblatt gibt.
 
@@ -40,7 +40,7 @@ Der Typ ColumnCollection macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

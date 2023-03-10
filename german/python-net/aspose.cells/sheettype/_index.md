@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,13 +17,13 @@ Der Typ SheetType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| VB | Visual Basic-Module|
+| VB | Visual Basic-Modul|
 | WORKSHEET |  |
 | CHART | Diagramm|
 | BIFF4_MACRO | BIFF4-Makroblatt|
 | INTERNATIONAL_MACRO | Internationales Makroblatt|
 | OTHER |  |
-| DIALOG |Arbeitsblatt Dialog|
+| DIALOG |Dialogarbeitsblatt|
 
 
 

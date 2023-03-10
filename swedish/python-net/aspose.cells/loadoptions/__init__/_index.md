@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ def __init__(self, load_format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/sv/python-net/aspose.cells/loadformat) | Laddningsformatet.|
 

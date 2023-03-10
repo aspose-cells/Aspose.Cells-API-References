@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_a_cell метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def remove_a_cell(self, row, column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row | int | Индекс строки.|
 | column | int | Индекс столбца.|

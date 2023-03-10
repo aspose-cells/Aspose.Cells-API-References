@@ -1,4 +1,4 @@
-﻿---
+---
 title: Button الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -36,7 +36,7 @@ is_root: false
 | [fill](/cells/ar/python-net/aspose.cells.drawing/button/fill) | إرجاع عنصر [Shape.fill_format](/cells/ar/python-net/aspose.cells.drawing/shape#fill_format) يحتوي على خصائص تنسيق تعبئة للشكل المحدد.|
 | [shadow_effect](/cells/ar/python-net/aspose.cells.drawing/button/shadow_effect) | يمثل عنصر [ShadowEffect](/cells/ar/python-net/aspose.cells.drawing/shadoweffect) يحدد تأثير الظل لعنصر المخطط أو شكله.|
 | [reflection](/cells/ar/python-net/aspose.cells.drawing/button/reflection) | يمثل عنصر [ReflectionEffect](/cells/ar/python-net/aspose.cells.drawing/reflectioneffect) يحدد تأثير الانعكاس لعنصر المخطط أو شكله.|
-| [glow](/cells/ar/python-net/aspose.cells.drawing/button/glow) | يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) الذي يحدد تأثير التوهج لعنصر المخطط أو شكله.|
+| [glow](/cells/ar/python-net/aspose.cells.drawing/button/glow) | يمثل عنصر [GlowEffect](/cells/ar/python-net/aspose.cells.drawing/gloweffect) يحدد تأثير التوهج لعنصر المخطط أو شكله.|
 | [soft_edges](/cells/ar/python-net/aspose.cells.drawing/button/soft_edges) | الحصول على نصف قطر التمويه وتعيينه لتطبيقه على الحواف ، في وحدة من النقاط.|
 | [three_d_format](/cells/ar/python-net/aspose.cells.drawing/button/three_d_format) | الحصول على تنسيق ثلاثي الأبعاد للشكل وتعيينه.|
 | [text_frame](/cells/ar/python-net/aspose.cells.drawing/button/text_frame) | إرجاع كائن TextFrame يحتوي على خصائص المحاذاة والتثبيت للشكل المحدد.|
@@ -57,7 +57,7 @@ is_root: false
 | [is_printable](/cells/ar/python-net/aspose.cells.drawing/button/is_printable) |صحيح إذا كان الكائن قابل للطباعة|
 | [mso_drawing_type](/cells/ar/python-net/aspose.cells.drawing/button/mso_drawing_type) | يحصل على نوع الرسم MSO.|
 | [auto_shape_type](/cells/ar/python-net/aspose.cells.drawing/button/auto_shape_type) | الحصول على نوع الشكل التلقائي وتعيينه.|
-| [anchor_type](/cells/ar/python-net/aspose.cells.drawing/button/anchor_type) | الحصول على العنصر النائب للشكل وتعيينه.|
+| [anchor_type](/cells/ar/python-net/aspose.cells.drawing/button/anchor_type) | الحصول على الشكل وتعيين العنصر النائب لنقطة الارتساء.|
 | [placement](/cells/ar/python-net/aspose.cells.drawing/button/placement) | يمثل الطريقة التي يتم بها إرفاق الكائن الرسومي بالخلايا الموجودة أسفله.<br/> تتحكم الخاصية في وضع كائن في ورقة العمل.|
 | [upper_left_row](/cells/ar/python-net/aspose.cells.drawing/button/upper_left_row) | يمثل فهرس صف الزاوية اليسرى العليا.|
 | [upper_delta_y](/cells/ar/python-net/aspose.cells.drawing/button/upper_delta_y) | الحصول على أو تعيين الإزاحة الرأسية للشكل من صف الزاوية اليسرى العليا.|
@@ -65,33 +65,33 @@ is_root: false
 | [upper_delta_x](/cells/ar/python-net/aspose.cells.drawing/button/upper_delta_x) | الحصول على أو تعيين الإزاحة الأفقية للشكل من عمود الزاوية اليسرى العليا.|
 | [lower_right_row](/cells/ar/python-net/aspose.cells.drawing/button/lower_right_row) | يمثل فهرس صف الزاوية اليمنى السفلي.|
 | [lower_delta_y](/cells/ar/python-net/aspose.cells.drawing/button/lower_delta_y) | الحصول على أو تعيين الإزاحة الرأسية للشكل من صف الزاوية اليمنى السفلية.|
-| [lower_right_column](/cells/ar/python-net/aspose.cells.drawing/button/lower_right_column) | يمثل فهرس عمود الزاوية اليمنى السفلي.|
+| [lower_right_column](/cells/ar/python-net/aspose.cells.drawing/button/lower_right_column) | يمثل فهرس عمود الركن الأيمن السفلي.|
 | [lower_delta_x](/cells/ar/python-net/aspose.cells.drawing/button/lower_delta_x) | الحصول على أو تعيين الإزاحة الأفقية للشكل من عمود الركن الأيمن السفلي.|
 | [right](/cells/ar/python-net/aspose.cells.drawing/button/right) | يمثل عرض الإزاحة الأفقية للشكل من عمود الركن الأيمن السفلي ، بوحدة البكسل.|
 | [bottom](/cells/ar/python-net/aspose.cells.drawing/button/bottom) |يمثل عرض الإزاحة الرأسية للشكل من صف الزاوية السفلية السفلية ، بوحدة البكسل.|
-| [width](/cells/ar/python-net/aspose.cells.drawing/button/width) | يمثل عرض الشكل بوحدات البكسل.|
-| [width_inch](/cells/ar/python-net/aspose.cells.drawing/button/width_inch) | يمثل عرض الشكل بوحدات البوصة.|
-| [width_pt](/cells/ar/python-net/aspose.cells.drawing/button/width_pt) | يمثل عرض الشكل بوحدات من النقاط.|
-| [width_cm](/cells/ar/python-net/aspose.cells.drawing/button/width_cm) | يمثل عرض الشكل بوحدات السنتيمترات.|
-| [height](/cells/ar/python-net/aspose.cells.drawing/button/height) | يمثل ارتفاع الشكل بوحدات البكسل.|
-| [height_inch](/cells/ar/python-net/aspose.cells.drawing/button/height_inch) | يمثل ارتفاع الشكل بوحدات البوصة.|
-| [height_pt](/cells/ar/python-net/aspose.cells.drawing/button/height_pt) | يمثل ارتفاع الشكل بوحدات من النقاط.|
-| [height_cm](/cells/ar/python-net/aspose.cells.drawing/button/height_cm) | يمثل ارتفاع الشكل بوحدات السنتيمترات.|
+| [width](/cells/ar/python-net/aspose.cells.drawing/button/width) | يمثل عرض الشكل بوحدة البكسل.|
+| [width_inch](/cells/ar/python-net/aspose.cells.drawing/button/width_inch) | يمثل عرض الشكل بوحدة البوصة.|
+| [width_pt](/cells/ar/python-net/aspose.cells.drawing/button/width_pt) | يمثل عرض الشكل بوحدة النقطة.|
+| [width_cm](/cells/ar/python-net/aspose.cells.drawing/button/width_cm) | يمثل عرض الشكل بوحدة سنتيمترات.|
+| [height](/cells/ar/python-net/aspose.cells.drawing/button/height) | يمثل ارتفاع الشكل بوحدة البكسل.|
+| [height_inch](/cells/ar/python-net/aspose.cells.drawing/button/height_inch) | يمثل ارتفاع الشكل بوحدة البوصة.|
+| [height_pt](/cells/ar/python-net/aspose.cells.drawing/button/height_pt) | يمثل ارتفاع الشكل بوحدة النقاط.|
+| [height_cm](/cells/ar/python-net/aspose.cells.drawing/button/height_cm) | يمثل ارتفاع الشكل بوحدة السنتيمترات.|
 | [left](/cells/ar/python-net/aspose.cells.drawing/button/left) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البكسل.|
-| [left_inch](/cells/ar/python-net/aspose.cells.drawing/button/left_inch) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدات البوصة.|
-| [left_cm](/cells/ar/python-net/aspose.cells.drawing/button/left_cm) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدات السنتيمتر.|
+| [left_inch](/cells/ar/python-net/aspose.cells.drawing/button/left_inch) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة البوصة.|
+| [left_cm](/cells/ar/python-net/aspose.cells.drawing/button/left_cm) | يمثل الإزاحة الأفقية للشكل من العمود الأيسر ، بوحدة السنتيمترات.|
 | [top](/cells/ar/python-net/aspose.cells.drawing/button/top) | يمثل الإزاحة الرأسية للشكل من صفه العلوي ، بوحدة بكسل.|
-| [top_inch](/cells/ar/python-net/aspose.cells.drawing/button/top_inch) |يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات البوصة.|
-| [top_cm](/cells/ar/python-net/aspose.cells.drawing/button/top_cm) | يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدات السنتيمتر.|
+| [top_inch](/cells/ar/python-net/aspose.cells.drawing/button/top_inch) |يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة البوصة.|
+| [top_cm](/cells/ar/python-net/aspose.cells.drawing/button/top_cm) | يمثل الإزاحة الرأسية للشكل من صفه العلوي بوحدة سنتيمترات.|
 | [top_to_corner](/cells/ar/python-net/aspose.cells.drawing/button/top_to_corner) | الحصول على الإزاحة الرأسية للشكل وتعيينها من الحد العلوي لورقة العمل ، بوحدة البكسل.|
-| [left_to_corner](/cells/ar/python-net/aspose.cells.drawing/button/left_to_corner) | الحصول على وتعيين الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل.|
+| [left_to_corner](/cells/ar/python-net/aspose.cells.drawing/button/left_to_corner) | الحصول على الإزاحة الأفقية للشكل من الحد الأيسر لورقة العمل وتعيينها.|
 | [x](/cells/ar/python-net/aspose.cells.drawing/button/x) | الحصول على الإزاحة الأفقية للشكل وتعيينها من الحد الأيسر لورقة العمل ، بوحدة البكسل.|
 | [y](/cells/ar/python-net/aspose.cells.drawing/button/y) | الحصول على الإزاحة الرأسية للشكل وتعيينها من الحد العلوي لورقة العمل ، بوحدة البكسل.|
 | [width_scale](/cells/ar/python-net/aspose.cells.drawing/button/width_scale) | الحصول على مقياس العرض وتعيينه ، بوحدة نسبة مئوية من عرض الصورة الأصلي.<br/> إذا لم يكن الشكل صورة ، تقوم الخاصية WidthScale بإرجاع 100 فقط ؛|
 | [height_scale](/cells/ar/python-net/aspose.cells.drawing/button/height_scale) | الحصول على مقياس الارتفاع وتعيينه ، بوحدة نسبة مئوية من ارتفاع الصورة الأصلي.<br/> إذا لم يكن الشكل صورة ، تقوم الخاصية HeightScale بإرجاع 100 فقط ؛|
 | [top_in_shape](/cells/ar/python-net/aspose.cells.drawing/button/top_in_shape) | يمثل الإزاحة الرأسية للشكل من الحد العلوي للشكل الأصل ،<br/> بوحدة 1/4000 من ارتفاع الشكل الأصل.|
 | [left_in_shape](/cells/ar/python-net/aspose.cells.drawing/button/left_in_shape) |يمثل الإزاحة الأفقية للشكل من الحد الأيسر للشكل الأصل ،<br/> بوحدة 1/4000 من عرض الشكل الأصل.|
-| [width_in_shape](/cells/ar/python-net/aspose.cells.drawing/button/width_in_shape) | يمثل عرض الشكل بوحدات 1/4000 من الشكل الأصل.|
+| [width_in_shape](/cells/ar/python-net/aspose.cells.drawing/button/width_in_shape) | يمثل عرض الشكل بوحدة 1/4000 من الشكل الأصل.|
 | [height_in_shape](/cells/ar/python-net/aspose.cells.drawing/button/height_in_shape) | يمثل الإزاحة الرأسية للشكل من الحد العلوي للشكل الأصلي ، بوحدة 1/4000 من ارتفاع الشكل الأصل ..|
 | [group](/cells/ar/python-net/aspose.cells.drawing/button/group) | الحصول على شكل المجموعة الذي يحتوي على هذا الشكل.|
 | [type](/cells/ar/python-net/aspose.cells.drawing/button/type) | يحصل على نوع الشكل التلقائي.|
@@ -155,7 +155,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

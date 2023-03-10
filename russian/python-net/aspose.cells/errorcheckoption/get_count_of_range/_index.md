@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_count_of_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-количество диапазонов, на которые влияет этот параметр.
+количество диапазонов, на которые повлияла эта настройка.
 
 
 ```python

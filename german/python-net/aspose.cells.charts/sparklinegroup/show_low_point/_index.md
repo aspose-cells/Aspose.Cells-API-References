@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_low_point Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

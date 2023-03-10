@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_mashup недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

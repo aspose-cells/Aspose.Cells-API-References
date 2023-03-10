@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProject sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -30,14 +30,14 @@ VbaProject türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [sign(digital_signature)](/cells/tr/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Bu VBA projesini bir Dijital İmza ile imzalayın|
+| [sign(digital_signature)](/cells/tr/python-net/aspose.cells.vba/vbaproject/sign/#aspose.cells.digitalsignatures.DigitalSignature) | Bu VBA projesini DigitalSignature ile imzalayın|
 | [protect(islocked_for_viewing, password)](/cells/tr/python-net/aspose.cells.vba/vbaproject/protect/#bool-str) | Bu VBA projesini korur veya korumasını kaldırır.|
 | [copy(source)](/cells/tr/python-net/aspose.cells.vba/vbaproject/copy/#VbaProject) | Diğer dosyadan VBA projesini kopyalayın.|
 | [validate_password(password)](/cells/tr/python-net/aspose.cells.vba/vbaproject/validate_password/#str) | Koruma parolasını doğrular.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

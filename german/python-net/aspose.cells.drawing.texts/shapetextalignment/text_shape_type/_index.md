@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_shape_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  text_shape_type Eigentum
 
-Ruft den Transformationstyp von Text ab und legt diesen fest.
+Ruft den Transformationstyp von Text ab und legt ihn fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import AutoShapeType

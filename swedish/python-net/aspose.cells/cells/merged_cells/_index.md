@@ -1,4 +1,4 @@
-﻿---
+---
 title: merged_cells fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar samlingen av sammanslagna celler.
 
 ###  Anmärkningar
 
-den här samlingen är varje föremål en [CellArea](/cells/sv/python-net/aspose.cells/cellarea)-struktur som representerar ett område med sammanslagna celler.
+den här samlingen är varje objekt en [CellArea](/cells/sv/python-net/aspose.cells/cellarea)-struktur som representerar ett område med sammanslagna celler.
 ###  Definition:
 ```python
 @property

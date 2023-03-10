@@ -1,4 +1,4 @@
-﻿---
+---
 title: placement недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -12,7 +12,7 @@ is_root: false
 Представляет способ прикрепления объекта рисования к ячейкам под ним.
 Свойство управляет placement объекта на листе.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing import PlacementType

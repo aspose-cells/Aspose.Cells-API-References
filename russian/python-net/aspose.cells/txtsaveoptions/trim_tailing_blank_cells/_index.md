@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_tailing_blank_cells недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells недвижимость
 
-Указывает, следует ли обрезать хвостовые пустые ячейки в одной строке.Значение по умолчанию — false.
+Указывает, следует ли обрезать хвостовые пустые ячейки в одной строке. Значение по умолчанию — ложь.
 
 ###  Примечания
 

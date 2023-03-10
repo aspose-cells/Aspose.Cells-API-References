@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSet الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -21,14 +21,14 @@ is_root: false
 | :- | :- |
 | [cf_icons](/cells/ar/python-net/aspose.cells/iconset/cf_icons) | احصل على[ConditionalFormattingIcon](/cells/ar/python-net/aspose.cells/conditionalformattingicon) من المجموعة|
 | [cfvos](/cells/ar/python-net/aspose.cells/iconset/cfvos) | احصل على مثيل CFValueObjects.|
-| [type](/cells/ar/python-net/aspose.cells/iconset/type) | احصل على نوع مجموعة الرموز المراد عرضها أو اضبطها.<br/>سيؤدي تعيين النوع إلى التحقق تلقائيًا مما إذا كان عدد Cfvos الحالي هو<br/> متوافق مع النوع الجديد. إذا لم يتم التوافق ، فسيتم تنظيف Cfvos القديم و<br/> ستتم إضافة Cfvos الافتراضية.|
+| [type](/cells/ar/python-net/aspose.cells/iconset/type) | احصل على نوع مجموعة الرموز المراد عرضها أو اضبطها.<br/>سيؤدي تعيين النوع إلى التحقق تلقائيًا مما إذا كان عدد Cfvos الحالي هو<br/> تتفق مع النوع الجديد. إذا لم يتم التوافق ، فسيتم تنظيف Cfvos القديم و<br/> ستتم إضافة Cfvos الافتراضية.|
 | [is_custom](/cells/ar/python-net/aspose.cells/iconset/is_custom) | يشير إلى ما إذا كانت مجموعة الرموز مخصصة.<br/> القيمة الافتراضية هي كاذبة.|
 | [show_value](/cells/ar/python-net/aspose.cells/iconset/show_value) | احصل على أو عيّن العلامة التي تشير إلى ما إذا كنت تريد إظهار قيم الخلايا التي يتم تطبيق مجموعة الأيقونات عليها.<br/> القيمة الافتراضية صحيحة.|
 | [reverse](/cells/ar/python-net/aspose.cells/iconset/reverse) | احصل على أو اضبط العلم الذي يشير إلى ما إذا كان سيتم عكس الترتيب الافتراضي للرموز في مجموعة الرموز هذه.<br/> القيمة الافتراضية هي كاذبة.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

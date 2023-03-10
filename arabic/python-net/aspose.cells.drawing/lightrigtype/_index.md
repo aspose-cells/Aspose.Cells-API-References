@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد LightRigType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -27,13 +27,13 @@ is_root: false
 | GLOW | يشع|
 | HARSH | صارِم|
 | LEGACY_FLAT1 | LegacyFlat1|
-| LEGACY_FLAT2 | تراث شقة 2|
-| LEGACY_FLAT3 | شقة تراث 3|
-| LEGACY_FLAT4 | شقة الإرث 4|
+| LEGACY_FLAT2 | LegacyFlat2|
+| LEGACY_FLAT3 | تراث شقة 3|
+| LEGACY_FLAT4 | LegacyFlat4|
 | LEGACY_HARSH1 | إرث قاسية 1|
-| LEGACY_HARSH2 | إرث قاس 2|
+| LEGACY_HARSH2 | إرث|
 | LEGACY_HARSH3 | إرث قاسية 3|
-| LEGACY_HARSH4 | إرث قاس 4|
+| LEGACY_HARSH4 | إرث قاسية 4|
 | LEGACY_NORMAL1 | تراث عادي 1|
 | LEGACY_NORMAL2 | تراث عادي 2|
 | LEGACY_NORMAL3 | تراث عادي 3|

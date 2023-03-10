@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,11 +24,11 @@ def add(self, cell_area, type, operator_type, formula1, formula2):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | cell_area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) |Koşullu biçimlendirilmiş hücre aralığı.|
-| type | [FormatConditionType](/cells/tr/python-net/aspose.cells/formatconditiontype) | Koşullu biçimlendirme türü FormatConditionType üyelerinden biri olabilir.|
-| operator_type | [OperatorType](/cells/tr/python-net/aspose.cells/operatortype) | Karşılaştırma operatörü OperatorType'ın üyelerinden biri olabilir.|
+| type | [FormatConditionType](/cells/tr/python-net/aspose.cells/formatconditiontype) | Koşullu biçimlendirme türü.FormatConditionType üyelerinden biri olabilir.|
+| operator_type | [OperatorType](/cells/tr/python-net/aspose.cells/operatortype) | Karşılaştırma operatörü.OperatorType üyelerinden biri olabilir.|
 | formula1 | str | Koşullu biçimlendirmeyle ilişkili değer veya ifade.|
 | formula2 | str | Koşullu biçimlendirmeyle ilişkili değer veya ifade|
 

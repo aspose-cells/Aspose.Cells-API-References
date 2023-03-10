@@ -1,4 +1,4 @@
-﻿---
+---
 title: date_time_value الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

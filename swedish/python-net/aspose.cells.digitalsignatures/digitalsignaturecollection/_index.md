@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignatureCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,13 +23,13 @@ Typen DigitalSignatureCollection avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [add(digital_signature)](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Lägg till en signatur till Digital Signature Collection.|
+| [add(digital_signature)](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Lägg till en signatur till DigitalSignatureCollection.|
 
 
 
 ###  Exempel
 
-Följande exempel visar hur man validerar digitala signaturer.
+Följande exempel visar hur man validerar digital signatur.
 
 ```python
 from aspose.cells import Workbook

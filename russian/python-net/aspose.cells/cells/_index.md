@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cells класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,25 +17,25 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [ods_cell_fields](/cells/ru/python-net/aspose.cells/cells/ods_cell_fields) | Получает список полей коэффициентов.|
+| [ods_cell_fields](/cells/ru/python-net/aspose.cells/cells/ods_cell_fields) | Получает список полей ods.|
 | [count](/cells/ru/python-net/aspose.cells/cells/count) | Получает общее количество созданных объектов Cell.|
 | [count_large](/cells/ru/python-net/aspose.cells/cells/count_large) | Получает общее количество созданных объектов Cell.|
 | [rows](/cells/ru/python-net/aspose.cells/cells/rows) | Получает коллекцию из [Row](/cells/ru/python-net/aspose.cells/row) объектов, представляющих отдельные строки на этом листе.|
 | [merged_cells](/cells/ru/python-net/aspose.cells/cells/merged_cells) | Получает коллекцию объединенных ячеек.|
 | [multi_thread_reading](/cells/ru/python-net/aspose.cells/cells/multi_thread_reading) | Получает или задает, должна ли модель данных ячеек поддерживать многопоточное чтение.<br/> Значение по умолчанию этого свойства — false.|
-| [memory_setting](/cells/ru/python-net/aspose.cells/cells/memory_setting) | Получает или задает параметр использования памяти для этой ячейки.|
+| [memory_setting](/cells/ru/python-net/aspose.cells/cells/memory_setting) | Получает или задает параметр использования памяти для этих ячеек.|
 | [style](/cells/ru/python-net/aspose.cells/cells/style) | Получает и задает стиль по умолчанию.|
 | [standard_width_inch](/cells/ru/python-net/aspose.cells/cells/standard_width_inch) |Получает или задает ширину столбца по умолчанию на листе в дюймах.|
 | [standard_width_pixels](/cells/ru/python-net/aspose.cells/cells/standard_width_pixels) | Получает или задает ширину столбца по умолчанию на листе в пикселях.|
-| [standard_width](/cells/ru/python-net/aspose.cells/cells/standard_width) | Получает или задает ширину столбца по умолчанию на листе в символьных единицах.|
+| [standard_width](/cells/ru/python-net/aspose.cells/cells/standard_width) | Получает или задает ширину столбца по умолчанию на листе в символах.|
 | [standard_height](/cells/ru/python-net/aspose.cells/cells/standard_height) | Получает или задает высоту строки по умолчанию на этом листе в пунктах.|
 | [standard_height_pixels](/cells/ru/python-net/aspose.cells/cells/standard_height_pixels) | Получает или задает высоту строки по умолчанию на этом листе в пикселях.|
 | [standard_height_inch](/cells/ru/python-net/aspose.cells/cells/standard_height_inch) | Получает или задает высоту строки по умолчанию на этом листе в дюймах.|
 | [preserve_string](/cells/ru/python-net/aspose.cells/cells/preserve_string) | Получает или задает значение, указывающее, сохраняются ли все значения рабочего листа в виде строк.<br/> Значение по умолчанию — ложь.|
 | [min_row](/cells/ru/python-net/aspose.cells/cells/min_row) | Минимальный индекс строки ячейки, содержащей данные или стиль.|
 | [max_row](/cells/ru/python-net/aspose.cells/cells/max_row) | Максимальный индекс строки ячейки, содержащей данные или стиль.|
-| [min_column](/cells/ru/python-net/aspose.cells/cells/min_column) | Минимальный индекс столбца тех ячеек, которые были созданы в коллекции (не включает столбец<br/> где стиль определен для всего столбца, но в нем не создана ни одна ячейка).|
-| [max_column](/cells/ru/python-net/aspose.cells/cells/max_column) | Минимальный индекс столбца тех ячеек, которые были созданы в коллекции (не включает столбец<br/> где стиль определен для всего столбца, но в нем не создана ни одна ячейка).|
+| [min_column](/cells/ru/python-net/aspose.cells/cells/min_column) | Минимальный индекс столбца для тех ячеек, которые были созданы в коллекции (не включает столбец<br/> где стиль определен для всего столбца, но в нем не создана ни одна ячейка).|
+| [max_column](/cells/ru/python-net/aspose.cells/cells/max_column) | Минимальный индекс столбца для тех ячеек, которые были созданы в коллекции (не включает столбец<br/> где стиль определен для всего столбца, но в нем не создана ни одна ячейка).|
 | [min_data_row](/cells/ru/python-net/aspose.cells/cells/min_data_row) | Минимальный индекс строки ячейки, содержащей данные.|
 | [max_data_row](/cells/ru/python-net/aspose.cells/cells/max_data_row) |Максимальный индекс строки ячейки, содержащей данные.|
 | [min_data_column](/cells/ru/python-net/aspose.cells/cells/min_data_column) | Минимальный индекс столбца ячейки, содержащей данные.|
@@ -70,7 +70,7 @@ is_root: false
 | [import_object_array(obj_array, first_row, first_column, is_vertical, skip)](/cells/ru/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool-int) | Импортирует массив данных на рабочий лист.|
 | [import_array(string_array, first_row, first_column, is_vertical)](/cells/ru/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Импортирует массив строк на рабочий лист.|
 | [import_array(int_array, first_row, first_column, is_vertical)](/cells/ru/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Импортирует массив целых чисел на лист.|
-| [import_array(double_array, first_row, first_column, is_vertical)](/cells/ru/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Импортирует массив двойников на лист.|
+| [import_array(double_array, first_row, first_column, is_vertical)](/cells/ru/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | Импортирует массив двойных значений на рабочий лист.|
 | [import_csv(file_name, splitter, convert_numeric_data, first_row, first_column)](/cells/ru/python-net/aspose.cells/cells/import_csv/#str-str-bool-int-int) | Импортируйте файл CSV в ячейки.|
 | [import_csv(stream, splitter, convert_numeric_data, first_row, first_column)](/cells/ru/python-net/aspose.cells/cells/import_csv/#io.RawIOBase-str-bool-int-int) | Импортируйте файл CSV в ячейки.|
 | [import_csv(file_name, options, first_row, first_column)](/cells/ru/python-net/aspose.cells/cells/import_csv/#str-TxtLoadOptions-int-int) | Импортируйте файл CSV в ячейки.|
@@ -84,10 +84,10 @@ is_root: false
 | [copy_rows(source_cells, source_row_index, destination_row_index, row_number)](/cells/ru/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int) | Копирует данные и форматы некоторых целых строк.|
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options)](/cells/ru/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions) | Копирует данные и форматы некоторых целых строк.|
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options, paste_options)](/cells/ru/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions-PasteOptions) | Копирует данные и форматы некоторых целых строк.|
-| [group_columns(first_index, last_index)](/cells/ru/python-net/aspose.cells/cells/group_columns/#int-int) | Групповые столбцы.|
-| [group_columns(first_index, last_index, is_hidden)](/cells/ru/python-net/aspose.cells/cells/group_columns/#int-int-bool) | Групповые столбцы.|
-| [ungroup_rows(first_index, last_index, is_all)](/cells/ru/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | Разгруппировать строки.|
-| [ungroup_rows(first_index, last_index)](/cells/ru/python-net/aspose.cells/cells/ungroup_rows/#int-int) | Разгруппировать строки.|
+| [group_columns(first_index, last_index)](/cells/ru/python-net/aspose.cells/cells/group_columns/#int-int) | Группирует столбцы.|
+| [group_columns(first_index, last_index, is_hidden)](/cells/ru/python-net/aspose.cells/cells/group_columns/#int-int-bool) | Группирует столбцы.|
+| [ungroup_rows(first_index, last_index, is_all)](/cells/ru/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | Разгруппирует строки.|
+| [ungroup_rows(first_index, last_index)](/cells/ru/python-net/aspose.cells/cells/ungroup_rows/#int-int) | Разгруппирует строки.|
 | [group_rows(first_index, last_index, is_hidden)](/cells/ru/python-net/aspose.cells/cells/group_rows/#int-int-bool) | Группирует строки.|
 | [group_rows(first_index, last_index)](/cells/ru/python-net/aspose.cells/cells/group_rows/#int-int) | Группирует строки.|
 | [delete_column(column_index, update_reference)](/cells/ru/python-net/aspose.cells/cells/delete_column/#int-bool) | Удаляет столбец.|
@@ -140,11 +140,11 @@ is_root: false
 | [import_data(table, first_row, first_column, options)](/cells/ru/python-net/aspose.cells/cells/import_data/#ICellsDataTable-int-int-ImportTableOptions) | Импорт данных из пользовательской таблицы данных.|
 | [import_array_list(array_list, first_row, first_column, is_vertical)](/cells/ru/python-net/aspose.cells/cells/import_array_list/#list-int-int-bool) | Импортирует массив данных на рабочий лист.|
 | [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/ru/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) | Импортирует массив формул на лист.|
-| [text_to_columns(row, column, total_rows, options)](/cells/ru/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | Разбивает текст в столбцах на столбцы.|
+| [text_to_columns(row, column, total_rows, options)](/cells/ru/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | Разбивает текст в столбце на столбцы.|
 | [un_merge(first_row, first_column, total_rows, total_columns)](/cells/ru/python-net/aspose.cells/cells/un_merge/#int-int-int-int) | Разъединяет указанный диапазон объединенных ячеек.|
 | [clear_merged_cells()](/cells/ru/python-net/aspose.cells/cells/clear_merged_cells/#) | Очищает все объединенные диапазоны.|
 | [hide_row(row)](/cells/ru/python-net/aspose.cells/cells/hide_row/#int) | Скрывает ряд.|
-| [unhide_row(row, height)](/cells/ru/python-net/aspose.cells/cells/unhide_row/#int-float) | Отобразить строку.|
+| [unhide_row(row, height)](/cells/ru/python-net/aspose.cells/cells/unhide_row/#int-float) | Отображает строку.|
 | [hide_rows(row, total_rows)](/cells/ru/python-net/aspose.cells/cells/hide_rows/#int-int) | Скрывает несколько строк.|
 | [unhide_rows(row, total_rows, height)](/cells/ru/python-net/aspose.cells/cells/unhide_rows/#int-int-float) | Отображает скрытые строки.|
 | [set_row_height_pixel(row, pixels)](/cells/ru/python-net/aspose.cells/cells/set_row_height_pixel/#int-int) | Задает высоту строки в пикселях.|
@@ -152,7 +152,7 @@ is_root: false
 | [set_row_height(row, height)](/cells/ru/python-net/aspose.cells/cells/set_row_height/#int-float) | Устанавливает высоту указанной строки.|
 | [get_row_original_height_point(row)](/cells/ru/python-net/aspose.cells/cells/get_row_original_height_point/#int) | Получает высоту исходной строки в пунктах, если строка скрыта|
 | [hide_column(column)](/cells/ru/python-net/aspose.cells/cells/hide_column/#int) | Скрывает столбец.|
-| [unhide_column(column, width)](/cells/ru/python-net/aspose.cells/cells/unhide_column/#int-float) | Показать столбец|
+| [unhide_column(column, width)](/cells/ru/python-net/aspose.cells/cells/unhide_column/#int-float) | Отображает столбец|
 | [hide_columns(column, total_columns)](/cells/ru/python-net/aspose.cells/cells/hide_columns/#int-int) | Скрыть несколько столбцов.|
 | [unhide_columns(column, total_columns, width)](/cells/ru/python-net/aspose.cells/cells/unhide_columns/#int-int-float) |Показать несколько столбцов.|
 | [get_row_height(row)](/cells/ru/python-net/aspose.cells/cells/get_row_height/#int) | Получает высоту указанной строки.|
@@ -166,8 +166,8 @@ is_root: false
 | [get_column_width_pixel(column)](/cells/ru/python-net/aspose.cells/cells/get_column_width_pixel/#int) | Получает ширину указанного столбца в обычном представлении в пикселях.|
 | [get_column_width_inch(column)](/cells/ru/python-net/aspose.cells/cells/get_column_width_inch/#int) | Получает ширину указанного столбца в обычном представлении в дюймах.|
 | [get_column_width(column)](/cells/ru/python-net/aspose.cells/cells/get_column_width/#int) | Получает ширину указанного столбца в обычном режиме|
-| [get_view_column_width_pixel(column)](/cells/ru/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | Получите ширину в разных типах представления.|
-| [set_view_column_width_pixel(column, pixels)](/cells/ru/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | Устанавливает ширину столбца в разных представлениях.|
+| [get_view_column_width_pixel(column)](/cells/ru/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | Получите ширину в другом типе представления.|
+| [set_view_column_width_pixel(column, pixels)](/cells/ru/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | Устанавливает ширину столбца в другом представлении.|
 | [get_last_data_row(column)](/cells/ru/python-net/aspose.cells/cells/get_last_data_row/#int) | Получает индекс последней строки ячейки, которая содержит данные в указанном столбце.|
 | [apply_column_style(column, style, flag)](/cells/ru/python-net/aspose.cells/cells/apply_column_style/#int-Style-StyleFlag) | Применяет форматы ко всему столбцу.|
 | [apply_row_style(row, style, flag)](/cells/ru/python-net/aspose.cells/cells/apply_row_style/#int-Style-StyleFlag) | Применяет форматы ко всей строке.|
@@ -184,7 +184,7 @@ is_root: false
 | [delete_columns(column_index, total_columns, update_reference)](/cells/ru/python-net/aspose.cells/cells/delete_columns/#int-int-bool) | Удаляет несколько столбцов.|
 | [is_deleting_range_enabled(start_row, start_column, total_rows, total_columns)](/cells/ru/python-net/aspose.cells/cells/is_deleting_range_enabled/#int-int-int-int) | Проверьте, можно ли удалить диапазон.|
 | [delete_row(row_index)](/cells/ru/python-net/aspose.cells/cells/delete_row/#int) | Удаляет строку.|
-| [is_blank_column(column_index)](/cells/ru/python-net/aspose.cells/cells/is_blank_column/#int) | Проверяет, является ли данный столбец пустым (не содержит данных).|
+| [is_blank_column(column_index)](/cells/ru/python-net/aspose.cells/cells/is_blank_column/#int) | Проверяет, является ли данный столбец пустым (не содержит никаких данных).|
 | [insert_row(row_index)](/cells/ru/python-net/aspose.cells/cells/insert_row/#int) | Вставляет новую строку в рабочий лист.|
 | [link_to_xml_map(map_name, row, column, path)](/cells/ru/python-net/aspose.cells/cells/link_to_xml_map/#str-int-int-str) | Ссылка на xml-карту.|
 | [find_formula(formula, previous_cell)](/cells/ru/python-net/aspose.cells/cells/find_formula/#str-Cell) | Находит ячейку с входной строкой.|
@@ -193,10 +193,10 @@ is_root: false
 | [insert_cut_cells(cut_range, row, column, shift_type)](/cells/ru/python-net/aspose.cells/cells/insert_cut_cells/#Range-int-int-ShiftType) | Вставьте диапазон обрезки.|
 | [delete_range(start_row, start_column, end_row, end_column, shift_type)](/cells/ru/python-net/aspose.cells/cells/delete_range/#int-int-int-int-ShiftType) | Удаляет диапазон ячеек и сдвигает ячейки в соответствии с параметром сдвига.|
 | [retrieve_subtotal_setting(ca)](/cells/ru/python-net/aspose.cells/cells/retrieve_subtotal_setting/#CellArea) | Извлекает настройку промежуточных итогов диапазона.|
-| [remove_formulas()](/cells/ru/python-net/aspose.cells/cells/remove_formulas/#) | Удаляет все формулы и заменяет значением формулы.|
-| [convert_string_to_numeric_value()](/cells/ru/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) |Преобразует строковые данные в ячейках в числовые значения, если это возможно.|
+| [remove_formulas()](/cells/ru/python-net/aspose.cells/cells/remove_formulas/#) | Удаляет всю формулу и заменяет значением формулы.|
+| [convert_string_to_numeric_value()](/cells/ru/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) |Преобразует строковые данные в ячейках в числовое значение, если это возможно.|
 | [get_dependents(is_all, row, column)](/cells/ru/python-net/aspose.cells/cells/get_dependents/#bool-int-int) | Получить все ячейки, которые ссылаются на конкретную ячейку.|
-| [get_dependents_in_calculation(row, column, recursive)](/cells/ru/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | Получает все ячейки, вычисленный результат которых зависит от определенных ячеек.|
+| [get_dependents_in_calculation(row, column, recursive)](/cells/ru/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | Получает все ячейки, вычисленный результат которых зависит от конкретной ячейки.|
 | [get_cell_style(row, column)](/cells/ru/python-net/aspose.cells/cells/get_cell_style/#int-int) | Получить стиль данной ячейки.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: parent mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent mülk
 
-Dilimleyiciyi içeren sayfayı temsil eden Worksheet nesnesini döndürür.
+Dilimleyiciyi içeren sayfayı temsil eden Worksheet nesnesini döndürür. Sadece oku.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: checked_value недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  checked_value недвижимость
 
-Получает или задает значение флажка.
+Получает или устанавливает значение флажка.
 ###  Определение:
 ```python
 @property

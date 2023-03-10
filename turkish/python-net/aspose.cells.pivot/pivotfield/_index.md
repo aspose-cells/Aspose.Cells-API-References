@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,16 +19,16 @@ PivotField türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [pivot_items](/cells/tr/python-net/aspose.cells.pivot/pivotfield/pivot_items) | Pivot alanının pivot öğelerini alır|
 | [range](/cells/tr/python-net/aspose.cells.pivot/pivotfield/range) | Pivot alanının grup aralığını alır|
-| [is_calculated_field](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_calculated_field) | Belirtilen PivotTable alanının hesaplanmış bir alan olup olmadığını gösterir.|
+| [is_calculated_field](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_calculated_field) | Belirtilen PivotTable alanının hesaplanan alan olup olmadığını gösterir.|
 | [base_index](/cells/tr/python-net/aspose.cells.pivot/pivotfield/base_index) | Temel PivotFields içindeki PivotField dizinini temsil eder.|
 | [position](/cells/tr/python-net/aspose.cells.pivot/pivotfield/position) | PivotFields içindeki PivotField dizinini temsil eder.|
 | [name](/cells/tr/python-net/aspose.cells.pivot/pivotfield/name) | PivotField adını temsil eder.|
 | [display_name](/cells/tr/python-net/aspose.cells.pivot/pivotfield/display_name) | PivotField görünen adını temsil eder.|
-| [is_auto_subtotals](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | Belirtilen alanın otomatik alt toplamları gösterip göstermediğini gösterir.Varsayılan değer doğrudur.|
+| [is_auto_subtotals](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | Belirtilen alanın otomatik alt toplamları gösterip göstermediğini gösterir. Varsayılan doğrudur.|
 | [drag_to_column](/cells/tr/python-net/aspose.cells.pivot/pivotfield/drag_to_column) | Belirtilen alanın sütun konumuna sürüklenip sürüklenemeyeceğini belirtir.<br/> Varsayılan değer doğrudur.|
 | [drag_to_hide](/cells/tr/python-net/aspose.cells.pivot/pivotfield/drag_to_hide) | Belirtilen alanın gizleme konumuna sürüklenip sürüklenemeyeceğini gösterir.<br/> Varsayılan değer doğrudur.|
-| [drag_to_row](/cells/tr/python-net/aspose.cells.pivot/pivotfield/drag_to_row) | Belirtilen alanın satır konumuna sürüklenip sürüklenemeyeceğini belirtir.<br/> Varsayılan değer doğrudur.|
-| [drag_to_page](/cells/tr/python-net/aspose.cells.pivot/pivotfield/drag_to_page) | Belirtilen alanın sayfa konumuna sürüklenip sürüklenemeyeceğini belirtir.<br/> Varsayılan değer doğrudur.|
+| [drag_to_row](/cells/tr/python-net/aspose.cells.pivot/pivotfield/drag_to_row) | Belirtilen alanın satır konumuna sürüklenip sürüklenemeyeceğini gösterir.<br/> Varsayılan değer doğrudur.|
+| [drag_to_page](/cells/tr/python-net/aspose.cells.pivot/pivotfield/drag_to_page) | Belirtilen alanın sayfa konumuna sürüklenip sürüklenemeyeceğini gösterir.<br/> Varsayılan değer doğrudur.|
 | [drag_to_data](/cells/tr/python-net/aspose.cells.pivot/pivotfield/drag_to_data) |Belirtilen alanın veri konumuna sürüklenip sürüklenemeyeceğini gösterir.<br/> Varsayılan değer doğrudur.|
 | [is_multiple_item_selection_allowed](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_multiple_item_selection_allowed) | alanın birden çok öğeye sahip olup olamayacağını gösterir<br/>sayfa alanında seçili<br/> Varsayılan değer yanlıştır.|
 | [is_repeat_item_labels](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_repeat_item_labels) | alanın öğe etiketlerini tekrar edip edemeyeceğini gösterir<br/> Varsayılan değer yanlıştır.|
@@ -39,12 +39,12 @@ PivotField türü aşağıdaki üyeleri gösterir:
 | [is_auto_sort](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_auto_sort) | Belirtilen PivotTable alanının otomatik olarak sıralanıp sıralanmadığını gösterir.|
 | [is_ascend_sort](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_ascend_sort) | Belirtilen PivotTable alanının otomatik olarak artan şekilde sıralanıp sıralanmadığını gösterir.|
 | [auto_sort_field](/cells/tr/python-net/aspose.cells.pivot/pivotfield/auto_sort_field) | Otomatik sıralama alan dizinini temsil eder.<br/> -1, PivotField'in kendisi, diğerleri ise veri alanlarının konumu anlamına gelir.|
-| [is_auto_show](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Belirtilen PivotTable alanının otomatik olarak gösterilip gösterilmediğini belirtir, yalnızca excel 2003 için geçerlidir.|
+| [is_auto_show](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Belirtilen PivotTable alanının otomatik olarak gösterilip gösterilmediğini gösterir, yalnızca excel 2003 için geçerlidir.|
 | [is_ascend_show](/cells/tr/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) | Belirtilen PivotTable alanının otomatik olarak artan şekilde gösterilip gösterilmediğini gösterir.|
 | [auto_show_count](/cells/tr/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |Üst veya alt öğelerin sayısını temsil edin<br/> belirtilen PivotTable alanında otomatik olarak gösterilir.|
-| [auto_show_field](/cells/tr/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Otomatik alan indeksini göstermeyi temsil eder. -1, PivotField'ın kendisi anlamına gelir.<br/> Veri alanlarının dizini olmalıdır.|
+| [auto_show_field](/cells/tr/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Otomatik alan indeksini göstermeyi temsil eder. -1, PivotField'in kendisi anlamına gelir.<br/> Veri alanlarının dizini olmalıdır.|
 | [function](/cells/tr/python-net/aspose.cells.pivot/pivotfield/function) | PivotTable veri alanını özetlemek için kullanılan işlevi temsil eder.|
-| [data_display_format](/cells/tr/python-net/aspose.cells.pivot/pivotfield/data_display_format) | Bir veri alanında yer alan değerlerin nasıl görüntüleneceğini temsil eder.|
+| [data_display_format](/cells/tr/python-net/aspose.cells.pivot/pivotfield/data_display_format) | Bir veri alanında bulunan değerlerin nasıl görüntüleneceğini temsil eder.|
 | [base_field_index](/cells/tr/python-net/aspose.cells.pivot/pivotfield/base_field_index) | Özel bir hesaplama için temel alanı temsil eder.|
 | [base_item_position](/cells/tr/python-net/aspose.cells.pivot/pivotfield/base_item_position) | Özel bir hesaplama için temel alandaki öğeyi temsil eder.<br/> Yalnızca veri alanları için geçerlidir.<br/>PivotItemPosition.Custom yalnızca okuma amaçlı olduğundan, PivotItemPosition.Custom'u ayarlamanız gerekirse,<br/> lütfen PivotField.BaseItemIndex niteliğini ayarlayın.|
 | [base_item_index](/cells/tr/python-net/aspose.cells.pivot/pivotfield/base_item_index) | Özel bir hesaplama için temel alandaki öğeyi temsil eder.<br/> Yalnızca veri alanları için geçerlidir.|
@@ -79,7 +79,7 @@ PivotField türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

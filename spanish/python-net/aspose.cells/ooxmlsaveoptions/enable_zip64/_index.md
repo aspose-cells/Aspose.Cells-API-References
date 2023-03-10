@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_zip64 propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

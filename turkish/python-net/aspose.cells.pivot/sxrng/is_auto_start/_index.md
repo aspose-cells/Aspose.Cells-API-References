@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_start mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

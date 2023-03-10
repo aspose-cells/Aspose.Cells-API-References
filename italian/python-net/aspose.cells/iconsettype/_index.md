@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -36,13 +36,13 @@ Il tipo IconSetType espone i membri seguenti:
 | ARROWS_GRAY5 | Insieme dell'icona di 5 frecce grigie.|
 | QUARTERS5 | set di icone di 5 quarti.|
 | RATING5 | 5 set di icone di valutazione.|
-| STARS3 | Set 3 stelle|
+| STARS3 | 3 stelle impostate|
 | BOXES5 | Set di 5 scatole|
 | TRIANGLES3 | Set di 3 triangoli|
 | NONE | Nessuno|
 | CUSTOM_SET | CustomSet.<br/> Questo elemento è di sola lettura.|
-| SMILIES3 | 3 sorrisi.<br/> Solo per .ods.|
-| COLOR_SMILIES3 | 3 sorrisi colorati.<br/> Solo per .ods.|
+| SMILIES3 | 3 faccine.<br/> Solo per .ods.|
+| COLOR_SMILIES3 | 3 faccine colorate.<br/> Solo per .ods.|
 
 
 

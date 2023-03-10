@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_embedded_object méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,13 +18,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| link_to_file | bool | Indique si l'objet est lié au fichier. Si true, le paramètre objectData est ignoré.|
+| link_to_file | bool | Indique si l'objet est lié au fichier. Si vrai, le paramètre objectData est ignoré.|
 | object_data | bytes | Les données d'objet incorporées.|
 | source_file_name | str | Le nom du fichier.|
 | display_as_icon | bool | Indique si l'objet est affiché sous forme d'icône.<br/> Si vrai, les données d'image d'origine seront couvertes par l'icône.|
-| label | str | Libellé de l'icône. Ne fonctionne que lorsque displayAsIcon a la valeur true.|
+| label | str | L'étiquette de l'icône. Ne fonctionne que lorsque displayAsIcon a la valeur true.|
 
 
 ##  set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label, update_icon) {#bool-bytes-str-bool-str-bool}
@@ -38,13 +38,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| link_to_file | bool | Indique si l'objet est lié au fichier. Si true, le paramètre objectData est ignoré.|
+| link_to_file | bool | Indique si l'objet est lié au fichier. Si vrai, le paramètre objectData est ignoré.|
 | object_data | bytes | Les données d'objet incorporées.|
 | source_file_name | str | Le nom du fichier.|
 | display_as_icon | bool | Indique si l'objet est affiché sous forme d'icône.<br/> Si vrai, les données d'image d'origine seront couvertes par l'icône.|
-| label | str | Libellé de l'icône. Ne fonctionne que lorsque displayAsIcon a la valeur true.|
+| label | str | L'étiquette de l'icône. Ne fonctionne que lorsque displayAsIcon a la valeur true.|
 | update_icon | bool | Indique si l'icône de mise à jour automatique.|
 ###  Remarques
 

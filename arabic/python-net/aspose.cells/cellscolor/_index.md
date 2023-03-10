@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsColor الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,8 +19,8 @@ is_root: false
 | :- | :- |
 | [is_shape_color](/cells/ar/python-net/aspose.cells/cellscolor/is_shape_color) | الحصول على اللون الذي يجب تطبيقه على الخلية أو الشكل وتعيينه.|
 | [type](/cells/ar/python-net/aspose.cells/cellscolor/type) | نوع اللون.|
-| [theme_color](/cells/ar/python-net/aspose.cells/cellscolor/theme_color) | يحصل على لون المظهر.|
-| [color_index](/cells/ar/python-net/aspose.cells/cellscolor/color_index) | الحصول على فهرس اللون وتعيينه في لوحة الألوان.|
+| [theme_color](/cells/ar/python-net/aspose.cells/cellscolor/theme_color) | يحصل على لون المظهر. ينطبق فقط على نوع لون المظهر.|
+| [color_index](/cells/ar/python-net/aspose.cells/cellscolor/color_index) | الحصول على فهرس اللون وتعيينه في لوحة الألوان. ينطبق فقط على اللون المفهرس.|
 | [color](/cells/ar/python-net/aspose.cells/cellscolor/color) | يحصل ويضبط لون RGB.|
 | [argb](/cells/ar/python-net/aspose.cells/cellscolor/argb) | الحصول على اللون وتعيينه من قيمة ARGB 32 بت.|
 | [transparency](/cells/ar/python-net/aspose.cells/cellscolor/transparency) | الحصول على الشفافية وتعيينها كقيمة من 0.0 (معتم) إلى 1.0 (واضح).|

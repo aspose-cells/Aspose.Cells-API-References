@@ -1,4 +1,4 @@
-﻿---
+---
 title: name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyici önbelleğinin name'ini döndürür.
 
-###  örnekler
+###  Örnek
 
 ```python
 

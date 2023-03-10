@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineFormat Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing/lineformat/
 is_root: false
 ---
 ##  LineFormat Klasse
-Repräsentiert alle Einstellungen der Linie.
+Stellt alle Einstellungen der Linie dar.
 
 
 
@@ -65,7 +65,7 @@ Der Typ LineFormat macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_embedded_object
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,13 +18,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| link_to_file | bool | Indica se l'oggetto si collega al file.Se vero, il parametro objectData viene ignorato.|
+| link_to_file | bool | Indica se l'oggetto si collega al file. Se true, il parametro objectData viene ignorato.|
 | object_data | bytes | I dati dell'oggetto incorporato.|
 | source_file_name | str | Il nome del file.|
 | display_as_icon | bool | Indica se visualizzare l'oggetto come icona.<br/> Se vero, i dati dell'immagine originale saranno coperti dall'icona.|
-| label | str | L'etichetta dell'icona Funziona solo quando displayAsIcon è true.|
+| label | str | L'etichetta dell'icona. Funziona solo quando displayAsIcon è vero.|
 
 
 ##  set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label, update_icon) {#bool-bytes-str-bool-str-bool}
@@ -38,13 +38,13 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| link_to_file | bool | Indica se l'oggetto si collega al file.Se vero, il parametro objectData viene ignorato.|
+| link_to_file | bool | Indica se l'oggetto si collega al file. Se true, il parametro objectData viene ignorato.|
 | object_data | bytes | I dati dell'oggetto incorporato.|
 | source_file_name | str | Il nome del file.|
 | display_as_icon | bool | Indica se visualizzare l'oggetto come icona.<br/> Se vero, i dati dell'immagine originale saranno coperti dall'icona.|
-| label | str | L'etichetta dell'icona Funziona solo quando displayAsIcon è true.|
+| label | str | L'etichetta dell'icona. Funziona solo quando displayAsIcon è vero.|
 | update_icon | bool | Indica se aggiornare automaticamente l'icona.|
 ###  Osservazioni
 

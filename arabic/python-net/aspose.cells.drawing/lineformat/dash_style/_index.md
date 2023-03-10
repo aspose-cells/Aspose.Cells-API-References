@@ -1,4 +1,4 @@
-﻿---
+---
 title: dash_style الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحدد نوع شرطة الخط.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import MsoLineDashStyle

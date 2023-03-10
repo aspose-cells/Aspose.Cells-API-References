@@ -1,4 +1,4 @@
-﻿---
+---
 title: graphic_position_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  graphic_position_type недвижимость
 
-Получает и задает положение фоновой графики.
+Получает и устанавливает положение фоновой графики.
 ###  Определение:
 ```python
 @property

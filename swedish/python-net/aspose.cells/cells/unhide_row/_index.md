@@ -1,4 +1,4 @@
-﻿---
+---
 title: unhide_row metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/unhide_row/
 is_root: false
 ---
 ##  unhide_row(row, height) {#int-float}
-Visa en rad.
+Visar en rad.
 
 
 
@@ -18,10 +18,10 @@ def unhide_row(self, row, height):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | int | Radindex.|
-| height | float | Radhöjd Radens höjd ändras endast när raden är dold och givet höjdvärde är positivt.|
+| height | float | Radhöjd. Radens höjd ändras endast när raden är dold och det angivna höjdvärdet är positivt.|
 
 
 

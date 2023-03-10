@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_standard_header_footer_font_style_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_standard_header_footer_font_style_name(self, localfont_style_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | localfont_style_name | str | Имя стиля шрифта локали для верхнего/нижнего колонтитула.|
 

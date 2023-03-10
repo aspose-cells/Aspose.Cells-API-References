@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_cell
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,9 +18,9 @@ def start_cell(self, cell):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| cell | [Cell](/cells/it/python-net/aspose.cells/cell) | Cell per l'implementazione per riempire i dati. Il suo indice di colonna è il valore restituito dell'ultima chiamata di [LightCellsDataProvider.next_cell()](/cells/it/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Se la cella è stata inizializzata nel modello di celle interne, verrà utilizzato l'oggetto cella esistente.<br/> In caso contrario, verrà utilizzato un oggetto temporaneo Cell per l'implementazione per riempire i dati.|
+| cell | [Cell](/cells/it/python-net/aspose.cells/cell) | Cell oggetto da implementare per riempire i dati. Il suo indice di colonna è il valore restituito dell'ultima chiamata di [LightCellsDataProvider.next_cell()](/cells/it/python-net/aspose.cells/lightcellsdataprovider/next_cell).<br/>Se la cella è stata inizializzata nel modello delle celle interne, verrà utilizzato l'oggetto cella esistente.<br/> In caso contrario, verrà utilizzato un oggetto temporaneo Cell per l'implementazione per riempire i dati.|
 ###  Osservazioni
 
 

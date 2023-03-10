@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_or_null Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

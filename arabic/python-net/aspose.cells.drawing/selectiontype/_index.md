@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد SelectionType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  مجالات
 | مجال| وصف|
 | :- | :- |
-| SINGLE | نوع الاختيار الفردي.|
+| SINGLE | نوع الاختيار Sigle.|
 | MULTI |نوع الاختيار المتعدد.|
 | EXTEND | توسيع نوع التحديد.|
 

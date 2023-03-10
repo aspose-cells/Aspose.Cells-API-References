@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,8 +23,8 @@ Typen ImageSaveOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [ImageSaveOptions()](/cells/sv/python-net/aspose.cells/imagesaveoptions/__init__/#) | Skapar alternativen för att spara bildfiler.|
-| [ImageSaveOptions(save_format)](/cells/sv/python-net/aspose.cells/imagesaveoptions/__init__/#SaveFormat) | Skapar alternativen för att spara bildfiler.|
+| [ImageSaveOptions()](/cells/sv/python-net/aspose.cells/imagesaveoptions/__init__/#) | Skapar alternativen för att spara bildfil.|
+| [ImageSaveOptions(save_format)](/cells/sv/python-net/aspose.cells/imagesaveoptions/__init__/#SaveFormat) | Skapar alternativen för att spara bildfil.|
 
 
 ###  Egenskaper
@@ -39,8 +39,8 @@ Typen ImageSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells/imagesaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells/imagesaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells/imagesaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells/imagesaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells/imagesaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells/imagesaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells/imagesaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [image_or_print_options](/cells/sv/python-net/aspose.cells/imagesaveoptions/image_or_print_options) | Ytterligare bildskapande alternativ|
 | [stream_provider](/cells/sv/python-net/aspose.cells/imagesaveoptions/stream_provider) | Hämtar eller ställer in IStreamProvider för export av objekt.|
 

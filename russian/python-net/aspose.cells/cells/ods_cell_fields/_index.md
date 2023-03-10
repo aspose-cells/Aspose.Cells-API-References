@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields недвижимость
 
-Получает список полей коэффициентов.
+Получает список полей ods.
 ###  Определение:
 ```python
 @property

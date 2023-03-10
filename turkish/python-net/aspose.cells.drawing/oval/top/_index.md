@@ -1,4 +1,4 @@
-﻿---
+---
 title: top mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Şekil grafikteyse, şeklin top kenarlığından dikey uzaklığını temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

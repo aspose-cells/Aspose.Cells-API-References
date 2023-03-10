@@ -1,4 +1,4 @@
-﻿---
+---
 title: built_in_document_properties fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Returnerar en [DocumentProperty](/cells/sv/python-net/aspose.cells.properties/do
 
 ###  Anmärkningar
 
-En ny egenskap kan inte läggas till i listan med inbyggda dokumentegenskaper.
+En ny egenskap kan inte läggas till i listan med inbyggda dokumentegenskaper. Du kan bara få en inbyggd fastighet och ändra dess värde.
 Följande är den inbyggda egenskapsnamnlistan:
 
 Titel
@@ -22,7 +22,7 @@ Titel
 Ämne
 
 
-författare
+Författare
 
 
 Nyckelord
@@ -73,7 +73,7 @@ Kategori
 Formatera
 
 
-chef
+Chef
 
 
 Företag

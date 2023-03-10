@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemoryFontSource yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/memoryfontsource/__init__/
 is_root: false
 ---
 ##  MemoryFontSource(font_data) {#bytes}
-Müdür.
+Ctor.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, font_data):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | font_data | bytes | İkili yazı tipi verileri.|
 

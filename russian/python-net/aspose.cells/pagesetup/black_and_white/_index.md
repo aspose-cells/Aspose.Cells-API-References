@@ -1,4 +1,4 @@
-﻿---
+---
 title: black_and_white недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة move_to
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def move_to(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس ورقة الوجهة.|
 

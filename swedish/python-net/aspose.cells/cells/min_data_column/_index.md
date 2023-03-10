@@ -1,4 +1,4 @@
-﻿---
+---
 title: min_data_column fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_printable mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Dilimleyici nesnesinin yazdırılabilir olup olmadığını gösterir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: move_to yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def move_to(self, dest_row, dest_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | dest_row | int | Hedef aralığın başlangıç satırı.|
 | dest_column | int | Hedef aralığın başlangıç sütunu.|

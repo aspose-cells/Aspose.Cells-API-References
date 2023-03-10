@@ -1,4 +1,4 @@
-﻿---
+---
 title: Validation الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -32,7 +32,7 @@ is_root: false
 | [value1](/cells/ar/python-net/aspose.cells/validation/value1) | يمثل القيمة الأولى المرتبطة بالتحقق من صحة البيانات.|
 | [value2](/cells/ar/python-net/aspose.cells/validation/value2) | يمثل القيمة الثانية المرتبطة بالتحقق من صحة البيانات.|
 | [in_cell_drop_down](/cells/ar/python-net/aspose.cells/validation/in_cell_drop_down) | يشير إلى ما إذا كان التحقق من صحة البيانات يعرض قائمة منسدلة تحتوي على قيم مقبولة.|
-| [areas](/cells/ar/python-net/aspose.cells/validation/areas) | يحصل على جميع [CellArea](/cells/ar/python-net/aspose.cells/cellarea) الذي يحتوي على إعدادات التحقق من صحة البيانات.|
+| [areas](/cells/ar/python-net/aspose.cells/validation/areas) | يحصل على جميع [CellArea](/cells/ar/python-net/aspose.cells/cellarea) التي تحتوي على إعدادات التحقق من صحة البيانات.|
 
 
 ###  طُرق
@@ -55,7 +55,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

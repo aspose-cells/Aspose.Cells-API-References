@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/ru/python-net/aspose.cells/conditionalformattingicon) | Возвращает индекс нового объекта в списке.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [IconSetType](/cells/ru/python-net/aspose.cells/iconsettype) | Тип значения.|
 | index | int | Индекс.|

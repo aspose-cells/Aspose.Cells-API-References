@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, row):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Cell índice de fila, basado en cero.|
 ###  Observaciones
@@ -45,7 +45,7 @@ def add(self, cell_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | Cell nombre.|
 ###  Observaciones
@@ -68,7 +68,7 @@ def add(self, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Cell índice de fila, basado en cero.|
 | column | int | Cell índice de columna, basado en cero.|
@@ -92,7 +92,7 @@ def add(self, row, start_column, end_column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila, basado en cero.|
 | start_column | int | Índice de columna de inicio, basado en cero.|

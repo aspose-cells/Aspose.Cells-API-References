@@ -1,6 +1,6 @@
-﻿---
+---
 title: Workbook 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -20,7 +20,7 @@ def __init__(self):
 
 ### 评论
 
-默认文件格式类型为 Xlsx。要创建其他格式文件类型，请使用 Workbook(FileFormatType)。
+默认文件格式类型是 Xlsx。要创建其他格式文件类型，请使用 Workbook(FileFormatType)。
 ### 例子
 
 
@@ -45,7 +45,7 @@ def __init__(self, file_format_type):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/zh/python-net/aspose.cells/fileformattype) |新的文件格式。|
 ### 评论
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file | str |文件名。|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |流。|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file | str |文件名。|
 | load_options | [LoadOptions](/cells/zh/python-net/aspose.cells/loadoptions) |加载选项|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |流。|
 | load_options | [LoadOptions](/cells/zh/python-net/aspose.cells/loadoptions) |加载选项|

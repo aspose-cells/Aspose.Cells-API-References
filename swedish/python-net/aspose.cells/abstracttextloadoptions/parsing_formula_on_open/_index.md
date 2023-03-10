@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_formula_on_open fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Anger om formeln analyseras när filen läses.
 
 ###  Anmärkningar
 
-Gäller endast Excel Xlsx-, Xltx-, Xltm- och Xlsm-filer
+Gäller endast för Excel Xlsx-, Xltx-, Xltm- och Xlsm-filer
 eftersom formlerna i filerna lagras med en strängformel.
 ###  Definition:
 ```python

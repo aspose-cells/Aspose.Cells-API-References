@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingIconCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -36,7 +36,7 @@ Der Typ ConditionalFormattingIconCollection macht die folgenden Member verfügba
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

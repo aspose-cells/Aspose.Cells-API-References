@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propiedad
 
-Obtiene el name del elemento.
+Obtiene el name del artículo.
 ###  Definición:
 ```python
 @property

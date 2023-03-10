@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_pt الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_pt الملكية
 
-إرجاع الهامش الأعلى بوحدات من النقاط
+إرجاع الهامش العلوي بوحدة النقاط
 ###  تعريف:
 ```python
 @property

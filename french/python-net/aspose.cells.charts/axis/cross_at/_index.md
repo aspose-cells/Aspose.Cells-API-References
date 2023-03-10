@@ -1,4 +1,4 @@
-﻿---
+---
 title: cross_at propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Représente le point sur l'axe des ordonnées où l'axe des abscisses le croise.
 
 ###  Remarques
 
-Le nombre doit être un nombre entier lorsqu'il s'applique à l'axe des abscisses.
+Le nombre doit être un nombre entier lorsqu'il s'applique à l'axe des catégories.
 Et la valeur doit être comprise entre 1 et 31999.
 ###  Définition:
 ```python

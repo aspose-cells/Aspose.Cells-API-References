@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_combo_box
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_combo_box(self, upper_left_row, top, upper_left_column, left, height, wi
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ ComboBox من صفه الأيسر بوحدة البكسل.|
@@ -31,7 +31,7 @@ def add_combo_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | height | int | يمثل ارتفاع ComboBox بوحدة البكسل.|
 | width | int | يمثل عرض ComboBox بوحدة البكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

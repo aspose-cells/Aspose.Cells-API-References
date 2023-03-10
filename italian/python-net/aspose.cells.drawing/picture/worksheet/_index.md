@@ -1,4 +1,4 @@
-﻿---
+---
 title: worksheet proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene l'oggetto [Shape.worksheet](/cells/it/python-net/aspose.cells.drawing/shape#worksheet) che contiene questa forma.
 
-###  Esempi
+###  Esempio
 
 ```python
 

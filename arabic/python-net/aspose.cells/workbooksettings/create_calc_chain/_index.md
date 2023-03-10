@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_calc_chain الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  create_calc_chain الملكية
 
-سواء تم إنشاء سلسلة معادلات محسوبة أم لا. الافتراضي هو خطأ.
+ما إذا كان يتم إنشاء سلسلة الصيغ المحسوبة. الافتراضي هو خطأ.
 
 ###  ملاحظات
 
-ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام FormulaSettings.EnableCalculationChain.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من ذلك ، يرجى استخدام FormulaSettings.EnableCalculationChain.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ فبراير 2022.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 ###  تعريف:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_flipped_horizontally الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على وتحديد ما إذا كان الشكل مقلوبًا أفقيًا.
 
-###  أمثلة
+###  مثال
 
 ```python
 

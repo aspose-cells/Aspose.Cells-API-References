@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة unprotect
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def unprotect(self, password):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | password | str | كلمة مرور لإلغاء حماية المصنف.|
 

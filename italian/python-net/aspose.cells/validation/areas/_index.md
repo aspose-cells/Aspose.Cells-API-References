@@ -1,4 +1,4 @@
-﻿---
+---
 title: areas proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  areas proprietà
 
-Ottiene tutto [CellArea](/cells/it/python-net/aspose.cells/cellarea) che contiene le impostazioni di convalida dei dati.
+Ottiene tutti gli [CellArea](/cells/it/python-net/aspose.cells/cellarea) che contengono le impostazioni di convalida dei dati.
 ###  Definizione:
 ```python
 @property

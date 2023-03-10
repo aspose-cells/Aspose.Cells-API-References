@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_precedents_in_calculation yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Hesaplarken bu hücrenin formülü tarafından kullanılan tüm emsalleri (mevcu
 
 ###  İadeler
 
-Tüm referansları numaralandırmak için Numaralandırıcı (Yönlendirilen Alan)
+Tüm referansları numaralandırmak için numaralandırıcı(ReferredArea)
 
 
 ```python
@@ -27,7 +27,7 @@ def get_precedents_in_calculation(self):
 Bu yöntem yalnızca [FormulaSettings.enable_calculation_chain](/cells/tr/python-net/aspose.cells/formulasettings#enable_calculation_chain)'in geçerli olduğu durumla çalışabilir.
 çalışma kitabı için doğrudur ve çalışma kitabı tam olarak hesaplanmıştır.
 Bu hücre bir formül değilse veya başka hücrelere referans vermiyorsa, null döndürülür.
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: current_page_item proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

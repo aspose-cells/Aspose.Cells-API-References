@@ -1,4 +1,4 @@
-﻿---
+---
 title: process yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def process(self, sheet_index, row_index, col_index, table_name, column_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index | int | Sayfa dizini.|
 | row_index | int | Satır dizini.|

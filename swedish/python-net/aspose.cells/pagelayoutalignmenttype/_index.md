@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageLayoutAlignmentType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen PageLayoutAlignmentType avslöjar följande medlemmar:
 | :- | :- |
 | BOTTOM | Representerar justering av nedre sidlayout.|
 | CENTER | Representerar justering av mittsideslayout.|
-| LEFT |Representerar justering av vänster sidlayout.|
+| LEFT |Representerar vänster sidlayoutjustering.|
 | RIGHT | Representerar höger sidlayoutjustering.|
 | TOP | Representerar justering av den övre sidans layout.|
 

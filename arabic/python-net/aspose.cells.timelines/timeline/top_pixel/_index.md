@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_pixel الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,6 +1,6 @@
-﻿---
+---
 title: TextBoxActiveXControl类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 120
@@ -47,7 +47,7 @@ TextBoxActiveXControl 类型公开了以下成员：
 | [border_ole_color](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_ole_color) |获取和设置背景的 ole 颜色。|
 | [special_effect](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/special_effect) |获取和设置控件的特殊效果。|
 | [max_length](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/max_length) |获取和设置最大字符数|
-| [scroll_bars](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |指示控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。|
+| [scroll_bars](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |指示指定控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。|
 | [password_char](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/password_char) |获取和设置要显示的字符以代替输入的字符。|
 | [is_editable](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_editable) |指示用户是否可以在控件中键入内容。|
 | [integral_height](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/integral_height) |指示控件是否只显示完整的文本行而不显示任何部分行。|

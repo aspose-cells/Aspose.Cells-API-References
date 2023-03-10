@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | file_name | str | اسم الملف الخارجي.|
 | sheet_names | list | جميع أسماء أوراق الملف الخارجي.|
@@ -43,7 +43,7 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | directory_type | [DirectoryType](/cells/ar/python-net/aspose.cells/directorytype) |نوع الدليل لاسم الملف.|
 | file_name | str | اسم الملف.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_shared_formula mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_shared_formula mülk
 
-Hücre formülünün paylaşılan bir formülün parçası olup olmadığını gösterir.
+Hücre formülünün paylaşılan formülün parçası olup olmadığını gösterir.
 ###  Tanım:
 ```python
 @property

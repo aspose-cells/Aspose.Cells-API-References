@@ -1,4 +1,4 @@
-﻿---
+---
 title: list propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  list propriété
 
-Renvoie si le segment est associé au cache de segment spécifié est basé sur une source de données non OLAP.
+Renvoie si le segment associé au cache de segment spécifié est basé sur une source de données non OLAP. Lecture seulement
 
-###  Exemples
+###  Exemple
 
 ```python
 

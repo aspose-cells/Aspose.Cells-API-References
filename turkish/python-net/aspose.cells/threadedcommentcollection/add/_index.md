@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | text | str | Zincirleme yorumun metni.|
 | author | [ThreadedCommentAuthor](/cells/tr/python-net/aspose.cells/threadedcommentauthor) | Zincirleme yorumun yazarı|

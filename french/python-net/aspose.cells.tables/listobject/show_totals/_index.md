@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_totals propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals propriété
 
-Obtient et définit si ce ListObject affiche le nombre total de lignes.
+Obtient et définit si ce ListObject affiche la ligne totale.
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_spinner Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 | height | int | Repräsentiert die Höhe von Spinner in Pixeleinheiten.|
 | width | int | Repräsentiert die Breite von Spinner in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

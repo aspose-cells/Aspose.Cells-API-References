@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_in_shape propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Representa el desplazamiento vertical de la forma desde el borde superior de la 
 
 Solo se aplica cuando esta forma está en el grupo o gráfico.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

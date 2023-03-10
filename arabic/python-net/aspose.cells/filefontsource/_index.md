@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFontSource الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [FileFontSource(file_path)](/cells/ar/python-net/aspose.cells/filefontsource/__init__/#str) | مخرج.|
+| [FileFontSource(file_path)](/cells/ar/python-net/aspose.cells/filefontsource/__init__/#str) | Ctor.|
 
 
 ###  ملكيات

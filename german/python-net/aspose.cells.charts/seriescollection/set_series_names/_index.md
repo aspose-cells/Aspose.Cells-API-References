@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_series_names Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -22,7 +22,7 @@ def set_series_names(self, start_index, area, is_vertical):
 | :- | :- | :- |
 | start_index | int | Der Index der ersten Reihe, der Sie den Namen geben möchten.|
 | area | str | Gibt den Bereich für den Seriennamen an.|
-| is_vertical | bool | >Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilenweise oder spaltenweise dargestellt werden soll.|
+| is_vertical | bool | >Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
 ###  Bemerkungen
 
 

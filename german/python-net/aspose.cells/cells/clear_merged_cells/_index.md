@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_merged_cells Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

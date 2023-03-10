@@ -1,4 +1,4 @@
-﻿---
+---
 title: register_add_in_function yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def register_add_in_function(self, id, function_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | id | int | Eklenti işlevleri içeren verilerin kimliği,<br/> aynı eklenti dosyası için [WorksheetCollection.register_add_in_function(add_in_file, function_name, lib)](/cells/tr/python-net/aspose.cells/worksheetcollection/register_add_in_function)'in ilk araması ile alınabilir.|
 | function_name | str | eklenti işlevi adı|
@@ -34,7 +34,7 @@ def register_add_in_function(self, id, function_name):
 
 ###  İadeler
 
-Belirli bir eklenti işlevini içeren verilerin kimliği
+Verilen eklenti işlevini içeren verilerin kimliği
 
 
 ```python
@@ -43,7 +43,7 @@ def register_add_in_function(self, add_in_file, function_name, lib):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | add_in_file | str | dosya eklenti işlevlerini içerir|
 | function_name | str | eklenti işlevi adı|

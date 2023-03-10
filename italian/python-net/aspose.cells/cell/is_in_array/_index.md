@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_in_array proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se la formula della cella è una formula di matrice.
 
 ###  Osservazioni
 
- NOTA: questa classe è ora obsoleta.
+ NOTA: questa classe è ora obsoleta. Invece,
 utilizzare Cell.IsArrayFormula per verificare se la formula della cella è una formula di matrice.
 Questa proprietà verrà rimossa 12 mesi dopo da maggio 2018.
 Aspose si scusa per gli eventuali disagi causati.

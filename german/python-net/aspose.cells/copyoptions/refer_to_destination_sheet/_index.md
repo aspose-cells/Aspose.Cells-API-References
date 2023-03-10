@@ -1,4 +1,4 @@
-﻿---
+---
 title: refer_to_destination_sheet Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

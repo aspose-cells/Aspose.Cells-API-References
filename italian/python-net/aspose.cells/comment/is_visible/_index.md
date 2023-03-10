@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_visible proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indica se il commento è visibile o meno.
 
-###  Esempi
+###  Esempio
 
 ```python
 

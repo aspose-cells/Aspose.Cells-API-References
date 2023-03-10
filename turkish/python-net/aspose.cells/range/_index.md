@@ -1,4 +1,4 @@
-﻿---
+---
 title: Range sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -42,8 +42,8 @@ Range türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [auto_fill(target)](/cells/tr/python-net/aspose.cells/range/auto_fill/#Range) | Otomatik tümü hedef aralığı doldurur.|
-| [auto_fill(target, auto_fill_type)](/cells/tr/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Otomatik tümü hedef aralığı doldurur.|
+| [auto_fill(target)](/cells/tr/python-net/aspose.cells/range/auto_fill/#Range) | Hedef aralığı otomatik olarak doldurun.|
+| [auto_fill(target, auto_fill_type)](/cells/tr/python-net/aspose.cells/range/auto_fill/#Range-AutoFillType) | Hedef aralığı otomatik olarak doldurun.|
 | [set_style(style, explicit_flag)](/cells/tr/python-net/aspose.cells/range/set_style/#Style-bool) | Hücre stilini uygulayın.|
 | [set_style(style)](/cells/tr/python-net/aspose.cells/range/set_style/#Style) | Aralığın stilini ayarlar.|
 | [set_outline_borders(border_style, border_color)](/cells/tr/python-net/aspose.cells/range/set_outline_borders/#CellBorderType-CellsColor) | Ana hat kenarlıklarını, aynı kenarlık stili ve rengine sahip bir hücre aralığının çevresine ayarlar.|
@@ -71,7 +71,7 @@ Range türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

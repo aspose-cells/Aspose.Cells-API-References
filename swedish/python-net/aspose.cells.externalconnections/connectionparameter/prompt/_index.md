@@ -1,4 +1,4 @@
-﻿---
+---
 title: prompt fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  prompt fastighet
 
- Frågasträng för parametern. Presenteras för kalkylarksanvändaren tillsammans med inmatningsgränssnittet
- för att samla in parametervärdet innan extern data uppdateras.
+ Fråga sträng för parametern. Presenteras för kalkylarksanvändaren tillsammans med inmatningsgränssnittet
+ för att samla in parametervärdet innan extern data uppdateras. Används endast när
 parameterType = prompt.
 ###  Definition:
 ```python

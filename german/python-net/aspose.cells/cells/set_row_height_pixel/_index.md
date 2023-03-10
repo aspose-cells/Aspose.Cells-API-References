@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height_pixel Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

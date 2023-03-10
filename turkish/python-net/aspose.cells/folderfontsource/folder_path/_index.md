@@ -1,4 +1,4 @@
-﻿---
+---
 title: folder_path mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

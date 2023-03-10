@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_row الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  end_row الملكية
 
-الحصول على أو تحديد صف النهاية لهذه المنطقة.
+الحصول على صف نهاية هذه المنطقة أو تعيينه.
 
 ###  أنظر أيضا
 * وحدة [aspose.cells](../../)

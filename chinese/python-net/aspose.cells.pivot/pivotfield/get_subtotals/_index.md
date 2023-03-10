@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_subtotals方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -22,7 +22,7 @@ def get_subtotals(self, subtotal_type):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | subtotal_type | [PivotFieldSubtotalType](/cells/zh/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |小计类型。|
 

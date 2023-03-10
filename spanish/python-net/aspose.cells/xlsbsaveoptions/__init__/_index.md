@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsbSaveOptions constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El formato de guardado debe ser xlsb.|
+| save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El formato de guardado. Debe ser xlsb.|
 ###  Observaciones
 
 NOTA: Este constructor ahora está obsoleto.

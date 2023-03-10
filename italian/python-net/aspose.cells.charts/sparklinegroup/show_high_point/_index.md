@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_high_point proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

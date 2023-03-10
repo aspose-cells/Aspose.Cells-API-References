@@ -1,6 +1,6 @@
-﻿---
+---
 title: MirrorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 960
@@ -14,11 +14,11 @@ is_root: false
 
 MirrorType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |没有任何|
-| HORIZONAL |水平的|
+| HORIZONAL |卧式|
 | VERTICAL |垂直的|
 | BOTH |两个都|
 

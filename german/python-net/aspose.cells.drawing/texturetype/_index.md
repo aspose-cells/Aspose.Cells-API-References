@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextureType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -18,7 +18,7 @@ Der Typ TextureType macht die folgenden Member verfügbar:
 | Feld| Beschreibung|
 | :- | :- |
 | BLUE_TISSUE_PAPER | Repräsentiert den Texturtyp Blaues Seidenpapier.|
-| BOUQUET | Repräsentiert den Bouquet-Texturtyp.|
+| BOUQUET | Repräsentiert den Texturtyp Bouquet.|
 | BROWN_MARBLE | Repräsentiert den Texturtyp Brauner Marmor.|
 | CANVAS | Repräsentiert den Canvas-Texturtyp.|
 | CORK | Stellt den Texturtyp Cork dar.|

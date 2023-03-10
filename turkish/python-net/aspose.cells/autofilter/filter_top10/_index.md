@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_top10 yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/autofilter/filter_top10/
 is_root: false
 ---
 ##  filter_top10(field_index, is_top, is_percent, item_count) {#int-bool-bool-int}
-Listedeki ilk 10 öğeyi filtreleyin
+Listedeki ilk 10 öğeyi filtrele
 
 
 
@@ -18,7 +18,7 @@ def filter_top10(self, field_index, is_top, is_percent, item_count):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | is_top | bool | Filtrenin üstten mi yoksa alttan mı olduğunu gösterir|

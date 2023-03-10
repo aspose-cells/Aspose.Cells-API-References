@@ -1,6 +1,6 @@
-﻿---
+---
 title: ChartPoint类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -61,9 +61,9 @@ ChartPoint 类型公开了以下成员：
 | [get_bottom_point_count()](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_bottom_point_count/#) |调用 Chart.Calculate() 方法后获取底部点数。|
 | [get_bottom_point_x_px(index)](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) |调用 Chart.Calculate() 方法后获取形状底点的 x 坐标。<br/>适用 3D 图表：Column3D、Bar3D、Cone、Cylinder、Pyramid|
 | [get_bottom_point_y_px(index)](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) |调用 Chart.Calculate() 方法后获取形状底点的 y 坐标。<br/>适用 3D 图表：Column3D、Bar3D、Cone、Cylinder、Pyramid|
-| [get_on_category_axis_point_count()](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |调用Chart.Calculate()方法后获取分类轴上的点数，仅适用于面积图。|
-| [get_on_category_axis_point_x_px(index)](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) |调用Chart.Calculate()方法后获取分类轴上点的横坐标，仅适用于面积图。|
-| [get_on_category_axis_point_y_px(index)](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) |调用Chart.Calculate()方法后获取分类轴上点的纵坐标，仅适用于面积图。|
+| [get_on_category_axis_point_count()](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |调用 Chart.Calculate() 方法后获取类别轴上的点数。仅适用于面积图。|
+| [get_on_category_axis_point_x_px(index)](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) |调用 Chart.Calculate() 方法后获取类别轴上点的 x 坐标。仅适用于面积图。|
+| [get_on_category_axis_point_y_px(index)](/cells/zh/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) |调用 Chart.Calculate() 方法后获取类别轴上点的 y 坐标。仅适用于面积图。|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_printer yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.rendering/workbookrender/to_printer/
 is_root: false
 ---
 ##  to_printer(printer_name) {#str}
-Çalışma kitabını yazıcıya aktar
+Çalışma kitabını Yazıcıya işle
 
 
 
@@ -18,13 +18,13 @@ def to_printer(self, printer_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | printer_name | str | yazıcının adı , örneğin: "Microsoft Office Document Image Writer"|
 
 
 ##  to_printer(printer_settings) {#aspose.pydrawing.printing.PrinterSettings}
-Çalışma kitabını yazıcıya aktar
+Çalışma kitabını Yazıcıya işle
 
 
 
@@ -34,13 +34,13 @@ def to_printer(self, printer_settings):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| printer_settings | aspose.pydrawing.printing.PrinterSettings | yazıcının ayarları, örneğin YazıcıAdı, Dupleks|
+| printer_settings | aspose.pydrawing.printing.PrinterSettings | yazıcının ayarları, örneğin YazıcıAdı, Dubleks|
 
 
 ##  to_printer(printer_name, job_name) {#str-str}
-Çalışma kitabını yazıcıya aktar
+Çalışma kitabını Yazıcıya işle
 
 
 
@@ -50,14 +50,14 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | printer_name | str | yazıcının adı , örneğin: "Microsoft Office Document Image Writer"|
 | job_name | str | yazdırma işi adını ayarla|
 
 
 ##  to_printer(printer_settings, job_name) {#aspose.pydrawing.printing.PrinterSettings-str}
-Çalışma kitabını yazıcıya aktar
+Çalışma kitabını Yazıcıya işle
 
 
 
@@ -67,14 +67,14 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| printer_settings | aspose.pydrawing.printing.PrinterSettings | yazıcının ayarları, örneğin YazıcıAdı, Dupleks|
+| printer_settings | aspose.pydrawing.printing.PrinterSettings | yazıcının ayarları, örneğin YazıcıAdı, Dubleks|
 | job_name | str | yazdırma işi adını ayarla|
 
 
 ##  to_printer(printer_name, print_page_index, print_page_count) {#str-int-int}
-Çalışma kitabını yazıcıya aktar
+Çalışma kitabını Yazıcıya işle
 
 
 
@@ -84,7 +84,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | printer_name | str | yazıcının adı , örneğin: "Microsoft Office Document Image Writer"|
 | print_page_index | int | yazdırılacak ilk sayfanın 0 tabanlı dizini, Aralık [0, WorkbookRender.PageCount-1] olmalıdır|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_blanks metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def match_blanks(self, field_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | field_index | int | Heltalsoffset för fältet som du vill basera filtret på<br/> (från vänster i listan; fältet längst till vänster är fält 0).|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -42,10 +42,10 @@ TextOptions türü aşağıdaki üyeleri gösterir:
 | [scheme_type](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Yazı tipinin şema türünü alır ve ayarlar.|
 | [language_code](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Kullanıcı arayüzü dilini alır ve ayarlar.|
 | [latin_name](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Latince adı alır ve ayarlar.|
-| [far_east_name](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Uzak Doğu adını alır ve ayarlar.|
+| [far_east_name](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | FarEast adını alır ve ayarlar.|
 | [fill](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/fill) | Metnin dolgu biçimini temsil eder.|
 | [outline](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/outline) | Metnin anahat biçimini temsil eder.|
-| [shadow](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Grafik öğesi veya şekli için bir gölge efekti belirten bir [ShadowEffect](/cells/tr/python-net/aspose.cells.drawing/shadoweffect) nesnesini temsil eder.|
+| [shadow](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Grafik öğesi veya şekli için gölge efektini belirten bir [ShadowEffect](/cells/tr/python-net/aspose.cells.drawing/shadoweffect) nesnesini temsil eder.|
 | [underline_color](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Alt çizgi rengini alır veya ayarlar.|
 | [kerning](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Bu metin çalıştırması için karakter aralığının oluşacağı minimum yazı tipi boyutunu belirtir.|
 | [spacing](/cells/tr/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Bir metin çalıştırmasındaki karakterler arasındaki boşluğu belirtir.|

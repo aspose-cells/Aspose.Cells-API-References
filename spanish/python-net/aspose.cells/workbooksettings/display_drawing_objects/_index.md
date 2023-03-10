@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_drawing_objects propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

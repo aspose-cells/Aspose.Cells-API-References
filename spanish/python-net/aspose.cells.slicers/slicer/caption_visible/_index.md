@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption_visible propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -12,7 +12,7 @@ is_root: false
 Devuelve o establece si el encabezado que muestra el subtítulo de la segmentación está visible
 El valor por defecto es verdadero
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_printable Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 True, wenn das Objekt druckbar ist
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

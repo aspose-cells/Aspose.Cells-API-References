@@ -1,4 +1,4 @@
-﻿---
+---
 title: style_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -12,7 +12,7 @@ is_root: false
 Yerleşik dilimleyici stilinin türünü belirtin
 varsayılan tür SlicerStyleLight1'dir.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.slicers import SlicerStyleType

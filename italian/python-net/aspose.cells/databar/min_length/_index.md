@@ -1,4 +1,4 @@
-﻿---
+---
 title: min_length proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,6 +1,6 @@
-﻿---
+---
 title: save_password 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## save_password 属性
 
-如果要将密码保存为连接字符串的一部分，则为 True；否则为 False。
+如果要将密码保存为连接字符串的一部分，则为真；否则为真。否则，假。
 ### 定义：
 ```python
 @property

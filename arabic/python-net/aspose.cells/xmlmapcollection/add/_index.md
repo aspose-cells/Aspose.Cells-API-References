@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,13 +22,13 @@ def add(self, url):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | url | str | عنوان url / مسار ملف xml / xsd.|
 
-###  أمثلة
+###  مثال
 
-تضيف التعليمة البرمجية التالية جهازي XmlMaps بواسطة ملف xsd وملف xml.
+تضيف التعليمة البرمجية التالية خبقتين XmlMaps بواسطة ملف xsd وملف xml.
 
 ```python
 from aspose.cells import Workbook

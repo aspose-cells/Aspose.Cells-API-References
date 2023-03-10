@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_pivot_style_column_stripes proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

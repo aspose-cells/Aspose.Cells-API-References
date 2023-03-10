@@ -1,4 +1,4 @@
-﻿---
+---
 title: xml_map_query yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def xml_map_query(self, path, xml_map):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | path | str | xml öğe yolu|
 | xml_map | [XmlMap](/cells/tr/python-net/aspose.cells/xmlmap) |Belirli bir harita içindeki belirli yolu sorgulamak istiyorsanız, bir xml haritası belirtin.|

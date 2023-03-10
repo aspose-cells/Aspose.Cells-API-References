@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_macros propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Indique si les macros sont conservées ;
 
 ###  Remarques
 
-Uniquement pour copier des classeurs.
+Uniquement pour copier le classeur.
 ###  Définition:
 ```python
 @property

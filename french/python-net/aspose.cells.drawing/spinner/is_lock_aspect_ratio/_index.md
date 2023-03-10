@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_lock_aspect_ratio propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 True signifie qu'il n'est pas possible de modifier les proportions.
 
-###  Exemples
+###  Exemple
 
 ```python
 

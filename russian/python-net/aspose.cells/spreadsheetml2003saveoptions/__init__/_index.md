@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetML2003SaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/spreadsheetml2003saveoptions/__init__/
 is_root: false
 ---
 ##  SpreadsheetML2003SaveOptions() {#}
-Создает параметры для сохранения файлов расширения Excel 2003.
+Создает параметры для сохранения файла расширения Excel 2003.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SpreadsheetML2003SaveOptions(save_format) {#SaveFormat}
-Создает параметры для сохранения файлов расширения Excel 2003.
+Создает параметры для сохранения файла расширения Excel 2003.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Формат сохранения.|
 ###  Примечания

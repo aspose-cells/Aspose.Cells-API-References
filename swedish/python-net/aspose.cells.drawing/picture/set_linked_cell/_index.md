@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_linked_cell metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_linked_cell(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Området kopplat till kontrollens värde.|
 | is_r1c1 | bool | Om formeln behöver formateras som R1C1.|

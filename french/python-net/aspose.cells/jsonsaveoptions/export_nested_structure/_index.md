@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_nested_structure propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

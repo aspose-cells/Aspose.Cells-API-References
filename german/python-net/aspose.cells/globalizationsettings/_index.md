@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlobalizationSettings Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -41,14 +41,14 @@ Der Typ GlobalizationSettings macht die folgenden Member verfügbar:
 | [get_column_labels_of_pivot_table()](/cells/de/python-net/aspose.cells/globalizationsettings/get_column_labels_of_pivot_table/#) | Ruft den Namen der Bezeichnung „Spaltenbeschriftungen“ in der PivotTable ab.|
 | [get_row_labels_name_of_pivot_table()](/cells/de/python-net/aspose.cells/globalizationsettings/get_row_labels_name_of_pivot_table/#) | Ruft den Namen der Bezeichnung „Zeilenbeschriftungen“ in der PivotTable ab.|
 | [get_empty_data_name()](/cells/de/python-net/aspose.cells/globalizationsettings/get_empty_data_name/#) | Ruft den Namen der Bezeichnung „(leer)“ in der PivotTable ab.|
-| [get_data_field_header_name_of_pivot_table()](/cells/de/python-net/aspose.cells/globalizationsettings/get_data_field_header_name_of_pivot_table/#) | Ruft den Namen des Wertbereichsfeldheaders in der PivotTable ab.|
+| [get_data_field_header_name_of_pivot_table()](/cells/de/python-net/aspose.cells/globalizationsettings/get_data_field_header_name_of_pivot_table/#) | Ruft den Namen der Kopfzeile des Wertbereichsfelds in der PivotTable ab.|
 | [get_sub_total_name(sub_total_type)](/cells/de/python-net/aspose.cells/globalizationsettings/get_sub_total_name/#aspose.cells.pivot.PivotFieldSubtotalType) | Ruft den Namen des Typs [PivotFieldSubtotalType](/cells/de/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) in der PivotTable ab.|
 | [get_total_name(function_type)](/cells/de/python-net/aspose.cells/globalizationsettings/get_total_name/#ConsolidationFunction) | Ruft den Gesamtnamen der Funktion ab.|
 | [get_grand_total_name(function_type)](/cells/de/python-net/aspose.cells/globalizationsettings/get_grand_total_name/#ConsolidationFunction) | Ruft den Gesamtsummennamen der Funktion ab.|
 | [get_table_row_type_of_headers()](/cells/de/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_headers/#) | Ruft den Typnamen von Tabellenzeilen ab, der aus dem Tabellenkopf besteht.<br/> Standard ist "Headers", also repräsentiert "#Headers" in der Formel den Tabellenkopf.|
 | [get_table_row_type_of_data()](/cells/de/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_data/#) | Ruft den Typnamen von Tabellenzeilen ab, die aus dem Datenbereich der referenzierten Tabelle bestehen.<br/> Standard ist "Data", also repräsentiert "#Data" in der Formel den Datenbereich der Tabelle.|
 | [get_table_row_type_of_all()](/cells/de/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_all/#) | Ruft den Typnamen von Tabellenzeilen ab, die aus allen Zeilen in der referenzierten Tabelle bestehen.<br/>Der Standardwert ist „Alle“, sodass in der Formel „#Alle“ alle Zeilen in der referenzierten Tabelle darstellt.|
-| [get_table_row_type_of_totals()](/cells/de/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Ruft den Typnamen von Tabellenzeilen ab, die aus der Gesamtzeile der referenzierten Tabelle bestehen.<br/> Der Standardwert ist „Totals“, sodass in der Formel „#Totals“ die Gesamtzeile der referenzierten Tabelle darstellt.|
+| [get_table_row_type_of_totals()](/cells/de/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Ruft den Typnamen von Tabellenzeilen ab, die aus der gesamten Zeile der referenzierten Tabelle bestehen.<br/> Der Standardwert ist „Totals“, sodass in der Formel „#Totals“ die Gesamtzeile der referenzierten Tabelle darstellt.|
 | [get_table_row_type_of_current()](/cells/de/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_current/#) | Ruft den Typnamen von Tabellenzeilen ab, die aus der aktuellen Zeile in der referenzierten Tabelle bestehen.<br/> Der Standardwert ist „Diese Zeile“, sodass in der Formel „#Diese Zeile“ die aktuelle Zeile in der referenzierten Tabelle darstellt.|
 | [get_error_value_string(err)](/cells/de/python-net/aspose.cells/globalizationsettings/get_error_value_string/#str) | Ruft den Anzeigezeichenfolgenwert für den Fehlerwert der Zelle ab|
 | [get_boolean_value_string(bv)](/cells/de/python-net/aspose.cells/globalizationsettings/get_boolean_value_string/#bool) | Ruft den Anzeigezeichenfolgenwert für den booleschen Wert der Zelle ab|

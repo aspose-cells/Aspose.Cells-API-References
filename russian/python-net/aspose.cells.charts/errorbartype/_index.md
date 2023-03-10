@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBarType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| CUSTOM | Внутренний настраиваемый тип значения.|
+| CUSTOM | Тип значения InnerCustom.|
 | FIXED_VALUE | Тип фиксированного значения.|
 | PERCENT | Процентный тип|
 | ST_DEV | Тип стандартного отклонения.|

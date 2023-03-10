@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_printing_page_breaks
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene interruzioni di pagina automatiche.
 
 ###  ritorna
 
-Le aree di interruzione di pagina automatiche.
+Le aree di interruzioni di pagina automatiche.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | options | aspose.cells.rendering.ImageOrPrintOptions | Le opzioni di stampa|
 ###  Osservazioni

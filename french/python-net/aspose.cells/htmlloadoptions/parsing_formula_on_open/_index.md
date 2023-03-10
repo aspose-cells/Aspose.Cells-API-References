@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_formula_on_open propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: encoding الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding الملكية
 
-الحصول على الإعداد الافتراضي وتعيينه encoding. ينطبق فقط على ملفات csv.
+الحصول على وتعيين الافتراضي encoding. ينطبق فقط على ملف csv.
 ###  تعريف:
 ```python
 @property

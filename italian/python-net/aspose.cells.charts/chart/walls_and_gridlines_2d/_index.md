@@ -1,4 +1,4 @@
-﻿---
+---
 title: walls_and_gridlines_2d proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

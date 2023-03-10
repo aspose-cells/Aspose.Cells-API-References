@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_index الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 الافتراضي هو 0.
 
-###  أمثلة
+###  مثال
 
 يوضح المثال التالي كيفية عرض نطاق من الصفحات (3 و 4) في ملف Excel Microsoft إلى PDF.
 

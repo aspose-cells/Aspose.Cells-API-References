@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_page_orientation_type
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_page_orientation_type(self, page_orientation_type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | page_orientation_type | [PageOrientationType](/cells/it/python-net/aspose.cells/pageorientationtype) | Il [PageOrientationType](/cells/it/python-net/aspose.cells/pageorientationtype) |
 

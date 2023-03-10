@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_extra_headings fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  export_extra_headings fastighet
 
 Anger om extra rubriker exporteras när textens längd är längre än maxvisningskolumnen.
-Standardvärdet är falskt.
+Standardvärdet är falskt. Om du vill importera html-filen till Excel, behåll standardvärdet.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_height_pixels الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_height_pixels الملكية
 
-الحصول على أو تعيين ارتفاع الصف الافتراضي في ورقة العمل هذه ، بوحدات البكسل.
+الحصول على ارتفاع الصف الافتراضي أو تعيينه في ورقة العمل هذه ، بوحدة البكسل.
 ###  تعريف:
 ```python
 @property

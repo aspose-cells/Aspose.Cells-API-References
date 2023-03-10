@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_shape_color propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ Obtient et définit la couleur qui doit s'appliquer à la cellule ou à la forme
 ###  Remarques
 
 L'expression de la couleur de la cellule et de la forme est différente.
-Par exemple : la couleur du thème avec la même valeur de teinte ne sera pas la même dans la cellule et la forme.
+Par exemple : la couleur du thème avec la même valeur de teinte ne sera pas la même dans la cellule et la forme.
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_cell propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene la primera celda de esta hoja de trabajo.
 
 ###  Observaciones
 
-Devuelve nulo si no hay datos en la hoja de trabajo.
+Devuelve nulo si no hay datos en la hoja de cálculo.
 ###  Definición:
 ```python
 @property

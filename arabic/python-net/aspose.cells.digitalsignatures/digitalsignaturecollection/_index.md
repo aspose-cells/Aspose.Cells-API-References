@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignatureCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,13 +23,13 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [add(digital_signature)](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | أضف توقيعًا واحدًا إلى مجموعة التوقيع الرقمي.|
+| [add(digital_signature)](/cells/ar/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | أضف توقيعًا واحدًا إلى DigitalSignatureCollection.|
 
 
 
-###  أمثلة
+###  مثال
 
-يوضح المثال التالي كيفية التحقق من صحة التوقيعات الرقمية.
+يوضح المثال التالي كيفية التحقق من صحة التوقيع الرقمي.
 
 ```python
 from aspose.cells import Workbook

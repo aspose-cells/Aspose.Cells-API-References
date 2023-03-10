@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_r1c1 metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_r1c1(self, area, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | area | str | Anger värden från vilka dataserien ska plottas|
 | is_vertical | bool | Anger om serien ska plottas från ett intervall av cellvärden efter rad eller kolumn.|

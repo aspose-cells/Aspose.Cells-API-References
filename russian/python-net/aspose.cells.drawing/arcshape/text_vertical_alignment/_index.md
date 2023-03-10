@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_alignment недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает тип вертикального выравнивания текста фигуры.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import TextAlignmentType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_non_blanks Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/autofilter/match_non_blanks/
 is_root: false
 ---
 ##  match_non_blanks(field_index) {#int}
-Ordnen Sie alle nicht leeren Zellen in der Liste zu.
+Übereinstimmung mit allen nicht leeren Zellen in der Liste.
 
 
 

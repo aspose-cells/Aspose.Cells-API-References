@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_cell_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
  Indica si se exporta el nombre de la celda a un archivo Excel2007 .xlsx (.xlsm, .xltx, .xltm).
 Si SQL Server DTS puede acceder al archivo de salida, este valor debe ser verdadero.
-Establecer el valor en falso aumentará considerablemente el rendimiento y reducirá el tamaño del archivo al crear archivos grandes.
+Establecer el valor en falso aumentará en gran medida el rendimiento y reducirá el tamaño del archivo al crear un archivo grande.
 El valor predeterminado es verdadero.
 ###  Definición:
 ```python

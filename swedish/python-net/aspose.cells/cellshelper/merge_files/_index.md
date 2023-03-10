@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge_files metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,14 +18,14 @@ def merge_files(self, files, cached_file, dest_file):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | files | list | Filerna.|
 | cached_file | str | Den cachade filen.|
 | dest_file | str | Dest-filen.|
 ###  Anmärkningar
 
-Denna metod stöder endast sammanslagning av data, stilar och formler till den nya filen.
+Den här metoden stöder endast sammanslagning av data, stil och formler till den nya filen.
 Den cachade filen används för att lagra vissa temporära data.
 
 

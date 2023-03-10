@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_as_string mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

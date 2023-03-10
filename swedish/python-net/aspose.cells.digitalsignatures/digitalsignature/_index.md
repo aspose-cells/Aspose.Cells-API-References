@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignature klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen DigitalSignature avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Konstruktör av digital signatur. Använder implementering av Bouncy Castle.|
+| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Konstruktör av digitalSignature. Använder Bouncy Castle implementering.|
 
 
 ###  Egenskaper
@@ -30,7 +30,7 @@ Typen DigitalSignature avslöjar följande medlemmar:
 | [image](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature/image) | Anger en bild för den digitala signaturen.<br/> Standardvärdet är null.|
 | [provider_id](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature/provider_id) | Anger klass-ID för signaturleverantören.<br/> Standardvärdet är Tom (alla nollor) Guid.|
 | [is_valid](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature/is_valid) | Om denna digitala signatur är giltig och dokumentet inte har manipulerats,<br/> detta värde kommer att vara sant.|
-| [x_ad_es_type](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature/x_ad_es_type) | XAdES typ.<br/> Standardvärdet är Inget (XAdES är avstängt).|
+| [x_ad_es_type](/cells/sv/python-net/aspose.cells.digitalsignatures/digitalsignature/x_ad_es_type) | XAdES typ.<br/> Standardvärdet är None (XAdES är avstängt).|
 
 
 

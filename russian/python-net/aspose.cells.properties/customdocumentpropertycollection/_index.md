@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -38,9 +38,9 @@ is_root: false
 | [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
 | [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | Создает новое пользовательское свойство документа**Тип свойства.String** тип данных.|
 | [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) | Создает новое пользовательское свойство документа**PropertyType.Number** тип данных.|
-| [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Создает новое пользовательское свойство документа**Тип свойства.** тип данных.|
-| [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Создает новое пользовательское свойство документа**Тип свойства.** тип данных.|
-| [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Создает новое пользовательское свойство документа**Тип свойства.Float** тип данных.|
+| [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Создает новое пользовательское свойство документа**PropertyType.DateTime** тип данных.|
+| [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Создает новое пользовательское свойство документа**PropertyType.Boolean** тип данных.|
+| [add(name, value)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Создает новое пользовательское свойство документа**PropertyType.Float** тип данных.|
 | [binary_search(item)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) | Ищет элемент во всем отсортированном списке массивов, используя компаратор по умолчанию, и возвращает отсчитываемый от нуля индекс элемента.|
 | [add_link_to_content(name, source)](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) | Создает новое пользовательское свойство документа, которое ссылается на содержимое.|
 | [update_linked_property_value()](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |Обновите значение пользовательского свойства документа, которое ссылается на содержимое.|
@@ -52,7 +52,7 @@ is_root: false
 
 Каждый объект [DocumentProperty](/cells/ru/python-net/aspose.cells.properties/documentproperty) представляет пользовательское свойство документа-контейнера.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SvgSaveOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/svgsaveoptions/__init__/
 is_root: false
 ---
 ##  SvgSaveOptions() {#}
-Skapar alternativen för att spara svg-filer.
+Skapar alternativen för att spara svg-fil.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SvgSaveOptions(save_format) {#SaveFormat}
-Skapar alternativen för att spara svg-filer.
+Skapar alternativen för att spara svg-fil.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Filformatet.<br/> Det måste vara svg.|
 ###  Anmärkningar

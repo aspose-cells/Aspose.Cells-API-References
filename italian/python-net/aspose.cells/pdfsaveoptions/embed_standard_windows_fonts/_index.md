@@ -1,4 +1,4 @@
-﻿---
+---
 title: embed_standard_windows_fonts proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

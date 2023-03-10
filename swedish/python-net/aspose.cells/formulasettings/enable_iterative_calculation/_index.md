@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_iterative_calculation fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_iterative_calculation fastighet
 
-Anger om iterativ beräkning ska aktiveras för att lösa cirkulära referenser.
+Anger om aktivera iterativ beräkning för att lösa cirkulära referenser.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Walls sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -46,7 +46,7 @@ Walls türü aşağıdaki üyeleri gösterir:
 | Yöntem| Tanım|
 | :- | :- |
 | [get_cube_point_count()](/cells/tr/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | Chart.Calculate() yöntemini çağırdıktan sonra küp noktalarının sayısını alır.|
-| [get_cube_point_x_px(index)](/cells/tr/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Chart.Calculate() yöntemini çağırdıktan sonra, walls küpünün tepe noktasının x koordinatlarını alır.<br/> Duvar küpünün tepe noktalarının sayısı sekizdir.|
+| [get_cube_point_x_px(index)](/cells/tr/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Chart.Calculate() yöntemini çağırdıktan sonra, walls küpünün tepe noktasının x koordinatını alır.<br/> Duvar küpünün tepe noktalarının sayısı sekizdir.|
 | [get_cube_point_y_px(index)](/cells/tr/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Chart.Calculate() yöntemi çağrıldıktan sonra walls küpünün tepe noktasının y koordinatını alır.<br/> Duvar küpünün tepe noktası sayısı sekizdir.|
 
 

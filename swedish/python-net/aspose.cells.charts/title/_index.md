@@ -1,4 +1,4 @@
-﻿---
+---
 title: Title klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -29,7 +29,7 @@ Typen Title avslöjar följande medlemmar:
 | [text_font](/cells/sv/python-net/aspose.cells.charts/title/text_font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
 | [text_options](/cells/sv/python-net/aspose.cells.charts/title/text_options) | Hämtar och ställer in alternativen för texten.|
 | [font](/cells/sv/python-net/aspose.cells.charts/title/font) | Hämtar ett [ChartFrame.font](/cells/sv/python-net/aspose.cells.charts/chartframe#font)-objekt av det angivna ChartFrame-objektet.|
-| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/title/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras.|
+| [auto_scale_font](/cells/sv/python-net/aspose.cells.charts/title/auto_scale_font) | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True.|
 | [background_mode](/cells/sv/python-net/aspose.cells.charts/title/background_mode) | Hämtar och ställer in visningsläget för bakgrunden|
 | [background](/cells/sv/python-net/aspose.cells.charts/title/background) | Hämtar och ställer in visningsläget för bakgrunden|
 | [is_automatic_size](/cells/sv/python-net/aspose.cells.charts/title/is_automatic_size) | Indikerar om kartramen har automatisk storlek.|
@@ -44,7 +44,7 @@ Typen Title avslöjar följande medlemmar:
 | [default_y](/cells/sv/python-net/aspose.cells.charts/title/default_y) | Representerar y för standardposition|
 | [default_width](/cells/sv/python-net/aspose.cells.charts/title/default_width) | Representerar bredden på standardpositionen|
 | [default_height](/cells/sv/python-net/aspose.cells.charts/title/default_height) | Representerar höjden på standardpositionen|
-| [is_auto_text](/cells/sv/python-net/aspose.cells.charts/title/is_auto_text) | Indikerar att texten är automatiskt genererad.|
+| [is_auto_text](/cells/sv/python-net/aspose.cells.charts/title/is_auto_text) | Indikerar att texten genereras automatiskt.|
 | [is_deleted](/cells/sv/python-net/aspose.cells.charts/title/is_deleted) | Indikerar om denna dataetikett är raderad.|
 | [text_horizontal_alignment](/cells/sv/python-net/aspose.cells.charts/title/text_horizontal_alignment) | Hämtar och ställer in textens horisontella justering.|
 | [text_vertical_alignment](/cells/sv/python-net/aspose.cells.charts/title/text_vertical_alignment) |Hämtar eller ställer in textens vertikala justering av text.|
@@ -56,7 +56,7 @@ Typen Title avslöjar följande medlemmar:
 | [reading_order](/cells/sv/python-net/aspose.cells.charts/title/reading_order) | Representerar textläsordning.|
 | [direction_type](/cells/sv/python-net/aspose.cells.charts/title/direction_type) | Hämtar och anger textens riktning.|
 | [is_text_wrapped](/cells/sv/python-net/aspose.cells.charts/title/is_text_wrapped) | Hämtar eller ställer in ett värde som anger om texten är radbruten.|
-| [is_resize_shape_to_fit_text](/cells/sv/python-net/aspose.cells.charts/title/is_resize_shape_to_fit_text) | Hämtar eller ställer in om en form ska anpassas automatiskt för att helt innehålla texten som beskrivs i den.<br/> när text i en form skalas för att innehålla all text inuti.|
+| [is_resize_shape_to_fit_text](/cells/sv/python-net/aspose.cells.charts/title/is_resize_shape_to_fit_text) | Hämtar eller ställer in om en form ska anpassas automatiskt för att helt innehålla texten som beskrivs i den. Automatisk montering är<br/> när text i en form skalas för att innehålla all text inuti.|
 | [is_visible](/cells/sv/python-net/aspose.cells.charts/title/is_visible) | Representerar om titeln är synlig.|
 | [over_lay](/cells/sv/python-net/aspose.cells.charts/title/over_lay) | Representerar överlagringscentrerad titel på diagrammet utan att ändra storlek på diagrammet.|
 

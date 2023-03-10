@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOrientationType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ Le type TextOrientationType expose les membres suivants :
 | CLOCK_WISE | Fait pivoter le texte de 90 degrés dans le sens des aiguilles d'une montre.|
 | COUNTER_CLOCK_WISE | Fait pivoter le texte de 90 degrés dans le sens inverse des aiguilles d'une montre.|
 | NO_ROTATION | Représente la valeur par défaut.|
-| TOP_TO_BOTTOM | Affiche le texte de haut en bas de la cellule.|
+| TOP_TO_BOTTOM | Affiche le texte de haut en bas de la cellule. Texte empilé.|
 
 
 

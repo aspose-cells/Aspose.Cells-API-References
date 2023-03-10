@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | position | float | La position de la butée, en unité de pourcentage.|
 | color | [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor) | La couleur de l'arrêt.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | position | float | La position de la butée, en unité de pourcentage.|
 | color | aspose.pydrawing.Color | La couleur de l'arrêt.|

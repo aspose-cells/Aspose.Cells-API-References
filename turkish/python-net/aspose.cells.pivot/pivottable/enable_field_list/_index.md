@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list mülk
 
-PivotTable için alan listesinin etkinleştirilip etkinleştirilmeyeceğini alır.
+PivotTable için alan listesini etkinleştirip etkinleştirmediğini alır.
 ###  Tanım:
 ```python
 @property

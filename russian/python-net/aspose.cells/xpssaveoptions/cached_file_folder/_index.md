@@ -1,4 +1,4 @@
-﻿---
+---
 title: cached_file_folder недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

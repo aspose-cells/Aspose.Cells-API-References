@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/xmlsaveoptions/__init__/
 is_root: false
 ---
 ##  XmlSaveOptions() {#}
-Создает параметры для сохранения xml-файлов.
+Создает параметры для сохранения XML-файла.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, data, shema_data):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | data | bytes | محتوى XML لجزء تخزين بيانات XML المخصص هذا.|
 | shema_data | bytes | مجموعة مخططات XML المقترنة بجزء XML المخصص هذا.|

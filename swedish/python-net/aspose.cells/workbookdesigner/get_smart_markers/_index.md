@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_smart_markers metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  Anmärkningar
 
-En strängmatris skapas vid varje samtal.
+En strängmatris skapas vid varje samtal. Arrayen sorteras och duplicerade värden tas bort.
 
 
 ###  Se även

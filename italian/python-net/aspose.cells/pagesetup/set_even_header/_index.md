@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_even_header
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  set_even_header(section, header_script) {#int-str}
 Imposta uno script che formatta l'intestazione della pagina pari di un file Excel.
-Effetto solo in Excel 2007 quando IsHFDiffOddEven è vero.
+Effetto solo in Excel 2007 quando IsHFDiffOddEven è true.
 
 
 
@@ -19,7 +19,7 @@ def set_even_header(self, section, header_script):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | section | int | 0: Sezione sinistra, 1: Sezione centrale, 2: Sezione destra.|
 | header_script | str | Script formato intestazione.|

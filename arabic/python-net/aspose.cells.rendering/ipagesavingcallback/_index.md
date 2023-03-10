@@ -1,4 +1,4 @@
-﻿---
+---
 title: IPageSavingCallback الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | طريقة| وصف|
 | :- | :- |
 | [page_start_saving(args)](/cells/ar/python-net/aspose.cells.rendering/ipagesavingcallback/page_start_saving/#PageStartSavingArgs) | التحكم / الإشارة إلى بدء إخراج الصفحة.|
-| [page_end_saving(args)](/cells/ar/python-net/aspose.cells.rendering/ipagesavingcallback/page_end_saving/#PageEndSavingArgs) | التحكم / الإشارة إلى انتهاء الصفحة ليتم إخراجها.|
+| [page_end_saving(args)](/cells/ar/python-net/aspose.cells.rendering/ipagesavingcallback/page_end_saving/#PageEndSavingArgs) | التحكم / الإشارة إلى أن الصفحة تنتهي ليتم إخراجها.|
 
 
 

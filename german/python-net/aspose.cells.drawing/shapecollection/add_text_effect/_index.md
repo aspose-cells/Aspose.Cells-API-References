@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_effect Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -37,7 +37,7 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | height | int | Stellt die Höhe der Form in Pixeleinheiten dar.|
 | width | int | Stellt die Breite der Form in Pixeleinheiten dar.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import MsoPresetTextEffect

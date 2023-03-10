@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.activexcontrols
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -43,7 +43,7 @@ is_root: false
 | [ControlScrollBarType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlscrollbartype) | يمثل نوع شريط التمرير.|
 | [ControlScrollOrientation](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlscrollorientation) | يمثل نوع اتجاه التمرير|
 | [ControlSpecialEffectType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype) | يمثل نوع التأثير الخاص.|
-| [ControlType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controltype) | يمثل جميع أنواع عناصر تحكم ActiveX.|
+| [ControlType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/controltype) | يمثل كل أنواع عناصر تحكم ActiveX.|
 | [DropButtonStyle](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle) | يمثل الرمز المعروض على زر الإسقاط.|
 | [InputMethodEditorMode](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode) | يمثل وضع وقت التشغيل الافتراضي لمحرر أسلوب الإدخال.|
 | [ShowDropButtonType](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/showdropbuttontype) | يحدد متى يتم إظهار زر الإسقاط|

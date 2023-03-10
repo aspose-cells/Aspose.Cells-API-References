@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_count fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_count fastighet
 
-Får alla cellantal i intervallet.
+Får allt cellantal i intervallet.
 ###  Definition:
 ```python
 @property

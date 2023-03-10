@@ -1,4 +1,4 @@
-﻿---
+---
 title: parent propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent propriété
 
-Renvoie l'objet Worksheet qui représente la feuille contenant le segment.
+Renvoie l'objet Worksheet qui représente la feuille contenant le segment. Lecture seulement.
 
-###  Exemples
+###  Exemple
 
 ```python
 

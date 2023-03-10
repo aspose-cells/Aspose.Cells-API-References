@@ -1,4 +1,4 @@
-﻿---
+---
 title: process метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | is_preserved | bool | Истинно, если нераспознанный смарт-маркер сохраняется.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | sheet_index | int | Индекс рабочего листа.|
 | is_preserved | bool | Истинно, если нераспознанный смарт-маркер сохраняется.|

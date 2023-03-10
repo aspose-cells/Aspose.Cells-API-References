@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadFilter Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ Der Typ LoadFilter macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [load_data_filter_options](/cells/de/python-net/aspose.cells/loadfilter/load_data_filter_options) | Die Filteroptionen geben an, welche Daten geladen werden sollen.|
-| [sheets_in_loading_order](/cells/de/python-net/aspose.cells/loadfilter/sheets_in_loading_order) | Gibt die Blätter (Indizes) und die Reihenfolge an, die geladen werden sollen.<br/>Der Standardwert ist null, was bedeutet, dass alle Blätter in der Standardreihenfolge in die Vorlagendatei geladen werden.<br/> Wenn nicht null und der Index eines Blatts nicht im zurückgegebenen Array enthalten ist, wird das Blatt nicht geladen.|
+| [sheets_in_loading_order](/cells/de/python-net/aspose.cells/loadfilter/sheets_in_loading_order) | Gibt die zu ladenden Blätter (Indizes) und die Reihenfolge an.<br/>Der Standardwert ist null, was bedeutet, dass alle Blätter in der Standardreihenfolge in die Vorlagendatei geladen werden.<br/> Wenn nicht null und der Index eines Blatts nicht im zurückgegebenen Array enthalten ist, wird das Blatt nicht geladen.|
 
 
 ###  Methoden

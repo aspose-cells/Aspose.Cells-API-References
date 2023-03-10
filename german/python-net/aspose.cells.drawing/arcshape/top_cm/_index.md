@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_cm Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  top_cm Eigentum
 
-Stellt den vertikalen Versatz der Form von der obersten Zeile in Zentimetern dar.
+Stellt den vertikalen Versatz der Form von der oberen Reihe in Zentimetern dar.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

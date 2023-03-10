@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_two_color_gradient méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,10 +18,10 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | Une couleur dégradée.|
-| color2 | aspose.pydrawing.Color& | Deux couleurs dégradées.|
+| color2 | aspose.pydrawing.Color& | Deux dégradés de couleur.|
 | gradient_style_type | any | Style d'ombrage dégradé.|
 | variant | any | La variante dégradée.|
 ###  Remarques

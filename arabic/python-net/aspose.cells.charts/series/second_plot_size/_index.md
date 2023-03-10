@@ -1,4 +1,4 @@
-﻿---
+---
 title: second_plot_size الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: tint mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,8 +13,8 @@ tint değerini alır ve ayarlar.
 
 ###  Notlar
 
- tint değeri, -1.0 .. 1.0'dan çift olarak saklanır, burada -1.0, %100 karanlık anlamına gelir
-1.0 %100 hafifletme anlamına gelir.Ayrıca 0.0 değişiklik yok anlamına gelir.
+ tint değeri, -1.0 .. 1.0'dan çift olarak saklanır, burada -1.0, %100 karartma anlamına gelir
+ve 1.0, %100 aydınlatma anlamına gelir. Ayrıca, 0.0, değişiklik olmadığı anlamına gelir.
 ###  Tanım:
 ```python
 @property

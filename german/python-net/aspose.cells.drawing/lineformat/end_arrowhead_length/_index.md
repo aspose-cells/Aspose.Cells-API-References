@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_arrowhead_length Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Längentyp des Endpfeils der Linie ab und legt diesen fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import MsoArrowheadLength

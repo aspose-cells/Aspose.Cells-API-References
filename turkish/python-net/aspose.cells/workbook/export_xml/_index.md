@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_xml yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,12 +18,12 @@ def export_xml(self, map_name, path):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | map_name | str | dışa aktarılması gereken XML haritasının adı|
 | path | str | dışa aktarma yolu|
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, ilk XmlMap tarafından bağlanan verileri dışa aktardı.
 
@@ -49,7 +49,7 @@ def export_xml(self, map_name, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | map_name | str | dışa aktarılması gereken XML haritasının adı|
 | stream | io.RawIOBase | ihracat akışı|

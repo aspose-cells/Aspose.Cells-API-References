@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_calculated_field yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def add_calculated_field(self, name, formula):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Hesaplanan alanın adı|
 | formula | str | Hesaplanan alanın formülü.|
@@ -35,7 +35,7 @@ def add_calculated_field(self, name, formula, drag_to_data_area):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Hesaplanan alanın adı|
 | formula | str | Hesaplanan alanın formülü.|

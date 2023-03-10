@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo clear_contents
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def clear_contents(self, range):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | range | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | Intervallo da cancellare.|
 
@@ -34,7 +34,7 @@ def clear_contents(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | Inizia l'indice della riga.|
 | start_column | int | Inizia l'indice della colonna.|

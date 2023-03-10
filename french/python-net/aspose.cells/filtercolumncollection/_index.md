@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterColumnCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/filtercolumncollection/
 is_root: false
 ---
 ##  FilterColumnCollection classe
-Collection d'objets Filter qui représentent tous les filtres d'une plage filtrée automatiquement.
+Collection d'objets Filter qui représente tous les filtres d'une plage filtrée automatiquement.
 
 
 
@@ -17,7 +17,7 @@ Le type FilterColumnCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells/filtercolumncollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells/filtercolumncollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

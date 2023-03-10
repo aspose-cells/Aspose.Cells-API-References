@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe RevisionRenameSheet
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---
 ##  classe RevisionRenameSheet
-Rappresenta una revisione del foglio di ridenominazione.
+Rappresenta una revisione della ridenominazione del foglio.
 
 
 

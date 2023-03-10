@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields propriété
 
-Obtient la liste des champs de cotes.
+Obtient la liste des champs de ods.
 ###  Définition:
 ```python
 @property

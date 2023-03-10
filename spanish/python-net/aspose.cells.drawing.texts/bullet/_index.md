@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bullet clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ El tipo Bullet expone los siguientes miembros:
 | :- | :- |
 | [bullet_value](/cells/es/python-net/aspose.cells.drawing.texts/bullet/bullet_value) | Obtiene el valor de la viñeta|
 | [type](/cells/es/python-net/aspose.cells.drawing.texts/bullet/type) | Obtiene y establece el tipo de viñeta.|
-| [font_name](/cells/es/python-net/aspose.cells.drawing.texts/bullet/font_name) |Obtener y establecer el nombre de la fuente.|
+| [font_name](/cells/es/python-net/aspose.cells.drawing.texts/bullet/font_name) |Obtiene y establece el nombre de la fuente.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_excel_2003_compatible propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Spécifie si le tableau croisé dynamique est compatible avec Excel2003 lors de l'actualisation du tableau croisé dynamique,
 si vrai, une chaîne doit être inférieure ou égale à 255 caractères, donc si la chaîne est supérieure à 255 caractères,
-elle sera tronquée. Si elle est fausse, une chaîne n'aura pas la restriction susmentionnée.
+il sera tronqué. si false, une chaîne n'aura pas la restriction susmentionnée.
 La valeur par défaut est true.
 ###  Définition:
 ```python

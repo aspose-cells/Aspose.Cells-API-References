@@ -1,4 +1,4 @@
-﻿---
+---
 title: invert_if_negative الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -12,7 +12,7 @@ is_root: false
 إذا كانت الخاصية صحيحة وكانت قيمة نقطة المخطط رقمًا سالبًا ،
 سيتم استبدال لون المقدمة ولون الخلفية.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

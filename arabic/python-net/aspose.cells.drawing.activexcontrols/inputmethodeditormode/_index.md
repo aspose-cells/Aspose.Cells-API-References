@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد InputMethodEditorMode
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -27,9 +27,9 @@ is_root: false
 | ALPHA_FULL | محرر أسلوب الإدخال (IME) قيد التشغيل مع الوضع الأبجدي الرقمي بعرض كامل.|
 | ALPHA | محرر أسلوب الإدخال (IME) قيد التشغيل مع الوضع الأبجدي الرقمي بنصف العرض.|
 | HANGUL_FULL | محرر أسلوب الإدخال (IME) قيد التشغيل مع وضع Hangul بالعرض الكامل.|
-| HANGUL | محرر أسلوب الإدخال (IME) قيد التشغيل مع وضع Hangul بنصف العرض.|
-| HANZI_FULL | محرر أسلوب الإدخال (IME) قيد التشغيل مع وضع Hanzi كامل العرض.|
-| HANZI | محرر أسلوب الإدخال (IME) قيد التشغيل مع وضع Hanzi بنصف العرض.|
+| HANGUL | IME قيد التشغيل مع وضع Hangul نصف العرض.|
+| HANZI_FULL | محرر أسلوب الإدخال (IME) قيد التشغيل مع وضع hanzi كامل العرض.|
+| HANZI | محرر أسلوب الإدخال (IME) قيد التشغيل مع وضع hanzi بنصف العرض.|
 
 
 

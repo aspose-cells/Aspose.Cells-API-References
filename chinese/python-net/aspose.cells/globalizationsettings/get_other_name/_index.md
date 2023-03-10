@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_other_name方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 150
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_other_name() {#}
 
-获取饼图“其他”标签的名称。
+获取饼图的“其他”标签的名称。
 
 ### 返回
 

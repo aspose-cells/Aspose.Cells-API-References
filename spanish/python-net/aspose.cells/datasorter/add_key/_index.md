@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_key método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def add_key(self, key, order):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | key | int | El índice de la columna ordenada (posición absoluta, la columna A es 0, B es 1, ...)|
 | order | [SortOrder](/cells/es/python-net/aspose.cells/sortorder) | el orden de clasificación|
@@ -35,7 +35,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | key | int | El índice de la columna ordenada (posición absoluta, la columna A es 0, B es 1, ...)|
 | order | [SortOrder](/cells/es/python-net/aspose.cells/sortorder) | El orden de clasificación.|
@@ -53,7 +53,7 @@ def add_key(self, key, order, custom_list):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | key | int | El índice de la columna ordenada (posición absoluta, la columna A es 0, B es 1, ...)|
 | order | [SortOrder](/cells/es/python-net/aspose.cells/sortorder) | El orden de clasificación.|
@@ -71,7 +71,7 @@ def add_key(self, key, type, order, custom_list):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | key | int | El índice de la columna ordenada (posición absoluta, la columna A es 0, B es 1, ...)|
 | type | [SortOnType](/cells/es/python-net/aspose.cells/sortontype) | El tipo de valor ordenado.|

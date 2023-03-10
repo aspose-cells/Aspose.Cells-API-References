@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_note proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ Ottiene e imposta la stringa html che contiene dati e alcuni formati in questo c
 
 Se si tratta di un commento con thread, la nota non può essere modificata, altrimenti MS Excel non potrebbe elaborarla come commento con thread.
 
-###  Esempi
+###  Esempio
 
 ```python
 

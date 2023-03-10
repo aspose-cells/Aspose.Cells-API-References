@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen SeriesCollection avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [category_data](/cells/sv/python-net/aspose.cells.charts/seriescollection/category_data) | Hämtar eller ställer in intervallet för kategoriaxelvärden.<br/> Det kan vara ett cellintervall (som "d1:e10"),<br/> eller en sekvens av värden (som,"{2,6,8,10}").|
-| [second_category_data](/cells/sv/python-net/aspose.cells.charts/seriescollection/second_category_data) | Hämtar eller ställer in intervallet för andra kategorins axelvärden.<br/> Det kan vara ett cellintervall (som "d1:e10"),<br/> eller en sekvens av värden (som,"{2,6,8,10}").<br/> Effekter endast när vissa ASerier plottar på den andra axeln.|
+| [second_category_data](/cells/sv/python-net/aspose.cells.charts/seriescollection/second_category_data) | Hämtar eller ställer in intervallet för andra kategorins axelvärden.<br/> Det kan vara ett cellintervall (som "d1:e10"),<br/> eller en sekvens av värden (som,"{2,6,8,10}").<br/> Effekter endast när vissa ASeries plottar på den andra axeln.|
 | [is_color_varied](/cells/sv/python-net/aspose.cells.charts/seriescollection/is_color_varied) | Representerar om färgen på punkterna varieras.|
 | [capacity](/cells/sv/python-net/aspose.cells.charts/seriescollection/capacity) | Hämtar eller ställer in antalet element som arraylistan kan innehålla.|
 

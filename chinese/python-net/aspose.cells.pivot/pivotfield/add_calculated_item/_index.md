@@ -1,6 +1,6 @@
-﻿---
+---
 title: add_calculated_item方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def add_calculated_item(self, name, formula):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | name | str |项目的名称。|
 | formula | str |物品的公式|

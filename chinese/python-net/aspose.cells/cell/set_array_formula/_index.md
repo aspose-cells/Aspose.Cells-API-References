@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_array_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 290
@@ -18,7 +18,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | array_formula | str |数组公式。|
 | row_number | int |填充数组公式结果的行数。|
@@ -36,7 +36,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | array_formula | str |数组公式。|
 | row_number | int |填充数组公式结果的行数。|
@@ -55,7 +55,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | array_formula | str |数组公式。|
 | row_number | int |填充数组公式结果的行数。|
@@ -64,7 +64,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | is_local | bool |公式是否为语言环境格式|
 ### 评论
 
-注意：此类现在已过时。
+注意：此类现在已过时。反而，
 请使用 Cell.SetArrayFormula(string,int,int,FormulaParseOptions)。
 自 2019 年 12 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。
@@ -80,7 +80,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | array_formula | str |数组公式。|
 | row_number | int |填充数组公式结果的行数。|

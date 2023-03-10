@@ -1,6 +1,6 @@
-﻿---
+---
 title: page_end_saving方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def page_end_saving(self, args):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | args | [PageEndSavingArgs](/cells/zh/python-net/aspose.cells.rendering/pageendsavingargs) |页面信息结束保存过程。|
 

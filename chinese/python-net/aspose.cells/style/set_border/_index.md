@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_border方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -22,7 +22,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/zh/python-net/aspose.cells/bordertype) |要设置的边框，可以是[BorderType](/cells/zh/python-net/aspose.cells/bordertype)的组合。|
 | border_style | [CellBorderType](/cells/zh/python-net/aspose.cells/cellbordertype) |边框的样式。|
@@ -44,7 +44,7 @@ def set_border(self, border_type, border_style, border_color):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | border_type | [BorderType](/cells/zh/python-net/aspose.cells/bordertype) |要设置的边框，可以是[BorderType](/cells/zh/python-net/aspose.cells/bordertype)的组合。|
 | border_style | [CellBorderType](/cells/zh/python-net/aspose.cells/cellbordertype) |边框的样式。|

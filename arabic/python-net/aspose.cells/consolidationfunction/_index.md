@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ConsolidationFunction
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ is_root: false
 | AVERAGE | يمثل دالة متوسط.|
 | MAX | يمثل ماكس وظيفة.|
 | MIN | يمثل وظيفة دقيقة.|
-| PRODUCT | يمثل وظائف المنتج.|
+| PRODUCT | يمثل وظيفة المنتج.|
 | COUNT_NUMS | يمثل وظيفة عدد الأعداد.|
 | STD_DEV | يمثل وظيفة StdDev.|
 | STD_DEVP | يمثل وظيفة StdDevp.|

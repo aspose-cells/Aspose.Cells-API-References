@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_tiff método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def to_tiff(self, stream):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | stream | io.RawIOBase | el flujo de la imagen de salida|
 
@@ -34,11 +34,11 @@ def to_tiff(self, filename):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | filename | str | el nombre de archivo de la imagen de salida|
 
-###  Ejemplos
+###  Ejemplo
 
 El siguiente código genera todas las páginas de la primera hoja en una imagen Tiff.
 

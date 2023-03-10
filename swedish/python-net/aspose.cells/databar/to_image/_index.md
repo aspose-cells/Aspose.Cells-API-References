@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | cell | [Cell](/cells/sv/python-net/aspose.cells/cell) | Ange datafältet i vilken cell som ska renderas|
 | img_opts | aspose.cells.rendering.ImageOrPrintOptions | ImageOrPrintOptions innehåller en viss egenskap för utdatabild|

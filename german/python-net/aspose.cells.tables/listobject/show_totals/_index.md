@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_totals Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals Eigentum
 
-Ruft ab und legt fest, ob dieses ListObject die Gesamtzahl der Zeilen anzeigt.
+Ruft ab und legt fest, ob dieses ListObject die Gesamtzeile anzeigt.
 ###  Definition:
 ```python
 @property

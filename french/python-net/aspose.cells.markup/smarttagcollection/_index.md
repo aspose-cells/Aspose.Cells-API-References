@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type SmartTagCollection expose les membres suivants :
 | :- | :- |
 | [row](/cells/fr/python-net/aspose.cells.markup/smarttagcollection/row) | Obtient la ligne des balises actives de cellule.|
 | [column](/cells/fr/python-net/aspose.cells.markup/smarttagcollection/column) | Obtient la colonne des balises actives de cellule.|
-| [capacity](/cells/fr/python-net/aspose.cells.markup/smarttagcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.markup/smarttagcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes

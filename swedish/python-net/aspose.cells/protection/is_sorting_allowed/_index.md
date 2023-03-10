@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_sorting_allowed fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,8 +13,8 @@ Representerar om sorteringsalternativet är tillåtet på ett skyddat kalkylblad
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
- Använd skydd. AllowSorting-egenskapen.
+ OBS: Denna medlem är nu föråldrad. Istället,
+ använd egenskapen Protection.AllowSorting.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

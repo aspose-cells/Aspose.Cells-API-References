@@ -1,4 +1,4 @@
-﻿---
+---
 title: process_row metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,12 +22,12 @@ def process_row(self, row):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row | [Row](/cells/sv/python-net/aspose.cells/row) | Radobjekt som för närvarande bearbetas.|
 ###  Anmärkningar
 
-Det kommer att kallas efter radens egenskaper som höjd, stil, ... etc.
+Det kommer att kallas efter radens egenskaper som höjd, stil, ... etc. har lästs. Cellerna i den här raden har dock inte lästs ännu.
 
 
 ###  Se även

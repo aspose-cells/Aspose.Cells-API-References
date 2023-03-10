@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد AutoFitMergedCellsType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/autofitmergedcellstype/
 is_root: false
 ---
 ##  العد AutoFitMergedCellsType
-يمثل نوع الخلايا المدمجة ذات الضبط التلقائي.
+يمثل نوع الخلايا المدمجة ذات الملاءمة التلقائية.
 
 
 

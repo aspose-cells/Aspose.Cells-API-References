@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -62,7 +62,7 @@ ChartType türü aşağıdaki üyeleri gösterir:
 | LINE_100_PERCENT_STACKED_WITH_DATA_MARKERS | Veri işaretçileriyle birlikte %100 Yığılmış Çizgi Grafiği temsil eder.|
 | LINE_3D | 3B Çizgi Grafiği Temsil Eder.|
 | PIE | Pasta Grafiği temsil eder.|
-| PIE_3D | 3B pasta grafikleri temsil eder.|
+| PIE_3D | 3B Pasta Grafiği temsil eder.|
 | PIE_PIE | Pasta Grafiğinin Pastasını temsil eder.|
 | PIE_EXPLODED | Patlatılmış Pasta Grafiği temsil eder.|
 | PIE_3D_EXPLODED | 3B Patlatılmış Pasta Grafiği temsil eder.|
@@ -98,7 +98,7 @@ ChartType türü aşağıdaki üyeleri gösterir:
 | WATERFALL | Dizi bir şelale olarak düzenlenmiştir.|
 | HISTOGRAM | Seri, histogram olarak düzenlenmiştir.|
 | MAP | Seri, bir bölge haritası olarak düzenlenmiştir.|
-| RADIAL_HISTOGRAM | Seri, radyal bir histogram olarak düzenlenmiştir.|
+| RADIAL_HISTOGRAM | Seri, radyal bir histogram olarak düzenlenmiştir. Sadece render için kullanılır.|
 
 
 

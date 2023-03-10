@@ -1,4 +1,4 @@
-﻿---
+---
 title: list_width недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  list_width недвижимость
 
-Получает и задает ширину в пунктах.
+Получает и устанавливает ширину в пунктах.
 ###  Определение:
 ```python
 @property

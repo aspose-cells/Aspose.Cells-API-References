@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_right_to_left недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

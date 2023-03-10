@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_width_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_width_inch Eigentum
 
-Ruft die ursprüngliche Breite des Bilds in Zolleinheiten ab.
+Ruft die Originalbreite des Bildes in Zoll ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

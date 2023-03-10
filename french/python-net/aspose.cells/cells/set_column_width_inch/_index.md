@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_column_width_inch méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_column_width_inch(self, column, inches):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | column | int | Indice de colonne.|
 | inches | float | Nombre de pouces.|

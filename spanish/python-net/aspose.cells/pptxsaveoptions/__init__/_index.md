@@ -1,4 +1,4 @@
-﻿---
+---
 title: PptxSaveOptions constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | save_as_image | bool | Si es Verdadero, el libro de trabajo se convertirá en algunas imágenes del archivo .pptx.<br/> Si es falso, el libro de trabajo se convertirá en algunas tablas del archivo .pptx.|
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_default_encrypted 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 270
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-现在默认为false，和MS Excel 2013一样。
+现在默认值为 false。它与 MS Excel 2013 相同。
 ### 定义：
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_column_name metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.tables/listobjectcollection/update_column_name/
 is_root: false
 ---
 ##  update_column_name() {#}
-Uppdatera alla kolumnnamn i tabellerna.
+Uppdatera alla kolumnnamn för tabellerna.
 
 
 

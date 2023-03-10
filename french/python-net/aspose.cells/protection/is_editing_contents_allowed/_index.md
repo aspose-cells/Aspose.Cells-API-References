@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_editing_contents_allowed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,8 +13,8 @@ Représente si l'utilisateur est autorisé à modifier le contenu des cellules v
 
 ###  Remarques
 
- REMARQUE : ce membre est désormais obsolète.
- veuillez utiliser la propriété Protection. Autoriser la modification du contenu.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
+ veuillez utiliser la propriété Protection.AllowEditingContent.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

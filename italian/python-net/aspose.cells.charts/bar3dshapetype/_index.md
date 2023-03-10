@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bar3DShapeType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,10 +19,10 @@ Il tipo Bar3DShapeType espone i membri seguenti:
 | :- | :- |
 | BOX | Scatola|
 | PYRAMID_TO_POINT | PyramidToPoint|
-| PYRAMID_TO_MAX | Piramide al massimo|
+| PYRAMID_TO_MAX | PyramidToMax|
 | CYLINDER | Cilindro|
-| CONE_TO_POINT | Cono a punta|
-| CONE_TO_MAX | Cono a max|
+| CONE_TO_POINT | ConoAPunto|
+| CONE_TO_MAX | ConeToMax|
 
 
 

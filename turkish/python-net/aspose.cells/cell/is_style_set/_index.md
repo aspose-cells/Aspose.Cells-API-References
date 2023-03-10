@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_style_set mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_style_set mülk
 
-Hücrenin stilinin ayarlanıp ayarlanmadığını gösterir. false döndürürse, bu hücrenin varsayılan bir hücre formatına sahip olduğu anlamına gelir.
+Hücre stilinin ayarlanıp ayarlanmadığını gösterir. false döndürürse, bu hücrenin varsayılan bir hücre formatına sahip olduğu anlamına gelir.
 ###  Tanım:
 ```python
 @property

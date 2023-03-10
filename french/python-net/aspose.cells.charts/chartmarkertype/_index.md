@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartMarkerType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -28,7 +28,7 @@ Le type ChartMarkerType expose les membres suivants :
 | SQUARE_STAR | Marqueurs carrés avec un astérisque.|
 | TRIANGLE | Marqueurs triangulaires.|
 | SQUARE_X | Marqueurs carrés avec un X.|
-| PICTURE | Des photos|
+| PICTURE | Image|
 
 
 

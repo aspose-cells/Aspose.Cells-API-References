@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تعيين العرض ، بالنقاط ، لكل عمود في أداة تقطيع الشرائح.
 
-###  أمثلة
+###  مثال
 
 ```python
 

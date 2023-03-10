@@ -1,4 +1,4 @@
-﻿---
+---
 title: pivot_table_style_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  pivot_table_style_type الملكية
 
-الحصول على نمط الجدول المحوري المدمج وتعيينه.
+الحصول على نمط الجدول المحوري المضمن وتعيينه.
 ###  تعريف:
 ```python
 @property

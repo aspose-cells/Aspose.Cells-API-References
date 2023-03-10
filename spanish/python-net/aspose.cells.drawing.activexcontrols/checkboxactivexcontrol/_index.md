@@ -1,4 +1,4 @@
-﻿---
+---
 title: CheckBoxActiveXControl clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -44,7 +44,7 @@ El tipo CheckBoxActiveXControl expone los siguientes miembros:
 | [font](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/font) | Representa la fuente del control.|
 | [text_align](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/text_align) | Representa cómo alinear el texto utilizado por el control.|
 | [group_name](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/group_name) | Obtiene y establece el nombre del grupo.|
-| [alignment](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/alignment) | Obtiene y establece la posición de Caption en relación con el control.|
+| [alignment](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/alignment) | Obtiene y establece la posición del Caption en relación con el control.|
 | [is_word_wrapped](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_word_wrapped) | Indica si el contenido del control se ajusta automáticamente al final de una línea.|
 | [caption](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/caption) | Obtiene y establece el texto descriptivo que aparece en un control.|
 | [picture_position](/cells/es/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture_position) | Obtiene y establece la ubicación de la imagen del control en relación con su título.|

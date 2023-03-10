@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModuleCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [add(sheet)](/cells/ru/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Добавляет модули для рабочего листа.|
+| [add(sheet)](/cells/ru/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Добавляет модуль для рабочего листа.|
 | [add(type, name)](/cells/ru/python-net/aspose.cells.vba/vbamodulecollection/add/#VbaModuleType-str) | Добавляет модуль.|
 | [copy_to(array)](/cells/ru/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#list) | Копирует весь список массивов в совместимый список одномерных массивов, начиная с начала целевого списка массивов.|
 | [copy_to(index, array, array_index, count)](/cells/ru/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#int-list-int-int) |Копирует диапазон элементов из списка массивов в совместимый список одномерных массивов, начиная с указанного индекса целевого списка массивов.|
@@ -38,7 +38,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

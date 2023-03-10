@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlMousePointerType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -27,7 +27,7 @@ ControlMousePointerType türü aşağıdaki üyeleri gösterir:
 | SIZE_WE | Batı ve doğuyu gösteren çift ok.|
 | UP_ARROW | Yukarı ok.|
 | HOUR_GLASS | Kum saati.|
-| NO_DROP | Sürüklenen nesnenin üstündeki "değil" sembolü (çapraz çizgili daire).|
+| NO_DROP | Sürüklenen nesnenin üstündeki "Değil" sembolü (çapraz çizgili daire).|
 | APP_STARTING | Bir kum saati ile ok.|
 | HELP | Soru işareti olan ok.|
 | SIZE_ALL |"Tümünü boyutlandır" imleci (kuzey, güney, doğu ve batıyı gösteren oklar).|

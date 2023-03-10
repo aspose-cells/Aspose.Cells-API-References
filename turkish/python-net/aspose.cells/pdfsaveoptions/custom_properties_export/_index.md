@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_properties_export mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_properties_export mülk
 
-[CustomDocumentPropertyCollection](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection)'in PDF dosyasına nasıl aktarılacağını belirleyen bir değer alır veya ayarlar.Varsayılan değer Yok'tur.
+[CustomDocumentPropertyCollection](/cells/tr/python-net/aspose.cells.properties/customdocumentpropertycollection)'in PDF dosyasına nasıl aktarılacağını belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.
 ###  Tanım:
 ```python
 @property

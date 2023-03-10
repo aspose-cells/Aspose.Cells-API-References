@@ -1,6 +1,6 @@
-﻿---
+---
 title: next_row方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
--1 表示已到达当前工作表数据的末尾，并且不再保存当前工作表的其他行。
+要保存的下一行索引。 -1 表示已到达当前工作表数据的末尾，并且不再保存当前工作表的其他行。
 
 
 ```python

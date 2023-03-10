@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingValue Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/conditionalformattingvalue/
 is_root: false
 ---
 ##  ConditionalFormattingValue Klasse
-Beschreibt die Werte der Stützpunkte in einer Verlaufsskala, dataBar oder iconSet.
+Beschreibt die Werte der Interpolationspunkte in einer Gradientenskala, dataBar oder iconSet.
 
 
 

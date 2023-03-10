@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.revisions
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,7 +24,7 @@ is_root: false
 | [RevisionHeader](/cells/es/python-net/aspose.cells.revisions/revisionheader) | Representa una lista de cambios específicos que se han realizado para este libro.|
 | [RevisionInsertDelete](/cells/es/python-net/aspose.cells.revisions/revisioninsertdelete) | Representa un registro de revisión de una acción de inserción/eliminación de fila/columna.|
 | [RevisionInsertSheet](/cells/es/python-net/aspose.cells.revisions/revisioninsertsheet) | Representa un registro de revisión de una hoja que se insertó.|
-| [RevisionLog](/cells/es/python-net/aspose.cells.revisions/revisionlog) |Representa el registro de revisiones.|
+| [RevisionLog](/cells/es/python-net/aspose.cells.revisions/revisionlog) |Representa el registro de revisión.|
 | [RevisionLogCollection](/cells/es/python-net/aspose.cells.revisions/revisionlogcollection) | Representa todos los registros de revisión.|
 | [RevisionMergeConflict](/cells/es/python-net/aspose.cells.revisions/revisionmergeconflict) | Representa un registro de revisión que indica que hubo un conflicto de combinación.|
 | [RevisionQueryTable](/cells/es/python-net/aspose.cells.revisions/revisionquerytable) | Representa una revisión de un cambio de campo de la tabla de consulta.|

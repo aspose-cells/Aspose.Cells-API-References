@@ -1,4 +1,4 @@
-﻿---
+---
 title: Walls класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -46,7 +46,7 @@ is_root: false
 | Метод| Описание|
 | :- | :- |
 | [get_cube_point_count()](/cells/ru/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | Получает количество точек куба после вызова метода Chart.Calculate().|
-| [get_cube_point_x_px(index)](/cells/ru/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Получает x-координаты точки вершины куба стен после вызова метода Chart.Calculate().<br/> Количество вершин куба стен равно восьми.|
+| [get_cube_point_x_px(index)](/cells/ru/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Получает x-координату точки вершины куба стен после вызова метода Chart.Calculate().<br/> Количество вершин куба стен равно восьми.|
 | [get_cube_point_y_px(index)](/cells/ru/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Получает координату y точки вершины куба стен после вызова метода Chart.Calculate().<br/> Количество вершин куба стен равно восьми.|
 
 

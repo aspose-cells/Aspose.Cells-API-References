@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_inch Eigentum
 
-Stellt die Breite des Kommentars in Zolleinheiten dar.
+Stellt die Breite des Kommentars in Zoll dar.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

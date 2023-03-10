@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة copy_in_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_shapes | [ShapeCollection](/cells/ar/python-net/aspose.cells.drawing/shapecollection) | أشكال المصدر.|
 | ca | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | نطاق المصدر.|
@@ -26,7 +26,7 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 | dest_column | int | عمود الوجهة من نطاق الوجهة.|
 | is_contained | bool | ما إذا كان يتم نسخ الأشكال المضمنة في النطاق فقط.<br/> إذا كان صحيحًا ، فقم بنسخ الأشكال الموجودة في النطاق فقط.<br/> خلاف ذلك ، يعمل مثل MS Office.|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea

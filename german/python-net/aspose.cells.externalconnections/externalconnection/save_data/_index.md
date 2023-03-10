@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_data Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  save_data Eigentum
 
 True, wenn die über die Verbindung abgerufenen externen Daten zum Füllen einer Tabelle gespeichert werden sollen
-mit der Arbeitsmappe, andernfalls false.
+mit dem Arbeitsbuch; andernfalls falsch.
 ###  Definition:
 ```python
 @property

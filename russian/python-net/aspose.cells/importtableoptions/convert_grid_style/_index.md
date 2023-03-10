@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_grid_style недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  convert_grid_style недвижимость
 
-Указывает, следует ли применять стиль представления сетки к ячейкам.
+Указывает, применяется ли стиль представления сетки к ячейкам.
 ###  Определение:
 ```python
 @property

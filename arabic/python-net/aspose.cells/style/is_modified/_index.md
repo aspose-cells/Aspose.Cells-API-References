@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_modified
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ def is_modified(self, modify_flag):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | modify_flag | [StyleModifyFlag](/cells/ar/python-net/aspose.cells/stylemodifyflag) | أعلام معدلة النمط|
 

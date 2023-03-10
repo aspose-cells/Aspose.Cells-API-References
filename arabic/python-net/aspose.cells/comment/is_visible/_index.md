@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_visible الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل ما إذا كان التعليق مرئيًا أم لا.
 
-###  أمثلة
+###  مثال
 
 ```python
 

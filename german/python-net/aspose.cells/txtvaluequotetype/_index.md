@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtValueQuoteType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,10 +17,10 @@ Der Typ TxtValueQuoteType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| NORMAL | Alle Werte, die Sonderzeichen wie Anführungszeichen, Trennzeichen enthalten, werden in Anführungszeichen gesetzt.<br/> Gleiches gilt für das Verhalten von MS Excel beim Exportieren von Textdateien.|
-| ALWAYS | Alle Werte werden immer angegeben.|
-| MINIMUM | Werte nur bei Bedarf in Anführungszeichen setzen Wenn beispielsweise ein Wert Anführungszeichen enthält, das Anführungszeichen jedoch nicht am Anfang dieses Werts steht, wird dieser Wert nicht in Anführungszeichen gesetzt.|
-| NEVER | Alle Werte werden nicht in Anführungszeichen gesetzt.Die exportierte Textdatei mit diesem Typ wird möglicherweise nicht korrekt zurückgelesen, da die erforderlichen Anführungszeichen fehlen.|
+| NORMAL | Alle Werte, die Sonderzeichen wie Anführungszeichen oder Trennzeichen enthalten, werden in Anführungszeichen gesetzt.<br/> Gleiches gilt für das Verhalten von MS Excel beim Exportieren von Textdateien.|
+| ALWAYS | Alle Werte werden immer zitiert.|
+| MINIMUM | Werte nur bei Bedarf angeben. Wenn beispielsweise ein Wert Anführungszeichen enthält, das Anführungszeichen jedoch nicht am Anfang dieses Werts steht, wird dieser Wert nicht in Anführungszeichen gesetzt.|
+| NEVER | Alle Werte werden nicht zitiert. Die exportierte Textdatei dieses Typs wird möglicherweise nicht korrekt zurückgelesen, da die erforderlichen Anführungszeichen fehlen.|
 
 
 

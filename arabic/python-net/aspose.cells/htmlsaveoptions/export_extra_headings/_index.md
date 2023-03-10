@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_extra_headings الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  export_extra_headings الملكية
 
 يشير إلى ما إذا كان تصدير عناوين إضافية عندما يكون طول النص أطول من الحد الأقصى لعمود العرض.
-القيمة الافتراضية هي كاذبة.
+القيمة الافتراضية هي كاذبة. إذا كنت تريد استيراد ملف html إلى Excel ، فيرجى الاحتفاظ بالقيمة الافتراضية.
 ###  تعريف:
 ```python
 @property

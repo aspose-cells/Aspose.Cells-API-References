@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPointCollection indicizzatore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene l'elemento [ChartPoint](/cells/it/python-net/aspose.cells.charts/chartpo
 ###  Indicizzatore
 | Nome| Descrizione|
 | :- | :- |
-| index | L'indice dei punti del grafico nella serie.|
+| index | L'indice del punto grafico nella serie.|
 
 
 

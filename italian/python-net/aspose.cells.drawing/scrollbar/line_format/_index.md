@@ -1,4 +1,4 @@
-﻿---
+---
 title: line_format proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,8 +13,8 @@ Restituisce un oggetto MsoLineFormat che contiene le proprietà di formattazione
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
- Utilizzare la proprietà Shape.Line.
+ NOTA: questo membro è ora obsoleto. Invece,
+ si prega di utilizzare la proprietà Shape.Line.
  Questa proprietà verrà rimossa 12 mesi dopo da luglio 2016.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_permission الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission الملكية
 
-إذن لطباعة مستندات pdf
+إذن لطباعة وثيقة pdf
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Renvoie un objet Characters qui représente une plage de characters dans le text
 
 ###  Retour
 
-Objets de caractère.
+Objet personnages.
 
 
 ```python
@@ -22,14 +22,14 @@ def characters(self, start_index, length):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_index | int | L'index du début du caractère.|
 | length | int | Le nombre de caractères.|
 ###  Remarques
 
-Cette méthode ne fonctionne que sur les cellules contenant des valeurs de chaîne.
-###  Exemples
+Cette méthode ne fonctionne que sur une cellule avec une valeur de chaîne.
+###  Exemple
 
 
 ```python

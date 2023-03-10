@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_scale fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  page_scale fastighet
 
 Får beräknad sidskala på arket.
-Returnerar den inställda skalan om [PageSetup.zoom](/cells/sv/python-net/aspose.cells/pagesetup#zoom) är inställd.
+Returnerar den inställda skalan om [PageSetup.zoom](/cells/sv/python-net/aspose.cells/pagesetup#zoom) är inställd. I annat fall returnerar den beräknade skalan enligt [PageSetup.fit_to_pages_wide](/cells/sv/python-net/aspose.cells/pagesetup#fit_to_pages_wide) och [PageSetup.fit_to_pages_tall](/cells/sv/python-net/aspose.cells/pagesetup#fit_to_pages_tall).
 
 ###  Exempel
 

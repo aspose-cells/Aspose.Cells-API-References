@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ Typen FolderFontSource avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/sv/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Direktör.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/sv/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
 
 
 ###  Egenskaper

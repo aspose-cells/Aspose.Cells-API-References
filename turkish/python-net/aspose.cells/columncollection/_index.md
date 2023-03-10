@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColumnCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,11 +8,11 @@ url: /tr/python-net/aspose.cells/columncollection/
 is_root: false
 ---
 ##  ColumnCollection sınıfı
-Bir çalışma sayfasındaki tek tek sütunları (ayarları) temsil eden [Column](/cells/tr/python-net/aspose.cells/column) nesnelerinin toplanması.
-Column nesnesi yalnızca sütun genişliği, stiller, .vb. gibi ayarları temsil eder.
-karşılık gelen sütunlarda boş olmayan hücrelerin (verilerin) olup olmamasıyla hiçbir ilgisi yoktur.
+Bir çalışma sayfasındaki tek tek sütunları(ayarları) temsil eden [Column](/cells/tr/python-net/aspose.cells/column) nesnelerinin toplanması.
+Column nesnesi yalnızca sütun genişliği, stiller, .vb. gibi ayarları temsil eder. tüm sütun için,
+karşılık gelen sütunda boş olmayan hücrelerin (verilerin) olup olmamasıyla hiçbir ilgisi yoktur.
 Ve bu koleksiyonun "Count" değeri yalnızca bu koleksiyonda başlatılmış olan Count Column nesnelerini temsil eder.
-çalışma sayfasında boş olmayan hücrelerin (verilerin) olup olmamasıyla ilgisi yoktur.
+çalışma sayfasında boş olmayan hücrelerin (verilerin) olup olmamasıyla hiçbir ilgisi yoktur.
 
 
 
@@ -40,7 +40,7 @@ ColumnCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ConditionalFormattingCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -36,7 +36,7 @@ Il tipo ConditionalFormattingCollection espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: anchor_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  anchor_type الملكية
 
-الحصول على العنصر النائب للشكل وتعيينه.
+الحصول على الشكل وتعيين العنصر النائب لنقطة الارتساء.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import ShapeAnchorType

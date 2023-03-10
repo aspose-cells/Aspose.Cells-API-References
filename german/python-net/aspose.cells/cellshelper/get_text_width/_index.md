@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_text_width Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

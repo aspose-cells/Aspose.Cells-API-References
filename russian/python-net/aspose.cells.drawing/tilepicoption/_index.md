@@ -1,4 +1,4 @@
-﻿---
+---
 title: TilePicOption класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/tilepicoption/
 is_root: false
 ---
 ##  TilePicOption класс
-Представляет мозаичные изображения в виде текстур.
+Представляет изображение плитки в виде текстуры.
 
 
 

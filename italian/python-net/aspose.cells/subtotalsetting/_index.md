@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe SubtotalSetting
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

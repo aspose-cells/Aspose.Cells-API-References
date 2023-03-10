@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_area الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  ملاحظات
 
 إذا تم تحديد المساحة المصدرة ، [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/ar/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-لن يكون لها أي تأثير.
+لن يكون له أي تأثير.
 ###  تعريف:
 ```python
 @property

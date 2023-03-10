@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_width_of_value Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

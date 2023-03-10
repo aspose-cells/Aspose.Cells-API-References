@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_all_drawing_objects método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/worksheet/remove_all_drawing_objects/
 is_root: false
 ---
 ##  remove_all_drawing_objects() {#}
-Elimina todos los objetos de dibujo de esta hoja de trabajo.
+Elimina todos los objetos de dibujo de esta hoja de cálculo.
 
 
 

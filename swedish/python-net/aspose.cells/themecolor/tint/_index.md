@@ -1,4 +1,4 @@
-﻿---
+---
 title: tint fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,8 +13,8 @@ Hämtar och ställer in värdet tint.
 
 ###  Anmärkningar
 
- Värdet tint lagras som en dubbel från -1,0 .. 1,0, där -1,0 betyder 100 % mörk
-och 1.0 betyder 100 % ljusare. Dessutom betyder 0.0 ingen förändring.
+ Värdet tint lagras som en dubbel från -1,0 .. 1,0, där -1,0 betyder 100 % mörkare
+och 1,0 betyder 100% ljusare. Dessutom betyder 0,0 ingen förändring.
 ###  Definition:
 ```python
 @property

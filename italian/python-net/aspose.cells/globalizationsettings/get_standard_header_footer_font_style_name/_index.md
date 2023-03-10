@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_standard_header_footer_font_style_name
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene il nome dello stile del carattere inglese standard (regolare, grassetto,
 
 ###  ritorna
 
-Nome dello stile del carattere inglese standard (regolare, grassetto, corsivo)
+Nome dello stile del carattere inglese standard (normale, grassetto, corsivo)
 
 
 ```python
@@ -22,7 +22,7 @@ def get_standard_header_footer_font_style_name(self, localfont_style_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | localfont_style_name | str | Nome stile carattere locale per intestazione/piè di pagina.|
 

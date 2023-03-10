@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_column_width Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

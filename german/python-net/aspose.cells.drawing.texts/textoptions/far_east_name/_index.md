@@ -1,4 +1,4 @@
-﻿---
+---
 title: far_east_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  far_east_name Eigentum
 
-Ruft den Fernost-Namen ab und legt ihn fest.
+Ruft den FarEast-Namen ab und legt ihn fest.
 ###  Definition:
 ```python
 @property

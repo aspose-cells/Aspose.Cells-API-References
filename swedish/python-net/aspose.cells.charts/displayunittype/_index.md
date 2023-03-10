@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen DisplayUnitType avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | NONE | Displayenheten är ingen.|
-| HUNDREDS | Anger värdena på diagrammet ska delas med 100.|
+| HUNDREDS | Anger att värdena på diagrammet ska delas med 100.|
 | THOUSANDS | Anger värdena på diagrammet ska delas med 1 000.|
 | TEN_THOUSANDS | Anger värdena på diagrammet ska delas med 10 000.|
 | HUNDRED_THOUSANDS | Anger värdena på diagrammet ska delas med 100 000.|

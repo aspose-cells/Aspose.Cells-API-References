@@ -1,4 +1,4 @@
-﻿---
+---
 title: change_palette método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def change_palette(self, color, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Estructura de colores.|
 | index | int | Índice de paleta, 0 - 55.|
@@ -57,13 +57,13 @@ La siguiente es la paleta de colores estándar.
 | color18| 153| 51| 102 |
 | color19| 255| 255| 204 |
 | color20| 204| 255| 255 |
-| Color21| 102| 0| 102 |
-| Color22| 255| 128| 128 |
+| color21| 102| 0| 102 |
+| color22| 255| 128| 128 |
 | color23| 0| 102| 204 |
 | color24| 204| 204| 255 |
 | color25| 0| 0| 128 |
 | color26| 255| 0| 255 |
-| Color27| 255| 255| 0 |
+| color27| 255| 255| 0 |
 | color28| 0| 255| 255 |
 | color29| 128| 0| 128 |
 | color30| 128| 0| 0 |
@@ -81,17 +81,17 @@ La siguiente es la paleta de colores estándar.
 | Color42| 51| 204| 204 |
 | Color43| 153| 204| 0 |
 | color44| 255| 204| 0 |
-| color45| 255| 153| 0 |
+| Color45| 255| 153| 0 |
 | color46| 255| 102| 0 |
-| color47| 102| 102| 153 |
+| Color47| 102| 102| 153 |
 | color48| 150| 150| 150 |
 | Color49| 0| 51| 102 |
 | color50| 51| 153| 102 |
 | Color51| 0| 51| 0 |
 | Color52| 51| 51| 0 |
 | Color53| 153| 51| 0 |
-|Color54| 153| 51| 102 |
-| Color55| 51| 51| 153 |
+|color54| 153| 51| 102 |
+| color55| 51| 51| 153 |
 | Color56| 51| 51| 51 |
 
 

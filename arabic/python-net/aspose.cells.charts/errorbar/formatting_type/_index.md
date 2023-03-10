@@ -1,4 +1,4 @@
-﻿---
+---
 title: formatting_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  formatting_type الملكية
 
-يحصل أو يحدد نوع التنسيق.
+الحصول على نوع التنسيق أو تعيينه.
 ###  تعريف:
 ```python
 @property

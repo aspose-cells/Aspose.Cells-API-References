@@ -1,6 +1,6 @@
-﻿---
+---
 title: light_cells_data_provider 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## light_cells_data_provider 属性
 
-数据提供者提供单元格数据以在浅色模式下保存工作簿。
+数据提供者提供单元格数据以在轻模式下保存工作簿。
 ### 定义：
 ```python
 @property

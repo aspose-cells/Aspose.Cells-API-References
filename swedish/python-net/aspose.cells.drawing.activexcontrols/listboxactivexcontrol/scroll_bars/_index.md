@@ -1,4 +1,4 @@
-﻿---
+---
 title: scroll_bars fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scroll_bars fastighet
 
-Indikerar om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.
+Indikerar anger om kontrollen har vertikala rullningslister, horisontella rullningslister, båda eller ingetdera.
 ###  Definition:
 ```python
 @property

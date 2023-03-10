@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ReplaceOptions
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -24,8 +24,8 @@ Il tipo ReplaceOptions espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [case_sensitive](/cells/it/python-net/aspose.cells/replaceoptions/case_sensitive) | Indica se la stringa cercata fa distinzione tra maiuscole e minuscole.|
-| [match_entire_cell_contents](/cells/it/python-net/aspose.cells/replaceoptions/match_entire_cell_contents) | Indica se corrispondere all'intero contenuto della cella|
-| [regex_key](/cells/it/python-net/aspose.cells/replaceoptions/regex_key) | Indica se la chiave cercata è regex. Se vero, la chiave cercata verrà considerata come regex.|
+| [match_entire_cell_contents](/cells/it/python-net/aspose.cells/replaceoptions/match_entire_cell_contents) | Indica se far corrispondere il contenuto di intere celle|
+| [regex_key](/cells/it/python-net/aspose.cells/replaceoptions/regex_key) | Indica se la chiave cercata è regex. Se true, la chiave cercata verrà considerata come regex.|
 
 
 

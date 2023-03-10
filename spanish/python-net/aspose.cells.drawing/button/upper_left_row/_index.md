@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_left_row propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Representa el índice de la fila de la esquina superior izquierda.
 
 Si la forma está en la forma o en el grupo, se ignorará UpperLeftRow.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

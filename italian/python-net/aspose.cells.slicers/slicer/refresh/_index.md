@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo refresh
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Aggiornamento dell'affettatrice Nel frattempo, aggiornamento e calcolo delle tabelle pivot relative.
+Aggiornamento dell'affettatrice. Nel frattempo, aggiornamento e calcolo delle relative tabelle pivot.
 
 
 
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 

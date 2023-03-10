@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,11 +22,11 @@ def add(self, url):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | url | str | bir xml/xsd dosyasının url/yolu.|
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, bir xsd dosyası ve bir xml dosyası tarafından iki XmlMaps ekler.
 

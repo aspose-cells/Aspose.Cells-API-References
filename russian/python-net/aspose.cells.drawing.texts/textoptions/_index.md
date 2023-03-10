@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -42,10 +42,10 @@ is_root: false
 | [scheme_type](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Получает и задает тип схемы шрифта.|
 | [language_code](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Получает и задает язык пользовательского интерфейса.|
 | [latin_name](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Получает и задает латинское имя.|
-| [far_east_name](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Получает и задает название Дальнего Востока.|
+| [far_east_name](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Получает и задает имя FarEast.|
 | [fill](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/fill) | Представляет формат заполнения текста.|
 | [outline](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/outline) | Представляет формат структуры текста.|
-| [shadow](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), задающий эффект тени для элемента диаграммы или фигуры.|
+| [shadow](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Представляет объект [ShadowEffect](/cells/ru/python-net/aspose.cells.drawing/shadoweffect), определяющий эффект тени для элемента диаграммы или фигуры.|
 | [underline_color](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Получает или задает цвет подчеркивания.|
 | [kerning](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Указывает минимальный размер шрифта, при котором будет выполняться кернинг символов для этого прогона текста.|
 | [spacing](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Задает интервал между символами в текстовом ряду.|

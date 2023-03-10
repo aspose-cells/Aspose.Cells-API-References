@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد LineSpaceSizeType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | PERCENTAGE | يمثل وحدة نسبة مئوية من حجم النص.|
-| POINTS | يمثل وحدات من النقاط.|
+| POINTS | يمثل وحدة النقاط.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_frame_scripts_and_properties الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_frame_scripts_and_properties الملكية
 
-الإشارة إلى ما إذا كان تصدير البرامج النصية للإطار وخصائص المستند أم لا. القيمة الافتراضية هي صحيحة ، إذا كنت تريد استيراد ملف html أو mht
+الإشارة إلى ما إذا كان يتم تصدير البرامج النصية للإطار وخصائص المستند. القيمة الافتراضية هي true ، إذا كنت تريد استيراد ملف html أو mht
 للتفوق ، يرجى الاحتفاظ بالقيمة الافتراضية.
 ###  تعريف:
 ```python

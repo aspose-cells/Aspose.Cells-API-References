@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -62,7 +62,7 @@ Der Typ ChartType macht die folgenden Member verfügbar:
 | LINE_100_PERCENT_STACKED_WITH_DATA_MARKERS | Stellt ein 100 % gestapeltes Liniendiagramm mit Datenmarkierungen dar.|
 | LINE_3D | Stellt ein 3D-Liniendiagramm dar.|
 | PIE | Stellt Kreisdiagramm dar.|
-| PIE_3D | Stellt 3D-Kreisdiagramme dar.|
+| PIE_3D | Stellt ein 3D-Kreisdiagramm dar.|
 | PIE_PIE | Stellt ein Kreisdiagramm dar.|
 | PIE_EXPLODED | Stellt ein explodiertes Kreisdiagramm dar.|
 | PIE_3D_EXPLODED | Stellt ein explodiertes 3D-Kreisdiagramm dar.|
@@ -92,13 +92,13 @@ Der Typ ChartType macht die folgenden Member verfügbar:
 | SURFACE_CONTOUR_WIREFRAME | Stellt das Drahtmodell-Konturdiagramm dar.|
 | BOX_WHISKER | Die Serie ist als Box und Whisker angelegt.|
 | FUNNEL | Die Reihe ist als Trichter angelegt.|
-| PARETO_LINE | Die Reihe ist als Pareto-Linien angelegt.|
+| PARETO_LINE | Die Reihe ist als Pareto-Linien ausgelegt.|
 | SUNBURST |Die Serie ist als Sunburst angelegt.|
 | TREEMAP | Die Serie ist als Baumkarte angelegt.|
 | WATERFALL | Die Serie ist als Wasserfall angelegt.|
 | HISTOGRAM | Die Reihe ist als Histogramm angelegt.|
 | MAP | Die Serie ist als Regionskarte angelegt.|
-| RADIAL_HISTOGRAM | Die Reihe ist als radiales Histogramm angelegt.|
+| RADIAL_HISTOGRAM | Die Reihe ist als radiales Histogramm angelegt. Es wird nur zum Rendern verwendet|
 
 
 

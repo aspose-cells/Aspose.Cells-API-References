@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo show_group_detail
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | is_vertical | bool | Vero, espande le righe raggruppate.|
 | index | int | L'indice di riga/colonna|

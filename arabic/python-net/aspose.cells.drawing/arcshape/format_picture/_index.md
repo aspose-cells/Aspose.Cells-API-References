@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_picture الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على خيارات تنسيق الصورة وتعيينها.
 
-###  أمثلة
+###  مثال
 
 ```python
 

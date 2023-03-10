@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_null_string fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  display_null_string fastighet
 
 Anger om pivottabellsrapporten visar en anpassad sträng
-celler som innehåller nullvärden.
+celler som innehåller nollvärden.
 ###  Definition:
 ```python
 @property

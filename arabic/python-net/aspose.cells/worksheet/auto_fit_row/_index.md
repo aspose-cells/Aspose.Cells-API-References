@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة auto_fit_row
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def auto_fit_row(self, row_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 ###  ملاحظات
@@ -37,7 +37,7 @@ def auto_fit_row(self, row_index, first_column, last_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 | first_column | int | فهرس العمود الأول.|
@@ -58,7 +58,7 @@ def auto_fit_row(self, row_index, first_column, last_column, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row_index | int | فهرس الصف.|
 | first_column | int | فهرس العمود الأول.|
@@ -80,7 +80,7 @@ def auto_fit_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_row | int | فهرس صف البداية.|
 | end_row | int | فهرس صف النهاية.|

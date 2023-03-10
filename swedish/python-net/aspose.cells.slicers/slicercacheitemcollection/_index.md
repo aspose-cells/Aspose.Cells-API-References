@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItemCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.slicers/slicercacheitemcollection/
 is_root: false
 ---
 ##  SlicerCacheItemCollection klass
-Representera samlingen av SlicerCacheItems
+Representera samlingen av SlicerCacheItem
 
 
 

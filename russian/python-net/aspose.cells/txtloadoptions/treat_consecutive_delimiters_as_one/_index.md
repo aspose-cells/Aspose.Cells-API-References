@@ -1,4 +1,4 @@
-﻿---
+---
 title: treat_consecutive_delimiters_as_one недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

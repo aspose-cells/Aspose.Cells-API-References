@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPictureType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,7 +19,7 @@ Der Typ FillPictureType macht die folgenden Member verfügbar:
 | :- | :- |
 | STRETCH | Strecken|
 | STACK | Stapel|
-| STACK_AND_SCALE | Stapeln und skalieren|
+| STACK_AND_SCALE | StackAndScale|
 
 
 

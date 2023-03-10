@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def __init__(self, workbook, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Ange vilken arbetsbok som ska renderas.|
 | options | [ImageOrPrintOptions](/cells/sv/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions innehåller en viss egenskap för utdatabild|

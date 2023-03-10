@@ -1,4 +1,4 @@
-﻿---
+---
 title: content_status الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

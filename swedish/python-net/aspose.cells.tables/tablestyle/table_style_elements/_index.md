@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_style_elements fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

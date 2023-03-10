@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_series_by_order方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 70
@@ -22,7 +22,7 @@ def get_series_by_order(self, order):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | order | int |系列的顺序|
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: OoxmlSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1120
@@ -41,7 +41,7 @@ OoxmlSaveOptions 类型公开了以下成员：
 | [warning_callback](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/warning_callback) |获取或设置警告回调。|
 | [update_smart_art](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/update_smart_art) |指示是否更新智能艺术设置。<br/>默认值为假。|
 | [export_cell_name](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/export_cell_name) |指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。<br/>如果 SQL Server DTS 可以访问输出文件，则此值必须为真。<br/>将值设置为 false 将大大提高性能并在创建大文件时减小文件大小。<br/>默认值为真。|
-| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在浅色模式下保存工作簿。|
+| [light_cells_data_provider](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/light_cells_data_provider) |数据提供者提供单元格数据以在轻模式下保存工作簿。|
 | [update_zoom](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/update_zoom) |指示是否在保存文件之前更新比例因子<br/>如果 PageSetup.FitToPagesWide 和 PageSetup.FitToPagesTall 属性控制工作表的缩放方式。|
 | [enable_zip64](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/enable_zip64) |编写 zip 存档时始终使用 ZIP64 扩展名，即使在不必要时也是如此。|
 | [embed_ooxml_as_ole_object](/cells/zh/python-net/aspose.cells/ooxmlsaveoptions/embed_ooxml_as_ole_object) |指示是否将 OleObject 的 Ooxml 文件嵌入为 ole 对象。|

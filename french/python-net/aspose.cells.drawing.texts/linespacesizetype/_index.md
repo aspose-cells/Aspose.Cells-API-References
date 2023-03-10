@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineSpaceSizeType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type LineSpaceSizeType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | PERCENTAGE | Représente en unité de pourcentage la taille du texte.|
-| POINTS | Représente en unités de points.|
+| POINTS | Représente en unité de points.|
 
 
 

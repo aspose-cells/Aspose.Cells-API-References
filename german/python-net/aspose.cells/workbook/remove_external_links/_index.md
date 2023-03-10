@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_external_links Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,7 +20,7 @@ def remove_external_links(self):
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die Methode ExternalLinkCollection.Clear().
  Diese Methode wird 12 Monate später seit Dezember 2021 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: area Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  area Eigentum
 
-Ruft den Bereich der Hyperlinks ab.
+Ruft den Bereich des Hyperlinks ab.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_position недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, можно ли перемещать указанный срез или изменять его размер с помощью пользовательского интерфейса.
 
-###  Примеры
+###  Пример
 
 ```python
 

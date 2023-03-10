@@ -1,4 +1,4 @@
-﻿---
+---
 title: blur fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  blur fastighet
 
-Hämtar och ställer in skuggans blur. Spänner från 0 till 100 poäng.
+Hämtar och ställer in blur för skuggan. Spänner från 0 till 100 poäng.
 ###  Definition:
 ```python
 @property

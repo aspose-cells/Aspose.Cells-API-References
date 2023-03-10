@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_text metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def insert_text(self, index, text):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | index | int | Startindexet.|
 | text | str | Texten.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: blur propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  blur propiedad
 
-Obtiene y establece el blur de la sombra Rango de 0 a 100 puntos.
+Obtiene y establece el blur de la sombra. Rango de 0 a 100 puntos.
 ###  Definición:
 ```python
 @property

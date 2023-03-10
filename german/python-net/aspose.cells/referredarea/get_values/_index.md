@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_values Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft Zellenwerte in diesem Bereich ab.
 
 ###  Kehrt zurück
 
-Wenn dieser Bereich ungültig ist, wird „#REF!“ zurückgegeben;
+Wenn dieser Bereich ungültig ist, wird "#REF!" Wird zurückgegeben;
 Wenn dieser Bereich eine einzelne Zelle ist, geben Sie das Zellenwertobjekt zurück;
 Andernfalls geben Sie ein 2D-Array für alle Werte in diesem Bereich zurück.
 
@@ -32,7 +32,7 @@ Ruft Zellenwerte in diesem Bereich ab.
 
 ###  Kehrt zurück
 
-Wenn dieser Bereich ungültig ist, wird „#REF!“ zurückgegeben;
+Wenn dieser Bereich ungültig ist, wird "#REF!" Wird zurückgegeben;
 Wenn dieser Bereich eine einzelne Zelle ist, geben Sie das Zellenwertobjekt zurück;
 Andernfalls geben Sie ein 2D-Array für alle Werte in diesem Bereich zurück.
 

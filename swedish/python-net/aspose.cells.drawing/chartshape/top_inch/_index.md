@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_inch fastighet
 
-Representerar den vertikala förskjutningen av formen från dess översta rad, i enheter av tum.
+Representerar den vertikala förskjutningen av formen från dess översta rad, i enhet av tum.
 
 ###  Exempel
 

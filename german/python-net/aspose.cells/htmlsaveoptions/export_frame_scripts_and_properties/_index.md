@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_frame_scripts_and_properties Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_frame_scripts_and_properties Eigentum
 
-Gibt an, ob Rahmenskripte und Dokumenteigenschaften exportiert werden. Der Standardwert ist wahr. Wenn Sie die HTML- oder MHT-Datei importieren möchten
+Gibt an, ob Rahmenskripte und Dokumenteigenschaften exportiert werden. Der Standardwert ist true. Wenn Sie die HTML- oder MHT-Datei importieren möchten
 um zu übertreffen, behalten Sie bitte den Standardwert bei.
 ###  Definition:
 ```python

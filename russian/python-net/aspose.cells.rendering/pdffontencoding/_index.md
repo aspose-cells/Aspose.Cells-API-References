@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfFontEncoding перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | IDENTITY | Представляет использование кодировки Identity-H для всех встроенных шрифтов в PDF.|
-| ANSI_PREFER | Представляет, что предпочитает использовать WinAnsiEncoding для шрифтов TrueType с символами 32-127,<br/> В противном случае для встроенных шрифтов в pdf будет использоваться кодировка Identity-H.|
+| ANSI_PREFER | Представляет, что предпочитает использовать WinAnsiEncoding для шрифтов TrueType с символами 32-127,<br/> в противном случае для встроенных шрифтов в pdf будет использоваться кодировка Identity-H.|
 
 
 

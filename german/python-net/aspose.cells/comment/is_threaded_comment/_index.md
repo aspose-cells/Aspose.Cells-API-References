@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_threaded_comment Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob dieser Kommentar ein Thread-Kommentar ist.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

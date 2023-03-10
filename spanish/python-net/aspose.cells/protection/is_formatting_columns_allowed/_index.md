@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_columns_allowed propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Representa si se permite el formato de columnas en una hoja de trabajo protegida
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
  utilice la propiedad Protection.AllowFormattingColumn.
  Esta propiedad se eliminará 12 meses después desde junio de 2010.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

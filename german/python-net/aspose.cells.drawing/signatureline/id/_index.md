@@ -1,4 +1,4 @@
-﻿---
+---
 title: id Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Bezeichner für diese Signaturzeile ab oder legt ihn fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import SignatureLine

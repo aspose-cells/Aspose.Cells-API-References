@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/shapecollection/add_copy/
 is_root: false
 ---
 ##  add_copy(source_shape, upper_left_row, top, upper_left_column, left) {#Shape-int-int-int-int}
-Agrega y copia una forma a la hoja de cálculo.
+Agrega y copia una forma a la hoja de trabajo.
 
 
 ###  Devoluciones
@@ -22,7 +22,7 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source_shape | [Shape](/cells/es/python-net/aspose.cells.drawing/shape) | Forma de fuente.|
 | upper_left_row | int | Índice de la fila superior izquierda.|
@@ -30,7 +30,7 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 | upper_left_column | int | Índice de la columna superior izquierda.|
 | left | int | Representa el desplazamiento horizontal del cuadro de texto desde su columna izquierda, en unidades de píxel.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarkdownSaveOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-ينشئ خيارات لحفظ مستندات التخفيضات
+ينشئ خيارات لحفظ مستند تخفيض السعر
 
 
 

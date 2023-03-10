@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetPrintingPreview yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheet, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Hangi elektronik tablonun yazdırılacağını belirtin.|
 | options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions çıktının bazı özelliklerini içerir|

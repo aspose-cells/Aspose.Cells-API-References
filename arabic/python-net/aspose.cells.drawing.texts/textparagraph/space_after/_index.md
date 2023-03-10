@@ -1,4 +1,4 @@
-﻿---
+---
 title: space_after الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

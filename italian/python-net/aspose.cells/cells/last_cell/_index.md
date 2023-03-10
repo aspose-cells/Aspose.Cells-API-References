@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_cell proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene l'ultima cella in questo foglio di lavoro.
 
 ###  Osservazioni
 
-Restituisce null se non ci sono dati nel foglio di lavoro.
+Restituisce null se non sono presenti dati nel foglio di lavoro.
 ###  Definizione:
 ```python
 @property

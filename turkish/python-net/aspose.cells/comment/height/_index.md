@@ -1,4 +1,4 @@
-﻿---
+---
 title: height mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height mülk
 
-Yorumun Yüksekliğini piksel cinsinden temsil eder.
+Yorumun Piksel birimi cinsinden Yüksekliğini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

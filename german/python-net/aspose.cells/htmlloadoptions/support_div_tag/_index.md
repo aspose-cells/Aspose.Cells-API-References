@@ -1,4 +1,4 @@
-﻿---
+---
 title: support_div_tag Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag Eigentum
 
-Gibt an, ob das Layout von unterstützt wird<div> Tag, wenn die HTML-Datei enthält<div> Stichworte.
+Gibt an, ob das Layout von unterstützt wird<div> Tag, wenn die HTML-Datei enthält<div> Stichworte. Der Standardwert ist falsch.
 ###  Definition:
 ```python
 @property

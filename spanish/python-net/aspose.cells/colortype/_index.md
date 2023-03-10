@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColorType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/colortype/
 is_root: false
 ---
 ##  ColorType enumeración
-Representa todos los tipos de color.
+Representa todo tipo de color.
 
 
 

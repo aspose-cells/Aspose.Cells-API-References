@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_index الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  page_index الملكية
 
-فهرس الصفحة الحالية ، قائم على الصفر.
+فهرس الصفحة الحالية ، على أساس الصفر.
 ###  تعريف:
 ```python
 @property

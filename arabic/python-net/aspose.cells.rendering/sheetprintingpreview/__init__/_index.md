@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetPrintingPreview المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def __init__(self, sheet, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/ar/python-net/aspose.cells/worksheet) | حدد جدول البيانات المراد طباعته.|
 | options | [ImageOrPrintOptions](/cells/ar/python-net/aspose.cells.rendering/imageorprintoptions) | يحتوي ImageOrPrintOptions على بعض خصائص الإخراج|

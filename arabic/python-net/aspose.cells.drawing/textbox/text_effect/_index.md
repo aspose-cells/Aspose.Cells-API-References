@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_effect الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -12,7 +12,7 @@ is_root: false
  إرجاع كائن TextEffectFormat يحتوي على خصائص تنسيق تأثير النص للشكل المحدد.
 ينطبق على كائنات الشكل التي تمثل WordArt.
 
-###  أمثلة
+###  مثال
 
 ```python
 

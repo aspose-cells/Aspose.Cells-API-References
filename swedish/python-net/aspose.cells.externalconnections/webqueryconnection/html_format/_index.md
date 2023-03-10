@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_format fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  html_format fastighet
 
 Hur man hanterar formatering från källan HTML när webbfrågedata överförs till
-kalkylblad.Relevant när källdata är sant.
+arbetsblad. Relevant när källdata är sant.
 ###  Definition:
 ```python
 @property

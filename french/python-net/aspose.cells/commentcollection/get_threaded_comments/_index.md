@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_threaded_comments méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,11 +22,11 @@ def get_threaded_comments(self, cell_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | cell_name | str | Le nom de la cellule.|
 
-###  Exemples
+###  Exemple
 
 ```python
 
@@ -53,12 +53,12 @@ def get_threaded_comments(self, row, column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row | int | L'index de ligne.|
 | column | int | L'indice de colonne.|
 
-###  Exemples
+###  Exemple
 
 ```python
 

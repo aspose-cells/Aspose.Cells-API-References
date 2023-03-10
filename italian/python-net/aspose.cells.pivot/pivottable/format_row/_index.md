@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo format_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def format_row(self, row, style):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | Row Indice dell'oggetto Row|
 | style | [Style](/cells/it/python-net/aspose.cells/style) | Stile che è quello di formattare|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: regex_key fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key fastighet
 
-Indikerar om den sökta nyckeln är regex. Om den är sant kommer den sökta nyckeln att tas som regex.
+Indikerar om den sökta nyckeln är regex. Om det är sant kommer den sökta nyckeln att tas som regex.
 ###  Definition:
 ```python
 @property

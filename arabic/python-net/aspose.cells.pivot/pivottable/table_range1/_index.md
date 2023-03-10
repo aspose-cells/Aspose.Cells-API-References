@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range1 الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range1 الملكية
 
 إرجاع كائن CellArea يمثل النطاق الذي يحتوي على تقرير PivotTable بأكمله ،
-لكنها لا تتضمن حقول الصفحة.
+لكنها لا تتضمن حقول الصفحة. يقرأ فقط.
 ###  تعريف:
 ```python
 @property

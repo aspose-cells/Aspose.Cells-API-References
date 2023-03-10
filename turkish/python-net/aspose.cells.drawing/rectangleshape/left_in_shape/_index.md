@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_in_shape mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -16,7 +16,7 @@ ana şeklin genişliğinin 1/4000'i biriminde.
 
 Yalnızca bu şekil grup veya grafikte olduğunda geçerlidir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

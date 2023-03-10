@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_input_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_input_range(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | formula | str | Området som används för att fylla kontrollen.|
 | is_r1c1 | bool | Om formeln behöver formateras som R1C1.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_pivot_table_style metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_pivot_table_style(self, name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str |Pivottabellens stilnamn.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_picture
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
@@ -30,7 +30,7 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 | lower_right_column | int | فهرس العمود الأيمن السفلي|
 | stream | io.RawIOBase | كائن دفق يحتوي على بيانات الصورة.|
 
-###  أمثلة
+###  مثال
 
 ```python
 
@@ -56,7 +56,7 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
@@ -64,7 +64,7 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 | width_scale | int | مقياس عرض الصورة ، نسبة مئوية.|
 | height_scale | int | مقياس ارتفاع الصورة ، نسبة مئوية.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

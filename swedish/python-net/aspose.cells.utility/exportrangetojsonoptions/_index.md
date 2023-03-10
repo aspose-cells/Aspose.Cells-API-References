@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportRangeToJsonOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,10 +23,10 @@ Typen ExportRangeToJsonOptions avslöjar följande medlemmar:
 ###  Egenskaper
 | Fast egendom| Beskrivning|
 | :- | :- |
-| [has_header_row](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) | Anger om intervallet innehåller en rubrikrad.|
+| [has_header_row](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) | Anger om intervallet innehåller rubrikrad.|
 | [export_as_string](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string) | Exporterar strängvärdet för cellerna till json.|
 | [export_empty_cells](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions/export_empty_cells) | Anger om tomma celler exporteras som null.|
-| [indent](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Indikerar index.|
+| [indent](/cells/sv/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Indikerar indraget.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: move méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def move(self, dest_cell_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | dest_cell_name | str | le nom de la cellule cible.|
 
@@ -34,7 +34,7 @@ def move(self, row, column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row | int | indice de ligne.|
 | column | int | indice de colonne.|

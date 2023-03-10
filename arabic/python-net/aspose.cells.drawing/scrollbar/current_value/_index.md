@@ -1,4 +1,4 @@
-﻿---
+---
 title: current_value الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  current_value الملكية
 
-الحصول على أو تحديد القيمة الحالية.
+الحصول على القيمة الحالية أو تحديدها.
 ###  تعريف:
 ```python
 @property

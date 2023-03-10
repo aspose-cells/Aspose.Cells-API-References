@@ -1,4 +1,4 @@
-﻿---
+---
 title: type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  type propriété
 
-Obtient les champs Pivot type.
+Obtient les PivotFields type.
 ###  Définition:
 ```python
 @property

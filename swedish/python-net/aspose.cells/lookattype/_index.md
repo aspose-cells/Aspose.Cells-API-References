@@ -1,4 +1,4 @@
-﻿---
+---
 title: LookAtType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -20,7 +20,7 @@ Typen LookAtType avslöjar följande medlemmar:
 | CONTAINS | Cell värde Innehåller sökobjektet.|
 | START_WITH | Cell värde Börjar med sökobjektet.|
 | END_WITH | Cell-värdet slutar med sökobjektet.|
-| ENTIRE_CONTENT | Cell-värdet är detsamma som sökobjektet.|
+| ENTIRE_CONTENT | Cell-värdet är samma som sökobjektet.|
 
 
 

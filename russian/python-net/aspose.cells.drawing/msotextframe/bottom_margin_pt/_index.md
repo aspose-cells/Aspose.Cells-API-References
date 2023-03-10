@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin_pt недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_pt недвижимость
 
-Возвращает нижнее поле в единицах Points
+Возвращает нижнее поле в баллах
 ###  Определение:
 ```python
 @property

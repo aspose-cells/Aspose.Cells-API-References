@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_series_names metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_series_names(self, start_index, area, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_index | int | Indexet för den första serien som du vill ange namnet på.|
 | area | str | Anger området för serienamnet.|

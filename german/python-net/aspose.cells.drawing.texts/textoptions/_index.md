@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -42,10 +42,10 @@ Der Typ TextOptions macht die folgenden Member verfügbar:
 | [scheme_type](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/scheme_type) | Ruft den Schematyp der Schriftart ab und legt ihn fest.|
 | [language_code](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/language_code) | Ruft die Sprache der Benutzeroberfläche ab und legt sie fest.|
 | [latin_name](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/latin_name) | Ruft den lateinischen Namen ab und legt ihn fest.|
-| [far_east_name](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Ruft den Fernost-Namen ab und legt ihn fest.|
+| [far_east_name](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/far_east_name) | Ruft den FarEast-Namen ab und legt ihn fest.|
 | [fill](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/fill) | Stellt das Füllformat des Textes dar.|
 | [outline](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/outline) | Stellt das Gliederungsformat des Textes dar.|
-| [shadow](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Stellt ein [ShadowEffect](/cells/de/python-net/aspose.cells.drawing/shadoweffect)-Objekt dar, das einen Schatteneffekt für das Diagrammelement oder die Form angibt.|
+| [shadow](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/shadow) | Stellt ein [ShadowEffect](/cells/de/python-net/aspose.cells.drawing/shadoweffect)-Objekt dar, das den Schatteneffekt für das Diagrammelement oder die Form angibt.|
 | [underline_color](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/underline_color) | Ruft die Farbe der Unterstreichung ab oder legt sie fest.|
 | [kerning](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/kerning) | Gibt die minimale Schriftgröße an, bei der Zeichenkerning für diesen Textlauf auftritt.|
 | [spacing](/cells/de/python-net/aspose.cells.drawing.texts/textoptions/spacing) | Gibt den Abstand zwischen Zeichen innerhalb eines Textverlaufs an.|

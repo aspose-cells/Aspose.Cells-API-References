@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_copy
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sheet_name | str | Nome del foglio di lavoro di origine.|
 ###  Eccezioni
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| sheet_index | int | Foglio di lavoro Indice delle fonti.|
+| sheet_index | int | Indice del foglio di lavoro di origine.|
 
 
 

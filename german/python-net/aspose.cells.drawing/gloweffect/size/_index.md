@@ -1,4 +1,4 @@
-﻿---
+---
 title: size Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size Eigentum
 
-Ruft den Radius des Glühens in Punkteinheiten ab und legt diesen fest.
+Ruft den Radius des Glühens in Punkteinheiten ab und legt ihn fest.
 ###  Definition:
 ```python
 @property

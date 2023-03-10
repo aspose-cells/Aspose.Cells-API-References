@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsLoadOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ def __init__(self, type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [LoadFormat](/cells/ru/python-net/aspose.cells/loadformat) | Тип формата загрузки.|
 

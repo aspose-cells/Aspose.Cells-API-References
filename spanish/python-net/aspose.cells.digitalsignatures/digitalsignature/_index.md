@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignature clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -17,7 +17,7 @@ El tipo DigitalSignature expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/es/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Constructor de Firma digital Utiliza la implementación de Bouncy Castle.|
+| [DigitalSignature(raw_data, password, comments, sign_time)](/cells/es/python-net/aspose.cells.digitalsignatures/digitalsignature/__init__/#bytes-str-str-DateTime) | Constructor de firma digital. Utiliza la implementación de Bouncy Castle.|
 
 
 ###  Propiedades

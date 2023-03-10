@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_css_id الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_css_id الملكية
 
  الحصول على وتعيين بادئة اسم النوع css مثل tr ، col ، td وما إلى ذلك ، يتم تضمينها في عنصر الجدول
-التي لها سمة TableCssId المحددة.
+التي لها سمة TableCssId المحددة. القيمة الافتراضية هي "".
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_editing_content propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  allow_editing_content propiedad
 
-Representa si el usuario puede editar el contenido de las celdas bloqueadas en una hoja de trabajo protegida.
+Representa si el usuario puede editar el contenido de las celdas bloqueadas en una hoja de cálculo protegida.
 ###  Definición:
 ```python
 @property

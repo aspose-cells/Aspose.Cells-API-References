@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_ranges yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -39,9 +39,9 @@ def get_ranges(self, recalculate):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| recalculate | bool | bu ad bu çağırmadan önce hesaplandıysa yeniden hesaplanıp hesaplanmayacağını.|
+| recalculate | bool | bu ad bu çağrıdan önce hesaplandıysa yeniden hesaplayın.|
 
 
 

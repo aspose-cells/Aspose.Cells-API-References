@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageActiveXControl الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,8 +25,8 @@ is_root: false
 | :- | :- |
 | [workbook](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/workbook) | الحصول على كائن [ActiveXControlBase.workbook](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/type) | يحصل على نوع عنصر تحكم ActiveX.|
-| [width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/width) |الحصول على عرض عنصر التحكم وتعيينه بوحدات من النقاط.|
-| [height](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/height) | الحصول على ارتفاع عنصر التحكم وتعيينه بوحدات من النقاط.|
+| [width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/width) |الحصول على عرض عنصر التحكم وتعيينه بوحدة النقاط.|
+| [height](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/height) | الحصول على ارتفاع عنصر التحكم وتعيينه بوحدة النقاط.|
 | [mouse_icon](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/mouse_icon) | الحصول على رمز مخصص وتعيينه لعرضه كمؤشر الماوس لعنصر التحكم.|
 | [mouse_pointer](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/mouse_pointer) | الحصول على نوع الرمز المعروض كمؤشر الماوس لعنصر التحكم وتعيينه.|
 | [fore_ole_color](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/fore_ole_color) | الحصول على لون الأولي للمقدمة وتعيينه.|
@@ -44,7 +44,7 @@ is_root: false
 | [font](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/font) | يمثل خط عنصر التحكم.|
 | [text_align](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/text_align) | يمثل كيفية محاذاة النص المستخدم بواسطة عنصر التحكم.|
 | [border_ole_color](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_ole_color) | الحصول على لون الخلفية للخلفية وتعيينه.|
-| [border_style](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_style) | الحصول على نوع الحد المستخدم بواسطة عنصر التحكم وتعيينه.|
+| [border_style](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_style) | يحصل ويضبط نوع الحدود المستخدمة بواسطة عنصر التحكم.|
 | [picture_size_mode](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picture_size_mode) | يحصل ويضبط كيفية عرض الصورة.|
 | [special_effect](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/special_effect) | الحصول على التأثير الخاص لعنصر التحكم وتعيينه.|
 | [picture](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picture) | الحصول على بيانات الصورة وتعيينها.|

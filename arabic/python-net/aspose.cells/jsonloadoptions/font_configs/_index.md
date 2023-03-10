@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_configs الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

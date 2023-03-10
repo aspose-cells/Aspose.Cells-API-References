@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_note الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 إذا كان هذا تعليقًا مترابطًا ، فلا يمكن تغيير الملاحظة ، وإلا فلن يتمكن MS Excel من معالجته كتعليق مترابط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

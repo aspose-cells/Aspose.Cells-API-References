@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_drill propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill propiedad
 
 Especifica un valor booleano que indica si se deben imprimir los indicadores de exploración.
-imprime los botones expandir/contraer cuando se muestran en la tabla dinámica.
+imprime los botones de expandir/contraer cuando se muestra en la tabla dinámica.
 ###  Definición:
 ```python
 @property

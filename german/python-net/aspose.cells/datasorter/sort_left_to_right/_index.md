@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_left_to_right Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sort_left_to_right Eigentum
 
-True bedeutet, dass die Sortierrichtung von links nach rechts erfolgt.
+True bedeutet, dass die Sortierrichtung von links nach rechts ist.
 False bedeutet, dass die Sortierrichtung von oben nach unten ist.
 Der Standardwert ist falsch.
 ###  Definition:

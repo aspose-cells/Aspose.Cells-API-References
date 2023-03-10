@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_in_shape fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ i enhet av 1/4000 av bredden av den överordnade formen.
 
 ###  Anmärkningar
 
-Gäller endast när denna form finns i gruppen eller diagrammet.
+Gäller endast när denna form i gruppen eller diagrammet.
 
 ###  Exempel
 

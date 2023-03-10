@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_note Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Ruft die HTML-Zeichenfolge ab und legt sie fest, die Daten und einige Formate in
 
 Wenn es sich um einen Thread-Kommentar handelt, könnte die Notiz nicht geändert werden, da MS Excel ihn sonst nicht als Thread-Kommentar verarbeiten könnte.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

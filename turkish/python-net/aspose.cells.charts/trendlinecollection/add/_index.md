@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add(self, type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/tr/python-net/aspose.cells.charts/trendlinetype) | Trend çizgisi türü.|
 
@@ -42,7 +42,7 @@ def add(self, type, name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | type | [TrendlineType](/cells/tr/python-net/aspose.cells.charts/trendlinetype) | Trend çizgisi türü.|
 | name | str | Trend çizgisi adı.|

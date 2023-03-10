@@ -1,4 +1,4 @@
-﻿---
+---
 title: exclude_unused_styles mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Kullanılmayan stillerin hariç tutulup tutulmadığını belirtir.
 Oluşturulan html dosyaları için, kullanılmayan stilleri hariç tutmak, dosya boyutunu küçültebilir
-görsel efektleri etkilemeden.
+görsel efektleri etkilemeden. Dolayısıyla, bu özelliğin varsayılan değeri doğrudur.
 Kullanıcının oluşturulan html için çalışma kitabındaki tüm stilleri tutması gerekiyorsa (kullanıcının kullandığı senaryo gibi)
 çalışma kitabını daha sonra oluşturulan html'den geri yüklemesi gerekiyor), lütfen bu özelliği yanlış olarak ayarlayın.
 ###  Tanım:

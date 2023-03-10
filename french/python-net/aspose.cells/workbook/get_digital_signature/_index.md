@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_digital_signature méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

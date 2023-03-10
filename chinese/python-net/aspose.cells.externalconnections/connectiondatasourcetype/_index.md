@@ -1,6 +1,6 @@
-﻿---
+---
 title: ConnectionDataSourceType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -14,13 +14,13 @@ is_root: false
 
 ConnectionDataSourceType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ODBC_BASED_SOURCE |基于 ODBC 的源|
-| DAO_BASED_SOURCE |基于 DAO 的资源|
+| DAO_BASED_SOURCE |基于 DAO 的源代码|
 | FILE_BASED_DATA_BASE_SOURCE |基于文件的数据库源|
-| WEB_QUERY |网络查询|
+| WEB_QUERY |网页查询|
 | OLEDB_BASED_SOURCE |基于 OLE DB 的源|
 | TEXT_BASED_SOURCE |基于文本的来源|
 | ADO_RECORD_SET |ADO记录集|

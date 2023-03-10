@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectedRange clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -17,7 +17,7 @@ El tipo ProtectedRange expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [name](/cells/es/python-net/aspose.cells/protectedrange/name) | Obtiene el título Range.|
+| [name](/cells/es/python-net/aspose.cells/protectedrange/name) | Obtiene el título Range. Esto se usa como un descriptor, no como una definición de rango con nombre.|
 | [cell_area](/cells/es/python-net/aspose.cells/protectedrange/cell_area) | Obtiene el objeto [ProtectedRange.cell_area](/cells/es/python-net/aspose.cells/protectedrange#cell_area) que representa el área de la celda a proteger.|
 | [is_protected_with_password](/cells/es/python-net/aspose.cells/protectedrange/is_protected_with_password) |Indica si las hojas de trabajo están protegidas con contraseña.|
 | [password](/cells/es/python-net/aspose.cells/protectedrange/password) | Representa la contraseña para proteger el rango.|

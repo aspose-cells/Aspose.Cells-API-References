@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_repeat_item_labels الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

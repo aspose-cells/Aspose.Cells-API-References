@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_to_display propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_to_display propiedad
 
-Representa el texto que se mostrará para el hipervínculo especificado.
+Representa el texto que se mostrará para el hipervínculo especificado. El valor predeterminado es la dirección del hipervínculo.
 ###  Definición:
 ```python
 @property

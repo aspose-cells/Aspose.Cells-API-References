@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,14 +22,14 @@ def add(self, file_name, sheet_names):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | file_name | str | Il nome del file esterno.|
 | sheet_names | list | Tutti i nomi dei fogli del file esterno.|
 
 
 ##  add(directory_type, file_name, sheet_names) {#DirectoryType-str-list}
-Aggiungi un link esterno.
+Aggiungi un collegamento esterno .
 
 
 ###  ritorna
@@ -43,7 +43,7 @@ def add(self, directory_type, file_name, sheet_names):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | directory_type | [DirectoryType](/cells/it/python-net/aspose.cells/directorytype) |Il tipo di directory del nome file.|
 | file_name | str | il nome del file.|

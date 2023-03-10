@@ -1,4 +1,4 @@
-﻿---
+---
 title: right propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa el ancho del desplazamiento horizontal de la forma desde su columna de esquina inferior right, en unidades de píxeles.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

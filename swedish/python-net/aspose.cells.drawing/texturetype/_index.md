@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextureType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ Typen TextureType avslöjar följande medlemmar:
 | DENIM |Representerar denim textur typ.|
 | FISH_FOSSIL | Representerar Fish Fossil texturtyp.|
 | GRANITE | Representerar granitstruktur.|
-| GREEN_MARBLE | Representerar texturtyp av grön marmor.|
+| GREEN_MARBLE | Representerar grön marmor texturtyp.|
 | MEDIUM_WOOD | Representerar medium trästruktur.|
 | NEWSPRINT | Representerar texturtyp för tidningspapper.|
 | OAK | Representerar ektexturtyp.|

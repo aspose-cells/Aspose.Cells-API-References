@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة clear_comments
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

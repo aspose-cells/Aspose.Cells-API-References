@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_protected_with_password propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_protected_with_password propriété
 
-Indique si les feuilles de calcul sont protégées par mot de passe.
+Indique si les feuilles de calcul sont protégées par un mot de passe.
 ###  Définition:
 ```python
 @property

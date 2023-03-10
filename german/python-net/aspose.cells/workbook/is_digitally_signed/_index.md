@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_digitally_signed Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: x_values fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  x_values fastighet
 
-Representerar x-värdena i diagramserien.
+Representerar x-värdena för diagramserien.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlMousePointerType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -27,7 +27,7 @@ Il tipo ControlMousePointerType espone i membri seguenti:
 | SIZE_WE | Doppia freccia che indica ovest e est.|
 | UP_ARROW | Freccia su.|
 | HOUR_GLASS | Clessidra.|
-| NO_DROP | Simbolo "Non" (cerchio con una linea diagonale) sopra l'oggetto trascinato.|
+| NO_DROP | Simbolo "Not" (cerchio con una linea diagonale) sopra l'oggetto che viene trascinato.|
 | APP_STARTING | Freccia con una clessidra.|
 | HELP | Freccia con un punto interrogativo.|
 | SIZE_ALL |Cursore "Dimensiona tutto" (frecce che puntano a nord, sud, est e ovest).|

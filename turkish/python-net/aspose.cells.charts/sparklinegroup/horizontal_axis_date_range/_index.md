@@ -1,4 +1,4 @@
-﻿---
+---
 title: horizontal_axis_date_range mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

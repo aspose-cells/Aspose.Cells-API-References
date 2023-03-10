@@ -1,6 +1,6 @@
-﻿---
+---
 title: last_index_of方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-value 在整个数组列表中最后一次出现的从零开始的索引（如果找到）；否则为 -1。
+value 在整个数组列表中最后一次出现的从零开始的索引（如果找到）；否则，-1。
 
 
 ```python
@@ -22,9 +22,9 @@ def last_index_of(self, item):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| item | [VbaProjectReference](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference) |要在数组列表中定位的对象。|
+| item | [VbaProjectReference](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference) |要在数组列表中定位的对象。该值可以为空。|
 
 
 ##  last_index_of(item, index) {#VbaProjectReference-int}
@@ -33,7 +33,7 @@ def last_index_of(self, item):
 
 ### 返回
 
-数组列表中从第一个元素延伸到 startIndex 的元素范围内最后一次出现值的从零开始的索引（如果找到）；否则为 -1。
+如果找到，从第一个元素延伸到 startIndex 的数组列表中元素范围内最后一次出现值的从零开始的索引；否则，-1。
 
 
 ```python
@@ -42,9 +42,9 @@ def last_index_of(self, item, index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| item | [VbaProjectReference](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference) |要在数组列表中定位的对象。|
+| item | [VbaProjectReference](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference) |要在数组列表中定位的对象。该值可以为空。|
 | index | int |向后搜索的从零开始的起始索引。|
 
 
@@ -54,7 +54,7 @@ def last_index_of(self, item, index):
 
 ### 返回
 
-System.Collections.Array 列表中元素范围内最后一次出现值的从零开始的索引，该列表包含 count 个元素并在 startIndex 处结束（如果找到）；否则为 -1。
+System.Collections 中元素范围内最后一次出现值的从零开始的索引。包含 count 个元素并在 startIndex 处结束的数组列表（如果找到）；否则，-1。
 
 
 ```python
@@ -63,9 +63,9 @@ def last_index_of(self, item, index, count):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| item | [VbaProjectReference](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference) |要在数组列表中定位的对象。|
+| item | [VbaProjectReference](/cells/zh/python-net/aspose.cells.vba/vbaprojectreference) |要在数组列表中定位的对象。该值可以为空。|
 | index | int |向后搜索的从零开始的起始索引。|
 | count | int |要搜索的部分中的元素数。|
 

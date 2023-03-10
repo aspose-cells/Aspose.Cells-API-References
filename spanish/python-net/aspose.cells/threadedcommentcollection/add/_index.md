@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | text | str | El texto del comentario encadenado.|
 | author | [ThreadedCommentAuthor](/cells/es/python-net/aspose.cells/threadedcommentauthor) | El autor del comentario encadenado.|

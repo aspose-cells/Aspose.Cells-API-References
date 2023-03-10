@@ -1,4 +1,4 @@
-﻿---
+---
 title: DefaultEditLanguage uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen DefaultEditLanguage avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| AUTO | Representerar automatiskt upptäckande redigeringsspråk enligt själva texten.|
+| AUTO | Representerar automatiskt detekterande redigeringsspråk enligt själva texten.|
 | ENGLISH | Representerar engelska språket.|
 | CJK | Representerar kinesiska, japanska, koreanska språket.|
 

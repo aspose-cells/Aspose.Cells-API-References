@@ -1,4 +1,4 @@
-﻿---
+---
 title: draw Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,7 +21,7 @@ def draw(self, draw_object, x, y, width, height):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | draw_object | [DrawObject](/cells/de/python-net/aspose.cells.rendering/drawobject) | DrawObject wird beim Rendern initialisiert und zurückgegeben|
-| x | float | Links vom Zeichenobjekt|
+| x | float | Links von DrawObject|
 | y | float | Oben auf DrawObject|
 | width | float | Breite von DrawObject|
 | height | float | Höhe von DrawObject|

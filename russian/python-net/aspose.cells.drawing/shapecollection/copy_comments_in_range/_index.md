@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_comments_in_range метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def copy_comments_in_range(self, shapes, ca, dest_row, dest_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | shapes | [ShapeCollection](/cells/ru/python-net/aspose.cells.drawing/shapecollection) | Исходные формы.|
 | ca | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Исходный диапазон.|

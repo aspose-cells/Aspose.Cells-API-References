@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_value mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Onay kutusunun değerini alır veya ayarlar.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
  lütfen CheckBox.CheckValueType özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

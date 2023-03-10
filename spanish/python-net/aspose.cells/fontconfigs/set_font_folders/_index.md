@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_font_folders método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_font_folders(self, font_folders, recursive):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | font_folders | list | Las carpetas que contienen fuentes TrueType.|
 | recursive | bool | Determina si se escanearán o no las subcarpetas.|

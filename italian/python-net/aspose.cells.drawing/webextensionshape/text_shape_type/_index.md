@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_shape_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di forma del testo preimpostato.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import AutoShapeType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inner_mode mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ False, boyutun çizim alanının boyutunu, onay işaretlerini ve eksen etiketler
 
 ###  Notlar
 
-Yalnızca Xlsx dosyaları için.
+Yalnızca Xlsx dosyası için.
 ###  Tanım:
 ```python
 @property

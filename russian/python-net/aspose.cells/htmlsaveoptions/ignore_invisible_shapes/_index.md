@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_invisible_shapes недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Значения по умолчанию ложны.
+Значения по умолчанию — ложь.
 ###  Определение:
 ```python
 @property

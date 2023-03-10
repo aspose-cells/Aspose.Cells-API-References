@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_pixel недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает или задает высоту указанного среза в пикселях.
 
-###  Примеры
+###  Пример
 
 ```python
 

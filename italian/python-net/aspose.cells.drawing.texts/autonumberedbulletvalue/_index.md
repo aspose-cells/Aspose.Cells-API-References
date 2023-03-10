@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe AutoNumberedBulletValue
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  classe AutoNumberedBulletValue
-Rappresenta i punti elenco numerati automaticamente.
+Rappresenta il punto elenco numerato automatico.
 
 
 

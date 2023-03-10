@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_field_to_area
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add_field_to_area(self, field_type, field_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/it/python-net/aspose.cells.pivot/pivotfieldtype) | Il tipo di area dei campi.|
 | field_name | str | Il nome nei campi di base.|
@@ -43,7 +43,7 @@ def add_field_to_area(self, field_type, base_field_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/it/python-net/aspose.cells.pivot/pivotfieldtype) | Il tipo di area dei campi.|
 | base_field_index | int | L'indice di campo nei campi di base.|
@@ -64,7 +64,7 @@ def add_field_to_area(self, field_type, pivot_field):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/it/python-net/aspose.cells.pivot/pivotfieldtype) | il tipo di area dei campi.|
 | pivot_field | [PivotField](/cells/it/python-net/aspose.cells.pivot/pivotfield) | il campo nei campi base.|

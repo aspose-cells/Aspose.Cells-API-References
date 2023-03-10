@@ -1,4 +1,4 @@
-﻿---
+---
 title: owner_password mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComboBoxActiveXControl Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,8 +25,8 @@ Der Typ ComboBoxActiveXControl macht die folgenden Member verfügbar:
 | :- | :- |
 | [workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/workbook) | Ruft das [ActiveXControlBase.workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook)-Objekt ab.|
 | [type](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/type) | Ruft den Typ des ActiveX-Steuerelements ab.|
-| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt diese fest.|
-| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt diese fest.|
+| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt sie fest.|
+| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt sie fest.|
 | [mouse_icon](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_icon) | Ruft ein benutzerdefiniertes Symbol ab und legt es fest, das als Mauszeiger für das Steuerelement angezeigt wird.|
 | [mouse_pointer](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/mouse_pointer) | Ruft den Symboltyp ab, der als Mauszeiger für das Steuerelement angezeigt wird, und legt diesen fest.|
 | [fore_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/fore_ole_color) | Ruft die alte Farbe des Vordergrunds ab und legt sie fest.|
@@ -53,7 +53,7 @@ Der Typ ComboBoxActiveXControl macht die folgenden Member verfügbar:
 | [drop_button_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/drop_button_style) | Gibt das Symbol an, das auf der Drop-Schaltfläche angezeigt wird|
 | [show_drop_button_type_when](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/show_drop_button_type_when) | Gibt das Symbol an, das auf der Drop-Schaltfläche angezeigt wird|
 | [list_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/list_style) | Ruft die visuelle Darstellung ab und legt sie fest.|
-| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt diesen fest.|
+| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt ihn fest.|
 | [border_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/border_ole_color) | Ruft die Ole-Farbe des Hintergrunds ab und legt sie fest.|
 | [special_effect](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/special_effect) | Ruft den Spezialeffekt des Steuerelements ab und legt diesen fest.|
 | [is_editable](/cells/de/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/is_editable) | Gibt an, ob der Benutzer Eingaben in das Steuerelement vornehmen kann.|

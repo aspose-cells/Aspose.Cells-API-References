@@ -1,4 +1,4 @@
-﻿---
+---
 title: external_connection_data_source propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

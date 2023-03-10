@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_count недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 По умолчанию используется System.Int32.MaxValue, что означает, что будут отображаться все страницы.
 
-###  Примеры
+###  Пример
 
 В следующем примере показано, как преобразовать диапазон страниц (3 и 4) в файле Excel Microsoft в PDF.
 

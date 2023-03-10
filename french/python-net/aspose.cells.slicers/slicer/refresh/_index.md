@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.slicers/slicer/refresh/
 is_root: false
 ---
 ##  refresh() {#}
-Actualisation du segment Pendant ce temps, actualisation et calcul des tableaux croisés dynamiques relatifs.
+Actualisation du slicer. Pendant ce temps, actualisation et calcul des tableaux croisés dynamiques relatifs.
 
 
 
@@ -19,7 +19,7 @@ def refresh(self):
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 

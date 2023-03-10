@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -41,7 +41,7 @@ def sort(self, cells, area):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Hücreler veri alanını içerir.|
 | area | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Sıralama için gerekli alan|
@@ -63,7 +63,7 @@ def sort(self, cells, start_row, start_column, end_row, end_column):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Hücreler veri alanını içerir.|
 | start_row | int | Alanın başlangıç satırı.|

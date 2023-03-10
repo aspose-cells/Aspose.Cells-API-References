@@ -1,4 +1,4 @@
-﻿---
+---
 title: CheckBoxActiveXControl الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,8 +25,8 @@ is_root: false
 | :- | :- |
 | [workbook](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/workbook) | الحصول على كائن [ActiveXControlBase.workbook](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/type) | يحصل على نوع عنصر تحكم ActiveX.|
-| [width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) |الحصول على عرض عنصر التحكم وتعيينه بوحدات من النقاط.|
-| [height](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | الحصول على ارتفاع عنصر التحكم وتعيينه بوحدات من النقاط.|
+| [width](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) |الحصول على عرض عنصر التحكم وتعيينه بوحدة النقاط.|
+| [height](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | الحصول على ارتفاع عنصر التحكم وتعيينه بوحدة النقاط.|
 | [mouse_icon](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_icon) | الحصول على رمز مخصص وتعيينه لعرضه كمؤشر الماوس لعنصر التحكم.|
 | [mouse_pointer](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_pointer) | الحصول على نوع الرمز المعروض كمؤشر الماوس لعنصر التحكم وتعيينه.|
 | [fore_ole_color](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/fore_ole_color) | الحصول على لون الأولي للمقدمة وتعيينه.|
@@ -46,8 +46,8 @@ is_root: false
 | [group_name](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/group_name) | الحصول على اسم المجموعة وتعيينه.|
 | [alignment](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/alignment) | الحصول على موضع التسمية التوضيحية بالنسبة لعنصر التحكم وتعيينه.|
 | [is_word_wrapped](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_word_wrapped) | الإشارة إلى ما إذا كانت محتويات عنصر التحكم تلتف تلقائيًا في نهاية السطر.|
-| [caption](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/caption) | الحصول على النص الوصفي الذي يظهر في عنصر تحكم وتعيينه.|
-| [picture_position](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture_position) | الحصول على موقع صورة عنصر التحكم بالنسبة إلى التسمية التوضيحية الخاصة به وتعيينه.|
+| [caption](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/caption) | الحصول على النص الوصفي الذي يظهر في عنصر التحكم وتعيينه.|
+| [picture_position](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture_position) | الحصول على موقع صورة عنصر التحكم وتعيينه بالنسبة إلى التسمية التوضيحية الخاصة به.|
 | [special_effect](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/special_effect) | الحصول على التأثير الخاص لعنصر التحكم وتعيينه.|
 | [picture](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture) | الحصول على بيانات الصورة وتعيينها.|
 | [accelerator](/cells/ar/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/accelerator) | يحصل ويضبط مفتاح التسريع للتحكم.|

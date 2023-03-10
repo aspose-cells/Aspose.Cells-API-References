@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/ru/python-net/aspose.cells/protectiontype) | Тип защиты.|
 ###  Примечания
 
-Этот метод защищает рабочий лист без пароля.
+Этот метод защищает рабочий лист без пароля. Он может protect рабочий лист во всех версиях файла Excel.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/ru/python-net/aspose.cells/protectiontype) | Тип защиты.|
 | password | str | Пароль.|
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  Примечания
 
 Этот метод может работать с рабочим листом protect во всех версиях файла Excel.
-###  Примеры
+###  Пример
 
 
 ```python

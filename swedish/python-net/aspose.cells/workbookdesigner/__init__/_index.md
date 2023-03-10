@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/sv/python-net/aspose.cells/workbook) | Mallarbetsboksfilen.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  font_name fastighet
 
-Hämta och ställ in namnet på teckensnittet.
+Hämta och ställer in namnet på teckensnittet.
 ###  Definition:
 ```python
 @property

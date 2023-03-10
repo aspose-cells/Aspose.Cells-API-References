@@ -1,4 +1,4 @@
-﻿---
+---
 title: n_series propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

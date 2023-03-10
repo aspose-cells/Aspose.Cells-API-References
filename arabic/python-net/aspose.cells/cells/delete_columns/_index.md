@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة delete_columns
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def delete_columns(self, column_index, total_columns, update_reference):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | column_index | int | فهرس العمود.|
 | total_columns | int | عدد الأعمدة المراد حذفها.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Name Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -32,8 +32,8 @@ Der Typ Name macht die folgenden Member verfügbar:
 | :- | :- |
 | [get_refers_to(is_r1c1, is_local)](/cells/de/python-net/aspose.cells/name/get_refers_to/#bool-bool) | Holen Sie sich die Referenz dieses Namens.|
 | [get_refers_to(is_r1c1, is_local, row, column)](/cells/de/python-net/aspose.cells/name/get_refers_to/#bool-bool-int-int) | Rufen Sie die Referenz dieses Namens basierend auf der angegebenen Zelle ab.|
-| [get_ranges()](/cells/de/python-net/aspose.cells/name/get_ranges/#) |Ruft alle Bereiche ab, auf die dieser Name verweist.|
-| [get_ranges(recalculate)](/cells/de/python-net/aspose.cells/name/get_ranges/#bool) |Ruft alle Bereiche ab, auf die dieser Name verweist.|
+| [get_ranges()](/cells/de/python-net/aspose.cells/name/get_ranges/#) |Ruft alle Bereiche ab, auf die mit diesem Namen verwiesen wird.|
+| [get_ranges(recalculate)](/cells/de/python-net/aspose.cells/name/get_ranges/#bool) |Ruft alle Bereiche ab, auf die mit diesem Namen verwiesen wird.|
 | [get_range()](/cells/de/python-net/aspose.cells/name/get_range/#) | Ruft den Bereich ab, wenn sich dieser Name auf einen Bereich bezieht.|
 | [get_range(recalculate)](/cells/de/python-net/aspose.cells/name/get_range/#bool) | Ruft den Bereich ab, wenn sich dieser Name auf einen Bereich bezieht|
 | [get_range(sheet_index, row, column)](/cells/de/python-net/aspose.cells/name/get_range/#int-int-int) | Ruft den Bereich ab, wenn sich dieser Name auf einen Bereich bezieht.<br/> Wenn die Referenz dieses Namens nicht absolut ist, kann der Bereich für verschiedene Zellen unterschiedlich sein.|
@@ -42,7 +42,7 @@ Der Typ Name macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: parent Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent Eigentum
 
-Gibt das Worksheet-Objekt zurück, das das Blatt darstellt, das den Slicer enthält.
+Gibt das Worksheet-Objekt zurück, das das Blatt darstellt, das den Slicer enthält. Schreibgeschützt.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

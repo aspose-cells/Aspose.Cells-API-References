@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_multiple_field_filters недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

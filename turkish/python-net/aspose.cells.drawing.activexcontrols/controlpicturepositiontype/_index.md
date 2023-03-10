@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlPicturePositionType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -29,7 +29,7 @@ ControlPicturePositionType türü aşağıdaki üyeleri gösterir:
 | BELOW_LEFT | Resim, başlığın altında görünür.<br/> Başlık, resmin sol kenarıyla hizalanır.|
 | BELOW_CENTER | Resim, başlığın altında görünür.<br/>Başlık, resmin üzerinde ortalanır.|
 | BELOW_RIGHT | Resim, başlığın altında görünür.<br/> Başlık, resmin sağ kenarıyla hizalanır.|
-| CENTER | Resim, kontrolün ortasında görünür.<br/> Resim yazısı, resmin üst kısmında yatay ve dikey olarak ortalanır.|
+| CENTER | Resim, kontrolün ortasında görünür.<br/> Başlık, resmin üstünde yatay ve dikey olarak ortalanır.|
 
 
 

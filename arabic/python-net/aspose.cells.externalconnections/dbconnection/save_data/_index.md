@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_data الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  save_data الملكية
 
 صواب إذا كان سيتم حفظ البيانات الخارجية التي تم جلبها عبر الاتصال لملء جدول
-مع المصنف ؛ وإلا ، خطأ.
+مع المصنف خلاف ذلك ، خطأ.
 ###  تعريف:
 ```python
 @property

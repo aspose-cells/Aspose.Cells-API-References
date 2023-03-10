@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts ab und legt diesen fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

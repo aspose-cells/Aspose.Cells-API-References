@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_margin_pt mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Sağ kenar boşluğunu Puan birimi cinsinden verir
 
-###  örnekler
+###  Örnek
 
 ```python
 

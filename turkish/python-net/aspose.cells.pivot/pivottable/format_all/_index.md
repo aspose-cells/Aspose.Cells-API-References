@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_all yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.pivot/pivottable/format_all/
 is_root: false
 ---
 ##  format_all(style) {#Style}
-Pivot tablo alanındaki tüm hücreleri biçimlendirin
+Pivot tablo alanındaki tüm hücreyi biçimlendir
 
 
 
@@ -18,7 +18,7 @@ def format_all(self, style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | Biçimlendirilecek stil|
 

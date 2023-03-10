@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.rendering/sheetrender/to_image/
 is_root: false
 ---
 ##  to_image(page_index, file_name) {#int-str}
-Rendera vissa sidor till en fil.
+Gör en viss sida till en fil.
 
 
 
@@ -18,7 +18,7 @@ def to_image(self, page_index, file_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | page_index | int | ange vilken sida som ska konverteras|
 | file_name | str | filnamnet på utdatabilden|
@@ -46,7 +46,7 @@ sr.to_image(0, "output.png")
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-Rendera vissa sidor till en stream.
+Gör en viss sida till en stream.
 
 
 
@@ -56,7 +56,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | page_index | int | ange vilken sida som ska konverteras|
 | stream | io.RawIOBase | strömmen av utdatabilden|

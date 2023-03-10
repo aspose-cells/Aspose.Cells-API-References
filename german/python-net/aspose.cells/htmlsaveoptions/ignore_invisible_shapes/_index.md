@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_invisible_shapes Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Geben Sie an, ob diese nicht sichtbaren Formen exportiert werden
 
 ###  Bemerkungen
 
-Die Standardwerte sind falsch.
+Der Standardwert ist false.
 ###  Definition:
 ```python
 @property

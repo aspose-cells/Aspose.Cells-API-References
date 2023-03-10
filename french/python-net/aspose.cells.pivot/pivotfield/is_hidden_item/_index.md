@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hidden_item méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def is_hidden_item(self, index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | index | int | l'index du pivotItem dans le pivotField.|
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: refresh_on_load 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 200
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## refresh_on_load 属性
 
-如果在打开文件时应刷新此连接，则为真；否则为真。
+如果在打开文件时应刷新此连接，则为真；否则为真。否则，假的。
 ### 定义：
 ```python
 @property

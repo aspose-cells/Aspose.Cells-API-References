@@ -1,4 +1,4 @@
-﻿---
+---
 title: fill mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Belirtilen şekil için fill biçimlendirme özelliklerini içeren bir [Shape.fill_format](/cells/tr/python-net/aspose.cells.drawing/shape#fill_format) nesnesi döndürür.
 
-###  örnekler
+###  Örnek
 
 ```python
 

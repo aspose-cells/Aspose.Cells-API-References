@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_inch fastighet
 
-Representerar storleken på den övre marginalen, i enheter av tum.
+Representerar storleken på den övre marginalen, i enhet av tum.
 ###  Definition:
 ```python
 @property

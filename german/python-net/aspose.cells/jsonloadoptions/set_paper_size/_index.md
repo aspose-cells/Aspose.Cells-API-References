@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_paper_size Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ def set_paper_size(self, type):
 | type | [PaperSizeType](/cells/de/python-net/aspose.cells/papersizetype) | Das Standardpapierformat.|
 ###  Bemerkungen
 
-Wenn es keine Einstellung zum Papierformat gibt, verwendet MS Excel die Standardeinstellung des Druckers.
+Wenn es keine Einstellung für das Papierformat gibt, verwendet MS Excel die Standardeinstellung des Druckers.
 
 
 ###  Siehe auch

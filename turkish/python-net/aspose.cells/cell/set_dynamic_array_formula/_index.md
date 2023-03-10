@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_dynamic_array_formula yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,11 +22,11 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | formül ifadesi|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | formülü ayrıştırmak için seçenekler.<br/> "Ayrıştır" seçeneği göz ardı edilecek ve formül her zaman hemen ayrıştırılacaktır.|
-| calculate_value | bool | taşan aralıktaki bu hücreler için bu dinamik dizi formülünün hesaplanıp hesaplanmayacağını.|
+| calculate_value | bool | taşan aralıktaki bu hücreler için bu dinamik dizi formülünü hesaplayın.|
 
 
 ##  set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value) {#str-FormulaParseOptions-list-bool-bool}
@@ -44,7 +44,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | formül ifadesi|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | formülü ayrıştırmak için seçenekler.<br/> "Ayrıştır" seçeneği göz ardı edilecek ve formül her zaman hemen ayrıştırılacaktır.|
@@ -68,7 +68,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | array_formula | str | formül ifadesi|
 | options | [FormulaParseOptions](/cells/tr/python-net/aspose.cells/formulaparseoptions) | formülü ayrıştırmak için seçenekler.<br/> "Ayrıştır" seçeneği göz ardı edilecek ve formül her zaman hemen ayrıştırılacaktır.|

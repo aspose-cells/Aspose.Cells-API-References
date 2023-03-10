@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_table_style_first_column fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

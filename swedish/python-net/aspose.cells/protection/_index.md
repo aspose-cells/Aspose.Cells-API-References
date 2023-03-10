@@ -1,4 +1,4 @@
-﻿---
+---
 title: Protection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -46,7 +46,7 @@ Typen Protection avslöjar följande medlemmar:
 | [allow_editing_scenario](/cells/sv/python-net/aspose.cells/protection/allow_editing_scenario) | Representerar om användaren får redigera scenarier på ett skyddat kalkylblad.|
 | [is_editing_scenarios_allowed](/cells/sv/python-net/aspose.cells/protection/is_editing_scenarios_allowed) | Representerar om användaren får redigera scenarier på ett skyddat kalkylblad.|
 | [password](/cells/sv/python-net/aspose.cells/protection/password) | Representerar lösenordet för att skydda kalkylbladet.|
-| [is_protected_with_password](/cells/sv/python-net/aspose.cells/protection/is_protected_with_password) |Anger om kalkylbladen är skyddade med lösenord.|
+| [is_protected_with_password](/cells/sv/python-net/aspose.cells/protection/is_protected_with_password) |Indikerar om kalkylbladen är skyddade med lösenord.|
 | [allow_selecting_locked_cell](/cells/sv/python-net/aspose.cells/protection/allow_selecting_locked_cell) | Representerar om användaren får välja låsta celler på ett skyddat kalkylblad.|
 | [is_selecting_locked_cells_allowed](/cells/sv/python-net/aspose.cells/protection/is_selecting_locked_cells_allowed) | Representerar om användaren får välja låsta celler på ett skyddat kalkylblad.|
 | [allow_selecting_unlocked_cell](/cells/sv/python-net/aspose.cells/protection/allow_selecting_unlocked_cell) |Representerar om användaren får välja olåsta celler på ett skyddat kalkylblad.|
@@ -57,7 +57,7 @@ Typen Protection avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [copy(source)](/cells/sv/python-net/aspose.cells/protection/copy/#Protection) | Information om kopieringsskydd.|
-| [get_password_hash()](/cells/sv/python-net/aspose.cells/protection/get_password_hash/#) | Hämtar hash för det aktuella lösenordet.|
+| [get_password_hash()](/cells/sv/python-net/aspose.cells/protection/get_password_hash/#) | Hämtar hash för nuvarande lösenord.|
 | [verify_password(password)](/cells/sv/python-net/aspose.cells/protection/verify_password/#str) | Verifierar lösenord.|
 
 

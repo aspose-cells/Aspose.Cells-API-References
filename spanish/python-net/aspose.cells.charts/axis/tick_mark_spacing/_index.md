@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_mark_spacing propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_mark_spacing propiedad
 
-Devuelve o establece el número de categorías o series entre marcas.
+Devuelve o establece el número de categorías o series entre marcas. Aplica solo para ejes de categoría y serie.
 
 ###  Observaciones
 

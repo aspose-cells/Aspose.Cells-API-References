@@ -1,4 +1,4 @@
-﻿---
+---
 title: type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente le montant de la barre d'erreur type.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

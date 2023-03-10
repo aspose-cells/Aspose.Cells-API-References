@@ -1,4 +1,4 @@
-﻿---
+---
 title: password_char propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

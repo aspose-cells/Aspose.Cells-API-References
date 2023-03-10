@@ -1,4 +1,4 @@
-﻿---
+---
 title: store_name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name mülk
 
-Office Eklentisinin depolandığı pazar yeri örneğini alır ve ayarlar.
+Office Eklentisinin depolandığı pazar yeri örneğini alır ve ayarlar. .
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

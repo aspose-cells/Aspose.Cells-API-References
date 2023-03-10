@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_pixel propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el desplazamiento horizontal de la forma de la segmentación desde su columna izquierda, en píxeles.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

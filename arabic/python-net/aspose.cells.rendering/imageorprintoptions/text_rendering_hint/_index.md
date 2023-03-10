@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_rendering_hint الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint الملكية
 
 يحدد جودة عرض النص.
-القيمة الافتراضية هي TextRenderingHint. SystemDefault
+القيمة الافتراضية هي TextRenderingHint.SystemDefault
 ###  تعريف:
 ```python
 @property

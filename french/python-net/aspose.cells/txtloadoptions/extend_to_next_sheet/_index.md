@@ -1,4 +1,4 @@
-﻿---
+---
 title: extend_to_next_sheet propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

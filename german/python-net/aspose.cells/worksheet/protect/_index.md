@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ def protect(self, type):
 | type | [ProtectionType](/cells/de/python-net/aspose.cells/protectiontype) | Schutzart.|
 ###  Bemerkungen
 
-Diese Methode schützt das Arbeitsblatt ohne Passwort.
+Diese Methode schützt das Arbeitsblatt ohne Passwort. Es kann protect Arbeitsblatt in allen Versionen der Excel-Datei.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  Bemerkungen
 
 Diese Methode kann protect Arbeitsblatt in allen Versionen der Excel-Datei.
-###  Beispiele
+###  Beispiel
 
 
 ```python

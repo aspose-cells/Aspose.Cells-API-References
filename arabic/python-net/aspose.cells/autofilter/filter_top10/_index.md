@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة filter_top10
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def filter_top10(self, field_index, is_top, is_percent, item_count):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | إزاحة العدد الصحيح للحقل الذي تريد أن يؤسس عامل التصفية عليه<br/> (من يسار القائمة ؛ الحقل الموجود في أقصى اليسار هو الحقل 0).|
 | is_top | bool | يشير إلى ما إذا كان التصفية من الأعلى أو الأسفل|

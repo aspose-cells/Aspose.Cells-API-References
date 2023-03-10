@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsSaveOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/xlssaveoptions/__init__/
 is_root: false
 ---
 ##  XlsSaveOptions() {#}
-Crée des options pour enregistrer les fichiers Excel 97-2003 xls/xlt.
+Crée des options pour enregistrer le fichier Excel 97-2003 xls/xlt.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  XlsSaveOptions(format) {#SaveFormat}
-Crée des options pour enregistrer les fichiers Excel 97-2003 xls/xlt.
+Crée des options pour enregistrer le fichier Excel 97-2003 xls/xlt.
 
 
 
@@ -31,9 +31,9 @@ def __init__(self, format):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Le format du fichier. Il doit être xls/xlt.|
+| format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Le format de fichier. Il doit être xls/xlt.|
 
 
 

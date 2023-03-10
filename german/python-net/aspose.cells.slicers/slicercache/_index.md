@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCache Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,15 +17,15 @@ Der Typ SlicerCache macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [cross_filter_type](/cells/de/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Gibt zurück oder legt fest, ob ein Slicer an der Kreuzfilterung mit anderen Slicern teilnimmt<br/> die denselben Slicer-Cache verwenden und wie die Kreuzfilterung angezeigt wird.|
-| [list](/cells/de/python-net/aspose.cells.slicers/slicercache/list) | Gibt zurück, ob der Slicer dem angegebenen Slicer-Cache zugeordnet ist und auf einer Nicht-OLAP-Datenquelle basiert.|
-| [slicer_cache_items](/cells/de/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Gibt eine SlicerCacheItem-Auflistung zurück, die die Auflistung aller Elemente im Slicer-Cache enthält.|
+| [cross_filter_type](/cells/de/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | Gibt zurück oder legt fest, ob ein Slicer an der Kreuzfilterung mit anderen Slicern teilnimmt<br/> die denselben Slicer-Cache verwenden und wie die Kreuzfilterung angezeigt wird. Lesen Schreiben|
+| [list](/cells/de/python-net/aspose.cells.slicers/slicercache/list) | Gibt zurück, ob der Slicer, der dem angegebenen Slicer-Cache zugeordnet ist, auf einer Nicht-OLAP-Datenquelle basiert. Schreibgeschützt|
+| [slicer_cache_items](/cells/de/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | Gibt eine SlicerCacheItem-Auflistung zurück, die die Auflistung aller Elemente im Slicer-Cache enthält. Schreibgeschützt|
 | [name](/cells/de/python-net/aspose.cells.slicers/slicercache/name) | Gibt den Namen des Slicer-Cache zurück.|
 | [source_name](/cells/de/python-net/aspose.cells.slicers/slicercache/source_name) | Gibt den Namen des Cache-Felds zurück|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

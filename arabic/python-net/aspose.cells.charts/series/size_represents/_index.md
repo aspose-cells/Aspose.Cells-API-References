@@ -1,4 +1,4 @@
-﻿---
+---
 title: size_represents الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

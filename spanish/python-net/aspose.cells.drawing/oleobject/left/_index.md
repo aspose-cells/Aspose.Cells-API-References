@@ -1,4 +1,4 @@
-﻿---
+---
 title: left propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa el desplazamiento horizontal de la forma desde su columna left, en unidades de píxeles.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_area yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/formatconditioncollection/get_cell_area/
 is_root: false
 ---
 ##  get_cell_area(index) {#int}
-Koşullu olarak biçimlendirilmiş hücre aralığını dizine göre alır.
+Koşullu biçimlendirilmiş hücre aralığını dizine göre alır.
 
 
 ###  İadeler
@@ -22,9 +22,9 @@ def get_cell_area(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| index | int | koşullu olarak biçimlendirilmiş hücre aralığının dizini.|
+| index | int | koşullu biçimlendirilmiş hücre aralığının dizini.|
 
 
 

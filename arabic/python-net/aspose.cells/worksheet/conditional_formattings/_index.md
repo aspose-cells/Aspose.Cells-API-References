@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formattings الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings الملكية
 
-الحصول على التنسيق الشرطي في ورقة العمل.
+يحصل على التنسيقات الشرطية في ورقة العمل.
 ###  تعريف:
 ```python
 @property

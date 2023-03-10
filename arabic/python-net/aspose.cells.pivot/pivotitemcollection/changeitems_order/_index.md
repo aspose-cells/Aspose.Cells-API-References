@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة changeitems_order
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def changeitems_order(self, source_index, dest_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_index | int | الفهرس الحالي|
 | dest_index | int | فهرس التوزيعات|

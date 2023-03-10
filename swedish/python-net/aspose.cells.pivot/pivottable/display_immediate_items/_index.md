@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_immediate_items fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items fastighet
 
 Anger om objekt i rad- och kolumnområdena är synliga
-när dataområdet i pivottabellen är tomt.
+när dataområdet i pivottabellen är tomt. Standardvärdet är sant.
 ###  Definition:
 ```python
 @property

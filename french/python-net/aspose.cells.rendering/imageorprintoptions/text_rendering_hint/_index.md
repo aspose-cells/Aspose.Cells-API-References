@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_rendering_hint propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  text_rendering_hint propriété
 
 Spécifie la qualité du rendu du texte.
-La valeur par défaut est TextRenderingHint.
+La valeur par défaut est TextRenderingHint.SystemDefault
 ###  Définition:
 ```python
 @property

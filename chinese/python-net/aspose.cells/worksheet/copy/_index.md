@@ -1,6 +1,6 @@
-﻿---
+---
 title: copy方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 110
@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/zh/python-net/aspose.cells/worksheet) |源工作表。|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/zh/python-net/aspose.cells/worksheet) |源工作表。|
 | copy_options | [CopyOptions](/cells/zh/python-net/aspose.cells/copyoptions) |  |
 ### 评论
 
-您可以从同一文件或另一个文件中的另一个工作表中获取 copy 数据。
+您可以从同一文件或另一个文件中的另一个工作表中获取 copy 数据。但是，此方法不支持 copy 绘图对象，例如评论、图像和图表。
 
 
 ### 也可以看看

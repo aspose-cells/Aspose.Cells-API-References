@@ -1,4 +1,4 @@
-﻿---
+---
 title: control_data mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Kontrol verilerini alır.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroupCollection Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,13 +31,13 @@ Der Typ SparklineGroupCollection macht die folgenden Member verfügbar:
 | [last_index_of(item, index)](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int) | Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der sich vom ersten Element bis zum angegebenen Index erstreckt.|
 | [last_index_of(item, index, count)](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection/last_index_of/#SparklineGroup-int-int) |Sucht nach dem angegebenen Objekt und gibt den nullbasierten Index des letzten Vorkommens innerhalb des Bereichs von Elementen in der Arrayliste zurück, der die angegebene Anzahl von Elementen enthält und am angegebenen Index endet.|
 | [add(type, data_range, is_vertical, location_range)](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection/add/#SparklineType-str-bool-CellArea) | Fügt der Sammlung ein [SparklineGroup](/cells/de/python-net/aspose.cells.charts/sparklinegroup)-Element hinzu.|
-| [clear_sparklines(cell_area)](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Löscht die Sparklines, die sich innerhalb eines Bereichs von Zellen befinden.|
+| [clear_sparklines(cell_area)](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparklines/#CellArea) | Löscht die Sparklines innerhalb eines Zellbereichs.|
 | [clear_sparkline_groups(cell_area)](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection/clear_sparkline_groups/#CellArea) | Löscht die Sparkline-Gruppen, die einen Bereich von Zellen überlappen.|
 | [binary_search(item)](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection/binary_search/#SparklineGroup) | Durchsucht die gesamte sortierte Array-Liste mithilfe des Standardvergleichs nach einem Element und gibt den nullbasierten Index des Elements zurück.|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

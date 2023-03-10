@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_left_column mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Sol üst köşe sütun indeksini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

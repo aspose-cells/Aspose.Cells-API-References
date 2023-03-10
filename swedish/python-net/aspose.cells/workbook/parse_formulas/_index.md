@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_formulas metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,9 +18,9 @@ def parse_formulas(self, ignore_error):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| ignore_error | bool | om ignorera fel för ogiltig formel.<br/>För en ogiltig formel, om ignorera felet kommer denna formel att ignoreras<br/> och processen kommer att fortsätta att analysera andra formler, annars kommer ett undantag att skapas.|
+| ignore_error | bool | om ignorera fel för ogiltig formel.<br/>För en ogiltig formel, om ignorera felet kommer denna formel att ignoreras<br/> och processen kommer att fortsätta att analysera andra formler, annars kommer undantag att kastas.|
 
 
 

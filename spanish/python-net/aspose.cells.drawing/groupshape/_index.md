@@ -1,4 +1,4 @@
-﻿---
+---
 title: GroupShape clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -34,9 +34,9 @@ El tipo GroupShape expone los siguientes miembros:
 | [format](/cells/es/python-net/aspose.cells.drawing/groupshape/format) | Representa la configuración del formato de la forma.|
 | [line](/cells/es/python-net/aspose.cells.drawing/groupshape/line) | Obtiene el estilo de línea|
 | [fill](/cells/es/python-net/aspose.cells.drawing/groupshape/fill) | Devuelve un objeto [Shape.fill_format](/cells/es/python-net/aspose.cells.drawing/shape#fill_format) que contiene propiedades de formato de relleno para la forma especificada.|
-| [shadow_effect](/cells/es/python-net/aspose.cells.drawing/groupshape/shadow_effect) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica un efecto de sombra para la forma o el elemento del gráfico.|
+| [shadow_effect](/cells/es/python-net/aspose.cells.drawing/groupshape/shadow_effect) | Representa un objeto [ShadowEffect](/cells/es/python-net/aspose.cells.drawing/shadoweffect) que especifica el efecto de sombra para la forma o el elemento del gráfico.|
 | [reflection](/cells/es/python-net/aspose.cells.drawing/groupshape/reflection) | Representa un objeto [ReflectionEffect](/cells/es/python-net/aspose.cells.drawing/reflectioneffect) que especifica el efecto de reflexión para la forma o el elemento del gráfico.|
-| [glow](/cells/es/python-net/aspose.cells.drawing/groupshape/glow) | Representa un objeto [GlowEffect](/cells/es/python-net/aspose.cells.drawing/gloweffect) que especifica un efecto de brillo para la forma o el elemento del gráfico.|
+| [glow](/cells/es/python-net/aspose.cells.drawing/groupshape/glow) | Representa un objeto [GlowEffect](/cells/es/python-net/aspose.cells.drawing/gloweffect) que especifica el efecto de brillo para el elemento o la forma del gráfico.|
 | [soft_edges](/cells/es/python-net/aspose.cells.drawing/groupshape/soft_edges) | Obtiene y establece el radio de desenfoque que se aplica a los bordes, en unidades de puntos.|
 | [three_d_format](/cells/es/python-net/aspose.cells.drawing/groupshape/three_d_format) | Obtiene y establece el formato 3D de la forma.|
 | [text_frame](/cells/es/python-net/aspose.cells.drawing/groupshape/text_frame) | Devuelve un objeto TextFrame que contiene las propiedades de alineación y anclaje para la forma especificada.|
@@ -70,10 +70,10 @@ El tipo GroupShape expone los siguientes miembros:
 | [right](/cells/es/python-net/aspose.cells.drawing/groupshape/right) | Representa el ancho del desplazamiento horizontal de la forma desde la columna de la esquina inferior derecha, en unidades de píxeles.|
 | [bottom](/cells/es/python-net/aspose.cells.drawing/groupshape/bottom) |Representa el ancho del desplazamiento vertical de la forma desde la fila de la esquina inferior inferior, en unidades de píxeles.|
 | [width](/cells/es/python-net/aspose.cells.drawing/groupshape/width) | Representa el ancho de la forma, en unidades de píxeles.|
-| [width_inch](/cells/es/python-net/aspose.cells.drawing/groupshape/width_inch) | Representa el ancho de la forma, en unidades de pulgadas.|
-| [width_pt](/cells/es/python-net/aspose.cells.drawing/groupshape/width_pt) | Representa el ancho de la forma, en unidades de puntos.|
+| [width_inch](/cells/es/python-net/aspose.cells.drawing/groupshape/width_inch) | Representa el ancho de la forma, en unidades de pulgada.|
+| [width_pt](/cells/es/python-net/aspose.cells.drawing/groupshape/width_pt) | Representa el ancho de la forma, en unidades de punto.|
 | [width_cm](/cells/es/python-net/aspose.cells.drawing/groupshape/width_cm) | Representa el ancho de la forma, en unidades de centímetros.|
-| [height](/cells/es/python-net/aspose.cells.drawing/groupshape/height) | Representa la altura de la forma, en unidades de píxeles.|
+| [height](/cells/es/python-net/aspose.cells.drawing/groupshape/height) | Representa la altura de la forma, en unidades de píxel.|
 | [height_inch](/cells/es/python-net/aspose.cells.drawing/groupshape/height_inch) | Representa la altura de la forma, en unidades de pulgadas.|
 | [height_pt](/cells/es/python-net/aspose.cells.drawing/groupshape/height_pt) | Representa la altura de la forma, en unidades de puntos.|
 | [height_cm](/cells/es/python-net/aspose.cells.drawing/groupshape/height_cm) | Representa la altura de la forma, en unidades de centímetros.|
@@ -84,7 +84,7 @@ El tipo GroupShape expone los siguientes miembros:
 | [top_inch](/cells/es/python-net/aspose.cells.drawing/groupshape/top_inch) |Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de pulgadas.|
 | [top_cm](/cells/es/python-net/aspose.cells.drawing/groupshape/top_cm) | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de centímetros.|
 | [top_to_corner](/cells/es/python-net/aspose.cells.drawing/groupshape/top_to_corner) | Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.|
-| [left_to_corner](/cells/es/python-net/aspose.cells.drawing/groupshape/left_to_corner) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo.|
+| [left_to_corner](/cells/es/python-net/aspose.cells.drawing/groupshape/left_to_corner) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de trabajo.|
 | [x](/cells/es/python-net/aspose.cells.drawing/groupshape/x) | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo, en unidades de píxeles.|
 | [y](/cells/es/python-net/aspose.cells.drawing/groupshape/y) | Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.|
 | [width_scale](/cells/es/python-net/aspose.cells.drawing/groupshape/width_scale) | Obtiene y establece la escala de ancho, en unidades de porcentaje del ancho de la imagen original.<br/> Si la forma no es una imagen, la propiedad WidthScale solo devuelve 100;|
@@ -160,12 +160,12 @@ Obtiene la forma del niño por índice.
 | [get_characters()](/cells/es/python-net/aspose.cells.drawing/groupshape/get_characters/#) | Devuelve todos los objetos de caracteres.<br/> que representa un rango de caracteres dentro del texto.|
 | [remove_active_x_control()](/cells/es/python-net/aspose.cells.drawing/groupshape/remove_active_x_control/#) | Eliminar el control ActiveX.|
 | [is_same_setting(obj)](/cells/es/python-net/aspose.cells.drawing/groupshape/is_same_setting/#any) | Devuelve si la forma es la misma.|
-| [ungroup()](/cells/es/python-net/aspose.cells.drawing/groupshape/ungroup/#) | Desagrupe los elementos de forma.|
+| [ungroup()](/cells/es/python-net/aspose.cells.drawing/groupshape/ungroup/#) | Desagrupa los elementos de forma.|
 | [get_grouped_shapes()](/cells/es/python-net/aspose.cells.drawing/groupshape/get_grouped_shapes/#) | Obtiene las formas agrupadas por esta forma.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_blank_column Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/is_blank_column/
 is_root: false
 ---
 ##  is_blank_column(column_index) {#int}
-Überprüft, ob die angegebene Spalte leer ist (keine Daten enthält).
+Überprüft, ob die angegebene Spalte leer ist (enthält keine Daten).
 
 
 ###  Kehrt zurück

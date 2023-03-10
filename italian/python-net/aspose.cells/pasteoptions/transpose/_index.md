@@ -1,4 +1,4 @@
-﻿---
+---
 title: transpose proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose proprietà
 
-True a transpose righe e colonne quando l'intervallo viene incollato.
+True a transpose righe e colonne quando l'intervallo viene incollato. Il valore predefinito è falso.
 ###  Definizione:
 ```python
 @property

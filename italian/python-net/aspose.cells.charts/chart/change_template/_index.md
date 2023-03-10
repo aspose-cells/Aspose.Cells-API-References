@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo change_template
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def change_template(self, data):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | data | bytes | I dati del file modello grafico (.crtx).|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_automatic_size fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_automatic_size fastighet
 
-Indikerar om tomtområdet automatiskt dimensioneras.
+Indikerar om tomtområdet är automatiskt dimensionerat.
 ###  Definition:
 ```python
 @property

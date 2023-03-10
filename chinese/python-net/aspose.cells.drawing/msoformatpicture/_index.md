@@ -1,6 +1,6 @@
-﻿---
+---
 title: MsoFormatPicture类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 350
@@ -20,7 +20,7 @@ MsoFormatPicture 类型公开了以下成员：
 | [top_crop](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/top_crop) |表示表示裁剪矩形顶部的位置，表示为与图像高度的比率。|
 | [bottom_crop](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/bottom_crop) |表示表示裁剪矩形底部的位置，表示为与图像高度的比率。|
 | [left_crop](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/left_crop) |表示表示裁剪矩形左侧的位置，表示为与图像宽度的比率。|
-| [right_crop](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/right_crop) |表示裁剪矩形右侧的位置，表示为图像宽度的比率。|
+| [right_crop](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/right_crop) |表示裁剪矩形右边的位置表示，表示为图像宽度的比例。|
 | [transparency](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/transparency) |将区域的透明度返回或设置为从 0.0（不透明）到 1.0（透明）的值。|
 | [transparent_color](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/transparent_color) |获取和设置图片的透明色。|
 | [contrast](/cells/zh/python-net/aspose.cells.drawing/msoformatpicture/contrast) |表示对图片的对比度修改。以百分比为单位。|

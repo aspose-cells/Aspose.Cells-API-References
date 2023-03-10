@@ -1,4 +1,4 @@
-﻿---
+---
 title: id الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على أو تعيين معرف لسطر التوقيع هذا.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import SignatureLine

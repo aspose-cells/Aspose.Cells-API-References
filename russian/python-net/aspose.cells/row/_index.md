@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ is_root: false
 | [group_level](/cells/ru/python-net/aspose.cells/row/group_level) | Получает уровень группы строки.|
 | [is_height_matched](/cells/ru/python-net/aspose.cells/row/is_height_matched) |Указывает, что высота строки и высота шрифта по умолчанию совпадают.|
 | [style](/cells/ru/python-net/aspose.cells/row/style) | Представляет стиль этой строки.|
-| [has_custom_style](/cells/ru/python-net/aspose.cells/row/has_custom_style) | Указывает, имеет ли эта строка настраиваемые параметры стиля (отличные от стиля по умолчанию, унаследованного от рабочей книги).|
+| [has_custom_style](/cells/ru/python-net/aspose.cells/row/has_custom_style) | Указывает, есть ли в этой строке пользовательские настройки стиля (отличные от настроек по умолчанию, унаследованных от книги).|
 | [first_cell](/cells/ru/python-net/aspose.cells/row/first_cell) | Получает первый объект ячейки в строке.|
 | [first_data_cell](/cells/ru/python-net/aspose.cells/row/first_data_cell) | Получает первую непустую ячейку в строке.|
 | [last_cell](/cells/ru/python-net/aspose.cells/row/last_cell) | Получает последний объект ячейки в строке.|
@@ -53,7 +53,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

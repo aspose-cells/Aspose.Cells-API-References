@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_selecting_locked_cells_allowed mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Kullanıcının korumalı bir çalışma sayfasında kilitli hücreleri seçmesi
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen Protection.AllowSelectingLockedCell özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

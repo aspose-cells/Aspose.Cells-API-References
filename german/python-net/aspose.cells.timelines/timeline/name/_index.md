@@ -1,4 +1,4 @@
-﻿---
+---
 title: name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den name der angegebenen Timeline zurück oder legt ihn fest
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

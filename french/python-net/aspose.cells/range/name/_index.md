@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient ou définit le name de la plage.
 
 ###  Remarques
 
-La plage nommée est prise en charge.
+La plage nommée est prise en charge. Par exemple,
 
 range.Name = "Feuille1!MaPlage" ;
 ###  Définition:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_pt mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_pt mülk
 
-Nokta birimleri cinsinden şeklin yüksekliğini temsil eder.
+Nokta birimi cinsinden şeklin yüksekliğini temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

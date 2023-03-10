@@ -1,6 +1,6 @@
-﻿---
+---
 title: SignatureLine类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 640
@@ -27,9 +27,9 @@ SignatureLine 类型公开了以下成员：
 | [provider_id](/cells/zh/python-net/aspose.cells.drawing/signatureline/provider_id) |获取和设置签名提供者的id。|
 | [signer](/cells/zh/python-net/aspose.cells.drawing/signatureline/signer) |获取和设置签名者。|
 | [title](/cells/zh/python-net/aspose.cells.drawing/signatureline/title) |获取并设置歌手的称号。|
-| [email](/cells/zh/python-net/aspose.cells.drawing/signatureline/email) |获取并设置歌手的电子邮件。|
+| [email](/cells/zh/python-net/aspose.cells.drawing/signatureline/email) |获取和设置歌手的电子邮件。|
 | [is_line](/cells/zh/python-net/aspose.cells.drawing/signatureline/is_line) |指示它是否是签名行。|
-| [allow_comments](/cells/zh/python-net/aspose.cells.drawing/signatureline/allow_comments) |指示是否可以附加注释。|
+| [allow_comments](/cells/zh/python-net/aspose.cells.drawing/signatureline/allow_comments) |指示是否可以附加评论。|
 | [show_signed_date](/cells/zh/python-net/aspose.cells.drawing/signatureline/show_signed_date) |指示是否显示签名日期。|
 | [instructions](/cells/zh/python-net/aspose.cells.drawing/signatureline/instructions) |获取和设置在签名时向用户显示的文本。|
 

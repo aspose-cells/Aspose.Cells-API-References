@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -16,7 +16,7 @@ is_root: false
  تبدأ سلسلة formula دائمًا بعلامة يساوي (=).
 ويرجى دائمًا استخدام الفاصلة (،) كمحدد للمعلمات ، مثل "= SUM (A1، E1، H2)".
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FindOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ Typen FindOptions avslöjar följande medlemmar:
 | [search_backward](/cells/sv/python-net/aspose.cells/findoptions/search_backward) | Om du söker bakåt efter celler.|
 | [seach_order_by_rows](/cells/sv/python-net/aspose.cells/findoptions/seach_order_by_rows) | Anger om sökordning efter rader eller kolumner.|
 | [look_in_type](/cells/sv/python-net/aspose.cells/findoptions/look_in_type) | Titta i typ.|
-| [regex_key](/cells/sv/python-net/aspose.cells/findoptions/regex_key) | Indikerar om den sökta nyckeln är regex.<br/>Om sant kommer den sökta nyckeln att tas som regex och tolkas.|
+| [regex_key](/cells/sv/python-net/aspose.cells/findoptions/regex_key) | Indikerar om den sökta nyckeln är regex.<br/>Om sant kommer den sökta nyckeln att tas som regex och tolkas. Annars kommer nyckeln att tolkas enligt reglerna i ms excel.|
 | [value_type_sensitive](/cells/sv/python-net/aspose.cells/findoptions/value_type_sensitive) | Anger om den sökta cellvärdetypen ska vara samma som den sökta nyckeln.|
 | [style](/cells/sv/python-net/aspose.cells/findoptions/style) | Formatet att söka efter.|
 | [convert_numeric_data](/cells/sv/python-net/aspose.cells/findoptions/convert_numeric_data) | Hämtar eller ställer in ett värde som anger om det sökta strängvärdet konverteras till numerisk data.|

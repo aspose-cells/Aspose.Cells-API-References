@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_two_color_gradient_setting Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

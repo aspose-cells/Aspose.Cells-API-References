@@ -1,4 +1,4 @@
-﻿---
+---
 title: second_category_data mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,8 +11,8 @@ is_root: false
 
  İkinci kategori Eksen değerlerinin aralığını alır veya ayarlar.
  Bir hücre aralığı olabilir ("d1:e10" gibi),
- veya bir dizi değer ("{2,6,8,10}" gibi).
-Yalnızca bazı ASeries ikinci eksende çizildiğinde etki eder.
+ veya bir değer dizisi ("{2,6,8,10}" gibi).
+Yalnızca bazı ASeries'ler ikinci eksende çizildiğinde etki eder.
 ###  Tanım:
 ```python
 @property

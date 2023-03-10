@@ -1,4 +1,4 @@
-﻿---
+---
 title: parent propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent propiedad
 
-Devuelve el objeto Worksheet que representa la hoja que contiene la segmentación.
+Devuelve el objeto Worksheet que representa la hoja que contiene la segmentación. Solo lectura.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

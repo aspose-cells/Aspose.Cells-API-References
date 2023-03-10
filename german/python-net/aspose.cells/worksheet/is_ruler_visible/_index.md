@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_ruler_visible Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_ruler_visible Eigentum
 
-Gibt an, ob das Lineal sichtbar ist.
+Gibt an, ob das Lineal sichtbar ist. Diese Eigenschaft wird nur für die Seitenumbruchvorschau angewendet.
 ###  Definition:
 ```python
 @property

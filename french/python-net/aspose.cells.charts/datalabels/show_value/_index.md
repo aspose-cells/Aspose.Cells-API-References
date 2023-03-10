@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_value propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_value propriété
 
-Représente le comportement d'affichage des valeurs d'étiquette de données d'un graphique spécifié. True affiche les valeurs. False pour les masquer.
+Représente le comportement d'affichage des valeurs d'étiquette de données d'un graphique spécifié. True affiche les valeurs. Faux pour cacher.
 ###  Définition:
 ```python
 @property

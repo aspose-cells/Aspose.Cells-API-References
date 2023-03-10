@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_text mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bu metin kutusundaki verileri ve bazı biçimleri içeren html dizesini alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: total_columns mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  total_columns mülk
 
--1, verilen veri kaynağının tüm satırları anlamına gelir.
+Veri kaynağından içe aktarılacak toplam sütun sayısını alır veya ayarlar. -1, verilen veri kaynağının tüm satırları anlamına gelir.
 ###  Tanım:
 ```python
 @property

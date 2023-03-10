@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_pivot_style_row_stripes fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

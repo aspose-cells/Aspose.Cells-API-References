@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.properties
 second_title: Aspose.Cells for Python via .NET API
 description:

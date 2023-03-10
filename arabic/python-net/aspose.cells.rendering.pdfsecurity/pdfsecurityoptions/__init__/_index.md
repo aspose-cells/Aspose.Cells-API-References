@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSecurityOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def __init__(self):
 
 
 
-###  أمثلة
+###  مثال
 
 يحدد الكود التالي إذن طباعة عالي الدقة لملف pdf.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_color_in_palette yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Elektronik tablo için palette bir renk olup olmadığını kontrol eder.
 
 ###  İadeler
 
-Bu renk palette ise true değerini döndürür.
+Bu renk palette ise true değerini döndürür. Aksi takdirde false döndürür
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Renk yapısı.|
 

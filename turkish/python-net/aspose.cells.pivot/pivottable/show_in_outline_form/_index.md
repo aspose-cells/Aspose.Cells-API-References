@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_in_outline_form yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

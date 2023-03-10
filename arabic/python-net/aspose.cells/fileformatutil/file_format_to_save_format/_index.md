@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة file_format_to_save_format
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def file_format_to_save_format(self, format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | format | [FileFormatType](/cells/ar/python-net/aspose.cells/fileformattype) | نوع تنسيق الملف.|
 

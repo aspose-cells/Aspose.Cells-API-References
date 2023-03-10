@@ -1,4 +1,4 @@
-﻿---
+---
 title: rows недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  rows недвижимость
 
-Получает коллекцию из [Row](/cells/ru/python-net/aspose.cells/row) объектов, представляющих индивидуума rows на этом листе.
+Получает коллекцию объектов [Row](/cells/ru/python-net/aspose.cells/row), представляющих индивидуума rows на этом листе.
 ###  Определение:
 ```python
 @property

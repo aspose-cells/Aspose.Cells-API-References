@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPointCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,7 +25,7 @@ Obtient l'élément [ChartPoint](/cells/fr/python-net/aspose.cells.charts/chartp
 ###  Indexeur
 | Nom| Description|
 | :- | :- |
-| [index] | Index des points du graphique dans la série.|
+| [index] | L'index du point du graphique dans la série.|
 
 
 ###  Méthodes
@@ -37,7 +37,7 @@ Obtient l'élément [ChartPoint](/cells/fr/python-net/aspose.cells.charts/chartp
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

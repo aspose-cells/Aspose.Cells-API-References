@@ -1,4 +1,4 @@
-﻿---
+---
 title: move metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def move(self, upper_left_row, upper_left_column, lower_right_row, lower_right_c
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | upper_left_row | int | Övre vänstra radens index.|
 | upper_left_column | int | Övre vänstra kolumnindex.|

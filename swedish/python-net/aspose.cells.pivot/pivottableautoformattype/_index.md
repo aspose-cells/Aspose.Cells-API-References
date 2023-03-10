@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableAutoFormatType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -37,8 +37,8 @@ Typen PivotTableAutoFormatType avslöjar följande medlemmar:
 | TABLE6 | Representerar formattypen Tabell 6.|
 | TABLE7 | Representerar formattypen Tabell 7.|
 | TABLE8 | Representerar formattypen Tabell8.|
-| TABLE9 | Representerar formattypen Tabell 9.|
-| TABLE10 | Representerar tabell 10 formattyp.|
+| TABLE9 | Representerar formattypen Tabell9.|
+| TABLE10 | Representerar formattypen Tabell 10.|
 
 
 

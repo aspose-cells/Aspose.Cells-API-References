@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_range الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  row_range الملكية
 
 إرجاع كائن CellArea يمثل النطاق
-الذي يحتوي على منطقة الصف في تقرير PivotTable.
+الذي يحتوي على منطقة الصف في تقرير PivotTable. يقرأ فقط.
 ###  تعريف:
 ```python
 @property

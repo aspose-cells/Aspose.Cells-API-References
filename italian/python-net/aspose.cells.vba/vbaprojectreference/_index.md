@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe VbaProjectReference
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ Il tipo VbaProjectReference espone i membri seguenti:
 | :- | :- |
 | [type](/cells/it/python-net/aspose.cells.vba/vbaprojectreference/type) | Ottiene il tipo di questo riferimento.|
 | [name](/cells/it/python-net/aspose.cells.vba/vbaprojectreference/name) | Ottiene e imposta il nome del riferimento.|
-| [libid](/cells/it/python-net/aspose.cells.vba/vbaprojectreference/libid) | Ottiene e imposta la libido del riferimento.|
+| [libid](/cells/it/python-net/aspose.cells.vba/vbaprojectreference/libid) | Ottiene e imposta la Libid del riferimento.|
 | [twiddledlibid](/cells/it/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | Ottiene e imposta la Libid modificata del riferimento.|
 | [extended_libid](/cells/it/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | Ottiene e imposta la Libid estesa del riferimento.|
 | [relative_libid](/cells/it/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | Ottiene e imposta l'identificatore del progetto VBA di riferimento con un percorso relativo.|
@@ -32,7 +32,7 @@ Il tipo VbaProjectReference espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

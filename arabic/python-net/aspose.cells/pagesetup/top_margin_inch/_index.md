@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_inch الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_inch الملكية
 
-يمثل حجم الهامش العلوي بوحدات البوصة.
+يمثل حجم الهامش العلوي بوحدة البوصة.
 ###  تعريف:
 ```python
 @property

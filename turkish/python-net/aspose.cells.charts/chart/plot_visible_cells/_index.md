@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_visible_cells mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Yalnızca görünür hücreleri çizip çizmediğini gösterir.
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen PlotVisibleCellsOnly özelliğini kullanın.
  Bu yöntem Aralık 2022'den 12 ay sonra kaldırılacak.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

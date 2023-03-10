@@ -1,4 +1,4 @@
-﻿---
+---
 title: tile_pic_option Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

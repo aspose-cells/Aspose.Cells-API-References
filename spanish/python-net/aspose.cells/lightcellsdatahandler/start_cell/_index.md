@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_cell método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Se prepara para procesar una celda.
 
 ###  Devoluciones
 
-si esta celda necesita ser procesada.false para ignorar la celda y verificar la siguiente hasta llegar al final de los datos de celdas de la fila actual
+si esta celda necesita ser procesada. falso para ignorar la celda y verificar la siguiente hasta llegar al final de los datos de celdas de la fila actual
 
 
 ```python
@@ -22,7 +22,7 @@ def start_cell(self, column_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | column_index | int | índice de columna de la celda a procesar|
 ###  Observaciones

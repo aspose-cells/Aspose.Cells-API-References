@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,9 +11,9 @@ is_root: false
 
 قم بتقييم إجمالي عدد الصفحات في ورقة العمل هذه
 
-###  أمثلة
+###  مثال
 
-يُظهر الرمز التالي أسرع طريقة للحصول على عدد صفحات ورقة العمل.
+يُظهر الكود التالي أسرع طريقة للحصول على عدد الصفحات في ورقة العمل.
 
 ```python
 from aspose.cells import Workbook

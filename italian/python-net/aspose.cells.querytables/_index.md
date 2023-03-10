@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.querytables
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ is_root: false
 | Classe| Descrizione|
 | :- | :- |
 | [DataMashup](/cells/it/python-net/aspose.cells.querytables/datamashup) | Rappresenta i dati di mashup.|
-| [PowerQueryFormula](/cells/it/python-net/aspose.cells.querytables/powerqueryformula) | Rappresenta la definizione della formula di query di alimentazione.|
+| [PowerQueryFormula](/cells/it/python-net/aspose.cells.querytables/powerqueryformula) | Rappresenta la definizione della formula di query di potenza.|
 | [PowerQueryFormulaCollection](/cells/it/python-net/aspose.cells.querytables/powerqueryformulacollection) | Rappresenta tutte le formule di query avanzate nei dati di mashup.|
 | [PowerQueryFormulaFunction](/cells/it/python-net/aspose.cells.querytables/powerqueryformulafunction) | Rappresenta la funzione della query di potenza.|
 | [PowerQueryFormulaItem](/cells/it/python-net/aspose.cells.querytables/powerqueryformulaitem) | Rappresenta l'elemento della formula di query avanzata.|

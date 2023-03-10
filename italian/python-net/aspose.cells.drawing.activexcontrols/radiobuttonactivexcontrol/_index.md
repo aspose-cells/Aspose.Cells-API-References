@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe RadioButtonActiveXControl
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -57,7 +57,7 @@ Il tipo RadioButtonActiveXControl espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose import pycore

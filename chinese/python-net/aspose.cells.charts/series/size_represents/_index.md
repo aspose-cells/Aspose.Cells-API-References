@@ -1,6 +1,6 @@
-﻿---
+---
 title: size_represents 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 430
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-BubbleSizeRepresents.SizeIsArea表示值[Series.bubble_sizes](/cells/zh/python-net/aspose.cells.charts/series#bubble_sizes)是气泡的面积。
+BubbleSizeRepresents.SizeIsArea 表示值 [Series.bubble_sizes](/cells/zh/python-net/aspose.cells.charts/series#bubble_sizes) 是气泡的面积。
 BubbleSizeRepresents.SizeIsWidth 表示值 [Series.bubble_sizes](/cells/zh/python-net/aspose.cells.charts/series#bubble_sizes) 是气泡的宽度。
 ### 定义：
 ```python

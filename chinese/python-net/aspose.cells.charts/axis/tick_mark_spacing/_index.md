@@ -1,6 +1,6 @@
-﻿---
+---
 title: tick_mark_spacing 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 400
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## tick_mark_spacing 属性
 
-返回或设置刻度线之间的类别数或系列数。
+返回或设置刻度线之间的类别数或系列数。仅适用于类别和系列轴。
 
 ### 评论
 

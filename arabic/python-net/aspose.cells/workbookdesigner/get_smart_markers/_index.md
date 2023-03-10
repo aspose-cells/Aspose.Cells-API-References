@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_smart_markers
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def get_smart_markers(self):
 
 ###  ملاحظات
 
-يتم إنشاء مجموعة سلسلة في كل مكالمة.
+يتم إنشاء مجموعة سلسلة في كل مكالمة. يتم فرز المصفوفة وإزالة القيم المكررة.
 
 
 ###  أنظر أيضا

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add(self, source_data, dest_cell_name, table_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source_data | str | Los datos para la nueva caché de tabla dinámica.|
 | dest_cell_name | str |La celda en la esquina superior izquierda del rango de destino del informe de tabla dinámica.|
@@ -44,7 +44,7 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/es/python-net/aspose.cells.pivot/pivottable) | La tabla dinámica de origen.|
 | dest_cell_name | str |La celda en la esquina superior izquierda del rango de destino del informe de tabla dinámica.|
@@ -66,7 +66,7 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source_data | str | Los datos para la nueva caché de tabla dinámica.|
 | dest_cell_name | str |La celda en la esquina superior izquierda del rango de destino del informe de tabla dinámica.|
@@ -89,7 +89,7 @@ def add(self, source_data, row, column, table_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source_data | str | El rango de celdas de datos para la nueva tabla dinámica. Ejemplo: Sheet1! A1: C8|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de destino del informe de tabla dinámica.|
@@ -112,7 +112,7 @@ def add(self, pivot_table, row, column, table_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot_table | [PivotTable](/cells/es/python-net/aspose.cells.pivot/pivottable) | La tabla dinámica de origen.|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de destino del informe de tabla dinámica.|
@@ -135,7 +135,7 @@ def add(self, source_data, row, column, table_name, use_same_source):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source_data | str | El rango de celdas de datos para la nueva tabla dinámica. Ejemplo: Sheet1! A1: C8|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de destino del informe de tabla dinámica.|
@@ -159,10 +159,10 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source_data | list | Los múltiples rangos de consolidación, como {"Hoja1!A1:C8","Hoja2!A1:B8"} |
-| is_auto_page | bool | Si crea automáticamente un campo de una sola página.<br/>Si es verdadero, se ignorarán los siguientes parámetros pageFields.|
+| is_auto_page | bool | Si crea automáticamente un campo de una sola página.<br/>Si es verdadero, se ignorará el siguiente parámetro pageFields.|
 | page_fields | [PivotPageFields](/cells/es/python-net/aspose.cells.pivot/pivotpagefields) | Los elementos del campo de la página dinámica.|
 | dest_cell_name | str | destCellName El nombre del nuevo informe de tabla dinámica.|
 | table_name | str | el nombre del nuevo informe de tabla dinámica.|
@@ -183,7 +183,7 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | source_data | list | Los múltiples rangos de consolidación, como {"Hoja1!A1:C8","Hoja2!A1:B8"} |
 | is_auto_page | bool | Si crea automáticamente un campo de una sola página.<br/> Si es verdadero, se ignorará el siguiente parámetro pageFields|

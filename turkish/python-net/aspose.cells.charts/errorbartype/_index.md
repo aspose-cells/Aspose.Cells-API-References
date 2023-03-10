@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBarType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ ErrorBarType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| CUSTOM | Dahili Özel değer türü.|
+| CUSTOM | InnerCustom değer türü.|
 | FIXED_VALUE | Sabit değer türü.|
 | PERCENT | yüzde türü|
 | ST_DEV | Standart sapma türü.|

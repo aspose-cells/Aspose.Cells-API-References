@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_preset_color_gradient Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ def set_preset_color_gradient(self, preset_color, style, variant):
 | :- | :- | :- |
 | preset_color | [GradientPresetType](/cells/de/python-net/aspose.cells.drawing/gradientpresettype) | Voreingestellter Farbtyp|
 | style | [GradientStyleType](/cells/de/python-net/aspose.cells.drawing/gradientstyletype) | Verlaufsschattierungsstil.|
-| variant | int |Die Verlaufsvariante. Kann ein Wert von 1 bis 4 sein, entsprechend einer der vier Varianten auf der Registerkarte „Verlauf“ im Dialogfeld „Fülleffekte“. Wenn style GradientStyle.FromCenter ist, kann das Variant-Argument nur 1 oder 2 sein.|
+| variant | int |Die Verlaufsvariante. Kann ein Wert zwischen 1 und 4 sein, der einer der vier Varianten auf der Registerkarte „Verlauf“ im Dialogfeld „Fülleffekte“ entspricht. Wenn style GradientStyle.FromCenter ist, kann das Variant-Argument nur 1 oder 2 sein.|
 
 
 

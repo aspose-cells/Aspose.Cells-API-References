@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPoint clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -61,13 +61,13 @@ El tipo ChartPoint expone los siguientes miembros:
 | [get_bottom_point_count()](/cells/es/python-net/aspose.cells.charts/chartpoint/get_bottom_point_count/#) | Obtiene el número de puntos inferiores después de llamar al método Chart.Calculate().|
 | [get_bottom_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) | Obtiene la coordenada x del punto inferior de la forma después de llamar al método Chart.Calculate().<br/> Aplica gráficos 3D: Column3D, Bar3D, Cono, Cilindro, Pirámide|
 | [get_bottom_point_y_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) | Obtiene la coordenada y del punto inferior de la forma después de llamar al método Chart.Calculate().<br/> Aplica gráficos 3D: Column3D, Bar3D, Cono, Cilindro, Pirámide|
-| [get_on_category_axis_point_count()](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Obtiene el número de puntos en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de áreas.|
-| [get_on_category_axis_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Obtiene la coordenada x del punto en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de área.|
-| [get_on_category_axis_point_y_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Obtiene la coordenada Y del punto en el eje de categoría después de llamar al método Chart.Calculate() Solo se aplica al gráfico de área.|
+| [get_on_category_axis_point_count()](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Obtiene el número de puntos en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.|
+| [get_on_category_axis_point_x_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Obtiene la coordenada x del punto en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.|
+| [get_on_category_axis_point_y_px(index)](/cells/es/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Obtiene la coordenada y del punto en el eje de categoría después de llamar al método Chart.Calculate(). Solo se aplica al gráfico de área.|
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

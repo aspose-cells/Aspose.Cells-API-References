@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_filter метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def clear_filter(self, field_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | field_index | int | индекс PivotField|
 

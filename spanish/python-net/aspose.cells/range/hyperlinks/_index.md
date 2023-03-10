@@ -1,4 +1,4 @@
-﻿---
+---
 title: hyperlinks propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hyperlinks propiedad
 
-Obtiene todos los hipervínculos del intervalo.
+Obtiene todos los hipervínculos del rango.
 ###  Definición:
 ```python
 @property

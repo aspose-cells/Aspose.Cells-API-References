@@ -1,6 +1,6 @@
-﻿---
+---
 title: contrast 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-它介于 -100% 和 100% 之间。
+它介于 -100% 和 100% 之间。它与 Excel 2007 或更高版本相同。
 ### 定义：
 ```python
 @property

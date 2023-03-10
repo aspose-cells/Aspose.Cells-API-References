@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_safe_sheet_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ def create_safe_sheet_name(self, name_proposal):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name_proposal | str | kullanılacak sayfa adı|
 
@@ -48,7 +48,7 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name_proposal | str | kullanılacak sayfa adı|
 | replace_char | char | verilen sayfa adındaki geçersiz karakterleri değiştirmek için kullanılacak karakter|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_pivot_connection méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/
 is_root: false
 ---
 ##  remove_pivot_connection(pivot) {#aspose.cells.pivot.PivotTable}
-Supprime les connexions de tableau croisé dynamique.
+Supprime la connexion au tableau croisé dynamique.
 
 
 
@@ -18,11 +18,11 @@ def remove_pivot_connection(self, pivot):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable | L'objet tableau croisé dynamique|
 
-###  Exemples
+###  Exemple
 
 ```python
 

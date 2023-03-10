@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe SpinButtonActiveXControl
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -51,7 +51,7 @@ Il tipo SpinButtonActiveXControl espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose import pycore

@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_filter الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  ملاحظات
 
 في بعض الأحيان ، على الرغم من ضبط التصفية التلقائية ، لا يتم إخفاء الصفوف المقابلة في الملف.
-يعمل الآن فقط مع ملفات SpreadSheetML.
+يعمل الآن فقط مع ملف SpreadSheetML.
 ###  تعريف:
 ```python
 @property

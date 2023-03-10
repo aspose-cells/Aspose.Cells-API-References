@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextEffectFormat clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -21,7 +21,7 @@ El tipo TextEffectFormat expone los siguientes miembros:
 | [font_name](/cells/es/python-net/aspose.cells.drawing/texteffectformat/font_name) | El nombre de la fuente utilizada en WordArt.|
 | [font_bold](/cells/es/python-net/aspose.cells.drawing/texteffectformat/font_bold) | Indica si la fuente está en negrita.|
 | [font_italic](/cells/es/python-net/aspose.cells.drawing/texteffectformat/font_italic) | Indica si la fuente está en cursiva.|
-| [rotated_chars](/cells/es/python-net/aspose.cells.drawing/texteffectformat/rotated_chars) | Si es verdadero, los caracteres del WordArt especificado se giran 90 grados en relación con la forma delimitadora del WordArt.|
+| [rotated_chars](/cells/es/python-net/aspose.cells.drawing/texteffectformat/rotated_chars) | Si es verdadero, los caracteres en el WordArt especificado se giran 90 grados con respecto a la forma delimitada de WordArt.|
 | [font_size](/cells/es/python-net/aspose.cells.drawing/texteffectformat/font_size) | El tamaño (en puntos) de la fuente utilizada en WordArt.|
 | [preset_shape](/cells/es/python-net/aspose.cells.drawing/texteffectformat/preset_shape) | Obtiene y establece el tipo de forma preestablecido.|
 
@@ -33,7 +33,7 @@ El tipo TextEffectFormat expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

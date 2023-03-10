@@ -1,4 +1,4 @@
-﻿---
+---
 title: type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Hämta eller ställ in type för detta villkorliga formateringsvärdeobjekt.
  Ställa in type till FormatConditionValueType.Min eller FormatConditionValueType.Max
-kommer automatiskt att ställa in "Värde" till null.
+kommer automatiskt att ställa in "Värde" till noll.
 ###  Definition:
 ```python
 @property

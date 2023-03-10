@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ChartType](/cells/sv/python-net/aspose.cells.charts/charttype) | Diagramtyp|
 | upper_left_row | int | Övre vänstra radens index.|
@@ -46,7 +46,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ChartType](/cells/sv/python-net/aspose.cells.charts/charttype) | Diagramtyp|
 | data_range | str | Anger dataintervallet för diagrammet|
@@ -56,7 +56,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | bottom_column | int | Nedre högra kolumnindex|
 ###  Anmärkningar
 
-OBS: Denna medlem är nu föråldrad.
+OBS: Denna medlem är nu föråldrad. Istället,
 använd [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/sv/python-net/aspose.cells.charts/chartcollection/add) egendom.
  Den här egenskapen kommer att tas bort 12 månader senare sedan maj 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
@@ -76,7 +76,7 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | data | bytes | Data för diagrammallfilen (.crtx).|
 | data_range | str | Anger dataintervallet för diagrammet|
@@ -102,7 +102,7 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ChartType](/cells/sv/python-net/aspose.cells.charts/charttype) | Diagramtyp|
 | data_range | str | Anger dataintervallet för diagrammet|

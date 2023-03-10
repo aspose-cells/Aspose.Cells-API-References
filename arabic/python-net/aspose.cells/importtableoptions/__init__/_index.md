@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportTableOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

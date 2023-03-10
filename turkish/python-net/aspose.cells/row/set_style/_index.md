@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_style yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | style | [Style](/cells/tr/python-net/aspose.cells/style) | bu satırdaki hücreler için varsayılan stil olarak kullanılacak stil.|
 ###  Notlar

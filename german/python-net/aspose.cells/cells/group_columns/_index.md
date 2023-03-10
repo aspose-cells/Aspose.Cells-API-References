@@ -1,4 +1,4 @@
-﻿---
+---
 title: group_columns Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/group_columns/
 is_root: false
 ---
 ##  group_columns(first_index, last_index) {#int-int}
-Spalten gruppieren.
+Gruppiert Spalten.
 
 
 
@@ -25,7 +25,7 @@ def group_columns(self, first_index, last_index):
 
 
 ##  group_columns(first_index, last_index, is_hidden) {#int-int-bool}
-Spalten gruppieren.
+Gruppiert Spalten.
 
 
 

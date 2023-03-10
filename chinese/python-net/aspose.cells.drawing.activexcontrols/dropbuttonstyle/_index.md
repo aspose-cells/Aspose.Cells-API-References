@@ -1,6 +1,6 @@
-﻿---
+---
 title: DropButtonStyle枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 280
@@ -14,7 +14,7 @@ is_root: false
 
 DropButtonStyle 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | PLAIN |显示一个没有符号的按钮。|

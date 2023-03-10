@@ -1,4 +1,4 @@
-﻿---
+---
 title: support_div_tag fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag fastighet
 
-Anger om stöd för layouten av<div> taggen när html-filen innehåller<div> taggar.
+Anger om stöd för layouten av<div> taggen när html-filen innehåller<div> taggar. Standardvärdet är falskt.
 ###  Definition:
 ```python
 @property

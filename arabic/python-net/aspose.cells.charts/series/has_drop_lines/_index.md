@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_drop_lines الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  has_drop_lines الملكية
 
 صحيح إذا كان الرسم البياني به خطوط هبوط.
-ينطبق فقط على المخططات الخطية أو المخططات المساحية.
+ينطبق فقط على المخطط الخطي أو المخططات المساحية.
 ###  تعريف:
 ```python
 @property

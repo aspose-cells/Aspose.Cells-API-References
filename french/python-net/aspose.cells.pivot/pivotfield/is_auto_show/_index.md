@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_show propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_show propriété
 
-Indique si le champ de tableau croisé dynamique spécifié est automatiquement affiché, valide uniquement pour Excel 2003.
+Indique si le champ de tableau croisé dynamique spécifié est automatiquement affiché, uniquement valable pour Excel 2003.
 ###  Définition:
 ```python
 @property

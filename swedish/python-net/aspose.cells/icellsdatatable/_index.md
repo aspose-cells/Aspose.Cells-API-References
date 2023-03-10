@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICellsDataTable klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen ICellsDataTable avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [columns](/cells/sv/python-net/aspose.cells/icellsdatatable/columns) | Hämtar kolumnernas namn.|
-| [count](/cells/sv/python-net/aspose.cells/icellsdatatable/count) | -1 för okända poster räknas.|
+| [count](/cells/sv/python-net/aspose.cells/icellsdatatable/count) | Får räkningen av posterna. -1 för okända poster räknas.|
 
 
 

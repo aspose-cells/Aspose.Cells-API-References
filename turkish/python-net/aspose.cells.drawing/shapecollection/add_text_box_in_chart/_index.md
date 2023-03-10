@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_box_in_chart yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_text_box_in_chart(self, top, left, height, width):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | top | int | Grafik alanının 1/4000'lik birimlerinde metin kutusunun sol üst köşeden dikey uzaklığını temsil eder.|
 | left | int | Grafik alanının 1/4000'lik birimlerinde metin kutusunun sol üst köşeden dikey uzaklığını temsil eder.|

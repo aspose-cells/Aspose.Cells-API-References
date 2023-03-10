@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_note недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Если это связанный комментарий, примечание не может быть изменено, иначе MS Excel не сможет обработать его как связанный комментарий.
 
-###  Примеры
+###  Пример
 
 ```python
 

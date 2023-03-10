@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة copy_rows
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,12 +18,12 @@ def copy_rows(self, source_cells, source_row_index, destination_row_index, row_n
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ar/python-net/aspose.cells/cells) | عنصر المصدر Cells يحتوي على بيانات وتنسيقات لنسخها.|
 | source_row_index | int | فهرس صف المصدر.|
 | destination_row_index | int | فهرس صف الوجهة.|
-| row_number | int | أرقام الصفوف المنسوخة.|
+| row_number | int | رقم الصف المنسوخ.|
 
 
 ##  copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options) {#Cells-int-int-int-CopyOptions}
@@ -37,12 +37,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ar/python-net/aspose.cells/cells) | عنصر المصدر Cells يحتوي على بيانات وتنسيقات لنسخها.|
 | source_row_index | int | فهرس صف المصدر.|
 | destination_row_index | int | فهرس صف الوجهة.|
-| row_number | int | أرقام الصفوف المنسوخة.|
+| row_number | int | رقم الصف المنسوخ.|
 | copy_options | [CopyOptions](/cells/ar/python-net/aspose.cells/copyoptions) | خيارات النسخ.|
 
 
@@ -57,12 +57,12 @@ def copy_rows(self, source_cells0, source_row_index, destination_row_index, row_
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ar/python-net/aspose.cells/cells) | عنصر المصدر Cells يحتوي على بيانات وتنسيقات لنسخها.|
 | source_row_index | int | فهرس صف المصدر.|
 | destination_row_index | int | فهرس صف الوجهة.|
-| row_number | int | أرقام الصفوف المنسوخة.|
+| row_number | int | رقم الصف المنسوخ.|
 | copy_options | [CopyOptions](/cells/ar/python-net/aspose.cells/copyoptions) | خيارات النسخ.|
 | paste_options | [PasteOptions](/cells/ar/python-net/aspose.cells/pasteoptions) | خيارات اللصق.|
 

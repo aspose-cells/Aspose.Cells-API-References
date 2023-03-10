@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsColor класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,10 +17,10 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [is_shape_color](/cells/ru/python-net/aspose.cells/cellscolor/is_shape_color) | Получает и задает цвет, который должен применяться к ячейке или фигуре.|
+| [is_shape_color](/cells/ru/python-net/aspose.cells/cellscolor/is_shape_color) | Получает и устанавливает цвет, который должен применяться к ячейке или фигуре.|
 | [type](/cells/ru/python-net/aspose.cells/cellscolor/type) | Цветовой тип.|
-| [theme_color](/cells/ru/python-net/aspose.cells/cellscolor/theme_color) | Получает цвет темы.|
-| [color_index](/cells/ru/python-net/aspose.cells/cellscolor/color_index) | Получает и задает индекс цвета в цветовой палитре.|
+| [theme_color](/cells/ru/python-net/aspose.cells/cellscolor/theme_color) | Получает цвет темы. Применяется только для цветового типа темы.|
+| [color_index](/cells/ru/python-net/aspose.cells/cellscolor/color_index) | Получает и задает индекс цвета в цветовой палитре. Применяется только к индексированному цвету.|
 | [color](/cells/ru/python-net/aspose.cells/cellscolor/color) | Получает и задает цвет RGB.|
 | [argb](/cells/ru/python-net/aspose.cells/cellscolor/argb) | Получает и задает цвет из 32-разрядного значения ARGB.|
 | [transparency](/cells/ru/python-net/aspose.cells/cellscolor/transparency) | Получает и задает прозрачность в виде значения от 0,0 (непрозрачный) до 1,0 (прозрачный).|

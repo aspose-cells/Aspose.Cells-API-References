@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_body_range Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range Eigentum
 
 Gibt ein CellArea-Objekt zurück, das den Bereich darstellt, der den Datenbereich enthält
-in der Liste zwischen der Kopfzeile und der Einfügezeile.
+in der Liste zwischen der Kopfzeile und der Einfügezeile. Schreibgeschützt.
 ###  Definition:
 ```python
 @property

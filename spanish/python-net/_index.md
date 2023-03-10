@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,12 +24,12 @@ is_root: true
 | [aspose.cells.ods](/cells/es/python-net/aspose.cells.ods) | El**Aspose.Cells.Ods** El espacio de nombres contiene todas las clases de carga y conversión de archivos de hoja de cálculo de OpenDocument.|
 | [aspose.cells.pivot](/cells/es/python-net/aspose.cells.pivot) | El**Aspose.Cells.Pivot** El espacio de nombres contiene todas las clases de representación y manipulación de tablas dinámicas en archivos de hoja de cálculo de Excel.|
 | [aspose.cells.properties](/cells/es/python-net/aspose.cells.properties) | El**Aspose.Cells.Properties** El espacio de nombres proporciona clases para trabajar con propiedades de hoja de cálculo integradas y personalizadas, como título, palabras clave, empresa, etc.|
-| [aspose.cells.querytables](/cells/es/python-net/aspose.cells.querytables) | El**Aspose.Cells.QueryTables**El espacio de nombres proporciona clases para acceder y actualizar la tabla de la hoja de trabajo creada a partir de datos devueltos desde una fuente de datos externa, como un servidor SQL o una base de datos de Access Microsoft.|
-| [aspose.cells.rendering](/cells/es/python-net/aspose.cells.rendering) | El**Aspose.Cells.Rendering** El espacio de nombres proporciona clases para representar imágenes y archivos PDF.|
+| [aspose.cells.querytables](/cells/es/python-net/aspose.cells.querytables) | El**Aspose.Cells.QueryTables**El espacio de nombres proporciona clases para acceder y actualizar la tabla de la hoja de trabajo creada a partir de los datos devueltos desde una fuente de datos externa, como un servidor SQL o una base de datos de Access Microsoft.|
+| [aspose.cells.rendering](/cells/es/python-net/aspose.cells.rendering) | El**Aspose.Cells.Rendering** El espacio de nombres proporciona clases para renderizar imágenes y pdf.|
 | [aspose.cells.rendering.pdfsecurity](/cells/es/python-net/aspose.cells.rendering.pdfsecurity) | El**Aspose.Cells.Rendering.PdfSecurity** El espacio de nombres proporciona opciones de seguridad de clases de Rendering pdf.|
 | [aspose.cells.revisions](/cells/es/python-net/aspose.cells.revisions) | El**Aspose.Cells.Revisions** El espacio de nombres proporciona clases para acceder a las revisiones de los archivos de hoja de cálculo de Excel.|
 | [aspose.cells.saving](/cells/es/python-net/aspose.cells.saving) | El**Aspose.Cells.Saving** El espacio de nombres proporciona clases de opciones para guardar archivos.|
-| [aspose.cells.settings](/cells/es/python-net/aspose.cells.settings) | El**Aspose.Cells.Settings** El espacio de nombres contiene clases que definen configuraciones para diferentes características.|
+| [aspose.cells.settings](/cells/es/python-net/aspose.cells.settings) | El**Aspose.Cells.Settings** El espacio de nombres contiene clases que definen configuraciones para diferentes funciones.|
 | [aspose.cells.slicers](/cells/es/python-net/aspose.cells.slicers) | El**Aspose.Cells.Slicers** El espacio de nombres proporciona todas las clases para las opciones de Pivot Table Slicer para archivos de hoja de cálculo de Excel.|
 | [aspose.cells.tables](/cells/es/python-net/aspose.cells.tables) | El**Aspose.Cells.Tables** El espacio de nombres contiene clases que representan tablas, filas, celdas y su formato para archivos de hoja de cálculo de Excel.|
 | [aspose.cells.timelines](/cells/es/python-net/aspose.cells.timelines) | El**Aspose.Cells.Timelines** El espacio de nombres contiene clases que permiten acceder y dibujar líneas de tiempo en archivos de hoja de cálculo de Excel.|

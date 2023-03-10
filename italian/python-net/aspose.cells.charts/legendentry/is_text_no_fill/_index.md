@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_text_no_fill proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

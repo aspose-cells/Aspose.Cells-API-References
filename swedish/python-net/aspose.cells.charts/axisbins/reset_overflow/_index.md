@@ -1,4 +1,4 @@
-﻿---
+---
 title: reset_overflow metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

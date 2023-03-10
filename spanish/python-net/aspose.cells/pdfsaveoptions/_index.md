@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/pdfsaveoptions/
 is_root: false
 ---
 ##  PdfSaveOptions clase
-Representa las opciones para guardar archivos pdf.
+Representa las opciones para guardar un archivo pdf.
 
 
 
@@ -23,7 +23,7 @@ El tipo PdfSaveOptions expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [PdfSaveOptions()](/cells/es/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Crea las opciones para guardar archivos pdf.|
+| [PdfSaveOptions()](/cells/es/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Crea las opciones para guardar el archivo pdf.|
 
 
 ###  Propiedades
@@ -36,9 +36,9 @@ El tipo PdfSaveOptions expone los siguientes miembros:
 | [merge_areas](/cells/es/python-net/aspose.cells/pdfsaveoptions/merge_areas) | Indica si fusionar las áreas de formato condicional y validación antes de guardar el archivo.|
 | [create_directory](/cells/es/python-net/aspose.cells/pdfsaveoptions/create_directory) | Si es verdadero y el directorio no existe, el directorio se creará automáticamente antes de guardar el archivo.|
 | [sort_names](/cells/es/python-net/aspose.cells/pdfsaveoptions/sort_names) | Indica si ordenar los nombres definidos antes de guardar el archivo.|
-| [sort_external_names](/cells/es/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externamente antes de guardar el archivo.|
+| [sort_external_names](/cells/es/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Indica si ordenar los nombres definidos externos antes de guardar el archivo.|
 | [refresh_chart_cache](/cells/es/python-net/aspose.cells/pdfsaveoptions/refresh_chart_cache) | Indica si se actualizan los datos de la memoria caché del gráfico|
-| [warning_callback](/cells/es/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Obtiene o establece devoluciones de llamada de advertencia.|
+| [warning_callback](/cells/es/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Obtiene o establece una devolución de llamada de advertencia.|
 | [update_smart_art](/cells/es/python-net/aspose.cells/pdfsaveoptions/update_smart_art) | Indica si se está actualizando la configuración de arte inteligente.<br/> El valor predeterminado es falso.|
 | [default_font](/cells/es/python-net/aspose.cells/pdfsaveoptions/default_font) | Cuando los caracteres en Excel son Unicode y no se configuran con la fuente correcta en el estilo de celda,<br/>Pueden aparecer como bloque en pdf, imagen.<br/>Establezca DefaultFont como MingLiu o MS Gothic para mostrar estos caracteres.<br/> Si no se establece esta propiedad, Aspose.Cells utilizará la fuente predeterminada del sistema para mostrar estos caracteres Unicode.|
 | [check_workbook_default_font](/cells/es/python-net/aspose.cells/pdfsaveoptions/check_workbook_default_font) | Cuando los caracteres en Excel son Unicode y no se configuran con la fuente correcta en el estilo de celda,<br/>Pueden aparecer como bloque en pdf, imagen.<br/> Establezca esto en verdadero para intentar usar la fuente predeterminada del libro de trabajo para mostrar estos caracteres primero.|
@@ -60,7 +60,7 @@ El tipo PdfSaveOptions expone los siguientes miembros:
 | [embed_standard_windows_fonts](/cells/es/python-net/aspose.cells/pdfsaveoptions/embed_standard_windows_fonts) | True para incrustar fuentes de tipo verdadero.<br/>Afecta solo a los caracteres ASCII 32-127.<br/>Las fuentes para códigos de caracteres superiores a 127 siempre están incrustadas.<br/>Las fuentes siempre están incrustadas para el estándar PDF/A-1a, PDF/A-1b.<br/> El valor predeterminado es verdadero.|
 | [bookmark](/cells/es/python-net/aspose.cells/pdfsaveoptions/bookmark) |Obtiene y establece el objeto [PdfBookmarkEntry](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry).|
 | [compliance](/cells/es/python-net/aspose.cells/pdfsaveoptions/compliance) | El libro de trabajo se convierte a pdf de acuerdo con PdfCompliance en esta propiedad.|
-| [security_options](/cells/es/python-net/aspose.cells/pdfsaveoptions/security_options) | Establezca estas opciones cuando se necesite seguridad en el resultado xls2pdf.|
+| [security_options](/cells/es/python-net/aspose.cells/pdfsaveoptions/security_options) | Establezca estas opciones, cuando se necesite seguridad en el resultado xls2pdf.|
 | [image_type](/cells/es/python-net/aspose.cells/pdfsaveoptions/image_type) | Representa el tipo de imagen al convertir el gráfico y la forma.|
 | [calculate_formula](/cells/es/python-net/aspose.cells/pdfsaveoptions/calculate_formula) | Indica si calcular fórmulas antes de guardar el archivo pdf.|
 | [pdf_compression](/cells/es/python-net/aspose.cells/pdfsaveoptions/pdf_compression) | Indicar el algoritmo de compresión|

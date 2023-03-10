@@ -1,4 +1,4 @@
-﻿---
+---
 title: binary_search metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Söker i hela den sorterade arraylistan efter ett element med hjälp av standard
 
 ###  Returnerar
 
-Det nollbaserade värdeindexet i den sorterade arraylistan, om objektet hittas; annars ett negativt tal, som är det bitvisa komplementet till indexet för nästa element som är större än värdet eller, om det inte finns något större element, det bitvisa komplementet av arraylist Count.
+Det nollbaserade värdeindexet i den sorterade arraylistan, om objektet hittas; i annat fall ett negativt tal, som är det bitvisa komplementet av indexet för nästa element som är större än värdet eller, om det inte finns något större element, det bitvisa komplementet av arraylist Count.
 
 
 ```python
@@ -22,9 +22,9 @@ def binary_search(self, item):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| item | [ErrorCheckOption](/cells/sv/python-net/aspose.cells/errorcheckoption) | Systemet Objekt att lokalisera.|
+| item | [ErrorCheckOption](/cells/sv/python-net/aspose.cells/errorcheckoption) | System.Object att lokalisera. Värdet kan vara null.|
 
 
 

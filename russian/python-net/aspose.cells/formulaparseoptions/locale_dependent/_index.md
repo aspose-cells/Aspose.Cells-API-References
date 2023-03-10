@@ -1,4 +1,4 @@
-﻿---
+---
 title: locale_dependent недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  locale_dependent недвижимость
 
-Отформатирована ли формула в языковом стандарте. Значение по умолчанию — false.
+Отформатирована ли формула в языковом стандарте. Значение по умолчанию — ложь.
 ###  Определение:
 ```python
 @property

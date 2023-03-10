@@ -1,6 +1,6 @@
-﻿---
+---
 title: delete_redundant_spaces 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 140
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## delete_redundant_spaces 属性
 
-指示文本换行时是否删除多余的空格<br>标签，默认为false。
+指示文本换行时是否删除多余的空格<br>标签。默认值为 false。
 ### 定义：
 ```python
 @property

@@ -1,6 +1,6 @@
-﻿---
+---
 title: AutoShapeType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 760
@@ -14,7 +14,7 @@ is_root: false
 
 AutoShapeType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NOT_PRIMITIVE |  |
@@ -182,8 +182,8 @@ AutoShapeType 类型公开了以下成员：
 | TEXT_DEFLATE_BOTTOM |中间向上收缩的文字形状。|
 | TEXT_INFLATE_TOP |在中间向上扩展的文本形状。|
 | TEXT_DEFLATE_TOP |在中间向下收缩的文本形状。|
-| TEXT_DEFLATE_INFLATE |一种文本形状，下部线条向上扩展。上部线条收缩以进行补偿。|
-| TEXT_DEFLATE_INFLATE_DEFLATE |一种文本形状，中间的线条垂直扩展。上下线条收缩以进行补偿。|
+| TEXT_DEFLATE_INFLATE |下面的线条向上扩展的文本形状。上面的线收缩以补偿。|
+| TEXT_DEFLATE_INFLATE_DEFLATE |一种文本形状，其中的线条在中心垂直扩展。上下线收缩以补偿。|
 | TEXT_FADE_RIGHT |在右侧垂直收缩的文本形状。|
 | TEXT_FADE_LEFT |在左侧垂直收缩的文本形状。|
 | TEXT_FADE_UP |在顶部水平收缩的文本形状。|

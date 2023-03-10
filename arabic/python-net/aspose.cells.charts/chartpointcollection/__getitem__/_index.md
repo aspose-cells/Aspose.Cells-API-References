@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPointCollection مفهرس
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 ###  مفهرس
 | اسم| وصف|
 | :- | :- |
-| index | مؤشر نقاط الرسم البياني في السلسلة.|
+| index | مؤشر نقطة الرسم البياني في السلسلة.|
 
 
 

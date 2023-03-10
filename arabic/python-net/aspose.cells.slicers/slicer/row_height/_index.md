@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_height الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 إرجاع أو تعيين ارتفاع كل صف في مقسم طريقة العرض المحدد بالنقاط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

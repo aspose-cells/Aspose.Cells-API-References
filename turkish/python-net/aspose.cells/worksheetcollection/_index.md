@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -38,7 +38,7 @@ WorksheetCollection türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [get(index)](/cells/tr/python-net/aspose.cells/worksheetcollection/get/#int) |API for Python .Net yoluyla ekleyin, çünkü bu [int dizini] desteklenmiyor|
+| [get(index)](/cells/tr/python-net/aspose.cells/worksheetcollection/get/#int) |API for Python .Net yoluyla ekleyin, çünkü bu[int dizini] desteklenmiyor|
 | [get(sheet_name)](/cells/tr/python-net/aspose.cells/worksheetcollection/get/#str) | API for Python .Net yoluyla ekleyin, çünkü bu [dize sayfasıAdı] desteklenmiyor|
 | [add(type)](/cells/tr/python-net/aspose.cells/worksheetcollection/add/#SheetType) | Koleksiyona bir çalışma sayfası ekler.|
 | [add()](/cells/tr/python-net/aspose.cells/worksheetcollection/add/#) | Koleksiyona bir çalışma sayfası ekler.|
@@ -71,7 +71,7 @@ WorksheetCollection türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

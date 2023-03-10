@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_table_style_column_stripes الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

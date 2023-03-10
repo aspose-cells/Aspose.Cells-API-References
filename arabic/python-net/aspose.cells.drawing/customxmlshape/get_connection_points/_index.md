@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_connection_points
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-[X، Y] أزواج من نقطة الاتصال. كل عنصر عبارة عن مصفوفة عائمة [2] ، [0] تمثل x و [1] تمثل y.
+أزواج [X ، Y] من نقطة الاتصال. كل عنصر عبارة عن مصفوفة عائمة [2] ، [0] تمثل x و [1] تمثل y.
 
 
 ```python
@@ -23,7 +23,7 @@ def get_connection_points(self):
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 

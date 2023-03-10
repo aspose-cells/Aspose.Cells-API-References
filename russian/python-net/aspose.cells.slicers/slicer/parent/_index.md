@@ -1,4 +1,4 @@
-﻿---
+---
 title: parent недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  parent недвижимость
 
-Возвращает объект Worksheet, представляющий лист, содержащий срез.
+Возвращает объект Worksheet, представляющий лист, содержащий срез. Только для чтения.
 
-###  Примеры
+###  Пример
 
 ```python
 

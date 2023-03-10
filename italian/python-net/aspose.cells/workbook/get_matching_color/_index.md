@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_matching_color
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_matching_color(self, raw_color):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | raw_color | aspose.pydrawing.Color | Colore grezzo.|
 

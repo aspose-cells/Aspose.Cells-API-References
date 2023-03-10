@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrendlineType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -21,7 +21,7 @@ Typen TrendlineType avslöjar följande medlemmar:
 | LINEAR | Linjär|
 | LOGARITHMIC | Logaritmisk|
 | MOVING_AVERAGE | Glidande medelvärde|
-| POLYNOMIAL | polynom|
+| POLYNOMIAL | Polynom|
 | POWER | Kraft|
 
 

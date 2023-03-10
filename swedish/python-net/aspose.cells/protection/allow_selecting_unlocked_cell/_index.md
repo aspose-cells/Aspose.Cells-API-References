@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_selecting_unlocked_cell fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

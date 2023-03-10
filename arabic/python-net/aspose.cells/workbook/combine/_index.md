@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة combine
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def combine(self, second_workbook):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | second_workbook | [Workbook](/cells/ar/python-net/aspose.cells/workbook) | كائن مصنف آخر.|
 ###  ملاحظات

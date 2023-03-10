@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/xmlsaveoptions/__init__/
 is_root: false
 ---
 ##  XmlSaveOptions() {#}
-Xml dosyalarını kaydetmek için seçenekler oluşturur.
+Xml dosyasını kaydetmek için seçenekler oluşturur.
 
 
 

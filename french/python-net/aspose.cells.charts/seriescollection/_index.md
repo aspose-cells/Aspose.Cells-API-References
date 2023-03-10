@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,10 +17,10 @@ Le type SeriesCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [category_data](/cells/fr/python-net/aspose.cells.charts/seriescollection/category_data) | Obtient ou définit la plage de valeurs d'axe de catégorie.<br/> Il peut s'agir d'une plage de cellules (par exemple, "d1:e10"),<br/> ou une séquence de valeurs (telles que,"{2,6,8,10}").|
-| [second_category_data](/cells/fr/python-net/aspose.cells.charts/seriescollection/second_category_data) | Obtient ou définit la plage des valeurs Axis de deuxième catégorie.<br/> Il peut s'agir d'une plage de cellules (par exemple, "d1:e10"),<br/> ou une séquence de valeurs (telles que,"{2,6,8,10}").<br/> Effets uniquement lorsque certains ASeries tracent sur le deuxième axe.|
+| [category_data](/cells/fr/python-net/aspose.cells.charts/seriescollection/category_data) | Obtient ou définit la plage de valeurs d'axe de catégorie.<br/> Il peut s'agir d'une plage de cellules (par exemple, "d1:e10"),<br/> ou une séquence de valeurs (telle que,"{2,6,8,10}").|
+| [second_category_data](/cells/fr/python-net/aspose.cells.charts/seriescollection/second_category_data) | Obtient ou définit la plage des valeurs Axis de deuxième catégorie.<br/> Il peut s'agir d'une plage de cellules (par exemple, "d1:e10"),<br/> ou une séquence de valeurs (telle que,"{2,6,8,10}").<br/> Effets uniquement lorsque certaines ASeries tracent sur le deuxième axe.|
 | [is_color_varied](/cells/fr/python-net/aspose.cells.charts/seriescollection/is_color_varied) | Représente si la couleur des points est variée.|
-| [capacity](/cells/fr/python-net/aspose.cells.charts/seriescollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.charts/seriescollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
@@ -43,7 +43,7 @@ Le type SeriesCollection expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

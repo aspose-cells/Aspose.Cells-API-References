@@ -1,4 +1,4 @@
-﻿---
+---
 title: get método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | El índice de base cero del elemento.|
 
@@ -42,7 +42,7 @@ def get(self, sheet_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sheet_name | str | Nombre de la hoja de trabajo|
 

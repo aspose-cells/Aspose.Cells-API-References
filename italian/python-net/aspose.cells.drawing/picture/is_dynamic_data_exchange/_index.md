@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_dynamic_data_exchange proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

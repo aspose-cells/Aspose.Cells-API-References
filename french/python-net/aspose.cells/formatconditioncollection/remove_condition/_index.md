@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_condition méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def remove_condition(self, index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | index | int | Index de la condition de formatage à supprimer.|
 

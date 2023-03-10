@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/ar/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | مخرج.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/ar/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
 
 
 ###  ملكيات

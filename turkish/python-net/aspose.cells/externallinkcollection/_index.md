@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalLinkCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -40,7 +40,7 @@ Belirtilen dizindeki [ExternalLink](/cells/tr/python-net/aspose.cells/externalli
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

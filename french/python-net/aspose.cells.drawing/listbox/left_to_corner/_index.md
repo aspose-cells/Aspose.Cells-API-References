@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient et définit le décalage horizontal de la forme par rapport à la bordure gauche de la feuille de calcul.
 
-###  Exemples
+###  Exemple
 
 ```python
 

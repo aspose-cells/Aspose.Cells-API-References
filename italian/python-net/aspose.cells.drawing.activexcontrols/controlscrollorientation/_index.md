@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlScrollOrientation enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo ControlScrollOrientation espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | AUTO | Il controllo viene visualizzato orizzontalmente quando la larghezza del controllo è maggiore della sua altezza.<br/> Il controllo è reso verticalmente altrimenti.|
-| VERTICAL | controlli sono renderizzati verticalmente.|
+| VERTICAL |Il controllo è reso verticalmente.|
 | HORIZONTAL | Il controllo è reso orizzontalmente.|
 
 

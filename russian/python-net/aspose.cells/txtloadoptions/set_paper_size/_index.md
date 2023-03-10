@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_paper_size метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_paper_size(self, type):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [PaperSizeType](/cells/ru/python-net/aspose.cells/papersizetype) | Размер бумаги по умолчанию.|
 ###  Примечания

@@ -1,4 +1,4 @@
-﻿---
+---
 title: force_full_calculation Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  force_full_calculation Eigentum
 
-Gibt an, ob alle Formeln jedes Mal berechnet werden, wenn eine Berechnung ausgelöst wird.
+Gibt an, ob jedes Mal, wenn eine Berechnung ausgelöst wird, alle Formeln berechnet werden.
 
 ###  Bemerkungen
 

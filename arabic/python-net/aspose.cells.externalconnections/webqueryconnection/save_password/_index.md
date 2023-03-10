@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_password الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  save_password الملكية
 
-صحيح إذا كان سيتم حفظ كلمة المرور كجزء من سلسلة الاتصال ؛ وإلا ، خطأ.
+صحيح إذا كان سيتم حفظ كلمة المرور كجزء من سلسلة الاتصال ؛ خلاف ذلك ، خطأ.
 ###  تعريف:
 ```python
 @property

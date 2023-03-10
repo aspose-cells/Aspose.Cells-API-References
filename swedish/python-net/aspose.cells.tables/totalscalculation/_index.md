@@ -1,4 +1,4 @@
-﻿---
+---
 title: TotalsCalculation uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -20,7 +20,7 @@ Typen TotalsCalculation avslöjar följande medlemmar:
 | SUM | Representerar beräkning av summasummor.|
 | COUNT | Representerar beräkning av totalsummor.|
 | AVERAGE |Representerar beräkning av genomsnittlig totalsumma.|
-| MAX | Representerar beräkning av maxsummor.|
+| MAX | Representerar beräkning av maxtotal.|
 | MIN | Representerar min totalberäkning.|
 | VAR | Representerar var totalberäkning.|
 | COUNT_NUMS | Representerar Count Nums totalberäkning.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_actual_size método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,7 +14,7 @@ Obtiene el tamaño real del gráfico en unidades de píxeles.
 ###  Devoluciones
 
 Tamaño real en una matriz (ancho y alto).
-[0] es ancho; [1] es alto.
+[0] es ancho; [1] es la altura.
 
 
 ```python

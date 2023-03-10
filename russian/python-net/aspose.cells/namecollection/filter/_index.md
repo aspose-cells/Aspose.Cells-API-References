@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def filter(self, type, sheet_index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | type | [NameScopeType](/cells/ru/python-net/aspose.cells/namescopetype) | Тип области.|
 | sheet_index | int | Индекс листа.<br/>Эффекты только при типе прицела [NameScopeType.WORKSHEET](/cells/ru/python-net/aspose.cells/namescopetype#WORKSHEET) |

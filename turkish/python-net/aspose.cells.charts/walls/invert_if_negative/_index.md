@@ -1,4 +1,4 @@
-﻿---
+---
 title: invert_if_negative mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -12,7 +12,7 @@ is_root: false
 Özellik true ise ve grafik noktasının değeri negatif bir sayıysa,
 ön plan rengi ve arka plan rengi değiştirilecektir.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_null mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_null mülk
 
-Null değerlerin göz ardı edilip edilmediğini gösterir.
+Boş değerin göz ardı edilip edilmediğini gösterir.
 ###  Tanım:
 ```python
 @property

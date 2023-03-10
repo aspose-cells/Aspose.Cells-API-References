@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -112,7 +112,7 @@ El tipo Workbook expone los siguientes miembros:
 | [custom_theme(theme_name, colors)](/cells/es/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | Costumbres el tema.|
 | [copy_theme(source)](/cells/es/python-net/aspose.cells/workbook/copy_theme/#Workbook) | Copia el tema de otro libro de trabajo.|
 | [has_exernal_links()](/cells/es/python-net/aspose.cells/workbook/has_exernal_links/#) | Indica si este libro de trabajo contiene enlaces externos a otras fuentes de datos.|
-| [update_linked_data_source(external_workbooks)](/cells/es/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Si este libro de trabajo contiene enlaces externos a otras fuentes de datos,<br/> Aspose.Cells intentará recuperar los datos más recientes.|
+| [update_linked_data_source(external_workbooks)](/cells/es/python-net/aspose.cells/workbook/update_linked_data_source/#list) | Si este libro de trabajo contiene enlaces externos a otra fuente de datos,<br/> Aspose.Cells intentará recuperar los datos más recientes.|
 | [set_digital_signature(digital_signature_collection)](/cells/es/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Establece la firma digital en un archivo de hoja de cálculo (Excel2007 y posterior).|
 | [add_digital_signature(digital_signature_collection)](/cells/es/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | Agrega una firma digital a un archivo de hoja de cálculo OOXML (Excel 2007 y posterior).|
 | [get_digital_signature()](/cells/es/python-net/aspose.cells/workbook/get_digital_signature/#) | Obtiene la firma digital del archivo.|
@@ -122,13 +122,13 @@ El tipo Workbook expone los siguientes miembros:
 
 ###  Observaciones
 
-La clase Workbook denota una hoja de cálculo de Excel.
+La clase Workbook denota una hoja de cálculo de Excel. Cada hoja de cálculo puede contener varias hojas de trabajo.
 La característica básica de la clase es abrir y guardar archivos nativos de Excel.
 La clase tiene algunas funciones avanzadas, como copiar datos de otros libros de trabajo, combinar dos libros de trabajo y proteger la hoja de cálculo de Excel.
 
-###  Ejemplos
+###  Ejemplo
 
-El siguiente ejemplo carga un Workbook desde un archivo llamado designer.xls y hace que las barras de desplazamiento horizontal y vertical sean invisibles para el Workbook. Luego reemplaza dos valores de cadena con un valor entero y un valor de cadena respectivamente dentro de la hoja de cálculo y finalmente envía la actualización archivo al navegador del cliente.
+El siguiente ejemplo carga un Workbook desde un archivo llamado designer.xls y hace que las barras de desplazamiento horizontal y vertical sean invisibles para el Workbook. Luego reemplaza dos valores de cadena con un valor entero y un valor de cadena respectivamente dentro de la hoja de cálculo y finalmente envía el archivo actualizado a el navegador del cliente.
 
 ```python
 from aspose.cells import Workbook

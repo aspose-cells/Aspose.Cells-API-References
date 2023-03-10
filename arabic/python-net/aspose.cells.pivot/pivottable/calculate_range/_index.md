@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة calculate_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,7 +20,7 @@ def calculate_range(self):
 
 ###  ملاحظات
 
-إذا لم يتم استدعاء هذه الطريقة ، فربما لا يتم تصحيح النطاق المحوري.
+إذا لم يتم استدعاء هذه الطريقة ، فربما لم يتم تصحيح النطاق المحوري.
 
 
 ###  أنظر أيضا

@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene o establece el name del rango.
 
 ###  Observaciones
 
-Se admite el rango con nombre.
+Se admite el rango con nombre. Por ejemplo,
 
 rango.Nombre = "Hoja1!MiRango";
 ###  Definición:

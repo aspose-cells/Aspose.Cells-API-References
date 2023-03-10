@@ -1,4 +1,4 @@
-﻿---
+---
 title: LabelActiveXControl klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,8 +25,8 @@ Typen LabelActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/width) |Hämtar och ställer in kontrollens bredd i poängenhet.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
 | [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|
@@ -46,7 +46,7 @@ Typen LabelActiveXControl avslöjar följande medlemmar:
 | [caption](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/caption) | Hämtar och ställer in den beskrivande texten som visas på en kontroll.|
 | [picture_position](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/picture_position) | Hämtar och ställer in platsen för kontrollens bild i förhållande till dess bildtext.|
 | [border_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/border_ole_color) | Hämtar och ställer in ole-färgen på bakgrunden.|
-| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/border_style) | Hämtar och ställer in den typ av kantlinje som används av kontrollen.|
+| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/border_style) | Hämtar och ställer in den typ av gräns som används av kontrollen.|
 | [special_effect](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/special_effect) | Får och ställer in kontrollens specialeffekt.|
 | [picture](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/picture) | Hämtar och ställer in bildens data.|
 | [accelerator](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol/accelerator) | Hämtar och ställer in gasknappen för kontrollen.|

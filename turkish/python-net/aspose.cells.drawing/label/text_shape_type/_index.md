@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_shape_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Önceden ayarlanmış metin şekli türünü alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing import AutoShapeType

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_text fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_text fastighet
 
-Indikerar att texten är automatiskt genererad.
+Indikerar att texten genereras automatiskt.
 ###  Definition:
 ```python
 @property

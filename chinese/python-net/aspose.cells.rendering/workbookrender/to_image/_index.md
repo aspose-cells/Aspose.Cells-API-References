@@ -1,6 +1,6 @@
-﻿---
+---
 title: to_image方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 40
@@ -18,7 +18,7 @@ def to_image(self, stream):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |输出图像流|
 
@@ -34,13 +34,13 @@ def to_image(self, filename):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | filename | str |输出图像的文件名|
 
 
 ##  to_image(page_index, file_name) {#int-str}
-将某些页面渲染到文件中。
+将特定页面渲染到文件中。
 
 
 
@@ -50,14 +50,14 @@ def to_image(self, page_index, file_name):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | page_index | int |指示要转换的页面|
 | file_name | str |输出图像的文件名|
 
 
 ##  to_image(page_index, stream) {#int-io.RawIOBase}
-将某些页面呈现为流。
+将特定页面渲染到流中。
 
 
 
@@ -67,7 +67,7 @@ def to_image(self, page_index, stream):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | page_index | int |指示要转换的页面|
 | stream | io.RawIOBase |输出图像流|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: freeze_panes método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,14 +18,14 @@ def freeze_panes(self, cell_name, freezed_rows, freezed_columns):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | cell_name | str | Cell nombre.|
 | freezed_rows | int | Número de filas visibles en el panel superior, no más que el índice de fila.|
 | freezed_columns | int | Número de columnas visibles en el panel izquierdo, no más que el índice de columna.|
 ###  Observaciones
 
-El índice de fila y el índice de columna no pueden ser todos cero.
+El índice de fila y el índice de columna no pueden ser todos cero. Número de filas y número de columnas
 tampoco puede ser todo cero.
 
 ##  freeze_panes(row, column, freezed_rows, freezed_columns) {#int-int-int-int}
@@ -39,7 +39,7 @@ def freeze_panes(self, row, column, freezed_rows, freezed_columns):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
 | column | int | Índice de columnas.|
@@ -47,7 +47,7 @@ def freeze_panes(self, row, column, freezed_rows, freezed_columns):
 | freezed_columns | int | Número de columnas visibles en el panel izquierdo, no más que el índice de columna.|
 ###  Observaciones
 
-El índice de fila y el índice de columna no pueden ser todos cero.
+El índice de fila y el índice de columna no pueden ser todos cero. Número de filas y número de columnas
 tampoco puede ser todo cero.
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list propiedad
 
-Obtiene si se habilita la lista de campos para la tabla dinámica.
+Obtiene si habilita la lista de campos para la tabla dinámica.
 ###  Definición:
 ```python
 @property

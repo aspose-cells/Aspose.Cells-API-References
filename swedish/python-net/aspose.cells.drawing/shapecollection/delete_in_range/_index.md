@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_in_range metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def delete_in_range(self, ca):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) |Omfånget. Om formerna finns i intervallet kommer de att tas bort.|
 

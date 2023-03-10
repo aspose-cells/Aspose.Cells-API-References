@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocxSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/docxsaveoptions/__init__/
 is_root: false
 ---
 ##  DocxSaveOptions() {#}
-.docx dosyalarını kaydetme seçeneklerini temsil eder.
+.docx dosyasını kaydetme seçeneklerini temsil eder.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  DocxSaveOptions(save_as_image) {#bool}
-.docx dosyalarını kaydetme seçeneklerini temsil eder.
+.docx dosyasını kaydetme seçeneklerini temsil eder.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_as_image):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | save_as_image | bool |True ise, çalışma kitabı .docx dosyasının bazı resimlerine dönüştürülecektir.<br/> Yanlış ise, çalışma kitabı .docx dosyasının bazı tablolarına dönüştürülür.|
 

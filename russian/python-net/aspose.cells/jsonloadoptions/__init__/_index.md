@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLoadOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/jsonloadoptions/__init__/
 is_root: false
 ---
 ##  JsonLoadOptions() {#}
-Создает возможность загрузки файла.
+Создает опции загрузки файла.
 
 
 

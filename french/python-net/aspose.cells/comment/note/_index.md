@@ -1,4 +1,4 @@
-﻿---
+---
 title: note propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  note propriété
 
-Représente le contenu des commentaires.
+Représente le contenu du commentaire.
 
 ###  Remarques
 
 S'il s'agit d'un commentaire fileté, le note ne pourrait pas être modifié, sinon MS Excel ne pourrait pas le traiter comme un commentaire fileté.
 
-###  Exemples
+###  Exemple
 
 ```python
 

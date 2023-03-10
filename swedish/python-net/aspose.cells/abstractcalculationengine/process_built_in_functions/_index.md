@@ -1,4 +1,4 @@
-﻿---
+---
 title: process_built_in_functions fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

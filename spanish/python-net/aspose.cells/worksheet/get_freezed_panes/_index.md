@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_freezed_panes método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_freezed_panes(self, row, column, freezed_rows, freezed_columns):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | any | Índice de fila.|
 | column | any | Índice de columnas.|

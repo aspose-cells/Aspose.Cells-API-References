@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtLoadOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/txtloadoptions/__init__/
 is_root: false
 ---
 ##  TxtLoadOptions() {#}
-ينشئ خيارات لتحميل الملفات النصية.
+ينشئ خيارات لتحميل ملف نصي.
 
 
 
@@ -24,7 +24,7 @@ def __init__(self):
 
 ##  TxtLoadOptions(load_format) {#LoadFormat}
 
-ينشئ خيارات لتحميل الملفات النصية.
+ينشئ خيارات لتحميل ملف نصي.
 
 
 
@@ -34,7 +34,7 @@ def __init__(self, load_format):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/ar/python-net/aspose.cells/loadformat) | تنسيق التحميل|
 

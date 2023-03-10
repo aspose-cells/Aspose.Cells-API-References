@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_object_listener الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذه الخاصية عفا عليها الزمن الآن.
+ ملاحظة: هذه الخاصية عفا عليها الزمن الآن. بدلاً من،
 الرجاء استخدام الخاصية HtmlSaveOptions.IStreamProvider.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ أغسطس 2015.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

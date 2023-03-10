@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionRenameSheet klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---
 ##  RevisionRenameSheet klass
-Representerar en revidering av det byta namnbladet.
+Representerar en revision av att byta namn på arket.
 
 
 

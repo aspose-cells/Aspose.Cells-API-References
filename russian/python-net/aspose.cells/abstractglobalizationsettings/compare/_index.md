@@ -1,4 +1,4 @@
-﻿---
+---
 title: compare метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/abstractglobalizationsettings/compare/
 is_root: false
 ---
 ##  compare(v1, v2, ignore_case) {#str-str-bool}
-Сравнивает два строковых значения по определенным правилам сопоставления.
+Сравнивает два строковых значения в соответствии с определенными правилами сортировки.
 
 
 ###  Возвращает
@@ -22,7 +22,7 @@ def compare(self, v1, v2, ignore_case):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | v1 | str | первая строка|
 | v2 | str | вторая строка|

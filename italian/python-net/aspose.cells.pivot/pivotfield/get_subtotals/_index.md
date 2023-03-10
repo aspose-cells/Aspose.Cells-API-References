@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_subtotals
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_subtotals(self, subtotal_type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | subtotal_type | [PivotFieldSubtotalType](/cells/it/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | tipo subtotali.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.pivot
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -16,7 +16,7 @@ is_root: false
 | [PivotFieldCollection](/cells/tr/python-net/aspose.cells.pivot/pivotfieldcollection) | Tüm PivotField nesnelerinin bir koleksiyonunu temsil eder<br/> PivotTable'ın özel PivotFields türünde.|
 | [PivotFilter](/cells/tr/python-net/aspose.cells.pivot/pivotfilter) | PivotFilter Koleksiyonunda bir PivotFilter'ı temsil eder.|
 | [PivotFilterCollection](/cells/tr/python-net/aspose.cells.pivot/pivotfiltercollection) | Tüm PivotFilter nesnelerinin bir koleksiyonunu temsil eder|
-| [PivotFormatCondition](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition) | PivotFormatCondition Collection'daki bir PivotTable Biçim Koşulu'nu temsil eder.|
+| [PivotFormatCondition](/cells/tr/python-net/aspose.cells.pivot/pivotformatcondition) | PivotFormatCondition Koleksiyonunda bir PivotTable Format Koşulunu temsil eder.|
 | [PivotFormatConditionCollection](/cells/tr/python-net/aspose.cells.pivot/pivotformatconditioncollection) | PivotTable Biçim Koşullarını temsil eder.|
 | [PivotItem](/cells/tr/python-net/aspose.cells.pivot/pivotitem) | PivotField raporundaki bir öğeyi temsil eder.|
 | [PivotItemCollection](/cells/tr/python-net/aspose.cells.pivot/pivotitemcollection) | PivotField'deki tüm PivotItem nesnelerinin bir koleksiyonunu temsil eder.|

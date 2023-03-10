@@ -1,4 +1,4 @@
-﻿---
+---
 title: replace metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | place_holder | str | Cell platshållare|
 | new_value | str | Strängvärde att ersätta|
@@ -46,7 +46,7 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | place_holder | str | Cell platshållare|
 | new_value | int | Heltalsvärde som ska ersättas|
@@ -75,7 +75,7 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | place_holder | str | Cell platshållare|
 | new_value | float | Dubbelt värde att byta ut|
@@ -94,7 +94,7 @@ workbook.replace("AnOldValue", newValue)
 
 
 ##  replace(bool_value, new_value) {#bool-any}
-Ersätter cellernas värden med ny data.
+Ersätter cellernas värden med nya data.
 
 
 
@@ -104,14 +104,14 @@ def replace(self, bool_value, new_value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | bool_value | bool | Det booleska värdet som ska ersättas.|
-| new_value | any | Nytt värde. Kan vara sträng-, heltals-, dubbel- eller DateTime-värde.|
+| new_value | any | Nytt värde. Kan vara sträng, heltal, dubbel eller DateTime värde.|
 
 
 ##  replace(int_value, new_value) {#int-any}
-Ersätter cellernas värden med ny data.
+Ersätter cellernas värden med nya data.
 
 
 
@@ -121,10 +121,10 @@ def replace(self, int_value, new_value):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | int_value | int | Heltalsvärdet som ska ersättas.|
-| new_value | any | Nytt värde. Kan vara sträng-, heltals-, dubbel- eller DateTime-värde.|
+| new_value | any | Nytt värde. Kan vara sträng, heltal, dubbel eller DateTime värde.|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
@@ -138,11 +138,11 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | place_holder | str | Cell platshållare|
-| new_values | list | Strängarray att ersätta|
-| is_vertical | bool | Sant-Vertikal, Falskt-Horisontell|
+| new_values | list | Strängarray att byta ut|
+| is_vertical | bool | Sant - Vertikalt, Falskt - Horisontellt|
 
 ###  Exempel
 
@@ -158,7 +158,7 @@ workbook.replace("AnOldValue", newValues, True)
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
-Ersätter cellernas värden med en heltalsmatris.
+Ersätter cellvärden med en heltalsmatris.
 
 
 
@@ -168,11 +168,11 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | place_holder | str | Cell platshållare|
-| new_values | list | Heltalsmatris att ersätta|
-| is_vertical | bool | Sant-Vertikal, Falskt-Horisontell|
+| new_values | list | Heltalsmatris som ska ersättas|
+| is_vertical | bool | Sant - Vertikalt, Falskt - Horisontellt|
 
 ###  Exempel
 
@@ -198,11 +198,11 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | place_holder | str | Cell platshållare|
 | new_values | list | Dubbel array att byta ut|
-| is_vertical | bool | Sant-Vertikal, Falskt-Horisontell|
+| is_vertical | bool | Sant - Vertikalt, Falskt - Horisontellt|
 
 ###  Exempel
 
@@ -228,7 +228,7 @@ def replace(self, place_holder, new_value, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | place_holder | str | Cell platshållare|
 | new_value | str | Strängvärde att ersätta|

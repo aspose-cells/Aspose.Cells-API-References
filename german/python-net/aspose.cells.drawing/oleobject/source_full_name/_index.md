@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_full_name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt den vollständigen Quellnamen der Quelldatei für das verknüpfte OLE-Objek
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die OleObject.ObjectSourceFullName-Eigenschaft.
  Diese Property wird 12 Monate später seit November 2013 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

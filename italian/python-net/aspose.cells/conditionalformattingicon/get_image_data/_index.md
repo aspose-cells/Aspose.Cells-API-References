@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_image_data
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,9 +22,9 @@ def get_image_data(self, cell):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| cell | [Cell](/cells/it/python-net/aspose.cells/cell) | L'impostazione delle celle.|
+| cell | [Cell](/cells/it/python-net/aspose.cells/cell) | L'impostazione della cella.|
 
 
 

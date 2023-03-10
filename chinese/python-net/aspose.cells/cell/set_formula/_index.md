@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_formula方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 320
@@ -18,7 +18,7 @@ def set_formula(self, formula, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | formula | str |公式。|
 | value | any |公式的值。|
@@ -35,7 +35,7 @@ def set_formula(self, formula, options, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | formula | str |公式。|
 | options | [FormulaParseOptions](/cells/zh/python-net/aspose.cells/formulaparseoptions) |解析公式的选项。|
@@ -53,7 +53,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | formula | str |公式。|
 | is_r1c1 | bool |公式是否为R1C1公式。|
@@ -61,7 +61,7 @@ def set_formula(self, formula, is_r1c1, is_local, value):
 | value | any |公式的值。|
 ### 评论
 
-注意：此类现在已过时。
+注意：此类现在已过时。反而，
 请使用 Cell.SetFormula(string,FormulaParseOptions,object)。
 自 2019 年 12 月起 12 个月后，此属性将被删除。
 Aspose 对您可能遇到的任何不便深表歉意。

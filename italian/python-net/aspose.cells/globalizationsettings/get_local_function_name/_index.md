@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_local_function_name
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene il nome della funzione dipendente dalle impostazioni locali in base al n
 
 ###  ritorna
 
-Nome della funzione dipendente dalla locale.
+Nome della funzione dipendente dalla locale. Le impostazioni locali sono state specificate dalla cartella di lavoro per cui vengono utilizzate queste impostazioni.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_local_function_name(self, standard_name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | standard_name | str | Nome della funzione standard (en-US locale).|
 

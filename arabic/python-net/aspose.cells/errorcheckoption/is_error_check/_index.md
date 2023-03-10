@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة is_error_check
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def is_error_check(self, error_check_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | error_check_type | [ErrorCheckType](/cells/ar/python-net/aspose.cells/errorchecktype) | يمكن التحقق من نوع الخطأ|
 

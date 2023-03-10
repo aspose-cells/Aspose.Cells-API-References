@@ -1,4 +1,4 @@
-﻿---
+---
 title: footer_margin_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  footer_margin_inch fastighet
 
-Representerar avståndet från botten av sidan till sidfoten, i enheter av tum.
+Representerar avståndet från botten av sidan till sidfoten, i enhet av tum.
 ###  Definition:
 ```python
 @property

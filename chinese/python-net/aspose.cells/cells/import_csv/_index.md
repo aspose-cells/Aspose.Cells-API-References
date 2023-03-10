@@ -1,6 +1,6 @@
-﻿---
+---
 title: import_csv方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 630
@@ -18,7 +18,7 @@ def import_csv(self, file_name, options, first_row, first_column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str | CSV 文件名。|
 | options | [TxtLoadOptions](/cells/zh/python-net/aspose.cells/txtloadoptions) |读取文本文件的加载选项|
@@ -37,7 +37,7 @@ def import_csv(self, stream, options, first_row, first_column):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |CSV 文件流。|
 | options | [TxtLoadOptions](/cells/zh/python-net/aspose.cells/txtloadoptions) |读取文本文件的加载选项|
@@ -56,7 +56,7 @@ def import_csv(self, file_name, splitter, convert_numeric_data, first_row, first
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | file_name | str | CSV 文件名。|
 | splitter | str |分离器|
@@ -76,7 +76,7 @@ def import_csv(self, stream, splitter, convert_numeric_data, first_row, first_co
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | stream | io.RawIOBase |CSV 文件流。|
 | splitter | str |分离器|

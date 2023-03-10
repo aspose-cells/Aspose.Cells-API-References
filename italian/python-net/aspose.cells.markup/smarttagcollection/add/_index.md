@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Aggiunge uno smart tag.
 
 ###  ritorna
 
-Indice degli smart tag nell'elenco.
+Indice dello smart tag nell'elenco.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | uri | str | Specifica l'URI dello spazio dei nomi dello smart tag|
 | name | str | Specifica il nome dello smart tag.|

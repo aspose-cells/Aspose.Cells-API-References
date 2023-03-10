@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_word_art_style方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 120
@@ -18,7 +18,7 @@ def set_word_art_style(self, style):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | style | [PresetWordArtStyle](/cells/zh/python-net/aspose.cells.drawing/presetwordartstyle) |预设的艺术字样式。|
 

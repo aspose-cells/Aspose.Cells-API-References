@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_active_worksheet_only Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

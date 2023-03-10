@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة move
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,12 +18,12 @@ def move(self, upper_left_row, upper_left_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | upper_left_column | int | فهرس العمود الأيسر العلوي.|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_watches الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_watches الملكية
 
-الحصول على مجموعة من الخلايا في ورقة العمل هذه يتم مشاهدتها في "نافذة المراقبة".
+الحصول على مجموعة من الخلايا في ورقة العمل هذه تتم مشاهدتها في "نافذة المراقبة".
 ###  تعريف:
 ```python
 @property

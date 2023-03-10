@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_bi_level Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

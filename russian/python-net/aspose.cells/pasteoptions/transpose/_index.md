@@ -1,4 +1,4 @@
-﻿---
+---
 title: transpose недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transpose недвижимость
 
-Значение true для transpose строк и столбцов при вставке диапазона.
+Значение true для transpose строк и столбцов при вставке диапазона. Значение по умолчанию неверно.
 ###  Определение:
 ```python
 @property

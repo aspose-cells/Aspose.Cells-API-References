@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | الفهرس الصفري للعنصر.|
 
@@ -42,7 +42,7 @@ def get(self, sheet_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet_name | str | اسم ورقة العمل|
 

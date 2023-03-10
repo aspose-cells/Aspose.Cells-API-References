@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_array_formula метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
 | row_number | int |Количество строк для заполнения результата формулы массива.|
@@ -36,7 +36,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
 | row_number | int |Количество строк для заполнения результата формулы массива.|
@@ -55,7 +55,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
 | row_number | int |Количество строк для заполнения результата формулы массива.|
@@ -64,7 +64,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | is_local | bool | отформатирована ли формула в локали|
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот класс устарел.
+ПРИМЕЧАНИЕ. Этот класс устарел. Вместо,
 пожалуйста, используйте Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Это свойство будет удалено через 12 месяцев, начиная с декабря 2019 года.
 Aspose приносит извинения за возможные неудобства.
@@ -80,7 +80,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | array_formula | str | Формула массива.|
 | row_number | int |Количество строк для заполнения результата формулы массива.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -20,7 +20,7 @@ is_root: false
 | [Workbook()](/cells/ar/python-net/aspose.cells/workbook/__init__/#) | يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook).|
 | [Workbook(file_format_type)](/cells/ar/python-net/aspose.cells/workbook/__init__/#FileFormatType) | يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook).|
 | [Workbook(file)](/cells/ar/python-net/aspose.cells/workbook/__init__/#str) | يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook) وفتح ملف.|
-| [Workbook(stream)](/cells/ar/python-net/aspose.cells/workbook/__init__/#io.RawIOBase) | يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook) ويفتح تدفق.|
+| [Workbook(stream)](/cells/ar/python-net/aspose.cells/workbook/__init__/#io.RawIOBase) | يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook) وافتح تدفق.|
 | [Workbook(file, load_options)](/cells/ar/python-net/aspose.cells/workbook/__init__/#str-LoadOptions) | يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook) وفتح ملف.|
 | [Workbook(stream, load_options)](/cells/ar/python-net/aspose.cells/workbook/__init__/#io.RawIOBase-LoadOptions) | يقوم بتهيئة نسخة جديدة من الفئة [Workbook](/cells/ar/python-net/aspose.cells/workbook) وفتح الدفق.|
 
@@ -72,8 +72,8 @@ is_root: false
 | [replace(bool_value, new_value)](/cells/ar/python-net/aspose.cells/workbook/replace/#bool-any) | يستبدل قيم الخلايا ببيانات جديدة.|
 | [replace(int_value, new_value)](/cells/ar/python-net/aspose.cells/workbook/replace/#int-any) | يستبدل قيم الخلايا ببيانات جديدة.|
 | [replace(place_holder, new_value, options)](/cells/ar/python-net/aspose.cells/workbook/replace/#str-str-ReplaceOptions) | يستبدل قيمة الخلية بسلسلة جديدة.|
-| [copy(source, copy_options)](/cells/ar/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) | نسخ البيانات من كائن مصنف مصدر.|
-| [copy(source)](/cells/ar/python-net/aspose.cells/workbook/copy/#Workbook) | نسخ البيانات من كائن مصنف مصدر.|
+| [copy(source, copy_options)](/cells/ar/python-net/aspose.cells/workbook/copy/#Workbook-CopyOptions) | نسخ البيانات من كائن مصنف المصدر.|
+| [copy(source)](/cells/ar/python-net/aspose.cells/workbook/copy/#Workbook) | نسخ البيانات من كائن مصنف المصدر.|
 | [calculate_formula()](/cells/ar/python-net/aspose.cells/workbook/calculate_formula/#) | تحسب نتيجة الصيغ.|
 | [calculate_formula(ignore_error)](/cells/ar/python-net/aspose.cells/workbook/calculate_formula/#bool) | تحسب نتيجة الصيغ.|
 | [calculate_formula(ignore_error, custom_function)](/cells/ar/python-net/aspose.cells/workbook/calculate_formula/#bool-ICustomFunction) | تحسب نتيجة الصيغ.|
@@ -87,7 +87,7 @@ is_root: false
 | [parse_formulas(ignore_error)](/cells/ar/python-net/aspose.cells/workbook/parse_formulas/#bool) | يوزع كل الصيغ التي لم يتم تحليلها عند تحميلها من ملف قالب أو تعيينها إلى خلية.|
 | [start_access_cache(opts)](/cells/ar/python-net/aspose.cells/workbook/start_access_cache/#AccessCacheOptions) |يبدأ الجلسة التي تستخدم ذاكرات التخزين المؤقت للوصول إلى البيانات.|
 | [close_access_cache(opts)](/cells/ar/python-net/aspose.cells/workbook/close_access_cache/#AccessCacheOptions) | يغلق الجلسة التي تستخدم ذاكرات التخزين المؤقت للوصول إلى البيانات.|
-| [remove_unused_styles()](/cells/ar/python-net/aspose.cells/workbook/remove_unused_styles/#) | قم بإزالة جميع الأنماط غير المستخدمة.|
+| [remove_unused_styles()](/cells/ar/python-net/aspose.cells/workbook/remove_unused_styles/#) | قم بإزالة كافة الأنماط غير المستخدمة.|
 | [create_style()](/cells/ar/python-net/aspose.cells/workbook/create_style/#) | يخلق اسلوب جديد.|
 | [create_builtin_style(type)](/cells/ar/python-net/aspose.cells/workbook/create_builtin_style/#BuiltinStyleType) | ينشئ نمطًا مدمجًا حسب النوع المحدد.|
 | [create_cells_color()](/cells/ar/python-net/aspose.cells/workbook/create_cells_color/#) | لتكوين عنصر [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor).|
@@ -112,7 +112,7 @@ is_root: false
 | [custom_theme(theme_name, colors)](/cells/ar/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) | جمارك الموضوع.|
 | [copy_theme(source)](/cells/ar/python-net/aspose.cells/workbook/copy_theme/#Workbook) | ينسخ النسق من مصنف آخر.|
 | [has_exernal_links()](/cells/ar/python-net/aspose.cells/workbook/has_exernal_links/#) | الإشارة إلى ما إذا كان هذا المصنف يحتوي على ارتباطات خارجية بمصادر بيانات أخرى.|
-| [update_linked_data_source(external_workbooks)](/cells/ar/python-net/aspose.cells/workbook/update_linked_data_source/#list) | إذا احتوى هذا المصنف على ارتباطات خارجية بمصادر بيانات أخرى ،<br/> Aspose.Cells سيحاول استرجاع أحدث البيانات.|
+| [update_linked_data_source(external_workbooks)](/cells/ar/python-net/aspose.cells/workbook/update_linked_data_source/#list) | إذا احتوى هذا المصنف على ارتباطات خارجية بمصدر بيانات آخر ،<br/> Aspose.Cells سيحاول استرجاع أحدث البيانات.|
 | [set_digital_signature(digital_signature_collection)](/cells/ar/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | يضبط التوقيع الرقمي على ملف جدول بيانات (Excel2007 وما بعده).|
 | [add_digital_signature(digital_signature_collection)](/cells/ar/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) | يضيف توقيعًا رقميًا إلى ملف جدول بيانات OOXML (Excel2007 وما بعده).|
 | [get_digital_signature()](/cells/ar/python-net/aspose.cells/workbook/get_digital_signature/#) | يحصل على توقيع رقمي من ملف.|
@@ -122,13 +122,13 @@ is_root: false
 
 ###  ملاحظات
 
-تشير الفئة Workbook إلى جدول بيانات Excel.
+تشير الفئة Workbook إلى جدول بيانات Excel. يمكن أن يحتوي كل جدول بيانات على أوراق عمل متعددة.
 الميزة الأساسية للفصل هي فتح ملفات Excel الأصلية وحفظها.
 يحتوي الفصل على بعض الميزات المتقدمة مثل نسخ البيانات من مصنفات أخرى ، والجمع بين مصنفين وحماية جدول بيانات Excel.
 
-###  أمثلة
+###  مثال
 
-يقوم المثال التالي بتحميل Workbook من ملف يسمى designer.xls ويجعل أشرطة التمرير الأفقية والرأسية غير مرئية لـ Workbook. ثم يستبدل قيمتي سلسلة بقيمة عدد صحيح وقيمة سلسلة على التوالي داخل جدول البيانات وأخيرًا يرسل التحديث ملف إلى متصفح العميل.
+يقوم المثال التالي بتحميل Workbook من ملف يسمى designer.xls ويجعل أشرطة التمرير الأفقية والعمودية غير مرئية لـ Workbook. ثم يستبدل قيمتي سلسلة بقيمة عدد صحيح وقيمة سلسلة على التوالي داخل جدول البيانات وأخيرًا يرسل الملف المحدث إلى متصفح العميل.
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: space_before proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

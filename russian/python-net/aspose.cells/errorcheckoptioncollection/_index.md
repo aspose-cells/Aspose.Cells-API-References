@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorCheckOptionCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/errorcheckoptioncollection/
 is_root: false
 ---
 ##  ErrorCheckOptionCollection класс
-Представляет все параметры проверки ошибок.
+Представляет вариант проверки всех ошибок.
 
 
 

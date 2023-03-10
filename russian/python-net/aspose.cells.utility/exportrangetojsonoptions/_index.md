@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportRangeToJsonOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [has_header_row](/cells/ru/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) | Указывает, содержит ли диапазон строку заголовка.|
 | [export_as_string](/cells/ru/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string) | Экспортирует строковое значение ячеек в json.|
 | [export_empty_cells](/cells/ru/python-net/aspose.cells.utility/exportrangetojsonoptions/export_empty_cells) | Указывает, экспортируются ли пустые ячейки как нулевые.|
-| [indent](/cells/ru/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Указывает индекс.|
+| [indent](/cells/ru/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Указывает отступ.|
 
 
 

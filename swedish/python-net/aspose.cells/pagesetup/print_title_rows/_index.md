@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_rows fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

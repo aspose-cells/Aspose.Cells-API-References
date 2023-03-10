@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlScrollOrientation uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen ControlScrollOrientation avslöjar följande medlemmar:
 | Fält| Beskrivning|
 | :- | :- |
 | AUTO | Kontroll återges horisontellt när kontrollens bredd är större än dess höjd.<br/> Kontroll återges vertikalt annars.|
-| VERTICAL |Kontroller återges vertikalt.|
+| VERTICAL |Kontroll återges vertikalt.|
 | HORIZONTAL | Kontroll återges horisontellt.|
 
 

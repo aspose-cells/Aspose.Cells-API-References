@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_merged_cells_type недвижимость
 
-Получает и задает тип автоподбора высоты строки объединенных ячеек.
+Получает и задает тип автоматической подгонки высоты строки объединенных ячеек.
 
 ###  Примечания
 

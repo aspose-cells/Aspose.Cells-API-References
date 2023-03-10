@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_edit_language Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die Standardbearbeitungssprache ab oder legt sie fest.
 
 ###  Bemerkungen
 
-Es kann unterschiedliche Layouts für Textabsätze anzeigen / rendern, wenn unterschiedliche Bearbeitungssprachen eingestellt sind.
+Es kann unterschiedliche Layouts für Textabsätze anzeigen/darstellen, wenn unterschiedliche Bearbeitungssprachen eingestellt sind.
 Standard ist [DefaultEditLanguage.AUTO](/cells/de/python-net/aspose.cells/defaulteditlanguage#AUTO).
 ###  Definition:
 ```python

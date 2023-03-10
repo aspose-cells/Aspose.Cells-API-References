@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_shading недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: background الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
  الرجاء استخدام خاصية ChartFrame.BackgroundMode.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ كانون الثاني (يناير) 2012.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

@@ -1,6 +1,6 @@
-﻿---
+---
 title: DynamicFilterType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1980
@@ -14,10 +14,10 @@ is_root: false
 
 DynamicFilterType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
-| ABOVE_AVERAGE |显示高于平均水平的值。|
+| ABOVE_AVERAGE |显示高于平均值的值。|
 | BELOW_AVERAGE |显示低于平均值的值。|
 | LAST_MONTH |显示上个月的日期。|
 | LAST_QUARTER |显示上一季度的日期。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin الملكية
 
-يمثل حجم الهامش السفلي بوحدات السنتيمتر.
+يمثل حجم الهامش السفلي بوحدة سنتيمترات.
 ###  تعريف:
 ```python
 @property

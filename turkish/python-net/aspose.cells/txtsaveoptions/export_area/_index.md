@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_area mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Dışa aktarılacak hücre aralığı.
 ###  Notlar
 
 Dışa aktarılan alan belirtilmişse, [TxtSaveOptions.trim_leading_blank_row_and_column](/cells/tr/python-net/aspose.cells/txtsaveoptions#trim_leading_blank_row_and_column)
-hiçbir etkisi olmayacaktır.
+irade etki etmez.
 ###  Tanım:
 ```python
 @property

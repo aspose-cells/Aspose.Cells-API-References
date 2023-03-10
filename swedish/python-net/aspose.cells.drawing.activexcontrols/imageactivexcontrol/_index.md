@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageActiveXControl klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,8 +25,8 @@ Typen ImageActiveXControl avslöjar följande medlemmar:
 | :- | :- |
 | [workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/workbook) | Hämtar objektet [ActiveXControlBase.workbook](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/type) | Hämtar typen av ActiveX-kontroll.|
-| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/width) |Får och ställer in kontrollens bredd i poängenheter.|
-| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenheter.|
+| [width](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/width) |Hämtar och ställer in kontrollens bredd i poängenhet.|
+| [height](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/height) | Får och ställer in höjden på kontrollen i poängenhet.|
 | [mouse_icon](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/mouse_icon) | Hämtar och ställer in en anpassad ikon som ska visas som muspekare för kontrollen.|
 | [mouse_pointer](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/mouse_pointer) | Hämtar och ställer in typen av ikon som visas som muspekare för kontrollen.|
 | [fore_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/fore_ole_color) | Får och ställer in olefärgen på förgrunden.|
@@ -44,7 +44,7 @@ Typen ImageActiveXControl avslöjar följande medlemmar:
 | [font](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/font) | Representerar kontrollens teckensnitt.|
 | [text_align](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/text_align) | Representerar hur man justerar texten som används av kontrollen.|
 | [border_ole_color](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_ole_color) | Hämtar och ställer in ole-färgen på bakgrunden.|
-| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_style) | Hämtar och ställer in den typ av kantlinje som används av kontrollen.|
+| [border_style](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/border_style) | Hämtar och ställer in den typ av gräns som används av kontrollen.|
 | [picture_size_mode](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picture_size_mode) | Hämtar och ställer in hur bilden ska visas.|
 | [special_effect](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/special_effect) | Får och ställer in kontrollens specialeffekt.|
 | [picture](/cells/sv/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol/picture) | Hämtar och ställer in bildens data.|

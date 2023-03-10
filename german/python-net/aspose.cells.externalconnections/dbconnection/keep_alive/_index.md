@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_alive Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  keep_alive Eigentum
 
  True, wenn das Tabellenkalkulationsprogramm Anstrengungen unternehmen soll, um die Verbindung aufrechtzuerhalten
-open. Bei false sollte die Anwendung die Verbindung nach dem Abrufen von schließen
+offen. Bei „false“ sollte die Anwendung die Verbindung nach dem Abrufen von schließen
 Information.
 ###  Definition:
 ```python

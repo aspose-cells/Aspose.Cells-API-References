@@ -1,4 +1,4 @@
-﻿---
+---
 title: min_data_row propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

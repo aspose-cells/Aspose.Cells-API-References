@@ -1,4 +1,4 @@
-﻿---
+---
 title: x_ad_es_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

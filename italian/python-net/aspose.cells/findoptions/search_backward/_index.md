@@ -1,4 +1,4 @@
-﻿---
+---
 title: search_backward proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

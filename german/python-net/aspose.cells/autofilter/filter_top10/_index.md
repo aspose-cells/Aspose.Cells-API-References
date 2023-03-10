@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_top10 Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/autofilter/filter_top10/
 is_root: false
 ---
 ##  filter_top10(field_index, is_top, is_percent, item_count) {#int-bool-bool-int}
-Filtern Sie die Top 10 Elemente in der Liste
+Filtern Sie die Top-10-Elemente in der Liste
 
 
 

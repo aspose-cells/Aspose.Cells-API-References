@@ -1,6 +1,6 @@
-﻿---
+---
 title: xml_map_query方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 310
@@ -22,7 +22,7 @@ def xml_map_query(self, path, xml_map):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | path | str | xml元素路径|
 | xml_map | [XmlMap](/cells/zh/python-net/aspose.cells/xmlmap) |如果要查询特定映射中的特定路径，请指定一个 xml 映射|

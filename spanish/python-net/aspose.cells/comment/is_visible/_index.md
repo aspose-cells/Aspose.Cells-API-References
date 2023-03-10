@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_visible propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa si el comentario es visible o no.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_object_listener Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den ExportObjectListener zum Exportieren von Objekten ab oder legt diesen f
 
 ###  Bemerkungen
 
- HINWEIS: Diese Eigenschaft ist jetzt veraltet.
+ HINWEIS: Diese Eigenschaft ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die HtmlSaveOptions.IStreamProvider-Eigenschaft.
  Diese Eigenschaft wird 12 Monate später seit August 2015 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

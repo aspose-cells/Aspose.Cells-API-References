@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_group_detail metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def show_group_detail(self, is_vertical, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | is_vertical | bool | Sant, expanderar de grupperade raderna.|
 | index | int | Rad-/kolumnindex|

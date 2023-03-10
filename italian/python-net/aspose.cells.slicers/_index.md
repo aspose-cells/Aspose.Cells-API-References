@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.slicers
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -15,7 +15,7 @@ is_root: false
 | [Slicer](/cells/it/python-net/aspose.cells.slicers/slicer) | descrizione sommaria di Slicer View|
 | [SlicerCache](/cells/it/python-net/aspose.cells.slicers/slicercache) | descrizione sommaria della cache slicer|
 | [SlicerCacheItem](/cells/it/python-net/aspose.cells.slicers/slicercacheitem) | Rappresenta l'elemento dell'origine dati del filtro dei dati|
-| [SlicerCacheItemCollection](/cells/it/python-net/aspose.cells.slicers/slicercacheitemcollection) | Rappresenta la raccolta di SlicerCacheItems|
+| [SlicerCacheItemCollection](/cells/it/python-net/aspose.cells.slicers/slicercacheitemcollection) | Rappresenta la raccolta di SlicerCacheItem|
 | [SlicerCollection](/cells/it/python-net/aspose.cells.slicers/slicercollection) | Specifica la raccolta di tutti gli oggetti Slicer nel foglio di lavoro specificato.|
 
 

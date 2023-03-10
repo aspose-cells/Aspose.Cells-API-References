@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -98,7 +98,7 @@ Typen ChartType avslöjar följande medlemmar:
 | WATERFALL | Serien är upplagd som ett vattenfall.|
 | HISTOGRAM | Serien är upplagd som ett histogram.|
 | MAP | Serien är upplagd som en regionkarta.|
-| RADIAL_HISTOGRAM | Serien är upplagd som ett radiellt histogram.|
+| RADIAL_HISTOGRAM | Serien är upplagd som ett radiellt histogram. Den används endast för rendering|
 
 
 

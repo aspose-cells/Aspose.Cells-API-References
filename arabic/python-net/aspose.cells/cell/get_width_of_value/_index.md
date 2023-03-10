@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_width_of_value
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cell/get_width_of_value/
 is_root: false
 ---
 ##  get_width_of_value() {#}
-الحصول على عرض القيمة بوحدات البكسل.
+الحصول على عرض القيمة بوحدة البكسل.
 
 
 ###  عائدات

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد BevelType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ is_root: false
 | COOL_SLANT | ميل بارد|
 | CROSS | يعبر|
 | DIVOT | ديفوت|
-| HARD_EDGE | حواف صلبة|
+| HARD_EDGE | حافة صلبة|
 | RELAXED_INSET | استرخاء أقحم|
 | RIBLET | ريبليت|
 | SLOPE | ميل|

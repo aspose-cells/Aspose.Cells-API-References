@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_style méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | Le style de cellule.|
 ###  Remarques
@@ -37,7 +37,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | Le style de cellule.|
 | explicit_flag | bool | Vrai, uniquement en écrasant le formatage qui est explicitement défini.|
@@ -54,7 +54,7 @@ def set_style(self, style, flag):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | style | [Style](/cells/fr/python-net/aspose.cells/style) | Le style de cellule.|
 | flag | [StyleFlag](/cells/fr/python-net/aspose.cells/styleflag) | Le drapeau stylé.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,13 +17,13 @@ Typen SheetType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| VB | Visual Basic-moduler|
+| VB | Visual Basic-modul|
 | WORKSHEET |  |
 | CHART | Diagram|
 | BIFF4_MACRO | BIFF4 Makroblad|
 | INTERNATIONAL_MACRO | Internationellt makroblad|
 | OTHER |  |
-| DIALOG |Arbetsblad för dialog|
+| DIALOG |Dialog arbetsblad|
 
 
 

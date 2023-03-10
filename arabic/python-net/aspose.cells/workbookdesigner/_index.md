@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [workbook](/cells/ar/python-net/aspose.cells/workbookdesigner/workbook) |الحصول على العنصر [WorkbookDesigner.workbook](/cells/ar/python-net/aspose.cells/workbookdesigner#workbook) وتعيينه.|
-| [repeat_formulas_with_subtotal](/cells/ar/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | يشير إلى ما إذا كان يتم تكرار الصيغ مع صفوف الإجمالي الفرعي.|
+| [repeat_formulas_with_subtotal](/cells/ar/python-net/aspose.cells/workbookdesigner/repeat_formulas_with_subtotal) | يشير إلى ما إذا كان يتم تكرار الصيغ مع صف الإجمالي الفرعي.|
 | [update_empty_string_as_null](/cells/ar/python-net/aspose.cells/workbookdesigner/update_empty_string_as_null) | إذا كانت القيمة TRUE ، فسيتم إدراج Null إذا كانت القيمة "" ؛|
 | [update_reference](/cells/ar/python-net/aspose.cells/workbookdesigner/update_reference) |يشير إلى ما إذا كان سيتم تحديث المراجع في أوراق العمل الأخرى.|
 | [calculate_formula](/cells/ar/python-net/aspose.cells/workbookdesigner/calculate_formula) | يشير إلى ما إذا كان يجب حساب الصيغ.|
@@ -46,7 +46,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook, WorkbookDesigner

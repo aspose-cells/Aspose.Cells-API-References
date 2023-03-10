@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_criteria方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ def set_criteria(self, filter_operator, criteria):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | filter_operator | [FilterOperatorType](/cells/zh/python-net/aspose.cells/filteroperatortype) |过滤运算符类型|
 | criteria | any |过滤条件值|

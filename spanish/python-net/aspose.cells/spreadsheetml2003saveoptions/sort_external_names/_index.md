@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_external_names propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sort_external_names propiedad
 
-Indica si ordenar los nombres definidos externamente antes de guardar el archivo.
+Indica si ordenar los nombres definidos externos antes de guardar el archivo.
 ###  Definición:
 ```python
 @property

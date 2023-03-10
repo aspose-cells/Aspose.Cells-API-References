@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | كائن النمط.|
 
@@ -34,7 +34,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | style | [Style](/cells/ar/python-net/aspose.cells/style) | نمط الخلية.|
 | explicit_flag | bool | صحيح ، الكتابة فوق التنسيق الذي تم تعيينه صراحةً فقط.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_top_point_x_px Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

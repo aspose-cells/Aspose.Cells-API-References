@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.rendering
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /es/python-net/aspose.cells.rendering/
 is_root: false
 ---
- El**Aspose.Cells.Rendering**El espacio de nombres proporciona clases para representar imágenes y archivos PDF.
+ El**Aspose.Cells.Rendering**El espacio de nombres proporciona clases para renderizar imágenes y pdf.
 
 ###  Clases
 | Clase| Descripción|
@@ -19,7 +19,7 @@ is_root: false
 | [PageEndSavingArgs](/cells/es/python-net/aspose.cells.rendering/pageendsavingargs) | La información de una página finaliza el proceso de guardado.|
 | [PageSavingArgs](/cells/es/python-net/aspose.cells.rendering/pagesavingargs) | Información para un proceso de guardado de página.|
 | [PageStartSavingArgs](/cells/es/python-net/aspose.cells.rendering/pagestartsavingargs) | La información de una página comienza a guardar el proceso.|
-| [PdfBookmarkEntry](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry es una entrada en pdfbookmark.<br/>si la propiedad Text de la instancia actual es nula o "",<br/> la instancia actual se ocultará y los niños se insertarán en el nivel actual.|
+| [PdfBookmarkEntry](/cells/es/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry es una entrada en marcador de pdf.<br/>si la propiedad Text de la instancia actual es nula o "",<br/> la instancia actual se ocultará y los niños se insertarán en el nivel actual.|
 | [SheetPrintingPreview](/cells/es/python-net/aspose.cells.rendering/sheetprintingpreview) | Vista previa de la impresión de la hoja de trabajo.|
 | [SheetRender](/cells/es/python-net/aspose.cells.rendering/sheetrender) | Representa un procesamiento de hoja de trabajo que puede representar la hoja de trabajo en varias imágenes como (BMP, PNG, JPEG, TIFF...)<br/> El constructor de esta clase debe usarse después de la modificación de la configuración de página, estilo de celda.|
 | [SheetSet](/cells/es/python-net/aspose.cells.rendering/sheetset) | Describe un juego de hojas.|

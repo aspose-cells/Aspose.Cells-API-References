@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_value proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,8 +9,8 @@ is_root: false
 ---
 ##  show_value proprietà
 
-Ottieni o imposta il flag che indica se mostrare i valori delle celle su cui è applicato questo set di icone.
-Il valore predefinito è vero.
+Ottenere o impostare il flag che indica se mostrare i valori delle celle su cui è applicato questo set di icone.
+Il valore predefinito è true.
 ###  Definizione:
 ```python
 @property

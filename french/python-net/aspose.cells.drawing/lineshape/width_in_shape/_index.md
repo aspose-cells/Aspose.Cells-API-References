@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_in_shape propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,13 +9,13 @@ is_root: false
 ---
 ##  width_in_shape propriété
 
-Représente la largeur de la forme, en unités de 1/4000 de la forme parent.
+Représente la largeur de la forme, en unité de 1/4000 de la forme parent.
 
 ###  Remarques
 
 S'applique uniquement lorsque cette forme se trouve dans le groupe ou le graphique.
 
-###  Exemples
+###  Exemple
 
 ```python
 

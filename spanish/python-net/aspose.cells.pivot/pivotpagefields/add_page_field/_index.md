@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_page_field método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def add_page_field(self, page_items):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | page_items | list | Etiqueta de elemento de campo de página|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_print_area_only Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  export_print_area_only Eigentum
 
-Gibt an, ob nur der Druckbereich in eine HTML-Datei exportiert wird.
+Gibt an, ob nur der Druckbereich in eine HTML-Datei exportiert wird. Der Standardwert ist falsch.
 ###  Definition:
 ```python
 @property

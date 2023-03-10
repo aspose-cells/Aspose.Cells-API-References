@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_format_to_extension méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def save_format_to_extension(self, format):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Le format de sauvegarde.|
 

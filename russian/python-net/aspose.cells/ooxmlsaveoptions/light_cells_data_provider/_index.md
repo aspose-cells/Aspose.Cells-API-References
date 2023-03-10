@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_provider недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider недвижимость
 
-Поставщик данных для предоставления данных ячеек для сохранения книг в облегченном режиме.
+Поставщик данных для предоставления данных ячеек для сохранения книги в облегченном режиме.
 ###  Определение:
 ```python
 @property

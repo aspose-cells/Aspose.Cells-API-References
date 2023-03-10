@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, source_data, dest_cell_name, table_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_data | str | بيانات ذاكرة التخزين المؤقت الجديدة لـ PivotTable.|
 | dest_cell_name | str |الخلية الموجودة في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
@@ -44,9 +44,9 @@ def add(self, pivot_table, dest_cell_name, table_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/ar/python-net/aspose.cells.pivot/pivottable) | المصدر المحوري الجدول.|
+| pivot_table | [PivotTable](/cells/ar/python-net/aspose.cells.pivot/pivottable) | المصدر pivotTable.|
 | dest_cell_name | str |الخلية الموجودة في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
 | table_name | str | اسم تقرير PivotTable الجديد.|
 
@@ -66,12 +66,12 @@ def add(self, source_data, dest_cell_name, table_name, use_same_source):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_data | str | بيانات ذاكرة التخزين المؤقت الجديدة لـ PivotTable.|
 | dest_cell_name | str |الخلية الموجودة في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
 | table_name | str | اسم تقرير PivotTable الجديد.|
-| use_same_source | bool | يشير إلى ما إذا كان يتم استخدام نفس مصدر البيانات عند استخدام جدول محوري موجود آخر لمصدر البيانات هذا.<br/> إذا كانت الخاصية صحيحة ، فسيتم حفظ الذاكرة.|
+| use_same_source | bool | يشير إلى ما إذا كان يتم استخدام نفس مصدر البيانات عند استخدام جدول محوري آخر لمصدر البيانات هذا.<br/> إذا كانت الخاصية صحيحة ، فسيتم حفظ الذاكرة.|
 
 
 ##  add(source_data, row, column, table_name) {#str-int-int-str}
@@ -89,7 +89,7 @@ def add(self, source_data, row, column, table_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_data | str | نطاق خلايا البيانات لجدول PivotTable الجديد. مثال: الورقة 1! A1: C8|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
@@ -112,9 +112,9 @@ def add(self, pivot_table, row, column, table_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| pivot_table | [PivotTable](/cells/ar/python-net/aspose.cells.pivot/pivottable) | المصدر المحوري الجدول.|
+| pivot_table | [PivotTable](/cells/ar/python-net/aspose.cells.pivot/pivottable) | المصدر pivotTable.|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
 | column | int | فهرس عمود الخلية في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
 | table_name | str | اسم تقرير PivotTable الجديد.|
@@ -135,13 +135,13 @@ def add(self, source_data, row, column, table_name, use_same_source):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_data | str | نطاق خلايا البيانات لجدول PivotTable الجديد. مثال: الورقة 1! A1: C8|
 | row | int | فهرس صف الخلية في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
 | column | int | فهرس عمود الخلية في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable.|
 | table_name | str | اسم تقرير PivotTable الجديد.|
-| use_same_source | bool | يشير إلى ما إذا كان يتم استخدام نفس مصدر البيانات عند استخدام جدول محوري موجود آخر لمصدر البيانات هذا.<br/> إذا كانت الخاصية صحيحة ، فسيتم حفظ الذاكرة.|
+| use_same_source | bool | يشير إلى ما إذا كان يتم استخدام نفس مصدر البيانات عند استخدام جدول محوري آخر لمصدر البيانات هذا.<br/> إذا كانت الخاصية صحيحة ، فسيتم حفظ الذاكرة.|
 
 
 ##  add(source_data, is_auto_page, page_fields, dest_cell_name, table_name) {#list-bool-PivotPageFields-str-str}
@@ -159,7 +159,7 @@ def add(self, source_data, is_auto_page, page_fields, dest_cell_name, table_name
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_data | list | نطاقات الدمج المتعددة ، مثل {"Sheet1! A1: C8"، "Sheet2! A1: B8"} |
 | is_auto_page | bool | ما إذا كان سيتم إنشاء حقل صفحة واحد تلقائيًا.<br/>إذا كان هذا صحيحًا ، فسيتم تجاهل معلمة pageFields التالية.|
@@ -183,7 +183,7 @@ def add(self, source_data, is_auto_page, page_fields, row, column, table_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_data | list | نطاقات الدمج المتعددة ، مثل {"Sheet1! A1: C8"، "Sheet2! A1: B8"} |
 | is_auto_page | bool | ما إذا كان سيتم إنشاء حقل صفحة واحد تلقائيًا.<br/> إذا كان هذا صحيحًا ، فسيتم تجاهل معلمة pageFields التالية|

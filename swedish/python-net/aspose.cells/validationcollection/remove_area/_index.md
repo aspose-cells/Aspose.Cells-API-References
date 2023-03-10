@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | ca | [CellArea](/cells/sv/python-net/aspose.cells/cellarea) | Intervallet som innehåller valideringsinställningen.|
 

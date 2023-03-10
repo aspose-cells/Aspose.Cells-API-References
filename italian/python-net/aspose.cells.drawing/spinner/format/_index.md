@@ -1,4 +1,4 @@
-﻿---
+---
 title: format proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,8 +13,8 @@ Rappresenta l'impostazione della formattazione della forma.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
- Utilizzare le proprietà Shape.Fill e Shape.Line.
+ NOTA: questo membro è ora obsoleto. Invece,
+ si prega di utilizzare le proprietà Shape.Fill e Shape.Line.
  Questa proprietà verrà rimossa 6 mesi dopo da agosto 2016.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

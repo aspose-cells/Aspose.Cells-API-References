@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_outlier_points mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_outlier_points mülk
 
-Aykırı veri noktalarının gösterilip gösterilmediğini gösterir.
+Aykırı veri noktalarının gösterilip gösterilmediğini belirtir.
 ###  Tanım:
 ```python
 @property

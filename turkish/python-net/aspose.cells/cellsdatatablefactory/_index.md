@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsDataTableFactory sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -23,7 +23,7 @@ CellsDataTableFactory türü aşağıdaki üyeleri gösterir:
 | [get_instance(vals, vertial)](/cells/tr/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Verilen çift değer dizisinden ICellsDataTable oluşturur.|
 | [get_instance(vals, column_names)](/cells/tr/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Verilen nesne dizisinden ICellsDataTable oluşturur.|
 | [get_instance(vals, vertial)](/cells/tr/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Verilen nesne dizisinden ICellsDataTable oluşturur.|
-| [get_instance(collection)](/cells/tr/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Belirli bir koleksiyondan ICellsDataTable oluşturur.|
+| [get_instance(collection)](/cells/tr/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Verilen koleksiyondan ICellsDataTable oluşturur.|
 
 
 

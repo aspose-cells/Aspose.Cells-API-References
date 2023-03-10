@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_row Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Bereitet die Verarbeitung einer Zeile vor.
 
 ###  Kehrt zurück
 
-ob diese Zeile (Eigenschaften oder Zellendaten) verarbeitet werden muss false um diese Zeile und ihre Zellen zu ignorieren und die nächste Zeile zu prüfen.
+ob diese Zeile (Eigenschaften oder Zellendaten) verarbeitet werden muss. false, um diese Zeile und ihre Zellen zu ignorieren und die nächste Zeile zu prüfen.
 
 
 ```python

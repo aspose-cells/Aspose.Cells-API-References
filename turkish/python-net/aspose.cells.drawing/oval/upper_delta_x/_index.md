@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_x mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Değer aralığı 0 ila 1024'tür.
 
-###  örnekler
+###  Örnek
 
 ```python
 

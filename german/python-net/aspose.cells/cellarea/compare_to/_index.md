@@ -1,4 +1,4 @@
-﻿---
+---
 title: compare_to Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Vergleichen Sie zwei CellArea-Objekte entsprechend ihrer oberen linken Ecke.
 
 ###  Kehrt zurück
 
-Wenn sich zwei Ecken in verschiedenen Zeilen befinden, vergleichen Sie ihren Zeilenindex.
+Wenn sich zwei Ecken in verschiedenen Zeilen befinden, vergleichen Sie ihren Zeilenindex. Vergleichen Sie andernfalls ihren Spaltenindex.
 Wenn zwei Ecken gleich sind, wird 0 zurückgegeben.
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_in_shape Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,9 +14,9 @@ in Einheiten von 1/4000 der Höhe der übergeordneten Form.
 
 ###  Bemerkungen
 
-Gilt nur, wenn sich dieses Shape in der Gruppe oder im Diagramm befindet.
+Gilt nur, wenn diese Form in der Gruppe oder im Diagramm enthalten ist.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

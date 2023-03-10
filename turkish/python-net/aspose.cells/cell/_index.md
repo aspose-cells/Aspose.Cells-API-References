@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cell sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,8 +25,8 @@ Cell türü aşağıdaki üyeleri gösterir:
 | [type](/cells/tr/python-net/aspose.cells/cell/type) | Hücre değeri türünü temsil eder.|
 | [name](/cells/tr/python-net/aspose.cells/cell/name) | Hücrenin adını alır.|
 | [is_error_value](/cells/tr/python-net/aspose.cells/cell/is_error_value) | Bu hücrenin değerinin bir hata olup olmadığını kontrol eder.|
-| [is_numeric_value](/cells/tr/python-net/aspose.cells/cell/is_numeric_value) | Bu hücrenin iç değerinin sayısal (int, double ve datetime) olup olmadığını gösterir.|
-| [string_value](/cells/tr/python-net/aspose.cells/cell/string_value) |Hücrede bulunan dize değerini alır.<br/>Diğer hücre türleri için biçimlendirilmiş dize değeri (bu hücrenin belirtilen stiliyle biçimlendirilmiş) döndürülür.<br/>Biçimlendirilmiş hücre değeri, bir hücreyi metin olarak kopyalarken excel'den alabileceğiniz değerle aynıdır (örneğin,<br/> hücreyi metin düzenleyiciye kopyalama veya csv'ye aktarma).|
+| [is_numeric_value](/cells/tr/python-net/aspose.cells/cell/is_numeric_value) | Bu hücrenin iç değerinin sayısal olup olmadığını gösterir(int, double ve tarihsaat)|
+| [string_value](/cells/tr/python-net/aspose.cells/cell/string_value) |Hücrede bulunan dize değerini alır. Bu hücrenin türü dize ise, dize değerinin kendisini döndürür.<br/>Diğer hücre türleri için biçimlendirilmiş dize değeri (bu hücrenin belirtilen stiliyle biçimlendirilmiş) döndürülür.<br/>Biçimlendirilmiş hücre değeri, bir hücreyi metin olarak kopyalarken excel'den alabileceğiniz değerle aynıdır (örneğin,<br/> hücreyi metin düzenleyiciye kopyalama veya csv'ye aktarma).|
 | [string_value_without_format](/cells/tr/python-net/aspose.cells/cell/string_value_without_format) | Herhangi bir format olmadan hücrenin değerini string olarak alır.|
 | [number_category_type](/cells/tr/python-net/aspose.cells/cell/number_category_type) | Bu hücrenin sayı biçimlendirmesinin kategori türünü temsil eder.|
 | [display_string_value](/cells/tr/python-net/aspose.cells/cell/display_string_value) | Hücrenin görüntü stiline göre bu hücrenin biçimlendirilmiş dize değerini alır.|
@@ -44,11 +44,11 @@ Cell türü aşağıdaki üyeleri gösterir:
 | [is_dynamic_array_formula](/cells/tr/python-net/aspose.cells/cell/is_dynamic_array_formula) | Hücre formülünün dinamik dizi formülü(true) veya eski dizi formülü(false) olduğunu gösterir.|
 | [is_array_formula](/cells/tr/python-net/aspose.cells/cell/is_array_formula) | Hücre formülünün bir dizi formülü olup olmadığını gösterir.|
 | [is_in_array](/cells/tr/python-net/aspose.cells/cell/is_in_array) | Hücre formülünün bir dizi formülü olup olmadığını gösterir.|
-| [is_shared_formula](/cells/tr/python-net/aspose.cells/cell/is_shared_formula) | Hücre formülünün paylaşılan bir formülün parçası olup olmadığını gösterir.|
+| [is_shared_formula](/cells/tr/python-net/aspose.cells/cell/is_shared_formula) | Hücre formülünün paylaşılan formülün parçası olup olmadığını gösterir.|
 | [is_table_formula](/cells/tr/python-net/aspose.cells/cell/is_table_formula) | Bu hücrenin tablo formülünün parçası olup olmadığını gösterir.|
 | [is_in_table](/cells/tr/python-net/aspose.cells/cell/is_in_table) | Bu hücrenin tablo formülünün parçası olup olmadığını gösterir.|
 | [value](/cells/tr/python-net/aspose.cells/cell/value) | Bu hücrede bulunan değeri alır.|
-| [is_style_set](/cells/tr/python-net/aspose.cells/cell/is_style_set) | Hücrenin stilinin ayarlanıp ayarlanmadığını gösterir. false döndürürse, bu hücrenin varsayılan bir hücre formatına sahip olduğu anlamına gelir.|
+| [is_style_set](/cells/tr/python-net/aspose.cells/cell/is_style_set) | Hücre stilinin ayarlanıp ayarlanmadığını gösterir. false döndürürse, bu hücrenin varsayılan bir hücre formatına sahip olduğu anlamına gelir.|
 | [is_merged](/cells/tr/python-net/aspose.cells/cell/is_merged) | Bir hücrenin birleştirilmiş bir aralığın parçası olup olmadığını kontrol eder.|
 | [comment](/cells/tr/python-net/aspose.cells/cell/comment) | Bu hücrenin yorumunu alır.|
 | [html_string](/cells/tr/python-net/aspose.cells/cell/html_string) | Bu hücrede veri ve bazı formatları içeren html dizisini alır ve ayarlar.|
@@ -68,9 +68,9 @@ Cell türü aşağıdaki üyeleri gösterir:
 | [put_value(date_time)](/cells/tr/python-net/aspose.cells/cell/put_value/#DateTime) | Hücreye bir DateTime değeri koyar.|
 | [put_value(object_value)](/cells/tr/python-net/aspose.cells/cell/put_value/#any) | Hücreye bir nesne değeri koyar.|
 | [get_display_style()](/cells/tr/python-net/aspose.cells/cell/get_display_style/#) | Hücrenin görüntü stilini alır.<br/>Bu hücre, koşullu biçimlendirme, liste nesneleri vb. gibi diğer ayarlardan da etkileniyorsa,<br/> o zaman görüntüleme stili cell.GetStyle()'dan farklı olabilir.|
-| [get_display_style(include_merged_borders)](/cells/tr/python-net/aspose.cells/cell/get_display_style/#bool) | Hücrenin görüntü stilini alır.<br/> Hücre koşullu olarak biçimlendirilmişse, görüntüleme stili cell.GetStyle() ile aynı değildir.|
+| [get_display_style(include_merged_borders)](/cells/tr/python-net/aspose.cells/cell/get_display_style/#bool) | Hücrenin görüntü stilini alır.<br/> Hücre koşullu biçimlendirilmişse, görüntüleme stili cell.GetStyle() ile aynı değildir.|
 | [get_style()](/cells/tr/python-net/aspose.cells/cell/get_style/#) | Hücre stilini alır.|
-| [get_style(check_borders)](/cells/tr/python-net/aspose.cells/cell/get_style/#bool) | CheckBorders doğruysa, diğer hücrelerin kenarlıklarının bu hücrenin stilini etkileyip etkilemediğini kontrol edin.|
+| [get_style(check_borders)](/cells/tr/python-net/aspose.cells/cell/get_style/#bool) | CheckBorders doğruysa, diğer hücrelerin kenarlıklarının bu hücrenin stilini etkileyip etkilemeyeceğini kontrol edin.|
 | [set_style(style)](/cells/tr/python-net/aspose.cells/cell/set_style/#Style) | Hücre stilini ayarlar.|
 | [set_style(style, explicit_flag)](/cells/tr/python-net/aspose.cells/cell/set_style/#Style-bool) | Hücre stilini uygulayın.|
 | [set_style(style, flag)](/cells/tr/python-net/aspose.cells/cell/set_style/#Style-StyleFlag) | Hücre stilini uygulayın.|
@@ -90,16 +90,16 @@ Cell türü aşağıdaki üyeleri gösterir:
 | [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/tr/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) | Dinamik dizi formülünü ayarlar ve mümkünse formülün komşu hücrelere yayılmasını sağlar.|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/tr/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) | Dinamik dizi formülünü ayarlar ve mümkünse formülün komşu hücrelere yayılmasını sağlar.|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/tr/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) | Dinamik dizi formülünü ayarlar ve mümkünse formülün komşu hücrelere yayılmasını sağlar.|
-| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/tr/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Bu hücreden başlayarak belirli bir aralık için iki değişkenli bir veri tablosu oluşturun.|
+| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/tr/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Bu hücreden başlayarak verilen aralık için iki değişkenli veri tablosu oluşturun.|
 | [set_table_formula(row_number, column_number, input_cell, is_row_input, values)](/cells/tr/python-net/aspose.cells/cell/set_table_formula/#int-int-str-bool-list) | Bu hücreden başlayarak verilen aralık için tek değişkenli veri tablosu oluşturun.|
-| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/tr/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Bu hücreden başlayarak belirli bir aralık için iki değişkenli bir veri tablosu oluşturun.|
+| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/tr/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Bu hücreden başlayarak verilen aralık için iki değişkenli veri tablosu oluşturun.|
 | [set_table_formula(row_number, column_number, row_index_of_input_cell, column_index_of_input_cell, is_row_input, values)](/cells/tr/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-bool-list) | Bu hücreden başlayarak verilen aralık için tek değişkenli veri tablosu oluşturun.|
 | [get_characters()](/cells/tr/python-net/aspose.cells/cell/get_characters/#) | Tüm Karakterler nesnelerini döndürür<br/> hücre metni içindeki bir karakter aralığını temsil eder.|
 | [get_characters(flag)](/cells/tr/python-net/aspose.cells/cell/get_characters/#bool) | Tüm Karakterler nesnelerini döndürür<br/> hücre metni içindeki bir karakter aralığını temsil eder.|
 | [get_string_value(format_strategy)](/cells/tr/python-net/aspose.cells/cell/get_string_value/#CellValueFormatStrategy) | Dize değerini belirli biçimlendirilmiş stratejiye göre alır.|
-| [get_width_of_value()](/cells/tr/python-net/aspose.cells/cell/get_width_of_value/#) | Değerin genişliğini piksel cinsinden alır.|
-| [get_height_of_value()](/cells/tr/python-net/aspose.cells/cell/get_height_of_value/#) | Değerin yüksekliğini piksel cinsinden alır.|
-| [get_format_conditions()](/cells/tr/python-net/aspose.cells/cell/get_format_conditions/#) | Bu hücreye uygulanan biçim koşullarını alır.|
+| [get_width_of_value()](/cells/tr/python-net/aspose.cells/cell/get_width_of_value/#) | Değerin genişliğini piksel birimi cinsinden alır.|
+| [get_height_of_value()](/cells/tr/python-net/aspose.cells/cell/get_height_of_value/#) | Değerin yüksekliğini piksel birimi cinsinden alır.|
+| [get_format_conditions()](/cells/tr/python-net/aspose.cells/cell/get_format_conditions/#) | Bu hücre için geçerli olan biçim koşullarını alır.|
 | [get_formula(is_r1c1, is_local)](/cells/tr/python-net/aspose.cells/cell/get_formula/#bool-bool) | Bu hücrenin formülünü alın.|
 | [get_precedents()](/cells/tr/python-net/aspose.cells/cell/get_precedents/#) |Bu hücrenin formülünde görünen tüm başvuruları alır.|
 | [get_dependents(is_all)](/cells/tr/python-net/aspose.cells/cell/get_dependents/#bool) | Formülü doğrudan bu hücreye başvuran tüm hücreleri alın.|
@@ -122,7 +122,7 @@ Cell türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import TextAlignmentType, Workbook

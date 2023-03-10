@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_radar_axis_labels Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels Eigentum
 
-True, wenn ein Netzdiagramm über Kategorieachsenbeschriftungen verfügt.
+True, wenn ein Netzdiagramm über Kategorieachsenbeschriftungen verfügt. Gilt nur für Netzkarten.
 ###  Definition:
 ```python
 @property

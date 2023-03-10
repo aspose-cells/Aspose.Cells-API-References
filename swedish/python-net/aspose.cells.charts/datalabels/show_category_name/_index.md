@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_category_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_category_name fastighet
 
-Representerar ett specificerat diagrams dataetikett kategorinamn visningsbeteende.True för att visa kategorinamnet för dataetiketterna på ett diagram.False att dölja.
+Representerar visningsbeteendet för ett specificerat diagrams dataetikettkategorinamn. Sant för att visa kategorinamnet för dataetiketterna på ett diagram. Falskt att dölja.
 ###  Definition:
 ```python
 @property

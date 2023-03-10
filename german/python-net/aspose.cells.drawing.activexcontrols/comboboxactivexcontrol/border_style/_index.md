@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  border_style Eigentum
 
-Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt diesen fest.
+Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt ihn fest.
 ###  Definition:
 ```python
 @property

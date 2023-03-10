@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_default_pos_be_set propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

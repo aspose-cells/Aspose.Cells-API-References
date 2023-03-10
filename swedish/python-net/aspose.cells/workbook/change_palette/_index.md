@@ -1,4 +1,4 @@
-﻿---
+---
 title: change_palette metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def change_palette(self, color, index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Färgstruktur.|
 | index | int | Palettindex, 0 - 55.|

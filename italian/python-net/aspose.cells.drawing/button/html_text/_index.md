@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_text proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta la stringa html che contiene i dati e alcuni formati in questa casella di testo.
 
-###  Esempi
+###  Esempio
 
 ```python
 

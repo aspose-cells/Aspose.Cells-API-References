@@ -1,4 +1,4 @@
-﻿---
+---
 title: rank propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtener o establecer el valor de "n" en una regla de formato condicional "arriba/abajo n".
 Si IsPercent es verdadero, el valor debe estar entre 0 y 100.
-De lo contrario, debe estar entre 0 y 1000.
+En caso contrario debe estar entre 0 y 1000.
 El valor predeterminado es 10.
 ###  Definición:
 ```python

@@ -1,6 +1,6 @@
-﻿---
+---
 title: scroll_bars 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 330
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## scroll_bars 属性
 
-指示控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。
+指示指定控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。
 ### 定义：
 ```python
 @property

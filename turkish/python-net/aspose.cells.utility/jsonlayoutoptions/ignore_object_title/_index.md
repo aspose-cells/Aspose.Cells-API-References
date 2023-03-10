@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_object_title mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_object_title mülk
 
-Nesne, nesnenin bir özelliğiyse, başlığın yoksayılıp dikkate alınmayacağını belirtir.
+Nesne, nesnenin bir özelliğiyse, başlığın dikkate alınıp alınmadığını belirtir.
 
 ###  Notlar
 

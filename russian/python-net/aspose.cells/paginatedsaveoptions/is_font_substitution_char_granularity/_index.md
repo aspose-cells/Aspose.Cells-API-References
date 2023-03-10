@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_font_substitution_char_granularity недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Значение по умолчанию — false. Сначала мы попробуем шрифт Workbook по умолчанию и PdfSaveOption/system для шрифта ячейки.
+Значение по умолчанию — ложь. Сначала мы попробуем шрифт Workbook по умолчанию и PdfSaveOption/system для шрифта ячейки.
 ###  Определение:
 ```python
 @property

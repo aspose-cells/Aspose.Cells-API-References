@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة has_exernal_links
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def has_exernal_links(self):
 
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
 الرجاء استخدام ExternalLinkCollection.Count للتحقق مما إذا كانت هناك روابط خارجية في هذا المصنف.
  ستتم إزالة هذه الطريقة بعد 12 شهرًا منذ ديسمبر 2021.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

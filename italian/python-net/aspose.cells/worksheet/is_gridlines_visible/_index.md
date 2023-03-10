@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_gridlines_visible proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_gridlines_visible proprietà
 
-Ottiene o imposta un valore che indica se le linee della griglia sono visibili.Il valore predefinito è true.
+Ottiene o imposta un valore che indica se le linee della griglia sono visibili. L'impostazione predefinita è true.
 ###  Definizione:
 ```python
 @property

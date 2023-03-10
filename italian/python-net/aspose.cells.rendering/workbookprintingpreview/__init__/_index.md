@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookPrintingPreview costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def __init__(self, workbook, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/it/python-net/aspose.cells/workbook) | Indica quale cartella di lavoro stampare.|
 | options | [ImageOrPrintOptions](/cells/it/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions contiene alcune proprietà dell'output|

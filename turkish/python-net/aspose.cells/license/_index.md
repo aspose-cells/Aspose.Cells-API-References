@@ -1,4 +1,4 @@
-﻿---
+---
 title: License sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -23,12 +23,12 @@ License türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [set_license(license_name)](/cells/tr/python-net/aspose.cells/license/set_license/#str) | Bileşenleri lisanslar.|
-| [set_license(stream)](/cells/tr/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Bileşenleri lisanslar.|
+| [set_license(license_name)](/cells/tr/python-net/aspose.cells/license/set_license/#str) | Bileşeni lisanslar.|
+| [set_license(stream)](/cells/tr/python-net/aspose.cells/license/set_license/#io.RawIOBase) | Bileşeni lisanslar.|
 
 
 
-###  örnekler
+###  Örnek
 
 Bu örnekte, MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
  içeren klasörde

@@ -1,4 +1,4 @@
-﻿---
+---
 title: owner_password الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

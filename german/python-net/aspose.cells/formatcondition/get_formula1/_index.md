@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_formula1 Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

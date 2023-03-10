@@ -1,4 +1,4 @@
-﻿---
+---
 title: space_after_size_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

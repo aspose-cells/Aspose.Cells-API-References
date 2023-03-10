@@ -1,4 +1,4 @@
-﻿---
+---
 title: background fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar och ställer in visningsläget för background
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
  använd egenskapen LegendEntry.BackgroundMode.
  Den här egenskapen kommer att tas bort 12 månader senare sedan JANUARI 2012.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

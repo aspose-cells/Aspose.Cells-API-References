@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_style
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | style | [CellBorderType](/cells/it/python-net/aspose.cells/cellbordertype) | Lo stile dei bordi|
 

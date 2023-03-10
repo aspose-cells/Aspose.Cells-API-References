@@ -1,4 +1,4 @@
-﻿---
+---
 title: line الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحصل على نمط line
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeLockType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,13 +18,13 @@ El tipo ShapeLockType expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | GROUP | Grupo|
-| ADJUST_HANDLES | Ajuste las manijas|
+| ADJUST_HANDLES | Asas de ajuste|
 | TEXT | Texto|
-| POINTS | puntos|
+| POINTS | Puntos|
 | CROP |Cultivo|
 | SELECTION | Selección|
 | MOVE | Mover|
-| ASPECT_RATIO | Relación de aspecto|
+| ASPECT_RATIO | relación de aspecto|
 | ROTATION | Rotación|
 | UNGROUP | Desagrupar|
 | RESIZE | Redimensionar|

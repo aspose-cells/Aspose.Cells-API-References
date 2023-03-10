@@ -1,4 +1,4 @@
-﻿---
+---
 title: islocked_for_viewing الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

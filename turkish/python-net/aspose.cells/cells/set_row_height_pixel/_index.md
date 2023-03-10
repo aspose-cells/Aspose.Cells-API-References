@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height_pixel yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def set_row_height_pixel(self, row, pixels):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row | int | Satır dizini.|
 | pixels | int | Piksel sayısı.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineShape sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -34,9 +34,9 @@ LineShape türü aşağıdaki üyeleri gösterir:
 | [format](/cells/tr/python-net/aspose.cells.drawing/lineshape/format) | Şeklin biçimlendirme ayarını temsil eder.|
 | [line](/cells/tr/python-net/aspose.cells.drawing/lineshape/line) | Çizgi stilini alır|
 | [fill](/cells/tr/python-net/aspose.cells.drawing/lineshape/fill) | Belirtilen şekil için dolgu biçimlendirme özelliklerini içeren bir [Shape.fill_format](/cells/tr/python-net/aspose.cells.drawing/shape#fill_format) nesnesi döndürür.|
-| [shadow_effect](/cells/tr/python-net/aspose.cells.drawing/lineshape/shadow_effect) | Grafik öğesi veya şekli için bir gölge efekti belirten bir [ShadowEffect](/cells/tr/python-net/aspose.cells.drawing/shadoweffect) nesnesini temsil eder.|
+| [shadow_effect](/cells/tr/python-net/aspose.cells.drawing/lineshape/shadow_effect) | Grafik öğesi veya şekli için gölge efektini belirten bir [ShadowEffect](/cells/tr/python-net/aspose.cells.drawing/shadoweffect) nesnesini temsil eder.|
 | [reflection](/cells/tr/python-net/aspose.cells.drawing/lineshape/reflection) | Grafik öğesi veya şekli için yansıma efektini belirten bir [ReflectionEffect](/cells/tr/python-net/aspose.cells.drawing/reflectioneffect) nesnesini temsil eder.|
-| [glow](/cells/tr/python-net/aspose.cells.drawing/lineshape/glow) | Grafik öğesi veya şekli için bir ışıma efekti belirten bir [GlowEffect](/cells/tr/python-net/aspose.cells.drawing/gloweffect) nesnesini temsil eder.|
+| [glow](/cells/tr/python-net/aspose.cells.drawing/lineshape/glow) | Grafik öğesi veya şekli için parlama efektini belirten bir [GlowEffect](/cells/tr/python-net/aspose.cells.drawing/gloweffect) nesnesini temsil eder.|
 | [soft_edges](/cells/tr/python-net/aspose.cells.drawing/lineshape/soft_edges) | Kenarlara uygulanacak bulanıklık yarıçapını nokta birimi cinsinden alır ve ayarlar.|
 | [three_d_format](/cells/tr/python-net/aspose.cells.drawing/lineshape/three_d_format) | Şeklin 3 boyutlu biçimini alır ve ayarlar.|
 | [text_frame](/cells/tr/python-net/aspose.cells.drawing/lineshape/text_frame) | Belirtilen şekil için hizalama ve bağlantı özelliklerini içeren bir TextFrame nesnesi döndürür.|
@@ -69,29 +69,29 @@ LineShape türü aşağıdaki üyeleri gösterir:
 | [lower_delta_x](/cells/tr/python-net/aspose.cells.drawing/lineshape/lower_delta_x) | Şeklin yatay kaydırmasını sağ alt köşe sütunundan alır veya ayarlar.|
 | [right](/cells/tr/python-net/aspose.cells.drawing/lineshape/right) | Piksel birimi cinsinden, şeklin sağ alt köşe sütunundan yatay uzaklığının genişliğini temsil eder.|
 | [bottom](/cells/tr/python-net/aspose.cells.drawing/lineshape/bottom) |Şeklin alt alt köşe satırından dikey uzaklığının genişliğini piksel birimi cinsinden temsil eder.|
-| [width](/cells/tr/python-net/aspose.cells.drawing/lineshape/width) | Şeklin genişliğini piksel cinsinden temsil eder.|
+| [width](/cells/tr/python-net/aspose.cells.drawing/lineshape/width) | Şeklin genişliğini piksel birimi cinsinden temsil eder.|
 | [width_inch](/cells/tr/python-net/aspose.cells.drawing/lineshape/width_inch) | Şeklin genişliğini inç cinsinden temsil eder.|
-| [width_pt](/cells/tr/python-net/aspose.cells.drawing/lineshape/width_pt) | Nokta birimleri cinsinden şeklin genişliğini temsil eder.|
+| [width_pt](/cells/tr/python-net/aspose.cells.drawing/lineshape/width_pt) | Nokta biriminde şeklin genişliğini temsil eder.|
 | [width_cm](/cells/tr/python-net/aspose.cells.drawing/lineshape/width_cm) | Şeklin genişliğini santimetre cinsinden temsil eder.|
-| [height](/cells/tr/python-net/aspose.cells.drawing/lineshape/height) | Piksel birimleri cinsinden şeklin yüksekliğini temsil eder.|
+| [height](/cells/tr/python-net/aspose.cells.drawing/lineshape/height) | Piksel birimi cinsinden şeklin yüksekliğini temsil eder.|
 | [height_inch](/cells/tr/python-net/aspose.cells.drawing/lineshape/height_inch) | Şeklin inç cinsinden yüksekliğini temsil eder.|
-| [height_pt](/cells/tr/python-net/aspose.cells.drawing/lineshape/height_pt) | Nokta birimleri cinsinden şeklin yüksekliğini temsil eder.|
-| [height_cm](/cells/tr/python-net/aspose.cells.drawing/lineshape/height_cm) | Şeklin yüksekliğini santimetre cinsinden temsil eder.|
+| [height_pt](/cells/tr/python-net/aspose.cells.drawing/lineshape/height_pt) | Nokta birimi cinsinden şeklin yüksekliğini temsil eder.|
+| [height_cm](/cells/tr/python-net/aspose.cells.drawing/lineshape/height_cm) | Şeklin santimetre cinsinden yüksekliğini temsil eder.|
 | [left](/cells/tr/python-net/aspose.cells.drawing/lineshape/left) | Şeklin sol sütunundan yatay uzaklığını piksel birimi cinsinden temsil eder.|
 | [left_inch](/cells/tr/python-net/aspose.cells.drawing/lineshape/left_inch) | Şeklin sol sütunundan yatay uzaklığını inç cinsinden temsil eder.|
-| [left_cm](/cells/tr/python-net/aspose.cells.drawing/lineshape/left_cm) | Şeklin sol sütunundan yatay uzaklığını santimetre cinsinden temsil eder.|
+| [left_cm](/cells/tr/python-net/aspose.cells.drawing/lineshape/left_cm) | Şeklin sol sütunundan yatay sapmasını santimetre cinsinden temsil eder.|
 | [top](/cells/tr/python-net/aspose.cells.drawing/lineshape/top) | Şeklin üst satırından dikey uzaklığını piksel birimi cinsinden temsil eder.|
 | [top_inch](/cells/tr/python-net/aspose.cells.drawing/lineshape/top_inch) |Şeklin üst satırından dikey uzaklığını inç cinsinden temsil eder.|
 | [top_cm](/cells/tr/python-net/aspose.cells.drawing/lineshape/top_cm) | Şeklin üst satırından dikey uzaklığını santimetre cinsinden temsil eder.|
 | [top_to_corner](/cells/tr/python-net/aspose.cells.drawing/lineshape/top_to_corner) | Çalışma sayfasının üst sınırından dikey şeklin uzaklığını piksel birimi cinsinden alır ve ayarlar.|
 | [left_to_corner](/cells/tr/python-net/aspose.cells.drawing/lineshape/left_to_corner) | Çalışma sayfasının sol sınırından şeklin yatay kaymasını alır ve ayarlar.|
-| [x](/cells/tr/python-net/aspose.cells.drawing/lineshape/x) | Çalışma sayfasının sol kenarından şeklin yatay kaymasını piksel birimi cinsinden alır ve ayarlar.|
+| [x](/cells/tr/python-net/aspose.cells.drawing/lineshape/x) | Şeklin yatay ofsetini çalışma sayfasının sol kenarından piksel birimi cinsinden alır ve ayarlar.|
 | [y](/cells/tr/python-net/aspose.cells.drawing/lineshape/y) | Çalışma sayfasının üst sınırından dikey şeklin uzaklığını piksel birimi cinsinden alır ve ayarlar.|
 | [width_scale](/cells/tr/python-net/aspose.cells.drawing/lineshape/width_scale) | Orijinal resim genişliğinin yüzde birimi cinsinden genişlik ölçeğini alır ve ayarlar.<br/> Şekil resim değilse, WidthScale özelliği yalnızca 100 döndürür;|
 | [height_scale](/cells/tr/python-net/aspose.cells.drawing/lineshape/height_scale) | Orijinal resim yüksekliğinin yüzde birimi cinsinden yükseklik ölçeğini alır ve ayarlar.<br/> Şekil resim değilse, HeightScale özelliği yalnızca 100 döndürür;|
 | [top_in_shape](/cells/tr/python-net/aspose.cells.drawing/lineshape/top_in_shape) | Ana şeklin üst sınırından şeklin dikey uzaklığını temsil eder,<br/> ana şeklin yüksekliğinin 1/4000'i biriminde.|
 | [left_in_shape](/cells/tr/python-net/aspose.cells.drawing/lineshape/left_in_shape) |Ana şeklin sol kenarından şeklin yatay uzaklığını temsil eder,<br/> ana şeklin genişliğinin 1/4000'i biriminde.|
-| [width_in_shape](/cells/tr/python-net/aspose.cells.drawing/lineshape/width_in_shape) | Ana şeklin 1/4000'lik birimlerinde şeklin genişliğini temsil eder.|
+| [width_in_shape](/cells/tr/python-net/aspose.cells.drawing/lineshape/width_in_shape) | Ana şeklin 1/4000 biriminde şeklin genişliğini temsil eder.|
 | [height_in_shape](/cells/tr/python-net/aspose.cells.drawing/lineshape/height_in_shape) | Ana şeklin yüksekliğinin 1/4000'i biriminde, şeklin ana şeklin üst sınırından dikey sapmasını temsil eder.|
 | [group](/cells/tr/python-net/aspose.cells.drawing/lineshape/group) | Bu şekli içeren grup şeklini alır.|
 | [type](/cells/tr/python-net/aspose.cells.drawing/lineshape/type) | Otomatik şekil türünü alır.|
@@ -142,7 +142,7 @@ LineShape türü aşağıdaki üyeleri gösterir:
 | [get_result_of_smart_art()](/cells/tr/python-net/aspose.cells.drawing/lineshape/get_result_of_smart_art/#) | Akıllı sanatı gruplandırılmış şekillere dönüştürme.|
 | [to_front_or_back(orders)](/cells/tr/python-net/aspose.cells.drawing/lineshape/to_front_or_back/#int) | Şekli öne getirir veya şekli arkaya gönderir.|
 | [get_locked_property(type)](/cells/tr/python-net/aspose.cells.drawing/lineshape/get_locked_property/#ShapeLockType) | Lock özelliğinin değerini alır.|
-| [set_locked_property(type, value)](/cells/tr/python-net/aspose.cells.drawing/lineshape/set_locked_property/#ShapeLockType-bool) | Kilitli özelliği ayarlayın.|
+| [set_locked_property(type, value)](/cells/tr/python-net/aspose.cells.drawing/lineshape/set_locked_property/#ShapeLockType-bool) | Kilitli özelliğini ayarlayın.|
 | [add_hyperlink(address)](/cells/tr/python-net/aspose.cells.drawing/lineshape/add_hyperlink/#str) | Şekle bir köprü ekler.|
 | [remove_hyperlink()](/cells/tr/python-net/aspose.cells.drawing/lineshape/remove_hyperlink/#) | Şeklin köprüsünü kaldırın.|
 | [move_to_range(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/tr/python-net/aspose.cells.drawing/lineshape/move_to_range/#int-int-int-int) | Şekli belirtilen bir aralığa taşır.|
@@ -155,13 +155,13 @@ LineShape türü aşağıdaki üyeleri gösterir:
 | [update_selected_value()](/cells/tr/python-net/aspose.cells.drawing/lineshape/update_selected_value/#) | Seçilen değeri bağlantılı hücrenin değerine göre güncelleyin.|
 | [calculate_text_size()](/cells/tr/python-net/aspose.cells.drawing/lineshape/calculate_text_size/#) | Metin alanını yeniden hesapla|
 | [characters(start_index, length)](/cells/tr/python-net/aspose.cells.drawing/lineshape/characters/#int-int) | Metin içindeki bir karakter aralığını temsil eden bir Characters nesnesi döndürür.|
-| [get_characters()](/cells/tr/python-net/aspose.cells.drawing/lineshape/get_characters/#) | Tüm Karakterler nesnelerini döndürür<br/> metin içindeki bir karakter aralığını temsil eder.|
+| [get_characters()](/cells/tr/python-net/aspose.cells.drawing/lineshape/get_characters/#) | Tüm Karakterler nesnelerini döndürür<br/> bu, metin içindeki bir karakter aralığını temsil eder.|
 | [remove_active_x_control()](/cells/tr/python-net/aspose.cells.drawing/lineshape/remove_active_x_control/#) | activeX denetimini kaldırın.|
 | [is_same_setting(obj)](/cells/tr/python-net/aspose.cells.drawing/lineshape/is_same_setting/#any) | Şeklin aynı olup olmadığını döndürür.|
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

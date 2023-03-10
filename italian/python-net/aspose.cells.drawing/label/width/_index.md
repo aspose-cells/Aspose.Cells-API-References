@@ -1,4 +1,4 @@
-﻿---
+---
 title: width proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Rappresenta lo width della forma, in unità di pixel.
 
-###  Esempi
+###  Esempio
 
 ```python
 

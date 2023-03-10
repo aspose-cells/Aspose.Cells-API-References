@@ -1,6 +1,6 @@
-﻿---
+---
 title: width_inch 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 250
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## width_inch 属性
 
-表示注释的宽度，以英寸为单位。
+表示注释的宽度，单位为英寸。
 
 ### 例子
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_cm fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  width_cm fastighet
 
-Representerar bredden på kommentaren, i enheter av centimeter.
+Representerar bredden på kommentaren, i centimeterenhet.
 
 ###  Exempel
 

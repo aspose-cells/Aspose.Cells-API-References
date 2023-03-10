@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyleElementType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -46,7 +46,7 @@ Le type TableStyleElementType expose les membres suivants :
 | THIRD_SUBTOTAL_COLUMN | Élément de style de tableau qui s'applique à la troisième colonne de sous-total du tableau croisé dynamique.|
 | THIRD_SUBTOTAL_ROW | Élément de style de tableau qui s'applique à la troisième ligne de sous-total du tableau croisé dynamique.|
 | TOTAL_ROW | Élément de style de tableau qui s'applique à la ligne de total du tableau.|
-| WHOLE_TABLE | Élément de style de tableau qui s'applique à l'ensemble du contenu du tableau.|
+| WHOLE_TABLE | Élément de style de tableau qui s'applique à l'intégralité du contenu du tableau.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_picture метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def set_picture(self, is_first, is_even, is_header, section, image_data):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | is_first | bool | Указывает, устанавливается ли изображение верхнего/нижнего колонтитула первой страницы.|
 | is_even | bool | Указывает, устанавливается ли изображение четного верхнего/нижнего колонтитула страницы.|

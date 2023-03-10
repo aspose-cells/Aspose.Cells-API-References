@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListBoxActiveXControl Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,8 +25,8 @@ Der Typ ListBoxActiveXControl macht die folgenden Member verfügbar:
 | :- | :- |
 | [workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/workbook) | Ruft das [ActiveXControlBase.workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook)-Objekt ab.|
 | [type](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/type) | Ruft den Typ des ActiveX-Steuerelements ab.|
-| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt diese fest.|
-| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt diese fest.|
+| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt sie fest.|
+| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt sie fest.|
 | [mouse_icon](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/mouse_icon) | Ruft ein benutzerdefiniertes Symbol ab und legt es fest, das als Mauszeiger für das Steuerelement angezeigt wird.|
 | [mouse_pointer](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/mouse_pointer) | Ruft den Symboltyp ab, der als Mauszeiger für das Steuerelement angezeigt wird, und legt diesen fest.|
 | [fore_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/fore_ole_color) | Ruft die alte Farbe des Vordergrunds ab und legt sie fest.|
@@ -52,7 +52,7 @@ Der Typ ListBoxActiveXControl macht die folgenden Member verfügbar:
 | [list_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_style) | Ruft die visuelle Darstellung ab und legt sie fest.|
 | [selection_type](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/selection_type) | Gibt an, ob das Steuerelement eine Mehrfachauswahl zulässt.|
 | [value](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/value) | Ruft den Wert des Steuerelements ab und legt ihn fest.|
-| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt diesen fest.|
+| [border_style](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/border_style) | Ruft den vom Steuerelement verwendeten Rahmentyp ab und legt ihn fest.|
 | [border_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/border_ole_color) | Ruft die Ole-Farbe des Hintergrunds ab und legt sie fest.|
 | [special_effect](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/special_effect) | Ruft den Spezialeffekt des Steuerelements ab und legt diesen fest.|
 | [show_column_heads](/cells/de/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/show_column_heads) | Gibt an, ob Spaltenüberschriften angezeigt werden.|

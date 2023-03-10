@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartDataTable clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -29,7 +29,7 @@ El tipo ChartDataTable expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

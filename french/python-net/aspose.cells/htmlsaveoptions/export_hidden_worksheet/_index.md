@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_hidden_worksheet propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

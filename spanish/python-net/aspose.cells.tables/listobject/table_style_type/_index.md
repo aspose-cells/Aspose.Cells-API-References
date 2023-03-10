@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_style_type propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  table_style_type propiedad
 
-Obtiene y el estilo de tabla incorporado.
+Obtiene y el estilo de tabla integrado.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

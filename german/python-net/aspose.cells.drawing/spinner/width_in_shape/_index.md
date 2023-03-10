@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_in_shape Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,9 +13,9 @@ Stellt die Breite der Form in Einheiten von 1/4000 der übergeordneten Form dar.
 
 ###  Bemerkungen
 
-Gilt nur, wenn sich dieses Shape in der Gruppe oder im Diagramm befindet.
+Gilt nur, wenn diese Form in der Gruppe oder im Diagramm enthalten ist.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.rendering
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /de/python-net/aspose.cells.rendering/
 is_root: false
 ---
- Der**Aspose.Cells.Rendering**namespace stellt Klassen zum Rendern von Bildern und PDFs bereit.
+ Der**Aspose.Cells.Rendering**Namespace bietet Klassen zum Rendern von Bildern und PDFs.
 
 ###  Klassen
 | Klasse| Beschreibung|
@@ -19,7 +19,7 @@ is_root: false
 | [PageEndSavingArgs](/cells/de/python-net/aspose.cells.rendering/pageendsavingargs) | Info für eine Seite beendet den Speichervorgang.|
 | [PageSavingArgs](/cells/de/python-net/aspose.cells.rendering/pagesavingargs) | Info für einen Seitenspeichervorgang.|
 | [PageStartSavingArgs](/cells/de/python-net/aspose.cells.rendering/pagestartsavingargs) | Informationen für eine Seite starten den Speichervorgang.|
-| [PdfBookmarkEntry](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry ist ein Eintrag in pdfbookmark.<br/>wenn die Text-Eigenschaft der aktuellen Instanz null oder "" ist,<br/> Die aktuelle Instanz wird ausgeblendet und untergeordnete Elemente werden auf der aktuellen Ebene eingefügt.|
+| [PdfBookmarkEntry](/cells/de/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry ist ein Eintrag in einem PDF-Lesezeichen.<br/>wenn die Text-Eigenschaft der aktuellen Instanz null oder "" ist,<br/> Die aktuelle Instanz wird ausgeblendet und untergeordnete Elemente werden auf der aktuellen Ebene eingefügt.|
 | [SheetPrintingPreview](/cells/de/python-net/aspose.cells.rendering/sheetprintingpreview) | Druckvorschau des Arbeitsblatts.|
 | [SheetRender](/cells/de/python-net/aspose.cells.rendering/sheetrender) | Stellt ein Arbeitsblatt dar, das ein Arbeitsblatt in verschiedene Bilder wie (BMP, PNG, JPEG, TIFF..) rendern kann.<br/> Der Konstruktor dieser Klasse muss nach der Änderung von pagesetup, cell style, verwendet werden.|
 | [SheetSet](/cells/de/python-net/aspose.cells.rendering/sheetset) | Beschreibt einen Satz Blätter.|

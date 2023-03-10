@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,11 +18,11 @@ def copy(self, range):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Kaynak [Range](/cells/tr/python-net/aspose.cells/range) nesnesi.|
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook
@@ -52,7 +52,7 @@ def copy(self, range, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Kaynak aralığı.|
 | options | [PasteOptions](/cells/tr/python-net/aspose.cells/pasteoptions) | Yapıştır özel seçenekler.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: move yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def move(self, count, is_same_parent):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | count | int | Yukarı veya aşağı hareket sayısı.<br/>Bu sıfırdan küçükse öğeyi yukarı taşıyın;<br/>Bu sıfırdan büyükse öğeyi aşağı taşıyın.|
 | is_same_parent | bool | Taşıma işleminin aynı üst düğümde olup olmadığını belirleme|

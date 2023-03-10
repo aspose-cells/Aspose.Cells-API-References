@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_radio_button
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
 | top | int | Rappresenta l'offset verticale di RadioButton dalla relativa riga sinistra, in unità di pixel.|
@@ -31,7 +31,7 @@ def add_radio_button(self, upper_left_row, top, upper_left_column, left, height,
 | height | int | Rappresenta l'altezza di RadioButton, in unità di pixel.|
 | width | int | Rappresenta la larghezza di RadioButton, in unità di pixel.|
 
-###  Esempi
+###  Esempio
 
 ```python
 

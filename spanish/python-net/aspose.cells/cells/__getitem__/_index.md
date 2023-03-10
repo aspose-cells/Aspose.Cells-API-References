@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cells indexador
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -20,7 +20,7 @@ Obtiene el elemento [Cell](/cells/es/python-net/aspose.cells/cell) dentro de la 
 ###  Observaciones
 
  NOTA: Este miembro ahora está obsoleto.
-En su lugar, utilice el método Cells.GetEnumerator() para iterar todas las celdas de esta hoja de cálculo.
+En su lugar, utilice el método Cells.GetEnumerator() para iterar todas las celdas de esta hoja de trabajo.
  Esta propiedad se eliminará 12 meses después desde febrero de 2015.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 

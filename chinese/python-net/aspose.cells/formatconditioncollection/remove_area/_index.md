@@ -1,6 +1,6 @@
-﻿---
+---
 title: remove_area方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -18,9 +18,9 @@ def remove_area(self, index):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| index | int |要删除的条件格式单元格范围的索引。|
+| index | int |要删除的条件格式化单元格范围的索引。|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ def remove_area(self, index):
 
 ### 返回
 
-返回 TRUE，应删除此 FormatConditionCollection。
+返回 TRUE，应删除此 FormatCondtionCollection。
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
-| start_row | int |范围的起始行。|
-| start_column | int |范围的起始列。|
+| start_row | int |范围的 startRow。|
+| start_column | int |范围的 startColumn。|
 | total_rows | int |范围的行数。|
 | total_columns | int |范围的列数。|
 

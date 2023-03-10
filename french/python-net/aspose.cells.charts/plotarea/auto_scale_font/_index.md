@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scale_font propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_scale_font propriété
 
-True si le texte de l'objet change de taille de police lorsque la taille de l'objet change.
+True si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai.
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: preserve_string Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  preserve_string Eigentum
 
- Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob alle Arbeitsblattwerte als Zeichenfolgen beibehalten werden.
+ Ruft einen Wert ab, der angibt, ob alle Arbeitsblattwerte als Zeichenfolgen beibehalten werden, oder legt diesen fest.
 Standard ist falsch.
 ###  Definition:
 ```python

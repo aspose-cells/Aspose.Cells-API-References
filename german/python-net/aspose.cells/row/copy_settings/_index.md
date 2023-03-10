@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_settings Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,7 +21,7 @@ def copy_settings(self, source, check_style):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | source | [Row](/cells/de/python-net/aspose.cells/row) | die Quellzeile, deren Einstellungen in diese kopiert werden|
-| check_style | bool | Ob Karo- und Raffstyle.<br/> Wird nur wirksam und benötigt, wenn zwei Zeilenobjekte zu unterschiedlichen Arbeitsmappen gehören und die Stile von zwei Arbeitsmappen unterschiedlich sind.|
+| check_style | bool | ob Check-and-Gather-Stil.<br/> Wird nur wirksam und benötigt, wenn zwei Zeilenobjekte zu unterschiedlichen Arbeitsmappen gehören und die Stile von zwei Arbeitsmappen unterschiedlich sind.|
 
 
 

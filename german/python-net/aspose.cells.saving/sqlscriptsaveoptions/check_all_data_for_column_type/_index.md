@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_all_data_for_column_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  Bemerkungen
 
 Der Standardwert ist false, wir prüfen nur die erste Zeile auf Performance.
-Wenn diese Eigenschaft wahr ist und die Spalten Mischwerttypen enthalten, ist der Spaltentyp Text.
+Wenn diese Eigenschaft wahr ist und die Spalten gemischten Werttyp enthalten, ist der Spaltentyp Text.
 ###  Definition:
 ```python
 @property

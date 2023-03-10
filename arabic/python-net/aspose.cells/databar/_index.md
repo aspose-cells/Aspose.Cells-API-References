@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBar الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  DataBar الدرجة
  صِف قاعدة التنسيق الشرطي DataBar.
-تعرض قاعدة التنسيق الشرطي هذه قيمة
+تعرض قاعدة التنسيق الشرطي هذه ملف
 شريط البيانات في نطاق الخلايا.
 
 
@@ -40,7 +40,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

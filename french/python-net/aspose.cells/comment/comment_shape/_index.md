@@ -1,4 +1,4 @@
-﻿---
+---
 title: comment_shape propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Récupère un objet Shape qui représente la forme attachée au commentaire spécifié.
 
-###  Exemples
+###  Exemple
 
 ```python
 

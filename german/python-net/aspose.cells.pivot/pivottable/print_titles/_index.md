@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_titles Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles Eigentum
 
 Gibt an, ob die Drucktitel für das Arbeitsblatt satzbasiert sind
-im PivotTable-Bericht.
+im PivotTable-Bericht. Der Standardwert ist falsch.
 ###  Definition:
 ```python
 @property

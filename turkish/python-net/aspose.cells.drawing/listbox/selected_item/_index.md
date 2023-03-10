@@ -1,4 +1,4 @@
-﻿---
+---
 title: selected_item yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def selected_item(self, item_index, is_selected):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | item_index | int | öğe dizini|
 | is_selected | bool | Öğenin seçilip seçilmediği.<br/>Doğru, bu öğenin seçilmesi gerektiği anlamına gelir.<br/> Yanlış, bu öğenin seçiminin kaldırılması gerektiği anlamına gelir.|

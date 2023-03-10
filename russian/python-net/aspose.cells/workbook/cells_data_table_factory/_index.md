@@ -1,4 +1,4 @@
-﻿---
+---
 title: cells_data_table_factory недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,13 +22,13 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
 | stream | io.RawIOBase | Görüntü verilerini içeren akış nesnesi.|
 
-###  örnekler
+###  Örnek
 
 ```python
 
@@ -54,13 +54,13 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
 | file_name | str | Görüntü dosya adı.|
 
-###  örnekler
+###  Örnek
 
 ```python
 
@@ -85,7 +85,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
@@ -93,7 +93,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Sağ alt sütun dizini|
 | stream | io.RawIOBase | Görüntü verilerini içeren akış nesnesi.|
 
-###  örnekler
+###  Örnek
 
 ```python
 
@@ -119,7 +119,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
@@ -127,7 +127,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Sağ alt sütun dizini|
 | file_name | str | Görüntü dosya adı.|
 
-###  örnekler
+###  Örnek
 
 ```python
 
@@ -152,7 +152,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
@@ -160,7 +160,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 | width_scale | int | Görüntü genişliği ölçeği, yüzde.|
 | height_scale | int | Görüntü yüksekliği ölçeği, yüzde.|
 
-###  örnekler
+###  Örnek
 
 ```python
 
@@ -186,7 +186,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | upper_left_row | int | Sol üst sıra dizini.|
 | upper_left_column | int | Sol üst sütun dizini.|
@@ -194,7 +194,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 | width_scale | int | Görüntü genişliği ölçeği, yüzde.|
 | height_scale | int | Görüntü yüksekliği ölçeği, yüzde.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

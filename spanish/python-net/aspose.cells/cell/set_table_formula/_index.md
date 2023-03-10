@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_table_formula método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/cell/set_table_formula/
 is_root: false
 ---
 ##  set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values) {#int-int-str-str-list}
-Cree una tabla de datos de dos variables para un rango determinado a partir de esta celda.
+Cree una tabla de datos de dos variables para el rango dado a partir de esta celda.
 
 
 
@@ -18,7 +18,7 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|
@@ -38,7 +38,7 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|
@@ -58,7 +58,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|
@@ -69,7 +69,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 
 
 ##  set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values) {#int-int-int-int-int-int-list}
-Cree una tabla de datos de dos variables para un rango determinado a partir de esta celda.
+Cree una tabla de datos de dos variables para el rango dado a partir de esta celda.
 
 
 
@@ -79,7 +79,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row_number | int |Número de filas para completar la fórmula.|
 | column_number | int | Número de columnas para completar la fórmula.|

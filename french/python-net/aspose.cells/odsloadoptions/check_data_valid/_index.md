@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_data_valid propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

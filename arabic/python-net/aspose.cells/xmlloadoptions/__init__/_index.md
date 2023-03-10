@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlLoadOptions المنشئ
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,7 +31,7 @@ def __init__(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [LoadFormat](/cells/ar/python-net/aspose.cells/loadformat) | نوع تنسيق التحميل.|
 

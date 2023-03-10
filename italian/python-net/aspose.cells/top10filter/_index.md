@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe Top10Filter
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

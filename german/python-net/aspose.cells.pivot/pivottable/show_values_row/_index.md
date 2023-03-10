@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_values_row Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  show_values_row Eigentum
 
 Gibt einen booleschen Wert an, der angibt, ob die Wertezeile angezeigt wird.
-Wertezeile anzeigen
+Zeigen Sie die Wertezeile an
 ###  Definition:
 ```python
 @property

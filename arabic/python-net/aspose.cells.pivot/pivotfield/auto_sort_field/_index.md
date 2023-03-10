@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_sort_field الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_compact mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

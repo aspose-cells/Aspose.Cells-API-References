@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_control_refrernce metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_control_refrernce(self, name, libid, twiddledlibid, extended_libid):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Referensens namn.|
 | libid | str | Identifieraren för ett bibliotek av automationstyp.|

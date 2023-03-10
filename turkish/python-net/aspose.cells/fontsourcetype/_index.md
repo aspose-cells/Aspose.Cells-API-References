@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSourceType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,9 +17,9 @@ FontSourceType türü aşağıdaki üyeleri gösterir:
 ###  alanlar
 | Alan| Tanım|
 | :- | :- |
-| FONT_FILE | tek bir yazı tipi dosyasını temsil eder.|
-| FONTS_FOLDER | yazı tipi dosyaları olan klasörleri temsil eder.|
-| MEMORY_FONT | bellekte tek bir yazı tipini temsil eder.|
+| FONT_FILE | tek yazı tipi dosyasını temsil eder.|
+| FONTS_FOLDER | yazı tipi dosyaları içeren klasörü temsil eder.|
+| MEMORY_FONT | bellekteki tek yazı tipini temsil eder.|
 
 
 

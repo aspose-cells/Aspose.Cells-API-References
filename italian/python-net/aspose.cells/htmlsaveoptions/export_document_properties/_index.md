@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_document_properties proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

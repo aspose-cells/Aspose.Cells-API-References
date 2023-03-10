@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Aggiunge la proprietà dell'estensione web.
 
 ###  ritorna
 
-L'indice delle proprietà aggiunte.
+L'indice della proprietà aggiunta.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, name, value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà.|
 | value | str | Il valore della proprietà.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add(self, cell_name, total_rows, total_columns, address):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cell_name | str | Cell الاسم.|
 | total_rows | int | عدد الصفوف في نطاق الارتباط التشعبي هذا.|
@@ -45,7 +45,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | first_row | int | الصف الأول من نطاق الارتباط التشعبي.|
 | first_column | int | العمود الأول من نطاق الارتباط التشعبي.|
@@ -53,7 +53,7 @@ def add(self, first_row, first_column, total_rows, total_columns, address):
 | total_columns | int | عدد الأعمدة في نطاق الارتباط التشعبي هذا.|
 | address | str | عنوان الارتباط التشعبي.|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -82,7 +82,7 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_cell_name | str | الخلية العلوية اليسرى من النطاق.|
 | end_cell_name | str | الخلية اليمنى السفلية من النطاق.|

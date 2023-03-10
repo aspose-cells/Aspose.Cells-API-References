@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_full_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Devuelve el nombre completo de origen del archivo de origen del objeto OLE vincu
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice la propiedad OleObject.ObjectSourceFullName.
  Esta propiedad se eliminará 12 meses después desde noviembre de 2013.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

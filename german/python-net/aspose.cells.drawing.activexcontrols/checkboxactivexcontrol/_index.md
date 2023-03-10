@@ -1,4 +1,4 @@
-﻿---
+---
 title: CheckBoxActiveXControl Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,8 +25,8 @@ Der Typ CheckBoxActiveXControl macht die folgenden Member verfügbar:
 | :- | :- |
 | [workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/workbook) | Ruft das [ActiveXControlBase.workbook](/cells/de/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook)-Objekt ab.|
 | [type](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/type) | Ruft den Typ des ActiveX-Steuerelements ab.|
-| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt diese fest.|
-| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt diese fest.|
+| [width](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/width) |Ruft die Breite des Steuerelements in Punkteinheiten ab und legt sie fest.|
+| [height](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/height) | Ruft die Höhe des Steuerelements in Punkteinheiten ab und legt sie fest.|
 | [mouse_icon](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_icon) | Ruft ein benutzerdefiniertes Symbol ab und legt es fest, das als Mauszeiger für das Steuerelement angezeigt wird.|
 | [mouse_pointer](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/mouse_pointer) | Ruft den Symboltyp ab, der als Mauszeiger für das Steuerelement angezeigt wird, und legt diesen fest.|
 | [fore_ole_color](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/fore_ole_color) | Ruft die alte Farbe des Vordergrunds ab und legt sie fest.|
@@ -44,7 +44,7 @@ Der Typ CheckBoxActiveXControl macht die folgenden Member verfügbar:
 | [font](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/font) | Stellt die Schriftart des Steuerelements dar.|
 | [text_align](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/text_align) | Stellt dar, wie der vom Steuerelement verwendete Text ausgerichtet wird.|
 | [group_name](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/group_name) | Ruft den Namen der Gruppe ab und legt ihn fest.|
-| [alignment](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/alignment) | Ruft die Position der Caption relativ zum Steuerelement ab und legt diese fest.|
+| [alignment](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/alignment) | Ruft die Position der Caption relativ zum Steuerelement ab und legt sie fest.|
 | [is_word_wrapped](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/is_word_wrapped) | Gibt an, ob der Inhalt des Steuerelements am Ende einer Zeile automatisch umgebrochen wird.|
 | [caption](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/caption) | Ruft den beschreibenden Text ab, der auf einem Steuerelement angezeigt wird, und legt diesen fest.|
 | [picture_position](/cells/de/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol/picture_position) | Ruft die Position des Bilds des Steuerelements relativ zu seiner Beschriftung ab und legt diese fest.|

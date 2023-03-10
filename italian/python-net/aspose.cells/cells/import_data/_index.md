@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo import_data
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def import_data(self, table, first_row, first_column, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | table | [ICellsDataTable](/cells/it/python-net/aspose.cells/icellsdatatable) | La tabella dati personalizzata.|
 | first_row | int | Indice prima riga.|

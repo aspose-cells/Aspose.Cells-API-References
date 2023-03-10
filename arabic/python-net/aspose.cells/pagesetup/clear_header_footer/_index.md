@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة clear_header_footer
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-يمسح إعدادات الرأس والتذييل.
+يمسح إعداد الرأس والتذييل.
 
 
 

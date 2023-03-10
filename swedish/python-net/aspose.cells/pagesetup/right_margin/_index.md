@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_margin fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin fastighet
 
-Representerar storleken på den högra marginalen, i enheter av centimeter.
+Representerar storleken på den högra marginalen, i centimeterenhet.
 ###  Definition:
 ```python
 @property

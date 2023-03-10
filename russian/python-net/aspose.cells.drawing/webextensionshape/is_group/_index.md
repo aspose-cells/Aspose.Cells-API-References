@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_group недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, является ли фигура группой.
 
-###  Примеры
+###  Пример
 
 ```python
 

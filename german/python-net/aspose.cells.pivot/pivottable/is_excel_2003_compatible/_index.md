@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_excel_2003_compatible Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob die PivotTable beim Aktualisieren der PivotTable für Excel2003 kompatibel ist,
 wenn wahr, muss eine Zeichenfolge kleiner oder gleich 255 Zeichen sein, wenn die Zeichenfolge also größer als 255 Zeichen ist,
-er wird abgeschnitten, wenn er falsch ist, hat ein String nicht die oben erwähnte Einschränkung.
+es wird abgeschnitten. wenn falsch, hat eine Zeichenfolge die oben erwähnte Einschränkung nicht.
 Der Standardwert ist wahr.
 ###  Definition:
 ```python

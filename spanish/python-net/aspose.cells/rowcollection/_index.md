@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/rowcollection/
 is_root: false
 ---
 ##  RowCollection clase
-Recopila los objetos [Row](/cells/es/python-net/aspose.cells/row) que representan las filas individuales en una hoja de cálculo.
+Recopila los objetos [Row](/cells/es/python-net/aspose.cells/row) que representan las filas individuales en una hoja de trabajo.
 
 
 
@@ -21,7 +21,7 @@ El tipo RowCollection expone los siguientes miembros:
 
 
 
-Obtiene un objeto [Row](/cells/es/python-net/aspose.cells/row) por índice de fila dado.
+Obtiene un objeto [Row](/cells/es/python-net/aspose.cells/row) por índice de fila dado. Se creará una instancia del objeto Fila del índice de fila dado si no existe antes.
 ###  indexador
 | Nombre| Descripción|
 | :- | :- |
@@ -37,7 +37,7 @@ Obtiene un objeto [Row](/cells/es/python-net/aspose.cells/row) por índice de fi
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.markup
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,8 +18,8 @@ is_root: false
 | [SmartTagCollection](/cells/sv/python-net/aspose.cells.markup/smarttagcollection) | Representerar alla smarta taggar i cellen.|
 | [SmartTagOptions](/cells/sv/python-net/aspose.cells.markup/smarttagoptions) | Representerar alternativen för den smarta taggen.|
 | [SmartTagProperty](/cells/sv/python-net/aspose.cells.markup/smarttagproperty) | Representerar egenskapen för cellsmarta taggen.|
-| [SmartTagPropertyCollection](/cells/sv/python-net/aspose.cells.markup/smarttagpropertycollection) |Representerar alla egenskaper hos cellsmarta taggar.|
-| [SmartTagSetting](/cells/sv/python-net/aspose.cells.markup/smarttagsetting) | Representerar alla [SmartTagCollection](/cells/sv/python-net/aspose.cells.markup/smarttagcollection) objekt i kalkylbladet.|
+| [SmartTagPropertyCollection](/cells/sv/python-net/aspose.cells.markup/smarttagpropertycollection) |Representerar alla egenskaper för cellsmarta taggar.|
+| [SmartTagSetting](/cells/sv/python-net/aspose.cells.markup/smarttagsetting) | Representerar alla [SmartTagCollection](/cells/sv/python-net/aspose.cells.markup/smarttagcollection)-objekt i kalkylbladet.|
 
 
 ###  Uppräkningar

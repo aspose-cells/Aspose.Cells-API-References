@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة group_rows
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,9 +18,9 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| first_index | int | فهرس الصف الأول المطلوب تجميعه.|
+| first_index | int | فهرس الصف الأول المراد تجميعه.|
 | last_index | int |فهرس الصف الأخير المراد تجميعه.|
 
 
@@ -35,9 +35,9 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| first_index | int | فهرس الصف الأول المطلوب تجميعه.|
+| first_index | int | فهرس الصف الأول المراد تجميعه.|
 | last_index | int |فهرس الصف الأخير المراد تجميعه.|
 | is_hidden | bool | يحدد ما إذا كانت الصفوف المجمعة مخفية.|
 

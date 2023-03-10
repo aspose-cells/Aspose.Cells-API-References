@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_text_box
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لمربع النص من صفه الأيسر ، بوحدة بكسل.|
@@ -31,7 +31,7 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | height | int | يمثل ارتفاع مربع النص ، بوحدة البكسل.|
 | width | int | يمثل عرض مربع النص بوحدة البكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

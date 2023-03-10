@@ -1,4 +1,4 @@
-﻿---
+---
 title: Style Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -35,13 +35,13 @@ Der Typ Style macht die folgenden Member verfügbar:
 | [foreground_argb_color](/cells/de/python-net/aspose.cells/style/foreground_argb_color) | Ruft die Vordergrundfarbe mit einem 32-Bit-ARGB-Wert ab und legt sie fest.|
 | [has_borders](/cells/de/python-net/aspose.cells/style/has_borders) | Überprüft, ob für den Stil Rahmen gesetzt wurden.|
 | [parent_style](/cells/de/python-net/aspose.cells/style/parent_style) | Ruft den übergeordneten Stil dieses Stils ab.|
-| [indent_level](/cells/de/python-net/aspose.cells/style/indent_level) | Stellt die Einzugsebene für die Zelle oder den Bereich dar.|
+| [indent_level](/cells/de/python-net/aspose.cells/style/indent_level) | Stellt die Einzugsebene für die Zelle oder den Bereich dar. Kann nur eine ganze Zahl von 0 bis 250 sein.|
 | [font](/cells/de/python-net/aspose.cells/style/font) | Ruft ein [Style.font](/cells/de/python-net/aspose.cells/style#font)-Objekt ab.|
 | [rotation_angle](/cells/de/python-net/aspose.cells/style/rotation_angle) | Stellt den Rotationswinkel des Textes dar.|
 | [horizontal_alignment](/cells/de/python-net/aspose.cells/style/horizontal_alignment) | Ruft den horizontalen Ausrichtungstyp des Texts in einer Zelle ab oder legt diesen fest.|
 | [vertical_alignment](/cells/de/python-net/aspose.cells/style/vertical_alignment) | Ruft den vertikalen Ausrichtungstyp des Texts in einer Zelle ab oder legt diesen fest.|
 | [is_text_wrapped](/cells/de/python-net/aspose.cells/style/is_text_wrapped) | Ruft einen Wert ab, der angibt, ob der Text in einer Zelle umgebrochen ist, oder legt diesen fest.|
-| [number](/cells/de/python-net/aspose.cells/style/number) | Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest.|
+| [number](/cells/de/python-net/aspose.cells/style/number) | Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest. Die Formatierungsmuster sind für verschiedene Regionen unterschiedlich.|
 | [is_locked](/cells/de/python-net/aspose.cells/style/is_locked) |Ruft einen Wert ab, der angibt, ob eine Zelle geändert werden kann oder nicht, oder legt diesen fest.|
 | [custom](/cells/de/python-net/aspose.cells/style/custom) | Stellt die benutzerdefinierte Zahlenformatzeichenfolge dieses Stilobjekts dar.<br/> Wenn das benutzerdefinierte Zahlenformat nicht festgelegt ist (z. B. das Zahlenformat ist integriert), wird "" zurückgegeben.|
 | [culture_custom](/cells/de/python-net/aspose.cells/style/culture_custom) | Ruft die kulturabhängige Musterzeichenfolge für das Zahlenformat ab und legt sie fest.<br/>Wenn für dieses Objekt kein Zahlenformat festgelegt wurde, wird null zurückgegeben.<br/> Wenn das Zahlenformat eingebaut ist, wird die Musterzeichenfolge zurückgegeben, die der eingebauten Zahl entspricht.|
@@ -73,7 +73,7 @@ Der Typ Style macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

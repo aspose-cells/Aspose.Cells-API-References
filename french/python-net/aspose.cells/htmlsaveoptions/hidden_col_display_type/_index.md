@@ -1,4 +1,4 @@
-﻿---
+---
 title: hidden_col_display_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  hidden_col_display_type propriété
 
 Colonne masquée (la largeur de cette colonne est 0) dans Excel, avant de l'enregistrer au format html,
-si HtmlHiddenColDisplayType est "Remove", la colonne cachée ne sera pas sortie,
-si la valeur est "Caché", la colonne aurait été sortie, mais était masquée, la valeur par défaut est "Caché"
+si HtmlHiddenColDisplayType est "Supprimer", la colonne masquée ne sera pas sortie,
+si la valeur est "Hidden", la colonne serait sortie, mais était masquée, la valeur par défaut est "Hidden"
 ###  Définition:
 ```python
 @property

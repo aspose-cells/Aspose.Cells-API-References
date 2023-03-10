@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.vba
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -16,7 +16,7 @@ is_root: false
 | [VbaModuleCollection](/cells/ru/python-net/aspose.cells.vba/vbamodulecollection) | Представляет список [VbaModule](/cells/ru/python-net/aspose.cells.vba/vbamodule) |
 | [VbaProject](/cells/ru/python-net/aspose.cells.vba/vbaproject) | Представляет проект VBA.|
 | [VbaProjectReference](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference) |Представляет ссылку на проект VBA.|
-| [VbaProjectReferenceCollection](/cells/ru/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Представляет все ссылки на проекты VBA.|
+| [VbaProjectReferenceCollection](/cells/ru/python-net/aspose.cells.vba/vbaprojectreferencecollection) | Представляет все ссылки проекта VBA.|
 
 
 ###  Перечисления

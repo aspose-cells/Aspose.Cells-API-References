@@ -1,6 +1,6 @@
-﻿---
+---
 title: OperatorType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2290
@@ -14,7 +14,7 @@ is_root: false
 
 OperatorType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BETWEEN |表示条件格式和数据验证的运算符之间。|

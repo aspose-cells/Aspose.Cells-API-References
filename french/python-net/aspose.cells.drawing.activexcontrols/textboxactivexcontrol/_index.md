@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextBoxActiveXControl classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,7 +25,7 @@ Le type TextBoxActiveXControl expose les membres suivants :
 | :- | :- |
 | [workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/workbook) | Obtient l'objet [ActiveXControlBase.workbook](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/type) | Obtient le type du contrôle ActiveX.|
-| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Obtient et définit la largeur du contrôle en unités de points.|
+| [width](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Obtient et définit la largeur du contrôle en unité de points.|
 | [height](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Obtient et définit la hauteur du contrôle en unités de points.|
 | [mouse_icon](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_icon) | Obtient et définit une icône personnalisée à afficher comme pointeur de souris pour le contrôle.|
 | [mouse_pointer](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_pointer) | Obtient et définit le type d'icône affichée comme pointeur de souris pour le contrôle.|
@@ -47,7 +47,7 @@ Le type TextBoxActiveXControl expose les membres suivants :
 | [border_ole_color](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/border_ole_color) | Obtient et définit l'ancienne couleur de l'arrière-plan.|
 | [special_effect](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/special_effect) | Obtient et définit l'effet spécial du contrôle.|
 | [max_length](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/max_length) | Obtient et définit le nombre maximum de caractères|
-| [scroll_bars](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Indique si le contrôle a des barres de défilement verticales, des barres de défilement horizontales, les deux ou aucune.|
+| [scroll_bars](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/scroll_bars) |Indique spécifie si le contrôle a des barres de défilement verticales, des barres de défilement horizontales, les deux ou aucune.|
 | [password_char](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/password_char) | Obtient et définit un caractère à afficher à la place des caractères entrés.|
 | [is_editable](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_editable) | Indique si l'utilisateur peut taper dans le contrôle.|
 | [integral_height](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/integral_height) | Indique si le contrôle n'affichera que des lignes complètes de texte sans afficher de lignes partielles.|
@@ -66,7 +66,7 @@ Le type TextBoxActiveXControl expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose import pycore

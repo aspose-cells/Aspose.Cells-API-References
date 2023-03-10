@@ -1,4 +1,4 @@
-﻿---
+---
 title: InterruptMonitor classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -29,7 +29,7 @@ Le type InterruptMonitor expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [is_interruption_requested](/cells/fr/python-net/aspose.cells/interruptmonitor/is_interruption_requested) | Marquer le moniteur comme demandant une interruption|
-| [terminate_without_exception](/cells/fr/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | Lorsque la procédure est interrompue, s'il faut terminer la procédure silencieusement ou lever une exception.<br/>La valeur par défaut est false, c'est-à-dire que lorsque [AbstractInterruptMonitor.is_interruption_requested](/cells/fr/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) est vrai,<br/> un [CellsException](/cells/fr/python-net/aspose.cells/cellsexception) avec le code [ExceptionType.INTERRUPTED](/cells/fr/python-net/aspose.cells/exceptiontype#INTERRUPTED) sera lancé.|
+| [terminate_without_exception](/cells/fr/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | Lorsque la procédure est interrompue, qu'elle soit terminée silencieusement ou qu'elle lève une exception.<br/>La valeur par défaut est false, c'est-à-dire que lorsque [AbstractInterruptMonitor.is_interruption_requested](/cells/fr/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) est vrai,<br/> un [CellsException](/cells/fr/python-net/aspose.cells/cellsexception) avec le code [ExceptionType.INTERRUPTED](/cells/fr/python-net/aspose.cells/exceptiontype#INTERRUPTED) sera lancé.|
 
 
 ###  Méthodes

@@ -1,4 +1,4 @@
-﻿---
+---
 title: max_change недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо него используйте FormulaSettings.MaxChange.
+ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо этого используйте FormulaSettings.MaxChange.
  Это свойство будет удалено через 12 месяцев, начиная с февраля 2022 года.
 Aspose приносит извинения за возможные неудобства.
 ###  Определение:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: top10 mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Koşullu biçimlendirmenin "Top10" örneğini alın.
 Varsayılan örneğin kuralı,
-değerler ilk 10 parantez içinde yer almaktadır.
+değerler ilk 10 parantez içinde yer alır.
 Sadece Top10 türü için geçerlidir.
 ###  Tanım:
 ```python

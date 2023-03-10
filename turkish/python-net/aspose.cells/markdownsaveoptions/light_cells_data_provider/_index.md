@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_provider mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider mülk
 
-Veri sağlayıcı, çalışma kitaplarını hafif modda kaydetmek için hücrelere veri sağlar.
+Veri sağlayıcı, çalışma kitabını hafif modda kaydetmek için hücrelere veri sağlar.
 ###  Tanım:
 ```python
 @property

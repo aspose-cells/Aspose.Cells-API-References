@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_format propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -14,8 +14,8 @@ Soporte Tiff/XPS
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
-Para Tiff/Svg, use [ImageOrPrintOptions.image_type](/cells/es/python-net/aspose.cells.rendering/imageorprintoptions#image_type); para Xps, use [Workbook.save(file_name, save_format)](/cells/es/python-net/aspose.cells/workbook/save) con [XpsSaveOptions](/cells/es/python-net/aspose.cells/xpssaveoptions).
+ NOTA: Este miembro ahora está obsoleto. En cambio,
+Para Tiff/Svg, use [ImageOrPrintOptions.image_type](/cells/es/python-net/aspose.cells.rendering/imageorprintoptions#image_type); Para Xps, use [Workbook.save(file_name, save_format)](/cells/es/python-net/aspose.cells/workbook/save) con [XpsSaveOptions](/cells/es/python-net/aspose.cells/xpssaveoptions).
  Esta propiedad se eliminará 12 meses después desde agosto de 2022.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
 ###  Definición:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: parsing_formula_on_open propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Indica si se analiza la fórmula al leer el archivo.
 
 ###  Observaciones
 
-Solo aplica para archivos Excel Xlsx, Xltx, Xltm y Xlsm
+Solo aplica para archivo Excel Xlsx, Xltx, Xltm y Xlsm
 porque las fórmulas en los archivos se almacenan con una fórmula de cadena.
 ###  Definición:
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: r1c1_formula proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

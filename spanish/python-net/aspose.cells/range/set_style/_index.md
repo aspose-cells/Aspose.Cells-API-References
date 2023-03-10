@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_style método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El objeto Estilo.|
 
@@ -34,7 +34,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | style | [Style](/cells/es/python-net/aspose.cells/style) | El estilo de celda.|
 | explicit_flag | bool | Es cierto, solo se sobrescribe el formato que se establece explícitamente.|

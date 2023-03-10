@@ -1,4 +1,4 @@
-﻿---
+---
 title: weight الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على او تحديد weight للخط في وحدة النقاط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

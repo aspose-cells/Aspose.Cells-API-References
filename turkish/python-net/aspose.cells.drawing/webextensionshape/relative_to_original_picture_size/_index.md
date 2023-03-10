@@ -1,4 +1,4 @@
-﻿---
+---
 title: relative_to_original_picture_size mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin orijinal resim boyutuna göre olup olmadığını gösterir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

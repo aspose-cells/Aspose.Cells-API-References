@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_referred mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_referred mülk
 
-Bu ada başka formüller tarafından atıfta bulunulup bulunulmadığını gösterir.
+Bu adın diğer formüller tarafından başvuruda bulunup bulunmadığını gösterir.
 ###  Tanım:
 ```python
 @property

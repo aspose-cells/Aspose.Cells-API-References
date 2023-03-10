@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocxSaveOptions Konstrukteur
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/docxsaveoptions/__init__/
 is_root: false
 ---
 ##  DocxSaveOptions() {#}
-Repräsentiert Optionen zum Speichern von .docx-Dateien.
+Repräsentiert Optionen zum Speichern einer .docx-Datei.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  DocxSaveOptions(save_as_image) {#bool}
-Repräsentiert Optionen zum Speichern von .docx-Dateien.
+Repräsentiert Optionen zum Speichern einer .docx-Datei.
 
 
 

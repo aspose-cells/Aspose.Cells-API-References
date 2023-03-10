@@ -1,4 +1,4 @@
-﻿---
+---
 title: worksheet fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  worksheet fastighet
 
-Hämtar objektet [Range.worksheet](/cells/sv/python-net/aspose.cells/range#worksheet) som innehåller detta intervall.
+Hämtar [Range.worksheet](/cells/sv/python-net/aspose.cells/range#worksheet)objektet som innehåller detta intervall.
 ###  Definition:
 ```python
 @property

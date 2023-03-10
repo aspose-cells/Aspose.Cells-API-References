@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_text_width
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cellshelper/get_text_width/
 is_root: false
 ---
 ##  get_text_width(text, font, scaling) {#str-Font-float}
-احصل على عرض النص بوحدة من النقاط.
+احصل على عرض النص بوحدة النقاط.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def get_text_width(self, text, font, scaling):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | text | str | النص.|
 | font | [Font](/cells/ar/python-net/aspose.cells/font) | خط النص.|

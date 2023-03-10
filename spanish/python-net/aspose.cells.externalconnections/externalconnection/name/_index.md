@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propiedad
 
-Especifica el name de la conexión.
+Especifica el name de la conexión. Cada conexión debe tener un name único.
 ###  Definición:
 ```python
 @property

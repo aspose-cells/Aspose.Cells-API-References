@@ -1,4 +1,4 @@
-﻿---
+---
 title: process metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | is_preserved | bool | Sant om den okända smarta markören bevaras.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_index | int | Arbetsbladsindex.|
 | is_preserved | bool | Sant om den okända smarta markören bevaras.|

@@ -1,6 +1,6 @@
-﻿---
+---
 title: auto_fit_cols_and_rows 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## auto_fit_cols_and_rows 属性
 
-指示是否自动调整列和行。
+指示是否自动调整列和行。默认值为假。
 ### 定义：
 ```python
 @property

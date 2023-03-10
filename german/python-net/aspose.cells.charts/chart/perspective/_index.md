@@ -1,4 +1,4 @@
-﻿---
+---
 title: perspective Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  perspective Eigentum
 
-Gibt den Wert perspective für die 3D-Kartenansicht zurück oder setzt ihn. Muss zwischen 0 und 100 liegen.
+Gibt perspective für die 3D-Kartenansicht zurück oder legt sie fest. Muss zwischen 0 und 100 liegen.
 Diese Eigenschaft wird ignoriert, wenn die RightAngleAxes-Eigenschaft True ist.
 ###  Definition:
 ```python

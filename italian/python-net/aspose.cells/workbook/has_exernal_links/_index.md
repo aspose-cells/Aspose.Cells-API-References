@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo has_exernal_links
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -24,7 +24,7 @@ def has_exernal_links(self):
 
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto.
+NOTA: questo membro è ora obsoleto. Invece,
 utilizzare ExternalLinkCollection.Count per verificare se sono presenti collegamenti esterni in questa cartella di lavoro.
  Questo metodo verrà rimosso 12 mesi dopo da dicembre 2021.
 Aspose si scusa per gli eventuali disagi causati.

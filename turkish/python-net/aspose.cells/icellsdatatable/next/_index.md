@@ -1,4 +1,4 @@
-﻿---
+---
 title: next yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  İadeler
 
-yeni geçerli satır geçerliyse; başka satır yoksa false
+yeni mevcut satır geçerliyse; başka satır yoksa false
 
 
 ```python

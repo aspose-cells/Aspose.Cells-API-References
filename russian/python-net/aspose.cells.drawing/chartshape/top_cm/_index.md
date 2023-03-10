@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_cm недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет вертикальное смещение фигуры от верхнего ряда в сантиметрах.
 
-###  Примеры
+###  Пример
 
 ```python
 

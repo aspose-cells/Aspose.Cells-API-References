@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_at yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_at(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | kaldırılacak harici bağlantının dizini.|
 ###  Notlar
@@ -37,7 +37,7 @@ def remove_at(self, index, update_references_as_local):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | kaldırılacak harici bağlantının dizini.|
 | update_references_as_local | bool | Verilen harici bağlantının tüm referanslarını geçerli çalışma kitabının referansına güncelleyip güncellemeyeceği.|
@@ -47,7 +47,7 @@ Başvuruların güncellenmesi gerekiyorsa, formüllerdeki dış bağlantılara y
 Örneğin, kaldırılacak harici bağlantı "externalsource.xlam"dır ve "customfunction()" bir özel işlevi tanımlar,
 bir hücrenin orijinal formülü "='externalsource.xlam'!customfunction()" şeklindedir,
 kaldırdıktan sonra formül "= customfunction()" olacaktır.
-Referansların güncellenmesi gerekmiyorsa, bu harici bağlantıya referans veren tüm formüller
+Referansın güncellenmesi gerekmiyorsa, bu harici bağlantıya referans veren tüm formüller
 bu referanslar geçersiz hale geldiği için de kaldırılacaktır.
 
 

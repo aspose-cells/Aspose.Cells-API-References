@@ -1,4 +1,4 @@
-﻿---
+---
 title: combine метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,12 +18,12 @@ def combine(self, second_workbook):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
-| second_workbook | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Еще один объект рабочей книги.|
+| second_workbook | [Workbook](/cells/ru/python-net/aspose.cells/workbook) | Другой объект Workbook.|
 ###  Примечания
 
-В настоящее время можно комбинировать только данные ячеек и стиль ячеек второго объекта Workbook.Изображения, диаграммы и другие объекты рисования не поддерживаются.
+В настоящее время можно комбинировать только данные ячейки и стиль ячейки второго объекта Workbook. Изображения, диаграммы и другие объекты рисования не поддерживаются.
 
 
 ###  Смотрите также

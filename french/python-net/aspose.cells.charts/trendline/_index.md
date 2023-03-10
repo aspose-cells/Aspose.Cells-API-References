@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trendline classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -40,7 +40,7 @@ Le type Trendline expose les membres suivants :
 | [weight_pt](/cells/fr/python-net/aspose.cells.charts/trendline/weight_pt) | Obtient ou définit l'épaisseur de la ligne en unités de points.|
 | [weight_px](/cells/fr/python-net/aspose.cells.charts/trendline/weight_px) | Obtient ou définit l'épaisseur de la ligne en pixels.|
 | [formatting_type](/cells/fr/python-net/aspose.cells.charts/trendline/formatting_type) | Obtient ou définit le type de format.|
-| [is_automatic_color](/cells/fr/python-net/aspose.cells.charts/trendline/is_automatic_color) | Indique si la couleur de la ligne est automatiquement attribuée.|
+| [is_automatic_color](/cells/fr/python-net/aspose.cells.charts/trendline/is_automatic_color) | Indique si la couleur de la ligne est attribuée automatiquement.|
 | [is_visible](/cells/fr/python-net/aspose.cells.charts/trendline/is_visible) | Indique si la ligne est visible.|
 | [is_auto](/cells/fr/python-net/aspose.cells.charts/trendline/is_auto) | Indique si ce style de ligne est attribué automatiquement.|
 | [gradient_fill](/cells/fr/python-net/aspose.cells.charts/trendline/gradient_fill) | Représente le remplissage dégradé.|
@@ -51,7 +51,7 @@ Le type Trendline expose les membres suivants :
 | [period](/cells/fr/python-net/aspose.cells.charts/trendline/period) | Renvoie ou définit la période de la ligne de tendance de la moyenne mobile.|
 | [forward](/cells/fr/python-net/aspose.cells.charts/trendline/forward) | Renvoie ou définit le nombre de périodes (ou d'unités sur un graphique en nuage de points) pendant lesquelles la courbe de tendance s'étend vers l'avant.<br/> Le nombre de périodes doit être supérieur ou égal à zéro.|
 | [backward](/cells/fr/python-net/aspose.cells.charts/trendline/backward) | Renvoie ou définit le nombre de périodes (ou d'unités sur un graphique en nuage de points) pendant lesquelles la courbe de tendance s'étend vers l'arrière.<br/>Le nombre de périodes doit être supérieur ou égal à zéro.<br/> Si le type de graphique est colonne, le nombre de périodes doit être compris entre 0 et 0,5|
-| [display_equation](/cells/fr/python-net/aspose.cells.charts/trendline/display_equation) |Représente si l'équation de la courbe de tendance est affichée sur le graphique (dans la même étiquette de données que la valeur R au carré).|
+| [display_equation](/cells/fr/python-net/aspose.cells.charts/trendline/display_equation) |Représente si l'équation de la courbe de tendance est affichée sur le graphique (dans la même étiquette de données que la valeur R au carré). La définition de cette propriété sur True active automatiquement les étiquettes de données.|
 | [display_r_squared](/cells/fr/python-net/aspose.cells.charts/trendline/display_r_squared) | Représente si la valeur R au carré de la courbe de tendance est affichée sur le graphique (dans la même étiquette de données que l'équation). La définition de cette propriété sur True active automatiquement les étiquettes de données.|
 | [intercept](/cells/fr/python-net/aspose.cells.charts/trendline/intercept) | Renvoie ou définit le point où la courbe de tendance croise l'axe des ordonnées.|
 | [data_labels](/cells/fr/python-net/aspose.cells.charts/trendline/data_labels) | Représente l'objet DataLabels pour la série spécifiée.|
@@ -59,7 +59,7 @@ Le type Trendline expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

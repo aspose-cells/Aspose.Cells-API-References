@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cell clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -26,7 +26,7 @@ El tipo Cell expone los siguientes miembros:
 | [name](/cells/es/python-net/aspose.cells/cell/name) | Obtiene el nombre de la celda.|
 | [is_error_value](/cells/es/python-net/aspose.cells/cell/is_error_value) | Comprueba si el valor de esta celda es un error.|
 | [is_numeric_value](/cells/es/python-net/aspose.cells/cell/is_numeric_value) | Indica si el valor interno de esta celda es numérico (int, double y datetime)|
-| [string_value](/cells/es/python-net/aspose.cells/cell/string_value) |Obtiene el valor de cadena contenido en la celda.<br/>Para otros tipos de celdas, se devolverá el valor de cadena con formato (formateado con el estilo especificado de esta celda).<br/>El valor de la celda con formato es el mismo que puede obtener de Excel al copiar una celda como texto (como<br/> copiando la celda al editor de texto o exportando a csv).|
+| [string_value](/cells/es/python-net/aspose.cells/cell/string_value) |Obtiene el valor de cadena contenido en la celda. Si el tipo de esta celda es una cadena, devuelva el valor de la cadena en sí.<br/>Para otros tipos de celdas, se devolverá el valor de cadena con formato (formateado con el estilo especificado de esta celda).<br/>El valor de la celda con formato es el mismo que puede obtener de Excel al copiar una celda como texto (como<br/> copiando la celda al editor de texto o exportando a csv).|
 | [string_value_without_format](/cells/es/python-net/aspose.cells/cell/string_value_without_format) | Obtiene el valor de la celda como cadena sin ningún formato.|
 | [number_category_type](/cells/es/python-net/aspose.cells/cell/number_category_type) | Representa el tipo de categoría del formato de número de esta celda.|
 | [display_string_value](/cells/es/python-net/aspose.cells/cell/display_string_value) | Obtiene el valor de cadena con formato de esta celda según el estilo de visualización de la celda.|
@@ -68,7 +68,7 @@ El tipo Cell expone los siguientes miembros:
 | [put_value(date_time)](/cells/es/python-net/aspose.cells/cell/put_value/#DateTime) | Pone un valor DateTime en la celda.|
 | [put_value(object_value)](/cells/es/python-net/aspose.cells/cell/put_value/#any) | Pone un valor de objeto en la celda.|
 | [get_display_style()](/cells/es/python-net/aspose.cells/cell/get_display_style/#) | Obtiene el estilo de visualización de la celda.<br/>Si esta celda también se ve afectada por otras configuraciones, como el formato condicional, la lista de objetos, etc.,<br/> entonces el estilo de visualización puede ser diferente de cell.GetStyle().|
-| [get_display_style(include_merged_borders)](/cells/es/python-net/aspose.cells/cell/get_display_style/#bool) | Obtiene el estilo de visualización de la celda.<br/> Si la celda tiene un formato condicional, el estilo de visualización no es el mismo que el de cell.GetStyle().|
+| [get_display_style(include_merged_borders)](/cells/es/python-net/aspose.cells/cell/get_display_style/#bool) | Obtiene el estilo de visualización de la celda.<br/> Si la celda tiene formato condicional, el estilo de visualización no es el mismo que el de cell.GetStyle().|
 | [get_style()](/cells/es/python-net/aspose.cells/cell/get_style/#) | Obtiene el estilo de celda.|
 | [get_style(check_borders)](/cells/es/python-net/aspose.cells/cell/get_style/#bool) | Si checkBorders es verdadero, verifica si los bordes de otras celdas afectarán el estilo de esta celda.|
 | [set_style(style)](/cells/es/python-net/aspose.cells/cell/set_style/#Style) | Establece el estilo de celda.|
@@ -90,9 +90,9 @@ El tipo Cell expone los siguientes miembros:
 | [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/es/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) | Establece la fórmula de matriz dinámica y hace que la fórmula se derrame en las celdas vecinas si es posible.|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/es/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) | Establece la fórmula de matriz dinámica y hace que la fórmula se derrame en las celdas vecinas si es posible.|
 | [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/es/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) | Establece la fórmula de matriz dinámica y hace que la fórmula se derrame en las celdas vecinas si es posible.|
-| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/es/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Cree una tabla de datos de dos variables para un rango determinado a partir de esta celda.|
+| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/es/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Cree una tabla de datos de dos variables para el rango dado a partir de esta celda.|
 | [set_table_formula(row_number, column_number, input_cell, is_row_input, values)](/cells/es/python-net/aspose.cells/cell/set_table_formula/#int-int-str-bool-list) | Cree una tabla de datos de una variable para el rango dado a partir de esta celda.|
-| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/es/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Cree una tabla de datos de dos variables para un rango determinado a partir de esta celda.|
+| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/es/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Cree una tabla de datos de dos variables para el rango dado a partir de esta celda.|
 | [set_table_formula(row_number, column_number, row_index_of_input_cell, column_index_of_input_cell, is_row_input, values)](/cells/es/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-bool-list) | Cree una tabla de datos de una variable para el rango dado a partir de esta celda.|
 | [get_characters()](/cells/es/python-net/aspose.cells/cell/get_characters/#) | Devuelve todos los objetos de caracteres.<br/> que representa un rango de caracteres dentro del texto de la celda.|
 | [get_characters(flag)](/cells/es/python-net/aspose.cells/cell/get_characters/#bool) | Devuelve todos los objetos de caracteres.<br/> que representa un rango de caracteres dentro del texto de la celda.|
@@ -122,7 +122,7 @@ El tipo Cell expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import TextAlignmentType, Workbook

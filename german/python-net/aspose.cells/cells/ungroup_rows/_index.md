@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup_rows Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/ungroup_rows/
 is_root: false
 ---
 ##  ungroup_rows(first_index, last_index) {#int-int}
-Gruppierung von Zeilen aufheben.
+Hebt die Gruppierung von Zeilen auf.
 
 
 
@@ -28,7 +28,7 @@ Entfernt nur äußere Gruppeninformationen.
 
 ##  ungroup_rows(first_index, last_index, is_all) {#int-int-bool}
 
-Gruppierung von Zeilen aufheben.
+Hebt die Gruppierung von Zeilen auf.
 
 
 

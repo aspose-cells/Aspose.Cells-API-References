@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -21,7 +21,7 @@ FillType türü aşağıdaki üyeleri gösterir:
 | NONE | Yok biçimlendirme türünü temsil eder.|
 | SOLID | Katı dolgu formatı.|
 | GRADIENT | Degrade dolgu formatı.|
-| TEXTURE | Doku dolgu formatı (resim dolgusu dahil).|
+| TEXTURE | Doku dolgu formatı (resim dolgusunu içerir).|
 | PATTERN | Desen dolgu formatı.|
 | GROUP | Grubun dolgu özelliklerini devralır.|
 

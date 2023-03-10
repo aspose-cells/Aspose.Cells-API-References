@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBar clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -30,7 +30,7 @@ El tipo DataBar expone los siguientes miembros:
 | [color](/cells/es/python-net/aspose.cells/databar/color) | Obtenga o establezca el color de esta barra de datos.|
 | [min_length](/cells/es/python-net/aspose.cells/databar/min_length) | Representa la longitud mínima de la barra de datos.|
 | [max_length](/cells/es/python-net/aspose.cells/databar/max_length) | Representa la longitud máxima de la barra de datos.|
-| [show_value](/cells/es/python-net/aspose.cells/databar/show_value) | Obtener o establecer la bandera que indica si mostrar los valores de las celdas sobre las que se aplica esta barra de datos.<br/> El valor predeterminado es verdadero.|
+| [show_value](/cells/es/python-net/aspose.cells/databar/show_value) | Obtener o establecer la bandera que indica si mostrar los valores de las celdas en las que se aplica esta barra de datos.<br/> El valor predeterminado es verdadero.|
 
 
 ###  Métodos
@@ -40,7 +40,7 @@ El tipo DataBar expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

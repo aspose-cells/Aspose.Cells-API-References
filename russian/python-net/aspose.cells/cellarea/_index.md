@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellArea класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cellarea/
 is_root: false
 ---
 ##  CellArea класс
-Представляют собой площадь клеток.
+Представляют собой область ячеек.
 
 
 
@@ -38,7 +38,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea

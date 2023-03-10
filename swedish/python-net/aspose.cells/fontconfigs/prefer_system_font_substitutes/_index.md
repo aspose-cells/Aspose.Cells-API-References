@@ -1,4 +1,4 @@
-﻿---
+---
 title: prefer_system_font_substitutes fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

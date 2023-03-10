@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConsolidationFunction Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -22,7 +22,7 @@ Der Typ ConsolidationFunction macht die folgenden Member verfügbar:
 | AVERAGE | Repräsentiert die Average-Funktion.|
 | MAX | Stellt die Max-Funktion dar.|
 | MIN | Stellt die Min-Funktion dar.|
-| PRODUCT | Repräsentiert Produktfunktionen.|
+| PRODUCT | Stellt die Produktfunktion dar.|
 | COUNT_NUMS | Repräsentiert die Count Nums-Funktion.|
 | STD_DEV | Stellt die StdDev-Funktion dar.|
 | STD_DEVP | Stellt die StdDevp-Funktion dar.|

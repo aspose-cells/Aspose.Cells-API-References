@@ -1,6 +1,6 @@
-﻿---
+---
 title: set_data_source方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 50
@@ -18,7 +18,7 @@ def set_data_source(self, data_source, cells_data_table):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | data_source | str |数据源的名称。|
 | cells_data_table | [ICellsDataTable](/cells/zh/python-net/aspose.cells/icellsdatatable) |数据表。|
@@ -35,7 +35,7 @@ def set_data_source(self, variable, data):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | variable | str |使用智能标记创建的变量名称。|
 | data | any |源数据。|

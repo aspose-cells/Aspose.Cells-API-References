@@ -1,4 +1,4 @@
-﻿---
+---
 title: line_by_line proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se elaborare l'indicatore intelligente riga per riga.
 
 ###  Osservazioni
 
-Il valore predefinito è true.
+Il valore predefinito è vero.
 Se False, il file modello deve contenere un intervallo denominato "_CellsSmartMarkers".
 ###  Definizione:
 ```python

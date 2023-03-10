@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_in_range yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/shapecollection/delete_in_range/
 is_root: false
 ---
 ##  delete_in_range(ca) {#CellArea}
-Aralıktaki şekilleri silin. Yorum şekilleri silinmeyecek.
+Aralıktaki şekilleri silin.Yorum şekilleri silinmeyecek.
 
 
 
@@ -18,11 +18,11 @@ def delete_in_range(self, ca):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) |Aralık. Şekiller aralığın içindeyse, bunlar kaldırılacaktır.|
+| ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) |Aralık.Şekiller aralığın içindeyse, bunlar kaldırılacaktır.|
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea

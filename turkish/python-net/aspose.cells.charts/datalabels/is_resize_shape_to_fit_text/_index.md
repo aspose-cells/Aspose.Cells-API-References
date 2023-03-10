@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_resize_shape_to_fit_text mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_resize_shape_to_fit_text mülk
 
-İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar.
+İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar. Otomatik sığdırma:
 şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.
 ###  Tanım:
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Tipo di parametro utilizzato.
  Se parameterType=value, il valore da boolean, double, integer,
- o verrà utilizzata una stringa.
+ o verrà utilizzata una stringa. In questo caso, è previsto che solo uno di
 Verrà specificato {boolean, double, integer o string}.
 ###  Definizione:
 ```python

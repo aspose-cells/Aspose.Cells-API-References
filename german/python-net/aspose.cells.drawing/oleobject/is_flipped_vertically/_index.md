@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_flipped_vertically Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft ab und legt fest, ob die Form vertikal gespiegelt wird.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

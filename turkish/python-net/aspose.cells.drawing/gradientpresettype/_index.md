@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientPresetType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,25 +20,25 @@ GradientPresetType türü aşağıdaki üyeleri gösterir:
 | BRASS | Pirinç önceden ayarlanmış renk|
 | CALM_WATER | Sakin Su önceden ayarlanmış renk|
 | CHROME | Chrome önceden ayarlanmış renk|
-| CHROME_II | Chrome II ön ayar renkleri|
+| CHROME_II | Chrome II ön ayar rengi|
 | DAYBREAK | Şafak önayar rengi|
-| DESERT | Çöl önayar renkleri|
+| DESERT | Çöl ön ayarı rengi|
 | EARLY_SUNSET | Erken Günbatımı ön ayar rengi|
 | FIRE | Yangın ön ayar rengi|
 | FOG | Sis ön ayar rengi|
 | GOLD | Altın ön ayar rengi|
 | GOLD_II | Altın II önceden ayarlanmış renk|
 | HORIZON | Ufuk ön ayar rengi|
-| LATE_SUNSET | Geç Günbatımı hazır renkleri|
-| MAHOGANY | Maun önceden ayarlanmış renkler|
-| MOSS | Yosun ön ayarlı renkler|
-| NIGHTFALL |Gece önceden ayarlanmış renkler|
+| LATE_SUNSET | Geç Gün Batımı ön ayar rengi|
+| MAHOGANY | Maun önceden ayarlanmış renk|
+| MOSS | Yosun ön ayar rengi|
+| NIGHTFALL |Akşam önayar rengi|
 | OCEAN | Okyanus ön ayar rengi|
-| PARCHMENT | Parşömen hazır renkleri|
+| PARCHMENT | Parşömen ön ayar rengi|
 | PEACOCK | Tavuskuşu önceden ayarlanmış renk|
 | RAINBOW | Gökkuşağı önceden ayarlanmış renk|
 | RAINBOW_II | Rainbow II ön ayar rengi|
-| SAPPHIRE | Safir önceden ayarlanmış renkler|
+| SAPPHIRE | Safir ön ayarlı renk|
 | SILVER | Gümüş önceden ayarlanmış renk|
 | WHEAT | Buğday ön ayar rengi|
 | UNKNOWN | Bilinmeyen önceden ayarlanmış renk.<br/> Yalnızca şablon çalışma kitabındaki önceden ayarlanmış renk (bilinen herhangi bir önceden ayarlanmış renkle aynı değildir) için.|

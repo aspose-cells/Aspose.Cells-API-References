@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_shadow_effect método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

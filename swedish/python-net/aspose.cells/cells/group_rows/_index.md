@@ -1,4 +1,4 @@
-﻿---
+---
 title: group_rows metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def group_rows(self, first_index, last_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första radindexet som ska grupperas.|
 | last_index | int |Det sista radindexet som ska grupperas.|
@@ -35,7 +35,7 @@ def group_rows(self, first_index, last_index, is_hidden):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första radindexet som ska grupperas.|
 | last_index | int |Det sista radindexet som ska grupperas.|

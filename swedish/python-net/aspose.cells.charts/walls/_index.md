@@ -1,4 +1,4 @@
-﻿---
+---
 title: Walls klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -46,7 +46,7 @@ Typen Walls avslöjar följande medlemmar:
 | Metod| Beskrivning|
 | :- | :- |
 | [get_cube_point_count()](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_count/#) | Får antalet kubpoäng efter anrop av metoden Chart.Calculate().|
-| [get_cube_point_x_px(index)](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Hämtar x-koordinater för apexpunkten för väggkuben efter anrop av metoden Chart.Calculate().<br/> Antalet spetspunkter på väggkuben är åtta|
+| [get_cube_point_x_px(index)](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_x_px/#int) | Får x-koordinaten för spetspunkten för väggkuben efter anrop av metoden Chart.Calculate().<br/> Antalet spetspunkter på väggkuben är åtta|
 | [get_cube_point_y_px(index)](/cells/sv/python-net/aspose.cells.charts/walls/get_cube_point_y_px/#int) | Hämtar y-koordinaten för spetspunkten för väggkuben efter anrop av metoden Chart.Calculate().<br/> Antalet spetspunkter på väggkuben är åtta.|
 
 

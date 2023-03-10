@@ -1,4 +1,4 @@
-﻿---
+---
 title: PowerQueryFormulaItemCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.querytables/powerqueryformulaitemcollection/
 is_root: false
 ---
 ##  PowerQueryFormulaItemCollection sınıfı
-Güçlü sorgu formülünün tüm öğelerini temsil eder.
+Güçlü sorgu formülünün tüm öğesini temsil eder.
 
 
 

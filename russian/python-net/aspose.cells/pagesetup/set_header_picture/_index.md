@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_header_picture метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def set_header_picture(self, section, header_picture):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | section | int | 0: левая часть, 1: центральная часть, 2: правая часть.|
 | header_picture | bytes | Данные изображения.|

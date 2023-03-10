@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_height_of_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/cell/get_height_of_value/
 is_root: false
 ---
 ##  get_height_of_value() {#}
-Получает высоту значения в пикселях.
+Получает высоту значения в единицах пикселей.
 
 
 ###  Возвращает

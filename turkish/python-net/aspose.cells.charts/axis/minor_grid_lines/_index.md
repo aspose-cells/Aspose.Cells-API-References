@@ -1,4 +1,4 @@
-﻿---
+---
 title: minor_grid_lines mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

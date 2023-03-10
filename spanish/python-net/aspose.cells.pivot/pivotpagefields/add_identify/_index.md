@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_identify método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ def add_identify(self, range_index, page_item_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | range_index | int |El índice de rango de datos de consolidación.|
 | page_item_index | list | El índice de elementos de página en cada campo de página.<br/>pageItemIndex[2] = 1 significa el segundo elemento en el tercer campo que se usará para identificar este rango.<br/> pageItemIndex[1] = -1 significa que no hay elemento en el segundo campo para usar para identificar este rango<br/> y MS creará automáticamente un elemento "en blanco" en el segundo campo para identificar este rango.|

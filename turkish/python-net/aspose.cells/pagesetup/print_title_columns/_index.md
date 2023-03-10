@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_columns mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Her sayfanın sol tarafında yinelenecek hücrelerin bulunduğu sütunları temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

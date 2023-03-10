@@ -1,4 +1,4 @@
-﻿---
+---
 title: filter_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  filter_type mülk
 
-Verileri filtrelemek için türü alır ve ayarlar.
+Filtreleme verilerinin türünü alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

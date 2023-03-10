@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocumentProperty класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ is_root: false
 | [to_int()](/cells/ru/python-net/aspose.cells.properties/documentproperty/to_int/#) | Возвращает значение свойства как целое число.|
 | [to_double()](/cells/ru/python-net/aspose.cells.properties/documentproperty/to_double/#) |Возвращает значение свойства как двойное.|
 | [to_date_time()](/cells/ru/python-net/aspose.cells.properties/documentproperty/to_date_time/#) | Возвращает значение свойства как DateTime в местном часовом поясе.|
-| [to_bool()](/cells/ru/python-net/aspose.cells.properties/documentproperty/to_bool/#) | Возвращает значение свойства как логическое значение.|
+| [to_bool()](/cells/ru/python-net/aspose.cells.properties/documentproperty/to_bool/#) | Возвращает значение свойства как bool.|
 
 
 

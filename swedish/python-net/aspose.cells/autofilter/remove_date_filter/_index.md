@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_date_filter metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def remove_date_filter(self, field_index, date_time_grouping_type, year, month, 
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | field_index | int | Heltalsoffset för fältet som du vill basera filtret på<br/> (från vänster i listan; fältet längst till vänster är fält 0).|
 | date_time_grouping_type | [DateTimeGroupingType](/cells/sv/python-net/aspose.cells/datetimegroupingtype) | [DateTimeGroupingType](/cells/sv/python-net/aspose.cells/datetimegroupingtype) |

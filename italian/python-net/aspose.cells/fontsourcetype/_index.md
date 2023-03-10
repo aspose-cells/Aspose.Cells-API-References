@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSourceType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo FontSourceType espone i membri seguenti:
 | Campo| Descrizione|
 | :- | :- |
 | FONT_FILE | rappresenta un singolo file di font.|
-| FONTS_FOLDER | rappresenta le cartelle con file di caratteri.|
+| FONTS_FOLDER | rappresenta la cartella con i file dei caratteri.|
 | MEMORY_FONT | rappresenta un singolo font in memoria.|
 
 

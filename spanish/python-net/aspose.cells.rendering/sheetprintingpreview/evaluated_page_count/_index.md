@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,9 +11,9 @@ is_root: false
 
 Evalúe el recuento total de páginas de esta hoja de trabajo
 
-###  Ejemplos
+###  Ejemplo
 
-El siguiente código muestra la forma más rápida de obtener un recuento de páginas de una hoja de cálculo.
+El siguiente código muestra la forma más rápida de obtener el recuento de páginas de una hoja de cálculo.
 
 ```python
 from aspose.cells import Workbook

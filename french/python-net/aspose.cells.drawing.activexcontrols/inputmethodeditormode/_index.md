@@ -1,4 +1,4 @@
-﻿---
+---
 title: InputMethodEditorMode dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type InputMethodEditorMode expose les membres suivants :
 | :- | :- |
 | NO_CONTROL |Ne contrôle pas IME.|
 | ON | IME activé.|
-| OFF | IME désactivé. Mode anglais.|
+| OFF | IME désactivé. mode anglais.|
 | DISABLE | IME désactivé. L'utilisateur ne peut pas activer IME à l'aide du clavier.|
 | HIRAGANA | IME activé avec le mode hiragana pleine largeur.|
 | KATAKANA | IME activé avec le mode katakana pleine largeur.|
@@ -28,8 +28,8 @@ Le type InputMethodEditorMode expose les membres suivants :
 | ALPHA | IME activé avec le mode alphanumérique demi-chasse.|
 | HANGUL_FULL | IME activé avec le mode Hangul pleine largeur.|
 | HANGUL | IME activé avec le mode hangul demi-largeur.|
-| HANZI_FULL | IME activé avec le mode Hanzi pleine largeur.|
-| HANZI | IME activé avec le mode Hanzi demi-largeur.|
+| HANZI_FULL | IME activé avec le mode hanzi pleine largeur.|
+| HANZI | IME activé avec le mode hanzi demi-largeur.|
 
 
 

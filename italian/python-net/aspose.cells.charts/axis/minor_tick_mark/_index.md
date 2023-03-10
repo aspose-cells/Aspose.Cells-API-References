@@ -1,4 +1,4 @@
-﻿---
+---
 title: minor_tick_mark proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_even_footer yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ def set_even_footer(self, section, footer_script):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | section | int | 0: Sol Bölüm, 1: Orta Bölüm, 2: Sağ Bölüm.|
 | footer_script | str | Altbilgi biçimi komut dosyası.|

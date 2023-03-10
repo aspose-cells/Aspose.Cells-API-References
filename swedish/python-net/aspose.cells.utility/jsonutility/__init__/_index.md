@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonUtility konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

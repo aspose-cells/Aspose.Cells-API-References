@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_even_footer méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ def set_even_footer(self, section, footer_script):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 | footer_script | str | Script de format de pied de page.|

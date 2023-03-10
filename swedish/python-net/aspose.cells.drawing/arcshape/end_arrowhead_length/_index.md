@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_arrowhead_length fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar och ställer in linjens längd på slutet av pilhuvudet.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
  använd egenskapen Shape.Line.EndArrowheadLength.
  Den här egenskapen kommer att tas bort 12 månader senare sedan augusti 2016.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_cells_allowed fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,8 +13,8 @@ Representerar om formatering av celler är tillåten på ett skyddat kalkylblad.
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
- använd skydd. Egenskapen AllowFormattingCell.
+ OBS: Denna medlem är nu föråldrad. Istället,
+ använd egenskapen Protection.AllowFormattingCell.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

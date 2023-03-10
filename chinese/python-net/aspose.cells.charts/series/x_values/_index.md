@@ -1,6 +1,6 @@
-﻿---
+---
 title: x_values 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 530
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## x_values 属性
 
-代表图表系列的x值。
+表示图表系列的 x 值。
 ### 定义：
 ```python
 @property

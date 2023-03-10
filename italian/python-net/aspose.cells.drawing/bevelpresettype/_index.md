@@ -1,4 +1,4 @@
-﻿---
+---
 title: BevelPresetType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -25,7 +25,7 @@ Il tipo BevelPresetType espone i membri seguenti:
 | COOL_SLANT | Pendenza fredda|
 | CROSS | Attraverso|
 | DIVOT | Divot|
-| HARD_EDGE | Bordi duri|
+| HARD_EDGE | Bordo duro|
 | RELAXED_INSET | Inserto rilassato|
 | RIBLET | Riblet|
 | SLOPE | Pendenza|

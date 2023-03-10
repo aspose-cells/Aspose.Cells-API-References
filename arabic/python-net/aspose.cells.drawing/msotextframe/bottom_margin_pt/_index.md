@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin_pt الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_pt الملكية
 
-إرجاع الهامش السفلي بوحدات من النقاط
+إرجاع الهامش السفلي بوحدة النقاط
 ###  تعريف:
 ```python
 @property

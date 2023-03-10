@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThreadedCommentAuthorCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/threadedcommentauthorcollection/
 is_root: false
 ---
 ##  ThreadedCommentAuthorCollection класс
-Представляет всех лиц, которые.
+Представляет всех лиц, которые .
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbstractInterruptMonitor الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/abstractinterruptmonitor/
 is_root: false
 ---
 ##  AbstractInterruptMonitor الدرجة
-مراقبة الطلبات المنقطعة في جميع العمليات التي تستغرق وقتًا طويلاً.
+مراقبة طلبات الانقطاع في جميع العمليات التي تستغرق وقتًا طويلاً.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة sort_names
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

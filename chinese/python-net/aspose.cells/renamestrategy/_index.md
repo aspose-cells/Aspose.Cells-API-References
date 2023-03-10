@@ -1,6 +1,6 @@
-﻿---
+---
 title: RenameStrategy枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 2430
@@ -14,11 +14,11 @@ is_root: false
 
 RenameStrategy 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | EXCEPTION |抛出异常。|
-| DIGIT |以数字命名，重复的名字会变成...1, ...2, 等等。|
+| DIGIT |用数字命名。重复的名称将变为 ...1、...2 等。|
 | LETTER |以字母命名..重复的名字将变成...A,...B,等等。|
 
 

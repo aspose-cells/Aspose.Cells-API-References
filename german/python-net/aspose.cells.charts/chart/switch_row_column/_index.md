@@ -1,4 +1,4 @@
-﻿---
+---
 title: switch_row_column Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

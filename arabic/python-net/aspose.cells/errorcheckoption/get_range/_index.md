@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def get_range(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | مؤشر النطاق|
 

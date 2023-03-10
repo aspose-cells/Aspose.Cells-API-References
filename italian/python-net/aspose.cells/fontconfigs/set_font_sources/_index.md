@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_font_sources
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_font_sources(self, sources):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | sources | list | Un array di fonti che contengono font TrueType.|
 

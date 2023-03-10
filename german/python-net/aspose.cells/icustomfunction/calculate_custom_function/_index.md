@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_custom_function Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

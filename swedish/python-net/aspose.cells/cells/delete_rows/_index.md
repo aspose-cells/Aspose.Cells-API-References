@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_rows metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int |Det första radindexet som ska raderas.|
 | total_rows | int | Antal rader som ska raderas.|
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 | total_rows | int | Antal rader som ska raderas.|

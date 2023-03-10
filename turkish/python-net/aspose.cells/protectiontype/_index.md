@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectionType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -23,7 +23,7 @@ ProtectionType türü aşağıdaki üyeleri gösterir:
 | SCENARIOS | Çalışma Sayfası korumasında kullanılan koruma senaryolarını temsil eder.|
 | STRUCTURE | Çalışma Kitabı korumasında kullanılan koruma yapısını temsil eder.|
 | WINDOWS | Çalışma Kitabı korumasında kullanılan koruma penceresini temsil eder.|
-| NONE | Hiçbir korumayı temsil etmez.Yalnızca Okuma özelliği için.|
+| NONE | Koruma olmadığını gösterir. Yalnızca Okuma özelliği için.|
 
 
 

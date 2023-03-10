@@ -1,4 +1,4 @@
-﻿---
+---
 title: background_image propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  background_image propiedad
 
-Obtiene y establece la imagen de fondo de la hoja de cálculo.
+Obtiene y establece la imagen de fondo de la hoja de trabajo.
 ###  Definición:
 ```python
 @property

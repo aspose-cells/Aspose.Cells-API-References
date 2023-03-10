@@ -1,4 +1,4 @@
-﻿---
+---
 title: libid الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid الملكية
 
-الحصول على المرجع الشرياني وتعيينه.
+الحصول على وتعيين Libid الخاص بالمرجع.
 ###  تعريف:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: put_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def put_value(self, string_value, is_converted, set_style):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | string_value | str | Входное значение|
 | is_converted | bool | True: преобразуется в другой тип данных, если это необходимо.|

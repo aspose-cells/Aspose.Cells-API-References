@@ -1,4 +1,4 @@
-﻿---
+---
 title: save metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def save(self, file_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str |  |
 
@@ -34,7 +34,7 @@ def save(self, file_name, save_format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str | Filnamnet.|
 | save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Spara formattypen.|
@@ -51,7 +51,7 @@ def save(self, file_name, save_options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str | Filnamnet.|
 | save_options | [SaveOptions](/cells/sv/python-net/aspose.cells/saveoptions) | Spara alternativen.|
@@ -68,7 +68,7 @@ def save(self, stream, save_format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Filströmmen.|
 | save_format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Spara filformatet.|
@@ -85,7 +85,7 @@ def save(self, stream, save_options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Filströmmen.|
 | save_options | [SaveOptions](/cells/sv/python-net/aspose.cells/saveoptions) | Spara alternativen.|

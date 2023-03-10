@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_formats méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def clear_formats(self, range):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | range | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Plage à effacer.|
 
@@ -34,7 +34,7 @@ def clear_formats(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début.|
 | start_column | int | Début de l'index de la colonne.|

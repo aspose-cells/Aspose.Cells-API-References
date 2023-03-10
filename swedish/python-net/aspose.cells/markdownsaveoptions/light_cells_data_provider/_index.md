@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_provider fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  light_cells_data_provider fastighet
 
-Dataleverantören tillhandahåller celldata för att spara arbetsböcker i lätt läge.
+Dataleverantören för att tillhandahålla celldata för att spara arbetsbok i lätt läge.
 ###  Definition:
 ```python
 @property

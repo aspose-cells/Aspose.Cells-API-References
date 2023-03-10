@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_reference Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  cell_reference Eigentum
 
-Cell Verweis, der den Wert der Zelle angibt, der für den Abfrageparameter verwendet werden soll. Wird nur verwendet, wenn parameterType cell ist.
+Cell Verweis, der angibt, welcher Zellenwert für den Abfrageparameter verwendet werden soll. Wird nur verwendet, wenn parameterType cell ist.
 ###  Definition:
 ```python
 @property

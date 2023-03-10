@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/ru/python-net/aspose.cells.charts/chartcollection) | Инкапсулирует коллекцию из [Chart](/cells/ru/python-net/aspose.cells.charts/chart) объектов.|
 | [ChartDataTable](/cells/ru/python-net/aspose.cells.charts/chartdatatable) | Представляет таблицу данных диаграммы.|
 | [ChartFrame](/cells/ru/python-net/aspose.cells.charts/chartframe) | Инкапсулирует объект, который представляет объект кадра на диаграмме.|
-| [ChartGlobalizationSettings](/cells/ru/python-net/aspose.cells.charts/chartglobalizationsettings) | Представляет параметры глобализации для диаграмм.|
+| [ChartGlobalizationSettings](/cells/ru/python-net/aspose.cells.charts/chartglobalizationsettings) | Представляет параметры глобализации для диаграммы.|
 | [ChartPoint](/cells/ru/python-net/aspose.cells.charts/chartpoint) |Представляет одну точку в ряду на диаграмме.|
 | [ChartPointCollection](/cells/ru/python-net/aspose.cells.charts/chartpointcollection) | Представляет коллекцию, содержащую все точки одной серии.|
 | [ChartTextFrame](/cells/ru/python-net/aspose.cells.charts/charttextframe) | Инкапсулирует объект, представляющий объект фрейма, содержащий текст.|
@@ -39,7 +39,7 @@ is_root: false
 | [SeriesLayoutProperties](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties) | Представляет свойства макета серии.|
 | [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) | Спарклайн представляет собой крошечную диаграмму или графику в ячейке рабочего листа, которая обеспечивает визуальное представление данных.|
 | [SparklineCollection](/cells/ru/python-net/aspose.cells.charts/sparklinecollection) | Инкапсулирует коллекцию из [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) объектов.|
-| [SparklineGroup](/cells/ru/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) организован в группу спарклайнов.Группа спарклайнов содержит переменное количество элементов спарклайнов.<br/> Группа спарклайнов определяет тип, параметры отображения и настройки осей для спарклайнов.|
+| [SparklineGroup](/cells/ru/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) организован в группу спарклайнов. SparklineGroup содержит переменное количество элементов спарклайна.<br/> Группа спарклайнов определяет тип, параметры отображения и настройки осей для спарклайнов.|
 | [SparklineGroupCollection](/cells/ru/python-net/aspose.cells.charts/sparklinegroupcollection) | Инкапсулирует коллекцию из [SparklineGroup](/cells/ru/python-net/aspose.cells.charts/sparklinegroup) объектов.|
 | [TickLabelItem](/cells/ru/python-net/aspose.cells.charts/ticklabelitem) | Включить информацию о элементе Ticklabel|
 | [TickLabels](/cells/ru/python-net/aspose.cells.charts/ticklabels) | Представляет метки делений, связанные с делениями на оси диаграммы.|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/ru/python-net/aspose.cells.charts/mapchartlabellayout) | Представляет макет меток диаграммы карты.|
 | [MapChartProjectionType](/cells/ru/python-net/aspose.cells.charts/mapchartprojectiontype) | Представляет тип проекции диаграммы карты.|
 | [MapChartRegionType](/cells/ru/python-net/aspose.cells.charts/mapchartregiontype) | Представляет тип области диаграммы карты.|
-| [PlotDataByType](/cells/ru/python-net/aspose.cells.charts/plotdatabytype) |Представляет тип данных, отображаемых по строке или столбцу.|
+| [PlotDataByType](/cells/ru/python-net/aspose.cells.charts/plotdatabytype) |Представляет тип графика данных по строке или столбцу.|
 | [PlotEmptyCellsType](/cells/ru/python-net/aspose.cells.charts/plotemptycellstype) | Представляет все пустые ячейки диаграммы.|
 | [QuartileCalculationType](/cells/ru/python-net/aspose.cells.charts/quartilecalculationtype) | Представляет методы расчета квартилей.|
 | [SparklineAxisMinMaxType](/cells/ru/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Представляет типы минимального и максимального значения для вертикальной оси спарклайна.|

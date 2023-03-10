@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/jsonsaveoptions/__init__/
 is_root: false
 ---
 ##  JsonSaveOptions() {#}
-Json dosyalarını kaydetmek için seçenekler oluşturur.
+Json dosyasını kaydetmek için seçenekler oluşturur.
 
 
 

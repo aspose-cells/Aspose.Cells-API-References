@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة custom
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def custom(self, field_index, operator_type1, criteria1):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | إزاحة العدد الصحيح للحقل الذي تريد أن يؤسس عامل التصفية عليه<br/> (من يسار القائمة ؛ الحقل الموجود في أقصى اليسار هو الحقل 0).|
 | operator_type1 | [FilterOperatorType](/cells/ar/python-net/aspose.cells/filteroperatortype) | نوع عامل التصفية|
@@ -36,7 +36,7 @@ def custom(self, field_index, operator_type1, criteria1, is_and, operator_type2,
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | إزاحة العدد الصحيح للحقل الذي تريد أن يؤسس عامل التصفية عليه<br/> (من يسار القائمة ؛ الحقل الموجود في أقصى اليسار هو الحقل 0).|
 | operator_type1 | [FilterOperatorType](/cells/ar/python-net/aspose.cells/filteroperatortype) | نوع عامل التصفية|

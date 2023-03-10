@@ -1,4 +1,4 @@
-﻿---
+---
 title: memory_setting недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  memory_setting недвижимость
 
-Получает или задает параметр использования памяти для этой ячейки.
+Получает или задает параметр использования памяти для этих ячеек.
 ###  Определение:
 ```python
 @property

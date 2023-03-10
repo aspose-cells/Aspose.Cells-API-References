@@ -1,4 +1,4 @@
-﻿---
+---
 title: next_row método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene la siguiente fila que se va a guardar.
 
 ###  Devoluciones
 
--1 significa que se ha llegado al final de los datos de la hoja actual y no se guardará ninguna fila más de la hoja actual.
+el siguiente índice de fila que se va a guardar. -1 significa que se ha llegado al final de los datos de la hoja actual y no se guardará ninguna fila más de la hoja actual.
 
 
 ```python

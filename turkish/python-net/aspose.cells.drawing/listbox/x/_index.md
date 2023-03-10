@@ -1,4 +1,4 @@
-﻿---
+---
 title: x mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  x mülk
 
-Çalışma sayfasının sol kenarından şeklin yatay kaymasını piksel birimi cinsinden alır ve ayarlar.
+Şeklin yatay ofsetini çalışma sayfasının sol kenarından piksel birimi cinsinden alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

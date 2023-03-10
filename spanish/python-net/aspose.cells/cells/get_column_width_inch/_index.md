@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_width_inch método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene el ancho de la columna especificada en vista normal, en unidades de pulg
 
 ###  Devoluciones
 
-Ancho de columnas
+Ancho de columna
 
 
 ```python
@@ -22,7 +22,7 @@ def get_column_width_inch(self, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | column | int | índice de columna|
 

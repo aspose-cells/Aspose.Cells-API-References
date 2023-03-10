@@ -1,4 +1,4 @@
-﻿---
+---
 title: accessibility_extract_content proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

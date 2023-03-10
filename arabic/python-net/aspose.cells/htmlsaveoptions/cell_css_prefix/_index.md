@@ -1,4 +1,4 @@
-﻿---
+---
 title: cell_css_prefix الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_single_tab mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

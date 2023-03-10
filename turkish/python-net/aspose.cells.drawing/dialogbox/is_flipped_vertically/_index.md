@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_flipped_vertically mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Şeklin dikey olarak çevrilip çevrilmediğini alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

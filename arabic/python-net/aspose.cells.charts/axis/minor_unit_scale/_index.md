@@ -1,4 +1,4 @@
-﻿---
+---
 title: minor_unit_scale الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يمثل مقياس الوحدة الرئيسية لمحور الفئة.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFilterCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_radar_axis_labels propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_radar_axis_labels propriété
 
-True si un graphique en radar comporte des étiquettes d'axe des catégories.
+True si un graphique en radar comporte des étiquettes d'axe des catégories. S'applique uniquement aux cartes radar.
 ###  Définition:
 ```python
 @property

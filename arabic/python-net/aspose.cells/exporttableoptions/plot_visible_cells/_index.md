@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_visible_cells الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

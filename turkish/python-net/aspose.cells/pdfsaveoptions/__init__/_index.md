@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/pdfsaveoptions/__init__/
 is_root: false
 ---
 ##  PdfSaveOptions() {#}
-Pdf dosyalarını kaydetme seçeneklerini oluşturur.
+Pdf dosyasını kaydetme seçeneklerini oluşturur.
 
 
 

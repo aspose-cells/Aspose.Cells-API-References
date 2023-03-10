@@ -1,4 +1,4 @@
-﻿---
+---
 title: size_represents fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Hämtar eller ställer in vad bubbelstorleken representerar på ett bubbeldiagra
 
 ###  Anmärkningar
 
-BubbleSizeRepresents.SizeIsArea betyder att värdet [Series.bubble_sizes](/cells/sv/python-net/aspose.cells.charts/series#bubble_sizes) är området för bubblan.
+BubbleSizeRepresents.SizeIsArea betyder att värdet [Series.bubble_sizes](/cells/sv/python-net/aspose.cells.charts/series#bubble_sizes) är bubblans area.
 BubbleSizeRepresents.SizeIsWidth betyder att värdet [Series.bubble_sizes](/cells/sv/python-net/aspose.cells.charts/series#bubble_sizes) är bubblans bredd.
 ###  Definition:
 ```python

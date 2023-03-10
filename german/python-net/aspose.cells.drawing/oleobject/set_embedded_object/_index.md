@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_embedded_object Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 | object_data | bytes | Die eingebetteten Objektdaten.|
 | source_file_name | str | Der Dateiname.|
 | display_as_icon | bool | Gibt an, ob das Objekt als Symbol angezeigt wird.<br/> Wenn wahr, werden die ursprünglichen Bilddaten durch das Symbol verdeckt.|
-| label | str | Das Icon-Label. Funktioniert nur, wenn displayAsIcon auf true gesetzt ist.|
+| label | str | Das Symboletikett. Funktioniert nur, wenn displayAsIcon als wahr gilt.|
 
 
 ##  set_embedded_object(link_to_file, object_data, source_file_name, display_as_icon, label, update_icon) {#bool-bytes-str-bool-str-bool}
@@ -44,7 +44,7 @@ def set_embedded_object(self, link_to_file, object_data, source_file_name, displ
 | object_data | bytes | Die eingebetteten Objektdaten.|
 | source_file_name | str | Der Dateiname.|
 | display_as_icon | bool | Gibt an, ob das Objekt als Symbol angezeigt wird.<br/> Wenn wahr, werden die ursprünglichen Bilddaten durch das Symbol verdeckt.|
-| label | str | Das Icon-Label. Funktioniert nur, wenn displayAsIcon auf true gesetzt ist.|
+| label | str | Das Symboletikett. Funktioniert nur, wenn displayAsIcon als wahr gilt.|
 | update_icon | bool | Gibt an, ob das Symbol automatisch aktualisiert wird.|
 ###  Bemerkungen
 

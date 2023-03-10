@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItemCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.slicers/slicercacheitemcollection/
 is_root: false
 ---
 ##  SlicerCacheItemCollection classe
-Représenter la collection de SlicerCacheItems
+Représenter la collection de SlicerCacheItem
 
 
 
@@ -17,7 +17,7 @@ Le type SlicerCacheItemCollection expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [capacity](/cells/fr/python-net/aspose.cells.slicers/slicercacheitemcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableaux peut contenir.|
+| [capacity](/cells/fr/python-net/aspose.cells.slicers/slicercacheitemcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
@@ -34,7 +34,7 @@ Le type SlicerCacheItemCollection expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

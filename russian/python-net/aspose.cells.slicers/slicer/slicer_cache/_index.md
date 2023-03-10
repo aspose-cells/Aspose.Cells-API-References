@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache недвижимость
 
-Возвращает объект SlicerCache, связанный со слайсером.
+Возвращает объект SlicerCache, связанный со слайсером. Только для чтения.
 
-###  Примеры
+###  Пример
 
 ```python
 

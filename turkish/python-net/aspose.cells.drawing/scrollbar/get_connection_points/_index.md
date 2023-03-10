@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_connection_points yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bağlantı noktalarını alın
 
 ###  İadeler
 
-Bağlantı noktasının [X,Y] çiftleri.Her öğe bir kayan nokta[2] dizisidir, [0] x'i ve [1] y'yi temsil eder.
+[X,Y] bağlantı noktası çiftleri. Her öğe bir float[2] dizisidir, [0] x'i temsil eder ve [1] y'yi temsil eder.
 
 
 ```python
@@ -23,7 +23,7 @@ def get_connection_points(self):
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 

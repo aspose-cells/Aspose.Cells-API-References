@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add(self, start_cell, end_cell, has_headers):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_cell | str | Начальная ячейка диапазона списка.|
 | end_cell | str | Конечная ячейка диапазона списка.|
@@ -44,7 +44,7 @@ def add(self, start_row, start_column, end_row, end_column, has_headers):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Начальная строка диапазона списка.|
 | start_column | int | Начальная строка диапазона списка.|

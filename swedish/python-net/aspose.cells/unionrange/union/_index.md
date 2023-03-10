@@ -1,4 +1,4 @@
-﻿---
+---
 title: union metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def union(self, range):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | range | str | Räckvidden.|
 
@@ -42,7 +42,7 @@ def union(self, union_range):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/sv/python-net/aspose.cells/unionrange) | Räckvidden.|
 
@@ -62,7 +62,7 @@ def union(self, ranges):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | ranges | list | Områdena.|
 

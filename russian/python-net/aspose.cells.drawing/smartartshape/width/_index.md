@@ -1,4 +1,4 @@
-﻿---
+---
 title: width недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет width формы в пикселях.
 
-###  Примеры
+###  Пример
 
 ```python
 

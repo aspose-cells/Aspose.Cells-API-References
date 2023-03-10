@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocumentProperty klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ Typen DocumentProperty avslöjar följande medlemmar:
 | [to_int()](/cells/sv/python-net/aspose.cells.properties/documentproperty/to_int/#) | Returnerar egenskapsvärdet som heltal.|
 | [to_double()](/cells/sv/python-net/aspose.cells.properties/documentproperty/to_double/#) |Returnerar egenskapsvärdet som dubbelt.|
 | [to_date_time()](/cells/sv/python-net/aspose.cells.properties/documentproperty/to_date_time/#) | Returnerar egenskapsvärdet som DateTime i lokal tidszon.|
-| [to_bool()](/cells/sv/python-net/aspose.cells.properties/documentproperty/to_bool/#) | Returnerar egenskapsvärdet som en bool.|
+| [to_bool()](/cells/sv/python-net/aspose.cells.properties/documentproperty/to_bool/#) | Returnerar egenskapsvärdet som bool.|
 
 
 

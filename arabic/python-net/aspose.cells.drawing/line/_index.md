@@ -1,4 +1,4 @@
-﻿---
+---
 title: Line الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -35,14 +35,14 @@ is_root: false
 | [weight_pt](/cells/ar/python-net/aspose.cells.drawing/line/weight_pt) | الحصول على أو تحديد وزن الخط بوحدة النقاط.|
 | [weight_px](/cells/ar/python-net/aspose.cells.drawing/line/weight_px) | الحصول على أو تحديد وزن الخط بوحدة البكسل.|
 | [formatting_type](/cells/ar/python-net/aspose.cells.drawing/line/formatting_type) | يحصل أو يحدد نوع التنسيق.|
-| [is_automatic_color](/cells/ar/python-net/aspose.cells.drawing/line/is_automatic_color) | يشير إلى ما إذا كان لون الخط قد تم تعيينه تلقائيًا أم لا.|
+| [is_automatic_color](/cells/ar/python-net/aspose.cells.drawing/line/is_automatic_color) | يشير إلى ما إذا كان لون الخط معينًا تلقائيًا أم لا.|
 | [is_visible](/cells/ar/python-net/aspose.cells.drawing/line/is_visible) | يمثل ما إذا كان الخط مرئيًا.|
 | [is_auto](/cells/ar/python-net/aspose.cells.drawing/line/is_auto) | يشير إلى ما إذا كان نمط الخط هذا قد تم تعيينه تلقائيًا أم لا.|
 | [gradient_fill](/cells/ar/python-net/aspose.cells.drawing/line/gradient_fill) | يمثل تعبئة متدرجة.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

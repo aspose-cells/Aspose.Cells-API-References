@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalLinkCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  ExternalLinkCollection klass
-Representerar en extern länksamling i en arbetsbok.
+Representerar extern länksamling i en arbetsbok.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_drill الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_drill الملكية
 
 يحدد قيمة منطقية تشير إلى ما إذا كان يجب طباعة مؤشرات الحفر.
-طباعة أزرار توسيع / طي عند عرضها على جدول محوري.
+طباعة أزرار توسيع / طي عند عرضها على pivottable.
 ###  تعريف:
 ```python
 @property

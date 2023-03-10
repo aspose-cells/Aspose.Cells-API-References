@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_empty_string_as_null propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

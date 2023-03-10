@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_actual_size метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  Возвращает
 
 Фактический размер в массиве (ширина и высота).
-[0] — ширина, [1] — высота.
+[0] — ширина; [1] — высота.
 
 
 ```python

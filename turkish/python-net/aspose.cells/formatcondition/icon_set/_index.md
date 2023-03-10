@@ -1,4 +1,4 @@
-﻿---
+---
 title: icon_set mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

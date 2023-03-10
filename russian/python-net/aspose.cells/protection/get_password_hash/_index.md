@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_password_hash метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name недвижимость
 
-Получает титул Range.
+Получает титул Range. Это используется как дескриптор, а не как определение именованного диапазона.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hyperlink klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ Typen Hyperlink avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [address](/cells/sv/python-net/aspose.cells/hyperlink/address) | Representerar adressen till en hyperlänk.|
-| [text_to_display](/cells/sv/python-net/aspose.cells/hyperlink/text_to_display) | Representerar texten som ska visas för den angivna hyperlänken.|
+| [text_to_display](/cells/sv/python-net/aspose.cells/hyperlink/text_to_display) | Representerar texten som ska visas för den angivna hyperlänken. Standardvärdet är adressen till hyperlänken.|
 | [area](/cells/sv/python-net/aspose.cells/hyperlink/area) | Får utbudet av hyperlänkar.|
 | [screen_tip](/cells/sv/python-net/aspose.cells/hyperlink/screen_tip) | Returnerar eller ställer in skärmtipstexten för den angivna hyperlänken.|
 | [link_type](/cells/sv/python-net/aspose.cells/hyperlink/link_type) | Får länktypen.|

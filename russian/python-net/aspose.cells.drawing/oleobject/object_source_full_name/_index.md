@@ -1,4 +1,4 @@
-﻿---
+---
 title: object_source_full_name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ is_root: false
 ###  Примечания
 
 Поддерживает установку полного имени источника только в том случае, если тип файла — OleFileType.Unknown.
-Например, файл wav, файл avi и т. д.
+Например, WAV-файл, AVI-файл и т. д.
 ###  Определение:
 ```python
 @property

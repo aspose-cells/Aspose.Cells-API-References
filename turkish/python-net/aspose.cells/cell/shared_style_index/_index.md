@@ -1,4 +1,4 @@
-﻿---
+---
 title: shared_style_index mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

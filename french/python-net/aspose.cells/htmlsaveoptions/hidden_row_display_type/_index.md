@@ -1,4 +1,4 @@
-﻿---
+---
 title: hidden_row_display_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  hidden_row_display_type propriété
 
 Ligne masquée (la hauteur de cette ligne est 0) dans Excel, avant de l'enregistrer au format html,
-si HtmlHiddenRowDisplayType est "Remove", la ligne cachée ne sera pas sortie,
-si la valeur est "Hidden", la ligne aurait été sortie, mais était masquée, la valeur par défaut est "Hidden"
+si HtmlHiddenRowDisplayType est "Remove", la ligne masquée ne sera pas sortie,
+si la valeur est "Hidden", la ligne serait sortie, mais était masquée, la valeur par défaut est "Hidden"
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFormatCondition класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [scope_type](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/scope_type) | Получите и задайте тип области для формата условия сводной таблицы.|
 | [rule_type](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/rule_type) | Получить и установить тип правила для формата условия сводной таблицы.|
-| [format_conditions](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Получить условия формата для формата условия сводной таблицы.|
+| [format_conditions](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/format_conditions) | Получите formatconditions для формата условия сводной таблицы.|
 
 
 ###  Методы
@@ -29,13 +29,13 @@ is_root: false
 | [add_data_area_condition(data_field)](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/add_data_area_condition/#PivotField) | Добавляет ограничение условного формата сводной таблицы в поля данных.|
 | [add_row_area_condition(field_name)](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#str) | Добавляет ограничение условного формата сводной таблицы в поля строки.|
 | [add_row_area_condition(row_field)](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/add_row_area_condition/#PivotField) | Добавляет ограничение условного формата сводной таблицы в поля строки.|
-| [add_column_area_condition(field_name)](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) | Добавляет ограничение условного формата сводной таблицы в полях столбцов.|
-| [add_column_area_condition(column_field)](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) | Добавляет ограничение условного формата сводной таблицы в полях столбцов.|
+| [add_column_area_condition(field_name)](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#str) | Добавляет ограничение условного формата сводной таблицы в полях столбца.|
+| [add_column_area_condition(column_field)](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/add_column_area_condition/#PivotField) | Добавляет ограничение условного формата сводной таблицы в полях столбца.|
 | [set_conditional_areas()](/cells/ru/python-net/aspose.cells.pivot/pivotformatcondition/set_conditional_areas/#) | Задает условные области объекта PivotFormatCondition.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

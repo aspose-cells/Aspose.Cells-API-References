@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,8 +19,8 @@ Le type SparklineGroup expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [preset_style](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/preset_style) | Obtient et définit le type de style prédéfini du groupe sparkline.|
-| [sparkline_collection](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | Obtient la collection d'objets [Sparkline](/cells/fr/python-net/aspose.cells.charts/sparkline).|
-| [sparklines](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/sparklines) | Obtient la collection d'objets [Sparkline](/cells/fr/python-net/aspose.cells.charts/sparkline).|
+| [sparkline_collection](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | Obtient la collection de l'objet [Sparkline](/cells/fr/python-net/aspose.cells.charts/sparkline).|
+| [sparklines](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/sparklines) | Obtient la collection de l'objet [Sparkline](/cells/fr/python-net/aspose.cells.charts/sparkline).|
 | [type](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/type) | Indique le type de ligne sparkline du groupe de lignes sparkline.|
 | [plot_empty_cells_type](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/plot_empty_cells_type) | Indique comment tracer les cellules vides.|
 | [display_hidden](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/display_hidden) |Indique s'il faut afficher les données dans des lignes et des colonnes masquées.|
@@ -28,7 +28,7 @@ Le type SparklineGroup expose les membres suivants :
 | [high_point_color](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/high_point_color) | Obtient et définit la couleur des points de données les plus élevés dans le groupe de graphiques sparkline.|
 | [show_low_point](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/show_low_point) | Indique s'il faut mettre en surbrillance les points de données les plus bas dans le groupe de graphiques sparkline.|
 | [low_point_color](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/low_point_color) | Obtient et définit la couleur des points de données les plus bas dans le groupe de graphiques sparkline.|
-| [show_negative_points](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/show_negative_points) | Indique s'il faut mettre en surbrillance les valeurs négatives sur le groupe sparkline avec une couleur ou un marqueur différent.|
+| [show_negative_points](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/show_negative_points) | Indique s'il faut mettre en surbrillance les valeurs négatives du groupe de graphiques sparkline avec une couleur ou un marqueur différent.|
 | [negative_points_color](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/negative_points_color) | Obtient et définit la couleur des valeurs négatives sur le groupe sparkline.|
 | [show_first_point](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/show_first_point) | Indique s'il faut mettre en surbrillance le premier point de données dans le groupe de graphiques sparkline.|
 | [first_point_color](/cells/fr/python-net/aspose.cells.charts/sparklinegroup/first_point_color) | Obtient et définit la couleur du premier point de données dans le groupe sparkline.|
@@ -55,7 +55,7 @@ Le type SparklineGroup expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

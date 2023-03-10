@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConsolidationFunction enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ El tipo ConsolidationFunction expone los siguientes miembros:
 | AVERAGE | Representa la función Promedio.|
 | MAX | Representa la función Max.|
 | MIN | Representa la función Min.|
-| PRODUCT | Representa las funciones del Producto.|
+| PRODUCT | Representa la función del Producto.|
 | COUNT_NUMS | Representa la función Count Nums.|
 | STD_DEV | Representa la función StdDev.|
 | STD_DEVP | Representa la función StdDevp.|

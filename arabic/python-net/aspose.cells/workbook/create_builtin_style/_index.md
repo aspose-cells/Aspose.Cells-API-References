@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة create_builtin_style
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def create_builtin_style(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [BuiltinStyleType](/cells/ar/python-net/aspose.cells/builtinstyletype) |  |
 

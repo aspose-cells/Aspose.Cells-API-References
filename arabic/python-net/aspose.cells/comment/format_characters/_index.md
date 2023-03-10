@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة format_characters
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def format_characters(self, start_index, length, font, flag):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | start_index | int | فهرس البداية.|
 | length | int | الطول.|

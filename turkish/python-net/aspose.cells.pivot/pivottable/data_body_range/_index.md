@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_body_range mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range mülk
 
 Veri alanını içeren aralığı temsil eden bir CellArea nesnesi döndürür
-başlık satırı ile ekleme satırı arasındaki listede.
+başlık satırı ile ekleme satırı arasındaki listede. Sadece oku.
 ###  Tanım:
 ```python
 @property

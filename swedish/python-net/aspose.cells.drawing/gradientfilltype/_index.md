@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientFillType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/gradientfilltype/
 is_root: false
 ---
 ##  GradientFillType uppräkning
-Representerar alla gradientfyllningstyper.
+Representerar alla övertoningsfyllningstyper.
 
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: ReferredArea类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1270
@@ -30,8 +30,8 @@ ReferredArea 类型公开了以下成员：
 ### 方法
 |方法|描述|
 | :- | :- |
-| [get_values()](/cells/zh/python-net/aspose.cells/referredarea/get_values/#) |获取该区域的单元格值。|
-| [get_values(calculate_formulas)](/cells/zh/python-net/aspose.cells/referredarea/get_values/#bool) |获取该区域的单元格值。|
+| [get_values()](/cells/zh/python-net/aspose.cells/referredarea/get_values/#) |获取此区域中的单元格值。|
+| [get_values(calculate_formulas)](/cells/zh/python-net/aspose.cells/referredarea/get_values/#bool) |获取此区域中的单元格值。|
 | [get_value(row_offset, col_offset)](/cells/zh/python-net/aspose.cells/referredarea/get_value/#int-int) |从该区域的左上角获取具有给定偏移量的单元格值。|
 | [get_value(row_offset, col_offset, calculate_formulas)](/cells/zh/python-net/aspose.cells/referredarea/get_value/#int-int-bool) |从该区域的左上角获取具有给定偏移量的单元格值。|
 

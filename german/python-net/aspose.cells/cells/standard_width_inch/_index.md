@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_inch Eigentum
 
-Ruft die Standardspaltenbreite im Arbeitsblatt in Zolleinheiten ab oder legt diese fest.
+Ruft die Standardspaltenbreite im Arbeitsblatt in Zoll ab oder legt diese fest.
 ###  Definition:
 ```python
 @property

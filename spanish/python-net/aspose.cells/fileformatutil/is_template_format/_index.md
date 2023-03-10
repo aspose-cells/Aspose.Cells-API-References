@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_template_format método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def is_template_format(self, extension):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | extension | str |  |
 

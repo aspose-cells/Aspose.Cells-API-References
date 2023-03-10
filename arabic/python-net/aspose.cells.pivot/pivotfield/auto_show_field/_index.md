@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_show_field الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_show_field الملكية
 
-يمثل فهرس حقل العرض التلقائي. -1 يعني PivotField نفسه.
+يمثل مؤشر حقل العرض التلقائي. -1 تعني PivotField نفسها.
 يجب أن يكون فهرس حقول البيانات.
 ###  تعريف:
 ```python

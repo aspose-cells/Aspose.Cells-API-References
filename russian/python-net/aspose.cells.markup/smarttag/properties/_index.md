@@ -1,4 +1,4 @@
-﻿---
+---
 title: properties недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  properties недвижимость
 
-Получает и задает properties смарт-тега.
+Получает и устанавливает properties смарт-тега.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_paragraph_enumerator
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

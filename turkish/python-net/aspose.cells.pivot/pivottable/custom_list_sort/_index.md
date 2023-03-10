@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_list_sort mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

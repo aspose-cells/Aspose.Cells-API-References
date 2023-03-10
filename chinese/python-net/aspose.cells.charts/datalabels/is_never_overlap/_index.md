@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_never_overlap 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 230
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_never_overlap 属性
 
-指示数据标签显示是否永不重叠。（饼图）
+指示数据标签显示是否从不重叠。 （对于饼图）
 ### 定义：
 ```python
 @property

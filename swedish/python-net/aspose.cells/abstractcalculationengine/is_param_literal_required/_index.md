@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_param_literal_required fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_param_literal_required fastighet
 
-Indikerar om denna motor behöver den bokstavliga texten i parametern när den gör beräkning. Standardvärdet är falskt.
+Indikerar om denna motor behöver den bokstavliga texten av parametern när den gör beräkningar. Standardvärdet är falskt.
 
 ###  Anmärkningar
 

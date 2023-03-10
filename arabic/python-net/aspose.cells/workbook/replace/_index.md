@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة replace
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,12 +18,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | place_holder | str | Cell نائب|
 | new_value | str | قيمة السلسلة المطلوب استبدالها|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -46,12 +46,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | place_holder | str | Cell نائب|
 | new_value | int | قيمة عدد صحيح ليحل محلها|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -75,12 +75,12 @@ def replace(self, place_holder, new_value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | place_holder | str | Cell نائب|
 | new_value | float | قيمة مزدوجة لتحل محلها|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -104,10 +104,10 @@ def replace(self, bool_value, new_value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | bool_value | bool | القيمة المنطقية المطلوب استبدالها.|
-| new_value | any | قيمة جديدة. يمكن أن تكون سلسلة أو عدد صحيح أو مزدوج أو قيمة التاريخ والوقت.|
+| new_value | any | قيمة جديدة. يمكن أن تكون سلسلة أو عددًا صحيحًا أو مزدوجًا أو قيمة DateTime.|
 
 
 ##  replace(int_value, new_value) {#int-any}
@@ -121,10 +121,10 @@ def replace(self, int_value, new_value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | int_value | int | قيمة العدد الصحيح المطلوب استبداله.|
-| new_value | any | قيمة جديدة. يمكن أن تكون سلسلة أو عدد صحيح أو مزدوج أو قيمة التاريخ والوقت.|
+| new_value | any | قيمة جديدة. يمكن أن تكون سلسلة أو عددًا صحيحًا أو مزدوجًا أو قيمة DateTime.|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}
@@ -138,13 +138,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | place_holder | str | Cell نائب|
 | new_values | list | مجموعة سلسلة ليحل محلها|
-| is_vertical | bool | صحيح عمودي ، خطأ أفقي|
+| is_vertical | bool | صحيح - عمودي ، خطأ - أفقي|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -168,13 +168,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | place_holder | str | Cell نائب|
 | new_values | list | مجموعة عدد صحيح ليحل محل|
-| is_vertical | bool | صحيح عمودي ، خطأ أفقي|
+| is_vertical | bool | صحيح - عمودي ، خطأ - أفقي|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -198,13 +198,13 @@ def replace(self, place_holder, new_values, is_vertical):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | place_holder | str | Cell نائب|
 | new_values | list | صفيف مزدوج ليحل محل|
-| is_vertical | bool | صحيح عمودي ، خطأ أفقي|
+| is_vertical | bool | صحيح - عمودي ، خطأ - أفقي|
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook
@@ -228,7 +228,7 @@ def replace(self, place_holder, new_value, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | place_holder | str | Cell نائب|
 | new_value | str | قيمة السلسلة المطلوب استبدالها|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.activexcontrols
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -43,7 +43,7 @@ is_root: false
 | [ControlScrollBarType](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/controlscrollbartype) | Kaydırma çubuğunun türünü temsil eder.|
 | [ControlScrollOrientation](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/controlscrollorientation) | Kaydırma yönünün türünü temsil eder|
 | [ControlSpecialEffectType](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype) | Özel efektin türünü temsil eder.|
-| [ControlType](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/controltype) | Tüm ActiveX denetim türlerini temsil eder.|
+| [ControlType](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/controltype) | Her türlü ActiveX denetimini temsil eder.|
 | [DropButtonStyle](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/dropbuttonstyle) | Bırak düğmesinde görüntülenen sembolü temsil eder.|
 | [InputMethodEditorMode](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode) | Giriş Yöntemi Düzenleyicisinin varsayılan çalışma zamanı modunu temsil eder.|
 | [ShowDropButtonType](/cells/tr/python-net/aspose.cells.drawing.activexcontrols/showdropbuttontype) | Bırak düğmesinin ne zaman gösterileceğini belirtir|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ Row türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [is_blank](/cells/tr/python-net/aspose.cells/row/is_blank) | Satırın herhangi bir veri içerip içermediğini gösterir|
 | [is_collapsed](/cells/tr/python-net/aspose.cells/row/is_collapsed) | satırın daraltılmış olup olmadığı|
-| [height](/cells/tr/python-net/aspose.cells/row/height) | Satır yüksekliğini Puan birimleri cinsinden alır ve ayarlar.|
+| [height](/cells/tr/python-net/aspose.cells/row/height) | Puan birimi cinsinden satır yüksekliğini alır ve ayarlar.|
 | [is_hidden](/cells/tr/python-net/aspose.cells/row/is_hidden) | Satırın gizli olup olmadığını gösterir.|
 | [index](/cells/tr/python-net/aspose.cells/row/index) | Bu satırın indeksini alır.|
 | [group_level](/cells/tr/python-net/aspose.cells/row/group_level) | Satırın grup düzeyini alır.|
@@ -53,7 +53,7 @@ Hücreyi alır.
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

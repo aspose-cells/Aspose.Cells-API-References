@@ -1,4 +1,4 @@
-﻿---
+---
 title: compression_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type الملكية
 
-الحصول على نوع الضغط لملفات ooxml وتعيينه.
+الحصول على نوع الضغط لملف ooxml وتعيينه.
 
 ###  ملاحظات
 

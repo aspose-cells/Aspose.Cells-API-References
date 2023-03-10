@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionRenameSheet الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---
 ##  RevisionRenameSheet الدرجة
-يمثل مراجعة لورقة إعادة التسمية.
+يمثل مراجعة لإعادة تسمية الورقة.
 
 
 

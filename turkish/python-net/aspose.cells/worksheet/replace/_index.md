@@ -1,4 +1,4 @@
-﻿---
+---
 title: replace yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def replace(self, old_string, new_string):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | old_string | str | Eski dize değeri.|
 | new_string | str | Yeni dize değeri.|

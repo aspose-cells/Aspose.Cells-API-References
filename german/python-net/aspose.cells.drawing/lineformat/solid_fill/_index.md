@@ -1,4 +1,4 @@
-﻿---
+---
 title: solid_fill Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

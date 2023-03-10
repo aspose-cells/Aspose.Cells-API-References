@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_editing_scenarios_allowed الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,8 +13,8 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
- الرجاء استخدام خاصية "السماح بتحرير السيناريو".
+ ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
+ الرجاء استخدام خاصية Protection.AllowEditingScenario.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ يونيو 2010.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
 ###  تعريف:

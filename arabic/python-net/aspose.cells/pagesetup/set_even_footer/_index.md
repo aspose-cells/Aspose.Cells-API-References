@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_even_footer
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def set_even_footer(self, section, footer_script):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | section | int | 0: القسم الأيسر ، 1: القسم الأوسط ، 2: القسم الأيمن.|
 | footer_script | str | نص تنسيق التذييل.|

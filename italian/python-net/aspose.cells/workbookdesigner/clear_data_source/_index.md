@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo clear_data_source
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

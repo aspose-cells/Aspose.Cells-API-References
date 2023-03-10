@@ -1,4 +1,4 @@
-﻿---
+---
 title: hyperlinks fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hyperlinks fastighet
 
-Får alla hyperlänkar i sortimentet.
+Får alla hyperlänkar i intervallet.
 ###  Definition:
 ```python
 @property

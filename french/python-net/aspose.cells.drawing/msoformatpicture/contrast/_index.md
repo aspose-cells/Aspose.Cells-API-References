@@ -1,4 +1,4 @@
-﻿---
+---
 title: contrast propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Représente la modification contrast pour l'unité de pourcentage picture.in.
 
 ###  Remarques
 
-Il est compris entre -100% et 100%.
+Il est compris entre -100% et 100%. Il fonctionne de la même manière qu'Excel 2007 ou version supérieure.
 ###  Définition:
 ```python
 @property

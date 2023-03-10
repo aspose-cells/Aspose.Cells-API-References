@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_external_connection_by_id método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_external_connection_by_id(self, conn_id):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | conn_id | int | identificación de conexión externa|
 

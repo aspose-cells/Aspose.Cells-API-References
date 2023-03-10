@@ -1,4 +1,4 @@
-﻿---
+---
 title: format méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/
 is_root: false
 ---
 ##  format(start_index, length, font, flag) {#int-int-Font-StyleFlag}
-Formatez le texte avec les paramètres de police.
+Formatez le texte avec le paramètre de police.
 
 
 
@@ -18,7 +18,7 @@ def format(self, start_index, length, font, flag):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_index | int | L'indice de départ.|
 | length | int | La durée.|

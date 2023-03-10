@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_auto_group_field méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_auto_group_field(self, base_field_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | base_field_index | int | L'index de champ de ligne ou de colonne dans les champs de base|
 
@@ -34,7 +34,7 @@ def set_auto_group_field(self, pivot_field):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/fr/python-net/aspose.cells.pivot/pivotfield) | Le champ de ligne ou de colonne dans les champs spécifiques|
 

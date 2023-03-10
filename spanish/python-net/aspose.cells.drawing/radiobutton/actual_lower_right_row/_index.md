@@ -1,4 +1,4 @@
-﻿---
+---
 title: actual_lower_right_row propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtenga la fila inferior real.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

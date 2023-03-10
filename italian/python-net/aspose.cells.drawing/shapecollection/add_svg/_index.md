@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_svg
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add_svg(self, upper_left_row, top, upper_left_column, left, height, width, s
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | upper_left_row | int | Indice della riga in alto a sinistra.|
 | top | int | Rappresenta l'offset verticale della forma dalla riga sinistra, in unità di pixel.|
@@ -33,7 +33,7 @@ def add_svg(self, upper_left_row, top, upper_left_column, left, height, width, s
 | svg_data | bytes | I dati dell'immagine svg.|
 | compatible_image_data | bytes |Dati di immagine convertiti da svg per essere compatibili con Excel 2016 o versioni precedenti.|
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose import pycore

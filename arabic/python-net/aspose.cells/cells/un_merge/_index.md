@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة un_merge
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,9 +18,9 @@ def un_merge(self, first_row, first_column, total_rows, total_columns):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| first_row | int | الصف الأول من هذا النطاق (قائم على الصفر)|
+| first_row | int | الصف الأول من هذا النطاق (على أساس الصفر)|
 | first_column | int | العمود الأول من هذا النطاق (على أساس الصفر)|
 | total_rows | int | عدد الصفوف (واحد على أساس)|
 | total_columns | int | عدد الأعمدة (واحد قائم)|

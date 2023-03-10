@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cell Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -26,7 +26,7 @@ Der Typ Cell macht die folgenden Member verfügbar:
 | [name](/cells/de/python-net/aspose.cells/cell/name) | Ruft den Namen der Zelle ab.|
 | [is_error_value](/cells/de/python-net/aspose.cells/cell/is_error_value) | Überprüft, ob der Wert dieser Zelle ein Fehler ist.|
 | [is_numeric_value](/cells/de/python-net/aspose.cells/cell/is_numeric_value) | Gibt an, ob der innere Wert dieser Zelle numerisch ist (int, double und datetime)|
-| [string_value](/cells/de/python-net/aspose.cells/cell/string_value) |Ruft den in der Zelle enthaltenen Zeichenfolgenwert ab.<br/>Für andere Zelltypen wird der formatierte Zeichenfolgenwert (formatiert mit dem angegebenen Stil dieser Zelle) zurückgegeben.<br/>Der formatierte Zellenwert ist derselbe wie der, den Sie aus Excel erhalten, wenn Sie eine Zelle als Text kopieren (z<br/> Zelle in Texteditor kopieren oder in CSV exportieren).|
+| [string_value](/cells/de/python-net/aspose.cells/cell/string_value) |Ruft den in der Zelle enthaltenen Zeichenfolgenwert ab. Wenn der Typ dieser Zelle eine Zeichenfolge ist, geben Sie den Zeichenfolgenwert selbst zurück.<br/>Für andere Zelltypen wird der formatierte Zeichenfolgenwert (formatiert mit dem angegebenen Stil dieser Zelle) zurückgegeben.<br/>Der formatierte Zellenwert ist derselbe wie der, den Sie aus Excel erhalten, wenn Sie eine Zelle als Text kopieren (z<br/> Zelle in Texteditor kopieren oder in CSV exportieren).|
 | [string_value_without_format](/cells/de/python-net/aspose.cells/cell/string_value_without_format) | Ruft den Wert der Zelle als Zeichenfolge ohne Format ab.|
 | [number_category_type](/cells/de/python-net/aspose.cells/cell/number_category_type) | Stellt den Kategorietyp der Zahlenformatierung dieser Zelle dar.|
 | [display_string_value](/cells/de/python-net/aspose.cells/cell/display_string_value) | Ruft den formatierten Zeichenfolgenwert dieser Zelle nach Anzeigestil der Zelle ab.|
@@ -34,7 +34,7 @@ Der Typ Cell macht die folgenden Member verfügbar:
 | [double_value](/cells/de/python-net/aspose.cells/cell/double_value) | Ruft den in der Zelle enthaltenen Double-Wert ab.|
 | [float_value](/cells/de/python-net/aspose.cells/cell/float_value) | Ruft den in der Zelle enthaltenen Gleitkommawert ab.|
 | [bool_value](/cells/de/python-net/aspose.cells/cell/bool_value) | Ruft den in der Zelle enthaltenen booleschen Wert ab.|
-| [has_custom_style](/cells/de/python-net/aspose.cells/cell/has_custom_style) | Gibt an, ob diese Zelle über benutzerdefinierte Stileinstellungen verfügt (die sich von den standardmäßig geerbten unterscheiden<br/> aus der entsprechenden Zeile, Spalte oder Arbeitsmappe).|
+| [has_custom_style](/cells/de/python-net/aspose.cells/cell/has_custom_style) | Gibt an, ob diese Zelle benutzerdefinierte Stileinstellungen hat (anders als die standardmäßig geerbten<br/> aus der entsprechenden Zeile, Spalte oder Arbeitsmappe).|
 | [shared_style_index](/cells/de/python-net/aspose.cells/cell/shared_style_index) | Ruft den gemeinsam genutzten Stilindex der Zelle im Stilpool ab.|
 | [formula](/cells/de/python-net/aspose.cells/cell/formula) | Ruft eine Formel von [Cell](/cells/de/python-net/aspose.cells/cell) ab oder legt diese fest.|
 | [formula_local](/cells/de/python-net/aspose.cells/cell/formula_local) | Rufen Sie die gebietsschemaformatierte Formel der Zelle ab.|
@@ -48,7 +48,7 @@ Der Typ Cell macht die folgenden Member verfügbar:
 | [is_table_formula](/cells/de/python-net/aspose.cells/cell/is_table_formula) | Gibt an, ob diese Zelle Teil einer Tabellenformel ist.|
 | [is_in_table](/cells/de/python-net/aspose.cells/cell/is_in_table) | Gibt an, ob diese Zelle Teil einer Tabellenformel ist.|
 | [value](/cells/de/python-net/aspose.cells/cell/value) | Ruft den in dieser Zelle enthaltenen Wert ab.|
-| [is_style_set](/cells/de/python-net/aspose.cells/cell/is_style_set) | Gibt an, ob der Stil der Zelle festgelegt ist. Wenn "false" zurückgegeben wird, bedeutet dies, dass diese Zelle ein Standardzellenformat hat.|
+| [is_style_set](/cells/de/python-net/aspose.cells/cell/is_style_set) | Gibt an, ob der Stil der Zelle festgelegt ist. Wenn false zurückgegeben wird, bedeutet dies, dass diese Zelle ein Standardzellenformat hat.|
 | [is_merged](/cells/de/python-net/aspose.cells/cell/is_merged) | Überprüft, ob eine Zelle Teil eines zusammengeführten Bereichs ist oder nicht.|
 | [comment](/cells/de/python-net/aspose.cells/cell/comment) | Ruft den Kommentar dieser Zelle ab.|
 | [html_string](/cells/de/python-net/aspose.cells/cell/html_string) | Ruft die HTML-Zeichenfolge ab und legt sie fest, die Daten und einige Formate in dieser Zelle enthält.|
@@ -87,18 +87,18 @@ Der Typ Cell macht die folgenden Member verfügbar:
 | [set_shared_formula(shared_formula, row_number, column_number, options, values)](/cells/de/python-net/aspose.cells/cell/set_shared_formula/#str-int-int-FormulaParseOptions-list) | Legt freigegebene Formeln auf einen Zellbereich fest.|
 | [get_leafs()](/cells/de/python-net/aspose.cells/cell/get_leafs/#) | Rufen Sie alle Zellen ab, die direkt auf diese Zelle verweisen und aktualisiert werden müssen, wenn diese Zelle geändert wird.|
 | [get_leafs(recursive)](/cells/de/python-net/aspose.cells/cell/get_leafs/#bool) | Holen Sie sich alle Zellen, die aktualisiert werden, wenn diese Zelle geändert wird.|
-| [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/de/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) | Legt eine dynamische Matrixformel fest und bewirkt, dass die Formel nach Möglichkeit in benachbarte Zellen übergeht.|
-| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/de/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) | Legt eine dynamische Matrixformel fest und bewirkt, dass die Formel nach Möglichkeit in benachbarte Zellen übergeht.|
-| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/de/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) | Legt eine dynamische Matrixformel fest und bewirkt, dass die Formel nach Möglichkeit in benachbarte Zellen übergeht.|
-| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/de/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Erstellen Sie ausgehend von dieser Zelle eine Datentabelle mit zwei Variablen für einen bestimmten Bereich.|
+| [set_dynamic_array_formula(array_formula, options, calculate_value)](/cells/de/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-bool) | Legt eine dynamische Matrixformel fest und lässt die Formel nach Möglichkeit in benachbarte Zellen übergehen.|
+| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value)](/cells/de/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool) | Legt eine dynamische Matrixformel fest und lässt die Formel nach Möglichkeit in benachbarte Zellen übergehen.|
+| [set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts)](/cells/de/python-net/aspose.cells/cell/set_dynamic_array_formula/#str-FormulaParseOptions-list-bool-bool-CalculationOptions) | Legt eine dynamische Matrixformel fest und lässt die Formel nach Möglichkeit in benachbarte Zellen übergehen.|
+| [set_table_formula(row_number, column_number, row_input_cell, column_input_cell, values)](/cells/de/python-net/aspose.cells/cell/set_table_formula/#int-int-str-str-list) | Erstellen Sie eine Datentabelle mit zwei Variablen für einen bestimmten Bereich, beginnend mit dieser Zelle.|
 | [set_table_formula(row_number, column_number, input_cell, is_row_input, values)](/cells/de/python-net/aspose.cells/cell/set_table_formula/#int-int-str-bool-list) | Erstellen Sie eine Datentabelle mit einer Variablen für einen bestimmten Bereich, beginnend mit dieser Zelle.|
-| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/de/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Erstellen Sie ausgehend von dieser Zelle eine Datentabelle mit zwei Variablen für einen bestimmten Bereich.|
+| [set_table_formula(row_number, column_number, row_index_of_row_input_cell, column_index_of_row_input_cell, row_index_of_column_input_cell, column_index_of_column_input_cell, values)](/cells/de/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-int-int-list) | Erstellen Sie eine Datentabelle mit zwei Variablen für einen bestimmten Bereich, beginnend mit dieser Zelle.|
 | [set_table_formula(row_number, column_number, row_index_of_input_cell, column_index_of_input_cell, is_row_input, values)](/cells/de/python-net/aspose.cells/cell/set_table_formula/#int-int-int-int-bool-list) | Erstellen Sie eine Datentabelle mit einer Variablen für einen bestimmten Bereich, beginnend mit dieser Zelle.|
 | [get_characters()](/cells/de/python-net/aspose.cells/cell/get_characters/#) | Gibt alle Characters-Objekte zurück<br/> das einen Bereich von Zeichen innerhalb des Zellentextes darstellt.|
 | [get_characters(flag)](/cells/de/python-net/aspose.cells/cell/get_characters/#bool) | Gibt alle Characters-Objekte zurück<br/> das einen Bereich von Zeichen innerhalb des Zellentextes darstellt.|
 | [get_string_value(format_strategy)](/cells/de/python-net/aspose.cells/cell/get_string_value/#CellValueFormatStrategy) | Ruft den Zeichenfolgenwert durch eine bestimmte formatierte Strategie ab.|
-| [get_width_of_value()](/cells/de/python-net/aspose.cells/cell/get_width_of_value/#) | Ruft die Breite des Werts in Pixeleinheiten ab.|
-| [get_height_of_value()](/cells/de/python-net/aspose.cells/cell/get_height_of_value/#) | Ruft die Höhe des Werts in Pixeleinheiten ab.|
+| [get_width_of_value()](/cells/de/python-net/aspose.cells/cell/get_width_of_value/#) | Ruft die Breite des Werts in Pixeln ab.|
+| [get_height_of_value()](/cells/de/python-net/aspose.cells/cell/get_height_of_value/#) | Ruft die Höhe des Werts in Pixeln ab.|
 | [get_format_conditions()](/cells/de/python-net/aspose.cells/cell/get_format_conditions/#) | Ruft Formatbedingungen ab, die für diese Zelle gelten.|
 | [get_formula(is_r1c1, is_local)](/cells/de/python-net/aspose.cells/cell/get_formula/#bool-bool) | Holen Sie sich die Formel dieser Zelle.|
 | [get_precedents()](/cells/de/python-net/aspose.cells/cell/get_precedents/#) |Ruft alle Verweise ab, die in der Formel dieser Zelle vorkommen.|
@@ -122,7 +122,7 @@ Der Typ Cell macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import TextAlignmentType, Workbook

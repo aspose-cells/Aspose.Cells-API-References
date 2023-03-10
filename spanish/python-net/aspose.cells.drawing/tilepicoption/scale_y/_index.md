@@ -1,4 +1,4 @@
-﻿---
+---
 title: scale_y propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y propiedad
 
-Obtiene o establece la escala Y para las imágenes en mosaico.
+Obtiene o establece la escala Y para la imagen en mosaico.
 ###  Definición:
 ```python
 @property

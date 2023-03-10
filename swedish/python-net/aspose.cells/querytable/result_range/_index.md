@@ -1,4 +1,4 @@
-﻿---
+---
 title: result_range fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range fastighet
 
-Får resultatomfånget.
+Får resultatets omfång.
 ###  Definition:
 ```python
 @property

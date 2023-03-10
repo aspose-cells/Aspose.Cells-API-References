@@ -1,4 +1,4 @@
-﻿---
+---
 title: size propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  size propriété
 
-Obtient et définit le rayon de la lueur, en unités de points.
+Obtient et définit le rayon de la lueur, en unité de points.
 ###  Définition:
 ```python
 @property

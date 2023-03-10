@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_font_color_filter
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def add_font_color_filter(self, field_index, color):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'intero offset del campo su cui si desidera basare il filtro<br/> (da sinistra dell'elenco; il campo più a sinistra è il campo 0).|
 | color | [CellsColor](/cells/it/python-net/aspose.cells/cellscolor) | L'oggetto [CellsColor](/cells/it/python-net/aspose.cells/cellscolor).|

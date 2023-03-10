@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_area
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,9 +18,9 @@ def remove_area(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| index | int | فهرس نطاق الخلايا المنسق شرطيًا المراد إزالته.|
+| index | int | فهرس نطاق الخلايا المنسقة الشرطي المراد إزالته.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}
@@ -29,7 +29,7 @@ def remove_area(self, index):
 
 ###  عائدات
 
-بإرجاع TRUE ، يجب إزالة FormatConditionCollection هذه.
+بإرجاع TRUE ، يجب إزالة FormatCondtionCollection هذه.
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| start_row | int | صف البداية للنطاق.|
-| start_column | int | عمود البداية للنطاق.|
+| start_row | int | بداية صف النطاق.|
+| start_column | int | بداية النطاق.|
 | total_rows | int | عدد صفوف النطاق.|
 | total_columns | int | عدد أعمدة النطاق.|
 

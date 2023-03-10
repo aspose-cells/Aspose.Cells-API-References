@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_angle_axes fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes fastighet
 
-Sant om diagrammets axlar är i rät vinkel. Gäller endast för 3D-diagram (förutom Column3D och 3D-cirkeldiagram).
+Sant om diagrammets axlar är i rät vinkel. Gäller endast för 3-D-diagram (förutom Column3D och 3-D-cirkeldiagram).
 
 ###  Anmärkningar
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_cell propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  last_cell propiedad
 
-Obtiene la última celda de esta hoja de trabajo.
+Obtiene la última celda de esta hoja de cálculo.
 
 ###  Observaciones
 
-Devuelve nulo si no hay datos en la hoja de trabajo.
+Devuelve nulo si no hay datos en la hoja de cálculo.
 ###  Definición:
 ```python
 @property

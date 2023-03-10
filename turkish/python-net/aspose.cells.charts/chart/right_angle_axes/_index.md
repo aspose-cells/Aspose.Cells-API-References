@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_angle_axes mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes mülk
 
-Grafik eksenleri dik açıdaysa doğrudur. Yalnızca 3-B grafikler için geçerlidir (Column3D ve 3-D Pasta Grafikler hariç).
+Grafik eksenleri dik açıdaysa doğrudur. Yalnızca 3-B grafikler için geçerlidir (Column3D ve 3-B Pasta Grafikler hariç).
 
 ###  Notlar
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: title الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحدد title (تسمية توضيحية) لعنصر الشكل الحالي.
 
-###  أمثلة
+###  مثال
 
 ```python
 

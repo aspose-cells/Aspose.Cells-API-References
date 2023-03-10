@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_labels الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

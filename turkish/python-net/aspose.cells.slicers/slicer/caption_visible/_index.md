@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption_visible mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -12,7 +12,7 @@ is_root: false
 Dilimleyici Resim Yazısını görüntüleyen başlığın görünür olup olmadığını döndürür veya ayarlar
 varsayılan değer doğrudur
 
-###  örnekler
+###  Örnek
 
 ```python
 

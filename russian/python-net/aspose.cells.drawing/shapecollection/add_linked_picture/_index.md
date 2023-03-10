@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_linked_picture метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,12 +22,12 @@ def add_linked_picture(self, upper_left_row, upper_left_column, height, width, s
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | upper_left_column | int | Индекс левого верхнего столбца.|
-| height | int | Высота формы.|
-| width | int | Ширина формы.|
+| height | int | Высота формы. В единицах пикселей|
+| width | int | Ширина формы. В единицах пикселей|
 | source_full_name | str | Путь и имя исходного файла для связанного изображения|
 
 

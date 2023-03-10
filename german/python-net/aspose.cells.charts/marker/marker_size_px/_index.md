@@ -1,4 +1,4 @@
-﻿---
+---
 title: marker_size_px Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  marker_size_px Eigentum
 
-Stellt die Markierungsgröße in Pixeleinheiten dar. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
+Repräsentiert die Markierungsgröße in Pixeleinheiten. Gilt für Liniendiagramme, Streudiagramme oder Netzdiagramme.
 ###  Definition:
 ```python
 @property

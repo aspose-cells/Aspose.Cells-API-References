@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_color_in_palette metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Kontrollerar om en färg finns i paletten för kalkylarket.
 
 ###  Returnerar
 
-Returnerar sant om denna färg finns i paletten.
+Returnerar sant om denna färg finns i paletten. Annars returneras falskt
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Färgstruktur.|
 

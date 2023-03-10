@@ -1,6 +1,6 @@
-﻿---
+---
 title: only_use_connection_file 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 140
@@ -11,7 +11,7 @@ is_root: false
 
 指示电子表格应用程序是否应始终且仅使用
 odcFile 属性指示的外部连接文件中的连接信息
-当连接刷新时。如果为 false，则电子表格应用程序
+刷新连接时。如果为假，则电子表格应用程序
 应遵循 reconnectionMethod 属性指示的过程
 ### 定义：
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo is_color_in_palette
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Controlla se un colore è nella tavolozza per il foglio di calcolo.
 
 ###  ritorna
 
-Restituisce vero se questo colore è nella tavolozza.
+Restituisce vero se questo colore è nella tavolozza. In caso contrario, restituisce false
 
 
 ```python
@@ -22,7 +22,7 @@ def is_color_in_palette(self, color):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | Struttura del colore.|
 

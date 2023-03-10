@@ -1,4 +1,4 @@
-﻿---
+---
 title: radius proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,8 +13,8 @@ Ottiene e imposta radius del bagliore, in unità di punti.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
- Utilizzare la proprietà GlowEffect.Size.
+ NOTA: questo membro è ora obsoleto. Invece,
+ si prega di utilizzare la proprietà GlowEffect.Size.
  Questa proprietà verrà rimossa 6 mesi dopo da settembre 2016.
 Aspose si scusa per gli eventuali disagi causati.
 ###  Definizione:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSaveOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/pdfsaveoptions/
 is_root: false
 ---
 ##  PdfSaveOptions класс
-Представляет параметры для сохранения файлов PDF.
+Представляет параметры для сохранения файла PDF.
 
 
 
@@ -23,7 +23,7 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [PdfSaveOptions()](/cells/ru/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Создает параметры для сохранения файлов PDF.|
+| [PdfSaveOptions()](/cells/ru/python-net/aspose.cells/pdfsaveoptions/__init__/#) | Создает параметры для сохранения файла PDF.|
 
 
 ###  Характеристики
@@ -36,9 +36,9 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/pdfsaveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/pdfsaveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/pdfsaveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних имен перед сохранением файла.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/pdfsaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
 | [refresh_chart_cache](/cells/ru/python-net/aspose.cells/pdfsaveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
-| [warning_callback](/cells/ru/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Получает или задает обратные вызовы предупреждения.|
+| [warning_callback](/cells/ru/python-net/aspose.cells/pdfsaveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/pdfsaveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [default_font](/cells/ru/python-net/aspose.cells/pdfsaveoptions/default_font) | Когда символы в Excel имеют формат Unicode и для них не задан правильный шрифт в стиле ячейки,<br/>Они могут отображаться как блок в pdf, изображение.<br/>Установите DefaultFont, например MingLiu или MS Gothic, чтобы отображались эти символы.<br/> Если это свойство не установлено, Aspose.Cells будет использовать системный шрифт по умолчанию для отображения этих символов Юникода.|
 | [check_workbook_default_font](/cells/ru/python-net/aspose.cells/pdfsaveoptions/check_workbook_default_font) | Когда символы в Excel имеют формат Unicode и для них не задан правильный шрифт в стиле ячейки,<br/>Они могут отображаться как блок в pdf, изображение.<br/> Установите для этого параметра значение true, чтобы попытаться использовать шрифт рабочей книги по умолчанию для отображения этих символов в первую очередь.|
@@ -60,14 +60,14 @@ is_root: false
 | [embed_standard_windows_fonts](/cells/ru/python-net/aspose.cells/pdfsaveoptions/embed_standard_windows_fonts) | Значение true для встраивания шрифтов истинного типа.<br/>Влияет только на символы ASCII 32–127.<br/>Шрифты для кодов символов больше 127 всегда встроены.<br/>Шрифты всегда встроены для стандарта PDF/A-1a, PDF/A-1b.<br/> Значение по умолчанию верно.|
 | [bookmark](/cells/ru/python-net/aspose.cells/pdfsaveoptions/bookmark) |Получает и задает объект [PdfBookmarkEntry](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry).|
 | [compliance](/cells/ru/python-net/aspose.cells/pdfsaveoptions/compliance) | Рабочая книга преобразуется в pdf в соответствии с PdfCompliance в этом свойстве.|
-| [security_options](/cells/ru/python-net/aspose.cells/pdfsaveoptions/security_options) | Установите эти параметры, если требуется безопасность в результате xls2pdf.|
+| [security_options](/cells/ru/python-net/aspose.cells/pdfsaveoptions/security_options) | Установите эти параметры, когда требуется безопасность в результате xls2pdf.|
 | [image_type](/cells/ru/python-net/aspose.cells/pdfsaveoptions/image_type) | Представляет тип изображения при преобразовании диаграммы и фигуры.|
 | [calculate_formula](/cells/ru/python-net/aspose.cells/pdfsaveoptions/calculate_formula) | Указывает, следует ли вычислять формулы перед сохранением файла PDF.|
 | [pdf_compression](/cells/ru/python-net/aspose.cells/pdfsaveoptions/pdf_compression) | Укажите алгоритм сжатия|
 | [created_time](/cells/ru/python-net/aspose.cells/pdfsaveoptions/created_time) | Получает и задает время создания pdf-документа.|
 | [producer](/cells/ru/python-net/aspose.cells/pdfsaveoptions/producer) | Получает и устанавливает производителя сгенерированного PDF-документа.|
 | [optimization_type](/cells/ru/python-net/aspose.cells/pdfsaveoptions/optimization_type) | Получает и устанавливает тип оптимизации PDF.|
-| [custom_properties_export](/cells/ru/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Получает или задает значение, определяющее способ экспорта [CustomDocumentPropertyCollection](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection) в файл PDF. Значение по умолчанию — None.|
+| [custom_properties_export](/cells/ru/python-net/aspose.cells/pdfsaveoptions/custom_properties_export) | Получает или задает значение, определяющее способ экспорта [CustomDocumentPropertyCollection](/cells/ru/python-net/aspose.cells.properties/customdocumentpropertycollection) в файл PDF. Значение по умолчанию — Нет.|
 | [export_document_structure](/cells/ru/python-net/aspose.cells/pdfsaveoptions/export_document_structure) | Указывает, следует ли экспортировать структуру документа.|
 | [emf_render_setting](/cells/ru/python-net/aspose.cells/pdfsaveoptions/emf_render_setting) | Настройка для рендеринга метафайла EMF.|
 | [display_doc_title](/cells/ru/python-net/aspose.cells/pdfsaveoptions/display_doc_title) | Указывает, должна ли строка заголовка окна отображать заголовок документа.|

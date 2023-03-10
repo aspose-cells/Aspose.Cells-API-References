@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة delete_text
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def delete_text(self, index, count):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int | فهرس البداية.|
 | count | int | عدد الشخصيات.|

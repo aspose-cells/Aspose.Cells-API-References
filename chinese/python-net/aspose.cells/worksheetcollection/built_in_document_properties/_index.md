@@ -1,6 +1,6 @@
-﻿---
+---
 title: built_in_document_properties 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 250
@@ -13,7 +13,7 @@ is_root: false
 
 ### 评论
 
-无法将新属性添加到内置文档属性列表中。
+无法将新属性添加到内置文档属性列表中。您只能获取内置属性并更改其值。
 以下是内置属性名称列表：
 
 标题
@@ -25,7 +25,7 @@ is_root: false
 作者
 
 
-关键字
+关键词
 
 
 评论

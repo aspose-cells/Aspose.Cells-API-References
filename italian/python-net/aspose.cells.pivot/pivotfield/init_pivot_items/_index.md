@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo init_pivot_items
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

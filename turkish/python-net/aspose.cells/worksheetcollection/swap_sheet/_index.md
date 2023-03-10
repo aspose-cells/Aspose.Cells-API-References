@@ -1,4 +1,4 @@
-﻿---
+---
 title: swap_sheet yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def swap_sheet(self, sheet_index1, sheet_index2):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sheet_index1 | int | İlk çalışma sayfası.|
 | sheet_index2 | int | İkinci çalışma sayfası.|

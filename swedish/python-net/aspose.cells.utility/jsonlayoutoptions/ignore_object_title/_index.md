@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_object_title fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ignore_object_title fastighet
 
-Indikerar om titel ska ignoreras om objekt är en egenskap hos objekt.
+Indikerar om ignorera titel om objekt är en egenskap hos objekt.
 
 ###  Anmärkningar
 

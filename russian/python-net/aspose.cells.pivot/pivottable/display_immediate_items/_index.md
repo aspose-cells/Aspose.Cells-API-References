@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_immediate_items недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  display_immediate_items недвижимость
 
 Указывает, видны ли элементы в области строк и столбцов.
-когда область данных сводной таблицы пуста.
+когда область данных сводной таблицы пуста. Значение по умолчанию верно.
 ###  Определение:
 ```python
 @property

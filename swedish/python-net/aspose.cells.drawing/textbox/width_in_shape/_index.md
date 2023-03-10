@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_in_shape fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  width_in_shape fastighet
 
-Representerar formens bredd, i enheter på 1/4000 av den överordnade formen.
+Representerar formens bredd, i enheten 1/4000 av den överordnade formen.
 
 ###  Anmärkningar
 
-Gäller endast när denna form finns i gruppen eller diagrammet.
+Gäller endast när denna form i gruppen eller diagrammet.
 
 ###  Exempel
 

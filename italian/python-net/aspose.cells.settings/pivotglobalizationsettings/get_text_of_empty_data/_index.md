@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_text_of_empty_data
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

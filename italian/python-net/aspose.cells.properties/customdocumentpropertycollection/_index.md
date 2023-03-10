@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe CustomDocumentPropertyCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -36,11 +36,11 @@ Il tipo CustomDocumentPropertyCollection espone i membri seguenti:
 | [last_index_of(item)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty) | Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occorrenza all'interno dell'intero elenco di matrici.|
 | [last_index_of(item, index)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int) | Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occorrenza all'interno dell'intervallo di elementi nell'elenco di matrici che si estende dal primo elemento all'indice specificato.|
 | [last_index_of(item, index, count)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/last_index_of/#DocumentProperty-int-int) |Cerca l'oggetto specificato e restituisce l'indice in base zero dell'ultima occorrenza all'interno dell'intervallo di elementi nell'elenco di matrici che contiene il numero specificato di elementi e termina con l'indice specificato.|
-| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | Crea una nuova proprietà del documento personalizzata di**Tipo di proprietà.Stringa** tipo di dati.|
+| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-str) | Crea una nuova proprietà del documento personalizzata di**PropertyType.String** tipo di dati.|
 | [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-int) | Crea una nuova proprietà del documento personalizzata di**TipoProprietà.Numero** tipo di dati.|
-| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Crea una nuova proprietà del documento personalizzata di**Tipo di proprietà.DateTime** tipo di dati.|
-| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Crea una nuova proprietà del documento personalizzata di**PropertyType Booleano** tipo di dati.|
-| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Crea una nuova proprietà del documento personalizzata di**PropertyType** tipo di dati.|
+| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-DateTime) | Crea una nuova proprietà del documento personalizzata di**PropertyType.DateTime** tipo di dati.|
+| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-bool) | Crea una nuova proprietà del documento personalizzata di**PropertyType.Boolean** tipo di dati.|
+| [add(name, value)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add/#str-float) | Crea una nuova proprietà del documento personalizzata di**PropertyType.Float** tipo di dati.|
 | [binary_search(item)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/binary_search/#DocumentProperty) | Cerca un elemento nell'intero elenco di matrici ordinate utilizzando l'operatore di confronto predefinito e restituisce l'indice in base zero dell'elemento.|
 | [add_link_to_content(name, source)](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/add_link_to_content/#str-str) | Crea una nuova proprietà del documento personalizzata che si collega al contenuto.|
 | [update_linked_property_value()](/cells/it/python-net/aspose.cells.properties/customdocumentpropertycollection/update_linked_property_value/#) |Aggiorna il valore della proprietà del documento personalizzato che collega al contenuto.|
@@ -52,7 +52,7 @@ Il tipo CustomDocumentPropertyCollection espone i membri seguenti:
 
 Ogni oggetto [DocumentProperty](/cells/it/python-net/aspose.cells.properties/documentproperty) rappresenta una proprietà personalizzata di un documento contenitore.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

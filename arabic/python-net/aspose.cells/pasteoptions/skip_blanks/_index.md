@@ -1,4 +1,4 @@
-﻿---
+---
 title: skip_blanks الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  skip_blanks الملكية
 
-يشير إلى ما إذا كان سيتم تخطي الخلايا الفارغة.
+يشير إلى ما إذا كان يتم تخطي الخلايا الفارغة.
 ###  تعريف:
 ```python
 @property

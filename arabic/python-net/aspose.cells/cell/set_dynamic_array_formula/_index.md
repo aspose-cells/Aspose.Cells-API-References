@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_dynamic_array_formula
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cell/set_dynamic_array_formula/
 is_root: false
 ---
 ##  set_dynamic_array_formula(array_formula, options, calculate_value) {#str-FormulaParseOptions-bool}
-يعيّن صيغة صفيف ديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.
+يضبط صيغة الصفيف الديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.
 
 
 ###  عائدات
@@ -22,15 +22,15 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | array_formula | str | تعبير الصيغة|
 | options | [FormulaParseOptions](/cells/ar/python-net/aspose.cells/formulaparseoptions) | خيارات لتحليل الصيغة.<br/> سيتم تجاهل خيار "التحليل" وسيتم دائمًا تحليل الصيغة فورًا|
-| calculate_value | bool | ما إذا كان سيتم حساب صيغة الصفيف الديناميكية هذه لتلك الخلايا في النطاق الممتد.|
+| calculate_value | bool | سواء حساب صيغة الصفيف الديناميكية هذه لتلك الخلايا في النطاق الممتد.|
 
 
 ##  set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value) {#str-FormulaParseOptions-list-bool-bool}
-يعيّن صيغة صفيف ديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.
+يضبط صيغة الصفيف الديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.
 
 
 ###  عائدات
@@ -44,7 +44,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | array_formula | str | تعبير الصيغة|
 | options | [FormulaParseOptions](/cells/ar/python-net/aspose.cells/formulaparseoptions) | خيارات لتحليل الصيغة.<br/> سيتم تجاهل خيار "التحليل" وسيتم دائمًا تحليل الصيغة فورًا|
@@ -54,7 +54,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 
 
 ##  set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts) {#str-FormulaParseOptions-list-bool-bool-CalculationOptions}
-يعيّن صيغة صفيف ديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.
+يضبط صيغة الصفيف الديناميكية ويجعل الصيغة تنتشر في الخلايا المجاورة إن أمكن.
 
 
 ###  عائدات
@@ -68,7 +68,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | array_formula | str | تعبير الصيغة|
 | options | [FormulaParseOptions](/cells/ar/python-net/aspose.cells/formulaparseoptions) | خيارات لتحليل الصيغة.<br/> سيتم تجاهل خيار "التحليل" وسيتم دائمًا تحليل الصيغة فورًا|

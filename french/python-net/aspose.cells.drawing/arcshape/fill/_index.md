@@ -1,4 +1,4 @@
-﻿---
+---
 title: fill propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie un objet [Shape.fill_format](/cells/fr/python-net/aspose.cells.drawing/shape#fill_format) qui contient les propriétés de mise en forme fill pour la forme spécifiée.
 
-###  Exemples
+###  Exemple
 
 ```python
 

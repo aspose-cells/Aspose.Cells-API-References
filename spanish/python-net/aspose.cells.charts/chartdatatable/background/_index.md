@@ -1,4 +1,4 @@
-﻿---
+---
 title: background propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene y establece el modo de visualización del background
 
 ###  Observaciones
 
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
  utilice la propiedad ChartDataTable.BackgroundMode.
  Esta propiedad será eliminada 12 meses después desde ENERO 2012.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_style Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ def get_cell_style(self, row, column):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | row | int | Zeilenindex|
-| column | int | Säulen|
+| column | int | Spalte|
 
 
 

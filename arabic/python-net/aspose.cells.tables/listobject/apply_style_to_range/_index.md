@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة apply_style_to_range
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

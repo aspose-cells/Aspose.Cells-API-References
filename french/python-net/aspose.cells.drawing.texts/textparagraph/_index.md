@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraph classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -41,7 +41,7 @@ Le type TextParagraph expose les membres suivants :
 | [right_margin](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/right_margin) | Spécifie la marge droite du paragraphe.|
 | [left_margin](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/left_margin) | Spécifie la marge gauche du paragraphe.|
 | [first_line_indent](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/first_line_indent) | Spécifie la taille de retrait qui sera appliquée à la première ligne de texte du paragraphe.|
-| [font_align_type](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Détermine où verticalement sur une ligne de texte les mots réels sont positionnés.<br/> avec placement vertical des caractères par rapport aux lignes de base.|
+| [font_align_type](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/font_align_type) |Détermine où verticalement sur une ligne de texte les mots réels sont positionnés. Cela traite<br/> avec placement vertical des caractères par rapport aux lignes de base.|
 | [alignment_type](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/alignment_type) | Obtient et définit le type d'alignement horizontal du texte du paragraphe.|
 | [default_tab_size](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/default_tab_size) | Obtient et définit la taille par défaut d'un caractère de tabulation dans ce paragraphe.|
 | [children](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph/children) | Obtient toutes les exécutions de texte dans ce paragraphe.<br/> Si ce paragraphe est vide, retourne le paragraphe lui-même.|

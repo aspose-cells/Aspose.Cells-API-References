@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_date_time_value
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

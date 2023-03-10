@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_cols_and_rows fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_cols_and_rows fastighet
 
-Anger om automatiskt anpassa kolumner och rader.
+Anger om automatiskt anpassa kolumner och rader. Standardvärdet är falskt.
 ###  Definition:
 ```python
 @property

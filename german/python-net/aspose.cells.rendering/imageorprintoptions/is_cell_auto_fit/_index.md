@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_cell_auto_fit Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -14,7 +14,7 @@ Der Standardwert ist falsch.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 bitte verwenden Sie [Worksheet.auto_fit_columns()](/cells/de/python-net/aspose.cells/worksheet/auto_fit_columns) und [Worksheet.auto_fit_rows()](/cells/de/python-net/aspose.cells/worksheet/auto_fit_rows).
  Diese Property wird 12 Monate später seit August 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

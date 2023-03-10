@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_pixel proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Restituisce o imposta l'offset verticale della forma affettatrice dalla riga superiore, in pixel.
 
-###  Esempi
+###  Esempio
 
 ```python
 

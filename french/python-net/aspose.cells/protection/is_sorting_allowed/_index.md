@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_sorting_allowed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,8 +13,8 @@ Représente si l'option de tri est autorisée sur une feuille de calcul protég�
 
 ###  Remarques
 
- REMARQUE : ce membre est désormais obsolète.
- Veuillez utiliser la propriété Protection.AllowSorting.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
+ veuillez utiliser la propriété Protection.AllowSorting.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

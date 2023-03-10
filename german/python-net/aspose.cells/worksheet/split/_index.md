@@ -1,4 +1,4 @@
-﻿---
+---
 title: split Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-Geteiltes Fenster.
+Teilt Fenster.
 
 
 

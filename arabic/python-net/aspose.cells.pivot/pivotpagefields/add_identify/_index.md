@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_identify
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ def add_identify(self, range_index, page_item_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range_index | int |مؤشر نطاق بيانات التوحيد.|
 | page_item_index | list | فهرس عنصر الصفحة في حقل كل صفحة.<br/>pageItemIndex [2] = 1 تعني العنصر الثاني في الحقل الثالث الذي يجب استخدامه لتعريف هذا النطاق.<br/> pageItemIndex [1] = -1 يعني عدم وجود عنصر في الحقل الثاني لاستخدامه لتعريف هذا النطاق<br/> وسيقوم MS تلقائيًا بإنشاء عنصر "فارغ" في الحقل الثاني لتحديد هذا النطاق.|

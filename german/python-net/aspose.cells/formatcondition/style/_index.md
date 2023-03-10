@@ -1,4 +1,4 @@
-﻿---
+---
 title: style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style Eigentum
 
-Ruft style von bedingt formatierten Zellbereichen ab oder legt diese fest.
+Ruft style von bedingt formatierten Zellbereichen ab oder setzt sie.
 ###  Definition:
 ```python
 @property

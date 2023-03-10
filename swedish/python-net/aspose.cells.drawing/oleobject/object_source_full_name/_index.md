@@ -1,4 +1,4 @@
-﻿---
+---
 title: object_source_full_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Returnerar det fullständiga källnamnet för källfilen för det länkade OLE-o
 ###  Anmärkningar
 
 Stöder endast inställning av källans fullständiga namn när filtypen är OleFileType.Unknown.
-Såsom wav-fil, avi-fil..osv..
+Såsom wav-fil, avi-fil..etc..
 ###  Definition:
 ```python
 @property

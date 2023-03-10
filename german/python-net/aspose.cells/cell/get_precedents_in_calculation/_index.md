@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_precedents_in_calculation Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft alle Präzedenzfälle (Verweis auf Zellen in der aktuellen Arbeitsmappe) ab
 
 ###  Kehrt zurück
 
-Enumerator zum Aufzählen aller Referenzen (Refered Area)
+Enumerator zum Aufzählen aller Referenzen (ReferredArea)
 
 
 ```python
@@ -27,7 +27,7 @@ def get_precedents_in_calculation(self):
 Diese Methode kann nur mit der Situation funktionieren, dass [FormulaSettings.enable_calculation_chain](/cells/de/python-net/aspose.cells/formulasettings#enable_calculation_chain)
 für die Arbeitsmappe wahr ist und die Arbeitsmappe vollständig berechnet wurde.
 Wenn diese Zelle keine Formel ist oder auf keine andere Zelle verweist, wird null zurückgegeben.
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_error الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  ignore_error الملكية
 
 يشير إلى ما إذا كنت بحاجة إلى إخفاء الخطأ في حساب الصيغ.
-قد يكون الخطأ وظائف غير مدعومة أو روابط خارجية ، إلخ.
+قد يكون الخطأ وظيفة غير مدعومة ، أو روابط خارجية ، إلخ.
 ###  تعريف:
 ```python
 @property

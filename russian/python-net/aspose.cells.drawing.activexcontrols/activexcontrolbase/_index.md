@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveXControlBase класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) | Получает объект [ActiveXControlBase.workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/type) | Получает тип элемента управления ActiveX.|
-| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) |Получает и задает ширину элемента управления в точках.|
+| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/width) |Получает и задает ширину элемента управления в пунктах.|
 | [height](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/height) | Получает и задает высоту элемента управления в пунктах.|
 | [mouse_icon](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_icon) | Получает и задает настраиваемый значок для отображения в качестве указателя мыши для элемента управления.|
 | [mouse_pointer](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase/mouse_pointer) | Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления.|

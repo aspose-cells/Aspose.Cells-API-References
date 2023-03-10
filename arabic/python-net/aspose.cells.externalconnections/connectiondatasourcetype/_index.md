@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد ConnectionDataSourceType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,10 +18,10 @@ is_root: false
 | مجال| وصف|
 | :- | :- |
 | ODBC_BASED_SOURCE | المصدر المستند إلى ODBC|
-| DAO_BASED_SOURCE | المصادر المستندة إلى DAO|
-| FILE_BASED_DATA_BASE_SOURCE | مصدر قاعدة بيانات مستند إلى ملف|
-| WEB_QUERY | استعلامات الويب|
-| OLEDB_BASED_SOURCE | مصادر OLE DB|
+| DAO_BASED_SOURCE | مصدر قائم على DAO|
+| FILE_BASED_DATA_BASE_SOURCE | مصدر قاعدة البيانات المستند إلى الملف|
+| WEB_QUERY | استعلام ويب|
+| OLEDB_BASED_SOURCE | مصدر OLE DB|
 | TEXT_BASED_SOURCE | مصدر قائم على النص|
 | ADO_RECORD_SET | مجموعة سجل ADO|
 | DSP | DSP |

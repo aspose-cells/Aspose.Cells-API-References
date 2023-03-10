@@ -1,4 +1,4 @@
-﻿---
+---
 title: Title الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -29,7 +29,7 @@ is_root: false
 | [text_font](/cells/ar/python-net/aspose.cells.charts/title/text_font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
 | [text_options](/cells/ar/python-net/aspose.cells.charts/title/text_options) | الحصول على خيارات النص وتعيينها.|
 | [font](/cells/ar/python-net/aspose.cells.charts/title/font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
-| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/title/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.|
+| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/title/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/title/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [background](/cells/ar/python-net/aspose.cells.charts/title/background) | الحصول على وضبط وضع عرض الخلفية|
 | [is_automatic_size](/cells/ar/python-net/aspose.cells.charts/title/is_automatic_size) | يشير إلى ما إذا كان حجم إطار المخطط تلقائيًا أم لا.|
@@ -45,7 +45,7 @@ is_root: false
 | [default_width](/cells/ar/python-net/aspose.cells.charts/title/default_width) | يمثل عرض الموضع الافتراضي|
 | [default_height](/cells/ar/python-net/aspose.cells.charts/title/default_height) | يمثل ارتفاع الموضع الافتراضي|
 | [is_auto_text](/cells/ar/python-net/aspose.cells.charts/title/is_auto_text) | يشير إلى أن النص تم إنشاؤه تلقائيًا.|
-| [is_deleted](/cells/ar/python-net/aspose.cells.charts/title/is_deleted) | يشير إلى ما إذا تم حذف تسمية البيانات هذه.|
+| [is_deleted](/cells/ar/python-net/aspose.cells.charts/title/is_deleted) | يشير إلى ما إذا تم حذف تسميات البيانات هذه.|
 | [text_horizontal_alignment](/cells/ar/python-net/aspose.cells.charts/title/text_horizontal_alignment) | الحصول على المحاذاة الأفقية للنص وتعيينها.|
 | [text_vertical_alignment](/cells/ar/python-net/aspose.cells.charts/title/text_vertical_alignment) |الحصول على المحاذاة الرأسية للنص أو تعيينها.|
 | [rotation_angle](/cells/ar/python-net/aspose.cells.charts/title/rotation_angle) | يمثل زاوية استدارة النص.|
@@ -56,7 +56,7 @@ is_root: false
 | [reading_order](/cells/ar/python-net/aspose.cells.charts/title/reading_order) | يمثل ترتيب قراءة النص.|
 | [direction_type](/cells/ar/python-net/aspose.cells.charts/title/direction_type) | الحصول على اتجاه النص وتحديده.|
 | [is_text_wrapped](/cells/ar/python-net/aspose.cells.charts/title/is_text_wrapped) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان النص ملتفًا أم لا.|
-| [is_resize_shape_to_fit_text](/cells/ar/python-net/aspose.cells.charts/title/is_resize_shape_to_fit_text) | الحصول على أو تحديد ما إذا كان يجب أن يكون الشكل مناسبًا تلقائيًا ليحتوي بالكامل على النص الموصوف بداخله.<br/> عندما يتم تحجيم النص داخل الشكل ليحتوي على كل النص الموجود بداخله.|
+| [is_resize_shape_to_fit_text](/cells/ar/python-net/aspose.cells.charts/title/is_resize_shape_to_fit_text) | الحصول على أو تحديد ما إذا كان يجب أن يكون الشكل مناسبًا تلقائيًا ليحتوي بالكامل على النص الموصوف بداخله. التركيب التلقائي هو<br/> عندما يتم تحجيم النص داخل الشكل ليحتوي على كل النص الموجود بداخله.|
 | [is_visible](/cells/ar/python-net/aspose.cells.charts/title/is_visible) | يمثل ما إذا كان العنوان مرئيًا أم لا.|
 | [over_lay](/cells/ar/python-net/aspose.cells.charts/title/over_lay) | يمثل تراكب العنوان المركزي على الرسم البياني دون تغيير حجم المخطط.|
 
@@ -70,7 +70,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

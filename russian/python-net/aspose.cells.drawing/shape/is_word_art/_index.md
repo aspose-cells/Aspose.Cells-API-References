@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_art недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Только для устаревшей формы файла xls.
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: DefaultEditLanguage枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1950
@@ -14,7 +14,7 @@ is_root: false
 
 DefaultEditLanguage 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | AUTO |表示根据文本本身自动检测编辑语言。|

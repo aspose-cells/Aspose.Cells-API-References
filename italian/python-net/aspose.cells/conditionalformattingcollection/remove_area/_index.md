@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo remove_area
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | La riga iniziale dell'intervallo.|
 | start_column | int | La colonna iniziale dell'intervallo.|

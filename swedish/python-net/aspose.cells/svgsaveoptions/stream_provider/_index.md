@@ -1,4 +1,4 @@
-﻿---
+---
 title: stream_provider fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -14,7 +14,7 @@ Hämtar eller ställer in IStreamProvider för export av objekt.
 ###  Anmärkningar
 
 Om du sparar som SVG eller Tiff ignoreras den här egenskapen .
-Annars, om mer än en bild ska sparas, kommer vi att skriva andra bilder genom detta.
+Annars, om mer än en bild skulle sparas, kommer vi att skriva andra bilder genom detta.
 ###  Definition:
 ```python
 @property

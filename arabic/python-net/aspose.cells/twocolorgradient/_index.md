@@ -1,4 +1,4 @@
-﻿---
+---
 title: TwoColorGradient الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
 ##  TwoColorGradient الدرجة
-يمثل اثنين من التدرجات اللونية.
+يمثل اثنين من التدرج اللوني.
 
 
 

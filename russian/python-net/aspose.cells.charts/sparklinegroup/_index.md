@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
 ##  SparklineGroup класс
-[Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) организован в группу спарклайнов SparklineGroup содержит переменное количество элементов спарклайнов.
+[Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) организован в группу спарклайнов. SparklineGroup содержит переменное количество элементов спарклайна.
 Группа спарклайнов определяет тип, параметры отображения и настройки осей для спарклайнов.
 
 
@@ -19,8 +19,8 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [preset_style](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/preset_style) | Получает и задает предустановленный тип стиля группы спарклайнов.|
-| [sparkline_collection](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | Получает коллекцию из [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) объектов.|
-| [sparklines](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/sparklines) | Получает коллекцию из [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline) объектов.|
+| [sparkline_collection](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | Получает коллекцию объекта [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline).|
+| [sparklines](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/sparklines) | Получает коллекцию объекта [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline).|
 | [type](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/type) | Указывает тип спарклайна группы спарклайнов.|
 | [plot_empty_cells_type](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/plot_empty_cells_type) | Указывает, как отображать пустые ячейки.|
 | [display_hidden](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/display_hidden) |Указывает, отображать ли данные в скрытых строках и столбцах.|
@@ -55,7 +55,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

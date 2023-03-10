@@ -1,4 +1,4 @@
-﻿---
+---
 title: InterruptMonitor klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -29,7 +29,7 @@ Typen InterruptMonitor avslöjar följande medlemmar:
 | Fast egendom| Beskrivning|
 | :- | :- |
 | [is_interruption_requested](/cells/sv/python-net/aspose.cells/interruptmonitor/is_interruption_requested) | Markera monitorn som begär avbrott|
-| [terminate_without_exception](/cells/sv/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | När proceduren avbryts, om man ska avsluta proceduren tyst eller göra ett undantag.<br/>Standard är falskt, det vill säga när [AbstractInterruptMonitor.is_interruption_requested](/cells/sv/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) är sant,<br/> ett [CellsException](/cells/sv/python-net/aspose.cells/cellsexception) med kod [ExceptionType.INTERRUPTED](/cells/sv/python-net/aspose.cells/exceptiontype#INTERRUPTED) kommer att kastas.|
+| [terminate_without_exception](/cells/sv/python-net/aspose.cells/interruptmonitor/terminate_without_exception) | När proceduren avbryts, oavsett om du avbryter proceduren tyst eller gör ett undantag.<br/>Standard är falskt, det vill säga när [AbstractInterruptMonitor.is_interruption_requested](/cells/sv/python-net/aspose.cells/abstractinterruptmonitor#is_interruption_requested) är sant,<br/> ett [CellsException](/cells/sv/python-net/aspose.cells/cellsexception) med kod [ExceptionType.INTERRUPTED](/cells/sv/python-net/aspose.cells/exceptiontype#INTERRUPTED) kommer att kastas.|
 
 
 ###  Metoder

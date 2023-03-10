@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_index propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Obtiene o establece el índice basado en 0 de la primera página que se va a gua
 
 El valor predeterminado es 0.
 
-###  Ejemplos
+###  Ejemplo
 
 El siguiente ejemplo muestra cómo representar un rango de páginas (3 y 4) en un archivo de Excel Microsoft a PDF.
 

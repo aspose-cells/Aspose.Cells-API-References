@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_entire_cell_contents mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents mülk
 
-Tüm hücre içeriğinin eşleşip eşleşmeyeceğini gösterir
+Tüm hücre içeriğinin eşleşip eşleşmeyeceğini belirtir
 ###  Tanım:
 ```python
 @property

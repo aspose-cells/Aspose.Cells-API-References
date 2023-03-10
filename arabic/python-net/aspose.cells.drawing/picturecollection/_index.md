@@ -1,4 +1,4 @@
-﻿---
+---
 title: PictureCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -40,7 +40,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

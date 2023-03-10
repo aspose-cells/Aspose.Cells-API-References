@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_series_lines mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Yığılmış bir sütun grafikte veya çubuk grafikte seri çizgiler veya
  Pasta Pasta grafiği veya Pasta Çubuğu grafiğinin iki bölüm arasında bağlantı çizgileri varsa.
-Yalnızca yığın sütun grafikler, çubuk grafikler, pasta pasta grafikler veya pasta çubuk grafikler için geçerlidir.
+Yalnızca yığın sütun grafikler, çubuk grafikler, Pasta Pasta grafikleri veya Pasta Çubuğu grafikleri için geçerlidir.
 ###  Tanım:
 ```python
 @property

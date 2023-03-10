@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_page_field
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add_page_field(self, page_items):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | page_items | list | تسمية عنصر حقل الصفحة|
 

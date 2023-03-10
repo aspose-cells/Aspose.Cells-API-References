@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formattings Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings Eigentum
 
-Ruft die bedingte Formatierung im Arbeitsblatt ab.
+Ruft die bedingten Formatierungen im Arbeitsblatt ab.
 ###  Definition:
 ```python
 @property

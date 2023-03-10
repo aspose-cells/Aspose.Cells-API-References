@@ -1,4 +1,4 @@
-﻿---
+---
 title: process méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | is_preserved | bool | True si le marqueur intelligent non reconnu est conservé.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | sheet_index | int | Indice de feuille de travail.|
 | is_preserved | bool | True si le marqueur intelligent non reconnu est conservé.|

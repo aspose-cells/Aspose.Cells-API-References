@@ -1,4 +1,4 @@
-﻿---
+---
 title: instructions propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene y establece el texto que se muestra al usuario en el momento de la firma.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.drawing import SignatureLine

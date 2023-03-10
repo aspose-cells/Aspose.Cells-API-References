@@ -1,4 +1,4 @@
-﻿---
+---
 title: theme_color الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color الملكية
 
-يحصل على لون المظهر.
+يحصل على لون المظهر. ينطبق فقط على نوع لون المظهر.
 ###  تعريف:
 ```python
 @property

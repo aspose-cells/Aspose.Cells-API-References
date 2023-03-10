@@ -1,4 +1,4 @@
-﻿---
+---
 title: brightness mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Resim için brightness değişikliğini yüzde birimi cinsinden temsil eder.
 
 ###  Notlar
 
--%100 ile %100 arasındadır.
+-%100 ile %100 arasındadır. Excel 2007 veya üzeri sürümlerle aynı şekilde çalışır.
 ###  Tanım:
 ```python
 @property

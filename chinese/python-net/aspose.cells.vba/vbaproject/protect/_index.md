@@ -1,6 +1,6 @@
-﻿---
+---
 title: protect方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -18,7 +18,7 @@ def protect(self, islocked_for_viewing, password):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | islocked_for_viewing | bool |指示是否锁定项目以供查看。|
 | password | str |如果值为空，则取消保护此 VBA 项目，否则投影此 VBA 项目。|

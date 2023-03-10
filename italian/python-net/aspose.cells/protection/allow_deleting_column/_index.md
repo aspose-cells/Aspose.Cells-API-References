@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_deleting_column proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

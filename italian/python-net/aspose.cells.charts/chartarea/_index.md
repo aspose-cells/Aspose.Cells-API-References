@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ChartArea
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -28,7 +28,7 @@ Il tipo ChartArea espone i membri seguenti:
 | [text_font](/cells/it/python-net/aspose.cells.charts/chartarea/text_font) | Ottiene un oggetto [ChartFrame.font](/cells/it/python-net/aspose.cells.charts/chartframe#font) dell'oggetto ChartFrame specificato.|
 | [text_options](/cells/it/python-net/aspose.cells.charts/chartarea/text_options) | Ottiene e imposta le opzioni del testo.|
 | [font](/cells/it/python-net/aspose.cells.charts/chartarea/font) | Ottiene un oggetto [ChartArea.font](/cells/it/python-net/aspose.cells.charts/chartarea#font) dell'oggetto chartarea specificato.|
-| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto.|
+| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/chartarea/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto. Il valore predefinito è Vero.|
 | [background_mode](/cells/it/python-net/aspose.cells.charts/chartarea/background_mode) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [background](/cells/it/python-net/aspose.cells.charts/chartarea/background) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [is_automatic_size](/cells/it/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Indica se la cornice del grafico è ridimensionata automaticamente.|
@@ -52,7 +52,7 @@ Il tipo ChartArea espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

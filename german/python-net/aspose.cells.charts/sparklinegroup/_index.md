@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
 ##  SparklineGroup Klasse
-[Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ist in Sparkline-Gruppen organisiert.Ein SparklineGroup enthält eine variable Anzahl von Sparkline-Elementen.
+[Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ist in Sparkline-Gruppen organisiert. Ein SparklineGroup enthält eine variable Anzahl von Sparkline-Elementen.
 Eine Sparkline-Gruppe legt den Typ, die Anzeigeeinstellungen und die Achseneinstellungen für die Sparklines fest.
 
 
@@ -19,8 +19,8 @@ Der Typ SparklineGroup macht die folgenden Member verfügbar:
 | Eigentum| Beschreibung|
 | :- | :- |
 | [preset_style](/cells/de/python-net/aspose.cells.charts/sparklinegroup/preset_style) | Ruft den voreingestellten Stiltyp der Sparklinegruppe ab und legt ihn fest.|
-| [sparkline_collection](/cells/de/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | Ruft die Sammlung von [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline)-Objekten ab.|
-| [sparklines](/cells/de/python-net/aspose.cells.charts/sparklinegroup/sparklines) | Ruft die Sammlung von [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline)-Objekten ab.|
+| [sparkline_collection](/cells/de/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | Ruft die Auflistung des Objekts [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ab.|
+| [sparklines](/cells/de/python-net/aspose.cells.charts/sparklinegroup/sparklines) | Ruft die Auflistung des Objekts [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ab.|
 | [type](/cells/de/python-net/aspose.cells.charts/sparklinegroup/type) | Gibt den Sparkline-Typ der Sparkline-Gruppe an.|
 | [plot_empty_cells_type](/cells/de/python-net/aspose.cells.charts/sparklinegroup/plot_empty_cells_type) | Gibt an, wie leere Zellen gezeichnet werden.|
 | [display_hidden](/cells/de/python-net/aspose.cells.charts/sparklinegroup/display_hidden) |Gibt an, ob Daten in ausgeblendeten Zeilen und Spalten angezeigt werden sollen.|
@@ -55,7 +55,7 @@ Der Typ SparklineGroup macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellArea, SaveFormat, Workbook

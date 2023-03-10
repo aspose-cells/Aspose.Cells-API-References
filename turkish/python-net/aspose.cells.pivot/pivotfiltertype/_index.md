@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFilterType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -45,9 +45,9 @@ PivotFilterType türü aşağıdaki üyeleri gösterir:
 | LAST_WEEK | Tarih değerleri için "geçen hafta" filtresini gösterir.|
 | LAST_YEAR | Tarih değerleri için "geçen yıl" filtresini gösterir.|
 | M1 | Tarih değerleri için "Ocak" filtresini belirtir.|
-| M2 | Tarih değerleri için "Şubat" filtresini belirtir.|
-| M3 |Tarih değerleri için "Mart" filtresini gösterir.|
-| M4 | Tarih değerleri için "Nisan" filtresini gösterir.|
+| M2 | Tarih değerleri için "Şubat" filtresini gösterir.|
+| M3 |Tarih değerleri için "Mart" filtresini belirtir.|
+| M4 | Tarih değerleri için "Nisan" filtresini belirtir.|
 | M5 | Tarih değerleri için "Mayıs" filtresini belirtir.|
 | M6 | Tarih değerleri için "Haziran" filtresini gösterir.|
 | M7 | Tarih değerleri için "Temmuz" filtresini belirtir.|
@@ -63,7 +63,7 @@ PivotFilterType türü aşağıdaki üyeleri gösterir:
 | PERCENT | Sayısal değerler için "yüzde" filtresini gösterir.|
 | Q1 |Tarih değerleri için "ilk çeyrek" filtresini gösterir.|
 | Q2 | Tarih değerleri için "ikinci çeyrek" filtresini gösterir.|
-| Q3 | Tarih değerleri için "üçüncü çeyrek" filtresini belirtir.|
+| Q3 | Tarih değerleri için "üçüncü çeyrek" filtresini gösterir.|
 | Q4 | Tarih değerleri için "dördüncü çeyrek" filtresini gösterir.|
 | SUM | Sayısal değerler için "toplam" filtresini belirtir.|
 | THIS_MONTH | Tarih değerleri için "bu ay" filtresini belirtir.|
@@ -82,7 +82,7 @@ PivotFilterType türü aşağıdaki üyeleri gösterir:
 | VALUE_NOT_BETWEEN | Metin ve sayısal değerler için "arasında olmayan değer" filtresini gösterir.|
 | VALUE_NOT_EQUAL | Metin ve sayısal değerler için "değer eşit değil" filtresini gösterir.|
 | YEAR_TO_DATE | Tarih değerleri için "yıl başından bugüne" filtresini belirtir.|
-| YESTERDAY | Tarih değerleri için "dün" filtresini gösterir.|
+| YESTERDAY | Tarih değerleri için "dün" filtresini belirtir.|
 
 
 

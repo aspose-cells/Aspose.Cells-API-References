@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_column_index_of_cell Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

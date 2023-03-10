@@ -1,4 +1,4 @@
-﻿---
+---
 title: equals metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,9 +22,9 @@ def equals(self, font):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| font | [Font](/cells/sv/python-net/aspose.cells/font) |Jämförde teckensnittsobjekt.|
+| font | [Font](/cells/sv/python-net/aspose.cells/font) |Jämfört teckensnittsobjekt.|
 
 
 

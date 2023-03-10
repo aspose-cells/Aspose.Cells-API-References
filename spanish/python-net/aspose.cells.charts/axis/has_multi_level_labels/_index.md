@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_multi_level_labels propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

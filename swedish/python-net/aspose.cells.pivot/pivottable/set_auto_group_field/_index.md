@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_auto_group_field metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_auto_group_field(self, base_field_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | base_field_index | int | Rad- eller kolumnfältindex i basfälten|
 
@@ -34,7 +34,7 @@ def set_auto_group_field(self, pivot_field):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/sv/python-net/aspose.cells.pivot/pivotfield) | Rad- eller kolumnfältet i de specifika fälten|
 

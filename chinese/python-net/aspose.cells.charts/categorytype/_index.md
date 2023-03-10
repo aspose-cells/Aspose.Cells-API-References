@@ -1,6 +1,6 @@
-﻿---
+---
 title: CategoryType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 400
@@ -14,12 +14,12 @@ is_root: false
 
 CategoryType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | AUTOMATIC_SCALE |自动秤|
-| CATEGORY_SCALE |类别规模|
-| TIME_SCALE |时间尺度|
+| CATEGORY_SCALE |类别量表|
+| TIME_SCALE |时标|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /it/python-net/aspose.cells.drawing/
 is_root: false
 ---
- IL**Aspose.Cells.Drawing** Lo spazio dei nomi fornisce classi che consentono di creare e modificare forme di disegno, controlli di forma e oggetti di disegno più avanzati.
+ IL**Aspose.Cells.Drawing** namespace fornisce classi che consentono di creare e modificare forme di disegno, controlli di forma e oggetti di disegno più avanzati.
 
 ###  Classi
 | Classe| Descrizione|
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/it/python-net/aspose.cells.drawing/combobox) | Rappresenta il modulo di controllo ComboBox.|
 | [CommentShape](/cells/it/python-net/aspose.cells.drawing/commentshape) | Rappresenta la forma del commento.|
 | [CustomGeometry](/cells/it/python-net/aspose.cells.drawing/customgeometry) | Rappresenta una forma geometrica personalizzata.|
-| [CustomXmlShape](/cells/it/python-net/aspose.cells.drawing/customxmlshape) | Rappresenta forme XML personalizzate, ad esempio Ink.|
+| [CustomXmlShape](/cells/it/python-net/aspose.cells.drawing/customxmlshape) | Rappresenta la forma xml personalizzata, ad esempio Ink.|
 | [DialogBox](/cells/it/python-net/aspose.cells.drawing/dialogbox) | Rappresenta la finestra di dialogo.|
 | [Fill](/cells/it/python-net/aspose.cells.drawing/fill) | Rappresenta il formato di riempimento della forma.|
 | [FillFormat](/cells/it/python-net/aspose.cells.drawing/fillformat) | Incapsula l'oggetto che rappresenta la formattazione del riempimento per una forma.|
@@ -64,7 +64,7 @@ is_root: false
 | [ScrollBar](/cells/it/python-net/aspose.cells.drawing/scrollbar) | Rappresenta un oggetto barra di scorrimento.|
 | [ShadowEffect](/cells/it/python-net/aspose.cells.drawing/shadoweffect) |Questa classe specifica l'effetto ombra dell'elemento o della forma del grafico.|
 | [Shape](/cells/it/python-net/aspose.cells.drawing/shape) | Rappresenta l'oggetto msodrawing.|
-| [ShapeCollection](/cells/it/python-net/aspose.cells.drawing/shapecollection) | Rappresenta tutte le forme in un foglio di lavoro/grafico.|
+| [ShapeCollection](/cells/it/python-net/aspose.cells.drawing/shapecollection) | Rappresenta tutta la forma in un foglio di lavoro/grafico.|
 | [ShapeFormat](/cells/it/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/it/python-net/aspose.cells.drawing/shapeguide) | Incapsula una guida forma specifica la presenza di una guida forma che verrà utilizzata<br/> governare la geometria della forma specificata|
 | [ShapeGuideCollection](/cells/it/python-net/aspose.cells.drawing/shapeguidecollection) | Incapsula una raccolta di guide forma|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/it/python-net/aspose.cells.drawing/texteffectformat) | Contiene proprietà e metodi che si applicano agli oggetti WordArt.|
 | [TextureFill](/cells/it/python-net/aspose.cells.drawing/texturefill) | Incapsula l'oggetto che rappresenta il formato di riempimento trama|
 | [ThreeDFormat](/cells/it/python-net/aspose.cells.drawing/threedformat) | Rappresenta la formattazione tridimensionale di una forma.|
-| [TilePicOption](/cells/it/python-net/aspose.cells.drawing/tilepicoption) | Rappresenta le immagini delle tessere come trame.|
+| [TilePicOption](/cells/it/python-net/aspose.cells.drawing/tilepicoption) | Rappresenta l'immagine del riquadro come trama.|
 | [VmlShapeGuide](/cells/it/python-net/aspose.cells.drawing/vmlshapeguide) | solo per vml<br/> Incapsula una guida forma specifica la presenza di una forma<br/> guida che verrà utilizzata per governare la geometria della forma specificata|
 | [WebExtensionShape](/cells/it/python-net/aspose.cells.drawing/webextensionshape) | Rappresenta la forma dell'estensione web.|
 
@@ -103,7 +103,7 @@ is_root: false
 | [FormatSetType](/cells/it/python-net/aspose.cells.drawing/formatsettype) | Tipo di set di formati di riempimento.|
 | [GradientColorType](/cells/it/python-net/aspose.cells.drawing/gradientcolortype) | Rappresenta il tipo di colore del gradiente per il riempimento specificato.|
 | [GradientDirectionType](/cells/it/python-net/aspose.cells.drawing/gradientdirectiontype) | Rappresenta tutti i tipi di gradiente di direzione.|
-| [GradientFillType](/cells/it/python-net/aspose.cells.drawing/gradientfilltype) |Rappresenta tutti i tipi di riempimento sfumato.|
+| [GradientFillType](/cells/it/python-net/aspose.cells.drawing/gradientfilltype) |Rappresenta tutto il tipo di riempimento sfumato.|
 | [GradientPresetType](/cells/it/python-net/aspose.cells.drawing/gradientpresettype) | Rappresenta il tipo di colore predefinito sfumatura.|
 | [GradientStyleType](/cells/it/python-net/aspose.cells.drawing/gradientstyletype) | Rappresenta lo stile dell'ombreggiatura sfumata.|
 | [ImageType](/cells/it/python-net/aspose.cells.drawing/imagetype) | Specifica il tipo (formato) di un'immagine.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width_inch proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_inch proprietà
 
-Ottiene o imposta la larghezza predefinita della colonna nel foglio di lavoro, in unità di pollici.
+Ottiene o imposta la larghezza della colonna predefinita nel foglio di lavoro, in unità di pollici.
 ###  Definizione:
 ```python
 @property

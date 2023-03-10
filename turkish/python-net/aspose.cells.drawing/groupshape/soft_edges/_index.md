@@ -1,4 +1,4 @@
-﻿---
+---
 title: soft_edges mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Kenarlara uygulanacak bulanıklık yarıçapını nokta birimi cinsinden alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

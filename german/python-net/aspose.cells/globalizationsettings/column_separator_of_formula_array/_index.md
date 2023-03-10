@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_separator_of_formula_array Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

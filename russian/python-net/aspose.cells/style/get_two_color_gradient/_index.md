@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_two_color_gradient метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def get_two_color_gradient(self, color1, color2, gradient_style_type, variant):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color& | Один цвет градиента.|
 | color2 | aspose.pydrawing.Color& | Два градиентных цвета.|

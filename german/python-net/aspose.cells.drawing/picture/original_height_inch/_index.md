@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_height_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  original_height_inch Eigentum
 
-Ruft die ursprüngliche Bildhöhe in Zoll ab.
+Ruft die Originalhöhe des Bildes in Zoll ab.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

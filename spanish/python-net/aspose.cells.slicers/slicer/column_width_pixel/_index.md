@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_width_pixel propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el ancho en unidades de píxeles para cada columna de la segmentación.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

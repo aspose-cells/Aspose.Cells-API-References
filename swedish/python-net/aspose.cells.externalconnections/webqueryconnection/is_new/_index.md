@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_new fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_new fastighet
 
- Sant om anslutningen inte har uppdaterats för första gången, annars är det falskt.
+ Sant om anslutningen inte har uppdaterats för första gången; annars falskt.
 Detta tillstånd kan inträffa när användaren sparar filen innan en fråga har slutat returnera.
 ###  Definition:
 ```python

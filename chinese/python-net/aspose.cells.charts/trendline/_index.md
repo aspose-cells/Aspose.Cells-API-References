@@ -1,6 +1,6 @@
-﻿---
+---
 title: Trendline类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 330
@@ -40,7 +40,7 @@ Trendline 类型公开了以下成员：
 | [weight_pt](/cells/zh/python-net/aspose.cells.charts/trendline/weight_pt) |以点为单位获取或设置线的权重。|
 | [weight_px](/cells/zh/python-net/aspose.cells.charts/trendline/weight_px) |以像素为单位获取或设置线条的粗细。|
 | [formatting_type](/cells/zh/python-net/aspose.cells.charts/trendline/formatting_type) |获取或设置格式类型。|
-| [is_automatic_color](/cells/zh/python-net/aspose.cells.charts/trendline/is_automatic_color) |指示是否自动分配线条颜色。|
+| [is_automatic_color](/cells/zh/python-net/aspose.cells.charts/trendline/is_automatic_color) |指示线的颜色是否自动分配。|
 | [is_visible](/cells/zh/python-net/aspose.cells.charts/trendline/is_visible) |表示线条是否可见。|
 | [is_auto](/cells/zh/python-net/aspose.cells.charts/trendline/is_auto) |指示此线型是否自动指定。|
 | [gradient_fill](/cells/zh/python-net/aspose.cells.charts/trendline/gradient_fill) |代表渐变填充。|
@@ -51,8 +51,8 @@ Trendline 类型公开了以下成员：
 | [period](/cells/zh/python-net/aspose.cells.charts/trendline/period) |返回或设置移动平均趋势线的周期。|
 | [forward](/cells/zh/python-net/aspose.cells.charts/trendline/forward) |返回或设置趋势线向前延伸的周期数（或散点图上的单位）。<br/>周期数必须大于或等于零。|
 | [backward](/cells/zh/python-net/aspose.cells.charts/trendline/backward) |返回或设置趋势线向后延伸的周期数（或散点图上的单位）。<br/>周期数必须大于或等于零。<br/>如果图表类型为柱状图，周期数必须在 0 到 0.5 之间|
-| [display_equation](/cells/zh/python-net/aspose.cells.charts/trendline/display_equation) |表示趋势线的方程式是否显示在图表上（在与 R 平方值相同的数据标签中）。|
-| [display_r_squared](/cells/zh/python-net/aspose.cells.charts/trendline/display_r_squared) |表示趋势线的 R 平方值是否显示在图表上（在与方程相同的数据标签中）。将此属性设置为 True 会自动打开数据标签。|
+| [display_equation](/cells/zh/python-net/aspose.cells.charts/trendline/display_equation) |表示趋势线的方程式是否显示在图表上（在与 R 平方值相同的数据标签中）。将此属性设置为 True 会自动打开数据标签。|
+| [display_r_squared](/cells/zh/python-net/aspose.cells.charts/trendline/display_r_squared) |表示趋势线的 R 平方值是否显示在图表上（在与方程式相同的数据标签中）。将此属性设置为 True 会自动打开数据标签。|
 | [intercept](/cells/zh/python-net/aspose.cells.charts/trendline/intercept) |返回或设置趋势线穿过数值轴的点。|
 | [data_labels](/cells/zh/python-net/aspose.cells.charts/trendline/data_labels) |表示指定系列的 DataLabels 对象。|
 | [legend_entry](/cells/zh/python-net/aspose.cells.charts/trendline/legend_entry) |根据这条趋势线获取图例条目|

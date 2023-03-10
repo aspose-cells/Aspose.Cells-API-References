@@ -1,4 +1,4 @@
-﻿---
+---
 title: hyperlinks الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hyperlinks الملكية
 
-يحصل على كافة الارتباطات التشعبية الموجودة في النطاق.
+يحصل على كل الارتباط التشعبي في النطاق.
 ###  تعريف:
 ```python
 @property

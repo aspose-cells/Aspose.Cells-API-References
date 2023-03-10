@@ -1,4 +1,4 @@
-﻿---
+---
 title: linked_cell Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Arbeitsblattbereich ab, der mit dem Wert des Steuerelements verknüpft ist, oder legt diesen fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

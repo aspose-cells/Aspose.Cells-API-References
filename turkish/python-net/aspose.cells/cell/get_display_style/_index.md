@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_display_style yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 Hücrenin görüntü stilini alır.
-Hücre koşullu olarak biçimlendirilmişse, görüntüleme stili cell.GetStyle() ile aynı değildir.
+Hücre koşullu biçimlendirilmişse, görüntüleme stili cell.GetStyle() ile aynı değildir.
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | include_merged_borders | bool | Birleştirilmiş hücrelerin sınırlarının kontrol edilip edilmediğini gösterir.|
 

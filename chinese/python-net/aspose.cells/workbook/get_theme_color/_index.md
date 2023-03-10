@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_theme_color方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 200
@@ -22,7 +22,7 @@ def get_theme_color(self, type):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | type | [ThemeColorType](/cells/zh/python-net/aspose.cells/themecolortype) |主题颜色类型。|
 

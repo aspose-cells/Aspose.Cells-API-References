@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة copy_column
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def copy_column(self, source_cells, source_column_index, destination_column_inde
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ar/python-net/aspose.cells/cells) | عنصر المصدر Cells يحتوي على بيانات وتنسيقات لنسخها.|
 | source_column_index | int | فهرس عمود المصدر.|

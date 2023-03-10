@@ -1,4 +1,4 @@
-﻿---
+---
 title: dynamic_filter yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def dynamic_filter(self, field_index, dynamic_filter_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_index | int | Filtreyi temel almak istediğiniz alanın tamsayı ofseti<br/> (listenin solundan; en soldaki alan 0 alanıdır).|
 | dynamic_filter_type | [DynamicFilterType](/cells/tr/python-net/aspose.cells/dynamicfiltertype) | Dinamik filtre türü.|

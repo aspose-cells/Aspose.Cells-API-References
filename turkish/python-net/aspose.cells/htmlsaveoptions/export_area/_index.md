@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_area mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  export_area mülk
 
 Geçerli etkin Çalışma Sayfasının dışa aktarılan CellArea'sını Alır veya Ayarlar.
-Bu özelliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı atlanır.
+Bu özniteliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı çıkarılacaktır.
 Dosya html'ye kaydedilirken yalnızca belirtilen alan dışa aktarılacaktır.
 ###  Tanım:
 ```python

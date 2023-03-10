@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBar classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  DataBar classe
  Décrivez la règle de mise en forme conditionnelle DataBar.
-Cette règle de mise en forme conditionnelle affiche une note
+Cette règle de mise en forme conditionnelle affiche un dégradé
 barre de données dans la plage de cellules.
 
 
@@ -28,9 +28,9 @@ Le type DataBar expose les membres suivants :
 | [min_cfvo](/cells/fr/python-net/aspose.cells/databar/min_cfvo) | Obtenez ou définissez l'objet de valeur min de cette DataBar.<br/> Impossible de définir null ou CFValueObject avec le type FormatConditionValueType.Max.|
 | [max_cfvo](/cells/fr/python-net/aspose.cells/databar/max_cfvo) | Obtenir ou définir l'objet de valeur maximale de cette DataBar.<br/> Impossible de définir null ou CFValueObject avec le type FormatConditionValueType.Min.|
 | [color](/cells/fr/python-net/aspose.cells/databar/color) | Obtenir ou définir la couleur de cette DataBar.|
-| [min_length](/cells/fr/python-net/aspose.cells/databar/min_length) | Représente la longueur minimale de la barre de données.|
+| [min_length](/cells/fr/python-net/aspose.cells/databar/min_length) | Représente la longueur minimale de la barre de données .|
 | [max_length](/cells/fr/python-net/aspose.cells/databar/max_length) | Représente la longueur maximale de la barre de données .|
-| [show_value](/cells/fr/python-net/aspose.cells/databar/show_value) | Obtenir ou définir le drapeau indiquant s'il faut afficher les valeurs des cellules sur lesquelles cette barre de données est appliquée.<br/> La valeur par défaut est true.|
+| [show_value](/cells/fr/python-net/aspose.cells/databar/show_value) | Obtenir ou définir l'indicateur indiquant s'il faut afficher les valeurs des cellules sur lesquelles cette barre de données est appliquée.<br/> La valeur par défaut est true.|
 
 
 ###  Méthodes
@@ -40,7 +40,7 @@ Le type DataBar expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import CellArea, DataBarAxisPosition, DataBarBorderType, DataBarFillType, DataBarNegativeColorType, FormatConditionType, FormatConditionValueType, Workbook

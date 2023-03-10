@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def __init__(self, worksheet, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/tr/python-net/aspose.cells/worksheet) | Hangi e-tablonun oluşturulacağını belirtin.|
 | options | [ImageOrPrintOptions](/cells/tr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions çıktı görüntüsünün bazı özelliklerini içerir|

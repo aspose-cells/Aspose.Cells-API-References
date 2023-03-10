@@ -1,4 +1,4 @@
-﻿---
+---
 title: tick_label_spacing الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  tick_label_spacing الملكية
 
-يمثل عدد الفئات أو السلاسل بين تسميات علامات التجزئة.
+يمثل عدد الفئات أو السلاسل بين تسميات علامات التجزئة. ينطبق فقط على محاور الفئة والسلسلة.
 
 ###  ملاحظات
 

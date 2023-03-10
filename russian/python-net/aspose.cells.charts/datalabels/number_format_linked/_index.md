@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_format_linked недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

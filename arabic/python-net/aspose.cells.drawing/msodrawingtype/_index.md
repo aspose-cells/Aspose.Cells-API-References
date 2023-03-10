@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد MsoDrawingType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,10 +25,10 @@ is_root: false
 | CHART | جدول|
 | TEXT_BOX | مربع الكتابة|
 | BUTTON | زر|
-| PICTURE | الصور|
+| PICTURE | صورة|
 | POLYGON | مضلع|
 | CHECK_BOX | خانة الاختيار|
-| RADIO_BUTTON | أزرار الراديو|
+| RADIO_BUTTON | زر الراديو|
 | LABEL | ملصق|
 | DIALOG_BOX | صندوق المحادثة|
 | SPINNER | سبينر|
@@ -38,12 +38,12 @@ is_root: false
 | COMBO_BOX | صندوق التحرير|
 | COMMENT | تعليق|
 | OLE_OBJECT | كائن أوله|
-| CELLS_DRAWING | فقط للاحتفاظ بالكائنات الرسومية في ملف القالب.|
+| CELLS_DRAWING | فقط للاحتفاظ بالكائن الرسومي في ملف القالب.|
 | UNKNOWN | فقط من أجل الحفاظ على الكائن الرسومي في ملف xlsx.|
 | SLICER | تقطيع اللحم|
 | WEB_EXTENSION | امتداد الويب|
 | SMART_ART | الفن الذكي|
-| CUSTOM_XML | أشكال xml المخصصة ، مثل Ink.|
+| CUSTOM_XML | شكل xml مخصص ، مثل الحبر.|
 | TIMELINE | الجدول الزمني|
 | MODEL_3D | نموذج 3D|
 

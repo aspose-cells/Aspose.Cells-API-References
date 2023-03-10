@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_safe_sheet_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ def create_safe_sheet_name(self, name_proposal):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | name_proposal | str | имя листа, которое будет использоваться|
 
@@ -48,7 +48,7 @@ def create_safe_sheet_name(self, name_proposal, replace_char):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | name_proposal | str | имя листа, которое будет использоваться|
 | replace_char | char | символ, который будет использоваться для замены недопустимых символов в заданном имени листа|

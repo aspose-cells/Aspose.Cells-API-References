@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_shape_in_chart_by_scale metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/shapecollection/add_shape_in_chart_by_s
 is_root: false
 ---
 ##  add_shape_in_chart_by_scale(type, placement, left, top, right, bottom) {#MsoDrawingType-PlacementType-float-float-float-float}
-Lägg till en form till diagrammet Alla enheter är procentuella skala av diagramområdet.
+Lägg till en form i diagrammet. Alla enheter är procentuell skala av diagramområdet.
 
 
 
@@ -18,7 +18,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom)
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/sv/python-net/aspose.cells.drawing/msodrawingtype) | Ritningstypen.|
 | placement | [PlacementType](/cells/sv/python-net/aspose.cells.drawing/placementtype) | placeringstypen.|
@@ -39,7 +39,7 @@ def add_shape_in_chart_by_scale(self, type, placement, left, top, right, bottom,
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/sv/python-net/aspose.cells.drawing/msodrawingtype) | Ritningstypen.|
 | placement | [PlacementType](/cells/sv/python-net/aspose.cells.drawing/placementtype) | placeringstypen.|

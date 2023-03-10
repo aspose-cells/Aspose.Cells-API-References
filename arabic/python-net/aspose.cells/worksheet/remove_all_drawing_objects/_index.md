@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة remove_all_drawing_objects
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: security_options الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  security_options الملكية
 
-عيّن هذه الخيارات ، عند الحاجة إلى الأمان في نتيجة xls2pdf.
+عيّن هذه الخيارات ، عندما يكون الأمان مطلوبًا في نتيجة xls2pdf.
 
-###  أمثلة
+###  مثال
 
 يحدد الكود التالي إذن طباعة عالي الدقة لملف pdf.
 

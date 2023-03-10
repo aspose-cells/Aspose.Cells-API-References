@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemoryFontSource sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ MemoryFontSource türü aşağıdaki üyeleri gösterir:
 ###  İnşaatçılar
 | Yapıcı| Tanım|
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/tr/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Müdür.|
+| [MemoryFontSource(font_data)](/cells/tr/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Ctor.|
 
 
 ###  Özellikler

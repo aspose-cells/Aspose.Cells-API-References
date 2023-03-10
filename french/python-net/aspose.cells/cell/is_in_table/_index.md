@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_in_table propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Indique si cette cellule fait partie de la formule du tableau.
 
 ###  Remarques
 
- REMARQUE : Cette classe est désormais obsolète.
+ REMARQUE : Cette classe est désormais obsolète. Plutôt,
 veuillez utiliser Cell.IsTableFormula pour vérifier si la formule de la cellule fait partie de la formule du tableau.
 Cette propriété sera supprimée 12 mois plus tard depuis mai 2018.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

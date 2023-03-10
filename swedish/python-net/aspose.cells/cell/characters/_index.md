@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Returnerar ett teckenobjekt som representerar ett intervall på characters inom 
 
 ###  Returnerar
 
-Karaktärsobjekt.
+Tecken objekt.
 
 
 ```python
@@ -22,13 +22,13 @@ def characters(self, start_index, length):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_index | int | Indexet för början av karaktären.|
 | length | int | Antal tecken.|
 ###  Anmärkningar
 
-Den här metoden fungerar bara på celler med strängvärden.
+Denna metod fungerar bara på cell med strängvärde.
 ###  Exempel
 
 

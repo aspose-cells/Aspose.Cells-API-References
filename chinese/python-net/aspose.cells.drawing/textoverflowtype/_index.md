@@ -1,6 +1,6 @@
-﻿---
+---
 title: TextOverflowType枚举
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1170
@@ -14,7 +14,7 @@ is_root: false
 
 TextOverflowType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CLIP |注意顶部和底部障碍。<br/>不提供不可见文本的指示。|

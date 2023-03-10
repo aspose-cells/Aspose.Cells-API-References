@@ -1,6 +1,6 @@
-﻿---
+---
 title: PasteOptions类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1170
@@ -26,7 +26,7 @@ PasteOptions 类型公开了以下成员：
 | [paste_type](/cells/zh/python-net/aspose.cells/pasteoptions/paste_type) |粘贴特殊类型。|
 | [skip_blanks](/cells/zh/python-net/aspose.cells/pasteoptions/skip_blanks) |指示是否跳过空白单元格。|
 | [only_visible_cells](/cells/zh/python-net/aspose.cells/pasteoptions/only_visible_cells) | True 表示仅复制可见单元格。|
-| [transpose](/cells/zh/python-net/aspose.cells/pasteoptions/transpose) |粘贴范围时转置行和列。|
+| [transpose](/cells/zh/python-net/aspose.cells/pasteoptions/transpose) |粘贴范围时转置行和列。默认值为假。|
 | [operation_type](/cells/zh/python-net/aspose.cells/pasteoptions/operation_type) |获取和设置粘贴范围时的操作类型。|
 
 

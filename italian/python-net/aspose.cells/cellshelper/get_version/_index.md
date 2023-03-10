@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_version
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

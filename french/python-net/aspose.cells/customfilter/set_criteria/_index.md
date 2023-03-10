@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_criteria méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_criteria(self, filter_operator, criteria):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | filter_operator | [FilterOperatorType](/cells/fr/python-net/aspose.cells/filteroperatortype) | filtrer le type d'opérateur|
 | criteria | any | valeur des critères de filtre|

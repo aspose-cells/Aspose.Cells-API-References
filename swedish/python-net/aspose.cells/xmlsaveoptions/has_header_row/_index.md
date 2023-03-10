@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_header_row fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_header_row fastighet
 
-Anger om intervallet innehåller en rubrikrad.
+Anger om intervallet innehåller rubrikrad.
 ###  Definition:
 ```python
 @property

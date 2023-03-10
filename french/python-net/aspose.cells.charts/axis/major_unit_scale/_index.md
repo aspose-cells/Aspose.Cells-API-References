@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_unit_scale propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente l'échelle des unités principales pour l'axe des abscisses.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells.charts import CategoryType, TimeUnit

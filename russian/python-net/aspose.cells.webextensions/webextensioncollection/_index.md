@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ is_root: false
 | [last_index_of(item, index)](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который простирается от первого элемента до указанного индекса.|
 | [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
 | [add()](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection/add/#) | Добавляет веб-расширение.|
-| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Добавьте веб-видеоплеер в Excel.|
+| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | Добавьте веб-видеоплеер в exel.|
 | [binary_search(item)](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection/binary_search/#WebExtension) | Ищет элемент во всем отсортированном списке массивов, используя компаратор по умолчанию, и возвращает отсчитываемый от нуля индекс элемента.|
 
 

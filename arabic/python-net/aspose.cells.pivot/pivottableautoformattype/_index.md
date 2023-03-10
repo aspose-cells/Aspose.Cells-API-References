@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد PivotTableAutoFormatType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -38,7 +38,7 @@ is_root: false
 | TABLE7 | يمثل نوع تنسيق Table7.|
 | TABLE8 | يمثل نوع تنسيق Table8.|
 | TABLE9 | يمثل نوع تنسيق Table9.|
-| TABLE10 | يمثل نوع تنسيق الجدول 10.|
+| TABLE10 | يمثل نوع تنسيق Table10.|
 
 
 

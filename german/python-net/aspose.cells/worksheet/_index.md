@@ -1,4 +1,4 @@
-﻿---
+---
 title: Worksheet Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,7 +17,7 @@ Der Typ Worksheet macht die folgenden Member verfügbar:
 ###  Eigenschaften
 | Eigentum| Beschreibung|
 | :- | :- |
-| [protection](/cells/de/python-net/aspose.cells/worksheet/protection) | Stellt die verschiedenen Arten von Schutzoptionen dar, die für ein Arbeitsblatt verfügbar sind.|
+| [protection](/cells/de/python-net/aspose.cells/worksheet/protection) | Stellt die verschiedenen Arten von Schutzoptionen dar, die für ein Arbeitsblatt verfügbar sind. Unterstützt erweiterte Schutzoptionen in ExcelXP und höheren Versionen.|
 | [unique_id](/cells/de/python-net/aspose.cells/worksheet/unique_id) | Ruft die eindeutige ID ab und legt sie fest, sie ist dieselbe wie {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.|
 | [workbook](/cells/de/python-net/aspose.cells/worksheet/workbook) | Ruft das Arbeitsmappenobjekt ab, das dieses Blatt enthält.|
 | [cells](/cells/de/python-net/aspose.cells/worksheet/cells) | Ruft die Sammlung [Worksheet.cells](/cells/de/python-net/aspose.cells/worksheet#cells) ab.|
@@ -56,7 +56,7 @@ Der Typ Worksheet macht die folgenden Member verfügbar:
 | [shapes](/cells/de/python-net/aspose.cells/worksheet/shapes) | Gibt alle Zeichnungsformen in diesem Arbeitsblatt zurück.|
 | [slicers](/cells/de/python-net/aspose.cells/worksheet/slicers) | Rufen Sie die Slicer-Auflistung im Arbeitsblatt ab|
 | [timelines](/cells/de/python-net/aspose.cells/worksheet/timelines) | Rufen Sie die Timeline-Auflistung im Arbeitsblatt ab|
-| [index](/cells/de/python-net/aspose.cells/worksheet/index) | Ruft den Index der Blätter in der Arbeitsblattauflistung ab.|
+| [index](/cells/de/python-net/aspose.cells/worksheet/index) | Ruft den Index des Blatts in der Arbeitsblattauflistung ab.|
 | [is_protected](/cells/de/python-net/aspose.cells/worksheet/is_protected) | Gibt an, ob das Arbeitsblatt geschützt ist.|
 | [validations](/cells/de/python-net/aspose.cells/worksheet/validations) | Ruft die Sammlung der Datenüberprüfungseinstellungen im Arbeitsblatt ab.|
 | [allow_edit_ranges](/cells/de/python-net/aspose.cells/worksheet/allow_edit_ranges) | Ruft die Auflistung des zulässigen Bearbeitungsbereichs im Arbeitsblatt ab.|
@@ -64,14 +64,14 @@ Der Typ Worksheet macht die folgenden Member verfügbar:
 | [outline](/cells/de/python-net/aspose.cells/worksheet/outline) | Ruft die Gliederung auf diesem Arbeitsblatt ab.|
 | [first_visible_row](/cells/de/python-net/aspose.cells/worksheet/first_visible_row) | Stellt den ersten sichtbaren Zeilenindex dar.|
 | [first_visible_column](/cells/de/python-net/aspose.cells/worksheet/first_visible_column) | Stellt den ersten sichtbaren Spaltenindex dar.|
-| [zoom](/cells/de/python-net/aspose.cells/worksheet/zoom) | Stellt den Skalierungsfaktor in Prozent dar. Er sollte zwischen 10 und 400 liegen.|
+| [zoom](/cells/de/python-net/aspose.cells/worksheet/zoom) | Stellt den Skalierungsfaktor in Prozent dar. Es sollte zwischen 10 und 400 liegen.|
 | [view_type](/cells/de/python-net/aspose.cells/worksheet/view_type) | Ruft den Ansichtstyp ab und legt ihn fest.|
 | [is_page_break_preview](/cells/de/python-net/aspose.cells/worksheet/is_page_break_preview) | Gibt an, ob das angegebene Arbeitsblatt in der Normalansicht oder in der Seitenumbruchvorschau angezeigt wird.|
-| [is_ruler_visible](/cells/de/python-net/aspose.cells/worksheet/is_ruler_visible) |Gibt an, ob das Lineal sichtbar ist.|
+| [is_ruler_visible](/cells/de/python-net/aspose.cells/worksheet/is_ruler_visible) |Gibt an, ob das Lineal sichtbar ist. Diese Eigenschaft wird nur für die Seitenumbruchvorschau angewendet.|
 | [tab_color](/cells/de/python-net/aspose.cells/worksheet/tab_color) | Stellt die Farbe der Arbeitsblatt-Registerkarte dar.|
 | [code_name](/cells/de/python-net/aspose.cells/worksheet/code_name) | Ruft den Codenamen des Arbeitsblatts ab.|
 | [background_image](/cells/de/python-net/aspose.cells/worksheet/background_image) | Ruft das Hintergrundbild des Arbeitsblatts ab und legt es fest.|
-| [conditional_formattings](/cells/de/python-net/aspose.cells/worksheet/conditional_formattings) | Ruft die bedingte Formatierung im Arbeitsblatt ab.|
+| [conditional_formattings](/cells/de/python-net/aspose.cells/worksheet/conditional_formattings) | Ruft die bedingten Formatierungen im Arbeitsblatt ab.|
 | [active_cell](/cells/de/python-net/aspose.cells/worksheet/active_cell) | Ruft die aktive Zelle im Arbeitsblatt ab oder legt sie fest.|
 | [custom_properties](/cells/de/python-net/aspose.cells/worksheet/custom_properties) | Ruft ein Objekt ab, das darstellt<br/> die einem Arbeitsblatt zugeordneten Kennungsinformationen.|
 | [smart_tag_setting](/cells/de/python-net/aspose.cells/worksheet/smart_tag_setting) | Ruft alle [SmartTagCollection](/cells/de/python-net/aspose.cells.markup/smarttagcollection)-Objekte des Arbeitsblatts ab.|
@@ -105,15 +105,15 @@ Der Typ Worksheet macht die folgenden Member verfügbar:
 | [auto_fit_rows(start_row, end_row, options)](/cells/de/python-net/aspose.cells/worksheet/auto_fit_rows/#int-int-AutoFitterOptions) |Passt die Zeilenhöhe in einem Bereich automatisch an.|
 | [protect(type)](/cells/de/python-net/aspose.cells/worksheet/protect/#ProtectionType) | Schützt Arbeitsblatt.|
 | [protect(type, password, old_password)](/cells/de/python-net/aspose.cells/worksheet/protect/#ProtectionType-str-str) | Schützt Arbeitsblatt.|
-| [unprotect()](/cells/de/python-net/aspose.cells/worksheet/unprotect/#) | Schutz des Arbeitsblatts aufheben.|
-| [unprotect(password)](/cells/de/python-net/aspose.cells/worksheet/unprotect/#str) | Schutz des Arbeitsblatts aufheben.|
+| [unprotect()](/cells/de/python-net/aspose.cells/worksheet/unprotect/#) | Hebt den Schutz des Arbeitsblatts auf.|
+| [unprotect(password)](/cells/de/python-net/aspose.cells/worksheet/unprotect/#str) | Hebt den Schutz des Arbeitsblatts auf.|
 | [calculate_formula(formula)](/cells/de/python-net/aspose.cells/worksheet/calculate_formula/#str) | Berechnet eine Formel.|
 | [calculate_formula(formula, opts)](/cells/de/python-net/aspose.cells/worksheet/calculate_formula/#str-CalculationOptions) | Berechnet eine Formel.|
 | [calculate_formula(recursive, ignore_error, custom_function)](/cells/de/python-net/aspose.cells/worksheet/calculate_formula/#bool-bool-ICustomFunction) | Berechnet alle Formeln in diesem Arbeitsblatt.|
 | [calculate_formula(options, recursive)](/cells/de/python-net/aspose.cells/worksheet/calculate_formula/#CalculationOptions-bool) | Berechnet alle Formeln in diesem Arbeitsblatt.|
 | [get_panes()](/cells/de/python-net/aspose.cells/worksheet/get_panes/#) | Ruft die Fensterscheiben ab.|
 | [get_freezed_panes(row, column, freezed_rows, freezed_columns)](/cells/de/python-net/aspose.cells/worksheet/get_freezed_panes/#any-any-any-any) | Ruft die eingefrorenen Fenster ab.|
-| [split()](/cells/de/python-net/aspose.cells/worksheet/split/#) | Geteiltes Fenster.|
+| [split()](/cells/de/python-net/aspose.cells/worksheet/split/#) | Teilt Fenster.|
 | [un_freeze_panes()](/cells/de/python-net/aspose.cells/worksheet/un_freeze_panes/#) | Hebt die Fixierung von Fenstern im Arbeitsblatt auf.|
 | [remove_split()](/cells/de/python-net/aspose.cells/worksheet/remove_split/#) | Entfernt geteiltes Fenster.|
 | [add_page_breaks(cell_name)](/cells/de/python-net/aspose.cells/worksheet/add_page_breaks/#str) | Fügt Seitenumbruch hinzu.|
@@ -135,7 +135,7 @@ Der Typ Worksheet macht die folgenden Member verfügbar:
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

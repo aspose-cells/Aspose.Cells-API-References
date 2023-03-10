@@ -1,4 +1,4 @@
-﻿---
+---
 title: significant_digits proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

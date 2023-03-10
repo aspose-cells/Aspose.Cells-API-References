@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.webextensions/webextensioncollection/
 is_root: false
 ---
 ##  WebExtensionCollection الدرجة
-يمثل قائمة امتدادات الويب.
+يمثل قائمة امتداد الويب.
 
 
 
@@ -31,7 +31,7 @@ is_root: false
 | [last_index_of(item, index)](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int) | يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى الفهرس المحدد.|
 | [last_index_of(item, index, count)](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection/last_index_of/#WebExtension-int-int) |يبحث عن الكائن المحدد ويعيد الفهرس الصفري للتواجد الأخير ضمن نطاق العناصر في قائمة الصفيف التي تحتوي على عدد محدد من العناصر وتنتهي عند الفهرس المحدد.|
 | [add()](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection/add/#) | يضيف امتداد الويب.|
-| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | أضف مشغل فيديو على شبكة الإنترنت إلى برنامج Excel.|
+| [add_web_video_player(url, auto_play, start_time, end_time)](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection/add_web_video_player/#str-bool-int-int) | أضف مشغل فيديو ويب إلى exel.|
 | [binary_search(item)](/cells/ar/python-net/aspose.cells.webextensions/webextensioncollection/binary_search/#WebExtension) | يبحث في قائمة الصفيف التي تم فرزها بالكامل عن عنصر باستخدام المقارنة الافتراضية ويعيد فهرس العنصر على أساس الصفر.|
 
 

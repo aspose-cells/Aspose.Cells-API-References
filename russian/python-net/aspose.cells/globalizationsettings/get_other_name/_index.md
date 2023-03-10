@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_other_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  get_other_name() {#}
 
-Получает имя метки «Другое» для круговых диаграмм.
+Получает имя меток «Другие» для круговых диаграмм.
 
 ###  Возвращает
 

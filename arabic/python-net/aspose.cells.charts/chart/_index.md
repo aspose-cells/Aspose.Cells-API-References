@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chart الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,12 +17,12 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [style](/cells/ar/python-net/aspose.cells.charts/chart/style) | يحصل على النمط المدمج ويضعه.|
+| [style](/cells/ar/python-net/aspose.cells.charts/chart/style) | يحصل ويضبط النمط المدمج.|
 | [chart_object](/cells/ar/python-net/aspose.cells.charts/chart/chart_object) | يمثل المخطط الشكل؛|
 | [hide_pivot_field_buttons](/cells/ar/python-net/aspose.cells.charts/chart/hide_pivot_field_buttons) |يشير إلى ما إذا كان يتم إخفاء أزرار حقل المخطط المحوري فقط عندما يكون المخطط هو PivotChart.|
 | [pivot_options](/cells/ar/python-net/aspose.cells.charts/chart/pivot_options) | يحدد عناصر التحكم المحورية التي تظهر على الرسم البياني|
 | [pivot_source](/cells/ar/python-net/aspose.cells.charts/chart/pivot_source) | المصدر هو بيانات جدول pivotTable.<br/> إذا لم يكن PivotSource فارغًا ، فسيكون المخطط PivotChart.|
-| [plot_by](/cells/ar/python-net/aspose.cells.charts/chart/plot_by) | الحصول على وتحديد ما إذا كان سيتم الرسم بالصف أو العمود.|
+| [plot_by](/cells/ar/python-net/aspose.cells.charts/chart/plot_by) | الحصول على وتحديد ما إذا كان الرسم بالصف أو العمود.|
 | [plot_empty_cells_type](/cells/ar/python-net/aspose.cells.charts/chart/plot_empty_cells_type) | الحصول على كيفية رسم الخلايا الفارغة وتعيينها.|
 | [plot_visible_cells](/cells/ar/python-net/aspose.cells.charts/chart/plot_visible_cells) | يشير إلى ما إذا كان سيتم رسم الخلايا المرئية فقط.|
 | [plot_visible_cells_only](/cells/ar/python-net/aspose.cells.charts/chart/plot_visible_cells_only) | يشير إلى ما إذا كان يتم رسم الخلايا المرئية فقط.|
@@ -34,7 +34,7 @@ is_root: false
 | [print_size](/cells/ar/python-net/aspose.cells.charts/chart/print_size) | الحصول على حجم الرسم البياني المطبوع وتعيينه.|
 | [type](/cells/ar/python-net/aspose.cells.charts/chart/type) | الحصول على نوع الرسم البياني أو تحديده.|
 | [n_series](/cells/ar/python-net/aspose.cells.charts/chart/n_series) | الحصول على مجموعة [SeriesCollection](/cells/ar/python-net/aspose.cells.charts/seriescollection) تمثل سلسلة البيانات في المخطط.|
-| [title](/cells/ar/python-net/aspose.cells.charts/chart/title) | يحصل على عنوان الرسم البياني.|
+| [title](/cells/ar/python-net/aspose.cells.charts/chart/title) | الحصول على عنوان الرسم البياني.|
 | [sub_title](/cells/ar/python-net/aspose.cells.charts/chart/sub_title) | الحصول على العنوان الفرعي للرسم البياني.<br/>فقط لملف تنسيق ODS.|
 | [plot_area](/cells/ar/python-net/aspose.cells.charts/chart/plot_area) | الحصول على منطقة الرسم بالمخطط التي تتضمن تسميات تجزئة المحور.|
 | [chart_area](/cells/ar/python-net/aspose.cells.charts/chart/chart_area) | يحصل على منطقة المخطط في ورقة العمل.|
@@ -45,10 +45,10 @@ is_root: false
 | [series_axis](/cells/ar/python-net/aspose.cells.charts/chart/series_axis) | الحصول على محور سلسلة المخطط.|
 | [legend](/cells/ar/python-net/aspose.cells.charts/chart/legend) | يحصل على وسيلة إيضاح الرسم البياني.|
 | [chart_data_table](/cells/ar/python-net/aspose.cells.charts/chart/chart_data_table) | يمثل جدول بيانات الرسم البياني.|
-| [show_legend](/cells/ar/python-net/aspose.cells.charts/chart/show_legend) | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم عرض وسيلة إيضاح الرسم البياني أم لا. الافتراضي هو true.|
+| [show_legend](/cells/ar/python-net/aspose.cells.charts/chart/show_legend) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان سيتم عرض وسيلة إيضاح الرسم البياني أم لا. الافتراضي هو الصحيح.|
 | [is_rectangular_cornered](/cells/ar/python-net/aspose.cells.charts/chart/is_rectangular_cornered) | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت منطقة المخطط محاطة بزوايا مستطيلة.<br/> الافتراضي هو الصحيح.|
 | [show_data_table](/cells/ar/python-net/aspose.cells.charts/chart/show_data_table) | الحصول على قيمة أو تعيينها للإشارة إلى ما إذا كان المخطط يعرض جدول بيانات أم لا.|
-| [first_slice_angle](/cells/ar/python-net/aspose.cells.charts/chart/first_slice_angle) | الحصول على أو تعيين زاوية المخطط الدائري الأول أو المخطط الدائري المجوف بالدرجات (باتجاه عقارب الساعة من الوضع الرأسي). ينطبق فقط على المخططات الدائرية والدائرية ثلاثية الأبعاد والمخططات الدائرية المجوفة من 0 إلى 360.|
+| [first_slice_angle](/cells/ar/python-net/aspose.cells.charts/chart/first_slice_angle) | الحصول على أو تعيين زاوية المخطط الدائري الأول أو شريحة المخطط الدائري المجوف بالدرجات (باتجاه عقارب الساعة من الوضع الرأسي). ينطبق فقط على المخططات الدائرية والدائرية ثلاثية الأبعاد والدائرية المجوفة من 0 إلى 360.|
 | [gap_width](/cells/ar/python-net/aspose.cells.charts/chart/gap_width) | إرجاع أو تعيين المسافة بين مجموعات الشريط أو العمود ، كنسبة مئوية من عرض الشريط أو العمود.<br/>يجب أن تتراوح قيمة هذه الخاصية بين 0 و 500.|
 | [gap_depth](/cells/ar/python-net/aspose.cells.charts/chart/gap_depth) | الحصول على المسافة بين سلسلة البيانات في مخطط ثلاثي الأبعاد أو تعيينها ، كنسبة مئوية من عرض العلامة.<br/>يجب أن تتراوح قيمة هذه الخاصية بين 0 و 500.|
 | [floor](/cells/ar/python-net/aspose.cells.charts/chart/floor) | إرجاع عنصر [Chart.floor](/cells/ar/python-net/aspose.cells.charts/chart#floor) يمثل جدران مخطط ثلاثي الأبعاد.|
@@ -58,13 +58,13 @@ is_root: false
 | [walls_and_gridlines_2d](/cells/ar/python-net/aspose.cells.charts/chart/walls_and_gridlines_2d) | صحيح إذا تم رسم خطوط الشبكة ثنائية الأبعاد على مخطط ثلاثي الأبعاد.|
 | [rotation_angle](/cells/ar/python-net/aspose.cells.charts/chart/rotation_angle) | يمثل استدارة عرض المخطط ثلاثي الأبعاد (استدارة منطقة الرسم حول المحور ع ، بالدرجات).|
 | [elevation](/cells/ar/python-net/aspose.cells.charts/chart/elevation) | يمثل ارتفاع عرض المخطط ثلاثي الأبعاد بالدرجات.|
-| [right_angle_axes](/cells/ar/python-net/aspose.cells.charts/chart/right_angle_axes) | صواب إذا كانت محاور المخطط في زوايا قائمة. ينطبق فقط على المخططات ثلاثية الأبعاد (باستثناء المخططات الدائرية العمودية ثلاثية الأبعاد و ثلاثية الأبعاد).|
-| [auto_scaling](/cells/ar/python-net/aspose.cells.charts/chart/auto_scaling) | صحيح إذا قام Microsoft Excel بقياس مخطط ثلاثي الأبعاد بحيث يكون أقرب في الحجم إلى المخطط ثنائي الأبعاد المكافئ.<br/> يجب أن تكون خاصية محاور الزاوية اليمنى صحيحة.|
+| [right_angle_axes](/cells/ar/python-net/aspose.cells.charts/chart/right_angle_axes) | صحيح إذا كانت محاور المخطط في زوايا قائمة. ينطبق فقط على المخططات ثلاثية الأبعاد (باستثناء المخططات الدائرية العمودية ثلاثية الأبعاد و ثلاثية الأبعاد).|
+| [auto_scaling](/cells/ar/python-net/aspose.cells.charts/chart/auto_scaling) | صحيح إذا قام Microsoft Excel بقياس مخطط ثلاثي الأبعاد بحيث يكون أقرب في الحجم إلى المخطط ثنائي الأبعاد المكافئ.<br/> يجب أن تكون الخاصية RightAngleAxes صحيحة.|
 | [height_percent](/cells/ar/python-net/aspose.cells.charts/chart/height_percent) |إرجاع أو تعيين ارتفاع مخطط ثلاثي الأبعاد كنسبة مئوية من عرض المخطط (بين 5 و 500 بالمائة).|
-| [perspective](/cells/ar/python-net/aspose.cells.charts/chart/perspective) | إرجاع أو تعيين منظور عرض التخطيط ثلاثي الأبعاد. يجب أن يكون بين 0 و 100.<br/> يتم تجاهل هذه الخاصية إذا كانت الخاصية RightAngleAxes هي True.|
+| [perspective](/cells/ar/python-net/aspose.cells.charts/chart/perspective) | إرجاع أو تعيين المنظور لطريقة عرض المخطط ثلاثي الأبعاد. يجب أن يكون بين 0 و 100.<br/> يتم تجاهل هذه الخاصية إذا كانت الخاصية RightAngleAxes هي True.|
 | [is_3d](/cells/ar/python-net/aspose.cells.charts/chart/is_3d) | يشير إلى ما إذا كان الرسم البياني هو مخطط ثلاثي الأبعاد.|
 | [depth_percent](/cells/ar/python-net/aspose.cells.charts/chart/depth_percent) | يمثل عمق مخطط ثلاثي الأبعاد كنسبة مئوية من عرض المخطط (بين 20 و 2000 بالمائة).|
-| [actual_chart_size](/cells/ar/python-net/aspose.cells.charts/chart/actual_chart_size) | الحصول على الحجم الفعلي للرسم البياني بوحدة البكسل.|
+| [actual_chart_size](/cells/ar/python-net/aspose.cells.charts/chart/actual_chart_size) | يحصل على الحجم الفعلي للرسم البياني بوحدة البكسل.|
 | [placement](/cells/ar/python-net/aspose.cells.charts/chart/placement) | يمثل طريقة إرفاق المخطط بالخلايا الموجودة أسفله.|
 | [page_setup](/cells/ar/python-net/aspose.cells.charts/chart/page_setup) | يمثل وصف إعداد الصفحة في هذا المخطط.|
 | [line](/cells/ar/python-net/aspose.cells.charts/chart/line) | يحصل على الخط.|
@@ -87,9 +87,9 @@ is_root: false
 | [is_chart_data_changed()](/cells/ar/python-net/aspose.cells.charts/chart/is_chart_data_changed/#) | يكتشف ما إذا كان قد تم تغيير مصدر بيانات المخطط.|
 | [refresh_pivot_data()](/cells/ar/python-net/aspose.cells.charts/chart/refresh_pivot_data/#) | تحديث بيانات الرسم البياني المحوري من مصدر البيانات المحوري.|
 | [change_template(data)](/cells/ar/python-net/aspose.cells.charts/chart/change_template/#bytes) | تغيير نوع الرسم البياني مع قالب مسبق الإعداد.|
-| [move(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/ar/python-net/aspose.cells.charts/chart/move/#int-int-int-int) | ينقل الرسم البياني إلى موقع محدد.|
+| [move(upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/ar/python-net/aspose.cells.charts/chart/move/#int-int-int-int) | ينقل المخطط إلى موقع محدد.|
 | [calculate()](/cells/ar/python-net/aspose.cells.charts/chart/calculate/#) | تحسب الموضع المخصص لمنطقة الرسم والمحاور إذا تم تعيين موضعها تلقائيًا.|
-| [get_actual_size()](/cells/ar/python-net/aspose.cells.charts/chart/get_actual_size/#) | الحصول على الحجم الفعلي للرسم البياني بوحدة البكسل.|
+| [get_actual_size()](/cells/ar/python-net/aspose.cells.charts/chart/get_actual_size/#) | يحصل على الحجم الفعلي للرسم البياني بوحدة البكسل.|
 | [has_axis(aixs_type, is_primary)](/cells/ar/python-net/aspose.cells.charts/chart/has_axis/#AxisType-bool) | إرجاع المحاور الموجودة على الرسم البياني.|
 | [switch_row_column()](/cells/ar/python-net/aspose.cells.charts/chart/switch_row_column/#) | يبدل الصف / العمود.|
 | [get_chart_data_range()](/cells/ar/python-net/aspose.cells.charts/chart/get_chart_data_range/#) | يحصل على نطاق مصدر البيانات للمخطط.|
@@ -97,7 +97,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def copy(self, source, copy_option):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source | [Validation](/cells/tr/python-net/aspose.cells/validation) | Kaynak doğrulama.|
 | copy_option | [CopyOptions](/cells/tr/python-net/aspose.cells/copyoptions) | Kopyalama seçeneği.|

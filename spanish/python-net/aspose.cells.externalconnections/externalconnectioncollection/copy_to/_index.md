@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_to método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,9 +18,9 @@ def copy_to(self, array):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| array | list | La lista de matriz unidimensional que es el destino de la lista de matriz copiada de elementos.|
+| array | list | La lista de matriz unidimensional que es el destino de la lista de matriz copiada de elementos. La lista de matrices debe tener una indexación basada en cero.|
 
 
 ##  copy_to(index, array, array_index, count) {#int-list-int-int}
@@ -34,10 +34,10 @@ def copy_to(self, index, array, array_index, count):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | index | int | El índice de base cero en la lista de matrices de origen en el que comienza la copia.|
-| array | list | La lista de matriz unidimensional que es el destino de los elementos copiados de la lista de matriz.|
+| array | list | La lista de matriz unidimensional que es el destino de los elementos copiados de la lista de matriz. La lista de matrices debe tener una indexación basada en cero.|
 | array_index | int |El índice de base cero en la lista de matrices en el que comienza la copia.|
 | count | int | El número de elementos a copiar.|
 

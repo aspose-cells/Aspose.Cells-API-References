@@ -1,4 +1,4 @@
-﻿---
+---
 title: signer Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die signer ab und setzt sie.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import SignatureLine

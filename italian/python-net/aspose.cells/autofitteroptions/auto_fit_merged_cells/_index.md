@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -14,7 +14,7 @@ Il valore predefinito è falso.
 
 ###  Osservazioni
 
- NOTA: questo membro è ora obsoleto.
+ NOTA: questo membro è ora obsoleto. Invece,
 utilizzare invece la proprietà AutoFitterOptions.AutoFitMergedCellsType.
  Questa proprietà verrà rimossa 12 mesi dopo da dicembre 2018.
 Aspose si scusa per gli eventuali disagi causati.

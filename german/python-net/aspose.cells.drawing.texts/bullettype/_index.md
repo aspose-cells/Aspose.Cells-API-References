@@ -1,4 +1,4 @@
-﻿---
+---
 title: BulletType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,7 +20,7 @@ Der Typ BulletType macht die folgenden Member verfügbar:
 | NONE | Keine Kugel.|
 | CHARACTER | Zeichenkugel.|
 | PICTURE | Bild Kugel.|
-| AUTO_NUMBERED | Automatisch nummerierte Aufzählungszeichen.|
+| AUTO_NUMBERED | Automatisch nummeriertes Aufzählungszeichen.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ El tipo FolderFontSource expone los siguientes miembros:
 ###  Constructores
 | Constructor| Descripción|
 | :- | :- |
-| [FolderFontSource(folder_path, scan_subfolders)](/cells/es/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Director.|
+| [FolderFontSource(folder_path, scan_subfolders)](/cells/es/python-net/aspose.cells/folderfontsource/__init__/#str-bool) | Ctor.|
 
 
 ###  Propiedades

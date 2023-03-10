@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_smart_art Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_range_to_json yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,13 +22,13 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Menzil.|
 | options | [ExportRangeToJsonOptions](/cells/tr/python-net/aspose.cells.utility/exportrangetojsonoptions) | Dışa aktarma seçenekleri.|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor.
+NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen ExportRangeToJson(Aralık aralığı, JsonSaveOptions seçenekleri) yöntemini kullanın.
  Bu mülk, Kasım 2022'den itibaren 6 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -48,7 +48,7 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range | [Range](/cells/tr/python-net/aspose.cells/range) | Menzil.|
 | options | [JsonSaveOptions](/cells/tr/python-net/aspose.cells/jsonsaveoptions) | Dışa aktarma seçenekleri.|

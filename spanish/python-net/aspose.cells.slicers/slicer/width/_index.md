@@ -1,4 +1,4 @@
-﻿---
+---
 title: width propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve o establece el width de la segmentación especificada, en puntos.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

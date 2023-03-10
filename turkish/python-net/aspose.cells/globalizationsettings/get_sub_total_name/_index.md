@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_sub_total_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,12 +22,12 @@ def get_sub_total_name(self, sub_total_type):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | [PivotFieldSubtotalType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) tipi|
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor.
+NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen GlobalizationSettings.GetColumnLabelsOfPivotTable() yöntemini kullanın.
  Bu mülk, Aralık 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

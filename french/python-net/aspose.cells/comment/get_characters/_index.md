@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_characters méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ def get_characters(self):
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 

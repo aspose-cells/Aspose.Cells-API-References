@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_row metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def auto_fit_row(self, row_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 ###  Anmärkningar
@@ -37,7 +37,7 @@ def auto_fit_row(self, row_index, first_column, last_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 | first_column | int | Första kolumnindex.|
@@ -58,7 +58,7 @@ def auto_fit_row(self, row_index, first_column, last_column, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | row_index | int | Radindex.|
 | first_column | int | Första kolumnindex.|
@@ -80,7 +80,7 @@ def auto_fit_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | start_row | int | Starta radindex.|
 | end_row | int | Slutradindex.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparency propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  transparency propiedad
 
-Obtiene y establece el grado de transparency del efecto de resplandor. El rango va de 0,0 (opaco) a 1,0 (transparente).
+Obtiene y establece el grado de transparency del efecto de brillo. Rango de 0,0 (opaco) a 1,0 (transparente).
 ###  Definición:
 ```python
 @property

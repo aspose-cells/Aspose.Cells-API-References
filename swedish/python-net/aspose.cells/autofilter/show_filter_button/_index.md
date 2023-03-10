@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_filter_button fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

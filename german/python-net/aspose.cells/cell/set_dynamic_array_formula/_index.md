@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_dynamic_array_formula Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cell/set_dynamic_array_formula/
 is_root: false
 ---
 ##  set_dynamic_array_formula(array_formula, options, calculate_value) {#str-FormulaParseOptions-bool}
-Legt eine dynamische Matrixformel fest und bewirkt, dass die Formel nach Möglichkeit in benachbarte Zellen übergeht.
+Legt eine dynamische Matrixformel fest und lässt die Formel nach Möglichkeit in benachbarte Zellen übergehen.
 
 
 ###  Kehrt zurück
@@ -26,11 +26,11 @@ def set_dynamic_array_formula(self, array_formula, options, calculate_value):
 | :- | :- | :- |
 | array_formula | str | der Formelausdruck|
 | options | [FormulaParseOptions](/cells/de/python-net/aspose.cells/formulaparseoptions) | Optionen zum Analysieren von Formeln.<br/> Die Option "Parsen" wird ignoriert und die Formel wird immer sofort analysiert|
-| calculate_value | bool | ob diese dynamische Matrixformel für diese Zellen im Überlaufbereich berechnet werden soll.|
+| calculate_value | bool | ob diese dynamische Array-Formel für diese Zellen im verschütteten Bereich berechnet wird.|
 
 
 ##  set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value) {#str-FormulaParseOptions-list-bool-bool}
-Legt eine dynamische Matrixformel fest und bewirkt, dass die Formel nach Möglichkeit in benachbarte Zellen übergeht.
+Legt eine dynamische Matrixformel fest und lässt die Formel nach Möglichkeit in benachbarte Zellen übergehen.
 
 
 ###  Kehrt zurück
@@ -54,7 +54,7 @@ def set_dynamic_array_formula(self, array_formula, options, values, calculate_ra
 
 
 ##  set_dynamic_array_formula(array_formula, options, values, calculate_range, calculate_value, copts) {#str-FormulaParseOptions-list-bool-bool-CalculationOptions}
-Legt eine dynamische Matrixformel fest und bewirkt, dass die Formel nach Möglichkeit in benachbarte Zellen übergeht.
+Legt eine dynamische Matrixformel fest und lässt die Formel nach Möglichkeit in benachbarte Zellen übergehen.
 
 
 ###  Kehrt zurück

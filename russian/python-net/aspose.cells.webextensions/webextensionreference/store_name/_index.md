@@ -1,4 +1,4 @@
-﻿---
+---
 title: store_name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  store_name недвижимость
 
-Получает и задает экземпляр рынка, в котором хранится надстройка Office.
+Получает и задает экземпляр рынка, в котором хранится надстройка Office. .
 ###  Определение:
 ```python
 @property

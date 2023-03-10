@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inserting_hyperlinks_allowed mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,8 +13,8 @@ Korumalı bir çalışma sayfasında köprülerin eklenmesine izin verilip veril
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
- lütfen Koruma'yı kullanın. Köprü Eklemeye İzin Ver özelliği.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
+ lütfen Protection.AllowInsertingHyperlink özelliğini kullanın.
  Bu mülk, Haziran 2010'dan bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

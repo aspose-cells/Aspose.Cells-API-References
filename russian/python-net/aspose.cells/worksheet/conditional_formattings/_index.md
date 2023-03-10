@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formattings недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings недвижимость
 
-Получает условное форматирование на листе.
+Получает ConditionalFormattings на листе.
 ###  Определение:
 ```python
 @property

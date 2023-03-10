@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.slicers
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ is_root: false
 | [Slicer](/cells/tr/python-net/aspose.cells.slicers/slicer) | Dilimleyici Görünümünün özet açıklaması|
 | [SlicerCache](/cells/tr/python-net/aspose.cells.slicers/slicercache) | dilimleyici önbelleğinin özet açıklaması|
 | [SlicerCacheItem](/cells/tr/python-net/aspose.cells.slicers/slicercacheitem) | Dilimleyici veri kaynağı öğesini temsil eder|
-| [SlicerCacheItemCollection](/cells/tr/python-net/aspose.cells.slicers/slicercacheitemcollection) | SlicerCacheItems koleksiyonunu temsil eder|
+| [SlicerCacheItemCollection](/cells/tr/python-net/aspose.cells.slicers/slicercacheitemcollection) | SlicerCacheItem koleksiyonunu temsil eder|
 | [SlicerCollection](/cells/tr/python-net/aspose.cells.slicers/slicercollection) | Belirtilen çalışma sayfasındaki tüm Slicer nesnelerinin koleksiyonunu belirtir.|
 
 

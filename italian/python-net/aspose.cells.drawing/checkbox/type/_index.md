@@ -1,4 +1,4 @@
-﻿---
+---
 title: type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene la forma automatica type.
 
-###  Esempi
+###  Esempio
 
 ```python
 

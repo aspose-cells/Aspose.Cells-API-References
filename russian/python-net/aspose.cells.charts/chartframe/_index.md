@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartFrame класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 | [text_font](/cells/ru/python-net/aspose.cells.charts/chartframe/text_font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
 | [text_options](/cells/ru/python-net/aspose.cells.charts/chartframe/text_options) | Получает и задает параметры текста.|
 | [font](/cells/ru/python-net/aspose.cells.charts/chartframe/font) | Получает объект [ChartFrame.font](/cells/ru/python-net/aspose.cells.charts/chartframe#font) указанного объекта ChartFrame.|
-| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/chartframe/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта.|
+| [auto_scale_font](/cells/ru/python-net/aspose.cells.charts/chartframe/auto_scale_font) | Истинно, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию верно.|
 | [background_mode](/cells/ru/python-net/aspose.cells.charts/chartframe/background_mode) | Получает и задает режим отображения фона|
 | [background](/cells/ru/python-net/aspose.cells.charts/chartframe/background) | Получает и задает режим отображения фона|
 | [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/chartframe/is_automatic_size) | Указывает, имеет ли рамка диаграммы автоматический размер.|

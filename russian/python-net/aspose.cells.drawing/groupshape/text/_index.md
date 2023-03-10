@@ -1,4 +1,4 @@
-﻿---
+---
 title: text недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет строку в этом объекте TextBox.
 
-###  Примеры
+###  Пример
 
 ```python
 

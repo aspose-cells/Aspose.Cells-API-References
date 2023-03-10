@@ -1,4 +1,4 @@
-﻿---
+---
 title: SvgSaveOptions constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/svgsaveoptions/__init__/
 is_root: false
 ---
 ##  SvgSaveOptions() {#}
-Crea las opciones para guardar archivos svg.
+Crea las opciones para guardar el archivo svg.
 
 
 
@@ -21,7 +21,7 @@ def __init__(self):
 
 
 ##  SvgSaveOptions(save_format) {#SaveFormat}
-Crea las opciones para guardar archivos svg.
+Crea las opciones para guardar el archivo svg.
 
 
 
@@ -31,7 +31,7 @@ def __init__(self, save_format):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | save_format | [SaveFormat](/cells/es/python-net/aspose.cells/saveformat) | El formato de archivo.<br/> Debe ser SVG.|
 ###  Observaciones

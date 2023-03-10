@@ -1,4 +1,4 @@
-﻿---
+---
 title: GridlineType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/gridlinetype/
 is_root: false
 ---
 ##  GridlineType перечисление
-Перечисляет типы линий сетки.
+Перечисляет тип линии сетки.
 
 
 

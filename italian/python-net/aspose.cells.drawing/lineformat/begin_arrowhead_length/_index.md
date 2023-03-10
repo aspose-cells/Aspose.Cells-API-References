@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_length proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di lunghezza della freccia iniziale della linea.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import MsoArrowheadLength

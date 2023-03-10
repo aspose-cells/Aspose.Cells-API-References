@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_new Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_new Eigentum
 
- True, wenn die Verbindung nicht zum ersten Mal aktualisiert wurde, andernfalls false.
+ True, wenn die Verbindung nicht zum ersten Mal aktualisiert wurde; andernfalls falsch.
 Dieser Zustand kann eintreten, wenn der Benutzer die Datei speichert, bevor eine Abfrage die Rückgabe beendet hat.
 ###  Definition:
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة on_circular
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | circular_cells_data | collections.abc.Iterator | IEnumerator مع عناصر CalculationCell تمثل الخلايا التي<br/> تعتمد على المراجع الدائرية.|
 ###  ملاحظات

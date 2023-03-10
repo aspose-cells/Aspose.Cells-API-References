@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_header método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_header(self, section, header_script):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | section | int | 0: Sección izquierda, 1: Sección central, 2: Sección derecha.|
 | header_script | str | Script de formato de encabezado.|
@@ -36,7 +36,7 @@ Comandos de guión:
 | &F| Nombre de archivo sin ruta|
 | &"<FontName>"| Nombre de fuente, por ejemplo: &"Arial"|
 | &"<FontName>, <FontStyle>"| Nombre de fuente y estilo de fuente, por ejemplo: &"Arial,Negrita"|
-| &<FontSize>| Tamaño de la fuente: si este comando va seguido de un número simple para imprimir en el encabezado, se separará de la altura de la fuente con un carácter de espacio.|
+| &<FontSize>| Tamaño de fuente. Si este comando es seguido por un número simple que se imprimirá en el encabezado, se separará de la altura de la fuente con un carácter de espacio.|
 | &K<RRGGBB>|Color de fuente, por ejemplo (ROJO): &KFF0000|
 | &GRAMO| Guión de imagen|
 

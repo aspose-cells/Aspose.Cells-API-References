@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_gradient
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_gradient(self, type, angle, direction):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [GradientFillType](/cells/ar/python-net/aspose.cells.drawing/gradientfilltype) | نوع تعبئة متدرجة.|
 | angle | float | الزاوية. ينطبق فقط على GradientFillType.Linear.|

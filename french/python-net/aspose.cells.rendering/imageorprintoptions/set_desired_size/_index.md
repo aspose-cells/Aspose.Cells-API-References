@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_desired_size méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def set_desired_size(self, desired_width, desired_height):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | desired_width | int | largeur souhaitée en pixels|
 | desired_height | int | hauteur souhaitée en pixels|

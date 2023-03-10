@@ -1,4 +1,4 @@
-﻿---
+---
 title: force_full_calculation mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  force_full_calculation mülk
 
-Bir hesaplama her tetiklendiğinde tüm formüllerin hesaplanıp hesaplanmadığını gösterir.
+Bir hesaplama tetiklendiğinde her seferinde tüm formülleri hesaplayıp hesaplamadığını gösterir.
 
 ###  Notlar
 

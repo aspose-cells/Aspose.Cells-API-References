@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotate_text_with_shape الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

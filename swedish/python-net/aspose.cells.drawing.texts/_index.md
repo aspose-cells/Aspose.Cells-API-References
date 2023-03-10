@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.texts
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -7,12 +7,12 @@ weight: 10
 url: /sv/python-net/aspose.cells.drawing.texts/
 is_root: false
 ---
- De**Aspose.Cells.Drawing.Texts** namnrymden tillhandahåller klasser som ritar och formaterar textobjekt som stycken, punkter och mer.
+ De**Aspose.Cells.Drawing.Texts** namnrymden tillhandahåller klasser som ritar och formaterar textobjekt som stycke, punkt och mer.
 
 ###  Klasser
 | Klass| Beskrivning|
 | :- | :- |
-| [AutoNumberedBulletValue](/cells/sv/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Representerar automatiskt numrerade kulor.|
+| [AutoNumberedBulletValue](/cells/sv/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Representerar automatisk numrerad punkt.|
 | [Bullet](/cells/sv/python-net/aspose.cells.drawing.texts/bullet) | Representerar kulan.|
 | [BulletValue](/cells/sv/python-net/aspose.cells.drawing.texts/bulletvalue) | Representerar värdet på kulan.|
 | [CharacterBulletValue](/cells/sv/python-net/aspose.cells.drawing.texts/characterbulletvalue) | Representerar teckenkulan.|
@@ -22,7 +22,7 @@ is_root: false
 | [ShapeTextAlignment](/cells/sv/python-net/aspose.cells.drawing.texts/shapetextalignment) | Representerar inställningen av formens textjustering;|
 | [TextOptions](/cells/sv/python-net/aspose.cells.drawing.texts/textoptions) | Representerar textalternativen.|
 | [TextParagraph](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraph) | Representerar inställningen för textstycke.|
-| [TextParagraphCollection](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraphcollection) | Representerar alla textstycken.|
+| [TextParagraphCollection](/cells/sv/python-net/aspose.cells.drawing.texts/textparagraphcollection) | Representerar all textstycke.|
 | [TextTabStop](/cells/sv/python-net/aspose.cells.drawing.texts/texttabstop) | Representerar tabbstopp.|
 | [TextTabStopCollection](/cells/sv/python-net/aspose.cells.drawing.texts/texttabstopcollection) | Representerar listan över alla tabbstopp.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: next Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Bewegt den Cursor von seiner aktuellen Position eine Zeile nach unten.
 
 ###  Kehrt zurück
 
-wenn die neue aktuelle Zeile gültig ist; false, wenn keine weiteren Zeilen vorhanden sind
+wenn die neue aktuelle Zeile gültig ist; false, wenn keine Zeilen mehr vorhanden sind
 
 
 ```python

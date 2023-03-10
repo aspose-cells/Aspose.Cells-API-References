@@ -1,4 +1,4 @@
-﻿---
+---
 title: Worksheet classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type Worksheet expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [protection](/cells/fr/python-net/aspose.cells/worksheet/protection) | Représente les différents types d'options de protection disponibles pour une feuille de calcul.|
+| [protection](/cells/fr/python-net/aspose.cells/worksheet/protection) | Représente les différents types d'options de protection disponibles pour une feuille de calcul. Prend en charge les options de protection avancées dans ExcelXP et les versions supérieures.|
 | [unique_id](/cells/fr/python-net/aspose.cells/worksheet/unique_id) | Obtient et définit l'identifiant unique, il est identique à {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}.|
 | [workbook](/cells/fr/python-net/aspose.cells/worksheet/workbook) | Obtient l'objet classeur qui contient cette feuille.|
 | [cells](/cells/fr/python-net/aspose.cells/worksheet/cells) | Obtient la collection [Worksheet.cells](/cells/fr/python-net/aspose.cells/worksheet#cells).|
@@ -56,7 +56,7 @@ Le type Worksheet expose les membres suivants :
 | [shapes](/cells/fr/python-net/aspose.cells/worksheet/shapes) | Renvoie toutes les formes de dessin dans cette feuille de calcul.|
 | [slicers](/cells/fr/python-net/aspose.cells/worksheet/slicers) | Obtenir la collection Slicer dans la feuille de calcul|
 | [timelines](/cells/fr/python-net/aspose.cells/worksheet/timelines) | Obtenir la collection Timeline dans la feuille de calcul|
-| [index](/cells/fr/python-net/aspose.cells/worksheet/index) | Obtient l'index des feuilles dans la collection de feuilles de calcul.|
+| [index](/cells/fr/python-net/aspose.cells/worksheet/index) | Obtient l'index de la feuille dans la collection de feuilles de calcul.|
 | [is_protected](/cells/fr/python-net/aspose.cells/worksheet/is_protected) | Indique si la feuille de calcul est protégée.|
 | [validations](/cells/fr/python-net/aspose.cells/worksheet/validations) | Obtient la collection de paramètres de validation des données dans la feuille de calcul.|
 | [allow_edit_ranges](/cells/fr/python-net/aspose.cells/worksheet/allow_edit_ranges) | Obtient la collection de plages de modification autorisées dans la feuille de calcul.|
@@ -67,11 +67,11 @@ Le type Worksheet expose les membres suivants :
 | [zoom](/cells/fr/python-net/aspose.cells/worksheet/zoom) | Représente le facteur d'échelle en pourcentage. Il doit être compris entre 10 et 400.|
 | [view_type](/cells/fr/python-net/aspose.cells/worksheet/view_type) | Obtient et définit le type de vue.|
 | [is_page_break_preview](/cells/fr/python-net/aspose.cells/worksheet/is_page_break_preview) | Indique si la feuille de calcul spécifiée est affichée en vue normale ou en aperçu de saut de page.|
-| [is_ruler_visible](/cells/fr/python-net/aspose.cells/worksheet/is_ruler_visible) |Indique si la règle est visible.|
+| [is_ruler_visible](/cells/fr/python-net/aspose.cells/worksheet/is_ruler_visible) |Indique si la règle est visible. Cette propriété s'applique uniquement à l'aperçu des sauts de page.|
 | [tab_color](/cells/fr/python-net/aspose.cells/worksheet/tab_color) | Représente la couleur de l'onglet de la feuille de calcul.|
 | [code_name](/cells/fr/python-net/aspose.cells/worksheet/code_name) | Obtient le nom de code de la feuille de calcul.|
 | [background_image](/cells/fr/python-net/aspose.cells/worksheet/background_image) | Obtient et définit l'image d'arrière-plan de la feuille de calcul.|
-| [conditional_formattings](/cells/fr/python-net/aspose.cells/worksheet/conditional_formattings) | Obtient la mise en forme conditionnelle dans la feuille de calcul.|
+| [conditional_formattings](/cells/fr/python-net/aspose.cells/worksheet/conditional_formattings) | Obtient les ConditionalFormattings dans la feuille de calcul.|
 | [active_cell](/cells/fr/python-net/aspose.cells/worksheet/active_cell) | Obtient ou définit la cellule active dans la feuille de calcul.|
 | [custom_properties](/cells/fr/python-net/aspose.cells/worksheet/custom_properties) | Obtient un objet représentant<br/> les informations d'identification associées à une feuille de calcul.|
 | [smart_tag_setting](/cells/fr/python-net/aspose.cells/worksheet/smart_tag_setting) | Obtient tous les objets [SmartTagCollection](/cells/fr/python-net/aspose.cells.markup/smarttagcollection) de la feuille de calcul.|
@@ -90,10 +90,10 @@ Le type Worksheet expose les membres suivants :
 | [auto_fit_column(column_index)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_column/#int) | Ajuste automatiquement la largeur de la colonne.|
 | [auto_fit_columns()](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#) | Ajuste automatiquement toutes les colonnes de cette feuille de calcul.|
 | [auto_fit_columns(options)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#AutoFitterOptions) | Ajuste automatiquement toutes les colonnes de cette feuille de calcul.|
-| [auto_fit_columns(first_column, last_column)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int) | Ajuste automatiquement la largeur de la colonne.|
-| [auto_fit_columns(first_column, last_column, options)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-AutoFitterOptions) | Ajuste automatiquement la largeur de la colonne.|
-| [auto_fit_columns(first_row, first_column, last_row, last_column)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int) | Ajuste automatiquement la largeur de la colonne.|
-| [auto_fit_columns(first_row, first_column, last_row, last_column, options)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int-AutoFitterOptions) | Ajuste automatiquement la largeur de la colonne.|
+| [auto_fit_columns(first_column, last_column)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int) | Ajuste automatiquement la largeur des colonnes.|
+| [auto_fit_columns(first_column, last_column, options)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-AutoFitterOptions) | Ajuste automatiquement la largeur des colonnes.|
+| [auto_fit_columns(first_row, first_column, last_row, last_column)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int) | Ajuste automatiquement la largeur des colonnes.|
+| [auto_fit_columns(first_row, first_column, last_row, last_column, options)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_columns/#int-int-int-int-AutoFitterOptions) | Ajuste automatiquement la largeur des colonnes.|
 | [auto_fit_row(row_index, first_column, last_column)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_row/#int-int-int) | Ajuste automatiquement la hauteur de ligne.|
 | [auto_fit_row(row_index, first_column, last_column, options)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_row/#int-int-int-AutoFitterOptions) | Ajuste automatiquement la hauteur de ligne.|
 | [auto_fit_row(start_row, end_row, start_column, end_column)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_row/#int-int-int-int) | Ajuste automatiquement la hauteur de ligne dans une plage de rectangles.|
@@ -105,8 +105,8 @@ Le type Worksheet expose les membres suivants :
 | [auto_fit_rows(start_row, end_row, options)](/cells/fr/python-net/aspose.cells/worksheet/auto_fit_rows/#int-int-AutoFitterOptions) |Ajuste automatiquement la hauteur de ligne dans une plage.|
 | [protect(type)](/cells/fr/python-net/aspose.cells/worksheet/protect/#ProtectionType) | Protège la feuille de calcul.|
 | [protect(type, password, old_password)](/cells/fr/python-net/aspose.cells/worksheet/protect/#ProtectionType-str-str) | Protège la feuille de calcul.|
-| [unprotect()](/cells/fr/python-net/aspose.cells/worksheet/unprotect/#) | Déprotéger la feuille de calcul.|
-| [unprotect(password)](/cells/fr/python-net/aspose.cells/worksheet/unprotect/#str) | Déprotéger la feuille de calcul.|
+| [unprotect()](/cells/fr/python-net/aspose.cells/worksheet/unprotect/#) | Déprotége la feuille de calcul.|
+| [unprotect(password)](/cells/fr/python-net/aspose.cells/worksheet/unprotect/#str) | Déprotége la feuille de calcul.|
 | [calculate_formula(formula)](/cells/fr/python-net/aspose.cells/worksheet/calculate_formula/#str) | Calcule une formule.|
 | [calculate_formula(formula, opts)](/cells/fr/python-net/aspose.cells/worksheet/calculate_formula/#str-CalculationOptions) | Calcule une formule.|
 | [calculate_formula(recursive, ignore_error, custom_function)](/cells/fr/python-net/aspose.cells/worksheet/calculate_formula/#bool-bool-ICustomFunction) | Calcule toutes les formules de cette feuille de calcul.|
@@ -135,7 +135,7 @@ Le type Worksheet expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

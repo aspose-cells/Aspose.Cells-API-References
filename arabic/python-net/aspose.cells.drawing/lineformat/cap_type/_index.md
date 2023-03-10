@@ -1,4 +1,4 @@
-﻿---
+---
 title: cap_type الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يحدد قبعات النهاية.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells.drawing import LineCapType

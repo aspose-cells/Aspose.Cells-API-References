@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_on_change fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  refresh_on_change fastighet
 
  Flagga som anger om frågan ska uppdateras automatiskt när innehållet i en
- cell som ger parametervärdeändringar. Om sant, uppdateras externa data
- använder det nya parametervärdet varje gång det sker en förändring.
+ cell som ger parametervärdeändringarna. Om det är sant uppdateras externa data
+ använder det nya parametervärdet varje gång det sker en förändring. Om falsk, extern data
 uppdateras endast när användaren begär det, eller någon annan händelse utlöser uppdatering (t.ex. om arbetsboken öppnas).
 ###  Definition:
 ```python

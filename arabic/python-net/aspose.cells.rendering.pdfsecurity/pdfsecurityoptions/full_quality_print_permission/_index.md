@@ -1,4 +1,4 @@
-﻿---
+---
 title: full_quality_print_permission الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

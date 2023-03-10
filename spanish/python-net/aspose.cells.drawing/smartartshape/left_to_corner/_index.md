@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  left_to_corner propiedad
 
-Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de trabajo.
+Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_shared_formula metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | shared_formula | str | Delad formel.|
 | row_number | int |Antal rader att fylla i formeln.|
@@ -39,7 +39,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | shared_formula | str | Delad formel.|
 | row_number | int |Antal rader att fylla i formeln.|
@@ -58,7 +58,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | shared_formula | str | Delad formel.|
 | row_number | int |Antal rader att fylla i formeln.|
@@ -67,7 +67,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 | is_local | bool | om formeln är språkformaterad|
 ###  Anmärkningar
 
-OBS: Denna klass är nu föråldrad.
+OBS: Denna klass är nu föråldrad. Istället,
 använd Cell.SetSharedFormula(string,int,int,FormulaParseOptions).
 Den här egenskapen kommer att tas bort 12 månader senare sedan december 2019.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
@@ -83,13 +83,13 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | shared_formula | str | Delad formel.|
 | row_number | int |Antal rader att fylla i formeln.|
 | column_number | int | Antal kolumner att fylla i formeln.|
 | options | [FormulaParseOptions](/cells/sv/python-net/aspose.cells/formulaparseoptions) | Alternativ för att analysera formeln.|
-| values | list | värden för de celler med given delad formel|
+| values | list | värden för dessa celler med en given delad formel|
 
 
 

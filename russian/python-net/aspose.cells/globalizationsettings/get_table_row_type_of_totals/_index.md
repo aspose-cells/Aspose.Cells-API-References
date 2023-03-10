@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_table_row_type_of_totals метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_tot
 is_root: false
 ---
 ##  get_table_row_type_of_totals() {#}
-Получает имя типа строк таблицы, состоящих из общей строки таблицы, на которую ссылаются.
+Получает имя типа строк таблицы, состоящее из общей строки таблицы, на которую ссылаются.
 По умолчанию используется значение «Итоги», поэтому в формуле «#Итоги» представляет итоговую строку ссылочной таблицы.
 
 

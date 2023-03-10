@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_area метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def add_area(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Стартовый ряд.|
 | start_column | int | Стартовая колонка.|

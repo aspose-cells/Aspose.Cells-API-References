@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_object_listener недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Это свойство устарело.
+ ПРИМЕЧАНИЕ. Это свойство устарело. Вместо,
 используйте свойство HtmlSaveOptions.IStreamProvider.
  Это свойство будет удалено через 12 месяцев, начиная с августа 2015 года.
 Aspose приносит извинения за возможные неудобства.

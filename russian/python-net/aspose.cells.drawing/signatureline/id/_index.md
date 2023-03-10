@@ -1,4 +1,4 @@
-﻿---
+---
 title: id недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает или задает идентификатор для этой строки подписи.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing import SignatureLine

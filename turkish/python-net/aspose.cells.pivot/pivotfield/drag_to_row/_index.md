@@ -1,4 +1,4 @@
-﻿---
+---
 title: drag_to_row mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  drag_to_row mülk
 
-Belirtilen alanın satır konumuna sürüklenip sürüklenemeyeceğini gösterir.
+Belirtilen alanın satır konumuna sürüklenip sürüklenemeyeceğini belirtir.
 Varsayılan değer doğrudur.
 ###  Tanım:
 ```python

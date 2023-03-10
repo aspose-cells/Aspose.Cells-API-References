@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -39,7 +39,7 @@ def add(self, type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [SheetType](/cells/sv/python-net/aspose.cells/sheettype) | Typ av arbetsblad.|
 
@@ -80,7 +80,7 @@ def add(self, sheet_name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | sheet_name | str | Arbetsbladsnamn|
 

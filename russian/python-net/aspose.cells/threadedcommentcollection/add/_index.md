@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add(self, text, author):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | text | str | Текст связанного комментария.|
 | author | [ThreadedCommentAuthor](/cells/ru/python-net/aspose.cells/threadedcommentauthor) | Автор ветки комментария|

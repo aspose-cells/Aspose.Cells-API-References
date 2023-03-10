@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_input_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,13 +18,13 @@ def set_input_range(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | formula | str | L'intervallo usato per riempire il controllo.|
 | is_r1c1 | bool | Se la formula deve essere formattata come R1C1.|
 | is_local | bool | Se la formula deve essere formattata in base alle impostazioni locali.|
 
-###  Esempi
+###  Esempio
 
 ```python
 

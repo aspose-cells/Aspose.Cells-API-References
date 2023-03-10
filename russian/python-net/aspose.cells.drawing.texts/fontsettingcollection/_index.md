@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSettingCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -41,7 +41,7 @@ is_root: false
 | [append_text(text)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/append_text/#str) | Добавляет текст.|
 | [insert_text(index, text)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/insert_text/#int-str) | Вставьте указатель в позицию.|
 | [delete_text(index, count)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/delete_text/#int-int) | Удалите некоторые символы.|
-| [format(start_index, length, font, flag)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Отформатируйте текст с помощью настроек шрифта.|
+| [format(start_index, length, font, flag)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/format/#int-int-Font-StyleFlag) | Отформатируйте текст с настройкой шрифта.|
 | [binary_search(item)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/binary_search/#FontSetting) | Ищет элемент во всем отсортированном списке массивов, используя компаратор по умолчанию, и возвращает отсчитываемый от нуля индекс элемента.|
 
 

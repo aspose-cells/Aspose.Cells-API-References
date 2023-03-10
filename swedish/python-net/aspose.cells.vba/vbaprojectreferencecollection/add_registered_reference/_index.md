@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_registered_reference metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_registered_reference(self, name, libid):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | name | str | Referensens namn.|
 | libid | str | Identifieraren för ett bibliotek av automationstyp.|

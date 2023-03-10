@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagSetting klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
 ##  SmartTagSetting klass
-Representerar alla [SmartTagCollection](/cells/sv/python-net/aspose.cells.markup/smarttagcollection) objekt i kalkylbladet.
+Representerar alla [SmartTagCollection](/cells/sv/python-net/aspose.cells.markup/smarttagcollection)-objekt i kalkylbladet.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_type_map الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  column_type_map الملكية
 
-الحصول على خريطة أنواع الأعمدة لقواعد البيانات المختلفة وتعيينها.
+الحصول على وتعيين خريطة نوع العمود لقاعدة بيانات مختلفة.
 ###  تعريف:
 ```python
 @property

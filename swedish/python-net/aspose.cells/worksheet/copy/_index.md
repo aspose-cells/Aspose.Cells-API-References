@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def copy(self, source_sheet):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Källarbetsblad.|
 
@@ -34,13 +34,13 @@ def copy(self, source_sheet, copy_options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | source_sheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Källarbetsblad.|
 | copy_options | [CopyOptions](/cells/sv/python-net/aspose.cells/copyoptions) |  |
 ###  Anmärkningar
 
-Du kan copy data från ett annat kalkylblad i samma fil eller en annan fil.
+Du kan copy data från ett annat kalkylblad i samma fil eller en annan fil. Den här metoden stöder dock inte copy ritobjekt, såsom kommentarer, bilder och diagram.
 
 
 ###  Se även

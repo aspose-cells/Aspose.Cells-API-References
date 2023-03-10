@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_filter método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def add_filter(self, field_index, criteria):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | field_index | int | El desplazamiento entero del campo en el que desea basar el filtro<br/> (desde la izquierda de la lista; el campo más a la izquierda es el campo 0).|
 | criteria | str | Los criterios especificados (una cadena; por ejemplo, "101").<br/> Solo puede ser nulo o ser uno de los valores de las celdas en esta columna.|

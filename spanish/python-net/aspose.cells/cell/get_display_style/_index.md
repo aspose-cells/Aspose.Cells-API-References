@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_display_style método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -24,7 +24,7 @@ def get_display_style(self):
 
 ##  get_display_style(include_merged_borders) {#bool}
 Obtiene el estilo de visualización de la celda.
-Si la celda tiene un formato condicional, el estilo de visualización no es el mismo que el de cell.GetStyle().
+Si la celda tiene formato condicional, el estilo de visualización no es el mismo que el de cell.GetStyle().
 
 
 
@@ -34,7 +34,7 @@ def get_display_style(self, include_merged_borders):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | include_merged_borders | bool | Indica si se revisan los bordes de las celdas combinadas.|
 

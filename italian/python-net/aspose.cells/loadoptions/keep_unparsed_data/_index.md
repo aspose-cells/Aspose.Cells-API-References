@@ -1,4 +1,4 @@
-﻿---
+---
 title: keep_unparsed_data proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  keep_unparsed_data proprietà
 
-Indica se conservare i dati non analizzati in memoria per la cartella di lavoro quando viene caricata dal file modello. L'impostazione predefinita è true.
+Se conservare i dati non analizzati in memoria per la cartella di lavoro quando viene caricata dal file modello. L'impostazione predefinita è true.
 
 ###  Osservazioni
 

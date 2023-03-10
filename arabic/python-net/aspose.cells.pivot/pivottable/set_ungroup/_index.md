@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_ungroup
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_ungroup(self, base_field_index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | base_field_index | int | فهرس حقل الصف أو العمود في الحقول الأساسية|
 
@@ -34,7 +34,7 @@ def set_ungroup(self, pivot_field):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | pivot_field | [PivotField](/cells/ar/python-net/aspose.cells.pivot/pivotfield) | حقل الصف أو العمود في الحقول الأساسية|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: result_range mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range mülk
 
-Sonuçların aralığını alır.
+Sonucun aralığını alır.
 ###  Tanım:
 ```python
 @property

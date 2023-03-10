@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_leading_blank_row_and_column الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 حتى إذا كانت لا تحتوي على بيانات خلوية.
 عند الحفظ باستخدام وضع LightCells ، لا يسري هذا الخيار.
 يجب على المستخدم التحكم في نطاق الإخراج بتنفيذ [TxtSaveOptions.light_cells_data_provider](/cells/ar/python-net/aspose.cells/txtsaveoptions#light_cells_data_provider)
-أو عن طريق التحدث [TxtSaveOptions.export_area](/cells/ar/python-net/aspose.cells/txtsaveoptions#export_area)
+أو عن طريق speicifing [TxtSaveOptions.export_area](/cells/ar/python-net/aspose.cells/txtsaveoptions#export_area)
 ###  تعريف:
 ```python
 @property

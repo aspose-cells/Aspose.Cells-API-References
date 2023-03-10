@@ -1,4 +1,4 @@
-﻿---
+---
 title: reconnection_method недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ is_root: false
 
 ###  Примечания
 
- ПРИМЕЧАНИЕ. Это свойство устарело.
+ ПРИМЕЧАНИЕ. Это свойство устарело. Вместо,
 используйте свойство ExternalConnection.ReconnectionMethodType.
  Этот ресурс будет удален через 12 месяцев, начиная с октября 2017 года.
 Aspose приносит извинения за возможные неудобства.

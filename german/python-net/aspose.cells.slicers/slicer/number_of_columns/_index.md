@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_of_columns Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt die Anzahl der Spalten im angegebenen Slicer zurück oder legt sie fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

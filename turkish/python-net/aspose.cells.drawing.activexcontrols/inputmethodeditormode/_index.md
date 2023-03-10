@@ -1,4 +1,4 @@
-﻿---
+---
 title: InputMethodEditorMode numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,8 +19,8 @@ InputMethodEditorMode türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | NO_CONTROL |IME'yi kontrol etmez.|
 | ON | IME açık.|
-| OFF | IME kapalı İngilizce modu.|
-| DISABLE | IME kapalı. Kullanıcı IME'yi klavye ile açamaz.|
+| OFF | IME kapalı. İngilizce modu.|
+| DISABLE | IME kapalı.Kullanıcı IME'yi klavye ile açamaz.|
 | HIRAGANA | Tam genişlikte hiragana moduyla IME açık.|
 | KATAKANA | Tam genişlikte katakana modu ile IME açık.|
 | KATAKANA_HALF | Yarım genişlikte katakana modu ile IME açık.|
@@ -28,8 +28,8 @@ InputMethodEditorMode türü aşağıdaki üyeleri gösterir:
 | ALPHA | Yarım genişlikli Alfasayısal mod ile IME açık.|
 | HANGUL_FULL | Tam genişlikte hangul moduyla IME açık.|
 | HANGUL | Yarım genişlikte hangul moduyla IME açık.|
-| HANZI_FULL | Tam genişlikte Hanzi moduyla IME açık.|
-| HANZI | Yarım genişlikte Hanzi moduyla IME açık.|
+| HANZI_FULL | Tam genişlikte hanzi moduyla IME açık.|
+| HANZI | Yarım genişlikte hanzi moduyla IME açık.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def remove_area(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | Kaldırılacak koşullu biçimlendirilmiş hücre aralığının dizini.|
 
@@ -29,7 +29,7 @@ Aralıktaki koşullu biçimlendirmeyi kaldırın.
 
 ###  İadeler
 
-DOĞRU döndürür, bu FormatConditionCollection kaldırılmalıdır.
+TRUE döndürür, bu FormatCondtionCollection kaldırılmalıdır.
 
 
 ```python
@@ -38,10 +38,10 @@ def remove_area(self, start_row, start_column, total_rows, total_columns):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| start_row | int | Aralığın başlangıç satırı.|
-| start_column | int | Aralığın başlangıç Sütunu.|
+| start_row | int | Aralığın startRow'u.|
+| start_column | int | Aralığın startColumn değeri.|
 | total_rows | int | Aralığın satır sayısı.|
 | total_columns | int | Aralığın sütun sayısı.|
 

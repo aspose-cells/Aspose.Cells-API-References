@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_to_corner Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts in Pixeleinheiten ab und legt diesen fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

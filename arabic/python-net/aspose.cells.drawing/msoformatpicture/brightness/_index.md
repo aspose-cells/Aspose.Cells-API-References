@@ -1,4 +1,4 @@
-﻿---
+---
 title: brightness الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-يتراوح بين -100٪ و 100٪.
+يتراوح بين -100٪ و 100٪. يعمل مثل Excel 2007 أو إصدار أعلى.
 ###  تعريف:
 ```python
 @property

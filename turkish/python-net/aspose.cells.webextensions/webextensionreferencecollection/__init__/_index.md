@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionReferenceCollection yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

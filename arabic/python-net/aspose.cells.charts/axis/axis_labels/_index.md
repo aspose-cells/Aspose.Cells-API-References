@@ -1,4 +1,4 @@
-﻿---
+---
 title: axis_labels الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  axis_labels الملكية
 
-يحصل على تسميات المحور بعد استدعاء طريقة Chart.Calculate ().
+الحصول على تسميات المحور بعد استدعاء طريقة Chart.Calculate ().
 ###  تعريف:
 ```python
 @property

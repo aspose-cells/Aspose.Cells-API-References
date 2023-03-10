@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThreadedCommentAuthorCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/threadedcommentauthorcollection/
 is_root: false
 ---
 ##  ThreadedCommentAuthorCollection klass
-Representerar alla personer som.
+Representerar alla personer som .
 
 
 

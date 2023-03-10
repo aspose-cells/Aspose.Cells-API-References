@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_range_to_json méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,13 +22,13 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | range | [Range](/cells/fr/python-net/aspose.cells/range) | La gamme.|
 | options | [ExportRangeToJsonOptions](/cells/fr/python-net/aspose.cells.utility/exportrangetojsonoptions) | Les options d'exportation.|
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète.
+REMARQUE : ce membre est désormais obsolète. Plutôt,
 veuillez utiliser la méthode ExportRangeToJson(Range range, JsonSaveOptions options).
  Cette propriété sera supprimée 6 mois plus tard depuis novembre 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
@@ -48,7 +48,7 @@ def export_range_to_json(self, range, options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | range | [Range](/cells/fr/python-net/aspose.cells/range) | La gamme.|
 | options | [JsonSaveOptions](/cells/fr/python-net/aspose.cells/jsonsaveoptions) | Les options d'exportation.|

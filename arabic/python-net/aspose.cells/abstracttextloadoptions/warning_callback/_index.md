@@ -1,4 +1,4 @@
-﻿---
+---
 title: warning_callback الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  warning_callback الملكية
 
-يحصل أو يحدد الاستجابات التحذيرية.
+يحصل أو يحدد رد الاتصال التحذيري.
 ###  تعريف:
 ```python
 @property

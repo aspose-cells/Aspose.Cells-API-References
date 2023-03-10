@@ -1,4 +1,4 @@
-﻿---
+---
 title: scale_y Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scale_y Eigentum
 
-Ruft die Y-Skalierung zum Kacheln von Bildern ab oder legt diese fest.
+Ruft die Y-Skalierung für das Kachelbild ab oder legt diese fest.
 ###  Definition:
 ```python
 @property

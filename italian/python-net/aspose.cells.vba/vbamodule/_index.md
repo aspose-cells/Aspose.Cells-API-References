@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe VbaModule
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,11 +19,11 @@ Il tipo VbaModule espone i membri seguenti:
 | :- | :- |
 | [name](/cells/it/python-net/aspose.cells.vba/vbamodule/name) | Ottiene e imposta il nome di Module.|
 | [type](/cells/it/python-net/aspose.cells.vba/vbamodule/type) | Ottiene il tipo di modulo.|
-| [codes](/cells/it/python-net/aspose.cells.vba/vbamodule/codes) | Ottiene e imposta i codici dei moduli.|
+| [codes](/cells/it/python-net/aspose.cells.vba/vbamodule/codes) | Ottiene e imposta i codici del modulo.|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

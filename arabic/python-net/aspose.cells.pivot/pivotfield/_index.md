@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,12 +19,12 @@ is_root: false
 | :- | :- |
 | [pivot_items](/cells/ar/python-net/aspose.cells.pivot/pivotfield/pivot_items) | يحصل على العناصر المحورية للحقل المحوري|
 | [range](/cells/ar/python-net/aspose.cells.pivot/pivotfield/range) | يحصل على نطاق المجموعة للحقل المحوري|
-| [is_calculated_field](/cells/ar/python-net/aspose.cells.pivot/pivotfield/is_calculated_field) | الإشارة إلى ما إذا كان حقل PivotTable المحدد حقلاً محسوبًا.|
+| [is_calculated_field](/cells/ar/python-net/aspose.cells.pivot/pivotfield/is_calculated_field) | الإشارة إلى ما إذا كان حقل PivotTable المحدد محسوبًا أم لا.|
 | [base_index](/cells/ar/python-net/aspose.cells.pivot/pivotfield/base_index) | يمثل فهرس PivotField في PivotFields الأساسية.|
 | [position](/cells/ar/python-net/aspose.cells.pivot/pivotfield/position) | يمثل فهرس PivotField في PivotFields.|
 | [name](/cells/ar/python-net/aspose.cells.pivot/pivotfield/name) | يمثل اسم PivotField.|
 | [display_name](/cells/ar/python-net/aspose.cells.pivot/pivotfield/display_name) | يمثل اسم عرض PivotField.|
-| [is_auto_subtotals](/cells/ar/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | الإشارة إلى ما إذا كان الحقل المحدد يعرض الإجماليات الفرعية التلقائية أم لا. الإعداد الافتراضي هو "true".|
+| [is_auto_subtotals](/cells/ar/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | يشير إلى ما إذا كان الحقل المحدد يعرض الإجماليات الفرعية التلقائية. الافتراضي هو الصحيح.|
 | [drag_to_column](/cells/ar/python-net/aspose.cells.pivot/pivotfield/drag_to_column) | يشير إلى إمكانية سحب الحقل المحدد إلى موضع العمود.<br/> القيمة الافتراضية هي الحقيقية.|
 | [drag_to_hide](/cells/ar/python-net/aspose.cells.pivot/pivotfield/drag_to_hide) | يشير إلى إمكانية سحب الحقل المحدد إلى موضع الإخفاء.<br/> القيمة الافتراضية هي الحقيقية.|
 | [drag_to_row](/cells/ar/python-net/aspose.cells.pivot/pivotfield/drag_to_row) | يشير إلى إمكانية سحب الحقل المحدد إلى موضع الصف.<br/> القيمة الافتراضية هي الحقيقية.|
@@ -42,7 +42,7 @@ is_root: false
 | [is_auto_show](/cells/ar/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | يشير إلى ما إذا كان حقل PivotTable المحدد معروضًا تلقائيًا ، وصالح فقط لـ Excel 2003.|
 | [is_ascend_show](/cells/ar/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) | الإشارة إلى ما إذا كان حقل PivotTable المحدد تصاعديًا أم لا.|
 | [auto_show_count](/cells/ar/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |تمثل عدد العناصر العلوية أو السفلية<br/> التي يتم عرضها تلقائيًا في حقل PivotTable المحدد.|
-| [auto_show_field](/cells/ar/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | يمثل فهرس حقل العرض التلقائي. -1 يعني PivotField نفسه.<br/> يجب أن يكون فهرس حقول البيانات.|
+| [auto_show_field](/cells/ar/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | يمثل مؤشر حقل العرض التلقائي. -1 تعني PivotField نفسها.<br/> يجب أن يكون فهرس حقول البيانات.|
 | [function](/cells/ar/python-net/aspose.cells.pivot/pivotfield/function) | يمثل الوظيفة المستخدمة لتلخيص حقل بيانات PivotTable.|
 | [data_display_format](/cells/ar/python-net/aspose.cells.pivot/pivotfield/data_display_format) | يمثل كيفية عرض القيم الموجودة في حقل البيانات.|
 | [base_field_index](/cells/ar/python-net/aspose.cells.pivot/pivotfield/base_field_index) | يمثل الحقل الأساسي لحساب مخصص.|
@@ -79,7 +79,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_local_built_in_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Verilen standart metne göre yerleşik Ad için yerel ayara bağlı metni alır.
 
 ###  İadeler
 
-Yerel ayara bağlı metin.
+Yerel ayara bağlı metin. Yerel ayar, bu ayarların kullanıldığı Çalışma Kitabı tarafından belirtildi.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_local_built_in_name(self, standard_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | standard_name | str | Yerleşik Adın standart (en-US yerel ayarı) metni.|
 

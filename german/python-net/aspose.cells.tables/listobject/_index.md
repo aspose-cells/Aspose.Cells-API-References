@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObject Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,8 +24,8 @@ Der Typ ListObject macht die folgenden Member verfügbar:
 | [end_row](/cells/de/python-net/aspose.cells.tables/listobject/end_row) | Ruft die Endzeile des Bereichs ab.|
 | [end_column](/cells/de/python-net/aspose.cells.tables/listobject/end_column) |Ruft die Endspalte des Bereichs ab.|
 | [list_columns](/cells/de/python-net/aspose.cells.tables/listobject/list_columns) | Ruft ListColumns des ListObject ab.|
-| [show_header_row](/cells/de/python-net/aspose.cells.tables/listobject/show_header_row) | Ruft ab und legt fest, ob dieses ListObject die Kopfzeile anzeigt.|
-| [show_totals](/cells/de/python-net/aspose.cells.tables/listobject/show_totals) | Ruft ab und legt fest, ob dieses ListObject die Gesamtzahl der Zeilen anzeigt.|
+| [show_header_row](/cells/de/python-net/aspose.cells.tables/listobject/show_header_row) | Ruft ab und legt fest, ob dieses ListObject eine Kopfzeile anzeigt.|
+| [show_totals](/cells/de/python-net/aspose.cells.tables/listobject/show_totals) | Ruft ab und legt fest, ob dieses ListObject die Gesamtzeile anzeigt.|
 | [data_range](/cells/de/python-net/aspose.cells.tables/listobject/data_range) | Ruft den Datenbereich des ListObject ab.|
 | [query_table](/cells/de/python-net/aspose.cells.tables/listobject/query_table) | Ruft die verknüpfte QueryTable ab.|
 | [data_source_type](/cells/de/python-net/aspose.cells.tables/listobject/data_source_type) | Ruft den Datenquellentyp der Tabelle ab.|
@@ -50,13 +50,13 @@ Der Typ ListObject macht die folgenden Member verfügbar:
 | [convert_to_range(options)](/cells/de/python-net/aspose.cells.tables/listobject/convert_to_range/#TableToRangeOptions) | Wandeln Sie die Tabelle in einen Bereich um.|
 | [resize(start_row, start_column, end_row, end_column, has_headers)](/cells/de/python-net/aspose.cells.tables/listobject/resize/#int-int-int-int-bool) | Größe des Bereichs des Listenobjekts ändern.|
 | [put_cell_value(row_offset, column_offset, value)](/cells/de/python-net/aspose.cells.tables/listobject/put_cell_value/#int-int-any) | Geben Sie den Wert in die Zelle ein.|
-| [update_column_name()](/cells/de/python-net/aspose.cells.tables/listobject/update_column_name/#) |Aktualisiert die Namen aller Listenspalten aus dem Arbeitsblatt.|
+| [update_column_name()](/cells/de/python-net/aspose.cells.tables/listobject/update_column_name/#) |Aktualisiert den Namen aller Listenspalten aus dem Arbeitsblatt.|
 | [filter()](/cells/de/python-net/aspose.cells.tables/listobject/filter/#) | Filtern Sie die Tabelle.|
 | [apply_style_to_range()](/cells/de/python-net/aspose.cells.tables/listobject/apply_style_to_range/#) | Wenden Sie den Tabellenstil auf den Bereich an.|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import CellsHelper, Workbook

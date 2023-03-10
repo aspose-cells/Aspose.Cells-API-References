@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formattings fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings fastighet
 
-Hämtar den villkorliga formateringen i kalkylbladet.
+Hämtar Conditional Formattings i kalkylbladet.
 ###  Definition:
 ```python
 @property

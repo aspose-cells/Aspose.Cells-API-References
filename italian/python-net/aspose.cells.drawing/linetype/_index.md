@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

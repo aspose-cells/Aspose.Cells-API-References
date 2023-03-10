@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextAutonumberScheme перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
 ##  TextAutonumberScheme перечисление
-Представляет все автоматические схемы нумерации.
+Представляет всю автоматическую схему нумерации.
 
 
 

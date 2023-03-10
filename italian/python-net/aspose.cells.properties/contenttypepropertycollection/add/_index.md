@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def add(self, name, value):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà del tipo di contenuto.|
 | value | str | Il valore della proprietà del tipo di contenuto.|
@@ -35,7 +35,7 @@ def add(self, name, value, type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | name | str | Il nome della proprietà del tipo di contenuto.|
 | value | str | Il valore della proprietà del tipo di contenuto.|

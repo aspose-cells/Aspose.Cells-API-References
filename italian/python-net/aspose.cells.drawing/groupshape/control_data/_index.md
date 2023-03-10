@@ -1,4 +1,4 @@
-﻿---
+---
 title: control_data proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene i dati di controllo.
 
-###  Esempi
+###  Esempio
 
 ```python
 

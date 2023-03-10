@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_range método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_range(self, ca):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | ca | [CellArea](/cells/es/python-net/aspose.cells/cellarea) | el rango buscado.|
 

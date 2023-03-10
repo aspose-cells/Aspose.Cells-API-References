@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFilterType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -29,7 +29,7 @@ Le type PivotFilterType expose les membres suivants :
 | CAPTION_NOT_BEGINS_WITH | Indique le filtre "ne commence pas par" pour les légendes de champ.|
 | CAPTION_NOT_BETWEEN | Indique le filtre "n'est pas entre" pour les légendes de champ.|
 | CAPTION_NOT_CONTAINS | Indique le filtre "ne contient pas" pour les légendes de champ.|
-| CAPTION_NOT_ENDS_WITH | Indique le filtre "ne se termine pas par" pour les légendes de champs.|
+| CAPTION_NOT_ENDS_WITH | Indique le filtre "ne se termine pas par" pour les légendes de champ.|
 | CAPTION_NOT_EQUAL | Indique le filtre "pas égal" pour les légendes de champ.|
 | COUNT | Indique le filtre "comptage".|
 | DATE_BETWEEN |Indique le filtre "entre" pour les valeurs de date.|

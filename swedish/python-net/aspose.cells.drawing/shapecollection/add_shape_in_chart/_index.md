@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_shape_in_chart metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/sv/python-net/aspose.cells.drawing/msodrawingtype) | Ritningstypen.|
 | placement | [PlacementType](/cells/sv/python-net/aspose.cells.drawing/placementtype) | placeringstypen.|
@@ -39,7 +39,7 @@ def add_shape_in_chart(self, type, placement, left, top, right, bottom, image_da
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [MsoDrawingType](/cells/sv/python-net/aspose.cells.drawing/msodrawingtype) | Ritningstypen.|
 | placement | [PlacementType](/cells/sv/python-net/aspose.cells.drawing/placementtype) | placeringstypen.|

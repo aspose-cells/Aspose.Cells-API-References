@@ -1,4 +1,4 @@
-﻿---
+---
 title: name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name propiedad
 
-Obtiene el título Range.
+Obtiene el título Range. Esto se usa como un descriptor, no como una definición de rango con nombre.
 ###  Definición:
 ```python
 @property

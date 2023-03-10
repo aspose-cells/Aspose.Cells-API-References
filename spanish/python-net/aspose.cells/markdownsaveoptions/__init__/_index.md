@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarkdownSaveOptions constructor
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/markdownsaveoptions/__init__/
 is_root: false
 ---
 ##  MarkdownSaveOptions() {#}
-Crea opciones para guardar documentos de rebajas
+Crea opciones para guardar el documento de descuento
 
 
 

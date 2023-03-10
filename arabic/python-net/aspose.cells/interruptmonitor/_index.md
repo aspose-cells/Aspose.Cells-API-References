@@ -1,4 +1,4 @@
-﻿---
+---
 title: InterruptMonitor الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/interruptmonitor/
 is_root: false
 ---
 ##  InterruptMonitor الدرجة
-يمثل جميع المشغلين حول المقاطعة.
+يمثل كل عامل عن المقاطعة.
 
 
 

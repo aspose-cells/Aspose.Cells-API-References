@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe CellsDataTableFactory
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -23,7 +23,7 @@ Il tipo CellsDataTableFactory espone i membri seguenti:
 | [get_instance(vals, vertial)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) | Crea ICellsDataTable dalla sequenza data di valori double.|
 | [get_instance(vals, column_names)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-list) |Crea ICellsDataTable da una determinata sequenza di oggetti.|
 | [get_instance(vals, vertial)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list-bool) |Crea ICellsDataTable da una determinata sequenza di oggetti.|
-| [get_instance(collection)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Crea ICellsDataTable da una determinata raccolta.|
+| [get_instance(collection)](/cells/it/python-net/aspose.cells/cellsdatatablefactory/get_instance/#list) | Crea ICellsDataTable dalla raccolta specificata.|
 
 
 

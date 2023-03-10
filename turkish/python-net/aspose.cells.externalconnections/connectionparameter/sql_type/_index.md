@@ -1,4 +1,4 @@
-﻿---
+---
 title: sql_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sql_type mülk
 
-Parametrenin SQL veri tipi Sadece ODBC kaynakları için geçerlidir.
+Parametrenin SQL veri türü. Yalnızca ODBC kaynakları için geçerlidir.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_instance Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cellsdatatablefactory/get_instance/
 is_root: false
 ---
 ##  get_instance(collection) {#list}
-Erstellt ICellsDataTable aus einer angegebenen Sammlung.
+Erstellt ICellsDataTable aus der angegebenen Sammlung.
 
 
 ###  Kehrt zurück
@@ -44,8 +44,8 @@ def get_instance(self, vals, column_names):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| vals | list | int-Werte, um eine Tabelle zu erstellen|
-| column_names | list | Spaltennamen der Tabelle.<br/>Seine Länge kann nur entweder 1 sein (Tabelle durch die int-Werte vertikal erstellen)<br/> oder Länge der int-Werte (Tabelle durch die int-Werte horizontal aufbauen)|
+| vals | list | int-Werte zum Erstellen der Tabelle|
+| column_names | list | Spaltennamen der Tabelle.<br/>Seine Länge kann nur entweder 1 sein (Tabelle durch die int-Werte vertikal erstellen)<br/> oder Länge der int-Werte (Tabelle horizontal aus den int-Werten erstellen)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}
@@ -65,8 +65,8 @@ def get_instance(self, vals, vertial):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| vals | list | int-Werte, um eine Tabelle zu erstellen|
-| vertial | bool |ob Build-Tabelle durch die int-Werte vertikal (true) oder horizontal (false)|
+| vals | list | int-Werte zum Erstellen der Tabelle|
+| vertial | bool |ob die Tabelle durch die int-Werte vertikal (true) oder horizontal (false) erstellt wird|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -108,7 +108,7 @@ def get_instance(self, vals, vertial):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | vals | list | doppelte Werte, um eine Tabelle zu erstellen|
-| vertial | bool | ob Build-Tabelle durch die Double-Werte vertikal (true) oder horizontal (false)|
+| vertial | bool | ob die Tabelle durch die Double-Werte vertikal (true) oder horizontal (false) erstellt wird|
 
 
 ##  get_instance(vals, column_names) {#list-list}
@@ -129,7 +129,7 @@ def get_instance(self, vals, column_names):
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
 | vals | list | Objekte zum Erstellen einer Tabelle|
-| column_names | list | Spaltennamen der Tabelle.<br/>Seine Länge kann nur entweder 1 sein (Tabelle durch die Objekte vertikal erstellen)<br/> oder Länge der Objekte (Tabelle durch die Objekte horizontal aufbauen)|
+| column_names | list | Spaltennamen der Tabelle.<br/>Seine Länge kann nur entweder 1 sein (Tabelle durch die Objekte vertikal erstellen)<br/> oder Länge der Objekte (Tabelle durch die Objekte horizontal erstellen)|
 
 
 ##  get_instance(vals, vertial) {#list-bool}

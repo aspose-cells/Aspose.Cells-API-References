@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_table_row_type_of_totals
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_tot
 is_root: false
 ---
 ##  get_table_row_type_of_totals() {#}
-Ottiene il nome del tipo delle righe della tabella costituite dalla riga totale della tabella a cui si fa riferimento.
+Ottiene il nome del tipo di righe della tabella costituito dalla riga totale della tabella a cui si fa riferimento.
 L'impostazione predefinita è "Totali", quindi nella formula "#Totali" rappresenta la riga totale della tabella di riferimento.
 
 

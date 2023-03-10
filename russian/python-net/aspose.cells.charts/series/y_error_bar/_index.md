@@ -1,4 +1,4 @@
-﻿---
+---
 title: y_error_bar недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

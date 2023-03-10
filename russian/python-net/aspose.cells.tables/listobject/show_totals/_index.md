@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_totals недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_totals недвижимость
 
-Получает и устанавливает, показывает ли этот ListObject общее количество строк.
+Получает и устанавливает, показывает ли этот ListObject итоговую строку.
 ###  Определение:
 ```python
 @property

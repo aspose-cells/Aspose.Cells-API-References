@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,10 +18,10 @@ is_root: false
 | [WebExtensionCollection](/cells/es/python-net/aspose.cells.webextensions/webextensioncollection) | Representa la lista de extensiones web.|
 | [WebExtensionProperty](/cells/es/python-net/aspose.cells.webextensions/webextensionproperty) | Representa una propiedad personalizada del complemento de Office.|
 | [WebExtensionPropertyCollection](/cells/es/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Representa la lista de propiedades de la extensión web.|
-| [WebExtensionReference](/cells/es/python-net/aspose.cells.webextensions/webextensionreference) | Representa identifica la ubicación del proveedor y la versión de la extensión.|
-| [WebExtensionReferenceCollection](/cells/es/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Representa la lista de referencias de extensiones web.|
+| [WebExtensionReference](/cells/es/python-net/aspose.cells.webextensions/webextensionreference) | Representa identificar la ubicación del proveedor y la versión de la extensión.|
+| [WebExtensionReferenceCollection](/cells/es/python-net/aspose.cells.webextensions/webextensionreferencecollection) | Representa la lista de referencia de extensiones web.|
 | [WebExtensionTaskPane](/cells/es/python-net/aspose.cells.webextensions/webextensiontaskpane) | Representa un objeto de panel de tareas persistente.|
-| [WebExtensionTaskPaneCollection](/cells/es/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Representa la lista de paneles de tareas.|
+| [WebExtensionTaskPaneCollection](/cells/es/python-net/aspose.cells.webextensions/webextensiontaskpanecollection) | Representa la lista del panel de tareas.|
 
 
 ###  enumeraciones

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoLineFormat sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/msolineformat/
 is_root: false
 ---
 ##  MsoLineFormat sınıfı
-Çizgi ve ok başı biçimlendirmesini temsil eder.
+Çizgi ve ok ucu biçimlendirmesini temsil eder.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_inch fastighet
 
-Representerar storleken på bottenmarginalen, i enheter av tum.
+Representerar storleken på bottenmarginalen i tumenhet.
 ###  Definition:
 ```python
 @property

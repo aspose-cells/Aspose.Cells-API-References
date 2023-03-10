@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotate_text_with_shape недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, вращается ли текст с фигурой.
 
-###  Примеры
+###  Пример
 
 ```python
 

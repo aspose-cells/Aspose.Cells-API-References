@@ -1,4 +1,4 @@
-﻿---
+---
 title: hidden_col_display_type fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Dold kolumn (bredden på denna kolumn är 0) i excel, innan du sparar den i html-format,
 om HtmlHiddenColDisplayType är "Remove", skulle den dolda kolumnen inte matas ut,
-om värdet är "Dold", skulle kolumnen ha matats ut, men var dold, standardvärdet är "Dold"
+om värdet är "Dold", skulle kolumnen matas ut, men var dold, standardvärdet är "Dold"
 ###  Definition:
 ```python
 @property

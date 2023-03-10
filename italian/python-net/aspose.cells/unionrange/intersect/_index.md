@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo intersect
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def intersect(self, range):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | range | str | La gamma.|
 ###  Osservazioni
@@ -37,7 +37,7 @@ def intersect(self, union_range):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | union_range | [UnionRange](/cells/it/python-net/aspose.cells/unionrange) | La gamma.|
 ###  Osservazioni
@@ -56,7 +56,7 @@ def intersect(self, ranges):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | ranges | list | La gamma.|
 ###  Osservazioni

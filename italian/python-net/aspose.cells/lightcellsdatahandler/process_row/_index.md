@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo process_row
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Inizia a elaborare una riga.
 
 ###  ritorna
 
-se le celle di questa riga devono essere elaborate false per ignorare tutte le celle di questa riga.
+se le celle di questa riga devono essere elaborate. false per ignorare tutte le celle in questa riga.
 
 
 ```python
@@ -22,12 +22,12 @@ def process_row(self, row):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | [Row](/cells/it/python-net/aspose.cells/row) | Oggetto riga attualmente in fase di elaborazione.|
 ###  Osservazioni
 
-Sarà chiamato dopo le proprietà della riga come altezza, stile, ... ecc.
+Sarà chiamato dopo le proprietà della riga come altezza, stile, ... ecc. sono stati letti. Tuttavia, le celle in questa riga non sono state ancora lette.
 
 
 ###  Guarda anche

@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe MsoFormatPicture
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -20,7 +20,7 @@ Il tipo MsoFormatPicture espone i membri seguenti:
 | [top_crop](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/top_crop) | Rappresenta la posizione della parte superiore del rettangolo di ritaglio espressa, espressa come rapporto dell'altezza dell'immagine.|
 | [bottom_crop](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/bottom_crop) | Rappresenta la posizione della parte inferiore del rettangolo di ritaglio espressa, espressa come rapporto dell'altezza dell'immagine.|
 | [left_crop](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/left_crop) | Rappresenta la posizione della parte sinistra del rettangolo di ritaglio espressa, espressa come rapporto della larghezza dell'immagine.|
-| [right_crop](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/right_crop) | Rappresenta la posizione della destra del rettangolo di ritaglio, espressa come rapporto della larghezza dell'immagine.|
+| [right_crop](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/right_crop) | Rappresenta la posizione della destra del rettangolo di ritaglio espressa, espressa come rapporto della larghezza dell'immagine.|
 | [transparency](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/transparency) | Restituisce o imposta il grado di trasparenza dell'area come valore compreso tra 0,0 (opaco) e 1,0 (trasparente).|
 | [transparent_color](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/transparent_color) | Ottiene e imposta il colore trasparente dell'immagine.|
 | [contrast](/cells/it/python-net/aspose.cells.drawing/msoformatpicture/contrast) | Rappresenta la modifica del contrasto per l'immagine in unità di percentuale.|

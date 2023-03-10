@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_text_effect
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/it/python-net/aspose.cells.drawing/msopresettexteffect) | Il tipo di effetto di testo preimpostato mso.|
 | text | str | Il testo WordArt.|
@@ -37,7 +37,7 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | height | int | Rappresenta l'altezza della forma, in unità di pixel.|
 | width | int | Rappresenta la larghezza della forma, in unità di pixel.|
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells.drawing import MsoPresetTextEffect

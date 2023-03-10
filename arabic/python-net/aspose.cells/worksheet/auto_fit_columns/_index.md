@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة auto_fit_columns
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,13 +31,13 @@ def auto_fit_columns(self, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | options | [AutoFitterOptions](/cells/ar/python-net/aspose.cells/autofitteroptions) | خيارات التركيب التلقائي|
 
 
 ##  auto_fit_columns(first_column, last_column) {#int-int}
-يتم ضبط عرض العمود تلقائيًا.
+ضبط عرض الأعمدة تلقائيًا.
 
 
 
@@ -47,7 +47,7 @@ def auto_fit_columns(self, first_column, last_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | first_column | int | فهرس العمود الأول.|
 | last_column | int | فهرس العمود الأخير.|
@@ -57,7 +57,7 @@ AutoFitColumn هي وظيفة غير دقيقة.
 
 ##  auto_fit_columns(first_column, last_column, options) {#int-int-AutoFitterOptions}
 
-يتم ضبط عرض العمود تلقائيًا.
+ضبط عرض الأعمدة تلقائيًا.
 
 
 
@@ -67,7 +67,7 @@ def auto_fit_columns(self, first_column, last_column, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | first_column | int | فهرس العمود الأول.|
 | last_column | int | فهرس العمود الأخير.|
@@ -78,7 +78,7 @@ AutoFitColumn هي وظيفة غير دقيقة.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column) {#int-int-int-int}
 
-يتم ضبط عرض العمود تلقائيًا.
+ضبط عرض الأعمدة تلقائيًا.
 
 
 
@@ -88,7 +88,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | first_row | int | فهرس الصف الأول.|
 | first_column | int | فهرس العمود الأول.|
@@ -100,7 +100,7 @@ AutoFitColumn هي وظيفة غير دقيقة.
 
 ##  auto_fit_columns(first_row, first_column, last_row, last_column, options) {#int-int-int-int-AutoFitterOptions}
 
-يتم ضبط عرض العمود تلقائيًا.
+ضبط عرض الأعمدة تلقائيًا.
 
 
 
@@ -110,7 +110,7 @@ def auto_fit_columns(self, first_row, first_column, last_row, last_column, optio
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | first_row | int | فهرس الصف الأول.|
 | first_column | int | فهرس العمود الأول.|

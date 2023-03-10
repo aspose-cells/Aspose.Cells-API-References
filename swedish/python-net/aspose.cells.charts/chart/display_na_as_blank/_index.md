@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_na_as_blank fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

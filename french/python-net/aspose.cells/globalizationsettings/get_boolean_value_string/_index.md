@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_boolean_value_string méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def get_boolean_value_string(self, bv):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | bv | bool | valeur booléenne|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_series_name método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.charts/chartglobalizationsettings/get_series_na
 is_root: false
 ---
 ##  get_series_name() {#}
-Obtiene el nombre de la Serie en el Gráfico.
+Obtiene el nombre de la serie en el gráfico.
 
 
 ###  Devoluciones

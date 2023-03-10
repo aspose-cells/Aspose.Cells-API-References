@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_editing_contents_allowed fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,8 +13,8 @@ Representerar om användaren tillåts redigera innehållet i låsta celler på e
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
- använd skydd. Tillåt redigering av innehållsegenskap.
+ OBS: Denna medlem är nu föråldrad. Istället,
+ använd egenskapen Protection.AllowEditingContent.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

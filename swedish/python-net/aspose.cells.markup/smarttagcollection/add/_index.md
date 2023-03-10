@@ -1,4 +1,4 @@
-﻿---
+---
 title: add metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Lägger till en smart tagg.
 
 ###  Returnerar
 
-Indexet över smarta taggar i listan.
+Indexet för smart tag i listan.
 
 
 ```python
@@ -22,7 +22,7 @@ def add(self, uri, name):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | uri | str | Anger namnutrymmes-URI för smarttaggen|
 | name | str | Anger namnet på den smarta taggen.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: alternative_text mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 [Shape](/cells/tr/python-net/aspose.cells.drawing/shape) nesnesinin açıklayıcı (alternatif) metin dizesini döndürür veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

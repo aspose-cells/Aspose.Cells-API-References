@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_size proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Indica se la dimensione della forma viene regolata automaticamente in base al suo contenuto.
 
-###  Esempi
+###  Esempio
 
 ```python
 

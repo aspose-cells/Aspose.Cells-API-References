@@ -1,4 +1,4 @@
-﻿---
+---
 title: null_string mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  null_string mülk
 
 Boş değerler içeren hücrelerde görüntülenen dizeyi alır
-DisplayNullString özelliği doğru olduğunda.
+DisplayNullString özelliği true olduğunda. Varsayılan değer boş bir dizedir.
 ###  Tanım:
 ```python
 @property

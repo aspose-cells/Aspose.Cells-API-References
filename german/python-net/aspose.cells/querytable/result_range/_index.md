@@ -1,4 +1,4 @@
-﻿---
+---
 title: result_range Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range Eigentum
 
-Ruft den Bereich der Ergebnisse ab.
+Ruft den Bereich des Ergebnisses ab.
 ###  Definition:
 ```python
 @property

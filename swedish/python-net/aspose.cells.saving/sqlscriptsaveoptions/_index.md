@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlScriptSaveOptions klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ Typen SqlScriptSaveOptions avslöjar följande medlemmar:
 ###  Konstruktörer
 | Konstruktör| Beskrivning|
 | :- | :- |
-| [SqlScriptSaveOptions()](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/#) | Skapar alternativ för att spara sql-filer.|
+| [SqlScriptSaveOptions()](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/#) | Skapar alternativ för att spara sql-fil.|
 
 
 ###  Egenskaper
@@ -37,15 +37,15 @@ Typen SqlScriptSaveOptions avslöjar följande medlemmar:
 | [sort_names](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/sort_names) | Anger om du sorterar definierade namn innan filen sparas.|
 | [sort_external_names](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/sort_external_names) |Anger om externt definierade namn sorteras innan filen sparas.|
 | [refresh_chart_cache](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/refresh_chart_cache) | Anger om diagramcachedata uppdateras|
-| [warning_callback](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/warning_callback) | Får eller ställer in varningsuppringningar.|
-| [update_smart_art](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/update_smart_art) | Anger om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
+| [warning_callback](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/warning_callback) | Får eller ställer in varningsåteruppringning.|
+| [update_smart_art](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/update_smart_art) | Indikerar om inställningen för smart konst uppdateras.<br/> Standardvärdet är falskt.|
 | [check_if_table_exists](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/check_if_table_exists) | Kontrollera om tabellnamnet finns innan du skapar|
-| [column_type_map](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/column_type_map) |Hämtar och ställer in kartan över kolumntyper för olika databaser.|
+| [column_type_map](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/column_type_map) |Hämtar och ställer in kartan över kolumntyp för olika databas.|
 | [check_all_data_for_column_type](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/check_all_data_for_column_type) | Kontrollera alla data för att hitta kolumnernas datatyp.|
 | [add_blank_line_between_rows](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/add_blank_line_between_rows) | Infoga tom rad mellan varje data.|
 | [separator](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/separator) | Hämtar och ställer in teckenseparator för sql-skript.|
 | [operator_type](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/operator_type) | Hämtar och ställer in operatortypen för sql.|
-| [primary_key](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/primary_key) | Representerar vilken kolumn som är den primära nyckeln i datatabellen.|
+| [primary_key](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/primary_key) | Representerar vilken kolumn som är primärnyckeln i datatabellen.|
 | [create_table](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/create_table) | Anger om sql för att skapa tabell exporteras.|
 | [id_name](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/id_name) | Hämtar och ställer in namnet på id-kolumnen.|
 | [start_id](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/start_id) | Hämtar och ställer in start-id.|
@@ -53,7 +53,7 @@ Typen SqlScriptSaveOptions avslöjar följande medlemmar:
 | [export_as_string](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/export_as_string) | Anger om all data exporteras som strängvärde.|
 | [sheet_indexes](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/sheet_indexes) | Representerar indexen för exporterade ark.|
 | [export_area](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/export_area) | Hämtar eller ställer in exportintervallet.|
-| [has_header_row](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/has_header_row) | Anger om intervallet innehåller en rubrikrad.|
+| [has_header_row](/cells/sv/python-net/aspose.cells.saving/sqlscriptsaveoptions/has_header_row) | Anger om intervallet innehåller rubrikrad.|
 
 
 

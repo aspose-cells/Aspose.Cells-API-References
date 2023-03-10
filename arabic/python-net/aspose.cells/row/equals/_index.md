@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة equals
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-صواب إذا كان كائنان من الصفوف يشيران إلى نفس الصف.
+صواب إذا كان كائنان صف يشيران إلى نفس الصف.
 
 
 ```python
@@ -22,7 +22,7 @@ def equals(self, row):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | [Row](/cells/ar/python-net/aspose.cells/row) | كائن صف آخر|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: style propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style propriété
 
-Obtient ou définit style de plages de cellules mises en forme de manière conditionnelle.
+Obtient ou définit style de plages de cellules formatées conditionnelles.
 ###  Définition:
 ```python
 @property

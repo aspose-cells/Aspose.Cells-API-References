@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItem الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [selected](/cells/ar/python-net/aspose.cells.slicers/slicercacheitem/selected) | يحدد ما إذا كان SlicerItem محددًا أم لا.|
-| [value](/cells/ar/python-net/aspose.cells.slicers/slicercacheitem/value) | إرجاع نص التسمية لعنصر تقطيع الشرائح.|
+| [value](/cells/ar/python-net/aspose.cells.slicers/slicercacheitem/value) | إرجاع نص التسمية لعنصر تقطيع الشرائح. يقرأ فقط.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_tabs Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -15,7 +15,7 @@ Ruft einen Wert ab oder legt einen Wert fest, ob die Registerkarten der Arbeitsm
 
 Der Standardwert ist wahr.
 
-###  Beispiele
+###  Beispiel
 
 Der folgende Code blendet die Blattregisterkarten und die Schaltflächen zum Blättern durch die Registerkarten für die Tabelle aus.
 

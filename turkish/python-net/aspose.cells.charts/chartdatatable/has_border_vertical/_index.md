@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_border_vertical mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

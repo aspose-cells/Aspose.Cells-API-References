@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_count_of_range Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

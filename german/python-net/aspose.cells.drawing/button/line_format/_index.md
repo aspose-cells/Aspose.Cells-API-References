@@ -1,4 +1,4 @@
-﻿---
+---
 title: line_format Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt ein MsoLineFormat-Objekt zurück, das Linienformatierungseigenschaften für
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die Shape.Line-Eigenschaft.
  Diese Property wird 12 Monate später seit Juli 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

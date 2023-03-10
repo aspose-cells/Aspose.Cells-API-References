@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة process
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def process(self, sheet_index, row_index, col_index, table_name, column_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet_index | int | فهرس الورقة.|
 | row_index | int | فهرس الصف.|

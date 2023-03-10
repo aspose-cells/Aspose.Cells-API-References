@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_cm الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_cm الملكية
 
-يمثل ارتفاع الشكل بوحدات السنتيمترات.
+يمثل ارتفاع الشكل بوحدة السنتيمترات.
 
-###  أمثلة
+###  مثال
 
 ```python
 

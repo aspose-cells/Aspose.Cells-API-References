@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/sv/python-net/aspose.cells/protectiontype) | Skyddstyp.|
 ###  Anmärkningar
 
-Denna metod skyddar kalkylblad utan lösenord.
+Denna metod skyddar kalkylblad utan lösenord. Det kan protect kalkylblad i alla versioner av Excel-fil.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/sv/python-net/aspose.cells/protectiontype) | Skyddstyp.|
 | password | str | Lösenord.|

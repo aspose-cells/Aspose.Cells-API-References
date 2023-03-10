@@ -1,6 +1,6 @@
-﻿---
+---
 title: perspective 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 380
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## perspective 属性
 
-返回或设置 3-D 图表视图的 perspective。必须介于 0 和 100 之间。
+为 3-D 图表视图返回或设置 perspective。必须介于 0 和 100 之间。
 如果 RightAngleAxes 属性为 True，则忽略此属性。
 ### 定义：
 ```python

@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Bewerten Sie die Gesamtseitenzahl dieses Arbeitsblatts
 
-###  Beispiele
+###  Beispiel
 
 Der folgende Code zeigt den schnellsten Weg, um die Seitenzahl eines Arbeitsblatts zu erhalten.
 

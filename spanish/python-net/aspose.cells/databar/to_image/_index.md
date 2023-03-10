@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def to_image(self, cell, img_opts):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | cell | [Cell](/cells/es/python-net/aspose.cells/cell) | Indique la barra de datos en la que se representará la celda|
 | img_opts | aspose.cells.rendering.ImageOrPrintOptions | ImageOrPrintOptions contiene alguna propiedad de la imagen de salida|

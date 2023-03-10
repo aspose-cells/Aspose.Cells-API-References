@@ -1,4 +1,4 @@
-﻿---
+---
 title: TickMarkType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen TickMarkType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| CROSS | Kryssningstyp är Cross.|
+| CROSS | Krysstyp är Cross.|
 | INSIDE | Kryssningstyp är Inuti.|
 | NONE |Kryssningstyp är Ingen.|
 | OUTSIDE | Kryssningstyp är Utanför|

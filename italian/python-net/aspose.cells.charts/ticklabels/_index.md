@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe TickLabels
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo TickLabels espone i membri seguenti:
 | Proprietà| Descrizione|
 | :- | :- |
 | [font](/cells/it/python-net/aspose.cells.charts/ticklabels/font) | Restituisce un oggetto [TickLabels.font](/cells/it/python-net/aspose.cells.charts/ticklabels#font) che rappresenta il tipo di carattere dell'oggetto TickLabels specificato.|
-| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto.|
+| [auto_scale_font](/cells/it/python-net/aspose.cells.charts/ticklabels/auto_scale_font) | True se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto. Il valore predefinito è Vero.|
 | [background_mode](/cells/it/python-net/aspose.cells.charts/ticklabels/background_mode) | Ottiene e imposta la modalità di visualizzazione dello sfondo|
 | [rotation_angle](/cells/it/python-net/aspose.cells.charts/ticklabels/rotation_angle) | Rappresenta l'angolo di rotazione del testo in senso orario.|
 | [is_automatic_rotation](/cells/it/python-net/aspose.cells.charts/ticklabels/is_automatic_rotation) | Indica se l'angolo di rotazione è automatico|

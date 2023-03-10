@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlLoadOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,7 +31,7 @@ def __init__(self, load_format):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | load_format | [LoadFormat](/cells/fr/python-net/aspose.cells/loadformat) | Le format de chargement.|
 

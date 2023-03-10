@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_with_status_dialog الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_body_range propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range propriété
 
 Renvoie un objet CellArea qui représente la plage contenant la zone de données
-dans la liste entre la ligne d'en-tête et la ligne d'insertion.
+dans la liste entre la ligne d'en-tête et la ligne d'insertion. Lecture seulement.
 ###  Définition:
 ```python
 @property

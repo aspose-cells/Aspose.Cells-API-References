@@ -1,4 +1,4 @@
-﻿---
+---
 title: scroll_bars proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  scroll_bars proprietà
 
-Indica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna.
+Indica specifica se il controllo dispone di barre di scorrimento verticali, barre di scorrimento orizzontali, entrambe o nessuna delle due.
 ###  Definizione:
 ```python
 @property

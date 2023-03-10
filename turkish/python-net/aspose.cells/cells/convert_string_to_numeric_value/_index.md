@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_string_to_numeric_value yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/cells/convert_string_to_numeric_value/
 is_root: false
 ---
 ##  convert_string_to_numeric_value() {#}
-Mümkünse hücrelerdeki dizi verilerini sayısal değerlere dönüştürür.
+Mümkünse hücrelerdeki dize verilerini sayısal değere dönüştürür.
 
 
 

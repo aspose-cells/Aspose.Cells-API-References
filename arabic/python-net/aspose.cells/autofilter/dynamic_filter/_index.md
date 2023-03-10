@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة dynamic_filter
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def dynamic_filter(self, field_index, dynamic_filter_type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | field_index | int | إزاحة العدد الصحيح للحقل الذي تريد أن يؤسس عامل التصفية عليه<br/> (من يسار القائمة ؛ الحقل الموجود في أقصى اليسار هو الحقل 0).|
 | dynamic_filter_type | [DynamicFilterType](/cells/ar/python-net/aspose.cells/dynamicfiltertype) | نوع المرشح الديناميكي.|

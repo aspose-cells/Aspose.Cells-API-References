@@ -1,4 +1,4 @@
-﻿---
+---
 title: only_use_connection_file fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

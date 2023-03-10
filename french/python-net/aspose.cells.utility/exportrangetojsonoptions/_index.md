@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportRangeToJsonOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type ExportRangeToJsonOptions expose les membres suivants :
 | [has_header_row](/cells/fr/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row) | Indique si la plage contient une ligne d'en-tête.|
 | [export_as_string](/cells/fr/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string) | Exporte la valeur de chaîne des cellules vers json.|
 | [export_empty_cells](/cells/fr/python-net/aspose.cells.utility/exportrangetojsonoptions/export_empty_cells) | Indique si les cellules vides sont exportées comme nulles.|
-| [indent](/cells/fr/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Indique l'indice.|
+| [indent](/cells/fr/python-net/aspose.cells.utility/exportrangetojsonoptions/indent) | Indique le retrait.|
 
 
 

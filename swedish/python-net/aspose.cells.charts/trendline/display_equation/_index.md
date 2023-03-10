@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_equation fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation fastighet
 
-Representerar om ekvationen för trendlinjen visas i diagrammet (i samma dataetikett som R-kvadratvärdet).
+Representerar om ekvationen för trendlinjen visas i diagrammet (i samma dataetikett som R-kvadratvärdet). Om du ställer in den här egenskapen till True aktiveras dataetiketter automatiskt.
 ###  Definition:
 ```python
 @property

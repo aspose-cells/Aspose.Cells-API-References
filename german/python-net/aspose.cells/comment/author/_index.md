@@ -1,4 +1,4 @@
-﻿---
+---
 title: author Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Namen des Originalkommentars author ab und legt ihn fest
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

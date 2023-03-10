@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICellsDataTable classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type ICellsDataTable expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [columns](/cells/fr/python-net/aspose.cells/icellsdatatable/columns) | Obtient le nom des colonnes.|
-| [count](/cells/fr/python-net/aspose.cells/icellsdatatable/count) | -1 pour le nombre d'enregistrements inconnus.|
+| [count](/cells/fr/python-net/aspose.cells/icellsdatatable/count) | Obtient le nombre d'enregistrements. -1 pour le nombre d'enregistrements inconnus.|
 
 
 

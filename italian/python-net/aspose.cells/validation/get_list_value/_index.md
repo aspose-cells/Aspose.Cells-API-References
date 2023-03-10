@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_list_value
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -24,13 +24,13 @@ def get_list_value(self, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | L'indice di riga.|
 | column | int | L'indice di colonna.|
 ###  Osservazioni
 
-Solo per la convalida il cui tipo è Elenco ed è stato applicato a una determinata cella,
+Solo per la convalida il cui tipo è Elenco ed è stato applicato a una data cella,
 in caso contrario verrà restituito null.
 
 

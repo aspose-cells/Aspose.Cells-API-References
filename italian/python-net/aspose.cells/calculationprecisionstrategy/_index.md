@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationPrecisionStrategy enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  CalculationPrecisionStrategy enumerazione
 Enumera le strategie per la gestione della precisione di calcolo.
 A causa del problema di precisione dell'aritmetica in virgola mobile IEEE 754, alcune formule "apparentemente semplici" potrebbero non essere calcolate come risultato previsto.
-Come la formula "=-0.45+0.43+0.02", quando si calcolano direttamente gli operandi con l'operatore '+', il risultato non è zero.
+Come la formula "=-0.45+0.43+0.02", quando si calcolano direttamente gli operandi con l'operatore '+', il risultato non è zero. Per questo tipo di problema di precisione,
 alcune strategie speciali possono dare il risultato atteso.
 
 

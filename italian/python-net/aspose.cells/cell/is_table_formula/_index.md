@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_table_formula proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

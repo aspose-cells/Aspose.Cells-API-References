@@ -1,4 +1,4 @@
-﻿---
+---
 title: embed_ooxml_as_ole_object недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Только для объектов Ole.
+Только для ОлеОбъект.
 ###  Определение:
 ```python
 @property

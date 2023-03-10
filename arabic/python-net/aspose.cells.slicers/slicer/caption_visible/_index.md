@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption_visible الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -12,7 +12,7 @@ is_root: false
 إرجاع أو تعيين ما إذا كان الرأس الذي يعرض التسمية التوضيحية لتقطيع الصور مرئيًا أم لا
 القيمة الافتراضية هي الحقيقية
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Textrichtung ab und legt sie fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing.texts import TextVerticalType

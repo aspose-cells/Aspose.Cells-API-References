@@ -1,4 +1,4 @@
-﻿---
+---
 title: Validation sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -26,7 +26,7 @@ Validation türü aşağıdaki üyeleri gösterir:
 | [error_title](/cells/tr/python-net/aspose.cells/validation/error_title) | Veri doğrulama hatası iletişim kutusunun başlığını temsil eder.|
 | [show_input](/cells/tr/python-net/aspose.cells/validation/show_input) |Kullanıcı veri doğrulama aralığında bir hücre seçtiğinde veri doğrulama giriş mesajının görüntülenip görüntülenmeyeceğini belirtir.|
 | [show_error](/cells/tr/python-net/aspose.cells/validation/show_error) | Kullanıcı geçersiz veri girdiğinde veri doğrulama hata mesajının görüntülenip görüntülenmeyeceğini belirtir.|
-| [ignore_blank](/cells/tr/python-net/aspose.cells/validation/ignore_blank) | Aralık veri doğrulaması tarafından boş değerlere izin verilip verilmediğini gösterir.|
+| [ignore_blank](/cells/tr/python-net/aspose.cells/validation/ignore_blank) | Aralık veri doğrulamasının boş değerlere izin verip vermediğini gösterir.|
 | [formula1](/cells/tr/python-net/aspose.cells/validation/formula1) | Veri doğrulamayla ilişkili değeri veya ifadeyi temsil eder.|
 | [formula2](/cells/tr/python-net/aspose.cells/validation/formula2) | Veri doğrulamayla ilişkili değeri veya ifadeyi temsil eder.|
 | [value1](/cells/tr/python-net/aspose.cells/validation/value1) | Veri doğrulamayla ilişkili ilk değeri temsil eder.|
@@ -39,9 +39,9 @@ Validation türü aşağıdaki üyeleri gösterir:
 | Yöntem| Tanım|
 | :- | :- |
 | [get_formula1(is_r1c1, is_local)](/cells/tr/python-net/aspose.cells/validation/get_formula1/#bool-bool) | Bu doğrulamayla ilişkili değeri veya ifadeyi alır.|
-| [get_formula1(is_r1c1, is_local, row, column)](/cells/tr/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Belirli hücre için bu doğrulamayla ilişkili değeri veya ifadeyi alır.|
+| [get_formula1(is_r1c1, is_local, row, column)](/cells/tr/python-net/aspose.cells/validation/get_formula1/#bool-bool-int-int) | Belirli bir hücre için bu doğrulamayla ilişkili değeri veya ifadeyi alır.|
 | [get_formula2(is_r1c1, is_local)](/cells/tr/python-net/aspose.cells/validation/get_formula2/#bool-bool) | Bu doğrulamayla ilişkili değeri veya ifadeyi alır.|
-| [get_formula2(is_r1c1, is_local, row, column)](/cells/tr/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Belirli hücre için bu doğrulamayla ilişkili değeri veya ifadeyi alır.|
+| [get_formula2(is_r1c1, is_local, row, column)](/cells/tr/python-net/aspose.cells/validation/get_formula2/#bool-bool-int-int) | Belirli bir hücre için bu doğrulamayla ilişkili değeri veya ifadeyi alır.|
 | [add_area(cell_area)](/cells/tr/python-net/aspose.cells/validation/add_area/#CellArea) | Doğrulamayı alana uygular.|
 | [add_area(cell_area, check_intersection, check_edge)](/cells/tr/python-net/aspose.cells/validation/add_area/#CellArea-bool-bool) | Doğrulamayı alana uygular.|
 | [set_formula1(formula, is_r1c1, is_local)](/cells/tr/python-net/aspose.cells/validation/set_formula1/#str-bool-bool) | Bu doğrulama ile ilişkili değeri veya ifadeyi ayarlar.|
@@ -55,7 +55,7 @@ Validation türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, OperatorType, ValidationType, Workbook

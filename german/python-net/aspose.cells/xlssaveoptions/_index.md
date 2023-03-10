@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsSaveOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -38,7 +38,7 @@ Der Typ XlsSaveOptions macht die folgenden Member verfügbar:
 | [sort_names](/cells/de/python-net/aspose.cells/xlssaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [sort_external_names](/cells/de/python-net/aspose.cells/xlssaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [refresh_chart_cache](/cells/de/python-net/aspose.cells/xlssaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells/xlssaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
+| [warning_callback](/cells/de/python-net/aspose.cells/xlssaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells/xlssaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [light_cells_data_provider](/cells/de/python-net/aspose.cells/xlssaveoptions/light_cells_data_provider) | Der Datenanbieter zum Bereitstellen von Zellendaten zum Speichern von Arbeitsmappen im Light-Modus.|
 | [is_template](/cells/de/python-net/aspose.cells/xlssaveoptions/is_template) | Gibt an, ob eine Vorlagendatei gespeichert wird.|

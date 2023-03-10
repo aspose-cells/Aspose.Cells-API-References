@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlScriptSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.saving/sqlscriptsaveoptions/__init__/
 is_root: false
 ---
 ##  SqlScriptSaveOptions() {#}
-Sql dosyalarını kaydetmek için seçenekler oluşturur.
+Sql dosyasını kaydetmek için seçenekler oluşturur.
 
 
 

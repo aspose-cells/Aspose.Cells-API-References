@@ -1,4 +1,4 @@
-﻿---
+---
 title: encoding propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding propiedad
 
-Si no se establece, use Encoding.UTF8 como tipo de codificación predeterminado.
+Si no está configurado, use Codificación.UTF8 como tipo de codificación predeterminado.
 ###  Definición:
 ```python
 @property

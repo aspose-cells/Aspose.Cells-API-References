@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_position Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt an, ob der angegebene Slicer mithilfe der Benutzeroberfläche verschoben oder in der Größe geändert werden kann.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

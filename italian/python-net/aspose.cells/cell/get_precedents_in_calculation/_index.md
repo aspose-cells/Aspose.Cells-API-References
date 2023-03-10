@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_precedents_in_calculation
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene tutti i precedenti (riferimento alle celle nella cartella di lavoro corr
 
 ###  ritorna
 
-Enumeratore per enumerare tutti i riferimenti (Area Riferita)
+Enumeratore per enumerare tutti i riferimenti (ReferredArea)
 
 
 ```python
@@ -27,7 +27,7 @@ def get_precedents_in_calculation(self):
 Questo metodo può funzionare solo con la situazione che [FormulaSettings.enable_calculation_chain](/cells/it/python-net/aspose.cells/formulasettings#enable_calculation_chain)
 è vero per la cartella di lavoro e la cartella di lavoro è stata calcolata completamente.
 Se questa cella non è una formula o non fa riferimento ad altre celle, verrà restituito null.
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

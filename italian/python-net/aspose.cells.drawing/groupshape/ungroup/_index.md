@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo ungroup
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -20,7 +20,7 @@ def ungroup(self):
 
 ###  Osservazioni
 
-Se la forma di gruppo è raggruppata da un'altra forma di gruppo, non verrà eseguita alcuna operazione.
+Se la forma del gruppo è raggruppata da un'altra forma del gruppo, non verrà eseguita alcuna operazione.
 
 
 ###  Guarda anche

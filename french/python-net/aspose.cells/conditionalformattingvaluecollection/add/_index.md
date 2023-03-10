@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add(self, type, value):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [FormatConditionValueType](/cells/fr/python-net/aspose.cells/formatconditionvaluetype) | Le type de valeur.|
 | value | str | La valeur.|

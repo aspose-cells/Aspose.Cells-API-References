@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ShapeCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.drawing/shapecollection/
 is_root: false
 ---
 ##  classe ShapeCollection
-Rappresenta tutte le forme in un foglio di lavoro/grafico.
+Rappresenta tutta la forma in un foglio di lavoro/grafico.
 
 
 
@@ -70,7 +70,7 @@ Il tipo ShapeCollection espone i membri seguenti:
 | [copy_comments_in_range(shapes, ca, dest_row, dest_column)](/cells/it/python-net/aspose.cells.drawing/shapecollection/copy_comments_in_range/#ShapeCollection-CellArea-int-int) | Copia tutti i commenti nell'intervallo.|
 | [copy_in_range(source_shapes, ca, dest_row, dest_column, is_contained)](/cells/it/python-net/aspose.cells.drawing/shapecollection/copy_in_range/#ShapeCollection-CellArea-int-int-bool) | Copia le forme nell'intervallo nell'intervallo di destinazione.|
 | [delete_in_range(ca)](/cells/it/python-net/aspose.cells.drawing/shapecollection/delete_in_range/#CellArea) | Elimina le forme nell'intervallo. Le forme dei commenti non verranno eliminate.|
-| [delete_shape(shape)](/cells/it/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Eliminare una forma.Se la forma è nel gruppo o è una forma di commento, non verrà eliminata.|
+| [delete_shape(shape)](/cells/it/python-net/aspose.cells.drawing/shapecollection/delete_shape/#Shape) |Elimina una forma. Se la forma è nel gruppo o è una forma di commento, non verrà eliminata.|
 | [group(group_items)](/cells/it/python-net/aspose.cells.drawing/shapecollection/group/#list) | Raggruppa le forme.|
 | [ungroup(group)](/cells/it/python-net/aspose.cells.drawing/shapecollection/ungroup/#GroupShape) | Separa gli elementi della forma.|
 | [update_selected_value()](/cells/it/python-net/aspose.cells.drawing/shapecollection/update_selected_value/#) | Aggiorna il valore selezionato in base al valore della cella collegata delle forme.|
@@ -78,7 +78,7 @@ Il tipo ShapeCollection espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

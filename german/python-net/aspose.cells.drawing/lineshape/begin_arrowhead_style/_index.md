@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft den Anfangspfeilspitzenstil der Linie ab und legt diesen fest.
 
 ###  Bemerkungen
 
- HINWEIS: Dieses Mitglied ist jetzt veraltet.
+ HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
  Bitte verwenden Sie die Shape.Line.BeginArrowheadStyle-Eigenschaft.
  Diese Property wird 12 Monate später seit August 2016 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_first_page_header metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def get_first_page_header(self, section):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 

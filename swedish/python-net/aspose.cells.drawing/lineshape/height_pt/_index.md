@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_pt fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  height_pt fastighet
 
-Representerar höjden på formen, i poängenheter.
+Representerar höjden på formen, i punktenhet.
 
 ###  Exempel
 

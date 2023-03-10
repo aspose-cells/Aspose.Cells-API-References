@@ -1,6 +1,6 @@
-﻿---
+---
 title: category_data 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 130
@@ -11,7 +11,7 @@ is_root: false
 
 获取或设置类别 Axis 值的范围。
 它可以是一系列单元格（例如“d1:e10”），
-或一系列值（例如，"{2,6,8,10}"）。
+或一系列值（例如，“{2,6,8,10}”）。
 ### 定义：
 ```python
 @property

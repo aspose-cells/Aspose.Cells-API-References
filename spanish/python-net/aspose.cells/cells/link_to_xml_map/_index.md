@@ -1,4 +1,4 @@
-﻿---
+---
 title: link_to_xml_map método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def link_to_xml_map(self, map_name, row, column, path):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | map_name | str | nombre del mapa xml|
 | row | int | fila de la celda de destino|

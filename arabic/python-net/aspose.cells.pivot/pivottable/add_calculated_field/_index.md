@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_calculated_field
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.pivot/pivottable/add_calculated_field/
 is_root: false
 ---
 ##  add_calculated_field(name, formula) {#str-str}
-يضيف حقلاً محسوبًا إلى الحقل المحوري ويسحبه إلى منطقة البيانات.
+يضيف حقلاً محسوبًا إلى الحقل المحوري واسحبه إلى منطقة البيانات.
 
 
 
@@ -18,7 +18,7 @@ def add_calculated_field(self, name, formula):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم الحقل المحسوب|
 | formula | str | صيغة الحقل المحسوب.|
@@ -35,7 +35,7 @@ def add_calculated_field(self, name, formula, drag_to_data_area):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | name | str | اسم الحقل المحسوب|
 | formula | str | صيغة الحقل المحسوب.|

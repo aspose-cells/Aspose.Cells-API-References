@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width недвижимость
 
-Получает или задает ширину столбца по умолчанию на листе в символьных единицах.
+Получает или задает ширину столбца по умолчанию на листе в символах.
 ###  Определение:
 ```python
 @property

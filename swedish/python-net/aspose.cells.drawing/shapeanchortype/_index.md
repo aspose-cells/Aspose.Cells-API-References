@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeAnchorType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Typen ShapeAnchorType avslöjar följande medlemmar:
 ###  Fält
 | Fält| Beskrivning|
 | :- | :- |
-| TWO_CELL_ANCHOR | Representerar en tvåcellsankarplatshållare|
+| TWO_CELL_ANCHOR | Representerar en platshållare för ankare med två celler|
 | ONE_CELL_ANCHOR | Representerar en platshållare för en cellsankare|
 
 

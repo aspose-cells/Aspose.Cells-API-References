@@ -1,4 +1,4 @@
-﻿---
+---
 title: OoxmlSaveOptions yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -31,9 +31,9 @@ def __init__(self, save_format):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Dosya biçimi.<br/> xlsx, xltx, xlsm, xltm olmalıdır.|
+| save_format | [SaveFormat](/cells/tr/python-net/aspose.cells/saveformat) | Dosya biçimi.<br/> xlsx,xltx,xlsm,xltm olmalıdır.|
 
 
 

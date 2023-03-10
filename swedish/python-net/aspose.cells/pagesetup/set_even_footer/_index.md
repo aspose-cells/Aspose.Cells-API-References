@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_even_footer metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ def set_even_footer(self, section, footer_script):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | section | int | 0: Vänster sektion, 1: Mittsektion, 2: Höger sektion.|
 | footer_script | str | Skript i sidfotsformat.|

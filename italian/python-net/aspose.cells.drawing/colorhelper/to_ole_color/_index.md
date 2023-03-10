@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo to_ole_color
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def to_ole_color(self, color, workbook):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | color | aspose.pydrawing.Color | L'oggetto Colore.|
 | workbook | [Workbook](/cells/it/python-net/aspose.cells/workbook) |  |

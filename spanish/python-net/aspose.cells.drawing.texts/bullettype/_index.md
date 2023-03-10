@@ -1,4 +1,4 @@
-﻿---
+---
 title: BulletType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -20,7 +20,7 @@ El tipo BulletType expone los siguientes miembros:
 | NONE | sin bala|
 | CHARACTER | Bala de personaje.|
 | PICTURE | Viñeta de imagen.|
-| AUTO_NUMBERED | Viñetas numeradas automáticas.|
+| AUTO_NUMBERED | Viñeta numerada automática.|
 
 
 

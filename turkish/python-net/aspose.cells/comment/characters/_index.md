@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Açıklama metni içinde characters aralığını temsil eden bir Characters nes
 
 ###  İadeler
 
-Karakter nesneleri.
+Karakterler nesnesi.
 
 
 ```python
@@ -22,12 +22,12 @@ def characters(self, start_index, length):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | start_index | int | Karakterin başlangıç dizini.|
 | length | int | Karakter sayısı.|
 
-###  örnekler
+###  Örnek
 
 ```python
 

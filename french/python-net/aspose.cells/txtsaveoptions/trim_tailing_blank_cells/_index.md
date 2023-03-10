@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_tailing_blank_cells propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells propriété
 
-Indique si les cellules vides de fin d'une ligne doivent être supprimées. La valeur par défaut est "False".
+Indique si les cellules vides de fin d'une ligne doivent être supprimées. La valeur par défaut est false.
 
 ###  Remarques
 

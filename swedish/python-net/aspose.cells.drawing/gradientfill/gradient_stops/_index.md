@@ -1,4 +1,4 @@
-﻿---
+---
 title: gradient_stops fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة refresh_data
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.pivot/pivottable/refresh_data/
 is_root: false
 ---
 ##  refresh_data() {#}
-تحديث بيانات Pivottable والإعدادات من مصدر البيانات الخاص به.
+تحديث بيانات pivottable والإعداد من مصدر البيانات الخاص به.
 
 
 

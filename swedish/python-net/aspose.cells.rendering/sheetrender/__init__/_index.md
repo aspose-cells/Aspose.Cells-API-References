@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def __init__(self, worksheet, options):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/sv/python-net/aspose.cells/worksheet) | Ange vilket kalkylblad som ska renderas.|
 | options | [ImageOrPrintOptions](/cells/sv/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions innehåller en viss egenskap för utdatabild|

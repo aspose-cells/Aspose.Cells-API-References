@@ -1,4 +1,4 @@
-﻿---
+---
 title: PasteOptions clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -26,7 +26,7 @@ El tipo PasteOptions expone los siguientes miembros:
 | [paste_type](/cells/es/python-net/aspose.cells/pasteoptions/paste_type) | El tipo especial de pasta.|
 | [skip_blanks](/cells/es/python-net/aspose.cells/pasteoptions/skip_blanks) | Indica si salta celdas en blanco.|
 | [only_visible_cells](/cells/es/python-net/aspose.cells/pasteoptions/only_visible_cells) | Verdadero significa solo copiar celdas visibles.|
-| [transpose](/cells/es/python-net/aspose.cells/pasteoptions/transpose) | True para transponer filas y columnas cuando se pega el rango.|
+| [transpose](/cells/es/python-net/aspose.cells/pasteoptions/transpose) | True para transponer filas y columnas cuando se pega el rango. El valor predeterminado es Falso.|
 | [operation_type](/cells/es/python-net/aspose.cells/pasteoptions/operation_type) |Obtiene y establece el tipo de operación al pegar el rango.|
 
 

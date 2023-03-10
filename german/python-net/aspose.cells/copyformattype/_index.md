@@ -1,4 +1,4 @@
-﻿---
+---
 title: CopyFormatType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,7 +19,7 @@ Der Typ CopyFormatType macht die folgenden Member verfügbar:
 | :- | :- |
 | SAME_AS_ABOVE |Formate wie in der obigen Zeile.|
 | SAME_AS_BELOW | Formate wie in der unteren Zeile.|
-| CLEAR | Klare Formatierung.|
+| CLEAR | Löscht die Formatierung.|
 
 
 

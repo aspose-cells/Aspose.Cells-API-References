@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_text_wrapped proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene e imposta il tipo di testo a capo della forma che contiene il testo.
 
-###  Esempi
+###  Esempio
 
 ```python
 

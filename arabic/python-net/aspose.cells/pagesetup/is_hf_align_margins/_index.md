@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hf_align_margins الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

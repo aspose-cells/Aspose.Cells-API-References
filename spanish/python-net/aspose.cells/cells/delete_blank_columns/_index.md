@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_blank_columns método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,7 +31,7 @@ def delete_blank_columns(self, options):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/es/python-net/aspose.cells/deleteoptions) | Las opciones de borrar rango.|
 

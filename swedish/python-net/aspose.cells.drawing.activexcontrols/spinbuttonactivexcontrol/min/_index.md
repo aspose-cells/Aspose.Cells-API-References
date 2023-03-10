@@ -1,4 +1,4 @@
-﻿---
+---
 title: min fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  min fastighet
 
-Får och ställer in det lägsta acceptabla värdet.
+Hämtar och ställer in det lägsta acceptabla värdet.
 ###  Definition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_art propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Indique si cette forme est un mot art.
 
 Uniquement pour la forme héritée du fichier xls.
 
-###  Exemples
+###  Exemple
 
 ```python
 

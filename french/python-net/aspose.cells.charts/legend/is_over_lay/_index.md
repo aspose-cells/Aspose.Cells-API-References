@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_over_lay propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

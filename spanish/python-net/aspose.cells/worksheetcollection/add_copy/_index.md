@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/worksheetcollection/add_copy/
 is_root: false
 ---
 ##  add_copy(sheet_name) {#str}
-Agrega una hoja de trabajo a la colección y copia datos de una hoja de trabajo existente.
+Agrega una hoja de trabajo a la colección y copia los datos de una hoja de trabajo existente.
 
 
 ###  Devoluciones
@@ -22,7 +22,7 @@ def add_copy(self, sheet_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sheet_name | str | Nombre de la hoja de trabajo fuente.|
 ###  Excepciones
@@ -34,7 +34,7 @@ def add_copy(self, sheet_name):
 
 
 ##  add_copy(sheet_index) {#int}
-Agrega una hoja de trabajo a la colección y copia datos de una hoja de trabajo existente.
+Agrega una hoja de trabajo a la colección y copia los datos de una hoja de trabajo existente.
 
 
 ###  Devoluciones
@@ -48,9 +48,9 @@ def add_copy(self, sheet_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| sheet_index | int | Índice de la hoja de trabajo de fuentes.|
+| sheet_index | int | Índice de la hoja de trabajo fuente.|
 
 
 

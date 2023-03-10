@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_permission mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  print_permission mülk
 
-Pdf belgelerini yazdırma izni
+Pdf belgesini yazdırma izni
 ###  Tanım:
 ```python
 @property

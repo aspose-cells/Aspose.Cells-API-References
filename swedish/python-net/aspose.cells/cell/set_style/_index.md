@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_style metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_style(self, style):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Cellstilen.|
 ###  Anmärkningar
@@ -37,7 +37,7 @@ def set_style(self, style, explicit_flag):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Cellstilen.|
 | explicit_flag | bool | Det är sant, endast överskrivning av formatering som är explicit inställd.|
@@ -54,7 +54,7 @@ def set_style(self, style, flag):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | style | [Style](/cells/sv/python-net/aspose.cells/style) | Cellstilen.|
 | flag | [StyleFlag](/cells/sv/python-net/aspose.cells/styleflag) | Stilflaggan.|

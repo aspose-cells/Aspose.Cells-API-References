@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatCondition sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -21,13 +21,13 @@ FormatCondition türü aşağıdaki üyeleri gösterir:
 | [formula2](/cells/tr/python-net/aspose.cells/formatcondition/formula2) | Koşullu biçimlendirmeyle ilişkili değeri veya ifadeyi alır ve ayarlar.|
 | [operator](/cells/tr/python-net/aspose.cells/formatcondition/operator) | Koşullu biçim işleç türünü alır ve ayarlar.|
 | [stop_if_true](/cells/tr/python-net/aspose.cells/formatcondition/stop_if_true) |Doğru, bu kural doğru olarak değerlendirildiğinde, daha düşük önceliğe sahip hiçbir kural bu kurala uygulanamaz.<br/> Yalnızca Excel 2007 için geçerlidir;|
-| [priority](/cells/tr/python-net/aspose.cells/formatcondition/priority) | Bu koşullu biçimlendirme kuralının önceliği.<br/>formatı değerlendirilmeli ve render edilmelidir.Daha düşük sayısal değerler daha yüksek önceliklidir.<br/> '1'in en yüksek öncelik olduğu daha yüksek sayısal değerler.|
-| [style](/cells/tr/python-net/aspose.cells/formatcondition/style) | Koşullu olarak biçimlendirilmiş hücre aralıklarının stilini alır veya ayarlar.|
+| [priority](/cells/tr/python-net/aspose.cells/formatcondition/priority) | Bu koşullu biçimlendirme kuralının önceliği. Bu değer hangisini belirlemek için kullanılır?<br/>biçimi değerlendirilmeli ve işlenmelidir. Daha düşük sayısal değerler daha yüksek önceliğe sahiptir.<br/> '1'in en yüksek öncelik olduğu daha yüksek sayısal değerler.|
+| [style](/cells/tr/python-net/aspose.cells/formatcondition/style) | Koşullu biçimlendirilmiş hücre aralıklarının stilini alır veya ayarlar.|
 | [type](/cells/tr/python-net/aspose.cells/formatcondition/type) | Alır ve koşullu biçim Type ayarlar.|
 | [icon_set](/cells/tr/python-net/aspose.cells/formatcondition/icon_set) | Koşullu biçimlendirmenin "IconSet" örneğini alın.<br/>Varsayılan örneğin IconSetType'ı TrafficLights31'dir.<br/> Yalnızca type = IconSet için geçerlidir.|
 | [data_bar](/cells/tr/python-net/aspose.cells/formatcondition/data_bar) | Koşullu biçimlendirmenin "DataBar" örneğini alın.<br/>Varsayılan örneğin rengi mavidir.<br/> Yalnızca tür için geçerli olan DataBar'dır.|
 | [color_scale](/cells/tr/python-net/aspose.cells/formatcondition/color_scale) | Koşullu biçimlendirmenin "ColorScale" örneğini alın.<br/>Varsayılan örnek bir "yeşil-sarı-kırmızı" 3ColorScale'dir.<br/> Yalnızca type = ColorScale için geçerlidir.|
-| [top10](/cells/tr/python-net/aspose.cells/formatcondition/top10) | Koşullu biçimlendirmenin "Top10" örneğini alın.<br/>Varsayılan örneğin kuralı,<br/>değerler ilk 10 parantez içinde yer almaktadır.<br/> Sadece Top10 türü için geçerlidir.|
+| [top10](/cells/tr/python-net/aspose.cells/formatcondition/top10) | Koşullu biçimlendirmenin "Top10" örneğini alın.<br/>Varsayılan örneğin kuralı,<br/>değerler ilk 10 parantez içinde yer alır.<br/> Sadece Top10 türü için geçerlidir.|
 | [above_average](/cells/tr/python-net/aspose.cells/formatcondition/above_average) |Koşullu biçimlendirmenin "AboveAverage" örneğini alın.<br/> Varsayılan örneğin kuralı, şu hücreleri vurgular:<br/>aralıktaki tüm değerler için ortalamanın üzerinde.<br/> Yalnızca type = AboveAverage için geçerlidir.|
 | [text](/cells/tr/python-net/aspose.cells/formatcondition/text) | Bir "metin içerir" koşullu biçimlendirme kuralındaki metin değeri.<br/>Yalnızca type = includeText, notContainsText, beginWith ve biterWith için geçerlidir.<br/> Varsayılan değer boştur.|
 | [time_period](/cells/tr/python-net/aspose.cells/formatcondition/time_period) | Bir "tarih meydana geliyor..." koşullu biçimlendirme kuralında geçerli zaman aralığı.<br/>Yalnızca type = timePeriod için geçerlidir.<br/> Varsayılan değer TimePeriodType.Today'dir.|
@@ -48,7 +48,7 @@ FormatCondition türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, OperatorType, Workbook

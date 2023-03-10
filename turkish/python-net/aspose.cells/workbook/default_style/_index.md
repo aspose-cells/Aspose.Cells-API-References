@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_style mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 DefaultStyle özelliği, tüm Çalışma Kitabı için bir Stil uygulamak için kullanışlıdır.
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, yeni bir Çalışma Kitabı oluşturur ve başlatır ve buna varsayılan bir [Style](/cells/tr/python-net/aspose.cells/style) ayarlar.
 

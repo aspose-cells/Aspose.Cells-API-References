@@ -1,4 +1,4 @@
-﻿---
+---
 title: libid propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  libid propriété
 
-Obtient et définit la libid de la référence.
+Obtient et définit la Libid de la référence.
 ###  Définition:
 ```python
 @property

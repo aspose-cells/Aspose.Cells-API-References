@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_page_background mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

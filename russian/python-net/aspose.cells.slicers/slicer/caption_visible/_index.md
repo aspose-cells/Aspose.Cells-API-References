@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption_visible недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -12,7 +12,7 @@ is_root: false
 Возвращает или задает, отображается ли заголовок, отображающий Caption слайсера.
 Значение по умолчанию верно
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_arc
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing/shapecollection/add_arc/
 is_root: false
 ---
 ##  add_arc(upper_left_row, top, upper_left_column, left, height, width) {#int-int-int-int-int-int}
-يضيف شكل ArcShape إلى ورقة العمل.
+يضيف شكل قوس إلى ورقة العمل.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | upper_left_row | int | فهرس الصف العلوي الأيسر.|
 | top | int | يمثل الإزاحة الرأسية لـ ArcShape من صفه الأيسر ، بوحدة بكسل.|
@@ -31,7 +31,7 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 | height | int | يمثل ارتفاع شكل ArcShape بوحدة البكسل.|
 | width | int |يمثل عرض ArcShape بوحدة البكسل.|
 
-###  أمثلة
+###  مثال
 
 ```python
 

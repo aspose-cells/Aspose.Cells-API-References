@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlobalizationSettings класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -48,7 +48,7 @@ is_root: false
 | [get_table_row_type_of_headers()](/cells/ru/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_headers/#) | Получает имя типа строк таблицы, состоящее из заголовка таблицы.<br/> По умолчанию используется «Заголовки», поэтому в формуле «#Заголовки» представляет собой заголовок таблицы.|
 | [get_table_row_type_of_data()](/cells/ru/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_data/#) | Получает имя типа строк таблицы, состоящей из области данных ссылочной таблицы.<br/> По умолчанию используется «Данные», поэтому в формуле «#Данные» представляет область данных таблицы.|
 | [get_table_row_type_of_all()](/cells/ru/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_all/#) | Получает имя типа строк таблицы, состоящее из всех строк в таблице, на которую ссылаются.<br/>По умолчанию используется значение «Все», поэтому в формуле «#Все» представляют все строки в ссылочной таблице.|
-| [get_table_row_type_of_totals()](/cells/ru/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Получает имя типа строк таблицы, состоящих из общей строки таблицы, на которую ссылаются.<br/> По умолчанию используется значение «Итоги», поэтому в формуле «#Итоги» представляет итоговую строку ссылочной таблицы.|
+| [get_table_row_type_of_totals()](/cells/ru/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_totals/#) | Получает имя типа строк таблицы, состоящее из общей строки таблицы, на которую ссылаются.<br/> По умолчанию используется значение «Итоги», поэтому в формуле «#Итоги» представляет итоговую строку ссылочной таблицы.|
 | [get_table_row_type_of_current()](/cells/ru/python-net/aspose.cells/globalizationsettings/get_table_row_type_of_current/#) | Получает имя типа строк таблицы, состоящих из текущей строки в таблице, на которую ссылаются.<br/> По умолчанию используется «Эта строка», поэтому в формуле «# Эта строка» представляет текущую строку в ссылочной таблице.|
 | [get_error_value_string(err)](/cells/ru/python-net/aspose.cells/globalizationsettings/get_error_value_string/#str) | Получает отображаемое строковое значение для значения ошибки ячейки|
 | [get_boolean_value_string(bv)](/cells/ru/python-net/aspose.cells/globalizationsettings/get_boolean_value_string/#bool) | Получает отображаемое строковое значение для логического значения ячейки|
@@ -58,7 +58,7 @@ is_root: false
 | [get_standard_built_in_name(local_name)](/cells/ru/python-net/aspose.cells/globalizationsettings/get_standard_built_in_name/#str) | Получает стандартный текст встроенного имени в соответствии с заданным текстом, зависящим от локали.|
 | [get_standard_header_footer_font_style_name(localfont_style_name)](/cells/ru/python-net/aspose.cells/globalizationsettings/get_standard_header_footer_font_style_name/#str) |Получает имя стиля стандартного английского шрифта (обычный, полужирный, курсив) для верхнего/нижнего колонтитула в соответствии с заданным именем стиля шрифта локали.|
 | [get_comment_title_name(type)](/cells/ru/python-net/aspose.cells/globalizationsettings/get_comment_title_name/#aspose.cells.rendering.CommentTitleType) | Получает зависящее от локали название заголовка комментария в соответствии с типом заголовка комментария.|
-| [compare(v1, v2, ignore_case)](/cells/ru/python-net/aspose.cells/globalizationsettings/compare/#str-str-bool) | Сравнивает два строковых значения по определенным правилам сопоставления.|
+| [compare(v1, v2, ignore_case)](/cells/ru/python-net/aspose.cells/globalizationsettings/compare/#str-str-bool) | Сравнивает два строковых значения в соответствии с определенными правилами сортировки.|
 
 
 

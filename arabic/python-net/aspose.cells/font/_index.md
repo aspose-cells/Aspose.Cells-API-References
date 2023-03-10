@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -40,11 +40,11 @@ is_root: false
 ###  طُرق
 | طريقة| وصف|
 | :- | :- |
-| [equals(font)](/cells/ar/python-net/aspose.cells/font/equals/#Font) | للتحقق مما إذا كان الخطان متساويان.|
+| [equals(font)](/cells/ar/python-net/aspose.cells/font/equals/#Font) | للتحقق مما إذا كان خطان متساويان.|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

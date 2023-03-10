@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtSaveOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/fr/python-net/aspose.cells/saveformat) | Format d'enregistrement du fichier texte.|
 

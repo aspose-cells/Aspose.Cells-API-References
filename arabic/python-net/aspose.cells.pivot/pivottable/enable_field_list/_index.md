@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list الملكية
 
-الحصول على ما إذا كان سيتم تمكين قائمة الحقول ل PivotTable أم لا.
+الحصول على ما إذا كان يتم تمكين قائمة الحقول لجدول PivotTable أم لا.
 ###  تعريف:
 ```python
 @property

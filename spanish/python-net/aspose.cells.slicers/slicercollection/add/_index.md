@@ -1,4 +1,4 @@
-﻿---
+---
 title: add método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,13 +22,13 @@ def add(self, pivot, dest_cell_name, base_field_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | dest_cell_name | str | La celda en la esquina superior izquierda del rango Slicer.|
 | base_field_name | str | El nombre de PivotField en PivotTable.BaseFields|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -52,13 +52,13 @@ def add(self, pivot, dest_cell_name, base_field_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | dest_cell_name | str | La celda en la esquina superior izquierda del rango Slicer.|
 | base_field_index | int | El índice de PivotField en PivotTable.BaseFields|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -82,13 +82,13 @@ def add(self, pivot, dest_cell_name, base_field):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | dest_cell_name | str | La celda en la esquina superior izquierda del rango Slicer.|
 | base_field | aspose.cells.pivot.PivotField | El PivotField en PivotTable.BaseFields|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -112,13 +112,13 @@ def add(self, table, index, dest_cell_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | objeto ListObject|
 | index | int | El índice de ListColumn en ListObject.ListColumns|
 | dest_cell_name | str | La celda en la esquina superior izquierda del rango Slicer.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -142,13 +142,13 @@ def add(self, table, list_column, dest_cell_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | objeto ListObject|
 | list_column | aspose.cells.tables.ListColumn | ListColumn en ListObject.ListColumns|
 | dest_cell_name | str | La celda en la esquina superior izquierda del rango Slicer.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -172,14 +172,14 @@ def add(self, pivot, row, column, base_field_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de Slicer.|
 | column | int | Índice de columna de la celda en la esquina superior izquierda del rango de Slicer.|
 | base_field_name | str | El nombre de PivotField en PivotTable.BaseFields|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -203,14 +203,14 @@ def add(self, pivot, row, column, base_field_index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de Slicer.|
 | column | int | Índice de columna de la celda en la esquina superior izquierda del rango de Slicer.|
 | base_field_index | int | El índice de PivotField en PivotTable.BaseFields|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -234,14 +234,14 @@ def add(self, pivot, row, column, base_field):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |Objeto de tabla dinámica|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de Slicer.|
 | column | int | Índice de columna de la celda en la esquina superior izquierda del rango de Slicer.|
 | base_field | aspose.cells.pivot.PivotField | El PivotField en PivotTable.BaseFields|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 
@@ -265,14 +265,14 @@ def add(self, table, list_column, row, column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject | objeto ListObject|
 | list_column | aspose.cells.tables.ListColumn | ListColumn en ListObject.ListColumns|
 | row | int | Índice de fila de la celda en la esquina superior izquierda del rango de Slicer.|
 | column | int | Índice de columna de la celda en la esquina superior izquierda del rango de Slicer.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: built_in_document_properties mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Elektronik tablonun tüm yerleşik belge özelliklerini temsil eden bir [Documen
 
 ###  Notlar
 
-Yerleşik belge özellikleri listesine yeni bir özellik eklenemez.
+Yerleşik belge özellikleri listesine yeni bir özellik eklenemez. Yalnızca yerleşik bir özellik alabilir ve değerini değiştirebilirsiniz.
 Yerleşik özellikler adı listesi aşağıdadır:
 
 Başlık
@@ -22,7 +22,7 @@ Başlık
 Ders
 
 
-yazar
+Yazar
 
 
 anahtar kelimeler
@@ -73,7 +73,7 @@ Kategori
 Biçim
 
 
-müdür
+Müdür
 
 
 Şirket

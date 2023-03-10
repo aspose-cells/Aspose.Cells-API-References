@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ListObject
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -25,7 +25,7 @@ Il tipo ListObject espone i membri seguenti:
 | [end_column](/cells/it/python-net/aspose.cells.tables/listobject/end_column) |Ottiene la colonna finale dell'intervallo.|
 | [list_columns](/cells/it/python-net/aspose.cells.tables/listobject/list_columns) | Ottiene ListColumns di ListObject.|
 | [show_header_row](/cells/it/python-net/aspose.cells.tables/listobject/show_header_row) | Ottiene e imposta se questo ListObject mostra la riga di intestazione.|
-| [show_totals](/cells/it/python-net/aspose.cells.tables/listobject/show_totals) | Ottiene e imposta se questo ListObject mostra le righe totali.|
+| [show_totals](/cells/it/python-net/aspose.cells.tables/listobject/show_totals) | Ottiene e imposta se questo ListObject mostra la riga totale.|
 | [data_range](/cells/it/python-net/aspose.cells.tables/listobject/data_range) | Ottiene l'intervallo di dati di ListObject.|
 | [query_table](/cells/it/python-net/aspose.cells.tables/listobject/query_table) | Ottiene la QueryTable collegata.|
 | [data_source_type](/cells/it/python-net/aspose.cells.tables/listobject/data_source_type) | Ottiene il tipo di origine dati della tabella.|
@@ -50,13 +50,13 @@ Il tipo ListObject espone i membri seguenti:
 | [convert_to_range(options)](/cells/it/python-net/aspose.cells.tables/listobject/convert_to_range/#TableToRangeOptions) | Converti la tabella in intervallo.|
 | [resize(start_row, start_column, end_row, end_column, has_headers)](/cells/it/python-net/aspose.cells.tables/listobject/resize/#int-int-int-int-bool) | Ridimensiona l'intervallo dell'oggetto elenco.|
 | [put_cell_value(row_offset, column_offset, value)](/cells/it/python-net/aspose.cells.tables/listobject/put_cell_value/#int-int-any) | Inserisci il valore nella cella.|
-| [update_column_name()](/cells/it/python-net/aspose.cells.tables/listobject/update_column_name/#) |Aggiorna tutti i nomi delle colonne dell'elenco dal foglio di lavoro.|
+| [update_column_name()](/cells/it/python-net/aspose.cells.tables/listobject/update_column_name/#) |Aggiorna il nome di tutte le colonne dell'elenco dal foglio di lavoro.|
 | [filter()](/cells/it/python-net/aspose.cells.tables/listobject/filter/#) | Filtra la tabella.|
 | [apply_style_to_range()](/cells/it/python-net/aspose.cells.tables/listobject/apply_style_to_range/#) | Applica lo stile della tabella all'intervallo.|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellsHelper, Workbook

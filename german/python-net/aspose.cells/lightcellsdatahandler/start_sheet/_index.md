@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Beginnt mit der Verarbeitung eines Arbeitsblatts.
 
 ###  Kehrt zurück
 
-ob die Zellendaten dieses Blattes verarbeitet werden müssen false um dieses Blatt zu ignorieren.
+ob die Zellendaten dieses Blattes verarbeitet werden müssen. false, um dieses Blatt zu ignorieren.
 
 
 ```python

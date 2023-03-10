@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ColumnCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,10 +9,10 @@ is_root: false
 ---
 ##  classe ColumnCollection
 Raccolta degli oggetti [Column](/cells/it/python-net/aspose.cells/column) che rappresentano le singole colonne (impostazioni) in un foglio di lavoro.
-L'oggetto Colonna rappresenta solo le impostazioni come la larghezza della colonna, gli stili, ecc.
-non ha nulla a che fare con il fatto che ci siano celle non vuote (dati) o meno nelle colonne corrispondenti.
+L'oggetto Colonna rappresenta solo le impostazioni come la larghezza della colonna, gli stili, ecc. per tutta la colonna,
+non ha nulla a che fare con il fatto che ci sono celle non vuote (dati) o non nella colonna corrispondente.
 il "Count" di questa raccolta rappresenta solo gli oggetti Count Column di cui è stata creata un'istanza in questa raccolta,
-non ha nulla a che fare con il fatto che ci siano celle non vuote (dati) o meno nel foglio di lavoro.
+non ha nulla a che fare con il fatto che ci sono celle non vuote (dati) o meno nel foglio di lavoro.
 
 
 
@@ -40,7 +40,7 @@ Il tipo ColumnCollection espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

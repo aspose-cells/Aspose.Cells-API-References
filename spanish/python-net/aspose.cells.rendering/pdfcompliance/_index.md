@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfCompliance enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ El tipo PdfCompliance expone los siguientes miembros:
 | :- | :- |
 | NONE | formato pdf normal|
 | PDF_A1B | Formato pdf compatible con PDFA-1b|
-| PDF_A1A | Formato PDF compatible con PDFA-1a|
+| PDF_A1A | Formato pdf compatible con PDFA-1a|
 
 
 

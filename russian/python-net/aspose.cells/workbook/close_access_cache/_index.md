@@ -1,4 +1,4 @@
-﻿---
+---
 title: close_access_cache метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def close_access_cache(self, opts):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | opts | [AccessCacheOptions](/cells/ru/python-net/aspose.cells/accesscacheoptions) | варианты доступа к данным|
 

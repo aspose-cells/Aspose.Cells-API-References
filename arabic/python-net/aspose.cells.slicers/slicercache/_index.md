@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCache الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,15 +17,15 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [cross_filter_type](/cells/ar/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | إرجاع أو تعيين ما إذا كانت أداة تقطيع الشرائح تشارك في التصفية المتقاطعة مع مقسمات طرق العرض الأخرى<br/> التي تشترك في نفس ذاكرة التخزين المؤقت لتقطيع الشرائح ، وكيفية عرض التصفية المتقاطعة.|
-| [list](/cells/ar/python-net/aspose.cells.slicers/slicercache/list) | تُرجع ما إذا كانت أداة تقطيع الشرائح مرتبطة بذاكرة التخزين المؤقت لقطاعة العرض المحددة أم لا بناءً على مصدر بيانات غير OLAP.|
-| [slicer_cache_items](/cells/ar/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | تُرجع مجموعة SlicerCacheItem التي تحتوي على مجموعة كل العناصر الموجودة في ذاكرة التخزين المؤقت لمقسم طريقة العرض.|
+| [cross_filter_type](/cells/ar/python-net/aspose.cells.slicers/slicercache/cross_filter_type) | إرجاع أو تعيين ما إذا كانت أداة تقطيع الشرائح تشارك في التصفية المتقاطعة مع مقسمات طرق العرض الأخرى<br/> التي تشترك في نفس ذاكرة التخزين المؤقت لتقطيع الشرائح ، وكيفية عرض التصفية المتقاطعة. قراءة و كتابة|
+| [list](/cells/ar/python-net/aspose.cells.slicers/slicercache/list) | تُرجع ما إذا كانت أداة تقطيع الشرائح المقترنة بذاكرة التخزين المؤقت لقطاعة العرض المحددة تستند إلى مصدر بيانات غير OLAP. يقرأ فقط|
+| [slicer_cache_items](/cells/ar/python-net/aspose.cells.slicers/slicercache/slicer_cache_items) | تُرجع مجموعة SlicerCacheItem التي تحتوي على مجموعة كل العناصر الموجودة في ذاكرة التخزين المؤقت لمقسم طريقة العرض. يقرأ فقط|
 | [name](/cells/ar/python-net/aspose.cells.slicers/slicercache/name) | تُرجع اسم ذاكرة التخزين المؤقت لتقطيع الشرائح.|
 | [source_name](/cells/ar/python-net/aspose.cells.slicers/slicercache/source_name) | يُرجع اسم حقل ذاكرة التخزين المؤقت|
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

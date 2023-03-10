@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة protect
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,12 +18,12 @@ def protect(self, type):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/ar/python-net/aspose.cells/protectiontype) | نوع الحماية.|
 ###  ملاحظات
 
-هذه الطريقة تحمي ورقة العمل بدون كلمة مرور.
+هذه الطريقة تحمي ورقة العمل بدون كلمة مرور. يمكن أن protect ورقة عمل في جميع إصدارات ملف Excel.
 
 ##  protect(type, password, old_password) {#ProtectionType-str-str}
 
@@ -37,7 +37,7 @@ def protect(self, type, password, old_password):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [ProtectionType](/cells/ar/python-net/aspose.cells/protectiontype) | نوع الحماية.|
 | password | str | كلمة المرور.|
@@ -45,7 +45,7 @@ def protect(self, type, password, old_password):
 ###  ملاحظات
 
 يمكن لهذه الطريقة أن protect ورقة عمل في كافة إصدارات ملف Excel.
-###  أمثلة
+###  مثال
 
 
 ```python

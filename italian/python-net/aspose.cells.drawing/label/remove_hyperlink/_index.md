@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo remove_hyperlink
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -19,7 +19,7 @@ def remove_hyperlink(self):
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 

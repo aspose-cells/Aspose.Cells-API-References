@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_text_of_sub_total método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def get_text_of_sub_total(self, sub_total_type):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | sub_total_type | aspose.cells.pivot.PivotFieldSubtotalType | El [PivotFieldSubtotalType](/cells/es/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |
 

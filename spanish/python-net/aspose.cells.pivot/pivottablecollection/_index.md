@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -43,7 +43,7 @@ El tipo PivotTableCollection expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import FormatConditionType, OperatorType, Workbook

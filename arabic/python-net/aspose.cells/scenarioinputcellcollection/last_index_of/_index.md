@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة last_index_of
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  عائدات
 
-الفهرس الصفري لآخر تواجد للقيمة داخل قائمة الصفيف بأكملها ، إذا تم العثور عليه ؛ وإلا ، -1.
+الفهرس الصفري لآخر تواجد للقيمة داخل قائمة الصفيف بأكملها ، إذا تم العثور عليه ؛ خلاف ذلك ، -1.
 
 
 ```python
@@ -22,9 +22,9 @@ def last_index_of(self, item):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| item | [ScenarioInputCell](/cells/ar/python-net/aspose.cells/scenarioinputcell) | الكائن المطلوب تحديد موقعه في قائمة الصفيف.|
+| item | [ScenarioInputCell](/cells/ar/python-net/aspose.cells/scenarioinputcell) | الكائن المطلوب تحديد موقعه في قائمة الصفيف. يمكن أن تكون القيمة فارغة.|
 
 
 ##  last_index_of(item, index) {#ScenarioInputCell-int}
@@ -33,7 +33,7 @@ def last_index_of(self, item):
 
 ###  عائدات
 
-الفهرس الصفري لآخر تواجد للقيمة داخل نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى startIndex ، إذا تم العثور عليه ؛ وإلا ، -1.
+الفهرس الصفري لآخر تواجد للقيمة داخل نطاق العناصر في قائمة الصفيف الذي يمتد من العنصر الأول إلى startIndex ، إذا تم العثور عليه ؛ خلاف ذلك ، -1.
 
 
 ```python
@@ -42,9 +42,9 @@ def last_index_of(self, item, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| item | [ScenarioInputCell](/cells/ar/python-net/aspose.cells/scenarioinputcell) | الكائن المطلوب تحديد موقعه في قائمة الصفيف.|
+| item | [ScenarioInputCell](/cells/ar/python-net/aspose.cells/scenarioinputcell) | الكائن المطلوب تحديد موقعه في قائمة الصفيف. يمكن أن تكون القيمة فارغة.|
 | index | int | فهرس البداية الصفري للبحث المتخلف.|
 
 
@@ -54,7 +54,7 @@ def last_index_of(self, item, index):
 
 ###  عائدات
 
-الفهرس الصفري لآخر تواجد للقيمة ضمن نطاق العناصر في مجموعة System.Collections. قائمة الصفيف التي تحتوي على عدد العناصر وتنتهي في startIndex ، إذا وجدت ؛ خلاف ذلك ، -1.
+الفهرس الصفري لآخر تواجد للقيمة ضمن نطاق العناصر في مجموعات النظام. قائمة الصفيف التي تحتوي على عدد العناصر وتنتهي في startIndex ، إذا وجدت ؛ خلاف ذلك ، -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def last_index_of(self, item, index, count):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
-| item | [ScenarioInputCell](/cells/ar/python-net/aspose.cells/scenarioinputcell) | الكائن المطلوب تحديد موقعه في قائمة الصفيف.|
+| item | [ScenarioInputCell](/cells/ar/python-net/aspose.cells/scenarioinputcell) | الكائن المطلوب تحديد موقعه في قائمة الصفيف. يمكن أن تكون القيمة فارغة.|
 | index | int | فهرس البداية الصفري للبحث المتخلف.|
 | count | int | عدد العناصر في القسم للبحث.|
 

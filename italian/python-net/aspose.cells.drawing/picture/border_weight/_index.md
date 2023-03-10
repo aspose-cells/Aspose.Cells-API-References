@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_weight proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ottiene o imposta lo spessore della linea di confine di un'immagine in unità di pt.
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

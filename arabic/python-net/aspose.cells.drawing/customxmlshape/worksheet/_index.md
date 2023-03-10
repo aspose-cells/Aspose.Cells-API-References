@@ -1,4 +1,4 @@
-﻿---
+---
 title: worksheet الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 الحصول على الكائن [Shape.worksheet](/cells/ar/python-net/aspose.cells.drawing/shape#worksheet) الذي يحتوي على هذا الشكل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

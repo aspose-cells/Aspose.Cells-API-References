@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklinePresetStyleType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -23,7 +23,7 @@ El tipo SparklinePresetStyleType expone los siguientes miembros:
 | STYLE4 | estilo 4|
 | STYLE5 | estilo 5|
 | STYLE6 | Estilo 6|
-| STYLE7 | estilo 7|
+| STYLE7 | Estilo 7|
 | STYLE8 | Estilo 8|
 | STYLE9 | Estilo 9|
 | STYLE10 | estilo 10|

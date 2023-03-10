@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة calculate
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def calculate(self, data):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | data | [CalculationData](/cells/ar/python-net/aspose.cells/calculationdata) | البيانات المطلوبة لحساب الوظيفة مثل اسم الوظيفة ، المعلمات ، ... إلخ.|
 ###  ملاحظات

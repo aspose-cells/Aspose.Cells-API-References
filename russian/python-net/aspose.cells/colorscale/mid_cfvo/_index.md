@@ -1,4 +1,4 @@
-﻿---
+---
 title: mid_cfvo недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

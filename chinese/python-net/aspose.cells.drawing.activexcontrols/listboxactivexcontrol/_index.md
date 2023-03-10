@@ -1,6 +1,6 @@
-﻿---
+---
 title: ListBoxActiveXControl类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -43,8 +43,8 @@ ListBoxActiveXControl 类型公开了以下成员：
 | [ime_mode](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/ime_mode) |获取和设置控件接收焦点时输入法编辑器的默认运行时模式。|
 | [font](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/font) |表示控件的字体。|
 | [text_align](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_align) |表示如何对齐控件使用的文本。|
-| [scroll_bars](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |指示控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。|
-| [list_width](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_width) |以点为单位获取和设置宽度。|
+| [scroll_bars](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/scroll_bars) |指示指定控件是否有垂直滚动条、水平滚动条、两者都有，或者两者都没有。|
+| [list_width](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/list_width) |获取和设置以点为单位的宽度。|
 | [bound_column](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/bound_column) |表示如何确定 ComboBox 或 ListBox 的 Value 属性<br/>当 MultiSelect 属性值为 (fmMultiSelectSingle) 时。|
 | [text_column](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/text_column) |表示 ComboBox 或 ListBox 中要显示给用户的列。|
 | [column_count](/cells/zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/column_count) |表示要在 ComboBox 或 ListBox 中显示的列数。|

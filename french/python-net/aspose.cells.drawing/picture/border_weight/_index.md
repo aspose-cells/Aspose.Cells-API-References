@@ -1,4 +1,4 @@
-﻿---
+---
 title: border_weight propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient ou définit l'épaisseur de la bordure d'une image en unités de pt.
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import Workbook

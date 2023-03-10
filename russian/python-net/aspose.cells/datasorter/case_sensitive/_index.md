@@ -1,4 +1,4 @@
-﻿---
+---
 title: case_sensitive недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  case_sensitive недвижимость
 
-Получает и устанавливает, учитывается ли регистр при сравнении строк.
+Получает и устанавливает, учитывается ли регистр при сравнении строки.
 ###  Определение:
 ```python
 @property

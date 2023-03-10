@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_text_effect
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_text_effect(self, effect):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | effect | [MsoPresetTextEffect](/cells/ar/python-net/aspose.cells.drawing/msopresettexteffect) | تأثير النص المحدد مسبقًا.|
 

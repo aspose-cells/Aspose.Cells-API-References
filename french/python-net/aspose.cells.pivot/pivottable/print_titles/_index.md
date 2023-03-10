@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_titles propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  print_titles propriété
 
 Indique si les titres d'impression de la feuille de calcul sont définis en fonction
-sur le rapport de tableau croisé dynamique.
+sur le rapport de tableau croisé dynamique. La valeur par défaut est faux.
 ###  Définition:
 ```python
 @property

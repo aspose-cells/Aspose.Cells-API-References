@@ -1,6 +1,6 @@
-﻿---
+---
 title: PlotArea类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 220
@@ -28,7 +28,7 @@ PlotArea 类型公开了以下成员：
 | [text_font](/cells/zh/python-net/aspose.cells.charts/plotarea/text_font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
 | [text_options](/cells/zh/python-net/aspose.cells.charts/plotarea/text_options) |获取和设置文本的选项。|
 | [font](/cells/zh/python-net/aspose.cells.charts/plotarea/font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
-| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/plotarea/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。|
+| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/plotarea/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。|
 | [background_mode](/cells/zh/python-net/aspose.cells.charts/plotarea/background_mode) |获取和设置背景的显示方式|
 | [background](/cells/zh/python-net/aspose.cells.charts/plotarea/background) |获取和设置背景的显示方式|
 | [is_automatic_size](/cells/zh/python-net/aspose.cells.charts/plotarea/is_automatic_size) |指示绘图区域是否自动调整大小。|

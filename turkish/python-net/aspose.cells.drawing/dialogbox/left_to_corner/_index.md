@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Çalışma sayfasının sol sınırından şeklin yatay kaymasını alır ve ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

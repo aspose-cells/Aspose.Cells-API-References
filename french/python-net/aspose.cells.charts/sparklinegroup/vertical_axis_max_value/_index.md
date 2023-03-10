@@ -1,4 +1,4 @@
-﻿---
+---
 title: vertical_axis_max_value propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

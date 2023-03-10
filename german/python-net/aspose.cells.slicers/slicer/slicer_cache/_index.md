@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  slicer_cache Eigentum
 
-Gibt das dem Slicer zugeordnete SlicerCache-Objekt zurück.
+Gibt das dem Slicer zugeordnete SlicerCache-Objekt zurück. Schreibgeschützt.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

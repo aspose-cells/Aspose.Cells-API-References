@@ -1,4 +1,4 @@
-﻿---
+---
 title: created_time الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  created_time الملكية
 
-الحصول على أو تحديد تاريخ إنشاء المستند حسب المنطقة الزمنية المحلية.
+الحصول على أو تحديد تاريخ إنشاء المستند في المنطقة الزمنية المحلية.
 
 ###  ملاحظات
 

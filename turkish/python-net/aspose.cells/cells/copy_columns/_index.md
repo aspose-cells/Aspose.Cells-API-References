@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_columns yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,12 +18,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_column_index | int | Kaynak sütun dizini.|
 | destination_column_index | int | Hedef sütun dizini.|
-| column_number | int | Kopyalanan sütun numaraları.|
+| column_number | int | Kopyalanan sütun numarası.|
 
 
 ##  copy_columns(source_cells0, source_column_index, destination_column_index, column_number, paste_options) {#Cells-int-int-int-PasteOptions}
@@ -37,12 +37,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_column_index | int | Kaynak sütun dizini.|
 | destination_column_index | int | Hedef sütun dizini.|
-| column_number | int | Kopyalanan sütun numaraları.|
+| column_number | int | Kopyalanan sütun numarası.|
 | paste_options | [PasteOptions](/cells/tr/python-net/aspose.cells/pasteoptions) | yapıştırma seçenekleri.|
 
 
@@ -57,7 +57,7 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/tr/python-net/aspose.cells/cells) | Kaynak Cells nesnesi, kopyalanacak verileri ve biçimleri içerir.|
 | source_column_index | int | Kaynak sütun dizini.|

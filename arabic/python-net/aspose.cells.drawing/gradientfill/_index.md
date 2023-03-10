@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientFill الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -23,7 +23,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [gradient_stops](/cells/ar/python-net/aspose.cells.drawing/gradientfill/gradient_stops) | يمثل مجموعة توقف التدرج.|
-| [fill_type](/cells/ar/python-net/aspose.cells.drawing/gradientfill/fill_type) | يحصل على نوع التعبئة المتدرجة.|
+| [fill_type](/cells/ar/python-net/aspose.cells.drawing/gradientfill/fill_type) | الحصول على نوع التعبئة المتدرجة.|
 | [direction_type](/cells/ar/python-net/aspose.cells.drawing/gradientfill/direction_type) | الحصول على نوع اتجاه التدرج.|
 | [angle](/cells/ar/python-net/aspose.cells.drawing/gradientfill/angle) | زاوية التعبئة الخطية.|
 

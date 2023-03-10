@@ -1,4 +1,4 @@
-﻿---
+---
 title: StreamProviderOptions costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -31,7 +31,7 @@ def __init__(self, loading_type, default_path):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | loading_type | [ResourceLoadingType](/cells/it/python-net/aspose.cells/resourceloadingtype) | Il tipo per caricare la risorsa collegata.|
 | default_path | str | Il percorso predefinito.|

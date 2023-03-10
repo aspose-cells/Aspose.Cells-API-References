@@ -1,4 +1,4 @@
-﻿---
+---
 title: count недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  count недвижимость
 
-Получает или задает count интервалов оси.
+Получает или задает count бинов осей
 ###  Определение:
 ```python
 @property

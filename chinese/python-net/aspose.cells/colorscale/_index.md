@@ -1,6 +1,6 @@
-﻿---
+---
 title: ColorScale类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 250
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## ColorScale类
 描述 ColorScale 条件格式规则。
-此条件格式规则在单元格上创建分级色标。
+此条件格式规则在单元格上创建渐变色标。
 
 
 

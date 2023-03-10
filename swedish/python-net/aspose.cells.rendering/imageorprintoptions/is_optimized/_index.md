@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_optimized fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Indikerar om utgångselementen ska optimeras.
 
 ###  Anmärkningar
 
-Standardvärdet är falskt. För närvarande är bara kantlinjerna optimerade när den här egenskapen är inställd på sant.
+Standardvärdet är falskt. För närvarande är endast kantlinjerna optimerade när den här egenskapen är inställd på sann.
 ###  Definition:
 ```python
 @property

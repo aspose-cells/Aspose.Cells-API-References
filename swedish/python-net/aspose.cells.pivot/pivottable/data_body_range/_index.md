@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_body_range fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  data_body_range fastighet
 
 Returnerar ett CellArea-objekt som representerar intervallet som innehåller dataområdet
-i listan mellan rubrikraden och infogningsraden.
+i listan mellan rubrikraden och infogningsraden. Skrivskyddad.
 ###  Definition:
 ```python
 @property

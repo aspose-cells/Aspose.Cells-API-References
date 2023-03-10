@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_locked mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bir hücrenin değiştirilip değiştirilemeyeceğini gösteren bir değer alır
 
 ###  Notlar
 
-Çalışma sayfası korunmadığı sürece hücrelerin kilitlenmesinin hiçbir etkisi yoktur.
+Çalışma sayfası korunmadığı sürece hücreleri kilitlemenin hiçbir etkisi yoktur.
 ###  Tanım:
 ```python
 @property

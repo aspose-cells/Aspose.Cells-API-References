@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_default_encrypted недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-Значение по умолчанию теперь равно false, оно такое же, как в MS Excel 2013.
+Значение по умолчанию теперь равно false. Это то же самое, что MS Excel 2013.
 ###  Определение:
 ```python
 @property

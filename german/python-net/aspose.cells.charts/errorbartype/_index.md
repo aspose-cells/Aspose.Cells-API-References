@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBarType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,7 +17,7 @@ Der Typ ErrorBarType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| CUSTOM | Innerer benutzerdefinierter Werttyp.|
+| CUSTOM | InnerCustom-Werttyp.|
 | FIXED_VALUE | Festwerttyp.|
 | PERCENT | Prozenttyp|
 | ST_DEV | Typ der Standardabweichung.|

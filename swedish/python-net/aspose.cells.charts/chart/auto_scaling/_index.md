@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scaling fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  auto_scaling fastighet
 
  Sant om Microsoft Excel skalar ett 3D-diagram så att det i storlek är närmare motsvarande 2D-diagram.
-Egenskapen Right Angle Axes måste vara True.
+Egenskapen RightAngleAxes måste vara True.
 ###  Definition:
 ```python
 @property

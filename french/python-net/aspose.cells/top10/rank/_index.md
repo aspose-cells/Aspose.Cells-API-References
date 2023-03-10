@@ -1,4 +1,4 @@
-﻿---
+---
 title: rank propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtenez ou définissez la valeur de "n" dans une règle de mise en forme conditionnelle "top/bottom n".
 Si IsPercent est vrai, la valeur doit être comprise entre 0 et 100.
-Sinon, il doit être compris entre 0 et 1000.
+Sinon il doit être compris entre 0 et 1000.
 La valeur par défaut est 10.
 ###  Définition:
 ```python

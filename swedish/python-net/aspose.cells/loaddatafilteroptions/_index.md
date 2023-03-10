@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadDataFilterOptions uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -29,7 +29,7 @@ Typen LoadDataFilterOptions avslöjar följande medlemmar:
 | CELL_DATA | Ladda celldata inklusive värden, formler och formatering|
 | CHART | Ladda diagram|
 | SHAPE | Ladda former|
-| DRAWING | Ritobjekt (inklusive diagram, bilder, OleObjects och alla andra ritobjekt)|
+| DRAWING | Ritobjekt (inklusive diagram, bild, OleObject och alla andra ritobjekt)|
 | MERGED_AREA | Ladda sammanslagna celler|
 | CONDITIONAL_FORMATTING | Ladda villkorlig formatering|
 | DATA_VALIDATION | Ladda datavalideringar|
@@ -38,8 +38,8 @@ Typen LoadDataFilterOptions avslöjar följande medlemmar:
 | HYPERLINKS | Ladda hyperlänkar|
 | SHEET_SETTINGS | Ladda inställningar för kalkylblad|
 | SHEET_DATA |Ladda alla data i kalkylbladet, såsom celldata, inställningar, objekt, ... etc.|
-| BOOK_SETTINGS | Ladda inställningar för arbetsböcker|
-| SETTINGS | Ladda inställningar för arbetsböcker och kalkylblad|
+| BOOK_SETTINGS | Ladda inställningar för arbetsbok|
+| SETTINGS | Ladda inställningar för arbetsbok och kalkylblad|
 | XML_MAP | Ladda XmlMap|
 | STRUCTURE | Laststruktur för arbetsboken|
 | DOCUMENT_PROPERTIES | Ladda dokumentegenskaper|

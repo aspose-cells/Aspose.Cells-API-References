@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlScrollOrientation enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ El tipo ControlScrollOrientation expone los siguientes miembros:
 | Campo| Descripción|
 | :- | :- |
 | AUTO | El control se representa horizontalmente cuando el ancho del control es mayor que su altura.<br/> De lo contrario, el control se renderiza verticalmente.|
-| VERTICAL |Los controles se representan verticalmente.|
+| VERTICAL |El control se representa verticalmente.|
 | HORIZONTAL | El control se representa horizontalmente.|
 
 

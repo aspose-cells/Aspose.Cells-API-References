@@ -1,4 +1,4 @@
-﻿---
+---
 title: Axis класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -32,20 +32,20 @@ is_root: false
 | [tick_label_position](/cells/ru/python-net/aspose.cells.charts/axis/tick_label_position) | Представляет положение меток деления на указанной оси.|
 | [cross_at](/cells/ru/python-net/aspose.cells.charts/axis/cross_at) | Представляет точку на оси значений, где ее пересекает ось категорий.|
 | [cross_type](/cells/ru/python-net/aspose.cells.charts/axis/cross_type) | Представляет [Axis.cross_type](/cells/ru/python-net/aspose.cells.charts/axis#cross_type) на указанной оси, где пересекается другая ось.|
-| [log_base](/cells/ru/python-net/aspose.cells.charts/axis/log_base) | Представляет основание логарифма.Значение по умолчанию — 10. Применяется только для Excel2007.|
+| [log_base](/cells/ru/python-net/aspose.cells.charts/axis/log_base) | Представляет логарифмическое основание. Значение по умолчанию — 10. Применяется только для Excel2007.|
 | [is_logarithmic](/cells/ru/python-net/aspose.cells.charts/axis/is_logarithmic) | Указывает, является ли тип шкалы оси значений логарифмическим или нет.|
 | [is_plot_order_reversed](/cells/ru/python-net/aspose.cells.charts/axis/is_plot_order_reversed) | Представляет, если Microsoft Excel отображает точки данных от последней к первой.|
 | [axis_between_categories](/cells/ru/python-net/aspose.cells.charts/axis/axis_between_categories) | Представляет, пересекает ли ось значений ось категорий между категориями.|
 | [tick_labels](/cells/ru/python-net/aspose.cells.charts/axis/tick_labels) | Возвращает объект [Axis.tick_labels](/cells/ru/python-net/aspose.cells.charts/axis#tick_labels), который представляет метки делений для указанной оси.|
-| [tick_label_spacing](/cells/ru/python-net/aspose.cells.charts/axis/tick_label_spacing) |Представляет количество категорий или рядов между метками деления.|
+| [tick_label_spacing](/cells/ru/python-net/aspose.cells.charts/axis/tick_label_spacing) |Представляет количество категорий или рядов между метками деления. Применяется только к осям категорий и серий.|
 | [is_auto_tick_label_spacing](/cells/ru/python-net/aspose.cells.charts/axis/is_auto_tick_label_spacing) | Указывает, является ли интервал между галочками автоматическим|
-| [tick_mark_spacing](/cells/ru/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Возвращает или задает количество категорий или серий между делениями.|
+| [tick_mark_spacing](/cells/ru/python-net/aspose.cells.charts/axis/tick_mark_spacing) | Возвращает или задает количество категорий или серий между делениями. Применяется только к осям категорий и серий.|
 | [display_unit](/cells/ru/python-net/aspose.cells.charts/axis/display_unit) | Представляет метку единицы измерения для указанной оси.|
 | [cust_unit](/cells/ru/python-net/aspose.cells.charts/axis/cust_unit) | Указывает пользовательское значение для единицы отображения.|
 | [custom_unit](/cells/ru/python-net/aspose.cells.charts/axis/custom_unit) | Указывает пользовательское значение для единицы отображения.|
-| [display_unit_label](/cells/ru/python-net/aspose.cells.charts/axis/display_unit_label) | Представляет метку единицы измерения на оси указанной диаграммы.<br/> Метки единиц удобны для отображения на диаграмме больших значений, например, в миллионах или миллиардах.|
+| [display_unit_label](/cells/ru/python-net/aspose.cells.charts/axis/display_unit_label) | Представляет метку единицы измерения на оси указанной диаграммы.<br/> Метки единиц удобны для отображения больших значений, например, в миллионах или миллиардах.|
 | [is_display_unit_label_shown](/cells/ru/python-net/aspose.cells.charts/axis/is_display_unit_label_shown) | Указывает, отображается ли метка единицы отображения на указанной оси.|
-| [title](/cells/ru/python-net/aspose.cells.charts/axis/title) | Получает название оси.|
+| [title](/cells/ru/python-net/aspose.cells.charts/axis/title) | Получает заголовок оси.|
 | [category_type](/cells/ru/python-net/aspose.cells.charts/axis/category_type) | Представляет тип оси категорий.|
 | [base_unit_scale](/cells/ru/python-net/aspose.cells.charts/axis/base_unit_scale) | Представляет шкалу базовых единиц для оси категорий.|
 | [major_unit_scale](/cells/ru/python-net/aspose.cells.charts/axis/major_unit_scale) | Представляет шкалу основных единиц для оси категорий.|
@@ -55,11 +55,11 @@ is_root: false
 | [minor_grid_lines](/cells/ru/python-net/aspose.cells.charts/axis/minor_grid_lines) | Представляет второстепенные линии сетки на оси диаграммы.|
 | [has_multi_level_labels](/cells/ru/python-net/aspose.cells.charts/axis/has_multi_level_labels) |Указывает, должны ли метки отображаться как многоуровневые.|
 | [axis_labels](/cells/ru/python-net/aspose.cells.charts/axis/axis_labels) | Получает метки оси после вызова метода Chart.Calculate().|
-| [bins](/cells/ru/python-net/aspose.cells.charts/axis/bins) | Представляет интервалы на оси диаграммы (гистограмма/Парето).|
+| [bins](/cells/ru/python-net/aspose.cells.charts/axis/bins) | Представляет интервалы на оси диаграммы (гистограммы/Парето).|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formattings proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  conditional_formattings proprietà
 
-Ottiene la formattazione condizionale nel foglio di lavoro.
+Ottiene ConditionalFormattings nel foglio di lavoro.
 ###  Definizione:
 ```python
 @property

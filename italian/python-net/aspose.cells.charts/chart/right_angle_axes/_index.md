@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_angle_axes proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_angle_axes proprietà
 
-Vero se gli assi del grafico sono ad angolo retto. Si applica solo ai grafici 3D (eccetto i grafici Column3D e 3D Pie Charts).
+Vero se gli assi del grafico sono ad angolo retto. Si applica solo ai grafici 3D (tranne Column3D e 3D Pie Charts).
 
 ###  Osservazioni
 

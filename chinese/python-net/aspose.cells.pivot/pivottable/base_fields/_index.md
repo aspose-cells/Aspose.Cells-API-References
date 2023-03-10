@@ -1,6 +1,6 @@
-﻿---
+---
 title: base_fields 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 330
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## base_fields 属性
 
-返回一个包含数据透视表中所有字段的数据透视字段对象
+返回一个 PivotFields 对象，该对象包含数据透视表中的所有字段
 ### 定义：
 ```python
 @property

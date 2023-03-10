@@ -1,6 +1,6 @@
-﻿---
+---
 title: text 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 380
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## text 属性
 
-获取和设置控件的 text。
+获取并设置控件的 text。
 ### 定义：
 ```python
 @property

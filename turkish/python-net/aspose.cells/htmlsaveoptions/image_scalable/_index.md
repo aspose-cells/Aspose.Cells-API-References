@@ -1,4 +1,4 @@
-﻿---
+---
 title: image_scalable mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  image_scalable mülk
 
 Görüntü genişliğini açıklamak için ölçeklenebilir birim kullanılıp kullanılmadığını gösterir
-sütun genişliğini açıklamak için ölçeklenebilir birimler kullanıldığında.
+sütun genişliğini açıklamak için ölçeklenebilir birim kullanıldığında.
 Varsayılan değer doğrudur.
 ###  Tanım:
 ```python

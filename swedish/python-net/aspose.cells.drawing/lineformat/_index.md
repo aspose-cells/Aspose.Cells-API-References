@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineFormat klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.drawing/lineformat/
 is_root: false
 ---
 ##  LineFormat klass
-Representerar alla inställningar för linjen.
+Representerar alla inställningar av linjen.
 
 
 

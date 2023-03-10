@@ -1,4 +1,4 @@
-﻿---
+---
 title: BorderType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,8 +23,8 @@ Typen BorderType avslöjar följande medlemmar:
 | LEFT_BORDER | Representerar vänster gränslinje.|
 | RIGHT_BORDER |Representerar höger gränslinje finns.|
 | TOP_BORDER | Representerar övre kantlinjen.|
-| HORIZONTAL | Endast för dynamisk stil, till exempel villkorlig formatering.|
-| VERTICAL | Endast för dynamisk stil, till exempel villkorlig formatering.|
+| HORIZONTAL | Endast för dynamisk stil, som villkorlig formatering.|
+| VERTICAL | Endast för dynamisk stil, som villkorlig formatering.|
 
 
 

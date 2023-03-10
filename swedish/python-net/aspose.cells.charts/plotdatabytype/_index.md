@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotDataByType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.charts/plotdatabytype/
 is_root: false
 ---
 ##  PlotDataByType uppräkning
-Representerar den typ av data som plottas efter rad eller kolumn.
+Representerar typen av dataplot per rad eller kolumn.
 
 
 

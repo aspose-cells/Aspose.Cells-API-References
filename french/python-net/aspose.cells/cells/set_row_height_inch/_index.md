@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height_inch méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells/cells/set_row_height_inch/
 is_root: false
 ---
 ##  set_row_height_inch(row, inches) {#int-float}
-Définit la hauteur de ligne en unités de pouces.
+Définit la hauteur de ligne en pouces.
 
 
 
@@ -18,7 +18,7 @@ def set_row_height_inch(self, row, inches):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row | int | Indice de ligne.|
 | inches | float | Nombre de pouces. Il doit être compris entre 0 et 409,5/72.|

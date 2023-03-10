@@ -1,4 +1,4 @@
-﻿---
+---
 title: BevelPresetType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -25,7 +25,7 @@ Der Typ BevelPresetType macht die folgenden Member verfügbar:
 | COOL_SLANT | Coole Schräge|
 | CROSS | Kreuzen|
 | DIVOT | Divot|
-| HARD_EDGE | Harte Kanten|
+| HARD_EDGE | Scharfe Kante|
 | RELAXED_INSET | Entspannter Einsatz|
 | RIBLET | Rippchen|
 | SLOPE | Neigung|

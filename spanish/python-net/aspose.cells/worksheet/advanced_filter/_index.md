@@ -1,4 +1,4 @@
-﻿---
+---
 title: advanced_filter método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def advanced_filter(self, is_filter, list_range, criteria_range, copy_to, unique
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | is_filter | bool | Indica si se filtra la lista en su lugar.|
 | list_range | str | El rango de la lista.|

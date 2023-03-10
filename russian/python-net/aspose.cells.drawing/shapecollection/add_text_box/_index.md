@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_box метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение текстового поля от его левой строки в пикселях.|
@@ -31,7 +31,7 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | height | int | Представляет высоту текстового поля в пикселях.|
 | width | int | Представляет ширину текстового поля в пикселях.|
 
-###  Примеры
+###  Пример
 
 ```python
 

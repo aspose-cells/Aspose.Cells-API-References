@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  ods_cell_fields fastighet
 
-Får listan över oddsfält.
+Hämtar listan över odsfält.
 ###  Definition:
 ```python
 @property

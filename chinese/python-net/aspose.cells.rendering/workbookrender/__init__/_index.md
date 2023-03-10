@@ -1,6 +1,6 @@
-﻿---
+---
 title: WorkbookRender 构造函数
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ def __init__(self, workbook, options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/zh/python-net/aspose.cells/workbook) |指示要呈现的工作簿。|
 | options | [ImageOrPrintOptions](/cells/zh/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions 包含输出图像的一些属性|

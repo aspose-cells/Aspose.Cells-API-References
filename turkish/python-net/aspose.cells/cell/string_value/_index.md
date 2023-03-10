@@ -1,4 +1,4 @@
-﻿---
+---
 title: string_value mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  string_value mülk
 
-Hücrede bulunan dize değerini alır.
+Hücrede bulunan dize değerini alır. Bu hücrenin türü dize ise, dize değerinin kendisini döndürür.
 Diğer hücre türleri için biçimlendirilmiş dize değeri (bu hücrenin belirtilen stiliyle biçimlendirilmiş) döndürülür.
 Biçimlendirilmiş hücre değeri, bir hücreyi metin olarak kopyalarken excel'den alabileceğiniz değerle aynıdır (örneğin,
 hücreyi metin düzenleyiciye kopyalama veya csv'ye aktarma).

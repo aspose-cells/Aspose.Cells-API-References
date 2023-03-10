@@ -1,4 +1,4 @@
-﻿---
+---
 title: TimePeriodType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ Typen TimePeriodType avslöjar följande medlemmar:
 | LAST_7_DAYS | Ett datum under de senaste sju dagarna.|
 | THIS_MONTH | Ett datum som inträffar i denna kalendermånad.|
 | LAST_MONTH | Ett datum som inträffar under den senaste kalendermånaden.|
-| NEXT_MONTH | Ett datum som inträffar under nästa kalendermånad.|
+| NEXT_MONTH | Ett datum som inträffar i nästa kalendermånad.|
 | THIS_WEEK | Ett datum som inträffar denna vecka.|
 | LAST_WEEK | Ett datum som inträffade förra veckan.|
 | NEXT_WEEK | Ett datum som inträffar nästa vecka.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_values yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bu alandaki hücre değerlerini alır.
 
 ###  İadeler
 
-Bu alan geçersiz ise "#REF!" döndürülür;
+Bu alan geçersiz ise "#REF!" iade edilecek;
 Bu alan tek bir hücreyse, hücre değeri nesnesini döndürür;
 Aksi takdirde, bu alandaki tüm değerler için bir 2B dizi döndürün.
 
@@ -32,7 +32,7 @@ Bu alandaki hücre değerlerini alır.
 
 ###  İadeler
 
-Bu alan geçersiz ise "#REF!" döndürülür;
+Bu alan geçersiz ise "#REF!" iade edilecek;
 Bu alan tek bir hücreyse, hücre değeri nesnesini döndürür;
 Aksi takdirde, bu alandaki tüm değerler için bir 2B dizi döndürün.
 
@@ -43,7 +43,7 @@ def get_values(self, calculate_formulas):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | calculate_formulas | bool | Bu aralıkta hesaplanmamış bazı formüller varsa,<br/> bu bayrak, bu formüllerin yinelemeli olarak hesaplanıp hesaplanmayacağını belirtir|
 

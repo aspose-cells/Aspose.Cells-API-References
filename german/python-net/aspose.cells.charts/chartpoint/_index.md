@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPoint Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -40,8 +40,8 @@ Der Typ ChartPoint macht die folgenden Member verfügbar:
 | [border_width_px](/cells/de/python-net/aspose.cells.charts/chartpoint/border_width_px) | Ruft die Breite des Rahmens in Pixeleinheiten ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.|
 | [radius_px](/cells/de/python-net/aspose.cells.charts/chartpoint/radius_px) | Ruft den Radius einer Blase, eines Kuchens oder eines Donuts in Pixeleinheiten ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.|
 | [inner_radius_px](/cells/de/python-net/aspose.cells.charts/chartpoint/inner_radius_px) | Ruft den Innenradius des Ringscheibenstücks in Pixeleinheiten ab, nachdem die Chart.Calculate()-Methode aufgerufen wurde.<br/> Gilt für Ringdiagramm.|
-| [start_angle](/cells/de/python-net/aspose.cells.charts/chartpoint/start_angle) | Ruft den Startwinkel für den Tortenabschnitt ab, gemessen in Grad im Uhrzeigersinn von der x-Achse nach dem Aufruf der Chart.Calculate()-Methode.<br/> Gilt für Tortendiagramm.|
-| [end_angle](/cells/de/python-net/aspose.cells.charts/chartpoint/end_angle) | Ruft den Endwinkel für den Tortenabschnitt ab, gemessen in Grad im Uhrzeigersinn von der x-Achse nach dem Aufruf der Chart.Calculate()-Methode.<br/> Gilt für Tortendiagramm.|
+| [start_angle](/cells/de/python-net/aspose.cells.charts/chartpoint/start_angle) | Ruft den Startwinkel für den Tortenabschnitt ab, gemessen in Grad im Uhrzeigersinn von der x-Achse nach dem Aufruf der Chart.Calculate()-Methode.<br/> Gilt für Kreisdiagramm.|
+| [end_angle](/cells/de/python-net/aspose.cells.charts/chartpoint/end_angle) | Ruft den Endwinkel für den Tortenabschnitt ab, gemessen in Grad im Uhrzeigersinn von der x-Achse nach dem Aufruf der Chart.Calculate()-Methode.<br/> Gilt für Kreisdiagramm.|
 | [arc_start_point_x_px](/cells/de/python-net/aspose.cells.charts/chartpoint/arc_start_point_x_px) | Ruft die x-Koordinate des Startpunkts für den Kreisabschnitt ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.<br/> Gilt für Kreis- und Ringdiagramme.|
 | [arc_start_point_y_px](/cells/de/python-net/aspose.cells.charts/chartpoint/arc_start_point_y_px) |Ruft die y-Koordinate des Startpunkts für den Kreisabschnitt ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.<br/> Gilt für Kreis- und Ringdiagramme.|
 | [arc_end_point_x_px](/cells/de/python-net/aspose.cells.charts/chartpoint/arc_end_point_x_px) | Ruft die x-Koordinate des Endpunkts für den Tortenabschnitt ab, nachdem die Chart.Calculate()-Methode aufgerufen wurde.<br/> Gilt für Kreis- und Ringdiagramme.|
@@ -62,12 +62,12 @@ Der Typ ChartPoint macht die folgenden Member verfügbar:
 | [get_bottom_point_x_px(index)](/cells/de/python-net/aspose.cells.charts/chartpoint/get_bottom_point_x_px/#int) | Ruft die x-Koordinate des unteren Punkts der Form ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.<br/> Wendet 3D-Diagramme an: Column3D, Bar3D, Cone, Cylinder, Pyramid|
 | [get_bottom_point_y_px(index)](/cells/de/python-net/aspose.cells.charts/chartpoint/get_bottom_point_y_px/#int) | Ruft die y-Koordinate des unteren Punkts der Form ab, nachdem die Methode Chart.Calculate() aufgerufen wurde.<br/> Wendet 3D-Diagramme an: Column3D, Bar3D, Cone, Cylinder, Pyramid|
 | [get_on_category_axis_point_count()](/cells/de/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_count/#) |Ruft die Anzahl der Punkte auf der Kategorieachse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. Gilt nur für Flächendiagramme.|
-| [get_on_category_axis_point_x_px(index)](/cells/de/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Ruft die x-Koordinate des Punkts auf der Kategorieachse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. Gilt nur für Flächendiagramme.|
-| [get_on_category_axis_point_y_px(index)](/cells/de/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Ruft die y-Koordinate des Punkts auf der Kategorieachse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. Gilt nur für Flächendiagramme.|
+| [get_on_category_axis_point_x_px(index)](/cells/de/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_x_px/#int) | Ruft die x-Koordinate des Punktes auf der Kategorieachse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. Gilt nur für das Flächendiagramm.|
+| [get_on_category_axis_point_y_px(index)](/cells/de/python-net/aspose.cells.charts/chartpoint/get_on_category_axis_point_y_px/#int) | Ruft die y-Koordinate des Punkts auf der Kategorieachse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. Gilt nur für das Flächendiagramm.|
 
 
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

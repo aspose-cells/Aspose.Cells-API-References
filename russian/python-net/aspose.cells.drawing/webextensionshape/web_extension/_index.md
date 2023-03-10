@@ -1,4 +1,4 @@
-﻿---
+---
 title: web_extension недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  web_extension недвижимость
 
-Получает и задает веб-расширение.
+Получает и устанавливает веб-расширение.
 ###  Определение:
 ```python
 @property

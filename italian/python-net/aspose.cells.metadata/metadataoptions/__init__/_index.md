@@ -1,4 +1,4 @@
-﻿---
+---
 title: MetadataOptions costruttore
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells.metadata/metadataoptions/__init__/
 is_root: false
 ---
 ##  MetadataOptions(metadata_type) {#MetadataType}
-Crea un'opzione per caricare i metadati.
+Crea un'opzione di caricamento dei metadati.
 
 
 
@@ -18,7 +18,7 @@ def __init__(self, metadata_type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | metadata_type | [MetadataType](/cells/it/python-net/aspose.cells.metadata/metadatatype) | Il tipo di metadati.|
 

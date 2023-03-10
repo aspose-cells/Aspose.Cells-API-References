@@ -1,4 +1,4 @@
-﻿---
+---
 title: type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет количество ошибок type.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo copy_in_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,15 +18,15 @@ def copy_in_range(self, source_shapes, ca, dest_row, dest_column, is_contained):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | source_shapes | [ShapeCollection](/cells/it/python-net/aspose.cells.drawing/shapecollection) | Forme di origine.|
 | ca | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | L'intervallo di origine.|
 | dest_row | int | L'indice della riga dest dell'intervallo dest.|
 | dest_column | int | La colonna dest dell'intervallo dest.|
-| is_contained | bool | Se copiare solo le forme contenute nell'intervallo.<br/> Se vero, copia solo le forme nell'intervallo.<br/> Altrimenti, funziona come MS Office.|
+| is_contained | bool | Se copiare solo le forme contenute nell'intervallo.<br/> Se vero, copia solo le forme nell'intervallo.<br/> Altrimenti funziona come MS Office.|
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea

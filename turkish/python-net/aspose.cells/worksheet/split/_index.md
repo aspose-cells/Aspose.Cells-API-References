@@ -1,4 +1,4 @@
-﻿---
+---
 title: split yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/worksheet/split/
 is_root: false
 ---
 ##  split() {#}
-Bölünmüş pencere.
+Pencereyi böler.
 
 
 

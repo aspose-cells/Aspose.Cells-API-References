@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_enumerator yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -27,7 +27,7 @@ def get_enumerator(self):
 Döndürülen Numaralandırıcı tarafından öğeler arasında geçiş yapılırken, hücre koleksiyonu
 değiştirilmemelidir (yeni Cell/Row'un başlatılmasına veya mevcut Cell/Row'un silinmesine neden olacak işlemler gibi).
 Aksi takdirde numaralandırıcı tüm hücreleri doğru şekilde geçemeyebilir (bazı öğeler tekrar tekrar geçilebilir veya atlanabilir).
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

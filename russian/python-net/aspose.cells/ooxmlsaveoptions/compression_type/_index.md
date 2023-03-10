@@ -1,4 +1,4 @@
-﻿---
+---
 title: compression_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compression_type недвижимость
 
-Получает и задает тип сжатия для файлов ooxml.
+Получает и задает тип сжатия для файла ooxml.
 
 ###  Примечания
 

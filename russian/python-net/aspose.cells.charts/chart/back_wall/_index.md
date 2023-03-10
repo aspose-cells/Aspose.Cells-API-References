@@ -1,4 +1,4 @@
-﻿---
+---
 title: back_wall недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

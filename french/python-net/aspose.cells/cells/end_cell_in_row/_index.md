@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_cell_in_row méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def end_cell_in_row(self, row_index):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_index | int | Indice de ligne.|
 
@@ -42,7 +42,7 @@ def end_cell_in_row(self, start_row, end_row, start_column, end_column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | start_row | int | Index de ligne de début.|
 | end_row | int | Index de fin de ligne.|

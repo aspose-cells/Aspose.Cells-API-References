@@ -1,4 +1,4 @@
-﻿---
+---
 title: call_back mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  call_back mülk
 
-Smartmarker işlemenin geri arama arabirimini alır ve ayarlar.
+Smartmarker işlemenin geri arama arayüzünü alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

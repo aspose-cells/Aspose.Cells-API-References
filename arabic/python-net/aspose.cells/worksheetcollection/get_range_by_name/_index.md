@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_range_by_name
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range_name | str | اسم النطاق.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | range_name | str | اسم النطاق أو اسم الجدول.|
-| current_sheet_index | int | فهرس الورقة -1 يمثل عام.|
+| current_sheet_index | int | فهرس الورقة. -1 يمثل العالمية.|
 | include_table | bool | يشير إلى ما إذا كان يتم فحص كل الجداول.|
 
 

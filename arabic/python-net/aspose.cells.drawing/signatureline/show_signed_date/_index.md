@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_signed_date الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 يشير إلى ما إذا كان إظهار التاريخ الموقع.
 
-###  أمثلة
+###  مثال
 
 ```python
 

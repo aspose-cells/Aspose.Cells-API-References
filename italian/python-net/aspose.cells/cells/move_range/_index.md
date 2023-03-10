@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo move_range
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def move_range(self, source_area, dest_row, dest_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | source_area | [CellArea](/cells/it/python-net/aspose.cells/cellarea) | L'intervallo che deve essere spostato.|
 | dest_row | int | La fila più lontana.|

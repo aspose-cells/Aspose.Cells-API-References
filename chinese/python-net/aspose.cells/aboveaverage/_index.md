@@ -1,6 +1,6 @@
-﻿---
+---
 title: AboveAverage类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ AboveAverage 类型公开了以下成员：
 ### 构造器
 |构造器|描述|
 | :- | :- |
-| [AboveAverage()](/cells/zh/python-net/aspose.cells/aboveaverage/__init__/#) |构造 Above Average 的新实例|
+| [AboveAverage()](/cells/zh/python-net/aspose.cells/aboveaverage/__init__/#) |构造 AboveAverage 的新实例|
 
 
 ### 特性

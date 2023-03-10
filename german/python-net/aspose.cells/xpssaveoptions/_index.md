@@ -1,4 +1,4 @@
-﻿---
+---
 title: XpsSaveOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -39,7 +39,7 @@ Der Typ XpsSaveOptions macht die folgenden Member verfügbar:
 | [sort_names](/cells/de/python-net/aspose.cells/xpssaveoptions/sort_names) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [sort_external_names](/cells/de/python-net/aspose.cells/xpssaveoptions/sort_external_names) |Gibt an, ob extern definierte Namen vor dem Speichern der Datei sortiert werden.|
 | [refresh_chart_cache](/cells/de/python-net/aspose.cells/xpssaveoptions/refresh_chart_cache) | Gibt an, ob Diagramm-Cache-Daten aktualisiert werden|
-| [warning_callback](/cells/de/python-net/aspose.cells/xpssaveoptions/warning_callback) | Ruft Warnungsrückrufe ab oder legt sie fest.|
+| [warning_callback](/cells/de/python-net/aspose.cells/xpssaveoptions/warning_callback) | Ruft einen Warnungsrückruf ab oder legt ihn fest.|
 | [update_smart_art](/cells/de/python-net/aspose.cells/xpssaveoptions/update_smart_art) | Gibt an, ob die SmartArt-Einstellung aktualisiert wird.<br/> Der Standardwert ist falsch.|
 | [default_font](/cells/de/python-net/aspose.cells/xpssaveoptions/default_font) | Wenn Zeichen in Excel Unicode sind und nicht mit der richtigen Schriftart im Zellenstil festgelegt werden,<br/>Sie können als Block in PDF, Bild erscheinen.<br/>Legen Sie die DefaultFont wie MingLiu oder MS Gothic fest, um diese Zeichen anzuzeigen.<br/> Wenn diese Eigenschaft nicht festgelegt ist, verwendet Aspose.Cells die Systemstandardschriftart, um diese Unicode-Zeichen anzuzeigen.|
 | [check_workbook_default_font](/cells/de/python-net/aspose.cells/xpssaveoptions/check_workbook_default_font) | Wenn Zeichen in Excel Unicode sind und nicht mit der richtigen Schriftart im Zellenstil festgelegt werden,<br/>Sie können als Block in PDF, Bild erscheinen.<br/> Setzen Sie dies auf „true“, um zu versuchen, die Standardschriftart der Arbeitsmappe zu verwenden, um diese Zeichen zuerst anzuzeigen.|
@@ -55,7 +55,7 @@ Der Typ XpsSaveOptions macht die folgenden Member verfügbar:
 | [gridline_type](/cells/de/python-net/aspose.cells/xpssaveoptions/gridline_type) | Ruft den Rasterlinientyp ab oder legt diesen fest.|
 | [text_cross_type](/cells/de/python-net/aspose.cells/xpssaveoptions/text_cross_type) | Ruft die Anzeige des Texttyps ab oder legt diese fest, wenn die Textbreite größer als die Zellenbreite ist.|
 | [default_edit_language](/cells/de/python-net/aspose.cells/xpssaveoptions/default_edit_language) | Ruft die Standardbearbeitungssprache ab oder legt sie fest.|
-| [sheet_set](/cells/de/python-net/aspose.cells/xpssaveoptions/sheet_set) |Ruft die zu rendernden Blätter ab oder legt sie fest. Standardmäßig sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).|
+| [sheet_set](/cells/de/python-net/aspose.cells/xpssaveoptions/sheet_set) |Ruft die zu rendernden Blätter ab oder legt diese fest. Standard sind alle sichtbaren Blätter in der Arbeitsmappe: [SheetSet.visible](/cells/de/python-net/aspose.cells.rendering/sheetset#visible).|
 | [draw_object_event_handler](/cells/de/python-net/aspose.cells/xpssaveoptions/draw_object_event_handler) | Implementiert diese Schnittstelle, um DrawObject und Bound beim Rendern abzurufen.|
 | [page_saving_callback](/cells/de/python-net/aspose.cells/xpssaveoptions/page_saving_callback) | Steuerung/Fortschritt des Seitenspeichervorgangs anzeigen.|
 

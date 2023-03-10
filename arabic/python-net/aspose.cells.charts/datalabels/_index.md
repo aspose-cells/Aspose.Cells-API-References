@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabels الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -29,7 +29,7 @@ is_root: false
 | [text_font](/cells/ar/python-net/aspose.cells.charts/datalabels/text_font) | الحصول على عنصر [ChartFrame.font](/cells/ar/python-net/aspose.cells.charts/chartframe#font) لعنصر ChartFrame المحدد.|
 | [text_options](/cells/ar/python-net/aspose.cells.charts/datalabels/text_options) | الحصول على خيارات النص وتعيينها.|
 | [font](/cells/ar/python-net/aspose.cells.charts/datalabels/font) | يحصل على خط DataLabels ؛|
-| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/datalabels/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.|
+| [auto_scale_font](/cells/ar/python-net/aspose.cells.charts/datalabels/auto_scale_font) | صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.|
 | [background_mode](/cells/ar/python-net/aspose.cells.charts/datalabels/background_mode) | الحصول على وضبط وضع عرض الخلفية|
 | [background](/cells/ar/python-net/aspose.cells.charts/datalabels/background) | الحصول على وضبط وضع عرض الخلفية|
 | [is_automatic_size](/cells/ar/python-net/aspose.cells.charts/datalabels/is_automatic_size) | يشير إلى ما إذا كان حجم إطار المخطط تلقائيًا أم لا.|
@@ -45,7 +45,7 @@ is_root: false
 | [default_width](/cells/ar/python-net/aspose.cells.charts/datalabels/default_width) | يمثل عرض الموضع الافتراضي|
 | [default_height](/cells/ar/python-net/aspose.cells.charts/datalabels/default_height) | يمثل ارتفاع الموضع الافتراضي|
 | [is_auto_text](/cells/ar/python-net/aspose.cells.charts/datalabels/is_auto_text) | يشير إلى أن النص تم إنشاؤه تلقائيًا.|
-| [is_deleted](/cells/ar/python-net/aspose.cells.charts/datalabels/is_deleted) | يشير إلى ما إذا تم حذف تسمية البيانات هذه.|
+| [is_deleted](/cells/ar/python-net/aspose.cells.charts/datalabels/is_deleted) | يشير إلى ما إذا تم حذف تسميات البيانات هذه.|
 | [text_horizontal_alignment](/cells/ar/python-net/aspose.cells.charts/datalabels/text_horizontal_alignment) | الحصول على المحاذاة الأفقية للنص وتعيينها.|
 | [text_vertical_alignment](/cells/ar/python-net/aspose.cells.charts/datalabels/text_vertical_alignment) |الحصول على المحاذاة الرأسية للنص أو تعيينها.|
 | [rotation_angle](/cells/ar/python-net/aspose.cells.charts/datalabels/rotation_angle) | يمثل زاوية استدارة النص.|
@@ -56,13 +56,13 @@ is_root: false
 | [reading_order](/cells/ar/python-net/aspose.cells.charts/datalabels/reading_order) | يمثل ترتيب قراءة النص.|
 | [direction_type](/cells/ar/python-net/aspose.cells.charts/datalabels/direction_type) | الحصول على اتجاه النص وتحديده.|
 | [is_text_wrapped](/cells/ar/python-net/aspose.cells.charts/datalabels/is_text_wrapped) | الحصول على أو تحديد قيمة تشير إلى ما إذا كان النص ملتفًا أم لا.|
-| [is_resize_shape_to_fit_text](/cells/ar/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | الحصول على أو تحديد ما إذا كان يجب أن يكون الشكل مناسبًا تلقائيًا ليحتوي بالكامل على النص الموصوف بداخله.<br/> عندما يتم تحجيم النص داخل الشكل ليحتوي على كل النص الموجود بداخله.|
-| [show_value](/cells/ar/python-net/aspose.cells.charts/datalabels/show_value) | يمثل سلوك عرض قيم تسمية بيانات المخطط المحدد. صحيح يعرض القيم. خطأ للإخفاء.|
+| [is_resize_shape_to_fit_text](/cells/ar/python-net/aspose.cells.charts/datalabels/is_resize_shape_to_fit_text) | الحصول على أو تحديد ما إذا كان يجب أن يكون الشكل مناسبًا تلقائيًا ليحتوي بالكامل على النص الموصوف بداخله. التركيب التلقائي هو<br/> عندما يتم تحجيم النص داخل الشكل ليحتوي على كل النص الموجود بداخله.|
+| [show_value](/cells/ar/python-net/aspose.cells.charts/datalabels/show_value) | يمثل سلوك عرض قيم تسمية بيانات المخطط المحدد. يعرض صحيح القيم. خطأ للاختباء.|
 | [show_cell_range](/cells/ar/python-net/aspose.cells.charts/datalabels/show_cell_range) | يشير إلى ما إذا كان يتم إظهار نطاق الخلايا كتسميات بيانات.|
-| [show_percentage](/cells/ar/python-net/aspose.cells.charts/datalabels/show_percentage) | يمثل سلوك عرض قيمة النسبة المئوية لتسمية بيانات المخطط المحدد. True يعرض قيمة النسبة المئوية. خطأ للإخفاء.|
-| [show_bubble_size](/cells/ar/python-net/aspose.cells.charts/datalabels/show_bubble_size) | يمثل سلوك عرض قيمة النسبة المئوية لتسمية بيانات المخطط المحدد. True يعرض قيمة النسبة المئوية. خطأ للإخفاء.|
-| [show_category_name](/cells/ar/python-net/aspose.cells.charts/datalabels/show_category_name) | يمثل سلوك عرض اسم فئة تسمية البيانات للمخطط المحدد. صحيح أن عرض اسم الفئة لتسميات البيانات على الرسم البياني. خطأ للإخفاء.|
-| [show_series_name](/cells/ar/python-net/aspose.cells.charts/datalabels/show_series_name) | إرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات على مخطط.<br/>صحيح لإظهار اسم المسلسل. خطأ للاختباء.|
+| [show_percentage](/cells/ar/python-net/aspose.cells.charts/datalabels/show_percentage) | يمثل سلوك عرض قيمة النسبة المئوية لتسمية بيانات الرسم البياني المحدد. يعرض صحيح قيمة النسبة المئوية. خطأ للاختباء.|
+| [show_bubble_size](/cells/ar/python-net/aspose.cells.charts/datalabels/show_bubble_size) | يمثل سلوك عرض قيمة النسبة المئوية لتسمية بيانات الرسم البياني المحدد. يعرض صحيح قيمة النسبة المئوية. خطأ للاختباء.|
+| [show_category_name](/cells/ar/python-net/aspose.cells.charts/datalabels/show_category_name) | يمثل سلوك عرض اسم فئة تسمية البيانات للمخطط المحدد. صحيح أن عرض اسم الفئة لتسميات البيانات على المخطط. خطأ للاختباء.|
+| [show_series_name](/cells/ar/python-net/aspose.cells.charts/datalabels/show_series_name) | إرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات على مخطط.<br/>صحيح أن تظهر اسم المسلسل. خطأ للاختباء.|
 | [show_legend_key](/cells/ar/python-net/aspose.cells.charts/datalabels/show_legend_key) | يمثل سلوك عرض مفتاح وسيلة إيضاح تسمية بيانات المخطط المحدد.<br/> صواب إذا كان مفتاح وسيلة إيضاح تسمية البيانات مرئيًا.|
 | [number_format](/cells/ar/python-net/aspose.cells.charts/datalabels/number_format) | يمثل سلسلة التنسيق لكائن DataLabels.|
 | [number](/cells/ar/python-net/aspose.cells.charts/datalabels/number) | الحصول على تنسيق الأرقام المدمج وتعيينه.|
@@ -83,7 +83,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

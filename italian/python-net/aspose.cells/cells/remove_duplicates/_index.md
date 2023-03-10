@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo remove_duplicates
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -31,7 +31,7 @@ def remove_duplicates(self, start_row, start_column, end_row, end_column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | La fila di partenza.|
 | start_column | int | La colonna iniziale|
@@ -50,7 +50,7 @@ def remove_duplicates(self, start_row, start_column, end_row, end_column, has_he
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | start_row | int | La fila di partenza.|
 | start_column | int | La colonna iniziale|

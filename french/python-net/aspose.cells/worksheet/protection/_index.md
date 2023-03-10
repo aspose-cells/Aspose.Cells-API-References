@@ -1,4 +1,4 @@
-﻿---
+---
 title: protection propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection propriété
 
-Représente les différents types d'options protection disponibles pour une feuille de calcul.
+Représente les différents types d'options protection disponibles pour une feuille de calcul. Prend en charge les options avancées protection dans ExcelXP et les versions supérieures.
 
 ###  Remarques
 

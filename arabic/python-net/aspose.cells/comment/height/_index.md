@@ -1,4 +1,4 @@
-﻿---
+---
 title: height الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height الملكية
 
-يمثل ارتفاع التعليق بوحدات البكسل.
+يمثل ارتفاع التعليق بوحدة البكسل.
 
-###  أمثلة
+###  مثال
 
 ```python
 

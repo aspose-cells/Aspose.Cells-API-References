@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_3d недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_3d недвижимость
 
-Указывает, является ли диаграмма трехмерной диаграммой.
+Указывает, является ли диаграмма трехмерной.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: height propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente le height de forme, en unité de pixel.
 
-###  Exemples
+###  Exemple
 
 ```python
 

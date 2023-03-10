@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_background
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,13 +18,13 @@ def set_background(self, picture_data):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | picture_data | bytes | Dati immagine.|
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto.
-Utilizzare la proprietà Worksheet.BackgroundImage.
+NOTA: questo membro è ora obsoleto. Invece,
+si prega di utilizzare la proprietà Worksheet.BackgroundImage.
  Questa proprietà verrà rimossa 12 mesi dopo da agosto 2016.
 Aspose si scusa per gli eventuali disagi causati.
 

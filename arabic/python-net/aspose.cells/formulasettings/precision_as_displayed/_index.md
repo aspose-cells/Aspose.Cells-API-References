@@ -1,4 +1,4 @@
-﻿---
+---
 title: precision_as_displayed الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

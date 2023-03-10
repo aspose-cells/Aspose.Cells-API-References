@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_license yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/license/set_license/
 is_root: false
 ---
 ##  set_license(license_name) {#str}
-Bileşenleri lisanslar.
+Bileşeni lisanslar.
 
 
 
@@ -18,12 +18,12 @@ def set_license(self, license_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | license_name | str |  |
 ###  Notlar
 
-Lisansı aşağıdaki konumlarda bulmaya çalışın:
+Lisansı aşağıdaki konumlarda bulmaya çalışır:
 
 
 1. Açık yol.
@@ -41,14 +41,14 @@ Lisansı aşağıdaki konumlarda bulmaya çalışın:
 5. İstemcinin çağrı derlemesinde katıştırılmış bir kaynak.
 
 
-**notlar:** .NET Kompakt Çerçeve üzerinde, lisansı yalnızca şu konumlarda bulmaya çalışır:
+**Not:** .NET Kompakt Çerçeve üzerinde, lisansı yalnızca şu konumlarda bulmaya çalışır:
 
 
 1. Açık yol.
 
 
 2. İstemcinin çağrı derlemesinde katıştırılmış bir kaynak.
-###  örnekler
+###  Örnek
 
 
 Bu örnekte, MyLicense.lic adlı bir lisans dosyası bulunmaya çalışılacaktır.
@@ -70,7 +70,7 @@ Değerlendirme moduna geçmek için boş bir dize kullanın.
 
 
 ##  set_license(stream) {#io.RawIOBase}
-Bileşenleri lisanslar.
+Bileşeni lisanslar.
 
 
 
@@ -80,13 +80,13 @@ def set_license(self, stream):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | stream | io.RawIOBase | Lisansı içeren bir akış.|
 ###  Notlar
 
 Akıştan lisans yüklemek için bu yöntemi kullanın.
-###  örnekler
+###  Örnek
 
 
 ```python

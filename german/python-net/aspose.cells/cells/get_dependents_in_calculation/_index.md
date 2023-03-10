@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_dependents_in_calculation Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/get_dependents_in_calculation/
 is_root: false
 ---
 ##  get_dependents_in_calculation(row, column, recursive) {#int-int-bool}
-Ruft alle Zellen ab, deren berechnetes Ergebnis von bestimmten Zellen abhängt.
+Ruft alle Zellen ab, deren berechnetes Ergebnis von einer bestimmten Zelle abhängt.
 
 
 ###  Kehrt zurück

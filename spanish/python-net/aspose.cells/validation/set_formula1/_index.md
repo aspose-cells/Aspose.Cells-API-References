@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_formula1 método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_formula1(self, formula, is_r1c1, is_local):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | formula | str |El valor o la expresión asociada con esta condición de formato.|
 | is_r1c1 | bool | Si la fórmula es la fórmula R1C1.|

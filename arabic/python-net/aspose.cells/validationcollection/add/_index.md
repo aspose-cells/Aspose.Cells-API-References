@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -24,7 +24,7 @@ def add(self):
 
 ###  ملاحظات
 
-ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
 الرجاء استخدام طريقة ValidationCollection.Add (CellArea).
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ كانون الثاني (يناير) 2015.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
@@ -44,7 +44,7 @@ def add(self, ca):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | ca | [CellArea](/cells/ar/python-net/aspose.cells/cellarea) | المنطقة تحتوي على هذا التحقق من الصحة.|
 

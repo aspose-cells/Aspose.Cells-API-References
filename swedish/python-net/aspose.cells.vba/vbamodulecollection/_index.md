@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModuleCollection klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -23,7 +23,7 @@ Typen VbaModuleCollection avslöjar följande medlemmar:
 ###  Metoder
 | Metod| Beskrivning|
 | :- | :- |
-| [add(sheet)](/cells/sv/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Lägger till moduler för ett kalkylblad.|
+| [add(sheet)](/cells/sv/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Lägger till modul för ett kalkylblad.|
 | [add(type, name)](/cells/sv/python-net/aspose.cells.vba/vbamodulecollection/add/#VbaModuleType-str) | Lägger till modul.|
 | [copy_to(array)](/cells/sv/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#list) | Kopierar hela arraylistan till en kompatibel endimensionell arraylista, med början i början av målarraylistan.|
 | [copy_to(index, array, array_index, count)](/cells/sv/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#int-list-int-int) |Kopierar ett intervall av element från arraylistan till en kompatibel endimensionell arraylista, med början vid det angivna indexet för målarraylistan.|

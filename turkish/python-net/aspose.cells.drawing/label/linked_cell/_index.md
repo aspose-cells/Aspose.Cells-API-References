@@ -1,4 +1,4 @@
-﻿---
+---
 title: linked_cell mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Denetimin değerine bağlı çalışma sayfası aralığını alır veya ayarlar.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: linked_cell propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el rango de la hoja de cálculo vinculado al valor del control.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

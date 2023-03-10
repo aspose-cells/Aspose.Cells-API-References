@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo add_icon_filter
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def add_icon_filter(self, field_index, icon_set_type, icon_id):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | field_index | int | L'intero offset del campo su cui si desidera basare il filtro<br/> (da sinistra dell'elenco; il campo più a sinistra è il campo 0).|
 | icon_set_type | [IconSetType](/cells/it/python-net/aspose.cells/iconsettype) | Il tipo di set di icone.|

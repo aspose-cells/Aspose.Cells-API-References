@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge_files yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,14 +18,14 @@ def merge_files(self, files, cached_file, dest_file):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | files | list | Dosyalar.|
 | cached_file | str | Önbelleğe alınmış dosya.|
 | dest_file | str | Hedef dosya.|
 ###  Notlar
 
-Bu yöntem yalnızca verilerin, stillerin ve formüllerin yeni dosyada birleştirilmesini destekler.
+Bu yöntem yalnızca veri, stil ve formüllerin yeni dosyada birleştirilmesini destekler.
 Önbelleğe alınan dosya, bazı geçici verileri depolamak için kullanılır.
 
 

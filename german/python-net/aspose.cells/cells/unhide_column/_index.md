@@ -1,4 +1,4 @@
-﻿---
+---
 title: unhide_column Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells/cells/unhide_column/
 is_root: false
 ---
 ##  unhide_column(column, width) {#int-float}
-Eine Spalte einblenden
+Blendet eine Spalte ein
 
 
 

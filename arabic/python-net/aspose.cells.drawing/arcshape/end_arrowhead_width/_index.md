@@ -1,4 +1,4 @@
-﻿---
+---
 title: end_arrowhead_width الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
- ملاحظة: هذا العضو قد عفا عليه الزمن الآن.
+ ملاحظة: هذا العضو قد عفا عليه الزمن الآن. بدلاً من،
  الرجاء استخدام خاصية Shape.Line.EndArrowheadWidth.
  ستتم إزالة هذا العقار بعد 12 شهرًا منذ أغسطس 2016.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.

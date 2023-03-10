@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoNumberedBulletValue Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue Klasse
-Stellt automatisch nummerierte Aufzählungszeichen dar.
+Stellt automatisch nummeriertes Aufzählungszeichen dar.
 
 
 

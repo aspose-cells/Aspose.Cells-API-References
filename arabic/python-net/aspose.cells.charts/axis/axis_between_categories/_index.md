@@ -1,4 +1,4 @@
-﻿---
+---
 title: axis_between_categories الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

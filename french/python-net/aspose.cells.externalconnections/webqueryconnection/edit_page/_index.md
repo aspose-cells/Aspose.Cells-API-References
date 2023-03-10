@@ -1,4 +1,4 @@
-﻿---
+---
 title: edit_page propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,14 +9,14 @@ is_root: false
 ---
 ##  edit_page propriété
 
-L'URL de la page Web accessible à l'utilisateur affichant les données de la requête Web.
+L'URL de la page Web accessible à l'utilisateur affichant les données de la requête Web. Cette URL est persistante
 dans le cas où sourceData="true" et url ont été redirigés pour référencer un fichier XML.
 Ensuite, la page destinée à l'utilisateur peut être affichée dans l'interface utilisateur et les données XML peuvent être récupérées
 Dans les coulisses.
 
 ###  Remarques
 
- REMARQUE : Cette propriété est désormais obsolète.
+ REMARQUE : Cette propriété est désormais obsolète. Plutôt,
 veuillez utiliser la propriété WebQueryConnection.EditWebPage.
  Cette propriété sera supprimée 12 mois plus tard depuis octobre 2017.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

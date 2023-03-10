@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup_columns metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def ungroup_columns(self, first_index, last_index):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | first_index | int | Det första kolumnindexet som ska delas upp.|
 | last_index | int | Det sista kolumnindexet som ska delas upp.|

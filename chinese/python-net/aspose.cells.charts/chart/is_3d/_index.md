@@ -1,6 +1,6 @@
-﻿---
+---
 title: is_3d 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 310
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## is_3d 属性
 
-指示图表是否为 3D 图表。
+指示图表是否为 3d 图表。
 ### 定义：
 ```python
 @property

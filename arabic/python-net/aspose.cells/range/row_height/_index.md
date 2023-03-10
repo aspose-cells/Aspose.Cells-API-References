@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_height الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

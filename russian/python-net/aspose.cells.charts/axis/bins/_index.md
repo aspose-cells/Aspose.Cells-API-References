@@ -1,4 +1,4 @@
-﻿---
+---
 title: bins недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bins недвижимость
 
-Представляет bins на оси графика (гистограмма/Парето).
+Представляет bins на оси диаграммы (гистограммы/Парето).
 ###  Определение:
 ```python
 @property

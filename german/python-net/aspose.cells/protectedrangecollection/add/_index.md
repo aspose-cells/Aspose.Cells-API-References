@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def add(self, name, start_row, start_column, end_row, end_column):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| name | str | Bereichstitel: Dieser wird als Beschreibung verwendet, nicht als benannte Bereichsdefinition.|
+| name | str | Bereichstitel. Dies wird als Deskriptor verwendet, nicht als benannte Bereichsdefinition.|
 | start_row | int | Anfangszeilenindex des Bereichs.|
 | start_column | int | Anfangsspaltenindex des Bereichs.|
 | end_row | int | Endzeilenindex des Bereichs.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scale_font الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_scale_font الملكية
 
-صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن.
+صواب إذا كان النص في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية.
 ###  تعريف:
 ```python
 @property

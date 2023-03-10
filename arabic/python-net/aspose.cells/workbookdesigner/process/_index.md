@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة process
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -31,7 +31,7 @@ def process(self, is_preserved):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_preserved | bool | صحيح إذا تم الاحتفاظ بالعلامة الذكية غير المعروفة.|
 
@@ -47,7 +47,7 @@ def process(self, sheet_index, is_preserved):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | sheet_index | int | فهرس ورقة العمل.|
 | is_preserved | bool | صحيح إذا تم الاحتفاظ بالعلامة الذكية غير المعروفة.|

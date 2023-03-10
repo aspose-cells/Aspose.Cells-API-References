@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_qualifier fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  text_qualifier fastighet
 
-Anger textkvalificeraren för cellvärden. Standardkvalificeraren är '"'.
+Anger textkvalificeraren för cellvärden. Standardkvalificeraren är '''.
 
 ###  Anmärkningar
 

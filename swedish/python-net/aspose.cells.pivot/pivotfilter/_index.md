@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFilter klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ Typen PivotFilter avslöjar följande medlemmar:
 | [measure_fld_index](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/measure_fld_index) | Hämtar mätfältsindex för pivotfiltret.|
 | [member_property_field_index](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/member_property_field_index) | Hämtar medlemsegenskapsfältindex för pivotfiltret.|
 | [name](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/name) | Hämtar namnet på pivotfiltret.|
-| [evaluation_order](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/evaluation_order) | Hämtar utvärderingsordningen för pivotfiltret.|
+| [evaluation_order](/cells/sv/python-net/aspose.cells.pivot/pivotfilter/evaluation_order) | Får utvärderingsordningen för pivotfiltret.|
 
 
 

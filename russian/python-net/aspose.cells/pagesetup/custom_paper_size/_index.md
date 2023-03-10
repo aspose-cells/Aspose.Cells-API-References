@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_paper_size метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def custom_paper_size(self, width, height):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | width | float | Ширина бумаги.|
 | height | float | Высота бумаги.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe IconSet
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -21,14 +21,14 @@ Il tipo IconSet espone i membri seguenti:
 | :- | :- |
 | [cf_icons](/cells/it/python-net/aspose.cells/iconset/cf_icons) | Prendi il [ConditionalFormattingIcon](/cells/it/python-net/aspose.cells/conditionalformattingicon) dalla collezione|
 | [cfvos](/cells/it/python-net/aspose.cells/iconset/cfvos) | Ottenere l'istanza CFValueObjects.|
-| [type](/cells/it/python-net/aspose.cells/iconset/type) | Ottenere o impostare il tipo di set di icone da visualizzare.<br/>L'impostazione del tipo controllerà automaticamente se il conteggio di Cfvos corrente è<br/> accordo con il nuovo tipo.Se non accordo, i vecchi Cfvo saranno puliti e<br/> verranno aggiunti Cfvo predefiniti.|
+| [type](/cells/it/python-net/aspose.cells/iconset/type) | Ottenere o impostare il tipo di set di icone da visualizzare.<br/>L'impostazione del tipo controllerà automaticamente se il conteggio di Cfvos corrente è<br/> accordo con il nuovo tipo. Se non accordo, i vecchi Cfvo saranno ripuliti e<br/> verranno aggiunti Cfvo predefiniti.|
 | [is_custom](/cells/it/python-net/aspose.cells/iconset/is_custom) | Indica se il set di icone è personalizzato.<br/> Il valore predefinito è false.|
-| [show_value](/cells/it/python-net/aspose.cells/iconset/show_value) | Ottieni o imposta il flag che indica se mostrare i valori delle celle su cui è applicato questo set di icone.<br/> Il valore predefinito è vero.|
+| [show_value](/cells/it/python-net/aspose.cells/iconset/show_value) | Ottenere o impostare il flag che indica se mostrare i valori delle celle su cui è applicato questo set di icone.<br/> Il valore predefinito è vero.|
 | [reverse](/cells/it/python-net/aspose.cells/iconset/reverse) | Ottieni o imposta il flag che indica se invertire l'ordine predefinito delle icone in questo set di icone.<br/> Il valore predefinito è false.|
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea, FormatConditionType, IconSetType, Workbook

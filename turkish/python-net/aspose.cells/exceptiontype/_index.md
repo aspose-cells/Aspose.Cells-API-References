@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExceptionType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -29,7 +29,7 @@ ExceptionType türü aşağıdaki üyeleri gösterir:
 | LICENSE | Lisansla ilgili hatalar.|
 | LIMITATION |MS Excel sınırlama hatası dışında.|
 | PAGE_SETUP | Geçersiz sayfa yapısı ayarı.|
-| PIVOT_TABLE | Geçersiz pivot Tablo ayarı.|
+| PIVOT_TABLE | Geçersiz pivotTable ayarı.|
 | SHAPE | Geçersiz çizim nesnesi ayarı.|
 | SPARKLINE | Geçersiz mini grafik nesne ayarı.|
 | SHEET_NAME | Geçersiz çalışma sayfası adı.|
@@ -37,9 +37,9 @@ ExceptionType türü aşağıdaki üyeleri gösterir:
 | INTERRUPTED | Süreç kesintiye uğradı.|
 | IO | Dosya geçersiz.|
 | PERMISSION | Bu dosyayı açmak için izin gerekiyor.|
-| UNSUPPORTED_FEATURE | Desteklenmeyen özellikler.|
+| UNSUPPORTED_FEATURE | Desteklenmeyen özellik.|
 | UNSUPPORTED_STREAM | Desteklenmeyen akış açılacak.|
-| UNDISCLOSED_INFORMATION | Dosyalar bazı açıklanmayan bilgiler içerir.|
+| UNDISCLOSED_INFORMATION | Dosyalar bazı açıklanmayan bilgiler içeriyor.|
 | FILE_CORRUPTED | Dosya içeriği bozuk.|
 
 

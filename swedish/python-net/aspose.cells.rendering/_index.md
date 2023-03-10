@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.rendering
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /sv/python-net/aspose.cells.rendering/
 is_root: false
 ---
- De**Aspose.Cells.Rendering**namnutrymme tillhandahåller klasser för att rendera bilder och pdf-filer.
+ De**Aspose.Cells.Rendering**namnutrymme tillhandahåller klasser för att rendera bild och pdf.
 
 ###  Klasser
 | Klass| Beskrivning|
@@ -19,7 +19,7 @@ is_root: false
 | [PageEndSavingArgs](/cells/sv/python-net/aspose.cells.rendering/pageendsavingargs) | Information för en sida avslutar sparprocessen.|
 | [PageSavingArgs](/cells/sv/python-net/aspose.cells.rendering/pagesavingargs) | Info för en process för att spara sidan.|
 | [PageStartSavingArgs](/cells/sv/python-net/aspose.cells.rendering/pagestartsavingargs) | Information för en sida börjar sparas.|
-| [PdfBookmarkEntry](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry är en post i pdfbookmark.<br/>om textegenskapen för aktuell instans är null eller "",<br/> aktuell instans kommer att döljas och barn kommer att infogas på aktuell nivå.|
+| [PdfBookmarkEntry](/cells/sv/python-net/aspose.cells.rendering/pdfbookmarkentry) | PdfBookmarkEntry är en post i pdf-bokmärke.<br/>om textegenskapen för aktuell instans är null eller "",<br/> aktuell instans kommer att döljas och barn kommer att infogas på aktuell nivå.|
 | [SheetPrintingPreview](/cells/sv/python-net/aspose.cells.rendering/sheetprintingpreview) | Förhandsvisning av arbetsbladsutskrift.|
 | [SheetRender](/cells/sv/python-net/aspose.cells.rendering/sheetrender) | Representerar en kalkylbladsrendering som kan rendera kalkylblad till olika bilder som (BMP, PNG, JPEG, TIFF..)<br/> Konstruktorn för denna klass måste användas efter modifiering av sidinställningar, cellstil.|
 | [SheetSet](/cells/sv/python-net/aspose.cells.rendering/sheetset) | Beskriver en uppsättning ark.|

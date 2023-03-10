@@ -1,4 +1,4 @@
-﻿---
+---
 title: locked_aspect_ratio mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 En boy oranının kilitlenip kilitlenmediğini gösterir.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: SeriesCollection类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 240
@@ -17,8 +17,8 @@ SeriesCollection 类型公开了以下成员：
 ### 特性
 |属性|描述|
 | :- | :- |
-| [category_data](/cells/zh/python-net/aspose.cells.charts/seriescollection/category_data) |获取或设置类别 Axis 值的范围。<br/>它可以是一系列单元格（例如“d1:e10”），<br/>或一系列值（例如，"{2,6,8,10}"）。|
-| [second_category_data](/cells/zh/python-net/aspose.cells.charts/seriescollection/second_category_data) |获取或设置第二类 Axis 值的范围。<br/>它可以是一系列单元格（例如“d1:e10”），<br/>或一系列值（例如，"{2,6,8,10}"）。<br/>仅当某些 ASeries 在第二个轴上绘制时才有效。|
+| [category_data](/cells/zh/python-net/aspose.cells.charts/seriescollection/category_data) |获取或设置类别 Axis 值的范围。<br/>它可以是一系列单元格（例如“d1:e10”），<br/>或一系列值（例如，“{2,6,8,10}”）。|
+| [second_category_data](/cells/zh/python-net/aspose.cells.charts/seriescollection/second_category_data) |获取或设置第二类 Axis 值的范围。<br/>它可以是一系列单元格（例如“d1:e10”），<br/>或一系列值（例如，“{2,6,8,10}”）。<br/>仅当一些 ASerieses 在第二个轴上绘制时才有效。|
 | [is_color_varied](/cells/zh/python-net/aspose.cells.charts/seriescollection/is_color_varied) |表示点的颜色是否变化。|
 | [capacity](/cells/zh/python-net/aspose.cells.charts/seriescollection/capacity) |获取或设置数组列表可以包含的元素数。|
 

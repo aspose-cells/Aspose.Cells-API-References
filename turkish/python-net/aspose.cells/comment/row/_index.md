@@ -1,4 +1,4 @@
-﻿---
+---
 title: row mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Yorumun row dizinini alır.
 
-###  örnekler
+###  Örnek
 
 ```python
 

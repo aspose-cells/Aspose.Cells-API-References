@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_row método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,9 +18,9 @@ def start_row(self, row):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| row | [Row](/cells/es/python-net/aspose.cells/row) | Objeto de fila para la implementación para completar datos. Su índice de fila es el valor devuelto de la última llamada de [LightCellsDataProvider.next_row()](/cells/es/python-net/aspose.cells/lightcellsdataprovider/next_row).<br/>Si la fila se ha inicializado en el modelo de celdas internas, se utilizará el objeto de fila existente.<br/> De lo contrario, se utilizará un objeto Fila temporal para la implementación para completar los datos.|
+| row | [Row](/cells/es/python-net/aspose.cells/row) | Objeto de fila para implementación para completar datos. Su índice de fila es el valor devuelto de la última llamada de [LightCellsDataProvider.next_row()](/cells/es/python-net/aspose.cells/lightcellsdataprovider/next_row).<br/>Si la fila se ha inicializado en el modelo de celdas internas, se utilizará el objeto de fila existente.<br/> De lo contrario, se utilizará un objeto Fila temporal para la implementación para completar los datos.|
 ###  Observaciones
 
 Se llamará al comienzo de guardar una fila y los datos de sus celdas.

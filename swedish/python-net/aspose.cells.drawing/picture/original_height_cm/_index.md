@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_height_cm fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  original_height_cm fastighet
 
-Hämtar bildens ursprungliga höjd, i enheter av centimeter.
+Får bildens ursprungliga höjd, i centimeterenhet.
 
 ###  Exempel
 

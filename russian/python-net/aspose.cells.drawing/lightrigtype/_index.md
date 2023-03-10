@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightRigType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,16 +24,16 @@ is_root: false
 | FLAT | Плоский|
 | FLOOD | Наводнение|
 | FREEZING | Замораживание|
-| GLOW | светиться|
+| GLOW | Светиться|
 | HARSH | Жесткий|
 | LEGACY_FLAT1 | НаследиеКвартира1|
-| LEGACY_FLAT2 | Наследие Квартира2|
-| LEGACY_FLAT3 | Наследие Квартира 3|
-| LEGACY_FLAT4 | Наследие Квартира 4|
-| LEGACY_HARSH1 | Наследие Суровый1|
-| LEGACY_HARSH2 | Наследие Суровый2|
-| LEGACY_HARSH3 | Наследие Суровый3|
-| LEGACY_HARSH4 | Наследие Суровый4|
+| LEGACY_FLAT2 | НаследиеКвартира2|
+| LEGACY_FLAT3 | НаследиеКвартира3|
+| LEGACY_FLAT4 | LegacyFlat4|
+| LEGACY_HARSH1 | НаследиеHarsh1|
+| LEGACY_HARSH2 | НаследиеHarsh2|
+| LEGACY_HARSH3 | НаследиеHarsh3|
+| LEGACY_HARSH4 | НаследиеHarsh4|
 | LEGACY_NORMAL1 | НаследиеОбычный1|
 | LEGACY_NORMAL2 | НаследиеОбычный2|
 | LEGACY_NORMAL3 | НаследиеОбычный3|
@@ -42,8 +42,8 @@ is_root: false
 | SOFT | Мягкий|
 | SUNRISE | Восход|
 | SUNSET | Закат|
-| THREE_POINT | Три балла|
-| TWO_POINT | Два очка|
+| THREE_POINT | Три точки|
+| TWO_POINT | Две точки|
 | NONE | Нет легкой установки.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_text_of_data_field_header yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

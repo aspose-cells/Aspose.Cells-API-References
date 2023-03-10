@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_default_encrypted proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Indica se crittografare la cartella di lavoro con la password predefinita se Str
 
 ###  Osservazioni
 
-Il valore predefinito ora è false. È lo stesso di MS Excel 2013.
+Il valore predefinito ora è false. È uguale a MS Excel 2013.
 ###  Definizione:
 ```python
 @property

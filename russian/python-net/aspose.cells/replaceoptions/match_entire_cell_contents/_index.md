@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_entire_cell_contents недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  match_entire_cell_contents недвижимость
 
-Указывает, следует ли сопоставлять все содержимое ячейки
+Указывает, следует ли сопоставлять все содержимое ячеек
 ###  Определение:
 ```python
 @property

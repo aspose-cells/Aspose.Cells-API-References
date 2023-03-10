@@ -1,4 +1,4 @@
-﻿---
+---
 title: init_stream yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,7 +18,7 @@ def init_stream(self, options):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | options | [StreamProviderOptions](/cells/tr/python-net/aspose.cells/streamprovideroptions) |  |
 

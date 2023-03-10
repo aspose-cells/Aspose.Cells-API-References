@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_as_html_string fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

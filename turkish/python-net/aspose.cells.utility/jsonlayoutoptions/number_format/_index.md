@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_format mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  number_format mülk
 
-Sayısal değerlerin biçimini alır ve ayarlar.
+Sayısal değerin biçimini alır ve ayarlar.
 ###  Tanım:
 ```python
 @property

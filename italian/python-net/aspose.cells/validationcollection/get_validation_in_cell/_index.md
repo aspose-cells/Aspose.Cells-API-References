@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_validation_in_cell
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/validationcollection/get_validation_in_cell/
 is_root: false
 ---
 ##  get_validation_in_cell(row, column) {#int-int}
-Ottiene la convalida applicata a una determinata cella.
+Ottiene la convalida applicata alla cella specificata.
 
 
 ###  ritorna
@@ -22,7 +22,7 @@ def get_validation_in_cell(self, row, column):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | row | int | L'indice di riga.|
 | column | int | L'indice di colonna.|

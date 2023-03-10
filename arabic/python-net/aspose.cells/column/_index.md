@@ -1,4 +1,4 @@
-﻿---
+---
 title: Column الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [index](/cells/ar/python-net/aspose.cells/column/index) | يحصل على فهرس هذا العمود.|
-| [width](/cells/ar/python-net/aspose.cells/column/width) | الحصول على عرض العمود وتعيينه بوحدات من الأحرف.|
+| [width](/cells/ar/python-net/aspose.cells/column/width) | الحصول على عرض العمود وتعيينه بوحدة من الأحرف.|
 | [group_level](/cells/ar/python-net/aspose.cells/column/group_level) |يحصل على مستوى المجموعة للعمود.|
 | [is_hidden](/cells/ar/python-net/aspose.cells/column/is_hidden) | يشير إلى ما إذا كان العمود مخفيًا.|
 | [has_custom_style](/cells/ar/python-net/aspose.cells/column/has_custom_style) | يشير إلى ما إذا كان هذا العمود يحتوي على إعدادات نمط مخصصة (تختلف عن الإعداد الافتراضي الموروث من المصنف).|
@@ -35,7 +35,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import BackgroundType, StyleFlag, Workbook

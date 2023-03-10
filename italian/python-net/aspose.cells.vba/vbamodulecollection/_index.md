@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe VbaModuleCollection
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -23,7 +23,7 @@ Il tipo VbaModuleCollection espone i membri seguenti:
 ###  Metodi
 | Metodo| Descrizione|
 | :- | :- |
-| [add(sheet)](/cells/it/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Aggiunge moduli per un foglio di lavoro.|
+| [add(sheet)](/cells/it/python-net/aspose.cells.vba/vbamodulecollection/add/#Worksheet) |Aggiunge modulo per un foglio di lavoro.|
 | [add(type, name)](/cells/it/python-net/aspose.cells.vba/vbamodulecollection/add/#VbaModuleType-str) | Aggiunge modulo.|
 | [copy_to(array)](/cells/it/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#list) | Copia l'intero elenco di matrici in un elenco di matrici unidimensionale compatibile, a partire dall'inizio dell'elenco di matrici di destinazione.|
 | [copy_to(index, array, array_index, count)](/cells/it/python-net/aspose.cells.vba/vbamodulecollection/copy_to/#int-list-int-int) |Copia un intervallo di elementi dall'elenco di matrici a un elenco di matrici unidimensionale compatibile, a partire dall'indice specificato dell'elenco di matrici di destinazione.|
@@ -38,7 +38,7 @@ Il tipo VbaModuleCollection espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_font_compatibility fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,7 +17,7 @@ Standardvärdet är sant.
 Inaktivera den här egenskapen kan ge bättre prestanda.
 Men när standard eller specificerat teckensnitt för text/tecken inte kan användas för att återge det,
 oläsbara tecken (som block) kan förekomma i den genererade pdf-filen.
-För sådana situationer bör användaren behålla denna egenskap som sann så att
+För en sådan situation bör användaren behålla denna egenskap som sann så att
 alternativt teckensnitt kan sökas och användas för att återge texten istället;
 ###  Definition:
 ```python

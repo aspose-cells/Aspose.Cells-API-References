@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_compatibility propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility propiedad
 
-Indica si se comprueba la compatibilidad con versiones anteriores al guardar libros de trabajo.
+Indica si se comprueba la compatibilidad con versiones anteriores al guardar el libro de trabajo.
 
 ###  Observaciones
 

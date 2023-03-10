@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_properties_export fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  custom_properties_export fastighet
 
-Hämtar eller ställer in ett värde som bestämmer hur [CustomDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection) exporteras till filen PDF. Standardvärdet är Inget.
+Hämtar eller ställer in ett värde som bestämmer hur [CustomDocumentPropertyCollection](/cells/sv/python-net/aspose.cells.properties/customdocumentpropertycollection) exporteras till filen PDF. Standardvärdet är None.
 ###  Definition:
 ```python
 @property

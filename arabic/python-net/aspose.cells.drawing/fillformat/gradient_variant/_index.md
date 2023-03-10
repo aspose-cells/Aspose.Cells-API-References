@@ -1,4 +1,4 @@
-﻿---
+---
 title: gradient_variant الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -14,7 +14,7 @@ is_root: false
 
 ###  ملاحظات
 
-يمكن أن تكون قيمة فقط من 1 إلى 4 ، مطابقة لواحد من المتغيرات الأربعة في علامة التبويب التدرج في مربع الحوار Fill Effects. إذا كان النمط هو GradientStyle.FromCenter ، يمكن أن تكون وسيطة Variant 1 أو 2 فقط.
+يمكن أن تكون قيمة فقط من 1 إلى 4 ، تتوافق مع أحد المتغيرات الأربعة في علامة التبويب Gradient في مربع الحوار Fill Effects. إذا كان النمط هو GradientStyle.FromCenter ، يمكن أن تكون وسيطة Variant 1 أو 2 فقط.
 ###  تعريف:
 ```python
 @property

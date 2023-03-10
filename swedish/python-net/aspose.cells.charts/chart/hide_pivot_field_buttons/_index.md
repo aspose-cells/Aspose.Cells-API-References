@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_pivot_field_buttons fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

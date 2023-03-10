@@ -1,4 +1,4 @@
-﻿---
+---
 title: compound_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Gibt den Verbundtyp der Linie an.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import MsoLineStyle

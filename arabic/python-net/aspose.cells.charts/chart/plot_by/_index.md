@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_by الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  plot_by الملكية
 
-الحصول على وتحديد ما إذا كان سيتم الرسم بالصف أو العمود.
+الحصول على وتحديد ما إذا كان الرسم بالصف أو العمود.
 ###  تعريف:
 ```python
 @property

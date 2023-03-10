@@ -1,4 +1,4 @@
-﻿---
+---
 title: theme_color mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  theme_color mülk
 
-Tema rengini alır.
+Tema rengini alır. Yalnızca tema renk türü için geçerlidir.
 ###  Tanım:
 ```python
 @property

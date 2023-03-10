@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hyperlink الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,8 +18,8 @@ is_root: false
 | ملكية| وصف|
 | :- | :- |
 | [address](/cells/ar/python-net/aspose.cells/hyperlink/address) | يمثل عنوان الارتباط التشعبي.|
-| [text_to_display](/cells/ar/python-net/aspose.cells/hyperlink/text_to_display) | يمثل النص الذي سيتم عرضه للارتباط التشعبي المحدد.|
-| [area](/cells/ar/python-net/aspose.cells/hyperlink/area) | يحصل على نطاق الارتباطات التشعبية.|
+| [text_to_display](/cells/ar/python-net/aspose.cells/hyperlink/text_to_display) | يمثل النص الذي سيتم عرضه للارتباط التشعبي المحدد. القيمة الافتراضية هي عنوان الارتباط التشعبي.|
+| [area](/cells/ar/python-net/aspose.cells/hyperlink/area) | يحصل على نطاق الارتباط التشعبي.|
 | [screen_tip](/cells/ar/python-net/aspose.cells/hyperlink/screen_tip) | إرجاع أو تعيين نص تلميح الشاشة للارتباط التشعبي المحدد.|
 | [link_type](/cells/ar/python-net/aspose.cells/hyperlink/link_type) | يحصل على نوع الارتباط.|
 
@@ -31,7 +31,7 @@ is_root: false
 
 
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: indent_level الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  indent_level الملكية
 
-يمثل مستوى المسافة البادئة للخلية أو النطاق.
+يمثل مستوى المسافة البادئة للخلية أو النطاق. يمكن أن يكون عددًا صحيحًا فقط من 0 إلى 250.
 
 ###  ملاحظات
 

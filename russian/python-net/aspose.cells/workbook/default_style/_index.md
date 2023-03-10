@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_style недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -15,7 +15,7 @@ is_root: false
 
 Свойство DefaultStyle полезно для реализации стиля для всей книги.
 
-###  Примеры
+###  Пример
 
 Следующий код создает и создает новую рабочую книгу и устанавливает для нее значение по умолчанию [Style](/cells/ru/python-net/aspose.cells/style).
 

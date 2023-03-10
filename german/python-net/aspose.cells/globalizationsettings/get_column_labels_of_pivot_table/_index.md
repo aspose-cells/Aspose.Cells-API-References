@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_labels_of_pivot_table Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def get_column_labels_of_pivot_table(self):
 
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 verwenden Sie bitte die Methode GlobalizationSettings.GetColumnLabelsOfPivotTable().
  Diese Property wird 12 Monate später seit Dezember 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.

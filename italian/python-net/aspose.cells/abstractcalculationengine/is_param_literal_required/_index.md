@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_param_literal_required proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_param_literal_required proprietà
 
-Indica se questo motore necessita del testo letterale del parametro durante l'esecuzione del calcolo. Il valore predefinito è false.
+Indica se questo motore necessita del testo letterale del parametro durante l'esecuzione del calcolo. Il valore predefinito è falso.
 
 ###  Osservazioni
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo calculate_formula
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -34,9 +34,9 @@ def calculate_formula(self, ignore_error):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| ignore_error | bool | Indica se nascondere l'errore nel calcolo delle formule.|
+| ignore_error | bool | Indica se nascondere l'errore nel calcolo delle formule. L'errore potrebbe essere una funzione non supportata, collegamenti esterni, ecc.|
 
 
 ##  calculate_formula(options) {#CalculationOptions}
@@ -50,7 +50,7 @@ def calculate_formula(self, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | options | [CalculationOptions](/cells/it/python-net/aspose.cells/calculationoptions) | Opzioni per il calcolo|
 
@@ -66,13 +66,13 @@ def calculate_formula(self, ignore_error, custom_function):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
-| ignore_error | bool | Indica se nascondere l'errore nel calcolo delle formule.|
+| ignore_error | bool | Indica se nascondere l'errore nel calcolo delle formule. L'errore potrebbe essere una funzione non supportata, collegamenti esterni, ecc.|
 | custom_function | [ICustomFunction](/cells/it/python-net/aspose.cells/icustomfunction) | Il calcolo della formula personalizzata funziona per estendere il motore di calcolo.|
 ###  Osservazioni
 
-NOTA: questo membro è ora obsoleto.
+NOTA: questo membro è ora obsoleto. Invece,
 si prega di utilizzare il metodo CalculateFormula(CalculationOptions).
  Questo metodo verrà rimosso 12 mesi dopo da agosto 2020.
 Aspose si scusa per gli eventuali disagi causati.

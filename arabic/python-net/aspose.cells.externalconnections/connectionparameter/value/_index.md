@@ -1,4 +1,4 @@
-﻿---
+---
 title: value الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  value الملكية
 
 عددي غير صحيح value ، عدد صحيح value ، سلسلة value أو منطقي value
-لاستخدامها كمعلمة الاستعلام. يتم استخدامها فقط عندما يكون نوع المعلمة هو value.
+لاستخدامها كمعامل طلب البحث. يُستخدم فقط عندما يكون نوع المعلمة هو value.
 ###  تعريف:
 ```python
 @property

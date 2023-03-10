@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo get_builtin_table_style
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def get_builtin_table_style(self, type):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | type | [TableStyleType](/cells/it/python-net/aspose.cells.tables/tablestyletype) | Il tipo di stile di tabella integrato.|
 

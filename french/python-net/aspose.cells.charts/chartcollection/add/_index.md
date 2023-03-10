@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add(self, type, upper_left_row, upper_left_column, lower_right_row, lower_ri
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [ChartType](/cells/fr/python-net/aspose.cells.charts/charttype) | Type de graphique|
 | upper_left_row | int | Index de ligne en haut à gauche.|
@@ -46,7 +46,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [ChartType](/cells/fr/python-net/aspose.cells.charts/charttype) | Type de graphique|
 | data_range | str | Spécifie la plage de données du graphique|
@@ -56,7 +56,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | bottom_column | int | Index de la colonne en bas à droite|
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète.
+REMARQUE : ce membre est désormais obsolète. Plutôt,
 veuillez utiliser la propriété [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/fr/python-net/aspose.cells.charts/chartcollection/add).
  Cette propriété sera supprimée 12 mois plus tard depuis mai 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
@@ -76,7 +76,7 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | data | bytes | Les données du fichier de modèle de graphique (.crtx).|
 | data_range | str | Spécifie la plage de données du graphique|
@@ -102,7 +102,7 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | type | [ChartType](/cells/fr/python-net/aspose.cells.charts/charttype) | Type de graphique|
 | data_range | str | Spécifie la plage de données du graphique|

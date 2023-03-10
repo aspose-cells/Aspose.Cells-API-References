@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_calculated_field_formula método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

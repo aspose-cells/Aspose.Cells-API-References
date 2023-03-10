@@ -1,4 +1,4 @@
-﻿---
+---
 title: current_value недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

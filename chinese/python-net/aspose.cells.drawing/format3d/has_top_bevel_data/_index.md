@@ -1,6 +1,6 @@
-﻿---
+---
 title: has_top_bevel_data方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /zh/python-net/aspose.cells.drawing/format3d/has_top_bevel_data/
 is_root: false
 ---
 ##  has_top_bevel_data() {#}
-指示形状是否具有顶部斜角数据。
+指示形状是否具有顶部斜面数据。
 
 
 ### 返回

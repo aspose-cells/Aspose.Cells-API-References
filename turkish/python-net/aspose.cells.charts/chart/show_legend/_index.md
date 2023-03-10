@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_legend mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_legend mülk
 
-Grafik açıklamasının görüntülenip görüntülenmeyeceğini gösteren bir değer alır veya ayarlar.Varsayılan değer true'dur.
+Grafik açıklamasının görüntülenip görüntülenmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan doğrudur.
 ###  Tanım:
 ```python
 @property

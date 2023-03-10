@@ -1,4 +1,4 @@
-﻿---
+---
 title: equals метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Значение true, если два объекта ячейки ссылаются на одну и ту же ячейку.
+Значение true, если два объекта ячеек ссылаются на одну и ту же ячейку.
 
 
 ```python
@@ -22,7 +22,7 @@ def equals(self, cell):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | cell | [Cell](/cells/ru/python-net/aspose.cells/cell) | другой объект ячейки|
 

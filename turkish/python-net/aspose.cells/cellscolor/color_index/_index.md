@@ -1,4 +1,4 @@
-﻿---
+---
 title: color_index mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  color_index mülk
 
-Renk paletindeki renk indeksini alır ve ayarlar.
+Renk paletindeki renk indeksini alır ve ayarlar. Yalnızca indekslenmiş renk için geçerlidir.
 ###  Tanım:
 ```python
 @property

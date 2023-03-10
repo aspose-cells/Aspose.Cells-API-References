@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | position | float | موضع التوقف ، بوحدة النسبة المئوية.|
 | color | [CellsColor](/cells/ar/python-net/aspose.cells/cellscolor) | لون التوقف.|
@@ -36,7 +36,7 @@ def add(self, position, color, alpha):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | position | float | موضع التوقف ، بوحدة النسبة المئوية.|
 | color | aspose.pydrawing.Color | لون التوقف.|

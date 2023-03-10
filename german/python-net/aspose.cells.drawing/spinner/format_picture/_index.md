@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_picture Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft die Optionen des Bildformats ab und legt sie fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

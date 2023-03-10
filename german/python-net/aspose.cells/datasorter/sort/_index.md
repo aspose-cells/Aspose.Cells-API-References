@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: primary_key fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  primary_key fastighet
 
-Representerar vilken kolumn som är den primära nyckeln i datatabellen.
+Representerar vilken kolumn som är primärnyckeln i datatabellen.
 ###  Definition:
 ```python
 @property

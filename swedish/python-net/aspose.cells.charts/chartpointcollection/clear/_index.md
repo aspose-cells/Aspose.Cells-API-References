@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells.charts/chartpointcollection/clear/
 is_root: false
 ---
 ##  clear() {#}
-Ta bort alla inställningar för sjökortspunkterna.
+Ta bort all inställning av diagrampunkterna.
 
 
 

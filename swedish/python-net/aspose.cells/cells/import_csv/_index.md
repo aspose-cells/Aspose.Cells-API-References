@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_csv metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,10 +18,10 @@ def import_csv(self, file_name, options, first_row, first_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str | Filnamnet CSV.|
-| options | [TxtLoadOptions](/cells/sv/python-net/aspose.cells/txtloadoptions) | Inläsningsalternativen för att läsa textfiler|
+| options | [TxtLoadOptions](/cells/sv/python-net/aspose.cells/txtloadoptions) | Ladda alternativ för att läsa textfil|
 | first_row | int | Radnumret för den första cellen att importera i.|
 | first_column | int | Kolumnnumret för den första cellen att importera i.|
 
@@ -37,10 +37,10 @@ def import_csv(self, stream, options, first_row, first_column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Filströmmen CSV.|
-| options | [TxtLoadOptions](/cells/sv/python-net/aspose.cells/txtloadoptions) | Inläsningsalternativen för att läsa textfiler|
+| options | [TxtLoadOptions](/cells/sv/python-net/aspose.cells/txtloadoptions) | Ladda alternativ för att läsa textfil|
 | first_row | int | Radnumret för den första cellen att importera i.|
 | first_column | int | Kolumnnumret för den första cellen att importera i.|
 
@@ -56,7 +56,7 @@ def import_csv(self, file_name, splitter, convert_numeric_data, first_row, first
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | file_name | str | Filnamnet CSV.|
 | splitter | str | Delaren|
@@ -76,7 +76,7 @@ def import_csv(self, stream, splitter, convert_numeric_data, first_row, first_co
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | stream | io.RawIOBase | Filströmmen CSV.|
 | splitter | str | Delaren|

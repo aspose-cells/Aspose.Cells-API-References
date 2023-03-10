@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_rows метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def delete_rows(self, row_index, total_rows):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_index | int |Индекс первой строки, который необходимо удалить.|
 | total_rows | int | Количество строк, которые необходимо удалить.|
@@ -42,7 +42,7 @@ def delete_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | total_rows | int | Количество строк, которые необходимо удалить.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_printing_page_breaks método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene saltos de página automáticos.
 
 ###  Devoluciones
 
-Las áreas de salto de página automático.
+La página automática rompe áreas.
 
 
 ```python
@@ -22,7 +22,7 @@ def get_printing_page_breaks(self, options):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | options | aspose.cells.rendering.ImageOrPrintOptions | Las opciones de impresión|
 ###  Observaciones

@@ -1,4 +1,4 @@
-﻿---
+---
 title: map_chart_projection_type proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

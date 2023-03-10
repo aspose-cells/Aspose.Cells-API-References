@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_check_box Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -31,7 +31,7 @@ def add_check_box(self, upper_left_row, top, upper_left_column, left, height, wi
 | height | int | Höhe des Textfelds in Pixeleinheiten.|
 | width | int | Breite des Textfelds in Pixeleinheiten.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

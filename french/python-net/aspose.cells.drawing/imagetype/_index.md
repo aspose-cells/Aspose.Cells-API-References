@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,11 +24,11 @@ Le type ImageType expose les membres suivants :
 | JPEG | JPEG JFIF.|
 | PNG | Portable Network Graphics.|
 | BMP | Windows Bitmap|
-| GIF | Gifs|
+| GIF | GIF|
 | TIFF | Tif|
 | SVG | SVG|
 | SVM | SVM|
-| GLTF | glTFPlus|
+| GLTF | glTF|
 | OFFICE_COMPATIBLE_EMF | Windows Enhanced Metafile qui est plus compatible avec Office.|
 | WEB_P |Format d'image Weppy|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_mean_marker propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: summary_below_data الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  summary_below_data الملكية
 
-يشير إلى ما إذا كان إضافة ملخص أدناه البيانات.
+يشير إلى ما إذا كنت تريد إضافة ملخص أدناه البيانات.
 ###  تعريف:
 ```python
 @property

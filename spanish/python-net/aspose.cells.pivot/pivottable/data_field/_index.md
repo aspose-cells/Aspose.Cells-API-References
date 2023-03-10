@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_field propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -10,8 +10,8 @@ is_root: false
 ##  data_field propiedad
 
 Obtiene un objeto PivotField que representa todos los campos de datos de una tabla dinámica.
-Solo lectura Sería init solo cuando hay dos o más campos de datos en DataPiovtFields.
-Solo se usa para agregar DataPivotField al área de fila/columna de la tabla dinámica. El valor predeterminado es en el área de fila.
+Solo lectura. Sería init solo cuando hay dos o más campos de datos en DataPiovtFiels.
+Solo se usa para agregar DataPivotField al área de fila/columna de la tabla dinámica. El valor predeterminado está en el área de la fila.
 ###  Definición:
 ```python
 @property

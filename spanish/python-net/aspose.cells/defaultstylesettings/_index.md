@@ -1,4 +1,4 @@
-﻿---
+---
 title: DefaultStyleSettings clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/defaultstylesettings/
 is_root: false
 ---
 ##  DefaultStyleSettings clase
-Configuración de los valores predeterminados de las propiedades de estilo del libro de trabajo.
+Configuración de los valores predeterminados de las propiedades de estilo del libro.
 
 
 

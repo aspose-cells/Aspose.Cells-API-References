@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,13 +22,13 @@ def add(self, upper_left_row, upper_left_column, stream):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | upper_left_column | int | Индекс левого верхнего столбца.|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 
-###  Примеры
+###  Пример
 
 ```python
 
@@ -54,13 +54,13 @@ def add(self, upper_left_row, upper_left_column, file_name):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | upper_left_column | int | Индекс левого верхнего столбца.|
 | file_name | str | Имя файла изображения.|
 
-###  Примеры
+###  Пример
 
 ```python
 
@@ -85,7 +85,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | upper_left_column | int | Индекс левого верхнего столбца.|
@@ -93,7 +93,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Индекс нижнего правого столбца|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 
-###  Примеры
+###  Пример
 
 ```python
 
@@ -119,7 +119,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | upper_left_column | int | Индекс левого верхнего столбца.|
@@ -127,7 +127,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | lower_right_column | int | Индекс нижнего правого столбца|
 | file_name | str | Имя файла изображения.|
 
-###  Примеры
+###  Пример
 
 ```python
 
@@ -152,7 +152,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | upper_left_column | int | Индекс левого верхнего столбца.|
@@ -160,7 +160,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 | width_scale | int | Масштаб ширины изображения в процентах.|
 | height_scale | int | Масштаб высоты изображения в процентах.|
 
-###  Примеры
+###  Пример
 
 ```python
 
@@ -186,7 +186,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | upper_left_column | int | Индекс левого верхнего столбца.|
@@ -194,7 +194,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 | width_scale | int | Масштаб ширины изображения в процентах.|
 | height_scale | int | Масштаб высоты изображения в процентах.|
 
-###  Примеры
+###  Пример
 
 ```python
 

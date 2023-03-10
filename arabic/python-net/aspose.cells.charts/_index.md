@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/ar/python-net/aspose.cells.charts/chartcollection) | لتغليف مجموعة من [Chart](/cells/ar/python-net/aspose.cells.charts/chart) عنصر.|
 | [ChartDataTable](/cells/ar/python-net/aspose.cells.charts/chartdatatable) | يمثل جدول بيانات الرسم البياني.|
 | [ChartFrame](/cells/ar/python-net/aspose.cells.charts/chartframe) | لتغليف الكائن الذي يمثل كائن الإطار في مخطط.|
-| [ChartGlobalizationSettings](/cells/ar/python-net/aspose.cells.charts/chartglobalizationsettings) | يمثل إعدادات العولمة للمخططات.|
+| [ChartGlobalizationSettings](/cells/ar/python-net/aspose.cells.charts/chartglobalizationsettings) | يمثل إعدادات العولمة للمخطط.|
 | [ChartPoint](/cells/ar/python-net/aspose.cells.charts/chartpoint) |يمثل نقطة واحدة في سلسلة في مخطط.|
 | [ChartPointCollection](/cells/ar/python-net/aspose.cells.charts/chartpointcollection) | يمثل مجموعة تحتوي على جميع النقاط في سلسلة واحدة.|
 | [ChartTextFrame](/cells/ar/python-net/aspose.cells.charts/charttextframe) | لتغليف الكائن الذي يمثل كائن الإطار الذي يحتوي على نص.|
@@ -39,7 +39,7 @@ is_root: false
 | [SeriesLayoutProperties](/cells/ar/python-net/aspose.cells.charts/serieslayoutproperties) | يمثل خصائص تخطيط السلسلة.|
 | [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) | يمثل خط المؤشر مخططًا أو رسمًا صغيرًا في خلية ورقة عمل توفر تمثيلًا مرئيًا للبيانات.|
 | [SparklineCollection](/cells/ar/python-net/aspose.cells.charts/sparklinecollection) | لتغليف مجموعة من [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) عنصر.|
-| [SparklineGroup](/cells/ar/python-net/aspose.cells.charts/sparklinegroup) | تم تنظيم [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) في مجموعة خط مؤشر تحتوي مجموعة SparklineGroup على عدد متغير من عناصر خط المؤشر.<br/> تحدد مجموعة خط المؤشر النوع وإعدادات العرض وإعدادات المحور لخطوط المؤشرات.|
+| [SparklineGroup](/cells/ar/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/ar/python-net/aspose.cells.charts/sparkline) منظم في مجموعة خط المؤشر. تحتوي مجموعة SparklineGroup على عدد متغير من عناصر خط المؤشر.<br/> تحدد مجموعة خط المؤشر النوع وإعدادات العرض وإعدادات المحور لخطوط المؤشرات.|
 | [SparklineGroupCollection](/cells/ar/python-net/aspose.cells.charts/sparklinegroupcollection) | لتغليف مجموعة من [SparklineGroup](/cells/ar/python-net/aspose.cells.charts/sparklinegroup) عنصر.|
 | [TickLabelItem](/cells/ar/python-net/aspose.cells.charts/ticklabelitem) | قم بتضمين معلومات عن عنصر Ticklabel|
 | [TickLabels](/cells/ar/python-net/aspose.cells.charts/ticklabels) | يمثل تسميات علامات التجزئة المرتبطة بعلامات التجزئة على محور المخطط.|
@@ -60,7 +60,7 @@ is_root: false
 | [ChartLineFormattingType](/cells/ar/python-net/aspose.cells.charts/chartlineformattingtype) | يمثل نوع تنسيق الخط لخط الرسم البياني.|
 | [ChartMarkerType](/cells/ar/python-net/aspose.cells.charts/chartmarkertype) | يمثل نمط العلامة في مخطط خطي أو مخطط مبعثر أو مخطط نسيجي.|
 | [ChartSplitType](/cells/ar/python-net/aspose.cells.charts/chartsplittype) | يمثل الطريقة التي يتم بها تقسيم مقطعي المخطط الدائري أو شريط المخطط الدائري.|
-| [ChartTextDirectionType](/cells/ar/python-net/aspose.cells.charts/charttextdirectiontype) | يمثل نوع اتجاه النص في الرسم البياني.|
+| [ChartTextDirectionType](/cells/ar/python-net/aspose.cells.charts/charttextdirectiontype) | يمثل نوع اتجاه النص للمخطط.|
 | [ChartType](/cells/ar/python-net/aspose.cells.charts/charttype) | يعدّد جميع أنواع المخططات المستخدمة في Excel.|
 | [CrossType](/cells/ar/python-net/aspose.cells.charts/crosstype) | يمثل نوع المحور المتقاطع.|
 | [DataLabelsSeparatorType](/cells/ar/python-net/aspose.cells.charts/datalabelsseparatortype) | يمثل نوع فاصل DataLabels.|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/ar/python-net/aspose.cells.charts/mapchartlabellayout) | يمثل تخطيط تسميات مخطط الخريطة.|
 | [MapChartProjectionType](/cells/ar/python-net/aspose.cells.charts/mapchartprojectiontype) | يمثل نوع الإسقاط لمخطط الخريطة.|
 | [MapChartRegionType](/cells/ar/python-net/aspose.cells.charts/mapchartregiontype) | يمثل نوع المنطقة في مخطط الخريطة.|
-| [PlotDataByType](/cells/ar/python-net/aspose.cells.charts/plotdatabytype) |يمثل نوع البيانات المرسومة حسب الصف أو العمود.|
+| [PlotDataByType](/cells/ar/python-net/aspose.cells.charts/plotdatabytype) |يمثل نوع مخطط البيانات حسب الصف أو العمود.|
 | [PlotEmptyCellsType](/cells/ar/python-net/aspose.cells.charts/plotemptycellstype) | يمثل كل نوع خلايا الرسم البياني الفارغة للمخطط.|
 | [QuartileCalculationType](/cells/ar/python-net/aspose.cells.charts/quartilecalculationtype) | يمثل طرق الحساب الربعي.|
 | [SparklineAxisMinMaxType](/cells/ar/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | يمثل الحد الأدنى والحد الأقصى من أنواع القيمة للمحور الرأسي لخط المؤشر.|

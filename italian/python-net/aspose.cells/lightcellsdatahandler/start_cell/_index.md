@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo start_cell
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -22,7 +22,7 @@ def start_cell(self, column_index):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | column_index | int | indice di colonna della cella da elaborare|
 ###  Osservazioni

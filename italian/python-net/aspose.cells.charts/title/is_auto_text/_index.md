@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_auto_text proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_auto_text proprietà
 
-Indica che il testo è stato generato automaticamente.
+Indica che il testo è generato automaticamente.
 ###  Definizione:
 ```python
 @property

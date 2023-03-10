@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_signed_date недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, показывать ли подписанную дату.
 
-###  Примеры
+###  Пример
 
 ```python
 

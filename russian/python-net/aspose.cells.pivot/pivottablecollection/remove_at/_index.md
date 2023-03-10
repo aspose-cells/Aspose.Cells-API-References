@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_at метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def remove_at(self, index, keep_data):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | index | int | индекс позиции в коллекции сводных таблиц|
 | keep_data | bool | Сохранять ли данные сводной таблицы|

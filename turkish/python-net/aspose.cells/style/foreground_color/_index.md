@@ -1,4 +1,4 @@
-﻿---
+---
 title: foreground_color mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bir stilin ön plan rengini alır veya ayarlar.
 
 ###  Notlar
 
-Color.Boş döndürülürse, renk ayarı olmadığı anlamına gelir.
+Color.Empty döndürülürse, renk ayarı olmadığı anlamına gelir.
 ###  Tanım:
 ```python
 @property

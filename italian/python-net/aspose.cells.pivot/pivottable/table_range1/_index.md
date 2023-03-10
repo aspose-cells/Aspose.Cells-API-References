@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_range1 proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  table_range1 proprietà
 
 Restituisce un oggetto CellArea che rappresenta l'intervallo contenente l'intero rapporto di tabella pivot,
-ma non include i campi della pagina.
+ma non include i campi della pagina. Sola lettura.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_label_in_chart metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,12 +22,12 @@ def add_label_in_chart(self, top, left, height, width):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | top | int | Representerar etikettens vertikala förskjutning från det övre vänstra hörnet i enheter på 1/4000 av kartytan.|
 | left | int | Representerar etikettens vertikala förskjutning från det övre vänstra hörnet i enheter på 1/4000 av kartytan.|
 | height | int | Representerar höjden på etiketten, i enheter på 1/4000 av kartytan.|
-| width | int | Representerar etikettens bredd, i enheter på 1/4000 av kartytan.|
+| width | int | Representerar etikettens bredd, i enheter om 1/4000 av kartytan.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_data_area_condition méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ def add_data_area_condition(self, field_name):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | field_name | str | Le nom de PivotField.|
 
@@ -34,7 +34,7 @@ def add_data_area_condition(self, data_field):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | data_field | [PivotField](/cells/fr/python-net/aspose.cells.pivot/pivotfield) | PivotField dans les champs de données.|
 

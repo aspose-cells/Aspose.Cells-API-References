@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookDesigner yapıcı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -31,7 +31,7 @@ def __init__(self, workbook):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | workbook | [Workbook](/cells/tr/python-net/aspose.cells/workbook) | Şablon çalışma kitabı dosyası.|
 

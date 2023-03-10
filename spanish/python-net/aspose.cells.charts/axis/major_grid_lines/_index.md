@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_grid_lines propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Representa las principales líneas de cuadrícula en un eje de gráfico.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

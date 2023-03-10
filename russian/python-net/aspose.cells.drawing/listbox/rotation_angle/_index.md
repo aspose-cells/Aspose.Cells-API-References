@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotation_angle недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает поворот фигуры.
 
-###  Примеры
+###  Пример
 
 ```python
 

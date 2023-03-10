@@ -1,4 +1,4 @@
-﻿---
+---
 title: extension_to_save_format yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,9 +22,9 @@ def extension_to_save_format(self, extension):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
-| extension | str | Dosya uzantısı Baştaki noktalı veya noktasız olabilir.|
+| extension | str | Dosya uzantısı. Ön noktalı veya noktasız olabilir. Büyük/küçük harfe duyarsız.|
 ###  Notlar
 
 Uzantı tanınamıyorsa, [SaveFormat.UNKNOWN](/cells/tr/python-net/aspose.cells/saveformat#UNKNOWN) döndürür.

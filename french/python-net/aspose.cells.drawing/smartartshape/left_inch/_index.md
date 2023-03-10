@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_inch propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente le décalage horizontal de la forme par rapport à sa colonne de gauche, en pouces.
 
-###  Exemples
+###  Exemple
 
 ```python
 

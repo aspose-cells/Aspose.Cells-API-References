@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chart класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ is_root: false
 | [hide_pivot_field_buttons](/cells/ru/python-net/aspose.cells.charts/chart/hide_pivot_field_buttons) |Указывает, следует ли скрывать кнопки поля сводной диаграммы только в том случае, если диаграмма является сводной диаграммой.|
 | [pivot_options](/cells/ru/python-net/aspose.cells.charts/chart/pivot_options) | Задает элементы управления поворотом, которые отображаются на диаграмме.|
 | [pivot_source](/cells/ru/python-net/aspose.cells.charts/chart/pivot_source) | Источником являются данные сводной таблицы.<br/> Если PivotSource не пуст, диаграмма является PivotChart.|
-| [plot_by](/cells/ru/python-net/aspose.cells.charts/chart/plot_by) | Получает и задает, следует ли строить график по строкам или столбцам.|
+| [plot_by](/cells/ru/python-net/aspose.cells.charts/chart/plot_by) | Получает и задает график по строке или по столбцу.|
 | [plot_empty_cells_type](/cells/ru/python-net/aspose.cells.charts/chart/plot_empty_cells_type) | Получает и задает способ построения пустых ячеек.|
 | [plot_visible_cells](/cells/ru/python-net/aspose.cells.charts/chart/plot_visible_cells) | Указывает, отображать ли только видимые ячейки.|
 | [plot_visible_cells_only](/cells/ru/python-net/aspose.cells.charts/chart/plot_visible_cells_only) | Указывает, отображать ли на графике только видимые ячейки.|
@@ -45,10 +45,10 @@ is_root: false
 | [series_axis](/cells/ru/python-net/aspose.cells.charts/chart/series_axis) | Получает ось серии диаграммы.|
 | [legend](/cells/ru/python-net/aspose.cells.charts/chart/legend) | Получает легенду диаграммы.|
 | [chart_data_table](/cells/ru/python-net/aspose.cells.charts/chart/chart_data_table) | Представляет таблицу данных диаграммы.|
-| [show_legend](/cells/ru/python-net/aspose.cells.charts/chart/show_legend) | Получает или задает значение, указывающее, будет ли отображаться легенда диаграммы.По умолчанию — true.|
+| [show_legend](/cells/ru/python-net/aspose.cells.charts/chart/show_legend) | Получает или задает значение, указывающее, будет ли отображаться легенда диаграммы. Значение по умолчанию верно.|
 | [is_rectangular_cornered](/cells/ru/python-net/aspose.cells.charts/chart/is_rectangular_cornered) | Получает или задает значение, указывающее, имеет ли область диаграммы прямоугольные углы.<br/> Значение по умолчанию верно.|
 | [show_data_table](/cells/ru/python-net/aspose.cells.charts/chart/show_data_table) | Получает или задает значение, указывающее, отображается ли на диаграмме таблица данных.|
-| [first_slice_angle](/cells/ru/python-net/aspose.cells.charts/chart/first_slice_angle) | Получает или задает угол первого сегмента круговой или кольцевой диаграммы в градусах (по часовой стрелке от вертикали). Применяется только к круговым, трехмерным круговым и кольцевым диаграммам в диапазоне от 0 до 360.|
+| [first_slice_angle](/cells/ru/python-net/aspose.cells.charts/chart/first_slice_angle) | Получает или задает угол первого фрагмента круговой или кольцевой диаграммы в градусах (по часовой стрелке от вертикали). Применяется только к круговым, трехмерным круговым и кольцевым диаграммам от 0 до 360.|
 | [gap_width](/cells/ru/python-net/aspose.cells.charts/chart/gap_width) | Возвращает или задает расстояние между кластерами полос или столбцов в процентах от ширины полосы или столбца.<br/>Значение этого свойства должно находиться в диапазоне от 0 до 500.|
 | [gap_depth](/cells/ru/python-net/aspose.cells.charts/chart/gap_depth) | Получает или задает расстояние между рядами данных на трехмерной диаграмме в процентах от ширины маркера.<br/>Значение этого свойства должно находиться в диапазоне от 0 до 500.|
 | [floor](/cells/ru/python-net/aspose.cells.charts/chart/floor) | Возвращает объект [Chart.floor](/cells/ru/python-net/aspose.cells.charts/chart#floor), представляющий стены трехмерной диаграммы.|
@@ -58,11 +58,11 @@ is_root: false
 | [walls_and_gridlines_2d](/cells/ru/python-net/aspose.cells.charts/chart/walls_and_gridlines_2d) | Значение true, если линии сетки на трехмерной диаграмме отображаются двумерными.|
 | [rotation_angle](/cells/ru/python-net/aspose.cells.charts/chart/rotation_angle) | Представляет поворот представления трехмерной диаграммы (поворот области графика вокруг оси Z в градусах).|
 | [elevation](/cells/ru/python-net/aspose.cells.charts/chart/elevation) | Представляет высоту представления трехмерной карты в градусах.|
-| [right_angle_axes](/cells/ru/python-net/aspose.cells.charts/chart/right_angle_axes) | Значение true, если оси диаграммы расположены под прямым углом. Применяется только к трехмерным диаграммам (кроме Column3D и трехмерных круговых диаграмм).|
-| [auto_scaling](/cells/ru/python-net/aspose.cells.charts/chart/auto_scaling) | Значение true, если Microsoft Excel масштабирует трехмерную диаграмму так, чтобы она была ближе по размеру к эквивалентной двумерной диаграмме.<br/> Свойство Right Angle Axes должно быть True.|
+| [right_angle_axes](/cells/ru/python-net/aspose.cells.charts/chart/right_angle_axes) | Истинно, если оси диаграммы расположены под прямым углом. Применяется только для трехмерных диаграмм (кроме Column3D и трехмерных круговых диаграмм).|
+| [auto_scaling](/cells/ru/python-net/aspose.cells.charts/chart/auto_scaling) | Значение true, если Microsoft Excel масштабирует трехмерную диаграмму так, чтобы она была ближе по размеру к эквивалентной двумерной диаграмме.<br/> Свойство RightAngleAxes должно быть равно True.|
 | [height_percent](/cells/ru/python-net/aspose.cells.charts/chart/height_percent) |Возвращает или задает высоту трехмерной диаграммы в процентах от ширины диаграммы (от 5 до 500 процентов).|
-| [perspective](/cells/ru/python-net/aspose.cells.charts/chart/perspective) | Возвращает или задает перспективу для трехмерного представления диаграммы. Должно быть от 0 до 100.<br/> Это свойство игнорируется, если свойство RightAngleAxes имеет значение True.|
-| [is_3d](/cells/ru/python-net/aspose.cells.charts/chart/is_3d) | Указывает, является ли диаграмма трехмерной диаграммой.|
+| [perspective](/cells/ru/python-net/aspose.cells.charts/chart/perspective) | Возвращает или задает перспективу для представления трехмерной диаграммы. Должно быть от 0 до 100.<br/> Это свойство игнорируется, если свойство RightAngleAxes имеет значение True.|
+| [is_3d](/cells/ru/python-net/aspose.cells.charts/chart/is_3d) | Указывает, является ли диаграмма трехмерной.|
 | [depth_percent](/cells/ru/python-net/aspose.cells.charts/chart/depth_percent) | Представляет глубину трехмерной диаграммы в процентах от ширины диаграммы (от 20 до 2000 процентов).|
 | [actual_chart_size](/cells/ru/python-net/aspose.cells.charts/chart/actual_chart_size) | Получает фактический размер диаграммы в пикселях.|
 | [placement](/cells/ru/python-net/aspose.cells.charts/chart/placement) | Представляет способ прикрепления диаграммы к ячейкам под ней.|
@@ -97,7 +97,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

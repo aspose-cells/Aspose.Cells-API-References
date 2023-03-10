@@ -1,6 +1,6 @@
-﻿---
+---
 title: properties 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## properties 属性
 
-获取和设置智能标记的 properties。
+获取并设置智能标记的 properties。
 ### 定义：
 ```python
 @property

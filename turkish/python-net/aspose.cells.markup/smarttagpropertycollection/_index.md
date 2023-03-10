@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagPropertyCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.markup/smarttagpropertycollection/
 is_root: false
 ---
 ##  SmartTagPropertyCollection sınıfı
-Hücre akıllı etiketlerinin tüm özelliklerini temsil eder.
+Hücre akıllı etiketinin tüm özelliklerini temsil eder.
 
 
 

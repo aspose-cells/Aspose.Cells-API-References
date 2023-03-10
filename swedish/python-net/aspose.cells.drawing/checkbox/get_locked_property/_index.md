@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_locked_property metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def get_locked_property(self, type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ShapeLockType](/cells/sv/python-net/aspose.cells.drawing/shapelocktype) | Typen av formlåst egenskap.|
 

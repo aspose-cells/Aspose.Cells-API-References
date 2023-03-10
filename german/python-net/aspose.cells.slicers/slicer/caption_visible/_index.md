@@ -1,4 +1,4 @@
-﻿---
+---
 title: caption_visible Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -12,7 +12,7 @@ is_root: false
 Gibt zurück oder legt fest, ob die Kopfzeile, die die Slicer-Beschriftung anzeigt, sichtbar ist
 der Standardwert ist wahr
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

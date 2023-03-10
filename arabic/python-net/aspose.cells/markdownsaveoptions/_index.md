@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarkdownSaveOptions الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ is_root: false
 ###  المنشئون
 | البناء| وصف|
 | :- | :- |
-| [MarkdownSaveOptions()](/cells/ar/python-net/aspose.cells/markdownsaveoptions/__init__/#) | ينشئ خيارات لحفظ مستندات التخفيضات|
+| [MarkdownSaveOptions()](/cells/ar/python-net/aspose.cells/markdownsaveoptions/__init__/#) | ينشئ خيارات لحفظ مستند تخفيض السعر|
 
 
 ###  ملكيات
@@ -35,13 +35,13 @@ is_root: false
 | [merge_areas](/cells/ar/python-net/aspose.cells/markdownsaveoptions/merge_areas) | يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق من الصحة قبل حفظ الملف.|
 | [create_directory](/cells/ar/python-net/aspose.cells/markdownsaveoptions/create_directory) | إذا كان صحيحًا وكان الدليل غير موجود ، فسيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.|
 | [sort_names](/cells/ar/python-net/aspose.cells/markdownsaveoptions/sort_names) | يشير إلى ما إذا كان يتم فرز الأسماء المعرفة قبل حفظ الملف.|
-| [sort_external_names](/cells/ar/python-net/aspose.cells/markdownsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة خارجيًا قبل حفظ الملف.|
+| [sort_external_names](/cells/ar/python-net/aspose.cells/markdownsaveoptions/sort_external_names) |يشير إلى ما إذا كان يتم فرز الأسماء المعرفة الخارجية قبل حفظ الملف.|
 | [refresh_chart_cache](/cells/ar/python-net/aspose.cells/markdownsaveoptions/refresh_chart_cache) | يشير إلى ما إذا كان يتم تحديث بيانات ذاكرة التخزين المؤقت للرسم البياني أم لا|
-| [warning_callback](/cells/ar/python-net/aspose.cells/markdownsaveoptions/warning_callback) | يحصل أو يحدد الاستجابات التحذيرية.|
+| [warning_callback](/cells/ar/python-net/aspose.cells/markdownsaveoptions/warning_callback) | يحصل أو يحدد رد الاتصال التحذيري.|
 | [update_smart_art](/cells/ar/python-net/aspose.cells/markdownsaveoptions/update_smart_art) | يشير إلى ما إذا كان يتم تحديث إعداد الفن الذكي.<br/> القيمة الافتراضية هي كاذبة.|
 | [encoding](/cells/ar/python-net/aspose.cells/markdownsaveoptions/encoding) | الحصول على الترميز الافتراضي وتعيينه.|
 | [format_strategy](/cells/ar/python-net/aspose.cells/markdownsaveoptions/format_strategy) | الحصول على استراتيجية التنسيق وتعيينها عند تصدير قيمة الخلية كسلسلة.|
-| [light_cells_data_provider](/cells/ar/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) | موفر البيانات لتوفير بيانات الخلايا لحفظ المصنفات في وضع الضوء.|
+| [light_cells_data_provider](/cells/ar/python-net/aspose.cells/markdownsaveoptions/light_cells_data_provider) | موفر البيانات لتوفير بيانات الخلايا لحفظ المصنف في الوضع الخفيف.|
 | [line_separator](/cells/ar/python-net/aspose.cells/markdownsaveoptions/line_separator) | الحصول على فاصل الخط وتعيينه.|
 
 

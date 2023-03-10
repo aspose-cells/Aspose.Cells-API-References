@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalLinkCollection clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells/externallinkcollection/
 is_root: false
 ---
 ##  ExternalLinkCollection clase
-Representa una colección de enlaces externos en un libro de trabajo.
+Representa la colección de enlaces externos en un libro de trabajo.
 
 
 
@@ -40,7 +40,7 @@ Obtiene el elemento [ExternalLink](/cells/es/python-net/aspose.cells/externallin
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

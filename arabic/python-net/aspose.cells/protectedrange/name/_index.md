@@ -1,4 +1,4 @@
-﻿---
+---
 title: name الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  name الملكية
 
-يحصل على عنوان النطاق.
+يحصل على عنوان النطاق. يتم استخدام هذا كواصف ، وليس كتعريف نطاق مسمى.
 ###  تعريف:
 ```python
 @property

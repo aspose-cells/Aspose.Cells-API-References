@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_floating_chart metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [ChartType](/cells/sv/python-net/aspose.cells.charts/charttype) | Diagramtyp|
 | left | int | X förskjutning till hörn|

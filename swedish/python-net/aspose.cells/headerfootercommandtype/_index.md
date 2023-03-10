@@ -1,4 +1,4 @@
-﻿---
+---
 title: HeaderFooterCommandType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -25,7 +25,7 @@ Typen HeaderFooterCommandType avslöjar följande medlemmar:
 | SHEET_NAME | Bladets namn|
 | FILE_NAME | Filnamn utan sökväg|
 | FILE_PATH | Filsökväg utan filnamn|
-| PICTURE | Bilder|
+| PICTURE | Bild|
 
 
 

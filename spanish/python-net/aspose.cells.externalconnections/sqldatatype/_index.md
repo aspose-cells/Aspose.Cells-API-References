@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType enumeración
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType enumeración
-Especifica el tipo de datos SQL del parámetro.
+Especifica el tipo de datos SQL del parámetro. Sólo válido para fuentes ODBC.
 
 
 
@@ -19,7 +19,7 @@ El tipo SqlDataType expone los siguientes miembros:
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | desplazamiento sin firmar de sql|
 | SQL_SIGNED_OFFSET | compensación firmada sql|
-| SQL_GUID | guias sql|
+| SQL_GUID | guid sql|
 | SQL_W_LONG_VARCHAR | sql ancho largo variable char|
 | SQL_W_VARCHAR | sql ancho variable char|
 | SQL_W_CHAR | sql carácter ancho|

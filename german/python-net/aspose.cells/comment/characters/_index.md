@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Gibt ein Characters-Objekt zurück, das einen Bereich von characters im Kommenta
 
 ###  Kehrt zurück
 
-Charakterobjekte.
+Zeichenobjekt.
 
 
 ```python
@@ -27,7 +27,7 @@ def characters(self, start_index, length):
 | start_index | int | Der Index des Zeichenanfangs.|
 | length | int | Die Anzahl der Zeichen.|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

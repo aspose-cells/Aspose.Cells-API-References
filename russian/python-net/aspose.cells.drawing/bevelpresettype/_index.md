@@ -1,4 +1,4 @@
-﻿---
+---
 title: BevelPresetType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ is_root: false
 | COOL_SLANT | Крутой наклон|
 | CROSS | Крест|
 | DIVOT | Дерн|
-| HARD_EDGE | Жесткие края|
+| HARD_EDGE | Твердый край|
 | RELAXED_INSET | Расслабленная вставка|
 | RIBLET | Риблет|
 | SLOPE | Склон|

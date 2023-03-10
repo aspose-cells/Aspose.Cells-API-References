@@ -1,4 +1,4 @@
-﻿---
+---
 title: characters метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Возвращает
 
-Объекты персонажей.
+Возражают персонажи.
 
 
 ```python
@@ -22,7 +22,7 @@ def characters(self, start_index, length):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_index | int | Индекс начала персонажа.|
 | length | int | Количество символов.|

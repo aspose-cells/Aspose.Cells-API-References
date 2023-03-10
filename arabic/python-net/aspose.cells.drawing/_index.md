@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -26,7 +26,7 @@ is_root: false
 | [ComboBox](/cells/ar/python-net/aspose.cells.drawing/combobox) | يمثل نموذج التحكم ComboBox.|
 | [CommentShape](/cells/ar/python-net/aspose.cells.drawing/commentshape) | يمثل شكل التعليق.|
 | [CustomGeometry](/cells/ar/python-net/aspose.cells.drawing/customgeometry) | يمثل شكلًا هندسيًا مخصصًا.|
-| [CustomXmlShape](/cells/ar/python-net/aspose.cells.drawing/customxmlshape) | يمثل أشكال xml المخصصة ، مثل الحبر.|
+| [CustomXmlShape](/cells/ar/python-net/aspose.cells.drawing/customxmlshape) | يمثل شكل xml مخصص ، مثل حبر.|
 | [DialogBox](/cells/ar/python-net/aspose.cells.drawing/dialogbox) | يمثل مربع الحوار.|
 | [Fill](/cells/ar/python-net/aspose.cells.drawing/fill) | يمثل تنسيق تعبئة الشكل.|
 | [FillFormat](/cells/ar/python-net/aspose.cells.drawing/fillformat) | لتغليف الكائن الذي يمثل تنسيق تعبئة لشكل.|
@@ -41,7 +41,7 @@ is_root: false
 | [GroupShape](/cells/ar/python-net/aspose.cells.drawing/groupshape) |يمثل شكل المجموعة الذي يحتوي على الأشكال الفردية.|
 | [Label](/cells/ar/python-net/aspose.cells.drawing/label) | لتغليف الكائن الذي يمثل تسمية في جدول بيانات.|
 | [Line](/cells/ar/python-net/aspose.cells.drawing/line) | لتغليف الكائن الذي يمثل تنسيق الخط.|
-| [LineFormat](/cells/ar/python-net/aspose.cells.drawing/lineformat) | يمثل جميع إعدادات الخط.|
+| [LineFormat](/cells/ar/python-net/aspose.cells.drawing/lineformat) | يمثل كل وضع الخط.|
 | [LineShape](/cells/ar/python-net/aspose.cells.drawing/lineshape) | يمثل شكل الخط.|
 | [ListBox](/cells/ar/python-net/aspose.cells.drawing/listbox) | يمثل كائن مربع قائمة.|
 | [MsoFillFormat](/cells/ar/python-net/aspose.cells.drawing/msofillformat) | يمثل تنسيق تعبئة لشكل.|
@@ -64,10 +64,10 @@ is_root: false
 | [ScrollBar](/cells/ar/python-net/aspose.cells.drawing/scrollbar) | يمثل كائن شريط التمرير.|
 | [ShadowEffect](/cells/ar/python-net/aspose.cells.drawing/shadoweffect) |تحدد هذه الفئة تأثير الظل لعنصر المخطط أو الشكل.|
 | [Shape](/cells/ar/python-net/aspose.cells.drawing/shape) | يمثل الكائن msodrawing.|
-| [ShapeCollection](/cells/ar/python-net/aspose.cells.drawing/shapecollection) | يمثل جميع الأشكال في ورقة عمل / مخطط.|
+| [ShapeCollection](/cells/ar/python-net/aspose.cells.drawing/shapecollection) | يمثل كل الأشكال في ورقة عمل / مخطط.|
 | [ShapeFormat](/cells/ar/python-net/aspose.cells.drawing/shapeformat) |  |
 | [ShapeGuide](/cells/ar/python-net/aspose.cells.drawing/shapeguide) | تغليف دليل الشكل يحدد وجود دليل الشكل الذي سيتم استخدامه<br/> تحكم هندسة الشكل المحدد|
-| [ShapeGuideCollection](/cells/ar/python-net/aspose.cells.drawing/shapeguidecollection) | يغلف مجموعة من أدلة الشكل|
+| [ShapeGuideCollection](/cells/ar/python-net/aspose.cells.drawing/shapeguidecollection) | يغلف مجموعة من دليل الشكل|
 | [ShapePath](/cells/ar/python-net/aspose.cells.drawing/shapepath) | يمثل مسار إنشاء يتكون من سلسلة من الحركات والخطوط والمنحنيات التي عند دمجها ستشكل شكلًا هندسيًا.|
 | [ShapePathCollection](/cells/ar/python-net/aspose.cells.drawing/shapepathcollection) | يمثل معلومات مجموعة المسار في الشكل التلقائي NotPrimitive|
 | [ShapePathPoint](/cells/ar/python-net/aspose.cells.drawing/shapepathpoint) | يمثل إحداثيات س ص داخل مساحة إحداثيات المسار.|
@@ -84,7 +84,7 @@ is_root: false
 | [TextEffectFormat](/cells/ar/python-net/aspose.cells.drawing/texteffectformat) | يحتوي على الخصائص والأساليب التي تنطبق على كائنات WordArt.|
 | [TextureFill](/cells/ar/python-net/aspose.cells.drawing/texturefill) | لتغليف الكائن الذي يمثل تنسيق تعبئة النسيج|
 | [ThreeDFormat](/cells/ar/python-net/aspose.cells.drawing/threedformat) | يمثل التنسيق ثلاثي الأبعاد للشكل.|
-| [TilePicOption](/cells/ar/python-net/aspose.cells.drawing/tilepicoption) | يمثل صور البلاط كقوام.|
+| [TilePicOption](/cells/ar/python-net/aspose.cells.drawing/tilepicoption) | يمثل صورة البلاط كملمس.|
 | [VmlShapeGuide](/cells/ar/python-net/aspose.cells.drawing/vmlshapeguide) | فقط من أجل vml<br/> تغليف دليل الشكل يحدد وجود الشكل<br/> الدليل الذي سيتم استخدامه للتحكم في هندسة الشكل المحدد|
 | [WebExtensionShape](/cells/ar/python-net/aspose.cells.drawing/webextensionshape) | يمثل شكل امتداد الويب.|
 
@@ -92,7 +92,7 @@ is_root: false
 ###  التعداد
 |تعداد| وصف|
 | :- | :- |
-| [AutoShapeType](/cells/ar/python-net/aspose.cells.drawing/autoshapetype) | يمثل جميع أنواع الأشكال التلقائية المضمنة.|
+| [AutoShapeType](/cells/ar/python-net/aspose.cells.drawing/autoshapetype) | يمثل كل نوع الشكل التلقائي المدمج.|
 | [BevelPresetType](/cells/ar/python-net/aspose.cells.drawing/bevelpresettype) | يمثل إعدادًا مسبقًا لنوع مجسم مشطوف الحواف يمكن تطبيقه على شكل ثلاثي الأبعاد.|
 | [BevelType](/cells/ar/python-net/aspose.cells.drawing/beveltype) | يمثل إعدادًا مسبقًا لنوع مجسم مشطوف الحواف يمكن تطبيقه على شكل ثلاثي الأبعاد.|
 | [CheckValueType](/cells/ar/python-net/aspose.cells.drawing/checkvaluetype) | يمثل نوع قيمة الاختيار لخانة الاختيار.|
@@ -103,7 +103,7 @@ is_root: false
 | [FormatSetType](/cells/ar/python-net/aspose.cells.drawing/formatsettype) | نوع مجموعة تنسيق التعبئة.|
 | [GradientColorType](/cells/ar/python-net/aspose.cells.drawing/gradientcolortype) | يمثل نوع لون التدرج للتعبئة المحددة.|
 | [GradientDirectionType](/cells/ar/python-net/aspose.cells.drawing/gradientdirectiontype) | يمثل كل نوع اتجاه التدرج.|
-| [GradientFillType](/cells/ar/python-net/aspose.cells.drawing/gradientfilltype) |يمثل جميع أنواع التعبئة المتدرجة.|
+| [GradientFillType](/cells/ar/python-net/aspose.cells.drawing/gradientfilltype) |يمثل كل أنواع التعبئة المتدرجة.|
 | [GradientPresetType](/cells/ar/python-net/aspose.cells.drawing/gradientpresettype) | يمثل نوع لون التدرج المحدد مسبقًا.|
 | [GradientStyleType](/cells/ar/python-net/aspose.cells.drawing/gradientstyletype) | يمثل نمط تظليل متدرج.|
 | [ImageType](/cells/ar/python-net/aspose.cells.drawing/imagetype) | يحدد نوع (تنسيق) الصورة.|

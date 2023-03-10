@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.texts
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -7,12 +7,12 @@ weight: 10
 url: /it/python-net/aspose.cells.drawing.texts/
 is_root: false
 ---
- IL**Aspose.Cells.Drawing.Texts** namespace fornisce classi che disegnano e formattano oggetti di testo come paragrafi, elenchi puntati e altro.
+ IL**Aspose.Cells.Drawing.Texts** namespace fornisce classi che disegnano e formattano oggetti di testo come paragrafo, punto elenco e altro.
 
 ###  Classi
 | Classe| Descrizione|
 | :- | :- |
-| [AutoNumberedBulletValue](/cells/it/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Rappresenta i punti elenco numerati automaticamente.|
+| [AutoNumberedBulletValue](/cells/it/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Rappresenta il punto elenco numerato automatico.|
 | [Bullet](/cells/it/python-net/aspose.cells.drawing.texts/bullet) | Rappresenta il proiettile.|
 | [BulletValue](/cells/it/python-net/aspose.cells.drawing.texts/bulletvalue) | Rappresenta il valore del punto elenco.|
 | [CharacterBulletValue](/cells/it/python-net/aspose.cells.drawing.texts/characterbulletvalue) | Rappresenta il punto elenco del carattere.|
@@ -32,7 +32,7 @@ is_root: false
 | :- | :- |
 | [BulletType](/cells/it/python-net/aspose.cells.drawing.texts/bullettype) | Rappresenta il tipo di proiettile.|
 | [LineSpaceSizeType](/cells/it/python-net/aspose.cells.drawing.texts/linespacesizetype) | Rappresenta il tipo di unità della dimensione dell'interlinea.|
-| [TextAutonumberScheme](/cells/it/python-net/aspose.cells.drawing.texts/textautonumberscheme) | Rappresenta tutti gli schemi numerici automatici.|
+| [TextAutonumberScheme](/cells/it/python-net/aspose.cells.drawing.texts/textautonumberscheme) | Rappresenta tutto lo schema numerico automatico.|
 | [TextFontAlignType](/cells/it/python-net/aspose.cells.drawing.texts/textfontaligntype) | Rappresenta i diversi tipi di allineamento dei caratteri.|
 | [TextNodeType](/cells/it/python-net/aspose.cells.drawing.texts/textnodetype) | Rappresenta il tipo di nodo.|
 | [TextTabAlignmentType](/cells/it/python-net/aspose.cells.drawing.texts/texttabalignmenttype) | Rappresenta i tipi di allineamento delle tabulazioni di testo.|

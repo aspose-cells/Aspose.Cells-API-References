@@ -1,4 +1,4 @@
-﻿---
+---
 title: html_note propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Obtient et définit la chaîne html qui contient des données et certains format
 
 S'il s'agit d'un commentaire fileté, la note ne pourrait pas être modifiée, sinon MS Excel ne pourrait pas la traiter comme un commentaire fileté.
 
-###  Exemples
+###  Exemple
 
 ```python
 

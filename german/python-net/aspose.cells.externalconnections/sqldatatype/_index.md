@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -8,7 +8,7 @@ url: /de/python-net/aspose.cells.externalconnections/sqldatatype/
 is_root: false
 ---
 ##  SqlDataType Aufzählung
-Gibt den SQL-Datentyp des Parameters an.
+Gibt den SQL-Datentyp des Parameters an. Nur gültig für ODBC-Quellen.
 
 
 
@@ -19,7 +19,7 @@ Der Typ SqlDataType macht die folgenden Member verfügbar:
 | :- | :- |
 | SQL_UNSIGNED_OFFSET | sql unsigned offset|
 | SQL_SIGNED_OFFSET | sql-Offset mit Vorzeichen|
-| SQL_GUID | SQL-Führer|
+| SQL_GUID | SQL-Anleitung|
 | SQL_W_LONG_VARCHAR | sql wide long variable char|
 | SQL_W_VARCHAR | sql breite Variable char|
 | SQL_W_CHAR | SQL breites Zeichen|

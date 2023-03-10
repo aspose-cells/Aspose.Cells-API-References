@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtension klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ Typen WebExtension avslöjar följande medlemmar:
 | [reference](/cells/sv/python-net/aspose.cells.webextensions/webextension/reference) | Få den primära referensen till ett Office-tillägg.|
 | [alter_references](/cells/sv/python-net/aspose.cells.webextensions/webextension/alter_references) | Får en lista med alternativa referenser.|
 | [properties](/cells/sv/python-net/aspose.cells.webextensions/webextension/properties) | Får alla egenskaper för webbtillägg.|
-| [bindings](/cells/sv/python-net/aspose.cells.webextensions/webextension/bindings) |Hämtar alla bindningsrelationer mellan ett Office-tillägg och data i dokumentet.|
+| [bindings](/cells/sv/python-net/aspose.cells.webextensions/webextension/bindings) |Hämtar alla bindningsförhållanden mellan ett Office-tillägg och data i dokumentet.|
 
 
 

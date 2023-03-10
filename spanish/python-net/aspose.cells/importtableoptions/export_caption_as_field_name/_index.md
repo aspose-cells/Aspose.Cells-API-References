@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_caption_as_field_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

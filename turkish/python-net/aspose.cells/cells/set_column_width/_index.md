@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_column_width yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -18,13 +18,13 @@ def set_column_width(self, column, width):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | column | int | Sütun dizini.|
 | width | float | Sütun genişliği. Sütun genişliği 0 ile 255 arasında olmalıdır.|
 ###  Notlar
 
-Bir sütunu gizlemek için sütun genişliğini sıfır olarak ayarlayın.
+Bir sütunu gizlemek için sütun genişliğini sıfıra ayarlar.
 
 
 ###  Ayrıca bakınız

@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_separator_of_formula_array недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

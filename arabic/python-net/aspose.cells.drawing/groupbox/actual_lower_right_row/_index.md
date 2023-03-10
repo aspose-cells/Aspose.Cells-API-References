@@ -1,4 +1,4 @@
-﻿---
+---
 title: actual_lower_right_row الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 احصل على الصف السفلي الفعلي.
 
-###  أمثلة
+###  مثال
 
 ```python
 

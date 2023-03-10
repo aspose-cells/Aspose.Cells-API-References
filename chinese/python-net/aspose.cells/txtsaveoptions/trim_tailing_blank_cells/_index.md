@@ -1,6 +1,6 @@
-﻿---
+---
 title: trim_tailing_blank_cells 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 230
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## trim_tailing_blank_cells 属性
 
-指示是否应修剪一行中的拖尾空白单元格。默认为 false。
+指示是否应修剪一行中拖尾的空白单元格。默认为假。
 
 ### 评论
 

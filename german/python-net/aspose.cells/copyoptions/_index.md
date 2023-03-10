@@ -1,4 +1,4 @@
-﻿---
+---
 title: CopyOptions Klasse
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -28,7 +28,7 @@ Der Typ CopyOptions macht die folgenden Member verfügbar:
 | [copy_names](/cells/de/python-net/aspose.cells/copyoptions/copy_names) | Gibt an, ob die Namen kopiert werden.|
 | [copy_invalid_formulas_as_values](/cells/de/python-net/aspose.cells/copyoptions/copy_invalid_formulas_as_values) | Wenn die Formel für das Ziel nicht gültig ist, kopieren Sie nur Werte.|
 | [column_character_width](/cells/de/python-net/aspose.cells/copyoptions/column_character_width) | Gibt an, ob die Spaltenbreite in Zeicheneinheiten kopiert wird.|
-| [refer_to_sheet_with_same_name](/cells/de/python-net/aspose.cells/copyoptions/refer_to_sheet_with_same_name) | Wenn Sie ein Arbeitsblatt in eine andere Arbeitsmappe kopieren und das Arbeitsblatt die Formeln enthält, die auf andere Arbeitsblätter in MS Excel verweisen,<br/>die kopierten Formeln sollten auf die Quellarbeitsmappe verweisen.<br/>Aber manchmal haben wir andere Arbeitsblätter kopiert und hoffen, dass die kopierten Formeln auf andere Arbeitsblätter mit dem Namen in derselben Arbeitsmappe verweisen,<br/> Bitte setzen Sie diese Eigenschaft auf true.|
+| [refer_to_sheet_with_same_name](/cells/de/python-net/aspose.cells/copyoptions/refer_to_sheet_with_same_name) | Wenn Sie ein Arbeitsblatt in eine andere Arbeitsmappe kopieren und das Arbeitsblatt die Formeln enthält, die auf andere Arbeitsblätter in MS Excel verweisen,<br/>Die kopierten Formeln sollten auf die Quellarbeitsmappe verweisen.<br/>Aber manchmal haben wir andere Arbeitsblätter kopiert und hoffen, dass die kopierten Formeln auf andere Arbeitsblätter mit dem Namen in derselben Arbeitsmappe verweisen,<br/> Bitte setzen Sie diese Eigenschaft auf true.|
 | [refer_to_destination_sheet](/cells/de/python-net/aspose.cells/copyoptions/refer_to_destination_sheet) | Wenn Sie den Bereich in dieselbe Datei kopieren und das Diagramm auf das Quellblatt verweist,<br/>False bedeutet, dass die Datenquelle des kopierten Diagramms nicht geändert wird.<br/> True bedeutet, dass die Datenquelle des kopierten Diagramms auf das Zielblatt verweist.|
 
 

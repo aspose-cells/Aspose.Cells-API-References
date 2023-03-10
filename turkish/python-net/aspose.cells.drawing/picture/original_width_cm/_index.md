@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_width_cm mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Resmin orijinal genişliğini santimetre cinsinden alır.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

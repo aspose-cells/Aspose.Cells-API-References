@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_options Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Stellt die Textoptionen der Form dar.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.pydrawing import Color

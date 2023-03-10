@@ -1,4 +1,4 @@
-﻿---
+---
 title: SelectionType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -17,7 +17,7 @@ Der Typ SelectionType macht die folgenden Member verfügbar:
 ###  Felder
 | Feld| Beschreibung|
 | :- | :- |
-| SINGLE | Einzelauswahltyp.|
+| SINGLE | Einfacher Auswahltyp.|
 | MULTI |Typ Mehrfachauswahl.|
 | EXTEND | Auswahltyp erweitern.|
 

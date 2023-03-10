@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_field_list propriété
 
-Obtient s'il faut activer la liste de champs pour le tableau croisé dynamique.
+Obtient si activer la liste de champs pour le tableau croisé dynamique.
 ###  Définition:
 ```python
 @property

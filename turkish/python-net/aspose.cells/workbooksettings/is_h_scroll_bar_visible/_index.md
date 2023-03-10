@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Oluşturulan elektronik tablonun yatay bir kaydırma çubuğu içerip içermeyec
 
 Varsayılan değer doğrudur.
 
-###  örnekler
+###  Örnek
 
 Aşağıdaki kod, elektronik tablo için yatay kaydırma çubuğunu görünmez yapar.
 

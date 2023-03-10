@@ -1,4 +1,4 @@
-﻿---
+---
 title: ungroup yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing/groupshape/ungroup/
 is_root: false
 ---
 ##  ungroup() {#}
-Şekil öğelerinin grubunu çözün.
+Şekil öğelerinin grubunu çözer.
 
 
 

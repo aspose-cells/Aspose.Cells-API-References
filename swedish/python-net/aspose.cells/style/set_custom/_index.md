@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_custom metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,9 +18,9 @@ def set_custom(self, custom, builtin_preference):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| custom | str | Anpassat nummerformatsträng, ska vara Invariant Culture-mönster.|
+| custom | str | Anpassad nummerformatsträng, ska vara InvariantCulture-mönster.|
 | builtin_preference | bool | Om det anges, matchar strängen anpassat nummerformat ett av de inbyggda nummerformaten<br/> motsvarande aktuella regionala inställningar, oavsett om sifferformatet är inbyggt istället för Custom.|
 
 

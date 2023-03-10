@@ -1,4 +1,4 @@
-﻿---
+---
 title: add yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,7 +24,7 @@ def add(self):
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor.
+NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen ValidationCollection.Add(CellArea) yöntemini kullanın.
  Bu mülk, OCAK 2015'ten bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
@@ -44,7 +44,7 @@ def add(self, ca):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Alan bu doğrulamayı içerir.|
 

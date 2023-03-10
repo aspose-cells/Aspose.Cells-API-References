@@ -1,4 +1,4 @@
-﻿---
+---
 title: replace Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -23,7 +23,7 @@ def replace(self, place_holder, new_value):
 | place_holder | str | Cell Platzhalter|
 | new_value | str | Zu ersetzender Zeichenfolgenwert|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook
@@ -51,7 +51,7 @@ def replace(self, place_holder, new_value):
 | place_holder | str | Cell Platzhalter|
 | new_value | int | Zu ersetzender ganzzahliger Wert|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook
@@ -80,7 +80,7 @@ def replace(self, place_holder, new_value):
 | place_holder | str | Cell Platzhalter|
 | new_value | float | Doppelter Wert zum Ersetzen|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook
@@ -142,9 +142,9 @@ def replace(self, place_holder, new_values, is_vertical):
 | :- | :- | :- |
 | place_holder | str | Cell Platzhalter|
 | new_values | list | Zu ersetzendes String-Array|
-| is_vertical | bool | Wahr-Vertikal, Falsch-Horizontal|
+| is_vertical | bool | True – Vertikal, False – Horizontal|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook
@@ -172,9 +172,9 @@ def replace(self, place_holder, new_values, is_vertical):
 | :- | :- | :- |
 | place_holder | str | Cell Platzhalter|
 | new_values | list | Zu ersetzendes Integer-Array|
-| is_vertical | bool | Wahr-Vertikal, Falsch-Horizontal|
+| is_vertical | bool | True – Vertikal, False – Horizontal|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook
@@ -202,9 +202,9 @@ def replace(self, place_holder, new_values, is_vertical):
 | :- | :- | :- |
 | place_holder | str | Cell Platzhalter|
 | new_values | list | Double-Array zu ersetzen|
-| is_vertical | bool | Wahr-Vertikal, Falsch-Horizontal|
+| is_vertical | bool | True – Vertikal, False – Horizontal|
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import Workbook

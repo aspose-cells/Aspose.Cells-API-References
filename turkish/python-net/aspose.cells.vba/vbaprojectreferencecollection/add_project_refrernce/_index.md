@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_project_refrernce yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_project_refrernce(self, name, absolute_libid, relative_libid):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | name | str | Referans adı.|
 | absolute_libid | str | Başvurulan VBA projesinin mutlak yolla tanımlayıcısı.|

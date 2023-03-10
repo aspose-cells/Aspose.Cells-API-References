@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_comments недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Указывает, можно ли прикреплять комментарии.
 
-###  Примеры
+###  Пример
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ is_root: false
 | [position](/cells/ru/python-net/aspose.cells.pivot/pivotfield/position) | Представляет индекс PivotField в PivotFields.|
 | [name](/cells/ru/python-net/aspose.cells.pivot/pivotfield/name) | Представляет имя PivotField.|
 | [display_name](/cells/ru/python-net/aspose.cells.pivot/pivotfield/display_name) | Представляет отображаемое имя PivotField.|
-| [is_auto_subtotals](/cells/ru/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | Указывает, отображаются ли в указанном поле автоматические промежуточные итоги.Значение по умолчанию — true.|
+| [is_auto_subtotals](/cells/ru/python-net/aspose.cells.pivot/pivotfield/is_auto_subtotals) | Указывает, отображаются ли в указанном поле автоматические промежуточные итоги. Значение по умолчанию верно.|
 | [drag_to_column](/cells/ru/python-net/aspose.cells.pivot/pivotfield/drag_to_column) | Указывает, можно ли перетащить указанное поле в положение столбца.<br/> Значение по умолчанию верно.|
 | [drag_to_hide](/cells/ru/python-net/aspose.cells.pivot/pivotfield/drag_to_hide) | Указывает, можно ли перетащить указанное поле в скрытое положение.<br/> Значение по умолчанию верно.|
 | [drag_to_row](/cells/ru/python-net/aspose.cells.pivot/pivotfield/drag_to_row) | Указывает, можно ли перетащить указанное поле в позицию строки.<br/> Значение по умолчанию верно.|
@@ -42,7 +42,7 @@ is_root: false
 | [is_auto_show](/cells/ru/python-net/aspose.cells.pivot/pivotfield/is_auto_show) | Указывает, отображается ли указанное поле сводной таблицы автоматически, только для Excel 2003.|
 | [is_ascend_show](/cells/ru/python-net/aspose.cells.pivot/pivotfield/is_ascend_show) | Указывает, отображается ли указанное поле сводной таблицы автоматически по возрастанию.|
 | [auto_show_count](/cells/ru/python-net/aspose.cells.pivot/pivotfield/auto_show_count) |Представлять количество верхних или нижних элементов<br/> которые автоматически отображаются в указанном поле сводной таблицы.|
-| [auto_show_field](/cells/ru/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Представляет индекс поля автоматического отображения. -1 означает сам PivotField.<br/> Это должен быть индекс полей данных.|
+| [auto_show_field](/cells/ru/python-net/aspose.cells.pivot/pivotfield/auto_show_field) | Представляет индекс поля автопоказа. -1 означает сам PivotField.<br/> Это должен быть индекс полей данных.|
 | [function](/cells/ru/python-net/aspose.cells.pivot/pivotfield/function) | Представляет функцию, используемую для суммирования поля данных сводной таблицы.|
 | [data_display_format](/cells/ru/python-net/aspose.cells.pivot/pivotfield/data_display_format) | Представляет, как отображать значения, содержащиеся в поле данных.|
 | [base_field_index](/cells/ru/python-net/aspose.cells.pivot/pivotfield/base_field_index) | Представляет базовое поле для пользовательского вычисления.|
@@ -79,7 +79,7 @@ is_root: false
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells import Workbook

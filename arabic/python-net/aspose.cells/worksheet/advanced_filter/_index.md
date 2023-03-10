@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة advanced_filter
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def advanced_filter(self, is_filter, list_range, criteria_range, copy_to, unique
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | is_filter | bool | يشير إلى ما إذا كانت تصفية القائمة في مكانها.|
 | list_range | str | نطاق القائمة.|

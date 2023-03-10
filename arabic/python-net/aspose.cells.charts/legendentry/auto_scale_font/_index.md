@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_scale_font الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

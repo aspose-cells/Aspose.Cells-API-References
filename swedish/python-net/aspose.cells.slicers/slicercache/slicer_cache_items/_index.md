@@ -1,4 +1,4 @@
-﻿---
+---
 title: slicer_cache_items fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  slicer_cache_items fastighet
 
-Returnerar en SlicerCacheItem-samling som innehåller samlingen av alla objekt i slicercachen.
+Returnerar en SlicerCacheItem-samling som innehåller samlingen av alla objekt i slicercachen. Skrivskyddad
 
 ###  Exempel
 

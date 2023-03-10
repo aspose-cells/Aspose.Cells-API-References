@@ -1,4 +1,4 @@
-﻿---
+---
 title: next_row méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient la ligne suivante à enregistrer.
 
 ###  Retour
 
--1 signifie que la fin des données de la feuille actuelle a été atteinte et qu'aucune autre ligne de la feuille actuelle ne doit être enregistrée.
+l'index de ligne suivant à enregistrer. -1 signifie que la fin des données de la feuille actuelle a été atteinte et qu'aucune autre ligne de la feuille actuelle ne doit être enregistrée.
 
 
 ```python

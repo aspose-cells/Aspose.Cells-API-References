@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_pivot_table_style método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add_pivot_table_style(self, name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | name | str |El nombre del estilo de la tabla dinámica.|
 

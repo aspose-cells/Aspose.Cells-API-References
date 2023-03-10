@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula2 mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

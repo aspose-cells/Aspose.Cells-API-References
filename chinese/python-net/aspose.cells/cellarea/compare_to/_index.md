@@ -1,6 +1,6 @@
-﻿---
+---
 title: compare_to方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 20
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-如果两个角在不同的行中，则比较它们的行索引。
+如果两个角在不同的行中，则比较它们的行索引。否则比较它们的列索引。
 如果两个角相同，则返回 0。
 
 
@@ -23,7 +23,7 @@ def compare_to(self, obj):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | obj | any |  |
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -24,11 +24,11 @@ ImageType türü aşağıdaki üyeleri gösterir:
 | JPEG | JPEG JFIF.|
 | PNG | Taşınabilir Ağ Grafikleri.|
 | BMP | Windows Bit Eşlem|
-| GIF | Gif'ler|
+| GIF | Gif|
 | TIFF | tiff|
 | SVG | Svg|
 | SVM | Svm|
-| GLTF | glTFDevamı|
+| GLTF | glTF|
 | OFFICE_COMPATIBLE_EMF | Windows Office ile daha uyumlu Gelişmiş Meta Dosyası.|
 | WEB_P |Weppy görüntü formatı|
 

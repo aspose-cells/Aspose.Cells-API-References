@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_inch mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Açıklamanın genişliğini inç cinsinden temsil eder.
 
-###  örnekler
+###  Örnek
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Series sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -19,7 +19,7 @@ Series türü aşağıdaki üyeleri gösterir:
 | :- | :- |
 | [layout_properties](/cells/tr/python-net/aspose.cells.charts/series/layout_properties) | Düzenin özelliklerini temsil eder.|
 | [points](/cells/tr/python-net/aspose.cells.charts/series/points) | Grafikteki bir dizideki noktaların koleksiyonunu alır.|
-| [area](/cells/tr/python-net/aspose.cells.charts/series/area) | Series nesnelerinin arka plan alanını temsil eder.|
+| [area](/cells/tr/python-net/aspose.cells.charts/series/area) | Series nesnesinin arka plan alanını temsil eder.|
 | [border](/cells/tr/python-net/aspose.cells.charts/series/border) | Series nesnesinin kenarlığını temsil eder.|
 | [name](/cells/tr/python-net/aspose.cells.charts/series/name) | Veri serisinin adını alır veya ayarlar.|
 | [display_name](/cells/tr/python-net/aspose.cells.charts/series/display_name) | Grafik grafiğinde görüntülenen serinin adını alır.|
@@ -43,10 +43,10 @@ Series türü aşağıdaki üyeleri gösterir:
 | [y_error_bar](/cells/tr/python-net/aspose.cells.charts/series/y_error_bar) | Serinin Y yönü hata çubuğunu temsil eder.|
 | [has_hi_lo_lines](/cells/tr/python-net/aspose.cells.charts/series/has_hi_lo_lines) | Çizgi grafikte yüksek-alçak çizgiler varsa doğrudur.<br/> Yalnızca çizgi grafikler için geçerlidir.|
 | [hi_lo_lines](/cells/tr/python-net/aspose.cells.charts/series/hi_lo_lines) | Çizgi grafiğindeki bir seri için yüksek-düşük çizgileri temsil eden bir HiLoLines nesnesi döndürür.<br/> Yalnızca çizgi grafikler için geçerlidir.|
-| [has_series_lines](/cells/tr/python-net/aspose.cells.charts/series/has_series_lines) | Yığılmış bir sütun grafikte veya çubuk grafikte seri çizgiler veya<br/> Pasta Pasta grafiği veya Pasta Çubuğu grafiğinin iki bölüm arasında bağlantı çizgileri varsa.<br/> Yalnızca yığın sütun grafikler, çubuk grafikler, pasta pasta grafikler veya pasta çubuk grafikler için geçerlidir.|
+| [has_series_lines](/cells/tr/python-net/aspose.cells.charts/series/has_series_lines) | Yığılmış bir sütun grafikte veya çubuk grafikte seri çizgiler veya<br/> Pasta Pasta grafiği veya Pasta Çubuğu grafiğinin iki bölüm arasında bağlantı çizgileri varsa.<br/> Yalnızca yığın sütun grafikler, çubuk grafikler, Pasta Pasta grafikleri veya Pasta Çubuğu grafikleri için geçerlidir.|
 | [series_lines](/cells/tr/python-net/aspose.cells.charts/series/series_lines) | Yığılmış çubuk grafik veya yığın sütun grafiği için seri çizgilerini temsil eden bir SeriesLines nesnesi döndürür.<br/> Yalnızca yığın çubuk ve yığın sütun grafikler için geçerlidir.|
-| [has_drop_lines](/cells/tr/python-net/aspose.cells.charts/series/has_drop_lines) |Grafikte düşme çizgileri varsa doğrudur.<br/> Yalnızca çizgi grafikler veya alan grafikler için geçerlidir.|
-| [drop_lines](/cells/tr/python-net/aspose.cells.charts/series/drop_lines) | Çizgi grafikte veya alan grafiğinde bir seri için bırakma çizgilerini temsil eden bir [Line](/cells/tr/python-net/aspose.cells.drawing/line) nesnesi döndürür.<br/> Yalnızca çizgi grafikler veya alan grafikler için geçerlidir.|
+| [has_drop_lines](/cells/tr/python-net/aspose.cells.charts/series/has_drop_lines) |Grafikte düşme çizgileri varsa doğrudur.<br/> Yalnızca çizgi grafiği veya alan grafikleri için geçerlidir.|
+| [drop_lines](/cells/tr/python-net/aspose.cells.charts/series/drop_lines) | Çizgi grafikte veya alan grafiğinde bir seri için bırakma çizgilerini temsil eden bir [Line](/cells/tr/python-net/aspose.cells.drawing/line) nesnesi döndürür.<br/> Yalnızca çizgi grafiği veya alan grafikleri için geçerlidir.|
 | [has_up_down_bars](/cells/tr/python-net/aspose.cells.charts/series/has_up_down_bars) | Bir çizgi grafikte yukarı ve aşağı çubuklar varsa doğrudur.<br/> Yalnızca çizgi grafikler için geçerlidir.|
 | [up_bars](/cells/tr/python-net/aspose.cells.charts/series/up_bars) | Çizgi grafiğindeki yukarı çubukları temsil eden bir DropBars nesnesi döndürür.<br/> Yalnızca çizgi grafikler için geçerlidir.|
 | [down_bars](/cells/tr/python-net/aspose.cells.charts/series/down_bars) | Çizgi grafiğindeki aşağı çubukları temsil eden bir [DropBars](/cells/tr/python-net/aspose.cells.charts/dropbars) nesnesi döndürür.<br/> Yalnızca çizgi grafikler için geçerlidir.|
@@ -60,12 +60,12 @@ Series türü aşağıdaki üyeleri gösterir:
 | [is_auto_split](/cells/tr/python-net/aspose.cells.charts/series/is_auto_split) | Eşik değerinin otomatik olup olmadığını gösterir.|
 | [bubble_scale](/cells/tr/python-net/aspose.cells.charts/series/bubble_scale) | Belirtilen grafik grubundaki baloncuklar için ölçek faktörünü alır veya ayarlar.<br/> 0 (sıfır) ile 300 arasında bir tamsayı değeri olabilir,<br/>varsayılan boyutun bir yüzdesine karşılık gelir.<br/> Yalnızca kabarcık grafikler için geçerlidir.|
 | [size_represents](/cells/tr/python-net/aspose.cells.charts/series/size_represents) | Kabarcık grafiğinde balon boyutunun neyi temsil ettiğini alır veya ayarlar.|
-| [show_negative_bubbles](/cells/tr/python-net/aspose.cells.charts/series/show_negative_bubbles) | Grafik grubu için negatif kabarcıklar gösteriliyorsa doğrudur. Yalnızca kabarcık grafikleri için geçerlidir.|
+| [show_negative_bubbles](/cells/tr/python-net/aspose.cells.charts/series/show_negative_bubbles) | Grafik grubu için negatif baloncuklar gösteriliyorsa doğrudur. Yalnızca kabarcık çizelgeleri için geçerlidir.|
 | [doughnut_hole_size](/cells/tr/python-net/aspose.cells.charts/series/doughnut_hole_size) | Halka grafik grubundaki deliğin boyutunu döndürür veya ayarlar.<br/> Delik boyutu, grafik boyutunun yüzdesi olarak yüzde 10 ile 90 arasında ifade edilir.|
 | [explosion](/cells/tr/python-net/aspose.cells.charts/series/explosion) | Açık bir pasta diliminin pasta grafiğin merkezine olan mesafesi, pasta çapının yüzdesi olarak ifade edilir.|
-| [has_radar_axis_labels](/cells/tr/python-net/aspose.cells.charts/series/has_radar_axis_labels) | Bir radar grafiğinin kategori ekseni etiketleri varsa doğrudur.|
+| [has_radar_axis_labels](/cells/tr/python-net/aspose.cells.charts/series/has_radar_axis_labels) | Bir radar grafiğinin kategori ekseni etiketleri varsa doğrudur. Yalnızca radar haritaları için geçerlidir.|
 | [has_leader_lines](/cells/tr/python-net/aspose.cells.charts/series/has_leader_lines) | Serinin lider çizgileri varsa doğrudur.|
-| [leader_lines](/cells/tr/python-net/aspose.cells.charts/series/leader_lines) | Bir grafikte öncü çizgileri temsil eder.Öncü çizgiler, veri etiketlerini veri noktalarına bağlar.<br/>Bu nesne bir koleksiyon değil; tek bir öncü çizgiyi temsil eden hiçbir nesne yok.|
+| [leader_lines](/cells/tr/python-net/aspose.cells.charts/series/leader_lines) | Bir grafikte öncü çizgileri temsil eder. Lider çizgiler, veri etiketlerini veri noktalarına bağlar.<br/>Bu nesne bir koleksiyon değil; tek bir öncü çizgiyi temsil eden hiçbir nesne yoktur.|
 | [legend_entry](/cells/tr/python-net/aspose.cells.charts/series/legend_entry) | Bu seriye göre efsane girişini alır.|
 | [shape_properties](/cells/tr/python-net/aspose.cells.charts/series/shape_properties) | Serinin görsel şekil özelliklerini tutan [ShapePropertyCollection](/cells/tr/python-net/aspose.cells.drawing/shapepropertycollection) nesnesini alır.|
 
@@ -77,7 +77,7 @@ Series türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

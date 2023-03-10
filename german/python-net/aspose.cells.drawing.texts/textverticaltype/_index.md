@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextVerticalType Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -20,8 +20,8 @@ Der Typ TextVerticalType macht die folgenden Member verfügbar:
 | VERTICAL | Ostasiatische vertikale Anzeige.|
 | HORIZONTAL | Horizontaler Text.|
 | VERTICAL_LEFT_TO_RIGHT | Wird vertikal angezeigt und der Text fließt von oben nach unten und dann von LINKS nach RECHTS|
-| VERTICAL90 | Jede Linie wird um 90 Grad im Uhrzeigersinn gedreht|
-| VERTICAL270 | Jede Linie wird um 270 Grad im Uhrzeigersinn gedreht|
+| VERTICAL90 | Jede Linie ist um 90 Grad im Uhrzeigersinn gedreht|
+| VERTICAL270 | Jede Linie ist um 270 Grad im Uhrzeigersinn gedreht|
 | STACKED | Bestimmt, ob der gesamte Text vertikal ist|
 | STACKED_RIGHT_TO_LEFT | Gibt an, dass vertikales WordArt von rechts nach links und nicht von links nach rechts angezeigt werden soll.|
 

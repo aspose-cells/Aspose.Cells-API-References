@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_name_to_index yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def row_name_to_index(self, row_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | row_name | str | Satır adı.|
 

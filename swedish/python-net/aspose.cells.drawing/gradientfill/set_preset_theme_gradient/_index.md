@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_preset_theme_gradient metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def set_preset_theme_gradient(self, gradient_type, theme_color_type):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | gradient_type | [PresetThemeGradientType](/cells/sv/python-net/aspose.cells.drawing/presetthemegradienttype) | Den förinställda gradienttypen.|
 | theme_color_type | [ThemeColorType](/cells/sv/python-net/aspose.cells/themecolortype) | Temat färgtyp.|

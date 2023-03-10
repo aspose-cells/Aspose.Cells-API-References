@@ -1,4 +1,4 @@
-﻿---
+---
 title: iteration propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,11 +9,11 @@ is_root: false
 ---
 ##  iteration propriété
 
-Indique s'il faut activer le calcul itératif pour résoudre les références circulaires.
+Indique si le calcul itératif est activé pour résoudre les références circulaires.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Utilisez plutôt FormulaSettings.EnableIterativeCalculation.
+REMARQUE : ce membre est désormais obsolète. Au lieu de cela, veuillez utiliser FormulaSettings.EnableIterativeCalculation.
  Cette propriété sera supprimée 12 mois plus tard depuis février 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

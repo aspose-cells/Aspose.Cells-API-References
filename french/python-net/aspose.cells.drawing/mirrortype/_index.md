@@ -1,4 +1,4 @@
-﻿---
+---
 title: MirrorType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type MirrorType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | NONE | Aucun|
-| HORIZONAL | Horizontal|
+| HORIZONAL | Horizontale|
 | VERTICAL | Vertical|
 | BOTH | Les deux|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_text_wrapped недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает тип переноса текста для фигуры, содержащей текст.
 
-###  Примеры
+###  Пример
 
 ```python
 

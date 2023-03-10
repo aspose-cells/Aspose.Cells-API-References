@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_title_rows недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Представляет строки, содержащие ячейки, которые должны повторяться в верхней части каждой страницы.
 
-###  Примеры
+###  Пример
 
 ```python
 

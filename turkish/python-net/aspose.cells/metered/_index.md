@@ -1,4 +1,4 @@
-﻿---
+---
 title: Metered sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/metered/
 is_root: false
 ---
 ##  Metered sınıfı
-Ölçülen anahtarları ayarlamak için yöntemler sağlar.
+Ölçülen anahtarı ayarlamak için yöntemler sağlar.
 
 
 
@@ -23,15 +23,15 @@ Metered türü aşağıdaki üyeleri gösterir:
 ###  Yöntemler
 | Yöntem| Tanım|
 | :- | :- |
-| [set_metered_key(public_key, private_key)](/cells/tr/python-net/aspose.cells/metered/set_metered_key/#str-str) | Tarifeli genel ve özel anahtarları ayarlar.<br/>Tarifeli lisans alıyorsanız başvuruyu başlatırken bu API aranmalı normalde bu yeterlidir lisans durumunu düzenli olarak kontrol etmelisiniz değerlendirme durumu ise tekrar API arayınız.|
+| [set_metered_key(public_key, private_key)](/cells/tr/python-net/aspose.cells/metered/set_metered_key/#str-str) | Tarifeli genel ve özel anahtarı ayarlar.<br/>Sayaçlı lisans satın alıyorsanız, uygulamayı başlattığınızda bu API aranmalıdır, normalde bu yeterlidir. Ancak, tüketim verilerini her zaman yükleyemezseniz ve 24 saati aşarsanız, lisans değerlendirme durumuna alınır, böyle bir durumla karşılaşmamak için lisans durumunu düzenli olarak kontrol etmelisiniz, değerlendirme durumuysa, bu API'i tekrar arayın.|
 | [get_consumption_quantity()](/cells/tr/python-net/aspose.cells/metered/get_consumption_quantity/#) | Tüketim dosyası boyutunu alır|
 | [get_consumption_credit()](/cells/tr/python-net/aspose.cells/metered/get_consumption_credit/#) | Tüketim kredisi alıyor|
 
 
 
-###  örnekler
+###  Örnek
 
-Bu örnekte ölçülü genel ve özel anahtarlar ayarlanmaya çalışılacaktır.
+Bu örnekte ölçülü genel ve özel anahtar ayarlanmaya çalışılacaktır.
 
 
 ```python

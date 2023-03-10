@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_calculation_chain fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  enable_calculation_chain fastighet
 
-Om aktivera beräkningskedja för formler.
+Om aktivera beräkningskedja för formler. Standard är falskt.
 
 ###  Anmärkningar
 

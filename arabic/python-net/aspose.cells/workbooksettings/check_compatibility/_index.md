@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_compatibility الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  check_compatibility الملكية
 
-يشير إلى ما إذا كان التحقق من التوافق مع الإصدارات السابقة عند حفظ المصنفات.
+يشير إلى ما إذا كان التحقق من التوافق مع الإصدارات السابقة عند حفظ المصنف.
 
 ###  ملاحظات
 

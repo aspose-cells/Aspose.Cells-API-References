@@ -1,6 +1,6 @@
-﻿---
+---
 title: insert_rows方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 730
@@ -18,7 +18,7 @@ def insert_rows(self, row_index, total_rows):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_index | int |行索引。|
 | total_rows | int |要插入的行数。|
@@ -35,7 +35,7 @@ def insert_rows(self, row_index, total_rows, update_reference):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_index | int |行索引。|
 | total_rows | int |要插入的行数。|
@@ -53,7 +53,7 @@ def insert_rows(self, row_index, total_rows, options):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | row_index | int |行索引。|
 | total_rows | int |要插入的行数。|

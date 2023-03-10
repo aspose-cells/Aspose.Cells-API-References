@@ -1,4 +1,4 @@
-﻿---
+---
 title: id_name propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  id_name propiedad
 
-Obtiene y establece el nombre de la columna de id.
+Obtiene y establece el nombre de la columna de identificación.
 
 ###  Observaciones
 

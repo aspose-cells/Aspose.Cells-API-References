@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_width_inch mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_inch mülk
 
-Pencerenin inç cinsinden genişliği.
+Pencerenin inç birimi cinsinden genişliği.
 ###  Tanım:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد PdfCompliance
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.rendering/pdfcompliance/
 is_root: false
 ---
 ##  العد PdfCompliance
-السماح للمستخدم بضبط توافق التحويل PDF
+السماح للمستخدم بتعيين توافق التحويل PDF
 
 
 

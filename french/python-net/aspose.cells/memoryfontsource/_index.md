@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemoryFontSource classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type MemoryFontSource expose les membres suivants :
 ###  Constructeurs
 | Constructeur| Description|
 | :- | :- |
-| [MemoryFontSource(font_data)](/cells/fr/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Directeur.|
+| [MemoryFontSource(font_data)](/cells/fr/python-net/aspose.cells/memoryfontsource/__init__/#bytes) | Ctor.|
 
 
 ###  Propriétés

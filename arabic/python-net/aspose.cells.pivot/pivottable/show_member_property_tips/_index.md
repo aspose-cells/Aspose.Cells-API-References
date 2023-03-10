@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_member_property_tips الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

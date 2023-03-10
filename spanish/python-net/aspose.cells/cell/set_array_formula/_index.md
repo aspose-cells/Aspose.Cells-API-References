@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_array_formula método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_formula | str | Fórmula matricial.|
 | row_number | int |Número de filas para completar el resultado de la fórmula de matriz.|
@@ -36,7 +36,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_formula | str | Fórmula matricial.|
 | row_number | int |Número de filas para completar el resultado de la fórmula de matriz.|
@@ -55,7 +55,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_formula | str | Fórmula matricial.|
 | row_number | int |Número de filas para completar el resultado de la fórmula de matriz.|
@@ -64,7 +64,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | is_local | bool | si la fórmula tiene formato local|
 ###  Observaciones
 
-NOTA: Esta clase ahora está obsoleta.
+NOTA: Esta clase ahora está obsoleta. En cambio,
 utilice Cell.SetArrayFormula(string,int,int,FormulaParseOptions).
 Esta propiedad se eliminará 12 meses después desde diciembre de 2019.
 Aspose se disculpa por cualquier inconveniente que pueda haber experimentado.
@@ -80,7 +80,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_formula | str | Fórmula matricial.|
 | row_number | int |Número de filas para completar el resultado de la fórmula de matriz.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: mso_drawing_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtient le type de dessin mso.
 
-###  Exemples
+###  Exemple
 
 ```python
 

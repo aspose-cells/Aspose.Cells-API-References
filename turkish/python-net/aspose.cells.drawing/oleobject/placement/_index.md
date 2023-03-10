@@ -1,4 +1,4 @@
-﻿---
+---
 title: placement mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -12,7 +12,7 @@ is_root: false
 Çizim nesnesinin altındaki hücrelere iliştirilme şeklini temsil eder.
 Özellik, çalışma sayfasındaki bir nesnenin placement'ini denetler.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells.drawing import PlacementType

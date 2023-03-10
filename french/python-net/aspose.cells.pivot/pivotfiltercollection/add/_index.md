@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def add(self, field_index, type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | field_index | int | l'indice PivotField|
 | type | [PivotFilterType](/cells/fr/python-net/aspose.cells.pivot/pivotfiltertype) | le type de filtre croisé dynamique|

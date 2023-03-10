@@ -1,4 +1,4 @@
-﻿---
+---
 title: window_width_inch fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  window_width_inch fastighet
 
-Fönstrets bredd, i enheter av tum.
+Fönstrets bredd, i enhet av tum.
 ###  Definition:
 ```python
 @property

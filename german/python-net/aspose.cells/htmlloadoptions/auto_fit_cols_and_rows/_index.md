@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_cols_and_rows Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  auto_fit_cols_and_rows Eigentum
 
-Gibt an, ob Spalten und Zeilen automatisch angepasst werden.
+Gibt an, ob Spalten und Zeilen automatisch angepasst werden. Der Standardwert ist falsch.
 ###  Definition:
 ```python
 @property

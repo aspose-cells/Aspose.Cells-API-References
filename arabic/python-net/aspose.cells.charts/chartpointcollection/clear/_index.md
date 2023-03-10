@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة clear
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.charts/chartpointcollection/clear/
 is_root: false
 ---
 ##  clear() {#}
-قم بإزالة كافة إعدادات نقاط الرسم البياني.
+قم بإزالة كل إعدادات نقاط الرسم البياني.
 
 
 

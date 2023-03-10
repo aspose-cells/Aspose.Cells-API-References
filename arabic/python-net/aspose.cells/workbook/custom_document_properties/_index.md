@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_document_properties الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 تقوم بارجاع مجموعة [DocumentProperty](/cells/ar/python-net/aspose.cells.properties/documentproperty) التي تمثل كل خصائص الوثيقة المهيأة للجدول الحسابي.
 
-###  أمثلة
+###  مثال
 
 ```python
 from aspose.cells import Workbook

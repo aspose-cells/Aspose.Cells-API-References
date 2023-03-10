@@ -1,4 +1,4 @@
-﻿---
+---
 title: transparent fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Indikerar om bakgrunden för den genererade bilden ska vara transparent.
 
 ###  Anmärkningar
 
-Standardvärdet är falskt.
+Standardvärdet är falskt. Det betyder att bakgrunden för de genererade bilderna är vit.
 ###  Definition:
 ```python
 @property

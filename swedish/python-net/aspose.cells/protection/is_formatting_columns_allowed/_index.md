@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_formatting_columns_allowed fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,8 +13,8 @@ Representerar om formatering av kolumner är tillåten på ett skyddat kalkylbla
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
- använd skydd. Egenskapen AllowFormattingColumn.
+ OBS: Denna medlem är nu föråldrad. Istället,
+ använd egenskapen Protection.AllowFormattingColumn.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2010.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

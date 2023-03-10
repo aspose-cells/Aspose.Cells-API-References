@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_builtin_table_style Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

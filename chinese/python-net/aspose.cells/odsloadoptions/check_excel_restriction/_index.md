@@ -1,6 +1,6 @@
-﻿---
+---
 title: check_excel_restriction 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ is_root: false
 如果此属性为 false，我们将接受您输入的字符串值作为单元格的值，以便稍后
 您可以输出其他文件格式的完整字符串值，例如 CSV。
 但是，如果您设置了这种对 excel 文件格式无效的值，
-您以后不应将工作簿另存为 excel 文件格式。
+您以后不应将工作簿另存为 excel 文件格式。否则生成的excel文件可能会出现意外错误。
 ### 定义：
 ```python
 @property

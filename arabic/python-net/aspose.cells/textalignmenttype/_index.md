@@ -1,4 +1,4 @@
-﻿---
+---
 title: العد TextAlignmentType
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/textalignmenttype/
 is_root: false
 ---
 ##  العد TextAlignmentType
-يعدّد أنواع محاذاة النص.
+تعداد أنواع محاذاة النص.
 
 
 

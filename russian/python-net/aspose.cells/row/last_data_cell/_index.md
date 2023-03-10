@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_data_cell недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_external_names mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  sort_external_names mülk
 
-Dosyayı kaydetmeden önce harici olarak tanımlanmış adların sıralanıp sıralanmadığını gösterir.
+Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmadığını gösterir.
 ###  Tanım:
 ```python
 @property

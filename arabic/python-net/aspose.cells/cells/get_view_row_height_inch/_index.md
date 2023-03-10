@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_view_row_height_inch
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells/cells/get_view_row_height_inch/
 is_root: false
 ---
 ##  get_view_row_height_inch(row) {#int}
-الحصول على ارتفاع صف معين بوحدات البوصة.
+الحصول على ارتفاع صف محدد بوحدة البوصة.
 
 
 ###  عائدات
@@ -22,7 +22,7 @@ def get_view_row_height_inch(self, row):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | row | int | فهرس الصف|
 

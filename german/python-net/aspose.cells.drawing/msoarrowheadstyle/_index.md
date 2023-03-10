@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoArrowheadStyle Aufzählung
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -21,7 +21,7 @@ Der Typ MsoArrowheadStyle macht die folgenden Member verfügbar:
 | ARROW | Endtyp der Pfeillinie.|
 | ARROW_STEALTH | Arrow Stealth-Linienendetyp.|
 | ARROW_DIAMOND | Arrow Diamond Line Endtyp.|
-| ARROW_OVAL | Ovaler Linienendtyp des Pfeils.|
+| ARROW_OVAL | Pfeil Ovaler Linienendetyp.|
 | ARROW_OPEN | Pfeil Offener Linienendetyp.|
 
 

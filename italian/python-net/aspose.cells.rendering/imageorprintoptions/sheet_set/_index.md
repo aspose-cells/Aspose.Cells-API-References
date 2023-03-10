@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_set proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

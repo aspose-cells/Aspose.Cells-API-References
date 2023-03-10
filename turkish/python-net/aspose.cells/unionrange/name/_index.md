@@ -1,4 +1,4 @@
-﻿---
+---
 title: name mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Aralığın name'ini alır veya ayarlar.
 
 ###  Notlar
 
-Adlandırılmış aralık desteklenir.
+Adlandırılmış aralık desteklenir. Örneğin,
 
 range.Name = "Sayfa1!Aralığım";
 ###  Tanım:

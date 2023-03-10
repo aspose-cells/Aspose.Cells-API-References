@@ -1,4 +1,4 @@
-﻿---
+---
 title: on_circular yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -14,7 +14,7 @@ Döngüsel referanslara sahip formülleri hesaplarken iş yapmak için bu yönte
 ###  İadeler
 
 Formül motorunun bu aramadan sonra bu hücreleri döngüsel olarak hesaplaması gerekip gerekmediği.
-True, formül motorunun onlar için hesaplamalar yapmaya devam etmesine izin verir.
+True, formül motorunun onlar için hesaplama yapmaya devam etmesine izin verir.
 Formül motorunun bu hücreleri Hesaplanmış olarak işaretlemesine izin vermek için yanlış.
 
 
@@ -24,7 +24,7 @@ def on_circular(self, circular_cells_data):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | circular_cells_data | collections.abc.Iterator | CalculationCell ile IEnumerator hücreleri temsil eden öğeler<br/> döngüsel referanslara bağlıdır.|
 ###  Notlar

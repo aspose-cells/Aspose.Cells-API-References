@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_range método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def set_range(self, row, start_column, end_column):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | row | int | Índice de fila.|
 | start_column | int | Índice de la columna de inicio.|

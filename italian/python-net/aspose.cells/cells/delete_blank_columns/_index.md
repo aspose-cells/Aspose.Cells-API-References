@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo delete_blank_columns
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -31,7 +31,7 @@ def delete_blank_columns(self, options):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | options | [DeleteOptions](/cells/it/python-net/aspose.cells/deleteoptions) | Le opzioni di eliminazione dell'intervallo.|
 

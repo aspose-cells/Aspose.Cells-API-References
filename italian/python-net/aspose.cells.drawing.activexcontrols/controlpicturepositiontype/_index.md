@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlPicturePositionType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -29,7 +29,7 @@ Il tipo ControlPicturePositionType espone i membri seguenti:
 | BELOW_LEFT | L'immagine appare sotto la didascalia.<br/> La didascalia è allineata con il bordo sinistro dell'immagine.|
 | BELOW_CENTER | L'immagine appare sotto la didascalia.<br/>La didascalia è centrata sopra l'immagine.|
 | BELOW_RIGHT | L'immagine appare sotto la didascalia.<br/> La didascalia è allineata con il bordo destro dell'immagine.|
-| CENTER | L'immagine appare al centro del controllo.<br/> La didascalia è centrata orizzontalmente e verticalmente sulla parte superiore dell'immagine.|
+| CENTER | L'immagine appare al centro del controllo.<br/> La didascalia è centrata orizzontalmente e verticalmente sopra l'immagine.|
 
 
 

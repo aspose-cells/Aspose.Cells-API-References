@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_line método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -8,7 +8,7 @@ url: /es/python-net/aspose.cells.drawing/shapecollection/add_line/
 is_root: false
 ---
 ##  add_line(upper_left_row, top, upper_left_column, left, height, width) {#int-int-int-int-int-int}
-Agrega un LineShape a la hoja de trabajo.
+Agrega un LineShape a la hoja de cálculo.
 
 
 ###  Devoluciones
@@ -22,7 +22,7 @@ def add_line(self, upper_left_row, top, upper_left_column, left, height, width):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int | Índice de la fila superior izquierda.|
 | top | int | Representa el desplazamiento vertical de LineShape desde su fila izquierda, en unidades de píxel.|
@@ -31,7 +31,7 @@ def add_line(self, upper_left_row, top, upper_left_column, left, height, width):
 | height | int | Representa la altura de LineShape, en unidades de píxel.|
 | width | int | Representa el ancho de LineShape, en unidades de píxel.|
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

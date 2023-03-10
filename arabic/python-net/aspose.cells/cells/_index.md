@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cells الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -17,20 +17,20 @@ is_root: false
 ###  ملكيات
 | ملكية| وصف|
 | :- | :- |
-| [ods_cell_fields](/cells/ar/python-net/aspose.cells/cells/ods_cell_fields) | يحصل على قائمة مجالات الاحتمالات.|
+| [ods_cell_fields](/cells/ar/python-net/aspose.cells/cells/ods_cell_fields) | يحصل على قائمة الحقول.|
 | [count](/cells/ar/python-net/aspose.cells/cells/count) | الحصول على العدد الإجمالي للعناصر التي تم إنشاء مثيل لها Cell.|
 | [count_large](/cells/ar/python-net/aspose.cells/cells/count_large) | الحصول على العدد الإجمالي للعناصر التي تم إنشاء مثيل لها Cell.|
 | [rows](/cells/ar/python-net/aspose.cells/cells/rows) | الحصول على مجموعة [Row](/cells/ar/python-net/aspose.cells/row) كائنات تمثل الصفوف الفردية بورقة العمل هذه.|
 | [merged_cells](/cells/ar/python-net/aspose.cells/cells/merged_cells) | يحصل على مجموعة الخلايا المدمجة.|
 | [multi_thread_reading](/cells/ar/python-net/aspose.cells/cells/multi_thread_reading) | الحصول على أو تحديد ما إذا كان يجب أن يدعم نموذج بيانات الخلايا القراءة متعددة الخيوط.<br/> القيمة الافتراضية لهذه الخاصية خاطئة.|
-| [memory_setting](/cells/ar/python-net/aspose.cells/cells/memory_setting) | الحصول على أو تعيين خيار استخدام الذاكرة لهذه الخلية.|
+| [memory_setting](/cells/ar/python-net/aspose.cells/cells/memory_setting) | الحصول على أو تعيين خيار استخدام الذاكرة لهذه الخلايا.|
 | [style](/cells/ar/python-net/aspose.cells/cells/style) | الحصول على النمط الافتراضي وتعيينه.|
-| [standard_width_inch](/cells/ar/python-net/aspose.cells/cells/standard_width_inch) |الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، بوحدات البوصات.|
-| [standard_width_pixels](/cells/ar/python-net/aspose.cells/cells/standard_width_pixels) | الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، بوحدات البكسل.|
-| [standard_width](/cells/ar/python-net/aspose.cells/cells/standard_width) | الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، بوحدات الأحرف.|
-| [standard_height](/cells/ar/python-net/aspose.cells/cells/standard_height) | الحصول على أو تعيين ارتفاع الصف الافتراضي في ورقة العمل هذه ، بوحدات النقاط.|
-| [standard_height_pixels](/cells/ar/python-net/aspose.cells/cells/standard_height_pixels) | الحصول على أو تعيين ارتفاع الصف الافتراضي في ورقة العمل هذه ، بوحدات البكسل.|
-| [standard_height_inch](/cells/ar/python-net/aspose.cells/cells/standard_height_inch) | الحصول على ارتفاع الصف الافتراضي أو تعيينه في ورقة العمل هذه ، بوحدات البوصة.|
+| [standard_width_inch](/cells/ar/python-net/aspose.cells/cells/standard_width_inch) |الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، بوحدة البوصة.|
+| [standard_width_pixels](/cells/ar/python-net/aspose.cells/cells/standard_width_pixels) | الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، بوحدة البكسل.|
+| [standard_width](/cells/ar/python-net/aspose.cells/cells/standard_width) | الحصول على أو تعيين عرض العمود الافتراضي في ورقة العمل ، في وحدة من الأحرف.|
+| [standard_height](/cells/ar/python-net/aspose.cells/cells/standard_height) | الحصول على أو تعيين ارتفاع الصف الافتراضي في ورقة العمل هذه ، في وحدة النقاط.|
+| [standard_height_pixels](/cells/ar/python-net/aspose.cells/cells/standard_height_pixels) | الحصول على ارتفاع الصف الافتراضي أو تعيينه في ورقة العمل هذه ، بوحدة البكسل.|
+| [standard_height_inch](/cells/ar/python-net/aspose.cells/cells/standard_height_inch) | الحصول على ارتفاع الصف الافتراضي أو تعيينه في ورقة العمل هذه ، بوحدة البوصة.|
 | [preserve_string](/cells/ar/python-net/aspose.cells/cells/preserve_string) | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم الاحتفاظ بجميع قيم ورقة العمل كسلاسل أم لا.<br/> الافتراضي هو خطأ.|
 | [min_row](/cells/ar/python-net/aspose.cells/cells/min_row) | الحد الأدنى لفهرس صف الخلية الذي يحتوي على بيانات أو نمط.|
 | [max_row](/cells/ar/python-net/aspose.cells/cells/max_row) | الحد الأقصى لفهرس صف الخلية الذي يحتوي على بيانات أو نمط.|
@@ -42,7 +42,7 @@ is_root: false
 | [max_data_column](/cells/ar/python-net/aspose.cells/cells/max_data_column) | الحد الأقصى لفهرس عمود الخلية الذي يحتوي على بيانات.|
 | [is_default_row_height_matched](/cells/ar/python-net/aspose.cells/cells/is_default_row_height_matched) | يشير إلى تطابق ارتفاع الصف وارتفاع الخط الافتراضي|
 | [is_default_row_hidden](/cells/ar/python-net/aspose.cells/cells/is_default_row_hidden) | يشير إلى ما إذا كان الصف مخفيًا افتراضيًا.|
-| [columns](/cells/ar/python-net/aspose.cells/cells/columns) | الحصول على مجموعة [Column](/cells/ar/python-net/aspose.cells/column) كائنات تمثل الأعمدة الفردية في ورقة العمل هذه.|
+| [columns](/cells/ar/python-net/aspose.cells/cells/columns) | الحصول على مجموعة [Column](/cells/ar/python-net/aspose.cells/column) كائنات تمثل الأعمدة الفردية بورقة العمل هذه.|
 | [ranges](/cells/ar/python-net/aspose.cells/cells/ranges) | الحصول على مجموعة [Range](/cells/ar/python-net/aspose.cells/range) من العناصر التي تم تكوينها في وقت التشغيل.|
 | [last_cell](/cells/ar/python-net/aspose.cells/cells/last_cell) | الحصول على الخلية الأخيرة في ورقة العمل هذه.|
 | [max_display_range](/cells/ar/python-net/aspose.cells/cells/max_display_range) | الحصول على النطاق الأقصى الذي يتضمن البيانات والخلايا والأشكال المدمجة.|
@@ -68,7 +68,7 @@ is_root: false
 | [get(cell_name)](/cells/ar/python-net/aspose.cells/cells/get/#str) | أضف API for Python عبر .Net. نظرًا لأن [string cellName] غير مدعوم|
 | [import_object_array(obj_array, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool) | يستورد مصفوفة من البيانات في ورقة عمل.|
 | [import_object_array(obj_array, first_row, first_column, is_vertical, skip)](/cells/ar/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool-int) | يستورد مصفوفة من البيانات في ورقة عمل.|
-| [import_array(string_array, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | يستورد مصفوفة من السلاسل في ورقة عمل.|
+| [import_array(string_array, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | يستورد مصفوفة سلسلة في ورقة عمل.|
 | [import_array(int_array, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | يستورد مصفوفة من الأعداد الصحيحة في ورقة عمل.|
 | [import_array(double_array, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_array/#list-int-int-bool) | يستورد صفيف من المضاعفات في ورقة عمل.|
 | [import_csv(file_name, splitter, convert_numeric_data, first_row, first_column)](/cells/ar/python-net/aspose.cells/cells/import_csv/#str-str-bool-int-int) | قم باستقبال ملف CSV للخلايا.|
@@ -84,10 +84,10 @@ is_root: false
 | [copy_rows(source_cells, source_row_index, destination_row_index, row_number)](/cells/ar/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int) | ينسخ البيانات وتنسيقات بعض الصفوف بأكملها.|
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options)](/cells/ar/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions) | ينسخ البيانات وتنسيقات بعض الصفوف بأكملها.|
 | [copy_rows(source_cells0, source_row_index, destination_row_index, row_number, copy_options, paste_options)](/cells/ar/python-net/aspose.cells/cells/copy_rows/#Cells-int-int-int-CopyOptions-PasteOptions) | ينسخ البيانات وتنسيقات بعض الصفوف بأكملها.|
-| [group_columns(first_index, last_index)](/cells/ar/python-net/aspose.cells/cells/group_columns/#int-int) | تجميع الأعمدة.|
-| [group_columns(first_index, last_index, is_hidden)](/cells/ar/python-net/aspose.cells/cells/group_columns/#int-int-bool) | تجميع الأعمدة.|
-| [ungroup_rows(first_index, last_index, is_all)](/cells/ar/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | فك تجميع الصفوف.|
-| [ungroup_rows(first_index, last_index)](/cells/ar/python-net/aspose.cells/cells/ungroup_rows/#int-int) | فك تجميع الصفوف.|
+| [group_columns(first_index, last_index)](/cells/ar/python-net/aspose.cells/cells/group_columns/#int-int) | أعمدة المجموعات.|
+| [group_columns(first_index, last_index, is_hidden)](/cells/ar/python-net/aspose.cells/cells/group_columns/#int-int-bool) | أعمدة المجموعات.|
+| [ungroup_rows(first_index, last_index, is_all)](/cells/ar/python-net/aspose.cells/cells/ungroup_rows/#int-int-bool) | يفك تجميع الصفوف.|
+| [ungroup_rows(first_index, last_index)](/cells/ar/python-net/aspose.cells/cells/ungroup_rows/#int-int) | يفك تجميع الصفوف.|
 | [group_rows(first_index, last_index, is_hidden)](/cells/ar/python-net/aspose.cells/cells/group_rows/#int-int-bool) | صفوف المجموعات.|
 | [group_rows(first_index, last_index)](/cells/ar/python-net/aspose.cells/cells/group_rows/#int-int) | صفوف المجموعات.|
 | [delete_column(column_index, update_reference)](/cells/ar/python-net/aspose.cells/cells/delete_column/#int-bool) | يحذف عمود.|
@@ -139,16 +139,16 @@ is_root: false
 | [clear()](/cells/ar/python-net/aspose.cells/cells/clear/#) | يمسح كل كائنات الخلية والصف.|
 | [import_data(table, first_row, first_column, options)](/cells/ar/python-net/aspose.cells/cells/import_data/#ICellsDataTable-int-int-ImportTableOptions) | استيراد البيانات من جدول البيانات المخصصة.|
 | [import_array_list(array_list, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_array_list/#list-int-int-bool) | يستورد قائمة صفائف من البيانات في ورقة عمل.|
-| [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) | يستورد صفيف من الصيغ في ورقة عمل.|
-| [text_to_columns(row, column, total_rows, options)](/cells/ar/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | يقسم النص في الأعمدة إلى أعمدة.|
+| [import_formula_array(string_array, first_row, first_column, is_vertical)](/cells/ar/python-net/aspose.cells/cells/import_formula_array/#list-int-int-bool) | يستورد مصفوفة من الصيغة في ورقة عمل.|
+| [text_to_columns(row, column, total_rows, options)](/cells/ar/python-net/aspose.cells/cells/text_to_columns/#int-int-int-TxtLoadOptions) | يقسم النص في العمود إلى أعمدة.|
 | [un_merge(first_row, first_column, total_rows, total_columns)](/cells/ar/python-net/aspose.cells/cells/un_merge/#int-int-int-int) | يدمج نطاقًا محددًا من الخلايا المدمجة.|
 | [clear_merged_cells()](/cells/ar/python-net/aspose.cells/cells/clear_merged_cells/#) | مسح كافة النطاقات المدمجة.|
 | [hide_row(row)](/cells/ar/python-net/aspose.cells/cells/hide_row/#int) | يخفي صفًا.|
-| [unhide_row(row, height)](/cells/ar/python-net/aspose.cells/cells/unhide_row/#int-float) | إظهار صف.|
+| [unhide_row(row, height)](/cells/ar/python-net/aspose.cells/cells/unhide_row/#int-float) | يُظهر صفًا.|
 | [hide_rows(row, total_rows)](/cells/ar/python-net/aspose.cells/cells/hide_rows/#int-int) | يخفي عدة صفوف.|
 | [unhide_rows(row, total_rows, height)](/cells/ar/python-net/aspose.cells/cells/unhide_rows/#int-int-float) | يكشف الصفوف المخفية.|
 | [set_row_height_pixel(row, pixels)](/cells/ar/python-net/aspose.cells/cells/set_row_height_pixel/#int-int) | يضبط ارتفاع الصف بوحدة البكسل.|
-| [set_row_height_inch(row, inches)](/cells/ar/python-net/aspose.cells/cells/set_row_height_inch/#int-float) | يضبط ارتفاع الصف بوحدات البوصة.|
+| [set_row_height_inch(row, inches)](/cells/ar/python-net/aspose.cells/cells/set_row_height_inch/#int-float) | يضبط ارتفاع الصف بوحدة البوصة.|
 | [set_row_height(row, height)](/cells/ar/python-net/aspose.cells/cells/set_row_height/#int-float) | يضبط ارتفاع الصف المحدد.|
 | [get_row_original_height_point(row)](/cells/ar/python-net/aspose.cells/cells/get_row_original_height_point/#int) | الحصول على ارتفاع الصف الأصلي بوحدة النقطة إذا كان الصف مخفيًا|
 | [hide_column(column)](/cells/ar/python-net/aspose.cells/cells/hide_column/#int) | يخفي عمود.|
@@ -158,16 +158,16 @@ is_root: false
 | [get_row_height(row)](/cells/ar/python-net/aspose.cells/cells/get_row_height/#int) | الحصول على ارتفاع صف معين.|
 | [get_view_row_height(row)](/cells/ar/python-net/aspose.cells/cells/get_view_row_height/#int) | الحصول على ارتفاع صف معين.|
 | [get_row_height_pixel(row)](/cells/ar/python-net/aspose.cells/cells/get_row_height_pixel/#int) | الحصول على ارتفاع صف محدد بوحدة البكسل.|
-| [get_row_height_inch(row)](/cells/ar/python-net/aspose.cells/cells/get_row_height_inch/#int) | الحصول على ارتفاع صف معين بوحدات البوصة.|
-| [get_view_row_height_inch(row)](/cells/ar/python-net/aspose.cells/cells/get_view_row_height_inch/#int) | الحصول على ارتفاع صف معين بوحدات البوصة.|
+| [get_row_height_inch(row)](/cells/ar/python-net/aspose.cells/cells/get_row_height_inch/#int) | الحصول على ارتفاع صف محدد بوحدة البوصة.|
+| [get_view_row_height_inch(row)](/cells/ar/python-net/aspose.cells/cells/get_view_row_height_inch/#int) | الحصول على ارتفاع صف محدد بوحدة البوصة.|
 | [set_column_width_pixel(column, pixels)](/cells/ar/python-net/aspose.cells/cells/set_column_width_pixel/#int-int) | يضبط عرض العمود بوحدة البكسل في العرض العادي.|
 | [set_column_width_inch(column, inches)](/cells/ar/python-net/aspose.cells/cells/set_column_width_inch/#int-float) | يضبط عرض العمود بوحدة بوصة في العرض العادي.|
 | [set_column_width(column, width)](/cells/ar/python-net/aspose.cells/cells/set_column_width/#int-float) | يضبط عرض العمود المحدد في العرض العادي.|
 | [get_column_width_pixel(column)](/cells/ar/python-net/aspose.cells/cells/get_column_width_pixel/#int) | الحصول على عرض العمود المحدد في العرض العادي ، بوحدات البكسل.|
 | [get_column_width_inch(column)](/cells/ar/python-net/aspose.cells/cells/get_column_width_inch/#int) | الحصول على عرض العمود المحدد في العرض العادي ، بوحدات البوصات.|
 | [get_column_width(column)](/cells/ar/python-net/aspose.cells/cells/get_column_width/#int) | الحصول على عرض العمود المحدد في العرض العادي|
-| [get_view_column_width_pixel(column)](/cells/ar/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | احصل على العرض في أنواع طرق العرض المختلفة.|
-| [set_view_column_width_pixel(column, pixels)](/cells/ar/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | يضبط عرض العمود في طرق عرض مختلفة.|
+| [get_view_column_width_pixel(column)](/cells/ar/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | احصل على العرض بنوع عرض مختلف.|
+| [set_view_column_width_pixel(column, pixels)](/cells/ar/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | يضبط عرض العمود في طريقة عرض مختلفة.|
 | [get_last_data_row(column)](/cells/ar/python-net/aspose.cells/cells/get_last_data_row/#int) | الحصول على فهرس صف الخلية الأخير الذي يحتوي على بيانات في العمود المحدد.|
 | [apply_column_style(column, style, flag)](/cells/ar/python-net/aspose.cells/cells/apply_column_style/#int-Style-StyleFlag) | يطبق تنسيقات لعمود كامل.|
 | [apply_row_style(row, style, flag)](/cells/ar/python-net/aspose.cells/cells/apply_row_style/#int-Style-StyleFlag) | يطبق التنسيقات على صف كامل.|
@@ -193,10 +193,10 @@ is_root: false
 | [insert_cut_cells(cut_range, row, column, shift_type)](/cells/ar/python-net/aspose.cells/cells/insert_cut_cells/#Range-int-int-ShiftType) | أدخل نطاق القطع.|
 | [delete_range(start_row, start_column, end_row, end_column, shift_type)](/cells/ar/python-net/aspose.cells/cells/delete_range/#int-int-int-int-ShiftType) | يحذف نطاقًا من الخلايا ويحول الخلايا وفقًا لخيار الإزاحة.|
 | [retrieve_subtotal_setting(ca)](/cells/ar/python-net/aspose.cells/cells/retrieve_subtotal_setting/#CellArea) | يسترجع إعداد المجاميع الفرعية للنطاق.|
-| [remove_formulas()](/cells/ar/python-net/aspose.cells/cells/remove_formulas/#) | يزيل كل الصيغ ويستبدل بقيمة الصيغة.|
-| [convert_string_to_numeric_value()](/cells/ar/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) |يحول بيانات السلسلة في الخلايا إلى قيم رقمية إن أمكن.|
+| [remove_formulas()](/cells/ar/python-net/aspose.cells/cells/remove_formulas/#) | يزيل كل الصيغة ويستبدل بقيمة الصيغة.|
+| [convert_string_to_numeric_value()](/cells/ar/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) |يحول بيانات السلسلة في الخلايا إلى قيمة رقمية إن أمكن.|
 | [get_dependents(is_all, row, column)](/cells/ar/python-net/aspose.cells/cells/get_dependents/#bool-int-int) | احصل على جميع الخلايا التي تشير إلى الخلية المحددة.|
-| [get_dependents_in_calculation(row, column, recursive)](/cells/ar/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | يحصل على جميع الخلايا التي تعتمد نتيجتها المحسوبة على خلايا معينة.|
+| [get_dependents_in_calculation(row, column, recursive)](/cells/ar/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | يحصل على جميع الخلايا التي تعتمد نتيجتها المحسوبة على خلية معينة.|
 | [get_cell_style(row, column)](/cells/ar/python-net/aspose.cells/cells/get_cell_style/#int-int) | احصل على نمط خلية معينة.|
 
 

@@ -1,6 +1,6 @@
-﻿---
+---
 title: start_sheet方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 60
@@ -13,7 +13,7 @@ is_root: false
 
 ### 返回
 
-此工作表的单元格数据是否需要处理。false 忽略此工作表。
+此工作表的单元格数据是否需要处理。 false 忽略此工作表。
 
 
 ```python
@@ -22,7 +22,7 @@ def start_sheet(self, sheet):
 ```
 
 
-|参数|类型|描述|
+|范围|类型|描述|
 | :- | :- | :- |
 | sheet | [Worksheet](/cells/zh/python-net/aspose.cells/worksheet) |读取单元格数据的工作表。|
 ### 评论

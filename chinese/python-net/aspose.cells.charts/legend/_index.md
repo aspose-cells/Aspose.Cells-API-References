@@ -1,6 +1,6 @@
-﻿---
+---
 title: Legend类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 170
@@ -29,7 +29,7 @@ Legend 类型公开了以下成员：
 | [text_font](/cells/zh/python-net/aspose.cells.charts/legend/text_font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
 | [text_options](/cells/zh/python-net/aspose.cells.charts/legend/text_options) |获取和设置文本的选项。|
 | [font](/cells/zh/python-net/aspose.cells.charts/legend/font) |获取指定 ChartFrame 对象的 [ChartFrame.font](/cells/zh/python-net/aspose.cells.charts/chartframe#font) 对象。|
-| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/legend/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。|
+| [auto_scale_font](/cells/zh/python-net/aspose.cells.charts/legend/auto_scale_font) |如果对象中的文本在对象大小更改时更改字体大小，则为真。默认值是true。|
 | [background_mode](/cells/zh/python-net/aspose.cells.charts/legend/background_mode) |获取和设置背景的显示方式|
 | [background](/cells/zh/python-net/aspose.cells.charts/legend/background) |获取和设置背景的显示方式|
 | [is_automatic_size](/cells/zh/python-net/aspose.cells.charts/legend/is_automatic_size) |指示图表框是否自动调整大小。|
@@ -56,7 +56,7 @@ Legend 类型公开了以下成员：
 | [reading_order](/cells/zh/python-net/aspose.cells.charts/legend/reading_order) |表示文本阅读顺序。|
 | [direction_type](/cells/zh/python-net/aspose.cells.charts/legend/direction_type) |获取和设置文本的方向。|
 | [is_text_wrapped](/cells/zh/python-net/aspose.cells.charts/legend/is_text_wrapped) |获取或设置一个值，该值指示文本是否换行。|
-| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。<br/>当缩放形状内的文本以包含内部的所有文本时。|
+| [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。自动拟合是<br/>当缩放形状内的文本以包含内部的所有文本时。|
 | [position](/cells/zh/python-net/aspose.cells.charts/legend/position) |获取或设置图例位置类型。|
 | [legend_entries](/cells/zh/python-net/aspose.cells.charts/legend/legend_entries) |获取指定图表图例中所有 LegendEntry 对象的集合。<br/>不支持设置曲面图的图例项。<br/>因此，如果图表类型是曲面图表类型，它将返回 null。|
 | [legend_entries_labels](/cells/zh/python-net/aspose.cells.charts/legend/legend_entries_labels) |调用 Chart.Calculate() 方法后获取图例条目的标签。|

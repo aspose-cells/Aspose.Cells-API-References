@@ -1,4 +1,4 @@
-﻿---
+---
 title: CopyFormatType uppräkning
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ Typen CopyFormatType avslöjar följande medlemmar:
 | :- | :- |
 | SAME_AS_ABOVE |Format samma som ovanstående rad.|
 | SAME_AS_BELOW | Format samma som under raden.|
-| CLEAR | Rensa formatering.|
+| CLEAR | Rensar formatering.|
 
 
 

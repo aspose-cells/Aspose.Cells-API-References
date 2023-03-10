@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -19,7 +19,7 @@ is_root: false
 | [ChartCollection](/cells/de/python-net/aspose.cells.charts/chartcollection) | Kapselt eine Sammlung von [Chart](/cells/de/python-net/aspose.cells.charts/chart)-Objekten.|
 | [ChartDataTable](/cells/de/python-net/aspose.cells.charts/chartdatatable) | Stellt eine Diagrammdatentabelle dar.|
 | [ChartFrame](/cells/de/python-net/aspose.cells.charts/chartframe) | Kapselt das Objekt, das das Rahmenobjekt in einem Diagramm darstellt.|
-| [ChartGlobalizationSettings](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings) | Stellt die Globalisierungseinstellungen für Diagramme dar.|
+| [ChartGlobalizationSettings](/cells/de/python-net/aspose.cells.charts/chartglobalizationsettings) | Stellt die Globalisierungseinstellungen für das Diagramm dar.|
 | [ChartPoint](/cells/de/python-net/aspose.cells.charts/chartpoint) |Stellt einen einzelnen Punkt in einer Reihe in einem Diagramm dar.|
 | [ChartPointCollection](/cells/de/python-net/aspose.cells.charts/chartpointcollection) | Stellt eine Sammlung dar, die alle Punkte in einer Reihe enthält.|
 | [ChartTextFrame](/cells/de/python-net/aspose.cells.charts/charttextframe) | Kapselt das Objekt, das das Rahmenobjekt darstellt, das Text enthält.|
@@ -39,7 +39,7 @@ is_root: false
 | [SeriesLayoutProperties](/cells/de/python-net/aspose.cells.charts/serieslayoutproperties) | Stellt die Eigenschaften des Reihenlayouts dar.|
 | [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) | Eine Sparkline stellt ein winziges Diagramm oder eine Grafik in einer Arbeitsblattzelle dar, die eine visuelle Darstellung von Daten bietet.|
 | [SparklineCollection](/cells/de/python-net/aspose.cells.charts/sparklinecollection) | Kapselt eine Sammlung von [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline)-Objekten.|
-| [SparklineGroup](/cells/de/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ist in Sparkline-Gruppen organisiert.Eine SparklineGroup enthält eine variable Anzahl von Sparkline-Elementen.<br/> Eine Sparkline-Gruppe legt den Typ, die Anzeigeeinstellungen und die Achseneinstellungen für die Sparklines fest.|
+| [SparklineGroup](/cells/de/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/de/python-net/aspose.cells.charts/sparkline) ist in Sparkline-Gruppen organisiert. Eine SparklineGroup enthält eine variable Anzahl von Sparkline-Elementen.<br/> Eine Sparkline-Gruppe legt den Typ, die Anzeigeeinstellungen und die Achseneinstellungen für die Sparklines fest.|
 | [SparklineGroupCollection](/cells/de/python-net/aspose.cells.charts/sparklinegroupcollection) | Kapselt eine Sammlung von [SparklineGroup](/cells/de/python-net/aspose.cells.charts/sparklinegroup)-Objekten.|
 | [TickLabelItem](/cells/de/python-net/aspose.cells.charts/ticklabelitem) | Informationen eines Ticklabel-Elements einschließen|
 | [TickLabels](/cells/de/python-net/aspose.cells.charts/ticklabels) | Stellt die Teilstrichbeschriftungen dar, die Teilstrichen auf einer Diagrammachse zugeordnet sind.|
@@ -74,7 +74,7 @@ is_root: false
 | [MapChartLabelLayout](/cells/de/python-net/aspose.cells.charts/mapchartlabellayout) | Stellt das Layout der Beschriftungen des Kartendiagramms dar.|
 | [MapChartProjectionType](/cells/de/python-net/aspose.cells.charts/mapchartprojectiontype) | Stellt den Projektionstyp des Kartendiagramms dar.|
 | [MapChartRegionType](/cells/de/python-net/aspose.cells.charts/mapchartregiontype) | Repräsentiert den Regionstyp des Kartendiagramms.|
-| [PlotDataByType](/cells/de/python-net/aspose.cells.charts/plotdatabytype) |Stellt den Datentyp dar, der nach Zeile oder Spalte dargestellt wird.|
+| [PlotDataByType](/cells/de/python-net/aspose.cells.charts/plotdatabytype) |Stellt den Typ der Datenzeichnung nach Zeile oder Spalte dar.|
 | [PlotEmptyCellsType](/cells/de/python-net/aspose.cells.charts/plotemptycellstype) | Stellt alle Diagrammtypen mit leeren Zellen dar.|
 | [QuartileCalculationType](/cells/de/python-net/aspose.cells.charts/quartilecalculationtype) | Stellt Quartil-Berechnungsmethoden dar.|
 | [SparklineAxisMinMaxType](/cells/de/python-net/aspose.cells.charts/sparklineaxisminmaxtype) | Stellt die Minimal- und Maximalwerttypen für die vertikale Sparkline-Achse dar.|

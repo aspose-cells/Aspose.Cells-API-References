@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo set_characters
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ def set_characters(self, characters):
 ```
 
 
-| Parametri| Tipo| Descrizione|
+| Parametro| Tipo| Descrizione|
 | :- | :- | :- |
 | characters | list | Tutti gli oggetti Personaggi.|
 

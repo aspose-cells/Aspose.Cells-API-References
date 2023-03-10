@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraphCollection الدرجة
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -8,7 +8,7 @@ url: /ar/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
 ##  TextParagraphCollection الدرجة
-يمثل كل فقرات النص.
+يمثل كل نص فقرة.
 
 
 

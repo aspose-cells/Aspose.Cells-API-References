@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoTextFrame sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ MsoTextFrame türü aşağıdaki üyeleri gösterir:
 | [rotate_text_with_shape](/cells/tr/python-net/aspose.cells.drawing/msotextframe/rotate_text_with_shape) | Metnin şekil ile döndürülüp döndürülmediğini gösterir.|
 | [left_margin_pt](/cells/tr/python-net/aspose.cells.drawing/msotextframe/left_margin_pt) | Sol kenar boşluğunu Puan birimi cinsinden verir|
 | [right_margin_pt](/cells/tr/python-net/aspose.cells.drawing/msotextframe/right_margin_pt) | Sağ kenar boşluğunu Puan birimi cinsinden verir|
-| [top_margin_pt](/cells/tr/python-net/aspose.cells.drawing/msotextframe/top_margin_pt) | Üst marjı Puan birimi cinsinden verir|
+| [top_margin_pt](/cells/tr/python-net/aspose.cells.drawing/msotextframe/top_margin_pt) | Puan birimi cinsinden üst marjı verir|
 | [bottom_margin_pt](/cells/tr/python-net/aspose.cells.drawing/msotextframe/bottom_margin_pt) | Alt kenar boşluğunu Puan birimi cinsinden verir|
 
 

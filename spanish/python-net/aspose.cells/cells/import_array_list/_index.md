@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_array_list método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def import_array_list(self, array_list, first_row, first_column, is_vertical):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | array_list | list | Lista de matrices de datos.|
 | first_row | int | El número de fila de la primera celda a importar.|

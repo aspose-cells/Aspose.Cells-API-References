@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_printer método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def to_printer(self, printer_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | printer_name | str | el nombre de la impresora, por ejemplo: "Microsoft Office Document Image Writer"|
 
@@ -34,7 +34,7 @@ def to_printer(self, printer_settings):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | la configuración de la impresora, por ejemplo, PrinterName, Duplex|
 
@@ -50,7 +50,7 @@ def to_printer(self, printer_name, job_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | printer_name | str | el nombre de la impresora, por ejemplo: "Microsoft Office Document Image Writer"|
 | job_name | str | establecer el nombre del trabajo de impresión|
@@ -67,7 +67,7 @@ def to_printer(self, printer_settings, job_name):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | printer_settings | aspose.pydrawing.printing.PrinterSettings | la configuración de la impresora, por ejemplo, PrinterName, Duplex|
 | job_name | str | establecer el nombre del trabajo de impresión|
@@ -84,7 +84,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | printer_name | str | el nombre de la impresora, por ejemplo: "Microsoft Office Document Image Writer"|
 | print_page_index | int | el índice basado en 0 de la primera página a imprimir, debe estar en el rango [0, SheetRender.PageCount-1]|

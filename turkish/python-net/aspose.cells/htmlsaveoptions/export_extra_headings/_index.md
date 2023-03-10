@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_extra_headings mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  export_extra_headings mülk
 
 Metin uzunluğu maksimum görüntüleme sütunundan daha uzun olduğunda fazladan başlıkların dışa aktarılıp aktarılmayacağını gösterir.
-Varsayılan değer yanlıştır.
+Varsayılan değer yanlıştır. Html dosyasını excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
 ###  Tanım:
 ```python
 @property

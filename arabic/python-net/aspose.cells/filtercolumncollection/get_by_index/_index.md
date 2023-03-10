@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة get_by_index
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def get_by_index(self, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | index | int |  |
 

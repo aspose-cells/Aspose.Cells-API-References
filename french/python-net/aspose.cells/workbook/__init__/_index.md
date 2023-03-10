@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ def __init__(self):
 ###  Remarques
 
 Le type de format de fichier par défaut est Xlsx. Pour créer un autre type de fichier de format, veuillez utiliser Workbook(FileFormatType).
-###  Exemples
+###  Exemple
 
 
 Le code suivant montre comment utiliser le constructeur Workbook pour créer et initialiser une nouvelle instance de la classe.
@@ -45,13 +45,13 @@ def __init__(self, file_format_type):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | file_format_type | [FileFormatType](/cells/fr/python-net/aspose.cells/fileformattype) | Le nouveau format de fichier.|
 ###  Remarques
 
 Le type de format de fichier par défaut est Excel97To2003.
-###  Exemples
+###  Exemple
 
 
 Le code suivant montre comment utiliser le constructeur Workbook pour créer et initialiser une nouvelle instance de la classe.
@@ -75,7 +75,7 @@ def __init__(self, file):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | file | str | Le nom du fichier.|
 
@@ -91,7 +91,7 @@ def __init__(self, stream):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux.|
 
@@ -107,7 +107,7 @@ def __init__(self, file, load_options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | file | str | Le nom du fichier.|
 | load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de charge|
@@ -124,7 +124,7 @@ def __init__(self, stream, load_options):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux.|
 | load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de charge|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получает и задает направление текста.
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose.cells.drawing.texts import TextVerticalType

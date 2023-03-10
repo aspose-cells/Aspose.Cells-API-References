@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_full_path_link propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

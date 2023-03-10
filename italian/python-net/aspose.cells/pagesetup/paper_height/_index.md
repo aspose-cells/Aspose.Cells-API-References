@@ -1,4 +1,4 @@
-﻿---
+---
 title: paper_height proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

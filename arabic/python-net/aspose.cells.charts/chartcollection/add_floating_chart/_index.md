@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add_floating_chart
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -22,7 +22,7 @@ def add_floating_chart(self, type, left, top, width, height):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [ChartType](/cells/ar/python-net/aspose.cells.charts/charttype) | نوع التخطيط|
 | left | int | إزاحة x إلى الزاوية|

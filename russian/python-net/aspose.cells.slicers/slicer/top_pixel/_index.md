@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_pixel недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Возвращает или задает вертикальное смещение формы среза от ее верхней строки в пикселях.
 
-###  Примеры
+###  Пример
 
 ```python
 

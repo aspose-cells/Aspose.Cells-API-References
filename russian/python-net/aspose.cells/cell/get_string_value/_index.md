@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_string_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def get_string_value(self, format_strategy):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | format_strategy | [CellValueFormatStrategy](/cells/ru/python-net/aspose.cells/cellvalueformatstrategy) | Форматированная стратегия.|
 

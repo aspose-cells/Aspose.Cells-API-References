@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_columns метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,12 +18,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|
 | destination_column_index | int | Индекс столбца назначения.|
-| column_number | int | Скопированные номера столбцов.|
+| column_number | int | Скопированный номер столбца.|
 
 
 ##  copy_columns(source_cells0, source_column_index, destination_column_index, column_number, paste_options) {#Cells-int-int-int-PasteOptions}
@@ -37,12 +37,12 @@ def copy_columns(self, source_cells0, source_column_index, destination_column_in
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_cells0 | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|
 | destination_column_index | int | Индекс столбца назначения.|
-| column_number | int | Скопированные номера столбцов.|
+| column_number | int | Скопированный номер столбца.|
 | paste_options | [PasteOptions](/cells/ru/python-net/aspose.cells/pasteoptions) | варианты оклейки.|
 
 
@@ -57,7 +57,7 @@ def copy_columns(self, source_cells, source_column_index, source_total_columns, 
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | source_cells | [Cells](/cells/ru/python-net/aspose.cells/cells) | Исходный объект Cells содержит данные и форматы для копирования.|
 | source_column_index | int | Индекс исходного столбца.|

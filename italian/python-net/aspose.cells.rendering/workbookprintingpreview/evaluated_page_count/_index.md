@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Valuta il conteggio totale delle pagine di questa cartella di lavoro
 
-###  Esempi
+###  Esempio
 
 Il codice seguente mostra il modo più rapido per ottenere il conteggio delle pagine di una cartella di lavoro.
 

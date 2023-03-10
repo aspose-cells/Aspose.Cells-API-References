@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPointCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -17,7 +17,7 @@ ChartPointCollection türü aşağıdaki üyeleri gösterir:
 ###  Özellikler
 | Mülk| Tanım|
 | :- | :- |
-| [count](/cells/tr/python-net/aspose.cells.charts/chartpointcollection/count) | Grafik noktalarının sayısını alır.|
+| [count](/cells/tr/python-net/aspose.cells.charts/chartpointcollection/count) | Grafik noktasının sayısını alır.|
 
 
 
@@ -25,7 +25,7 @@ Dizide belirtilen dizindeki [ChartPoint](/cells/tr/python-net/aspose.cells.chart
 ###  İndeksleyici
 | İsim| Tanım|
 | :- | :- |
-| [index] | Dizideki grafik noktalarının dizini.|
+| [index] | Dizideki grafik noktasının dizini.|
 
 
 ###  Yöntemler
@@ -37,7 +37,7 @@ Dizide belirtilen dizindeki [ChartPoint](/cells/tr/python-net/aspose.cells.chart
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

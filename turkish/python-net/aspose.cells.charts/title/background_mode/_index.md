@@ -1,4 +1,4 @@
-﻿---
+---
 title: background_mode mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:

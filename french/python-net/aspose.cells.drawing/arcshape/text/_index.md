@@ -1,4 +1,4 @@
-﻿---
+---
 title: text propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Représente la chaîne dans cet objet TextBox.
 
-###  Exemples
+###  Exemple
 
 ```python
 

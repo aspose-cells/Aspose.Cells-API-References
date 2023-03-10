@@ -1,6 +1,6 @@
-﻿---
+---
 title: PaginatedSaveOptions类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 1150
@@ -36,7 +36,7 @@ PaginatedSaveOptions 类型公开了以下成员：
 | [default_font](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/default_font) |当Excel中的字符是Unicode且未在单元格样式中设置正确的字体时，<br/>它们可能在 pdf、图像中显示为块。<br/>设置 DefaultFont，例如 MingLiu 或 MS Gothic 以显示这些字符。<br/>如果不设置该属性，Aspose.Cells 将使用系统默认字体来显示这些 unicode 字符。|
 | [check_workbook_default_font](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/check_workbook_default_font) |当Excel中的字符是Unicode且未在单元格样式中设置正确的字体时，<br/>它们可能在 pdf、图像中显示为块。<br/>将此设置为 true 以尝试使用工作簿的默认字体首先显示这些字符。|
 | [check_font_compatibility](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/check_font_compatibility) |指示是否检查文本中每个字符的字体兼容性。|
-| [is_font_substitution_char_granularity](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/is_font_substitution_char_granularity) |指示是否仅在单元格字体不兼容时替换字符的字体。|
+| [is_font_substitution_char_granularity](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/is_font_substitution_char_granularity) |指示当单元格字体不兼容时是否仅替换字符的字体。|
 | [one_page_per_sheet](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/one_page_per_sheet) |如果 OnePagePerSheet 为 true ，结果中一张纸的所有内容将只输出一页。<br/> pagesetup的纸张大小会失效，pagesetup的其他设置<br/>仍然会生效。|
 | [all_columns_in_one_page_per_sheet](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/all_columns_in_one_page_per_sheet) |如果 AllColumnsInOnePagePerSheet 为 true ，则一张工作表的所有列内容将仅输出到一页结果。<br/> pagesetup 的纸张大小的宽度将被忽略，pagesetup 的其他设置<br/>仍然会生效。|
 | [ignore_error](/cells/zh/python-net/aspose.cells/paginatedsaveoptions/ignore_error) |指示是否需要在渲染时隐藏错误。<br/>错误可能是形状、图像、图表渲染等方面的错误。|

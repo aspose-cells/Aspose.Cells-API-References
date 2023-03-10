@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_inch mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  top_margin_inch mülk
 
-Üst kenar boşluğunun boyutunu inç cinsinden temsil eder.
+İnç birimi cinsinden üst kenar boşluğunun boyutunu temsil eder.
 ###  Tanım:
 ```python
 @property

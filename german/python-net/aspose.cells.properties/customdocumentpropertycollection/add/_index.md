@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -71,7 +71,7 @@ def add(self, name, value):
 
 
 ##  add(name, value) {#str-bool}
- Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**Eigenschaftstyp.Boolean** Datentyp.
+ Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**PropertyType.Boolean** Datentyp.
 
 
 ###  Kehrt zurück
@@ -92,7 +92,7 @@ def add(self, name, value):
 
 
 ##  add(name, value) {#str-float}
- Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**Eigenschaftstyp Float** Datentyp.
+ Erstellt eine neue benutzerdefinierte Dokumenteigenschaft der**PropertyType.Float** Datentyp.
 
 
 ###  Kehrt zurück

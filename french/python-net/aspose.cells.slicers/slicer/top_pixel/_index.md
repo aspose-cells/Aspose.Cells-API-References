@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_pixel propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Renvoie ou définit le décalage vertical de la forme du segment par rapport à sa ligne supérieure, en pixels.
 
-###  Exemples
+###  Exemple
 
 ```python
 

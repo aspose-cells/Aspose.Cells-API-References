@@ -1,4 +1,4 @@
-﻿---
+---
 title: add Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -56,7 +56,7 @@ def add(self, type, data_range, top_row, left_column, right_row, bottom_column):
 | bottom_column | int | Spaltenindex unten rechts|
 ###  Bemerkungen
 
-HINWEIS: Dieses Mitglied ist jetzt veraltet.
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Stattdessen,
 Bitte verwenden Sie die Eigenschaft [ChartCollection.add(type, upper_left_row, upper_left_column, lower_right_row, lower_right_column)](/cells/de/python-net/aspose.cells.charts/chartcollection/add).
  Diese Property wird 12 Monate später seit Mai 2022 entfernt.
 Aspose entschuldigt sich für etwaige Unannehmlichkeiten.
@@ -80,7 +80,7 @@ def add(self, data, data_range, is_vertical, top_row, left_column, right_row, bo
 | :- | :- | :- |
 | data | bytes | Die Daten der Diagrammvorlagendatei (.crtx).|
 | data_range | str | Gibt den Datenbereich des Diagramms an|
-| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten nach Zeile oder nach Spalte gezeichnet werden soll.|
+| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
 | top_row | int | Zeilenindex oben links.|
 | left_column | int | Spaltenindex oben links.|
 | right_row | int | Zeilenindex unten rechts|
@@ -106,7 +106,7 @@ def add(self, type, data_range, is_vertical, top_row, left_column, right_row, bo
 | :- | :- | :- |
 | type | [ChartType](/cells/de/python-net/aspose.cells.charts/charttype) | Diagramm Typ|
 | data_range | str | Gibt den Datenbereich des Diagramms an|
-| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten nach Zeile oder nach Spalte gezeichnet werden soll.|
+| is_vertical | bool | Gibt an, ob die Reihe aus einem Bereich von Zellenwerten zeilen- oder spaltenweise dargestellt werden soll.|
 | top_row | int | Zeilenindex oben links.|
 | left_column | int | Spaltenindex oben links.|
 | right_row | int | Zeilenindex unten rechts|

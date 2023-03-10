@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorCheckOption classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type ErrorCheckOption expose les membres suivants :
 
 
 
-###  Exemples
+###  Exemple
 
 ```python
 from aspose.cells import CellArea, ErrorCheckType, Workbook

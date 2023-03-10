@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_quote_prefix الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  export_quote_prefix الملكية
 
 يشير إلى ما إذا كان يجب تصدير علامة الاقتباس الفردية كجزء من قيمة خلية واحدة
-عندما يكون [Style.quote_prefix](/cells/ar/python-net/aspose.cells/style#quote_prefix) صحيحًا بالنسبة لها. الافتراضي هو خطأ.
+عندما يكون [Style.quote_prefix](/cells/ar/python-net/aspose.cells/style#quote_prefix) صحيحًا لذلك. الافتراضي هو خطأ.
 ###  تعريف:
 ```python
 @property

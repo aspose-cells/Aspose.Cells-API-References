@@ -1,4 +1,4 @@
-﻿---
+---
 title: DirectoryType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,7 +17,7 @@ Il tipo DirectoryType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| VOLUME | Rappresenta una lettera di unità MS-DOS.<br/> Oppure nomi di file UNC, come \\server\condivisione\miofile.xls|
+| VOLUME | Rappresenta una lettera di unità MS-DOS. È seguito dalla lettera dell'unità.<br/> Oppure nomi di file UNC, come \\server\condivisione\miofile.xls|
 | SAME_VOLUME | Indica che la cartella di lavoro di origine si trova sulla stessa unità della cartella di lavoro dipendente (la lettera dell'unità è omessa)|
 | DOWN_DIRECTORY | Indica che la cartella di lavoro di origine si trova in una sottodirectory della directory corrente.|
 | UP_DIRECTORY | Indica che la cartella di lavoro di origine si trova nella directory padre della directory corrente.|

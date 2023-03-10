@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width_pixels propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_pixels propriété
 
-Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en unités de pixels.
+Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en pixels.
 ###  Définition:
 ```python
 @property

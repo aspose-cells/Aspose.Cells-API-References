@@ -1,4 +1,4 @@
-﻿---
+---
 title: TwoColorGradient klass
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/twocolorgradient/
 is_root: false
 ---
 ##  TwoColorGradient klass
-Representerar två färggradienter.
+Representerar tvåfärgsgradient.
 
 
 

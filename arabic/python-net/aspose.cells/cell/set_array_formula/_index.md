@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة set_array_formula
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | array_formula | str | صيغة المصفوفة.|
 | row_number | int |عدد الصفوف المراد نشرها نتيجة صيغة الصفيف.|
@@ -36,7 +36,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | array_formula | str | صيغة المصفوفة.|
 | row_number | int |عدد الصفوف المراد نشرها نتيجة صيغة الصفيف.|
@@ -55,7 +55,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | array_formula | str | صيغة المصفوفة.|
 | row_number | int |عدد الصفوف المراد نشرها نتيجة صيغة الصفيف.|
@@ -64,7 +64,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | is_local | bool | ما إذا كانت الصيغة منسقة محليًا|
 ###  ملاحظات
 
-ملاحظة: هذه الفئة عفا عليها الزمن الآن.
+ملاحظة: هذه الفئة عفا عليها الزمن الآن. بدلاً من،
 الرجاء استخدام Cell.SetArrayFormula (سلسلة ، int ، int ، FormulaParseOptions).
 ستتم إزالة هذا العقار بعد 12 شهرًا منذ ديسمبر 2019.
 Aspose يعتذر عن أي إزعاج قد يكون سببه لك.
@@ -80,7 +80,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | array_formula | str | صيغة المصفوفة.|
 | row_number | int |عدد الصفوف المراد نشرها نتيجة صيغة الصفيف.|

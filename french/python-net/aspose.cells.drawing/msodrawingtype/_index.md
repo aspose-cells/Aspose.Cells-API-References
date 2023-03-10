@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,15 +21,15 @@ Le type MsoDrawingType expose les membres suivants :
 | LINE | Doubler|
 | RECTANGLE | Rectangle|
 | OVAL | ovale|
-| ARC | arc|
-| CHART | graphique|
+| ARC | Arc|
+| CHART | Graphique|
 | TEXT_BOX | Zone de texte|
-| BUTTON | bouton|
-| PICTURE | Des photos|
+| BUTTON | Bouton|
+| PICTURE | Image|
 | POLYGON | Polygone|
-| CHECK_BOX | case à cocher|
-| RADIO_BUTTON | boutons radio|
-| LABEL | étiqueter|
+| CHECK_BOX | Case à cocher|
+| RADIO_BUTTON | Bouton radio|
+| LABEL | Étiqueter|
 | DIALOG_BOX | Boite de dialogue|
 | SPINNER | Fileur|
 | SCROLL_BAR | Barre de défilement|
@@ -38,13 +38,13 @@ Le type MsoDrawingType expose les membres suivants :
 | COMBO_BOX | Boîte combo|
 | COMMENT | Commentaire|
 | OLE_OBJECT | OleObject|
-| CELLS_DRAWING | Uniquement pour conserver les objets de dessin dans le fichier modèle.|
+| CELLS_DRAWING | Uniquement pour conserver l'objet de dessin dans le fichier modèle.|
 | UNKNOWN | Uniquement pour conserver l'objet de dessin dans le fichier xlsx.|
-| SLICER | trancheuse|
+| SLICER | Trancheuse|
 | WEB_EXTENSION | Extension Web|
 | SMART_ART | Art intelligent|
-| CUSTOM_XML | Formes xml personnalisées, telles que Ink.|
-| TIMELINE | calendrier|
+| CUSTOM_XML | Forme xml personnalisée, telle que Ink.|
+| TIMELINE | Calendrier|
 | MODEL_3D | modèle 3D|
 
 

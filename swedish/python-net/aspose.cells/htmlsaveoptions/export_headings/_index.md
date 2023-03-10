@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_headings fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Anger om arkets rad- och kolumnrubriker exporteras när du sparar till HTML-file
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
+ OBS: Denna medlem är nu föråldrad. Istället,
 använd egenskapen HtmlSaveOptions.ExportRowColumnHeadings.
  Den här egenskapen kommer att tas bort 12 månader senare sedan juni 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.

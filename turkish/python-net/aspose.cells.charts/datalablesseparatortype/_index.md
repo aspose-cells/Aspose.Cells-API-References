@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLablesSeparatorType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -29,7 +29,7 @@ DataLablesSeparatorType türü aşağıdaki üyeleri gösterir:
 
 ###  Notlar
 
- NOT: Bu üye artık kullanılmıyor.
+ NOT: Bu üye artık kullanılmıyor. Yerine,
 lütfen DataLabelsSeparatorType numaralandırmasını kullanın.
  Bu mülk, Eylül 2020'den itibaren 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.

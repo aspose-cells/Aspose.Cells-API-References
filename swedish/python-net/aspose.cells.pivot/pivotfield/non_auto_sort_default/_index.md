@@ -1,4 +1,4 @@
-﻿---
+---
 title: non_auto_sort_default fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

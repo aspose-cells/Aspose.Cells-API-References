@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_range_by_name yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -25,7 +25,7 @@ def get_range_by_name(self, range_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range_name | str | aralığın adı.|
 
@@ -45,10 +45,10 @@ def get_range_by_name(self, range_name, current_sheet_index, include_table):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | range_name | str | Aralığın adı veya tablonun adı.|
-| current_sheet_index | int | Sayfa dizini -1 geneli temsil eder.|
+| current_sheet_index | int | Sayfa dizini. -1 geneli temsil eder.|
 | include_table | bool | Tüm tabloların kontrol edilip edilmediğini gösterir.|
 
 

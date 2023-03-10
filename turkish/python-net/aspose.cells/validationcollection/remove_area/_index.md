@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells/validationcollection/remove_area/
 is_root: false
 ---
 ##  remove_area(ca) {#CellArea}
-Aralıktaki tüm doğrulama ayarlarını kaldırır.
+Aralıktaki tüm doğrulama ayarını kaldırır.
 
 
 
@@ -18,7 +18,7 @@ def remove_area(self, ca):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | ca | [CellArea](/cells/tr/python-net/aspose.cells/cellarea) | Doğrulama ayarını içeren aralık.|
 

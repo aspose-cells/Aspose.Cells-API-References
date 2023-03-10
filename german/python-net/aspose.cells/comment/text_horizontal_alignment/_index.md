@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_horizontal_alignment Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den horizontalen Textausrichtungstyp des Kommentars ab und legt diesen fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells import TextAlignmentType

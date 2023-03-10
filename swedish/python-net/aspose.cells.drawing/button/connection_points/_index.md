@@ -1,4 +1,4 @@
-﻿---
+---
 title: connection_points fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,8 +13,8 @@ Skaffa anslutningspunkterna
 
 ###  Anmärkningar
 
- OBS: Denna medlem är nu föråldrad.
-Använd metoden GetConnectionPoints().
+ OBS: Denna medlem är nu föråldrad. Istället,
+använd metoden GetConnectionPoints().
  Denna metod kommer att tas bort 12 månader senare sedan april 2022.
 Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
 ###  Definition:

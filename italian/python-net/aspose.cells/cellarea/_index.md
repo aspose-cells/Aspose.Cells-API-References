@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe CellArea
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -38,7 +38,7 @@ Il tipo CellArea espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea

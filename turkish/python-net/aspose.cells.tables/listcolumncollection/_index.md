@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListColumnCollection sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.tables/listcolumncollection/
 is_root: false
 ---
 ##  ListColumnCollection sınıfı
-Belirtilen ListObject nesnesindeki tüm [ListColumn](/cells/tr/python-net/aspose.cells.tables/listcolumn) nesnelerinin koleksiyonunu temsil eder.
+Belirtilen ListObject nesnesindeki tüm [ListColumn](/cells/tr/python-net/aspose.cells.tables/listcolumn) nesnelerinin bir koleksiyonunu temsil eder.
 
 
 

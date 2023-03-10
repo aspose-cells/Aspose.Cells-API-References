@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect_shared_workbook método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,7 +18,7 @@ def protect_shared_workbook(self, password):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | password | str | Contraseña para proteger el libro.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: inner_y fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -17,13 +17,13 @@ Avgränsningsrutan för plottarea inkluderar tomtområdet, bockmarkeringar (tick
  Om värdet inte skapas av MS Excel, anropa metoden Chart.Calculate() innan du anropar den här metoden.
 
 
- De**X** , **Y** , **Bredd** och**Höjd** av**Tomtområde** representerar tomtområdet
- En avgränsningsruta som inkluderar plotområdet, bockmarkeringar (tick-etiketter) och en liten kant runt bockmarkeringarna.
- Vill du få verklig storlek på tomtarea ska du ringa**Inre X** , **Inre Y** , **Inre bredd** och
-**Inre höjd** egenskaper.
+ De**X** , **Y** , **Bredd** och**Höjd** av**PlotArea** representerar tomtområdet
+ begränsningsruta som inkluderar tomtområdet, bockmarkeringar (tick-etiketter) och en liten kant runt bockmarkeringarna.
+ Vill du få verklig storlek på tomtarea ska du ringa**InnerX** , **InreY** , **InnerWidth** och
+**Innerhöjd** egenskaper.
 
 
-För excel 2007 eller senare är standardvärdet noll.
+För excel 2007 eller senare är standardvärdet noll. du bör anropa få värdet efter att ha anropat Chart.Calculate().
 ###  Definition:
 ```python
 @property

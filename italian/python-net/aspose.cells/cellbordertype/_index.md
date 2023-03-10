@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellBorderType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -17,7 +17,7 @@ Il tipo CellBorderType espone i membri seguenti:
 ###  Campi
 | Campo| Descrizione|
 | :- | :- |
-| DASH_DOT | Rappresenta sottili linee tratteggiate.|
+| DASH_DOT | Rappresenta una sottile linea tratteggiata.|
 | DASH_DOT_DOT | Rappresenta una sottile linea tratteggiata-punto-punteggiata.|
 | DASHED | Rappresenta la linea tratteggiata.|
 | DOTTED | Rappresenta la linea tratteggiata.|

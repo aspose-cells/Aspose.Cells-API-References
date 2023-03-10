@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_tailing_blank_cells fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  trim_tailing_blank_cells fastighet
 
-Indikerar om tailing tomma celler i en rad ska trimmas. Standard är falskt.
+Indikerar om tomma tomma celler i en rad ska trimmas. Standard är falskt.
 
 ###  Anmärkningar
 

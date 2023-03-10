@@ -1,4 +1,4 @@
-﻿---
+---
 title: width_pt الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  width_pt الملكية
 
-يمثل عرض الشكل بوحدات من النقاط.
+يمثل عرض الشكل بوحدة النقطة.
 
-###  أمثلة
+###  مثال
 
 ```python
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoNumberedBulletValue sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -8,7 +8,7 @@ url: /tr/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue/
 is_root: false
 ---
 ##  AutoNumberedBulletValue sınıfı
-Otomatik olarak numaralandırılmış madde işaretlerini temsil eder.
+Otomatik numaralı madde işaretini temsil eder.
 
 
 

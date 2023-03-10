@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_visible_row_of_bottom_pane proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

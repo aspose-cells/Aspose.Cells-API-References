@@ -1,6 +1,6 @@
-﻿---
+---
 title: get_enumerator方法
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 90
@@ -25,7 +25,7 @@ def get_enumerator(self):
 ### 评论
 
 通过返回的 Enumerator 遍历元素时，cells 集合
-不应修改（例如将导致实例化新的 Cell/Row 或删除现有的 Cell/Row 的操作）。
+不应修改（例如将导致新的 Cell/Row 被实例化或现有的 Cell/Row 被删除的操作）。
 否则枚举器可能无法正确遍历所有单元格（某些元素可能会重复遍历或跳过）。
 ### 例子
 

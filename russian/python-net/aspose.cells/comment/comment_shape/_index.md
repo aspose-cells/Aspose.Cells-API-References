@@ -1,4 +1,4 @@
-﻿---
+---
 title: comment_shape недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Получите объект Shape, представляющий фигуру, прикрепленную к указанному комментарию.
 
-###  Примеры
+###  Пример
 
 ```python
 

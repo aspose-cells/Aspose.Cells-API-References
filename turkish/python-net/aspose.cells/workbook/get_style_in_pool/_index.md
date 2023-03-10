@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_style_in_pool yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -15,7 +15,7 @@ Hücrelerde sadece basit bir referans dizini vardır.
 
 ###  İadeler
 
-Havuzdaki stil, belirli bir dizine karşılık gelir, boş olabilir.
+Havuzdaki stil, verilen dizine karşılık gelir, boş olabilir.
 
 
 ```python
@@ -24,12 +24,12 @@ def get_style_in_pool(self, index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | index | int | İçerik.|
 ###  Notlar
 
-Döndürülen stil değiştirilirse, (bu stile atıfta bulunan) tüm hücrelerin stili değişir.
+Döndürülen stil değiştirilirse, (bu stile atıfta bulunan) tüm hücrelerin stili değişecektir.
 
 
 ###  Ayrıca bakınız

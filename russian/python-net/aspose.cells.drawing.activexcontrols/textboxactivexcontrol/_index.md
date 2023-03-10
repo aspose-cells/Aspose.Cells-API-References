@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextBoxActiveXControl класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ is_root: false
 | :- | :- |
 | [workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/workbook) | Получает объект [ActiveXControlBase.workbook](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/activexcontrolbase#workbook).|
 | [type](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/type) | Получает тип элемента управления ActiveX.|
-| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Получает и задает ширину элемента управления в точках.|
+| [width](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/width) |Получает и задает ширину элемента управления в пунктах.|
 | [height](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/height) | Получает и задает высоту элемента управления в пунктах.|
 | [mouse_icon](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_icon) | Получает и задает настраиваемый значок для отображения в качестве указателя мыши для элемента управления.|
 | [mouse_pointer](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/mouse_pointer) | Получает и задает тип значка, отображаемого в качестве указателя мыши для элемента управления.|
@@ -60,13 +60,13 @@ is_root: false
 | [is_multi_line](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_multi_line) | Указывает, может ли элемент управления отображать более одной строки текста.|
 | [is_auto_word_selected](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_auto_word_selected) | Определяет базовую единицу, используемую для расширения выделения.<br/>True указывает, что основной единицей является один символ.<br/> false указывает, что основной единицей является целое слово.|
 | [is_word_wrapped](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/is_word_wrapped) | Указывает, автоматически ли содержимое элемента управления переносится в конце строки.|
-| [text](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/text) | Получает и задает текст элемента управления.|
+| [text](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/text) | Получает и устанавливает текст элемента управления.|
 | [drop_button_style](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/drop_button_style) | Указывает символ, отображаемый на кнопке раскрывающегося списка.|
 | [show_drop_button_type_when](/cells/ru/python-net/aspose.cells.drawing.activexcontrols/textboxactivexcontrol/show_drop_button_type_when) | Указывает символ, отображаемый на кнопке раскрывающегося списка.|
 
 
 
-###  Примеры
+###  Пример
 
 ```python
 from aspose import pycore

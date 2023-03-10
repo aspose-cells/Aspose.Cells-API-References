@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_field_to_area yöntemi
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -22,7 +22,7 @@ def add_field_to_area(self, field_type, field_name):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | Alanlar alan tipi.|
 | field_name | str | Temel alanlardaki ad.|
@@ -43,7 +43,7 @@ def add_field_to_area(self, field_type, base_field_index):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | Alanlar alan tipi.|
 | base_field_index | int | Temel alanlardaki alan dizini.|
@@ -64,7 +64,7 @@ def add_field_to_area(self, field_type, pivot_field):
 ```
 
 
-| parametreler| Tip| Tanım|
+| Parametre| Tip| Tanım|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/tr/python-net/aspose.cells.pivot/pivotfieldtype) | alanlar alan türü.|
 | pivot_field | [PivotField](/cells/tr/python-net/aspose.cells.pivot/pivotfield) | temel alanlardaki alan.|

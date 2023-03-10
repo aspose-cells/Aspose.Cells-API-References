@@ -1,6 +1,6 @@
-﻿---
+---
 title: SlicerCacheItem类
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 30
@@ -18,7 +18,7 @@ SlicerCacheItem 类型公开了以下成员：
 |属性|描述|
 | :- | :- |
 | [selected](/cells/zh/python-net/aspose.cells.slicers/slicercacheitem/selected) |指定是否选择 SlicerItem。|
-| [value](/cells/zh/python-net/aspose.cells.slicers/slicercacheitem/value) |返回切片器项目的标签文本。|
+| [value](/cells/zh/python-net/aspose.cells.slicers/slicercacheitem/value) |返回切片器项目的标签文本。只读。|
 
 
 

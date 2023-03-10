@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleting_columns_allowed fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

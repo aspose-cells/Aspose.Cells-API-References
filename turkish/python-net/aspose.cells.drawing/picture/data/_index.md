@@ -1,4 +1,4 @@
-﻿---
+---
 title: data mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Resmin data'ini alır.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

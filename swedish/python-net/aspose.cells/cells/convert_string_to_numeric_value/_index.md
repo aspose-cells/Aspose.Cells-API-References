@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_string_to_numeric_value metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -8,7 +8,7 @@ url: /sv/python-net/aspose.cells/cells/convert_string_to_numeric_value/
 is_root: false
 ---
 ##  convert_string_to_numeric_value() {#}
-Konverterar strängdata i celler till numeriska värden om möjligt.
+Konverterar strängdata i celler till numeriskt värde om möjligt.
 
 
 

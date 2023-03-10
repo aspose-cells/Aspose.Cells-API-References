@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtSaveOptions konstruktör
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -31,7 +31,7 @@ def __init__(self, format):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | format | [SaveFormat](/cells/sv/python-net/aspose.cells/saveformat) | Sparningsformatet för textfilen.|
 

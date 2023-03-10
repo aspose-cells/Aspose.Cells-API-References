@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadFilter clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -31,7 +31,7 @@ El tipo LoadFilter expone los siguientes miembros:
 ###  Métodos
 | Método| Descripción|
 | :- | :- |
-| [start_sheet(sheet)](/cells/es/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Prepara opciones de filtro antes de cargar una hoja de trabajo determinada.<br/>La implementación del usuario de LoadFilter puede cambiar LoadDataFilterOptions aquí<br/> para indicar cómo cargar datos para esta hoja de cálculo.|
+| [start_sheet(sheet)](/cells/es/python-net/aspose.cells/loadfilter/start_sheet/#Worksheet) | Prepara las opciones de filtro antes de cargar la hoja de trabajo dada.<br/>La implementación del usuario de LoadFilter puede cambiar LoadDataFilterOptions aquí<br/> para indicar cómo cargar datos para esta hoja de cálculo.|
 
 
 

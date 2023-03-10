@@ -1,4 +1,4 @@
-﻿---
+---
 title: regex_key mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  regex_key mülk
 
-Aranan anahtarın normal ifade olup olmadığını gösterir.True ise aranan anahtar normal ifade olarak alınacaktır.
+Aranan anahtarın normal ifade olup olmadığını gösterir. True ise, aranan anahtar regex olarak alınacaktır.
 ###  Tanım:
 ```python
 @property

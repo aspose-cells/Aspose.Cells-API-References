@@ -1,4 +1,4 @@
-﻿---
+---
 title: y_error_bar الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  y_error_bar الملكية
 
-يمثل شريط خطأ الاتجاه ص من السلسلة.
+يمثل شريط خطأ الاتجاه Y من السلسلة.
 ###  تعريف:
 ```python
 @property

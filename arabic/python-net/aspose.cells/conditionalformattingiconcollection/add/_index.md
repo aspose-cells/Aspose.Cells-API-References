@@ -1,4 +1,4 @@
-﻿---
+---
 title: طريقة add
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -18,7 +18,7 @@ def add(self, cficon):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | cficon | [ConditionalFormattingIcon](/cells/ar/python-net/aspose.cells/conditionalformattingicon) | إرجاع فهرس كائن جديد في القائمة.|
 
@@ -38,7 +38,7 @@ def add(self, type, index):
 ```
 
 
-| حدود| يكتب| وصف|
+| معامل| يكتب| وصف|
 | :- | :- | :- |
 | type | [IconSetType](/cells/ar/python-net/aspose.cells/iconsettype) | نوع القيمة.|
 | index | int | مؤشر.|

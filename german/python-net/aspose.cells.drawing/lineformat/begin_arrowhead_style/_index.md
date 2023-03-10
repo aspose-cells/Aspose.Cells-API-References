@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_style Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Ruft den Anfangspfeiltyp der Linie ab und legt ihn fest.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 from aspose.cells.drawing import MsoArrowheadStyle

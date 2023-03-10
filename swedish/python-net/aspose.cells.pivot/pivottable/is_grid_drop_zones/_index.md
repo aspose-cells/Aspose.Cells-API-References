@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_grid_drop_zones fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: formula_definition fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  formula_definition fastighet
 
-Hämtar definitionen av power-frågeformeln.
+Hämtar definitionen av kraftfrågeformeln.
 ###  Definition:
 ```python
 @property

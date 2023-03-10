@@ -1,4 +1,4 @@
-﻿---
+---
 title: iteration propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  iteration propiedad
 
-Indica si habilitar el cálculo iterativo para resolver referencias circulares.
+Indica si se habilita el cálculo iterativo para resolver referencias circulares.
 
 ###  Observaciones
 

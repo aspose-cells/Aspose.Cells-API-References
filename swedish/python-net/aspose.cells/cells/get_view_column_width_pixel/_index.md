@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_view_column_width_pixel metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -13,7 +13,7 @@ Få bredden i olika vytyper.
 
 ###  Returnerar
 
-kolumnbredden i enheter av pixlar
+kolumnbredden i pixelenhet
 
 
 ```python
@@ -22,7 +22,7 @@ def get_view_column_width_pixel(self, column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | column | int | Kolumnindex.|
 

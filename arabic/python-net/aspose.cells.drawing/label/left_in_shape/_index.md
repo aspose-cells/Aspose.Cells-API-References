@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_in_shape الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -16,7 +16,7 @@ is_root: false
 
 يتم تطبيقه فقط عندما يكون هذا الشكل في المجموعة أو المخطط.
 
-###  أمثلة
+###  مثال
 
 ```python
 

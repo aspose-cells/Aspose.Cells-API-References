@@ -1,4 +1,4 @@
-﻿---
+---
 title: name Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -13,7 +13,7 @@ Ruft die name des Bereichs ab oder legt sie fest.
 
 ###  Bemerkungen
 
-Benannter Bereich wird unterstützt.
+Benannter Bereich wird unterstützt. Zum Beispiel,
 
 range.Name = "Sheet1!MyRange";
 ###  Definition:

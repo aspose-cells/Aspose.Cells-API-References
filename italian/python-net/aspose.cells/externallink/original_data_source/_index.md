@@ -1,4 +1,4 @@
-﻿---
+---
 title: original_data_source proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_index propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ Obtient ou définit l'index de base 0 de la première page à enregistrer.
 
 La valeur par défaut est 0.
 
-###  Exemples
+###  Exemple
 
 L'exemple suivant montre comment rendre une plage de pages (3 et 4) dans un fichier Excel Microsoft en PDF.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: pivot_table_style_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:

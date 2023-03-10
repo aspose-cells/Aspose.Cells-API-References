@@ -1,4 +1,4 @@
-﻿---
+---
 title: display_equation Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  display_equation Eigentum
 
-Stellt dar, ob die Gleichung für die Trendlinie im Diagramm angezeigt wird (in derselben Datenbeschriftung wie der R-Quadrat-Wert).
+Stellt dar, ob die Gleichung für die Trendlinie im Diagramm angezeigt wird (in derselben Datenbeschriftung wie der R-Quadrat-Wert). Wenn Sie diese Eigenschaft auf True setzen, werden Datenbeschriftungen automatisch aktiviert.
 ###  Definition:
 ```python
 @property

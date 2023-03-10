@@ -1,4 +1,4 @@
-﻿---
+---
 title: cells_data_table_factory propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:

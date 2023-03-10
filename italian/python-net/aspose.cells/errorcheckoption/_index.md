@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe ErrorCheckOption
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -18,7 +18,7 @@ Il tipo ErrorCheckOption espone i membri seguenti:
 | Metodo| Descrizione|
 | :- | :- |
 | [is_error_check(error_check_type)](/cells/it/python-net/aspose.cells/errorcheckoption/is_error_check/#ErrorCheckType) | Verifica se il tipo di errore specificato verrà verificato.|
-| [set_error_check(error_check_type, is_check)](/cells/it/python-net/aspose.cells/errorcheckoption/set_error_check/#ErrorCheckType-bool) | Imposta se il tipo di errore specificato verrà controllato.|
+| [set_error_check(error_check_type, is_check)](/cells/it/python-net/aspose.cells/errorcheckoption/set_error_check/#ErrorCheckType-bool) | Imposta se il tipo di errore specificato verrà verificato.|
 | [get_count_of_range()](/cells/it/python-net/aspose.cells/errorcheckoption/get_count_of_range/#) | Ottiene il conteggio degli intervalli influenzati da questa impostazione.|
 | [add_range(ca)](/cells/it/python-net/aspose.cells/errorcheckoption/add_range/#CellArea) | Aggiunge un intervallo influenzato da questa impostazione.|
 | [get_range(index)](/cells/it/python-net/aspose.cells/errorcheckoption/get_range/#int) | Ottiene l'intervallo influenzato da questa impostazione in base all'indice specificato.|
@@ -26,7 +26,7 @@ Il tipo ErrorCheckOption espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import CellArea, ErrorCheckType, Workbook

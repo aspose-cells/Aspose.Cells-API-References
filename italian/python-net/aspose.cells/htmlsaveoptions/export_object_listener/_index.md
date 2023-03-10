@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_object_listener proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -13,7 +13,7 @@ Ottiene o imposta ExportObjectListener per l'esportazione di oggetti.
 
 ###  Osservazioni
 
- NOTA: questa proprietà è ora obsoleta.
+ NOTA: questa proprietà è ora obsoleta. Invece,
 utilizzare la proprietà HtmlSaveOptions.IStreamProvider.
  Questa proprietà verrà rimossa 12 mesi dopo, da agosto 2015.
 Aspose si scusa per gli eventuali disagi causati.

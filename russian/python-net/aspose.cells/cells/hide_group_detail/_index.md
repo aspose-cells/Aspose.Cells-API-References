@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_group_detail метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def hide_group_detail(self, is_vertical, index):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | is_vertical | bool | Правда, свернуть сгруппированные строки.|
 | index | int | Индекс строки/столбца|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_style_name fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  table_style_name fastighet
 
-Hämtar och ställer in tabellstilens namn.
+Hämtar och ställer in namnet på tabellstilen.
 ###  Definition:
 ```python
 @property

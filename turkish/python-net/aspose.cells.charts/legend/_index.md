@@ -1,4 +1,4 @@
-﻿---
+---
 title: Legend sınıfı
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -29,7 +29,7 @@ Legend türü aşağıdaki üyeleri gösterir:
 | [text_font](/cells/tr/python-net/aspose.cells.charts/legend/text_font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
 | [text_options](/cells/tr/python-net/aspose.cells.charts/legend/text_options) | Metnin seçeneklerini alır ve ayarlar.|
 | [font](/cells/tr/python-net/aspose.cells.charts/legend/font) | Belirtilen ChartFrame nesnesinin [ChartFrame.font](/cells/tr/python-net/aspose.cells.charts/chartframe#font) nesnesini alır.|
-| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/legend/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur.|
+| [auto_scale_font](/cells/tr/python-net/aspose.cells.charts/legend/auto_scale_font) | Nesne boyutu değiştiğinde, nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer True'dur.|
 | [background_mode](/cells/tr/python-net/aspose.cells.charts/legend/background_mode) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [background](/cells/tr/python-net/aspose.cells.charts/legend/background) | Arka planın görüntüleme modunu alır ve ayarlar|
 | [is_automatic_size](/cells/tr/python-net/aspose.cells.charts/legend/is_automatic_size) | Grafik çerçevesinin otomatik boyutlandırılıp boyutlandırılmadığını gösterir.|
@@ -45,7 +45,7 @@ Legend türü aşağıdaki üyeleri gösterir:
 | [default_width](/cells/tr/python-net/aspose.cells.charts/legend/default_width) | Varsayılan konumun genişliğini temsil eder|
 | [default_height](/cells/tr/python-net/aspose.cells.charts/legend/default_height) | Varsayılan konumun yüksekliğini temsil eder|
 | [is_auto_text](/cells/tr/python-net/aspose.cells.charts/legend/is_auto_text) | Metnin otomatik olarak oluşturulduğunu gösterir.|
-| [is_deleted](/cells/tr/python-net/aspose.cells.charts/legend/is_deleted) | Bu veri etiketinin silinip silinmediğini gösterir.|
+| [is_deleted](/cells/tr/python-net/aspose.cells.charts/legend/is_deleted) | Bu veri etiketlerinin silinip silinmediğini gösterir.|
 | [text_horizontal_alignment](/cells/tr/python-net/aspose.cells.charts/legend/text_horizontal_alignment) | Metin yatay hizalamasını alır ve ayarlar.|
 | [text_vertical_alignment](/cells/tr/python-net/aspose.cells.charts/legend/text_vertical_alignment) |Metnin dikey hizalamasını alır veya ayarlar.|
 | [rotation_angle](/cells/tr/python-net/aspose.cells.charts/legend/rotation_angle) | Metin döndürme açısını temsil eder.|
@@ -56,7 +56,7 @@ Legend türü aşağıdaki üyeleri gösterir:
 | [reading_order](/cells/tr/python-net/aspose.cells.charts/legend/reading_order) | Metin okuma sırasını temsil eder.|
 | [direction_type](/cells/tr/python-net/aspose.cells.charts/legend/direction_type) | Metnin yönünü alır ve ayarlar.|
 | [is_text_wrapped](/cells/tr/python-net/aspose.cells.charts/legend/is_text_wrapped) | Metnin kaydırılıp kaydırılmadığını gösteren bir değer alır veya ayarlar.|
-| [is_resize_shape_to_fit_text](/cells/tr/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar.<br/> şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.|
+| [is_resize_shape_to_fit_text](/cells/tr/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) | İçinde açıklanan metni tam olarak içerecek şekilde şeklin otomatik olarak sığdırılıp sığdırılmayacağını alır veya ayarlar. Otomatik sığdırma:<br/> şeklin içindeki metin, içindeki tüm metni içerecek şekilde ölçeklendiğinde.|
 | [position](/cells/tr/python-net/aspose.cells.charts/legend/position) | Gösterge konumu türünü alır veya ayarlar.|
 | [legend_entries](/cells/tr/python-net/aspose.cells.charts/legend/legend_entries) | Belirtilen grafik açıklamasındaki tüm LegendEntry nesnelerinin bir koleksiyonunu alır.<br/>Yüzey grafiğinin gösterge girişlerinin ayarlanması desteklenmez.<br/> Bu nedenle, grafik tipi yüzey grafik tipi ise, null değerini döndürür.|
 | [legend_entries_labels](/cells/tr/python-net/aspose.cells.charts/legend/legend_entries_labels) |Chart.Calculate() yöntemi çağrıldıktan sonra gösterge girişlerinin etiketlerini alır.|
@@ -71,7 +71,7 @@ Legend türü aşağıdaki üyeleri gösterir:
 
 
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

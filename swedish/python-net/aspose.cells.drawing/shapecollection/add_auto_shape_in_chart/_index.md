@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_auto_shape_in_chart metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,7 +22,7 @@ def add_auto_shape_in_chart(self, type, top, left, height, width):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | type | [AutoShapeType](/cells/sv/python-net/aspose.cells.drawing/autoshapetype) | Automatisk formtyp.|
 | top | int | Representerar den vertikala förskjutningen av textrutan från det övre vänstra hörnet i enheter på 1/4000 av kartytan.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: last_index_of método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Busca el objeto especificado y devuelve el índice de base cero de la última ap
 
 ###  Devoluciones
 
-El índice de base cero de la última aparición de valor dentro de toda la lista de matrices, si se encuentra; de lo contrario, -1.
+El índice de base cero de la última aparición de valor dentro de toda la lista de arreglos, si se encuentra; de lo contrario, -1.
 
 
 ```python
@@ -22,9 +22,9 @@ def last_index_of(self, item):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| item | [TextBox](/cells/es/python-net/aspose.cells.drawing/textbox) | El objeto a ubicar en la lista de matrices.|
+| item | [TextBox](/cells/es/python-net/aspose.cells.drawing/textbox) | El objeto a ubicar en la lista de matrices. El valor puede ser nulo.|
 
 
 ##  last_index_of(item, index) {#TextBox-int}
@@ -42,9 +42,9 @@ def last_index_of(self, item, index):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| item | [TextBox](/cells/es/python-net/aspose.cells.drawing/textbox) | El objeto a ubicar en la lista de matrices.|
+| item | [TextBox](/cells/es/python-net/aspose.cells.drawing/textbox) | El objeto a ubicar en la lista de matrices. El valor puede ser nulo.|
 | index | int | El índice inicial de base cero de la búsqueda hacia atrás.|
 
 
@@ -54,7 +54,7 @@ Busca el objeto especificado y devuelve el índice basado en cero de la última 
 
 ###  Devoluciones
 
-El índice de base cero de la última aparición de valor dentro del rango de elementos en System.Collections.Lista de matriz que contiene el número de elementos y termina en startIndex, si se encuentra; de lo contrario, -1.
+El índice de base cero de la última aparición de valor dentro del rango de elementos en System.Collections. Lista de matrices que contiene el número de recuento de elementos y termina en startIndex, si se encuentra; de lo contrario, -1.
 
 
 ```python
@@ -63,9 +63,9 @@ def last_index_of(self, item, index, count):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
-| item | [TextBox](/cells/es/python-net/aspose.cells.drawing/textbox) | El objeto a ubicar en la lista de matrices.|
+| item | [TextBox](/cells/es/python-net/aspose.cells.drawing/textbox) | El objeto a ubicar en la lista de matrices. El valor puede ser nulo.|
 | index | int | El índice inicial de base cero de la búsqueda hacia atrás.|
 | count | int | El número de elementos en la sección a buscar.|
 

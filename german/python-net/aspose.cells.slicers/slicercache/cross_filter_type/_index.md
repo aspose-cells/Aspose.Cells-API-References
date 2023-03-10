@@ -1,4 +1,4 @@
-﻿---
+---
 title: cross_filter_type Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  cross_filter_type Eigentum
 
 Gibt zurück oder legt fest, ob ein Slicer an der Kreuzfilterung mit anderen Slicern teilnimmt
-die denselben Slicer-Cache verwenden und wie die Kreuzfilterung angezeigt wird.
+die denselben Slicer-Cache verwenden und wie die Kreuzfilterung angezeigt wird. Lesen Schreiben
 ###  Definition:
 ```python
 @property

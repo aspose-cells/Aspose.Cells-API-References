@@ -1,4 +1,4 @@
-﻿---
+---
 title: precision_as_displayed mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -13,7 +13,7 @@ Bu çalışma kitabındaki hesaplamalar yalnızca sayıların görüntülendikle
 
 ###  Notlar
 
-NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.PrecisionAsDisplayed kullanın.
+NOT: Bu üye artık kullanılmıyor. Bunun yerine lütfen FormulaSettings.PrecisionAsDisplayed'ı kullanın.
  Bu mülk, Şubat 2022'den bu yana 12 ay sonra kaldırılacaktır.
 Aspose yaşamış olabileceğiniz rahatsızlıktan dolayı özür diler.
 ###  Tanım:

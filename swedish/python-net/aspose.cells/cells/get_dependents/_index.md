@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_dependents metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -22,9 +22,9 @@ def get_dependents(self, is_all, row, column):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
-| is_all | bool | Anger om kontrollera andra kalkylblad|
+| is_all | bool | Indikerar om kontrollera andra kalkylblad|
 | row | int | Radindex.|
 | column | int | Kolumnindex.|
 

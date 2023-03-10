@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_data метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,13 +22,13 @@ def import_data(self, json, cells, row, column, option):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | json | str | Строка json.|
 | cells | [Cells](/cells/ru/python-net/aspose.cells/cells) | Cells.|
 | row | int | Индекс строки.|
 | column | int | Индекс столбца.|
-| option | [JsonLayoutOptions](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions) | Варианты импорта строк json.|
+| option | [JsonLayoutOptions](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions) | Варианты импорта строки json.|
 
 
 

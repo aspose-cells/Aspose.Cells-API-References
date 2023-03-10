@@ -1,4 +1,4 @@
-﻿---
+---
 title: protection Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  protection Eigentum
 
-Stellt die verschiedenen Arten von protection-Optionen dar, die für ein Arbeitsblatt verfügbar sind.
+Stellt die verschiedenen Arten von protection-Optionen dar, die für ein Arbeitsblatt verfügbar sind. Unterstützt erweiterte protection-Optionen in ExcelXP und höheren Versionen.
 
 ###  Bemerkungen
 

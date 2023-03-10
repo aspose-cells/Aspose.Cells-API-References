@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_data метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.pivot/pivottable/refresh_data/
 is_root: false
 ---
 ##  refresh_data() {#}
-Обновляет данные и настройки сводной таблицы из ее источника данных.
+Обновляет данные сводной таблицы и настройки из ее источника данных.
 
 
 

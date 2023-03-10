@@ -1,4 +1,4 @@
-﻿---
+---
 title: encoding mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding mülk
 
-Varsayılan encoding'i alır ve ayarlar. Yalnızca csv dosyaları için geçerlidir.
+Varsayılan encoding'i alır ve ayarlar. Yalnızca csv dosyası için geçerlidir.
 ###  Tanım:
 ```python
 @property

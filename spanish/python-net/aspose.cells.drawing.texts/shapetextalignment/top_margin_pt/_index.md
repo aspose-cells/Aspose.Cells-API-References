@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_margin_pt propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Devuelve el margen superior en unidades de Puntos
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 

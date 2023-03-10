@@ -1,4 +1,4 @@
-﻿---
+---
 title: points propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -13,7 +13,7 @@ Obtiene la colección de points en una serie en un gráfico.
 
 ###  Observaciones
 
-Cuando el gráfico es Pastel de pastel o Barra de pastel, el último punto es el otro punto en el primer gráfico circular.
+Cuando el gráfico es Pastel de pastel o Barra de pastel, el último punto es otro punto en el primer gráfico circular.
 ###  Definición:
 ```python
 @property

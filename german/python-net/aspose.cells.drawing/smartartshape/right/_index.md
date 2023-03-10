@@ -1,4 +1,4 @@
-﻿---
+---
 title: right Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Repräsentiert die Breite des horizontalen Versatzes der Form von ihrer unteren Eckspalte right in Pixeleinheiten.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

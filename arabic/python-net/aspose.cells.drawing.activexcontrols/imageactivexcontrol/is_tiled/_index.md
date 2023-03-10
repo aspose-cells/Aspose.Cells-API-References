@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_tiled الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:

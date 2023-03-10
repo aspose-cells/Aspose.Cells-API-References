@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_empty_cells_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

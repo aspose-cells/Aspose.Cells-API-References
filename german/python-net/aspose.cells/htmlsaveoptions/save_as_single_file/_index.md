@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_as_single_file Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:

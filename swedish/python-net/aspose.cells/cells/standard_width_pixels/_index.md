@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_width_pixels fastighet
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  standard_width_pixels fastighet
 
-Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i enheter av pixlar.
+Hämtar eller ställer in standardkolumnbredden i kalkylbladet, i pixelenhet.
 ###  Definition:
 ```python
 @property

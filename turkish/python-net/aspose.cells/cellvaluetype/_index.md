@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellValueType numaralandırma
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -20,7 +20,7 @@ CellValueType türü aşağıdaki üyeleri gösterir:
 | IS_BOOL | Cell değeri booleandır.|
 | IS_DATE_TIME | Cell değeri tarih saattir.|
 | IS_ERROR | Cell hata değeri içeriyor|
-| IS_NULL | Boş hücreler.|
+| IS_NULL | Boş hücre.|
 | IS_NUMERIC | Cell değeri sayısaldır.|
 | IS_STRING | Cell değeri dizedir.|
 | IS_UNKNOWN | Cell değer türü bilinmiyor.|

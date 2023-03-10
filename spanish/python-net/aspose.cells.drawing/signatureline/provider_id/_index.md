@@ -1,4 +1,4 @@
-﻿---
+---
 title: provider_id propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -15,7 +15,7 @@ Obtiene y establece la identificación del proveedor de la firma.
 
 Por lo general, es el CLSID del complemento com del proveedor.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.drawing import SignatureLine

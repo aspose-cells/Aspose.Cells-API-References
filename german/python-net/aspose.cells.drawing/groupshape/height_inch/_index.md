@@ -1,4 +1,4 @@
-﻿---
+---
 title: height_inch Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -9,9 +9,9 @@ is_root: false
 ---
 ##  height_inch Eigentum
 
-Stellt die Höhe der Form in Zolleinheiten dar.
+Stellt die Höhe der Form in Zoll dar.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

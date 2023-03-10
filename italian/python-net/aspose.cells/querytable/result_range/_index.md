@@ -1,4 +1,4 @@
-﻿---
+---
 title: result_range proprietà
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  result_range proprietà
 
-Ottiene l'intervallo dei risultati.
+Ottiene l'intervallo del risultato.
 ###  Definizione:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: id propiedad
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Obtiene o establece el identificador de esta línea de firma.
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells.drawing import SignatureLine

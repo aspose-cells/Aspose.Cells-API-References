@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_ole_object método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ def add_ole_object(self, upper_left_row, top, upper_left_column, left, height, w
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | upper_left_row | int |  |
 | top | int |  |
@@ -32,7 +32,7 @@ def add_ole_object(self, upper_left_row, top, upper_left_column, left, height, w
 | width | int |  |
 | image_data | bytes |  |
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose import pycore

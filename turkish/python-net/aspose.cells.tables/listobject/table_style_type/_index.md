@@ -1,4 +1,4 @@
-﻿---
+---
 title: table_style_type mülk
 second_title: Aspose.Cells for Python via .NET API Referanslar
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 Alır ve yerleşik tablo stili.
 
-###  örnekler
+###  Örnek
 
 ```python
 from aspose.cells import Workbook

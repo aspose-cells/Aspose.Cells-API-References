@@ -1,6 +1,6 @@
-﻿---
+---
 title: export_bogus_row_data 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 160
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## export_bogus_row_data 属性
 
-表示是否导出伪造的底行数据。默认值为true。如果要导入html或mht文件
+提示是否导出伪造的底行数据。默认值为true。如果要导入html或mht文件
 excel，请保持默认值。
 ### 定义：
 ```python

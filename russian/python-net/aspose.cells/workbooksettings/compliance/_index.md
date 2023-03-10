@@ -1,4 +1,4 @@
-﻿---
+---
 title: compliance недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  compliance недвижимость
 
-Указывает версию OOXML для выходного документа.
+Указывает версию OOXML для выходного документа. Значение по умолчанию — Ecma376_2006.
 
 ###  Примечания
 

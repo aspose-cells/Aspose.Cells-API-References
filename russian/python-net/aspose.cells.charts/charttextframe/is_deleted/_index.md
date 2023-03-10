@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_deleted недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_deleted недвижимость
 
-Указывает, удалена ли эта метка данных.
+Указывает, удалены ли эти метки данных.
 ###  Определение:
 ```python
 @property

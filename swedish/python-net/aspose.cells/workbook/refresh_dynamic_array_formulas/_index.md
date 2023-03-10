@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_dynamic_array_formulas metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -19,7 +19,7 @@ def refresh_dynamic_array_formulas(self, calculate):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | calculate | bool | Om beräknar och uppdaterar cellvärden för dessa dynamiska matrisformler|
 
@@ -35,7 +35,7 @@ def refresh_dynamic_array_formulas(self, calculate, copts):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | calculate | bool | Om beräknar och uppdaterar cellvärden för dessa dynamiska matrisformler|
 | copts | [CalculationOptions](/cells/sv/python-net/aspose.cells/calculationoptions) | Alternativen för att beräkna formler|

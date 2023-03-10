@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_lock_aspect_ratio Eigentum
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -11,7 +11,7 @@ is_root: false
 
 True bedeutet, dass Änderungen des Seitenverhältnisses nicht zulässig sind.
 
-###  Beispiele
+###  Beispiel
 
 ```python
 

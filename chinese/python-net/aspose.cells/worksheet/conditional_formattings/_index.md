@@ -1,6 +1,6 @@
-﻿---
+---
 title: conditional_formattings 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 430
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## conditional_formattings 属性
 
-获取工作表中的条件格式。
+获取工作表中的 ConditionalFormattings。
 ### 定义：
 ```python
 @property

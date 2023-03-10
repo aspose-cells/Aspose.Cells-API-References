@@ -1,4 +1,4 @@
-﻿---
+---
 title: Series clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -19,7 +19,7 @@ El tipo Series expone los siguientes miembros:
 | :- | :- |
 | [layout_properties](/cells/es/python-net/aspose.cells.charts/series/layout_properties) | Representa las propiedades del diseño.|
 | [points](/cells/es/python-net/aspose.cells.charts/series/points) | Obtiene la colección de puntos en una serie en un gráfico.|
-| [area](/cells/es/python-net/aspose.cells.charts/series/area) | Representa el área de fondo de los objetos Serie.|
+| [area](/cells/es/python-net/aspose.cells.charts/series/area) | Representa el área de fondo del objeto Serie.|
 | [border](/cells/es/python-net/aspose.cells.charts/series/border) | Representa el borde del objeto Serie.|
 | [name](/cells/es/python-net/aspose.cells.charts/series/name) | Obtiene o establece el nombre de la serie de datos.|
 | [display_name](/cells/es/python-net/aspose.cells.charts/series/display_name) | Obtiene el nombre de la serie que se muestra en el gráfico.|
@@ -63,7 +63,7 @@ El tipo Series expone los siguientes miembros:
 | [show_negative_bubbles](/cells/es/python-net/aspose.cells.charts/series/show_negative_bubbles) | True si se muestran burbujas negativas para el grupo de gráficos. Válido solo para gráficos de burbujas.|
 | [doughnut_hole_size](/cells/es/python-net/aspose.cells.charts/series/doughnut_hole_size) | Devuelve o establece el tamaño del agujero en un grupo de gráficos de anillos.<br/> El tamaño del agujero se expresa como un porcentaje del tamaño del gráfico, entre el 10 y el 90 por ciento.|
 | [explosion](/cells/es/python-net/aspose.cells.charts/series/explosion) | La distancia de un sector circular abierto desde el centro del gráfico circular se expresa como un porcentaje del diámetro circular.|
-| [has_radar_axis_labels](/cells/es/python-net/aspose.cells.charts/series/has_radar_axis_labels) | True si un gráfico de radar tiene etiquetas de eje de categoría.|
+| [has_radar_axis_labels](/cells/es/python-net/aspose.cells.charts/series/has_radar_axis_labels) | True si un gráfico de radar tiene etiquetas de eje de categoría. Se aplica solo a las cartas de radar.|
 | [has_leader_lines](/cells/es/python-net/aspose.cells.charts/series/has_leader_lines) | Verdadero si la serie tiene líneas guía.|
 | [leader_lines](/cells/es/python-net/aspose.cells.charts/series/leader_lines) | Representa líneas guía en un gráfico. Las líneas guía conectan etiquetas de datos a puntos de datos.<br/>Este objeto no es una colección; no hay ningún objeto que represente una sola línea directriz.|
 | [legend_entry](/cells/es/python-net/aspose.cells.charts/series/legend_entry) | Obtiene la entrada de leyenda según esta serie.|
@@ -77,7 +77,7 @@ El tipo Series expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

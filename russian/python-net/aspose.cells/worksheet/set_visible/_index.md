@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_visible метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ def set_visible(self, is_visible, ignore_error):
 ```
 
 
-| Параметры| Тип| Описание|
+| Параметр| Тип| Описание|
 | :- | :- | :- |
 | is_visible | bool | Виден ли рабочий лист|
 | ignore_error | bool | Игнорировать ли ошибку, если этот параметр недействителен.|

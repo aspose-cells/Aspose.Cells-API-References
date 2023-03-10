@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect metod
 second_title: Aspose.Cells for Python via .NET API Referenser
 description:
@@ -18,7 +18,7 @@ def protect(self, protection_type, password):
 ```
 
 
-| Parametrar| Typ| Beskrivning|
+| Parameter| Typ| Beskrivning|
 | :- | :- | :- |
 | protection_type | [ProtectionType](/cells/sv/python-net/aspose.cells/protectiontype) | Skyddstyp.|
 | password | str | Lösenord för att skydda arbetsboken.|

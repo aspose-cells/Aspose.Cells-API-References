@@ -1,4 +1,4 @@
-﻿---
+---
 title: binary_search Methode
 second_title: Aspose.Cells for Python via .NET API Referenzen
 description:
@@ -24,7 +24,7 @@ def binary_search(self, item):
 
 | Parameter| Typ| Beschreibung|
 | :- | :- | :- |
-| item | [WebExtensionReference](/cells/de/python-net/aspose.cells.webextensions/webextensionreference) | Das zu lokalisierende System.Objekt.|
+| item | [WebExtensionReference](/cells/de/python-net/aspose.cells.webextensions/webextensionreference) | Das zu suchende System.Object. Der Wert kann null sein.|
 
 
 

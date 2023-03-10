@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,9 +22,9 @@ def add(self, name, start_row, start_column, end_row, end_column):
 ```
 
 
-| Paramètres| Taper| Description|
+| Paramètre| Taper| Description|
 | :- | :- | :- |
-| name | str | Titre de la plage. Il est utilisé comme descripteur et non comme définition de plage nommée.|
+| name | str | Titre de la gamme. Ceci est utilisé comme descripteur, pas comme une définition de plage nommée.|
 | start_row | int | Index de ligne de début de la plage.|
 | start_column | int | Index de colonne de départ de la plage.|
 | end_row | int | Indice de fin de ligne de la plage.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableAutoFormatType enumerazione
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -38,7 +38,7 @@ Il tipo PivotTableAutoFormatType espone i membri seguenti:
 | TABLE7 | Rappresenta il tipo di formato Table7.|
 | TABLE8 | Rappresenta il tipo di formato Table8.|
 | TABLE9 | Rappresenta il tipo di formato Table9.|
-| TABLE10 | Rappresenta il tipo di formato della tabella 10.|
+| TABLE10 | Rappresenta il tipo di formato Table10.|
 
 
 

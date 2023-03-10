@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hyperlink clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -18,8 +18,8 @@ El tipo Hyperlink expone los siguientes miembros:
 | Propiedad| Descripción|
 | :- | :- |
 | [address](/cells/es/python-net/aspose.cells/hyperlink/address) | Representa la dirección de un hipervínculo.|
-| [text_to_display](/cells/es/python-net/aspose.cells/hyperlink/text_to_display) | Representa el texto que se mostrará para el hipervínculo especificado.|
-| [area](/cells/es/python-net/aspose.cells/hyperlink/area) | Obtiene el rango de hipervínculos.|
+| [text_to_display](/cells/es/python-net/aspose.cells/hyperlink/text_to_display) | Representa el texto que se mostrará para el hipervínculo especificado. El valor predeterminado es la dirección del hipervínculo.|
+| [area](/cells/es/python-net/aspose.cells/hyperlink/area) | Obtiene el rango del hipervínculo.|
 | [screen_tip](/cells/es/python-net/aspose.cells/hyperlink/screen_tip) | Devuelve o establece el texto de información en pantalla para el hipervínculo especificado.|
 | [link_type](/cells/es/python-net/aspose.cells/hyperlink/link_type) | Obtiene el tipo de vínculo.|
 
@@ -31,7 +31,7 @@ El tipo Hyperlink expone los siguientes miembros:
 
 
 
-###  Ejemplos
+###  Ejemplo
 
 ```python
 from aspose.cells import Workbook

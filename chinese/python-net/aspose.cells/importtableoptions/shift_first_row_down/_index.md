@@ -1,6 +1,6 @@
-﻿---
+---
 title: shift_first_row_down 属性
-second_title: Aspose.Cells for Python via .NET API 参考文献
+second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
 type: docs
 weight: 150

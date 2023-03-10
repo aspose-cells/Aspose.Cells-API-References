@@ -1,4 +1,4 @@
-﻿---
+---
 title: area الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  area الملكية
 
-يحصل على نطاق الارتباطات التشعبية.
+يحصل على نطاق الارتباط التشعبي.
 ###  تعريف:
 ```python
 @property

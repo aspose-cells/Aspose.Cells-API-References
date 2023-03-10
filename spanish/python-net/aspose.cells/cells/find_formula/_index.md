@@ -1,4 +1,4 @@
-﻿---
+---
 title: find_formula método
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,14 +22,14 @@ def find_formula(self, formula, previous_cell):
 ```
 
 
-| Parámetros| Tipo| Descripción|
+| Parámetro| Tipo| Descripción|
 | :- | :- | :- |
 | formula | str | La fórmula a buscar.|
 | previous_cell | [Cell](/cells/es/python-net/aspose.cells/cell) |Celda anterior con la misma fórmula. Este parámetro se puede establecer en nulo si se busca desde el principio.|
 ###  Observaciones
 
 Devuelve nulo (nada) si no se encuentra ninguna celda.
- NOTA: Este miembro ahora está obsoleto.
+ NOTA: Este miembro ahora está obsoleto. En cambio,
 utilice el método Cells.Find(object,Cell,FindOptions) con LookInType como LookInType.OnlyFormulas
  y LookAtType como LookAtType.EntireContent.
  Este miembro será eliminado 12 meses después desde noviembre de 2018.

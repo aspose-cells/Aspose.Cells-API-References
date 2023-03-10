@@ -1,4 +1,4 @@
-﻿---
+---
 title: PowerQueryFormulaFunction clase
 second_title: Aspose.Cells for Python via .NET API Referencias
 description:
@@ -22,7 +22,7 @@ El tipo PowerQueryFormulaFunction expone los siguientes miembros:
 ###  Propiedades
 | Propiedad| Descripción|
 | :- | :- |
-| [formula_definition](/cells/es/python-net/aspose.cells.querytables/powerqueryformulafunction/formula_definition) | Obtiene la definición de la fórmula de consulta de energía.|
+| [formula_definition](/cells/es/python-net/aspose.cells.querytables/powerqueryformulafunction/formula_definition) | Obtiene la definición de la fórmula de consulta de potencia.|
 | [name](/cells/es/python-net/aspose.cells.querytables/powerqueryformulafunction/name) | Obtiene y establece el nombre de la fórmula de consulta de energía.|
 | [power_query_formula_items](/cells/es/python-net/aspose.cells.querytables/powerqueryformulafunction/power_query_formula_items) | Obtiene todos los elementos de la fórmula de consulta de energía.|
 | [f](/cells/es/python-net/aspose.cells.querytables/powerqueryformulafunction/f) | Obtiene y establece la definición de función.|

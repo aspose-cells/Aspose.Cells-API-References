@@ -1,4 +1,4 @@
-﻿---
+---
 title: embed_ooxml_as_ole_object الملكية
 second_title: Aspose.Cells for Python via .NET API المراجع
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  ملاحظات
 
-فقط من أجل كائنات Ole.
+فقط من أجل OleObject.
 ###  تعريف:
 ```python
 @property

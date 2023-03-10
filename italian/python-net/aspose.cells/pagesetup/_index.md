@@ -1,4 +1,4 @@
-﻿---
+---
 title: classe PageSetup
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -71,17 +71,17 @@ Il tipo PageSetup espone i membri seguenti:
 | [copy(source, copy_options)](/cells/it/python-net/aspose.cells/pagesetup/copy/#PageSetup-CopyOptions) | Copia l'impostazione della configurazione della pagina.|
 | [set_fit_to_pages(wide, tall)](/cells/it/python-net/aspose.cells/pagesetup/set_fit_to_pages/#int-int) | Imposta il numero di pagine a cui verrà ridimensionato il foglio di lavoro quando viene stampato.|
 | [custom_paper_size(width, height)](/cells/it/python-net/aspose.cells/pagesetup/custom_paper_size/#float-float) | Imposta il formato carta personalizzato, in unità di pollici.|
-| [clear_header_footer()](/cells/it/python-net/aspose.cells/pagesetup/clear_header_footer/#) | Cancella le impostazioni di intestazione e piè di pagina.|
+| [clear_header_footer()](/cells/it/python-net/aspose.cells/pagesetup/clear_header_footer/#) | Cancella l'impostazione di intestazione e piè di pagina.|
 | [get_header(section)](/cells/it/python-net/aspose.cells/pagesetup/get_header/#int) | Ottiene uno script che formatta l'intestazione di un file Excel.|
 | [get_commands(header_footer_script)](/cells/it/python-net/aspose.cells/pagesetup/get_commands/#str) | Ottiene tutti i comandi di intestazione o piè di pagina.|
 | [get_footer(section)](/cells/it/python-net/aspose.cells/pagesetup/get_footer/#int) | Ottiene uno script che formatta il piè di pagina di un file Excel.|
 | [set_header(section, header_script)](/cells/it/python-net/aspose.cells/pagesetup/set_header/#int-str) | Imposta uno script che formatta l'intestazione di un file Excel.|
 | [set_footer(section, footer_script)](/cells/it/python-net/aspose.cells/pagesetup/set_footer/#int-str) | Imposta uno script che formatta il piè di pagina di un file Excel.|
-| [set_even_header(section, header_script)](/cells/it/python-net/aspose.cells/pagesetup/set_even_header/#int-str) | Imposta uno script che formatta l'intestazione della pagina pari di un file Excel.<br/> Effetto solo in Excel 2007 quando IsHFDiffOddEven è true.|
+| [set_even_header(section, header_script)](/cells/it/python-net/aspose.cells/pagesetup/set_even_header/#int-str) | Imposta uno script che formatta l'intestazione della pagina pari di un file Excel.<br/> Effetto solo in Excel 2007 quando IsHFDiffOddEven è vero.|
 | [get_even_header(section)](/cells/it/python-net/aspose.cells/pagesetup/get_even_header/#int) |Ottiene uno script che formatta l'intestazione pari di un file Excel.|
-| [set_even_footer(section, footer_script)](/cells/it/python-net/aspose.cells/pagesetup/set_even_footer/#int-str) | Imposta uno script che formatta il piè di pagina pari di un file Excel.<br/> Effetto solo in Excel 2007 quando IsHFDiffOddEven è true.|
+| [set_even_footer(section, footer_script)](/cells/it/python-net/aspose.cells/pagesetup/set_even_footer/#int-str) | Imposta uno script che formatta il piè di pagina pari di un file Excel.<br/> Effetto solo in Excel 2007 quando IsHFDiffOddEven è vero.|
 | [get_even_footer(section)](/cells/it/python-net/aspose.cells/pagesetup/get_even_footer/#int) | Ottiene uno script che formatta il piè di pagina pari di un file Excel.|
-| [set_first_page_header(section, header_script)](/cells/it/python-net/aspose.cells/pagesetup/set_first_page_header/#int-str) | Imposta uno script che formatta l'intestazione della prima pagina di un file Excel.<br/> Effetto solo in Excel 2007 quando IsHFDiffFirst è true.|
+| [set_first_page_header(section, header_script)](/cells/it/python-net/aspose.cells/pagesetup/set_first_page_header/#int-str) | Imposta uno script che formatta l'intestazione della prima pagina di un file Excel.<br/> Effetto solo in Excel 2007 quando IsHFDiffFirst è vero.|
 | [get_first_page_header(section)](/cells/it/python-net/aspose.cells/pagesetup/get_first_page_header/#int) | Ottiene uno script che formatta l'intestazione della prima pagina di un file Excel.|
 | [set_first_page_footer(section, footer_script)](/cells/it/python-net/aspose.cells/pagesetup/set_first_page_footer/#int-str) | Imposta uno script che formatta il piè di pagina della prima pagina di un file Excel.|
 | [get_first_page_footer(section)](/cells/it/python-net/aspose.cells/pagesetup/get_first_page_footer/#int) | Ottiene uno script che formatta il piè di pagina della prima pagina di un file Excel.|
@@ -91,7 +91,7 @@ Il tipo PageSetup espone i membri seguenti:
 
 
 
-###  Esempi
+###  Esempio
 
 ```python
 from aspose.cells import Workbook

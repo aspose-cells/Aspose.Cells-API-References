@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSourceType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,8 +17,8 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| FONT_FILE | представляет собой один файл шрифта.|
-| FONTS_FOLDER | представляет папки с файлами шрифтов.|
+| FONT_FILE | представляет один файл шрифта.|
+| FONTS_FOLDER | представляет собой папку с файлами шрифтов.|
 | MEMORY_FONT | представляет один шрифт в памяти.|
 
 

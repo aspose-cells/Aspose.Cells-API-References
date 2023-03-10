@@ -1,4 +1,4 @@
-﻿---
+---
 title: metodo clear_header_footer
 second_title: Aspose.Cells for Python via .NET API Referenze
 description:
@@ -8,7 +8,7 @@ url: /it/python-net/aspose.cells/pagesetup/clear_header_footer/
 is_root: false
 ---
 ##  clear_header_footer() {#}
-Cancella le impostazioni di intestazione e piè di pagina.
+Cancella l'impostazione di intestazione e piè di pagina.
 
 
 
