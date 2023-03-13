@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfBookmarkEntry classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -29,7 +29,7 @@ Le type PdfBookmarkEntry expose les membres suivants :
 | [destination](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | La cellule à laquelle le signet est lié.|
 | [destination_name](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | Obtient ou définit le nom de la destination.|
 | [sub_entry](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | SubEntry d'un signet.|
-| [is_open](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | Lorsque cette propriété est vraie, l'entrée de signet se développera, sinon elle se réduira.|
+| [is_open](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |Lorsque cette propriété est vraie, l'entrée de signet se développera, sinon elle se réduira.|
 | [is_collapse](/cells/fr/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | Lorsque cette propriété est vraie, l'entrée de signet s'effondrera, sinon elle se développera.|
 
 

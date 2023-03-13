@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabels类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 120
 url: /zh/python-net/aspose.cells.charts/datalabels/
 is_root: false
 ---
-##  DataLabels类
+## DataLabels类
 封装指定系列的所有 DataLabel 对象的集合。
 
 
@@ -62,7 +62,7 @@ DataLabels 类型公开了以下成员：
 | [show_percentage](/cells/zh/python-net/aspose.cells.charts/datalabels/show_percentage) |表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。假以掩饰。|
 | [show_bubble_size](/cells/zh/python-net/aspose.cells.charts/datalabels/show_bubble_size) |表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。假以掩饰。|
 | [show_category_name](/cells/zh/python-net/aspose.cells.charts/datalabels/show_category_name) |表示指定图表的数据标签类别名称显示行为。为真表示在图表上显示数据标签的类别名称。假以掩饰。|
-| [show_series_name](/cells/zh/python-net/aspose.cells.charts/datalabels/show_series_name) |返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。<br/> True 显示系列名称。假以掩饰。|
+| [show_series_name](/cells/zh/python-net/aspose.cells.charts/datalabels/show_series_name) |返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。<br/>True 显示系列名称。假以掩饰。|
 | [show_legend_key](/cells/zh/python-net/aspose.cells.charts/datalabels/show_legend_key) |表示指定图表的数据标签图例键显示行为。<br/>如果数据标签图例键可见，则为真。|
 | [number_format](/cells/zh/python-net/aspose.cells.charts/datalabels/number_format) |表示 DataLabels 对象的格式字符串。|
 | [number](/cells/zh/python-net/aspose.cells.charts/datalabels/number) |获取和设置内置数字格式。|

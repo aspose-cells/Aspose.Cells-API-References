@@ -1,4 +1,4 @@
-﻿---
+---
 title: Title类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 320
 url: /zh/python-net/aspose.cells.charts/title/
 is_root: false
 ---
-##  Title类
+## Title类
 封装代表图表或坐标轴标题的对象。
 
 

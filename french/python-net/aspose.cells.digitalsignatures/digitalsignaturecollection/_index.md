@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignatureCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,13 +17,13 @@ Le type DigitalSignatureCollection expose les membres suivants :
 ###  Constructeurs
 | Constructeur| Description|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/fr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | Le constructeur de DigitalSignatureCollection.|
+| [DigitalSignatureCollection()](/cells/fr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |Le constructeur de DigitalSignatureCollection.|
 
 
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [add(digital_signature)](/cells/fr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |Ajoutez une signature à DigitalSignatureCollection.|
+| [add(digital_signature)](/cells/fr/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Ajoutez une signature à DigitalSignatureCollection.|
 
 
 

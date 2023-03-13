@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_cut_cells метод
 second_title: Aspose.Cells for Python via .NET API
 description:

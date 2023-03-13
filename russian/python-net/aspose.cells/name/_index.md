@@ -1,4 +1,4 @@
-﻿---
+---
 title: Name класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -32,8 +32,8 @@ is_root: false
 | :- | :- |
 | [get_refers_to(is_r1c1, is_local)](/cells/ru/python-net/aspose.cells/name/get_refers_to/#bool-bool) | Получите ссылку на это имя.|
 | [get_refers_to(is_r1c1, is_local, row, column)](/cells/ru/python-net/aspose.cells/name/get_refers_to/#bool-bool-int-int) | Получите ссылку на это имя на основе указанной ячейки.|
-| [get_ranges()](/cells/ru/python-net/aspose.cells/name/get_ranges/#) | Получает все диапазоны, на которые ссылается это имя.|
-| [get_ranges(recalculate)](/cells/ru/python-net/aspose.cells/name/get_ranges/#bool) | Получает все диапазоны, на которые ссылается это имя.|
+| [get_ranges()](/cells/ru/python-net/aspose.cells/name/get_ranges/#) |Получает все диапазоны, на которые ссылается это имя.|
+| [get_ranges(recalculate)](/cells/ru/python-net/aspose.cells/name/get_ranges/#bool) |Получает все диапазоны, на которые ссылается это имя.|
 | [get_range()](/cells/ru/python-net/aspose.cells/name/get_range/#) | Получает диапазон, если это имя относится к диапазону.|
 | [get_range(recalculate)](/cells/ru/python-net/aspose.cells/name/get_range/#bool) | Получает диапазон, если это имя относится к диапазону|
 | [get_range(sheet_index, row, column)](/cells/ru/python-net/aspose.cells/name/get_range/#int-int-int) | Получает диапазон, если это имя относится к диапазону.<br/> Если ссылка на это имя не является абсолютной, диапазон может быть разным для разных ячеек.|

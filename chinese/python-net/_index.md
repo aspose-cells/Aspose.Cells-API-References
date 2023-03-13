@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -12,7 +12,7 @@ is_root: true
 | :- | :- |
 | [aspose.cells](/cells/zh/python-net/aspose.cells) |这**Aspose.Cells**命名空间提供基本类和基类，用于生成、转换、修改、呈现和打印电子表格，而无需使用 Microsoft Excel。<br/>例如，[Workbook](/cells/zh/python-net/aspose.cells/workbook)类是创建或加载然后操作电子表格文件的主要入口，<br/>[Cells](/cells/zh/python-net/aspose.cells/cells) 类是操作工作表中所有数据和属性的主要类，...等。|
 | [aspose.cells.charts](/cells/zh/python-net/aspose.cells.charts) |这**Aspose.Cells.Charts**命名空间提供允许在 Microsoft Excel 电子表格中访问和绘制图表和迷你图的类。|
-| [aspose.cells.digitalsignatures](/cells/zh/python-net/aspose.cells.digitalsignatures) |这**Aspose.Cells.DigitalSignatures**namespace 提供类来签署文档和验证签名。|
+| [aspose.cells.digitalsignatures](/cells/zh/python-net/aspose.cells.digitalsignatures) |这**Aspose.Cells.DigitalSignatures** namespace 提供类来签署文档和验证签名。|
 | [aspose.cells.drawing](/cells/zh/python-net/aspose.cells.drawing) |这**Aspose.Cells.Drawing**命名空间提供允许创建和修改绘图形状、表单控件和更高级绘图对象的类。|
 | [aspose.cells.drawing.activexcontrols](/cells/zh/python-net/aspose.cells.drawing.activexcontrols) |这**Aspose.Cells.Drawing.ActiveXControls**命名空间提供允许绘制和访问 ActiveXControl 的类。|
 | [aspose.cells.drawing.texts](/cells/zh/python-net/aspose.cells.drawing.texts) |这**Aspose.Cells.Drawing.Texts**命名空间提供绘制和格式化文本对象（例如段落、项目符号等）的类。|

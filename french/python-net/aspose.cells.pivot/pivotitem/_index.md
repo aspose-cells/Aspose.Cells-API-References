@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotItem classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -27,10 +27,10 @@ Le type PivotItem expose les membres suivants :
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [move(count, is_same_parent)](/cells/fr/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) |Déplace l'élément vers le haut ou vers le bas|
+| [move(count, is_same_parent)](/cells/fr/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) | Déplace l'élément vers le haut ou vers le bas|
 | [get_string_value()](/cells/fr/python-net/aspose.cells.pivot/pivotitem/get_string_value/#) | Obtient la valeur de chaîne de l'élément pivot<br/> Si la valeur est nulle, il retournera ""|
 | [get_double_value()](/cells/fr/python-net/aspose.cells.pivot/pivotitem/get_double_value/#) | Obtient la valeur double de l'élément pivot<br/> Si la valeur est nulle ou non numérique, elle retournera 0|
-| [get_date_time_value()](/cells/fr/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) |Obtient la valeur de date et d'heure de l'élément pivot<br/> Si la valeur est null , elle renverra DateTime.MinValue|
+| [get_date_time_value()](/cells/fr/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) | Obtient la valeur de date et d'heure de l'élément pivot<br/> Si la valeur est null , elle renverra DateTime.MinValue|
 
 
 

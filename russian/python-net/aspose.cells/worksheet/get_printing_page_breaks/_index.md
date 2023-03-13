@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_printing_page_breaks метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def get_printing_page_breaks(self, options):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |Параметры печати|
+| options | aspose.cells.rendering.ImageOrPrintOptions | Параметры печати|
 ###  Примечания
 
 Каждая ячейка представляет собой бумагу.

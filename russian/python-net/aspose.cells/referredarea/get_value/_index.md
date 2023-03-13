@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ def get_value(self, row_offset, col_offset):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_offset | int | смещение строки от начальной строки этой области|
-| col_offset | int | смещение столбца от начальной строки этой области|
+| col_offset | int |смещение столбца от начальной строки этой области|
 
 
 ##  get_value(row_offset, col_offset, calculate_formulas) {#int-int-bool}
@@ -50,7 +50,7 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_offset | int | смещение строки от начальной строки этой области|
-| col_offset | int | смещение столбца от начальной строки этой области|
+| col_offset | int |смещение столбца от начальной строки этой области|
 | calculate_formulas | bool | Вычислять ли его рекурсивно, если указанная ссылка является формулой|
 
 

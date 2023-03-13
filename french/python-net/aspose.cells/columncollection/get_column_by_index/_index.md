@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_by_index méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

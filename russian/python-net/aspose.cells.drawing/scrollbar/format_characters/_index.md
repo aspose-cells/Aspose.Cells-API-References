@@ -1,4 +1,4 @@
-﻿---
+---
 title: format_characters метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def format_characters(self, start_index, length, font):
 | :- | :- | :- |
 | start_index | int | Начальный индекс.|
 | length | int | Длина.|
-| font | [Font](/cells/ru/python-net/aspose.cells/font) |Настройка шрифта.|
+| font | [Font](/cells/ru/python-net/aspose.cells/font) | Настройка шрифта.|
 ###  Примечания
 
 ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
@@ -45,7 +45,7 @@ def format_characters(self, start_index, length, font, flag):
 | :- | :- | :- |
 | start_index | int | Начальный индекс.|
 | length | int | Длина.|
-| font | [Font](/cells/ru/python-net/aspose.cells/font) |Настройка шрифта.|
+| font | [Font](/cells/ru/python-net/aspose.cells/font) | Настройка шрифта.|
 | flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) | Флаг настройки шрифта.|
 
 

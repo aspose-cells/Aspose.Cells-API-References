@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ def __init__(self, worksheet, options):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | worksheet | [Worksheet](/cells/fr/python-net/aspose.cells/worksheet) | Indiquez la feuille de calcul à afficher.|
-| options | [ImageOrPrintOptions](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions) |ImageOrPrintOptions contient une propriété de l'image de sortie|
+| options | [ImageOrPrintOptions](/cells/fr/python-net/aspose.cells.rendering/imageorprintoptions) | ImageOrPrintOptions contient une propriété de l'image de sortie|
 
 
 

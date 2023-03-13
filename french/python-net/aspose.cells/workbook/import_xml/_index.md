@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_xml méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -55,7 +55,7 @@ def import_xml(self, stream, sheet_name, row, col):
 | stream | io.RawIOBase | le flux de fichiers xml.|
 | sheet_name | str | le nom de la feuille de destination.|
 | row | int | la ligne de destination.|
-| col | int |la colonne de destination.|
+| col | int | la colonne de destination.|
 
 
 

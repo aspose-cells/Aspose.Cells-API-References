@@ -1,4 +1,4 @@
-﻿---
+---
 title: PictureBulletValue类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 70
 url: /zh/python-net/aspose.cells.drawing.texts/picturebulletvalue/
 is_root: false
 ---
-##  PictureBulletValue类
+## PictureBulletValue类
 表示图像项目符号的值。
 
 

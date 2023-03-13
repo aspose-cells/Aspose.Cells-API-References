@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1000
 url: /zh/python-net/aspose.cells.drawing/msodrawingtype/
 is_root: false
 ---
-##  MsoDrawingType枚举
+## MsoDrawingType枚举
 表示办公室绘图对象类型。
 
 
 
 MsoDrawingType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | GROUP |团体|
@@ -40,7 +40,7 @@ MsoDrawingType 类型公开了以下成员：
 | OLE_OBJECT |对象|
 | CELLS_DRAWING |仅用于保留模板文件中的绘图对象。|
 | UNKNOWN |仅用于在 xlsx 文件中保留绘图对象。|
-| SLICER |切片机|
+| SLICER |切片器|
 | WEB_EXTENSION |网页扩展|
 | SMART_ART |智能艺术|
 | CUSTOM_XML |自定义 xml 形状，例如 Ink。|

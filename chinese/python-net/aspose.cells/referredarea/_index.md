@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReferredArea类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1270
 url: /zh/python-net/aspose.cells/referredarea/
 is_root: false
 ---
-##  ReferredArea类
+## ReferredArea类
 表示由公式引用的区域。
 
 

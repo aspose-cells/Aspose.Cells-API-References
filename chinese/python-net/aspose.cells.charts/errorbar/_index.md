@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBar类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 150
 url: /zh/python-net/aspose.cells.charts/errorbar/
 is_root: false
 ---
-##  ErrorBar类
+## ErrorBar类
 表示数据系列的误差线。
 
 

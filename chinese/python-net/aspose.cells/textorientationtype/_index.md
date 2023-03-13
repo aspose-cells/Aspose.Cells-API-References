@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOrientationType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2560
 url: /zh/python-net/aspose.cells/textorientationtype/
 is_root: false
 ---
-##  TextOrientationType枚举
+## TextOrientationType枚举
 枚举文本方向类型。
 
 
 
 TextOrientationType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CLOCK_WISE |顺时针旋转文本 90 度。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_outline_shown недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SolidFill classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,7 +23,7 @@ Le type SolidFill expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [color](/cells/fr/python-net/aspose.cells.drawing/solidfill/color) | Obtient ou définit la Color.|
-| [cells_color](/cells/fr/python-net/aspose.cells.drawing/solidfill/cells_color) | Obtient et définit l'objet [SolidFill.cells_color](/cells/fr/python-net/aspose.cells.drawing/solidfill#cells_color).|
+| [cells_color](/cells/fr/python-net/aspose.cells.drawing/solidfill/cells_color) |Obtient et définit l'objet [SolidFill.cells_color](/cells/fr/python-net/aspose.cells.drawing/solidfill#cells_color).|
 | [transparency](/cells/fr/python-net/aspose.cells.drawing/solidfill/transparency) | Renvoie ou définit le degré de transparence de la zone sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).|
 
 

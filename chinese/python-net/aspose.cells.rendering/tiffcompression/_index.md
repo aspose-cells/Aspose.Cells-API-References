@@ -1,4 +1,4 @@
-﻿---
+---
 title: TiffCompression枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 220
 url: /zh/python-net/aspose.cells.rendering/tiffcompression/
 is_root: false
 ---
-##  TiffCompression枚举
+## TiffCompression枚举
 指定将图像保存为 TIFF 格式文件时要应用的压缩类型。
 
 
 
 TiffCompression 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | COMPRESSION_NONE |指定不压缩。|

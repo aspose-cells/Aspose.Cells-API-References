@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_rows метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -33,7 +33,7 @@ def auto_fit_rows(self, only_auto):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| only_auto | bool | Правда, высота строки подбирается автоматически только тогда, когда высота строки не настроена.|
+| only_auto | bool |Правда, высота строки подбирается автоматически только тогда, когда высота строки не настроена.|
 
 
 ##  auto_fit_rows(options) {#AutoFitterOptions}

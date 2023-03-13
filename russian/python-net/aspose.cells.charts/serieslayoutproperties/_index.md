@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesLayoutProperties класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ is_root: false
 | [show_mean_line](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_line) | Указывает, отображается ли линия, соединяющая все средние точки.|
 | [show_outlier_points](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/show_outlier_points) | Указывает, отображаются ли точки данных с выбросами.|
 | [show_mean_marker](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/show_mean_marker) | Указывает, отображаются ли маркеры, обозначающие среднее значение.|
-| [show_inner_points](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) |Указывает, отображаются ли точки данных, не являющиеся выбросами.|
+| [show_inner_points](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/show_inner_points) | Указывает, отображаются ли точки данных, не являющиеся выбросами.|
 | [subtotals](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/subtotals) | Представляет индекс точки данных промежуточного итога.|
 | [quartile_calculation](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/quartile_calculation) | Представляет статистические свойства ряда.|
 | [map_label_layout](/cells/ru/python-net/aspose.cells.charts/serieslayoutproperties/map_label_layout) | Получает и задает макет меток карты.|

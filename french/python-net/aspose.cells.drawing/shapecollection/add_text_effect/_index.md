@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_effect méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -32,8 +32,8 @@ def add_text_effect(self, effect, text, font_name, size, font_bold, font_italic,
 | font_italic | bool | Indique si la police est en italique.|
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical de la forme par rapport à sa ligne de gauche, en unité de pixel.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
-| left | int | Représente le décalage horizontal de la forme par rapport à sa colonne de gauche, en unité de pixel.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
+| left | int |Représente le décalage horizontal de la forme par rapport à sa colonne de gauche, en unité de pixel.|
 | height | int | Représente la hauteur de la forme, en unité de pixel.|
 | width | int | Représente la largeur de la forme, en unité de pixel.|
 

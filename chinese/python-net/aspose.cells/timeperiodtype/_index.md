@@ -1,4 +1,4 @@
-﻿---
+---
 title: TimePeriodType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 2590
 url: /zh/python-net/aspose.cells/timeperiodtype/
 is_root: false
 ---
-##  TimePeriodType枚举
+## TimePeriodType枚举
 在 FormatConditionType.TimePeriod 条件格式设置规则中使用。
 这些是动态时间段，根据
 刷新/应用条件格式的日期。
@@ -16,7 +16,7 @@ is_root: false
 
 TimePeriodType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | TODAY |今天的日期。|

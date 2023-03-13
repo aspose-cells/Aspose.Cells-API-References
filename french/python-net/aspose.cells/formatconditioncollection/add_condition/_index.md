@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_condition méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -46,8 +46,8 @@ def add_condition(self, type, operator_type, formula1, formula2):
 | :- | :- | :- |
 | type | [FormatConditionType](/cells/fr/python-net/aspose.cells/formatconditiontype) | [FormatConditionType](/cells/fr/python-net/aspose.cells/formatconditiontype) de mise en forme conditionnelle.<br/> Il peut s'agir de l'un des membres de FormatConditionType.|
 | operator_type | [OperatorType](/cells/fr/python-net/aspose.cells/operatortype) | La comparaison [OperatorType](/cells/fr/python-net/aspose.cells/operatortype).<br/> Il peut s'agir de l'un des membres de OperatorType.|
-| formula1 | str |La valeur ou l'expression associée à la mise en forme conditionnelle.<br/>Si la valeur d'entrée commence par '=', elle sera considérée comme une formule.<br/>Sinon, il sera pris comme valeur simple (texte, nombre, booléen).<br/> Pour une valeur de texte commençant par '=', l'utilisateur peut la saisir sous forme de formule au format : "=\"=...\"".|
-| formula2 | str |La valeur ou l'expression associée à la mise en forme conditionnelle.<br/> Le format d'entrée est le même avec formula1|
+| formula1 | str | La valeur ou l'expression associée à la mise en forme conditionnelle.<br/>Si la valeur d'entrée commence par '=', elle sera considérée comme une formule.<br/>Sinon, il sera pris comme valeur simple (texte, nombre, booléen).<br/> Pour une valeur de texte commençant par '=', l'utilisateur peut la saisir sous forme de formule au format : "=\"=...\"".|
+| formula2 | str | La valeur ou l'expression associée à la mise en forme conditionnelle.<br/>Le format d'entrée est le même avec formula1|
 
 
 

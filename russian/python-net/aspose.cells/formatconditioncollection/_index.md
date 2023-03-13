@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -34,7 +34,7 @@ FormatConditions может содержать до трех условных ф
 | Метод| Описание|
 | :- | :- |
 | [add_condition(type, operator_type, formula1, formula2)](/cells/ru/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType-OperatorType-str-str) | Добавляет условие форматирования.|
-| [add_condition(type)](/cells/ru/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) | Добавьте условие формата.|
+| [add_condition(type)](/cells/ru/python-net/aspose.cells/formatconditioncollection/add_condition/#FormatConditionType) |Добавьте условие формата.|
 | [remove_area(index)](/cells/ru/python-net/aspose.cells/formatconditioncollection/remove_area/#int) | Удаляет условно отформатированный диапазон ячеек по индексу.|
 | [remove_area(start_row, start_column, total_rows, total_columns)](/cells/ru/python-net/aspose.cells/formatconditioncollection/remove_area/#int-int-int-int) | Удалить условное форматирование в диапазоне.|
 | [add(cell_area, type, operator_type, formula1, formula2)](/cells/ru/python-net/aspose.cells/formatconditioncollection/add/#CellArea-FormatConditionType-OperatorType-str-str) | Добавляет условие форматирования и диапазон ячеек в FormatConditions.<br/>FormatConditions может содержать до трех условных форматов.<br/> Ссылки на другие листы в формулах условного форматирования не допускаются.|

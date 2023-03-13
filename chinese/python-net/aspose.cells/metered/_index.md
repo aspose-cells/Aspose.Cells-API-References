@@ -1,4 +1,4 @@
-﻿---
+---
 title: Metered类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1050
 url: /zh/python-net/aspose.cells/metered/
 is_root: false
 ---
-##  Metered类
+## Metered类
 提供设置计量密钥的方法。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitLabel类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 130
 url: /zh/python-net/aspose.cells.charts/displayunitlabel/
 is_root: false
 ---
-##  DisplayUnitLabel类
+## DisplayUnitLabel类
 表示显示单元标签。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfFontEncoding枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 200
 url: /zh/python-net/aspose.cells.rendering/pdffontencoding/
 is_root: false
 ---
-##  PdfFontEncoding枚举
+## PdfFontEncoding枚举
 表示 pdf 嵌入字体编码。
 
 
 
 PdfFontEncoding 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | IDENTITY |表示对pdf中的所有内嵌字体使用Identity-H编码。|

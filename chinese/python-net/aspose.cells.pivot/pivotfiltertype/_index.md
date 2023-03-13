@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFilterType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 180
 url: /zh/python-net/aspose.cells.pivot/pivotfiltertype/
 is_root: false
 ---
-##  PivotFilterType枚举
+## PivotFilterType枚举
 表示数据透视表过滤器类型。
 
 
 
 PivotFilterType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CAPTION_BEGINS_WITH |指示字段标题的“开头为”过滤器。|

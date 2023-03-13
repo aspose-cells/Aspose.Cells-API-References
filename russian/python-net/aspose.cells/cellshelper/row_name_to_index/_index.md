@@ -1,4 +1,4 @@
-﻿---
+---
 title: row_name_to_index метод
 second_title: Aspose.Cells for Python via .NET API
 description:

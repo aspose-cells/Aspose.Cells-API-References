@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsFactory classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,7 +23,7 @@ Le type CellsFactory expose les membres suivants :
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [create_style()](/cells/fr/python-net/aspose.cells/cellsfactory/create_style/#) |Crée un nouveau style.|
+| [create_style()](/cells/fr/python-net/aspose.cells/cellsfactory/create_style/#) | Crée un nouveau style.|
 
 
 

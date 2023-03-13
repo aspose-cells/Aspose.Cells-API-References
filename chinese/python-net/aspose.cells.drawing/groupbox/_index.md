@@ -1,4 +1,4 @@
-﻿---
+---
 title: GroupBox类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 250
 url: /zh/python-net/aspose.cells.drawing/groupbox/
 is_root: false
 ---
-##  GroupBox类
+## GroupBox类
 封装代表电子表格中的组框的对象。
 
 

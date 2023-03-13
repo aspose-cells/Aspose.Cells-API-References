@@ -1,4 +1,4 @@
-﻿---
+---
 title: PowerQueryFormulaFunction类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.querytables/powerqueryformulafunction/
 is_root: false
 ---
-##  PowerQueryFormulaFunction类
+## PowerQueryFormulaFunction类
 代表电量查询功能。
 
 

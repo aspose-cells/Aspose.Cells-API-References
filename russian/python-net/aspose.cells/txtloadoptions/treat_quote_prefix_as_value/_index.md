@@ -1,4 +1,4 @@
-﻿---
+---
 title: treat_quote_prefix_as_value недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

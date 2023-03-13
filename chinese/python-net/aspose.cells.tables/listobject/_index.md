@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObject类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.tables/listobject/
 is_root: false
 ---
-##  ListObject类
+## ListObject类
 表示工作表上的列表对象。
  ListObject 对象是 ListObjects 集合的成员。
 ListObjects 集合包含工作表上的所有列表对象。

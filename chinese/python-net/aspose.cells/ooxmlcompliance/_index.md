@@ -1,4 +1,4 @@
-﻿---
+---
 title: OoxmlCompliance枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2270
 url: /zh/python-net/aspose.cells/ooxmlcompliance/
 is_root: false
 ---
-##  OoxmlCompliance枚举
+## OoxmlCompliance枚举
 允许指定以 Xlsx 格式保存时将使用的 OOXML 规范。
 
 
 
 OoxmlCompliance 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ECMA_376_2006 | ECMA-376 第一版，2006 年。|

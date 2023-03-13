@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLayoutOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 20
 url: /zh/python-net/aspose.cells.utility/jsonlayoutoptions/
 is_root: false
 ---
-##  JsonLayoutOptions类
+## JsonLayoutOptions类
 表示json布局类型的选项。
 
 

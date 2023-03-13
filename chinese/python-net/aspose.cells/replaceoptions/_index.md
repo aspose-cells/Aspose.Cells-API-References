@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReplaceOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1290
 url: /zh/python-net/aspose.cells/replaceoptions/
 is_root: false
 ---
-##  ReplaceOptions类
+## ReplaceOptions类
 表示替换选项。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_empty_cells_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

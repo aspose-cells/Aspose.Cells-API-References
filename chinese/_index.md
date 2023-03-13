@@ -97,5 +97,5 @@ Aspose.Cells for Python via .NET 使您的应用程序能够执行范围广泛�
 {{% /alert %}}
 
 这些是一些有用资源的链接：
-- [Aspose.Cells for Python 通过 .NET API 参考](/cells/python-net/)
+- [Aspose.Cells for Python 通过 .NET API 参考](/cells/zh/python-net/)
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: recommend_read_only недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

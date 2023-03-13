@@ -1,4 +1,4 @@
-﻿---
+---
 title: NameScopeType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2250
 url: /zh/python-net/aspose.cells/namescopetype/
 is_root: false
 ---
-##  NameScopeType枚举
+## NameScopeType枚举
 表示已定义名称的范围类型。
 
 
 
 NameScopeType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ALL |所有定义的名称。|

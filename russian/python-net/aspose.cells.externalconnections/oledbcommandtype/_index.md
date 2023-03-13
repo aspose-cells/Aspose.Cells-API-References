@@ -1,4 +1,4 @@
-﻿---
+---
 title: OLEDBCommandType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ is_root: false
 | SQL_STATEMENT | Задает оператор SQL|
 | TABLE_NAME | Задает имя таблицы|
 | DEFAULT_INFORMATION | Указывает, что была предоставлена информация по умолчанию, а интерпретация зависит от поставщика.|
-| WEB_BASED_LIST | Указывает запрос, который относится к веб-поставщику данных списка.|
+| WEB_BASED_LIST |Указывает запрос, который относится к веб-поставщику данных списка.|
 
 
 

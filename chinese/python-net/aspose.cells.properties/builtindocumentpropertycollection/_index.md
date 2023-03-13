@@ -1,4 +1,4 @@
-﻿---
+---
 title: BuiltInDocumentPropertyCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.properties/builtindocumentpropertycollection/
 is_root: false
 ---
-##  BuiltInDocumentPropertyCollection类
+## BuiltInDocumentPropertyCollection类
 内置文档属性的集合。
 
 

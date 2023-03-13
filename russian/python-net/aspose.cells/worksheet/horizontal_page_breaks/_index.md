@@ -1,4 +1,4 @@
-﻿---
+---
 title: horizontal_page_breaks недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

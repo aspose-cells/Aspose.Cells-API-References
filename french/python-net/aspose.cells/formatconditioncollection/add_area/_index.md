@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_area méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ def add_area(self, cell_area):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Plage de cellules mise en forme conditionnelle.|
+| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) |Plage de cellules mise en forme conditionnelle.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextCrossType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2540
 url: /zh/python-net/aspose.cells/textcrosstype/
 is_root: false
 ---
-##  TextCrossType枚举
+## TextCrossType枚举
 枚举当文本宽度大于单元格宽度时显示的文本类型。
 
 
 
 TextCrossType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DEFAULT |在 Microsoft Excel 中显示文本。|

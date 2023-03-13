@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBar类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 400
 url: /zh/python-net/aspose.cells/databar/
 is_root: false
 ---
-##  DataBar类
+## DataBar类
 描述 DataBar 条件格式规则。
 此条件格式规则显示渐变
 单元格区域中的数据栏。

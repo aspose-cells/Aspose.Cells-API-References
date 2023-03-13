@@ -1,4 +1,4 @@
-﻿---
+---
 title: soft_edges propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -55,7 +55,7 @@ is_root: false
 | [CustomImplementationFactory](/cells/zh/python-net/aspose.cells/customimplementationfactory) |工厂创建一些实例，用户可以为特殊目的重新实现这些实例。|
 | [DataBar](/cells/zh/python-net/aspose.cells/databar) |描述 DataBar 条件格式规则。<br/>此条件格式规则显示渐变<br/>单元格区域中的数据栏。|
 | [DataBarBorder](/cells/zh/python-net/aspose.cells/databarborder) |表示由条件格式规则指定的数据条的边框。|
-| [DataSorter](/cells/zh/python-net/aspose.cells/datasorter) |DataSorter 的摘要说明。|
+| [DataSorter](/cells/zh/python-net/aspose.cells/datasorter) | DataSorter 的摘要说明。|
 | [DataSorterKey](/cells/zh/python-net/aspose.cells/datasorterkey) |表示数据排序器的键。|
 | [DataSorterKeyCollection](/cells/zh/python-net/aspose.cells/datasorterkeycollection) |表示数据排序器的键列表。|
 | [DateTimeGroupItem](/cells/zh/python-net/aspose.cells/datetimegroupitem) |表示日期时间的组设置。|
@@ -75,7 +75,7 @@ is_root: false
 | [FileFormatInfo](/cells/zh/python-net/aspose.cells/fileformatinfo) |包含 [FileFormatUtil](/cells/zh/python-net/aspose.cells/fileformatutil) 文件格式检测方法返回的数据。|
 | [FileFormatUtil](/cells/zh/python-net/aspose.cells/fileformatutil) |提供用于将文件格式枚举转换为字符串或文件扩展名并返回的实用方法。|
 | [FilterColumn](/cells/zh/python-net/aspose.cells/filtercolumn) |表示单个列的筛选器。 Filter 对象是 Filters 集合的成员|
-| [FilterColumnCollection](/cells/zh/python-net/aspose.cells/filtercolumncollection) | Filter 对象的集合，表示自动筛选范围内的所有筛选器。|
+| [FilterColumnCollection](/cells/zh/python-net/aspose.cells/filtercolumncollection) |Filter 对象的集合，表示自动筛选范围内的所有筛选器。|
 | [FindOptions](/cells/zh/python-net/aspose.cells/findoptions) |表示查找选项。|
 | [FolderFontSource](/cells/zh/python-net/aspose.cells/folderfontsource) |表示包含 TrueType 字体文件的文件夹。|
 | [Font](/cells/zh/python-net/aspose.cells/font) |封装电子表格中使用的字体对象。|

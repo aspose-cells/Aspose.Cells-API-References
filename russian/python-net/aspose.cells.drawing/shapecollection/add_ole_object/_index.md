@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_ole_object метод
 second_title: Aspose.Cells for Python via .NET API
 description:

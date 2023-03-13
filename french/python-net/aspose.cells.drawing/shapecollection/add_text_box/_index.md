@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_text_box méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,8 +25,8 @@ def add_text_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
-| top | int |Représente le décalage vertical de la zone de texte par rapport à sa ligne de gauche, en unité de pixel.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| top | int | Représente le décalage vertical de la zone de texte par rapport à sa ligne de gauche, en unité de pixel.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal de la zone de texte par rapport à sa colonne de gauche, en unité de pixel.|
 | height | int | Représente la hauteur de la zone de texte, en unité de pixel.|
 | width | int | Représente la largeur de la zone de texte, en unité de pixel.|

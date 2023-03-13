@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_local_built_in_name méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

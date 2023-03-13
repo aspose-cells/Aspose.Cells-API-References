@@ -1,4 +1,4 @@
-﻿---
+---
 title: style propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  style propriété
 
-Représente le style de cette ligne.
+Représente le style de cette rangée.
 
 ###  Remarques
 

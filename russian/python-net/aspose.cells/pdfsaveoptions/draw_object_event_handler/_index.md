@@ -1,4 +1,4 @@
-﻿---
+---
 title: draw_object_event_handler недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

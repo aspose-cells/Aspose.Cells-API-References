@@ -1,4 +1,4 @@
-﻿---
+---
 title: ToggleButtonActiveXControl类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 130
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/
 is_root: false
 ---
-##  ToggleButtonActiveXControl类
+## ToggleButtonActiveXControl类
 表示 ToggleButton ActiveX 控件。
 
 

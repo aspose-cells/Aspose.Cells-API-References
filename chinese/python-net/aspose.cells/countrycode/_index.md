@@ -1,4 +1,4 @@
-﻿---
+---
 title: CountryCode枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1890
 url: /zh/python-net/aspose.cells/countrycode/
 is_root: false
 ---
-##  CountryCode枚举
+## CountryCode枚举
 表示 Excel 国家/地区标识符。
 
 
 
 CountryCode 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DEFAULT |  |

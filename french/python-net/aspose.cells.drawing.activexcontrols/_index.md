@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.activexcontrols
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ is_root: false
 | [CheckBoxActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/checkboxactivexcontrol) | Représente un contrôle ActiveX CheckBox.|
 | [ComboBoxActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol) | Représente un contrôle ComboBox ActiveX.|
 | [CommandButtonActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol) | Représente un bouton de commande.|
-| [ImageActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol) | Représente le contrôle image.|
+| [ImageActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/imageactivexcontrol) |Représente le contrôle image.|
 | [LabelActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/labelactivexcontrol) | Représente le contrôle ActiveX de l'étiquette.|
 | [ListBoxActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol) | Représente un contrôle ActiveX ListBox.|
 | [RadioButtonActiveXControl](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol) | Représente un contrôle ActiveX RadioButton.|
@@ -29,17 +29,17 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
 | [ActiveXPersistenceType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/activexpersistencetype) | Représente la méthode de persistance pour conserver un contrôle ActiveX.|
 | [ControlBorderType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlbordertype) | Représente le type de bordure du contrôle ActiveX.|
 | [ControlCaptionAlignmentType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlcaptionalignmenttype) | Représente la position du Caption par rapport au contrôle.|
 | [ControlListStyle](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlliststyle) | Représente l'apparence visuelle de la liste dans un ListBox ou un ComboBox.|
 | [ControlMatchEntryType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlmatchentrytype) | Représente la manière dont un ListBox ou un ComboBox recherche dans sa liste au fur et à mesure que l'utilisateur tape.|
-| [ControlMousePointerType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlmousepointertype) |Représente le type d'icône affichée comme pointeur de souris pour le contrôle.|
+| [ControlMousePointerType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlmousepointertype) | Représente le type d'icône affichée comme pointeur de souris pour le contrôle.|
 | [ControlPictureAlignmentType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlpicturealignmenttype) | Représente l'alignement de l'image à l'intérieur du formulaire ou de l'image.|
 | [ControlPicturePositionType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlpicturepositiontype) | Représente l'emplacement de l'image du contrôle par rapport à sa légende.|
-| [ControlPictureSizeMode](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode) | Représente comment afficher l'image.|
+| [ControlPictureSizeMode](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode) |Représente comment afficher l'image.|
 | [ControlScrollBarType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlscrollbartype) | Représente le type de barre de défilement.|
 | [ControlScrollOrientation](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlscrollorientation) | Représente le type d'orientation de défilement|
 | [ControlSpecialEffectType](/cells/fr/python-net/aspose.cells.drawing.activexcontrols/controlspecialeffecttype) | Représente le type d'effet spécial.|

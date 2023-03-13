@@ -1,4 +1,4 @@
-﻿---
+---
 title: PowerQueryFormulaCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.querytables/powerqueryformulacollection/
 is_root: false
 ---
-##  PowerQueryFormulaCollection类
+## PowerQueryFormulaCollection类
 表示混搭数据中的所有幂查询公式。
 
 

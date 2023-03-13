@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 780
 url: /zh/python-net/aspose.cells/htmlsaveoptions/
 is_root: false
 ---
-##  HtmlSaveOptions类
+## HtmlSaveOptions类
 表示保存 html 文件的选项。
 
 
@@ -41,7 +41,7 @@ HtmlSaveOptions 类型公开了以下成员：
 | [warning_callback](/cells/zh/python-net/aspose.cells/htmlsaveoptions/warning_callback) |获取或设置警告回调。|
 | [update_smart_art](/cells/zh/python-net/aspose.cells/htmlsaveoptions/update_smart_art) |指示是否更新智能艺术设置。<br/>默认值为假。|
 | [ignore_invisible_shapes](/cells/zh/python-net/aspose.cells/htmlsaveoptions/ignore_invisible_shapes) |指示是否导出那些不可见的形状|
-| [page_title](/cells/zh/python-net/aspose.cells/htmlsaveoptions/page_title) | html 页面的标题。<br/>仅用于保存到 html 流。|
+| [page_title](/cells/zh/python-net/aspose.cells/htmlsaveoptions/page_title) |html 页面的标题。<br/>仅用于保存到 html 流。|
 | [attached_files_directory](/cells/zh/python-net/aspose.cells/htmlsaveoptions/attached_files_directory) |附加文件将保存到的目录。<br/>仅用于保存到 html 流。|
 | [attached_files_url_prefix](/cells/zh/python-net/aspose.cells/htmlsaveoptions/attached_files_url_prefix) |指定附加文件的 Url 前缀，例如 html 文件中的图像。<br/>仅用于保存到 html 流。|
 | [default_font_name](/cells/zh/python-net/aspose.cells/htmlsaveoptions/default_font_name) |指定导出html的默认字体名称，当style字体不存在时使用默认字体，<br/>如果此属性为空，Aspose.Cells 将使用与原始字体同族的通用字体，<br/>默认值为空。|
@@ -59,7 +59,7 @@ HtmlSaveOptions 类型公开了以下成员：
 | [export_area](/cells/zh/python-net/aspose.cells/htmlsaveoptions/export_area) |获取或设置当前活动工作表的导出单元格区域。<br/>如果设置该属性，则当前活动工作表的打印区域将被忽略。<br/>将文件保存为 html 时，只会导出指定区域。|
 | [parse_html_tag_in_cell](/cells/zh/python-net/aspose.cells/htmlsaveoptions/parse_html_tag_in_cell) |解析单元格中的 html 标签，如，作为单元格值，或作为 html 标签，默认为 true|
 | [html_cross_string_type](/cells/zh/python-net/aspose.cells/htmlsaveoptions/html_cross_string_type) |指示在以 html 格式保存 Excel 文件时，是否以与 MS Excel 相同的方式显示跨单元格字符串。<br/>默认情况下，该值为 Default，因此，对于跨单元格字符串，Aspose.Cells 和 MS Excel 创建的 html 文件之间几乎没有区别。<br/>但是创建大型 html 文件的性能，将值设置为 Cross 将比将其设置为 Default 或 Fit2Cell 快几倍。|
-| [hidden_col_display_type](/cells/zh/python-net/aspose.cells/htmlsaveoptions/hidden_col_display_type) | excel中的隐藏列（该列的宽度为0），在保存为html格式之前，<br/>如果 HtmlHiddenColDisplayType 为“Remove”，则隐藏列不会输出，<br/>如果值为“Hidden”，该列将被输出，但被隐藏，默认值为“Hidden”|
+| [hidden_col_display_type](/cells/zh/python-net/aspose.cells/htmlsaveoptions/hidden_col_display_type) |excel中的隐藏列（该列的宽度为0），在保存为html格式之前，<br/>如果 HtmlHiddenColDisplayType 为“Remove”，则隐藏列不会输出，<br/>如果值为“Hidden”，该列将被输出，但被隐藏，默认值为“Hidden”|
 | [hidden_row_display_type](/cells/zh/python-net/aspose.cells/htmlsaveoptions/hidden_row_display_type) | excel隐藏行（行高为0），保存成html格式前，<br/>如果 HtmlHiddenRowDisplayType 为“Remove”，则隐藏行不会输出，<br/>如果值为“Hidden”，该行将被输出，但被隐藏，默认值为“Hidden”|
 | [encoding](/cells/zh/python-net/aspose.cells/htmlsaveoptions/encoding) |如果未设置，则使用 Encoding.UTF8 作为默认编码类型。|
 | [export_object_listener](/cells/zh/python-net/aspose.cells/htmlsaveoptions/export_object_listener) |获取或设置用于导出对象的 ExportObjectListener。|

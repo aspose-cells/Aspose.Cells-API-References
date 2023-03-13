@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlMap类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1700
 url: /zh/python-net/aspose.cells/xmlmap/
 is_root: false
 ---
-##  XmlMap类
+## XmlMap类
 表示Xml映射信息。
 
 

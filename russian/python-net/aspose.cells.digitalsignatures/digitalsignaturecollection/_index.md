@@ -1,4 +1,4 @@
-﻿---
+---
 title: DigitalSignatureCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,13 +17,13 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [DigitalSignatureCollection()](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) | Конструктор DigitalSignatureCollection.|
+| [DigitalSignatureCollection()](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/__init__/#) |Конструктор DigitalSignatureCollection.|
 
 
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [add(digital_signature)](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) |Добавьте одну подпись в DigitalSignatureCollection.|
+| [add(digital_signature)](/cells/ru/python-net/aspose.cells.digitalsignatures/digitalsignaturecollection/add/#DigitalSignature) | Добавьте одну подпись в DigitalSignatureCollection.|
 
 
 

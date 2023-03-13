@@ -1,4 +1,4 @@
-﻿---
+---
 title: parse_object метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: top_in_shape propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

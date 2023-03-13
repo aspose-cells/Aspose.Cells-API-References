@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextBox类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 680
 url: /zh/python-net/aspose.cells.drawing/textbox/
 is_root: false
 ---
-##  TextBox类
+## TextBox类
 封装表示电子表格中的文本框的对象。
 
 

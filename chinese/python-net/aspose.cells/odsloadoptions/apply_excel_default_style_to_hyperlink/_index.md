@@ -1,4 +1,4 @@
-﻿---
+---
 title: apply_excel_default_style_to_hyperlink 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

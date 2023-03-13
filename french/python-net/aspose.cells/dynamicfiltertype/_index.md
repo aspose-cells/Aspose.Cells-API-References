@@ -1,4 +1,4 @@
-﻿---
+---
 title: DynamicFilterType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,8 +26,8 @@ Le type DynamicFilterType expose les membres suivants :
 | JANUARY | Affiche les dates qui sont en janvier, quelle que soit l'année.|
 | OCTOBER | Affiche les dates qui sont en octobre, quelle que soit l'année.|
 | NOVEMBER | Affiche les dates qui sont en novembre, quelle que soit l'année.|
-| DECEMBER | Affiche les dates qui sont en décembre, quelle que soit l'année.|
-| FEBRUARY |Affiche les dates qui sont en février, quelle que soit l'année.|
+| DECEMBER |Affiche les dates qui sont en décembre, quelle que soit l'année.|
+| FEBRUARY | Affiche les dates qui sont en février, quelle que soit l'année.|
 | MARCH | Affiche les dates qui sont en mars, quelle que soit l'année.|
 | APRIL | Affiche les dates qui sont en avril, quelle que soit l'année.|
 | MAY | Affiche les dates qui sont en mai, quelle que soit l'année.|
@@ -42,8 +42,8 @@ Le type DynamicFilterType expose les membres suivants :
 | NONE | Aucun.|
 | QUARTER1 | Affiche les dates du 1er trimestre, quelle que soit l'année.|
 | QUARTER2 | Affiche les dates du 2e trimestre, quelle que soit l'année.|
-| QUARTER3 |Affiche les dates du 3e trimestre, quelle que soit l'année.|
-| QUARTER4 | Affiche les dates du 4ème trimestre, quelle que soit l'année.|
+| QUARTER3 | Affiche les dates du 3e trimestre, quelle que soit l'année.|
+| QUARTER4 |Affiche les dates du 4ème trimestre, quelle que soit l'année.|
 | THIS_MONTH | Affiche les dates de ce mois.|
 | THIS_QUARTER | Affiche les dates de ce trimestre.|
 | THIS_WEEK | Affiche les dates de cette semaine.|

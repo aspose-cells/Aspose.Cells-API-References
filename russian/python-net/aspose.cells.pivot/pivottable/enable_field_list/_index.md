@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_field_list недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

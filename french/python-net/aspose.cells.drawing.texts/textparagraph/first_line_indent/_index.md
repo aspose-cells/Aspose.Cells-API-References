@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_line_indent propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: preserve_formatting недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

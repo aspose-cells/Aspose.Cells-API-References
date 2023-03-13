@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_native_source_full_name méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

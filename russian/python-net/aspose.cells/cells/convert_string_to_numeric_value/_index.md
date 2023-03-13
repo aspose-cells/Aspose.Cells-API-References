@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_string_to_numeric_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagSetting类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 80
 url: /zh/python-net/aspose.cells.markup/smarttagsetting/
 is_root: false
 ---
-##  SmartTagSetting类
+## SmartTagSetting类
 代表工作表中的所有 [SmartTagCollection](/cells/zh/python-net/aspose.cells.markup/smarttagcollection) 对象。
 
 

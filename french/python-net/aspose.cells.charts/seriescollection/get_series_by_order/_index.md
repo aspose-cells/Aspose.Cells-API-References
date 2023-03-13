@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_series_by_order méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

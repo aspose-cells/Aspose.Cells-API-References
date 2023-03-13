@@ -1,4 +1,4 @@
-﻿---
+---
 title: scale_crop недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

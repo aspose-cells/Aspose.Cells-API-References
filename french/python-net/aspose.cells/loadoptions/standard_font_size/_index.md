@@ -1,4 +1,4 @@
-﻿---
+---
 title: standard_font_size propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

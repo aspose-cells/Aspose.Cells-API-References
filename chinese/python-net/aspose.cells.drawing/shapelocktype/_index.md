@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeLockType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1150
 url: /zh/python-net/aspose.cells.drawing/shapelocktype/
 is_root: false
 ---
-##  ShapeLockType枚举
+## ShapeLockType枚举
 表示要锁定的属性的类型。
 
 
 
 ShapeLockType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | GROUP |团体|

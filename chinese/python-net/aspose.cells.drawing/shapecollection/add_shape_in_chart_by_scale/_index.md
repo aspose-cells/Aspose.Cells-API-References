@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_shape_in_chart_by_scale方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

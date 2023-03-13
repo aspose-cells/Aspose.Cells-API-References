@@ -1,4 +1,4 @@
-﻿---
+---
 title: first_visible_column_of_right_pane 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

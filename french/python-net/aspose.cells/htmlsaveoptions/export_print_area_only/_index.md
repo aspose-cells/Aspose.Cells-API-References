@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_print_area_only propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationCell класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [set_calculated_value(v)](/cells/ru/python-net/aspose.cells/calculationcell/set_calculated_value/#any) |Задает вычисляемое значение для ячейки.|
+| [set_calculated_value(v)](/cells/ru/python-net/aspose.cells/calculationcell/set_calculated_value/#any) | Задает вычисляемое значение для ячейки.|
 
 
 

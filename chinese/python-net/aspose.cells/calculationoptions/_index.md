@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 130
 url: /zh/python-net/aspose.cells/calculationoptions/
 is_root: false
 ---
-##  CalculationOptions类
+## CalculationOptions类
 表示计算选项。
 
 

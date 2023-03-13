@@ -1,4 +1,4 @@
-﻿---
+---
 title: SaveFormat枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2450
 url: /zh/python-net/aspose.cells/saveformat/
 is_root: false
 ---
-##  SaveFormat枚举
+## SaveFormat枚举
 表示保存工作簿的格式。
 
 
 
 SaveFormat 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CSV |逗号分隔值 (CSV) 文本文件。<br/>注意：该成员现已过时。反而，<br/>请使用 [SaveFormat.CSV](/cells/zh/python-net/aspose.cells/saveformat#CSV) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
@@ -34,7 +34,7 @@ SaveFormat 类型公开了以下成员：
 | AUTO |如果将文件保存到磁盘，文件格式按照文件名的扩展名。<br/>如果将文件保存到流中，则文件格式为 xlsx。|
 | UNKNOWN |表示无法识别的格式，无法保存。|
 | PDF |表示一个 Pdf 文件。|
-| XPS | XPS（XML 纸张规范）格式。<br/>注意：该成员现已过时。反而，<br/>请使用 [SaveFormat.XPS](/cells/zh/python-net/aspose.cells/saveformat#XPS) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
+| XPS |XPS（XML 纸张规范）格式。<br/>注意：该成员现已过时。反而，<br/>请使用 [SaveFormat.XPS](/cells/zh/python-net/aspose.cells/saveformat#XPS) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
 | TIFF |表示一个 TIFF 文件。<br/>注意：该成员现已过时。反而，<br/>请使用 [SaveFormat.TIFF](/cells/zh/python-net/aspose.cells/saveformat#TIFF) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
 | SVG | SVG 文件。<br/>注意：该成员现已过时。反而，<br/>请使用 [SaveFormat.SVG](/cells/zh/python-net/aspose.cells/saveformat#SVG) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
 | DIF |数据交换格式。|

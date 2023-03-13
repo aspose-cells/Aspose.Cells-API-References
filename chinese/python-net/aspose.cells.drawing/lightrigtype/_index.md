@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightRigType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 920
 url: /zh/python-net/aspose.cells.drawing/lightrigtype/
 is_root: false
 ---
-##  LightRigType枚举
+## LightRigType枚举
 表示可应用于形状的预设光权
 
 
 
 LightRigType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BALANCED |均衡|

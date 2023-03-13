@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_a1_formula_to_r1c1方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

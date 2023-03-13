@@ -1,4 +1,4 @@
-﻿---
+---
 title: Slicer类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.slicers/slicer/
 is_root: false
 ---
-##  Slicer类
+## Slicer类
 Slicer视图的概要描述
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFontSource класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -29,7 +29,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [type](/cells/ru/python-net/aspose.cells/filefontsource/type) | Возвращает тип источника шрифта.|
-| [file_path](/cells/ru/python-net/aspose.cells/filefontsource/file_path) |Путь к файлу шрифта.|
+| [file_path](/cells/ru/python-net/aspose.cells/filefontsource/file_path) | Путь к файлу шрифта.|
 
 
 

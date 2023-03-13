@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_font_folders метод
 second_title: Aspose.Cells for Python via .NET API
 description:

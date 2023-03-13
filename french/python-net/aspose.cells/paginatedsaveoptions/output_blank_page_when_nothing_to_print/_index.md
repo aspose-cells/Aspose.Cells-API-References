@@ -1,4 +1,4 @@
-﻿---
+---
 title: output_blank_page_when_nothing_to_print propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

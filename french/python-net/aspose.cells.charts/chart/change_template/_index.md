@@ -1,4 +1,4 @@
-﻿---
+---
 title: change_template méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

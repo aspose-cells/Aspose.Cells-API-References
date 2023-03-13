@@ -1,4 +1,4 @@
-﻿---
+---
 title: MultipleFilterCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1060
 url: /zh/python-net/aspose.cells/multiplefiltercollection/
 is_root: false
 ---
-##  MultipleFilterCollection类
+## MultipleFilterCollection类
 表示多过滤器集合。
 
 

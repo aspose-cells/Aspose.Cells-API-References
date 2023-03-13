@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chart类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.charts/chart/
 is_root: false
 ---
-##  Chart类
+## Chart类
 封装表示单个 Excel 图表的对象。
 
 
@@ -23,7 +23,7 @@ Chart 类型公开了以下成员：
 | [pivot_options](/cells/zh/python-net/aspose.cells.charts/chart/pivot_options) |指定显示在图表上的数据透视控件|
 | [pivot_source](/cells/zh/python-net/aspose.cells.charts/chart/pivot_source) |源是数据透视表的数据。<br/>如果 PivotSource 不为空，则图表为 PivotChart。|
 | [plot_by](/cells/zh/python-net/aspose.cells.charts/chart/plot_by) |获取和设置是按行还是按列绘制。|
-| [plot_empty_cells_type](/cells/zh/python-net/aspose.cells.charts/chart/plot_empty_cells_type) |获取和设置如何绘制空单元格。|
+| [plot_empty_cells_type](/cells/zh/python-net/aspose.cells.charts/chart/plot_empty_cells_type) |获取并设置如何绘制空单元格。|
 | [plot_visible_cells](/cells/zh/python-net/aspose.cells.charts/chart/plot_visible_cells) |指示是否仅绘制可见单元格。|
 | [plot_visible_cells_only](/cells/zh/python-net/aspose.cells.charts/chart/plot_visible_cells_only) |指示是否仅绘制可见单元格。|
 | [display_na_as_blank](/cells/zh/python-net/aspose.cells.charts/chart/display_na_as_blank) |指示是否将#N/A 显示为空白值。|

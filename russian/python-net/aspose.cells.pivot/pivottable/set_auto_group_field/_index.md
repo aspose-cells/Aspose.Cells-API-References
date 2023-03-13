@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_auto_group_field метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_refresh_all_connections недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  is_refresh_all_connections недвижимость
 
-Указывает, будут ли обновляться все подключения при открытии файла в MS Excel.
+Указывает, будут ли обновляться все соединения при открытии файла в MS Excel.
 ###  Определение:
 ```python
 @property

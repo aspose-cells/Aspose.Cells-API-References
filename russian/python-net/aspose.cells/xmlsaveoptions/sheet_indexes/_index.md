@@ -1,4 +1,4 @@
-﻿---
+---
 title: sheet_indexes недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ def add(self, upper_left_row, upper_left_column, stream):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 
 ###  Пример
@@ -57,7 +57,7 @@ def add(self, upper_left_row, upper_left_column, file_name):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | file_name | str | Имя файла изображения.|
 
 ###  Пример
@@ -88,7 +88,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | lower_right_row | int | Нижний индекс правой строки|
 | lower_right_column | int | Индекс нижнего правого столбца|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
@@ -122,7 +122,7 @@ def add(self, upper_left_row, upper_left_column, lower_right_row, lower_right_co
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | lower_right_row | int | Нижний индекс правой строки|
 | lower_right_column | int | Индекс нижнего правого столбца|
 | file_name | str | Имя файла изображения.|
@@ -155,7 +155,7 @@ def add(self, upper_left_row, upper_left_column, stream, width_scale, height_sca
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 | width_scale | int | Масштаб ширины изображения в процентах.|
 | height_scale | int | Масштаб высоты изображения в процентах.|
@@ -189,7 +189,7 @@ def add(self, upper_left_row, upper_left_column, file_name, width_scale, height_
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | file_name | str | Имя файла изображения.|
 | width_scale | int | Масштаб ширины изображения в процентах.|
 | height_scale | int | Масштаб высоты изображения в процентах.|

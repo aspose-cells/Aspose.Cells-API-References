@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotPageFields classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -32,7 +32,7 @@ Le type PivotPageFields expose les membres suivants :
 | Méthode| Description|
 | :- | :- |
 | [add_page_field(page_items)](/cells/fr/python-net/aspose.cells.pivot/pivotpagefields/add_page_field/#list) | Ajoute un champ de page.|
-| [add_identify(range_index, page_item_index)](/cells/fr/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) |Définit l'étiquette d'élément dans chaque champ de page à utiliser pour identifier la plage de données.<br/> Le pageItemIndex.Length doit être égal à PageFieldCount, donc veuillez d'abord ajouter le champ de page.|
+| [add_identify(range_index, page_item_index)](/cells/fr/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) | Définit l'étiquette d'élément dans chaque champ de page à utiliser pour identifier la plage de données.<br/> Le pageItemIndex.Length doit être égal à PageFieldCount, donc veuillez d'abord ajouter le champ de page.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_signed_date недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

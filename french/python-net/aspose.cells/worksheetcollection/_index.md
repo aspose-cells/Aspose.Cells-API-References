@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,14 +31,14 @@ Le type WorksheetCollection expose les membres suivants :
 | [ole_size](/cells/fr/python-net/aspose.cells/worksheetcollection/ole_size) | Obtient et définit la taille affichée lorsque le fichier Workbook est utilisé comme objet Ole.|
 | [external_links](/cells/fr/python-net/aspose.cells/worksheetcollection/external_links) | Représente des liens externes dans un classeur.|
 | [table_styles](/cells/fr/python-net/aspose.cells/worksheetcollection/table_styles) | Obtient l'objet [WorksheetCollection.table_styles](/cells/fr/python-net/aspose.cells/worksheetcollection#table_styles).|
-| [revision_logs](/cells/fr/python-net/aspose.cells/worksheetcollection/revision_logs) | Représente les journaux de révision.|
+| [revision_logs](/cells/fr/python-net/aspose.cells/worksheetcollection/revision_logs) |Représente les journaux de révision.|
 | [capacity](/cells/fr/python-net/aspose.cells/worksheetcollection/capacity) | Obtient ou définit le nombre d'éléments que la liste de tableau peut contenir.|
 
 
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [get(index)](/cells/fr/python-net/aspose.cells/worksheetcollection/get/#int) | Ajouter API for Python Via .Net.car cet [int index] n'est pas pris en charge|
+| [get(index)](/cells/fr/python-net/aspose.cells/worksheetcollection/get/#int) |Ajouter API for Python Via .Net.car cet [int index] n'est pas pris en charge|
 | [get(sheet_name)](/cells/fr/python-net/aspose.cells/worksheetcollection/get/#str) | Ajouter API for Python Via .Net.puisque cette [string sheetName] n'est pas prise en charge|
 | [add(type)](/cells/fr/python-net/aspose.cells/worksheetcollection/add/#SheetType) | Ajoute une feuille de calcul à la collection.|
 | [add()](/cells/fr/python-net/aspose.cells/worksheetcollection/add/#) | Ajoute une feuille de calcul à la collection.|
@@ -50,12 +50,12 @@ Le type WorksheetCollection expose les membres suivants :
 | [get_range_by_name(range_name)](/cells/fr/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str) | Obtient l'objet Range par nom prédéfini.|
 | [get_range_by_name(range_name, current_sheet_index, include_table)](/cells/fr/python-net/aspose.cells/worksheetcollection/get_range_by_name/#str-int-bool) | Obtient [Range](/cells/fr/python-net/aspose.cells/range) par nom prédéfini ou nom de table|
 | [copy_to(array)](/cells/fr/python-net/aspose.cells/worksheetcollection/copy_to/#list) | Copie la totalité de la liste de tableaux dans une liste de tableaux unidimensionnelle compatible, en commençant au début de la liste de tableaux cible.|
-| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) | Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
+| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells/worksheetcollection/copy_to/#int-list-int-int) |Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
 | [index_of(item, index)](/cells/fr/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui s'étend de l'index spécifié au dernier élément.|
 | [index_of(item, index, count)](/cells/fr/python-net/aspose.cells/worksheetcollection/index_of/#Worksheet-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui commence à l'index spécifié et contient le nombre d'éléments spécifié.|
 | [last_index_of(item)](/cells/fr/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la liste complète du tableau.|
-| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
-| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
+| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
+| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells/worksheetcollection/last_index_of/#Worksheet-int-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
 | [create_range(address, sheet_index)](/cells/fr/python-net/aspose.cells/worksheetcollection/create_range/#str-int) | Crée un objet [Range](/cells/fr/python-net/aspose.cells/range) à partir d'une adresse de la plage.|
 | [create_union_range(address, sheet_index)](/cells/fr/python-net/aspose.cells/worksheetcollection/create_union_range/#str-int) | Crée un objet [Range](/cells/fr/python-net/aspose.cells/range) à partir d'une adresse de la plage.|
 | [get_sheet_by_code_name(code_name)](/cells/fr/python-net/aspose.cells/worksheetcollection/get_sheet_by_code_name/#str) | Obtient la feuille de calcul par le nom de code.|
@@ -66,7 +66,7 @@ Le type WorksheetCollection expose les membres suivants :
 | [get_named_ranges_and_tables()](/cells/fr/python-net/aspose.cells/worksheetcollection/get_named_ranges_and_tables/#) | Obtient toutes les plages nommées prédéfinies dans la feuille de calcul.|
 | [set_ole_size(start_row, end_row, start_column, end_column)](/cells/fr/python-net/aspose.cells/worksheetcollection/set_ole_size/#int-int-int-int) | Définit la taille affichée lorsque le fichier Workbook est utilisé comme objet Ole.|
 | [clear_pivottables()](/cells/fr/python-net/aspose.cells/worksheetcollection/clear_pivottables/#) | Efface les tableaux croisés dynamiques de la feuille de calcul.|
-| [refresh_pivot_tables()](/cells/fr/python-net/aspose.cells/worksheetcollection/refresh_pivot_tables/#) |Actualise tous les tableaux croisés dynamiques dans WorksheetCollection.|
+| [refresh_pivot_tables()](/cells/fr/python-net/aspose.cells/worksheetcollection/refresh_pivot_tables/#) | Actualise tous les tableaux croisés dynamiques dans WorksheetCollection.|
 | [binary_search(item)](/cells/fr/python-net/aspose.cells/worksheetcollection/binary_search/#Worksheet) | Recherche un élément dans toute la liste de tableaux triés à l'aide du comparateur par défaut et renvoie l'index de base zéro de l'élément.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -44,7 +44,7 @@ def get(self, name):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| name | str | Название диаграммы|
+| name | str |Название диаграммы|
 
 
 

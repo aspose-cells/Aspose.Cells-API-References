@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackground класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [type](/cells/ru/python-net/aspose.cells.ods/odspagebackground/type) |Получает и задает тип фона страницы.|
+| [type](/cells/ru/python-net/aspose.cells.ods/odspagebackground/type) | Получает и задает тип фона страницы.|
 | [color](/cells/ru/python-net/aspose.cells.ods/odspagebackground/color) | Получает и задает цвет фона.|
 | [graphic_type](/cells/ru/python-net/aspose.cells.ods/odspagebackground/graphic_type) | Получает и задает тип фоновой графики страницы.|
 | [graphic_position_type](/cells/ru/python-net/aspose.cells.ods/odspagebackground/graphic_position_type) | Получает и устанавливает положение фоновой графики.|

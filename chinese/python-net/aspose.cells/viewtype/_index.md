@@ -1,4 +1,4 @@
-﻿---
+---
 title: ViewType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2650
 url: /zh/python-net/aspose.cells/viewtype/
 is_root: false
 ---
-##  ViewType枚举
+## ViewType枚举
 代表工作表的视图类型。
 
 
 
 ViewType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NORMAL_VIEW |  |

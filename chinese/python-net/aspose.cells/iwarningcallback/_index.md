@@ -1,4 +1,4 @@
-﻿---
+---
 title: IWarningCallback类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 880
 url: /zh/python-net/aspose.cells/iwarningcallback/
 is_root: false
 ---
-##  IWarningCallback类
+## IWarningCallback类
 警告的回调接口。
 
 

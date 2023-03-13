@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_object_listener 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportTableOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type ImportTableOptions expose les membres suivants :
 ###  Constructeurs
 | Constructeur| Description|
 | :- | :- |
-| [ImportTableOptions()](/cells/fr/python-net/aspose.cells/importtableoptions/__init__/#) |Crée les options d'importation par défaut.|
+| [ImportTableOptions()](/cells/fr/python-net/aspose.cells/importtableoptions/__init__/#) | Crée les options d'importation par défaut.|
 
 
 ###  Propriétés
@@ -32,7 +32,7 @@ Le type ImportTableOptions expose les membres suivants :
 | [date_format](/cells/fr/python-net/aspose.cells/importtableoptions/date_format) | Obtient ou définit la chaîne de format de date pour les cellules avec des valeurs datetime importées.|
 | [number_formats](/cells/fr/python-net/aspose.cells/importtableoptions/number_formats) | Obtient ou définit les formats de nombre|
 | [is_formulas](/cells/fr/python-net/aspose.cells/importtableoptions/is_formulas) | Indique si les données sont des formules.|
-| [total_rows](/cells/fr/python-net/aspose.cells/importtableoptions/total_rows) |Obtient ou définit le nombre total de lignes à importer depuis la source de données. -1 signifie toutes les lignes d'une source de données donnée.|
+| [total_rows](/cells/fr/python-net/aspose.cells/importtableoptions/total_rows) | Obtient ou définit le nombre total de lignes à importer depuis la source de données. -1 signifie toutes les lignes d'une source de données donnée.|
 | [total_columns](/cells/fr/python-net/aspose.cells/importtableoptions/total_columns) | Obtient ou définit le nombre total de colonnes à importer depuis la source de données. -1 signifie toutes les lignes d'une source de données donnée.|
 | [column_indexes](/cells/fr/python-net/aspose.cells/importtableoptions/column_indexes) | Obtient ou définit les colonnes (base 0) à importer à partir de la source de données. null signifie que toutes les colonnes doivent être importées.|
 | [default_values](/cells/fr/python-net/aspose.cells/importtableoptions/default_values) | La valeur par défaut pour la valeur dans la table est nulle.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_data_source метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -37,7 +37,7 @@ def set_data_source(self, variable, data):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| variable | str |Имя переменной, созданное с помощью смарт-маркера.|
+| variable | str | Имя переменной, созданное с помощью смарт-маркера.|
 | data | any | Источник данных.|
 
 

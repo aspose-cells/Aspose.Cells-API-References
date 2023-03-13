@@ -1,4 +1,4 @@
-﻿---
+---
 title: diagonal_up_border недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_ole_size méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

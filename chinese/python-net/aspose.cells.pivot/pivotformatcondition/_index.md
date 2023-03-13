@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFormatCondition类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 50
 url: /zh/python-net/aspose.cells.pivot/pivotformatcondition/
 is_root: false
 ---
-##  PivotFormatCondition类
+## PivotFormatCondition类
 表示 PivotFormatCondition 集合中的数据透视表格式条件。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: BorderCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 100
 url: /zh/python-net/aspose.cells/bordercollection/
 is_root: false
 ---
-##  BorderCollection类
+## BorderCollection类
 封装 [Border](/cells/zh/python-net/aspose.cells/border) 对象的集合。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBConnection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.externalconnections/dbconnection/
 is_root: false
 ---
-##  DBConnection类
+## DBConnection类
 指定与 ODBC 或 OLE DB 外部数据连接关联的所有属性。
 
 

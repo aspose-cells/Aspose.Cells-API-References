@@ -1,4 +1,4 @@
-﻿---
+---
 title: PropertyType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type PropertyType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | BOOLEAN | La propriété est une valeur booléenne.|
-| DATE_TIME |La propriété est une valeur date/heure.|
+| DATE_TIME | La propriété est une valeur date/heure.|
 | DOUBLE | La propriété est un nombre flottant.|
 | NUMBER | La propriété est un nombre entier.|
 | STRING | La propriété est une valeur de chaîne.|

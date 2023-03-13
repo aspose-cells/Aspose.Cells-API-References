@@ -1,4 +1,4 @@
-﻿---
+---
 title: RectangleAlignmentType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1110
 url: /zh/python-net/aspose.cells.drawing/rectanglealignmenttype/
 is_root: false
 ---
-##  RectangleAlignmentType枚举
+## RectangleAlignmentType枚举
 表示如何相对于彼此定位两个矩形。
 
 
 
 RectangleAlignmentType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BOTTOM |底部|

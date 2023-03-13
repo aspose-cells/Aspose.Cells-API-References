@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_button метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ def add_button(self, upper_left_row, top, upper_left_column, left, height, width
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение Button от его левой строки в пикселях.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение Button от его левого столбца в пикселях.|
 | height | int | Представляет высоту Button в пикселях.|
 | width | int | Представляет ширину Button в пикселях.|

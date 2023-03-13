@@ -1,4 +1,4 @@
-﻿---
+---
 title: fore_color_transparency недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

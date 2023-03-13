@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReflectionEffect класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,8 +17,8 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [type](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect/type) |Получает и задает предустановленный эффект отражения.|
-| [transparency](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect/transparency) | Получает и задает степень прозрачности начального отражения в виде значения от 0,0 (непрозрачный) до 1,0 (прозрачный).|
+| [type](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect/type) | Получает и задает предустановленный эффект отражения.|
+| [transparency](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect/transparency) |Получает и задает степень прозрачности начального отражения в виде значения от 0,0 (непрозрачный) до 1,0 (прозрачный).|
 | [size](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect/size) | Получает и задает конечную позицию (вдоль шкалы альфа-градиента) конечного альфа-значения в процентах.|
 | [blur](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect/blur) | Получает и задает радиус размытия в точках.|
 | [direction](/cells/ru/python-net/aspose.cells.drawing/reflectioneffect/direction) | Получает и задает направление градиента альфа-канала относительно самой фигуры.|

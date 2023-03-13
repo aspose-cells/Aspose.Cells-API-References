@@ -1,4 +1,4 @@
-﻿---
+---
 title: string_value_without_format недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

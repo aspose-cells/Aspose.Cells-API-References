@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cell_or_null метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ def get_cell_or_null(self, row_offset, column_offset):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | row_offset | int | Смещение строки в этом диапазоне, отсчитываемое от нуля.|
-| column_offset | int | Смещение столбца в этом диапазоне, отсчитываемое от нуля.|
+| column_offset | int |Смещение столбца в этом диапазоне, отсчитываемое от нуля.|
 
 
 

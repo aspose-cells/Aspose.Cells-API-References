@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintingPageType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | DEFAULT | Распечатывает все страницы.|
 | IGNORE_BLANK | Не печатайте страницы, ячейки которых пусты.|
-| IGNORE_STYLE | Не печатайте страницы, ячейки которых содержат только стили.|
+| IGNORE_STYLE |Не печатайте страницы, ячейки которых содержат только стили.|
 
 
 

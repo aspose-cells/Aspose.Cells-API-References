@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoPresetTextEffectShape перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ is_root: false
 | RING_INSIDE | КольцоВнутри|
 | RING_OUTSIDE | КольцоСнаружи|
 | ARCH_UP_CURVE | АркаВверхКривая|
-| ARCH_DOWN_CURVE | АркаВнизКривая|
+| ARCH_DOWN_CURVE |АркаВнизКривая|
 | CIRCLE_CURVE | КругКривая|
 | BUTTON_CURVE | КнопкаКривая|
 | ARCH_UP_POUR | ArchUpPour|
@@ -35,7 +35,7 @@ is_root: false
 | BUTTON_POUR | КнопкаНалить|
 | CURVE_UP | КриваяВверх|
 | CURVE_DOWN | КриваяВниз|
-| CAN_UP |CanUp|
+| CAN_UP | CanUp|
 | CAN_DOWN | CanDown|
 | WAVE1 | Волна 1|
 | WAVE2 | Волна2|

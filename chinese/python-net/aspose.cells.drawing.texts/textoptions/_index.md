@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 90
 url: /zh/python-net/aspose.cells.drawing.texts/textoptions/
 is_root: false
 ---
-##  TextOptions类
+## TextOptions类
 表示文本选项。
 
 

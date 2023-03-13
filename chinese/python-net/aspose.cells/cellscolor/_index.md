@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsColor类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 190
 url: /zh/python-net/aspose.cells/cellscolor/
 is_root: false
 ---
-##  CellsColor类
+## CellsColor类
 代表所有类型的颜色。
 
 

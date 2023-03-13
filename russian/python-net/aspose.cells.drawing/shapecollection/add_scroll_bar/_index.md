@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_scroll_bar метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение полосы прокрутки от ее левой строки в пикселях.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение полосы прокрутки от ее левого столбца в пикселях.|
 | height | int | Представляет высоту полосы прокрутки в пикселях.|
 | width | int | Представляет ширину полосы прокрутки в пикселях.|

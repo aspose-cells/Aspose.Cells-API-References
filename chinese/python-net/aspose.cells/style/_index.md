@@ -1,4 +1,4 @@
-﻿---
+---
 title: Style类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1390
 url: /zh/python-net/aspose.cells/style/
 is_root: false
 ---
-##  Style类
+## Style类
 表示excel文档的显示样式，如字体、颜色、对齐方式、边框等。
 Style 对象包含所有样式属性（字体、数字格式、对齐方式等）作为属性。
 

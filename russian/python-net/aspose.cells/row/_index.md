@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,12 +23,12 @@ is_root: false
 | [is_hidden](/cells/ru/python-net/aspose.cells/row/is_hidden) | Указывает, скрыта ли строка.|
 | [index](/cells/ru/python-net/aspose.cells/row/index) | Получает индекс этой строки.|
 | [group_level](/cells/ru/python-net/aspose.cells/row/group_level) | Получает уровень группы строки.|
-| [is_height_matched](/cells/ru/python-net/aspose.cells/row/is_height_matched) | Указывает, что высота строки и высота шрифта по умолчанию совпадают.|
+| [is_height_matched](/cells/ru/python-net/aspose.cells/row/is_height_matched) |Указывает, что высота строки и высота шрифта по умолчанию совпадают.|
 | [style](/cells/ru/python-net/aspose.cells/row/style) | Представляет стиль этой строки.|
 | [has_custom_style](/cells/ru/python-net/aspose.cells/row/has_custom_style) | Указывает, есть ли в этой строке пользовательские настройки стиля (отличные от настроек по умолчанию, унаследованных от книги).|
 | [first_cell](/cells/ru/python-net/aspose.cells/row/first_cell) | Получает первый объект ячейки в строке.|
 | [first_data_cell](/cells/ru/python-net/aspose.cells/row/first_data_cell) | Получает первую непустую ячейку в строке.|
-| [last_cell](/cells/ru/python-net/aspose.cells/row/last_cell) |Получает последний объект ячейки в строке.|
+| [last_cell](/cells/ru/python-net/aspose.cells/row/last_cell) | Получает последний объект ячейки в строке.|
 | [last_data_cell](/cells/ru/python-net/aspose.cells/row/last_data_cell) | Получает последнюю непустую ячейку в строке.|
 
 

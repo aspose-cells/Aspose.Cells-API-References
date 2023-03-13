@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_matching_color méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

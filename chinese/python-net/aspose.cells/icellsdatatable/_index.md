@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICellsDataTable类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 810
 url: /zh/python-net/aspose.cells/icellsdatatable/
 is_root: false
 ---
-##  ICellsDataTable类
+## ICellsDataTable类
 表示数据表。
 
 

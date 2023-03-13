@@ -1,4 +1,4 @@
-﻿---
+---
 title: hide_group_detail méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hf_diff_odd_even 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_refers_to метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -39,7 +39,7 @@ def get_refers_to(self, is_r1c1, is_local, row, column):
 | :- | :- | :- |
 | is_r1c1 | bool | Нужно ли форматировать ссылку как R1C1.|
 | is_local | bool | Нужно ли форматировать ссылку по локали.|
-| row | int |Индекс строки ячейки.|
+| row | int | Индекс строки ячейки.|
 | column | int | Индекс столбца ячейки.|
 
 

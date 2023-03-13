@@ -1,4 +1,4 @@
-﻿---
+---
 title: calculate_on_save propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

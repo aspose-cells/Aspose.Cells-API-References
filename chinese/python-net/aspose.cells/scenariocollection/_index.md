@@ -1,4 +1,4 @@
-﻿---
+---
 title: ScenarioCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1340
 url: /zh/python-net/aspose.cells/scenariocollection/
 is_root: false
 ---
-##  ScenarioCollection类
+## ScenarioCollection类
 代表场景列表。
 
 

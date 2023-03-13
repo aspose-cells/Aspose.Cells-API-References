@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_precedents_in_calculation méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

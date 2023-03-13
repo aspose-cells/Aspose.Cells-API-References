@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionCellMove类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 50
 url: /zh/python-net/aspose.cells.revisions/revisioncellmove/
 is_root: false
 ---
-##  RevisionCellMove类
+## RevisionCellMove类
 表示移动的单元格上的修订记录。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Timeline classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,8 +18,8 @@ Le type Timeline expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [caption](/cells/fr/python-net/aspose.cells.timelines/timeline/caption) |Renvoie ou définit la légende du scénario spécifié.|
-| [name](/cells/fr/python-net/aspose.cells.timelines/timeline/name) | Renvoie ou définit le nom du scénario spécifié|
+| [caption](/cells/fr/python-net/aspose.cells.timelines/timeline/caption) | Renvoie ou définit la légende du scénario spécifié.|
+| [name](/cells/fr/python-net/aspose.cells.timelines/timeline/name) |Renvoie ou définit le nom du scénario spécifié|
 | [left_pixel](/cells/fr/python-net/aspose.cells.timelines/timeline/left_pixel) | Renvoie ou définit le décalage horizontal de la forme de la chronologie par rapport à sa colonne de gauche, en pixels.|
 | [top_pixel](/cells/fr/python-net/aspose.cells.timelines/timeline/top_pixel) | Renvoie ou définit le décalage vertical de la forme de la chronologie par rapport à sa ligne supérieure, en pixels.|
 | [width_pixel](/cells/fr/python-net/aspose.cells.timelines/timeline/width_pixel) | Renvoie ou définit la largeur de la chronologie spécifiée, en pixels.|

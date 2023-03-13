@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFormatType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2040
 url: /zh/python-net/aspose.cells/fileformattype/
 is_root: false
 ---
-##  FileFormatType枚举
+## FileFormatType枚举
 表示文件格式类型。
 
 
 
 FileFormatType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CSV |逗号分隔值 (CSV) 文本文件。<br/>注意：该成员现已过时。反而，<br/>请使用 [FileFormatType.CSV](/cells/zh/python-net/aspose.cells/fileformattype#CSV) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
@@ -22,7 +22,7 @@ FileFormatType 类型公开了以下成员：
 | XLSM | Office Open XML SpreadsheetML 启用宏的文件。|
 | XLTX | Office Open XML SpreadsheetML 模板（无宏）。|
 | XLTM | Office Open XML SpreadsheetML 启用宏的模板。|
-| XLAM |Office Open XML SpreadsheetML addinMacro-Enabled 文件。|
+| XLAM | Office Open XML SpreadsheetML addinMacro-Enabled 文件。|
 | TSV |制表符分隔值 (TSV) 文本文件。<br/>注意：该成员现已过时。反而，<br/>请使用 [FileFormatType.TSV](/cells/zh/python-net/aspose.cells/fileformattype#TSV) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
 | TAB_DELIMITED | Tab-Separated Values(TSV) 文本文件，与 [FileFormatType.TSV](/cells/zh/python-net/aspose.cells/fileformattype#TSV) 相同。|
 | HTML | HTML 格式。|
@@ -34,7 +34,7 @@ FileFormatType 类型公开了以下成员：
 | XLSB | Excel 二进制文件格式 (.xlsb)|
 | UNKNOWN |表示无法识别的格式，无法加载。|
 | PDF | PDF（Adobe 便携式文档）格式。|
-| XPS | XPS（XML 纸张规范）格式。<br/>注意：该成员现已过时。反而，<br/>请使用 [FileFormatType.XPS](/cells/zh/python-net/aspose.cells/fileformattype#XPS) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
+| XPS |XPS（XML 纸张规范）格式。<br/>注意：该成员现已过时。反而，<br/>请使用 [FileFormatType.XPS](/cells/zh/python-net/aspose.cells/fileformattype#XPS) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
 | TIFF |表示一个 TIFF 文件。<br/>注意：该成员现已过时。反而，<br/>请使用 [FileFormatType.TIFF](/cells/zh/python-net/aspose.cells/fileformattype#TIFF) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
 | SVG | SVG 文件。<br/>注意：该成员现已过时。反而，<br/>请使用 [FileFormatType.SVG](/cells/zh/python-net/aspose.cells/fileformattype#SVG) 属性。<br/>自 2021 年 4 月起，此属性将在 6 个月后移除。<br/> Aspose 对您可能遇到的任何不便深表歉意。|
 | EXCEL95 |表示一个 Excel95 xls 文件。|

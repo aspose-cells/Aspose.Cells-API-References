@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -88,7 +88,7 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 | end_cell_name | str | La cellule en bas à droite de la plage.|
 | address | str | Adresse du lien hypertexte.|
 | text_to_display | str | Texte à afficher pour le lien hypertexte spécifié.|
-| screen_tip | str | Le texte de l'info-bulle pour le lien hypertexte spécifié.|
+| screen_tip | str |Le texte de l'info-bulle pour le lien hypertexte spécifié.|
 
 
 

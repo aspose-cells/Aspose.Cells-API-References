@@ -1,4 +1,4 @@
-﻿---
+---
 title: default_edit_language недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

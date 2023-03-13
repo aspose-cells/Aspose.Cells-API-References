@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectedRange класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [name](/cells/ru/python-net/aspose.cells/protectedrange/name) | Получает титул Range. Это используется как дескриптор, а не как определение именованного диапазона.|
 | [cell_area](/cells/ru/python-net/aspose.cells/protectedrange/cell_area) | Получает объект [ProtectedRange.cell_area](/cells/ru/python-net/aspose.cells/protectedrange#cell_area), представляющий защищаемую область ячейки.|
-| [is_protected_with_password](/cells/ru/python-net/aspose.cells/protectedrange/is_protected_with_password) | Указывает, защищены ли листы паролем.|
+| [is_protected_with_password](/cells/ru/python-net/aspose.cells/protectedrange/is_protected_with_password) |Указывает, защищены ли листы паролем.|
 | [password](/cells/ru/python-net/aspose.cells/protectedrange/password) | Представляет пароль для защиты диапазона.|
 | [security_descriptor](/cells/ru/python-net/aspose.cells/protectedrange/security_descriptor) | Дескриптор безопасности определяет учетные записи пользователей, которые могут редактировать этот диапазон без предоставления пароля для доступа к диапазону.|
 

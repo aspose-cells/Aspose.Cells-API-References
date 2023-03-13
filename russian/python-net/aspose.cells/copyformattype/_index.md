@@ -1,4 +1,4 @@
-﻿---
+---
 title: CopyFormatType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| SAME_AS_ABOVE | Форматы такие же, как в строке выше.|
+| SAME_AS_ABOVE |Форматы такие же, как в строке выше.|
 | SAME_AS_BELOW | Форматы такие же, как в строке ниже.|
 | CLEAR | Очищает форматирование.|
 

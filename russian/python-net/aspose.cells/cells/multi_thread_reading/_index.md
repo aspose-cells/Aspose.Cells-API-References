@@ -1,4 +1,4 @@
-﻿---
+---
 title: multi_thread_reading недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

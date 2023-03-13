@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackground classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,7 +23,7 @@ Le type OdsPageBackground expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/type) |Obtient et définit le type d'arrière-plan de la page.|
+| [type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/type) | Obtient et définit le type d'arrière-plan de la page.|
 | [color](/cells/fr/python-net/aspose.cells.ods/odspagebackground/color) | Obtient et définit la couleur d'arrière-plan.|
 | [graphic_type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/graphic_type) | Obtient et définit le type de graphique d'arrière-plan de la page.|
 | [graphic_position_type](/cells/fr/python-net/aspose.cells.ods/odspagebackground/graphic_position_type) | Obtient et définit la position du graphique d'arrière-plan.|

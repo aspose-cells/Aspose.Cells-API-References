@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineCapType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | SQUARE | Квадрат выступает на половину ширины линии.|
-| ROUND | Закругленные концы.|
+| ROUND |Закругленные концы.|
 | FLAT | Линия заканчивается в конечной точке.|
 | NONE | Нет крышки|
 

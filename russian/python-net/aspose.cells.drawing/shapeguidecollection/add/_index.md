@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ def add(self, name, val):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | name | str | название настройки. Это как «adj (используется, когда есть только одно значение настройки)», «adj1», «adj2», «adj3» и так далее.|
-| val | float | значение регулировки|
+| val | float | значение настройки|
 
 
 

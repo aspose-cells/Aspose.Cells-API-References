@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportRangeToJsonOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.utility/exportrangetojsonoptions/
 is_root: false
 ---
-##  ExportRangeToJsonOptions类
+## ExportRangeToJsonOptions类
 指示导出范围到 json 的选项。
 
 

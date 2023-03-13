@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsDrawing类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 70
 url: /zh/python-net/aspose.cells.drawing/cellsdrawing/
 is_root: false
 ---
-##  CellsDrawing类
+## CellsDrawing类
 表示自动形状和绘图对象。
 
 

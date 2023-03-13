@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -30,7 +30,7 @@ Le type IconSetType expose les membres suivants :
 | ARROWS4 | jeu d'icônes de 4 flèches.|
 | ARROWS_GRAY4 | Jeu d'icônes de 4 flèches grises.|
 | RATING4 | Jeu d'icônes de 4 évaluations.|
-| RED_TO_BLACK4 | 4 jeu d'icônes « rouge à noir ».|
+| RED_TO_BLACK4 | jeu d'icônes « rouge à noir ».|
 | TRAFFIC_LIGHTS4 | Jeu d'icônes de 4 feux de circulation.|
 | ARROWS5 | jeu d'icônes de 5 flèches.|
 | ARROWS_GRAY5 | Jeu d'icônes de 5 flèches grises.|

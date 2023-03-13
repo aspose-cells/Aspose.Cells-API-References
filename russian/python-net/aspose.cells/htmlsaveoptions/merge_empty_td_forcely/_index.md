@@ -1,4 +1,4 @@
-﻿---
+---
 title: merge_empty_td_forcely недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

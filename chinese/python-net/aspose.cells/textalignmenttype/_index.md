@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextAlignmentType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2520
 url: /zh/python-net/aspose.cells/textalignmenttype/
 is_root: false
 ---
-##  TextAlignmentType枚举
+## TextAlignmentType枚举
 枚举文本对齐类型。
 
 
 
 TextAlignmentType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | GENERAL |表示常规文本对齐方式。|

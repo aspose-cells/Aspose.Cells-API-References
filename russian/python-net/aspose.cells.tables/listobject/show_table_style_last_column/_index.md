@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_table_style_last_column недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

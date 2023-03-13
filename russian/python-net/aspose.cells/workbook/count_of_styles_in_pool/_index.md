@@ -1,4 +1,4 @@
-﻿---
+---
 title: count_of_styles_in_pool недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

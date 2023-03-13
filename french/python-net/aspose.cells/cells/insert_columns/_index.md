@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_columns méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -39,7 +39,7 @@ def insert_columns(self, column_index, total_columns, update_reference):
 | :- | :- | :- |
 | column_index | int | Indice de colonne.|
 | total_columns | int | Le nombre de colonnes.|
-| update_reference | bool | Indique si les références dans d'autres feuilles de calcul seront mises à jour.|
+| update_reference | bool |Indique si les références dans d'autres feuilles de calcul seront mises à jour.|
 
 
 

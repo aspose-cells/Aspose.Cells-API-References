@@ -1,4 +1,4 @@
-﻿---
+---
 title: Line classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,11 +17,11 @@ Le type Line expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [compound_type](/cells/fr/python-net/aspose.cells.drawing/line/compound_type) |Spécifie le type de ligne composée|
+| [compound_type](/cells/fr/python-net/aspose.cells.drawing/line/compound_type) | Spécifie le type de ligne composée|
 | [dash_type](/cells/fr/python-net/aspose.cells.drawing/line/dash_type) | Spécifie le type de ligne pointillée|
 | [cap_type](/cells/fr/python-net/aspose.cells.drawing/line/cap_type) | Spécifie les majuscules de fin.|
 | [join_type](/cells/fr/python-net/aspose.cells.drawing/line/join_type) | Spécifie les bouchons de jointure.|
-| [begin_type](/cells/fr/python-net/aspose.cells.drawing/line/begin_type) | Spécifie une pointe de flèche pour le début d'une ligne.|
+| [begin_type](/cells/fr/python-net/aspose.cells.drawing/line/begin_type) |Spécifie une pointe de flèche pour le début d'une ligne.|
 | [end_type](/cells/fr/python-net/aspose.cells.drawing/line/end_type) | Spécifie une pointe de flèche pour la fin d'une ligne.|
 | [begin_arrow_length](/cells/fr/python-net/aspose.cells.drawing/line/begin_arrow_length) | Spécifie la longueur de la pointe de flèche pour le début d'une ligne.|
 | [end_arrow_length](/cells/fr/python-net/aspose.cells.drawing/line/end_arrow_length) | Spécifie la longueur de la pointe de flèche pour la fin d'une ligne.|
@@ -35,7 +35,7 @@ Le type Line expose les membres suivants :
 | [weight_pt](/cells/fr/python-net/aspose.cells.drawing/line/weight_pt) | Obtient ou définit l'épaisseur de la ligne en unités de points.|
 | [weight_px](/cells/fr/python-net/aspose.cells.drawing/line/weight_px) | Obtient ou définit l'épaisseur de la ligne en pixels.|
 | [formatting_type](/cells/fr/python-net/aspose.cells.drawing/line/formatting_type) | Obtient ou définit le type de format.|
-| [is_automatic_color](/cells/fr/python-net/aspose.cells.drawing/line/is_automatic_color) |Indique si la couleur de la ligne est attribuée automatiquement.|
+| [is_automatic_color](/cells/fr/python-net/aspose.cells.drawing/line/is_automatic_color) | Indique si la couleur de la ligne est attribuée automatiquement.|
 | [is_visible](/cells/fr/python-net/aspose.cells.drawing/line/is_visible) | Indique si la ligne est visible.|
 | [is_auto](/cells/fr/python-net/aspose.cells.drawing/line/is_auto) | Indique si ce style de ligne est attribué automatiquement.|
 | [gradient_fill](/cells/fr/python-net/aspose.cells.drawing/line/gradient_fill) | Représente le remplissage dégradé.|

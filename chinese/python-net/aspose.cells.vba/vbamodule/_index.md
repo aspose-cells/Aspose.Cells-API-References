@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModule类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.vba/vbamodule/
 is_root: false
 ---
-##  VbaModule类
+## VbaModule类
 表示 VBA 项目中的模块。
 
 

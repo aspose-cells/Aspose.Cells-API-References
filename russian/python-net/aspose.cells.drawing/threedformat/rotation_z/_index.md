@@ -1,4 +1,4 @@
-﻿---
+---
 title: rotation_z недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

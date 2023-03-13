@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartTextDirectionType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 440
 url: /zh/python-net/aspose.cells.charts/charttextdirectiontype/
 is_root: false
 ---
-##  ChartTextDirectionType枚举
+## ChartTextDirectionType枚举
 表示图表的文本方向类型。
 
 
 
 ChartTextDirectionType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | HORIZONTAL |水平方向类型。|

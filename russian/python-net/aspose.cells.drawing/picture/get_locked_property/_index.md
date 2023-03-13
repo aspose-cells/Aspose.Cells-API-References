@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_locked_property метод
 second_title: Aspose.Cells for Python via .NET API
 description:

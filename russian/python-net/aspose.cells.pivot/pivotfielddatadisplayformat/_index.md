@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFieldDataDisplayFormat перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,8 +20,8 @@ is_root: false
 | NORMAL | Представляет обычный формат отображения.|
 | DIFFERENCE_FROM | Представляет отличие от формата отображения.|
 | PERCENTAGE_OF | Представляет процент формата отображения.|
-| PERCENTAGE_DIFFERENCE_FROM |Представляет процентное отличие от формата отображения.|
-| RUNNING_TOTAL_IN | Представляет промежуточный итог в формате отображения.|
+| PERCENTAGE_DIFFERENCE_FROM | Представляет процентное отличие от формата отображения.|
+| RUNNING_TOTAL_IN |Представляет промежуточный итог в формате отображения.|
 | PERCENTAGE_OF_ROW | Представляет процент формата отображения строки.|
 | PERCENTAGE_OF_COLUMN | Представляет процент формата отображения столбца.|
 | PERCENTAGE_OF_TOTAL | Представляет процент от общего формата отображения.|

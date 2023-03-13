@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCacheItem класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [selected](/cells/ru/python-net/aspose.cells.slicers/slicercacheitem/selected) | Указывает, выбран ли SlicerItem или нет.|
-| [value](/cells/ru/python-net/aspose.cells.slicers/slicercacheitem/value) |Возвращает текст метки для элемента среза. Только для чтения.|
+| [value](/cells/ru/python-net/aspose.cells.slicers/slicercacheitem/value) | Возвращает текст метки для элемента среза. Только для чтения.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionStoreType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 110
 url: /zh/python-net/aspose.cells.webextensions/webextensionstoretype/
 is_root: false
 ---
-##  WebExtensionStoreType枚举
+## WebExtensionStoreType枚举
 表示 Web 扩展的商店类型。
 
 
 
 WebExtensionStoreType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | OMEX |指定商店类型为 Office.com。|

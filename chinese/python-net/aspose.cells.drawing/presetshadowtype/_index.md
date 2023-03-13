@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetShadowType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1080
 url: /zh/python-net/aspose.cells.drawing/presetshadowtype/
 is_root: false
 ---
-##  PresetShadowType枚举
+## PresetShadowType枚举
 表示预设阴影类型。
 
 
 
 PresetShadowType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NO_SHADOW |没有阴影。|

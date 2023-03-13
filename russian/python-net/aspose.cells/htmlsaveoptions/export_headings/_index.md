@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_headings недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 используйте свойство HtmlSaveOptions.ExportRowColumnHeadings.
  Это свойство будет удалено через 12 месяцев, начиная с июня 2022 года.
 Aspose приносит извинения за возможные неудобства.

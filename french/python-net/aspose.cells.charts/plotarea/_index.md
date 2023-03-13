@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotArea classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -34,7 +34,7 @@ Le type PlotArea expose les membres suivants :
 | [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Indique si la zone de traçage est dimensionnée automatiquement.|
 | [x](/cells/fr/python-net/aspose.cells.charts/plotarea/x) | Obtient ou obtient la coordonnée x du coin supérieur gauche de la zone de délimitation de la zone de tracé en unités de 1/4000 de la zone du graphique.|
 | [y](/cells/fr/python-net/aspose.cells.charts/plotarea/y) | Obtient ou obtient la coordonnée y du coin supérieur supérieur de la zone de délimitation de la zone de tracé en unités de 1/4000 de la zone du graphique.|
-| [height](/cells/fr/python-net/aspose.cells.charts/plotarea/height) | Obtient ou définit la hauteur du cadre de délimitation de la zone de tracé en unités de 1/4 000 de la zone de graphique.|
+| [height](/cells/fr/python-net/aspose.cells.charts/plotarea/height) |Obtient ou définit la hauteur du cadre de délimitation de la zone de tracé en unités de 1/4 000 de la zone de graphique.|
 | [width](/cells/fr/python-net/aspose.cells.charts/plotarea/width) | Obtient ou définit la largeur du cadre de délimitation de la zone de tracé en unités de 1/4 000 de la zone de graphique.|
 | [shadow](/cells/fr/python-net/aspose.cells.charts/plotarea/shadow) | Vrai si le cadre a une ombre.|
 | [shape_properties](/cells/fr/python-net/aspose.cells.charts/plotarea/shape_properties) | Obtient l'objet [ChartFrame.shape_properties](/cells/fr/python-net/aspose.cells.charts/chartframe#shape_properties).|

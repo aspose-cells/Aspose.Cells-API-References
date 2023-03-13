@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 | BIFF4_MACRO | Лист макросов BIFF4|
 | INTERNATIONAL_MACRO | Международный лист макросов|
 | OTHER |  |
-| DIALOG | Рабочий лист диалога|
+| DIALOG |Рабочий лист диалога|
 
 
 

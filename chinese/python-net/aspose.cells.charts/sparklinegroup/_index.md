@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 280
 url: /zh/python-net/aspose.cells.charts/sparklinegroup/
 is_root: false
 ---
-##  SparklineGroup类
+## SparklineGroup类
 [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) 被组织到迷你图组中。 SparklineGroup 包含可变数量的迷你图项目。
 迷你图组指定迷你图的类型、显示设置和轴设置。
 

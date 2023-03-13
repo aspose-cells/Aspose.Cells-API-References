@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1590
 url: /zh/python-net/aspose.cells/workbook/
 is_root: false
 ---
-##  Workbook类
+## Workbook类
 表示用于创建 Excel 电子表格的根对象。
 
 
@@ -112,7 +112,7 @@ Workbook 类型公开了以下成员：
 | [custom_theme(theme_name, colors)](/cells/zh/python-net/aspose.cells/workbook/custom_theme/#str-aspose.pydrawing.Color[]) |海关主题。|
 | [copy_theme(source)](/cells/zh/python-net/aspose.cells/workbook/copy_theme/#Workbook) |从另一个工作簿复制主题。|
 | [has_exernal_links()](/cells/zh/python-net/aspose.cells/workbook/has_exernal_links/#) |指示此工作簿是否包含指向其他数据源的外部链接。|
-| [update_linked_data_source(external_workbooks)](/cells/zh/python-net/aspose.cells/workbook/update_linked_data_source/#list) |如果此工作簿包含指向其他数据源的外部链接，<br/>Aspose.Cells 将尝试检索最新数据。|
+| [update_linked_data_source(external_workbooks)](/cells/zh/python-net/aspose.cells/workbook/update_linked_data_source/#list) |如果此工作簿包含指向其他数据源的外部链接，<br/> Aspose.Cells 将尝试检索最新数据。|
 | [set_digital_signature(digital_signature_collection)](/cells/zh/python-net/aspose.cells/workbook/set_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) |将数字签名设置为电子表格文件（Excel2007 及更高版本）。|
 | [add_digital_signature(digital_signature_collection)](/cells/zh/python-net/aspose.cells/workbook/add_digital_signature/#aspose.cells.digitalsignatures.DigitalSignatureCollection) |向 OOXML 电子表格文件（Excel2007 及更高版本）添加数字签名。|
 | [get_digital_signature()](/cells/zh/python-net/aspose.cells/workbook/get_digital_signature/#) |从文件中获取数字签名。|

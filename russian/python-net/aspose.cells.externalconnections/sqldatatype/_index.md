@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ is_root: false
 | SQL_BIT | бит sql|
 | SQL_TINY_INT | sql крошечный интервал|
 | SQL_BIG_INT | sql большое целое|
-| SQL_LONG_VAR_BINARY | Двоичный файл с длинной переменной SQL|
+| SQL_LONG_VAR_BINARY |Двоичный файл с длинной переменной SQL|
 | SQL_VAR_BINARY | двоичная переменная SQL|
 | SQL_BINARY | двоичный файл SQL|
 | SQL_LONG_VAR_CHAR | SQL длинная переменная char|
@@ -52,7 +52,7 @@ is_root: false
 | SQL_INTERVAL_YEAR_TO_MONTH | Интервал sql из года в месяц|
 | SQL_INTERVAL_DAY_TO_HOUR | интервал sql день в час|
 | SQL_INTERVAL_DAY_TO_MINUTE | Интервал sql день в минуту|
-| SQL_INTERVAL_DAY_TO_SECOND |Интервал sql день в секунду|
+| SQL_INTERVAL_DAY_TO_SECOND | Интервал sql день в секунду|
 | SQL_INTERVAL_HOUR_TO_MINUTE | sql интервал час в минуту|
 | SQL_INTERVAL_HOUR_TO_SECOND | sql интервал час в секунду|
 | SQL_INTERVAL_MINUTE_TO_SECOND | интервал sql от минуты до секунды|

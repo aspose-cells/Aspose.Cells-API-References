@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColorFilter类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 240
 url: /zh/python-net/aspose.cells/colorfilter/
 is_root: false
 ---
-##  ColorFilter类
+## ColorFilter类
 表示滤色器。
 
 

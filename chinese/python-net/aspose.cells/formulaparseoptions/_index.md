@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormulaParseOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 710
 url: /zh/python-net/aspose.cells/formulaparseoptions/
 is_root: false
 ---
-##  FormulaParseOptions类
+## FormulaParseOptions类
 表示解析公式时的选项。
 
 

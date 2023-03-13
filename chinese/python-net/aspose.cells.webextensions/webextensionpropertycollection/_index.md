@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionPropertyCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 60
 url: /zh/python-net/aspose.cells.webextensions/webextensionpropertycollection/
 is_root: false
 ---
-##  WebExtensionPropertyCollection类
+## WebExtensionPropertyCollection类
 表示 Web 扩展属性列表。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoLineStyle枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1020
 url: /zh/python-net/aspose.cells.drawing/msolinestyle/
 is_root: false
 ---
-##  MsoLineStyle枚举
+## MsoLineStyle枚举
 表示绘制线条的样式。
 
 
 
 MsoLineStyle 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | SINGLE |单行（宽度为 lineWidth）|

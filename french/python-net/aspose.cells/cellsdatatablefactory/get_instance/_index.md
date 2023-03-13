@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_instance méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -66,7 +66,7 @@ def get_instance(self, vals, vertial):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | vals | list | valeurs int pour construire la table|
-| vertial | bool | si la table est construite par les valeurs int verticalement (true) ou horizontalement (false)|
+| vertial | bool |si la table est construite par les valeurs int verticalement (true) ou horizontalement (false)|
 
 
 ##  get_instance(vals, column_names) {#list-list}

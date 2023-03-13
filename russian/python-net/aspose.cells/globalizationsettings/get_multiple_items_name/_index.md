@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_multiple_items_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:

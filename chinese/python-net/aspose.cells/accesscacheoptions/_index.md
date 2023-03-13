@@ -1,4 +1,4 @@
-﻿---
+---
 title: AccessCacheOptions枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1740
 url: /zh/python-net/aspose.cells/accesscacheoptions/
 is_root: false
 ---
-##  AccessCacheOptions枚举
+## AccessCacheOptions枚举
 数据访问的缓存选项。可以结合 |用于多个选项的运算符。
 
 
 
 AccessCacheOptions 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |没有任何数据访问的缓存。|

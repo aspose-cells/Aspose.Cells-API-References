@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_array_formula méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ def set_array_formula(self, array_formula, row_number, column_number):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | array_formula | str | Formule matricielle.|
-| row_number | int | Nombre de lignes pour remplir le résultat de la formule matricielle.|
+| row_number | int |Nombre de lignes pour remplir le résultat de la formule matricielle.|
 | column_number | int | Nombre de colonnes pour remplir le résultat de la formule matricielle.|
 
 
@@ -39,7 +39,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | array_formula | str | Formule matricielle.|
-| row_number | int | Nombre de lignes pour remplir le résultat de la formule matricielle.|
+| row_number | int |Nombre de lignes pour remplir le résultat de la formule matricielle.|
 | column_number | int | Nombre de colonnes pour remplir le résultat de la formule matricielle.|
 | options | [FormulaParseOptions](/cells/fr/python-net/aspose.cells/formulaparseoptions) | Options d'analyse de la formule.|
 
@@ -58,7 +58,7 @@ def set_array_formula(self, array_formula, row_number, column_number, is_r1c1, i
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | array_formula | str | Formule matricielle.|
-| row_number | int | Nombre de lignes pour remplir le résultat de la formule matricielle.|
+| row_number | int |Nombre de lignes pour remplir le résultat de la formule matricielle.|
 | column_number | int | Nombre de colonnes pour remplir le résultat de la formule matricielle.|
 | is_r1c1 | bool | si la formule est la formule R1C1|
 | is_local | bool | si la formule est au format local|
@@ -83,7 +83,7 @@ def set_array_formula(self, array_formula, row_number, column_number, options, v
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | array_formula | str | Formule matricielle.|
-| row_number | int | Nombre de lignes pour remplir le résultat de la formule matricielle.|
+| row_number | int |Nombre de lignes pour remplir le résultat de la formule matricielle.|
 | column_number | int | Nombre de colonnes pour remplir le résultat de la formule matricielle.|
 | options | [FormulaParseOptions](/cells/fr/python-net/aspose.cells/formulaparseoptions) | Options d'analyse de la formule.|
 | values | list | valeurs pour ces cellules avec une formule matricielle donnée|

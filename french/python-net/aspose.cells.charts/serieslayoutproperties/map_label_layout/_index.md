@@ -1,4 +1,4 @@
-﻿---
+---
 title: map_label_layout propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

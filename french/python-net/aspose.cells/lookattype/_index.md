@@ -1,4 +1,4 @@
-﻿---
+---
 title: LookAtType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ Le type LookAtType expose les membres suivants :
 | CONTAINS | Cell valeur Contient l'objet de recherche.|
 | START_WITH | Cell valeur Commence par l'objet de recherche.|
 | END_WITH | La valeur Cell se termine par l'objet de recherche.|
-| ENTIRE_CONTENT |La valeur Cell est la même que celle de l'objet de recherche.|
+| ENTIRE_CONTENT | La valeur Cell est la même que celle de l'objet de recherche.|
 
 
 

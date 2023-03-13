@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineFormat类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 300
 url: /zh/python-net/aspose.cells.drawing/lineformat/
 is_root: false
 ---
-##  LineFormat类
+## LineFormat类
 表示线路的所有设置。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightCellsDataHandler类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 990
 url: /zh/python-net/aspose.cells/lightcellsdatahandler/
 is_root: false
 ---
-##  LightCellsDataHandler类
+## LightCellsDataHandler类
 表示用于在轻量级模式下读取大型电子表格文件的单元格数据处理程序。
 
 

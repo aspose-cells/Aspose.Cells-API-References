@@ -1,4 +1,4 @@
-﻿---
+---
 title: SvgSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1420
 url: /zh/python-net/aspose.cells/svgsaveoptions/
 is_root: false
 ---
-##  SvgSaveOptions类
+## SvgSaveOptions类
 表示 Svg 保存选项。
 如需高级用法，请使用 [WorkbookRender](/cells/zh/python-net/aspose.cells.rendering/workbookrender) 或 [SheetRender](/cells/zh/python-net/aspose.cells.rendering/sheetrender)。
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type DataSorter expose les membres suivants :
 | :- | :- |
 | [keys](/cells/fr/python-net/aspose.cells/datasorter/keys) | Obtient la liste des clés du trieur de données.|
 | [has_headers](/cells/fr/python-net/aspose.cells/datasorter/has_headers) | Représente si la plage a des en-têtes.|
-| [key1](/cells/fr/python-net/aspose.cells/datasorter/key1) |Représente le premier index de colonne trié (position absolue, la colonne A est 0, B est 1, ...).|
+| [key1](/cells/fr/python-net/aspose.cells/datasorter/key1) | Représente le premier index de colonne trié (position absolue, la colonne A est 0, B est 1, ...).|
 | [order1](/cells/fr/python-net/aspose.cells/datasorter/order1) | Représente l'ordre de tri de la première clé.|
 | [key2](/cells/fr/python-net/aspose.cells/datasorter/key2) | Représente l'index de la deuxième colonne triée (position absolue, la colonne A est 0, B est 1, ...).|
 | [order2](/cells/fr/python-net/aspose.cells/datasorter/order2) | Représente l'ordre de tri de la deuxième clé.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ Le type FormatConditionType expose les membres suivants :
 | EXPRESSION | Cette règle de mise en forme conditionnelle contient une formule pour<br/>évaluer. Lorsque le résultat de la formule est vrai, la cellule est<br/> Souligné.|
 | COLOR_SCALE | Cette règle de mise en forme conditionnelle crée un dégradé<br/> échelle de couleur sur les cellules.|
 | DATA_BAR | Cette règle de mise en forme conditionnelle affiche un dégradé<br/> barre de données dans la plage de cellules.|
-| ICON_SET | Cette règle de mise en forme conditionnelle applique des icônes aux cellules<br/>selon leurs valeurs.|
+| ICON_SET |Cette règle de mise en forme conditionnelle applique des icônes aux cellules<br/> selon leurs valeurs.|
 | TOP10 | Cette règle de mise en forme conditionnelle met en évidence les cellules dont<br/>les valeurs tombent dans la tranche supérieure N ou inférieure N, comme<br/> spécifié.|
 | UNIQUE_VALUES | Cette règle de mise en forme conditionnelle met en évidence les<br/> valeurs dans la plage.|
 | DUPLICATE_VALUES | Cette règle de mise en forme conditionnelle met en évidence les doublons<br/> valeurs.|

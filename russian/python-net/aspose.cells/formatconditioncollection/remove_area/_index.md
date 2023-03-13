@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ def remove_area(self, index):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| index | int |Индекс условно форматированного диапазона ячеек, который необходимо удалить.|
+| index | int | Индекс условно форматированного диапазона ячеек, который необходимо удалить.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}

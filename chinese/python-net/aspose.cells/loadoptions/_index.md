@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1020
 url: /zh/python-net/aspose.cells/loadoptions/
 is_root: false
 ---
-##  LoadOptions类
+## LoadOptions类
 表示加载文件的选项。
 
 

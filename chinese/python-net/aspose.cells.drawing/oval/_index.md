@@ -1,4 +1,4 @@
-﻿---
+---
 title: Oval类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 420
 url: /zh/python-net/aspose.cells.drawing/oval/
 is_root: false
 ---
-##  Oval类
+## Oval类
 代表椭圆形。
 
 

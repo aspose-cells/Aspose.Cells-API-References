@@ -1,4 +1,4 @@
-﻿---
+---
 title: InputMethodEditorMode枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 290
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/inputmethodeditormode/
 is_root: false
 ---
-##  InputMethodEditorMode枚举
+## InputMethodEditorMode枚举
 表示输入法编辑器的默认运行时模式。
 
 
 
 InputMethodEditorMode 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NO_CONTROL |不控制 IME。|

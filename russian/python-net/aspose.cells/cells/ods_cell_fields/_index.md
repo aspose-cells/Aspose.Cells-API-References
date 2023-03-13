@@ -1,4 +1,4 @@
-﻿---
+---
 title: ods_cell_fields недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: full_object_bin propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

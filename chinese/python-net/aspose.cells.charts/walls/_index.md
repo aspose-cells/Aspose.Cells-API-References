@@ -1,4 +1,4 @@
-﻿---
+---
 title: Walls类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 350
 url: /zh/python-net/aspose.cells.charts/walls/
 is_root: false
 ---
-##  Walls类
+## Walls类
 封装表示 3-D 图表的墙壁的对象。
 
 

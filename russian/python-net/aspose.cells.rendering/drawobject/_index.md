@@ -1,4 +1,4 @@
-﻿---
+---
 title: DrawObject класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,9 +17,9 @@ DrawObject будет инициализирован и возвращен пр�
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [cell](/cells/ru/python-net/aspose.cells.rendering/drawobject/cell) | Указывает объект Cell при рендеринге.<br/> Доступ ко всем свойствам ячейки.|
+| [cell](/cells/ru/python-net/aspose.cells.rendering/drawobject/cell) |Указывает объект Cell при рендеринге.<br/> Доступ ко всем свойствам ячейки.|
 | [shape](/cells/ru/python-net/aspose.cells.rendering/drawobject/shape) | Указывает объект Shape при рендеринге.<br/> Доступ ко всем свойствам формы.|
-| [image_bytes](/cells/ru/python-net/aspose.cells.rendering/drawobject/image_bytes) |Указывает байты изображения визуализируемой диаграммы, формы при рендеринге.|
+| [image_bytes](/cells/ru/python-net/aspose.cells.rendering/drawobject/image_bytes) | Указывает байты изображения визуализируемой диаграммы, формы при рендеринге.|
 | [type](/cells/ru/python-net/aspose.cells.rendering/drawobject/type) | Указывает тип DrawObject.|
 | [current_page](/cells/ru/python-net/aspose.cells.rendering/drawobject/current_page) | Указывает индекс страницы DrawObject.<br/>Индекс страницы основан на нуле.<br/> Один лист содержит несколько страниц при рендеринге.|
 | [total_pages](/cells/ru/python-net/aspose.cells.rendering/drawobject/total_pages) | Указывает общее количество страниц в текущем отображении.|

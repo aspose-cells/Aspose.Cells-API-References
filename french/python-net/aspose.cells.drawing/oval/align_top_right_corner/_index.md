@@ -1,4 +1,4 @@
-﻿---
+---
 title: align_top_right_corner méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

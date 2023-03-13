@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotMissingItemLimitType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | AUTOMATIC | Допустимое количество уникальных элементов по умолчанию для PivotField.|
 | MAX | Максимально допустимое количество уникальных элементов в PivotField (>32 500).|
-| NONE |Не допускается использование уникальных элементов в PivotField.|
+| NONE | Не допускается использование уникальных элементов в PivotField.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageLayoutAlignmentType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type PageLayoutAlignmentType expose les membres suivants :
 | :- | :- |
 | BOTTOM | Représente l'alignement de la mise en page du bas.|
 | CENTER | Représente l'alignement de la disposition de la page centrale.|
-| LEFT | Représente l'alignement de gauche de la mise en page.|
+| LEFT |Représente l'alignement de gauche de la mise en page.|
 | RIGHT | Représente l'alignement de la mise en page à droite.|
 | TOP | Représente l'alignement de la disposition de la page supérieure.|
 

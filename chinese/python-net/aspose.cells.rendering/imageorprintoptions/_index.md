@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageOrPrintOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.rendering/imageorprintoptions/
 is_root: false
 ---
-##  ImageOrPrintOptions类
+## ImageOrPrintOptions类
 允许在将工作表渲染为图像、打印工作表或将图表渲染为图像时指定选项。
 
 

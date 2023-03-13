@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_value méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -27,7 +27,7 @@ def get_value(self, row_offset, col_offset):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_offset | int | décalage de ligne par rapport à la ligne de départ de cette zone|
-| col_offset | int | décalage de colonne par rapport à la ligne de départ de cette zone|
+| col_offset | int |décalage de colonne par rapport à la ligne de départ de cette zone|
 
 
 ##  get_value(row_offset, col_offset, calculate_formulas) {#int-int-bool}
@@ -50,7 +50,7 @@ def get_value(self, row_offset, col_offset, calculate_formulas):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | row_offset | int | décalage de ligne par rapport à la ligne de départ de cette zone|
-| col_offset | int | décalage de colonne par rapport à la ligne de départ de cette zone|
+| col_offset | int |décalage de colonne par rapport à la ligne de départ de cette zone|
 | calculate_formulas | bool | Que ce soit pour le calculer récursivement si la référence spécifiée est une formule|
 
 

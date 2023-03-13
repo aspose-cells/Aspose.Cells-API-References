@@ -1,4 +1,4 @@
-﻿---
+---
 title: Border类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 90
 url: /zh/python-net/aspose.cells/border/
 is_root: false
 ---
-##  Border类
+## Border类
 封装表示单元格边框的对象。
 
 

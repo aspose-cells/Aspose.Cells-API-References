@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_footer метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ def get_footer(self, section):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| section | int |0: левая часть, 1: центральная часть, 2: правая часть.|
+| section | int | 0: левая часть, 1: центральная часть, 2: правая часть.|
 
 
 

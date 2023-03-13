@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionReference类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 70
 url: /zh/python-net/aspose.cells.webextensions/webextensionreference/
 is_root: false
 ---
-##  WebExtensionReference类
+## WebExtensionReference类
 表示标识扩展程序的提供程序位置和版本。
 
 

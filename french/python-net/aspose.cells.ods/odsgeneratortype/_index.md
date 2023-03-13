@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsGeneratorType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type OdsGeneratorType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| LIBRE_OFFICE | Bureau Libre|
+| LIBRE_OFFICE | Bureau libre|
 | OPEN_OFFICE | Bureau ouvert|
 
 

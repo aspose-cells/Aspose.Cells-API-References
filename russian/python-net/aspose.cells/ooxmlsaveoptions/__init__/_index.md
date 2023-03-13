@@ -1,4 +1,4 @@
-﻿---
+---
 title: OoxmlSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -33,7 +33,7 @@ def __init__(self, save_format):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| save_format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Формат файла.<br/>Это должен быть xlsx,xltx,xlsm,xltm.|
+| save_format | [SaveFormat](/cells/ru/python-net/aspose.cells/saveformat) | Формат файла.<br/> Это должен быть xlsx,xltx,xlsm,xltm.|
 
 
 

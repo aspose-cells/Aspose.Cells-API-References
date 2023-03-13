@@ -1,4 +1,4 @@
-﻿---
+---
 title: back_color 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ## back_color 属性
 
-获取和设置文件背景颜色。
+获取和设置文件背景色。
 ### 定义：
 ```python
 @property

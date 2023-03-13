@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_dynamic_array_formulas méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklineGroup класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,13 +18,13 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [preset_style](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/preset_style) |Получает и задает предустановленный тип стиля группы спарклайнов.|
+| [preset_style](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/preset_style) | Получает и задает предустановленный тип стиля группы спарклайнов.|
 | [sparkline_collection](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/sparkline_collection) | Получает коллекцию объекта [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline).|
 | [sparklines](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/sparklines) | Получает коллекцию объекта [Sparkline](/cells/ru/python-net/aspose.cells.charts/sparkline).|
 | [type](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/type) | Указывает тип спарклайна группы спарклайнов.|
 | [plot_empty_cells_type](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/plot_empty_cells_type) | Указывает, как отображать пустые ячейки.|
-| [display_hidden](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/display_hidden) | Указывает, отображать ли данные в скрытых строках и столбцах.|
-| [show_high_point](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/show_high_point) |Указывает, следует ли выделять самые высокие точки данных в группе спарклайнов.|
+| [display_hidden](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/display_hidden) |Указывает, отображать ли данные в скрытых строках и столбцах.|
+| [show_high_point](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/show_high_point) | Указывает, следует ли выделять самые высокие точки данных в группе спарклайнов.|
 | [high_point_color](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/high_point_color) | Получает и задает цвет наивысших точек данных в группе спарклайнов.|
 | [show_low_point](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/show_low_point) | Указывает, следует ли выделять самые низкие точки данных в группе спарклайнов.|
 | [low_point_color](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/low_point_color) | Получает и задает цвет самых низких точек данных в группе спарклайнов.|
@@ -34,7 +34,7 @@ is_root: false
 | [first_point_color](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/first_point_color) | Получает и задает цвет первой точки данных в группе спарклайнов.|
 | [show_last_point](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/show_last_point) | Указывает, следует ли выделять последнюю точку данных в группе спарклайнов.|
 | [last_point_color](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/last_point_color) | Получает и задает цвет последней точки данных в группе спарклайнов.|
-| [show_markers](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/show_markers) | Указывает, следует ли выделять каждую точку в каждой строке спарклайна в группе спарклайнов.|
+| [show_markers](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/show_markers) |Указывает, следует ли выделять каждую точку в каждой строке спарклайна в группе спарклайнов.|
 | [markers_color](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/markers_color) | Получает и задает цвет точек в каждой линии спарклайна в группе спарклайнов.|
 | [series_color](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/series_color) | Получает и задает цвет спарклайнов в группе спарклайнов.|
 | [plot_right_to_left](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/plot_right_to_left) | Указывает, расположены ли данные графика справа налево.|
@@ -51,7 +51,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [reset_ranges(data_range, is_vertical, location_range)](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/reset_ranges/#str-bool-CellArea) | Сбрасывает диапазон данных и диапазон местоположений группы спарклайнов.<br/> Этот метод очистит исходные элементы спарклайна в группе и создаст новые элементы спарклайна для новых диапазонов.|
+| [reset_ranges(data_range, is_vertical, location_range)](/cells/ru/python-net/aspose.cells.charts/sparklinegroup/reset_ranges/#str-bool-CellArea) |Сбрасывает диапазон данных и диапазон местоположений группы спарклайнов.<br/> Этот метод очистит исходные элементы спарклайна в группе и создаст новые элементы спарклайна для новых диапазонов.|
 
 
 

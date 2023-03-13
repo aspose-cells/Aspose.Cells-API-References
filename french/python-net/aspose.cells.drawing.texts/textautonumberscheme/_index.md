@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextAutonumberScheme dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,7 +25,7 @@ Le type TextAutonumberScheme expose les membres suivants :
 | ALPHA_UC_PAREN_R | A), B), C), …|
 | ALPHA_UC_PERIOD | A., B., C., …|
 | ARABIC_1_MINUS | Bidi Arabe 1 (AraAlpha) avec le symbole moins ANSI|
-| ARABIC_2_MINUS | Bidi Arabe 2 (AraAbjad) avec le symbole moins ANSI|
+| ARABIC_2_MINUS |Bidi Arabe 2 (AraAbjad) avec le symbole moins ANSI|
 | ARABIC_DB_PERIOD | Chiffres arabes à deux octets avec période à deux octets|
 | ARABIC_DB_PLAIN | Nombres arabes à double octet|
 | ARABIC_PAREN_BOTH | (1), (2), (3), … |
@@ -38,7 +38,7 @@ Le type TextAutonumberScheme expose les membres suivants :
 | EA_1_CHS_PERIOD | EA : chinois simplifié avec période à un octet|
 | EA_1_CHS_PLAIN | EA : chinois simplifié (TypeA 1-99, TypeC 100-)|
 | EA_1_CHT_PERIOD | EA : chinois traditionnel avec période à un octet|
-| EA_1_CHT_PLAIN |EA : chinois traditionnel (TypeA 1-19, TypeC 20-)|
+| EA_1_CHT_PLAIN | EA : chinois traditionnel (TypeA 1-19, TypeC 20-)|
 | EA_1_JPN_CHS_DB_PERIOD | EA : japonais avec période à deux octets|
 | EA_1_JPN_KOR_PERIOD | EA : japonais/coréen avec période à un octet|
 | EA_1_JPN_KOR_PLAIN | EA : japonais/coréen (TypeC 1-)|
@@ -52,7 +52,7 @@ Le type TextAutonumberScheme expose les membres suivants :
 | ROMAN_LC_PERIOD | i., ii., iii., …|
 | ROMAN_UC_PAREN_BOTH | (I), (II), (III), …|
 | ROMAN_UC_PAREN_R | I), II), III), …|
-| ROMAN_UC_PERIOD | I., II., III., …|
+| ROMAN_UC_PERIOD |I., II., III., …|
 | THAI_ALPHA_PAREN_BOTH | Parenthèses de l'alphabet thaï - les deux|
 | THAI_ALPHA_PAREN_R | Parenthèses de l'alphabet thaï - droite|
 | THAI_ALPHA_PERIOD | Période de l'alphabet thaï|

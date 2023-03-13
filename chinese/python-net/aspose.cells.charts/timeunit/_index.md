@@ -1,4 +1,4 @@
-﻿---
+---
 title: TimeUnit枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 660
 url: /zh/python-net/aspose.cells.charts/timeunit/
 is_root: false
 ---
-##  TimeUnit枚举
+## TimeUnit枚举
 表示类别轴的基本单位。
 
 
 
 TimeUnit 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DAYS |天|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: StreamProviderOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1380
 url: /zh/python-net/aspose.cells/streamprovideroptions/
 is_root: false
 ---
-##  StreamProviderOptions类
+## StreamProviderOptions类
 表示流选项。
 
 

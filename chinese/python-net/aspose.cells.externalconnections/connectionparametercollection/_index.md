@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionParameterCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 20
 url: /zh/python-net/aspose.cells.externalconnections/connectionparametercollection/
 is_root: false
 ---
-##  ConnectionParameterCollection类
+## ConnectionParameterCollection类
 指定 [ConnectionParameter](/cells/zh/python-net/aspose.cells.externalconnections/connectionparameter) 集合
 
 

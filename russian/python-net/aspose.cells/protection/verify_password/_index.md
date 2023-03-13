@@ -1,4 +1,4 @@
-﻿---
+---
 title: verify_password метод
 second_title: Aspose.Cells for Python via .NET API
 description:

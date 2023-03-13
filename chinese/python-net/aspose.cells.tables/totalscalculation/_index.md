@@ -1,4 +1,4 @@
-﻿---
+---
 title: TotalsCalculation枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 130
 url: /zh/python-net/aspose.cells.tables/totalscalculation/
 is_root: false
 ---
-##  TotalsCalculation枚举
+## TotalsCalculation枚举
 确定列表列的总计行中的计算类型。
 
 
 
 TotalsCalculation 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | SUM |表示总计计算。|

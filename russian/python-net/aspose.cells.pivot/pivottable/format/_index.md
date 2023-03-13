@@ -1,4 +1,4 @@
-﻿---
+---
 title: format метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,9 +20,9 @@ def format(self, row, column, style):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| row | int |Индекс строки ячейки|
+| row | int | Индекс строки ячейки|
 | column | int | Индекс столбца ячейки|
-| style | [Style](/cells/ru/python-net/aspose.cells/style) | Стиль для форматирования ячейки|
+| style | [Style](/cells/ru/python-net/aspose.cells/style) |Стиль для форматирования ячейки|
 
 
 

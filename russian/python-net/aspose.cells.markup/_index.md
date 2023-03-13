@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.markup
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,12 +18,12 @@ is_root: false
 | [SmartTagCollection](/cells/ru/python-net/aspose.cells.markup/smarttagcollection) | Представляет все смарт-теги в ячейке.|
 | [SmartTagOptions](/cells/ru/python-net/aspose.cells.markup/smarttagoptions) | Представляет параметры смарт-тега.|
 | [SmartTagProperty](/cells/ru/python-net/aspose.cells.markup/smarttagproperty) | Представляет свойство смарт-тега ячейки.|
-| [SmartTagPropertyCollection](/cells/ru/python-net/aspose.cells.markup/smarttagpropertycollection) | Представляет все свойства смарт-тега ячейки.|
+| [SmartTagPropertyCollection](/cells/ru/python-net/aspose.cells.markup/smarttagpropertycollection) |Представляет все свойства смарт-тега ячейки.|
 | [SmartTagSetting](/cells/ru/python-net/aspose.cells.markup/smarttagsetting) | Представляет все объекты [SmartTagCollection](/cells/ru/python-net/aspose.cells.markup/smarttagcollection) на листе.|
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [SmartTagShowType](/cells/ru/python-net/aspose.cells.markup/smarttagshowtype) | Представляет тип отображения смарт-тега.|
 

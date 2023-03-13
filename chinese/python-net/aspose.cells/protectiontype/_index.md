@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectionType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2420
 url: /zh/python-net/aspose.cells/protectiontype/
 is_root: false
 ---
-##  ProtectionType枚举
+## ProtectionType枚举
 表示工作簿/工作表保护类型。
 
 
 
 ProtectionType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ALL |代表保护一切。|

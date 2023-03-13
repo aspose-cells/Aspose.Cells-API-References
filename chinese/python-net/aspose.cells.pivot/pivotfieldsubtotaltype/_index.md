@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFieldSubtotalType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 160
 url: /zh/python-net/aspose.cells.pivot/pivotfieldsubtotaltype/
 is_root: false
 ---
-##  PivotFieldSubtotalType枚举
+## PivotFieldSubtotalType枚举
 PivotFieldSubtotalType 的摘要说明。
 
 
 
 PivotFieldSubtotalType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |表示无小计类型。|

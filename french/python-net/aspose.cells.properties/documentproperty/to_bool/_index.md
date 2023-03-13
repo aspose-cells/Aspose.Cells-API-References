@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_bool méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

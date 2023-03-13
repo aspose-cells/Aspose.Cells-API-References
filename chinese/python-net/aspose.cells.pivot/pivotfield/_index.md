@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotField类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.pivot/pivotfield/
 is_root: false
 ---
-##  PivotField类
+## PivotField类
 表示数据透视表中的字段。
 
 

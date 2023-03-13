@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightCellsDataHandler classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type LightCellsDataHandler expose les membres suivants :
 | Méthode| Description|
 | :- | :- |
 | [start_sheet(sheet)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/start_sheet/#Worksheet) | Commence à traiter une feuille de calcul.|
-| [start_row(row_index)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/start_row/#int) |Se prépare à traiter une ligne.|
+| [start_row(row_index)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/start_row/#int) | Se prépare à traiter une ligne.|
 | [process_row(row)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/process_row/#Row) | Commence à traiter une ligne.|
 | [start_cell(column_index)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/start_cell/#int) | Se prépare à traiter une cellule.|
 | [process_cell(cell)](/cells/fr/python-net/aspose.cells/lightcellsdatahandler/process_cell/#Cell) | Commence à traiter une cellule.|

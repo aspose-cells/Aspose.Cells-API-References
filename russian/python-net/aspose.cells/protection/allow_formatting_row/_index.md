@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_formatting_row недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

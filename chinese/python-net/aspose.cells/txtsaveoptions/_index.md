@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1520
 url: /zh/python-net/aspose.cells/txtsaveoptions/
 is_root: false
 ---
-##  TxtSaveOptions类
+## TxtSaveOptions类
 表示 csv/制表符分隔/其他文本格式的保存选项。
 
 

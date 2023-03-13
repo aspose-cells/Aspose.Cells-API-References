@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_printing_page_breaks méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ def get_printing_page_breaks(self, options):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| options | aspose.cells.rendering.ImageOrPrintOptions |Les possibilités d'impression|
+| options | aspose.cells.rendering.ImageOrPrintOptions | Les possibilités d'impression|
 ###  Remarques
 
 Chaque zone de cellule représente un papier.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionDataSourceType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type ConnectionDataSourceType expose les membres suivants :
 | ADO_RECORD_SET | Jeu d'enregistrements ADO|
 | DSP | DSP |
 | OLEDB_DATA_MODEL | Source de données OLE DB créée par le modèle de données de feuille de calcul.|
-| DATA_FEED_DATA_MODEL | Source de données de flux de données créée par le modèle de données de feuille de calcul.|
+| DATA_FEED_DATA_MODEL |Source de données de flux de données créée par le modèle de données de feuille de calcul.|
 | WORKSHEET_DATA_MODEL | Source de données de feuille de calcul créée par le modèle de données de feuille de calcul.|
 | TABLE | Source de données de feuille de calcul créée par le modèle de données de feuille de calcul.|
 | TEXT_DATA_MODEL | Source de données texte créée par le modèle de données de feuille de calcul.|

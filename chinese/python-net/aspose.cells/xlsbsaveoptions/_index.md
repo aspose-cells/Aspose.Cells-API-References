@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsbSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1660
 url: /zh/python-net/aspose.cells/xlsbsaveoptions/
 is_root: false
 ---
-##  XlsbSaveOptions类
+## XlsbSaveOptions类
 表示保存 xlsb 文件的选项。
 
 

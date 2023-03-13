@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_ole_color метод
 second_title: Aspose.Cells for Python via .NET API
 description:

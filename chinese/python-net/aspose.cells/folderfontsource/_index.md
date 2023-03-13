@@ -1,4 +1,4 @@
-﻿---
+---
 title: FolderFontSource类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 640
 url: /zh/python-net/aspose.cells/folderfontsource/
 is_root: false
 ---
-##  FolderFontSource类
+## FolderFontSource类
 表示包含 TrueType 字体文件的文件夹。
 
 

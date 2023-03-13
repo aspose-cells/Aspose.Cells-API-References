@@ -1,4 +1,4 @@
-﻿---
+---
 title: extract_content_permission недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  extract_content_permission недвижимость
 
-Разрешение на копирование или извлечение содержимого.
+Разрешение на копирование или извлечение контента.
 ###  Определение:
 ```python
 @property

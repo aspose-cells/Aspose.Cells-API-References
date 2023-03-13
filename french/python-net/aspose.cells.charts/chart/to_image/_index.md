@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -145,7 +145,7 @@ Par exemple, si vous spécifiez "monfichier.png", l'image sera enregistrée
 
 
 Si la largeur ou la hauteur est nulle ou si le graphique n'est pas pris en charge conformément à la liste des graphiques pris en charge, cette méthode ne fera rien.
- Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) pour plus de détails.
+ Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)pour plus de détails.
 ###  Exemple
 
 Enregistre au format Tiff avec 300 dpi et compression CCITT4.
@@ -198,12 +198,12 @@ def to_image(self, stream, options):
 ###  Remarques
 
 Le type d'image est spécifié à l'aide de `options.ImageType`.
-Les formats suivants sont pris en charge :
+ Les formats suivants sont pris en charge :
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Si la largeur ou la hauteur est nulle ou si le graphique n'est pas pris en charge conformément à la liste des graphiques pris en charge, cette méthode ne fera rien.
- Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) pour plus de détails.
+ Prière de se référer à[Liste des graphiques pris en charge](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)pour plus de détails.
 
 
 ###  Voir également

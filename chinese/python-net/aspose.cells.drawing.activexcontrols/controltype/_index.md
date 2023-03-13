@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 270
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controltype/
 is_root: false
 ---
-##  ControlType枚举
+## ControlType枚举
 表示所有类型的 ActiveX 控件。
 
 
 
 ControlType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | COMMAND_BUTTON |按钮|

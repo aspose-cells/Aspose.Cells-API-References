@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.metadata
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [MetadataType](/cells/ru/python-net/aspose.cells.metadata/metadatatype) | Представляет тип метаданных.|
 

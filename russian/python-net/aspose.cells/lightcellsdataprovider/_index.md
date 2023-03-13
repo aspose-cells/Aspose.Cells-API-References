@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightCellsDataProvider класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -35,7 +35,7 @@ is_root: false
 затем объект Row, представляющий эту строку, будет предоставлен для реализации, чтобы установить ее свойства по [LightCellsDataProvider.start_row(row)](/cells/ru/python-net/aspose.cells/lightcellsdataprovider/start_row).
 Для одной строки сначала будет проверено [LightCellsDataProvider.next_cell()](/cells/ru/python-net/aspose.cells/lightcellsdataprovider/next_cell). Если возвращается действительный индекс столбца (индекс столбца должен быть в порядке возрастания для сохранения всех ячеек одной строки),
 затем объект Cell, представляющий эту ячейку, будет предоставлен для реализации, чтобы установить ее данные и свойства по [LightCellsDataProvider.start_cell(cell)](/cells/ru/python-net/aspose.cells/lightcellsdataprovider/start_cell).
-После того, как данные этой ячейки будут установлены, эта ячейка будет сохранена непосредственно в сгенерированном файле электронной таблицы, а следующая ячейка будет проверена и обработана.
+После того, как данные этой ячейки установлены, эта ячейка будет сохранена непосредственно в сгенерированном файле электронной таблицы, а следующая ячейка будет проверена и обработана.
 
 ###  Смотрите также
 * модуль [aspose.cells](..)

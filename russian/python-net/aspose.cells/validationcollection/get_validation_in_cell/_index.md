@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_validation_in_cell метод
 second_title: Aspose.Cells for Python via .NET API
 description:

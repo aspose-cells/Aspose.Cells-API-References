@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellBorderType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type CellBorderType expose les membres suivants :
 | MEDIUM_DASH_DOT | Représente une ligne pointillée moyenne.|
 | MEDIUM_DASH_DOT_DOT | Représente une ligne tiret-point-pointillé moyenne.|
 | MEDIUM_DASHED | Représente une ligne pointillée moyenne.|
-| NONE |Ne représente aucune ligne.|
+| NONE | Ne représente aucune ligne.|
 | MEDIUM | Représente la ligne moyenne.|
 | SLANTED_DASH_DOT | Représente une ligne pointillée moyenne inclinée.|
 | THICK | Représente une ligne épaisse.|

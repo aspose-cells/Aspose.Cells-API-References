@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartArea класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -33,7 +33,7 @@ is_root: false
 | [background](/cells/ru/python-net/aspose.cells.charts/chartarea/background) | Получает и задает режим отображения фона|
 | [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Указывает, имеет ли рамка диаграммы автоматический размер.|
 | [x](/cells/ru/python-net/aspose.cells.charts/chartarea/x) | Получает или получает горизонтальное смещение от верхнего левого углового столбца.|
-| [y](/cells/ru/python-net/aspose.cells.charts/chartarea/y) | Получает или получает вертикальное смещение от строки верхнего левого угла.|
+| [y](/cells/ru/python-net/aspose.cells.charts/chartarea/y) |Получает или получает вертикальное смещение от строки верхнего левого угла.|
 | [height](/cells/ru/python-net/aspose.cells.charts/chartarea/height) | Получает или задает вертикальное смещение от нижнего правого углового ряда.|
 | [width](/cells/ru/python-net/aspose.cells.charts/chartarea/width) | Получает или задает смещение по горизонтали от нижнего правого углового столбца.|
 | [shadow](/cells/ru/python-net/aspose.cells.charts/chartarea/shadow) | Истинно, если у кадра есть тень.|
@@ -42,7 +42,7 @@ is_root: false
 | [default_x](/cells/ru/python-net/aspose.cells.charts/chartarea/default_x) | Представляет x позиции по умолчанию|
 | [default_y](/cells/ru/python-net/aspose.cells.charts/chartarea/default_y) | Представляет y положения по умолчанию|
 | [default_width](/cells/ru/python-net/aspose.cells.charts/chartarea/default_width) | Представляет ширину положения по умолчанию|
-| [default_height](/cells/ru/python-net/aspose.cells.charts/chartarea/default_height) | Представляет высоту положения по умолчанию|
+| [default_height](/cells/ru/python-net/aspose.cells.charts/chartarea/default_height) | Представляет высоту позиции по умолчанию|
 
 
 ###  Методы

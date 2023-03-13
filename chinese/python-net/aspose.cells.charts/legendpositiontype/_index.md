@@ -1,4 +1,4 @@
-﻿---
+---
 title: LegendPositionType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 540
 url: /zh/python-net/aspose.cells.charts/legendpositiontype/
 is_root: false
 ---
-##  LegendPositionType枚举
+## LegendPositionType枚举
 枚举图例位置类型。
 
 
 
 LegendPositionType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BOTTOM |将图例显示到图表绘图区域的底部。|

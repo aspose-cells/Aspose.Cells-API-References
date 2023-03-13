@@ -1,4 +1,4 @@
-﻿---
+---
 title: XpsSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1730
 url: /zh/python-net/aspose.cells/xpssaveoptions/
 is_root: false
 ---
-##  XpsSaveOptions类
+## XpsSaveOptions类
 表示将文件另存为 Xps 时的附加选项。
 
 

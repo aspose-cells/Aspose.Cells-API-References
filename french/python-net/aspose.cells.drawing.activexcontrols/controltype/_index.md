@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -27,7 +27,7 @@ Le type ControlType expose les membres suivants :
 | LABEL | Étiqueter|
 | IMAGE | Image|
 | TOGGLE_BUTTON | Bouton à bascule|
-| SCROLL_BAR |Barre de défilement|
+| SCROLL_BAR | Barre de défilement|
 | UNKNOWN | Inconnu|
 
 

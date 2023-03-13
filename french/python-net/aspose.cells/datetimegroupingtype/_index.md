@@ -1,4 +1,4 @@
-﻿---
+---
 title: DateTimeGroupingType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type DateTimeGroupingType expose les membres suivants :
 | MINUTE | Regrouper par minute.|
 | MONTH | Regrouper par mois.|
 | SECOND | Grouper par seconde.|
-| YEAR | Regrouper par année.|
+| YEAR |Regrouper par année.|
 
 
 

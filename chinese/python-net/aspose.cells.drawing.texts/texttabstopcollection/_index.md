@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextTabStopCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 130
 url: /zh/python-net/aspose.cells.drawing.texts/texttabstopcollection/
 is_root: false
 ---
-##  TextTabStopCollection类
+## TextTabStopCollection类
 表示所有制表位的列表。
 
 

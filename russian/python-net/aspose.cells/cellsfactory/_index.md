@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsFactory класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [create_style()](/cells/ru/python-net/aspose.cells/cellsfactory/create_style/#) |Создает новый стиль.|
+| [create_style()](/cells/ru/python-net/aspose.cells/cellsfactory/create_style/#) | Создает новый стиль.|
 
 
 

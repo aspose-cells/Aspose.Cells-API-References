@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_to_corner propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

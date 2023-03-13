@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_provider propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

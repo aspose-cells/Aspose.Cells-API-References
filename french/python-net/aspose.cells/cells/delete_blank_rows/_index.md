@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_blank_rows méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineFormat класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [type](/cells/ru/python-net/aspose.cells.drawing/lineformat/type) | Получает и задает тип заполнения.|
+| [type](/cells/ru/python-net/aspose.cells.drawing/lineformat/type) |Получает и задает тип заполнения.|
 | [fill_type](/cells/ru/python-net/aspose.cells.drawing/lineformat/fill_type) | Получает и задает тип заполнения|
 | [transparency](/cells/ru/python-net/aspose.cells.drawing/lineformat/transparency) | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная).|
 | [set_type](/cells/ru/python-net/aspose.cells.drawing/lineformat/set_type) | Получает тип набора форматов заливки.|
@@ -50,7 +50,7 @@ is_root: false
 | [begin_arrowhead_width](/cells/ru/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_width) | Получает и задает тип начальной ширины стрелки линии.|
 | [begin_arrowhead_length](/cells/ru/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_length) | Получает и задает тип длины начальной стрелки линии.|
 | [end_arrowhead_style](/cells/ru/python-net/aspose.cells.drawing/lineformat/end_arrowhead_style) | Получает и задает тип конечной стрелки линии.|
-| [end_arrowhead_width](/cells/ru/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) | Получает и задает тип ширины конечной стрелки линии.|
+| [end_arrowhead_width](/cells/ru/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) |Получает и задает тип ширины конечной стрелки линии.|
 | [end_arrowhead_length](/cells/ru/python-net/aspose.cells.drawing/lineformat/end_arrowhead_length) | Получает и задает тип длины конечной стрелки линии.|
 | [weight](/cells/ru/python-net/aspose.cells.drawing/lineformat/weight) | Получает или задает вес линии в пунктах.|
 

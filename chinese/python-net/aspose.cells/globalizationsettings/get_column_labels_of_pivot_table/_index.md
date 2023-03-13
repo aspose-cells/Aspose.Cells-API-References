@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_labels_of_pivot_table方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

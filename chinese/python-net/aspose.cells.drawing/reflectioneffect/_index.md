@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReflectionEffect类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 490
 url: /zh/python-net/aspose.cells.drawing/reflectioneffect/
 is_root: false
 ---
-##  ReflectionEffect类
+## ReflectionEffect类
 该类指定反射效果。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: retrieve_subtotal_setting méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

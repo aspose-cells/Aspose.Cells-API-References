@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabelShapeType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -29,9 +29,9 @@ Le type DataLabelShapeType expose les membres suivants :
 | WEDGE_ELLIPSE_CALLOUT | Représente la forme de légende de l'ellipse en biseau.|
 | LINE_CALLOUT | Représente la forme de légende de ligne.|
 | BENT_LINE_CALLOUT | Représente la forme de légende de la ligne pliée.|
-| LINE_WITH_ACCENT_BAR_CALLOUT | Représente la ligne avec la forme de légende de la barre d'accentuation.|
+| LINE_WITH_ACCENT_BAR_CALLOUT |Représente la ligne avec la forme de légende de la barre d'accentuation.|
 | BENT_LINE_WITH_ACCENT_BAR_CALLOUT | Représente la ligne courbée avec la forme de légende de la barre d'accentuation.|
-| LINE |Ce type n'est utilisé que pour le traitement de fichiers spéciaux|
+| LINE | Ce type n'est utilisé que pour le traitement de fichiers spéciaux|
 
 
 

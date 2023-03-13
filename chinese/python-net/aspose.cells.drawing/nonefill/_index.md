@@ -1,4 +1,4 @@
-﻿---
+---
 title: NoneFill类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 390
 url: /zh/python-net/aspose.cells.drawing/nonefill/
 is_root: false
 ---
-##  NoneFill类
+## NoneFill类
 表示没有填充。
 
 

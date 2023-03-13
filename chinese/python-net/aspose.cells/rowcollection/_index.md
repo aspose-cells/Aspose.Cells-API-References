@@ -1,4 +1,4 @@
-﻿---
+---
 title: RowCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1310
 url: /zh/python-net/aspose.cells/rowcollection/
 is_root: false
 ---
-##  RowCollection类
+## RowCollection类
 收集代表工作表中各行的 [Row](/cells/zh/python-net/aspose.cells/row) 对象。
 
 

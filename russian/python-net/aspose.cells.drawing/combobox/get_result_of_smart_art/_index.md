@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_result_of_smart_art метод
 second_title: Aspose.Cells for Python via .NET API
 description:

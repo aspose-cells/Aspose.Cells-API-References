@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,9 +25,9 @@ is_root: false
 | :- | :- |
 | [ignore_error](/cells/ru/python-net/aspose.cells/calculationoptions/ignore_error) | Указывает, нужно ли скрыть ошибку при вычислении формул.<br/> Ошибка может быть в неподдерживаемой функции, внешних ссылках и т.п.|
 | [custom_function](/cells/ru/python-net/aspose.cells/calculationoptions/custom_function) | Функции вычисления пользовательских формул для расширения механизма вычислений.|
-| [custom_engine](/cells/ru/python-net/aspose.cells/calculationoptions/custom_engine) | Механизм расчета пользовательских формул для расширения механизма расчета по умолчанию Aspose.Cells.|
+| [custom_engine](/cells/ru/python-net/aspose.cells/calculationoptions/custom_engine) |Механизм расчета пользовательских формул для расширения механизма расчета по умолчанию Aspose.Cells.|
 | [calculation_monitor](/cells/ru/python-net/aspose.cells/calculationoptions/calculation_monitor) | Монитор для пользователя, чтобы отслеживать ход расчета формулы.|
-| [calc_stack_size](/cells/ru/python-net/aspose.cells/calculationoptions/calc_stack_size) |Указывает размер стека для рекурсивного вычисления ячеек.|
+| [calc_stack_size](/cells/ru/python-net/aspose.cells/calculationoptions/calc_stack_size) | Указывает размер стека для рекурсивного вычисления ячеек.|
 | [precision_strategy](/cells/ru/python-net/aspose.cells/calculationoptions/precision_strategy) | Указывает стратегию обработки точности вычислений.|
 | [recursive](/cells/ru/python-net/aspose.cells/calculationoptions/recursive) | Указывает, вычисляются ли зависимые ячейки рекурсивно при вычислении одной ячейки и зависят ли они от других ячеек.|
 

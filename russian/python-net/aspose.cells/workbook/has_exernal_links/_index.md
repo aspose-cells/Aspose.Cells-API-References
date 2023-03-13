@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_exernal_links метод
 second_title: Aspose.Cells for Python via .NET API
 description:

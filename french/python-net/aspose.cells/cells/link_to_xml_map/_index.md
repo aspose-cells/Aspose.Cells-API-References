@@ -1,4 +1,4 @@
-﻿---
+---
 title: link_to_xml_map méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

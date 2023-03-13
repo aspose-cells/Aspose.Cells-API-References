@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_sparkline_groups метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: close_access_cache méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

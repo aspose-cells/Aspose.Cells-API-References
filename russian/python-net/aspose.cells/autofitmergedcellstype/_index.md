@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFitMergedCellsType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | NONE | Игнорировать объединенные ячейки.|
 | FIRST_LINE | Увеличивает только высоту первой строки.|
-| LAST_LINE | Увеличивает только высоту последней строки.|
+| LAST_LINE |Увеличивает только высоту последней строки.|
 | EACH_LINE | Увеличивает только высоту каждой строки.|
 
 

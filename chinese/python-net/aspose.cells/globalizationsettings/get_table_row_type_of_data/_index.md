@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_table_row_type_of_data方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

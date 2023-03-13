@@ -1,4 +1,4 @@
-﻿---
+---
 title: mso_drawing_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

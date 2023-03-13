@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -88,7 +88,7 @@ def add(self, start_cell_name, end_cell_name, address, text_to_display, screen_t
 | end_cell_name | str | Нижняя правая ячейка диапазона.|
 | address | str | Адрес гиперссылки.|
 | text_to_display | str | Текст, который будет отображаться для указанной гиперссылки.|
-| screen_tip | str | Текст всплывающей подсказки для указанной гиперссылки.|
+| screen_tip | str |Текст всплывающей подсказки для указанной гиперссылки.|
 
 
 

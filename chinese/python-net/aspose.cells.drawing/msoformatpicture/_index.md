@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoFormatPicture类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 350
 url: /zh/python-net/aspose.cells.drawing/msoformatpicture/
 is_root: false
 ---
-##  MsoFormatPicture类
+## MsoFormatPicture类
 表示图片格式。
 
 

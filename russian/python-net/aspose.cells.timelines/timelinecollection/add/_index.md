@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def add(self, pivot, dest_cell_name, base_field_name):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Объект сводной таблицы|
+| pivot | aspose.cells.pivot.PivotTable |Объект сводной таблицы|
 | dest_cell_name | str | Имя ячейки в верхнем левом углу диапазона временной шкалы.|
 | base_field_name | str | Имя PivotField в PivotTable.BaseFields|
 
@@ -55,7 +55,7 @@ def add(self, pivot, dest_cell_name, base_field_index):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Объект сводной таблицы|
+| pivot | aspose.cells.pivot.PivotTable |Объект сводной таблицы|
 | dest_cell_name | str | Имя ячейки в верхнем левом углу диапазона временной шкалы.|
 | base_field_index | int | Индекс PivotField в PivotTable.BaseFields|
 
@@ -86,7 +86,7 @@ def add(self, pivot, dest_cell_name, base_field):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Объект сводной таблицы|
+| pivot | aspose.cells.pivot.PivotTable |Объект сводной таблицы|
 | dest_cell_name | str | Имя ячейки в верхнем левом углу диапазона временной шкалы.|
 | base_field | aspose.cells.pivot.PivotField | PivotField в PivotTable.BaseFields|
 
@@ -117,7 +117,7 @@ def add(self, pivot, row, column, base_field_name):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Объект сводной таблицы|
+| pivot | aspose.cells.pivot.PivotTable |Объект сводной таблицы|
 | row | int | Индекс строки ячейки в верхнем левом углу диапазона временной шкалы.|
 | column | int | Индекс столбца ячейки в верхнем левом углу диапазона временной шкалы.|
 | base_field_name | str | Имя PivotField в PivotTable.BaseFields|
@@ -149,7 +149,7 @@ def add(self, pivot, row, column, base_field_index):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Объект сводной таблицы|
+| pivot | aspose.cells.pivot.PivotTable |Объект сводной таблицы|
 | row | int | Индекс строки ячейки в верхнем левом углу диапазона временной шкалы.|
 | column | int | Индекс столбца ячейки в верхнем левом углу диапазона временной шкалы.|
 | base_field_index | int | Индекс PivotField в PivotTable.BaseFields|
@@ -181,7 +181,7 @@ def add(self, pivot, row, column, base_field):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Объект сводной таблицы|
+| pivot | aspose.cells.pivot.PivotTable |Объект сводной таблицы|
 | row | int | Индекс строки ячейки в верхнем левом углу диапазона временной шкалы.|
 | column | int | Индекс столбца ячейки в верхнем левом углу диапазона временной шкалы.|
 | base_field | aspose.cells.pivot.PivotField | PivotField в PivotTable.BaseFields|

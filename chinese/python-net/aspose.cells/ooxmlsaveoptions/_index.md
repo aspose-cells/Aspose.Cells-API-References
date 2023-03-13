@@ -1,4 +1,4 @@
-﻿---
+---
 title: OoxmlSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1120
 url: /zh/python-net/aspose.cells/ooxmlsaveoptions/
 is_root: false
 ---
-##  OoxmlSaveOptions类
+## OoxmlSaveOptions类
 表示保存office打开的xml文件的选项。
 
 

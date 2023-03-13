@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextNodeType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type TextNodeType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | TEXT_RUN | Représente le nœud de texte.|
-| TEXT_PARAGRAPH |Représente le paragraphe de texte.|
+| TEXT_PARAGRAPH | Représente le paragraphe de texte.|
 | EQUATION | Représente le texte de l'équation.|
 
 

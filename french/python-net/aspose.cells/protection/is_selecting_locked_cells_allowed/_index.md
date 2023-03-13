@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_selecting_locked_cells_allowed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,8 +13,8 @@ Indique si l'utilisateur est autorisé à sélectionner des cellules verrouillé
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
- veuillez utiliser la propriété Protection.AllowSelectingLockedCell.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
+veuillez utiliser la propriété Protection.AllowSelectingLockedCell.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

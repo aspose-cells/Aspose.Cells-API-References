@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_column_lables_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,9 +25,9 @@ def get_column_lables_name(self):
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 используйте метод GlobalizationSettings.GetColumnLabelsOfPivotTable().
-Это свойство будет удалено через 12 месяцев, начиная с сентября 2020 года.
+ Это свойство будет удалено через 12 месяцев, начиная с сентября 2020 года.
 Aspose приносит извинения за возможные неудобства.
 
 

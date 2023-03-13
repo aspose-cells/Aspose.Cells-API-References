@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_resize_shape_to_fit_text недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

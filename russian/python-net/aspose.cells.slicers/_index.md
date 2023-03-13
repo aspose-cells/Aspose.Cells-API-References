@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.slicers
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,10 +20,10 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [SlicerCacheCrossFilterType](/cells/ru/python-net/aspose.cells.slicers/slicercachecrossfiltertype) | Представлять тип SlicerCacheCrossFilterType.|
-| [SlicerCacheItemSortType](/cells/ru/python-net/aspose.cells.slicers/slicercacheitemsorttype) |Укажите тип сортировки SlicerCacheItem|
+| [SlicerCacheItemSortType](/cells/ru/python-net/aspose.cells.slicers/slicercacheitemsorttype) | Укажите тип сортировки SlicerCacheItem|
 | [SlicerStyleType](/cells/ru/python-net/aspose.cells.slicers/slicerstyletype) | Укажите стиль просмотра слайсера|
 
 

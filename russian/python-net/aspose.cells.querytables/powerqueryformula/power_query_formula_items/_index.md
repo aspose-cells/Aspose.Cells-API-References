@@ -1,4 +1,4 @@
-﻿---
+---
 title: power_query_formula_items недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

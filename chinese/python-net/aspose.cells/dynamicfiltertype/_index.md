@@ -1,4 +1,4 @@
-﻿---
+---
 title: DynamicFilterType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1980
 url: /zh/python-net/aspose.cells/dynamicfiltertype/
 is_root: false
 ---
-##  DynamicFilterType枚举
+## DynamicFilterType枚举
 动态过滤器类型。
 
 
 
 DynamicFilterType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ABOVE_AVERAGE |显示高于平均值的值。|

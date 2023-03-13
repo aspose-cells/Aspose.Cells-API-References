@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_frame_scripts_and_properties недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

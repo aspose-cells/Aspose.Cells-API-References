@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_header méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ def get_header(self, section):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| section | int | : Section gauche, 1 : Section centrale, 2 : Section droite.|
+| section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 
 
 

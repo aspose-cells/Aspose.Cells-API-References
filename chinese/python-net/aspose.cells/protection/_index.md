@@ -1,4 +1,4 @@
-﻿---
+---
 title: Protection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1220
 url: /zh/python-net/aspose.cells/protection/
 is_root: false
 ---
-##  Protection类
+## Protection类
 表示可用于工作表的各种类型的保护选项。
 
 

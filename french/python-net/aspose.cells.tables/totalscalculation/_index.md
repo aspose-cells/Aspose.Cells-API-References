@@ -1,4 +1,4 @@
-﻿---
+---
 title: TotalsCalculation dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type TotalsCalculation expose les membres suivants :
 | :- | :- |
 | SUM | Représente le calcul des totaux.|
 | COUNT | Représente le calcul des totaux.|
-| AVERAGE | Représente le calcul des totaux moyens.|
+| AVERAGE |Représente le calcul des totaux moyens.|
 | MAX | Représente le calcul des totaux maximum.|
 | MIN | Représente le calcul des totaux Min.|
 | VAR | Représente le calcul des totaux Var.|

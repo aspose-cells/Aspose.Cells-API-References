@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_custom_objects метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,8 +24,8 @@ def import_custom_objects(self, list, first_row, first_column, options):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| list | list |Пользовательский объект|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| list | list | Пользовательский объект|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 | options | [ImportTableOptions](/cells/ru/python-net/aspose.cells/importtableoptions) | Варианты импорта.|
 ###  Примечания
@@ -50,10 +50,10 @@ def import_custom_objects(self, list, property_names, is_property_name_shown, fi
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| list | list |Пользовательский объект|
+| list | list | Пользовательский объект|
 | property_names | list | Имена свойств. Если оно равно null, мы импортируем все свойства объекта.|
 | is_property_name_shown | bool | Указывает, будет ли имя свойства импортировано в первую строку.|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 | row_number | int | Количество строк для импорта.|
 | insert_rows | bool | Указывает, добавляются ли дополнительные строки для соответствия данным.|

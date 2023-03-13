@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_blank_columns метод
 second_title: Aspose.Cells for Python via .NET API
 description:

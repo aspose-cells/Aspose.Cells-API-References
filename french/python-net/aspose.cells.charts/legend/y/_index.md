@@ -1,4 +1,4 @@
-﻿---
+---
 title: y propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ Obtient ou définit la coordonnée y du coin supérieur gauche en unités de 1/4
 ###  Remarques
 
  Comment convertir des unités de 1/4000 en pixels ?
-en pixels = Y * Chart.ChartObject.Height / 4000 ;
+Y en pixels = Y * Chart.ChartObject.Height / 4000 ;
 ###  Définition:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientPresetType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 880
 url: /zh/python-net/aspose.cells.drawing/gradientpresettype/
 is_root: false
 ---
-##  GradientPresetType枚举
+## GradientPresetType枚举
 表示渐变预设颜色类型。
 
 
 
 GradientPresetType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BRASS |黄铜预设颜色|

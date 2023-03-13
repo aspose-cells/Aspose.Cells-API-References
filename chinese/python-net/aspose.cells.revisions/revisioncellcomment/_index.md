@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionCellComment类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.revisions/revisioncellcomment/
 is_root: false
 ---
-##  RevisionCellComment类
+## RevisionCellComment类
 表示单元格注释更改的修订记录。
 
 

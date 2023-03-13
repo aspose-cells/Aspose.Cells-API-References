@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_area méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ def remove_area(self, index):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| index | int |Index de la plage de cellules mise en forme conditionnelle à supprimer.|
+| index | int | Index de la plage de cellules mise en forme conditionnelle à supprimer.|
 
 
 ##  remove_area(start_row, start_column, total_rows, total_columns) {#int-int-int-int}

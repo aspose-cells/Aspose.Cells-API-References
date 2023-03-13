@@ -1,4 +1,4 @@
-﻿---
+---
 title: Column classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type Column expose les membres suivants :
 | :- | :- |
 | [index](/cells/fr/python-net/aspose.cells/column/index) | Obtient l'index de cette colonne.|
 | [width](/cells/fr/python-net/aspose.cells/column/width) | Obtient et définit la largeur de la colonne en unité de caractères.|
-| [group_level](/cells/fr/python-net/aspose.cells/column/group_level) | Obtient le niveau de groupe de la colonne.|
+| [group_level](/cells/fr/python-net/aspose.cells/column/group_level) |Obtient le niveau de groupe de la colonne.|
 | [is_hidden](/cells/fr/python-net/aspose.cells/column/is_hidden) | Indique si la colonne est masquée.|
 | [has_custom_style](/cells/fr/python-net/aspose.cells/column/has_custom_style) | Indique si cette colonne a des paramètres de style personnalisés (différents de ceux par défaut hérités du classeur).|
 | [style](/cells/fr/python-net/aspose.cells/column/style) | Obtient le style de cette colonne.|

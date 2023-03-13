@@ -1,4 +1,4 @@
-﻿---
+---
 title: bar_shape propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient ou définit le type de forme 3D utilisé avec le graphique à barres ou 
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
  veuillez utiliser la propriété ASeries.Bar3DShapeType.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

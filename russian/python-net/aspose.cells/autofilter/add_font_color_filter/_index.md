@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_font_color_filter метод
 second_title: Aspose.Cells for Python via .NET API
 description:

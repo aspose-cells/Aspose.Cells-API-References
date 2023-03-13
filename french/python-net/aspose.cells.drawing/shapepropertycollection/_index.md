@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePropertyCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type ShapePropertyCollection expose les membres suivants :
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [clear_glow_effect()](/cells/fr/python-net/aspose.cells.drawing/shapepropertycollection/clear_glow_effect/#) | Efface l'effet de lueur de la forme.|
+| [clear_glow_effect()](/cells/fr/python-net/aspose.cells.drawing/shapepropertycollection/clear_glow_effect/#) |Efface l'effet de lueur de la forme.|
 | [has_glow_effect()](/cells/fr/python-net/aspose.cells.drawing/shapepropertycollection/has_glow_effect/#) | Indique si la forme a des données d'effet de lueur.|
 | [has_format_3d()](/cells/fr/python-net/aspose.cells.drawing/shapepropertycollection/has_format_3d/#) | Indique si la forme contient des données au format 3D.|
 | [clear_format_3d()](/cells/fr/python-net/aspose.cells.drawing/shapepropertycollection/clear_format_3d/#) | Efface les propriétés de forme 3D de la forme.|

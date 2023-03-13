@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadDataFilterOptions dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type LoadDataFilterOptions expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| NONE |Ne rien charger pour les données de feuille|
+| NONE | Ne rien charger pour les données de feuille|
 | ALL | Charger tout|
 | CELL_BLANK | Cellules de charge dont la valeur est vide|
 | CELL_STRING | Cellules de charge dont la valeur est une chaîne|
@@ -37,9 +37,9 @@ Le type LoadDataFilterOptions expose les membres suivants :
 | TABLE | Tableaux de chargement|
 | HYPERLINKS | Charger les hyperliens|
 | SHEET_SETTINGS | Charger les paramètres de la feuille de calcul|
-| SHEET_DATA | Chargez toutes les données de la feuille de calcul, telles que les données des cellules, les paramètres, les objets, etc.|
+| SHEET_DATA |Chargez toutes les données de la feuille de calcul, telles que les données des cellules, les paramètres, les objets, etc.|
 | BOOK_SETTINGS | Charger les paramètres du classeur|
-| SETTINGS |Charger les paramètres du classeur et de la feuille de calcul|
+| SETTINGS | Charger les paramètres du classeur et de la feuille de calcul|
 | XML_MAP | Charger XmlMap|
 | STRUCTURE | Charger la structure du classeur|
 | DOCUMENT_PROPERTIES | Charger les propriétés du document|

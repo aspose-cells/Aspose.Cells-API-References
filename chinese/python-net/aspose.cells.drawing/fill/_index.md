@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fill类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 170
 url: /zh/python-net/aspose.cells.drawing/fill/
 is_root: false
 ---
-##  Fill类
+## Fill类
 表示形状的填充格式。
 
 

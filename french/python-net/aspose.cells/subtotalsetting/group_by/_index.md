@@ -1,4 +1,4 @@
-﻿---
+---
 title: group_by propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

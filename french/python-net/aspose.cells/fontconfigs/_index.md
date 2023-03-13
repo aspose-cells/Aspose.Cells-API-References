@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontConfigs classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ Le type FontConfigs expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [default_font_name](/cells/fr/python-net/aspose.cells/fontconfigs/default_font_name) | Obtient ou définit le nom de la police par défaut.|
-| [prefer_system_font_substitutes](/cells/fr/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) | Indiquez s'il faut utiliser les substituts de polices système en premier ou non lorsqu'une police n'est pas présentée et que le substitut de cette police n'est pas défini.<br/>Par exemple, sur Ubuntu, la police "Arial" est généralement remplacée par "Liberation Sans".<br/> La valeur par défaut est faux.|
+| [prefer_system_font_substitutes](/cells/fr/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) |Indiquez s'il faut utiliser les substituts de polices système en premier ou non lorsqu'une police n'est pas présentée et que le substitut de cette police n'est pas défini.<br/>Par exemple, sur Ubuntu, la police "Arial" est généralement remplacée par "Liberation Sans".<br/> La valeur par défaut est faux.|
 
 
 ###  Méthodes

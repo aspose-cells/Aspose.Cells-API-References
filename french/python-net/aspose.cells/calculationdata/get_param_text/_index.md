@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_param_text méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

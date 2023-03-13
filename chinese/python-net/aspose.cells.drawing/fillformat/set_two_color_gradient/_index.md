@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_two_color_gradient方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -42,7 +42,7 @@ def set_two_color_gradient(self, color1, transparency1, color2, transparency2, s
 |范围|类型|描述|
 | :- | :- | :- |
 | color1 | aspose.pydrawing.Color |一种渐变色。|
-| transparency1 | float | color1 的透明度，值为从 0.0（不透明）到 1.0（透明）的值。|
+| transparency1 | float |color1 的透明度，值为从 0.0（不透明）到 1.0（透明）的值。|
 | color2 | aspose.pydrawing.Color |两种渐变色。|
 | transparency2 | float | color2 的透明度，值为从 0.0（不透明）到 1.0（透明）的值。|
 | style | [GradientStyleType](/cells/zh/python-net/aspose.cells.drawing/gradientstyletype) |渐变阴影样式。|

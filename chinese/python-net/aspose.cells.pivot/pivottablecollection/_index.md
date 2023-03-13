@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 110
 url: /zh/python-net/aspose.cells.pivot/pivottablecollection/
 is_root: false
 ---
-##  PivotTableCollection类
+## PivotTableCollection类
 表示指定工作表上所有数据透视表对象的集合。
 
 

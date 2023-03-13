@@ -1,4 +1,4 @@
-﻿---
+---
 title: save_as_single_file propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -15,7 +15,7 @@ La valeur par défaut est faux.
 ###  Remarques
 
 S'il y a plusieurs feuilles de calcul ou d'autres ressources requises telles que des images dans le classeur,
- généralement, ces feuilles de calcul et autres ressources doivent être enregistrées dans des fichiers séparés.
+généralement, ces feuilles de calcul et autres ressources doivent être enregistrées dans des fichiers séparés.
 Pour certains scénarios, l'utilisateur peut avoir besoin d'un seul fichier résultant, par exemple pour faciliter le transfert.
 Si tel est le cas, l'utilisateur peut définir cette propriété sur true.
 ###  Définition:

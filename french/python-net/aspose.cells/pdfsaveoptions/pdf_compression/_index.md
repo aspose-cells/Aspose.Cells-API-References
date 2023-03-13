@@ -1,4 +1,4 @@
-﻿---
+---
 title: pdf_compression propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

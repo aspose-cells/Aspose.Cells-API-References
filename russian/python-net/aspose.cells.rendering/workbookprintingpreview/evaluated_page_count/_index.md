@@ -1,4 +1,4 @@
-﻿---
+---
 title: evaluated_page_count недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

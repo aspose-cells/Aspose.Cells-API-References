@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomPropertyCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 60
 url: /zh/python-net/aspose.cells.properties/custompropertycollection/
 is_root: false
 ---
-##  CustomPropertyCollection类
+## CustomPropertyCollection类
 表示附加信息的 [CustomProperty](/cells/zh/python-net/aspose.cells.properties/customproperty) 对象的集合。
 
 

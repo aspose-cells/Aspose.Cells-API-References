@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 700
 url: /zh/python-net/aspose.cells/formatconditioncollection/
 is_root: false
 ---
-##  FormatConditionCollection类
+## FormatConditionCollection类
 表示条件格式。
 FormatConditions 最多可以包含三种条件格式。
 

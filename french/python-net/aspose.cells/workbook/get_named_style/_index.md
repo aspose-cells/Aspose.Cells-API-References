@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_named_style méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient le style nommé dans le pool de styles.
 
 ###  Retour
 
-style nommé, peut-être null.
+style nommé, peut-être nul.
 
 
 ```python

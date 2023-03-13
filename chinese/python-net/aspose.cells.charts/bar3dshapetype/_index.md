@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bar3DShapeType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 380
 url: /zh/python-net/aspose.cells.charts/bar3dshapetype/
 is_root: false
 ---
-##  Bar3DShapeType枚举
+## Bar3DShapeType枚举
 表示与 3-D 条形图或柱形图一起使用的形状。
 
 
 
 Bar3DShapeType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BOX |盒子|

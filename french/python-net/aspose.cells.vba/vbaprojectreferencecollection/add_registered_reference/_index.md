@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_registered_reference méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

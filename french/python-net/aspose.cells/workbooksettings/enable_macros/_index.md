@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_macros propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: crash_save propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

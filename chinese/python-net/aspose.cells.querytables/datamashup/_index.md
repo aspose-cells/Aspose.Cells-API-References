@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataMashup类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.querytables/datamashup/
 is_root: false
 ---
-##  DataMashup类
+## DataMashup类
 表示混搭数据。
 
 

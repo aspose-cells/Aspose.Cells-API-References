@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTableCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -32,12 +32,12 @@ is_root: false
 | [add(source_data, is_auto_page, page_fields, dest_cell_name, table_name)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/add/#list-bool-PivotPageFields-str-str) | Добавляет новый объект сводной таблицы в коллекцию с несколькими диапазонами консолидации в качестве источника данных.|
 | [add(source_data, is_auto_page, page_fields, row, column, table_name)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/add/#list-bool-PivotPageFields-int-int-str) | Добавляет новый объект сводной таблицы в коллекцию с несколькими диапазонами консолидации в качестве источника данных.|
 | [copy_to(array)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/copy_to/#list) | Копирует весь список массивов в совместимый список одномерных массивов, начиная с начала целевого списка массивов.|
-| [copy_to(index, array, array_index, count)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/copy_to/#int-list-int-int) | Копирует диапазон элементов из списка массивов в совместимый список одномерных массивов, начиная с указанного индекса целевого списка массивов.|
+| [copy_to(index, array, array_index, count)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/copy_to/#int-list-int-int) |Копирует диапазон элементов из списка массивов в совместимый список одномерных массивов, начиная с указанного индекса целевого списка массивов.|
 | [index_of(item, index)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/index_of/#PivotTable-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс первого вхождения в диапазоне элементов в списке массивов, который простирается от указанного индекса до последнего элемента.|
 | [index_of(item, index, count)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/index_of/#PivotTable-int-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс первого вхождения в диапазоне элементов в списке массивов, который начинается с указанного индекса и содержит указанное количество элементов.|
 | [last_index_of(item)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/last_index_of/#PivotTable) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения во всем списке массивов.|
-| [last_index_of(item, index)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/last_index_of/#PivotTable-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который простирается от первого элемента до указанного индекса.|
-| [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/last_index_of/#PivotTable-int-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
+| [last_index_of(item, index)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/last_index_of/#PivotTable-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который простирается от первого элемента до указанного индекса.|
+| [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/last_index_of/#PivotTable-int-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
 | [remove_at(index, keep_data)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) | Удаляет сводную таблицу по указанному индексу.|
 | [binary_search(item)](/cells/ru/python-net/aspose.cells.pivot/pivottablecollection/binary_search/#PivotTable) | Ищет элемент во всем отсортированном списке массивов, используя компаратор по умолчанию, и возвращает отсчитываемый от нуля индекс элемента.|
 

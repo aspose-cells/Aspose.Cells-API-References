@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemoryFontSource类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1040
 url: /zh/python-net/aspose.cells/memoryfontsource/
 is_root: false
 ---
-##  MemoryFontSource类
+## MemoryFontSource类
 表示存储在内存中的单个 TrueType 字体文件。
 
 

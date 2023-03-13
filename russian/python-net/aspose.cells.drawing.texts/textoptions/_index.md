@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ is_root: false
 | :- | :- |
 | [charset](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/charset) | Представлять набор символов.|
 | [is_italic](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/is_italic) | Получает или задает значение, указывающее, является ли шрифт курсивным.|
-| [is_bold](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/is_bold) | Получает или задает значение, указывающее, является ли шрифт полужирным.|
+| [is_bold](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/is_bold) |Получает или задает значение, указывающее, является ли шрифт полужирным.|
 | [caps_type](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/caps_type) | Получает и задает тип прописных букв.|
 | [strike_type](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/strike_type) | Получает тип забастовки текста.|
 | [is_strikeout](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/is_strikeout) | Получает или задает значение, указывающее, является ли шрифт одинарным перечеркнутым.|
@@ -32,7 +32,7 @@ is_root: false
 | [is_superscript](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/is_superscript) | Получает или задает значение, указывающее, является ли шрифт суперсценарным.|
 | [is_subscript](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/is_subscript) | Получает или задает значение, указывающее, является ли шрифт подстрочным.|
 | [underline](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/underline) | Получает или задает тип подчеркивания шрифта.|
-| [name](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/name) |Получает и задает имя фигуры.|
+| [name](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/name) | Получает и задает имя фигуры.|
 | [double_size](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/double_size) | Получает и задает двойной размер шрифта.|
 | [size](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/size) | Получает или задает размер шрифта.|
 | [theme_color](/cells/ru/python-net/aspose.cells.drawing.texts/textoptions/theme_color) | Получает и задает цвет темы.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: conditional_formatting_icon недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

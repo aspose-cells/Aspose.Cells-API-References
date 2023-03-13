@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFitterOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 80
 url: /zh/python-net/aspose.cells/autofitteroptions/
 is_root: false
 ---
-##  AutoFitterOptions类
+## AutoFitterOptions类
 代表所有自动装配选项。
 
 

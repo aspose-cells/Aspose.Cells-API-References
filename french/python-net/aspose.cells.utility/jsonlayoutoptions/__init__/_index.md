@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLayoutOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:

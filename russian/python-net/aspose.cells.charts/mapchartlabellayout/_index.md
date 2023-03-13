@@ -1,4 +1,4 @@
-﻿---
+---
 title: MapChartLabelLayout перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| BEST_FIT_ONLY | Только лучше всего подходит.|
+| BEST_FIT_ONLY | Только лучше всего подходят.|
 | SHOW_ALL | Показывает все ярлыки.|
 | NONE | Нет ярлыков.|
 

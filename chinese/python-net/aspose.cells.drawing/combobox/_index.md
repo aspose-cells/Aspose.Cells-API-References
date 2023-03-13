@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComboBox类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 120
 url: /zh/python-net/aspose.cells.drawing/combobox/
 is_root: false
 ---
-##  ComboBox类
+## ComboBox类
 代表控制表ComboBox。
 
 

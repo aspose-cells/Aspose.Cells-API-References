@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemorySetting枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2240
 url: /zh/python-net/aspose.cells/memorysetting/
 is_root: false
 ---
-##  MemorySetting枚举
+## MemorySetting枚举
 内存使用选项。
 
 
 
 MemorySetting 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NORMAL |细胞模型的默认选项。|

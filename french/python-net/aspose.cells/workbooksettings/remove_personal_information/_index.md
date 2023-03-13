@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_personal_information propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFieldCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 20
 url: /zh/python-net/aspose.cells.pivot/pivotfieldcollection/
 is_root: false
 ---
-##  PivotFieldCollection类
+## PivotFieldCollection类
 表示所有 PivotField 对象的集合
 在数据透视表的特定数据透视字段类型中。
 

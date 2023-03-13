@@ -1,4 +1,4 @@
-﻿---
+---
 title: HeaderFooterCommandType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2130
 url: /zh/python-net/aspose.cells/headerfootercommandtype/
 is_root: false
 ---
-##  HeaderFooterCommandType枚举
+## HeaderFooterCommandType枚举
 表示页眉和页脚的命令类型。
 
 
 
 HeaderFooterCommandType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | TEXT |文本。|

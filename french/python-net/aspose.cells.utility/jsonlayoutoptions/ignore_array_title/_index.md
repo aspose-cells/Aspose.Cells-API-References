@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_array_title propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

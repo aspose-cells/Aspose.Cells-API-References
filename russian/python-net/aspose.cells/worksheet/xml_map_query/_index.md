@@ -1,4 +1,4 @@
-﻿---
+---
 title: xml_map_query метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ def xml_map_query(self, path, xml_map):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | path | str | путь к XML-элементу|
-| xml_map | [XmlMap](/cells/ru/python-net/aspose.cells/xmlmap) | Укажите карту xml, если вы хотите запросить определенный путь на определенной карте.|
+| xml_map | [XmlMap](/cells/ru/python-net/aspose.cells/xmlmap) |Укажите карту xml, если вы хотите запросить определенный путь на определенной карте.|
 
 
 

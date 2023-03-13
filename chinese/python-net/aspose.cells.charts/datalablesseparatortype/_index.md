@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLablesSeparatorType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 480
 url: /zh/python-net/aspose.cells.charts/datalablesseparatortype/
 is_root: false
 ---
-##  DataLablesSeparatorType枚举
+## DataLablesSeparatorType枚举
 表示 DataLabels 的分隔符类型。
 
 
 
 DataLablesSeparatorType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | AUTO |代表自动分隔符|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataBar classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type DataBar expose les membres suivants :
 | [axis_color](/cells/fr/python-net/aspose.cells/databar/axis_color) | Obtient la couleur de l'axe pour les cellules avec une mise en forme conditionnelle sous forme de barres de données.|
 | [axis_position](/cells/fr/python-net/aspose.cells/databar/axis_position) | Obtient ou définit la position de l'axe des barres de données spécifiées par une règle de mise en forme conditionnelle.|
 | [bar_fill_type](/cells/fr/python-net/aspose.cells/databar/bar_fill_type) | Obtient ou définit la façon dont une barre de données est remplie de couleur.|
-| [direction](/cells/fr/python-net/aspose.cells/databar/direction) | Obtient ou définit la direction d'affichage de la barre de données.|
+| [direction](/cells/fr/python-net/aspose.cells/databar/direction) |Obtient ou définit la direction d'affichage de la barre de données.|
 | [bar_border](/cells/fr/python-net/aspose.cells/databar/bar_border) | Obtient un objet qui spécifie la bordure d'une barre de données.|
 | [negative_bar_format](/cells/fr/python-net/aspose.cells/databar/negative_bar_format) | Obtient l'objet NegativeBarFormat associé à une règle de mise en forme conditionnelle de la barre de données.|
 | [min_cfvo](/cells/fr/python-net/aspose.cells/databar/min_cfvo) | Obtenez ou définissez l'objet de valeur min de cette DataBar.<br/> Impossible de définir null ou CFValueObject avec le type FormatConditionValueType.Max.|

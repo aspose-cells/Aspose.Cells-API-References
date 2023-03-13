@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsCellField类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.ods/odscellfield/
 is_root: false
 ---
-##  OdsCellField类
+## OdsCellField类
 代表ods的单元格字段。
 
 

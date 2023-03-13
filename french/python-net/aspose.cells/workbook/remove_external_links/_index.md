@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_external_links méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

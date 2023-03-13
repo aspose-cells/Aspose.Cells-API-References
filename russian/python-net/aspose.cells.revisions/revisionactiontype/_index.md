@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionActionType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | ADD | Добавьте ревизию.|
 | DELETE | Удалить ревизию.|
 | DELETE_COLUMN | Столбец удалить редакцию.|
-| DELETE_ROW |Строка удаления ревизии.|
+| DELETE_ROW | Строка удаления ревизии.|
 | INSERT_COLUMN | Редакция вставки столбца.|
 | INSERT_ROW | Редакция вставки строки.|
 

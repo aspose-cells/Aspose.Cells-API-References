@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_outlier_points недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

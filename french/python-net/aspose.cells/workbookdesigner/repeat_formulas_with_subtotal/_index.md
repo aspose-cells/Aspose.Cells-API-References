@@ -1,4 +1,4 @@
-﻿---
+---
 title: repeat_formulas_with_subtotal propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

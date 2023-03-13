@@ -1,4 +1,4 @@
-﻿---
+---
 title: DateTimeGroupItem类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 450
 url: /zh/python-net/aspose.cells/datetimegroupitem/
 is_root: false
 ---
-##  DateTimeGroupItem类
+## DateTimeGroupItem类
 表示日期时间的组设置。
 
 

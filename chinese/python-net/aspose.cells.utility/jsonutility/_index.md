@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonUtility类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.utility/jsonutility/
 is_root: false
 ---
-##  JsonUtility类
+## JsonUtility类
 表示处理json的实用类。
 
 

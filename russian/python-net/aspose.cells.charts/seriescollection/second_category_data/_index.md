@@ -1,4 +1,4 @@
-﻿---
+---
 title: second_category_data недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThreadedCommentAuthorCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1460
 url: /zh/python-net/aspose.cells/threadedcommentauthorcollection/
 is_root: false
 ---
-##  ThreadedCommentAuthorCollection类
+## ThreadedCommentAuthorCollection类
 代表所有的人。
 
 

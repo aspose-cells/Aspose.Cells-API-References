@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -145,7 +145,7 @@ def to_image(self, image_file, options):
 
 
 Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает.
- Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) Больше подробностей.
+ Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)Больше подробностей.
 ###  Пример
 
 Сохраняет в Tiff с разрешением 300 dpi и сжатием CCITT4.
@@ -198,12 +198,12 @@ def to_image(self, stream, options):
 ###  Примечания
 
 Тип изображения указывается с помощью `options.ImageType`.
-Поддерживаются следующие форматы:
+ Поддерживаются следующие форматы:
 ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 
 Если ширина или высота равны нулю или диаграмма не поддерживается в соответствии со списком поддерживаемых диаграмм, этот метод ничего не сделает.
- Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html) Больше подробностей.
+ Пожалуйста, обратитесь к[Список поддерживаемых диаграмм](http://www.aspose.com/documentation/.net-components/aspose.cells-for-.net/converting-chart-to-image.html)Больше подробностей.
 
 
 ###  Смотрите также

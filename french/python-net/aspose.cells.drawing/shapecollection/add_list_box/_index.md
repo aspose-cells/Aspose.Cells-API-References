@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_list_box méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,10 +26,10 @@ def add_list_box(self, upper_left_row, top, upper_left_column, left, height, wid
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical de ListBox par rapport à sa ligne de gauche, en unité de pixel.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal de ListBox par rapport à sa colonne de gauche, en unité de pixel.|
 | height | int | Représente la hauteur de ListBox, en unité de pixel.|
-| width | int |Représente la largeur de ListBox, en unité de pixel.|
+| width | int | Représente la largeur de ListBox, en unité de pixel.|
 
 ###  Exemple
 

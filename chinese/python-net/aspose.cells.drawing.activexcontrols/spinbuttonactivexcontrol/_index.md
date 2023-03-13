@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpinButtonActiveXControl类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 110
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/spinbuttonactivexcontrol/
 is_root: false
 ---
-##  SpinButtonActiveXControl类
+## SpinButtonActiveXControl类
 表示 SpinButton 控件。
 
 

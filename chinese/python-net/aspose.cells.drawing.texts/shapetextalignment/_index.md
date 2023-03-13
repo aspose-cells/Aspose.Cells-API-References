@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeTextAlignment类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 80
 url: /zh/python-net/aspose.cells.drawing.texts/shapetextalignment/
 is_root: false
 ---
-##  ShapeTextAlignment类
+## ShapeTextAlignment类
 表示形状的文本对齐方式的设置；
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: IndividualFontConfigs类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 930
 url: /zh/python-net/aspose.cells/individualfontconfigs/
 is_root: false
 ---
-##  IndividualFontConfigs类
+## IndividualFontConfigs类
 每个 [Workbook](/cells/zh/python-net/aspose.cells/workbook) 对象的字体配置。
 
 

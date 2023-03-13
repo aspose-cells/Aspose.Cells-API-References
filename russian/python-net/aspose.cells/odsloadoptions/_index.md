@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsLoadOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -40,9 +40,9 @@ is_root: false
 | [standard_font_size](/cells/ru/python-net/aspose.cells/odsloadoptions/standard_font_size) | Устанавливает стандартный размер шрифта по умолчанию.|
 | [interrupt_monitor](/cells/ru/python-net/aspose.cells/odsloadoptions/interrupt_monitor) | Получает и устанавливает монитор прерываний.|
 | [ignore_not_printed](/cells/ru/python-net/aspose.cells/odsloadoptions/ignore_not_printed) | Игнорировать данные, которые не печатаются, при прямой печати файла|
-| [check_data_valid](/cells/ru/python-net/aspose.cells/odsloadoptions/check_data_valid) | Проверьте правильность данных в файле шаблона.|
+| [check_data_valid](/cells/ru/python-net/aspose.cells/odsloadoptions/check_data_valid) |Проверьте правильность данных в файле шаблона.|
 | [check_excel_restriction](/cells/ru/python-net/aspose.cells/odsloadoptions/check_excel_restriction) | Проверять ли ограничение файла excel, когда пользователь изменяет объекты, связанные с ячейками.<br/>Например, Excel не позволяет вводить строковое значение длиннее 32 КБ.<br/>Когда вы вводите значение длиннее 32 КБ, например, Cell.PutValue(строка), если это свойство истинно, вы получите исключение.<br/>Если это свойство имеет значение false, мы примем значение вашей входной строки в качестве значения ячейки, чтобы позже<br/>вы можете вывести полное строковое значение для файлов других форматов, таких как CSV.<br/>Однако, если вы установили такое значение, которое недопустимо для формата файла Excel,<br/> вы не должны сохранять книгу в формате файла Excel позже. В противном случае может возникнуть непредвиденная ошибка для сгенерированного файла Excel.|
-| [keep_unparsed_data](/cells/ru/python-net/aspose.cells/odsloadoptions/keep_unparsed_data) |Сохранять ли непроанализированные данные в памяти для рабочей книги, когда она загружается из файла шаблона. Значение по умолчанию верно.|
+| [keep_unparsed_data](/cells/ru/python-net/aspose.cells/odsloadoptions/keep_unparsed_data) | Сохранять ли непроанализированные данные в памяти для рабочей книги, когда она загружается из файла шаблона. Значение по умолчанию верно.|
 | [load_filter](/cells/ru/python-net/aspose.cells/odsloadoptions/load_filter) | Фильтр для обозначения того, как загружать данные.|
 | [light_cells_data_handler](/cells/ru/python-net/aspose.cells/odsloadoptions/light_cells_data_handler) | Обработчик данных для обработки данных ячеек при чтении файла шаблона.|
 | [memory_setting](/cells/ru/python-net/aspose.cells/odsloadoptions/memory_setting) | Получает или задает параметры использования памяти.|

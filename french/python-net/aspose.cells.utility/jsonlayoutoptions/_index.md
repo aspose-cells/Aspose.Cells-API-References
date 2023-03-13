@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLayoutOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,7 +23,7 @@ Le type JsonLayoutOptions expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [array_as_table](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table) |Traite le tableau comme une table.|
+| [array_as_table](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table) | Traite le tableau comme une table.|
 | [ignore_null](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_null) | Indique si la valeur nulle est ignorée.|
 | [ignore_array_title](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_array_title) | Indique si le titre est ignoré si le tableau est une propriété de l'objet.|
 | [ignore_object_title](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_object_title) | Indique si le titre est ignoré si l'objet est une propriété de l'objet.|

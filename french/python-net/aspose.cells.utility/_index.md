@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.utility
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ is_root: false
 | Classe| Description|
 | :- | :- |
 | [ExportRangeToJsonOptions](/cells/fr/python-net/aspose.cells.utility/exportrangetojsonoptions) | Indique les options qui exportent la plage vers json.|
-| [JsonLayoutOptions](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions) |Représente les options du type de mise en page json.|
+| [JsonLayoutOptions](/cells/fr/python-net/aspose.cells.utility/jsonlayoutoptions) | Représente les options du type de mise en page json.|
 | [JsonUtility](/cells/fr/python-net/aspose.cells.utility/jsonutility) | Représente la classe utilitaire de traitement de json.|
 
 

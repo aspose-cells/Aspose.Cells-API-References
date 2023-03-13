@@ -1,4 +1,4 @@
-﻿---
+---
 title: sort_left_to_right недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

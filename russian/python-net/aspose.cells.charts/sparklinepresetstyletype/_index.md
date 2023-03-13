@@ -1,4 +1,4 @@
-﻿---
+---
 title: SparklinePresetStyleType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -28,7 +28,7 @@ is_root: false
 | STYLE9 | Стиль 9|
 | STYLE10 | Стиль 10|
 | STYLE11 | Стиль 11|
-| STYLE12 | Стиль 12|
+| STYLE12 |Стиль 12|
 | STYLE13 | Стиль 13|
 | STYLE14 | Стиль 14|
 | STYLE15 | Стиль 15|
@@ -53,7 +53,7 @@ is_root: false
 | STYLE34 | Стиль 34|
 | STYLE35 | Стиль 35|
 | STYLE36 | Стиль 36|
-| CUSTOM |Нет предустановленного стиля.|
+| CUSTOM | Нет предустановленного стиля.|
 
 
 

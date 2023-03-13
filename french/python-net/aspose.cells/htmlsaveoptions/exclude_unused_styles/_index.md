@@ -1,4 +1,4 @@
-﻿---
+---
 title: exclude_unused_styles propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

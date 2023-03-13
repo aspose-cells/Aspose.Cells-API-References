@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_rectangle метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ def add_rectangle(self, upper_left_row, top, upper_left_column, left, height, wi
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение RectangleShape от его левой строки в единицах пикселя.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение RectangleShape от его левого столбца в пикселях.|
 | height | int | Представляет высоту RectangleShape в пикселях.|
 | width | int | Представляет ширину RectangleShape в пикселях.|

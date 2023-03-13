@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetMaterialType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1070
 url: /zh/python-net/aspose.cells.drawing/presetmaterialtype/
 is_root: false
 ---
-##  PresetMaterialType枚举
+## PresetMaterialType枚举
 描述形状的表面外观。
 
 
 
 PresetMaterialType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CLEAR |清除|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_on_category_axis_point_x_px метод
 second_title: Aspose.Cells for Python via .NET API
 description:

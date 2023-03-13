@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_modified méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

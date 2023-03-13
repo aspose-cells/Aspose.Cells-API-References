@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_error_value_string метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFilter класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [remove_filter(field_index, criteria)](/cells/ru/python-net/aspose.cells/autofilter/remove_filter/#int-str) | Удаляет фильтр для столбца фильтра.|
+| [remove_filter(field_index, criteria)](/cells/ru/python-net/aspose.cells/autofilter/remove_filter/#int-str) |Удаляет фильтр для столбца фильтра.|
 | [remove_filter(field_index)](/cells/ru/python-net/aspose.cells/autofilter/remove_filter/#int) | Удалите определенный фильтр.|
 | [custom(field_index, operator_type1, criteria1)](/cells/ru/python-net/aspose.cells/autofilter/custom/#int-FilterOperatorType-any) | Фильтрует список с пользовательскими критериями.|
 | [custom(field_index, operator_type1, criteria1, is_and, operator_type2, criteria2)](/cells/ru/python-net/aspose.cells/autofilter/custom/#int-FilterOperatorType-any-bool-FilterOperatorType-any) | Фильтрует список с пользовательскими критериями.|
@@ -37,7 +37,7 @@ is_root: false
 | [add_filter(field_index, criteria)](/cells/ru/python-net/aspose.cells/autofilter/add_filter/#int-str) | Добавляет фильтр для столбца фильтра.|
 | [add_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/ru/python-net/aspose.cells/autofilter/add_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Добавляет фильтр даты.|
 | [remove_date_filter(field_index, date_time_grouping_type, year, month, day, hour, minute, second)](/cells/ru/python-net/aspose.cells/autofilter/remove_date_filter/#int-DateTimeGroupingType-int-int-int-int-int-int) | Удаляет фильтр даты.|
-| [filter(field_index, criteria)](/cells/ru/python-net/aspose.cells/autofilter/filter/#int-str) |Фильтрует список по заданным критериям.|
+| [filter(field_index, criteria)](/cells/ru/python-net/aspose.cells/autofilter/filter/#int-str) | Фильтрует список по заданным критериям.|
 | [filter_top10(field_index, is_top, is_percent, item_count)](/cells/ru/python-net/aspose.cells/autofilter/filter_top10/#int-bool-bool-int) | Отфильтровать первые 10 элементов в списке|
 | [dynamic_filter(field_index, dynamic_filter_type)](/cells/ru/python-net/aspose.cells/autofilter/dynamic_filter/#int-DynamicFilterType) | Добавляет динамический фильтр.|
 | [add_font_color_filter(field_index, color)](/cells/ru/python-net/aspose.cells/autofilter/add_font_color_filter/#int-CellsColor) | Добавляет фильтр цвета шрифта.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormulaSettings类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 720
 url: /zh/python-net/aspose.cells/formulasettings/
 is_root: false
 ---
-##  FormulaSettings类
+## FormulaSettings类
 公式和计算的设置。
 
 

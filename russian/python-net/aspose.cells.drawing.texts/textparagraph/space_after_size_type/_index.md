@@ -1,4 +1,4 @@
-﻿---
+---
 title: space_after_size_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

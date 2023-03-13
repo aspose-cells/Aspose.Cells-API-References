@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_input_range méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

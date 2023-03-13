@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICellsDataTable индексатор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 ###  Индексатор
 | Имя| Описание|
 | :- | :- |
-| index |Отсчитываемый от нуля индекс столбца.|
+| index | Отсчитываемый от нуля индекс столбца.|
 
 
 

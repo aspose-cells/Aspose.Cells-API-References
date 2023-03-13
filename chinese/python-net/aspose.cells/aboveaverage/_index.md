@@ -1,4 +1,4 @@
-﻿---
+---
 title: AboveAverage类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells/aboveaverage/
 is_root: false
 ---
-##  AboveAverage类
+## AboveAverage类
 描述 AboveAverage 条件格式规则。
 此条件格式规则突出显示单元格
 高于或低于范围内所有值的平均值。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsHelper класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [significant_digits](/cells/ru/python-net/aspose.cells/cellshelper/significant_digits) | Получает и задает количество значащих цифр.<br/> Значение по умолчанию — 17.|
 | [dpi](/cells/ru/python-net/aspose.cells/cellshelper/dpi) | Получает DPI машины.|
-| [startup_path](/cells/ru/python-net/aspose.cells/cellshelper/startup_path) | Получает или задает путь запуска, на который ссылаются некоторые внешние ссылки на формулы.|
+| [startup_path](/cells/ru/python-net/aspose.cells/cellshelper/startup_path) |Получает или задает путь запуска, на который ссылаются некоторые внешние ссылки на формулы.|
 | [alt_start_path](/cells/ru/python-net/aspose.cells/cellshelper/alt_start_path) | Получает или задает альтернативный путь запуска, на который ссылаются некоторые внешние ссылки на формулы.|
 | [library_path](/cells/ru/python-net/aspose.cells/cellshelper/library_path) | Получает или задает путь к библиотеке, на который ссылаются некоторые внешние ссылки на формулы.|
 | [custom_implementation_factory](/cells/ru/python-net/aspose.cells/cellshelper/custom_implementation_factory) | Получает или задает фабрику для создания экземпляров со специальной реализацией.|
@@ -36,7 +36,7 @@ is_root: false
 | [cell_name_to_index(cell_name, row, column)](/cells/ru/python-net/aspose.cells/cellshelper/cell_name_to_index/#str-any-any) | Получает индексы строки и столбца ячейки в соответствии с ее именем.|
 | [cell_index_to_name(row, column)](/cells/ru/python-net/aspose.cells/cellshelper/cell_index_to_name/#int-int) | Получает имя ячейки в соответствии с ее индексами строки и столбца.|
 | [column_index_to_name(column)](/cells/ru/python-net/aspose.cells/cellshelper/column_index_to_name/#int) | Получает имя столбца по индексу столбца.|
-| [column_name_to_index(column_name)](/cells/ru/python-net/aspose.cells/cellshelper/column_name_to_index/#str) | Получает индекс столбца в соответствии с именем столбца.|
+| [column_name_to_index(column_name)](/cells/ru/python-net/aspose.cells/cellshelper/column_name_to_index/#str) |Получает индекс столбца в соответствии с именем столбца.|
 | [row_index_to_name(row)](/cells/ru/python-net/aspose.cells/cellshelper/row_index_to_name/#int) | Получает имя строки в соответствии с индексом строки.|
 | [row_name_to_index(row_name)](/cells/ru/python-net/aspose.cells/cellshelper/row_name_to_index/#str) | Получает индекс строки в соответствии с именем строки.|
 | [convert_r1c1_formula_to_a1(r_1c1_formula, row, column)](/cells/ru/python-net/aspose.cells/cellshelper/convert_r1c1_formula_to_a1/#str-int-int) | Преобразует формулу r1c1 ячейки в формулу A1.|
@@ -46,7 +46,7 @@ is_root: false
 | [get_used_colors(workbook)](/cells/ru/python-net/aspose.cells/cellshelper/get_used_colors/#Workbook) | Получает все используемые цвета в книге.|
 | [add_add_in_function(function, min_count_of_parameters, max_count_of_parameters, paramers_type, function_value_type)](/cells/ru/python-net/aspose.cells/cellshelper/add_add_in_function/#str-int-int-list-ParameterType) | Добавить функцию надстройки.|
 | [merge_files(files, cached_file, dest_file)](/cells/ru/python-net/aspose.cells/cellshelper/merge_files/#list-str-str) | Объединяет несколько больших файлов xls в файл xls.|
-| [init_for_dot_net_core()](/cells/ru/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) |Выполните инициализацию программы .NetCore.<br/> Мы предлагаем вам сначала вызывать этот метод для всех инициализаций .NetCore.<br/>Например:<br/>CellsHelper.InitForDotNetCore();<br/> Рабочая книга wb = новая рабочая книга();|
+| [init_for_dot_net_core()](/cells/ru/python-net/aspose.cells/cellshelper/init_for_dot_net_core/#) | Выполните инициализацию программы .NetCore.<br/> Мы предлагаем вам сначала вызывать этот метод для всех инициализаций .NetCore.<br/>Например:<br/>CellsHelper.InitForDotNetCore();<br/> Рабочая книга wb = новая рабочая книга();|
 
 
 

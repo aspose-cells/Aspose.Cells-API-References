@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlowEffect classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing/gloweffect/
 is_root: false
 ---
 ##  GlowEffect classe
- Cette classe spécifie un effet de lueur, dans lequel un contour flou de couleur
+Cette classe spécifie un effet de lueur, dans lequel un contour flou de couleur
 est ajouté à l'extérieur des bords de l'objet.
 
 

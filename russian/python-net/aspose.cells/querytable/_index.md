@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryTable класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [connection_id](/cells/ru/python-net/aspose.cells/querytable/connection_id) | Получает идентификатор соединения таблицы запросов.|
+| [connection_id](/cells/ru/python-net/aspose.cells/querytable/connection_id) |Получает идентификатор соединения таблицы запроса.|
 | [external_connection](/cells/ru/python-net/aspose.cells/querytable/external_connection) | Получает связанное внешнее соединение.|
 | [name](/cells/ru/python-net/aspose.cells/querytable/name) | Получает имя запрашиваемой таблицы.|
 | [result_range](/cells/ru/python-net/aspose.cells/querytable/result_range) | Получает диапазон результата.|

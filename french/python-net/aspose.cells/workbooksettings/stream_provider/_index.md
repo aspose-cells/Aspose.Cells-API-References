@@ -1,4 +1,4 @@
-﻿---
+---
 title: stream_provider propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient et définit le fournisseur de flux pour la ressource externe.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
 veuillez utiliser la propriété ResourceProvider.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: create_safe_sheet_name méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

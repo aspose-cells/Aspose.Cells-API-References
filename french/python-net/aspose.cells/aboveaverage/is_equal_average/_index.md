@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_equal_average propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -12,7 +12,7 @@ is_root: false
  Obtenir ou définir l'indicateur indiquant si les critères 'aboveAverage' et 'belowAverage'
  inclut la moyenne elle-même ou exclut cette valeur.
 true' indique d'inclure la valeur moyenne dans les critères.
-La valeur par défaut est faux.
+La valeur par défaut est false.
 ###  Définition:
 ```python
 @property

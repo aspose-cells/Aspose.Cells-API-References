@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.drawing.texts
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,21 +14,21 @@ is_root: false
 | :- | :- |
 | [AutoNumberedBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/autonumberedbulletvalue) | Représente une puce numérotée automatique.|
 | [Bullet](/cells/fr/python-net/aspose.cells.drawing.texts/bullet) | Représente la balle.|
-| [BulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/bulletvalue) | Représente la valeur de la puce.|
+| [BulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/bulletvalue) | Représente la valeur de la balle.|
 | [CharacterBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/characterbulletvalue) | Représente la puce de caractère.|
-| [FontSettingCollection](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection) | Représente la liste de [FontSetting](/cells/fr/python-net/aspose.cells/fontsetting).|
-| [NoneBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/nonebulletvalue) | Ne représente aucune puce.|
+| [FontSettingCollection](/cells/fr/python-net/aspose.cells.drawing.texts/fontsettingcollection) |Représente la liste de [FontSetting](/cells/fr/python-net/aspose.cells/fontsetting).|
+| [NoneBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/nonebulletvalue) | Ne représente aucune balle.|
 | [PictureBulletValue](/cells/fr/python-net/aspose.cells.drawing.texts/picturebulletvalue) | Représente la valeur de la puce de l'image.|
 | [ShapeTextAlignment](/cells/fr/python-net/aspose.cells.drawing.texts/shapetextalignment) | Représente le paramètre d'alignement du texte de la forme ;|
 | [TextOptions](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions) | Représente les options de texte.|
 | [TextParagraph](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraph) | Représente le paramètre de paragraphe de texte.|
-| [TextParagraphCollection](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraphcollection) |Représente tous les paragraphes de texte.|
+| [TextParagraphCollection](/cells/fr/python-net/aspose.cells.drawing.texts/textparagraphcollection) | Représente tous les paragraphes de texte.|
 | [TextTabStop](/cells/fr/python-net/aspose.cells.drawing.texts/texttabstop) | Représente le taquet de tabulation.|
 | [TextTabStopCollection](/cells/fr/python-net/aspose.cells.drawing.texts/texttabstopcollection) | Représente la liste de tous les taquets de tabulation.|
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
 | [BulletType](/cells/fr/python-net/aspose.cells.drawing.texts/bullettype) | Représente le type de balle.|
 | [LineSpaceSizeType](/cells/fr/python-net/aspose.cells.drawing.texts/linespacesizetype) | Représente le type d'unité de taille d'espacement de ligne.|

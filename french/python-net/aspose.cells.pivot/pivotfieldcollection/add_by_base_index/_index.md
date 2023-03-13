@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_by_base_index méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

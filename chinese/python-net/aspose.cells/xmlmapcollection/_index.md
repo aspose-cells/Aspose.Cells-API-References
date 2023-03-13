@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlMapCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1710
 url: /zh/python-net/aspose.cells/xmlmapcollection/
 is_root: false
 ---
-##  XmlMapCollection类
+## XmlMapCollection类
 表示 XmlMap 信息的 [XmlMap](/cells/zh/python-net/aspose.cells/xmlmap) 对象的集合。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlScriptSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 20
 url: /zh/python-net/aspose.cells.saving/sqlscriptsaveoptions/
 is_root: false
 ---
-##  SqlScriptSaveOptions类
+## SqlScriptSaveOptions类
 表示保存sql的选项。
 
 

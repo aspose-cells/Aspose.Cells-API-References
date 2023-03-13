@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_word_art propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

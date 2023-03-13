@@ -1,4 +1,4 @@
-﻿---
+---
 title: ThreeDFormat类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 720
 url: /zh/python-net/aspose.cells.drawing/threedformat/
 is_root: false
 ---
-##  ThreeDFormat类
+## ThreeDFormat类
 表示形状的三维格式。
 
 

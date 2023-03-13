@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_ole_object_with_linked_image方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

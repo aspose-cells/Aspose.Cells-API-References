@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionRenameSheet类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 170
 url: /zh/python-net/aspose.cells.revisions/revisionrenamesheet/
 is_root: false
 ---
-##  RevisionRenameSheet类
+## RevisionRenameSheet类
 表示重命名工作表的修订。
 
 

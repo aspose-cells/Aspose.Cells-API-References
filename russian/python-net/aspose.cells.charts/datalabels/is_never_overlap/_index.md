@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_never_overlap недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

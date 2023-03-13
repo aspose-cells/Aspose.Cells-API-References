@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_h_scroll_bar_visible propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

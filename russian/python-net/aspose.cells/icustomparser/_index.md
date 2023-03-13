@@ -1,4 +1,4 @@
-﻿---
+---
 title: ICustomParser класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Метод| Описание|
 | :- | :- |
 | [parse_object(value)](/cells/ru/python-net/aspose.cells/icustomparser/parse_object/#str) | Разбирает заданную строку на правильный объект значения.|
-| [get_format()](/cells/ru/python-net/aspose.cells/icustomparser/get_format/#) | Получает шаблон форматирования, соответствующий проанализированному значению при последнем вызове [ICustomParser.parse_object(value)](/cells/ru/python-net/aspose.cells/icustomparser/parse_object).|
+| [get_format()](/cells/ru/python-net/aspose.cells/icustomparser/get_format/#) |Получает шаблон форматирования, соответствующий проанализированному значению при последнем вызове [ICustomParser.parse_object(value)](/cells/ru/python-net/aspose.cells/icustomparser/parse_object).|
 
 
 

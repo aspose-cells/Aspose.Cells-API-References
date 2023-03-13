@@ -1,4 +1,4 @@
-﻿---
+---
 title: PaperSizeType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,27 +7,27 @@ weight: 2330
 url: /zh/python-net/aspose.cells/papersizetype/
 is_root: false
 ---
-##  PaperSizeType枚举
+## PaperSizeType枚举
 表示纸张大小常量。
 
 
 
 PaperSizeType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | PAPER_LETTER |信纸（8-1/2 英寸 x 11 英寸）|
-| PAPER_LETTER_SMALL |Letter Small（8-1/2 英寸 x 11 英寸）|
+| PAPER_LETTER_SMALL | Letter Small（8-1/2 英寸 x 11 英寸）|
 | PAPER_TABLOID |小报（11 英寸 x 17 英寸）|
 | PAPER_LEDGER |分类帐（17 英寸 x 11 英寸）|
 | PAPER_LEGAL |合法（8-1/2 英寸 x 14 英寸）|
 | PAPER_STATEMENT |报表（5-1/2 英寸 x 8-1/2 英寸）|
 | PAPER_EXECUTIVE |行政（7-1/4 英寸 x 10-1/2 英寸）|
-| PAPER_A3 |A3（297 毫米 x 420 毫米）|
-| PAPER_A4 |A4（210 毫米 x 297 毫米）|
+| PAPER_A3 | A3（297 毫米 x 420 毫米）|
+| PAPER_A4 | A4（210 毫米 x 297 毫米）|
 | PAPER_A4_SMALL | A4 小（210 毫米 x 297 毫米）|
-| PAPER_A5 |A5（148 毫米 x 210 毫米）|
+| PAPER_A5 | A5（148 毫米 x 210 毫米）|
 | PAPER_B4 | JIS B4（257 毫米 x 364 毫米）|
 | PAPER_B5 | JIS B5（182 毫米 x 257 毫米）|
 | PAPER_FOLIO |对开本（8-1/2 英寸 x 13 英寸）|
@@ -42,7 +42,7 @@ PaperSizeType 类型公开了以下成员：
 | PAPER_ENVELOPE14 | 14 号信封（5 英寸 x 11-1/2 英寸）|
 | PAPER_C_SHEET | C尺寸床单|
 | PAPER_D_SHEET |D尺寸床单|
-| PAPER_E_SHEET | E尺寸床单|
+| PAPER_E_SHEET |E尺寸床单|
 | PAPER_ENVELOPE_DL |信封 DL（110 毫米 x 220 毫米）|
 | PAPER_ENVELOPE_C5 |信封 C5（162 毫米 x 229 毫米）|
 | PAPER_ENVELOPE_C3 |信封 C3（324 毫米 x 458 毫米）|
@@ -67,21 +67,21 @@ PaperSizeType 类型公开了以下成员：
 | PAPER_LETTER_EXTRA | US Letter Extra 9 \275 x 12 英寸|
 | PAPER_LEGAL_EXTRA |US Legal Extra 9 \275 x 15 英寸|
 | PAPER_TABLOID_EXTRA |美国小报 11.69 x 18 英寸|
-| PAPER_A4_EXTRA | A4 特大 9.27 x 12.69 英寸|
+| PAPER_A4_EXTRA |A4 特大 9.27 x 12.69 英寸|
 | PAPER_LETTER_TRANSVERSE |Letter 横向 8 \275 x 11 英寸|
-| PAPER_A4_TRANSVERSE | A4 横向 210 x 297 毫米|
+| PAPER_A4_TRANSVERSE |A4 横向 210 x 297 毫米|
 | PAPER_LETTER_EXTRA_TRANSVERSE |Letter Extra Transverse 9\275 x 12 英寸|
-| PAPER_SUPER_A | SuperA/SuperA/A4 227 x 356 毫米|
+| PAPER_SUPER_A |SuperA/SuperA/A4 227 x 356 毫米|
 | PAPER_SUPER_B |SuperB/SuperB/A3 305 x 487 毫米|
 | PAPER_LETTER_PLUS |US Letter Plus 8.5 x 12.69 英寸|
 | PAPER_A4_PLUS |A4 加 210 x 330 毫米|
-| PAPER_A5_TRANSVERSE | A5 横向 148 x 210 毫米|
+| PAPER_A5_TRANSVERSE |A5 横向 148 x 210 毫米|
 | PAPER_JISB5_TRANSVERSE |B5 (JIS) 横向 182 x 257 毫米|
-| PAPER_A3_EXTRA | A3 超大 322 x 445 毫米|
-| PAPER_A5_EXTRA | A5 超大 174 x 235 毫米|
+| PAPER_A3_EXTRA |A3 超大 322 x 445 毫米|
+| PAPER_A5_EXTRA |A5 超大 174 x 235 毫米|
 | PAPER_ISOB5_EXTRA |B5 (ISO) 额外 201 x 276 毫米|
 | PAPER_A2 |A2 420 x 594 毫米|
-| PAPER_A3_TRANSVERSE | A3 横向 297 x 420 毫米|
+| PAPER_A3_TRANSVERSE |A3 横向 297 x 420 毫米|
 | PAPER_A3_EXTRA_TRANSVERSE |A3 超横向 322 x 445 毫米|
 | PAPER_JAPANESE_DOUBLE_POSTCARD |日本双面明信片 200 x 148 毫米|
 | PAPER_A6 |A6 105 x 148 毫米|
@@ -93,7 +93,7 @@ PaperSizeType 类型公开了以下成员：
 | PAPER_A3_ROTATED |420mm×297mm|
 | PAPER_A4_ROTATED | 297mm×210mm|
 | PAPER_A5_ROTATED | 210mm×148mm|
-| PAPER_JISB4_ROTATED |B4 (JIS) 旋转 364 x 257 毫米|
+| PAPER_JISB4_ROTATED | B4 (JIS) 旋转 364 x 257 毫米|
 | PAPER_JISB5_ROTATED |B5 (JIS) 旋转 257 x 182 毫米|
 | PAPER_JAPANESE_POSTCARD_ROTATED |日本明信片旋转 148 x 100 毫米|
 | PAPER_JAPANESE_DOUBLE_POSTCARD_ROTATED |双面日本明信片旋转 148 x 200 毫米|

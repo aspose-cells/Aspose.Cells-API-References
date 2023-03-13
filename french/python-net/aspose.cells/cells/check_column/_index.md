@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_column méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

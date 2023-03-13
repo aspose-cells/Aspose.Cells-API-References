@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_text_of_all méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

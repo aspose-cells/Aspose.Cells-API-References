@@ -1,4 +1,4 @@
-﻿---
+---
 title: background_refresh propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -10,7 +10,7 @@ is_root: false
 ##  background_refresh propriété
 
  Indique si la connexion peut être actualisée en arrière-plan (de manière asynchrone).
- true si l'utilisation préférée de la connexion consiste à actualiser de manière asynchrone en arrière-plan ;
+true si l'utilisation préférée de la connexion consiste à actualiser de manière asynchrone en arrière-plan ;
 false si l'utilisation préférée de la connexion consiste à actualiser de manière synchrone au premier plan.
 ###  Définition:
 ```python

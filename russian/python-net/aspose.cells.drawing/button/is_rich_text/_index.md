@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_rich_text недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

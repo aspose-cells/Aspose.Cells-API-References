@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConsolidationFunction枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1870
 url: /zh/python-net/aspose.cells/consolidationfunction/
 is_root: false
 ---
-##  ConsolidationFunction枚举
+## ConsolidationFunction枚举
 表示合并功能。
 
 
 
 ConsolidationFunction 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | SUM |表示 Sum 函数。|

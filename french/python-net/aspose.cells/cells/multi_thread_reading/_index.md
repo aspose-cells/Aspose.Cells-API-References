@@ -1,4 +1,4 @@
-﻿---
+---
 title: multi_thread_reading propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

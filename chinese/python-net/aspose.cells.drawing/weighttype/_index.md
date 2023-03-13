@@ -1,4 +1,4 @@
-﻿---
+---
 title: WeightType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1190
 url: /zh/python-net/aspose.cells.drawing/weighttype/
 is_root: false
 ---
-##  WeightType枚举
+## WeightType枚举
 枚举图片边框或图表线条的粗细类型。
 
 
 
 WeightType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | HAIR_LINE |表示发线的粗细。|

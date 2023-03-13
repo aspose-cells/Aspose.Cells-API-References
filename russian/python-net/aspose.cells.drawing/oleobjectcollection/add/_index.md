@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,8 +25,8 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
-| height | int |Высота oleObject в пикселях.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
+| height | int | Высота oleObject в пикселях.|
 | width | int | Ширина oleObject в пикселях.|
 | image_data | bytes | Изображение объекта ole в виде массива байтов.|
 
@@ -49,8 +49,8 @@ def add(self, upper_left_row, upper_left_column, height, width, image_data, link
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
-| height | int |Высота oleObject в пикселях.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
+| height | int | Высота oleObject в пикселях.|
 | width | int | Ширина oleObject в пикселях.|
 | image_data | bytes | Изображение объекта ole в виде массива байтов.|
 | linked_file | str |  |

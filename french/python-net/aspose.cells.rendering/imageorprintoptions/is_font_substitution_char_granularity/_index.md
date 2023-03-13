@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_font_substitution_char_granularity propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

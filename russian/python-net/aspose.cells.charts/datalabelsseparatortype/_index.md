@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabelsSeparatorType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ is_root: false
 | SPACE | Представляет пробел ("")|
 | COMMA | Представляет запятую ("",")|
 | SEMICOLON | Представляет точку с запятой (";")|
-| PERIOD | Представляет период ("".")|
+| PERIOD |Представляет период ("".")|
 | NEW_LINE | Представляет новую строку ("\n")|
 | CUSTOM | Представляет пользовательский разделитель|
 

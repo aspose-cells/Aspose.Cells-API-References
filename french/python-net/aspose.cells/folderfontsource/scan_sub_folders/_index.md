@@ -1,4 +1,4 @@
-﻿---
+---
 title: scan_sub_folders propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

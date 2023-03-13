@@ -1,4 +1,4 @@
-﻿---
+---
 title: chart_data_table недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

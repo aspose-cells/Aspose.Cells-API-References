@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.externalconnections
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,9 +22,9 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
-| [ConnectionDataSourceType](/cells/fr/python-net/aspose.cells.externalconnections/connectiondatasourcetype) | Spécifie le type de source de base de données externe|
+| [ConnectionDataSourceType](/cells/fr/python-net/aspose.cells.externalconnections/connectiondatasourcetype) |Spécifie le type de source de base de données externe|
 | [ConnectionParameterType](/cells/fr/python-net/aspose.cells.externalconnections/connectionparametertype) | Spécifie le type de paramètre de connexion externe|
 | [CredentialsMethodType](/cells/fr/python-net/aspose.cells.externalconnections/credentialsmethodtype) | Spécifie la méthode Credentials utilisée pour l'accès au serveur.|
 | [HtmlFormatHandlingType](/cells/fr/python-net/aspose.cells.externalconnections/htmlformathandlingtype) | Spécifie comment gérer le formatage à partir de la source HTML|

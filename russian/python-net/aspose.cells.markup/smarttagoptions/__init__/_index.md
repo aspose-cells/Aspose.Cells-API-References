@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:

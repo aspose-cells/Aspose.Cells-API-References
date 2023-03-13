@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraphCollection 索引器
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -13,7 +13,7 @@ is_root: false
 ### 索引器
 |名称|描述|
 | :- | :- |
-| index |指数。|
+| index |索引。|
 
 
 

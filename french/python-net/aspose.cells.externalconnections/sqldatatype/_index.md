@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlDataType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type SqlDataType expose les membres suivants :
 | SQL_BIT | bit sql|
 | SQL_TINY_INT | sql int minuscule|
 | SQL_BIG_INT | sql grand int|
-| SQL_LONG_VAR_BINARY | sql longue variable binaire|
+| SQL_LONG_VAR_BINARY |sql longue variable binaire|
 | SQL_VAR_BINARY | variable sql binaire|
 | SQL_BINARY | binaire sql|
 | SQL_LONG_VAR_CHAR | caractère variable long sql|
@@ -52,7 +52,7 @@ Le type SqlDataType expose les membres suivants :
 | SQL_INTERVAL_YEAR_TO_MONTH | intervalle sql d'une année à l'autre|
 | SQL_INTERVAL_DAY_TO_HOUR | sql intervalle jour en heure|
 | SQL_INTERVAL_DAY_TO_MINUTE | sql intervalle jour en minute|
-| SQL_INTERVAL_DAY_TO_SECOND |sql intervalle jour à seconde|
+| SQL_INTERVAL_DAY_TO_SECOND | sql intervalle jour à seconde|
 | SQL_INTERVAL_HOUR_TO_MINUTE | intervalle sql heure à minute|
 | SQL_INTERVAL_HOUR_TO_SECOND | intervalle sql heure en seconde|
 | SQL_INTERVAL_MINUTE_TO_SECOND | intervalle sql minute à seconde|

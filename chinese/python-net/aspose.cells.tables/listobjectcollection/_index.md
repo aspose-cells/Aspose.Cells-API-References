@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObjectCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.tables/listobjectcollection/
 is_root: false
 ---
-##  ListObjectCollection类
+## ListObjectCollection类
 表示工作表中 [ListObject](/cells/zh/python-net/aspose.cells.tables/listobject) 对象的集合。
 
 

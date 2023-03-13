@@ -1,4 +1,4 @@
-﻿---
+---
 title: enable_iterative_calculation недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

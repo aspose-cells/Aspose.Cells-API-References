@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionParameterType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 90
 url: /zh/python-net/aspose.cells.externalconnections/connectionparametertype/
 is_root: false
 ---
-##  ConnectionParameterType枚举
+## ConnectionParameterType枚举
 指定外部连接的参数类型
 
 
 
 ConnectionParameterType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CELL |每次刷新时从单元格中获取参数值。|

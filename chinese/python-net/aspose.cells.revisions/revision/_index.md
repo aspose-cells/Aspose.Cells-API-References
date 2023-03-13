@@ -1,4 +1,4 @@
-﻿---
+---
 title: Revision类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.revisions/revision/
 is_root: false
 ---
-##  Revision类
+## Revision类
 表示修订。
 
 

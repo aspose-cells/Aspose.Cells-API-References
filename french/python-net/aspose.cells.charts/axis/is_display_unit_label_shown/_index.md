@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_display_unit_label_shown propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

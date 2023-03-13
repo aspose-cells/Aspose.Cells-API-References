@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_theme_font метод
 second_title: Aspose.Cells for Python via .NET API
 description:

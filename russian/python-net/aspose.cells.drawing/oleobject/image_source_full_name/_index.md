@@ -1,4 +1,4 @@
-﻿---
+---
 title: image_source_full_name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

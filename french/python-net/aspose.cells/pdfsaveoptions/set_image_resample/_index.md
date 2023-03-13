@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_image_resample méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

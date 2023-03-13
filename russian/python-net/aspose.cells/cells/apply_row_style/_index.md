@@ -1,4 +1,4 @@
-﻿---
+---
 title: apply_row_style метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def apply_row_style(self, row, style, flag):
 | :- | :- | :- |
 | row | int | Индекс строки.|
 | style | [Style](/cells/ru/python-net/aspose.cells/style) | Объект стиля, который будет применен.|
-| flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) | Флаги, указывающие на применяемые свойства форматирования.|
+| flag | [StyleFlag](/cells/ru/python-net/aspose.cells/styleflag) |Флаги, указывающие на применяемые свойства форматирования.|
 
 
 

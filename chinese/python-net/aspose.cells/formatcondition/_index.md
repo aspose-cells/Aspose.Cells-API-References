@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatCondition类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 690
 url: /zh/python-net/aspose.cells/formatcondition/
 is_root: false
 ---
-##  FormatCondition类
+## FormatCondition类
 表示条件格式化条件。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextAlignmentType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type TextAlignmentType expose les membres suivants :
 | :- | :- |
 | GENERAL | Représente l'alignement général du texte.|
 | BOTTOM | Représente l'alignement du texte inférieur.|
-| CENTER |Représente l'alignement du texte centré.|
+| CENTER | Représente l'alignement du texte centré.|
 | CENTER_ACROSS | Représente le centre sur l'alignement du texte.|
 | DISTRIBUTED | Représente l'alignement de texte distribué.|
 | FILL | Représente l'alignement du texte de remplissage.|
@@ -27,7 +27,7 @@ Le type TextAlignmentType expose les membres suivants :
 | LEFT | Représente l'alignement du texte à gauche.|
 | RIGHT | Représente l'alignement du texte à droite.|
 | TOP | Représente l'alignement supérieur du texte.|
-| JUSTIFIED_LOW | Aligne le texte avec une longueur kashida ajustée pour le texte arabe.|
+| JUSTIFIED_LOW |Aligne le texte avec une longueur kashida ajustée pour le texte arabe.|
 | THAI_DISTRIBUTED | Distribue le texte thaï spécialement, car chaque caractère est traité comme un mot.|
 
 

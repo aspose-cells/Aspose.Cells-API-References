@@ -1,4 +1,4 @@
-﻿---
+---
 title: accept_all_revisions méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

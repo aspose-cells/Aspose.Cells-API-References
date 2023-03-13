@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_cell_coordinate недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

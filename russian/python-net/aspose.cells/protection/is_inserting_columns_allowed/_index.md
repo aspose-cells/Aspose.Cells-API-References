@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_inserting_columns_allowed недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,8 +13,8 @@ is_root: false
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
-используйте свойство Protection.AllowInsertingColumn.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ используйте свойство Protection.AllowInsertingColumn.
  Это свойство будет удалено через 12 месяцев, начиная с июня 2010 года.
 Aspose приносит извинения за возможные неудобства.
 ###  Определение:

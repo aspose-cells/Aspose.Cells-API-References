@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartArea classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -33,7 +33,7 @@ Le type ChartArea expose les membres suivants :
 | [background](/cells/fr/python-net/aspose.cells.charts/chartarea/background) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/chartarea/is_automatic_size) | Indique si le cadre du graphique est dimensionné automatiquement.|
 | [x](/cells/fr/python-net/aspose.cells.charts/chartarea/x) | Obtient ou obtient le décalage horizontal à partir de sa colonne d'angle supérieur gauche.|
-| [y](/cells/fr/python-net/aspose.cells.charts/chartarea/y) | Obtient ou obtient le décalage vertical à partir de sa ligne de coin supérieur gauche.|
+| [y](/cells/fr/python-net/aspose.cells.charts/chartarea/y) |Obtient ou obtient le décalage vertical à partir de sa ligne de coin supérieur gauche.|
 | [height](/cells/fr/python-net/aspose.cells.charts/chartarea/height) | Obtient ou définit le décalage vertical à partir de sa ligne du coin inférieur droit.|
 | [width](/cells/fr/python-net/aspose.cells.charts/chartarea/width) | Obtient ou définit le décalage horizontal à partir de sa colonne d'angle inférieur droit.|
 | [shadow](/cells/fr/python-net/aspose.cells.charts/chartarea/shadow) | Vrai si le cadre a une ombre.|

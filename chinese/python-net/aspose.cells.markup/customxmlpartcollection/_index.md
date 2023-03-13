@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomXmlPartCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 20
 url: /zh/python-net/aspose.cells.markup/customxmlpartcollection/
 is_root: false
 ---
-##  CustomXmlPartCollection类
+## CustomXmlPartCollection类
 表示自定义 XML 数据存储部件（包内的自定义 XML 数据）。
 
 

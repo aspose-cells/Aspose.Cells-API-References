@@ -1,4 +1,4 @@
-﻿---
+---
 title: assemble_document_permission недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

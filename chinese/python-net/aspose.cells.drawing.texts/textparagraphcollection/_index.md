@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraphCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 110
 url: /zh/python-net/aspose.cells.drawing.texts/textparagraphcollection/
 is_root: false
 ---
-##  TextParagraphCollection类
+## TextParagraphCollection类
 代表所有文本段落。
 
 
@@ -25,7 +25,7 @@ TextParagraphCollection 类型公开了以下成员：
 ### 索引器
 |名称|描述|
 | :- | :- |
-| [index] |指数。|
+| [index] |索引。|
 
 
 ### 方法

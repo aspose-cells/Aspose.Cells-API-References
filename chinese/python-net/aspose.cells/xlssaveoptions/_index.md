@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1650
 url: /zh/python-net/aspose.cells/xlssaveoptions/
 is_root: false
 ---
-##  XlsSaveOptions类
+## XlsSaveOptions类
 表示 Excel 97-2003 文件格式的保存选项：xls 和 xlt。
 
 

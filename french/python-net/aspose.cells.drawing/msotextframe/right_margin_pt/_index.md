@@ -1,4 +1,4 @@
-﻿---
+---
 title: right_margin_pt propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  right_margin_pt propriété
 
-Renvoie la marge de droite en unité de points
+Renvoie la marge de droite en unité de Points
 ###  Définition:
 ```python
 @property

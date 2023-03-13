@@ -1,4 +1,4 @@
-﻿---
+---
 title: PatternFill classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,10 +24,10 @@ Le type PatternFill expose les membres suivants :
 | :- | :- |
 | [pattern](/cells/fr/python-net/aspose.cells.drawing/patternfill/pattern) | Obtient ou définit le type de motif de remplissage|
 | [background_color](/cells/fr/python-net/aspose.cells.drawing/patternfill/background_color) | Obtient ou définit la couleur d'arrière-plan du [Area](/cells/fr/python-net/aspose.cells.drawing/area).|
-| [background_cells_color](/cells/fr/python-net/aspose.cells.drawing/patternfill/background_cells_color) | Obtient et définit l'objet [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor) de premier plan.|
+| [background_cells_color](/cells/fr/python-net/aspose.cells.drawing/patternfill/background_cells_color) |Obtient et définit l'objet [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor) de premier plan.|
 | [foreground_color](/cells/fr/python-net/aspose.cells.drawing/patternfill/foreground_color) | Obtient ou définit la couleur de premier plan.|
-| [foreground_cells_color](/cells/fr/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) | Obtient et définit l'objet [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor) de premier plan.|
-| [fore_transparency](/cells/fr/python-net/aspose.cells.drawing/patternfill/fore_transparency) |Obtient ou définit la transparence de la couleur de premier plan.|
+| [foreground_cells_color](/cells/fr/python-net/aspose.cells.drawing/patternfill/foreground_cells_color) |Obtient et définit l'objet [CellsColor](/cells/fr/python-net/aspose.cells/cellscolor) de premier plan.|
+| [fore_transparency](/cells/fr/python-net/aspose.cells.drawing/patternfill/fore_transparency) | Obtient ou définit la transparence de la couleur de premier plan.|
 | [back_transparency](/cells/fr/python-net/aspose.cells.drawing/patternfill/back_transparency) | Obtient ou définit la transparence de la couleur d'arrière-plan.|
 
 

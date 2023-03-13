@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type FilterType expose les membres suivants :
 | DYNAMIC_FILTER | Type de filtre dynamique.|
 | MULTIPLE_FILTERS | Lorsque plusieurs valeurs sont choisies pour filtrer, ou lorsqu'un groupe de valeurs de date est choisi pour filtrer,<br/> cet élément regroupe ces critères.|
 | ICON_FILTER | Filtrer par icône de mise en forme conditionnelle.|
-| TOP10 |Top 10 des filtres.|
+| TOP10 | Top 10 des filtres.|
 | NONE | Pas de filtre.|
 
 

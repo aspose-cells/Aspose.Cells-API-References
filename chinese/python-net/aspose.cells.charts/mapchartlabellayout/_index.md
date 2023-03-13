@@ -1,4 +1,4 @@
-﻿---
+---
 title: MapChartLabelLayout枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 550
 url: /zh/python-net/aspose.cells.charts/mapchartlabellayout/
 is_root: false
 ---
-##  MapChartLabelLayout枚举
+## MapChartLabelLayout枚举
 表示地图图表标签的布局。
 
 
 
 MapChartLabelLayout 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BEST_FIT_ONLY |只有最适合。|

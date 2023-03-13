@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_height_of_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:

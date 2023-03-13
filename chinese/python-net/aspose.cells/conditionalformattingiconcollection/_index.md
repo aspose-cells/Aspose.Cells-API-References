@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingIconCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 320
 url: /zh/python-net/aspose.cells/conditionalformattingiconcollection/
 is_root: false
 ---
-##  ConditionalFormattingIconCollection类
+## ConditionalFormattingIconCollection类
 表示 [ConditionalFormattingIcon](/cells/zh/python-net/aspose.cells/conditionalformattingicon) 个对象的集合。
 
 

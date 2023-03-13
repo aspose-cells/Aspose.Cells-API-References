@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_local_function_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:

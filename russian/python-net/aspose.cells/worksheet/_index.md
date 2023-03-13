@@ -1,4 +1,4 @@
-﻿---
+---
 title: Worksheet класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,8 +27,8 @@ is_root: false
 | [name](/cells/ru/python-net/aspose.cells/worksheet/name) | Получает или задает имя рабочего листа.|
 | [show_formulas](/cells/ru/python-net/aspose.cells/worksheet/show_formulas) | Указывает, отображать ли формулы или их результаты.|
 | [is_gridlines_visible](/cells/ru/python-net/aspose.cells/worksheet/is_gridlines_visible) | Получает или задает значение, указывающее, видны ли линии сетки. Значение по умолчанию — true.|
-| [is_row_column_headers_visible](/cells/ru/python-net/aspose.cells/worksheet/is_row_column_headers_visible) |Получает или задает значение, указывающее, будут ли на листе отображаться заголовки строк и столбцов.<br/> Значение по умолчанию верно.|
-| [pane_state](/cells/ru/python-net/aspose.cells/worksheet/pane_state) | Указывает, есть ли у панели горизонтальные или вертикальные разделения и зафиксированы ли эти разделения.|
+| [is_row_column_headers_visible](/cells/ru/python-net/aspose.cells/worksheet/is_row_column_headers_visible) | Получает или задает значение, указывающее, будут ли на листе отображаться заголовки строк и столбцов.<br/> Значение по умолчанию верно.|
+| [pane_state](/cells/ru/python-net/aspose.cells/worksheet/pane_state) |Указывает, есть ли у панели горизонтальные или вертикальные разделения и зафиксированы ли эти разделения.|
 | [display_zeros](/cells/ru/python-net/aspose.cells/worksheet/display_zeros) | Истинно, если отображаются нулевые значения.|
 | [display_right_to_left](/cells/ru/python-net/aspose.cells/worksheet/display_right_to_left) | Указывает, отображается ли указанный рабочий лист справа налево, а не слева направо.<br/> Значение по умолчанию — ложь.|
 | [is_outline_shown](/cells/ru/python-net/aspose.cells/worksheet/is_outline_shown) | Указывает, показывать ли контур.|
@@ -46,12 +46,12 @@ is_root: false
 | [visibility_type](/cells/ru/python-net/aspose.cells/worksheet/visibility_type) | Указывает видимое состояние для этого листа.|
 | [is_visible](/cells/ru/python-net/aspose.cells/worksheet/is_visible) | Указывает, виден ли рабочий лист.|
 | [sparkline_group_collection](/cells/ru/python-net/aspose.cells/worksheet/sparkline_group_collection) | Получает коллекцию групп спарклайнов на листе.|
-| [sparkline_groups](/cells/ru/python-net/aspose.cells/worksheet/sparkline_groups) | Получает группы спарклайнов на листе.|
+| [sparkline_groups](/cells/ru/python-net/aspose.cells/worksheet/sparkline_groups) |Получает группы спарклайнов на листе.|
 | [charts](/cells/ru/python-net/aspose.cells/worksheet/charts) | Получает коллекцию [Chart](/cells/ru/python-net/aspose.cells.charts/chart)|
 | [comments](/cells/ru/python-net/aspose.cells/worksheet/comments) | Получает коллекцию [Comment](/cells/ru/python-net/aspose.cells/comment).|
-| [pictures](/cells/ru/python-net/aspose.cells/worksheet/pictures) |Получает коллекцию [Picture](/cells/ru/python-net/aspose.cells.drawing/picture).|
-| [text_boxes](/cells/ru/python-net/aspose.cells/worksheet/text_boxes) |Получает коллекцию [TextBox](/cells/ru/python-net/aspose.cells.drawing/textbox).|
-| [check_boxes](/cells/ru/python-net/aspose.cells/worksheet/check_boxes) |Получает коллекцию [CheckBox](/cells/ru/python-net/aspose.cells.drawing/checkbox).|
+| [pictures](/cells/ru/python-net/aspose.cells/worksheet/pictures) | Получает коллекцию [Picture](/cells/ru/python-net/aspose.cells.drawing/picture).|
+| [text_boxes](/cells/ru/python-net/aspose.cells/worksheet/text_boxes) | Получает коллекцию [TextBox](/cells/ru/python-net/aspose.cells.drawing/textbox).|
+| [check_boxes](/cells/ru/python-net/aspose.cells/worksheet/check_boxes) | Получает коллекцию [CheckBox](/cells/ru/python-net/aspose.cells.drawing/checkbox).|
 | [ole_objects](/cells/ru/python-net/aspose.cells/worksheet/ole_objects) | Представляет коллекцию [OleObject](/cells/ru/python-net/aspose.cells.drawing/oleobject) на листе.|
 | [shapes](/cells/ru/python-net/aspose.cells/worksheet/shapes) | Возвращает все фигуры чертежа на этом листе.|
 | [slicers](/cells/ru/python-net/aspose.cells/worksheet/slicers) | Получите коллекцию Slicer на листе|
@@ -101,10 +101,10 @@ is_root: false
 | [auto_fit_rows()](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows/#) | Автоподбор всех строк на этом листе.|
 | [auto_fit_rows(only_auto)](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows/#bool) | Автоподбор всех строк на этом листе.|
 | [auto_fit_rows(options)](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows/#AutoFitterOptions) | Автоподбор всех строк на этом листе.|
-| [auto_fit_rows(start_row, end_row)](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows/#int-int) | Автоподбор высоты строки в диапазоне.|
-| [auto_fit_rows(start_row, end_row, options)](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows/#int-int-AutoFitterOptions) | Автоподбор высоты строки в диапазоне.|
-| [protect(type)](/cells/ru/python-net/aspose.cells/worksheet/protect/#ProtectionType) |Защищает рабочий лист.|
-| [protect(type, password, old_password)](/cells/ru/python-net/aspose.cells/worksheet/protect/#ProtectionType-str-str) |Защищает рабочий лист.|
+| [auto_fit_rows(start_row, end_row)](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows/#int-int) |Автоподбор высоты строки в диапазоне.|
+| [auto_fit_rows(start_row, end_row, options)](/cells/ru/python-net/aspose.cells/worksheet/auto_fit_rows/#int-int-AutoFitterOptions) |Автоподбор высоты строки в диапазоне.|
+| [protect(type)](/cells/ru/python-net/aspose.cells/worksheet/protect/#ProtectionType) | Защищает рабочий лист.|
+| [protect(type, password, old_password)](/cells/ru/python-net/aspose.cells/worksheet/protect/#ProtectionType-str-str) | Защищает рабочий лист.|
 | [unprotect()](/cells/ru/python-net/aspose.cells/worksheet/unprotect/#) | Снимает защиту с листа.|
 | [unprotect(password)](/cells/ru/python-net/aspose.cells/worksheet/unprotect/#str) | Снимает защиту с листа.|
 | [calculate_formula(formula)](/cells/ru/python-net/aspose.cells/worksheet/calculate_formula/#str) | Вычисляет формулу.|
@@ -117,7 +117,7 @@ is_root: false
 | [un_freeze_panes()](/cells/ru/python-net/aspose.cells/worksheet/un_freeze_panes/#) | Размораживает панели на листе.|
 | [remove_split()](/cells/ru/python-net/aspose.cells/worksheet/remove_split/#) | Удаляет разделенное окно.|
 | [add_page_breaks(cell_name)](/cells/ru/python-net/aspose.cells/worksheet/add_page_breaks/#str) | Добавляет разрыв страницы.|
-| [advanced_filter(is_filter, list_range, criteria_range, copy_to, unique_record_only)](/cells/ru/python-net/aspose.cells/worksheet/advanced_filter/#bool-str-str-str-bool) |Фильтрует данные по сложным критериям.|
+| [advanced_filter(is_filter, list_range, criteria_range, copy_to, unique_record_only)](/cells/ru/python-net/aspose.cells/worksheet/advanced_filter/#bool-str-str-str-bool) | Фильтрует данные по сложным критериям.|
 | [remove_auto_filter()](/cells/ru/python-net/aspose.cells/worksheet/remove_auto_filter/#) | Удаляет автоматический фильтр рабочего листа.|
 | [set_visible(is_visible, ignore_error)](/cells/ru/python-net/aspose.cells/worksheet/set_visible/#bool-bool) | Устанавливает видимые параметры.|
 | [select_range(start_row, start_column, total_rows, total_columns, remove_others)](/cells/ru/python-net/aspose.cells/worksheet/select_range/#int-int-int-int-bool) | Выбирает диапазон.|
@@ -127,10 +127,10 @@ is_root: false
 | [replace(old_string, new_string)](/cells/ru/python-net/aspose.cells/worksheet/replace/#str-str) | Заменяет текст всех ячеек новой строкой.|
 | [get_selected_ranges()](/cells/ru/python-net/aspose.cells/worksheet/get_selected_ranges/#) | Получает выбранные диапазоны ячеек в электронной таблице конструктора.|
 | [set_background(picture_data)](/cells/ru/python-net/aspose.cells/worksheet/set_background/#bytes) | Устанавливает фоновое изображение рабочего листа.|
-| [get_printing_page_breaks(options)](/cells/ru/python-net/aspose.cells/worksheet/get_printing_page_breaks/#aspose.cells.rendering.ImageOrPrintOptions) |Получает автоматические разрывы страниц.|
+| [get_printing_page_breaks(options)](/cells/ru/python-net/aspose.cells/worksheet/get_printing_page_breaks/#aspose.cells.rendering.ImageOrPrintOptions) | Получает автоматические разрывы страниц.|
 | [start_access_cache(opts)](/cells/ru/python-net/aspose.cells/worksheet/start_access_cache/#AccessCacheOptions) | Запускает сеанс, использующий кэши для доступа к данным на этом листе.|
-| [close_access_cache(opts)](/cells/ru/python-net/aspose.cells/worksheet/close_access_cache/#AccessCacheOptions) | Закрывает сеанс, использующий кэши для доступа к данным на этом листе.|
-| [xml_map_query(path, xml_map)](/cells/ru/python-net/aspose.cells/worksheet/xml_map_query/#str-XmlMap) |Области ячеек запроса, которые сопоставлены/связаны с определенным путем карты xml.|
+| [close_access_cache(opts)](/cells/ru/python-net/aspose.cells/worksheet/close_access_cache/#AccessCacheOptions) |Закрывает сеанс, использующий кэши для доступа к данным на этом листе.|
+| [xml_map_query(path, xml_map)](/cells/ru/python-net/aspose.cells/worksheet/xml_map_query/#str-XmlMap) | Области ячеек запроса, которые сопоставлены/связаны с определенным путем карты xml.|
 | [refresh_pivot_tables()](/cells/ru/python-net/aspose.cells/worksheet/refresh_pivot_tables/#) | Обновляет все сводные таблицы на этом листе.|
 
 

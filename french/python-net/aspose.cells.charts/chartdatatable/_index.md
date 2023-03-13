@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartDataTable classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,10 +21,10 @@ Le type ChartDataTable expose les membres suivants :
 | [auto_scale_font](/cells/fr/python-net/aspose.cells.charts/chartdatatable/auto_scale_font) | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change.<br/> La valeur par défaut est Vrai.|
 | [background_mode](/cells/fr/python-net/aspose.cells.charts/chartdatatable/background_mode) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [background](/cells/fr/python-net/aspose.cells.charts/chartdatatable/background) | Obtient et définit le mode d'affichage de l'arrière-plan|
-| [has_border_horizontal](/cells/fr/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) | True si la table de données du graphique a des bordures de cellule horizontales|
+| [has_border_horizontal](/cells/fr/python-net/aspose.cells.charts/chartdatatable/has_border_horizontal) |True si la table de données du graphique a des bordures de cellule horizontales|
 | [has_border_vertical](/cells/fr/python-net/aspose.cells.charts/chartdatatable/has_border_vertical) | True si la table de données du graphique comporte des bordures de cellule verticales|
 | [has_border_outline](/cells/fr/python-net/aspose.cells.charts/chartdatatable/has_border_outline) | True si la table de données du graphique a des bordures de contour|
-| [show_legend_key](/cells/fr/python-net/aspose.cells.charts/chartdatatable/show_legend_key) |True si la clé de légende de l'étiquette de données est visible.|
+| [show_legend_key](/cells/fr/python-net/aspose.cells.charts/chartdatatable/show_legend_key) | True si la clé de légende de l'étiquette de données est visible.|
 | [border](/cells/fr/python-net/aspose.cells.charts/chartdatatable/border) | Renvoie un objet Border qui représente la bordure de l'objet|
 
 

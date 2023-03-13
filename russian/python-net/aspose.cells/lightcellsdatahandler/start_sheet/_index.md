@@ -1,4 +1,4 @@
-﻿---
+---
 title: start_sheet метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def start_sheet(self, sheet):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) |рабочий лист для чтения данных ячеек.|
+| sheet | [Worksheet](/cells/ru/python-net/aspose.cells/worksheet) | рабочий лист для чтения данных ячеек.|
 ###  Примечания
 
 Он будет вызываться перед чтением данных ячеек рабочего листа.

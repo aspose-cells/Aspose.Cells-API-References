@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_encryption_options метод
 second_title: Aspose.Cells for Python via .NET API
 description:

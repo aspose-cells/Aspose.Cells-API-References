@@ -1,4 +1,4 @@
-﻿---
+---
 title: SignatureLine类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 640
 url: /zh/python-net/aspose.cells.drawing/signatureline/
 is_root: false
 ---
-##  SignatureLine类
+## SignatureLine类
 代表签名行。
 
 

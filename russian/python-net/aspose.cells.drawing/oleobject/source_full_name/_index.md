@@ -1,4 +1,4 @@
-﻿---
+---
 title: source_full_name недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
 используйте свойство OleObject.ObjectSourceFullName.
  Этот ресурс будет удален через 12 месяцев, начиная с ноября 2013 года.
 Aspose приносит извинения за возможные неудобства.

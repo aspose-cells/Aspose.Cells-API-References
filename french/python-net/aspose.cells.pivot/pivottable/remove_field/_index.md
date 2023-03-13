@@ -1,4 +1,4 @@
-﻿---
+---
 title: remove_field méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ def remove_field(self, field_type, field_name):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | field_type | [PivotFieldType](/cells/fr/python-net/aspose.cells.pivot/pivotfieldtype) | Le type de zone des champs.|
-| field_name | str |Le nom dans les champs de base.|
+| field_name | str | Le nom dans les champs de base.|
 
 
 ##  remove_field(field_type, base_field_index) {#PivotFieldType-int}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Name classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -32,8 +32,8 @@ Le type Name expose les membres suivants :
 | :- | :- |
 | [get_refers_to(is_r1c1, is_local)](/cells/fr/python-net/aspose.cells/name/get_refers_to/#bool-bool) | Obtenir la référence de ce Nom.|
 | [get_refers_to(is_r1c1, is_local, row, column)](/cells/fr/python-net/aspose.cells/name/get_refers_to/#bool-bool-int-int) | Obtenez la référence de ce nom en fonction de la cellule spécifiée.|
-| [get_ranges()](/cells/fr/python-net/aspose.cells/name/get_ranges/#) | Obtient toutes les plages référencées par ce nom.|
-| [get_ranges(recalculate)](/cells/fr/python-net/aspose.cells/name/get_ranges/#bool) | Obtient toutes les plages référencées par ce nom.|
+| [get_ranges()](/cells/fr/python-net/aspose.cells/name/get_ranges/#) |Obtient toutes les plages référencées par ce nom.|
+| [get_ranges(recalculate)](/cells/fr/python-net/aspose.cells/name/get_ranges/#bool) |Obtient toutes les plages référencées par ce nom.|
 | [get_range()](/cells/fr/python-net/aspose.cells/name/get_range/#) | Obtient la plage si ce nom fait référence à une plage.|
 | [get_range(recalculate)](/cells/fr/python-net/aspose.cells/name/get_range/#bool) | Obtient la plage si ce nom fait référence à une plage|
 | [get_range(sheet_index, row, column)](/cells/fr/python-net/aspose.cells/name/get_range/#int-int-int) | Obtient la plage si ce nom fait référence à une plage.<br/> Si la référence de ce nom n'est pas absolue, la plage peut être différente pour différentes cellules.|

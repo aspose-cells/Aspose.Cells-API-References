@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotTable类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 100
 url: /zh/python-net/aspose.cells.pivot/pivottable/
 is_root: false
 ---
-##  PivotTable类
+## PivotTable类
 PivotTable 的摘要说明。
 
 

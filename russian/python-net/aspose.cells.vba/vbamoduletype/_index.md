@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaModuleType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | PROCEDURAL | Представляет процедурный модуль.|
-| DOCUMENT |Представляет модуль документа.|
+| DOCUMENT | Представляет модуль документа.|
 | CLASS | Представляет модуль класса.|
 | DESIGNER | Представляет модуль конструктора.|
 

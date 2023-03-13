@@ -1,4 +1,4 @@
-﻿---
+---
 title: format méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,9 +20,9 @@ def format(self, row, column, style):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| row | int |Index de ligne de la cellule|
+| row | int | Index de ligne de la cellule|
 | column | int | Indice de colonne de la cellule|
-| style | [Style](/cells/fr/python-net/aspose.cells/style) | Style qui consiste à formater la cellule|
+| style | [Style](/cells/fr/python-net/aspose.cells/style) |Style qui consiste à formater la cellule|
 
 
 

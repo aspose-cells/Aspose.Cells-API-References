@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSetting类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 670
 url: /zh/python-net/aspose.cells/fontsetting/
 is_root: false
 ---
-##  FontSetting类
+## FontSetting类
 表示单元格文本中的一系列字符。
 
 

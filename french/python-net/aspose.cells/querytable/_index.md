@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryTable classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type QueryTable expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [connection_id](/cells/fr/python-net/aspose.cells/querytable/connection_id) | Obtient l'ID de connexion de la table de requête.|
+| [connection_id](/cells/fr/python-net/aspose.cells/querytable/connection_id) |Obtient l'ID de connexion de la table de requête.|
 | [external_connection](/cells/fr/python-net/aspose.cells/querytable/external_connection) | Obtient la connexion externe associée.|
 | [name](/cells/fr/python-net/aspose.cells/querytable/name) | Obtient le nom de la table de requête.|
 | [result_range](/cells/fr/python-net/aspose.cells/querytable/result_range) | Obtient la plage du résultat.|

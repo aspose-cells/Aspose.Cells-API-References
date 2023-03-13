@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomDocumentPropertyCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.properties/customdocumentpropertycollection/
 is_root: false
 ---
-##  CustomDocumentPropertyCollection类
+## CustomDocumentPropertyCollection类
 自定义文档属性的集合。
 
 

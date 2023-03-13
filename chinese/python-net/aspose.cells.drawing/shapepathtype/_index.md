@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePathType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1160
 url: /zh/python-net/aspose.cells.drawing/shapepathtype/
 is_root: false
 ---
-##  ShapePathType枚举
+## ShapePathType枚举
 表示路径段类型。
 
 
 
 ShapePathType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | LINE_TO |直线段|

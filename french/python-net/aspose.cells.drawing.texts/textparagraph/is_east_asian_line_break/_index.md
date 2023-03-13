@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_east_asian_line_break propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

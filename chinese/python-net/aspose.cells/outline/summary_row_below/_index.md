@@ -1,4 +1,4 @@
-﻿---
+---
 title: summary_row_below 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SelectionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type SelectionType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | SINGLE | Type de sélection unique.|
-| MULTI | Type de sélection multiple.|
+| MULTI |Type de sélection multiple.|
 | EXTEND | Étendre le type de sélection.|
 
 

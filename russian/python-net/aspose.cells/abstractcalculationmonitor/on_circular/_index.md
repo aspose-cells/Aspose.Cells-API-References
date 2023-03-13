@@ -1,4 +1,4 @@
-﻿---
+---
 title: on_circular метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ def on_circular(self, circular_cells_data):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| circular_cells_data | collections.abc.Iterator |IEnumerator с элементами CalculationCell, представляющими ячейки, которые<br/> зависят от циклических ссылок.|
+| circular_cells_data | collections.abc.Iterator | IEnumerator с элементами CalculationCell, представляющими ячейки, которые<br/> зависят от циклических ссылок.|
 ###  Примечания
 
 В реализации пользователь также может установить ожидаемое значение как вычисленный результат.

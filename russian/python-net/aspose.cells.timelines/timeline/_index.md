@@ -1,4 +1,4 @@
-﻿---
+---
 title: Timeline класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,8 +18,8 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [caption](/cells/ru/python-net/aspose.cells.timelines/timeline/caption) |Возвращает или задает заголовок указанной временной шкалы.|
-| [name](/cells/ru/python-net/aspose.cells.timelines/timeline/name) | Возвращает или задает имя указанной временной шкалы|
+| [caption](/cells/ru/python-net/aspose.cells.timelines/timeline/caption) | Возвращает или задает заголовок указанной временной шкалы.|
+| [name](/cells/ru/python-net/aspose.cells.timelines/timeline/name) |Возвращает или задает имя указанной временной шкалы|
 | [left_pixel](/cells/ru/python-net/aspose.cells.timelines/timeline/left_pixel) | Возвращает или задает смещение формы временной шкалы по горизонтали от ее левого столбца в пикселях.|
 | [top_pixel](/cells/ru/python-net/aspose.cells.timelines/timeline/top_pixel) | Возвращает или задает вертикальное смещение формы временной шкалы от ее верхней строки в пикселях.|
 | [width_pixel](/cells/ru/python-net/aspose.cells.timelines/timeline/width_pixel) | Возвращает или задает ширину указанной временной шкалы в пикселях.|

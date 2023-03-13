@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomFilterCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 380
 url: /zh/python-net/aspose.cells/customfiltercollection/
 is_root: false
 ---
-##  CustomFilterCollection类
+## CustomFilterCollection类
 表示自定义筛选器。
 
 

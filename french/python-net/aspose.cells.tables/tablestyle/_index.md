@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyle classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type TableStyle expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [name](/cells/fr/python-net/aspose.cells.tables/tablestyle/name) |Obtient le nom du style de tableau.|
+| [name](/cells/fr/python-net/aspose.cells.tables/tablestyle/name) | Obtient le nom du style de tableau.|
 | [table_style_elements](/cells/fr/python-net/aspose.cells.tables/tablestyle/table_style_elements) | Obtient tous les éléments du style de tableau.|
 
 

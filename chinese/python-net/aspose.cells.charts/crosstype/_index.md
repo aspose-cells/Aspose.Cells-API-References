@@ -1,4 +1,4 @@
-﻿---
+---
 title: CrossType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 460
 url: /zh/python-net/aspose.cells.charts/crosstype/
 is_root: false
 ---
-##  CrossType枚举
+## CrossType枚举
 表示轴交叉类型。
 
 
 
 CrossType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | AUTOMATIC | Microsoft Excel 设置轴交叉点。|

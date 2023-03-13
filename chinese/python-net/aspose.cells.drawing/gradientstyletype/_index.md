@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientStyleType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 890
 url: /zh/python-net/aspose.cells.drawing/gradientstyletype/
 is_root: false
 ---
-##  GradientStyleType枚举
+## GradientStyleType枚举
 表示渐变着色样式。
 
 
 
 GradientStyleType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DIAGONAL_DOWN |对角向下阴影样式|

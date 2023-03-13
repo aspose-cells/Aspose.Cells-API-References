@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextStrikeType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| SINGLE | Текст зачеркнут один раз.|
+| SINGLE |Текст зачеркнут один раз.|
 | DOUBLE | Двойное зачеркивание применено к тексту.|
 | NONE | Страйк к тексту не применяется.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellArea classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,7 +25,7 @@ Le type CellArea expose les membres suivants :
 | :- | :- |
 | [start_row](/cells/fr/python-net/aspose.cells/cellarea/start_row) | Obtient ou définit la ligne de début de cette zone.|
 | [end_row](/cells/fr/python-net/aspose.cells/cellarea/end_row) | Obtient ou définit la ligne de fin de cette zone.|
-| [start_column](/cells/fr/python-net/aspose.cells/cellarea/start_column) | Obtient ou définit la colonne de début de cette zone.|
+| [start_column](/cells/fr/python-net/aspose.cells/cellarea/start_column) |Obtient ou définit la colonne de début de cette zone.|
 | [end_column](/cells/fr/python-net/aspose.cells/cellarea/end_column) | Obtient ou définit la colonne de fin de cette zone.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_numeric_data propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

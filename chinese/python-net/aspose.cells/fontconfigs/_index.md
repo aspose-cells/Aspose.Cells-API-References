@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontConfigs类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 660
 url: /zh/python-net/aspose.cells/fontconfigs/
 is_root: false
 ---
-##  FontConfigs类
+## FontConfigs类
 指定字体设置
 
 

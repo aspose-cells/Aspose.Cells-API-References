@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_view_row_height méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

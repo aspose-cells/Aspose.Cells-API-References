@@ -1,4 +1,4 @@
-﻿---
+---
 title: ValidationCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1550
 url: /zh/python-net/aspose.cells/validationcollection/
 is_root: false
 ---
-##  ValidationCollection类
+## ValidationCollection类
 表示数据验证集合。
 
 

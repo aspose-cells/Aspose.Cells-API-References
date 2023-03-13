@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_copy метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,8 +26,8 @@ def add_copy(self, source_shape, upper_left_row, top, upper_left_column, left):
 | :- | :- | :- |
 | source_shape | [Shape](/cells/ru/python-net/aspose.cells.drawing/shape) | Исходная форма.|
 | upper_left_row | int | Индекс верхней левой строки.|
-| top | int | Представляет вертикальное смещение флажка от его левой строки в единицах пикселя.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| top | int |Представляет вертикальное смещение флажка от его левой строки в единицах пикселя.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение текстового поля от его левого столбца в пикселях.|
 
 ###  Пример

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,7 +23,7 @@ Le type SmartTagOptions expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [embed_smart_tags](/cells/fr/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) |Indique si les balises actives sont enregistrées avec le classeur.|
+| [embed_smart_tags](/cells/fr/python-net/aspose.cells.markup/smarttagoptions/embed_smart_tags) | Indique si les balises actives sont enregistrées avec le classeur.|
 | [show_type](/cells/fr/python-net/aspose.cells.markup/smarttagoptions/show_type) | Représente le type d'affichage de la balise active.|
 
 

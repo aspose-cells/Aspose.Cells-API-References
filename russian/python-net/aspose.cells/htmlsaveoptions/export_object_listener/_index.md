@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_object_listener недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

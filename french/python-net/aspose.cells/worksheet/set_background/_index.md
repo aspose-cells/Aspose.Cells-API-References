@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_background méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

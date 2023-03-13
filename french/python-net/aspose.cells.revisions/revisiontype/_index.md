@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,11 +21,11 @@ Le type RevisionType expose les membres suivants :
 | DEFINED_NAME | Nom défini.|
 | CHANGE_CELLS | Cells changer.|
 | AUTO_FORMAT | Format automatique.|
-| MERGE_CONFLICT |Conflit de fusion.|
+| MERGE_CONFLICT | Conflit de fusion.|
 | COMMENT | Commentaire.|
 | FORMAT | Format.|
 | INSERT_SHEET | Insérer une feuille de calcul.|
-| MOVE_CELLS | Déplacez les cellules.|
+| MOVE_CELLS |Déplacez les cellules.|
 | UNDO | Annuler.|
 | QUERY_TABLE | Tableau de requête.|
 | INSERT_DELETE | Insertion ou suppression.|

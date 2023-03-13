@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_image метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -37,7 +37,7 @@ def to_image(self, stream, options):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| stream | io.RawIOBase | Поток изображений.|
+| stream | io.RawIOBase | Поток изображения.|
 | options | aspose.cells.rendering.ImageOrPrintOptions | Варианты изображения.|
 
 

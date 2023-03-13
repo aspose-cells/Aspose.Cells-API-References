@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfBookmarkEntry класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -29,7 +29,7 @@ PdfBookmarkEntry — запись в закладке pdf.
 | [destination](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry/destination) | Ячейка, на которую ссылается закладка.|
 | [destination_name](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name) | Получает или задает имя места назначения.|
 | [sub_entry](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry/sub_entry) | SubEntry закладки.|
-| [is_open](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) | Когда это свойство имеет значение true, запись закладки будет расширяться, в противном случае она свернется.|
+| [is_open](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry/is_open) |Когда это свойство имеет значение true, запись закладки будет расширяться, в противном случае она свернется.|
 | [is_collapse](/cells/ru/python-net/aspose.cells.rendering/pdfbookmarkentry/is_collapse) | Когда это свойство имеет значение true, запись закладки свернется, в противном случае она расширится.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataModelConnection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.externalconnections/datamodelconnection/
 is_root: false
 ---
-##  DataModelConnection类
+## DataModelConnection类
 指定数据模型连接
 
 

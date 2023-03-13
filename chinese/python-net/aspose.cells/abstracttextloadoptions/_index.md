@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbstractTextLoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 60
 url: /zh/python-net/aspose.cells/abstracttextloadoptions/
 is_root: false
 ---
-##  AbstractTextLoadOptions类
+## AbstractTextLoadOptions类
 加载文本值的常用选项
 
 

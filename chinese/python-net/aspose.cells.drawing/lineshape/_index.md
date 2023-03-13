@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineShape类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 310
 url: /zh/python-net/aspose.cells.drawing/lineshape/
 is_root: false
 ---
-##  LineShape类
+## LineShape类
 表示线条形状。
 
 

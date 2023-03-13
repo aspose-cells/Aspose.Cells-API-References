@@ -1,4 +1,4 @@
-﻿---
+---
 title: threaded_comment_authors propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

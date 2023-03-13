@@ -1,4 +1,4 @@
-﻿---
+---
 title: DrawObject类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.rendering/drawobject/
 is_root: false
 ---
-##  DrawObject类
+## DrawObject类
 DrawObject会在渲染时初始化返回。
 
 

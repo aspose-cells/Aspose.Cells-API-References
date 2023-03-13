@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintErrorsType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2380
 url: /zh/python-net/aspose.cells/printerrorstype/
 is_root: false
 ---
-##  PrintErrorsType枚举
+## PrintErrorsType枚举
 表示打印错误常量。
 
 
 
 PrintErrorsType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | PRINT_ERRORS_BLANK |表示不打印错误。|

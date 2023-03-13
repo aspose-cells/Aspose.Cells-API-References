@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationCell类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 110
 url: /zh/python-net/aspose.cells/calculationcell/
 is_root: false
 ---
-##  CalculationCell类
+## CalculationCell类
 表示正在计算的一个单元格的计算相关数据。
 
 

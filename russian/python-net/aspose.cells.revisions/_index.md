@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.revisions
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,12 +19,12 @@ is_root: false
 | [RevisionCellMove](/cells/ru/python-net/aspose.cells.revisions/revisioncellmove) | Представляет запись ревизии перемещенных ячеек.|
 | [RevisionCollection](/cells/ru/python-net/aspose.cells.revisions/revisioncollection) | Представляет все журналы изменений.|
 | [RevisionCustomView](/cells/ru/python-net/aspose.cells.revisions/revisioncustomview) | Представляет запись ревизии о добавлении или удалении пользовательского представления в книгу.|
-| [RevisionDefinedName](/cells/ru/python-net/aspose.cells.revisions/revisiondefinedname) |Представляет запись редакции определенного изменения имени.|
+| [RevisionDefinedName](/cells/ru/python-net/aspose.cells.revisions/revisiondefinedname) | Представляет запись редакции определенного изменения имени.|
 | [RevisionFormat](/cells/ru/python-net/aspose.cells.revisions/revisionformat) | Представляет запись редакции сведений об изменении форматирования.|
 | [RevisionHeader](/cells/ru/python-net/aspose.cells.revisions/revisionheader) | Представляет список конкретных изменений, внесенных в эту книгу.|
 | [RevisionInsertDelete](/cells/ru/python-net/aspose.cells.revisions/revisioninsertdelete) | Представляет запись ревизии действия вставки/удаления строки/столбца.|
 | [RevisionInsertSheet](/cells/ru/python-net/aspose.cells.revisions/revisioninsertsheet) | Представляет запись редакции вставленного листа.|
-| [RevisionLog](/cells/ru/python-net/aspose.cells.revisions/revisionlog) | Представляет журнал изменений.|
+| [RevisionLog](/cells/ru/python-net/aspose.cells.revisions/revisionlog) |Представляет журнал изменений.|
 | [RevisionLogCollection](/cells/ru/python-net/aspose.cells.revisions/revisionlogcollection) | Представляет все журналы изменений.|
 | [RevisionMergeConflict](/cells/ru/python-net/aspose.cells.revisions/revisionmergeconflict) | Представляет запись редакции, указывающую на конфликт слияния.|
 | [RevisionQueryTable](/cells/ru/python-net/aspose.cells.revisions/revisionquerytable) | Представляет ревизию изменения поля таблицы запроса.|
@@ -32,7 +32,7 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [RevisionActionType](/cells/ru/python-net/aspose.cells.revisions/revisionactiontype) | Представляет тип действия редакции.|
 | [RevisionType](/cells/ru/python-net/aspose.cells.revisions/revisiontype) | Представляет тип редакции.|

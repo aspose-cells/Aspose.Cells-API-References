@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.numbers
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -16,8 +16,8 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
-| [LoadNumbersTableType](/cells/ru/python-net/aspose.cells.numbers/loadnumberstabletype) | Указывает тип загрузки таблиц, когда некоторые таблицы находятся на листе.|
+| [LoadNumbersTableType](/cells/ru/python-net/aspose.cells.numbers/loadnumberstabletype) |Указывает тип загрузки таблиц, когда некоторые таблицы находятся на листе.|
 
 

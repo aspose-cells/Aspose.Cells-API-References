@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_gradient méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ def set_gradient(self, type, angle, direction):
 | :- | :- | :- |
 | type | [GradientFillType](/cells/fr/python-net/aspose.cells.drawing/gradientfilltype) | Type de remplissage dégradé.|
 | angle | float | L'angle. S'applique uniquement à GradientFillType.Linear.|
-| direction | [GradientDirectionType](/cells/fr/python-net/aspose.cells.drawing/gradientdirectiontype) | Le type d'orientation. S'applique uniquement à GradientFillType.Radial et GradientFillType.Rectangle.|
+| direction | [GradientDirectionType](/cells/fr/python-net/aspose.cells.drawing/gradientdirectiontype) |Le type d'orientation. S'applique uniquement à GradientFillType.Radial et GradientFillType.Rectangle.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConditionalFormattingValueCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 350
 url: /zh/python-net/aspose.cells/conditionalformattingvaluecollection/
 is_root: false
 ---
-##  ConditionalFormattingValueCollection类
+## ConditionalFormattingValueCollection类
 描述 CFValueObject 的集合。
 仅用于图标集。
 

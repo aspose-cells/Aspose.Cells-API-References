@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_scroll_bar méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ def add_scroll_bar(self, upper_left_row, top, upper_left_column, left, height, w
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical de ScrollBar à partir de sa ligne de gauche, en unité de pixel.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal de ScrollBar par rapport à sa colonne de gauche, en unité de pixel.|
 | height | int | Représente la hauteur de ScrollBar, en unité de pixel.|
 | width | int | Représente la largeur de ScrollBar, en unité de pixel.|

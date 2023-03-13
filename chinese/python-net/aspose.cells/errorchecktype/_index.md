@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorCheckType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2010
 url: /zh/python-net/aspose.cells/errorchecktype/
 is_root: false
 ---
-##  ErrorCheckType枚举
+## ErrorCheckType枚举
 表示所有错误检查类型。
 
 
 
 ErrorCheckType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CALC |检查计算错误|

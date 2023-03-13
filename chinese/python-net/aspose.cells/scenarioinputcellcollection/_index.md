@@ -1,4 +1,4 @@
-﻿---
+---
 title: ScenarioInputCellCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1360
 url: /zh/python-net/aspose.cells/scenarioinputcellcollection/
 is_root: false
 ---
-##  ScenarioInputCellCollection类
+## ScenarioInputCellCollection类
 表示场景的输入单元列表。
 
 

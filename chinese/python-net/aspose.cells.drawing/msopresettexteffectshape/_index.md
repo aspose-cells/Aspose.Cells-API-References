@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoPresetTextEffectShape枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1040
 url: /zh/python-net/aspose.cells.drawing/msopresettexteffectshape/
 is_root: false
 ---
-##  MsoPresetTextEffectShape枚举
+## MsoPresetTextEffectShape枚举
 表示艺术字的预设文字效果形状类型。
 
 
 
 MsoPresetTextEffectShape 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | PLAIN_TEXT |纯文本|
@@ -36,8 +36,8 @@ MsoPresetTextEffectShape 类型公开了以下成员：
 | CURVE_UP |曲线向上|
 | CURVE_DOWN |向下曲线|
 | CAN_UP |CanUp|
-| CAN_DOWN |CanDown|
-| WAVE1 |Wave1|
+| CAN_DOWN | CanDown|
+| WAVE1 | Wave1|
 | WAVE2 | Wave2|
 | DOUBLE_WAVE1 |双波1|
 | DOUBLE_WAVE2 |双波2|

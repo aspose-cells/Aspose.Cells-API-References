@@ -1,4 +1,4 @@
-﻿---
+---
 title: attached_files_url_prefix propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

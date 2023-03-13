@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtLoadOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -41,9 +41,9 @@ Le type TxtLoadOptions expose les membres suivants :
 | [standard_font_size](/cells/fr/python-net/aspose.cells/txtloadoptions/standard_font_size) | Définit la taille de police standard par défaut.|
 | [interrupt_monitor](/cells/fr/python-net/aspose.cells/txtloadoptions/interrupt_monitor) | Obtient et définit le moniteur d'interruption.|
 | [ignore_not_printed](/cells/fr/python-net/aspose.cells/txtloadoptions/ignore_not_printed) | Ignorer les données qui ne sont pas imprimées en cas d'impression directe du fichier|
-| [check_data_valid](/cells/fr/python-net/aspose.cells/txtloadoptions/check_data_valid) | Vérifiez si les données sont valides dans le fichier modèle.|
+| [check_data_valid](/cells/fr/python-net/aspose.cells/txtloadoptions/check_data_valid) |Vérifiez si les données sont valides dans le fichier modèle.|
 | [check_excel_restriction](/cells/fr/python-net/aspose.cells/txtloadoptions/check_excel_restriction) | Si vérifier la restriction du fichier Excel lorsque l'utilisateur modifie les objets liés aux cellules.<br/>Par exemple, Excel n'autorise pas la saisie d'une valeur de chaîne supérieure à 32 Ko.<br/>Lorsque vous saisissez une valeur supérieure à 32 Ko, par exemple Cell.PutValue(string), si cette propriété est vraie, vous obtiendrez une exception.<br/>Si cette propriété est fausse, nous accepterons votre valeur de chaîne d'entrée comme valeur de la cellule afin que plus tard<br/>vous pouvez générer la valeur de chaîne complète pour d'autres formats de fichier tels que CSV.<br/>Cependant, si vous avez défini un type de valeur non valide pour le format de fichier Excel,<br/> vous ne devez pas enregistrer le classeur au format de fichier Excel ultérieurement. Sinon, il peut y avoir une erreur inattendue pour le fichier Excel généré.|
-| [keep_unparsed_data](/cells/fr/python-net/aspose.cells/txtloadoptions/keep_unparsed_data) |Indique si les données non analysées sont conservées en mémoire pour le classeur lorsqu'il est chargé à partir du fichier de modèle. La valeur par défaut est true.|
+| [keep_unparsed_data](/cells/fr/python-net/aspose.cells/txtloadoptions/keep_unparsed_data) | Indique si les données non analysées sont conservées en mémoire pour le classeur lorsqu'il est chargé à partir du fichier de modèle. La valeur par défaut est true.|
 | [load_filter](/cells/fr/python-net/aspose.cells/txtloadoptions/load_filter) | Le filtre pour indiquer comment charger les données.|
 | [light_cells_data_handler](/cells/fr/python-net/aspose.cells/txtloadoptions/light_cells_data_handler) | Le gestionnaire de données pour le traitement des données des cellules lors de la lecture du fichier de modèle.|
 | [memory_setting](/cells/fr/python-net/aspose.cells/txtloadoptions/memory_setting) | Obtient ou définit les options d'utilisation de la mémoire.|
@@ -56,15 +56,15 @@ Le type TxtLoadOptions expose les membres suivants :
 | [convert_numeric_data](/cells/fr/python-net/aspose.cells/txtloadoptions/convert_numeric_data) | Obtient ou définit une valeur qui indique si la chaîne du fichier texte est convertie en données numériques.|
 | [convert_date_time_data](/cells/fr/python-net/aspose.cells/txtloadoptions/convert_date_time_data) | Obtient ou définit une valeur qui indique si la chaîne du fichier texte est convertie en données de date.|
 | [keep_precision](/cells/fr/python-net/aspose.cells/txtloadoptions/keep_precision) | Indique si une valeur de chaîne n'est pas analysée si la longueur est de 15.|
-| [separator](/cells/fr/python-net/aspose.cells/txtloadoptions/separator) |Obtient et définit le séparateur de caractères du fichier texte.|
+| [separator](/cells/fr/python-net/aspose.cells/txtloadoptions/separator) | Obtient et définit le séparateur de caractères du fichier texte.|
 | [separator_string](/cells/fr/python-net/aspose.cells/txtloadoptions/separator_string) | Obtient et définit une valeur de chaîne comme séparateur.|
 | [is_multi_encoded](/cells/fr/python-net/aspose.cells/txtloadoptions/is_multi_encoded) | True signifie que le fichier contient plusieurs encodages.|
-| [preferred_parsers](/cells/fr/python-net/aspose.cells/txtloadoptions/preferred_parsers) | Obtient et définit les analyseurs de valeur préférés pour le chargement du fichier texte.|
+| [preferred_parsers](/cells/fr/python-net/aspose.cells/txtloadoptions/preferred_parsers) |Obtient et définit les analyseurs de valeur préférés pour le chargement du fichier texte.|
 | [has_formula](/cells/fr/python-net/aspose.cells/txtloadoptions/has_formula) | Indique si le texte est une formule s'il commence par "=".|
 | [has_text_qualifier](/cells/fr/python-net/aspose.cells/txtloadoptions/has_text_qualifier) | Indique s'il existe un qualificateur de texte pour la valeur de la cellule. La valeur par défaut est true.|
 | [text_qualifier](/cells/fr/python-net/aspose.cells/txtloadoptions/text_qualifier) | Spécifie le qualificateur de texte pour les valeurs de cellule. Le qualificateur par défaut est '"'.|
-| [treat_consecutive_delimiters_as_one](/cells/fr/python-net/aspose.cells/txtloadoptions/treat_consecutive_delimiters_as_one) |Indique si les délimiteurs consécutifs doivent être traités comme un seul.|
-| [treat_quote_prefix_as_value](/cells/fr/python-net/aspose.cells/txtloadoptions/treat_quote_prefix_as_value) |Indique si le guillemet simple de début doit être considéré comme faisant partie de la valeur d'une cellule.<br/>La valeur par défaut est true. S'il est faux, le premier guillemet simple sera supprimé de la valeur de la cellule correspondante<br/> et [Style.quote_prefix](/cells/fr/python-net/aspose.cells/style#quote_prefix) seront définis comme vrais pour la cellule.|
+| [treat_consecutive_delimiters_as_one](/cells/fr/python-net/aspose.cells/txtloadoptions/treat_consecutive_delimiters_as_one) | Indique si les délimiteurs consécutifs doivent être traités comme un seul.|
+| [treat_quote_prefix_as_value](/cells/fr/python-net/aspose.cells/txtloadoptions/treat_quote_prefix_as_value) | Indique si le guillemet simple de début doit être considéré comme faisant partie de la valeur d'une cellule.<br/>La valeur par défaut est true. S'il est faux, le premier guillemet simple sera supprimé de la valeur de la cellule correspondante<br/> et [Style.quote_prefix](/cells/fr/python-net/aspose.cells/style#quote_prefix) seront définis comme vrais pour la cellule.|
 | [extend_to_next_sheet](/cells/fr/python-net/aspose.cells/txtloadoptions/extend_to_next_sheet) | Étend ou non les données à la feuille suivante lorsque les lignes ou les colonnes de données dépassent la limite.<br/>Si cette propriété est vraie, les données supplémentaires seront étendues à la feuille suivante derrière la feuille actuelle (si la feuille actuelle est la dernière,<br/>nouvelle feuille sera ajoutée au classeur actuel).<br/>Si cette propriété est fausse, les données dépassant la limite seront ignorées.<br/> La valeur par défaut est false ;|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: file_path_provider недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

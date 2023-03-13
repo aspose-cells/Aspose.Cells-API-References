@@ -1,4 +1,4 @@
-﻿---
+---
 title: encoding недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  encoding недвижимость
 
-Если не задано, используйте Encoding.UTF8 в качестве типа кодирования по умолчанию.
+Если не задано, используйте Encoding.UTF8 в качестве типа кодировки по умолчанию.
 ###  Определение:
 ```python
 @property

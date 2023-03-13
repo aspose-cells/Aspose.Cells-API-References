@@ -1,4 +1,4 @@
-﻿---
+---
 title: plot_visible_cells_only недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

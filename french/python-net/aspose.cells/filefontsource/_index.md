@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFontSource classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -29,7 +29,7 @@ Le type FileFontSource expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [type](/cells/fr/python-net/aspose.cells/filefontsource/type) | Renvoie le type de la source de la police.|
-| [file_path](/cells/fr/python-net/aspose.cells/filefontsource/file_path) |Chemin d'accès au fichier de police.|
+| [file_path](/cells/fr/python-net/aspose.cells/filefontsource/file_path) | Chemin d'accès au fichier de police.|
 
 
 

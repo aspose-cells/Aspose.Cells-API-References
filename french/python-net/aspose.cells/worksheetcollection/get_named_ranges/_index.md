@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_named_ranges méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

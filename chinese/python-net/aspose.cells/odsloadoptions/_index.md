@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsLoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1100
 url: /zh/python-net/aspose.cells/odsloadoptions/
 is_root: false
 ---
-##  OdsLoadOptions类
+## OdsLoadOptions类
 表示加载ods文件的选项。
 
 

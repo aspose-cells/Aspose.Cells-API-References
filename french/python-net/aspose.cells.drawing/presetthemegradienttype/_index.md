@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetThemeGradientType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ Le type PresetThemeGradientType expose les membres suivants :
 | TOP_SPOTLIGHT | Spot haut|
 | MEDIUM_GRADIENT | Dégradé moyen|
 | BOTTOM_SPOTLIGHT | Spot bas|
-| RADIAL_GRADIENT |Dégradé radial|
+| RADIAL_GRADIENT | Dégradé radial|
 
 
 

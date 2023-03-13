@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hide_detail propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

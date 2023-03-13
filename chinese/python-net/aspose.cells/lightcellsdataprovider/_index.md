@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightCellsDataProvider类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1000
 url: /zh/python-net/aspose.cells/lightcellsdataprovider/
 is_root: false
 ---
-##  LightCellsDataProvider类
+## LightCellsDataProvider类
 表示用于在轻量级模式下保存大型电子表格文件的数据提供程序。
 
 

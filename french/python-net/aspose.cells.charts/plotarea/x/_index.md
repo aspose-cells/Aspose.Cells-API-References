@@ -1,4 +1,4 @@
-﻿---
+---
 title: x propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ Obtient ou obtient la coordonnée x du coin supérieur gauche de la zone de dél
 ###  Remarques
 
 La boîte englobante de la zone de tracé comprend la zone de tracé, les graduations (étiquettes de graduation) et une petite bordure autour des graduations.
-Si la valeur n'est pas créée par MS Excel, veuillez appeler la méthode Chart.Calculate() avant d'appeler cette méthode.
+ Si la valeur n'est pas créée par MS Excel, veuillez appeler la méthode Chart.Calculate() avant d'appeler cette méthode.
 
 
  Le**X** , **Y** , **Largeur** et**Hauteur** de**Zone de tracé** représente la surface de la parcelle

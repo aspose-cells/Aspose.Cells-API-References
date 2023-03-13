@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_row_height_pixel méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

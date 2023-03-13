@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrendlineType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 670
 url: /zh/python-net/aspose.cells.charts/trendlinetype/
 is_root: false
 ---
-##  TrendlineType枚举
+## TrendlineType枚举
 代表趋势线类型。
 
 
 
 TrendlineType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | EXPONENTIAL |指数型|

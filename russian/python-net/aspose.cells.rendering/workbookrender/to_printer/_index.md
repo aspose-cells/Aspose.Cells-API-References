@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_printer метод
 second_title: Aspose.Cells for Python via .NET API
 description:

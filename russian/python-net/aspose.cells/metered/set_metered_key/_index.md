@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_metered_key метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoLineStyle dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type MsoLineStyle expose les membres suivants :
 | :- | :- |
 | SINGLE | Ligne unique (de largeur lineWidth)|
 | THICK_BETWEEN_THIN | Trois lignes, fines, épaisses, fines|
-| THIN_THICK | Lignes doubles, une fine, une épaisse|
+| THIN_THICK |Lignes doubles, une fine, une épaisse|
 | THICK_THIN | Lignes doubles, une épaisse, une fine|
 | THIN_THIN | Lignes doubles de même largeur|
 

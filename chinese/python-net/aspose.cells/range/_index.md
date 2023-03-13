@@ -1,4 +1,4 @@
-﻿---
+---
 title: Range类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1250
 url: /zh/python-net/aspose.cells/range/
 is_root: false
 ---
-##  Range类
+## Range类
 封装表示电子表格中一系列单元格的对象。
 
 

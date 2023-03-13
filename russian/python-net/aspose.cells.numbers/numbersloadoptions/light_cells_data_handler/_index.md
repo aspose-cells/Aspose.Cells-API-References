@@ -1,4 +1,4 @@
-﻿---
+---
 title: light_cells_data_handler недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

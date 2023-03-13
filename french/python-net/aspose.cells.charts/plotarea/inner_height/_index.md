@@ -1,4 +1,4 @@
-﻿---
+---
 title: inner_height propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ Obtient ou définit la hauteur de la zone de tracé en unités de 1/4000 de la z
 ###  Remarques
 
 La boîte englobante de la zone de tracé comprend la zone de tracé, les graduations (étiquettes de graduation) et une petite bordure autour des graduations.
-Si la valeur n'est pas créée par MS Excel, veuillez appeler la méthode Chart.Calculate() avant d'appeler cette méthode.
+ Si la valeur n'est pas créée par MS Excel, veuillez appeler la méthode Chart.Calculate() avant d'appeler cette méthode.
 
 
  Le**X** , **Y** , **Largeur** et**Hauteur** de**Zone de tracé** représente la surface de la parcelle

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Name类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1070
 url: /zh/python-net/aspose.cells/name/
 is_root: false
 ---
-##  Name类
+## Name类
 代表一系列单元格的定义名称。
 
 

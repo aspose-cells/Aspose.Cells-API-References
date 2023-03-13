@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFormatUtil类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 600
 url: /zh/python-net/aspose.cells/fileformatutil/
 is_root: false
 ---
-##  FileFormatUtil类
+## FileFormatUtil类
 提供用于将文件格式枚举转换为字符串或文件扩展名并返回的实用方法。
 
 

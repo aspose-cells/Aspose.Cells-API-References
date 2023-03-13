@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 490
 url: /zh/python-net/aspose.cells.charts/displayunittype/
 is_root: false
 ---
-##  DisplayUnitType枚举
+## DisplayUnitType枚举
 表示显示单元的类型。
 
 
 
 DisplayUnitType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |显示单位为无。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_footer méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ def set_footer(self, section, footer_script):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| section | int | : Section gauche, 1 : Section centrale, 2 : Section droite.|
+| section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 | footer_script | str | Script de format de pied de page.|
 ###  Remarques
 
@@ -37,7 +37,7 @@ Commandes de script :
 | &"<FontName>"| Nom de la police, par exemple : &"Arial"|
 | &"<FontName>, <FontStyle>"| Nom et style de police, par exemple : &"Arial,Gras"|
 | &<FontSize>| Taille de police. Si cette commande est suivie d'un nombre en clair à imprimer dans l'en-tête, il sera séparé de la hauteur de la police par un espace.|
-| &K<RRGGBB>| Couleur de la police, par exemple (RED) : &KFF0000|
+| &K<RRGGBB>|Couleur de la police, par exemple (RED) : &KFF0000|
 | &G| Script d'image|
 
 Par exemple : "&Arial,Gras&Note de 8 pieds de page"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_using_pivot_tables_allowed propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Représente si l'utilisateur est autorisé à manipuler des tableaux croisés dy
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
  veuillez utiliser la propriété Protection.AllowUsingPivotTable.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2010.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

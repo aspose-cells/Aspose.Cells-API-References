@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 910
 url: /zh/python-net/aspose.cells/imagesaveoptions/
 is_root: false
 ---
-##  ImageSaveOptions类
+## ImageSaveOptions类
 表示图像保存选项。
 如需高级用法，请使用 [WorkbookRender](/cells/zh/python-net/aspose.cells.rendering/workbookrender) 或 [SheetRender](/cells/zh/python-net/aspose.cells.rendering/sheetrender)。
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_auto_shape_in_chart метод
 second_title: Aspose.Cells for Python via .NET API
 description:

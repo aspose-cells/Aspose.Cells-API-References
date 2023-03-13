@@ -1,4 +1,4 @@
-﻿---
+---
 title: RadioButtonActiveXControl类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 90
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/
 is_root: false
 ---
-##  RadioButtonActiveXControl类
+## RadioButtonActiveXControl类
 表示 RadioButton ActiveX 控件。
 
 

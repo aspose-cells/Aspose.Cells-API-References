@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShadowEffect类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 510
 url: /zh/python-net/aspose.cells.drawing/shadoweffect/
 is_root: false
 ---
-##  ShadowEffect类
+## ShadowEffect类
 此类指定图表元素或形状的阴影效果。
 
 

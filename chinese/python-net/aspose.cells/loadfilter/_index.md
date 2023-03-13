@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadFilter类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1010
 url: /zh/python-net/aspose.cells/loadfilter/
 is_root: false
 ---
-##  LoadFilter类
+## LoadFilter类
 表示从模板加载工作簿时提供用于加载数据的选项的筛选器。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_direction propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Représente l'ordre de lecture du texte.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
  veuillez utiliser la propriété TickLabels.ReadingOrder.
  Cette propriété sera supprimée 12 mois plus tard depuis mars 2020.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

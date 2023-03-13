@@ -1,4 +1,4 @@
-﻿---
+---
 title: IFilePathProvider classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type IFilePathProvider expose les membres suivants :
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [get_full_name(sheet_name)](/cells/fr/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) |Obtient le chemin d'accès complet du fichier par nom de feuille de calcul lors de l'exportation de la feuille de calcul au format HTML séparément.<br/> Ainsi, les références parmi les feuilles de travail peuvent être exportées correctement.|
+| [get_full_name(sheet_name)](/cells/fr/python-net/aspose.cells/ifilepathprovider/get_full_name/#str) | Obtient le chemin d'accès complet du fichier par nom de feuille de calcul lors de l'exportation de la feuille de calcul au format HTML séparément.<br/> Ainsi, les références parmi les feuilles de travail peuvent être exportées correctement.|
 
 
 

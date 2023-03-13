@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsSaveOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -36,8 +36,8 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/odssaveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/odssaveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/odssaveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/odssaveoptions/sort_external_names) | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
-| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) |Указывает, обновляются ли данные кэша диаграммы.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/odssaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
+| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/odssaveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
 | [warning_callback](/cells/ru/python-net/aspose.cells/odssaveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/odssaveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [generator_type](/cells/ru/python-net/aspose.cells/odssaveoptions/generator_type) | Получает и задает генератор файла ods.|

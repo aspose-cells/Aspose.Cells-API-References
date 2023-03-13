@@ -1,4 +1,4 @@
-﻿---
+---
 title: Worksheet类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1620
 url: /zh/python-net/aspose.cells/worksheet/
 is_root: false
 ---
-##  Worksheet类
+## Worksheet类
 封装表示单个工作表的对象。
 
 

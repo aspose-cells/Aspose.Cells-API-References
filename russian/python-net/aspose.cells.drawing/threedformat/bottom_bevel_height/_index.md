@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_bevel_height недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

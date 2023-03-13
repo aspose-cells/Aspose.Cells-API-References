@@ -1,4 +1,4 @@
-﻿---
+---
 title: BackgroundType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1780
 url: /zh/python-net/aspose.cells/backgroundtype/
 is_root: false
 ---
-##  BackgroundType枚举
+## BackgroundType枚举
 枚举单元格背景图案类型。
 
 
 
 BackgroundType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DIAGONAL_CROSSHATCH |表示对角交叉影线图案。|

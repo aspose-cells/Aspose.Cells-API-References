@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetWordArtStyle枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1100
 url: /zh/python-net/aspose.cells.drawing/presetwordartstyle/
 is_root: false
 ---
-##  PresetWordArtStyle枚举
+## PresetWordArtStyle枚举
 代表预设的艺术字样式。
 
 
 
 PresetWordArtStyle 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | WORD_ART_STYLE1 |填充 - 黑色、文本 1、阴影|

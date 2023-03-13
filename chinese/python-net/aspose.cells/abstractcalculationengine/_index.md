@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbstractCalculationEngine类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 20
 url: /zh/python-net/aspose.cells/abstractcalculationengine/
 is_root: false
 ---
-##  AbstractCalculationEngine类
+## AbstractCalculationEngine类
 代表用户自定义计算引擎，扩展Aspose.Cells默认计算引擎。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_param_value метод
 second_title: Aspose.Cells for Python via .NET API
 description:

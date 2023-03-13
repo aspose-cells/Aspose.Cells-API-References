@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorBarType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 510
 url: /zh/python-net/aspose.cells.charts/errorbartype/
 is_root: false
 ---
-##  ErrorBarType枚举
+## ErrorBarType枚举
 表示错误栏金额类型。
 
 
 
 ErrorBarType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CUSTOM |内部自定义值类型。|

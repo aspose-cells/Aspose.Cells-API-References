@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trendline类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 330
 url: /zh/python-net/aspose.cells.charts/trendline/
 is_root: false
 ---
-##  Trendline类
+## Trendline类
 代表图表中的趋势线。
 
 

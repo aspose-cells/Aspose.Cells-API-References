@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_cols_and_rows propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

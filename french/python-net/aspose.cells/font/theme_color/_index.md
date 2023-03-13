@@ -1,4 +1,4 @@
-﻿---
+---
 title: theme_color propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Obtient et définit la couleur du thème.
 
 ###  Remarques
 
-Si la couleur de la police n'est pas une couleur de thème, NULL sera retourné.
+Si la couleur de la police n'est pas une couleur de thème, NULL sera renvoyé.
 ###  Définition:
 ```python
 @property

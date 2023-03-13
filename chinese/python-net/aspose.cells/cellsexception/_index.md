@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellsException类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 210
 url: /zh/python-net/aspose.cells/cellsexception/
 is_root: false
 ---
-##  CellsException类
+## CellsException类
 发生 Aspose.Cells 指定错误时抛出的异常。
 
 

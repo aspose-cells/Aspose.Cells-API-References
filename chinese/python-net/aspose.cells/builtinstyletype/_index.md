@@ -1,4 +1,4 @@
-﻿---
+---
 title: BuiltinStyleType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1800
 url: /zh/python-net/aspose.cells/builtinstyletype/
 is_root: false
 ---
-##  BuiltinStyleType枚举
+## BuiltinStyleType枚举
 表示所有内置样式类型。
 
 
 
 BuiltinStyleType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | TWENTY_PERCENT_ACCENT1 |  |

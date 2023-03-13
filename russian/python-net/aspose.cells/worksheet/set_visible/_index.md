@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_visible метод
 second_title: Aspose.Cells for Python via .NET API
 description:

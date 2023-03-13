@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartArea类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.charts/chartarea/
 is_root: false
 ---
-##  ChartArea类
+## ChartArea类
 封装代表工作表中图表区域的对象。
 
 

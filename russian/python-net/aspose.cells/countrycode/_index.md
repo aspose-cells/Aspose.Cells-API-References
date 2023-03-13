@@ -1,4 +1,4 @@
-﻿---
+---
 title: CountryCode перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -60,7 +60,7 @@ is_root: false
 | LEBANON | Ливан|
 | JORDAN | Иордания|
 | SYRIA | Сирия|
-| IRAQ |Ирак|
+| IRAQ | Ирак|
 | KUWAIT | Кувейт|
 | SAUDI | Саудовская Аравия|
 | UNITED_ARAB_EMIRATES | Объединенные Арабские Эмираты|

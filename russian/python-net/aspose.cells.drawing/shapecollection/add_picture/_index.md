@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_picture метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ def add_picture(self, upper_left_row, upper_left_column, lower_right_row, lower_
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | lower_right_row | int | Нижний индекс правой строки|
 | lower_right_column | int | Индекс нижнего правого столбца|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
@@ -59,7 +59,7 @@ def add_picture(self, upper_left_row, upper_left_column, stream, width_scale, he
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | stream | io.RawIOBase | Потоковый объект, содержащий данные изображения.|
 | width_scale | int | Масштаб ширины изображения в процентах.|
 | height_scale | int | Масштаб высоты изображения в процентах.|

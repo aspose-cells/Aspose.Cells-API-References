@@ -1,4 +1,4 @@
-﻿---
+---
 title: ContentTypePropertyCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.properties/contenttypepropertycollection/
 is_root: false
 ---
-##  ContentTypePropertyCollection类
+## ContentTypePropertyCollection类
 表示附加信息的 [ContentTypeProperty](/cells/zh/python-net/aspose.cells.properties/contenttypeproperty) 对象的集合。
 
 

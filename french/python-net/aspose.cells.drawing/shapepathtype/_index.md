@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePathType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,11 +17,11 @@ Le type ShapePathType expose les membres suivants :
 ###  Des champs
 | Champ| Description|
 | :- | :- |
-| LINE_TO | Segment de droite|
+| LINE_TO |Segment de droite|
 | CUBIC_BEZIER_CURVE_TO | Courbe de Bézier cubique|
 | MOVE_TO | Commencer un nouveau chemin|
 | CLOSE | Si le POINT de départ et le POINT de fin ne sont pas identiques, un seul<br/> une ligne droite est tracée pour relier le POINT de départ et le POINT d'arrivée du chemin.|
-| END |La fin du chemin actuel|
+| END | La fin du chemin actuel|
 | ESCAPE | S'échapper|
 | ARC_TO | Un arc|
 | UNKNOWN | Inconnu|

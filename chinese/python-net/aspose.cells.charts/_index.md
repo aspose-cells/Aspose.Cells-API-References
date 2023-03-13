@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.charts
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -33,13 +33,13 @@ is_root: false
 | [LegendEntryCollection](/cells/zh/python-net/aspose.cells.charts/legendentrycollection) |表示指定图表图例中所有 [LegendEntry](/cells/zh/python-net/aspose.cells.charts/legendentry) 对象的集合。|
 | [Marker](/cells/zh/python-net/aspose.cells.charts/marker) |表示折线图、散点图或雷达图中的标记。|
 | [PivotOptions](/cells/zh/python-net/aspose.cells.charts/pivotoptions) |表示一个复杂类型，它指定显示在图表上的数据透视控件|
-| [PlotArea](/cells/zh/python-net/aspose.cells.charts/plotarea) |封装表示图表中绘图区域的对象。|
+| [PlotArea](/cells/zh/python-net/aspose.cells.charts/plotarea) |封装表示图表中绘图区的对象。|
 | [Series](/cells/zh/python-net/aspose.cells.charts/series) |封装表示图表中单个数据系列的对象。|
 | [SeriesCollection](/cells/zh/python-net/aspose.cells.charts/seriescollection) |封装 [Series](/cells/zh/python-net/aspose.cells.charts/series) 对象的集合。|
 | [SeriesLayoutProperties](/cells/zh/python-net/aspose.cells.charts/serieslayoutproperties) |表示系列布局的属性。|
 | [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) |迷你图表示工作表单元格中提供数据可视化表示的微小图表或图形。|
 | [SparklineCollection](/cells/zh/python-net/aspose.cells.charts/sparklinecollection) |封装 [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) 对象的集合。|
-| [SparklineGroup](/cells/zh/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) 被组织到迷你图组中。 SparklineGroup 包含可变数量的迷你图项。<br/>迷你图组指定迷你图的类型、显示设置和轴设置。|
+| [SparklineGroup](/cells/zh/python-net/aspose.cells.charts/sparklinegroup) | [Sparkline](/cells/zh/python-net/aspose.cells.charts/sparkline) 被组织到迷你图组中。 SparklineGroup 包含可变数量的迷你图项目。<br/>迷你图组指定迷你图的类型、显示设置和轴设置。|
 | [SparklineGroupCollection](/cells/zh/python-net/aspose.cells.charts/sparklinegroupcollection) |封装 [SparklineGroup](/cells/zh/python-net/aspose.cells.charts/sparklinegroup) 对象的集合。|
 | [TickLabelItem](/cells/zh/python-net/aspose.cells.charts/ticklabelitem) |包含 Ticklabel 项目的信息|
 | [TickLabels](/cells/zh/python-net/aspose.cells.charts/ticklabels) |表示与图表轴上的刻度线关联的刻度线标签。|

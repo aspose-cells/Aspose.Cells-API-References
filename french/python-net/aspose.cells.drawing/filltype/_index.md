@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type FillType expose les membres suivants :
 | :- | :- |
 | AUTOMATIC | Représente le type de formatage automatique.|
 | NONE | Représente aucun type de formatage.|
-| SOLID |Format de remplissage solide.|
+| SOLID | Format de remplissage solide.|
 | GRADIENT | Format de remplissage dégradé.|
 | TEXTURE | Format de remplissage de texture (comprend le remplissage d'image).|
 | PATTERN | Format de remplissage de motif.|

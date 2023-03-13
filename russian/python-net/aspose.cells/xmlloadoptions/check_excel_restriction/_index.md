@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_excel_restriction недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

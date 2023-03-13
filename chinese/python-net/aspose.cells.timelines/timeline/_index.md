@@ -1,4 +1,4 @@
-﻿---
+---
 title: Timeline类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.timelines/timeline/
 is_root: false
 ---
-##  Timeline类
+## Timeline类
 Timeline查看概要说明
 由于 MS Excel，Excel 2003 不支持 Timeline
 

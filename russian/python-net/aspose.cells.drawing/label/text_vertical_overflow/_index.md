@@ -1,4 +1,4 @@
-﻿---
+---
 title: text_vertical_overflow недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

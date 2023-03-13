@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionParameter类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.externalconnections/connectionparameter/
 is_root: false
 ---
-##  ConnectionParameter类
+## ConnectionParameter类
 指定有关用于外部数据连接的任何参数的属性
 参数对 ODBC 和 Web 查询有效。
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotGroupByType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type PivotGroupByType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | RANGE_OF_VALUES | Présente une plage de valeurs groupées par type.|
-| SECONDS |Présente les secondes groupées par type.|
+| SECONDS | Présente les secondes groupées par type.|
 | MINUTES | Présente les minutes groupées par type.|
 | HOURS | Présente les heures groupées par type.|
 | DAYS | Présente les jours groupés par type.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WriteProtection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1640
 url: /zh/python-net/aspose.cells/writeprotection/
 is_root: false
 ---
-##  WriteProtection类
+## WriteProtection类
 指定工作簿的写保护设置。
 
 

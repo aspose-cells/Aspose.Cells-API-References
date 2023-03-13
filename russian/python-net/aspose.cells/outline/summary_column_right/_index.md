@@ -1,4 +1,4 @@
-﻿---
+---
 title: summary_column_right недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

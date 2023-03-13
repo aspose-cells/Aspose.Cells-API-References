@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetThemeGradientType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ is_root: false
 | TOP_SPOTLIGHT | Главный центр внимания|
 | MEDIUM_GRADIENT | Средний градиент|
 | BOTTOM_SPOTLIGHT | Нижний прожектор|
-| RADIAL_GRADIENT |Радиальный градиент|
+| RADIAL_GRADIENT | Радиальный градиент|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellWatch类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 160
 url: /zh/python-net/aspose.cells/cellwatch/
 is_root: false
 ---
-##  CellWatch类
+## CellWatch类
 代表“监视窗口”中的 Cell 监视项。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageEndSavingArgs类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 50
 url: /zh/python-net/aspose.cells.rendering/pageendsavingargs/
 is_root: false
 ---
-##  PageEndSavingArgs类
+## PageEndSavingArgs类
 页面信息结束保存过程。
 
 

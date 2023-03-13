@@ -1,4 +1,4 @@
-﻿---
+---
 title: cached_file_folder propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

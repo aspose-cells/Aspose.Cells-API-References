@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -39,7 +39,7 @@ is_root: false
 | [to_printer(printer_settings)](/cells/ru/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) | Рендеринг книги на принтер|
 | [to_printer(printer_settings, job_name)](/cells/ru/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings-str) | Рендеринг книги на принтер|
 | [to_printer(printer_name, print_page_index, print_page_count)](/cells/ru/python-net/aspose.cells.rendering/workbookrender/to_printer/#str-int-int) | Рендеринг книги на принтер|
-| [get_page_size_inch(page_index)](/cells/ru/python-net/aspose.cells.rendering/workbookrender/get_page_size_inch/#int) | Получить размер страницы в дюймах выходного изображения.|
+| [get_page_size_inch(page_index)](/cells/ru/python-net/aspose.cells.rendering/workbookrender/get_page_size_inch/#int) |Получить размер страницы в дюймах выходного изображения.|
 | [custom_print(next_page_after_print, print_page_event_args)](/cells/ru/python-net/aspose.cells.rendering/workbookrender/custom_print/#bool-aspose.pydrawing.printing.PrintPageEventArgs) | Клиент может управлять настройками страницы принтера при печати каждой страницы с помощью этой функции.|
 
 

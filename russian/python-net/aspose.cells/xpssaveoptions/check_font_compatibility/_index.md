@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_font_compatibility недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

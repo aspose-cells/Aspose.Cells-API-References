@@ -1,4 +1,4 @@
-﻿---
+---
 title: LookAtType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | CONTAINS | Cell значение Содержит объект поиска.|
 | START_WITH | Cell значение Начинается с объекта поиска.|
 | END_WITH | Значение Cell заканчивается объектом поиска.|
-| ENTIRE_CONTENT |Значение Cell совпадает с объектом поиска.|
+| ENTIRE_CONTENT | Значение Cell совпадает с объектом поиска.|
 
 
 

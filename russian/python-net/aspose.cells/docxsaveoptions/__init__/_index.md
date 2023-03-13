@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocxSaveOptions конструктор
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -33,7 +33,7 @@ def __init__(self, save_as_image):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| save_as_image | bool | Если True, книга будет преобразована в несколько изображений файла .docx.<br/> Если False, рабочая книга будет преобразована в некоторые таблицы файла .docx.|
+| save_as_image | bool |Если True, книга будет преобразована в несколько изображений файла .docx.<br/> Если False, рабочая книга будет преобразована в некоторые таблицы файла .docx.|
 
 
 

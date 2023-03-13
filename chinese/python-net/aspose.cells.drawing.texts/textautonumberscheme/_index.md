@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextAutonumberScheme枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 160
 url: /zh/python-net/aspose.cells.drawing.texts/textautonumberscheme/
 is_root: false
 ---
-##  TextAutonumberScheme枚举
+## TextAutonumberScheme枚举
 代表所有自动编号方案。
 
 
 
 TextAutonumberScheme 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |  |
@@ -32,7 +32,7 @@ TextAutonumberScheme 类型公开了以下成员：
 | ARABIC_PAREN_R | 1), 2), 3), … |
 | ARABIC_PERIOD | 1., 2., 3., … |
 | ARABIC_PLAIN | 1, 2, 3, … |
-| CIRCLE_NUM_DB_PLAIN | dbl-byte圆圈数（1-10圆圈[0x2460-]，11-阿拉伯数字）|
+| CIRCLE_NUM_DB_PLAIN |dbl-byte圆圈数（1-10圆圈[0x2460-]，11-阿拉伯数字）|
 | CIRCLE_NUM_WD_BLACK_PLAIN | Wingdings 黑色圆圈数字|
 | CIRCLE_NUM_WD_WHITE_PLAIN |Wingdings白色圆圈数字（0-10圆[0x0080-],11-阿拉伯数字）|
 | EA_1_CHS_PERIOD | EA：带单字节句点的简体中文|
@@ -47,7 +47,7 @@ TextAutonumberScheme 类型公开了以下成员：
 | HINDI_ALPHA_PERIOD |印地语字母时期 - 元音|
 | HINDI_NUM_PAREN_R |印地语数字括号 - 右|
 | HINDI_NUM_PERIOD |印地语数字时期|
-| ROMAN_LC_PAREN_BOTH | (i), (ii), (iii), …|
+| ROMAN_LC_PAREN_BOTH |(i), (ii), (iii), …|
 | ROMAN_LC_PAREN_R |一）、二）、三）、……|
 | ROMAN_LC_PERIOD |一、二、三、……|
 | ROMAN_UC_PAREN_BOTH | (一), (二), (三), …|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebExtensionBindingCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.webextensions/webextensionbindingcollection/
 is_root: false
 ---
-##  WebExtensionBindingCollection类
+## WebExtensionBindingCollection类
 表示 Office 加载项与文档中数据之间的绑定关系列表。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotGroupByType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 190
 url: /zh/python-net/aspose.cells.pivot/pivotgroupbytype/
 is_root: false
 ---
-##  PivotGroupByType枚举
+## PivotGroupByType枚举
 表示数据透视表分组类型。
 
 
 
 PivotGroupByType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | RANGE_OF_VALUES |按类型显示值范围。|

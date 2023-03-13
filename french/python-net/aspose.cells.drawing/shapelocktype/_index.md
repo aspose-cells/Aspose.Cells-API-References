@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeLockType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ Le type ShapeLockType expose les membres suivants :
 | ADJUST_HANDLES | Ajuster les poignées|
 | TEXT | Texte|
 | POINTS | Points|
-| CROP | Culture|
+| CROP |Culture|
 | SELECTION | Sélection|
 | MOVE | Déplacer|
 | ASPECT_RATIO | Ratio d'aspect|

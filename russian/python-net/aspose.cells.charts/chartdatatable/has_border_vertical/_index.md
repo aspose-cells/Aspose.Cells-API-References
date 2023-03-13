@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_border_vertical недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

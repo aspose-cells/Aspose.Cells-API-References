@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ def add(self, upper_left_row, upper_left_column, height, width):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | height | int | Высота флажка в пикселях.|
 | width | int | Ширина флажка в пикселях.|
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintCommentsType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2370
 url: /zh/python-net/aspose.cells/printcommentstype/
 is_root: false
 ---
-##  PrintCommentsType枚举
+## PrintCommentsType枚举
 表示注释随工作表一起打印的方式。
 
 
 
 PrintCommentsType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | PRINT_IN_PLACE |表示打印工作表上显示的注释。|

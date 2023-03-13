@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_shared_formula метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 ###  Примечания
 
@@ -42,7 +42,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | Варианты разбора формулы.|
 
@@ -61,7 +61,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | is_r1c1 | bool | является ли формула формулой R1C1|
 | is_local | bool | отформатирована ли формула в локали|
@@ -86,7 +86,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | shared_formula | str | Общая формула.|
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | options | [FormulaParseOptions](/cells/ru/python-net/aspose.cells/formulaparseoptions) | Варианты разбора формулы.|
 | values | list | значения для тех ячеек с заданной общей формулой|

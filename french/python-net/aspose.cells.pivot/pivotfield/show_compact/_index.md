@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_compact propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyleElementType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 110
 url: /zh/python-net/aspose.cells.tables/tablestyleelementtype/
 is_root: false
 ---
-##  TableStyleElementType枚举
+## TableStyleElementType枚举
 表示 Table 或 PivotTable 样式元素类型。
 
 
 
 TableStyleElementType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | BLANK_ROW |适用于数据透视表空白行的表格样式元素。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_desired_size метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FindOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -31,7 +31,7 @@ is_root: false
 | [search_backward](/cells/ru/python-net/aspose.cells/findoptions/search_backward) | Ищите ли ячейки назад.|
 | [seach_order_by_rows](/cells/ru/python-net/aspose.cells/findoptions/seach_order_by_rows) | Указывает порядок поиска по строкам или столбцам.|
 | [look_in_type](/cells/ru/python-net/aspose.cells/findoptions/look_in_type) | Смотри в тип.|
-| [regex_key](/cells/ru/python-net/aspose.cells/findoptions/regex_key) | Указывает, является ли искомый ключ регулярным выражением.<br/> Если true, искомый ключ будет принят как регулярное выражение и проанализирован. В противном случае ключ будет проанализирован в соответствии с правилами MS Excel.|
+| [regex_key](/cells/ru/python-net/aspose.cells/findoptions/regex_key) | Указывает, является ли искомый ключ регулярным выражением.<br/>Если true, искомый ключ будет принят как регулярное выражение и проанализирован. В противном случае ключ будет проанализирован в соответствии с правилами MS Excel.|
 | [value_type_sensitive](/cells/ru/python-net/aspose.cells/findoptions/value_type_sensitive) | Указывает, должен ли тип значения искомой ячейки совпадать с искомым ключом.|
 | [style](/cells/ru/python-net/aspose.cells/findoptions/style) | Формат для поиска.|
 | [convert_numeric_data](/cells/ru/python-net/aspose.cells/findoptions/convert_numeric_data) | Получает или задает значение, указывающее, выполняется ли преобразование искомого строкового значения в числовые данные.|

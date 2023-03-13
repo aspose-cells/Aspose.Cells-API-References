@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_merged_cells 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

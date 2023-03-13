@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterColumn类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 610
 url: /zh/python-net/aspose.cells/filtercolumn/
 is_root: false
 ---
-##  FilterColumn类
+## FilterColumn类
 表示单个列的筛选器。 Filter 对象是 Filters 集合的成员
 
 

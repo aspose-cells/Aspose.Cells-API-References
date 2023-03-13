@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnknownControl类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 140
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/unknowncontrol/
 is_root: false
 ---
-##  UnknownControl类
+## UnknownControl类
 不知控制。
 
 

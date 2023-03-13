@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.slicers
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,10 +20,10 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
 | [SlicerCacheCrossFilterType](/cells/fr/python-net/aspose.cells.slicers/slicercachecrossfiltertype) | Représenter le type de SlicerCacheCrossFilterType|
-| [SlicerCacheItemSortType](/cells/fr/python-net/aspose.cells.slicers/slicercacheitemsorttype) |Spécifiez le type de tri de SlicerCacheItem|
+| [SlicerCacheItemSortType](/cells/fr/python-net/aspose.cells.slicers/slicercacheitemsorttype) | Spécifiez le type de tri de SlicerCacheItem|
 | [SlicerStyleType](/cells/fr/python-net/aspose.cells.slicers/slicerstyletype) | Spécifiez le style de la vue du segment|
 
 

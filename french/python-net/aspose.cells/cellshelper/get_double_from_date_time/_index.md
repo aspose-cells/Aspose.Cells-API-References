@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_double_from_date_time méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

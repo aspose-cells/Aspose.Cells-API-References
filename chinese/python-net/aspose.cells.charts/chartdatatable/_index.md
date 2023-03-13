@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartDataTable类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 60
 url: /zh/python-net/aspose.cells.charts/chartdatatable/
 is_root: false
 ---
-##  ChartDataTable类
+## ChartDataTable类
 表示图表数据表。
 
 

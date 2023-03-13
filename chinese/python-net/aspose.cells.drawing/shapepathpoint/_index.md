@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePathPoint类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 590
 url: /zh/python-net/aspose.cells.drawing/shapepathpoint/
 is_root: false
 ---
-##  ShapePathPoint类
+## ShapePathPoint类
 表示路径坐标空间内的 xy 坐标。
 
 

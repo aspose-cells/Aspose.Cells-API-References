@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatSetType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| NONE |Нет формата заливки.|
+| NONE | Нет формата заливки.|
 | IS_GRADIENT_SET | Градиентный формат заливки.|
 | IS_TEXTURE_SET | Формат заливки текстуры.|
 | IS_PATTERN_SET | Формат заполнения узором.|

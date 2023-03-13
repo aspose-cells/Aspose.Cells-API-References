@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_row_hidden méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OLEDBCommandType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 120
 url: /zh/python-net/aspose.cells.externalconnections/oledbcommandtype/
 is_root: false
 ---
-##  OLEDBCommandType枚举
+## OLEDBCommandType枚举
 指定 OLE DB 命令类型。
 
 
 
 OLEDBCommandType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |未指定命令类型。|

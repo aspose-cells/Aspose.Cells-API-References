@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextTabAlignmentType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 190
 url: /zh/python-net/aspose.cells.drawing.texts/texttabalignmenttype/
 is_root: false
 ---
-##  TextTabAlignmentType枚举
+## TextTabAlignmentType枚举
 表示文本选项卡对齐类型。
 
 
 
 TextTabAlignmentType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CENTER |此制表位处的文本居中对齐。|

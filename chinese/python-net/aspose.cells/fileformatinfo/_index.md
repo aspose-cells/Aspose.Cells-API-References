@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFormatInfo类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 590
 url: /zh/python-net/aspose.cells/fileformatinfo/
 is_root: false
 ---
-##  FileFormatInfo类
+## FileFormatInfo类
 包含 [FileFormatUtil](/cells/zh/python-net/aspose.cells/fileformatutil) 文件格式检测方法返回的数据。
 
 

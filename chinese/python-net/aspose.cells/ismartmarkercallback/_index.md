@@ -1,4 +1,4 @@
-﻿---
+---
 title: ISmartMarkerCallBack类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 860
 url: /zh/python-net/aspose.cells/ismartmarkercallback/
 is_root: false
 ---
-##  ISmartMarkerCallBack类
+## ISmartMarkerCallBack类
 表示处理smartmarker的回调接口。
 
 

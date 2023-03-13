@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextureType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,9 +22,9 @@ is_root: false
 | BROWN_MARBLE | Представляет тип текстуры «Коричневый мрамор».|
 | CANVAS | Представляет тип текстуры Canvas.|
 | CORK | Представляет тип текстуры Cork.|
-| DENIM | Представляет тип текстуры Denim.|
+| DENIM |Представляет тип текстуры Denim.|
 | FISH_FOSSIL | Представляет тип текстуры Fish Fossil.|
-| GRANITE |Представляет тип текстуры Granite.|
+| GRANITE | Представляет тип текстуры Granite.|
 | GREEN_MARBLE | Представляет тип текстуры Green Marble.|
 | MEDIUM_WOOD | Представляет тип текстуры Medium Wood.|
 | NEWSPRINT | Представляет тип текстуры газетной бумаги.|

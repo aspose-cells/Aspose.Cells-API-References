@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ is_root: false
 | :- | :- |
 | [WebExtension](/cells/fr/python-net/aspose.cells.webextensions/webextension) | Représente une instance de complément Office.|
 | [WebExtensionBinding](/cells/fr/python-net/aspose.cells.webextensions/webextensionbinding) | Représente une relation de liaison entre un complément Office et les données du document.|
-| [WebExtensionBindingCollection](/cells/fr/python-net/aspose.cells.webextensions/webextensionbindingcollection) | Représente la liste des relations de liaison entre un complément Office et les données du document.|
+| [WebExtensionBindingCollection](/cells/fr/python-net/aspose.cells.webextensions/webextensionbindingcollection) |Représente la liste des relations de liaison entre un complément Office et les données du document.|
 | [WebExtensionCollection](/cells/fr/python-net/aspose.cells.webextensions/webextensioncollection) | Représente la liste des extensions Web.|
 | [WebExtensionProperty](/cells/fr/python-net/aspose.cells.webextensions/webextensionproperty) | Représente une propriété personnalisée de complément Office.|
 | [WebExtensionPropertyCollection](/cells/fr/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Représente la liste des propriétés d'extension Web.|
@@ -25,8 +25,8 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
-| [WebExtensionStoreType](/cells/fr/python-net/aspose.cells.webextensions/webextensionstoretype) |Représente le type de magasin de l'extension Web.|
+| [WebExtensionStoreType](/cells/fr/python-net/aspose.cells.webextensions/webextensionstoretype) | Représente le type de magasin de l'extension Web.|
 
 

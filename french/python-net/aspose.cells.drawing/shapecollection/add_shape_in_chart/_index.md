@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_shape_in_chart méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

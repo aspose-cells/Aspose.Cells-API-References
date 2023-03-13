@@ -1,4 +1,4 @@
-﻿---
+---
 title: TimePeriodType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,10 +21,10 @@ Le type TimePeriodType expose les membres suivants :
 | :- | :- |
 | TODAY | La date d'aujourd'hui.|
 | YESTERDAY | Date d'hier.|
-| TOMORROW | Le rendez-vous de demain.|
+| TOMORROW |Le rendez-vous de demain.|
 | LAST_7_DAYS | Une date dans les sept derniers jours.|
 | THIS_MONTH | Une date survenant dans ce mois calendaire.|
-| LAST_MONTH |Une date survenant dans le dernier mois civil.|
+| LAST_MONTH | Une date survenant dans le dernier mois civil.|
 | NEXT_MONTH | Une date survenant dans le mois calendaire suivant.|
 | THIS_WEEK | Une date survenant cette semaine.|
 | LAST_WEEK | Une date survenue la semaine dernière.|

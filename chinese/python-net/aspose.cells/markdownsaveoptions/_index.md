@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarkdownSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1030
 url: /zh/python-net/aspose.cells/markdownsaveoptions/
 is_root: false
 ---
-##  MarkdownSaveOptions类
+## MarkdownSaveOptions类
 表示降价的保存选项。
 
 

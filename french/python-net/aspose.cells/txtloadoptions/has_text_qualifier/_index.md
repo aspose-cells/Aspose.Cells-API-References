@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_text_qualifier propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

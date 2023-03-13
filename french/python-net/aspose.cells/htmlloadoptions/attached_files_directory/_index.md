@@ -1,4 +1,4 @@
-﻿---
+---
 title: attached_files_directory propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Le répertoire dans lequel les fichiers joints seront enregistrés.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
 veuillez utiliser la propriété HtmlLoadOptions.StreamProvider.
  Cette propriété sera supprimée 12 mois plus tard depuis décembre 2014.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlScrollBarType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | NONE | Не отображает полосы прокрутки.|
-| HORIZONTAL |Отображает горизонтальную полосу прокрутки.|
+| HORIZONTAL | Отображает горизонтальную полосу прокрутки.|
 | BARS_VERTICAL | Отображает вертикальную полосу прокрутки.|
 | BARS_BOTH | Отображает как горизонтальную, так и вертикальную полосу прокрутки.|
 

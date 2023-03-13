@@ -1,4 +1,4 @@
-﻿---
+---
 title: upper_delta_x недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

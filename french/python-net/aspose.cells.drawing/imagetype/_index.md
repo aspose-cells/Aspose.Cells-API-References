@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -30,7 +30,7 @@ Le type ImageType expose les membres suivants :
 | SVM | SVM|
 | GLTF | glTF|
 | OFFICE_COMPATIBLE_EMF | Windows Enhanced Metafile qui est plus compatible avec Office.|
-| WEB_P | Format d'image Weppy|
+| WEB_P |Format d'image Weppy|
 
 
 

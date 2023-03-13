@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_table_formula метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | row_input_cell | str | ячейка ввода строки|
 | column_input_cell | str | ячейка ввода столбца|
@@ -40,7 +40,7 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | input_cell | str | входная ячейка|
 | is_row_input | bool | Указывает, является ли входная ячейка ячейкой ввода строки (true) или ячейкой ввода столбца (false).|
@@ -60,7 +60,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
 | row_index_of_input_cell | int | индекс строки входной ячейки|
 | column_index_of_input_cell | int | индекс столбца входной ячейки|
@@ -81,10 +81,10 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| row_number | int | Количество строк для заполнения формулы.|
+| row_number | int |Количество строк для заполнения формулы.|
 | column_number | int | Количество столбцов для заполнения формулы.|
-| row_index_of_row_input_cell | int | индекс строки входной ячейки строки|
-| column_index_of_row_input_cell | int |индекс столбца ячейки ввода строки|
+| row_index_of_row_input_cell | int |индекс строки входной ячейки строки|
+| column_index_of_row_input_cell | int | индекс столбца ячейки ввода строки|
 | row_index_of_column_input_cell | int | индекс строки входной ячейки столбца|
 | column_index_of_column_input_cell | int | индекс столбца входной ячейки столбца|
 | values | list | значения для ячеек в диапазоне формул таблицы|

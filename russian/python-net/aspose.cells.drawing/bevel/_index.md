@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bevel класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [width](/cells/ru/python-net/aspose.cells.drawing/bevel/width) |Получает и задает ширину скоса или глубину его применения к фигуре.<br/> В единицах баллов.|
+| [width](/cells/ru/python-net/aspose.cells.drawing/bevel/width) | Получает и задает ширину скоса или глубину его применения к фигуре.<br/> В единицах баллов.|
 | [height](/cells/ru/python-net/aspose.cells.drawing/bevel/height) | Получает и задает высоту скоса или то, насколько далеко над фигурой он применяется.<br/> В единицах баллов.|
 | [type](/cells/ru/python-net/aspose.cells.drawing/bevel/type) | Получает и задает предустановленный тип скоса.|
 

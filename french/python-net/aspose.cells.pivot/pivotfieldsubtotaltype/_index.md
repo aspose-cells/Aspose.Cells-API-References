@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFieldSubtotalType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,10 +26,10 @@ Le type PivotFieldSubtotalType expose les membres suivants :
 | MIN | Représente le type de sous-total Min.|
 | PRODUCT | Représente le type de sous-total du produit.|
 | COUNT_NUMS | Représente le type de sous-total Count Nums.|
-| STDEV | Représente le type de sous-total Stdev.|
+| STDEV |Représente le type de sous-total Stdev.|
 | STDEVP | Représente le type de sous-total Stdevp.|
 | VAR | Représente le type de sous-total Var.|
-| VARP |Représente le type de sous-total Varp.|
+| VARP | Représente le type de sous-total Varp.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_row_original_height_point方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

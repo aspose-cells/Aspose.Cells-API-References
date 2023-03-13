@@ -1,4 +1,4 @@
-﻿---
+---
 title: TimelineCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,12 +31,12 @@ Le type TimelineCollection expose les membres suivants :
 | [add(pivot, row, column, base_field)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField) | Ajouter une nouvelle chronologie en utilisant le tableau croisé dynamique comme source de données|
 | [add(pivot, dest_cell_name, base_field)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/add/#aspose.cells.pivot.PivotTable-str-aspose.cells.pivot.PivotField) | Ajouter une nouvelle chronologie en utilisant le tableau croisé dynamique comme source de données|
 | [copy_to(array)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/copy_to/#list) | Copie la totalité de la liste de tableaux dans une liste de tableaux unidimensionnelle compatible, en commençant au début de la liste de tableaux cible.|
-| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/copy_to/#int-list-int-int) | Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
+| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/copy_to/#int-list-int-int) |Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
 | [index_of(item, index)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/index_of/#Timeline-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui s'étend de l'index spécifié au dernier élément.|
 | [index_of(item, index, count)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/index_of/#Timeline-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui commence à l'index spécifié et contient le nombre d'éléments spécifié.|
 | [last_index_of(item)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la liste complète du tableau.|
-| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
-| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
+| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
+| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/last_index_of/#Timeline-int-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
 | [binary_search(item)](/cells/fr/python-net/aspose.cells.timelines/timelinecollection/binary_search/#Timeline) | Recherche un élément dans toute la liste de tableaux triés à l'aide du comparateur par défaut et renvoie l'index de base zéro de l'élément.|
 
 

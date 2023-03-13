@@ -1,4 +1,4 @@
-﻿---
+---
 title: non_auto_sort_default propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_used_colors метод
 second_title: Aspose.Cells for Python via .NET API
 description:

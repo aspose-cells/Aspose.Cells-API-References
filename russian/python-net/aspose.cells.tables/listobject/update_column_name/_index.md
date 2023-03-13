@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_column_name метод
 second_title: Aspose.Cells for Python via .NET API
 description:

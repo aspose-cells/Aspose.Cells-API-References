@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,11 +21,11 @@ is_root: false
 | DEFINED_NAME | Определенное имя.|
 | CHANGE_CELLS | Cells смена.|
 | AUTO_FORMAT | Автоматический формат.|
-| MERGE_CONFLICT |Объединить конфликт.|
+| MERGE_CONFLICT | Объединить конфликт.|
 | COMMENT | Комментарий.|
 | FORMAT | Формат.|
 | INSERT_SHEET | Вставить рабочий лист.|
-| MOVE_CELLS | Переместить ячейки.|
+| MOVE_CELLS |Переместить ячейки.|
 | UNDO | Отменить.|
 | QUERY_TABLE | Таблица запросов.|
 | INSERT_DELETE | Вставка или удаление.|

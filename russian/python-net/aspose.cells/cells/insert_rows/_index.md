@@ -1,4 +1,4 @@
-﻿---
+---
 title: insert_rows метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -39,7 +39,7 @@ def insert_rows(self, row_index, total_rows, update_reference):
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | total_rows | int | Количество вставляемых строк.|
-| update_reference | bool | Указывает, будут ли обновлены ссылки на других рабочих листах.|
+| update_reference | bool |Указывает, будут ли обновлены ссылки на других рабочих листах.|
 
 
 ##  insert_rows(row_index, total_rows, options) {#int-int-InsertOptions}
@@ -57,7 +57,7 @@ def insert_rows(self, row_index, total_rows, options):
 | :- | :- | :- |
 | row_index | int | Индекс строки.|
 | total_rows | int | Количество вставляемых строк.|
-| options | [InsertOptions](/cells/ru/python-net/aspose.cells/insertoptions) | Указывает, будут ли обновлены ссылки на других рабочих листах.|
+| options | [InsertOptions](/cells/ru/python-net/aspose.cells/insertoptions) |Указывает, будут ли обновлены ссылки на других рабочих листах.|
 
 
 

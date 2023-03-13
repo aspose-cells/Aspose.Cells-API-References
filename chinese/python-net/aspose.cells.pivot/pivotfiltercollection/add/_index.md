@@ -1,4 +1,4 @@
-﻿---
+---
 title: add方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -24,7 +24,7 @@ def add(self, field_index, type):
 
 |范围|类型|描述|
 | :- | :- | :- |
-| field_index | int |PivotField 索引|
+| field_index | int | PivotField 索引|
 | type | [PivotFilterType](/cells/zh/python-net/aspose.cells.pivot/pivotfiltertype) |PivotFilter 类型|
 
 

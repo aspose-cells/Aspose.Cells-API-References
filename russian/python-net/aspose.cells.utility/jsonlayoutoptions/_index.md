@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLayoutOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,7 +23,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [array_as_table](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table) |Массив процессов в виде таблицы.|
+| [array_as_table](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table) | Массив процессов в виде таблицы.|
 | [ignore_null](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_null) | Указывает, игнорируется ли нулевое значение.|
 | [ignore_array_title](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_array_title) | Указывает, следует ли игнорировать заголовок, если массив является свойством объекта.|
 | [ignore_object_title](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_object_title) | Указывает, следует ли игнорировать заголовок, если объект является свойством объекта.|

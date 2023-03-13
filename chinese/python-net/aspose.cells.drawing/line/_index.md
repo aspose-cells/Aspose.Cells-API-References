@@ -1,4 +1,4 @@
-﻿---
+---
 title: Line类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 290
 url: /zh/python-net/aspose.cells.drawing/line/
 is_root: false
 ---
-##  Line类
+## Line类
 封装表示行格式的对象。
 
 

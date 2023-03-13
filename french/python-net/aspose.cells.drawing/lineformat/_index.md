@@ -1,4 +1,4 @@
-﻿---
+---
 title: LineFormat classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,7 +22,7 @@ Le type LineFormat expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [type](/cells/fr/python-net/aspose.cells.drawing/lineformat/type) | Obtient et définit le type de remplissage.|
+| [type](/cells/fr/python-net/aspose.cells.drawing/lineformat/type) |Obtient et définit le type de remplissage.|
 | [fill_type](/cells/fr/python-net/aspose.cells.drawing/lineformat/fill_type) | Obtient et définit le type de remplissage|
 | [transparency](/cells/fr/python-net/aspose.cells.drawing/lineformat/transparency) | Renvoie ou définit le degré de transparence de la zone sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).|
 | [set_type](/cells/fr/python-net/aspose.cells.drawing/lineformat/set_type) | Obtient le type de jeu de format de remplissage.|
@@ -50,7 +50,7 @@ Le type LineFormat expose les membres suivants :
 | [begin_arrowhead_width](/cells/fr/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_width) | Obtient et définit le type de largeur de flèche de début de la ligne.|
 | [begin_arrowhead_length](/cells/fr/python-net/aspose.cells.drawing/lineformat/begin_arrowhead_length) | Obtient et définit le type de longueur de la flèche de début de la ligne.|
 | [end_arrowhead_style](/cells/fr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_style) | Obtient et définit le type de flèche de fin de la ligne.|
-| [end_arrowhead_width](/cells/fr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) | Obtient et définit le type de largeur de flèche de fin de la ligne.|
+| [end_arrowhead_width](/cells/fr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_width) |Obtient et définit le type de largeur de flèche de fin de la ligne.|
 | [end_arrowhead_length](/cells/fr/python-net/aspose.cells.drawing/lineformat/end_arrowhead_length) | Obtient et définit le type de longueur de flèche de fin de la ligne.|
 | [weight](/cells/fr/python-net/aspose.cells.drawing/lineformat/weight) | Obtient ou définit l'épaisseur de la ligne en unités de points.|
 

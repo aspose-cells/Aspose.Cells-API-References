@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_preset_theme_gradient метод
 second_title: Aspose.Cells for Python via .NET API
 description:

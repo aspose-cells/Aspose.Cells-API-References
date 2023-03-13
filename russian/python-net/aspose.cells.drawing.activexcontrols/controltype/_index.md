@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ is_root: false
 | LABEL | Этикетка|
 | IMAGE | Изображение|
 | TOGGLE_BUTTON | Кнопка-переключатель|
-| SCROLL_BAR |Полоса прокрутки|
+| SCROLL_BAR | Полоса прокрутки|
 | UNKNOWN | Неизвестный|
 
 

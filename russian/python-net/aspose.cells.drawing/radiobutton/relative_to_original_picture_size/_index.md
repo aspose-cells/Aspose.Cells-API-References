@@ -1,4 +1,4 @@
-﻿---
+---
 title: relative_to_original_picture_size недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

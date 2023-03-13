@@ -1,4 +1,4 @@
-﻿---
+---
 title: compare méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -25,7 +25,7 @@ def compare(self, v1, v2, ignore_case):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | v1 | str | la première chaîne|
-| v2 | str | la deuxième chaîne|
+| v2 | str | la deuxième corde|
 | ignore_case | bool | si ignorer la casse lors de la comparaison des valeurs|
 
 

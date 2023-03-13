@@ -1,4 +1,4 @@
-﻿---
+---
 title: check_mixed_value_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

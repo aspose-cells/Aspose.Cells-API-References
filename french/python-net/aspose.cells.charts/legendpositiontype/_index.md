@@ -1,4 +1,4 @@
-﻿---
+---
 title: LegendPositionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ Le type LegendPositionType expose les membres suivants :
 | BOTTOM | Affiche la légende au bas de la zone de traçage du graphique.|
 | CORNER | Affiche la légende dans le coin de la zone de traçage du graphique.|
 | LEFT | Affiche la légende à gauche de la zone de traçage du graphique.|
-| NOT_DOCKED | Indique que la légende n'est pas ancrée.|
+| NOT_DOCKED |Indique que la légende n'est pas ancrée.|
 | RIGHT | Affiche la légende à droite de la zone de traçage du graphique.|
 | TOP | Affiche la légende en haut de la zone de traçage du graphique.|
 

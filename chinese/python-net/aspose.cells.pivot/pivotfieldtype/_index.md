@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotFieldType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 170
 url: /zh/python-net/aspose.cells.pivot/pivotfieldtype/
 is_root: false
 ---
-##  PivotFieldType枚举
+## PivotFieldType枚举
 表示数据透视表字段类型。
 
 
 
 PivotFieldType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | UNDEFINED |呈现基本数据透视字段类型。|

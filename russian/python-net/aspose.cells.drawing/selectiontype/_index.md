@@ -1,4 +1,4 @@
-﻿---
+---
 title: SelectionType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,8 +17,8 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| SINGLE | Одинарный тип выбора.|
-| MULTI | Тип множественного выбора.|
+| SINGLE | Одиночный тип выбора.|
+| MULTI |Тип множественного выбора.|
 | EXTEND | Расширить тип выбора.|
 
 

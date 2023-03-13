@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalConnectionCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 60
 url: /zh/python-net/aspose.cells.externalconnections/externalconnectioncollection/
 is_root: false
 ---
-##  ExternalConnectionCollection类
+## ExternalConnectionCollection类
 指定 [ExternalConnection](/cells/zh/python-net/aspose.cells.externalconnections/externalconnection) 集合
 
 

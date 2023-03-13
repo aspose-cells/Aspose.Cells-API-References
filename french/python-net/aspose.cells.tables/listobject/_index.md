@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListObject classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,12 +22,12 @@ Le type ListObject expose les membres suivants :
 | [start_row](/cells/fr/python-net/aspose.cells.tables/listobject/start_row) | Obtient la ligne de début de la plage.|
 | [start_column](/cells/fr/python-net/aspose.cells.tables/listobject/start_column) | Obtient la colonne de début de la plage.|
 | [end_row](/cells/fr/python-net/aspose.cells.tables/listobject/end_row) | Obtient la dernière ligne de la plage.|
-| [end_column](/cells/fr/python-net/aspose.cells.tables/listobject/end_column) | Obtient la colonne de fin de la plage.|
+| [end_column](/cells/fr/python-net/aspose.cells.tables/listobject/end_column) |Obtient la colonne de fin de la plage.|
 | [list_columns](/cells/fr/python-net/aspose.cells.tables/listobject/list_columns) | Obtient ListColumns de ListObject.|
 | [show_header_row](/cells/fr/python-net/aspose.cells.tables/listobject/show_header_row) | Obtient et définit si ce ListObject affiche la ligne d'en-tête.|
-| [show_totals](/cells/fr/python-net/aspose.cells.tables/listobject/show_totals) |Obtient et définit si ce ListObject affiche la ligne totale.|
+| [show_totals](/cells/fr/python-net/aspose.cells.tables/listobject/show_totals) | Obtient et définit si ce ListObject affiche la ligne totale.|
 | [data_range](/cells/fr/python-net/aspose.cells.tables/listobject/data_range) | Obtient la plage de données de ListObject.|
-| [query_table](/cells/fr/python-net/aspose.cells.tables/listobject/query_table) |Obtient le QueryTable lié.|
+| [query_table](/cells/fr/python-net/aspose.cells.tables/listobject/query_table) | Obtient le QueryTable lié.|
 | [data_source_type](/cells/fr/python-net/aspose.cells.tables/listobject/data_source_type) | Obtient le type de source de données de la table.|
 | [auto_filter](/cells/fr/python-net/aspose.cells.tables/listobject/auto_filter) | Obtient le filtre automatique.|
 | [display_name](/cells/fr/python-net/aspose.cells.tables/listobject/display_name) | Obtient et définit le nom d'affichage.|

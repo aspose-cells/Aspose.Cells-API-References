@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_active_x_control méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -27,7 +27,7 @@ def add_active_x_control(self, type, top_row, top, left_column, left, width, hei
 | type | aspose.cells.drawing.activexcontrols.ControlType | Le type de contrôle.|
 | top_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical de Shape par rapport à sa ligne de gauche, en pixels.|
-| left_column | int |Index de la colonne en haut à gauche.|
+| left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal de Shape par rapport à sa colonne de gauche, en pixels.|
 | width | int | Représente la largeur de Shape, en unité de pixel.|
 | height | int | Représente la hauteur de Shape, en unité de pixel.|

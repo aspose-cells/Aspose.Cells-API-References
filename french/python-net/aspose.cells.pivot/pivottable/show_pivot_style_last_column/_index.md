@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_pivot_style_last_column propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  show_pivot_style_last_column propriété
 
-Indique si la mise en forme des bandes de colonnes est appliquée.
+Indique si la mise en forme des bandes de colonne est appliquée.
 ###  Définition:
 ```python
 @property

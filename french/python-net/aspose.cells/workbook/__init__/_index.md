@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workbook constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -110,7 +110,7 @@ def __init__(self, file, load_options):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | file | str | Le nom du fichier.|
-| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de chargement|
+| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de charge|
 
 
 ##  Workbook(stream, load_options) {#io.RawIOBase-LoadOptions}
@@ -127,7 +127,7 @@ def __init__(self, stream, load_options):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | stream | io.RawIOBase | Le flux.|
-| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de chargement|
+| load_options | [LoadOptions](/cells/fr/python-net/aspose.cells/loadoptions) | Les options de charge|
 
 
 

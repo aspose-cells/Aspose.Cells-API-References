@@ -1,4 +1,4 @@
-﻿---
+---
 title: content_status недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

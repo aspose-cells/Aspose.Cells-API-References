@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_refers_to метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ def set_refers_to(self, refers_to, is_r1c1, is_local):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | refers_to | str | Ссылка.|
-| is_r1c1 | bool | Является ли ссылка форматом R1C1.|
+| is_r1c1 | bool |Является ли ссылка форматом R1C1.|
 | is_local | bool | Отформатирована ли ссылка в языковом стандарте.|
 
 

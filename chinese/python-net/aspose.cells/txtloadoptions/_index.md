@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtLoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1510
 url: /zh/python-net/aspose.cells/txtloadoptions/
 is_root: false
 ---
-##  TxtLoadOptions类
+## TxtLoadOptions类
 表示加载文本文件的选项。
 
 

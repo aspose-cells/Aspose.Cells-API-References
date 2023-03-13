@@ -1,4 +1,4 @@
-﻿---
+---
 title: PaperSizeType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,8 +18,8 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | PAPER_LETTER | Letter (8-1/2 дюйма x 11 дюймов)|
-| PAPER_LETTER_SMALL |Letter Small (8-1/2 дюйма x 11 дюймов)|
-| PAPER_TABLOID | Таблоид (11 дюймов x 17 дюймов)|
+| PAPER_LETTER_SMALL | Letter Small (8-1/2 дюйма x 11 дюймов)|
+| PAPER_TABLOID |Таблоид (11 дюймов x 17 дюймов)|
 | PAPER_LEDGER | Леджер (17 дюймов x 11 дюймов)|
 | PAPER_LEGAL | Legal (8-1/2 дюйма x 14 дюймов)|
 | PAPER_STATEMENT | Заявление (5-1/2 дюйма x 8-1/2 дюйма)|
@@ -48,7 +48,7 @@ is_root: false
 | PAPER_ENVELOPE_C3 | Конверт C3 (324 мм x 458 мм)|
 | PAPER_ENVELOPE_C4 | Конверт C4 (229 мм x 324 мм)|
 | PAPER_ENVELOPE_C6 | Конверт C6 (114 мм x 162 мм)|
-| PAPER_ENVELOPE_C65 | Конверт C65 (114 мм x 229 мм)|
+| PAPER_ENVELOPE_C65 |Конверт C65 (114 мм x 229 мм)|
 | PAPER_ENVELOPE_B4 | Конверт B4 (250 мм x 353 мм)|
 | PAPER_ENVELOPE_B5 | Конверт B5 (176 мм x 250 мм)|
 | PAPER_ENVELOPE_B6 | Конверт B6 (176 мм x 125 мм)|
@@ -68,7 +68,7 @@ is_root: false
 | PAPER_LEGAL_EXTRA | US Legal Extra 9 \275 x 15 дюймов|
 | PAPER_TABLOID_EXTRA | US Tabloid Extra 11,69 x 18 дюймов|
 | PAPER_A4_EXTRA | A4 Extra 9,27 x 12,69 дюйма|
-| PAPER_LETTER_TRANSVERSE |Письмо поперечное 8 \ 275 x 11 дюймов|
+| PAPER_LETTER_TRANSVERSE | Письмо поперечное 8 \ 275 x 11 дюймов|
 | PAPER_A4_TRANSVERSE | A4 Поперечное 210 х 297 мм|
 | PAPER_LETTER_EXTRA_TRANSVERSE | Letter Extra Transverse 9\275 x 12 дюймов|
 | PAPER_SUPER_A | SuperA/SuperA/A4 227 x 356 мм|
@@ -76,7 +76,7 @@ is_root: false
 | PAPER_LETTER_PLUS | Письмо США плюс 8,5 x 12,69 дюйма|
 | PAPER_A4_PLUS | А4 плюс 210 х 330 мм|
 | PAPER_A5_TRANSVERSE | A5 Поперечное 148 х 210 мм|
-| PAPER_JISB5_TRANSVERSE | B5 (JIS) Поперечное 182 x 257 мм|
+| PAPER_JISB5_TRANSVERSE |B5 (JIS) Поперечное 182 x 257 мм|
 | PAPER_A3_EXTRA | А3 Экстра 322 х 445 мм|
 | PAPER_A5_EXTRA | А5 экстра 174 х 235 мм|
 | PAPER_ISOB5_EXTRA | B5 (ISO) Экстра 201 x 276 мм|
@@ -96,7 +96,7 @@ is_root: false
 | PAPER_JISB4_ROTATED | B4 (JIS) Повернутый 364 x 257 мм|
 | PAPER_JISB5_ROTATED | B5 (JIS) Повернутый 257 x 182 мм|
 | PAPER_JAPANESE_POSTCARD_ROTATED | Японская открытка Повернутая 148 x 100 мм|
-| PAPER_JAPANESE_DOUBLE_POSTCARD_ROTATED |Двойная японская открытка повернутая 148 x 200 мм|
+| PAPER_JAPANESE_DOUBLE_POSTCARD_ROTATED | Двойная японская открытка повернутая 148 x 200 мм|
 | PAPER_A6_ROTATED | A6 Повернутый 148 x 105 мм|
 | PAPER_JAPANESE_ENVELOPE_KAKU_2_ROTATED | Японский конверт Kaku # 2 повернут|
 | PAPER_JAPANESE_ENVELOPE_KAKU_3_ROTATED | Японский конверт Kaku # 3 повернут|
@@ -105,7 +105,7 @@ is_root: false
 | PAPER_JISB6 | B6 (JIS) 128 x 182 мм|
 | PAPER_JISB6_ROTATED | B6 (JIS) Повернутый 182 x 128 мм|
 | PAPER_12X11 | 12 х 11 дюймов|
-| PAPER_JAPANESE_ENVELOPE_YOU4 | Японский конверт №4|
+| PAPER_JAPANESE_ENVELOPE_YOU4 |Японский конверт №4|
 | PAPER_JAPANESE_ENVELOPE_YOU_4_ROTATED | Японский конверт, который вы # 4 повернули|
 | PAPER_PRC16K | КНР 16К 146 х 215 мм|
 | PAPER_PRC32K | КНР 32К 97 х 151 мм|
@@ -125,14 +125,14 @@ is_root: false
 | PAPER_PRC_BIG_32K_ROTATED | PRC 32K (большой) повернутый|
 | PAPER_PRC_ENVELOPE_1_ROTATED | Конверт PRC #1, повернутый 165 x 102 мм|
 | PAPER_PRC_ENVELOPE_2_ROTATED | Конверт PRC #2, повернутый 176 x 102 мм|
-| PAPER_PRC_ENVELOPE_3_ROTATED |Конверт PRC #3, повернутый 176 x 125 мм|
+| PAPER_PRC_ENVELOPE_3_ROTATED | Конверт PRC #3, повернутый 176 x 125 мм|
 | PAPER_PRC_ENVELOPE_4_ROTATED | Конверт PRC № 4 повернутый 208 x 110 мм|
 | PAPER_PRC_ENVELOPE_5_ROTATED | Конверт PRC #5, повернутый 220 x 110 мм|
 | PAPER_PRC_ENVELOPE_6_ROTATED | PRC Envelope #6 Повернутый 230 x 120 мм|
 | PAPER_PRC_ENVELOPE_7_ROTATED | Конверт PRC #7, повернутый 230 x 160 мм|
 | PAPER_PRC_ENVELOPE_8_ROTATED | PRC Envelope #8 Повернутый 309 x 120 мм|
 | PAPER_PRC_ENVELOPE_9_ROTATED | Конверт PRC #9, повернутый 324 x 229 мм|
-| PAPER_PRC_ENVELOPE_10_ROTATED | PRC Envelope #10 Повернутый 458 x 324 мм|
+| PAPER_PRC_ENVELOPE_10_ROTATED |PRC Envelope #10 Повернутый 458 x 324 мм|
 | PAPER_B3 | обычный B3 (13,9 x 19,7 дюйма)|
 | PAPER_BUSINESS_CARD | Визитная карточка (90 мм x 55 мм)|
 | PAPER_THERMAL | Термальный (3 x 11 дюймов)|

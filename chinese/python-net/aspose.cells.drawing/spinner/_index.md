@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spinner类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 670
 url: /zh/python-net/aspose.cells.drawing/spinner/
 is_root: false
 ---
-##  Spinner类
+## Spinner类
 代表窗体控件：Spinner。
 
 

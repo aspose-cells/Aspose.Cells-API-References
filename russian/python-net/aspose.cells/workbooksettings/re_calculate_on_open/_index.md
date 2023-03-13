@@ -1,4 +1,4 @@
-﻿---
+---
 title: re_calculate_on_open недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

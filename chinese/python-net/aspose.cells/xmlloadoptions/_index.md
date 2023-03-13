@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlLoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1690
 url: /zh/python-net/aspose.cells/xmlloadoptions/
 is_root: false
 ---
-##  XmlLoadOptions类
+## XmlLoadOptions类
 表示加载xml的选项。
 
 

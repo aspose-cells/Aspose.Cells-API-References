@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExceptionType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,7 +27,7 @@ is_root: false
 | INVALID_OPERATOR | Неверный оператор.|
 | INCORRECT_PASSWORD | Неверный пароль.|
 | LICENSE | Ошибки, связанные с лицензией.|
-| LIMITATION | Ошибка ограничения MS Excel.|
+| LIMITATION |Ошибка ограничения MS Excel.|
 | PAGE_SETUP | Неверный параметр настройки страницы.|
 | PIVOT_TABLE | Недопустимая настройка сводной таблицы.|
 | SHAPE | Недопустимая настройка объекта рисования.|

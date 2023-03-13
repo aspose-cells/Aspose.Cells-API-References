@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoLineStyle перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | SINGLE | Одна строка (шириной lineWidth)|
 | THICK_BETWEEN_THIN | Три линии, тонкая, толстая, тонкая|
-| THIN_THICK | Двойные линии, одна тонкая, одна толстая|
+| THIN_THICK |Двойные линии, одна тонкая, одна толстая|
 | THICK_THIN | Двойные линии, одна толстая, одна тонкая|
 | THIN_THIN | Двойные линии одинаковой ширины|
 

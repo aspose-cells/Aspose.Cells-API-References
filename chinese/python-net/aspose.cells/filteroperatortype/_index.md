@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterOperatorType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2050
 url: /zh/python-net/aspose.cells/filteroperatortype/
 is_root: false
 ---
-##  FilterOperatorType枚举
+## FilterOperatorType枚举
 自定义过滤器运算符类型。
 
 
 
 FilterOperatorType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | LESS_OR_EQUAL |表示 LessOrEqual 运算符。|

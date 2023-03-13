@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotArea класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -34,7 +34,7 @@ is_root: false
 | [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/plotarea/is_automatic_size) | Указывает, имеет ли область графика автоматический размер.|
 | [x](/cells/ru/python-net/aspose.cells.charts/plotarea/x) | Получает или получает координату x верхнего левого угла ограничивающей рамки области графика в единицах 1/4000 области диаграммы.|
 | [y](/cells/ru/python-net/aspose.cells.charts/plotarea/y) | Получает или получает координату y верхнего верхнего угла ограничивающей рамки области графика в единицах 1/4000 области диаграммы.|
-| [height](/cells/ru/python-net/aspose.cells.charts/plotarea/height) | Получает или задает высоту ограничивающей рамки области графика в единицах, равных 1/4000 области диаграммы.|
+| [height](/cells/ru/python-net/aspose.cells.charts/plotarea/height) |Получает или задает высоту ограничивающей рамки области графика в единицах, равных 1/4000 области диаграммы.|
 | [width](/cells/ru/python-net/aspose.cells.charts/plotarea/width) | Получает или задает ширину ограничивающей рамки области графика в единицах, равных 1/4000 области диаграммы.|
 | [shadow](/cells/ru/python-net/aspose.cells.charts/plotarea/shadow) | Истинно, если у кадра есть тень.|
 | [shape_properties](/cells/ru/python-net/aspose.cells.charts/plotarea/shape_properties) | Получает объект [ChartFrame.shape_properties](/cells/ru/python-net/aspose.cells.charts/chartframe#shape_properties).|
@@ -42,7 +42,7 @@ is_root: false
 | [default_x](/cells/ru/python-net/aspose.cells.charts/plotarea/default_x) | Представляет x позиции по умолчанию|
 | [default_y](/cells/ru/python-net/aspose.cells.charts/plotarea/default_y) | Представляет y положения по умолчанию|
 | [default_width](/cells/ru/python-net/aspose.cells.charts/plotarea/default_width) | Представляет ширину положения по умолчанию|
-| [default_height](/cells/ru/python-net/aspose.cells.charts/plotarea/default_height) | Представляет высоту положения по умолчанию|
+| [default_height](/cells/ru/python-net/aspose.cells.charts/plotarea/default_height) | Представляет высоту позиции по умолчанию|
 | [inner_x](/cells/ru/python-net/aspose.cells.charts/plotarea/inner_x) | Получает или получает координату x верхнего верхнего угла области графика в единицах 1/4000 области диаграммы.|
 | [inner_y](/cells/ru/python-net/aspose.cells.charts/plotarea/inner_y) | Получает или получает координату x верхнего верхнего угла области графика в единицах 1/4000 области диаграммы.|
 | [inner_height](/cells/ru/python-net/aspose.cells.charts/plotarea/inner_height) | Получает или задает высоту области графика в единицах, равных 1/4000 области диаграммы.|

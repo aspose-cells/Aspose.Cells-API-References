@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_line метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ def add_line(self, upper_left_row, top, upper_left_column, left, height, width):
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение LineShape от его левой строки в пикселях.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение LineShape от его левого столбца в пикселях.|
 | height | int | Представляет высоту LineShape в пикселях.|
 | width | int | Представляет ширину LineShape в пикселях.|

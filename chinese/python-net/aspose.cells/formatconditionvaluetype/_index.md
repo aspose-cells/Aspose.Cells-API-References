@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionValueType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2110
 url: /zh/python-net/aspose.cells/formatconditionvaluetype/
 is_root: false
 ---
-##  FormatConditionValueType枚举
+## FormatConditionValueType枚举
 条件值类型。
 
 
 
 FormatConditionValueType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | FORMULA |的最小值/中点值/最大值<br/>梯度由公式确定。|

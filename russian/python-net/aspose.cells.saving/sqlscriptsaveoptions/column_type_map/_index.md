@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_type_map недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

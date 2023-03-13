@@ -1,4 +1,4 @@
-﻿---
+---
 title: svg_fit_to_view_port 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

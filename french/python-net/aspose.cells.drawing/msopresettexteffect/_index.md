@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoPresetTextEffect dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -41,7 +41,7 @@ Le type MsoPresetTextEffect expose les membres suivants :
 | TEXT_EFFECT22 | TextEffet22|
 | TEXT_EFFECT23 | TextEffet23|
 | TEXT_EFFECT24 | TextEffect24|
-| TEXT_EFFECT25 |TextEffet25|
+| TEXT_EFFECT25 | TextEffet25|
 | TEXT_EFFECT26 | TextEffet26|
 | TEXT_EFFECT27 | TextEffet27|
 | TEXT_EFFECT28 | TextEffet28|

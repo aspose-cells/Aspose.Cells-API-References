@@ -1,4 +1,4 @@
-﻿---
+---
 title: GroupFill类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 260
 url: /zh/python-net/aspose.cells.drawing/groupfill/
 is_root: false
 ---
-##  GroupFill类
+## GroupFill类
 表示此填充格式应继承组的填充属性。
 
 

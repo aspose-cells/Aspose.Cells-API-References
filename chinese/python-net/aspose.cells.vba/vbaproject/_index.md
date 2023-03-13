@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProject类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 30
 url: /zh/python-net/aspose.cells.vba/vbaproject/
 is_root: false
 ---
-##  VbaProject类
+## VbaProject类
 表示 VBA 项目。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PowerQueryFormulaItem类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 50
 url: /zh/python-net/aspose.cells.querytables/powerqueryformulaitem/
 is_root: false
 ---
-##  PowerQueryFormulaItem类
+## PowerQueryFormulaItem类
 表示幂查询公式的项。
 
 

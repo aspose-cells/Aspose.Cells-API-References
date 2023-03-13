@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackgroundGraphicPositionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ Le type OdsPageBackgroundGraphicPositionType expose les membres suivants :
 | TOP_LEFT | En haut à gauche.|
 | TOP_CENTER | Centre supérieur.|
 | TOP_RIGHT | En haut à droite.|
-| CENTER_LEFT |Centre gauche.|
+| CENTER_LEFT | Centre gauche.|
 | CENTER_CENTER | Centre.|
 | CENTER_RIGHT | Centre droit.|
 | BOTTOM_LEFT | En bas à gauche.|

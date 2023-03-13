@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_standard_built_in_name方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

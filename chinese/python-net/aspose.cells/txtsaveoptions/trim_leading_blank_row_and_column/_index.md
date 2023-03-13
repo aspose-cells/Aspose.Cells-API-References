@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_leading_blank_row_and_column 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: invert_if_negative недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

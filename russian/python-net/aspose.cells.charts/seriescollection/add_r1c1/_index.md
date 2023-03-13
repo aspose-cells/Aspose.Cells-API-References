@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_r1c1 метод
 second_title: Aspose.Cells for Python via .NET API
 description:

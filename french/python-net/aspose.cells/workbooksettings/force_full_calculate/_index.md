@@ -1,4 +1,4 @@
-﻿---
+---
 title: force_full_calculate propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

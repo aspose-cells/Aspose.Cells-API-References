@@ -1,4 +1,4 @@
-﻿---
+---
 title: PasteOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1170
 url: /zh/python-net/aspose.cells/pasteoptions/
 is_root: false
 ---
-##  PasteOptions类
+## PasteOptions类
 代表粘贴特殊选项。
 
 

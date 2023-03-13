@@ -1,4 +1,4 @@
-﻿---
+---
 title: precision_strategy propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

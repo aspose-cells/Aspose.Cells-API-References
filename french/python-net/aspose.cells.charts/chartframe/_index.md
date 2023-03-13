@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartFrame classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -28,9 +28,9 @@ Le type ChartFrame expose les membres suivants :
 | [background](/cells/fr/python-net/aspose.cells.charts/chartframe/background) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/chartframe/is_automatic_size) | Indique si le cadre du graphique est dimensionné automatiquement.|
 | [x](/cells/fr/python-net/aspose.cells.charts/chartframe/x) | Obtient ou définit la coordonnée x du coin supérieur gauche en unités de 1/4000 de la zone de graphique.|
-| [y](/cells/fr/python-net/aspose.cells.charts/chartframe/y) | Obtient ou définit la coordonnée y du coin supérieur gauche en unités de 1/4000 de la zone de graphique.|
+| [y](/cells/fr/python-net/aspose.cells.charts/chartframe/y) |Obtient ou définit la coordonnée y du coin supérieur gauche en unités de 1/4000 de la zone de graphique.|
 | [height](/cells/fr/python-net/aspose.cells.charts/chartframe/height) | Obtient ou définit la hauteur du cadre en unités de 1/4000 de la zone de graphique.|
-| [width](/cells/fr/python-net/aspose.cells.charts/chartframe/width) |Obtient ou définit la largeur du cadre en unités de 1/4000 de la zone de graphique.|
+| [width](/cells/fr/python-net/aspose.cells.charts/chartframe/width) | Obtient ou définit la largeur du cadre en unités de 1/4000 de la zone de graphique.|
 | [shadow](/cells/fr/python-net/aspose.cells.charts/chartframe/shadow) | Vrai si le cadre a une ombre.|
 | [shape_properties](/cells/fr/python-net/aspose.cells.charts/chartframe/shape_properties) | Obtient l'objet [ChartFrame.shape_properties](/cells/fr/python-net/aspose.cells.charts/chartframe#shape_properties).|
 | [is_default_pos_be_set](/cells/fr/python-net/aspose.cells.charts/chartframe/is_default_pos_be_set) | Indique si la position par défaut (DefaultX, DefaultY, DefaultWidth et DefaultHeight) est définie.|

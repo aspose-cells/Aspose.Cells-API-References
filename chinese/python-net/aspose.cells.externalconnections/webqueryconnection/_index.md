@@ -1,4 +1,4 @@
-﻿---
+---
 title: WebQueryConnection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 70
 url: /zh/python-net/aspose.cells.externalconnections/webqueryconnection/
 is_root: false
 ---
-##  WebQueryConnection类
+## WebQueryConnection类
 指定 Web 查询源的属性。 Web 查询将从 HTML 表中检索数据，
 并且还可以提供 HTTP“获取”参数，由 Web 服务器在生成 HTML 时进行处理
 包括参数和参数元素。

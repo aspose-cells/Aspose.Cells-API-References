@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyle класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Характеристики
 | Свойство| Описание|
 | :- | :- |
-| [name](/cells/ru/python-net/aspose.cells.tables/tablestyle/name) |Получает имя стиля таблицы.|
+| [name](/cells/ru/python-net/aspose.cells.tables/tablestyle/name) | Получает имя стиля таблицы.|
 | [table_style_elements](/cells/ru/python-net/aspose.cells.tables/tablestyle/table_style_elements) | Получает все элементы стиля таблицы.|
 
 

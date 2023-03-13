@@ -1,4 +1,4 @@
-﻿---
+---
 title: force_full_calculate недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

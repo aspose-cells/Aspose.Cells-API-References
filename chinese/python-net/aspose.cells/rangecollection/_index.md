@@ -1,4 +1,4 @@
-﻿---
+---
 title: RangeCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1260
 url: /zh/python-net/aspose.cells/rangecollection/
 is_root: false
 ---
-##  RangeCollection类
+## RangeCollection类
 封装 [Range](/cells/zh/python-net/aspose.cells/range) 对象的集合。
 
 

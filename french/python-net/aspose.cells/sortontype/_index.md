@@ -1,4 +1,4 @@
-﻿---
+---
 title: SortOnType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type SortOnType expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | VALUE | Trie par la valeur des cellules.|
-| CELL_COLOR | Trie par couleur de cellules.|
+| CELL_COLOR | Trie par couleur de cellule.|
 | FONT_COLOR | Trie par couleur de police des cellules.|
 | ICON | Trie par icône conditionnelle.|
 

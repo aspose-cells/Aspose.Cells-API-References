@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.externalconnections
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,9 +22,9 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
-| [ConnectionDataSourceType](/cells/ru/python-net/aspose.cells.externalconnections/connectiondatasourcetype) | Указывает тип источника внешней базы данных|
+| [ConnectionDataSourceType](/cells/ru/python-net/aspose.cells.externalconnections/connectiondatasourcetype) |Указывает тип источника внешней базы данных|
 | [ConnectionParameterType](/cells/ru/python-net/aspose.cells.externalconnections/connectionparametertype) | Указывает тип параметра внешнего соединения|
 | [CredentialsMethodType](/cells/ru/python-net/aspose.cells.externalconnections/credentialsmethodtype) | Указывает метод учетных данных, используемый для доступа к серверу.|
 | [HtmlFormatHandlingType](/cells/ru/python-net/aspose.cells.externalconnections/htmlformathandlingtype) | Указывает, как обрабатывать форматирование из источника HTML.|

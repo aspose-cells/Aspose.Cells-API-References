@@ -1,4 +1,4 @@
-﻿---
+---
 title: presentation_preference недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  presentation_preference недвижимость
 
-Указание, является ли файл html или mht предпочтительным для презентации.
+Указание, является ли файл html или mht предпочтительным для представления.
 Значение по умолчанию неверно.
 если вы хотите получить более красивую презентацию, установите значение true.
 ###  Определение:

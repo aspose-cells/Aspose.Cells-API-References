@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlPictureSizeMode枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 230
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlpicturesizemode/
 is_root: false
 ---
-##  ControlPictureSizeMode枚举
+## ControlPictureSizeMode枚举
 表示如何显示图片。
 
 
 
 ControlPictureSizeMode 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CLIP |裁剪图片中大于控件边界的任何部分。|

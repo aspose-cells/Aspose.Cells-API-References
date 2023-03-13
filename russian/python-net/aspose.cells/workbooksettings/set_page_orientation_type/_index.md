@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_page_orientation_type метод
 second_title: Aspose.Cells for Python via .NET API
 description:

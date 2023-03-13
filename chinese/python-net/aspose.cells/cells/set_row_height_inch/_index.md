@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_row_height_inch方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

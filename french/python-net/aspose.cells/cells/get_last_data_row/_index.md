@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_last_data_row méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

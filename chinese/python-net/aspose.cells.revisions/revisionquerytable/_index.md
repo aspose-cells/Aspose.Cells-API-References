@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionQueryTable类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 160
 url: /zh/python-net/aspose.cells.revisions/revisionquerytable/
 is_root: false
 ---
-##  RevisionQueryTable类
+## RevisionQueryTable类
 表示查询表字段更改的修订。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalLink класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [type](/cells/ru/python-net/aspose.cells/externallink/type) | Получает тип внешней ссылки.|
 | [original_data_source](/cells/ru/python-net/aspose.cells/externallink/original_data_source) | Представляет сохраненный источник данных внешней ссылки.|
-| [data_source](/cells/ru/python-net/aspose.cells/externallink/data_source) |Представляет источник данных внешней ссылки.|
+| [data_source](/cells/ru/python-net/aspose.cells/externallink/data_source) | Представляет источник данных внешней ссылки.|
 | [is_referred](/cells/ru/python-net/aspose.cells/externallink/is_referred) | Указывает, ссылаются ли на эту внешнюю ссылку другие.|
 | [is_visible](/cells/ru/python-net/aspose.cells/externallink/is_visible) | Указывает, видна ли эта внешняя ссылка в MS Excel.|
 

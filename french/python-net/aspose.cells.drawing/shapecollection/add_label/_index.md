@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_label méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ def add_label(self, upper_left_row, top, upper_left_column, left, height, width)
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical de Label par rapport à sa ligne de gauche, en pixels.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal de Label par rapport à sa colonne de gauche, en pixels.|
 | height | int | Représente la hauteur de Label, en unité de pixel.|
 | width | int | Représente la largeur de Label, en unité de pixel.|

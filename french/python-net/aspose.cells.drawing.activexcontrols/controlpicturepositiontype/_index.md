@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlPicturePositionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -27,9 +27,9 @@ Le type ControlPicturePositionType expose les membres suivants :
 | ABOVE_CENTER | L'image apparaît au-dessus de la légende.<br/> La légende est centrée sous l'image.|
 | ABOVE_RIGHT | L'image apparaît au-dessus de la légende.<br/> La légende est alignée avec le bord droit de l'image.|
 | BELOW_LEFT | L'image apparaît sous la légende.<br/> La légende est alignée avec le bord gauche de l'image.|
-| BELOW_CENTER | L'image apparaît sous la légende.<br/> La légende est centrée au-dessus de l'image.|
+| BELOW_CENTER | L'image apparaît sous la légende.<br/>La légende est centrée au-dessus de l'image.|
 | BELOW_RIGHT | L'image apparaît sous la légende.<br/> La légende est alignée avec le bord droit de l'image.|
-| CENTER | L'image apparaît au centre du contrôle.<br/>La légende est centrée horizontalement et verticalement en haut de l'image.|
+| CENTER | L'image apparaît au centre du contrôle.<br/> La légende est centrée horizontalement et verticalement en haut de l'image.|
 
 
 

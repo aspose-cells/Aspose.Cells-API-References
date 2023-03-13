@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_report_filter_page_by_name méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

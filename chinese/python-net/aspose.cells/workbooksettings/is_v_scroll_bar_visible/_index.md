@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_v_scroll_bar_visible 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

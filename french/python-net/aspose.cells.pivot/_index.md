@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.pivot
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -12,7 +12,7 @@ is_root: false
 ###  Des classes
 | Classe| Description|
 | :- | :- |
-| [PivotField](/cells/fr/python-net/aspose.cells.pivot/pivotfield) | Représente un champ dans un rapport de tableau croisé dynamique.|
+| [PivotField](/cells/fr/python-net/aspose.cells.pivot/pivotfield) |Représente un champ dans un rapport de tableau croisé dynamique.|
 | [PivotFieldCollection](/cells/fr/python-net/aspose.cells.pivot/pivotfieldcollection) | Représente une collection de tous les objets PivotField<br/> dans le type PivotFields spécifique du tableau croisé dynamique.|
 | [PivotFilter](/cells/fr/python-net/aspose.cells.pivot/pivotfilter) | Représente un PivotFilter dans PivotFilter Collection.|
 | [PivotFilterCollection](/cells/fr/python-net/aspose.cells.pivot/pivotfiltercollection) | Représente une collection de tous les objets PivotFilter|
@@ -27,16 +27,16 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
-| [PivotConditionFormatRuleType](/cells/fr/python-net/aspose.cells.pivot/pivotconditionformatruletype) |Représente le type de règle de mise en forme de condition de tableau croisé dynamique.|
+| [PivotConditionFormatRuleType](/cells/fr/python-net/aspose.cells.pivot/pivotconditionformatruletype) | Représente le type de règle de mise en forme de condition de tableau croisé dynamique.|
 | [PivotConditionFormatScopeType](/cells/fr/python-net/aspose.cells.pivot/pivotconditionformatscopetype) | Représente le type d'étendue de mise en forme de condition de tableau croisé dynamique.|
 | [PivotFieldDataDisplayFormat](/cells/fr/python-net/aspose.cells.pivot/pivotfielddatadisplayformat) | Représente le format d'affichage des données dans le champ de données du tableau croisé dynamique.|
-| [PivotFieldSubtotalType](/cells/fr/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) | Description récapitulative pour PivotFieldSubtotalType.|
+| [PivotFieldSubtotalType](/cells/fr/python-net/aspose.cells.pivot/pivotfieldsubtotaltype) |Description récapitulative pour PivotFieldSubtotalType.|
 | [PivotFieldType](/cells/fr/python-net/aspose.cells.pivot/pivotfieldtype) | Représente le type de champ de tableau croisé dynamique.|
 | [PivotFilterType](/cells/fr/python-net/aspose.cells.pivot/pivotfiltertype) | Représente le type de filtre de tableau croisé dynamique.|
 | [PivotGroupByType](/cells/fr/python-net/aspose.cells.pivot/pivotgroupbytype) | Représente le type groupby de tableau croisé dynamique.|
-| [PivotItemPosition](/cells/fr/python-net/aspose.cells.pivot/pivotitemposition) |Représente la position suivante/précédente/toute de l'élément de base du tableau croisé dynamique dans le champ de base .|
+| [PivotItemPosition](/cells/fr/python-net/aspose.cells.pivot/pivotitemposition) | Représente la position suivante/précédente/toute de l'élément de base du tableau croisé dynamique dans le champ de base .|
 | [PivotMissingItemLimitType](/cells/fr/python-net/aspose.cells.pivot/pivotmissingitemlimittype) | Représente le nombre d'éléments à conserver par champ.|
 | [PivotTableAutoFormatType](/cells/fr/python-net/aspose.cells.pivot/pivottableautoformattype) | Représente le type de format automatique de tableau croisé dynamique.|
 | [PivotTableStyleType](/cells/fr/python-net/aspose.cells.pivot/pivottablestyletype) | Représente le type de style de tableau croisé dynamique.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: replace метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -107,7 +107,7 @@ def replace(self, bool_value, new_value):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | bool_value | bool | Логическое значение, которое необходимо заменить.|
-| new_value | any |Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
+| new_value | any | Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
 
 
 ##  replace(int_value, new_value) {#int-any}
@@ -124,7 +124,7 @@ def replace(self, int_value, new_value):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | int_value | int | Заменяемое целочисленное значение.|
-| new_value | any |Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
+| new_value | any | Новое значение. Может быть строкой, целым числом, двойным значением или значением DateTime.|
 
 
 ##  replace(place_holder, new_values, is_vertical) {#str-list-bool}

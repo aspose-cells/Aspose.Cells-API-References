@@ -1,4 +1,4 @@
-﻿---
+---
 title: Format3D类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 190
 url: /zh/python-net/aspose.cells.drawing/format3d/
 is_root: false
 ---
-##  Format3D类
+## Format3D类
 此类指定图表元素或形状的 3D 形状属性。
 
 
@@ -26,7 +26,7 @@ Format3D 类型公开了以下成员：
 ### 方法
 |方法|描述|
 | :- | :- |
-| [has_top_bevel_data()](/cells/zh/python-net/aspose.cells.drawing/format3d/has_top_bevel_data/#) |指示形状是否具有顶部斜面数据。|
+| [has_top_bevel_data()](/cells/zh/python-net/aspose.cells.drawing/format3d/has_top_bevel_data/#) |指示形状是否具有顶部斜角数据。|
 
 
 

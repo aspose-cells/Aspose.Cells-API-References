@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartTextFrame类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 110
 url: /zh/python-net/aspose.cells.charts/charttextframe/
 is_root: false
 ---
-##  ChartTextFrame类
+## ChartTextFrame类
 封装表示包含文本的框架对象的对象。
 
 

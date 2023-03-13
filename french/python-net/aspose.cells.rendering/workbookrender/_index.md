@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -39,7 +39,7 @@ Le type WorkbookRender expose les membres suivants :
 | [to_printer(printer_settings)](/cells/fr/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings) | Rendre le classeur à l'imprimante|
 | [to_printer(printer_settings, job_name)](/cells/fr/python-net/aspose.cells.rendering/workbookrender/to_printer/#aspose.pydrawing.printing.PrinterSettings-str) | Rendre le classeur à l'imprimante|
 | [to_printer(printer_name, print_page_index, print_page_count)](/cells/fr/python-net/aspose.cells.rendering/workbookrender/to_printer/#str-int-int) | Rendre le classeur à l'imprimante|
-| [get_page_size_inch(page_index)](/cells/fr/python-net/aspose.cells.rendering/workbookrender/get_page_size_inch/#int) | Obtenez la taille de la page en pouces de l'image de sortie.|
+| [get_page_size_inch(page_index)](/cells/fr/python-net/aspose.cells.rendering/workbookrender/get_page_size_inch/#int) |Obtenez la taille de la page en pouces de l'image de sortie.|
 | [custom_print(next_page_after_print, print_page_event_args)](/cells/fr/python-net/aspose.cells.rendering/workbookrender/custom_print/#bool-aspose.pydrawing.printing.PrintPageEventArgs) | Le client peut contrôler le paramètre de page de l'imprimante lors de l'impression de chaque page à l'aide de cette fonction.|
 
 

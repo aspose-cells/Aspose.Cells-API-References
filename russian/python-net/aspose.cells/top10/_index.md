@@ -1,4 +1,4 @@
-﻿---
+---
 title: Top10 класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [Top10()](/cells/ru/python-net/aspose.cells/top10/__init__/#) | Создает новый экземпляр Top10|
+| [Top10()](/cells/ru/python-net/aspose.cells/top10/__init__/#) |Создает новый экземпляр Top10|
 
 
 ###  Характеристики

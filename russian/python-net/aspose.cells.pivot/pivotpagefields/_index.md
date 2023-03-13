@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotPageFields класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -32,7 +32,7 @@ is_root: false
 | Метод| Описание|
 | :- | :- |
 | [add_page_field(page_items)](/cells/ru/python-net/aspose.cells.pivot/pivotpagefields/add_page_field/#list) | Добавляет поле страницы.|
-| [add_identify(range_index, page_item_index)](/cells/ru/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) |Устанавливает, какую метку элемента в каждом поле страницы использовать для идентификации диапазона данных.<br/> Значение pageItemIndex.Length должно быть равно PageFieldCount, поэтому сначала добавьте поле страницы.|
+| [add_identify(range_index, page_item_index)](/cells/ru/python-net/aspose.cells.pivot/pivotpagefields/add_identify/#int-list) | Устанавливает, какую метку элемента в каждом поле страницы использовать для идентификации диапазона данных.<br/> Значение pageItemIndex.Length должно быть равно PageFieldCount, поэтому сначала добавьте поле страницы.|
 
 
 

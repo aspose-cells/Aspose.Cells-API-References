@@ -1,4 +1,4 @@
-﻿---
+---
 title: TickMarkType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,8 +18,8 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | CROSS | Тип галочки — Крест.|
-| INSIDE |Тип галочки — внутри.|
-| NONE | Тип деления — None.|
+| INSIDE | Тип галочки — внутри.|
+| NONE |Тип деления — None.|
 | OUTSIDE | Тип галочки — снаружи|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeFormat类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 540
 url: /zh/python-net/aspose.cells.drawing/shapeformat/
 is_root: false
 ---
-##  ShapeFormat类
+## ShapeFormat类
 
 
 ShapeFormat 类型公开了以下成员：

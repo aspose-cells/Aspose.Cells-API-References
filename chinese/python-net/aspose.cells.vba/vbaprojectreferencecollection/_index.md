@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReferenceCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 50
 url: /zh/python-net/aspose.cells.vba/vbaprojectreferencecollection/
 is_root: false
 ---
-##  VbaProjectReferenceCollection类
+## VbaProjectReferenceCollection类
 表示 VBA 项目的所有引用。
 
 

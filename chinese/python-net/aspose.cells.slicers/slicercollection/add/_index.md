@@ -1,4 +1,4 @@
-﻿---
+---
 title: add方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -26,7 +26,7 @@ def add(self, pivot, dest_cell_name, base_field_name):
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |切片器范围左上角的单元格。|
-| base_field_name | str |PivotTable.BaseFields 中 PivotField 的名称|
+| base_field_name | str | PivotTable.BaseFields 中 PivotField 的名称|
 
 ### 例子
 
@@ -56,7 +56,7 @@ def add(self, pivot, dest_cell_name, base_field_index):
 | :- | :- | :- |
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | dest_cell_name | str |切片器范围左上角的单元格。|
-| base_field_index | int | PivotTable.BaseFields 中 PivotField 的索引|
+| base_field_index | int |PivotTable.BaseFields 中 PivotField 的索引|
 
 ### 例子
 
@@ -115,7 +115,7 @@ def add(self, table, index, dest_cell_name):
 |范围|类型|描述|
 | :- | :- | :- |
 | table | aspose.cells.tables.ListObject |ListObject 对象|
-| index | int | ListObject.ListColumns 中 ListColumn 的索引|
+| index | int |ListObject.ListColumns 中 ListColumn 的索引|
 | dest_cell_name | str |切片器范围左上角的单元格。|
 
 ### 例子
@@ -177,7 +177,7 @@ def add(self, pivot, row, column, base_field_name):
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |切片器范围左上角单元格的行索引。|
 | column | int |切片器区域左上角单元格的列索引。|
-| base_field_name | str |PivotTable.BaseFields 中 PivotField 的名称|
+| base_field_name | str | PivotTable.BaseFields 中 PivotField 的名称|
 
 ### 例子
 
@@ -208,7 +208,7 @@ def add(self, pivot, row, column, base_field_index):
 | pivot | aspose.cells.pivot.PivotTable |数据透视表对象|
 | row | int |切片器范围左上角单元格的行索引。|
 | column | int |切片器区域左上角单元格的列索引。|
-| base_field_index | int | PivotTable.BaseFields 中 PivotField 的索引|
+| base_field_index | int |PivotTable.BaseFields 中 PivotField 的索引|
 
 ### 例子
 

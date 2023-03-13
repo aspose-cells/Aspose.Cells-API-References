@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_color_in_palette méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

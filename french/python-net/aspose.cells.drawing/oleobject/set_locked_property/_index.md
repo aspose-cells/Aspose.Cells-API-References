@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_locked_property méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

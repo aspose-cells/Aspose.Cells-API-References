@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_saving_callback недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Validation classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ Le type Validation expose les membres suivants :
 | [input_title](/cells/fr/python-net/aspose.cells/validation/input_title) | Représente le titre de la boîte de dialogue d'entrée de validation des données.|
 | [error_message](/cells/fr/python-net/aspose.cells/validation/error_message) | Représente le message d'erreur de validation des données.|
 | [error_title](/cells/fr/python-net/aspose.cells/validation/error_title) | Représente le titre de la boîte de dialogue d'erreur de validation des données.|
-| [show_input](/cells/fr/python-net/aspose.cells/validation/show_input) | Indique si le message d'entrée de validation des données s'affiche chaque fois que l'utilisateur sélectionne une cellule dans la plage de validation des données.|
+| [show_input](/cells/fr/python-net/aspose.cells/validation/show_input) |Indique si le message d'entrée de validation des données s'affiche chaque fois que l'utilisateur sélectionne une cellule dans la plage de validation des données.|
 | [show_error](/cells/fr/python-net/aspose.cells/validation/show_error) | Indique si le message d'erreur de validation des données s'affichera chaque fois que l'utilisateur saisira des données non valides.|
 | [ignore_blank](/cells/fr/python-net/aspose.cells/validation/ignore_blank) | Indique si les valeurs vides sont autorisées par la validation des données de plage.|
 | [formula1](/cells/fr/python-net/aspose.cells/validation/formula1) | Représente la valeur ou l'expression associée à la validation des données.|

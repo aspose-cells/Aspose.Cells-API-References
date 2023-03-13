@@ -1,4 +1,4 @@
-﻿---
+---
 title: FilterType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2060
 url: /zh/python-net/aspose.cells/filtertype/
 is_root: false
 ---
-##  FilterType枚举
+## FilterType枚举
 过滤器类型。
 
 
 
 FilterType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | COLOR_FILTER |按单元格的填充颜色过滤。|

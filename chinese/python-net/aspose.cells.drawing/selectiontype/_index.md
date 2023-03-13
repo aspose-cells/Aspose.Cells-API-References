@@ -1,4 +1,4 @@
-﻿---
+---
 title: SelectionType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1130
 url: /zh/python-net/aspose.cells.drawing/selectiontype/
 is_root: false
 ---
-##  SelectionType枚举
+## SelectionType枚举
 列表框的选择类型。
 
 
 
 SelectionType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | SINGLE |单一选择类型。|

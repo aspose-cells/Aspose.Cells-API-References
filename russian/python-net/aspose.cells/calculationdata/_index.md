@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationData класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,8 +21,8 @@ is_root: false
 | [workbook](/cells/ru/python-net/aspose.cells/calculationdata/workbook) | Получает объект Workbook, в котором находится функция.|
 | [worksheet](/cells/ru/python-net/aspose.cells/calculationdata/worksheet) | Получает объект Worksheet, в котором находится функция.|
 | [cell_row](/cells/ru/python-net/aspose.cells/calculationdata/cell_row) | Получает индекс строки ячейки, в которой находится функция.|
-| [cell_column](/cells/ru/python-net/aspose.cells/calculationdata/cell_column) |Получает индекс столбца ячейки, в которой находится функция.|
-| [cell](/cells/ru/python-net/aspose.cells/calculationdata/cell) | Получает объект Cell, в котором находится функция.|
+| [cell_column](/cells/ru/python-net/aspose.cells/calculationdata/cell_column) | Получает индекс столбца ячейки, в которой находится функция.|
+| [cell](/cells/ru/python-net/aspose.cells/calculationdata/cell) |Получает объект Cell, в котором находится функция.|
 | [function_name](/cells/ru/python-net/aspose.cells/calculationdata/function_name) | Получает имя функции для вычисления.|
 | [param_count](/cells/ru/python-net/aspose.cells/calculationdata/param_count) | Получает количество параметров|
 

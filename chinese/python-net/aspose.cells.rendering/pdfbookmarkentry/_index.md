@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfBookmarkEntry类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 80
 url: /zh/python-net/aspose.cells.rendering/pdfbookmarkentry/
 is_root: false
 ---
-##  PdfBookmarkEntry类
+## PdfBookmarkEntry类
 PdfBookmarkEntry 是 pdf 书签中的条目。
 如果当前实例的 Text 属性为 null 或 ""，
 当前实例将被隐藏，子实例将被插入到当前级别。

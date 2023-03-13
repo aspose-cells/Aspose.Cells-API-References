@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReferenceCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,12 +24,12 @@ Le type VbaProjectReferenceCollection expose les membres suivants :
 | Méthode| Description|
 | :- | :- |
 | [copy_to(array)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/copy_to/#list) | Copie la totalité de la liste de tableaux dans une liste de tableaux unidimensionnelle compatible, en commençant au début de la liste de tableaux cible.|
-| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/copy_to/#int-list-int-int) | Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
+| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/copy_to/#int-list-int-int) |Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
 | [index_of(item, index)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/index_of/#VbaProjectReference-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui s'étend de l'index spécifié au dernier élément.|
 | [index_of(item, index, count)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/index_of/#VbaProjectReference-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui commence à l'index spécifié et contient le nombre d'éléments spécifié.|
 | [last_index_of(item)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/last_index_of/#VbaProjectReference) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la liste complète du tableau.|
-| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/last_index_of/#VbaProjectReference-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
-| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/last_index_of/#VbaProjectReference-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
+| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/last_index_of/#VbaProjectReference-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
+| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/last_index_of/#VbaProjectReference-int-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
 | [add_registered_reference(name, libid)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/add_registered_reference/#str-str) | Ajoutez une référence à une bibliothèque de types Automation.|
 | [add_control_refrernce(name, libid, twiddledlibid, extended_libid)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/add_control_refrernce/#str-str-str-str) | Ajoutez une référence à une bibliothèque de types modifiée et à sa bibliothèque de types étendue.|
 | [add_project_refrernce(name, absolute_libid, relative_libid)](/cells/fr/python-net/aspose.cells.vba/vbaprojectreferencecollection/add_project_refrernce/#str-str-str) | Ajoute une référence à un projet VBA externe.|

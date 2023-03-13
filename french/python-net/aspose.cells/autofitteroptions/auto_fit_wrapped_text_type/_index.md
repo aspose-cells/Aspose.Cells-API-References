@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_wrapped_text_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

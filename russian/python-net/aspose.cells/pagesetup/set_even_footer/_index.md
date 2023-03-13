@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_even_footer метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ def set_even_footer(self, section, footer_script):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| section | int |0: левая часть, 1: центральная часть, 2: правая часть.|
+| section | int | 0: левая часть, 1: центральная часть, 2: правая часть.|
 | footer_script | str | Скрипт формата нижнего колонтитула.|
 
 

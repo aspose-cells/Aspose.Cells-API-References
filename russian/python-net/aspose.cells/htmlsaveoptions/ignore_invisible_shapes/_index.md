@@ -1,4 +1,4 @@
-﻿---
+---
 title: ignore_invisible_shapes недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

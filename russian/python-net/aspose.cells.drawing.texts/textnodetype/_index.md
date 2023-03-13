@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextNodeType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | TEXT_RUN | Представляет текстовый узел.|
-| TEXT_PARAGRAPH |Представляет абзац текста.|
+| TEXT_PARAGRAPH | Представляет абзац текста.|
 | EQUATION | Представляет текст уравнения.|
 
 

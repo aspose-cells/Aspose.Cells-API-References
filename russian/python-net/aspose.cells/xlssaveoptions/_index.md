@@ -1,4 +1,4 @@
-﻿---
+---
 title: XlsSaveOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -36,8 +36,8 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/xlssaveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/xlssaveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/xlssaveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/xlssaveoptions/sort_external_names) | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
-| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/xlssaveoptions/refresh_chart_cache) |Указывает, обновляются ли данные кэша диаграммы.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/xlssaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
+| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/xlssaveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
 | [warning_callback](/cells/ru/python-net/aspose.cells/xlssaveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/xlssaveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [light_cells_data_provider](/cells/ru/python-net/aspose.cells/xlssaveoptions/light_cells_data_provider) | Поставщик данных для предоставления данных ячеек для сохранения книги в облегченном режиме.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: StyleModifyFlag перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,13 +17,13 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| LEFT_BORDER |Указывает, была ли изменена левая граница стиля.|
+| LEFT_BORDER | Указывает, была ли изменена левая граница стиля.|
 | RIGHT_BORDER | Указывает, была ли изменена правая граница стиля.|
 | TOP_BORDER | Указывает, была ли изменена верхняя граница стиля.|
 | BOTTOM_BORDER | Указывает, была ли изменена нижняя граница стиля.|
-| DIAGONAL_DOWN_BORDER | Указывает, была ли изменена граница по диагонали вниз для стиля.|
+| DIAGONAL_DOWN_BORDER |Указывает, была ли изменена граница по диагонали вниз для стиля.|
 | DIAGONAL_UP_BORDER | Указывает, была ли изменена граница по диагонали вверх для стиля.|
-| DIAGONAL | Указывает, будет ли одна или несколько диагональных границ ([StyleModifyFlag.DIAGONAL_DOWN_BORDER](/cells/ru/python-net/aspose.cells/stylemodifyflag#DIAGONAL_DOWN_BORDER),<br/>[StyleModifyFlag.DIAGONAL_UP_BORDER](/cells/ru/python-net/aspose.cells/stylemodifyflag#DIAGONAL_UP_BORDER)) были изменены для стиля.|
+| DIAGONAL | Указывает, будет ли одна или несколько диагональных границ ([StyleModifyFlag.DIAGONAL_DOWN_BORDER](/cells/ru/python-net/aspose.cells/stylemodifyflag#DIAGONAL_DOWN_BORDER),<br/> [StyleModifyFlag.DIAGONAL_UP_BORDER](/cells/ru/python-net/aspose.cells/stylemodifyflag#DIAGONAL_UP_BORDER)) были изменены для стиля.|
 | HORIZONTAL_BORDER | Указывает, была ли изменена горизонтальная граница стиля.<br/> Только для динамического стиля, такого как условное форматирование.|
 | VERTICAL_BORDER | Указывает, была ли изменена вертикальная граница стиля.<br/> Только для динамического стиля, такого как условное форматирование.|
 | BORDERS | Указывает, является ли одна или несколько границ ([StyleModifyFlag.LEFT_BORDER](/cells/ru/python-net/aspose.cells/stylemodifyflag#LEFT_BORDER),<br/>[StyleModifyFlag.RIGHT_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#RIGHT_BORDER), [StyleModifyFlag.TOP_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#TOP_BORDER), [StyleModifyFlag.BOTTOM_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#BOTTOM_BORDER),<br/>[StyleModifyFlag.DIAGONAL](/cells/python-net/aspose.cells/stylemodifyflag#DIAGONAL), [StyleModifyFlag.HORIZONTAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#HORIZONTAL_BORDER), [StyleModifyFlag.VERTICAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#VERTICAL_BORDER))<br/> были изменены для стиля.|
@@ -34,7 +34,7 @@ is_root: false
 | ROTATION | Указывает, было ли изменено свойство вращения.|
 | WRAP_TEXT | Указывает, было ли изменено свойство переноса текста.|
 | SHRINK_TO_FIT | Указывает, было ли изменено свойство сжатия по размеру.|
-| TEXT_DIRECTION | Указывает, было ли изменено свойство направления текста.|
+| TEXT_DIRECTION |Указывает, было ли изменено свойство направления текста.|
 | RELATIVE_INDENT | Указывает, было ли изменено свойство относительного отступа для стиля.<br/> Только для динамического стиля, такого как условное форматирование.|
 | ALIGNMENT_SETTINGS | Указывает, одно или несколько свойств, связанных с выравниванием ([StyleModifyFlag.HORIZONTAL_ALIGNMENT](/cells/ru/python-net/aspose.cells/stylemodifyflag#HORIZONTAL_ALIGNMENT),<br/>[StyleModifyFlag.VERTICAL_ALIGNMENT](/cells/python-net/aspose.cells/stylemodifyflag#VERTICAL_ALIGNMENT), [StyleModifyFlag.ROTATION](/cells/python-net/aspose.cells/stylemodifyflag#ROTATION), [StyleModifyFlag.WRAP_TEXT](/cells/python-net/aspose.cells/stylemodifyflag#WRAP_TEXT),<br/>[StyleModifyFlag.WRAP_TEXT](/cells/python-net/aspose.cells/stylemodifyflag#WRAP_TEXT), [StyleModifyFlag.INDENT](/cells/python-net/aspose.cells/stylemodifyflag#INDENT), [StyleModifyFlag.SHRINK_TO_FIT](/cells/python-net/aspose.cells/stylemodifyflag#SHRINK_TO_FIT), [StyleModifyFlag.TEXT_DIRECTION](/cells/python-net/aspose.cells/stylemodifyflag#TEXT_DIRECTION),<br/> [StyleModifyFlag.RELATIVE_INDENT](/cells/ru/python-net/aspose.cells/stylemodifyflag#RELATIVE_INDENT)) были изменены.|
 | PATTERN | Указывает, был ли изменен образец затенения.|
@@ -48,12 +48,12 @@ is_root: false
 | FONT_NAME | Указывает, было ли изменено имя шрифта.|
 | FONT_COLOR | Указывает, был ли изменен цвет шрифта.|
 | FONT_WEIGHT | Указывает, был ли изменен вес шрифта.|
-| FONT_ITALIC | Указывает, было ли изменено свойство курсива шрифта.|
+| FONT_ITALIC |Указывает, было ли изменено свойство курсива шрифта.|
 | FONT_UNDERLINE | Указывает, было ли изменено свойство подчеркивания шрифта.|
 | FONT_STRIKE | Указывает, был ли изменен шрифт свойства забастовки.|
 | FONT_SCRIPT | Указывает, было ли изменено свойство нижнего или верхнего индекса шрифта.|
 | FONT_FAMILY | Указывает, было ли изменено семейство шрифтов.|
-| FONT_CHARSET |Указывает, была ли изменена кодировка шрифта.|
+| FONT_CHARSET | Указывает, была ли изменена кодировка шрифта.|
 | FONT_SCHEME | неиспользованный.|
 | FONT_DIRTY | неиспользованный.|
 | FONT_SPELLING_ERROR | неиспользованный.|

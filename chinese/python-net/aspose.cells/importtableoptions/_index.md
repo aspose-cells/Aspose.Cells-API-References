@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportTableOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 920
 url: /zh/python-net/aspose.cells/importtableoptions/
 is_root: false
 ---
-##  ImportTableOptions类
+## ImportTableOptions类
 表示将数据导入单元格的选项。
 
 

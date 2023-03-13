@@ -1,4 +1,4 @@
-﻿---
+---
 title: ColorDepth枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 140
 url: /zh/python-net/aspose.cells.rendering/colordepth/
 is_root: false
 ---
-##  ColorDepth枚举
+## ColorDepth枚举
 枚举 tiff 图像的位深度类型。
 
 
 
 ColorDepth 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DEFAULT |默认值，不是设定值。|

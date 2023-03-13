@@ -1,4 +1,4 @@
-﻿---
+---
 title: BackgroundMode dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type BackgroundMode expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | AUTOMATIC | Automatique|
-| OPAQUE | Opaque|
+| OPAQUE |Opaque|
 | TRANSPARENT | Transparent|
 
 

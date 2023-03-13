@@ -1,4 +1,4 @@
-﻿---
+---
 title: font_align_type недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

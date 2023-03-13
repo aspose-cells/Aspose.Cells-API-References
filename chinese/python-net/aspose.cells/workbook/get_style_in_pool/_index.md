@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_style_in_pool方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -26,7 +26,7 @@ def get_style_in_pool(self, index):
 
 |范围|类型|描述|
 | :- | :- | :- |
-| index | int |指数。|
+| index | int |索引。|
 ### 评论
 
 如果改变返回的样式，则所有引用该样式的单元格的样式都会改变。

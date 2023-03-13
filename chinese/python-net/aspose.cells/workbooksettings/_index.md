@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookSettings类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1610
 url: /zh/python-net/aspose.cells/workbooksettings/
 is_root: false
 ---
-##  WorkbookSettings类
+## WorkbookSettings类
 表示工作簿的所有设置。
 
 

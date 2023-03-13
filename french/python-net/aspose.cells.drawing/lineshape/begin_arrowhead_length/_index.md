@@ -1,4 +1,4 @@
-﻿---
+---
 title: begin_arrowhead_length propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,8 +13,8 @@ Obtient et définit la longueur de la tête de flèche de début de la ligne.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
- veuillez utiliser la propriété Shape.Line.BeginArrowheadLength.
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
+veuillez utiliser la propriété Shape.Line.BeginArrowheadLength.
  Cette propriété sera supprimée 12 mois plus tard depuis août 2016.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.
 ###  Définition:

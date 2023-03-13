@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_document_properties propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PaginatedSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1150
 url: /zh/python-net/aspose.cells/paginatedsaveoptions/
 is_root: false
 ---
-##  PaginatedSaveOptions类
+## PaginatedSaveOptions类
 表示分页选项。
 
 

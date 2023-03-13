@@ -1,4 +1,4 @@
-﻿---
+---
 title: SaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1320
 url: /zh/python-net/aspose.cells/saveoptions/
 is_root: false
 ---
-##  SaveOptions类
+## SaveOptions类
 代表所有保存选项
 
 

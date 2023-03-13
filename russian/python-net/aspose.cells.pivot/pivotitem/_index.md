@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotItem класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -27,10 +27,10 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [move(count, is_same_parent)](/cells/ru/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) |Перемещает элемент вверх или вниз|
+| [move(count, is_same_parent)](/cells/ru/python-net/aspose.cells.pivot/pivotitem/move/#int-bool) | Перемещает элемент вверх или вниз|
 | [get_string_value()](/cells/ru/python-net/aspose.cells.pivot/pivotitem/get_string_value/#) | Получает строковое значение элемента сводки<br/> Если значение равно null, возвращается ""|
 | [get_double_value()](/cells/ru/python-net/aspose.cells.pivot/pivotitem/get_double_value/#) | Получает двойное значение элемента сводки<br/> Если значение равно null или не является числом, оно вернет 0|
-| [get_date_time_value()](/cells/ru/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) |Получает значение даты и времени элемента сводки<br/> Если значение равно null, оно вернет DateTime.MinValue.|
+| [get_date_time_value()](/cells/ru/python-net/aspose.cells.pivot/pivotitem/get_date_time_value/#) | Получает значение даты и времени элемента сводки<br/> Если значение равно null, оно вернет DateTime.MinValue.|
 
 
 

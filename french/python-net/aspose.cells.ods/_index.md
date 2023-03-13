@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.ods
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,12 +18,12 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
 | [OdsCellFieldType](/cells/fr/python-net/aspose.cells.ods/odscellfieldtype) | Représente le type de champ de cellule de ods.|
 | [OdsGeneratorType](/cells/fr/python-net/aspose.cells.ods/odsgeneratortype) | Représente le type de générateur ODS.|
 | [OdsPageBackgroundGraphicPositionType](/cells/fr/python-net/aspose.cells.ods/odspagebackgroundgraphicpositiontype) | Représente le poste.|
 | [OdsPageBackgroundGraphicType](/cells/fr/python-net/aspose.cells.ods/odspagebackgroundgraphictype) | Représente le type d'arrière-plan de page de mise en forme avec image.|
-| [OdsPageBackgroundType](/cells/fr/python-net/aspose.cells.ods/odspagebackgroundtype) |Représente le type d'arrière-plan de page de ods.|
+| [OdsPageBackgroundType](/cells/fr/python-net/aspose.cells.ods/odspagebackgroundtype) | Représente le type d'arrière-plan de page de ods.|
 
 

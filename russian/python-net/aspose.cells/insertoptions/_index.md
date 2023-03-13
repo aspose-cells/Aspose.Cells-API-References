@@ -1,4 +1,4 @@
-﻿---
+---
 title: InsertOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [copy_format_type](/cells/ru/python-net/aspose.cells/insertoptions/copy_format_type) |  |
-| [update_reference](/cells/ru/python-net/aspose.cells/insertoptions/update_reference) | Указывает, будут ли обновлены ссылки на других рабочих листах.|
+| [update_reference](/cells/ru/python-net/aspose.cells/insertoptions/update_reference) |Указывает, будут ли обновлены ссылки на других рабочих листах.|
 
 
 

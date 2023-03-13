@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontUnderlineType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2090
 url: /zh/python-net/aspose.cells/fontunderlinetype/
 is_root: false
 ---
-##  FontUnderlineType枚举
+## FontUnderlineType枚举
 枚举字体下划线类型。
 
 
 
 FontUnderlineType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |表示没有下划线。|

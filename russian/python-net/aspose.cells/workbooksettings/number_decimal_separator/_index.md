@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_decimal_separator недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

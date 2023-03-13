@@ -1,4 +1,4 @@
-﻿---
+---
 title: print_with_status_dialog недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

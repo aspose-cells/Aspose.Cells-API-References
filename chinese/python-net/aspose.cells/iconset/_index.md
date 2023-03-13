@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSet类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 900
 url: /zh/python-net/aspose.cells/iconset/
 is_root: false
 ---
-##  IconSet类
+## IconSet类
 描述 IconSet 条件格式规则。
 此条件格式规则将图标应用于单元格
 根据他们的价值观。

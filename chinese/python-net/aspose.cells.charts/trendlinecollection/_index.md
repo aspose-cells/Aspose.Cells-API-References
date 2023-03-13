@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrendlineCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 340
 url: /zh/python-net/aspose.cells.charts/trendlinecollection/
 is_root: false
 ---
-##  TrendlineCollection类
+## TrendlineCollection类
 表示指定数据系列的所有 [Trendline](/cells/zh/python-net/aspose.cells.charts/trendline) 对象的集合。
 
 

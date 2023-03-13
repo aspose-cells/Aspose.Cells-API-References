@@ -1,4 +1,4 @@
-﻿---
+---
 title: PivotPageFields类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 90
 url: /zh/python-net/aspose.cells.pivot/pivotpagefields/
 is_root: false
 ---
-##  PivotPageFields类
+## PivotPageFields类
 表示数据透视页字段项
 如果数据透视表数据源是合并范围。
 它最多只能包含 4 个字段。

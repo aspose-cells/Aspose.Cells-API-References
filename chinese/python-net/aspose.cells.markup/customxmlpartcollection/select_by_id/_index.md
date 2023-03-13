@@ -1,4 +1,4 @@
-﻿---
+---
 title: select_by_id方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: BuiltInDocumentPropertyCollection classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -33,11 +33,11 @@ Le type BuiltInDocumentPropertyCollection expose les membres suivants :
 | [content_type](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/content_type) | Obtient ou définit le type de contenu du document.|
 | [content_status](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/content_status) | Obtient ou définit l'état du contenu du document.|
 | [company](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/company) | Obtient ou définit la propriété de la société.|
-| [hyperlink_base](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/hyperlink_base) | Obtient ou définit la propriété hyperlinkbase.|
+| [hyperlink_base](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/hyperlink_base) |Obtient ou définit la propriété hyperlinkbase.|
 | [created_time](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_time) | Obtient ou définit la date de création du document dans le fuseau horaire local.|
 | [created_universal_time](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/created_universal_time) | Obtient ou définit l'heure universelle de la création du document.|
 | [keywords](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/keywords) | Obtient ou définit les mots clés du document.|
-| [last_printed](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_printed) |Obtient ou définit la date à laquelle le document a été imprimé pour la dernière fois dans le fuseau horaire local.|
+| [last_printed](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_printed) | Obtient ou définit la date à laquelle le document a été imprimé pour la dernière fois dans le fuseau horaire local.|
 | [last_printed_universal_time](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_printed_universal_time) | Obtient ou définit l'heure universelle de la dernière impression du document.|
 | [last_saved_by](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_saved_by) | Obtient ou définit le nom du dernier auteur.|
 | [last_saved_time](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_saved_time) | Obtient ou définit l'heure du dernier enregistrement dans le fuseau horaire local.|
@@ -49,7 +49,7 @@ Le type BuiltInDocumentPropertyCollection expose les membres suivants :
 | [paragraphs](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/paragraphs) | Représente une estimation du nombre de paragraphes dans le document.|
 | [revision_number](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/revision_number) | Obtient ou définit le numéro de révision du document.|
 | [subject](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/subject) | Obtient ou définit l'objet du document.|
-| [template](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/template) | Obtient ou définit le nom informatif du modèle de document.|
+| [template](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/template) |Obtient ou définit le nom informatif du modèle de document.|
 | [title](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/title) | Obtient ou définit le titre du document.|
 | [total_editing_time](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/total_editing_time) | Obtient ou définit le temps d'édition total en minutes.|
 | [version](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/version) | Représente le numéro de version de l'application qui a créé le document.|
@@ -66,10 +66,10 @@ Le type BuiltInDocumentPropertyCollection expose les membres suivants :
 | [index_of(item, index)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/index_of/#DocumentProperty-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui s'étend de l'index spécifié au dernier élément.|
 | [index_of(item, index, count)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/index_of/#DocumentProperty-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la première occurrence dans la plage d'éléments de la liste de tableaux qui commence à l'index spécifié et contient le nombre d'éléments spécifié.|
 | [copy_to(array)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/copy_to/#list) | Copie la totalité de la liste de tableaux dans une liste de tableaux unidimensionnelle compatible, en commençant au début de la liste de tableaux cible.|
-| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/copy_to/#int-list-int-int) | Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
+| [copy_to(index, array, array_index, count)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/copy_to/#int-list-int-int) |Copie une plage d'éléments de la liste de tableaux vers une liste de tableaux unidimensionnelle compatible, en commençant à l'index spécifié de la liste de tableaux cible.|
 | [last_index_of(item)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_index_of/#DocumentProperty) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la liste complète du tableau.|
-| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_index_of/#DocumentProperty-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
-| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_index_of/#DocumentProperty-int-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
+| [last_index_of(item, index)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_index_of/#DocumentProperty-int) | Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui s'étend du premier élément à l'index spécifié.|
+| [last_index_of(item, index, count)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/last_index_of/#DocumentProperty-int-int) |Recherche l'objet spécifié et renvoie l'index de base zéro de la dernière occurrence dans la plage d'éléments de la liste de tableaux qui contient le nombre d'éléments spécifié et se termine à l'index spécifié.|
 | [binary_search(item)](/cells/fr/python-net/aspose.cells.properties/builtindocumentpropertycollection/binary_search/#DocumentProperty) | Recherche un élément dans toute la liste de tableaux triés à l'aide du comparateur par défaut et renvoie l'index de base zéro de l'élément.|
 
 

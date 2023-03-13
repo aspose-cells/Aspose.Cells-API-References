@@ -1,4 +1,4 @@
-﻿---
+---
 title: MetadataType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 30
 url: /zh/python-net/aspose.cells.metadata/metadatatype/
 is_root: false
 ---
-##  MetadataType枚举
+## MetadataType枚举
 表示元数据的类型。
 
 
 
 MetadataType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ENCRYPTION |加密文件。|

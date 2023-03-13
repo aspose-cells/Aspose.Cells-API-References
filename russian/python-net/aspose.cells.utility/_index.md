@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.utility
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,7 +13,7 @@ is_root: false
 | Сорт| Описание|
 | :- | :- |
 | [ExportRangeToJsonOptions](/cells/ru/python-net/aspose.cells.utility/exportrangetojsonoptions) | Указывает параметры, которые экспортируют диапазон в json.|
-| [JsonLayoutOptions](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions) |Представляет параметры типа макета json.|
+| [JsonLayoutOptions](/cells/ru/python-net/aspose.cells.utility/jsonlayoutoptions) | Представляет параметры типа макета json.|
 | [JsonUtility](/cells/ru/python-net/aspose.cells.utility/jsonutility) | Представляет служебный класс обработки json.|
 
 

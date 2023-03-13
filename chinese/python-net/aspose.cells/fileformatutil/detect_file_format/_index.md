@@ -1,4 +1,4 @@
-﻿---
+---
 title: detect_file_format方法
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

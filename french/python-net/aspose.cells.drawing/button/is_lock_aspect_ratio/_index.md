@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_lock_aspect_ratio propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

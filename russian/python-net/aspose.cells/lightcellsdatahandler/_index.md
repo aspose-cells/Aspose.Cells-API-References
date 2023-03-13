@@ -1,4 +1,4 @@
-﻿---
+---
 title: LightCellsDataHandler класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Метод| Описание|
 | :- | :- |
 | [start_sheet(sheet)](/cells/ru/python-net/aspose.cells/lightcellsdatahandler/start_sheet/#Worksheet) | Начинает обрабатывать рабочий лист.|
-| [start_row(row_index)](/cells/ru/python-net/aspose.cells/lightcellsdatahandler/start_row/#int) |Готовится к обработке строки.|
+| [start_row(row_index)](/cells/ru/python-net/aspose.cells/lightcellsdatahandler/start_row/#int) | Готовится к обработке строки.|
 | [process_row(row)](/cells/ru/python-net/aspose.cells/lightcellsdatahandler/process_row/#Row) | Начинает обрабатывать одну строку.|
 | [start_cell(column_index)](/cells/ru/python-net/aspose.cells/lightcellsdatahandler/start_cell/#int) | Готовится к обработке ячейки.|
 | [process_cell(cell)](/cells/ru/python-net/aspose.cells/lightcellsdatahandler/process_cell/#Cell) | Начинает обрабатывать одну ячейку.|

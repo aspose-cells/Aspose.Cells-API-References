@@ -1,4 +1,4 @@
-﻿---
+---
 title: Legend类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 170
 url: /zh/python-net/aspose.cells.charts/legend/
 is_root: false
 ---
-##  Legend类
+## Legend类
 封装表示图表图例的对象。
 
 
@@ -58,7 +58,7 @@ Legend 类型公开了以下成员：
 | [is_text_wrapped](/cells/zh/python-net/aspose.cells.charts/legend/is_text_wrapped) |获取或设置一个值，该值指示文本是否换行。|
 | [is_resize_shape_to_fit_text](/cells/zh/python-net/aspose.cells.charts/legend/is_resize_shape_to_fit_text) |获取或设置形状是否应自动调整以完全包含其中描述的文本。自动拟合是<br/>当缩放形状内的文本以包含内部的所有文本时。|
 | [position](/cells/zh/python-net/aspose.cells.charts/legend/position) |获取或设置图例位置类型。|
-| [legend_entries](/cells/zh/python-net/aspose.cells.charts/legend/legend_entries) |获取指定图表图例中所有 LegendEntry 对象的集合。<br/>不支持设置曲面图的图例条目。<br/>因此，如果图表类型是曲面图表类型，它将返回 null。|
+| [legend_entries](/cells/zh/python-net/aspose.cells.charts/legend/legend_entries) |获取指定图表图例中所有 LegendEntry 对象的集合。<br/>不支持设置曲面图的图例项。<br/>因此，如果图表类型是曲面图表类型，它将返回 null。|
 | [legend_entries_labels](/cells/zh/python-net/aspose.cells.charts/legend/legend_entries_labels) |调用 Chart.Calculate() 方法后获取图例条目的标签。|
 | [is_over_lay](/cells/zh/python-net/aspose.cells.charts/legend/is_over_lay) |获取或设置是否允许其他图表元素与该图表元素重叠。|
 

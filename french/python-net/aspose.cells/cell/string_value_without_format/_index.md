@@ -1,4 +1,4 @@
-﻿---
+---
 title: string_value_without_format propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

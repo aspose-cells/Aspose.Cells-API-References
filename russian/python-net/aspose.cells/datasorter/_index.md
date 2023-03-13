@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [keys](/cells/ru/python-net/aspose.cells/datasorter/keys) | Получает список ключей сортировщика данных.|
 | [has_headers](/cells/ru/python-net/aspose.cells/datasorter/has_headers) | Указывает, есть ли у диапазона заголовки.|
-| [key1](/cells/ru/python-net/aspose.cells/datasorter/key1) |Представляет индекс первого отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...).|
+| [key1](/cells/ru/python-net/aspose.cells/datasorter/key1) | Представляет индекс первого отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1,...).|
 | [order1](/cells/ru/python-net/aspose.cells/datasorter/order1) | Представляет порядок сортировки первого ключа.|
 | [key2](/cells/ru/python-net/aspose.cells/datasorter/key2) | Представляет индекс второго отсортированного столбца (абсолютная позиция, столбец A равен 0, B равен 1, ...).|
 | [order2](/cells/ru/python-net/aspose.cells/datasorter/order2) | Представляет порядок сортировки второго ключа.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: left_margin_pt propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  left_margin_pt propriété
 
-Renvoie la marge de gauche en unité de points
+Renvoie la marge de gauche en unité de Points
 ###  Définition:
 ```python
 @property

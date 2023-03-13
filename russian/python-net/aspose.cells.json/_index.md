@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.json
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -7,10 +7,10 @@ weight: 10
 url: /ru/python-net/aspose.cells.json/
 is_root: false
 ---
-**Aspose.Cells.Json**пространство имен содержит все классы JSON.
+**Aspose.Cells.Json** пространство имен содержит все классы JSON.
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [JsonExportHyperlinkType](/cells/ru/python-net/aspose.cells.json/jsonexporthyperlinktype) | Представляет тип экспорта гиперссылок в json.|
 

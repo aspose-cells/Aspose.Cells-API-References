@@ -1,4 +1,4 @@
-﻿---
+---
 title: BackgroundType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,10 +19,10 @@ Le type BackgroundType expose les membres suivants :
 | :- | :- |
 | DIAGONAL_CROSSHATCH | Représente le motif hachuré en diagonale.|
 | DIAGONAL_STRIPE | Représente le motif à rayures diagonales.|
-| GRAY6 | Représente un motif gris de 6,25 %|
+| GRAY6 |Représente un motif gris de 6,25 %|
 | GRAY12 | Représente un motif gris de 12,5 %|
 | GRAY25 | Représente 25 % de motif gris.|
-| GRAY50 |Représente un motif gris à 50 %.|
+| GRAY50 | Représente un motif gris à 50 %.|
 | GRAY75 | Représente un motif gris à 75 %.|
 | HORIZONTAL_STRIPE | Représente le motif de rayures horizontales.|
 | NONE | Ne représente aucun arrière-plan.|

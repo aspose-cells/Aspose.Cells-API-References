@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_row_column_headings propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

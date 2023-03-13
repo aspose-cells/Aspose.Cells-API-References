@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_footer_picture méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ def set_footer_picture(self, section, footer_picture):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| section | int | : Section gauche, 1 : Section centrale, 2 : Section droite.|
+| section | int | 0 : Section gauche, 1 : Section centrale, 2 : Section droite.|
 | footer_picture | bytes | Données d'image.|
 
 

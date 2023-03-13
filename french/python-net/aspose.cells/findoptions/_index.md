@@ -1,4 +1,4 @@
-﻿---
+---
 title: FindOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -31,7 +31,7 @@ Le type FindOptions expose les membres suivants :
 | [search_backward](/cells/fr/python-net/aspose.cells/findoptions/search_backward) | Si la recherche en arrière pour les cellules.|
 | [seach_order_by_rows](/cells/fr/python-net/aspose.cells/findoptions/seach_order_by_rows) | Indique si la recherche est ordonnée par lignes ou par colonnes.|
 | [look_in_type](/cells/fr/python-net/aspose.cells/findoptions/look_in_type) | Regardez dans le type.|
-| [regex_key](/cells/fr/python-net/aspose.cells/findoptions/regex_key) | Indique si la clé recherchée est une expression régulière.<br/> Si vrai, la clé recherchée sera prise comme regex et analysée. Sinon, la clé sera analysée selon les règles de ms excel.|
+| [regex_key](/cells/fr/python-net/aspose.cells/findoptions/regex_key) | Indique si la clé recherchée est une expression régulière.<br/>Si vrai, la clé recherchée sera prise comme regex et analysée. Sinon, la clé sera analysée selon les règles de ms excel.|
 | [value_type_sensitive](/cells/fr/python-net/aspose.cells/findoptions/value_type_sensitive) | Indique si le type de valeur de la cellule recherchée doit être identique à la clé recherchée.|
 | [style](/cells/fr/python-net/aspose.cells/findoptions/style) | Le format à rechercher.|
 | [convert_numeric_data](/cells/fr/python-net/aspose.cells/findoptions/convert_numeric_data) | Obtient ou définit une valeur qui indique si la valeur de chaîne recherchée est convertie en données numériques.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_shared_formula méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 ###  Remarques
 
@@ -42,7 +42,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options)
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | options | [FormulaParseOptions](/cells/fr/python-net/aspose.cells/formulaparseoptions) | Options d'analyse de la formule.|
 
@@ -61,7 +61,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, is_r1c1,
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | is_r1c1 | bool | si la formule est la formule R1C1|
 | is_local | bool | si la formule est au format local|
@@ -86,7 +86,7 @@ def set_shared_formula(self, shared_formula, row_number, column_number, options,
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | shared_formula | str | Formule partagée.|
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | options | [FormulaParseOptions](/cells/fr/python-net/aspose.cells/formulaparseoptions) | Options d'analyse de la formule.|
 | values | list | valeurs pour les cellules avec une formule partagée donnée|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 970
 url: /zh/python-net/aspose.cells/jsonsaveoptions/
 is_root: false
 ---
-##  JsonSaveOptions类
+## JsonSaveOptions类
 表示将工作簿保存为 json 文件的选项。
 
 

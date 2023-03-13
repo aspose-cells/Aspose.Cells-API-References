@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cells classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ Le type Cells expose les membres suivants :
 ###  Propriétés
 | Propriété| Description|
 | :- | :- |
-| [ods_cell_fields](/cells/fr/python-net/aspose.cells/cells/ods_cell_fields) |Obtient la liste des champs de ods.|
+| [ods_cell_fields](/cells/fr/python-net/aspose.cells/cells/ods_cell_fields) | Obtient la liste des champs de ods.|
 | [count](/cells/fr/python-net/aspose.cells/cells/count) | Obtient le nombre total d'objets Cell instanciés.|
 | [count_large](/cells/fr/python-net/aspose.cells/cells/count_large) | Obtient le nombre total d'objets Cell instanciés.|
 | [rows](/cells/fr/python-net/aspose.cells/cells/rows) | Obtient la collection d'objets [Row](/cells/fr/python-net/aspose.cells/row) qui représente les lignes individuelles de cette feuille de calcul.|
@@ -25,7 +25,7 @@ Le type Cells expose les membres suivants :
 | [multi_thread_reading](/cells/fr/python-net/aspose.cells/cells/multi_thread_reading) | Obtient ou définit si le modèle de données des cellules doit prendre en charge la lecture multithread.<br/> La valeur par défaut de cette propriété est false.|
 | [memory_setting](/cells/fr/python-net/aspose.cells/cells/memory_setting) | Obtient ou définit l'option d'utilisation de la mémoire pour ces cellules.|
 | [style](/cells/fr/python-net/aspose.cells/cells/style) | Obtient et définit le style par défaut.|
-| [standard_width_inch](/cells/fr/python-net/aspose.cells/cells/standard_width_inch) | Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en pouces.|
+| [standard_width_inch](/cells/fr/python-net/aspose.cells/cells/standard_width_inch) |Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en pouces.|
 | [standard_width_pixels](/cells/fr/python-net/aspose.cells/cells/standard_width_pixels) | Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en pixels.|
 | [standard_width](/cells/fr/python-net/aspose.cells/cells/standard_width) | Obtient ou définit la largeur de colonne par défaut dans la feuille de calcul, en unités de caractères.|
 | [standard_height](/cells/fr/python-net/aspose.cells/cells/standard_height) | Obtient ou définit la hauteur de ligne par défaut dans cette feuille de calcul, en unités de points.|
@@ -34,10 +34,10 @@ Le type Cells expose les membres suivants :
 | [preserve_string](/cells/fr/python-net/aspose.cells/cells/preserve_string) | Obtient ou définit une valeur indiquant si toutes les valeurs de la feuille de calcul sont conservées sous forme de chaînes.<br/> La valeur par défaut est false.|
 | [min_row](/cells/fr/python-net/aspose.cells/cells/min_row) | Index de ligne minimal de la cellule contenant des données ou un style.|
 | [max_row](/cells/fr/python-net/aspose.cells/cells/max_row) | Index de ligne maximal de la cellule contenant des données ou un style.|
-| [min_column](/cells/fr/python-net/aspose.cells/cells/min_column) | Index de colonne minimum des cellules qui ont été instanciées dans la collection (n'inclut pas la colonne<br/>où le style est défini pour toute la colonne mais aucune cellule n'y a été instanciée).|
-| [max_column](/cells/fr/python-net/aspose.cells/cells/max_column) | Index de colonne minimum des cellules qui ont été instanciées dans la collection (n'inclut pas la colonne<br/>où le style est défini pour toute la colonne mais aucune cellule n'y a été instanciée).|
+| [min_column](/cells/fr/python-net/aspose.cells/cells/min_column) | Index de colonne minimum des cellules qui ont été instanciées dans la collection (n'inclut pas la colonne<br/> où le style est défini pour toute la colonne mais aucune cellule n'y a été instanciée).|
+| [max_column](/cells/fr/python-net/aspose.cells/cells/max_column) | Index de colonne minimum des cellules qui ont été instanciées dans la collection (n'inclut pas la colonne<br/> où le style est défini pour toute la colonne mais aucune cellule n'y a été instanciée).|
 | [min_data_row](/cells/fr/python-net/aspose.cells/cells/min_data_row) | Index de ligne minimal de la cellule contenant des données.|
-| [max_data_row](/cells/fr/python-net/aspose.cells/cells/max_data_row) | Index de ligne maximal de la cellule contenant des données.|
+| [max_data_row](/cells/fr/python-net/aspose.cells/cells/max_data_row) |Index de ligne maximal de la cellule contenant des données.|
 | [min_data_column](/cells/fr/python-net/aspose.cells/cells/min_data_column) | Index de colonne minimal de la cellule contenant des données.|
 | [max_data_column](/cells/fr/python-net/aspose.cells/cells/max_data_column) | Index de colonne maximum de la cellule qui contient des données.|
 | [is_default_row_height_matched](/cells/fr/python-net/aspose.cells/cells/is_default_row_height_matched) | Indique que la hauteur de ligne et la hauteur de police par défaut correspondent|
@@ -64,7 +64,7 @@ Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) dans la feuil
 | [create_range(first_row, first_column, total_rows, total_columns)](/cells/fr/python-net/aspose.cells/cells/create_range/#int-int-int-int) | Crée un objet [Range](/cells/fr/python-net/aspose.cells/range) à partir d'une plage de cellules.|
 | [create_range(address)](/cells/fr/python-net/aspose.cells/cells/create_range/#str) | Crée un objet [Range](/cells/fr/python-net/aspose.cells/range) à partir d'une adresse de la plage.|
 | [create_range(first_index, number, is_vertical)](/cells/fr/python-net/aspose.cells/cells/create_range/#int-int-bool) | Crée un objet [Range](/cells/fr/python-net/aspose.cells/range) à partir de rangées de cellules ou de colonnes de cellules.|
-| [get(row, column)](/cells/fr/python-net/aspose.cells/cells/get/#int-int) | Ajouter API for Python Via .Net.puisque ceci [ligne int, colonne int] n'est pas pris en charge|
+| [get(row, column)](/cells/fr/python-net/aspose.cells/cells/get/#int-int) |Ajouter API for Python Via .Net.puisque ceci [ligne int, colonne int] n'est pas pris en charge|
 | [get(cell_name)](/cells/fr/python-net/aspose.cells/cells/get/#str) | Ajouter API for Python Via .Net.puisque cette [string cellName] n'est pas prise en charge|
 | [import_object_array(obj_array, first_row, first_column, is_vertical)](/cells/fr/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool) | Importe un tableau de données dans une feuille de calcul.|
 | [import_object_array(obj_array, first_row, first_column, is_vertical, skip)](/cells/fr/python-net/aspose.cells/cells/import_object_array/#list-int-int-bool-int) | Importe un tableau de données dans une feuille de calcul.|
@@ -96,12 +96,12 @@ Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) dans la feuil
 | [delete_rows(row_index, total_rows, update_reference)](/cells/fr/python-net/aspose.cells/cells/delete_rows/#int-int-bool) | Supprime plusieurs lignes dans la feuille de calcul.|
 | [delete_blank_columns()](/cells/fr/python-net/aspose.cells/cells/delete_blank_columns/#) | Supprimez toutes les colonnes vides qui ne contiennent aucune donnée.|
 | [delete_blank_columns(options)](/cells/fr/python-net/aspose.cells/cells/delete_blank_columns/#DeleteOptions) | Supprimez toutes les colonnes vides qui ne contiennent aucune donnée.|
-| [delete_blank_rows()](/cells/fr/python-net/aspose.cells/cells/delete_blank_rows/#) |Supprimez toutes les lignes vides qui ne contiennent aucune donnée.|
-| [delete_blank_rows(options)](/cells/fr/python-net/aspose.cells/cells/delete_blank_rows/#DeleteOptions) |Supprimez toutes les lignes vides qui ne contiennent aucune donnée.|
+| [delete_blank_rows()](/cells/fr/python-net/aspose.cells/cells/delete_blank_rows/#) | Supprimez toutes les lignes vides qui ne contiennent aucune donnée.|
+| [delete_blank_rows(options)](/cells/fr/python-net/aspose.cells/cells/delete_blank_rows/#DeleteOptions) | Supprimez toutes les lignes vides qui ne contiennent aucune donnée.|
 | [insert_columns(column_index, total_columns)](/cells/fr/python-net/aspose.cells/cells/insert_columns/#int-int) | Insère des colonnes dans la feuille de calcul.|
 | [insert_columns(column_index, total_columns, update_reference)](/cells/fr/python-net/aspose.cells/cells/insert_columns/#int-int-bool) | Insère des colonnes dans la feuille de calcul.|
-| [insert_column(column_index, update_reference)](/cells/fr/python-net/aspose.cells/cells/insert_column/#int-bool) | Insère une nouvelle colonne dans la feuille de calcul.|
-| [insert_column(column_index)](/cells/fr/python-net/aspose.cells/cells/insert_column/#int) | Insère une nouvelle colonne dans la feuille de calcul.|
+| [insert_column(column_index, update_reference)](/cells/fr/python-net/aspose.cells/cells/insert_column/#int-bool) |Insère une nouvelle colonne dans la feuille de calcul.|
+| [insert_column(column_index)](/cells/fr/python-net/aspose.cells/cells/insert_column/#int) |Insère une nouvelle colonne dans la feuille de calcul.|
 | [insert_rows(row_index, total_rows, update_reference)](/cells/fr/python-net/aspose.cells/cells/insert_rows/#int-int-bool) | Insère plusieurs lignes dans la feuille de calcul.|
 | [insert_rows(row_index, total_rows, options)](/cells/fr/python-net/aspose.cells/cells/insert_rows/#int-int-InsertOptions) | Insère plusieurs lignes dans la feuille de calcul.|
 | [insert_rows(row_index, total_rows)](/cells/fr/python-net/aspose.cells/cells/insert_rows/#int-int) | Insère plusieurs lignes dans la feuille de calcul.|
@@ -129,9 +129,9 @@ Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) dans la feuil
 | [remove_duplicates(start_row, start_column, end_row, end_column, has_headers, column_offsets)](/cells/fr/python-net/aspose.cells/cells/remove_duplicates/#int-int-int-int-bool-list) | Supprime les données en double de la plage.|
 | [get_row_enumerator()](/cells/fr/python-net/aspose.cells/cells/get_row_enumerator/#) | Obtient l'énumérateur de lignes.|
 | [get_cell(row, column)](/cells/fr/python-net/aspose.cells/cells/get_cell/#int-int) | Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) ou null à l'index de ligne de cellule et à l'index de colonne spécifiés.|
-| [get_row(row)](/cells/fr/python-net/aspose.cells/cells/get_row/#int) |Obtient l'élément [Row](/cells/fr/python-net/aspose.cells/row) à l'index de ligne de cellule spécifié.|
+| [get_row(row)](/cells/fr/python-net/aspose.cells/cells/get_row/#int) | Obtient l'élément [Row](/cells/fr/python-net/aspose.cells/row) à l'index de ligne de cellule spécifié.|
 | [check_cell(row, column)](/cells/fr/python-net/aspose.cells/cells/check_cell/#int-int) | Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) ou null à l'index de ligne de cellule et à l'index de colonne spécifiés.|
-| [check_row(row)](/cells/fr/python-net/aspose.cells/cells/check_row/#int) | Obtient l'élément [Row](/cells/fr/python-net/aspose.cells/row) ou à l'index de ligne de cellule spécifié.|
+| [check_row(row)](/cells/fr/python-net/aspose.cells/cells/check_row/#int) |Obtient l'élément [Row](/cells/fr/python-net/aspose.cells/row) ou à l'index de ligne de cellule spécifié.|
 | [check_column(column_index)](/cells/fr/python-net/aspose.cells/cells/check_column/#int) | Obtient l'élément [Column](/cells/fr/python-net/aspose.cells/column) ou null à l'index de colonne spécifié.|
 | [is_row_hidden(row_index)](/cells/fr/python-net/aspose.cells/cells/is_row_hidden/#int) | Vérifie si une ligne à un index donné est masquée.|
 | [is_column_hidden(column_index)](/cells/fr/python-net/aspose.cells/cells/is_column_hidden/#int) | Vérifie si une colonne à un index donné est masquée.|
@@ -154,7 +154,7 @@ Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) dans la feuil
 | [hide_column(column)](/cells/fr/python-net/aspose.cells/cells/hide_column/#int) | Masque une colonne.|
 | [unhide_column(column, width)](/cells/fr/python-net/aspose.cells/cells/unhide_column/#int-float) | Affiche une colonne|
 | [hide_columns(column, total_columns)](/cells/fr/python-net/aspose.cells/cells/hide_columns/#int-int) | Masquez plusieurs colonnes.|
-| [unhide_columns(column, total_columns, width)](/cells/fr/python-net/aspose.cells/cells/unhide_columns/#int-int-float) | Afficher plusieurs colonnes.|
+| [unhide_columns(column, total_columns, width)](/cells/fr/python-net/aspose.cells/cells/unhide_columns/#int-int-float) |Afficher plusieurs colonnes.|
 | [get_row_height(row)](/cells/fr/python-net/aspose.cells/cells/get_row_height/#int) | Obtient la hauteur d'une ligne spécifiée.|
 | [get_view_row_height(row)](/cells/fr/python-net/aspose.cells/cells/get_view_row_height/#int) | Obtient la hauteur d'une ligne spécifiée.|
 | [get_row_height_pixel(row)](/cells/fr/python-net/aspose.cells/cells/get_row_height_pixel/#int) | Obtient la hauteur d'une ligne spécifiée en unité de pixel.|
@@ -168,13 +168,13 @@ Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) dans la feuil
 | [get_column_width(column)](/cells/fr/python-net/aspose.cells/cells/get_column_width/#int) | Obtient la largeur de la colonne spécifiée en mode normal|
 | [get_view_column_width_pixel(column)](/cells/fr/python-net/aspose.cells/cells/get_view_column_width_pixel/#int) | Obtenez la largeur dans différents types de vue.|
 | [set_view_column_width_pixel(column, pixels)](/cells/fr/python-net/aspose.cells/cells/set_view_column_width_pixel/#int-int) | Définit la largeur de la colonne dans différentes vues.|
-| [get_last_data_row(column)](/cells/fr/python-net/aspose.cells/cells/get_last_data_row/#int) |Obtient le dernier index de ligne de la cellule qui contient des données dans la colonne spécifiée.|
+| [get_last_data_row(column)](/cells/fr/python-net/aspose.cells/cells/get_last_data_row/#int) | Obtient le dernier index de ligne de la cellule qui contient des données dans la colonne spécifiée.|
 | [apply_column_style(column, style, flag)](/cells/fr/python-net/aspose.cells/cells/apply_column_style/#int-Style-StyleFlag) | Applique les formats pour une colonne entière.|
 | [apply_row_style(row, style, flag)](/cells/fr/python-net/aspose.cells/cells/apply_row_style/#int-Style-StyleFlag) | Applique les formats pour une ligne entière.|
-| [apply_style(style, flag)](/cells/fr/python-net/aspose.cells/cells/apply_style/#Style-StyleFlag) |Applique des formats pour une feuille de calcul entière.|
+| [apply_style(style, flag)](/cells/fr/python-net/aspose.cells/cells/apply_style/#Style-StyleFlag) | Applique des formats pour une feuille de calcul entière.|
 | [copy_column(source_cells, source_column_index, destination_column_index)](/cells/fr/python-net/aspose.cells/cells/copy_column/#Cells-int-int) | Copie les données et les formats d'une colonne entière.|
 | [copy_row(source_cells, source_row_index, destination_row_index)](/cells/fr/python-net/aspose.cells/cells/copy_row/#Cells-int-int) | Copie les données et les formats d'une ligne entière.|
-| [get_grouped_row_outline_level(row_index)](/cells/fr/python-net/aspose.cells/cells/get_grouped_row_outline_level/#int) | Obtient le niveau hiérarchique (de base zéro) de la ligne.|
+| [get_grouped_row_outline_level(row_index)](/cells/fr/python-net/aspose.cells/cells/get_grouped_row_outline_level/#int) |Obtient le niveau hiérarchique (de base zéro) de la ligne.|
 | [get_grouped_column_outline_level(column_index)](/cells/fr/python-net/aspose.cells/cells/get_grouped_column_outline_level/#int) | Obtient le niveau hiérarchique (basé sur zéro) de la colonne.|
 | [get_max_grouped_column_outline_level()](/cells/fr/python-net/aspose.cells/cells/get_max_grouped_column_outline_level/#) | Obtient le niveau hiérarchique maximal des colonnes groupées (base zéro).|
 | [get_max_grouped_row_outline_level()](/cells/fr/python-net/aspose.cells/cells/get_max_grouped_row_outline_level/#) | Obtient le niveau hiérarchique maximum des lignes groupées (basé sur zéro).|
@@ -193,8 +193,8 @@ Obtient l'élément [Cell](/cells/fr/python-net/aspose.cells/cell) dans la feuil
 | [insert_cut_cells(cut_range, row, column, shift_type)](/cells/fr/python-net/aspose.cells/cells/insert_cut_cells/#Range-int-int-ShiftType) | Insérer la plage de coupe.|
 | [delete_range(start_row, start_column, end_row, end_column, shift_type)](/cells/fr/python-net/aspose.cells/cells/delete_range/#int-int-int-int-ShiftType) | Supprime une plage de cellules et décale les cellules en fonction de l'option de décalage.|
 | [retrieve_subtotal_setting(ca)](/cells/fr/python-net/aspose.cells/cells/retrieve_subtotal_setting/#CellArea) | Récupère le réglage des sous-totaux de la plage.|
-| [remove_formulas()](/cells/fr/python-net/aspose.cells/cells/remove_formulas/#) |Supprime toutes les formules et les remplace par la valeur de la formule.|
-| [convert_string_to_numeric_value()](/cells/fr/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) | Convertit les données de chaîne dans les cellules en valeur numérique si possible.|
+| [remove_formulas()](/cells/fr/python-net/aspose.cells/cells/remove_formulas/#) | Supprime toutes les formules et les remplace par la valeur de la formule.|
+| [convert_string_to_numeric_value()](/cells/fr/python-net/aspose.cells/cells/convert_string_to_numeric_value/#) |Convertit les données de chaîne dans les cellules en valeur numérique si possible.|
 | [get_dependents(is_all, row, column)](/cells/fr/python-net/aspose.cells/cells/get_dependents/#bool-int-int) | Obtenez toutes les cellules qui font référence à la cellule spécifique.|
 | [get_dependents_in_calculation(row, column, recursive)](/cells/fr/python-net/aspose.cells/cells/get_dependents_in_calculation/#int-int-bool) | Obtient toutes les cellules dont le résultat calculé dépend d'une cellule spécifique.|
 | [get_cell_style(row, column)](/cells/fr/python-net/aspose.cells/cells/get_cell_style/#int-int) | Récupère le style d'une cellule donnée.|

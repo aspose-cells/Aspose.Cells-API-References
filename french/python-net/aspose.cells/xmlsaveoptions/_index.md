@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlSaveOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -35,8 +35,8 @@ Le type XmlSaveOptions expose les membres suivants :
 | [merge_areas](/cells/fr/python-net/aspose.cells/xmlsaveoptions/merge_areas) | Indique s'il faut fusionner les zones de mise en forme conditionnelle et de validation avant d'enregistrer le fichier.|
 | [create_directory](/cells/fr/python-net/aspose.cells/xmlsaveoptions/create_directory) | Si true et que le répertoire n'existe pas, le répertoire sera automatiquement créé avant d'enregistrer le fichier.|
 | [sort_names](/cells/fr/python-net/aspose.cells/xmlsaveoptions/sort_names) | Indique s'il faut trier les noms définis avant d'enregistrer le fichier.|
-| [sort_external_names](/cells/fr/python-net/aspose.cells/xmlsaveoptions/sort_external_names) | Indique s'il faut trier les noms définis externes avant d'enregistrer le fichier.|
-| [refresh_chart_cache](/cells/fr/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) |Indique si l'actualisation des données du cache du graphique|
+| [sort_external_names](/cells/fr/python-net/aspose.cells/xmlsaveoptions/sort_external_names) |Indique s'il faut trier les noms définis externes avant d'enregistrer le fichier.|
+| [refresh_chart_cache](/cells/fr/python-net/aspose.cells/xmlsaveoptions/refresh_chart_cache) | Indique si l'actualisation des données du cache du graphique|
 | [warning_callback](/cells/fr/python-net/aspose.cells/xmlsaveoptions/warning_callback) | Obtient ou définit un rappel d'avertissement.|
 | [update_smart_art](/cells/fr/python-net/aspose.cells/xmlsaveoptions/update_smart_art) | Indique si la mise à jour du paramètre d'art intelligent.<br/> La valeur par défaut est faux.|
 | [sheet_indexes](/cells/fr/python-net/aspose.cells/xmlsaveoptions/sheet_indexes) | Représente les index des feuilles exportées.|

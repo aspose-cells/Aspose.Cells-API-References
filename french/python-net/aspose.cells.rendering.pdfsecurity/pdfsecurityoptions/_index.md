@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfSecurityOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -28,7 +28,7 @@ Le type PdfSecurityOptions expose les membres suivants :
 | [print_permission](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/print_permission) | Autorisation d'imprimer un document pdf|
 | [modify_document_permission](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modify_document_permission) | Autorisation de modifier le document pdf|
 | [extract_content_permission_obsolete](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission_obsolete) | Autorisation de copier ou d'extraire du contenu Obsolète selon la référence PDF.|
-| [annotations_permission](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) |Autorisation de commenter le document.|
+| [annotations_permission](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotations_permission) | Autorisation de commenter le document.|
 | [fill_forms_permission](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fill_forms_permission) | Autorisation de remplir les champs du formulaire.|
 | [extract_content_permission](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extract_content_permission) | Autorisation de copier ou d'extraire du contenu.|
 | [accessibility_extract_content](/cells/fr/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content) | Autorisation de copier ou d'extraire du contenu (pour faciliter l'accessibilité aux utilisateurs handicapés ou à d'autres fins).|

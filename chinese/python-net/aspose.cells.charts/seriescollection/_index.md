@@ -1,4 +1,4 @@
-﻿---
+---
 title: SeriesCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 240
 url: /zh/python-net/aspose.cells.charts/seriescollection/
 is_root: false
 ---
-##  SeriesCollection类
+## SeriesCollection类
 封装 [Series](/cells/zh/python-net/aspose.cells.charts/series) 对象的集合。
 
 

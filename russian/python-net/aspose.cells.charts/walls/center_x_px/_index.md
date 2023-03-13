@@ -1,4 +1,4 @@
-﻿---
+---
 title: center_x_px недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

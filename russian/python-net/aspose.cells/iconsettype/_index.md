@@ -1,4 +1,4 @@
-﻿---
+---
 title: IconSetType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -30,7 +30,7 @@ is_root: false
 | ARROWS4 | Набор иконок 4 стрелки.|
 | ARROWS_GRAY4 | Набор иконок 4 серые стрелки.|
 | RATING4 | Набор значков 4 оценок.|
-| RED_TO_BLACK4 | Набор из 4 значков «красный-черный».|
+| RED_TO_BLACK4 |Набор из 4 значков «красный-черный».|
 | TRAFFIC_LIGHTS4 | Набор иконок из 4 светофоров.|
 | ARROWS5 | Набор иконок 5 стрел.|
 | ARROWS_GRAY5 | Набор значков 5 серых стрелок.|

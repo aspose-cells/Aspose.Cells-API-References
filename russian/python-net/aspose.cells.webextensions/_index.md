@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.webextensions
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -14,7 +14,7 @@ is_root: false
 | :- | :- |
 | [WebExtension](/cells/ru/python-net/aspose.cells.webextensions/webextension) | Представляет экземпляр надстройки Office.|
 | [WebExtensionBinding](/cells/ru/python-net/aspose.cells.webextensions/webextensionbinding) | Представляет отношение привязки между надстройкой Office и данными в документе.|
-| [WebExtensionBindingCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensionbindingcollection) | Представляет список отношений привязки между надстройкой Office и данными в документе.|
+| [WebExtensionBindingCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensionbindingcollection) |Представляет список отношений привязки между надстройкой Office и данными в документе.|
 | [WebExtensionCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensioncollection) | Представляет список веб-расширений.|
 | [WebExtensionProperty](/cells/ru/python-net/aspose.cells.webextensions/webextensionproperty) | Представляет настраиваемое свойство надстройки Office.|
 | [WebExtensionPropertyCollection](/cells/ru/python-net/aspose.cells.webextensions/webextensionpropertycollection) | Представляет список свойств веб-расширения.|
@@ -25,8 +25,8 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
-| [WebExtensionStoreType](/cells/ru/python-net/aspose.cells.webextensions/webextensionstoretype) |Представляет тип магазина веб-расширения.|
+| [WebExtensionStoreType](/cells/ru/python-net/aspose.cells.webextensions/webextensionstoretype) | Представляет тип магазина веб-расширения.|
 
 

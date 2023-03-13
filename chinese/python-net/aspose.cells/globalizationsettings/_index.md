@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlobalizationSettings类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 730
 url: /zh/python-net/aspose.cells/globalizationsettings/
 is_root: false
 ---
-##  GlobalizationSettings类
+## GlobalizationSettings类
 代表全球化设置。
 
 

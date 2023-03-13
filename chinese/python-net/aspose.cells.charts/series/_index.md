@@ -1,4 +1,4 @@
-﻿---
+---
 title: Series类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 230
 url: /zh/python-net/aspose.cells.charts/series/
 is_root: false
 ---
-##  Series类
+## Series类
 封装表示图表中单个数据系列的对象。
 
 

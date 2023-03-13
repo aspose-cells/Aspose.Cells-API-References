@@ -1,4 +1,4 @@
-﻿---
+---
 title: Row类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1300
 url: /zh/python-net/aspose.cells/row/
 is_root: false
 ---
-##  Row类
+## Row类
 代表工作表中的一行。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoArrowheadStyle枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 980
 url: /zh/python-net/aspose.cells.drawing/msoarrowheadstyle/
 is_root: false
 ---
-##  MsoArrowheadStyle枚举
+## MsoArrowheadStyle枚举
 枚举形状边框线的线端类型。
 
 
 
 MsoArrowheadStyle 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |没有行结束类型。|

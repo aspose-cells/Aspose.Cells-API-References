@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableToRangeOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,8 +7,8 @@ weight: 90
 url: /zh/python-net/aspose.cells.tables/tabletorangeoptions/
 is_root: false
 ---
-##  TableToRangeOptions类
-表示将表转换为范围时的选项。
+## TableToRangeOptions类
+表示将表转换为区域时的选项。
 
 
 

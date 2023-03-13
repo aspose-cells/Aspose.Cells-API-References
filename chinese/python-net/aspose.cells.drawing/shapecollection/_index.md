@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 530
 url: /zh/python-net/aspose.cells.drawing/shapecollection/
 is_root: false
 ---
-##  ShapeCollection类
+## ShapeCollection类
 代表工作表/图表中的所有形状。
 
 

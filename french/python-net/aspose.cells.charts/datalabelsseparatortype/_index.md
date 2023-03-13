@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabelsSeparatorType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ Le type DataLabelsSeparatorType expose les membres suivants :
 | SPACE | Représente l'espace(" ")|
 | COMMA | Représente la virgule(",")|
 | SEMICOLON | Représente le point-virgule(";")|
-| PERIOD | Représente le point(".")|
+| PERIOD |Représente le point(".")|
 | NEW_LINE | Représente une nouvelle ligne ("\n")|
 | CUSTOM | Représente un séparateur personnalisé|
 

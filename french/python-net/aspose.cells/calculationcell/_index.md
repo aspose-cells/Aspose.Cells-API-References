@@ -1,4 +1,4 @@
-﻿---
+---
 title: CalculationCell classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -27,7 +27,7 @@ Le type CalculationCell expose les membres suivants :
 ###  Méthodes
 | Méthode| Description|
 | :- | :- |
-| [set_calculated_value(v)](/cells/fr/python-net/aspose.cells/calculationcell/set_calculated_value/#any) |Définit la valeur calculée pour la cellule.|
+| [set_calculated_value(v)](/cells/fr/python-net/aspose.cells/calculationcell/set_calculated_value/#any) | Définit la valeur calculée pour la cellule.|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSettingCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -30,12 +30,12 @@ is_root: false
 | [replace(index, count, text)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/replace/#int-int-str) | Замените текст.|
 | [replace(old_value, new_value)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/replace/#str-str) | Замените текст.|
 | [copy_to(array)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/copy_to/#list) | Копирует весь список массивов в совместимый список одномерных массивов, начиная с начала целевого списка массивов.|
-| [copy_to(index, array, array_index, count)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/copy_to/#int-list-int-int) | Копирует диапазон элементов из списка массивов в совместимый список одномерных массивов, начиная с указанного индекса целевого списка массивов.|
+| [copy_to(index, array, array_index, count)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/copy_to/#int-list-int-int) |Копирует диапазон элементов из списка массивов в совместимый список одномерных массивов, начиная с указанного индекса целевого списка массивов.|
 | [index_of(item, index)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/index_of/#FontSetting-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс первого вхождения в диапазоне элементов в списке массивов, который простирается от указанного индекса до последнего элемента.|
 | [index_of(item, index, count)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/index_of/#FontSetting-int-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс первого вхождения в диапазоне элементов в списке массивов, который начинается с указанного индекса и содержит указанное количество элементов.|
 | [last_index_of(item)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/last_index_of/#FontSetting) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения во всем списке массивов.|
-| [last_index_of(item, index)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/last_index_of/#FontSetting-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который простирается от первого элемента до указанного индекса.|
-| [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/last_index_of/#FontSetting-int-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
+| [last_index_of(item, index)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/last_index_of/#FontSetting-int) | Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который простирается от первого элемента до указанного индекса.|
+| [last_index_of(item, index, count)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/last_index_of/#FontSetting-int-int) |Выполняет поиск указанного объекта и возвращает отсчитываемый от нуля индекс последнего вхождения в диапазоне элементов в списке массивов, который содержит указанное количество элементов и заканчивается указанным индексом.|
 | [set_word_art_style(style)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/set_word_art_style/#PresetWordArtStyle) | Задает предустановленный стиль WordArt.|
 | [get_paragraph_enumerator()](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/get_paragraph_enumerator/#) | Получает перечислитель абзацев.|
 | [append_text(text)](/cells/ru/python-net/aspose.cells.drawing.texts/fontsettingcollection/append_text/#str) | Добавляет текст.|

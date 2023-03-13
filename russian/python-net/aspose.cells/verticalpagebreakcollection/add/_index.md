@@ -1,4 +1,4 @@
-﻿---
+---
 title: add метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -95,7 +95,7 @@ def add(self, start_row, end_row, column):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | start_row | int | Индекс начальной строки, отсчитываемый от нуля.|
-| end_row | int | Индекс конца строки, отсчитываемый от нуля.|
+| end_row | int |Индекс конца строки, отсчитываемый от нуля.|
 | column | int | Индекс столбца, отсчитываемый от нуля.|
 ###  Примечания
 

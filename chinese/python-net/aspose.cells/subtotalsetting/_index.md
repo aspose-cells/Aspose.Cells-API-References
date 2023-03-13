@@ -1,4 +1,4 @@
-﻿---
+---
 title: SubtotalSetting类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1410
 url: /zh/python-net/aspose.cells/subtotalsetting/
 is_root: false
 ---
-##  SubtotalSetting类
+## SubtotalSetting类
 表示小计的设置。
 
 

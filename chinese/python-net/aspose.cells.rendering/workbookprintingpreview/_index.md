@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookPrintingPreview类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 120
 url: /zh/python-net/aspose.cells.rendering/workbookprintingpreview/
 is_root: false
 ---
-##  WorkbookPrintingPreview类
+## WorkbookPrintingPreview类
 工作簿打印预览。
 
 

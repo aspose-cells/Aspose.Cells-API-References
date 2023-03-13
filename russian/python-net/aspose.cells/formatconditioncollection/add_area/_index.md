@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_area метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ def add_area(self, cell_area):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) | Диапазон ячеек с условным форматированием.|
+| cell_area | [CellArea](/cells/ru/python-net/aspose.cells/cellarea) |Диапазон ячеек с условным форматированием.|
 
 
 

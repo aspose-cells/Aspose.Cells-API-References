@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextParagraph类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 100
 url: /zh/python-net/aspose.cells.drawing.texts/textparagraph/
 is_root: false
 ---
-##  TextParagraph类
+## TextParagraph类
 表示文本段落设置。
 
 

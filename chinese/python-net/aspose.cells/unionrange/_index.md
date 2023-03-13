@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnionRange类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1530
 url: /zh/python-net/aspose.cells/unionrange/
 is_root: false
 ---
-##  UnionRange类
+## UnionRange类
 表示联合范围。
 
 

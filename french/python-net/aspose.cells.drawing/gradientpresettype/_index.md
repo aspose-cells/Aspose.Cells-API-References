@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientPresetType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -30,9 +30,9 @@ Le type GradientPresetType expose les membres suivants :
 | GOLD_II | Couleur prédéfinie Or II|
 | HORIZON | Couleur prédéfinie de l'horizon|
 | LATE_SUNSET | Couleur prédéfinie du coucher de soleil tardif|
-| MAHOGANY |Couleur prédéfinie acajou|
+| MAHOGANY | Couleur prédéfinie acajou|
 | MOSS | Couleur prédéfinie de la mousse|
-| NIGHTFALL | Couleur prédéfinie de la tombée de la nuit|
+| NIGHTFALL |Couleur prédéfinie de la tombée de la nuit|
 | OCEAN | Couleur prédéfinie de l'océan|
 | PARCHMENT | Couleur prédéfinie du parchemin|
 | PEACOCK | Couleur prédéfinie du paon|

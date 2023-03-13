@@ -1,4 +1,4 @@
-﻿---
+---
 title: VerticalPageBreak类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1560
 url: /zh/python-net/aspose.cells/verticalpagebreak/
 is_root: false
 ---
-##  VerticalPageBreak类
+## VerticalPageBreak类
 封装表示垂直分页符的对象。
 
 

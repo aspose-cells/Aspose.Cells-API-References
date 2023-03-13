@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 450
 url: /zh/python-net/aspose.cells.charts/charttype/
 is_root: false
 ---
-##  ChartType枚举
+## ChartType枚举
 枚举 Excel 中使用的所有图表类型。
 
 
 
 ChartType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | AREA |表示面积图。|
@@ -28,7 +28,7 @@ ChartType 类型公开了以下成员：
 | BAR_100_PERCENT_STACKED |表示 100% 堆积条形图。|
 | BAR_3D_CLUSTERED |表示 3D 簇状条形图。|
 | BAR_3D_STACKED |表示 3D 堆叠条形图。|
-| BAR_3D100_PERCENT_STACKED |表示 3D 100% 堆叠条形图。|
+| BAR_3D100_PERCENT_STACKED |表示 3D 100% 堆积条形图。|
 | BUBBLE |代表气泡图。|
 | BUBBLE_3D |表示 3D 气泡图。|
 | COLUMN |代表Column Chart：Clustered Column Chart。|
@@ -40,7 +40,7 @@ ChartType 类型公开了以下成员：
 | COLUMN_3D100_PERCENT_STACKED |表示 3D 100% 堆积柱形图。|
 | CONE |代表圆锥图。|
 | CONE_STACKED |表示堆叠圆锥图。|
-| CONE_100_PERCENT_STACKED |表示 100% 堆叠圆锥图。|
+| CONE_100_PERCENT_STACKED |表示 100% 堆积圆锥图。|
 | CONICAL_BAR |表示锥形条形图。|
 | CONICAL_BAR_STACKED |表示堆积锥形条形图。|
 | CONICAL_BAR_100_PERCENT_STACKED |表示 100% 堆积锥形条形图。|

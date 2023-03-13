@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_selecting_locked_cells_allowed недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -13,8 +13,8 @@ is_root: false
 
 ###  Примечания
 
-ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
- используйте свойство Protection.AllowSelectingLockedCell.
+ ПРИМЕЧАНИЕ. Этот элемент устарел. Вместо,
+используйте свойство Protection.AllowSelectingLockedCell.
  Это свойство будет удалено через 12 месяцев, начиная с июня 2010 года.
 Aspose приносит извинения за возможные неудобства.
 ###  Определение:

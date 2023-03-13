@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoDrawingType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -32,7 +32,7 @@ is_root: false
 | LABEL | Этикетка|
 | DIALOG_BOX | Диалоговое окно|
 | SPINNER | Спиннер|
-| SCROLL_BAR |Полоса прокрутки|
+| SCROLL_BAR | Полоса прокрутки|
 | LIST_BOX | СписокБокс|
 | GROUP_BOX | Групповой ящик|
 | COMBO_BOX | Поле со списком|
@@ -44,7 +44,7 @@ is_root: false
 | WEB_EXTENSION | Веб-расширение|
 | SMART_ART | Смарт-арт|
 | CUSTOM_XML | Пользовательская форма xml, например Ink.|
-| TIMELINE |График|
+| TIMELINE | График|
 | MODEL_3D | 3D модель|
 
 

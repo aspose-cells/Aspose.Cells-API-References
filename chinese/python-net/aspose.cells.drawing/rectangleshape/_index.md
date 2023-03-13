@@ -1,4 +1,4 @@
-﻿---
+---
 title: RectangleShape类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 480
 url: /zh/python-net/aspose.cells.drawing/rectangleshape/
 is_root: false
 ---
-##  RectangleShape类
+## RectangleShape类
 表示矩形形状。
 
 

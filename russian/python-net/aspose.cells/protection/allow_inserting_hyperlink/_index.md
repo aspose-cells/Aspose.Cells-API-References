@@ -1,4 +1,4 @@
-﻿---
+---
 title: allow_inserting_hyperlink недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

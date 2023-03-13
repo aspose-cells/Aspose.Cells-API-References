@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_custom_totals_row_formula méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

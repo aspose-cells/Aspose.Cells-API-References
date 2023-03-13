@@ -1,4 +1,4 @@
-﻿---
+---
 title: match_entire_cell_contents propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: change_series_order méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

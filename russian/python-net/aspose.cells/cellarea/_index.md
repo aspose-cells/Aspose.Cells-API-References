@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellArea класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ is_root: false
 | :- | :- |
 | [start_row](/cells/ru/python-net/aspose.cells/cellarea/start_row) | Получает или задает начальную строку этой области.|
 | [end_row](/cells/ru/python-net/aspose.cells/cellarea/end_row) | Получает или задает конечную строку этой области.|
-| [start_column](/cells/ru/python-net/aspose.cells/cellarea/start_column) | Получает или задает начальный столбец этой области.|
+| [start_column](/cells/ru/python-net/aspose.cells/cellarea/start_column) |Получает или задает начальный столбец этой области.|
 | [end_column](/cells/ru/python-net/aspose.cells/cellarea/end_column) | Получает или задает конечный столбец этой области.|
 
 

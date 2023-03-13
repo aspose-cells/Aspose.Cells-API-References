@@ -1,4 +1,4 @@
-﻿---
+---
 title: active_x_control недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

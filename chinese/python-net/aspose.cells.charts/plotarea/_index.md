@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotArea类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,8 +7,8 @@ weight: 220
 url: /zh/python-net/aspose.cells.charts/plotarea/
 is_root: false
 ---
-##  PlotArea类
-封装表示图表中绘图区域的对象。
+## PlotArea类
+封装表示图表中绘图区的对象。
 
 
 

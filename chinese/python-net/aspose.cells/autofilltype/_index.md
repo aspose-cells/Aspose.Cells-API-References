@@ -1,4 +1,4 @@
-﻿---
+---
 title: AutoFillType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1750
 url: /zh/python-net/aspose.cells/autofilltype/
 is_root: false
 ---
-##  AutoFillType枚举
+## AutoFillType枚举
 表示自动填充类型。
 
 
 
 AutoFillType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | COPY |将源区的值和格式复制到目标区|

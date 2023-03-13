@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_arc méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,10 +26,10 @@ def add_arc(self, upper_left_row, top, upper_left_column, left, height, width):
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical d'ArcShape par rapport à sa ligne de gauche, en pixels.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal d'ArcShape par rapport à sa colonne de gauche, en pixels.|
 | height | int | Représente la hauteur d'ArcShape, en unité de pixel.|
-| width | int | Représente la largeur d'ArcShape, en unité de pixel.|
+| width | int |Représente la largeur d'ArcShape, en unité de pixel.|
 
 ###  Exemple
 

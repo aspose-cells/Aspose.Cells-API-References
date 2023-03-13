@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitLabel classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -34,9 +34,9 @@ Le type DisplayUnitLabel expose les membres suivants :
 | [background](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/background) | Obtient et définit le mode d'affichage de l'arrière-plan|
 | [is_automatic_size](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_automatic_size) | Indique si le cadre du graphique est dimensionné automatiquement.|
 | [x](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/x) | Obtient ou définit la coordonnée x du coin supérieur gauche en unités de 1/4000 de la zone de graphique.|
-| [y](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/y) | Obtient ou définit la coordonnée y du coin supérieur gauche en unités de 1/4000 de la zone de graphique.|
+| [y](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/y) |Obtient ou définit la coordonnée y du coin supérieur gauche en unités de 1/4000 de la zone de graphique.|
 | [height](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/height) | Obtient ou définit la hauteur du cadre en unités de 1/4000 de la zone de graphique.|
-| [width](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/width) |Obtient ou définit la largeur du cadre en unités de 1/4000 de la zone de graphique.|
+| [width](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/width) | Obtient ou définit la largeur du cadre en unités de 1/4000 de la zone de graphique.|
 | [shadow](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/shadow) | Vrai si le cadre a une ombre.|
 | [shape_properties](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/shape_properties) | Obtient l'objet [ChartFrame.shape_properties](/cells/fr/python-net/aspose.cells.charts/chartframe#shape_properties).|
 | [is_default_pos_be_set](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_default_pos_be_set) | Indique si la position par défaut (DefaultX, DefaultY, DefaultWidth et DefaultHeight) est définie.|
@@ -47,11 +47,11 @@ Le type DisplayUnitLabel expose les membres suivants :
 | [is_auto_text](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_auto_text) | Indique que le texte est généré automatiquement.|
 | [is_deleted](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_deleted) | Indique si ces étiquettes de données sont supprimées.|
 | [text_horizontal_alignment](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_horizontal_alignment) | Obtient et définit l'alignement horizontal du texte.|
-| [text_vertical_alignment](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_vertical_alignment) | Obtient ou définit l'alignement vertical du texte.|
+| [text_vertical_alignment](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_vertical_alignment) |Obtient ou définit l'alignement vertical du texte.|
 | [rotation_angle](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/rotation_angle) | Représente l'angle de rotation du texte.|
 | [is_automatic_rotation](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/is_automatic_rotation) | Indique si le texte du graphique est automatiquement pivoté.|
 | [text](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text) | Obtient ou définit le texte de l'étiquette de l'unité d'affichage.|
-| [linked_source](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/linked_source) |Obtient et définit une référence à la feuille de calcul.|
+| [linked_source](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/linked_source) | Obtient et définit une référence à la feuille de calcul.|
 | [text_direction](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/text_direction) | Représente l'ordre de lecture du texte.|
 | [reading_order](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/reading_order) | Représente l'ordre de lecture du texte.|
 | [direction_type](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/direction_type) | Obtient et définit la direction du texte.|
@@ -63,7 +63,7 @@ Le type DisplayUnitLabel expose les membres suivants :
 | Méthode| Description|
 | :- | :- |
 | [set_position_auto()](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/set_position_auto/#) | Régler la position du cadre sur automatique|
-| [characters(start_index, length)](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/characters/#int-int) |Renvoie un objet Characters qui représente une plage de caractères dans le texte.|
+| [characters(start_index, length)](/cells/fr/python-net/aspose.cells.charts/displayunitlabel/characters/#int-int) | Renvoie un objet Characters qui représente une plage de caractères dans le texte.|
 
 
 

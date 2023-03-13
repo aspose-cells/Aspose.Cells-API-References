@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataLabelShapeType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 800
 url: /zh/python-net/aspose.cells.drawing/datalabelshapetype/
 is_root: false
 ---
-##  DataLabelShapeType枚举
+## DataLabelShapeType枚举
 指定要用于图表的预设形状几何体。
 
 
 
 DataLabelShapeType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | RECT |表示矩形形状。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoFillFormatHelper类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 340
 url: /zh/python-net/aspose.cells.drawing/msofillformathelper/
 is_root: false
 ---
-##  MsoFillFormatHelper类
+## MsoFillFormatHelper类
 表示形状的填充格式。
 
 

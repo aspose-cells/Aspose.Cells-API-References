@@ -1,4 +1,4 @@
-﻿---
+---
 title: NumberCategoryType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2260
 url: /zh/python-net/aspose.cells/numbercategorytype/
 is_root: false
 ---
-##  NumberCategoryType枚举
+## NumberCategoryType枚举
 表示单元格数字格式的类别类型。
 
 
 
 NumberCategoryType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | GENERAL |一般的|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_threaded_comment метод
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: arc_end_point_x_px propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

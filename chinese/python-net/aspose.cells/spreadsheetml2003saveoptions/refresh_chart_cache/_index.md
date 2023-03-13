@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_chart_cache 属性
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:

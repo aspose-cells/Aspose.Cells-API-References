@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_add_in_function метод
 second_title: Aspose.Cells for Python via .NET API
 description:

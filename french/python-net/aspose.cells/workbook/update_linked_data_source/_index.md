@@ -1,4 +1,4 @@
-﻿---
+---
 title: update_linked_data_source méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ def update_linked_data_source(self, external_workbooks):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| external_workbooks | list | Les classeurs externes sont référencés par ce classeur.<br/>S'il est nul, nous ouvrirons directement les fichiers externes liés.<br/>Si ce n'est pas nul,<br/>nous vérifierons d'abord si le lien externe dans le tableau ;<br/> sinon, nous ouvrirons à nouveau les fichiers externes liés.|
+| external_workbooks | list | Les classeurs externes sont référencés par ce classeur.<br/>S'il est nul, nous ouvrirons directement les fichiers externes liés.<br/> Si ce n'est pas nul,<br/>nous vérifierons d'abord si le lien externe dans le tableau ;<br/> sinon, nous ouvrirons à nouveau les fichiers externes liés.|
 ###  Remarques
 
 Si la méthode n'est pas appelée avant le calcul des formules,

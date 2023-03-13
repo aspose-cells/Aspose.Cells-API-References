@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChartPoint类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 90
 url: /zh/python-net/aspose.cells.charts/chartpoint/
 is_root: false
 ---
-##  ChartPoint类
+## ChartPoint类
 表示图表中一系列中的单个点。
 
 

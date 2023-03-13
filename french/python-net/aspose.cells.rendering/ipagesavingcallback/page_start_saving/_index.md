@@ -1,4 +1,4 @@
-﻿---
+---
 title: page_start_saving méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

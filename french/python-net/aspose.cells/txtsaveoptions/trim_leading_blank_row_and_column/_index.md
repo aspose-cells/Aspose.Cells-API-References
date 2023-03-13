@@ -1,4 +1,4 @@
-﻿---
+---
 title: trim_leading_blank_row_and_column propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

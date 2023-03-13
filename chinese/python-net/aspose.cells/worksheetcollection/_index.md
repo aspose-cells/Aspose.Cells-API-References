@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorksheetCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1630
 url: /zh/python-net/aspose.cells/worksheetcollection/
 is_root: false
 ---
-##  WorksheetCollection类
+## WorksheetCollection类
 封装 [Worksheet](/cells/zh/python-net/aspose.cells/worksheet) 对象的集合。
 
 

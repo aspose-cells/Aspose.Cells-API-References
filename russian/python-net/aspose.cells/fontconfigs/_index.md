@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontConfigs класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [default_font_name](/cells/ru/python-net/aspose.cells/fontconfigs/default_font_name) | Получает или задает имя шрифта по умолчанию.|
-| [prefer_system_font_substitutes](/cells/ru/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) | Укажите, следует ли сначала использовать заменители системного шрифта, если шрифт не представлен и замена этого шрифта не задана.<br/>Например, в Ubuntu шрифт «Arial» обычно заменяется на «Liberation Sans».<br/> Значение по умолчанию — ложь.|
+| [prefer_system_font_substitutes](/cells/ru/python-net/aspose.cells/fontconfigs/prefer_system_font_substitutes) |Укажите, следует ли сначала использовать заменители системного шрифта, если шрифт не представлен и замена этого шрифта не задана.<br/>Например, в Ubuntu шрифт «Arial» обычно заменяется на «Liberation Sans».<br/> Значение по умолчанию — ложь.|
 
 
 ###  Методы

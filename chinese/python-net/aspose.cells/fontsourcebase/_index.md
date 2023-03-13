@@ -1,4 +1,4 @@
-﻿---
+---
 title: FontSourceBase类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 680
 url: /zh/python-net/aspose.cells/fontsourcebase/
 is_root: false
 ---
-##  FontSourceBase类
+## FontSourceBase类
 这是允许用户指定各种字体源的类的抽象基类
 
 

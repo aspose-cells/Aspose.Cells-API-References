@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_3d_effect propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_3d_effect propriété
 
-Vrai si la série a une apparence tridimensionnelle.
+ Vrai si la série a une apparence tridimensionnelle.
 S'applique uniquement aux graphiques à bulles.
 ###  Définition:
 ```python

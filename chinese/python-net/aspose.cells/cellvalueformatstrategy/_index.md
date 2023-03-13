@@ -1,4 +1,4 @@
-﻿---
+---
 title: CellValueFormatStrategy枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1840
 url: /zh/python-net/aspose.cells/cellvalueformatstrategy/
 is_root: false
 ---
-##  CellValueFormatStrategy枚举
+## CellValueFormatStrategy枚举
 指定如何为单元格的值应用样式。
 
 
 
 CellValueFormatStrategy 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |未格式化。|

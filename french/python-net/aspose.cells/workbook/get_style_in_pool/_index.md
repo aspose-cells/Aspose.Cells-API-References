@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_style_in_pool méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

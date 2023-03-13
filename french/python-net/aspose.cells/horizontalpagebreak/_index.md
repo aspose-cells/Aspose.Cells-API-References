@@ -1,4 +1,4 @@
-﻿---
+---
 title: HorizontalPageBreak classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type HorizontalPageBreak expose les membres suivants :
 | Propriété| Description|
 | :- | :- |
 | [start_column](/cells/fr/python-net/aspose.cells/horizontalpagebreak/start_column) | Obtient l'index de colonne de début de ce saut de page horizontal.|
-| [end_column](/cells/fr/python-net/aspose.cells/horizontalpagebreak/end_column) |Obtient l'index de colonne de fin de ce saut de page horizontal.|
+| [end_column](/cells/fr/python-net/aspose.cells/horizontalpagebreak/end_column) | Obtient l'index de colonne de fin de ce saut de page horizontal.|
 | [row](/cells/fr/python-net/aspose.cells/horizontalpagebreak/row) | Obtient l'index de ligne de base zéro.|
 
 

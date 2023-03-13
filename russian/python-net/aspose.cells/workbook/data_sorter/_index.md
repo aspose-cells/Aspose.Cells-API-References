@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_sorter недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

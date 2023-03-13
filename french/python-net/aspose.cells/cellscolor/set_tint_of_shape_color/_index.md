@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_tint_of_shape_color méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

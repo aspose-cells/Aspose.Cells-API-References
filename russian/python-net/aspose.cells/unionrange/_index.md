@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnionRange класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -24,7 +24,7 @@ is_root: false
 | [value](/cells/ru/python-net/aspose.cells/unionrange/value) | Получает и задает значения диапазона.|
 | [name](/cells/ru/python-net/aspose.cells/unionrange/name) | Получает или задает имя диапазона.|
 | [refers_to](/cells/ru/python-net/aspose.cells/unionrange/refers_to) | Получает ссылки на диапазон.|
-| [has_range](/cells/ru/python-net/aspose.cells/unionrange/has_range) |Указывает, имеет ли это диапазон.|
+| [has_range](/cells/ru/python-net/aspose.cells/unionrange/has_range) | Указывает, имеет ли это диапазон.|
 | [hyperlinks](/cells/ru/python-net/aspose.cells/unionrange/hyperlinks) | Получает все гиперссылки в диапазоне.|
 | [cell_count](/cells/ru/python-net/aspose.cells/unionrange/cell_count) | Получает количество всех ячеек в диапазоне.|
 | [range_count](/cells/ru/python-net/aspose.cells/unionrange/range_count) | Получает количество диапазонов.|
@@ -43,7 +43,7 @@ is_root: false
 | [union(union_range)](/cells/ru/python-net/aspose.cells/unionrange/union/#UnionRange) | Объединение другого диапазона.|
 | [union(ranges)](/cells/ru/python-net/aspose.cells/unionrange/union/#list) | Объедините диапазоны.|
 | [merge()](/cells/ru/python-net/aspose.cells/unionrange/merge/#) | Объединяет диапазон ячеек в одну ячейку.|
-| [un_merge()](/cells/ru/python-net/aspose.cells/unionrange/un_merge/#) | Разъединяет объединенные ячейки этого диапазона.|
+| [un_merge()](/cells/ru/python-net/aspose.cells/unionrange/un_merge/#) |Разъединяет объединенные ячейки этого диапазона.|
 | [put_value(string_value, is_converted, set_style)](/cells/ru/python-net/aspose.cells/unionrange/put_value/#str-bool-bool) | Помещает значение в диапазон, при необходимости значение будет преобразовано в другой тип данных, а числовой формат ячейки будет сброшен.|
 | [set_style(style)](/cells/ru/python-net/aspose.cells/unionrange/set_style/#Style) | Устанавливает стиль диапазона.|
 | [apply_style(style, flag)](/cells/ru/python-net/aspose.cells/unionrange/apply_style/#Style-StyleFlag) | Применяет форматы ко всему диапазону.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoTextFrame类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 380
 url: /zh/python-net/aspose.cells.drawing/msotextframe/
 is_root: false
 ---
-##  MsoTextFrame类
+## MsoTextFrame类
 表示 Shape 对象中的文本框。
 
 

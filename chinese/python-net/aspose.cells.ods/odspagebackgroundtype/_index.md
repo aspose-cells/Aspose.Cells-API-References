@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackgroundType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 80
 url: /zh/python-net/aspose.cells.ods/odspagebackgroundtype/
 is_root: false
 ---
-##  OdsPageBackgroundType枚举
+## OdsPageBackgroundType枚举
 表示ods的页面背景类型。
 
 
 
 OdsPageBackgroundType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |没有背景。|

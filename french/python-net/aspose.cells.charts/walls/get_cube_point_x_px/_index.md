@@ -1,4 +1,4 @@
-﻿---
+---
 title: get_cube_point_x_px méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

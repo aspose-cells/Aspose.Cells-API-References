@@ -1,4 +1,4 @@
-﻿---
+---
 title: TimeUnit перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Поля
 | Поле| Описание|
 | :- | :- |
-| DAYS |Дни|
+| DAYS | Дней|
 | MONTHS | Месяцы|
 | YEARS | Годы|
 

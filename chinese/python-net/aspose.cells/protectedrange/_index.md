@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectedRange类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1200
 url: /zh/python-net/aspose.cells/protectedrange/
 is_root: false
 ---
-##  ProtectedRange类
+## ProtectedRange类
 工作表保护打开时允许编辑的指定范围。
 
 

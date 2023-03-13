@@ -1,4 +1,4 @@
-﻿---
+---
 title: import_csv метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ def import_csv(self, file_name, options, first_row, first_column):
 | :- | :- | :- |
 | file_name | str | Имя файла CSV.|
 | options | [TxtLoadOptions](/cells/ru/python-net/aspose.cells/txtloadoptions) | Параметры загрузки для чтения текстового файла|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 
@@ -41,7 +41,7 @@ def import_csv(self, stream, options, first_row, first_column):
 | :- | :- | :- |
 | stream | io.RawIOBase | Файловый поток CSV.|
 | options | [TxtLoadOptions](/cells/ru/python-net/aspose.cells/txtloadoptions) | Параметры загрузки для чтения текстового файла|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 
@@ -60,8 +60,8 @@ def import_csv(self, file_name, splitter, convert_numeric_data, first_row, first
 | :- | :- | :- |
 | file_name | str | Имя файла CSV.|
 | splitter | str | Сплиттер|
-| convert_numeric_data | bool | Преобразуется ли строка в текстовом файле в числовые данные.|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| convert_numeric_data | bool |Преобразуется ли строка в текстовом файле в числовые данные.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 
@@ -80,8 +80,8 @@ def import_csv(self, stream, splitter, convert_numeric_data, first_row, first_co
 | :- | :- | :- |
 | stream | io.RawIOBase | Файловый поток CSV.|
 | splitter | str | Сплиттер|
-| convert_numeric_data | bool | Преобразуется ли строка в текстовом файле в числовые данные.|
-| first_row | int |Номер строки первой ячейки для импорта.|
+| convert_numeric_data | bool |Преобразуется ли строка в текстовом файле в числовые данные.|
+| first_row | int | Номер строки первой ячейки для импорта.|
 | first_column | int | Номер столбца первой ячейки для импорта.|
 
 

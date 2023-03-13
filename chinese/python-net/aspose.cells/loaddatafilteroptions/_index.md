@@ -1,4 +1,4 @@
-﻿---
+---
 title: LoadDataFilterOptions枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2200
 url: /zh/python-net/aspose.cells/loaddatafilteroptions/
 is_root: false
 ---
-##  LoadDataFilterOptions枚举
+## LoadDataFilterOptions枚举
 表示从模板加载工作簿时筛选数据的选项。
 
 
 
 LoadDataFilterOptions 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |不加载工作表数据|

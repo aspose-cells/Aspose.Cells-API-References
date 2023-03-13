@@ -1,4 +1,4 @@
-﻿---
+---
 title: always_quoted propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -17,7 +17,7 @@ La valeur par défaut est false.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
 veuillez utiliser la propriété QuoteType à la place.
  Cette propriété sera supprimée 12 mois plus tard depuis août 2012.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

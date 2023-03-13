@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_invalid_formulas_as_values propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

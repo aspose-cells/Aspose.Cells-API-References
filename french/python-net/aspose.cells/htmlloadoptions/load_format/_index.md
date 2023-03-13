@@ -1,4 +1,4 @@
-﻿---
+---
 title: load_format propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

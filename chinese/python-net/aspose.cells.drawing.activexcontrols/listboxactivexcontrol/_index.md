@@ -1,4 +1,4 @@
-﻿---
+---
 title: ListBoxActiveXControl类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 80
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/listboxactivexcontrol/
 is_root: false
 ---
-##  ListBoxActiveXControl类
+## ListBoxActiveXControl类
 表示一个 ListBox ActiveX 控件。
 
 

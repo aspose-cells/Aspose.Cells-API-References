@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapeLockType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -21,7 +21,7 @@ is_root: false
 | ADJUST_HANDLES | Регулировка ручек|
 | TEXT | Текст|
 | POINTS | Точки|
-| CROP | Обрезать|
+| CROP |Обрезать|
 | SELECTION | Выбор|
 | MOVE | Двигаться|
 | ASPECT_RATIO | Соотношение сторон|

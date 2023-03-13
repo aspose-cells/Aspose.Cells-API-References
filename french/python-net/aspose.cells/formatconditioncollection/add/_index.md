@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ def add(self, cell_area, type, operator_type, formula1, formula2):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) | Plage de cellules mise en forme conditionnelle.|
+| cell_area | [CellArea](/cells/fr/python-net/aspose.cells/cellarea) |Plage de cellules mise en forme conditionnelle.|
 | type | [FormatConditionType](/cells/fr/python-net/aspose.cells/formatconditiontype) | Type de mise en forme conditionnelle. Il peut s'agir de l'un des membres de FormatConditionType.|
 | operator_type | [OperatorType](/cells/fr/python-net/aspose.cells/operatortype) | Opérateur de comparaison. Il peut s'agir de l'un des membres de OperatorType.|
 | formula1 | str | La valeur ou l'expression associée à la mise en forme conditionnelle.|

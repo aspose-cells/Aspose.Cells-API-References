@@ -1,4 +1,4 @@
-﻿---
+---
 title: add méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ def add(self, pivot, dest_cell_name, base_field_name):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objet tableau croisé dynamique|
+| pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_name | str | Le nom de PivotField dans PivotTable.BaseFields|
 
@@ -54,7 +54,7 @@ def add(self, pivot, dest_cell_name, base_field_index):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objet tableau croisé dynamique|
+| pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_index | int | L'index de PivotField dans PivotTable.BaseFields|
 
@@ -84,7 +84,7 @@ def add(self, pivot, dest_cell_name, base_field):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objet tableau croisé dynamique|
+| pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | dest_cell_name | str | La cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field | aspose.cells.pivot.PivotField | Le champ croisé dynamique dans PivotTable.BaseFields|
 
@@ -174,7 +174,7 @@ def add(self, pivot, row, column, base_field_name):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objet tableau croisé dynamique|
+| pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_name | str | Le nom de PivotField dans PivotTable.BaseFields|
@@ -205,7 +205,7 @@ def add(self, pivot, row, column, base_field_index):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objet tableau croisé dynamique|
+| pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field_index | int | L'index de PivotField dans PivotTable.BaseFields|
@@ -236,7 +236,7 @@ def add(self, pivot, row, column, base_field):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| pivot | aspose.cells.pivot.PivotTable | Objet tableau croisé dynamique|
+| pivot | aspose.cells.pivot.PivotTable |Objet tableau croisé dynamique|
 | row | int | Index de ligne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | column | int | Index de colonne de la cellule dans le coin supérieur gauche de la plage Slicer.|
 | base_field | aspose.cells.pivot.PivotField | Le champ croisé dynamique dans PivotTable.BaseFields|

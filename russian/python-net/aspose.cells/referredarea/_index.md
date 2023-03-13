@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReferredArea класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | [is_external_link](/cells/ru/python-net/aspose.cells/referredarea/is_external_link) | Указывает, является ли это внешней ссылкой.|
 | [external_file_name](/cells/ru/python-net/aspose.cells/referredarea/external_file_name) | Получите имя внешнего файла, если это внешняя ссылка.|
-| [sheet_name](/cells/ru/python-net/aspose.cells/referredarea/sheet_name) | Указывает, на каком листе находится эта ссылка.|
+| [sheet_name](/cells/ru/python-net/aspose.cells/referredarea/sheet_name) |Указывает, на каком листе находится эта ссылка.|
 | [is_area](/cells/ru/python-net/aspose.cells/referredarea/is_area) | Указывает, является ли это областью.|
 | [end_column](/cells/ru/python-net/aspose.cells/referredarea/end_column) | Конечная колонка области.|
 | [start_column](/cells/ru/python-net/aspose.cells/referredarea/start_column) | Начальный столбец области.|

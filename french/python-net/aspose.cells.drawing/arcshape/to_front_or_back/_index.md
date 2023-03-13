@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_front_or_back méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ def to_front_or_back(self, orders):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| orders | int | S'il est inférieur à zéro, définit la forme sur back.<br/> S'il est supérieur à zéro, place la forme au premier plan.|
+| orders | int | S'il est inférieur à zéro, définit la forme sur back.<br/>S'il est supérieur à zéro, place la forme au premier plan.|
 
 ###  Exemple
 

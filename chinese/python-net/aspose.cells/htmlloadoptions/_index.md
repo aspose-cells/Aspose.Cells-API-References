@@ -1,4 +1,4 @@
-﻿---
+---
 title: HtmlLoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 770
 url: /zh/python-net/aspose.cells/htmlloadoptions/
 is_root: false
 ---
-##  HtmlLoadOptions类
+## HtmlLoadOptions类
 表示导入 html 文件时的选项。
 
 

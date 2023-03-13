@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextureType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -22,9 +22,9 @@ Le type TextureType expose les membres suivants :
 | BROWN_MARBLE | Représente le type de texture Marbre brun.|
 | CANVAS | Représente le type de texture Canvas.|
 | CORK | Représente le type de texture Liège.|
-| DENIM | Représente le type de texture Denim.|
+| DENIM |Représente le type de texture Denim.|
 | FISH_FOSSIL | Représente le type de texture Fish Fossil.|
-| GRANITE |Représente le type de texture granit.|
+| GRANITE | Représente le type de texture granit.|
 | GREEN_MARBLE | Représente le type de texture Marbre vert.|
 | MEDIUM_WOOD | Représente le type de texture Bois moyen.|
 | NEWSPRINT | Représente le type de texture de papier journal.|

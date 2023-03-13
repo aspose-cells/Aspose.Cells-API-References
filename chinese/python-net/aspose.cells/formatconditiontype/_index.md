@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormatConditionType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2100
 url: /zh/python-net/aspose.cells/formatconditiontype/
 is_root: false
 ---
-##  FormatConditionType枚举
+## FormatConditionType枚举
 条件格式规则类型。
 
 
 
 FormatConditionType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | CELL_VALUE |此条件格式规则比较单元格值<br/>到公式计算结果，使用运算符。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: refer_to_destination_sheet недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

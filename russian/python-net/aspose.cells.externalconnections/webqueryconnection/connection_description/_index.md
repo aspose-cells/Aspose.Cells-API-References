@@ -1,4 +1,4 @@
-﻿---
+---
 title: connection_description недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  connection_description недвижимость
 
-Указывает описание пользователя для этого подключения.
+Указывает описание пользователя для этого соединения.
 ###  Определение:
 ```python
 @property

@@ -1,4 +1,4 @@
-﻿---
+---
 title: StyleModifyFlag枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2500
 url: /zh/python-net/aspose.cells/stylemodifyflag/
 is_root: false
 ---
-##  StyleModifyFlag枚举
+## StyleModifyFlag枚举
 样式修改标志。
 
 
 
 StyleModifyFlag 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | LEFT_BORDER |指示是否已为样式修改左边框。|
@@ -23,7 +23,7 @@ StyleModifyFlag 类型公开了以下成员：
 | BOTTOM_BORDER |指示底部边框是否已针对样式进行了修改。|
 | DIAGONAL_DOWN_BORDER |指示是否已为样式修改对角向下边框。|
 | DIAGONAL_UP_BORDER |指示是否已为样式修改对角向上边框。|
-| DIAGONAL |指示一个或多个对角线边框（[StyleModifyFlag.DIAGONAL_DOWN_BORDER](/cells/zh/python-net/aspose.cells/stylemodifyflag#DIAGONAL_DOWN_BORDER)，<br/>[StyleModifyFlag.DIAGONAL_UP_BORDER](/cells/zh/python-net/aspose.cells/stylemodifyflag#DIAGONAL_UP_BORDER)) 样式已修改。|
+| DIAGONAL |指示一个或多个对角线边框（[StyleModifyFlag.DIAGONAL_DOWN_BORDER](/cells/zh/python-net/aspose.cells/stylemodifyflag#DIAGONAL_DOWN_BORDER)，<br/> [StyleModifyFlag.DIAGONAL_UP_BORDER](/cells/zh/python-net/aspose.cells/stylemodifyflag#DIAGONAL_UP_BORDER)) 样式已修改。|
 | HORIZONTAL_BORDER |指示是否已为样式修改水平边框。<br/>仅适用于动态样式，例如条件格式。|
 | VERTICAL_BORDER |指示是否已为样式修改垂直边框。<br/>仅适用于动态样式，例如条件格式。|
 | BORDERS |指示是否有一个或多个边框（[StyleModifyFlag.LEFT_BORDER](/cells/zh/python-net/aspose.cells/stylemodifyflag#LEFT_BORDER)，<br/>[StyleModifyFlag.RIGHT_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#RIGHT_BORDER), [StyleModifyFlag.TOP_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#TOP_BORDER), [StyleModifyFlag.BOTTOM_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#BOTTOM_BORDER),<br/>[StyleModifyFlag.DIAGONAL](/cells/python-net/aspose.cells/stylemodifyflag#DIAGONAL), [StyleModifyFlag.HORIZONTAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#HORIZONTAL_BORDER), [StyleModifyFlag.VERTICAL_BORDER](/cells/python-net/aspose.cells/stylemodifyflag#VERTICAL_BORDER))<br/>已针对样式进行了修改。|

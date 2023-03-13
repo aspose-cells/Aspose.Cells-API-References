@@ -1,4 +1,4 @@
-﻿---
+---
 title: BulletValue classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -8,7 +8,7 @@ url: /fr/python-net/aspose.cells.drawing.texts/bulletvalue/
 is_root: false
 ---
 ##  BulletValue classe
-Représente la valeur de la puce.
+Représente la valeur de la balle.
 
 
 

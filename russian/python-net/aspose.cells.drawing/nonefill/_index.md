@@ -1,4 +1,4 @@
-﻿---
+---
 title: NoneFill класс
 second_title: Aspose.Cells for Python via .NET API
 description:

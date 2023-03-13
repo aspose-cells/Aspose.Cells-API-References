@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_old_comment propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

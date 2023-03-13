@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_table_formula méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ def set_table_formula(self, row_number, column_number, row_input_cell, column_in
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | row_input_cell | str | la cellule d'entrée de ligne|
 | column_input_cell | str | la cellule d'entrée de la colonne|
@@ -40,7 +40,7 @@ def set_table_formula(self, row_number, column_number, input_cell, is_row_input,
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | input_cell | str | la cellule d'entrée|
 | is_row_input | bool | Indique si la cellule d'entrée est une cellule d'entrée de ligne (true) ou une cellule d'entrée de colonne (false).|
@@ -60,7 +60,7 @@ def set_table_formula(self, row_number, column_number, row_index_of_input_cell, 
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
 | row_index_of_input_cell | int | index de ligne de la cellule d'entrée|
 | column_index_of_input_cell | int | index de colonne de la cellule d'entrée|
@@ -81,10 +81,10 @@ def set_table_formula(self, row_number, column_number, row_index_of_row_input_ce
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| row_number | int | Nombre de lignes pour remplir la formule.|
+| row_number | int |Nombre de lignes pour remplir la formule.|
 | column_number | int | Nombre de colonnes pour remplir la formule.|
-| row_index_of_row_input_cell | int | index de ligne de la cellule d'entrée de ligne|
-| column_index_of_row_input_cell | int |index de colonne de la cellule d'entrée de ligne|
+| row_index_of_row_input_cell | int |index de ligne de la cellule d'entrée de ligne|
+| column_index_of_row_input_cell | int | index de colonne de la cellule d'entrée de ligne|
 | row_index_of_column_input_cell | int | index de ligne de la cellule d'entrée de la colonne|
 | column_index_of_column_input_cell | int | index de colonne de la cellule d'entrée de la colonne|
 | values | list | valeurs des cellules dans la plage de formules du tableau|

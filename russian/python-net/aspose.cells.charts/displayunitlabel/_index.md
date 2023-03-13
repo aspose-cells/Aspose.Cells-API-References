@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayUnitLabel класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -34,24 +34,24 @@ is_root: false
 | [background](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/background) | Получает и задает режим отображения фона|
 | [is_automatic_size](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/is_automatic_size) | Указывает, имеет ли рамка диаграммы автоматический размер.|
 | [x](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/x) | Получает или задает координату x левого верхнего угла в единицах 1/4000 области диаграммы.|
-| [y](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/y) | Получает или задает координату Y верхнего левого угла в единицах 1/4000 области диаграммы.|
+| [y](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/y) |Получает или задает координату Y верхнего левого угла в единицах 1/4000 области диаграммы.|
 | [height](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/height) | Получает или задает высоту рамки в единицах 1/4000 области диаграммы.|
-| [width](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/width) |Получает или задает ширину рамки в единицах 1/4000 области диаграммы.|
+| [width](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/width) | Получает или задает ширину рамки в единицах 1/4000 области диаграммы.|
 | [shadow](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/shadow) | Истинно, если у кадра есть тень.|
 | [shape_properties](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/shape_properties) | Получает объект [ChartFrame.shape_properties](/cells/ru/python-net/aspose.cells.charts/chartframe#shape_properties).|
 | [is_default_pos_be_set](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/is_default_pos_be_set) | Указывает, задана ли позиция по умолчанию (DefaultX, DefaultY, DefaultWidth и DefaultHeight).|
 | [default_x](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/default_x) | Представляет x позиции по умолчанию|
 | [default_y](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/default_y) | Представляет y положения по умолчанию|
 | [default_width](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/default_width) | Представляет ширину положения по умолчанию|
-| [default_height](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/default_height) | Представляет высоту положения по умолчанию|
+| [default_height](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/default_height) | Представляет высоту позиции по умолчанию|
 | [is_auto_text](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/is_auto_text) | Указывает, что текст генерируется автоматически.|
 | [is_deleted](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/is_deleted) | Указывает, удалены ли эти метки данных.|
 | [text_horizontal_alignment](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/text_horizontal_alignment) | Получает и задает выравнивание текста по горизонтали.|
-| [text_vertical_alignment](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/text_vertical_alignment) | Получает или задает выравнивание текста по вертикали.|
+| [text_vertical_alignment](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/text_vertical_alignment) |Получает или задает выравнивание текста по вертикали.|
 | [rotation_angle](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/rotation_angle) | Представляет угол поворота текста.|
 | [is_automatic_rotation](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/is_automatic_rotation) | Указывает, поворачивается ли текст диаграммы автоматически.|
 | [text](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/text) | Получает или задает текст метки единицы отображения.|
-| [linked_source](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/linked_source) |Получает и задает ссылку на рабочий лист.|
+| [linked_source](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/linked_source) | Получает и задает ссылку на рабочий лист.|
 | [text_direction](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/text_direction) | Представляет порядок чтения текста.|
 | [reading_order](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/reading_order) | Представляет порядок чтения текста.|
 | [direction_type](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/direction_type) | Получает и задает направление текста.|
@@ -63,7 +63,7 @@ is_root: false
 | Метод| Описание|
 | :- | :- |
 | [set_position_auto()](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/set_position_auto/#) | Установите положение кадра на автоматический|
-| [characters(start_index, length)](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/characters/#int-int) |Возвращает объект Characters, представляющий диапазон символов в тексте.|
+| [characters(start_index, length)](/cells/ru/python-net/aspose.cells.charts/displayunitlabel/characters/#int-int) | Возвращает объект Characters, представляющий диапазон символов в тексте.|
 
 
 

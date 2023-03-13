@@ -1,4 +1,4 @@
-﻿---
+---
 title: gradient_color2 недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImageType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -30,7 +30,7 @@ is_root: false
 | SVM | Свм|
 | GLTF | глтф|
 | OFFICE_COMPATIBLE_EMF | Windows Расширенный метафайл, более совместимый с Office.|
-| WEB_P | Weppy формат изображения|
+| WEB_P |Weppy формат изображения|
 
 
 

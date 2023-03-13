@@ -1,4 +1,4 @@
-﻿---
+---
 title: JsonLoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 960
 url: /zh/python-net/aspose.cells/jsonloadoptions/
 is_root: false
 ---
-##  JsonLoadOptions类
+## JsonLoadOptions类
 代表加载json文件的选项
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionDataSourceType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 80
 url: /zh/python-net/aspose.cells.externalconnections/connectiondatasourcetype/
 is_root: false
 ---
-##  ConnectionDataSourceType枚举
+## ConnectionDataSourceType枚举
 指定外部数据库源类型
 
 
 
 ConnectionDataSourceType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ODBC_BASED_SOURCE |基于 ODBC 的源|

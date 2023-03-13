@@ -1,4 +1,4 @@
-﻿---
+---
 title: FindOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 630
 url: /zh/python-net/aspose.cells/findoptions/
 is_root: false
 ---
-##  FindOptions类
+## FindOptions类
 表示查找选项。
 
 

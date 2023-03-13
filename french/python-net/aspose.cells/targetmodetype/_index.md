@@ -1,4 +1,4 @@
-﻿---
+---
 title: TargetModeType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:

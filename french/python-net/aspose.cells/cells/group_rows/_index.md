@@ -1,4 +1,4 @@
-﻿---
+---
 title: group_rows méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -21,7 +21,7 @@ def group_rows(self, first_index, last_index):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | first_index | int | Premier index de ligne à regrouper.|
-| last_index | int | Le dernier index de ligne à regrouper.|
+| last_index | int |Le dernier index de ligne à regrouper.|
 
 
 ##  group_rows(first_index, last_index, is_hidden) {#int-int-bool}
@@ -38,7 +38,7 @@ def group_rows(self, first_index, last_index, is_hidden):
 | Paramètre| Taper| Description|
 | :- | :- | :- |
 | first_index | int | Premier index de ligne à regrouper.|
-| last_index | int | Le dernier index de ligne à regrouper.|
+| last_index | int |Le dernier index de ligne à regrouper.|
 | is_hidden | bool | Spécifie si les lignes groupées sont masquées.|
 
 

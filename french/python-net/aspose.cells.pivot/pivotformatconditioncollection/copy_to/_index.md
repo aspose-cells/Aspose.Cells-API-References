@@ -1,4 +1,4 @@
-﻿---
+---
 title: copy_to méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -38,7 +38,7 @@ def copy_to(self, index, array, array_index, count):
 | :- | :- | :- |
 | index | int | L'index de base zéro dans la liste de tableaux source à partir duquel la copie commence.|
 | array | list | La liste de tableau unidimensionnel qui est la destination des éléments copiés à partir de la liste de tableau. La liste de tableaux doit avoir une indexation de base zéro.|
-| array_index | int | Index de base zéro dans la liste de tableaux auquel la copie commence.|
+| array_index | int |Index de base zéro dans la liste de tableaux auquel la copie commence.|
 | count | int | Le nombre d'éléments à copier.|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LookInType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2230
 url: /zh/python-net/aspose.cells/lookintype/
 is_root: false
 ---
-##  LookInType枚举
+## LookInType枚举
 表示外观类型。
 
 
 
 LookInType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | FORMULAS |如果单元格包含公式，则从公式中查找对象，否则从值中查找。|

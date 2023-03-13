@@ -1,4 +1,4 @@
-﻿---
+---
 title: has_3d_effect недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  has_3d_effect недвижимость
 
-Верно, если сериал имеет трехмерный вид.
+ Верно, если сериал имеет трехмерный вид.
 Применяется только к пузырьковым диаграммам.
 ###  Определение:
 ```python

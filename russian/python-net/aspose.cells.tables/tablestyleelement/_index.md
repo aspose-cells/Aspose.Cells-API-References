@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableStyleElement класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Свойство| Описание|
 | :- | :- |
 | [size](/cells/ru/python-net/aspose.cells.tables/tablestyleelement/size) | Количество строк или столбцов в одной полосе чередования.<br/> Применяется только для типов firstRowStripe, secondRowStripe, firstColumnStripe или secondColumnStripe.|
-| [type](/cells/ru/python-net/aspose.cells.tables/tablestyleelement/type) |Получает тип элемента.|
+| [type](/cells/ru/python-net/aspose.cells.tables/tablestyleelement/type) | Получает тип элемента.|
 
 
 ###  Методы

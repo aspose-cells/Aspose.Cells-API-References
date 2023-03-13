@@ -1,4 +1,4 @@
-﻿---
+---
 title: SvgSaveOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -38,8 +38,8 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/svgsaveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/svgsaveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/svgsaveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/svgsaveoptions/sort_external_names) | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
-| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/svgsaveoptions/refresh_chart_cache) |Указывает, обновляются ли данные кэша диаграммы.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/svgsaveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
+| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/svgsaveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
 | [warning_callback](/cells/ru/python-net/aspose.cells/svgsaveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/svgsaveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [image_or_print_options](/cells/ru/python-net/aspose.cells/svgsaveoptions/image_or_print_options) | Дополнительные возможности создания образа|

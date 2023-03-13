@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_oval méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ def add_oval(self, upper_left_row, top, upper_left_column, left, height, width):
 | :- | :- | :- |
 | upper_left_row | int | Index de ligne en haut à gauche.|
 | top | int | Représente le décalage vertical d'Oval par rapport à sa ligne de gauche, en unité de pixel.|
-| upper_left_column | int |Index de la colonne en haut à gauche.|
+| upper_left_column | int | Index de la colonne en haut à gauche.|
 | left | int | Représente le décalage horizontal d'Oval par rapport à sa colonne de gauche, en pixels.|
 | height | int | Représente la hauteur d'Oval, en unité de pixel.|
 | width | int | Représente la largeur d'Oval, en unité de pixel.|

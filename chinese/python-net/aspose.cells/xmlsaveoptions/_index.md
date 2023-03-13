@@ -1,4 +1,4 @@
-﻿---
+---
 title: XmlSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1720
 url: /zh/python-net/aspose.cells/xmlsaveoptions/
 is_root: false
 ---
-##  XmlSaveOptions类
+## XmlSaveOptions类
 表示将工作簿另存为 xml 文件的选项。
 
 

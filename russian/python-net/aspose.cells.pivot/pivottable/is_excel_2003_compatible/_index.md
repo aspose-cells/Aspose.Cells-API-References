@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_excel_2003_compatible недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: show_legend недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

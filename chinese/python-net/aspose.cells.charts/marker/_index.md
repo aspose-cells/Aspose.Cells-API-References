@@ -1,4 +1,4 @@
-﻿---
+---
 title: Marker类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 200
 url: /zh/python-net/aspose.cells.charts/marker/
 is_root: false
 ---
-##  Marker类
+## Marker类
 表示折线图、散点图或雷达图中的标记。
 
 

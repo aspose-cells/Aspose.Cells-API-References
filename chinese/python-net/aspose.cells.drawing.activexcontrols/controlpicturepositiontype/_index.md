@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlPicturePositionType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 220
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlpicturepositiontype/
 is_root: false
 ---
-##  ControlPicturePositionType枚举
+## ControlPicturePositionType枚举
 表示控件图片相对于其标题的位置。
 
 
 
 ControlPicturePositionType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | LEFT_TOP |图片显示在标题的左侧。<br/>标题与图片顶部对齐。|

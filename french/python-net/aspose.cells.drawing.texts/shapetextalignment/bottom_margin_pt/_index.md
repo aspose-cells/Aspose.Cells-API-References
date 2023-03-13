@@ -1,4 +1,4 @@
-﻿---
+---
 title: bottom_margin_pt propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  bottom_margin_pt propriété
 
-Renvoie la marge inférieure en unité de Points
+Renvoie la marge inférieure en unité de points
 
 ###  Exemple
 

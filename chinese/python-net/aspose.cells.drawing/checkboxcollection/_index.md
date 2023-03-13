@@ -1,4 +1,4 @@
-﻿---
+---
 title: CheckBoxCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 100
 url: /zh/python-net/aspose.cells.drawing/checkboxcollection/
 is_root: false
 ---
-##  CheckBoxCollection类
+## CheckBoxCollection类
 表示工作表中 [CheckBox](/cells/zh/python-net/aspose.cells.drawing/checkbox) 对象的集合。
 
 

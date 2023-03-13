@@ -1,4 +1,4 @@
-﻿---
+---
 title: validate_merged_areas propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

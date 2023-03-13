@@ -1,4 +1,4 @@
-﻿---
+---
 title: convert_r1c1_formula_to_a1 метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,7 +25,7 @@ def convert_r1c1_formula_to_a1(self, r_1c1_formula, row, column):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | r_1c1_formula | str | Формула r1c1.|
-| row | int |Индекс строки ячейки.|
+| row | int | Индекс строки ячейки.|
 | column | int | Индекс столбца ячейки.|
 
 

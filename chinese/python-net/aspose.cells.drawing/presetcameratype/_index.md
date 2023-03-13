@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresetCameraType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 1060
 url: /zh/python-net/aspose.cells.drawing/presetcameratype/
 is_root: false
 ---
-##  PresetCameraType枚举
+## PresetCameraType枚举
 表示用于设置所有相机属性（包括位置）的不同算法方法。
 
 
 
 PresetCameraType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | ISOMETRIC_BOTTOM_DOWN |  |

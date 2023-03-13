@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoArrowheadLength перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,7 +18,7 @@ is_root: false
 | Поле| Описание|
 | :- | :- |
 | SHORT | Короткая длина конца линии|
-| MEDIUM | Средняя длина конца линии|
+| MEDIUM |Средняя длина конца линии|
 | LONG | Длинная длина конца линии|
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_implementation_factory propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

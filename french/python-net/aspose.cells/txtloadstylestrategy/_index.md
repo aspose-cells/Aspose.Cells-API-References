@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtLoadStyleStrategy dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,8 +18,8 @@ Le type TxtLoadStyleStrategy expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | NONE | Ne définit pas le style de la valeur analysée.|
-| BUILT_IN | Définissez le style sur nombre/date/heure intégrés lorsque la valeur analysée est constituée de valeurs numériques/date/heure simples.|
-| EXACT_FORMAT |Définissez le format personnalisé exact pour la valeur analysée afin que la valeur formatée soit identique à celle d'entrée d'origine.|
+| BUILT_IN |Définissez le style sur nombre/date/heure intégrés lorsque la valeur analysée est constituée de valeurs numériques/date/heure simples.|
+| EXACT_FORMAT | Définissez le format personnalisé exact pour la valeur analysée afin que la valeur formatée soit identique à celle d'entrée d'origine.|
 
 
 

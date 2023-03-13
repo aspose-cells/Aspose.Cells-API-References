@@ -1,4 +1,4 @@
-﻿---
+---
 title: support_div_tag недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  support_div_tag недвижимость
 
- Указывает, поддерживает ли макет<div> тег, когда файл html содержит<div> теги. Значение по умолчанию неверно.
+Указывает, поддерживает ли макет<div> тег, когда файл html содержит<div> теги. Значение по умолчанию неверно.
 ###  Определение:
 ```python
 @property

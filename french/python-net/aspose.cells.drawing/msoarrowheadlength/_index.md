@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoArrowheadLength dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -18,7 +18,7 @@ Le type MsoArrowheadLength expose les membres suivants :
 | Champ| Description|
 | :- | :- |
 | SHORT | Longueur de fin de ligne courte|
-| MEDIUM | Fin de ligne moyenne|
+| MEDIUM |Fin de ligne moyenne|
 | LONG | Longueur de fin de ligne longue|
 
 

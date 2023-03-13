@@ -1,4 +1,4 @@
-﻿---
+---
 title: refresh_on_load недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

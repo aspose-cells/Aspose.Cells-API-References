@@ -1,4 +1,4 @@
-﻿---
+---
 title: custom_paper_size méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WarningType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2670
 url: /zh/python-net/aspose.cells/warningtype/
 is_root: false
 ---
-##  WarningType枚举
+## WarningType枚举
 警告类型
 
 
 
 WarningType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | FONT_SUBSTITUTION |字体替换警告类型<br/>当未找到字体时，可以获取此警告类型。|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CountryCode dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -60,7 +60,7 @@ Le type CountryCode expose les membres suivants :
 | LEBANON | Liban|
 | JORDAN | Jordan|
 | SYRIA | Syrie|
-| IRAQ |Irak|
+| IRAQ | Irak|
 | KUWAIT | Koweit|
 | SAUDI | Arabie Saoudite|
 | UNITED_ARAB_EMIRATES | Emirats Arabes Unis|

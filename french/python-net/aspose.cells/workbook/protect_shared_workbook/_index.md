@@ -1,4 +1,4 @@
-﻿---
+---
 title: protect_shared_workbook méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

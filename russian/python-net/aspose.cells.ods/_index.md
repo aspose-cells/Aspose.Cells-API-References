@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.ods
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -18,12 +18,12 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
 | [OdsCellFieldType](/cells/ru/python-net/aspose.cells.ods/odscellfieldtype) | Представляет тип поля ячейки ods.|
 | [OdsGeneratorType](/cells/ru/python-net/aspose.cells.ods/odsgeneratortype) | Представляет собой генератор типа ODS.|
 | [OdsPageBackgroundGraphicPositionType](/cells/ru/python-net/aspose.cells.ods/odspagebackgroundgraphicpositiontype) | Представляет позицию.|
 | [OdsPageBackgroundGraphicType](/cells/ru/python-net/aspose.cells.ods/odspagebackgroundgraphictype) | Представляет тип фона страницы форматирования с изображением.|
-| [OdsPageBackgroundType](/cells/ru/python-net/aspose.cells.ods/odspagebackgroundtype) |Представляет тип фона страницы ods.|
+| [OdsPageBackgroundType](/cells/ru/python-net/aspose.cells.ods/odspagebackgroundtype) | Представляет тип фона страницы ods.|
 
 

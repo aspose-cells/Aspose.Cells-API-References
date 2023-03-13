@@ -1,4 +1,4 @@
-﻿---
+---
 title: to_printer метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -87,7 +87,7 @@ def to_printer(self, printer_name, print_page_index, print_page_count):
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | printer_name | str | имя принтера, например: "Microsoft Office Document Image Writer"|
-| print_page_index | int |основанный на 0 индекс первой страницы для печати, он должен быть в диапазоне [0, SheetRender.PageCount-1]|
+| print_page_index | int | основанный на 0 индекс первой страницы для печати, он должен быть в диапазоне [0, SheetRender.PageCount-1]|
 | print_page_count | int | количество страниц для печати, оно должно быть больше нуля|
 ###  Примечания
 

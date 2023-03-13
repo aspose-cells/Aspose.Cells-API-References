@@ -1,4 +1,4 @@
-﻿---
+---
 title: column_type_map propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

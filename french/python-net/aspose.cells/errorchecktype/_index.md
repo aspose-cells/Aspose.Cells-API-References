@@ -1,4 +1,4 @@
-﻿---
+---
 title: ErrorCheckType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,7 +20,7 @@ Le type ErrorCheckType expose les membres suivants :
 | CALC | vérifier les erreurs de calcul|
 | EMPTY_CELL_REF | vérifier les références aux cellules vides|
 | TEXT_NUMBER | vérifier le format des valeurs numériques|
-| INCONSIST_RANGE |vérifier les formules avec des références à moins que l'intégralité<br/> d'une plage contenant des données continues|
+| INCONSIST_RANGE | vérifier les formules avec des références à moins que l'intégralité<br/> d'une plage contenant des données continues|
 | INCONSIST_FORMULA | vérifier les formules qui sont incompatibles avec les formules des cellules voisines.|
 | TEXT_DATE | vérifier le format des valeurs de date/heure|
 | UNPROCTED_FORMULA | vérifier les formules non protégées|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Range класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -34,7 +34,7 @@ is_root: false
 | [value](/cells/ru/python-net/aspose.cells/range/value) | Получает и задает значение диапазона.|
 | [column_width](/cells/ru/python-net/aspose.cells/range/column_width) | Задает или получает ширину столбца этого диапазона|
 | [row_height](/cells/ru/python-net/aspose.cells/range/row_height) | Задает или получает высоту строк в этом диапазоне|
-| [entire_column](/cells/ru/python-net/aspose.cells/range/entire_column) | Получает объект Range, представляющий весь столбец (или столбцы), содержащий указанный диапазон.|
+| [entire_column](/cells/ru/python-net/aspose.cells/range/entire_column) |Получает объект Range, представляющий весь столбец (или столбцы), содержащий указанный диапазон.|
 | [entire_row](/cells/ru/python-net/aspose.cells/range/entire_row) | Получает объект Range, представляющий всю строку (или строки), содержащую указанный диапазон.|
 | [worksheet](/cells/ru/python-net/aspose.cells/range/worksheet) | Получает объект [Range.worksheet](/cells/ru/python-net/aspose.cells/range#worksheet), содержащий этот диапазон.|
 
@@ -55,10 +55,10 @@ is_root: false
 | [copy(range)](/cells/ru/python-net/aspose.cells/range/copy/#Range) | Копирует данные (включая формулы), форматирование, объекты рисования и т. д. из исходного диапазона.|
 | [get_enumerator()](/cells/ru/python-net/aspose.cells/range/get_enumerator/#) | Получает перечислитель для ячеек в этом диапазоне.|
 | [is_intersect(range)](/cells/ru/python-net/aspose.cells/range/is_intersect/#Range) | Указывает, является ли диапазон пересекающимся.|
-| [intersect(range)](/cells/ru/python-net/aspose.cells/range/intersect/#Range) |Возвращает объект [Range](/cells/ru/python-net/aspose.cells/range), представляющий прямоугольное пересечение двух диапазонов.|
+| [intersect(range)](/cells/ru/python-net/aspose.cells/range/intersect/#Range) | Возвращает объект [Range](/cells/ru/python-net/aspose.cells/range), представляющий прямоугольное пересечение двух диапазонов.|
 | [union(range)](/cells/ru/python-net/aspose.cells/range/union/#Range) | Возвращает объединение двух диапазонов.|
 | [merge()](/cells/ru/python-net/aspose.cells/range/merge/#) | Объединяет диапазон ячеек в одну ячейку.|
-| [un_merge()](/cells/ru/python-net/aspose.cells/range/un_merge/#) | Разъединяет объединенные ячейки этого диапазона.|
+| [un_merge()](/cells/ru/python-net/aspose.cells/range/un_merge/#) |Разъединяет объединенные ячейки этого диапазона.|
 | [put_value(string_value, is_converted, set_style)](/cells/ru/python-net/aspose.cells/range/put_value/#str-bool-bool) | Помещает значение в диапазон, при необходимости значение будет преобразовано в другой тип данных, а числовой формат ячейки будет сброшен.|
 | [apply_style(style, flag)](/cells/ru/python-net/aspose.cells/range/apply_style/#Style-StyleFlag) | Применяет форматы ко всему диапазону.|
 | [set_inside_borders(border_edge, line_style, border_color)](/cells/ru/python-net/aspose.cells/range/set_inside_borders/#BorderType-CellBorderType-CellsColor) | Установить внутренние границы диапазона.|

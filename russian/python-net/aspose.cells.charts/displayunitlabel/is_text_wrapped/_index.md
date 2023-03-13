@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_text_wrapped недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

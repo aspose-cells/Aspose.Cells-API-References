@@ -1,4 +1,4 @@
-﻿---
+---
 title: drag_to_hide propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

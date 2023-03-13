@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextOptions classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -24,7 +24,7 @@ Le type TextOptions expose les membres suivants :
 | :- | :- |
 | [charset](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/charset) | Représente le jeu de caractères.|
 | [is_italic](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/is_italic) | Obtient ou définit une valeur indiquant si la police est en italique.|
-| [is_bold](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/is_bold) | Obtient ou définit une valeur indiquant si la police est en gras.|
+| [is_bold](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/is_bold) |Obtient ou définit une valeur indiquant si la police est en gras.|
 | [caps_type](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/caps_type) | Obtient et définit le type de majuscules du texte.|
 | [strike_type](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/strike_type) | Obtient le type de barre du texte.|
 | [is_strikeout](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/is_strikeout) | Obtient ou définit une valeur indiquant si la police est un seul barré.|
@@ -32,7 +32,7 @@ Le type TextOptions expose les membres suivants :
 | [is_superscript](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/is_superscript) | Obtient ou définit une valeur indiquant si la police est un super script.|
 | [is_subscript](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/is_subscript) | Obtient ou définit une valeur indiquant si la police est en indice.|
 | [underline](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/underline) | Obtient ou définit le type de soulignement de la police.|
-| [name](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/name) |Obtient et définit le nom de la forme.|
+| [name](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/name) | Obtient et définit le nom de la forme.|
 | [double_size](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/double_size) | Obtient et définit la double taille de la police.|
 | [size](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/size) | Obtient ou définit la taille de la police.|
 | [theme_color](/cells/fr/python-net/aspose.cells.drawing.texts/textoptions/theme_color) | Obtient et définit la couleur du thème.|

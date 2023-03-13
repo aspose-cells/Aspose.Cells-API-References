@@ -1,4 +1,4 @@
-﻿---
+---
 title: MsoPresetTextEffectShape dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -26,7 +26,7 @@ Le type MsoPresetTextEffectShape expose les membres suivants :
 | RING_INSIDE | RingInside|
 | RING_OUTSIDE | AnneauExtérieur|
 | ARCH_UP_CURVE | CourbeArchUp|
-| ARCH_DOWN_CURVE | CourbeArchBas|
+| ARCH_DOWN_CURVE |CourbeArchBas|
 | CIRCLE_CURVE | CercleCourbe|
 | BUTTON_CURVE | BoutonCourbe|
 | ARCH_UP_POUR | ArchUpPour|
@@ -35,7 +35,7 @@ Le type MsoPresetTextEffectShape expose les membres suivants :
 | BUTTON_POUR | BoutonPour|
 | CURVE_UP | Courbe vers le haut|
 | CURVE_DOWN | Courbe vers le bas|
-| CAN_UP |CanUp|
+| CAN_UP | CanUp|
 | CAN_DOWN | PeutDown|
 | WAVE1 | Vague1|
 | WAVE2 | Vague2|

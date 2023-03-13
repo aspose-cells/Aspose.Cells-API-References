@@ -1,4 +1,4 @@
-﻿---
+---
 title: FileFormatUtil classe
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -28,7 +28,7 @@ Le type FileFormatUtil expose les membres suivants :
 | [load_format_to_extension(load_format)](/cells/fr/python-net/aspose.cells/fileformatutil/load_format_to_extension/#LoadFormat) | Convertit une valeur énumérée au format de chargement en une extension de fichier.|
 | [load_format_to_save_format(load_format)](/cells/fr/python-net/aspose.cells/fileformatutil/load_format_to_save_format/#LoadFormat) | Convertit une valeur LoadFormat en une valeur SaveFormat si possible.|
 | [save_format_to_extension(format)](/cells/fr/python-net/aspose.cells/fileformatutil/save_format_to_extension/#SaveFormat) | Convertit une valeur énumérée au format de sauvegarde en une extension de fichier.|
-| [save_format_to_load_format(save_format)](/cells/fr/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) |Convertit une valeur SaveFormat en une valeur LoadFormat si possible.|
+| [save_format_to_load_format(save_format)](/cells/fr/python-net/aspose.cells/fileformatutil/save_format_to_load_format/#SaveFormat) | Convertit une valeur SaveFormat en une valeur LoadFormat si possible.|
 
 
 

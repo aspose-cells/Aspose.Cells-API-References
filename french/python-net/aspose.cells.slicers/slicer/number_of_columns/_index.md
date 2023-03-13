@@ -1,4 +1,4 @@
-﻿---
+---
 title: number_of_columns propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

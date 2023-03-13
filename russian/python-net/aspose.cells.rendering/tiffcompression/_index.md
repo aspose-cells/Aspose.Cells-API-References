@@ -1,4 +1,4 @@
-﻿---
+---
 title: TiffCompression перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -20,7 +20,7 @@ is_root: false
 | COMPRESSION_NONE | Указывает отсутствие сжатия.|
 | COMPRESSION_RLE | Указывает схему сжатия RLE.|
 | COMPRESSION_LZW | Указывает схему сжатия LZW.|
-| COMPRESSION_CCITT3 | Указывает схему сжатия CCITT3.|
+| COMPRESSION_CCITT3 |Указывает схему сжатия CCITT3.|
 | COMPRESSION_CCITT4 | Указывает схему сжатия CCITT4.|
 
 

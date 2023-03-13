@@ -1,4 +1,4 @@
-﻿---
+---
 title: BevelType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,17 +7,17 @@ weight: 780
 url: /zh/python-net/aspose.cells.drawing/beveltype/
 is_root: false
 ---
-##  BevelType枚举
+## BevelType枚举
 表示可应用于 3D 形状的一种斜角类型的预设。
 
 
 
 BevelType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
-| NONE |无斜面|
+| NONE |无斜角|
 | ANGLE |角度|
 | ART_DECO |艺术装饰|
 | CIRCLE |圆圈|

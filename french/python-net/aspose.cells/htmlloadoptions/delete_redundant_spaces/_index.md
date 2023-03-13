@@ -1,4 +1,4 @@
-﻿---
+---
 title: delete_redundant_spaces propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

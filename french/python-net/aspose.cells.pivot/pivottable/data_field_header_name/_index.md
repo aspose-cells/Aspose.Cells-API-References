@@ -1,4 +1,4 @@
-﻿---
+---
 title: data_field_header_name propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

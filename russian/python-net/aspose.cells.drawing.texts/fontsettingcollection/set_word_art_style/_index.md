@@ -1,4 +1,4 @@
-﻿---
+---
 title: set_word_art_style метод
 second_title: Aspose.Cells for Python via .NET API
 description:

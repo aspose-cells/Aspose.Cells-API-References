@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cell类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 140
 url: /zh/python-net/aspose.cells/cell/
 is_root: false
 ---
-##  Cell类
+## Cell类
 封装表示单个工作簿单元格的对象。
 
 
@@ -118,7 +118,7 @@ Cell 类型公开了以下成员：
 | [get_conditional_formatting_result()](/cells/zh/python-net/aspose.cells/cell/get_conditional_formatting_result/#) |获取条件格式的结果。|
 | [get_validation()](/cells/zh/python-net/aspose.cells/cell/get_validation/#) |获取应用于此单元格的验证。|
 | [get_validation_value()](/cells/zh/python-net/aspose.cells/cell/get_validation_value/#) |获取应用于此单元格的验证值。|
-| [get_table()](/cells/zh/python-net/aspose.cells/cell/get_table/#) |获取包含此单元格的表。|
+| [get_table()](/cells/zh/python-net/aspose.cells/cell/get_table/#) |获取包含此单元格的表格。|
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_areas méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

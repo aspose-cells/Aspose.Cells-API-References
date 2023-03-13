@@ -1,4 +1,4 @@
-﻿---
+---
 title: PptxSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1190
 url: /zh/python-net/aspose.cells/pptxsaveoptions/
 is_root: false
 ---
-##  PptxSaveOptions类
+## PptxSaveOptions类
 表示 pptx 保存选项。
 
 

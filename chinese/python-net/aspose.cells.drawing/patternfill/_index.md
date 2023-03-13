@@ -1,4 +1,4 @@
-﻿---
+---
 title: PatternFill类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 430
 url: /zh/python-net/aspose.cells.drawing/patternfill/
 is_root: false
 ---
-##  PatternFill类
+## PatternFill类
 封装表示图案填充格式的对象
 
 

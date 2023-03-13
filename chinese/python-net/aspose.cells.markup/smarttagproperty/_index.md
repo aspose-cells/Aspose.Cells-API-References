@@ -1,4 +1,4 @@
-﻿---
+---
 title: SmartTagProperty类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 60
 url: /zh/python-net/aspose.cells.markup/smarttagproperty/
 is_root: false
 ---
-##  SmartTagProperty类
+## SmartTagProperty类
 表示单元格智能标记的属性。
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExternalLinkType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2030
 url: /zh/python-net/aspose.cells/externallinktype/
 is_root: false
 ---
-##  ExternalLinkType枚举
+## ExternalLinkType枚举
 表示外部链接的类型。
 
 
 
 ExternalLinkType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | DDE_LINK |表示 DDE 链接。|

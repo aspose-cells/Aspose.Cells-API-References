@@ -1,4 +1,4 @@
-﻿---
+---
 title: export_page_footers propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: BaseShapeGuide类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 40
 url: /zh/python-net/aspose.cells.drawing/baseshapeguide/
 is_root: false
 ---
-##  BaseShapeGuide类
+## BaseShapeGuide类
 表示形状指南。
 
 

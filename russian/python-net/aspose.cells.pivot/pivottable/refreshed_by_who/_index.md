@@ -1,4 +1,4 @@
-﻿---
+---
 title: refreshed_by_who недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

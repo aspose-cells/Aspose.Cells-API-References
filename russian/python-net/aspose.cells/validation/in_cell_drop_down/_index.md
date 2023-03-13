@@ -1,4 +1,4 @@
-﻿---
+---
 title: in_cell_drop_down недвижимость
 second_title: Aspose.Cells for Python via .NET API
 description:

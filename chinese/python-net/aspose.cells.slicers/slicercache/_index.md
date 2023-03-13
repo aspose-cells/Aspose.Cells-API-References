@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerCache类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 20
 url: /zh/python-net/aspose.cells.slicers/slicercache/
 is_root: false
 ---
-##  SlicerCache类
+## SlicerCache类
 切片器缓存的简要说明
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1110
 url: /zh/python-net/aspose.cells/odssaveoptions/
 is_root: false
 ---
-##  OdsSaveOptions类
+## OdsSaveOptions类
 表示保存ods文件的选项。
 
 

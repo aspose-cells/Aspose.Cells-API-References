@@ -1,4 +1,4 @@
-﻿---
+---
 title: RevisionInsertDelete类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 110
 url: /zh/python-net/aspose.cells.revisions/revisioninsertdelete/
 is_root: false
 ---
-##  RevisionInsertDelete类
+## RevisionInsertDelete类
 表示行/列插入/删除操作的修订记录。
 
 

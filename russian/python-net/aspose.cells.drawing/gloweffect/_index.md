@@ -1,4 +1,4 @@
-﻿---
+---
 title: GlowEffect класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -8,7 +8,7 @@ url: /ru/python-net/aspose.cells.drawing/gloweffect/
 is_root: false
 ---
 ##  GlowEffect класс
- Этот класс определяет эффект свечения, при котором размытый цвет контура
+Этот класс определяет эффект свечения, при котором размытый цвет контура
 добавляется за края объекта.
 
 

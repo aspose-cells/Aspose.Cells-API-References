@@ -1,4 +1,4 @@
-﻿---
+---
 title: FillPattern枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 810
 url: /zh/python-net/aspose.cells.drawing/fillpattern/
 is_root: false
 ---
-##  FillPattern枚举
+## FillPattern枚举
 枚举形状填充图案类型。
 
 
 
 FillPattern 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |代表没有背景。|

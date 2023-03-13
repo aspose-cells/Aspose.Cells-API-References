@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExceptionType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -27,7 +27,7 @@ Le type ExceptionType expose les membres suivants :
 | INVALID_OPERATOR | Opérateur invalide.|
 | INCORRECT_PASSWORD | Mot de passe incorrect.|
 | LICENSE | Erreurs liées à la licence.|
-| LIMITATION | Erreur de limitation hors MS Excel.|
+| LIMITATION |Erreur de limitation hors MS Excel.|
 | PAGE_SETUP | Paramètre de configuration de page non valide.|
 | PIVOT_TABLE | Paramètre de tableau croisé dynamique non valide.|
 | SHAPE | Paramètre d'objet de dessin non valide.|

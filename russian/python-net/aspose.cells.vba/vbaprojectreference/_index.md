@@ -1,4 +1,4 @@
-﻿---
+---
 title: VbaProjectReference класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -22,7 +22,7 @@ is_root: false
 | [libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/libid) | Получает и задает Libid ссылки.|
 | [twiddledlibid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/twiddledlibid) | Получает и устанавливает измененную Libid ссылки.|
 | [extended_libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/extended_libid) | Получает и задает расширенную либиду ссылки.|
-| [relative_libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) |Получает и задает идентификатор указанного проекта VBA с относительным путем.|
+| [relative_libid](/cells/ru/python-net/aspose.cells.vba/vbaprojectreference/relative_libid) | Получает и задает идентификатор указанного проекта VBA с относительным путем.|
 
 
 ###  Методы

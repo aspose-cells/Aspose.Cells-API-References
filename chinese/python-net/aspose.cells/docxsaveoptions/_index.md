@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocxSaveOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 490
 url: /zh/python-net/aspose.cells/docxsaveoptions/
 is_root: false
 ---
-##  DocxSaveOptions类
+## DocxSaveOptions类
 表示保存 .docx 文件的选项。
 
 

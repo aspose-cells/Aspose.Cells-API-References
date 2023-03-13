@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePropertyCollection класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,7 +26,7 @@ is_root: false
 ###  Методы
 | Метод| Описание|
 | :- | :- |
-| [clear_glow_effect()](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/clear_glow_effect/#) | Очищает эффект свечения фигуры.|
+| [clear_glow_effect()](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/clear_glow_effect/#) |Очищает эффект свечения фигуры.|
 | [has_glow_effect()](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/has_glow_effect/#) | Указывает, есть ли у фигуры данные об эффекте свечения.|
 | [has_format_3d()](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/has_format_3d/#) | Указывает, содержит ли фигура данные в формате 3D.|
 | [clear_format_3d()](/cells/ru/python-net/aspose.cells.drawing/shapepropertycollection/clear_format_3d/#) | Очищает свойства 3D-формы фигуры.|

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkbookRender类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 130
 url: /zh/python-net/aspose.cells.rendering/workbookrender/
 is_root: false
 ---
-##  WorkbookRender类
+## WorkbookRender类
 代表工作簿渲染。
 该类的构造函数，必须在pagesetup、cell style修改后使用。
 

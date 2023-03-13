@@ -1,4 +1,4 @@
-﻿---
+---
 title: RenameStrategy枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2430
 url: /zh/python-net/aspose.cells/renamestrategy/
 is_root: false
 ---
-##  RenameStrategy枚举
+## RenameStrategy枚举
 列重复名称的策略选项。
 
 
 
 RenameStrategy 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | EXCEPTION |抛出异常。|

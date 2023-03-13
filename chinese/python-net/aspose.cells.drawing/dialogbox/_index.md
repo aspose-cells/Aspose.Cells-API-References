@@ -1,4 +1,4 @@
-﻿---
+---
 title: DialogBox类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 160
 url: /zh/python-net/aspose.cells.drawing/dialogbox/
 is_root: false
 ---
-##  DialogBox类
+## DialogBox类
 表示对话框。
 
 

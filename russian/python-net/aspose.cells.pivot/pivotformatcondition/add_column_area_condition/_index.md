@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_column_area_condition метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -36,7 +36,7 @@ def add_column_area_condition(self, column_field):
 
 | Параметр| Тип| Описание|
 | :- | :- | :- |
-| column_field | [PivotField](/cells/ru/python-net/aspose.cells.pivot/pivotfield) | PivotField в полях столбцов.|
+| column_field | [PivotField](/cells/ru/python-net/aspose.cells.pivot/pivotfield) | PivotField в полях столбца.|
 
 
 

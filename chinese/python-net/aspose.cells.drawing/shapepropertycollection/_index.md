@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShapePropertyCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 610
 url: /zh/python-net/aspose.cells.drawing/shapepropertycollection/
 is_root: false
 ---
-##  ShapePropertyCollection类
+## ShapePropertyCollection类
 此类指定图表元素或形状的视觉形状属性。
 
 

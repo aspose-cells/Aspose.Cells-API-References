@@ -1,4 +1,4 @@
-﻿---
+---
 title: is_hidden_item_detail méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -13,7 +13,7 @@ Indique si le PivotItem spécifique est un détail masqué.
 
 ###  Retour
 
-si le PivotItem spécifique est un détail caché
+si le PivotItem spécifique est un détail masqué
 
 
 ```python

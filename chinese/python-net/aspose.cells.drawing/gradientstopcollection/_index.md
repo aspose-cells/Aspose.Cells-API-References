@@ -1,4 +1,4 @@
-﻿---
+---
 title: GradientStopCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 240
 url: /zh/python-net/aspose.cells.drawing/gradientstopcollection/
 is_root: false
 ---
-##  GradientStopCollection类
+## GradientStopCollection类
 表示渐变停止集合。
 
 

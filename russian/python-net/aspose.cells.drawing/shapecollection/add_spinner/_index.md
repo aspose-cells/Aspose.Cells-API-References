@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_spinner метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -25,8 +25,8 @@ def add_spinner(self, upper_left_row, top, upper_left_column, left, height, widt
 | Параметр| Тип| Описание|
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
-| top | int | Представляет вертикальное смещение Spinner от его левой строки в единицах пикселя.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| top | int |Представляет вертикальное смещение Spinner от его левой строки в единицах пикселя.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Представляет горизонтальное смещение Spinner от его левого столбца в единицах пикселя.|
 | height | int | Представляет высоту счетчика в пикселях.|
 | width | int | Представляет ширину счетчика в пикселях.|

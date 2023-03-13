@@ -1,4 +1,4 @@
-﻿---
+---
 title: chart_image_type propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -14,7 +14,7 @@ valeur par défaut : PNG.
 
 ###  Remarques
 
-REMARQUE : ce membre est désormais obsolète. Plutôt,
+ REMARQUE : ce membre est désormais obsolète. Plutôt,
 Le graphique et la forme sont toujours rendus sous forme d'éléments vectoriels (par exemple, point, ligne) pour la qualité du rendu.
  Cette propriété sera supprimée 12 mois plus tard depuis juin 2022.
 Aspose s'excuse pour tout inconvénient que vous pourriez avoir rencontré.

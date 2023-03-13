@@ -1,4 +1,4 @@
-﻿---
+---
 title: hi_lo_lines propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -9,7 +9,7 @@ is_root: false
 ---
 ##  hi_lo_lines propriété
 
- Renvoie un objet HiLoLines qui représente les lignes haut-bas d'une série sur un graphique en courbes.
+Renvoie un objet HiLoLines qui représente les lignes haut-bas d'une série sur un graphique en courbes.
 S'applique uniquement aux graphiques en courbes.
 ###  Définition:
 ```python

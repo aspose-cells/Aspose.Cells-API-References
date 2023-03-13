@@ -1,13 +1,13 @@
-﻿---
+---
 title: Cells类
-second_title: Aspose.Cells for Python via .NET API 参考资料
+second_title: Aspose.Cells for Python via .NET API 参考文献
 description:
 type: docs
 weight: 180
 url: /zh/python-net/aspose.cells/cells/
 is_root: false
 ---
-##  Cells类
+## Cells类
 封装单元格相关对象的集合，例如 [Cell](/cells/zh/python-net/aspose.cells/cell)、[Row](/cells/zh/python-net/aspose.cells/row) 等。
 
 

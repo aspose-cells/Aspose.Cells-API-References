@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSorter类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 420
 url: /zh/python-net/aspose.cells/datasorter/
 is_root: false
 ---
-##  DataSorter类
+## DataSorter类
 DataSorter 的摘要说明。
 
 

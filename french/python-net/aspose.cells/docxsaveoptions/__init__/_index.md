@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocxSaveOptions constructeur
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -33,7 +33,7 @@ def __init__(self, save_as_image):
 
 | Paramètre| Taper| Description|
 | :- | :- | :- |
-| save_as_image | bool | Si True, le classeur sera converti en quelques images du fichier .docx.<br/> Si False, le classeur sera converti en certaines tables du fichier .docx.|
+| save_as_image | bool |Si True, le classeur sera converti en quelques images du fichier .docx.<br/> Si False, le classeur sera converti en certaines tables du fichier .docx.|
 
 
 

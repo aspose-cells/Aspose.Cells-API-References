@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 280
 url: /zh/python-net/aspose.cells/comment/
 is_root: false
 ---
-##  Comment类
+## Comment类
 封装表示单元格注释的对象。
 
 

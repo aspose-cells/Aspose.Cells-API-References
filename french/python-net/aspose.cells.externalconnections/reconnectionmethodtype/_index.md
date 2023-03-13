@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReConnectionMethodType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -19,7 +19,7 @@ Le type ReConnectionMethodType expose les membres suivants :
 | :- | :- |
 | REQUIRED | Lors de l'actualisation, utilisez les informations de connexion existantes et si elles finissent par être invalides<br/> obtenez ensuite les informations de connexion mises à jour, si elles sont disponibles dans le fichier de connexion externe.|
 | ALWAYS | À chaque actualisation, obtenez des informations de connexion mises à jour à partir du fichier de connexion externe,<br/> si disponible, et utilisez-le à la place des informations de connexion existantes.<br/> Dans ce cas, l'actualisation des données échouera si le fichier de connexion externe n'est pas disponible.|
-| NEVER | Ne jamais obtenir d'informations de connexion mises à jour à partir du fichier de connexion externe<br/>même s'il est disponible et même si les informations de connexion existantes ne sont pas valides|
+| NEVER | Ne jamais obtenir d'informations de connexion mises à jour à partir du fichier de connexion externe<br/> même s'il est disponible et même si les informations de connexion existantes ne sont pas valides|
 
 
 

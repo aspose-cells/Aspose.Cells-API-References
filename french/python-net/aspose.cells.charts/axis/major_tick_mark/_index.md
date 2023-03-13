@@ -1,4 +1,4 @@
-﻿---
+---
 title: major_tick_mark propriété
 second_title: Aspose.Cells for Python via .NET API Références
 description:

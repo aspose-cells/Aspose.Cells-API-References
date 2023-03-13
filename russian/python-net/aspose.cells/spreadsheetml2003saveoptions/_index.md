@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetML2003SaveOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -36,8 +36,8 @@ is_root: false
 | [merge_areas](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/merge_areas) | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла.|
 | [create_directory](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/create_directory) | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла.|
 | [sort_names](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_names) | Указывает, выполняется ли сортировка определенных имен перед сохранением файла.|
-| [sort_external_names](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_external_names) | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
-| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/refresh_chart_cache) |Указывает, обновляются ли данные кэша диаграммы.|
+| [sort_external_names](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/sort_external_names) |Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла.|
+| [refresh_chart_cache](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/refresh_chart_cache) | Указывает, обновляются ли данные кэша диаграммы.|
 | [warning_callback](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/warning_callback) | Получает или задает обратный вызов предупреждения.|
 | [update_smart_art](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/update_smart_art) | Указывает, обновляются ли настройки смарт-арта.<br/> Значение по умолчанию неверно.|
 | [is_indented_formatting](/cells/ru/python-net/aspose.cells/spreadsheetml2003saveoptions/is_indented_formatting) | Вызывает отступ дочерних элементов.|

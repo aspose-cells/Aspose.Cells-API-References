@@ -1,4 +1,4 @@
-﻿---
+---
 title: clear_sparklines метод
 second_title: Aspose.Cells for Python via .NET API
 description:

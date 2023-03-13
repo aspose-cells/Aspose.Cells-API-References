@@ -1,4 +1,4 @@
-﻿---
+---
 title: auto_fit_row méthode
 second_title: Aspose.Cells for Python via .NET API Références
 description:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ProtectedRangeCollection类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 1210
 url: /zh/python-net/aspose.cells/protectedrangecollection/
 is_root: false
 ---
-##  ProtectedRangeCollection类
+## ProtectedRangeCollection类
 封装 [ProtectedRange](/cells/zh/python-net/aspose.cells/protectedrange) 对象的集合。
 
 

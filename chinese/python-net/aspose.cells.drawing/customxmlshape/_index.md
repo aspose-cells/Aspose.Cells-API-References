@@ -1,4 +1,4 @@
-﻿---
+---
 title: CustomXmlShape类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 150
 url: /zh/python-net/aspose.cells.drawing/customxmlshape/
 is_root: false
 ---
-##  CustomXmlShape类
+## CustomXmlShape类
 表示自定义 xml 形状，例如 Ink。
 
 

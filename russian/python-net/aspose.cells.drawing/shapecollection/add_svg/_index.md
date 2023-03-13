@@ -1,4 +1,4 @@
-﻿---
+---
 title: add_svg метод
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -26,12 +26,12 @@ def add_svg(self, upper_left_row, top, upper_left_column, left, height, width, s
 | :- | :- | :- |
 | upper_left_row | int | Индекс верхней левой строки.|
 | top | int | Представляет вертикальное смещение фигуры от ее левой строки в единицах пикселя.|
-| upper_left_column | int |Индекс левого верхнего столбца.|
+| upper_left_column | int | Индекс левого верхнего столбца.|
 | left | int | Горизонтальное смещение фигуры от ее левого столбца в пикселях.|
 | height | int | Высота фигуры в пикселях.|
 | width | int | Ширина фигуры в пикселях.|
 | svg_data | bytes | Данные изображения SVG.|
-| compatible_image_data | bytes | Данные изображения преобразованы из svg для совместимости с Excel 2016 или более ранними версиями.|
+| compatible_image_data | bytes |Данные изображения преобразованы из svg для совместимости с Excel 2016 или более ранними версиями.|
 
 ###  Пример
 

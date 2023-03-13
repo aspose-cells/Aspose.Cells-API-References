@@ -1,4 +1,4 @@
-﻿---
+---
 title: ControlScrollBarType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 240
 url: /zh/python-net/aspose.cells.drawing.activexcontrols/controlscrollbartype/
 is_root: false
 ---
-##  ControlScrollBarType枚举
+## ControlScrollBarType枚举
 表示滚动条的类型。
 
 
 
 ControlScrollBarType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |不显示滚动条。|

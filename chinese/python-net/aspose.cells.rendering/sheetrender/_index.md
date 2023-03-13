@@ -1,4 +1,4 @@
-﻿---
+---
 title: SheetRender类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 100
 url: /zh/python-net/aspose.cells.rendering/sheetrender/
 is_root: false
 ---
-##  SheetRender类
+## SheetRender类
 表示一个工作表渲染器，它可以将工作表渲染成各种图像，例如 (BMP, PNG, JPEG, TIFF..)
 该类的构造函数，必须在pagesetup、cell style修改后使用。
 

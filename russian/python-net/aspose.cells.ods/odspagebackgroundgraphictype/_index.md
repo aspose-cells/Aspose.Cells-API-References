@@ -1,4 +1,4 @@
-﻿---
+---
 title: OdsPageBackgroundGraphicType перечисление
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -19,7 +19,7 @@ is_root: false
 | :- | :- |
 | POSITION | Установите изображение в определенное положение.|
 | AREA | Растяните изображение.|
-| TILE | Повторяйте и повторяйте изображение.|
+| TILE |Повторяйте и повторяйте изображение.|
 
 
 

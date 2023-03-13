@@ -1,4 +1,4 @@
-﻿---
+---
 title: PlotEmptyCellsType枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 590
 url: /zh/python-net/aspose.cells.charts/plotemptycellstype/
 is_root: false
 ---
-##  PlotEmptyCellsType枚举
+## PlotEmptyCellsType枚举
 表示图表的所有绘图空单元格类型。
 
 
 
 PlotEmptyCellsType 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NOT_PLOTTED |未绘制（留空）|

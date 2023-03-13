@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.properties
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  Перечисления
-| перечисление| Описание|
+|перечисление| Описание|
 | :- | :- |
-| [PropertyType](/cells/ru/python-net/aspose.cells.properties/propertytype) | Указывает тип данных свойства документа.|
+| [PropertyType](/cells/ru/python-net/aspose.cells.properties/propertytype) |Указывает тип данных свойства документа.|
 
 

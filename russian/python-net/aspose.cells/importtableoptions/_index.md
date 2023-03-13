@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportTableOptions класс
 second_title: Aspose.Cells for Python via .NET API
 description:
@@ -17,7 +17,7 @@ is_root: false
 ###  Конструкторы
 | Конструктор| Описание|
 | :- | :- |
-| [ImportTableOptions()](/cells/ru/python-net/aspose.cells/importtableoptions/__init__/#) |Создает параметры импорта по умолчанию.|
+| [ImportTableOptions()](/cells/ru/python-net/aspose.cells/importtableoptions/__init__/#) | Создает параметры импорта по умолчанию.|
 
 
 ###  Характеристики
@@ -32,7 +32,7 @@ is_root: false
 | [date_format](/cells/ru/python-net/aspose.cells/importtableoptions/date_format) | Получает или задает строку формата даты для ячеек с импортированными значениями даты и времени.|
 | [number_formats](/cells/ru/python-net/aspose.cells/importtableoptions/number_formats) | Получает или задает числовые форматы|
 | [is_formulas](/cells/ru/python-net/aspose.cells/importtableoptions/is_formulas) | Указывает, являются ли данные формулами.|
-| [total_rows](/cells/ru/python-net/aspose.cells/importtableoptions/total_rows) |Получает или задает общее количество строк для импорта из источника данных. -1 означает все строки данного источника данных.|
+| [total_rows](/cells/ru/python-net/aspose.cells/importtableoptions/total_rows) | Получает или задает общее количество строк для импорта из источника данных. -1 означает все строки данного источника данных.|
 | [total_columns](/cells/ru/python-net/aspose.cells/importtableoptions/total_columns) | Получает или задает общее количество столбцов для импорта из источника данных. -1 означает все строки данного источника данных.|
 | [column_indexes](/cells/ru/python-net/aspose.cells/importtableoptions/column_indexes) | Получает или задает столбцы (на основе 0) для импорта из источника данных. null означает, что все столбцы должны быть импортированы.|
 | [default_values](/cells/ru/python-net/aspose.cells/importtableoptions/default_values) | Значение по умолчанию для значения в таблице равно null.|

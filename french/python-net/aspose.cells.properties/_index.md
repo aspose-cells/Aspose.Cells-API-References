@@ -1,4 +1,4 @@
-﻿---
+---
 title: aspose.cells.properties
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -23,8 +23,8 @@ is_root: false
 
 
 ###  Énumérations
-| Énumération| Description|
+|Énumération| Description|
 | :- | :- |
-| [PropertyType](/cells/fr/python-net/aspose.cells.properties/propertytype) | Spécifie le type de données d'une propriété de document.|
+| [PropertyType](/cells/fr/python-net/aspose.cells.properties/propertytype) |Spécifie le type de données d'une propriété de document.|
 
 

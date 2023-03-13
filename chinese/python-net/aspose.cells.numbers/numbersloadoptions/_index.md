@@ -1,4 +1,4 @@
-﻿---
+---
 title: NumbersLoadOptions类
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,7 +7,7 @@ weight: 10
 url: /zh/python-net/aspose.cells.numbers/numbersloadoptions/
 is_root: false
 ---
-##  NumbersLoadOptions类
+## NumbersLoadOptions类
 表示加载 Apple Numbers 文件的选项。
 
 

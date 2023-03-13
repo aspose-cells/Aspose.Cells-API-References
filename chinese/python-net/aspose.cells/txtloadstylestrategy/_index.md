@@ -1,4 +1,4 @@
-﻿---
+---
 title: TxtLoadStyleStrategy枚举
 second_title: Aspose.Cells for Python via .NET API 参考资料
 description:
@@ -7,14 +7,14 @@ weight: 2600
 url: /zh/python-net/aspose.cells/txtloadstylestrategy/
 is_root: false
 ---
-##  TxtLoadStyleStrategy枚举
+## TxtLoadStyleStrategy枚举
 指定在将字符串值转换为数字或日期时间时如何为解析值应用样式。
 
 
 
 TxtLoadStyleStrategy 类型公开了以下成员：
 
-### 字段
+### 领域
 |场地|描述|
 | :- | :- |
 | NONE |不为解析值设置样式。|

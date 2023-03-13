@@ -1,4 +1,4 @@
-﻿---
+---
 title: SlicerStyleType dénombrement
 second_title: Aspose.Cells for Python via .NET API Références
 description:
@@ -20,9 +20,9 @@ Le type SlicerStyleType expose les membres suivants :
 | SLICER_STYLE_LIGHT1 | éclairage intégré style un|
 | SLICER_STYLE_LIGHT2 | éclairage intégré style deux|
 | SLICER_STYLE_LIGHT3 | éclairage intégré style trois|
-| SLICER_STYLE_LIGHT4 |éclairage intégré style quatre|
+| SLICER_STYLE_LIGHT4 | éclairage intégré style quatre|
 | SLICER_STYLE_LIGHT5 | éclairage intégré style cinq|
-| SLICER_STYLE_LIGHT6 | éclairage intégré style six|
+| SLICER_STYLE_LIGHT6 |éclairage intégré style six|
 | SLICER_STYLE_OTHER1 | style intégré autre|
 | SLICER_STYLE_OTHER2 | style intégré deux autres|
 | SLICER_STYLE_DARK1 | style sombre intégré|
