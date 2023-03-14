@@ -98,5 +98,5 @@ Aspose.Cells per Python tramite .NET consente alle tue applicazioni di eseguire 
 {{% /alert %}}
 
 Questi sono i link ad alcune risorse utili:
-- [Aspose.Cells per Python tramite riferimento API .NET](/cells/python-net/)
+- [Aspose.Cells per Python tramite riferimento API .NET](/cells/python-net/it/)
 

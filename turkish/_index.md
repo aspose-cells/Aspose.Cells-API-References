@@ -98,5 +98,5 @@ Aspose.Cells for Python via .NET, uygulamalarınızın çok çeşitli elektronik
 {{% /alert %}}
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
-- [Aspose.Cells for Python via .NET API Reference](/cells/python-net/)
+- [Aspose.Cells for Python via .NET API Reference](/cells/python-net/tr/)
 

@@ -98,5 +98,5 @@ Mit Aspose.Cells für Python über .NET können Ihre Anwendungen eine Vielzahl v
 {{% /alert %}}
 
 Dies sind Links zu einigen nützlichen Ressourcen:
-- [Aspose.Cells für Python über die .NET-API-Referenz](/cells/de/python-net/)
+- [Aspose.Cells für Python über die .NET-API-Referenz](/cells/python-net/de/)
 
