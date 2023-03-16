@@ -97,5 +97,5 @@ Aspose.Cells for Python عبر Java تمكن تطبيقاتك من أداء مج
 {{% /alert %}}
 
 هذه روابط لبعض المصادر المفيدة:
-- [Aspose.Cells for Python عبر مرجع .NET API](/cells/python-net/)
+- [Aspose.Cells for Python عبر مرجع .NET API](/cells/python-net/ar/)
 
