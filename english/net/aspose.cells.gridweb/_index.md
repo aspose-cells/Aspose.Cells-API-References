@@ -17,7 +17,7 @@ The **Aspose.Cells.GridWeb** namespace contains core classes of web control that
 | [CustomCommandButton](./customcommandbutton) | Represents a custom command button in the tab bar of the GridWeb control. |
 | [CustomCommandButtonCollection](./customcommandbuttoncollection) | Represents the collection of CustomCommandButton. |
 | [ExtWebControl](./extwebcontrol) | Extend the WebControl class, internal use only. |
-| [GridTableItemStyle](./gridtableitemstyle) | Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell. |
+| [GridTableItemStyle](./gridtableitemstyle) |  |
 | [GridTableStyle](./gridtablestyle) | Inherited from System.Web.UI.WebControls.TableStyle. Represents the style of a web table. Please refer to .NET SDK document about System.Web.UI.WebControls.TableStyle for further information. |
 | [GridWeb](./gridweb) |  |
 | [GridWebForm](./gridwebform) | GridWebForm control. It works with the GridWeb control. Set the GridWebControl property for it before run it. |

@@ -29,6 +29,7 @@ public class XlsbSaveOptions : SaveOptions
 | [CompressionType](../../aspose.cells/xlsbsaveoptions/compressiontype) { get; set; } | Gets and sets the compression type for ooxml file. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [ExportAllColumnIndexes](../../aspose.cells/xlsbsaveoptions/exportallcolumnindexes) { get; set; } | Indicates whether exporting all column indexes for cells. |
+| [LightCellsDataProvider](../../aspose.cells/xlsbsaveoptions/lightcellsdataprovider) { get; set; } | The data provider for saving workbook in light mode. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions).) |

@@ -17,7 +17,7 @@ public class UnknownControl : ActiveXControl
 
 | Name | Description |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | override [Data](../../aspose.cells.drawing.activexcontrols/unknowncontrol/data) { get; } | Gets and sets the binary data of the control. |
 | [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Represents the font of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |
 | virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Gets and sets the ole color of the foreground.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
@@ -32,7 +32,6 @@ public class UnknownControl : ActiveXControl
 | [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Gets and sets the list fill range.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Gets and sets a custom icon to display as the mouse pointer for the control.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Gets and sets the type of icon displayed as the mouse pointer for the control.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
-| [PersistenceType](../../aspose.cells.drawing.activexcontrols/unknowncontrol/persistencetype) { get; } | Gets the persistence method to persist an ActiveX control. |
 | virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | Indicates whether to show a shadow.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Represents how to align the text used by the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |
 | override [Type](../../aspose.cells.drawing.activexcontrols/unknowncontrol/type) { get; } | Gets the type of the ActiveX control. |

@@ -19,7 +19,7 @@ public class RadioButtonActiveXControl : ToggleButtonActiveXControl
 | --- | --- |
 | [Accelerator](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/accelerator) { get; set; } | Gets and sets the accelerator key for the control.(Inherited from [`ToggleButtonActiveXControl`](../togglebuttonactivexcontrol).) |
 | [Alignment](../../aspose.cells.drawing.activexcontrols/radiobuttonactivexcontrol/alignment) { get; set; } | Gets and set the position of the Caption relative to the control. |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [Caption](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/caption) { get; set; } | Gets and set the descriptive text that appears on a control.(Inherited from [`ToggleButtonActiveXControl`](../togglebuttonactivexcontrol).) |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Gets and sets the binary data of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |
 | [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Represents the font of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |

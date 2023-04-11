@@ -40,6 +40,7 @@ public class HtmlLoadOptions : AbstractTextLoadOptions
 | [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [HasFormula](../../aspose.cells/htmlloadoptions/hasformula) { get; set; } | Indicates whether the text is formula if it starts with "=". |
 | [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file(Inherited from [`LoadOptions`](../loadoptions).) |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes) { get; set; } | Indicates whether ignoring useless shapes.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Gets and sets the interrupt monitor.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision) { get; set; } | Indicates whether not parsing a string value if the length is 15.(Inherited from [`AbstractTextLoadOptions`](../abstracttextloadoptions).) |
 | [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.(Inherited from [`LoadOptions`](../loadoptions).) |

@@ -17,7 +17,7 @@ public class ComboBoxActiveXControl : ActiveXControl
 
 | Name | Description |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [BorderOleColor](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/borderolecolor) { get; set; } | Gets and sets the ole color of the background. |
 | [BorderStyle](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/borderstyle) { get; set; } | Gets and set the type of border used by the control. |
 | [BoundColumn](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/boundcolumn) { get; set; } | Represents how the Value property is determined for a ComboBox or ListBox when the MultiSelect properties value (fmMultiSelectSingle). |

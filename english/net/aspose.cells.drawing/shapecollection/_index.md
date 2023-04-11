@@ -34,6 +34,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [AddCheckBox](../../aspose.cells.drawing/shapecollection/addcheckbox)(int, int, int, int, int, int) | Adds a checkbox to the worksheet. |
 | [AddComboBox](../../aspose.cells.drawing/shapecollection/addcombobox)(int, int, int, int, int, int) | Adds a ComboBox to the worksheet. |
 | [AddCopy](../../aspose.cells.drawing/shapecollection/addcopy)(Shape, int, int, int, int) | Adds and copy a shape to the worksheet. |
+| [AddEquation](../../aspose.cells.drawing/shapecollection/addequation)(int, int, int, int, int, int) | Add an equation object to the worksheet. |
 | [AddFreeFloatingShape](../../aspose.cells.drawing/shapecollection/addfreefloatingshape)(MsoDrawingType, int, int, int, int, byte[], bool) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
 | [AddGroupBox](../../aspose.cells.drawing/shapecollection/addgroupbox)(int, int, int, int, int, int) | Adds a GroupBox to the worksheet. |
 | [AddIcons](../../aspose.cells.drawing/shapecollection/addicons)(int, int, int, int, int, int, byte[], byte[]) | Adds svg image. |

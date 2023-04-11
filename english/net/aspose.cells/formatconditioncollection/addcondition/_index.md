@@ -16,8 +16,8 @@ public int AddCondition(FormatConditionType type, OperatorType operatorType, str
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | FormatConditionType | of conditional formatting. It could be one of the members of FormatConditionType. |
-| operatorType | OperatorType | The comparison [`OperatorType`](../../operatortype). It could be one of the members of OperatorType. |
+| type | FormatConditionType | The type of format condition. |
+| operatorType | OperatorType | The operator type |
 | formula1 | String | The value or expression associated with conditional formatting. If the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\"=...\"". |
 | formula2 | String | The value or expression associated with conditional formatting. The input format is same with formula1 |
 

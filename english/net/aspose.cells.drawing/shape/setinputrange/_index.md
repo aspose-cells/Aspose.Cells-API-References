@@ -26,9 +26,6 @@ public void SetInputRange(string formula, bool isR1C1, bool isLocal)
 [C#]
 //After executing the code below, a ListBox object is created in the generated file. When the selected option is clicked, the selected value is displayed in cell A12.
 
-//Initialize a new workbook.
-//Workbook book = new Workbook();
-
 for (int i = 0; i< 10; ++i)
 {
     Cell cell = book.Worksheets[0].Cells[i, 0];

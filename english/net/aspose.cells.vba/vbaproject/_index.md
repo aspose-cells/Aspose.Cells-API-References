@@ -18,6 +18,7 @@ public class VbaProject
 | Name | Description |
 | --- | --- |
 | [CertRawData](../../aspose.cells.vba/vbaproject/certrawdata) { get; } | Gets certificate raw data if this VBA project is signed. |
+| [Encoding](../../aspose.cells.vba/vbaproject/encoding) { get; set; } | Gets and sets the encoding of VBA project. |
 | [IslockedForViewing](../../aspose.cells.vba/vbaproject/islockedforviewing) { get; } | Indicates whether this VBA project is locked for viewing. |
 | [IsProtected](../../aspose.cells.vba/vbaproject/isprotected) { get; } | Indicates whether this VBA project is protected. |
 | [IsSigned](../../aspose.cells.vba/vbaproject/issigned) { get; } | Indicates whether VBAcode is signed or not. |

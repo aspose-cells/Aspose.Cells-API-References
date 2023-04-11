@@ -62,6 +62,7 @@ public enum SaveFormat
 | Gif | `322` | Gif |
 | Json | `513` | Json |
 | SqlScript | `514` | Sql |
+| XHtml | `771` | Rrepesents XHtml file. |
 
 ### See Also
 

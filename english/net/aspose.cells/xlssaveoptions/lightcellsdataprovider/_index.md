@@ -1,13 +1,13 @@
 ---
 title: LightCellsDataProvider
 second_title: Aspose.Cells for .NET API Reference
-description: The Data provider to provide cells data for saving workbook in light mode.
+description: The data provider for saving workbook in light mode.
 type: docs
 url: /net/aspose.cells/xlssaveoptions/lightcellsdataprovider/
 ---
 ## XlsSaveOptions.LightCellsDataProvider property
 
-The Data provider to provide cells data for saving workbook in light mode.
+The data provider for saving workbook in light mode.
 
 ```csharp
 public LightCellsDataProvider LightCellsDataProvider { get; set; }

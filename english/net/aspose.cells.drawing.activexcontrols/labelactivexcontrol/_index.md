@@ -18,7 +18,7 @@ public class LabelActiveXControl : ActiveXControl
 | Name | Description |
 | --- | --- |
 | [Accelerator](../../aspose.cells.drawing.activexcontrols/labelactivexcontrol/accelerator) { get; set; } | Gets and sets the accelerator key for the control. |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [BorderOleColor](../../aspose.cells.drawing.activexcontrols/labelactivexcontrol/borderolecolor) { get; set; } | Gets and sets the ole color of the background. |
 | [BorderStyle](../../aspose.cells.drawing.activexcontrols/labelactivexcontrol/borderstyle) { get; set; } | Gets and set the type of border used by the control. |
 | [Caption](../../aspose.cells.drawing.activexcontrols/labelactivexcontrol/caption) { get; set; } | Gets and set the descriptive text that appears on a control. |

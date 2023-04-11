@@ -16,6 +16,7 @@ is_root: true
 | [Aspose.Cells.DigitalSignatures](./aspose.cells.digitalsignatures) | The **Aspose.Cells.DigitalSignatures** namespace provides classes to sign documents and verify signatures. |
 | [Aspose.Cells.Drawing](./aspose.cells.drawing) | The **Aspose.Cells.Drawing** namespace provides classes that allow to create and modify drawing shapes, form controls, and more advanced drawing objects. |
 | [Aspose.Cells.Drawing.ActiveXControls](./aspose.cells.drawing.activexcontrols) | The **Aspose.Cells.Drawing.ActiveXControls** namespace provides classes that allow to draw and access ActiveXControl. |
+| [Aspose.Cells.Drawing.Equations](./aspose.cells.drawing.equations) | The **Aspose.Cells.Drawing.Equations** namespace provides classes about equations. |
 | [Aspose.Cells.Drawing.Texts](./aspose.cells.drawing.texts) | The **Aspose.Cells.Drawing.Texts** namespace provides classes that draw and format texts objects such paragraph, bullet and more. |
 | [Aspose.Cells.ExternalConnections](./aspose.cells.externalconnections) | The **Aspose.Cells.ExternalConnections** namespace provides classes for external connections to retrieve data from external sources such as Databases and the Web. |
 | [Aspose.Cells.Json](./aspose.cells.json) | The **Aspose.Cells.Json** namespace contains all classes of JSON. |

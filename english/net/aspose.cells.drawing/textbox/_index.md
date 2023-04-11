@@ -131,6 +131,8 @@ public class TextBox : Shape
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters)(int, int, Font, StyleFlag) | Formats some characters with the font setting.(Inherited from [`Shape`](../shape).) |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters)() | Returns all Characters objects that represents a range of characters within the text .(Inherited from [`Shape`](../shape).) |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints)() | Get the connection points(Inherited from [`Shape`](../shape).) |
+| [GetEquationParagraph](../../aspose.cells.drawing/textbox/getequationparagraph#getequationparagraph)() | Gets the first math paragraph from the TextBody property of the TextBox object. |
+| [GetEquationParagraph](../../aspose.cells.drawing/textbox/getequationparagraph#getequationparagraph_1)(int) | Get the specified math paragraph from the TextBody property of the TextBox object. Notice: (1) Returns NULL when the index is out of bounds or not found. (2) Also returns NULL if the specified index position is not a math paragraph. |
 | [GetInputRange](../../aspose.cells.drawing/shape/getinputrange)(bool, bool) | Gets the range used to fill the control.(Inherited from [`Shape`](../shape).) |
 | [GetLinkedCell](../../aspose.cells.drawing/shape/getlinkedcell)(bool, bool) | Gets the range linked to the control's value.(Inherited from [`Shape`](../shape).) |
 | [GetLockedProperty](../../aspose.cells.drawing/shape/getlockedproperty)(ShapeLockType) | Gets the value of locked property.(Inherited from [`Shape`](../shape).) |

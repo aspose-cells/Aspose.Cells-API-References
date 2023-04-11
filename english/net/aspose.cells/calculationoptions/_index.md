@@ -25,6 +25,7 @@ public class CalculationOptions
 | --- | --- |
 | [CalcStackSize](../../aspose.cells/calculationoptions/calcstacksize) { get; set; } | Specifies the stack size for calculating cells recursively. |
 | [CalculationMonitor](../../aspose.cells/calculationoptions/calculationmonitor) { get; set; } | The monitor for user to track the progress of formula calculation. |
+| [CharacterEncoding](../../aspose.cells/calculationoptions/characterencoding) { get; set; } | Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result. |
 | [CustomEngine](../../aspose.cells/calculationoptions/customengine) { get; set; } | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [CustomFunction](../../aspose.cells/calculationoptions/customfunction) { get; set; } | (**Obsolete.**) The custom formula calculation functions to extend the calculation engine. |
 | [IgnoreError](../../aspose.cells/calculationoptions/ignoreerror) { get; set; } | Indicates if you need to hide the error in calculating formulas. The error may be unsupported function, external links, etc. |

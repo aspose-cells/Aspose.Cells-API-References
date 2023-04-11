@@ -10,7 +10,7 @@ url: /net/aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor/
 Gets and sets the ole color of the background.
 
 ```csharp
-public int BackOleColor { get; set; }
+public virtual int BackOleColor { get; set; }
 ```
 
 ### See Also

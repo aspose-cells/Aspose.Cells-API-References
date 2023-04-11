@@ -104,6 +104,8 @@ public enum FileFormatType
 | Gif | `322` | Gif |
 | Json | `513` | Json |
 | SqlScript | `514` | Sql |
+| XHtml | `771` | Rrepesents XHtml file. |
+| OneNote | `772` | Rrepesents One Note file. |
 
 ### See Also
 

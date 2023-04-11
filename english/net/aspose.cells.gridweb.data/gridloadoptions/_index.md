@@ -1,16 +1,15 @@
 ---
 title: GridLoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the options of loading the file.
+description: Represents the options of loading the file. ObsoleteThis class will be obsoleted after stand alone dll usage of cells public apiinstead you can use Aspose.Cells.LodOptions 
 type: docs
 url: /net/aspose.cells.gridweb.data/gridloadoptions/
 ---
 ## GridLoadOptions class
 
-Represents the options of loading the file.
+Represents the options of loading the file. [Obsolete("This class will be obsoleted after stand alone dll usage of cells public api,instead you can use Aspose.Cells.LodOptions ")]
 
 ```csharp
-[Obsolete("This class will be obsoleted after stand alone dll usage of cells public api,instead you can use Aspose.Cells.LodOptions ")]
 public class GridLoadOptions
 ```
 

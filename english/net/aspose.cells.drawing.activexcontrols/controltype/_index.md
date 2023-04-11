@@ -28,7 +28,8 @@ public enum ControlType
 | Image | `8` | Image |
 | ToggleButton | `9` | ToggleButton |
 | ScrollBar | `10` | ScrollBar |
-| Unknown | `11` | Unknown |
+| BarCode | `11` | ScrollBar |
+| Unknown | `12` | Unknown |
 
 ### See Also
 

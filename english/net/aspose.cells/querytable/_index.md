@@ -35,10 +35,10 @@ Workbook workbook = new Workbook();
 
 //Obtaining the reference of the first worksheet
 Worksheet worksheet = workbook.Worksheets[0];
-//Getting the first query table in the worksheet
-QueryTable qt = worksheet.QueryTables[0];
+//Getting the first query table in the worksheet if exists
+//QueryTable qt = worksheet.QueryTables[0];
 //Getting display address of the query table.
-string address = qt.ResultRange.Address;
+//string address = qt.ResultRange.Address;
 
 [VB.NET]
 

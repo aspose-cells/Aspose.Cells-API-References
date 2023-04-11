@@ -32,7 +32,7 @@ Returns [`TableStyleElement`](../../tablestyleelement) object
 
 ## TableStyleElementCollection indexer (2 of 2)
 
-Gets the element of the table style by the [`TableStyleElementType`](../../tablestyleelementtype)
+Gets the element of the table style by the element type.
 
 ```csharp
 public TableStyleElement this[TableStyleElementType type] { get; }

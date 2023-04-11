@@ -48,6 +48,7 @@ public class ListObject
 | [ConvertToRange](../../aspose.cells.tables/listobject/converttorange#converttorange)() | Convert the table to range. |
 | [ConvertToRange](../../aspose.cells.tables/listobject/converttorange#converttorange_1)(TableToRangeOptions) | Convert the table to range. |
 | [Filter](../../aspose.cells.tables/listobject/filter)() | Filter the table. |
+| [PutCellFormula](../../aspose.cells.tables/listobject/putcellformula)(int, int, string) | Put the formula to the cell in the table. |
 | [PutCellValue](../../aspose.cells.tables/listobject/putcellvalue)(int, int, object) | Put the value to the cell. |
 | [Resize](../../aspose.cells.tables/listobject/resize)(int, int, int, int, bool) | Resize the range of the list object. |
 | [UpdateColumnName](../../aspose.cells.tables/listobject/updatecolumnname)() | Updates all list columns' name from the worksheet. |

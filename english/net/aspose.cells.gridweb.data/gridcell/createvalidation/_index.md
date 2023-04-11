@@ -22,12 +22,16 @@ public GridValidation CreateValidation(GridValidationType validationType, bool i
 
 ```csharp
 [C#]
-	Validation v = cell1.CreateValidation(GridValidationType.CustomExpression, true);
+GridWeb GridWeb1 = new GridWeb();
+GridWorksheet sheet = GridWeb1.ActiveSheet;
+GridValidation v = sheet.Cells["A1"].CreateValidation(GridValidationType.CustomExpression, true);
 	// Sets to number validation expression.
 	v.RegEx = "\\d+";
 	
 [Visual Basic]
-	Dim v As Validation =  cell1.CreateValidation(GridValidationType.CustomExpression,True) 
+im GridWeb1 As GridWeb =  New GridWeb() 
+im sheet As GridWorksheet =  GridWeb1.ActiveSheet 
+	Dim v As GridValidation =  sheet.Cells["A1"].CreateValidation(GridValidationType.CustomExpression,True) 
 	 ' Sets to number validation expression.
 	v.RegEx = "\\d+"
 ```

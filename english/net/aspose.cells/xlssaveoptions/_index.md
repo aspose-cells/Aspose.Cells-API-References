@@ -28,7 +28,7 @@ public class XlsSaveOptions : SaveOptions
 | [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [IsTemplate](../../aspose.cells/xlssaveoptions/istemplate) { get; set; } | Indicates whether saving a template file. |
-| [LightCellsDataProvider](../../aspose.cells/xlssaveoptions/lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
+| [LightCellsDataProvider](../../aspose.cells/xlssaveoptions/lightcellsdataprovider) { get; set; } | The data provider for saving workbook in light mode. |
 | [MatchColor](../../aspose.cells/xlssaveoptions/matchcolor) { get; set; } | Indicates whether matching font color because there are 56 colors in the standard color palette. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |

@@ -32,6 +32,7 @@ public class FontConfigs
 | --- | --- |
 | static [GetFontSources](../../aspose.cells/fontconfigs/getfontsources)() | Gets a copy of the array that contains the list of sources |
 | static [GetFontSubstitutes](../../aspose.cells/fontconfigs/getfontsubstitutes)(string) | Returns array containing font substitute names to be used if original font is not presented. |
+| static [IsFontAvailable](../../aspose.cells/fontconfigs/isfontavailable)(string) | Indicate whether the font is available. |
 | static [SetFontFolder](../../aspose.cells/fontconfigs/setfontfolder)(string, bool) | Sets the fonts folder |
 | static [SetFontFolders](../../aspose.cells/fontconfigs/setfontfolders)(string[], bool) | Sets the fonts folders |
 | static [SetFontSources](../../aspose.cells/fontconfigs/setfontsources)(FontSourceBase[]) | Sets the fonts sources. |

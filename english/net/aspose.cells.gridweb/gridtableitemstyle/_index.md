@@ -1,13 +1,11 @@
 ---
 title: GridTableItemStyle
 second_title: Aspose.Cells for .NET API Reference
-description: Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
+description: 
 type: docs
 url: /net/aspose.cells.gridweb/gridtableitemstyle/
 ---
 ## GridTableItemStyle class
-
-Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
 
 ```csharp
 public class GridTableItemStyle : TableItemStyle, ISerializable
@@ -44,68 +42,6 @@ public class GridTableItemStyle : TableItemStyle, ISerializable
 | override [CopyFrom](../../aspose.cells.gridweb/gridtableitemstyle/copyfrom)(Style) | Copies from another style object. |
 | override [GetHashCode](../../aspose.cells.gridweb/gridtableitemstyle/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | override [MergeWith](../../aspose.cells.gridweb/gridtableitemstyle/mergewith)(Style) | Merges with another style object. |
-
-### Examples
-
-```csharp
-[C#]
-...
-using System.Web.UI.WebControls;
-...
-...
-WebWorksheets sheets = GridWeb1.WebWorksheets;
-sheets.Clear();
-WebWorksheet sheet = sheets[sheets.Add("demo1")];
-
-WebCell cell = sheet.Cells[0,0];
-cell.StringValue = "Demo Text";
-
-Aspose.Cells.GridWeb.TableItemStyle style = cell.GetStyle();
-style.Font.Size = new FontUnit("72pt");
-style.Wrap = false;
-
-style.BackColor = Color.Gray;
-style.BorderStyle = BorderStyle.Solid;
-style.BorderWidth = new Unit(1, UnitType.Pixel);
-style.BorderColor = Color.Silver;
-
-style.RightBorderStyle.BorderColor = Color.Black;
-style.RightBorderStyle.BorderStyle = BorderStyle.Solid;
-style.RightBorderStyle.BorderWidth = new Unit(1, UnitType.Pixel);
-style.BottomBorderStyle.BorderColor = Color.Black;
-style.BottomBorderStyle.BorderStyle = BorderStyle.Solid;
-style.BottomBorderStyle.BorderWidth = new Unit(1, UnitType.Pixel);
-cell.SetStyle(style);
-
-[Visual Basic]
-...
-Imports System.Web.UI.WebControls
-...
-...
-Dim sheets As WebWorksheets =  GridWeb1.WebWorksheets
-sheets.Clear()
-Dim sheet As WebWorksheet =  sheets(sheets.Add(__0__))
-
-Dim cell As WebCell =  sheet.Cells(0,0)
-cell.StringValue = "Demo Text"
-
-Dim style As Aspose.Cells.GridWeb.TableItemStyle = cell.GetStyle()
-style.Font.Size = New FontUnit("72pt")
-style.Wrap = False
-
-style.BackColor = Color.Gray
-style.BorderStyle = BorderStyle.Solid
-style.BorderWidth = New Unit(1, UnitType.Pixel)
-style.BorderColor = Color.Silver
-
-style.RightBorderStyle.BorderColor = Color.Black
-style.RightBorderStyle.BorderStyle = BorderStyle.Solid
-style.RightBorderStyle.BorderWidth = New Unit(1, UnitType.Pixel)
-style.BottomBorderStyle.BorderColor = Color.Black
-style.BottomBorderStyle.BorderStyle = BorderStyle.Solid
-style.BottomBorderStyle.BorderWidth = New Unit(1, UnitType.Pixel)
-cell.SetStyle(style)
-```
 
 ### See Also
 

@@ -38,6 +38,7 @@ public class TxtLoadOptions : AbstractTextLoadOptions
 | [HasFormula](../../aspose.cells/txtloadoptions/hasformula) { get; set; } | Indicates whether the text is formula if it starts with "=". |
 | [HasTextQualifier](../../aspose.cells/txtloadoptions/hastextqualifier) { get; set; } | Whether there is text qualifier for cell value. Default is true. |
 | [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file(Inherited from [`LoadOptions`](../loadoptions).) |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes) { get; set; } | Indicates whether ignoring useless shapes.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Gets and sets the interrupt monitor.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [IsMultiEncoded](../../aspose.cells/txtloadoptions/ismultiencoded) { get; set; } | True means that the file contains several encoding. |
 | [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision) { get; set; } | Indicates whether not parsing a string value if the length is 15.(Inherited from [`AbstractTextLoadOptions`](../abstracttextloadoptions).) |

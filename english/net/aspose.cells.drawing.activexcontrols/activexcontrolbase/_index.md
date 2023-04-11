@@ -17,7 +17,7 @@ public abstract class ActiveXControlBase
 
 | Name | Description |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background. |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background. |
 | virtual [Data](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/data) { get; } | Gets and sets the binary data of the control. |
 | virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Gets and sets the ole color of the foreground. |
 | virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Gets and sets the height of the control in unit of points. |

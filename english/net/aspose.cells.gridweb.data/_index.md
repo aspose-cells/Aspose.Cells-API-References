@@ -30,7 +30,7 @@ The **Aspose.Cells.GridWeb.Data** namespace contains classes of data control obj
 | [GridHtmlSaveOptions](./gridhtmlsaveoptions) | Represents the options for saving html file. |
 | [GridHyperlink](./gridhyperlink) | Encapsulates the object that represents a hyperlink. |
 | [GridHyperlinkCollection](./gridhyperlinkcollection) | Encapsulates a collection of [`GridHyperlink`](../aspose.cells.gridweb.data/gridhyperlink) objects. |
-| [GridLoadOptions](./gridloadoptions) | Represents the options of loading the file. |
+| [GridLoadOptions](./gridloadoptions) | Represents the options of loading the file. [Obsolete("This class will be obsoleted after stand alone dll usage of cells public api,instead you can use Aspose.Cells.LodOptions ")] |
 | [GridName](./gridname) | Encapsulates the object that represents a name object. |
 | [GridNameCollection](./gridnamecollection) | Encapsulates a collection of [`GridName`](../aspose.cells.gridweb.data/gridname) objects. |
 | [GridPicture](./gridpicture) | Encapsulates the object that represents a single picture in a spreadsheet. |

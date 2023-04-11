@@ -23,9 +23,16 @@ User can set any formula in Workbook designer file. Aspose.Cells will keep all t
 
 ```csharp
 [C#]
-	cell.Formula = "=SUM(A1:C3) + E6*2";
+
+ridWeb GridWeb1 = new GridWeb();
+ridWorksheet sheet = GridWeb1.ActiveSheet;
+heet.Cells["B6"].Formula = "=SUM(B2:B5, E1) + sheet1!A1";
+
 [Visual Basic]
-	cell.Formula = "=SUM(A1:C3) + E6*2"
+
+im GridWeb1 As GridWeb =  New GridWeb() 
+im sheet As GridWorksheet =  GridWeb1.ActiveSheet 
+heet.Cells["B6"].Formula = "=SUM(B2:B5, E1) + sheet1!A1"
 ```
 
 ### See Also

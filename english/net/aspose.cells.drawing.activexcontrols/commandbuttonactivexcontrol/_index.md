@@ -18,7 +18,7 @@ public class CommandButtonActiveXControl : ActiveXControl
 | Name | Description |
 | --- | --- |
 | [Accelerator](../../aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/accelerator) { get; set; } | Gets and sets the accelerator key for the control. |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [Caption](../../aspose.cells.drawing.activexcontrols/commandbuttonactivexcontrol/caption) { get; set; } | Gets and set the descriptive text that appears on a control. |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Gets and sets the binary data of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |
 | [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Represents the font of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |

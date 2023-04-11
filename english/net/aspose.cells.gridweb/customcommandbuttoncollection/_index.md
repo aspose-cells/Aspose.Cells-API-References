@@ -42,11 +42,13 @@ public class CustomCommandButtonCollection : CollectionBase
 
 ```csharp
 [C#]
+GridWeb GridWeb1 = new GridWeb();
 CustomCommandButton button = new CustomCommandButton();
 button.Command = "MyCommand";
 button.ImageUrl = "images/button1.gif";
 GridWeb1.CustomCommandButtons.Add(button);
 [VB]
+Dim GridWeb1 As GridWeb= New GridWeb();
 Dim button As CustomCommandButton =  New CustomCommandButton()
 button.Command = "MyCommand"
 button.ImageUrl = "images/button1.gif"

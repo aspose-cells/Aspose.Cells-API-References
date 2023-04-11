@@ -15,7 +15,7 @@ public int IconId { get; }
 
 ### Remarks
 
-Only effects when [`SortOnType`](../../sortontype) is SortOnType.Icon.
+Only takes effect when [`Type`](../type) is Icon.
 
 ### See Also
 

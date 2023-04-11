@@ -160,7 +160,7 @@ Workbook workbook = new Workbook();
 ShapeCollection shapes = workbook.Worksheets[0].Shapes;
 
 //add a CustomXmlShape
-//Shape shape = shapes.AddShape(MsoDrawingType.CustomXml, 3, 0, 3, 0, 50, 150);
+Shape shape = shapes.AddShape(MsoDrawingType.CustomXml, 3, 0, 3, 0, 50, 150);
 
 //Check if a shape is CustomXmlShape
 CustomXmlShape customXmlShape = null;

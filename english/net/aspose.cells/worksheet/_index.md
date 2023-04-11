@@ -101,6 +101,8 @@ public class Worksheet : IDisposable
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_2)(bool) | Autofits all rows in this worksheet. |
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_3)(int, int) | Autofits row height in a range. |
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows#autofitrows_4)(int, int, AutoFitterOptions) | Autofits row height in a range. |
+| [CalculateArrayFormula](../../aspose.cells/worksheet/calculatearrayformula#calculatearrayformula)(string, CalculationOptions) | Calculates a formula as array formula. |
+| [CalculateArrayFormula](../../aspose.cells/worksheet/calculatearrayformula#calculatearrayformula_1)(string, CalculationOptions, int, int) | Calculates a formula as array formula. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula)(string) | Calculates a formula. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_2)(CalculationOptions, bool) | Calculates all formulas in this worksheet. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula#calculateformula_1)(string, CalculationOptions) | Calculates a formula. |

@@ -33,6 +33,7 @@ public class XmlLoadOptions : LoadOptions
 | [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Gets the default style settings for initializing styles of the workbook(Inherited from [`LoadOptions`](../loadoptions).) |
 | [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Gets and sets individual font configs. Only works for the [`Workbook`](../workbook) which uses this [`LoadOptions`](../loadoptions) to load.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignore the data which are not printed if directly printing the file(Inherited from [`LoadOptions`](../loadoptions).) |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes) { get; set; } | Indicates whether ignoring useless shapes.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Gets and sets the interrupt monitor.(Inherited from [`LoadOptions`](../loadoptions).) |
 | [IsXmlMap](../../aspose.cells/xmlloadoptions/isxmlmap) { get; set; } | Indicates whether mapping xml to Excel. The default value is false. |
 | [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.(Inherited from [`LoadOptions`](../loadoptions).) |

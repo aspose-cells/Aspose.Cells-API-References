@@ -18,9 +18,6 @@ public void UpdateSelectedValue()
 ```csharp
 
 [C#]
-//Initialize a new workbook.
-//Workbook book = new Workbook();
-
 Cell cell = null;
 for (int i = 0; i< 10; ++i)
 {

@@ -60,6 +60,10 @@ cells[3,1].PutValue(30000);
 
 int chartIndex = sheet.Charts.Add(ChartType.Line, 9, 9, 21, 15);
 Chart chart = sheet.Charts[chartIndex];
+//Add series
+chart.NSeries.Add("A2:B4", true);
+//Set category data
+chart.NSeries.CategoryData = "=Sheet1!$A$2:$A$4";
 //Applying a dotted line style on the lines of an NSeries
 chart.NSeries[0].Border.Style = LineType.Dot;
 chart.NSeries[0].Border.Color = Color.Red;
@@ -84,6 +88,10 @@ cells(3,1).PutValue(30000)
 		
 Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)    ///
 Dim chart as Chart = sheet.Charts(chartIndex)
+'Adding NSeries (chart data source) to the chart ranging from "A2" cell to "B4"
+chart.NSeries.Add("A2:B4", True)
+'Setting the data source for the category data of NSeries
+Chart.NSeries.CategoryData = "A2:A4"
 'Applying a dotted line style on the lines of an NSeries
 chart.NSeries(0).Border.Style = LineType.Dot
 chart.NSeries(0).Border.Color = Color.Red

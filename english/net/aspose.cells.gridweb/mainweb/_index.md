@@ -67,7 +67,7 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [IsCalculateFormula](../../aspose.cells.gridweb/mainweb/iscalculateformula) { get; set; } | Gets or sets whether to calculate formula after cell value changes or after import File. The default value is true. |
 | [IsPostBack](../../aspose.cells.gridweb/mainweb/ispostback) { get; } | Gets a value indicating whether gridweb is being loaded in response to a client postback, or if it is being loaded and accessed for the first time. |
 | [LinksTable](../../aspose.cells.gridweb/mainweb/linkstable) { get; } |  |
-| [LoadOptions](../../aspose.cells.gridweb/mainweb/loadoptions) { get; set; } | Represents the loadoptions. |
+| [LoadOptions](../../aspose.cells.gridweb/mainweb/loadoptions) { get; set; } | Represents the loadoptions for GridWeb. |
 | [MaxColumn](../../aspose.cells.gridweb/mainweb/maxcolumn) { get; set; } | Gets or sets the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column. |
 | [MaxRow](../../aspose.cells.gridweb/mainweb/maxrow) { get; set; } | Gets or sets the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row. |
 | [Message](../../aspose.cells.gridweb/mainweb/message) { get; set; } |  |

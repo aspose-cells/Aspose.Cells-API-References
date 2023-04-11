@@ -17,7 +17,7 @@ public abstract class ActiveXControl : ActiveXControlBase
 
 | Name | Description |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Gets and sets the binary data of the control. |
 | [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Represents the font of the control. |
 | virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Gets and sets the ole color of the foreground.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |

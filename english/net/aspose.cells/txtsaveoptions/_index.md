@@ -34,7 +34,7 @@ public class TxtSaveOptions : SaveOptions
 | [ExportQuotePrefix](../../aspose.cells/txtsaveoptions/exportquoteprefix) { get; set; } | Indicates whether the single quote sign should be exported as part of the value of one cell when [`QuotePrefix`](../style/quoteprefix) is true for it. Default is false. |
 | [FormatStrategy](../../aspose.cells/txtsaveoptions/formatstrategy) { get; set; } | Gets and sets the format strategy when exporting the cell value as string. |
 | [KeepSeparatorsForBlankRow](../../aspose.cells/txtsaveoptions/keepseparatorsforblankrow) { get; set; } | Indicates whether separators should be output for blank row. Default value is false so by default the content for blank row will be empty. |
-| [LightCellsDataProvider](../../aspose.cells/txtsaveoptions/lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
+| [LightCellsDataProvider](../../aspose.cells/txtsaveoptions/lightcellsdataprovider) { get; set; } | The data provider for saving workbook in light mode. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [QuoteType](../../aspose.cells/txtsaveoptions/quotetype) { get; set; } | Gets or sets how to quote values in the exported text file. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |

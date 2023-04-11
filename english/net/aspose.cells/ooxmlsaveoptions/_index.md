@@ -31,7 +31,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [EmbedOoxmlAsOleObject](../../aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject) { get; set; } | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [EnableZip64](../../aspose.cells/ooxmlsaveoptions/enablezip64) { get; set; } | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
 | [ExportCellName](../../aspose.cells/ooxmlsaveoptions/exportcellname) { get; set; } | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
-| [LightCellsDataProvider](../../aspose.cells/ooxmlsaveoptions/lightcellsdataprovider) { get; set; } | The Data provider to provide cells data for saving workbook in light mode. |
+| [LightCellsDataProvider](../../aspose.cells/ooxmlsaveoptions/lightcellsdataprovider) { get; set; } | The data provider for saving workbook in light mode. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions).) |

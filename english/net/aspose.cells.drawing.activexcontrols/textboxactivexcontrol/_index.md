@@ -17,7 +17,7 @@ public class TextBoxActiveXControl : ActiveXControl
 
 | Name | Description |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Gets and sets the ole color of the background.(Inherited from [`ActiveXControlBase`](../activexcontrolbase).) |
 | [BorderOleColor](../../aspose.cells.drawing.activexcontrols/textboxactivexcontrol/borderolecolor) { get; set; } | Gets and sets the ole color of the background. |
 | [BorderStyle](../../aspose.cells.drawing.activexcontrols/textboxactivexcontrol/borderstyle) { get; set; } | Gets and set the type of border used by the control. |
 | override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Gets and sets the binary data of the control.(Inherited from [`ActiveXControl`](../activexcontrol).) |

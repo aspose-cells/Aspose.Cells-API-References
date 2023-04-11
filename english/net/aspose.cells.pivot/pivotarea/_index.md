@@ -19,6 +19,13 @@ public class PivotArea
 | --- | --- |
 | [PivotArea](pivotarea)(PivotTable) | Presents the selected area of the PivotTable. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [OnlyData](../../aspose.cells.pivot/pivotarea/onlydata) { get; set; } | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
+| [OnlyLabel](../../aspose.cells.pivot/pivotarea/onlylabel) { get; set; } | Indicates whether only the data labels for an item selection are selected. |
+
 ## Methods
 
 | Name | Description |

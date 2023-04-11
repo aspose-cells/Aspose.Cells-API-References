@@ -15,8 +15,8 @@ public void PutCellValue(int rowOffset, int columnOffset, object value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowOffset | Int32 | The row offset. |
-| columnOffset | Int32 | The column offset. |
+| rowOffset | Int32 | The row offset in the table. |
+| columnOffset | Int32 | The column offset in the table. |
 | value | Object | The cell value. |
 
 ### See Also

@@ -17,7 +17,7 @@ public void AddDateFilter(int fieldIndex, DateTimeGroupingType dateTimeGroupingT
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | Int32 | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| dateTimeGroupingType | DateTimeGroupingType | [`DateTimeGroupingType`](../../datetimegroupingtype) |
+| dateTimeGroupingType | DateTimeGroupingType | The grouping type |
 | year | Int32 | The year. |
 | month | Int32 | The month. |
 | day | Int32 | The day. |

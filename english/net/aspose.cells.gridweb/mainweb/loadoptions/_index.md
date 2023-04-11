@@ -1,13 +1,13 @@
 ---
 title: LoadOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the loadoptions.
+description: Represents the loadoptions for GridWeb.
 type: docs
 url: /net/aspose.cells.gridweb/mainweb/loadoptions/
 ---
 ## MainWeb.LoadOptions property
 
-Represents the loadoptions.
+Represents the loadoptions for GridWeb.
 
 ```csharp
 public GridLoadOptions LoadOptions { get; set; }

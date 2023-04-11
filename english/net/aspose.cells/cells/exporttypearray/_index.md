@@ -23,7 +23,7 @@ public CellValueType[] ExportTypeArray(int firstRow, int firstColumn, int totalR
 
 ### Return Value
 
-Exported [`CellValueType`](../../cellvaluetype) array object.
+Exported array object representing cell value types.
 
 ### See Also
 
