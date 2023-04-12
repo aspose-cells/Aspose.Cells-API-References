@@ -181,7 +181,7 @@ public int getExportHyperlinkType()
 ```
 
 
-Represents the type of exporting hyperlink to json. The default value is JsonExportHyperlinkType.DISPLAY\_STRING;
+Represents the type of exporting hyperlink to json. [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype). The default value is [JsonExportHyperlinkType.DISPLAY\_STRING](../../com.aspose.cells/jsonexporthyperlinktype\#DISPLAY-STRING);
 
 **Returns:**
 int
@@ -231,7 +231,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -438,7 +438,7 @@ public void setExportHyperlinkType(int value)
 ```
 
 
-Represents the type of exporting hyperlink to json. The default value is JsonExportHyperlinkType.DISPLAY\_STRING;
+Represents the type of exporting hyperlink to json. [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype). The default value is [JsonExportHyperlinkType.DISPLAY\_STRING](../../com.aspose.cells/jsonexporthyperlinktype\#DISPLAY-STRING);
 
 **Parameters:**
 | Parameter | Type | Description |

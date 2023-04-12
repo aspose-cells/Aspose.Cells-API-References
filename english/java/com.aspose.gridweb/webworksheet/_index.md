@@ -7,12 +7,16 @@ url: /java/com.aspose.gridweb/webworksheet/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.gridweb.Control](../../com.aspose.gridweb/control)
 ```
-public class WebWorksheet
+public class WebWorksheet extends Control
 ```
 
 Represents a web worksheet. NOTE: This class is now obsolete. please use GridWorksheet Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
+
+```
+
+```
 ## Constructors
 
 | Constructor | Description |
@@ -45,6 +49,7 @@ Represents a web worksheet. NOTE: This class is now obsolete. please use GridWor
 | [getEnableCreateBindColumnHeader()](#getEnableCreateBindColumnHeader--) | In data-binding mode, indicates whether to create bind column header captions in the sheet. |
 | [getIndex()](#getIndex--) | Gets the index of itself within the worksheets. |
 | [getName()](#getName--) | Gets the name of the sheet. |
+| [getUniqueID()](#getUniqueID--) | Gets the UniqueID in the Control |
 | [getValidations()](#getValidations--) | Gets the data validation setting collection in the worksheet. |
 | [getVisible()](#getVisible--) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
 | [groupRows(int firstIndex, int lastIndex)](#groupRows-int-int-) | Groups rows. |
@@ -184,12 +189,12 @@ Creates subtotal in the sheet.
 | columnNameRowIndex | int | The row index of the column name row. |
 | dataRows | int | The number of the data rows. |
 | groupByColumnIndex | int | The column index of the column to be grouped. |
-| subtotalFunction | int | The subtotal function type. |
+| subtotalFunction | int | [SubtotalFunction](../../com.aspose.gridweb/subtotalfunction). The subtotal function type. |
 | subtotalColumnIndexList | int[] | The column indexes to be subtotaled. |
 | functionLabel | java.lang.String | The label of subtotal function. |
 | grandCellStyle | [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle) | The style of the grand total line. |
 | subtotalCellStyle | [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle) | The style of the subtotal line. |
-| numberType | int | The number type of the subtotal result cells. |
+| numberType | int | [NumberType](../../com.aspose.gridweb/numbertype). The number type of the subtotal result cells. |
 | customString | java.lang.String | The custome format string of the subtotal result cells. Can be null. |
 
 ### dataBind() {#dataBind--}
@@ -343,6 +348,16 @@ public String getName()
 
 
 Gets the name of the sheet.
+
+**Returns:**
+java.lang.String
+### getUniqueID() {#getUniqueID--}
+```
+public String getUniqueID()
+```
+
+
+Gets the UniqueID in the Control
 
 **Returns:**
 java.lang.String

@@ -438,7 +438,7 @@ Deletes a range of cells and shift cells according to the shift option.
 | startColumn | int | Start column index. |
 | endRow | int | End row index. |
 | endColumn | int | End column index. |
-| shiftType | int | Shift cells option. |
+| shiftType | int | [GridShiftType](../../com.aspose.gridweb/gridshifttype). Shift cells option. |
 
 ### deleteRow(int rowIndex) {#deleteRow-int-}
 ```
@@ -1086,7 +1086,7 @@ Inserts a range of cells and shift cells according to the shift option.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | area | [GridCellArea](../../com.aspose.gridweb/gridcellarea) | Shift area. |
-| shiftType | int | Shift cells option. |
+| shiftType | int | [GridShiftType](../../com.aspose.gridweb/gridshifttype). Shift cells option. |
 
 ### insertRange(GridCellArea area, int shiftNumber, int shiftType, boolean updateReference) {#insertRange-com.aspose.gridweb.GridCellArea-int-int-boolean-}
 ```
@@ -1101,7 +1101,7 @@ Inserts a range of cells and shift cells according to the shift option.
 | --- | --- | --- |
 | area | [GridCellArea](../../com.aspose.gridweb/gridcellarea) | Shift area. |
 | shiftNumber | int | Number of rows or columns to be inserted. |
-| shiftType | int | Shift cells option. |
+| shiftType | int | [GridShiftType](../../com.aspose.gridweb/gridshifttype). Shift cells option. |
 | updateReference | boolean | Indicates if update references in other worksheets. |
 
 ### insertRow(int rowIndex) {#insertRow-int-}
@@ -1277,7 +1277,7 @@ GridWeb GridWeb1 = new GridWeb();
 | firstColumn | int | The first column number of the range(zero based). |
 | rowNumber | int | The rows number. |
 | columnNumber | int | The columns number. |
-| position | int | The border position. |
+| position | int | [SetBorderPosition](../../com.aspose.gridweb/setborderposition). The border position. |
 | borderStyle | [WebBorderStyle](../../com.aspose.gridweb/webborderstyle) | The border style. |
 
 ### setColumnWidth(int column, double width) {#setColumnWidth-int-double-}
@@ -1515,8 +1515,8 @@ Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specifi
 | rows | int | Number of rows to be imported. |
 | columns | int | Number of columns to be imported. |
 | indexes | int[] | The column index array that specifis the sort column. if the Orientation is top to bottom ,it stand for the column index that specifis the sort column. if the Orientation is from left to right,it stand for the row index that specifis the sort row. |
-| orders | int[] | the the sorting order array . |
-| orientation | int | sorting orientation |
+| orders | int[] | [SortByOrder](../../com.aspose.gridweb/sortbyorder). the the sorting order array . |
+| orientation | int | [SortOrientation](../../com.aspose.gridweb/sortorientation). sorting orientation |
 | isCaseSensitive | boolean | whether the sort is casesensitive . |
 
 ### toString() {#toString--}

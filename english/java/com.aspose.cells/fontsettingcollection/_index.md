@@ -373,7 +373,7 @@ Sets the preset WordArt style.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | int | The preset WordArt style. |
+| style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt style. |
 
 ### toString() {#toString--}
 ```

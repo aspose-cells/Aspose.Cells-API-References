@@ -30,6 +30,7 @@ Represents the options for saving xlsb file.
 | [getCompressionType()](#getCompressionType--) | Gets the compression type for ooxml file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getExportAllColumnIndexes()](#getExportAllColumnIndexes--) | Indicates whether exporting all column indexes for cells. |
+| [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The data provider for saving workbook in light mode. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -46,6 +47,7 @@ Represents the options for saving xlsb file.
 | [setCompressionType(int value)](#setCompressionType-int-) | Sets the compression type for ooxml file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setExportAllColumnIndexes(boolean value)](#setExportAllColumnIndexes-boolean-) | Indicates whether exporting all column indexes for cells. |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The data provider for saving workbook in light mode. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -76,7 +78,7 @@ Creates xlsb file save options. NOTE: This constructor is now obsolete. Instead,
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | The save format . It must be xlsb. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The save format . It must be xlsb. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -129,7 +131,7 @@ public int getCompressionType()
 ```
 
 
-Gets the compression type for ooxml file. The default value is OoxmlCompressionType.Level6.
+Gets the compression type for ooxml file. [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level6.
 
 **Returns:**
 int
@@ -153,6 +155,16 @@ Indicates whether exporting all column indexes for cells. The default value is t
 
 **Returns:**
 boolean
+### getLightCellsDataProvider() {#getLightCellsDataProvider--}
+```
+public LightCellsDataProvider getLightCellsDataProvider()
+```
+
+
+The data provider for saving workbook in light mode.
+
+**Returns:**
+[LightCellsDataProvider](../../com.aspose.cells/lightcellsdataprovider)
 ### getMergeAreas() {#getMergeAreas--}
 ```
 public boolean getMergeAreas()
@@ -179,7 +191,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -291,7 +303,7 @@ public void setCompressionType(int value)
 ```
 
 
-Sets the compression type for ooxml file. The default value is OoxmlCompressionType.Level6.
+Sets the compression type for ooxml file. [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level6.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -323,6 +335,19 @@ Indicates whether exporting all column indexes for cells. The default value is t
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setLightCellsDataProvider(LightCellsDataProvider value) {#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-}
+```
+public void setLightCellsDataProvider(LightCellsDataProvider value)
+```
+
+
+The data provider for saving workbook in light mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [LightCellsDataProvider](../../com.aspose.cells/lightcellsdataprovider) |  |
 
 ### setMergeAreas(boolean value) {#setMergeAreas-boolean-}
 ```

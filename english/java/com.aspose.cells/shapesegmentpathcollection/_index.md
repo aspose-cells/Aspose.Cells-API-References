@@ -57,7 +57,7 @@ Add a segment path in creation path.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The path type. |
+| type | int | [ShapePathType](../../com.aspose.cells/shapepathtype). The path type. |
 
 **Returns:**
 int - Returns the position of [ShapeSegmentPath](../../com.aspose.cells/shapesegmentpath) object in the list.

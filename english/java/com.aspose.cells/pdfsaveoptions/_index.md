@@ -34,7 +34,7 @@ Represents the options for saving pdf file.
 | [getCompliance()](#getCompliance--) | Workbook converts to pdf will according to PdfCompliance in this property. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCreatedTime()](#getCreatedTime--) | Gets the time of generating the pdf document. |
-| [getCustomPropertiesExport()](#getCustomPropertiesExport--) | Gets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
+| [getCustomPropertiesExport()](#getCustomPropertiesExport--) | Gets a value determining the way [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport). |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDisplayDocTitle()](#getDisplayDocTitle--) | Indicates whether the window's title bar should display the document title. |
@@ -53,7 +53,7 @@ Represents the options for saving pdf file.
 | [getPageCount()](#getPageCount--) | Gets the number of pages to save. |
 | [getPageIndex()](#getPageIndex--) | Gets the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
-| [getPdfCompression()](#getPdfCompression--) | Indicate the compression algorithm |
+| [getPdfCompression()](#getPdfCompression--) | Indicate the compression algorithm [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore). |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getProducer()](#getProducer--) | Gets producer of generated pdf document. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -80,7 +80,7 @@ Represents the options for saving pdf file.
 | [setCompliance(int value)](#setCompliance-int-) | Workbook converts to pdf will according to PdfCompliance in this property. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | Sets the time of generating the pdf document. |
-| [setCustomPropertiesExport(int value)](#setCustomPropertiesExport-int-) | Sets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
+| [setCustomPropertiesExport(int value)](#setCustomPropertiesExport-int-) | Sets a value determining the way [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport). |
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDisplayDocTitle(boolean value)](#setDisplayDocTitle-boolean-) | Indicates whether the window's title bar should display the document title. |
@@ -101,7 +101,7 @@ Represents the options for saving pdf file.
 | [setPageCount(int value)](#setPageCount-int-) | Sets the number of pages to save. |
 | [setPageIndex(int value)](#setPageIndex-int-) | Sets the 0-based index of the first page to save. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
-| [setPdfCompression(int value)](#setPdfCompression-int-) | Indicate the compression algorithm |
+| [setPdfCompression(int value)](#setPdfCompression-int-) | Indicate the compression algorithm [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore). |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setProducer(String value)](#setProducer-java.lang.String-) | Sets producer of generated pdf document. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
@@ -226,7 +226,7 @@ public int getCompliance()
 ```
 
 
-Workbook converts to pdf will according to PdfCompliance in this property.
+Workbook converts to pdf will according to PdfCompliance in this property. [PdfCompliance](../../com.aspose.cells/pdfcompliance).
 
 **Returns:**
 int
@@ -256,7 +256,7 @@ public int getCustomPropertiesExport()
 ```
 
 
-Gets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
+Gets a value determining the way [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport). [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
 
 **Returns:**
 int
@@ -266,7 +266,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+Gets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Returns:**
 int
@@ -316,7 +316,7 @@ public int getEmfRenderSetting()
 ```
 
 
-Setting for rendering Emf metafile. EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When EmfRenderSetting.EMF\_PLUS\_PREFER is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is EmfRenderSetting.EMF\_ONLY.
+Setting for rendering Emf metafile. [EmfRenderSetting](../../com.aspose.cells/emfrendersetting). EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
 
 **Returns:**
 int
@@ -336,7 +336,7 @@ public int getFontEncoding()
 ```
 
 
-Gets embedded font encoding in pdf. Default value is PdfFontEncoding.IDENTITY
+Gets embedded font encoding in pdf. [PdfFontEncoding](../../com.aspose.cells/pdffontencoding). Default value is [PdfFontEncoding.IDENTITY](../../com.aspose.cells/pdffontencoding\#IDENTITY)
 
 **Returns:**
 int
@@ -346,7 +346,7 @@ public int getGridlineType()
 ```
 
 
-Gets gridline type. Default is Dotted type.
+Gets gridline type. [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
 
 **Returns:**
 int
@@ -396,7 +396,7 @@ public int getOptimizationType()
 ```
 
 
-Gets pdf optimization type. Default value is PdfOptimizationType.STANDARD
+Gets pdf optimization type. [PdfOptimizationType](../../com.aspose.cells/pdfoptimizationtype). Default value is [PdfOptimizationType.STANDARD](../../com.aspose.cells/pdfoptimizationtype\#STANDARD)
 
 **Returns:**
 int
@@ -478,7 +478,7 @@ public int getPdfCompression()
 ```
 
 
-Indicate the compression algorithm
+Indicate the compression algorithm [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore).
 
 **Returns:**
 int
@@ -488,7 +488,7 @@ public int getPrintingPageType()
 ```
 
 
-Indicates which pages will not be printed. If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
+Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
 
 ```
 Workbook wb = new Workbook("Book1.xlsx");
@@ -535,7 +535,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -582,7 +582,7 @@ public SheetSet getSheetSet()
 ```
 
 
-Gets the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}.
+Gets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--).
 
 ```
 Workbook workbook = new Workbook("Book1.xlsx");
@@ -623,7 +623,7 @@ public int getTextCrossType()
 ```
 
 
-Gets displaying text type when the text width is larger than cell width.
+Gets displaying text type when the text width is larger than cell width. [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Returns:**
 int
@@ -790,7 +790,7 @@ public void setCompliance(int value)
 ```
 
 
-Workbook converts to pdf will according to PdfCompliance in this property.
+Workbook converts to pdf will according to PdfCompliance in this property. [PdfCompliance](../../com.aspose.cells/pdfcompliance).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -829,7 +829,7 @@ public void setCustomPropertiesExport(int value)
 ```
 
 
-Sets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
+Sets a value determining the way [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport). [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -842,7 +842,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+Sets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,7 +907,7 @@ public void setEmfRenderSetting(int value)
 ```
 
 
-Setting for rendering Emf metafile. EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When EmfRenderSetting.EMF\_PLUS\_PREFER is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is EmfRenderSetting.EMF\_ONLY.
+Setting for rendering Emf metafile. [EmfRenderSetting](../../com.aspose.cells/emfrendersetting). EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -933,7 +933,7 @@ public void setFontEncoding(int value)
 ```
 
 
-Sets embedded font encoding in pdf. Default value is PdfFontEncoding.IDENTITY
+Sets embedded font encoding in pdf. [PdfFontEncoding](../../com.aspose.cells/pdffontencoding). Default value is [PdfFontEncoding.IDENTITY](../../com.aspose.cells/pdffontencoding\#IDENTITY)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -959,7 +959,7 @@ public void setGridlineType(int value)
 ```
 
 
-Sets gridline type. Default is Dotted type.
+Sets gridline type. [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1050,7 +1050,7 @@ public void setOptimizationType(int value)
 ```
 
 
-Sets pdf optimization type. Default value is PdfOptimizationType.STANDARD
+Sets pdf optimization type. [PdfOptimizationType](../../com.aspose.cells/pdfoptimizationtype). Default value is [PdfOptimizationType.STANDARD](../../com.aspose.cells/pdfoptimizationtype\#STANDARD)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1115,7 +1115,7 @@ public void setPdfCompression(int value)
 ```
 
 
-Indicate the compression algorithm
+Indicate the compression algorithm [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1128,7 +1128,7 @@ public void setPrintingPageType(int value)
 ```
 
 
-Indicates which pages will not be printed. If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
+Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1180,7 +1180,7 @@ public void setSheetSet(SheetSet value)
 ```
 
 
-Sets the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}.
+Sets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1219,7 +1219,7 @@ public void setTextCrossType(int value)
 ```
 
 
-Sets displaying text type when the text width is larger than cell width.
+Sets displaying text type when the text width is larger than cell width. [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Parameters:**
 | Parameter | Type | Description |

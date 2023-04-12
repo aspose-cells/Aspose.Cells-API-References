@@ -146,7 +146,7 @@ public int getType()
 ```
 
 
-Gets the PivotFields type.
+Gets the PivotFields type. [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
 
 **Returns:**
 int

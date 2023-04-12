@@ -51,6 +51,7 @@ Represents the file format types.
 | [ODS](#ODS) | Open Document Sheet(ODS) file. |
 | [ODT](#ODT) | Represents an ODT file. |
 | [OLE_10_NATIVE](#OLE-10-NATIVE) | Represents the embedded native object. |
+| [ONE_NOTE](#ONE-NOTE) | Rrepesents One Note file. |
 | [OOXML](#OOXML) | Represents office open xml file(such as xlsx, docx,pptx, etc). |
 | [OTP](#OTP) | Represents a OTP file. |
 | [OTS](#OTS) | Represents an ots file. |
@@ -68,7 +69,7 @@ Represents the file format types.
 | [SQL_SCRIPT](#SQL-SCRIPT) | Sql |
 | [SVG](#SVG) | SVG file. |
 | [SXC](#SXC) | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
-| [TAB_DELIMITED](#TAB-DELIMITED) | Tab-Separated Values(TSV) text file, same with LoadFormat.TSV. |
+| [TAB_DELIMITED](#TAB-DELIMITED) | Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV). |
 | [TIFF](#TIFF) | Represents a TIFF file. |
 | [TSV](#TSV) | Tab-Separated Values(TSV) text file. |
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be loaded. |
@@ -84,6 +85,7 @@ Represents the file format types.
 | [XLTX](#XLTX) | Office Open XML SpreadsheetML Template (macro-free). |
 | [XML](#XML) | Represents a simple xml file. |
 | [XPS](#XPS) | XPS (XML Paper Specification) format. |
+| [X_HTML](#X-HTML) | Rrepesents XHtml file. |
 ## Methods
 
 | Method | Description |
@@ -183,7 +185,7 @@ public static final int EXCEL_2003_XML
 ```
 
 
-Excel 2003 XML Data file. NOTE: This member is now obsolete. Instead, please use FileFormatType.SPREADSHEET\_ML property. This property will be removed 6 months later since April 2021. Aspose apologizes for any inconvenience you may have experienced.
+Excel 2003 XML Data file. NOTE: This member is now obsolete. Instead, please use [SPREADSHEET\_ML](../../com.aspose.cells/fileformattype\#SPREADSHEET-ML) property. This property will be removed 6 months later since April 2021. Aspose apologizes for any inconvenience you may have experienced.
 
 ### EXCEL_3 {#EXCEL-3}
 ```
@@ -369,6 +371,14 @@ public static final int OLE_10_NATIVE
 
 Represents the embedded native object. The file format is not supported Only for detecting file type.
 
+### ONE_NOTE {#ONE-NOTE}
+```
+public static final int ONE_NOTE
+```
+
+
+Rrepesents One Note file. The file format is not supported Only for detecting file type.
+
 ### OOXML {#OOXML}
 ```
 public static final int OOXML
@@ -511,7 +521,7 @@ public static final int TAB_DELIMITED
 ```
 
 
-Tab-Separated Values(TSV) text file, same with LoadFormat.TSV.
+Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV).
 
 ### TIFF {#TIFF}
 ```
@@ -632,6 +642,14 @@ public static final int XPS
 
 
 XPS (XML Paper Specification) format.
+
+### X_HTML {#X-HTML}
+```
+public static final int X_HTML
+```
+
+
+Rrepesents XHtml file.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

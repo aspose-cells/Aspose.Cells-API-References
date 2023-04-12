@@ -220,7 +220,7 @@ public int getRuleType()
 ```
 
 
-Gets rule type for the pivot table condition format .
+Gets rule type for the pivot table condition format . [PivotConditionFormatRuleType](../../com.aspose.cells/pivotconditionformatruletype).
 
 **Returns:**
 int
@@ -230,7 +230,7 @@ public int getScopeType()
 ```
 
 
-Gets scope type for the pivot table condition format .
+Gets scope type for the pivot table condition format . [PivotConditionFormatScopeType](../../com.aspose.cells/pivotconditionformatscopetype).
 
 **Returns:**
 int
@@ -274,7 +274,7 @@ public void setRuleType(int value)
 ```
 
 
-Sets rule type for the pivot table condition format .
+Sets rule type for the pivot table condition format . [PivotConditionFormatRuleType](../../com.aspose.cells/pivotconditionformatruletype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -287,7 +287,7 @@ public void setScopeType(int value)
 ```
 
 
-Sets scope type for the pivot table condition format .
+Sets scope type for the pivot table condition format . [PivotConditionFormatScopeType](../../com.aspose.cells/pivotconditionformatscopetype).
 
 **Parameters:**
 | Parameter | Type | Description |

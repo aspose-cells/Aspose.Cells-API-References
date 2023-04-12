@@ -127,7 +127,7 @@ public int getCommandType()
 ```
 
 
-Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype).
 
 **Returns:**
 int
@@ -167,7 +167,7 @@ public int getCredentials()
 ```
 
 
-Specifies the authentication method to be used when establishing (or re-establishing) the connection. NOTE: This property is now obsolete. Instead, please use ExternalConnection.CredentialsMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
+Specifies the authentication method to be used when establishing (or re-establishing) the connection. [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype). NOTE: This property is now obsolete. Instead, please use ExternalConnection.CredentialsMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -177,7 +177,7 @@ public int getCredentialsMethodType()
 ```
 
 
-Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+Specifies the authentication method to be used when establishing (or re-establishing) the connection. [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Returns:**
 int
@@ -257,7 +257,7 @@ public int getReconnectionMethod()
 ```
 
 
-Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. NOTE: This property is now obsolete. Instead, please use ExternalConnection.ReconnectionMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype). NOTE: This property is now obsolete. Instead, please use ExternalConnection.ReconnectionMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -267,7 +267,7 @@ public int getReconnectionMethodType()
 ```
 
 
-Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Returns:**
 int
@@ -347,7 +347,7 @@ public int getType()
 ```
 
 
-Gets the external connection DataSource type.
+Gets the external connection DataSource type. [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
 
 **Returns:**
 int
@@ -429,7 +429,7 @@ public void setCommandType(int value)
 ```
 
 
-Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider. [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +468,7 @@ public void setCredentials(int value)
 ```
 
 
-Specifies the authentication method to be used when establishing (or re-establishing) the connection. NOTE: This property is now obsolete. Instead, please use ExternalConnection.CredentialsMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
+Specifies the authentication method to be used when establishing (or re-establishing) the connection. [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype). NOTE: This property is now obsolete. Instead, please use ExternalConnection.CredentialsMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -481,7 +481,7 @@ public void setCredentialsMethodType(int value)
 ```
 
 
-Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+Specifies the authentication method to be used when establishing (or re-establishing) the connection. [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -572,7 +572,7 @@ public void setReconnectionMethod(int value)
 ```
 
 
-Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. NOTE: This property is now obsolete. Instead, please use ExternalConnection.ReconnectionMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype). NOTE: This property is now obsolete. Instead, please use ExternalConnection.ReconnectionMethodType property. This property will be removed 12 months later since October 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -585,7 +585,7 @@ public void setReconnectionMethodType(int value)
 ```
 
 
-Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required. [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -689,7 +689,7 @@ public void setType(int value)
 ```
 
 
-Sets the external connection DataSource type.
+Sets the external connection DataSource type. [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
 
 **Parameters:**
 | Parameter | Type | Description |

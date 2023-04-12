@@ -86,7 +86,7 @@ public int getDirectionType()
 ```
 
 
-Gets the gradient direction type.
+Gets the gradient direction type. [GradientDirectionType](../../com.aspose.cells/gradientdirectiontype).
 
 **Returns:**
 int
@@ -96,7 +96,7 @@ public int getFillType()
 ```
 
 
-Gets the gradient fill type.
+Gets the gradient fill type. [GradientFillType](../../com.aspose.cells/gradientfilltype).
 
 **Returns:**
 int
@@ -126,7 +126,7 @@ public int getGradientColorType()
 ```
 
 
-Gets gradient color type. Applies to Excel97-2003
+Gets gradient color type. Applies to Excel97-2003 [GradientColorType](../../com.aspose.cells/gradientcolortype).
 
 **Returns:**
 int
@@ -156,7 +156,7 @@ public int getGradientStyle()
 ```
 
 
-Gets gradient style type. Applies to Excel97-2003
+Gets gradient style type. Applies to Excel97-2003 [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Returns:**
 int
@@ -166,7 +166,7 @@ public int getPresetColor()
 ```
 
 
-Returns the gradient preset color for the specified fill. Applies to Excel97-2003
+Returns the gradient preset color for the specified fill. Applies to Excel97-2003 [GradientPresetType](../../com.aspose.cells/gradientpresettype).
 
 **Returns:**
 int
@@ -230,9 +230,9 @@ Set the gradient fill type and direction.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Gradient fill type. |
+| type | int | [GradientFillType](../../com.aspose.cells/gradientfilltype). Gradient fill type. |
 | angle | double | The angle. Only applies for GradientFillType.Linear. |
-| direction | int | The direction type. Only applies for GradientFillType.Radial and GradientFillType.Rectangle. |
+| direction | int | [GradientDirectionType](../../com.aspose.cells/gradientdirectiontype). The direction type. Only applies for GradientFillType.Radial and GradientFillType.Rectangle. |
 
 ### setOneColorGradient(Color color, double degree, int style, int variant) {#setOneColorGradient-com.aspose.cells.Color-double-int-int-}
 ```
@@ -247,7 +247,7 @@ Sets the specified fill to a one-color gradient. Only applies for Excel 2007.
 | --- | --- | --- |
 | color | [Color](../../com.aspose.cells/color) | One gradient color. |
 | degree | double | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
-| style | int | Gradient shading style. |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setPresetColor(int value) {#setPresetColor-int-}
@@ -256,7 +256,7 @@ public void setPresetColor(int value)
 ```
 
 
-Returns the gradient preset color for the specified fill. Applies to Excel97-2003
+Returns the gradient preset color for the specified fill. Applies to Excel97-2003 [GradientPresetType](../../com.aspose.cells/gradientpresettype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -274,8 +274,8 @@ Sets the specified fill to a preset-color gradient. Only applies for Excel 97-20
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presetColor | int | Preset color type |
-| style | int | Gradient shading style. |
+| presetColor | int | [GradientPresetType](../../com.aspose.cells/gradientpresettype). Preset color type |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setPresetThemeGradient(int gradientType, int themeColorType) {#setPresetThemeGradient-int-int-}
@@ -289,8 +289,8 @@ Sets preset theme gradient fill.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| gradientType | int | The preset gradient type. |
-| themeColorType | int | The theme color type. |
+| gradientType | int | [PresetThemeGradientType](../../com.aspose.cells/presetthemegradienttype). The preset gradient type. |
+| themeColorType | int | [ThemeColorType](../../com.aspose.cells/themecolortype). The theme color type. |
 
 ### setTwoColorGradient(Color color1, Color color2, int style, int variant) {#setTwoColorGradient-com.aspose.cells.Color-com.aspose.cells.Color-int-int-}
 ```
@@ -305,7 +305,7 @@ Sets the specified fill to a two-color gradient. Only applies for Excel 2007.
 | --- | --- | --- |
 | color1 | [Color](../../com.aspose.cells/color) | One gradient color. |
 | color2 | [Color](../../com.aspose.cells/color) | Two gradient color. |
-| style | int | Gradient shading style. |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setTwoColorGradient(Color color1, double transparency1, Color color2, double transparency2, int style, int variant) {#setTwoColorGradient-com.aspose.cells.Color-double-com.aspose.cells.Color-double-int-int-}
@@ -323,7 +323,7 @@ Sets the specified fill to a two-color gradient. Only applies for Excel 2007.
 | transparency1 | double | The degree of transparency of the color1 as a value from 0.0 (opaque) through 1.0 (clear). |
 | color2 | [Color](../../com.aspose.cells/color) | Two gradient color. |
 | transparency2 | double | The degree of transparency of the color2 as a value from 0.0 (opaque) through 1.0 (clear). |
-| style | int | Gradient shading style. |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### toString() {#toString--}

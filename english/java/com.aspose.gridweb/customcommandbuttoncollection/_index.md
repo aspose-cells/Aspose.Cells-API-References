@@ -15,10 +15,11 @@ public class CustomCommandButtonCollection extends CollectionBase
 Represents the collection of CustomCommandButton.
 
 ```
-CustomCommandButton button = new CustomCommandButton();
+GridWeb GridWeb1 = new GridWeb();
+         CustomCommandButton button = new CustomCommandButton();
          button.setCommand("MyCommand");
          button.setImageUrl("images/button1.gif");
-         GridWeb1.CustomCommandButtons.Add(button);
+         GridWeb1.getCustomCommandButtons().add(button);
 ```
 ## Methods
 

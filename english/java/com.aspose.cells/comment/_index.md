@@ -326,7 +326,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets the text horizontal alignment type of the comment.
+Gets the text horizontal alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 ```
 if (comment1.getTextHorizontalAlignment() ==  TextAlignmentType.FILL)
@@ -343,7 +343,7 @@ public int getTextOrientationType()
 ```
 
 
-Gets the text orientation type of the comment.
+Gets the text orientation type of the comment. [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 ```
 if(comment1.getTextOrientationType() == TextOrientationType.NO_ROTATION)
@@ -360,7 +360,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets the text vertical alignment type of the comment.
+Gets the text vertical alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 ```
 if (comment1.getTextVerticalAlignment() ==  TextAlignmentType.FILL)
@@ -589,7 +589,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Sets the text horizontal alignment type of the comment.
+Sets the text horizontal alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -602,7 +602,7 @@ public void setTextOrientationType(int value)
 ```
 
 
-Sets the text orientation type of the comment.
+Sets the text orientation type of the comment. [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -615,7 +615,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Sets the text vertical alignment type of the comment.
+Sets the text vertical alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

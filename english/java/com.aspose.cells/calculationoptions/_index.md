@@ -25,6 +25,7 @@ Represents options for calculation.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCalcStackSize()](#getCalcStackSize--) | Specifies the stack size for calculating cells recursively. |
 | [getCalculationMonitor()](#getCalculationMonitor--) | The monitor for user to track the progress of formula calculation. |
+| [getCharacterEncoding()](#getCharacterEncoding--) | Specifies the encoding used for encoding/decoding characters when calculating formulas. |
 | [getClass()](#getClass--) |  |
 | [getCustomEngine()](#getCustomEngine--) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [getCustomFunction()](#getCustomFunction--) | The custom formula calculation functions to extend the calculation engine. |
@@ -37,6 +38,7 @@ Represents options for calculation.
 | [notifyAll()](#notifyAll--) |  |
 | [setCalcStackSize(int value)](#setCalcStackSize-int-) | Specifies the stack size for calculating cells recursively. |
 | [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | The monitor for user to track the progress of formula calculation. |
+| [setCharacterEncoding(Encoding value)](#setCharacterEncoding-com.aspose.cells.Encoding-) | Specifies the encoding used for encoding/decoding characters when calculating formulas. |
 | [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | The custom formula calculation functions to extend the calculation engine. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error in calculating formulas. |
@@ -88,6 +90,16 @@ The monitor for user to track the progress of formula calculation.
 
 **Returns:**
 [AbstractCalculationMonitor](../../com.aspose.cells/abstractcalculationmonitor)
+### getCharacterEncoding() {#getCharacterEncoding--}
+```
+public Encoding getCharacterEncoding()
+```
+
+
+Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result.
+
+**Returns:**
+[Encoding](../../com.aspose.cells/encoding)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -144,7 +156,7 @@ public int getPrecisionStrategy()
 ```
 
 
-Specifies the strategy for processing precision of calculation.
+Specifies the strategy for processing precision of calculation. [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Returns:**
 int
@@ -210,6 +222,19 @@ The monitor for user to track the progress of formula calculation.
 | --- | --- | --- |
 | value | [AbstractCalculationMonitor](../../com.aspose.cells/abstractcalculationmonitor) |  |
 
+### setCharacterEncoding(Encoding value) {#setCharacterEncoding-com.aspose.cells.Encoding-}
+```
+public void setCharacterEncoding(Encoding value)
+```
+
+
+Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Encoding](../../com.aspose.cells/encoding) |  |
+
 ### setCustomEngine(AbstractCalculationEngine value) {#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-}
 ```
 public void setCustomEngine(AbstractCalculationEngine value)
@@ -268,7 +293,7 @@ public void setPrecisionStrategy(int value)
 ```
 
 
-Specifies the strategy for processing precision of calculation.
+Specifies the strategy for processing precision of calculation. [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Parameters:**
 | Parameter | Type | Description |

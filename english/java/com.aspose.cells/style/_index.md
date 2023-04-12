@@ -258,7 +258,7 @@ public int getHorizontalAlignment()
 ```
 
 
-Gets the horizontal alignment type of the text in a cell.
+Gets the horizontal alignment type of the text in a cell. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -359,7 +359,7 @@ public int getPattern()
 ```
 
 
-Gets the cell background pattern type.
+Gets the cell background pattern type. [BackgroundType](../../com.aspose.cells/backgroundtype).
 
 **Returns:**
 int
@@ -409,7 +409,7 @@ public int getTextDirection()
 ```
 
 
-Represents text reading order.
+Represents text reading order. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
 int
@@ -439,7 +439,7 @@ public int getVerticalAlignment()
 ```
 
 
-Gets the vertical alignment type of the text in a cell.
+Gets the vertical alignment type of the text in a cell. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -524,7 +524,7 @@ Checks whether the specified properties of the style have been modified. Used fo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| modifyFlag | int | Style modified flags |
+| modifyFlag | int | [StyleModifyFlag](../../com.aspose.cells/stylemodifyflag). Style modified flags |
 
 **Returns:**
 boolean - true if the specified properties have been modified
@@ -614,8 +614,8 @@ Sets the borders of the style.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderType | int | The border(s) to be set, can be combination of [BorderType](../../com.aspose.cells/bordertype). |
-| borderStyle | int | The style of the border. |
+| borderType | int | [BorderType](../../com.aspose.cells/bordertype). The border(s) to be set, can be combination of [BorderType](../../com.aspose.cells/bordertype). |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). The style of the border. |
 | borderColor | [CellsColor](../../com.aspose.cells/cellscolor) | The color of the border. |
 
 **Returns:**
@@ -631,8 +631,8 @@ Sets the borders of the style.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderType | int | The border(s) to be set, can be combination of [BorderType](../../com.aspose.cells/bordertype). |
-| borderStyle | int | The style of the border. |
+| borderType | int | [BorderType](../../com.aspose.cells/bordertype). The border(s) to be set, can be combination of [BorderType](../../com.aspose.cells/bordertype). |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). The style of the border. |
 | borderColor | [Color](../../com.aspose.cells/color) | The color of the border. |
 
 **Returns:**
@@ -748,7 +748,7 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-Sets the horizontal alignment type of the text in a cell.
+Sets the horizontal alignment type of the text in a cell. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -867,7 +867,7 @@ public void setPattern(int value)
 ```
 
 
-Sets the cell background pattern type.
+Sets the cell background pattern type. [BackgroundType](../../com.aspose.cells/backgroundtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -885,7 +885,7 @@ Sets the background color.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pattern | int | The pattern. |
+| pattern | int | [BackgroundType](../../com.aspose.cells/backgroundtype). The pattern. |
 | color1 | [Color](../../com.aspose.cells/color) | The foreground color. |
 | color2 | [Color](../../com.aspose.cells/color) | The background color. Only works when pattern is not BackgroundType.None and BackgroundType.Solid. |
 
@@ -944,7 +944,7 @@ public void setTextDirection(int value)
 ```
 
 
-Represents text reading order.
+Represents text reading order. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -977,7 +977,7 @@ Sets the specified fill to a two-color gradient.
 | --- | --- | --- |
 | color1 | [Color](../../com.aspose.cells/color) | One gradient color. |
 | color2 | [Color](../../com.aspose.cells/color) | Two gradient color. |
-| gradientStyleType | int | Gradient shading style. |
+| gradientStyleType | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int-}
@@ -986,7 +986,7 @@ public void setVerticalAlignment(int value)
 ```
 
 
-Sets the vertical alignment type of the text in a cell.
+Sets the vertical alignment type of the text in a cell. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

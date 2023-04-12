@@ -360,7 +360,7 @@ Sets the outline borders around a range of cells with same border style and colo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyle | int | Border style. |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). Border style. |
 | borderColor | [Color](../../com.aspose.cells/color) | Border color. |
 
 ### setOutlineBorders(int[] borderStyles, Color[] borderColors) {#setOutlineBorders-int---com.aspose.cells.Color---}
@@ -374,7 +374,7 @@ Sets out line borders around a range of cells. Both the length of borderStyles a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyles | int[] | Border styles. |
+| borderStyles | int[] | [CellBorderType](../../com.aspose.cells/cellbordertype). Border styles. |
 | borderColors | [Color\[\]](../../com.aspose.cells/color) | Border colors. |
 
 ### setStyle(Style style) {#setStyle-com.aspose.cells.Style-}

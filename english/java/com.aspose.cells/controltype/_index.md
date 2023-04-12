@@ -17,6 +17,7 @@ Represents all type of ActiveX control.
 
 | Field | Description |
 | --- | --- |
+| [BAR_CODE](#BAR-CODE) | ScrollBar Unsupported. |
 | [CHECK_BOX](#CHECK-BOX) | CheckBox |
 | [COMBO_BOX](#COMBO-BOX) | ComboBox |
 | [COMMAND_BUTTON](#COMMAND-BUTTON) | Button |
@@ -42,6 +43,14 @@ Represents all type of ActiveX control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BAR_CODE {#BAR-CODE}
+```
+public static final int BAR_CODE
+```
+
+
+ScrollBar Unsupported.
+
 ### CHECK_BOX {#CHECK-BOX}
 ```
 public static final int CHECK_BOX

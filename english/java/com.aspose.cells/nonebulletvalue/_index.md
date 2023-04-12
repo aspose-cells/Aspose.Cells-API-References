@@ -69,7 +69,7 @@ public int getType()
 ```
 
 
-Gets the type of the bullet's value.
+Gets the type of the bullet's value. [BulletType](../../com.aspose.cells/bullettype).
 
 **Returns:**
 int

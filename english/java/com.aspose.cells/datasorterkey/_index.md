@@ -63,7 +63,7 @@ public Color getColor()
 ```
 
 
-Gets the sorted color. Only effects when [SortOnType](../../com.aspose.cells/sortontype) is SortOnType.CellColor or SortOnType.FontColor.
+Gets the sorted color. Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.CELL\_COLOR](../../com.aspose.cells/sortontype\#CELL-COLOR) or [SortOnType.FONT\_COLOR](../../com.aspose.cells/sortontype\#FONT-COLOR).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -73,7 +73,7 @@ public int getIconId()
 ```
 
 
-Represents the id of the icon set type. Only effects when [SortOnType](../../com.aspose.cells/sortontype) is SortOnType.Icon.
+Represents the id of the icon set type. Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
 
 **Returns:**
 int
@@ -83,7 +83,7 @@ public int getIconSetType()
 ```
 
 
-Represents the icon set type. Only effects when [SortOnType](../../com.aspose.cells/sortontype) is SortOnType.Icon.
+Represents the icon set type. [IconSetType](../../com.aspose.cells/iconsettype). Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
 
 **Returns:**
 int
@@ -103,7 +103,7 @@ public int getOrder()
 ```
 
 
-Indicates the order of sorting.
+Indicates the order of sorting. [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
 int
@@ -113,7 +113,7 @@ public int getType()
 ```
 
 
-Represents the type of sorting.
+Represents the type of sorting. [SortOnType](../../com.aspose.cells/sortontype).
 
 **Returns:**
 int

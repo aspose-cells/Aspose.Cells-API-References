@@ -159,7 +159,7 @@ public int getFilterType()
 ```
 
 
-Gets the autofilter type of the pivot filter.
+Gets the autofilter type of the pivot filter. [PivotFilterType](../../com.aspose.cells/pivotfiltertype).
 
 **Returns:**
 int

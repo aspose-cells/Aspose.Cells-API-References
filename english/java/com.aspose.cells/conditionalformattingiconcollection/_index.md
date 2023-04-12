@@ -133,7 +133,7 @@ Adds [ConditionalFormattingIcon](../../com.aspose.cells/conditionalformattingico
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The value type. |
+| type | int | [IconSetType](../../com.aspose.cells/iconsettype). The value type. |
 | index | int | The Index. |
 
 **Returns:**

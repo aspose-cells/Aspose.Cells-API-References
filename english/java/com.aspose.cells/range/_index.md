@@ -144,7 +144,7 @@ Automaticall fill the target range.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | target | [Range](../../com.aspose.cells/range) | The targed range. |
-| autoFillType | int | The auto fill type. |
+| autoFillType | int | [AutoFillType](../../com.aspose.cells/autofilltype). The auto fill type. |
 
 ### copy(Range range) {#copy-com.aspose.cells.Range-}
 ```
@@ -652,8 +652,8 @@ Set inside borders of the range.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderEdge | int | Inside borde type, only can be BorderType.VERTICAL and BorderType.HORIZONTAL. |
-| lineStyle | int | The border style. |
+| borderEdge | int | [BorderType](../../com.aspose.cells/bordertype). Inside borde type, only can be [BorderType.VERTICAL](../../com.aspose.cells/bordertype\#VERTICAL) and [BorderType.HORIZONTAL](../../com.aspose.cells/bordertype\#HORIZONTAL). |
+| lineStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). The border style. |
 | borderColor | [CellsColor](../../com.aspose.cells/cellscolor) | The color of the border. |
 
 ### setName(String value) {#setName-java.lang.String-}
@@ -682,8 +682,8 @@ Sets outline border around a range of cells.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderEdge | int | Border edge. |
-| borderStyle | int | Border style. |
+| borderEdge | int | [BorderType](../../com.aspose.cells/bordertype). Border edge. |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). Border style. |
 | borderColor | [CellsColor](../../com.aspose.cells/cellscolor) | Border color. |
 
 ### setOutlineBorder(int borderEdge, int borderStyle, Color borderColor) {#setOutlineBorder-int-int-com.aspose.cells.Color-}
@@ -697,8 +697,8 @@ Sets outline border around a range of cells.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderEdge | int | Border edge. |
-| borderStyle | int | Border style. |
+| borderEdge | int | [BorderType](../../com.aspose.cells/bordertype). Border edge. |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). Border style. |
 | borderColor | [Color](../../com.aspose.cells/color) | Border color. |
 
 ### setOutlineBorders(int borderStyle, CellsColor borderColor) {#setOutlineBorders-int-com.aspose.cells.CellsColor-}
@@ -712,7 +712,7 @@ Sets the outline borders around a range of cells with same border style and colo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyle | int | Border style. |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). Border style. |
 | borderColor | [CellsColor](../../com.aspose.cells/cellscolor) | Border color. |
 
 ### setOutlineBorders(int borderStyle, Color borderColor) {#setOutlineBorders-int-com.aspose.cells.Color-}
@@ -726,7 +726,7 @@ Sets the outline borders around a range of cells with same border style and colo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyle | int | Border style. |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). Border style. |
 | borderColor | [Color](../../com.aspose.cells/color) | Border color. |
 
 ### setOutlineBorders(int[] borderStyles, Color[] borderColors) {#setOutlineBorders-int---com.aspose.cells.Color---}
@@ -740,7 +740,7 @@ Sets out line borders around a range of cells. Both the length of borderStyles a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderStyles | int[] | Border styles. |
+| borderStyles | int[] | [CellBorderType](../../com.aspose.cells/cellbordertype). Border styles. |
 | borderColors | [Color\[\]](../../com.aspose.cells/color) | Border colors. |
 
 ### setRowHeight(double value) {#setRowHeight-double-}

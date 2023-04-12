@@ -152,7 +152,7 @@ public int getType()
 ```
 
 
-Gets the type of text node.
+Gets the type of text node. [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -193,7 +193,7 @@ Sets the preset WordArt style. Only for the text of shape/chart.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | int | The preset WordArt style. |
+| style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt style. |
 
 ### toString() {#toString--}
 ```

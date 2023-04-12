@@ -52,7 +52,7 @@ public TwoColorGradient(Color color1, Color color2, int gradientStyleType, int v
 | --- | --- | --- |
 | color1 | [Color](../../com.aspose.cells/color) |  |
 | color2 | [Color](../../com.aspose.cells/color) |  |
-| gradientStyleType | int |  |
+| gradientStyleType | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). |
 | variant | int |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -106,7 +106,7 @@ public int getGradientStyleType()
 ```
 
 
-Gets gradient shading style.
+Gets gradient shading style. [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Returns:**
 int
@@ -178,7 +178,7 @@ public void setGradientStyleType(int value)
 ```
 
 
-Sets gradient shading style.
+Sets gradient shading style. [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Parameters:**
 | Parameter | Type | Description |

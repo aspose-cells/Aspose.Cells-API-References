@@ -33,6 +33,7 @@ Encapsulates a collection of [GridWorksheet](../../com.aspose.gridweb/gridworksh
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
+| [getDefaultFontSize()](#getDefaultFontSize--) | ????????? |
 | [getNames()](#getNames--) | Gets the collection of all the Name objects in the spreadsheet. |
 | [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | Gets the decimal separator for formatting/parsing numeric values. |
 | [getSyncRoot()](#getSyncRoot--) | Gets the sheets count. |
@@ -47,6 +48,7 @@ Encapsulates a collection of [GridWorksheet](../../com.aspose.gridweb/gridworksh
 | [removeAt(String name)](#removeAt-java.lang.String-) | Removes the element at a specified name. |
 | [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) |  |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
+| [setDefaultFontSize(FontUnit value)](#setDefaultFontSize-com.aspose.gridweb.FontUnit-) | ????????? |
 | [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | Sets the decimal separator for formatting/parsing numeric values. |
 | [setVisible(String name, boolean v)](#setVisible-java.lang.String-boolean-) | Sets the visible options. |
 | [swapSheet(int sheetIndex1, int sheetIndex2)](#swapSheet-int-int-) | Swaps the two sheets. |
@@ -259,6 +261,16 @@ GridWeb GridWeb1=new GridWeb();
 
 **Returns:**
 java.lang.String
+### getDefaultFontSize() {#getDefaultFontSize--}
+```
+public FontUnit getDefaultFontSize()
+```
+
+
+?????????
+
+**Returns:**
+[FontUnit](../../com.aspose.gridweb/fontunit)
 ### getNames() {#getNames--}
 ```
 public GridNameCollection getNames()
@@ -417,6 +429,19 @@ Sets the control's default font name.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setDefaultFontSize(FontUnit value) {#setDefaultFontSize-com.aspose.gridweb.FontUnit-}
+```
+public void setDefaultFontSize(FontUnit value)
+```
+
+
+?????????
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [FontUnit](../../com.aspose.gridweb/fontunit) |  |
 
 ### setNumberDecimalSeparator(char value) {#setNumberDecimalSeparator-char-}
 ```

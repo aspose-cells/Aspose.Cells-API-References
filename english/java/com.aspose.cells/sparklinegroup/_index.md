@@ -245,7 +245,7 @@ public int getPlotEmptyCellsType()
 ```
 
 
-Indicates how to plot empty cells.
+Indicates how to plot empty cells. [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Returns:**
 int
@@ -265,7 +265,7 @@ public int getPresetStyle()
 ```
 
 
-Gets the preset style type of the sparkline group.
+Gets the preset style type of the sparkline group. [SparklinePresetStyleType](../../com.aspose.cells/sparklinepresetstyletype).
 
 **Returns:**
 int
@@ -375,7 +375,7 @@ public int getType()
 ```
 
 
-Indicates the sparkline type of the sparkline group.
+Indicates the sparkline type of the sparkline group. [SparklineType](../../com.aspose.cells/sparklinetype).
 
 **Returns:**
 int
@@ -395,7 +395,7 @@ public int getVerticalAxisMaxValueType()
 ```
 
 
-Represents the vertical axis maximum value type.
+Represents the vertical axis maximum value type. [SparklineAxisMinMaxType](../../com.aspose.cells/sparklineaxisminmaxtype).
 
 **Returns:**
 int
@@ -415,7 +415,7 @@ public int getVerticalAxisMinValueType()
 ```
 
 
-Represents the vertical axis minimum value type.
+Represents the vertical axis minimum value type. [SparklineAxisMinMaxType](../../com.aspose.cells/sparklineaxisminmaxtype).
 
 **Returns:**
 int
@@ -596,7 +596,7 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-Indicates how to plot empty cells.
+Indicates how to plot empty cells. [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +622,7 @@ public void setPresetStyle(int value)
 ```
 
 
-Sets the preset style type of the sparkline group.
+Sets the preset style type of the sparkline group. [SparklinePresetStyleType](../../com.aspose.cells/sparklinepresetstyletype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -739,7 +739,7 @@ public void setType(int value)
 ```
 
 
-Indicates the sparkline type of the sparkline group.
+Indicates the sparkline type of the sparkline group. [SparklineType](../../com.aspose.cells/sparklinetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -765,7 +765,7 @@ public void setVerticalAxisMaxValueType(int value)
 ```
 
 
-Represents the vertical axis maximum value type.
+Represents the vertical axis maximum value type. [SparklineAxisMinMaxType](../../com.aspose.cells/sparklineaxisminmaxtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -791,7 +791,7 @@ public void setVerticalAxisMinValueType(int value)
 ```
 
 
-Represents the vertical axis minimum value type.
+Represents the vertical axis minimum value type. [SparklineAxisMinMaxType](../../com.aspose.cells/sparklineaxisminmaxtype).
 
 **Parameters:**
 | Parameter | Type | Description |

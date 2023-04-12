@@ -69,7 +69,7 @@ Get the icon set data
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | icon's type |
+| type | int | [IconSetType](../../com.aspose.cells/iconsettype). icon's type |
 | index | int | icon's index |
 
 **Returns:**
@@ -115,7 +115,7 @@ public int getType()
 ```
 
 
-Gets the icon set type.
+Gets the icon set type. [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Returns:**
 int
@@ -164,7 +164,7 @@ public void setType(int value)
 ```
 
 
-Sets the icon set type.
+Sets the icon set type. [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Parameters:**
 | Parameter | Type | Description |

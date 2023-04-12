@@ -9,24 +9,19 @@ url: /java/com.aspose.gridweb/horizontalalign/
 **Inheritance:**
 java.lang.Object
 ```
-public class HorizontalAlign
+public final class HorizontalAlign
 ```
 
 horizontal alignment of a GridView control
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HorizontalAlign()](#HorizontalAlign--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Center](#Center) |  |
-| [Justify](#Justify) |  |
-| [Left](#Left) |  |
-| [NotSet](#NotSet) |  |
-| [Right](#Right) |  |
+| [CENTER](#CENTER) |  |
+| [JUSTIFY](#JUSTIFY) |  |
+| [LEFT](#LEFT) |  |
+| [NOT_SET](#NOT-SET) |  |
+| [RIGHT](#RIGHT) |  |
 ## Methods
 
 | Method | Description |
@@ -40,39 +35,33 @@ horizontal alignment of a GridView control
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### HorizontalAlign() {#HorizontalAlign--}
+### CENTER {#CENTER}
 ```
-public HorizontalAlign()
-```
-
-
-### Center {#Center}
-```
-public static int Center
+public static final int CENTER
 ```
 
 
-### Justify {#Justify}
+### JUSTIFY {#JUSTIFY}
 ```
-public static int Justify
-```
-
-
-### Left {#Left}
-```
-public static int Left
+public static final int JUSTIFY
 ```
 
 
-### NotSet {#NotSet}
+### LEFT {#LEFT}
 ```
-public static int NotSet
+public static final int LEFT
 ```
 
 
-### Right {#Right}
+### NOT_SET {#NOT-SET}
 ```
-public static int Right
+public static final int NOT_SET
+```
+
+
+### RIGHT {#RIGHT}
+```
+public static final int RIGHT
 ```
 
 

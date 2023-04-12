@@ -81,7 +81,7 @@ public int getDashStyle()
 ```
 
 
-Gets the dash style for the specified line.
+Gets the dash style for the specified line. [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Returns:**
 int
@@ -101,7 +101,7 @@ public int getStyle()
 ```
 
 
-Returns a Style object that represents the style of the specified range.
+Returns a Style object that represents the style of the specified range. [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Returns:**
 int
@@ -180,7 +180,7 @@ public void setDashStyle(int value)
 ```
 
 
-Sets the dash style for the specified line.
+Sets the dash style for the specified line. [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -206,7 +206,7 @@ public void setStyle(int value)
 ```
 
 
-Returns a Style object that represents the style of the specified range.
+Returns a Style object that represents the style of the specified range. [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Parameters:**
 | Parameter | Type | Description |

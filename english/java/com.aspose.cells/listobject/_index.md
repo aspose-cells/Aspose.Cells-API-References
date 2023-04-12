@@ -70,6 +70,7 @@ Workbook workbook = new Workbook();
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [putCellFormula(int rowOffset, int columnOffset, String formula)](#putCellFormula-int-int-java.lang.String-) | Put the formula to the cell in the table. |
 | [putCellValue(int rowOffset, int columnOffset, Object value)](#putCellValue-int-int-java.lang.Object-) | Put the value to the cell. |
 | [resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders)](#resize-int-int-int-int-boolean-) | Resize the range of the list object. |
 | [setAlternativeDescription(String value)](#setAlternativeDescription-java.lang.String-) | Sets the alternative description. |
@@ -209,7 +210,7 @@ public int getDataSourceType()
 ```
 
 
-Gets the data source type of the table.
+Gets the data source type of the table. [TableDataSourceType](../../com.aspose.cells/tabledatasourcetype).
 
 **Returns:**
 int
@@ -359,7 +360,7 @@ public int getTableStyleType()
 ```
 
 
-Gets and the built-in table style.
+Gets and the built-in table style. [TableStyleType](../../com.aspose.cells/tablestyletype).
 
 ```
 Workbook workbook = new Workbook("Book1.xlsx");
@@ -408,6 +409,21 @@ public final native void notifyAll()
 
 
 
+### putCellFormula(int rowOffset, int columnOffset, String formula) {#putCellFormula-int-int-java.lang.String-}
+```
+public void putCellFormula(int rowOffset, int columnOffset, String formula)
+```
+
+
+Put the formula to the cell in the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | int | The row offset in the table. |
+| columnOffset | int | The column offset in the table. |
+| formula | java.lang.String | The formula of the cell. |
+
 ### putCellValue(int rowOffset, int columnOffset, Object value) {#putCellValue-int-int-java.lang.Object-}
 ```
 public void putCellValue(int rowOffset, int columnOffset, Object value)
@@ -419,8 +435,8 @@ Put the value to the cell.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowOffset | int | The row offset. |
-| columnOffset | int | The column offset. |
+| rowOffset | int | The row offset in the table. |
+| columnOffset | int | The column offset in the table. |
 | value | java.lang.Object | The cell value. |
 
 ### resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders) {#resize-int-int-int-int-boolean-}
@@ -589,7 +605,7 @@ public void setTableStyleType(int value)
 ```
 
 
-Gets and the built-in table style.
+Gets and the built-in table style. [TableStyleType](../../com.aspose.cells/tablestyletype).
 
 **Parameters:**
 | Parameter | Type | Description |

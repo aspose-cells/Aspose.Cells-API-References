@@ -99,7 +99,7 @@ public int getTexture()
 ```
 
 
-Gets the texture fill type.
+Gets the texture fill type. [TextureType](../../com.aspose.cells/texturetype).
 
 **Returns:**
 int
@@ -201,7 +201,7 @@ Sets the specified fill to a one-color gradient.
 | --- | --- | --- |
 | color | [Color](../../com.aspose.cells/color) | One gradient color. |
 | degree | double | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
-| style | int | Gradient shading style. |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setTransparency(double value) {#setTransparency-double-}

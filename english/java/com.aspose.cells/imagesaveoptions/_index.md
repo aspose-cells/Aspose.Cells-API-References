@@ -75,7 +75,7 @@ Creates the options for saving image file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | The file format. It must be Tiff , Svg, Bmp, Png, Jpg, Emf and Gif. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It must be Tiff , Svg, Bmp, Png, Jpg, Emf and Gif. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -168,7 +168,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int

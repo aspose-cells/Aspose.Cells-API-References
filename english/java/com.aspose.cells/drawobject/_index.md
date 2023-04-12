@@ -124,7 +124,7 @@ public int getType()
 ```
 
 
-Indicates the type of DrawObject.
+Indicates the type of DrawObject. [DrawObjectEnum](../../com.aspose.cells/drawobjectenum).
 
 **Returns:**
 int

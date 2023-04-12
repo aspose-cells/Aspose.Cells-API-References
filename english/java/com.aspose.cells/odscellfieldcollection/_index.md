@@ -50,7 +50,7 @@ Adds a field.
 | --- | --- | --- |
 | row | int | The row index. |
 | column | int | The column index. |
-| fieldType | int | The type of the field. |
+| fieldType | int | [OdsCellFieldType](../../com.aspose.cells/odscellfieldtype). The type of the field. |
 | format | java.lang.String | The number format of the field. |
 
 **Returns:**

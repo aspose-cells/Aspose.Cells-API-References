@@ -48,6 +48,8 @@ Workbook workbook = new Workbook();
 | [autoFitRows(AutoFitterOptions options)](#autoFitRows-com.aspose.cells.AutoFitterOptions-) | Autofits all rows in this worksheet. |
 | [autoFitRows(int startRow, int endRow)](#autoFitRows-int-int-) | Autofits row height in a range. |
 | [autoFitRows(int startRow, int endRow, AutoFitterOptions options)](#autoFitRows-int-int-com.aspose.cells.AutoFitterOptions-) | Autofits row height in a range. |
+| [calculateArrayFormula(String formula, CalculationOptions opts)](#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-) | Calculates a formula as array formula. |
+| [calculateArrayFormula(String formula, CalculationOptions opts, int maxRowCount, int maxColumnCount)](#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-int-int-) | Calculates a formula as array formula. |
 | [calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)](#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(CalculationOptions options, boolean recursive)](#calculateFormula-com.aspose.cells.CalculationOptions-boolean-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(String formula)](#calculateFormula-java.lang.String-) | Calculates a formula. |
@@ -438,6 +440,40 @@ Autofits row height in a range.
 | endRow | int | End row index. |
 | options | [AutoFitterOptions](../../com.aspose.cells/autofitteroptions) | The options of auto fitter. |
 
+### calculateArrayFormula(String formula, CalculationOptions opts) {#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-}
+```
+public Object[][] calculateArrayFormula(String formula, CalculationOptions opts)
+```
+
+
+Calculates a formula as array formula.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | Formula to be calculated. |
+| opts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculating formula |
+
+**Returns:**
+java.lang.Object[][]
+### calculateArrayFormula(String formula, CalculationOptions opts, int maxRowCount, int maxColumnCount) {#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-int-int-}
+```
+public Object[][] calculateArrayFormula(String formula, CalculationOptions opts, int maxRowCount, int maxColumnCount)
+```
+
+
+Calculates a formula as array formula. The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | Formula to be calculated. |
+| opts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculating formula |
+| maxRowCount | int | the maximum row count of resultant data. -1 means it will be determined by the formula itself. |
+| maxColumnCount | int | the maximum column count of resultant data. -1 means it is determined by the formula itself. |
+
+**Returns:**
+java.lang.Object[][] - Calculated formula result.
 ### calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction) {#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-}
 ```
 public void calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)
@@ -517,7 +553,7 @@ Closes the session that uses caches to access the data in this worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | int | options of data access |
+| opts | int | [AccessCacheOptions](../../com.aspose.cells/accesscacheoptions). options of data access |
 
 ### copy(Worksheet sourceSheet) {#copy-com.aspose.cells.Worksheet-}
 ```
@@ -880,7 +916,7 @@ public int getPaneState()
 ```
 
 
-Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen.
+Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. [PaneStateType](../../com.aspose.cells/panestatetype).
 
 **Returns:**
 int
@@ -1095,7 +1131,7 @@ public int getType()
 ```
 
 
-Represents worksheet type.
+Represents worksheet type. [SheetType](../../com.aspose.cells/sheettype).
 
 **Returns:**
 int
@@ -1135,7 +1171,7 @@ public int getViewType()
 ```
 
 
-Gets the view type.
+Gets the view type. [ViewType](../../com.aspose.cells/viewtype).
 
 **Returns:**
 int
@@ -1145,7 +1181,7 @@ public int getVisibilityType()
 ```
 
 
-Indicates the visible state for this sheet.
+Indicates the visible state for this sheet. [VisibilityType](../../com.aspose.cells/visibilitytype).
 
 **Returns:**
 int
@@ -1309,7 +1345,7 @@ Protects worksheet. This method protects worksheet without password. It can prot
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Protection type. |
+| type | int | [ProtectionType](../../com.aspose.cells/protectiontype). Protection type. |
 
 ### protect(int type, String password, String oldPassword) {#protect-int-java.lang.String-java.lang.String-}
 ```
@@ -1334,7 +1370,7 @@ Protects worksheet. This method can protect worksheet in all versions of Excel f
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Protection type. |
+| type | int | [ProtectionType](../../com.aspose.cells/protectiontype). Protection type. |
 | password | java.lang.String | Password. |
 | oldPassword | java.lang.String | If the worksheet is already protected by a password, please supply the old password. Otherwise, you can set a null value or blank string to this parameter. |
 
@@ -1669,7 +1705,7 @@ public void setType(int value)
 ```
 
 
-Represents worksheet type.
+Represents worksheet type. [SheetType](../../com.aspose.cells/sheettype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1695,7 +1731,7 @@ public void setViewType(int value)
 ```
 
 
-Sets the view type.
+Sets the view type. [ViewType](../../com.aspose.cells/viewtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1708,7 +1744,7 @@ public void setVisibilityType(int value)
 ```
 
 
-Indicates the visible state for this sheet.
+Indicates the visible state for this sheet. [VisibilityType](../../com.aspose.cells/visibilitytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1774,7 +1810,7 @@ Starts the session that uses caches to access the data in this worksheet. After 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | int | options of data access |
+| opts | int | [AccessCacheOptions](../../com.aspose.cells/accesscacheoptions). options of data access |
 
 ### toString() {#toString--}
 ```

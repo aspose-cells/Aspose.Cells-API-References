@@ -39,6 +39,7 @@ Represents all the shape in a worksheet/chart.
 | [addCheckBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addCheckBox-int-int-int-int-int-int-) | Adds a checkbox to the worksheet. |
 | [addComboBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addComboBox-int-int-int-int-int-int-) | Adds a ComboBox to the worksheet. |
 | [addCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeftColumn, int left)](#addCopy-com.aspose.cells.Shape-int-int-int-int-) | Adds and copy a shape to the worksheet. |
+| [addEquation(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addEquation-int-int-int-int-int-int-) | Add an equation object to the worksheet. |
 | [addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize)](#addFreeFloatingShape-int-int-int-int-int-byte---boolean-) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
 | [addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addGroupBox-int-int-int-int-int-int-) | Adds a GroupBox to the worksheet. |
 | [addIcons(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)](#addIcons-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
@@ -124,7 +125,7 @@ Creates an Activex Control.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The type of the control. |
+| type | int | [ControlType](../../com.aspose.cells/controltype). The type of the control. |
 | topRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Shape from its left row, in unit of pixel. |
 | leftColumn | int | Upper left column index. |
@@ -175,7 +176,7 @@ Adds a AutoShape to the worksheet. The type could not be Chart/Comment/Picture/O
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Auto shape type. |
+| type | int | [AutoShapeType](../../com.aspose.cells/autoshapetype). Auto shape type. |
 | upperLeftRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Shape from its left row, in unit of pixel. |
 | upperLeftColumn | int | Upper left column index. |
@@ -196,7 +197,7 @@ Adds a AutoShape to the chart. The type could not be Chart/Comment/Picture/OleOb
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Auto shape type. |
+| type | int | [AutoShapeType](../../com.aspose.cells/autoshapetype). Auto shape type. |
 | top | int | Represents the vertical offset of textbox from the upper left corner in units of 1/4000 of the chart area. |
 | left | int | Represents the vertical offset of textbox from the upper left corner in units of 1/4000 of the chart area. |
 | height | int | Represents the height of textbox, in units of 1/4000 of the chart area. |
@@ -305,6 +306,26 @@ Adds and copy a shape to the worksheet.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - The new shape object index.
+### addEquation(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addEquation-int-int-int-int-int-int-}
+```
+public TextBox addEquation(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+```
+
+
+Add an equation object to the worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| upperLeftRow | int |  |
+| top | int |  |
+| upperLeftColumn | int |  |
+| left | int |  |
+| height | int |  |
+| width | int |  |
+
+**Returns:**
+[TextBox](../../com.aspose.cells/textbox) - 
 ### addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize) {#addFreeFloatingShape-int-int-int-int-int-byte---boolean-}
 ```
 public Shape addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize)
@@ -332,7 +353,7 @@ Adds a free floating shape to the worksheet.Only applies for line/image shape.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The shape type. |
+| type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The shape type. |
 | top | int | Represents the vertical offset of shape from the worksheet's top row, in unit of pixel. |
 | left | int | Represents the horizontal offset of shape from the worksheet's left column, in unit of pixel. |
 | height | int | Represents the height of LineShape, in unit of pixel. |
@@ -739,7 +760,7 @@ Adds a Shape to the worksheet. The type could not be Chart/Comment/Picture/OleOb
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Mso drawing type. |
+| type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). Mso drawing type. |
 | upperLeftRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of Shape from its left row, in unit of pixel. |
 | upperLeftColumn | int | Upper left column index. |
@@ -760,8 +781,8 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The drawing type. |
-| placement | int | the placement type. |
+| type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
+| placement | int | [PlacementType](../../com.aspose.cells/placementtype). the placement type. |
 | left | int | In unit of 1/4000 chart area width. |
 | top | int | In unit of 1/4000 chart area height. |
 | right | int | In unit of 1/4000 chart area width. |
@@ -780,8 +801,8 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The drawing type. |
-| placement | int | the placement type. |
+| type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
+| placement | int | [PlacementType](../../com.aspose.cells/placementtype). the placement type. |
 | left | int | In unit of 1/4000 chart area width. |
 | top | int | In unit of 1/4000 chart area height. |
 | right | int | In unit of 1/4000 chart area width. |
@@ -801,8 +822,8 @@ Add a shape to chart. All unit is percent scale of chart area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The drawing type. |
-| placement | int | the placement type. |
+| type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
+| placement | int | [PlacementType](../../com.aspose.cells/placementtype). the placement type. |
 | left | double | Unit is percent scale of chart area width. |
 | top | double | Unit is percent scale of chart area height. |
 | right | double | Unit is percent scale of chart area width. |
@@ -821,8 +842,8 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The drawing type. |
-| placement | int | the placement type. |
+| type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
+| placement | int | [PlacementType](../../com.aspose.cells/placementtype). the placement type. |
 | left | double | Unit is percent scale of chart area width. |
 | top | double | Unit is percent scale of chart area height. |
 | right | double | Unit is percent scale of chart area width. |
@@ -950,7 +971,7 @@ Inserts a WordArt object.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| effect | int | The mso preset text effect type. |
+| effect | int | [MsoPresetTextEffect](../../com.aspose.cells/msopresettexteffect). The mso preset text effect type. |
 | text | java.lang.String | The WordArt text. |
 | fontName | java.lang.String | The font name. |
 | size | int | The font size |
@@ -976,7 +997,7 @@ Inserts a WordArt object to the chart
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| effect | int | The mso preset text effect type. |
+| effect | int | [MsoPresetTextEffect](../../com.aspose.cells/msopresettexteffect). The mso preset text effect type. |
 | text | java.lang.String | The WordArt text. |
 | fontName | java.lang.String | The font name. |
 | size | int | The font size |
@@ -1005,7 +1026,7 @@ Adds preset WordArt since Excel 2007.s
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | int | The preset WordArt Style. |
+| style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt Style. |
 | text | java.lang.String | The text. |
 | upperLeftRow | int | Upper left row index. |
 | top | int | Represents the vertical offset of shape from its left row, in unit of pixel. |

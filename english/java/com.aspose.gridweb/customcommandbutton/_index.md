@@ -7,9 +7,9 @@ url: /java/com.aspose.gridweb/customcommandbutton/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.gridweb.Control](../../com.aspose.gridweb/control)
 ```
-public class CustomCommandButton
+public class CustomCommandButton extends Control
 ```
 
 Represents a custom command button in the tab bar of the GridWeb control.
@@ -39,6 +39,9 @@ GridWebBean GridWeb1=ExtPage.getInstance().getBean();
 | [getImageUrl()](#getImageUrl--) | Gets the command button's image url. |
 | [getText()](#getText--) | Gets the alternative text of the command button. |
 | [getToolTip()](#getToolTip--) | Gets the tooltip of the command button. |
+| [getUniqueID()](#getUniqueID--) | Gets the UniqueID in the Control |
+| [getVisible()](#getVisible--) | Gets the Visible in the Control |
+| [getWidth()](#getWidth--) | Width of the button. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -49,6 +52,8 @@ GridWebBean GridWeb1=ExtPage.getInstance().getBean();
 | [setImageUrl(String value)](#setImageUrl-java.lang.String-) | Sets the command button's image url. |
 | [setText(String value)](#setText-java.lang.String-) | Sets the alternative text of the command button. |
 | [setToolTip(String value)](#setToolTip-java.lang.String-) | Sets the tooltip of the command button. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Sets the Visible in the Control |
+| [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Width of the button. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -112,7 +117,7 @@ public int getCommandType()
 ```
 
 
-Gets the rendering type of the command. The type can be command button or context menu item.
+Gets the rendering type of the command. The type can be command button or context menu item. [CustomCommandButtonType](../../com.aspose.gridweb/customcommandbuttontype).
 
 **Returns:**
 int
@@ -156,6 +161,36 @@ Gets the tooltip of the command button.
 
 **Returns:**
 java.lang.String
+### getUniqueID() {#getUniqueID--}
+```
+public String getUniqueID()
+```
+
+
+Gets the UniqueID in the Control
+
+**Returns:**
+java.lang.String
+### getVisible() {#getVisible--}
+```
+public boolean getVisible()
+```
+
+
+Gets the Visible in the Control
+
+**Returns:**
+boolean
+### getWidth() {#getWidth--}
+```
+public Unit getWidth()
+```
+
+
+Width of the button.
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -214,7 +249,7 @@ public void setCommandType(int value)
 ```
 
 
-Sets the rendering type of the command. The type can be command button or context menu item.
+Sets the rendering type of the command. The type can be command button or context menu item. [CustomCommandButtonType](../../com.aspose.gridweb/customcommandbuttontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -272,6 +307,32 @@ Sets the tooltip of the command button.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setVisible(boolean value) {#setVisible-boolean-}
+```
+public void setVisible(boolean value)
+```
+
+
+Sets the Visible in the Control
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setWidth(Unit value) {#setWidth-com.aspose.gridweb.Unit-}
+```
+public void setWidth(Unit value)
+```
+
+
+Width of the button.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
 
 ### toString() {#toString--}
 ```

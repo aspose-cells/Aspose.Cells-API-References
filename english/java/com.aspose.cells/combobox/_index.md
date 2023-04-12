@@ -456,7 +456,7 @@ public int getAnchorType()
 ```
 
 
-Gets the shape anchor placeholder.
+Gets the shape anchor placeholder. [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
 ```
 if (shape.getAnchorType() == ShapeAnchorType.ONE_CELL_ANCHOR)
@@ -471,7 +471,7 @@ public int getAutoShapeType()
 ```
 
 
-Gets the auto shape type.
+Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 ```
 if (shape.getAutoShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
@@ -1020,7 +1020,7 @@ int noAdjustHandles = 0;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The type of the shape locked property. |
+| type | int | [ShapeLockType](../../com.aspose.cells/shapelocktype). The type of the shape locked property. |
 
 **Returns:**
 boolean - Returns the value of locked property.
@@ -1105,7 +1105,7 @@ public int getMsoDrawingType()
 ```
 
 
-Gets mso drawing type.
+Gets mso drawing type. [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
 
 ```
 /*Aspose.Cells.Drawing.MsoDrawingType*/int msoDrawingType = shape.getMsoDrawingType();
@@ -1149,7 +1149,7 @@ public int getPlacement()
 ```
 
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
 
 ```
 if (shape.getPlacement() == PlacementType.MOVE)
@@ -1383,7 +1383,7 @@ public int getTextDirection()
 ```
 
 
-Gets the direction of the text flow for this object.
+Gets the direction of the text flow for this object. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 ```
 if (shape.getTextDirection() == com.aspose.cells.TextDirectionType.CONTEXT)
@@ -1422,7 +1422,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets the text horizontal alignment type of the shape.
+Gets the text horizontal alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 ```
 if (shape.getTextHorizontalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
@@ -1437,7 +1437,7 @@ public int getTextHorizontalOverflow()
 ```
 
 
-Gets the text horizontal overflow type of the shape which contains text.
+Gets the text horizontal overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 ```
 if (shape.getTextHorizontalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
@@ -1468,7 +1468,7 @@ public int getTextOrientationType()
 ```
 
 
-Gets the text orientation type of the shape.
+Gets the text orientation type of the shape. [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 ```
 if (shape.getTextOrientationType() == com.aspose.cells.TextOrientationType.NO_ROTATION)
@@ -1483,7 +1483,7 @@ public int getTextShapeType()
 ```
 
 
-Gets the preset text shape type.
+Gets the preset text shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 ```
 if (shape.getTextShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
@@ -1498,7 +1498,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets the text vertical alignment type of the shape.
+Gets the text vertical alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 ```
 if (shape.getTextVerticalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
@@ -1513,7 +1513,7 @@ public int getTextVerticalOverflow()
 ```
 
 
-Gets the text vertical overflow type of the shape which contains text.
+Gets the text vertical overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 ```
 if (shape.getTextVerticalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
@@ -1641,7 +1641,7 @@ public int getType()
 ```
 
 
-Gets the auto shape type.
+Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 ```
 /*Aspose.Cells.Drawing.AutoShapeType*/int autoShapeType = shape.getType();
@@ -2204,7 +2204,7 @@ public void setAnchorType(int value)
 ```
 
 
-Sets the shape anchor placeholder.
+Sets the shape anchor placeholder. [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2217,7 +2217,7 @@ public void setAutoShapeType(int value)
 ```
 
 
-Sets the auto shape type.
+Sets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2469,9 +2469,6 @@ Sets the range used to fill the control.
 ```
 //After executing the code below, a ListBox object is created in the generated file. When the selected option is clicked, the selected value is displayed in cell A12.
  
-         //Initialize a new workbook.
-         //Workbook book = new Workbook();
- 
          for (int i = 0; i? ++i)
          {
              Cell cell = book.getWorksheets().get(0).getCells().get(i, 0);
@@ -2660,7 +2657,7 @@ shape.setLockedProperty(ShapeLockType.ADJUST_HANDLES, true);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The locked type. |
+| type | int | [ShapeLockType](../../com.aspose.cells/shapelocktype). The locked type. |
 | value | boolean | The value of the property. |
 
 ### setLowerDeltaX(int value) {#setLowerDeltaX-int-}
@@ -2747,7 +2744,7 @@ public void setPlacement(int value)
 ```
 
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2890,7 +2887,7 @@ public void setTextDirection(int value)
 ```
 
 
-Sets the direction of the text flow for this object.
+Sets the direction of the text flow for this object. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2903,7 +2900,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Sets the text horizontal alignment type of the shape.
+Sets the text horizontal alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2916,7 +2913,7 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-Sets the text horizontal overflow type of the shape which contains text.
+Sets the text horizontal overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2942,7 +2939,7 @@ public void setTextOrientationType(int value)
 ```
 
 
-Sets the text orientation type of the shape.
+Sets the text orientation type of the shape. [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2955,7 +2952,7 @@ public void setTextShapeType(int value)
 ```
 
 
-Sets the preset text shape type.
+Sets the preset text shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2968,7 +2965,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Sets the text vertical alignment type of the shape.
+Sets the text vertical alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2981,7 +2978,7 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-Sets the text vertical overflow type of the shape which contains text.
+Sets the text vertical overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3360,10 +3357,7 @@ public void updateSelectedValue()
 Update the selected value by the value of the linked cell.
 
 ```
-//Initialize a new workbook.
-         //Workbook book = new Workbook();
- 
-         Cell cell = null;
+Cell cell = null;
          for (int i = 0; i? ++i)
          {
              cell = book.getWorksheets().get(0).getCells().get(i, 0);

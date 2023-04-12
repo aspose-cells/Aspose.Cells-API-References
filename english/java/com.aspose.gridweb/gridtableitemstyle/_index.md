@@ -7,46 +7,12 @@ url: /java/com.aspose.gridweb/gridtableitemstyle/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.gridweb.WebStyle](../../com.aspose.gridweb/webstyle), [com.aspose.gridweb.WebTableItemStyle](../../com.aspose.gridweb/webtableitemstyle)
 ```
-public class GridTableItemStyle
+public class GridTableItemStyle extends WebTableItemStyle
 ```
 
 Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
-
-```
-...
-          System.Web.UI.WebControls;
-         try //JAVA: was using
-         {;
-         }
-         finally { if (/*JAVA: using statement with anonimous resource does not supported yet*/ != null) /*JAVA: using statement with anonimous resource does not supported yet*/.close(); }
-         ...
-         ...
-         WebWorksheets sheets = GridWeb1.WebWorksheets;
-         	sheets.Clear();
-         	WebWorksheet sheet = sheets[sheets.Add("demo1")];
- 
-         	WebCell cell = sheet.Cells[0][0];
-         	cell.StringValue = "Demo Text";
- 
-         Aspose.Cells.GridWeb.TableItemStyle style = cell.GetStyle();
-         	style.Font.Size = new FontUnit("72pt");
-         	style.Wrap = false;
- 
-         	style.BackColor = Color.getGray();
-         	style.BorderStyle = BorderStyle.Solid;
-         	style.BorderWidth = new Unit(1, UnitType.Pixel);
-         	style.BorderColor = Color.getSilver();
- 
-         	style.RightBorderStyle.BorderColor = Color.getBlack();
-         	style.RightBorderStyle.BorderStyle = BorderStyle.Solid;
-         	style.RightBorderStyle.BorderWidth = new Unit(1, UnitType.Pixel);
-         	style.BottomBorderStyle.BorderColor = Color.getBlack();
-         	style.BottomBorderStyle.BorderStyle = BorderStyle.Solid;
-         	style.BottomBorderStyle.BorderWidth = new Unit(1, UnitType.Pixel);
-         cell.SetStyle(style);
-```
 ## Constructors
 
 | Constructor | Description |
@@ -56,12 +22,22 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 
 | Method | Description |
 | --- | --- |
+| [copyFrom(WebStyle s)](#copyFrom-com.aspose.gridweb.WebStyle-) | Copies from another style object. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBackColor()](#getBackColor--) | Gets the BackColor in the style |
 | [getBackImageAttributes()](#getBackImageAttributes--) | Background image attributes. |
 | [getBackImageUrl()](#getBackImageUrl--) | Background image url. |
+| [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the style |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the style |
 | [getBottomBorderStyle()](#getBottomBorderStyle--) | Specifies the style of the cell's bottom border. |
 | [getClass()](#getClass--) |  |
+| [getCssClass()](#getCssClass--) | Gets the CssClass in the style |
 | [getCustom()](#getCustom--) | Gets the custom format, null or empty string means no custom format. |
+| [getFont()](#getFont--) | Gets the Font in the style |
+| [getForeColor()](#getForeColor--) | Gets the ForeColor in the style |
+| [getHeight()](#getHeight--) | Gets the Height in the style |
+| [getHorizontalAlign()](#getHorizontalAlign--) | Gets the HorizontalAlign in the style [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
 | [getIndentLevel()](#getIndentLevel--) | Gets indent level. |
 | [getLeftBorderStyle()](#getLeftBorderStyle--) | Specifies the style of the cell's left border. |
 | [getNumberType()](#getNumberType--) | Gets the display format of numbers and dates |
@@ -69,14 +45,26 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [getRightBorderStyle()](#getRightBorderStyle--) | Specifies the style of the cell's right border. |
 | [getRotationAngle()](#getRotationAngle--) | Visual filters. |
 | [getTopBorderStyle()](#getTopBorderStyle--) | Specifies the style of the cell's top border. |
+| [getVerticalAlign()](#getVerticalAlign--) | Gets the VerticalAlign in the style [VerticalAlign](../../com.aspose.gridweb/verticalalign). |
+| [getWidth()](#getWidth--) | Gets the Width in the style |
+| [getWrap()](#getWrap--) | Gets the Wrap in the style |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | [isLocked()](#isLocked--) | Gets a value indicating whether a cell can be modified or not when its worksheet is protected. |
+| [mergeWith(WebStyle s)](#mergeWith-com.aspose.gridweb.WebStyle-) | Merges with another style object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the style |
 | [setBackImageAttributes(String value)](#setBackImageAttributes-java.lang.String-) | Background image attributes. |
 | [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | Background image url. |
+| [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the style |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the style |
 | [setBottomBorderStyle(WebBorderStyle value)](#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's bottom border. |
+| [setCssClass(String value)](#setCssClass-java.lang.String-) | Sets the CssClass in the style |
 | [setCustom(String value)](#setCustom-java.lang.String-) | Sets the custom format, null or empty string means no custom format. |
+| [setForeColor(Color value)](#setForeColor-com.aspose.gridweb.Color-) | Sets the ForeColor in the style |
+| [setHeight(Unit value)](#setHeight-com.aspose.gridweb.Unit-) | Sets the Height in the style |
+| [setHorizontalAlign(int value)](#setHorizontalAlign-int-) | Sets the HorizontalAlign in the style [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
 | [setIndentLevel(int value)](#setIndentLevel-int-) | Sets indent level. |
 | [setLeftBorderStyle(WebBorderStyle value)](#setLeftBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's left border. |
 | [setLocked(boolean value)](#setLocked-boolean-) | Sets a value indicating whether a cell can be modified or not when its worksheet is protected. |
@@ -85,6 +73,9 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's right border. |
 | [setRotationAngle(short value)](#setRotationAngle-short-) | Visual filters. |
 | [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's top border. |
+| [setVerticalAlign(int value)](#setVerticalAlign-int-) | Sets the VerticalAlign in the style [VerticalAlign](../../com.aspose.gridweb/verticalalign). |
+| [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Sets the Width in the style |
+| [setWrap(boolean value)](#setWrap-boolean-) | Sets the Wrap in the style |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,6 +87,19 @@ public GridTableItemStyle()
 
 
 Default constructor.
+
+### copyFrom(WebStyle s) {#copyFrom-com.aspose.gridweb.WebStyle-}
+```
+public void copyFrom(WebStyle s)
+```
+
+
+Copies from another style object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| s | [WebStyle](../../com.aspose.gridweb/webstyle) | another style object |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -112,6 +116,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getBackColor() {#getBackColor--}
+```
+public Color getBackColor()
+```
+
+
+Gets the BackColor in the style
+
+**Returns:**
+[Color](../../com.aspose.gridweb/color)
 ### getBackImageAttributes() {#getBackImageAttributes--}
 ```
 public String getBackImageAttributes()
@@ -132,6 +146,36 @@ Background image url.
 
 **Returns:**
 java.lang.String
+### getBorderColor() {#getBorderColor--}
+```
+public Color getBorderColor()
+```
+
+
+Gets the BorderColor in the style
+
+**Returns:**
+[Color](../../com.aspose.gridweb/color)
+### getBorderStyle() {#getBorderStyle--}
+```
+public int getBorderStyle()
+```
+
+
+Gets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle).
+
+**Returns:**
+int
+### getBorderWidth() {#getBorderWidth--}
+```
+public Unit getBorderWidth()
+```
+
+
+Gets the BorderWidth in the style
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getBottomBorderStyle() {#getBottomBorderStyle--}
 ```
 public WebBorderStyle getBottomBorderStyle()
@@ -152,6 +196,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCssClass() {#getCssClass--}
+```
+public String getCssClass()
+```
+
+
+Gets the CssClass in the style
+
+**Returns:**
+java.lang.String
 ### getCustom() {#getCustom--}
 ```
 public String getCustom()
@@ -162,6 +216,46 @@ Gets the custom format, null or empty string means no custom format.
 
 **Returns:**
 java.lang.String
+### getFont() {#getFont--}
+```
+public FontInfo getFont()
+```
+
+
+Gets the Font in the style
+
+**Returns:**
+[FontInfo](../../com.aspose.gridweb/fontinfo)
+### getForeColor() {#getForeColor--}
+```
+public Color getForeColor()
+```
+
+
+Gets the ForeColor in the style
+
+**Returns:**
+[Color](../../com.aspose.gridweb/color)
+### getHeight() {#getHeight--}
+```
+public Unit getHeight()
+```
+
+
+Gets the Height in the style
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
+### getHorizontalAlign() {#getHorizontalAlign--}
+```
+public int getHorizontalAlign()
+```
+
+
+Gets the HorizontalAlign in the style [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
+
+**Returns:**
+int
 ### getIndentLevel() {#getIndentLevel--}
 ```
 public int getIndentLevel()
@@ -271,6 +365,36 @@ Specifies the style of the cell's top border.
 
 **Returns:**
 [WebBorderStyle](../../com.aspose.gridweb/webborderstyle)
+### getVerticalAlign() {#getVerticalAlign--}
+```
+public int getVerticalAlign()
+```
+
+
+Gets the VerticalAlign in the style [VerticalAlign](../../com.aspose.gridweb/verticalalign).
+
+**Returns:**
+int
+### getWidth() {#getWidth--}
+```
+public Unit getWidth()
+```
+
+
+Gets the Width in the style
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
+### getWrap() {#getWrap--}
+```
+public boolean getWrap()
+```
+
+
+Gets the Wrap in the style
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -291,6 +415,19 @@ Gets a value indicating whether a cell can be modified or not when its worksheet
 
 **Returns:**
 boolean
+### mergeWith(WebStyle s) {#mergeWith-com.aspose.gridweb.WebStyle-}
+```
+public void mergeWith(WebStyle s)
+```
+
+
+Merges with another style object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| s | [WebStyle](../../com.aspose.gridweb/webstyle) | another style object |
+
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -306,6 +443,19 @@ public final native void notifyAll()
 
 
 
+
+### setBackColor(Color value) {#setBackColor-com.aspose.gridweb.Color-}
+```
+public void setBackColor(Color value)
+```
+
+
+Sets the BackColor in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.gridweb/color) |  |
 
 ### setBackImageAttributes(String value) {#setBackImageAttributes-java.lang.String-}
 ```
@@ -333,6 +483,45 @@ Background image url.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### setBorderColor(Color value) {#setBorderColor-com.aspose.gridweb.Color-}
+```
+public void setBorderColor(Color value)
+```
+
+
+Sets the BorderColor in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.gridweb/color) |  |
+
+### setBorderStyle(int value) {#setBorderStyle-int-}
+```
+public void setBorderStyle(int value)
+```
+
+
+Sets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setBorderWidth(Unit value) {#setBorderWidth-com.aspose.gridweb.Unit-}
+```
+public void setBorderWidth(Unit value)
+```
+
+
+Sets the BorderWidth in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
+
 ### setBottomBorderStyle(WebBorderStyle value) {#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-}
 ```
 public void setBottomBorderStyle(WebBorderStyle value)
@@ -346,6 +535,19 @@ Specifies the style of the cell's bottom border.
 | --- | --- | --- |
 | value | [WebBorderStyle](../../com.aspose.gridweb/webborderstyle) |  |
 
+### setCssClass(String value) {#setCssClass-java.lang.String-}
+```
+public void setCssClass(String value)
+```
+
+
+Sets the CssClass in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setCustom(String value) {#setCustom-java.lang.String-}
 ```
 public void setCustom(String value)
@@ -358,6 +560,45 @@ Sets the custom format, null or empty string means no custom format.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setForeColor(Color value) {#setForeColor-com.aspose.gridweb.Color-}
+```
+public void setForeColor(Color value)
+```
+
+
+Sets the ForeColor in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.gridweb/color) |  |
+
+### setHeight(Unit value) {#setHeight-com.aspose.gridweb.Unit-}
+```
+public void setHeight(Unit value)
+```
+
+
+Sets the Height in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
+
+### setHorizontalAlign(int value) {#setHorizontalAlign-int-}
+```
+public void setHorizontalAlign(int value)
+```
+
+
+Sets the HorizontalAlign in the style [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setIndentLevel(int value) {#setIndentLevel-int-}
 ```
@@ -501,6 +742,45 @@ Specifies the style of the cell's top border.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [WebBorderStyle](../../com.aspose.gridweb/webborderstyle) |  |
+
+### setVerticalAlign(int value) {#setVerticalAlign-int-}
+```
+public void setVerticalAlign(int value)
+```
+
+
+Sets the VerticalAlign in the style [VerticalAlign](../../com.aspose.gridweb/verticalalign).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setWidth(Unit value) {#setWidth-com.aspose.gridweb.Unit-}
+```
+public void setWidth(Unit value)
+```
+
+
+Sets the Width in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
+
+### setWrap(boolean value) {#setWrap-boolean-}
+```
+public void setWrap(boolean value)
+```
+
+
+Sets the Wrap in the style
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

@@ -111,7 +111,7 @@ public int getPresetType()
 ```
 
 
-Gets the preset shadow type of the shadow.
+Gets the preset shadow type of the shadow. [PresetShadowType](../../com.aspose.cells/presetshadowtype).
 
 **Returns:**
 int
@@ -219,7 +219,7 @@ public void setPresetType(int value)
 ```
 
 
-Sets the preset shadow type of the shadow.
+Sets the preset shadow type of the shadow. [PresetShadowType](../../com.aspose.cells/presetshadowtype).
 
 **Parameters:**
 | Parameter | Type | Description |

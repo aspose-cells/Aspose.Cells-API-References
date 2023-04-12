@@ -41,7 +41,7 @@ Represents the format in which the workbook is saved.
 | [SQL_SCRIPT](#SQL-SCRIPT) | Sql |
 | [SVG](#SVG) | SVG file. |
 | [SXC](#SXC) | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
-| [TAB_DELIMITED](#TAB-DELIMITED) | Represents a tab delimited text file, same with LoadFormat.TSV. |
+| [TAB_DELIMITED](#TAB-DELIMITED) | Represents a tab delimited text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV). |
 | [TIFF](#TIFF) | Represents a TIFF file. |
 | [TSV](#TSV) | Tab-Separated Values(TSV) text file. |
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be saved. |
@@ -54,6 +54,7 @@ Represents the format in which the workbook is saved.
 | [XLTX](#XLTX) | Represents an xltx file. |
 | [XML](#XML) | Represents a simple xml file. |
 | [XPS](#XPS) | XPS (XML Paper Specification) format. |
+| [X_HTML](#X-HTML) | Rrepesents XHtml file. |
 ## Methods
 
 | Method | Description |
@@ -265,7 +266,7 @@ public static final int TAB_DELIMITED
 ```
 
 
-Represents a tab delimited text file, same with LoadFormat.TSV.
+Represents a tab delimited text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV).
 
 ### TIFF {#TIFF}
 ```
@@ -362,6 +363,14 @@ public static final int XPS
 
 
 XPS (XML Paper Specification) format.
+
+### X_HTML {#X-HTML}
+```
+public static final int X_HTML
+```
+
+
+Rrepesents XHtml file.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

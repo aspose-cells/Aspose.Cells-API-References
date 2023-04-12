@@ -79,7 +79,7 @@ Adds a chart to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Chart type |
+| type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
 | upperLeftRow | int | Upper left row index. |
 | upperLeftColumn | int | Upper left column index. |
 | lowerRightRow | int | Lower right row index |
@@ -98,7 +98,7 @@ Adds a chart to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Chart type |
+| type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
 | dataRange | java.lang.String | Specifies the data range of the chart |
 | isVertical | boolean | Specifies whether to plot the series from a range of cell values by row or by column. |
 | topRow | int | Upper left row index. |
@@ -119,7 +119,7 @@ Adds a chart to the collection. NOTE: This member is now obsolete. Instead, plea
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Chart type |
+| type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
 | dataRange | java.lang.String | Specifies the data range of the chart |
 | topRow | int | Upper left row index. |
 | leftColumn | int | Upper left column index. |
@@ -154,7 +154,7 @@ Adds a chart to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Chart type |
+| type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
 | left | int | The x offset to corner |
 | top | int | The y offset to corner |
 | width | int | The chart width |

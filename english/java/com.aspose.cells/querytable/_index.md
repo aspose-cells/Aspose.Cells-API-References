@@ -20,10 +20,10 @@ Represents QueryTable information.
  
          //Obtaining the reference of the first worksheet
          Worksheet worksheet = workbook.getWorksheets().get(0);
-         //Getting the first query table in the worksheet
-         QueryTable qt = worksheet.getQueryTables().get(0);
+         //Getting the first query table in the worksheet if exists
+         //QueryTable qt = worksheet.QueryTables[0];
          //Getting display address of the query table.
-         String address = qt.getResultRange().getAddress();
+         //string address = qt.ResultRange.Address;
 ```
 ## Methods
 

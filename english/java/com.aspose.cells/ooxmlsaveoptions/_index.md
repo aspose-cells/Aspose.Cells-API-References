@@ -32,7 +32,7 @@ Represents the options of saving office open xml file.
 | [getEmbedOoxmlAsOleObject()](#getEmbedOoxmlAsOleObject--) | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [getEnableZip64()](#getEnableZip64--) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
 | [getExportCellName()](#getExportCellName--) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. |
-| [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
+| [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The data provider for saving workbook in light mode. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
@@ -52,7 +52,7 @@ Represents the options of saving office open xml file.
 | [setEmbedOoxmlAsOleObject(boolean value)](#setEmbedOoxmlAsOleObject-boolean-) | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
 | [setExportCellName(boolean value)](#setExportCellName-boolean-) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The data provider for saving workbook in light mode. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -84,7 +84,7 @@ Creates the options for saving office open xml file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | The file format. It must be xlsx,xltx,xlsm,xltm. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It must be xlsx,xltx,xlsm,xltm. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -137,7 +137,7 @@ public int getCompressionType()
 ```
 
 
-Gets the compression type for ooxml file. The default value is OoxmlCompressionType.Level2.
+Gets the compression type for ooxml file. [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level2.
 
 **Returns:**
 int
@@ -187,7 +187,7 @@ public LightCellsDataProvider getLightCellsDataProvider()
 ```
 
 
-The Data provider to provide cells data for saving workbook in light mode.
+The data provider for saving workbook in light mode.
 
 **Returns:**
 [LightCellsDataProvider](../../com.aspose.cells/lightcellsdataprovider)
@@ -217,7 +217,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -339,7 +339,7 @@ public void setCompressionType(int value)
 ```
 
 
-Sets the compression type for ooxml file. The default value is OoxmlCompressionType.Level2.
+Sets the compression type for ooxml file. [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level2.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +404,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-The Data provider to provide cells data for saving workbook in light mode.
+The data provider for saving workbook in light mode.
 
 **Parameters:**
 | Parameter | Type | Description |

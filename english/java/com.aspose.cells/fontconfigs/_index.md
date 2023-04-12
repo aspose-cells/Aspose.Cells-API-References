@@ -28,6 +28,7 @@ Specifies font settings
 | [getFontSources()](#getFontSources--) | Gets a copy of the array that contains the list of sources |
 | [getFontSubstitutes(String originalFontName)](#getFontSubstitutes-java.lang.String-) | Returns array containing font substitute names to be used if original font is not presented. |
 | [hashCode()](#hashCode--) |  |
+| [isFontAvailable(String fontName)](#isFontAvailable-java.lang.String-) | Indicate whether the font is available. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font name. |
@@ -116,6 +117,21 @@ public native int hashCode()
 
 **Returns:**
 int
+### isFontAvailable(String fontName) {#isFontAvailable-java.lang.String-}
+```
+public static boolean isFontAvailable(String fontName)
+```
+
+
+Indicate whether the font is available.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | java.lang.String | font name |
+
+**Returns:**
+boolean - true if font is available, otherwise false.
 ### notify() {#notify--}
 ```
 public final native void notify()

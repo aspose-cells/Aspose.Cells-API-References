@@ -103,7 +103,7 @@ public int getCode()
 ```
 
 
-Represents custom exception code.
+Represents custom exception code. [ExceptionType](../../com.aspose.cells/exceptiontype).
 
 **Returns:**
 int

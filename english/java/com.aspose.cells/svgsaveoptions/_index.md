@@ -77,7 +77,7 @@ Creates the options for saving svg file. NOTE: This constructor is now obsolete.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | The file format. It must be svg. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It must be svg. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -170,7 +170,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int

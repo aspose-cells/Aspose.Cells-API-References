@@ -197,7 +197,7 @@ public int getTextHorizontalOverflow()
 ```
 
 
-Gets the text horizontal overflow type of the text box.
+Gets the text horizontal overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 ```
 shapeTextAlignment.setTextHorizontalOverflow(TextOverflowType.CLIP);
@@ -211,7 +211,7 @@ public int getTextShapeType()
 ```
 
 
-Gets the transform type of text.
+Gets the transform type of text. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 ```
 //Usually do not modify this value unless you know exactly what the modification will result in
@@ -226,7 +226,7 @@ public int getTextVerticalOverflow()
 ```
 
 
-Gets the text vertical overflow type of the text box.
+Gets the text vertical overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 ```
 shapeTextAlignment.setTextVerticalOverflow(TextOverflowType.CLIP);
@@ -240,7 +240,7 @@ public int getTextVerticalType()
 ```
 
 
-Gets the text direction.
+Gets the text direction. [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 ```
 shapeTextAlignment.setTextVerticalType(com.aspose.cells.TextVerticalType.HORIZONTAL);
@@ -426,7 +426,7 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-Sets the text horizontal overflow type of the text box.
+Sets the text horizontal overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -439,7 +439,7 @@ public void setTextShapeType(int value)
 ```
 
 
-Sets the transform type of text.
+Sets the transform type of text. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -452,7 +452,7 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-Sets the text vertical overflow type of the text box.
+Sets the text vertical overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -465,7 +465,7 @@ public void setTextVerticalType(int value)
 ```
 
 
-Sets the text direction.
+Sets the text direction. [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 **Parameters:**
 | Parameter | Type | Description |

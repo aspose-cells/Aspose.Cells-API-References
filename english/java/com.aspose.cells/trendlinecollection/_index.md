@@ -74,7 +74,7 @@ Adds a [Trendline](../../com.aspose.cells/trendline) object to this collection w
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Trendline type. |
+| type | int | [TrendlineType](../../com.aspose.cells/trendlinetype). Trendline type. |
 
 **Returns:**
 int - [Trendline](../../com.aspose.cells/trendline) object index.
@@ -89,7 +89,7 @@ Adds a [Trendline](../../com.aspose.cells/trendline) object to this collection w
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Trendline type. |
+| type | int | [TrendlineType](../../com.aspose.cells/trendlinetype). Trendline type. |
 | name | java.lang.String | Trendline name. |
 
 **Returns:**

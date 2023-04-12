@@ -17,13 +17,13 @@ The style modified flags.
 
 | Field | Description |
 | --- | --- |
-| [ALIGNMENT_SETTINGS](#ALIGNMENT-SETTINGS) | Indicates whether one or more alignment-related properties(StyleModifyFlag.HORIZONTAL\_ALIGNMENT, StyleModifyFlag.VERTICAL\_ALIGNMENT, StyleModifyFlag.ROTATION, StyleModifyFlag.WRAP\_TEXT, StyleModifyFlag.WRAP\_TEXT, StyleModifyFlag.INDENT, StyleModifyFlag.SHRINK\_TO\_FIT, StyleModifyFlag.TEXT\_DIRECTION, StyleModifyFlag.RELATIVE\_INDENT) have been modified. |
+| [ALIGNMENT_SETTINGS](#ALIGNMENT-SETTINGS) | Indicates whether one or more alignment-related properties([HORIZONTAL\_ALIGNMENT](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-ALIGNMENT), [VERTICAL\_ALIGNMENT](../../com.aspose.cells/stylemodifyflag\#VERTICAL-ALIGNMENT), [ROTATION](../../com.aspose.cells/stylemodifyflag\#ROTATION), [WRAP\_TEXT](../../com.aspose.cells/stylemodifyflag\#WRAP-TEXT), [WRAP\_TEXT](../../com.aspose.cells/stylemodifyflag\#WRAP-TEXT), [INDENT](../../com.aspose.cells/stylemodifyflag\#INDENT), [SHRINK\_TO\_FIT](../../com.aspose.cells/stylemodifyflag\#SHRINK-TO-FIT), [TEXT\_DIRECTION](../../com.aspose.cells/stylemodifyflag\#TEXT-DIRECTION), [RELATIVE\_INDENT](../../com.aspose.cells/stylemodifyflag\#RELATIVE-INDENT)) have been modified. |
 | [ALL](#ALL) | Indicates whether one or more properties have been modified for the style. |
 | [BACKGROUND_COLOR](#BACKGROUND-COLOR) | Indicates whether background color has been modified. |
-| [BORDERS](#BORDERS) | Indicates whether one or more borders(StyleModifyFlag.LEFT\_BORDER, StyleModifyFlag.RIGHT\_BORDER, StyleModifyFlag.TOP\_BORDER, StyleModifyFlag.BOTTOM\_BORDER, StyleModifyFlag.DIAGONAL, StyleModifyFlag.HORIZONTAL\_BORDER, StyleModifyFlag.VERTICAL\_BORDER) have been modified for the style. |
+| [BORDERS](#BORDERS) | Indicates whether one or more borders([LEFT\_BORDER](../../com.aspose.cells/stylemodifyflag\#LEFT-BORDER), [RIGHT\_BORDER](../../com.aspose.cells/stylemodifyflag\#RIGHT-BORDER), [TOP\_BORDER](../../com.aspose.cells/stylemodifyflag\#TOP-BORDER), [BOTTOM\_BORDER](../../com.aspose.cells/stylemodifyflag\#BOTTOM-BORDER), [DIAGONAL](../../com.aspose.cells/stylemodifyflag\#DIAGONAL), [HORIZONTAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-BORDER), [VERTICAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#VERTICAL-BORDER)) have been modified for the style. |
 | [BOTTOM_BORDER](#BOTTOM-BORDER) | Indicates whether bottom border has been modified for the style. |
-| [CELL_SHADING](#CELL-SHADING) | Indicates whether one or more shading-related properties(StyleModifyFlag.PATTERN, StyleModifyFlag.FOREGROUND\_COLOR, StyleModifyFlag.BACKGROUND\_COLOR) have been modified. |
-| [DIAGONAL](#DIAGONAL) | Indicates whether one or more diagonal borders(StyleModifyFlag.DIAGONAL\_DOWN\_BORDER, StyleModifyFlag.DIAGONAL\_UP\_BORDER) have been modified for the style. |
+| [CELL_SHADING](#CELL-SHADING) | Indicates whether one or more shading-related properties([PATTERN](../../com.aspose.cells/stylemodifyflag\#PATTERN), [FOREGROUND\_COLOR](../../com.aspose.cells/stylemodifyflag\#FOREGROUND-COLOR), [BACKGROUND\_COLOR](../../com.aspose.cells/stylemodifyflag\#BACKGROUND-COLOR)) have been modified. |
+| [DIAGONAL](#DIAGONAL) | Indicates whether one or more diagonal borders([DIAGONAL\_DOWN\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-DOWN-BORDER), [DIAGONAL\_UP\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-UP-BORDER)) have been modified for the style. |
 | [DIAGONAL_DOWN_BORDER](#DIAGONAL-DOWN-BORDER) | Indicates whether diagonal-down border has been modified for the style. |
 | [DIAGONAL_UP_BORDER](#DIAGONAL-UP-BORDER) | Indicates whether diagonal-up border has been modified for the style. |
 | [FONT](#FONT) | Indicates whether one or more properties have been modified for the font of the style. |
@@ -55,7 +55,7 @@ The style modified flags.
 | [LOCKED](#LOCKED) | Indicates whether locked property has been modified. |
 | [NUMBER_FORMAT](#NUMBER-FORMAT) | Indicates whether numberformat has been modified. |
 | [PATTERN](#PATTERN) | Indicates whether pattern of the shading has been modified. |
-| [PROTECTION_SETTINGS](#PROTECTION-SETTINGS) | Indicates whether one or more protection-related properties(StyleModifyFlag.LOCKED, StyleModifyFlag.HIDE\_FORMULA) have been modified. |
+| [PROTECTION_SETTINGS](#PROTECTION-SETTINGS) | Indicates whether one or more protection-related properties([LOCKED](../../com.aspose.cells/stylemodifyflag\#LOCKED), [HIDE\_FORMULA](../../com.aspose.cells/stylemodifyflag\#HIDE-FORMULA)) have been modified. |
 | [RELATIVE_INDENT](#RELATIVE-INDENT) | Indicates whether relative indent property has been modified for the style. |
 | [RIGHT_BORDER](#RIGHT-BORDER) | Indicates whether right border has been modified for the style. |
 | [ROTATION](#ROTATION) | Indicates whether rotation property has been modified. |
@@ -84,7 +84,7 @@ public static final int ALIGNMENT_SETTINGS
 ```
 
 
-Indicates whether one or more alignment-related properties(StyleModifyFlag.HORIZONTAL\_ALIGNMENT, StyleModifyFlag.VERTICAL\_ALIGNMENT, StyleModifyFlag.ROTATION, StyleModifyFlag.WRAP\_TEXT, StyleModifyFlag.WRAP\_TEXT, StyleModifyFlag.INDENT, StyleModifyFlag.SHRINK\_TO\_FIT, StyleModifyFlag.TEXT\_DIRECTION, StyleModifyFlag.RELATIVE\_INDENT) have been modified.
+Indicates whether one or more alignment-related properties([HORIZONTAL\_ALIGNMENT](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-ALIGNMENT), [VERTICAL\_ALIGNMENT](../../com.aspose.cells/stylemodifyflag\#VERTICAL-ALIGNMENT), [ROTATION](../../com.aspose.cells/stylemodifyflag\#ROTATION), [WRAP\_TEXT](../../com.aspose.cells/stylemodifyflag\#WRAP-TEXT), [WRAP\_TEXT](../../com.aspose.cells/stylemodifyflag\#WRAP-TEXT), [INDENT](../../com.aspose.cells/stylemodifyflag\#INDENT), [SHRINK\_TO\_FIT](../../com.aspose.cells/stylemodifyflag\#SHRINK-TO-FIT), [TEXT\_DIRECTION](../../com.aspose.cells/stylemodifyflag\#TEXT-DIRECTION), [RELATIVE\_INDENT](../../com.aspose.cells/stylemodifyflag\#RELATIVE-INDENT)) have been modified.
 
 ### ALL {#ALL}
 ```
@@ -108,7 +108,7 @@ public static final int BORDERS
 ```
 
 
-Indicates whether one or more borders(StyleModifyFlag.LEFT\_BORDER, StyleModifyFlag.RIGHT\_BORDER, StyleModifyFlag.TOP\_BORDER, StyleModifyFlag.BOTTOM\_BORDER, StyleModifyFlag.DIAGONAL, StyleModifyFlag.HORIZONTAL\_BORDER, StyleModifyFlag.VERTICAL\_BORDER) have been modified for the style.
+Indicates whether one or more borders([LEFT\_BORDER](../../com.aspose.cells/stylemodifyflag\#LEFT-BORDER), [RIGHT\_BORDER](../../com.aspose.cells/stylemodifyflag\#RIGHT-BORDER), [TOP\_BORDER](../../com.aspose.cells/stylemodifyflag\#TOP-BORDER), [BOTTOM\_BORDER](../../com.aspose.cells/stylemodifyflag\#BOTTOM-BORDER), [DIAGONAL](../../com.aspose.cells/stylemodifyflag\#DIAGONAL), [HORIZONTAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-BORDER), [VERTICAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#VERTICAL-BORDER)) have been modified for the style.
 
 ### BOTTOM_BORDER {#BOTTOM-BORDER}
 ```
@@ -124,7 +124,7 @@ public static final int CELL_SHADING
 ```
 
 
-Indicates whether one or more shading-related properties(StyleModifyFlag.PATTERN, StyleModifyFlag.FOREGROUND\_COLOR, StyleModifyFlag.BACKGROUND\_COLOR) have been modified.
+Indicates whether one or more shading-related properties([PATTERN](../../com.aspose.cells/stylemodifyflag\#PATTERN), [FOREGROUND\_COLOR](../../com.aspose.cells/stylemodifyflag\#FOREGROUND-COLOR), [BACKGROUND\_COLOR](../../com.aspose.cells/stylemodifyflag\#BACKGROUND-COLOR)) have been modified.
 
 ### DIAGONAL {#DIAGONAL}
 ```
@@ -132,7 +132,7 @@ public static final int DIAGONAL
 ```
 
 
-Indicates whether one or more diagonal borders(StyleModifyFlag.DIAGONAL\_DOWN\_BORDER, StyleModifyFlag.DIAGONAL\_UP\_BORDER) have been modified for the style.
+Indicates whether one or more diagonal borders([DIAGONAL\_DOWN\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-DOWN-BORDER), [DIAGONAL\_UP\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-UP-BORDER)) have been modified for the style.
 
 ### DIAGONAL_DOWN_BORDER {#DIAGONAL-DOWN-BORDER}
 ```
@@ -388,7 +388,7 @@ public static final int PROTECTION_SETTINGS
 ```
 
 
-Indicates whether one or more protection-related properties(StyleModifyFlag.LOCKED, StyleModifyFlag.HIDE\_FORMULA) have been modified.
+Indicates whether one or more protection-related properties([LOCKED](../../com.aspose.cells/stylemodifyflag\#LOCKED), [HIDE\_FORMULA](../../com.aspose.cells/stylemodifyflag\#HIDE-FORMULA)) have been modified.
 
 ### RELATIVE_INDENT {#RELATIVE-INDENT}
 ```

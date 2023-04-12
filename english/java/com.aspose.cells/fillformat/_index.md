@@ -62,7 +62,7 @@ Encapsulates the object that represents fill formatting for a shape.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFillType()](#getFillType--) | Gets fill type |
+| [getFillType()](#getFillType--) | Gets fill type [FillType](../../com.aspose.cells/filltype). |
 | [getGradientColor1()](#getGradientColor1--) | Returns the gradient color 1 for the specified fill. |
 | [getGradientColor2()](#getGradientColor2--) | Returns the gradient color 2 for the specified fill. |
 | [getGradientColorType()](#getGradientColorType--) | Returns the gradient color type for the specified fill. |
@@ -85,7 +85,7 @@ Encapsulates the object that represents fill formatting for a shape.
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFillType(int value)](#setFillType-int-) | Sets fill type |
+| [setFillType(int value)](#setFillType-int-) | Sets fill type [FillType](../../com.aspose.cells/filltype). |
 | [setImageData(byte[] value)](#setImageData-byte---) | Sets the picture image data. |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
 | [setPattern(int value)](#setPattern-int-) | Represents an area's display pattern. |
@@ -133,7 +133,7 @@ public int getFillType()
 ```
 
 
-Gets fill type
+Gets fill type [FillType](../../com.aspose.cells/filltype).
 
 **Returns:**
 int
@@ -163,7 +163,7 @@ public int getGradientColorType()
 ```
 
 
-Returns the gradient color type for the specified fill.
+Returns the gradient color type for the specified fill. [GradientColorType](../../com.aspose.cells/gradientcolortype).
 
 **Returns:**
 int
@@ -193,7 +193,7 @@ public int getGradientStyle()
 ```
 
 
-Returns the gradient style for the specified fill.
+Returns the gradient style for the specified fill. [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Returns:**
 int
@@ -223,7 +223,7 @@ public int getPattern()
 ```
 
 
-Represents an area's display pattern.
+Represents an area's display pattern. [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Returns:**
 int
@@ -243,7 +243,7 @@ public int getPictureFormatType()
 ```
 
 
-Gets the picture format type.
+Gets the picture format type. [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Returns:**
 int
@@ -253,7 +253,7 @@ public int getPresetColor()
 ```
 
 
-Returns the gradient preset color for the specified fill.
+Returns the gradient preset color for the specified fill. [GradientPresetType](../../com.aspose.cells/gradientpresettype).
 
 **Returns:**
 int
@@ -273,7 +273,7 @@ public int getSetType()
 ```
 
 
-Gets the fill format set type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the fill format set type. [FormatSetType](../../com.aspose.cells/formatsettype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -293,7 +293,7 @@ public int getTexture()
 ```
 
 
-Represents the texture type for the specified fill.
+Represents the texture type for the specified fill. [TextureType](../../com.aspose.cells/texturetype).
 
 **Returns:**
 int
@@ -323,7 +323,7 @@ public int getType()
 ```
 
 
-Gets the fill type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the fill type. [FillType](../../com.aspose.cells/filltype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -359,7 +359,7 @@ public void setFillType(int value)
 ```
 
 
-Sets fill type
+Sets fill type [FillType](../../com.aspose.cells/filltype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +392,7 @@ Sets the specified fill to a one-color gradient. Only applies for Excel 2007.
 | --- | --- | --- |
 | color | [Color](../../com.aspose.cells/color) | One gradient color. |
 | degree | double | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
-| style | int | Gradient shading style. |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setPattern(int value) {#setPattern-int-}
@@ -401,7 +401,7 @@ public void setPattern(int value)
 ```
 
 
-Represents an area's display pattern.
+Represents an area's display pattern. [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -414,7 +414,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-Sets the picture format type.
+Sets the picture format type. [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -432,8 +432,8 @@ Sets the specified fill to a preset-color gradient. Only applies for Excel 2007.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presetColor | int | Preset color type |
-| style | int | Gradient shading style. |
+| presetColor | int | [GradientPresetType](../../com.aspose.cells/gradientpresettype). Preset color type |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setScale(double value) {#setScale-double-}
@@ -455,7 +455,7 @@ public void setSetType(int value)
 ```
 
 
-Gets the fill format set type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the fill format set type. [FormatSetType](../../com.aspose.cells/formatsettype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +468,7 @@ public void setTexture(int value)
 ```
 
 
-Represents the texture type for the specified fill.
+Represents the texture type for the specified fill. [TextureType](../../com.aspose.cells/texturetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -501,7 +501,7 @@ Sets the specified fill to a two-color gradient. Only applies for Excel 2007.
 | --- | --- | --- |
 | color1 | [Color](../../com.aspose.cells/color) | One gradient color. |
 | color2 | [Color](../../com.aspose.cells/color) | Two gradient color. |
-| style | int | Gradient shading style. |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setTwoColorGradient(Color color1, double transparency1, Color color2, double transparency2, int style, int variant) {#setTwoColorGradient-com.aspose.cells.Color-double-com.aspose.cells.Color-double-int-int-}
@@ -519,7 +519,7 @@ Sets the specified fill to a two-color gradient. Only applies for Excel 2007.
 | transparency1 | double | The degree of transparency of the color1 as a value from 0.0 (opaque) through 1.0 (clear). |
 | color2 | [Color](../../com.aspose.cells/color) | Two gradient color. |
 | transparency2 | double | The degree of transparency of the color2 as a value from 0.0 (opaque) through 1.0 (clear). |
-| style | int | Gradient shading style. |
+| style | int | [GradientStyleType](../../com.aspose.cells/gradientstyletype). Gradient shading style. |
 | variant | int | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
 
 ### setType(int value) {#setType-int-}
@@ -528,7 +528,7 @@ public void setType(int value)
 ```
 
 
-Sets the fill type. NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Sets the fill type. [FillType](../../com.aspose.cells/filltype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

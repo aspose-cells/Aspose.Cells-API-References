@@ -156,7 +156,7 @@ public int getAxisPosition()
 ```
 
 
-Gets the position of the axis of the data bars specified by a conditional formatting rule.
+Gets the position of the axis of the data bars specified by a conditional formatting rule. [DataBarAxisPosition](../../com.aspose.cells/databaraxisposition).
 
 **Returns:**
 int
@@ -176,7 +176,7 @@ public int getBarFillType()
 ```
 
 
-Gets how a data bar is filled with color.
+Gets how a data bar is filled with color. [DataBarFillType](../../com.aspose.cells/databarfilltype).
 
 **Returns:**
 int
@@ -206,7 +206,7 @@ public int getDirection()
 ```
 
 
-Gets the direction the databar is displayed.
+Gets the direction the databar is displayed. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
 int
@@ -315,7 +315,7 @@ public void setAxisPosition(int value)
 ```
 
 
-Sets the position of the axis of the data bars specified by a conditional formatting rule.
+Sets the position of the axis of the data bars specified by a conditional formatting rule. [DataBarAxisPosition](../../com.aspose.cells/databaraxisposition).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setBarFillType(int value)
 ```
 
 
-Sets how a data bar is filled with color.
+Sets how a data bar is filled with color. [DataBarFillType](../../com.aspose.cells/databarfilltype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setDirection(int value)
 ```
 
 
-Sets the direction the databar is displayed.
+Sets the direction the databar is displayed. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |

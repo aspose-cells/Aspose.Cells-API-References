@@ -57,7 +57,7 @@ Add an external link .
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| directoryType | int | The directory type of the file name. |
+| directoryType | int | [DirectoryType](../../com.aspose.cells/directorytype). The directory type of the file name. |
 | fileName | java.lang.String | the file name. |
 | sheetNames | java.lang.String[] | All sheet names of the external file. |
 

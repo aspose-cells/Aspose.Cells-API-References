@@ -20,6 +20,7 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [CellEventArgs](../com.aspose.gridweb/celleventargs) | Provides data for cell events. |
 | [CollectionBase](../com.aspose.gridweb/collectionbase) | Provides the abstract base class for a strongly typed collection. |
 | [Color](../com.aspose.gridweb/color) | Represents an ARGB (alpha, red, green, blue) color. |
+| [Control](../com.aspose.gridweb/control) | Represent the base Control class, internal use only. |
 | [CustomCommandButton](../com.aspose.gridweb/customcommandbutton) | Represents a custom command button in the tab bar of the GridWeb control. |
 | [CustomCommandButtonCollection](../com.aspose.gridweb/customcommandbuttoncollection) | Represents the collection of CustomCommandButton. |
 | [CustomCommandButtonType](../com.aspose.gridweb/customcommandbuttontype) | Represents the type of a custom command. |
@@ -109,6 +110,10 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [WebCellArea](../com.aspose.gridweb/webcellarea) | NOTE: This class is now obsolete. |
 | [WebCellErrorType](../com.aspose.gridweb/webcellerrortype) | Used in WebCellException. |
 | [WebComment](../com.aspose.gridweb/webcomment) | NOTE: This class is now obsolete. |
+| [WebControl](../com.aspose.gridweb/webcontrol) | Represent the WebControl class, internal use only. |
+| [WebStyle](../com.aspose.gridweb/webstyle) | Represent the style for web control,extend from the Style class. |
+| [WebTableItemStyle](../com.aspose.gridweb/webtableitemstyle) | Represent the WebTableItemStyle class, internal use only. |
+| [WebTableStyle](../com.aspose.gridweb/webtablestyle) | Represent the WebTableStyle class, internal use only. |
 | [WebWorksheet](../com.aspose.gridweb/webworksheet) | Represents a web worksheet. |
 | [WorksheetDesign](../com.aspose.gridweb/worksheetdesign) | Inherited from WebWorksheet. |
 

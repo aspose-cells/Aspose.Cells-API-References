@@ -133,15 +133,17 @@ public GridValidation createValidation(int validationType, boolean isRequried)
 Creates a validation object for a cell.
 
 ```
-Validation v = cell1.CreateValidation(GridValidationType.CUSTOM_EXPRESSION, true);
+GridWeb GridWeb1 = new GridWeb();
+         GridWorksheet sheet = GridWeb1.getActiveSheet();
+         GridValidation v = sheet.getCells().get("A1").createValidation(GridValidationType.CUSTOM_EXPRESSION, true);
          		// Sets to number validation expression.
-         		v.RegEx = "\\d+";
+         		v.setRegEx("\\d+");
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| validationType | int | Validation type. |
+| validationType | int | [GridValidationType](../../com.aspose.gridweb/gridvalidationtype). Validation type. |
 | isRequried | boolean | Whether the cell value is required. |
 
 **Returns:**
@@ -262,7 +264,9 @@ Gets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula s
 User can set any formula in Workbook designer file. Aspose.Cells will keep all the formulas. If user use this property to set a formula to a cell, major part of Workbook built-in functions is supported. And more is coming. If you have any special need for Workbook built-in functions, please let us know.
 
 ```
-cell.Formula = "=SUM(A1:C3) + E6*2";
+GridWeb GridWeb1 = new GridWeb();
+         GridWorksheet sheet = GridWeb1.getActiveSheet();
+         sheet.getCells().get("B6").setFormula("=SUM(B2:B5, E1) + sheet1!A1");
 ```
 
 **Returns:**

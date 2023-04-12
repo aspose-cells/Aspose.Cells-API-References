@@ -7,9 +7,9 @@ url: /java/com.aspose.gridweb/gridworksheet/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.gridweb.Control](../../com.aspose.gridweb/control)
 ```
-public class GridWorksheet
+public class GridWorksheet extends Control
 ```
 
 Encapsulates the object that represents a single worksheet.
@@ -66,6 +66,7 @@ Encapsulates the object that represents a single worksheet.
 | [getStandardHeight()](#getStandardHeight--) | Gets the default row height in this worksheet,in unit of points. |
 | [getStandardHeightPixels()](#getStandardHeightPixels--) | Gets the default row height in this worksheet,in unit of pixels. |
 | [getTabColor()](#getTabColor--) | Represents worksheet tab color. |
+| [getUniqueID()](#getUniqueID--) | Gets the UniqueID in the Control |
 | [getValidations()](#getValidations--) | Gets the data validation setting collection in the worksheet. |
 | [getVisible()](#getVisible--) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
 | [getWorkbook()](#getWorkbook--) |  |
@@ -304,7 +305,7 @@ Creates subtotal in the sheet.
 | columnNameRowIndex | int | The row index of the column name row. |
 | dataRows | int | The number of the data rows. |
 | groupByColumnIndex | int | The column index of the column to be grouped. |
-| subtotalFunction | int | The subtotal function type. |
+| subtotalFunction | int | [SubtotalFunction](../../com.aspose.gridweb/subtotalfunction). The subtotal function type. |
 | subtotalColumnIndexList | int[] | The column indexes to be subtotaled. |
 
 ### createSubtotal(int columnNameRowIndex, int dataRows, int groupByColumnIndex, int subtotalFunction, int[] subtotalColumnIndexList, String functionLabel, GridTableItemStyle grandCellStyle, GridTableItemStyle subtotalCellStyle, int numberType, String customString) {#createSubtotal-int-int-int-int-int---java.lang.String-com.aspose.gridweb.GridTableItemStyle-com.aspose.gridweb.GridTableItemStyle-int-java.lang.String-}
@@ -321,12 +322,12 @@ Creates subtotal in the sheet.
 | columnNameRowIndex | int | The row index of the column name row. |
 | dataRows | int | The number of the data rows. |
 | groupByColumnIndex | int | The column index of the column to be grouped. |
-| subtotalFunction | int | The subtotal function type. |
+| subtotalFunction | int | [SubtotalFunction](../../com.aspose.gridweb/subtotalfunction). The subtotal function type. |
 | subtotalColumnIndexList | int[] | The column indexes to be subtotaled. |
 | functionLabel | java.lang.String | The label of subtotal function. |
 | grandCellStyle | [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle) | The style of the grand total line. |
 | subtotalCellStyle | [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle) | The style of the subtotal line. |
-| numberType | int | The number type of the subtotal result cells. |
+| numberType | int | [NumberType](../../com.aspose.gridweb/numbertype). The number type of the subtotal result cells. |
 | customString | java.lang.String | The custome format string of the subtotal result cells. Can be null. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -729,6 +730,16 @@ Represents worksheet tab color. This feature is only supported in ExcelXP(Excel2
 
 **Returns:**
 [Color](../../com.aspose.gridweb/color)
+### getUniqueID() {#getUniqueID--}
+```
+public String getUniqueID()
+```
+
+
+Gets the UniqueID in the Control
+
+**Returns:**
+java.lang.String
 ### getValidations() {#getValidations--}
 ```
 public GridValidationCollection getValidations()

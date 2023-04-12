@@ -83,8 +83,8 @@ Adds a formatting condition and effected cell rang to the FormatConditions The F
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellArea | [CellArea](../../com.aspose.cells/cellarea) | Conditional formatted cell range. |
-| type | int | Type of conditional formatting.It could be one of the members of FormatConditionType. |
-| operatorType | int | Comparison operator.It could be one of the members of OperatorType. |
+| type | int | [FormatConditionType](../../com.aspose.cells/formatconditiontype). Type of conditional formatting.It could be one of the members of FormatConditionType. |
+| operatorType | int | [OperatorType](../../com.aspose.cells/operatortype). Comparison operator.It could be one of the members of OperatorType. |
 | formula1 | java.lang.String | The value or expression associated with conditional formatting. |
 | formula2 | java.lang.String | The value or expression associated with conditional formatting |
 
@@ -116,7 +116,7 @@ Add a format condition.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Format condition type. |
+| type | int | [FormatConditionType](../../com.aspose.cells/formatconditiontype). Format condition type. |
 
 **Returns:**
 int - Formatting condition object index;
@@ -131,8 +131,8 @@ Adds a formatting condition.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | of conditional formatting. It could be one of the members of FormatConditionType. |
-| operatorType | int | The comparison [OperatorType](../../com.aspose.cells/operatortype). It could be one of the members of OperatorType. |
+| type | int | [FormatConditionType](../../com.aspose.cells/formatconditiontype). The type of format condition. |
+| operatorType | int | [OperatorType](../../com.aspose.cells/operatortype). The operator type |
 | formula1 | java.lang.String | The value or expression associated with conditional formatting. If the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"". |
 | formula2 | java.lang.String | The value or expression associated with conditional formatting. The input format is same with formula1 |
 

@@ -92,7 +92,7 @@ public int getType()
 ```
 
 
-Gets the type of revision.
+Gets the type of revision. [RevisionType](../../com.aspose.cells/revisiontype).
 
 **Returns:**
 int

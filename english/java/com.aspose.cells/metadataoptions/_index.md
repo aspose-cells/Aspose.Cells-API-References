@@ -47,7 +47,7 @@ Creates an options of loading the metadata.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| metadataType | int | The type of metadata. |
+| metadataType | int | [MetadataType](../../com.aspose.cells/metadatatype). The type of metadata. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -90,7 +90,7 @@ public int getMetadataType()
 ```
 
 
-Gets the type of the metadata which is loading.
+Gets the type of the metadata which is loading. [MetadataType](../../com.aspose.cells/metadatatype).
 
 **Returns:**
 int

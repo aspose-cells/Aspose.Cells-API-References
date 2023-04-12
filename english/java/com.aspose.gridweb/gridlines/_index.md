@@ -9,23 +9,18 @@ url: /java/com.aspose.gridweb/gridlines/
 **Inheritance:**
 java.lang.Object
 ```
-public class GridLines
+public final class GridLines
 ```
 
 gridline style for a GridView control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GridLines()](#GridLines--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Both](#Both) |  |
-| [Horizontal](#Horizontal) |  |
-| [None](#None) |  |
-| [Vertical](#Vertical) |  |
+| [BOTH](#BOTH) |  |
+| [HORIZONTAL](#HORIZONTAL) |  |
+| [NONE](#NONE) |  |
+| [VERTICAL](#VERTICAL) |  |
 ## Methods
 
 | Method | Description |
@@ -39,33 +34,27 @@ gridline style for a GridView control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### GridLines() {#GridLines--}
+### BOTH {#BOTH}
 ```
-public GridLines()
-```
-
-
-### Both {#Both}
-```
-public static int Both
+public static final int BOTH
 ```
 
 
-### Horizontal {#Horizontal}
+### HORIZONTAL {#HORIZONTAL}
 ```
-public static int Horizontal
-```
-
-
-### None {#None}
-```
-public static int None
+public static final int HORIZONTAL
 ```
 
 
-### Vertical {#Vertical}
+### NONE {#NONE}
 ```
-public static int Vertical
+public static final int NONE
+```
+
+
+### VERTICAL {#VERTICAL}
+```
+public static final int VERTICAL
 ```
 
 

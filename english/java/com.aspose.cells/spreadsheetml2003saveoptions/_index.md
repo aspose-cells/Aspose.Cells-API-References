@@ -78,7 +78,7 @@ Creates the options for saving Excel 2003 spreadml file. NOTE: This constructor 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | The save format. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The save format. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -181,7 +181,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int

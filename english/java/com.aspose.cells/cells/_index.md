@@ -766,7 +766,7 @@ Deletes a range of cells and shift cells according to the shift option.
 | startColumn | int | Start column index. |
 | endRow | int | End row index. |
 | endColumn | int | End column index. |
-| shiftType | int | Shift cells option. |
+| shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). Shift cells option. |
 
 ### deleteRow(int rowIndex) {#deleteRow-int-}
 ```
@@ -938,7 +938,7 @@ Exports cell value type in the [Cells](../../com.aspose.cells/cells) collection 
 | totalColumns | int | Number of columns to be exported. |
 
 **Returns:**
-int[][] - Exported [CellValueType](../../com.aspose.cells/cellvaluetype) array object.
+int[][] - [CellValueType](../../com.aspose.cells/cellvaluetype). Exported array object representing cell value types.
 ### find(Object what, Cell previousCell) {#find-java.lang.Object-com.aspose.cells.Cell-}
 ```
 public Cell find(Object what, Cell previousCell)
@@ -1369,7 +1369,7 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage option for this cells.
+Gets the memory usage option for this cells. [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -2378,7 +2378,7 @@ Insert cut range.
 | cutRange | [Range](../../com.aspose.cells/range) | The cut range. |
 | row | int | The row. |
 | column | int | The column. |
-| shiftType | int | The shift type . |
+| shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). The shift type . |
 
 ### insertRange(CellArea area, int shiftType) {#insertRange-com.aspose.cells.CellArea-int-}
 ```
@@ -2392,7 +2392,7 @@ Inserts a range of cells and shift cells according to the shift option.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | area | [CellArea](../../com.aspose.cells/cellarea) | Shift area. |
-| shiftType | int | Shift cells option. |
+| shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). Shift cells option. |
 
 ### insertRange(CellArea area, int shiftNumber, int shiftType) {#insertRange-com.aspose.cells.CellArea-int-int-}
 ```
@@ -2407,7 +2407,7 @@ Inserts a range of cells and shift cells according to the shift option.
 | --- | --- | --- |
 | area | [CellArea](../../com.aspose.cells/cellarea) | Shift area. |
 | shiftNumber | int | Number of rows or columns to be inserted. |
-| shiftType | int | Shift cells option. |
+| shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). Shift cells option. |
 
 ### insertRange(CellArea area, int shiftNumber, int shiftType, boolean updateReference) {#insertRange-com.aspose.cells.CellArea-int-int-boolean-}
 ```
@@ -2422,7 +2422,7 @@ Inserts a range of cells and shift cells according to the shift option.
 | --- | --- | --- |
 | area | [CellArea](../../com.aspose.cells/cellarea) | Shift area. |
 | shiftNumber | int | Number of rows or columns to be inserted. |
-| shiftType | int | Shift cells option. |
+| shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). Shift cells option. |
 | updateReference | boolean | Indicates if update references in other worksheets. |
 
 ### insertRow(int rowIndex) {#insertRow-int-}
@@ -2824,7 +2824,7 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage option for this cells.
+Sets the memory usage option for this cells. [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2996,7 +2996,7 @@ public void setViewColumnWidthPixel(int column, int pixels)
 ```
 
 
-Sets the width of the column in different view. If the current view type is ViewType.PAGE\_LAYOUT\_VIEW, the column's width is same as printed width.
+Sets the width of the column in different view. If the current view type is [ViewType.PAGE\_LAYOUT\_VIEW](../../com.aspose.cells/viewtype\#PAGE-LAYOUT-VIEW), the column's width is same as printed width.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3031,7 +3031,7 @@ Creates subtotals for the range.
 | --- | --- | --- |
 | ca | [CellArea](../../com.aspose.cells/cellarea) | The range |
 | groupBy | int | The field to group by, as a zero-based integer offset |
-| function | int | The subtotal function. |
+| function | int | [ConsolidationFunction](../../com.aspose.cells/consolidationfunction). The subtotal function. |
 | totalList | int[] | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
 
 ### subtotal(CellArea ca, int groupBy, int function, int[] totalList, boolean replace, boolean pageBreaks, boolean summaryBelowData) {#subtotal-com.aspose.cells.CellArea-int-int-int---boolean-boolean-boolean-}
@@ -3047,7 +3047,7 @@ Creates subtotals for the range.
 | --- | --- | --- |
 | ca | [CellArea](../../com.aspose.cells/cellarea) | The range |
 | groupBy | int | The field to group by, as a zero-based integer offset |
-| function | int | The subtotal function. |
+| function | int | [ConsolidationFunction](../../com.aspose.cells/consolidationfunction). The subtotal function. |
 | totalList | int[] | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
 | replace | boolean | Indicates whether replace the current subtotals |
 | pageBreaks | boolean | Indicates whether add page break between groups |

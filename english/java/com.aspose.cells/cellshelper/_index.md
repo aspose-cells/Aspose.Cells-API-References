@@ -71,8 +71,8 @@ Add addin function. NOTE: This member is now obsolete. Instead, please use Works
 | function | java.lang.String | The function name. |
 | minCountOfParameters | int | Minimum number of parameters this function requires |
 | maxCountOfParameters | int | Maximum number of parameters this function allows. |
-| paramersType | int[] | The excepted parameters type of the function |
-| functionValueType | int | The function value type. |
+| paramersType | int[] | [ParameterType](../../com.aspose.cells/parametertype). The excepted parameters type of the function |
+| functionValueType | int | [ParameterType](../../com.aspose.cells/parametertype). The function value type. |
 
 ### cellIndexToName(int row, int column) {#cellIndexToName-int-int-}
 ```

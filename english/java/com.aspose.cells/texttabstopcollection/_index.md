@@ -57,7 +57,7 @@ Adds a tab stop.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tabAlignment | int |  |
+| tabAlignment | int | [TextTabAlignmentType](../../com.aspose.cells/texttabalignmenttype). |
 | tabPosition | double |  |
 
 **Returns:**

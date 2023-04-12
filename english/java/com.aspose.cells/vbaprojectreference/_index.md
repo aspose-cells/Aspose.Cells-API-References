@@ -143,7 +143,7 @@ public int getType()
 ```
 
 
-Gets the type of this reference.
+Gets the type of this reference. [VbaProjectReferenceType](../../com.aspose.cells/vbaprojectreferencetype).
 
 **Returns:**
 int

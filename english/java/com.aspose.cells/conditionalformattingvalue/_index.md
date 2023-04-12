@@ -63,7 +63,7 @@ public int getType()
 ```
 
 
-Gets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null.
+Gets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null. [FormatConditionValueType](../../com.aspose.cells/formatconditionvaluetype).
 
 **Returns:**
 int
@@ -132,7 +132,7 @@ public void setType(int value)
 ```
 
 
-Sets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null.
+Sets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null. [FormatConditionValueType](../../com.aspose.cells/formatconditionvaluetype).
 
 **Parameters:**
 | Parameter | Type | Description |

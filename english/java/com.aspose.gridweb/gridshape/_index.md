@@ -95,7 +95,7 @@ public int getImageFormat()
 ```
 
 
-Gets the image format of the picture.
+Gets the image format of the picture. [GridImageType](../../com.aspose.gridweb/gridimagetype).
 
 **Returns:**
 int
@@ -115,7 +115,7 @@ public int getMsoDrawingType()
 ```
 
 
-Gets mso drawing type.
+Gets mso drawing type. [GridMsoDrawingType](../../com.aspose.gridweb/gridmsodrawingtype).
 
 **Returns:**
 int

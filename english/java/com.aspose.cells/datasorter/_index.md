@@ -96,7 +96,7 @@ Adds sorted column index and sort order.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int | The sorted column index(absolute position, column A is 0, B is 1, ...) |
-| order | int | The sort order |
+| order | int | [SortOrder](../../com.aspose.cells/sortorder). The sort order |
 
 ### addKey(int key, int type, int order, Object customList) {#addKey-int-int-int-java.lang.Object-}
 ```
@@ -110,8 +110,8 @@ Adds sorted column index and sort order with custom sort list. If type is SortOn
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int | The sorted column index(absolute position, column A is 0, B is 1, ...) |
-| type | int | The sorted value type. |
-| order | int | The sort order. |
+| type | int | [SortOnType](../../com.aspose.cells/sortontype). The sorted value type. |
+| order | int | [SortOrder](../../com.aspose.cells/sortorder). The sort order. |
 | customList | java.lang.Object | The custom sort list. |
 
 ### addKey(int key, int order, String customList) {#addKey-int-int-java.lang.String-}
@@ -126,7 +126,7 @@ Adds sorted column index and sort order with custom sort list.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int | The sorted column index(absolute position, column A is 0, B is 1, ...) |
-| order | int | The sort order. |
+| order | int | [SortOrder](../../com.aspose.cells/sortorder). The sort order. |
 | customList | java.lang.String | The custom sort list. |
 
 ### addKey(int key, int order, String[] customList) {#addKey-int-int-java.lang.String---}
@@ -141,7 +141,7 @@ Adds sorted column index and sort order with custom sort list.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int | The sorted column index(absolute position, column A is 0, B is 1, ...) |
-| order | int | The sort order. |
+| order | int | [SortOrder](../../com.aspose.cells/sortorder). The sort order. |
 | customList | java.lang.String[] | The custom sort list. |
 
 ### clear() {#clear--}
@@ -233,7 +233,7 @@ public int getOrder1()
 ```
 
 
-Represents sort order of the first key.
+Represents sort order of the first key. [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
 int
@@ -243,7 +243,7 @@ public int getOrder2()
 ```
 
 
-Represents sort order of the second key.
+Represents sort order of the second key. [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
 int
@@ -253,7 +253,7 @@ public int getOrder3()
 ```
 
 
-Represents sort order of the third key.
+Represents sort order of the third key. [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
 int
@@ -384,7 +384,7 @@ public void setOrder1(int value)
 ```
 
 
-Represents sort order of the first key.
+Represents sort order of the first key. [SortOrder](../../com.aspose.cells/sortorder).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -397,7 +397,7 @@ public void setOrder2(int value)
 ```
 
 
-Represents sort order of the second key.
+Represents sort order of the second key. [SortOrder](../../com.aspose.cells/sortorder).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -410,7 +410,7 @@ public void setOrder3(int value)
 ```
 
 
-Represents sort order of the third key.
+Represents sort order of the third key. [SortOrder](../../com.aspose.cells/sortorder).
 
 **Parameters:**
 | Parameter | Type | Description |

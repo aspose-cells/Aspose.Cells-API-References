@@ -88,7 +88,7 @@ public int getMapChartProjectionType()
 ```
 
 
-Gets the projection type of the map.
+Gets the projection type of the map. [MapChartProjectionType](../../com.aspose.cells/mapchartprojectiontype).
 
 **Returns:**
 int
@@ -98,7 +98,7 @@ public int getMapChartRegionType()
 ```
 
 
-Gets the region type of the map.
+Gets the region type of the map. [MapChartRegionType](../../com.aspose.cells/mapchartregiontype).
 
 **Returns:**
 int
@@ -108,7 +108,7 @@ public int getMapLabelLayout()
 ```
 
 
-Gets the layout of map labels.
+Gets the layout of map labels. [MapChartLabelLayout](../../com.aspose.cells/mapchartlabellayout).
 
 **Returns:**
 int
@@ -118,7 +118,7 @@ public int getQuartileCalculation()
 ```
 
 
-Represents the statistical properties for the series.
+Represents the statistical properties for the series. [QuartileCalculationType](../../com.aspose.cells/quartilecalculationtype).
 
 **Returns:**
 int
@@ -214,7 +214,7 @@ public void setMapChartProjectionType(int value)
 ```
 
 
-Sets the projection type of the map.
+Sets the projection type of the map. [MapChartProjectionType](../../com.aspose.cells/mapchartprojectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -227,7 +227,7 @@ public void setMapChartRegionType(int value)
 ```
 
 
-Sets the region type of the map.
+Sets the region type of the map. [MapChartRegionType](../../com.aspose.cells/mapchartregiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -240,7 +240,7 @@ public void setMapLabelLayout(int value)
 ```
 
 
-Sets the layout of map labels.
+Sets the layout of map labels. [MapChartLabelLayout](../../com.aspose.cells/mapchartlabellayout).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -253,7 +253,7 @@ public void setQuartileCalculation(int value)
 ```
 
 
-Represents the statistical properties for the series.
+Represents the statistical properties for the series. [QuartileCalculationType](../../com.aspose.cells/quartilecalculationtype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -76,7 +76,7 @@ Creates the options of saving ods file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int |  |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -139,7 +139,7 @@ public int getGeneratorType()
 ```
 
 
-Gets the generator of the ods file.
+Gets the generator of the ods file. [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
 
 **Returns:**
 int
@@ -169,7 +169,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -304,7 +304,7 @@ public void setGeneratorType(int value)
 ```
 
 
-Sets the generator of the ods file.
+Sets the generator of the ods file. [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
 
 **Parameters:**
 | Parameter | Type | Description |

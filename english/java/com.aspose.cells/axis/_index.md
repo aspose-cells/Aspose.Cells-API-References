@@ -69,7 +69,7 @@ Encapsulates the object that represents a chart's axis.
 | [getCategoryType()](#getCategoryType--) | Represents the category axis type. |
 | [getClass()](#getClass--) |  |
 | [getCrossAt()](#getCrossAt--) | Represents the point on the value axis where the category axis crosses it. |
-| [getCrossType()](#getCrossType--) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
+| [getCrossType()](#getCrossType--) | Represents the [CrossType](../../com.aspose.cells/crosstype). |
 | [getCustUnit()](#getCustUnit--) | Specifies a custom value for the display unit. |
 | [getCustomUnit()](#getCustomUnit--) | Specifies a custom value for the display unit. |
 | [getDisplayUnit()](#getDisplayUnit--) | Represents the unit label for the specified axis. |
@@ -118,7 +118,7 @@ Encapsulates the object that represents a chart's axis.
 | [setCategoryType(int value)](#setCategoryType-int-) | Represents the category axis type. |
 | [setCrossAt(double value)](#setCrossAt-double-) | Represents the point on the value axis where the category axis crosses it. |
 | [setCrossAtMax(boolean isCrossAtMax)](#setCrossAtMax-boolean-) | Sets whether the axis crosses at the maximum value. |
-| [setCrossType(int value)](#setCrossType-int-) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
+| [setCrossType(int value)](#setCrossType-int-) | Represents the [CrossType](../../com.aspose.cells/crosstype). |
 | [setCustUnit(int value)](#setCustUnit-int-) | Specifies a custom value for the display unit. |
 | [setCustomUnit(int value)](#setCustomUnit-int-) | Specifies a custom value for the display unit. |
 | [setDisplayUnit(int value)](#setDisplayUnit-int-) | Represents the unit label for the specified axis. |
@@ -204,7 +204,7 @@ public int getBaseUnitScale()
 ```
 
 
-Represents the base unit scale for the category axis. Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Represents the base unit scale for the category axis. [TimeUnit](../../com.aspose.cells/timeunit). Setting this property only takes effect when the CategoryType property is set to TimeScale.
 
 **Returns:**
 int
@@ -224,7 +224,7 @@ public int getCategoryType()
 ```
 
 
-Represents the category axis type.
+Represents the category axis type. [CategoryType](../../com.aspose.cells/categorytype).
 
 **Returns:**
 int
@@ -254,7 +254,7 @@ public int getCrossType()
 ```
 
 
-Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
+Represents the [CrossType](../../com.aspose.cells/crosstype). [CrossType](../../com.aspose.cells/crosstype) on the specified axis where the other axis crosses.
 
 **Returns:**
 int
@@ -284,7 +284,7 @@ public int getDisplayUnit()
 ```
 
 
-Represents the unit label for the specified axis.
+Represents the unit label for the specified axis. [DisplayUnitType](../../com.aspose.cells/displayunittype).
 
 **Returns:**
 int
@@ -329,7 +329,7 @@ public int getMajorTickMark()
 ```
 
 
-Represents the type of major tick mark for the specified axis.
+Represents the type of major tick mark for the specified axis. [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Returns:**
 int
@@ -349,7 +349,7 @@ public int getMajorUnitScale()
 ```
 
 
-Represents the major unit scale for the category axis.
+Represents the major unit scale for the category axis. [TimeUnit](../../com.aspose.cells/timeunit).
 
 ```
 chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
@@ -395,7 +395,7 @@ public int getMinorTickMark()
 ```
 
 
-Represents the type of minor tick mark for the specified axis.
+Represents the type of minor tick mark for the specified axis. [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Returns:**
 int
@@ -415,7 +415,7 @@ public int getMinorUnitScale()
 ```
 
 
-Represents the major unit scale for the category axis.
+Represents the major unit scale for the category axis. [TimeUnit](../../com.aspose.cells/timeunit).
 
 ```
 chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
@@ -431,7 +431,7 @@ public int getTickLabelPosition()
 ```
 
 
-Represents the position of tick-mark labels on the specified axis.
+Represents the position of tick-mark labels on the specified axis. [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
 
 **Returns:**
 int
@@ -736,7 +736,7 @@ public void setBaseUnitScale(int value)
 ```
 
 
-Represents the base unit scale for the category axis. Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Represents the base unit scale for the category axis. [TimeUnit](../../com.aspose.cells/timeunit). Setting this property only takes effect when the CategoryType property is set to TimeScale.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -749,7 +749,7 @@ public void setCategoryType(int value)
 ```
 
 
-Represents the category axis type.
+Represents the category axis type. [CategoryType](../../com.aspose.cells/categorytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -788,7 +788,7 @@ public void setCrossType(int value)
 ```
 
 
-Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
+Represents the [CrossType](../../com.aspose.cells/crosstype). [CrossType](../../com.aspose.cells/crosstype) on the specified axis where the other axis crosses.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +827,7 @@ public void setDisplayUnit(int value)
 ```
 
 
-Represents the unit label for the specified axis.
+Represents the unit label for the specified axis. [DisplayUnitType](../../com.aspose.cells/displayunittype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -892,7 +892,7 @@ public void setMajorTickMark(int value)
 ```
 
 
-Represents the type of major tick mark for the specified axis.
+Represents the type of major tick mark for the specified axis. [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -918,7 +918,7 @@ public void setMajorUnitScale(int value)
 ```
 
 
-Represents the major unit scale for the category axis.
+Represents the major unit scale for the category axis. [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -957,7 +957,7 @@ public void setMinorTickMark(int value)
 ```
 
 
-Represents the type of minor tick mark for the specified axis.
+Represents the type of minor tick mark for the specified axis. [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -983,7 +983,7 @@ public void setMinorUnitScale(int value)
 ```
 
 
-Represents the major unit scale for the category axis.
+Represents the major unit scale for the category axis. [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1009,7 +1009,7 @@ public void setTickLabelPosition(int value)
 ```
 
 
-Represents the position of tick-mark labels on the specified axis.
+Represents the position of tick-mark labels on the specified axis. [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
 
 **Parameters:**
 | Parameter | Type | Description |

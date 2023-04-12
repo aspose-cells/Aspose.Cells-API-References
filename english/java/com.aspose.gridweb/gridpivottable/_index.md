@@ -44,7 +44,7 @@ Adds the field to the specific area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | The fields area type. |
+| fieldType | int | [GridPivotFieldType](../../com.aspose.gridweb/gridpivotfieldtype). The fields area type. |
 | baseFieldIndex | int | The field index in the base fields. |
 
 **Returns:**
@@ -60,7 +60,7 @@ Adds the field to the specific area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | The fields area type. |
+| fieldType | int | [GridPivotFieldType](../../com.aspose.gridweb/gridpivotfieldtype). The fields area type. |
 | fieldName | java.lang.String | The name in the base fields. |
 
 **Returns:**
@@ -107,7 +107,7 @@ Gets the specific fields by the field type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | the field type. |
+| fieldType | int | [GridPivotFieldType](../../com.aspose.gridweb/gridpivotfieldtype). the field type. |
 
 **Returns:**
 [GridPivotFieldCollection](../../com.aspose.gridweb/gridpivotfieldcollection) - the specific fields

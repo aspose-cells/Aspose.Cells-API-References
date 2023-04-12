@@ -53,7 +53,7 @@ public int getAcitvePaneType()
 ```
 
 
-Gets the active pane.
+Gets the active pane. [RectangleAlignmentType](../../com.aspose.cells/rectanglealignmenttype).
 
 **Returns:**
 int
@@ -119,7 +119,7 @@ public void setAcitvePaneType(int value)
 ```
 
 
-Sets the active pane.
+Sets the active pane. [RectangleAlignmentType](../../com.aspose.cells/rectanglealignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

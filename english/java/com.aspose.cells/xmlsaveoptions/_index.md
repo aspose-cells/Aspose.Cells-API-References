@@ -27,11 +27,13 @@ Represents the options of saving the workbook as an xml file.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [getDataAsAttribute()](#getDataAsAttribute--) | Indicates whether exporting data as attributes of element. |
 | [getExportArea()](#getExportArea--) | Gets the exporting range. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetIndexes()](#getSheetIndexes--) | Represents the indexes of exported sheets. |
+| [getSheetNameAsElementName()](#getSheetNameAsElementName--) | Indicates whether exporting sheet's name as the name of the element. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
@@ -45,11 +47,13 @@ Represents the options of saving the workbook as an xml file.
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setDataAsAttribute(boolean value)](#setDataAsAttribute-boolean-) | Indicates whether exporting data as attributes of element. |
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting range. |
 | [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Indicates whether the range contains header row. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
 | [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Represents the indexes of exported sheets. |
+| [setSheetNameAsElementName(boolean value)](#setSheetNameAsElementName-boolean-) | Indicates whether exporting sheet's name as the name of the element. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
@@ -123,6 +127,16 @@ If true and the directory does not exist, the directory will be automatically cr
 
 **Returns:**
 boolean
+### getDataAsAttribute() {#getDataAsAttribute--}
+```
+public boolean getDataAsAttribute()
+```
+
+
+Indicates whether exporting data as attributes of element.
+
+**Returns:**
+boolean
 ### getExportArea() {#getExportArea--}
 ```
 public CellArea getExportArea()
@@ -159,7 +173,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -173,6 +187,16 @@ Represents the indexes of exported sheets.
 
 **Returns:**
 int[]
+### getSheetNameAsElementName() {#getSheetNameAsElementName--}
+```
+public boolean getSheetNameAsElementName()
+```
+
+
+Indicates whether exporting sheet's name as the name of the element.
+
+**Returns:**
+boolean
 ### getSortExternalNames() {#getSortExternalNames--}
 ```
 public boolean getSortExternalNames()
@@ -308,6 +332,19 @@ If true and the directory does not exist, the directory will be automatically cr
 | --- | --- | --- |
 | value | boolean |  |
 
+### setDataAsAttribute(boolean value) {#setDataAsAttribute-boolean-}
+```
+public void setDataAsAttribute(boolean value)
+```
+
+
+Indicates whether exporting data as attributes of element.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setExportArea(CellArea value) {#setExportArea-com.aspose.cells.CellArea-}
 ```
 public void setExportArea(CellArea value)
@@ -372,6 +409,19 @@ Represents the indexes of exported sheets.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int[] |  |
+
+### setSheetNameAsElementName(boolean value) {#setSheetNameAsElementName-boolean-}
+```
+public void setSheetNameAsElementName(boolean value)
+```
+
+
+Indicates whether exporting sheet's name as the name of the element.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setSortExternalNames(boolean value) {#setSortExternalNames-boolean-}
 ```

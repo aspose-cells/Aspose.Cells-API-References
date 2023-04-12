@@ -121,7 +121,7 @@ public static int extensionToSaveFormat(String extension)
 ```
 
 
-Converts a file name extension into a SaveFormat value. If the extension cannot be recognized, returns SaveFormat.UNKNOWN.
+Converts a file name extension into a SaveFormat value. If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.cells/saveformat\#UNKNOWN).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -129,7 +129,7 @@ Converts a file name extension into a SaveFormat value. If the extension cannot 
 | extension | java.lang.String | The file extension. Can be with or without a leading dot. Case-insensitive. |
 
 **Returns:**
-int - 
+int - [SaveFormat](../../com.aspose.cells/saveformat).
 ### fileFormatToSaveFormat(int format) {#fileFormatToSaveFormat-int-}
 ```
 public static int fileFormatToSaveFormat(int format)
@@ -141,10 +141,10 @@ Converting file format to save format.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | The file format type. |
+| format | int | [FileFormatType](../../com.aspose.cells/fileformattype). The file format type. |
 
 **Returns:**
-int - 
+int - [SaveFormat](../../com.aspose.cells/saveformat).
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -191,7 +191,7 @@ Converts a load format enumerated value into a file extension. If it can not be 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | int | The loaded file format. |
+| loadFormat | int | [LoadFormat](../../com.aspose.cells/loadformat). The loaded file format. |
 
 **Returns:**
 java.lang.String - The returned extension is a lower-case string with a leading dot.
@@ -206,10 +206,10 @@ Converts a LoadFormat value to a SaveFormat value if possible.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | int | The load format. |
+| loadFormat | int | [LoadFormat](../../com.aspose.cells/loadformat). The load format. |
 
 **Returns:**
-int - The save format.
+int - [SaveFormat](../../com.aspose.cells/saveformat). The save format.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -237,7 +237,7 @@ Converts a save format enumerated value into a file extension.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | The save format. |
+| format | int | [SaveFormat](../../com.aspose.cells/saveformat). The save format. |
 
 **Returns:**
 java.lang.String - The returned extension is a lower-case string with a leading dot.
@@ -252,10 +252,10 @@ Converts a SaveFormat value to a LoadFormat value if possible.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | The save format. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The save format. |
 
 **Returns:**
-int - The load format
+int - [LoadFormat](../../com.aspose.cells/loadformat). The load format
 ### toString() {#toString--}
 ```
 public String toString()

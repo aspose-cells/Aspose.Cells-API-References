@@ -101,7 +101,7 @@ public int getGraphicPositionType()
 ```
 
 
-Gets the background graphic position.
+Gets the background graphic position. [OdsPageBackgroundGraphicPositionType](../../com.aspose.cells/odspagebackgroundgraphicpositiontype).
 
 **Returns:**
 int
@@ -111,7 +111,7 @@ public int getGraphicType()
 ```
 
 
-Gets the page background graphic type.
+Gets the page background graphic type. [OdsPageBackgroundGraphicType](../../com.aspose.cells/odspagebackgroundgraphictype).
 
 **Returns:**
 int
@@ -131,7 +131,7 @@ public int getType()
 ```
 
 
-Gets the page background type.
+Gets the page background type. [OdsPageBackgroundType](../../com.aspose.cells/odspagebackgroundtype).
 
 **Returns:**
 int
@@ -203,7 +203,7 @@ public void setGraphicPositionType(int value)
 ```
 
 
-Sets the background graphic position.
+Sets the background graphic position. [OdsPageBackgroundGraphicPositionType](../../com.aspose.cells/odspagebackgroundgraphicpositiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setGraphicType(int value)
 ```
 
 
-Sets the page background graphic type.
+Sets the page background graphic type. [OdsPageBackgroundGraphicType](../../com.aspose.cells/odspagebackgroundgraphictype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setType(int value)
 ```
 
 
-Sets the page background type.
+Sets the page background type. [OdsPageBackgroundType](../../com.aspose.cells/odspagebackgroundtype).
 
 **Parameters:**
 | Parameter | Type | Description |

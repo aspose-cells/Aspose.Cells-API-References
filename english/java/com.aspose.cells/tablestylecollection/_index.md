@@ -162,7 +162,7 @@ Gets the builtin table style
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The builtin table style type. |
+| type | int | [TableStyleType](../../com.aspose.cells/tablestyletype). The builtin table style type. |
 
 **Returns:**
 [TableStyle](../../com.aspose.cells/tablestyle) - 

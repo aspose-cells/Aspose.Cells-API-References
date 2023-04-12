@@ -35,7 +35,7 @@ Represents the save options for csv/tab delimited/other text format.
 | [getExportQuotePrefix()](#getExportQuotePrefix--) | Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. |
 | [getFormatStrategy()](#getFormatStrategy--) | Gets the format strategy when exporting the cell value as string. |
 | [getKeepSeparatorsForBlankRow()](#getKeepSeparatorsForBlankRow--) | Indicates whether separators should be output for blank row. |
-| [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The Data provider to provide cells data for saving workbook in light mode. |
+| [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The data provider for saving workbook in light mode. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getQuoteType()](#getQuoteType--) | Gets how to quote values in the exported text file. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -62,7 +62,7 @@ Represents the save options for csv/tab delimited/other text format.
 | [setExportQuotePrefix(boolean value)](#setExportQuotePrefix-boolean-) | Indicates whether the single quote sign should be exported as part of the value of one cell when [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) is true for it. |
 | [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the format strategy when exporting the cell value as string. |
 | [setKeepSeparatorsForBlankRow(boolean value)](#setKeepSeparatorsForBlankRow-boolean-) | Indicates whether separators should be output for blank row. |
-| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The Data provider to provide cells data for saving workbook in light mode. |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The data provider for saving workbook in light mode. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setQuoteType(int value)](#setQuoteType-int-) | Sets how to quote values in the exported text file. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
@@ -98,7 +98,7 @@ Creates text file save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | The save format of the text file. |
+| format | int | [SaveFormat](../../com.aspose.cells/saveformat). The save format of the text file. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -211,7 +211,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets the format strategy when exporting the cell value as string.
+Gets the format strategy when exporting the cell value as string. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Returns:**
 int
@@ -231,7 +231,7 @@ public LightCellsDataProvider getLightCellsDataProvider()
 ```
 
 
-The Data provider to provide cells data for saving workbook in light mode.
+The data provider for saving workbook in light mode.
 
 **Returns:**
 [LightCellsDataProvider](../../com.aspose.cells/lightcellsdataprovider)
@@ -251,7 +251,7 @@ public int getQuoteType()
 ```
 
 
-Gets how to quote values in the exported text file.
+Gets how to quote values in the exported text file. [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
 
 **Returns:**
 int
@@ -271,7 +271,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -501,7 +501,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-Sets the format strategy when exporting the cell value as string.
+Sets the format strategy when exporting the cell value as string. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -527,7 +527,7 @@ public void setLightCellsDataProvider(LightCellsDataProvider value)
 ```
 
 
-The Data provider to provide cells data for saving workbook in light mode.
+The data provider for saving workbook in light mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,7 +553,7 @@ public void setQuoteType(int value)
 ```
 
 
-Sets how to quote values in the exported text file.
+Sets how to quote values in the exported text file. [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
 
 **Parameters:**
 | Parameter | Type | Description |

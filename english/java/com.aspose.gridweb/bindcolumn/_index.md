@@ -38,6 +38,7 @@ BindColumn.
 | [getStyle()](#getStyle--) | Gets the style of the column. |
 | [getUseAlternativeStyle()](#getUseAlternativeStyle--) | Gets whether to use the alternative style for the column. |
 | [getValidation()](#getValidation--) | Gets the validation object of the column. |
+| [getWidth()](#getWidth--) | Gets of sets the width of the column.only pixel or point accept |
 | [hashCode()](#hashCode--) |  |
 | [isAutoCreated()](#isAutoCreated--) | Indicates whether the column is created automatically. |
 | [isReadOnly()](#isReadOnly--) | Indicates whether the column is readonly. |
@@ -58,6 +59,7 @@ BindColumn.
 | [setStyle(GridTableItemStyle value)](#setStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the style of the column. |
 | [setUseAlternativeStyle(boolean value)](#setUseAlternativeStyle-boolean-) | Sets whether to use the alternative style for the column. |
 | [setValidation(GridValidation value)](#setValidation-com.aspose.gridweb.GridValidation-) | Sets the validation object of the column. |
+| [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Gets of sets the width of the column.only pixel or point accept |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -201,7 +203,7 @@ public int getNumberType()
 ```
 
 
-Gets the number type of the column.
+Gets the number type of the column. [NumberType](../../com.aspose.gridweb/numbertype).
 
 **Returns:**
 int
@@ -235,6 +237,16 @@ Gets the validation object of the column.
 
 **Returns:**
 [GridValidation](../../com.aspose.gridweb/gridvalidation)
+### getWidth() {#getWidth--}
+```
+public Unit getWidth()
+```
+
+
+Gets of sets the width of the column.only pixel or point accept
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -417,7 +429,7 @@ public void setNumberType(int value)
 ```
 
 
-Sets the number type of the column.
+Sets the number type of the column. [NumberType](../../com.aspose.gridweb/numbertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -475,6 +487,19 @@ Sets the validation object of the column.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [GridValidation](../../com.aspose.gridweb/gridvalidation) |  |
+
+### setWidth(Unit value) {#setWidth-com.aspose.gridweb.Unit-}
+```
+public void setWidth(Unit value)
+```
+
+
+Gets of sets the width of the column.only pixel or point accept
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
 
 ### toString() {#toString--}
 ```

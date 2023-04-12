@@ -64,11 +64,11 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getPrintingPage()](#getPrintingPage--) | Indicates which pages will not be printed. |
 | [getQuality()](#getQuality--) | Gets a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. |
 | [getSVGFitToViewPort()](#getSVGFitToViewPort--) | if this property is true, the generated svg will fit to view port. |
-| [getSaveFormat()](#getSaveFormat--) | Gets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. |
+| [getSaveFormat()](#getSaveFormat--) | Gets the output file format type Support Tiff/XPS [SaveFormat](../../com.aspose.cells/saveformat). |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getTextCrossType()](#getTextCrossType--) | Gets displaying text type when the text width is larger than cell width. |
-| [getTiffColorDepth()](#getTiffColorDepth--) | Gets bit depth to apply only when saving pages to the Tiff format. |
-| [getTiffCompression()](#getTiffCompression--) | Gets the type of compression to apply only when saving pages to the Tiff format. |
+| [getTiffColorDepth()](#getTiffColorDepth--) | Gets bit depth to apply only when saving pages to the [ColorDepth](../../com.aspose.cells/colordepth). |
+| [getTiffCompression()](#getTiffCompression--) | Gets the type of compression to apply only when saving pages to the [TiffCompression](../../com.aspose.cells/tiffcompression). |
 | [getTiffPhotometricInterpretation()](#getTiffPhotometricInterpretation--) | Gets the type of PhotometricInterpretation to apply only when saving pages to the Tiff format. |
 | [getTransparent()](#getTransparent--) | Indicates if the background of generated image should be transparent. |
 | [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution for generated images, in dots per inch. |
@@ -104,11 +104,11 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setQuality(int value)](#setQuality-int-) | Sets a value determining the quality of the generated images to apply only when saving pages to the Jpeg format. |
 | [setRenderingHint(RenderingHints.Key key, Object value)](#setRenderingHint-java.awt.RenderingHints.Key-java.lang.Object-) | Sets the value of a single preference for the rendering algorithms. |
 | [setSVGFitToViewPort(boolean value)](#setSVGFitToViewPort-boolean-) | if this property is true, the generated svg will fit to view port. |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | Sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | Sets the output file format type Support Tiff/XPS [SaveFormat](../../com.aspose.cells/saveformat). |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setTextCrossType(int value)](#setTextCrossType-int-) | Sets displaying text type when the text width is larger than cell width. |
-| [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | Sets bit depth to apply only when saving pages to the Tiff format. |
-| [setTiffCompression(int value)](#setTiffCompression-int-) | Sets the type of compression to apply only when saving pages to the Tiff format. |
+| [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | Sets bit depth to apply only when saving pages to the [ColorDepth](../../com.aspose.cells/colordepth). |
+| [setTiffCompression(int value)](#setTiffCompression-int-) | Sets the type of compression to apply only when saving pages to the [TiffCompression](../../com.aspose.cells/tiffcompression). |
 | [setTiffPhotometricInterpretation(int value)](#setTiffPhotometricInterpretation-int-) | Sets the type of PhotometricInterpretation to apply only when saving pages to the Tiff format. |
 | [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates if the background of generated image should be transparent. |
 | [setVerticalResolution(int value)](#setVerticalResolution-int-) | Sets the vertical resolution for generated images, in dots per inch. |
@@ -184,7 +184,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+Gets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Returns:**
 int
@@ -224,7 +224,7 @@ public int getGridlineType()
 ```
 
 
-Gets gridline type. Default is Dotted type.
+Gets gridline type. [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
 
 **Returns:**
 int
@@ -244,7 +244,7 @@ public int getImageType()
 ```
 
 
-Gets the format of the generated images. default value: PNG.
+Gets the format of the generated images. default value: PNG. [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
 
 **Returns:**
 int
@@ -324,7 +324,7 @@ public int getPrintingPage()
 ```
 
 
-Indicates which pages will not be printed.
+Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Returns:**
 int
@@ -354,7 +354,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+Gets the output file format type Support Tiff/XPS [SaveFormat](../../com.aspose.cells/saveformat). NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -364,7 +364,7 @@ public SheetSet getSheetSet()
 ```
 
 
-Gets the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}. The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
+Gets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--). The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
 
 **Returns:**
 [SheetSet](../../com.aspose.cells/sheetset)
@@ -374,7 +374,7 @@ public int getTextCrossType()
 ```
 
 
-Gets displaying text type when the text width is larger than cell width.
+Gets displaying text type when the text width is larger than cell width. [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Returns:**
 int
@@ -384,7 +384,7 @@ public int getTiffColorDepth()
 ```
 
 
-Gets bit depth to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4, this will not take effect, the bit depth of the generated tiff image will be always 1.
+Gets bit depth to apply only when saving pages to the [ColorDepth](../../com.aspose.cells/colordepth). Tiff format. Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4, this will not take effect, the bit depth of the generated tiff image will be always 1.
 
 **Returns:**
 int
@@ -394,7 +394,7 @@ public int getTiffCompression()
 ```
 
 
-Gets the type of compression to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
+Gets the type of compression to apply only when saving pages to the [TiffCompression](../../com.aspose.cells/tiffcompression). Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
 
 **Returns:**
 int
@@ -552,7 +552,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+Sets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +631,7 @@ public void setGridlineType(int value)
 ```
 
 
-Sets gridline type. Default is Dotted type.
+Sets gridline type. [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +657,7 @@ public void setImageType(int value)
 ```
 
 
-Sets the format of the generated images. default value: PNG.
+Sets the format of the generated images. default value: PNG. [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -774,7 +774,7 @@ public void setPrintingPage(int value)
 ```
 
 
-Indicates which pages will not be printed.
+Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +827,7 @@ public void setSaveFormat(int value)
 ```
 
 
-Sets the output file format type Support Tiff/XPS NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+Sets the output file format type Support Tiff/XPS [SaveFormat](../../com.aspose.cells/saveformat). NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -840,7 +840,7 @@ public void setSheetSet(SheetSet value)
 ```
 
 
-Sets the sheets to render. Default is all visible sheets in the workbook: \{@link com.aspose.cells.SheetSet.getVisible()\}. The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
+Sets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--). The set is ignored when it is used in [SheetRender](../../com.aspose.cells/sheetrender)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -853,7 +853,7 @@ public void setTextCrossType(int value)
 ```
 
 
-Sets displaying text type when the text width is larger than cell width.
+Sets displaying text type when the text width is larger than cell width. [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -866,7 +866,7 @@ public void setTiffColorDepth(int value)
 ```
 
 
-Sets bit depth to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4, this will not take effect, the bit depth of the generated tiff image will be always 1.
+Sets bit depth to apply only when saving pages to the [ColorDepth](../../com.aspose.cells/colordepth). Tiff format. Has effect only when saving to TIFF. If TiffCompression is set to CCITT3, CCITT4, this will not take effect, the bit depth of the generated tiff image will be always 1.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -879,7 +879,7 @@ public void setTiffCompression(int value)
 ```
 
 
-Sets the type of compression to apply only when saving pages to the Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
+Sets the type of compression to apply only when saving pages to the [TiffCompression](../../com.aspose.cells/tiffcompression). Tiff format. Has effect only when saving to TIFF. The default value is Lzw.
 
 **Parameters:**
 | Parameter | Type | Description |

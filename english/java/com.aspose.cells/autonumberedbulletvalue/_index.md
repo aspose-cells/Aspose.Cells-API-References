@@ -63,7 +63,7 @@ public int getAutonumberScheme()
 ```
 
 
-Represents the scheme of automatic number.
+Represents the scheme of automatic number. [TextAutonumberScheme](../../com.aspose.cells/textautonumberscheme).
 
 **Returns:**
 int
@@ -93,7 +93,7 @@ public int getType()
 ```
 
 
-Gets the type of the bullet.
+Gets the type of the bullet. [BulletType](../../com.aspose.cells/bullettype).
 
 **Returns:**
 int
@@ -129,7 +129,7 @@ public void setAutonumberScheme(int value)
 ```
 
 
-Represents the scheme of automatic number.
+Represents the scheme of automatic number. [TextAutonumberScheme](../../com.aspose.cells/textautonumberscheme).
 
 **Parameters:**
 | Parameter | Type | Description |

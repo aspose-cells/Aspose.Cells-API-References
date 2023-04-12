@@ -160,7 +160,7 @@ public int getAlertStyle()
 ```
 
 
-Represents the validation alert style.
+Represents the validation alert style. [ValidationAlertType](../../com.aspose.cells/validationalerttype).
 
 **Returns:**
 int
@@ -354,7 +354,7 @@ public int getOperator()
 ```
 
 
-Represents the operator for the data validation.
+Represents the operator for the data validation. [OperatorType](../../com.aspose.cells/operatortype).
 
 **Returns:**
 int
@@ -384,7 +384,7 @@ public int getType()
 ```
 
 
-Represents the data validation type.
+Represents the data validation type. [ValidationType](../../com.aspose.cells/validationtype).
 
 **Returns:**
 int
@@ -480,7 +480,7 @@ public void setAlertStyle(int value)
 ```
 
 
-Represents the validation alert style.
+Represents the validation alert style. [ValidationAlertType](../../com.aspose.cells/validationalerttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +627,7 @@ public void setOperator(int value)
 ```
 
 
-Represents the operator for the data validation.
+Represents the operator for the data validation. [OperatorType](../../com.aspose.cells/operatortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -666,7 +666,7 @@ public void setType(int value)
 ```
 
 
-Represents the data validation type.
+Represents the data validation type. [ValidationType](../../com.aspose.cells/validationtype).
 
 **Parameters:**
 | Parameter | Type | Description |

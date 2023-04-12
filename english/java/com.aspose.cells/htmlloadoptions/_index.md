@@ -39,6 +39,7 @@ Represents options when importing a html file.
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [getIgnoreUselessShapes()](#getIgnoreUselessShapes--) | Indicates whether ignoring useless shapes. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
 | [getKeepPrecision()](#getKeepPrecision--) | Indicates whether not parsing a string value if the length is 15. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
@@ -78,6 +79,7 @@ Represents options when importing a html file.
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
 | [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [setIgnoreUselessShapes(boolean value)](#setIgnoreUselessShapes-boolean-) | Indicates whether ignoring useless shapes. |
 | [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
 | [setKeepPrecision(boolean value)](#setKeepPrecision-boolean-) | Indicates whether not parsing a string value if the length is 15. |
 | [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
@@ -121,7 +123,7 @@ Creates an options of loading the file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | int | The loading format. |
+| loadFormat | int | [LoadFormat](../../com.aspose.cells/loadformat). The loading format. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -288,6 +290,16 @@ Ignore the data which are not printed if directly printing the file Only for xls
 
 **Returns:**
 boolean
+### getIgnoreUselessShapes() {#getIgnoreUselessShapes--}
+```
+public boolean getIgnoreUselessShapes()
+```
+
+
+Indicates whether ignoring useless shapes. Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical shapes which are useless in some files, we can ingore them when loading files.
+
+**Returns:**
+boolean
 ### getInterruptMonitor() {#getInterruptMonitor--}
 ```
 public AbstractInterruptMonitor getInterruptMonitor()
@@ -324,7 +336,7 @@ public int getLanguageCode()
 ```
 
 
-Gets the user interface language of the Workbook version based on CountryCode that has saved the file.
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
 int
@@ -354,7 +366,7 @@ public int getLoadFormat()
 ```
 
 
-Gets the load format.
+Gets the load format. [LoadFormat](../../com.aspose.cells/loadformat).
 
 **Returns:**
 int
@@ -374,7 +386,7 @@ public int getLoadStyleStrategy()
 ```
 
 
-Indicates the strategy to apply style for parsed values when converting string value to number or datetime.
+Indicates the strategy to apply style for parsed values when converting string value to number or datetime. [TxtLoadStyleStrategy](../../com.aspose.cells/txtloadstylestrategy).
 
 **Returns:**
 int
@@ -394,7 +406,7 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage options.
+Gets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -444,7 +456,7 @@ public int getRegion()
 ```
 
 
-Gets the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
+Gets the system regional settings based on CountryCode at the time the file was loaded. [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Returns:**
 int
@@ -716,6 +728,19 @@ Ignore the data which are not printed if directly printing the file Only for xls
 | --- | --- | --- |
 | value | boolean |  |
 
+### setIgnoreUselessShapes(boolean value) {#setIgnoreUselessShapes-boolean-}
+```
+public void setIgnoreUselessShapes(boolean value)
+```
+
+
+Indicates whether ignoring useless shapes. Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical shapes which are useless in some files, we can ingore them when loading files.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setInterruptMonitor(AbstractInterruptMonitor value) {#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-}
 ```
 public void setInterruptMonitor(AbstractInterruptMonitor value)
@@ -761,7 +786,7 @@ public void setLanguageCode(int value)
 ```
 
 
-Sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -813,7 +838,7 @@ public void setLoadStyleStrategy(int value)
 ```
 
 
-Indicates the strategy to apply style for parsed values when converting string value to number or datetime.
+Indicates the strategy to apply style for parsed values when converting string value to number or datetime. [TxtLoadStyleStrategy](../../com.aspose.cells/txtloadstylestrategy).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -839,7 +864,7 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage options.
+Sets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -857,7 +882,7 @@ Sets the default print paper size from default printer's setting. If there is no
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The default paper size. |
+| type | int | [PaperSizeType](../../com.aspose.cells/papersizetype). The default paper size. |
 
 ### setParsingFormulaOnOpen(boolean value) {#setParsingFormulaOnOpen-boolean-}
 ```
@@ -904,7 +929,7 @@ public void setRegion(int value)
 ```
 
 
-Sets the system regional settings based on CountryCode at the time the file was loaded. If you do not want to use the region saved in the file, please reset it after reading the file.
+Sets the system regional settings based on CountryCode at the time the file was loaded. [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Parameters:**
 | Parameter | Type | Description |

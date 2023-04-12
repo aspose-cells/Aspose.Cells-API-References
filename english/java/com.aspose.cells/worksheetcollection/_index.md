@@ -128,7 +128,7 @@ Workbook workbook = new Workbook();
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Worksheet type. |
+| type | int | [SheetType](../../com.aspose.cells/sheettype). Worksheet type. |
 
 **Returns:**
 int - [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object index.
@@ -637,7 +637,7 @@ Insert a worksheet.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The sheet index |
-| sheetType | int | The sheet type. |
+| sheetType | int | [SheetType](../../com.aspose.cells/sheettype). The sheet type. |
 
 **Returns:**
 [Worksheet](../../com.aspose.cells/worksheet) - Returns an inserted worksheet.
@@ -653,7 +653,7 @@ Insert a worksheet.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The sheet index |
-| sheetType | int | The sheet type. |
+| sheetType | int | [SheetType](../../com.aspose.cells/sheettype). The sheet type. |
 | sheetName | java.lang.String | The sheet name. |
 
 **Returns:**

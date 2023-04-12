@@ -104,7 +104,7 @@ Creates options for saving htm file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | The saving file format. |
+| format | int | [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat). The saving file format. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -339,7 +339,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat).
 
 **Returns:**
 int

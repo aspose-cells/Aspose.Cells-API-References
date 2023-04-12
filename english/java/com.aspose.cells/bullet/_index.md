@@ -82,7 +82,7 @@ public int getType()
 ```
 
 
-Gets the bullet type.
+Gets the bullet type. [BulletType](../../com.aspose.cells/bullettype).
 
 **Returns:**
 int
@@ -131,7 +131,7 @@ public void setType(int value)
 ```
 
 
-Sets the bullet type.
+Sets the bullet type. [BulletType](../../com.aspose.cells/bullettype).
 
 **Parameters:**
 | Parameter | Type | Description |

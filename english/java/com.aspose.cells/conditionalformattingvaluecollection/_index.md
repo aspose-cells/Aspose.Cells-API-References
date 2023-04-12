@@ -46,7 +46,7 @@ Adds [ConditionalFormattingValue](../../com.aspose.cells/conditionalformattingva
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The value type. |
+| type | int | [FormatConditionValueType](../../com.aspose.cells/formatconditionvaluetype). The value type. |
 | value | java.lang.String | The value. |
 
 **Returns:**

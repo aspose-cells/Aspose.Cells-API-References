@@ -107,7 +107,7 @@ Gets the [Border](../../com.aspose.cells/border) element at the specified index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderType | int | The border to be retrieved. |
+| borderType | int | [BorderType](../../com.aspose.cells/bordertype). The border to be retrieved. |
 
 **Returns:**
 [Border](../../com.aspose.cells/border) - The element at the specified index.
@@ -137,7 +137,7 @@ public int getDiagonalStyle()
 ```
 
 
-Gets the style of Diagonal lines.
+Gets the style of Diagonal lines. [CellBorderType](../../com.aspose.cells/cellbordertype).
 
 **Returns:**
 int
@@ -199,7 +199,7 @@ public void setDiagonalStyle(int value)
 ```
 
 
-Sets the style of Diagonal lines.
+Sets the style of Diagonal lines. [CellBorderType](../../com.aspose.cells/cellbordertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +217,7 @@ Sets the style of all borders of the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | int | Borders' style |
+| style | int | [CellBorderType](../../com.aspose.cells/cellbordertype). Borders' style |
 
 ### toString() {#toString--}
 ```

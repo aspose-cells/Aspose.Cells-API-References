@@ -48,7 +48,7 @@ Adds a PivotFilter Object to the specific type
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | the PivotField index |
-| type | int | the PivotFilter type |
+| type | int | [PivotFilterType](../../com.aspose.cells/pivotfiltertype). the PivotFilter type |
 
 **Returns:**
 int - the index of the PivotFilter Object in this PivotFilterCollection.

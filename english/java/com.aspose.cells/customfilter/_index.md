@@ -72,7 +72,7 @@ public int getFilterOperatorType()
 ```
 
 
-Gets the filter operator type.
+Gets the filter operator type. [FilterOperatorType](../../com.aspose.cells/filteroperatortype).
 
 **Returns:**
 int
@@ -113,7 +113,7 @@ Sets the filter criteria.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filterOperator | int | filter operator type |
+| filterOperator | int | [FilterOperatorType](../../com.aspose.cells/filteroperatortype). filter operator type |
 | criteria | java.lang.Object | filter criteria value |
 
 ### setCriteria(Object value) {#setCriteria-java.lang.Object-}
@@ -135,7 +135,7 @@ public void setFilterOperatorType(int value)
 ```
 
 
-Sets the filter operator type.
+Sets the filter operator type. [FilterOperatorType](../../com.aspose.cells/filteroperatortype).
 
 **Parameters:**
 | Parameter | Type | Description |

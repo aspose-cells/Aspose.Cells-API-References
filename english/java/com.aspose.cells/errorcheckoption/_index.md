@@ -132,7 +132,7 @@ Checks whether given error type will be checked.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| errorCheckType | int | error type can be checked |
+| errorCheckType | int | [ErrorCheckType](../../com.aspose.cells/errorchecktype). error type can be checked |
 
 **Returns:**
 boolean - return true if given error type will be checked(green triangle will be shown for cell if the check failed).
@@ -176,7 +176,7 @@ Sets whether given error type will be checked.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| errorCheckType | int | error type can be checked. |
+| errorCheckType | int | [ErrorCheckType](../../com.aspose.cells/errorchecktype). error type can be checked. |
 | isCheck | boolean | true if given error type needs to be checked(green triangle will be shown for cell if the check failed). |
 
 ### toString() {#toString--}

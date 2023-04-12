@@ -23,11 +23,11 @@ Represents all elements of the table style.
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets an element of the table style by the index. |
-| [getByTableStyleElementType(int type)](#getByTableStyleElementType-int-) | Gets the element of the table style by the [TableStyleElementType](../../com.aspose.cells/tablestyleelementtype) |
+| [getByTableStyleElementType(int type)](#getByTableStyleElementType-int-) | Gets the element of the table style by the element type. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [getTableStyleElementWithIndex(int index)](#getTableStyleElementWithIndex-int-) | Gets an element of the table style by the index. |
-| [getTableStyleElementWithType(int type)](#getTableStyleElementWithType-int-) | Gets the element of the table style by the [TableStyleElementType](../../com.aspose.cells/tablestyleelementtype) NOTE: This member is now obsolete. |
+| [getTableStyleElementWithType(int type)](#getTableStyleElementWithType-int-) | Gets the element of the table style by the element type. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
@@ -49,7 +49,7 @@ Adds an element.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The type of the element |
+| type | int | [TableStyleElementType](../../com.aspose.cells/tablestyleelementtype). The type of the element |
 
 **Returns:**
 int - Returns the index of the element in the list.
@@ -127,12 +127,12 @@ public TableStyleElement getByTableStyleElementType(int type)
 ```
 
 
-Gets the element of the table style by the [TableStyleElementType](../../com.aspose.cells/tablestyleelementtype)
+Gets the element of the table style by the element type.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The element type. |
+| type | int | [TableStyleElementType](../../com.aspose.cells/tablestyleelementtype). The element type. |
 
 **Returns:**
 [TableStyleElement](../../com.aspose.cells/tablestyleelement) - Returns [TableStyleElement](../../com.aspose.cells/tablestyleelement) object
@@ -177,7 +177,7 @@ public TableStyleElement getTableStyleElementWithType(int type)
 ```
 
 
-Gets the element of the table style by the [TableStyleElementType](../../com.aspose.cells/tablestyleelementtype) NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Tables.TableStyleElementCollection.this[TableStyleElementType type] property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the element of the table style by the element type. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Tables.TableStyleElementCollection.this[TableStyleElementType type] property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -172,7 +172,7 @@ Workbook workbook = new Workbook(FileFormatType.XLSX);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileFormatType | int | The new file format. |
+| fileFormatType | int | [FileFormatType](../../com.aspose.cells/fileformattype). The new file format. |
 
 ### Workbook(String file) {#Workbook-java.lang.String-}
 ```
@@ -391,7 +391,7 @@ Closes the session that uses caches to access data.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | int | options of data access |
+| opts | int | [AccessCacheOptions](../../com.aspose.cells/accesscacheoptions). options of data access |
 
 ### combine(Workbook secondWorkbook) {#combine-com.aspose.cells.Workbook-}
 ```
@@ -457,7 +457,7 @@ Creates built-in style by given type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| type | int | [BuiltinStyleType](../../com.aspose.cells/builtinstyletype). |
 
 **Returns:**
 [Style](../../com.aspose.cells/style) - style object
@@ -792,7 +792,7 @@ public int getFileFormat()
 ```
 
 
-Gets the file format.
+Gets the file format. [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Returns:**
 int
@@ -912,7 +912,7 @@ Gets theme color.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The theme color type. |
+| type | int | [ThemeColorType](../../com.aspose.cells/themecolortype). The theme color type. |
 
 **Returns:**
 [Color](../../com.aspose.cells/color) - The theme color.
@@ -1101,7 +1101,7 @@ Protects a workbook.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| protectionType | int | Protection type. |
+| protectionType | int | [ProtectionType](../../com.aspose.cells/protectiontype). Protection type. |
 | password | java.lang.String | Password to protect the workbook. |
 
 ### protectSharedWorkbook(String password) {#protectSharedWorkbook-java.lang.String-}
@@ -1399,7 +1399,7 @@ Save the workbook to the stream.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The file stream. |
-| saveFormat | int | The save file format type. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The save file format type. |
 
 ### save(String fileName) {#save-java.lang.String-}
 ```
@@ -1440,7 +1440,7 @@ Saves the workbook to the disk.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The file name. |
-| saveFormat | int | The save format type. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The save format type. |
 
 ### setAbsolutePath(String value) {#setAbsolutePath-java.lang.String-}
 ```
@@ -1492,7 +1492,7 @@ Set Encryption Options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| encryptionType | int | The encryption type. |
+| encryptionType | int | [EncryptionType](../../com.aspose.cells/encryptiontype). The encryption type. |
 | keyLength | int | The key length. |
 
 ### setFileFormat(int value) {#setFileFormat-int-}
@@ -1501,7 +1501,7 @@ public void setFileFormat(int value)
 ```
 
 
-Sets the file format.
+Sets the file format. [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1558,7 +1558,7 @@ Sets the theme color
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The theme color type. |
+| type | int | [ThemeColorType](../../com.aspose.cells/themecolortype). The theme color type. |
 | color | [Color](../../com.aspose.cells/color) | the theme color |
 
 ### startAccessCache(int opts) {#startAccessCache-int-}
@@ -1576,7 +1576,7 @@ After finishing the access to the data, [closeAccessCache(int)](../../com.aspose
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | int | options of data access |
+| opts | int | [AccessCacheOptions](../../com.aspose.cells/accesscacheoptions). options of data access |
 
 ### toString() {#toString--}
 ```

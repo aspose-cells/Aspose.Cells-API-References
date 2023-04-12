@@ -57,7 +57,7 @@ public DateTimeGroupItem(int type, int year, int month, int day, int hour, int m
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| type | int | [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype). |
 | year | int |  |
 | month | int |  |
 | day | int |  |
@@ -96,7 +96,7 @@ public int getDateTimeGroupingType()
 ```
 
 
-Gets the group type.
+Gets the group type. [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype).
 
 **Returns:**
 int
@@ -202,7 +202,7 @@ public void setDateTimeGroupingType(int value)
 ```
 
 
-Sets the group type.
+Sets the group type. [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype).
 
 **Parameters:**
 | Parameter | Type | Description |

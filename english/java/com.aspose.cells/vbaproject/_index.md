@@ -30,6 +30,7 @@ Represents the VBA project.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCertRawData()](#getCertRawData--) | Gets certificate raw data if this VBA project is signed. |
 | [getClass()](#getClass--) |  |
+| [getEncoding()](#getEncoding--) | Gets the encoding of VBA project. |
 | [getIslockedForViewing()](#getIslockedForViewing--) | Indicates whether this VBA project is locked for viewing. |
 | [getModules()](#getModules--) | Gets all [VbaModule](../../com.aspose.cells/vbamodule) objects. |
 | [getName()](#getName--) | Gets the name of the VBA project. |
@@ -41,6 +42,7 @@ Represents the VBA project.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [protect(boolean islockedForViewing, String password)](#protect-boolean-java.lang.String-) | Protects or unprotects this VBA project. |
+| [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the encoding of VBA project. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the VBA project. |
 | [sign(DigitalSignature digitalSignature)](#sign-com.aspose.cells.DigitalSignature-) | Sign this VBA project by a DigitalSignature |
 | [toString()](#toString--) |  |
@@ -96,6 +98,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getEncoding() {#getEncoding--}
+```
+public Encoding getEncoding()
+```
+
+
+Gets the encoding of VBA project.
+
+**Returns:**
+[Encoding](../../com.aspose.cells/encoding)
 ### getIslockedForViewing() {#getIslockedForViewing--}
 ```
 public boolean getIslockedForViewing()
@@ -205,6 +217,19 @@ Protects or unprotects this VBA project. If islockedForViewing is true, the pass
 | --- | --- | --- |
 | islockedForViewing | boolean | indicates whether locks project for viewing. |
 | password | java.lang.String | If the value is null, unprotects this VBA project, otherwise projects the this VBA project. |
+
+### setEncoding(Encoding value) {#setEncoding-com.aspose.cells.Encoding-}
+```
+public void setEncoding(Encoding value)
+```
+
+
+Sets the encoding of VBA project.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Encoding](../../com.aspose.cells/encoding) |  |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```

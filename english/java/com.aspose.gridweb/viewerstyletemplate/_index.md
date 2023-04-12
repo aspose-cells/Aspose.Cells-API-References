@@ -7,9 +7,9 @@ url: /java/com.aspose.gridweb/viewerstyletemplate/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.gridweb.Control](../../com.aspose.gridweb/control)
 ```
-public class ViewerStyleTemplate
+public class ViewerStyleTemplate extends Control
 ```
 
 ViewerStyleTemplate.
@@ -32,15 +32,19 @@ ViewerStyleTemplate.
 | [getClass()](#getClass--) |  |
 | [getDefaultGridLineColor()](#getDefaultGridLineColor--) |  |
 | [getFrameTableStyle()](#getFrameTableStyle--) |  |
+| [getHeaderBarHeight()](#getHeaderBarHeight--) |  |
 | [getHeaderBarStyle()](#getHeaderBarStyle--) |  |
 | [getHeaderBarTableStyle()](#getHeaderBarTableStyle--) |  |
+| [getHeaderBarWidth()](#getHeaderBarWidth--) |  |
 | [getScrollBarArrowColor()](#getScrollBarArrowColor--) |  |
 | [getScrollBarBaseColor()](#getScrollBarBaseColor--) |  |
 | [getSelectCellBgColor()](#getSelectCellBgColor--) | Specifies the background color of the selected cells in multi-select range. |
 | [getSelectCellColor()](#getSelectCellColor--) | Specifies the color of the selected cells in multi-select range. |
 | [getStylesFromControl(MainWeb control)](#getStylesFromControl-com.aspose.gridweb.MainWeb-) |  |
 | [getTabStyle()](#getTabStyle--) |  |
+| [getUniqueID()](#getUniqueID--) | Gets the UniqueID in the Control |
 | [getViewTableStyle()](#getViewTableStyle--) |  |
+| [getVisible()](#getVisible--) | Gets the Visible in the Control |
 | [hashCode()](#hashCode--) |  |
 | [loadPresetStyle(int presetStyle)](#loadPresetStyle-int-) | Load a preset style. |
 | [notify()](#notify--) |  |
@@ -57,8 +61,10 @@ ViewerStyleTemplate.
 | [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
 | [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) |  |
 | [setFrameTableStyle(GridTableStyle value)](#setFrameTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
+| [setHeaderBarHeight(Unit value)](#setHeaderBarHeight-com.aspose.gridweb.Unit-) |  |
 | [setHeaderBarStyle(GridTableItemStyle value)](#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-) |  |
 | [setHeaderBarTableStyle(GridTableStyle value)](#setHeaderBarTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
+| [setHeaderBarWidth(Unit value)](#setHeaderBarWidth-com.aspose.gridweb.Unit-) |  |
 | [setScrollBarArrowColor(Color value)](#setScrollBarArrowColor-com.aspose.gridweb.Color-) |  |
 | [setScrollBarBaseColor(Color value)](#setScrollBarBaseColor-com.aspose.gridweb.Color-) |  |
 | [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the selected cells in multi-select range. |
@@ -66,6 +72,7 @@ ViewerStyleTemplate.
 | [setStylesForControl(MainWeb control)](#setStylesForControl-com.aspose.gridweb.MainWeb-) |  |
 | [setTabStyle(GridTableItemStyle value)](#setTabStyle-com.aspose.gridweb.GridTableItemStyle-) |  |
 | [setViewTableStyle(GridTableStyle value)](#setViewTableStyle-com.aspose.gridweb.GridTableStyle-) |  |
+| [setVisible(boolean value)](#setVisible-boolean-) | Sets the Visible in the Control |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -183,6 +190,16 @@ public GridTableStyle getFrameTableStyle()
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
+### getHeaderBarHeight() {#getHeaderBarHeight--}
+```
+public Unit getHeaderBarHeight()
+```
+
+
+
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getHeaderBarStyle() {#getHeaderBarStyle--}
 ```
 public GridTableItemStyle getHeaderBarStyle()
@@ -203,6 +220,16 @@ public GridTableStyle getHeaderBarTableStyle()
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
+### getHeaderBarWidth() {#getHeaderBarWidth--}
+```
+public Unit getHeaderBarWidth()
+```
+
+
+
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getScrollBarArrowColor() {#getScrollBarArrowColor--}
 ```
 public Color getScrollBarArrowColor()
@@ -266,6 +293,16 @@ public GridTableItemStyle getTabStyle()
 
 **Returns:**
 [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle)
+### getUniqueID() {#getUniqueID--}
+```
+public String getUniqueID()
+```
+
+
+Gets the UniqueID in the Control
+
+**Returns:**
+java.lang.String
 ### getViewTableStyle() {#getViewTableStyle--}
 ```
 public GridTableStyle getViewTableStyle()
@@ -276,6 +313,16 @@ public GridTableStyle getViewTableStyle()
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
+### getVisible() {#getVisible--}
+```
+public boolean getVisible()
+```
+
+
+Gets the Visible in the Control
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -297,7 +344,7 @@ Load a preset style.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presetStyle | int |  |
+| presetStyle | int | [PresetStyle](../../com.aspose.gridweb/presetstyle). |
 
 ### notify() {#notify--}
 ```
@@ -468,6 +515,19 @@ public void setFrameTableStyle(GridTableStyle value)
 | --- | --- | --- |
 | value | [GridTableStyle](../../com.aspose.gridweb/gridtablestyle) |  |
 
+### setHeaderBarHeight(Unit value) {#setHeaderBarHeight-com.aspose.gridweb.Unit-}
+```
+public void setHeaderBarHeight(Unit value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
+
 ### setHeaderBarStyle(GridTableItemStyle value) {#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-}
 ```
 public void setHeaderBarStyle(GridTableItemStyle value)
@@ -493,6 +553,19 @@ public void setHeaderBarTableStyle(GridTableStyle value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [GridTableStyle](../../com.aspose.gridweb/gridtablestyle) |  |
+
+### setHeaderBarWidth(Unit value) {#setHeaderBarWidth-com.aspose.gridweb.Unit-}
+```
+public void setHeaderBarWidth(Unit value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
 
 ### setScrollBarArrowColor(Color value) {#setScrollBarArrowColor-com.aspose.gridweb.Color-}
 ```
@@ -584,6 +657,19 @@ public void setViewTableStyle(GridTableStyle value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [GridTableStyle](../../com.aspose.gridweb/gridtablestyle) |  |
+
+### setVisible(boolean value) {#setVisible-boolean-}
+```
+public void setVisible(boolean value)
+```
+
+
+Sets the Visible in the Control
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

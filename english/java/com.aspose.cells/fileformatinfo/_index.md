@@ -72,7 +72,7 @@ public int getFileFormatType()
 ```
 
 
-Gets the detected file format.
+Gets the detected file format. [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Returns:**
 int
@@ -82,7 +82,7 @@ public int getLoadFormat()
 ```
 
 
-Gets the detected load format.
+Gets the detected load format. [LoadFormat](../../com.aspose.cells/loadformat).
 
 **Returns:**
 int

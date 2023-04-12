@@ -25,7 +25,7 @@ Encapsulates the object that represents texture fill format
 | [getScale()](#getScale--) | Gets the picture format scale. |
 | [getTilePicOption()](#getTilePicOption--) | Gets tile picture option. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getType()](#getType--) | Gets the texture type |
+| [getType()](#getType--) | Gets the texture type [TextureType](../../com.aspose.cells/texturetype). |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [isTiling()](#isTiling--) | Indicates whether tile picture as texture. |
 | [notify()](#notify--) |  |
@@ -37,7 +37,7 @@ Encapsulates the object that represents texture fill format
 | [setTilePicOption(TilePicOption value)](#setTilePicOption-com.aspose.cells.TilePicOption-) | Sets tile picture option. |
 | [setTiling(boolean value)](#setTiling-boolean-) | Indicates whether tile picture as texture. |
 | [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
-| [setType(int value)](#setType-int-) | Sets the texture type |
+| [setType(int value)](#setType-int-) | Sets the texture type [TextureType](../../com.aspose.cells/texturetype). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -93,7 +93,7 @@ public int getPictureFormatType()
 ```
 
 
-Gets the picture format type.
+Gets the picture format type. [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Returns:**
 int
@@ -133,7 +133,7 @@ public int getType()
 ```
 
 
-Gets the texture type
+Gets the texture type [TextureType](../../com.aspose.cells/texturetype).
 
 **Returns:**
 int
@@ -205,7 +205,7 @@ public void setPictureFormatType(int value)
 ```
 
 
-Sets the picture format type.
+Sets the picture format type. [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +270,7 @@ public void setType(int value)
 ```
 
 
-Sets the texture type
+Sets the texture type [TextureType](../../com.aspose.cells/texturetype).
 
 **Parameters:**
 | Parameter | Type | Description |

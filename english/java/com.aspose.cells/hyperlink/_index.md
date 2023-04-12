@@ -111,7 +111,7 @@ public int getLinkType()
 ```
 
 
-Gets the link type.
+Gets the link type. [TargetModeType](../../com.aspose.cells/targetmodetype).
 
 **Returns:**
 int

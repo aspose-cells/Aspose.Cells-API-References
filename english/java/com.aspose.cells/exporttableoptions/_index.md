@@ -132,7 +132,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets the format strategy when exporting the value as string value.
+Gets the format strategy when exporting the value as string value. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Returns:**
 int
@@ -182,7 +182,7 @@ public int getRenameStrategy()
 ```
 
 
-Strategy for duplicate names of columns.
+Strategy for duplicate names of columns. [RenameStrategy](../../com.aspose.cells/renamestrategy).
 
 **Returns:**
 int
@@ -290,7 +290,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-Sets the format strategy when exporting the value as string value.
+Sets the format strategy when exporting the value as string value. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +355,7 @@ public void setRenameStrategy(int value)
 ```
 
 
-Strategy for duplicate names of columns.
+Strategy for duplicate names of columns. [RenameStrategy](../../com.aspose.cells/renamestrategy).
 
 **Parameters:**
 | Parameter | Type | Description |

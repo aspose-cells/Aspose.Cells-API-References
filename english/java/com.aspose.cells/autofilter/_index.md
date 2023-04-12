@@ -78,7 +78,7 @@ Adds a date filter. If DateTimeGroupingType is Year, only the param year effects
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| dateTimeGroupingType | int | [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype) |
+| dateTimeGroupingType | int | [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype). The grouping type |
 | year | int | The year. |
 | month | int | The month. |
 | day | int | The day. |
@@ -98,7 +98,7 @@ Adds a fill color filter.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| pattern | int | The background pattern type. |
+| pattern | int | [BackgroundType](../../com.aspose.cells/backgroundtype). The background pattern type. |
 | foregroundColor | [CellsColor](../../com.aspose.cells/cellscolor) | The foreground color. |
 | backgroundColor | [CellsColor](../../com.aspose.cells/cellscolor) | The background color. |
 
@@ -142,7 +142,7 @@ Adds an icon filter. Only supports to add the icon filter. Not supports checking
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| iconSetType | int | The icon set type. |
+| iconSetType | int | [IconSetType](../../com.aspose.cells/iconsettype). The icon set type. |
 | iconId | int | The icon id. |
 
 ### custom(int fieldIndex, int operatorType1, Object criteria1) {#custom-int-int-java.lang.Object-}
@@ -157,7 +157,7 @@ Filters a list with a custom criteria.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| operatorType1 | int | The filter operator type |
+| operatorType1 | int | [FilterOperatorType](../../com.aspose.cells/filteroperatortype). The filter operator type |
 | criteria1 | java.lang.Object | The custom criteria |
 
 ### custom(int fieldIndex, int operatorType1, Object criteria1, boolean isAnd, int operatorType2, Object criteria2) {#custom-int-int-java.lang.Object-boolean-int-java.lang.Object-}
@@ -172,10 +172,10 @@ Filters a list with custom criteria.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| operatorType1 | int | The filter operator type |
+| operatorType1 | int | [FilterOperatorType](../../com.aspose.cells/filteroperatortype). The filter operator type |
 | criteria1 | java.lang.Object | The custom criteria |
 | isAnd | boolean |  |
-| operatorType2 | int | The filter operator type |
+| operatorType2 | int | [FilterOperatorType](../../com.aspose.cells/filteroperatortype). The filter operator type |
 | criteria2 | java.lang.Object | The custom criteria |
 
 ### dynamicFilter(int fieldIndex, int dynamicFilterType) {#dynamicFilter-int-int-}
@@ -190,7 +190,7 @@ Adds a dynamic filter.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| dynamicFilterType | int | Dynamic filter type. |
+| dynamicFilterType | int | [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype). Dynamic filter type. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -386,7 +386,7 @@ Removes a date filter. If DateTimeGroupingType is Year, only the param year effe
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| dateTimeGroupingType | int | [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype) |
+| dateTimeGroupingType | int | [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype). The grouping type |
 | year | int | The year. |
 | month | int | The month. |
 | day | int | The day. |

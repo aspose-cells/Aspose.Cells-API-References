@@ -179,7 +179,7 @@ Gets the text of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubto
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subTotalType | int | The [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) |
+| subTotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). The [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) |
 
 **Returns:**
 java.lang.String - The text of given type

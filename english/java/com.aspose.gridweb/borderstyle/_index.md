@@ -9,29 +9,24 @@ url: /java/com.aspose.gridweb/borderstyle/
 **Inheritance:**
 java.lang.Object
 ```
-public class BorderStyle
+public final class BorderStyle
 ```
 
 The BorderStyle represents the different border style options for a web control..
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BorderStyle()](#BorderStyle--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Dashed](#Dashed) |  |
-| [Dotted](#Dotted) |  |
-| [Double](#Double) |  |
-| [Groove](#Groove) |  |
-| [Inset](#Inset) |  |
-| [None](#None) |  |
-| [NotSet](#NotSet) |  |
-| [Outset](#Outset) |  |
-| [Ridge](#Ridge) |  |
-| [Solid](#Solid) |  |
+| [DASHED](#DASHED) |  |
+| [DOTTED](#DOTTED) |  |
+| [DOUBLE](#DOUBLE) |  |
+| [GROOVE](#GROOVE) |  |
+| [INSET](#INSET) |  |
+| [NONE](#NONE) |  |
+| [NOT_SET](#NOT-SET) |  |
+| [OUTSET](#OUTSET) |  |
+| [RIDGE](#RIDGE) |  |
+| [SOLID](#SOLID) |  |
 ## Methods
 
 | Method | Description |
@@ -42,73 +37,66 @@ The BorderStyle represents the different border style options for a web control.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int value)](#toString-int-) | Converts the value of the BorderStyle object to its equivalent string representation. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### BorderStyle() {#BorderStyle--}
+### DASHED {#DASHED}
 ```
-public BorderStyle()
-```
-
-
-### Dashed {#Dashed}
-```
-public static int Dashed
+public static final int DASHED
 ```
 
 
-### Dotted {#Dotted}
+### DOTTED {#DOTTED}
 ```
-public static int Dotted
-```
-
-
-### Double {#Double}
-```
-public static int Double
+public static final int DOTTED
 ```
 
 
-### Groove {#Groove}
+### DOUBLE {#DOUBLE}
 ```
-public static int Groove
-```
-
-
-### Inset {#Inset}
-```
-public static int Inset
+public static final int DOUBLE
 ```
 
 
-### None {#None}
+### GROOVE {#GROOVE}
 ```
-public static int None
-```
-
-
-### NotSet {#NotSet}
-```
-public static int NotSet
+public static final int GROOVE
 ```
 
 
-### Outset {#Outset}
+### INSET {#INSET}
 ```
-public static int Outset
-```
-
-
-### Ridge {#Ridge}
-```
-public static int Ridge
+public static final int INSET
 ```
 
 
-### Solid {#Solid}
+### NONE {#NONE}
 ```
-public static int Solid
+public static final int NONE
+```
+
+
+### NOT_SET {#NOT-SET}
+```
+public static final int NOT_SET
+```
+
+
+### OUTSET {#OUTSET}
+```
+public static final int OUTSET
+```
+
+
+### RIDGE {#RIDGE}
+```
+public static final int RIDGE
+```
+
+
+### SOLID {#SOLID}
+```
+public static final int SOLID
 ```
 
 
@@ -173,21 +161,6 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### toString(int value) {#toString-int-}
-```
-public static String toString(int value)
-```
-
-
-Converts the value of the BorderStyle object to its equivalent string representation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-**Returns:**
-java.lang.String - A string representation of the value of the BorderStyle object.
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -478,7 +478,7 @@ public int getPlacement()
 ```
 
 
-Represents the way the chart is attached to the cells below it.
+Represents the way the chart is attached to the cells below it. [PlacementType](../../com.aspose.cells/placementtype).
 
 **Returns:**
 int
@@ -498,7 +498,7 @@ public int getPlotBy()
 ```
 
 
-Gets whether plot by row or column.
+Gets whether plot by row or column. [PlotDataByType](../../com.aspose.cells/plotdatabytype).
 
 **Returns:**
 int
@@ -508,7 +508,7 @@ public int getPlotEmptyCellsType()
 ```
 
 
-Gets how to plot the empty cells.
+Gets how to plot the empty cells. [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Returns:**
 int
@@ -538,7 +538,7 @@ public int getPrintSize()
 ```
 
 
-Gets the printed chart size.
+Gets the printed chart size. [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Returns:**
 int
@@ -678,7 +678,7 @@ public int getType()
 ```
 
 
-Gets a chart's type.
+Gets a chart's type. [ChartType](../../com.aspose.cells/charttype).
 
 **Returns:**
 int
@@ -1000,7 +1000,7 @@ public void setPlacement(int value)
 ```
 
 
-Represents the way the chart is attached to the cells below it.
+Represents the way the chart is attached to the cells below it. [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1013,7 +1013,7 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-Sets how to plot the empty cells.
+Sets how to plot the empty cells. [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1052,7 +1052,7 @@ public void setPrintSize(int value)
 ```
 
 
-Sets the printed chart size.
+Sets the printed chart size. [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1156,7 +1156,7 @@ public void setType(int value)
 ```
 
 
-Sets a chart's type.
+Sets a chart's type. [ChartType](../../com.aspose.cells/charttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1285,7 +1285,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageFile | java.lang.String | The image file name with full path. |
-| imageType | int | The image type in which to save the image. |
+| imageType | int | [ImageOrPrintOptions.getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--). The image type in which to save the image. |
 
 ### toImage(String imageFile, long jpegQuality) {#toImage-java.lang.String-long-}
 ```
@@ -1328,8 +1328,8 @@ Creates the chart pdf and saves it to a stream.
 | stream | java.io.OutputStream | The output stream. |
 | desiredPageWidth | float | The desired page width in inches. |
 | desiredPageHeight | float | The desired page height in inches. |
-| hAlignmentType | int | The chart horizontal alignment type in the output page. |
-| vAlignmentType | int | The chart vertical alignment type in the output page. |
+| hAlignmentType | int | [PageLayoutAlignmentType](../../com.aspose.cells/pagelayoutalignmenttype). The chart horizontal alignment type in the output page. |
+| vAlignmentType | int | [PageLayoutAlignmentType](../../com.aspose.cells/pagelayoutalignmenttype). The chart vertical alignment type in the output page. |
 
 ### toPdf(String fileName) {#toPdf-java.lang.String-}
 ```
@@ -1358,8 +1358,8 @@ Saves the chart to a pdf file.
 | fileName | java.lang.String | the pdf file name with full path |
 | desiredPageWidth | float | The desired page width in inches. |
 | desiredPageHeight | float | The desired page height in inches. |
-| hAlignmentType | int | The chart horizontal alignment type in the output page. |
-| vAlignmentType | int | The chart vertical alignment type in the output page. |
+| hAlignmentType | int | [PageLayoutAlignmentType](../../com.aspose.cells/pagelayoutalignmenttype). The chart horizontal alignment type in the output page. |
+| vAlignmentType | int | [PageLayoutAlignmentType](../../com.aspose.cells/pagelayoutalignmenttype). The chart vertical alignment type in the output page. |
 
 ### toString() {#toString--}
 ```

@@ -61,8 +61,8 @@ Represents the options for saving html file.
 | [getExportWorksheetCSSSeparately()](#getExportWorksheetCSSSeparately--) | Indicating whether export the worksheet css separately.The default value is false. |
 | [getExportWorksheetProperties()](#getExportWorksheetProperties--) | Indicating whether exporting worksheet properties.The default value is true.If you want to import the html or mht file to excel, please keep the default value. |
 | [getFilePathProvider()](#getFilePathProvider--) | Gets the IFilePathProvider for exporting Worksheet to html separately. |
-| [getHiddenColDisplayType()](#getHiddenColDisplayType--) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
-| [getHiddenRowDisplayType()](#getHiddenRowDisplayType--) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
+| [getHiddenColDisplayType()](#getHiddenColDisplayType--) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" [HtmlHiddenColDisplayType](../../com.aspose.cells/htmlhiddencoldisplaytype). |
+| [getHiddenRowDisplayType()](#getHiddenRowDisplayType--) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" [HtmlHiddenRowDisplayType](../../com.aspose.cells/htmlhiddenrowdisplaytype). |
 | [getHtmlCrossStringType()](#getHtmlCrossStringType--) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
 | [getIgnoreInvisibleShapes()](#getIgnoreInvisibleShapes--) | Indicate whether exporting those not visible shapes The default values is false. |
 | [getImageOptions()](#getImageOptions--) | Get the ImageOrPrintOptions object before exporting |
@@ -133,8 +133,8 @@ Represents the options for saving html file.
 | [setExportWorksheetProperties(boolean value)](#setExportWorksheetProperties-boolean-) | Indicating whether exporting worksheet properties.The default value is true.If you want to import the html or mht file to excel, please keep the default value. |
 | [setFilePathProvider(IFilePathProvider value)](#setFilePathProvider-com.aspose.cells.IFilePathProvider-) | Sets the IFilePathProvider for exporting Worksheet to html separately. |
 | [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
-| [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
-| [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
+| [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" [HtmlHiddenColDisplayType](../../com.aspose.cells/htmlhiddencoldisplaytype). |
+| [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" [HtmlHiddenRowDisplayType](../../com.aspose.cells/htmlhiddenrowdisplaytype). |
 | [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
 | [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | Indicate whether exporting those not visible shapes The default values is false. |
 | [setImageScalable(boolean value)](#setImageScalable-boolean-) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. |
@@ -181,7 +181,7 @@ Creates options for saving htm file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | The saving file format. |
+| format | int | [SaveFormat](../../com.aspose.cells/saveformat). The saving file format. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -364,7 +364,7 @@ public int getExportCommentsType()
 ```
 
 
-Represents type of exporting comments to html files.
+Represents type of exporting comments to html files. [PrintCommentsType](../../com.aspose.cells/printcommentstype).
 
 **Returns:**
 int
@@ -374,7 +374,7 @@ public int getExportDataOptions()
 ```
 
 
-Indicating the rule of exporting html file data.The default value is All.
+Indicating the rule of exporting html file data.The default value is All. [HtmlExportDataOptions](../../com.aspose.cells/htmlexportdataoptions).
 
 **Returns:**
 int
@@ -574,7 +574,7 @@ public int getHiddenColDisplayType()
 ```
 
 
-Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden"
+Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" [HtmlHiddenColDisplayType](../../com.aspose.cells/htmlhiddencoldisplaytype).
 
 **Returns:**
 int
@@ -584,7 +584,7 @@ public int getHiddenRowDisplayType()
 ```
 
 
-Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden"
+Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" [HtmlHiddenRowDisplayType](../../com.aspose.cells/htmlhiddenrowdisplaytype).
 
 **Returns:**
 int
@@ -594,7 +594,7 @@ public int getHtmlCrossStringType()
 ```
 
 
-Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by Aspose.Cells and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell.
+Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by Aspose.Cells and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell. [HtmlCrossType](../../com.aspose.cells/htmlcrosstype).
 
 **Returns:**
 int
@@ -634,7 +634,7 @@ public int getLinkTargetType()
 ```
 
 
-Indicating the type of target attribute in <a> link,The default value is HtmlLinkTargetType.Parent.
+Indicating the type of target attribute in <a> link,The default value is HtmlLinkTargetType.Parent. [HtmlLinkTargetType](../../com.aspose.cells/htmllinktargettype).
 
 **Returns:**
 int
@@ -716,7 +716,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format.
+Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -1103,7 +1103,7 @@ public void setExportCommentsType(int value)
 ```
 
 
-Represents type of exporting comments to html files.
+Represents type of exporting comments to html files. [PrintCommentsType](../../com.aspose.cells/printcommentstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1116,7 +1116,7 @@ public void setExportDataOptions(int value)
 ```
 
 
-Indicating the rule of exporting html file data.The default value is All.
+Indicating the rule of exporting html file data.The default value is All. [HtmlExportDataOptions](../../com.aspose.cells/htmlexportdataoptions).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1389,7 +1389,7 @@ public void setHiddenColDisplayType(int value)
 ```
 
 
-Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden"
+Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" [HtmlHiddenColDisplayType](../../com.aspose.cells/htmlhiddencoldisplaytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1402,7 +1402,7 @@ public void setHiddenRowDisplayType(int value)
 ```
 
 
-Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden"
+Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" [HtmlHiddenRowDisplayType](../../com.aspose.cells/htmlhiddenrowdisplaytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1415,7 +1415,7 @@ public void setHtmlCrossStringType(int value)
 ```
 
 
-Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by Aspose.Cells and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell.
+Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by Aspose.Cells and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell. [HtmlCrossType](../../com.aspose.cells/htmlcrosstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1454,7 +1454,7 @@ public void setLinkTargetType(int value)
 ```
 
 
-Indicating the type of target attribute in <a> link,The default value is HtmlLinkTargetType.Parent.
+Indicating the type of target attribute in <a> link,The default value is HtmlLinkTargetType.Parent. [HtmlLinkTargetType](../../com.aspose.cells/htmllinktargettype).
 
 **Parameters:**
 | Parameter | Type | Description |

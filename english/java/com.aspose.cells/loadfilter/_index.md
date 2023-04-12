@@ -76,7 +76,7 @@ Constructs one LoadFilter with given filter options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| opts | int | the default filter options |
+| opts | int | [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions). the default filter options |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -109,7 +109,7 @@ public int getLoadDataFilterOptions()
 ```
 
 
-The filter options to denote what data should be loaded.
+The filter options to denote what data should be loaded. [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
 
 **Returns:**
 int
@@ -155,7 +155,7 @@ public void setLoadDataFilterOptions(int value)
 ```
 
 
-The filter options to denote what data should be loaded.
+The filter options to denote what data should be loaded. [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
 
 **Parameters:**
 | Parameter | Type | Description |

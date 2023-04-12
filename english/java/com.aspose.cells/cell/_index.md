@@ -146,8 +146,8 @@ Workbook excel = new Workbook();
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [Cell](../../com.aspose.cells/cell). |
 | [setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)](#setFormula-java.lang.String-boolean-boolean-java.lang.Object-) | Set the formula and the value of the formula. |
-| [setFormula(String formula, FormulaParseOptions options, Object value)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) | Set the formula and the value of the formula. |
-| [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value of the formula. |
+| [setFormula(String formula, FormulaParseOptions options, Object value)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) | Set the formula and the value(calculated result) of the formula. |
+| [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value(calculated result) of the formula. |
 | [setFormulaLocal(String value)](#setFormulaLocal-java.lang.String-) | Get the locale formatted formula of the cell. |
 | [setHtmlString(String value)](#setHtmlString-java.lang.String-) | Sets the html string which contains data and some formats in this cell. |
 | [setR1C1Formula(String value)](#setR1C1Formula-java.lang.String-) | Sets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
@@ -639,7 +639,7 @@ public int getNumberCategoryType()
 ```
 
 
-Represents the category type of this cell's number formatting.
+Represents the category type of this cell's number formatting. [NumberCategoryType](../../com.aspose.cells/numbercategorytype).
 
 **Returns:**
 int
@@ -760,7 +760,7 @@ Gets the string value by specific formatted strategy.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formatStrategy | int | The formatted strategy. |
+| formatStrategy | int | [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy). The formatted strategy. |
 
 **Returns:**
 java.lang.String - 
@@ -815,7 +815,7 @@ public int getType()
 ```
 
 
-Represents cell value type.
+Represents cell value type. [CellValueType](../../com.aspose.cells/cellvaluetype).
 
 **Returns:**
 int
@@ -1277,7 +1277,7 @@ Sets dynamic array formula and make the formula spill into neighboring cells if 
 | --- | --- | --- |
 | arrayFormula | java.lang.String | the formula expression |
 | options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
-| values | java.lang.Object[][] | values for those cells with given dynamic array formula |
+| values | java.lang.Object[][] | values(calculated results) for those cells with given dynamic array formula |
 | calculateRange | boolean | Whether calculate the spilled range for this dynamic array formula. If the "values" parameter is not null and this flag is false, then the spilled range's height will be values.Length and width will be values[0].Length. |
 | calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null or corresponding item in "values" for one cell is null. |
 
@@ -1296,7 +1296,7 @@ Sets dynamic array formula and make the formula spill into neighboring cells if 
 | --- | --- | --- |
 | arrayFormula | java.lang.String | the formula expression |
 | options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
-| values | java.lang.Object[][] | values for those cells with given dynamic array formula |
+| values | java.lang.Object[][] | values(calculated results) for those cells with given dynamic array formula |
 | calculateRange | boolean | Whether calculate the spilled range for this dynamic array formula. If the "values" parameter is not null and this flag is false, then the spilled range's height will be values.Length and width will be values[0].Length. |
 | calculateValue | boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null or corresponding item in "values" for one cell is null. |
 | copts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | The options for calculating formula. Commonly, for performance consideration, the [CalculationOptions.getRecursive()](../../com.aspose.cells/calculationoptions\#getRecursive--) property should be false. |
@@ -1338,14 +1338,14 @@ public void setFormula(String formula, FormulaParseOptions options, Object value
 ```
 
 
-Set the formula and the value of the formula.
+Set the formula and the value(calculated result) of the formula.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | formula | java.lang.String | The formula. |
 | options | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing the formula. |
-| value | java.lang.Object | The value of the formula. |
+| value | java.lang.Object | The value(calculated result) of the formula. |
 
 ### setFormula(String formula, Object value) {#setFormula-java.lang.String-java.lang.Object-}
 ```
@@ -1353,13 +1353,13 @@ public void setFormula(String formula, Object value)
 ```
 
 
-Set the formula and the value of the formula.
+Set the formula and the value(calculated result) of the formula.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | formula | java.lang.String | The formula. |
-| value | java.lang.Object | The value of the formula. |
+| value | java.lang.Object | The value(calculated result) of the formula. |
 
 ### setFormulaLocal(String value) {#setFormulaLocal-java.lang.String-}
 ```

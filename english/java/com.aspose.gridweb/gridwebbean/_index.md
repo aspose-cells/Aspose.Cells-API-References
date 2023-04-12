@@ -7,7 +7,7 @@ url: /java/com.aspose.gridweb/gridwebbean/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.gridweb.ExtWebControl](../../com.aspose.gridweb/extwebcontrol), [com.aspose.gridweb.MainWeb](../../com.aspose.gridweb/mainweb)
+java.lang.Object, [com.aspose.gridweb.WebControl](../../com.aspose.gridweb/webcontrol), [com.aspose.gridweb.ExtWebControl](../../com.aspose.gridweb/extwebcontrol), [com.aspose.gridweb.MainWeb](../../com.aspose.gridweb/mainweb)
 ```
 public class GridWebBean extends MainWeb
 ```
@@ -65,14 +65,20 @@ Represents GridWeb java bean
 | [getActiveSheetIndex()](#getActiveSheetIndex--) | Gets the active sheet index. |
 | [getActiveTabStyle()](#getActiveTabStyle--) | Specifies the style of the active tab. |
 | [getAutoRefreshChart()](#getAutoRefreshChart--) | Gets whether the Chart image is updated while updating the cell value.the default is true |
+| [getBackColor()](#getBackColor--) | Gets the BackColor in the WebControl |
 | [getBeanID()](#getBeanID--) | get the html id of the bean |
+| [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the WebControl |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the WebControl |
 | [getBottomTableStyle()](#getBottomTableStyle--) | Gets the style of the bottom bar of the control. |
 | [getClass()](#getClass--) |  |
+| [getCssClass()](#getCssClass--) | Gets the CssClass in the WebControl |
 | [getCurrentPageIndex()](#getCurrentPageIndex--) |  |
 | [getCustomCalculationEngine()](#getCustomCalculationEngine--) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [getCustomCommandButtons()](#getCustomCommandButtons--) |  |
 | [getCustomStyleFileName()](#getCustomStyleFileName--) | Gets the custom style file name. |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
+| [getDefaultFontSize()](#getDefaultFontSize--) | ????????? |
 | [getDefaultGridLineColor()](#getDefaultGridLineColor--) | Gets the default grid line's color. |
 | [getDisplayCellTip()](#getDisplayCellTip--) |  |
 | [getEditMode()](#getEditMode--) | Gets the control's edit mode. |
@@ -87,17 +93,23 @@ Represents GridWeb java bean
 | [getEnableMetalLightEffect()](#getEnableMetalLightEffect--) | Gets whether to apply metal light effect. |
 | [getEnablePaging()](#getEnablePaging--) | Gets whether to enable the control's paging mode. |
 | [getEnableStyleDialogbox()](#getEnableStyleDialogbox--) | Gets whether to enable the client side style dialogbox. |
+| [getEnabled()](#getEnabled--) | Gets the Enabled in the WebControl |
 | [getFilteredPaging()](#getFilteredPaging--) | Gets whether to enable the paging after data filtered,will take affect when EnablePaging is true. |
+| [getFont()](#getFont--) | Gets the Font in the WebControl |
 | [getForceValidation()](#getForceValidation--) | Gets whether to force customer side validation. |
+| [getForeColor()](#getForeColor--) | Gets the ForeColor in the WebControl |
 | [getFrameTableStyle()](#getFrameTableStyle--) | Gets the frame style of the control. |
 | [getGoonDefaultSaveOperation()](#getGoonDefaultSaveOperation--) | Gets whether GridWeb will do the default save operation ,the default value is true. |
 | [getHTMLBody()](#getHTMLBody--) | the html code of the bean for html body, it shall be get after call of method init and prepareRender |
 | [getHTMLHead()](#getHTMLHead--) | the html code of the bean for html head, it shall be get after call of method init and prepareRender |
+| [getHeaderBarHeight()](#getHeaderBarHeight--) | Gets the height( System.Web.UI.WebControl.Unit ) of the top header bar of the control. |
 | [getHeaderBarStyle()](#getHeaderBarStyle--) | Gets the header bar's style. |
 | [getHeaderBarTableStyle()](#getHeaderBarTableStyle--) | Gets the header bar style of the control. |
+| [getHeaderBarWidth()](#getHeaderBarWidth--) | Gets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control. |
+| [getHeight()](#getHeight--) | Gets the height( System.Web.UI.WebControl.Unit ) of the control. |
 | [getIgnoreStyleWithNoData()](#getIgnoreStyleWithNoData--) | Gets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
 | [getLinksTable()](#getLinksTable--) |  |
-| [getLoadOptions()](#getLoadOptions--) | Represents the loadoptions. |
+| [getLoadOptions()](#getLoadOptions--) | Represents the loadoptions for GridWeb. |
 | [getMaxColumn()](#getMaxColumn--) | Gets the maximum display column index(zero based) of the web sheet. |
 | [getMaxRow()](#getMaxRow--) | Gets the maximum display row index(zero based) of the web sheet. |
 | [getMessage()](#getMessage--) |  |
@@ -155,12 +167,15 @@ Represents GridWeb java bean
 | [getShowTabNavigation()](#getShowTabNavigation--) | Gets whether the tab navigation button is show,the default value is true. |
 | [getShowUndoButton()](#getShowUndoButton--) | Gets whether to show the undo button. |
 | [getSpanWrap()](#getSpanWrap--) | Specifies whether to wrap content in the cell span.the default value is true. |
+| [getTabIndex()](#getTabIndex--) | Gets the TabIndex in the WebControl |
 | [getTabStyle()](#getTabStyle--) | Gets the style of the tab bar. |
+| [getToolTip()](#getToolTip--) | Gets the ToolTip in the WebControl |
 | [getUseClientPageHeight()](#getUseClientPageHeight--) | Gets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false |
 | [getValidationsTable()](#getValidationsTable--) |  |
 | [getViewPanelScrollLeft()](#getViewPanelScrollLeft--) | Gets the position of the scroll bar of the grid's view panel. |
 | [getViewPanelScrollTop()](#getViewPanelScrollTop--) | Gets the position of the scroll bar of the grid's view panel. |
 | [getViewTableStyle()](#getViewTableStyle--) | Gets the data view panel's style. |
+| [getWidth()](#getWidth--) | Gets the width( System.Web.UI.WebControl.Unit ) of the control. |
 | [getWorkSheets()](#getWorkSheets--) |  |
 | [getXhtmlMode()](#getXhtmlMode--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -204,14 +219,20 @@ Represents GridWeb java bean
 | [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | Sets the active sheet index. |
 | [setActiveTabStyle(GridTableItemStyle value)](#setActiveTabStyle-com.aspose.gridweb.GridTableItemStyle-) | Specifies the style of the active tab. |
 | [setAutoRefreshChart(boolean value)](#setAutoRefreshChart-boolean-) | Sets whether the Chart image is updated while updating the cell value.the default is true |
+| [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the WebControl |
 | [setBeanID(String beanID)](#setBeanID-java.lang.String-) | set the html id of the bean |
+| [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the WebControl |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the WebControl |
 | [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the style of the bottom bar of the control. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Sets whether to calculate formula after cell value changes or after import File. |
+| [setCssClass(String value)](#setCssClass-java.lang.String-) | Sets the CssClass in the WebControl |
 | [setCurrentPageIndex(int value)](#setCurrentPageIndex-int-) |  |
 | [setCustomCalculationEngine(GridAbstractCalculationEngine value)](#setCustomCalculationEngine-com.aspose.gridweb.GridAbstractCalculationEngine-) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomStyle(InputStream stream)](#setCustomStyle-java.io.InputStream-) | sets the custom style file from stream including disk file stream or memory stream. |
 | [setCustomStyleFileName(String value)](#setCustomStyleFileName-java.lang.String-) | Sets the custom style file name. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
+| [setDefaultFontSize(FontUnit value)](#setDefaultFontSize-com.aspose.gridweb.FontUnit-) | ????????? |
 | [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) | Sets the default grid line's color. |
 | [setDisplayCellTip(boolean value)](#setDisplayCellTip-boolean-) |  |
 | [setEditMode(boolean value)](#setEditMode-boolean-) | Sets the control's edit mode. |
@@ -226,14 +247,19 @@ Represents GridWeb java bean
 | [setEnableMetalLightEffect(boolean value)](#setEnableMetalLightEffect-boolean-) | Sets whether to apply metal light effect. |
 | [setEnablePaging(boolean value)](#setEnablePaging-boolean-) | Sets whether to enable the control's paging mode. |
 | [setEnableStyleDialogbox(boolean value)](#setEnableStyleDialogbox-boolean-) | Sets whether to enable the client side style dialogbox. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Sets the Enabled in the WebControl |
 | [setFilteredPaging(boolean value)](#setFilteredPaging-boolean-) | Sets whether to enable the paging after data filtered,will take affect when EnablePaging is true. |
 | [setForceValidation(boolean value)](#setForceValidation-boolean-) | Sets whether to force customer side validation. |
+| [setForeColor(Color value)](#setForeColor-com.aspose.gridweb.Color-) | Sets the ForeColor in the WebControl |
 | [setFrameTableStyle(GridTableStyle value)](#setFrameTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the frame style of the control. |
 | [setGoonDefaultSaveOperation(boolean value)](#setGoonDefaultSaveOperation-boolean-) | Sets whether GridWeb will do the default save operation ,the default value is true. |
+| [setHeaderBarHeight(Unit value)](#setHeaderBarHeight-com.aspose.gridweb.Unit-) | Sets the height( System.Web.UI.WebControl.Unit ) of the top header bar of the control. |
 | [setHeaderBarStyle(GridTableItemStyle value)](#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the header bar's style. |
 | [setHeaderBarTableStyle(GridTableStyle value)](#setHeaderBarTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the header bar style of the control. |
+| [setHeaderBarWidth(Unit value)](#setHeaderBarWidth-com.aspose.gridweb.Unit-) | Sets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control. |
+| [setHeight(Unit value)](#setHeight-com.aspose.gridweb.Unit-) | Sets the height( System.Web.UI.WebControl.Unit ) of the control. |
 | [setIgnoreStyleWithNoData(boolean value)](#setIgnoreStyleWithNoData-boolean-) | Sets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
-| [setLoadOptions(GridLoadOptions value)](#setLoadOptions-com.aspose.gridweb.GridLoadOptions-) | Represents the loadoptions. |
+| [setLoadOptions(GridLoadOptions value)](#setLoadOptions-com.aspose.gridweb.GridLoadOptions-) | Represents the loadoptions for GridWeb. |
 | [setMaxColumn(int value)](#setMaxColumn-int-) | Sets the maximum display column index(zero based) of the web sheet. |
 | [setMaxRow(int value)](#setMaxRow-int-) | Sets the maximum display row index(zero based) of the web sheet. |
 | [setMessage(String value)](#setMessage-java.lang.String-) |  |
@@ -288,11 +314,14 @@ Represents GridWeb java bean
 | [setShowTabNavigation(boolean value)](#setShowTabNavigation-boolean-) | Sets whether the tab navigation button is show,the default value is true. |
 | [setShowUndoButton(boolean value)](#setShowUndoButton-boolean-) | Sets whether to show the undo button. |
 | [setSpanWrap(boolean value)](#setSpanWrap-boolean-) | Specifies whether to wrap content in the cell span.the default value is true. |
+| [setTabIndex(short value)](#setTabIndex-short-) | Sets the TabIndex in the WebControl |
 | [setTabStyle(GridTableItemStyle value)](#setTabStyle-com.aspose.gridweb.GridTableItemStyle-) | Sets the style of the tab bar. |
+| [setToolTip(String value)](#setToolTip-java.lang.String-) | Sets the ToolTip in the WebControl |
 | [setUseClientPageHeight(boolean value)](#setUseClientPageHeight-boolean-) | Sets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false |
 | [setViewPanelScrollLeft(String value)](#setViewPanelScrollLeft-java.lang.String-) | Sets the position of the scroll bar of the grid's view panel. |
 | [setViewPanelScrollTop(String value)](#setViewPanelScrollTop-java.lang.String-) | Sets the position of the scroll bar of the grid's view panel. |
 | [setViewTableStyle(GridTableStyle value)](#setViewTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the data view panel's style. |
+| [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Sets the width( System.Web.UI.WebControl.Unit ) of the control. |
 | [setXhtmlMode(boolean value)](#setXhtmlMode-boolean-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -653,6 +682,16 @@ Gets whether the Chart image is updated while updating the cell value.the defaul
 
 **Returns:**
 boolean
+### getBackColor() {#getBackColor--}
+```
+public Color getBackColor()
+```
+
+
+Gets the BackColor in the WebControl
+
+**Returns:**
+[Color](../../com.aspose.gridweb/color)
 ### getBeanID() {#getBeanID--}
 ```
 public String getBeanID()
@@ -663,6 +702,36 @@ get the html id of the bean
 
 **Returns:**
 java.lang.String
+### getBorderColor() {#getBorderColor--}
+```
+public Color getBorderColor()
+```
+
+
+Gets the BorderColor in the WebControl
+
+**Returns:**
+[Color](../../com.aspose.gridweb/color)
+### getBorderStyle() {#getBorderStyle--}
+```
+public int getBorderStyle()
+```
+
+
+Gets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle).
+
+**Returns:**
+int
+### getBorderWidth() {#getBorderWidth--}
+```
+public Unit getBorderWidth()
+```
+
+
+Gets the BorderWidth in the WebControl
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getBottomTableStyle() {#getBottomTableStyle--}
 ```
 public GridTableStyle getBottomTableStyle()
@@ -683,6 +752,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCssClass() {#getCssClass--}
+```
+public String getCssClass()
+```
+
+
+Gets the CssClass in the WebControl
+
+**Returns:**
+java.lang.String
 ### getCurrentPageIndex() {#getCurrentPageIndex--}
 ```
 public int getCurrentPageIndex()
@@ -741,6 +820,16 @@ GridWeb1.setDefaultFontName("Arial");
 
 **Returns:**
 java.lang.String
+### getDefaultFontSize() {#getDefaultFontSize--}
+```
+public FontUnit getDefaultFontSize()
+```
+
+
+?????????
+
+**Returns:**
+[FontUnit](../../com.aspose.gridweb/fontunit)
 ### getDefaultGridLineColor() {#getDefaultGridLineColor--}
 ```
 public Color getDefaultGridLineColor()
@@ -885,6 +974,16 @@ Gets whether to enable the client side style dialogbox. When sets to true, the u
 
 **Returns:**
 boolean
+### getEnabled() {#getEnabled--}
+```
+public boolean getEnabled()
+```
+
+
+Gets the Enabled in the WebControl
+
+**Returns:**
+boolean
 ### getFilteredPaging() {#getFilteredPaging--}
 ```
 public boolean getFilteredPaging()
@@ -895,6 +994,16 @@ Gets whether to enable the paging after data filtered,will take affect when Enab
 
 **Returns:**
 boolean
+### getFont() {#getFont--}
+```
+public FontInfo getFont()
+```
+
+
+Gets the Font in the WebControl
+
+**Returns:**
+[FontInfo](../../com.aspose.gridweb/fontinfo)
 ### getForceValidation() {#getForceValidation--}
 ```
 public boolean getForceValidation()
@@ -905,6 +1014,16 @@ Gets whether to force customer side validation. When sets to true, data will not
 
 **Returns:**
 boolean
+### getForeColor() {#getForeColor--}
+```
+public Color getForeColor()
+```
+
+
+Gets the ForeColor in the WebControl
+
+**Returns:**
+[Color](../../com.aspose.gridweb/color)
 ### getFrameTableStyle() {#getFrameTableStyle--}
 ```
 public GridTableStyle getFrameTableStyle()
@@ -945,6 +1064,21 @@ the html code of the bean for html head, it shall be get after call of method in
 
 **Returns:**
 java.lang.String
+### getHeaderBarHeight() {#getHeaderBarHeight--}
+```
+public Unit getHeaderBarHeight()
+```
+
+
+Gets the height( System.Web.UI.WebControl.Unit ) of the top header bar of the control.
+
+```
+GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setHeaderBarHeight(new Unit(24, com.aspose.gridweb.UnitType.Point));
+```
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getHeaderBarStyle() {#getHeaderBarStyle--}
 ```
 public GridTableItemStyle getHeaderBarStyle()
@@ -965,6 +1099,36 @@ Gets the header bar style of the control.
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
+### getHeaderBarWidth() {#getHeaderBarWidth--}
+```
+public Unit getHeaderBarWidth()
+```
+
+
+Gets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control.
+
+```
+GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setHeaderBarHeight(new Unit(24, com.aspose.gridweb.UnitType.Point));
+```
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
+### getHeight() {#getHeight--}
+```
+public Unit getHeight()
+```
+
+
+Gets the height( System.Web.UI.WebControl.Unit ) of the control.
+
+```
+GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setHeight(new Unit(240, com.aspose.gridweb.UnitType.Point));
+```
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getIgnoreStyleWithNoData() {#getIgnoreStyleWithNoData--}
 ```
 public boolean getIgnoreStyleWithNoData()
@@ -991,7 +1155,7 @@ public GridLoadOptions getLoadOptions()
 ```
 
 
-Represents the loadoptions.
+Represents the loadoptions for GridWeb.
 
 **Returns:**
 [GridLoadOptions](../../com.aspose.gridweb/gridloadoptions)
@@ -1388,7 +1552,7 @@ public int getPresetStyle()
 ```
 
 
-Gets the preset style.
+Gets the preset style. [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 ```
 GridWeb1.setPresetStyle(PresetStyle.TRADITIONAL_1);
@@ -1482,7 +1646,7 @@ public int getSessionMode()
 ```
 
 
-Gets the session mode of the grid. There are 4 type of session mode:
+Gets the session mode of the grid. There are 4 type of session mode:[SessionMode](../../com.aspose.gridweb/sessionmode).
 1. Session(default): Use system session to store sheet data.
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
@@ -1686,6 +1850,16 @@ Specifies whether to wrap content in the cell span.the default value is true.
 
 **Returns:**
 boolean
+### getTabIndex() {#getTabIndex--}
+```
+public short getTabIndex()
+```
+
+
+Gets the TabIndex in the WebControl
+
+**Returns:**
+short
 ### getTabStyle() {#getTabStyle--}
 ```
 public GridTableItemStyle getTabStyle()
@@ -1696,6 +1870,16 @@ Gets the style of the tab bar.
 
 **Returns:**
 [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle)
+### getToolTip() {#getToolTip--}
+```
+public String getToolTip()
+```
+
+
+Gets the ToolTip in the WebControl
+
+**Returns:**
+java.lang.String
 ### getUseClientPageHeight() {#getUseClientPageHeight--}
 ```
 public boolean getUseClientPageHeight()
@@ -1746,6 +1930,21 @@ Gets the data view panel's style.
 
 **Returns:**
 [GridTableStyle](../../com.aspose.gridweb/gridtablestyle)
+### getWidth() {#getWidth--}
+```
+public Unit getWidth()
+```
+
+
+Gets the width( System.Web.UI.WebControl.Unit ) of the control.
+
+```
+GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setHeight(new Unit(240, com.aspose.gridweb.UnitType.Point));
+```
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getWorkSheets() {#getWorkSheets--}
 ```
 public GridWorksheetCollection getWorkSheets()
@@ -2098,7 +2297,7 @@ Saves the worksheets to an excel file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream to write to. |
-| format | int | The file format(Excel2003, Excel2007, CSV, SpreadsheetML) |
+| format | int | [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat). The file format(Excel2003, Excel2007, CSV, SpreadsheetML) |
 
 ### saveToExcelFile(String targetFile) {#saveToExcelFile-java.lang.String-}
 ```
@@ -2139,7 +2338,7 @@ Saves the worksheets to an excel file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | targetFile | java.lang.String | The name of the target file to write to. |
-| format | int | The file format(Excel2003, Excel2007, CSV, SpreadsheetML) |
+| format | int | [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat). The file format(Excel2003, Excel2007, CSV, SpreadsheetML) |
 
 ### setACWClientPath(String value) {#setACWClientPath-java.lang.String-}
 ```
@@ -2279,6 +2478,19 @@ Sets whether the Chart image is updated while updating the cell value.the defaul
 | --- | --- | --- |
 | value | boolean |  |
 
+### setBackColor(Color value) {#setBackColor-com.aspose.gridweb.Color-}
+```
+public void setBackColor(Color value)
+```
+
+
+Sets the BackColor in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.gridweb/color) |  |
+
 ### setBeanID(String beanID) {#setBeanID-java.lang.String-}
 ```
 public void setBeanID(String beanID)
@@ -2291,6 +2503,45 @@ set the html id of the bean
 | Parameter | Type | Description |
 | --- | --- | --- |
 | beanID | java.lang.String |  |
+
+### setBorderColor(Color value) {#setBorderColor-com.aspose.gridweb.Color-}
+```
+public void setBorderColor(Color value)
+```
+
+
+Sets the BorderColor in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.gridweb/color) |  |
+
+### setBorderStyle(int value) {#setBorderStyle-int-}
+```
+public void setBorderStyle(int value)
+```
+
+
+Sets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setBorderWidth(Unit value) {#setBorderWidth-com.aspose.gridweb.Unit-}
+```
+public void setBorderWidth(Unit value)
+```
+
+
+Sets the BorderWidth in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
 
 ### setBottomTableStyle(GridTableStyle value) {#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-}
 ```
@@ -2317,6 +2568,19 @@ Sets whether to calculate formula after cell value changes or after import File.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setCssClass(String value) {#setCssClass-java.lang.String-}
+```
+public void setCssClass(String value)
+```
+
+
+Sets the CssClass in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setCurrentPageIndex(int value) {#setCurrentPageIndex-int-}
 ```
@@ -2382,6 +2646,19 @@ Sets the control's default font name.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setDefaultFontSize(FontUnit value) {#setDefaultFontSize-com.aspose.gridweb.FontUnit-}
+```
+public void setDefaultFontSize(FontUnit value)
+```
+
+
+?????????
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [FontUnit](../../com.aspose.gridweb/fontunit) |  |
 
 ### setDefaultGridLineColor(Color value) {#setDefaultGridLineColor-com.aspose.gridweb.Color-}
 ```
@@ -2565,6 +2842,19 @@ Sets whether to enable the client side style dialogbox. When sets to true, the u
 | --- | --- | --- |
 | value | boolean |  |
 
+### setEnabled(boolean value) {#setEnabled-boolean-}
+```
+public void setEnabled(boolean value)
+```
+
+
+Sets the Enabled in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setFilteredPaging(boolean value) {#setFilteredPaging-boolean-}
 ```
 public void setFilteredPaging(boolean value)
@@ -2590,6 +2880,19 @@ Sets whether to force customer side validation. When sets to true, data will not
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setForeColor(Color value) {#setForeColor-com.aspose.gridweb.Color-}
+```
+public void setForeColor(Color value)
+```
+
+
+Sets the ForeColor in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](../../com.aspose.gridweb/color) |  |
 
 ### setFrameTableStyle(GridTableStyle value) {#setFrameTableStyle-com.aspose.gridweb.GridTableStyle-}
 ```
@@ -2617,6 +2920,19 @@ Sets whether GridWeb will do the default save operation ,the default value is tr
 | --- | --- | --- |
 | value | boolean |  |
 
+### setHeaderBarHeight(Unit value) {#setHeaderBarHeight-com.aspose.gridweb.Unit-}
+```
+public void setHeaderBarHeight(Unit value)
+```
+
+
+Sets the height( System.Web.UI.WebControl.Unit ) of the top header bar of the control.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
+
 ### setHeaderBarStyle(GridTableItemStyle value) {#setHeaderBarStyle-com.aspose.gridweb.GridTableItemStyle-}
 ```
 public void setHeaderBarStyle(GridTableItemStyle value)
@@ -2643,6 +2959,32 @@ Sets the header bar style of the control.
 | --- | --- | --- |
 | value | [GridTableStyle](../../com.aspose.gridweb/gridtablestyle) |  |
 
+### setHeaderBarWidth(Unit value) {#setHeaderBarWidth-com.aspose.gridweb.Unit-}
+```
+public void setHeaderBarWidth(Unit value)
+```
+
+
+Sets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
+
+### setHeight(Unit value) {#setHeight-com.aspose.gridweb.Unit-}
+```
+public void setHeight(Unit value)
+```
+
+
+Sets the height( System.Web.UI.WebControl.Unit ) of the control.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
+
 ### setIgnoreStyleWithNoData(boolean value) {#setIgnoreStyleWithNoData-boolean-}
 ```
 public void setIgnoreStyleWithNoData(boolean value)
@@ -2662,7 +3004,7 @@ public void setLoadOptions(GridLoadOptions value)
 ```
 
 
-Represents the loadoptions.
+Represents the loadoptions for GridWeb.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3096,7 +3438,7 @@ public void setPresetStyle(int value)
 ```
 
 
-Sets the preset style.
+Sets the preset style. [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3213,7 +3555,7 @@ public void setSessionMode(int value)
 ```
 
 
-Sets the session mode of the grid. There are 4 type of session mode:
+Sets the session mode of the grid. There are 4 type of session mode:[SessionMode](../../com.aspose.gridweb/sessionmode).
 1. Session(default): Use system session to store sheet data.
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
@@ -3460,6 +3802,19 @@ Specifies whether to wrap content in the cell span.the default value is true.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setTabIndex(short value) {#setTabIndex-short-}
+```
+public void setTabIndex(short value)
+```
+
+
+Sets the TabIndex in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | short |  |
+
 ### setTabStyle(GridTableItemStyle value) {#setTabStyle-com.aspose.gridweb.GridTableItemStyle-}
 ```
 public void setTabStyle(GridTableItemStyle value)
@@ -3472,6 +3827,19 @@ Sets the style of the tab bar.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [GridTableItemStyle](../../com.aspose.gridweb/gridtableitemstyle) |  |
+
+### setToolTip(String value) {#setToolTip-java.lang.String-}
+```
+public void setToolTip(String value)
+```
+
+
+Sets the ToolTip in the WebControl
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setUseClientPageHeight(boolean value) {#setUseClientPageHeight-boolean-}
 ```
@@ -3524,6 +3892,19 @@ Sets the data view panel's style.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [GridTableStyle](../../com.aspose.gridweb/gridtablestyle) |  |
+
+### setWidth(Unit value) {#setWidth-com.aspose.gridweb.Unit-}
+```
+public void setWidth(Unit value)
+```
+
+
+Sets the width( System.Web.UI.WebControl.Unit ) of the control.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
 
 ### setXhtmlMode(boolean value) {#setXhtmlMode-boolean-}
 ```

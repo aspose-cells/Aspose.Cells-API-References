@@ -160,7 +160,7 @@ public int getType()
 ```
 
 
-Gets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
+Gets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added. [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Returns:**
 int
@@ -232,7 +232,7 @@ public void setType(int value)
 ```
 
 
-Sets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
+Sets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added. [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Parameters:**
 | Parameter | Type | Description |

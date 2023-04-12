@@ -102,7 +102,7 @@ public int getType()
 ```
 
 
-Gets the data type of the property.
+Gets the data type of the property. [PropertyType](../../com.aspose.cells/propertytype).
 
 **Returns:**
 int

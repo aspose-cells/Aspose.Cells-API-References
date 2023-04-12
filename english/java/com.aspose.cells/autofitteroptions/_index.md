@@ -84,7 +84,7 @@ public int getAutoFitMergedCellsType()
 ```
 
 
-Gets the type of auto fitting row height of merged cells. Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
+Gets the type of auto fitting row height of merged cells. [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype). Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
 
 **Returns:**
 int
@@ -94,7 +94,7 @@ public int getAutoFitWrappedTextType()
 ```
 
 
-Gets the type of auto fitting wrapped text.
+Gets the type of auto fitting wrapped text. [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
 
 **Returns:**
 int
@@ -114,7 +114,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+Gets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Returns:**
 int
@@ -124,7 +124,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets the formatted strategy. The default value is CellStyle for performance.
+Gets the formatted strategy. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy). The default value is CellStyle for performance.
 
 **Returns:**
 int
@@ -203,7 +203,7 @@ public void setAutoFitMergedCellsType(int value)
 ```
 
 
-Sets the type of auto fitting row height of merged cells. Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
+Sets the type of auto fitting row height of merged cells. [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype). Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +216,7 @@ public void setAutoFitWrappedTextType(int value)
 ```
 
 
-Sets the type of auto fitting wrapped text.
+Sets the type of auto fitting wrapped text. [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +229,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Sets default edit language. It may display/render different layouts for text paragraph when different edit languages is set. Default is DefaultEditLanguage.AUTO.
+Sets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +242,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-Sets the formatted strategy. The default value is CellStyle for performance.
+Sets the formatted strategy. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy). The default value is CellStyle for performance.
 
 **Parameters:**
 | Parameter | Type | Description |

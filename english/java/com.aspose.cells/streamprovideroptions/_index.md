@@ -52,7 +52,7 @@ Initializes a new instance of the [StreamProviderOptions](../../com.aspose.cells
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadingType | int | The type to load the linked resource. |
+| loadingType | int | [ResourceLoadingType](../../com.aspose.cells/resourceloadingtype). The type to load the linked resource. |
 | defaultPath | java.lang.String | The default path. |
 
 ### StreamProviderOptions() {#StreamProviderOptions--}
@@ -124,7 +124,7 @@ public int getResourceLoadingType()
 ```
 
 
-Gets the type of loading resource.
+Gets the type of loading resource. [ResourceLoadingType](../../com.aspose.cells/resourceloadingtype).
 
 **Returns:**
 int
@@ -196,7 +196,7 @@ public void setResourceLoadingType(int value)
 ```
 
 
-Sets the type of loading resource.
+Sets the type of loading resource. [ResourceLoadingType](../../com.aspose.cells/resourceloadingtype).
 
 **Parameters:**
 | Parameter | Type | Description |

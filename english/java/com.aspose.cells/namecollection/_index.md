@@ -120,8 +120,8 @@ Gets all defined name by scope.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The scope type. |
-| sheetIndex | int | The sheet index. Only effects when scope type is NameScopeType.WORKSHEET |
+| type | int | [NameScopeType](../../com.aspose.cells/namescopetype). The scope type. |
+| sheetIndex | int | The sheet index. Only effects when scope type is [NameScopeType.WORKSHEET](../../com.aspose.cells/namescopetype\#WORKSHEET) |
 
 **Returns:**
 com.aspose.cells.Name[] - 

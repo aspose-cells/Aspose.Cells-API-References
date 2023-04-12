@@ -62,7 +62,7 @@ public ThemeColor(int type, double tint)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The theme type. |
+| type | int | [ThemeColorType](../../com.aspose.cells/themecolortype). The theme type. |
 | tint | double | The tint value. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -96,7 +96,7 @@ public int getColorType()
 ```
 
 
-Gets the theme type.
+Gets the theme type. [ThemeColorType](../../com.aspose.cells/themecolortype).
 
 **Returns:**
 int
@@ -142,7 +142,7 @@ public void setColorType(int value)
 ```
 
 
-Sets the theme type.
+Sets the theme type. [ThemeColorType](../../com.aspose.cells/themecolortype).
 
 **Parameters:**
 | Parameter | Type | Description |

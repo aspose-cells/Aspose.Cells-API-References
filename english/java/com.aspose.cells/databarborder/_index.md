@@ -71,7 +71,7 @@ public int getType()
 ```
 
 
-Gets the border's type of data bars specified by a conditional formatting rule.
+Gets the border's type of data bars specified by a conditional formatting rule. [DataBarBorderType](../../com.aspose.cells/databarbordertype).
 
 **Returns:**
 int
@@ -120,7 +120,7 @@ public void setType(int value)
 ```
 
 
-Sets the border's type of data bars specified by a conditional formatting rule.
+Sets the border's type of data bars specified by a conditional formatting rule. [DataBarBorderType](../../com.aspose.cells/databarbordertype).
 
 **Parameters:**
 | Parameter | Type | Description |

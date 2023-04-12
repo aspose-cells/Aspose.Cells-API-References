@@ -25,11 +25,15 @@ Encapsulates the style of web table or cell border. Please refer to .NET SDK doc
 | [copyFrom(WebBorderStyle style)](#copyFrom-com.aspose.gridweb.WebBorderStyle-) | Copies from another style object. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBorderColor()](#getBorderColor--) | Gets the color of the border. |
+| [getBorderStyle()](#getBorderStyle--) | Gets the style of the border. |
+| [getBorderWidth()](#getBorderWidth--) | Gets the width of the border. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the color of the border. |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the style of the border. |
+| [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the width of the border. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -80,6 +84,26 @@ Gets the color of the border. Please refer to System.Drawing.Color struct.
 
 **Returns:**
 [Color](../../com.aspose.gridweb/color)
+### getBorderStyle() {#getBorderStyle--}
+```
+public int getBorderStyle()
+```
+
+
+Gets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. [BorderStyle](../../com.aspose.gridweb/borderstyle).
+
+**Returns:**
+int
+### getBorderWidth() {#getBorderWidth--}
+```
+public Unit getBorderWidth()
+```
+
+
+Gets the width of the border. Please refer to System.Web.UI.WebControls.Unit struct.
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -128,6 +152,32 @@ Sets the color of the border. Please refer to System.Drawing.Color struct.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Color](../../com.aspose.gridweb/color) |  |
+
+### setBorderStyle(int value) {#setBorderStyle-int-}
+```
+public void setBorderStyle(int value)
+```
+
+
+Sets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. [BorderStyle](../../com.aspose.gridweb/borderstyle).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setBorderWidth(Unit value) {#setBorderWidth-com.aspose.gridweb.Unit-}
+```
+public void setBorderWidth(Unit value)
+```
+
+
+Sets the width of the border. Please refer to System.Web.UI.WebControls.Unit struct.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Unit](../../com.aspose.gridweb/unit) |  |
 
 ### toString() {#toString--}
 ```

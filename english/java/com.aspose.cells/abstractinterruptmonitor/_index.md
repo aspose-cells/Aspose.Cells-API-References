@@ -70,7 +70,7 @@ public boolean getTerminateWithoutException()
 ```
 
 
-When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [isInterruptionRequested()](../../com.aspose.cells/abstractinterruptmonitor\#isInterruptionRequested--) is true, a [CellsException](../../com.aspose.cells/cellsexception) with code ExceptionType.INTERRUPTED will be thrown.
+When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when [isInterruptionRequested()](../../com.aspose.cells/abstractinterruptmonitor\#isInterruptionRequested--) is true, a [CellsException](../../com.aspose.cells/cellsexception) with code [ExceptionType.INTERRUPTED](../../com.aspose.cells/exceptiontype\#INTERRUPTED) will be thrown.
 
 **Returns:**
 boolean

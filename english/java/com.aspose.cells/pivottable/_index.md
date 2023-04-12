@@ -310,7 +310,7 @@ Adds the field to the specific area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | the fields area type. |
+| fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). the fields area type. |
 | pivotField | [PivotField](../../com.aspose.cells/pivotfield) | the field in the base fields. |
 
 **Returns:**
@@ -326,7 +326,7 @@ Adds the field to the specific area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | The fields area type. |
+| fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The fields area type. |
 | baseFieldIndex | int | The field index in the base fields. |
 
 **Returns:**
@@ -342,7 +342,7 @@ Adds the field to the specific area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | The fields area type. |
+| fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The fields area type. |
 | fieldName | java.lang.String | The name in the base fields. |
 
 **Returns:**
@@ -431,7 +431,7 @@ Gets the specific fields by the field type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | the field type. |
+| fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). the field type. |
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) - the specific fields
@@ -517,7 +517,7 @@ public int getAutoFormatType()
 ```
 
 
-Gets the PivotTable auto format type.
+Gets the PivotTable auto format type. [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
 
 **Returns:**
 int
@@ -842,7 +842,7 @@ public int getMissingItemsLimit()
 ```
 
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
 **Returns:**
 int
@@ -872,7 +872,7 @@ public int getPageFieldOrder()
 ```
 
 
-Gets the order in which page fields are added to the PivotTable report's layout.
+Gets the order in which page fields are added to the PivotTable report's layout. [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Returns:**
 int
@@ -932,7 +932,7 @@ public int getPivotTableStyleType()
 ```
 
 
-Gets the built-in pivot table style.
+Gets the built-in pivot table style. [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 
 **Returns:**
 int
@@ -1358,7 +1358,7 @@ Remove field from specific field area
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | the fields area type. |
+| fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). the fields area type. |
 | pivotField | [PivotField](../../com.aspose.cells/pivotfield) | the field in the base fields. |
 
 ### removeField(int fieldType, int baseFieldIndex) {#removeField-int-int-}
@@ -1372,7 +1372,7 @@ Removes a field from specific field area
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | The fields area type. |
+| fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The fields area type. |
 | baseFieldIndex | int | The field index in the base fields. |
 
 ### removeField(int fieldType, String fieldName) {#removeField-int-java.lang.String-}
@@ -1386,7 +1386,7 @@ Removes a field from specific field area
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | int | The fields area type. |
+| fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The fields area type. |
 | fieldName | java.lang.String | The name in the base fields. |
 
 ### setAltTextDescription(String value) {#setAltTextDescription-java.lang.String-}
@@ -1434,7 +1434,7 @@ public void setAutoFormatType(int value)
 ```
 
 
-Gets the PivotTable auto format type.
+Gets the PivotTable auto format type. [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1840,7 +1840,7 @@ public void setMissingItemsLimit(int value)
 ```
 
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1892,7 +1892,7 @@ public void setPageFieldOrder(int value)
 ```
 
 
-Gets the order in which page fields are added to the PivotTable report's layout.
+Gets the order in which page fields are added to the PivotTable report's layout. [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1931,7 +1931,7 @@ public void setPivotTableStyleType(int value)
 ```
 
 
-Sets the built-in pivot table style.
+Sets the built-in pivot table style. [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -195,7 +195,7 @@ Gets the locale dependent comment title name according to comment title type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int |  |
+| type | int | [CommentTitleType](../../com.aspose.cells/commenttitletype). |
 
 **Returns:**
 java.lang.String - 
@@ -245,7 +245,7 @@ Gets the grand total name of the function.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | int | The function type. |
+| functionType | int | [ConsolidationFunction](../../com.aspose.cells/consolidationfunction). The function type. |
 
 **Returns:**
 java.lang.String - The grand total name of the function.
@@ -415,7 +415,7 @@ Gets the name of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubto
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subTotalType | int | The [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type |
+| subTotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). The [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type |
 
 **Returns:**
 java.lang.String - The name of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type
@@ -480,7 +480,7 @@ Gets the total name of the function.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| functionType | int | The function type. |
+| functionType | int | [ConsolidationFunction](../../com.aspose.cells/consolidationfunction). The function type. |
 
 **Returns:**
 java.lang.String - The total name of the function.

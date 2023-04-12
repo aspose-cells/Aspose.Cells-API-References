@@ -24,10 +24,14 @@ Presents the selected area of the PivotTable.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getOnlyData()](#getOnlyData--) | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
+| [getOnlyLabel()](#getOnlyLabel--) | Indicates whether only the data labels for an item selection are selected. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [select(int axisType, int fieldPosition, int selectionType)](#select-int-int-int-) | Select the area with filters. |
+| [setOnlyData(boolean value)](#setOnlyData-boolean-) | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
+| [setOnlyLabel(boolean value)](#setOnlyLabel-boolean-) | Indicates whether only the data labels for an item selection are selected. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -70,6 +74,26 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getOnlyData() {#getOnlyData--}
+```
+public boolean getOnlyData()
+```
+
+
+Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels.
+
+**Returns:**
+boolean
+### getOnlyLabel() {#getOnlyLabel--}
+```
+public boolean getOnlyLabel()
+```
+
+
+Indicates whether only the data labels for an item selection are selected.
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -107,9 +131,35 @@ Select the area with filters.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| axisType | int | The region of the PivotTable to which this rule applies. |
+| axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region of the PivotTable to which this rule applies. |
 | fieldPosition | int | Position of the field within the axis to which this rule applies. |
-| selectionType | int | Specifies what can be selected in a PivotTable during a structured selection. |
+| selectionType | int | [PivotTableSelectionType](../../com.aspose.cells/pivottableselectiontype). Specifies what can be selected in a PivotTable during a structured selection. |
+
+### setOnlyData(boolean value) {#setOnlyData-boolean-}
+```
+public void setOnlyData(boolean value)
+```
+
+
+Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setOnlyLabel(boolean value) {#setOnlyLabel-boolean-}
+```
+public void setOnlyLabel(boolean value)
+```
+
+
+Indicates whether only the data labels for an item selection are selected.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

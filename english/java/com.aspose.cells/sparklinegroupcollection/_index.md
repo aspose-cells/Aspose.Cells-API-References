@@ -70,7 +70,7 @@ Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) item to the coll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Specifies the type of the Sparkline group. |
+| type | int | [SparklineType](../../com.aspose.cells/sparklinetype). Specifies the type of the Sparkline group. |
 | dataRange | java.lang.String | Specifies the data range of the sparkline group. |
 | isVertical | boolean | Specifies whether to plot the sparklines from the data range by row or by column. |
 | locationRange | [CellArea](../../com.aspose.cells/cellarea) | Specifies where the sparklines to be placed. |

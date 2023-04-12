@@ -20,6 +20,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [AbstractGlobalizationSettings](../com.aspose.cells/abstractglobalizationsettings) | Represents the globalization settings. |
 | [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractTextLoadOptions](../com.aspose.cells/abstracttextloadoptions) | Common options for loading text values |
+| [AccentEquationNode](../com.aspose.cells/accentequationnode) | This class specifies an accent equation, consisting of a base component and a combining diacritic. |
 | [AccessCacheOptions](../com.aspose.cells/accesscacheoptions) | Cache options for data access. |
 | [ActiveXControl](../com.aspose.cells/activexcontrol) | Represents the ActiveX control. |
 | [ActiveXControlBase](../com.aspose.cells/activexcontrolbase) | Represents the ActiveX control. |
@@ -40,13 +41,16 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [BackgroundMode](../com.aspose.cells/backgroundmode) | Represents the display mode of the background. |
 | [BackgroundType](../com.aspose.cells/backgroundtype) | Enumerates cell background pattern types. |
 | [Bar3DShapeType](../com.aspose.cells/bar3dshapetype) | Represents the shape used with the 3-D bar or column chart. |
+| [BarEquationNode](../com.aspose.cells/barequationnode) | This class specifies the bar equation, consisting of a base argument and an overbar or underbar. |
 | [BaseShapeGuide](../com.aspose.cells/baseshapeguide) | Represents the shape guide. |
 | [Bevel](../com.aspose.cells/bevel) | Represents a bevel of a shape |
 | [BevelPresetType](../com.aspose.cells/bevelpresettype) | Represents a preset for a type of bevel which can be applied to a shape in 3D. |
 | [BevelType](../com.aspose.cells/beveltype) | Represents a preset for a type of bevel which can be applied to a shape in 3D. |
 | [Border](../com.aspose.cells/border) | Encapsulates the object that represents the cell border. |
+| [BorderBoxEquationNode](../com.aspose.cells/borderboxequationnode) | This class specifies the Border Box function, consisting of a border drawn around an equation. |
 | [BorderCollection](../com.aspose.cells/bordercollection) | Encapsulates a collection of [Border](../com.aspose.cells/border) objects. |
 | [BorderType](../com.aspose.cells/bordertype) | Enumerates the border line and diagonal line types. |
+| [BoxEquationNode](../com.aspose.cells/boxequationnode) | This class specifies the box function, which is used to group components of an equation. |
 | [BubbleSizeRepresents](../com.aspose.cells/bubblesizerepresents) | Represents what the bubble size represents on a bubble chart. |
 | [BuiltInDocumentPropertyCollection](../com.aspose.cells/builtindocumentpropertycollection) | A collection of built-in document properties. |
 | [BuiltinStyleType](../com.aspose.cells/builtinstyletype) | Represents all built-in style types. |
@@ -172,6 +176,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DefaultEditLanguage](../com.aspose.cells/defaulteditlanguage) | Represents the default edit language. |
 | [DefaultStyleSettings](../com.aspose.cells/defaultstylesettings) | Settings for the default values of workbook's style properties. |
 | [DeleteOptions](../com.aspose.cells/deleteoptions) | Represents the setting of deleting rows/columns. |
+| [DelimiterEquationNode](../com.aspose.cells/delimiterequationnode) | This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a component contained inside. |
 | [DialogBox](../com.aspose.cells/dialogbox) | Represents the dialog box. |
 | [DifSaveOptions](../com.aspose.cells/difsaveoptions) | Represents the options of saving dif file. |
 | [DigitalSignature](../com.aspose.cells/digitalsignature) | Signature in file. |
@@ -194,6 +199,18 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [EmfRenderSetting](../com.aspose.cells/emfrendersetting) | Setting for rendering Emf metafile. |
 | [Encoding](../com.aspose.cells/encoding) | Represents a character encoding. |
 | [EncryptionType](../com.aspose.cells/encryptiontype) | Encryption Type. |
+| [EquationCharacterPositionType](../com.aspose.cells/equationcharacterpositiontype) | Specifies the position of a particular subobject within its parent |
+| [EquationCombiningCharacterType](../com.aspose.cells/equationcombiningcharactertype) | Type of combining characters. |
+| [EquationComponentNode](../com.aspose.cells/equationcomponentnode) | This class specifies the components of an equation or mathematical expression. |
+| [EquationDelimiterShapeType](../com.aspose.cells/equationdelimitershapetype) | This specifies the shape of delimiters in the delimiter object. |
+| [EquationFractionType](../com.aspose.cells/equationfractiontype) | This specifies the display style of the fraction bar. |
+| [EquationHorizontalJustificationType](../com.aspose.cells/equationhorizontaljustificationtype) | This specifies the default horizontal justification of equations in the document. |
+| [EquationLimitLocationType](../com.aspose.cells/equationlimitlocationtype) | Specifies the limit location on an operator. |
+| [EquationMathematicalOperatorType](../com.aspose.cells/equationmathematicaloperatortype) | Mathematical Operators Type |
+| [EquationNode](../com.aspose.cells/equationnode) | Abstract class for deriving other equation nodes. |
+| [EquationNodeParagraph](../com.aspose.cells/equationnodeparagraph) | This class specifies a mathematical paragraph containing one or more MathEquationNode(OMath) elements. |
+| [EquationNodeType](../com.aspose.cells/equationnodetype) | Equation node type. |
+| [EquationVerticalJustificationType](../com.aspose.cells/equationverticaljustificationtype) | This specifies the default vertical justification of equations in the document. |
 | [ErrorBar](../com.aspose.cells/errorbar) | Represents error bar of data series. |
 | [ErrorBarDisplayType](../com.aspose.cells/errorbardisplaytype) | Represents error bar display type. |
 | [ErrorBarType](../com.aspose.cells/errorbartype) | Represents error bar amount type. |
@@ -242,6 +259,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [FormattingType](../com.aspose.cells/formattingtype) | Represents the type of formatting applied to an [Area](../com.aspose.cells/area) object or a [Line](../com.aspose.cells/line) object. |
 | [FormulaParseOptions](../com.aspose.cells/formulaparseoptions) | Represents options when parsing formula. |
 | [FormulaSettings](../com.aspose.cells/formulasettings) | Settings of formulas and calculation. |
+| [FractionEquationNode](../com.aspose.cells/fractionequationnode) | This class specifies the fraction equation, consisting of a numerator and denominator separated by a fraction bar. |
+| [FunctionEquationNode](../com.aspose.cells/functionequationnode) | This class specifies the Function-Apply equation, which consists of a function name and an argument acted upon. |
 | [Geometry](../com.aspose.cells/geometry) | Represents a geometric shape. |
 | [GlobalizationSettings](../com.aspose.cells/globalizationsettings) | Represents the globalization settings. |
 | [GlowEffect](../com.aspose.cells/gloweffect) | This class specifies a glow effect, in which a color blurred outline is added outside the edges of the object. |
@@ -255,6 +274,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [GradientStyleType](../com.aspose.cells/gradientstyletype) | Represents gradient shading style. |
 | [GridlineType](../com.aspose.cells/gridlinetype) | Enumerates grid line Type. |
 | [GroupBox](../com.aspose.cells/groupbox) | Encapsulates the object that represents a groupbox in a spreadsheet. |
+| [GroupCharacterEquationNode](../com.aspose.cells/groupcharacterequationnode) | This class specifies the Group-Character function, consisting of a character drawn above or below text, often with the purpose of visually grouping items. |
 | [GroupFill](../com.aspose.cells/groupfill) | Represents this fill format should inherit the fill properties of the group. |
 | [GroupShape](../com.aspose.cells/groupshape) | Represents the group shape which contains the individual shapes. |
 | [HeaderFooterCommand](../com.aspose.cells/headerfootercommand) | Represents the command of header/footer |
@@ -324,6 +344,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MapChartRegionType](../com.aspose.cells/mapchartregiontype) | Represents the region type of the map chart. |
 | [MarkdownSaveOptions](../com.aspose.cells/markdownsaveoptions) | Represents the save options for markdown. |
 | [Marker](../com.aspose.cells/marker) | Represents the marker in a line chart, scatter chart, or radar chart. |
+| [MathematicalEquationNode](../com.aspose.cells/mathematicalequationnode) | This class specifies an equation or mathematical expression. |
+| [MatrixEquationNode](../com.aspose.cells/matrixequationnode) | This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns. |
 | [MemoryFontSource](../com.aspose.cells/memoryfontsource) | Represents the single TrueType font file stored in memory. |
 | [MemorySetting](../com.aspose.cells/memorysetting) | Memory usage options. |
 | [MetadataOptions](../com.aspose.cells/metadataoptions) | Represents the options of loading metadata of the file. |
@@ -348,6 +370,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Name](../com.aspose.cells/name) | Represents a defined name for a range of cells. |
 | [NameCollection](../com.aspose.cells/namecollection) | Represents a collection of all the [Name](../com.aspose.cells/name) objects in the spreadsheet. |
 | [NameScopeType](../com.aspose.cells/namescopetype) | Represents the scope type of defined names. |
+| [NaryEquationNode](../com.aspose.cells/naryequationnode) | This class specifies an n-ary operator equation consisting of an n-ary operator, a base (or operand), and optional upper and lower bounds. |
 | [NegativeBarFormat](../com.aspose.cells/negativebarformat) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
 | [NoneBulletValue](../com.aspose.cells/nonebulletvalue) | Represents no bullet. |
 | [NoneFill](../com.aspose.cells/nonefill) | Represents no fill. |
@@ -455,6 +478,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [QuartileCalculationType](../com.aspose.cells/quartilecalculationtype) | Represents quartile calculation methods. |
 | [QueryTable](../com.aspose.cells/querytable) | Represents QueryTable information. |
 | [QueryTableCollection](../com.aspose.cells/querytablecollection) | A collection of [QueryTableCollection](../com.aspose.cells/querytablecollection) objects that represent QueryTable collection information. |
+| [RadicalEquationNode](../com.aspose.cells/radicalequationnode) | This class specifies the radical equation, consisting of an optional degree deg(EquationNodeType.Degree) and a base. |
 | [RadioButton](../com.aspose.cells/radiobutton) | Represents a radio button. |
 | [RadioButtonActiveXControl](../com.aspose.cells/radiobuttonactivexcontrol) | Represents a RadioButton ActiveX control. |
 | [Range](../com.aspose.cells/range) | Encapsulates the object that represents a range of cells within a spreadsheet. |
@@ -563,6 +587,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Style](../com.aspose.cells/style) | Represents display style of excel document,such as font,color,alignment,border,etc. |
 | [StyleFlag](../com.aspose.cells/styleflag) | Represents flags which indicates applied formatting properties. |
 | [StyleModifyFlag](../com.aspose.cells/stylemodifyflag) | The style modified flags. |
+| [SubSupEquationNode](../com.aspose.cells/subsupequationnode) | This class specifies an equation that can optionally be superscript or subscript. |
 | [SubtotalSetting](../com.aspose.cells/subtotalsetting) | Represents the setting of the subtotal . |
 | [SvgSaveOptions](../com.aspose.cells/svgsaveoptions) | Represents Svg save options. |
 | [SxRng](../com.aspose.cells/sxrng) | Represents Group Range in a PivotField. |
@@ -591,6 +616,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TextOverflowType](../com.aspose.cells/textoverflowtype) | Represents the way the text vertical or horizontal overflow. |
 | [TextParagraph](../com.aspose.cells/textparagraph) | Represents the text paragraph setting. |
 | [TextParagraphCollection](../com.aspose.cells/textparagraphcollection) | Represents all text paragraph. |
+| [TextRunEquationNode](../com.aspose.cells/textrunequationnode) | This class in the equation node is used to store the actual content(a sequence of mathematical text) of the equation. |
 | [TextStrikeType](../com.aspose.cells/textstriketype) | This type specifies the strike type. |
 | [TextTabAlignmentType](../com.aspose.cells/texttabalignmenttype) | Represents the text tab alignment types. |
 | [TextTabStop](../com.aspose.cells/texttabstop) | Represents tab stop. |
@@ -629,6 +655,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TxtSaveOptions](../com.aspose.cells/txtsaveoptions) | Represents the save options for csv/tab delimited/other text format. |
 | [TxtValueQuoteType](../com.aspose.cells/txtvaluequotetype) | Specifies the type of using quotation marks for values in text format files. |
 | [UnionRange](../com.aspose.cells/unionrange) | Represents union range. |
+| [UnknowEquationNode](../com.aspose.cells/unknowequationnode) | Equation node class of unknown type |
 | [UnknownControl](../com.aspose.cells/unknowncontrol) | Unknow control. |
 | [UpdateLinksType](../com.aspose.cells/updatelinkstype) | Represents how to update links to other workbooks when the workbook is opened. |
 | [Validation](../com.aspose.cells/validation) | Represents data validation.settings. |

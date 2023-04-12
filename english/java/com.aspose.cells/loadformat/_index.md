@@ -30,7 +30,7 @@ Represents the load file format.
 | [OTS](#OTS) | Open Document Template Sheet(OTS) file. |
 | [SPREADSHEET_ML](#SPREADSHEET-ML) | Represents an Excel 2003 xml file. |
 | [SXC](#SXC) | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
-| [TAB_DELIMITED](#TAB-DELIMITED) | Represents a tab delimited text file, same with LoadFormat.TSV. |
+| [TAB_DELIMITED](#TAB-DELIMITED) | Represents a tab delimited text file, same with [TSV](../../com.aspose.cells/loadformat\#TSV). |
 | [TSV](#TSV) | Tab-Separated Values(TSV) text file. |
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be loaded. |
 | [XLSB](#XLSB) | Represents an xlsb file. |
@@ -159,7 +159,7 @@ public static final int TAB_DELIMITED
 ```
 
 
-Represents a tab delimited text file, same with LoadFormat.TSV.
+Represents a tab delimited text file, same with [TSV](../../com.aspose.cells/loadformat\#TSV).
 
 ### TSV {#TSV}
 ```

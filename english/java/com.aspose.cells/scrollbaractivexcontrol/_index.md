@@ -169,7 +169,7 @@ public int getIMEMode()
 ```
 
 
-Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus. [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Returns:**
 int
@@ -251,7 +251,7 @@ public int getMousePointer()
 ```
 
 
-Gets the type of icon displayed as the mouse pointer for the control.
+Gets the type of icon displayed as the mouse pointer for the control. [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Returns:**
 int
@@ -261,7 +261,7 @@ public int getOrientation()
 ```
 
 
-Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
+Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally. [ControlScrollOrientation](../../com.aspose.cells/controlscrollorientation).
 
 ```
 if(activeXControl.getOrientation() == com.aspose.cells.ControlScrollOrientation.AUTO)
@@ -316,7 +316,7 @@ public int getTextAlign()
 ```
 
 
-Represents how to align the text used by the control.
+Represents how to align the text used by the control. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -326,7 +326,7 @@ public int getType()
 ```
 
 
-Gets the type of the ActiveX control.
+Gets the type of the ActiveX control. [ControlType](../../com.aspose.cells/controltype).
 
 ```
 if(activeXControl.getType() == com.aspose.cells.ControlType.SCROLL_BAR)
@@ -504,7 +504,7 @@ public void setIMEMode(int value)
 ```
 
 
-Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus. [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -608,7 +608,7 @@ public void setMousePointer(int value)
 ```
 
 
-Sets the type of icon displayed as the mouse pointer for the control.
+Sets the type of icon displayed as the mouse pointer for the control. [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -621,7 +621,7 @@ public void setOrientation(int value)
 ```
 
 
-Sets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
+Sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. [ControlScrollOrientation](../../com.aspose.cells/controlscrollorientation).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -673,7 +673,7 @@ public void setTextAlign(int value)
 ```
 
 
-Represents how to align the text used by the control.
+Represents how to align the text used by the control. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -78,7 +78,7 @@ Adds module.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | The type of module. |
+| type | int | [VbaModuleType](../../com.aspose.cells/vbamoduletype). The type of module. |
 | name | java.lang.String | The name of module. |
 
 **Returns:**

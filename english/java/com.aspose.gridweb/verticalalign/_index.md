@@ -9,23 +9,18 @@ url: /java/com.aspose.gridweb/verticalalign/
 **Inheritance:**
 java.lang.Object
 ```
-public class VerticalAlign
+public final class VerticalAlign
 ```
 
 vertical alignment of a GridView control
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VerticalAlign()](#VerticalAlign--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Bottom](#Bottom) |  |
-| [Middle](#Middle) |  |
-| [NotSet](#NotSet) |  |
-| [Top](#Top) |  |
+| [BOTTOM](#BOTTOM) |  |
+| [MIDDLE](#MIDDLE) |  |
+| [NOT_SET](#NOT-SET) |  |
+| [TOP](#TOP) |  |
 ## Methods
 
 | Method | Description |
@@ -39,33 +34,27 @@ vertical alignment of a GridView control
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### VerticalAlign() {#VerticalAlign--}
+### BOTTOM {#BOTTOM}
 ```
-public VerticalAlign()
-```
-
-
-### Bottom {#Bottom}
-```
-public static int Bottom
+public static final int BOTTOM
 ```
 
 
-### Middle {#Middle}
+### MIDDLE {#MIDDLE}
 ```
-public static int Middle
-```
-
-
-### NotSet {#NotSet}
-```
-public static int NotSet
+public static final int MIDDLE
 ```
 
 
-### Top {#Top}
+### NOT_SET {#NOT-SET}
 ```
-public static int Top
+public static final int NOT_SET
+```
+
+
+### TOP {#TOP}
+```
+public static final int TOP
 ```
 
 

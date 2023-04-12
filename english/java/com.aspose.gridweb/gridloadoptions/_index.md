@@ -12,7 +12,7 @@ java.lang.Object
 public class GridLoadOptions
 ```
 
-Represents the options of loading the file.
+Represents the options of loading the file. [Obsolete("This class will be obsoleted after stand alone dll usage of cells public api,instead you can use Aspose.Cells.LodOptions ")]
 ## Constructors
 
 | Constructor | Description |

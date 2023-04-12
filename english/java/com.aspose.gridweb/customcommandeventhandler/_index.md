@@ -20,11 +20,11 @@ class MyCustomCommandEventHandler implements  CustomCommandEventHandler,Serializ
                          GridWebBean gridweb=(GridWebBean)sender;
           			  GridWorksheet sheet = gridweb.getActiveSheet();
          	 //Identifying a specific button by checking its command
-             if (command.equals("MyButton"))
+            if (command.equals("MyButton"))
              {
                  //Accessing the cells collection of the worksheet that is currently active
                  //Putting value to "A1" cell
-                 sheet.getCells().get("A1").putValue("My Custom Command Button is Clicked.");
+                  sheet.getCells().get("A1").putValue("My Custom Command Button is Clicked.");
                 // System.out.println("My Custom Command Button is Clicked:"+sheet.getName()+" "+sheet.getCells().get("A1").getValue());
              }	
          }
