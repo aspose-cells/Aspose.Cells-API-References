@@ -13,6 +13,8 @@ public class Border
 ```
 
 Encapsulates the object that represents the cell border.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();

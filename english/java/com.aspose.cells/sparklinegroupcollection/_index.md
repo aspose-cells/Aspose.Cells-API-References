@@ -13,6 +13,8 @@ public class SparklineGroupCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [SparklineGroup](../../com.aspose.cells/sparklinegroup) objects.
+**Example**
+
 
 ```
 Workbook book = new Workbook(); 

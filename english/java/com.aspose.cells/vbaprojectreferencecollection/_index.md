@@ -13,6 +13,8 @@ public class VbaProjectReferenceCollection extends CollectionBase
 ```
 
 Represents all references of VBA project.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

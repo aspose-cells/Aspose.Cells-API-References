@@ -97,6 +97,8 @@ public double getPageScale()
 
 
 Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.getZoom()](../../com.aspose.cells/pagesetup\#getZoom--) is set. Otherwise, returns the calculated scale according to [PageSetup.getFitToPagesWide()](../../com.aspose.cells/pagesetup\#getFitToPagesWide--) and [PageSetup.getFitToPagesTall()](../../com.aspose.cells/pagesetup\#getFitToPagesTall--).
+**Example**
+
 
 ```
 Workbook wb = new Workbook("Book1.xlsx");
@@ -185,6 +187,8 @@ public void toImage(int pageIndex, String fileName)
 
 
 Render certain page to a file.
+**Example**
+The following code outputs the first page of the first sheet to png image.
 
 ```
 //load the source file with images.

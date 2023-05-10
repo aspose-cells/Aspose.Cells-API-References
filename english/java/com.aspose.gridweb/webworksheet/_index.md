@@ -13,6 +13,8 @@ public class WebWorksheet extends Control
 ```
 
 Represents a web worksheet. NOTE: This class is now obsolete. please use GridWorksheet Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
+**Example**
+
 
 ```
 

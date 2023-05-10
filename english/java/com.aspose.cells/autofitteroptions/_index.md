@@ -28,6 +28,7 @@ Represents all auto fitter options.
 | [getAutoFitWrappedTextType()](#getAutoFitWrappedTextType--) | Gets the type of auto fitting wrapped text. |
 | [getClass()](#getClass--) |  |
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
+| [getForRendering()](#getForRendering--) | Indicates whether fit for rendering purpose. |
 | [getFormatStrategy()](#getFormatStrategy--) | Gets the formatted strategy. |
 | [getIgnoreHidden()](#getIgnoreHidden--) | Ignores the hidden rows/columns. |
 | [getMaxRowHeight()](#getMaxRowHeight--) | Gets the max row height(in unit of Point) when autofitting rows. |
@@ -39,6 +40,7 @@ Represents all auto fitter options.
 | [setAutoFitMergedCellsType(int value)](#setAutoFitMergedCellsType-int-) | Sets the type of auto fitting row height of merged cells. |
 | [setAutoFitWrappedTextType(int value)](#setAutoFitWrappedTextType-int-) | Sets the type of auto fitting wrapped text. |
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
+| [setForRendering(boolean value)](#setForRendering-boolean-) | Indicates whether fit for rendering purpose. |
 | [setFormatStrategy(int value)](#setFormatStrategy-int-) | Sets the formatted strategy. |
 | [setIgnoreHidden(boolean value)](#setIgnoreHidden-boolean-) | Ignores the hidden rows/columns. |
 | [setMaxRowHeight(double value)](#setMaxRowHeight-double-) | Sets the max row height(in unit of Point) when autofitting rows. |
@@ -118,6 +120,16 @@ Gets default edit language. [DefaultEditLanguage](../../com.aspose.cells/default
 
 **Returns:**
 int
+### getForRendering() {#getForRendering--}
+```
+public boolean getForRendering()
+```
+
+
+Indicates whether fit for rendering purpose.
+
+**Returns:**
+boolean
 ### getFormatStrategy() {#getFormatStrategy--}
 ```
 public int getFormatStrategy()
@@ -235,6 +247,19 @@ Sets default edit language. [DefaultEditLanguage](../../com.aspose.cells/default
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setForRendering(boolean value) {#setForRendering-boolean-}
+```
+public void setForRendering(boolean value)
+```
+
+
+Indicates whether fit for rendering purpose.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setFormatStrategy(int value) {#setFormatStrategy-int-}
 ```

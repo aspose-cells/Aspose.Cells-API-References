@@ -1,7 +1,7 @@
 ---
 title: Slicer
 second_title: Aspose.Cells for Java API Reference
-description: summary description of Slicer View
+description: summary description of Slicer View  Example
 type: docs
 url: /java/com.aspose.cells/slicer/
 ---
@@ -13,6 +13,8 @@ public class Slicer
 ```
 
 summary description of Slicer View
+**Example**
+
 
 ```
 Workbook book = new Workbook();
@@ -79,16 +81,22 @@ Workbook book = new Workbook();
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [getCaption()](#getCaption--) | Returns or sets the caption of the specified slicer. |
-| [getCaptionVisible()](#getCaptionVisible--) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
+| [getCaptionVisible()](#getCaptionVisible--) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+**Example**
+ |
 | [getClass()](#getClass--) |  |
 | [getColumnWidth()](#getColumnWidth--) | Returns or sets the width, in points, of each column in the slicer. |
-| [getColumnWidthPixel()](#getColumnWidthPixel--) | Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
+| [getColumnWidthPixel()](#getColumnWidthPixel--) | Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+**Example**
+ |
 | [getHeight()](#getHeight--) | Returns or sets the height of the specified slicer, in points. |
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified slicer, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
 | [getLockedAspectRatio()](#getLockedAspectRatio--) | Indicates whether locking aspect ratio. |
 | [getLockedPosition()](#getLockedPosition--) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
-| [getName()](#getName--) | Returns or sets the name of the specified slicer |
+| [getName()](#getName--) | Returns or sets the name of the specified slicer
+**Example**
+ |
 | [getNumberOfColumns()](#getNumberOfColumns--) | Returns or sets the number of columns in the specified slicer. |
 | [getParent()](#getParent--) | Returns the Worksheet object that represents the sheet that contains the slicer. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
@@ -109,16 +117,22 @@ Workbook book = new Workbook();
 | [removePivotConnection(PivotTable pivot)](#removePivotConnection-com.aspose.cells.PivotTable-) | Removes PivotTable connection. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the descriptive (alternative) text string of the Slicer object. |
 | [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified slicer. |
-| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true |
+| [setCaptionVisible(boolean value)](#setCaptionVisible-boolean-) | Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+**Example**
+ |
 | [setColumnWidth(double value)](#setColumnWidth-double-) | Returns or sets the width, in points, of each column in the slicer. |
-| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | Sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d |
+| [setColumnWidthPixel(int value)](#setColumnWidthPixel-int-) | Sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+**Example**
+ |
 | [setHeight(double value)](#setHeight-double-) | Returns or sets the height of the specified slicer, in points. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified slicer, in pixels. |
 | [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of slicer shape from its left column, in pixels. |
 | [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether the slicer shape is locked. |
 | [setLockedAspectRatio(boolean value)](#setLockedAspectRatio-boolean-) | Indicates whether locking aspect ratio. |
 | [setLockedPosition(boolean value)](#setLockedPosition-boolean-) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
-| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified slicer |
+| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified slicer
+**Example**
+ |
 | [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Returns or sets the number of columns in the specified slicer. |
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the drawing object is attached to the cells below it. |
 | [setPrintable(boolean value)](#setPrintable-boolean-) | Indicates whether the slicer object is printable. |
@@ -140,6 +154,8 @@ public void addPivotConnection(PivotTable pivot)
 
 
 Adds PivotTable connection.
+**Example**
+
 
 ```
 slicer.addPivotConnection(pivot);
@@ -172,6 +188,8 @@ public String getAlternativeText()
 
 
 Returns or sets the descriptive (alternative) text string of the Slicer object.
+**Example**
+
 
 ```
 slicer.setAlternativeText("AlternativeText test");
@@ -186,6 +204,8 @@ public String getCaption()
 
 
 Returns or sets the caption of the specified slicer.
+**Example**
+
 
 ```
 slicer.setCaption("slicer caption");
@@ -200,6 +220,8 @@ public boolean getCaptionVisible()
 
 
 Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+**Example**
+
 
 ```
 slicer.setCaptionVisible(true);
@@ -224,6 +246,8 @@ public double getColumnWidth()
 
 
 Returns or sets the width, in points, of each column in the slicer.
+**Example**
+
 
 ```
 slicer.setColumnWidth(80);
@@ -238,6 +262,8 @@ public int getColumnWidthPixel()
 
 
 Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+**Example**
+
 
 ```
 slicer.setColumnWidthPixel(120);
@@ -252,6 +278,8 @@ public double getHeight()
 
 
 Returns or sets the height of the specified slicer, in points.
+**Example**
+
 
 ```
 slicer.setHeight(120);
@@ -266,6 +294,8 @@ public int getHeightPixel()
 
 
 Returns or sets the height of the specified slicer, in pixels.
+**Example**
+
 
 ```
 slicer.setHeightPixel(150);
@@ -280,6 +310,8 @@ public int getLeftPixel()
 
 
 Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
+**Example**
+
 
 ```
 slicer.setLeftPixel(2);
@@ -294,6 +326,8 @@ public boolean getLockedAspectRatio()
 
 
 Indicates whether locking aspect ratio.
+**Example**
+
 
 ```
 slicer.setLockedAspectRatio(true);
@@ -308,6 +342,8 @@ public boolean getLockedPosition()
 
 
 Indicates whether the specified slicer can be moved or resized by using the user interface.
+**Example**
+
 
 ```
 slicer.setLockedPosition(false);
@@ -322,6 +358,8 @@ public String getName()
 
 
 Returns or sets the name of the specified slicer
+**Example**
+
 
 ```
 slicer.setName("slicer name");
@@ -336,6 +374,8 @@ public int getNumberOfColumns()
 
 
 Returns or sets the number of columns in the specified slicer.
+**Example**
+
 
 ```
 slicer.setNumberOfColumns(1);
@@ -350,6 +390,8 @@ public Worksheet getParent()
 
 
 Returns the Worksheet object that represents the sheet that contains the slicer. Read-only.
+**Example**
+
 
 ```
 Worksheet currSheet = slicer.getParent();
@@ -364,6 +406,8 @@ public int getPlacement()
 
 
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
+**Example**
+
 
 ```
 slicer.setPlacement(PlacementType.FREE_FLOATING);
@@ -378,6 +422,8 @@ public double getRowHeight()
 
 
 Returns or sets the height, in points, of each row in the specified slicer.
+**Example**
+
 
 ```
 slicer.setRowHeight(20);
@@ -392,6 +438,8 @@ public int getRowHeightPixel()
 
 
 Returns or sets the height, in pixels, of each row in the specified slicer.
+**Example**
+
 
 ```
 slicer.setRowHeightPixel(30);
@@ -406,6 +454,8 @@ public SlicerCache getSlicerCache()
 
 
 Returns the SlicerCache object associated with the slicer. Read-only.
+**Example**
+
 
 ```
 SlicerCache slicerCache = slicer.getSlicerCache();
@@ -420,6 +470,8 @@ public int getStyleType()
 
 
 Specify the type of Built-in slicer style the default type is SlicerStyleLight1 [SlicerStyleType](../../com.aspose.cells/slicerstyletype).
+**Example**
+
 
 ```
 slicer.setStyleType(SlicerStyleType.SLICER_STYLE_LIGHT_2);
@@ -434,6 +486,8 @@ public String getTitle()
 
 
 Specifies the title of the current Slicer object.
+**Example**
+
 
 ```
 slicer.setTitle("slicer title");
@@ -448,6 +502,8 @@ public int getTopPixel()
 
 
 Returns or sets the vertical offset of slicer shape from its top row, in pixels.
+**Example**
+
 
 ```
 slicer.setTopPixel(6);
@@ -462,6 +518,8 @@ public double getWidth()
 
 
 Returns or sets the width of the specified slicer, in points.
+**Example**
+
 
 ```
 slicer.setWidth(100);
@@ -476,6 +534,8 @@ public int getWidthPixel()
 
 
 Returns or sets the width of the specified slicer, in pixels.
+**Example**
+
 
 ```
 slicer.setWidthPixel(120);
@@ -500,6 +560,8 @@ public boolean isLocked()
 
 
 Indicates whether the slicer shape is locked.
+**Example**
+
 
 ```
 slicer.setLocked(false);
@@ -514,6 +576,8 @@ public boolean isPrintable()
 
 
 Indicates whether the slicer object is printable.
+**Example**
+
 
 ```
 slicer.setPrintable(true);
@@ -544,6 +608,8 @@ public void refresh()
 
 
 Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables.
+**Example**
+
 
 ```
 slicer.refresh();
@@ -556,6 +622,8 @@ public void removePivotConnection(PivotTable pivot)
 
 
 Removes PivotTable connection.
+**Example**
+
 
 ```
 slicer.removePivotConnection(pivot);
@@ -573,6 +641,8 @@ public void setAlternativeText(String value)
 
 
 Returns or sets the descriptive (alternative) text string of the Slicer object.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -586,6 +656,8 @@ public void setCaption(String value)
 
 
 Returns or sets the caption of the specified slicer.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -599,6 +671,8 @@ public void setCaptionVisible(boolean value)
 
 
 Returns or sets whether the header that displays the slicer Caption is visible the default value is true
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -612,6 +686,8 @@ public void setColumnWidth(double value)
 
 
 Returns or sets the width, in points, of each column in the slicer.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -625,6 +701,8 @@ public void setColumnWidthPixel(int value)
 
 
 Sets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer.\\u807d
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -638,6 +716,8 @@ public void setHeight(double value)
 
 
 Returns or sets the height of the specified slicer, in points.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -651,6 +731,8 @@ public void setHeightPixel(int value)
 
 
 Returns or sets the height of the specified slicer, in pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -664,6 +746,8 @@ public void setLeftPixel(int value)
 
 
 Returns or sets the horizontal offset of slicer shape from its left column, in pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -677,6 +761,8 @@ public void setLocked(boolean value)
 
 
 Indicates whether the slicer shape is locked.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -690,6 +776,8 @@ public void setLockedAspectRatio(boolean value)
 
 
 Indicates whether locking aspect ratio.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -703,6 +791,8 @@ public void setLockedPosition(boolean value)
 
 
 Indicates whether the specified slicer can be moved or resized by using the user interface.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -716,6 +806,8 @@ public void setName(String value)
 
 
 Returns or sets the name of the specified slicer
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -729,6 +821,8 @@ public void setNumberOfColumns(int value)
 
 
 Returns or sets the number of columns in the specified slicer.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -742,6 +836,8 @@ public void setPlacement(int value)
 
 
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -755,6 +851,8 @@ public void setPrintable(boolean value)
 
 
 Indicates whether the slicer object is printable.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -768,6 +866,8 @@ public void setRowHeight(double value)
 
 
 Returns or sets the height, in points, of each row in the specified slicer.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -781,6 +881,8 @@ public void setRowHeightPixel(int value)
 
 
 Returns or sets the height, in pixels, of each row in the specified slicer.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -794,6 +896,8 @@ public void setStyleType(int value)
 
 
 Specify the type of Built-in slicer style the default type is SlicerStyleLight1 [SlicerStyleType](../../com.aspose.cells/slicerstyletype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -807,6 +911,8 @@ public void setTitle(String value)
 
 
 Specifies the title of the current Slicer object.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -820,6 +926,8 @@ public void setTopPixel(int value)
 
 
 Returns or sets the vertical offset of slicer shape from its top row, in pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -833,6 +941,8 @@ public void setWidth(double value)
 
 
 Returns or sets the width of the specified slicer, in points.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -846,6 +956,8 @@ public void setWidthPixel(int value)
 
 
 Returns or sets the width of the specified slicer, in pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

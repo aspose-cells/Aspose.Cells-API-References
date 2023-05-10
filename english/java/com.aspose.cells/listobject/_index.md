@@ -13,6 +13,8 @@ public class ListObject
 ```
 
 Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -72,6 +74,7 @@ Workbook workbook = new Workbook();
 | [notifyAll()](#notifyAll--) |  |
 | [putCellFormula(int rowOffset, int columnOffset, String formula)](#putCellFormula-int-int-java.lang.String-) | Put the formula to the cell in the table. |
 | [putCellValue(int rowOffset, int columnOffset, Object value)](#putCellValue-int-int-java.lang.Object-) | Put the value to the cell. |
+| [putCellValue(int rowOffset, int columnOffset, Object value, boolean isTotalsRowLabel)](#putCellValue-int-int-java.lang.Object-boolean-) | Put the value to the cell. |
 | [resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders)](#resize-int-int-int-int-boolean-) | Resize the range of the list object. |
 | [setAlternativeDescription(String value)](#setAlternativeDescription-java.lang.String-) | Sets the alternative description. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Sets the alternative text. |
@@ -361,6 +364,8 @@ public int getTableStyleType()
 
 
 Gets and the built-in table style. [TableStyleType](../../com.aspose.cells/tablestyletype).
+**Example**
+
 
 ```
 Workbook workbook = new Workbook("Book1.xlsx");
@@ -438,6 +443,22 @@ Put the value to the cell.
 | rowOffset | int | The row offset in the table. |
 | columnOffset | int | The column offset in the table. |
 | value | java.lang.Object | The cell value. |
+
+### putCellValue(int rowOffset, int columnOffset, Object value, boolean isTotalsRowLabel) {#putCellValue-int-int-java.lang.Object-boolean-}
+```
+public void putCellValue(int rowOffset, int columnOffset, Object value, boolean isTotalsRowLabel)
+```
+
+
+Put the value to the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | int | The row offset in the table. |
+| columnOffset | int | The column offset in the table. |
+| value | java.lang.Object | The cell value. |
+| isTotalsRowLabel | boolean | Indicates whether it is a label for total row,only works for total row. If False and this row is total row, a new row will be inserted. |
 
 ### resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders) {#resize-int-int-int-int-boolean-}
 ```
@@ -606,6 +627,8 @@ public void setTableStyleType(int value)
 
 
 Gets and the built-in table style. [TableStyleType](../../com.aspose.cells/tablestyletype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

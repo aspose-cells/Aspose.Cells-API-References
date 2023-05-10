@@ -1,7 +1,7 @@
 ---
 title: SlicerCache
 second_title: Aspose.Cells for Java API Reference
-description: summary description of slicer cache
+description: summary description of slicer cache  Example
 type: docs
 url: /java/com.aspose.cells/slicercache/
 ---
@@ -13,6 +13,8 @@ public class SlicerCache
 ```
 
 summary description of slicer cache
+**Example**
+
 
 ```
 Workbook book = new Workbook();
@@ -82,7 +84,9 @@ Workbook book = new Workbook();
 | [getList()](#getList--) | Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. |
 | [getName()](#getName--) | Returns the name of the slicer cache. |
 | [getSlicerCacheItems()](#getSlicerCacheItems--) | Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. |
-| [getSourceName()](#getSourceName--) | Returns the name of cache field |
+| [getSourceName()](#getSourceName--) | Returns the name of cache field
+**Example**
+ |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -133,6 +137,8 @@ public boolean getList()
 
 
 Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only
+**Example**
+
 
 ```
 System.out.println(slicerCache.getList());
@@ -147,6 +153,8 @@ public String getName()
 
 
 Returns the name of the slicer cache.
+**Example**
+
 
 ```
 //get the name of the slicer cache.
@@ -162,6 +170,8 @@ public SlicerCacheItemCollection getSlicerCacheItems()
 
 
 Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only
+**Example**
+
 
 ```
 //get SlicerCacheItem collection that contains the collection of all items in the slicer cache.
@@ -178,6 +188,8 @@ public String getSourceName()
 
 
 Returns the name of cache field
+**Example**
+
 
 ```
 //get the name of cache field.

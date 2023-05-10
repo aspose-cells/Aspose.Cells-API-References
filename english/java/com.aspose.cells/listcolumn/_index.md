@@ -1,7 +1,7 @@
 ---
 title: ListColumn
 second_title: Aspose.Cells for Java API Reference
-description: Represents a column in a list.
+description: Represents a column in a Table.
 type: docs
 url: /java/com.aspose.cells/listcolumn/
 ---
@@ -12,7 +12,9 @@ java.lang.Object
 public class ListColumn
 ```
 
-Represents a column in a list.
+Represents a column in a Table.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -49,6 +51,7 @@ Workbook workbook = new Workbook();
 | [getName()](#getName--) | Gets the name of the column. |
 | [getRange()](#getRange--) | Gets the range of this list column. |
 | [getTotalsCalculation()](#getTotalsCalculation--) | Gets the type of calculation in the Totals row of the list column. |
+| [getTotalsRowLabel()](#getTotalsRowLabel--) | Gets the display labels of total row. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -57,6 +60,7 @@ Workbook workbook = new Workbook();
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets the formula of the list column. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the column. |
 | [setTotalsCalculation(int value)](#setTotalsCalculation-int-) | Sets the type of calculation in the Totals row of the list column. |
+| [setTotalsRowLabel(String value)](#setTotalsRowLabel-java.lang.String-) | Sets the display labels of total row. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -158,6 +162,16 @@ Gets the type of calculation in the Totals row of the list column. [TotalsCalcul
 
 **Returns:**
 int
+### getTotalsRowLabel() {#getTotalsRowLabel--}
+```
+public String getTotalsRowLabel()
+```
+
+
+Gets the display labels of total row.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -252,6 +266,19 @@ Sets the type of calculation in the Totals row of the list column. [TotalsCalcul
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setTotalsRowLabel(String value) {#setTotalsRowLabel-java.lang.String-}
+```
+public void setTotalsRowLabel(String value)
+```
+
+
+Sets the display labels of total row.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

@@ -13,6 +13,8 @@ public class TextBoxActiveXControl extends ActiveXControl
 ```
 
 Represents a text box ActiveX control.
+**Example**
+
 
 ```
 //Initialize a new workbook.
@@ -48,7 +50,9 @@ Represents a text box ActiveX control.
 | [getIntegralHeight()](#getIntegralHeight--) | Indicates whether the control will only show complete lines of text without showing any partial lines. |
 | [getLinkedCell()](#getLinkedCell--) | Gets the linked cell. |
 | [getListFillRange()](#getListFillRange--) | Gets the list fill range. |
-| [getMaxLength()](#getMaxLength--) | Gets the maximum number of characters |
+| [getMaxLength()](#getMaxLength--) | Gets the maximum number of characters
+**Example**
+ |
 | [getMouseIcon()](#getMouseIcon--) | Gets a custom icon to display as the mouse pointer for the control. |
 | [getMousePointer()](#getMousePointer--) | Gets the type of icon displayed as the mouse pointer for the control. |
 | [getPasswordChar()](#getPasswordChar--) | Gets a character to be displayed in place of the characters entered. |
@@ -96,7 +100,9 @@ Represents a text box ActiveX control.
 | [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the linked cell. |
 | [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Sets the list fill range. |
 | [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether data in the control is locked for editing. |
-| [setMaxLength(int value)](#setMaxLength-int-) | Sets the maximum number of characters |
+| [setMaxLength(int value)](#setMaxLength-int-) | Sets the maximum number of characters
+**Example**
+ |
 | [setMouseIcon(byte[] value)](#setMouseIcon-byte---) | Sets a custom icon to display as the mouse pointer for the control. |
 | [setMousePointer(int value)](#setMousePointer-int-) | Sets the type of icon displayed as the mouse pointer for the control. |
 | [setMultiLine(boolean value)](#setMultiLine-boolean-) | Indicates whether the control can display more than one line of text. |
@@ -148,6 +154,8 @@ public int getBorderOleColor()
 
 
 Gets the ole color of the background.
+**Example**
+
 
 ```
 //excel default color system 12 or green(0x0000FF00)
@@ -163,6 +171,8 @@ public int getBorderStyle()
 
 
 Gets the type of border used by the control. [ControlBorderType](../../com.aspose.cells/controlbordertype).
+**Example**
+
 
 ```
 activeXControl.setBorderStyle(com.aspose.cells.ControlBorderType.SINGLE);
@@ -197,6 +207,8 @@ public int getDropButtonStyle()
 
 
 Specifies the symbol displayed on the drop button [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
+**Example**
+
 
 ```
 activeXControl.setDropButtonStyle(com.aspose.cells.DropButtonStyle.ARROW);
@@ -211,6 +223,8 @@ public boolean getEnterFieldBehavior()
 
 
 Specifies selection behavior when entering the control. True specifies that the selection remains unchanged from last time the control was active. False specifies that all the text in the control will be selected when entering the control.
+**Example**
+
 
 ```
 if(!activeXControl.getEnterFieldBehavior())
@@ -228,6 +242,8 @@ public boolean getEnterKeyBehavior()
 
 
 Specifies the behavior of the ENTER key. True specifies that pressing ENTER will create a new line. False specifies that pressing ENTER will move the focus to the next object in the tab order.
+**Example**
+
 
 ```
 if(!activeXControl.getEnterKeyBehavior())
@@ -275,6 +291,8 @@ public boolean getHideSelection()
 
 
 Indicates whether selected text in the control appears highlighted when the control does not have focus.
+**Example**
+
 
 ```
 if(!activeXControl.getHideSelection())
@@ -302,6 +320,8 @@ public boolean getIntegralHeight()
 
 
 Indicates whether the control will only show complete lines of text without showing any partial lines.
+**Example**
+
 
 ```
 if(!activeXControl.getIntegralHeight())
@@ -339,6 +359,8 @@ public int getMaxLength()
 
 
 Gets the maximum number of characters
+**Example**
+
 
 ```
 if(activeXControl.getMaxLength() == 0)
@@ -376,6 +398,8 @@ public char getPasswordChar()
 
 
 Gets a character to be displayed in place of the characters entered.
+**Example**
+
 
 ```
 activeXControl.setPasswordChar('a');
@@ -390,6 +414,8 @@ public int getScrollBars()
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
+**Example**
+
 
 ```
 activeXControl.setScrollBars(com.aspose.cells.ControlScrollBarType.BARS_VERTICAL);
@@ -414,6 +440,8 @@ public int getShowDropButtonTypeWhen()
 
 
 Specifies the symbol displayed on the drop button [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
+**Example**
+
 
 ```
 activeXControl.setShowDropButtonTypeWhen(com.aspose.cells.ShowDropButtonType.FOCUS);
@@ -428,6 +456,8 @@ public int getSpecialEffect()
 
 
 Gets the special effect of the control. [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
+**Example**
+
 
 ```
 activeXControl.setSpecialEffect(com.aspose.cells.ControlSpecialEffectType.BUMP);
@@ -442,6 +472,8 @@ public boolean getTabKeyBehavior()
 
 
 Indicates whether tab characters are allowed in the text of the control.
+**Example**
+
 
 ```
 if(!activeXControl.getTabKeyBehavior())
@@ -459,6 +491,8 @@ public String getText()
 
 
 Gets text of the control.
+**Example**
+
 
 ```
 activeXControl.setText("This is a test.");
@@ -483,6 +517,8 @@ public int getType()
 
 
 Gets the type of the ActiveX control. [ControlType](../../com.aspose.cells/controltype).
+**Example**
+
 
 ```
 /*Aspose.Cells.Drawing.ActiveXControls.ControlType*/int type = activeXControl.getType();
@@ -537,6 +573,8 @@ public boolean isAutoTab()
 
 
 Indicates whether the focus will automatically move to the next control when the user enters the maximum number of characters.
+**Example**
+
 
 ```
 if(!activeXControl.isAutoTab())
@@ -554,6 +592,8 @@ public boolean isAutoWordSelected()
 
 
 Specifies the basic unit used to extend a selection. True specifies that the basic unit is a single character. false specifies that the basic unit is a whole word.
+**Example**
+
 
 ```
 if(!activeXControl.isAutoWordSelected())
@@ -571,6 +611,8 @@ public boolean isDragBehaviorEnabled()
 
 
 Indicates whether dragging and dropping is enabled for the control.
+**Example**
+
 
 ```
 if(!activeXControl.isDragBehaviorEnabled())
@@ -588,6 +630,8 @@ public boolean isEditable()
 
 
 Indicates whether the user can type into the control.
+**Example**
+
 
 ```
 if(!activeXControl.isEditable())
@@ -625,6 +669,8 @@ public boolean isMultiLine()
 
 
 Indicates whether the control can display more than one line of text.
+**Example**
+
 
 ```
 if(!activeXControl.isMultiLine())
@@ -662,6 +708,8 @@ public boolean isWordWrapped()
 
 
 Indicates whether the contents of the control automatically wrap at the end of a line.
+**Example**
+
 
 ```
 if(!activeXControl.isWordWrapped())
@@ -708,6 +756,8 @@ public void setAutoTab(boolean value)
 
 
 Indicates whether the focus will automatically move to the next control when the user enters the maximum number of characters.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -721,6 +771,8 @@ public void setAutoWordSelected(boolean value)
 
 
 Specifies the basic unit used to extend a selection. True specifies that the basic unit is a single character. false specifies that the basic unit is a whole word.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -747,6 +799,8 @@ public void setBorderOleColor(int value)
 
 
 Sets the ole color of the background.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -760,6 +814,8 @@ public void setBorderStyle(int value)
 
 
 Sets the type of border used by the control. [ControlBorderType](../../com.aspose.cells/controlbordertype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -773,6 +829,8 @@ public void setDragBehaviorEnabled(boolean value)
 
 
 Indicates whether dragging and dropping is enabled for the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -786,6 +844,8 @@ public void setDropButtonStyle(int value)
 
 
 Specifies the symbol displayed on the drop button [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -799,6 +859,8 @@ public void setEditable(boolean value)
 
 
 Indicates whether the user can type into the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -825,6 +887,8 @@ public void setEnterFieldBehavior(boolean value)
 
 
 Specifies selection behavior when entering the control. True specifies that the selection remains unchanged from last time the control was active. False specifies that all the text in the control will be selected when entering the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -838,6 +902,8 @@ public void setEnterKeyBehavior(boolean value)
 
 
 Specifies the behavior of the ENTER key. True specifies that pressing ENTER will create a new line. False specifies that pressing ENTER will move the focus to the next object in the tab order.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -877,6 +943,8 @@ public void setHideSelection(boolean value)
 
 
 Indicates whether selected text in the control appears highlighted when the control does not have focus.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -903,6 +971,8 @@ public void setIntegralHeight(boolean value)
 
 
 Indicates whether the control will only show complete lines of text without showing any partial lines.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -955,6 +1025,8 @@ public void setMaxLength(int value)
 
 
 Sets the maximum number of characters
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -994,6 +1066,8 @@ public void setMultiLine(boolean value)
 
 
 Indicates whether the control can display more than one line of text.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1007,6 +1081,8 @@ public void setPasswordChar(char value)
 
 
 Sets a character to be displayed in place of the characters entered.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1020,6 +1096,8 @@ public void setScrollBars(int value)
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1046,6 +1124,8 @@ public void setShowDropButtonTypeWhen(int value)
 
 
 Specifies the symbol displayed on the drop button [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1059,6 +1139,8 @@ public void setSpecialEffect(int value)
 
 
 Sets the special effect of the control. [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1072,6 +1154,8 @@ public void setTabKeyBehavior(boolean value)
 
 
 Indicates whether tab characters are allowed in the text of the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1085,6 +1169,8 @@ public void setText(String value)
 
 
 Sets text of the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1150,6 +1236,8 @@ public void setWordWrapped(boolean value)
 
 
 Indicates whether the contents of the control automatically wrap at the end of a line.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

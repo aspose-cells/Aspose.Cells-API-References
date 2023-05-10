@@ -13,6 +13,8 @@ public class LoadFilter
 ```
 
 Represents the filter that provides options for loading data when loading workbook from template. User may specify the filter options or implement their own LoadFilter to specify how to load data.
+**Example**
+The following example shows how to determine the filter options according to worksheet's properties.
 
 ```
 class LoadFilterSheet extends LoadFilter

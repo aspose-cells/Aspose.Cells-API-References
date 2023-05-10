@@ -13,6 +13,8 @@ public class HorizontalPageBreakCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [HorizontalPageBreak](../../com.aspose.cells/horizontalpagebreak) objects.
+**Example**
+
 
 ```
 Workbook excel = new Workbook();

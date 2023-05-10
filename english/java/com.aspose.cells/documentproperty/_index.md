@@ -13,6 +13,8 @@ public class DocumentProperty
 ```
 
 Represents a custom or built-in document property.
+**Example**
+
 
 ```
 //Instantiate a Workbook object

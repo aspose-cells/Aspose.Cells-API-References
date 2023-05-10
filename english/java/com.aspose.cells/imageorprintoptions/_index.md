@@ -13,6 +13,8 @@ public class ImageOrPrintOptions
 ```
 
 Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image.
+**Example**
+
 
 ```
 //Set Image Or Print Options
@@ -86,6 +88,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDesiredSize(int desiredWidth, int desiredHeight)](#setDesiredSize-int-int-) | Sets desired width and height of image. |
+| [setDesiredSize(int desiredWidth, int desiredHeight, boolean keepAspectRatio)](#setDesiredSize-int-int-boolean-) | Sets desired width and height of image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
 | [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | Indicate the filename of embedded image in svg. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
@@ -578,6 +581,20 @@ public void setDesiredSize(int desiredWidth, int desiredHeight)
 ```
 
 
+Sets desired width and height of image. NOTE: This member is now obsolete. Instead, please use [setDesiredSize(int,int,boolean)](../../com.aspose.cells/imageorprintoptions\#setDesiredSize-int-int-boolean-) by setting param keepAspectRatio to false. This property will be removed 12 months later since May 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| desiredWidth | int | desired width in pixels |
+| desiredHeight | int | desired height in pixels |
+
+### setDesiredSize(int desiredWidth, int desiredHeight, boolean keepAspectRatio) {#setDesiredSize-int-int-boolean-}
+```
+public void setDesiredSize(int desiredWidth, int desiredHeight, boolean keepAspectRatio)
+```
+
+
 Sets desired width and height of image.
 
 **Parameters:**
@@ -585,6 +602,7 @@ Sets desired width and height of image.
 | --- | --- | --- |
 | desiredWidth | int | desired width in pixels |
 | desiredHeight | int | desired height in pixels |
+| keepAspectRatio | boolean | whether to keep aspect ratio of origin image |
 
 ### setDrawObjectEventHandler(DrawObjectEventHandler value) {#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-}
 ```

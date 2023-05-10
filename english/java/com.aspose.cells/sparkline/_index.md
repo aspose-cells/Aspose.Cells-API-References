@@ -13,6 +13,8 @@ public class Sparkline
 ```
 
 A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data.
+**Example**
+
 
 ```
 Workbook book = new Workbook(); 

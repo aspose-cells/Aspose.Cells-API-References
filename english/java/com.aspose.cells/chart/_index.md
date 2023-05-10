@@ -13,6 +13,8 @@ public class Chart
 ```
 
 Encapsulates the object that represents a single Excel chart.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -97,6 +99,7 @@ Workbook workbook = new Workbook();
 | [getWorksheet()](#getWorksheet--) | Gets the worksheet which contains this chart. |
 | [hasAxis(int aixsType, boolean isPrimary)](#hasAxis-int-boolean-) | Returns which axes exist on the chart. |
 | [hashCode()](#hashCode--) |  |
+| [isCellReferedByChart(int sheetIndex, int rowIndex, int columnIndex)](#isCellReferedByChart-int-int-int-) | Returns whether the cell refered by the chart. |
 | [isChartDataChanged()](#isChartDataChanged--) | Detects if a chart's data source has changed. |
 | [isRectangularCornered()](#isRectangularCornered--) | Gets a value indicating whether the chart area is rectangular cornered. |
 | [isReferedByChart(int rowIndex, int columnIndex)](#isReferedByChart-int-int-) | Returns whether the cell refered by the chart. |
@@ -748,6 +751,23 @@ public native int hashCode()
 
 **Returns:**
 int
+### isCellReferedByChart(int sheetIndex, int rowIndex, int columnIndex) {#isCellReferedByChart-int-int-int-}
+```
+public boolean isCellReferedByChart(int sheetIndex, int rowIndex, int columnIndex)
+```
+
+
+Returns whether the cell refered by the chart.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndex | int | The sheet Index.-1 means the worksheet which contains current chart. |
+| rowIndex | int | The row index |
+| columnIndex | int | The column index |
+
+**Returns:**
+boolean - 
 ### isChartDataChanged() {#isChartDataChanged--}
 ```
 public boolean isChartDataChanged()
@@ -774,7 +794,7 @@ public boolean isReferedByChart(int rowIndex, int columnIndex)
 ```
 
 
-Returns whether the cell refered by the chart.
+Returns whether the cell refered by the chart. NOTE: This method is now obsolete. Instead, please use IsCellReferedByChart(int,int,int) method. This method will be removed 12 months later since April 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1249,6 +1269,8 @@ Creates the chart image and saves it to a file. The extension of the file name d
 The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List][] for more details.
+**Example**
+Saves to Tiff with 300 dpi and CCITT4 compression.
 
 ```
 ImageOrPrintOptions options = new ImageOrPrintOptions();

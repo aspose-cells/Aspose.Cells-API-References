@@ -131,6 +131,8 @@ public GridValidation createValidation(int validationType, boolean isRequried)
 
 
 Creates a validation object for a cell.
+**Example**
+
 
 ```
 GridWeb GridWeb1 = new GridWeb();
@@ -262,6 +264,8 @@ public String getFormula()
 Gets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
 
 User can set any formula in Workbook designer file. Aspose.Cells will keep all the formulas. If user use this property to set a formula to a cell, major part of Workbook built-in functions is supported. And more is coming. If you have any special need for Workbook built-in functions, please let us know.
+**Example**
+
 
 ```
 GridWeb GridWeb1 = new GridWeb();
@@ -600,6 +604,8 @@ public void setFormula(String value)
 Sets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
 
 User can set any formula in Workbook designer file. Aspose.Cells will keep all the formulas. If user use this property to set a formula to a cell, major part of Workbook built-in functions is supported. And more is coming. If you have any special need for Workbook built-in functions, please let us know.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -16,6 +16,8 @@ public class ExternalLinkCollection implements Iterable
 ```
 
 Represents external links collection in a workbook.
+**Example**
+
 
 ```
 //Open a file with external links
@@ -93,12 +95,14 @@ public void clear(boolean updateReferencesAsLocal)
 ```
 
 
-Removes all external links. If references are required to be updated, references to external links in formulas will be changed to current workbook. For example, one cell's original formula is "='externalsource.xlam'!customfunction()", after removing external links, the formula will become "=customfunction()". If references are not required to be updated, all formulas with references to external links will be removed too because those references become invalid.
+Removes all external links. If references are required to be updated, those references of external links in formulas will be changed to current workbook when it is possible. For example, one cell's original formula is "='externalsource.xlam'!customfunction()", after removing external links, the formula will become "=customfunction()"; When the original formula is "='[externalsource.xlam]Sheet1'!$A$1", according to whether there is one sheet with name "Sheet1" in current workbook: if true, the formula will become "=Sheet1!$A$1"; if false, the formula will become "=\#REF!$A$1".
+
+If references are not required to be updated, all formulas with references to external links will be removed too because those references become invalid.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| updateReferencesAsLocal | boolean | Whether update all references of external links as references of current workbook itself. |
+| updateReferencesAsLocal | boolean | Whether update all references of external links in formulas to references of current workbook itself. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -205,13 +209,13 @@ public void removeAt(int index, boolean updateReferencesAsLocal)
 ```
 
 
-Removes the specified external link from the workbook. If references are required to be updated, references to external links in formulas will be changed to current workbook. For example, the external link to be removed is "externalsource.xlam" and it defines one custom function "customfunction()", one cell's original formula is "='externalsource.xlam'!customfunction()", after removing the formula will become "=customfunction()". If reference are not required to be updated, all formulas with reference to this external link will be removed too because those references become invalid.
+Removes the specified external link from the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | the index of the external link to be removed. |
-| updateReferencesAsLocal | boolean | Whether update all references of given external link to reference of current workbook itself. |
+| updateReferencesAsLocal | boolean | Whether update all references of given external link to reference of current workbook itself. Check [clear(boolean)](../../com.aspose.cells/externallinkcollection\#clear-boolean-) to get more details about this parameter. |
 
 ### toString() {#toString--}
 ```

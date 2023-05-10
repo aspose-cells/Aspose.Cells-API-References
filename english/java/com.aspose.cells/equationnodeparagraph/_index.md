@@ -13,11 +13,6 @@ public class EquationNodeParagraph extends EquationNode
 ```
 
 This class specifies a mathematical paragraph containing one or more MathEquationNode(OMath) elements.
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [Justification](#Justification) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). |
 ## Methods
 
 | Method | Description |
@@ -30,6 +25,7 @@ This class specifies a mathematical paragraph containing one or more MathEquatio
 | [getClass()](#getClass--) |  |
 | [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
+| [getJustification()](#getJustification--) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
 | [getStartIndex()](#getStartIndex--) | Gets the start index of the characters. |
@@ -45,20 +41,13 @@ This class specifies a mathematical paragraph containing one or more MathEquatio
 | [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
 | [removeChild(EquationNode node)](#removeChild-com.aspose.cells.EquationNode-) | Removes the specified node from the current node's children. |
 | [removeChild(int index)](#removeChild-int-) | Removes the node at the specified index from the current node's children. |
+| [setJustification(int value)](#setJustification-int-) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### Justification {#Justification}
-```
-public int Justification
-```
-
-
-This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole.
-
 ### addChild(EquationNode node) {#addChild-com.aspose.cells.EquationNode-}
 ```
 public void addChild(EquationNode node)
@@ -164,6 +153,16 @@ Returns the font of this object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
+### getJustification() {#getJustification--}
+```
+public int getJustification()
+```
+
+
+This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. [EquationHorizontalJustificationType](../../com.aspose.cells/equationhorizontaljustificationtype).
+
+**Returns:**
+int
 ### getLength() {#getLength--}
 ```
 public int getLength()
@@ -327,6 +326,19 @@ Removes the node at the specified index from the current node's children.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Index of the node |
+
+### setJustification(int value) {#setJustification-int-}
+```
+public void setJustification(int value)
+```
+
+
+This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. [EquationHorizontalJustificationType](../../com.aspose.cells/equationhorizontaljustificationtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setParentNode(EquationNode value) {#setParentNode-com.aspose.cells.EquationNode-}
 ```

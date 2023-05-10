@@ -29,16 +29,16 @@ Represents the picture format.
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getTransparentColor()](#getTransparentColor--) | Gets the transparent color of the picture. |
 | [hashCode()](#hashCode--) | Gets the hash code. |
-| [isBiLevel()](#isBiLevel--) | Indicates whether this picture should be displayed in two-color black and white. |
-| [isGray()](#isGray--) | Indicates whether this picture SHOULD be displayed in grayscale. |
+| [isBiLevel()](#isBiLevel--) | Indicates whether this picture should display in two-color black and white. |
+| [isGray()](#isGray--) | Indicates whether this picture should display in grayscale. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) | Indicates whether this picture should be displayed in two-color black and white. |
+| [setBiLevel(boolean value)](#setBiLevel-boolean-) | Indicates whether this picture should display in two-color black and white. |
 | [setBottomCrop(double value)](#setBottomCrop-double-) | Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height. |
 | [setBrightness(double value)](#setBrightness-double-) | Represents the brightness modification for the picture in unit of percentage. |
 | [setContrast(double value)](#setContrast-double-) | Represents the contrast modification for the picture.in unit of percentage. |
 | [setGamma(double value)](#setGamma-double-) | Represents gamma of the picture. |
-| [setGray(boolean value)](#setGray-boolean-) | Indicates whether this picture SHOULD be displayed in grayscale. |
+| [setGray(boolean value)](#setGray-boolean-) | Indicates whether this picture should display in grayscale. |
 | [setLeftCrop(double value)](#setLeftCrop-double-) | Represents the location of the left of the crop rectangle expressed, expressed as a ratio of the image's width. |
 | [setRightCrop(double value)](#setRightCrop-double-) | Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width. |
 | [setTopCrop(double value)](#setTopCrop-double-) | Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height. |
@@ -179,7 +179,7 @@ public boolean isBiLevel()
 ```
 
 
-Indicates whether this picture should be displayed in two-color black and white.
+Indicates whether this picture should display in two-color black and white.
 
 **Returns:**
 boolean
@@ -189,7 +189,7 @@ public boolean isGray()
 ```
 
 
-Indicates whether this picture SHOULD be displayed in grayscale.
+Indicates whether this picture should display in grayscale.
 
 **Returns:**
 boolean
@@ -215,7 +215,7 @@ public void setBiLevel(boolean value)
 ```
 
 
-Indicates whether this picture should be displayed in two-color black and white.
+Indicates whether this picture should display in two-color black and white.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,7 +280,7 @@ public void setGray(boolean value)
 ```
 
 
-Indicates whether this picture SHOULD be displayed in grayscale.
+Indicates whether this picture should display in grayscale.
 
 **Parameters:**
 | Parameter | Type | Description |

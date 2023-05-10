@@ -13,6 +13,8 @@ public class ValidationCollection extends CollectionBase
 ```
 
 Represents data validation collection.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();

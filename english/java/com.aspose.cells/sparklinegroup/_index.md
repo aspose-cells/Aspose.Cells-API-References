@@ -13,6 +13,8 @@ public class SparklineGroup
 ```
 
 [Sparkline](../../com.aspose.cells/sparkline) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines.
+**Example**
+
 
 ```
 Workbook book = new Workbook(); 

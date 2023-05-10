@@ -13,6 +13,8 @@ public class Name
 ```
 
 Represents a defined name for a range of cells.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

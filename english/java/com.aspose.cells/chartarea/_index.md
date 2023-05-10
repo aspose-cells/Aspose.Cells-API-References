@@ -13,6 +13,8 @@ public class ChartArea extends ChartFrame
 ```
 
 Encapsulates the object that represents the chart area in the worksheet.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

@@ -13,6 +13,8 @@ public abstract class AbstractCalculationEngine
 ```
 
 Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. User should not modify any part of the Workbook directly in this implementation(except the calculated result of the custom function, which can be set by CalculationData.CalculatedValue property). Otherwise unexpected result or Exception may be caused. If user needs to change other data than calculated result in the implementation for some custom functions, for example, change cell's formula, style, ...etc., user should gather those data in this implementation and change them out of the scope of formula calculation.
+**Example**
+
 
 ```
 class MyEngine extends AbstractCalculationEngine

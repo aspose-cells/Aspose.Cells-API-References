@@ -19,7 +19,9 @@ Represents the Forms control: Spinner. Scroll value must be between 0 and 30000.
 | --- | --- |
 | [addHyperlink(String address)](#addHyperlink-java.lang.String-) | Adds a hyperlink to the shape. |
 | [alignTopRightCorner(int topRow, int rightColumn)](#alignTopRightCorner-int-int-) | Moves the picture to the top-right corner. |
-| [calculateTextSize()](#calculateTextSize--) | Recalculate the text area |
+| [calculateTextSize()](#calculateTextSize--) | Recalculate the text area
+**Example**
+ |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [formatCharacters(int startIndex, int length, Font font)](#formatCharacters-int-int-com.aspose.cells.Font-) | Formats some characters with the font setting. |
@@ -32,17 +34,20 @@ Represents the Forms control: Spinner. Scroll value must be between 0 and 30000.
 | [getBottom()](#getBottom--) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the text . |
 | [getClass()](#getClass--) |  |
-| [getConnectionPoints()](#getConnectionPoints--) | Get the connection points |
+| [getConnectionPoints()](#getConnectionPoints--) | Get the connection points
+**Example**
+ |
 | [getControlData()](#getControlData--) | Gets the data of control. |
 | [getCreateId()](#getCreateId--) | Gets create id for this shape. |
 | [getCurrentValue()](#getCurrentValue--) | Gets the current value. |
 | [getFill()](#getFill--) | Returns a [Area.getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified shape. |
 | [getFillFormat()](#getFillFormat--) | Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [getFont()](#getFont--) | Represents the font of shape. |
-| [getFormat()](#getFormat--) | Represents the setting of the shape's formatting. |
 | [getFormatPicture()](#getFormatPicture--) | Gets the options of the picture format. |
-| [getGeometry()](#getGeometry--) | Gets the geometry |
-| [getGlow()](#getGlow--) | Represents a [ShapeFormat.getGlowEffect()](../../com.aspose.cells/shapeformat\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
+| [getGeometry()](#getGeometry--) | Gets the geometry
+**Example**
+ |
+| [getGlow()](#getGlow--) | Represents a [ShapePropertyCollection.getGlowEffect()](../../com.aspose.cells/shapepropertycollection\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
 | [getGroup()](#getGroup--) | Gets the group shape which contains this shape. |
 | [getHeight()](#getHeight--) | Represents the height of shape, in unit of pixel. |
 | [getHeightCM()](#getHeightCM--) | Represents the height of the shape, in unit of centimeters. |
@@ -63,7 +68,9 @@ Represents the Forms control: Spinner. Scroll value must be between 0 and 30000.
 | [getLeftInShape()](#getLeftInShape--) | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [getLeftInch()](#getLeftInch--) | Represents the horizontal offset of shape from its left column, in unit of inches. |
 | [getLeftToCorner()](#getLeftToCorner--) | Gets the horizonal offset of shape from worksheet left border. |
-| [getLine()](#getLine--) | Gets line style |
+| [getLine()](#getLine--) | Gets line style
+**Example**
+ |
 | [getLineFormat()](#getLineFormat--) | Returns a MsoLineFormat object that contains line formatting properties for the specified shape. |
 | [getLinkedCell()](#getLinkedCell--) | Gets the worksheet range linked to the control's value. |
 | [getLinkedCell(boolean isR1C1, boolean isLocal)](#getLinkedCell-boolean-boolean-) | Gets the range linked to the control's value. |
@@ -139,7 +146,9 @@ Represents the Forms control: Spinner. Scroll value must be between 0 and 30000.
 | [isInGroup()](#isInGroup--) | Indicates whether the shape is grouped. |
 | [isLockAspectRatio()](#isLockAspectRatio--) | True means that don't allow changes in aspect ratio. |
 | [isLocked()](#isLocked--) | True if the object is locked, False if the object can be modified when the sheet is protected. |
-| [isPrintable()](#isPrintable--) | True if the object is printable |
+| [isPrintable()](#isPrintable--) | True if the object is printable
+**Example**
+ |
 | [isRichText()](#isRichText--) | Whether or not the text is rich text. |
 | [isSameSetting(Object obj)](#isSameSetting-java.lang.Object-) | Returns whether the shape is same. |
 | [isSmartArt()](#isSmartArt--) | Indicates whether the shape is smart art. |
@@ -196,7 +205,9 @@ Represents the Forms control: Spinner. Scroll value must be between 0 and 30000.
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the drawing object is attached to the cells below it. |
 | [setPositionX(int value)](#setPositionX-int-) | Sets the horizonal offset of shape from worksheet left border,in unit of pixels. |
 | [setPositionY(int value)](#setPositionY-int-) | Sets the vertical offset of shape from worksheet top border,in unit of pixels. |
-| [setPrintable(boolean value)](#setPrintable-boolean-) | True if the object is printable |
+| [setPrintable(boolean value)](#setPrintable-boolean-) | True if the object is printable
+**Example**
+ |
 | [setRelativeToOriginalPictureSize(boolean value)](#setRelativeToOriginalPictureSize-boolean-) | Indicates whether shape is relative to original picture size. |
 | [setRight(int value)](#setRight-int-) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
 | [setRotationAngle(double value)](#setRotationAngle-double-) | Sets the rotation of the shape. |
@@ -249,6 +260,8 @@ public Hyperlink addHyperlink(String address)
 
 
 Adds a hyperlink to the shape.
+**Example**
+
 
 ```
 Hyperlink hyperlink = shape.addHyperlink("https://www.aspose.com/");
@@ -268,6 +281,8 @@ public void alignTopRightCorner(int topRow, int rightColumn)
 
 
 Moves the picture to the top-right corner.
+**Example**
+
 
 ```
 shape.alignTopRightCorner(2, 5);
@@ -286,6 +301,8 @@ public int[] calculateTextSize()
 
 
 Recalculate the text area
+**Example**
+
 
 ```
 //The size of the text area is:w=size[0],h=size[1]
@@ -301,6 +318,8 @@ public FontSetting characters(int startIndex, int length)
 
 
 Returns a Characters object that represents a range of characters within the text. This method only works on shape with title.
+**Example**
+
 
 ```
 FontSetting fontSetting = shape.characters(0, 4);
@@ -367,6 +386,8 @@ public ActiveXControl getActiveXControl()
 
 
 Gets the ActiveX control.
+**Example**
+
 
 ```
 CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.getActiveXControl();
@@ -383,6 +404,8 @@ public int getActualLowerRightRow()
 
 
 Get the actual bottom row.
+**Example**
+
 
 ```
 int rRow = shape.getActualLowerRightRow();
@@ -397,6 +420,8 @@ public String getAlternativeText()
 
 
 Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object.
+**Example**
+
 
 ```
 shape.setAlternativeText("a rectangle");
@@ -411,6 +436,8 @@ public int getAnchorType()
 
 
 Gets the shape anchor placeholder. [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
+**Example**
+
 
 ```
 if (shape.getAnchorType() == ShapeAnchorType.ONE_CELL_ANCHOR)
@@ -426,6 +453,8 @@ public int getAutoShapeType()
 
 
 Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+**Example**
+
 
 ```
 if (shape.getAutoShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
@@ -441,6 +470,8 @@ public int getBottom()
 
 
 Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
+**Example**
+
 
 ```
 if (shape.getBottom() == 3)
@@ -456,6 +487,8 @@ public ArrayList getCharacters()
 
 
 Returns all Characters objects that represents a range of characters within the text .
+**Example**
+
 
 ```
 ArrayList list = shape.getCharacters();
@@ -480,6 +513,8 @@ public float[][] getConnectionPoints()
 
 
 Get the connection points
+**Example**
+
 
 ```
 float[][] points = shape.getConnectionPoints();
@@ -494,6 +529,8 @@ public byte[] getControlData()
 
 
 Gets the data of control.
+**Example**
+
 
 ```
 if(shape.getControlData() == null)
@@ -529,6 +566,8 @@ public FillFormat getFill()
 
 
 Returns a [Area.getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified shape.
+**Example**
+
 
 ```
 FillFormat fillFmt = shape.getFill();
@@ -553,6 +592,8 @@ public Font getFont()
 
 
 Represents the font of shape.
+**Example**
+
 
 ```
 Font font = shape.getFont();
@@ -563,16 +604,6 @@ Font font = shape.getFont();
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
-### getFormat() {#getFormat--}
-```
-public ShapeFormat getFormat()
-```
-
-
-Represents the setting of the shape's formatting. NOTE: This member is now obsolete. Instead, please use Shape.Fill and Shape.Line properties. This property will be removed 6 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-[ShapeFormat](../../com.aspose.cells/shapeformat)
 ### getFormatPicture() {#getFormatPicture--}
 ```
 public MsoFormatPicture getFormatPicture()
@@ -580,6 +611,8 @@ public MsoFormatPicture getFormatPicture()
 
 
 Gets the options of the picture format.
+**Example**
+
 
 ```
 MsoFormatPicture msoFormatPicture = shape.getFormatPicture();
@@ -594,6 +627,8 @@ public Geometry getGeometry()
 
 
 Gets the geometry
+**Example**
+
 
 ```
 if (shape.getGeometry().getShapeAdjustValues().getCount() == 0)
@@ -608,7 +643,9 @@ public GlowEffect getGlow()
 ```
 
 
-Represents a [ShapeFormat.getGlowEffect()](../../com.aspose.cells/shapeformat\#getGlowEffect--) object that specifies glow effect for the chart element or shape.
+Represents a [ShapePropertyCollection.getGlowEffect()](../../com.aspose.cells/shapepropertycollection\#getGlowEffect--) object that specifies glow effect for the chart element or shape.
+**Example**
+
 
 ```
 GlowEffect glowEffect = shape.getGlow();
@@ -623,6 +660,8 @@ public GroupShape getGroup()
 
 
 Gets the group shape which contains this shape.
+**Example**
+
 
 ```
 GroupShape groupShape = shape.getGroup();
@@ -637,6 +676,8 @@ public int getHeight()
 
 
 Represents the height of shape, in unit of pixel.
+**Example**
+
 
 ```
 if (shape.getHeight() == 3)
@@ -652,6 +693,8 @@ public double getHeightCM()
 
 
 Represents the height of the shape, in unit of centimeters.
+**Example**
+
 
 ```
 if (shape.getHeightCM() == 3)
@@ -677,6 +720,8 @@ public int getHeightInShape()
 
 
 Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. Only Applies when this shape in the group or chart.
+**Example**
+
 
 ```
 if (shape.getUpperDeltaY() == 4000)
@@ -692,6 +737,8 @@ public double getHeightInch()
 
 
 Represents the height of the shape, in unit of inches.
+**Example**
+
 
 ```
 if (shape.getHeightInch() == 3)
@@ -707,6 +754,8 @@ public double getHeightPt()
 
 
 Represents the height of the shape, in unit of points.
+**Example**
+
 
 ```
 if (shape.getHeightPt() == 3)
@@ -722,6 +771,8 @@ public int getHeightScale()
 
 
 Gets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
+**Example**
+
 
 ```
 if (shape.getHeightScale() == 3)
@@ -737,6 +788,8 @@ public String getHtmlText()
 
 
 Gets the html string which contains data and some formats in this textbox.
+**Example**
+
 
 ```
 String html = shape.getHtmlText();
@@ -755,6 +808,8 @@ public Hyperlink getHyperlink()
 
 
 Gets the hyperlink of the shape.
+**Example**
+
 
 ```
 Hyperlink hyperlink = shape.getHyperlink();
@@ -769,6 +824,8 @@ public int getId()
 
 
 Gets the identifier of this shape.
+**Example**
+
 
 ```
 int id = shape.getId();
@@ -793,6 +850,8 @@ public String getInputRange()
 
 
 Gets the worksheet range used to fill the specified combo box.
+**Example**
+
 
 ```
 if (shape.getInputRange().equals("$B$6:$B10"))
@@ -808,6 +867,8 @@ public String getInputRange(boolean isR1C1, boolean isLocal)
 
 
 Gets the range used to fill the control.
+**Example**
+
 
 ```
 String range = shape.getInputRange(false, true);
@@ -829,6 +890,8 @@ public int getLeft()
 
 
 Represents the horizontal offset of shape from its left column, in unit of pixels.
+**Example**
+
 
 ```
 if (shape.getLeft() == 3)
@@ -844,6 +907,8 @@ public double getLeftCM()
 
 
 Represents the horizontal offset of shape from its left column, in unit of centimeters.
+**Example**
+
 
 ```
 if (shape.getLeftCM() == 3)
@@ -869,6 +934,8 @@ public int getLeftInShape()
 
 
 Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. Only Applies when this shape in the group or chart.
+**Example**
+
 
 ```
 if (shape.getUpperDeltaY() == 2000)
@@ -884,6 +951,8 @@ public double getLeftInch()
 
 
 Represents the horizontal offset of shape from its left column, in unit of inches.
+**Example**
+
 
 ```
 if (shape.getLeftInch() == 3)
@@ -899,6 +968,8 @@ public int getLeftToCorner()
 
 
 Gets the horizonal offset of shape from worksheet left border.
+**Example**
+
 
 ```
 if (shape.getLeftToCorner() == 3)
@@ -914,6 +985,8 @@ public LineFormat getLine()
 
 
 Gets line style
+**Example**
+
 
 ```
 LineFormat lineFmt = shape.getLine();
@@ -938,6 +1011,8 @@ public String getLinkedCell()
 
 
 Gets the worksheet range linked to the control's value.
+**Example**
+
 
 ```
 if (shape.getLinkedCell().equals("$B$6"))
@@ -953,6 +1028,8 @@ public String getLinkedCell(boolean isR1C1, boolean isLocal)
 
 
 Gets the range linked to the control's value.
+**Example**
+
 
 ```
 //You may get results like '$A$1'
@@ -974,6 +1051,8 @@ public boolean getLockedProperty(int type)
 
 
 Gets the value of locked property.
+**Example**
+
 
 ```
 int noAdjustHandles = 0;
@@ -995,6 +1074,8 @@ public int getLowerDeltaX()
 
 
 Gets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+**Example**
+
 
 ```
 if (shape.getLowerDeltaX() == 3)
@@ -1010,6 +1091,8 @@ public int getLowerDeltaY()
 
 
 Gets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
+**Example**
+
 
 ```
 if (shape.getLowerDeltaY() == 3)
@@ -1025,6 +1108,8 @@ public int getLowerRightColumn()
 
 
 Represents lower right corner column index.
+**Example**
+
 
 ```
 if (shape.getLowerRightColumn() == 3)
@@ -1040,6 +1125,8 @@ public int getLowerRightRow()
 
 
 Represents lower right corner row index.
+**Example**
+
 
 ```
 if (shape.getLowerRightRow() == 3)
@@ -1055,6 +1142,8 @@ public String getMacroName()
 
 
 Gets the name of macro.
+**Example**
+
 
 ```
 //Sets the name of macro.
@@ -1090,6 +1179,8 @@ public int getMsoDrawingType()
 
 
 Gets mso drawing type. [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
+**Example**
+
 
 ```
 /*Aspose.Cells.Drawing.MsoDrawingType*/int msoDrawingType = shape.getMsoDrawingType();
@@ -1104,6 +1195,8 @@ public String getName()
 
 
 Gets the name of the shape.
+**Example**
+
 
 ```
 shape.setName("shape1");
@@ -1118,6 +1211,8 @@ public ShapePathCollection getPaths()
 
 
 Gets the paths of a custom geometric shape.
+**Example**
+
 
 ```
 //Returns non-null if there is a path to the custom geometry
@@ -1134,6 +1229,8 @@ public int getPlacement()
 
 
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
+**Example**
+
 
 ```
 if (shape.getPlacement() == PlacementType.MOVE)
@@ -1169,6 +1266,8 @@ public ReflectionEffect getReflection()
 
 
 Represents a [ReflectionEffect](../../com.aspose.cells/reflectioneffect) object that specifies reflection effect for the chart element or shape.
+**Example**
+
 
 ```
 ReflectionEffect reflectionEffect = shape.getReflection();
@@ -1183,6 +1282,8 @@ public boolean getRelativeToOriginalPictureSize()
 
 
 Indicates whether shape is relative to original picture size.
+**Example**
+
 
 ```
 if(shape.getRelativeToOriginalPictureSize())
@@ -1198,6 +1299,8 @@ public GroupShape getResultOfSmartArt()
 
 
 Converting smart art to grouped shapes.
+**Example**
+
 
 ```
 GroupShape groupShape = shape.getResultOfSmartArt();
@@ -1212,6 +1315,8 @@ public int getRight()
 
 
 Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels.
+**Example**
+
 
 ```
 if (shape.getRight() == 3)
@@ -1227,6 +1332,8 @@ public double getRotationAngle()
 
 
 Gets the rotation of the shape.
+**Example**
+
 
 ```
 if(shape.getRotationAngle() == 45)
@@ -1252,6 +1359,8 @@ public ShadowEffect getShadowEffect()
 
 
 Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape.
+**Example**
+
 
 ```
 ShadowEffect shadowEffect = shape.getShadowEffect();
@@ -1266,6 +1375,8 @@ public double getSoftEdges()
 
 
 Gets the radius of blur to apply to the edges, in unit of points.
+**Example**
+
 
 ```
 shape.setSoftEdges(0.5d);
@@ -1280,6 +1391,8 @@ public String getSpid()
 
 
 Specifies an optional string that an application can use to Identify the particular shape.
+**Example**
+
 
 ```
 String spid = shape.getSpid();
@@ -1294,6 +1407,8 @@ public int getSpt()
 
 
 Specifies an optional number that an application can use to associate the particular shape with a defined shape type.
+**Example**
+
 
 ```
 int spt = shape.getSpt();
@@ -1308,6 +1423,8 @@ public String getText()
 
 
 Represents the string in this TextBox object.
+**Example**
+
 
 ```
 if(shape.getText() == null)
@@ -1323,6 +1440,8 @@ public FontSettingCollection getTextBody()
 
 
 Gets the setting of the shape's text.
+**Example**
+
 
 ```
 FontSettingCollection fontSettingCollection = shape.getTextBody();
@@ -1338,6 +1457,8 @@ public int getTextDirection()
 
 
 Gets the direction of the text flow for this object. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+**Example**
+
 
 ```
 if (shape.getTextDirection() == com.aspose.cells.TextDirectionType.CONTEXT)
@@ -1353,6 +1474,8 @@ public TextEffectFormat getTextEffect()
 
 
 Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt.
+**Example**
+
 
 ```
 TextEffectFormat textEffectFormat = shape.getTextEffect();
@@ -1377,6 +1500,8 @@ public int getTextHorizontalAlignment()
 
 
 Gets the text horizontal alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+**Example**
+
 
 ```
 if (shape.getTextHorizontalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
@@ -1392,6 +1517,8 @@ public int getTextHorizontalOverflow()
 
 
 Gets the text horizontal overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+**Example**
+
 
 ```
 if (shape.getTextHorizontalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
@@ -1407,6 +1534,8 @@ public TextOptions getTextOptions()
 
 
 Represents the text options of the shape.
+**Example**
+
 
 ```
 TextOptions opt = shape.getTextOptions();
@@ -1423,6 +1552,8 @@ public int getTextOrientationType()
 
 
 Gets the text orientation type of the shape. [TextOrientationType](../../com.aspose.cells/textorientationtype).
+**Example**
+
 
 ```
 if (shape.getTextOrientationType() == com.aspose.cells.TextOrientationType.NO_ROTATION)
@@ -1438,6 +1569,8 @@ public int getTextShapeType()
 
 
 Gets the preset text shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+**Example**
+
 
 ```
 if (shape.getTextShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
@@ -1453,6 +1586,8 @@ public int getTextVerticalAlignment()
 
 
 Gets the text vertical alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+**Example**
+
 
 ```
 if (shape.getTextVerticalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
@@ -1468,6 +1603,8 @@ public int getTextVerticalOverflow()
 
 
 Gets the text vertical overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+**Example**
+
 
 ```
 if (shape.getTextVerticalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
@@ -1483,6 +1620,8 @@ public ThreeDFormat getThreeDFormat()
 
 
 Gets 3d format of the shape.
+**Example**
+
 
 ```
 ThreeDFormat threeDFormat = shape.getThreeDFormat();
@@ -1497,6 +1636,8 @@ public String getTitle()
 
 
 Specifies the title (caption) of the current shape object.
+**Example**
+
 
 ```
 shape.setTitle("title1");
@@ -1511,6 +1652,8 @@ public int getTop()
 
 
 Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
+**Example**
+
 
 ```
 if (shape.getTop() == 3)
@@ -1526,6 +1669,8 @@ public double getTopCM()
 
 
 Represents the vertical offset of shape from its top row, in unit of centimeters.
+**Example**
+
 
 ```
 if (shape.getTopCM() == 3)
@@ -1551,6 +1696,8 @@ public int getTopInShape()
 
 
 Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. Only Applies when this shape in the group or chart.
+**Example**
+
 
 ```
 if (shape.getTopInShape() == 8000)
@@ -1566,6 +1713,8 @@ public double getTopInch()
 
 
 Represents the vertical offset of shape from its top row, in unit of inches.
+**Example**
+
 
 ```
 if (shape.getTopInch() == 3)
@@ -1581,6 +1730,8 @@ public int getTopToCorner()
 
 
 Gets the vertical offset of shape from worksheet top border, in unit of pixels.
+**Example**
+
 
 ```
 if (shape.getTopToCorner() == 3)
@@ -1596,6 +1747,8 @@ public int getType()
 
 
 Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+**Example**
+
 
 ```
 /*Aspose.Cells.Drawing.AutoShapeType*/int autoShapeType = shape.getType();
@@ -1610,6 +1763,8 @@ public int getUpperDeltaX()
 
 
 Gets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
+**Example**
+
 
 ```
 if (shape.getUpperDeltaX() == 3)
@@ -1625,6 +1780,8 @@ public int getUpperDeltaY()
 
 
 Gets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
+**Example**
+
 
 ```
 if (shape.getUpperDeltaY() == 3)
@@ -1640,6 +1797,8 @@ public int getUpperLeftColumn()
 
 
 Represents upper left corner column index.
+**Example**
+
 
 ```
 if (shape.getUpperLeftColumn() == 3)
@@ -1655,6 +1814,8 @@ public int getUpperLeftRow()
 
 
 Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+**Example**
+
 
 ```
 if (shape.getUpperLeftRow() == 3)
@@ -1670,6 +1831,8 @@ public int getWidth()
 
 
 Represents the width of shape, in unit of pixels.
+**Example**
+
 
 ```
 if (shape.getWidth() == 3)
@@ -1685,6 +1848,8 @@ public double getWidthCM()
 
 
 Represents the width of the shape, in unit of centimeters.
+**Example**
+
 
 ```
 if (shape.getWidthCM() == 3)
@@ -1710,6 +1875,8 @@ public int getWidthInShape()
 
 
 Represents the width of the shape, in unit of 1/4000 of the parent shape. Only Applies when this shape in the group or chart.
+**Example**
+
 
 ```
 if (shape.getUpperDeltaY() == 2000)
@@ -1725,6 +1892,8 @@ public double getWidthInch()
 
 
 Represents the width of the shape, in unit of inch.
+**Example**
+
 
 ```
 if (shape.getWidthInch() == 3)
@@ -1740,6 +1909,8 @@ public double getWidthPt()
 
 
 Represents the width of the shape, in unit of point.
+**Example**
+
 
 ```
 if (shape.getWidthPt() == 3)
@@ -1755,6 +1926,8 @@ public int getWidthScale()
 
 
 Gets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
+**Example**
+
 
 ```
 if (shape.getWidthScale() == 3)
@@ -1770,6 +1943,8 @@ public Worksheet getWorksheet()
 
 
 Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this shape.
+**Example**
+
 
 ```
 Worksheet worksheet = shape.getWorksheet();
@@ -1784,6 +1959,8 @@ public int getX()
 
 
 Gets the horizontal offset of shape from worksheet left border,in unit of pixels.
+**Example**
+
 
 ```
 if (shape.getX() == 3)
@@ -1799,6 +1976,8 @@ public int getY()
 
 
 Gets the vertical offset of shape from worksheet top border,in unit of pixels.
+**Example**
+
 
 ```
 if (shape.getY() == 3)
@@ -1814,6 +1993,8 @@ public int getZOrderPosition()
 
 
 Returns the position of a shape in the z-order.
+**Example**
+
 
 ```
 shape.setZOrderPosition(3);
@@ -1828,6 +2009,8 @@ public boolean hasLine()
 
 
 Gets the line border of the shape is visible.
+**Example**
+
 
 ```
 if(shape.hasLine() == false)
@@ -1853,6 +2036,8 @@ public boolean isEquation()
 
 
 Indicates whether the shape only contains an equation.
+**Example**
+
 
 ```
 //If true,the shape only contains an equation.
@@ -1871,6 +2056,8 @@ public boolean isFilled()
 
 
 Indicates whether the fill format is visible.
+**Example**
+
 
 ```
 if(shape.isFilled() == false)
@@ -1886,6 +2073,8 @@ public boolean isFlippedHorizontally()
 
 
 Gets whether shape is horizontally flipped .
+**Example**
+
 
 ```
 if(shape.isFlippedHorizontally() == false)
@@ -1901,6 +2090,8 @@ public boolean isFlippedVertically()
 
 
 Gets whether shape is vertically flipped .
+**Example**
+
 
 ```
 if(shape.isFlippedVertically() == false)
@@ -1916,6 +2107,8 @@ public boolean isGroup()
 
 
 Indicates whether the shape is a group.
+**Example**
+
 
 ```
 if(shape.isGroup())
@@ -1933,6 +2126,8 @@ public boolean isHidden()
 
 
 Indicates whether the object is visible.
+**Example**
+
 
 ```
 shape.setHidden(false);
@@ -1967,6 +2162,8 @@ public boolean isLockAspectRatio()
 
 
 True means that don't allow changes in aspect ratio.
+**Example**
+
 
 ```
 shape.setLockAspectRatio(false);
@@ -1981,6 +2178,8 @@ public boolean isLocked()
 
 
 True if the object is locked, False if the object can be modified when the sheet is protected.
+**Example**
+
 
 ```
 if(shape.isLocked())
@@ -1996,6 +2195,8 @@ public boolean isPrintable()
 
 
 True if the object is printable
+**Example**
+
 
 ```
 if(shape.isPrintable())
@@ -2011,6 +2212,8 @@ public boolean isRichText()
 
 
 Whether or not the text is rich text.
+**Example**
+
 
 ```
 if(shape.isRichText())
@@ -2026,6 +2229,8 @@ public boolean isSameSetting(Object obj)
 
 
 Returns whether the shape is same.
+**Example**
+
 
 ```
 if (shape.isSameSetting(shape))
@@ -2046,6 +2251,8 @@ public boolean isSmartArt()
 
 
 Indicates whether the shape is smart art. Only for ooxml file.
+**Example**
+
 
 ```
 //if true,the shape is smart art.
@@ -2064,6 +2271,8 @@ public boolean isTextWrapped()
 
 
 Gets the text wrapped type of the shape which contains text.
+**Example**
+
 
 ```
 if (shape.isTextWrapped())
@@ -2079,6 +2288,8 @@ public boolean isWordArt()
 
 
 Indicates whether this shape is a word art. Only for the Legacy Shape of xls file.
+**Example**
+
 
 ```
 if(shape.isWordArt())
@@ -2096,6 +2307,8 @@ public void moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow
 
 
 Moves the shape to a specified range.
+**Example**
+
 
 ```
 shape.moveToRange(12, 3, 13, 5);
@@ -2132,6 +2345,8 @@ public void removeActiveXControl()
 
 
 Remove activeX control.
+**Example**
+
 
 ```
 shape.removeActiveXControl();
@@ -2144,6 +2359,8 @@ public void removeHyperlink()
 
 
 Remove the hyperlink of the shape.
+**Example**
+
 
 ```
 shape.removeHyperlink();
@@ -2156,6 +2373,8 @@ public void setAlternativeText(String value)
 
 
 Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2169,6 +2388,8 @@ public void setAnchorType(int value)
 
 
 Sets the shape anchor placeholder. [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2182,6 +2403,8 @@ public void setAutoShapeType(int value)
 
 
 Sets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2195,6 +2418,8 @@ public void setBottom(int value)
 
 
 Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2234,6 +2459,8 @@ public void setFilled(boolean value)
 
 
 Indicates whether the fill format is visible.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2247,6 +2474,8 @@ public void setFlippedHorizontally(boolean value)
 
 
 Sets whether shape is horizontally flipped .
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2260,6 +2489,8 @@ public void setFlippedVertically(boolean value)
 
 
 Sets whether shape is vertically flipped .
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2273,6 +2504,8 @@ public void setFont(Font value)
 
 
 Represents the font of shape.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2286,6 +2519,8 @@ public void setHasLine(boolean value)
 
 
 Sets the line border of the shape is visible.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2299,6 +2534,8 @@ public void setHeight(int value)
 
 
 Represents the height of shape, in unit of pixel.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2312,6 +2549,8 @@ public void setHeightCM(double value)
 
 
 Represents the height of the shape, in unit of centimeters.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2338,6 +2577,8 @@ public void setHeightInShape(int value)
 
 
 Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. Only Applies when this shape in the group or chart.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2351,6 +2592,8 @@ public void setHeightInch(double value)
 
 
 Represents the height of the shape, in unit of inches.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2364,6 +2607,8 @@ public void setHeightPt(double value)
 
 
 Represents the height of the shape, in unit of points.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2377,6 +2622,8 @@ public void setHeightScale(int value)
 
 
 Sets the height scale,in unit of percent of the original picture height. If the shape is not picture ,the HeightScale property only returns 100;
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2390,6 +2637,8 @@ public void setHidden(boolean value)
 
 
 Indicates whether the object is visible.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2416,6 +2665,8 @@ public void setHtmlText(String value)
 
 
 Sets the html string which contains data and some formats in this textbox.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2442,6 +2693,8 @@ public void setInputRange(String value)
 
 
 Sets the worksheet range used to fill the specified combo box.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2455,6 +2708,8 @@ public void setInputRange(String formula, boolean isR1C1, boolean isLocal)
 
 
 Sets the range used to fill the control.
+**Example**
+
 
 ```
 //After executing the code below, a ListBox object is created in the generated file. When the selected option is clicked, the selected value is displayed in cell A12.
@@ -2494,6 +2749,8 @@ public void setLeft(int value)
 
 
 Represents the horizontal offset of shape from its left column, in unit of pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2507,6 +2764,8 @@ public void setLeftCM(double value)
 
 
 Represents the horizontal offset of shape from its left column, in unit of centimeters.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2533,6 +2792,8 @@ public void setLeftInShape(int value)
 
 
 Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. Only Applies when this shape in the group or chart.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2546,6 +2807,8 @@ public void setLeftInch(double value)
 
 
 Represents the horizontal offset of shape from its left column, in unit of inches.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2559,6 +2822,8 @@ public void setLeftToCorner(int value)
 
 
 Sets the horizonal offset of shape from worksheet left border.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2572,6 +2837,8 @@ public void setLinkedCell(String value)
 
 
 Sets the worksheet range linked to the control's value.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2585,6 +2852,8 @@ public void setLinkedCell(String formula, boolean isR1C1, boolean isLocal)
 
 
 Sets the range linked to the control's value.
+**Example**
+
 
 ```
 //After executing the code below, a ScrollBar object is created in the generated file. As you drag the slider, the value is displayed in cell A12.
@@ -2613,6 +2882,8 @@ public void setLockAspectRatio(boolean value)
 
 
 True means that don't allow changes in aspect ratio.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2626,6 +2897,8 @@ public void setLocked(boolean value)
 
 
 True if the object is locked, False if the object can be modified when the sheet is protected.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2639,6 +2912,8 @@ public void setLockedProperty(int type, boolean value)
 
 
 Set the locked property.
+**Example**
+
 
 ```
 shape.setLockedProperty(ShapeLockType.ADJUST_HANDLES, true);
@@ -2657,6 +2932,8 @@ public void setLowerDeltaX(int value)
 
 
 Sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2670,6 +2947,8 @@ public void setLowerDeltaY(int value)
 
 
 Sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2683,6 +2962,8 @@ public void setLowerRightColumn(int value)
 
 
 Represents lower right corner column index.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2696,6 +2977,8 @@ public void setLowerRightRow(int value)
 
 
 Represents lower right corner row index.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2709,6 +2992,8 @@ public void setMacroName(String value)
 
 
 Sets the name of macro.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2748,6 +3033,8 @@ public void setName(String value)
 
 
 Sets the name of the shape.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2761,6 +3048,8 @@ public void setPlacement(int value)
 
 
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2800,6 +3089,8 @@ public void setPrintable(boolean value)
 
 
 True if the object is printable
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2813,6 +3104,8 @@ public void setRelativeToOriginalPictureSize(boolean value)
 
 
 Indicates whether shape is relative to original picture size.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2826,6 +3119,8 @@ public void setRight(int value)
 
 
 Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2839,6 +3134,8 @@ public void setRotationAngle(double value)
 
 
 Sets the rotation of the shape.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2865,6 +3162,8 @@ public void setSoftEdges(double value)
 
 
 Sets the radius of blur to apply to the edges, in unit of points.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2878,6 +3177,8 @@ public void setText(String value)
 
 
 Represents the string in this TextBox object.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2891,6 +3192,8 @@ public void setTextDirection(int value)
 
 
 Sets the direction of the text flow for this object. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2904,6 +3207,8 @@ public void setTextHorizontalAlignment(int value)
 
 
 Sets the text horizontal alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2917,6 +3222,8 @@ public void setTextHorizontalOverflow(int value)
 
 
 Sets the text horizontal overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2930,6 +3237,8 @@ public void setTextOptions(TextOptions value)
 
 
 Represents the text options of the shape.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2943,6 +3252,8 @@ public void setTextOrientationType(int value)
 
 
 Sets the text orientation type of the shape. [TextOrientationType](../../com.aspose.cells/textorientationtype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2956,6 +3267,8 @@ public void setTextShapeType(int value)
 
 
 Sets the preset text shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2969,6 +3282,8 @@ public void setTextVerticalAlignment(int value)
 
 
 Sets the text vertical alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2982,6 +3297,8 @@ public void setTextVerticalOverflow(int value)
 
 
 Sets the text vertical overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2995,6 +3312,8 @@ public void setTextWrapped(boolean value)
 
 
 Sets the text wrapped type of the shape which contains text.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3008,6 +3327,8 @@ public void setTitle(String value)
 
 
 Specifies the title (caption) of the current shape object.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3021,6 +3342,8 @@ public void setTop(int value)
 
 
 Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3034,6 +3357,8 @@ public void setTopCM(double value)
 
 
 Represents the vertical offset of shape from its top row, in unit of centimeters.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3060,6 +3385,8 @@ public void setTopInShape(int value)
 
 
 Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. Only Applies when this shape in the group or chart.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3073,6 +3400,8 @@ public void setTopInch(double value)
 
 
 Represents the vertical offset of shape from its top row, in unit of inches.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3086,6 +3415,8 @@ public void setTopToCorner(int value)
 
 
 Sets the vertical offset of shape from worksheet top border, in unit of pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3099,6 +3430,8 @@ public void setUpperDeltaX(int value)
 
 
 Sets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3112,6 +3445,8 @@ public void setUpperDeltaY(int value)
 
 
 Sets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3125,6 +3460,8 @@ public void setUpperLeftColumn(int value)
 
 
 Represents upper left corner column index.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3138,6 +3475,8 @@ public void setUpperLeftRow(int value)
 
 
 Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3151,6 +3490,8 @@ public void setWidth(int value)
 
 
 Represents the width of shape, in unit of pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3164,6 +3505,8 @@ public void setWidthCM(double value)
 
 
 Represents the width of the shape, in unit of centimeters.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3190,6 +3533,8 @@ public void setWidthInShape(int value)
 
 
 Represents the width of the shape, in unit of 1/4000 of the parent shape. Only Applies when this shape in the group or chart.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3203,6 +3548,8 @@ public void setWidthInch(double value)
 
 
 Represents the width of the shape, in unit of inch.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3216,6 +3563,8 @@ public void setWidthPt(double value)
 
 
 Represents the width of the shape, in unit of point.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3229,6 +3578,8 @@ public void setWidthScale(int value)
 
 
 Sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3242,6 +3593,8 @@ public void setX(int value)
 
 
 Sets the horizontal offset of shape from worksheet left border,in unit of pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3255,6 +3608,8 @@ public void setY(int value)
 
 
 Sets the vertical offset of shape from worksheet top border,in unit of pixels.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3268,6 +3623,8 @@ public void setZOrderPosition(int value)
 
 
 Returns the position of a shape in the z-order.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3281,6 +3638,8 @@ public void toFrontOrBack(int orders)
 
 
 Brings the shape to the front or sends the shape to back.
+**Example**
+
 
 ```
 shape.toFrontOrBack(2);
@@ -3329,6 +3688,8 @@ public void toImage(String imageFile, ImageOrPrintOptions options)
 
 
 Saves the shape to a file.
+**Example**
+
 
 ```
 ImageOrPrintOptions op = new ImageOrPrintOptions();
@@ -3358,6 +3719,8 @@ public void updateSelectedValue()
 
 
 Update the selected value by the value of the linked cell.
+**Example**
+
 
 ```
 Cell cell = null;

@@ -35,8 +35,10 @@ Represents the properties of series layout.
 | [getShowOutlierPoints()](#getShowOutlierPoints--) | Indicates whether showing outlier data points. |
 | [getSubtotals()](#getSubtotals--) | Represents the index of a subtotal data point. |
 | [hashCode()](#hashCode--) |  |
+| [isIntervalLeftClosed()](#isIntervalLeftClosed--) | Indicates whether the interval is closed on the left side. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setIntervalLeftClosed(boolean value)](#setIntervalLeftClosed-boolean-) | Indicates whether the interval is closed on the left side. |
 | [setMapChartProjectionType(int value)](#setMapChartProjectionType-int-) | Sets the projection type of the map. |
 | [setMapChartRegionType(int value)](#setMapChartRegionType-int-) | Sets the region type of the map. |
 | [setMapLabelLayout(int value)](#setMapLabelLayout-int-) | Sets the layout of map labels. |
@@ -192,6 +194,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isIntervalLeftClosed() {#isIntervalLeftClosed--}
+```
+public boolean isIntervalLeftClosed()
+```
+
+
+Indicates whether the interval is closed on the left side.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -207,6 +219,19 @@ public final native void notifyAll()
 
 
 
+
+### setIntervalLeftClosed(boolean value) {#setIntervalLeftClosed-boolean-}
+```
+public void setIntervalLeftClosed(boolean value)
+```
+
+
+Indicates whether the interval is closed on the left side.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setMapChartProjectionType(int value) {#setMapChartProjectionType-int-}
 ```

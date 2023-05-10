@@ -13,6 +13,8 @@ public class DisplayUnitLabel extends ChartTextFrame
 ```
 
 Represents the display unit label.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

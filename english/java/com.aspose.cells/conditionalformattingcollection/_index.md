@@ -13,6 +13,8 @@ public class ConditionalFormattingCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [FormatCondition](../../com.aspose.cells/formatcondition) objects.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

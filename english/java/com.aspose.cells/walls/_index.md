@@ -257,6 +257,8 @@ public boolean getInvertIfNegative()
 
 
 If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+**Example**
+
 
 ```
 //Instantiating a Workbook object
@@ -437,6 +439,8 @@ public void setInvertIfNegative(boolean value)
 
 
 If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

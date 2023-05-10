@@ -23,7 +23,7 @@ This class specifies the visual shape properties for a chart element or shape.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getFormat3D()](#getFormat3D--) | Represents a [getFormat3D()](../../com.aspose.cells/shapepropertycollection\#getFormat3D--) object that specifies 3D shape properties for the chart element or shape. |
-| [getGlowEffect()](#getGlowEffect--) | Represents a [ShapeFormat.getGlowEffect()](../../com.aspose.cells/shapeformat\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
+| [getGlowEffect()](#getGlowEffect--) | Represents a [getGlowEffect()](../../com.aspose.cells/shapepropertycollection\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
 | [getSoftEdgeRadius()](#getSoftEdgeRadius--) | Gets the radius of blur to apply to the edges, in unit of points. |
 | [hasFormat3D()](#hasFormat3D--) | Indicates if the shape has 3d format data. |
@@ -102,7 +102,7 @@ public GlowEffect getGlowEffect()
 ```
 
 
-Represents a [ShapeFormat.getGlowEffect()](../../com.aspose.cells/shapeformat\#getGlowEffect--) object that specifies glow effect for the chart element or shape.
+Represents a [getGlowEffect()](../../com.aspose.cells/shapepropertycollection\#getGlowEffect--) object that specifies glow effect for the chart element or shape.
 
 **Returns:**
 [GlowEffect](../../com.aspose.cells/gloweffect)

@@ -13,6 +13,8 @@ public class ChartPoint
 ```
 
 Represents a single point in a series in a chart.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

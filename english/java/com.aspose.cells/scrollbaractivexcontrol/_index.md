@@ -13,6 +13,8 @@ public class ScrollBarActiveXControl extends SpinButtonActiveXControl
 ```
 
 Represents the ScrollBar control.
+**Example**
+
 
 ```
 //Initialize a new workbook.
@@ -39,7 +41,9 @@ Represents the ScrollBar control.
 | [getForeOleColor()](#getForeOleColor--) | Gets the ole color of the foreground. |
 | [getHeight()](#getHeight--) | Gets the height of the control in unit of points. |
 | [getIMEMode()](#getIMEMode--) | Gets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [getLargeChange()](#getLargeChange--) | Gets the amount by which the Position property changes |
+| [getLargeChange()](#getLargeChange--) | Gets the amount by which the Position property changes
+**Example**
+ |
 | [getLinkedCell()](#getLinkedCell--) | Gets the linked cell. |
 | [getListFillRange()](#getListFillRange--) | Gets the list fill range. |
 | [getMax()](#getMax--) | Gets the maximum acceptable value. |
@@ -49,7 +53,9 @@ Represents the ScrollBar control.
 | [getOrientation()](#getOrientation--) | Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
 | [getPosition()](#getPosition--) | Gets the value. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
-| [getSmallChange()](#getSmallChange--) | Gets the amount by which the Position property changes |
+| [getSmallChange()](#getSmallChange--) | Gets the amount by which the Position property changes
+**Example**
+ |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
@@ -68,7 +74,9 @@ Represents the ScrollBar control.
 | [setForeOleColor(int value)](#setForeOleColor-int-) | Sets the ole color of the foreground. |
 | [setHeight(double value)](#setHeight-double-) | Sets the height of the control in unit of points. |
 | [setIMEMode(int value)](#setIMEMode-int-) | Sets the default run-time mode of the Input Method Editor for the control as it receives focus. |
-| [setLargeChange(int value)](#setLargeChange-int-) | Sets the amount by which the Position property changes |
+| [setLargeChange(int value)](#setLargeChange-int-) | Sets the amount by which the Position property changes
+**Example**
+ |
 | [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the linked cell. |
 | [setListFillRange(String value)](#setListFillRange-java.lang.String-) | Sets the list fill range. |
 | [setLocked(boolean value)](#setLocked-boolean-) | Indicates whether data in the control is locked for editing. |
@@ -79,7 +87,9 @@ Represents the ScrollBar control.
 | [setOrientation(int value)](#setOrientation-int-) | Sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. |
 | [setPosition(int value)](#setPosition-int-) | Sets the value. |
 | [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
-| [setSmallChange(int value)](#setSmallChange-int-) | Sets the amount by which the Position property changes |
+| [setSmallChange(int value)](#setSmallChange-int-) | Sets the amount by which the Position property changes
+**Example**
+ |
 | [setTextAlign(int value)](#setTextAlign-int-) | Represents how to align the text used by the control. |
 | [setTransparent(boolean value)](#setTransparent-boolean-) | Indicates whether the control is transparent. |
 | [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this control is visible. |
@@ -180,6 +190,8 @@ public int getLargeChange()
 
 
 Gets the amount by which the Position property changes
+**Example**
+
 
 ```
 activeXControl.setSmallChange(5);
@@ -214,6 +226,8 @@ public int getMax()
 
 
 Gets the maximum acceptable value.
+**Example**
+
 
 ```
 activeXControl.setMin(100);
@@ -228,6 +242,8 @@ public int getMin()
 
 
 Gets the minimum acceptable value.
+**Example**
+
 
 ```
 activeXControl.setMin(0);
@@ -262,6 +278,8 @@ public int getOrientation()
 
 
 Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally. [ControlScrollOrientation](../../com.aspose.cells/controlscrollorientation).
+**Example**
+
 
 ```
 if(activeXControl.getOrientation() == com.aspose.cells.ControlScrollOrientation.AUTO)
@@ -279,6 +297,8 @@ public int getPosition()
 
 
 Gets the value.
+**Example**
+
 
 ```
 activeXControl.setPosition(30);
@@ -303,6 +323,8 @@ public int getSmallChange()
 
 
 Gets the amount by which the Position property changes
+**Example**
+
 
 ```
 activeXControl.setSmallChange(5);
@@ -327,6 +349,8 @@ public int getType()
 
 
 Gets the type of the ActiveX control. [ControlType](../../com.aspose.cells/controltype).
+**Example**
+
 
 ```
 if(activeXControl.getType() == com.aspose.cells.ControlType.SCROLL_BAR)
@@ -518,6 +542,8 @@ public void setLargeChange(int value)
 
 
 Sets the amount by which the Position property changes
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,6 +596,8 @@ public void setMax(int value)
 
 
 Sets the maximum acceptable value.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -583,6 +611,8 @@ public void setMin(int value)
 
 
 Sets the minimum acceptable value.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,6 +652,8 @@ public void setOrientation(int value)
 
 
 Sets whether the SpinButton or ScrollBar is oriented vertically or horizontally. [ControlScrollOrientation](../../com.aspose.cells/controlscrollorientation).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -635,6 +667,8 @@ public void setPosition(int value)
 
 
 Sets the value.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -661,6 +695,8 @@ public void setSmallChange(int value)
 
 
 Sets the amount by which the Position property changes
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

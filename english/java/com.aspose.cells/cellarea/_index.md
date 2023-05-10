@@ -16,6 +16,8 @@ public final class CellArea implements Comparable
 ```
 
 Represent an area of cells.
+**Example**
+
 
 ```
 //Create Cell Area

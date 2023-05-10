@@ -541,6 +541,8 @@ public GridCell get(int row, int column)
 
 
 Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell row index and column index.
+**Example**
+
 
 ```
 GridWeb GridWeb1 = new GridWeb();
@@ -564,6 +566,8 @@ public GridCell get(String cellName)
 
 
 Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell name.
+**Example**
+
 
 ```
 GridWeb GridWeb1 = new GridWeb();
@@ -1263,6 +1267,8 @@ public void setBorders(int firstRow, int firstColumn, int rowNumber, int columnN
 
 
 Sets borders for a cells range.
+**Example**
+
 
 ```
 GridWeb GridWeb1 = new GridWeb();
@@ -1481,6 +1487,8 @@ public void sort(int startRow, int startColumn, int rows, int columns, int index
 
 
 Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. Sorts the datas ascend/decend left to right in a range of a Worksheet by specified row index.
+**Example**
+
 
 ```
 GridWeb GridWeb1 = new GridWeb();

@@ -30,7 +30,7 @@ Represents the copy options.
 | [getExtendToAdjacentRange()](#getExtendToAdjacentRange--) | Indicates whether extend ranges when copying the range to adjacent range. |
 | [getKeepMacros()](#getKeepMacros--) | Indicates whether keeping macros; Only for copying workbook. |
 | [getReferToDestinationSheet()](#getReferToDestinationSheet--) | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. |
-| [getReferToSheetWithSameName()](#getReferToSheetWithSameName--) | When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. |
+| [getReferToSheetWithSameName()](#getReferToSheetWithSameName--) | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,7 +40,7 @@ Represents the copy options.
 | [setExtendToAdjacentRange(boolean value)](#setExtendToAdjacentRange-boolean-) | Indicates whether extend ranges when copying the range to adjacent range. |
 | [setKeepMacros(boolean value)](#setKeepMacros-boolean-) | Indicates whether keeping macros; Only for copying workbook. |
 | [setReferToDestinationSheet(boolean value)](#setReferToDestinationSheet-boolean-) | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. |
-| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. |
+| [setReferToSheetWithSameName(boolean value)](#setReferToSheetWithSameName-boolean-) | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -144,7 +144,7 @@ public boolean getReferToSheetWithSameName()
 ```
 
 
-When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. But sometimes we have copied other worksheets and we hope the copied formulas refer to other worksheets with the name in the same workbook, please set this property as true. The default value is true.
+In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. The default value is true.
 
 **Returns:**
 boolean
@@ -258,7 +258,7 @@ public void setReferToSheetWithSameName(boolean value)
 ```
 
 
-When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. But sometimes we have copied other worksheets and we hope the copied formulas refer to other worksheets with the name in the same workbook, please set this property as true. The default value is true.
+In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

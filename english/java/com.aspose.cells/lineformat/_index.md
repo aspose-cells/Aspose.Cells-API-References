@@ -13,6 +13,8 @@ public class LineFormat extends FillFormat
 ```
 
 Represents all setting of the line.
+**Example**
+
 
 ```
 //Instantiating a Workbook object
@@ -98,6 +100,8 @@ public boolean equals(Object obj)
 
 
 Determines whether this instance has the same value as another specified [LineFormat](../../com.aspose.cells/lineformat) object.
+**Example**
+
 
 ```
 //You have to make sure that the index value in this line of code exists
@@ -122,6 +126,8 @@ public int getBeginArrowheadLength()
 
 
 Gets the begin arrow length type of the line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+**Example**
+
 
 ```
 lineFmt.setBeginArrowheadLength(MsoArrowheadLength.LONG);
@@ -136,6 +142,8 @@ public int getBeginArrowheadStyle()
 
 
 Gets the begin arrow type of the line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+**Example**
+
 
 ```
 lineFmt.setBeginArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
@@ -150,6 +158,8 @@ public int getBeginArrowheadWidth()
 
 
 Gets the begin arrow width type of the line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+**Example**
+
 
 ```
 lineFmt.setBeginArrowheadWidth(MsoArrowheadWidth.MEDIUM);
@@ -164,6 +174,8 @@ public int getCapType()
 
 
 Specifies the ending caps. [LineCapType](../../com.aspose.cells/linecaptype).
+**Example**
+
 
 ```
 lineFmt.setCapType(LineCapType.FLAT);
@@ -188,6 +200,8 @@ public int getCompoundType()
 
 
 Specifies the line compound type. [MsoLineStyle](../../com.aspose.cells/msolinestyle).
+**Example**
+
 
 ```
 lineFmt.setCompoundType(MsoLineStyle.SINGLE);
@@ -202,6 +216,8 @@ public int getDashStyle()
 
 
 Specifies the line dash type. [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
+**Example**
+
 
 ```
 lineFmt.setDashStyle(MsoLineDashStyle.SOLID);
@@ -216,6 +232,8 @@ public int getEndArrowheadLength()
 
 
 Gets the end arrow length type of the line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+**Example**
+
 
 ```
 lineFmt.setEndArrowheadLength(MsoArrowheadLength.LONG);
@@ -230,6 +248,8 @@ public int getEndArrowheadStyle()
 
 
 Gets the end arrow type of the line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+**Example**
+
 
 ```
 lineFmt.setEndArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
@@ -244,6 +264,8 @@ public int getEndArrowheadWidth()
 
 
 Gets the end arrow width type of the line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+**Example**
+
 
 ```
 lineFmt.setEndArrowheadWidth(MsoArrowheadWidth.MEDIUM);
@@ -348,6 +370,8 @@ public int getJoinType()
 
 
 Specifies the line join type. [LineJoinType](../../com.aspose.cells/linejointype).
+**Example**
+
 
 ```
 lineFmt.setJoinType(LineJoinType.ROUND);
@@ -472,6 +496,8 @@ public double getWeight()
 
 
 Gets the weight of the line in unit of points.
+**Example**
+
 
 ```
 lineFmt.setWeight(2.0d);
@@ -486,6 +512,8 @@ public int hashCode()
 
 
 Gets the hash code.
+**Example**
+
 
 ```
 int hashCode = lineFmt.hashCode();
@@ -516,6 +544,8 @@ public void setBeginArrowheadLength(int value)
 
 
 Sets the begin arrow length type of the line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -529,6 +559,8 @@ public void setBeginArrowheadStyle(int value)
 
 
 Sets the begin arrow type of the line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -542,6 +574,8 @@ public void setBeginArrowheadWidth(int value)
 
 
 Sets the begin arrow width type of the line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -555,6 +589,8 @@ public void setCapType(int value)
 
 
 Specifies the ending caps. [LineCapType](../../com.aspose.cells/linecaptype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -568,6 +604,8 @@ public void setCompoundType(int value)
 
 
 Specifies the line compound type. [MsoLineStyle](../../com.aspose.cells/msolinestyle).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -581,6 +619,8 @@ public void setDashStyle(int value)
 
 
 Specifies the line dash type. [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -594,6 +634,8 @@ public void setEndArrowheadLength(int value)
 
 
 Sets the end arrow length type of the line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -607,6 +649,8 @@ public void setEndArrowheadStyle(int value)
 
 
 Sets the end arrow type of the line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -620,6 +664,8 @@ public void setEndArrowheadWidth(int value)
 
 
 Sets the end arrow width type of the line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -659,6 +705,8 @@ public void setJoinType(int value)
 
 
 Specifies the line join type. [LineJoinType](../../com.aspose.cells/linejointype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -828,6 +876,8 @@ public void setWeight(double value)
 
 
 Sets the weight of the line in unit of points.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

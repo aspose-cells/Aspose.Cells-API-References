@@ -23,15 +23,26 @@ Presents the selected area of the PivotTable.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAxisType()](#getAxisType--) | Gets the region of the PivotTable to which this rule applies. |
 | [getClass()](#getClass--) |  |
+| [getFilters()](#getFilters--) | Gets all filters for this PivotArea. |
 | [getOnlyData()](#getOnlyData--) | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
 | [getOnlyLabel()](#getOnlyLabel--) | Indicates whether only the data labels for an item selection are selected. |
+| [getRuleType()](#getRuleType--) | Gets the type of selection rule. |
 | [hashCode()](#hashCode--) |  |
+| [isColumnGrandIncluded()](#isColumnGrandIncluded--) | Indicates whether the column grand total is included. |
+| [isOutline()](#isOutline--) | Indicates whether the rule refers to an area that is in outline mode. |
+| [isRowGrandIncluded()](#isRowGrandIncluded--) | Indicates whether the row grand total is included. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [select(int axisType, int fieldPosition, int selectionType)](#select-int-int-int-) | Select the area with filters. |
+| [setAxisType(int value)](#setAxisType-int-) | Sets the region of the PivotTable to which this rule applies. |
+| [setColumnGrandIncluded(boolean value)](#setColumnGrandIncluded-boolean-) | Indicates whether the column grand total is included. |
 | [setOnlyData(boolean value)](#setOnlyData-boolean-) | Indicates whether only the data values (in the data area of the view) for an item selection are selected and does not include the item labels. |
 | [setOnlyLabel(boolean value)](#setOnlyLabel-boolean-) | Indicates whether only the data labels for an item selection are selected. |
+| [setOutline(boolean value)](#setOutline-boolean-) | Indicates whether the rule refers to an area that is in outline mode. |
+| [setRowGrandIncluded(boolean value)](#setRowGrandIncluded-boolean-) | Indicates whether the row grand total is included. |
+| [setRuleType(int value)](#setRuleType-int-) | Sets the type of selection rule. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,6 +75,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAxisType() {#getAxisType--}
+```
+public int getAxisType()
+```
+
+
+Gets the region of the PivotTable to which this rule applies. [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
+
+**Returns:**
+int
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -74,6 +95,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFilters() {#getFilters--}
+```
+public PivotAreaFilterCollection getFilters()
+```
+
+
+Gets all filters for this PivotArea.
+
+**Returns:**
+[PivotAreaFilterCollection](../../com.aspose.cells/pivotareafiltercollection)
 ### getOnlyData() {#getOnlyData--}
 ```
 public boolean getOnlyData()
@@ -94,6 +125,16 @@ Indicates whether only the data labels for an item selection are selected.
 
 **Returns:**
 boolean
+### getRuleType() {#getRuleType--}
+```
+public int getRuleType()
+```
+
+
+Gets the type of selection rule. [PivotAreaType](../../com.aspose.cells/pivotareatype).
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -104,6 +145,36 @@ public native int hashCode()
 
 **Returns:**
 int
+### isColumnGrandIncluded() {#isColumnGrandIncluded--}
+```
+public boolean isColumnGrandIncluded()
+```
+
+
+Indicates whether the column grand total is included.
+
+**Returns:**
+boolean
+### isOutline() {#isOutline--}
+```
+public boolean isOutline()
+```
+
+
+Indicates whether the rule refers to an area that is in outline mode.
+
+**Returns:**
+boolean
+### isRowGrandIncluded() {#isRowGrandIncluded--}
+```
+public boolean isRowGrandIncluded()
+```
+
+
+Indicates whether the row grand total is included.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -135,6 +206,32 @@ Select the area with filters.
 | fieldPosition | int | Position of the field within the axis to which this rule applies. |
 | selectionType | int | [PivotTableSelectionType](../../com.aspose.cells/pivottableselectiontype). Specifies what can be selected in a PivotTable during a structured selection. |
 
+### setAxisType(int value) {#setAxisType-int-}
+```
+public void setAxisType(int value)
+```
+
+
+Sets the region of the PivotTable to which this rule applies. [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setColumnGrandIncluded(boolean value) {#setColumnGrandIncluded-boolean-}
+```
+public void setColumnGrandIncluded(boolean value)
+```
+
+
+Indicates whether the column grand total is included.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setOnlyData(boolean value) {#setOnlyData-boolean-}
 ```
 public void setOnlyData(boolean value)
@@ -160,6 +257,45 @@ Indicates whether only the data labels for an item selection are selected.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setOutline(boolean value) {#setOutline-boolean-}
+```
+public void setOutline(boolean value)
+```
+
+
+Indicates whether the rule refers to an area that is in outline mode.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRowGrandIncluded(boolean value) {#setRowGrandIncluded-boolean-}
+```
+public void setRowGrandIncluded(boolean value)
+```
+
+
+Indicates whether the row grand total is included.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setRuleType(int value) {#setRuleType-int-}
+```
+public void setRuleType(int value)
+```
+
+
+Sets the type of selection rule. [PivotAreaType](../../com.aspose.cells/pivotareatype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

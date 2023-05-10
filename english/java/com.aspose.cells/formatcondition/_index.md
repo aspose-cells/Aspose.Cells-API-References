@@ -13,6 +13,8 @@ public class FormatCondition
 ```
 
 Represents conditional formatting condition.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

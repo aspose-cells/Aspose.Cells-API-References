@@ -785,6 +785,8 @@ public String getCustomStyleFileName()
 
 
 Gets the custom style file name. The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
+**Example**
+
 
 ```
 GridWeb1.setCustomStyleFileName("c:\\style\\mystyle.xml");
@@ -799,6 +801,8 @@ public String getDefaultFontName()
 
 
 Gets the control's default font name.
+**Example**
+
 
 ```
 GridWeb1.setDefaultFontName("Arial");
@@ -823,6 +827,8 @@ public Color getDefaultGridLineColor()
 
 
 Gets the default grid line's color.
+**Example**
+
 
 ```
 GridWeb1.setDefaultGridLineColor(Color.getRed());
@@ -1037,6 +1043,8 @@ public Unit getHeaderBarHeight()
 
 
 Gets the height( System.Web.UI.WebControl.Unit ) of the top header bar of the control.
+**Example**
+
 
 ```
 GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
@@ -1072,6 +1080,8 @@ public Unit getHeaderBarWidth()
 
 
 Gets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control.
+**Example**
+
 
 ```
 GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
@@ -1087,6 +1097,8 @@ public Unit getHeight()
 
 
 Gets the height( System.Web.UI.WebControl.Unit ) of the control.
+**Example**
+
 
 ```
 GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
@@ -1132,6 +1144,8 @@ public int getMaxColumn()
 
 
 Gets the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column.
+**Example**
+
 
 ```
 // Creates a 4x4 "display window".
@@ -1150,6 +1164,8 @@ public int getMaxRow()
 
 
 Gets the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row.
+**Example**
+
 
 ```
 // Creates a 4x4 "display window".
@@ -1188,6 +1204,8 @@ public int getMinRow()
 
 
 Gets the minimum display row index(zero based) of the web sheet. The control uses the smaller value of MinRow and sheet data's min row.
+**Example**
+
 
 ```
 // Creates a 4x4 "display window".
@@ -1519,6 +1537,8 @@ public int getPresetStyle()
 
 
 Gets the preset style. [PresetStyle](../../com.aspose.gridweb/presetstyle).
+**Example**
+
 
 ```
 GridWeb1.setPresetStyle(PresetStyle.TRADITIONAL_1);
@@ -1629,6 +1649,8 @@ Generally the asp.net uses InProc session state. The grid also supports "StateSe
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
 4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
 When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+**Example**
+
 
 ```
 GridWeb1.setSessionMode(SessionMode.VIEW_STATE);
@@ -1923,6 +1945,8 @@ public Unit getWidth()
 
 
 Gets the width( System.Web.UI.WebControl.Unit ) of the control.
+**Example**
+
 
 ```
 GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
@@ -2585,6 +2609,8 @@ public void setCustomStyleFileName(String value)
 
 
 Sets the custom style file name. The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2598,6 +2624,8 @@ public void setDefaultFontName(String value)
 
 
 Sets the control's default font name.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2624,6 +2652,8 @@ public void setDefaultGridLineColor(Color value)
 
 
 Sets the default grid line's color.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2912,6 +2942,8 @@ public void setHeaderBarHeight(Unit value)
 
 
 Sets the height( System.Web.UI.WebControl.Unit ) of the top header bar of the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2951,6 +2983,8 @@ public void setHeaderBarWidth(Unit value)
 
 
 Sets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2964,6 +2998,8 @@ public void setHeight(Unit value)
 
 
 Sets the height( System.Web.UI.WebControl.Unit ) of the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3003,6 +3039,8 @@ public void setMaxColumn(int value)
 
 
 Sets the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3016,6 +3054,8 @@ public void setMaxRow(int value)
 
 
 Sets the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3055,6 +3095,8 @@ public void setMinRow(int value)
 
 
 Sets the minimum display row index(zero based) of the web sheet. The control uses the smaller value of MinRow and sheet data's min row.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3424,6 +3466,8 @@ public void setPresetStyle(int value)
 
 
 Sets the preset style. [PresetStyle](../../com.aspose.gridweb/presetstyle).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3547,6 +3591,8 @@ Generally the asp.net uses InProc session state. The grid also supports "StateSe
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
 4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
 When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3885,6 +3931,8 @@ public void setWidth(Unit value)
 
 
 Sets the width( System.Web.UI.WebControl.Unit ) of the control.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

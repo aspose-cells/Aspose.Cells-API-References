@@ -57,7 +57,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Bullet](../com.aspose.cells/bullet) | Represents the bullet. |
 | [BulletType](../com.aspose.cells/bullettype) | Represents the type of the bullet. |
 | [BulletValue](../com.aspose.cells/bulletvalue) | Represents the value of the bullet. |
-| [Button](../com.aspose.cells/button) | Represents the Forms control: Button |
+| [Button](../com.aspose.cells/button) | Represents the Forms control: Button**Example** |
 | [CalcModeType](../com.aspose.cells/calcmodetype) | Represents the mode type of calculating formulas. |
 | [CalculationCell](../com.aspose.cells/calculationcell) | Represents the calculation relevant data about one cell which is being calculated. |
 | [CalculationData](../com.aspose.cells/calculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
@@ -222,7 +222,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ExportRangeToJsonOptions](../com.aspose.cells/exportrangetojsonoptions) | Indicates the options that exporting range to json. |
 | [ExportTableOptions](../com.aspose.cells/exporttableoptions) | Represents all export table options. |
 | [ExternalConnection](../com.aspose.cells/externalconnection) | Specifies an external data connection |
-| [ExternalConnectionCollection](../com.aspose.cells/externalconnectioncollection) | Specifies the [ExternalConnection](../com.aspose.cells/externalconnection) collection |
+| [ExternalConnectionCollection](../com.aspose.cells/externalconnectioncollection) | Specifies the [ExternalConnection](../com.aspose.cells/externalconnection) collection**Example** |
 | [ExternalLink](../com.aspose.cells/externallink) | Represents an external link in a workbook. |
 | [ExternalLinkCollection](../com.aspose.cells/externallinkcollection) | Represents external links collection in a workbook. |
 | [ExternalLinkType](../com.aspose.cells/externallinktype) | Represents the type of external link. |
@@ -328,7 +328,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [LineType](../com.aspose.cells/linetype) | Enumerates the type of [Picture](../com.aspose.cells/picture) border or [Chart](../com.aspose.cells/chart) line. |
 | [ListBox](../com.aspose.cells/listbox) | Represents a list box object. |
 | [ListBoxActiveXControl](../com.aspose.cells/listboxactivexcontrol) | Represents a ListBox ActiveX control. |
-| [ListColumn](../com.aspose.cells/listcolumn) | Represents a column in a list. |
+| [ListColumn](../com.aspose.cells/listcolumn) | Represents a column in a Table. |
 | [ListColumnCollection](../com.aspose.cells/listcolumncollection) | Represents A collection of all the [ListColumn](../com.aspose.cells/listcolumn) objects in the specified ListObject object. |
 | [ListObject](../com.aspose.cells/listobject) | Represents a list object on a worksheet. |
 | [ListObjectCollection](../com.aspose.cells/listobjectcollection) | Represents a collection of [ListObject](../com.aspose.cells/listobject) objects in the worksheet. |
@@ -423,6 +423,9 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PictureBulletValue](../com.aspose.cells/picturebulletvalue) | Represents the value of the image bullet. |
 | [PictureCollection](../com.aspose.cells/picturecollection) | Encapsulates a collection of [Picture](../com.aspose.cells/picture) objects. |
 | [PivotArea](../com.aspose.cells/pivotarea) | Presents the selected area of the PivotTable. |
+| [PivotAreaFilter](../com.aspose.cells/pivotareafilter) | Represents the filter of [PivotArea](../com.aspose.cells/pivotarea) for [PivotTable](../com.aspose.cells/pivottable). |
+| [PivotAreaFilterCollection](../com.aspose.cells/pivotareafiltercollection) | Represents the list of filters for [PivotArea](../com.aspose.cells/pivotarea) |
+| [PivotAreaType](../com.aspose.cells/pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |
 | [PivotConditionFormatRuleType](../com.aspose.cells/pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](../com.aspose.cells/pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
 | [PivotField](../com.aspose.cells/pivotfield) | Represents a field in a PivotTable report. |
@@ -446,6 +449,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |
 | [PivotTableCollection](../com.aspose.cells/pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+| [PivotTableFormat](../com.aspose.cells/pivottableformat) | Represents the format defined in the PivotTable. |
+| [PivotTableFormatCollection](../com.aspose.cells/pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableSelectionType](../com.aspose.cells/pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. |
 | [PivotTableStyleType](../com.aspose.cells/pivottablestyletype) | Represents the pivot table style type. |
 | [PlacementType](../com.aspose.cells/placementtype) | Represents the way the drawing object is attached to the cells below it. |
@@ -491,6 +496,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ReflectionEffect](../com.aspose.cells/reflectioneffect) | This class specifies a reflection effect. |
 | [ReflectionEffectType](../com.aspose.cells/reflectioneffecttype) | Represents the effect type of reflection. |
 | [RenameStrategy](../com.aspose.cells/renamestrategy) | Strategy option for duplicate names of columns. |
+| [RenderingFont](../com.aspose.cells/renderingfont) | Font for rendering. |
+| [RenderingWatermark](../com.aspose.cells/renderingwatermark) | Watermark for rendering. |
 | [ReplaceOptions](../com.aspose.cells/replaceoptions) | Represent the replace options. |
 | [ResourceLoadingType](../com.aspose.cells/resourceloadingtype) | Represents how to loading the linked resource. |
 | [Revision](../com.aspose.cells/revision) | Represents the revision. |
@@ -530,7 +537,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Shape](../com.aspose.cells/shape) | Represents the msodrawing object. |
 | [ShapeAnchorType](../com.aspose.cells/shapeanchortype) | Represents the anchor type. |
 | [ShapeCollection](../com.aspose.cells/shapecollection) | Represents all the shape in a worksheet/chart. |
-| [ShapeFormat](../com.aspose.cells/shapeformat) | Represents the format of the shape or text. |
 | [ShapeGuide](../com.aspose.cells/shapeguide) | Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape |
 | [ShapeGuideCollection](../com.aspose.cells/shapeguidecollection) | Encapsulates a collection of shape guide |
 | [ShapeLockType](../com.aspose.cells/shapelocktype) | Represents type of the property to be locked. |
@@ -542,7 +548,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShapePropertyCollection](../com.aspose.cells/shapepropertycollection) | This class specifies the visual shape properties for a chart element or shape. |
 | [ShapeSegmentPath](../com.aspose.cells/shapesegmentpath) | Represents a segment path in a path of the freeform. |
 | [ShapeSegmentPathCollection](../com.aspose.cells/shapesegmentpathcollection) | Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape. |
-| [ShapeTextAlignment](../com.aspose.cells/shapetextalignment) | Represents the setting of shape's text alignment; |
+| [ShapeTextAlignment](../com.aspose.cells/shapetextalignment) | Represents the setting of shape's text alignment;**Example** |
 | [SheetPrintingPreview](../com.aspose.cells/sheetprintingpreview) | Worksheet printing preview. |
 | [SheetRender](../com.aspose.cells/sheetrender) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) |
 | [SheetSet](../com.aspose.cells/sheetset) | Describes a set of sheets. |
@@ -550,11 +556,11 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShiftType](../com.aspose.cells/shifttype) | Represent the shift options when deleting a range of cells. |
 | [ShowDropButtonType](../com.aspose.cells/showdropbuttontype) | Specifies when to show the drop button |
 | [SignatureLine](../com.aspose.cells/signatureline) | Represent the signature line. |
-| [Slicer](../com.aspose.cells/slicer) | summary description of Slicer View |
-| [SlicerCache](../com.aspose.cells/slicercache) | summary description of slicer cache |
+| [Slicer](../com.aspose.cells/slicer) | summary description of Slicer View**Example** |
+| [SlicerCache](../com.aspose.cells/slicercache) | summary description of slicer cache**Example** |
 | [SlicerCacheCrossFilterType](../com.aspose.cells/slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |
 | [SlicerCacheItem](../com.aspose.cells/slicercacheitem) | Represent slicer data source item |
-| [SlicerCacheItemCollection](../com.aspose.cells/slicercacheitemcollection) | Represent the collection of SlicerCacheItem |
+| [SlicerCacheItemCollection](../com.aspose.cells/slicercacheitemcollection) | Represent the collection of SlicerCacheItem**Example** |
 | [SlicerCacheItemSortType](../com.aspose.cells/slicercacheitemsorttype) | Specify the sort type of SlicerCacheItem |
 | [SlicerCollection](../com.aspose.cells/slicercollection) | Specifies the collection of all the Slicer objects on the specified worksheet. |
 | [SlicerStyleType](../com.aspose.cells/slicerstyletype) | Specify the style of slicer view |
@@ -639,7 +645,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TilePicOption](../com.aspose.cells/tilepicoption) | Represents tile picture as texture. |
 | [TimePeriodType](../com.aspose.cells/timeperiodtype) | Used in a FormatConditionType.TimePeriod conditional formatting rule. |
 | [TimeUnit](../com.aspose.cells/timeunit) | Represents the base unit for the category axis. |
-| [Timeline](../com.aspose.cells/timeline) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline |
+| [Timeline](../com.aspose.cells/timeline) | Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline**Example** |
 | [TimelineCollection](../com.aspose.cells/timelinecollection) | Specifies the collection of all the Timeline objects on the specified worksheet. |
 | [Title](../com.aspose.cells/title) | Encapsulates the object that represents the title of chart or axis. |
 | [ToggleButtonActiveXControl](../com.aspose.cells/togglebuttonactivexcontrol) | Represents a ToggleButton ActiveX control. |
@@ -663,7 +669,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ValidationCollection](../com.aspose.cells/validationcollection) | Represents data validation collection. |
 | [ValidationType](../com.aspose.cells/validationtype) | Represents data validation type. |
 | [VbaModule](../com.aspose.cells/vbamodule) | Represents the module in VBA project. |
-| [VbaModuleCollection](../com.aspose.cells/vbamodulecollection) | Represents the list of [VbaModule](../com.aspose.cells/vbamodule) |
+| [VbaModuleCollection](../com.aspose.cells/vbamodulecollection) | Represents the list of [VbaModule](../com.aspose.cells/vbamodule)**Example** |
 | [VbaModuleType](../com.aspose.cells/vbamoduletype) | Represents the type of VBA module. |
 | [VbaProject](../com.aspose.cells/vbaproject) | Represents the VBA project. |
 | [VbaProjectReference](../com.aspose.cells/vbaprojectreference) | Represents the reference of VBA project. |

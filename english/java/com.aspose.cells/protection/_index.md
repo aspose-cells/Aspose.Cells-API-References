@@ -13,6 +13,8 @@ public class Protection
 ```
 
 Represents the various types of protection options available for a worksheet.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

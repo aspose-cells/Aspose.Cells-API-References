@@ -24,7 +24,9 @@ Workbook printing preview.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEvaluatedPageCount()](#getEvaluatedPageCount--) | Evaluate the total page count of this workbook |
+| [getEvaluatedPageCount()](#getEvaluatedPageCount--) | Evaluate the total page count of this workbook
+**Example**
+The following code shows the fastest way to get page count of a workbook. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -78,6 +80,8 @@ public int getEvaluatedPageCount()
 
 
 Evaluate the total page count of this workbook
+**Example**
+The following code shows the fastest way to get page count of a workbook.
 
 ```
 Workbook workbook = new Workbook("Book1.xlsx");

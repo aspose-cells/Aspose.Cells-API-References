@@ -13,6 +13,8 @@ public class IconSet
 ```
 
 Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

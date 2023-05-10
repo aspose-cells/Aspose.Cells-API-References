@@ -13,6 +13,8 @@ public class ErrorBar extends Line
 ```
 
 Represents error bar of data series.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -355,6 +357,8 @@ public int getType()
 
 
 Represents error bar amount type. [ErrorBarType](../../com.aspose.cells/errorbartype).
+**Example**
+
 
 ```
 Workbook wb = new Workbook("chart.xlsx");
@@ -734,6 +738,8 @@ public void setType(int value)
 
 
 Represents error bar amount type. [ErrorBarType](../../com.aspose.cells/errorbartype).
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

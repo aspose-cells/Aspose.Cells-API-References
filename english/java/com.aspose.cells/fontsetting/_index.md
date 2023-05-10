@@ -13,6 +13,8 @@ public class FontSetting
 ```
 
 Represents a range of characters within the cell text.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

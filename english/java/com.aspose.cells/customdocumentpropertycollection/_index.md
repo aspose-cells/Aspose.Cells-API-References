@@ -16,6 +16,10 @@ A collection of custom document properties.
 
 Each  object represents a custom property of a container document.
 
+
+**Example**
+
+
 ```
 //Instantiate a Workbook object
          Workbook workbook = new Workbook("book1.xls");

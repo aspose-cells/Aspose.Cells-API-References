@@ -32,7 +32,7 @@ Equation node type. Notice: (1)[1-99] Currently there is only one node in the sc
 | [GROUP_CHARACTER_EQUATION](#GROUP-CHARACTER-EQUATION) | Specifies Group-Character equation |
 | [MATHEMATICAL_EQUATION](#MATHEMATICAL-EQUATION) | Specifies an equation or mathematical expression(OMath). |
 | [MATRIX_EQUATION](#MATRIX-EQUATION) | Specifies the Matrix equation, |
-| [MATRIX_ROW](#MATRIX-ROW) | Specifies a component of type 'Degree'.A single row of the matrix |
+| [MATRIX_ROW](#MATRIX-ROW) | Specifies a component of type 'MatrixRow'.A single row of the matrix |
 | [NARY_EQUATION](#NARY-EQUATION) | Specifies n-ary operator equation |
 | [NUMERATOR](#NUMERATOR) | Specifies a component of type 'Numerator' |
 | [PRE_SUB_SUP_EQUATION](#PRE-SUB-SUP-EQUATION) | Specifies an equation with superscripts and subscripts to the left of the operands. |
@@ -183,7 +183,7 @@ public static final int MATRIX_ROW
 ```
 
 
-Specifies a component of type 'Degree'.A single row of the matrix
+Specifies a component of type 'MatrixRow'.A single row of the matrix
 
 ### NARY_EQUATION {#NARY-EQUATION}
 ```

@@ -13,6 +13,8 @@ public class CellWatchCollection extends CollectionBase
 ```
 
 Represents the collection of cells on this worksheet being watched in the 'watch window'.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

@@ -13,6 +13,8 @@ public class ErrorCheckOption
 ```
 
 Error check setting applied on certain ranges.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();

@@ -13,6 +13,8 @@ public class VbaModule
 ```
 
 Represents the module in VBA project.
+**Example**
+
 
 ```
 //Instantiating a Workbook object

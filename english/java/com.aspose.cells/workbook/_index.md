@@ -12,7 +12,9 @@ java.lang.Object
 public class Workbook
 ```
 
-Represents a root object to create an Excel spreadsheet. The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks and protecting the Excel spreadsheet.
+Represents a root object to create an Excel spreadsheet. The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks, converting Excel to PDF, rendering Excel to image and protecting the Excel spreadsheet.
+**Example**
+The following example loads a Workbook from an Excel file named designer.xls and makes the horizontal and vertical scroll bars invisible. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally save the workbook as Excel xlsx file.
 
 ```
 //Open a designer file
@@ -29,7 +31,7 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
  
          String newString = "Hello!";
          workbook.replace("OldString", newString);
-         workbook.save("result.xls");
+         workbook.save("result.xlsx");
 ```
 ## Constructors
 
@@ -55,7 +57,7 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 | [closeAccessCache(int opts)](#closeAccessCache-int-) | Closes the session that uses caches to access data. |
 | [combine(Workbook secondWorkbook)](#combine-com.aspose.cells.Workbook-) | Combines another Workbook object. |
 | [copy(Workbook source)](#copy-com.aspose.cells.Workbook-) | Copies data from a source Workbook object. |
-| [copy(Workbook source, CopyOptions copyOptions)](#copy-com.aspose.cells.Workbook-com.aspose.cells.CopyOptions-) | Copies data from a source Workbook object. |
+| [copy(Workbook source, CopyOptions copyOptions)](#copy-com.aspose.cells.Workbook-com.aspose.cells.CopyOptions-) | Copies another Workbook object. |
 | [copyTheme(Workbook source)](#copyTheme-com.aspose.cells.Workbook-) | Copies the theme from another workbook. |
 | [createBuiltinStyle(int type)](#createBuiltinStyle-int-) | Creates built-in style by given type. |
 | [createCellsColor()](#createCellsColor--) | Creates a [CellsColor](../../com.aspose.cells/cellscolor) object. |
@@ -151,7 +153,9 @@ public Workbook()
 ```
 
 
-Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. The default file format type is Xlsx. To create other format file type, please use Workbook(FileFormatType).
+Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
+**Example**
+The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
 
 ```
 Workbook workbook = new Workbook();
@@ -164,6 +168,8 @@ public Workbook(int fileFormatType)
 
 
 Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. The default file format type is Excel97To2003.
+**Example**
+The following code shows how to use the Workbook constructor to create and initialize a new instance of the class with various file format type.
 
 ```
 Workbook workbook = new Workbook(FileFormatType.XLSX);
@@ -399,7 +405,7 @@ public void combine(Workbook secondWorkbook)
 ```
 
 
-Combines another Workbook object. Currently, only cell data and cell style of the second Workbook object can be combined. Images, charts and other drawing objects are not supported.
+Combines another Workbook object. Merge Excel, ODS , CSV and other files to one file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -425,13 +431,13 @@ public void copy(Workbook source, CopyOptions copyOptions)
 ```
 
 
-Copies data from a source Workbook object.
+Copies another Workbook object. It's very simple to clone an Excel file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | source | [Workbook](../../com.aspose.cells/workbook) | Source Workbook object. |
-| copyOptions | [CopyOptions](../../com.aspose.cells/copyoptions) |  |
+| copyOptions | [CopyOptions](../../com.aspose.cells/copyoptions) | The options of copying other workbook. |
 
 ### copyTheme(Workbook source) {#copyTheme-com.aspose.cells.Workbook-}
 ```
@@ -457,10 +463,10 @@ Creates built-in style by given type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | [BuiltinStyleType](../../com.aspose.cells/builtinstyletype). |
+| type | int | [BuiltinStyleType](../../com.aspose.cells/builtinstyletype). The builtin style stype. |
 
 **Returns:**
-[Style](../../com.aspose.cells/style) - style object
+[Style](../../com.aspose.cells/style) - [Style](../../com.aspose.cells/style) object
 ### createCellsColor() {#createCellsColor--}
 ```
 public CellsColor createCellsColor()
@@ -556,6 +562,8 @@ public void exportXml(String mapName, String path)
 
 
 Export XML data linked by the specified XML map.
+**Example**
+The following code exported the data linked by the first XmlMap.
 
 ```
 Workbook wb = new Workbook("Book1.xlsx");
@@ -646,6 +654,10 @@ Number of Hidden Slides
 
 Number of Multimedia Clips
 
+
+**Example**
+
+
 ```
 Workbook workbook = new Workbook();
          DocumentProperty doc = workbook.getBuiltInDocumentProperties().get("Author");
@@ -711,6 +723,8 @@ public CustomDocumentPropertyCollection getCustomDocumentProperties()
 
 
 Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the custom document properties of the spreadsheet.
+**Example**
+
 
 ```
 Workbook excel = new Workbook();
@@ -766,6 +780,8 @@ public Style getDefaultStyle()
 
 
 Gets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
+**Example**
+The following code creates and instantiates a new Workbook and sets a default [Style](../../com.aspose.cells/style) to it.
 
 ```
 Workbook workbook = new Workbook();
@@ -999,6 +1015,8 @@ public void importXml(String url, String sheetName, int row, int col)
 
 
 Imports/Updates an XML data file into the workbook.
+**Example**
+The following code imports xml data into worksheet 'Sheet 1' at Cell A1.
 
 ```
 Workbook wb = new Workbook("Book1.xlsx");
@@ -1088,7 +1106,7 @@ Parses all formulas which have not been parsed when they were loaded from templa
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreError | boolean | whether ignore error for invalid formula. For one invalid formula, if ignore error then this formula will be ignored and the process will continue to parse other formulas, otherwise exception will be thrown. |
+| ignoreError | boolean | Whether ignore error for invalid formula. For one invalid formula, if ignore error then this formula will be ignored and the process will continue to parse other formulas, otherwise exception will be thrown. |
 
 ### protect(int protectionType, String password) {#protect-int-java.lang.String-}
 ```
@@ -1223,6 +1241,8 @@ public int replace(String placeHolder, double newValue)
 
 
 Replaces a cell's value with a new double.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -1246,6 +1266,8 @@ public int replace(String placeHolder, double[] newValues, boolean isVertical)
 
 
 Replaces cells' values with a double array.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -1270,6 +1292,8 @@ public int replace(String placeHolder, int newValue)
 
 
 Replaces a cell's value with a new integer.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -1293,6 +1317,8 @@ public int replace(String placeHolder, int[] newValues, boolean isVertical)
 
 
 Replaces cells' values with an integer array.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -1317,6 +1343,8 @@ public int replace(String placeHolder, String newValue)
 
 
 Replaces a cell's value with a new string.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -1356,6 +1384,8 @@ public int replace(String placeHolder, String[] newValues, boolean isVertical)
 
 
 Replaces a cell's value with a new string array.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -1462,6 +1492,8 @@ public void setDefaultStyle(Style value)
 
 
 Sets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
+**Example**
+The following code creates and instantiates a new Workbook and sets a default [Style](../../com.aspose.cells/style) to it.
 
 **Parameters:**
 | Parameter | Type | Description |

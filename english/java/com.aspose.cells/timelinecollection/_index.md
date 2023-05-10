@@ -13,6 +13,8 @@ public class TimelineCollection extends CollectionBase
 ```
 
 Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline.
+**Example**
+
 
 ```
 Workbook book = new Workbook();
@@ -64,12 +66,24 @@ Workbook book = new Workbook();
 
 | Method | Description |
 | --- | --- |
-| [add(PivotTable pivot, int row, int column, PivotField baseField)](#add-com.aspose.cells.PivotTable-int-int-com.aspose.cells.PivotField-) | Add a new Timeline using PivotTable as data source |
-| [add(PivotTable pivot, int row, int column, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-int-int-int-) | Add a new Timeline using PivotTable as data source |
-| [add(PivotTable pivot, int row, int column, String baseFieldName)](#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) | Add a new Timeline using PivotTable as data source |
-| [add(PivotTable pivot, String destCellName, PivotField baseField)](#add-com.aspose.cells.PivotTable-java.lang.String-com.aspose.cells.PivotField-) | Add a new Timeline using PivotTable as data source |
-| [add(PivotTable pivot, String destCellName, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-java.lang.String-int-) | Add a new Timeline using PivotTable as data source |
-| [add(PivotTable pivot, String destCellName, String baseFieldName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Add a new Timeline using PivotTable as data source |
+| [add(PivotTable pivot, int row, int column, PivotField baseField)](#add-com.aspose.cells.PivotTable-int-int-com.aspose.cells.PivotField-) | Add a new Timeline using PivotTable as data source
+**Example**
+ |
+| [add(PivotTable pivot, int row, int column, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-int-int-int-) | Add a new Timeline using PivotTable as data source
+**Example**
+ |
+| [add(PivotTable pivot, int row, int column, String baseFieldName)](#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) | Add a new Timeline using PivotTable as data source
+**Example**
+ |
+| [add(PivotTable pivot, String destCellName, PivotField baseField)](#add-com.aspose.cells.PivotTable-java.lang.String-com.aspose.cells.PivotField-) | Add a new Timeline using PivotTable as data source
+**Example**
+ |
+| [add(PivotTable pivot, String destCellName, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-java.lang.String-int-) | Add a new Timeline using PivotTable as data source
+**Example**
+ |
+| [add(PivotTable pivot, String destCellName, String baseFieldName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Add a new Timeline using PivotTable as data source
+**Example**
+ |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -95,6 +109,8 @@ public int add(PivotTable pivot, int row, int column, PivotField baseField)
 
 
 Add a new Timeline using PivotTable as data source
+**Example**
+
 
 ```
 //Add a new Timeline using PivotTable as data source
@@ -118,6 +134,8 @@ public int add(PivotTable pivot, int row, int column, int baseFieldIndex)
 
 
 Add a new Timeline using PivotTable as data source
+**Example**
+
 
 ```
 //Add a new Timeline using PivotTable as data source
@@ -141,6 +159,8 @@ public int add(PivotTable pivot, int row, int column, String baseFieldName)
 
 
 Add a new Timeline using PivotTable as data source
+**Example**
+
 
 ```
 //Add a new Timeline using PivotTable as data source
@@ -164,6 +184,8 @@ public int add(PivotTable pivot, String destCellName, PivotField baseField)
 
 
 Add a new Timeline using PivotTable as data source
+**Example**
+
 
 ```
 //Add a new Timeline using PivotTable as data source
@@ -186,6 +208,8 @@ public int add(PivotTable pivot, String destCellName, int baseFieldIndex)
 
 
 Add a new Timeline using PivotTable as data source
+**Example**
+
 
 ```
 //Add a new Timeline using PivotTable as data source
@@ -208,6 +232,8 @@ public int add(PivotTable pivot, String destCellName, String baseFieldName)
 
 
 Add a new Timeline using PivotTable as data source
+**Example**
+
 
 ```
 //Add a new Timeline using PivotTable as data source
@@ -283,6 +309,8 @@ public Timeline get(int index)
 
 
 Gets the Timeline by index.
+**Example**
+
 
 ```
 //Get the Timeline by index.
@@ -303,6 +331,8 @@ public Timeline get(String name)
 
 
 Gets the Timeline by Timeline's name.
+**Example**
+
 
 ```
 //Get the Timeline by Timeline's name.

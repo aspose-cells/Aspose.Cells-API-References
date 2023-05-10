@@ -13,6 +13,8 @@ public interface CustomCommandEventHandler extends Serializable
 ```
 
 Represents the interface that intend to handle Custom Command events.
+**Example**
+
 
 ```
 class MyCustomCommandEventHandler implements  CustomCommandEventHandler,Serializable{

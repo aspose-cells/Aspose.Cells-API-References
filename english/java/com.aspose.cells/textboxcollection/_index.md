@@ -13,6 +13,8 @@ public class TextBoxCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [TextBox](../../com.aspose.cells/textbox) objects.
+**Example**
+
 
 ```
 //Instantiating a Workbook object
@@ -58,6 +60,8 @@ public int add(int upperLeftRow, int upperLeftColumn, int height, int width)
 
 
 Adds a textbox to the collection.
+**Example**
+
 
 ```
 //add a TextBox
@@ -96,6 +100,8 @@ public void clear()
 
 
 Clear all text boxes.
+**Example**
+
 
 ```
 //clear all textbox
@@ -139,6 +145,8 @@ public TextBox get(int index)
 
 
 Gets the [TextBox](../../com.aspose.cells/textbox) element at the specified index.
+**Example**
+
 
 ```
 int index = textBoxCollection.getCount() - 1;
@@ -159,6 +167,8 @@ public TextBox get(String name)
 
 
 Gets the [TextBox](../../com.aspose.cells/textbox) element by the name.
+**Example**
+
 
 ```
 String txtboxName = "textbox 1"; 
@@ -254,6 +264,8 @@ public void removeAt(int index)
 
 
 Remove a text box from the file.
+**Example**
+
 
 ```
 int index3 = textBoxCollection.getCount() - 1;

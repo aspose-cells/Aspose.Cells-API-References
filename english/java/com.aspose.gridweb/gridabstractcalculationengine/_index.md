@@ -13,6 +13,8 @@ public abstract class GridAbstractCalculationEngine
 ```
 
 Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells.
+**Example**
+
 
 ```
 class MyEngine extends GridAbstractCalculationEngine

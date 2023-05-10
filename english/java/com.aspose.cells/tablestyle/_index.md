@@ -13,6 +13,8 @@ public class TableStyle
 ```
 
 Represents the table style.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();

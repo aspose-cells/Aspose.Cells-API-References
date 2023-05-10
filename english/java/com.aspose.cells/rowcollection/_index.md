@@ -16,6 +16,8 @@ public class RowCollection implements Iterable
 ```
 
 Collects the [Row](../../com.aspose.cells/row) objects that represent the individual rows in a worksheet.
+**Example**
+
 
 ```
 //Instantiating a Workbook object
@@ -37,7 +39,9 @@ Collects the [Row](../../com.aspose.cells/row) objects that represent the indivi
 | [getCount()](#getCount--) | Gets the number of rows in this collection. |
 | [getRowByIndex(int index)](#getRowByIndex-int-) | Gets the row object by the position in the list. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Gets an enumerator that iterates through this collection |
+| [iterator()](#iterator--) | Gets an enumerator that iterates rows through this collection
+**Example**
+ |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Remove the row at the specified index |
@@ -134,7 +138,9 @@ public Iterator iterator()
 ```
 
 
-Gets an enumerator that iterates through this collection
+Gets an enumerator that iterates rows through this collection
+**Example**
+
 
 ```
 Workbook workbook = new Workbook("template.xlsx");

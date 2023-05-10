@@ -16,6 +16,8 @@ public class Cells implements Iterable
 ```
 
 Encapsulates a collection of cell relevant objects, such as [Cell](../../com.aspose.cells/cell), [Row](../../com.aspose.cells/row), ...etc.
+**Example**
+
 
 ```
 Workbook excel = new Workbook();
@@ -1026,6 +1028,8 @@ public Cell get(int row, int column)
 
 
 Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index.
+**Example**
+
 
 ```
 Workbook excel = new Workbook();
@@ -1048,6 +1052,8 @@ public Cell get(String cellName)
 
 
 Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name.
+**Example**
+
 
 ```
 Workbook excel = new Workbook();
@@ -1484,7 +1490,7 @@ public Iterator getRowEnumerator()
 ```
 
 
-Gets the rows enumerator.
+Gets the rows enumerator. NOTE: This member is now obsolete. Instead, please use RowCollection.GetEnumerator() method. This method will be removed 12 months later since May 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.util.Iterator - The rows enumerator.
@@ -1654,10 +1660,10 @@ Gets the height of a specified row.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | int | Row index |
+| row | int | Row index. |
 
 **Returns:**
-double - Height of row
+double - Height of row.
 ### getViewRowHeightInch(int row) {#getViewRowHeightInch-int-}
 ```
 public double getViewRowHeightInch(int row)
@@ -2572,6 +2578,8 @@ public Iterator iterator()
 
 
 Gets the cells enumerator. When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
+**Example**
+
 
 ```
 Workbook workbook = new Workbook("template.xlsx");

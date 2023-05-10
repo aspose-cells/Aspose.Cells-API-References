@@ -13,6 +13,8 @@ public class Cell
 ```
 
 Encapsulates the object that represents a single Workbook cell.
+**Example**
+
 
 ```
 Workbook excel = new Workbook();
@@ -202,6 +204,8 @@ public FontSetting characters(int startIndex, int length)
 
 
 Returns a Characters object that represents a range of characters within the cell text. This method only works on cell with string value.
+**Example**
+
 
 ```
 Workbook excel = new Workbook();
@@ -379,6 +383,10 @@ Get all cells whose formula references to this cell directly.
  *  To get those formulas whose calculated results depend on this cell, please use .
  *  When tracing dependents for one cell, all formulas in the workbook or worksheet will be analized and checked. So it is a time consumed process. If user need to trace dependents for lots of cells, using this method will cause poor performance. For performance consideration, user should use  instead. Or, user may gather precedents map of all cells by  firstly, and then build the dependents map according to the precedents map.
 
+
+**Example**
+
+
 ```
 Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
@@ -405,6 +413,8 @@ public Iterator getDependentsInCalculation(boolean recursive)
 
 
 Gets all cells whose calculated result depends on this cell. To use this method, please make sure the workbook has been set with true value for [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -508,6 +518,8 @@ public String getFormula()
 
 
 Gets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+**Example**
+
 
 ```
 Workbook excel = new Workbook();
@@ -655,6 +667,10 @@ Gets all references appearing in this cell's formula.
  *  All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.
  *  To get those references which influence the calculation only, please use .
 
+
+**Example**
+
+
 ```
 Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
@@ -691,6 +707,8 @@ public Iterator getPrecedentsInCalculation()
 
 
 Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. This method can only work with the situation that [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) is true for the workbook and the workbook has been fully calculated. If this cell is not a formula or it does not reference to any other cells, null will be returned.
+**Example**
+
 
 ```
 Workbook workbook = new Workbook();
@@ -780,7 +798,7 @@ public Style getStyle()
 ```
 
 
-Gets the cell style. To change the style of the cell, please call Cell.SetStyle() method after changing the style.
+Gets the cell style. To change the style of the cell, please call Cell.SetStyle() method after modifying the returned style object. This method is same with [getStyle(boolean)](../../com.aspose.cells/cell\#getStyle-boolean-) with true value for the parameter.
 
 **Returns:**
 [Style](../../com.aspose.cells/style) - Style object.
@@ -1310,6 +1328,8 @@ public void setFormula(String value)
 
 
 Sets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

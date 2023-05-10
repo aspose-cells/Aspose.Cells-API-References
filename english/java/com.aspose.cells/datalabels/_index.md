@@ -13,6 +13,8 @@ public class DataLabels extends ChartTextFrame
 ```
 
 Encapsulates a collection of all the DataLabel objects for the specified Series.
+**Example**
+
 
 ```
 //Set the DataLabels in the chart

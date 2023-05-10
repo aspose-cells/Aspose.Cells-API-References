@@ -1,7 +1,7 @@
 ---
 title: Timeline
 second_title: Aspose.Cells for Java API Reference
-description: Summary description of Timeline View Due to MS Excel Excel 2003 does not support Timeline
+description: Summary description of Timeline View Due to MS Excel Excel 2003 does not support Timeline  Example
 type: docs
 url: /java/com.aspose.cells/timeline/
 ---
@@ -13,6 +13,8 @@ public class Timeline
 ```
 
 Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline
+**Example**
+
 
 ```
 Workbook book = new Workbook();
@@ -76,7 +78,9 @@ Workbook book = new Workbook();
 | [getClass()](#getClass--) |  |
 | [getHeightPixel()](#getHeightPixel--) | Returns or sets the height of the specified timeline, in pixels. |
 | [getLeftPixel()](#getLeftPixel--) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
-| [getName()](#getName--) | Returns or sets the name of the specified Timeline |
+| [getName()](#getName--) | Returns or sets the name of the specified Timeline
+**Example**
+ |
 | [getTopPixel()](#getTopPixel--) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [getWidthPixel()](#getWidthPixel--) | Returns or sets the width of the specified timeline, in pixels. |
 | [hashCode()](#hashCode--) |  |
@@ -85,7 +89,9 @@ Workbook book = new Workbook();
 | [setCaption(String value)](#setCaption-java.lang.String-) | Returns or sets the caption of the specified Timeline. |
 | [setHeightPixel(int value)](#setHeightPixel-int-) | Returns or sets the height of the specified timeline, in pixels. |
 | [setLeftPixel(int value)](#setLeftPixel-int-) | Returns or sets the horizontal offset of timeline shape from its left column, in pixels. |
-| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified Timeline |
+| [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of the specified Timeline
+**Example**
+ |
 | [setTopPixel(int value)](#setTopPixel-int-) | Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [setWidthPixel(int value)](#setWidthPixel-int-) | Returns or sets the width of the specified timeline, in pixels. |
 | [toString()](#toString--) |  |
@@ -114,6 +120,8 @@ public String getCaption()
 
 
 Returns or sets the caption of the specified Timeline.
+**Example**
+
 
 ```
 //Set the caption of the specified Timeline.
@@ -159,6 +167,8 @@ public String getName()
 
 
 Returns or sets the name of the specified Timeline
+**Example**
+
 
 ```
 //Set the name of the specified Timeline.
@@ -220,6 +230,8 @@ public void setCaption(String value)
 
 
 Returns or sets the caption of the specified Timeline.
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,6 +271,8 @@ public void setName(String value)
 
 
 Returns or sets the name of the specified Timeline
+**Example**
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -13,6 +13,8 @@ public class PivotTable
 ```
 
 Summary description for PivotTable.
+**Example**
+
 
 ```
 Workbook book = new Workbook();
@@ -109,6 +111,7 @@ Workbook book = new Workbook();
 | [getAltTextDescription()](#getAltTextDescription--) | Gets the description of the alt text |
 | [getAltTextTitle()](#getAltTextTitle--) | Gets the title of the altertext |
 | [getAutoFormatType()](#getAutoFormatType--) | Gets the PivotTable auto format type. |
+| [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--) | Indicates whether autofitting column width on update |
 | [getBaseFields()](#getBaseFields--) | Returns a PivotFields object that includes all fields in the PivotTable report |
 | [getCellByDisplayName(String displayName)](#getCellByDisplayName-java.lang.String-) | Gets the Cell object by the DisplayName of PivotField |
 | [getChildren()](#getChildren--) | Gets the Children Pivot Tables which use this PivotTable data as data source. |
@@ -148,6 +151,7 @@ Workbook book = new Workbook();
 | [getPageFields()](#getPageFields--) | Returns a PivotFields object that are currently shown as page fields. |
 | [getPivotFilters()](#getPivotFilters--) | Returns a PivotFilterCollection object. |
 | [getPivotFormatConditions()](#getPivotFormatConditions--) | Gets the Format Conditions of the pivot table. |
+| [getPivotFormats()](#getPivotFormats--) | Gets the collection of formats applied to PivotTable. |
 | [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets the pivottable style name. |
 | [getPivotTableStyleType()](#getPivotTableStyleType--) | Gets the built-in pivot table style. |
 | [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
@@ -200,6 +204,7 @@ Workbook book = new Workbook();
 | [setAutoFormatType(int value)](#setAutoFormatType-int-) | Gets the PivotTable auto format type. |
 | [setAutoGroupField(PivotField pivotField)](#setAutoGroupField-com.aspose.cells.PivotField-) | Sets auto field group by the PivotTable. |
 | [setAutoGroupField(int baseFieldIndex)](#setAutoGroupField-int-) | Sets auto field group by the PivotTable. |
+| [setAutofitColumnWidthOnUpdate(boolean value)](#setAutofitColumnWidthOnUpdate-boolean-) | Indicates whether autofitting column width on update |
 | [setColumnGrand(boolean value)](#setColumnGrand-boolean-) | Indicates whether the PivotTable report shows grand totals for columns. |
 | [setColumnHeaderCaption(String value)](#setColumnHeaderCaption-java.lang.String-) | Gets the Column Header Caption of the PivotTable. |
 | [setCustomListSort(boolean value)](#setCustomListSort-boolean-) | Indicates whether consider built-in custom list when sort data |
@@ -521,6 +526,16 @@ Gets the PivotTable auto format type. [PivotTableAutoFormatType](../../com.aspos
 
 **Returns:**
 int
+### getAutofitColumnWidthOnUpdate() {#getAutofitColumnWidthOnUpdate--}
+```
+public boolean getAutofitColumnWidthOnUpdate()
+```
+
+
+Indicates whether autofitting column width on update
+
+**Returns:**
+boolean
 ### getBaseFields() {#getBaseFields--}
 ```
 public PivotFieldCollection getBaseFields()
@@ -916,6 +931,16 @@ Gets the Format Conditions of the pivot table.
 
 **Returns:**
 [PivotFormatConditionCollection](../../com.aspose.cells/pivotformatconditioncollection)
+### getPivotFormats() {#getPivotFormats--}
+```
+public PivotTableFormatCollection getPivotFormats()
+```
+
+
+Gets the collection of formats applied to PivotTable.
+
+**Returns:**
+[PivotTableFormatCollection](../../com.aspose.cells/pivottableformatcollection)
 ### getPivotTableStyleName() {#getPivotTableStyleName--}
 ```
 public String getPivotTableStyleName()
@@ -1252,7 +1277,7 @@ public boolean isAutoFormat()
 ```
 
 
-Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 Checkbox "autofit column width on update" which is in pivot table Options :Layout Format for Excel 2007
+Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003
 
 **Returns:**
 boolean
@@ -1421,7 +1446,7 @@ public void setAutoFormat(boolean value)
 ```
 
 
-Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 Checkbox "autofit column width on update" which is in pivot table Options :Layout Format for Excel 2007
+Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1466,6 +1491,19 @@ Sets auto field group by the PivotTable.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | baseFieldIndex | int | The row or column field index in the base fields |
+
+### setAutofitColumnWidthOnUpdate(boolean value) {#setAutofitColumnWidthOnUpdate-boolean-}
+```
+public void setAutofitColumnWidthOnUpdate(boolean value)
+```
+
+
+Indicates whether autofitting column width on update
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setColumnGrand(boolean value) {#setColumnGrand-boolean-}
 ```

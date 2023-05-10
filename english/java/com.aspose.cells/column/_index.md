@@ -13,6 +13,8 @@ public class Column
 ```
 
 Represents a single column in a worksheet.
+**Example**
+
 
 ```
 //Instantiating a Workbook object
