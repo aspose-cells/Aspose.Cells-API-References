@@ -40,11 +40,7 @@ public void RemoveAt(int index, bool updateReferencesAsLocal)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | Int32 | the index of the external link to be removed. |
-| updateReferencesAsLocal | Boolean | Whether update all references of given external link to reference of current workbook itself. |
-
-### Remarks
-
-If references are required to be updated, references to external links in formulas will be changed to current workbook. For example, the external link to be removed is "externalsource.xlam" and it defines one custom function "customfunction()", one cell's original formula is "='externalsource.xlam'!customfunction()", after removing the formula will become "=customfunction()". If reference are not required to be updated, all formulas with reference to this external link will be removed too because those references become invalid.
+| updateReferencesAsLocal | Boolean | Whether update all references of given external link to reference of current workbook itself. Check  to get more details about this parameter. |
 
 ### See Also
 

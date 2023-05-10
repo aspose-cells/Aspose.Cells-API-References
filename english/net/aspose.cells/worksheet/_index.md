@@ -139,6 +139,8 @@ public class Worksheet : IDisposable
 
 ### Examples
 
+The following example shows how to freeze panes and insert hyperlink to worksheet with .Net or VB.
+
 ```csharp
 [C#]
 

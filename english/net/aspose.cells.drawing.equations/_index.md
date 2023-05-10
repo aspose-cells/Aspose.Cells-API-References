@@ -1,11 +1,11 @@
 ---
 title: Aspose.Cells.Drawing.Equations
 second_title: Aspose.Cells for .NET API Reference
-description: 
+description: The Aspose.Cells.Drawing.Equations namespace provides classes for creating various equation shapes such as fractional equations power equations etc. through equation nodes.
 type: docs
 url: /net/aspose.cells.drawing.equations/
 ---
-
+The **Aspose.Cells.Drawing.Equations** namespace provides classes for creating various equation shapes (such as fractional equations, power equations, etc.) through equation nodes.
 
 ## Classes
 

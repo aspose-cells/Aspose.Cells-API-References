@@ -26,7 +26,7 @@ public enum EquationNodeType
 | Subscript | `104` | Specifies a component of type 'Subscript' |
 | Superscript | `105` | Specifies a component of type 'Superscript' |
 | Degree | `106` | Specifies a component of type 'Degree' |
-| MatrixRow | `107` | Specifies a component of type 'Degree'.A single row of the matrix |
+| MatrixRow | `107` | Specifies a component of type 'MatrixRow'.A single row of the matrix |
 | EquationParagraph | `200` | Specifies a mathematical paragraph(oMathPara). |
 | MathematicalEquation | `201` | Specifies an equation or mathematical expression(OMath). |
 | FractionEquation | `202` | Specifies fractional equation |

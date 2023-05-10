@@ -122,7 +122,7 @@ public class Cells : IDisposable, IEnumerable
 | [GetMaxGroupedColumnOutlineLevel](../../aspose.cells/cells/getmaxgroupedcolumnoutlinelevel)() | Gets the max grouped column outline level (zero-based). |
 | [GetMaxGroupedRowOutlineLevel](../../aspose.cells/cells/getmaxgroupedrowoutlinelevel)() | Gets the max grouped row outline level (zero-based). |
 | [GetRow](../../aspose.cells/cells/getrow)(int) | Gets the [`Row`](../row) element at the specified cell row index. |
-| [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator)() | Gets the rows enumerator. |
+| [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator)() | (**Obsolete.**) Gets the rows enumerator. |
 | [GetRowHeight](../../aspose.cells/cells/getrowheight)(int) | Gets the height of a specified row. |
 | [GetRowHeightInch](../../aspose.cells/cells/getrowheightinch)(int) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel](../../aspose.cells/cells/getrowheightpixel)(int) | Gets the height of a specified row in unit of pixel. |

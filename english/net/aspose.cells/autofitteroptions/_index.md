@@ -28,6 +28,7 @@ public class AutoFitterOptions
 | [AutoFitWrappedTextType](../../aspose.cells/autofitteroptions/autofitwrappedtexttype) { get; set; } | Gets and sets the type of auto fitting wrapped text. |
 | [DefaultEditLanguage](../../aspose.cells/autofitteroptions/defaulteditlanguage) { get; set; } | Gets or sets default edit language. |
 | [FormatStrategy](../../aspose.cells/autofitteroptions/formatstrategy) { get; set; } | Gets and sets the formatted strategy. |
+| [ForRendering](../../aspose.cells/autofitteroptions/forrendering) { get; set; } | Indicates whether fit for rendering purpose. |
 | [IgnoreHidden](../../aspose.cells/autofitteroptions/ignorehidden) { get; set; } | Ignores the hidden rows/columns. |
 | [MaxRowHeight](../../aspose.cells/autofitteroptions/maxrowheight) { get; set; } | Gets and sets the max row height(in unit of Point) when autofitting rows. |
 | [OnlyAuto](../../aspose.cells/autofitteroptions/onlyauto) { get; set; } | Indicates whether only fit the rows which height are not customed. |

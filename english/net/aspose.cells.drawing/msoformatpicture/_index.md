@@ -21,8 +21,8 @@ public class MsoFormatPicture
 | [Brightness](../../aspose.cells.drawing/msoformatpicture/brightness) { get; set; } | Represents the brightness modification for the picture in unit of percentage. |
 | [Contrast](../../aspose.cells.drawing/msoformatpicture/contrast) { get; set; } | Represents the contrast modification for the picture.in unit of percentage. |
 | [Gamma](../../aspose.cells.drawing/msoformatpicture/gamma) { get; set; } | Represents gamma of the picture. |
-| [IsBiLevel](../../aspose.cells.drawing/msoformatpicture/isbilevel) { get; set; } | Indicates whether this picture should be displayed in two-color black and white. |
-| [IsGray](../../aspose.cells.drawing/msoformatpicture/isgray) { get; set; } | Indicates whether this picture SHOULD be displayed in grayscale. |
+| [IsBiLevel](../../aspose.cells.drawing/msoformatpicture/isbilevel) { get; set; } | Indicates whether this picture should display in two-color black and white. |
+| [IsGray](../../aspose.cells.drawing/msoformatpicture/isgray) { get; set; } | Indicates whether this picture should display in grayscale. |
 | [LeftCrop](../../aspose.cells.drawing/msoformatpicture/leftcrop) { get; set; } | Represents the location of the left of the crop rectangle expressed, expressed as a ratio of the image's width. |
 | [RightCrop](../../aspose.cells.drawing/msoformatpicture/rightcrop) { get; set; } | Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width. |
 | [TopCrop](../../aspose.cells.drawing/msoformatpicture/topcrop) { get; set; } | Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height. |

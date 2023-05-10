@@ -15,7 +15,7 @@ public Workbook()
 
 ### Remarks
 
-The default file format type is Xlsx. To create other format file type, please use Workbook(FileFormatType).
+The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
 
 ### Examples
 
@@ -59,7 +59,7 @@ The default file format type is Excel97To2003.
 
 ### Examples
 
-The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
+The following code shows how to use the Workbook constructor to create and initialize a new instance of the class with various file format type.
 
 ```csharp
 [C#]

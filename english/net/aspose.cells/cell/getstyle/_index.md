@@ -19,7 +19,7 @@ Style object.
 
 ### Remarks
 
-To change the style of the cell, please call Cell.SetStyle() method after changing the style.
+To change the style of the cell, please call Cell.SetStyle() method after modifying the returned style object. This method is same with [`GetStyle`](../getstyle) with true value for the parameter.
 
 ### See Also
 

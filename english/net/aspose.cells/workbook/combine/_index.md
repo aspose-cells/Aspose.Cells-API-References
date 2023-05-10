@@ -19,7 +19,7 @@ public void Combine(Workbook secondWorkbook)
 
 ### Remarks
 
-Currently, only cell data and cell style of the second Workbook object can be combined. Images, charts and other drawing objects are not supported.
+Merge Excel, ODS , CSV and other files to one file.
 
 ### See Also
 

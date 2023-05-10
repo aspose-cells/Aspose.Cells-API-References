@@ -15,11 +15,11 @@ public Style CreateBuiltinStyle(BuiltinStyleType type)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | BuiltinStyleType |  |
+| type | BuiltinStyleType | The builtin style stype. |
 
 ### Return Value
 
-style object
+[`Style`](../../style) object
 
 ### See Also
 

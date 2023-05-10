@@ -66,6 +66,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indicates whether updating smart art setting. The default value is false.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions).) |
+| [Watermark](../../aspose.cells/pdfsaveoptions/watermark) { get; set; } | Gets or sets watermark to output. |
 
 ## Methods
 

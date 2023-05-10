@@ -42,7 +42,8 @@ public class Row : IEnumerable
 | [Equals](../../aspose.cells/row/equals#equals)(Row) | Checks whether this object refers to the same row with another row object. |
 | [GetCellByIndex](../../aspose.cells/row/getcellbyindex)(int) | (**Obsolete.**) Get the cell by specific index in the list. |
 | [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Gets the cell or null in the specific index. |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | Gets the cells enumerator |
+| [GetEnumerator](../../aspose.cells/row/getenumerator#getenumerator)() | Gets the cells enumerator |
+| [GetEnumerator](../../aspose.cells/row/getenumerator#getenumerator_1)(bool, bool) | Gets an enumerator that iterates cells through this row. |
 | [GetStyle](../../aspose.cells/row/getstyle)() | Gets the style of this row. |
 | [SetStyle](../../aspose.cells/row/setstyle)(Style) | Sets the style of this row. |
 

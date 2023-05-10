@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Cells for .NET API Reference
-description: Gets an enumerator that iterates through this collection
+description: Gets an enumerator that iterates rows through this collection
 type: docs
 url: /net/aspose.cells/rowcollection/getenumerator/
 ---
 ## RowCollection.GetEnumerator method
 
-Gets an enumerator that iterates through this collection
+Gets an enumerator that iterates rows through this collection
 
 ```csharp
 public IEnumerator GetEnumerator()

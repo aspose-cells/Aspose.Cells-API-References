@@ -25,7 +25,7 @@ public class RowCollection : IEnumerable
 | Name | Description |
 | --- | --- |
 | [Clear](../../aspose.cells/rowcollection/clear)() | Clear all rows and cells. |
-| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator)() | Gets an enumerator that iterates through this collection |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator)() | Gets an enumerator that iterates rows through this collection |
 | [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex)(int) | Gets the row object by the position in the list. |
 | [RemoveAt](../../aspose.cells/rowcollection/removeat)(int) | Remove the row at the specified index |
 

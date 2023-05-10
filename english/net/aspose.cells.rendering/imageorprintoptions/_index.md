@@ -65,7 +65,8 @@ public class ImageOrPrintOptions
 
 | Name | Description |
 | --- | --- |
-| [SetDesiredSize](../../aspose.cells.rendering/imageorprintoptions/setdesiredsize)(int, int) | Sets desired width and height of image. |
+| [SetDesiredSize](../../aspose.cells.rendering/imageorprintoptions/setdesiredsize#setdesiredsize)(int, int) | (**Obsolete.**) Sets desired width and height of image. |
+| [SetDesiredSize](../../aspose.cells.rendering/imageorprintoptions/setdesiredsize#setdesiredsize_1)(int, int, bool) | Sets desired width and height of image. |
 
 ### Examples
 

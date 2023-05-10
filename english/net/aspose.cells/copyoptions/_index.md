@@ -29,7 +29,7 @@ public class CopyOptions
 | [ExtendToAdjacentRange](../../aspose.cells/copyoptions/extendtoadjacentrange) { get; set; } | Indicates whether extend ranges when copying the range to adjacent range. |
 | [KeepMacros](../../aspose.cells/copyoptions/keepmacros) { get; set; } | Indicates whether keeping macros; |
 | [ReferToDestinationSheet](../../aspose.cells/copyoptions/refertodestinationsheet) { get; set; } | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
-| [ReferToSheetWithSameName](../../aspose.cells/copyoptions/refertosheetwithsamename) { get; set; } | When copying a worksheet to another workbook and the worksheet contains the formulas which refer to other worksheets in MS Excel, the copied formulas should refer to source workbook. But sometimes we have copied other worksheets and we hope the copied formulas refer to other worksheets with the name in the same workbook, please set this property as true. |
+| [ReferToSheetWithSameName](../../aspose.cells/copyoptions/refertosheetwithsamename) { get; set; } | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. |
 
 ### See Also
 

@@ -5,12 +5,12 @@ description: This specifies justification of the math paragraph a series of adja
 type: docs
 url: /net/aspose.cells.drawing.equations/equationnodeparagraph/justification/
 ---
-## EquationNodeParagraph.Justification field
+## EquationNodeParagraph.Justification property
 
 This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole.
 
 ```csharp
-public EquationHorizontalJustificationType Justification;
+public EquationHorizontalJustificationType Justification { get; set; }
 ```
 
 ### See Also

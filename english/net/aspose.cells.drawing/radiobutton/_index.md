@@ -29,7 +29,6 @@ public class RadioButton : Shape
 | [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a [`FillFormat`](../shape/fillformat) object that contains fill formatting properties for the specified shape.(Inherited from [`Shape`](../shape).) |
 | [FillFormat](../../aspose.cells.drawing/shape/fillformat) { get; } | (**Obsolete.**) Returns a MsoFillFormat object that contains fill formatting properties for the specified shape.(Inherited from [`Shape`](../shape).) |
 | [Font](../../aspose.cells.drawing/shape/font) { get; set; } | Represents the font of shape.(Inherited from [`Shape`](../shape).) |
-| [Format](../../aspose.cells.drawing/shape/format) { get; } | (**Obsolete.**) Represents the setting of the shape's formatting.(Inherited from [`Shape`](../shape).) |
 | [FormatPicture](../../aspose.cells.drawing/shape/formatpicture) { get; } | Gets and sets the options of the picture format.(Inherited from [`Shape`](../shape).) |
 | [Geometry](../../aspose.cells.drawing/shape/geometry) { get; } | Gets the geometry(Inherited from [`Shape`](../shape).) |
 | [Glow](../../aspose.cells.drawing/shape/glow) { get; } | Represents a  object that specifies glow effect for the chart element or shape.(Inherited from [`Shape`](../shape).) |
@@ -137,6 +136,7 @@ public class RadioButton : Shape
 | [GetInputRange](../../aspose.cells.drawing/shape/getinputrange)(bool, bool) | Gets the range used to fill the control.(Inherited from [`Shape`](../shape).) |
 | [GetLinkedCell](../../aspose.cells.drawing/shape/getlinkedcell)(bool, bool) | Gets the range linked to the control's value.(Inherited from [`Shape`](../shape).) |
 | [GetLockedProperty](../../aspose.cells.drawing/shape/getlockedproperty)(ShapeLockType) | Gets the value of locked property.(Inherited from [`Shape`](../shape).) |
+| [GetOptionIndex](../../aspose.cells.drawing/radiobutton/getoptionindex)() | Gets the option index in all the radio buttons of the GroupBox which contains this radio button. |
 | virtual [GetResultOfSmartArt](../../aspose.cells.drawing/shape/getresultofsmartart)() | Converting smart art to grouped shapes.(Inherited from [`Shape`](../shape).) |
 | virtual [IsSameSetting](../../aspose.cells.drawing/shape/issamesetting)(object) | Returns whether the shape is same.(Inherited from [`Shape`](../shape).) |
 | [MoveToRange](../../aspose.cells.drawing/shape/movetorange)(int, int, int, int) | Moves the shape to a specified range.(Inherited from [`Shape`](../shape).) |

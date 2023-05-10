@@ -74,10 +74,15 @@ public class Range
 | [Union](../../aspose.cells/range/union)(Range) | Returns the union of two ranges. |
 | [UnMerge](../../aspose.cells/range/unmerge)() | Unmerges merged cells of this range. |
 
+### Remarks
+
+The Range class denotes a region of Excel spreadsheet. With this, you can format and set value of the range. And you can simply copy range of Excel too.
+
 ### Examples
 
-```csharp
+The following example shows how to create a range and set value the range of Excel.
 
+```csharp
 [C#]
 
 //Instantiating a Workbook object

@@ -68,7 +68,7 @@ public class Workbook : IDisposable
 | [CloseAccessCache](../../aspose.cells/workbook/closeaccesscache)(AccessCacheOptions) | Closes the session that uses caches to access data. |
 | [Combine](../../aspose.cells/workbook/combine)(Workbook) | Combines another Workbook object. |
 | [Copy](../../aspose.cells/workbook/copy#copy)(Workbook) | Copies data from a source Workbook object. |
-| [Copy](../../aspose.cells/workbook/copy#copy_1)(Workbook, CopyOptions) | Copies data from a source Workbook object. |
+| [Copy](../../aspose.cells/workbook/copy#copy_1)(Workbook, CopyOptions) | Copies another Workbook object. |
 | [CopyTheme](../../aspose.cells/workbook/copytheme)(Workbook) | Copies the theme from another workbook. |
 | [CreateBuiltinStyle](../../aspose.cells/workbook/createbuiltinstyle)(BuiltinStyleType) | Creates built-in style by given type. |
 | [CreateCellsColor](../../aspose.cells/workbook/createcellscolor)() | Creates a [`CellsColor`](../cellscolor) object. |
@@ -125,11 +125,11 @@ public class Workbook : IDisposable
 
 ### Remarks
 
-The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks and protecting the Excel spreadsheet.
+The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks, converting Excel to PDF, rendering Excel to image and protecting the Excel spreadsheet.
 
 ### Examples
 
-The following example loads a Workbook from a file named designer.xls and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally sends the updated file to the client browser.
+The following example loads a Workbook from an Excel file named designer.xls and makes the horizontal and vertical scroll bars invisible. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally save the workbook as Excel xlsx file.
 
 ```csharp
 [C#]
@@ -148,7 +148,7 @@ workbook.Replace("OldInt", newInt);
 
 string newString = "Hello!";
 workbook.Replace("OldString", newString);
-workbook.Save("result.xls");
+workbook.Save("result.xlsx");
 
 [Visual Basic]
 
@@ -166,7 +166,7 @@ workbook.Replace("OldInt", newInt)
 
 Dim newString as String = "Hello!"
 workbook.Replace("OldString", newString)
-workbook.Save("result.xls")    
+workbook.Save("result.xlsx")    
 ```
 
 ### See Also

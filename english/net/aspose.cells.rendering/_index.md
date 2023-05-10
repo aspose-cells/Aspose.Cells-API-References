@@ -18,6 +18,8 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 | [PageSavingArgs](./pagesavingargs) | Info for a page saving process. |
 | [PageStartSavingArgs](./pagestartsavingargs) | Info for a page starts saving process. |
 | [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
+| [RenderingFont](./renderingfont) | Font for rendering. |
+| [RenderingWatermark](./renderingwatermark) | Watermark for rendering. |
 | [SheetPrintingPreview](./sheetprintingpreview) | Worksheet printing preview. |
 | [SheetRender](./sheetrender) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
 | [SheetSet](./sheetset) | Describes a set of sheets. |

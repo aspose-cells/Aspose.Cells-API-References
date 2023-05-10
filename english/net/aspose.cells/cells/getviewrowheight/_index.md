@@ -15,11 +15,11 @@ public double GetViewRowHeight(int row)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Row index |
+| row | Int32 | Row index. |
 
 ### Return Value
 
-Height of row
+Height of row.
 
 ### See Also
 

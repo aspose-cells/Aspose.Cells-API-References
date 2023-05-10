@@ -19,6 +19,7 @@ public class PivotTable : IDisposable
 | --- | --- |
 | [AltTextDescription](../../aspose.cells.pivot/pivottable/alttextdescription) { get; set; } | Gets the description of the alt text |
 | [AltTextTitle](../../aspose.cells.pivot/pivottable/alttexttitle) { get; set; } | Gets the title of the altertext |
+| [AutofitColumnWidthOnUpdate](../../aspose.cells.pivot/pivottable/autofitcolumnwidthonupdate) { get; set; } | Indicates whether autofitting column width on update |
 | [AutoFormatType](../../aspose.cells.pivot/pivottable/autoformattype) { get; set; } | Gets the PivotTable auto format type. |
 | [BaseFields](../../aspose.cells.pivot/pivottable/basefields) { get; } | Returns a PivotFields object that includes all fields in the PivotTable report |
 | [ColumnFields](../../aspose.cells.pivot/pivottable/columnfields) { get; } | Returns a PivotFields object that are currently shown as column fields. |
@@ -45,7 +46,7 @@ public class PivotTable : IDisposable
 | [GrandTotalName](../../aspose.cells.pivot/pivottable/grandtotalname) { get; set; } | Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [HasBlankRows](../../aspose.cells.pivot/pivottable/hasblankrows) { get; set; } | Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
 | [Indent](../../aspose.cells.pivot/pivottable/indent) { get; set; } | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
-| [IsAutoFormat](../../aspose.cells.pivot/pivottable/isautoformat) { get; set; } | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 Checkbox "autofit column width on update" which is in pivot table Options :Layout Format for Excel 2007 |
+| [IsAutoFormat](../../aspose.cells.pivot/pivottable/isautoformat) { get; set; } | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
 | [IsExcel2003Compatible](../../aspose.cells.pivot/pivottable/isexcel2003compatible) { get; set; } | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
 | [IsGridDropZones](../../aspose.cells.pivot/pivottable/isgriddropzones) { get; set; } | Indicates whether the PivotTable report displays classic pivottable layout. (enables dragging fields in the grid) |
 | [IsMultipleFieldFilters](../../aspose.cells.pivot/pivottable/ismultiplefieldfilters) { get; set; } | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
@@ -61,6 +62,7 @@ public class PivotTable : IDisposable
 | [PageFieldWrapCount](../../aspose.cells.pivot/pivottable/pagefieldwrapcount) { get; set; } | Gets the number of page fields in each column or row in the PivotTable report. |
 | [PivotFilters](../../aspose.cells.pivot/pivottable/pivotfilters) { get; } | Returns a PivotFilterCollection object. |
 | [PivotFormatConditions](../../aspose.cells.pivot/pivottable/pivotformatconditions) { get; } | Gets the Format Conditions of the pivot table. |
+| [PivotFormats](../../aspose.cells.pivot/pivottable/pivotformats) { get; } | Gets the collection of formats applied to PivotTable. |
 | [PivotTableStyleName](../../aspose.cells.pivot/pivottable/pivottablestylename) { get; set; } | Gets and sets the pivottable style name. |
 | [PivotTableStyleType](../../aspose.cells.pivot/pivottable/pivottablestyletype) { get; set; } | Gets and sets the built-in pivot table style. |
 | [PreserveFormatting](../../aspose.cells.pivot/pivottable/preserveformatting) { get; set; } | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |

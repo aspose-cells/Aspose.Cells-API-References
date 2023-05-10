@@ -35,11 +35,11 @@ public void Clear(bool updateReferencesAsLocal)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| updateReferencesAsLocal | Boolean | Whether update all references of external links as references of current workbook itself. |
+| updateReferencesAsLocal | Boolean | Whether update all references of external links in formulas to references of current workbook itself. |
 
 ### Remarks
 
-If references are required to be updated, references to external links in formulas will be changed to current workbook. For example, one cell's original formula is "='externalsource.xlam'!customfunction()", after removing external links, the formula will become "=customfunction()". If references are not required to be updated, all formulas with references to external links will be removed too because those references become invalid.
+If references are required to be updated, those references of external links in formulas will be changed to current workbook when it is possible. For example, one cell's original formula is "='externalsource.xlam'!customfunction()", after removing external links, the formula will become "=customfunction()"; When the original formula is "='[externalsource.xlam]Sheet1'!$A$1", according to whether there is one sheet with name "Sheet1" in current workbook: if true, the formula will become "=Sheet1!$A$1"; if false, the formula will become "=#REF!$A$1". If references are not required to be updated, all formulas with references to external links will be removed too because those references become invalid.
 
 ### See Also
 

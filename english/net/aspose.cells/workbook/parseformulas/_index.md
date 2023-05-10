@@ -15,7 +15,7 @@ public void ParseFormulas(bool ignoreError)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreError | Boolean | whether ignore error for invalid formula. For one invalid formula, if ignore error then this formula will be ignored and the process will continue to parse other formulas, otherwise exception will be thrown. |
+| ignoreError | Boolean | Whether ignore error for invalid formula. For one invalid formula, if ignore error then this formula will be ignored and the process will continue to parse other formulas, otherwise exception will be thrown. |
 
 ### See Also
 

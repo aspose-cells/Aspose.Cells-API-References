@@ -29,7 +29,6 @@ public class Shape
 | [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a [`FillFormat`](./fillformat) object that contains fill formatting properties for the specified shape. |
 | [FillFormat](../../aspose.cells.drawing/shape/fillformat) { get; } | (**Obsolete.**) Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [Font](../../aspose.cells.drawing/shape/font) { get; set; } | Represents the font of shape. |
-| [Format](../../aspose.cells.drawing/shape/format) { get; } | (**Obsolete.**) Represents the setting of the shape's formatting. |
 | [FormatPicture](../../aspose.cells.drawing/shape/formatpicture) { get; } | Gets and sets the options of the picture format. |
 | [Geometry](../../aspose.cells.drawing/shape/geometry) { get; } | Gets the geometry |
 | [Glow](../../aspose.cells.drawing/shape/glow) { get; } | Represents a  object that specifies glow effect for the chart element or shape. |

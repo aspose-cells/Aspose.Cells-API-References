@@ -19,6 +19,7 @@ public class EquationNodeParagraph : EquationNode
 | --- | --- |
 | [EquationType](../../aspose.cells.drawing.equations/equationnode/equationtype) { get; } | Get the equation type of the current node(Inherited from [`EquationNode`](../equationnode).) |
 | [Font](../../aspose.cells/fontsetting/font) { get; } | Returns the font of this object.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting).) |
+| [Justification](../../aspose.cells.drawing.equations/equationnodeparagraph/justification) { get; set; } | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. |
 | [Length](../../aspose.cells/fontsetting/length) { get; } | Gets the length of the characters.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting).) |
 | [ParentNode](../../aspose.cells.drawing.equations/equationnode/parentnode) { get; set; } | Specifies the parent node of the current node(Inherited from [`EquationNode`](../equationnode).) |
 | [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Gets the start index of the characters.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting).) |
@@ -41,12 +42,6 @@ public class EquationNodeParagraph : EquationNode
 | [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild)(EquationNode) | Removes the specified node from the current node's children.(Inherited from [`EquationNode`](../equationnode).) |
 | [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild)(int) | Removes the node at the specified index from the current node's children.(Inherited from [`EquationNode`](../equationnode).) |
 | [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Sets the preset WordArt style.(Inherited from [`FontSetting`](../../aspose.cells/fontsetting).) |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [Justification](../../aspose.cells.drawing.equations/equationnodeparagraph/justification) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. |
 
 ### See Also
 

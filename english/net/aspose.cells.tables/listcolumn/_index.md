@@ -1,13 +1,13 @@
 ---
 title: ListColumn
 second_title: Aspose.Cells for .NET API Reference
-description: Represents a column in a list.
+description: Represents a column in a Table.
 type: docs
 url: /net/aspose.cells.tables/listcolumn/
 ---
 ## ListColumn class
 
-Represents a column in a list.
+Represents a column in a Table.
 
 ```csharp
 public class ListColumn
@@ -21,6 +21,7 @@ public class ListColumn
 | [Name](../../aspose.cells.tables/listcolumn/name) { get; set; } | Gets and sets the name of the column. |
 | [Range](../../aspose.cells.tables/listcolumn/range) { get; } | Gets the range of this list column. |
 | [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | Gets and sets the type of calculation in the Totals row of the list column. |
+| [TotalsRowLabel](../../aspose.cells.tables/listcolumn/totalsrowlabel) { get; set; } | Gets and sets the display labels of total row. |
 
 ## Methods
 

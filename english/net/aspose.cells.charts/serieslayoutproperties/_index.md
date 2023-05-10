@@ -23,6 +23,7 @@ public class SeriesLayoutProperties
 
 | Name | Description |
 | --- | --- |
+| [IsIntervalLeftClosed](../../aspose.cells.charts/serieslayoutproperties/isintervalleftclosed) { get; set; } | Indicates whether the interval is closed on the left side. |
 | [MapChartProjectionType](../../aspose.cells.charts/serieslayoutproperties/mapchartprojectiontype) { get; set; } | Gets and sets the projection type of the map. |
 | [MapChartRegionType](../../aspose.cells.charts/serieslayoutproperties/mapchartregiontype) { get; set; } | Gets and sets the region type of the map. |
 | [MapLabelLayout](../../aspose.cells.charts/serieslayoutproperties/maplabellayout) { get; set; } | Gets and sets the layout of map labels. |

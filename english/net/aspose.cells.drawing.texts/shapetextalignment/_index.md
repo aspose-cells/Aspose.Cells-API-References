@@ -20,6 +20,7 @@ public class ShapeTextAlignment
 | [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize) { get; set; } | Indicates if size of shape is adjusted automatically according to its content. |
 | [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt) { get; set; } | Returns the bottom margin in unit of Points |
 | [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin) { get; set; } | Indicates whether the margin of the text frame is automatic. |
+| [IsLockedText](../../aspose.cells.drawing.texts/shapetextalignment/islockedtext) { get; set; } | Indicates whether the shape is locked when worksheet is protected. |
 | [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped) { get; set; } | Gets and sets the text wrapped type of the shape which contains text. |
 | [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | Returns the left margin in unit of Points |
 | [NumberOfColumns](../../aspose.cells.drawing.texts/shapetextalignment/numberofcolumns) { get; set; } | Gets and sets the number of columns of text in the bounding rectangle. |

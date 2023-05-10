@@ -47,7 +47,7 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 | --- | --- | --- |
 | arrayFormula | String | the formula expression |
 | options | FormulaParseOptions | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
-| values | Object[][] | values for those cells with given dynamic array formula |
+| values | Object[][] | values(calculated results) for those cells with given dynamic array formula |
 | calculateRange | Boolean | Whether calculate the spilled range for this dynamic array formula. If the "values" parameter is not null and this flag is false, then the spilled range's height will be values.Length and width will be values[0].Length. |
 | calculateValue | Boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null or corresponding item in "values" for one cell is null. |
 
@@ -78,7 +78,7 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 | --- | --- | --- |
 | arrayFormula | String | the formula expression |
 | options | FormulaParseOptions | options to parse formula. "Parse" option will be ignored and the formula will always be parsed immediately |
-| values | Object[][] | values for those cells with given dynamic array formula |
+| values | Object[][] | values(calculated results) for those cells with given dynamic array formula |
 | calculateRange | Boolean | Whether calculate the spilled range for this dynamic array formula. If the "values" parameter is not null and this flag is false, then the spilled range's height will be values.Length and width will be values[0].Length. |
 | calculateValue | Boolean | whether calculate this dynamic array formula for those cells in the spilled range when "values" is null or corresponding item in "values" for one cell is null. |
 | copts | CalculationOptions | The options for calculating formula. Commonly, for performance consideration, the [`Recursive`](../../calculationoptions/recursive) property should be false. |

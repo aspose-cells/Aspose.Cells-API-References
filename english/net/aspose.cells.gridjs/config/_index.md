@@ -37,6 +37,7 @@ public class Config
 | static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory) { get; set; } | Sets/Gets the cache directory for pictures |
 | static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | Sets whether to check if picture has same source,the default is true the default value is true |
 | static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Sets whether to save html file as zip archive,the default is false |
+| static [UsePrintArea](../../aspose.cells.gridjs/config/useprintarea) { get; set; } | Sets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. the default value is false . |
 
 ## Methods
 

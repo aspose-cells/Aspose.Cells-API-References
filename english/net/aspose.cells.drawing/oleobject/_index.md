@@ -34,7 +34,6 @@ public class OleObject : Shape
 | [Fill](../../aspose.cells.drawing/shape/fill) { get; } | Returns a [`FillFormat`](../shape/fillformat) object that contains fill formatting properties for the specified shape.(Inherited from [`Shape`](../shape).) |
 | [FillFormat](../../aspose.cells.drawing/shape/fillformat) { get; } | (**Obsolete.**) Returns a MsoFillFormat object that contains fill formatting properties for the specified shape.(Inherited from [`Shape`](../shape).) |
 | [Font](../../aspose.cells.drawing/shape/font) { get; set; } | Represents the font of shape.(Inherited from [`Shape`](../shape).) |
-| [Format](../../aspose.cells.drawing/shape/format) { get; } | (**Obsolete.**) Represents the setting of the shape's formatting.(Inherited from [`Shape`](../shape).) |
 | [FormatPicture](../../aspose.cells.drawing/shape/formatpicture) { get; } | Gets and sets the options of the picture format.(Inherited from [`Shape`](../shape).) |
 | [FullObjectBin](../../aspose.cells.drawing/oleobject/fullobjectbin) { get; } | Gets the full embedded ole object binary data in the template file. |
 | [Geometry](../../aspose.cells.drawing/shape/geometry) { get; } | Gets the geometry(Inherited from [`Shape`](../shape).) |

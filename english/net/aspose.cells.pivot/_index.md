@@ -12,6 +12,8 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | Class | Description |
 | --- | --- |
 | [PivotArea](./pivotarea) | Presents the selected area of the PivotTable. |
+| [PivotAreaFilter](./pivotareafilter) | Represents the filter of [`PivotArea`](../aspose.cells.pivot/pivotarea) for [`PivotTable`](../aspose.cells.pivot/pivottable). |
+| [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [`PivotArea`](../aspose.cells.pivot/pivotarea) |
 | [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
 | [PivotFilter](./pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
@@ -23,11 +25,14 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotPageFields](./pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
 | [PivotTable](./pivottable) | Summary description for PivotTable. |
 | [PivotTableCollection](./pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+| [PivotTableFormat](./pivottableformat) | Represents the format defined in the PivotTable. |
+| [PivotTableFormatCollection](./pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
 | [SxRng](./sxrng) | Represents Group Range in a PivotField. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
+| [PivotAreaType](./pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |
 | [PivotConditionFormatRuleType](./pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](./pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
 | [PivotFieldDataDisplayFormat](./pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |

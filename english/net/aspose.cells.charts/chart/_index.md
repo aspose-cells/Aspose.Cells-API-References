@@ -78,8 +78,9 @@ public class Chart
 | [GetActualSize](../../aspose.cells.charts/chart/getactualsize)() | Gets actual size of chart in unit of pixels. |
 | [GetChartDataRange](../../aspose.cells.charts/chart/getchartdatarange)() | Gets the data source range of the chart. |
 | [HasAxis](../../aspose.cells.charts/chart/hasaxis)(AxisType, bool) | Returns which axes exist on the chart. |
+| [IsCellReferedByChart](../../aspose.cells.charts/chart/iscellreferedbychart)(int, int, int) | Returns whether the cell refered by the chart. |
 | [IsChartDataChanged](../../aspose.cells.charts/chart/ischartdatachanged)() | Detects if a chart's data source has changed. |
-| [IsReferedByChart](../../aspose.cells.charts/chart/isreferedbychart)(int, int) | Returns whether the cell refered by the chart. |
+| [IsReferedByChart](../../aspose.cells.charts/chart/isreferedbychart)(int, int) | (**Obsolete.**) Returns whether the cell refered by the chart. |
 | [Move](../../aspose.cells.charts/chart/move)(int, int, int, int) | Moves the chart to a specified location. |
 | [RefreshPivotData](../../aspose.cells.charts/chart/refreshpivotdata)() | Refreshes pivot chart's data from it's pivot data source. |
 | [SetChartDataRange](../../aspose.cells.charts/chart/setchartdatarange)(string, bool) | Specifies data range for a chart. |

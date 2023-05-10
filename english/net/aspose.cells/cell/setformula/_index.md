@@ -1,13 +1,13 @@
 ---
 title: SetFormula
 second_title: Aspose.Cells for .NET API Reference
-description: Set the formula and the value of the formula.
+description: Set the formula and the valuecalculated result of the formula.
 type: docs
 url: /net/aspose.cells/cell/setformula/
 ---
 ## SetFormula(string, object) {#setformula_2}
 
-Set the formula and the value of the formula.
+Set the formula and the value(calculated result) of the formula.
 
 ```csharp
 public void SetFormula(string formula, object value)
@@ -16,7 +16,7 @@ public void SetFormula(string formula, object value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | formula | String | The formula. |
-| value | Object | The value of the formula. |
+| value | Object | The value(calculated result) of the formula. |
 
 ### See Also
 
@@ -57,7 +57,7 @@ NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,For
 
 ## SetFormula(string, FormulaParseOptions, object) {#setformula}
 
-Set the formula and the value of the formula.
+Set the formula and the value(calculated result) of the formula.
 
 ```csharp
 public void SetFormula(string formula, FormulaParseOptions options, object value)
@@ -67,7 +67,7 @@ public void SetFormula(string formula, FormulaParseOptions options, object value
 | --- | --- | --- |
 | formula | String | The formula. |
 | options | FormulaParseOptions | Options for parsing the formula. |
-| value | Object | The value of the formula. |
+| value | Object | The value(calculated result) of the formula. |
 
 ### See Also
 
