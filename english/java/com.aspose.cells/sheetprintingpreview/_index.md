@@ -24,9 +24,7 @@ Worksheet printing preview.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getEvaluatedPageCount()](#getEvaluatedPageCount--) | Evaluate the total page count of this worksheet
-**Example**
-The following code shows the fastest way to get page count of a worksheet. |
+| [getEvaluatedPageCount()](#getEvaluatedPageCount--) | Evaluate the total page count of this worksheet |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -80,7 +78,9 @@ public int getEvaluatedPageCount()
 
 
 Evaluate the total page count of this worksheet
+
 **Example**
+
 The following code shows the fastest way to get page count of a worksheet.
 
 ```

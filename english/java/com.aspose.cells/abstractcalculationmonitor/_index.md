@@ -13,8 +13,8 @@ public abstract class AbstractCalculationMonitor
 ```
 
 Monitor for user to track the progress of formula calculation.
-**Example**
 
+**Example**
 
 ```
 class MyCalculationMonitor extends AbstractCalculationMonitor

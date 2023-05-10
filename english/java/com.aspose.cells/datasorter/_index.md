@@ -13,8 +13,8 @@ public class DataSorter
 ```
 
 Summary description for DataSorter.
-**Example**
 
+**Example**
 
 ```
 //Instantiate a new Workbook object.

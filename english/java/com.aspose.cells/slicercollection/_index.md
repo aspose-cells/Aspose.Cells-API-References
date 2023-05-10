@@ -13,8 +13,8 @@ public class SlicerCollection extends CollectionBase
 ```
 
 Specifies the collection of all the Slicer objects on the specified worksheet.
-**Example**
 
+**Example**
 
 ```
 Workbook book = new Workbook();
@@ -75,33 +75,15 @@ Workbook book = new Workbook();
 
 | Method | Description |
 | --- | --- |
-| [add(ListObject table, ListColumn listColumn, int row, int column)](#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-int-int-) | Add a new Slicer using ListObjet as data source
-**Example**
- |
-| [add(ListObject table, ListColumn listColumn, String destCellName)](#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-java.lang.String-) | Add a new Slicer using ListObjet as data source
-**Example**
- |
-| [add(ListObject table, int index, String destCellName)](#add-com.aspose.cells.ListObject-int-java.lang.String-) | Add a new Slicer using ListObjet as data source
-**Example**
- |
-| [add(PivotTable pivot, int row, int column, PivotField baseField)](#add-com.aspose.cells.PivotTable-int-int-com.aspose.cells.PivotField-) | Add a new Slicer using PivotTable as data source
-**Example**
- |
-| [add(PivotTable pivot, int row, int column, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-int-int-int-) | Add a new Slicer using PivotTable as data source
-**Example**
- |
-| [add(PivotTable pivot, int row, int column, String baseFieldName)](#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) | Add a new Slicer using PivotTable as data source
-**Example**
- |
-| [add(PivotTable pivot, String destCellName, PivotField baseField)](#add-com.aspose.cells.PivotTable-java.lang.String-com.aspose.cells.PivotField-) | Add a new Slicer using PivotTable as data source
-**Example**
- |
-| [add(PivotTable pivot, String destCellName, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-java.lang.String-int-) | Add a new Slicer using PivotTable as data source
-**Example**
- |
-| [add(PivotTable pivot, String destCellName, String baseFieldName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Add a new Slicer using PivotTable as data source
-**Example**
- |
+| [add(ListObject table, ListColumn listColumn, int row, int column)](#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-int-int-) | Add a new Slicer using ListObjet as data source |
+| [add(ListObject table, ListColumn listColumn, String destCellName)](#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-java.lang.String-) | Add a new Slicer using ListObjet as data source |
+| [add(ListObject table, int index, String destCellName)](#add-com.aspose.cells.ListObject-int-java.lang.String-) | Add a new Slicer using ListObjet as data source |
+| [add(PivotTable pivot, int row, int column, PivotField baseField)](#add-com.aspose.cells.PivotTable-int-int-com.aspose.cells.PivotField-) | Add a new Slicer using PivotTable as data source |
+| [add(PivotTable pivot, int row, int column, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-int-int-int-) | Add a new Slicer using PivotTable as data source |
+| [add(PivotTable pivot, int row, int column, String baseFieldName)](#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) | Add a new Slicer using PivotTable as data source |
+| [add(PivotTable pivot, String destCellName, PivotField baseField)](#add-com.aspose.cells.PivotTable-java.lang.String-com.aspose.cells.PivotField-) | Add a new Slicer using PivotTable as data source |
+| [add(PivotTable pivot, String destCellName, int baseFieldIndex)](#add-com.aspose.cells.PivotTable-java.lang.String-int-) | Add a new Slicer using PivotTable as data source |
+| [add(PivotTable pivot, String destCellName, String baseFieldName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Add a new Slicer using PivotTable as data source |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -115,12 +97,8 @@ Workbook book = new Workbook();
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(Slicer slicer)](#remove-com.aspose.cells.Slicer-) | Remove the specified Slicer
-**Example**
- |
-| [removeAt(int index)](#removeAt-int-) | Deletes the Slicer at the specified index
-**Example**
- |
+| [remove(Slicer slicer)](#remove-com.aspose.cells.Slicer-) | Remove the specified Slicer |
+| [removeAt(int index)](#removeAt-int-) | Deletes the Slicer at the specified index |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -132,8 +110,8 @@ public int add(ListObject table, ListColumn listColumn, int row, int column)
 
 
 Add a new Slicer using ListObjet as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(table, table.getListColumns().get(1), 38, 12);
@@ -156,8 +134,8 @@ public int add(ListObject table, ListColumn listColumn, String destCellName)
 
 
 Add a new Slicer using ListObjet as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(table, table.getListColumns().get(1), "I38");
@@ -179,8 +157,8 @@ public int add(ListObject table, int index, String destCellName)
 
 
 Add a new Slicer using ListObjet as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(table, 1, "E38");
@@ -202,8 +180,8 @@ public int add(PivotTable pivot, int row, int column, PivotField baseField)
 
 
 Add a new Slicer using PivotTable as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(pivot, 3, 12, pivot.getBaseFields().get(0));
@@ -226,8 +204,8 @@ public int add(PivotTable pivot, int row, int column, int baseFieldIndex)
 
 
 Add a new Slicer using PivotTable as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(pivot, 20, 8, 0);
@@ -250,8 +228,8 @@ public int add(PivotTable pivot, int row, int column, String baseFieldName)
 
 
 Add a new Slicer using PivotTable as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(pivot, 20, 12, "fruit");
@@ -274,8 +252,8 @@ public int add(PivotTable pivot, String destCellName, PivotField baseField)
 
 
 Add a new Slicer using PivotTable as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(pivot, "I3", pivot.getBaseFields().get(0));
@@ -297,8 +275,8 @@ public int add(PivotTable pivot, String destCellName, int baseFieldIndex)
 
 
 Add a new Slicer using PivotTable as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(pivot, "E20", 0);
@@ -320,8 +298,8 @@ public int add(PivotTable pivot, String destCellName, String baseFieldName)
 
 
 Add a new Slicer using PivotTable as data source
-**Example**
 
+**Example**
 
 ```
 slicers.add(pivot, "E3", "fruit");
@@ -396,8 +374,8 @@ public Slicer get(int index)
 
 
 Gets the Slicer by index.
-**Example**
 
+**Example**
 
 ```
 Slicer slicerByIndex = slicers.get(0);
@@ -417,8 +395,8 @@ public Slicer get(String name)
 
 
 Gets the Slicer by slicer's name.
-**Example**
 
+**Example**
 
 ```
 Slicer slicerByName = slicers.get("fruit");
@@ -509,8 +487,8 @@ public void remove(Slicer slicer)
 
 
 Remove the specified Slicer
-**Example**
 
+**Example**
 
 ```
 Slicer delSlicer = slicers.get(0);
@@ -529,8 +507,8 @@ public void removeAt(int index)
 
 
 Deletes the Slicer at the specified index
-**Example**
 
+**Example**
 
 ```
 slicers.removeAt(1);

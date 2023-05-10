@@ -16,8 +16,8 @@ public class Row implements Iterable
 ```
 
 Represents a single row in a worksheet.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object
@@ -76,9 +76,7 @@ Represents a single row in a worksheet.
 | [isCollapsed()](#isCollapsed--) | whether the row is collapsed |
 | [isHeightMatched()](#isHeightMatched--) | Indicates that row height and default font height matches. |
 | [isHidden()](#isHidden--) | Indicates whether the row is hidden. |
-| [iterator()](#iterator--) | Gets the cells enumerator
-**Example**
- |
+| [iterator()](#iterator--) | Gets the cells enumerator |
 | [iterator(boolean reversed, boolean sync)](#iterator-boolean-boolean-) | Gets an enumerator that iterates cells through this row. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -354,8 +352,8 @@ public Iterator iterator()
 
 
 Gets the cells enumerator
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook("template.xlsx");

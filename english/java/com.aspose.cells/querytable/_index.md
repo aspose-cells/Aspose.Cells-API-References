@@ -13,8 +13,8 @@ public class QueryTable
 ```
 
 Represents QueryTable information.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

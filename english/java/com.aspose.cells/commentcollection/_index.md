@@ -13,8 +13,8 @@ public class CommentCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [Comment](../../com.aspose.cells/comment) objects.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -32,9 +32,7 @@ Workbook workbook = new Workbook();
 | [add(String cellName)](#add-java.lang.String-) | Adds a comment to the collection. |
 | [addThreadedComment(int row, int column, String text, ThreadedCommentAuthor author)](#addThreadedComment-int-int-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) | Adds a threaded comment. |
 | [addThreadedComment(String cellName, String text, ThreadedCommentAuthor author)](#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-) | Adds a threaded comment. |
-| [clear()](#clear--) | Removes all comments;
-**Example**
- |
+| [clear()](#clear--) | Removes all comments; |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [Comment](../../com.aspose.cells/comment) element at the specified index. |
@@ -63,8 +61,8 @@ public int add(int row, int column)
 
 
 Adds a comment to the collection.
-**Example**
 
+**Example**
 
 ```
 int commentIndex1 = comments.add(0, 0);
@@ -103,8 +101,8 @@ public int add(String cellName)
 
 
 Adds a comment to the collection.
-**Example**
 
+**Example**
 
 ```
 int commentIndex2 = comments.add("B2");
@@ -162,8 +160,8 @@ public void clear()
 
 
 Removes all comments;
-**Example**
 
+**Example**
 
 ```
 comments.clear();
@@ -206,8 +204,8 @@ public Comment get(int index)
 
 
 Gets the [Comment](../../com.aspose.cells/comment) element at the specified index.
-**Example**
 
+**Example**
 
 ```
 Comment comment3 = comments.get(0);
@@ -228,8 +226,8 @@ public Comment get(int row, int column)
 
 
 Gets the [Comment](../../com.aspose.cells/comment) element at the specified row index and column index.
-**Example**
 
+**Example**
 
 ```
 Comment comment5 = comments.get(1,1);
@@ -251,8 +249,8 @@ public Comment get(String cellName)
 
 
 Gets the [Comment](../../com.aspose.cells/comment) element at the specified cell.
-**Example**
 
+**Example**
 
 ```
 Comment comment4 = comments.get("B2");
@@ -293,8 +291,8 @@ public ThreadedCommentCollection getThreadedComments(int row, int column)
 
 
 Gets the threaded comments by row and column index.
-**Example**
 
+**Example**
 
 ```
 ThreadedCommentCollection threadedComments1 = comments.getThreadedComments(1, 1);
@@ -320,8 +318,8 @@ public ThreadedCommentCollection getThreadedComments(String cellName)
 
 
 Gets the threaded comments by cell name.
-**Example**
 
+**Example**
 
 ```
 ThreadedCommentCollection threadedComments2 = comments.getThreadedComments("B2");
@@ -410,8 +408,8 @@ public void removeAt(int row, int column)
 
 
 Removes the comment of the specific cell.
-**Example**
 
+**Example**
 
 ```
 comments.removeAt(1,1);
@@ -430,8 +428,8 @@ public void removeAt(String cellName)
 
 
 Removes the comment of the specific cell.
-**Example**
 
+**Example**
 
 ```
 comments.removeAt("B2");

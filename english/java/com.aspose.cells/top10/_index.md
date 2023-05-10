@@ -13,8 +13,8 @@ public class Top10
 ```
 
 Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

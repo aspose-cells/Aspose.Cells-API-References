@@ -13,8 +13,8 @@ public class Trendline extends Line
 ```
 
 Represents a trendline in a chart.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

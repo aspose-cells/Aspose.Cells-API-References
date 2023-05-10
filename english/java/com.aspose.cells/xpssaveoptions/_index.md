@@ -280,7 +280,9 @@ public int getPageCount()
 
 
 Gets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
+
 **Example**
+
 The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 ```
@@ -308,7 +310,9 @@ public int getPageIndex()
 
 
 Gets the 0-based index of the first page to save. Default is 0.
+
 **Example**
+
 The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 ```
@@ -346,7 +350,9 @@ public int getPrintingPageType()
 
 
 Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
+
 **Example**
+
 The following code omits blank pages or pages which only contains some style content like cell background, borders.
 
 ```
@@ -395,7 +401,9 @@ public SheetSet getSheetSet()
 
 
 Gets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--).
+
 **Example**
+
 The following code only renders active sheet to pdf.
 
 ```
@@ -709,8 +717,6 @@ public void setPageCount(int value)
 
 
 Sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
-**Example**
-The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -724,8 +730,6 @@ public void setPageIndex(int value)
 
 
 Sets the 0-based index of the first page to save. Default is 0.
-**Example**
-The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -752,8 +756,6 @@ public void setPrintingPageType(int value)
 
 
 Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
-**Example**
-The following code omits blank pages or pages which only contains some style content like cell background, borders.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -780,8 +782,6 @@ public void setSheetSet(SheetSet value)
 
 
 Sets the sheets to render. Default is all visible sheets in the workbook: [SheetSet.getVisible()](../../com.aspose.cells/sheetset\#getVisible--).
-**Example**
-The following code only renders active sheet to pdf.
 
 **Parameters:**
 | Parameter | Type | Description |

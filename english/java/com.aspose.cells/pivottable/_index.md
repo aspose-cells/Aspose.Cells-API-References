@@ -13,8 +13,8 @@ public class PivotTable
 ```
 
 Summary description for PivotTable.
-**Example**
 
+**Example**
 
 ```
 Workbook book = new Workbook();

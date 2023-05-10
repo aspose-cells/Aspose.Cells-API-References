@@ -57,7 +57,9 @@ public int add(String url)
 
 
 Add a [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) by the url/path of a xml/xsd file.
+
 **Example**
+
 The following code adds two XmlMaps by a xsd file and a xml file.
 
 ```

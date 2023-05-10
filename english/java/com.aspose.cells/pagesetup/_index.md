@@ -13,8 +13,8 @@ public class PageSetup
 ```
 
 Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -633,8 +633,8 @@ public String getPrintTitleColumns()
 
 
 Represents the columns that contain the cells to be repeated on the left side of each page.
-**Example**
 
+**Example**
 
 ```
 pageSetup.setPrintTitleColumns("$A:$A");
@@ -649,8 +649,8 @@ public String getPrintTitleRows()
 
 
 Represents the rows that contain the cells to be repeated at the top of each page.
-**Example**
 
+**Example**
 
 ```
 pageSetup.setPrintTitleRows("$1:$1");
@@ -1409,8 +1409,6 @@ public void setPrintTitleColumns(String value)
 
 
 Represents the columns that contain the cells to be repeated on the left side of each page.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1424,8 +1422,6 @@ public void setPrintTitleRows(String value)
 
 
 Represents the rows that contain the cells to be repeated at the top of each page.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

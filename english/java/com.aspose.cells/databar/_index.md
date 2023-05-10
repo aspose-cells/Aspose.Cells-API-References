@@ -13,8 +13,8 @@ public class DataBar
 ```
 
 Describe the DataBar conditional formatting rule. This conditional formatting rule displays a gradated data bar in the range of cells.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

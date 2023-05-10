@@ -13,8 +13,8 @@ public class Comment
 ```
 
 Encapsulates the object that represents a cell comment.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -43,9 +43,7 @@ Workbook workbook = new Workbook();
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the comment text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Format some characters with the font setting. |
-| [getAuthor()](#getAuthor--) | Gets Name of the original comment author
-**Example**
- |
+| [getAuthor()](#getAuthor--) | Gets Name of the original comment author |
 | [getAutoSize()](#getAutoSize--) | Indicates if size of comment is adjusted automatically according to its content. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the comment text. |
 | [getClass()](#getClass--) |  |
@@ -61,9 +59,7 @@ Workbook workbook = new Workbook();
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment type of the comment. |
 | [getTextOrientationType()](#getTextOrientationType--) | Gets the text orientation type of the comment. |
 | [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets the text vertical alignment type of the comment. |
-| [getThreadedComments()](#getThreadedComments--) | Gets the list of threaded comments;
-**Example**
- |
+| [getThreadedComments()](#getThreadedComments--) | Gets the list of threaded comments; |
 | [getWidth()](#getWidth--) | Represents the width of the comment, in unit of pixels. |
 | [getWidthCM()](#getWidthCM--) | Represents the width of the comment, in unit of centimeters. |
 | [getWidthInch()](#getWidthInch--) | Represents the width of the comment, in unit of inches. |
@@ -72,9 +68,7 @@ Workbook workbook = new Workbook();
 | [isVisible()](#isVisible--) | Represents if the comment is visible or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets Name of the original comment author
-**Example**
- |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets Name of the original comment author |
 | [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates if size of comment is adjusted automatically according to its content. |
 | [setHeight(int value)](#setHeight-int-) | Represents the Height of the comment, in unit of pixels. |
 | [setHeightCM(double value)](#setHeightCM-double-) | Represents the height of the comment, in unit of centimeters. |
@@ -99,8 +93,8 @@ public FontSetting characters(int startIndex, int length)
 
 
 Returns a Characters object that represents a range of characters within the comment text.
-**Example**
 
+**Example**
 
 ```
 FontSetting fontSetting = comment1.characters(0, 4);
@@ -152,8 +146,8 @@ public String getAuthor()
 
 
 Gets Name of the original comment author
-**Example**
 
+**Example**
 
 ```
 comment1.setAuthor("Carl.Yang");
@@ -168,8 +162,8 @@ public boolean getAutoSize()
 
 
 Indicates if size of comment is adjusted automatically according to its content.
-**Example**
 
+**Example**
 
 ```
 if(!comment1.getAutoSize())
@@ -188,8 +182,8 @@ public ArrayList getCharacters()
 
 
 Returns all Characters objects that represents a range of characters within the comment text.
-**Example**
 
+**Example**
 
 ```
 ArrayList list = comment1.getCharacters();
@@ -214,8 +208,8 @@ public int getColumn()
 
 
 Gets the column index of the comment.
-**Example**
 
+**Example**
 
 ```
 int column = comment1.getColumn();
@@ -230,8 +224,8 @@ public CommentShape getCommentShape()
 
 
 Get a Shape object that represents the shape attached to the specified comment.
-**Example**
 
+**Example**
 
 ```
 CommentShape shape = comment1.getCommentShape();
@@ -248,8 +242,8 @@ public Font getFont()
 
 
 Gets the font of comment.
-**Example**
 
+**Example**
 
 ```
 Font font = comment1.getFont();
@@ -265,8 +259,8 @@ public int getHeight()
 
 
 Represents the Height of the comment, in unit of pixels.
-**Example**
 
+**Example**
 
 ```
 comment1.setHeight(10);
@@ -281,8 +275,8 @@ public double getHeightCM()
 
 
 Represents the height of the comment, in unit of centimeters.
-**Example**
 
+**Example**
 
 ```
 comment1.setHeightCM(1.0);
@@ -297,8 +291,8 @@ public double getHeightInch()
 
 
 Represents the height of the comment, in unit of inches.
-**Example**
 
+**Example**
 
 ```
 comment1.setHeightInch(1.0);
@@ -313,8 +307,8 @@ public String getHtmlNote()
 
 
 Gets the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
-**Example**
 
+**Example**
 
 ```
 comment1.setHtmlNote("<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>");
@@ -329,8 +323,8 @@ public String getNote()
 
 
 Represents the content of comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
-**Example**
 
+**Example**
 
 ```
 comment1.setNote("First note.");
@@ -345,8 +339,8 @@ public int getRow()
 
 
 Gets the row index of the comment.
-**Example**
 
+**Example**
 
 ```
 int row = comment1.getRow();
@@ -361,8 +355,8 @@ public int getTextHorizontalAlignment()
 
 
 Gets the text horizontal alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
-**Example**
 
+**Example**
 
 ```
 if (comment1.getTextHorizontalAlignment() ==  TextAlignmentType.FILL)
@@ -380,8 +374,8 @@ public int getTextOrientationType()
 
 
 Gets the text orientation type of the comment. [TextOrientationType](../../com.aspose.cells/textorientationtype).
-**Example**
 
+**Example**
 
 ```
 if(comment1.getTextOrientationType() == TextOrientationType.NO_ROTATION)
@@ -399,8 +393,8 @@ public int getTextVerticalAlignment()
 
 
 Gets the text vertical alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
-**Example**
 
+**Example**
 
 ```
 if (comment1.getTextVerticalAlignment() ==  TextAlignmentType.FILL)
@@ -418,8 +412,8 @@ public ThreadedCommentCollection getThreadedComments()
 
 
 Gets the list of threaded comments;
-**Example**
 
+**Example**
 
 ```
 ThreadedCommentCollection threadedComments = comment1.getThreadedComments();
@@ -439,8 +433,8 @@ public int getWidth()
 
 
 Represents the width of the comment, in unit of pixels.
-**Example**
 
+**Example**
 
 ```
 comment1.setWidth(10);
@@ -455,8 +449,8 @@ public double getWidthCM()
 
 
 Represents the width of the comment, in unit of centimeters.
-**Example**
 
+**Example**
 
 ```
 comment1.setWidthCM(1.0);
@@ -471,8 +465,8 @@ public double getWidthInch()
 
 
 Represents the width of the comment, in unit of inches.
-**Example**
 
+**Example**
 
 ```
 comment1.setWidthInch(1.0);
@@ -497,8 +491,8 @@ public boolean isThreadedComment()
 
 
 Indicates whether this comment is a threaded comment.
-**Example**
 
+**Example**
 
 ```
 if(comment1.isThreadedComment())
@@ -516,8 +510,8 @@ public boolean isVisible()
 
 
 Represents if the comment is visible or not.
-**Example**
 
+**Example**
 
 ```
 if(comment1.isVisible())
@@ -551,8 +545,6 @@ public void setAuthor(String value)
 
 
 Sets Name of the original comment author
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -566,8 +558,6 @@ public void setAutoSize(boolean value)
 
 
 Indicates if size of comment is adjusted automatically according to its content.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -581,8 +571,6 @@ public void setHeight(int value)
 
 
 Represents the Height of the comment, in unit of pixels.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -596,8 +584,6 @@ public void setHeightCM(double value)
 
 
 Represents the height of the comment, in unit of centimeters.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -611,8 +597,6 @@ public void setHeightInch(double value)
 
 
 Represents the height of the comment, in unit of inches.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -626,8 +610,6 @@ public void setHtmlNote(String value)
 
 
 Sets the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -641,8 +623,6 @@ public void setNote(String value)
 
 
 Represents the content of comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -656,8 +636,6 @@ public void setTextHorizontalAlignment(int value)
 
 
 Sets the text horizontal alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -671,8 +649,6 @@ public void setTextOrientationType(int value)
 
 
 Sets the text orientation type of the comment. [TextOrientationType](../../com.aspose.cells/textorientationtype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -686,8 +662,6 @@ public void setTextVerticalAlignment(int value)
 
 
 Sets the text vertical alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -701,8 +675,6 @@ public void setVisible(boolean value)
 
 
 Represents if the comment is visible or not.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -716,8 +688,6 @@ public void setWidth(int value)
 
 
 Represents the width of the comment, in unit of pixels.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -731,8 +701,6 @@ public void setWidthCM(double value)
 
 
 Represents the width of the comment, in unit of centimeters.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -746,8 +714,6 @@ public void setWidthInch(double value)
 
 
 Represents the width of the comment, in unit of inches.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

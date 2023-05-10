@@ -13,8 +13,8 @@ public class ListColumn
 ```
 
 Represents a column in a Table.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();

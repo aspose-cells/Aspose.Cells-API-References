@@ -13,8 +13,8 @@ public class WorkbookDesigner
 ```
 
 Encapsulates the object that represents a designer spreadsheet.
-**Example**
 
+**Example**
 
 ```
 //Create WorkbookDesigner object.

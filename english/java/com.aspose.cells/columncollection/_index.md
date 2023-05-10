@@ -13,8 +13,8 @@ public class ColumnCollection extends CollectionBase
 ```
 
 Collection of the [Column](../../com.aspose.cells/column) objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

@@ -13,8 +13,8 @@ public class Legend extends ChartTextFrame
 ```
 
 Encapsulates the object that represents the chart legend.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();

@@ -13,8 +13,8 @@ public class GridWorkbookSettings
 ```
 
 Represents settings of the workbook.
-**Example**
 
+**Example**
 
 ```
 GridWeb gridweb = new GridWeb();

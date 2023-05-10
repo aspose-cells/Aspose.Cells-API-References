@@ -13,8 +13,8 @@ public class ThemeColor
 ```
 
 Represents a theme color.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

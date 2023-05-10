@@ -13,8 +13,8 @@ public class FindOptions
 ```
 
 Represents find options.
-**Example**
 
+**Example**
 
 ```
 //Instantiate the workbook object

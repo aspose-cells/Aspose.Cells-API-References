@@ -13,8 +13,8 @@ public class SignatureLine
 ```
 
 Represent the signature line.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object
@@ -101,8 +101,8 @@ public boolean getAllowComments()
 
 
 Indicates whether comments could be attached.
-**Example**
 
+**Example**
 
 ```
 if(s.getAllowComments())
@@ -130,8 +130,8 @@ public String getEmail()
 
 
 Gets the email of singer.
-**Example**
 
+**Example**
 
 ```
 // Create signature line object
@@ -148,8 +148,8 @@ public UUID getId()
 
 
 Gets identifier for this signature line.
-**Example**
 
+**Example**
 
 ```
 // Create signature line object
@@ -166,8 +166,8 @@ public String getInstructions()
 
 
 Gets the text shown to user at signing time.
-**Example**
 
+**Example**
 
 ```
 // Create signature line object
@@ -184,8 +184,8 @@ public UUID getProviderId()
 
 
 Gets the id of signature provider. It's typically the CLSID of the provider com add-in.
-**Example**
 
+**Example**
 
 ```
 // Create signature line object
@@ -202,8 +202,8 @@ public boolean getShowSignedDate()
 
 
 Indicates whether show signed date.
-**Example**
 
+**Example**
 
 ```
 if(s.getShowSignedDate())
@@ -221,8 +221,8 @@ public String getSigner()
 
 
 Gets the signer.
-**Example**
 
+**Example**
 
 ```
 // Create signature line object
@@ -239,8 +239,8 @@ public String getTitle()
 
 
 Gets the title of singer.
-**Example**
 
+**Example**
 
 ```
 // Create signature line object
@@ -267,8 +267,8 @@ public boolean isLine()
 
 
 Indicates whether it is a signature line.
-**Example**
 
+**Example**
 
 ```
 if(s.isLine())
@@ -302,8 +302,6 @@ public void setAllowComments(boolean value)
 
 
 Indicates whether comments could be attached.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -317,8 +315,6 @@ public void setEmail(String value)
 
 
 Sets the email of singer.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -332,8 +328,6 @@ public void setId(UUID value)
 
 
 Sets identifier for this signature line.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -347,8 +341,6 @@ public void setInstructions(String value)
 
 
 Sets the text shown to user at signing time.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -362,8 +354,6 @@ public void setLine(boolean value)
 
 
 Indicates whether it is a signature line.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -377,8 +367,6 @@ public void setProviderId(UUID value)
 
 
 Sets the id of signature provider. It's typically the CLSID of the provider com add-in.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,8 +380,6 @@ public void setShowSignedDate(boolean value)
 
 
 Indicates whether show signed date.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,8 +393,6 @@ public void setSigner(String value)
 
 
 Sets the signer.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -422,8 +406,6 @@ public void setTitle(String value)
 
 
 Sets the title of singer.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

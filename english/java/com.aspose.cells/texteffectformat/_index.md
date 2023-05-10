@@ -13,8 +13,8 @@ public class TextEffectFormat
 ```
 
 Contains properties and methods that apply to WordArt objects.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

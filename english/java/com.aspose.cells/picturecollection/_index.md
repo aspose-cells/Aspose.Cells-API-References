@@ -13,8 +13,8 @@ public class PictureCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object
@@ -50,9 +50,7 @@ Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Remove shapes at the specific index
-**Example**
- |
+| [removeAt(int index)](#removeAt-int-) | Remove shapes at the specific index |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,8 +81,8 @@ public int add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 
 Adds a picture to the collection.
-**Example**
 
+**Example**
 
 ```
 //add a picture
@@ -145,8 +143,8 @@ public int add(int upperLeftRow, int upperLeftColumn, String fileName)
 
 
 Adds a picture to the collection.
-**Example**
 
+**Example**
 
 ```
 //add a picture
@@ -169,8 +167,8 @@ public int add(int upperLeftRow, int upperLeftColumn, String fileName, int width
 
 
 Adds a picture to the collection.
-**Example**
 
+**Example**
 
 ```
 //add a picture
@@ -210,8 +208,8 @@ public void clear()
 
 
 Clear all pictures.
-**Example**
 
+**Example**
 
 ```
 //clear
@@ -255,8 +253,8 @@ public Picture get(int index)
 
 
 Gets the [Picture](../../com.aspose.cells/picture) element at the specified index.
-**Example**
 
+**Example**
 
 ```
 //get picture collection
@@ -352,8 +350,8 @@ public void removeAt(int index)
 
 
 Remove shapes at the specific index
-**Example**
 
+**Example**
 
 ```
 //add a picture

@@ -13,8 +13,8 @@ public class GridTableItemStyle extends WebTableItemStyle
 ```
 
 Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
-**Example**
 
+**Example**
 ## Constructors
 
 | Constructor | Description |

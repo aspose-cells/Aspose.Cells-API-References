@@ -13,8 +13,8 @@ public class CheckBoxCollection extends CollectionBase
 ```
 
 Represents a collection of [CheckBox](../../com.aspose.cells/checkbox) objects in a worksheet.
-**Example**
 
+**Example**
 
 ```
 //Create a new Workbook.

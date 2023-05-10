@@ -13,8 +13,8 @@ public class Hyperlink
 ```
 
 Encapsulates the object that represents a hyperlink.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

@@ -102,9 +102,7 @@ Licenses the component.
 
 Use this method to load a license from a stream.
 
-
 **Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

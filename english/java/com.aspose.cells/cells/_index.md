@@ -16,8 +16,8 @@ public class Cells implements Iterable
 ```
 
 Encapsulates a collection of cell relevant objects, such as [Cell](../../com.aspose.cells/cell), [Row](../../com.aspose.cells/row), ...etc.
-**Example**
 
+**Example**
 
 ```
 Workbook excel = new Workbook();
@@ -1028,8 +1028,8 @@ public Cell get(int row, int column)
 
 
 Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index.
-**Example**
 
+**Example**
 
 ```
 Workbook excel = new Workbook();
@@ -1052,8 +1052,8 @@ public Cell get(String cellName)
 
 
 Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name.
-**Example**
 
+**Example**
 
 ```
 Workbook excel = new Workbook();
@@ -2578,8 +2578,8 @@ public Iterator iterator()
 
 
 Gets the cells enumerator. When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook("template.xlsx");

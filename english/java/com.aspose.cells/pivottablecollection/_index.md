@@ -13,8 +13,8 @@ public class PivotTableCollection extends CollectionBase
 ```
 
 Represents the collection of all the PivotTable objects on the specified worksheet.
-**Example**
 
+**Example**
 
 ```
 Workbook book = new Workbook();

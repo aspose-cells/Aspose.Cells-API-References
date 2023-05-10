@@ -1,7 +1,7 @@
 ---
 title: SlicerCacheItemCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represent the collection of SlicerCacheItem  Example
+description: Represent the collection of SlicerCacheItem
 type: docs
 url: /java/com.aspose.cells/slicercacheitemcollection/
 ---
@@ -13,8 +13,8 @@ public class SlicerCacheItemCollection extends CollectionBase
 ```
 
 Represent the collection of SlicerCacheItem
-**Example**
 
+**Example**
 
 ```
 Workbook book = new Workbook();
@@ -152,8 +152,8 @@ public SlicerCacheItem get(int index)
 
 
 Gets the SlicerCacheItem object by index.
-**Example**
 
+**Example**
 
 ```
 SlicerCacheItem item = items.get(0);
@@ -183,8 +183,8 @@ public int getCount()
 
 
 Gets the count of the SlicerCacheItem.
-**Example**
 
+**Example**
 
 ```
 int count = items.getCount();

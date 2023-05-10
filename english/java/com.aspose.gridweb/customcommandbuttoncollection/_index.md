@@ -13,8 +13,8 @@ public class CustomCommandButtonCollection extends CollectionBase
 ```
 
 Represents the collection of CustomCommandButton.
-**Example**
 
+**Example**
 
 ```
 GridWeb GridWeb1 = new GridWeb();

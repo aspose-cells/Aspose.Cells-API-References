@@ -13,8 +13,8 @@ public interface CellEventHandler extends Serializable
 ```
 
 Represents the interface that intend to handle cell events.
-**Example**
 
+**Example**
 
 ```
 class SortEventHandler implements   CellEventHandler,Serializable{   

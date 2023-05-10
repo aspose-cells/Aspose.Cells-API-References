@@ -13,8 +13,8 @@ public class PivotField
 ```
 
 Represents a field in a PivotTable report.
-**Example**
 
+**Example**
 
 ```
 Workbook book = new Workbook();

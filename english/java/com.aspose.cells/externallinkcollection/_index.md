@@ -16,8 +16,8 @@ public class ExternalLinkCollection implements Iterable
 ```
 
 Represents external links collection in a workbook.
-**Example**
 
+**Example**
 
 ```
 //Open a file with external links

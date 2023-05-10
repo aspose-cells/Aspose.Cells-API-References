@@ -17,9 +17,7 @@ Settings of pdf when converting excel to pdf, PDF/A does not allow security sett
 
 | Constructor | Description |
 | --- | --- |
-| [PdfSecurityOptions()](#PdfSecurityOptions--) | The constructor of PdfSecurityOptions
-**Example**
-The following code sets hight resolution print permisson for the output pdf. |
+| [PdfSecurityOptions()](#PdfSecurityOptions--) | The constructor of PdfSecurityOptions |
 ## Methods
 
 | Method | Description |
@@ -62,7 +60,9 @@ public PdfSecurityOptions()
 
 
 The constructor of PdfSecurityOptions
+
 **Example**
+
 The following code sets hight resolution print permisson for the output pdf.
 
 ```

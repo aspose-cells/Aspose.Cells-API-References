@@ -13,7 +13,9 @@ public class Workbook
 ```
 
 Represents a root object to create an Excel spreadsheet. The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks, converting Excel to PDF, rendering Excel to image and protecting the Excel spreadsheet.
+
 **Example**
+
 The following example loads a Workbook from an Excel file named designer.xls and makes the horizontal and vertical scroll bars invisible. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally save the workbook as Excel xlsx file.
 
 ```
@@ -154,7 +156,9 @@ public Workbook()
 
 
 Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
+
 **Example**
+
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
 
 ```
@@ -168,7 +172,9 @@ public Workbook(int fileFormatType)
 
 
 Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. The default file format type is Excel97To2003.
+
 **Example**
+
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class with various file format type.
 
 ```
@@ -562,7 +568,9 @@ public void exportXml(String mapName, String path)
 
 
 Export XML data linked by the specified XML map.
+
 **Example**
+
 The following code exported the data linked by the first XmlMap.
 
 ```
@@ -654,9 +662,7 @@ Number of Hidden Slides
 
 Number of Multimedia Clips
 
-
 **Example**
-
 
 ```
 Workbook workbook = new Workbook();
@@ -723,8 +729,8 @@ public CustomDocumentPropertyCollection getCustomDocumentProperties()
 
 
 Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the custom document properties of the spreadsheet.
-**Example**
 
+**Example**
 
 ```
 Workbook excel = new Workbook();
@@ -780,7 +786,9 @@ public Style getDefaultStyle()
 
 
 Gets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
+
 **Example**
+
 The following code creates and instantiates a new Workbook and sets a default [Style](../../com.aspose.cells/style) to it.
 
 ```
@@ -1015,7 +1023,9 @@ public void importXml(String url, String sheetName, int row, int col)
 
 
 Imports/Updates an XML data file into the workbook.
+
 **Example**
+
 The following code imports xml data into worksheet 'Sheet 1' at Cell A1.
 
 ```
@@ -1241,8 +1251,8 @@ public int replace(String placeHolder, double newValue)
 
 
 Replaces a cell's value with a new double.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -1266,8 +1276,8 @@ public int replace(String placeHolder, double[] newValues, boolean isVertical)
 
 
 Replaces cells' values with a double array.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -1292,8 +1302,8 @@ public int replace(String placeHolder, int newValue)
 
 
 Replaces a cell's value with a new integer.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -1317,8 +1327,8 @@ public int replace(String placeHolder, int[] newValues, boolean isVertical)
 
 
 Replaces cells' values with an integer array.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -1343,8 +1353,8 @@ public int replace(String placeHolder, String newValue)
 
 
 Replaces a cell's value with a new string.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -1384,8 +1394,8 @@ public int replace(String placeHolder, String[] newValues, boolean isVertical)
 
 
 Replaces a cell's value with a new string array.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -1492,8 +1502,6 @@ public void setDefaultStyle(Style value)
 
 
 Sets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
-**Example**
-The following code creates and instantiates a new Workbook and sets a default [Style](../../com.aspose.cells/style) to it.
 
 **Parameters:**
 | Parameter | Type | Description |

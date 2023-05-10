@@ -13,8 +13,8 @@ public class Title extends ChartTextFrame
 ```
 
 Encapsulates the object that represents the title of chart or axis.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();

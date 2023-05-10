@@ -13,8 +13,8 @@ public class ChartDataTable
 ```
 
 Represents a chart data table.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

@@ -1,7 +1,7 @@
 ---
 title: ExternalConnectionCollection
 second_title: Aspose.Cells for Java API Reference
-description: Specifies the  collection  Example
+description: Specifies the  collection
 type: docs
 url: /java/com.aspose.cells/externalconnectioncollection/
 ---
@@ -13,8 +13,8 @@ public class ExternalConnectionCollection extends CollectionBase
 ```
 
 Specifies the [ExternalConnection](../../com.aspose.cells/externalconnection) collection
-**Example**
 
+**Example**
 
 ```
 Workbook wb = new Workbook("connection.xlsx");

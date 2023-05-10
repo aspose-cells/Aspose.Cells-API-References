@@ -13,8 +13,8 @@ public class Chart
 ```
 
 Encapsulates the object that represents a single Excel chart.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -1269,7 +1269,9 @@ Creates the chart image and saves it to a file. The extension of the file name d
 The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List][] for more details.
+
 **Example**
+
 Saves to Tiff with 300 dpi and CCITT4 compression.
 
 ```

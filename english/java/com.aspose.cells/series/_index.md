@@ -13,8 +13,8 @@ public class Series
 ```
 
 Encapsulates the object that represents a single data series in a chart.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object
@@ -420,8 +420,8 @@ public String getName()
 
 
 Gets the name of the data series.
-**Example**
 
+**Example**
 
 ```
 //Reference name to a cell
@@ -990,8 +990,6 @@ public void setName(String value)
 
 
 Sets the name of the data series.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

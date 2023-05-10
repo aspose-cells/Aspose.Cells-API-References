@@ -13,8 +13,8 @@ public class PivotFormatCondition
 ```
 
 Represents a PivotTable Format Condition in PivotFormatCondition Collection.
-**Example**
 
+**Example**
 
 ```
 Workbook book = new Workbook();

@@ -13,8 +13,8 @@ public class ExternalLink
 ```
 
 Represents an external link in a workbook.
-**Example**
 
+**Example**
 
 ```
 //Open a file with external links

@@ -13,8 +13,8 @@ public class WorksheetCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) objects.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -111,8 +111,8 @@ public int add(int type)
 
 
 Adds a worksheet to the collection.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -388,9 +388,7 @@ Number of Hidden Slides
 
 Number of Multimedia Clips
 
-
 **Example**
-
 
 ```
 Workbook workbook = new Workbook();
@@ -427,8 +425,8 @@ public CustomDocumentPropertyCollection getCustomDocumentProperties()
 
 
 Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the custom document properties of the spreadsheet.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();

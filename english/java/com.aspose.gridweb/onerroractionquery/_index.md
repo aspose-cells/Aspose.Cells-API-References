@@ -13,8 +13,8 @@ public class OnErrorActionQuery
 ```
 
 Used in the CellError event of the GridWeb.
-**Example**
 
+**Example**
 
 ```
 OnErrorActionQuery query = new OnErrorActionQuery();

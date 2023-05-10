@@ -13,8 +13,8 @@ public class HorizontalPageBreak
 ```
 
 Encapsulates the object that represents a horizontal page break.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

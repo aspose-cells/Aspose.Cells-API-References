@@ -13,8 +13,8 @@ public class AutoFilter
 ```
 
 Represents autofiltering for the specified worksheet.
-**Example**
 
+**Example**
 
 ```
 //Creating a file stream containing the Excel file to be opened

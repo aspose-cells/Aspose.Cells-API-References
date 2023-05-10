@@ -13,8 +13,8 @@ public class SeriesCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

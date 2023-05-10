@@ -13,8 +13,8 @@ public class ImageOrPrintOptions
 ```
 
 Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image.
-**Example**
 
+**Example**
 
 ```
 //Set Image Or Print Options

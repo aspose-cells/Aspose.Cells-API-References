@@ -13,8 +13,8 @@ public class FormatConditionCollection
 ```
 
 Represents conditional formatting. The FormatConditions can contain up to three conditional formats.
-**Example**
 
+**Example**
 
 ```
 //Create a new Workbook.

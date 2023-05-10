@@ -13,8 +13,8 @@ public class PivotFilter
 ```
 
 Represents a PivotFilter in PivotFilter Collection.
-**Example**
 
+**Example**
 
 ```
 Workbook book = new Workbook();

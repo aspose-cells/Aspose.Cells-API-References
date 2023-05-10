@@ -13,8 +13,8 @@ public final class SetBorderPosition
 ```
 
 Represents the border position to be set of a cells range.
-**Example**
 
+**Example**
 
 ```
 GridWeb GridWeb1=new GridWeb();

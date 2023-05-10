@@ -13,8 +13,8 @@ public class ShapeCollection extends CollectionBase
 ```
 
 Represents all the shape in a worksheet/chart.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object
@@ -70,9 +70,7 @@ Represents all the shape in a worksheet/chart.
 | [addTextBoxInChart(int top, int left, int height, int width)](#addTextBoxInChart-int-int-int-int-) | Adds a textbox to the chart. |
 | [addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addTextEffect-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-int-int-) | Inserts a WordArt object. |
 | [addTextEffectInChart(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int top, int left, int height, int width)](#addTextEffectInChart-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-) | Inserts a WordArt object to the chart |
-| [addWordArt(int style, String text, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addWordArt-int-java.lang.String-int-int-int-int-int-int-) | Adds preset WordArt since Excel 2007.s
-**Example**
- |
+| [addWordArt(int style, String text, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addWordArt-int-java.lang.String-int-int-int-int-int-int-) | Adds preset WordArt since Excel 2007.s |
 | [clear()](#clear--) | Clear all shapes. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [copyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow, int destColumn)](#copyCommentsInRange-com.aspose.cells.ShapeCollection-com.aspose.cells.CellArea-int-int-) | Copy all comments in the range. |
@@ -81,9 +79,7 @@ Represents all the shape in a worksheet/chart.
 | [deleteShape(Shape shape)](#deleteShape-com.aspose.cells.Shape-) | Delete a shape. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the shape object at the specific index. |
-| [get(String name)](#get-java.lang.String-) | Gets the shape object by the shape image
-**Example**
- |
+| [get(String name)](#get-java.lang.String-) | Gets the shape object by the shape image |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [group(Shape[] groupItems)](#group-com.aspose.cells.Shape---) | Group the shapes. |
@@ -122,8 +118,8 @@ public Shape addActiveXControl(int type, int topRow, int top, int leftColumn, in
 
 
 Creates an Activex Control.
-**Example**
 
+**Example**
 
 ```
 //add an ActiveX control
@@ -150,8 +146,8 @@ public ArcShape addArc(int upperLeftRow, int top, int upperLeftColumn, int left,
 
 
 Adds a ArcShape to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a arc
@@ -177,8 +173,8 @@ public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColu
 
 
 Adds a AutoShape to the worksheet. The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
-**Example**
 
+**Example**
 
 ```
 //Adds a AutoShape to the worksheet.
@@ -224,8 +220,8 @@ public Button addButton(int upperLeftRow, int top, int upperLeftColumn, int left
 
 
 Adds a Button to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a button
@@ -251,8 +247,8 @@ public CheckBox addCheckBox(int upperLeftRow, int top, int upperLeftColumn, int 
 
 
 Adds a checkbox to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a CheckBox
@@ -278,8 +274,8 @@ public ComboBox addComboBox(int upperLeftRow, int top, int upperLeftColumn, int 
 
 
 Adds a ComboBox to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a combo box
@@ -305,8 +301,8 @@ public Shape addCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeft
 
 
 Adds and copy a shape to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a shape
@@ -353,8 +349,8 @@ public Shape addFreeFloatingShape(int type, int top, int left, int height, int w
 
 
 Adds a free floating shape to the worksheet.Only applies for line/image shape.
-**Example**
 
+**Example**
 
 ```
 //add a line
@@ -392,8 +388,8 @@ public GroupBox addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int 
 
 
 Adds a GroupBox to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a group box
@@ -419,8 +415,8 @@ public Picture addIcons(int upperLeftRow, int top, int upperLeftColumn, int left
 
 
 Adds svg image.
-**Example**
 
+**Example**
 
 ```
 //add icon
@@ -456,8 +452,8 @@ public Label addLabel(int upperLeftRow, int top, int upperLeftColumn, int left, 
 
 
 Adds a Label to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a label
@@ -501,8 +497,8 @@ public LineShape addLine(int upperLeftRow, int top, int upperLeftColumn, int lef
 
 
 Adds a LineShape to the worksheet.
-**Example**
 
+**Example**
 
 ```
 // add a line object
@@ -547,8 +543,8 @@ public ListBox addListBox(int upperLeftRow, int top, int upperLeftColumn, int le
 
 
 Adds a ListBox to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a list box
@@ -574,8 +570,8 @@ public OleObject addOleObject(int upperLeftRow, int top, int upperLeftColumn, in
 
 
 Adds an OleObject.
-**Example**
 
+**Example**
 
 ```
 FileInputStream fs = new FileInputStream("image.jpg");
@@ -628,8 +624,8 @@ public Oval addOval(int upperLeftRow, int top, int upperLeftColumn, int left, in
 
 
 Adds a Oval to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a oval
@@ -712,8 +708,8 @@ public RadioButton addRadioButton(int upperLeftRow, int top, int upperLeftColumn
 
 
 Adds a RadioButton to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a radio button
@@ -739,8 +735,8 @@ public RectangleShape addRectangle(int upperLeftRow, int top, int upperLeftColum
 
 
 Adds a RectangleShape to the worksheet.
-**Example**
 
+**Example**
 
 ```
 // add a rectangle
@@ -766,8 +762,8 @@ public ScrollBar addScrollBar(int upperLeftRow, int top, int upperLeftColumn, in
 
 
 Adds a ScrollBar to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a scroll bar
@@ -793,8 +789,8 @@ public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, 
 
 
 Adds a Shape to the worksheet. The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
-**Example**
 
+**Example**
 
 ```
 //Add a shape of the specified type
@@ -903,8 +899,8 @@ public Spinner addSpinner(int upperLeftRow, int top, int upperLeftColumn, int le
 
 
 Adds a Spinner to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a spinner
@@ -930,8 +926,8 @@ public Picture addSvg(int upperLeftRow, int top, int upperLeftColumn, int left, 
 
 
 Adds svg image.
-**Example**
 
+**Example**
 
 ```
 // add a svg
@@ -967,8 +963,8 @@ public TextBox addTextBox(int upperLeftRow, int top, int upperLeftColumn, int le
 
 
 Adds a text box to the worksheet.
-**Example**
 
+**Example**
 
 ```
 //add a TextBox
@@ -1012,8 +1008,8 @@ public Shape addTextEffect(int effect, String text, String fontName, int size, b
 
 
 Inserts a WordArt object.
-**Example**
 
+**Example**
 
 ```
 //add a WordArt
@@ -1069,8 +1065,8 @@ public Shape addWordArt(int style, String text, int upperLeftRow, int top, int u
 
 
 Adds preset WordArt since Excel 2007.s
-**Example**
 
+**Example**
 
 ```
 //add a WordArt
@@ -1098,8 +1094,8 @@ public void clear()
 
 
 Clear all shapes.
-**Example**
 
+**Example**
 
 ```
 if (shapes.getCount() > 0)
@@ -1130,8 +1126,8 @@ public void copyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow
 
 
 Copy all comments in the range.
-**Example**
 
+**Example**
 
 ```
 CommentCollection comments = workbook.getWorksheets().get(0).getComments();
@@ -1172,8 +1168,8 @@ public void copyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, 
 
 
 Copy shapes in the range to destination range.
-**Example**
 
+**Example**
 
 ```
 //add a shape
@@ -1204,8 +1200,8 @@ public void deleteInRange(CellArea ca)
 
 
 Delete shapes in the range.Comment shapes will not be deleted.
-**Example**
 
+**Example**
 
 ```
 //add first shape
@@ -1235,8 +1231,8 @@ public void deleteShape(Shape shape)
 
 
 Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted.
-**Example**
 
+**Example**
 
 ```
 //add first shape
@@ -1274,8 +1270,8 @@ public Shape get(int index)
 
 
 Gets the shape object at the specific index.
-**Example**
 
+**Example**
 
 ```
 //get the shape
@@ -1296,8 +1292,8 @@ public Shape get(String name)
 
 
 Gets the shape object by the shape image
-**Example**
 
+**Example**
 
 ```
 //add a shape
@@ -1344,8 +1340,8 @@ public GroupShape group(Shape[] groupItems)
 
 
 Group the shapes. The shape in the groupItems should not be grouped. The shape must be in this Shapes collection.
-**Example**
 
+**Example**
 
 ```
 //add first shape
@@ -1422,8 +1418,8 @@ public void remove(Shape shape)
 
 
 Remove the shape.
-**Example**
 
+**Example**
 
 ```
 //add first shape
@@ -1452,8 +1448,8 @@ public void removeAt(int index)
 
 
 Remove the shape.
-**Example**
 
+**Example**
 
 ```
 //add first shape
@@ -1487,8 +1483,8 @@ public void ungroup(GroupShape group)
 
 
 Ungroups the shape items. If the group shape is grouped by another group shape,nothing will be done.
-**Example**
 
+**Example**
 
 ```
 //add first shape

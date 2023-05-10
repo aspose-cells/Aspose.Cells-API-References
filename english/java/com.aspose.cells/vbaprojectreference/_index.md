@@ -13,8 +13,8 @@ public class VbaProjectReference
 ```
 
 Represents the reference of VBA project.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

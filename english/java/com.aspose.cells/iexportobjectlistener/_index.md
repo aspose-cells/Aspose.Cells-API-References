@@ -10,7 +10,9 @@ public interface IExportObjectListener
 ```
 
 Allows users to manipulate objects while exporting.
+
 **Example**
+
 The following example creates a Workbook, opens a file named designer.xls in it and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally sends the updated file to the client browser.
 
 ```

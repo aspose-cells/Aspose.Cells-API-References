@@ -253,8 +253,8 @@ public String getDefaultFontName()
 
 
 Gets the control's default font name.
-**Example**
 
+**Example**
 
 ```
 GridWeb GridWeb1=new GridWeb();
@@ -426,8 +426,6 @@ public void setDefaultFontName(String value)
 
 
 Sets the control's default font name.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

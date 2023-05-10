@@ -1,7 +1,7 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents the list of   Example
+description: Represents the list of
 type: docs
 url: /java/com.aspose.cells/vbamodulecollection/
 ---
@@ -13,8 +13,8 @@ public class VbaModuleCollection extends CollectionBase
 ```
 
 Represents the list of [VbaModule](../../com.aspose.cells/vbamodule)
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

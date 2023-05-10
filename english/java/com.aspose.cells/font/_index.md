@@ -13,8 +13,8 @@ public class Font
 ```
 
 Encapsulates the font object used in a spreadsheet.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

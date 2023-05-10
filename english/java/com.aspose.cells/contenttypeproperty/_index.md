@@ -13,8 +13,8 @@ public class ContentTypeProperty
 ```
 
 Represents identifier information.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

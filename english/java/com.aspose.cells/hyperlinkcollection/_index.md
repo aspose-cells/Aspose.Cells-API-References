@@ -13,8 +13,8 @@ public class HyperlinkCollection extends CollectionBase
 ```
 
 Encapsulates a collection of [Hyperlink](../../com.aspose.cells/hyperlink) objects.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object
@@ -63,8 +63,8 @@ public int add(int firstRow, int firstColumn, int totalRows, int totalColumns, S
 
 
 Adds a hyperlink to a specified cell or a range of cells.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

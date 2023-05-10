@@ -13,8 +13,8 @@ public class ListObject
 ```
 
 Represents a list object on a worksheet. The ListObject object is a member of the ListObjects collection. The ListObjects collection contains all the list objects on a worksheet.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();
@@ -364,8 +364,8 @@ public int getTableStyleType()
 
 
 Gets and the built-in table style. [TableStyleType](../../com.aspose.cells/tablestyletype).
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook("Book1.xlsx");
@@ -627,8 +627,6 @@ public void setTableStyleType(int value)
 
 
 Gets and the built-in table style. [TableStyleType](../../com.aspose.cells/tablestyletype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

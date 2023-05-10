@@ -13,8 +13,8 @@ public class Validation
 ```
 
 Represents data validation.settings.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();

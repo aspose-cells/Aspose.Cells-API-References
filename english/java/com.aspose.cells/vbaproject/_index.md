@@ -13,8 +13,8 @@ public class VbaProject
 ```
 
 Represents the VBA project.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

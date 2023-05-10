@@ -13,8 +13,8 @@ public class ChartPointCollection
 ```
 
 Represents a collection that contains all the points in one series.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

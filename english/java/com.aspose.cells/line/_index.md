@@ -13,8 +13,8 @@ public class Line
 ```
 
 Encapsulates the object that represents the line format.
-**Example**
 
+**Example**
 
 ```
 Workbook workbook = new Workbook();

@@ -13,8 +13,8 @@ public class FillFormat
 ```
 
 Encapsulates the object that represents fill formatting for a shape.
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object

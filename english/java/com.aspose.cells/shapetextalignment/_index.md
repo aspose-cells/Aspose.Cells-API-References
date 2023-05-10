@@ -1,7 +1,7 @@
 ---
 title: ShapeTextAlignment
 second_title: Aspose.Cells for Java API Reference
-description: Represents the setting of shapes text alignment  Example
+description: Represents the setting of shapes text alignment
 type: docs
 url: /java/com.aspose.cells/shapetextalignment/
 ---
@@ -13,8 +13,8 @@ public class ShapeTextAlignment
 ```
 
 Represents the setting of shape's text alignment;
-**Example**
 
+**Example**
 
 ```
 //Instantiating a Workbook object
@@ -30,26 +30,18 @@ Represents the setting of shape's text alignment;
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether this instance has the same value as another specified [ShapeTextAlignment](../../com.aspose.cells/shapetextalignment) object. |
 | [getAutoSize()](#getAutoSize--) | Indicates if size of shape is adjusted automatically according to its content. |
-| [getBottomMarginPt()](#getBottomMarginPt--) | Returns the bottom margin in unit of Points
-**Example**
- |
+| [getBottomMarginPt()](#getBottomMarginPt--) | Returns the bottom margin in unit of Points |
 | [getClass()](#getClass--) |  |
-| [getLeftMarginPt()](#getLeftMarginPt--) | Returns the left margin in unit of Points
-**Example**
- |
+| [getLeftMarginPt()](#getLeftMarginPt--) | Returns the left margin in unit of Points |
 | [getNumberOfColumns()](#getNumberOfColumns--) | Gets the number of columns of text in the bounding rectangle. |
-| [getRightMarginPt()](#getRightMarginPt--) | Returns the right margin in unit of Points
-**Example**
- |
+| [getRightMarginPt()](#getRightMarginPt--) | Returns the right margin in unit of Points |
 | [getRotateTextWithShape()](#getRotateTextWithShape--) | Indicates whether rotating text with shape. |
 | [getRotationAngle()](#getRotationAngle--) | Gets the rotation of the shape. |
 | [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | Gets the text horizontal overflow type of the text box. |
 | [getTextShapeType()](#getTextShapeType--) | Gets the transform type of text. |
 | [getTextVerticalOverflow()](#getTextVerticalOverflow--) | Gets the text vertical overflow type of the text box. |
 | [getTextVerticalType()](#getTextVerticalType--) | Gets the text direction. |
-| [getTopMarginPt()](#getTopMarginPt--) | Returns the top margin in unit of Points
-**Example**
- |
+| [getTopMarginPt()](#getTopMarginPt--) | Returns the top margin in unit of Points |
 | [hashCode()](#hashCode--) |  |
 | [isAutoMargin()](#isAutoMargin--) | Indicates whether the margin of the text frame is automatic. |
 | [isLockedText()](#isLockedText--) | Indicates whether the shape is locked when worksheet is protected. |
@@ -58,17 +50,11 @@ Represents the setting of shape's text alignment;
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoMargin(boolean value)](#setAutoMargin-boolean-) | Indicates whether the margin of the text frame is automatic. |
 | [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates if size of shape is adjusted automatically according to its content. |
-| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | Returns the bottom margin in unit of Points
-**Example**
- |
-| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | Returns the left margin in unit of Points
-**Example**
- |
+| [setBottomMarginPt(double value)](#setBottomMarginPt-double-) | Returns the bottom margin in unit of Points |
+| [setLeftMarginPt(double value)](#setLeftMarginPt-double-) | Returns the left margin in unit of Points |
 | [setLockedText(boolean value)](#setLockedText-boolean-) | Indicates whether the shape is locked when worksheet is protected. |
 | [setNumberOfColumns(int value)](#setNumberOfColumns-int-) | Sets the number of columns of text in the bounding rectangle. |
-| [setRightMarginPt(double value)](#setRightMarginPt-double-) | Returns the right margin in unit of Points
-**Example**
- |
+| [setRightMarginPt(double value)](#setRightMarginPt-double-) | Returns the right margin in unit of Points |
 | [setRotateTextWithShape(boolean value)](#setRotateTextWithShape-boolean-) | Indicates whether rotating text with shape. |
 | [setRotationAngle(double value)](#setRotationAngle-double-) | Sets the rotation of the shape. |
 | [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) | Sets the text horizontal overflow type of the text box. |
@@ -76,9 +62,7 @@ Represents the setting of shape's text alignment;
 | [setTextVerticalOverflow(int value)](#setTextVerticalOverflow-int-) | Sets the text vertical overflow type of the text box. |
 | [setTextVerticalType(int value)](#setTextVerticalType-int-) | Sets the text direction. |
 | [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Sets the text wrapped type of the shape which contains text. |
-| [setTopMarginPt(double value)](#setTopMarginPt-double-) | Returns the top margin in unit of Points
-**Example**
- |
+| [setTopMarginPt(double value)](#setTopMarginPt-double-) | Returns the top margin in unit of Points |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -90,8 +74,8 @@ public boolean equals(Object obj)
 
 
 Determines whether this instance has the same value as another specified [ShapeTextAlignment](../../com.aspose.cells/shapetextalignment) object.
-**Example**
 
+**Example**
 
 ```
 //You have to make sure that the index value in this line of code exists
@@ -116,8 +100,8 @@ public boolean getAutoSize()
 
 
 Indicates if size of shape is adjusted automatically according to its content.
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setAutoSize(false);
@@ -132,8 +116,8 @@ public double getBottomMarginPt()
 
 
 Returns the bottom margin in unit of Points
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setBottomMarginPt(2.0d);
@@ -158,8 +142,8 @@ public double getLeftMarginPt()
 
 
 Returns the left margin in unit of Points
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setLeftMarginPt(2.0d);
@@ -184,8 +168,8 @@ public double getRightMarginPt()
 
 
 Returns the right margin in unit of Points
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setRightMarginPt(2.0d);
@@ -200,8 +184,8 @@ public boolean getRotateTextWithShape()
 
 
 Indicates whether rotating text with shape.
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setRotateTextWithShape(true);
@@ -216,8 +200,8 @@ public double getRotationAngle()
 
 
 Gets the rotation of the shape.
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setRotationAngle(90);
@@ -232,8 +216,8 @@ public int getTextHorizontalOverflow()
 
 
 Gets the text horizontal overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setTextHorizontalOverflow(TextOverflowType.CLIP);
@@ -248,8 +232,8 @@ public int getTextShapeType()
 
 
 Gets the transform type of text. [AutoShapeType](../../com.aspose.cells/autoshapetype).
-**Example**
 
+**Example**
 
 ```
 //Usually do not modify this value unless you know exactly what the modification will result in
@@ -265,8 +249,8 @@ public int getTextVerticalOverflow()
 
 
 Gets the text vertical overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setTextVerticalOverflow(TextOverflowType.CLIP);
@@ -281,8 +265,8 @@ public int getTextVerticalType()
 
 
 Gets the text direction. [TextVerticalType](../../com.aspose.cells/textverticaltype).
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setTextVerticalType(com.aspose.cells.TextVerticalType.HORIZONTAL);
@@ -297,8 +281,8 @@ public double getTopMarginPt()
 
 
 Returns the top margin in unit of Points
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setTopMarginPt(2.0d);
@@ -323,8 +307,8 @@ public boolean isAutoMargin()
 
 
 Indicates whether the margin of the text frame is automatic.
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setAutoMargin(true);
@@ -349,8 +333,8 @@ public boolean isTextWrapped()
 
 
 Gets the text wrapped type of the shape which contains text.
-**Example**
 
+**Example**
 
 ```
 shapeTextAlignment.setTextWrapped(true);
@@ -381,8 +365,6 @@ public void setAutoMargin(boolean value)
 
 
 Indicates whether the margin of the text frame is automatic.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,8 +378,6 @@ public void setAutoSize(boolean value)
 
 
 Indicates if size of shape is adjusted automatically according to its content.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -411,8 +391,6 @@ public void setBottomMarginPt(double value)
 
 
 Returns the bottom margin in unit of Points
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -426,8 +404,6 @@ public void setLeftMarginPt(double value)
 
 
 Returns the left margin in unit of Points
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -467,8 +443,6 @@ public void setRightMarginPt(double value)
 
 
 Returns the right margin in unit of Points
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,8 +456,6 @@ public void setRotateTextWithShape(boolean value)
 
 
 Indicates whether rotating text with shape.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -497,8 +469,6 @@ public void setRotationAngle(double value)
 
 
 Sets the rotation of the shape.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -512,8 +482,6 @@ public void setTextHorizontalOverflow(int value)
 
 
 Sets the text horizontal overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -527,8 +495,6 @@ public void setTextShapeType(int value)
 
 
 Sets the transform type of text. [AutoShapeType](../../com.aspose.cells/autoshapetype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -542,8 +508,6 @@ public void setTextVerticalOverflow(int value)
 
 
 Sets the text vertical overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,8 +521,6 @@ public void setTextVerticalType(int value)
 
 
 Sets the text direction. [TextVerticalType](../../com.aspose.cells/textverticaltype).
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -572,8 +534,6 @@ public void setTextWrapped(boolean value)
 
 
 Sets the text wrapped type of the shape which contains text.
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -587,8 +547,6 @@ public void setTopMarginPt(double value)
 
 
 Returns the top margin in unit of Points
-**Example**
-
 
 **Parameters:**
 | Parameter | Type | Description |

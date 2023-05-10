@@ -13,8 +13,8 @@ public class VerticalPageBreak
 ```
 
 Encapsulates the object that represents a vertical page break.
-**Example**
 
+**Example**
 
 ```
 Workbook excel = new Workbook();
