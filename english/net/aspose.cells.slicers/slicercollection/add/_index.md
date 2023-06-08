@@ -1,7 +1,7 @@
 ---
-title: Add
+title: SlicerCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: Add a new Slicer using PivotTable as data source
+description: SlicerCollection method. Add a new Slicer using PivotTable as data source
 type: docs
 url: /net/aspose.cells.slicers/slicercollection/add/
 ---
@@ -34,9 +34,9 @@ slicers.Add(pivot, "E3", "fruit");
 
 ### See Also
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -71,9 +71,9 @@ slicers.Add(pivot, 20, 12, "fruit");
 
 ### See Also
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -108,9 +108,9 @@ slicers.Add(pivot, 20, 8, 0);
 
 ### See Also
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -144,9 +144,9 @@ slicers.Add(pivot, "E20", 0);
 
 ### See Also
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -181,10 +181,10 @@ slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);
 
 ### See Also
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [PivotField](../../../aspose.cells.pivot/pivotfield)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [PivotField](../../../aspose.cells.pivot/pivotfield/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -218,10 +218,10 @@ slicers.Add(pivot, "I3", pivot.BaseFields[0]);
 
 ### See Also
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [PivotField](../../../aspose.cells.pivot/pivotfield)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [PivotField](../../../aspose.cells.pivot/pivotfield/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -255,9 +255,9 @@ slicers.Add(table, 1, "E38");
 
 ### See Also
 
-* class [ListObject](../../../aspose.cells.tables/listobject)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [ListObject](../../../aspose.cells.tables/listobject/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -291,10 +291,10 @@ slicers.Add(table, table.ListColumns[1], "I38");
 
 ### See Also
 
-* class [ListObject](../../../aspose.cells.tables/listobject)
-* class [ListColumn](../../../aspose.cells.tables/listcolumn)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [ListObject](../../../aspose.cells.tables/listobject/)
+* class [ListColumn](../../../aspose.cells.tables/listcolumn/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
 ---
@@ -329,10 +329,10 @@ slicers.Add(table, table.ListColumns[1], 38, 12);
 
 ### See Also
 
-* class [ListObject](../../../aspose.cells.tables/listobject)
-* class [ListColumn](../../../aspose.cells.tables/listcolumn)
-* class [SlicerCollection](../../slicercollection)
-* namespace [Aspose.Cells.Slicers](../../slicercollection)
+* class [ListObject](../../../aspose.cells.tables/listobject/)
+* class [ListColumn](../../../aspose.cells.tables/listcolumn/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,13 +1,13 @@
 ---
-title: PivotCaches
+title: Class PivotCaches
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the collection of memory caches from the PivotTable reports in a workbook. Each memory cache is represented by a PivotCache./pivotcache object.
+description: Aspose.Cells.GridWeb.Data.PivotCaches class. Represents the collection of memory caches from the PivotTable reports in a workbook. Each memory cache is represented by a PivotCache object
 type: docs
 url: /net/aspose.cells.gridweb.data/pivotcaches/
 ---
 ## PivotCaches class
 
-Represents the collection of memory caches from the PivotTable reports in a workbook. Each memory cache is represented by a [`PivotCache`](../pivotcache) object.
+Represents the collection of memory caches from the PivotTable reports in a workbook. Each memory cache is represented by a [`PivotCache`](../pivotcache/) object.
 
 ```csharp
 [Obsolete("This class is obsolete; use GridPivotTableCollection instead")]
@@ -18,28 +18,28 @@ public class PivotCaches : ICollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/pivotcaches/count) { get; } | Gets the number of elements contained in the PivotCaches instance |
-| [IsSynchronized](../../aspose.cells.gridweb.data/pivotcaches/issynchronized) { get; } | Gets a value indicating whether access to the PivotCaches is synchronized (thread-safe). |
-| [Item](../../aspose.cells.gridweb.data/pivotcaches/item) { get; } | Gets PivotCache object by index. (2 indexers) |
-| [Parent](../../aspose.cells.gridweb.data/pivotcaches/parent) { get; } | Gets the parent object for the specified object. Read-only. |
-| [SyncRoot](../../aspose.cells.gridweb.data/pivotcaches/syncroot) { get; } | Gets an object that can be used to synchronize access to the PivotCaches. |
+| [Count](../../aspose.cells.gridweb.data/pivotcaches/count/) { get; } | Gets the number of elements contained in the PivotCaches instance |
+| [IsSynchronized](../../aspose.cells.gridweb.data/pivotcaches/issynchronized/) { get; } | Gets a value indicating whether access to the PivotCaches is synchronized (thread-safe). |
+| [Item](../../aspose.cells.gridweb.data/pivotcaches/item/) { get; } | Gets PivotCache object by index. (2 indexers) |
+| [Parent](../../aspose.cells.gridweb.data/pivotcaches/parent/) { get; } | Gets the parent object for the specified object. Read-only. |
+| [SyncRoot](../../aspose.cells.gridweb.data/pivotcaches/syncroot/) { get; } | Gets an object that can be used to synchronize access to the PivotCaches. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/pivotcaches/add#add_2)(DataTable) | Adds a PivotCache from DataTable. |
-| [Add](../../aspose.cells.gridweb.data/pivotcaches/add#add_4)(DataView) | Adds a PivotCache from DataView. |
-| [Add](../../aspose.cells.gridweb.data/pivotcaches/add#add_3)(DataTable, string) | Adds a PivotCahe from DataTable using the specified name. |
-| [Add](../../aspose.cells.gridweb.data/pivotcaches/add#add_5)(DataView, string) | Adds a PivotCahe from DataView using the specified name. |
-| [Add](../../aspose.cells.gridweb.data/pivotcaches/add#add)(WebWorksheet, WebCellArea) | Adds a PivotCache from sheet |
-| [Add](../../aspose.cells.gridweb.data/pivotcaches/add#add_1)(WebWorksheet, WebCellArea, string) | Adds a PivotCache from sheet using the specified name. |
-| [Clear](../../aspose.cells.gridweb.data/pivotcaches/clear)() | Removes all PivotCache objects and all PivotTable objects in the control. |
-| [CopyTo](../../aspose.cells.gridweb.data/pivotcaches/copyto)(Array, int) | Copies the entire PivotCache to a compatible one-dimensional Array, starting at the specified index of the target array |
-| [GetEnumerator](../../aspose.cells.gridweb.data/pivotcaches/getenumerator)() | Returns an IEnumerator for the PivotCaches. |
-| [IndexOf](../../aspose.cells.gridweb.data/pivotcaches/indexof)(PivotCache) | Returns the index of the specified PivotCache in the collection |
-| [Remove](../../aspose.cells.gridweb.data/pivotcaches/remove)(PivotCache) | Removes the specified PivotCache object from the PivotCaches and the related PivotTable using the pivotCache as data source. |
-| [RemoveAt](../../aspose.cells.gridweb.data/pivotcaches/removeat)(int) | Removes the specified PivotCache object from the PivotCaches and the related PivotTable using the pivotCache as data source. |
+| [Add](../../aspose.cells.gridweb.data/pivotcaches/add/#add_2)(DataTable) | Adds a PivotCache from DataTable. |
+| [Add](../../aspose.cells.gridweb.data/pivotcaches/add/#add_4)(DataView) | Adds a PivotCache from DataView. |
+| [Add](../../aspose.cells.gridweb.data/pivotcaches/add/#add_3)(DataTable, string) | Adds a PivotCahe from DataTable using the specified name. |
+| [Add](../../aspose.cells.gridweb.data/pivotcaches/add/#add_5)(DataView, string) | Adds a PivotCahe from DataView using the specified name. |
+| [Add](../../aspose.cells.gridweb.data/pivotcaches/add/#add)(WebWorksheet, WebCellArea) | Adds a PivotCache from sheet |
+| [Add](../../aspose.cells.gridweb.data/pivotcaches/add/#add_1)(WebWorksheet, WebCellArea, string) | Adds a PivotCache from sheet using the specified name. |
+| [Clear](../../aspose.cells.gridweb.data/pivotcaches/clear/)() | Removes all PivotCache objects and all PivotTable objects in the control. |
+| [CopyTo](../../aspose.cells.gridweb.data/pivotcaches/copyto/)(Array, int) | Copies the entire PivotCache to a compatible one-dimensional Array, starting at the specified index of the target array |
+| [GetEnumerator](../../aspose.cells.gridweb.data/pivotcaches/getenumerator/)() | Returns an IEnumerator for the PivotCaches. |
+| [IndexOf](../../aspose.cells.gridweb.data/pivotcaches/indexof/)(PivotCache) | Returns the index of the specified PivotCache in the collection |
+| [Remove](../../aspose.cells.gridweb.data/pivotcaches/remove/)(PivotCache) | Removes the specified PivotCache object from the PivotCaches and the related PivotTable using the pivotCache as data source. |
+| [RemoveAt](../../aspose.cells.gridweb.data/pivotcaches/removeat/)(int) | Removes the specified PivotCache object from the PivotCaches and the related PivotTable using the pivotCache as data source. |
 
 ### Remarks
 
@@ -145,7 +145,7 @@ NOTE: This class is now obsolete. please use GridPivotTableCollection Instead. T
 
 ### See Also
 
-* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
 * assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

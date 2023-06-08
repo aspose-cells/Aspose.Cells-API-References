@@ -1,13 +1,13 @@
 ---
-title: PivotTables
+title: Class PivotTables
 second_title: Aspose.Cells for .NET API Reference
-description: Represents a collection of all the PivotTable./pivottable objects
+description: Aspose.Cells.GridWeb.Data.PivotTables class. Represents a collection of all the PivotTable objects
 type: docs
 url: /net/aspose.cells.gridweb.data/pivottables/
 ---
 ## PivotTables class
 
-Represents a collection of all the [`PivotTable`](../pivottable) objects
+Represents a collection of all the [`PivotTable`](../pivottable/) objects
 
 ```csharp
 [Obsolete("This class is obsolete; use GridPivotTableCollection instead")]
@@ -18,28 +18,28 @@ public class PivotTables : ICollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/pivottables/count) { get; } | Gets the number of elements contained in the PivotTables instance |
-| [IsSynchronized](../../aspose.cells.gridweb.data/pivottables/issynchronized) { get; } | Gets a value indicating whether access to the PivotTables is synchronized (thread-safe). |
-| [Item](../../aspose.cells.gridweb.data/pivottables/item) { get; } | Gets a PivotTable object by index. (2 indexers) |
-| [Parent](../../aspose.cells.gridweb.data/pivottables/parent) { get; } | Gets the parent object for the specified object. Read-only. |
-| [SyncRoot](../../aspose.cells.gridweb.data/pivottables/syncroot) { get; } | Gets an object that can be used to synchronize access to the PivotTables. |
+| [Count](../../aspose.cells.gridweb.data/pivottables/count/) { get; } | Gets the number of elements contained in the PivotTables instance |
+| [IsSynchronized](../../aspose.cells.gridweb.data/pivottables/issynchronized/) { get; } | Gets a value indicating whether access to the PivotTables is synchronized (thread-safe). |
+| [Item](../../aspose.cells.gridweb.data/pivottables/item/) { get; } | Gets a PivotTable object by index. (2 indexers) |
+| [Parent](../../aspose.cells.gridweb.data/pivottables/parent/) { get; } | Gets the parent object for the specified object. Read-only. |
+| [SyncRoot](../../aspose.cells.gridweb.data/pivottables/syncroot/) { get; } | Gets an object that can be used to synchronize access to the PivotTables. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/pivottables/add#add)(PivotCache) | Adds a PivotTable object from the specified PivotCache to a new worksheet |
-| [Add](../../aspose.cells.gridweb.data/pivottables/add#add_3)(PivotCache, string) | Adds a PivotTable object from the specified PivotCache to a new worksheet |
-| [Add](../../aspose.cells.gridweb.data/pivottables/add#add_1)(PivotCache, WebWorksheet, WebCell) | Adds a PivotTable object from the specified PivotCache to the specified worksheet |
-| [Add](../../aspose.cells.gridweb.data/pivottables/add#add_2)(PivotCache, WebWorksheet, WebCell, string) | Adds a PivotTable object from the specified PivotCache to the specified worksheet |
-| [Clear](../../aspose.cells.gridweb.data/pivottables/clear)() | Removes all PivotTable objects and all PivotCache objects in the control. |
-| [Contains](../../aspose.cells.gridweb.data/pivottables/contains)(string) | Returns true if exists pivottable name tableName. |
-| [CopyTo](../../aspose.cells.gridweb.data/pivottables/copyto)(Array, int) | Copies the entire PivotTable to a compatible one-dimensional Array, starting at the specified index of the target array |
-| [GetEnumerator](../../aspose.cells.gridweb.data/pivottables/getenumerator)() | Returns an IEnumerator for the PivotTables. |
-| [Refresh](../../aspose.cells.gridweb.data/pivottables/refresh)(PivotTable) | ReDataBinds data source to the PivotTable report. |
-| [RefreshAll](../../aspose.cells.gridweb.data/pivottables/refreshall)() | ReDataBinds data source to all PivotTable report. |
-| [Remove](../../aspose.cells.gridweb.data/pivottables/remove)(PivotTable) | Removes the specified PivotTable object from the PivotTables and the related PivotCache if it is not used by other PivotTable |
-| [RemoveAt](../../aspose.cells.gridweb.data/pivottables/removeat)(int) | Removes the specified PivotTable object from the PivotTables and the related PivotCache if it is not used by other PivotTable |
+| [Add](../../aspose.cells.gridweb.data/pivottables/add/#add)(PivotCache) | Adds a PivotTable object from the specified PivotCache to a new worksheet |
+| [Add](../../aspose.cells.gridweb.data/pivottables/add/#add_3)(PivotCache, string) | Adds a PivotTable object from the specified PivotCache to a new worksheet |
+| [Add](../../aspose.cells.gridweb.data/pivottables/add/#add_1)(PivotCache, WebWorksheet, WebCell) | Adds a PivotTable object from the specified PivotCache to the specified worksheet |
+| [Add](../../aspose.cells.gridweb.data/pivottables/add/#add_2)(PivotCache, WebWorksheet, WebCell, string) | Adds a PivotTable object from the specified PivotCache to the specified worksheet |
+| [Clear](../../aspose.cells.gridweb.data/pivottables/clear/)() | Removes all PivotTable objects and all PivotCache objects in the control. |
+| [Contains](../../aspose.cells.gridweb.data/pivottables/contains/)(string) | Returns true if exists pivottable name tableName. |
+| [CopyTo](../../aspose.cells.gridweb.data/pivottables/copyto/)(Array, int) | Copies the entire PivotTable to a compatible one-dimensional Array, starting at the specified index of the target array |
+| [GetEnumerator](../../aspose.cells.gridweb.data/pivottables/getenumerator/)() | Returns an IEnumerator for the PivotTables. |
+| [Refresh](../../aspose.cells.gridweb.data/pivottables/refresh/)(PivotTable) | ReDataBinds data source to the PivotTable report. |
+| [RefreshAll](../../aspose.cells.gridweb.data/pivottables/refreshall/)() | ReDataBinds data source to all PivotTable report. |
+| [Remove](../../aspose.cells.gridweb.data/pivottables/remove/)(PivotTable) | Removes the specified PivotTable object from the PivotTables and the related PivotCache if it is not used by other PivotTable |
+| [RemoveAt](../../aspose.cells.gridweb.data/pivottables/removeat/)(int) | Removes the specified PivotTable object from the PivotTables and the related PivotCache if it is not used by other PivotTable |
 
 ### Remarks
 
@@ -145,7 +145,7 @@ NOTE: This class is now obsolete. please use GridPivotTableCollection Instead. T
 
 ### See Also
 
-* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
 * assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

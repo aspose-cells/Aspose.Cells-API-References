@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells.Rendering
 second_title: Aspose.Cells for .NET API Reference
-description: The Aspose.Cells.Rendering namespace provides classes for rendering image and pdf.
+description: The Aspose.Cells.Rendering namespace provides classes for rendering image and pdf
 type: docs
 url: /net/aspose.cells.rendering/
 ---
@@ -11,37 +11,38 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 
 | Class | Description |
 | --- | --- |
-| [DrawObject](./drawobject) | DrawObject will be initialized and returned when rendering. |
-| [DrawObjectEventHandler](./drawobjecteventhandler) | Interface to get DrawObject and Bound when rendering. |
-| [ImageOrPrintOptions](./imageorprintoptions) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
-| [PageEndSavingArgs](./pageendsavingargs) | Info for a page ends saving process. |
-| [PageSavingArgs](./pagesavingargs) | Info for a page saving process. |
-| [PageStartSavingArgs](./pagestartsavingargs) | Info for a page starts saving process. |
-| [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
-| [RenderingFont](./renderingfont) | Font for rendering. |
-| [RenderingWatermark](./renderingwatermark) | Watermark for rendering. |
-| [SheetPrintingPreview](./sheetprintingpreview) | Worksheet printing preview. |
-| [SheetRender](./sheetrender) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
-| [SheetSet](./sheetset) | Describes a set of sheets. |
-| [WorkbookPrintingPreview](./workbookprintingpreview) | Workbook printing preview. |
-| [WorkbookRender](./workbookrender) | Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style. |
+| [DrawObject](./drawobject/) | DrawObject will be initialized and returned when rendering. |
+| [DrawObjectEventHandler](./drawobjecteventhandler/) | Interface to get DrawObject and Bound when rendering. |
+| [ImageOrPrintOptions](./imageorprintoptions/) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
+| [PageEndSavingArgs](./pageendsavingargs/) | Info for a page ends saving process. |
+| [PageSavingArgs](./pagesavingargs/) | Info for a page saving process. |
+| [PageStartSavingArgs](./pagestartsavingargs/) | Info for a page starts saving process. |
+| [PdfBookmarkEntry](./pdfbookmarkentry/) | PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level. |
+| [RenderingFont](./renderingfont/) | Font for rendering. |
+| [RenderingWatermark](./renderingwatermark/) | Watermark for rendering. |
+| [SheetPrintingPreview](./sheetprintingpreview/) | Worksheet printing preview. |
+| [SheetRender](./sheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
+| [SheetSet](./sheetset/) | Describes a set of sheets. |
+| [WorkbookPrintingPreview](./workbookprintingpreview/) | Workbook printing preview. |
+| [WorkbookRender](./workbookrender/) | Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback) | Control/Indicate progress of page saving process. |
+| [IPageSavingCallback](./ipagesavingcallback/) | Control/Indicate progress of page saving process. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [ColorDepth](./colordepth) | Enumerates Bit Depth Type for tiff image. |
-| [CommentTitleType](./commenttitletype) | Represents comment title type while rendering when comment is set to display at end of sheet. |
-| [DrawObjectEnum](./drawobjectenum) | Indicate Cell or Image of DrawObject. |
-| [PdfCompliance](./pdfcompliance) | Allowing user to set PDF conversion's Compatibility |
-| [PdfCompressionCore](./pdfcompressioncore) | Specifies a type of compression applied to all content in the PDF file except images. |
-| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection) are exported to PDF file. |
-| [PdfFontEncoding](./pdffontencoding) | Represents pdf embedded font encoding. |
-| [PdfOptimizationType](./pdfoptimizationtype) | Specifies a type of optimization. |
-| [TiffCompression](./tiffcompression) | Specifies what type of compression to apply when saving images into TIFF format file. |
+| [ColorDepth](./colordepth/) | Enumerates Bit Depth Type for tiff image. |
+| [CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. |
+| [DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. |
+| [ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. |
+| [PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility |
+| [PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. |
+| [PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specifies the way [`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection/) are exported to PDF file. |
+| [PdfFontEncoding](./pdffontencoding/) | Represents pdf embedded font encoding. |
+| [PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. |
+| [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

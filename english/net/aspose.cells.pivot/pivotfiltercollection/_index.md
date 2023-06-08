@@ -1,7 +1,7 @@
 ---
-title: PivotFilterCollection
+title: Class PivotFilterCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Represents a collection of all the PivotFilter objects
+description: Aspose.Cells.Pivot.PivotFilterCollection class. Represents a collection of all the PivotFilter objects
 type: docs
 url: /net/aspose.cells.pivot/pivotfiltercollection/
 ---
@@ -17,49 +17,49 @@ public class PivotFilterCollection : CollectionBase<PivotFilter>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
-| [Item](../../aspose.cells.pivot/pivotfiltercollection/item) { get; } | Gets the pivotfilter object at the specific index. |
-| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.pivot/pivotfiltercollection/item/) { get; } | Gets the pivotfilter object at the specific index. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivotfiltercollection/add)(int, PivotFilterType) | Adds a PivotFilter Object to the specific type |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(PivotFilter) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
-| [ClearFilter](../../aspose.cells.pivot/pivotfiltercollection/clearfilter)(int) | Clear PivotFilter from the specific PivotField |
-| [Contains](../../aspose.cells/collectionbase-1/contains)(PivotFilter) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(PivotFilter[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(PivotFilter[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, PivotFilter[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;PivotFilter&gt;) |  |
-| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;PivotFilter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;PivotFilter&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;PivotFilter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;PivotFilter&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(PivotFilter) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(PivotFilter, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(PivotFilter, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(PivotFilter) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(PivotFilter, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(PivotFilter, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase-1/removeat)(int) |  |
+| [Add](../../aspose.cells.pivot/pivotfiltercollection/add/)(int, PivotFilterType) | Adds a PivotFilter Object to the specific type |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotFilter) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [ClearFilter](../../aspose.cells.pivot/pivotfiltercollection/clearfilter/)(int) | Clear PivotFilter from the specific PivotField |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(PivotFilter) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotFilter[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotFilter[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, PivotFilter[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;PivotFilter&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;PivotFilter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;PivotFilter&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PivotFilter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PivotFilter&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotFilter) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotFilter, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotFilter, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotFilter) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotFilter, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotFilter, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
 ### See Also
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [PivotFilter](../pivotfilter)
-* namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [PivotFilter](../pivotfilter/)
+* namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

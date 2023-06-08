@@ -1,7 +1,7 @@
 ---
-title: PivotTableCollection
+title: Class PivotTableCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the collection of all the PivotTable objects on the specified worksheet.
+description: Aspose.Cells.Pivot.PivotTableCollection class. Represents the collection of all the PivotTable objects on the specified worksheet
 type: docs
 url: /net/aspose.cells.pivot/pivottablecollection/
 ---
@@ -17,53 +17,53 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
-| [Item](../../aspose.cells.pivot/pivottablecollection/item) { get; } | Gets the PivotTable report by index. (3 indexers) |
-| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.pivot/pivottablecollection/item/) { get; } | Gets the PivotTable report by index. (3 indexers) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_1)(PivotTable, string, string) | Adds a new PivotTable Object to the collection from another PivotTable. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_4)(string, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add)(PivotTable, int, int, string) | Adds a new PivotTable Object to the collection from another PivotTable. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_2)(string, int, int, string) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_5)(string, string, string, bool) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_3)(string, int, int, string, bool) | Adds a new PivotTable cache to a PivotCaches collection. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_7)(string[], bool, PivotPageFields, string, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_6)(string[], bool, PivotPageFields, int, int, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(PivotTable) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(PivotTable, IComparer&lt;PivotTable&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, PivotTable, IComparer&lt;PivotTable&gt;) |  |
-| [Clear](../../aspose.cells.pivot/pivottablecollection/clear#clear)() | Clear all pivot tables. (2 methods) |
-| [Contains](../../aspose.cells/collectionbase-1/contains)(PivotTable) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(PivotTable[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(PivotTable[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, PivotTable[], int, int) |  |
-| [Dispose](../../aspose.cells.pivot/pivottablecollection/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;PivotTable&gt;) |  |
-| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;PivotTable&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;PivotTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;PivotTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;PivotTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;PivotTable&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;PivotTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;PivotTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;PivotTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;PivotTable&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(PivotTable) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(PivotTable, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(PivotTable, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(PivotTable) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(PivotTable, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(PivotTable, int, int) |  |
-| [Remove](../../aspose.cells.pivot/pivottablecollection/remove#remove)(PivotTable) | Deletes the specified PivotTable and delete the PivotTable data |
-| [Remove](../../aspose.cells.pivot/pivottablecollection/remove#remove_1)(PivotTable, bool) | Deletes the specified PivotTable |
-| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat#removeat)(int) | Deletes the PivotTable at the specified index and delete the PivotTable data (2 methods) |
-| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat#removeat_2)(int, bool) | Deletes the PivotTable at the specified index |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_1)(PivotTable, string, string) | Adds a new PivotTable Object to the collection from another PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_4)(string, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add)(PivotTable, int, int, string) | Adds a new PivotTable Object to the collection from another PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_2)(string, int, int, string) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_5)(string, string, string, bool) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_3)(string, int, int, string, bool) | Adds a new PivotTable cache to a PivotCaches collection. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_7)(string[], bool, PivotPageFields, string, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_6)(string[], bool, PivotPageFields, int, int, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable, IComparer&lt;PivotTable&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotTable, IComparer&lt;PivotTable&gt;) |  |
+| [Clear](../../aspose.cells.pivot/pivottablecollection/clear/#clear)() | Clear all pivot tables. (2 methods) |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(PivotTable) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotTable[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotTable[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, PivotTable[], int, int) |  |
+| [Dispose](../../aspose.cells.pivot/pivottablecollection/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;PivotTable&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;PivotTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;PivotTable&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PivotTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PivotTable&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotTable) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotTable, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotTable, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotTable) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotTable, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotTable, int, int) |  |
+| [Remove](../../aspose.cells.pivot/pivottablecollection/remove/#remove)(PivotTable) | Deletes the specified PivotTable and delete the PivotTable data |
+| [Remove](../../aspose.cells.pivot/pivottablecollection/remove/#remove_1)(PivotTable, bool) | Deletes the specified PivotTable |
+| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat/#removeat)(int) | Deletes the PivotTable at the specified index and delete the PivotTable data (2 methods) |
+| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat/#removeat_2)(int, bool) | Deletes the PivotTable at the specified index |
 
 ### Examples
 
@@ -214,9 +214,9 @@ book.Save("out_vb.xlsx")
 
 ### See Also
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [PivotTable](../pivottable)
-* namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [PivotTable](../pivottable/)
+* namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

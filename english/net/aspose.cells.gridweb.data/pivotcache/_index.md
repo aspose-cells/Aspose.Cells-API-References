@@ -1,13 +1,13 @@
 ---
-title: PivotCache
+title: Class PivotCache
 second_title: Aspose.Cells for .NET API Reference
-description: Represents the memory cache for a PivotTable report. The PivotCache object is a member of the PivotCaches./pivotcaches collection.
+description: Aspose.Cells.GridWeb.Data.PivotCache class. Represents the memory cache for a PivotTable report. The PivotCache object is a member of the PivotCaches collection
 type: docs
 url: /net/aspose.cells.gridweb.data/pivotcache/
 ---
 ## PivotCache class
 
-Represents the memory cache for a PivotTable report. The PivotCache object is a member of the [`PivotCaches`](../pivotcaches) collection.
+Represents the memory cache for a PivotTable report. The PivotCache object is a member of the [`PivotCaches`](../pivotcaches/) collection.
 
 ```csharp
 [Obsolete("This class is obsolete; use GridPivotTable instead")]
@@ -18,29 +18,29 @@ public class PivotCache
 
 | Name | Description |
 | --- | --- |
-| [DataTable](../../aspose.cells.gridweb.data/pivotcache/datatable) { get; } | Returns the data source of System.Data.DataTable for the PivotTable report. |
-| [DataView](../../aspose.cells.gridweb.data/pivotcache/dataview) { get; } | Returns the data source of System.Data.DataView for the PivotTable report. |
-| [Index](../../aspose.cells.gridweb.data/pivotcache/index) { get; } | Returns the index of this object in Parent |
-| [Name](../../aspose.cells.gridweb.data/pivotcache/name) { get; } | Returns the name of PivotCache.Re |
-| [Parent](../../aspose.cells.gridweb.data/pivotcache/parent) { get; } | Returns the parent object for the specified object(the container of PivotCache). Read-only. |
-| [SourceCellArea](../../aspose.cells.gridweb.data/pivotcache/sourcecellarea) { get; } | Returns the range of the data source using with SourceSheet. |
-| [SourceSheet](../../aspose.cells.gridweb.data/pivotcache/sourcesheet) { get; } | Returns the data source of WebWorksheet for the PivotTable report. |
-| [SourceType](../../aspose.cells.gridweb.data/pivotcache/sourcetype) { get; } | Represents the type of the source data |
+| [DataTable](../../aspose.cells.gridweb.data/pivotcache/datatable/) { get; } | Returns the data source of System.Data.DataTable for the PivotTable report. |
+| [DataView](../../aspose.cells.gridweb.data/pivotcache/dataview/) { get; } | Returns the data source of System.Data.DataView for the PivotTable report. |
+| [Index](../../aspose.cells.gridweb.data/pivotcache/index/) { get; } | Returns the index of this object in Parent |
+| [Name](../../aspose.cells.gridweb.data/pivotcache/name/) { get; } | Returns the name of PivotCache.Re |
+| [Parent](../../aspose.cells.gridweb.data/pivotcache/parent/) { get; } | Returns the parent object for the specified object(the container of PivotCache). Read-only. |
+| [SourceCellArea](../../aspose.cells.gridweb.data/pivotcache/sourcecellarea/) { get; } | Returns the range of the data source using with SourceSheet. |
+| [SourceSheet](../../aspose.cells.gridweb.data/pivotcache/sourcesheet/) { get; } | Returns the data source of WebWorksheet for the PivotTable report. |
+| [SourceType](../../aspose.cells.gridweb.data/pivotcache/sourcetype/) { get; } | Represents the type of the source data |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable#createpivottable)() | Creates PivotTable report to a new Sheet. |
-| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable#createpivottable_3)(string) | Creates PivotTable report to a new Sheet. The name of the pivotTable object |
-| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable#createpivottable_1)(WebWorksheet, WebCell) | Creates PivotTable report to the targetSheet. |
-| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable#createpivottable_2)(WebWorksheet, WebCell, string) | Creates PivotTable report to the targetSheet. |
-| override [Equals](../../aspose.cells.gridweb.data/pivotcache/equals)(object) | Determines whether two Object instances are equal. |
-| override [GetHashCode](../../aspose.cells.gridweb.data/pivotcache/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
-| [ResetDataSource](../../aspose.cells.gridweb.data/pivotcache/resetdatasource#resetdatasource_1)(DataTable) | Resets the source data |
-| [ResetDataSource](../../aspose.cells.gridweb.data/pivotcache/resetdatasource#resetdatasource_2)(DataView) | Resets the source data |
-| [ResetDataSource](../../aspose.cells.gridweb.data/pivotcache/resetdatasource#resetdatasource)(WebWorksheet, WebCellArea) | Resets the source data |
-| override [ToString](../../aspose.cells.gridweb.data/pivotcache/tostring)() | Returns a String that represents the current Object |
+| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable/#createpivottable)() | Creates PivotTable report to a new Sheet. |
+| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable/#createpivottable_3)(string) | Creates PivotTable report to a new Sheet. The name of the pivotTable object |
+| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable/#createpivottable_1)(WebWorksheet, WebCell) | Creates PivotTable report to the targetSheet. |
+| [CreatePivotTable](../../aspose.cells.gridweb.data/pivotcache/createpivottable/#createpivottable_2)(WebWorksheet, WebCell, string) | Creates PivotTable report to the targetSheet. |
+| override [Equals](../../aspose.cells.gridweb.data/pivotcache/equals/)(object) | Determines whether two Object instances are equal. |
+| override [GetHashCode](../../aspose.cells.gridweb.data/pivotcache/gethashcode/)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| [ResetDataSource](../../aspose.cells.gridweb.data/pivotcache/resetdatasource/#resetdatasource_1)(DataTable) | Resets the source data |
+| [ResetDataSource](../../aspose.cells.gridweb.data/pivotcache/resetdatasource/#resetdatasource_2)(DataView) | Resets the source data |
+| [ResetDataSource](../../aspose.cells.gridweb.data/pivotcache/resetdatasource/#resetdatasource)(WebWorksheet, WebCellArea) | Resets the source data |
+| override [ToString](../../aspose.cells.gridweb.data/pivotcache/tostring/)() | Returns a String that represents the current Object |
 
 ### Remarks
 
@@ -148,7 +148,7 @@ Uses the PivotCache method to return a PivotCache object for a PivotTable report
 
 ### See Also
 
-* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
 * assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

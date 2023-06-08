@@ -1,7 +1,7 @@
 ---
-title: SlicerCollection
+title: Class SlicerCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Specifies the collection of all the Slicer objects on the specified worksheet.
+description: Aspose.Cells.Slicers.SlicerCollection class. Specifies the collection of all the Slicer objects on the specified worksheet
 type: docs
 url: /net/aspose.cells.slicers/slicercollection/
 ---
@@ -17,51 +17,51 @@ public class SlicerCollection : CollectionBase<Slicer>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
-| [Item](../../aspose.cells.slicers/slicercollection/item) { get; } | Gets the Slicer by index. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.slicers/slicercollection/item/) { get; } | Gets the Slicer by index. (2 indexers) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_8)(ListObject, int, string) | Add a new Slicer using ListObjet as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_7)(ListObject, ListColumn, string) | Add a new Slicer using ListObjet as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_4)(PivotTable, string, int) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_3)(PivotTable, string, PivotField) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_5)(PivotTable, string, string) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_6)(ListObject, ListColumn, int, int) | Add a new Slicer using ListObjet as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_1)(PivotTable, int, int, int) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add)(PivotTable, int, int, PivotField) | Add a new Slicer using PivotTable as data source |
-| [Add](../../aspose.cells.slicers/slicercollection/add#add_2)(PivotTable, int, int, string) | Add a new Slicer using PivotTable as data source |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Slicer) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(Slicer, IComparer&lt;Slicer&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, Slicer, IComparer&lt;Slicer&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase-1/contains)(Slicer) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Slicer[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(Slicer[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, Slicer[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;Slicer&gt;) |  |
-| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;Slicer&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;Slicer&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;Slicer&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;Slicer&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;Slicer&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;Slicer&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;Slicer&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;Slicer&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;Slicer&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Slicer) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Slicer, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(Slicer, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Slicer) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Slicer, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(Slicer, int, int) |  |
-| [Remove](../../aspose.cells.slicers/slicercollection/remove)(Slicer) | Remove the specified Slicer |
-| [RemoveAt](../../aspose.cells.slicers/slicercollection/removeat#removeat)(int) | Deletes the Slicer at the specified index (2 methods) |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_8)(ListObject, int, string) | Add a new Slicer using ListObjet as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_7)(ListObject, ListColumn, string) | Add a new Slicer using ListObjet as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_4)(PivotTable, string, int) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_3)(PivotTable, string, PivotField) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_5)(PivotTable, string, string) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_6)(ListObject, ListColumn, int, int) | Add a new Slicer using ListObjet as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_1)(PivotTable, int, int, int) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add)(PivotTable, int, int, PivotField) | Add a new Slicer using PivotTable as data source |
+| [Add](../../aspose.cells.slicers/slicercollection/add/#add_2)(PivotTable, int, int, string) | Add a new Slicer using PivotTable as data source |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Slicer) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Slicer, IComparer&lt;Slicer&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Slicer, IComparer&lt;Slicer&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(Slicer) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Slicer[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Slicer[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, Slicer[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;Slicer&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;Slicer&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;Slicer&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;Slicer&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;Slicer&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;Slicer&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;Slicer&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;Slicer&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;Slicer&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;Slicer&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Slicer) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Slicer, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Slicer, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Slicer) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Slicer, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Slicer, int, int) |  |
+| [Remove](../../aspose.cells.slicers/slicercollection/remove/)(Slicer) | Remove the specified Slicer |
+| [RemoveAt](../../aspose.cells.slicers/slicercollection/removeat/#removeat)(int) | Deletes the Slicer at the specified index (2 methods) |
 
 ### Examples
 
@@ -180,9 +180,9 @@ book.Save("out_vb.xlsx")
 
 ### See Also
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [Slicer](../slicer)
-* namespace [Aspose.Cells.Slicers](../../aspose.cells.slicers)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [Slicer](../slicer/)
+* namespace [Aspose.Cells.Slicers](../../aspose.cells.slicers/)
 * assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

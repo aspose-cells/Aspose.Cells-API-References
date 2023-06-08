@@ -1,13 +1,13 @@
 ---
-title: Add
+title: GridValidationCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: Add a GridValidationaspose.cells.griddesktop.data/gridvalidation to the collection.
+description: GridValidationCollection method. Add a GridValidation to the collection
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_3}
 
-Add a [`GridValidation`](../../gridvalidation) to the collection.
+Add a [`GridValidation`](../../gridvalidation/) to the collection.
 
 ```csharp
 public int Add(GridValidation validation)
@@ -19,20 +19,20 @@ public int Add(GridValidation validation)
 
 ### Return Value
 
-[`GridValidation`](../../gridvalidation) object index.
+[`GridValidation`](../../gridvalidation/) object index.
 
 ### See Also
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add() {#add}
 
-Add a [`GridValidation`](../../gridvalidation) to the collection.
+Add a [`GridValidation`](../../gridvalidation/) to the collection.
 
 ```csharp
 public GridValidation Add()
@@ -40,20 +40,20 @@ public GridValidation Add()
 
 ### Return Value
 
-[`GridValidation`](../../gridvalidation) the added GridValidation instance.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
 ### See Also
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string) {#add_2}
 
-Add a [`GridValidation`](../../gridvalidation) to the collection.the validation is applied to the specificed cell.
+Add a [`GridValidation`](../../gridvalidation/) to the collection.the validation is applied to the specificed cell.
 
 ```csharp
 public GridValidation Add(string cellname)
@@ -65,20 +65,20 @@ public GridValidation Add(string cellname)
 
 ### Return Value
 
-[`GridValidation`](../../gridvalidation) the added GridValidation instance.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
 ### See Also
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int) {#add_1}
 
-Add a [`GridValidation`](../../gridvalidation) to the collection.the validation is applied to the specificed cell.
+Add a [`GridValidation`](../../gridvalidation/) to the collection.the validation is applied to the specificed cell.
 
 ```csharp
 public GridValidation Add(int row, int col)
@@ -91,13 +91,13 @@ public GridValidation Add(int row, int col)
 
 ### Return Value
 
-[`GridValidation`](../../gridvalidation) the added GridValidation instance.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
 ### See Also
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
@@ -118,8 +118,8 @@ public void Add(string cellName, bool isRequired, string regEx)
 
 ### See Also
 
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
@@ -140,9 +140,9 @@ public void Add(int row, int col, ICustomValidation customValidation)
 
 ### See Also
 
-* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
@@ -164,8 +164,8 @@ public void Add(int row, int col, bool isRequired, string regEx)
 
 ### See Also
 
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
@@ -185,9 +185,9 @@ public void Add(string cellName, ICustomValidation customValidation)
 
 ### See Also
 
-* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namespace [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
+* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,7 +1,7 @@
 ---
-title: Font
+title: Class Font
 second_title: Aspose.Cells for .NET API Reference
-description: Encapsulates the font object used in a spreadsheet.
+description: Aspose.Cells.Font class. Encapsulates the font object used in a spreadsheet
 type: docs
 url: /net/aspose.cells/font/
 ---
@@ -17,31 +17,31 @@ public class Font
 
 | Name | Description |
 | --- | --- |
-| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | Gets and sets the color with a 32-bit ARGB value. |
-| [CapsType](../../aspose.cells/font/capstype) { get; set; } | Gets and sets the text caps type. |
-| [Charset](../../aspose.cells/font/charset) { get; set; } | Represent the character set. |
-| [Color](../../aspose.cells/font/color) { get; set; } | Gets or sets the Color of the font. |
-| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | Gets and sets the double size of the font. |
-| [IsBold](../../aspose.cells/font/isbold) { get; set; } | Gets or sets a value indicating whether the font is bold. |
-| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | Gets or sets a value indicating whether the font is italic. |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | Indicates whether the normalization of height that is to be applied to the text run. |
-| [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | Gets or sets a value indicating whether the font is single strikeout. |
-| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | Gets or sets a value indicating whether the font is subscript. |
-| [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | Gets or sets a value indicating whether the font is super script. |
-| virtual [Name](../../aspose.cells/font/name) { get; set; } | Gets or sets the name of the [`Font`](../font). |
-| [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | Gets and sets the scheme type of the font. |
-| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | Gets and sets the script offset,in unit of percentage |
-| [Size](../../aspose.cells/font/size) { get; set; } | Gets or sets the size of the font. |
-| [StrikeType](../../aspose.cells/font/striketype) { get; set; } | Gets the strike type of the text. |
-| [ThemeColor](../../aspose.cells/font/themecolor) { get; set; } | Gets and sets the theme color. |
-| [Underline](../../aspose.cells/font/underline) { get; set; } | Gets or sets the font underline type. |
+| [ArgbColor](../../aspose.cells/font/argbcolor/) { get; set; } | Gets and sets the color with a 32-bit ARGB value. |
+| [CapsType](../../aspose.cells/font/capstype/) { get; set; } | Gets and sets the text caps type. |
+| [Charset](../../aspose.cells/font/charset/) { get; set; } | Represent the character set. |
+| [Color](../../aspose.cells/font/color/) { get; set; } | Gets or sets the Color of the font. |
+| [DoubleSize](../../aspose.cells/font/doublesize/) { get; set; } | Gets and sets the double size of the font. |
+| [IsBold](../../aspose.cells/font/isbold/) { get; set; } | Gets or sets a value indicating whether the font is bold. |
+| [IsItalic](../../aspose.cells/font/isitalic/) { get; set; } | Gets or sets a value indicating whether the font is italic. |
+| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights/) { get; set; } | Indicates whether the normalization of height that is to be applied to the text run. |
+| [IsStrikeout](../../aspose.cells/font/isstrikeout/) { get; set; } | Gets or sets a value indicating whether the font is single strikeout. |
+| [IsSubscript](../../aspose.cells/font/issubscript/) { get; set; } | Gets or sets a value indicating whether the font is subscript. |
+| [IsSuperscript](../../aspose.cells/font/issuperscript/) { get; set; } | Gets or sets a value indicating whether the font is super script. |
+| virtual [Name](../../aspose.cells/font/name/) { get; set; } | Gets or sets the name of the `Font`. |
+| [SchemeType](../../aspose.cells/font/schemetype/) { get; set; } | Gets and sets the scheme type of the font. |
+| [ScriptOffset](../../aspose.cells/font/scriptoffset/) { get; set; } | Gets and sets the script offset,in unit of percentage |
+| [Size](../../aspose.cells/font/size/) { get; set; } | Gets or sets the size of the font. |
+| [StrikeType](../../aspose.cells/font/striketype/) { get; set; } | Gets the strike type of the text. |
+| [ThemeColor](../../aspose.cells/font/themecolor/) { get; set; } | Gets and sets the theme color. |
+| [Underline](../../aspose.cells/font/underline/) { get; set; } | Gets or sets the font underline type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.cells/font/equals#equals)(Font) | Checks if two fonts are equals. |
-| override [ToString](../../aspose.cells/font/tostring)() | Returns a string represents the current Cell object. |
+| [Equals](../../aspose.cells/font/equals/#equals)(Font) | Checks if two fonts are equals. |
+| override [ToString](../../aspose.cells/font/tostring/)() | Returns a string represents the current Cell object. |
 
 ### Examples
 
@@ -106,7 +106,7 @@ workbook.Save("dest.xls")
 
 ### See Also
 
-* namespace [Aspose.Cells](../../aspose.cells)
+* namespace [Aspose.Cells](../../aspose.cells/)
 * assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

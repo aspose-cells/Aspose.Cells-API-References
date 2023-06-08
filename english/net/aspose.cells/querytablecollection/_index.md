@@ -1,13 +1,13 @@
 ---
-title: QueryTableCollection
+title: Class QueryTableCollection
 second_title: Aspose.Cells for .NET API Reference
-description: A collection of QueryTableCollection./querytablecollection objects that represent QueryTable collection information.
+description: Aspose.Cells.QueryTableCollection class. A collection of QueryTableCollection objects that represent QueryTable collection information
 type: docs
 url: /net/aspose.cells/querytablecollection/
 ---
 ## QueryTableCollection class
 
-A collection of [`QueryTableCollection`](../querytablecollection) objects that represent QueryTable collection information.
+A collection of `QueryTableCollection` objects that represent QueryTable collection information.
 
 ```csharp
 public class QueryTableCollection : CollectionBase<QueryTable>
@@ -17,47 +17,47 @@ public class QueryTableCollection : CollectionBase<QueryTable>
 
 | Name | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase-1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase-1/count) { get; } |  |
-| [Item](../../aspose.cells/querytablecollection/item) { get; } | Gets the querytable by the specific index. |
-| [Item](../../aspose.cells/collectionbase-1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/querytablecollection/item/) { get; } | Gets the querytable by the specific index. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(QueryTable) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(QueryTable, IComparer&lt;QueryTable&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch)(int, int, QueryTable, IComparer&lt;QueryTable&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase-1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase-1/contains)(QueryTable) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(QueryTable[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(QueryTable[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase-1/copyto)(int, QueryTable[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase-1/exists)(Predicate&lt;QueryTable&gt;) |  |
-| [Find](../../aspose.cells/collectionbase-1/find)(Predicate&lt;QueryTable&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase-1/findall)(Predicate&lt;QueryTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(Predicate&lt;QueryTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, Predicate&lt;QueryTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase-1/findindex)(int, int, Predicate&lt;QueryTable&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase-1/findlast)(Predicate&lt;QueryTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(Predicate&lt;QueryTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, Predicate&lt;QueryTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex)(int, int, Predicate&lt;QueryTable&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(QueryTable) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(QueryTable, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase-1/indexof)(QueryTable, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(QueryTable) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(QueryTable, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof)(QueryTable, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase-1/removeat)(int) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(QueryTable) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(QueryTable, IComparer&lt;QueryTable&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, QueryTable, IComparer&lt;QueryTable&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(QueryTable) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(QueryTable[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(QueryTable[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, QueryTable[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;QueryTable&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;QueryTable&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;QueryTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;QueryTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;QueryTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;QueryTable&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;QueryTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;QueryTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;QueryTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;QueryTable&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(QueryTable) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(QueryTable, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(QueryTable, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(QueryTable) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(QueryTable, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(QueryTable, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
 ### See Also
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [QueryTable](../querytable)
-* namespace [Aspose.Cells](../../aspose.cells)
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [QueryTable](../querytable/)
+* namespace [Aspose.Cells](../../aspose.cells/)
 * assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
