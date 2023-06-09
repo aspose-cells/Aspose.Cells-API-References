@@ -17,7 +17,7 @@ Represents all the shape in a worksheet/chart.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //get ShapeCollection
@@ -122,7 +122,7 @@ Creates an Activex Control.
 **Example**
 
 ```
-//add an ActiveX control
+         //add an ActiveX control
          Shape activeXControl = shapes.addActiveXControl(com.aspose.cells.ControlType.CHECK_BOX, 1, 0, 1, 0, 100, 50);
 ```
 
@@ -150,7 +150,7 @@ Adds a ArcShape to the worksheet.
 **Example**
 
 ```
-//add a arc
+         //add a arc
          ArcShape arcShape = shapes.addArc(1, 0, 1, 0, 100, 50);
 ```
 
@@ -177,7 +177,7 @@ Adds a AutoShape to the worksheet. The type could not be Chart/Comment/Picture/O
 **Example**
 
 ```
-//Adds a AutoShape to the worksheet.
+         //Adds a AutoShape to the worksheet.
          Shape autoShape = shapes.addAutoShape(AutoShapeType.CUBE, 1, 0, 1, 0, 100, 50);
 ```
 
@@ -224,7 +224,7 @@ Adds a Button to the worksheet.
 **Example**
 
 ```
-//add a button
+         //add a button
          Button button = shapes.addButton(1, 0, 1, 0, 100, 50);
 ```
 
@@ -251,7 +251,7 @@ Adds a checkbox to the worksheet.
 **Example**
 
 ```
-//add a CheckBox
+         //add a CheckBox
          CheckBox checkBox = shapes.addCheckBox(1, 0, 1, 0, 100, 50);
 ```
 
@@ -278,7 +278,7 @@ Adds a ComboBox to the worksheet.
 **Example**
 
 ```
-//add a combo box
+         //add a combo box
          ComboBox comboBox = shapes.addComboBox(1, 0, 1, 0, 100, 50);
 ```
 
@@ -305,7 +305,7 @@ Adds and copy a shape to the worksheet.
 **Example**
 
 ```
-//add a shape
+         //add a shape
          RectangleShape rectangle = shapes.addRectangle(2, 0, 2, 0, 130, 130);
          //copy
          shapes.addCopy(rectangle, 7, 0, 7, 0);
@@ -353,7 +353,7 @@ Adds a free floating shape to the worksheet.Only applies for line/image shape.
 **Example**
 
 ```
-//add a line
+         //add a line
          Shape floatingShape_Line = shapes.addFreeFloatingShape(MsoDrawingType.LINE, 100, 100, 100, 50, null, false);
          //add a picture
          byte[] imageData = null;
@@ -392,7 +392,7 @@ Adds a GroupBox to the worksheet.
 **Example**
 
 ```
-//add a group box
+         //add a group box
          GroupBox groupBox = shapes.addGroupBox(1, 0, 1, 0, 100, 50);
 ```
 
@@ -419,7 +419,7 @@ Adds svg image.
 **Example**
 
 ```
-//add icon
+         //add icon
          FileInputStream fs = new FileInputStream("icon.svg");
          try //JAVA: was using
          {
@@ -456,7 +456,7 @@ Adds a Label to the worksheet.
 **Example**
 
 ```
-//add a label
+         //add a label
          Label label = shapes.addLabel(1, 0, 1, 0, 100, 50);
 ```
 
@@ -501,7 +501,7 @@ Adds a LineShape to the worksheet.
 **Example**
 
 ```
-// add a line object
+         // add a line object
          LineShape lineShape = shapes.addLine(1, 0, 1, 0, 100, 50);
 ```
 
@@ -547,7 +547,7 @@ Adds a ListBox to the worksheet.
 **Example**
 
 ```
-//add a list box
+         //add a list box
          ListBox listBox = shapes.addListBox(1, 0, 1, 0, 100, 50);
 ```
 
@@ -574,7 +574,7 @@ Adds an OleObject.
 **Example**
 
 ```
-FileInputStream fs = new FileInputStream("image.jpg");
+         FileInputStream fs = new FileInputStream("image.jpg");
          try //JAVA: was using
          {
              int len = (int)fs.available();
@@ -628,7 +628,7 @@ Adds a Oval to the worksheet.
 **Example**
 
 ```
-//add a oval
+         //add a oval
          Oval oval = shapes.addOval(1, 0, 1, 0, 50, 50);
 ```
 
@@ -712,7 +712,7 @@ Adds a RadioButton to the worksheet.
 **Example**
 
 ```
-//add a radio button
+         //add a radio button
          RadioButton radioButton = shapes.addRadioButton(1, 0, 1, 0, 100, 50);
 ```
 
@@ -739,7 +739,7 @@ Adds a RectangleShape to the worksheet.
 **Example**
 
 ```
-// add a rectangle
+         // add a rectangle
          RectangleShape rectangleShape = shapes.addRectangle(2, 0, 2, 0, 130, 130);
 ```
 
@@ -766,7 +766,7 @@ Adds a ScrollBar to the worksheet.
 **Example**
 
 ```
-//add a scroll bar
+         //add a scroll bar
          ScrollBar scrollBar = shapes.addScrollBar(1, 0, 1, 0, 100, 50);
 ```
 
@@ -793,7 +793,7 @@ Adds a Shape to the worksheet. The type could not be Chart/Comment/Picture/OleOb
 **Example**
 
 ```
-//Add a shape of the specified type
+         //Add a shape of the specified type
          Shape shapeByType = shapes.addShape(MsoDrawingType.CELLS_DRAWING, 1, 0, 1, 0, 100, 50);
 ```
 
@@ -903,7 +903,7 @@ Adds a Spinner to the worksheet.
 **Example**
 
 ```
-//add a spinner
+         //add a spinner
          Spinner spinner = shapes.addSpinner(1, 0, 1, 0, 100, 50);
 ```
 
@@ -930,7 +930,7 @@ Adds svg image.
 **Example**
 
 ```
-// add a svg
+         // add a svg
          FileInputStream fs = new FileInputStream("image.svg");
          try //JAVA: was using
          {
@@ -967,7 +967,7 @@ Adds a text box to the worksheet.
 **Example**
 
 ```
-//add a TextBox
+         //add a TextBox
          TextBox textBox = shapes.addTextBox(1, 0, 1, 0, 100, 50);
 ```
 
@@ -1012,7 +1012,7 @@ Inserts a WordArt object.
 **Example**
 
 ```
-//add a WordArt
+         //add a WordArt
          Shape wordArt1 = shapes.addTextEffect(MsoPresetTextEffect.TEXT_EFFECT_10, "WordArt", "arial", 18, false, false, 3, 0, 3, 0, 200, 50);
 ```
 
@@ -1069,7 +1069,7 @@ Adds preset WordArt since Excel 2007.s
 **Example**
 
 ```
-//add a WordArt
+         //add a WordArt
          Shape wordArt2 = shapes.addWordArt(PresetWordArtStyle.WORD_ART_STYLE_1, "WordArt", 3, 0, 3, 0, 50, 200);
 ```
 
@@ -1098,7 +1098,7 @@ Clear all shapes.
 **Example**
 
 ```
-if (shapes.getCount() > 0)
+         if (shapes.getCount() > 0)
          {
              shapes.clear();
          }
@@ -1130,7 +1130,7 @@ Copy all comments in the range.
 **Example**
 
 ```
-CommentCollection comments = workbook.getWorksheets().get(0).getComments();
+         CommentCollection comments = workbook.getWorksheets().get(0).getComments();
  
          //Add comment to cell A1
          int commentIndex = comments.add(0, 0);
@@ -1172,7 +1172,7 @@ Copy shapes in the range to destination range.
 **Example**
 
 ```
-//add a shape
+         //add a shape
          shapes.addRectangle(2, 0, 2, 0, 130, 130);
          CellArea area2 = new CellArea();
          area2.StartColumn = 1;
@@ -1204,7 +1204,7 @@ Delete shapes in the range.Comment shapes will not be deleted.
 **Example**
 
 ```
-//add first shape
+         //add first shape
          shapes.addRectangle(2, 0, 2, 0, 50, 50);
          //add second shape
          shapes.addRectangle(6, 0, 2, 0, 30, 30);
@@ -1235,7 +1235,7 @@ Delete a shape. If the shape is in the group or is a comment shape, it will not 
 **Example**
 
 ```
-//add first shape
+         //add first shape
          Shape firstShape = shapes.addRectangle(2, 0, 2, 0, 50, 50);
          //add second shape
          Shape secondShape = shapes.addRectangle(6, 0, 2, 0, 30, 30);
@@ -1274,7 +1274,7 @@ Gets the shape object at the specific index.
 **Example**
 
 ```
-//get the shape
+         //get the shape
          Shape shape = shapes.get(shapes.getCount() -1);
 ```
 
@@ -1296,7 +1296,7 @@ Gets the shape object by the shape image
 **Example**
 
 ```
-//add a shape
+         //add a shape
          shapes.addRectangle(2, 0, 2, 0, 130, 130);
          //get the shape
          Shape shape1 = shapes.get("Rectangle 1");
@@ -1344,7 +1344,7 @@ Group the shapes. The shape in the groupItems should not be grouped. The shape m
 **Example**
 
 ```
-//add first shape
+         //add first shape
          shapes.addRectangle(2, 0, 2, 0, 50, 50);
          //add second shape
          shapes.addRectangle(6, 0, 2, 0, 30, 30);
@@ -1422,7 +1422,7 @@ Remove the shape.
 **Example**
 
 ```
-//add first shape
+         //add first shape
          shapes.addRectangle(2, 0, 2, 0, 50, 50);
          //add second shape
          shapes.addRectangle(6, 0, 2, 0, 30, 30);
@@ -1452,7 +1452,7 @@ Remove the shape.
 **Example**
 
 ```
-//add first shape
+         //add first shape
          shapes.addRectangle(2, 0, 2, 0, 50, 50);
          //add second shape
          shapes.addRectangle(6, 0, 2, 0, 30, 30);
@@ -1487,7 +1487,7 @@ Ungroups the shape items. If the group shape is grouped by another group shape,n
 **Example**
 
 ```
-//add first shape
+         //add first shape
          shapes.addRectangle(2, 0, 2, 0, 50, 50);
          //add second shape
          shapes.addRectangle(6, 0, 2, 0, 30, 30);

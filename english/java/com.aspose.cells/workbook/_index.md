@@ -19,7 +19,7 @@ Represents a root object to create an Excel spreadsheet. The Workbook class deno
 The following example loads a Workbook from an Excel file named designer.xls and makes the horizontal and vertical scroll bars invisible. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally save the workbook as Excel xlsx file.
 
 ```
-//Open a designer file
+         //Open a designer file
          String designerFile = "designer.xls";
          Workbook workbook = new Workbook(designerFile);
  
@@ -162,7 +162,7 @@ Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) cl
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class.
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
 ```
 
 ### Workbook(int fileFormatType) {#Workbook-int-}
@@ -178,7 +178,7 @@ Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) cl
 The following code shows how to use the Workbook constructor to create and initialize a new instance of the class with various file format type.
 
 ```
-Workbook workbook = new Workbook(FileFormatType.XLSX);
+         Workbook workbook = new Workbook(FileFormatType.XLSX);
 ```
 
 **Parameters:**
@@ -574,7 +574,7 @@ Export XML data linked by the specified XML map.
 The following code exported the data linked by the first XmlMap.
 
 ```
-Workbook wb = new Workbook("Book1.xlsx");
+         Workbook wb = new Workbook("Book1.xlsx");
  
          //Make sure that the source xlsx file contains a XmlMap.
          XmlMap xmlMap = wb.getWorksheets().getXmlMaps().get(0);
@@ -665,7 +665,7 @@ Number of Multimedia Clips
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          DocumentProperty doc = workbook.getBuiltInDocumentProperties().get("Author");
          doc.setValue("John Smith");
 ```
@@ -733,7 +733,7 @@ Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
          excel.getCustomDocumentProperties().add("Checked by", "Jane");
 ```
 
@@ -792,7 +792,7 @@ Gets the default [Style](../../com.aspose.cells/style) object of the workbook. T
 The following code creates and instantiates a new Workbook and sets a default [Style](../../com.aspose.cells/style) to it.
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Style defaultStyle = workbook.getDefaultStyle();
          defaultStyle.getFont().setName("Tahoma");
          workbook.setDefaultStyle(defaultStyle);
@@ -1029,7 +1029,7 @@ Imports/Updates an XML data file into the workbook.
 The following code imports xml data into worksheet 'Sheet 1' at Cell A1.
 
 ```
-Workbook wb = new Workbook("Book1.xlsx");
+         Workbook wb = new Workbook("Book1.xlsx");
  
          wb.importXml("xml.xml", "Sheet1", 0, 0);
  
@@ -1255,7 +1255,7 @@ Replaces a cell's value with a new double.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          //......
          double newValue = 100.0;
          workbook.replace("AnOldValue", newValue);
@@ -1280,7 +1280,7 @@ Replaces cells' values with a double array.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          //......
          double[] newValues = new double[]{1.23, 2.56, 3.14159};
          workbook.replace("AnOldValue", newValues, true);
@@ -1306,7 +1306,7 @@ Replaces a cell's value with a new integer.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          //......
          int newValue = 100;
          workbook.replace("AnOldValue", newValue);
@@ -1331,7 +1331,7 @@ Replaces cells' values with an integer array.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          //......
          int[] newValues = new int[]{1, 2, 3};
          workbook.replace("AnOldValue", newValues, true);
@@ -1357,7 +1357,7 @@ Replaces a cell's value with a new string.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          //......
          workbook.replace("AnOldValue", "NewValue");
 ```
@@ -1398,7 +1398,7 @@ Replaces a cell's value with a new string array.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          //......
          String[] newValues = new String[]{"Tom", "Alice", "Jerry"};
          workbook.replace("AnOldValue", newValues, true);

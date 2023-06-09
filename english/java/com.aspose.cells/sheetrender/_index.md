@@ -101,7 +101,7 @@ Gets calculated page scale of the sheet. Returns the set scale if [PageSetup.get
 **Example**
 
 ```
-Workbook wb = new Workbook("Book1.xlsx");
+         Workbook wb = new Workbook("Book1.xlsx");
  
          SheetRender sheetRender = new SheetRender(wb.getWorksheets().get(0), new ImageOrPrintOptions());
  
@@ -193,7 +193,7 @@ Render certain page to a file.
 The following code outputs the first page of the first sheet to png image.
 
 ```
-//load the source file with images.
+         //load the source file with images.
          Workbook wb = new Workbook("Book1.xlsx");
  
          ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();

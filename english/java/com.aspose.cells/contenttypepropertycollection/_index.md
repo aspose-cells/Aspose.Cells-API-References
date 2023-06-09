@@ -17,7 +17,7 @@ A collection of [ContentTypeProperty](../../com.aspose.cells/contenttypeproperty
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          //Add a new property.
           workbook.getContentTypeProperties().add("Admin", "Aspose", "text");

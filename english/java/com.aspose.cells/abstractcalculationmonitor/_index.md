@@ -17,7 +17,7 @@ Monitor for user to track the progress of formula calculation.
 **Example**
 
 ```
-class MyCalculationMonitor extends AbstractCalculationMonitor
+         class MyCalculationMonitor extends AbstractCalculationMonitor
          {
              public /*override*/ void beforeCalculate(int sheetIndex, int rowIndex, int colIndex)
              {

@@ -17,7 +17,7 @@ Encapsulates the object that represents the floor of a 3-D chart.
 **Example**
 
 ```
-//Instantiate the License class
+         //Instantiate the License class
          License license = new License();
  
          //Pass only the name of the license file embedded in the assembly
@@ -178,7 +178,7 @@ If the property is true and the value of chart point is a negative number, the f
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          //Adding a new worksheet to the Workbook object
          int sheetIndex = workbook.getWorksheets().add();

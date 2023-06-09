@@ -17,7 +17,7 @@ Represents user's custom calculation engine to extend the default calculation en
 **Example**
 
 ```
-class MyEngine extends GridAbstractCalculationEngine
+          class MyEngine extends GridAbstractCalculationEngine
          {
              public /*override*/ void calculate(GridCalculationData data)
              {

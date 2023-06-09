@@ -17,7 +17,7 @@ Encapsulates a collection of [Hyperlink](../../com.aspose.cells/hyperlink) objec
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //Obtaining the reference of the newly added worksheet by passing its sheet index
@@ -67,7 +67,7 @@ Adds a hyperlink to a specified cell or a range of cells.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook excel = new Workbook();
          Worksheet worksheet = excel.getWorksheets().get(0);
          worksheet.getHyperlinks().add("A4", 1, 1, "http://www.aspose.com");

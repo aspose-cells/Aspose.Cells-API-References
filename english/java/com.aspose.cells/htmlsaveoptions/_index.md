@@ -18,7 +18,7 @@ Represents the options for saving html file.
 | Constructor | Description |
 | --- | --- |
 | [HtmlSaveOptions()](#HtmlSaveOptions--) | Creates options for saving html file. |
-| [HtmlSaveOptions(int format)](#HtmlSaveOptions-int-) | Creates options for saving htm file. |
+| [HtmlSaveOptions(int saveFormat)](#HtmlSaveOptions-int-) | Creates options for saving htm file. |
 ## Methods
 
 | Method | Description |
@@ -170,9 +170,9 @@ public HtmlSaveOptions()
 
 Creates options for saving html file.
 
-### HtmlSaveOptions(int format) {#HtmlSaveOptions-int-}
+### HtmlSaveOptions(int saveFormat) {#HtmlSaveOptions-int-}
 ```
-public HtmlSaveOptions(int format)
+public HtmlSaveOptions(int saveFormat)
 ```
 
 
@@ -181,7 +181,7 @@ Creates options for saving htm file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | [SaveFormat](../../com.aspose.cells/saveformat). The saving file format. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be one of following types: [SaveFormat.HTML](../../com.aspose.cells/saveformat\#HTML), [SaveFormat.M\_HTML](../../com.aspose.cells/saveformat\#M-HTML), or [SaveFormat.X\_HTML](../../com.aspose.cells/saveformat\#X-HTML), otherwise the saved format will be set as [SaveFormat.HTML](../../com.aspose.cells/saveformat\#HTML) automatically. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

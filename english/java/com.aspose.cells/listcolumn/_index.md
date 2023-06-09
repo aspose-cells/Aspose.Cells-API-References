@@ -17,7 +17,7 @@ Represents a column in a Table.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
          for (int i = 0; i  ? i++)
          {
@@ -47,6 +47,7 @@ Workbook workbook = new Workbook();
 | [getClass()](#getClass--) |  |
 | [getCustomCalculatedFormula(boolean isR1C1, boolean isLocal)](#getCustomCalculatedFormula-boolean-boolean-) | Gets the formula of this list column. |
 | [getCustomTotalsRowFormula(boolean isR1C1, boolean isLocal)](#getCustomTotalsRowFormula-boolean-boolean-) | Gets the formula of totals row of this list column. |
+| [getDataStyle()](#getDataStyle--) | Gets the style of the data in this column of the table. |
 | [getFormula()](#getFormula--) | Gets the formula of the list column. |
 | [getName()](#getName--) | Gets the name of the column. |
 | [getRange()](#getRange--) | Gets the range of this list column. |
@@ -57,6 +58,7 @@ Workbook workbook = new Workbook();
 | [notifyAll()](#notifyAll--) |  |
 | [setCustomCalculatedFormula(String formula, boolean isR1C1, boolean isLocal)](#setCustomCalculatedFormula-java.lang.String-boolean-boolean-) | Sets the formula for this list column. |
 | [setCustomTotalsRowFormula(String formula, boolean isR1C1, boolean isLocal)](#setCustomTotalsRowFormula-java.lang.String-boolean-boolean-) | Gets the formula of totals row of this list column. |
+| [setDataStyle(Style style)](#setDataStyle-com.aspose.cells.Style-) | Sets the style of the data in this column of the table. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets the formula of the list column. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the column. |
 | [setTotalsCalculation(int value)](#setTotalsCalculation-int-) | Sets the type of calculation in the Totals row of the list column. |
@@ -122,6 +124,16 @@ Gets the formula of totals row of this list column.
 
 **Returns:**
 java.lang.String - The formula of this list column.
+### getDataStyle() {#getDataStyle--}
+```
+public Style getDataStyle()
+```
+
+
+Gets the style of the data in this column of the table.
+
+**Returns:**
+[Style](../../com.aspose.cells/style)
 ### getFormula() {#getFormula--}
 ```
 public String getFormula()
@@ -227,6 +239,19 @@ Gets the formula of totals row of this list column.
 | formula | java.lang.String | the formula for this list column. |
 | isR1C1 | boolean | Whether the formula needs to be formatted as R1C1. |
 | isLocal | boolean | Whether the formula needs to be formatted by locale. |
+
+### setDataStyle(Style style) {#setDataStyle-com.aspose.cells.Style-}
+```
+public void setDataStyle(Style style)
+```
+
+
+Sets the style of the data in this column of the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.cells/style) |  |
 
 ### setFormula(String value) {#setFormula-java.lang.String-}
 ```

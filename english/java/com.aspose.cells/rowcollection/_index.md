@@ -20,7 +20,7 @@ Collects the [Row](../../com.aspose.cells/row) objects that represent the indivi
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //Obtaining the reference of the first worksheet
@@ -142,7 +142,7 @@ Gets an enumerator that iterates rows through this collection
 **Example**
 
 ```
-Workbook workbook = new Workbook("template.xlsx");
+         Workbook workbook = new Workbook("template.xlsx");
          	Cells cells = workbook.getWorksheets().get(0).getCells();
  
          	Iterator en = cells.getRows().iterator();

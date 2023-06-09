@@ -17,7 +17,7 @@ Represent the signature line.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          Worksheet worksheet = workbook.getWorksheets().get(0);
  
@@ -105,7 +105,7 @@ Indicates whether comments could be attached.
 **Example**
 
 ```
-if(s.getAllowComments())
+         if(s.getAllowComments())
          {
              // Comments could be attached.
          }
@@ -134,7 +134,7 @@ Gets the email of singer.
 **Example**
 
 ```
-// Create signature line object
+         // Create signature line object
          SignatureLine s5 = new SignatureLine();
          s5.setEmail("Simon.Zhao@aspose.com");
 ```
@@ -152,7 +152,7 @@ Gets identifier for this signature line.
 **Example**
 
 ```
-// Create signature line object
+         // Create signature line object
          SignatureLine s1 = new SignatureLine();
          s1.setId(java.util.UUID.randomUUID());
 ```
@@ -170,7 +170,7 @@ Gets the text shown to user at signing time.
 **Example**
 
 ```
-// Create signature line object
+         // Create signature line object
          SignatureLine s6 = new SignatureLine();
          s6.setInstructions("Just do it.");
 ```
@@ -188,7 +188,7 @@ Gets the id of signature provider. It's typically the CLSID of the provider com 
 **Example**
 
 ```
-// Create signature line object
+         // Create signature line object
          SignatureLine s2 = new SignatureLine();
          s2.setProviderId(java.util.UUID.randomUUID());
 ```
@@ -206,7 +206,7 @@ Indicates whether show signed date.
 **Example**
 
 ```
-if(s.getShowSignedDate())
+         if(s.getShowSignedDate())
          {
              //Show signed date.
          }
@@ -225,7 +225,7 @@ Gets the signer.
 **Example**
 
 ```
-// Create signature line object
+         // Create signature line object
          SignatureLine s3 = new SignatureLine();
          s3.setSigner("Mr xxx");
 ```
@@ -243,7 +243,7 @@ Gets the title of singer.
 **Example**
 
 ```
-// Create signature line object
+         // Create signature line object
          SignatureLine s4 = new SignatureLine();
          s4.setTitle("Development Lead");
 ```
@@ -271,7 +271,7 @@ Indicates whether it is a signature line.
 **Example**
 
 ```
-if(s.isLine())
+         if(s.isLine())
          {
              //Is line.
          }

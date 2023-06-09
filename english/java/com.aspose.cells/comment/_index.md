@@ -17,7 +17,7 @@ Encapsulates the object that represents a cell comment.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          CommentCollection comments = workbook.getWorksheets().get(0).getComments();
  
          //Add comment to cell A1
@@ -97,7 +97,7 @@ Returns a Characters object that represents a range of characters within the com
 **Example**
 
 ```
-FontSetting fontSetting = comment1.characters(0, 4);
+         FontSetting fontSetting = comment1.characters(0, 4);
 ```
 
 **Parameters:**
@@ -150,7 +150,7 @@ Gets Name of the original comment author
 **Example**
 
 ```
-comment1.setAuthor("Carl.Yang");
+         comment1.setAuthor("Carl.Yang");
 ```
 
 **Returns:**
@@ -166,7 +166,7 @@ Indicates if size of comment is adjusted automatically according to its content.
 **Example**
 
 ```
-if(!comment1.getAutoSize())
+         if(!comment1.getAutoSize())
          {
              //The size of the comment varies with the content
              comment1.setAutoSize(true);
@@ -186,7 +186,7 @@ Returns all Characters objects that represents a range of characters within the 
 **Example**
 
 ```
-ArrayList list = comment1.getCharacters();
+         ArrayList list = comment1.getCharacters();
 ```
 
 **Returns:**
@@ -212,7 +212,7 @@ Gets the column index of the comment.
 **Example**
 
 ```
-int column = comment1.getColumn();
+         int column = comment1.getColumn();
 ```
 
 **Returns:**
@@ -228,7 +228,7 @@ Get a Shape object that represents the shape attached to the specified comment.
 **Example**
 
 ```
-CommentShape shape = comment1.getCommentShape();
+         CommentShape shape = comment1.getCommentShape();
          int w = shape.getWidth();
          int h = shape.getHeight();
 ```
@@ -246,7 +246,7 @@ Gets the font of comment.
 **Example**
 
 ```
-Font font = comment1.getFont();
+         Font font = comment1.getFont();
          font.setSize(12);
 ```
 
@@ -263,7 +263,7 @@ Represents the Height of the comment, in unit of pixels.
 **Example**
 
 ```
-comment1.setHeight(10);
+         comment1.setHeight(10);
 ```
 
 **Returns:**
@@ -279,7 +279,7 @@ Represents the height of the comment, in unit of centimeters.
 **Example**
 
 ```
-comment1.setHeightCM(1.0);
+         comment1.setHeightCM(1.0);
 ```
 
 **Returns:**
@@ -295,7 +295,7 @@ Represents the height of the comment, in unit of inches.
 **Example**
 
 ```
-comment1.setHeightInch(1.0);
+         comment1.setHeightInch(1.0);
 ```
 
 **Returns:**
@@ -311,7 +311,7 @@ Gets the html string which contains data and some formats in this comment. If th
 **Example**
 
 ```
-comment1.setHtmlNote("<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>");
+         comment1.setHtmlNote("<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>");
 ```
 
 **Returns:**
@@ -327,7 +327,7 @@ Represents the content of comment. If this is a threaded comment, the note could
 **Example**
 
 ```
-comment1.setNote("First note.");
+         comment1.setNote("First note.");
 ```
 
 **Returns:**
@@ -343,7 +343,7 @@ Gets the row index of the comment.
 **Example**
 
 ```
-int row = comment1.getRow();
+         int row = comment1.getRow();
 ```
 
 **Returns:**
@@ -359,7 +359,7 @@ Gets the text horizontal alignment type of the comment. [TextAlignmentType](../.
 **Example**
 
 ```
-if (comment1.getTextHorizontalAlignment() ==  TextAlignmentType.FILL)
+         if (comment1.getTextHorizontalAlignment() ==  TextAlignmentType.FILL)
          {
              comment1.setTextHorizontalAlignment(TextAlignmentType.CENTER);
          }
@@ -378,7 +378,7 @@ Gets the text orientation type of the comment. [TextOrientationType](../../com.a
 **Example**
 
 ```
-if(comment1.getTextOrientationType() == TextOrientationType.NO_ROTATION)
+         if(comment1.getTextOrientationType() == TextOrientationType.NO_ROTATION)
          {
              comment1.setTextOrientationType(TextOrientationType.TOP_TO_BOTTOM);
          }
@@ -397,7 +397,7 @@ Gets the text vertical alignment type of the comment. [TextAlignmentType](../../
 **Example**
 
 ```
-if (comment1.getTextVerticalAlignment() ==  TextAlignmentType.FILL)
+         if (comment1.getTextVerticalAlignment() ==  TextAlignmentType.FILL)
          {
              comment1.setTextVerticalAlignment(TextAlignmentType.CENTER);
          }
@@ -416,7 +416,7 @@ Gets the list of threaded comments;
 **Example**
 
 ```
-ThreadedCommentCollection threadedComments = comment1.getThreadedComments();
+         ThreadedCommentCollection threadedComments = comment1.getThreadedComments();
          for (int i = 0; i <threadedComments.getCount(); ++i)
          {
              ThreadedComment tc = threadedComments.get(i);
@@ -437,7 +437,7 @@ Represents the width of the comment, in unit of pixels.
 **Example**
 
 ```
-comment1.setWidth(10);
+         comment1.setWidth(10);
 ```
 
 **Returns:**
@@ -453,7 +453,7 @@ Represents the width of the comment, in unit of centimeters.
 **Example**
 
 ```
-comment1.setWidthCM(1.0);
+         comment1.setWidthCM(1.0);
 ```
 
 **Returns:**
@@ -469,7 +469,7 @@ Represents the width of the comment, in unit of inches.
 **Example**
 
 ```
-comment1.setWidthInch(1.0);
+         comment1.setWidthInch(1.0);
 ```
 
 **Returns:**
@@ -495,7 +495,7 @@ Indicates whether this comment is a threaded comment.
 **Example**
 
 ```
-if(comment1.isThreadedComment())
+         if(comment1.isThreadedComment())
          {
              //This comment is a threaded comment.
          }
@@ -514,7 +514,7 @@ Represents if the comment is visible or not.
 **Example**
 
 ```
-if(comment1.isVisible())
+         if(comment1.isVisible())
          {
              //The comment is visible
          }

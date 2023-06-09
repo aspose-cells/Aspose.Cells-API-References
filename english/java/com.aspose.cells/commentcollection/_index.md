@@ -17,7 +17,7 @@ Encapsulates a collection of [Comment](../../com.aspose.cells/comment) objects.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
  
          CommentCollection comments = workbook.getWorksheets().get(0).getComments();
  
@@ -65,7 +65,7 @@ Adds a comment to the collection.
 **Example**
 
 ```
-int commentIndex1 = comments.add(0, 0);
+         int commentIndex1 = comments.add(0, 0);
          Comment comment1 = comments.get(commentIndex1);
          comment1.setNote("First note.");
          comment1.getFont().setName("Times New Roman");
@@ -105,7 +105,7 @@ Adds a comment to the collection.
 **Example**
 
 ```
-int commentIndex2 = comments.add("B2");
+         int commentIndex2 = comments.add("B2");
          Comment comment2 = comments.get(commentIndex2);
          comment2.setNote("Second note.");
          comment2.getFont().setName("Times New Roman");
@@ -164,7 +164,7 @@ Removes all comments;
 **Example**
 
 ```
-comments.clear();
+         comments.clear();
 ```
 
 ### contains(Object o) {#contains-java.lang.Object-}
@@ -208,7 +208,7 @@ Gets the [Comment](../../com.aspose.cells/comment) element at the specified inde
 **Example**
 
 ```
-Comment comment3 = comments.get(0);
+         Comment comment3 = comments.get(0);
          comment3.setNote("Three note.");
 ```
 
@@ -230,7 +230,7 @@ Gets the [Comment](../../com.aspose.cells/comment) element at the specified row 
 **Example**
 
 ```
-Comment comment5 = comments.get(1,1);
+         Comment comment5 = comments.get(1,1);
          comment5.setNote("Five note.");
 ```
 
@@ -253,7 +253,7 @@ Gets the [Comment](../../com.aspose.cells/comment) element at the specified cell
 **Example**
 
 ```
-Comment comment4 = comments.get("B2");
+         Comment comment4 = comments.get("B2");
          comment4.setNote("Four note.");
 ```
 
@@ -295,7 +295,7 @@ Gets the threaded comments by row and column index.
 **Example**
 
 ```
-ThreadedCommentCollection threadedComments1 = comments.getThreadedComments(1, 1);
+         ThreadedCommentCollection threadedComments1 = comments.getThreadedComments(1, 1);
          for (int i = 0; i <threadedComments1.getCount(); ++i)
          {
              ThreadedComment tc = threadedComments1.get(i);
@@ -322,7 +322,7 @@ Gets the threaded comments by cell name.
 **Example**
 
 ```
-ThreadedCommentCollection threadedComments2 = comments.getThreadedComments("B2");
+         ThreadedCommentCollection threadedComments2 = comments.getThreadedComments("B2");
          for (int i = 0; i <threadedComments2.getCount(); ++i)
          {
              ThreadedComment tc = threadedComments2.get(i);
@@ -412,7 +412,7 @@ Removes the comment of the specific cell.
 **Example**
 
 ```
-comments.removeAt(1,1);
+         comments.removeAt(1,1);
 ```
 
 **Parameters:**
@@ -432,7 +432,7 @@ Removes the comment of the specific cell.
 **Example**
 
 ```
-comments.removeAt("B2");
+         comments.removeAt("B2");
 ```
 
 **Parameters:**

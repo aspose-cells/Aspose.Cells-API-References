@@ -17,8 +17,8 @@ Represents the save options for the Excel 97-2003 file format: xls and xlt.
 
 | Constructor | Description |
 | --- | --- |
-| [XlsSaveOptions()](#XlsSaveOptions--) | Creates options for saving Excel 97-2003 xls/xlt file. |
-| [XlsSaveOptions(int format)](#XlsSaveOptions-int-) | Creates options for saving Excel 97-2003 xls/xlt file. |
+| [XlsSaveOptions()](#XlsSaveOptions--) | Creates options for saving Excel 97-2003 xls file. |
+| [XlsSaveOptions(int saveFormat)](#XlsSaveOptions-int-) | Creates options for saving Excel 97-2003 xls/xlt file. |
 ## Methods
 
 | Method | Description |
@@ -65,11 +65,11 @@ public XlsSaveOptions()
 ```
 
 
-Creates options for saving Excel 97-2003 xls/xlt file.
+Creates options for saving Excel 97-2003 xls file.
 
-### XlsSaveOptions(int format) {#XlsSaveOptions-int-}
+### XlsSaveOptions(int saveFormat) {#XlsSaveOptions-int-}
 ```
-public XlsSaveOptions(int format)
+public XlsSaveOptions(int saveFormat)
 ```
 
 
@@ -78,7 +78,7 @@ Creates options for saving Excel 97-2003 xls/xlt file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It must be xls/xlt. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be [SaveFormat.EXCEL\_97\_TO\_2003](../../com.aspose.cells/saveformat\#EXCEL-97-TO-2003) or [SaveFormat.XLT](../../com.aspose.cells/saveformat\#XLT), otherwise the saved format will be set as [SaveFormat.EXCEL\_97\_TO\_2003](../../com.aspose.cells/saveformat\#EXCEL-97-TO-2003) automatically. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -251,7 +251,7 @@ public boolean isTemplate()
 ```
 
 
-Indicates whether saving a template file.
+Indicates whether saving a template file. NOTE: This member is now obsolete. Instead, please create XlsSaveOptions with corresponding save format(xlt for true and xls for false). This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -394,7 +394,7 @@ public void setTemplate(boolean value)
 ```
 
 
-Indicates whether saving a template file.
+Indicates whether saving a template file. NOTE: This member is now obsolete. Instead, please create XlsSaveOptions with corresponding save format(xlt for true and xls for false). This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -17,7 +17,7 @@ Encapsulates a collection of [Chart](../../com.aspose.cells/chart) objects.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
  
          ChartCollection charts = workbook.getWorksheets().get(0).getCharts();
 ```

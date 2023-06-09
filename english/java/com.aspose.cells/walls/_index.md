@@ -261,7 +261,7 @@ If the property is true and the value of chart point is a negative number, the f
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          //Adding a new worksheet to the Workbook object
          int sheetIndex = workbook.getWorksheets().add();

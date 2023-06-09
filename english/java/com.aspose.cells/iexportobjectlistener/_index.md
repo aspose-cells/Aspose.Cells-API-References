@@ -16,7 +16,7 @@ Allows users to manipulate objects while exporting.
 The following example creates a Workbook, opens a file named designer.xls in it and makes the horizontal and vertical scroll bars invisible for the Workbook. It then replaces two string values with an Integer value and string value respectively within the spreadsheet and finally sends the updated file to the client browser.
 
 ```
-class CustomExportObjectListener implements IExportObjectListener
+             class CustomExportObjectListener implements IExportObjectListener
              {
                  private int imgIdx = 0;
                  public Object exportObject(ExportObjectEvent e)

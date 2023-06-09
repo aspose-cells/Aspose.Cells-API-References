@@ -17,7 +17,7 @@ Summary description of Timeline View Due to MS Excel, Excel 2003 does not suppor
 **Example**
 
 ```
-Workbook book = new Workbook();
+         Workbook book = new Workbook();
          Worksheet sheet = book.getWorksheets().get(0);
          Cells cells = sheet.getCells();
          cells.get(0, 0).setValue("fruit");
@@ -120,7 +120,7 @@ Returns or sets the caption of the specified Timeline.
 **Example**
 
 ```
-//Set the caption of the specified Timeline.
+         //Set the caption of the specified Timeline.
          timelineObj.setCaption("timeline caption test");
 ```
 
@@ -167,7 +167,7 @@ Returns or sets the name of the specified Timeline
 **Example**
 
 ```
-//Set the name of the specified Timeline.
+         //Set the name of the specified Timeline.
          timelineObj.setName("timeline name test");
 ```
 

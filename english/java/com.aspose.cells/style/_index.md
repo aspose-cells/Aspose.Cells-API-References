@@ -17,7 +17,7 @@ Represents display style of excel document,such as font,color,alignment,border,e
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
  
          WorksheetCollection sheets = workbook.getWorksheets();
          Cell cell = sheets.get(0).getCells().get("A1");

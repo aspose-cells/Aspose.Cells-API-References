@@ -76,7 +76,7 @@ Creates the options of saving ods file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be [SaveFormat.ODS](../../com.aspose.cells/saveformat\#ODS), [SaveFormat.OTS](../../com.aspose.cells/saveformat\#OTS), [SaveFormat.FODS](../../com.aspose.cells/saveformat\#FODS) or [SaveFormat.SXC](../../com.aspose.cells/saveformat\#SXC), otherwise the saved format will be set as [SaveFormat.ODS](../../com.aspose.cells/saveformat\#ODS) automatically. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

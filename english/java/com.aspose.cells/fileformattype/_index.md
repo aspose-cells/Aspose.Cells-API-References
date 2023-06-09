@@ -35,6 +35,7 @@ Represents the file format types.
 | [FODS](#FODS) | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
 | [GIF](#GIF) | Gif |
 | [GRAPH_CHART](#GRAPH-CHART) | Represents embedded graph chart. |
+| [G_ZIP](#G-ZIP) | Rrepesents GZip file. |
 | [HTML](#HTML) | HTML format. |
 | [JPG](#JPG) | JPEG JFIF. |
 | [JSON](#JSON) | Json |
@@ -242,6 +243,14 @@ public static final int GRAPH_CHART
 
 
 Represents embedded graph chart.
+
+### G_ZIP {#G-ZIP}
+```
+public static final int G_ZIP
+```
+
+
+Rrepesents GZip file. The file format is not supported Only for detecting file type.
 
 ### HTML {#HTML}
 ```

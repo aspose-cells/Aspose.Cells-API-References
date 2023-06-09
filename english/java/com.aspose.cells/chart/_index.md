@@ -16,8 +16,10 @@ Encapsulates the object that represents a single Excel chart.
 
 **Example**
 
+The following codes show how to create a chart with .Net codes.
+
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          	Worksheet sheet = workbook.getWorksheets().get(0);
  
          	Cells cells = sheet.getCells();
@@ -1275,7 +1277,7 @@ If the width or height is zero or the chart is not supported according to Suppor
 Saves to Tiff with 300 dpi and CCITT4 compression.
 
 ```
-ImageOrPrintOptions options = new ImageOrPrintOptions();
+         ImageOrPrintOptions options = new ImageOrPrintOptions();
          options.setHorizontalResolution(300);
          options.setVerticalResolution(300);
          options.setTiffCompression(TiffCompression.COMPRESSION_CCITT_4);

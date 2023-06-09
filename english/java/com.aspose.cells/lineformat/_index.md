@@ -17,7 +17,7 @@ Represents all setting of the line.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          ShapeCollection shapes = workbook.getWorksheets().get(0).getShapes();
          Shape shape = shapes.addRectangle(1, 0, 1, 0, 50, 100);
@@ -104,7 +104,7 @@ Determines whether this instance has the same value as another specified [LineFo
 **Example**
 
 ```
-//You have to make sure that the index value in this line of code exists
+         //You have to make sure that the index value in this line of code exists
          LineFormat obj = workbook.getWorksheets().get(0).getShapes().get(0).getLine();
          if (lineFmt.equals(obj))
          {
@@ -130,7 +130,7 @@ Gets the begin arrow length type of the line. [MsoArrowheadLength](../../com.asp
 **Example**
 
 ```
-lineFmt.setBeginArrowheadLength(MsoArrowheadLength.LONG);
+         lineFmt.setBeginArrowheadLength(MsoArrowheadLength.LONG);
 ```
 
 **Returns:**
@@ -146,7 +146,7 @@ Gets the begin arrow type of the line. [MsoArrowheadStyle](../../com.aspose.cell
 **Example**
 
 ```
-lineFmt.setBeginArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
+         lineFmt.setBeginArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
 ```
 
 **Returns:**
@@ -162,7 +162,7 @@ Gets the begin arrow width type of the line. [MsoArrowheadWidth](../../com.aspos
 **Example**
 
 ```
-lineFmt.setBeginArrowheadWidth(MsoArrowheadWidth.MEDIUM);
+         lineFmt.setBeginArrowheadWidth(MsoArrowheadWidth.MEDIUM);
 ```
 
 **Returns:**
@@ -178,7 +178,7 @@ Specifies the ending caps. [LineCapType](../../com.aspose.cells/linecaptype).
 **Example**
 
 ```
-lineFmt.setCapType(LineCapType.FLAT);
+         lineFmt.setCapType(LineCapType.FLAT);
 ```
 
 **Returns:**
@@ -204,7 +204,7 @@ Specifies the line compound type. [MsoLineStyle](../../com.aspose.cells/msolines
 **Example**
 
 ```
-lineFmt.setCompoundType(MsoLineStyle.SINGLE);
+         lineFmt.setCompoundType(MsoLineStyle.SINGLE);
 ```
 
 **Returns:**
@@ -220,7 +220,7 @@ Specifies the line dash type. [MsoLineDashStyle](../../com.aspose.cells/msolined
 **Example**
 
 ```
-lineFmt.setDashStyle(MsoLineDashStyle.SOLID);
+         lineFmt.setDashStyle(MsoLineDashStyle.SOLID);
 ```
 
 **Returns:**
@@ -236,7 +236,7 @@ Gets the end arrow length type of the line. [MsoArrowheadLength](../../com.aspos
 **Example**
 
 ```
-lineFmt.setEndArrowheadLength(MsoArrowheadLength.LONG);
+         lineFmt.setEndArrowheadLength(MsoArrowheadLength.LONG);
 ```
 
 **Returns:**
@@ -252,7 +252,7 @@ Gets the end arrow type of the line. [MsoArrowheadStyle](../../com.aspose.cells/
 **Example**
 
 ```
-lineFmt.setEndArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
+         lineFmt.setEndArrowheadStyle(MsoArrowheadStyle.ARROW_OPEN);
 ```
 
 **Returns:**
@@ -268,7 +268,7 @@ Gets the end arrow width type of the line. [MsoArrowheadWidth](../../com.aspose.
 **Example**
 
 ```
-lineFmt.setEndArrowheadWidth(MsoArrowheadWidth.MEDIUM);
+         lineFmt.setEndArrowheadWidth(MsoArrowheadWidth.MEDIUM);
 ```
 
 **Returns:**
@@ -374,7 +374,7 @@ Specifies the line join type. [LineJoinType](../../com.aspose.cells/linejointype
 **Example**
 
 ```
-lineFmt.setJoinType(LineJoinType.ROUND);
+         lineFmt.setJoinType(LineJoinType.ROUND);
 ```
 
 **Returns:**
@@ -500,7 +500,7 @@ Gets the weight of the line in unit of points.
 **Example**
 
 ```
-lineFmt.setWeight(2.0d);
+         lineFmt.setWeight(2.0d);
 ```
 
 **Returns:**
@@ -516,7 +516,7 @@ Gets the hash code.
 **Example**
 
 ```
-int hashCode = lineFmt.hashCode();
+         int hashCode = lineFmt.hashCode();
 ```
 
 **Returns:**

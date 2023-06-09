@@ -17,7 +17,7 @@ Encapsulates the object that represents a designer spreadsheet.
 **Example**
 
 ```
-//Create WorkbookDesigner object.
+         //Create WorkbookDesigner object.
          WorkbookDesigner wd = new WorkbookDesigner();
          //Open the template file (which contains smart markers).
          wd.setWorkbook(new Workbook("SmartMarker_Designer.xls"));

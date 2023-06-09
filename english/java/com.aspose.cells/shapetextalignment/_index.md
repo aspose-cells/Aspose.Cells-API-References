@@ -17,7 +17,7 @@ Represents the setting of shape's text alignment;
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          Shape shape = workbook.getWorksheets().get(0).getShapes().addRectangle(1, 0, 1, 0, 50, 100);
          ShapeTextAlignment shapeTextAlignment = shape.getTextBody().getTextAlignment();
@@ -78,7 +78,7 @@ Determines whether this instance has the same value as another specified [ShapeT
 **Example**
 
 ```
-//You have to make sure that the index value in this line of code exists
+         //You have to make sure that the index value in this line of code exists
          ShapeTextAlignment obj = workbook.getWorksheets().get(0).getShapes().get(0).getTextBody().getTextAlignment();
          if (shapeTextAlignment.equals(obj))
          {
@@ -104,7 +104,7 @@ Indicates if size of shape is adjusted automatically according to its content.
 **Example**
 
 ```
-shapeTextAlignment.setAutoSize(false);
+         shapeTextAlignment.setAutoSize(false);
 ```
 
 **Returns:**
@@ -120,7 +120,7 @@ Returns the bottom margin in unit of Points
 **Example**
 
 ```
-shapeTextAlignment.setBottomMarginPt(2.0d);
+         shapeTextAlignment.setBottomMarginPt(2.0d);
 ```
 
 **Returns:**
@@ -146,7 +146,7 @@ Returns the left margin in unit of Points
 **Example**
 
 ```
-shapeTextAlignment.setLeftMarginPt(2.0d);
+         shapeTextAlignment.setLeftMarginPt(2.0d);
 ```
 
 **Returns:**
@@ -172,7 +172,7 @@ Returns the right margin in unit of Points
 **Example**
 
 ```
-shapeTextAlignment.setRightMarginPt(2.0d);
+         shapeTextAlignment.setRightMarginPt(2.0d);
 ```
 
 **Returns:**
@@ -188,7 +188,7 @@ Indicates whether rotating text with shape.
 **Example**
 
 ```
-shapeTextAlignment.setRotateTextWithShape(true);
+         shapeTextAlignment.setRotateTextWithShape(true);
 ```
 
 **Returns:**
@@ -204,7 +204,7 @@ Gets the rotation of the shape.
 **Example**
 
 ```
-shapeTextAlignment.setRotationAngle(90);
+         shapeTextAlignment.setRotationAngle(90);
 ```
 
 **Returns:**
@@ -220,7 +220,7 @@ Gets the text horizontal overflow type of the text box. [TextOverflowType](../..
 **Example**
 
 ```
-shapeTextAlignment.setTextHorizontalOverflow(TextOverflowType.CLIP);
+         shapeTextAlignment.setTextHorizontalOverflow(TextOverflowType.CLIP);
 ```
 
 **Returns:**
@@ -236,7 +236,7 @@ Gets the transform type of text. [AutoShapeType](../../com.aspose.cells/autoshap
 **Example**
 
 ```
-//Usually do not modify this value unless you know exactly what the modification will result in
+         //Usually do not modify this value unless you know exactly what the modification will result in
          shapeTextAlignment.setTextShapeType(AutoShapeType.TEXT_BOX);
 ```
 
@@ -253,7 +253,7 @@ Gets the text vertical overflow type of the text box. [TextOverflowType](../../c
 **Example**
 
 ```
-shapeTextAlignment.setTextVerticalOverflow(TextOverflowType.CLIP);
+         shapeTextAlignment.setTextVerticalOverflow(TextOverflowType.CLIP);
 ```
 
 **Returns:**
@@ -269,7 +269,7 @@ Gets the text direction. [TextVerticalType](../../com.aspose.cells/textverticalt
 **Example**
 
 ```
-shapeTextAlignment.setTextVerticalType(com.aspose.cells.TextVerticalType.HORIZONTAL);
+         shapeTextAlignment.setTextVerticalType(com.aspose.cells.TextVerticalType.HORIZONTAL);
 ```
 
 **Returns:**
@@ -285,7 +285,7 @@ Returns the top margin in unit of Points
 **Example**
 
 ```
-shapeTextAlignment.setTopMarginPt(2.0d);
+         shapeTextAlignment.setTopMarginPt(2.0d);
 ```
 
 **Returns:**
@@ -311,7 +311,7 @@ Indicates whether the margin of the text frame is automatic.
 **Example**
 
 ```
-shapeTextAlignment.setAutoMargin(true);
+         shapeTextAlignment.setAutoMargin(true);
 ```
 
 **Returns:**
@@ -337,7 +337,7 @@ Gets the text wrapped type of the shape which contains text.
 **Example**
 
 ```
-shapeTextAlignment.setTextWrapped(true);
+         shapeTextAlignment.setTextWrapped(true);
 ```
 
 **Returns:**

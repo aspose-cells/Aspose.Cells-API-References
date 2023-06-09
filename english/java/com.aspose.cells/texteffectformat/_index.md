@@ -17,7 +17,7 @@ Contains properties and methods that apply to WordArt objects.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          ShapeCollection shapes = workbook.getWorksheets().get(0).getShapes();
          shapes.addTextEffect(MsoPresetTextEffect.TEXT_EFFECT_1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);

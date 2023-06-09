@@ -17,7 +17,7 @@ Represents a list object on a worksheet. The ListObject object is a member of th
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
          for (int i = 0; i  ? i++)
          {
@@ -73,6 +73,7 @@ Workbook workbook = new Workbook();
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [putCellFormula(int rowOffset, int columnOffset, String formula)](#putCellFormula-int-int-java.lang.String-) | Put the formula to the cell in the table. |
+| [putCellFormula(int rowOffset, int columnOffset, String formula, boolean isTotalsRowFormula)](#putCellFormula-int-int-java.lang.String-boolean-) | Put the formula to the cell in the table. |
 | [putCellValue(int rowOffset, int columnOffset, Object value)](#putCellValue-int-int-java.lang.Object-) | Put the value to the cell. |
 | [putCellValue(int rowOffset, int columnOffset, Object value, boolean isTotalsRowLabel)](#putCellValue-int-int-java.lang.Object-boolean-) | Put the value to the cell. |
 | [resize(int startRow, int startColumn, int endRow, int endColumn, boolean hasHeaders)](#resize-int-int-int-int-boolean-) | Resize the range of the list object. |
@@ -368,7 +369,7 @@ Gets and the built-in table style. [TableStyleType](../../com.aspose.cells/table
 **Example**
 
 ```
-Workbook workbook = new Workbook("Book1.xlsx");
+         Workbook workbook = new Workbook("Book1.xlsx");
          ListObjectCollection tables = workbook.getWorksheets().get(0).getListObjects();
          int index = tables.add(0, 0, 9, 4, true);
          ListObject table = tables.get(0);
@@ -428,6 +429,22 @@ Put the formula to the cell in the table.
 | rowOffset | int | The row offset in the table. |
 | columnOffset | int | The column offset in the table. |
 | formula | java.lang.String | The formula of the cell. |
+
+### putCellFormula(int rowOffset, int columnOffset, String formula, boolean isTotalsRowFormula) {#putCellFormula-int-int-java.lang.String-boolean-}
+```
+public void putCellFormula(int rowOffset, int columnOffset, String formula, boolean isTotalsRowFormula)
+```
+
+
+Put the formula to the cell in the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowOffset | int | The row offset in the table. |
+| columnOffset | int | The column offset in the table. |
+| formula | java.lang.String | The formula of the cell. |
+| isTotalsRowFormula | boolean |  |
 
 ### putCellValue(int rowOffset, int columnOffset, Object value) {#putCellValue-int-int-java.lang.Object-}
 ```

@@ -26,6 +26,7 @@ Represents all revision logs.
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [getDaysPreservingHistory()](#getDaysPreservingHistory--) | Gets the number of days the spreadsheet application will keep the change history for this workbook. |
 | [hashCode()](#hashCode--) |  |
+| [highlightChanges(HighlightChangesOptions options)](#highlightChanges-com.aspose.cells.HighlightChangesOptions-) | Highlights changes of shared workbook. |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
@@ -144,6 +145,19 @@ public native int hashCode()
 
 **Returns:**
 int
+### highlightChanges(HighlightChangesOptions options) {#highlightChanges-com.aspose.cells.HighlightChangesOptions-}
+```
+public void highlightChanges(HighlightChangesOptions options)
+```
+
+
+Highlights changes of shared workbook.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [HighlightChangesOptions](../../com.aspose.cells/highlightchangesoptions) | Set the options for filtering which changes should be tracked. |
+
 ### indexOf(Object o) {#indexOf-java.lang.Object-}
 ```
 public int indexOf(Object o)

@@ -286,7 +286,7 @@ Gets the number of pages to save. Default is System.Int32.MaxValue which means a
 The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 ```
-//Open an Excel file
+         //Open an Excel file
          Workbook wb = new Workbook("Book1.xlsx");
  
          PdfSaveOptions options = new PdfSaveOptions();
@@ -316,7 +316,7 @@ Gets the 0-based index of the first page to save. Default is 0.
 The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 ```
-//Open an Excel file
+         //Open an Excel file
          Workbook wb = new Workbook("Book1.xlsx");
  
          PdfSaveOptions options = new PdfSaveOptions();
@@ -356,7 +356,7 @@ Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.c
 The following code omits blank pages or pages which only contains some style content like cell background, borders.
 
 ```
-Workbook wb = new Workbook("Book1.xlsx");
+         Workbook wb = new Workbook("Book1.xlsx");
  
          PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
  
@@ -407,7 +407,7 @@ Gets the sheets to render. Default is all visible sheets in the workbook: [Sheet
 The following code only renders active sheet to pdf.
 
 ```
-Workbook workbook = new Workbook("Book1.xlsx");
+         Workbook workbook = new Workbook("Book1.xlsx");
  
          int activeSheetIndex = workbook.getWorksheets().getActiveSheetIndex();
  

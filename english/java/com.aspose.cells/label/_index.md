@@ -17,7 +17,7 @@ Encapsulates the object that represents a label in a spreadsheet.
 **Example**
 
 ```
-//Create a new Workbook.
+         //Create a new Workbook.
          Workbook workbook = new Workbook();
  
          //Get the first worksheet in the workbook.
@@ -267,7 +267,7 @@ Adds a hyperlink to the shape.
 **Example**
 
 ```
-Hyperlink hyperlink = shape.addHyperlink("https://www.aspose.com/");
+         Hyperlink hyperlink = shape.addHyperlink("https://www.aspose.com/");
 ```
 
 **Parameters:**
@@ -288,7 +288,7 @@ Moves the picture to the top-right corner.
 **Example**
 
 ```
-shape.alignTopRightCorner(2, 5);
+         shape.alignTopRightCorner(2, 5);
 ```
 
 **Parameters:**
@@ -308,7 +308,7 @@ Recalculate the text area
 **Example**
 
 ```
-//The size of the text area is:w=size[0],h=size[1]
+         //The size of the text area is:w=size[0],h=size[1]
          int[] size = shape.calculateTextSize();
 ```
 
@@ -325,7 +325,7 @@ Returns a Characters object that represents a range of characters within the tex
 **Example**
 
 ```
-FontSetting fontSetting = shape.characters(0, 4);
+         FontSetting fontSetting = shape.characters(0, 4);
 ```
 
 **Parameters:**
@@ -393,7 +393,7 @@ Gets the ActiveX control.
 **Example**
 
 ```
-CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.getActiveXControl();
+         CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.getActiveXControl();
          //The font name of CheckBox
          String fontName = checkBox1.getFont().getName();
 ```
@@ -411,7 +411,7 @@ Get the actual bottom row.
 **Example**
 
 ```
-int rRow = shape.getActualLowerRightRow();
+         int rRow = shape.getActualLowerRightRow();
 ```
 
 **Returns:**
@@ -427,7 +427,7 @@ Returns or sets the descriptive (alternative) text string of the [Shape](../../c
 **Example**
 
 ```
-shape.setAlternativeText("a rectangle");
+         shape.setAlternativeText("a rectangle");
 ```
 
 **Returns:**
@@ -443,7 +443,7 @@ Gets the shape anchor placeholder. [ShapeAnchorType](../../com.aspose.cells/shap
 **Example**
 
 ```
-if (shape.getAnchorType() == ShapeAnchorType.ONE_CELL_ANCHOR)
+         if (shape.getAnchorType() == ShapeAnchorType.ONE_CELL_ANCHOR)
              shape.setAnchorType(ShapeAnchorType.TWO_CELL_ANCHOR);
 ```
 
@@ -460,7 +460,7 @@ Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 **Example**
 
 ```
-if (shape.getAutoShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
+         if (shape.getAutoShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
              shape.setAutoShapeType(com.aspose.cells.AutoShapeType.RECTANGLE);
 ```
 
@@ -477,7 +477,7 @@ Represents the width of the shape's vertical offset from its lower bottom corner
 **Example**
 
 ```
-if (shape.getBottom() == 3)
+         if (shape.getBottom() == 3)
              shape.setBottom(1);
 ```
 
@@ -494,7 +494,7 @@ Returns all Characters objects that represents a range of characters within the 
 **Example**
 
 ```
-ArrayList list = shape.getCharacters();
+         ArrayList list = shape.getCharacters();
 ```
 
 **Returns:**
@@ -520,7 +520,7 @@ Get the connection points
 **Example**
 
 ```
-float[][] points = shape.getConnectionPoints();
+         float[][] points = shape.getConnectionPoints();
 ```
 
 **Returns:**
@@ -536,7 +536,7 @@ Gets the data of control.
 **Example**
 
 ```
-if(shape.getControlData() == null)
+         if(shape.getControlData() == null)
              System.out.println("No data.");
 ```
 
@@ -563,7 +563,7 @@ Returns a [Area.getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) o
 **Example**
 
 ```
-FillFormat fillFmt = shape.getFill();
+         FillFormat fillFmt = shape.getFill();
 ```
 
 **Returns:**
@@ -589,7 +589,7 @@ Represents the font of shape.
 **Example**
 
 ```
-Font font = shape.getFont();
+         Font font = shape.getFont();
          font.setName("Arial");
          font.setSize(12);
          font.setColor(Color.getRed());
@@ -608,7 +608,7 @@ Gets the options of the picture format.
 **Example**
 
 ```
-MsoFormatPicture msoFormatPicture = shape.getFormatPicture();
+         MsoFormatPicture msoFormatPicture = shape.getFormatPicture();
 ```
 
 **Returns:**
@@ -624,7 +624,7 @@ Gets the geometry
 **Example**
 
 ```
-if (shape.getGeometry().getShapeAdjustValues().getCount() == 0)
+         if (shape.getGeometry().getShapeAdjustValues().getCount() == 0)
              System.out.println("No geometry path.");
 ```
 
@@ -641,7 +641,7 @@ Represents a [ShapePropertyCollection.getGlowEffect()](../../com.aspose.cells/sh
 **Example**
 
 ```
-GlowEffect glowEffect = shape.getGlow();
+         GlowEffect glowEffect = shape.getGlow();
 ```
 
 **Returns:**
@@ -657,7 +657,7 @@ Gets the group shape which contains this shape.
 **Example**
 
 ```
-GroupShape groupShape = shape.getGroup();
+         GroupShape groupShape = shape.getGroup();
 ```
 
 **Returns:**
@@ -673,7 +673,7 @@ Represents the height of shape, in unit of pixel.
 **Example**
 
 ```
-if (shape.getHeight() == 3)
+         if (shape.getHeight() == 3)
              shape.setHeight(1);
 ```
 
@@ -690,7 +690,7 @@ Represents the height of the shape, in unit of centimeters.
 **Example**
 
 ```
-if (shape.getHeightCM() == 3)
+         if (shape.getHeightCM() == 3)
              shape.setHeightCM(1);
 ```
 
@@ -717,7 +717,7 @@ Represents the vertical offset of shape from the top border of the parent shape,
 **Example**
 
 ```
-if (shape.getUpperDeltaY() == 4000)
+         if (shape.getUpperDeltaY() == 4000)
              shape.setUpperDeltaY(2000);
 ```
 
@@ -734,7 +734,7 @@ Represents the height of the shape, in unit of inches.
 **Example**
 
 ```
-if (shape.getHeightInch() == 3)
+         if (shape.getHeightInch() == 3)
              shape.setHeightInch(1);
 ```
 
@@ -751,7 +751,7 @@ Represents the height of the shape, in unit of points.
 **Example**
 
 ```
-if (shape.getHeightPt() == 3)
+         if (shape.getHeightPt() == 3)
              shape.setHeightPt(1);
 ```
 
@@ -768,7 +768,7 @@ Gets the height scale,in unit of percent of the original picture height. If the 
 **Example**
 
 ```
-if (shape.getHeightScale() == 3)
+         if (shape.getHeightScale() == 3)
              shape.setHeightScale(1);
 ```
 
@@ -785,7 +785,7 @@ Gets the html string which contains data and some formats in this textbox.
 **Example**
 
 ```
-String html = shape.getHtmlText();
+         String html = shape.getHtmlText();
          if(html == null || "".equals(html))
          {
              shape.setHtmlText("<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>");
@@ -805,7 +805,7 @@ Gets the hyperlink of the shape.
 **Example**
 
 ```
-Hyperlink hyperlink = shape.getHyperlink();
+         Hyperlink hyperlink = shape.getHyperlink();
 ```
 
 **Returns:**
@@ -821,7 +821,7 @@ Gets the identifier of this shape.
 **Example**
 
 ```
-int id = shape.getId();
+         int id = shape.getId();
 ```
 
 **Returns:**
@@ -837,7 +837,7 @@ Gets the worksheet range used to fill the specified combo box.
 **Example**
 
 ```
-if (shape.getInputRange().equals("$B$6:$B10"))
+         if (shape.getInputRange().equals("$B$6:$B10"))
              shape.setInputRange("$A$1:$A$5");
 ```
 
@@ -854,7 +854,7 @@ Gets the range used to fill the control.
 **Example**
 
 ```
-String range = shape.getInputRange(false, true);
+         String range = shape.getInputRange(false, true);
          //If successful, a value like "$A$1:$A$3" will be returned
 ```
 
@@ -877,7 +877,7 @@ Represents the horizontal offset of shape from its left column, in unit of pixel
 **Example**
 
 ```
-if (shape.getLeft() == 3)
+         if (shape.getLeft() == 3)
              shape.setLeft(1);
 ```
 
@@ -894,7 +894,7 @@ Represents the horizontal offset of shape from its left column, in unit of centi
 **Example**
 
 ```
-if (shape.getLeftCM() == 3)
+         if (shape.getLeftCM() == 3)
              shape.setLeftCM(1);
 ```
 
@@ -921,7 +921,7 @@ Represents the horizontal offset of shape from the left border of the parent sha
 **Example**
 
 ```
-if (shape.getUpperDeltaY() == 2000)
+         if (shape.getUpperDeltaY() == 2000)
              shape.setUpperDeltaY(4000);
 ```
 
@@ -938,7 +938,7 @@ Represents the horizontal offset of shape from its left column, in unit of inche
 **Example**
 
 ```
-if (shape.getLeftInch() == 3)
+         if (shape.getLeftInch() == 3)
              shape.setLeftInch(1);
 ```
 
@@ -955,7 +955,7 @@ Gets the horizonal offset of shape from worksheet left border.
 **Example**
 
 ```
-if (shape.getLeftToCorner() == 3)
+         if (shape.getLeftToCorner() == 3)
              shape.setLeftToCorner(1);
 ```
 
@@ -972,7 +972,7 @@ Gets line style
 **Example**
 
 ```
-LineFormat lineFmt = shape.getLine();
+         LineFormat lineFmt = shape.getLine();
 ```
 
 **Returns:**
@@ -998,7 +998,7 @@ Gets the worksheet range linked to the control's value.
 **Example**
 
 ```
-if (shape.getLinkedCell().equals("$B$6"))
+         if (shape.getLinkedCell().equals("$B$6"))
              shape.setLinkedCell("A1");
 ```
 
@@ -1015,7 +1015,7 @@ Gets the range linked to the control's value.
 **Example**
 
 ```
-//You may get results like '$A$1'
+         //You may get results like '$A$1'
          String link = shape.getLinkedCell(false, false);
 ```
 
@@ -1038,7 +1038,7 @@ Gets the value of locked property.
 **Example**
 
 ```
-int noAdjustHandles = 0;
+         int noAdjustHandles = 0;
          if (shape.getLockedProperty(ShapeLockType.ADJUST_HANDLES))
              noAdjustHandles = 1;
 ```
@@ -1061,7 +1061,7 @@ Gets the shape's horizontal offset from its lower right corner column. The range
 **Example**
 
 ```
-if (shape.getLowerDeltaX() == 3)
+         if (shape.getLowerDeltaX() == 3)
              shape.setLowerDeltaX(1);
 ```
 
@@ -1078,7 +1078,7 @@ Gets the shape's vertical offset from its lower right corner row. The range of v
 **Example**
 
 ```
-if (shape.getLowerDeltaY() == 3)
+         if (shape.getLowerDeltaY() == 3)
              shape.setLowerDeltaY(1);
 ```
 
@@ -1095,7 +1095,7 @@ Represents lower right corner column index.
 **Example**
 
 ```
-if (shape.getLowerRightColumn() == 3)
+         if (shape.getLowerRightColumn() == 3)
              shape.setLowerRightColumn(1);
 ```
 
@@ -1112,7 +1112,7 @@ Represents lower right corner row index.
 **Example**
 
 ```
-if (shape.getLowerRightRow() == 3)
+         if (shape.getLowerRightRow() == 3)
              shape.setLowerRightRow(1);
 ```
 
@@ -1129,7 +1129,7 @@ Gets the name of macro.
 **Example**
 
 ```
-//Sets the name of macro.
+         //Sets the name of macro.
          shape.setMacroName("DoWork()");
 ```
 
@@ -1146,7 +1146,7 @@ Gets mso drawing type. [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
 **Example**
 
 ```
-/*Aspose.Cells.Drawing.MsoDrawingType*/int msoDrawingType = shape.getMsoDrawingType();
+         /*Aspose.Cells.Drawing.MsoDrawingType*/int msoDrawingType = shape.getMsoDrawingType();
 ```
 
 **Returns:**
@@ -1162,7 +1162,7 @@ Gets the name of the shape.
 **Example**
 
 ```
-shape.setName("shape1");
+         shape.setName("shape1");
 ```
 
 **Returns:**
@@ -1178,7 +1178,7 @@ Gets the paths of a custom geometric shape.
 **Example**
 
 ```
-//Returns non-null if there is a path to the custom geometry
+         //Returns non-null if there is a path to the custom geometry
          if(shape.getPaths() == null)
              System.out.println("No custom geometry path.");
 ```
@@ -1196,7 +1196,7 @@ Represents the way the drawing object is attached to the cells below it. The pro
 **Example**
 
 ```
-if (shape.getPlacement() == PlacementType.MOVE)
+         if (shape.getPlacement() == PlacementType.MOVE)
              shape.setPlacement(PlacementType.MOVE_AND_SIZE);
 ```
 
@@ -1233,7 +1233,7 @@ Represents a [ReflectionEffect](../../com.aspose.cells/reflectioneffect) object 
 **Example**
 
 ```
-ReflectionEffect reflectionEffect = shape.getReflection();
+         ReflectionEffect reflectionEffect = shape.getReflection();
 ```
 
 **Returns:**
@@ -1249,7 +1249,7 @@ Indicates whether shape is relative to original picture size.
 **Example**
 
 ```
-if(shape.getRelativeToOriginalPictureSize())
+         if(shape.getRelativeToOriginalPictureSize())
              shape.setRelativeToOriginalPictureSize(false);
 ```
 
@@ -1266,7 +1266,7 @@ Converting smart art to grouped shapes.
 **Example**
 
 ```
-GroupShape groupShape = shape.getResultOfSmartArt();
+         GroupShape groupShape = shape.getResultOfSmartArt();
 ```
 
 **Returns:**
@@ -1282,7 +1282,7 @@ Represents the width of the shape's horizontal offset from its lower right corne
 **Example**
 
 ```
-if (shape.getRight() == 3)
+         if (shape.getRight() == 3)
              shape.setRight(1);
 ```
 
@@ -1299,7 +1299,7 @@ Gets the rotation of the shape.
 **Example**
 
 ```
-if(shape.getRotationAngle() == 45)
+         if(shape.getRotationAngle() == 45)
              shape.setRotationAngle(60);
 ```
 
@@ -1316,7 +1316,7 @@ Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that spe
 **Example**
 
 ```
-ShadowEffect shadowEffect = shape.getShadowEffect();
+         ShadowEffect shadowEffect = shape.getShadowEffect();
 ```
 
 **Returns:**
@@ -1332,7 +1332,7 @@ Gets the radius of blur to apply to the edges, in unit of points.
 **Example**
 
 ```
-shape.setSoftEdges(0.5d);
+         shape.setSoftEdges(0.5d);
 ```
 
 **Returns:**
@@ -1348,7 +1348,7 @@ Specifies an optional string that an application can use to Identify the particu
 **Example**
 
 ```
-String spid = shape.getSpid();
+         String spid = shape.getSpid();
 ```
 
 **Returns:**
@@ -1364,7 +1364,7 @@ Specifies an optional number that an application can use to associate the partic
 **Example**
 
 ```
-int spt = shape.getSpt();
+         int spt = shape.getSpt();
 ```
 
 **Returns:**
@@ -1380,7 +1380,7 @@ Represents the string in this TextBox object.
 **Example**
 
 ```
-if(shape.getText() == null)
+         if(shape.getText() == null)
              shape.setText("This is a test.");
 ```
 
@@ -1397,7 +1397,7 @@ Gets the setting of the shape's text.
 **Example**
 
 ```
-FontSettingCollection fontSettingCollection = shape.getTextBody();
+         FontSettingCollection fontSettingCollection = shape.getTextBody();
          fontSettingCollection.setText("This is a test.");
 ```
 
@@ -1414,7 +1414,7 @@ Gets the direction of the text flow for this object. [TextDirectionType](../../c
 **Example**
 
 ```
-if (shape.getTextDirection() == com.aspose.cells.TextDirectionType.CONTEXT)
+         if (shape.getTextDirection() == com.aspose.cells.TextDirectionType.CONTEXT)
              shape.setTextDirection(com.aspose.cells.TextDirectionType.LEFT_TO_RIGHT);
 ```
 
@@ -1431,7 +1431,7 @@ Returns a TextEffectFormat object that contains text-effect formatting propertie
 **Example**
 
 ```
-TextEffectFormat textEffectFormat = shape.getTextEffect();
+         TextEffectFormat textEffectFormat = shape.getTextEffect();
 ```
 
 **Returns:**
@@ -1457,7 +1457,7 @@ Gets the text horizontal alignment type of the shape. [TextAlignmentType](../../
 **Example**
 
 ```
-if (shape.getTextHorizontalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
+         if (shape.getTextHorizontalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
              shape.setTextHorizontalAlignment(com.aspose.cells.TextAlignmentType.CENTER);
 ```
 
@@ -1474,7 +1474,7 @@ Gets the text horizontal overflow type of the shape which contains text. [TextOv
 **Example**
 
 ```
-if (shape.getTextHorizontalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
+         if (shape.getTextHorizontalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
              shape.setTextHorizontalOverflow(com.aspose.cells.TextOverflowType.OVERFLOW);
 ```
 
@@ -1491,7 +1491,7 @@ Represents the text options of the shape.
 **Example**
 
 ```
-TextOptions opt = shape.getTextOptions();
+         TextOptions opt = shape.getTextOptions();
          opt.setColor(Color.getBlue());
          opt.setSize(8);
 ```
@@ -1509,7 +1509,7 @@ Gets the text orientation type of the shape. [TextOrientationType](../../com.asp
 **Example**
 
 ```
-if (shape.getTextOrientationType() == com.aspose.cells.TextOrientationType.NO_ROTATION)
+         if (shape.getTextOrientationType() == com.aspose.cells.TextOrientationType.NO_ROTATION)
              shape.setTextOrientationType(com.aspose.cells.TextOrientationType.TOP_TO_BOTTOM);
 ```
 
@@ -1526,7 +1526,7 @@ Gets the preset text shape type. [AutoShapeType](../../com.aspose.cells/autoshap
 **Example**
 
 ```
-if (shape.getTextShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
+         if (shape.getTextShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
              shape.setTextShapeType(com.aspose.cells.AutoShapeType.RECTANGLE);
 ```
 
@@ -1543,7 +1543,7 @@ Gets the text vertical alignment type of the shape. [TextAlignmentType](../../co
 **Example**
 
 ```
-if (shape.getTextVerticalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
+         if (shape.getTextVerticalAlignment() == com.aspose.cells.TextAlignmentType.BOTTOM)
              shape.setTextVerticalAlignment(com.aspose.cells.TextAlignmentType.CENTER);
 ```
 
@@ -1560,7 +1560,7 @@ Gets the text vertical overflow type of the shape which contains text. [TextOver
 **Example**
 
 ```
-if (shape.getTextVerticalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
+         if (shape.getTextVerticalOverflow() == com.aspose.cells.TextOverflowType.CLIP)
              shape.setTextVerticalOverflow(com.aspose.cells.TextOverflowType.OVERFLOW);
 ```
 
@@ -1577,7 +1577,7 @@ Gets 3d format of the shape.
 **Example**
 
 ```
-ThreeDFormat threeDFormat = shape.getThreeDFormat();
+         ThreeDFormat threeDFormat = shape.getThreeDFormat();
 ```
 
 **Returns:**
@@ -1593,7 +1593,7 @@ Specifies the title (caption) of the current shape object.
 **Example**
 
 ```
-shape.setTitle("title1");
+         shape.setTitle("title1");
 ```
 
 **Returns:**
@@ -1609,7 +1609,7 @@ Represents the vertical offset of shape from its top row, in unit of pixels. If 
 **Example**
 
 ```
-if (shape.getTop() == 3)
+         if (shape.getTop() == 3)
              shape.setTop(1);
 ```
 
@@ -1626,7 +1626,7 @@ Represents the vertical offset of shape from its top row, in unit of centimeters
 **Example**
 
 ```
-if (shape.getTopCM() == 3)
+         if (shape.getTopCM() == 3)
              shape.setTopCM(1);
 ```
 
@@ -1653,7 +1653,7 @@ Represents the vertical offset of shape from the top border of the parent shape,
 **Example**
 
 ```
-if (shape.getTopInShape() == 8000)
+         if (shape.getTopInShape() == 8000)
              shape.setTopInShape(4000);
 ```
 
@@ -1670,7 +1670,7 @@ Represents the vertical offset of shape from its top row, in unit of inches.
 **Example**
 
 ```
-if (shape.getTopInch() == 3)
+         if (shape.getTopInch() == 3)
              shape.setTopInch(1);
 ```
 
@@ -1687,7 +1687,7 @@ Gets the vertical offset of shape from worksheet top border, in unit of pixels.
 **Example**
 
 ```
-if (shape.getTopToCorner() == 3)
+         if (shape.getTopToCorner() == 3)
              shape.setTopToCorner(1);
 ```
 
@@ -1704,7 +1704,7 @@ Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
 **Example**
 
 ```
-/*Aspose.Cells.Drawing.AutoShapeType*/int autoShapeType = shape.getType();
+         /*Aspose.Cells.Drawing.AutoShapeType*/int autoShapeType = shape.getType();
 ```
 
 **Returns:**
@@ -1720,7 +1720,7 @@ Gets the shape's horizontal offset from its upper left corner column. The range 
 **Example**
 
 ```
-if (shape.getUpperDeltaX() == 3)
+         if (shape.getUpperDeltaX() == 3)
              shape.setUpperDeltaX(1);
 ```
 
@@ -1737,7 +1737,7 @@ Gets the shape's vertical offset from its upper left corner row. The range of va
 **Example**
 
 ```
-if (shape.getUpperDeltaY() == 3)
+         if (shape.getUpperDeltaY() == 3)
              shape.setUpperDeltaY(1);
 ```
 
@@ -1754,7 +1754,7 @@ Represents upper left corner column index.
 **Example**
 
 ```
-if (shape.getUpperLeftColumn() == 3)
+         if (shape.getUpperLeftColumn() == 3)
              shape.setUpperLeftColumn(1);
 ```
 
@@ -1771,7 +1771,7 @@ Represents upper left corner row index. If the shape is in the shape or in the g
 **Example**
 
 ```
-if (shape.getUpperLeftRow() == 3)
+         if (shape.getUpperLeftRow() == 3)
              shape.setUpperLeftRow(1);
 ```
 
@@ -1788,7 +1788,7 @@ Represents the width of shape, in unit of pixels.
 **Example**
 
 ```
-if (shape.getWidth() == 3)
+         if (shape.getWidth() == 3)
              shape.setWidth(1);
 ```
 
@@ -1805,7 +1805,7 @@ Represents the width of the shape, in unit of centimeters.
 **Example**
 
 ```
-if (shape.getWidthCM() == 3)
+         if (shape.getWidthCM() == 3)
              shape.setWidthCM(1);
 ```
 
@@ -1832,7 +1832,7 @@ Represents the width of the shape, in unit of 1/4000 of the parent shape. Only A
 **Example**
 
 ```
-if (shape.getUpperDeltaY() == 2000)
+         if (shape.getUpperDeltaY() == 2000)
              shape.setUpperDeltaY(4000);
 ```
 
@@ -1849,7 +1849,7 @@ Represents the width of the shape, in unit of inch.
 **Example**
 
 ```
-if (shape.getWidthInch() == 3)
+         if (shape.getWidthInch() == 3)
              shape.setWidthInch(1);
 ```
 
@@ -1866,7 +1866,7 @@ Represents the width of the shape, in unit of point.
 **Example**
 
 ```
-if (shape.getWidthPt() == 3)
+         if (shape.getWidthPt() == 3)
              shape.setWidthPt(1);
 ```
 
@@ -1883,7 +1883,7 @@ Gets the width scale, in unit of percent of the original picture width. If the s
 **Example**
 
 ```
-if (shape.getWidthScale() == 3)
+         if (shape.getWidthScale() == 3)
              shape.setWidthScale(1);
 ```
 
@@ -1900,7 +1900,7 @@ Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) ob
 **Example**
 
 ```
-Worksheet worksheet = shape.getWorksheet();
+         Worksheet worksheet = shape.getWorksheet();
 ```
 
 **Returns:**
@@ -1916,7 +1916,7 @@ Gets the horizontal offset of shape from worksheet left border,in unit of pixels
 **Example**
 
 ```
-if (shape.getX() == 3)
+         if (shape.getX() == 3)
              shape.setX(1);
 ```
 
@@ -1933,7 +1933,7 @@ Gets the vertical offset of shape from worksheet top border,in unit of pixels.
 **Example**
 
 ```
-if (shape.getY() == 3)
+         if (shape.getY() == 3)
              shape.setY(1);
 ```
 
@@ -1950,7 +1950,7 @@ Returns the position of a shape in the z-order.
 **Example**
 
 ```
-shape.setZOrderPosition(3);
+         shape.setZOrderPosition(3);
 ```
 
 **Returns:**
@@ -1966,7 +1966,7 @@ Gets the line border of the shape is visible.
 **Example**
 
 ```
-if(shape.hasLine() == false)
+         if(shape.hasLine() == false)
              shape.setHasLine(true);
 ```
 
@@ -1993,7 +1993,7 @@ Indicates whether the shape only contains an equation.
 **Example**
 
 ```
-//If true,the shape only contains an equation.
+         //If true,the shape only contains an equation.
          if(shape.isEquation())
          {
              //The shape contains only an equation
@@ -2013,7 +2013,7 @@ Indicates whether the fill format is visible.
 **Example**
 
 ```
-if(shape.isFilled() == false)
+         if(shape.isFilled() == false)
              shape.setFilled(true);
 ```
 
@@ -2030,7 +2030,7 @@ Gets whether shape is horizontally flipped .
 **Example**
 
 ```
-if(shape.isFlippedHorizontally() == false)
+         if(shape.isFlippedHorizontally() == false)
              shape.setFlippedHorizontally(true);
 ```
 
@@ -2047,7 +2047,7 @@ Gets whether shape is vertically flipped .
 **Example**
 
 ```
-if(shape.isFlippedVertically() == false)
+         if(shape.isFlippedVertically() == false)
              shape.setFlippedVertically(true);
 ```
 
@@ -2064,7 +2064,7 @@ Indicates whether the shape is a group.
 **Example**
 
 ```
-if(shape.isGroup())
+         if(shape.isGroup())
          {
              //This shape is a group.
          }
@@ -2083,7 +2083,7 @@ Indicates whether the object is visible.
 **Example**
 
 ```
-shape.setHidden(false);
+         shape.setHidden(false);
 ```
 
 **Returns:**
@@ -2109,7 +2109,7 @@ True means that don't allow changes in aspect ratio.
 **Example**
 
 ```
-shape.setLockAspectRatio(false);
+         shape.setLockAspectRatio(false);
 ```
 
 **Returns:**
@@ -2125,7 +2125,7 @@ True if the object is locked, False if the object can be modified when the sheet
 **Example**
 
 ```
-if(shape.isLocked())
+         if(shape.isLocked())
              shape.setLocked(false);
 ```
 
@@ -2142,7 +2142,7 @@ True if the object is printable
 **Example**
 
 ```
-if(shape.isPrintable())
+         if(shape.isPrintable())
              shape.setPrintable(false);
 ```
 
@@ -2159,7 +2159,7 @@ Whether or not the text is rich text.
 **Example**
 
 ```
-if(shape.isRichText())
+         if(shape.isRichText())
              System.out.println("The text is rich text.");
 ```
 
@@ -2176,7 +2176,7 @@ Returns whether the shape is same.
 **Example**
 
 ```
-if (shape.isSameSetting(shape))
+         if (shape.isSameSetting(shape))
              System.out.println("Two objects the same.");
 ```
 
@@ -2198,7 +2198,7 @@ Indicates whether the shape is smart art. Only for ooxml file.
 **Example**
 
 ```
-//if true,the shape is smart art.
+         //if true,the shape is smart art.
          if(shape.isSmartArt())
          {
              //The shape is SmartArt object.
@@ -2218,7 +2218,7 @@ Gets the text wrapped type of the shape which contains text.
 **Example**
 
 ```
-if (shape.isTextWrapped())
+         if (shape.isTextWrapped())
              shape.setTextWrapped(!shape.isTextWrapped());
 ```
 
@@ -2235,7 +2235,7 @@ Indicates whether this shape is a word art. Only for the Legacy Shape of xls fil
 **Example**
 
 ```
-if(shape.isWordArt())
+         if(shape.isWordArt())
          {
              //This shape is a WordArt object.
          }
@@ -2254,7 +2254,7 @@ Moves the shape to a specified range.
 **Example**
 
 ```
-shape.moveToRange(12, 3, 13, 5);
+         shape.moveToRange(12, 3, 13, 5);
 ```
 
 **Parameters:**
@@ -2292,7 +2292,7 @@ Remove activeX control.
 **Example**
 
 ```
-shape.removeActiveXControl();
+         shape.removeActiveXControl();
 ```
 
 ### removeHyperlink() {#removeHyperlink--}
@@ -2306,7 +2306,7 @@ Remove the hyperlink of the shape.
 **Example**
 
 ```
-shape.removeHyperlink();
+         shape.removeHyperlink();
 ```
 
 ### setAlternativeText(String value) {#setAlternativeText-java.lang.String-}
@@ -2580,7 +2580,7 @@ Sets the range used to fill the control.
 **Example**
 
 ```
-//After executing the code below, a ListBox object is created in the generated file. When the selected option is clicked, the selected value is displayed in cell A12.
+         //After executing the code below, a ListBox object is created in the generated file. When the selected option is clicked, the selected value is displayed in cell A12.
  
          for (int i = 0; i? ++i)
          {
@@ -2712,7 +2712,7 @@ Sets the range linked to the control's value.
 **Example**
 
 ```
-//After executing the code below, a ScrollBar object is created in the generated file. As you drag the slider, the value is displayed in cell A12.
+         //After executing the code below, a ScrollBar object is created in the generated file. As you drag the slider, the value is displayed in cell A12.
  
          //ActiveX Controls
          //Aspose.Cells.Drawing.Shape scrollBar = book.Worksheets[0].Shapes.AddActiveXControl( Aspose.Cells.Drawing.ActiveXControls.ControlType.ScrollBar,2, 0, 2, 0, 30, 130);
@@ -2768,7 +2768,7 @@ Set the locked property.
 **Example**
 
 ```
-shape.setLockedProperty(ShapeLockType.ADJUST_HANDLES, true);
+         shape.setLockedProperty(ShapeLockType.ADJUST_HANDLES, true);
 ```
 
 **Parameters:**
@@ -3373,7 +3373,7 @@ Brings the shape to the front or sends the shape to back.
 **Example**
 
 ```
-shape.toFrontOrBack(2);
+         shape.toFrontOrBack(2);
          //or shape.ToFrontOrBack(-1);
 ```
 
@@ -3423,7 +3423,7 @@ Saves the shape to a file.
 **Example**
 
 ```
-ImageOrPrintOptions op = new ImageOrPrintOptions();
+         ImageOrPrintOptions op = new ImageOrPrintOptions();
          shape.toImage("exmaple.png", op);
 ```
 
@@ -3454,7 +3454,7 @@ Update the selected value by the value of the linked cell.
 **Example**
 
 ```
-Cell cell = null;
+         Cell cell = null;
          for (int i = 0; i? ++i)
          {
              cell = book.getWorksheets().get(0).getCells().get(i, 0);

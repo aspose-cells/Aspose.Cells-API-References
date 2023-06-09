@@ -20,7 +20,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
          	Cells cells = excel.getWorksheets().get(0).getCells();
  
          	//Set default row height
@@ -78,8 +78,8 @@ Workbook excel = new Workbook();
 | [createRange(String upperLeftCell, String lowerRightCell)](#createRange-java.lang.String-java.lang.String-) | Creates a [Range](../../com.aspose.cells/range) object from a range of cells. |
 | [deleteBlankColumns()](#deleteBlankColumns--) | Delete all blank columns which do not contain any data. |
 | [deleteBlankColumns(DeleteOptions options)](#deleteBlankColumns-com.aspose.cells.DeleteOptions-) | Delete all blank columns which do not contain any data. |
-| [deleteBlankRows()](#deleteBlankRows--) | Delete all blank rows which do not contain any data. |
-| [deleteBlankRows(DeleteOptions options)](#deleteBlankRows-com.aspose.cells.DeleteOptions-) | Delete all blank rows which do not contain any data. |
+| [deleteBlankRows()](#deleteBlankRows--) | Delete all blank rows which do not contain any data or other object. |
+| [deleteBlankRows(DeleteOptions options)](#deleteBlankRows-com.aspose.cells.DeleteOptions-) | Delete all blank rows which do not contain any data or other object. |
 | [deleteColumn(int columnIndex)](#deleteColumn-int-) | Deletes a column. |
 | [deleteColumn(int columnIndex, boolean updateReference)](#deleteColumn-int-boolean-) | Deletes a column. |
 | [deleteColumns(int columnIndex, int totalColumns, boolean updateReference)](#deleteColumns-int-int-boolean-) | Deletes several columns. |
@@ -696,7 +696,7 @@ public void deleteBlankRows()
 ```
 
 
-Delete all blank rows which do not contain any data.
+Delete all blank rows which do not contain any data or other object.
 
 ### deleteBlankRows(DeleteOptions options) {#deleteBlankRows-com.aspose.cells.DeleteOptions-}
 ```
@@ -704,7 +704,7 @@ public void deleteBlankRows(DeleteOptions options)
 ```
 
 
-Delete all blank rows which do not contain any data.
+Delete all blank rows which do not contain any data or other object. For blank rows that will be deleted, it is not only required that [Row.isBlank()](../../com.aspose.cells/row\#isBlank--) should be true, but also there should be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1032,7 +1032,7 @@ Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row i
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
          Cells cells = excel.getWorksheets().get(0).getCells();
          Cell cell = cells.get(0, 0);	//Gets the cell at "A1"
 ```
@@ -1056,7 +1056,7 @@ Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name.
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
          Cells cells = excel.getWorksheets().get(0).getCells();
          Cell cell = cells.get("A1");	//Gets the cell at "A1"
 ```
@@ -2582,7 +2582,7 @@ Gets the cells enumerator. When traversing elements by the returned Enumerator, 
 **Example**
 
 ```
-Workbook workbook = new Workbook("template.xlsx");
+         Workbook workbook = new Workbook("template.xlsx");
          	Cells cells = workbook.getWorksheets().get(0).getCells();
  
          	Iterator en = cells.iterator();

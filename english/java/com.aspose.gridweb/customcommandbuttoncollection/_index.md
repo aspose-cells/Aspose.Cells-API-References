@@ -17,7 +17,7 @@ Represents the collection of CustomCommandButton.
 **Example**
 
 ```
-GridWeb GridWeb1 = new GridWeb();
+         GridWeb GridWeb1 = new GridWeb();
          CustomCommandButton button = new CustomCommandButton();
          button.setCommand("MyCommand");
          button.setImageUrl("images/button1.gif");

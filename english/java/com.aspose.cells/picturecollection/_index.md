@@ -17,7 +17,7 @@ Encapsulates a collection of [Picture](../../com.aspose.cells/picture) objects.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //get PictureCollection
@@ -85,7 +85,7 @@ Adds a picture to the collection.
 **Example**
 
 ```
-//add a picture
+         //add a picture
          pictures.add(1, 1, 5, 5, "image.jpg");
 ```
 
@@ -147,7 +147,7 @@ Adds a picture to the collection.
 **Example**
 
 ```
-//add a picture
+         //add a picture
          pictures.add(1, 1, "image.jpg");
 ```
 
@@ -171,7 +171,7 @@ Adds a picture to the collection.
 **Example**
 
 ```
-//add a picture
+         //add a picture
          pictures.add(1, 1, "image.jpg", 50, 50);
 ```
 
@@ -212,7 +212,7 @@ Clear all pictures.
 **Example**
 
 ```
-//clear
+         //clear
          pictures.clear();
 ```
 
@@ -257,7 +257,7 @@ Gets the [Picture](../../com.aspose.cells/picture) element at the specified inde
 **Example**
 
 ```
-//get picture collection
+         //get picture collection
          //PictureCollection pictures = workbook.Worksheets[0].Pictures;
          //add a picture
          int index = pictures.add(1, 1, "image.png");
@@ -354,7 +354,7 @@ Remove shapes at the specific index
 **Example**
 
 ```
-//add a picture
+         //add a picture
          int index2 = pictures.add(1, 1, "image.png");
          //delete
          pictures.removeAt(index2);

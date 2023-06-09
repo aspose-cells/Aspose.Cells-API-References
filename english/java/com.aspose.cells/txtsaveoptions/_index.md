@@ -18,7 +18,7 @@ Represents the save options for csv/tab delimited/other text format.
 | Constructor | Description |
 | --- | --- |
 | [TxtSaveOptions()](#TxtSaveOptions--) | Creates text file save options. |
-| [TxtSaveOptions(int format)](#TxtSaveOptions-int-) | Creates text file save options. |
+| [TxtSaveOptions(int saveFormat)](#TxtSaveOptions-int-) | Creates text file save options. |
 ## Methods
 
 | Method | Description |
@@ -87,9 +87,9 @@ public TxtSaveOptions()
 
 Creates text file save options.
 
-### TxtSaveOptions(int format) {#TxtSaveOptions-int-}
+### TxtSaveOptions(int saveFormat) {#TxtSaveOptions-int-}
 ```
-public TxtSaveOptions(int format)
+public TxtSaveOptions(int saveFormat)
 ```
 
 
@@ -98,7 +98,7 @@ Creates text file save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | [SaveFormat](../../com.aspose.cells/saveformat). The save format of the text file. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be [SaveFormat.CSV](../../com.aspose.cells/saveformat\#CSV) or [SaveFormat.TSV](../../com.aspose.cells/saveformat\#TSV), otherwise the saved format will be set as [SaveFormat.CSV](../../com.aspose.cells/saveformat\#CSV) automatically. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

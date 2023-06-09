@@ -17,7 +17,7 @@ Represent the collection of SlicerCacheItem
 **Example**
 
 ```
-Workbook book = new Workbook();
+         Workbook book = new Workbook();
          Worksheet sheet = book.getWorksheets().get(0);
          Cells cells = sheet.getCells();
          cells.get(0, 0).setValue("fruit");
@@ -156,7 +156,7 @@ Gets the SlicerCacheItem object by index.
 **Example**
 
 ```
-SlicerCacheItem item = items.get(0);
+         SlicerCacheItem item = items.get(0);
 ```
 
 **Parameters:**
@@ -187,7 +187,7 @@ Gets the count of the SlicerCacheItem.
 **Example**
 
 ```
-int count = items.getCount();
+         int count = items.getCount();
 ```
 
 **Returns:**

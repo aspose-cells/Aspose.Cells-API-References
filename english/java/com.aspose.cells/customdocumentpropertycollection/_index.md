@@ -19,7 +19,7 @@ Each  object represents a custom property of a container document.
 **Example**
 
 ```
-//Instantiate a Workbook object
+         //Instantiate a Workbook object
          Workbook workbook = new Workbook("book1.xls");
  
          //Retrieve a list of all custom document properties of the Excel file

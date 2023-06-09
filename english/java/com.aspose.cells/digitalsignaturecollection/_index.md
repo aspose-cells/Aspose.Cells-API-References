@@ -22,7 +22,7 @@ Provides a collection of digital signatures attached to a document.
 The following example shows how to validate digital signature.
 
 ```
-//workbook from a signed source file
+         //workbook from a signed source file
          Workbook signedWorkbook = new Workbook("signedFile.xlsx");
          //wb.IsDigitallySigned is true when the workbook is signed already.
          System.out.println(signedWorkbook.isDigitallySigned());

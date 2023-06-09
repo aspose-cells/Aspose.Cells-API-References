@@ -425,7 +425,7 @@ Gets the number of pages to save. Default is System.Int32.MaxValue which means a
 The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 ```
-//Open an Excel file
+         //Open an Excel file
          Workbook wb = new Workbook("Book1.xlsx");
  
          PdfSaveOptions options = new PdfSaveOptions();
@@ -455,7 +455,7 @@ Gets the 0-based index of the first page to save. Default is 0.
 The following example shows how to render a range of pages (3 and 4) in a Microsoft Excel file to PDF.
 
 ```
-//Open an Excel file
+         //Open an Excel file
          Workbook wb = new Workbook("Book1.xlsx");
  
          PdfSaveOptions options = new PdfSaveOptions();
@@ -505,7 +505,7 @@ Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.c
 The following code omits blank pages or pages which only contains some style content like cell background, borders.
 
 ```
-Workbook wb = new Workbook("Book1.xlsx");
+         Workbook wb = new Workbook("Book1.xlsx");
  
          PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
  
@@ -566,7 +566,7 @@ Set this options, when security is need in xls2pdf result.
 The following code sets hight resolution print permisson for the output pdf.
 
 ```
-Workbook wb = new Workbook();
+         Workbook wb = new Workbook();
          wb.getWorksheets().get(0).getCells().get("A1").setValue("Aspose");
  
          PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
@@ -607,7 +607,7 @@ Gets the sheets to render. Default is all visible sheets in the workbook: [Sheet
 The following code only renders active sheet to pdf.
 
 ```
-Workbook workbook = new Workbook("Book1.xlsx");
+         Workbook workbook = new Workbook("Book1.xlsx");
  
          int activeSheetIndex = workbook.getWorksheets().getActiveSheetIndex();
  
@@ -686,6 +686,49 @@ public RenderingWatermark getWatermark()
 
 
 Gets watermark to output.
+
+**Example**
+
+The following code sets watermark in the output pdf.
+
+```
+         //prepare a workbook with 3 pages.
+         Workbook wb = new Workbook();
+         wb.getWorksheets().get(0).getCells().get("A1").putValue("Page1");
+         int index = wb.getWorksheets().add();
+         wb.getWorksheets().get(index).getCells().get("A1").putValue("Page2");
+         index = wb.getWorksheets().add();
+         wb.getWorksheets().get(index).getCells().get("A1").putValue("Page3");
+         wb.getWorksheets().get(index).getPageSetup().setPaperSize(PaperSizeType.PAPER_A_3);
+ 
+         //create a font for watermark, and specify bold, italic, color
+         RenderingFont font = new RenderingFont("Calibri", 68);
+         font.setItalic(true);
+         font.setBold(true);
+         font.setColor(Color.getBlue());
+ 
+         //create a watermark from text and the specified font
+         RenderingWatermark watermark = new RenderingWatermark("Watermark", font);
+ 
+         //specify horizontal and vertical alignment
+         watermark.setHAlignment(TextAlignmentType.CENTER);
+         watermark.setVAlignment(TextAlignmentType.CENTER);
+ 
+         //specify rotation
+         watermark.setRotation(30);
+ 
+         //specify opacity
+         watermark.setOpacity(0.6f);
+ 
+         //specify the scale to page(e.g. 100, 50) in percent.
+         watermark.setScaleToPagePercent(50);
+ 
+         //spcify watermark for rendering to pdf.
+         PdfSaveOptions options = new PdfSaveOptions();
+         options.setWatermark(watermark);
+ 
+         wb.save("output_watermark.pdf", options);
+```
 
 **Returns:**
 [RenderingWatermark](../../com.aspose.cells/renderingwatermark)
@@ -1024,7 +1067,7 @@ Sets desired PPI(pixels per inch) of resample images and jpeg quality. All image
 The following code sets desired PPI as 96 and jpeg quality as 80 for images in the output pdf.
 
 ```
-//load the source file with images.
+         //load the source file with images.
          Workbook wb = new Workbook("Book1.xlsx");
  
          PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();

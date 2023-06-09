@@ -17,7 +17,7 @@ Describe the IconSet conditional formatting rule. This conditional formatting ru
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          Worksheet sheet = workbook.getWorksheets().get(0);

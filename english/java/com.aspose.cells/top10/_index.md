@@ -17,7 +17,7 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          Worksheet sheet = workbook.getWorksheets().get(0);
  

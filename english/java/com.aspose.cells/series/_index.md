@@ -17,7 +17,7 @@ Encapsulates the object that represents a single data series in a chart.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          //Adding a new worksheet to the Excel object
          int sheetIndex = workbook.getWorksheets().add();
@@ -424,7 +424,7 @@ Gets the name of the data series.
 **Example**
 
 ```
-//Reference name to a cell
+         //Reference name to a cell
          chart.getNSeries().get(0).setName("=A1");
  
          //Set a string to name

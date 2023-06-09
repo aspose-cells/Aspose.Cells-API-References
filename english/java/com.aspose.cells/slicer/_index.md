@@ -17,7 +17,7 @@ summary description of Slicer View
 **Example**
 
 ```
-Workbook book = new Workbook();
+         Workbook book = new Workbook();
          Worksheet sheet = book.getWorksheets().get(0);
          Cells cells = sheet.getCells();
          cells.get(0, 0).setValue("fruit");
@@ -146,7 +146,7 @@ Adds PivotTable connection.
 **Example**
 
 ```
-slicer.addPivotConnection(pivot);
+         slicer.addPivotConnection(pivot);
 ```
 
 **Parameters:**
@@ -180,7 +180,7 @@ Returns or sets the descriptive (alternative) text string of the Slicer object.
 **Example**
 
 ```
-slicer.setAlternativeText("AlternativeText test");
+         slicer.setAlternativeText("AlternativeText test");
 ```
 
 **Returns:**
@@ -196,7 +196,7 @@ Returns or sets the caption of the specified slicer.
 **Example**
 
 ```
-slicer.setCaption("slicer caption");
+         slicer.setCaption("slicer caption");
 ```
 
 **Returns:**
@@ -212,7 +212,7 @@ Returns or sets whether the header that displays the slicer Caption is visible t
 **Example**
 
 ```
-slicer.setCaptionVisible(true);
+         slicer.setCaptionVisible(true);
 ```
 
 **Returns:**
@@ -238,7 +238,7 @@ Returns or sets the width, in points, of each column in the slicer.
 **Example**
 
 ```
-slicer.setColumnWidth(80);
+         slicer.setColumnWidth(80);
 ```
 
 **Returns:**
@@ -254,7 +254,7 @@ Gets the width in unit of\\u807dpixels for\\u807deach column of\\u807dthe slicer
 **Example**
 
 ```
-slicer.setColumnWidthPixel(120);
+         slicer.setColumnWidthPixel(120);
 ```
 
 **Returns:**
@@ -270,7 +270,7 @@ Returns or sets the height of the specified slicer, in points.
 **Example**
 
 ```
-slicer.setHeight(120);
+         slicer.setHeight(120);
 ```
 
 **Returns:**
@@ -286,7 +286,7 @@ Returns or sets the height of the specified slicer, in pixels.
 **Example**
 
 ```
-slicer.setHeightPixel(150);
+         slicer.setHeightPixel(150);
 ```
 
 **Returns:**
@@ -302,7 +302,7 @@ Returns or sets the horizontal offset of slicer shape from its left column, in p
 **Example**
 
 ```
-slicer.setLeftPixel(2);
+         slicer.setLeftPixel(2);
 ```
 
 **Returns:**
@@ -318,7 +318,7 @@ Indicates whether locking aspect ratio.
 **Example**
 
 ```
-slicer.setLockedAspectRatio(true);
+         slicer.setLockedAspectRatio(true);
 ```
 
 **Returns:**
@@ -334,7 +334,7 @@ Indicates whether the specified slicer can be moved or resized by using the user
 **Example**
 
 ```
-slicer.setLockedPosition(false);
+         slicer.setLockedPosition(false);
 ```
 
 **Returns:**
@@ -350,7 +350,7 @@ Returns or sets the name of the specified slicer
 **Example**
 
 ```
-slicer.setName("slicer name");
+         slicer.setName("slicer name");
 ```
 
 **Returns:**
@@ -366,7 +366,7 @@ Returns or sets the number of columns in the specified slicer.
 **Example**
 
 ```
-slicer.setNumberOfColumns(1);
+         slicer.setNumberOfColumns(1);
 ```
 
 **Returns:**
@@ -382,7 +382,7 @@ Returns the Worksheet object that represents the sheet that contains the slicer.
 **Example**
 
 ```
-Worksheet currSheet = slicer.getParent();
+         Worksheet currSheet = slicer.getParent();
 ```
 
 **Returns:**
@@ -398,7 +398,7 @@ Represents the way the drawing object is attached to the cells below it. The pro
 **Example**
 
 ```
-slicer.setPlacement(PlacementType.FREE_FLOATING);
+         slicer.setPlacement(PlacementType.FREE_FLOATING);
 ```
 
 **Returns:**
@@ -414,7 +414,7 @@ Returns or sets the height, in points, of each row in the specified slicer.
 **Example**
 
 ```
-slicer.setRowHeight(20);
+         slicer.setRowHeight(20);
 ```
 
 **Returns:**
@@ -430,7 +430,7 @@ Returns or sets the height, in pixels, of each row in the specified slicer.
 **Example**
 
 ```
-slicer.setRowHeightPixel(30);
+         slicer.setRowHeightPixel(30);
 ```
 
 **Returns:**
@@ -446,7 +446,7 @@ Returns the SlicerCache object associated with the slicer. Read-only.
 **Example**
 
 ```
-SlicerCache slicerCache = slicer.getSlicerCache();
+         SlicerCache slicerCache = slicer.getSlicerCache();
 ```
 
 **Returns:**
@@ -462,7 +462,7 @@ Specify the type of Built-in slicer style the default type is SlicerStyleLight1 
 **Example**
 
 ```
-slicer.setStyleType(SlicerStyleType.SLICER_STYLE_LIGHT_2);
+         slicer.setStyleType(SlicerStyleType.SLICER_STYLE_LIGHT_2);
 ```
 
 **Returns:**
@@ -478,7 +478,7 @@ Specifies the title of the current Slicer object.
 **Example**
 
 ```
-slicer.setTitle("slicer title");
+         slicer.setTitle("slicer title");
 ```
 
 **Returns:**
@@ -494,7 +494,7 @@ Returns or sets the vertical offset of slicer shape from its top row, in pixels.
 **Example**
 
 ```
-slicer.setTopPixel(6);
+         slicer.setTopPixel(6);
 ```
 
 **Returns:**
@@ -510,7 +510,7 @@ Returns or sets the width of the specified slicer, in points.
 **Example**
 
 ```
-slicer.setWidth(100);
+         slicer.setWidth(100);
 ```
 
 **Returns:**
@@ -526,7 +526,7 @@ Returns or sets the width of the specified slicer, in pixels.
 **Example**
 
 ```
-slicer.setWidthPixel(120);
+         slicer.setWidthPixel(120);
 ```
 
 **Returns:**
@@ -552,7 +552,7 @@ Indicates whether the slicer shape is locked.
 **Example**
 
 ```
-slicer.setLocked(false);
+         slicer.setLocked(false);
 ```
 
 **Returns:**
@@ -568,7 +568,7 @@ Indicates whether the slicer object is printable.
 **Example**
 
 ```
-slicer.setPrintable(true);
+         slicer.setPrintable(true);
 ```
 
 **Returns:**
@@ -600,7 +600,7 @@ Refreshing the slicer.Meanwhile, Refreshing and Calculating relative PivotTables
 **Example**
 
 ```
-slicer.refresh();
+         slicer.refresh();
 ```
 
 ### removePivotConnection(PivotTable pivot) {#removePivotConnection-com.aspose.cells.PivotTable-}
@@ -614,7 +614,7 @@ Removes PivotTable connection.
 **Example**
 
 ```
-slicer.removePivotConnection(pivot);
+         slicer.removePivotConnection(pivot);
 ```
 
 **Parameters:**

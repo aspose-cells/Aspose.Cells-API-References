@@ -17,7 +17,7 @@ Represents the ScrollBar control.
 **Example**
 
 ```
-//Initialize a new workbook.
+         //Initialize a new workbook.
          Workbook book = new Workbook();
  
          //Add a ToggleButtonActiveXControl.
@@ -186,7 +186,7 @@ Gets the amount by which the Position property changes
 **Example**
 
 ```
-activeXControl.setSmallChange(5);
+         activeXControl.setSmallChange(5);
 ```
 
 **Returns:**
@@ -222,7 +222,7 @@ Gets the maximum acceptable value.
 **Example**
 
 ```
-activeXControl.setMin(100);
+         activeXControl.setMin(100);
 ```
 
 **Returns:**
@@ -238,7 +238,7 @@ Gets the minimum acceptable value.
 **Example**
 
 ```
-activeXControl.setMin(0);
+         activeXControl.setMin(0);
 ```
 
 **Returns:**
@@ -274,7 +274,7 @@ Gets whether the SpinButton or ScrollBar is oriented vertically or horizontally.
 **Example**
 
 ```
-if(activeXControl.getOrientation() == com.aspose.cells.ControlScrollOrientation.AUTO)
+         if(activeXControl.getOrientation() == com.aspose.cells.ControlScrollOrientation.AUTO)
          {
              activeXControl.setOrientation(com.aspose.cells.ControlScrollOrientation.HORIZONTAL);
          }
@@ -293,7 +293,7 @@ Gets the value.
 **Example**
 
 ```
-activeXControl.setPosition(30);
+         activeXControl.setPosition(30);
 ```
 
 **Returns:**
@@ -319,7 +319,7 @@ Gets the amount by which the Position property changes
 **Example**
 
 ```
-activeXControl.setSmallChange(5);
+         activeXControl.setSmallChange(5);
 ```
 
 **Returns:**
@@ -345,7 +345,7 @@ Gets the type of the ActiveX control. [ControlType](../../com.aspose.cells/contr
 **Example**
 
 ```
-if(activeXControl.getType() == com.aspose.cells.ControlType.SCROLL_BAR)
+         if(activeXControl.getType() == com.aspose.cells.ControlType.SCROLL_BAR)
          {
              //do something
          }

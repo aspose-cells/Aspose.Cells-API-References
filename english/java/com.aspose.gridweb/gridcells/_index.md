@@ -545,7 +545,7 @@ Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified 
 **Example**
 
 ```
-GridWeb GridWeb1 = new GridWeb();
+         GridWeb GridWeb1 = new GridWeb();
          GridCells cells = GridWeb1.getWorkSheets().get(0).getCells();
          //Gets the cell at "A1"
          GridCell cell = cells.get(0, 0);
@@ -570,7 +570,7 @@ Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified 
 **Example**
 
 ```
-GridWeb GridWeb1 = new GridWeb();
+         GridWeb GridWeb1 = new GridWeb();
           GridCells cells = GridWeb1.getWorkSheets().get(0).getCells();
           GridCell cell = cells.get("A1");	//Gets the cell at "A1"
 ```
@@ -1271,7 +1271,7 @@ Sets borders for a cells range.
 **Example**
 
 ```
-GridWeb GridWeb1 = new GridWeb();
+           GridWeb GridWeb1 = new GridWeb();
            WebBorderStyle borderStyle1 = new WebBorderStyle();
          	 GridWeb1.getWorkSheets().get(0).getCells().setBorders(0, 0, 5, 8, SetBorderPosition.OUTLINE, borderStyle1);
 ```
@@ -1491,7 +1491,7 @@ Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specifi
 **Example**
 
 ```
-GridWeb GridWeb1 = new GridWeb();
+         GridWeb GridWeb1 = new GridWeb();
          GridWeb1.getWorkSheets().get(0).getCells().sort(1,0,25,6,3,true,true,false);
 ```
 

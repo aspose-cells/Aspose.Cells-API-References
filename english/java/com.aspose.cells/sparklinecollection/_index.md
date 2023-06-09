@@ -17,7 +17,7 @@ Encapsulates a collection of [Sparkline](../../com.aspose.cells/sparkline) objec
 **Example**
 
 ```
-Workbook book = new Workbook(); 
+         Workbook book = new Workbook(); 
          Worksheet sheet = book.getWorksheets().get(0);
  
          sheet.getCells().get("A1").putValue(5);

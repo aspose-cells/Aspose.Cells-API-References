@@ -17,7 +17,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 **Example**
 
 ```
-//Set Image Or Print Options
+         //Set Image Or Print Options
          ImageOrPrintOptions options = new ImageOrPrintOptions();
  
          //Set output image format
@@ -477,7 +477,7 @@ public boolean isOptimized()
 ```
 
 
-Indicates whether to optimize the output elements. Default value is false. Currently only the border lines are\\u807doptimized when this property is set to true.
+Indicates whether to optimize the output elements. Default value is false. Currently when this property is set to true, the following optimizations will be done: 1. optimize the border lines. 2. optimize the file size while rendering to Svg image.
 
 **Returns:**
 boolean
@@ -714,7 +714,7 @@ public void setOptimized(boolean value)
 ```
 
 
-Indicates whether to optimize the output elements. Default value is false. Currently only the border lines are\\u807doptimized when this property is set to true.
+Indicates whether to optimize the output elements. Default value is false. Currently when this property is set to true, the following optimizations will be done: 1. optimize the border lines. 2. optimize the file size while rendering to Svg image.
 
 **Parameters:**
 | Parameter | Type | Description |

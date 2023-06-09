@@ -84,7 +84,7 @@ Evaluate the total page count of this worksheet
 The following code shows the fastest way to get page count of a worksheet.
 
 ```
-Workbook workbook = new Workbook("Book1.xlsx");
+         Workbook workbook = new Workbook("Book1.xlsx");
  
          SheetPrintingPreview sheetPrintingPreview = new SheetPrintingPreview(workbook.getWorksheets().get(0), new ImageOrPrintOptions());
  

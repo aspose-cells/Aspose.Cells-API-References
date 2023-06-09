@@ -17,7 +17,7 @@ Represents autofiltering for the specified worksheet.
 **Example**
 
 ```
-//Creating a file stream containing the Excel file to be opened
+         //Creating a file stream containing the Excel file to be opened
          //Instantiating a Workbook object
          Workbook workbook = new Workbook("template.xlsx");
          //Accessing the first worksheet in the Excel file

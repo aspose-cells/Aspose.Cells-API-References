@@ -19,7 +19,7 @@ Represents the meta data.
 The following example creates a WorkbookMetadata.
 
 ```
-MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);
+           MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);
            WorkbookMetadata meta = new WorkbookMetadata("book1.xlsx", options);
            meta.getCustomDocumentProperties().add("test", "test");
            meta.save("book2.xlsx");

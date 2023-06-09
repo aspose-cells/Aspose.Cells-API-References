@@ -20,7 +20,7 @@ Represents a single row in a worksheet.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //Obtaining the reference of the first worksheet
@@ -356,7 +356,7 @@ Gets the cells enumerator
 **Example**
 
 ```
-Workbook workbook = new Workbook("template.xlsx");
+         Workbook workbook = new Workbook("template.xlsx");
          	Cells cells = workbook.getWorksheets().get(0).getCells();
  
          	Iterator en = cells.getRows().get(1).iterator();

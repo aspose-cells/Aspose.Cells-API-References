@@ -17,7 +17,7 @@ Represents a chart data table.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //Obtaining the reference of the first worksheet

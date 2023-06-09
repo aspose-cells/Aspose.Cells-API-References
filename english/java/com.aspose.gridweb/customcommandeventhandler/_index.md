@@ -17,7 +17,7 @@ Represents the interface that intend to handle Custom Command events.
 **Example**
 
 ```
-class MyCustomCommandEventHandler implements  CustomCommandEventHandler,Serializable{
+         class MyCustomCommandEventHandler implements  CustomCommandEventHandler,Serializable{
           	 public void handleCellEvent(Object sender, String command){
                          GridWebBean gridweb=(GridWebBean)sender;
           			  GridWorksheet sheet = gridweb.getActiveSheet();

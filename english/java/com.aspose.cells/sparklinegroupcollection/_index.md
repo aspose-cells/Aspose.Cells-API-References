@@ -17,7 +17,7 @@ Encapsulates a collection of [SparklineGroup](../../com.aspose.cells/sparklinegr
 **Example**
 
 ```
-Workbook book = new Workbook(); 
+         Workbook book = new Workbook(); 
          Worksheet sheet = book.getWorksheets().get(0);
  
          sheet.getCells().get("A1").putValue(5);

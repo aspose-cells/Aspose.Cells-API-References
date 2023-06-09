@@ -17,7 +17,7 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          //Adding a new worksheet to the Excel object
          int sheetIndex = workbook.getWorksheets().add();

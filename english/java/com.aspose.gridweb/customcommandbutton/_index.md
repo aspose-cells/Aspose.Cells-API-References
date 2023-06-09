@@ -17,7 +17,7 @@ Represents a custom command button in the tab bar of the GridWeb control.
 **Example**
 
 ```
-GridWebBean GridWeb1=ExtPage.getInstance().getBean();
+         GridWebBean GridWeb1=ExtPage.getInstance().getBean();
          CustomCommandButton button = new CustomCommandButton();
          button.setCommand("MyCommand");
          button.setImageUrl("images/button1.gif");

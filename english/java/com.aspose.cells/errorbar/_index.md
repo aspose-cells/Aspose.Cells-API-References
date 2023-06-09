@@ -17,7 +17,7 @@ Represents error bar of data series.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
          cells.get("a1").putValue(2);
          cells.get("a2").putValue(5);
@@ -361,7 +361,7 @@ Represents error bar amount type. [ErrorBarType](../../com.aspose.cells/errorbar
 **Example**
 
 ```
-Workbook wb = new Workbook("chart.xlsx");
+         Workbook wb = new Workbook("chart.xlsx");
          Chart chart = wb.getWorksheets().get(0).getCharts().get(0);
          Series aseries = chart.getNSeries().get(0);
          //Sets custom error bar type

@@ -19,7 +19,7 @@ Encapsulates the object that represents a single worksheet.
 The following example shows how to freeze panes and insert hyperlink to worksheet with .Net or VB.
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
  
          Worksheet sheet = workbook.getWorksheets().get(0);
  
@@ -57,7 +57,7 @@ Workbook workbook = new Workbook();
 | [calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)](#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(CalculationOptions options, boolean recursive)](#calculateFormula-com.aspose.cells.CalculationOptions-boolean-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(String formula)](#calculateFormula-java.lang.String-) | Calculates a formula. |
-| [calculateFormula(String formula, CalculationOptions opts)](#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) | Calculates a formula. |
+| [calculateFormula(String formula, CalculationOptions opts)](#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) | Calculates a formula expression directly. |
 | [clearComments()](#clearComments--) | Clears all comments in designer spreadsheet. |
 | [closeAccessCache(int opts)](#closeAccessCache-int-) | Closes the session that uses caches to access the data in this worksheet. |
 | [copy(Worksheet sourceSheet)](#copy-com.aspose.cells.Worksheet-) | Copies contents and formats from another worksheet. |
@@ -528,7 +528,7 @@ public Object calculateFormula(String formula, CalculationOptions opts)
 ```
 
 
-Calculates a formula.
+Calculates a formula expression directly. The formula will be calculated just like it has been set to cell A1. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [calculateArrayFormula(String,CalculationOptions)](../../com.aspose.cells/worksheet\#calculateArrayFormula-String-CalculationOptions-) instead.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +537,7 @@ Calculates a formula.
 | opts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculating formula |
 
 **Returns:**
-java.lang.Object - Calculated formula result.
+java.lang.Object - Calculated result of given formula. The returned object may be of possible types of [Cell.getValue()](../../com.aspose.cells/cell\#getValue--), or ReferredArea.
 ### clearComments() {#clearComments--}
 ```
 public void clearComments()
@@ -1362,7 +1362,7 @@ Protects worksheet. This method can protect worksheet in all versions of Excel f
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook excel = new Workbook("template.xlsx");
          //Accessing the first worksheet in the Excel file
          Worksheet worksheet = excel.getWorksheets().get(0);

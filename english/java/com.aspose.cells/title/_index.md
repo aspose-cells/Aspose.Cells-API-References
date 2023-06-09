@@ -17,7 +17,7 @@ Encapsulates the object that represents the title of chart or axis.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          	Worksheet sheet = workbook.getWorksheets().get(0);
  
          	Cells cells = sheet.getCells();

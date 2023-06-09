@@ -17,7 +17,7 @@ Encapsulates a collection of [TextBox](../../com.aspose.cells/textbox) objects.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          //get collection object
          TextBoxCollection textBoxCollection = workbook.getWorksheets().get(0).getTextBoxes();
@@ -64,7 +64,7 @@ Adds a textbox to the collection.
 **Example**
 
 ```
-//add a TextBox
+         //add a TextBox
          int index2 = textBoxCollection.add(1, 1, 50, 100);
 ```
 
@@ -104,7 +104,7 @@ Clear all text boxes.
 **Example**
 
 ```
-//clear all textbox
+         //clear all textbox
          textBoxCollection.clear();
 ```
 
@@ -149,7 +149,7 @@ Gets the [TextBox](../../com.aspose.cells/textbox) element at the specified inde
 **Example**
 
 ```
-int index = textBoxCollection.getCount() - 1;
+         int index = textBoxCollection.getCount() - 1;
          TextBox txb = textBoxCollection.get(index);
 ```
 
@@ -171,7 +171,7 @@ Gets the [TextBox](../../com.aspose.cells/textbox) element by the name.
 **Example**
 
 ```
-String txtboxName = "textbox 1"; 
+         String txtboxName = "textbox 1"; 
          TextBox txb2 = textBoxCollection.get(txtboxName);
          if(txb2 != null)
          {
@@ -268,7 +268,7 @@ Remove a text box from the file.
 **Example**
 
 ```
-int index3 = textBoxCollection.getCount() - 1;
+         int index3 = textBoxCollection.getCount() - 1;
          textBoxCollection.removeAt(index3);
 ```
 

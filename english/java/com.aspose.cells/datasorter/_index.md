@@ -17,7 +17,7 @@ Summary description for DataSorter.
 **Example**
 
 ```
-//Instantiate a new Workbook object.
+         //Instantiate a new Workbook object.
          Workbook workbook = new Workbook("Book1.xls");
          //Get the workbook datasorter object.
          DataSorter sorter = workbook.getDataSorter();

@@ -17,7 +17,7 @@ Represents a field in a PivotTable report.
 **Example**
 
 ```
-Workbook book = new Workbook();
+         Workbook book = new Workbook();
          Worksheet sheet = book.getWorksheets().get(0);
          Cells cells = sheet.getCells();
          cells.get(0, 0).setValue("fruit");

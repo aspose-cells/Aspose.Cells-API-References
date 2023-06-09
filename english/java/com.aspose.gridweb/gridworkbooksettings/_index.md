@@ -17,7 +17,7 @@ Represents settings of the workbook.
 **Example**
 
 ```
-GridWeb gridweb = new GridWeb();
+         GridWeb gridweb = new GridWeb();
          GridWorkbookSettings gsettings = new GridWorkbookSettings();
          gridweb.setSettings(gsettings);
  

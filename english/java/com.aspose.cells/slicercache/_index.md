@@ -17,7 +17,7 @@ summary description of slicer cache
 **Example**
 
 ```
-Workbook book = new Workbook();
+         Workbook book = new Workbook();
          Worksheet sheet = book.getWorksheets().get(0);
          Cells cells = sheet.getCells();
          cells.get(0, 0).setValue("fruit");
@@ -139,7 +139,7 @@ Returns whether the slicer associated with the specified slicer cache is based o
 **Example**
 
 ```
-System.out.println(slicerCache.getList());
+         System.out.println(slicerCache.getList());
 ```
 
 **Returns:**
@@ -155,7 +155,7 @@ Returns the name of the slicer cache.
 **Example**
 
 ```
-//get the name of the slicer cache.
+         //get the name of the slicer cache.
          System.out.println(slicerCache.getName());
 ```
 
@@ -172,7 +172,7 @@ Returns a SlicerCacheItem collection that contains the collection of all items i
 **Example**
 
 ```
-//get SlicerCacheItem collection that contains the collection of all items in the slicer cache.
+         //get SlicerCacheItem collection that contains the collection of all items in the slicer cache.
          SlicerCacheItemCollection slicerCacheItems = slicerCache.getSlicerCacheItems();
          System.out.println(slicerCacheItems.getCount());
 ```
@@ -190,7 +190,7 @@ Returns the name of cache field
 **Example**
 
 ```
-//get the name of cache field.
+         //get the name of cache field.
          System.out.println(slicerCache.getSourceName());
 ```
 

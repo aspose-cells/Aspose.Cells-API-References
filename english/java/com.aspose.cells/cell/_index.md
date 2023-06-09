@@ -17,7 +17,7 @@ Encapsulates the object that represents a single Workbook cell.
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
          Cells cells = excel.getWorksheets().get(0).getCells();
  
          //Put a string into a cell
@@ -208,7 +208,7 @@ Returns a Characters object that represents a range of characters within the cel
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
          	Cells cells = excel.getWorksheets().get(0).getCells();
          cells.get("A1").putValue("Helloworld");
          cells.get("A1").characters(5, 5).getFont().setBold(true);
@@ -386,7 +386,7 @@ Get all cells whose formula references to this cell directly.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
          cells.get("A1").setFormula("=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2");
          cells.get("A2").setFormula("=IF(TRUE,B2,B1)");
@@ -415,7 +415,7 @@ Gets all cells whose calculated result depends on this cell. To use this method,
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
          cells.get("A1").setFormula("=B1+SUM(B1:B10)+[Book1.xls]Sheet1!B2");
          cells.get("A2").setFormula("=IF(TRUE,B2,B1)");
@@ -520,7 +520,7 @@ Gets a formula of the [Cell](../../com.aspose.cells/cell). A formula string alwa
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
          Cells cells = excel.getWorksheets().get(0).getCells();
          cells.get("B6").setFormula("=SUM(B2:B5, E1) + sheet1!A1");
 ```
@@ -668,7 +668,7 @@ Gets all references appearing in this cell's formula.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
          cells.get("A1").setFormula("=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1");
          ReferredAreaCollection areas = cells.get("A1").getPrecedents();
@@ -707,7 +707,7 @@ Gets all precedents(reference to cells in current workbook) used by this cell's 
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Cells cells = workbook.getWorksheets().get(0).getCells();
          cells.get("A2").setFormula("=IF(TRUE,B2,B1)");
          workbook.getSettings().getFormulaSettings().setEnableCalculationChain(true);
@@ -1082,7 +1082,23 @@ public void putValue(DateTime dateTime)
 ```
 
 
-Puts a DateTime value into the cell.
+Puts a DateTime value into the cell. Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both ms excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
+
+**Example**
+
+This example shows how to set DateTime value to a cell and make it be displayed as date time.
+
+```
+         Workbook excel = new Workbook();
+         Cells cells = excel.getWorksheets().get(0).getCells();
+ 
+         //Put date time into a cell
+         Cell cell = cells.get(0, 0);
+         cell.putValue(new DateTime(2023, 5, 15));
+         Style style = cell.getStyle(false);
+         style.setNumber(14);
+         cell.setStyle(style);
+```
 
 **Parameters:**
 | Parameter | Type | Description |

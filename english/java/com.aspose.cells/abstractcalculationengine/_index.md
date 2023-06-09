@@ -17,7 +17,7 @@ Represents user's custom calculation engine to extend the default calculation en
 **Example**
 
 ```
-class MyEngine extends AbstractCalculationEngine
+         class MyEngine extends AbstractCalculationEngine
          {
              public /*override*/ void calculate(CalculationData data)
              {

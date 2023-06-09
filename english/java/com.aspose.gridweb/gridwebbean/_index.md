@@ -803,7 +803,7 @@ Gets the custom style file name. The custom style file is an XML file. When sets
 **Example**
 
 ```
-GridWeb1.setCustomStyleFileName("c:\\style\\mystyle.xml");
+         		GridWeb1.setCustomStyleFileName("c:\\style\\mystyle.xml");
 ```
 
 **Returns:**
@@ -819,7 +819,7 @@ Gets the control's default font name.
 **Example**
 
 ```
-GridWeb1.setDefaultFontName("Arial");
+         		GridWeb1.setDefaultFontName("Arial");
 ```
 
 **Returns:**
@@ -845,7 +845,7 @@ Gets the default grid line's color.
 **Example**
 
 ```
-GridWeb1.setDefaultGridLineColor(Color.getRed());
+         		GridWeb1.setDefaultGridLineColor(Color.getRed());
 ```
 
 **Returns:**
@@ -1081,7 +1081,7 @@ Gets the height( System.Web.UI.WebControl.Unit ) of the top header bar of the co
 **Example**
 
 ```
-GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
          		GridWeb1.setHeaderBarHeight(new Unit(24, com.aspose.gridweb.UnitType.Point));
 ```
 
@@ -1118,7 +1118,7 @@ Gets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the co
 **Example**
 
 ```
-GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setHeaderBarWidth(new Unit(32, com.aspose.gridweb.UnitType.Point));
          		GridWeb1.setHeaderBarHeight(new Unit(24, com.aspose.gridweb.UnitType.Point));
 ```
 
@@ -1135,7 +1135,7 @@ Gets the height( System.Web.UI.WebControl.Unit ) of the control.
 **Example**
 
 ```
-GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
          		GridWeb1.setHeight(new Unit(240, com.aspose.gridweb.UnitType.Point));
 ```
 
@@ -1182,7 +1182,7 @@ Gets the maximum display column index(zero based) of the web sheet. The control 
 **Example**
 
 ```
-// Creates a 4x4 "display window".
+         		// Creates a 4x4 "display window".
          		GridWeb1.setMinRow(2);
          		GridWeb1.setMaxRow(5);
          		GridWeb1.setMinColumn(3);
@@ -1202,7 +1202,7 @@ Gets the maximum display row index(zero based) of the web sheet. The control use
 **Example**
 
 ```
-// Creates a 4x4 "display window".
+         		// Creates a 4x4 "display window".
          		GridWeb1.setMinRow(2);
          		GridWeb1.setMaxRow(5);
          		GridWeb1.setMinColumn(3);
@@ -1242,7 +1242,7 @@ Gets the minimum display row index(zero based) of the web sheet. The control use
 **Example**
 
 ```
-// Creates a 4x4 "display window".
+         		// Creates a 4x4 "display window".
          		GridWeb1.setMinRow(2);
          		GridWeb1.setMaxRow(5);
          		GridWeb1.setMinColumn(3);
@@ -1575,7 +1575,7 @@ Gets the preset style. [PresetStyle](../../com.aspose.gridweb/presetstyle).
 **Example**
 
 ```
-GridWeb1.setPresetStyle(PresetStyle.TRADITIONAL_1);
+         		GridWeb1.setPresetStyle(PresetStyle.TRADITIONAL_1);
 ```
 
 **Returns:**
@@ -1677,7 +1677,7 @@ When using SessionMode.ViewState, the grid will store some data in the page's vi
 **Example**
 
 ```
-GridWeb1.setSessionMode(SessionMode.VIEW_STATE);
+         		GridWeb1.setSessionMode(SessionMode.VIEW_STATE);
 ```
 
 **Returns:**
@@ -1963,7 +1963,7 @@ Gets the width( System.Web.UI.WebControl.Unit ) of the control.
 **Example**
 
 ```
-GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
+         		GridWeb1.setWidth(new Unit(320, com.aspose.gridweb.UnitType.Point));
          		GridWeb1.setHeight(new Unit(240, com.aspose.gridweb.UnitType.Point));
 ```
 

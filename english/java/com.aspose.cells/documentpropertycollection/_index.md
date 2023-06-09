@@ -17,7 +17,7 @@ Base class for [BuiltInDocumentPropertyCollection](../../com.aspose.cells/builti
 **Example**
 
 ```
-//Instantiate a Workbook object by calling its empty constructor
+         //Instantiate a Workbook object by calling its empty constructor
          Workbook workbook = new Workbook("book1.xls");
  
          //Retrieve a list of all custom document properties of the Excel file

@@ -17,7 +17,7 @@ Encapsulates a collection of [HorizontalPageBreak](../../com.aspose.cells/horizo
 **Example**
 
 ```
-Workbook excel = new Workbook();
+         Workbook excel = new Workbook();
  
          //Add a pagebreak at G5
          excel.getWorksheets().get(0).getHorizontalPageBreaks().add("G5");

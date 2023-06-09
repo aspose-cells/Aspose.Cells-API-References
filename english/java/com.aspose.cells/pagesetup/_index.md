@@ -17,7 +17,7 @@ Encapsulates the object that represents the page setup description. The PageSetu
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
  
          WorksheetCollection sheets = workbook.getWorksheets();
  
@@ -637,7 +637,7 @@ Represents the columns that contain the cells to be repeated on the left side of
 **Example**
 
 ```
-pageSetup.setPrintTitleColumns("$A:$A");
+         pageSetup.setPrintTitleColumns("$A:$A");
 ```
 
 **Returns:**
@@ -653,7 +653,7 @@ Represents the rows that contain the cells to be repeated at the top of each pag
 **Example**
 
 ```
-pageSetup.setPrintTitleRows("$1:$1");
+         pageSetup.setPrintTitleRows("$1:$1");
 ```
 
 **Returns:**

@@ -20,7 +20,7 @@ Represent an area of cells.
 **Example**
 
 ```
-//Create Cell Area
+         //Create Cell Area
          CellArea ca = new CellArea();
          ca.StartRow = 0;
          ca.EndRow = 0;

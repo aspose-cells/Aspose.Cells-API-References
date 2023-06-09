@@ -17,7 +17,7 @@ Represents the interface that intend to handle cell events.
 **Example**
 
 ```
-class SortEventHandler implements   CellEventHandler,Serializable{   
+         class SortEventHandler implements   CellEventHandler,Serializable{   
  
           	public void handleCellEvent(Object sender, CellEventArgs e) {                   
           		//System.out.println("handleCellEvent  ....");                            

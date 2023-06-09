@@ -17,7 +17,7 @@ Represents the list of [VbaModule](../../com.aspose.cells/vbamodule)
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
           // Init VBA project.
          VbaProject vbaProject = workbook.getVbaProject(); 

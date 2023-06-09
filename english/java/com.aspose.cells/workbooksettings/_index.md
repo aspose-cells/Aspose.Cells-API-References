@@ -17,7 +17,7 @@ Represents all settings of the workbook.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
  
          WorkbookSettings settings = workbook.getSettings();
  
@@ -694,7 +694,7 @@ Gets a value whether the Workbook tabs are displayed. The default value is true.
 The following code hides the Sheet Tabs and Tab Scrolling Buttons for the spreadsheet.
 
 ```
-// Hide the spreadsheet tabs.
+         // Hide the spreadsheet tabs.
          workbook.getSettings().setShowTabs(false);
 ```
 
@@ -938,7 +938,7 @@ Gets a value indicating whether the generated spreadsheet will contain a horizon
 The following code makes the horizontal scroll bar invisible for the spreadsheet.
 
 ```
-// Hide the horizontal scroll bar of the Excel file.
+         // Hide the horizontal scroll bar of the Excel file.
          settings.setHScrollBarVisible(false);
 ```
 
@@ -987,7 +987,7 @@ Gets a value indicating whether the generated spreadsheet will contain a vertica
 The following code makes the vertical scroll bar invisible for the spreadsheet.
 
 ```
-// Hide the vertical scroll bar of the Excel file.
+         	// Hide the vertical scroll bar of the Excel file.
          settings.setVScrollBarVisible(false);
 ```
 

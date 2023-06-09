@@ -17,7 +17,7 @@ Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
  
          WorksheetCollection sheets = workbook.getWorksheets();
  
@@ -115,7 +115,7 @@ Adds a worksheet to the collection.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          workbook.getWorksheets().add(SheetType.CHART);
          	Cells cells = workbook.getWorksheets().get(0).getCells();
          	cells.get("c2").putValue(5000);
@@ -391,7 +391,7 @@ Number of Multimedia Clips
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          DocumentProperty doc = workbook.getWorksheets().getBuiltInDocumentProperties().get("Author");
          doc.setValue("John Smith");
 ```
@@ -429,7 +429,7 @@ Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          workbook.getWorksheets().getCustomDocumentProperties().add("Checked by", "Jane");
 ```
 

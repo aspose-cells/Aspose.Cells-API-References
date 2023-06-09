@@ -17,7 +17,7 @@ Specifies the [ExternalConnection](../../com.aspose.cells/externalconnection) co
 **Example**
 
 ```
-Workbook wb = new Workbook("connection.xlsx");
+         Workbook wb = new Workbook("connection.xlsx");
          ExternalConnectionCollection dataConns = wb.getDataConnections();
          ExternalConnection dataConn = null;
          for (int i = 0; i <dataConns.getCount(); i++)

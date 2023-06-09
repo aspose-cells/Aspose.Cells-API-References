@@ -19,7 +19,7 @@ Represents the filter that provides options for loading data when loading workbo
 The following example shows how to determine the filter options according to worksheet's properties.
 
 ```
-class LoadFilterSheet extends LoadFilter
+         class LoadFilterSheet extends LoadFilter
          {
              public /*override*/ void startSheet(Worksheet sheet) 
              {

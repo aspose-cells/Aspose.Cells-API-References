@@ -17,7 +17,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 **Example**
 
 ```
-//Set the DataLabels in the chart
+         //Set the DataLabels in the chart
          Workbook wb = new Workbook("chart.xlsx");
          Chart chart = wb.getWorksheets().get(0).getCharts().get(0);
          DataLabels datalabels;

@@ -17,7 +17,7 @@ Represents a collection that contains all the points in one series.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //Obtaining the reference of the first worksheet

@@ -20,7 +20,7 @@ Represents external links collection in a workbook.
 **Example**
 
 ```
-//Open a file with external links
+         //Open a file with external links
          Workbook workbook = new Workbook("book1.xls");
  
          //Change external link data source

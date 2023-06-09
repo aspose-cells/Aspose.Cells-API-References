@@ -1,7 +1,7 @@
 ---
 title: Axis
 second_title: Aspose.Cells for Java API Reference
-description: Encapsulates the object that represents a charts axis.
+description: Encapsulates the object that represents an axis of chart.
 type: docs
 url: /java/com.aspose.cells/axis/
 ---
@@ -12,12 +12,14 @@ java.lang.Object
 public class Axis
 ```
 
-Encapsulates the object that represents a chart's axis.
+Encapsulates the object that represents an axis of chart.
 
 **Example**
 
+From the following codes , you can learn how to set unit, maximum and minimum value of Axis.
+
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          //Adding a new worksheet to the Excel object
          int sheetIndex = workbook.getWorksheets().add();
@@ -321,7 +323,7 @@ Represents major gridlines on a chart axis.
 **Example**
 
 ```
-chart.getValueAxis().getMajorGridLines().setVisible(false);
+         chart.getValueAxis().getMajorGridLines().setVisible(false);
          chart.getCategoryAxis().getMajorGridLines().setVisible(true);
 ```
 
@@ -358,7 +360,7 @@ Represents the major unit scale for the category axis. [TimeUnit](../../com.aspo
 **Example**
 
 ```
-chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
+         chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
          chart.getCategoryAxis().setMajorUnitScale(TimeUnit.MONTHS);
          chart.getCategoryAxis().setMajorUnit(2);
 ```
@@ -426,7 +428,7 @@ Represents the major unit scale for the category axis. [TimeUnit](../../com.aspo
 **Example**
 
 ```
-chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
+         chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
          chart.getCategoryAxis().setMinorUnitScale(TimeUnit.MONTHS);
          chart.getCategoryAxis().setMinorUnit(2);
 ```

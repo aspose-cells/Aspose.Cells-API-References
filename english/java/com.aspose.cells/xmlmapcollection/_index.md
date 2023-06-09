@@ -63,7 +63,7 @@ Add a [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) b
 The following code adds two XmlMaps by a xsd file and a xml file.
 
 ```
-Workbook wb = new Workbook();
+         Workbook wb = new Workbook();
  
          XmlMapCollection xmlMapCollection = wb.getWorksheets().getXmlMaps();
  

@@ -19,7 +19,7 @@ Encapsulates the object that represents a range of cells within a spreadsheet. T
 The following example shows how to create a range and set value the range of Excel.
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          // Get the first Worksheet Cells.
          Cells cells = workbook.getWorksheets().get(0).getCells();
@@ -119,7 +119,7 @@ Automaticall fill the target range.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          // Get the first Worksheet Cells.
          Cells cells = workbook.getWorksheets().get(0).getCells();
@@ -163,7 +163,7 @@ Copies data (including formulas), formatting, drawing objects etc. from a source
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          // Get the first Worksheet Cells.
          Cells cells = workbook.getWorksheets().get(0).getCells();
@@ -529,7 +529,7 @@ Returns a [Range](../../com.aspose.cells/range) object that represents the recta
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
          // Get the first Worksheet Cells.
          Cells cells = workbook.getWorksheets().get(0).getCells();
@@ -574,7 +574,7 @@ Gets the enumerator for cells in this Range. When traversing elements by the ret
 **Example**
 
 ```
-Workbook workbook = new Workbook("template.xlsx");
+         Workbook workbook = new Workbook("template.xlsx");
          	Cells cells = workbook.getWorksheets().get(0).getCells();
  
          	Iterator en = cells.createRange("B2:C3").iterator();

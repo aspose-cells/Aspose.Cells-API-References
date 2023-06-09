@@ -135,7 +135,7 @@ Creates a validation object for a cell.
 **Example**
 
 ```
-GridWeb GridWeb1 = new GridWeb();
+         GridWeb GridWeb1 = new GridWeb();
          GridWorksheet sheet = GridWeb1.getActiveSheet();
          GridValidation v = sheet.getCells().get("A1").createValidation(GridValidationType.CUSTOM_EXPRESSION, true);
          		// Sets to number validation expression.
@@ -268,7 +268,7 @@ User can set any formula in Workbook designer file. Aspose.Cells will keep all t
 **Example**
 
 ```
-GridWeb GridWeb1 = new GridWeb();
+         GridWeb GridWeb1 = new GridWeb();
          GridWorksheet sheet = GridWeb1.getActiveSheet();
          sheet.getCells().get("B6").setFormula("=SUM(B2:B5, E1) + sheet1!A1");
 ```

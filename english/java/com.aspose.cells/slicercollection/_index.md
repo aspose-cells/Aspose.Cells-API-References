@@ -17,7 +17,7 @@ Specifies the collection of all the Slicer objects on the specified worksheet.
 **Example**
 
 ```
-Workbook book = new Workbook();
+         Workbook book = new Workbook();
          Worksheet sheet = book.getWorksheets().get(0);
          Cells cells = sheet.getCells();
          cells.get(0, 0).setValue("fruit");
@@ -114,7 +114,7 @@ Add a new Slicer using ListObjet as data source
 **Example**
 
 ```
-slicers.add(table, table.getListColumns().get(1), 38, 12);
+         slicers.add(table, table.getListColumns().get(1), 38, 12);
 ```
 
 **Parameters:**
@@ -138,7 +138,7 @@ Add a new Slicer using ListObjet as data source
 **Example**
 
 ```
-slicers.add(table, table.getListColumns().get(1), "I38");
+         slicers.add(table, table.getListColumns().get(1), "I38");
 ```
 
 **Parameters:**
@@ -161,7 +161,7 @@ Add a new Slicer using ListObjet as data source
 **Example**
 
 ```
-slicers.add(table, 1, "E38");
+         slicers.add(table, 1, "E38");
 ```
 
 **Parameters:**
@@ -184,7 +184,7 @@ Add a new Slicer using PivotTable as data source
 **Example**
 
 ```
-slicers.add(pivot, 3, 12, pivot.getBaseFields().get(0));
+         slicers.add(pivot, 3, 12, pivot.getBaseFields().get(0));
 ```
 
 **Parameters:**
@@ -208,7 +208,7 @@ Add a new Slicer using PivotTable as data source
 **Example**
 
 ```
-slicers.add(pivot, 20, 8, 0);
+         slicers.add(pivot, 20, 8, 0);
 ```
 
 **Parameters:**
@@ -232,7 +232,7 @@ Add a new Slicer using PivotTable as data source
 **Example**
 
 ```
-slicers.add(pivot, 20, 12, "fruit");
+         slicers.add(pivot, 20, 12, "fruit");
 ```
 
 **Parameters:**
@@ -256,7 +256,7 @@ Add a new Slicer using PivotTable as data source
 **Example**
 
 ```
-slicers.add(pivot, "I3", pivot.getBaseFields().get(0));
+         slicers.add(pivot, "I3", pivot.getBaseFields().get(0));
 ```
 
 **Parameters:**
@@ -279,7 +279,7 @@ Add a new Slicer using PivotTable as data source
 **Example**
 
 ```
-slicers.add(pivot, "E20", 0);
+         slicers.add(pivot, "E20", 0);
 ```
 
 **Parameters:**
@@ -302,7 +302,7 @@ Add a new Slicer using PivotTable as data source
 **Example**
 
 ```
-slicers.add(pivot, "E3", "fruit");
+         slicers.add(pivot, "E3", "fruit");
 ```
 
 **Parameters:**
@@ -378,7 +378,7 @@ Gets the Slicer by index.
 **Example**
 
 ```
-Slicer slicerByIndex = slicers.get(0);
+         Slicer slicerByIndex = slicers.get(0);
 ```
 
 **Parameters:**
@@ -399,7 +399,7 @@ Gets the Slicer by slicer's name.
 **Example**
 
 ```
-Slicer slicerByName = slicers.get("fruit");
+         Slicer slicerByName = slicers.get("fruit");
 ```
 
 **Parameters:**
@@ -491,7 +491,7 @@ Remove the specified Slicer
 **Example**
 
 ```
-Slicer delSlicer = slicers.get(0);
+         Slicer delSlicer = slicers.get(0);
          slicers.remove(delSlicer);
 ```
 
@@ -511,7 +511,7 @@ Deletes the Slicer at the specified index
 **Example**
 
 ```
-slicers.removeAt(1);
+         slicers.removeAt(1);
 ```
 
 **Parameters:**

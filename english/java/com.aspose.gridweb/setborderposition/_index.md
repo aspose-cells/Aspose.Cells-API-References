@@ -17,7 +17,7 @@ Represents the border position to be set of a cells range.
 **Example**
 
 ```
-GridWeb GridWeb1=new GridWeb();
+             GridWeb GridWeb1=new GridWeb();
          		GridWeb1.getWorkSheets().get(0).getCells().setBorders(0, 0, 5, 8, SetBorderPosition.OUTLINE, GridWeb1.getWorkSheets().get(0).getCells().get(0, 0).getStyle().getLeftBorderStyle());
 ```
 ## Fields

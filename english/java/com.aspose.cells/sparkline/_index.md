@@ -17,7 +17,7 @@ A sparkline represents a tiny chart or graphic in a worksheet cell that provides
 **Example**
 
 ```
-Workbook book = new Workbook(); 
+         Workbook book = new Workbook(); 
          Worksheet sheet = book.getWorksheets().get(0);
  
          sheet.getCells().get("A1").putValue(5);

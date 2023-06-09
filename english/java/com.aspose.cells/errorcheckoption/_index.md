@@ -17,7 +17,7 @@ Error check setting applied on certain ranges.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+           Workbook workbook = new Workbook();
            ErrorCheckOptionCollection opts = workbook.getWorksheets().get(0).getErrorCheckOptions();
            int optionIdx = opts.add();
            ErrorCheckOption opt = opts.get(optionIdx);

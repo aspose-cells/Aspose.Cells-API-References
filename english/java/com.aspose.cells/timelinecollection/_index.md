@@ -17,7 +17,7 @@ Specifies the collection of all the Timeline objects on the specified worksheet.
 **Example**
 
 ```
-Workbook book = new Workbook();
+         Workbook book = new Workbook();
          Worksheet sheet = book.getWorksheets().get(0);
          Cells cells = sheet.getCells();
          cells.get(0, 0).setValue("fruit");
@@ -101,7 +101,7 @@ Add a new Timeline using PivotTable as data source
 **Example**
 
 ```
-//Add a new Timeline using PivotTable as data source
+         //Add a new Timeline using PivotTable as data source
          sheet.getTimelines().add(pivot, 20, 5, pivot.getBaseFields().get(1));
 ```
 
@@ -126,7 +126,7 @@ Add a new Timeline using PivotTable as data source
 **Example**
 
 ```
-//Add a new Timeline using PivotTable as data source
+         //Add a new Timeline using PivotTable as data source
          sheet.getTimelines().add(pivot, 15, 5, 1);
 ```
 
@@ -151,7 +151,7 @@ Add a new Timeline using PivotTable as data source
 **Example**
 
 ```
-//Add a new Timeline using PivotTable as data source
+         //Add a new Timeline using PivotTable as data source
          sheet.getTimelines().add(pivot, 10, 5, "date");
 ```
 
@@ -176,7 +176,7 @@ Add a new Timeline using PivotTable as data source
 **Example**
 
 ```
-//Add a new Timeline using PivotTable as data source
+         //Add a new Timeline using PivotTable as data source
          sheet.getTimelines().add(pivot, "i10", pivot.getBaseFields().get(1));
 ```
 
@@ -200,7 +200,7 @@ Add a new Timeline using PivotTable as data source
 **Example**
 
 ```
-//Add a new Timeline using PivotTable as data source
+         //Add a new Timeline using PivotTable as data source
          sheet.getTimelines().add(pivot, "i5", 1);
 ```
 
@@ -224,7 +224,7 @@ Add a new Timeline using PivotTable as data source
 **Example**
 
 ```
-//Add a new Timeline using PivotTable as data source
+         //Add a new Timeline using PivotTable as data source
          sheet.getTimelines().add(pivot, "i15", "date");
 ```
 
@@ -301,7 +301,7 @@ Gets the Timeline by index.
 **Example**
 
 ```
-//Get the Timeline by index.
+         //Get the Timeline by index.
          Timeline objByIndex = sheet.getTimelines().get(0);
 ```
 
@@ -323,7 +323,7 @@ Gets the Timeline by Timeline's name.
 **Example**
 
 ```
-//Get the Timeline by Timeline's name.
+         //Get the Timeline by Timeline's name.
          Timeline objByName = sheet.getTimelines().get("date");
 ```
 

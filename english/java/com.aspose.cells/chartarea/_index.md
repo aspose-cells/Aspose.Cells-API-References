@@ -17,7 +17,7 @@ Encapsulates the object that represents the chart area in the worksheet.
 **Example**
 
 ```
-//Instantiating a Workbook object
+         //Instantiating a Workbook object
          Workbook workbook = new Workbook();
  
          //Obtaining the reference of the first worksheet

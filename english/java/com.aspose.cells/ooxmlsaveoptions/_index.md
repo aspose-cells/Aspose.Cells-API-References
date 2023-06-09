@@ -84,7 +84,7 @@ Creates the options for saving office open xml file.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It must be xlsx,xltx,xlsm,xltm. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be one of following types: [SaveFormat.XLSX](../../com.aspose.cells/saveformat\#XLSX), [SaveFormat.XLTX](../../com.aspose.cells/saveformat\#XLTX), [SaveFormat.XLAM](../../com.aspose.cells/saveformat\#XLAM), [SaveFormat.XLSM](../../com.aspose.cells/saveformat\#XLSM) or [SaveFormat.XLTM](../../com.aspose.cells/saveformat\#XLTM), otherwise the saved format will be set as [SaveFormat.XLSX](../../com.aspose.cells/saveformat\#XLSX) automatically. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

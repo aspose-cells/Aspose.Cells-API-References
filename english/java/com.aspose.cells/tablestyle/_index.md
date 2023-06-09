@@ -17,7 +17,7 @@ Represents the table style.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          Style firstColumnStyle = workbook.createStyle();
          firstColumnStyle.setPattern(BackgroundType.SOLID);
          firstColumnStyle.setBackgroundColor(com.aspose.cells.Color.getRed());

@@ -17,7 +17,7 @@ Represents a collection of [CheckBox](../../com.aspose.cells/checkbox) objects i
 **Example**
 
 ```
-//Create a new Workbook.
+         //Create a new Workbook.
          Workbook workbook = new Workbook();
  
          //Get the first worksheet in the workbook.

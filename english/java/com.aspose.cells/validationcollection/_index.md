@@ -17,7 +17,7 @@ Represents data validation collection.
 **Example**
 
 ```
-Workbook workbook = new Workbook();
+         Workbook workbook = new Workbook();
          	ValidationCollection validations = workbook.getWorksheets().get(0).getValidations();
          CellArea area = CellArea.createCellArea(0, 0, 1, 1);
          Validation validation = validations.get(validations.add(area));

@@ -35,7 +35,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [AutoNumberedBulletValue](../com.aspose.cells/autonumberedbulletvalue) | Represents automatic numbered bullet. |
 | [AutoShapeType](../com.aspose.cells/autoshapetype) | Represents all built-in auto shape type. |
 | [AutomaticFill](../com.aspose.cells/automaticfill) | represents automatic fill. |
-| [Axis](../com.aspose.cells/axis) | Encapsulates the object that represents a chart's axis. |
+| [Axis](../com.aspose.cells/axis) | Encapsulates the object that represents an axis of chart. |
 | [AxisBins](../com.aspose.cells/axisbins) | Represents axis bins |
 | [AxisType](../com.aspose.cells/axistype) | Represents the axis type. |
 | [BackgroundMode](../com.aspose.cells/backgroundmode) | Represents the display mode of the background. |
@@ -279,6 +279,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [GroupShape](../com.aspose.cells/groupshape) | Represents the group shape which contains the individual shapes. |
 | [HeaderFooterCommand](../com.aspose.cells/headerfootercommand) | Represents the command of header/footer |
 | [HeaderFooterCommandType](../com.aspose.cells/headerfootercommandtype) | Represents the command type of header and footer. |
+| [HighlightChangesOptions](../com.aspose.cells/highlightchangesoptions) | Represents options of highlighting revsions or changes of shared Excel files. |
 | [HorizontalPageBreak](../com.aspose.cells/horizontalpagebreak) | Encapsulates the object that represents a horizontal page break. |
 | [HorizontalPageBreakCollection](../com.aspose.cells/horizontalpagebreakcollection) | Encapsulates a collection of [HorizontalPageBreak](../com.aspose.cells/horizontalpagebreak) objects. |
 | [HtmlCrossType](../com.aspose.cells/htmlcrosstype) | Represents five types of html cross string. |
@@ -295,6 +296,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [IconSet](../com.aspose.cells/iconset) | Describe the IconSet conditional formatting rule. |
 | [IconSetType](../com.aspose.cells/iconsettype) | Icon set type for conditional formatting. |
 | [ImageActiveXControl](../com.aspose.cells/imageactivexcontrol) | Represents the image control. |
+| [ImageBinarizationMethod](../com.aspose.cells/imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageFormat](../com.aspose.cells/imageformat) | Specifies the file format of the image. |
 | [ImageOrPrintOptions](../com.aspose.cells/imageorprintoptions) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
 | [ImageSaveOptions](../com.aspose.cells/imagesaveoptions) | Represents image save options. |
