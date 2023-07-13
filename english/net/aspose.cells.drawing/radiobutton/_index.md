@@ -131,12 +131,13 @@ public class RadioButton : Shape
 | [Characters](../../aspose.cells.drawing/shape/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text.(Inherited from [`Shape`](../shape/).) |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/)(int, int, Font) | (**Obsolete.**) Formats some characters with the font setting.(Inherited from [`Shape`](../shape/).) |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/)(int, int, Font, StyleFlag) | Formats some characters with the font setting.(Inherited from [`Shape`](../shape/).) |
+| [GetActualBox](../../aspose.cells.drawing/shape/getactualbox/)() | Get the actual position and size of the shape (after applying rotation, flip, etc.)(Inherited from [`Shape`](../shape/).) |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters/)() | Returns all Characters objects that represents a range of characters within the text .(Inherited from [`Shape`](../shape/).) |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints/)() | Get the connection points(Inherited from [`Shape`](../shape/).) |
 | [GetInputRange](../../aspose.cells.drawing/shape/getinputrange/)(bool, bool) | Gets the range used to fill the control.(Inherited from [`Shape`](../shape/).) |
 | [GetLinkedCell](../../aspose.cells.drawing/shape/getlinkedcell/)(bool, bool) | Gets the range linked to the control's value.(Inherited from [`Shape`](../shape/).) |
 | [GetLockedProperty](../../aspose.cells.drawing/shape/getlockedproperty/)(ShapeLockType) | Gets the value of locked property.(Inherited from [`Shape`](../shape/).) |
-| [GetOptionIndex](../../aspose.cells.drawing/radiobutton/getoptionindex/)() | Gets the option index in all the radio buttons of the GroupBox which contains this radio button. |
+| [GetOptionIndex](../../aspose.cells.drawing/radiobutton/getoptionindex/)() | Gets the option index (one-based) in all the radio buttons of the GroupBox which contains this radio button. |
 | virtual [GetResultOfSmartArt](../../aspose.cells.drawing/shape/getresultofsmartart/)() | Converting smart art to grouped shapes.(Inherited from [`Shape`](../shape/).) |
 | virtual [IsSameSetting](../../aspose.cells.drawing/shape/issamesetting/)(object) | Returns whether the shape is same.(Inherited from [`Shape`](../shape/).) |
 | [MoveToRange](../../aspose.cells.drawing/shape/movetorange/)(int, int, int, int) | Moves the shape to a specified range.(Inherited from [`Shape`](../shape/).) |

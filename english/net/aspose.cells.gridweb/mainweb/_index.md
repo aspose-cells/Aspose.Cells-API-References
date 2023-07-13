@@ -110,7 +110,7 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [Settings](../../aspose.cells.gridweb/mainweb/settings/) { get; set; } | Represents the workbook settings. |
 | [ShapesTable](../../aspose.cells.gridweb/mainweb/shapestable/) { get; } |  |
 | [ShowAddButton](../../aspose.cells.gridweb/mainweb/showaddbutton/) { get; set; } | Gets or sets whether to show the add worksheet button. |
-| [ShowBottomBar](../../aspose.cells.gridweb/mainweb/showbottombar/) { get; set; } |  |
+| [ShowBottomBar](../../aspose.cells.gridweb/mainweb/showbottombar/) { get; set; } | Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control. |
 | [ShowCellEditBox](../../aspose.cells.gridweb/mainweb/showcelleditbox/) { get; set; } | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. if we enable this feature, we need to import jquery js library in your aspx files to support this new feature. all the latest jquery version is ok. etc. |
 | [ShowCommandBarAtTop](../../aspose.cells.gridweb/mainweb/showcommandbarattop/) { get; set; } | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
 | [ShowContextMenu](../../aspose.cells.gridweb/mainweb/showcontextmenu/) { get; set; } |  |

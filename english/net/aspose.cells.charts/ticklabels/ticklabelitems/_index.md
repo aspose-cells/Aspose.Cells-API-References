@@ -1,13 +1,13 @@
 ---
 title: TickLabels.TickLabelItems
 second_title: Aspose.Cells for .NET API Reference
-description: TickLabels property. Gets the items info of TickLabel
+description: TickLabels property. Gets each tick label items information of axis
 type: docs
 url: /net/aspose.cells.charts/ticklabels/ticklabelitems/
 ---
 ## TickLabels.TickLabelItems property
 
-Gets the items' info of TickLabel.
+Gets each tick label item's information of axis.
 
 ```csharp
 public TickLabelItem[] TickLabelItems { get; }
@@ -15,7 +15,7 @@ public TickLabelItem[] TickLabelItems { get; }
 
 ### Remarks
 
-Only exists after calling [`Calculate`](../../chart/calculate/) method.
+Only available after calling [`Calculate`](../../chart/calculate/) method.
 
 ### See Also
 

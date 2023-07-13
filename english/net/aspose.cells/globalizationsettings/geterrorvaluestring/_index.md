@@ -19,7 +19,7 @@ public virtual string GetErrorValueString(string err)
 
 ### Return Value
 
-Default returns the error value itself
+By default returns the error value itself
 
 ### See Also
 

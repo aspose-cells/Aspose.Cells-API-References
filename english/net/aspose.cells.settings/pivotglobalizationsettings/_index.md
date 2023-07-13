@@ -29,7 +29,7 @@ public class PivotGlobalizationSettings
 | virtual [GetTextOfEmptyData](../../aspose.cells.settings/pivotglobalizationsettings/gettextofemptydata/)() | Gets the text of "(blank)" label in the PivotTable. |
 | virtual [GetTextOfGrandTotal](../../aspose.cells.settings/pivotglobalizationsettings/gettextofgrandtotal/)() | Gets the text of "Grand Total" label in the PivotTable. |
 | virtual [GetTextOfMultipleItems](../../aspose.cells.settings/pivotglobalizationsettings/gettextofmultipleitems/)() | Gets the text of "(Multiple Items)" label in the PivotTable. |
-| virtual [GetTextOfProtectedName](../../aspose.cells.settings/pivotglobalizationsettings/gettextofprotectedname/)(string) | In Excel,some names are not allowed to be the PivotFields' name of PivotTable. They are different in different region. |
+| virtual [GetTextOfProtectedName](../../aspose.cells.settings/pivotglobalizationsettings/gettextofprotectedname/)(string) | Gets the text for specified protected name. |
 | virtual [GetTextOfProtection](../../aspose.cells.settings/pivotglobalizationsettings/gettextofprotection/)() | (**Obsolete.**) Gets the protection name in the PivotTable. |
 | virtual [GetTextOfRowLabels](../../aspose.cells.settings/pivotglobalizationsettings/gettextofrowlabels/)() | Gets the text of "Row Labels" label in the PivotTable. |
 | virtual [GetTextOfSubTotal](../../aspose.cells.settings/pivotglobalizationsettings/gettextofsubtotal/)(PivotFieldSubtotalType) | Gets the text of [`PivotFieldSubtotalType`](../../aspose.cells.pivot/pivotfieldsubtotaltype/) type in the PivotTable. |

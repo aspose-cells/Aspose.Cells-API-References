@@ -110,7 +110,7 @@ public class Cells : IDisposable, IEnumerable
 | [FindFormulaContains](../../aspose.cells/cells/findformulacontains/)(string, Cell) | (**Obsolete.**) Finds the cell with formula which contains the input string. |
 | [GetCell](../../aspose.cells/cells/getcell/)(int, int) | Gets the [`Cell`](../cell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle/)(int, int) | Get the style of given cell. |
-| [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/)(int) | Gets the width of the specified column in normal view |
+| [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/)(int) | Gets the width(in unit of characters) of the specified column in normal view |
 | [GetColumnWidthInch](../../aspose.cells/cells/getcolumnwidthinch/)(int) | Gets the width of the specified column in normal view, in units of inches. |
 | [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel/)(int) | Gets the width of the specified column in normal view, in units of pixel. |
 | [GetDependents](../../aspose.cells/cells/getdependents/)(bool, int, int) | Get all cells which refer to the specific cell. |
@@ -123,7 +123,7 @@ public class Cells : IDisposable, IEnumerable
 | [GetMaxGroupedRowOutlineLevel](../../aspose.cells/cells/getmaxgroupedrowoutlinelevel/)() | Gets the max grouped row outline level (zero-based). |
 | [GetRow](../../aspose.cells/cells/getrow/)(int) | Gets the [`Row`](../row/) element at the specified cell row index. |
 | [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator/)() | (**Obsolete.**) Gets the rows enumerator. |
-| [GetRowHeight](../../aspose.cells/cells/getrowheight/)(int) | Gets the height of a specified row. |
+| [GetRowHeight](../../aspose.cells/cells/getrowheight/)(int) | Gets the height of a specified row, in unit of points. |
 | [GetRowHeightInch](../../aspose.cells/cells/getrowheightinch/)(int) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel](../../aspose.cells/cells/getrowheightpixel/)(int) | Gets the height of a specified row in unit of pixel. |
 | [GetRowOriginalHeightPoint](../../aspose.cells/cells/getroworiginalheightpoint/)(int) | Gets original row's height in unit of point if the row is hidden |

@@ -89,6 +89,8 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [HorizontalPageBreakCollection](./horizontalpagebreakcollection/) | Encapsulates a collection of [`HorizontalPageBreak`](../aspose.cells/horizontalpagebreak/) objects. |
 | [HtmlLoadOptions](./htmlloadoptions/) | Represents options when importing a html file. |
 | [HtmlSaveOptions](./htmlsaveoptions/) | Represents the options for saving html file. |
+| [HtmlTableLoadOption](./htmltableloadoption/) | Represents the option when import table from html. |
+| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection/) | Represents the table options when import html. |
 | [Hyperlink](./hyperlink/) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](./hyperlinkcollection/) | Encapsulates a collection of [`Hyperlink`](../aspose.cells/hyperlink/) objects. |
 | [IconFilter](./iconfilter/) | Represents icon filter. |
@@ -137,6 +139,9 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [ScenarioCollection](./scenariocollection/) | Represents the list of scenarios. |
 | [ScenarioInputCell](./scenarioinputcell/) | Represents input cell for the scenario. |
 | [ScenarioInputCellCollection](./scenarioinputcellcollection/) | Represents the list of the scenario's input cells. |
+| [SettableChartGlobalizationSettings](./settablechartglobalizationsettings/) | Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts. |
+| [SettableGlobalizationSettings](./settableglobalizationsettings/) | Implementation of GlobalizationSettings that supports user to set/change pre-defined texts. |
+| [SettablePivotGlobalizationSettings](./settablepivotglobalizationsettings/) | Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts. |
 | [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions/) | Represents the options for saving Excel 2003 spreadml file. |
 | [StreamProviderOptions](./streamprovideroptions/) | Represents the stream options. |
 | [Style](./style/) | Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties. |

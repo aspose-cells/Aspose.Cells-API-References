@@ -41,6 +41,7 @@ public class GridPicture
 | [Left](../../aspose.cells.gridweb.data/gridpicture/left/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [LeftCM](../../aspose.cells.gridweb.data/gridpicture/leftcm/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
 | [LeftInch](../../aspose.cells.gridweb.data/gridpicture/leftinch/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of inches. |
+| [LeftToCorner](../../aspose.cells.gridweb.data/gridpicture/lefttocorner/) { get; set; } | Represents the horizontal offset of shape from worksheet left board, in unit of pixels. |
 | [LinkedCell](../../aspose.cells.gridweb.data/gridpicture/linkedcell/) { get; set; } | Gets or sets the worksheet range linked to the control's value. |
 | [LowerDeltaX](../../aspose.cells.gridweb.data/gridpicture/lowerdeltax/) { get; set; } | Gets or sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024. |
 | [LowerDeltaY](../../aspose.cells.gridweb.data/gridpicture/lowerdeltay/) { get; set; } | Gets or sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256. |
@@ -62,6 +63,7 @@ public class GridPicture
 | [Top](../../aspose.cells.gridweb.data/gridpicture/top/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [TopCM](../../aspose.cells.gridweb.data/gridpicture/topcm/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [TopInch](../../aspose.cells.gridweb.data/gridpicture/topinch/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of inches. |
+| [TopToCorner](../../aspose.cells.gridweb.data/gridpicture/toptocorner/) { get; set; } | Represents the vertical offset of shape from worksheet top board, in unit of pixels. |
 | [UpperDeltaX](../../aspose.cells.gridweb.data/gridpicture/upperdeltax/) { get; set; } | Gets or sets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024. |
 | [UpperDeltaY](../../aspose.cells.gridweb.data/gridpicture/upperdeltay/) { get; set; } | Gets or sets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256. |
 | [UpperLeftColumn](../../aspose.cells.gridweb.data/gridpicture/upperleftcolumn/) { get; set; } | Represents upper left corner column index. |

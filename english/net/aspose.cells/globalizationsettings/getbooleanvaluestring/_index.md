@@ -19,7 +19,7 @@ public virtual string GetBooleanValueString(bool bv)
 
 ### Return Value
 
-Default returns "TRUE" for true value and "FALSE" for false value.
+By default returns "TRUE" for true value and "FALSE" for false value.
 
 ### See Also
 

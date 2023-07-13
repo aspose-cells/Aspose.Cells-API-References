@@ -1,13 +1,13 @@
 ---
 title: JsonLayoutOptions.ConvertNumericOrDate
 second_title: Aspose.Cells for .NET API Reference
-description: JsonLayoutOptions property. Gets or sets a value that indicates whether the string in json is converted to numeric or date
+description: JsonLayoutOptions property. Indicates whether converting the string in json to numeric or date value
 type: docs
 url: /net/aspose.cells.utility/jsonlayoutoptions/convertnumericordate/
 ---
 ## JsonLayoutOptions.ConvertNumericOrDate property
 
-Gets or sets a value that indicates whether the string in json is converted to numeric or date.
+Indicates whether converting the string in json to numeric or date value.
 
 ```csharp
 public bool ConvertNumericOrDate { get; set; }

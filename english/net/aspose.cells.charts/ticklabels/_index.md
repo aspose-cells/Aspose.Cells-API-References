@@ -30,7 +30,7 @@ public class TickLabels
 | [ReadingOrder](../../aspose.cells.charts/ticklabels/readingorder/) { get; set; } | Represents text reading order. |
 | [RotationAngle](../../aspose.cells.charts/ticklabels/rotationangle/) { get; set; } | Represents text rotation angle in clockwise. |
 | [TextDirection](../../aspose.cells.charts/ticklabels/textdirection/) { get; set; } | (**Obsolete.**) Represents text reading order. |
-| [TickLabelItems](../../aspose.cells.charts/ticklabels/ticklabelitems/) { get; } | Gets the items' info of TickLabel. |
+| [TickLabelItems](../../aspose.cells.charts/ticklabels/ticklabelitems/) { get; } | Gets each tick label item's information of axis. |
 
 ### See Also
 

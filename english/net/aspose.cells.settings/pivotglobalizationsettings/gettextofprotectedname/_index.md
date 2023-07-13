@@ -1,13 +1,13 @@
 ---
 title: PivotGlobalizationSettings.GetTextOfProtectedName
 second_title: Aspose.Cells for .NET API Reference
-description: PivotGlobalizationSettings method. In Excelsome names are not allowed to be the PivotFields name of PivotTable. They are different in different region
+description: PivotGlobalizationSettings method. Gets the text for specified protected name
 type: docs
 url: /net/aspose.cells.settings/pivotglobalizationsettings/gettextofprotectedname/
 ---
 ## PivotGlobalizationSettings.GetTextOfProtectedName method
 
-In Excel,some names are not allowed to be the PivotFields' name of PivotTable. They are different in different region.
+Gets the text for specified protected name.
 
 ```csharp
 public virtual string GetTextOfProtectedName(string protectedName)
@@ -20,6 +20,10 @@ public virtual string GetTextOfProtectedName(string protectedName)
 ### Return Value
 
 The local prorected names of PivotTable.
+
+### Remarks
+
+In Ms Excel, some names are not allowed to be used as the name of PivotFields in PivotTable. They are different in different region, user may specify them explicitly according to the used region.
 
 ### See Also
 

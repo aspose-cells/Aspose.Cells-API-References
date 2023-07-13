@@ -129,6 +129,7 @@ public class GroupShape : Shape
 | [Characters](../../aspose.cells.drawing/shape/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text.(Inherited from [`Shape`](../shape/).) |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/)(int, int, Font) | (**Obsolete.**) Formats some characters with the font setting.(Inherited from [`Shape`](../shape/).) |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/)(int, int, Font, StyleFlag) | Formats some characters with the font setting.(Inherited from [`Shape`](../shape/).) |
+| [GetActualBox](../../aspose.cells.drawing/shape/getactualbox/)() | Get the actual position and size of the shape (after applying rotation, flip, etc.)(Inherited from [`Shape`](../shape/).) |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters/)() | Returns all Characters objects that represents a range of characters within the text .(Inherited from [`Shape`](../shape/).) |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints/)() | Get the connection points(Inherited from [`Shape`](../shape/).) |
 | [GetGroupedShapes](../../aspose.cells.drawing/groupshape/getgroupedshapes/)() | Gets the shapes grouped by this shape. |

@@ -60,6 +60,7 @@ public class HtmlLoadOptions : AbstractTextLoadOptions
 | [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize/) { get; set; } | (**Obsolete.**) Sets the default standard font size.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [StreamProvider](../../aspose.cells/htmlloadoptions/streamprovider/) { get; set; } | Gets or sets the StreamProviderImportHtmlFile for importing objects. |
 | [SupportDivTag](../../aspose.cells/htmlloadoptions/supportdivtag/) { get; set; } | Indicates whether support the layout of &lt;div&gt; tag when the html file contains &lt;div&gt; tags. The default value is false. |
+| [TableLoadOptioins](../../aspose.cells/htmlloadoptions/tableloadoptioins/) { get; } | Get the HtmlTableLoadOptionCollection instance |
 | [WarningCallback](../../aspose.cells/loadoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`LoadOptions`](../loadoptions/).) |
 
 ## Methods

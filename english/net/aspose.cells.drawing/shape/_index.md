@@ -128,6 +128,7 @@ public class Shape
 | [Characters](../../aspose.cells.drawing/shape/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text. |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/#formatcharacters)(int, int, Font) | (**Obsolete.**) Formats some characters with the font setting. |
 | [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/#formatcharacters_1)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
+| [GetActualBox](../../aspose.cells.drawing/shape/getactualbox/)() | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters/)() | Returns all Characters objects that represents a range of characters within the text . |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints/)() | Get the connection points |
 | [GetInputRange](../../aspose.cells.drawing/shape/getinputrange/)(bool, bool) | Gets the range used to fill the control. |
