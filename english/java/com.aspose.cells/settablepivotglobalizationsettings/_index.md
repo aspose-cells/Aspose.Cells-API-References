@@ -1,23 +1,23 @@
 ---
-title: PivotGlobalizationSettings
+title: SettablePivotGlobalizationSettings
 second_title: Aspose.Cells for Java API Reference
-description: Represents the globalization settings for pivot tables.
+description: Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts.
 type: docs
-url: /java/com.aspose.cells/pivotglobalizationsettings/
+url: /java/com.aspose.cells/settablepivotglobalizationsettings/
 ---
 
 **Inheritance:**
-java.lang.Object
+java.lang.Object, [com.aspose.cells.PivotGlobalizationSettings](../../com.aspose.cells/pivotglobalizationsettings)
 ```
-public class PivotGlobalizationSettings
+public class SettablePivotGlobalizationSettings extends PivotGlobalizationSettings
 ```
 
-Represents the globalization settings for pivot tables.
+Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PivotGlobalizationSettings()](#PivotGlobalizationSettings--) |  |
+| [SettablePivotGlobalizationSettings()](#SettablePivotGlobalizationSettings--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,13 +38,23 @@ Represents the globalization settings for pivot tables.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setTextOfAll(String text)](#setTextOfAll-java.lang.String-) | Sets the text of "(All)" label in the PivotTable. |
+| [setTextOfColumnLabels(String text)](#setTextOfColumnLabels-java.lang.String-) | Gets the text of "Column Labels" label in the PivotTable. |
+| [setTextOfDataFieldHeader(String text)](#setTextOfDataFieldHeader-java.lang.String-) | Sets the the text of the value area field header in the PivotTable. |
+| [setTextOfEmptyData(String text)](#setTextOfEmptyData-java.lang.String-) | Sets the text of "(blank)" label in the PivotTable. |
+| [setTextOfGrandTotal(String text)](#setTextOfGrandTotal-java.lang.String-) | Sets the text of "Grand Total" label in the PivotTable. |
+| [setTextOfMultipleItems(String text)](#setTextOfMultipleItems-java.lang.String-) | Sets the text of "(Multiple Items)" label in the PivotTable. |
+| [setTextOfProtectedName(String protectedName, String text)](#setTextOfProtectedName-java.lang.String-java.lang.String-) | Sets the text for specific protected name. |
+| [setTextOfRowLabels(String text)](#setTextOfRowLabels-java.lang.String-) | Sets the text of "Row Labels" label in the PivotTable. |
+| [setTextOfSubTotal(int subTotalType, String text)](#setTextOfSubTotal-int-java.lang.String-) | Sets the text of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type in the PivotTable. |
+| [setTextOfTotal(String text)](#setTextOfTotal-java.lang.String-) | Sets the text of "Total" label in the PivotTable. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### PivotGlobalizationSettings() {#PivotGlobalizationSettings--}
+### SettablePivotGlobalizationSettings() {#SettablePivotGlobalizationSettings--}
 ```
-public PivotGlobalizationSettings()
+public SettablePivotGlobalizationSettings()
 ```
 
 
@@ -218,6 +228,138 @@ public final native void notifyAll()
 
 
 
+
+### setTextOfAll(String text) {#setTextOfAll-java.lang.String-}
+```
+public void setTextOfAll(String text)
+```
+
+
+Sets the text of "(All)" label in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | custom text |
+
+### setTextOfColumnLabels(String text) {#setTextOfColumnLabels-java.lang.String-}
+```
+public void setTextOfColumnLabels(String text)
+```
+
+
+Gets the text of "Column Labels" label in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text of column labels |
+
+### setTextOfDataFieldHeader(String text) {#setTextOfDataFieldHeader-java.lang.String-}
+```
+public void setTextOfDataFieldHeader(String text)
+```
+
+
+Sets the the text of the value area field header in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text of data field header name |
+
+### setTextOfEmptyData(String text) {#setTextOfEmptyData-java.lang.String-}
+```
+public void setTextOfEmptyData(String text)
+```
+
+
+Sets the text of "(blank)" label in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text of empty data |
+
+### setTextOfGrandTotal(String text) {#setTextOfGrandTotal-java.lang.String-}
+```
+public void setTextOfGrandTotal(String text)
+```
+
+
+Sets the text of "Grand Total" label in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | custom text |
+
+### setTextOfMultipleItems(String text) {#setTextOfMultipleItems-java.lang.String-}
+```
+public void setTextOfMultipleItems(String text)
+```
+
+
+Sets the text of "(Multiple Items)" label in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | custom text |
+
+### setTextOfProtectedName(String protectedName, String text) {#setTextOfProtectedName-java.lang.String-java.lang.String-}
+```
+public void setTextOfProtectedName(String protectedName, String text)
+```
+
+
+Sets the text for specific protected name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| protectedName | java.lang.String | The protected name in PivotTable. |
+| text | java.lang.String | The local prorected names of PivotTable. |
+
+### setTextOfRowLabels(String text) {#setTextOfRowLabels-java.lang.String-}
+```
+public void setTextOfRowLabels(String text)
+```
+
+
+Sets the text of "Row Labels" label in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text of row labels |
+
+### setTextOfSubTotal(int subTotalType, String text) {#setTextOfSubTotal-int-java.lang.String-}
+```
+public void setTextOfSubTotal(int subTotalType, String text)
+```
+
+
+Sets the text of [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) type in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subTotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). The [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype) |
+| text | java.lang.String | The text of given type |
+
+### setTextOfTotal(String text) {#setTextOfTotal-java.lang.String-}
+```
+public void setTextOfTotal(String text)
+```
+
+
+Sets the text of "Total" label in the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | custom text |
 
 ### toString() {#toString--}
 ```

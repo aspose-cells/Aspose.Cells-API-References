@@ -1,29 +1,36 @@
 ---
-title: PivotTableFormatCollection
+title: HtmlTableLoadOptionCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents the collection of formats applied to PivotTable.
+description: Represents the table options when import html.
 type: docs
-url: /java/com.aspose.cells/pivottableformatcollection/
+url: /java/com.aspose.cells/htmltableloadoptioncollection/
 ---
 
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
 ```
-public class PivotTableFormatCollection extends CollectionBase
+public class HtmlTableLoadOptionCollection extends CollectionBase
 ```
 
-Represents the collection of formats applied to PivotTable.
+Represents the table options when import html.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [HtmlTableLoadOptionCollection()](#HtmlTableLoadOptionCollection--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add()](#add--) | Add a [PivotTableFormat](../../com.aspose.cells/pivottableformat). |
+| [add(HtmlTableLoadOption item)](#add-com.aspose.cells.HtmlTableLoadOption-) | Adds one HtmlTableLoadOption into this collection. |
+| [add(int tableIndex)](#add-int-) | Add a HtmlTableLoadOption to the list. |
+| [add(int tableIndex, int targetSheetIndex)](#add-int-int-) | Add a HtmlTableLoadOption to the list. |
+| [add(int tableIndex, int targetSheetIndex, int originalSheetIndex)](#add-int-int-int-) | Add a HtmlTableLoadOption to the list. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [formatArea(int axisType, int fieldPosition, int subtotalType, int selectionType, boolean isGrandRow, boolean isGrandColumn, Style style)](#formatArea-int-int-int-int-boolean-boolean-com.aspose.cells.Style-) | Formats selected area. |
-| [get(int index)](#get-int-) | Gets the format by the index. |
+| [get(int index)](#get-int-) | Gets the [HtmlTableLoadOption](../../com.aspose.cells/htmltableloadoption) element at the specified index. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [hashCode()](#hashCode--) |  |
@@ -36,16 +43,75 @@ Represents the collection of formats applied to PivotTable.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add() {#add--}
+### HtmlTableLoadOptionCollection() {#HtmlTableLoadOptionCollection--}
 ```
-public int add()
+public HtmlTableLoadOptionCollection()
 ```
 
 
-Add a [PivotTableFormat](../../com.aspose.cells/pivottableformat).
+### add(HtmlTableLoadOption item) {#add-com.aspose.cells.HtmlTableLoadOption-}
+```
+public int add(HtmlTableLoadOption item)
+```
+
+
+Adds one HtmlTableLoadOption into this collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | [HtmlTableLoadOption](../../com.aspose.cells/htmltableloadoption) | one HtmlTableLoadOption |
 
 **Returns:**
-int - The index of new format.
+int - the index of the added item
+### add(int tableIndex) {#add-int-}
+```
+public int add(int tableIndex)
+```
+
+
+Add a HtmlTableLoadOption to the list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableIndex | int | Table index |
+
+**Returns:**
+int - 
+### add(int tableIndex, int targetSheetIndex) {#add-int-int-}
+```
+public int add(int tableIndex, int targetSheetIndex)
+```
+
+
+Add a HtmlTableLoadOption to the list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableIndex | int | Table index |
+| targetSheetIndex | int | Worksheet index |
+
+**Returns:**
+int
+### add(int tableIndex, int targetSheetIndex, int originalSheetIndex) {#add-int-int-int-}
+```
+public int add(int tableIndex, int targetSheetIndex, int originalSheetIndex)
+```
+
+
+Add a HtmlTableLoadOption to the list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableIndex | int | Table index |
+| targetSheetIndex | int | The target index of worksheet where table to export to |
+| originalSheetIndex | int | The original index of worksheet in the html |
+
+**Returns:**
+int
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -99,42 +165,21 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### formatArea(int axisType, int fieldPosition, int subtotalType, int selectionType, boolean isGrandRow, boolean isGrandColumn, Style style) {#formatArea-int-int-int-int-boolean-boolean-com.aspose.cells.Style-}
-```
-public PivotTableFormat formatArea(int axisType, int fieldPosition, int subtotalType, int selectionType, boolean isGrandRow, boolean isGrandColumn, Style style)
-```
-
-
-Formats selected area.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region of the PivotTable to which this rule applies. |
-| fieldPosition | int | Position of the field within the axis to which this rule applies. |
-| subtotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). The subtotal filter type of the pivot field |
-| selectionType | int | [PivotTableSelectionType](../../com.aspose.cells/pivottableselectiontype). Indicates how to select data. |
-| isGrandRow | boolean | Indicates whether selecting grand total rows. |
-| isGrandColumn | boolean | Indicates whether selecting grand total columns. |
-| style | [Style](../../com.aspose.cells/style) | The style which appies to the area of the pivot table. |
-
-**Returns:**
-[PivotTableFormat](../../com.aspose.cells/pivottableformat) - 
 ### get(int index) {#get-int-}
 ```
-public PivotTableFormat get(int index)
+public HtmlTableLoadOption get(int index)
 ```
 
 
-Gets the format by the index.
+Gets the [HtmlTableLoadOption](../../com.aspose.cells/htmltableloadoption) element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The index. |
+| index | int | The zero based index of the element. |
 
 **Returns:**
-[PivotTableFormat](../../com.aspose.cells/pivottableformat) - 
+[HtmlTableLoadOption](../../com.aspose.cells/htmltableloadoption) - The element at the specified index.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

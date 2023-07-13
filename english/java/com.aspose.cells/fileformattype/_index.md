@@ -27,7 +27,6 @@ Represents the file format types.
 | [DOTX](#DOTX) | Represents a dotx file. |
 | [EMF](#EMF) | Windows Enhanced Metafile. |
 | [EXCEL_2](#EXCEL-2) | Represents an Excel2.1 xls file. |
-| [EXCEL_2003_XML](#EXCEL-2003-XML) | Excel 2003 XML Data file. |
 | [EXCEL_3](#EXCEL-3) | Represents an Excel3.0 xls file. |
 | [EXCEL_4](#EXCEL-4) | Represents an Excel4.0 xls file. |
 | [EXCEL_95](#EXCEL-95) | Represents an Excel95 xls file. |
@@ -41,11 +40,12 @@ Represents the file format types.
 | [JSON](#JSON) | Json |
 | [MAPI_MESSAGE](#MAPI-MESSAGE) | Represents a email file. |
 | [MARKDOWN](#MARKDOWN) | Represents markdown document. |
+| [MICROSOFT_CABINET](#MICROSOFT-CABINET) | ///  Rrepesents Microsoft Cabinet file. |
 | [MS_EQUATION](#MS-EQUATION) | Represents the MS Equation 3.0 object. |
 | [M_HTML](#M-HTML) | MHTML (Web archive) format. |
 | [NUMBERS](#NUMBERS) | Represents Numbers 9.0 file format by Apple Inc. |
 | [NUMBERS_09](#NUMBERS-09) | Represents Numbers 9.0 file format by Apple Inc. |
-| [NUMBERS_35](#NUMBERS-35) | Represents Numbers 3.5 file format since 2014 by Apple Inc The file format is not supported. |
+| [NUMBERS_35](#NUMBERS-35) | Represents Numbers 3.5 file format since 2014 by Apple Inc |
 | [ODF](#ODF) | Represents an ODF file. |
 | [ODG](#ODG) | Represents an ODG file. |
 | [ODP](#ODP) | Represents a ODP file. |
@@ -66,6 +66,7 @@ Represents the file format types.
 | [PPT](#PPT) | Represents a ppt file. |
 | [PPTM](#PPTM) | Represents a pptm file. |
 | [PPTX](#PPTX) | Represents a pptx file. |
+| [RTF](#RTF) |  |
 | [SPREADSHEET_ML](#SPREADSHEET-ML) | Excel 2003 XML Data file. |
 | [SQL_SCRIPT](#SQL-SCRIPT) | Sql |
 | [SVG](#SVG) | SVG file. |
@@ -180,14 +181,6 @@ public static final int EXCEL_2
 
 Represents an Excel2.1 xls file. The file format is not supported
 
-### EXCEL_2003_XML {#EXCEL-2003-XML}
-```
-public static final int EXCEL_2003_XML
-```
-
-
-Excel 2003 XML Data file. NOTE: This member is now obsolete. Instead, please use [SPREADSHEET\_ML](../../com.aspose.cells/fileformattype\#SPREADSHEET-ML) property. This property will be removed 6 months later since April 2021. Aspose apologizes for any inconvenience you may have experienced.
-
 ### EXCEL_3 {#EXCEL-3}
 ```
 public static final int EXCEL_3
@@ -292,6 +285,14 @@ public static final int MARKDOWN
 
 Represents markdown document.
 
+### MICROSOFT_CABINET {#MICROSOFT-CABINET}
+```
+public static final int MICROSOFT_CABINET
+```
+
+
+///  Rrepesents Microsoft Cabinet file. The file format is not supported Only for detecting file type.
+
 ### MS_EQUATION {#MS-EQUATION}
 ```
 public static final int MS_EQUATION
@@ -330,7 +331,7 @@ public static final int NUMBERS_35
 ```
 
 
-Represents Numbers 3.5 file format since 2014 by Apple Inc The file format is not supported. Only for detecting file type.
+Represents Numbers 3.5 file format since 2014 by Apple Inc
 
 ### ODF {#ODF}
 ```
@@ -491,6 +492,14 @@ public static final int PPTX
 
 
 Represents a pptx file. The file format is not supported Only for detecting file type.
+
+### RTF {#RTF}
+```
+public static final int RTF
+```
+
+
+
 
 ### SPREADSHEET_ML {#SPREADSHEET-ML}
 ```

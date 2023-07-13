@@ -25,7 +25,7 @@ Represents the options of json layout type.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArrayAsTable()](#getArrayAsTable--) | Processes Array as table. |
 | [getClass()](#getClass--) |  |
-| [getConvertNumericOrDate()](#getConvertNumericOrDate--) | Gets a value that indicates whether the string in json is converted to numeric or date. |
+| [getConvertNumericOrDate()](#getConvertNumericOrDate--) | Indicates whether converting the string in json to numeric or date value. |
 | [getDateFormat()](#getDateFormat--) | Gets the format of date value. |
 | [getIgnoreArrayTitle()](#getIgnoreArrayTitle--) | Indicates whether ignore title if array is a property of object. |
 | [getIgnoreNull()](#getIgnoreNull--) | Indicates whether ignoring null value. |
@@ -37,7 +37,7 @@ Represents the options of json layout type.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setArrayAsTable(boolean value)](#setArrayAsTable-boolean-) | Processes Array as table. |
-| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | Sets a value that indicates whether the string in json is converted to numeric or date. |
+| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | Indicates whether converting the string in json to numeric or date value. |
 | [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Sets the format of date value. |
 | [setIgnoreArrayTitle(boolean value)](#setIgnoreArrayTitle-boolean-) | Indicates whether ignore title if array is a property of object. |
 | [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | Indicates whether ignoring null value. |
@@ -96,7 +96,7 @@ public boolean getConvertNumericOrDate()
 ```
 
 
-Gets a value that indicates whether the string in json is converted to numeric or date.
+Indicates whether converting the string in json to numeric or date value.
 
 **Returns:**
 boolean
@@ -215,7 +215,7 @@ public void setConvertNumericOrDate(boolean value)
 ```
 
 
-Sets a value that indicates whether the string in json is converted to numeric or date.
+Indicates whether converting the string in json to numeric or date value.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -290,6 +290,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlLinkTargetType](../com.aspose.cells/htmllinktargettype) | Represents the type of target attribute in HTML  tag. |
 | [HtmlLoadOptions](../com.aspose.cells/htmlloadoptions) | Represents options when importing a html file. |
 | [HtmlSaveOptions](../com.aspose.cells/htmlsaveoptions) | Represents the options for saving html file. |
+| [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when import table from html. |
+| [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when import html. |
 | [Hyperlink](../com.aspose.cells/hyperlink) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](../com.aspose.cells/hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../com.aspose.cells/hyperlink) objects. |
 | [IconFilter](../com.aspose.cells/iconfilter) | Represents icon filter. |
@@ -535,6 +537,9 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Series](../com.aspose.cells/series) | Encapsulates the object that represents a single data series in a chart. |
 | [SeriesCollection](../com.aspose.cells/seriescollection) | Encapsulates a collection of [Series](../com.aspose.cells/series) objects. |
 | [SeriesLayoutProperties](../com.aspose.cells/serieslayoutproperties) | Represents the properties of series layout. |
+| [SettableChartGlobalizationSettings](../com.aspose.cells/settablechartglobalizationsettings) | Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts. |
+| [SettableGlobalizationSettings](../com.aspose.cells/settableglobalizationsettings) | Implementation of GlobalizationSettings that supports user to set/change pre-defined texts. |
+| [SettablePivotGlobalizationSettings](../com.aspose.cells/settablepivotglobalizationsettings) | Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts. |
 | [ShadowEffect](../com.aspose.cells/shadoweffect) | This class specifies the shadow effect of the chart element or shape. |
 | [Shape](../com.aspose.cells/shape) | Represents the msodrawing object. |
 | [ShapeAnchorType](../com.aspose.cells/shapeanchortype) | Represents the anchor type. |

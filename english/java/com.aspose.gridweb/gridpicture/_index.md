@@ -41,6 +41,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getLeft()](#getLeft--) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [getLeftCM()](#getLeftCM--) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
 | [getLeftInch()](#getLeftInch--) | Represents the horizontal offset of shape from its left column, in unit of inches. |
+| [getLeftToCorner()](#getLeftToCorner--) | Represents the horizontal offset of shape from worksheet left board, in unit of pixels. |
 | [getLinkedCell()](#getLinkedCell--) | Gets the worksheet range linked to the control's value. |
 | [getLowerDeltaX()](#getLowerDeltaX--) | Gets the shape's horizontal offset from its lower right corner column. |
 | [getLowerDeltaY()](#getLowerDeltaY--) | Gets the shape's vertical offset from its lower right corner row. |
@@ -62,6 +63,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getTop()](#getTop--) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [getTopCM()](#getTopCM--) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [getTopInch()](#getTopInch--) | Represents the vertical offset of shape from its top row, in unit of inches. |
+| [getTopToCorner()](#getTopToCorner--) | Represents the vertical offset of shape from worksheet top board, in unit of pixels. |
 | [getUpperDeltaX()](#getUpperDeltaX--) | Gets the shape's horizontal offset from its upper left corner column. |
 | [getUpperDeltaY()](#getUpperDeltaY--) | Gets the shape's vertical offset from its upper left corner row. |
 | [getUpperLeftColumn()](#getUpperLeftColumn--) | Represents upper left corner column index. |
@@ -106,6 +108,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [setLeft(int value)](#setLeft-int-) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [setLeftCM(double value)](#setLeftCM-double-) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
 | [setLeftInch(double value)](#setLeftInch-double-) | Represents the horizontal offset of shape from its left column, in unit of inches. |
+| [setLeftToCorner(int value)](#setLeftToCorner-int-) | Represents the horizontal offset of shape from worksheet left board, in unit of pixels. |
 | [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the worksheet range linked to the control's value. |
 | [setLockAspectRatio(boolean value)](#setLockAspectRatio-boolean-) | True means that don't allow changes in aspect ratio. |
 | [setLocked(boolean value)](#setLocked-boolean-) | True if the object is locked, False if the object can be modified when the sheet is protected. |
@@ -124,6 +127,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [setTop(int value)](#setTop-int-) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [setTopCM(double value)](#setTopCM-double-) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [setTopInch(double value)](#setTopInch-double-) | Represents the vertical offset of shape from its top row, in unit of inches. |
+| [setTopToCorner(int value)](#setTopToCorner-int-) | Represents the vertical offset of shape from worksheet top board, in unit of pixels. |
 | [setUpperDeltaX(int value)](#setUpperDeltaX-int-) | Sets the shape's horizontal offset from its upper left corner column. |
 | [setUpperDeltaY(int value)](#setUpperDeltaY-int-) | Sets the shape's vertical offset from its upper left corner row. |
 | [setUpperLeftColumn(int value)](#setUpperLeftColumn-int-) | Represents upper left corner column index. |
@@ -364,6 +368,16 @@ Represents the horizontal offset of shape from its left column, in unit of inche
 
 **Returns:**
 double
+### getLeftToCorner() {#getLeftToCorner--}
+```
+public int getLeftToCorner()
+```
+
+
+Represents the horizontal offset of shape from worksheet left board, in unit of pixels.
+
+**Returns:**
+int
 ### getLinkedCell() {#getLinkedCell--}
 ```
 public String getLinkedCell()
@@ -574,6 +588,16 @@ Represents the vertical offset of shape from its top row, in unit of inches.
 
 **Returns:**
 double
+### getTopToCorner() {#getTopToCorner--}
+```
+public int getTopToCorner()
+```
+
+
+Represents the vertical offset of shape from worksheet top board, in unit of pixels.
+
+**Returns:**
+int
 ### getUpperDeltaX() {#getUpperDeltaX--}
 ```
 public int getUpperDeltaX()
@@ -1075,6 +1099,19 @@ Represents the horizontal offset of shape from its left column, in unit of inche
 | --- | --- | --- |
 | value | double |  |
 
+### setLeftToCorner(int value) {#setLeftToCorner-int-}
+```
+public void setLeftToCorner(int value)
+```
+
+
+Represents the horizontal offset of shape from worksheet left board, in unit of pixels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setLinkedCell(String value) {#setLinkedCell-java.lang.String-}
 ```
 public void setLinkedCell(String value)
@@ -1308,6 +1345,19 @@ Represents the vertical offset of shape from its top row, in unit of inches.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
+
+### setTopToCorner(int value) {#setTopToCorner-int-}
+```
+public void setTopToCorner(int value)
+```
+
+
+Represents the vertical offset of shape from worksheet top board, in unit of pixels.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setUpperDeltaX(int value) {#setUpperDeltaX-int-}
 ```

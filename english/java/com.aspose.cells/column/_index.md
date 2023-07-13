@@ -151,7 +151,7 @@ public double getWidth()
 ```
 
 
-Gets the column width in unit of characters.
+Gets the column width in unit of characters. For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 
 **Returns:**
 double
@@ -269,7 +269,7 @@ public void setWidth(double value)
 ```
 
 
-Sets the column width in unit of characters.
+Sets the column width in unit of characters. For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 
 **Parameters:**
 | Parameter | Type | Description |

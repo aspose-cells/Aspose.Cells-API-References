@@ -25,6 +25,7 @@ Represents a radio button.
 | [formatCharacters(int startIndex, int length, Font font)](#formatCharacters-int-int-com.aspose.cells.Font-) | Formats some characters with the font setting. |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Formats some characters with the font setting. |
 | [getActiveXControl()](#getActiveXControl--) | Gets the ActiveX control. |
+| [getActualBox()](#getActualBox--) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [getActualLowerRightRow()](#getActualLowerRightRow--) | Get the actual bottom row. |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object. |
 | [getAnchorType()](#getAnchorType--) | Gets the shape anchor placeholder. |
@@ -73,7 +74,7 @@ Represents a radio button.
 | [getMacroName()](#getMacroName--) | Gets the name of macro. |
 | [getMsoDrawingType()](#getMsoDrawingType--) | Gets mso drawing type. |
 | [getName()](#getName--) | Gets the name of the shape. |
-| [getOptionIndex()](#getOptionIndex--) | Gets the option index in all the radio buttons of the GroupBox which contains this radio button. |
+| [getOptionIndex()](#getOptionIndex--) | Gets the option index (one-based) in all the radio buttons of the GroupBox which contains this radio button. |
 | [getPaths()](#getPaths--) | Gets the paths of a custom geometric shape. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
 | [getPositionX()](#getPositionX--) | Gets the horizonal offset of shape from worksheet left border,in unit of pixels. |
@@ -379,6 +380,16 @@ Gets the ActiveX control.
 
 **Returns:**
 [ActiveXControl](../../com.aspose.cells/activexcontrol)
+### getActualBox() {#getActualBox--}
+```
+public float[] getActualBox()
+```
+
+
+Get the actual position and size of the shape (after applying rotation, flip, etc.) Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+**Returns:**
+float[] - Return the position and size in the order of x, y, w, h
 ### getActualLowerRightRow() {#getActualLowerRightRow--}
 ```
 public int getActualLowerRightRow()
@@ -1162,7 +1173,7 @@ public int getOptionIndex()
 ```
 
 
-Gets the option index in all the radio buttons of the GroupBox which contains this radio button. If this radio button is not in the GroupBox, returns the option index in all radio buttons that are not in any GroupBox
+Gets the option index (one-based) in all the radio buttons of the GroupBox which contains this radio button. If this radio button is not in the GroupBox, returns the option index in all radio buttons that are not in any GroupBox
 
 **Returns:**
 int - 

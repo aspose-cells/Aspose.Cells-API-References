@@ -106,7 +106,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getCellStyle(int row, int column)](#getCellStyle-int-int-) | Get the style of given cell. |
 | [getClass()](#getClass--) |  |
 | [getColumn(int columnIndex)](#getColumn-int-) | Gets the [Column](../../com.aspose.cells/column) element or at the specified cell row index. |
-| [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width of the specified column in normal view |
+| [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width(in unit of characters) of the specified column in normal view |
 | [getColumnWidthInch(int column)](#getColumnWidthInch-int-) | Gets the width of the specified column in normal view, in units of inches. |
 | [getColumnWidthPixel(int column)](#getColumnWidthPixel-int-) | Gets the width of the specified column in normal view, in units of pixel. |
 | [getColumns()](#getColumns--) | Gets the collection of [Column](../../com.aspose.cells/column) objects that represents the individual columns in this worksheet. |
@@ -138,7 +138,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getRanges()](#getRanges--) | Gets the collection of [Range](../../com.aspose.cells/range) objects created at run time. |
 | [getRow(int row)](#getRow-int-) | Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index. |
 | [getRowEnumerator()](#getRowEnumerator--) | Gets the rows enumerator. |
-| [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of a specified row. |
+| [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of a specified row, in unit of points. |
 | [getRowHeightInch(int row)](#getRowHeightInch-int-) | Gets the height of a specified row in unit of inches. |
 | [getRowHeightPixel(int row)](#getRowHeightPixel-int-) | Gets the height of a specified row in unit of pixel. |
 | [getRowOriginalHeightPoint(int row)](#getRowOriginalHeightPoint-int-) | Gets original row's height in unit of point if the row is hidden |
@@ -1131,7 +1131,7 @@ public double getColumnWidth(int column)
 ```
 
 
-Gets the width of the specified column in normal view
+Gets the width(in unit of characters) of the specified column in normal view
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1139,7 +1139,7 @@ Gets the width of the specified column in normal view
 | column | int | Column index |
 
 **Returns:**
-double - Width of column
+double - Width of column. For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 ### getColumnWidthInch(int column) {#getColumnWidthInch-int-}
 ```
 public double getColumnWidthInch(int column)
@@ -1500,7 +1500,7 @@ public double getRowHeight(int row)
 ```
 
 
-Gets the height of a specified row.
+Gets the height of a specified row, in unit of points.
 
 **Parameters:**
 | Parameter | Type | Description |

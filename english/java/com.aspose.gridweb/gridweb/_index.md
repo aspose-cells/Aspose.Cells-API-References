@@ -149,7 +149,7 @@ public class GridWeb extends MainWeb
 | [getSettings()](#getSettings--) | Represents the workbook settings. |
 | [getShapesTable()](#getShapesTable--) |  |
 | [getShowAddButton()](#getShowAddButton--) | Gets whether to show the add worksheet button. |
-| [getShowBottomBar()](#getShowBottomBar--) |  |
+| [getShowBottomBar()](#getShowBottomBar--) | Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control. |
 | [getShowCellEditBox()](#getShowCellEditBox--) | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. |
 | [getShowCommandBarAtTop()](#getShowCommandBarAtTop--) | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
 | [getShowContextMenu()](#getShowContextMenu--) |  |
@@ -296,7 +296,7 @@ public class GridWeb extends MainWeb
 | [setSessionStorePath(String value)](#setSessionStorePath-java.lang.String-) | Sets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridweb.GridWorkbookSettings-) | Represents the workbook settings. |
 | [setShowAddButton(boolean value)](#setShowAddButton-boolean-) | Sets whether to show the add worksheet button. |
-| [setShowBottomBar(boolean value)](#setShowBottomBar-boolean-) |  |
+| [setShowBottomBar(boolean value)](#setShowBottomBar-boolean-) | Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control. |
 | [setShowCellEditBox(boolean value)](#setShowCellEditBox-boolean-) | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. |
 | [setShowCommandBarAtTop(boolean value)](#setShowCommandBarAtTop-boolean-) | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
 | [setShowContextMenu(boolean value)](#setShowContextMenu-boolean-) |  |
@@ -1714,7 +1714,7 @@ public boolean getShowBottomBar()
 ```
 
 
-
+Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control.
 
 **Returns:**
 boolean
@@ -3635,7 +3635,7 @@ public void setShowBottomBar(boolean value)
 ```
 
 
-
+Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control.
 
 **Parameters:**
 | Parameter | Type | Description |

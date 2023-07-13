@@ -60,6 +60,7 @@ Represents options when importing a html file.
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the StreamProviderImportHtmlFile for importing objects. |
 | [getSupportDivTag()](#getSupportDivTag--) | Indicates whether support the layout of <div> tag when the html file contains <div> tags. |
+| [getTableLoadOptioins()](#getTableLoadOptioins--) | Get the HtmlTableLoadOptionCollection instance |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hasFormula()](#hasFormula--) | Indicates whether the text is formula if it starts with "=". |
 | [hashCode()](#hashCode--) |  |
@@ -500,6 +501,16 @@ Indicates whether support the layout of <div> tag when the html file contains <d
 
 **Returns:**
 boolean
+### getTableLoadOptioins() {#getTableLoadOptioins--}
+```
+public HtmlTableLoadOptionCollection getTableLoadOptioins()
+```
+
+
+Get the HtmlTableLoadOptionCollection instance
+
+**Returns:**
+[HtmlTableLoadOptionCollection](../../com.aspose.cells/htmltableloadoptioncollection)
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()

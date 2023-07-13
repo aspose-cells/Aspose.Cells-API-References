@@ -30,9 +30,12 @@ Represents the options of loading xml.
 | [getCheckDataValid()](#getCheckDataValid--) | Check whether data is valid in the template file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
+| [getConvertNumericOrDate()](#getConvertNumericOrDate--) | Indicates whether converting the value in xml file to numeric or date. |
+| [getDateFormat()](#getDateFormat--) | Gets the format of date value. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [getIgnoreRootAttributes()](#getIgnoreRootAttributes--) | Indicates whether ignore attributes of the root element. |
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--) | Indicates whether ignoring useless shapes. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
@@ -42,6 +45,7 @@ Represents the options of loading xml.
 | [getLoadFormat()](#getLoadFormat--) | Gets the load format. |
 | [getLocale()](#getLocale--) | Gets the Locale used for workbook at the time the file was loaded. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
+| [getNumberFormat()](#getNumberFormat--) | Gets the format of numeric value. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
@@ -59,8 +63,11 @@ Represents the options of loading xml.
 | [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | Check whether data is valid in the template file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setContainsMultipleWorksheets(boolean value)](#setContainsMultipleWorksheets-boolean-) | Indicates whether importing xml as multiple worksheets. |
+| [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | Indicates whether converting the value in xml file to numeric or date. |
+| [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Sets the format of date value. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [setIgnoreRootAttributes(boolean value)](#setIgnoreRootAttributes-boolean-) | Indicates whether ignore attributes of the root element. |
 | [setIgnoreUselessShapes(boolean value)](#setIgnoreUselessShapes-boolean-) | Indicates whether ignoring useless shapes. |
 | [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
 | [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
@@ -69,6 +76,7 @@ Represents the options of loading xml.
 | [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | The filter to denote how to load data. |
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the Locale used for workbook at the time the file was loaded. |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Sets the format of numeric value. |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
@@ -179,6 +187,26 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getConvertNumericOrDate() {#getConvertNumericOrDate--}
+```
+public boolean getConvertNumericOrDate()
+```
+
+
+Indicates whether converting the value in xml file to numeric or date.
+
+**Returns:**
+boolean
+### getDateFormat() {#getDateFormat--}
+```
+public String getDateFormat()
+```
+
+
+Gets the format of date value.
+
+**Returns:**
+java.lang.String
 ### getDefaultStyleSettings() {#getDefaultStyleSettings--}
 ```
 public DefaultStyleSettings getDefaultStyleSettings()
@@ -206,6 +234,16 @@ public boolean getIgnoreNotPrinted()
 
 
 Ignore the data which are not printed if directly printing the file Only for xlsx file.
+
+**Returns:**
+boolean
+### getIgnoreRootAttributes() {#getIgnoreRootAttributes--}
+```
+public boolean getIgnoreRootAttributes()
+```
+
+
+Indicates whether ignore attributes of the root element.
 
 **Returns:**
 boolean
@@ -299,6 +337,16 @@ Gets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysett
 
 **Returns:**
 int
+### getNumberFormat() {#getNumberFormat--}
+```
+public String getNumberFormat()
+```
+
+
+Gets the format of numeric value.
+
+**Returns:**
+java.lang.String
 ### getParsingFormulaOnOpen() {#getParsingFormulaOnOpen--}
 ```
 public boolean getParsingFormulaOnOpen()
@@ -480,6 +528,32 @@ Indicates whether importing xml as multiple worksheets.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setConvertNumericOrDate(boolean value) {#setConvertNumericOrDate-boolean-}
+```
+public void setConvertNumericOrDate(boolean value)
+```
+
+
+Indicates whether converting the value in xml file to numeric or date.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setDateFormat(String value) {#setDateFormat-java.lang.String-}
+```
+public void setDateFormat(String value)
+```
+
+
+Sets the format of date value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setFontConfigs(IndividualFontConfigs value) {#setFontConfigs-com.aspose.cells.IndividualFontConfigs-}
 ```
 public void setFontConfigs(IndividualFontConfigs value)
@@ -500,6 +574,19 @@ public void setIgnoreNotPrinted(boolean value)
 
 
 Ignore the data which are not printed if directly printing the file Only for xlsx file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setIgnoreRootAttributes(boolean value) {#setIgnoreRootAttributes-boolean-}
+```
+public void setIgnoreRootAttributes(boolean value)
+```
+
+
+Indicates whether ignore attributes of the root element.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -609,6 +696,19 @@ Sets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysett
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setNumberFormat(String value) {#setNumberFormat-java.lang.String-}
+```
+public void setNumberFormat(String value)
+```
+
+
+Sets the format of numeric value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setPaperSize(int type) {#setPaperSize-int-}
 ```

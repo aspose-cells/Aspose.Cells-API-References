@@ -127,7 +127,7 @@ Gets the display string value for cell's boolean value
 | bv | boolean | boolean value |
 
 **Returns:**
-java.lang.String - Default returns "TRUE" for true value and "FALSE" for false value.
+java.lang.String - By default returns "TRUE" for true value and "FALSE" for false value.
 ### getChartSettings() {#getChartSettings--}
 ```
 public ChartGlobalizationSettings getChartSettings()
@@ -233,7 +233,7 @@ Gets the display string value for cell's error value
 | err | java.lang.String | error values such as \#VALUE!,\#NAME? |
 
 **Returns:**
-java.lang.String - Default returns the error value itself
+java.lang.String - By default returns the error value itself
 ### getGrandTotalName(int functionType) {#getGrandTotalName-int-}
 ```
 public String getGrandTotalName(int functionType)

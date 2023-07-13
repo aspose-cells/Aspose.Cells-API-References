@@ -52,6 +52,7 @@ Encapsulates the object that represents a label in a spreadsheet.
 | [formatCharacters(int startIndex, int length, Font font)](#formatCharacters-int-int-com.aspose.cells.Font-) | Formats some characters with the font setting. |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Formats some characters with the font setting. |
 | [getActiveXControl()](#getActiveXControl--) | Gets the ActiveX control. |
+| [getActualBox()](#getActualBox--) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [getActualLowerRightRow()](#getActualLowerRightRow--) | Get the actual bottom row. |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object. |
 | [getAnchorType()](#getAnchorType--) | Gets the shape anchor placeholder. |
@@ -400,6 +401,16 @@ Gets the ActiveX control.
 
 **Returns:**
 [ActiveXControl](../../com.aspose.cells/activexcontrol)
+### getActualBox() {#getActualBox--}
+```
+public float[] getActualBox()
+```
+
+
+Get the actual position and size of the shape (after applying rotation, flip, etc.) Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+**Returns:**
+float[] - Return the position and size in the order of x, y, w, h
 ### getActualLowerRightRow() {#getActualLowerRightRow--}
 ```
 public int getActualLowerRightRow()

@@ -31,7 +31,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle in clockwise. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
-| [getTickLabelItems()](#getTickLabelItems--) | Gets the items' info of TickLabel. |
+| [getTickLabelItems()](#getTickLabelItems--) | Gets each tick label item's information of axis. |
 | [hashCode()](#hashCode--) |  |
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the rotation angle is automatic |
 | [notify()](#notify--) |  |
@@ -210,7 +210,7 @@ public TickLabelItem[] getTickLabelItems()
 ```
 
 
-Gets the items' info of TickLabel. Only exists after calling [Chart.calculate()](../../com.aspose.cells/chart\#calculate--) method.
+Gets each tick label item's information of axis. Only available after calling [Chart.calculate()](../../com.aspose.cells/chart\#calculate--) method.
 
 **Returns:**
 com.aspose.cells.TickLabelItem[]
