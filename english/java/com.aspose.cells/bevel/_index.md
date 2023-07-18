@@ -73,7 +73,8 @@ public int getType()
 ```
 
 
-Gets the preset bevel type. See [BevelPresetType](../../com.aspose.cells/bevelpresettype).
+Gets the preset bevel type.
+See [BevelPresetType](../../com.aspose.cells/bevelpresettype).
 
 **Returns:**
 int
@@ -132,7 +133,8 @@ public void setType(int value)
 ```
 
 
-Sets the preset bevel type. See [BevelPresetType](../../com.aspose.cells/bevelpresettype).
+Sets the preset bevel type.
+See [BevelPresetType](../../com.aspose.cells/bevelpresettype).
 
 **Parameters:**
 | Parameter | Type | Description |

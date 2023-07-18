@@ -71,7 +71,11 @@ public void calculateData()
 ```
 
 
-Calculates pivottable's data to cells. Cell.Value in the pivot range could not return the correct result if the method is not been called. This method caclulates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
+Calculates pivottable's data to cells.
+
+**Remarks**
+
+Cell.Value in the pivot range could not return the correct result if the method is not been called. This method caclulates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
 
 ### clearAllFields() {#clearAllFields--}
 ```
@@ -168,7 +172,11 @@ public void refreshData()
 ```
 
 
-Refreshes pivottable's data and setting from it's data source. We will gather data from data source to a pivot cache ,then calcualte the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
+Refreshes pivottable's data and setting from it's data source.
+
+**Remarks**
+
+We will gather data from data source to a pivot cache ,then calcualte the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
 
 ### toString() {#toString--}
 ```

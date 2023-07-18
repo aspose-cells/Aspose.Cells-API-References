@@ -90,7 +90,7 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [NumberType](../com.aspose.gridweb/numbertype) | Represents the number or datetime format type. |
 | [OnErrorActionQuery](../com.aspose.gridweb/onerroractionquery) | Used in the CellError event of the GridWeb. |
 | [OnErrorActionType](../com.aspose.gridweb/onerroractiontype) | Used in CellError event of the GridWeb. |
-| [PivotFieldFunction](../com.aspose.gridweb/pivotfieldfunction) | Represents functions used to summarize the PivotTable data field NOTE: This class is now obsolete. |
+| [PivotFieldFunction](../com.aspose.gridweb/pivotfieldfunction) | Represents functions used to summarize the PivotTable data field |
 | [PivotFieldOrientation](../com.aspose.gridweb/pivotfieldorientation) | Represents The location of the field in the specified PivotTable report. |
 | [PivotFieldSort](../com.aspose.gridweb/pivotfieldsort) | Represents the order used to sort the specified PivotTable field. |
 | [PivotSourceType](../com.aspose.gridweb/pivotsourcetype) | Represents the source data type. |
@@ -100,16 +100,16 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [SessionMode](../com.aspose.gridweb/sessionmode) | Represents the session mode of the grid. |
 | [SetBorderPosition](../com.aspose.gridweb/setborderposition) | Represents the border position to be set of a cells range. |
 | [SortByOrder](../com.aspose.gridweb/sortbyorder) | Represents what order the data sort by. |
-| [SortOrientation](../com.aspose.gridweb/sortorientation) | Represents sorting orientation SortOrientation.SortTopToBottom represents sorting datas from top to bottom and exchanging data row by row. |
+| [SortOrientation](../com.aspose.gridweb/sortorientation) | Represents sorting orientation |
 | [SubtotalFunction](../com.aspose.gridweb/subtotalfunction) | Represents subtotal function type. |
 | [Unit](../com.aspose.gridweb/unit) | Represents a length measurement |
 | [UnitType](../com.aspose.gridweb/unittype) | Specifies the unit of measurement. |
 | [VerticalAlign](../com.aspose.gridweb/verticalalign) | vertical alignment of a GridView control |
 | [ViewerStyleTemplate](../com.aspose.gridweb/viewerstyletemplate) | ViewerStyleTemplate. |
 | [WebBorderStyle](../com.aspose.gridweb/webborderstyle) | Encapsulates the style of web table or cell border. |
-| [WebCellArea](../com.aspose.gridweb/webcellarea) | NOTE: This class is now obsolete. |
+| [WebCellArea](../com.aspose.gridweb/webcellarea) | **Remarks** |
 | [WebCellErrorType](../com.aspose.gridweb/webcellerrortype) | Used in WebCellException. |
-| [WebComment](../com.aspose.gridweb/webcomment) | NOTE: This class is now obsolete. |
+| [WebComment](../com.aspose.gridweb/webcomment) | **Remarks** |
 | [WebControl](../com.aspose.gridweb/webcontrol) | Represent the WebControl class, internal use only. |
 | [WebStyle](../com.aspose.gridweb/webstyle) | Represent the style for web control,extend from the Style class. |
 | [WebTableItemStyle](../com.aspose.gridweb/webtableitemstyle) | Represent the WebTableItemStyle class, internal use only. |

@@ -92,7 +92,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -102,7 +106,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -122,7 +130,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat).
+Gets the save file format.
+See [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat).
 
 **Returns:**
 int
@@ -142,7 +151,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -204,7 +217,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +234,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +277,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

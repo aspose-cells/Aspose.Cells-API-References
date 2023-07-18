@@ -1,7 +1,7 @@
 ---
 title: SortOrientation
 second_title: Aspose.Cells for Java API Reference
-description: Represents sorting orientation  SortOrientation.SortTopToBottom represents sorting datas from top to bottom and exchanging data row by row.
+description: Represents sorting orientation
 type: docs
 url: /java/com.aspose.gridweb/sortorientation/
 ---
@@ -12,7 +12,11 @@ java.lang.Object
 public final class SortOrientation
 ```
 
-Represents sorting orientation SortOrientation.SortTopToBottom represents sorting datas from top to bottom and exchanging data row by row. SortOrientation.SortLeftToRight represents sorting datas from left to right and exchanging data column by column.
+Represents sorting orientation
+
+**Remarks**
+
+SortOrientation.SortTopToBottom represents sorting datas from top to bottom and exchanging data row by row. SortOrientation.SortLeftToRight represents sorting datas from left to right and exchanging data column by column.
 ## Fields
 
 | Field | Description |

@@ -17,6 +17,8 @@ public class Cells implements Iterable
 
 Encapsulates a collection of cell relevant objects, such as [Cell](../../com.aspose.cells/cell), [Row](../../com.aspose.cells/row), ...etc.
 
+**Remarks**
+
 **Example**
 
 ```
@@ -99,7 +101,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [find(Object what, Cell previousCell, FindOptions findOptions)](#find-java.lang.Object-com.aspose.cells.Cell-com.aspose.cells.FindOptions-) | Finds the cell containing with the input object. |
 | [findFormula(String formula, Cell previousCell)](#findFormula-java.lang.String-com.aspose.cells.Cell-) | Finds the cell with the input string. |
 | [findFormulaContains(String formula, Cell previousCell)](#findFormulaContains-java.lang.String-com.aspose.cells.Cell-) | Finds the cell with formula which contains the input string. |
-| [get(int index)](#get-int-) | Gets [Cell](../../com.aspose.cells/cell) item within the worksheet NOTE: This member is now obsolete. |
+| [get(int index)](#get-int-) | Gets [Cell](../../com.aspose.cells/cell) item within the worksheet |
 | [get(int row, int column)](#get-int-int-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index. |
 | [get(String cellName)](#get-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name. |
 | [getCell(int row, int column)](#getCell-int-int-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index. |
@@ -120,7 +122,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getLastCell()](#getLastCell--) | Gets the last cell in this worksheet. |
 | [getLastDataRow(int column)](#getLastDataRow-int-) | Gets the last row index of cell which contains data in the specified column. |
 | [getMaxColumn()](#getMaxColumn--) | Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
-| [getMaxDataColumn()](#getMaxDataColumn--) | Maximum column index of cell which contains data |
+| [getMaxDataColumn()](#getMaxDataColumn--) | Maximum column index of cell which contains data. |
 | [getMaxDataRow()](#getMaxDataRow--) | Maximum row index of cell which contains data. |
 | [getMaxDisplayRange()](#getMaxDisplayRange--) | Gets the max range which includes data, merged cells and shapes. |
 | [getMaxGroupedColumnOutlineLevel()](#getMaxGroupedColumnOutlineLevel--) | Gets the max grouped column outline level (zero-based). |
@@ -129,7 +131,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory usage option for this cells. |
 | [getMergedCells()](#getMergedCells--) | Gets the collection of merged cells. |
 | [getMinColumn()](#getMinColumn--) | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
-| [getMinDataColumn()](#getMinDataColumn--) | Minimum column index of cell which contains data |
+| [getMinDataColumn()](#getMinDataColumn--) | Minimum column index of cell which contains data. |
 | [getMinDataRow()](#getMinDataRow--) | Minimum row index of cell which contains data. |
 | [getMinRow()](#getMinRow--) | Minimum row index of cell which contains data or style. |
 | [getMultiThreadReading()](#getMultiThreadReading--) | Gets whether the cells data model should support Multi-Thread reading. |
@@ -704,7 +706,11 @@ public void deleteBlankRows(DeleteOptions options)
 ```
 
 
-Delete all blank rows which do not contain any data or other object. For blank rows that will be deleted, it is not only required that [Row.isBlank()](../../com.aspose.cells/row\#isBlank--) should be true, but also there should be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.
+Delete all blank rows which do not contain any data or other object.
+
+**Remarks**
+
+For blank rows that will be deleted, it is not only required that [Row.isBlank()](../../com.aspose.cells/row\#isBlank--) should be true, but also there should be no visible comment defined for any cell in those rows, and no pivot table whose range intersects with them.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -789,7 +795,11 @@ public boolean deleteRows(int rowIndex, int totalRows)
 ```
 
 
-Deletes several rows. If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done.It works as MS Excel.
+Deletes several rows.
+
+**Remarks**
+
+If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done.It works as MS Excel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -947,7 +957,11 @@ public Cell find(Object what, Cell previousCell)
 ```
 
 
-Finds the cell containing with the input object. Returns null (Nothing) if no cell is found.
+Finds the cell containing with the input object.
+
+**Remarks**
+
+Returns null (Nothing) if no cell is found.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -963,7 +977,11 @@ public Cell find(Object what, Cell previousCell, FindOptions findOptions)
 ```
 
 
-Finds the cell containing with the input object. Returns null (Nothing) if no cell is found.
+Finds the cell containing with the input object.
+
+**Remarks**
+
+Returns null (Nothing) if no cell is found.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -980,7 +998,11 @@ public Cell findFormula(String formula, Cell previousCell)
 ```
 
 
-Finds the cell with the input string. Returns null (Nothing) if no cell is found. NOTE: This member is now obsolete. Instead, please use Cells.Find(object,Cell,FindOptions) method with LookInType as LookInType.OnlyFormulas and LookAtType as LookAtType.EntireContent. This member will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+Finds the cell with the input string.
+
+**Remarks**
+
+Returns null (Nothing) if no cell is found. NOTE: This member is now obsolete. Instead, please use Cells.Find(object,Cell,FindOptions) method with LookInType as LookInType.OnlyFormulas and LookAtType as LookAtType.EntireContent. This member will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -996,7 +1018,11 @@ public Cell findFormulaContains(String formula, Cell previousCell)
 ```
 
 
-Finds the cell with formula which contains the input string. Returns null (Nothing) if no cell is found. NOTE: This member is now obsolete. Instead, please use Cells.Find(object,Cell,FindOptions) method with LookInType as LookInType.OnlyFormulas and LookAtType as LookAtType.Contains. This member will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+Finds the cell with formula which contains the input string.
+
+**Remarks**
+
+Returns null (Nothing) if no cell is found. NOTE: This member is now obsolete. Instead, please use Cells.Find(object,Cell,FindOptions) method with LookInType as LookInType.OnlyFormulas and LookAtType as LookAtType.Contains. This member will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1012,7 +1038,11 @@ public Cell get(int index)
 ```
 
 
-Gets [Cell](../../com.aspose.cells/cell) item within the worksheet NOTE: This member is now obsolete. Instead, please use Cells.GetEnumerator() method to iterate all cells in this worksheet. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
+Gets [Cell](../../com.aspose.cells/cell) item within the worksheet
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Cells.GetEnumerator() method to iterate all cells in this worksheet. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1074,7 +1104,11 @@ public Cell getCell(int row, int column)
 ```
 
 
-Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index. NOTE: This member is now obsolete. Instead, please use Cells.Get(int,int) method. This method will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Cells.Get(int,int) method. This method will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1116,7 +1150,11 @@ public Column getColumn(int columnIndex)
 ```
 
 
-Gets the [Column](../../com.aspose.cells/column) element or at the specified cell row index. NOTE: This member is now obsolete. Instead, please use ColumnCollection[int] method. This method will be removed 12 months later since JANUARY 2010. Aspose apologizes for any inconvenience you may have experienced.
+Gets the [Column](../../com.aspose.cells/column) element or at the specified cell row index.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ColumnCollection[int] method. This method will be removed 12 months later since JANUARY 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1223,7 +1261,11 @@ public Iterator getDependentsInCalculation(int row, int column, boolean recursiv
 ```
 
 
-Gets all cells whose calculated result depends on specific cell. To use this method, please make sure the workbook has been set with true value for [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned. For more details and example, please see [Cell.getDependentsInCalculation(boolean)](../../com.aspose.cells/cell\#getDependentsInCalculation-boolean-)
+Gets all cells whose calculated result depends on specific cell.
+
+**Remarks**
+
+To use this method, please make sure the workbook has been set with true value for [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned. For more details and example, please see [Cell.getDependentsInCalculation(boolean)](../../com.aspose.cells/cell\#getDependentsInCalculation-boolean-)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1240,7 +1282,11 @@ public Cell getFirstCell()
 ```
 
 
-Gets the first cell in this worksheet. Returns null if there is no data in the worksheet.
+Gets the first cell in this worksheet.
+
+**Remarks**
+
+Returns null if there is no data in the worksheet.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell)
@@ -1250,7 +1296,11 @@ public int getGroupedColumnOutlineLevel(int columnIndex)
 ```
 
 
-Gets the outline level (zero-based) of the column. If the column is not grouped, returns zero.
+Gets the outline level (zero-based) of the column.
+
+**Remarks**
+
+If the column is not grouped, returns zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1265,7 +1315,11 @@ public int getGroupedRowOutlineLevel(int rowIndex)
 ```
 
 
-Gets the outline level (zero-based) of the row. If the row is not grouped, returns zero.
+Gets the outline level (zero-based) of the row.
+
+**Remarks**
+
+If the row is not grouped, returns zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1280,7 +1334,11 @@ public Cell getLastCell()
 ```
 
 
-Gets the last cell in this worksheet. Returns null if there is no data in the worksheet.
+Gets the last cell in this worksheet.
+
+**Remarks**
+
+Returns null if there is no data in the worksheet.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell)
@@ -1305,7 +1363,11 @@ public int getMaxColumn()
 ```
 
 
-Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). Return -1 if there is no cell.
+Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
+
+**Remarks**
+
+Return -1 if there is no cell.
 
 **Returns:**
 int
@@ -1315,7 +1377,11 @@ public int getMaxDataColumn()
 ```
 
 
-Maximum column index of cell which contains data. -1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
+Maximum column index of cell which contains data.
+
+**Remarks**
+
+\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
 
 **Returns:**
 int
@@ -1325,7 +1391,11 @@ public int getMaxDataRow()
 ```
 
 
-Maximum row index of cell which contains data. Return -1 if there is no cell which contains data.
+Maximum row index of cell which contains data.
+
+**Remarks**
+
+Return -1 if there is no cell which contains data.
 
 **Returns:**
 int
@@ -1335,7 +1405,11 @@ public Range getMaxDisplayRange()
 ```
 
 
-Gets the max range which includes data, merged cells and shapes. Reutrns null if the worksheet is empty since Aspose.Cells 21.5.2.
+Gets the max range which includes data, merged cells and shapes.
+
+**Remarks**
+
+Reutrns null if the worksheet is empty since Aspose.Cells 21.5.2.
 
 **Returns:**
 [Range](../../com.aspose.cells/range)
@@ -1365,7 +1439,11 @@ public int getMaxRow()
 ```
 
 
-Maximum row index of cell which contains data or style. Return -1 if there is no cell which contains data or style in the worksheet.
+Maximum row index of cell which contains data or style.
+
+**Remarks**
+
+Return -1 if there is no cell which contains data or style in the worksheet.
 
 **Returns:**
 int
@@ -1375,7 +1453,8 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage option for this cells. See [MemorySetting](../../com.aspose.cells/memorysetting).
+Gets the memory usage option for this cells.
+See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -1385,7 +1464,11 @@ public ArrayList getMergedCells()
 ```
 
 
-Gets the collection of merged cells. In this collection, each item is a [CellArea](../../com.aspose.cells/cellarea) structure which represents an area of merged cells.
+Gets the collection of merged cells.
+
+**Remarks**
+
+In this collection, each item is a [CellArea](../../com.aspose.cells/cellarea) structure which represents an area of merged cells.
 
 **Returns:**
 java.util.ArrayList
@@ -1405,7 +1488,11 @@ public int getMinDataColumn()
 ```
 
 
-Minimum column index of cell which contains data. -1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
+Minimum column index of cell which contains data.
+
+**Remarks**
+
+\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
 
 **Returns:**
 int
@@ -1435,7 +1522,11 @@ public boolean getMultiThreadReading()
 ```
 
 
-Gets whether the cells data model should support Multi-Thread reading. Default value of this property is false. If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--), [Cell.getDisplayStringValue()](../../com.aspose.cells/cell\#getDisplayStringValue--), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+Gets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
+
+**Remarks**
+
+If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--), [Cell.getDisplayStringValue()](../../com.aspose.cells/cell\#getDisplayStringValue--), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 **Returns:**
 boolean
@@ -1475,7 +1566,11 @@ public Row getRow(int row)
 ```
 
 
-Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index. NOTE: This member is now obsolete. Instead, please use RowCollection[int] method. This method will be removed 12 months later since JANUARY 2010. Aspose apologizes for any inconvenience you may have experienced.
+Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use RowCollection[int] method. This method will be removed 12 months later since JANUARY 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1490,7 +1585,11 @@ public Iterator getRowEnumerator()
 ```
 
 
-Gets the rows enumerator. NOTE: This member is now obsolete. Instead, please use RowCollection.GetEnumerator() method. This method will be removed 12 months later since May 2023. Aspose apologizes for any inconvenience you may have experienced.
+Gets the rows enumerator.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use RowCollection.GetEnumerator() method. This method will be removed 12 months later since May 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.util.Iterator - The rows enumerator.
@@ -1996,7 +2095,11 @@ public int importCustomObjects(Collection list, int firstRow, int firstColumn, I
 ```
 
 
-Imports custom objects. The custom objects should be the same type.
+Imports custom objects.
+
+**Remarks**
+
+The custom objects should be the same type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2014,7 +2117,11 @@ public int importCustomObjects(Collection list, String[] propertyNames, boolean 
 ```
 
 
-Imports custom objects. The custom objects should be the same type.
+Imports custom objects.
+
+**Remarks**
+
+The custom objects should be the same type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2577,7 +2684,11 @@ public Iterator iterator()
 ```
 
 
-Gets the cells enumerator. When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
+Gets the cells enumerator.
+
+**Remarks**
+
+When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
 
 **Example**
 
@@ -2617,7 +2728,11 @@ public void merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 ```
 
 
-Merges a specified range of cells into a single cell. Reference the merged cell via the address of the upper-left cell in the range.
+Merges a specified range of cells into a single cell.
+
+**Remarks**
+
+Reference the merged cell via the address of the upper-left cell in the range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2633,7 +2748,11 @@ public void merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 ```
 
 
-Merges a specified range of cells into a single cell. Reference the merged cell via the address of the upper-left cell in the range. If mergeConflict is true and the merged range conflicts with other merged cells, other merged cells will be automatically removed.
+Merges a specified range of cells into a single cell.
+
+**Remarks**
+
+Reference the merged cell via the address of the upper-left cell in the range. If mergeConflict is true and the merged range conflicts with other merged cells, other merged cells will be automatically removed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2650,7 +2769,11 @@ public void merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 ```
 
 
-Merges a specified range of cells into a single cell. Reference the merged cell via the address of the upper-left cell in the range. If mergeConflict is true and the merged range conflicts with other merged cells, other merged cells will be automatically removed.
+Merges a specified range of cells into a single cell.
+
+**Remarks**
+
+Reference the merged cell via the address of the upper-left cell in the range. If mergeConflict is true and the merged range conflicts with other merged cells, other merged cells will be automatically removed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2764,7 +2887,11 @@ public void setColumnWidth(int column, double width)
 ```
 
 
-Sets the width of the specified column in normal view. To hide a column, sets column width to zero.
+Sets the width of the specified column in normal view.
+
+**Remarks**
+
+To hide a column, sets column width to zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2832,7 +2959,8 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage option for this cells. See [MemorySetting](../../com.aspose.cells/memorysetting).
+Sets the memory usage option for this cells.
+See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2845,7 +2973,11 @@ public void setMultiThreadReading(boolean value)
 ```
 
 
-Sets whether the cells data model should support Multi-Thread reading. Default value of this property is false. If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--), [Cell.getDisplayStringValue()](../../com.aspose.cells/cell\#getDisplayStringValue--), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
+Sets whether the cells data model should support Multi-Thread reading. Default value of this property is false.
+
+**Remarks**
+
+If there are multiple threads to read Row/Cell objects in this collection concurrently, this property should be set as true, otherwise unexpected result may be produced. Supporting Multi-Thread reading may degrade the performance for accessing Row/Cell objects from this collection. Please note, some features cannot support Multi-Thread reading, such as formatting values(by [Cell.getStringValue()](../../com.aspose.cells/cell\#getStringValue--), [Cell.getDisplayStringValue()](../../com.aspose.cells/cell\#getDisplayStringValue--), .etc.). So, even with this property being set as true, those APIs still may give unexpected result for Multi-Thread reading.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3004,7 +3136,11 @@ public void setViewColumnWidthPixel(int column, int pixels)
 ```
 
 
-Sets the width of the column in different view. If the current view type is [ViewType.PAGE\_LAYOUT\_VIEW](../../com.aspose.cells/viewtype\#PAGE-LAYOUT-VIEW), the column's width is same as printed width.
+Sets the width of the column in different view.
+
+**Remarks**
+
+If the current view type is [ViewType.PAGE\_LAYOUT\_VIEW](../../com.aspose.cells/viewtype\#PAGE-LAYOUT-VIEW), the column's width is same as printed width.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3123,7 +3259,11 @@ public void ungroupRows(int firstIndex, int lastIndex)
 ```
 
 
-Ungroups rows. Only removes outer group info.
+Ungroups rows.
+
+**Remarks**
+
+Only removes outer group info.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3166,7 +3306,11 @@ public void unhideColumns(int column, int totalColumns, double width)
 ```
 
 
-Unhide multiple columns. Only applies the column width to the hidden columns.
+Unhide multiple columns.
+
+**Remarks**
+
+Only applies the column width to the hidden columns.
 
 **Parameters:**
 | Parameter | Type | Description |

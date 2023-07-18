@@ -1,7 +1,7 @@
 ---
 title: PivotFieldFunction
 second_title: Aspose.Cells for Java API Reference
-description: Represents functions used to summarize the PivotTable data field  NOTE This class is now obsolete.
+description: Represents functions used to summarize the PivotTable data field
 type: docs
 url: /java/com.aspose.gridweb/pivotfieldfunction/
 ---
@@ -12,7 +12,11 @@ java.lang.Object
 public final class PivotFieldFunction
 ```
 
-Represents functions used to summarize the PivotTable data field NOTE: This class is now obsolete. please use GridPivotFieldFunction Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
+Represents functions used to summarize the PivotTable data field
+
+**Remarks**
+
+NOTE: This class is now obsolete. please use GridPivotFieldFunction Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
 ## Fields
 
 | Field | Description |

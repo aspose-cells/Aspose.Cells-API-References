@@ -180,7 +180,11 @@ public void removeAt(int index)
 ```
 
 
-Remove the name at the specific index. Please make sure that the name is not referred by the other formulas before calling the method. And if the name is referred,please only set Name.RefersTo as null.
+Remove the name at the specific index.
+
+**Remarks**
+
+Please make sure that the name is not referred by the other formulas before calling the method. And if the name is referred,please only set Name.RefersTo as null.
 
 **Parameters:**
 | Parameter | Type | Description |

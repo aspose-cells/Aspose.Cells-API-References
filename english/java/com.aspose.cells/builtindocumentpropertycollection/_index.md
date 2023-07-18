@@ -14,6 +14,8 @@ public class BuiltInDocumentPropertyCollection extends DocumentPropertyCollectio
 
 A collection of built-in document properties.
 
+**Remarks**
+
 Provides access to  objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 ## Methods
 
@@ -199,6 +201,8 @@ public DocumentProperty get(String name)
 
 Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) object by the name of the property.
 
+**Remarks**
+
 The string names of the properties correspond to the names of the typed properties available from .
 
 If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new  is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).
@@ -330,6 +334,8 @@ public DateTime getCreatedTime()
 
 Gets date of the document creation in local timezone.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Returns:**
@@ -341,6 +347,8 @@ public DateTime getCreatedUniversalTime()
 
 
 Gets the Universal time of the document creation.
+
+**Remarks**
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -394,6 +402,8 @@ public DateTime getLastPrinted()
 
 Gets the date when the document was last printed in local timezone.
 
+**Remarks**
+
 If the document was never printed, this property will return DateTime.MinValue.
 
 Aspose.Cells does not update this property when you modify the document.
@@ -418,6 +428,8 @@ public String getLastSavedBy()
 
 Gets the name of the last author.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Returns:**
@@ -429,6 +441,8 @@ public DateTime getLastSavedTime()
 
 
 Gets the time of the last save in local timezone.
+
+**Remarks**
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -442,6 +456,8 @@ public DateTime getLastSavedUniversalTime()
 
 Gets the universal time of the last save.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Returns:**
@@ -453,6 +469,8 @@ public int getLines()
 
 
 Represents an estimate of the number of lines in the document.
+
+**Remarks**
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -516,6 +534,8 @@ public String getRevisionNumber()
 
 Gets the document revision number.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Returns:**
@@ -576,7 +596,11 @@ public String getVersion()
 ```
 
 
-Represents the version number of the application that created the document. It's format is "00.0000",for example : 12.0000
+Represents the version number of the application that created the document.
+
+**Remarks**
+
+It's format is "00.0000",for example : 12.0000
 
 **Returns:**
 java.lang.String
@@ -807,6 +831,8 @@ public void setCreatedTime(DateTime value)
 
 Sets date of the document creation in local timezone.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
@@ -821,6 +847,8 @@ public void setCreatedUniversalTime(DateTime value)
 
 
 Sets the Universal time of the document creation.
+
+**Remarks**
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -889,6 +917,8 @@ public void setLastPrinted(DateTime value)
 
 Sets the date when the document was last printed in local timezone.
 
+**Remarks**
+
 If the document was never printed, this property will return DateTime.MinValue.
 
 Aspose.Cells does not update this property when you modify the document.
@@ -919,6 +949,8 @@ public void setLastSavedBy(String value)
 
 Sets the name of the last author.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
@@ -933,6 +965,8 @@ public void setLastSavedTime(DateTime value)
 
 
 Sets the time of the last save in local timezone.
+
+**Remarks**
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -949,6 +983,8 @@ public void setLastSavedUniversalTime(DateTime value)
 
 Sets the universal time of the last save.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
@@ -963,6 +999,8 @@ public void setLines(int value)
 
 
 Represents an estimate of the number of lines in the document.
+
+**Remarks**
 
 Aspose.Cells does not update this property when you modify the document.
 
@@ -1044,6 +1082,8 @@ public void setRevisionNumber(String value)
 
 Sets the document revision number.
 
+**Remarks**
+
 Aspose.Cells does not update this property when you modify the document.
 
 **Parameters:**
@@ -1122,7 +1162,11 @@ public void setVersion(String value)
 ```
 
 
-Represents the version number of the application that created the document. It's format is "00.0000",for example : 12.0000
+Represents the version number of the application that created the document.
+
+**Remarks**
+
+It's format is "00.0000",for example : 12.0000
 
 **Parameters:**
 | Parameter | Type | Description |

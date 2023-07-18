@@ -96,7 +96,11 @@ public String getIndent()
 ```
 
 
-Indicates the indent. If the indent is null or empty, the exported json is not formatted.
+Indicates the indent.
+
+**Remarks**
+
+If the indent is null or empty, the exported json is not formatted.
 
 **Returns:**
 java.lang.String
@@ -181,7 +185,11 @@ public void setIndent(String value)
 ```
 
 
-Indicates the indent. If the indent is null or empty, the exported json is not formatted.
+Indicates the indent.
+
+**Remarks**
+
+If the indent is null or empty, the exported json is not formatted.
 
 **Parameters:**
 | Parameter | Type | Description |

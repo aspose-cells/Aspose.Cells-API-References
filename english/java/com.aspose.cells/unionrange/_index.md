@@ -61,7 +61,11 @@ public void applyStyle(Style style, StyleFlag flag)
 ```
 
 
-Applies formats for a whole range. Each cell in this range will contains a [Style](../../com.aspose.cells/style) object. So this is a memory-consuming method. Please use it carefully.
+Applies formats for a whole range.
+
+**Remarks**
+
+Each cell in this range will contains a [Style](../../com.aspose.cells/style) object. So this is a memory-consuming method. Please use it carefully.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -124,7 +128,11 @@ public int getColumnCount()
 ```
 
 
-Gets the count of rows in the range. Only effects when it only contains one range.
+Gets the count of rows in the range.
+
+**Remarks**
+
+Only effects when it only contains one range.
 
 **Returns:**
 int
@@ -134,7 +142,11 @@ public int getFirstColumn()
 ```
 
 
-Gets the index of the first column of the range. Only effects when it only contains one range.
+Gets the index of the first column of the range.
+
+**Remarks**
+
+Only effects when it only contains one range.
 
 **Returns:**
 int
@@ -144,7 +156,11 @@ public int getFirstRow()
 ```
 
 
-Gets the index of the first row of the range. Only effects when it only contains one range.
+Gets the index of the first row of the range.
+
+**Remarks**
+
+Only effects when it only contains one range.
 
 **Returns:**
 int
@@ -164,7 +180,11 @@ public String getName()
 ```
 
 
-Gets the name of the range. Named range is supported. For example,
+Gets the name of the range.
+
+**Remarks**
+
+Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -206,7 +226,11 @@ public int getRowCount()
 ```
 
 
-Gets the count of rows in the range. Only effects when it only contains one range.
+Gets the count of rows in the range.
+
+**Remarks**
+
+Only effects when it only contains one range.
 
 **Returns:**
 int
@@ -246,7 +270,11 @@ public UnionRange intersect(Range[] ranges)
 ```
 
 
-Intersects another range. If the two union ranges are not intersected, returns null.
+Intersects another range.
+
+**Remarks**
+
+If the two union ranges are not intersected, returns null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -261,7 +289,11 @@ public UnionRange intersect(UnionRange unionRange)
 ```
 
 
-Intersects another range. If the two union ranges are not intersected, returns null.
+Intersects another range.
+
+**Remarks**
+
+If the two union ranges are not intersected, returns null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -276,7 +308,11 @@ public UnionRange intersect(String range)
 ```
 
 
-Intersects another range. If the two union ranges are not intersected, returns null.
+Intersects another range.
+
+**Remarks**
+
+If the two union ranges are not intersected, returns null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -291,7 +327,11 @@ public Iterator iterator()
 ```
 
 
-Gets the enumerator for cells in this Range. When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
+Gets the enumerator for cells in this Range.
+
+**Remarks**
+
+When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
 
 **Returns:**
 java.util.Iterator - The cells enumerator
@@ -301,7 +341,11 @@ public void merge()
 ```
 
 
-Combines a range of cells into a single cell. Reference the merged cell via the address of the upper-left cell in the range.
+Combines a range of cells into a single cell.
+
+**Remarks**
+
+Reference the merged cell via the address of the upper-left cell in the range.
 
 ### notify() {#notify--}
 ```
@@ -340,7 +384,11 @@ public void setName(String value)
 ```
 
 
-Sets the name of the range. Named range is supported. For example,
+Sets the name of the range.
+
+**Remarks**
+
+Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -369,7 +417,11 @@ public void setOutlineBorders(int[] borderStyles, Color[] borderColors)
 ```
 
 
-Sets out line borders around a range of cells. Both the length of borderStyles and borderStyles must be 4. The order of borderStyles and borderStyles must be top,bottom,left,right
+Sets out line borders around a range of cells.
+
+**Remarks**
+
+Both the length of borderStyles and borderStyles must be 4. The order of borderStyles and borderStyles must be top,bottom,left,right
 
 **Parameters:**
 | Parameter | Type | Description |

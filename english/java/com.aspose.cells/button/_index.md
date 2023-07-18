@@ -329,7 +329,11 @@ public FontSetting characters(int startIndex, int length)
 ```
 
 
-Returns a Characters object that represents a range of characters within the text. This method only works on shape with title.
+Returns a Characters object that represents a range of characters within the text.
+
+**Remarks**
+
+This method only works on shape with title.
 
 **Example**
 
@@ -366,7 +370,11 @@ public void formatCharacters(int startIndex, int length, Font font)
 ```
 
 
-Formats some characters with the font setting. NOTE: This member is now obsolete. Instead, please use Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag) method. This property will be removed 12 months later since March 2016. Aspose apologizes for any inconvenience you may have experienced.
+Formats some characters with the font setting.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag) method. This property will be removed 12 months later since March 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -415,7 +423,11 @@ public float[] getActualBox()
 ```
 
 
-Get the actual position and size of the shape (after applying rotation, flip, etc.) Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+Get the actual position and size of the shape (after applying rotation, flip, etc.)
+
+**Remarks**
+
+Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
 
 **Returns:**
 float[] - Return the position and size in the order of x, y, w, h
@@ -457,7 +469,8 @@ public int getAnchorType()
 ```
 
 
-Gets the shape anchor placeholder. See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
+Gets the shape anchor placeholder.
+See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
 **Example**
 
@@ -474,7 +487,8 @@ public int getAutoShapeType()
 ```
 
 
-Gets the auto shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Gets the auto shape type.
+See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Example**
 
@@ -593,7 +607,11 @@ public MsoFillFormat getFillFormat()
 ```
 
 
-Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. NOTE: This member is now obsolete. Instead, please use Shape.Fill property. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Returns a MsoFillFormat object that contains fill formatting properties for the specified shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Fill property. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [MsoFillFormat](../../com.aspose.cells/msofillformat)
@@ -721,7 +739,11 @@ public int getHeightInChart()
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.HeightInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.HeightInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -731,7 +753,11 @@ public int getHeightInShape()
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. Only Applies when this shape in the group or chart.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Example**
 
@@ -925,7 +951,11 @@ public int getLeftInChart()
 ```
 
 
-Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.LeftInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.LeftInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -935,7 +965,11 @@ public int getLeftInShape()
 ```
 
 
-Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. Only Applies when this shape in the group or chart.
+Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Example**
 
@@ -1002,7 +1036,11 @@ public MsoLineFormat getLineFormat()
 ```
 
 
-Returns a MsoLineFormat object that contains line formatting properties for the specified shape. NOTE: This member is now obsolete. Instead, please use Shape.Line property. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Returns a MsoLineFormat object that contains line formatting properties for the specified shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.Line property. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [MsoLineFormat](../../com.aspose.cells/msolineformat)
@@ -1075,7 +1113,11 @@ public int getLowerDeltaX()
 ```
 
 
-Gets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+Gets the shape's horizontal offset from its lower right corner column.
+
+**Remarks**
+
+The range of value is 0 to 1024.
 
 **Example**
 
@@ -1092,7 +1134,11 @@ public int getLowerDeltaY()
 ```
 
 
-Gets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
+Gets the shape's vertical offset from its lower right corner row.
+
+**Remarks**
+
+The range of value is 0 to 256.
 
 **Example**
 
@@ -1160,7 +1206,8 @@ public int getMsoDrawingType()
 ```
 
 
-Gets mso drawing type. See [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
+Gets mso drawing type.
+See [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
 
 **Example**
 
@@ -1210,7 +1257,8 @@ public int getPlacement()
 ```
 
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. See [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Example**
 
@@ -1227,7 +1275,11 @@ public int getPositionX()
 ```
 
 
-Gets the horizonal offset of shape from worksheet left border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the horizonal offset of shape from worksheet left border,in unit of pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1237,7 +1289,11 @@ public int getPositionY()
 ```
 
 
-Gets the vertical offset of shape from worksheet top border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the vertical offset of shape from worksheet top border,in unit of pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1428,7 +1484,8 @@ public int getTextDirection()
 ```
 
 
-Gets the direction of the text flow for this object. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Gets the direction of the text flow for this object.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Example**
 
@@ -1461,7 +1518,11 @@ public MsoTextFrame getTextFrame()
 ```
 
 
-Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape. NOTE: This member is now obsolete. Instead, please use Shape.TextBody.TextAlignment property. This property will be removed 12 months later since May 2016. Aspose apologizes for any inconvenience you may have experienced.
+Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Shape.TextBody.TextAlignment property. This property will be removed 12 months later since May 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [MsoTextFrame](../../com.aspose.cells/msotextframe)
@@ -1471,7 +1532,8 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets the text horizontal alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text horizontal alignment type of the shape.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -1488,7 +1550,8 @@ public int getTextHorizontalOverflow()
 ```
 
 
-Gets the text horizontal overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Gets the text horizontal overflow type of the shape which contains text.
+See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Example**
 
@@ -1523,7 +1586,8 @@ public int getTextOrientationType()
 ```
 
 
-Gets the text orientation type of the shape. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Gets the text orientation type of the shape.
+See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Example**
 
@@ -1540,7 +1604,8 @@ public int getTextShapeType()
 ```
 
 
-Gets the preset text shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Gets the preset text shape type.
+See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Example**
 
@@ -1557,7 +1622,8 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets the text vertical alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text vertical alignment type of the shape.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -1574,7 +1640,8 @@ public int getTextVerticalOverflow()
 ```
 
 
-Gets the text vertical overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Gets the text vertical overflow type of the shape which contains text.
+See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Example**
 
@@ -1623,7 +1690,11 @@ public int getTop()
 ```
 
 
-Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
+Represents the vertical offset of shape from its top row, in unit of pixels.
+
+**Remarks**
+
+If the shape is in the chart, represents the vertical offset of shape from its top border.
 
 **Example**
 
@@ -1657,7 +1728,11 @@ public int getTopInChart()
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.TopInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.TopInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1667,7 +1742,11 @@ public int getTopInShape()
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. Only Applies when this shape in the group or chart.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Example**
 
@@ -1718,7 +1797,8 @@ public int getType()
 ```
 
 
-Gets the auto shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Gets the auto shape type.
+See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Example**
 
@@ -1734,7 +1814,11 @@ public int getUpperDeltaX()
 ```
 
 
-Gets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
+Gets the shape's horizontal offset from its upper left corner column.
+
+**Remarks**
+
+The range of value is 0 to 1024.
 
 **Example**
 
@@ -1751,7 +1835,11 @@ public int getUpperDeltaY()
 ```
 
 
-Gets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
+Gets the shape's vertical offset from its upper left corner row.
+
+**Remarks**
+
+The range of value is 0 to 256.
 
 **Example**
 
@@ -1785,7 +1873,11 @@ public int getUpperLeftRow()
 ```
 
 
-Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+Represents upper left corner row index.
+
+**Remarks**
+
+If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 **Example**
 
@@ -1836,7 +1928,11 @@ public int getWidthInChart()
 ```
 
 
-Represents the width of the shape, in unit of 1/4000 of the parent shape. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.WidthInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the width of the shape, in unit of 1/4000 of the parent shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.WidthInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1846,7 +1942,11 @@ public int getWidthInShape()
 ```
 
 
-Represents the width of the shape, in unit of 1/4000 of the parent shape. Only Applies when this shape in the group or chart.
+Represents the width of the shape, in unit of 1/4000 of the parent shape.
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Example**
 
@@ -2212,7 +2312,11 @@ public boolean isSmartArt()
 ```
 
 
-Indicates whether the shape is smart art. Only for ooxml file.
+Indicates whether the shape is smart art.
+
+**Remarks**
+
+Only for ooxml file.
 
 **Example**
 
@@ -2249,7 +2353,11 @@ public boolean isWordArt()
 ```
 
 
-Indicates whether this shape is a word art. Only for the Legacy Shape of xls file.
+Indicates whether this shape is a word art.
+
+**Remarks**
+
+Only for the Legacy Shape of xls file.
 
 **Example**
 
@@ -2347,7 +2455,8 @@ public void setAnchorType(int value)
 ```
 
 
-Sets the shape anchor placeholder. See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
+Sets the shape anchor placeholder.
+See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2360,7 +2469,8 @@ public void setAutoShapeType(int value)
 ```
 
 
-Sets the auto shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Sets the auto shape type.
+See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2490,7 +2600,11 @@ public void setHeightInChart(int value)
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.HeightInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.HeightInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2503,7 +2617,11 @@ public void setHeightInShape(int value)
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. Only Applies when this shape in the group or chart.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2661,7 +2779,11 @@ public void setLeftInChart(int value)
 ```
 
 
-Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.LeftInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.LeftInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2674,7 +2796,11 @@ public void setLeftInShape(int value)
 ```
 
 
-Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. Only Applies when this shape in the group or chart.
+Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2802,7 +2928,11 @@ public void setLowerDeltaX(int value)
 ```
 
 
-Sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024.
+Sets the shape's horizontal offset from its lower right corner column.
+
+**Remarks**
+
+The range of value is 0 to 1024.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2815,7 +2945,11 @@ public void setLowerDeltaY(int value)
 ```
 
 
-Sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256.
+Sets the shape's vertical offset from its lower right corner row.
+
+**Remarks**
+
+The range of value is 0 to 256.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2880,7 +3014,8 @@ public void setPlacement(int value)
 ```
 
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. See [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2893,7 +3028,11 @@ public void setPositionX(int value)
 ```
 
 
-Sets the horizonal offset of shape from worksheet left border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets the horizonal offset of shape from worksheet left border,in unit of pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2906,7 +3045,11 @@ public void setPositionY(int value)
 ```
 
 
-Sets the vertical offset of shape from worksheet top border,in unit of pixels. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets the vertical offset of shape from worksheet top border,in unit of pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2997,7 +3140,8 @@ public void setTextDirection(int value)
 ```
 
 
-Sets the direction of the text flow for this object. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Sets the direction of the text flow for this object.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3010,7 +3154,8 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Sets the text horizontal alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text horizontal alignment type of the shape.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3023,7 +3168,8 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-Sets the text horizontal overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Sets the text horizontal overflow type of the shape which contains text.
+See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3049,7 +3195,8 @@ public void setTextOrientationType(int value)
 ```
 
 
-Sets the text orientation type of the shape. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Sets the text orientation type of the shape.
+See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3062,7 +3209,8 @@ public void setTextShapeType(int value)
 ```
 
 
-Sets the preset text shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Sets the preset text shape type.
+See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3075,7 +3223,8 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Sets the text vertical alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text vertical alignment type of the shape.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3088,7 +3237,8 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-Sets the text vertical overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Sets the text vertical overflow type of the shape which contains text.
+See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3127,7 +3277,11 @@ public void setTop(int value)
 ```
 
 
-Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
+Represents the vertical offset of shape from its top row, in unit of pixels.
+
+**Remarks**
+
+If the shape is in the chart, represents the vertical offset of shape from its top border.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3153,7 +3307,11 @@ public void setTopInChart(int value)
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.TopInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.TopInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3166,7 +3324,11 @@ public void setTopInShape(int value)
 ```
 
 
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. Only Applies when this shape in the group or chart.
+Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3205,7 +3367,11 @@ public void setUpperDeltaX(int value)
 ```
 
 
-Sets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024.
+Sets the shape's horizontal offset from its upper left corner column.
+
+**Remarks**
+
+The range of value is 0 to 1024.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3218,7 +3384,11 @@ public void setUpperDeltaY(int value)
 ```
 
 
-Sets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256.
+Sets the shape's vertical offset from its upper left corner row.
+
+**Remarks**
+
+The range of value is 0 to 256.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3244,7 +3414,11 @@ public void setUpperLeftRow(int value)
 ```
 
 
-Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+Represents upper left corner row index.
+
+**Remarks**
+
+If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3283,7 +3457,11 @@ public void setWidthInChart(int value)
 ```
 
 
-Represents the width of the shape, in unit of 1/4000 of the parent shape. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.WidthInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the width of the shape, in unit of 1/4000 of the parent shape.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.WidthInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3296,7 +3474,11 @@ public void setWidthInShape(int value)
 ```
 
 
-Represents the width of the shape, in unit of 1/4000 of the parent shape. Only Applies when this shape in the group or chart.
+Represents the width of the shape, in unit of 1/4000 of the parent shape.
+
+**Remarks**
+
+Only Applies when this shape in the group or chart.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3408,6 +3590,8 @@ public void toImage(OutputStream stream, ImageFormat imageFormat)
 
 
 Creates the shape image and saves it to a stream in the specified format.
+
+**Remarks**
 
 The following formats are supported: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 

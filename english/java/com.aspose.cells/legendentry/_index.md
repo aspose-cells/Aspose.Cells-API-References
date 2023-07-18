@@ -19,8 +19,10 @@ Represents a legend entry in a chart legend.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackground()](#getBackground--) | Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [getClass()](#getClass--) |  |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object. |
@@ -30,8 +32,10 @@ Represents a legend entry in a chart legend.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Sets whether the legend entry is deleted. |
 | [setTextNoFill(boolean value)](#setTextNoFill-boolean-) | Sets no fill of the text. |
 | [toString()](#toString--) |  |
@@ -69,7 +73,12 @@ public int getBackground()
 ```
 
 
-Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -79,7 +88,8 @@ public int getBackgroundMode()
 ```
 
 
-Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
 int
@@ -109,7 +119,11 @@ public Font getTextFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object. NOTE: This member is now obsolete. Instead, please use LegendEntry.Font property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use LegendEntry.Font property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -178,7 +192,12 @@ public void setBackground(int value)
 ```
 
 
-Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use LegendEntry.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -191,7 +210,8 @@ public void setBackgroundMode(int value)
 ```
 
 
-Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -34,7 +34,7 @@ Represents a worksheet render which can render worksheet to various images such 
 | [toImage(int pageIndex, OutputStream stream)](#toImage-int-java.io.OutputStream-) | Render certain page to a stream. |
 | [toImage(int pageIndex, String fileName)](#toImage-int-java.lang.String-) | Render certain page to a file. |
 | [toPrinter(String printerName)](#toPrinter-java.lang.String-) | Render worksheet to Printer |
-| [toPrinter(String printerName, int printPageIndex, int printPageCount)](#toPrinter-java.lang.String-int-int-) | Render worksheet to Printer NOTE: This method is now obsolete. |
+| [toPrinter(String printerName, int printPageIndex, int printPageCount)](#toPrinter-java.lang.String-int-int-) | Render worksheet to Printer |
 | [toPrinter(String printerName, String jobName)](#toPrinter-java.lang.String-java.lang.String-) | Render worksheet to Printer |
 | [toString()](#toString--) |  |
 | [toTiff(InputStream stream)](#toTiff-java.io.InputStream-) | Render whole worksheet as Tiff Image to stream. |
@@ -233,7 +233,11 @@ public void toPrinter(String printerName, int printPageIndex, int printPageCount
 ```
 
 
-Render worksheet to Printer NOTE: This method is now obsolete. Instead, please use ToPrinter(string PrinterName) and ImageOrPrintOptions.PageIndex, PageCount to set the first page and the number of pages to print. This property will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
+Render worksheet to Printer
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use ToPrinter(string PrinterName) and ImageOrPrintOptions.PageIndex, PageCount to set the first page and the number of pages to print. This property will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

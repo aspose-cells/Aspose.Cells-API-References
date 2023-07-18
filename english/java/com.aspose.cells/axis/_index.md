@@ -178,7 +178,11 @@ public boolean getAxisBetweenCategories()
 ```
 
 
-Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts.
+Represents if the value axis crosses the category axis between categories.
+
+**Remarks**
+
+This property applies only to category axes, and it doesn't apply to 3-D charts.
 
 **Returns:**
 boolean
@@ -208,7 +212,12 @@ public int getBaseUnitScale()
 ```
 
 
-Represents the base unit scale for the category axis. See [TimeUnit](../../com.aspose.cells/timeunit). Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Represents the base unit scale for the category axis.
+See [TimeUnit](../../com.aspose.cells/timeunit).
+
+**Remarks**
+
+Setting this property only takes effect when the CategoryType property is set to TimeScale.
 
 **Returns:**
 int
@@ -228,7 +237,8 @@ public int getCategoryType()
 ```
 
 
-Represents the category axis type. See [CategoryType](../../com.aspose.cells/categorytype).
+Represents the category axis type.
+See [CategoryType](../../com.aspose.cells/categorytype).
 
 **Returns:**
 int
@@ -248,7 +258,11 @@ public double getCrossAt()
 ```
 
 
-Represents the point on the value axis where the category axis crosses it. The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
+Represents the point on the value axis where the category axis crosses it.
+
+**Remarks**
+
+The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
 
 **Returns:**
 double
@@ -258,7 +272,8 @@ public int getCrossType()
 ```
 
 
-Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
+Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
+See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
 
 **Returns:**
 int
@@ -268,7 +283,11 @@ public int getCustUnit()
 ```
 
 
-Specifies a custom value for the display unit. NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit property. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
+Specifies a custom value for the display unit.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit property. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -288,7 +307,8 @@ public int getDisplayUnit()
 ```
 
 
-Represents the unit label for the specified axis. See [DisplayUnitType](../../com.aspose.cells/displayunittype).
+Represents the unit label for the specified axis.
+See [DisplayUnitType](../../com.aspose.cells/displayunittype).
 
 **Returns:**
 int
@@ -335,7 +355,8 @@ public int getMajorTickMark()
 ```
 
 
-Represents the type of major tick mark for the specified axis. See [TickMarkType](../../com.aspose.cells/tickmarktype).
+Represents the type of major tick mark for the specified axis.
+See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Returns:**
 int
@@ -345,7 +366,11 @@ public double getMajorUnit()
 ```
 
 
-Represents the major units for the axis. The major units must be greater than zero.
+Represents the major units for the axis.
+
+**Remarks**
+
+The major units must be greater than zero.
 
 **Returns:**
 double
@@ -355,7 +380,8 @@ public int getMajorUnitScale()
 ```
 
 
-Represents the major unit scale for the category axis. See [TimeUnit](../../com.aspose.cells/timeunit).
+Represents the major unit scale for the category axis.
+See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Example**
 
@@ -373,7 +399,11 @@ public Object getMaxValue()
 ```
 
 
-Represents the maximum value on the value axis. The maxValue type only can be double or DateTime
+Represents the maximum value on the value axis.
+
+**Remarks**
+
+The maxValue type only can be double or DateTime
 
 **Returns:**
 java.lang.Object
@@ -383,7 +413,11 @@ public Object getMinValue()
 ```
 
 
-Represents the minimum value on the value axis. The minValue type only can be double or DateTime
+Represents the minimum value on the value axis.
+
+**Remarks**
+
+The minValue type only can be double or DateTime
 
 **Returns:**
 java.lang.Object
@@ -403,7 +437,8 @@ public int getMinorTickMark()
 ```
 
 
-Represents the type of minor tick mark for the specified axis. See [TickMarkType](../../com.aspose.cells/tickmarktype).
+Represents the type of minor tick mark for the specified axis.
+See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Returns:**
 int
@@ -413,7 +448,11 @@ public double getMinorUnit()
 ```
 
 
-Represents the minor units for the axis. The minor units must be greater than zero.
+Represents the minor units for the axis.
+
+**Remarks**
+
+The minor units must be greater than zero.
 
 **Returns:**
 double
@@ -423,7 +462,8 @@ public int getMinorUnitScale()
 ```
 
 
-Represents the major unit scale for the category axis. See [TimeUnit](../../com.aspose.cells/timeunit).
+Represents the major unit scale for the category axis.
+See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Example**
 
@@ -441,7 +481,8 @@ public int getTickLabelPosition()
 ```
 
 
-Represents the position of tick-mark labels on the specified axis. See [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
+Represents the position of tick-mark labels on the specified axis.
+See [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
 
 **Returns:**
 int
@@ -451,7 +492,11 @@ public int getTickLabelSpacing()
 ```
 
 
-Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. The number must be between 1 and 31999.
+Represents the number of categories or series between tick-mark labels. Applies only to category and series axes.
+
+**Remarks**
+
+The number must be between 1 and 31999.
 
 **Returns:**
 int
@@ -471,7 +516,11 @@ public int getTickMarkSpacing()
 ```
 
 
-Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. The number must be between 1 and 31999.
+Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.
+
+**Remarks**
+
+The number must be between 1 and 31999.
 
 **Returns:**
 int
@@ -491,7 +540,11 @@ public boolean hasMultiLevelLabels()
 ```
 
 
-Indicates whether the labels shall be shown as multi level. Only valid for category axis.
+Indicates whether the labels shall be shown as multi level.
+
+**Remarks**
+
+Only valid for category axis.
 
 **Returns:**
 boolean
@@ -511,7 +564,11 @@ public boolean isAutoCross()
 ```
 
 
-Indicates whether Microsoft Workbook automatically sets the axis crossing point. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether Microsoft Workbook automatically sets the axis crossing point.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -581,7 +638,11 @@ public boolean isCrossAtMax()
 ```
 
 
-Indicates whether Microsoft Workbook automatically sets the axis crossing point. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether Microsoft Workbook automatically sets the axis crossing point.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -591,7 +652,11 @@ public boolean isDisplayUnitLabelShown()
 ```
 
 
-Represents if the display unit label is shown on the specified axis. The default value is True.
+Represents if the display unit label is shown on the specified axis.
+
+**Remarks**
+
+The default value is True.
 
 **Returns:**
 boolean
@@ -647,7 +712,11 @@ public void setAutoCross()
 ```
 
 
-Sets the axis crossing point as automatic. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets the axis crossing point as automatic.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setAutoTickLabelSpacing(boolean value) {#setAutoTickLabelSpacing-boolean-}
 ```
@@ -720,7 +789,11 @@ public void setAxisBetweenCategories(boolean value)
 ```
 
 
-Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts.
+Represents if the value axis crosses the category axis between categories.
+
+**Remarks**
+
+This property applies only to category axes, and it doesn't apply to 3-D charts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -746,7 +819,12 @@ public void setBaseUnitScale(int value)
 ```
 
 
-Represents the base unit scale for the category axis. See [TimeUnit](../../com.aspose.cells/timeunit). Setting this property only takes effect when the CategoryType property is set to TimeScale.
+Represents the base unit scale for the category axis.
+See [TimeUnit](../../com.aspose.cells/timeunit).
+
+**Remarks**
+
+Setting this property only takes effect when the CategoryType property is set to TimeScale.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -759,7 +837,8 @@ public void setCategoryType(int value)
 ```
 
 
-Represents the category axis type. See [CategoryType](../../com.aspose.cells/categorytype).
+Represents the category axis type.
+See [CategoryType](../../com.aspose.cells/categorytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -772,7 +851,11 @@ public void setCrossAt(double value)
 ```
 
 
-Represents the point on the value axis where the category axis crosses it. The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
+Represents the point on the value axis where the category axis crosses it.
+
+**Remarks**
+
+The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -785,7 +868,11 @@ public void setCrossAtMax(boolean isCrossAtMax)
 ```
 
 
-Sets whether the axis crosses at the maximum value. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets whether the axis crosses at the maximum value.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -798,7 +885,8 @@ public void setCrossType(int value)
 ```
 
 
-Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
+Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
+See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -811,7 +899,11 @@ public void setCustUnit(int value)
 ```
 
 
-Specifies a custom value for the display unit. NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit property. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
+Specifies a custom value for the display unit.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit property. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -837,7 +929,8 @@ public void setDisplayUnit(int value)
 ```
 
 
-Represents the unit label for the specified axis. See [DisplayUnitType](../../com.aspose.cells/displayunittype).
+Represents the unit label for the specified axis.
+See [DisplayUnitType](../../com.aspose.cells/displayunittype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -850,7 +943,11 @@ public void setDisplayUnitLabelShown(boolean value)
 ```
 
 
-Represents if the display unit label is shown on the specified axis. The default value is True.
+Represents if the display unit label is shown on the specified axis.
+
+**Remarks**
+
+The default value is True.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -863,7 +960,11 @@ public void setHasMultiLevelLabels(boolean value)
 ```
 
 
-Indicates whether the labels shall be shown as multi level. Only valid for category axis.
+Indicates whether the labels shall be shown as multi level.
+
+**Remarks**
+
+Only valid for category axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -902,7 +1003,8 @@ public void setMajorTickMark(int value)
 ```
 
 
-Represents the type of major tick mark for the specified axis. See [TickMarkType](../../com.aspose.cells/tickmarktype).
+Represents the type of major tick mark for the specified axis.
+See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -915,7 +1017,11 @@ public void setMajorUnit(double value)
 ```
 
 
-Represents the major units for the axis. The major units must be greater than zero.
+Represents the major units for the axis.
+
+**Remarks**
+
+The major units must be greater than zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -928,7 +1034,8 @@ public void setMajorUnitScale(int value)
 ```
 
 
-Represents the major unit scale for the category axis. See [TimeUnit](../../com.aspose.cells/timeunit).
+Represents the major unit scale for the category axis.
+See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -941,7 +1048,11 @@ public void setMaxValue(Object value)
 ```
 
 
-Represents the maximum value on the value axis. The maxValue type only can be double or DateTime
+Represents the maximum value on the value axis.
+
+**Remarks**
+
+The maxValue type only can be double or DateTime
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -954,7 +1065,11 @@ public void setMinValue(Object value)
 ```
 
 
-Represents the minimum value on the value axis. The minValue type only can be double or DateTime
+Represents the minimum value on the value axis.
+
+**Remarks**
+
+The minValue type only can be double or DateTime
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -967,7 +1082,8 @@ public void setMinorTickMark(int value)
 ```
 
 
-Represents the type of minor tick mark for the specified axis. See [TickMarkType](../../com.aspose.cells/tickmarktype).
+Represents the type of minor tick mark for the specified axis.
+See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -980,7 +1096,11 @@ public void setMinorUnit(double value)
 ```
 
 
-Represents the minor units for the axis. The minor units must be greater than zero.
+Represents the minor units for the axis.
+
+**Remarks**
+
+The minor units must be greater than zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -993,7 +1113,8 @@ public void setMinorUnitScale(int value)
 ```
 
 
-Represents the major unit scale for the category axis. See [TimeUnit](../../com.aspose.cells/timeunit).
+Represents the major unit scale for the category axis.
+See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1019,7 +1140,8 @@ public void setTickLabelPosition(int value)
 ```
 
 
-Represents the position of tick-mark labels on the specified axis. See [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
+Represents the position of tick-mark labels on the specified axis.
+See [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1032,7 +1154,11 @@ public void setTickLabelSpacing(int value)
 ```
 
 
-Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. The number must be between 1 and 31999.
+Represents the number of categories or series between tick-mark labels. Applies only to category and series axes.
+
+**Remarks**
+
+The number must be between 1 and 31999.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1045,7 +1171,11 @@ public void setTickMarkSpacing(int value)
 ```
 
 
-Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. The number must be between 1 and 31999.
+Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.
+
+**Remarks**
+
+The number must be between 1 and 31999.
 
 **Parameters:**
 | Parameter | Type | Description |

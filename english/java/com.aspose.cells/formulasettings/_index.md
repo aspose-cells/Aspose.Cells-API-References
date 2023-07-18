@@ -67,7 +67,11 @@ public boolean getCalculateOnOpen()
 ```
 
 
-Indicates whether the application is required to perform a full calculation when the workbook is opened. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
+Indicates whether the application is required to perform a full calculation when the workbook is opened.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
 
 **Returns:**
 boolean
@@ -77,7 +81,11 @@ public boolean getCalculateOnSave()
 ```
 
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
+Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
 
 **Returns:**
 boolean
@@ -87,7 +95,11 @@ public String getCalculationId()
 ```
 
 
-Specifies the version of the calculation engine used to calculate values in the workbook. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. In the case of ms excel, if the value of this property is less than the recalculation engine identifier associated with the application that opens the resultant file, the application will recalculate the results of all formulas on this workbook immediately after loading the file. For performance consideration for most users' applications, we do not calculate any formula on the workbook automatically, no matter what value has been set for this property.
+Specifies the version of the calculation engine used to calculate values in the workbook.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. In the case of ms excel, if the value of this property is less than the recalculation engine identifier associated with the application that opens the resultant file, the application will recalculate the results of all formulas on this workbook immediately after loading the file. For performance consideration for most users' applications, we do not calculate any formula on the workbook automatically, no matter what value has been set for this property.
 
 **Returns:**
 java.lang.String
@@ -97,7 +109,12 @@ public int getCalculationMode()
 ```
 
 
-Gets the mode for workbook calculation in ms excel. See [CalcModeType](../../com.aspose.cells/calcmodetype). This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.calculateFormula()](../../com.aspose.cells/workbook\#calculateFormula--), [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-), ...etc.
+Gets the mode for workbook calculation in ms excel.
+See [CalcModeType](../../com.aspose.cells/calcmodetype).
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.calculateFormula()](../../com.aspose.cells/workbook\#calculateFormula--), [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-), ...etc.
 
 **Returns:**
 int
@@ -117,7 +134,11 @@ public boolean getEnableCalculationChain()
 ```
 
 
-Whether enable calculation chain for formulas. Default is false. When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the calculation chain. On the other hand, if the chain is enabled, maintaining the model of chain requires extra memory, and it also requires a bit more cpu time for some other operations such as changing cell's value or formulas. After changing this property from false to true, the calculation chain will be analyzed and built at the time of first calculation for the workbook, so the required time for the first calculation may be more than normal calculation without chain.
+Whether enable calculation chain for formulas. Default is false.
+
+**Remarks**
+
+When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the calculation chain. On the other hand, if the chain is enabled, maintaining the model of chain requires extra memory, and it also requires a bit more cpu time for some other operations such as changing cell's value or formulas. After changing this property from false to true, the calculation chain will be analyzed and built at the time of first calculation for the workbook, so the required time for the first calculation may be more than normal calculation without chain.
 
 **Returns:**
 boolean
@@ -137,7 +158,11 @@ public boolean getForceFullCalculation()
 ```
 
 
-Indicates whether calculates all formulas every time when a calculation is triggered. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
+Indicates whether calculates all formulas every time when a calculation is triggered.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
 
 **Returns:**
 boolean
@@ -203,7 +228,11 @@ public void setCalculateOnOpen(boolean value)
 ```
 
 
-Indicates whether the application is required to perform a full calculation when the workbook is opened. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
+Indicates whether the application is required to perform a full calculation when the workbook is opened.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,7 +245,11 @@ public void setCalculateOnSave(boolean value)
 ```
 
 
-Indicates whether recalculate the workbook before saving the document, when in manual calculation mode. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
+Indicates whether recalculate the workbook before saving the document, when in manual calculation mode.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +262,11 @@ public void setCalculationId(String value)
 ```
 
 
-Specifies the version of the calculation engine used to calculate values in the workbook. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. In the case of ms excel, if the value of this property is less than the recalculation engine identifier associated with the application that opens the resultant file, the application will recalculate the results of all formulas on this workbook immediately after loading the file. For performance consideration for most users' applications, we do not calculate any formula on the workbook automatically, no matter what value has been set for this property.
+Specifies the version of the calculation engine used to calculate values in the workbook.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. In the case of ms excel, if the value of this property is less than the recalculation engine identifier associated with the application that opens the resultant file, the application will recalculate the results of all formulas on this workbook immediately after loading the file. For performance consideration for most users' applications, we do not calculate any formula on the workbook automatically, no matter what value has been set for this property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -242,7 +279,12 @@ public void setCalculationMode(int value)
 ```
 
 
-Sets the mode for workbook calculation in ms excel. See [CalcModeType](../../com.aspose.cells/calcmodetype). This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.calculateFormula()](../../com.aspose.cells/workbook\#calculateFormula--), [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-), ...etc.
+Sets the mode for workbook calculation in ms excel.
+See [CalcModeType](../../com.aspose.cells/calcmodetype).
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most user's application, we do not calculate any formula in the workbook automatically, no matter what mode has been set for this property. If user needs to calculate formulas, please always call methods on different objects according to requirement: [Workbook.calculateFormula()](../../com.aspose.cells/workbook\#calculateFormula--), [Worksheet.calculateFormula(CalculationOptions,boolean)](../../com.aspose.cells/worksheet\#calculateFormula-CalculationOptions-boolean-), [Cell.calculate(CalculationOptions)](../../com.aspose.cells/cell\#calculate-CalculationOptions-), ...etc.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +297,11 @@ public void setEnableCalculationChain(boolean value)
 ```
 
 
-Whether enable calculation chain for formulas. Default is false. When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the calculation chain. On the other hand, if the chain is enabled, maintaining the model of chain requires extra memory, and it also requires a bit more cpu time for some other operations such as changing cell's value or formulas. After changing this property from false to true, the calculation chain will be analyzed and built at the time of first calculation for the workbook, so the required time for the first calculation may be more than normal calculation without chain.
+Whether enable calculation chain for formulas. Default is false.
+
+**Remarks**
+
+When there are lots of formulas in the workbook and user needs to calculate them repeatedly with modifying only a small part of them, it may be helpful for performance to enable the calculation chain. On the other hand, if the chain is enabled, maintaining the model of chain requires extra memory, and it also requires a bit more cpu time for some other operations such as changing cell's value or formulas. After changing this property from false to true, the calculation chain will be analyzed and built at the time of first calculation for the workbook, so the required time for the first calculation may be more than normal calculation without chain.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +327,11 @@ public void setForceFullCalculation(boolean value)
 ```
 
 
-Indicates whether calculates all formulas every time when a calculation is triggered. This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
+Indicates whether calculates all formulas every time when a calculation is triggered.
+
+**Remarks**
+
+This property is only for saving the settings to resultant spreadsheet file so that other applications(such as ms excel) may act accordingly when loading and manipulating the resultant file. For performance consideration for most users' applications, we do not calculate any formula in the workbook automatically, no matter what value has been set for this property.
 
 **Parameters:**
 | Parameter | Type | Description |

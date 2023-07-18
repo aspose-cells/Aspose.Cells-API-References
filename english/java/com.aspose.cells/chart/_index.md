@@ -54,7 +54,7 @@ The following codes show how to create a chart with .Net codes.
 | [getChartDataRange()](#getChartDataRange--) | Gets the data source range of the chart. |
 | [getChartDataTable()](#getChartDataTable--) | Represents the chart data table. |
 | [getChartObject()](#getChartObject--) | Represents the chartShape; |
-| [getChartShape()](#getChartShape--) | Represents the chartShape; NOTE: This member is now obsolete. |
+| [getChartShape()](#getChartShape--) | Represents the chartShape; |
 | [getClass()](#getClass--) |  |
 | [getDepthPercent()](#getDepthPercent--) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
 | [getDisplayNaAsBlank()](#getDisplayNaAsBlank--) | Indicates whether displaying \#N/A as blank value. |
@@ -193,7 +193,11 @@ public int[] getActualChartSize()
 ```
 
 
-Gets actual size of chart in unit of pixels. NOTE: This member is now obsolete. Instead, please use Chart.getActualSize() method. This property will be removed 12 months later since July 2022. Aspose apologizes for any inconvenience you may have experienced.
+Gets actual size of chart in unit of pixels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Chart.getActualSize() method. This property will be removed 12 months later since July 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int[] - Actual size in an array(width and height). [0] is width; [1] is height.
@@ -253,7 +257,11 @@ public String getChartDataRange()
 ```
 
 
-Gets the data source range of the chart. Only supports range.
+Gets the data source range of the chart.
+
+**Remarks**
+
+Only supports range.
 
 **Returns:**
 java.lang.String - The data source.
@@ -283,7 +291,11 @@ public ChartShape getChartShape()
 ```
 
 
-Represents the chartShape; NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Chart.ChartObject property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Represents the chartShape;
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Chart.ChartObject property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [ChartShape](../../com.aspose.cells/chartshape)
@@ -323,7 +335,11 @@ public int getElevation()
 ```
 
 
-Represents the elevation of the 3-D chart view, in degrees. The chart elevation is the height at which you view the chart, in degrees. The default is 15 for most chart types. The value of this property must be between -90 and 90, except for 3-D bar charts, where it must be between 0 and 44.
+Represents the elevation of the 3-D chart view, in degrees.
+
+**Remarks**
+
+The chart elevation is the height at which you view the chart, in degrees. The default is 15 for most chart types. The value of this property must be between -90 and 90, except for 3-D bar charts, where it must be between 0 and 44.
 
 **Returns:**
 int
@@ -343,7 +359,11 @@ public Floor getFloor()
 ```
 
 
-Returns a [getFloor()](../../com.aspose.cells/chart\#getFloor--) object that represents the walls of a 3-D chart. This property doesn't apply to 3-D pie charts.
+Returns a [getFloor()](../../com.aspose.cells/chart\#getFloor--) object that represents the walls of a 3-D chart.
+
+**Remarks**
+
+This property doesn't apply to 3-D pie charts.
 
 **Returns:**
 [Floor](../../com.aspose.cells/floor)
@@ -473,7 +493,11 @@ public String getPivotSource()
 ```
 
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xls". The pivotSource could be "[Book1.xls]Sheet1!PivotTable1" if the chart and the PivotTable is not in the same workbook. If you set this property ,the previous data source setting will be lost.
+The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+
+**Remarks**
+
+If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xls". The pivotSource could be "[Book1.xls]Sheet1!PivotTable1" if the chart and the PivotTable is not in the same workbook. If you set this property ,the previous data source setting will be lost.
 
 **Returns:**
 java.lang.String
@@ -483,7 +507,8 @@ public int getPlacement()
 ```
 
 
-Represents the way the chart is attached to the cells below it. See [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the chart is attached to the cells below it.
+See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Returns:**
 int
@@ -495,6 +520,8 @@ public PlotArea getPlotArea()
 
 Gets the chart's plot area which includes axis tick labels.
 
+**Remarks**
+
 **Returns:**
 [PlotArea](../../com.aspose.cells/plotarea)
 ### getPlotBy() {#getPlotBy--}
@@ -503,7 +530,8 @@ public int getPlotBy()
 ```
 
 
-Gets whether plot by row or column. See [PlotDataByType](../../com.aspose.cells/plotdatabytype).
+Gets whether plot by row or column.
+See [PlotDataByType](../../com.aspose.cells/plotdatabytype).
 
 **Returns:**
 int
@@ -513,7 +541,8 @@ public int getPlotEmptyCellsType()
 ```
 
 
-Gets how to plot the empty cells. See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
+Gets how to plot the empty cells.
+See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Returns:**
 int
@@ -523,7 +552,11 @@ public boolean getPlotVisibleCells()
 ```
 
 
-Indicates whether only plot visible cells. NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly property. This method will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether only plot visible cells.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly property. This method will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -543,7 +576,8 @@ public int getPrintSize()
 ```
 
 
-Gets the printed chart size. See [PrintSizeType](../../com.aspose.cells/printsizetype).
+Gets the printed chart size.
+See [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Returns:**
 int
@@ -553,7 +587,11 @@ public boolean getRightAngleAxes()
 ```
 
 
-True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts). If this property is True, the Perspective property is ignored.
+True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts).
+
+**Remarks**
+
+If this property is True, the Perspective property is ignored.
 
 **Returns:**
 boolean
@@ -563,7 +601,11 @@ public int getRotationAngle()
 ```
 
 
-Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). The value of this property must be from 0 to 360, except for 3-D bar charts, where the value must be from 0 to 44. The default value is 20. Applies only to 3-D charts.
+Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees).
+
+**Remarks**
+
+The value of this property must be from 0 to 360, except for 3-D bar charts, where the value must be from 0 to 44. The default value is 20. Applies only to 3-D charts.
 
 **Returns:**
 int
@@ -653,7 +695,11 @@ public int getStyle()
 ```
 
 
-Gets the builtin style. It should be between 1 and 48. Return -1 if it's not be set.
+Gets the builtin style.
+
+**Remarks**
+
+It should be between 1 and 48. Return -1 if it's not be set.
 
 **Returns:**
 int
@@ -683,7 +729,8 @@ public int getType()
 ```
 
 
-Gets a chart's type. See [ChartType](../../com.aspose.cells/charttype).
+Gets a chart's type.
+See [ChartType](../../com.aspose.cells/charttype).
 
 **Returns:**
 int
@@ -703,7 +750,11 @@ public Walls getWalls()
 ```
 
 
-Returns a [getWalls()](../../com.aspose.cells/chart\#getWalls--) object that represents the walls of a 3-D chart. This property doesn't apply to 3-D pie charts.
+Returns a [getWalls()](../../com.aspose.cells/chart\#getWalls--) object that represents the walls of a 3-D chart.
+
+**Remarks**
+
+This property doesn't apply to 3-D pie charts.
 
 **Returns:**
 [Walls](../../com.aspose.cells/walls)
@@ -733,7 +784,11 @@ public boolean hasAxis(int aixsType, boolean isPrimary)
 ```
 
 
-Returns which axes exist on the chart. Normally, Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded is no axis.
+Returns which axes exist on the chart.
+
+**Remarks**
+
+Normally, Pie, PieExploded, PiePie,PieBar, Pie3D, Pie3DExploded,Doughnut, DoughnutExploded is no axis.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -776,7 +831,11 @@ public boolean isChartDataChanged()
 ```
 
 
-Detects if a chart's data source has changed. The method detects the changes in the chart's data source before rendering the chart to image format. At first Chart.toImage call, the chart source data (e.g. XValuesParseData, ValuesParseData) will be recorded. Before calling the Chart.toImage method again, call IsChartDataChanged method to check if Chart needs re-rendering.
+Detects if a chart's data source has changed.
+
+**Remarks**
+
+The method detects the changes in the chart's data source before rendering the chart to image format. At first Chart.toImage call, the chart source data (e.g. XValuesParseData, ValuesParseData) will be recorded. Before calling the Chart.toImage method again, call IsChartDataChanged method to check if Chart needs re-rendering.
 
 **Returns:**
 boolean - Returns true if the chart has changed otherwise returns false
@@ -796,7 +855,11 @@ public boolean isReferedByChart(int rowIndex, int columnIndex)
 ```
 
 
-Returns whether the cell refered by the chart. NOTE: This method is now obsolete. Instead, please use IsCellReferedByChart(int,int,int) method. This method will be removed 12 months later since April 2023. Aspose apologizes for any inconvenience you may have experienced.
+Returns whether the cell refered by the chart.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use IsCellReferedByChart(int,int,int) method. This method will be removed 12 months later since April 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -844,7 +907,11 @@ public void refreshPivotData()
 ```
 
 
-Refreshes pivot chart's data from it's pivot data source. We will gather data from pivot data source to the pivot chart cache. This method is only used to gather all data to a pivot chart.
+Refreshes pivot chart's data from it's pivot data source.
+
+**Remarks**
+
+We will gather data from pivot data source to the pivot chart cache. This method is only used to gather all data to a pivot chart.
 
 ### setAutoScaling(boolean value) {#setAutoScaling-boolean-}
 ```
@@ -905,7 +972,11 @@ public void setElevation(int value)
 ```
 
 
-Represents the elevation of the 3-D chart view, in degrees. The chart elevation is the height at which you view the chart, in degrees. The default is 15 for most chart types. The value of this property must be between -90 and 90, except for 3-D bar charts, where it must be between 0 and 44.
+Represents the elevation of the 3-D chart view, in degrees.
+
+**Remarks**
+
+The chart elevation is the height at which you view the chart, in degrees. The default is 15 for most chart types. The value of this property must be between -90 and 90, except for 3-D bar charts, where it must be between 0 and 44.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1009,7 +1080,11 @@ public void setPivotSource(String value)
 ```
 
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xls". The pivotSource could be "[Book1.xls]Sheet1!PivotTable1" if the chart and the PivotTable is not in the same workbook. If you set this property ,the previous data source setting will be lost.
+The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+
+**Remarks**
+
+If the pivot table "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.xls". The pivotSource could be "[Book1.xls]Sheet1!PivotTable1" if the chart and the PivotTable is not in the same workbook. If you set this property ,the previous data source setting will be lost.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1022,7 +1097,8 @@ public void setPlacement(int value)
 ```
 
 
-Represents the way the chart is attached to the cells below it. See [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the chart is attached to the cells below it.
+See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1035,7 +1111,8 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-Sets how to plot the empty cells. See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
+Sets how to plot the empty cells.
+See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1048,7 +1125,11 @@ public void setPlotVisibleCells(boolean value)
 ```
 
 
-Indicates whether only plot visible cells. NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly property. This method will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether only plot visible cells.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use PlotVisibleCellsOnly property. This method will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1074,7 +1155,8 @@ public void setPrintSize(int value)
 ```
 
 
-Sets the printed chart size. See [PrintSizeType](../../com.aspose.cells/printsizetype).
+Sets the printed chart size.
+See [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1100,7 +1182,11 @@ public void setRightAngleAxes(boolean value)
 ```
 
 
-True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts). If this property is True, the Perspective property is ignored.
+True if the chart axes are at right angles. Applies only for 3-D charts(except Column3D and 3-D Pie Charts).
+
+**Remarks**
+
+If this property is True, the Perspective property is ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1113,7 +1199,11 @@ public void setRotationAngle(int value)
 ```
 
 
-Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees). The value of this property must be from 0 to 360, except for 3-D bar charts, where the value must be from 0 to 44. The default value is 20. Applies only to 3-D charts.
+Represents the rotation of the 3-D chart view (the rotation of the plot area around the z-axis, in degrees).
+
+**Remarks**
+
+The value of this property must be from 0 to 360, except for 3-D bar charts, where the value must be from 0 to 44. The default value is 20. Applies only to 3-D charts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1165,7 +1255,11 @@ public void setStyle(int value)
 ```
 
 
-Sets the builtin style. It should be between 1 and 48. Return -1 if it's not be set.
+Sets the builtin style.
+
+**Remarks**
+
+It should be between 1 and 48. Return -1 if it's not be set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1178,7 +1272,8 @@ public void setType(int value)
 ```
 
 
-Sets a chart's type. See [ChartType](../../com.aspose.cells/charttype).
+Sets a chart's type.
+See [ChartType](../../com.aspose.cells/charttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1216,6 +1311,8 @@ public void toImage(OutputStream stream, ImageOrPrintOptions options)
 
 Creates the chart image and saves it to a stream in the specified format.
 
+**Remarks**
+
 The format of the image is specified by using `options.ImageFormat`. The following formats are supported: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List][] for more details.
@@ -1237,6 +1334,8 @@ public void toImage(String imageFile)
 
 Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
 
+**Remarks**
+
 The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
@@ -1252,7 +1351,11 @@ public void toImage(String imageFile, ImageFormat imageFormat)
 ```
 
 
-Creates the chart image and saves it to a file in the specified format. NOTE: This member is now obsolete. Instead, please use Chart.ToImage(string, ImageType) method. This property will be removed 12 months later since July 2022. Aspose apologizes for any inconvenience you may have experienced.
+Creates the chart image and saves it to a file in the specified format.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Chart.ToImage(string, ImageType) method. This property will be removed 12 months later since July 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1267,6 +1370,8 @@ public void toImage(String imageFile, ImageOrPrintOptions options)
 
 
 Creates the chart image and saves it to a file. The extension of the file name determines the format of the image.
+
+**Remarks**
 
 The format of the image is specified by using the extension of the file name. For example, if you specify "myfile.png", then the image will be saved in the PNG format. The following file extensions are recognized: .bmp, .gif, .png, .jpg, .jpeg, .tiff, .tif, .emf.
 
@@ -1303,6 +1408,8 @@ public void toImage(String imageFile, int imageType)
 
 Creates the chart image and saves it to a file in the specified image type.
 
+**Remarks**
+
 The type of the image is specified by using `imageType`. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
@@ -1319,7 +1426,11 @@ public void toImage(String imageFile, long jpegQuality)
 ```
 
 
-Creates the chart image and saves it to a file in the Jpeg format. If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
+Creates the chart image and saves it to a file in the Jpeg format.
+
+**Remarks**
+
+If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 
 **Parameters:**
 | Parameter | Type | Description |

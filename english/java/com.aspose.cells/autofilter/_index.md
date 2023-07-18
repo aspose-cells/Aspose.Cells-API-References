@@ -74,7 +74,11 @@ public void addDateFilter(int fieldIndex, int dateTimeGroupingType, int year, in
 ```
 
 
-Adds a date filter. If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupingType is Month, only the param year and month effect.
+Adds a date filter.
+
+**Remarks**
+
+If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupingType is Month, only the param year and month effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -110,7 +114,11 @@ public void addFilter(int fieldIndex, String criteria)
 ```
 
 
-Adds a filter for a filter column. MS Excel 2007 supports multiple selection in a filter column.
+Adds a filter for a filter column.
+
+**Remarks**
+
+MS Excel 2007 supports multiple selection in a filter column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -138,7 +146,11 @@ public void addIconFilter(int fieldIndex, int iconSetType, int iconId)
 ```
 
 
-Adds an icon filter. Only supports to add the icon filter. Not supports checking which row is visible if the filter is icon filter.
+Adds an icon filter.
+
+**Remarks**
+
+Only supports to add the icon filter. Not supports checking which row is visible if the filter is icon filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -215,7 +227,11 @@ public void filter(int fieldIndex, String criteria)
 ```
 
 
-Filters a list with specified criteria. Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2003.
+Filters a list with specified criteria.
+
+**Remarks**
+
+Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2003.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +398,11 @@ public void removeDateFilter(int fieldIndex, int dateTimeGroupingType, int year,
 ```
 
 
-Removes a date filter. If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupingType is Month, only the param year and month effect.
+Removes a date filter.
+
+**Remarks**
+
+If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupingType is Month, only the param year and month effect.
 
 **Parameters:**
 | Parameter | Type | Description |

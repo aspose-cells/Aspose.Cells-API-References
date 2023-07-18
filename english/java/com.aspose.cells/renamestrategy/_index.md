@@ -12,7 +12,11 @@ java.lang.Object
 public final class RenameStrategy
 ```
 
-Strategy option for duplicate names of columns. When processing data with headers, some scenarios require the headers to be no duplication for all columns. For example, when exporting data to a datatable and the header is required to be taken as datatable's column name, duplicated values of the header are invalid. For such kind of situations, user may determine how to handle them by specifying this strategy.
+Strategy option for duplicate names of columns.
+
+**Remarks**
+
+When processing data with headers, some scenarios require the headers to be no duplication for all columns. For example, when exporting data to a datatable and the header is required to be taken as datatable's column name, duplicated values of the header are invalid. For such kind of situations, user may determine how to handle them by specifying this strategy.
 ## Fields
 
 | Field | Description |

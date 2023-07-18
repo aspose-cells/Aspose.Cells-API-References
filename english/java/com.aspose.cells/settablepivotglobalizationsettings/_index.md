@@ -149,7 +149,11 @@ public String getTextOfProtectedName(String protectedName)
 ```
 
 
-Gets the text for specified protected name. In Ms Excel, some names are not allowed to be used as the name of PivotFields in PivotTable. They are different in different region, user may specify them explicitly according to the used region.
+Gets the text for specified protected name.
+
+**Remarks**
+
+In Ms Excel, some names are not allowed to be used as the name of PivotFields in PivotTable. They are different in different region, user may specify them explicitly according to the used region.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -164,7 +168,11 @@ public String getTextOfProtection()
 ```
 
 
-Gets the protection name in the PivotTable. NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSettings.GetTextOfProtectedName(string) method. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
+Gets the protection name in the PivotTable.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSettings.GetTextOfProtectedName(string) method. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - The protection name of PivotTable

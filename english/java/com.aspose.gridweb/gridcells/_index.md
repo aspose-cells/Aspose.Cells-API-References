@@ -47,7 +47,7 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [deleteRows(int rowIndex, int totalRows, boolean updateReference)](#deleteRows-int-int-boolean-) | Deletes multiple rows in the worksheet. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [exportArray(int firstRow, int firstColumn, int totalRows, int totalColumns)](#exportArray-int-int-int-int-) | Exports data in the [GridCells](../../com.aspose.gridweb/gridcells) collection to a two-dimension array object. |
-| [get(int index)](#get-int-) | Gets [GridCell](../../com.aspose.gridweb/gridcell) item within the worksheet This is the indexer for the Cells class. |
+| [get(int index)](#get-int-) | Gets [GridCell](../../com.aspose.gridweb/gridcell) item within the worksheet |
 | [get(int row, int column)](#get-int-int-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell row index and column index. |
 | [get(String cellName)](#get-java.lang.String-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell name. |
 | [getCell(int row, int column)](#getCell-int-int-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element or null at the specified cell row index and column index. |
@@ -459,7 +459,11 @@ public boolean deleteRows(int rowIndex, int totalRows)
 ```
 
 
-Deletes several rows. If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done.It works as MS Excel.
+Deletes several rows.
+
+**Remarks**
+
+If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done.It works as MS Excel.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -525,7 +529,11 @@ public GridCell get(int index)
 ```
 
 
-Gets [GridCell](../../com.aspose.gridweb/gridcell) item within the worksheet This is the indexer for the Cells class. Gets the cell element at the specified index.
+Gets [GridCell](../../com.aspose.gridweb/gridcell) item within the worksheet
+
+**Remarks**
+
+This is the indexer for the Cells class. Gets the cell element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -699,7 +707,11 @@ public int getMaxColumn()
 ```
 
 
-Maximum column index of cell which contains data or style. Return -1 if ther is not cell.
+Maximum column index of cell which contains data or style.
+
+**Remarks**
+
+Return -1 if ther is not cell.
 
 **Returns:**
 int
@@ -729,7 +741,11 @@ public int getMaxRow()
 ```
 
 
-Maximum row index of cell which contains data or style. Return -1 if there is no cell whiche contains data or style in the worksheet.
+Maximum row index of cell which contains data or style.
+
+**Remarks**
+
+Return -1 if there is no cell whiche contains data or style in the worksheet.
 
 **Returns:**
 int
@@ -739,7 +755,11 @@ public ArrayList getMergedCells()
 ```
 
 
-Gets the collection of merged cells. In this collection, each item is a [GridCellArea](../../com.aspose.gridweb/gridcellarea) structure which represents an area of merged cells.
+Gets the collection of merged cells.
+
+**Remarks**
+
+In this collection, each item is a [GridCellArea](../../com.aspose.gridweb/gridcellarea) structure which represents an area of merged cells.
 
 **Returns:**
 java.util.ArrayList
@@ -1211,7 +1231,11 @@ public void merge(int firstRow, int firstColumn, int totalRows, int totalColumns
 ```
 
 
-Merges a specified range of cells into a single cell. Reference the merged cell via the address of the upper-left cell in the range.
+Merges a specified range of cells into a single cell.
+
+**Remarks**
+
+Reference the merged cell via the address of the upper-left cell in the range.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1292,7 +1316,11 @@ public void setColumnWidth(int column, double width)
 ```
 
 
-Sets the width of the specified column. To hide a column, sets column width to zero.
+Sets the width of the specified column.
+
+**Remarks**
+
+To hide a column, sets column width to zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1334,7 +1362,11 @@ public void setRowHeight(int row, double height)
 ```
 
 
-Sets the height of the specified row. To hide a row, sets row height to zero.
+Sets the height of the specified row.
+
+**Remarks**
+
+To hide a row, sets row height to zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1573,7 +1605,11 @@ public void ungroupRows(int firstIndex, int lastIndex)
 ```
 
 
-Ungroups rows. Only removes outter group info.
+Ungroups rows.
+
+**Remarks**
+
+Only removes outter group info.
 
 **Parameters:**
 | Parameter | Type | Description |

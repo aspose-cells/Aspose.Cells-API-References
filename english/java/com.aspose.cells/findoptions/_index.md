@@ -144,7 +144,8 @@ public int getLookAtType()
 ```
 
 
-Look at type. See [LookAtType](../../com.aspose.cells/lookattype).
+Look at type.
+See [LookAtType](../../com.aspose.cells/lookattype).
 
 **Returns:**
 int
@@ -154,7 +155,8 @@ public int getLookInType()
 ```
 
 
-Look in type. See [LookInType](../../com.aspose.cells/lookintype).
+Look in type.
+See [LookInType](../../com.aspose.cells/lookintype).
 
 **Returns:**
 int
@@ -204,7 +206,11 @@ public boolean getSearchNext()
 ```
 
 
-Search order. True: search next. False: search previous. NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackward property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+Search order. True: search next. False: search previous.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackward property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -296,7 +302,8 @@ public void setLookAtType(int value)
 ```
 
 
-Look at type. See [LookAtType](../../com.aspose.cells/lookattype).
+Look at type.
+See [LookAtType](../../com.aspose.cells/lookattype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -309,7 +316,8 @@ public void setLookInType(int value)
 ```
 
 
-Look in type. See [LookInType](../../com.aspose.cells/lookintype).
+Look in type.
+See [LookInType](../../com.aspose.cells/lookintype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -374,7 +382,11 @@ public void setSearchNext(boolean value)
 ```
 
 
-Search order. True: search next. False: search previous. NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackward property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
+Search order. True: search next. False: search previous.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FindOptions.SearchBackward property. This property will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

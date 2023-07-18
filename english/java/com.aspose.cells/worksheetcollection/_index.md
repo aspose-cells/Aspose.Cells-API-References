@@ -202,7 +202,11 @@ public void clear()
 ```
 
 
-Clear all worksheets. A workbook must contains a worksheet.
+Clear all worksheets.
+
+**Remarks**
+
+A workbook must contains a worksheet.
 
 ### clearPivottables() {#clearPivottables--}
 ```
@@ -310,7 +314,11 @@ public int getActiveSheetIndex()
 ```
 
 
-Represents the index of active worksheet when the spreadsheet is opened. Sheet index is zero based.
+Represents the index of active worksheet when the spreadsheet is opened.
+
+**Remarks**
+
+Sheet index is zero based.
 
 **Returns:**
 int
@@ -330,7 +338,11 @@ public BuiltInDocumentPropertyCollection getBuiltInDocumentProperties()
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the built-in document properties of the spreadsheet. A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list:
+Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the built-in document properties of the spreadsheet.
+
+**Remarks**
+
+A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list:
 
 Title
 
@@ -495,7 +507,11 @@ public Object getOleSize()
 ```
 
 
-Gets displayed size when Workbook file is used as an Ole object. Null means no ole size setting.
+Gets displayed size when Workbook file is used as an Ole object.
+
+**Remarks**
+
+Null means no ole size setting.
 
 **Returns:**
 java.lang.Object
@@ -775,7 +791,11 @@ public void setActiveSheetIndex(int value)
 ```
 
 
-Represents the index of active worksheet when the spreadsheet is opened. Sheet index is zero based.
+Represents the index of active worksheet when the spreadsheet is opened.
+
+**Remarks**
+
+Sheet index is zero based.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -801,7 +821,11 @@ public void setOleSize(int startRow, int endRow, int startColumn, int endColumn)
 ```
 
 
-Sets displayed size when Workbook file is used as an Ole object. This method is generally used to adjust display size in ppt file or doc file.
+Sets displayed size when Workbook file is used as an Ole object.
+
+**Remarks**
+
+This method is generally used to adjust display size in ppt file or doc file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -817,7 +841,11 @@ public void setOleSize(Object value)
 ```
 
 
-Sets displayed size when Workbook file is used as an Ole object. Null means no ole size setting.
+Sets displayed size when Workbook file is used as an Ole object.
+
+**Remarks**
+
+Null means no ole size setting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -856,7 +884,11 @@ public void sortNames()
 ```
 
 
-Sorts the defined names. If you create a large amount of named ranges in the Excel file, please call this method after all named ranges are created and before saving
+Sorts the defined names.
+
+**Remarks**
+
+If you create a large amount of named ranges in the Excel file, please call this method after all named ranges are created and before saving
 
 ### swapSheet(int sheetIndex1, int sheetIndex2) {#swapSheet-int-int-}
 ```

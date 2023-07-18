@@ -27,7 +27,7 @@ Represents the options of loading the file. [Obsolete("This class will be obsole
 | [getCheckDataValid()](#getCheckDataValid--) | Check whether data is valid in the template file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
-| [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
@@ -38,7 +38,7 @@ Represents the options of loading the file. [Obsolete("This class will be obsole
 | [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | Indicates whether auto filtering the data when loading the files. |
 | [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | Check whether data is valid in the template file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
-| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file |
 | [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
@@ -76,7 +76,11 @@ public boolean getAutoFilter()
 ```
 
 
-Indicates whether auto filtering the data when loading the files. Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
+Indicates whether auto filtering the data when loading the files.
+
+**Remarks**
+
+Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
 **Returns:**
 boolean
@@ -116,7 +120,11 @@ public boolean getIgnoreNotPrinted()
 ```
 
 
-Ignore the data which are not printed if directly printing the file Only for xlsx file.
+Ignore the data which are not printed if directly printing the file
+
+**Remarks**
+
+Only for xlsx file.
 
 **Returns:**
 boolean
@@ -126,7 +134,11 @@ public boolean getKeepUnparsedData()
 ```
 
 
-Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.
+
+**Remarks**
+
+For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
 
 **Returns:**
 boolean
@@ -136,7 +148,11 @@ public boolean getParsingFormulaOnOpen()
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
 **Returns:**
 boolean
@@ -146,7 +162,11 @@ public boolean getParsingPivotCachedRecords()
 ```
 
 
-Indicates whether parsing pivot cached records when loading the file. The default value is false. Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
+Indicates whether parsing pivot cached records when loading the file. The default value is false.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 **Returns:**
 boolean
@@ -192,7 +212,11 @@ public void setAutoFilter(boolean value)
 ```
 
 
-Indicates whether auto filtering the data when loading the files. Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
+Indicates whether auto filtering the data when loading the files.
+
+**Remarks**
+
+Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +255,11 @@ public void setIgnoreNotPrinted(boolean value)
 ```
 
 
-Ignore the data which are not printed if directly printing the file Only for xlsx file.
+Ignore the data which are not printed if directly printing the file
+
+**Remarks**
+
+Only for xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -244,7 +272,11 @@ public void setKeepUnparsedData(boolean value)
 ```
 
 
-Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.
+
+**Remarks**
+
+For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +289,11 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,7 +306,11 @@ public void setParsingPivotCachedRecords(boolean value)
 ```
 
 
-Indicates whether parsing pivot cached records when loading the file. The default value is false. Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
+Indicates whether parsing pivot cached records when loading the file. The default value is false.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 **Parameters:**
 | Parameter | Type | Description |

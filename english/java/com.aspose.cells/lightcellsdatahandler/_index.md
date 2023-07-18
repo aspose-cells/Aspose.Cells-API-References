@@ -9,7 +9,11 @@ url: /java/com.aspose.cells/lightcellsdatahandler/
 public interface LightCellsDataHandler
 ```
 
-Represents cells data handler for reading large spreadsheet files in light weight mode. When reading a workbook by this mode, [startSheet(Worksheet)](../../com.aspose.cells/lightcellsdatahandler\#startSheet-Worksheet-) will be checked when reading every worksheet in the workbook. For one sheet, if [startSheet(Worksheet)](../../com.aspose.cells/lightcellsdatahandler\#startSheet-Worksheet-) gives true, then all data and properties of rows/cells of this sheet will be checked and processed by the implementation of this interface. For every row, [startRow(int)](../../com.aspose.cells/lightcellsdatahandler\#startRow-int-) will be called to check whether it need to be processed. If a row needs to be processed, properties of this row will be read firstly and user can access its properties by [processRow(Row)](../../com.aspose.cells/lightcellsdatahandler\#processRow-Row-). if row's cells need to be processed too, then [processRow(Row)](../../com.aspose.cells/lightcellsdatahandler\#processRow-Row-) should returns true and then [startCell(int)](../../com.aspose.cells/lightcellsdatahandler\#startCell-int-) will be called for every existing cell in this row to check whether one cell need to be processed. If one cell needs to be processed, then [processCell(Cell)](../../com.aspose.cells/lightcellsdatahandler\#processCell-Cell-) will be called to process the cell by the implementation of this interface.
+Represents cells data handler for reading large spreadsheet files in light weight mode.
+
+**Remarks**
+
+When reading a workbook by this mode, [startSheet(Worksheet)](../../com.aspose.cells/lightcellsdatahandler\#startSheet-Worksheet-) will be checked when reading every worksheet in the workbook. For one sheet, if [startSheet(Worksheet)](../../com.aspose.cells/lightcellsdatahandler\#startSheet-Worksheet-) gives true, then all data and properties of rows/cells of this sheet will be checked and processed by the implementation of this interface. For every row, [startRow(int)](../../com.aspose.cells/lightcellsdatahandler\#startRow-int-) will be called to check whether it need to be processed. If a row needs to be processed, properties of this row will be read firstly and user can access its properties by [processRow(Row)](../../com.aspose.cells/lightcellsdatahandler\#processRow-Row-). if row's cells need to be processed too, then [processRow(Row)](../../com.aspose.cells/lightcellsdatahandler\#processRow-Row-) should returns true and then [startCell(int)](../../com.aspose.cells/lightcellsdatahandler\#startCell-int-) will be called for every existing cell in this row to check whether one cell need to be processed. If one cell needs to be processed, then [processCell(Cell)](../../com.aspose.cells/lightcellsdatahandler\#processCell-Cell-) will be called to process the cell by the implementation of this interface.
 ## Methods
 
 | Method | Description |
@@ -25,7 +29,11 @@ public abstract boolean processCell(Cell cell)
 ```
 
 
-Starts to process one cell. It will be called after one cell's data has been read.
+Starts to process one cell.
+
+**Remarks**
+
+It will be called after one cell's data has been read.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -40,7 +48,11 @@ public abstract boolean processRow(Row row)
 ```
 
 
-Starts to process one row. It will be called after row's properties such as height, style, ...etc. have been read. However, cells in this row has not been read yet.
+Starts to process one row.
+
+**Remarks**
+
+It will be called after row's properties such as height, style, ...etc. have been read. However, cells in this row has not been read yet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -55,7 +67,11 @@ public abstract boolean startCell(int columnIndex)
 ```
 
 
-Prepares to process a cell. It will be called when reaching an existing cell in current row. Current row is the row of last call of [processRow(Row)](../../com.aspose.cells/lightcellsdatahandler\#processRow-Row-).
+Prepares to process a cell.
+
+**Remarks**
+
+It will be called when reaching an existing cell in current row. Current row is the row of last call of [processRow(Row)](../../com.aspose.cells/lightcellsdatahandler\#processRow-Row-).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -85,7 +101,11 @@ public abstract boolean startSheet(Worksheet sheet)
 ```
 
 
-Starts to process a worksheet. It will be called before reading cells data of a worksheet.
+Starts to process a worksheet.
+
+**Remarks**
+
+It will be called before reading cells data of a worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |

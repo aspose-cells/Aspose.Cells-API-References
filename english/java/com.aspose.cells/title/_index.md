@@ -50,8 +50,10 @@ Encapsulates the object that represents the title of chart or axis.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackground()](#getBackground--) | Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getCharacters()](#getCharacters--) | Gets rich text formatting of this Title. |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
@@ -93,8 +95,10 @@ Encapsulates the object that represents the title of chart or axis.
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutoText(boolean value)](#setAutoText-boolean-) | Indicates the text is auto generated. |
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels is deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
@@ -186,7 +190,12 @@ public int getBackground()
 ```
 
 
-Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -196,7 +205,8 @@ public int getBackgroundMode()
 ```
 
 
-Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
 int
@@ -216,7 +226,11 @@ public FontSetting[] getCharacters()
 ```
 
 
-Gets rich text formatting of this Title. NOTE: This member is now obsolete. Instead, please use Title.Characters() method. This property will be removed 12 months later since November 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets rich text formatting of this Title.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Title.Characters() method. This property will be removed 12 months later since November 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 com.aspose.cells.FontSetting[] - returns FontSetting array
@@ -286,7 +300,8 @@ public int getDirectionType()
 ```
 
 
-Gets the direction of text. See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
+Gets the direction of text.
+See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Returns:**
 int
@@ -306,7 +321,11 @@ public int getHeight()
 ```
 
 
-Gets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
+Gets the height of frame in units of 1/4000 of the chart area.
+
+**Remarks**
+
+How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -336,7 +355,8 @@ public int getReadingOrder()
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
 int
@@ -347,6 +367,10 @@ public int getRotationAngle()
 
 
 Represents text rotation angle.
+
+**Remarks**
+
+
 0: Not rotated.
 
 255: Top to Bottom.
@@ -394,7 +418,12 @@ public int getTextDirection()
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype). NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -404,7 +433,11 @@ public Font getTextFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. NOTE: This member is now obsolete. Instead, please use ChartFrame.Font property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.Font property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -414,7 +447,8 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets the text horizontal alignment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text horizontal alignment.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -434,7 +468,8 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets the text vertical alignment of text. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text vertical alignment of text.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -444,7 +479,11 @@ public int getWidth()
 ```
 
 
-Gets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
+Gets the width of frame in units of 1/4000 of the chart area.
+
+**Remarks**
+
+How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Returns:**
 int
@@ -534,7 +573,11 @@ public boolean isInnerMode()
 ```
 
 
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. Only for Xlsx file.
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+**Remarks**
+
+Only for Xlsx file.
 
 **Returns:**
 boolean
@@ -629,7 +672,12 @@ public void setBackground(int value)
 ```
 
 
-Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -642,7 +690,8 @@ public void setBackgroundMode(int value)
 ```
 
 
-Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -668,7 +717,8 @@ public void setDirectionType(int value)
 ```
 
 
-Sets the direction of text. See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
+Sets the direction of text.
+See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -681,7 +731,11 @@ public void setHeight(int value)
 ```
 
 
-Sets the height of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
+Sets the height of frame in units of 1/4000 of the chart area.
+
+**Remarks**
+
+How to convert units of 1/4000 to pixels? Height In Pixels = Y \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -694,7 +748,11 @@ public void setInnerMode(boolean value)
 ```
 
 
-Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. Only for Xlsx file.
+Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
+
+**Remarks**
+
+Only for Xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -741,7 +799,8 @@ public void setReadingOrder(int value)
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -768,6 +827,10 @@ public void setRotationAngle(int value)
 
 
 Represents text rotation angle.
+
+**Remarks**
+
+
 0: Not rotated.
 
 255: Top to Bottom.
@@ -814,7 +877,12 @@ public void setTextDirection(int value)
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype). NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -827,7 +895,8 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Sets the text horizontal alignment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text horizontal alignment.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -840,7 +909,8 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Sets the text vertical alignment of text. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text vertical alignment of text.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -879,7 +949,11 @@ public void setWidth(int value)
 ```
 
 
-Sets the width of frame in units of 1/4000 of the chart area. How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
+Sets the width of frame in units of 1/4000 of the chart area.
+
+**Remarks**
+
+How to convert units of 1/4000 to pixels? Width In Pixels = Width \* Chart.ChartObject.Height / 4000;
 
 **Parameters:**
 | Parameter | Type | Description |

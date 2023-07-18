@@ -125,7 +125,11 @@ public String getDestinationName()
 ```
 
 
-Gets name of destination. If destination name is set, the destination will be defined as a named destination with this name.
+Gets name of destination.
+
+**Remarks**
+
+If destination name is set, the destination will be defined as a named destination with this name.
 
 **Returns:**
 java.lang.String
@@ -227,7 +231,11 @@ public void setDestinationName(String value)
 ```
 
 
-Sets name of destination. If destination name is set, the destination will be defined as a named destination with this name.
+Sets name of destination.
+
+**Remarks**
+
+If destination name is set, the destination will be defined as a named destination with this name.
 
 **Parameters:**
 | Parameter | Type | Description |

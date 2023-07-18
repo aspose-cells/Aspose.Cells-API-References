@@ -57,7 +57,11 @@ public static final int CUST
 ```
 
 
-specifies a custom value for the display unit. NOTE: This member is now obsolete. Instead, please use DisplayUnitType.Custom. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
+specifies a custom value for the display unit.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use DisplayUnitType.Custom. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### CUSTOM {#CUSTOM}
 ```

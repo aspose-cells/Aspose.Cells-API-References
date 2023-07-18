@@ -22,7 +22,11 @@ public abstract String getFormat()
 ```
 
 
-Gets the formatting pattern corresponding to the parsed value by last invocation of [parseObject(String)](../../com.aspose.cells/icustomparser\#parseObject-String-). The returned formatting pattern may be used to format corresponding cell(set to Style.Custom for the cell).
+Gets the formatting pattern corresponding to the parsed value by last invocation of [parseObject(String)](../../com.aspose.cells/icustomparser\#parseObject-String-).
+
+**Remarks**
+
+The returned formatting pattern may be used to format corresponding cell(set to Style.Custom for the cell).
 
 **Returns:**
 java.lang.String

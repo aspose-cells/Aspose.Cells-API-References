@@ -162,7 +162,11 @@ public TableStyleElement getTableStyleElementWithIndex(int index)
 ```
 
 
-Gets an element of the table style by the index. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Tables.TableStyleElementCollection.this[int index] property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets an element of the table style by the index.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Tables.TableStyleElementCollection.this[int index] property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -177,7 +181,11 @@ public TableStyleElement getTableStyleElementWithType(int type)
 ```
 
 
-Gets the element of the table style by the element type. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Tables.TableStyleElementCollection.this[TableStyleElementType type] property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the element of the table style by the element type.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Tables.TableStyleElementCollection.this[TableStyleElementType type] property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

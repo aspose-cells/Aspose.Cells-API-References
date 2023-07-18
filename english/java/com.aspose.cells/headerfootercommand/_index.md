@@ -60,7 +60,11 @@ public Font getFont()
 ```
 
 
-Gets the font of the command's value. Useless for HeaderFooterCommandType.Picture.
+Gets the font of the command's value.
+
+**Remarks**
+
+Useless for HeaderFooterCommandType.Picture.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -70,7 +74,11 @@ public String getText()
 ```
 
 
-Gets the text of the command. Only valid for HeaderFooterCommandType.Text.
+Gets the text of the command.
+
+**Remarks**
+
+Only valid for HeaderFooterCommandType.Text.
 
 **Returns:**
 java.lang.String
@@ -80,7 +88,8 @@ public int getType()
 ```
 
 
-Gets the header/footer' command type . See [HeaderFooterCommandType](../../com.aspose.cells/headerfootercommandtype).
+Gets the header/footer' command type .
+See [HeaderFooterCommandType](../../com.aspose.cells/headerfootercommandtype).
 
 **Returns:**
 int

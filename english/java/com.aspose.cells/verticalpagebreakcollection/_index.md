@@ -45,7 +45,11 @@ public int add(int column)
 ```
 
 
-Adds a vertical page break to the collection. Page break is added in the top left of the cell. Please set a horizontal page break and a vertical page break concurrently.
+Adds a vertical page break to the collection.
+
+**Remarks**
+
+Page break is added in the top left of the cell. Please set a horizontal page break and a vertical page break concurrently.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -60,7 +64,11 @@ public int add(int row, int column)
 ```
 
 
-Adds a vertical page break to the collection. Page break is added in the top left of the cell. Please set a horizontal page break and a vertical page break concurrently.
+Adds a vertical page break to the collection.
+
+**Remarks**
+
+Page break is added in the top left of the cell. Please set a horizontal page break and a vertical page break concurrently.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -76,7 +84,11 @@ public int add(int startRow, int endRow, int column)
 ```
 
 
-Adds a vertical page break to the collection. This method is used to add a vertical pagebreak within a print area.
+Adds a vertical page break to the collection.
+
+**Remarks**
+
+This method is used to add a vertical pagebreak within a print area.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -108,7 +120,11 @@ public int add(String cellName)
 ```
 
 
-Adds a vertical page break to the collection. Page break is added in the top left of the cell. Please set a horizontal page break and a vertical page break concurrently.
+Adds a vertical page break to the collection.
+
+**Remarks**
+
+Page break is added in the top left of the cell. Please set a horizontal page break and a vertical page break concurrently.
 
 **Parameters:**
 | Parameter | Type | Description |

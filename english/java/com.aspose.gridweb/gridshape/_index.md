@@ -99,7 +99,8 @@ public int getImageFormat()
 ```
 
 
-Gets the image format of the picture. See [GridImageType](../../com.aspose.gridweb/gridimagetype).
+Gets the image format of the picture.
+See [GridImageType](../../com.aspose.gridweb/gridimagetype).
 
 **Returns:**
 int
@@ -129,7 +130,8 @@ public int getMsoDrawingType()
 ```
 
 
-Gets mso drawing type. See [GridMsoDrawingType](../../com.aspose.gridweb/gridmsodrawingtype).
+Gets mso drawing type.
+See [GridMsoDrawingType](../../com.aspose.gridweb/gridmsodrawingtype).
 
 **Returns:**
 int
@@ -159,7 +161,11 @@ public int getTop()
 ```
 
 
-Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
+Represents the vertical offset of shape from its top row, in unit of pixels.
+
+**Remarks**
+
+If the shape is in the chart, represents the vertical offset of shape from its top border.
 
 **Returns:**
 int
@@ -189,7 +195,11 @@ public int getUpperLeftRow()
 ```
 
 
-Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+Represents upper left corner row index.
+
+**Remarks**
+
+If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 **Returns:**
 int

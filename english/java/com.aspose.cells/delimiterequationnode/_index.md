@@ -26,7 +26,8 @@ This class specifies the delimiter equation, consisting of opening and closing d
 | [getClass()](#getClass--) |  |
 | [getDelimiterShape()](#getDelimiterShape--) | Specifies the shape of delimiters in the delimiter object. |
 | [getEndChar()](#getEndChar--) | Delimiter ending character. |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node
+See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getNaryGrow()](#getNaryGrow--) | This property specifies the growth property of the delimiter at the document level. |
@@ -122,7 +123,11 @@ public String getBeginChar()
 ```
 
 
-Delimiter beginning character. It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+Delimiter beginning character.
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
 
 **Returns:**
 java.lang.String
@@ -157,7 +162,8 @@ public int getDelimiterShape()
 ```
 
 
-Specifies the shape of delimiters in the delimiter object. See [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
+Specifies the shape of delimiters in the delimiter object.
+See [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
 
 **Returns:**
 int
@@ -167,7 +173,11 @@ public String getEndChar()
 ```
 
 
-Delimiter ending character. It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+Delimiter ending character.
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
 
 **Returns:**
 java.lang.String
@@ -177,7 +187,8 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node
+See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -227,7 +238,11 @@ public String getSeparatorChar()
 ```
 
 
-Delimiter separator character. It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+Delimiter separator character.
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
 
 **Returns:**
 java.lang.String
@@ -257,7 +272,8 @@ public int getType()
 ```
 
 
-Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node.
+See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -381,7 +397,11 @@ public void setBeginChar(String value)
 ```
 
 
-Delimiter beginning character. It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+Delimiter beginning character.
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -394,7 +414,8 @@ public void setDelimiterShape(int value)
 ```
 
 
-Specifies the shape of delimiters in the delimiter object. See [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
+Specifies the shape of delimiters in the delimiter object.
+See [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -407,7 +428,11 @@ public void setEndChar(String value)
 ```
 
 
-Delimiter ending character. It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+Delimiter ending character.
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -446,7 +471,11 @@ public void setSeparatorChar(String value)
 ```
 
 
-Delimiter separator character. It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
+Delimiter separator character.
+
+**Remarks**
+
+It should be noted that this property only accepts one character, and if multiple characters are passed in, only the first character is accepted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -459,7 +488,11 @@ public void setWordArtStyle(int style)
 ```
 
 
-Sets the preset WordArt style. Only for the text of shape/chart.
+Sets the preset WordArt style.
+
+**Remarks**
+
+Only for the text of shape/chart.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -12,7 +12,11 @@ java.lang.Object
 public class CalculationCell
 ```
 
-Represents the calculation relevant data about one cell which is being calculated. All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
+Represents the calculation relevant data about one cell which is being calculated.
+
+**Remarks**
+
+All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 ## Methods
 
 | Method | Description |
@@ -139,7 +143,11 @@ public void setCalculatedValue(Object v)
 ```
 
 
-Sets the calculated value for the cell. User can set the calculated result by this method to ignore the automatic calculation for the cell.
+Sets the calculated value for the cell.
+
+**Remarks**
+
+User can set the calculated result by this method to ignore the automatic calculation for the cell.
 
 **Parameters:**
 | Parameter | Type | Description |

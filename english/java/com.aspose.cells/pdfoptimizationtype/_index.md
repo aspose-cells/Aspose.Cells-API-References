@@ -17,7 +17,7 @@ Specifies a type of optimization.
 
 | Field | Description |
 | --- | --- |
-| [MINIMUM_SIZE](#MINIMUM-SIZE) | File size is more important than print quality Font Arial and Times New Roman with characters 32-127 will not be embedded in pdf. |
+| [MINIMUM_SIZE](#MINIMUM-SIZE) | File size is more important than print quality |
 | [STANDARD](#STANDARD) | High print quality |
 ## Methods
 
@@ -38,7 +38,11 @@ public static final int MINIMUM_SIZE
 ```
 
 
-File size is more important than print quality Font Arial and Times New Roman with characters 32-127 will not be embedded in pdf. Border lines are optimized for smaller file size.
+File size is more important than print quality
+
+**Remarks**
+
+Font Arial and Times New Roman with characters 32-127 will not be embedded in pdf. Border lines are optimized for smaller file size.
 
 ### STANDARD {#STANDARD}
 ```

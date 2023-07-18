@@ -121,7 +121,11 @@ public static int extensionToSaveFormat(String extension)
 ```
 
 
-Converts a file name extension into a SaveFormat value. If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.cells/saveformat\#UNKNOWN).
+Converts a file name extension into a SaveFormat value.
+
+**Remarks**
+
+If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.cells/saveformat\#UNKNOWN).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -186,7 +190,11 @@ public static String loadFormatToExtension(int loadFormat)
 ```
 
 
-Converts a load format enumerated value into a file extension. If it can not be converted, returns null.
+Converts a load format enumerated value into a file extension.
+
+**Remarks**
+
+If it can not be converted, returns null.
 
 **Parameters:**
 | Parameter | Type | Description |

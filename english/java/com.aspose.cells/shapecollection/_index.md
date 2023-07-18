@@ -172,7 +172,11 @@ public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColu
 ```
 
 
-Adds a AutoShape to the worksheet. The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
+Adds a AutoShape to the worksheet.
+
+**Remarks**
+
+The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Example**
 
@@ -200,7 +204,11 @@ public Shape addAutoShapeInChart(int type, int top, int left, int height, int wi
 ```
 
 
-Adds a AutoShape to the chart. The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
+Adds a AutoShape to the chart.
+
+**Remarks**
+
+The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -788,7 +796,11 @@ public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, 
 ```
 
 
-Adds a Shape to the worksheet. The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
+Adds a Shape to the worksheet.
+
+**Remarks**
+
+The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Example**
 
@@ -1339,7 +1351,11 @@ public GroupShape group(Shape[] groupItems)
 ```
 
 
-Group the shapes. The shape in the groupItems should not be grouped. The shape must be in this Shapes collection.
+Group the shapes.
+
+**Remarks**
+
+The shape in the groupItems should not be grouped. The shape must be in this Shapes collection.
 
 **Example**
 
@@ -1482,7 +1498,11 @@ public void ungroup(GroupShape group)
 ```
 
 
-Ungroups the shape items. If the group shape is grouped by another group shape,nothing will be done.
+Ungroups the shape items.
+
+**Remarks**
+
+If the group shape is grouped by another group shape,nothing will be done.
 
 **Example**
 

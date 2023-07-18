@@ -141,7 +141,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -181,7 +185,12 @@ public int getExportHyperlinkType()
 ```
 
 
-Represents the type of exporting hyperlink to json. See [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype). The default value is [JsonExportHyperlinkType.DISPLAY\_STRING](../../com.aspose.cells/jsonexporthyperlinktype\#DISPLAY-STRING);
+Represents the type of exporting hyperlink to json.
+See [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype).
+
+**Remarks**
+
+The default value is [JsonExportHyperlinkType.DISPLAY\_STRING](../../com.aspose.cells/jsonexporthyperlinktype\#DISPLAY-STRING);
 
 **Returns:**
 int
@@ -193,6 +202,8 @@ public boolean getExportNestedStructure()
 
 Exported as parent-child hierarchy Json structure.
 
+**Remarks**
+
 **Returns:**
 boolean
 ### getIndent() {#getIndent--}
@@ -201,7 +212,11 @@ public String getIndent()
 ```
 
 
-Indicates the indent. If the indent is null or empty, the exported json is not formatted.
+Indicates the indent.
+
+**Remarks**
+
+If the indent is null or empty, the exported json is not formatted.
 
 **Returns:**
 java.lang.String
@@ -211,7 +226,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -231,7 +250,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format.
+See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -281,7 +301,11 @@ public boolean getUpdateSmartArt()
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Returns:**
 boolean
@@ -291,7 +315,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -386,7 +414,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -438,7 +470,12 @@ public void setExportHyperlinkType(int value)
 ```
 
 
-Represents the type of exporting hyperlink to json. See [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype). The default value is [JsonExportHyperlinkType.DISPLAY\_STRING](../../com.aspose.cells/jsonexporthyperlinktype\#DISPLAY-STRING);
+Represents the type of exporting hyperlink to json.
+See [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype).
+
+**Remarks**
+
+The default value is [JsonExportHyperlinkType.DISPLAY\_STRING](../../com.aspose.cells/jsonexporthyperlinktype\#DISPLAY-STRING);
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -452,6 +489,8 @@ public void setExportNestedStructure(boolean value)
 
 
 Exported as parent-child hierarchy Json structure.
+
+**Remarks**
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -477,7 +516,11 @@ public void setIndent(String value)
 ```
 
 
-Indicates the indent. If the indent is null or empty, the exported json is not formatted.
+Indicates the indent.
+
+**Remarks**
+
+If the indent is null or empty, the exported json is not formatted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -490,7 +533,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -568,7 +615,11 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -581,7 +632,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

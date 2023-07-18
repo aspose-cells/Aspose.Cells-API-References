@@ -12,7 +12,11 @@ java.lang.Object
 public final class DataLablesSeparatorType
 ```
 
-Represents the separator type of DataLabels. NOTE: This member is now obsolete. Instead, please use DataLabelsSeparatorType enum. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
+Represents the separator type of DataLabels.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use DataLabelsSeparatorType enum. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
 ## Fields
 
 | Field | Description |

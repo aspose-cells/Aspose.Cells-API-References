@@ -12,7 +12,11 @@ java.lang.Object
 public class LoadFilter
 ```
 
-Represents the filter that provides options for loading data when loading workbook from template. User may specify the filter options or implement their own LoadFilter to specify how to load data.
+Represents the filter that provides options for loading data when loading workbook from template.
+
+**Remarks**
+
+User may specify the filter options or implement their own LoadFilter to specify how to load data.
 
 **Example**
 
@@ -113,7 +117,8 @@ public int getLoadDataFilterOptions()
 ```
 
 
-The filter options to denote what data should be loaded. See [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
+The filter options to denote what data should be loaded.
+See [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
 
 **Returns:**
 int
@@ -159,7 +164,8 @@ public void setLoadDataFilterOptions(int value)
 ```
 
 
-The filter options to denote what data should be loaded. See [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
+The filter options to denote what data should be loaded.
+See [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -62,7 +62,11 @@ public int add(String text)
 ```
 
 
-Defines a new name. Name cannot include spaces and cannot look like cell references.
+Defines a new name.
+
+**Remarks**
+
+Name cannot include spaces and cannot look like cell references.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -258,7 +262,11 @@ public void removeAt(int index)
 ```
 
 
-Remove the name at the specific index. Please make sure that the name is not referred by the other formulas before calling the method. And if the name is referred, setting Name.RefersTo as null is better.
+Remove the name at the specific index.
+
+**Remarks**
+
+Please make sure that the name is not referred by the other formulas before calling the method. And if the name is referred, setting Name.RefersTo as null is better.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -279,7 +287,11 @@ public void sort()
 ```
 
 
-Sorts defined names. If you create a large amount of named ranges in the Excel file, please call this method after all named ranges are created and before saving
+Sorts defined names.
+
+**Remarks**
+
+If you create a large amount of named ranges in the Excel file, please call this method after all named ranges are created and before saving
 
 ### toString() {#toString--}
 ```

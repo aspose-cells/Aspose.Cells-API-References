@@ -183,7 +183,11 @@ public UUID getProviderId()
 ```
 
 
-Gets the id of signature provider. It's typically the CLSID of the provider com add-in.
+Gets the id of signature provider.
+
+**Remarks**
+
+It's typically the CLSID of the provider com add-in.
 
 **Example**
 
@@ -366,7 +370,11 @@ public void setProviderId(UUID value)
 ```
 
 
-Sets the id of signature provider. It's typically the CLSID of the provider com add-in.
+Sets the id of signature provider.
+
+**Remarks**
+
+It's typically the CLSID of the provider com add-in.
 
 **Parameters:**
 | Parameter | Type | Description |

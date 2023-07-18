@@ -41,7 +41,11 @@ public int add()
 ```
 
 
-Adds a pivot FormatCondition to the collection. not supported
+Adds a pivot FormatCondition to the collection.
+
+**Remarks**
+
+not supported
 
 **Returns:**
 int - pivot FormatCondition object index.

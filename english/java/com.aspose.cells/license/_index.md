@@ -100,6 +100,8 @@ public void setLicense(InputStream stream)
 
 Licenses the component.
 
+**Remarks**
+
 Use this method to load a license from a stream.
 
 **Example**
@@ -116,6 +118,8 @@ public void setLicense(String licenseName)
 
 
 Licenses the component.
+
+**Remarks**
 
 Tries to find the license in the following locations:
 

@@ -26,7 +26,7 @@ Represents the options of loading xml.
 | [containsMultipleWorksheets()](#containsMultipleWorksheets--) | Indicates whether importing xml as multiple worksheets. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoFilter()](#getAutoFilter--) | Indicates whether auto filtering the data when loading the files. |
-| [getAutoFitterOptions()](#getAutoFitterOptions--) | Gets the auto fitter options Only for xlsx ,spreadsheetML file now. |
+| [getAutoFitterOptions()](#getAutoFitterOptions--) | Gets the auto fitter options |
 | [getCheckDataValid()](#getCheckDataValid--) | Check whether data is valid in the template file. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
@@ -34,7 +34,7 @@ Represents the options of loading xml.
 | [getDateFormat()](#getDateFormat--) | Gets the format of date value. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
-| [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
 | [getIgnoreRootAttributes()](#getIgnoreRootAttributes--) | Indicates whether ignore attributes of the root element. |
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--) | Indicates whether ignoring useless shapes. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
@@ -50,7 +50,7 @@ Represents the options of loading xml.
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
 | [getRegion()](#getRegion--) | Gets the system regional settings based on CountryCode at the time the file was loaded. |
-| [getStandardFont()](#getStandardFont--) | Sets the default standard font name NOTE: This member is now obsolete. |
+| [getStandardFont()](#getStandardFont--) | Sets the default standard font name |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getStartCell()](#getStartCell--) | Gets the start cell. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
@@ -59,14 +59,14 @@ Represents the options of loading xml.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoFilter(boolean value)](#setAutoFilter-boolean-) | Indicates whether auto filtering the data when loading the files. |
-| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | Sets the auto fitter options Only for xlsx ,spreadsheetML file now. |
+| [setAutoFitterOptions(AutoFitterOptions value)](#setAutoFitterOptions-com.aspose.cells.AutoFitterOptions-) | Sets the auto fitter options |
 | [setCheckDataValid(boolean value)](#setCheckDataValid-boolean-) | Check whether data is valid in the template file. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setContainsMultipleWorksheets(boolean value)](#setContainsMultipleWorksheets-boolean-) | Indicates whether importing xml as multiple worksheets. |
 | [setConvertNumericOrDate(boolean value)](#setConvertNumericOrDate-boolean-) | Indicates whether converting the value in xml file to numeric or date. |
 | [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Sets the format of date value. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
-| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file |
 | [setIgnoreRootAttributes(boolean value)](#setIgnoreRootAttributes-boolean-) | Indicates whether ignore attributes of the root element. |
 | [setIgnoreUselessShapes(boolean value)](#setIgnoreUselessShapes-boolean-) | Indicates whether ignoring useless shapes. |
 | [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
@@ -82,7 +82,7 @@ Represents the options of loading xml.
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
 | [setRegion(int value)](#setRegion-int-) | Sets the system regional settings based on CountryCode at the time the file was loaded. |
-| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name NOTE: This member is now obsolete. |
+| [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name |
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
 | [setStartCell(String value)](#setStartCell-java.lang.String-) | Sets the start cell. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
@@ -143,7 +143,11 @@ public boolean getAutoFilter()
 ```
 
 
-Indicates whether auto filtering the data when loading the files. Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
+Indicates whether auto filtering the data when loading the files.
+
+**Remarks**
+
+Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
 **Returns:**
 boolean
@@ -153,7 +157,11 @@ public AutoFitterOptions getAutoFitterOptions()
 ```
 
 
-Gets the auto fitter options Only for xlsx ,spreadsheetML file now.
+Gets the auto fitter options
+
+**Remarks**
+
+Only for xlsx ,spreadsheetML file now.
 
 **Returns:**
 [AutoFitterOptions](../../com.aspose.cells/autofitteroptions)
@@ -233,7 +241,11 @@ public boolean getIgnoreNotPrinted()
 ```
 
 
-Ignore the data which are not printed if directly printing the file Only for xlsx file.
+Ignore the data which are not printed if directly printing the file
+
+**Remarks**
+
+Only for xlsx file.
 
 **Returns:**
 boolean
@@ -253,7 +265,11 @@ public boolean getIgnoreUselessShapes()
 ```
 
 
-Indicates whether ignoring useless shapes. Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical shapes which are useless in some files, we can ingore them when loading files.
+Indicates whether ignoring useless shapes.
+
+**Remarks**
+
+Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical shapes which are useless in some files, we can ingore them when loading files.
 
 **Returns:**
 boolean
@@ -273,7 +289,11 @@ public boolean getKeepUnparsedData()
 ```
 
 
-Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.
+
+**Remarks**
+
+For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
 
 **Returns:**
 boolean
@@ -283,7 +303,8 @@ public int getLanguageCode()
 ```
 
 
-Gets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file.
+See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
 int
@@ -313,7 +334,8 @@ public int getLoadFormat()
 ```
 
 
-Gets the load format. See [LoadFormat](../../com.aspose.cells/loadformat).
+Gets the load format.
+See [LoadFormat](../../com.aspose.cells/loadformat).
 
 **Returns:**
 int
@@ -325,6 +347,8 @@ public Locale getLocale()
 
 Gets the Locale used for workbook at the time the file was loaded.
 
+**Remarks**
+
 **Returns:**
 java.util.Locale
 ### getMemorySetting() {#getMemorySetting--}
@@ -333,7 +357,8 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage options. See [MemorySetting](../../com.aspose.cells/memorysetting).
+Gets the memory usage options.
+See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -353,7 +378,11 @@ public boolean getParsingFormulaOnOpen()
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
 **Returns:**
 boolean
@@ -363,7 +392,11 @@ public boolean getParsingPivotCachedRecords()
 ```
 
 
-Indicates whether parsing pivot cached records when loading the file. The default value is false. Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
+Indicates whether parsing pivot cached records when loading the file. The default value is false.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 **Returns:**
 boolean
@@ -383,7 +416,12 @@ public int getRegion()
 ```
 
 
-Gets the system regional settings based on CountryCode at the time the file was loaded. See [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
+Gets the system regional settings based on CountryCode at the time the file was loaded.
+See [CountryCode](../../com.aspose.cells/countrycode).
+
+**Remarks**
+
+If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Returns:**
 int
@@ -393,7 +431,11 @@ public String getStandardFont()
 ```
 
 
-Sets the default standard font name NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
+Sets the default standard font name
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String
@@ -403,7 +445,11 @@ public double getStandardFontSize()
 ```
 
 
-Sets the default standard font size. NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
+Sets the default standard font size.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 double
@@ -413,7 +459,11 @@ public String getStartCell()
 ```
 
 
-Gets the start cell. Only works when the file is not speadsheetML or mapping xml to Excel.
+Gets the start cell.
+
+**Remarks**
+
+Only works when the file is not speadsheetML or mapping xml to Excel.
 
 **Returns:**
 java.lang.String
@@ -469,7 +519,11 @@ public void setAutoFilter(boolean value)
 ```
 
 
-Indicates whether auto filtering the data when loading the files. Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
+Indicates whether auto filtering the data when loading the files.
+
+**Remarks**
+
+Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +536,11 @@ public void setAutoFitterOptions(AutoFitterOptions value)
 ```
 
 
-Sets the auto fitter options Only for xlsx ,spreadsheetML file now.
+Sets the auto fitter options
+
+**Remarks**
+
+Only for xlsx ,spreadsheetML file now.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -573,7 +631,11 @@ public void setIgnoreNotPrinted(boolean value)
 ```
 
 
-Ignore the data which are not printed if directly printing the file Only for xlsx file.
+Ignore the data which are not printed if directly printing the file
+
+**Remarks**
+
+Only for xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -599,7 +661,11 @@ public void setIgnoreUselessShapes(boolean value)
 ```
 
 
-Indicates whether ignoring useless shapes. Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical shapes which are useless in some files, we can ingore them when loading files.
+Indicates whether ignoring useless shapes.
+
+**Remarks**
+
+Only works for xlsx,xlsb, and xlsm files. There are many overlapping identical shapes which are useless in some files, we can ingore them when loading files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -625,7 +691,11 @@ public void setKeepUnparsedData(boolean value)
 ```
 
 
-Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.
+
+**Remarks**
+
+For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -638,7 +708,8 @@ public void setLanguageCode(int value)
 ```
 
 
-Sets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -679,6 +750,8 @@ public void setLocale(Locale value)
 
 Sets the Locale used for workbook at the time the file was loaded.
 
+**Remarks**
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -690,7 +763,8 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage options. See [MemorySetting](../../com.aspose.cells/memorysetting).
+Sets the memory usage options.
+See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -716,7 +790,11 @@ public void setPaperSize(int type)
 ```
 
 
-Sets the default print paper size from default printer's setting. If there is no setting about paper size,MS Excel will use default printer's setting.
+Sets the default print paper size from default printer's setting.
+
+**Remarks**
+
+If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -729,7 +807,11 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -742,7 +824,11 @@ public void setParsingPivotCachedRecords(boolean value)
 ```
 
 
-Indicates whether parsing pivot cached records when loading the file. The default value is false. Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
+Indicates whether parsing pivot cached records when loading the file. The default value is false.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -768,7 +854,12 @@ public void setRegion(int value)
 ```
 
 
-Sets the system regional settings based on CountryCode at the time the file was loaded. See [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
+Sets the system regional settings based on CountryCode at the time the file was loaded.
+See [CountryCode](../../com.aspose.cells/countrycode).
+
+**Remarks**
+
+If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -781,7 +872,11 @@ public void setStandardFont(String value)
 ```
 
 
-Sets the default standard font name NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
+Sets the default standard font name
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -794,7 +889,11 @@ public void setStandardFontSize(double value)
 ```
 
 
-Sets the default standard font size. NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
+Sets the default standard font size.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use DefaultStyleSettings. This property will be removed 12 months later since March 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -807,7 +906,11 @@ public void setStartCell(String value)
 ```
 
 
-Sets the start cell. Only works when the file is not speadsheetML or mapping xml to Excel.
+Sets the start cell.
+
+**Remarks**
+
+Only works when the file is not speadsheetML or mapping xml to Excel.
 
 **Parameters:**
 | Parameter | Type | Description |

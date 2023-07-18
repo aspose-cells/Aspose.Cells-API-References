@@ -17,7 +17,7 @@ Represents all type of ActiveX control.
 
 | Field | Description |
 | --- | --- |
-| [BAR_CODE](#BAR-CODE) | ScrollBar Unsupported. |
+| [BAR_CODE](#BAR-CODE) | ScrollBar |
 | [CHECK_BOX](#CHECK-BOX) | CheckBox |
 | [COMBO_BOX](#COMBO-BOX) | ComboBox |
 | [COMMAND_BUTTON](#COMMAND-BUTTON) | Button |
@@ -49,7 +49,11 @@ public static final int BAR_CODE
 ```
 
 
-ScrollBar Unsupported.
+ScrollBar
+
+**Remarks**
+
+Unsupported.
 
 ### CHECK_BOX {#CHECK-BOX}
 ```

@@ -156,7 +156,11 @@ public boolean getLineByLine()
 ```
 
 
-Indicates whether processing the smart marker line by line. The default value is true. If False, the template file must contain a range which is named as "\_CellsSmartMarkers".
+Indicates whether processing the smart marker line by line.
+
+**Remarks**
+
+The default value is true. If False, the template file must contain a range which is named as "\_CellsSmartMarkers".
 
 **Returns:**
 boolean
@@ -176,7 +180,11 @@ public String[] getSmartMarkers()
 ```
 
 
-Returns a collection of smart markers in a spreadsheet. A string array is created on every call. The array is sorted and duplicated values are removed.
+Returns a collection of smart markers in a spreadsheet.
+
+**Remarks**
+
+A string array is created on every call. The array is sorted and duplicated values are removed.
 
 **Returns:**
 java.lang.String[] - A collection of smart markers
@@ -263,7 +271,11 @@ public void process(int sheetIndex, boolean isPreserved)
 ```
 
 
-Processes the smart markers and populates the data source values. This method works on worksheet level.
+Processes the smart markers and populates the data source values.
+
+**Remarks**
+
+This method works on worksheet level.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -373,7 +385,11 @@ public void setLineByLine(boolean value)
 ```
 
 
-Indicates whether processing the smart marker line by line. The default value is true. If False, the template file must contain a range which is named as "\_CellsSmartMarkers".
+Indicates whether processing the smart marker line by line.
+
+**Remarks**
+
+The default value is true. If False, the template file must contain a range which is named as "\_CellsSmartMarkers".
 
 **Parameters:**
 | Parameter | Type | Description |

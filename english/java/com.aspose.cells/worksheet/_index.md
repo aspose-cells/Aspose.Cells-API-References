@@ -216,7 +216,11 @@ public void autoFitColumn(int columnIndex)
 ```
 
 
-Autofits the column width. AutoFitColumn is an imprecise function.
+Autofits the column width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +233,11 @@ public void autoFitColumn(int columnIndex, int firstRow, int lastRow)
 ```
 
 
-Autofits the column width. This method autofits a row based on content in a range of cells within the row.
+Autofits the column width.
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -265,7 +273,11 @@ public void autoFitColumns(int firstColumn, int lastColumn)
 ```
 
 
-Autofits the columns width. AutoFitColumn is an imprecise function.
+Autofits the columns width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -279,7 +291,11 @@ public void autoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions op
 ```
 
 
-Autofits the columns width. AutoFitColumn is an imprecise function.
+Autofits the columns width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +310,11 @@ public void autoFitColumns(int firstRow, int firstColumn, int lastRow, int lastC
 ```
 
 
-Autofits the columns width. AutoFitColumn is an imprecise function.
+Autofits the columns width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -310,7 +330,11 @@ public void autoFitColumns(int firstRow, int firstColumn, int lastRow, int lastC
 ```
 
 
-Autofits the columns width. AutoFitColumn is an imprecise function.
+Autofits the columns width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -327,7 +351,11 @@ public void autoFitRow(int rowIndex)
 ```
 
 
-Autofits the row height. AutoFitRow is an imprecise function.
+Autofits the row height.
+
+**Remarks**
+
+AutoFitRow is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -340,7 +368,11 @@ public void autoFitRow(int rowIndex, int firstColumn, int lastColumn)
 ```
 
 
-Autofits the row height. This method autofits a row based on content in a range of cells within the row.
+Autofits the row height.
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -355,7 +387,11 @@ public void autoFitRow(int rowIndex, int firstColumn, int lastColumn, AutoFitter
 ```
 
 
-Autofits the row height. This method autofits a row based on content in a range of cells within the row.
+Autofits the row height.
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -466,7 +502,11 @@ public Object[][] calculateArrayFormula(String formula, CalculationOptions opts,
 ```
 
 
-Calculates a formula as array formula. The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+Calculates a formula as array formula.
+
+**Remarks**
+
+The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -484,7 +524,11 @@ public void calculateFormula(boolean recursive, boolean ignoreError, ICustomFunc
 ```
 
 
-Calculates all formulas in this worksheet. NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions, bool) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+Calculates all formulas in this worksheet.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions, bool) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -528,7 +572,11 @@ public Object calculateFormula(String formula, CalculationOptions opts)
 ```
 
 
-Calculates a formula expression directly. The formula will be calculated just like it has been set to cell A1. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [calculateArrayFormula(String,CalculationOptions)](../../com.aspose.cells/worksheet\#calculateArrayFormula-String-CalculationOptions-) instead.
+Calculates a formula expression directly.
+
+**Remarks**
+
+The formula will be calculated just like it has been set to cell A1. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [calculateArrayFormula(String,CalculationOptions)](../../com.aspose.cells/worksheet\#calculateArrayFormula-String-CalculationOptions-) instead.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -578,7 +626,11 @@ public void copy(Worksheet sourceSheet, CopyOptions copyOptions)
 ```
 
 
-Copies contents and formats from another worksheet. You can copy data from another worksheet in the same file or another file. However, this method does not support to copy drawing objects, such as comments, images and charts.
+Copies contents and formats from another worksheet.
+
+**Remarks**
+
+You can copy data from another worksheet in the same file or another file. However, this method does not support to copy drawing objects, such as comments, images and charts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -617,6 +669,8 @@ public void freezePanes(int row, int column, int freezedRows, int freezedColumns
 
 Freezes panes at the specified cell in the worksheet.
 
+**Remarks**
+
 Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
 
 The first two parameters specify the froze position and the last two parameters specify the area frozen on the left top pane.
@@ -635,7 +689,11 @@ public void freezePanes(String cellName, int freezedRows, int freezedColumns)
 ```
 
 
-Freezes panes at the specified cell in the worksheet. Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
+Freezes panes at the specified cell in the worksheet.
+
+**Remarks**
+
+Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -770,7 +828,11 @@ public CustomPropertyCollection getCustomProperties()
 ```
 
 
-Gets an object representing the identifier information associated with a worksheet. Worksheet.CustomProperties provide a preferred mechanism for storing arbitrary data. It supports legacy third-party document components, as well as those situations that have a stringent need for binary parts.
+Gets an object representing the identifier information associated with a worksheet.
+
+**Remarks**
+
+Worksheet.CustomProperties provide a preferred mechanism for storing arbitrary data. It supports legacy third-party document components, as well as those situations that have a stringent need for binary parts.
 
 **Returns:**
 [CustomPropertyCollection](../../com.aspose.cells/custompropertycollection)
@@ -880,7 +942,11 @@ public String getName()
 ```
 
 
-Gets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+Gets the name of the worksheet.
+
+**Remarks**
+
+The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Returns:**
 java.lang.String
@@ -920,7 +986,8 @@ public int getPaneState()
 ```
 
 
-Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. See [PaneStateType](../../com.aspose.cells/panestatetype).
+Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen.
+See [PaneStateType](../../com.aspose.cells/panestatetype).
 
 **Returns:**
 int
@@ -930,7 +997,11 @@ public PaneCollection getPanes()
 ```
 
 
-Gets the window panes. If the window is not split or frozen.
+Gets the window panes.
+
+**Remarks**
+
+If the window is not split or frozen.
 
 **Returns:**
 [PaneCollection](../../com.aspose.cells/panecollection)
@@ -960,7 +1031,11 @@ public CellArea[] getPrintingPageBreaks(ImageOrPrintOptions options)
 ```
 
 
-Gets automatic page breaks. Each cell area represents a paper.
+Gets automatic page breaks.
+
+**Remarks**
+
+Each cell area represents a paper.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -975,7 +1050,11 @@ public Protection getProtection()
 ```
 
 
-Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version. This property can protect worksheet in all versions of Excel file and support advanced protection options in ExcelXP and above version.
+Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version.
+
+**Remarks**
+
+This property can protect worksheet in all versions of Excel file and support advanced protection options in ExcelXP and above version.
 
 **Returns:**
 [Protection](../../com.aspose.cells/protection)
@@ -1055,7 +1134,11 @@ public SparklineGroupCollection getSparklineGroupCollection()
 ```
 
 
-Gets the sparkline group collection in the worksheet. NOTE: This member is now obsolete. Instead, please use Worksheet.SparklineGroups property. This property will be removed 12 months later since November 2022. Aspose apologizes for any inconvenience you may have experienced.
+Gets the sparkline group collection in the worksheet.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Worksheet.SparklineGroups property. This property will be removed 12 months later since November 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [SparklineGroupCollection](../../com.aspose.cells/sparklinegroupcollection)
@@ -1075,7 +1158,11 @@ public Color getTabColor()
 ```
 
 
-Represents worksheet tab color. This feature is only supported in ExcelXP(Excel2002) and later versions. If you save file as Excel97 or Excel2000 format, it will be omitted.
+Represents worksheet tab color.
+
+**Remarks**
+
+This feature is only supported in ExcelXP(Excel2002) and later versions. If you save file as Excel97 or Excel2000 format, it will be omitted.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -1135,7 +1222,8 @@ public int getType()
 ```
 
 
-Represents worksheet type. See [SheetType](../../com.aspose.cells/sheettype).
+Represents worksheet type.
+See [SheetType](../../com.aspose.cells/sheettype).
 
 **Returns:**
 int
@@ -1175,7 +1263,8 @@ public int getViewType()
 ```
 
 
-Gets the view type. See [ViewType](../../com.aspose.cells/viewtype).
+Gets the view type.
+See [ViewType](../../com.aspose.cells/viewtype).
 
 **Returns:**
 int
@@ -1185,7 +1274,8 @@ public int getVisibilityType()
 ```
 
 
-Indicates the visible state for this sheet. See [VisibilityType](../../com.aspose.cells/visibilitytype).
+Indicates the visible state for this sheet.
+See [VisibilityType](../../com.aspose.cells/visibilitytype).
 
 **Returns:**
 int
@@ -1205,7 +1295,11 @@ public int getZoom()
 ```
 
 
-Represents the scaling factor in percentage. It should be between 10 and 400. Please set the view type first.
+Represents the scaling factor in percentage. It should be between 10 and 400.
+
+**Remarks**
+
+Please set the view type first.
 
 **Returns:**
 int
@@ -1344,7 +1438,11 @@ public void protect(int type)
 ```
 
 
-Protects worksheet. This method protects worksheet without password. It can protect worksheet in all versions of Excel file.
+Protects worksheet.
+
+**Remarks**
+
+This method protects worksheet without password. It can protect worksheet in all versions of Excel file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1357,7 +1455,11 @@ public void protect(int type, String password, String oldPassword)
 ```
 
 
-Protects worksheet. This method can protect worksheet in all versions of Excel file.
+Protects worksheet.
+
+**Remarks**
+
+This method can protect worksheet in all versions of Excel file.
 
 **Example**
 
@@ -1464,7 +1566,11 @@ public void setBackground(byte[] pictureData)
 ```
 
 
-Sets worksheet background image. NOTE: This member is now obsolete. Instead, please use Worksheet.BackgroundImage property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
+Sets worksheet background image.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Worksheet.BackgroundImage property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1568,7 +1674,11 @@ public void setName(String value)
 ```
 
 
-Sets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+Sets the name of the worksheet.
+
+**Remarks**
+
+The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1659,7 +1769,11 @@ public void setTabColor(Color value)
 ```
 
 
-Represents worksheet tab color. This feature is only supported in ExcelXP(Excel2002) and later versions. If you save file as Excel97 or Excel2000 format, it will be omitted.
+Represents worksheet tab color.
+
+**Remarks**
+
+This feature is only supported in ExcelXP(Excel2002) and later versions. If you save file as Excel97 or Excel2000 format, it will be omitted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1711,7 +1825,8 @@ public void setType(int value)
 ```
 
 
-Represents worksheet type. See [SheetType](../../com.aspose.cells/sheettype).
+Represents worksheet type.
+See [SheetType](../../com.aspose.cells/sheettype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1737,7 +1852,8 @@ public void setViewType(int value)
 ```
 
 
-Sets the view type. See [ViewType](../../com.aspose.cells/viewtype).
+Sets the view type.
+See [ViewType](../../com.aspose.cells/viewtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1750,7 +1866,8 @@ public void setVisibilityType(int value)
 ```
 
 
-Indicates the visible state for this sheet. See [VisibilityType](../../com.aspose.cells/visibilitytype).
+Indicates the visible state for this sheet.
+See [VisibilityType](../../com.aspose.cells/visibilitytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1790,7 +1907,11 @@ public void setZoom(int value)
 ```
 
 
-Represents the scaling factor in percentage. It should be between 10 and 400. Please set the view type first.
+Represents the scaling factor in percentage. It should be between 10 and 400.
+
+**Remarks**
+
+Please set the view type first.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1811,7 +1932,11 @@ public void startAccessCache(int opts)
 ```
 
 
-Starts the session that uses caches to access the data in this worksheet. After finishing the access to the data, [Workbook.closeAccessCache(int)](../../com.aspose.cells/workbook\#closeAccessCache-int-) should be invoked with same options to clear all caches and recover normal access mode.
+Starts the session that uses caches to access the data in this worksheet.
+
+**Remarks**
+
+After finishing the access to the data, [Workbook.closeAccessCache(int)](../../com.aspose.cells/workbook\#closeAccessCache-int-) should be invoked with same options to clear all caches and recover normal access mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1842,7 +1967,11 @@ public void unprotect()
 ```
 
 
-Unprotects worksheet. This method unprotects worksheet which is protected without password.
+Unprotects worksheet.
+
+**Remarks**
+
+This method unprotects worksheet which is protected without password.
 
 ### unprotect(String password) {#unprotect-java.lang.String-}
 ```
@@ -1850,7 +1979,11 @@ public void unprotect(String password)
 ```
 
 
-Unprotects worksheet. If the worksheet is protected without a password, you can set a null value or blank string to password parameter.
+Unprotects worksheet.
+
+**Remarks**
+
+If the worksheet is protected without a password, you can set a null value or blank string to password parameter.
 
 **Parameters:**
 | Parameter | Type | Description |

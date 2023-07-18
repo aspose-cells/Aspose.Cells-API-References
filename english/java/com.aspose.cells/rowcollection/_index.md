@@ -40,7 +40,7 @@ Collects the [Row](../../com.aspose.cells/row) objects that represent the indivi
 | [getRowByIndex(int index)](#getRowByIndex-int-) | Gets the row object by the position in the list. |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets an enumerator that iterates rows through this collection |
-| [iterator(boolean reversed, boolean sync)](#iterator-boolean-boolean-) | Gets an enumerator that iterates rows through this collection If the row collection will be modified(by operations that may cause new Row be instantiated or existing Row be removed) during the traversal with the enumerator, synchronized enumerator should be used instead of normal enumerator so that the traversal can continue from the position just after the one has been traversed by the last MoveNext(). |
+| [iterator(boolean reversed, boolean sync)](#iterator-boolean-boolean-) | Gets an enumerator that iterates rows through this collection |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Remove the row at the specified index |
@@ -161,7 +161,11 @@ public Iterator iterator(boolean reversed, boolean sync)
 ```
 
 
-Gets an enumerator that iterates rows through this collection If the row collection will be modified(by operations that may cause new Row be instantiated or existing Row be removed) during the traversal with the enumerator, synchronized enumerator should be used instead of normal enumerator so that the traversal can continue from the position just after the one has been traversed by the last MoveNext(). However, together with the advantage that no element be skipped or traversed repeatedly, the disadvantage for synchronized enumerator is that the performance will be degraded a bit when comparing with normal enumerator.
+Gets an enumerator that iterates rows through this collection
+
+**Remarks**
+
+If the row collection will be modified(by operations that may cause new Row be instantiated or existing Row be removed) during the traversal with the enumerator, synchronized enumerator should be used instead of normal enumerator so that the traversal can continue from the position just after the one has been traversed by the last MoveNext(). However, together with the advantage that no element be skipped or traversed repeatedly, the disadvantage for synchronized enumerator is that the performance will be degraded a bit when comparing with normal enumerator.
 
 **Parameters:**
 | Parameter | Type | Description |

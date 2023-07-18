@@ -35,13 +35,13 @@ Represents the options to filter data when loading workbook from template.
 | [FORMULA](#FORMULA) | Load cell formulas. |
 | [HYPERLINKS](#HYPERLINKS) | Load hyperlinks |
 | [MERGED_AREA](#MERGED-AREA) | Load merged cells |
-| [NONE](#NONE) | Load nothing for sheet data NOTE: This member is now obsolete and please use Structure instead. |
+| [NONE](#NONE) | Load nothing for sheet data |
 | [OLE_OBJECT](#OLE-OBJECT) | Load OleObjects |
 | [PICTURE](#PICTURE) | Load pictures |
 | [PIVOT_TABLE](#PIVOT-TABLE) | Load pivot tables |
 | [REVISION](#REVISION) | Load revision logs |
 | [SETTINGS](#SETTINGS) | Load settings for workbook and worksheet |
-| [SHAPE](#SHAPE) | Load shapes NOTE: This member is now obsolete and please use Drawing instead. |
+| [SHAPE](#SHAPE) | Load shapes |
 | [SHEET_DATA](#SHEET-DATA) | Load all data of worksheet, such as cells data, settings, objects, ...etc. |
 | [SHEET_SETTINGS](#SHEET-SETTINGS) | Load settings for worksheet |
 | [STRUCTURE](#STRUCTURE) | Load structure of the workbook |
@@ -188,7 +188,11 @@ public static final int FORMULA
 ```
 
 
-Load cell formulas. Generally defined Name objects(DefinedNames) also need to be loaded when loading formulas because they may be referenced by formulas. So Formula or CellData option should work with DefinedNames option together(Formula|DefinedNames or CellData|DefinedNames) for most scenarios.
+Load cell formulas.
+
+**Remarks**
+
+Generally defined Name objects(DefinedNames) also need to be loaded when loading formulas because they may be referenced by formulas. So Formula or CellData option should work with DefinedNames option together(Formula|DefinedNames or CellData|DefinedNames) for most scenarios.
 
 ### HYPERLINKS {#HYPERLINKS}
 ```
@@ -212,7 +216,11 @@ public static final int NONE
 ```
 
 
-Load nothing for sheet data NOTE: This member is now obsolete and please use Structure instead. This property will be removed 12 months later since December 2017. Aspose apologizes for any inconvenience you may have experienced.
+Load nothing for sheet data
+
+**Remarks**
+
+NOTE: This member is now obsolete and please use Structure instead. This property will be removed 12 months later since December 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 ### OLE_OBJECT {#OLE-OBJECT}
 ```
@@ -260,7 +268,11 @@ public static final int SHAPE
 ```
 
 
-Load shapes NOTE: This member is now obsolete and please use Drawing instead. This property will be removed 12 months later since November 2019. Aspose apologizes for any inconvenience you may have experienced.
+Load shapes
+
+**Remarks**
+
+NOTE: This member is now obsolete and please use Drawing instead. This property will be removed 12 months later since November 2019. Aspose apologizes for any inconvenience you may have experienced.
 
 ### SHEET_DATA {#SHEET-DATA}
 ```

@@ -90,7 +90,11 @@ public void addArea(CellArea cellArea)
 ```
 
 
-Applies the validation to the area. It is equivalent to use [addArea(CellArea,boolean,boolean)](../../com.aspose.cells/validation\#addArea-CellArea-boolean-boolean-) with checking intersection and edge.
+Applies the validation to the area.
+
+**Remarks**
+
+It is equivalent to use [addArea(CellArea,boolean,boolean)](../../com.aspose.cells/validation\#addArea-CellArea-boolean-boolean-) with checking intersection and edge.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -103,7 +107,11 @@ public void addArea(CellArea cellArea, boolean checkIntersection, boolean checkE
 ```
 
 
-Applies the validation to the area. In this method, we will remove all old validations in given area. For the top-left one of Validation's applied ranges, firstly its StartRow is smallest, secondly its StartColumn is the smallest one of those areas who have the same smallest StartRow.
+Applies the validation to the area.
+
+**Remarks**
+
+In this method, we will remove all old validations in given area. For the top-left one of Validation's applied ranges, firstly its StartRow is smallest, secondly its StartColumn is the smallest one of those areas who have the same smallest StartRow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -118,7 +126,11 @@ public void addAreas(CellArea[] areas, boolean checkIntersection, boolean checkE
 ```
 
 
-Applies the validation to given areas. In this method, we will remove all old validations in given area. For the top-left one of Validation's applied ranges, firstly its StartRow is smallest, secondly its StartColumn is the smallest one of those areas who have the same smallest StartRow.
+Applies the validation to given areas.
+
+**Remarks**
+
+In this method, we will remove all old validations in given area. For the top-left one of Validation's applied ranges, firstly its StartRow is smallest, secondly its StartColumn is the smallest one of those areas who have the same smallest StartRow.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -162,7 +174,8 @@ public int getAlertStyle()
 ```
 
 
-Represents the validation alert style. See [ValidationAlertType](../../com.aspose.cells/validationalerttype).
+Represents the validation alert style.
+See [ValidationAlertType](../../com.aspose.cells/validationalerttype).
 
 **Returns:**
 int
@@ -340,7 +353,11 @@ public Object getListValue(int row, int column)
 ```
 
 
-Get the value for list of the validation for the specified cell. Only for validation whose type is List and has been applied to given cell, otherwise null will be returned.
+Get the value for list of the validation for the specified cell.
+
+**Remarks**
+
+Only for validation whose type is List and has been applied to given cell, otherwise null will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -356,7 +373,8 @@ public int getOperator()
 ```
 
 
-Represents the operator for the data validation. See [OperatorType](../../com.aspose.cells/operatortype).
+Represents the operator for the data validation.
+See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Returns:**
 int
@@ -386,7 +404,8 @@ public int getType()
 ```
 
 
-Represents the data validation type. See [ValidationType](../../com.aspose.cells/validationtype).
+Represents the data validation type.
+See [ValidationType](../../com.aspose.cells/validationtype).
 
 **Returns:**
 int
@@ -482,7 +501,8 @@ public void setAlertStyle(int value)
 ```
 
 
-Represents the validation alert style. See [ValidationAlertType](../../com.aspose.cells/validationalerttype).
+Represents the validation alert style.
+See [ValidationAlertType](../../com.aspose.cells/validationalerttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -629,7 +649,8 @@ public void setOperator(int value)
 ```
 
 
-Represents the operator for the data validation. See [OperatorType](../../com.aspose.cells/operatortype).
+Represents the operator for the data validation.
+See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -668,7 +689,8 @@ public void setType(int value)
 ```
 
 
-Represents the data validation type. See [ValidationType](../../com.aspose.cells/validationtype).
+Represents the data validation type.
+See [ValidationType](../../com.aspose.cells/validationtype).
 
 **Parameters:**
 | Parameter | Type | Description |

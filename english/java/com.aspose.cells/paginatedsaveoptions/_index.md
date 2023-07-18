@@ -133,7 +133,11 @@ public boolean getCheckFontCompatibility()
 ```
 
 
-Indicates whether to check font compatibility for every character in text. The default value is true. Disable this property may give better performance. But when the default or specified font of text/character cannot be used to render it, unreadable characters(such as block) maybe occur in the generated pdf. For such situation user should keep this property as true so that alternative font can be searched and used to render the text instead;
+Indicates whether to check font compatibility for every character in text.
+
+**Remarks**
+
+The default value is true. Disable this property may give better performance. But when the default or specified font of text/character cannot be used to render it, unreadable characters(such as block) maybe occur in the generated pdf. For such situation user should keep this property as true so that alternative font can be searched and used to render the text instead;
 
 **Returns:**
 boolean
@@ -143,7 +147,11 @@ public boolean getCheckWorkbookDefaultFont()
 ```
 
 
-When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. Default is true.
+When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first.
+
+**Remarks**
+
+Default is true.
 
 **Returns:**
 boolean
@@ -173,7 +181,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -183,7 +195,12 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets default edit language. See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
+Gets default edit language.
+See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
+
+**Remarks**
+
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Returns:**
 int
@@ -213,7 +230,12 @@ public int getGridlineType()
 ```
 
 
-Gets gridline type. See [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
+Gets gridline type.
+See [GridlineType](../../com.aspose.cells/gridlinetype).
+
+**Remarks**
+
+Default is Dotted type.
 
 **Returns:**
 int
@@ -233,7 +255,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -253,7 +279,11 @@ public boolean getOutputBlankPageWhenNothingToPrint()
 ```
 
 
-Indicates whether to output a blank page when there is nothing to print. Default is true.
+Indicates whether to output a blank page when there is nothing to print.
+
+**Remarks**
+
+Default is true.
 
 **Returns:**
 boolean
@@ -263,7 +293,11 @@ public int getPageCount()
 ```
 
 
-Gets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
+Gets the number of pages to save.
+
+**Remarks**
+
+Default is System.Int32.MaxValue which means all pages will be rendered..
 
 **Example**
 
@@ -293,7 +327,11 @@ public int getPageIndex()
 ```
 
 
-Gets the 0-based index of the first page to save. Default is 0.
+Gets the 0-based index of the first page to save.
+
+**Remarks**
+
+Default is 0.
 
 **Example**
 
@@ -333,7 +371,12 @@ public int getPrintingPageType()
 ```
 
 
-Indicates which pages will not be printed. See [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
+Indicates which pages will not be printed.
+See [PrintingPageType](../../com.aspose.cells/printingpagetype).
+
+**Remarks**
+
+If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
 
 **Example**
 
@@ -374,7 +417,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format.
+See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -429,7 +473,8 @@ public int getTextCrossType()
 ```
 
 
-Gets displaying text type when the text width is larger than cell width. See [TextCrossType](../../com.aspose.cells/textcrosstype).
+Gets displaying text type when the text width is larger than cell width.
+See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Returns:**
 int
@@ -439,7 +484,11 @@ public boolean getUpdateSmartArt()
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Returns:**
 boolean
@@ -449,7 +498,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -479,7 +532,11 @@ public boolean isFontSubstitutionCharGranularity()
 ```
 
 
-Indicates whether to only substitute the font of character when the cell font is not compatibility for it. Default is false. We will try default font of Workbook and PdfSaveOption/system for cell font first.
+Indicates whether to only substitute the font of character when the cell font is not compatibility for it.
+
+**Remarks**
+
+Default is false. We will try default font of Workbook and PdfSaveOption/system for cell font first.
 
 **Returns:**
 boolean
@@ -531,7 +588,11 @@ public void setCheckFontCompatibility(boolean value)
 ```
 
 
-Indicates whether to check font compatibility for every character in text. The default value is true. Disable this property may give better performance. But when the default or specified font of text/character cannot be used to render it, unreadable characters(such as block) maybe occur in the generated pdf. For such situation user should keep this property as true so that alternative font can be searched and used to render the text instead;
+Indicates whether to check font compatibility for every character in text.
+
+**Remarks**
+
+The default value is true. Disable this property may give better performance. But when the default or specified font of text/character cannot be used to render it, unreadable characters(such as block) maybe occur in the generated pdf. For such situation user should keep this property as true so that alternative font can be searched and used to render the text instead;
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +605,11 @@ public void setCheckWorkbookDefaultFont(boolean value)
 ```
 
 
-When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first. Default is true.
+When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first.
+
+**Remarks**
+
+Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -570,7 +635,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -583,7 +652,12 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Sets default edit language. See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
+Sets default edit language.
+See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
+
+**Remarks**
+
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +696,11 @@ public void setFontSubstitutionCharGranularity(boolean value)
 ```
 
 
-Indicates whether to only substitute the font of character when the cell font is not compatibility for it. Default is false. We will try default font of Workbook and PdfSaveOption/system for cell font first.
+Indicates whether to only substitute the font of character when the cell font is not compatibility for it.
+
+**Remarks**
+
+Default is false. We will try default font of Workbook and PdfSaveOption/system for cell font first.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -635,7 +713,12 @@ public void setGridlineType(int value)
 ```
 
 
-Sets gridline type. See [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
+Sets gridline type.
+See [GridlineType](../../com.aspose.cells/gridlinetype).
+
+**Remarks**
+
+Default is Dotted type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -661,7 +744,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -687,7 +774,11 @@ public void setOutputBlankPageWhenNothingToPrint(boolean value)
 ```
 
 
-Indicates whether to output a blank page when there is nothing to print. Default is true.
+Indicates whether to output a blank page when there is nothing to print.
+
+**Remarks**
+
+Default is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -700,7 +791,11 @@ public void setPageCount(int value)
 ```
 
 
-Sets the number of pages to save. Default is System.Int32.MaxValue which means all pages will be rendered..
+Sets the number of pages to save.
+
+**Remarks**
+
+Default is System.Int32.MaxValue which means all pages will be rendered..
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -713,7 +808,11 @@ public void setPageIndex(int value)
 ```
 
 
-Sets the 0-based index of the first page to save. Default is 0.
+Sets the 0-based index of the first page to save.
+
+**Remarks**
+
+Default is 0.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -739,7 +838,12 @@ public void setPrintingPageType(int value)
 ```
 
 
-Indicates which pages will not be printed. See [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
+Indicates which pages will not be printed.
+See [PrintingPageType](../../com.aspose.cells/printingpagetype).
+
+**Remarks**
+
+If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -804,7 +908,8 @@ public void setTextCrossType(int value)
 ```
 
 
-Sets displaying text type when the text width is larger than cell width. See [TextCrossType](../../com.aspose.cells/textcrosstype).
+Sets displaying text type when the text width is larger than cell width.
+See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -817,7 +922,11 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -830,7 +939,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

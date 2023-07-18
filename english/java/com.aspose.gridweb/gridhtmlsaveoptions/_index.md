@@ -177,7 +177,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -257,7 +261,11 @@ public boolean getExportImagesAsBase64()
 ```
 
 
-Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. When this property is set to true image data is exported directly on the img elements and separate files are not created.
+Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB.
+
+**Remarks**
+
+When this property is set to true image data is exported directly on the img elements and separate files are not created.
 
 **Returns:**
 boolean
@@ -287,7 +295,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -339,7 +351,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat).
+Gets the save file format.
+See [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat).
 
 **Returns:**
 int
@@ -359,7 +372,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -467,7 +484,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -584,7 +605,11 @@ public void setExportImagesAsBase64(boolean value)
 ```
 
 
-Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB. When this property is set to true image data is exported directly on the img elements and separate files are not created.
+Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB.
+
+**Remarks**
+
+When this property is set to true image data is exported directly on the img elements and separate files are not created.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -636,7 +661,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -716,7 +745,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

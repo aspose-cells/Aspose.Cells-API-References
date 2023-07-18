@@ -12,7 +12,11 @@ java.lang.Object, [com.aspose.gridweb.Control](../../com.aspose.gridweb/control)
 public class WebWorksheet extends Control
 ```
 
-Represents a web worksheet. NOTE: This class is now obsolete. please use GridWorksheet Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
+Represents a web worksheet.
+
+**Remarks**
+
+NOTE: This class is now obsolete. please use GridWorksheet Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
 
 **Example**
 
@@ -103,7 +107,11 @@ public void autoFitColumn(int columnIndex)
 ```
 
 
-Autofits the column width. AutoFitColumn is an imprecise function.
+Autofits the column width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |

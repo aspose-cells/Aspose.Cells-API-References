@@ -12,7 +12,11 @@ java.lang.Object
 public class CalculationData
 ```
 
-Represents the required data when calculating one function, such as function name, parameters, ...etc. All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
+Represents the required data when calculating one function, such as function name, parameters, ...etc.
+
+**Remarks**
+
+All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
 ## Methods
 
 | Method | Description |
@@ -58,7 +62,11 @@ public Object getCalculatedValue()
 ```
 
 
-Gets the calculated value for this function. User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value may be of possible types of [Cell.getValue()](../../com.aspose.cells/cell\#getValue--), or array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting value to it will make the function be calculated by the default calculation engine of Aspose.Cells and then the calculated value will be returned(generally it should be \#NAME? for user-defined functions).
+Gets the calculated value for this function.
+
+**Remarks**
+
+User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value may be of possible types of [Cell.getValue()](../../com.aspose.cells/cell\#getValue--), or array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting value to it will make the function be calculated by the default calculation engine of Aspose.Cells and then the calculated value will be returned(generally it should be \#NAME? for user-defined functions).
 
 **Returns:**
 java.lang.Object
@@ -68,7 +76,11 @@ public Cell getCell()
 ```
 
 
-Gets the Cell object where the function is in. When calculating a formula without setting it to a cell, such as by [Worksheet.calculateFormula(String,CalculationOptions)](../../com.aspose.cells/worksheet\#calculateFormula-String-CalculationOptions-), the formula will be calculated just like it has been set to cell A1, so both [getCellRow()](../../com.aspose.cells/calculationdata\#getCellRow--) and [getCellColumn()](../../com.aspose.cells/calculationdata\#getCellColumn--) are 0. However, cell A1 in the worksheet may has not been instantiated. So for such kind of situation this property will be null.
+Gets the Cell object where the function is in.
+
+**Remarks**
+
+When calculating a formula without setting it to a cell, such as by [Worksheet.calculateFormula(String,CalculationOptions)](../../com.aspose.cells/worksheet\#calculateFormula-String-CalculationOptions-), the formula will be calculated just like it has been set to cell A1, so both [getCellRow()](../../com.aspose.cells/calculationdata\#getCellRow--) and [getCellColumn()](../../com.aspose.cells/calculationdata\#getCellColumn--) are 0. However, cell A1 in the worksheet may has not been instantiated. So for such kind of situation this property will be null.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell)
@@ -204,7 +216,11 @@ public void setCalculatedValue(Object value)
 ```
 
 
-Sets the calculated value for this function. User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value may be of possible types of [Cell.getValue()](../../com.aspose.cells/cell\#getValue--), or array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting value to it will make the function be calculated by the default calculation engine of Aspose.Cells and then the calculated value will be returned(generally it should be \#NAME? for user-defined functions).
+Sets the calculated value for this function.
+
+**Remarks**
+
+User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property later. The set value may be of possible types of [Cell.getValue()](../../com.aspose.cells/cell\#getValue--), or array of such kind of values, or a Range, Name, ReferredArea. Getting this property before setting value to it will make the function be calculated by the default calculation engine of Aspose.Cells and then the calculated value will be returned(generally it should be \#NAME? for user-defined functions).
 
 **Parameters:**
 | Parameter | Type | Description |

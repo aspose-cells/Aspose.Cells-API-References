@@ -17,7 +17,7 @@ Specifies the OLE DB command type.
 
 | Field | Description |
 | --- | --- |
-| [CUBE_NAME](#CUBE-NAME) | Specifies a cube name unsupported |
+| [CUBE_NAME](#CUBE-NAME) | Specifies a cube name |
 | [DEFAULT_INFORMATION](#DEFAULT-INFORMATION) | Specifies that default information has been given, and it is up to the provider how to interpret. |
 | [NONE](#NONE) | The command type is not specified. |
 | [SQL_STATEMENT](#SQL-STATEMENT) | Specifies a SQL statement |
@@ -42,7 +42,11 @@ public static final int CUBE_NAME
 ```
 
 
-Specifies a cube name unsupported
+Specifies a cube name
+
+**Remarks**
+
+unsupported
 
 ### DEFAULT_INFORMATION {#DEFAULT-INFORMATION}
 ```
@@ -50,7 +54,11 @@ public static final int DEFAULT_INFORMATION
 ```
 
 
-Specifies that default information has been given, and it is up to the provider how to interpret. unsupported
+Specifies that default information has been given, and it is up to the provider how to interpret.
+
+**Remarks**
+
+unsupported
 
 ### NONE {#NONE}
 ```
@@ -82,7 +90,11 @@ public static final int WEB_BASED_LIST
 ```
 
 
-Specifies a query which is against a web based List Data Provider. unsupported
+Specifies a query which is against a web based List Data Provider.
+
+**Remarks**
+
+unsupported
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

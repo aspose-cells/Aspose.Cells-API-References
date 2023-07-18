@@ -121,7 +121,11 @@ public boolean getAlwaysQuoted()
 ```
 
 
-Indicates whether always adding '"' for each field. If true then all values will be quoted; If false then values will only be quoted when needed(for example, when values contain special characters such as '"' , '\\n' or separator character). Default is false. NOTE: This member is now obsolete. Instead, please use QuoteType property instead. This property will be removed 12 months later since August 2012. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether always adding '"' for each field. If true then all values will be quoted; If false then values will only be quoted when needed(for example, when values contain special characters such as '"' , '\\n' or separator character). Default is false.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use QuoteType property instead. This property will be removed 12 months later since August 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -161,7 +165,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -181,7 +189,11 @@ public boolean getExportAllSheets()
 ```
 
 
-Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. The defult value is false.
+Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel.
+
+**Remarks**
+
+The defult value is false.
 
 **Returns:**
 boolean
@@ -191,7 +203,11 @@ public CellArea getExportArea()
 ```
 
 
-The range of cells to be exported. If the exported area has been specified, [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--) will takes no effect.
+The range of cells to be exported.
+
+**Remarks**
+
+If the exported area has been specified, [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--) will takes no effect.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)
@@ -211,7 +227,8 @@ public int getFormatStrategy()
 ```
 
 
-Gets the format strategy when exporting the cell value as string. See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
+Gets the format strategy when exporting the cell value as string.
+See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Returns:**
 int
@@ -241,7 +258,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -251,7 +272,8 @@ public int getQuoteType()
 ```
 
 
-Gets how to quote values in the exported text file. See [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
+Gets how to quote values in the exported text file.
+See [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
 
 **Returns:**
 int
@@ -271,7 +293,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format.
+See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -321,7 +344,11 @@ public boolean getTrimLeadingBlankRowAndColumn()
 ```
 
 
-Indicates whether leading blank rows and columns should be trimmed like what ms excel does. Default is true. Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--) or by speicifing [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--)
+Indicates whether leading blank rows and columns should be trimmed like what ms excel does. Default is true.
+
+**Remarks**
+
+Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--) or by speicifing [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--)
 
 **Returns:**
 boolean
@@ -331,7 +358,11 @@ public boolean getTrimTailingBlankCells()
 ```
 
 
-Indicates whether tailing blank cells in one row should be trimmed. Default is false. When saving with LightCells mode and the [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--)
+Indicates whether tailing blank cells in one row should be trimmed. Default is false.
+
+**Remarks**
+
+When saving with LightCells mode and the [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--)
 
 **Returns:**
 boolean
@@ -341,7 +372,11 @@ public boolean getUpdateSmartArt()
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Returns:**
 boolean
@@ -351,7 +386,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -397,7 +436,11 @@ public void setAlwaysQuoted(boolean value)
 ```
 
 
-Indicates whether always adding '"' for each field. If true then all values will be quoted; If false then values will only be quoted when needed(for example, when values contain special characters such as '"' , '\\n' or separator character). Default is false. NOTE: This member is now obsolete. Instead, please use QuoteType property instead. This property will be removed 12 months later since August 2012. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether always adding '"' for each field. If true then all values will be quoted; If false then values will only be quoted when needed(for example, when values contain special characters such as '"' , '\\n' or separator character). Default is false.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use QuoteType property instead. This property will be removed 12 months later since August 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -436,7 +479,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -462,7 +509,11 @@ public void setExportAllSheets(boolean value)
 ```
 
 
-Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel. The defult value is false.
+Indicates whether exporting all sheets to the text file. If it is false, only export the activesheet, just like MS Excel.
+
+**Remarks**
+
+The defult value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -475,7 +526,11 @@ public void setExportArea(CellArea value)
 ```
 
 
-The range of cells to be exported. If the exported area has been specified, [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--) will takes no effect.
+The range of cells to be exported.
+
+**Remarks**
+
+If the exported area has been specified, [getTrimLeadingBlankRowAndColumn()](../../com.aspose.cells/txtsaveoptions\#getTrimLeadingBlankRowAndColumn--) will takes no effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -501,7 +556,8 @@ public void setFormatStrategy(int value)
 ```
 
 
-Sets the format strategy when exporting the cell value as string. See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
+Sets the format strategy when exporting the cell value as string.
+See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -540,7 +596,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,7 +613,8 @@ public void setQuoteType(int value)
 ```
 
 
-Sets how to quote values in the exported text file. See [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
+Sets how to quote values in the exported text file.
+See [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +692,11 @@ public void setTrimLeadingBlankRowAndColumn(boolean value)
 ```
 
 
-Indicates whether leading blank rows and columns should be trimmed like what ms excel does. Default is true. Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--) or by speicifing [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--)
+Indicates whether leading blank rows and columns should be trimmed like what ms excel does. Default is true.
+
+**Remarks**
+
+Same with the rule in ms excel, a row/column will not be taken as blank if it has custom style, even if it contains no cell data. When saving with LightCells mode, this option takes no effect. User should control the output range by the implementation of [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--) or by speicifing [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +709,11 @@ public void setTrimTailingBlankCells(boolean value)
 ```
 
 
-Indicates whether tailing blank cells in one row should be trimmed. Default is false. When saving with LightCells mode and the [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--)
+Indicates whether tailing blank cells in one row should be trimmed. Default is false.
+
+**Remarks**
+
+When saving with LightCells mode and the [getExportArea()](../../com.aspose.cells/txtsaveoptions\#getExportArea--) has not been specified, this option takes no effect and one row will be extended to just the last cell provided by the implementation [getLightCellsDataProvider()](../../com.aspose.cells/txtsaveoptions\#getLightCellsDataProvider--)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -657,7 +726,11 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -670,7 +743,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

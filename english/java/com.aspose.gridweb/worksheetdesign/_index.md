@@ -100,7 +100,11 @@ public void autoFitColumn(int columnIndex)
 ```
 
 
-Autofits the column width. AutoFitColumn is an imprecise function.
+Autofits the column width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |

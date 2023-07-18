@@ -119,7 +119,12 @@ public int getHAlignment()
 ```
 
 
-Gets horizontal alignment of the watermark to the page. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype). Only Left, Center, Right is valid. Default is Left.
+Gets horizontal alignment of the watermark to the page.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+
+**Remarks**
+
+Only Left, Center, Right is valid. Default is Left.
 
 **Returns:**
 int
@@ -199,7 +204,12 @@ public int getVAlignment()
 ```
 
 
-Gets vertical alignment of the watermark to the page. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype). Only Top, Center, Bottom is valid. Default is Top.
+Gets vertical alignment of the watermark to the page.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+
+**Remarks**
+
+Only Top, Center, Bottom is valid. Default is Top.
 
 **Returns:**
 int
@@ -258,7 +268,12 @@ public void setHAlignment(int value)
 ```
 
 
-Sets horizontal alignment of the watermark to the page. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype). Only Left, Center, Right is valid. Default is Left.
+Sets horizontal alignment of the watermark to the page.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+
+**Remarks**
+
+Only Left, Center, Right is valid. Default is Left.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -336,7 +351,12 @@ public void setVAlignment(int value)
 ```
 
 
-Sets vertical alignment of the watermark to the page. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype). Only Top, Center, Bottom is valid. Default is Top.
+Sets vertical alignment of the watermark to the page.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+
+**Remarks**
+
+Only Top, Center, Bottom is valid. Default is Top.
 
 **Parameters:**
 | Parameter | Type | Description |

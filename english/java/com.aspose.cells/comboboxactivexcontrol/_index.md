@@ -26,7 +26,8 @@ Represents a ComboBox ActiveX control.
 | [getColumnCount()](#getColumnCount--) | Represents the number of columns to display in a ComboBox or ListBox. |
 | [getColumnWidths()](#getColumnWidths--) | Gets the width of the column. |
 | [getData()](#getData--) | Gets the binary data of the control. |
-| [getDropButtonStyle()](#getDropButtonStyle--) | Specifies the symbol displayed on the drop button See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
+| [getDropButtonStyle()](#getDropButtonStyle--) | Specifies the symbol displayed on the drop button
+See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
 | [getEnterFieldBehavior()](#getEnterFieldBehavior--) | Specifies selection behavior when entering the control. |
 | [getFont()](#getFont--) | Represents the font of the control. |
 | [getForeOleColor()](#getForeOleColor--) | Gets the ole color of the foreground. |
@@ -45,7 +46,8 @@ Represents a ComboBox ActiveX control.
 | [getSelectionMargin()](#getSelectionMargin--) | Indicates whether the user can select a line of text by clicking in the region to the left of the text. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getShowColumnHeads()](#getShowColumnHeads--) | Indicates whether column headings are displayed. |
-| [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--) | Specifies the symbol displayed on the drop button See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype). |
+| [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--) | Specifies the symbol displayed on the drop button
+See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype). |
 | [getSpecialEffect()](#getSpecialEffect--) | Gets the special effect of the control. |
 | [getTextAlign()](#getTextAlign--) | Represents how to align the text used by the control. |
 | [getTextColumn()](#getTextColumn--) | Represents the column in a ComboBox or ListBox to display to the user. |
@@ -73,7 +75,8 @@ Represents a ComboBox ActiveX control.
 | [setColumnCount(int value)](#setColumnCount-int-) | Represents the number of columns to display in a ComboBox or ListBox. |
 | [setColumnWidths(double value)](#setColumnWidths-double-) | Sets the width of the column. |
 | [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | Indicates whether dragging and dropping is enabled for the control. |
-| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | Specifies the symbol displayed on the drop button See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
+| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | Specifies the symbol displayed on the drop button
+See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
 | [setEditable(boolean value)](#setEditable-boolean-) | Indicates whether the user can type into the control. |
 | [setEnabled(boolean value)](#setEnabled-boolean-) | Indicates whether the control can receive the focus and respond to user-generated events. |
 | [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | Specifies selection behavior when entering the control. |
@@ -94,7 +97,8 @@ Represents a ComboBox ActiveX control.
 | [setSelectionMargin(boolean value)](#setSelectionMargin-boolean-) | Indicates whether the user can select a line of text by clicking in the region to the left of the text. |
 | [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
 | [setShowColumnHeads(boolean value)](#setShowColumnHeads-boolean-) | Indicates whether column headings are displayed. |
-| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | Specifies the symbol displayed on the drop button See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype). |
+| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | Specifies the symbol displayed on the drop button
+See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype). |
 | [setSpecialEffect(int value)](#setSpecialEffect-int-) | Sets the special effect of the control. |
 | [setTextAlign(int value)](#setTextAlign-int-) | Represents how to align the text used by the control. |
 | [setTextColumn(int value)](#setTextColumn-int-) | Represents the column in a ComboBox or ListBox to display to the user. |
@@ -147,7 +151,8 @@ public int getBorderStyle()
 ```
 
 
-Gets the type of border used by the control. See [ControlBorderType](../../com.aspose.cells/controlbordertype).
+Gets the type of border used by the control.
+See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Returns:**
 int
@@ -207,7 +212,8 @@ public int getDropButtonStyle()
 ```
 
 
-Specifies the symbol displayed on the drop button See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
+Specifies the symbol displayed on the drop button
+See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
 
 **Returns:**
 int
@@ -237,7 +243,11 @@ public int getForeOleColor()
 ```
 
 
-Gets the ole color of the foreground. Not applies to Image control.
+Gets the ole color of the foreground.
+
+**Remarks**
+
+Not applies to Image control.
 
 **Returns:**
 int
@@ -267,7 +277,8 @@ public int getIMEMode()
 ```
 
 
-Gets the default run-time mode of the Input Method Editor for the control as it receives focus. See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
+See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Returns:**
 int
@@ -307,7 +318,8 @@ public int getListStyle()
 ```
 
 
-Gets the visual appearance. See [ControlListStyle](../../com.aspose.cells/controlliststyle).
+Gets the visual appearance.
+See [ControlListStyle](../../com.aspose.cells/controlliststyle).
 
 **Returns:**
 int
@@ -327,7 +339,8 @@ public int getMatchEntry()
 ```
 
 
-Indicates how a ListBox or ComboBox searches its list as the user types. See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
+Indicates how a ListBox or ComboBox searches its list as the user types.
+See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
 
 **Returns:**
 int
@@ -357,7 +370,8 @@ public int getMousePointer()
 ```
 
 
-Gets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Gets the type of icon displayed as the mouse pointer for the control.
+See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Returns:**
 int
@@ -397,7 +411,8 @@ public int getShowDropButtonTypeWhen()
 ```
 
 
-Specifies the symbol displayed on the drop button See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
+Specifies the symbol displayed on the drop button
+See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
 
 **Returns:**
 int
@@ -407,7 +422,8 @@ public int getSpecialEffect()
 ```
 
 
-Gets the special effect of the control. See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
+Gets the special effect of the control.
+See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Returns:**
 int
@@ -417,7 +433,8 @@ public int getTextAlign()
 ```
 
 
-Represents how to align the text used by the control. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Represents how to align the text used by the control.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -437,7 +454,8 @@ public int getType()
 ```
 
 
-Gets the type of the ActiveX control. See [ControlType](../../com.aspose.cells/controltype).
+Gets the type of the ActiveX control.
+See [ControlType](../../com.aspose.cells/controltype).
 
 **Returns:**
 int
@@ -635,7 +653,8 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the type of border used by the control. See [ControlBorderType](../../com.aspose.cells/controlbordertype).
+Sets the type of border used by the control.
+See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -700,7 +719,8 @@ public void setDropButtonStyle(int value)
 ```
 
 
-Specifies the symbol displayed on the drop button See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
+Specifies the symbol displayed on the drop button
+See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -752,7 +772,11 @@ public void setForeOleColor(int value)
 ```
 
 
-Sets the ole color of the foreground. Not applies to Image control.
+Sets the ole color of the foreground.
+
+**Remarks**
+
+Not applies to Image control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -791,7 +815,8 @@ public void setIMEMode(int value)
 ```
 
 
-Sets the default run-time mode of the Input Method Editor for the control as it receives focus. See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -843,7 +868,8 @@ public void setListStyle(int value)
 ```
 
 
-Sets the visual appearance. See [ControlListStyle](../../com.aspose.cells/controlliststyle).
+Sets the visual appearance.
+See [ControlListStyle](../../com.aspose.cells/controlliststyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -882,7 +908,8 @@ public void setMatchEntry(int value)
 ```
 
 
-Indicates how a ListBox or ComboBox searches its list as the user types. See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
+Indicates how a ListBox or ComboBox searches its list as the user types.
+See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -921,7 +948,8 @@ public void setMousePointer(int value)
 ```
 
 
-Sets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Sets the type of icon displayed as the mouse pointer for the control.
+See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -973,7 +1001,8 @@ public void setShowDropButtonTypeWhen(int value)
 ```
 
 
-Specifies the symbol displayed on the drop button See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
+Specifies the symbol displayed on the drop button
+See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -986,7 +1015,8 @@ public void setSpecialEffect(int value)
 ```
 
 
-Sets the special effect of the control. See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
+Sets the special effect of the control.
+See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -999,7 +1029,8 @@ public void setTextAlign(int value)
 ```
 
 
-Represents how to align the text used by the control. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Represents how to align the text used by the control.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

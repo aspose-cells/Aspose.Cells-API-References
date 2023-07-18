@@ -76,7 +76,11 @@ public int getCalcStackSize()
 ```
 
 
-Specifies the stack size for calculating cells recursively. When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. Too small value may cause performance degradation for the formula calculation.
+Specifies the stack size for calculating cells recursively.
+
+**Remarks**
+
+When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. Too small value may cause performance degradation for the formula calculation.
 
 **Returns:**
 int
@@ -126,7 +130,11 @@ public ICustomFunction getCustomFunction()
 ```
 
 
-The custom formula calculation functions to extend the calculation engine. NOTE: This member is now obsolete. Instead, please use CustomEngine property, AbstractCalculationEngine provides more convenient and flexible APIs for manipulating custom functions. This property will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+The custom formula calculation functions to extend the calculation engine.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CustomEngine property, AbstractCalculationEngine provides more convenient and flexible APIs for manipulating custom functions. This property will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [ICustomFunction](../../com.aspose.cells/icustomfunction)
@@ -146,7 +154,11 @@ public Workbook[] getLinkedDataSources()
 ```
 
 
-Specifies the data sources for external links used in formulas. Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
+Specifies the data sources for external links used in formulas.
+
+**Remarks**
+
+Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
 
 **Returns:**
 com.aspose.cells.Workbook[]
@@ -156,7 +168,8 @@ public int getPrecisionStrategy()
 ```
 
 
-Specifies the strategy for processing precision of calculation. See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
+Specifies the strategy for processing precision of calculation.
+See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Returns:**
 int
@@ -202,7 +215,11 @@ public void setCalcStackSize(int value)
 ```
 
 
-Specifies the stack size for calculating cells recursively. When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. Too small value may cause performance degradation for the formula calculation.
+Specifies the stack size for calculating cells recursively.
+
+**Remarks**
+
+When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. Too small value may cause performance degradation for the formula calculation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +271,11 @@ public void setCustomFunction(ICustomFunction value)
 ```
 
 
-The custom formula calculation functions to extend the calculation engine. NOTE: This member is now obsolete. Instead, please use CustomEngine property, AbstractCalculationEngine provides more convenient and flexible APIs for manipulating custom functions. This property will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+The custom formula calculation functions to extend the calculation engine.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CustomEngine property, AbstractCalculationEngine provides more convenient and flexible APIs for manipulating custom functions. This property will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,7 +301,11 @@ public void setLinkedDataSources(Workbook[] value)
 ```
 
 
-Specifies the data sources for external links used in formulas. Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
+Specifies the data sources for external links used in formulas.
+
+**Remarks**
+
+Like [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---), here you may specify data sources for external links used in formulas to be calculated, especially those used in INDIRECT function. For those external links used in INDIRECT function, they are not taken as part of the external links of the workbook and cannot be updated by [Workbook.updateLinkedDataSource(Workbook[])](../../com.aspose.cells/workbook\#updateLinkedDataSource-Workbook---).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -293,7 +318,8 @@ public void setPrecisionStrategy(int value)
 ```
 
 
-Specifies the strategy for processing precision of calculation. See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
+Specifies the strategy for processing precision of calculation.
+See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Parameters:**
 | Parameter | Type | Description |

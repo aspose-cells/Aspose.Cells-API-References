@@ -12,7 +12,11 @@ java.lang.Object
 public final class HyperlinkActionType
 ```
 
-Hyperlink has two action type: UrlLink and CellCommand. UrlLink type hyperlink is an anchor in a cell, click it will navigate to another page or open a new browser window. CellCommand type hyperlink is an command button in a cell, click it will generate a server side event. NOTE: This class is now obsolete. please use GridHyperlink Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
+Hyperlink has two action type: UrlLink and CellCommand. UrlLink type hyperlink is an anchor in a cell, click it will navigate to another page or open a new browser window. CellCommand type hyperlink is an command button in a cell, click it will generate a server side event.
+
+**Remarks**
+
+NOTE: This class is now obsolete. please use GridHyperlink Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
 ## Fields
 
 | Field | Description |

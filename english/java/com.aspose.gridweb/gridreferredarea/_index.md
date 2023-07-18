@@ -163,7 +163,11 @@ public boolean isArea()
 ```
 
 
-Indicates whether this is an area. If this is not an area, only StartRow and StartColumn effect.
+Indicates whether this is an area.
+
+**Remarks**
+
+If this is not an area, only StartRow and StartColumn effect.
 
 **Returns:**
 boolean

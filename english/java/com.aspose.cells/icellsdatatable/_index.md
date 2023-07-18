@@ -10,6 +10,8 @@ public interface ICellsDataTable
 ```
 
 Represents data table.
+
+**Remarks**
 ## Methods
 
 | Method | Description |

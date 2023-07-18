@@ -75,7 +75,11 @@ public double getRadius()
 ```
 
 
-Gets the radius of the glow, in unit of points. NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the radius of the glow, in unit of points.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 double
@@ -144,7 +148,11 @@ public void setRadius(double value)
 ```
 
 
-Sets the radius of the glow, in unit of points. NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
+Sets the radius of the glow, in unit of points.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use GlowEffect.Size property. This property will be removed 6 months later since September 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -84,7 +84,11 @@ public String getStringValue()
 ```
 
 
-Returns or sets the value of the custom property. NOTE: This member is now obsolete. Instead, please use CustomProperty.Value property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
+Returns or sets the value of the custom property.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CustomProperty.Value property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String
@@ -143,7 +147,11 @@ public void setStringValue(String value)
 ```
 
 
-Returns or sets the value of the custom property. NOTE: This member is now obsolete. Instead, please use CustomProperty.Value property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
+Returns or sets the value of the custom property.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CustomProperty.Value property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -12,7 +12,11 @@ java.lang.Object
 public class WebBorderStyle
 ```
 
-Encapsulates the style of web table or cell border. Please refer to .NET SDK document for further information about System.Web.UI.WebControls namespace.
+Encapsulates the style of web table or cell border.
+
+**Remarks**
+
+Please refer to .NET SDK document for further information about System.Web.UI.WebControls namespace.
 ## Constructors
 
 | Constructor | Description |
@@ -90,7 +94,8 @@ public int getBorderStyle()
 ```
 
 
-Gets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. See [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Gets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum.
+See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
 int
@@ -159,7 +164,8 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. See [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Sets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum.
+See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
 | Parameter | Type | Description |

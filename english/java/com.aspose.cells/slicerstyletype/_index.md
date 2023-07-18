@@ -17,7 +17,7 @@ Specify the style of slicer view
 
 | Field | Description |
 | --- | --- |
-| [CUSTOM](#CUSTOM) | user-defined style, unsupported for now unsupported |
+| [CUSTOM](#CUSTOM) | user-defined style, unsupported for now |
 | [SLICER_STYLE_DARK_1](#SLICER-STYLE-DARK-1) | built-in dark style one |
 | [SLICER_STYLE_DARK_2](#SLICER-STYLE-DARK-2) | built-in dark style tow |
 | [SLICER_STYLE_DARK_3](#SLICER-STYLE-DARK-3) | built-in dark style three |
@@ -51,7 +51,11 @@ public static final int CUSTOM
 ```
 
 
-user-defined style, unsupported for now unsupported
+user-defined style, unsupported for now
+
+**Remarks**
+
+unsupported
 
 ### SLICER_STYLE_DARK_1 {#SLICER-STYLE-DARK-1}
 ```

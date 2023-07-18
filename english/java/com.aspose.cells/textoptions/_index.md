@@ -124,7 +124,8 @@ public int getCapsType()
 ```
 
 
-Gets the text caps type. See [TextCapsType](../../com.aspose.cells/textcapstype).
+Gets the text caps type.
+See [TextCapsType](../../com.aspose.cells/textcapstype).
 
 **Returns:**
 int
@@ -204,7 +205,8 @@ public int getLanguageCode()
 ```
 
 
-Gets the user interface language. See [CountryCode](../../com.aspose.cells/countrycode).
+Gets the user interface language.
+See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
 int
@@ -244,7 +246,8 @@ public int getSchemeType()
 ```
 
 
-Gets the scheme type of the font. See [FontSchemeType](../../com.aspose.cells/fontschemetype).
+Gets the scheme type of the font.
+See [FontSchemeType](../../com.aspose.cells/fontschemetype).
 
 **Returns:**
 int
@@ -294,7 +297,8 @@ public int getStrikeType()
 ```
 
 
-Gets the strike type of the text. See [TextStrikeType](../../com.aspose.cells/textstriketype).
+Gets the strike type of the text.
+See [TextStrikeType](../../com.aspose.cells/textstriketype).
 
 **Returns:**
 int
@@ -304,7 +308,11 @@ public ThemeColor getThemeColor()
 ```
 
 
-Gets the theme color. If the font color is not a theme color, NULL will be returned.
+Gets the theme color.
+
+**Remarks**
+
+If the font color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -314,7 +322,8 @@ public int getUnderline()
 ```
 
 
-Gets the font underline type. See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
+Gets the font underline type.
+See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
 
 **Returns:**
 int
@@ -446,7 +455,8 @@ public void setCapsType(int value)
 ```
 
 
-Sets the text caps type. See [TextCapsType](../../com.aspose.cells/textcapstype).
+Sets the text caps type.
+See [TextCapsType](../../com.aspose.cells/textcapstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -537,7 +547,8 @@ public void setLanguageCode(int value)
 ```
 
 
-Sets the user interface language. See [CountryCode](../../com.aspose.cells/countrycode).
+Sets the user interface language.
+See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -589,7 +600,8 @@ public void setSchemeType(int value)
 ```
 
 
-Sets the scheme type of the font. See [FontSchemeType](../../com.aspose.cells/fontschemetype).
+Sets the scheme type of the font.
+See [FontSchemeType](../../com.aspose.cells/fontschemetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -641,7 +653,8 @@ public void setStrikeType(int value)
 ```
 
 
-Gets the strike type of the text. See [TextStrikeType](../../com.aspose.cells/textstriketype).
+Gets the strike type of the text.
+See [TextStrikeType](../../com.aspose.cells/textstriketype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -693,7 +706,11 @@ public void setThemeColor(ThemeColor value)
 ```
 
 
-Sets the theme color. If the font color is not a theme color, NULL will be returned.
+Sets the theme color.
+
+**Remarks**
+
+If the font color is not a theme color, NULL will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -706,7 +723,8 @@ public void setUnderline(int value)
 ```
 
 
-Sets the font underline type. See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
+Sets the font underline type.
+See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
 
 **Parameters:**
 | Parameter | Type | Description |

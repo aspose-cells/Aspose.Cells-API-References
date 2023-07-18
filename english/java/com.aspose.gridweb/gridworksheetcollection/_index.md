@@ -140,7 +140,11 @@ public void clear()
 ```
 
 
-Clear all worksheets. A workbook must contains a worksheet.
+Clear all worksheets.
+
+**Remarks**
+
+A workbook must contains a worksheet.
 
 ### contains(Object o) {#contains-java.lang.Object-}
 ```

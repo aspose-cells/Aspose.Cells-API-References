@@ -12,7 +12,11 @@ java.lang.Object
 public class Range
 ```
 
-Encapsulates the object that represents a range of cells within a spreadsheet. The Range class denotes a region of Excel spreadsheet. With this, you can format and set value of the range. And you can simply copy range of Excel too.
+Encapsulates the object that represents a range of cells within a spreadsheet.
+
+**Remarks**
+
+The Range class denotes a region of Excel spreadsheet. With this, you can format and set value of the range. And you can simply copy range of Excel too.
 
 **Example**
 
@@ -100,7 +104,11 @@ public void applyStyle(Style style, StyleFlag flag)
 ```
 
 
-Applies formats for a whole range. Each cell in this range will contains a [Style](../../com.aspose.cells/style) object. So this is a memory-consuming method. Please use it carefully.
+Applies formats for a whole range.
+
+**Remarks**
+
+Each cell in this range will contains a [Style](../../com.aspose.cells/style) object. So this is a memory-consuming method. Please use it carefully.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -280,7 +288,11 @@ public int getCellCount()
 ```
 
 
-Gets all cell count in the range. NOTE: This property is now obsolete. Instead, please use RowCount and ColumnCount to get total cells count. This property will be removed 12 months later since February 2021. Aspose apologizes for any inconvenience you may have experienced.
+Gets all cell count in the range.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use RowCount and ColumnCount to get total cells count. This property will be removed 12 months later since February 2021. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -416,7 +428,11 @@ public String getName()
 ```
 
 
-Gets the name of the range. Named range is supported. For example,
+Gets the name of the range.
+
+**Remarks**
+
+Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -484,7 +500,11 @@ public Object getValue()
 ```
 
 
-Gets the value of the range. If the range contains multiple cells, the returned/applied object should be Object[][].
+Gets the value of the range.
+
+**Remarks**
+
+If the range contains multiple cells, the returned/applied object should be Object[][].
 
 **Returns:**
 java.lang.Object
@@ -524,7 +544,11 @@ public Range intersect(Range range)
 ```
 
 
-Returns a [Range](../../com.aspose.cells/range) object that represents the rectangular intersection of two ranges. If the two ranges are not intersected, returns null.
+Returns a [Range](../../com.aspose.cells/range) object that represents the rectangular intersection of two ranges.
+
+**Remarks**
+
+If the two ranges are not intersected, returns null.
 
 **Example**
 
@@ -554,7 +578,11 @@ public boolean isIntersect(Range range)
 ```
 
 
-Indicates whether the range is intersect. If the two ranges area not in the same worksheet ,return false.
+Indicates whether the range is intersect.
+
+**Remarks**
+
+If the two ranges area not in the same worksheet ,return false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -569,7 +597,11 @@ public Iterator iterator()
 ```
 
 
-Gets the enumerator for cells in this Range. When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
+Gets the enumerator for cells in this Range.
+
+**Remarks**
+
+When traversing elements by the returned Enumerator, the cells collection should not be modified(such as operations that will cause new Cell/Row be instantiated or existing Cell/Row be deleted). Otherwise the enumerator may not be able to traverse all cells correctly(some elements may be traversed repeatedly or skipped).
 
 **Example**
 
@@ -593,7 +625,11 @@ public void merge()
 ```
 
 
-Combines a range of cells into a single cell. Reference the merged cell via the address of the upper-left cell in the range.
+Combines a range of cells into a single cell.
+
+**Remarks**
+
+Reference the merged cell via the address of the upper-left cell in the range.
 
 ### moveTo(int destRow, int destColumn) {#moveTo-int-int-}
 ```
@@ -674,7 +710,11 @@ public void setName(String value)
 ```
 
 
-Sets the name of the range. Named range is supported. For example,
+Sets the name of the range.
+
+**Remarks**
+
+Named range is supported. For example,
 
 range.Name = "Sheet1!MyRange";
 
@@ -747,7 +787,11 @@ public void setOutlineBorders(int[] borderStyles, Color[] borderColors)
 ```
 
 
-Sets out line borders around a range of cells. Both the length of borderStyles and borderStyles must be 4. The order of borderStyles and borderStyles must be top,bottom,left,right
+Sets out line borders around a range of cells.
+
+**Remarks**
+
+Both the length of borderStyles and borderStyles must be 4. The order of borderStyles and borderStyles must be top,bottom,left,right
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -801,7 +845,11 @@ public void setValue(Object value)
 ```
 
 
-Sets the value of the range. If the range contains multiple cells, the returned/applied object should be Object[][].
+Sets the value of the range.
+
+**Remarks**
+
+If the range contains multiple cells, the returned/applied object should be Object[][].
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -122,7 +122,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [isInArray()](#isInArray--) | Indicates whether the cell formula is an array formula. |
 | [isInTable()](#isInTable--) | Indicates whether this cell is part of table formula. |
 | [isMerged()](#isMerged--) | Checks if a cell is part of a merged range or not. |
-| [isNumericValue()](#isNumericValue--) | Indicates whether the inner value of this cell is numeric(int, double and datetime) Also applies to formula cell to check the calculated result |
+| [isNumericValue()](#isNumericValue--) | Indicates whether the inner value of this cell is numeric(int, double and datetime) |
 | [isRichText()](#isRichText--) | Indicates whether the cell string value is a rich text. |
 | [isSharedFormula()](#isSharedFormula--) | Indicates whether the cell formula is part of shared formula. |
 | [isStyleSet()](#isStyleSet--) | Indicates if the cell's style is set. |
@@ -176,7 +176,11 @@ public void calculate(boolean ignoreError, ICustomFunction customFunction)
 ```
 
 
-Calculates the formula of the cell. NOTE: This member is now obsolete. Instead, please use Calculate(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+Calculates the formula of the cell.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Calculate(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -203,7 +207,11 @@ public FontSetting characters(int startIndex, int length)
 ```
 
 
-Returns a Characters object that represents a range of characters within the cell text. This method only works on cell with string value.
+Returns a Characters object that represents a range of characters within the cell text.
+
+**Remarks**
+
+This method only works on cell with string value.
 
 **Example**
 
@@ -282,7 +290,11 @@ public CellArea getArrayRange()
 ```
 
 
-Gets the array range if the cell's formula is an array formula. Only applies when the cell's formula is an array formula
+Gets the array range if the cell's formula is an array formula.
+
+**Remarks**
+
+Only applies when the cell's formula is an array formula
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea) - The array range.
@@ -347,7 +359,11 @@ public Comment getComment()
 ```
 
 
-Gets the comment of this cell. If there is no comment applies to the cell, returns null.
+Gets the comment of this cell.
+
+**Remarks**
+
+If there is no comment applies to the cell, returns null.
 
 **Returns:**
 [Comment](../../com.aspose.cells/comment)
@@ -357,7 +373,11 @@ public ConditionalFormattingResult getConditionalFormattingResult()
 ```
 
 
-Get the result of the conditional formatting. Returns null if no conditional formatting is applied to this cell,
+Get the result of the conditional formatting.
+
+**Remarks**
+
+Returns null if no conditional formatting is applied to this cell,
 
 **Returns:**
 [ConditionalFormattingResult](../../com.aspose.cells/conditionalformattingresult)
@@ -378,6 +398,8 @@ public Cell[] getDependents(boolean isAll)
 
 
 Get all cells whose formula references to this cell directly.
+
+**Remarks**
 
  *  If one reference containing this cell appears in one cell's formula, that cell will be taken as the dependent of this cell, no matter the reference or this cell is used or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, this formula is still be taken as A2's dependent.
  *  To get those formulas whose calculated results depend on this cell, please use .
@@ -410,7 +432,11 @@ public Iterator getDependentsInCalculation(boolean recursive)
 ```
 
 
-Gets all cells whose calculated result depends on this cell. To use this method, please make sure the workbook has been set with true value for [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned.
+Gets all cells whose calculated result depends on this cell.
+
+**Remarks**
+
+To use this method, please make sure the workbook has been set with true value for [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) and has been fully calculated with this setting. If there is no formula reference to this cell, null will be returned.
 
 **Example**
 
@@ -515,7 +541,11 @@ public String getFormula()
 ```
 
 
-Gets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+Gets a formula of the [Cell](../../com.aspose.cells/cell).
+
+**Remarks**
+
+A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
 
 **Example**
 
@@ -604,7 +634,11 @@ public Iterator getLeafs()
 ```
 
 
-Get all cells which reference to this cell directly and need to be updated when this cell is modified. NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalculation(bool) to get all dependents in calculation chain. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
+Get all cells which reference to this cell directly and need to be updated when this cell is modified.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalculation(bool) to get all dependents in calculation chain. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.util.Iterator - Enumerator to enumerate all dependents(Cell)
@@ -614,7 +648,11 @@ public Iterator getLeafs(boolean recursive)
 ```
 
 
-Get all cells which will be updated when this cell is modified. NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalculation(bool) to get all dependents in calculation chain. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
+Get all cells which will be updated when this cell is modified.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Cell.GetDependentsInCalculation(bool) to get all dependents in calculation chain. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -639,7 +677,11 @@ public String getName()
 ```
 
 
-Gets the name of the cell. A cell name includes its column letter and row number. For example, the name of a cell in row 0 and column 0 is A1.
+Gets the name of the cell.
+
+**Remarks**
+
+A cell name includes its column letter and row number. For example, the name of a cell in row 0 and column 0 is A1.
 
 **Returns:**
 java.lang.String
@@ -649,7 +691,8 @@ public int getNumberCategoryType()
 ```
 
 
-Represents the category type of this cell's number formatting. See [NumberCategoryType](../../com.aspose.cells/numbercategorytype).
+Represents the category type of this cell's number formatting.
+See [NumberCategoryType](../../com.aspose.cells/numbercategorytype).
 
 **Returns:**
 int
@@ -660,6 +703,8 @@ public ReferredAreaCollection getPrecedents()
 
 
 Gets all references appearing in this cell's formula.
+
+**Remarks**
 
  *  Returns null if this is not a formula cell.
  *  All references appearing in this cell's formula will be returned no matter they are referenced or not while calculating. For example, although cell A2 in formula "=IF(TRUE,A1,A2)" is not used while calculating, it is still taken as the formula's precedents.
@@ -702,7 +747,11 @@ public Iterator getPrecedentsInCalculation()
 ```
 
 
-Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. This method can only work with the situation that [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) is true for the workbook and the workbook has been fully calculated. If this cell is not a formula or it does not reference to any other cells, null will be returned.
+Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it.
+
+**Remarks**
+
+This method can only work with the situation that [FormulaSettings.getEnableCalculationChain()](../../com.aspose.cells/formulasettings\#getEnableCalculationChain--) is true for the workbook and the workbook has been fully calculated. If this cell is not a formula or it does not reference to any other cells, null will be returned.
 
 **Example**
 
@@ -784,7 +833,11 @@ public String getStringValueWithoutFormat()
 ```
 
 
-Gets cell's value as string without any format. NOTE: This method is now obsolete. Instead, User should get the value object and format it according to the value type and the specific requirement. This property will be removed 12 months later since December 2020. Aspose apologizes for any inconvenience you may have experienced.
+Gets cell's value as string without any format.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, User should get the value object and format it according to the value type and the specific requirement. This property will be removed 12 months later since December 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String
@@ -794,7 +847,11 @@ public Style getStyle()
 ```
 
 
-Gets the cell style. To change the style of the cell, please call Cell.SetStyle() method after modifying the returned style object. This method is same with [getStyle(boolean)](../../com.aspose.cells/cell\#getStyle-boolean-) with true value for the parameter.
+Gets the cell style.
+
+**Remarks**
+
+To change the style of the cell, please call Cell.SetStyle() method after modifying the returned style object. This method is same with [getStyle(boolean)](../../com.aspose.cells/cell\#getStyle-boolean-) with true value for the parameter.
 
 **Returns:**
 [Style](../../com.aspose.cells/style) - Style object.
@@ -805,6 +862,8 @@ public Style getStyle(boolean checkBorders)
 
 
 If checkBorders is true, check whether other cells' borders will effect the style of this cell.
+
+**Remarks**
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -829,7 +888,8 @@ public int getType()
 ```
 
 
-Represents cell value type. See [CellValueType](../../com.aspose.cells/cellvaluetype).
+Represents cell value type.
+See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
 **Returns:**
 int
@@ -859,7 +919,11 @@ public Object getValue()
 ```
 
 
-Gets the value contained in this cell. Possible type:
+Gets the value contained in this cell.
+
+**Remarks**
+
+Possible type:
 
 null,
 
@@ -953,7 +1017,11 @@ public boolean isErrorValue()
 ```
 
 
-Checks if the value of this cell is an error. Also applies to formula cell to check whether the calculated result is an error.
+Checks if the value of this cell is an error.
+
+**Remarks**
+
+Also applies to formula cell to check whether the calculated result is an error.
 
 **Returns:**
 boolean
@@ -973,7 +1041,11 @@ public boolean isInArray()
 ```
 
 
-Indicates whether the cell formula is an array formula. NOTE: This class is now obsolete. Instead, please use Cell.IsArrayFormula to check whether the cell formula is an array formula. This property will be removed 12 months later since May 2018. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether the cell formula is an array formula.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Cell.IsArrayFormula to check whether the cell formula is an array formula. This property will be removed 12 months later since May 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -983,7 +1055,11 @@ public boolean isInTable()
 ```
 
 
-Indicates whether this cell is part of table formula. NOTE: This class is now obsolete. Instead, please use Cell.IsTableFormula to check whether the cell formula is part of table formula. This property will be removed 12 months later since May 2018. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether this cell is part of table formula.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Cell.IsTableFormula to check whether the cell formula is part of table formula. This property will be removed 12 months later since May 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -1003,7 +1079,11 @@ public boolean isNumericValue()
 ```
 
 
-Indicates whether the inner value of this cell is numeric(int, double and datetime) Also applies to formula cell to check the calculated result
+Indicates whether the inner value of this cell is numeric(int, double and datetime)
+
+**Remarks**
+
+Also applies to formula cell to check the calculated result
 
 **Returns:**
 boolean
@@ -1082,7 +1162,11 @@ public void putValue(DateTime dateTime)
 ```
 
 
-Puts a DateTime value into the cell. Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both ms excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
+Puts a DateTime value into the cell.
+
+**Remarks**
+
+Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both ms excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
 
 **Example**
 
@@ -1220,7 +1304,11 @@ public void setArrayFormula(String arrayFormula, int rowNumber, int columnNumber
 ```
 
 
-Sets an array formula to a range of cells. NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+Sets an array formula to a range of cells.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Cell.SetArrayFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1339,7 +1427,11 @@ public void setFormula(String value)
 ```
 
 
-Sets a formula of the [Cell](../../com.aspose.cells/cell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
+Sets a formula of the [Cell](../../com.aspose.cells/cell).
+
+**Remarks**
+
+A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimiter, such as "=SUM(A1, E1, H2)".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1352,7 +1444,11 @@ public void setFormula(String formula, boolean isR1C1, boolean isLocal, Object v
 ```
 
 
-Set the formula and the value of the formula. NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,FormulaParseOptions,object). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+Set the formula and the value of the formula.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Cell.SetFormula(string,FormulaParseOptions,object). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1438,6 +1534,8 @@ public void setSharedFormula(String sharedFormula, int rowNumber, int columnNumb
 
 Sets shared formulas to a range of cells.
 
+**Remarks**
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1451,7 +1549,11 @@ public void setSharedFormula(String sharedFormula, int rowNumber, int columnNumb
 ```
 
 
-Sets a formula to a range of cells. NOTE: This class is now obsolete. Instead, please use Cell.SetSharedFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
+Sets a formula to a range of cells.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use Cell.SetSharedFormula(string,int,int,FormulaParseOptions). This property will be removed 12 months later since December 2019. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1501,7 +1603,11 @@ public void setStyle(Style style)
 ```
 
 
-Sets the cell style. If the border settings are changed, the border of adjust cells will be updated too.
+Sets the cell style.
+
+**Remarks**
+
+If the border settings are changed, the border of adjust cells will be updated too.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1613,7 +1719,11 @@ public void setValue(Object value)
 ```
 
 
-Gets the value contained in this cell. Possible type:
+Gets the value contained in this cell.
+
+**Remarks**
+
+Possible type:
 
 null,
 

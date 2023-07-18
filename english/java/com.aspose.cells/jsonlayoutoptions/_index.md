@@ -116,7 +116,11 @@ public boolean getIgnoreArrayTitle()
 ```
 
 
-Indicates whether ignore title if array is a property of object. NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether ignore title if array is a property of object.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -136,7 +140,11 @@ public boolean getIgnoreObjectTitle()
 ```
 
 
-Indicates whether ignore title if object is a property of object. NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether ignore title if object is a property of object.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -241,7 +249,11 @@ public void setIgnoreArrayTitle(boolean value)
 ```
 
 
-Indicates whether ignore title if array is a property of object. NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether ignore title if array is a property of object.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +279,11 @@ public void setIgnoreObjectTitle(boolean value)
 ```
 
 
-Indicates whether ignore title if object is a property of object. NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether ignore title if object is a property of object.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use JsonLayoutOptions.IgnoreTitle property instead. This property will be removed 6 months later since February 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

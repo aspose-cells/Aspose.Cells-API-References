@@ -82,7 +82,8 @@ public int getShowType()
 ```
 
 
-Represents the show type of smart tag. See [SmartTagShowType](../../com.aspose.cells/smarttagshowtype).
+Represents the show type of smart tag.
+See [SmartTagShowType](../../com.aspose.cells/smarttagshowtype).
 
 **Returns:**
 int
@@ -131,7 +132,8 @@ public void setShowType(int value)
 ```
 
 
-Represents the show type of smart tag. See [SmartTagShowType](../../com.aspose.cells/smarttagshowtype).
+Represents the show type of smart tag.
+See [SmartTagShowType](../../com.aspose.cells/smarttagshowtype).
 
 **Parameters:**
 | Parameter | Type | Description |

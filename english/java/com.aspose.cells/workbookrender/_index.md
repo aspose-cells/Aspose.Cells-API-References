@@ -13,6 +13,8 @@ public class WorkbookRender
 ```
 
 Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style.
+
+**Remarks**
 ## Constructors
 
 | Constructor | Description |
@@ -35,7 +37,7 @@ Represents a Workbook render. The constructor of this class , must be used after
 | [toImage(OutputStream stream)](#toImage-java.io.OutputStream-) | Render whole workbook as Tiff Image to stream. |
 | [toImage(String filename)](#toImage-java.lang.String-) | Render whole workbook as Tiff Image to a file. |
 | [toPrinter(String printerName)](#toPrinter-java.lang.String-) | Render workbook to Printer |
-| [toPrinter(String printerName, int printPageIndex, int printPageCount)](#toPrinter-java.lang.String-int-int-) | Render workbook to Printer NOTE: This method is now obsolete. |
+| [toPrinter(String printerName, int printPageIndex, int printPageCount)](#toPrinter-java.lang.String-int-int-) | Render workbook to Printer |
 | [toPrinter(String printerName, String jobName)](#toPrinter-java.lang.String-java.lang.String-) | Render workbook to Printer |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -218,7 +220,11 @@ public void toPrinter(String printerName, int printPageIndex, int printPageCount
 ```
 
 
-Render workbook to Printer NOTE: This method is now obsolete. Instead, please use ToPrinter(string PrinterName) and ImageOrPrintOptions.PageIndex, PageCount to set the first page and the number of pages to print. This property will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
+Render workbook to Printer
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use ToPrinter(string PrinterName) and ImageOrPrintOptions.PageIndex, PageCount to set the first page and the number of pages to print. This property will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

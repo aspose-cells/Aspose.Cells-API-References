@@ -42,7 +42,11 @@ public GridValidation add()
 ```
 
 
-Add a [GridValidation](../../com.aspose.gridweb/gridvalidation) to the collection. NOTE: This member is now obsolete. Instead, please use GridValidationCollection.Add(row,col) method. This property will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
+Add a [GridValidation](../../com.aspose.gridweb/gridvalidation) to the collection.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use GridValidationCollection.Add(row,col) method. This property will be removed 12 months later since JANUARY 2015. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [GridValidation](../../com.aspose.gridweb/gridvalidation) - [GridValidation](../../com.aspose.gridweb/gridvalidation) the added GridValidation instance.

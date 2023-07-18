@@ -31,7 +31,7 @@ Represents the options for loading text file.
 | [getConvertNumericData()](#getConvertNumericData--) | Gets a value that indicates whether the string in text file is converted to numeric data. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getExtendToNextSheet()](#getExtendToNextSheet--) | Whether extends data to next sheet when the rows or columns of data exceed limit. |
-| [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
 | [getKeepPrecision()](#getKeepPrecision--) | Indicates whether not parsing a string value if the length is 15. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
@@ -57,7 +57,7 @@ Represents the options for loading text file.
 | [setExtendToNextSheet(boolean value)](#setExtendToNextSheet-boolean-) | Whether extends data to next sheet when the rows or columns of data exceed limit. |
 | [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
 | [setHasTextQualifier(boolean value)](#setHasTextQualifier-boolean-) | Whether there is text qualifier for cell value. |
-| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
+| [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file |
 | [setKeepPrecision(boolean value)](#setKeepPrecision-boolean-) | Indicates whether not parsing a string value if the length is 15. |
 | [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
 | [setMultiEncoded(boolean value)](#setMultiEncoded-boolean-) | True means that the file contains several encoding. |
@@ -79,7 +79,11 @@ public GridTxtLoadOptions()
 ```
 
 
-Creates the options for loading text file. The default load file type is CSV .
+Creates the options for loading text file.
+
+**Remarks**
+
+The default load file type is CSV .
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -102,7 +106,11 @@ public boolean getAutoFilter()
 ```
 
 
-Indicates whether auto filtering the data when loading the files. Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
+Indicates whether auto filtering the data when loading the files.
+
+**Remarks**
+
+Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
 **Returns:**
 boolean
@@ -182,7 +190,11 @@ public boolean getIgnoreNotPrinted()
 ```
 
 
-Ignore the data which are not printed if directly printing the file Only for xlsx file.
+Ignore the data which are not printed if directly printing the file
+
+**Remarks**
+
+Only for xlsx file.
 
 **Returns:**
 boolean
@@ -202,7 +214,11 @@ public boolean getKeepUnparsedData()
 ```
 
 
-Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.
+
+**Remarks**
+
+For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
 
 **Returns:**
 boolean
@@ -212,7 +228,11 @@ public boolean getParsingFormulaOnOpen()
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
 **Returns:**
 boolean
@@ -222,7 +242,11 @@ public boolean getParsingPivotCachedRecords()
 ```
 
 
-Indicates whether parsing pivot cached records when loading the file. The default value is false. Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
+Indicates whether parsing pivot cached records when loading the file. The default value is false.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 **Returns:**
 boolean
@@ -262,7 +286,11 @@ public char getTextQualifier()
 ```
 
 
-Specifies the text qualifier for cell values. Default qualifier is '"'. When setting this property, [hasTextQualifier()](../../com.aspose.gridweb/gridtxtloadoptions\#hasTextQualifier--) will become true automatically.
+Specifies the text qualifier for cell values. Default qualifier is '"'.
+
+**Remarks**
+
+When setting this property, [hasTextQualifier()](../../com.aspose.gridweb/gridtxtloadoptions\#hasTextQualifier--) will become true automatically.
 
 **Returns:**
 char
@@ -348,7 +376,11 @@ public void setAutoFilter(boolean value)
 ```
 
 
-Indicates whether auto filtering the data when loading the files. Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
+Indicates whether auto filtering the data when loading the files.
+
+**Remarks**
+
+Sometimes although autofilter is set, the corresponding rows is not hidden in the file. Now only works for SpreadSheetML file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -465,7 +497,11 @@ public void setIgnoreNotPrinted(boolean value)
 ```
 
 
-Ignore the data which are not printed if directly printing the file Only for xlsx file.
+Ignore the data which are not printed if directly printing the file
+
+**Remarks**
+
+Only for xlsx file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -491,7 +527,11 @@ public void setKeepUnparsedData(boolean value)
 ```
 
 
-Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true. For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. Default is true.
+
+**Remarks**
+
+For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -517,7 +557,11 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -530,7 +574,11 @@ public void setParsingPivotCachedRecords(boolean value)
 ```
 
 
-Indicates whether parsing pivot cached records when loading the file. The default value is false. Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
+Indicates whether parsing pivot cached records when loading the file. The default value is false.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm , Xlsm and xlsb file
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -582,7 +630,11 @@ public void setTextQualifier(char value)
 ```
 
 
-Specifies the text qualifier for cell values. Default qualifier is '"'. When setting this property, [hasTextQualifier()](../../com.aspose.gridweb/gridtxtloadoptions\#hasTextQualifier--) will become true automatically.
+Specifies the text qualifier for cell values. Default qualifier is '"'.
+
+**Remarks**
+
+When setting this property, [hasTextQualifier()](../../com.aspose.gridweb/gridtxtloadoptions\#hasTextQualifier--) will become true automatically.
 
 **Parameters:**
 | Parameter | Type | Description |

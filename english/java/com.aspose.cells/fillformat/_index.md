@@ -64,7 +64,8 @@ Encapsulates the object that represents fill formatting for a shape.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getFillType()](#getFillType--) | Gets fill type See [FillType](../../com.aspose.cells/filltype). |
+| [getFillType()](#getFillType--) | Gets fill type
+See [FillType](../../com.aspose.cells/filltype). |
 | [getGradientColor1()](#getGradientColor1--) | Returns the gradient color 1 for the specified fill. |
 | [getGradientColor2()](#getGradientColor2--) | Returns the gradient color 2 for the specified fill. |
 | [getGradientColorType()](#getGradientColorType--) | Returns the gradient color type for the specified fill. |
@@ -87,7 +88,8 @@ Encapsulates the object that represents fill formatting for a shape.
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFillType(int value)](#setFillType-int-) | Sets fill type See [FillType](../../com.aspose.cells/filltype). |
+| [setFillType(int value)](#setFillType-int-) | Sets fill type
+See [FillType](../../com.aspose.cells/filltype). |
 | [setImageData(byte[] value)](#setImageData-byte---) | Sets the picture image data. |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
 | [setPattern(int value)](#setPattern-int-) | Represents an area's display pattern. |
@@ -135,7 +137,8 @@ public int getFillType()
 ```
 
 
-Gets fill type See [FillType](../../com.aspose.cells/filltype).
+Gets fill type
+See [FillType](../../com.aspose.cells/filltype).
 
 **Returns:**
 int
@@ -155,7 +158,11 @@ public Color getGradientColor2()
 ```
 
 
-Returns the gradient color 2 for the specified fill. Only when the gradient color type is GradientColorType.TwoColors, this property is meaningful.
+Returns the gradient color 2 for the specified fill.
+
+**Remarks**
+
+Only when the gradient color type is GradientColorType.TwoColors, this property is meaningful.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -165,7 +172,8 @@ public int getGradientColorType()
 ```
 
 
-Returns the gradient color type for the specified fill. See [GradientColorType](../../com.aspose.cells/gradientcolortype).
+Returns the gradient color type for the specified fill.
+See [GradientColorType](../../com.aspose.cells/gradientcolortype).
 
 **Returns:**
 int
@@ -175,7 +183,11 @@ public double getGradientDegree()
 ```
 
 
-Returns the gradient degree for the specified fill. Only applies for Excel 2007. Can only be a value from 0.0 (dark) through 1.0 (light).
+Returns the gradient degree for the specified fill. Only applies for Excel 2007.
+
+**Remarks**
+
+Can only be a value from 0.0 (dark) through 1.0 (light).
 
 **Returns:**
 double
@@ -195,7 +207,8 @@ public int getGradientStyle()
 ```
 
 
-Returns the gradient style for the specified fill. See [GradientStyleType](../../com.aspose.cells/gradientstyletype).
+Returns the gradient style for the specified fill.
+See [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Returns:**
 int
@@ -205,7 +218,11 @@ public int getGradientVariant()
 ```
 
 
-Returns the gradient variant for the specified fill. Only applies for Excel 2007. Can only be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2.
+Returns the gradient variant for the specified fill. Only applies for Excel 2007.
+
+**Remarks**
+
+Can only be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2.
 
 **Returns:**
 int
@@ -215,7 +232,11 @@ public byte[] getImageData()
 ```
 
 
-Gets the picture image data. If the fill format is not custom texture format, returns null.
+Gets the picture image data.
+
+**Remarks**
+
+If the fill format is not custom texture format, returns null.
 
 **Returns:**
 byte[]
@@ -225,7 +246,8 @@ public int getPattern()
 ```
 
 
-Represents an area's display pattern. See [FillPattern](../../com.aspose.cells/fillpattern).
+Represents an area's display pattern.
+See [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Returns:**
 int
@@ -245,7 +267,8 @@ public int getPictureFormatType()
 ```
 
 
-Gets the picture format type. See [FillPictureType](../../com.aspose.cells/fillpicturetype).
+Gets the picture format type.
+See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Returns:**
 int
@@ -255,7 +278,8 @@ public int getPresetColor()
 ```
 
 
-Returns the gradient preset color for the specified fill. See [GradientPresetType](../../com.aspose.cells/gradientpresettype).
+Returns the gradient preset color for the specified fill.
+See [GradientPresetType](../../com.aspose.cells/gradientpresettype).
 
 **Returns:**
 int
@@ -275,7 +299,12 @@ public int getSetType()
 ```
 
 
-Gets the fill format set type. See [FormatSetType](../../com.aspose.cells/formatsettype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the fill format set type.
+See [FormatSetType](../../com.aspose.cells/formatsettype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -295,7 +324,8 @@ public int getTexture()
 ```
 
 
-Represents the texture type for the specified fill. See [TextureType](../../com.aspose.cells/texturetype).
+Represents the texture type for the specified fill.
+See [TextureType](../../com.aspose.cells/texturetype).
 
 **Returns:**
 int
@@ -325,7 +355,12 @@ public int getType()
 ```
 
 
-Gets the fill type. See [FillType](../../com.aspose.cells/filltype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the fill type.
+See [FillType](../../com.aspose.cells/filltype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -361,7 +396,8 @@ public void setFillType(int value)
 ```
 
 
-Sets fill type See [FillType](../../com.aspose.cells/filltype).
+Sets fill type
+See [FillType](../../com.aspose.cells/filltype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -374,7 +410,11 @@ public void setImageData(byte[] value)
 ```
 
 
-Sets the picture image data. If the fill format is not custom texture format, returns null.
+Sets the picture image data.
+
+**Remarks**
+
+If the fill format is not custom texture format, returns null.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -403,7 +443,8 @@ public void setPattern(int value)
 ```
 
 
-Represents an area's display pattern. See [FillPattern](../../com.aspose.cells/fillpattern).
+Represents an area's display pattern.
+See [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -416,7 +457,8 @@ public void setPictureFormatType(int value)
 ```
 
 
-Sets the picture format type. See [FillPictureType](../../com.aspose.cells/fillpicturetype).
+Sets the picture format type.
+See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -457,7 +499,12 @@ public void setSetType(int value)
 ```
 
 
-Gets the fill format set type. See [FormatSetType](../../com.aspose.cells/formatsettype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Gets the fill format set type.
+See [FormatSetType](../../com.aspose.cells/formatsettype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -470,7 +517,8 @@ public void setTexture(int value)
 ```
 
 
-Represents the texture type for the specified fill. See [TextureType](../../com.aspose.cells/texturetype).
+Represents the texture type for the specified fill.
+See [TextureType](../../com.aspose.cells/texturetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -530,7 +578,12 @@ public void setType(int value)
 ```
 
 
-Sets the fill type. See [FillType](../../com.aspose.cells/filltype). NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
+Sets the fill type.
+See [FillType](../../com.aspose.cells/filltype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FillFormat.FillType property instead. This property will be removed 12 months later since July 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

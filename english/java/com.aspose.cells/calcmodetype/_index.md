@@ -12,7 +12,11 @@ java.lang.Object
 public final class CalcModeType
 ```
 
-Represents the mode type of calculating formulas. Only sets for MS Excel.
+Represents the mode type of calculating formulas.
+
+**Remarks**
+
+Only sets for MS Excel.
 ## Fields
 
 | Field | Description |

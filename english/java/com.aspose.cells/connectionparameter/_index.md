@@ -111,7 +111,8 @@ public int getSqlType()
 ```
 
 
-SQL data type of the parameter. Only valid for ODBC sources. See [SqlDataType](../../com.aspose.cells/sqldatatype).
+SQL data type of the parameter. Only valid for ODBC sources.
+See [SqlDataType](../../com.aspose.cells/sqldatatype).
 
 **Returns:**
 int
@@ -121,7 +122,8 @@ public int getType()
 ```
 
 
-Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of \{boolean, double, integer, or string\} will be specified. See [ConnectionParameterType](../../com.aspose.cells/connectionparametertype).
+Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of \{boolean, double, integer, or string\} will be specified.
+See [ConnectionParameterType](../../com.aspose.cells/connectionparametertype).
 
 **Returns:**
 int
@@ -219,7 +221,8 @@ public void setSqlType(int value)
 ```
 
 
-SQL data type of the parameter. Only valid for ODBC sources. See [SqlDataType](../../com.aspose.cells/sqldatatype).
+SQL data type of the parameter. Only valid for ODBC sources.
+See [SqlDataType](../../com.aspose.cells/sqldatatype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,7 +235,8 @@ public void setType(int value)
 ```
 
 
-Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of \{boolean, double, integer, or string\} will be specified. See [ConnectionParameterType](../../com.aspose.cells/connectionparametertype).
+Type of parameter used. If the parameterType=value, then the value from boolean, double, integer, or string will be used. In this case, it is expected that only one of \{boolean, double, integer, or string\} will be specified.
+See [ConnectionParameterType](../../com.aspose.cells/connectionparametertype).
 
 **Parameters:**
 | Parameter | Type | Description |

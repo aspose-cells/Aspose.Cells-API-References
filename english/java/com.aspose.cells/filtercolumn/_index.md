@@ -87,7 +87,8 @@ public int getFilterType()
 ```
 
 
-Gets the type fo filtering data. See [FilterType](../../com.aspose.cells/filtertype).
+Gets the type fo filtering data.
+See [FilterType](../../com.aspose.cells/filtertype).
 
 **Returns:**
 int
@@ -97,7 +98,11 @@ public boolean getVisibledropdown()
 ```
 
 
-Indicates whether the AutoFilter button for this column is visible. NOTE: This member is now obsolete. Instead, please use FilterColumn.IsDropdownVisible to check whether the AutoFilter button for this column is visible. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether the AutoFilter button for this column is visible.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FilterColumn.IsDropdownVisible to check whether the AutoFilter button for this column is visible. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -182,7 +187,8 @@ public void setFilterType(int value)
 ```
 
 
-Sets the type fo filtering data. See [FilterType](../../com.aspose.cells/filtertype).
+Sets the type fo filtering data.
+See [FilterType](../../com.aspose.cells/filtertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +201,11 @@ public void setVisibledropdown(boolean value)
 ```
 
 
-Indicates whether the AutoFilter button for this column is visible. NOTE: This member is now obsolete. Instead, please use FilterColumn.IsDropdownVisible to check whether the AutoFilter button for this column is visible. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether the AutoFilter button for this column is visible.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FilterColumn.IsDropdownVisible to check whether the AutoFilter button for this column is visible. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

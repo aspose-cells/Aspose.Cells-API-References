@@ -123,7 +123,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -153,7 +157,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -173,7 +181,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format.
+See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -223,7 +232,11 @@ public boolean getUpdateSmartArt()
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Returns:**
 boolean
@@ -233,7 +246,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -325,7 +342,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -377,7 +398,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -455,7 +480,11 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -468,7 +497,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

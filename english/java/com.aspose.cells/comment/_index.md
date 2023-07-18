@@ -306,7 +306,11 @@ public String getHtmlNote()
 ```
 
 
-Gets the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+Gets the html string which contains data and some formats in this comment.
+
+**Remarks**
+
+If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Example**
 
@@ -322,7 +326,11 @@ public String getNote()
 ```
 
 
-Represents the content of comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+Represents the content of comment.
+
+**Remarks**
+
+If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Example**
 
@@ -354,7 +362,8 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets the text horizontal alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text horizontal alignment type of the comment.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -373,7 +382,8 @@ public int getTextOrientationType()
 ```
 
 
-Gets the text orientation type of the comment. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Gets the text orientation type of the comment.
+See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Example**
 
@@ -392,7 +402,8 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets the text vertical alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text vertical alignment type of the comment.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -609,7 +620,11 @@ public void setHtmlNote(String value)
 ```
 
 
-Sets the html string which contains data and some formats in this comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+Sets the html string which contains data and some formats in this comment.
+
+**Remarks**
+
+If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +637,11 @@ public void setNote(String value)
 ```
 
 
-Represents the content of comment. If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
+Represents the content of comment.
+
+**Remarks**
+
+If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -635,7 +654,8 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Sets the text horizontal alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text horizontal alignment type of the comment.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -648,7 +668,8 @@ public void setTextOrientationType(int value)
 ```
 
 
-Sets the text orientation type of the comment. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Sets the text orientation type of the comment.
+See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -661,7 +682,8 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Sets the text vertical alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text vertical alignment type of the comment.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

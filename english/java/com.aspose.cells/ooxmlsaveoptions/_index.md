@@ -137,7 +137,12 @@ public int getCompressionType()
 ```
 
 
-Gets the compression type for ooxml file. See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level2.
+Gets the compression type for ooxml file.
+See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype).
+
+**Remarks**
+
+The default value is OoxmlCompressionType.Level2.
 
 **Returns:**
 int
@@ -147,7 +152,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -157,7 +166,11 @@ public boolean getEmbedOoxmlAsOleObject()
 ```
 
 
-Indicates whether embedding Ooxml files of OleObject as ole object. Only for OleObject.
+Indicates whether embedding Ooxml files of OleObject as ole object.
+
+**Remarks**
+
+Only for OleObject.
 
 **Returns:**
 boolean
@@ -197,7 +210,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -217,7 +234,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format.
+See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -247,7 +265,11 @@ public boolean getUpdateSmartArt()
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Returns:**
 boolean
@@ -257,7 +279,11 @@ public boolean getUpdateZoom()
 ```
 
 
-Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. The default value is false for performance.
+Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled.
+
+**Remarks**
+
+The default value is false for performance.
 
 **Returns:**
 boolean
@@ -267,7 +293,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -339,7 +369,12 @@ public void setCompressionType(int value)
 ```
 
 
-Sets the compression type for ooxml file. See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level2.
+Sets the compression type for ooxml file.
+See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype).
+
+**Remarks**
+
+The default value is OoxmlCompressionType.Level2.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -352,7 +387,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,7 +404,11 @@ public void setEmbedOoxmlAsOleObject(boolean value)
 ```
 
 
-Indicates whether embedding Ooxml files of OleObject as ole object. Only for OleObject.
+Indicates whether embedding Ooxml files of OleObject as ole object.
+
+**Remarks**
+
+Only for OleObject.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,7 +460,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +516,11 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -482,7 +533,11 @@ public void setUpdateZoom(boolean value)
 ```
 
 
-Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. The default value is false for performance.
+Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled.
+
+**Remarks**
+
+The default value is false for performance.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -495,7 +550,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

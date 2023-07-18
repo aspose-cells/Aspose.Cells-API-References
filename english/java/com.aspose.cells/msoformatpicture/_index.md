@@ -79,7 +79,11 @@ public double getBrightness()
 ```
 
 
-Represents the brightness modification for the picture in unit of percentage. It is between -100% and 100%. It works same as Excel 2007 or above version.
+Represents the brightness modification for the picture in unit of percentage.
+
+**Remarks**
+
+It is between -100% and 100%. It works same as Excel 2007 or above version.
 
 **Returns:**
 double
@@ -99,7 +103,11 @@ public double getContrast()
 ```
 
 
-Represents the contrast modification for the picture.in unit of percentage. It is between -100% and 100%. It works same as Excel 2007 or above version.
+Represents the contrast modification for the picture.in unit of percentage.
+
+**Remarks**
+
+It is between -100% and 100%. It works same as Excel 2007 or above version.
 
 **Returns:**
 double
@@ -241,7 +249,11 @@ public void setBrightness(double value)
 ```
 
 
-Represents the brightness modification for the picture in unit of percentage. It is between -100% and 100%. It works same as Excel 2007 or above version.
+Represents the brightness modification for the picture in unit of percentage.
+
+**Remarks**
+
+It is between -100% and 100%. It works same as Excel 2007 or above version.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +266,11 @@ public void setContrast(double value)
 ```
 
 
-Represents the contrast modification for the picture.in unit of percentage. It is between -100% and 100%. It works same as Excel 2007 or above version.
+Represents the contrast modification for the picture.in unit of percentage.
+
+**Remarks**
+
+It is between -100% and 100%. It works same as Excel 2007 or above version.
 
 **Parameters:**
 | Parameter | Type | Description |

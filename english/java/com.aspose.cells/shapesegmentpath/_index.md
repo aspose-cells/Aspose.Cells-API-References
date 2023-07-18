@@ -20,7 +20,8 @@ Represents a segment path in a path of the freeform.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getPoints()](#getPoints--) | Gets the points in path segment |
-| [getType()](#getType--) | Gets the path segment type See [ShapePathType](../../com.aspose.cells/shapepathtype). |
+| [getType()](#getType--) | Gets the path segment type
+See [ShapePathType](../../com.aspose.cells/shapepathtype). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -69,7 +70,8 @@ public int getType()
 ```
 
 
-Gets the path segment type See [ShapePathType](../../com.aspose.cells/shapepathtype).
+Gets the path segment type
+See [ShapePathType](../../com.aspose.cells/shapepathtype).
 
 **Returns:**
 int

@@ -150,7 +150,11 @@ public String getName()
 ```
 
 
-Gets the name of the column. If sets the name of the column, the according cell' value will be changed too.
+Gets the name of the column.
+
+**Remarks**
+
+If sets the name of the column, the according cell' value will be changed too.
 
 **Returns:**
 java.lang.String
@@ -170,7 +174,8 @@ public int getTotalsCalculation()
 ```
 
 
-Gets the type of calculation in the Totals row of the list column. See [TotalsCalculation](../../com.aspose.cells/totalscalculation).
+Gets the type of calculation in the Totals row of the list column.
+See [TotalsCalculation](../../com.aspose.cells/totalscalculation).
 
 **Returns:**
 int
@@ -272,7 +277,11 @@ public void setName(String value)
 ```
 
 
-Sets the name of the column. If sets the name of the column, the according cell' value will be changed too.
+Sets the name of the column.
+
+**Remarks**
+
+If sets the name of the column, the according cell' value will be changed too.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -285,7 +294,8 @@ public void setTotalsCalculation(int value)
 ```
 
 
-Sets the type of calculation in the Totals row of the list column. See [TotalsCalculation](../../com.aspose.cells/totalscalculation).
+Sets the type of calculation in the Totals row of the list column.
+See [TotalsCalculation](../../com.aspose.cells/totalscalculation).
 
 **Parameters:**
 | Parameter | Type | Description |

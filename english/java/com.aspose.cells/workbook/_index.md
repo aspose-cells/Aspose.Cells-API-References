@@ -12,7 +12,11 @@ java.lang.Object
 public class Workbook
 ```
 
-Represents a root object to create an Excel spreadsheet. The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks, converting Excel to PDF, rendering Excel to image and protecting the Excel spreadsheet.
+Represents a root object to create an Excel spreadsheet.
+
+**Remarks**
+
+The Workbook class denotes an Excel spreadsheet. Each spreadsheet can contain multiple worksheets. The basic feature of the class is to open and save native excel files. The class has some advanced features like copying data from other Workbooks, combining two Workbooks, converting Excel to PDF, rendering Excel to image and protecting the Excel spreadsheet.
 
 **Example**
 
@@ -155,7 +159,11 @@ public Workbook()
 ```
 
 
-Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
+Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class.
+
+**Remarks**
+
+The default file format type is Xlsx. If you want to create other types of files, please use Workbook(FileFormatType).
 
 **Example**
 
@@ -171,7 +179,11 @@ public Workbook(int fileFormatType)
 ```
 
 
-Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. The default file format type is Excel97To2003.
+Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class.
+
+**Remarks**
+
+The default file format type is Excel97To2003.
 
 **Example**
 
@@ -254,7 +266,11 @@ public void addDigitalSignature(DigitalSignatureCollection digitalSignatureColle
 ```
 
 
-Adds digital signature to an OOXML spreadsheet file (Excel2007 and later). Only support adding Xmldsig Digital Signature to an OOXML spreadsheet file
+Adds digital signature to an OOXML spreadsheet file (Excel2007 and later).
+
+**Remarks**
+
+Only support adding Xmldsig Digital Signature to an OOXML spreadsheet file
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +283,11 @@ public void calculateFormula()
 ```
 
 
-Calculates the result of formulas. For all supported formulas, please see the list at https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions
+Calculates the result of formulas.
+
+**Remarks**
+
+For all supported formulas, please see the list at https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions
 
 ### calculateFormula(boolean ignoreError) {#calculateFormula-boolean-}
 ```
@@ -288,7 +308,11 @@ public void calculateFormula(boolean ignoreError, ICustomFunction customFunction
 ```
 
 
-Calculates the result of formulas. NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+Calculates the result of formulas.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,6 +340,8 @@ public void changePalette(Color color, int index)
 
 
 Changes the palette for the spreadsheet in the specified index.
+
+**Remarks**
 
 The palette has 56 entries, each represented by an RGB value.
 
@@ -411,7 +437,11 @@ public void combine(Workbook secondWorkbook)
 ```
 
 
-Combines another Workbook object. Merge Excel, ODS , CSV and other files to one file.
+Combines another Workbook object.
+
+**Remarks**
+
+Merge Excel, ODS , CSV and other files to one file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -437,7 +467,11 @@ public void copy(Workbook source, CopyOptions copyOptions)
 ```
 
 
-Copies another Workbook object. It's very simple to clone an Excel file.
+Copies another Workbook object.
+
+**Remarks**
+
+It's very simple to clone an Excel file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -499,7 +533,11 @@ public void customTheme(String themeName, Color[] colors)
 ```
 
 
-Customs the theme. The length of colors should be 12.
+Customs the theme.
+
+**Remarks**
+
+The length of colors should be 12.
 
     | ----------- | ------------------ |
     | Array index | Theme type         |
@@ -594,7 +632,11 @@ public String getAbsolutePath()
 ```
 
 
-Gets the absolute path of the file. Only used for external links.
+Gets the absolute path of the file.
+
+**Remarks**
+
+Only used for external links.
 
 **Returns:**
 java.lang.String
@@ -604,7 +646,11 @@ public BuiltInDocumentPropertyCollection getBuiltInDocumentProperties()
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the built-in document properties of the spreadsheet. A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list:
+Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the built-in document properties of the spreadsheet.
+
+**Remarks**
+
+A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list:
 
 Title
 
@@ -698,7 +744,11 @@ public Color[] getColors()
 ```
 
 
-Returns colors in the palette for the spreadsheet. The palette has 56 entries, each represented by an RGB value.
+Returns colors in the palette for the spreadsheet.
+
+**Remarks**
+
+The palette has 56 entries, each represented by an RGB value.
 
 **Returns:**
 com.aspose.cells.Color[]
@@ -785,7 +835,11 @@ public Style getDefaultStyle()
 ```
 
 
-Gets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
+Gets the default [Style](../../com.aspose.cells/style) object of the workbook.
+
+**Remarks**
+
+The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 **Example**
 
@@ -816,7 +870,8 @@ public int getFileFormat()
 ```
 
 
-Gets the file format. See [FileFormatType](../../com.aspose.cells/fileformattype).
+Gets the file format.
+See [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Returns:**
 int
@@ -826,7 +881,11 @@ public String getFileName()
 ```
 
 
-Gets the current file name. If the file is opened by stream and there are some external formula references, please set the file name.
+Gets the current file name.
+
+**Remarks**
+
+If the file is opened by stream and there are some external formula references, please set the file name.
 
 **Returns:**
 java.lang.String
@@ -906,7 +965,11 @@ public Style getStyleInPool(int index)
 ```
 
 
-Gets the style in the style pool. All styles in the workbook will be gathered into a pool. There is only a simple reference index in the cells. If the returned style is changed, the style of all cells(which refers to this style) will be changed.
+Gets the style in the style pool. All styles in the workbook will be gathered into a pool. There is only a simple reference index in the cells.
+
+**Remarks**
+
+If the returned style is changed, the style of all cells(which refers to this style) will be changed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -966,7 +1029,11 @@ public boolean hasExernalLinks()
 ```
 
 
-Indicates whether this workbook contains external links to other data sources. NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Count to check whether there are external links in this workbook. This method will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether this workbook contains external links to other data sources.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Count to check whether there are external links in this workbook. This method will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean - Whether this workbook contains external links to other data sources.
@@ -1186,7 +1253,11 @@ public void removeExternalLinks()
 ```
 
 
-Removes all external links in the workbook. NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Clear() method. This method will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
+Removes all external links in the workbook.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ExternalLinkCollection.Clear() method. This method will be removed 12 months later since December 2021. Aspose apologizes for any inconvenience you may have experienced.
 
 ### removeMacro() {#removeMacro--}
 ```
@@ -1488,7 +1559,11 @@ public void setAbsolutePath(String value)
 ```
 
 
-Sets the absolute path of the file. Only used for external links.
+Sets the absolute path of the file.
+
+**Remarks**
+
+Only used for external links.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1501,7 +1576,11 @@ public void setDefaultStyle(Style value)
 ```
 
 
-Sets the default [Style](../../com.aspose.cells/style) object of the workbook. The DefaultStyle property is useful to implement a Style for the whole Workbook.
+Sets the default [Style](../../com.aspose.cells/style) object of the workbook.
+
+**Remarks**
+
+The DefaultStyle property is useful to implement a Style for the whole Workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1514,7 +1593,11 @@ public void setDigitalSignature(DigitalSignatureCollection digitalSignatureColle
 ```
 
 
-Sets digital signature to an spreadsheet file (Excel2007 and later). Only support adding Xmldsig Digital Signature
+Sets digital signature to an spreadsheet file (Excel2007 and later).
+
+**Remarks**
+
+Only support adding Xmldsig Digital Signature
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1541,7 +1624,8 @@ public void setFileFormat(int value)
 ```
 
 
-Sets the file format. See [FileFormatType](../../com.aspose.cells/fileformattype).
+Sets the file format.
+See [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1554,7 +1638,11 @@ public void setFileName(String value)
 ```
 
 
-Sets the current file name. If the file is opened by stream and there are some external formula references, please set the file name.
+Sets the current file name.
+
+**Remarks**
+
+If the file is opened by stream and there are some external formula references, please set the file name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1607,7 +1695,11 @@ public void startAccessCache(int opts)
 ```
 
 
-Starts the session that uses caches to access data. If the cache of specified data access requires some data models in worksheet to be "read-only", then corresponding data models in every worksheet in this workbook will be taken as "read-only" and user should not change any of them.
+Starts the session that uses caches to access data.
+
+**Remarks**
+
+If the cache of specified data access requires some data models in worksheet to be "read-only", then corresponding data models in every worksheet in this workbook will be taken as "read-only" and user should not change any of them.
 
 After finishing the access to the data, [closeAccessCache(int)](../../com.aspose.cells/workbook\#closeAccessCache-int-) should be invoked with same options to clear all caches and recover normal access mode.
 
@@ -1660,7 +1752,11 @@ public void updateLinkedDataSource(Workbook[] externalWorkbooks)
 ```
 
 
-If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources. If corresponding external link cannot be found for one workbook, then this workbook will be ignored. So when you set a formula later with one new external link which you intend to make the ignored workbook be linked to it, the link cannot be performed until you call this this method again with those workbooks.
+If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources.
+
+**Remarks**
+
+If corresponding external link cannot be found for one workbook, then this workbook will be ignored. So when you set a formula later with one new external link which you intend to make the ignored workbook be linked to it, the link cannot be performed until you call this this method again with those workbooks.
 
 **Parameters:**
 | Parameter | Type | Description |

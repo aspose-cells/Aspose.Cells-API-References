@@ -139,7 +139,11 @@ public Style getStyle()
 ```
 
 
-Gets the style of this column. Modifying the returned style object directly takes no effect for this column or any cells in this column. You have to call [applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-) or [setStyle(Style)](../../com.aspose.cells/column\#setStyle-Style-) method to apply the change to this column.
+Gets the style of this column.
+
+**Remarks**
+
+Modifying the returned style object directly takes no effect for this column or any cells in this column. You have to call [applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-) or [setStyle(Style)](../../com.aspose.cells/column\#setStyle-Style-) method to apply the change to this column.
 
 Column's style is the style which will be inherited by cells in this column(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
@@ -151,7 +155,11 @@ public double getWidth()
 ```
 
 
-Gets the column width in unit of characters. For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
+Gets the column width in unit of characters.
+
+**Remarks**
+
+For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 
 **Returns:**
 double
@@ -256,7 +264,11 @@ public void setStyle(Style style)
 ```
 
 
-Sets the style of this column. This method only sets the given style as the default style for this column, without changing the style settings for existing cells in this column. To update style settings of existing cells to the specified style at the same time, please use [applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-)
+Sets the style of this column.
+
+**Remarks**
+
+This method only sets the given style as the default style for this column, without changing the style settings for existing cells in this column. To update style settings of existing cells to the specified style at the same time, please use [applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-)
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,7 +281,11 @@ public void setWidth(double value)
 ```
 
 
-Sets the column width in unit of characters. For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
+Sets the column width in unit of characters.
+
+**Remarks**
+
+For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
 
 **Parameters:**
 | Parameter | Type | Description |

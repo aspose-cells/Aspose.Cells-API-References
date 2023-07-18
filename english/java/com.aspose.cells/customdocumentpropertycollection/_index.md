@@ -14,6 +14,8 @@ public class CustomDocumentPropertyCollection extends DocumentPropertyCollection
 
 A collection of custom document properties.
 
+**Remarks**
+
 Each  object represents a custom property of a container document.
 
 **Example**
@@ -244,6 +246,8 @@ public DocumentProperty get(String name)
 
 
 Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) object by the name of the property.
+
+**Remarks**
 
 Returns null if a property with the specified name is not found.
 

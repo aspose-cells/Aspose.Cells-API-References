@@ -95,7 +95,11 @@ public String getExtendedLibid()
 ```
 
 
-Gets the extended Libid of the reference. Only for control reference.
+Gets the extended Libid of the reference.
+
+**Remarks**
+
+Only for control reference.
 
 **Returns:**
 java.lang.String
@@ -125,7 +129,11 @@ public String getRelativeLibid()
 ```
 
 
-Gets the referenced VBA project's identifier with an relative path. Only for project reference.
+Gets the referenced VBA project's identifier with an relative path.
+
+**Remarks**
+
+Only for project reference.
 
 **Returns:**
 java.lang.String
@@ -135,7 +143,11 @@ public String getTwiddledlibid()
 ```
 
 
-Gets the twiddled Libid of the reference. Only for control reference.
+Gets the twiddled Libid of the reference.
+
+**Remarks**
+
+Only for control reference.
 
 **Returns:**
 java.lang.String
@@ -145,7 +157,8 @@ public int getType()
 ```
 
 
-Gets the type of this reference. See [VbaProjectReferenceType](../../com.aspose.cells/vbaprojectreferencetype).
+Gets the type of this reference.
+See [VbaProjectReferenceType](../../com.aspose.cells/vbaprojectreferencetype).
 
 **Returns:**
 int
@@ -181,7 +194,11 @@ public void setExtendedLibid(String value)
 ```
 
 
-Sets the extended Libid of the reference. Only for control reference.
+Sets the extended Libid of the reference.
+
+**Remarks**
+
+Only for control reference.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -220,7 +237,11 @@ public void setRelativeLibid(String value)
 ```
 
 
-Sets the referenced VBA project's identifier with an relative path. Only for project reference.
+Sets the referenced VBA project's identifier with an relative path.
+
+**Remarks**
+
+Only for project reference.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -233,7 +254,11 @@ public void setTwiddledlibid(String value)
 ```
 
 
-Sets the twiddled Libid of the reference. Only for control reference.
+Sets the twiddled Libid of the reference.
+
+**Remarks**
+
+Only for control reference.
 
 **Parameters:**
 | Parameter | Type | Description |

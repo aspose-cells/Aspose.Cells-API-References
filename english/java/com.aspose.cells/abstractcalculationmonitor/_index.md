@@ -180,7 +180,11 @@ public boolean onCircular(Iterator circularCellsData)
 ```
 
 
-Implement this method to do business when calculating formulas with circular references. In the implementation user may also set the expected value as calculated result for part/all of those cells so the formula engine will not calculate them recursively.
+Implement this method to do business when calculating formulas with circular references.
+
+**Remarks**
+
+In the implementation user may also set the expected value as calculated result for part/all of those cells so the formula engine will not calculate them recursively.
 
 **Parameters:**
 | Parameter | Type | Description |

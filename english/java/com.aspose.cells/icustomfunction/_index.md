@@ -9,7 +9,11 @@ url: /java/com.aspose.cells/icustomfunction/
 public interface ICustomFunction
 ```
 
-Allows users to add their custom formula calculation functions to extend the calculation engine. User should not modify any part in the Workbook directly in this implementation. Otherwise unexpected result or Exception may be caused. NOTE: This member is now obsolete. Instead, please use AbstractCalculationEngine which provides more convenient and flexible APIs for manipulating custom functions. This interface will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
+Allows users to add their custom formula calculation functions to extend the calculation engine.
+
+**Remarks**
+
+User should not modify any part in the Workbook directly in this implementation. Otherwise unexpected result or Exception may be caused. NOTE: This member is now obsolete. Instead, please use AbstractCalculationEngine which provides more convenient and flexible APIs for manipulating custom functions. This interface will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
 ## Methods
 
 | Method | Description |
@@ -21,7 +25,11 @@ public abstract Object calculateCustomFunction(String functionName, ArrayList pa
 ```
 
 
-Calculates the result of custom function. Currently there are 3 fixed context objects and some varialbe context objects:
+Calculates the result of custom function.
+
+**Remarks**
+
+Currently there are 3 fixed context objects and some varialbe context objects:
 
 1. Current Workbook object.
 

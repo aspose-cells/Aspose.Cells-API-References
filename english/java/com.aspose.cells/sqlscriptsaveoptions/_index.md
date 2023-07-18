@@ -111,7 +111,11 @@ public boolean getAddBlankLineBetweenRows()
 ```
 
 
-Insert blank line between each data. If [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) is '\\n' , it's better to set this property as true to increase readability.
+Insert blank line between each data.
+
+**Remarks**
+
+If [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) is '\\n' , it's better to set this property as true to increase readability.
 
 **Returns:**
 boolean
@@ -131,7 +135,11 @@ public boolean getCheckAllDataForColumnType()
 ```
 
 
-Check all data to find columns' data type. The default value is false, we only check the first row for performance. If this property is true and the columns contains mixed value type, the columns' type will be text.
+Check all data to find columns' data type.
+
+**Remarks**
+
+The default value is false, we only check the first row for performance. If this property is true and the columns contains mixed value type, the columns' type will be text.
 
 **Returns:**
 boolean
@@ -181,7 +189,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -221,7 +233,11 @@ public String getIdName()
 ```
 
 
-Gets the name of id column. If this property is set , a column will be inserted with automatical increment int value.
+Gets the name of id column.
+
+**Remarks**
+
+If this property is set , a column will be inserted with automatical increment int value.
 
 **Returns:**
 java.lang.String
@@ -231,7 +247,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -241,7 +261,8 @@ public int getOperatorType()
 ```
 
 
-Gets the operator type of sql. See [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
+Gets the operator type of sql.
+See [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
 
 **Returns:**
 int
@@ -271,7 +292,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format.
+See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -281,7 +303,11 @@ public char getSeparator()
 ```
 
 
-Gets character separator of sql script. Only can be ' ' or '\\n'. If the
+Gets character separator of sql script.
+
+**Remarks**
+
+Only can be ' ' or '\\n'. If the
 
 **Returns:**
 char
@@ -321,7 +347,11 @@ public int getStartId()
 ```
 
 
-Gets the start id. Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
+Gets the start id.
+
+**Remarks**
+
+Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
 
 **Returns:**
 int
@@ -341,7 +371,11 @@ public boolean getUpdateSmartArt()
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Returns:**
 boolean
@@ -351,7 +385,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -407,7 +445,11 @@ public void setAddBlankLineBetweenRows(boolean value)
 ```
 
 
-Insert blank line between each data. If [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) is '\\n' , it's better to set this property as true to increase readability.
+Insert blank line between each data.
+
+**Remarks**
+
+If [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) is '\\n' , it's better to set this property as true to increase readability.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -433,7 +475,11 @@ public void setCheckAllDataForColumnType(boolean value)
 ```
 
 
-Check all data to find columns' data type. The default value is false, we only check the first row for performance. If this property is true and the columns contains mixed value type, the columns' type will be text.
+Check all data to find columns' data type.
+
+**Remarks**
+
+The default value is false, we only check the first row for performance. If this property is true and the columns contains mixed value type, the columns' type will be text.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -485,7 +531,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -550,7 +600,11 @@ public void setIdName(String value)
 ```
 
 
-Sets the name of id column. If this property is set , a column will be inserted with automatical increment int value.
+Sets the name of id column.
+
+**Remarks**
+
+If this property is set , a column will be inserted with automatical increment int value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -563,7 +617,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +634,8 @@ public void setOperatorType(int value)
 ```
 
 
-Sets the operator type of sql. See [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
+Sets the operator type of sql.
+See [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -615,7 +674,11 @@ public void setSeparator(char value)
 ```
 
 
-Sets character separator of sql script. Only can be ' ' or '\\n'. If the
+Sets character separator of sql script.
+
+**Remarks**
+
+Only can be ' ' or '\\n'. If the
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -667,7 +730,11 @@ public void setStartId(int value)
 ```
 
 
-Sets the start id. Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
+Sets the start id.
+
+**Remarks**
+
+Only works when [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) is set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -693,7 +760,11 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -706,7 +777,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

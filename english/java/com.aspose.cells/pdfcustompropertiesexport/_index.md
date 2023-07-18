@@ -46,7 +46,11 @@ public static final int STANDARD
 ```
 
 
-Custom properties are exported as entries in Info dictionary. Custom properties with the following names are not exported: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped".
+Custom properties are exported as entries in Info dictionary.
+
+**Remarks**
+
+Custom properties with the following names are not exported: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped".
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

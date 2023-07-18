@@ -357,7 +357,11 @@ public int getOnCategoryAxisPointCount()
 ```
 
 
-Gets the number of the points on category axis after calls Chart.Calculate() method. Only applies to area chart. Area 2D chart return 1 Area 3D chart return 2.
+Gets the number of the points on category axis after calls Chart.Calculate() method. Only applies to area chart.
+
+**Remarks**
+
+Area 2D chart return 1 Area 3D chart return 2.
 
 **Returns:**
 int
@@ -367,7 +371,11 @@ public float getOnCategoryAxisPointXPx(int index)
 ```
 
 
-Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. Area 2D chart: index is 0. Area 3D chart: index is 0 or 1.
+Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart.
+
+**Remarks**
+
+Area 2D chart: index is 0. Area 3D chart: index is 0 or 1.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,7 +390,11 @@ public float getOnCategoryAxisPointYPx(int index)
 ```
 
 
-Gets y-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. Area 2D chart: index is 0. Area 3D chart: index is 0 or 1.
+Gets y-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart.
+
+**Remarks**
+
+Area 2D chart: index is 0. Area 3D chart: index is 0 or 1.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -567,7 +579,8 @@ public int getXValueType()
 ```
 
 
-Gets X value type of the chart point. See [CellValueType](../../com.aspose.cells/cellvaluetype).
+Gets X value type of the chart point.
+See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
 **Returns:**
 int
@@ -587,7 +600,8 @@ public int getYValueType()
 ```
 
 
-Gets Y value type of the chart point. See [CellValueType](../../com.aspose.cells/cellvaluetype).
+Gets Y value type of the chart point.
+See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
 **Returns:**
 int

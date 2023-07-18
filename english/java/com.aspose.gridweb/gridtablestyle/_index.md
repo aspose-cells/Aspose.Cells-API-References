@@ -28,7 +28,8 @@ Inherited from System.Web.UI.WebControls.TableStyle. Represents the style of a w
 | [getBackImageUrl()](#getBackImageUrl--) | Background image url. |
 | [getBorderCollapse()](#getBorderCollapse--) | Specifies the border collapse feature. |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the style |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style
+See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the style |
 | [getBottomBorderStyle()](#getBottomBorderStyle--) | Specifies the style of bottom border of the table. |
 | [getCellPadding()](#getCellPadding--) | Always returns -1. |
@@ -53,7 +54,8 @@ Inherited from System.Web.UI.WebControls.TableStyle. Represents the style of a w
 | [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | Background image url. |
 | [setBorderCollapse(int value)](#setBorderCollapse-int-) | Specifies the border collapse feature. |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the style |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style
+See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the style |
 | [setBottomBorderStyle(WebBorderStyle value)](#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of bottom border of the table. |
 | [setCellPadding(int value)](#setCellPadding-int-) | Always returns -1. |
@@ -134,7 +136,8 @@ public int getBorderCollapse()
 ```
 
 
-Specifies the border collapse feature. See [BorderCollapseType](../../com.aspose.gridweb/bordercollapsetype).
+Specifies the border collapse feature.
+See [BorderCollapseType](../../com.aspose.gridweb/bordercollapsetype).
 
 **Returns:**
 int
@@ -154,7 +157,8 @@ public int getBorderStyle()
 ```
 
 
-Gets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Gets the BorderStyle in the style
+See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
 int
@@ -244,7 +248,8 @@ public int getGridLines()
 ```
 
 
-Grid lines. See [GridLines](../../com.aspose.gridweb/gridlines).
+Grid lines.
+See [GridLines](../../com.aspose.gridweb/gridlines).
 
 **Returns:**
 int
@@ -264,7 +269,8 @@ public int getHorizontalAlign()
 ```
 
 
-Horizontal align. See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
+Horizontal align.
+See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
 
 **Returns:**
 int
@@ -274,7 +280,8 @@ public int getLayoutFixed()
 ```
 
 
-Specifies whether the layout of the table is fixed(not extended automatically when it contain large objects). See [LayoutFixedType](../../com.aspose.gridweb/layoutfixedtype).
+Specifies whether the layout of the table is fixed(not extended automatically when it contain large objects).
+See [LayoutFixedType](../../com.aspose.gridweb/layoutfixedtype).
 
 **Returns:**
 int
@@ -389,7 +396,8 @@ public void setBorderCollapse(int value)
 ```
 
 
-Specifies the border collapse feature. See [BorderCollapseType](../../com.aspose.gridweb/bordercollapsetype).
+Specifies the border collapse feature.
+See [BorderCollapseType](../../com.aspose.gridweb/bordercollapsetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -415,7 +423,8 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Sets the BorderStyle in the style
+See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -506,7 +515,8 @@ public void setGridLines(int value)
 ```
 
 
-Grid lines. See [GridLines](../../com.aspose.gridweb/gridlines).
+Grid lines.
+See [GridLines](../../com.aspose.gridweb/gridlines).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -532,7 +542,8 @@ public void setHorizontalAlign(int value)
 ```
 
 
-Horizontal align. See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
+Horizontal align.
+See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -545,7 +556,8 @@ public void setLayoutFixed(int value)
 ```
 
 
-Specifies whether the layout of the table is fixed(not extended automatically when it contain large objects). See [LayoutFixedType](../../com.aspose.gridweb/layoutfixedtype).
+Specifies whether the layout of the table is fixed(not extended automatically when it contain large objects).
+See [LayoutFixedType](../../com.aspose.gridweb/layoutfixedtype).
 
 **Parameters:**
 | Parameter | Type | Description |

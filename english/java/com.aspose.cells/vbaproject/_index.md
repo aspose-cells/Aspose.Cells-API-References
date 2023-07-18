@@ -212,7 +212,11 @@ public void protect(boolean islockedForViewing, String password)
 ```
 
 
-Protects or unprotects this VBA project. If islockedForViewing is true, the password could not be null.
+Protects or unprotects this VBA project.
+
+**Remarks**
+
+If islockedForViewing is true, the password could not be null.
 
 **Parameters:**
 | Parameter | Type | Description |

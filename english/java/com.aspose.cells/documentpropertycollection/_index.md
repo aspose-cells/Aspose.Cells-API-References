@@ -145,6 +145,8 @@ public DocumentProperty get(String name)
 
 Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) object by the name of the property.
 
+**Remarks**
+
 Returns null if a property with the specified name is not found.
 
 **Parameters:**

@@ -261,7 +261,11 @@ public String getFormula()
 ```
 
 
-Gets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
+Gets a formula of the [GridCell](../../com.aspose.gridweb/gridcell).
+
+**Remarks**
+
+A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
 
 User can set any formula in Workbook designer file. Aspose.Cells will keep all the formulas. If user use this property to set a formula to a cell, major part of Workbook built-in functions is supported. And more is coming. If you have any special need for Workbook built-in functions, please let us know.
 
@@ -351,7 +355,11 @@ public Object getValue()
 ```
 
 
-Gets the value contained in this cell. Possible type:
+Gets the value contained in this cell.
+
+**Remarks**
+
+Possible type:
 
 null,
 
@@ -393,7 +401,11 @@ public boolean isErrorValue()
 ```
 
 
-Checks if a formula can properly evaluate a result. Only applies to formula cell.
+Checks if a formula can properly evaluate a result.
+
+**Remarks**
+
+Only applies to formula cell.
 
 **Returns:**
 boolean
@@ -601,7 +613,11 @@ public void setFormula(String value)
 ```
 
 
-Sets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
+Sets a formula of the [GridCell](../../com.aspose.gridweb/gridcell).
+
+**Remarks**
+
+A formula string always begins with an equal sign (=). And please always use comma(,) as parameters delimeter, such as "=SUM(A1, E1, H2)".
 
 User can set any formula in Workbook designer file. Aspose.Cells will keep all the formulas. If user use this property to set a formula to a cell, major part of Workbook built-in functions is supported. And more is coming. If you have any special need for Workbook built-in functions, please let us know.
 
@@ -669,7 +685,11 @@ public void setValue(Object value)
 ```
 
 
-Gets the value contained in this cell. Possible type:
+Gets the value contained in this cell.
+
+**Remarks**
+
+Possible type:
 
 null,
 

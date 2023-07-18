@@ -63,7 +63,8 @@ public int getType()
 ```
 
 
-Gets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null. See [FormatConditionValueType](../../com.aspose.cells/formatconditionvaluetype).
+Gets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null.
+See [FormatConditionValueType](../../com.aspose.cells/formatconditionvaluetype).
 
 **Returns:**
 int
@@ -73,7 +74,11 @@ public Object getValue()
 ```
 
 
-Gets the value of this conditional formatting value object. It should be used in conjunction with Type. If the value is string and start with "=", it will be processed as a formula, otherwise we will process it as a simple value.
+Gets the value of this conditional formatting value object. It should be used in conjunction with Type.
+
+**Remarks**
+
+If the value is string and start with "=", it will be processed as a formula, otherwise we will process it as a simple value.
 
 **Returns:**
 java.lang.Object
@@ -132,7 +137,8 @@ public void setType(int value)
 ```
 
 
-Sets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null. See [FormatConditionValueType](../../com.aspose.cells/formatconditionvaluetype).
+Sets the type of this conditional formatting value object. Setting the type to FormatConditionValueType.Min or FormatConditionValueType.Max will auto set "Value" to null.
+See [FormatConditionValueType](../../com.aspose.cells/formatconditionvaluetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -145,7 +151,11 @@ public void setValue(Object value)
 ```
 
 
-Sets the value of this conditional formatting value object. It should be used in conjunction with Type. If the value is string and start with "=", it will be processed as a formula, otherwise we will process it as a simple value.
+Sets the value of this conditional formatting value object. It should be used in conjunction with Type.
+
+**Remarks**
+
+If the value is string and start with "=", it will be processed as a formula, otherwise we will process it as a simple value.
 
 **Parameters:**
 | Parameter | Type | Description |

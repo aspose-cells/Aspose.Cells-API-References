@@ -167,7 +167,11 @@ public static void setFontExclusiveSources(FontSourceBase[] exclusiveSources)
 ```
 
 
-Sets the fonts exclusive sources. Only fonts in the sources will be used. System.setProperty("Aspose.Cells.FontDirExc", "fontExclusiveFolder") will be ignored if this is set.
+Sets the fonts exclusive sources. Only fonts in the sources will be used.
+
+**Remarks**
+
+System.setProperty("Aspose.Cells.FontDirExc", "fontExclusiveFolder") will be ignored if this is set.
 
 **Parameters:**
 | Parameter | Type | Description |

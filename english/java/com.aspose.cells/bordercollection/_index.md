@@ -139,7 +139,8 @@ public int getDiagonalStyle()
 ```
 
 
-Gets the style of Diagonal lines. See [CellBorderType](../../com.aspose.cells/cellbordertype).
+Gets the style of Diagonal lines.
+See [CellBorderType](../../com.aspose.cells/cellbordertype).
 
 **Returns:**
 int
@@ -201,7 +202,8 @@ public void setDiagonalStyle(int value)
 ```
 
 
-Sets the style of Diagonal lines. See [CellBorderType](../../com.aspose.cells/cellbordertype).
+Sets the style of Diagonal lines.
+See [CellBorderType](../../com.aspose.cells/cellbordertype).
 
 **Parameters:**
 | Parameter | Type | Description |

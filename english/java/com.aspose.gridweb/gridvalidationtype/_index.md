@@ -92,7 +92,11 @@ public static final int CUSTOM_FUNCTION
 ```
 
 
-Custom javascript function validation. Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
+Custom javascript function validation.
+
+**Remarks**
+
+Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
 function customValicationFunction(source, value)
 The parameter "source" is the cell object. The parameter "value" is the string value of a cell to be checked. The function should returns true if the value is valid.
 
@@ -102,7 +106,11 @@ public static final int CUSTOM_SERVER_FUNCTION
 ```
 
 
-Custom server-side function validation. Use the CustomServerFunction property to specify the serverside validation . below is the example code:
+Custom server-side function validation.
+
+**Remarks**
+
+Use the CustomServerFunction property to specify the serverside validation . below is the example code:
 first define class which implement GridCustomServerValidation class myservervali : GridCustomServerValidation
 ...... then add validation var gridValidationCollection = this.GridWeb.ActiveSheet.Validations;
 GridValidation gv = gridValidationCollection.Add(new GridCellArea(1, 1, 2, 2));

@@ -116,7 +116,11 @@ public int add(int type, String dataRange, int topRow, int leftColumn, int right
 ```
 
 
-Adds a chart to the collection. NOTE: This member is now obsolete. Instead, please use [add(int,String,boolean,int,int,int,int)](../../com.aspose.cells/chartcollection\#add-int-String-boolean-int-int-int-int-) property. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
+Adds a chart to the collection.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [add(int,String,boolean,int,int,int,int)](../../com.aspose.cells/chartcollection\#add-int-String-boolean-int-int-int-int-) property. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -223,7 +227,11 @@ public Chart get(String name)
 ```
 
 
-Gets the chart by the name. The default chart name is null. So you have to explicitly set the name of the chart.
+Gets the chart by the name.
+
+**Remarks**
+
+The default chart name is null. So you have to explicitly set the name of the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

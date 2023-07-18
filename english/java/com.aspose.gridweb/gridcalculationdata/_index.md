@@ -56,7 +56,11 @@ public Object getCalculatedValue()
 ```
 
 
-Gets the calculated value for this function. User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property. Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
+Gets the calculated value for this function.
+
+**Remarks**
+
+User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property. Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
 
 **Returns:**
 java.lang.Object
@@ -182,7 +186,11 @@ public void setCalculatedValue(Object value)
 ```
 
 
-Sets the calculated value for this function. User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property. Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
+Sets the calculated value for this function.
+
+**Remarks**
+
+User should set this property in his custom calculation engine for those functions the engine supports, and the set value will be returned when getting this property. Getting this property before setting will make the function be calculated by the default calculation engine of Aspose.Cells and the calculated value will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |

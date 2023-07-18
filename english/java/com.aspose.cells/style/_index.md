@@ -35,7 +35,7 @@ Represents display style of excel document,such as font,color,alignment,border,e
 
 | Method | Description |
 | --- | --- |
-| [copy(Style style)](#copy-com.aspose.cells.Style-) | Copies data from another style object This method does not copy the name of the style. |
+| [copy(Style style)](#copy-com.aspose.cells.Style-) | Copies data from another style object |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether two Style instances are equal. |
 | [getBackgroundArgbColor()](#getBackgroundArgbColor--) | Gets the background color with a 32-bit ARGB value. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets a style's background color. |
@@ -114,7 +114,11 @@ public Style()
 ```
 
 
-Initializes a new instance of the [Style](../../com.aspose.cells/style) class. NOTE: This constructor is now obsolete. Instead, please use CellsFactory.CreateStyle() method. This property will be removed 6 months later since October 2016. Aspose apologizes for any inconvenience you may have experienced.
+Initializes a new instance of the [Style](../../com.aspose.cells/style) class.
+
+**Remarks**
+
+NOTE: This constructor is now obsolete. Instead, please use CellsFactory.CreateStyle() method. This property will be removed 6 months later since October 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 ### copy(Style style) {#copy-com.aspose.cells.Style-}
 ```
@@ -122,7 +126,11 @@ public void copy(Style style)
 ```
 
 
-Copies data from another style object This method does not copy the name of the style. If you want to copy the name, please call the following codes after copying style: destStyle.Name = style.Name.
+Copies data from another style object
+
+**Remarks**
+
+This method does not copy the name of the style. If you want to copy the name, please call the following codes after copying style: destStyle.Name = style.Name.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -160,7 +168,11 @@ public Color getBackgroundColor()
 ```
 
 
-Gets a style's background color. If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
+Gets a style's background color.
+
+**Remarks**
+
+If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -170,7 +182,11 @@ public ThemeColor getBackgroundThemeColor()
 ```
 
 
-Gets the background theme color. If the background color is not a theme color, NULL will be returned.
+Gets the background theme color.
+
+**Remarks**
+
+If the background color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -200,7 +216,11 @@ public String getCultureCustom()
 ```
 
 
-Gets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
+Gets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+
+**Remarks**
+
+For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
 
 **Returns:**
 java.lang.String
@@ -210,7 +230,11 @@ public String getCustom()
 ```
 
 
-Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. The returned custom string is culture-independent.
+Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned.
+
+**Remarks**
+
+The returned custom string is culture-independent.
 
 **Returns:**
 java.lang.String
@@ -240,7 +264,11 @@ public Color getForegroundColor()
 ```
 
 
-Gets a style's foreground color. It means no color setting if Color.Empty is returned.
+Gets a style's foreground color.
+
+**Remarks**
+
+It means no color setting if Color.Empty is returned.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -250,7 +278,11 @@ public ThemeColor getForegroundThemeColor()
 ```
 
 
-Gets the foreground theme color. If the foreground color is not a theme color, NULL will be returned.
+Gets the foreground theme color.
+
+**Remarks**
+
+If the foreground color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
@@ -260,7 +292,8 @@ public int getHorizontalAlignment()
 ```
 
 
-Gets the horizontal alignment type of the text in a cell. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the horizontal alignment type of the text in a cell.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -270,7 +303,11 @@ public int getIndentLevel()
 ```
 
 
-Represents the indent level for the cell or range. Can only be an integer from 0 to 250. If text horizontal alignment type is set to value other than left or right, indent level will be reset to zero.
+Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
+
+**Remarks**
+
+If text horizontal alignment type is set to value other than left or right, indent level will be reset to zero.
 
 **Returns:**
 int
@@ -280,7 +317,11 @@ public String getInvariantCustom()
 ```
 
 
-Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. For builtin number formats, the returned pattern content is still culture-dependent, such as, for some locales it returns "m/d/y" and for some other locales it returns "d/m/y". The difference from [getCultureCustom()](../../com.aspose.cells/style\#getCultureCustom--) is(that is also what culture-independent means): the format specifiers and separators are kept as standard, such as '/' will always be used as datetime separator and "y" will always be used as the "year" part no matter what other special character is used for the specific locale.
+Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+
+**Remarks**
+
+For builtin number formats, the returned pattern content is still culture-dependent, such as, for some locales it returns "m/d/y" and for some other locales it returns "d/m/y". The difference from [getCultureCustom()](../../com.aspose.cells/style\#getCultureCustom--) is(that is also what culture-independent means): the format specifiers and separators are kept as standard, such as '/' will always be used as datetime separator and "y" will always be used as the "year" part no matter what other special character is used for the specific locale.
 
 **Returns:**
 java.lang.String
@@ -300,7 +341,11 @@ public int getNumber()
 ```
 
 
-Gets the display format of numbers and dates. The formatting patterns are different for different regions. For example, the formatting patterns represented by numbers for en\_US region:
+Gets the display format of numbers and dates. The formatting patterns are different for different regions.
+
+**Remarks**
+
+For example, the formatting patterns represented by numbers for en\_US region:
 
     | ----- | ---------- | ---------------------------------------------------- |
     | Value | Type       | Format String                                        |
@@ -361,7 +406,8 @@ public int getPattern()
 ```
 
 
-Gets the cell background pattern type. See [BackgroundType](../../com.aspose.cells/backgroundtype).
+Gets the cell background pattern type.
+See [BackgroundType](../../com.aspose.cells/backgroundtype).
 
 **Returns:**
 int
@@ -382,6 +428,8 @@ public int getRotationAngle()
 
 
 Represents text rotation angle.
+
+**Remarks**
 
 0: Not rotated.
 
@@ -411,7 +459,8 @@ public int getTextDirection()
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
 int
@@ -421,7 +470,11 @@ public Object[] getTwoColorGradient()
 ```
 
 
-Get the two-color gradient setting. NOTE: This method is now obsolete. Instead, please use Style.GetTwoColorGradientSetting() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
+Get the two-color gradient setting.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Style.GetTwoColorGradientSetting() method. This property will be removed 12 months later since December 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.Object[] - Returns all setting about two-color gradient [0] : Color1 [1] : Color2 [2] : GradientStyleType [3] : Variant
@@ -441,7 +494,8 @@ public int getVerticalAlignment()
 ```
 
 
-Gets the vertical alignment type of the text in a cell. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the vertical alignment type of the text in a cell.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -461,7 +515,11 @@ public int hashCode()
 ```
 
 
-Serves as a hash function for a Style object. This method is only for internal use.
+Serves as a hash function for a Style object.
+
+**Remarks**
+
+This method is only for internal use.
 
 **Returns:**
 int - A hash code for the current Object.
@@ -501,7 +559,11 @@ public boolean isJustifyDistributed()
 ```
 
 
-Indicates if the cells justified or distributed alignment should be used on the last line of text. This is typical for East Asian alignments but not typical in other contexts.
+Indicates if the cells justified or distributed alignment should be used on the last line of text.
+
+**Remarks**
+
+This is typical for East Asian alignments but not typical in other contexts.
 
 **Returns:**
 boolean
@@ -511,7 +573,11 @@ public boolean isLocked()
 ```
 
 
-Gets a value indicating whether a cell can be modified or not. Locking cells has no effect unless the worksheet is protected.
+Gets a value indicating whether a cell can be modified or not.
+
+**Remarks**
+
+Locking cells has no effect unless the worksheet is protected.
 
 **Returns:**
 boolean
@@ -585,7 +651,11 @@ public void setBackgroundColor(Color value)
 ```
 
 
-Sets a style's background color. If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
+Sets a style's background color.
+
+**Remarks**
+
+If you want to set a cell's color, please use Style.ForegroundColor property. Only if the cell style pattern is other than none or solid, this property will take effect.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -598,7 +668,11 @@ public void setBackgroundThemeColor(ThemeColor value)
 ```
 
 
-Sets the background theme color. If the background color is not a theme color, NULL will be returned.
+Sets the background theme color.
+
+**Remarks**
+
+If the background color is not a theme color, NULL will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -645,7 +719,11 @@ public void setCultureCustom(String value)
 ```
 
 
-Sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
+Sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned.
+
+**Remarks**
+
+For builtin number format, both the pattern content(such as, one builtin date format is "m/d/y" for some locales, but for some other locales it becomes "d/m/y") and the format specifier(such as, some locales is using character other than 'y' to represent the year part for date formatting) are culture-dependent; For user specified custom format, only format specifiers are changed according to the culture, other parts of the formatting pattern will not be modified.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -658,7 +736,11 @@ public void setCustom(String value)
 ```
 
 
-Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. The returned custom string is culture-independent.
+Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned.
+
+**Remarks**
+
+The returned custom string is culture-independent.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -698,7 +780,11 @@ public void setForegroundColor(Color value)
 ```
 
 
-Sets a style's foreground color. It means no color setting if Color.Empty is returned.
+Sets a style's foreground color.
+
+**Remarks**
+
+It means no color setting if Color.Empty is returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -711,7 +797,11 @@ public void setForegroundThemeColor(ThemeColor value)
 ```
 
 
-Sets the foreground theme color. If the foreground color is not a theme color, NULL will be returned.
+Sets the foreground theme color.
+
+**Remarks**
+
+If the foreground color is not a theme color, NULL will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -750,7 +840,8 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-Sets the horizontal alignment type of the text in a cell. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the horizontal alignment type of the text in a cell.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -763,7 +854,11 @@ public void setIndentLevel(int value)
 ```
 
 
-Represents the indent level for the cell or range. Can only be an integer from 0 to 250. If text horizontal alignment type is set to value other than left or right, indent level will be reset to zero.
+Represents the indent level for the cell or range. Can only be an integer from 0 to 250.
+
+**Remarks**
+
+If text horizontal alignment type is set to value other than left or right, indent level will be reset to zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -776,7 +871,11 @@ public void setJustifyDistributed(boolean value)
 ```
 
 
-Indicates if the cells justified or distributed alignment should be used on the last line of text. This is typical for East Asian alignments but not typical in other contexts.
+Indicates if the cells justified or distributed alignment should be used on the last line of text.
+
+**Remarks**
+
+This is typical for East Asian alignments but not typical in other contexts.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -789,7 +888,11 @@ public void setLocked(boolean value)
 ```
 
 
-Sets a value indicating whether a cell can be modified or not. Locking cells has no effect unless the worksheet is protected.
+Sets a value indicating whether a cell can be modified or not.
+
+**Remarks**
+
+Locking cells has no effect unless the worksheet is protected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -815,7 +918,11 @@ public void setNumber(int value)
 ```
 
 
-Sets the display format of numbers and dates. The formatting patterns are different for different regions. For example, the formatting patterns represented by numbers for en\_US region:
+Sets the display format of numbers and dates. The formatting patterns are different for different regions.
+
+**Remarks**
+
+For example, the formatting patterns represented by numbers for en\_US region:
 
     | ----- | ---------- | ---------------------------------------------------- |
     | Value | Type       | Format String                                        |
@@ -869,7 +976,8 @@ public void setPattern(int value)
 ```
 
 
-Sets the cell background pattern type. See [BackgroundType](../../com.aspose.cells/backgroundtype).
+Sets the cell background pattern type.
+See [BackgroundType](../../com.aspose.cells/backgroundtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -912,6 +1020,8 @@ public void setRotationAngle(int value)
 
 Represents text rotation angle.
 
+**Remarks**
+
 0: Not rotated.
 
 255: Top to Bottom.
@@ -946,7 +1056,8 @@ public void setTextDirection(int value)
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -988,7 +1099,8 @@ public void setVerticalAlignment(int value)
 ```
 
 
-Sets the vertical alignment type of the text in a cell. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the vertical alignment type of the text in a cell.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

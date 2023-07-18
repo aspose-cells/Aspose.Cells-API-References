@@ -39,7 +39,11 @@ public static final int BUILT_IN
 ```
 
 
-Set the style as built-in number/datetime when the parsed value are plain numeric/datetime values. When ms excel parsing datetime or numeric values according to user's input(such as CSV file), the formatting of those values may be changed, such as leading/tailing zeros of number, year/month/day order of datetime, ...etc. This type is for simulating ms excel's behavior.
+Set the style as built-in number/datetime when the parsed value are plain numeric/datetime values.
+
+**Remarks**
+
+When ms excel parsing datetime or numeric values according to user's input(such as CSV file), the formatting of those values may be changed, such as leading/tailing zeros of number, year/month/day order of datetime, ...etc. This type is for simulating ms excel's behavior.
 
 ### EXACT_FORMAT {#EXACT-FORMAT}
 ```

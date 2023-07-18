@@ -12,7 +12,11 @@ java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveopti
 public class SvgSaveOptions extends ImageSaveOptions
 ```
 
-Represents Svg save options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender). NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
+Represents Svg save options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 ## Constructors
 
 | Constructor | Description |
@@ -64,7 +68,11 @@ public SvgSaveOptions()
 ```
 
 
-Creates the options for saving svg file. NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
+Creates the options for saving svg file.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### SvgSaveOptions(int saveFormat) {#SvgSaveOptions-int-}
 ```
@@ -72,7 +80,11 @@ public SvgSaveOptions(int saveFormat)
 ```
 
 
-Creates the options for saving svg file. NOTE: This constructor is now obsolete. Instead, please use SvgSaveOptions() constructor. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+Creates the options for saving svg file.
+
+**Remarks**
+
+NOTE: This constructor is now obsolete. Instead, please use SvgSaveOptions() constructor. This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -130,7 +142,11 @@ public boolean getCreateDirectory()
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -140,7 +156,11 @@ public ImageOrPrintOptions getImageOrPrintOptions()
 ```
 
 
-Additional image creation options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
+Additional image creation options.
+
+**Remarks**
+
+For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Returns:**
 [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions)
@@ -150,7 +170,11 @@ public boolean getMergeAreas()
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -170,7 +194,8 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format.
+See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -180,7 +205,11 @@ public int getSheetIndex()
 ```
 
 
-Gets which worksheet should be exported. If the value is -1, the active worksheet will be exported. NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
+Gets which worksheet should be exported. If the value is -1, the active worksheet will be exported.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -210,7 +239,11 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets the IStreamProvider for exporting objects. If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
+Gets the IStreamProvider for exporting objects.
+
+**Remarks**
+
+If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -220,7 +253,11 @@ public boolean getUpdateSmartArt()
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Returns:**
 boolean
@@ -230,7 +267,11 @@ public boolean getValidateMergedAreas()
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -302,7 +343,11 @@ public void setCreateDirectory(boolean value)
 ```
 
 
-If true and the directory does not exist, the directory will be automatically created before saving the file. The default value is false.
+If true and the directory does not exist, the directory will be automatically created before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +360,11 @@ public void setMergeAreas(boolean value)
 ```
 
 
-Indicates whether merge the areas of conditional formatting and validation before saving the file. The default value is false.
+Indicates whether merge the areas of conditional formatting and validation before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +390,11 @@ public void setSheetIndex(int value)
 ```
 
 
-Sets which worksheet should be exported. If the value is -1, the active worksheet will be exported. NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
+Sets which worksheet should be exported. If the value is -1, the active worksheet will be exported.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use ImageSaveOptions class. This property will be removed 12 months later since March 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -380,7 +433,11 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-Sets the IStreamProvider for exporting objects. If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
+Sets the IStreamProvider for exporting objects.
+
+**Remarks**
+
+If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -393,7 +450,11 @@ public void setUpdateSmartArt(boolean value)
 ```
 
 
-Indicates whether updating smart art setting. The default value is false. Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
+Indicates whether updating smart art setting. The default value is false.
+
+**Remarks**
+
+Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -406,7 +467,11 @@ public void setValidateMergedAreas(boolean value)
 ```
 
 
-Indicates whether validate merged cells before saving the file. The default value is false.
+Indicates whether validate merged cells before saving the file.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

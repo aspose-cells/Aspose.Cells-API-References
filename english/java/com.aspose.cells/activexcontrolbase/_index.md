@@ -100,7 +100,11 @@ public int getForeOleColor()
 ```
 
 
-Gets the ole color of the foreground. Not applies to Image control.
+Gets the ole color of the foreground.
+
+**Remarks**
+
+Not applies to Image control.
 
 **Returns:**
 int
@@ -150,7 +154,8 @@ public int getMousePointer()
 ```
 
 
-Gets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Gets the type of icon displayed as the mouse pointer for the control.
+See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Returns:**
 int
@@ -170,7 +175,8 @@ public abstract int getType()
 ```
 
 
-Gets the type of the ActiveX control. See [ControlType](../../com.aspose.cells/controltype).
+Gets the type of the ActiveX control.
+See [ControlType](../../com.aspose.cells/controltype).
 
 **Returns:**
 int
@@ -249,7 +255,11 @@ public void setForeOleColor(int value)
 ```
 
 
-Sets the ole color of the foreground. Not applies to Image control.
+Sets the ole color of the foreground.
+
+**Remarks**
+
+Not applies to Image control.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -314,7 +324,8 @@ public void setMousePointer(int value)
 ```
 
 
-Sets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Sets the type of icon displayed as the mouse pointer for the control.
+See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Parameters:**
 | Parameter | Type | Description |

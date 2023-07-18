@@ -140,7 +140,11 @@ public void addCustomFilter(int row, String critira)
 ```
 
 
-Add custom filter for the specified row. The filter criteria string. notice we use , and ; as split char,so the cell value shall not contains with those split char below are the criteria string examples //column 0 with value 12.3 CELL0 = 12.3 //column 1 with value ABC CELL1 = ABC //column 0 with value 123 or 456 or ABC and column 1 with value ABC CELL0 = 123,456,ABC; CELL1 = ABC
+Add custom filter for the specified row.
+
+**Remarks**
+
+The filter criteria string. notice we use , and ; as split char,so the cell value shall not contains with those split char below are the criteria string examples //column 0 with value 12.3 CELL0 = 12.3 //column 1 with value ABC CELL1 = ABC //column 0 with value 123 or 456 or ABC and column 1 with value ABC CELL0 = 123,456,ABC; CELL1 = ABC
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -154,7 +158,11 @@ public void autoFitColumn(int columnIndex)
 ```
 
 
-Autofits the column width. AutoFitColumn is an imprecise function.
+Autofits the column width.
+
+**Remarks**
+
+AutoFitColumn is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,7 +175,11 @@ public void autoFitColumn(int columnIndex, int firstRow, int lastRow)
 ```
 
 
-Autofits the column width. This method autofits a row based on content in a range of cells within the row.
+Autofits the column width.
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -182,7 +194,11 @@ public void autoFitRow(int rowIndex)
 ```
 
 
-Autofits the row height. AutoFitRow is an imprecise function.
+Autofits the row height.
+
+**Remarks**
+
+AutoFitRow is an imprecise function.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +211,11 @@ public void autoFitRow(int rowIndex, int firstColumn, int lastColumn)
 ```
 
 
-Autofits the row height. This method autofits a row based on content in a range of cells within the row.
+Autofits the row height.
+
+**Remarks**
+
+This method autofits a row based on content in a range of cells within the row.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,6 +387,8 @@ public void freezePanes(int row, int column, int freezedRows, int freezedColumns
 
 Freezes panes at the specified cell in the worksheet.
 
+**Remarks**
+
 Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
 
 The first two parameters specify the freezed position and the last two parameters specify the area freezed on the left top pane.
@@ -385,7 +407,11 @@ public void freezePanes(String cellName, int freezedRows, int freezedColumns)
 ```
 
 
-Freezes panes at the specified cell in the worksheet. Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
+Freezes panes at the specified cell in the worksheet.
+
+**Remarks**
+
+Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -440,7 +466,11 @@ public String getCodeName()
 ```
 
 
-Represents worksheet code name. You cannot change the code name while the template file contains VBA/macro.
+Represents worksheet code name.
+
+**Remarks**
+
+You cannot change the code name while the template file contains VBA/macro.
 
 **Returns:**
 java.lang.String
@@ -601,7 +631,11 @@ public String getName()
 ```
 
 
-Gets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+Gets the name of the worksheet.
+
+**Remarks**
+
+The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Returns:**
 java.lang.String
@@ -726,7 +760,11 @@ public Color getTabColor()
 ```
 
 
-Represents worksheet tab color. This feature is only supported in ExcelXP(Excel2002) and above version. If you save file as Excel97 or Excel2000 format, it will be omitted.
+Represents worksheet tab color.
+
+**Remarks**
+
+This feature is only supported in ExcelXP(Excel2002) and above version. If you save file as Excel97 or Excel2000 format, it will be omitted.
 
 **Returns:**
 [Color](../../com.aspose.gridweb/color)
@@ -1100,7 +1138,11 @@ public void setName(String value)
 ```
 
 
-Sets the name of the worksheet. The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
+Sets the name of the worksheet.
+
+**Remarks**
+
+The max length of sheet name is 31. And you cannot assign same name(case insensitive) to two worksheets. For example, you cannot set "SheetName1" to the first worksheet and set "SHEETNAME1" to the second worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1126,7 +1168,11 @@ public void setProtect()
 ```
 
 
-Protects worksheet. This method protects worksheet without password. It can protect worksheet in all versions of Excel file.
+Protects worksheet.
+
+**Remarks**
+
+This method protects worksheet without password. It can protect worksheet in all versions of Excel file.
 
 ### setReadonlyRange(int startRow, int startColumn, int rows, int columns) {#setReadonlyRange-int-int-int-int-}
 ```
@@ -1244,7 +1290,11 @@ public void setTabColor(Color value)
 ```
 
 
-Represents worksheet tab color. This feature is only supported in ExcelXP(Excel2002) and above version. If you save file as Excel97 or Excel2000 format, it will be omitted.
+Represents worksheet tab color.
+
+**Remarks**
+
+This feature is only supported in ExcelXP(Excel2002) and above version. If you save file as Excel97 or Excel2000 format, it will be omitted.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1301,7 +1351,11 @@ public void unGroupRows(int firstIndex, int lastIndex)
 ```
 
 
-Ungroups rows. Only removes outter group info.
+Ungroups rows.
+
+**Remarks**
+
+Only removes outter group info.
 
 **Parameters:**
 | Parameter | Type | Description |

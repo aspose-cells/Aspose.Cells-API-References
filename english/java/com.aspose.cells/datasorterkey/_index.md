@@ -63,7 +63,11 @@ public Color getColor()
 ```
 
 
-Gets the sorted color. Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.CELL\_COLOR](../../com.aspose.cells/sortontype\#CELL-COLOR) or [SortOnType.FONT\_COLOR](../../com.aspose.cells/sortontype\#FONT-COLOR).
+Gets the sorted color.
+
+**Remarks**
+
+Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.CELL\_COLOR](../../com.aspose.cells/sortontype\#CELL-COLOR) or [SortOnType.FONT\_COLOR](../../com.aspose.cells/sortontype\#FONT-COLOR).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -73,7 +77,11 @@ public int getIconId()
 ```
 
 
-Represents the id of the icon set type. Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
+Represents the id of the icon set type.
+
+**Remarks**
+
+Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
 
 **Returns:**
 int
@@ -83,7 +91,12 @@ public int getIconSetType()
 ```
 
 
-Represents the icon set type. See [IconSetType](../../com.aspose.cells/iconsettype). Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
+Represents the icon set type.
+See [IconSetType](../../com.aspose.cells/iconsettype).
+
+**Remarks**
+
+Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
 
 **Returns:**
 int
@@ -103,7 +116,8 @@ public int getOrder()
 ```
 
 
-Indicates the order of sorting. See [SortOrder](../../com.aspose.cells/sortorder).
+Indicates the order of sorting.
+See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
 int
@@ -113,7 +127,8 @@ public int getType()
 ```
 
 
-Represents the type of sorting. See [SortOnType](../../com.aspose.cells/sortontype).
+Represents the type of sorting.
+See [SortOnType](../../com.aspose.cells/sortontype).
 
 **Returns:**
 int

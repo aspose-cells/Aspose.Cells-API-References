@@ -84,7 +84,11 @@ public GridCustomServerValidation ServerValidation
 ```
 
 
-Gets or sets the serverside validation javascript function name. Use the GridCustomServerValidation property to specify the serverside validation .
+Gets or sets the serverside validation javascript function name.
+
+**Remarks**
+
+Use the GridCustomServerValidation property to specify the serverside validation .
 
 ### addACell(int row, int column) {#addACell-int-int-}
 ```
@@ -119,7 +123,11 @@ public void addArea(GridCellArea cellArea)
 ```
 
 
-Applies the validation to the area. In this method , we will remove all old validations on this area.
+Applies the validation to the area.
+
+**Remarks**
+
+In this method , we will remove all old validations on this area.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -147,7 +155,11 @@ public ArrayList getAreaList()
 ```
 
 
-Represents a collection of [GridCellArea](../../com.aspose.gridweb/gridcellarea) which contains the data validation settings. The old valvidations on the area will not be removed if directly adding are to this list.
+Represents a collection of [GridCellArea](../../com.aspose.gridweb/gridcellarea) which contains the data validation settings.
+
+**Remarks**
+
+The old valvidations on the area will not be removed if directly adding are to this list.
 
 **Returns:**
 java.util.ArrayList
@@ -167,7 +179,11 @@ public String getClientValidationFunction()
 ```
 
 
-Gets the client validation javascript function name. Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
+Gets the client validation javascript function name.
+
+**Remarks**
+
+Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
 function customValicationFunction(source, value)
 The parameter "source" is the cell object. The parameter "value" is the string value of a cell to be checked. The function should returns true if the value is valid.
 
@@ -239,7 +255,11 @@ public Object getListValue(int row, int column)
 ```
 
 
-Get the value for list of the validation for the specified cell. Only for validation whose type is List and has been applied to given cell, otherwise null will be returned.
+Get the value for list of the validation for the specified cell.
+
+**Remarks**
+
+Only for validation whose type is List and has been applied to given cell, otherwise null will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -255,7 +275,8 @@ public int getOperator()
 ```
 
 
-Represents the operator for the data validation. See [GridOperatorType](../../com.aspose.gridweb/gridoperatortype).
+Represents the operator for the data validation.
+See [GridOperatorType](../../com.aspose.gridweb/gridoperatortype).
 
 **Returns:**
 int
@@ -295,7 +316,8 @@ public int getValidationType()
 ```
 
 
-Gets the validation type. See [GridValidationType](../../com.aspose.gridweb/gridvalidationtype).
+Gets the validation type.
+See [GridValidationType](../../com.aspose.gridweb/gridvalidationtype).
 
 **Returns:**
 int
@@ -388,7 +410,11 @@ public void setClientValidationFunction(String value)
 ```
 
 
-Sets the client validation javascript function name. Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
+Sets the client validation javascript function name.
+
+**Remarks**
+
+Use the ClientValidationFunction property to specify the client validation function's name. The function should be declared as this formation:
 function customValicationFunction(source, value)
 The parameter "source" is the cell object. The parameter "value" is the string value of a cell to be checked. The function should returns true if the value is valid.
 
@@ -481,7 +507,8 @@ public void setOperator(int value)
 ```
 
 
-Represents the operator for the data validation. See [GridOperatorType](../../com.aspose.gridweb/gridoperatortype).
+Represents the operator for the data validation.
+See [GridOperatorType](../../com.aspose.gridweb/gridoperatortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -546,7 +573,8 @@ public void setValidationType(int value)
 ```
 
 
-Sets the validation type. See [GridValidationType](../../com.aspose.gridweb/gridvalidationtype).
+Sets the validation type.
+See [GridValidationType](../../com.aspose.gridweb/gridvalidationtype).
 
 **Parameters:**
 | Parameter | Type | Description |

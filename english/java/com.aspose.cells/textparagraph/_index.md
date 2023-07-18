@@ -86,7 +86,8 @@ public int getAlignmentType()
 ```
 
 
-Gets the text horizontal alignment type of the paragraph. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text horizontal alignment type of the paragraph.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -156,7 +157,8 @@ public int getFontAlignType()
 ```
 
 
-Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines. See [TextFontAlignType](../../com.aspose.cells/textfontaligntype).
+Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
+See [TextFontAlignType](../../com.aspose.cells/textfontaligntype).
 
 **Returns:**
 int
@@ -196,7 +198,8 @@ public int getLineSpaceSizeType()
 ```
 
 
-Gets the amount of vertical white space that will be used within a paragraph. See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
+Gets the amount of vertical white space that will be used within a paragraph.
+See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
 
 **Returns:**
 int
@@ -226,7 +229,8 @@ public int getSpaceAfterSizeType()
 ```
 
 
-Gets the amount of vertical white space that will be present after a paragraph. See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
+Gets the amount of vertical white space that will be present after a paragraph.
+See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
 
 **Returns:**
 int
@@ -246,7 +250,8 @@ public int getSpaceBeforeSizeType()
 ```
 
 
-Gets the amount of vertical white space that will be present before a paragraph. See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
+Gets the amount of vertical white space that will be present before a paragraph.
+See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
 
 **Returns:**
 int
@@ -286,7 +291,8 @@ public int getType()
 ```
 
 
-Gets the type of text node. See [TextNodeType](../../com.aspose.cells/textnodetype).
+Gets the type of text node.
+See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -352,7 +358,8 @@ public void setAlignmentType(int value)
 ```
 
 
-Sets the text horizontal alignment type of the paragraph. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text horizontal alignment type of the paragraph.
+See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -404,7 +411,8 @@ public void setFontAlignType(int value)
 ```
 
 
-Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines. See [TextFontAlignType](../../com.aspose.cells/textfontaligntype).
+Determines where vertically on a line of text the actual words are positioned. This deals with vertical placement of the characters with respect to the baselines.
+See [TextFontAlignType](../../com.aspose.cells/textfontaligntype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -469,7 +477,8 @@ public void setLineSpaceSizeType(int value)
 ```
 
 
-Sets the amount of vertical white space that will be used within a paragraph. See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
+Sets the amount of vertical white space that will be used within a paragraph.
+See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -508,7 +517,8 @@ public void setSpaceAfterSizeType(int value)
 ```
 
 
-Sets the amount of vertical white space that will be present after a paragraph. See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
+Sets the amount of vertical white space that will be present after a paragraph.
+See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -534,7 +544,8 @@ public void setSpaceBeforeSizeType(int value)
 ```
 
 
-Sets the amount of vertical white space that will be present before a paragraph. See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
+Sets the amount of vertical white space that will be present before a paragraph.
+See [LineSpaceSizeType](../../com.aspose.cells/linespacesizetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -547,7 +558,11 @@ public void setWordArtStyle(int style)
 ```
 
 
-Sets the preset WordArt style. Only for the text of shape/chart.
+Sets the preset WordArt style.
+
+**Remarks**
+
+Only for the text of shape/chart.
 
 **Parameters:**
 | Parameter | Type | Description |

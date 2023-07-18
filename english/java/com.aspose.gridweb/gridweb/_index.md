@@ -65,7 +65,8 @@ public class GridWeb extends MainWeb
 | [getAutoRefreshChart()](#getAutoRefreshChart--) | Gets whether the Chart image is updated while updating the cell value.the default is true |
 | [getBackColor()](#getBackColor--) | Gets the BackColor in the WebControl |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the WebControl |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl
+See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the WebControl |
 | [getBottomTableStyle()](#getBottomTableStyle--) | Gets the style of the bottom bar of the control. |
 | [getClass()](#getClass--) |  |
@@ -216,7 +217,8 @@ public class GridWeb extends MainWeb
 | [setAutoRefreshChart(boolean value)](#setAutoRefreshChart-boolean-) | Sets whether the Chart image is updated while updating the cell value.the default is true |
 | [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the WebControl |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the WebControl |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl
+See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the WebControl |
 | [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the style of the bottom bar of the control. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Sets whether to calculate formula after cell value changes or after import File. |
@@ -566,7 +568,11 @@ public String getACWClientPath()
 ```
 
 
-Gets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the `<configuration>` section: `<appSettings>` `<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />` `</appSettings>`
+Gets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the `<configuration>` section:
+`<appSettings>`
+`<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />`
+`</appSettings>`
+
 
 **Returns:**
 java.lang.String
@@ -698,7 +704,8 @@ public int getBorderStyle()
 ```
 
 
-Gets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Gets the BorderStyle in the WebControl
+See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
 int
@@ -778,7 +785,11 @@ public String getCustomStyleFileName()
 ```
 
 
-Gets the custom style file name. The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
+Gets the custom style file name.
+
+**Remarks**
+
+The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
 
 **Example**
 
@@ -846,7 +857,11 @@ public boolean getEditMode()
 ```
 
 
-Gets the control's edit mode. When sets to true, the control's cells are editable, and the "save" and the "undo" icon are displayed. When sets to false, the control's cells are readonly, and the "save" and the "undo" icon are not displayed.
+Gets the control's edit mode.
+
+**Remarks**
+
+When sets to true, the control's cells are editable, and the "save" and the "undo" icon are displayed. When sets to false, the control's cells are readonly, and the "save" and the "undo" icon are not displayed.
 
 **Returns:**
 boolean
@@ -876,7 +891,11 @@ public boolean getEnableClientColumnOperations()
 ```
 
 
-Gets whether to enable the client side column operations. When sets to true, the user can use the right-click menu to add/remove columns.
+Gets whether to enable the client side column operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to add/remove columns.
 
 **Returns:**
 boolean
@@ -886,7 +905,11 @@ public boolean getEnableClientFreeze()
 ```
 
 
-Gets whether to enable the client side freezing operations. When sets to true, the user can use the right-click menu to freeze/unfreeze panes.
+Gets whether to enable the client side freezing operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to freeze/unfreeze panes.
 
 **Returns:**
 boolean
@@ -896,7 +919,11 @@ public boolean getEnableClientMergeOperations()
 ```
 
 
-Gets whether to enable the client side merge operations. When sets to true, the user can use the right-click menu to merge/unmerge cells.
+Gets whether to enable the client side merge operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to merge/unmerge cells.
 
 **Returns:**
 boolean
@@ -906,7 +933,11 @@ public boolean getEnableClientResizeColumnRow()
 ```
 
 
-Gets whether to enable the client side resize column and row. When sets to true, the user can resize the column and row at client side.
+Gets whether to enable the client side resize column and row.
+
+**Remarks**
+
+When sets to true, the user can resize the column and row at client side.
 
 **Returns:**
 boolean
@@ -916,7 +947,11 @@ public boolean getEnableClientRowOperations()
 ```
 
 
-Gets whether to enable the client side row operations. When sets to true, the user can use the right-click menu to add/remove rows.
+Gets whether to enable the client side row operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to add/remove rows.
 
 **Returns:**
 boolean
@@ -926,7 +961,11 @@ public boolean getEnableDoubleClickEvent()
 ```
 
 
-Gets whether to enable customer side double-click event. When sets to true, the control will receive customer side double-click events and you may handle these events on the server side. Otherwise the control will ignore any double-click events.
+Gets whether to enable customer side double-click event.
+
+**Remarks**
+
+When sets to true, the control will receive customer side double-click events and you may handle these events on the server side. Otherwise the control will ignore any double-click events.
 
 **Returns:**
 boolean
@@ -946,7 +985,11 @@ public boolean getEnablePaging()
 ```
 
 
-Gets whether to enable the control's paging mode. When sets to true, the control will display PageSize rows of data once, and display the page select control in the tab bar.
+Gets whether to enable the control's paging mode.
+
+**Remarks**
+
+When sets to true, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Returns:**
 boolean
@@ -956,7 +999,11 @@ public boolean getEnableStyleDialogbox()
 ```
 
 
-Gets whether to enable the client side style dialogbox. When sets to true, the user can use the style dialogbox to set a cell's style by selecting the "Format Cell..." from the popup menu.
+Gets whether to enable the client side style dialogbox.
+
+**Remarks**
+
+When sets to true, the user can use the style dialogbox to set a cell's style by selecting the "Format Cell..." from the popup menu.
 
 **Returns:**
 boolean
@@ -976,7 +1023,11 @@ public boolean getFilteredPaging()
 ```
 
 
-Gets whether to enable the paging after data filtered,will take affect when EnablePaging is true. When sets to true, the control will paging based on filtered data,the default value is false.
+Gets whether to enable the paging after data filtered,will take affect when EnablePaging is true.
+
+**Remarks**
+
+When sets to true, the control will paging based on filtered data,the default value is false.
 
 **Returns:**
 boolean
@@ -996,7 +1047,11 @@ public boolean getForceValidation()
 ```
 
 
-Gets whether to force customer side validation. When sets to true, data will not post to server until all input fields are valid.
+Gets whether to force customer side validation.
+
+**Remarks**
+
+When sets to true, data will not post to server until all input fields are valid.
 
 **Returns:**
 boolean
@@ -1500,7 +1555,11 @@ public int getPageSize()
 ```
 
 
-Gets the page size in paging mode. When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
+Gets the page size in paging mode.
+
+**Remarks**
+
+When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Returns:**
 int
@@ -1530,7 +1589,8 @@ public int getPresetStyle()
 ```
 
 
-Gets the preset style. See [PresetStyle](../../com.aspose.gridweb/presetstyle).
+Gets the preset style.
+See [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 **Example**
 
@@ -1636,13 +1696,18 @@ public int getSessionMode()
 ```
 
 
-Gets the session mode of the grid. There are 4 type of session mode:
+Gets the session mode of the grid.
+See [SessionMode](../../com.aspose.gridweb/sessionmode).
+
+**Remarks**
+
+There are 4 type of session mode:
 1. Session(default): Use system session to store sheet data.
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
-4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
-See [SessionMode](../../com.aspose.gridweb/sessionmode). When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always.
+When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
 
 **Example**
 
@@ -2334,7 +2399,11 @@ public void setACWClientPath(String value)
 ```
 
 
-Sets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the `<configuration>` section: `<appSettings>` `<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />` `</appSettings>`
+Sets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the `<configuration>` section:
+`<appSettings>`
+`<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />`
+`</appSettings>`
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2492,7 +2561,8 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Sets the BorderStyle in the WebControl
+See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2596,7 +2666,11 @@ public void setCustomStyleFileName(String value)
 ```
 
 
-Sets the custom style file name. The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
+Sets the custom style file name.
+
+**Remarks**
+
+The custom style file is an XML file. When sets the file name, the file will be loaded immediately. Hear is the content of the "standard preset style" ------------------------------------------------------- <Aspose.Cells.GridWeb.ViewerStyleTemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="Gray" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="\#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-CellPadding="1" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="White" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-BorderColor="Gray" TabStyle-ForeColor="Black" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="\#E0E0E0" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" ScrollBarArrowColor=""></Aspose.Cells.GridWeb.ViewerStyleTemplate>
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2661,7 +2735,11 @@ public void setEditMode(boolean value)
 ```
 
 
-Sets the control's edit mode. When sets to true, the control's cells are editable, and the "save" and the "undo" icon are displayed. When sets to false, the control's cells are readonly, and the "save" and the "undo" icon are not displayed.
+Sets the control's edit mode.
+
+**Remarks**
+
+When sets to true, the control's cells are editable, and the "save" and the "undo" icon are displayed. When sets to false, the control's cells are readonly, and the "save" and the "undo" icon are not displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2700,7 +2778,11 @@ public void setEnableClientColumnOperations(boolean value)
 ```
 
 
-Sets whether to enable the client side column operations. When sets to true, the user can use the right-click menu to add/remove columns.
+Sets whether to enable the client side column operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to add/remove columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2713,7 +2795,11 @@ public void setEnableClientFreeze(boolean value)
 ```
 
 
-Sets whether to enable the client side freezing operations. When sets to true, the user can use the right-click menu to freeze/unfreeze panes.
+Sets whether to enable the client side freezing operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to freeze/unfreeze panes.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2726,7 +2812,11 @@ public void setEnableClientMergeOperations(boolean value)
 ```
 
 
-Sets whether to enable the client side merge operations. When sets to true, the user can use the right-click menu to merge/unmerge cells.
+Sets whether to enable the client side merge operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to merge/unmerge cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2739,7 +2829,11 @@ public void setEnableClientResizeColumnRow(boolean value)
 ```
 
 
-Sets whether to enable the client side resize column and row. When sets to true, the user can resize the column and row at client side.
+Sets whether to enable the client side resize column and row.
+
+**Remarks**
+
+When sets to true, the user can resize the column and row at client side.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2752,7 +2846,11 @@ public void setEnableClientRowOperations(boolean value)
 ```
 
 
-Sets whether to enable the client side row operations. When sets to true, the user can use the right-click menu to add/remove rows.
+Sets whether to enable the client side row operations.
+
+**Remarks**
+
+When sets to true, the user can use the right-click menu to add/remove rows.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2765,7 +2863,11 @@ public void setEnableDoubleClickEvent(boolean value)
 ```
 
 
-Sets whether to enable customer side double-click event. When sets to true, the control will receive customer side double-click events and you may handle these events on the server side. Otherwise the control will ignore any double-click events.
+Sets whether to enable customer side double-click event.
+
+**Remarks**
+
+When sets to true, the control will receive customer side double-click events and you may handle these events on the server side. Otherwise the control will ignore any double-click events.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2791,7 +2893,11 @@ public void setEnablePaging(boolean value)
 ```
 
 
-Sets whether to enable the control's paging mode. When sets to true, the control will display PageSize rows of data once, and display the page select control in the tab bar.
+Sets whether to enable the control's paging mode.
+
+**Remarks**
+
+When sets to true, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2804,7 +2910,11 @@ public void setEnableStyleDialogbox(boolean value)
 ```
 
 
-Sets whether to enable the client side style dialogbox. When sets to true, the user can use the style dialogbox to set a cell's style by selecting the "Format Cell..." from the popup menu.
+Sets whether to enable the client side style dialogbox.
+
+**Remarks**
+
+When sets to true, the user can use the style dialogbox to set a cell's style by selecting the "Format Cell..." from the popup menu.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2830,7 +2940,11 @@ public void setFilteredPaging(boolean value)
 ```
 
 
-Sets whether to enable the paging after data filtered,will take affect when EnablePaging is true. When sets to true, the control will paging based on filtered data,the default value is false.
+Sets whether to enable the paging after data filtered,will take affect when EnablePaging is true.
+
+**Remarks**
+
+When sets to true, the control will paging based on filtered data,the default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2871,7 +2985,11 @@ public void setForceValidation(boolean value)
 ```
 
 
-Sets whether to force customer side validation. When sets to true, data will not post to server until all input fields are valid.
+Sets whether to force customer side validation.
+
+**Remarks**
+
+When sets to true, data will not post to server until all input fields are valid.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3409,7 +3527,11 @@ public void setPageSize(int value)
 ```
 
 
-Sets the page size in paging mode. When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
+Sets the page size in paging mode.
+
+**Remarks**
+
+When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3435,7 +3557,8 @@ public void setPresetStyle(int value)
 ```
 
 
-Sets the preset style. See [PresetStyle](../../com.aspose.gridweb/presetstyle).
+Sets the preset style.
+See [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3552,13 +3675,18 @@ public void setSessionMode(int value)
 ```
 
 
-Sets the session mode of the grid. There are 4 type of session mode:
+Sets the session mode of the grid.
+See [SessionMode](../../com.aspose.gridweb/sessionmode).
+
+**Remarks**
+
+There are 4 type of session mode:
 1. Session(default): Use system session to store sheet data.
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
-4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
-See [SessionMode](../../com.aspose.gridweb/sessionmode). When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always.
+When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
 
 **Parameters:**
 | Parameter | Type | Description |

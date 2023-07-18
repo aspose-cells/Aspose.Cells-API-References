@@ -19,7 +19,8 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [getClass()](#getClass--) |  |
 | [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
 | [getDisplayNumberFormat()](#getDisplayNumberFormat--) | Gets the display number format of tick labels. |
@@ -38,7 +39,8 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutomaticRotation(boolean value)](#setAutomaticRotation-boolean-) | Indicates whether the rotation angle is automatic |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
 | [setNumber(int value)](#setNumber-int-) | Represents the format number for the TickLabels object. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the format string for the TickLabels object. |
@@ -82,7 +84,8 @@ public int getBackgroundMode()
 ```
 
 
-Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Gets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
 int
@@ -102,7 +105,8 @@ public int getDirectionType()
 ```
 
 
-Gets the direction of text. See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
+Gets the direction of text.
+See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Returns:**
 int
@@ -142,7 +146,11 @@ public String getNumberFormat()
 ```
 
 
-Represents the format string for the TickLabels object. The formatting string is same as a custom format string setting to a cell. For example, "$0".
+Represents the format string for the TickLabels object.
+
+**Remarks**
+
+The formatting string is same as a custom format string setting to a cell. For example, "$0".
 
 **Returns:**
 java.lang.String
@@ -162,7 +170,11 @@ public int getOffset()
 ```
 
 
-Gets the distance of labels from the axis. The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
+Gets the distance of labels from the axis.
+
+**Remarks**
+
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
 
 **Returns:**
 int
@@ -172,7 +184,8 @@ public int getReadingOrder()
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
 int
@@ -183,6 +196,10 @@ public int getRotationAngle()
 
 
 Represents text rotation angle in clockwise.
+
+**Remarks**
+
+
 0: Not rotated.
 
 255: Top to Bottom.
@@ -200,7 +217,12 @@ public int getTextDirection()
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype). NOTE: This member is now obsolete. Instead, please use TickLabels.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use TickLabels.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -210,7 +232,11 @@ public TickLabelItem[] getTickLabelItems()
 ```
 
 
-Gets each tick label item's information of axis. Only available after calling [Chart.calculate()](../../com.aspose.cells/chart\#calculate--) method.
+Gets each tick label item's information of axis.
+
+**Remarks**
+
+Only available after calling [Chart.calculate()](../../com.aspose.cells/chart\#calculate--) method.
 
 **Returns:**
 com.aspose.cells.TickLabelItem[]
@@ -282,7 +308,8 @@ public void setBackgroundMode(int value)
 ```
 
 
-Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Sets the display mode of the background
+See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +322,8 @@ public void setDirectionType(int value)
 ```
 
 
-Sets the direction of text. See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
+Sets the direction of text.
+See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -321,7 +349,11 @@ public void setNumberFormat(String value)
 ```
 
 
-Represents the format string for the TickLabels object. The formatting string is same as a custom format string setting to a cell. For example, "$0".
+Represents the format string for the TickLabels object.
+
+**Remarks**
+
+The formatting string is same as a custom format string setting to a cell. For example, "$0".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -347,7 +379,11 @@ public void setOffset(int value)
 ```
 
 
-Sets the distance of labels from the axis. The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
+Sets the distance of labels from the axis.
+
+**Remarks**
+
+The default distance is 100 percent, which represents the default spacing between the axis labels and the axis line. The value can be an integer percentage from 0 through 1000, relative to the axis label\\u9225\\u6a9a font size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -360,7 +396,8 @@ public void setReadingOrder(int value)
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -374,6 +411,10 @@ public void setRotationAngle(int value)
 
 
 Represents text rotation angle in clockwise.
+
+**Remarks**
+
+
 0: Not rotated.
 
 255: Top to Bottom.
@@ -394,7 +435,12 @@ public void setTextDirection(int value)
 ```
 
 
-Represents text reading order. See [TextDirectionType](../../com.aspose.cells/textdirectiontype). NOTE: This member is now obsolete. Instead, please use TickLabels.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
+Represents text reading order.
+See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use TickLabels.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

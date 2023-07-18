@@ -71,7 +71,8 @@ public int getIconSetType()
 ```
 
 
-Gets which icon set is used in the filter criteria. See [IconSetType](../../com.aspose.cells/iconsettype).
+Gets which icon set is used in the filter criteria.
+See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Returns:**
 int
@@ -120,7 +121,8 @@ public void setIconSetType(int value)
 ```
 
 
-Sets which icon set is used in the filter criteria. See [IconSetType](../../com.aspose.cells/iconsettype).
+Sets which icon set is used in the filter criteria.
+See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Parameters:**
 | Parameter | Type | Description |

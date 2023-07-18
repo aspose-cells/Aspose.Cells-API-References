@@ -38,7 +38,11 @@ public static final int MEMORY_PREFERENCE
 ```
 
 
-Memory performance preferrable. With this option the data will be held in compact format so for common scenarios it may give lower memory cost. However, this option also may degrade R/W performance a bit in some special cases. This option is available since v 8.0.0.
+Memory performance preferrable. With this option the data will be held in compact format so for common scenarios it may give lower memory cost. However, this option also may degrade R/W performance a bit in some special cases.
+
+**Remarks**
+
+This option is available since v 8.0.0.
 
 ### NORMAL {#NORMAL}
 ```
@@ -46,7 +50,11 @@ public static final int NORMAL
 ```
 
 
-Default option for cells model. This option is applied for all versions.
+Default option for cells model.
+
+**Remarks**
+
+This option is applied for all versions.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -169,7 +169,11 @@ public Cell getCellByIndex(int index)
 ```
 
 
-Get the cell by specific index in the list. NOTE: This member is now obsolete. Instead, please use Row.GetEnumerator() method to iterate all cells in this row. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
+Get the cell by specific index in the list.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Row.GetEnumerator() method to iterate all cells in this row. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -279,7 +283,11 @@ public Style getStyle()
 ```
 
 
-Gets the style of this row. Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-) or [Column.setStyle(Style)](../../com.aspose.cells/column\#setStyle-Style-) method to apply the change to this row.
+Gets the style of this row.
+
+**Remarks**
+
+Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-) or [Column.setStyle(Style)](../../com.aspose.cells/column\#setStyle-Style-) method to apply the change to this row.
 
 Row's style is the style which will be inherited by cells in this row(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
@@ -375,7 +383,11 @@ public Iterator iterator(boolean reversed, boolean sync)
 ```
 
 
-Gets an enumerator that iterates cells through this row. If the row will be modified(by operations that may cause new Cell be instantiated or existing Cell be removed) during the traversal with the enumerator, synchronized enumerator should be used instead of normal enumerator so that the traversal can continue from the position just after the one has been traversed by the last MoveNext(). However, together with the advantage that no element be skipped or traversed repeatedly, the disadvantage for synchronized enumerator is that the performance will be degraded a bit when comparing with normal enumerator.
+Gets an enumerator that iterates cells through this row.
+
+**Remarks**
+
+If the row will be modified(by operations that may cause new Cell be instantiated or existing Cell be removed) during the traversal with the enumerator, synchronized enumerator should be used instead of normal enumerator so that the traversal can continue from the position just after the one has been traversed by the last MoveNext(). However, together with the advantage that no element be skipped or traversed repeatedly, the disadvantage for synchronized enumerator is that the performance will be degraded a bit when comparing with normal enumerator.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -472,7 +484,11 @@ public void setStyle(Style style)
 ```
 
 
-Sets the style of this row. This method only sets the given style as the default style for this row, without changing the style settings for existing cells in this row. To update style settings of existing cells to the specified style at the same time, please use [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-)
+Sets the style of this row.
+
+**Remarks**
+
+This method only sets the given style as the default style for this row, without changing the style settings for existing cells in this row. To update style settings of existing cells to the specified style at the same time, please use [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-)
 
 **Parameters:**
 | Parameter | Type | Description |

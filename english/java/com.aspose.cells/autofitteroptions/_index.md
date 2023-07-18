@@ -76,7 +76,11 @@ public boolean getAutoFitMergedCells()
 ```
 
 
-Indicates whether auto fit row height when the cells is merged in a row. The default value is false. NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFitMergedCellsType property, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether auto fit row height when the cells is merged in a row. The default value is false.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFitMergedCellsType property, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -86,7 +90,12 @@ public int getAutoFitMergedCellsType()
 ```
 
 
-Gets the type of auto fitting row height of merged cells. See [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype). Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
+Gets the type of auto fitting row height of merged cells.
+See [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype).
+
+**Remarks**
+
+Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
 
 **Returns:**
 int
@@ -96,7 +105,8 @@ public int getAutoFitWrappedTextType()
 ```
 
 
-Gets the type of auto fitting wrapped text. See [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
+Gets the type of auto fitting wrapped text.
+See [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
 
 **Returns:**
 int
@@ -116,7 +126,12 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets default edit language. See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
+Gets default edit language.
+See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
+
+**Remarks**
+
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Returns:**
 int
@@ -136,7 +151,12 @@ public int getFormatStrategy()
 ```
 
 
-Gets the formatted strategy. See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy). The default value is CellStyle for performance.
+Gets the formatted strategy.
+See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
+
+**Remarks**
+
+The default value is CellStyle for performance.
 
 **Returns:**
 int
@@ -202,7 +222,11 @@ public void setAutoFitMergedCells(boolean value)
 ```
 
 
-Indicates whether auto fit row height when the cells is merged in a row. The default value is false. NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFitMergedCellsType property, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether auto fit row height when the cells is merged in a row. The default value is false.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use AutoFitterOptions.AutoFitMergedCellsType property, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -215,7 +239,12 @@ public void setAutoFitMergedCellsType(int value)
 ```
 
 
-Sets the type of auto fitting row height of merged cells. See [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype). Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
+Sets the type of auto fitting row height of merged cells.
+See [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype).
+
+**Remarks**
+
+Excel defaults to ignore merged cells when fitting the row height, so Aspose.Cells works as MS Excel default. Please set this type to change the way of auto fitting row height of merged cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,7 +257,8 @@ public void setAutoFitWrappedTextType(int value)
 ```
 
 
-Sets the type of auto fitting wrapped text. See [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
+Sets the type of auto fitting wrapped text.
+See [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +271,12 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Sets default edit language. See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
+Sets default edit language.
+See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
+
+**Remarks**
+
+It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +302,12 @@ public void setFormatStrategy(int value)
 ```
 
 
-Sets the formatted strategy. See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy). The default value is CellStyle for performance.
+Sets the formatted strategy.
+See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
+
+**Remarks**
+
+The default value is CellStyle for performance.
 
 **Parameters:**
 | Parameter | Type | Description |

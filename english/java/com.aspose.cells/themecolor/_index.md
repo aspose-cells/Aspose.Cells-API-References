@@ -98,7 +98,8 @@ public int getColorType()
 ```
 
 
-Gets the theme type. See [ThemeColorType](../../com.aspose.cells/themecolortype).
+Gets the theme type.
+See [ThemeColorType](../../com.aspose.cells/themecolortype).
 
 **Returns:**
 int
@@ -108,7 +109,11 @@ public double getTint()
 ```
 
 
-Gets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
+Gets the tint value.
+
+**Remarks**
+
+The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
 
 **Returns:**
 double
@@ -144,7 +149,8 @@ public void setColorType(int value)
 ```
 
 
-Sets the theme type. See [ThemeColorType](../../com.aspose.cells/themecolortype).
+Sets the theme type.
+See [ThemeColorType](../../com.aspose.cells/themecolortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +163,11 @@ public void setTint(double value)
 ```
 
 
-Sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
+Sets the tint value.
+
+**Remarks**
+
+The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
 
 **Parameters:**
 | Parameter | Type | Description |

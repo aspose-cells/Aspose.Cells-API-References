@@ -121,7 +121,8 @@ public int getType()
 ```
 
 
-The color type. See [ColorType](../../com.aspose.cells/colortype).
+The color type.
+See [ColorType](../../com.aspose.cells/colortype).
 
 **Returns:**
 int
@@ -141,7 +142,11 @@ public boolean isShapeColor()
 ```
 
 
-Gets the color which should apply to cell or shape. The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
+Gets the color which should apply to cell or shape.
+
+**Remarks**
+
+The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
 
 **Returns:**
 boolean
@@ -206,7 +211,11 @@ public void setShapeColor(boolean value)
 ```
 
 
-Sets the color which should apply to cell or shape. The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
+Sets the color which should apply to cell or shape.
+
+**Remarks**
+
+The expression of the color of the cell and the shape is different. For example: the theme color with same tint value will be not same in the cell and the shape.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -74,7 +74,11 @@ public abstract void calculate(GridCalculationData data)
 ```
 
 
-Calculates one function with given data. User should set the calculated value for given data for all functions(including excel native functions) that he wants to calculate by himself in this implementation.
+Calculates one function with given data.
+
+**Remarks**
+
+User should set the calculated value for given data for all functions(including excel native functions) that he wants to calculate by himself in this implementation.
 
 **Parameters:**
 | Parameter | Type | Description |

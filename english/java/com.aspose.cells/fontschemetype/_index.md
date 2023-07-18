@@ -47,7 +47,11 @@ public static final int MINOR
 ```
 
 
-Minor scheme. The font's name will be automatically changed with the language.
+Minor scheme.
+
+**Remarks**
+
+The font's name will be automatically changed with the language.
 
 ### NONE {#NONE}
 ```

@@ -114,7 +114,11 @@ public static final int TABLE
 ```
 
 
-Worksheet data source created by the Spreadsheet Data Model. NOTE: This member is now obsolete. Instead, please use WorksheetDataModel enum. This property will be removed 12 months later since September 2017. Aspose apologizes for any inconvenience you may have experienced.
+Worksheet data source created by the Spreadsheet Data Model.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorksheetDataModel enum. This property will be removed 12 months later since September 2017. Aspose apologizes for any inconvenience you may have experienced.
 
 ### TEXT_BASED_SOURCE {#TEXT-BASED-SOURCE}
 ```

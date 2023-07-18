@@ -40,7 +40,11 @@ public SheetSet(int[] sheets)
 ```
 
 
-Creates a sheet set based on exact sheet indexes. If a sheet is encountered that is not in the workbook, an exception will be thrown during rendering.
+Creates a sheet set based on exact sheet indexes.
+
+**Remarks**
+
+If a sheet is encountered that is not in the workbook, an exception will be thrown during rendering.
 
 **Parameters:**
 | Parameter | Type | Description |

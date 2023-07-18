@@ -142,7 +142,11 @@ public void hide(boolean value)
 ```
 
 
-Sets whether the pivot item is hidden. NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Pivot.PivotField.HideItem method. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets whether the pivot item is hidden.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Pivot.PivotField.HideItem method. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

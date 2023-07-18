@@ -72,7 +72,11 @@ public static final int DISTINCT_COUNT
 ```
 
 
-Represents Distinct Count function. Only valid for PivotTable with Data Module created since by 2013.
+Represents Distinct Count function.
+
+**Remarks**
+
+Only valid for PivotTable with Data Module created since by 2013.
 
 ### MAX {#MAX}
 ```

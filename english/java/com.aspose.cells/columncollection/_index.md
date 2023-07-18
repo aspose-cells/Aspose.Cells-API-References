@@ -153,7 +153,11 @@ public Column getByIndex(int index)
 ```
 
 
-Gets the column object by the index. NOTE: This member is now obsolete. Instead, please use Columns.GetColumnByIndex() method. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
+Gets the column object by the index.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Columns.GetColumnByIndex() method. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

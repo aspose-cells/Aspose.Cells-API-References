@@ -30,7 +30,7 @@ Represents the options of importing data into cells.
 | [getConvertNumericData()](#getConvertNumericData--) | Gets a value that indicates whether the string value should be converted to numeric or date value. |
 | [getDateFormat()](#getDateFormat--) | Gets date format string for cells with imported datetime values. |
 | [getDefaultValues()](#getDefaultValues--) | Default value for the value in the table is null. |
-| [getExportCaptionAsFieldName()](#getExportCaptionAsFieldName--) | Indicates whether exporting caption as field name Only works for DataTable. |
+| [getExportCaptionAsFieldName()](#getExportCaptionAsFieldName--) | Indicates whether exporting caption as field name |
 | [getInsertRows()](#getInsertRows--) | Indicates whether new rows should be added for importing data records. |
 | [getNumberFormats()](#getNumberFormats--) | Gets the number formats |
 | [getShiftFirstRowDown()](#getShiftFirstRowDown--) | Indicates whether shifting the first row down when inserting rows. |
@@ -48,7 +48,7 @@ Represents the options of importing data into cells.
 | [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Sets a value that indicates whether the string value should be converted to numeric or date value. |
 | [setDateFormat(String value)](#setDateFormat-java.lang.String-) | Sets date format string for cells with imported datetime values. |
 | [setDefaultValues(Object[] value)](#setDefaultValues-java.lang.Object---) | Default value for the value in the table is null. |
-| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) | Indicates whether exporting caption as field name Only works for DataTable. |
+| [setExportCaptionAsFieldName(boolean value)](#setExportCaptionAsFieldName-boolean-) | Indicates whether exporting caption as field name |
 | [setFieldNameShown(boolean value)](#setFieldNameShown-boolean-) | Indicates whether field name should be imported. |
 | [setFormulas(boolean[] value)](#setFormulas-boolean---) | Indicates whether the data are formulas. |
 | [setHtmlString(boolean value)](#setHtmlString-boolean-) | Indicates whether the value contains html tags. |
@@ -160,7 +160,11 @@ public boolean getExportCaptionAsFieldName()
 ```
 
 
-Indicates whether exporting caption as field name Only works for DataTable.
+Indicates whether exporting caption as field name
+
+**Remarks**
+
+Only works for DataTable.
 
 **Returns:**
 boolean
@@ -354,7 +358,11 @@ public void setExportCaptionAsFieldName(boolean value)
 ```
 
 
-Indicates whether exporting caption as field name Only works for DataTable.
+Indicates whether exporting caption as field name
+
+**Remarks**
+
+Only works for DataTable.
 
 **Parameters:**
 | Parameter | Type | Description |

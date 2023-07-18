@@ -226,7 +226,8 @@ public int getFormatting()
 ```
 
 
-Represents the formatting of the area. See [FormattingType](../../com.aspose.cells/formattingtype).
+Represents the formatting of the area.
+See [FormattingType](../../com.aspose.cells/formattingtype).
 
 **Returns:**
 int
@@ -425,7 +426,8 @@ public void setFormatting(int value)
 ```
 
 
-Represents the formatting of the area. See [FormattingType](../../com.aspose.cells/formattingtype).
+Represents the formatting of the area.
+See [FormattingType](../../com.aspose.cells/formattingtype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -107,7 +107,11 @@ public static final int BMP
 ```
 
 
-Represents a BMP file. The file format is not supported Only for detecting file type.
+Represents a BMP file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### CSV {#CSV}
 ```
@@ -131,7 +135,11 @@ public static final int DOC
 ```
 
 
-Represents a doc file. The file format is not supported Only for detecting file type.
+Represents a doc file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### DOCM {#DOCM}
 ```
@@ -139,7 +147,11 @@ public static final int DOCM
 ```
 
 
-Represents a docm file. The file format is not supported Only for detecting file type.
+Represents a docm file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### DOCX {#DOCX}
 ```
@@ -147,7 +159,11 @@ public static final int DOCX
 ```
 
 
-Represents a docx file. The file format is not supported Only for detecting file type.
+Represents a docx file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### DOTM {#DOTM}
 ```
@@ -155,7 +171,11 @@ public static final int DOTM
 ```
 
 
-Represents a dotm file. The file format is not supported Only for detecting file type.
+Represents a dotm file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### DOTX {#DOTX}
 ```
@@ -163,7 +183,11 @@ public static final int DOTX
 ```
 
 
-Represents a dotx file. The file format is not supported Only for detecting file type.
+Represents a dotx file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### EMF {#EMF}
 ```
@@ -179,7 +203,11 @@ public static final int EXCEL_2
 ```
 
 
-Represents an Excel2.1 xls file. The file format is not supported
+Represents an Excel2.1 xls file.
+
+**Remarks**
+
+The file format is not supported
 
 ### EXCEL_3 {#EXCEL-3}
 ```
@@ -187,7 +215,11 @@ public static final int EXCEL_3
 ```
 
 
-Represents an Excel3.0 xls file. The file format is not supported
+Represents an Excel3.0 xls file.
+
+**Remarks**
+
+The file format is not supported
 
 ### EXCEL_4 {#EXCEL-4}
 ```
@@ -195,7 +227,11 @@ public static final int EXCEL_4
 ```
 
 
-Represents an Excel4.0 xls file. The file format is not supported
+Represents an Excel4.0 xls file.
+
+**Remarks**
+
+The file format is not supported
 
 ### EXCEL_95 {#EXCEL-95}
 ```
@@ -243,7 +279,11 @@ public static final int G_ZIP
 ```
 
 
-Rrepesents GZip file. The file format is not supported Only for detecting file type.
+Rrepesents GZip file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### HTML {#HTML}
 ```
@@ -275,7 +315,11 @@ public static final int MAPI_MESSAGE
 ```
 
 
-Represents a email file. The file format is not supported Only for detecting file type.
+Represents a email file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### MARKDOWN {#MARKDOWN}
 ```
@@ -299,7 +343,11 @@ public static final int MS_EQUATION
 ```
 
 
-Represents the MS Equation 3.0 object. The file format is not supported Only for detecting file type.
+Represents the MS Equation 3.0 object.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### M_HTML {#M-HTML}
 ```
@@ -339,7 +387,11 @@ public static final int ODF
 ```
 
 
-Represents an ODF file. The file format is not supported Only for detecting file type.
+Represents an ODF file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### ODG {#ODG}
 ```
@@ -347,7 +399,11 @@ public static final int ODG
 ```
 
 
-Represents an ODG file. The file format is not supported Only for detecting file type.
+Represents an ODG file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### ODP {#ODP}
 ```
@@ -355,7 +411,11 @@ public static final int ODP
 ```
 
 
-Represents a ODP file. The file format is not supported Only for detecting file type.
+Represents a ODP file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### ODS {#ODS}
 ```
@@ -371,7 +431,11 @@ public static final int ODT
 ```
 
 
-Represents an ODT file. The file format is not supported Only for detecting file type.
+Represents an ODT file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### OLE_10_NATIVE {#OLE-10-NATIVE}
 ```
@@ -379,7 +443,11 @@ public static final int OLE_10_NATIVE
 ```
 
 
-Represents the embedded native object. The file format is not supported Only for detecting file type.
+Represents the embedded native object.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### ONE_NOTE {#ONE-NOTE}
 ```
@@ -387,7 +455,11 @@ public static final int ONE_NOTE
 ```
 
 
-Rrepesents One Note file. The file format is not supported Only for detecting file type.
+Rrepesents One Note file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### OOXML {#OOXML}
 ```
@@ -395,7 +467,11 @@ public static final int OOXML
 ```
 
 
-Represents office open xml file(such as xlsx, docx,pptx, etc). The file format is not supported Only for detecting file type. If the office open xml file is encrypted, it could not be detected as xlsx ,docx, pptx,etc.
+Represents office open xml file(such as xlsx, docx,pptx, etc).
+
+**Remarks**
+
+The file format is not supported Only for detecting file type. If the office open xml file is encrypted, it could not be detected as xlsx ,docx, pptx,etc.
 
 ### OTP {#OTP}
 ```
@@ -403,7 +479,11 @@ public static final int OTP
 ```
 
 
-Represents a OTP file. The file format is not supported. Only for detecting file type.
+Represents a OTP file.
+
+**Remarks**
+
+The file format is not supported. Only for detecting file type.
 
 ### OTS {#OTS}
 ```
@@ -419,7 +499,11 @@ public static final int OTT
 ```
 
 
-Represents an OTT file. The file format is not supported Only for detecting file type.
+Represents an OTT file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### PDF {#PDF}
 ```
@@ -443,7 +527,11 @@ public static final int POTM
 ```
 
 
-Represents a Potm file. The file format is not supported Only for detecting file type.
+Represents a Potm file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### POTX {#POTX}
 ```
@@ -451,7 +539,11 @@ public static final int POTX
 ```
 
 
-Represents a Potx file. The file format is not supported Only for detecting file type.
+Represents a Potx file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### PPSM {#PPSM}
 ```
@@ -459,7 +551,11 @@ public static final int PPSM
 ```
 
 
-Represents a ppsm file. The file format is not supported Only for detecting file type.
+Represents a ppsm file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### PPSX {#PPSX}
 ```
@@ -467,7 +563,11 @@ public static final int PPSX
 ```
 
 
-Represents a ppsx file. The file format is not supported Only for detecting file type.
+Represents a ppsx file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### PPT {#PPT}
 ```
@@ -475,7 +575,11 @@ public static final int PPT
 ```
 
 
-Represents a ppt file. The file format is not supported Only for detecting file type.
+Represents a ppt file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### PPTM {#PPTM}
 ```
@@ -483,7 +587,11 @@ public static final int PPTM
 ```
 
 
-Represents a pptm file. The file format is not supported Only for detecting file type.
+Represents a pptm file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### PPTX {#PPTX}
 ```
@@ -491,7 +599,11 @@ public static final int PPTX
 ```
 
 
-Represents a pptx file. The file format is not supported Only for detecting file type.
+Represents a pptx file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### RTF {#RTF}
 ```
@@ -571,7 +683,11 @@ public static final int VSD
 ```
 
 
-Represents MS Visio VSD binary format. The file format is not supported Only for detecting file type.
+Represents MS Visio VSD binary format.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### VSDX {#VSDX}
 ```
@@ -579,7 +695,11 @@ public static final int VSDX
 ```
 
 
-Represents MS Visio 2013 VSDX file format. The file format is not supported Only for detecting file type.
+Represents MS Visio 2013 VSDX file format.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### WMF {#WMF}
 ```
@@ -651,7 +771,11 @@ public static final int XML
 ```
 
 
-Represents a simple xml file. The file format is not supported Only for detecting file type.
+Represents a simple xml file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### XPS {#XPS}
 ```

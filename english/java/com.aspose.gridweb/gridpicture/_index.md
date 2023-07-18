@@ -334,7 +334,8 @@ public int getImageFormat()
 ```
 
 
-Gets the image format of the picture. See [GridImageType](../../com.aspose.gridweb/gridimagetype).
+Gets the image format of the picture.
+See [GridImageType](../../com.aspose.gridweb/gridimagetype).
 
 **Returns:**
 int
@@ -534,7 +535,11 @@ public String getSourceFullName()
 ```
 
 
-Gets the path and name of the source file for the linked image. The default value is an empty string. If SourceFullName is not an empty string, the image is linked. If SourceFullName is not an empty string, but Data is null, then the image is linked and not stored in the file.
+Gets the path and name of the source file for the linked image.
+
+**Remarks**
+
+The default value is an empty string. If SourceFullName is not an empty string, the image is linked. If SourceFullName is not an empty string, but Data is null, then the image is linked and not stored in the file.
 
 **Returns:**
 java.lang.String
@@ -564,7 +569,11 @@ public int getTop()
 ```
 
 
-Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
+Represents the vertical offset of shape from its top row, in unit of pixels.
+
+**Remarks**
+
+If the shape is in the chart, represents the vertical offset of shape from its top border.
 
 **Returns:**
 int
@@ -634,7 +643,11 @@ public int getUpperLeftRow()
 ```
 
 
-Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+Represents upper left corner row index.
+
+**Remarks**
+
+If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 **Returns:**
 int
@@ -1261,7 +1274,11 @@ public void setSourceFullName(String value)
 ```
 
 
-Sets the path and name of the source file for the linked image. The default value is an empty string. If SourceFullName is not an empty string, the image is linked. If SourceFullName is not an empty string, but Data is null, then the image is linked and not stored in the file.
+Sets the path and name of the source file for the linked image.
+
+**Remarks**
+
+The default value is an empty string. If SourceFullName is not an empty string, the image is linked. If SourceFullName is not an empty string, but Data is null, then the image is linked and not stored in the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1313,7 +1330,11 @@ public void setTop(int value)
 ```
 
 
-Represents the vertical offset of shape from its top row, in unit of pixels. If the shape is in the chart, represents the vertical offset of shape from its top border.
+Represents the vertical offset of shape from its top row, in unit of pixels.
+
+**Remarks**
+
+If the shape is in the chart, represents the vertical offset of shape from its top border.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1404,7 +1425,11 @@ public void setUpperLeftRow(int value)
 ```
 
 
-Represents upper left corner row index. If the shape is in the shape or in the group , UpperLeftRow will be ignored.
+Represents upper left corner row index.
+
+**Remarks**
+
+If the shape is in the shape or in the group , UpperLeftRow will be ignored.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -12,7 +12,11 @@ java.lang.Object
 public abstract class AbstractCalculationEngine
 ```
 
-Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. User should not modify any part of the Workbook directly in this implementation(except the calculated result of the custom function, which can be set by CalculationData.CalculatedValue property). Otherwise unexpected result or Exception may be caused. If user needs to change other data than calculated result in the implementation for some custom functions, for example, change cell's formula, style, ...etc., user should gather those data in this implementation and change them out of the scope of formula calculation.
+Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells.
+
+**Remarks**
+
+User should not modify any part of the Workbook directly in this implementation(except the calculated result of the custom function, which can be set by CalculationData.CalculatedValue property). Otherwise unexpected result or Exception may be caused. If user needs to change other data than calculated result in the implementation for some custom functions, for example, change cell's formula, style, ...etc., user should gather those data in this implementation and change them out of the scope of formula calculation.
 
 **Example**
 
@@ -80,7 +84,11 @@ public abstract void calculate(CalculationData data)
 ```
 
 
-Calculates one function with given data. User should set the calculated value for given data for all functions(including excel native functions) that he wants to calculate by himself in this implementation.
+Calculates one function with given data.
+
+**Remarks**
+
+User should set the calculated value for given data for all functions(including excel native functions) that he wants to calculate by himself in this implementation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -138,7 +146,11 @@ public boolean isParamLiteralRequired()
 ```
 
 
-Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false. If this custom calculation engine requires the parameter's literal text, more stacks will be required to cache the literal text for parameters and Calculate() method may be called recursively to calculate the parameter's value. Commonly the literal text is not needed for calculating formulas and this method should return false for most implementations to get better performance.
+Indicates whether this engine needs the literal text of parameter while doing calculation. Default value is false.
+
+**Remarks**
+
+If this custom calculation engine requires the parameter's literal text, more stacks will be required to cache the literal text for parameters and Calculate() method may be called recursively to calculate the parameter's value. Commonly the literal text is not needed for calculating formulas and this method should return false for most implementations to get better performance.
 
 **Returns:**
 boolean

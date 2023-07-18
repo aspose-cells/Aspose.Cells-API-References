@@ -203,7 +203,8 @@ public int getNumberType()
 ```
 
 
-Gets the number type of the column. See [NumberType](../../com.aspose.gridweb/numbertype).
+Gets the number type of the column.
+See [NumberType](../../com.aspose.gridweb/numbertype).
 
 **Returns:**
 int
@@ -429,7 +430,8 @@ public void setNumberType(int value)
 ```
 
 
-Sets the number type of the column. See [NumberType](../../com.aspose.gridweb/numbertype).
+Sets the number type of the column.
+See [NumberType](../../com.aspose.gridweb/numbertype).
 
 **Parameters:**
 | Parameter | Type | Description |

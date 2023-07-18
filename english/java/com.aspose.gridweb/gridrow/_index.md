@@ -76,7 +76,11 @@ public GridCell getCellByIndex(int index)
 ```
 
 
-Get the cell by specific index in the list. NOTE: This member is now obsolete. Instead,please use Row.GetEnumerator() method to iterate all cells in this row. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
+Get the cell by specific index in the list.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please use Row.GetEnumerator() method to iterate all cells in this row. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

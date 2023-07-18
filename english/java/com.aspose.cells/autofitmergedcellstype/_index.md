@@ -64,7 +64,11 @@ public static final int NONE
 ```
 
 
-Ignore merged cells. Default.
+Ignore merged cells.
+
+**Remarks**
+
+Default.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

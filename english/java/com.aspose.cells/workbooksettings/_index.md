@@ -46,7 +46,7 @@ Represents all settings of the workbook.
 | [getDataExtractLoad()](#getDataExtractLoad--) | indicates whether the application last opened the workbook for data recovery. |
 | [getDate1904()](#getDate1904--) | Gets a value which represents if the workbook uses the 1904 date system. |
 | [getDisplayDrawingObjects()](#getDisplayDrawingObjects--) | Indicates whether and how to show objects in the workbook. |
-| [getEnableMacros()](#getEnableMacros--) | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
+| [getEnableMacros()](#getEnableMacros--) | Enable macros; |
 | [getFirstVisibleTab()](#getFirstVisibleTab--) | Gets the first visible worksheet tab. |
 | [getForceFullCalculate()](#getForceFullCalculate--) | Fully calculates every time when a calculation is triggered. |
 | [getFormulaSettings()](#getFormulaSettings--) | Gets the settings for formula-related features. |
@@ -66,7 +66,7 @@ Represents all settings of the workbook.
 | [getPaperSize()](#getPaperSize--) | Gets the default print paper size. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getPassword()](#getPassword--) | Represents Workbook file encryption password. |
-| [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. |
+| [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
 | [getProtectionType()](#getProtectionType--) | Gets the protection type of the workbook. |
 | [getQuotePrefixToStyle()](#getQuotePrefixToStyle--) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
 | [getReCalculateOnOpen()](#getReCalculateOnOpen--) | Indicates whether re-calculate all formulas on opening file. |
@@ -124,7 +124,7 @@ Represents all settings of the workbook.
 | [setDate1904(boolean value)](#setDate1904-boolean-) | Sets a value which represents if the workbook uses the 1904 date system. |
 | [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
 | [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) | Indicates whether and how to show objects in the workbook. |
-| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
+| [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Enable macros; |
 | [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) | Sets the first visible worksheet tab. |
 | [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) | Fully calculates every time when a calculation is triggered. |
 | [setGlobalizationSettings(GlobalizationSettings value)](#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-) | Sets the globalization settings. |
@@ -145,7 +145,7 @@ Represents all settings of the workbook.
 | [setPaperSize(int value)](#setPaperSize-int-) | Sets the default print paper size. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Represents Workbook file encryption password. |
-| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. |
+| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
 | [setQuotePrefixToStyle(boolean value)](#setQuotePrefixToStyle-boolean-) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
 | [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | Indicates whether re-calculate all formulas on opening file. |
 | [setRecalculateBeforeSave(boolean value)](#setRecalculateBeforeSave-boolean-) | Indicates whether to recalculate before saving the document. |
@@ -207,7 +207,11 @@ public String getAuthor()
 ```
 
 
-Gets the author of the file. It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
+Gets the author of the file.
+
+**Remarks**
+
+It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
 
 **Returns:**
 java.lang.String
@@ -247,7 +251,12 @@ public int getCalcMode()
 ```
 
 
-It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. See [CalcModeType](../../com.aspose.cells/calcmodetype). Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations.
+See [CalcModeType](../../com.aspose.cells/calcmodetype).
+
+**Remarks**
+
+Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -257,7 +266,11 @@ public int getCalcStackSize()
 ```
 
 
-Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand, larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas, this value should be decreased. NOTE: This member is now obsolete. Instead, please use CalculationOptions with the specified CalcStackSize when calculating formulas. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand, larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas, this value should be decreased.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CalculationOptions with the specified CalcStackSize when calculating formulas. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -267,7 +280,11 @@ public String getCalculationId()
 ```
 
 
-Specifies the version of the calculation engine used to calculate values in the workbook. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Specifies the version of the calculation engine used to calculate values in the workbook.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String
@@ -277,7 +294,11 @@ public boolean getCheckCompatibility()
 ```
 
 
-Indicates whether check compatibility with earlier versions when saving workbook. The default value is true. Only for Excel97-2003 xls or xlt files.
+Indicates whether check compatibility with earlier versions when saving workbook.
+
+**Remarks**
+
+The default value is true. Only for Excel97-2003 xls or xlt files.
 
 **Returns:**
 boolean
@@ -317,7 +338,12 @@ public int getCompliance()
 ```
 
 
-Specifies the OOXML version for the output document. The default value is Ecma376\_2006. See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance). Only for .xlsx files.
+Specifies the OOXML version for the output document. The default value is Ecma376\_2006.
+See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance).
+
+**Remarks**
+
+Only for .xlsx files.
 
 **Returns:**
 int
@@ -337,7 +363,11 @@ public boolean getCreateCalcChain()
 ```
 
 
-Whether creates calculated formulas chain. Default is false. NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableCalculationChain. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Whether creates calculated formulas chain. Default is false.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableCalculationChain. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -367,7 +397,8 @@ public int getDisplayDrawingObjects()
 ```
 
 
-Indicates whether and how to show objects in the workbook. See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
+Indicates whether and how to show objects in the workbook.
+See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
 
 **Returns:**
 int
@@ -377,7 +408,11 @@ public boolean getEnableMacros()
 ```
 
 
-Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook.
+Enable macros;
+
+**Remarks**
+
+Now it only works when copying a worksheet to other worksheet in a workbook.
 
 **Returns:**
 boolean
@@ -397,7 +432,11 @@ public boolean getForceFullCalculate()
 ```
 
 
-Fully calculates every time when a calculation is triggered. NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Fully calculates every time when a calculation is triggered.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -437,7 +476,11 @@ public boolean getIteration()
 ```
 
 
-Indicates whether enable iterative calculation to resolve circular references. NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether enable iterative calculation to resolve circular references.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -447,7 +490,8 @@ public int getLanguageCode()
 ```
 
 
-Gets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file.
+See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
 int
@@ -457,7 +501,11 @@ public Locale getLocale()
 ```
 
 
-Gets the Locale used by this workbook. Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
+Gets the Locale used by this workbook.
+
+**Remarks**
+
+Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
 
 **Returns:**
 java.util.Locale
@@ -467,7 +515,11 @@ public double getMaxChange()
 ```
 
 
-Returns or sets the maximum number of change to resolve a circular reference. NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Returns or sets the maximum number of change to resolve a circular reference.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 double
@@ -477,7 +529,11 @@ public int getMaxColumn()
 ```
 
 
-Gets the max column index, zero-based. Returns 255 if the file format is Excel97-2003;
+Gets the max column index, zero-based.
+
+**Remarks**
+
+Returns 255 if the file format is Excel97-2003;
 
 **Returns:**
 int
@@ -487,7 +543,11 @@ public int getMaxIteration()
 ```
 
 
-Returns or sets the maximum number of iterations to resolve a circular reference. NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Returns or sets the maximum number of iterations to resolve a circular reference.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -497,7 +557,11 @@ public int getMaxRow()
 ```
 
 
-Gets the max row index, zero-based. Returns 65535 if the file format is Excel97-2003;
+Gets the max row index, zero-based.
+
+**Remarks**
+
+Returns 65535 if the file format is Excel97-2003;
 
 **Returns:**
 int
@@ -507,7 +571,11 @@ public int getMaxRowsOfSharedFormula()
 ```
 
 
-Gets the max row number of shared formula. If the number is too large, the autofilter works very slow in MS Excel 2013.
+Gets the max row number of shared formula.
+
+**Remarks**
+
+If the number is too large, the autofilter works very slow in MS Excel 2013.
 
 **Returns:**
 int
@@ -517,7 +585,8 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. See [MemorySetting](../../com.aspose.cells/memorysetting).
+Gets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
+See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -547,7 +616,12 @@ public int getPaperSize()
 ```
 
 
-Gets the default print paper size. See [PaperSizeType](../../com.aspose.cells/papersizetype). If there is no setting about paper size,MS Excel will use default printer's setting.
+Gets the default print paper size.
+See [PaperSizeType](../../com.aspose.cells/papersizetype).
+
+**Remarks**
+
+If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Returns:**
 int
@@ -557,7 +631,11 @@ public boolean getParsingFormulaOnOpen()
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula. NOTE: This member is now obsolete. Instead, please use LoadOptions.ParsingFormulaOnOpen. This property will be removed 12 months later since January 2020. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula. NOTE: This member is now obsolete. Instead, please use LoadOptions.ParsingFormulaOnOpen. This property will be removed 12 months later since January 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -577,7 +655,11 @@ public boolean getPrecisionAsDisplayed()
 ```
 
 
-True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+True if calculations in this workbook will be done using only the precision of the numbers as they're displayed
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -587,7 +669,8 @@ public int getProtectionType()
 ```
 
 
-Gets the protection type of the workbook. See [ProtectionType](../../com.aspose.cells/protectiontype).
+Gets the protection type of the workbook.
+See [ProtectionType](../../com.aspose.cells/protectiontype).
 
 **Returns:**
 int
@@ -607,7 +690,11 @@ public boolean getReCalculateOnOpen()
 ```
 
 
-Indicates whether re-calculate all formulas on opening file. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnOpen. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether re-calculate all formulas on opening file.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnOpen. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -617,7 +704,11 @@ public boolean getRecalculateBeforeSave()
 ```
 
 
-Indicates whether to recalculate before saving the document. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether to recalculate before saving the document.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -627,7 +718,12 @@ public int getRegion()
 ```
 
 
-Gets the regional settings for workbook. See [CountryCode](../../com.aspose.cells/countrycode). 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
+Gets the regional settings for workbook.
+See [CountryCode](../../com.aspose.cells/countrycode).
+
+**Remarks**
+
+1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
 
 **Returns:**
 int
@@ -638,6 +734,8 @@ public boolean getRemovePersonalInformation()
 
 
 True if personal information can be removed from the specified workbook.
+
+**Remarks**
 
 **Returns:**
 boolean
@@ -667,7 +765,11 @@ public boolean getShared()
 ```
 
 
-Gets a value that indicates whether the Workbook is shared. The default value is false.
+Gets a value that indicates whether the Workbook is shared.
+
+**Remarks**
+
+The default value is false.
 
 **Returns:**
 boolean
@@ -687,7 +789,11 @@ public boolean getShowTabs()
 ```
 
 
-Gets a value whether the Workbook tabs are displayed. The default value is true.
+Gets a value whether the Workbook tabs are displayed.
+
+**Remarks**
+
+The default value is true.
 
 **Example**
 
@@ -706,7 +812,11 @@ public int getSignificantDigits()
 ```
 
 
-Gets the number of significant digits. The default value is [CellsHelper.getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--). Only could be 15 or 17 now.
+Gets the number of significant digits. The default value is [CellsHelper.getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--).
+
+**Remarks**
+
+Only could be 15 or 17 now.
 
 **Returns:**
 int
@@ -716,7 +826,11 @@ public IStreamProvider getStreamProvider()
 ```
 
 
-Gets the stream provider for external resource. NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
+Gets the stream provider for external resource.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
@@ -741,7 +855,11 @@ public boolean getUpdateAdjacentCellsBorder()
 ```
 
 
-Indicates whether update adjacent cells' border. The default value is false. For example: the bottom border of the cell A1 is update, the top border of the cell A2 should be changed too.
+Indicates whether update adjacent cells' border.
+
+**Remarks**
+
+The default value is false. For example: the bottom border of the cell A1 is update, the top border of the cell A2 should be changed too.
 
 **Returns:**
 boolean
@@ -751,7 +869,8 @@ public int getUpdateLinksType()
 ```
 
 
-Gets how updates external links when the workbook is opened. See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
+Gets how updates external links when the workbook is opened.
+See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
 
 **Returns:**
 int
@@ -911,7 +1030,11 @@ public boolean isDefaultEncrypted()
 ```
 
 
-Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. The default value is false now. It's same as MS Excel 2013.
+Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked.
+
+**Remarks**
+
+The default value is false now. It's same as MS Excel 2013.
 
 **Returns:**
 boolean
@@ -931,7 +1054,11 @@ public boolean isHScrollBarVisible()
 ```
 
 
-Gets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. The default value is true.
+Gets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar.
+
+**Remarks**
+
+The default value is true.
 
 **Example**
 
@@ -980,7 +1107,11 @@ public boolean isVScrollBarVisible()
 ```
 
 
-Gets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. The default value is true.
+Gets a value indicating whether the generated spreadsheet will contain a vertical scroll bar.
+
+**Remarks**
+
+The default value is true.
 
 **Example**
 
@@ -1015,7 +1146,11 @@ public void setAuthor(String value)
 ```
 
 
-Sets the author of the file. It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
+Sets the author of the file.
+
+**Remarks**
+
+It''s not set, check [BuiltInDocumentPropertyCollection.getAuthor()](../../com.aspose.cells/builtindocumentpropertycollection\#getAuthor--) first, then check the user of Environment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1067,7 +1202,12 @@ public void setCalcMode(int value)
 ```
 
 
-It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. See [CalcModeType](../../com.aspose.cells/calcmodetype). Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations.
+See [CalcModeType](../../com.aspose.cells/calcmodetype).
+
+**Remarks**
+
+Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1080,7 +1220,11 @@ public void setCalcStackSize(int value)
 ```
 
 
-Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand, larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas, this value should be decreased. NOTE: This member is now obsolete. Instead, please use CalculationOptions with the specified CalcStackSize when calculating formulas. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand, larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas, this value should be decreased.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use CalculationOptions with the specified CalcStackSize when calculating formulas. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1093,7 +1237,11 @@ public void setCalculationId(String value)
 ```
 
 
-Specifies the version of the calculation engine used to calculate values in the workbook. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Specifies the version of the calculation engine used to calculate values in the workbook.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1106,7 +1254,11 @@ public void setCheckCompatibility(boolean value)
 ```
 
 
-Indicates whether check compatibility with earlier versions when saving workbook. The default value is true. Only for Excel97-2003 xls or xlt files.
+Indicates whether check compatibility with earlier versions when saving workbook.
+
+**Remarks**
+
+The default value is true. Only for Excel97-2003 xls or xlt files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1145,7 +1297,12 @@ public void setCompliance(int value)
 ```
 
 
-Specifies the OOXML version for the output document. The default value is Ecma376\_2006. See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance). Only for .xlsx files.
+Specifies the OOXML version for the output document. The default value is Ecma376\_2006.
+See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance).
+
+**Remarks**
+
+Only for .xlsx files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1171,7 +1328,11 @@ public void setCreateCalcChain(boolean value)
 ```
 
 
-Whether creates calculated formulas chain. Default is false. NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableCalculationChain. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Whether creates calculated formulas chain. Default is false.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableCalculationChain. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1210,7 +1371,11 @@ public void setDefaultEncrypted(boolean value)
 ```
 
 
-Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. The default value is false now. It's same as MS Excel 2013.
+Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked.
+
+**Remarks**
+
+The default value is false now. It's same as MS Excel 2013.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1223,7 +1388,8 @@ public void setDisplayDrawingObjects(int value)
 ```
 
 
-Indicates whether and how to show objects in the workbook. See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
+Indicates whether and how to show objects in the workbook.
+See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1236,7 +1402,11 @@ public void setEnableMacros(boolean value)
 ```
 
 
-Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook.
+Enable macros;
+
+**Remarks**
+
+Now it only works when copying a worksheet to other worksheet in a workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1262,7 +1432,11 @@ public void setForceFullCalculate(boolean value)
 ```
 
 
-Fully calculates every time when a calculation is triggered. NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Fully calculates every time when a calculation is triggered.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1288,7 +1462,11 @@ public void setHScrollBarVisible(boolean value)
 ```
 
 
-Sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. The default value is true.
+Sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar.
+
+**Remarks**
+
+The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1327,7 +1505,11 @@ public void setIteration(boolean value)
 ```
 
 
-Indicates whether enable iterative calculation to resolve circular references. NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether enable iterative calculation to resolve circular references.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1340,7 +1522,8 @@ public void setLanguageCode(int value)
 ```
 
 
-Sets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1353,7 +1536,11 @@ public void setLocale(Locale value)
 ```
 
 
-Sets the Locale used by this workbook. Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
+Sets the Locale used by this workbook.
+
+**Remarks**
+
+Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbooksettings\#getRegion--) is set.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1366,7 +1553,11 @@ public void setMaxChange(double value)
 ```
 
 
-Returns or sets the maximum number of change to resolve a circular reference. NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Returns or sets the maximum number of change to resolve a circular reference.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1379,7 +1570,11 @@ public void setMaxIteration(int value)
 ```
 
 
-Returns or sets the maximum number of iterations to resolve a circular reference. NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Returns or sets the maximum number of iterations to resolve a circular reference.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1392,7 +1587,11 @@ public void setMaxRowsOfSharedFormula(int value)
 ```
 
 
-Sets the max row number of shared formula. If the number is too large, the autofilter works very slow in MS Excel 2013.
+Sets the max row number of shared formula.
+
+**Remarks**
+
+If the number is too large, the autofilter works very slow in MS Excel 2013.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1405,7 +1604,8 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. See [MemorySetting](../../com.aspose.cells/memorysetting).
+Sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
+See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1470,7 +1670,12 @@ public void setPaperSize(int value)
 ```
 
 
-Sets the default print paper size. See [PaperSizeType](../../com.aspose.cells/papersizetype). If there is no setting about paper size,MS Excel will use default printer's setting.
+Sets the default print paper size.
+See [PaperSizeType](../../com.aspose.cells/papersizetype).
+
+**Remarks**
+
+If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1483,7 +1688,11 @@ public void setParsingFormulaOnOpen(boolean value)
 ```
 
 
-Indicates whether parsing the formula when reading the file. Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula. NOTE: This member is now obsolete. Instead, please use LoadOptions.ParsingFormulaOnOpen. This property will be removed 12 months later since January 2020. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether parsing the formula when reading the file.
+
+**Remarks**
+
+Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula. NOTE: This member is now obsolete. Instead, please use LoadOptions.ParsingFormulaOnOpen. This property will be removed 12 months later since January 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1509,7 +1718,11 @@ public void setPrecisionAsDisplayed(boolean value)
 ```
 
 
-True if calculations in this workbook will be done using only the precision of the numbers as they're displayed NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+True if calculations in this workbook will be done using only the precision of the numbers as they're displayed
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1535,7 +1748,11 @@ public void setReCalculateOnOpen(boolean value)
 ```
 
 
-Indicates whether re-calculate all formulas on opening file. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnOpen. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether re-calculate all formulas on opening file.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnOpen. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1548,7 +1765,11 @@ public void setRecalculateBeforeSave(boolean value)
 ```
 
 
-Indicates whether to recalculate before saving the document. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+Indicates whether to recalculate before saving the document.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1561,7 +1782,12 @@ public void setRegion(int value)
 ```
 
 
-Sets the regional settings for workbook. See [CountryCode](../../com.aspose.cells/countrycode). 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
+Sets the regional settings for workbook.
+See [CountryCode](../../com.aspose.cells/countrycode).
+
+**Remarks**
+
+1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1575,6 +1801,8 @@ public void setRemovePersonalInformation(boolean value)
 
 
 True if personal information can be removed from the specified workbook.
+
+**Remarks**
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1613,7 +1841,11 @@ public void setShared(boolean value)
 ```
 
 
-Sets a value that indicates whether the Workbook is shared. The default value is false.
+Sets a value that indicates whether the Workbook is shared.
+
+**Remarks**
+
+The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1639,7 +1871,11 @@ public void setShowTabs(boolean value)
 ```
 
 
-Sets a value whether the Workbook tabs are displayed. The default value is true.
+Sets a value whether the Workbook tabs are displayed.
+
+**Remarks**
+
+The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1652,7 +1888,11 @@ public void setSignificantDigits(int value)
 ```
 
 
-Sets the number of significant digits. The default value is [CellsHelper.getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--). Only could be 15 or 17 now.
+Sets the number of significant digits. The default value is [CellsHelper.getSignificantDigits()](../../com.aspose.cells/cellshelper\#getSignificantDigits--).
+
+**Remarks**
+
+Only could be 15 or 17 now.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1665,7 +1905,11 @@ public void setStreamProvider(IStreamProvider value)
 ```
 
 
-Sets the stream provider for external resource. NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
+Sets the stream provider for external resource.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ResourceProvider property. This property will be removed 12 months later since June 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1678,7 +1922,11 @@ public void setUpdateAdjacentCellsBorder(boolean value)
 ```
 
 
-Indicates whether update adjacent cells' border. The default value is false. For example: the bottom border of the cell A1 is update, the top border of the cell A2 should be changed too.
+Indicates whether update adjacent cells' border.
+
+**Remarks**
+
+The default value is false. For example: the bottom border of the cell A1 is update, the top border of the cell A2 should be changed too.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1691,7 +1939,8 @@ public void setUpdateLinksType(int value)
 ```
 
 
-Sets how updates external links when the workbook is opened. See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
+Sets how updates external links when the workbook is opened.
+See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1704,7 +1953,11 @@ public void setVScrollBarVisible(boolean value)
 ```
 
 
-Sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar. The default value is true.
+Sets a value indicating whether the generated spreadsheet will contain a vertical scroll bar.
+
+**Remarks**
+
+The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

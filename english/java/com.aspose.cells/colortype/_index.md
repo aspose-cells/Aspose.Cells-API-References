@@ -49,7 +49,11 @@ public static final int AUTOMATIC_INDEX
 ```
 
 
-It's automatic color,but the displayed color depends the setting of the OS System. Not supported.
+It's automatic color,but the displayed color depends the setting of the OS System.
+
+**Remarks**
+
+Not supported.
 
 ### INDEXED_COLOR {#INDEXED-COLOR}
 ```

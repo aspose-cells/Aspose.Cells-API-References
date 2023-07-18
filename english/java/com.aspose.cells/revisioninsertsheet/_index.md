@@ -53,7 +53,8 @@ public int getActionType()
 ```
 
 
-Gets the action type of the revision. See [RevisionActionType](../../com.aspose.cells/revisionactiontype).
+Gets the action type of the revision.
+See [RevisionActionType](../../com.aspose.cells/revisionactiontype).
 
 **Returns:**
 int
@@ -73,7 +74,11 @@ public int getId()
 ```
 
 
-Gets the number of this revision. Zero means this revision does not contains id.
+Gets the number of this revision.
+
+**Remarks**
+
+Zero means this revision does not contains id.
 
 **Returns:**
 int
@@ -103,7 +108,8 @@ public int getType()
 ```
 
 
-Gets the type of revision. See [RevisionType](../../com.aspose.cells/revisiontype).
+Gets the type of revision.
+See [RevisionType](../../com.aspose.cells/revisiontype).
 
 **Returns:**
 int

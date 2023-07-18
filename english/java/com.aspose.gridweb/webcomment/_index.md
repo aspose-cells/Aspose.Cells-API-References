@@ -1,7 +1,7 @@
 ---
 title: WebComment
 second_title: Aspose.Cells for Java API Reference
-description: NOTE This class is now obsolete.
+description: Remarks
 type: docs
 url: /java/com.aspose.gridweb/webcomment/
 ---
@@ -11,6 +11,8 @@ java.lang.Object
 ```
 public class WebComment
 ```
+
+**Remarks**
 
 NOTE: This class is now obsolete. please use GridComment Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
 ## Methods

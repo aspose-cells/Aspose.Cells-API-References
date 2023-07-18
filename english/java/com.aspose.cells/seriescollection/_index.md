@@ -113,6 +113,10 @@ public int add(String area, boolean isVertical)
 
 
 Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart.
+
+**Remarks**
+
+
 If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.
 
 If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).
@@ -133,6 +137,10 @@ public int add(String area, boolean isVertical, boolean checkLabels)
 
 
 Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart.
+
+**Remarks**
+
+
 If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.
 
 If set data on non contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).
@@ -154,6 +162,10 @@ public int addR1C1(String area, boolean isVertical)
 
 
 Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart.
+
+**Remarks**
+
+
 If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1]:R[3]C[2].
 
 If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1],R[3]C[2]).
@@ -409,6 +421,10 @@ public void setSeriesNames(int startIndex, String area, boolean isVertical)
 
 
 Sets the name of all the serieses in the chart.
+
+**Remarks**
+
+
 If the start index is larger than the count of the serieses, it will return and do nothing.
 
 If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.

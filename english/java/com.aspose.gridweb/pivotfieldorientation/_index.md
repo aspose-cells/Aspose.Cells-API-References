@@ -12,7 +12,11 @@ java.lang.Object
 public final class PivotFieldOrientation
 ```
 
-Represents The location of the field in the specified PivotTable report. NOTE: This class is now obsolete. please use GridPivotFieldType Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
+Represents The location of the field in the specified PivotTable report.
+
+**Remarks**
+
+NOTE: This class is now obsolete. please use GridPivotFieldType Instead. This class will be removed after 6 months since Aug. 2014. Aspose apologizes for any inconvenience you may have experienced.
 ## Fields
 
 | Field | Description |

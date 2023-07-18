@@ -63,7 +63,11 @@ public static void addAddInFunction(String function, int minCountOfParameters, i
 ```
 
 
-Add addin function. NOTE: This member is now obsolete. Instead, please use WorksheetCollection.RegisterAddInFunction() methods. This method will be removed 12 months later since January 2022. Aspose apologizes for any inconvenience you may have experienced.
+Add addin function.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use WorksheetCollection.RegisterAddInFunction() methods. This method will be removed 12 months later since January 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -253,6 +257,8 @@ public static double getDPI()
 
 Gets the DPI of the machine.
 
+**Remarks**
+
 **Returns:**
 double
 ### getDateTimeFromDouble(double doubleValue, boolean date1904) {#getDateTimeFromDouble-double-boolean-}
@@ -303,7 +309,11 @@ public static int getSignificantDigits()
 ```
 
 
-Gets the number of significant digits. The default value is 17. Only could be 15 or 17 now.
+Gets the number of significant digits. The default value is 17.
+
+**Remarks**
+
+Only could be 15 or 17 now.
 
 **Returns:**
 int
@@ -385,7 +395,11 @@ public static void mergeFiles(String[] files, String cachedFile, String destFile
 ```
 
 
-Merges some large xls files to a xls file. This method only supports merging data, style and formulas to the new file. The cached file is used to store some temporary data.
+Merges some large xls files to a xls file.
+
+**Remarks**
+
+This method only supports merging data, style and formulas to the new file. The cached file is used to store some temporary data.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -487,6 +501,8 @@ public static void setDPI(double value)
 
 Gets the DPI of the machine.
 
+**Remarks**
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -511,7 +527,11 @@ public static void setSignificantDigits(int value)
 ```
 
 
-Sets the number of significant digits. The default value is 17. Only could be 15 or 17 now.
+Sets the number of significant digits. The default value is 17.
+
+**Remarks**
+
+Only could be 15 or 17 now.
 
 **Parameters:**
 | Parameter | Type | Description |

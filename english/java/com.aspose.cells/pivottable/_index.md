@@ -99,7 +99,7 @@ Summary description for PivotTable.
 | [calculateData()](#calculateData--) | Calculates pivottable's data to cells. |
 | [calculateRange()](#calculateRange--) | Calculates pivottable's range. |
 | [changeDataSource(String[] source)](#changeDataSource-java.lang.String---) | Set pivottable's source data. |
-| [clearData()](#clearData--) | Clear PivotTable's data and formatting If this method is not called before you add or delete PivotField, Maybe the PivotTable data is not corrected |
+| [clearData()](#clearData--) | Clear PivotTable's data and formatting |
 | [copyStyle(PivotTable pivotTable)](#copyStyle-com.aspose.cells.PivotTable-) | Copies named style from another pivot table. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -358,7 +358,11 @@ public void calculateData()
 ```
 
 
-Calculates pivottable's data to cells. Cell.Value in the pivot range could not return the correct result if the method is not been called. This method calculates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
+Calculates pivottable's data to cells.
+
+**Remarks**
+
+Cell.Value in the pivot range could not return the correct result if the method is not been called. This method calculates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
 
 ### calculateRange() {#calculateRange--}
 ```
@@ -366,7 +370,11 @@ public void calculateRange()
 ```
 
 
-Calculates pivottable's range. If this method is not been called,maybe the pivottable range is not corrected.
+Calculates pivottable's range.
+
+**Remarks**
+
+If this method is not been called,maybe the pivottable range is not corrected.
 
 ### changeDataSource(String[] source) {#changeDataSource-java.lang.String---}
 ```
@@ -387,7 +395,11 @@ public void clearData()
 ```
 
 
-Clear PivotTable's data and formatting If this method is not called before you add or delete PivotField, Maybe the PivotTable data is not corrected
+Clear PivotTable's data and formatting
+
+**Remarks**
+
+If this method is not called before you add or delete PivotField, Maybe the PivotTable data is not corrected
 
 ### copyStyle(PivotTable pivotTable) {#copyStyle-com.aspose.cells.PivotTable-}
 ```
@@ -522,7 +534,8 @@ public int getAutoFormatType()
 ```
 
 
-Gets the PivotTable auto format type. See [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
+Gets the PivotTable auto format type.
+See [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
 
 **Returns:**
 int
@@ -857,7 +870,8 @@ public int getMissingItemsLimit()
 ```
 
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
 **Returns:**
 int
@@ -887,7 +901,8 @@ public int getPageFieldOrder()
 ```
 
 
-Gets the order in which page fields are added to the PivotTable report's layout. See [PrintOrderType](../../com.aspose.cells/printordertype).
+Gets the order in which page fields are added to the PivotTable report's layout.
+See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Returns:**
 int
@@ -957,7 +972,8 @@ public int getPivotTableStyleType()
 ```
 
 
-Gets the built-in pivot table style. See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
+Gets the built-in pivot table style.
+See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 
 **Returns:**
 int
@@ -1370,7 +1386,11 @@ public void refreshData()
 ```
 
 
-Refreshes pivottable's data and setting from it's data source. We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
+Refreshes pivottable's data and setting from it's data source.
+
+**Remarks**
+
+We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
 
 ### removeField(int fieldType, PivotField pivotField) {#removeField-int-com.aspose.cells.PivotField-}
 ```
@@ -1459,7 +1479,8 @@ public void setAutoFormatType(int value)
 ```
 
 
-Gets the PivotTable auto format type. See [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
+Gets the PivotTable auto format type.
+See [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1878,7 +1899,8 @@ public void setMissingItemsLimit(int value)
 ```
 
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
+See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1930,7 +1952,8 @@ public void setPageFieldOrder(int value)
 ```
 
 
-Gets the order in which page fields are added to the PivotTable report's layout. See [PrintOrderType](../../com.aspose.cells/printordertype).
+Gets the order in which page fields are added to the PivotTable report's layout.
+See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1969,7 +1992,8 @@ public void setPivotTableStyleType(int value)
 ```
 
 
-Sets the built-in pivot table style. See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
+Sets the built-in pivot table style.
+See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 
 **Parameters:**
 | Parameter | Type | Description |

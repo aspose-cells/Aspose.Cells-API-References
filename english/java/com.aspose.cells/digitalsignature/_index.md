@@ -115,7 +115,11 @@ public UUID getId()
 ```
 
 
-Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content. Default value is Empty (all zeroes) Guid. When set, it associates [SignatureLine](../../com.aspose.cells/signatureline) with corresponding [DigitalSignature](../../com.aspose.cells/digitalsignature).
+Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content. Default value is Empty (all zeroes) Guid.
+
+**Remarks**
+
+When set, it associates [SignatureLine](../../com.aspose.cells/signatureline) with corresponding [DigitalSignature](../../com.aspose.cells/digitalsignature).
 
 **Returns:**
 java.util.UUID
@@ -135,7 +139,11 @@ public UUID getProviderId()
 ```
 
 
-Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. Microsoft Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider, and \{000CD6A4-0000-0000-C000-000000000046\} for its East Asian signature provider. The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
+Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid.
+
+**Remarks**
+
+The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. Microsoft Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider, and \{000CD6A4-0000-0000-C000-000000000046\} for its East Asian signature provider. The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
 
 **Returns:**
 java.util.UUID
@@ -165,7 +173,8 @@ public int getXAdESType()
 ```
 
 
-XAdES type. Default value is None(XAdES is off). See [XAdESType](../../com.aspose.cells/xadestype).
+XAdES type. Default value is None(XAdES is off).
+See [XAdESType](../../com.aspose.cells/xadestype).
 
 **Returns:**
 int
@@ -237,7 +246,11 @@ public void setId(UUID value)
 ```
 
 
-Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content. Default value is Empty (all zeroes) Guid. When set, it associates [SignatureLine](../../com.aspose.cells/signatureline) with corresponding [DigitalSignature](../../com.aspose.cells/digitalsignature).
+Specifies a GUID which can be cross-referenced with the GUID of the signature line stored in the document content. Default value is Empty (all zeroes) Guid.
+
+**Remarks**
+
+When set, it associates [SignatureLine](../../com.aspose.cells/signatureline) with corresponding [DigitalSignature](../../com.aspose.cells/digitalsignature).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -263,7 +276,11 @@ public void setProviderId(UUID value)
 ```
 
 
-Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. Microsoft Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider, and \{000CD6A4-0000-0000-C000-000000000046\} for its East Asian signature provider. The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
+Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid.
+
+**Remarks**
+
+The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. Microsoft Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider, and \{000CD6A4-0000-0000-C000-000000000046\} for its East Asian signature provider. The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +319,8 @@ public void setXAdESType(int value)
 ```
 
 
-XAdES type. Default value is None(XAdES is off). See [XAdESType](../../com.aspose.cells/xadestype).
+XAdES type. Default value is None(XAdES is off).
+See [XAdESType](../../com.aspose.cells/xadestype).
 
 **Parameters:**
 | Parameter | Type | Description |

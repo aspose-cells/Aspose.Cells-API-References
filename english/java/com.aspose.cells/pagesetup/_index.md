@@ -348,7 +348,11 @@ public int getFitToPagesTall()
 ```
 
 
-Represents the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. You have to set FitToPagesWide as zero if you want to fit all rows on one page.
+Represents the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1.
+
+**Remarks**
+
+You have to set FitToPagesWide as zero if you want to fit all rows on one page.
 
 **Returns:**
 int
@@ -358,7 +362,11 @@ public int getFitToPagesWide()
 ```
 
 
-Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. You have to set FitToPagesTall as zero if you want to fit all columns on one page.
+Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1.
+
+**Remarks**
+
+You have to set FitToPagesTall as zero if you want to fit all columns on one page.
 
 **Returns:**
 int
@@ -468,7 +476,8 @@ public int getOrder()
 ```
 
 
-Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. See [PrintOrderType](../../com.aspose.cells/printordertype).
+Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
+See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Returns:**
 int
@@ -478,7 +487,8 @@ public int getOrientation()
 ```
 
 
-Represents page print orientation. See [PageOrientationType](../../com.aspose.cells/pageorientationtype).
+Represents page print orientation.
+See [PageOrientationType](../../com.aspose.cells/pageorientationtype).
 
 **Returns:**
 int
@@ -498,7 +508,8 @@ public int getPaperSize()
 ```
 
 
-Represents the size of the paper. See [PaperSizeType](../../com.aspose.cells/papersizetype).
+Represents the size of the paper.
+See [PaperSizeType](../../com.aspose.cells/papersizetype).
 
 **Returns:**
 int
@@ -562,7 +573,8 @@ public int getPrintComments()
 ```
 
 
-Represents the way comments are printed with the sheet. See [PrintCommentsType](../../com.aspose.cells/printcommentstype).
+Represents the way comments are printed with the sheet.
+See [PrintCommentsType](../../com.aspose.cells/printcommentstype).
 
 **Returns:**
 int
@@ -592,7 +604,8 @@ public int getPrintErrors()
 ```
 
 
-Specifies the type of print error displayed. See [PrintErrorsType](../../com.aspose.cells/printerrorstype).
+Specifies the type of print error displayed.
+See [PrintErrorsType](../../com.aspose.cells/printerrorstype).
 
 **Returns:**
 int
@@ -981,7 +994,11 @@ public void setFitToPagesTall(int value)
 ```
 
 
-Represents the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1. You have to set FitToPagesWide as zero if you want to fit all rows on one page.
+Represents the number of pages tall the worksheet will be scaled to when it's printed. The default value is 1.
+
+**Remarks**
+
+You have to set FitToPagesWide as zero if you want to fit all rows on one page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -994,7 +1011,11 @@ public void setFitToPagesWide(int value)
 ```
 
 
-Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1. You have to set FitToPagesTall as zero if you want to fit all columns on one page.
+Represents the number of pages wide the worksheet will be scaled to when it's printed. The default value is 1.
+
+**Remarks**
+
+You have to set FitToPagesTall as zero if you want to fit all columns on one page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1008,6 +1029,8 @@ public void setFooter(int section, String footerScript)
 
 
 Sets a script formatting the footer of an Excel file.
+
+**Remarks**
 
 Script commands:
 
@@ -1135,6 +1158,8 @@ public void setHeader(int section, String headerScript)
 
 Sets a script formatting the header of an Excel file.
 
+**Remarks**
+
 Script commands:
 
     | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1233,7 +1258,8 @@ public void setOrder(int value)
 ```
 
 
-Represents the order that Microsoft Excel uses to number pages when printing a large worksheet. See [PrintOrderType](../../com.aspose.cells/printordertype).
+Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
+See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1246,7 +1272,8 @@ public void setOrientation(int value)
 ```
 
 
-Represents page print orientation. See [PageOrientationType](../../com.aspose.cells/pageorientationtype).
+Represents page print orientation.
+See [PageOrientationType](../../com.aspose.cells/pageorientationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1259,7 +1286,8 @@ public void setPaperSize(int value)
 ```
 
 
-Represents the size of the paper. See [PaperSizeType](../../com.aspose.cells/papersizetype).
+Represents the size of the paper.
+See [PaperSizeType](../../com.aspose.cells/papersizetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1317,7 +1345,8 @@ public void setPrintComments(int value)
 ```
 
 
-Represents the way comments are printed with the sheet. See [PrintCommentsType](../../com.aspose.cells/printcommentstype).
+Represents the way comments are printed with the sheet.
+See [PrintCommentsType](../../com.aspose.cells/printcommentstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1356,7 +1385,8 @@ public void setPrintErrors(int value)
 ```
 
 
-Specifies the type of print error displayed. See [PrintErrorsType](../../com.aspose.cells/printerrorstype).
+Specifies the type of print error displayed.
+See [PrintErrorsType](../../com.aspose.cells/printerrorstype).
 
 **Parameters:**
 | Parameter | Type | Description |

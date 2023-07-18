@@ -159,7 +159,11 @@ public String getFormula1()
 ```
 
 
-Gets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+Gets the value or expression associated with conditional formatting.
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Returns:**
 java.lang.String
@@ -185,7 +189,11 @@ public String getFormula1(boolean isR1C1, boolean isLocal, int row, int column)
 ```
 
 
-Gets the value or expression of the conditional formatting of the cell. The given cell must be contained by this conditional formatting, otherwise null will be returned.
+Gets the value or expression of the conditional formatting of the cell.
+
+**Remarks**
+
+The given cell must be contained by this conditional formatting, otherwise null will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +227,11 @@ public String getFormula2()
 ```
 
 
-Gets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+Gets the value or expression associated with conditional formatting.
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Returns:**
 java.lang.String
@@ -245,7 +257,11 @@ public String getFormula2(boolean isR1C1, boolean isLocal, int row, int column)
 ```
 
 
-Gets the value or expression of the conditional formatting of the cell. The given cell must be contained by this conditional formatting, otherwise null will be returned.
+Gets the value or expression of the conditional formatting of the cell.
+
+**Remarks**
+
+The given cell must be contained by this conditional formatting, otherwise null will be returned.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +305,8 @@ public int getOperator()
 ```
 
 
-Gets the conditional format operator type. See [OperatorType](../../com.aspose.cells/operatortype).
+Gets the conditional format operator type.
+See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Returns:**
 int
@@ -339,7 +356,8 @@ public int getTimePeriod()
 ```
 
 
-The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
+The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 
 **Returns:**
 int
@@ -359,7 +377,8 @@ public int getType()
 ```
 
 
-Gets whether the conditional format Type. See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
+Gets whether the conditional format Type.
+See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
 
 **Returns:**
 int
@@ -395,7 +414,11 @@ public void setFormula1(String value)
 ```
 
 
-Sets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+Sets the value or expression associated with conditional formatting.
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -423,7 +446,11 @@ public void setFormula2(String value)
 ```
 
 
-Sets the value or expression associated with conditional formatting. Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
+Sets the value or expression associated with conditional formatting.
+
+**Remarks**
+
+Please add all areas before setting formula. For setting formula for this condition, if the input value starts with '=', then it will be taken as formula. Otherwise it will be taken as plain value(text, number, bool). For text value that starts with '=', user may input it as formula in format: "=\\"=...\\"".
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -467,7 +494,8 @@ public void setOperator(int value)
 ```
 
 
-Sets the conditional format operator type. See [OperatorType](../../com.aspose.cells/operatortype).
+Sets the conditional format operator type.
+See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -532,7 +560,8 @@ public void setTimePeriod(int value)
 ```
 
 
-The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
+The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -545,7 +574,8 @@ public void setType(int value)
 ```
 
 
-Sets whether the conditional format Type. See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
+Sets whether the conditional format Type.
+See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
