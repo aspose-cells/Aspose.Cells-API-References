@@ -71,9 +71,7 @@ Represents the options for saving html file.
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getMergeEmptyTdForcely()](#getMergeEmptyTdForcely--) | Indicates whether merging empty TD element forcedly when exporting file to html. |
 | [getPageTitle()](#getPageTitle--) | The title of the html page. |
-| [getParseHtmlTagInCell()](#getParseHtmlTagInCell--) | Parse html tag in cell,like
-
-,as cell value,or as html tag,default is true |
+| [getParseHtmlTagInCell()](#getParseHtmlTagInCell--) | Parse html tag in cell,like <div></div>,as cell value,or as html tag,default is true |
 | [getPresentationPreference()](#getPresentationPreference--) | Indicating if html or mht file is presentation preference. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveAsSingleFile()](#getSaveAsSingleFile--) | Indicates whether save the html as single file. |
@@ -142,9 +140,7 @@ Represents the options for saving html file.
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Indicates whether merging empty TD element forcedly when exporting file to html. |
 | [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
-| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Parse html tag in cell,like
-
-,as cell value,or as html tag,default is true |
+| [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Parse html tag in cell,like <div></div>,as cell value,or as html tag,default is true |
 | [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Indicating if html or mht file is presentation preference. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
 | [setSaveAsSingleFile(boolean value)](#setSaveAsSingleFile-boolean-) | Indicates whether save the html as single file. |
@@ -674,9 +670,7 @@ public boolean getParseHtmlTagInCell()
 ```
 
 
-Parse html tag in cell,like
-
-,as cell value,or as html tag,default is true
+Parse html tag in cell,like <div></div>,as cell value,or as html tag,default is true
 
 **Returns:**
 boolean
@@ -1506,9 +1500,7 @@ public void setParseHtmlTagInCell(boolean value)
 ```
 
 
-Parse html tag in cell,like
-
-,as cell value,or as html tag,default is true
+Parse html tag in cell,like <div></div>,as cell value,or as html tag,default is true
 
 **Parameters:**
 | Parameter | Type | Description |

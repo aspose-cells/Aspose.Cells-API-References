@@ -7,7 +7,7 @@ url: /net/aspose.cells/htmlsaveoptions/parsehtmltagincell/
 ---
 ## HtmlSaveOptions.ParseHtmlTagInCell property
 
-Parse html tag in cell,like ,as cell value,or as html tag,default is true
+Parse html tag in cell,like &lt;div&gt;&lt;/div&gt;,as cell value,or as html tag,default is true
 
 ```csharp
 public bool ParseHtmlTagInCell { get; set; }
