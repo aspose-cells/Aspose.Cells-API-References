@@ -121,7 +121,7 @@ public int getType()
 ```
 
 
-The color type. [ColorType](../../com.aspose.cells/colortype).
+The color type. See [ColorType](../../com.aspose.cells/colortype).
 
 **Returns:**
 int

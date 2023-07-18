@@ -23,7 +23,7 @@ This class in the equation node is used to store the actual content(a sequence o
 | [equals(Object obj)](#equals-java.lang.Object-) | Determine whether the current equation node is equal to the specified node |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
@@ -139,7 +139,7 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -209,7 +209,7 @@ public int getType()
 ```
 
 
-Represents the type of the node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int

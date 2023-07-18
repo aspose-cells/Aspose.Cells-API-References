@@ -816,7 +816,7 @@ public int getFileFormat()
 ```
 
 
-Gets the file format. [FileFormatType](../../com.aspose.cells/fileformattype).
+Gets the file format. See [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Returns:**
 int
@@ -1541,7 +1541,7 @@ public void setFileFormat(int value)
 ```
 
 
-Sets the file format. [FileFormatType](../../com.aspose.cells/fileformattype).
+Sets the file format. See [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -183,7 +183,7 @@ public int getDefaultEditLanguage()
 ```
 
 
-Gets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
+Gets default edit language. See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Returns:**
 int
@@ -213,7 +213,7 @@ public int getGridlineType()
 ```
 
 
-Gets gridline type. [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
+Gets gridline type. See [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
 
 **Returns:**
 int
@@ -333,7 +333,7 @@ public int getPrintingPageType()
 ```
 
 
-Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
+Indicates which pages will not be printed. See [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
 
 **Example**
 
@@ -374,7 +374,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -429,7 +429,7 @@ public int getTextCrossType()
 ```
 
 
-Gets displaying text type when the text width is larger than cell width. [TextCrossType](../../com.aspose.cells/textcrosstype).
+Gets displaying text type when the text width is larger than cell width. See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Returns:**
 int
@@ -583,7 +583,7 @@ public void setDefaultEditLanguage(int value)
 ```
 
 
-Sets default edit language. [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
+Sets default edit language. See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage). It may display/render different layouts for text paragraph when different edit languages is set. Default is [DefaultEditLanguage.AUTO](../../com.aspose.cells/defaulteditlanguage\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -635,7 +635,7 @@ public void setGridlineType(int value)
 ```
 
 
-Sets gridline type. [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
+Sets gridline type. See [GridlineType](../../com.aspose.cells/gridlinetype). Default is Dotted type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -739,7 +739,7 @@ public void setPrintingPageType(int value)
 ```
 
 
-Indicates which pages will not be printed. [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
+Indicates which pages will not be printed. See [PrintingPageType](../../com.aspose.cells/printingpagetype). If content in the sheet is sparse, there will be some pages are totally blank in the output pdf file. If you don't want these blank pages, you can use this option to omit them.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -804,7 +804,7 @@ public void setTextCrossType(int value)
 ```
 
 
-Sets displaying text type when the text width is larger than cell width. [TextCrossType](../../com.aspose.cells/textcrosstype).
+Sets displaying text type when the text width is larger than cell width. See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Parameters:**
 | Parameter | Type | Description |

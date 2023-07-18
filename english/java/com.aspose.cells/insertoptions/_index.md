@@ -24,12 +24,12 @@ Represents the options of inserting.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCopyFormatType()](#getCopyFormatType--) | [CopyFormatType](../../com.aspose.cells/copyformattype). |
+| [getCopyFormatType()](#getCopyFormatType--) | See [CopyFormatType](../../com.aspose.cells/copyformattype). |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if references in other worksheets will be updated. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCopyFormatType(int value)](#setCopyFormatType-int-) | [CopyFormatType](../../com.aspose.cells/copyformattype). |
+| [setCopyFormatType(int value)](#setCopyFormatType-int-) | See [CopyFormatType](../../com.aspose.cells/copyformattype). |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if references in other worksheets will be updated. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -72,7 +72,7 @@ public int getCopyFormatType()
 ```
 
 
-[CopyFormatType](../../com.aspose.cells/copyformattype).
+See [CopyFormatType](../../com.aspose.cells/copyformattype).
 
 **Returns:**
 int
@@ -118,7 +118,7 @@ public void setCopyFormatType(int value)
 ```
 
 
-[CopyFormatType](../../com.aspose.cells/copyformattype).
+See [CopyFormatType](../../com.aspose.cells/copyformattype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -133,7 +133,7 @@ public int getBorderStyle()
 ```
 
 
-Gets the type of border used by the control. [ControlBorderType](../../com.aspose.cells/controlbordertype).
+Gets the type of border used by the control. See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Returns:**
 int
@@ -223,7 +223,7 @@ public int getIMEMode()
 ```
 
 
-Gets the default run-time mode of the Input Method Editor for the control as it receives focus. [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
+Gets the default run-time mode of the Input Method Editor for the control as it receives focus. See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Returns:**
 int
@@ -263,7 +263,7 @@ public int getListStyle()
 ```
 
 
-Gets the visual appearance. [ControlListStyle](../../com.aspose.cells/controlliststyle).
+Gets the visual appearance. See [ControlListStyle](../../com.aspose.cells/controlliststyle).
 
 **Returns:**
 int
@@ -283,7 +283,7 @@ public int getMatchEntry()
 ```
 
 
-Indicates how a ListBox or ComboBox searches its list as the user types. [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
+Indicates how a ListBox or ComboBox searches its list as the user types. See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
 
 **Returns:**
 int
@@ -303,7 +303,7 @@ public int getMousePointer()
 ```
 
 
-Gets the type of icon displayed as the mouse pointer for the control. [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Gets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Returns:**
 int
@@ -313,7 +313,7 @@ public int getScrollBars()
 ```
 
 
-Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
+Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. See [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
 
 **Returns:**
 int
@@ -323,7 +323,7 @@ public int getSelectionType()
 ```
 
 
-Indicates whether the control permits multiple selections. [SelectionType](../../com.aspose.cells/selectiontype).
+Indicates whether the control permits multiple selections. See [SelectionType](../../com.aspose.cells/selectiontype).
 
 **Returns:**
 int
@@ -353,7 +353,7 @@ public int getSpecialEffect()
 ```
 
 
-Gets the special effect of the control. [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
+Gets the special effect of the control. See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Returns:**
 int
@@ -363,7 +363,7 @@ public int getTextAlign()
 ```
 
 
-Represents how to align the text used by the control. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Represents how to align the text used by the control. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
@@ -383,7 +383,7 @@ public int getType()
 ```
 
 
-Gets the type of the ActiveX control. [ControlType](../../com.aspose.cells/controltype).
+Gets the type of the ActiveX control. See [ControlType](../../com.aspose.cells/controltype).
 
 **Returns:**
 int
@@ -538,7 +538,7 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the type of border used by the control. [ControlBorderType](../../com.aspose.cells/controlbordertype).
+Sets the type of border used by the control. See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -629,7 +629,7 @@ public void setIMEMode(int value)
 ```
 
 
-Sets the default run-time mode of the Input Method Editor for the control as it receives focus. [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
+Sets the default run-time mode of the Input Method Editor for the control as it receives focus. See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -681,7 +681,7 @@ public void setListStyle(int value)
 ```
 
 
-Sets the visual appearance. [ControlListStyle](../../com.aspose.cells/controlliststyle).
+Sets the visual appearance. See [ControlListStyle](../../com.aspose.cells/controlliststyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -720,7 +720,7 @@ public void setMatchEntry(int value)
 ```
 
 
-Indicates how a ListBox or ComboBox searches its list as the user types. [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
+Indicates how a ListBox or ComboBox searches its list as the user types. See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -746,7 +746,7 @@ public void setMousePointer(int value)
 ```
 
 
-Sets the type of icon displayed as the mouse pointer for the control. [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Sets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -759,7 +759,7 @@ public void setScrollBars(int value)
 ```
 
 
-Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
+Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. See [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -772,7 +772,7 @@ public void setSelectionType(int value)
 ```
 
 
-Indicates whether the control permits multiple selections. [SelectionType](../../com.aspose.cells/selectiontype).
+Indicates whether the control permits multiple selections. See [SelectionType](../../com.aspose.cells/selectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -811,7 +811,7 @@ public void setSpecialEffect(int value)
 ```
 
 
-Sets the special effect of the control. [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
+Sets the special effect of the control. See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -824,7 +824,7 @@ public void setTextAlign(int value)
 ```
 
 
-Represents how to align the text used by the control. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Represents how to align the text used by the control. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

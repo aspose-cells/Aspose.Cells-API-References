@@ -113,7 +113,7 @@ public int getLoadDataFilterOptions()
 ```
 
 
-The filter options to denote what data should be loaded. [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
+The filter options to denote what data should be loaded. See [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
 
 **Returns:**
 int
@@ -159,7 +159,7 @@ public void setLoadDataFilterOptions(int value)
 ```
 
 
-The filter options to denote what data should be loaded. [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
+The filter options to denote what data should be loaded. See [LoadDataFilterOptions](../../com.aspose.cells/loaddatafilteroptions).
 
 **Parameters:**
 | Parameter | Type | Description |

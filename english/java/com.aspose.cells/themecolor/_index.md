@@ -98,7 +98,7 @@ public int getColorType()
 ```
 
 
-Gets the theme type. [ThemeColorType](../../com.aspose.cells/themecolortype).
+Gets the theme type. See [ThemeColorType](../../com.aspose.cells/themecolortype).
 
 **Returns:**
 int
@@ -144,7 +144,7 @@ public void setColorType(int value)
 ```
 
 
-Sets the theme type. [ThemeColorType](../../com.aspose.cells/themecolortype).
+Sets the theme type. See [ThemeColorType](../../com.aspose.cells/themecolortype).
 
 **Parameters:**
 | Parameter | Type | Description |

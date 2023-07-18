@@ -83,7 +83,7 @@ public int getIconSetType()
 ```
 
 
-Represents the icon set type. [IconSetType](../../com.aspose.cells/iconsettype). Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
+Represents the icon set type. See [IconSetType](../../com.aspose.cells/iconsettype). Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
 
 **Returns:**
 int
@@ -103,7 +103,7 @@ public int getOrder()
 ```
 
 
-Indicates the order of sorting. [SortOrder](../../com.aspose.cells/sortorder).
+Indicates the order of sorting. See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
 int
@@ -113,7 +113,7 @@ public int getType()
 ```
 
 
-Represents the type of sorting. [SortOnType](../../com.aspose.cells/sortontype).
+Represents the type of sorting. See [SortOnType](../../com.aspose.cells/sortontype).
 
 **Returns:**
 int

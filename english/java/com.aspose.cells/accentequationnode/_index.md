@@ -25,7 +25,7 @@ This class specifies an accent equation, consisting of a base component and a co
 | [getAccentCharacterType()](#getAccentCharacterType--) | Specify combining characters by type value. |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
@@ -126,7 +126,7 @@ public int getAccentCharacterType()
 ```
 
 
-Specify combining characters by type value. [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
+Specify combining characters by type value. See [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
 
 **Returns:**
 int
@@ -161,7 +161,7 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -221,7 +221,7 @@ public int getType()
 ```
 
 
-Represents the type of the node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -358,7 +358,7 @@ public void setAccentCharacterType(int value)
 ```
 
 
-Specify combining characters by type value. [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
+Specify combining characters by type value. See [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
 
 **Parameters:**
 | Parameter | Type | Description |

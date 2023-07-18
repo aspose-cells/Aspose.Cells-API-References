@@ -35,7 +35,7 @@ Represents options when importing a html file.
 | [getConvertFormulasData()](#getConvertFormulasData--) | if true, convert string to formula when string value starts with character '=',the default value is false. |
 | [getConvertNumericData()](#getConvertNumericData--) | Gets a value that indicates whether the string in text file is converted to numeric data. |
 | [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the default style settings for initializing styles of the workbook |
-| [getDeleteRedundantSpaces()](#getDeleteRedundantSpaces--) | Indicates whether delete redundant spaces when the text wraps lines using <br>tag.The default value is false. |
+| [getDeleteRedundantSpaces()](#getDeleteRedundantSpaces--) | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. |
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file Only for xlsx file. |
@@ -59,8 +59,8 @@ Represents options when importing a html file.
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name NOTE: This member is now obsolete. |
 | [getStandardFontSize()](#getStandardFontSize--) | Sets the default standard font size. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the StreamProviderImportHtmlFile for importing objects. |
-| [getSupportDivTag()](#getSupportDivTag--) | Indicates whether support the layout of <div> tag when the html file contains <div> tags. |
-| [getTableLoadOptioins()](#getTableLoadOptioins--) | Get the HtmlTableLoadOptionCollection instance |
+| [getSupportDivTag()](#getSupportDivTag--) | Indicates whether support the layout of `<div>` tag when the html file contains it. |
+| [getTableLoadOptions()](#getTableLoadOptions--) | Get the HtmlTableLoadOptionCollection instance |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [hasFormula()](#hasFormula--) | Indicates whether the text is formula if it starts with "=". |
 | [hashCode()](#hashCode--) |  |
@@ -75,7 +75,7 @@ Represents options when importing a html file.
 | [setConvertDateTimeData(boolean value)](#setConvertDateTimeData-boolean-) | Sets a value that indicates whether the string in text file is converted to date data. |
 | [setConvertFormulasData(boolean value)](#setConvertFormulasData-boolean-) | if true, convert string to formula when string value starts with character '=',the default value is false. |
 | [setConvertNumericData(boolean value)](#setConvertNumericData-boolean-) | Sets a value that indicates whether the string in text file is converted to numeric data. |
-| [setDeleteRedundantSpaces(boolean value)](#setDeleteRedundantSpaces-boolean-) | Indicates whether delete redundant spaces when the text wraps lines using <br>tag.The default value is false. |
+| [setDeleteRedundantSpaces(boolean value)](#setDeleteRedundantSpaces-boolean-) | Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | Sets the default encoding. |
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
@@ -99,7 +99,7 @@ Represents options when importing a html file.
 | [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name NOTE: This member is now obsolete. |
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the StreamProviderImportHtmlFile for importing objects. |
-| [setSupportDivTag(boolean value)](#setSupportDivTag-boolean-) | Indicates whether support the layout of <div> tag when the html file contains <div> tags. |
+| [setSupportDivTag(boolean value)](#setSupportDivTag-boolean-) | Indicates whether support the layout of `<div>` tag when the html file contains it. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -257,7 +257,7 @@ public boolean getDeleteRedundantSpaces()
 ```
 
 
-Indicates whether delete redundant spaces when the text wraps lines using <br>tag.The default value is false.
+Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.
 
 **Returns:**
 boolean
@@ -337,7 +337,7 @@ public int getLanguageCode()
 ```
 
 
-Gets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
 int
@@ -367,7 +367,7 @@ public int getLoadFormat()
 ```
 
 
-Gets the load format. [LoadFormat](../../com.aspose.cells/loadformat).
+Gets the load format. See [LoadFormat](../../com.aspose.cells/loadformat).
 
 **Returns:**
 int
@@ -387,7 +387,7 @@ public int getLoadStyleStrategy()
 ```
 
 
-Indicates the strategy to apply style for parsed values when converting string value to number or datetime. [TxtLoadStyleStrategy](../../com.aspose.cells/txtloadstylestrategy).
+Indicates the strategy to apply style for parsed values when converting string value to number or datetime. See [TxtLoadStyleStrategy](../../com.aspose.cells/txtloadstylestrategy).
 
 **Returns:**
 int
@@ -407,7 +407,7 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysetting).
+Gets the memory usage options. See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -457,7 +457,7 @@ public int getRegion()
 ```
 
 
-Gets the system regional settings based on CountryCode at the time the file was loaded. [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
+Gets the system regional settings based on CountryCode at the time the file was loaded. See [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Returns:**
 int
@@ -497,13 +497,13 @@ public boolean getSupportDivTag()
 ```
 
 
-Indicates whether support the layout of <div> tag when the html file contains <div> tags. The default value is false.
+Indicates whether support the layout of `<div>` tag when the html file contains it. The default value is false.
 
 **Returns:**
 boolean
-### getTableLoadOptioins() {#getTableLoadOptioins--}
+### getTableLoadOptions() {#getTableLoadOptions--}
 ```
-public HtmlTableLoadOptionCollection getTableLoadOptioins()
+public HtmlTableLoadOptionCollection getTableLoadOptions()
 ```
 
 
@@ -680,7 +680,7 @@ public void setDeleteRedundantSpaces(boolean value)
 ```
 
 
-Indicates whether delete redundant spaces when the text wraps lines using <br>tag.The default value is false.
+Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -797,7 +797,7 @@ public void setLanguageCode(int value)
 ```
 
 
-Sets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -849,7 +849,7 @@ public void setLoadStyleStrategy(int value)
 ```
 
 
-Indicates the strategy to apply style for parsed values when converting string value to number or datetime. [TxtLoadStyleStrategy](../../com.aspose.cells/txtloadstylestrategy).
+Indicates the strategy to apply style for parsed values when converting string value to number or datetime. See [TxtLoadStyleStrategy](../../com.aspose.cells/txtloadstylestrategy).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -875,7 +875,7 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysetting).
+Sets the memory usage options. See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -940,7 +940,7 @@ public void setRegion(int value)
 ```
 
 
-Sets the system regional settings based on CountryCode at the time the file was loaded. [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
+Sets the system regional settings based on CountryCode at the time the file was loaded. See [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -992,7 +992,7 @@ public void setSupportDivTag(boolean value)
 ```
 
 
-Indicates whether support the layout of <div> tag when the html file contains <div> tags. The default value is false.
+Indicates whether support the layout of `<div>` tag when the html file contains it. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

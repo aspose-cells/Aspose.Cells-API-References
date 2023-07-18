@@ -23,7 +23,7 @@ This class specifies an n-ary operator equation consisting of an n-ary operator,
 | [equals(Object obj)](#equals-java.lang.Object-) | Determine whether the current equation node is equal to the specified node |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getLimitLocation()](#getLimitLocation--) | This attribute specifies the location of limits in n-ary operators. |
@@ -149,7 +149,7 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -179,7 +179,7 @@ public int getLimitLocation()
 ```
 
 
-This attribute specifies the location of limits in n-ary operators. Limits can be either centered above and below the n-ary operator, or positioned just to the right of the operator. [EquationLimitLocationType](../../com.aspose.cells/equationlimitlocationtype).
+This attribute specifies the location of limits in n-ary operators. Limits can be either centered above and below the n-ary operator, or positioned just to the right of the operator. See [EquationLimitLocationType](../../com.aspose.cells/equationlimitlocationtype).
 
 **Returns:**
 int
@@ -209,7 +209,7 @@ public int getNaryOperatorType()
 ```
 
 
-an n-ary operator.e.g "\\u922d? [EquationMathematicalOperatorType](../../com.aspose.cells/equationmathematicaloperatortype).
+an n-ary operator.e.g "\\u922d? See [EquationMathematicalOperatorType](../../com.aspose.cells/equationmathematicaloperatortype).
 
 **Returns:**
 int
@@ -249,7 +249,7 @@ public int getType()
 ```
 
 
-Represents the type of the node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -419,7 +419,7 @@ public void setLimitLocation(int value)
 ```
 
 
-This attribute specifies the location of limits in n-ary operators. Limits can be either centered above and below the n-ary operator, or positioned just to the right of the operator. [EquationLimitLocationType](../../com.aspose.cells/equationlimitlocationtype).
+This attribute specifies the location of limits in n-ary operators. Limits can be either centered above and below the n-ary operator, or positioned just to the right of the operator. See [EquationLimitLocationType](../../com.aspose.cells/equationlimitlocationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -458,7 +458,7 @@ public void setNaryOperatorType(int value)
 ```
 
 
-an n-ary operator.e.g "\\u922d? [EquationMathematicalOperatorType](../../com.aspose.cells/equationmathematicaloperatortype).
+an n-ary operator.e.g "\\u922d? See [EquationMathematicalOperatorType](../../com.aspose.cells/equationmathematicaloperatortype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -483,7 +483,7 @@ public int getPlacement()
 ```
 
 
-Represents the way the chart is attached to the cells below it. [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the chart is attached to the cells below it. See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Returns:**
 int
@@ -503,7 +503,7 @@ public int getPlotBy()
 ```
 
 
-Gets whether plot by row or column. [PlotDataByType](../../com.aspose.cells/plotdatabytype).
+Gets whether plot by row or column. See [PlotDataByType](../../com.aspose.cells/plotdatabytype).
 
 **Returns:**
 int
@@ -513,7 +513,7 @@ public int getPlotEmptyCellsType()
 ```
 
 
-Gets how to plot the empty cells. [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
+Gets how to plot the empty cells. See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Returns:**
 int
@@ -543,7 +543,7 @@ public int getPrintSize()
 ```
 
 
-Gets the printed chart size. [PrintSizeType](../../com.aspose.cells/printsizetype).
+Gets the printed chart size. See [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Returns:**
 int
@@ -683,7 +683,7 @@ public int getType()
 ```
 
 
-Gets a chart's type. [ChartType](../../com.aspose.cells/charttype).
+Gets a chart's type. See [ChartType](../../com.aspose.cells/charttype).
 
 **Returns:**
 int
@@ -1022,7 +1022,7 @@ public void setPlacement(int value)
 ```
 
 
-Represents the way the chart is attached to the cells below it. [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the chart is attached to the cells below it. See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1035,7 +1035,7 @@ public void setPlotEmptyCellsType(int value)
 ```
 
 
-Sets how to plot the empty cells. [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
+Sets how to plot the empty cells. See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1074,7 +1074,7 @@ public void setPrintSize(int value)
 ```
 
 
-Sets the printed chart size. [PrintSizeType](../../com.aspose.cells/printsizetype).
+Sets the printed chart size. See [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1178,7 +1178,7 @@ public void setType(int value)
 ```
 
 
-Sets a chart's type. [ChartType](../../com.aspose.cells/charttype).
+Sets a chart's type. See [ChartType](../../com.aspose.cells/charttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1216,7 +1216,7 @@ public void toImage(OutputStream stream, ImageOrPrintOptions options)
 
 Creates the chart image and saves it to a stream in the specified format.
 
-The format of the image is specified by using options.ImageFormat. The following formats are supported: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
+The format of the image is specified by using `options.ImageFormat`. The following formats are supported: ImageFormat.Bmp, ImageFormat.Gif, ImageFormat.Png, ImageFormat.Jpeg, ImageFormat.Tiff, ImageFormat.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing. Please refer to [Supported Charts List][] for more details.
 
@@ -1303,7 +1303,7 @@ public void toImage(String imageFile, int imageType)
 
 Creates the chart image and saves it to a file in the specified image type.
 
-The type of the image is specified by using imageType. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
+The type of the image is specified by using `imageType`. The following types are supported: ImageType.Bmp, ImageType.Gif, ImageType.Png, ImageType.Jpeg, ImageType.Tiff, ImageType.Emf.
 
 If the width or height is zero or the chart is not supported according to Supported Charts List, this method will do nothing.
 

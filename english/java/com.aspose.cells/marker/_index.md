@@ -83,7 +83,7 @@ public int getBackgroundColorSetType()
 ```
 
 
-Gets the marker background color set type. [FormattingType](../../com.aspose.cells/formattingtype).
+Gets the marker background color set type. See [FormattingType](../../com.aspose.cells/formattingtype).
 
 **Returns:**
 int
@@ -123,7 +123,7 @@ public int getForegroundColorSetType()
 ```
 
 
-Gets the marker foreground color set type. [FormattingType](../../com.aspose.cells/formattingtype).
+Gets the marker foreground color set type. See [FormattingType](../../com.aspose.cells/formattingtype).
 
 **Returns:**
 int
@@ -153,7 +153,7 @@ public int getMarkerStyle()
 ```
 
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart. [ChartMarkerType](../../com.aspose.cells/chartmarkertype).
+Represents the marker style. Applies to line chart, scatter chart, or radar chart. See [ChartMarkerType](../../com.aspose.cells/chartmarkertype).
 
 **Returns:**
 int
@@ -202,7 +202,7 @@ public void setBackgroundColorSetType(int value)
 ```
 
 
-Sets the marker background color set type. [FormattingType](../../com.aspose.cells/formattingtype).
+Sets the marker background color set type. See [FormattingType](../../com.aspose.cells/formattingtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -228,7 +228,7 @@ public void setForegroundColorSetType(int value)
 ```
 
 
-Sets the marker foreground color set type. [FormattingType](../../com.aspose.cells/formattingtype).
+Sets the marker foreground color set type. See [FormattingType](../../com.aspose.cells/formattingtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -267,7 +267,7 @@ public void setMarkerStyle(int value)
 ```
 
 
-Represents the marker style. Applies to line chart, scatter chart, or radar chart. [ChartMarkerType](../../com.aspose.cells/chartmarkertype).
+Represents the marker style. Applies to line chart, scatter chart, or radar chart. See [ChartMarkerType](../../com.aspose.cells/chartmarkertype).
 
 **Parameters:**
 | Parameter | Type | Description |

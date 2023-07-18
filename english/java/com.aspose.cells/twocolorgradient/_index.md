@@ -106,7 +106,7 @@ public int getGradientStyleType()
 ```
 
 
-Gets gradient shading style. [GradientStyleType](../../com.aspose.cells/gradientstyletype).
+Gets gradient shading style. See [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Returns:**
 int
@@ -178,7 +178,7 @@ public void setGradientStyleType(int value)
 ```
 
 
-Sets gradient shading style. [GradientStyleType](../../com.aspose.cells/gradientstyletype).
+Sets gradient shading style. See [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Parameters:**
 | Parameter | Type | Description |

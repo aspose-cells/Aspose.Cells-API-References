@@ -29,7 +29,7 @@ Represents options for calculation.
 | [getClass()](#getClass--) |  |
 | [getCustomEngine()](#getCustomEngine--) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [getCustomFunction()](#getCustomFunction--) | The custom formula calculation functions to extend the calculation engine. |
-| [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error in calculating formulas. |
+| [getIgnoreError()](#getIgnoreError--) | Indicates whether errors encountered while calculating formulas should be ignored. |
 | [getLinkedDataSources()](#getLinkedDataSources--) | Specifies the data sources for external links used in formulas. |
 | [getPrecisionStrategy()](#getPrecisionStrategy--) | Specifies the strategy for processing precision of calculation. |
 | [getRecursive()](#getRecursive--) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
@@ -41,7 +41,7 @@ Represents options for calculation.
 | [setCharacterEncoding(Encoding value)](#setCharacterEncoding-com.aspose.cells.Encoding-) | Specifies the encoding used for encoding/decoding characters when calculating formulas. |
 | [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | The custom formula calculation functions to extend the calculation engine. |
-| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error in calculating formulas. |
+| [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates whether errors encountered while calculating formulas should be ignored. |
 | [setLinkedDataSources(Workbook[] value)](#setLinkedDataSources-com.aspose.cells.Workbook---) | Specifies the data sources for external links used in formulas. |
 | [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | Specifies the strategy for processing precision of calculation. |
 | [setRecursive(boolean value)](#setRecursive-boolean-) | Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. |
@@ -136,7 +136,7 @@ public boolean getIgnoreError()
 ```
 
 
-Indicates if you need to hide the error in calculating formulas. The error may be unsupported function, external links, etc.
+Indicates whether errors encountered while calculating formulas should be ignored. The error may be unsupported function, external links, etc. The default value is true.
 
 **Returns:**
 boolean
@@ -156,7 +156,7 @@ public int getPrecisionStrategy()
 ```
 
 
-Specifies the strategy for processing precision of calculation. [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
+Specifies the strategy for processing precision of calculation. See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Returns:**
 int
@@ -166,7 +166,7 @@ public boolean getRecursive()
 ```
 
 
-Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value if true.
+Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true.
 
 **Returns:**
 boolean
@@ -267,7 +267,7 @@ public void setIgnoreError(boolean value)
 ```
 
 
-Indicates if you need to hide the error in calculating formulas. The error may be unsupported function, external links, etc.
+Indicates whether errors encountered while calculating formulas should be ignored. The error may be unsupported function, external links, etc. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -293,7 +293,7 @@ public void setPrecisionStrategy(int value)
 ```
 
 
-Specifies the strategy for processing precision of calculation. [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
+Specifies the strategy for processing precision of calculation. See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -306,7 +306,7 @@ public void setRecursive(boolean value)
 ```
 
 
-Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value if true.
+Indicates whether calculate the dependent cells recursively when calculating one cell and it depends on other cells. The default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

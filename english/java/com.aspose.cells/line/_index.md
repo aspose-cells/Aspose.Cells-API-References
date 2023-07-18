@@ -54,8 +54,8 @@ Encapsulates the object that represents the line format.
 | [getCapType()](#getCapType--) | Specifies the ending caps. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Represents the [Color](../../com.aspose.cells/color) of the line. |
-| [getCompoundType()](#getCompoundType--) | Specifies the compound line type [MsoLineStyle](../../com.aspose.cells/msolinestyle). |
-| [getDashType()](#getDashType--) | Specifies the dash line type [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle). |
+| [getCompoundType()](#getCompoundType--) | Specifies the compound line type See [MsoLineStyle](../../com.aspose.cells/msolinestyle). |
+| [getDashType()](#getDashType--) | Specifies the dash line type See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle). |
 | [getEndArrowLength()](#getEndArrowLength--) | Specifies the length of the arrowhead for the end of a line. |
 | [getEndArrowWidth()](#getEndArrowWidth--) | Specifies the width of the arrowhead for the end of a line. |
 | [getEndType()](#getEndType--) | Specifies an arrowhead for the end of a line. |
@@ -65,7 +65,7 @@ Encapsulates the object that represents the line format.
 | [getStyle()](#getStyle--) | Represents the style of the line. |
 | [getThemeColor()](#getThemeColor--) | Gets the theme color. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
-| [getWeight()](#getWeight--) | Gets the [WeightType](../../com.aspose.cells/weighttype). |
+| [getWeight()](#getWeight--) | Gets the [WeightType](../../com.aspose.cells/weighttype) of the line. |
 | [getWeightPt()](#getWeightPt--) | Gets the weight of the line in unit of points. |
 | [getWeightPx()](#getWeightPx--) | Gets the weight of the line in unit of pixels. |
 | [hashCode()](#hashCode--) |  |
@@ -80,8 +80,8 @@ Encapsulates the object that represents the line format.
 | [setBeginType(int value)](#setBeginType-int-) | Specifies an arrowhead for the begin of a line. |
 | [setCapType(int value)](#setCapType-int-) | Specifies the ending caps. |
 | [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Represents the [Color](../../com.aspose.cells/color) of the line. |
-| [setCompoundType(int value)](#setCompoundType-int-) | Specifies the compound line type [MsoLineStyle](../../com.aspose.cells/msolinestyle). |
-| [setDashType(int value)](#setDashType-int-) | Specifies the dash line type [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle). |
+| [setCompoundType(int value)](#setCompoundType-int-) | Specifies the compound line type See [MsoLineStyle](../../com.aspose.cells/msolinestyle). |
+| [setDashType(int value)](#setDashType-int-) | Specifies the dash line type See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle). |
 | [setEndArrowLength(int value)](#setEndArrowLength-int-) | Specifies the length of the arrowhead for the end of a line. |
 | [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | Specifies the width of the arrowhead for the end of a line. |
 | [setEndType(int value)](#setEndType-int-) | Specifies an arrowhead for the end of a line. |
@@ -91,7 +91,7 @@ Encapsulates the object that represents the line format.
 | [setThemeColor(ThemeColor value)](#setThemeColor-com.aspose.cells.ThemeColor-) | Sets the theme color. |
 | [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setVisible(boolean value)](#setVisible-boolean-) | Represents whether the line is visible. |
-| [setWeight(int value)](#setWeight-int-) | Sets the [WeightType](../../com.aspose.cells/weighttype). |
+| [setWeight(int value)](#setWeight-int-) | Sets the [WeightType](../../com.aspose.cells/weighttype) of the line. |
 | [setWeightPt(double value)](#setWeightPt-double-) | Sets the weight of the line in unit of points. |
 | [setWeightPx(double value)](#setWeightPx-double-) | Sets the weight of the line in unit of pixels. |
 | [toString()](#toString--) |  |
@@ -119,7 +119,7 @@ public int getBeginArrowLength()
 ```
 
 
-Specifies the length of the arrowhead for the begin of a line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+Specifies the length of the arrowhead for the begin of a line. See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Returns:**
 int
@@ -129,7 +129,7 @@ public int getBeginArrowWidth()
 ```
 
 
-Specifies the width of the arrowhead for the begin of a line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+Specifies the width of the arrowhead for the begin of a line. See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Returns:**
 int
@@ -139,7 +139,7 @@ public int getBeginType()
 ```
 
 
-Specifies an arrowhead for the begin of a line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+Specifies an arrowhead for the begin of a line. See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Returns:**
 int
@@ -149,7 +149,7 @@ public int getCapType()
 ```
 
 
-Specifies the ending caps. [LineCapType](../../com.aspose.cells/linecaptype).
+Specifies the ending caps. See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Returns:**
 int
@@ -179,7 +179,7 @@ public int getCompoundType()
 ```
 
 
-Specifies the compound line type [MsoLineStyle](../../com.aspose.cells/msolinestyle).
+Specifies the compound line type See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Returns:**
 int
@@ -189,7 +189,7 @@ public int getDashType()
 ```
 
 
-Specifies the dash line type [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
+Specifies the dash line type See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Returns:**
 int
@@ -199,7 +199,7 @@ public int getEndArrowLength()
 ```
 
 
-Specifies the length of the arrowhead for the end of a line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+Specifies the length of the arrowhead for the end of a line. See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Returns:**
 int
@@ -209,7 +209,7 @@ public int getEndArrowWidth()
 ```
 
 
-Specifies the width of the arrowhead for the end of a line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+Specifies the width of the arrowhead for the end of a line. See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Returns:**
 int
@@ -219,7 +219,7 @@ public int getEndType()
 ```
 
 
-Specifies an arrowhead for the end of a line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+Specifies an arrowhead for the end of a line. See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Returns:**
 int
@@ -229,7 +229,7 @@ public int getFormattingType()
 ```
 
 
-Gets format type. [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
+Gets format type. See [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
 
 **Returns:**
 int
@@ -249,7 +249,7 @@ public int getJoinType()
 ```
 
 
-Specifies the joining caps. [LineJoinType](../../com.aspose.cells/linejointype).
+Specifies the joining caps. See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Returns:**
 int
@@ -259,7 +259,7 @@ public int getStyle()
 ```
 
 
-Represents the style of the line. [LineType](../../com.aspose.cells/linetype).
+Represents the style of the line. See [LineType](../../com.aspose.cells/linetype).
 
 **Returns:**
 int
@@ -289,7 +289,7 @@ public int getWeight()
 ```
 
 
-Gets the [WeightType](../../com.aspose.cells/weighttype). [WeightType](../../com.aspose.cells/weighttype) of the line.
+Gets the [WeightType](../../com.aspose.cells/weighttype) of the line. See [WeightType](../../com.aspose.cells/weighttype).
 
 **Returns:**
 int
@@ -388,7 +388,7 @@ public void setBeginArrowLength(int value)
 ```
 
 
-Specifies the length of the arrowhead for the begin of a line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+Specifies the length of the arrowhead for the begin of a line. See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -401,7 +401,7 @@ public void setBeginArrowWidth(int value)
 ```
 
 
-Specifies the width of the arrowhead for the begin of a line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+Specifies the width of the arrowhead for the begin of a line. See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -414,7 +414,7 @@ public void setBeginType(int value)
 ```
 
 
-Specifies an arrowhead for the begin of a line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+Specifies an arrowhead for the begin of a line. See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -427,7 +427,7 @@ public void setCapType(int value)
 ```
 
 
-Specifies the ending caps. [LineCapType](../../com.aspose.cells/linecaptype).
+Specifies the ending caps. See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -453,7 +453,7 @@ public void setCompoundType(int value)
 ```
 
 
-Specifies the compound line type [MsoLineStyle](../../com.aspose.cells/msolinestyle).
+Specifies the compound line type See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -466,7 +466,7 @@ public void setDashType(int value)
 ```
 
 
-Specifies the dash line type [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
+Specifies the dash line type See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -479,7 +479,7 @@ public void setEndArrowLength(int value)
 ```
 
 
-Specifies the length of the arrowhead for the end of a line. [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
+Specifies the length of the arrowhead for the end of a line. See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -492,7 +492,7 @@ public void setEndArrowWidth(int value)
 ```
 
 
-Specifies the width of the arrowhead for the end of a line. [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
+Specifies the width of the arrowhead for the end of a line. See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -505,7 +505,7 @@ public void setEndType(int value)
 ```
 
 
-Specifies an arrowhead for the end of a line. [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
+Specifies an arrowhead for the end of a line. See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -518,7 +518,7 @@ public void setFormattingType(int value)
 ```
 
 
-Sets format type. [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
+Sets format type. See [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -531,7 +531,7 @@ public void setJoinType(int value)
 ```
 
 
-Specifies the joining caps. [LineJoinType](../../com.aspose.cells/linejointype).
+Specifies the joining caps. See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -544,7 +544,7 @@ public void setStyle(int value)
 ```
 
 
-Represents the style of the line. [LineType](../../com.aspose.cells/linetype).
+Represents the style of the line. See [LineType](../../com.aspose.cells/linetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -596,7 +596,7 @@ public void setWeight(int value)
 ```
 
 
-Sets the [WeightType](../../com.aspose.cells/weighttype). [WeightType](../../com.aspose.cells/weighttype) of the line.
+Sets the [WeightType](../../com.aspose.cells/weighttype) of the line. See [WeightType](../../com.aspose.cells/weighttype).
 
 **Parameters:**
 | Parameter | Type | Description |

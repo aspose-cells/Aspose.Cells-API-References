@@ -522,7 +522,7 @@ public int getAutoFormatType()
 ```
 
 
-Gets the PivotTable auto format type. [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
+Gets the PivotTable auto format type. See [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
 
 **Returns:**
 int
@@ -857,7 +857,7 @@ public int getMissingItemsLimit()
 ```
 
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
 **Returns:**
 int
@@ -887,7 +887,7 @@ public int getPageFieldOrder()
 ```
 
 
-Gets the order in which page fields are added to the PivotTable report's layout. [PrintOrderType](../../com.aspose.cells/printordertype).
+Gets the order in which page fields are added to the PivotTable report's layout. See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Returns:**
 int
@@ -957,7 +957,7 @@ public int getPivotTableStyleType()
 ```
 
 
-Gets the built-in pivot table style. [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
+Gets the built-in pivot table style. See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 
 **Returns:**
 int
@@ -1459,7 +1459,7 @@ public void setAutoFormatType(int value)
 ```
 
 
-Gets the PivotTable auto format type. [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
+Gets the PivotTable auto format type. See [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1878,7 +1878,7 @@ public void setMissingItemsLimit(int value)
 ```
 
 
-Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
+Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1930,7 +1930,7 @@ public void setPageFieldOrder(int value)
 ```
 
 
-Gets the order in which page fields are added to the PivotTable report's layout. [PrintOrderType](../../com.aspose.cells/printordertype).
+Gets the order in which page fields are added to the PivotTable report's layout. See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1969,7 +1969,7 @@ public void setPivotTableStyleType(int value)
 ```
 
 
-Sets the built-in pivot table style. [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
+Sets the built-in pivot table style. See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 
 **Parameters:**
 | Parameter | Type | Description |

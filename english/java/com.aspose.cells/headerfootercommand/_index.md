@@ -80,7 +80,7 @@ public int getType()
 ```
 
 
-Gets the header/footer' command type . [HeaderFooterCommandType](../../com.aspose.cells/headerfootercommandtype).
+Gets the header/footer' command type . See [HeaderFooterCommandType](../../com.aspose.cells/headerfootercommandtype).
 
 **Returns:**
 int

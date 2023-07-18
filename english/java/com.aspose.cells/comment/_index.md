@@ -354,7 +354,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets the text horizontal alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text horizontal alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -373,7 +373,7 @@ public int getTextOrientationType()
 ```
 
 
-Gets the text orientation type of the comment. [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Gets the text orientation type of the comment. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Example**
 
@@ -392,7 +392,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets the text vertical alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text vertical alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -635,7 +635,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Sets the text horizontal alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text horizontal alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -648,7 +648,7 @@ public void setTextOrientationType(int value)
 ```
 
 
-Sets the text orientation type of the comment. [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Sets the text orientation type of the comment. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -661,7 +661,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Sets the text vertical alignment type of the comment. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text vertical alignment type of the comment. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -23,7 +23,7 @@ This class specifies a mathematical paragraph containing one or more MathEquatio
 | [equals(Object obj)](#equals-java.lang.Object-) | Determine whether the current equation node is equal to the specified node |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getJustification()](#getJustification--) | This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). |
 | [getLength()](#getLength--) | Gets the length of the characters. |
@@ -139,7 +139,7 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -159,7 +159,7 @@ public int getJustification()
 ```
 
 
-This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. [EquationHorizontalJustificationType](../../com.aspose.cells/equationhorizontaljustificationtype).
+This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. See [EquationHorizontalJustificationType](../../com.aspose.cells/equationhorizontaljustificationtype).
 
 **Returns:**
 int
@@ -209,7 +209,7 @@ public int getType()
 ```
 
 
-Represents the type of the node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -333,7 +333,7 @@ public void setJustification(int value)
 ```
 
 
-This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. [EquationHorizontalJustificationType](../../com.aspose.cells/equationhorizontaljustificationtype).
+This specifies justification of the math paragraph (a series of adjacent equations within the same paragraph). A math paragraph can be Left Justified, Right Justified, Centered, or Centered as Group. By default, the math paragraph is Centered as Group. This means that the equations can be aligned with respect to each other, but the entire group of equations is centered as a whole. See [EquationHorizontalJustificationType](../../com.aspose.cells/equationhorizontaljustificationtype).
 
 **Parameters:**
 | Parameter | Type | Description |

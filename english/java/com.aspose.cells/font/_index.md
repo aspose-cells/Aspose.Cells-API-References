@@ -139,7 +139,7 @@ public int getCapsType()
 ```
 
 
-Gets the text caps type. [TextCapsType](../../com.aspose.cells/textcapstype).
+Gets the text caps type. See [TextCapsType](../../com.aspose.cells/textcapstype).
 
 **Returns:**
 int
@@ -199,7 +199,7 @@ public int getSchemeType()
 ```
 
 
-Gets the scheme type of the font. [FontSchemeType](../../com.aspose.cells/fontschemetype).
+Gets the scheme type of the font. See [FontSchemeType](../../com.aspose.cells/fontschemetype).
 
 **Returns:**
 int
@@ -229,7 +229,7 @@ public int getStrikeType()
 ```
 
 
-Gets the strike type of the text. [TextStrikeType](../../com.aspose.cells/textstriketype).
+Gets the strike type of the text. See [TextStrikeType](../../com.aspose.cells/textstriketype).
 
 **Returns:**
 int
@@ -249,7 +249,7 @@ public int getUnderline()
 ```
 
 
-Gets the font underline type. [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
+Gets the font underline type. See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
 
 **Returns:**
 int
@@ -371,7 +371,7 @@ public void setCapsType(int value)
 ```
 
 
-Sets the text caps type. [TextCapsType](../../com.aspose.cells/textcapstype).
+Sets the text caps type. See [TextCapsType](../../com.aspose.cells/textcapstype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -462,7 +462,7 @@ public void setSchemeType(int value)
 ```
 
 
-Sets the scheme type of the font. [FontSchemeType](../../com.aspose.cells/fontschemetype).
+Sets the scheme type of the font. See [FontSchemeType](../../com.aspose.cells/fontschemetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -501,7 +501,7 @@ public void setStrikeType(int value)
 ```
 
 
-Gets the strike type of the text. [TextStrikeType](../../com.aspose.cells/textstriketype).
+Gets the strike type of the text. See [TextStrikeType](../../com.aspose.cells/textstriketype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -566,7 +566,7 @@ public void setUnderline(int value)
 ```
 
 
-Sets the font underline type. [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
+Sets the font underline type. See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
 
 **Parameters:**
 | Parameter | Type | Description |

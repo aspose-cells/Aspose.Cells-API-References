@@ -247,7 +247,7 @@ public int getCalcMode()
 ```
 
 
-It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. [CalcModeType](../../com.aspose.cells/calcmodetype). Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. See [CalcModeType](../../com.aspose.cells/calcmodetype). Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -317,7 +317,7 @@ public int getCompliance()
 ```
 
 
-Specifies the OOXML version for the output document. The default value is Ecma376\_2006. [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance). Only for .xlsx files.
+Specifies the OOXML version for the output document. The default value is Ecma376\_2006. See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance). Only for .xlsx files.
 
 **Returns:**
 int
@@ -367,7 +367,7 @@ public int getDisplayDrawingObjects()
 ```
 
 
-Indicates whether and how to show objects in the workbook. [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
+Indicates whether and how to show objects in the workbook. See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
 
 **Returns:**
 int
@@ -447,7 +447,7 @@ public int getLanguageCode()
 ```
 
 
-Gets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
 int
@@ -517,7 +517,7 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. [MemorySetting](../../com.aspose.cells/memorysetting).
+Gets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -547,7 +547,7 @@ public int getPaperSize()
 ```
 
 
-Gets the default print paper size. [PaperSizeType](../../com.aspose.cells/papersizetype). If there is no setting about paper size,MS Excel will use default printer's setting.
+Gets the default print paper size. See [PaperSizeType](../../com.aspose.cells/papersizetype). If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Returns:**
 int
@@ -587,7 +587,7 @@ public int getProtectionType()
 ```
 
 
-Gets the protection type of the workbook. [ProtectionType](../../com.aspose.cells/protectiontype).
+Gets the protection type of the workbook. See [ProtectionType](../../com.aspose.cells/protectiontype).
 
 **Returns:**
 int
@@ -627,7 +627,7 @@ public int getRegion()
 ```
 
 
-Gets the regional settings for workbook. [CountryCode](../../com.aspose.cells/countrycode). 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
+Gets the regional settings for workbook. See [CountryCode](../../com.aspose.cells/countrycode). 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
 
 **Returns:**
 int
@@ -751,7 +751,7 @@ public int getUpdateLinksType()
 ```
 
 
-Gets how updates external links when the workbook is opened. [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
+Gets how updates external links when the workbook is opened. See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
 
 **Returns:**
 int
@@ -1067,7 +1067,7 @@ public void setCalcMode(int value)
 ```
 
 
-It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. [CalcModeType](../../com.aspose.cells/calcmodetype). Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
+It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. See [CalcModeType](../../com.aspose.cells/calcmodetype). Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1145,7 +1145,7 @@ public void setCompliance(int value)
 ```
 
 
-Specifies the OOXML version for the output document. The default value is Ecma376\_2006. [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance). Only for .xlsx files.
+Specifies the OOXML version for the output document. The default value is Ecma376\_2006. See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance). Only for .xlsx files.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1223,7 +1223,7 @@ public void setDisplayDrawingObjects(int value)
 ```
 
 
-Indicates whether and how to show objects in the workbook. [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
+Indicates whether and how to show objects in the workbook. See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1340,7 +1340,7 @@ public void setLanguageCode(int value)
 ```
 
 
-Sets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1405,7 +1405,7 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. [MemorySetting](../../com.aspose.cells/memorysetting).
+Sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets. See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1470,7 +1470,7 @@ public void setPaperSize(int value)
 ```
 
 
-Sets the default print paper size. [PaperSizeType](../../com.aspose.cells/papersizetype). If there is no setting about paper size,MS Excel will use default printer's setting.
+Sets the default print paper size. See [PaperSizeType](../../com.aspose.cells/papersizetype). If there is no setting about paper size,MS Excel will use default printer's setting.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1561,7 +1561,7 @@ public void setRegion(int value)
 ```
 
 
-Sets the regional settings for workbook. [CountryCode](../../com.aspose.cells/countrycode). 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
+Sets the regional settings for workbook. See [CountryCode](../../com.aspose.cells/countrycode). 1. Regional settings used by Aspose.Cells component for a workbook loaded from template file: i). For an XLS file, there are fields defined for regional settings and MS Excel does save regional settings data into the file when saving the XLS file. So, we use the saved region in the template file for the workbook. If you do not want to use the region saved in the XLS file, please reset it to the expected one (such as, CountryCode.Default) after loading the template file. And, we save the user specified value (by this method) into the file too when saving an XLS file. ii). For other file formats, such as, XLSX, XLSB...etc., there is no field defined for regional settings in the file format specification. So, we use the regional settings of application's environment for the workbook. And, the user specified value (by this method) cannot be kept for the generated files with those file formats. 2. For the view effect in MS Excel: The applied regional settings here can take effect only at runtime with Aspose.Cells component and not when viewing the generated file with MS Excel. Even for the generated XLS file in which the specified regional settings data has been saved, when viewing/editing it with MS Excel, the used region to perform formatting by MS Excel is always the default regional settings of the environment where MS Excel is running, not the one saved in the file. It is MS Excel's behavior and cannot be changed by code.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1691,7 +1691,7 @@ public void setUpdateLinksType(int value)
 ```
 
 
-Sets how updates external links when the workbook is opened. [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
+Sets how updates external links when the workbook is opened. See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
 
 **Parameters:**
 | Parameter | Type | Description |

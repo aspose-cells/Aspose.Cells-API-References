@@ -21,10 +21,10 @@ This class specifies the bar equation, consisting of a base argument and an over
 | [addChild(int equationType)](#addChild-int-) | Insert a node of the specified type at the end of the child node list of the current node. |
 | [createNode(int equationType, Workbook workbook, EquationNode parent)](#createNode-int-com.aspose.cells.Workbook-com.aspose.cells.EquationNode-) | Create a node of the specified type. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determine whether the current equation node is equal to the specified node |
-| [getBarPosition()](#getBarPosition--) | This attribute specifies the position of the bar in the bar object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
+| [getBarPosition()](#getBarPosition--) | This attribute specifies the position of the bar in the bar object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
@@ -41,7 +41,7 @@ This class specifies the bar equation, consisting of a base argument and an over
 | [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
 | [removeChild(EquationNode node)](#removeChild-com.aspose.cells.EquationNode-) | Removes the specified node from the current node's children. |
 | [removeChild(int index)](#removeChild-int-) | Removes the node at the specified index from the current node's children. |
-| [setBarPosition(int value)](#setBarPosition-int-) | This attribute specifies the position of the bar in the bar object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
+| [setBarPosition(int value)](#setBarPosition-int-) | This attribute specifies the position of the bar in the bar object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
@@ -114,7 +114,7 @@ public int getBarPosition()
 ```
 
 
-This attribute specifies the position of the bar in the bar object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
+This attribute specifies the position of the bar in the bar object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
 
 **Returns:**
 int
@@ -149,7 +149,7 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -209,7 +209,7 @@ public int getType()
 ```
 
 
-Represents the type of the node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -333,7 +333,7 @@ public void setBarPosition(int value)
 ```
 
 
-This attribute specifies the position of the bar in the bar object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
+This attribute specifies the position of the bar in the bar object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -139,7 +139,7 @@ public int getFormatStrategy()
 ```
 
 
-Gets the format strategy when exporting the cell value as string. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
+Gets the format strategy when exporting the cell value as string. See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Returns:**
 int
@@ -189,7 +189,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -327,7 +327,7 @@ public void setFormatStrategy(int value)
 ```
 
 
-Sets the format strategy when exporting the cell value as string. [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
+Sets the format strategy when exporting the cell value as string. See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Parameters:**
 | Parameter | Type | Description |

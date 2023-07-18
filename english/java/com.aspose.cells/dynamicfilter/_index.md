@@ -63,7 +63,7 @@ public int getDynamicFilterType()
 ```
 
 
-Gets the dynamic filter type. [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype).
+Gets the dynamic filter type. See [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype).
 
 **Returns:**
 int
@@ -119,7 +119,7 @@ public void setDynamicFilterType(int value)
 ```
 
 
-Sets the dynamic filter type. [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype).
+Sets the dynamic filter type. See [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype).
 
 **Parameters:**
 | Parameter | Type | Description |

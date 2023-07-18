@@ -150,7 +150,7 @@ public int getMousePointer()
 ```
 
 
-Gets the type of icon displayed as the mouse pointer for the control. [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Gets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Returns:**
 int
@@ -170,7 +170,7 @@ public abstract int getType()
 ```
 
 
-Gets the type of the ActiveX control. [ControlType](../../com.aspose.cells/controltype).
+Gets the type of the ActiveX control. See [ControlType](../../com.aspose.cells/controltype).
 
 **Returns:**
 int
@@ -314,7 +314,7 @@ public void setMousePointer(int value)
 ```
 
 
-Sets the type of icon displayed as the mouse pointer for the control. [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
+Sets the type of icon displayed as the mouse pointer for the control. See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Parameters:**
 | Parameter | Type | Description |

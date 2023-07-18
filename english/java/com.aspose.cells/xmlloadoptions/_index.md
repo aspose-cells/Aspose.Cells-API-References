@@ -283,7 +283,7 @@ public int getLanguageCode()
 ```
 
 
-Gets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
+Gets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
 int
@@ -313,7 +313,7 @@ public int getLoadFormat()
 ```
 
 
-Gets the load format. [LoadFormat](../../com.aspose.cells/loadformat).
+Gets the load format. See [LoadFormat](../../com.aspose.cells/loadformat).
 
 **Returns:**
 int
@@ -333,7 +333,7 @@ public int getMemorySetting()
 ```
 
 
-Gets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysetting).
+Gets the memory usage options. See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
@@ -383,7 +383,7 @@ public int getRegion()
 ```
 
 
-Gets the system regional settings based on CountryCode at the time the file was loaded. [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
+Gets the system regional settings based on CountryCode at the time the file was loaded. See [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Returns:**
 int
@@ -638,7 +638,7 @@ public void setLanguageCode(int value)
 ```
 
 
-Sets the user interface language of the Workbook version based on CountryCode that has saved the file. [CountryCode](../../com.aspose.cells/countrycode).
+Sets the user interface language of the Workbook version based on CountryCode that has saved the file. See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -690,7 +690,7 @@ public void setMemorySetting(int value)
 ```
 
 
-Sets the memory usage options. [MemorySetting](../../com.aspose.cells/memorysetting).
+Sets the memory usage options. See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -768,7 +768,7 @@ public void setRegion(int value)
 ```
 
 
-Sets the system regional settings based on CountryCode at the time the file was loaded. [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
+Sets the system regional settings based on CountryCode at the time the file was loaded. See [CountryCode](../../com.aspose.cells/countrycode). If you do not want to use the region saved in the file, please reset it after reading the file.
 
 **Parameters:**
 | Parameter | Type | Description |

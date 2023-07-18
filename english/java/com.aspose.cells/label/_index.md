@@ -449,7 +449,7 @@ public int getAnchorType()
 ```
 
 
-Gets the shape anchor placeholder. [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
+Gets the shape anchor placeholder. See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
 **Example**
 
@@ -466,7 +466,7 @@ public int getAutoShapeType()
 ```
 
 
-Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Gets the auto shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Example**
 
@@ -1152,7 +1152,7 @@ public int getMsoDrawingType()
 ```
 
 
-Gets mso drawing type. [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
+Gets mso drawing type. See [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
 
 **Example**
 
@@ -1202,7 +1202,7 @@ public int getPlacement()
 ```
 
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Example**
 
@@ -1420,7 +1420,7 @@ public int getTextDirection()
 ```
 
 
-Gets the direction of the text flow for this object. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Gets the direction of the text flow for this object. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Example**
 
@@ -1463,7 +1463,7 @@ public int getTextHorizontalAlignment()
 ```
 
 
-Gets the text horizontal alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text horizontal alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -1480,7 +1480,7 @@ public int getTextHorizontalOverflow()
 ```
 
 
-Gets the text horizontal overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Gets the text horizontal overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Example**
 
@@ -1515,7 +1515,7 @@ public int getTextOrientationType()
 ```
 
 
-Gets the text orientation type of the shape. [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Gets the text orientation type of the shape. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Example**
 
@@ -1532,7 +1532,7 @@ public int getTextShapeType()
 ```
 
 
-Gets the preset text shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Gets the preset text shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Example**
 
@@ -1549,7 +1549,7 @@ public int getTextVerticalAlignment()
 ```
 
 
-Gets the text vertical alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Gets the text vertical alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Example**
 
@@ -1566,7 +1566,7 @@ public int getTextVerticalOverflow()
 ```
 
 
-Gets the text vertical overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Gets the text vertical overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Example**
 
@@ -1710,7 +1710,7 @@ public int getType()
 ```
 
 
-Gets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Gets the auto shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Example**
 
@@ -2339,7 +2339,7 @@ public void setAnchorType(int value)
 ```
 
 
-Sets the shape anchor placeholder. [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
+Sets the shape anchor placeholder. See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2352,7 +2352,7 @@ public void setAutoShapeType(int value)
 ```
 
 
-Sets the auto shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Sets the auto shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2872,7 +2872,7 @@ public void setPlacement(int value)
 ```
 
 
-Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. [PlacementType](../../com.aspose.cells/placementtype).
+Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2989,7 +2989,7 @@ public void setTextDirection(int value)
 ```
 
 
-Sets the direction of the text flow for this object. [TextDirectionType](../../com.aspose.cells/textdirectiontype).
+Sets the direction of the text flow for this object. See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3002,7 +3002,7 @@ public void setTextHorizontalAlignment(int value)
 ```
 
 
-Sets the text horizontal alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text horizontal alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3015,7 +3015,7 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-Sets the text horizontal overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Sets the text horizontal overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3041,7 +3041,7 @@ public void setTextOrientationType(int value)
 ```
 
 
-Sets the text orientation type of the shape. [TextOrientationType](../../com.aspose.cells/textorientationtype).
+Sets the text orientation type of the shape. See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3054,7 +3054,7 @@ public void setTextShapeType(int value)
 ```
 
 
-Sets the preset text shape type. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Sets the preset text shape type. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3067,7 +3067,7 @@ public void setTextVerticalAlignment(int value)
 ```
 
 
-Sets the text vertical alignment type of the shape. [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
+Sets the text vertical alignment type of the shape. See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3080,7 +3080,7 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-Sets the text vertical overflow type of the shape which contains text. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Sets the text vertical overflow type of the shape which contains text. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |

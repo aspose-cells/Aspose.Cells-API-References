@@ -24,12 +24,12 @@ This class specifies the Group-Character function, consisting of a character dra
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getChrType()](#getChrType--) | Specify combining characters by type value. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getGroupChr()](#getGroupChr--) | Specifies a symbol(default U+23DF). |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
-| [getPosition()](#getPosition--) | This attribute specifies the position of the character in the object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
+| [getPosition()](#getPosition--) | This attribute specifies the position of the character in the object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
 | [getStartIndex()](#getStartIndex--) | Gets the start index of the characters. |
 | [getTextOptions()](#getTextOptions--) | Returns the text options. |
 | [getType()](#getType--) | Represents the type of the node. |
@@ -47,7 +47,7 @@ This class specifies the Group-Character function, consisting of a character dra
 | [setChrType(int value)](#setChrType-int-) | Specify combining characters by type value. |
 | [setGroupChr(String value)](#setGroupChr-java.lang.String-) | Specifies a symbol(default U+23DF). |
 | [setParentNode(EquationNode value)](#setParentNode-com.aspose.cells.EquationNode-) | Specifies the parent node of the current node |
-| [setPosition(int value)](#setPosition-int-) | This attribute specifies the position of the character in the object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
+| [setPosition(int value)](#setPosition-int-) | This attribute specifies the position of the character in the object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype). |
 | [setVertJc(int value)](#setVertJc-int-) | This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. |
 | [setWordArtStyle(int style)](#setWordArtStyle-int-) | Sets the preset WordArt style. |
 | [toString()](#toString--) |  |
@@ -135,7 +135,7 @@ public int getChrType()
 ```
 
 
-Specify combining characters by type value. [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
+Specify combining characters by type value. See [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
 
 **Returns:**
 int
@@ -155,7 +155,7 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -205,7 +205,7 @@ public int getPosition()
 ```
 
 
-This attribute specifies the position of the character in the object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
+This attribute specifies the position of the character in the object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
 
 **Returns:**
 int
@@ -235,7 +235,7 @@ public int getType()
 ```
 
 
-Represents the type of the node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -245,7 +245,7 @@ public int getVertJc()
 ```
 
 
-This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
+This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
 
 **Returns:**
 int
@@ -369,7 +369,7 @@ public void setChrType(int value)
 ```
 
 
-Specify combining characters by type value. [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
+Specify combining characters by type value. See [EquationCombiningCharacterType](../../com.aspose.cells/equationcombiningcharactertype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -408,7 +408,7 @@ public void setPosition(int value)
 ```
 
 
-This attribute specifies the position of the character in the object [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
+This attribute specifies the position of the character in the object See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -421,7 +421,7 @@ public void setVertJc(int value)
 ```
 
 
-This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
+This attribute, combined with pos of groupChrPr, specifies the vertical layout of the groupChr object. Where pos specifies the position of the grouping character, vertJc specifies the alignment of the object with respect to the baseline. See [EquationCharacterPositionType](../../com.aspose.cells/equationcharacterpositiontype).
 
 **Parameters:**
 | Parameter | Type | Description |

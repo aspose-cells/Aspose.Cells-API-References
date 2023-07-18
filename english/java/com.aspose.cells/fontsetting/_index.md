@@ -154,7 +154,7 @@ public int getType()
 ```
 
 
-Gets the type of text node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Gets the type of text node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int

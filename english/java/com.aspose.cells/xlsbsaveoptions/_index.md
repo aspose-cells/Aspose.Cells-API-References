@@ -131,7 +131,7 @@ public int getCompressionType()
 ```
 
 
-Gets the compression type for ooxml file. [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level6.
+Gets the compression type for ooxml file. See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level6.
 
 **Returns:**
 int
@@ -191,7 +191,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. [SaveFormat](../../com.aspose.cells/saveformat).
+Gets the save file format. See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
@@ -303,7 +303,7 @@ public void setCompressionType(int value)
 ```
 
 
-Sets the compression type for ooxml file. [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level6.
+Sets the compression type for ooxml file. See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype). The default value is OoxmlCompressionType.Level6.
 
 **Parameters:**
 | Parameter | Type | Description |

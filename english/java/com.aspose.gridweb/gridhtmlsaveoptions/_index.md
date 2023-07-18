@@ -339,7 +339,7 @@ public int getSaveFormat()
 ```
 
 
-Gets the save file format. [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat).
+Gets the save file format. See [GridSaveFormat](../../com.aspose.gridweb/gridsaveformat).
 
 **Returns:**
 int

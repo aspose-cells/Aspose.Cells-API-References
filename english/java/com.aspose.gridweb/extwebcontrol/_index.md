@@ -25,7 +25,7 @@ Extend the WebControl class, internal use only.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBackColor()](#getBackColor--) | Gets the BackColor in the WebControl |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the WebControl |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the WebControl |
 | [getClass()](#getClass--) |  |
 | [getCssClass()](#getCssClass--) | Gets the CssClass in the WebControl |
@@ -41,7 +41,7 @@ Extend the WebControl class, internal use only.
 | [notifyAll()](#notifyAll--) |  |
 | [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the WebControl |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the WebControl |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the WebControl |
 | [setCssClass(String value)](#setCssClass-java.lang.String-) | Sets the CssClass in the WebControl |
 | [setEnabled(boolean value)](#setEnabled-boolean-) | Sets the Enabled in the WebControl |
@@ -101,7 +101,7 @@ public int getBorderStyle()
 ```
 
 
-Gets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Gets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
 int
@@ -263,7 +263,7 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Sets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
 | Parameter | Type | Description |

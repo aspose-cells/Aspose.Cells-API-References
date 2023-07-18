@@ -68,7 +68,7 @@ Represents GridWeb java bean
 | [getBackColor()](#getBackColor--) | Gets the BackColor in the WebControl |
 | [getBeanID()](#getBeanID--) | get the html id of the bean |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the WebControl |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the WebControl |
 | [getBottomTableStyle()](#getBottomTableStyle--) | Gets the style of the bottom bar of the control. |
 | [getClass()](#getClass--) |  |
@@ -222,7 +222,7 @@ Represents GridWeb java bean
 | [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the WebControl |
 | [setBeanID(String beanID)](#setBeanID-java.lang.String-) | set the html id of the bean |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the WebControl |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the WebControl |
 | [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the style of the bottom bar of the control. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Sets whether to calculate formula after cell value changes or after import File. |
@@ -570,13 +570,7 @@ public String getACWClientPath()
 ```
 
 
-Gets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the <configuration> section:
-<appSettings>
-
-<add key="aspose.cells.gridweb.acw\_client\_path" value="/acw\_client/" />
-
-</appSettings>
-
+Gets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the `<configuration>` section: `<appSettings>` `<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />` `</appSettings>`
 
 **Returns:**
 java.lang.String
@@ -718,7 +712,7 @@ public int getBorderStyle()
 ```
 
 
-Gets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Gets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
 int
@@ -1570,7 +1564,7 @@ public int getPresetStyle()
 ```
 
 
-Gets the preset style. [PresetStyle](../../com.aspose.gridweb/presetstyle).
+Gets the preset style. See [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 **Example**
 
@@ -1666,13 +1660,13 @@ public int getSessionMode()
 ```
 
 
-Gets the session mode of the grid. There are 4 type of session mode:[SessionMode](../../com.aspose.gridweb/sessionmode).
+Gets the session mode of the grid. There are 4 type of session mode:
 1. Session(default): Use system session to store sheet data.
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
 4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
-When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+See [SessionMode](../../com.aspose.gridweb/sessionmode). When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
 
 **Example**
 
@@ -2370,13 +2364,7 @@ public void setACWClientPath(String value)
 ```
 
 
-Sets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the <configuration> section:
-<appSettings>
-
-<add key="aspose.cells.gridweb.acw\_client\_path" value="/acw\_client/" />
-
-</appSettings>
-
+Sets the web path of the script/image files of the control. For example: "http://localhost/acw\_client". You may also set this value in the web.config file. Add this section to the `<configuration>` section: `<appSettings>` `<add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />` `</appSettings>`
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2547,7 +2535,7 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the BorderStyle in the WebControl [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Sets the BorderStyle in the WebControl See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3462,7 +3450,7 @@ public void setPresetStyle(int value)
 ```
 
 
-Sets the preset style. [PresetStyle](../../com.aspose.gridweb/presetstyle).
+Sets the preset style. See [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3579,13 +3567,13 @@ public void setSessionMode(int value)
 ```
 
 
-Sets the session mode of the grid. There are 4 type of session mode:[SessionMode](../../com.aspose.gridweb/sessionmode).
+Sets the session mode of the grid. There are 4 type of session mode:
 1. Session(default): Use system session to store sheet data.
 Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
 2. ViewState: Use page's viewstate to store sheet data.
 3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
 4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always
-When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
+See [SessionMode](../../com.aspose.gridweb/sessionmode). When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -26,7 +26,7 @@ This class specifies the delimiter equation, consisting of opening and closing d
 | [getClass()](#getClass--) |  |
 | [getDelimiterShape()](#getDelimiterShape--) | Specifies the shape of delimiters in the delimiter object. |
 | [getEndChar()](#getEndChar--) | Delimiter ending character. |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getNaryGrow()](#getNaryGrow--) | This property specifies the growth property of the delimiter at the document level. |
@@ -157,7 +157,7 @@ public int getDelimiterShape()
 ```
 
 
-Specifies the shape of delimiters in the delimiter object. [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
+Specifies the shape of delimiters in the delimiter object. See [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
 
 **Returns:**
 int
@@ -177,7 +177,7 @@ public int getEquationType()
 ```
 
 
-Get the equation type of the current node [EquationNodeType](../../com.aspose.cells/equationnodetype).
+Get the equation type of the current node See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
 int
@@ -257,7 +257,7 @@ public int getType()
 ```
 
 
-Represents the type of the node. [TextNodeType](../../com.aspose.cells/textnodetype).
+Represents the type of the node. See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
 int
@@ -394,7 +394,7 @@ public void setDelimiterShape(int value)
 ```
 
 
-Specifies the shape of delimiters in the delimiter object. [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
+Specifies the shape of delimiters in the delimiter object. See [EquationDelimiterShapeType](../../com.aspose.cells/equationdelimitershapetype).
 
 **Parameters:**
 | Parameter | Type | Description |

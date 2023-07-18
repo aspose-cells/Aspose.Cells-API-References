@@ -165,7 +165,7 @@ public int getXAdESType()
 ```
 
 
-XAdES type. Default value is None(XAdES is off). [XAdESType](../../com.aspose.cells/xadestype).
+XAdES type. Default value is None(XAdES is off). See [XAdESType](../../com.aspose.cells/xadestype).
 
 **Returns:**
 int
@@ -302,7 +302,7 @@ public void setXAdESType(int value)
 ```
 
 
-XAdES type. Default value is None(XAdES is off). [XAdESType](../../com.aspose.cells/xadestype).
+XAdES type. Default value is None(XAdES is off). See [XAdESType](../../com.aspose.cells/xadestype).
 
 **Parameters:**
 | Parameter | Type | Description |

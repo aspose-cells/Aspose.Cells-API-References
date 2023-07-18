@@ -199,7 +199,7 @@ public int getBar3DShapeType()
 ```
 
 
-Gets the 3D shape type used with the 3-D bar or column chart. [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
+Gets the 3D shape type used with the 3-D bar or column chart. See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Returns:**
 int
@@ -209,7 +209,7 @@ public int getBarShape()
 ```
 
 
-Gets the 3D shape type used with the 3-D bar or column chart. [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype). NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
+Gets the 3D shape type used with the 3-D bar or column chart. See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype). NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -239,7 +239,7 @@ public int getBubbleSizeRepresents()
 ```
 
 
-Gets what the bubble size represents on a bubble chart. [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Series.SizeRepresents property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets what the bubble size represents on a bubble chart. See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Series.SizeRepresents property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -519,7 +519,7 @@ public int getSizeRepresents()
 ```
 
 
-Gets what the bubble size represents on a bubble chart. [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
+Gets what the bubble size represents on a bubble chart. See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
 
 **Returns:**
 int
@@ -539,7 +539,7 @@ public int getSplitType()
 ```
 
 
-Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. [ChartSplitType](../../com.aspose.cells/chartsplittype).
+Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. See [ChartSplitType](../../com.aspose.cells/chartsplittype).
 
 **Returns:**
 int
@@ -569,7 +569,7 @@ public int getType()
 ```
 
 
-Gets a data series' type. [ChartType](../../com.aspose.cells/charttype).
+Gets a data series' type. See [ChartType](../../com.aspose.cells/charttype).
 
 **Returns:**
 int
@@ -768,7 +768,7 @@ public void setBar3DShapeType(int value)
 ```
 
 
-Sets the 3D shape type used with the 3-D bar or column chart. [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
+Sets the 3D shape type used with the 3-D bar or column chart. See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -781,7 +781,7 @@ public void setBarShape(int value)
 ```
 
 
-Sets the 3D shape type used with the 3-D bar or column chart. [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype). NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
+Sets the 3D shape type used with the 3-D bar or column chart. See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype). NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -807,7 +807,7 @@ public void setBubbleSizeRepresents(int value)
 ```
 
 
-Gets what the bubble size represents on a bubble chart. [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Series.SizeRepresents property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets what the bubble size represents on a bubble chart. See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Series.SizeRepresents property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1067,7 +1067,7 @@ public void setSizeRepresents(int value)
 ```
 
 
-Sets what the bubble size represents on a bubble chart. [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
+Sets what the bubble size represents on a bubble chart. See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents). BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1093,7 +1093,7 @@ public void setSplitType(int value)
 ```
 
 
-Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. [ChartSplitType](../../com.aspose.cells/chartsplittype).
+Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. See [ChartSplitType](../../com.aspose.cells/chartsplittype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1119,7 +1119,7 @@ public void setType(int value)
 ```
 
 
-Sets a data series' type. [ChartType](../../com.aspose.cells/charttype).
+Sets a data series' type. See [ChartType](../../com.aspose.cells/charttype).
 
 **Parameters:**
 | Parameter | Type | Description |

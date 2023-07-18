@@ -291,7 +291,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlLoadOptions](../com.aspose.cells/htmlloadoptions) | Represents options when importing a html file. |
 | [HtmlSaveOptions](../com.aspose.cells/htmlsaveoptions) | Represents the options for saving html file. |
 | [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when import table from html. |
-| [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when import html. |
+| [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when importing html. |
 | [Hyperlink](../com.aspose.cells/hyperlink) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](../com.aspose.cells/hyperlinkcollection) | Encapsulates a collection of [Hyperlink](../com.aspose.cells/hyperlink) objects. |
 | [IconFilter](../com.aspose.cells/iconfilter) | Represents icon filter. |

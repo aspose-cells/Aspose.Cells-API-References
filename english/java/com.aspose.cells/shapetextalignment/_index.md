@@ -215,7 +215,7 @@ public int getTextHorizontalOverflow()
 ```
 
 
-Gets the text horizontal overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Gets the text horizontal overflow type of the text box. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Example**
 
@@ -231,7 +231,7 @@ public int getTextShapeType()
 ```
 
 
-Gets the transform type of text. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Gets the transform type of text. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Example**
 
@@ -248,7 +248,7 @@ public int getTextVerticalOverflow()
 ```
 
 
-Gets the text vertical overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Gets the text vertical overflow type of the text box. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Example**
 
@@ -264,7 +264,7 @@ public int getTextVerticalType()
 ```
 
 
-Gets the text direction. [TextVerticalType](../../com.aspose.cells/textverticaltype).
+Gets the text direction. See [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 **Example**
 
@@ -481,7 +481,7 @@ public void setTextHorizontalOverflow(int value)
 ```
 
 
-Sets the text horizontal overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Sets the text horizontal overflow type of the text box. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -494,7 +494,7 @@ public void setTextShapeType(int value)
 ```
 
 
-Sets the transform type of text. [AutoShapeType](../../com.aspose.cells/autoshapetype).
+Sets the transform type of text. See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -507,7 +507,7 @@ public void setTextVerticalOverflow(int value)
 ```
 
 
-Sets the text vertical overflow type of the text box. [TextOverflowType](../../com.aspose.cells/textoverflowtype).
+Sets the text vertical overflow type of the text box. See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -520,7 +520,7 @@ public void setTextVerticalType(int value)
 ```
 
 
-Sets the text direction. [TextVerticalType](../../com.aspose.cells/textverticaltype).
+Sets the text direction. See [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -920,7 +920,7 @@ public int getPaneState()
 ```
 
 
-Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. [PaneStateType](../../com.aspose.cells/panestatetype).
+Indicates whether the pane has horizontal or vertical splits, and whether those splits are frozen. See [PaneStateType](../../com.aspose.cells/panestatetype).
 
 **Returns:**
 int
@@ -1135,7 +1135,7 @@ public int getType()
 ```
 
 
-Represents worksheet type. [SheetType](../../com.aspose.cells/sheettype).
+Represents worksheet type. See [SheetType](../../com.aspose.cells/sheettype).
 
 **Returns:**
 int
@@ -1175,7 +1175,7 @@ public int getViewType()
 ```
 
 
-Gets the view type. [ViewType](../../com.aspose.cells/viewtype).
+Gets the view type. See [ViewType](../../com.aspose.cells/viewtype).
 
 **Returns:**
 int
@@ -1185,7 +1185,7 @@ public int getVisibilityType()
 ```
 
 
-Indicates the visible state for this sheet. [VisibilityType](../../com.aspose.cells/visibilitytype).
+Indicates the visible state for this sheet. See [VisibilityType](../../com.aspose.cells/visibilitytype).
 
 **Returns:**
 int
@@ -1711,7 +1711,7 @@ public void setType(int value)
 ```
 
 
-Represents worksheet type. [SheetType](../../com.aspose.cells/sheettype).
+Represents worksheet type. See [SheetType](../../com.aspose.cells/sheettype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1737,7 +1737,7 @@ public void setViewType(int value)
 ```
 
 
-Sets the view type. [ViewType](../../com.aspose.cells/viewtype).
+Sets the view type. See [ViewType](../../com.aspose.cells/viewtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1750,7 +1750,7 @@ public void setVisibilityType(int value)
 ```
 
 
-Indicates the visible state for this sheet. [VisibilityType](../../com.aspose.cells/visibilitytype).
+Indicates the visible state for this sheet. See [VisibilityType](../../com.aspose.cells/visibilitytype).
 
 **Parameters:**
 | Parameter | Type | Description |

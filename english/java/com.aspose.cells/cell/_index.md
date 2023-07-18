@@ -649,7 +649,7 @@ public int getNumberCategoryType()
 ```
 
 
-Represents the category type of this cell's number formatting. [NumberCategoryType](../../com.aspose.cells/numbercategorytype).
+Represents the category type of this cell's number formatting. See [NumberCategoryType](../../com.aspose.cells/numbercategorytype).
 
 **Returns:**
 int
@@ -829,7 +829,7 @@ public int getType()
 ```
 
 
-Represents cell value type. [CellValueType](../../com.aspose.cells/cellvaluetype).
+Represents cell value type. See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
 **Returns:**
 int

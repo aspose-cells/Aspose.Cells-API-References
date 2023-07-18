@@ -81,7 +81,7 @@ public int getAxisType()
 ```
 
 
-Gets the region of the PivotTable to which this rule applies. [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
+Gets the region of the PivotTable to which this rule applies. See [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
 
 **Returns:**
 int
@@ -131,7 +131,7 @@ public int getRuleType()
 ```
 
 
-Gets the type of selection rule. [PivotAreaType](../../com.aspose.cells/pivotareatype).
+Gets the type of selection rule. See [PivotAreaType](../../com.aspose.cells/pivotareatype).
 
 **Returns:**
 int
@@ -212,7 +212,7 @@ public void setAxisType(int value)
 ```
 
 
-Sets the region of the PivotTable to which this rule applies. [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
+Sets the region of the PivotTable to which this rule applies. See [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -290,7 +290,7 @@ public void setRuleType(int value)
 ```
 
 
-Sets the type of selection rule. [PivotAreaType](../../com.aspose.cells/pivotareatype).
+Sets the type of selection rule. See [PivotAreaType](../../com.aspose.cells/pivotareatype).
 
 **Parameters:**
 | Parameter | Type | Description |

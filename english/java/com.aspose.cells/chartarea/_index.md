@@ -69,8 +69,8 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackground()](#getBackground--) | Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -95,8 +95,8 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [setHeight(int value)](#setHeight-int-) | Sets the vertical offset from its lower right corner row. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
@@ -149,7 +149,7 @@ public int getBackground()
 ```
 
 
-Gets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -159,7 +159,7 @@ public int getBackgroundMode()
 ```
 
 
-Gets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Gets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
 int
@@ -411,7 +411,7 @@ public void setBackground(int value)
 ```
 
 
-Sets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode). NOTE: This member is now obsolete. Instead, please use ChartFrame.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -424,7 +424,7 @@ public void setBackgroundMode(int value)
 ```
 
 
-Sets the display mode of the background [BackgroundMode](../../com.aspose.cells/backgroundmode).
+Sets the display mode of the background See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**
 | Parameter | Type | Description |

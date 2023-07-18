@@ -289,7 +289,7 @@ public int getOperator()
 ```
 
 
-Gets the conditional format operator type. [OperatorType](../../com.aspose.cells/operatortype).
+Gets the conditional format operator type. See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Returns:**
 int
@@ -339,7 +339,7 @@ public int getTimePeriod()
 ```
 
 
-The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. [TimePeriodType](../../com.aspose.cells/timeperiodtype).
+The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 
 **Returns:**
 int
@@ -359,7 +359,7 @@ public int getType()
 ```
 
 
-Gets whether the conditional format Type. [FormatConditionType](../../com.aspose.cells/formatconditiontype).
+Gets whether the conditional format Type. See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
 
 **Returns:**
 int
@@ -467,7 +467,7 @@ public void setOperator(int value)
 ```
 
 
-Sets the conditional format operator type. [OperatorType](../../com.aspose.cells/operatortype).
+Sets the conditional format operator type. See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -532,7 +532,7 @@ public void setTimePeriod(int value)
 ```
 
 
-The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. [TimePeriodType](../../com.aspose.cells/timeperiodtype).
+The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today. See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -545,7 +545,7 @@ public void setType(int value)
 ```
 
 
-Sets whether the conditional format Type. [FormatConditionType](../../com.aspose.cells/formatconditiontype).
+Sets whether the conditional format Type. See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
 
 **Parameters:**
 | Parameter | Type | Description |

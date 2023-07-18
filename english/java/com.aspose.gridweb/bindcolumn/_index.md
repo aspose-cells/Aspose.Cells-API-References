@@ -17,7 +17,7 @@ BindColumn.
 
 | Constructor | Description |
 | --- | --- |
-| [BindColumn()](#BindColumn--) | Defalut constructor. |
+| [BindColumn()](#BindColumn--) | Default constructor. |
 ## Methods
 
 | Method | Description |
@@ -70,7 +70,7 @@ public BindColumn()
 ```
 
 
-Defalut constructor.
+Default constructor.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -203,7 +203,7 @@ public int getNumberType()
 ```
 
 
-Gets the number type of the column. [NumberType](../../com.aspose.gridweb/numbertype).
+Gets the number type of the column. See [NumberType](../../com.aspose.gridweb/numbertype).
 
 **Returns:**
 int
@@ -429,7 +429,7 @@ public void setNumberType(int value)
 ```
 
 
-Sets the number type of the column. [NumberType](../../com.aspose.gridweb/numbertype).
+Sets the number type of the column. See [NumberType](../../com.aspose.gridweb/numbertype).
 
 **Parameters:**
 | Parameter | Type | Description |

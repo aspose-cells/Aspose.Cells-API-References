@@ -85,7 +85,7 @@ public int getStoreType()
 ```
 
 
-Gets the type of marketplace that the store attribute identifies. [WebExtensionStoreType](../../com.aspose.cells/webextensionstoretype).
+Gets the type of marketplace that the store attribute identifies. See [WebExtensionStoreType](../../com.aspose.cells/webextensionstoretype).
 
 **Returns:**
 int
@@ -157,7 +157,7 @@ public void setStoreType(int value)
 ```
 
 
-Sets the type of marketplace that the store attribute identifies. [WebExtensionStoreType](../../com.aspose.cells/webextensionstoretype).
+Sets the type of marketplace that the store attribute identifies. See [WebExtensionStoreType](../../com.aspose.cells/webextensionstoretype).
 
 **Parameters:**
 | Parameter | Type | Description |

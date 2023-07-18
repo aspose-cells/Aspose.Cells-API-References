@@ -124,7 +124,7 @@ public int getPresetShape()
 ```
 
 
-Gets the preset shape type. [MsoPresetTextEffectShape](../../com.aspose.cells/msopresettexteffectshape).
+Gets the preset shape type. See [MsoPresetTextEffectShape](../../com.aspose.cells/msopresettexteffectshape).
 
 **Returns:**
 int
@@ -232,7 +232,7 @@ public void setPresetShape(int value)
 ```
 
 
-Sets the preset shape type. [MsoPresetTextEffectShape](../../com.aspose.cells/msopresettexteffectshape).
+Sets the preset shape type. See [MsoPresetTextEffectShape](../../com.aspose.cells/msopresettexteffectshape).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -90,7 +90,7 @@ public int getBorderStyle()
 ```
 
 
-Gets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Gets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
 int
@@ -159,7 +159,7 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Sets the style of the border. Please refer to .NET SDK document about System.Web.UI.WebControls.BorderStyle enum. See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
 | Parameter | Type | Description |

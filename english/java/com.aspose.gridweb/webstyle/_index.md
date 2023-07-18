@@ -25,7 +25,7 @@ Represent the style for web control,extend from the Style class.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBackColor()](#getBackColor--) | Gets the BackColor in the style |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the style |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the style |
 | [getClass()](#getClass--) |  |
 | [getCssClass()](#getCssClass--) | Gets the CssClass in the style |
@@ -38,7 +38,7 @@ Represent the style for web control,extend from the Style class.
 | [notifyAll()](#notifyAll--) |  |
 | [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the style |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the style |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the style |
 | [setCssClass(String value)](#setCssClass-java.lang.String-) | Sets the CssClass in the style |
 | [setForeColor(Color value)](#setForeColor-com.aspose.gridweb.Color-) | Sets the ForeColor in the style |
@@ -95,7 +95,7 @@ public int getBorderStyle()
 ```
 
 
-Gets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Gets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
 int
@@ -227,7 +227,7 @@ public void setBorderStyle(int value)
 ```
 
 
-Sets the BorderStyle in the style [BorderStyle](../../com.aspose.gridweb/borderstyle).
+Sets the BorderStyle in the style See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
 | Parameter | Type | Description |

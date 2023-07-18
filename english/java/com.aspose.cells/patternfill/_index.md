@@ -25,7 +25,7 @@ Encapsulates the object that represents pattern fill format
 | [getForeTransparency()](#getForeTransparency--) | Gets the transparency of foreground color. |
 | [getForegroundCellsColor()](#getForegroundCellsColor--) | Gets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
 | [getForegroundColor()](#getForegroundColor--) | Gets the foreground [Color](../../com.aspose.cells/color). |
-| [getPattern()](#getPattern--) | Gets the fill pattern type [FillPattern](../../com.aspose.cells/fillpattern). |
+| [getPattern()](#getPattern--) | Gets the fill pattern type See [FillPattern](../../com.aspose.cells/fillpattern). |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -35,7 +35,7 @@ Encapsulates the object that represents pattern fill format
 | [setForeTransparency(double value)](#setForeTransparency-double-) | Sets the transparency of foreground color. |
 | [setForegroundCellsColor(CellsColor value)](#setForegroundCellsColor-com.aspose.cells.CellsColor-) | Sets the foreground [CellsColor](../../com.aspose.cells/cellscolor) object. |
 | [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Sets the foreground [Color](../../com.aspose.cells/color). |
-| [setPattern(int value)](#setPattern-int-) | Sets the fill pattern type [FillPattern](../../com.aspose.cells/fillpattern). |
+| [setPattern(int value)](#setPattern-int-) | Sets the fill pattern type See [FillPattern](../../com.aspose.cells/fillpattern). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -131,7 +131,7 @@ public int getPattern()
 ```
 
 
-Gets the fill pattern type [FillPattern](../../com.aspose.cells/fillpattern).
+Gets the fill pattern type See [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Returns:**
 int
@@ -245,7 +245,7 @@ public void setPattern(int value)
 ```
 
 
-Sets the fill pattern type [FillPattern](../../com.aspose.cells/fillpattern).
+Sets the fill pattern type See [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Parameters:**
 | Parameter | Type | Description |
