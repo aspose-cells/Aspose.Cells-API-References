@@ -91,6 +91,7 @@ public int getMetadataType()
 
 
 Gets the type of the metadata which is loading.
+
 See [MetadataType](../../com.aspose.cells/metadatatype).
 
 **Returns:**

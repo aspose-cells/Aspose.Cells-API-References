@@ -97,6 +97,7 @@ public int getDateTimeGroupingType()
 
 
 Gets the group type.
+
 See [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype).
 
 **Returns:**
@@ -204,6 +205,7 @@ public void setDateTimeGroupingType(int value)
 
 
 Sets the group type.
+
 See [DateTimeGroupingType](../../com.aspose.cells/datetimegroupingtype).
 
 **Parameters:**

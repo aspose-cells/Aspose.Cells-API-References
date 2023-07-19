@@ -131,6 +131,7 @@ public int getType()
 
 
 Gets the picture fill type.
+
 See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Returns:**
@@ -233,6 +234,7 @@ public void setType(int value)
 
 
 Sets the picture fill type.
+
 See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Parameters:**

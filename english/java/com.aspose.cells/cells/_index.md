@@ -1454,6 +1454,7 @@ public int getMemorySetting()
 
 
 Gets the memory usage option for this cells.
+
 See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
@@ -2960,6 +2961,7 @@ public void setMemorySetting(int value)
 
 
 Sets the memory usage option for this cells.
+
 See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**

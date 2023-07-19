@@ -24,8 +24,7 @@ This class specifies the Matrix equation, consisting of one or more elements lai
 | [getBaseJc()](#getBaseJc--) | This attribute specifies the justification of the matrix. |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node
-See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
 | [getParentNode()](#getParentNode--) | Specifies the parent node of the current node |
@@ -118,6 +117,7 @@ public int getBaseJc()
 
 
 This attribute specifies the justification of the matrix. Text outside of the matrix can be aligned with the bottom, top, or center of a matrix function. Default, the matrix assumes center justification.
+
 See [EquationVerticalJustificationType](../../com.aspose.cells/equationverticaljustificationtype).
 
 **Returns:**
@@ -154,6 +154,7 @@ public int getEquationType()
 
 
 Get the equation type of the current node
+
 See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
@@ -215,6 +216,7 @@ public int getType()
 
 
 Represents the type of the node.
+
 See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
@@ -350,6 +352,7 @@ public void setBaseJc(int value)
 
 
 This attribute specifies the justification of the matrix. Text outside of the matrix can be aligned with the bottom, top, or center of a matrix function. Default, the matrix assumes center justification.
+
 See [EquationVerticalJustificationType](../../com.aspose.cells/equationverticaljustificationtype).
 
 **Parameters:**

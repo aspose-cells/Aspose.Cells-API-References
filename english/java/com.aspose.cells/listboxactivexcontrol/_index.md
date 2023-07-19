@@ -134,6 +134,7 @@ public int getBorderStyle()
 
 
 Gets the type of border used by the control.
+
 See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Returns:**
@@ -229,6 +230,7 @@ public int getIMEMode()
 
 
 Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
+
 See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Returns:**
@@ -270,6 +272,7 @@ public int getListStyle()
 
 
 Gets the visual appearance.
+
 See [ControlListStyle](../../com.aspose.cells/controlliststyle).
 
 **Returns:**
@@ -291,6 +294,7 @@ public int getMatchEntry()
 
 
 Indicates how a ListBox or ComboBox searches its list as the user types.
+
 See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
 
 **Returns:**
@@ -312,6 +316,7 @@ public int getMousePointer()
 
 
 Gets the type of icon displayed as the mouse pointer for the control.
+
 See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Returns:**
@@ -323,6 +328,7 @@ public int getScrollBars()
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
+
 See [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
 
 **Returns:**
@@ -334,6 +340,7 @@ public int getSelectionType()
 
 
 Indicates whether the control permits multiple selections.
+
 See [SelectionType](../../com.aspose.cells/selectiontype).
 
 **Returns:**
@@ -365,6 +372,7 @@ public int getSpecialEffect()
 
 
 Gets the special effect of the control.
+
 See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Returns:**
@@ -376,6 +384,7 @@ public int getTextAlign()
 
 
 Represents how to align the text used by the control.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
@@ -397,6 +406,7 @@ public int getType()
 
 
 Gets the type of the ActiveX control.
+
 See [ControlType](../../com.aspose.cells/controltype).
 
 **Returns:**
@@ -557,6 +567,7 @@ public void setBorderStyle(int value)
 
 
 Sets the type of border used by the control.
+
 See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Parameters:**
@@ -653,6 +664,7 @@ public void setIMEMode(int value)
 
 
 Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+
 See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Parameters:**
@@ -706,6 +718,7 @@ public void setListStyle(int value)
 
 
 Sets the visual appearance.
+
 See [ControlListStyle](../../com.aspose.cells/controlliststyle).
 
 **Parameters:**
@@ -746,6 +759,7 @@ public void setMatchEntry(int value)
 
 
 Indicates how a ListBox or ComboBox searches its list as the user types.
+
 See [ControlMatchEntryType](../../com.aspose.cells/controlmatchentrytype).
 
 **Parameters:**
@@ -773,6 +787,7 @@ public void setMousePointer(int value)
 
 
 Sets the type of icon displayed as the mouse pointer for the control.
+
 See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Parameters:**
@@ -787,6 +802,7 @@ public void setScrollBars(int value)
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
+
 See [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
 
 **Parameters:**
@@ -801,6 +817,7 @@ public void setSelectionType(int value)
 
 
 Indicates whether the control permits multiple selections.
+
 See [SelectionType](../../com.aspose.cells/selectiontype).
 
 **Parameters:**
@@ -841,6 +858,7 @@ public void setSpecialEffect(int value)
 
 
 Sets the special effect of the control.
+
 See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Parameters:**
@@ -855,6 +873,7 @@ public void setTextAlign(int value)
 
 
 Represents how to align the text used by the control.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**

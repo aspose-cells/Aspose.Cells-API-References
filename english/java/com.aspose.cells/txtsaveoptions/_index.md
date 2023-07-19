@@ -228,6 +228,7 @@ public int getFormatStrategy()
 
 
 Gets the format strategy when exporting the cell value as string.
+
 See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Returns:**
@@ -273,6 +274,7 @@ public int getQuoteType()
 
 
 Gets how to quote values in the exported text file.
+
 See [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
 
 **Returns:**
@@ -294,6 +296,7 @@ public int getSaveFormat()
 
 
 Gets the save file format.
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
@@ -557,6 +560,7 @@ public void setFormatStrategy(int value)
 
 
 Sets the format strategy when exporting the cell value as string.
+
 See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Parameters:**
@@ -614,6 +618,7 @@ public void setQuoteType(int value)
 
 
 Sets how to quote values in the exported text file.
+
 See [TxtValueQuoteType](../../com.aspose.cells/txtvaluequotetype).
 
 **Parameters:**

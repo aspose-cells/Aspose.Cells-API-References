@@ -293,6 +293,7 @@ public int getHorizontalAlignment()
 
 
 Gets the horizontal alignment type of the text in a cell.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
@@ -386,8 +387,6 @@ For example, the formatting patterns represented by numbers for en\_US region:
     | 48    | Scientific | `##0.0E+0`                                           |
     | 49    | Text       | `@`                                                  |
 
-    |
-
 **Returns:**
 int
 ### getParentStyle() {#getParentStyle--}
@@ -407,6 +406,7 @@ public int getPattern()
 
 
 Gets the cell background pattern type.
+
 See [BackgroundType](../../com.aspose.cells/backgroundtype).
 
 **Returns:**
@@ -460,6 +460,7 @@ public int getTextDirection()
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
@@ -495,6 +496,7 @@ public int getVerticalAlignment()
 
 
 Gets the vertical alignment type of the text in a cell.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
@@ -841,6 +843,7 @@ public void setHorizontalAlignment(int value)
 
 
 Sets the horizontal alignment type of the text in a cell.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
@@ -963,8 +966,6 @@ For example, the formatting patterns represented by numbers for en\_US region:
     | 48    | Scientific | `##0.0E+0`                                           |
     | 49    | Text       | `@`                                                  |
 
-    |
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -977,6 +978,7 @@ public void setPattern(int value)
 
 
 Sets the cell background pattern type.
+
 See [BackgroundType](../../com.aspose.cells/backgroundtype).
 
 **Parameters:**
@@ -1057,6 +1059,7 @@ public void setTextDirection(int value)
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
@@ -1100,6 +1103,7 @@ public void setVerticalAlignment(int value)
 
 
 Sets the vertical alignment type of the text in a cell.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**

@@ -86,6 +86,7 @@ public int getFieldType()
 
 
 Gets the type of the field.
+
 See [OdsCellFieldType](../../com.aspose.cells/odscellfieldtype).
 
 **Returns:**
@@ -159,6 +160,7 @@ public void setFieldType(int value)
 
 
 Sets the type of the field.
+
 See [OdsCellFieldType](../../com.aspose.cells/odscellfieldtype).
 
 **Parameters:**

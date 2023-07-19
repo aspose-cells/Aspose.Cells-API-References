@@ -91,6 +91,7 @@ public int getMapChartProjectionType()
 
 
 Gets the projection type of the map.
+
 See [MapChartProjectionType](../../com.aspose.cells/mapchartprojectiontype).
 
 **Returns:**
@@ -102,6 +103,7 @@ public int getMapChartRegionType()
 
 
 Gets the region type of the map.
+
 See [MapChartRegionType](../../com.aspose.cells/mapchartregiontype).
 
 **Returns:**
@@ -113,6 +115,7 @@ public int getMapLabelLayout()
 
 
 Gets the layout of map labels.
+
 See [MapChartLabelLayout](../../com.aspose.cells/mapchartlabellayout).
 
 **Returns:**
@@ -124,6 +127,7 @@ public int getQuartileCalculation()
 
 
 Represents the statistical properties for the series.
+
 See [QuartileCalculationType](../../com.aspose.cells/quartilecalculationtype).
 
 **Returns:**
@@ -244,6 +248,7 @@ public void setMapChartProjectionType(int value)
 
 
 Sets the projection type of the map.
+
 See [MapChartProjectionType](../../com.aspose.cells/mapchartprojectiontype).
 
 **Parameters:**
@@ -258,6 +263,7 @@ public void setMapChartRegionType(int value)
 
 
 Sets the region type of the map.
+
 See [MapChartRegionType](../../com.aspose.cells/mapchartregiontype).
 
 **Parameters:**
@@ -272,6 +278,7 @@ public void setMapLabelLayout(int value)
 
 
 Sets the layout of map labels.
+
 See [MapChartLabelLayout](../../com.aspose.cells/mapchartlabellayout).
 
 **Parameters:**
@@ -286,6 +293,7 @@ public void setQuartileCalculation(int value)
 
 
 Represents the statistical properties for the series.
+
 See [QuartileCalculationType](../../com.aspose.cells/quartilecalculationtype).
 
 **Parameters:**

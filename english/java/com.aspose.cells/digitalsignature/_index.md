@@ -174,6 +174,7 @@ public int getXAdESType()
 
 
 XAdES type. Default value is None(XAdES is off).
+
 See [XAdESType](../../com.aspose.cells/xadestype).
 
 **Returns:**
@@ -320,6 +321,7 @@ public void setXAdESType(int value)
 
 
 XAdES type. Default value is None(XAdES is off).
+
 See [XAdESType](../../com.aspose.cells/xadestype).
 
 **Parameters:**

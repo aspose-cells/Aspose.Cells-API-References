@@ -271,6 +271,7 @@ public int getBaseItemPosition()
 
 
 Represents the item in the base field for a custom calculation. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute.
+
 See [PivotItemPosition](../../com.aspose.cells/pivotitemposition).
 
 **Returns:**
@@ -312,6 +313,7 @@ public int getDataDisplayFormat()
 
 
 Represents how to display the values contained in a data field.
+
 See [PivotFieldDataDisplayFormat](../../com.aspose.cells/pivotfielddatadisplayformat).
 
 **Returns:**
@@ -383,6 +385,7 @@ public int getFunction()
 
 
 Represents the function used to summarize the PivotTable data field.
+
 See [ConsolidationFunction](../../com.aspose.cells/consolidationfunction).
 
 **Returns:**
@@ -946,6 +949,7 @@ public void setBaseItemPosition(int value)
 
 
 Represents the item in the base field for a custom calculation. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute.
+
 See [PivotItemPosition](../../com.aspose.cells/pivotitemposition).
 
 **Parameters:**
@@ -973,6 +977,7 @@ public void setDataDisplayFormat(int value)
 
 
 Represents how to display the values contained in a data field.
+
 See [PivotFieldDataDisplayFormat](../../com.aspose.cells/pivotfielddatadisplayformat).
 
 **Parameters:**
@@ -1065,6 +1070,7 @@ public void setFunction(int value)
 
 
 Represents the function used to summarize the PivotTable data field.
+
 See [ConsolidationFunction](../../com.aspose.cells/consolidationfunction).
 
 **Parameters:**

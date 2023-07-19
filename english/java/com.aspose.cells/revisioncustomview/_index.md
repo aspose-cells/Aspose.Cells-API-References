@@ -53,6 +53,7 @@ public int getActionType()
 
 
 Gets the type of action.
+
 See [RevisionActionType](../../com.aspose.cells/revisionactiontype).
 
 **Returns:**
@@ -98,6 +99,7 @@ public int getType()
 
 
 Gets the type of revision.
+
 See [RevisionType](../../com.aspose.cells/revisiontype).
 
 **Returns:**

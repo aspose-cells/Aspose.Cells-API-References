@@ -98,6 +98,7 @@ public int getBottomBevelType()
 
 
 Gets the type of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+
 See [BevelType](../../com.aspose.cells/beveltype).
 
 **Returns:**
@@ -179,6 +180,7 @@ public int getLighting()
 
 
 Gets type of light rig.
+
 See [LightRigType](../../com.aspose.cells/lightrigtype).
 
 **Returns:**
@@ -190,6 +192,7 @@ public int getLightingDirection()
 
 
 Gets the direction from which the light rig is oriented in relation to the scene.
+
 See [LightRigDirectionType](../../com.aspose.cells/lightrigdirectiontype).
 
 **Returns:**
@@ -201,6 +204,7 @@ public int getMaterial()
 
 
 Represents the preset material which is combined with the lighting properties to give the final look and feel of a shape.
+
 See [PresetMaterialType](../../com.aspose.cells/presetmaterialtype).
 
 **Returns:**
@@ -222,6 +226,7 @@ public int getPresetCameraType()
 
 
 Gets the extrusion preset camera type.
+
 See [PresetCameraType](../../com.aspose.cells/presetcameratype).
 
 **Returns:**
@@ -273,6 +278,7 @@ public int getTopBevelType()
 
 
 Gets the type of the top bevel, or how far into the shape it is applied. In unit of Points.
+
 See [BevelType](../../com.aspose.cells/beveltype).
 
 **Returns:**
@@ -343,6 +349,7 @@ public void setBottomBevelType(int value)
 
 
 Sets the type of the bottom bevel, or how far into the shape it is applied. In unit of Points.
+
 See [BevelType](../../com.aspose.cells/beveltype).
 
 **Parameters:**
@@ -435,6 +442,7 @@ public void setLighting(int value)
 
 
 Sets type of light rig.
+
 See [LightRigType](../../com.aspose.cells/lightrigtype).
 
 **Parameters:**
@@ -449,6 +457,7 @@ public void setLightingDirection(int value)
 
 
 Sets the direction from which the light rig is oriented in relation to the scene.
+
 See [LightRigDirectionType](../../com.aspose.cells/lightrigdirectiontype).
 
 **Parameters:**
@@ -463,6 +472,7 @@ public void setMaterial(int value)
 
 
 Represents the preset material which is combined with the lighting properties to give the final look and feel of a shape.
+
 See [PresetMaterialType](../../com.aspose.cells/presetmaterialtype).
 
 **Parameters:**
@@ -490,6 +500,7 @@ public void setPresetCameraType(int value)
 
 
 Sets the extrusion preset camera type.
+
 See [PresetCameraType](../../com.aspose.cells/presetcameratype).
 
 **Parameters:**
@@ -556,6 +567,7 @@ public void setTopBevelType(int value)
 
 
 Sets the type of the top bevel, or how far into the shape it is applied. In unit of Points.
+
 See [BevelType](../../com.aspose.cells/beveltype).
 
 **Parameters:**

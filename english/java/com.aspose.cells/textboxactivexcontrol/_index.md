@@ -39,8 +39,7 @@ Represents a text box ActiveX control.
 | [getBorderStyle()](#getBorderStyle--) | Gets the type of border used by the control. |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | Gets the binary data of the control. |
-| [getDropButtonStyle()](#getDropButtonStyle--) | Specifies the symbol displayed on the drop button
-See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
+| [getDropButtonStyle()](#getDropButtonStyle--) | Specifies the symbol displayed on the drop button |
 | [getEnterFieldBehavior()](#getEnterFieldBehavior--) | Specifies selection behavior when entering the control. |
 | [getEnterKeyBehavior()](#getEnterKeyBehavior--) | Specifies the behavior of the ENTER key. |
 | [getFont()](#getFont--) | Represents the font of the control. |
@@ -57,8 +56,7 @@ See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
 | [getPasswordChar()](#getPasswordChar--) | Gets a character to be displayed in place of the characters entered. |
 | [getScrollBars()](#getScrollBars--) | Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
-| [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--) | Specifies the symbol displayed on the drop button
-See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype). |
+| [getShowDropButtonTypeWhen()](#getShowDropButtonTypeWhen--) | Specifies the symbol displayed on the drop button |
 | [getSpecialEffect()](#getSpecialEffect--) | Gets the special effect of the control. |
 | [getTabKeyBehavior()](#getTabKeyBehavior--) | Indicates whether tab characters are allowed in the text of the control. |
 | [getText()](#getText--) | Gets text of the control. |
@@ -87,8 +85,7 @@ See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype). |
 | [setBorderOleColor(int value)](#setBorderOleColor-int-) | Sets the ole color of the background. |
 | [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the type of border used by the control. |
 | [setDragBehaviorEnabled(boolean value)](#setDragBehaviorEnabled-boolean-) | Indicates whether dragging and dropping is enabled for the control. |
-| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | Specifies the symbol displayed on the drop button
-See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
+| [setDropButtonStyle(int value)](#setDropButtonStyle-int-) | Specifies the symbol displayed on the drop button |
 | [setEditable(boolean value)](#setEditable-boolean-) | Indicates whether the user can type into the control. |
 | [setEnabled(boolean value)](#setEnabled-boolean-) | Indicates whether the control can receive the focus and respond to user-generated events. |
 | [setEnterFieldBehavior(boolean value)](#setEnterFieldBehavior-boolean-) | Specifies selection behavior when entering the control. |
@@ -108,8 +105,7 @@ See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle). |
 | [setPasswordChar(char value)](#setPasswordChar-char-) | Sets a character to be displayed in place of the characters entered. |
 | [setScrollBars(int value)](#setScrollBars-int-) | Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither. |
 | [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether to show a shadow. |
-| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | Specifies the symbol displayed on the drop button
-See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype). |
+| [setShowDropButtonTypeWhen(int value)](#setShowDropButtonTypeWhen-int-) | Specifies the symbol displayed on the drop button |
 | [setSpecialEffect(int value)](#setSpecialEffect-int-) | Sets the special effect of the control. |
 | [setTabKeyBehavior(boolean value)](#setTabKeyBehavior-boolean-) | Indicates whether tab characters are allowed in the text of the control. |
 | [setText(String value)](#setText-java.lang.String-) | Sets text of the control. |
@@ -171,6 +167,7 @@ public int getBorderStyle()
 
 
 Gets the type of border used by the control.
+
 See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Example**
@@ -208,6 +205,7 @@ public int getDropButtonStyle()
 
 
 Specifies the symbol displayed on the drop button
+
 See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
 
 **Example**
@@ -316,6 +314,7 @@ public int getIMEMode()
 
 
 Gets the default run-time mode of the Input Method Editor for the control as it receives focus.
+
 See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Returns:**
@@ -395,6 +394,7 @@ public int getMousePointer()
 
 
 Gets the type of icon displayed as the mouse pointer for the control.
+
 See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Returns:**
@@ -422,6 +422,7 @@ public int getScrollBars()
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
+
 See [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
 
 **Example**
@@ -449,6 +450,7 @@ public int getShowDropButtonTypeWhen()
 
 
 Specifies the symbol displayed on the drop button
+
 See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
 
 **Example**
@@ -466,6 +468,7 @@ public int getSpecialEffect()
 
 
 Gets the special effect of the control.
+
 See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Example**
@@ -518,6 +521,7 @@ public int getTextAlign()
 
 
 Represents how to align the text used by the control.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
@@ -529,6 +533,7 @@ public int getType()
 
 
 Gets the type of the ActiveX control.
+
 See [ControlType](../../com.aspose.cells/controltype).
 
 **Example**
@@ -821,6 +826,7 @@ public void setBorderStyle(int value)
 
 
 Sets the type of border used by the control.
+
 See [ControlBorderType](../../com.aspose.cells/controlbordertype).
 
 **Parameters:**
@@ -848,6 +854,7 @@ public void setDropButtonStyle(int value)
 
 
 Specifies the symbol displayed on the drop button
+
 See [DropButtonStyle](../../com.aspose.cells/dropbuttonstyle).
 
 **Parameters:**
@@ -957,6 +964,7 @@ public void setIMEMode(int value)
 
 
 Sets the default run-time mode of the Input Method Editor for the control as it receives focus.
+
 See [InputMethodEditorMode](../../com.aspose.cells/inputmethodeditormode).
 
 **Parameters:**
@@ -1049,6 +1057,7 @@ public void setMousePointer(int value)
 
 
 Sets the type of icon displayed as the mouse pointer for the control.
+
 See [ControlMousePointerType](../../com.aspose.cells/controlmousepointertype).
 
 **Parameters:**
@@ -1089,6 +1098,7 @@ public void setScrollBars(int value)
 
 
 Indicates specifies whether the control has vertical scroll bars, horizontal scroll bars, both, or neither.
+
 See [ControlScrollBarType](../../com.aspose.cells/controlscrollbartype).
 
 **Parameters:**
@@ -1116,6 +1126,7 @@ public void setShowDropButtonTypeWhen(int value)
 
 
 Specifies the symbol displayed on the drop button
+
 See [ShowDropButtonType](../../com.aspose.cells/showdropbuttontype).
 
 **Parameters:**
@@ -1130,6 +1141,7 @@ public void setSpecialEffect(int value)
 
 
 Sets the special effect of the control.
+
 See [ControlSpecialEffectType](../../com.aspose.cells/controlspecialeffecttype).
 
 **Parameters:**
@@ -1170,6 +1182,7 @@ public void setTextAlign(int value)
 
 
 Represents how to align the text used by the control.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**

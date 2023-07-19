@@ -110,6 +110,7 @@ public int getCalculationMode()
 
 
 Gets the mode for workbook calculation in ms excel.
+
 See [CalcModeType](../../com.aspose.cells/calcmodetype).
 
 **Remarks**
@@ -280,6 +281,7 @@ public void setCalculationMode(int value)
 
 
 Sets the mode for workbook calculation in ms excel.
+
 See [CalcModeType](../../com.aspose.cells/calcmodetype).
 
 **Remarks**

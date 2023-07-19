@@ -240,6 +240,7 @@ public int getOrder1()
 
 
 Represents sort order of the first key.
+
 See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
@@ -251,6 +252,7 @@ public int getOrder2()
 
 
 Represents sort order of the second key.
+
 See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
@@ -262,6 +264,7 @@ public int getOrder3()
 
 
 Represents sort order of the third key.
+
 See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
@@ -394,6 +397,7 @@ public void setOrder1(int value)
 
 
 Represents sort order of the first key.
+
 See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Parameters:**
@@ -408,6 +412,7 @@ public void setOrder2(int value)
 
 
 Represents sort order of the second key.
+
 See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Parameters:**
@@ -422,6 +427,7 @@ public void setOrder3(int value)
 
 
 Represents sort order of the third key.
+
 See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Parameters:**

@@ -19,8 +19,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getClass()](#getClass--) |  |
 | [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
 | [getDisplayNumberFormat()](#getDisplayNumberFormat--) | Gets the display number format of tick labels. |
@@ -39,8 +38,7 @@ See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutomaticRotation(boolean value)](#setAutomaticRotation-boolean-) | Indicates whether the rotation angle is automatic |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
 | [setNumber(int value)](#setNumber-int-) | Represents the format number for the TickLabels object. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the format string for the TickLabels object. |
@@ -85,6 +83,7 @@ public int getBackgroundMode()
 
 
 Gets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
@@ -106,6 +105,7 @@ public int getDirectionType()
 
 
 Gets the direction of text.
+
 See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Returns:**
@@ -185,6 +185,7 @@ public int getReadingOrder()
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
@@ -218,6 +219,7 @@ public int getTextDirection()
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Remarks**
@@ -309,6 +311,7 @@ public void setBackgroundMode(int value)
 
 
 Sets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**
@@ -323,6 +326,7 @@ public void setDirectionType(int value)
 
 
 Sets the direction of text.
+
 See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Parameters:**
@@ -397,6 +401,7 @@ public void setReadingOrder(int value)
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
@@ -436,6 +441,7 @@ public void setTextDirection(int value)
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Remarks**

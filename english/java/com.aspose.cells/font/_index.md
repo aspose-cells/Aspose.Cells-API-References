@@ -140,6 +140,7 @@ public int getCapsType()
 
 
 Gets the text caps type.
+
 See [TextCapsType](../../com.aspose.cells/textcapstype).
 
 **Returns:**
@@ -201,6 +202,7 @@ public int getSchemeType()
 
 
 Gets the scheme type of the font.
+
 See [FontSchemeType](../../com.aspose.cells/fontschemetype).
 
 **Returns:**
@@ -232,6 +234,7 @@ public int getStrikeType()
 
 
 Gets the strike type of the text.
+
 See [TextStrikeType](../../com.aspose.cells/textstriketype).
 
 **Returns:**
@@ -257,6 +260,7 @@ public int getUnderline()
 
 
 Gets the font underline type.
+
 See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
 
 **Returns:**
@@ -380,6 +384,7 @@ public void setCapsType(int value)
 
 
 Sets the text caps type.
+
 See [TextCapsType](../../com.aspose.cells/textcapstype).
 
 **Parameters:**
@@ -472,6 +477,7 @@ public void setSchemeType(int value)
 
 
 Sets the scheme type of the font.
+
 See [FontSchemeType](../../com.aspose.cells/fontschemetype).
 
 **Parameters:**
@@ -512,6 +518,7 @@ public void setStrikeType(int value)
 
 
 Gets the strike type of the text.
+
 See [TextStrikeType](../../com.aspose.cells/textstriketype).
 
 **Parameters:**
@@ -582,6 +589,7 @@ public void setUnderline(int value)
 
 
 Sets the font underline type.
+
 See [FontUnderlineType](../../com.aspose.cells/fontunderlinetype).
 
 **Parameters:**

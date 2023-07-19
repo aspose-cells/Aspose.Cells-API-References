@@ -74,6 +74,7 @@ public int getType()
 
 
 Gets the preset bevel type.
+
 See [BevelPresetType](../../com.aspose.cells/bevelpresettype).
 
 **Returns:**
@@ -134,6 +135,7 @@ public void setType(int value)
 
 
 Sets the preset bevel type.
+
 See [BevelPresetType](../../com.aspose.cells/bevelpresettype).
 
 **Parameters:**

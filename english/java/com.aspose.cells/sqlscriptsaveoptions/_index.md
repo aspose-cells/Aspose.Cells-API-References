@@ -262,6 +262,7 @@ public int getOperatorType()
 
 
 Gets the operator type of sql.
+
 See [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
 
 **Returns:**
@@ -293,6 +294,7 @@ public int getSaveFormat()
 
 
 Gets the save file format.
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
@@ -635,6 +637,7 @@ public void setOperatorType(int value)
 
 
 Sets the operator type of sql.
+
 See [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
 
 **Parameters:**

@@ -580,6 +580,7 @@ public int getXValueType()
 
 
 Gets X value type of the chart point.
+
 See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
 **Returns:**
@@ -601,6 +602,7 @@ public int getYValueType()
 
 
 Gets Y value type of the chart point.
+
 See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
 **Returns:**

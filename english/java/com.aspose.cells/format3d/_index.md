@@ -76,6 +76,7 @@ public int getSurfaceLightingType()
 
 
 Gets the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
+
 See [LightRigType](../../com.aspose.cells/lightrigtype).
 
 **Returns:**
@@ -87,6 +88,7 @@ public int getSurfaceMaterialType()
 
 
 Gets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
+
 See [PresetMaterialType](../../com.aspose.cells/presetmaterialtype).
 
 **Returns:**
@@ -157,6 +159,7 @@ public void setSurfaceLightingType(int value)
 
 
 Sets the lighting type which is to be applied to the scene of the shape. Default value is LightRigType.ThreePoint.
+
 See [LightRigType](../../com.aspose.cells/lightrigtype).
 
 **Parameters:**
@@ -171,6 +174,7 @@ public void setSurfaceMaterialType(int value)
 
 
 Sets the material type which is combined with the lighting properties to give the final look and feel of a shape. Default value is PresetMaterialType.WarmMatte.
+
 See [PresetMaterialType](../../com.aspose.cells/presetmaterialtype).
 
 **Parameters:**

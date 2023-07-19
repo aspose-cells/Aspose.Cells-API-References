@@ -144,6 +144,7 @@ public int getGeneratorType()
 
 
 Gets the generator of the ods file.
+
 See [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
 
 **Returns:**
@@ -179,6 +180,7 @@ public int getSaveFormat()
 
 
 Gets the save file format.
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
@@ -327,6 +329,7 @@ public void setGeneratorType(int value)
 
 
 Sets the generator of the ods file.
+
 See [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
 
 **Parameters:**

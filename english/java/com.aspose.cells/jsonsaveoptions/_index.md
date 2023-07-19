@@ -186,6 +186,7 @@ public int getExportHyperlinkType()
 
 
 Represents the type of exporting hyperlink to json.
+
 See [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype).
 
 **Remarks**
@@ -251,6 +252,7 @@ public int getSaveFormat()
 
 
 Gets the save file format.
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
@@ -471,6 +473,7 @@ public void setExportHyperlinkType(int value)
 
 
 Represents the type of exporting hyperlink to json.
+
 See [JsonExportHyperlinkType](../../com.aspose.cells/jsonexporthyperlinktype).
 
 **Remarks**

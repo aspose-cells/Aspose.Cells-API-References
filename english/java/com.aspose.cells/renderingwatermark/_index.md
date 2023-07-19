@@ -120,6 +120,7 @@ public int getHAlignment()
 
 
 Gets horizontal alignment of the watermark to the page.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Remarks**
@@ -205,6 +206,7 @@ public int getVAlignment()
 
 
 Gets vertical alignment of the watermark to the page.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Remarks**
@@ -269,6 +271,7 @@ public void setHAlignment(int value)
 
 
 Sets horizontal alignment of the watermark to the page.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Remarks**
@@ -352,6 +355,7 @@ public void setVAlignment(int value)
 
 
 Sets vertical alignment of the watermark to the page.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Remarks**

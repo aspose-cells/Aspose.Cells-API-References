@@ -477,6 +477,7 @@ public int getOrder()
 
 
 Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
+
 See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Returns:**
@@ -488,6 +489,7 @@ public int getOrientation()
 
 
 Represents page print orientation.
+
 See [PageOrientationType](../../com.aspose.cells/pageorientationtype).
 
 **Returns:**
@@ -509,6 +511,7 @@ public int getPaperSize()
 
 
 Represents the size of the paper.
+
 See [PaperSizeType](../../com.aspose.cells/papersizetype).
 
 **Returns:**
@@ -574,6 +577,7 @@ public int getPrintComments()
 
 
 Represents the way comments are printed with the sheet.
+
 See [PrintCommentsType](../../com.aspose.cells/printcommentstype).
 
 **Returns:**
@@ -605,6 +609,7 @@ public int getPrintErrors()
 
 
 Specifies the type of print error displayed.
+
 See [PrintErrorsType](../../com.aspose.cells/printerrorstype).
 
 **Returns:**
@@ -1048,7 +1053,7 @@ Script commands:
     | &K<RRGGBB>                 | Font color, for example(RED): &KFF0000                                                                                                                  |
     | &G                         | Image script                                                                                                                                            |
 
-    |
+For example: "&Arial,Bold&8Footer Note"
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1176,7 +1181,7 @@ Script commands:
     | &K<RRGGBB>                 | Font color, for example(RED): &KFF0000                                                                                                                  |
     | &G                         | Image script                                                                                                                                            |
 
-    |
+For example: "&Arial,Bold&8Header Note"
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1259,6 +1264,7 @@ public void setOrder(int value)
 
 
 Represents the order that Microsoft Excel uses to number pages when printing a large worksheet.
+
 See [PrintOrderType](../../com.aspose.cells/printordertype).
 
 **Parameters:**
@@ -1273,6 +1279,7 @@ public void setOrientation(int value)
 
 
 Represents page print orientation.
+
 See [PageOrientationType](../../com.aspose.cells/pageorientationtype).
 
 **Parameters:**
@@ -1287,6 +1294,7 @@ public void setPaperSize(int value)
 
 
 Represents the size of the paper.
+
 See [PaperSizeType](../../com.aspose.cells/papersizetype).
 
 **Parameters:**
@@ -1346,6 +1354,7 @@ public void setPrintComments(int value)
 
 
 Represents the way comments are printed with the sheet.
+
 See [PrintCommentsType](../../com.aspose.cells/printcommentstype).
 
 **Parameters:**
@@ -1386,6 +1395,7 @@ public void setPrintErrors(int value)
 
 
 Specifies the type of print error displayed.
+
 See [PrintErrorsType](../../com.aspose.cells/printerrorstype).
 
 **Parameters:**

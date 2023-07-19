@@ -120,6 +120,7 @@ public int getCommandType()
 
 
 Gets the rendering type of the command. The type can be command button or context menu item.
+
 See [CustomCommandButtonType](../../com.aspose.gridweb/customcommandbuttontype).
 
 **Returns:**
@@ -253,6 +254,7 @@ public void setCommandType(int value)
 
 
 Sets the rendering type of the command. The type can be command button or context menu item.
+
 See [CustomCommandButtonType](../../com.aspose.gridweb/customcommandbuttontype).
 
 **Parameters:**

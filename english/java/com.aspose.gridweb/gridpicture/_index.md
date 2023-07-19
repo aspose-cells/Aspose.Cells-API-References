@@ -335,6 +335,7 @@ public int getImageFormat()
 
 
 Gets the image format of the picture.
+
 See [GridImageType](../../com.aspose.gridweb/gridimagetype).
 
 **Returns:**

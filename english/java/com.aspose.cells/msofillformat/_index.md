@@ -100,6 +100,7 @@ public int getTexture()
 
 
 Gets the texture fill type.
+
 See [TextureType](../../com.aspose.cells/texturetype).
 
 **Returns:**

@@ -60,10 +60,8 @@ Represents error bar of data series.
 | [getCapType()](#getCapType--) | Specifies the ending caps. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Represents the [Color](../../com.aspose.cells/color) of the line. |
-| [getCompoundType()](#getCompoundType--) | Specifies the compound line type
-See [MsoLineStyle](../../com.aspose.cells/msolinestyle). |
-| [getDashType()](#getDashType--) | Specifies the dash line type
-See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle). |
+| [getCompoundType()](#getCompoundType--) | Specifies the compound line type |
+| [getDashType()](#getDashType--) | Specifies the dash line type |
 | [getDisplayType()](#getDisplayType--) | Represents error bar display type. |
 | [getEndArrowLength()](#getEndArrowLength--) | Specifies the length of the arrowhead for the end of a line. |
 | [getEndArrowWidth()](#getEndArrowWidth--) | Specifies the width of the arrowhead for the end of a line. |
@@ -94,10 +92,8 @@ See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle). |
 | [setBeginType(int value)](#setBeginType-int-) | Specifies an arrowhead for the begin of a line. |
 | [setCapType(int value)](#setCapType-int-) | Specifies the ending caps. |
 | [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Represents the [Color](../../com.aspose.cells/color) of the line. |
-| [setCompoundType(int value)](#setCompoundType-int-) | Specifies the compound line type
-See [MsoLineStyle](../../com.aspose.cells/msolinestyle). |
-| [setDashType(int value)](#setDashType-int-) | Specifies the dash line type
-See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle). |
+| [setCompoundType(int value)](#setCompoundType-int-) | Specifies the compound line type |
+| [setDashType(int value)](#setDashType-int-) | Specifies the dash line type |
 | [setDisplayType(int value)](#setDisplayType-int-) | Represents error bar display type. |
 | [setEndArrowLength(int value)](#setEndArrowLength-int-) | Specifies the length of the arrowhead for the end of a line. |
 | [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | Specifies the width of the arrowhead for the end of a line. |
@@ -151,6 +147,7 @@ public int getBeginArrowLength()
 
 
 Specifies the length of the arrowhead for the begin of a line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Returns:**
@@ -162,6 +159,7 @@ public int getBeginArrowWidth()
 
 
 Specifies the width of the arrowhead for the begin of a line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Returns:**
@@ -173,6 +171,7 @@ public int getBeginType()
 
 
 Specifies an arrowhead for the begin of a line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Returns:**
@@ -184,6 +183,7 @@ public int getCapType()
 
 
 Specifies the ending caps.
+
 See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Returns:**
@@ -215,6 +215,7 @@ public int getCompoundType()
 
 
 Specifies the compound line type
+
 See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Returns:**
@@ -226,6 +227,7 @@ public int getDashType()
 
 
 Specifies the dash line type
+
 See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Returns:**
@@ -237,6 +239,7 @@ public int getDisplayType()
 
 
 Represents error bar display type.
+
 See [ErrorBarDisplayType](../../com.aspose.cells/errorbardisplaytype).
 
 **Returns:**
@@ -248,6 +251,7 @@ public int getEndArrowLength()
 
 
 Specifies the length of the arrowhead for the end of a line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Returns:**
@@ -259,6 +263,7 @@ public int getEndArrowWidth()
 
 
 Specifies the width of the arrowhead for the end of a line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Returns:**
@@ -270,6 +275,7 @@ public int getEndType()
 
 
 Specifies an arrowhead for the end of a line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Returns:**
@@ -281,6 +287,7 @@ public int getFormattingType()
 
 
 Gets format type.
+
 See [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
 
 **Returns:**
@@ -302,6 +309,7 @@ public int getJoinType()
 
 
 Specifies the joining caps.
+
 See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Returns:**
@@ -343,6 +351,7 @@ public int getStyle()
 
 
 Represents the style of the line.
+
 See [LineType](../../com.aspose.cells/linetype).
 
 **Returns:**
@@ -378,6 +387,7 @@ public int getType()
 
 
 Represents error bar amount type.
+
 See [ErrorBarType](../../com.aspose.cells/errorbartype).
 
 **Example**
@@ -401,6 +411,7 @@ public int getWeight()
 
 
 Gets the [WeightType](../../com.aspose.cells/weighttype) of the line.
+
 See [WeightType](../../com.aspose.cells/weighttype).
 
 **Returns:**
@@ -514,6 +525,7 @@ public void setBeginArrowLength(int value)
 
 
 Specifies the length of the arrowhead for the begin of a line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
@@ -528,6 +540,7 @@ public void setBeginArrowWidth(int value)
 
 
 Specifies the width of the arrowhead for the begin of a line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
@@ -542,6 +555,7 @@ public void setBeginType(int value)
 
 
 Specifies an arrowhead for the begin of a line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
@@ -556,6 +570,7 @@ public void setCapType(int value)
 
 
 Specifies the ending caps.
+
 See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Parameters:**
@@ -583,6 +598,7 @@ public void setCompoundType(int value)
 
 
 Specifies the compound line type
+
 See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Parameters:**
@@ -597,6 +613,7 @@ public void setDashType(int value)
 
 
 Specifies the dash line type
+
 See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Parameters:**
@@ -611,6 +628,7 @@ public void setDisplayType(int value)
 
 
 Represents error bar display type.
+
 See [ErrorBarDisplayType](../../com.aspose.cells/errorbardisplaytype).
 
 **Parameters:**
@@ -625,6 +643,7 @@ public void setEndArrowLength(int value)
 
 
 Specifies the length of the arrowhead for the end of a line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
@@ -639,6 +658,7 @@ public void setEndArrowWidth(int value)
 
 
 Specifies the width of the arrowhead for the end of a line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
@@ -653,6 +673,7 @@ public void setEndType(int value)
 
 
 Specifies an arrowhead for the end of a line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
@@ -667,6 +688,7 @@ public void setFormattingType(int value)
 
 
 Sets format type.
+
 See [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
 
 **Parameters:**
@@ -681,6 +703,7 @@ public void setJoinType(int value)
 
 
 Specifies the joining caps.
+
 See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Parameters:**
@@ -734,6 +757,7 @@ public void setStyle(int value)
 
 
 Represents the style of the line.
+
 See [LineType](../../com.aspose.cells/linetype).
 
 **Parameters:**
@@ -778,6 +802,7 @@ public void setType(int value)
 
 
 Represents error bar amount type.
+
 See [ErrorBarType](../../com.aspose.cells/errorbartype).
 
 **Parameters:**
@@ -805,6 +830,7 @@ public void setWeight(int value)
 
 
 Sets the [WeightType](../../com.aspose.cells/weighttype) of the line.
+
 See [WeightType](../../com.aspose.cells/weighttype).
 
 **Parameters:**

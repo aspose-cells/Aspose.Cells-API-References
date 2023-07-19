@@ -30,8 +30,7 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [getBackImageAttributes()](#getBackImageAttributes--) | Background image attributes. |
 | [getBackImageUrl()](#getBackImageUrl--) | Background image url. |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the style |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style
-See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the style |
 | [getBottomBorderStyle()](#getBottomBorderStyle--) | Specifies the style of the cell's bottom border. |
 | [getClass()](#getClass--) |  |
@@ -40,8 +39,7 @@ See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getFont()](#getFont--) | Gets the Font in the style |
 | [getForeColor()](#getForeColor--) | Gets the ForeColor in the style |
 | [getHeight()](#getHeight--) | Gets the Height in the style |
-| [getHorizontalAlign()](#getHorizontalAlign--) | Gets the HorizontalAlign in the style
-See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
+| [getHorizontalAlign()](#getHorizontalAlign--) | Gets the HorizontalAlign in the style |
 | [getIndentLevel()](#getIndentLevel--) | Gets indent level. |
 | [getLeftBorderStyle()](#getLeftBorderStyle--) | Specifies the style of the cell's left border. |
 | [getNumberType()](#getNumberType--) | Gets the display format of numbers and dates. |
@@ -49,8 +47,7 @@ See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
 | [getRightBorderStyle()](#getRightBorderStyle--) | Specifies the style of the cell's right border. |
 | [getRotationAngle()](#getRotationAngle--) | Visual filters. |
 | [getTopBorderStyle()](#getTopBorderStyle--) | Specifies the style of the cell's top border. |
-| [getVerticalAlign()](#getVerticalAlign--) | Gets the VerticalAlign in the style
-See [VerticalAlign](../../com.aspose.gridweb/verticalalign). |
+| [getVerticalAlign()](#getVerticalAlign--) | Gets the VerticalAlign in the style |
 | [getWidth()](#getWidth--) | Gets the Width in the style |
 | [getWrap()](#getWrap--) | Gets the Wrap in the style |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
@@ -62,16 +59,14 @@ See [VerticalAlign](../../com.aspose.gridweb/verticalalign). |
 | [setBackImageAttributes(String value)](#setBackImageAttributes-java.lang.String-) | Background image attributes. |
 | [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | Background image url. |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the style |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style
-See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the style |
 | [setBottomBorderStyle(WebBorderStyle value)](#setBottomBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's bottom border. |
 | [setCssClass(String value)](#setCssClass-java.lang.String-) | Sets the CssClass in the style |
 | [setCustom(String value)](#setCustom-java.lang.String-) | Sets the custom format, null or empty string means no custom format. |
 | [setForeColor(Color value)](#setForeColor-com.aspose.gridweb.Color-) | Sets the ForeColor in the style |
 | [setHeight(Unit value)](#setHeight-com.aspose.gridweb.Unit-) | Sets the Height in the style |
-| [setHorizontalAlign(int value)](#setHorizontalAlign-int-) | Sets the HorizontalAlign in the style
-See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
+| [setHorizontalAlign(int value)](#setHorizontalAlign-int-) | Sets the HorizontalAlign in the style |
 | [setIndentLevel(int value)](#setIndentLevel-int-) | Sets indent level. |
 | [setLeftBorderStyle(WebBorderStyle value)](#setLeftBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's left border. |
 | [setLocked(boolean value)](#setLocked-boolean-) | Sets a value indicating whether a cell can be modified or not when its worksheet is protected. |
@@ -80,8 +75,7 @@ See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
 | [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's right border. |
 | [setRotationAngle(short value)](#setRotationAngle-short-) | Visual filters. |
 | [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's top border. |
-| [setVerticalAlign(int value)](#setVerticalAlign-int-) | Sets the VerticalAlign in the style
-See [VerticalAlign](../../com.aspose.gridweb/verticalalign). |
+| [setVerticalAlign(int value)](#setVerticalAlign-int-) | Sets the VerticalAlign in the style |
 | [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Sets the Width in the style |
 | [setWrap(boolean value)](#setWrap-boolean-) | Sets the Wrap in the style |
 | [toString()](#toString--) |  |
@@ -171,6 +165,7 @@ public int getBorderStyle()
 
 
 Gets the BorderStyle in the style
+
 See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
@@ -262,6 +257,7 @@ public int getHorizontalAlign()
 
 
 Gets the HorizontalAlign in the style
+
 See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
 
 **Returns:**
@@ -388,6 +384,7 @@ public int getVerticalAlign()
 
 
 Gets the VerticalAlign in the style
+
 See [VerticalAlign](../../com.aspose.gridweb/verticalalign).
 
 **Returns:**
@@ -520,6 +517,7 @@ public void setBorderStyle(int value)
 
 
 Sets the BorderStyle in the style
+
 See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
@@ -612,6 +610,7 @@ public void setHorizontalAlign(int value)
 
 
 Sets the HorizontalAlign in the style
+
 See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
 
 **Parameters:**
@@ -775,6 +774,7 @@ public void setVerticalAlign(int value)
 
 
 Sets the VerticalAlign in the style
+
 See [VerticalAlign](../../com.aspose.gridweb/verticalalign).
 
 **Parameters:**

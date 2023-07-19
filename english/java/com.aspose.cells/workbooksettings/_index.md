@@ -252,6 +252,7 @@ public int getCalcMode()
 
 
 It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations.
+
 See [CalcModeType](../../com.aspose.cells/calcmodetype).
 
 **Remarks**
@@ -339,6 +340,7 @@ public int getCompliance()
 
 
 Specifies the OOXML version for the output document. The default value is Ecma376\_2006.
+
 See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance).
 
 **Remarks**
@@ -398,6 +400,7 @@ public int getDisplayDrawingObjects()
 
 
 Indicates whether and how to show objects in the workbook.
+
 See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
 
 **Returns:**
@@ -491,6 +494,7 @@ public int getLanguageCode()
 
 
 Gets the user interface language of the Workbook version based on CountryCode that has saved the file.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
@@ -586,6 +590,7 @@ public int getMemorySetting()
 
 
 Gets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
+
 See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
@@ -617,6 +622,7 @@ public int getPaperSize()
 
 
 Gets the default print paper size.
+
 See [PaperSizeType](../../com.aspose.cells/papersizetype).
 
 **Remarks**
@@ -670,6 +676,7 @@ public int getProtectionType()
 
 
 Gets the protection type of the workbook.
+
 See [ProtectionType](../../com.aspose.cells/protectiontype).
 
 **Returns:**
@@ -719,6 +726,7 @@ public int getRegion()
 
 
 Gets the regional settings for workbook.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Remarks**
@@ -870,6 +878,7 @@ public int getUpdateLinksType()
 
 
 Gets how updates external links when the workbook is opened.
+
 See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
 
 **Returns:**
@@ -1203,6 +1212,7 @@ public void setCalcMode(int value)
 
 
 It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations.
+
 See [CalcModeType](../../com.aspose.cells/calcmodetype).
 
 **Remarks**
@@ -1298,6 +1308,7 @@ public void setCompliance(int value)
 
 
 Specifies the OOXML version for the output document. The default value is Ecma376\_2006.
+
 See [OoxmlCompliance](../../com.aspose.cells/ooxmlcompliance).
 
 **Remarks**
@@ -1389,6 +1400,7 @@ public void setDisplayDrawingObjects(int value)
 
 
 Indicates whether and how to show objects in the workbook.
+
 See [DisplayDrawingObjects](../../com.aspose.cells/displaydrawingobjects).
 
 **Parameters:**
@@ -1523,6 +1535,7 @@ public void setLanguageCode(int value)
 
 
 Sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
@@ -1605,6 +1618,7 @@ public void setMemorySetting(int value)
 
 
 Sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets.
+
 See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
@@ -1671,6 +1685,7 @@ public void setPaperSize(int value)
 
 
 Sets the default print paper size.
+
 See [PaperSizeType](../../com.aspose.cells/papersizetype).
 
 **Remarks**
@@ -1783,6 +1798,7 @@ public void setRegion(int value)
 
 
 Sets the regional settings for workbook.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Remarks**
@@ -1940,6 +1956,7 @@ public void setUpdateLinksType(int value)
 
 
 Sets how updates external links when the workbook is opened.
+
 See [UpdateLinksType](../../com.aspose.cells/updatelinkstype).
 
 **Parameters:**

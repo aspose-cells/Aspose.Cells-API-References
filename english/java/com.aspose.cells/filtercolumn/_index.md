@@ -88,6 +88,7 @@ public int getFilterType()
 
 
 Gets the type fo filtering data.
+
 See [FilterType](../../com.aspose.cells/filtertype).
 
 **Returns:**
@@ -188,6 +189,7 @@ public void setFilterType(int value)
 
 
 Sets the type fo filtering data.
+
 See [FilterType](../../com.aspose.cells/filtertype).
 
 **Parameters:**

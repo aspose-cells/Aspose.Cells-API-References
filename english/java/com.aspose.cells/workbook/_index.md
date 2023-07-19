@@ -410,8 +410,6 @@ The following is the standard color palette.
     | Color55 | 51  | 51    | 153  |
     | Color56 | 51  | 51    | 51   |
 
-    |
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -553,8 +551,6 @@ The length of colors should be 12.
     | 9           | Accent6            |
     | 10          | Hyperlink          |
     | 11          | Followed Hyperlink |
-
-    |
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -871,6 +867,7 @@ public int getFileFormat()
 
 
 Gets the file format.
+
 See [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Returns:**
@@ -1625,6 +1622,7 @@ public void setFileFormat(int value)
 
 
 Sets the file format.
+
 See [FileFormatType](../../com.aspose.cells/fileformattype).
 
 **Parameters:**

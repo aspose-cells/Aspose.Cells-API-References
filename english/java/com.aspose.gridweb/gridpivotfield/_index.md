@@ -81,6 +81,7 @@ public int getFunction()
 
 
 Represents the function used to summarize the PivotTable data field.
+
 See [GridPivotFieldFunction](../../com.aspose.gridweb/gridpivotfieldfunction).
 
 **Returns:**
@@ -229,6 +230,7 @@ public void setFunction(int value)
 
 
 Represents the function used to summarize the PivotTable data field.
+
 See [GridPivotFieldFunction](../../com.aspose.gridweb/gridpivotfieldfunction).
 
 **Parameters:**

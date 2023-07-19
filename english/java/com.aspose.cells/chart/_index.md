@@ -508,6 +508,7 @@ public int getPlacement()
 
 
 Represents the way the chart is attached to the cells below it.
+
 See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Returns:**
@@ -531,6 +532,7 @@ public int getPlotBy()
 
 
 Gets whether plot by row or column.
+
 See [PlotDataByType](../../com.aspose.cells/plotdatabytype).
 
 **Returns:**
@@ -542,6 +544,7 @@ public int getPlotEmptyCellsType()
 
 
 Gets how to plot the empty cells.
+
 See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Returns:**
@@ -577,6 +580,7 @@ public int getPrintSize()
 
 
 Gets the printed chart size.
+
 See [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Returns:**
@@ -730,6 +734,7 @@ public int getType()
 
 
 Gets a chart's type.
+
 See [ChartType](../../com.aspose.cells/charttype).
 
 **Returns:**
@@ -1098,6 +1103,7 @@ public void setPlacement(int value)
 
 
 Represents the way the chart is attached to the cells below it.
+
 See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
@@ -1112,6 +1118,7 @@ public void setPlotEmptyCellsType(int value)
 
 
 Sets how to plot the empty cells.
+
 See [PlotEmptyCellsType](../../com.aspose.cells/plotemptycellstype).
 
 **Parameters:**
@@ -1156,6 +1163,7 @@ public void setPrintSize(int value)
 
 
 Sets the printed chart size.
+
 See [PrintSizeType](../../com.aspose.cells/printsizetype).
 
 **Parameters:**
@@ -1273,6 +1281,7 @@ public void setType(int value)
 
 
 Sets a chart's type.
+
 See [ChartType](../../com.aspose.cells/charttype).
 
 **Parameters:**

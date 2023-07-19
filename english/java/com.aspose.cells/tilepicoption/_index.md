@@ -71,6 +71,7 @@ public int getAlignmentType()
 
 
 Gets the alignment for tiling.
+
 See [RectangleAlignmentType](../../com.aspose.cells/rectanglealignmenttype).
 
 **Returns:**
@@ -92,6 +93,7 @@ public int getMirrorType()
 
 
 Gets the mirror type for tiling.
+
 See [MirrorType](../../com.aspose.cells/mirrortype).
 
 **Returns:**
@@ -169,6 +171,7 @@ public void setAlignmentType(int value)
 
 
 Sets the alignment for tiling.
+
 See [RectangleAlignmentType](../../com.aspose.cells/rectanglealignmenttype).
 
 **Parameters:**
@@ -183,6 +186,7 @@ public void setMirrorType(int value)
 
 
 Sets the mirror type for tiling.
+
 See [MirrorType](../../com.aspose.cells/mirrortype).
 
 **Parameters:**

@@ -92,6 +92,7 @@ public int getIconSetType()
 
 
 Represents the icon set type.
+
 See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Remarks**
@@ -117,6 +118,7 @@ public int getOrder()
 
 
 Indicates the order of sorting.
+
 See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
@@ -128,6 +130,7 @@ public int getType()
 
 
 Represents the type of sorting.
+
 See [SortOnType](../../com.aspose.cells/sortontype).
 
 **Returns:**

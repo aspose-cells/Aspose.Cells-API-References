@@ -87,6 +87,7 @@ public int getDirectionType()
 
 
 Gets the gradient direction type.
+
 See [GradientDirectionType](../../com.aspose.cells/gradientdirectiontype).
 
 **Returns:**
@@ -98,6 +99,7 @@ public int getFillType()
 
 
 Gets the gradient fill type.
+
 See [GradientFillType](../../com.aspose.cells/gradientfilltype).
 
 **Returns:**
@@ -129,6 +131,7 @@ public int getGradientColorType()
 
 
 Gets gradient color type. Applies to Excel97-2003
+
 See [GradientColorType](../../com.aspose.cells/gradientcolortype).
 
 **Returns:**
@@ -160,6 +163,7 @@ public int getGradientStyle()
 
 
 Gets gradient style type. Applies to Excel97-2003
+
 See [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Returns:**
@@ -171,6 +175,7 @@ public int getPresetColor()
 
 
 Returns the gradient preset color for the specified fill. Applies to Excel97-2003
+
 See [GradientPresetType](../../com.aspose.cells/gradientpresettype).
 
 **Returns:**
@@ -262,6 +267,7 @@ public void setPresetColor(int value)
 
 
 Returns the gradient preset color for the specified fill. Applies to Excel97-2003
+
 See [GradientPresetType](../../com.aspose.cells/gradientpresettype).
 
 **Parameters:**

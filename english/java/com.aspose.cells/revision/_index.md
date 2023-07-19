@@ -75,6 +75,7 @@ public int getType()
 
 
 Represents the type of revision.
+
 See [RevisionType](../../com.aspose.cells/revisiontype).
 
 **Returns:**

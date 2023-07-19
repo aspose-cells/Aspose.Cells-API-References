@@ -26,8 +26,7 @@ Represent the WebTableStyle class, internal use only.
 | [getBackColor()](#getBackColor--) | Gets the BackColor in the style |
 | [getBackImageUrl()](#getBackImageUrl--) | Gets the BackImageUrl in the style |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the style |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style
-See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the style |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the style |
 | [getCellPadding()](#getCellPadding--) | Gets the CellPadding in the style |
 | [getCellSpacing()](#getCellSpacing--) | Gets the CellSpacing in the style |
@@ -35,11 +34,9 @@ See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getCssClass()](#getCssClass--) | Gets the CssClass in the style |
 | [getFont()](#getFont--) | Gets the Font in the style |
 | [getForeColor()](#getForeColor--) | Gets the ForeColor in the style |
-| [getGridLines()](#getGridLines--) | Gets the GridLines in the style
-See [GridLines](../../com.aspose.gridweb/gridlines). |
+| [getGridLines()](#getGridLines--) | Gets the GridLines in the style |
 | [getHeight()](#getHeight--) | Gets the Height in the style |
-| [getHorizontalAlign()](#getHorizontalAlign--) | Gets the HorizontalAlign in the style
-See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
+| [getHorizontalAlign()](#getHorizontalAlign--) | Gets the HorizontalAlign in the style |
 | [getWidth()](#getWidth--) | Gets the Width in the style |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -47,18 +44,15 @@ See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
 | [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the style |
 | [setBackImageUrl(String value)](#setBackImageUrl-java.lang.String-) | Sets the BackImageUrl in the style |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the style |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style
-See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the style |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the style |
 | [setCellPadding(int value)](#setCellPadding-int-) | Sets the CellPadding in the style |
 | [setCellSpacing(int value)](#setCellSpacing-int-) | Sets the CellSpacing in the style |
 | [setCssClass(String value)](#setCssClass-java.lang.String-) | Sets the CssClass in the style |
 | [setForeColor(Color value)](#setForeColor-com.aspose.gridweb.Color-) | Sets the ForeColor in the style |
-| [setGridLines(int value)](#setGridLines-int-) | Sets the GridLines in the style
-See [GridLines](../../com.aspose.gridweb/gridlines). |
+| [setGridLines(int value)](#setGridLines-int-) | Sets the GridLines in the style |
 | [setHeight(Unit value)](#setHeight-com.aspose.gridweb.Unit-) | Sets the Height in the style |
-| [setHorizontalAlign(int value)](#setHorizontalAlign-int-) | Sets the HorizontalAlign in the style
-See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign). |
+| [setHorizontalAlign(int value)](#setHorizontalAlign-int-) | Sets the HorizontalAlign in the style |
 | [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Sets the Width in the style |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -122,6 +116,7 @@ public int getBorderStyle()
 
 
 Gets the BorderStyle in the style
+
 See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
@@ -203,6 +198,7 @@ public int getGridLines()
 
 
 Gets the GridLines in the style
+
 See [GridLines](../../com.aspose.gridweb/gridlines).
 
 **Returns:**
@@ -224,6 +220,7 @@ public int getHorizontalAlign()
 
 
 Gets the HorizontalAlign in the style
+
 See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
 
 **Returns:**
@@ -310,6 +307,7 @@ public void setBorderStyle(int value)
 
 
 Sets the BorderStyle in the style
+
 See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
@@ -389,6 +387,7 @@ public void setGridLines(int value)
 
 
 Sets the GridLines in the style
+
 See [GridLines](../../com.aspose.gridweb/gridlines).
 
 **Parameters:**
@@ -416,6 +415,7 @@ public void setHorizontalAlign(int value)
 
 
 Sets the HorizontalAlign in the style
+
 See [HorizontalAlign](../../com.aspose.gridweb/horizontalalign).
 
 **Parameters:**

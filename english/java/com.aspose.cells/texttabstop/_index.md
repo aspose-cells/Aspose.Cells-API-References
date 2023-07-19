@@ -62,6 +62,7 @@ public int getTabAlignment()
 
 
 Specifies the alignment that is to be applied to text using this tab stop.
+
 See [TextTabAlignmentType](../../com.aspose.cells/texttabalignmenttype).
 
 **Returns:**
@@ -109,6 +110,7 @@ public void setTabAlignment(int value)
 
 
 Specifies the alignment that is to be applied to text using this tab stop.
+
 See [TextTabAlignmentType](../../com.aspose.cells/texttabalignmenttype).
 
 **Parameters:**

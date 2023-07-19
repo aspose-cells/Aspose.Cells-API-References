@@ -158,6 +158,7 @@ public int getCredentials()
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Remarks**
@@ -173,6 +174,7 @@ public int getCredentialsMethodType()
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Returns:**
@@ -208,6 +210,7 @@ public int getHtmlFormat()
 
 
 How to handle formatting from the HTML source when bringing web query data into the worksheet. Relevant when sourceData is True.
+
 See [HtmlFormatHandlingType](../../com.aspose.cells/htmlformathandlingtype).
 
 **Returns:**
@@ -299,6 +302,7 @@ public int getReconnectionMethod()
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Remarks**
@@ -314,6 +318,7 @@ public int getReconnectionMethodType()
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Returns:**
@@ -385,6 +390,7 @@ public int getType()
 
 
 Gets the external connection DataSource type.
+
 See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
 
 **Returns:**
@@ -581,6 +587,7 @@ public void setCredentials(int value)
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Remarks**
@@ -599,6 +606,7 @@ public void setCredentialsMethodType(int value)
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Parameters:**
@@ -656,6 +664,7 @@ public void setHtmlFormat(int value)
 
 
 How to handle formatting from the HTML source when bringing web query data into the worksheet. Relevant when sourceData is True.
+
 See [HtmlFormatHandlingType](../../com.aspose.cells/htmlformathandlingtype).
 
 **Parameters:**
@@ -774,6 +783,7 @@ public void setReconnectionMethod(int value)
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Remarks**
@@ -792,6 +802,7 @@ public void setReconnectionMethodType(int value)
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Parameters:**
@@ -910,6 +921,7 @@ public void setType(int value)
 
 
 Sets the external connection DataSource type.
+
 See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
 
 **Parameters:**

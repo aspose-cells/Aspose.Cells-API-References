@@ -276,6 +276,7 @@ public int getOperator()
 
 
 Represents the operator for the data validation.
+
 See [GridOperatorType](../../com.aspose.gridweb/gridoperatortype).
 
 **Returns:**
@@ -317,6 +318,7 @@ public int getValidationType()
 
 
 Gets the validation type.
+
 See [GridValidationType](../../com.aspose.gridweb/gridvalidationtype).
 
 **Returns:**
@@ -508,6 +510,7 @@ public void setOperator(int value)
 
 
 Represents the operator for the data validation.
+
 See [GridOperatorType](../../com.aspose.gridweb/gridoperatortype).
 
 **Parameters:**
@@ -574,6 +577,7 @@ public void setValidationType(int value)
 
 
 Sets the validation type.
+
 See [GridValidationType](../../com.aspose.gridweb/gridvalidationtype).
 
 **Parameters:**

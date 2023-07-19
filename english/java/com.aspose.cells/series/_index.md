@@ -200,6 +200,7 @@ public int getBar3DShapeType()
 
 
 Gets the 3D shape type used with the 3-D bar or column chart.
+
 See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Returns:**
@@ -211,6 +212,7 @@ public int getBarShape()
 
 
 Gets the 3D shape type used with the 3-D bar or column chart.
+
 See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Remarks**
@@ -246,6 +248,7 @@ public int getBubbleSizeRepresents()
 
 
 Gets what the bubble size represents on a bubble chart.
+
 See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents).
 
 **Remarks**
@@ -535,6 +538,7 @@ public int getSizeRepresents()
 
 
 Gets what the bubble size represents on a bubble chart.
+
 See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents).
 
 **Remarks**
@@ -560,6 +564,7 @@ public int getSplitType()
 
 
 Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart.
+
 See [ChartSplitType](../../com.aspose.cells/chartsplittype).
 
 **Returns:**
@@ -591,6 +596,7 @@ public int getType()
 
 
 Gets a data series' type.
+
 See [ChartType](../../com.aspose.cells/charttype).
 
 **Returns:**
@@ -791,6 +797,7 @@ public void setBar3DShapeType(int value)
 
 
 Sets the 3D shape type used with the 3-D bar or column chart.
+
 See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Parameters:**
@@ -805,6 +812,7 @@ public void setBarShape(int value)
 
 
 Sets the 3D shape type used with the 3-D bar or column chart.
+
 See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Remarks**
@@ -836,6 +844,7 @@ public void setBubbleSizeRepresents(int value)
 
 
 Gets what the bubble size represents on a bubble chart.
+
 See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents).
 
 **Remarks**
@@ -1101,6 +1110,7 @@ public void setSizeRepresents(int value)
 
 
 Sets what the bubble size represents on a bubble chart.
+
 See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents).
 
 **Remarks**
@@ -1132,6 +1142,7 @@ public void setSplitType(int value)
 
 
 Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart.
+
 See [ChartSplitType](../../com.aspose.cells/chartsplittype).
 
 **Parameters:**
@@ -1159,6 +1170,7 @@ public void setType(int value)
 
 
 Sets a data series' type.
+
 See [ChartType](../../com.aspose.cells/charttype).
 
 **Parameters:**

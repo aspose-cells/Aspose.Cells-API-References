@@ -97,8 +97,7 @@ summary description of Slicer View
 | [getRowHeight()](#getRowHeight--) | Returns or sets the height, in points, of each row in the specified slicer. |
 | [getRowHeightPixel()](#getRowHeightPixel--) | Returns or sets the height, in pixels, of each row in the specified slicer. |
 | [getSlicerCache()](#getSlicerCache--) | Returns the SlicerCache object associated with the slicer. |
-| [getStyleType()](#getStyleType--) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1
-See [SlicerStyleType](../../com.aspose.cells/slicerstyletype). |
+| [getStyleType()](#getStyleType--) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
 | [getTitle()](#getTitle--) | Specifies the title of the current Slicer object. |
 | [getTopPixel()](#getTopPixel--) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [getWidth()](#getWidth--) | Returns or sets the width of the specified slicer, in points. |
@@ -127,8 +126,7 @@ See [SlicerStyleType](../../com.aspose.cells/slicerstyletype). |
 | [setPrintable(boolean value)](#setPrintable-boolean-) | Indicates whether the slicer object is printable. |
 | [setRowHeight(double value)](#setRowHeight-double-) | Returns or sets the height, in points, of each row in the specified slicer. |
 | [setRowHeightPixel(int value)](#setRowHeightPixel-int-) | Returns or sets the height, in pixels, of each row in the specified slicer. |
-| [setStyleType(int value)](#setStyleType-int-) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1
-See [SlicerStyleType](../../com.aspose.cells/slicerstyletype). |
+| [setStyleType(int value)](#setStyleType-int-) | Specify the type of Built-in slicer style the default type is SlicerStyleLight1 |
 | [setTitle(String value)](#setTitle-java.lang.String-) | Specifies the title of the current Slicer object. |
 | [setTopPixel(int value)](#setTopPixel-int-) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [setWidth(double value)](#setWidth-double-) | Returns or sets the width of the specified slicer, in points. |
@@ -396,6 +394,7 @@ public int getPlacement()
 
 
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+
 See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Example**
@@ -461,6 +460,7 @@ public int getStyleType()
 
 
 Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+
 See [SlicerStyleType](../../com.aspose.cells/slicerstyletype).
 
 **Example**
@@ -802,6 +802,7 @@ public void setPlacement(int value)
 
 
 Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet.
+
 See [PlacementType](../../com.aspose.cells/placementtype).
 
 **Parameters:**
@@ -855,6 +856,7 @@ public void setStyleType(int value)
 
 
 Specify the type of Built-in slicer style the default type is SlicerStyleLight1
+
 See [SlicerStyleType](../../com.aspose.cells/slicerstyletype).
 
 **Parameters:**

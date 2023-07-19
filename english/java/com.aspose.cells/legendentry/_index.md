@@ -19,10 +19,8 @@ Represents a legend entry in a chart legend.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackground()](#getBackground--) | Gets the display mode of the background |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getClass()](#getClass--) |  |
 | [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
 | [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object. |
@@ -32,10 +30,8 @@ See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Sets whether the legend entry is deleted. |
 | [setTextNoFill(boolean value)](#setTextNoFill-boolean-) | Sets no fill of the text. |
 | [toString()](#toString--) |  |
@@ -74,6 +70,7 @@ public int getBackground()
 
 
 Gets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
@@ -89,6 +86,7 @@ public int getBackgroundMode()
 
 
 Gets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
@@ -193,6 +191,7 @@ public void setBackground(int value)
 
 
 Sets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
@@ -211,6 +210,7 @@ public void setBackgroundMode(int value)
 
 
 Sets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**

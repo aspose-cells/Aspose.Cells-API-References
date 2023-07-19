@@ -128,6 +128,7 @@ public int getCommandType()
 
 
 Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+
 See [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype).
 
 **Returns:**
@@ -169,6 +170,7 @@ public int getCredentials()
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Remarks**
@@ -184,6 +186,7 @@ public int getCredentialsMethodType()
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Returns:**
@@ -265,6 +268,7 @@ public int getReconnectionMethod()
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Remarks**
@@ -280,6 +284,7 @@ public int getReconnectionMethodType()
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Returns:**
@@ -361,6 +366,7 @@ public int getType()
 
 
 Gets the external connection DataSource type.
+
 See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
 
 **Returns:**
@@ -444,6 +450,7 @@ public void setCommandType(int value)
 
 
 Specifies the OLE DB command type. 1. Query specifies a cube name 2. Query specifies a SQL statement 3. Query specifies a table name 4. Query specifies that default information has been given, and it is up to the provider how to interpret. 5. Query is against a web based List Data Provider.
+
 See [OLEDBCommandType](../../com.aspose.cells/oledbcommandtype).
 
 **Parameters:**
@@ -484,6 +491,7 @@ public void setCredentials(int value)
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Remarks**
@@ -502,6 +510,7 @@ public void setCredentialsMethodType(int value)
 
 
 Specifies the authentication method to be used when establishing (or re-establishing) the connection.
+
 See [CredentialsMethodType](../../com.aspose.cells/credentialsmethodtype).
 
 **Parameters:**
@@ -594,6 +603,7 @@ public void setReconnectionMethod(int value)
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Remarks**
@@ -612,6 +622,7 @@ public void setReconnectionMethodType(int value)
 
 
 Specifies what the spreadsheet application should do when a connection fails. The default value is ReConnectionMethodType.Required.
+
 See [ReConnectionMethodType](../../com.aspose.cells/reconnectionmethodtype).
 
 **Parameters:**
@@ -717,6 +728,7 @@ public void setType(int value)
 
 
 Sets the external connection DataSource type.
+
 See [ConnectionDataSourceType](../../com.aspose.cells/connectiondatasourcetype).
 
 **Parameters:**

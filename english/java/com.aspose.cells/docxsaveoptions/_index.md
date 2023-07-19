@@ -212,6 +212,7 @@ public int getDefaultEditLanguage()
 
 
 Gets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -247,6 +248,7 @@ public int getGridlineType()
 
 
 Gets gridline type.
+
 See [GridlineType](../../com.aspose.cells/gridlinetype).
 
 **Remarks**
@@ -388,6 +390,7 @@ public int getPrintingPageType()
 
 
 Indicates which pages will not be printed.
+
 See [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Remarks**
@@ -434,6 +437,7 @@ public int getSaveFormat()
 
 
 Gets the save file format.
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
@@ -490,6 +494,7 @@ public int getTextCrossType()
 
 
 Gets displaying text type when the text width is larger than cell width.
+
 See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Returns:**
@@ -669,6 +674,7 @@ public void setDefaultEditLanguage(int value)
 
 
 Sets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -730,6 +736,7 @@ public void setGridlineType(int value)
 
 
 Sets gridline type.
+
 See [GridlineType](../../com.aspose.cells/gridlinetype).
 
 **Remarks**
@@ -855,6 +862,7 @@ public void setPrintingPageType(int value)
 
 
 Indicates which pages will not be printed.
+
 See [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Remarks**
@@ -925,6 +933,7 @@ public void setTextCrossType(int value)
 
 
 Sets displaying text type when the text width is larger than cell width.
+
 See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Parameters:**

@@ -304,6 +304,7 @@ public int getLanguageCode()
 
 
 Gets the user interface language of the Workbook version based on CountryCode that has saved the file.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Returns:**
@@ -335,6 +336,7 @@ public int getLoadFormat()
 
 
 Gets the load format.
+
 See [LoadFormat](../../com.aspose.cells/loadformat).
 
 **Returns:**
@@ -358,6 +360,7 @@ public int getMemorySetting()
 
 
 Gets the memory usage options.
+
 See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
@@ -417,6 +420,7 @@ public int getRegion()
 
 
 Gets the system regional settings based on CountryCode at the time the file was loaded.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Remarks**
@@ -709,6 +713,7 @@ public void setLanguageCode(int value)
 
 
 Sets the user interface language of the Workbook version based on CountryCode that has saved the file.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Parameters:**
@@ -764,6 +769,7 @@ public void setMemorySetting(int value)
 
 
 Sets the memory usage options.
+
 See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Parameters:**
@@ -855,6 +861,7 @@ public void setRegion(int value)
 
 
 Sets the system regional settings based on CountryCode at the time the file was loaded.
+
 See [CountryCode](../../com.aspose.cells/countrycode).
 
 **Remarks**

@@ -66,8 +66,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getPrintingPage()](#getPrintingPage--) | Indicates which pages will not be printed. |
 | [getQuality()](#getQuality--) | Gets a value determining the quality of the generated images to apply only when saving pages to the `Jpeg` format. |
 | [getSVGFitToViewPort()](#getSVGFitToViewPort--) | if this property is true, the generated svg will fit to view port. |
-| [getSaveFormat()](#getSaveFormat--) | Gets the output file format type Support Tiff/XPS
-See [SaveFormat](../../com.aspose.cells/saveformat). |
+| [getSaveFormat()](#getSaveFormat--) | Gets the output file format type Support Tiff/XPS |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getTextCrossType()](#getTextCrossType--) | Gets displaying text type when the text width is larger than cell width. |
 | [getTiffColorDepth()](#getTiffColorDepth--) | Gets bit depth to apply only when saving pages to the `Tiff` format. |
@@ -108,8 +107,7 @@ See [SaveFormat](../../com.aspose.cells/saveformat). |
 | [setQuality(int value)](#setQuality-int-) | Sets a value determining the quality of the generated images to apply only when saving pages to the `Jpeg` format. |
 | [setRenderingHint(RenderingHints.Key key, Object value)](#setRenderingHint-java.awt.RenderingHints.Key-java.lang.Object-) | Sets the value of a single preference for the rendering algorithms. |
 | [setSVGFitToViewPort(boolean value)](#setSVGFitToViewPort-boolean-) | if this property is true, the generated svg will fit to view port. |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | Sets the output file format type Support Tiff/XPS
-See [SaveFormat](../../com.aspose.cells/saveformat). |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | Sets the output file format type Support Tiff/XPS |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setTextCrossType(int value)](#setTextCrossType-int-) | Sets displaying text type when the text width is larger than cell width. |
 | [setTiffColorDepth(int value)](#setTiffColorDepth-int-) | Sets bit depth to apply only when saving pages to the `Tiff` format. |
@@ -198,6 +196,7 @@ public int getDefaultEditLanguage()
 
 
 Gets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -243,6 +242,7 @@ public int getGridlineType()
 
 
 Gets gridline type.
+
 See [GridlineType](../../com.aspose.cells/gridlinetype).
 
 **Remarks**
@@ -272,6 +272,7 @@ public int getImageType()
 
 
 Gets the format of the generated images. default value: PNG.
+
 See [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
 
 **Returns:**
@@ -365,6 +366,7 @@ public int getPrintingPage()
 
 
 Indicates which pages will not be printed.
+
 See [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Returns:**
@@ -400,6 +402,7 @@ public int getSaveFormat()
 
 
 Gets the output file format type Support Tiff/XPS
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Remarks**
@@ -429,6 +432,7 @@ public int getTextCrossType()
 
 
 Gets displaying text type when the text width is larger than cell width.
+
 See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Returns:**
@@ -440,6 +444,7 @@ public int getTiffColorDepth()
 
 
 Gets bit depth to apply only when saving pages to the `Tiff` format.
+
 See [ColorDepth](../../com.aspose.cells/colordepth).
 
 **Remarks**
@@ -455,6 +460,7 @@ public int getTiffCompression()
 
 
 Gets the type of compression to apply only when saving pages to the `Tiff` format.
+
 See [TiffCompression](../../com.aspose.cells/tiffcompression).
 
 **Remarks**
@@ -654,6 +660,7 @@ public void setDefaultEditLanguage(int value)
 
 
 Sets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -761,6 +768,7 @@ public void setGridlineType(int value)
 
 
 Sets gridline type.
+
 See [GridlineType](../../com.aspose.cells/gridlinetype).
 
 **Remarks**
@@ -796,6 +804,7 @@ public void setImageType(int value)
 
 
 Sets the format of the generated images. default value: PNG.
+
 See [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--).
 
 **Parameters:**
@@ -930,6 +939,7 @@ public void setPrintingPage(int value)
 
 
 Indicates which pages will not be printed.
+
 See [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Parameters:**
@@ -988,6 +998,7 @@ public void setSaveFormat(int value)
 
 
 Sets the output file format type Support Tiff/XPS
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Remarks**
@@ -1023,6 +1034,7 @@ public void setTextCrossType(int value)
 
 
 Sets displaying text type when the text width is larger than cell width.
+
 See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Parameters:**
@@ -1037,6 +1049,7 @@ public void setTiffColorDepth(int value)
 
 
 Sets bit depth to apply only when saving pages to the `Tiff` format.
+
 See [ColorDepth](../../com.aspose.cells/colordepth).
 
 **Remarks**
@@ -1055,6 +1068,7 @@ public void setTiffCompression(int value)
 
 
 Sets the type of compression to apply only when saving pages to the `Tiff` format.
+
 See [TiffCompression](../../com.aspose.cells/tiffcompression).
 
 **Remarks**

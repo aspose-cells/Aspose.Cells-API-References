@@ -52,10 +52,8 @@ Encapsulates the object that represents the chart legend.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackground()](#getBackground--) | Gets the display mode of the background |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -98,10 +96,8 @@ See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutoText(boolean value)](#setAutoText-boolean-) | Indicates the text is auto generated. |
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the chart frame is automatic sized. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data labels is deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
@@ -184,6 +180,7 @@ public int getBackground()
 
 
 Gets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
@@ -199,6 +196,7 @@ public int getBackgroundMode()
 
 
 Gets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
@@ -280,6 +278,7 @@ public int getDirectionType()
 
 
 Gets the direction of text.
+
 See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Returns:**
@@ -345,6 +344,7 @@ public int getPosition()
 
 
 Gets the legend position type.
+
 See [LegendPositionType](../../com.aspose.cells/legendpositiontype).
 
 **Remarks**
@@ -366,6 +366,7 @@ public int getReadingOrder()
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
@@ -429,6 +430,7 @@ public int getTextDirection()
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Remarks**
@@ -458,6 +460,7 @@ public int getTextHorizontalAlignment()
 
 
 Gets the text horizontal alignment.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
@@ -479,6 +482,7 @@ public int getTextVerticalAlignment()
 
 
 Gets the text vertical alignment of text.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
@@ -691,6 +695,7 @@ public void setBackground(int value)
 
 
 Sets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
@@ -709,6 +714,7 @@ public void setBackgroundMode(int value)
 
 
 Sets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**
@@ -736,6 +742,7 @@ public void setDirectionType(int value)
 
 
 Sets the direction of text.
+
 See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Parameters:**
@@ -810,6 +817,7 @@ public void setPosition(int value)
 
 
 Sets the legend position type.
+
 See [LegendPositionType](../../com.aspose.cells/legendpositiontype).
 
 **Remarks**
@@ -842,6 +850,7 @@ public void setReadingOrder(int value)
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
@@ -920,6 +929,7 @@ public void setTextDirection(int value)
 
 
 Represents text reading order.
+
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Remarks**
@@ -938,6 +948,7 @@ public void setTextHorizontalAlignment(int value)
 
 
 Sets the text horizontal alignment.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
@@ -952,6 +963,7 @@ public void setTextVerticalAlignment(int value)
 
 
 Sets the text vertical alignment of text.
+
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**

@@ -83,6 +83,7 @@ public int getType()
 
 
 The row or column type.
+
 See [RowColumnType](../../com.aspose.gridweb/rowcolumntype).
 
 **Returns:**

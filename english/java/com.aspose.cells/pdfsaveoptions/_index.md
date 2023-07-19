@@ -53,8 +53,7 @@ Represents the options for saving pdf file.
 | [getPageCount()](#getPageCount--) | Gets the number of pages to save. |
 | [getPageIndex()](#getPageIndex--) | Gets the 0-based index of the first page to save. |
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
-| [getPdfCompression()](#getPdfCompression--) | Indicate the compression algorithm
-See [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore). |
+| [getPdfCompression()](#getPdfCompression--) | Indicate the compression algorithm |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getProducer()](#getProducer--) | Gets producer of generated pdf document. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
@@ -103,8 +102,7 @@ See [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore). |
 | [setPageCount(int value)](#setPageCount-int-) | Sets the number of pages to save. |
 | [setPageIndex(int value)](#setPageIndex-int-) | Sets the 0-based index of the first page to save. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
-| [setPdfCompression(int value)](#setPdfCompression-int-) | Indicate the compression algorithm
-See [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore). |
+| [setPdfCompression(int value)](#setPdfCompression-int-) | Indicate the compression algorithm |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setProducer(String value)](#setProducer-java.lang.String-) | Sets producer of generated pdf document. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
@@ -243,6 +241,7 @@ public int getCompliance()
 
 
 Workbook converts to pdf will according to PdfCompliance in this property.
+
 See [PdfCompliance](../../com.aspose.cells/pdfcompliance).
 
 **Returns:**
@@ -282,6 +281,7 @@ public int getCustomPropertiesExport()
 
 
 Gets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
+
 See [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport).
 
 **Returns:**
@@ -293,6 +293,7 @@ public int getDefaultEditLanguage()
 
 
 Gets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -352,6 +353,7 @@ public int getEmfRenderSetting()
 
 
 Setting for rendering Emf metafile.
+
 See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
 **Remarks**
@@ -377,6 +379,7 @@ public int getFontEncoding()
 
 
 Gets embedded font encoding in pdf.
+
 See [PdfFontEncoding](../../com.aspose.cells/pdffontencoding).
 
 **Remarks**
@@ -392,6 +395,7 @@ public int getGridlineType()
 
 
 Gets gridline type.
+
 See [GridlineType](../../com.aspose.cells/gridlinetype).
 
 **Remarks**
@@ -455,6 +459,7 @@ public int getOptimizationType()
 
 
 Gets pdf optimization type.
+
 See [PdfOptimizationType](../../com.aspose.cells/pdfoptimizationtype).
 
 **Remarks**
@@ -562,6 +567,7 @@ public int getPdfCompression()
 
 
 Indicate the compression algorithm
+
 See [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore).
 
 **Returns:**
@@ -573,6 +579,7 @@ public int getPrintingPageType()
 
 
 Indicates which pages will not be printed.
+
 See [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Remarks**
@@ -633,6 +640,7 @@ public int getSaveFormat()
 
 
 Gets the save file format.
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
@@ -730,6 +738,7 @@ public int getTextCrossType()
 
 
 Gets displaying text type when the text width is larger than cell width.
+
 See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Returns:**
@@ -975,6 +984,7 @@ public void setCompliance(int value)
 
 
 Workbook converts to pdf will according to PdfCompliance in this property.
+
 See [PdfCompliance](../../com.aspose.cells/pdfcompliance).
 
 **Parameters:**
@@ -1023,6 +1033,7 @@ public void setCustomPropertiesExport(int value)
 
 
 Sets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. Default value is None.
+
 See [PdfCustomPropertiesExport](../../com.aspose.cells/pdfcustompropertiesexport).
 
 **Parameters:**
@@ -1037,6 +1048,7 @@ public void setDefaultEditLanguage(int value)
 
 
 Sets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -1111,6 +1123,7 @@ public void setEmfRenderSetting(int value)
 
 
 Setting for rendering Emf metafile.
+
 See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
 **Remarks**
@@ -1142,6 +1155,7 @@ public void setFontEncoding(int value)
 
 
 Sets embedded font encoding in pdf.
+
 See [PdfFontEncoding](../../com.aspose.cells/pdffontencoding).
 
 **Remarks**
@@ -1177,6 +1191,7 @@ public void setGridlineType(int value)
 
 
 Sets gridline type.
+
 See [GridlineType](../../com.aspose.cells/gridlinetype).
 
 **Remarks**
@@ -1285,6 +1300,7 @@ public void setOptimizationType(int value)
 
 
 Sets pdf optimization type.
+
 See [PdfOptimizationType](../../com.aspose.cells/pdfoptimizationtype).
 
 **Remarks**
@@ -1367,6 +1383,7 @@ public void setPdfCompression(int value)
 
 
 Indicate the compression algorithm
+
 See [PdfCompressionCore](../../com.aspose.cells/pdfcompressioncore).
 
 **Parameters:**
@@ -1381,6 +1398,7 @@ public void setPrintingPageType(int value)
 
 
 Indicates which pages will not be printed.
+
 See [PrintingPageType](../../com.aspose.cells/printingpagetype).
 
 **Remarks**
@@ -1481,6 +1499,7 @@ public void setTextCrossType(int value)
 
 
 Sets displaying text type when the text width is larger than cell width.
+
 See [TextCrossType](../../com.aspose.cells/textcrosstype).
 
 **Parameters:**

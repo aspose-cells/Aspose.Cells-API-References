@@ -169,6 +169,7 @@ public int getPrecisionStrategy()
 
 
 Specifies the strategy for processing precision of calculation.
+
 See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Returns:**
@@ -319,6 +320,7 @@ public void setPrecisionStrategy(int value)
 
 
 Specifies the strategy for processing precision of calculation.
+
 See [CalculationPrecisionStrategy](../../com.aspose.cells/calculationprecisionstrategy).
 
 **Parameters:**

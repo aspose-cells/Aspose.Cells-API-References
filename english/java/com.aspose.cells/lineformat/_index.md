@@ -40,8 +40,7 @@ Represents all setting of the line.
 | [getEndArrowheadLength()](#getEndArrowheadLength--) | Gets the end arrow length type of the line. |
 | [getEndArrowheadStyle()](#getEndArrowheadStyle--) | Gets the end arrow type of the line. |
 | [getEndArrowheadWidth()](#getEndArrowheadWidth--) | Gets the end arrow width type of the line. |
-| [getFillType()](#getFillType--) | Gets fill type
-See [FillType](../../com.aspose.cells/filltype). |
+| [getFillType()](#getFillType--) | Gets fill type |
 | [getGradientColor1()](#getGradientColor1--) | Returns the gradient color 1 for the specified fill. |
 | [getGradientColor2()](#getGradientColor2--) | Returns the gradient color 2 for the specified fill. |
 | [getGradientColorType()](#getGradientColorType--) | Returns the gradient color type for the specified fill. |
@@ -75,8 +74,7 @@ See [FillType](../../com.aspose.cells/filltype). |
 | [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) | Sets the end arrow length type of the line. |
 | [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) | Sets the end arrow type of the line. |
 | [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) | Sets the end arrow width type of the line. |
-| [setFillType(int value)](#setFillType-int-) | Sets fill type
-See [FillType](../../com.aspose.cells/filltype). |
+| [setFillType(int value)](#setFillType-int-) | Sets fill type |
 | [setImageData(byte[] value)](#setImageData-byte---) | Sets the picture image data. |
 | [setJoinType(int value)](#setJoinType-int-) | Specifies the line join type. |
 | [setOneColorGradient(Color color, double degree, int style, int variant)](#setOneColorGradient-com.aspose.cells.Color-double-int-int-) | Sets the specified fill to a one-color gradient. |
@@ -128,6 +126,7 @@ public int getBeginArrowheadLength()
 
 
 Gets the begin arrow length type of the line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Example**
@@ -145,6 +144,7 @@ public int getBeginArrowheadStyle()
 
 
 Gets the begin arrow type of the line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Example**
@@ -162,6 +162,7 @@ public int getBeginArrowheadWidth()
 
 
 Gets the begin arrow width type of the line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Example**
@@ -179,6 +180,7 @@ public int getCapType()
 
 
 Specifies the ending caps.
+
 See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Example**
@@ -206,6 +208,7 @@ public int getCompoundType()
 
 
 Specifies the line compound type.
+
 See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Example**
@@ -223,6 +226,7 @@ public int getDashStyle()
 
 
 Specifies the line dash type.
+
 See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Example**
@@ -240,6 +244,7 @@ public int getEndArrowheadLength()
 
 
 Gets the end arrow length type of the line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Example**
@@ -257,6 +262,7 @@ public int getEndArrowheadStyle()
 
 
 Gets the end arrow type of the line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Example**
@@ -274,6 +280,7 @@ public int getEndArrowheadWidth()
 
 
 Gets the end arrow width type of the line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Example**
@@ -291,6 +298,7 @@ public int getFillType()
 
 
 Gets fill type
+
 See [FillType](../../com.aspose.cells/filltype).
 
 **Returns:**
@@ -326,6 +334,7 @@ public int getGradientColorType()
 
 
 Returns the gradient color type for the specified fill.
+
 See [GradientColorType](../../com.aspose.cells/gradientcolortype).
 
 **Returns:**
@@ -361,6 +370,7 @@ public int getGradientStyle()
 
 
 Returns the gradient style for the specified fill.
+
 See [GradientStyleType](../../com.aspose.cells/gradientstyletype).
 
 **Returns:**
@@ -400,6 +410,7 @@ public int getJoinType()
 
 
 Specifies the line join type.
+
 See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Example**
@@ -417,6 +428,7 @@ public int getPattern()
 
 
 Represents an area's display pattern.
+
 See [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Returns:**
@@ -438,6 +450,7 @@ public int getPictureFormatType()
 
 
 Gets the picture format type.
+
 See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Returns:**
@@ -449,6 +462,7 @@ public int getPresetColor()
 
 
 Returns the gradient preset color for the specified fill.
+
 See [GradientPresetType](../../com.aspose.cells/gradientpresettype).
 
 **Returns:**
@@ -470,6 +484,7 @@ public int getSetType()
 
 
 Gets the fill format set type.
+
 See [FormatSetType](../../com.aspose.cells/formatsettype).
 
 **Remarks**
@@ -495,6 +510,7 @@ public int getTexture()
 
 
 Represents the texture type for the specified fill.
+
 See [TextureType](../../com.aspose.cells/texturetype).
 
 **Returns:**
@@ -526,6 +542,7 @@ public int getType()
 
 
 Gets the fill type.
+
 See [FillType](../../com.aspose.cells/filltype).
 
 **Remarks**
@@ -589,6 +606,7 @@ public void setBeginArrowheadLength(int value)
 
 
 Sets the begin arrow length type of the line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
@@ -603,6 +621,7 @@ public void setBeginArrowheadStyle(int value)
 
 
 Sets the begin arrow type of the line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
@@ -617,6 +636,7 @@ public void setBeginArrowheadWidth(int value)
 
 
 Sets the begin arrow width type of the line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
@@ -631,6 +651,7 @@ public void setCapType(int value)
 
 
 Specifies the ending caps.
+
 See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Parameters:**
@@ -645,6 +666,7 @@ public void setCompoundType(int value)
 
 
 Specifies the line compound type.
+
 See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Parameters:**
@@ -659,6 +681,7 @@ public void setDashStyle(int value)
 
 
 Specifies the line dash type.
+
 See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Parameters:**
@@ -673,6 +696,7 @@ public void setEndArrowheadLength(int value)
 
 
 Sets the end arrow length type of the line.
+
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
@@ -687,6 +711,7 @@ public void setEndArrowheadStyle(int value)
 
 
 Sets the end arrow type of the line.
+
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
@@ -701,6 +726,7 @@ public void setEndArrowheadWidth(int value)
 
 
 Sets the end arrow width type of the line.
+
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
@@ -715,6 +741,7 @@ public void setFillType(int value)
 
 
 Sets fill type
+
 See [FillType](../../com.aspose.cells/filltype).
 
 **Parameters:**
@@ -746,6 +773,7 @@ public void setJoinType(int value)
 
 
 Specifies the line join type.
+
 See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Parameters:**
@@ -776,6 +804,7 @@ public void setPattern(int value)
 
 
 Represents an area's display pattern.
+
 See [FillPattern](../../com.aspose.cells/fillpattern).
 
 **Parameters:**
@@ -790,6 +819,7 @@ public void setPictureFormatType(int value)
 
 
 Sets the picture format type.
+
 See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Parameters:**
@@ -832,6 +862,7 @@ public void setSetType(int value)
 
 
 Gets the fill format set type.
+
 See [FormatSetType](../../com.aspose.cells/formatsettype).
 
 **Remarks**
@@ -850,6 +881,7 @@ public void setTexture(int value)
 
 
 Represents the texture type for the specified fill.
+
 See [TextureType](../../com.aspose.cells/texturetype).
 
 **Parameters:**
@@ -911,6 +943,7 @@ public void setType(int value)
 
 
 Sets the fill type.
+
 See [FillType](../../com.aspose.cells/filltype).
 
 **Remarks**

@@ -116,6 +116,7 @@ public int getType()
 
 
 Gets the icon set type.
+
 See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Returns:**
@@ -166,6 +167,7 @@ public void setType(int value)
 
 
 Sets the icon set type.
+
 See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Parameters:**

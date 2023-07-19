@@ -147,6 +147,7 @@ public int getType()
 
 
 Gets the PivotFields type.
+
 See [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
 
 **Returns:**

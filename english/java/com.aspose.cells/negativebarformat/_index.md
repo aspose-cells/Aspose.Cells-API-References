@@ -66,6 +66,7 @@ public int getBorderColorType()
 
 
 Gets whether to use the same border color as positive data bars.
+
 See [DataBarNegativeColorType](../../com.aspose.cells/databarnegativecolortype).
 
 **Returns:**
@@ -97,6 +98,7 @@ public int getColorType()
 
 
 Gets whether to use the same fill color as positive data bars.
+
 See [DataBarNegativeColorType](../../com.aspose.cells/databarnegativecolortype).
 
 **Returns:**
@@ -147,6 +149,7 @@ public void setBorderColorType(int value)
 
 
 Gets whether to use the same border color as positive data bars.
+
 See [DataBarNegativeColorType](../../com.aspose.cells/databarnegativecolortype).
 
 **Parameters:**
@@ -174,6 +177,7 @@ public void setColorType(int value)
 
 
 Sets whether to use the same fill color as positive data bars.
+
 See [DataBarNegativeColorType](../../com.aspose.cells/databarnegativecolortype).
 
 **Parameters:**

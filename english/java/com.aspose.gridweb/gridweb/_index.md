@@ -65,8 +65,7 @@ public class GridWeb extends MainWeb
 | [getAutoRefreshChart()](#getAutoRefreshChart--) | Gets whether the Chart image is updated while updating the cell value.the default is true |
 | [getBackColor()](#getBackColor--) | Gets the BackColor in the WebControl |
 | [getBorderColor()](#getBorderColor--) | Gets the BorderColor in the WebControl |
-| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl
-See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [getBorderStyle()](#getBorderStyle--) | Gets the BorderStyle in the WebControl |
 | [getBorderWidth()](#getBorderWidth--) | Gets the BorderWidth in the WebControl |
 | [getBottomTableStyle()](#getBottomTableStyle--) | Gets the style of the bottom bar of the control. |
 | [getClass()](#getClass--) |  |
@@ -76,7 +75,7 @@ See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [getCustomCommandButtons()](#getCustomCommandButtons--) |  |
 | [getCustomStyleFileName()](#getCustomStyleFileName--) | Gets the custom style file name. |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
-| [getDefaultFontSize()](#getDefaultFontSize--) | ????????? |
+| [getDefaultFontSize()](#getDefaultFontSize--) | Gets the control's default font size. |
 | [getDefaultGridLineColor()](#getDefaultGridLineColor--) | Gets the default grid line's color. |
 | [getDisplayCellTip()](#getDisplayCellTip--) |  |
 | [getEditMode()](#getEditMode--) | Gets the control's edit mode. |
@@ -217,8 +216,7 @@ See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [setAutoRefreshChart(boolean value)](#setAutoRefreshChart-boolean-) | Sets whether the Chart image is updated while updating the cell value.the default is true |
 | [setBackColor(Color value)](#setBackColor-com.aspose.gridweb.Color-) | Sets the BackColor in the WebControl |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the BorderColor in the WebControl |
-| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl
-See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
+| [setBorderStyle(int value)](#setBorderStyle-int-) | Sets the BorderStyle in the WebControl |
 | [setBorderWidth(Unit value)](#setBorderWidth-com.aspose.gridweb.Unit-) | Sets the BorderWidth in the WebControl |
 | [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the style of the bottom bar of the control. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Sets whether to calculate formula after cell value changes or after import File. |
@@ -228,7 +226,7 @@ See [BorderStyle](../../com.aspose.gridweb/borderstyle). |
 | [setCustomStyle(InputStream stream)](#setCustomStyle-java.io.InputStream-) | sets the custom style file from stream including disk file stream or memory stream. |
 | [setCustomStyleFileName(String value)](#setCustomStyleFileName-java.lang.String-) | Sets the custom style file name. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
-| [setDefaultFontSize(FontUnit value)](#setDefaultFontSize-com.aspose.gridweb.FontUnit-) | ????????? |
+| [setDefaultFontSize(FontUnit value)](#setDefaultFontSize-com.aspose.gridweb.FontUnit-) | Sets the control's default font size. |
 | [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) | Sets the default grid line's color. |
 | [setDisplayCellTip(boolean value)](#setDisplayCellTip-boolean-) |  |
 | [setEditMode(boolean value)](#setEditMode-boolean-) | Sets the control's edit mode. |
@@ -705,6 +703,7 @@ public int getBorderStyle()
 
 
 Gets the BorderStyle in the WebControl
+
 See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Returns:**
@@ -821,7 +820,13 @@ public FontUnit getDefaultFontSize()
 ```
 
 
-?????????
+Gets the control's default font size.
+
+**Example**
+
+```
+         		GridWeb1.setDefaultFontSize(new FontUnit("10pt"));
+```
 
 **Returns:**
 [FontUnit](../../com.aspose.gridweb/fontunit)
@@ -1590,6 +1595,7 @@ public int getPresetStyle()
 
 
 Gets the preset style.
+
 See [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 **Example**
@@ -1697,6 +1703,7 @@ public int getSessionMode()
 
 
 Gets the session mode of the grid.
+
 See [SessionMode](../../com.aspose.gridweb/sessionmode).
 
 **Remarks**
@@ -2562,6 +2569,7 @@ public void setBorderStyle(int value)
 
 
 Sets the BorderStyle in the WebControl
+
 See [BorderStyle](../../com.aspose.gridweb/borderstyle).
 
 **Parameters:**
@@ -2696,7 +2704,7 @@ public void setDefaultFontSize(FontUnit value)
 ```
 
 
-?????????
+Sets the control's default font size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3558,6 +3566,7 @@ public void setPresetStyle(int value)
 
 
 Sets the preset style.
+
 See [PresetStyle](../../com.aspose.gridweb/presetstyle).
 
 **Parameters:**
@@ -3676,6 +3685,7 @@ public void setSessionMode(int value)
 
 
 Sets the session mode of the grid.
+
 See [SessionMode](../../com.aspose.gridweb/sessionmode).
 
 **Remarks**

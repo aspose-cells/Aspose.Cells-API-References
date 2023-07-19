@@ -144,6 +144,7 @@ public int getType()
 
 
 Gets the preset reflection effect.
+
 See [ReflectionEffectType](../../com.aspose.cells/reflectioneffecttype).
 
 **Returns:**
@@ -272,6 +273,7 @@ public void setType(int value)
 
 
 Sets the preset reflection effect.
+
 See [ReflectionEffectType](../../com.aspose.cells/reflectioneffecttype).
 
 **Parameters:**

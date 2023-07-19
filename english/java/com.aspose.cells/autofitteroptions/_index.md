@@ -91,6 +91,7 @@ public int getAutoFitMergedCellsType()
 
 
 Gets the type of auto fitting row height of merged cells.
+
 See [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype).
 
 **Remarks**
@@ -106,6 +107,7 @@ public int getAutoFitWrappedTextType()
 
 
 Gets the type of auto fitting wrapped text.
+
 See [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
 
 **Returns:**
@@ -127,6 +129,7 @@ public int getDefaultEditLanguage()
 
 
 Gets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -152,6 +155,7 @@ public int getFormatStrategy()
 
 
 Gets the formatted strategy.
+
 See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Remarks**
@@ -240,6 +244,7 @@ public void setAutoFitMergedCellsType(int value)
 
 
 Sets the type of auto fitting row height of merged cells.
+
 See [AutoFitMergedCellsType](../../com.aspose.cells/autofitmergedcellstype).
 
 **Remarks**
@@ -258,6 +263,7 @@ public void setAutoFitWrappedTextType(int value)
 
 
 Sets the type of auto fitting wrapped text.
+
 See [AutoFitWrappedTextType](../../com.aspose.cells/autofitwrappedtexttype).
 
 **Parameters:**
@@ -272,6 +278,7 @@ public void setDefaultEditLanguage(int value)
 
 
 Sets default edit language.
+
 See [DefaultEditLanguage](../../com.aspose.cells/defaulteditlanguage).
 
 **Remarks**
@@ -303,6 +310,7 @@ public void setFormatStrategy(int value)
 
 
 Sets the formatted strategy.
+
 See [CellValueFormatStrategy](../../com.aspose.cells/cellvalueformatstrategy).
 
 **Remarks**

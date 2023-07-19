@@ -116,6 +116,7 @@ public int getErrorType()
 
 
 Gets the error type.
+
 See [GridCellErrorType](../../com.aspose.gridweb/gridcellerrortype).
 
 **Returns:**

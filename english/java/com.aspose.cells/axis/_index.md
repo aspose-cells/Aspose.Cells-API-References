@@ -213,6 +213,7 @@ public int getBaseUnitScale()
 
 
 Represents the base unit scale for the category axis.
+
 See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Remarks**
@@ -238,6 +239,7 @@ public int getCategoryType()
 
 
 Represents the category axis type.
+
 See [CategoryType](../../com.aspose.cells/categorytype).
 
 **Returns:**
@@ -273,6 +275,7 @@ public int getCrossType()
 
 
 Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
+
 See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
 
 **Returns:**
@@ -308,6 +311,7 @@ public int getDisplayUnit()
 
 
 Represents the unit label for the specified axis.
+
 See [DisplayUnitType](../../com.aspose.cells/displayunittype).
 
 **Returns:**
@@ -356,6 +360,7 @@ public int getMajorTickMark()
 
 
 Represents the type of major tick mark for the specified axis.
+
 See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Returns:**
@@ -381,6 +386,7 @@ public int getMajorUnitScale()
 
 
 Represents the major unit scale for the category axis.
+
 See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Example**
@@ -438,6 +444,7 @@ public int getMinorTickMark()
 
 
 Represents the type of minor tick mark for the specified axis.
+
 See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Returns:**
@@ -463,6 +470,7 @@ public int getMinorUnitScale()
 
 
 Represents the major unit scale for the category axis.
+
 See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Example**
@@ -482,6 +490,7 @@ public int getTickLabelPosition()
 
 
 Represents the position of tick-mark labels on the specified axis.
+
 See [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
 
 **Returns:**
@@ -820,6 +829,7 @@ public void setBaseUnitScale(int value)
 
 
 Represents the base unit scale for the category axis.
+
 See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Remarks**
@@ -838,6 +848,7 @@ public void setCategoryType(int value)
 
 
 Represents the category axis type.
+
 See [CategoryType](../../com.aspose.cells/categorytype).
 
 **Parameters:**
@@ -886,6 +897,7 @@ public void setCrossType(int value)
 
 
 Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
+
 See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
 
 **Parameters:**
@@ -930,6 +942,7 @@ public void setDisplayUnit(int value)
 
 
 Represents the unit label for the specified axis.
+
 See [DisplayUnitType](../../com.aspose.cells/displayunittype).
 
 **Parameters:**
@@ -1004,6 +1017,7 @@ public void setMajorTickMark(int value)
 
 
 Represents the type of major tick mark for the specified axis.
+
 See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Parameters:**
@@ -1035,6 +1049,7 @@ public void setMajorUnitScale(int value)
 
 
 Represents the major unit scale for the category axis.
+
 See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Parameters:**
@@ -1083,6 +1098,7 @@ public void setMinorTickMark(int value)
 
 
 Represents the type of minor tick mark for the specified axis.
+
 See [TickMarkType](../../com.aspose.cells/tickmarktype).
 
 **Parameters:**
@@ -1114,6 +1130,7 @@ public void setMinorUnitScale(int value)
 
 
 Represents the major unit scale for the category axis.
+
 See [TimeUnit](../../com.aspose.cells/timeunit).
 
 **Parameters:**
@@ -1141,6 +1158,7 @@ public void setTickLabelPosition(int value)
 
 
 Represents the position of tick-mark labels on the specified axis.
+
 See [TickLabelPositionType](../../com.aspose.cells/ticklabelpositiontype).
 
 **Parameters:**

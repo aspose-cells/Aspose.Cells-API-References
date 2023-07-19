@@ -138,6 +138,7 @@ public int getCompressionType()
 
 
 Gets the compression type for ooxml file.
+
 See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype).
 
 **Remarks**
@@ -235,6 +236,7 @@ public int getSaveFormat()
 
 
 Gets the save file format.
+
 See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
@@ -370,6 +372,7 @@ public void setCompressionType(int value)
 
 
 Sets the compression type for ooxml file.
+
 See [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype).
 
 **Remarks**

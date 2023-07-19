@@ -175,6 +175,7 @@ public int getTotalsCalculation()
 
 
 Gets the type of calculation in the Totals row of the list column.
+
 See [TotalsCalculation](../../com.aspose.cells/totalscalculation).
 
 **Returns:**
@@ -295,6 +296,7 @@ public void setTotalsCalculation(int value)
 
 
 Sets the type of calculation in the Totals row of the list column.
+
 See [TotalsCalculation](../../com.aspose.cells/totalscalculation).
 
 **Parameters:**

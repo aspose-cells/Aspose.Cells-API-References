@@ -20,10 +20,8 @@ Encapsulates the object that represents the plot area in a chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [getBackground()](#getBackground--) | Gets the display mode of the background |
+| [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
@@ -52,10 +50,8 @@ See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutomaticSize(boolean value)](#setAutomaticSize-boolean-) | Indicates whether the plot area is automatic sized. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
-| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background
-See [BackgroundMode](../../com.aspose.cells/backgroundmode). |
+| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background |
+| [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
 | [setHeight(int value)](#setHeight-int-) | Sets the height of plot-area bounding box in units of 1/4000 of the chart area. |
 | [setInnerHeight(int value)](#setInnerHeight-int-) | Sets the height of plot area in units of 1/4000 of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
@@ -113,6 +109,7 @@ public int getBackground()
 
 
 Gets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
@@ -128,6 +125,7 @@ public int getBackgroundMode()
 
 
 Gets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Returns:**
@@ -493,6 +491,7 @@ public void setBackground(int value)
 
 
 Sets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Remarks**
@@ -511,6 +510,7 @@ public void setBackgroundMode(int value)
 
 
 Sets the display mode of the background
+
 See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 
 **Parameters:**

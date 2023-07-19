@@ -306,6 +306,7 @@ public int getOperator()
 
 
 Gets the conditional format operator type.
+
 See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Returns:**
@@ -357,6 +358,7 @@ public int getTimePeriod()
 
 
 The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+
 See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 
 **Returns:**
@@ -378,6 +380,7 @@ public int getType()
 
 
 Gets whether the conditional format Type.
+
 See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
 
 **Returns:**
@@ -495,6 +498,7 @@ public void setOperator(int value)
 
 
 Sets the conditional format operator type.
+
 See [OperatorType](../../com.aspose.cells/operatortype).
 
 **Parameters:**
@@ -561,6 +565,7 @@ public void setTimePeriod(int value)
 
 
 The applicable time period in a "date occurring\\u9225? conditional formatting rule. Valid only for type = timePeriod. The default value is TimePeriodType.Today.
+
 See [TimePeriodType](../../com.aspose.cells/timeperiodtype).
 
 **Parameters:**
@@ -575,6 +580,7 @@ public void setType(int value)
 
 
 Sets whether the conditional format Type.
+
 See [FormatConditionType](../../com.aspose.cells/formatconditiontype).
 
 **Parameters:**

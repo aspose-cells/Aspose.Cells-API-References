@@ -125,6 +125,7 @@ public int getResourceLoadingType()
 
 
 Gets the type of loading resource.
+
 See [ResourceLoadingType](../../com.aspose.cells/resourceloadingtype).
 
 **Returns:**
@@ -198,6 +199,7 @@ public void setResourceLoadingType(int value)
 
 
 Sets the type of loading resource.
+
 See [ResourceLoadingType](../../com.aspose.cells/resourceloadingtype).
 
 **Parameters:**

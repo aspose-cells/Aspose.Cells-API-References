@@ -73,6 +73,7 @@ public int getFilterOperatorType()
 
 
 Gets the filter operator type.
+
 See [FilterOperatorType](../../com.aspose.cells/filteroperatortype).
 
 **Returns:**
@@ -137,6 +138,7 @@ public void setFilterOperatorType(int value)
 
 
 Sets the filter operator type.
+
 See [FilterOperatorType](../../com.aspose.cells/filteroperatortype).
 
 **Parameters:**

@@ -23,8 +23,7 @@ This class specifies the fraction equation, consisting of a numerator and denomi
 | [equals(Object obj)](#equals-java.lang.Object-) | Determine whether the current equation node is equal to the specified node |
 | [getChild(int index)](#getChild-int-) | Returns the node at the specified index among the children of the current node. |
 | [getClass()](#getClass--) |  |
-| [getEquationType()](#getEquationType--) | Get the equation type of the current node
-See [EquationNodeType](../../com.aspose.cells/equationnodetype). |
+| [getEquationType()](#getEquationType--) | Get the equation type of the current node |
 | [getFont()](#getFont--) | Returns the font of this object. |
 | [getFractionType()](#getFractionType--) | This specifies the type of fraction ; the default is 'Bar'. |
 | [getLength()](#getLength--) | Gets the length of the characters. |
@@ -141,6 +140,7 @@ public int getEquationType()
 
 
 Get the equation type of the current node
+
 See [EquationNodeType](../../com.aspose.cells/equationnodetype).
 
 **Returns:**
@@ -162,6 +162,7 @@ public int getFractionType()
 
 
 This specifies the type of fraction ; the default is 'Bar'.
+
 See [EquationFractionType](../../com.aspose.cells/equationfractiontype).
 
 **Returns:**
@@ -213,6 +214,7 @@ public int getType()
 
 
 Represents the type of the node.
+
 See [TextNodeType](../../com.aspose.cells/textnodetype).
 
 **Returns:**
@@ -338,6 +340,7 @@ public void setFractionType(int value)
 
 
 This specifies the type of fraction ; the default is 'Bar'.
+
 See [EquationFractionType](../../com.aspose.cells/equationfractiontype).
 
 **Parameters:**

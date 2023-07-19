@@ -113,6 +113,7 @@ public int getType()
 
 
 Gets the type of external link.
+
 See [ExternalLinkType](../../com.aspose.cells/externallinktype).
 
 **Returns:**

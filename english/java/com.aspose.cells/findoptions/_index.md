@@ -145,6 +145,7 @@ public int getLookAtType()
 
 
 Look at type.
+
 See [LookAtType](../../com.aspose.cells/lookattype).
 
 **Returns:**
@@ -156,6 +157,7 @@ public int getLookInType()
 
 
 Look in type.
+
 See [LookInType](../../com.aspose.cells/lookintype).
 
 **Returns:**
@@ -303,6 +305,7 @@ public void setLookAtType(int value)
 
 
 Look at type.
+
 See [LookAtType](../../com.aspose.cells/lookattype).
 
 **Parameters:**
@@ -317,6 +320,7 @@ public void setLookInType(int value)
 
 
 Look in type.
+
 See [LookInType](../../com.aspose.cells/lookintype).
 
 **Parameters:**

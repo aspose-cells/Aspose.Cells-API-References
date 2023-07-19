@@ -93,6 +93,7 @@ public int getWarningType()
 
 
 Get warning type.
+
 See [WarningType](../../com.aspose.cells/warningtype).
 
 **Returns:**

@@ -88,6 +88,7 @@ public int getType()
 
 
 Returns the type of the font source.
+
 See [FontSourceType](../../com.aspose.cells/fontsourcetype).
 
 **Returns:**

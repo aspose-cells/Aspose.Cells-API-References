@@ -101,6 +101,7 @@ public int getOperationType()
 
 
 Gets the operation type when pasting range.
+
 See [PasteOperationType](../../com.aspose.cells/pasteoperationtype).
 
 **Returns:**
@@ -112,6 +113,7 @@ public int getPasteType()
 
 
 The paste special type.
+
 See [PasteType](../../com.aspose.cells/pastetype).
 
 **Returns:**
@@ -195,6 +197,7 @@ public void setOperationType(int value)
 
 
 Sets the operation type when pasting range.
+
 See [PasteOperationType](../../com.aspose.cells/pasteoperationtype).
 
 **Parameters:**
@@ -209,6 +212,7 @@ public void setPasteType(int value)
 
 
 The paste special type.
+
 See [PasteType](../../com.aspose.cells/pastetype).
 
 **Parameters:**

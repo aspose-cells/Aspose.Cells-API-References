@@ -215,6 +215,7 @@ public int getDataSourceType()
 
 
 Gets the data source type of the table.
+
 See [TableDataSourceType](../../com.aspose.cells/tabledatasourcetype).
 
 **Returns:**
@@ -366,6 +367,7 @@ public int getTableStyleType()
 
 
 Gets and the built-in table style.
+
 See [TableStyleType](../../com.aspose.cells/tablestyletype).
 
 **Example**
@@ -646,6 +648,7 @@ public void setTableStyleType(int value)
 
 
 Gets and the built-in table style.
+
 See [TableStyleType](../../com.aspose.cells/tablestyletype).
 
 **Parameters:**
