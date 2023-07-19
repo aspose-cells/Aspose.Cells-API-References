@@ -1039,19 +1039,19 @@ Sets a script formatting the footer of an Excel file.
 
 Script commands:
 
-    | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | Command                    | Description                                                                                                                                             |
-    | &P                         | Current page number\\u9286\\u20ac                                                                                                                       |
-    | &N                         | Page count\\u9286\\u20ac                                                                                                                                |
-    | &D                         | Current date\\u9286\\u20ac                                                                                                                              |
-    | &T                         | Current time                                                                                                                                            |
-    | &A                         | Sheet name                                                                                                                                              |
-    | &F                         | File name without path                                                                                                                                  |
-    | &"<FontName>"              | Font name, for example: &"Arial"                                                                                                                        |
-    | &"<FontName>, <FontStyle>" | Font name and font style, for example: &"Arial,Bold"                                                                                                    |
-    | &<FontSize>                | Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. |
-    | &K<RRGGBB>                 | Font color, for example(RED): &KFF0000                                                                                                                  |
-    | &G                         | Image script                                                                                                                                            |
+| Command                    | Description                                                                                                                                             |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| &P                         | Current page number\\u9286\\u20ac                                                                                                                       |
+| &N                         | Page count\\u9286\\u20ac                                                                                                                                |
+| &D                         | Current date\\u9286\\u20ac                                                                                                                              |
+| &T                         | Current time                                                                                                                                            |
+| &A                         | Sheet name                                                                                                                                              |
+| &F                         | File name without path                                                                                                                                  |
+| &"<FontName>"              | Font name, for example: &"Arial"                                                                                                                        |
+| &"<FontName>, <FontStyle>" | Font name and font style, for example: &"Arial,Bold"                                                                                                    |
+| &<FontSize>                | Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. |
+| &K<RRGGBB>                 | Font color, for example(RED): &KFF0000                                                                                                                  |
+| &G                         | Image script                                                                                                                                            |
 
 For example: "&Arial,Bold&8Footer Note"
 
@@ -1167,19 +1167,19 @@ Sets a script formatting the header of an Excel file.
 
 Script commands:
 
-    | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | Command                    | Description                                                                                                                                             |
-    | &P                         | Current page number\\u9286\\u20ac                                                                                                                       |
-    | &N                         | Page count\\u9286\\u20ac                                                                                                                                |
-    | &D                         | Current date\\u9286\\u20ac                                                                                                                              |
-    | &T                         | Current time                                                                                                                                            |
-    | &A                         | Sheet name                                                                                                                                              |
-    | &F                         | File name without path                                                                                                                                  |
-    | &"<FontName>"              | Font name, for example: &"Arial"                                                                                                                        |
-    | &"<FontName>, <FontStyle>" | Font name and font style, for example: &"Arial,Bold"                                                                                                    |
-    | &<FontSize>                | Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. |
-    | &K<RRGGBB>                 | Font color, for example(RED): &KFF0000                                                                                                                  |
-    | &G                         | Image script                                                                                                                                            |
+| Command                    | Description                                                                                                                                             |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| &P                         | Current page number\\u9286\\u20ac                                                                                                                       |
+| &N                         | Page count\\u9286\\u20ac                                                                                                                                |
+| &D                         | Current date\\u9286\\u20ac                                                                                                                              |
+| &T                         | Current time                                                                                                                                            |
+| &A                         | Sheet name                                                                                                                                              |
+| &F                         | File name without path                                                                                                                                  |
+| &"<FontName>"              | Font name, for example: &"Arial"                                                                                                                        |
+| &"<FontName>, <FontStyle>" | Font name and font style, for example: &"Arial,Bold"                                                                                                    |
+| &<FontSize>                | Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. |
+| &K<RRGGBB>                 | Font color, for example(RED): &KFF0000                                                                                                                  |
+| &G                         | Image script                                                                                                                                            |
 
 For example: "&Arial,Bold&8Header Note"
 

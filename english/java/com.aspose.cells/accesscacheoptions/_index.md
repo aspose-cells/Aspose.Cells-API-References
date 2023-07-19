@@ -12,7 +12,7 @@ java.lang.Object
 public final class AccessCacheOptions
 ```
 
-Cache options for data access. Can be combined with | operator for multiple options together.
+Cache options for data access. Can be combined with \| operator for multiple options together.
 
 **Remarks**
 

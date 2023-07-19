@@ -192,7 +192,7 @@ Load cell formulas.
 
 **Remarks**
 
-Generally defined Name objects(DefinedNames) also need to be loaded when loading formulas because they may be referenced by formulas. So Formula or CellData option should work with DefinedNames option together(Formula|DefinedNames or CellData|DefinedNames) for most scenarios.
+Generally defined Name objects(DefinedNames) also need to be loaded when loading formulas because they may be referenced by formulas. So Formula or CellData option should work with DefinedNames option together(Formula\|DefinedNames or CellData\|DefinedNames) for most scenarios.
 
 ### HYPERLINKS {#HYPERLINKS}
 ```
