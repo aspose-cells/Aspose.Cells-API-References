@@ -36,7 +36,7 @@ Represents the options for saving html file.
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
 | [getExcludeUnusedStyles()](#getExcludeUnusedStyles--) | Indicating whether excludes unused styles. |
-| [getExportActiveWorksheetOnly()](#getExportActiveWorksheetOnly--) | Indicates if exporting the whole workbook to html file. |
+| [getExportActiveWorksheetOnly()](#getExportActiveWorksheetOnly--) | Indicates if only exporting the active worksheet to html file. |
 | [getExportArea()](#getExportArea--) | Gets the exporting CellArea of current active Worksheet. |
 | [getExportBogusRowData()](#getExportBogusRowData--) | Indicating whether exporting bogus bottom row data. |
 | [getExportCellCoordinate()](#getExportCellCoordinate--) | Indicates whether exporting excel coordinate of nonblank cells when saving file to html. |
@@ -104,7 +104,7 @@ Represents the options for saving html file.
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
 | [setExcludeUnusedStyles(boolean value)](#setExcludeUnusedStyles-boolean-) | Indicating whether excludes unused styles. |
 | [setExpImageToTempDir(boolean value)](#setExpImageToTempDir-boolean-) | Indicates whether exporting image files to temp directory. |
-| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | Indicates if exporting the whole workbook to html file. |
+| [setExportActiveWorksheetOnly(boolean value)](#setExportActiveWorksheetOnly-boolean-) | Indicates if only exporting the active worksheet to html file. |
 | [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Sets the exporting CellArea of current active Worksheet. |
 | [setExportBogusRowData(boolean value)](#setExportBogusRowData-boolean-) | Indicating whether exporting bogus bottom row data. |
 | [setExportCellCoordinate(boolean value)](#setExportCellCoordinate-boolean-) | Indicates whether exporting excel coordinate of nonblank cells when saving file to html. |
@@ -324,7 +324,7 @@ public boolean getExportActiveWorksheetOnly()
 ```
 
 
-Indicates if exporting the whole workbook to html file.
+Indicates if only exporting the active worksheet to html file. If true then only the active worksheet will be exported to html file; If false then the whole workbook will be exported to html file. The default value is false.
 
 **Returns:**
 boolean
@@ -1102,7 +1102,7 @@ public void setExportActiveWorksheetOnly(boolean value)
 ```
 
 
-Indicates if exporting the whole workbook to html file.
+Indicates if only exporting the active worksheet to html file. If true then only the active worksheet will be exported to html file; If false then the whole workbook will be exported to html file. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
