@@ -504,20 +504,16 @@ public Object[][] calculateArrayFormula(String formula, CalculationOptions opts,
 
 Calculates a formula as array formula.
 
-**Remarks**
-
-The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | formula | java.lang.String | Formula to be calculated. |
 | opts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculating formula |
-| maxRowCount | int | the maximum row count of resultant data. -1 means it will be determined by the formula itself. |
-| maxColumnCount | int | the maximum column count of resultant data. -1 means it is determined by the formula itself. |
+| maxRowCount | int | the maximum row count of resultant data. If it is non-positive or greater than the actual row count, then actual row count will be used. |
+| maxColumnCount | int | the maximum column count of resultant data. If it is non-positive or greater than the actual row count, then actual column count will be used. Calculated formula result. The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration. |
 
 **Returns:**
-java.lang.Object[][] - Calculated formula result.
+java.lang.Object[][]
 ### calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction) {#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-}
 ```
 public void calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)

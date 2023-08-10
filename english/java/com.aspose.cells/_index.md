@@ -54,7 +54,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [BubbleSizeRepresents](../com.aspose.cells/bubblesizerepresents) | Represents what the bubble size represents on a bubble chart. |
 | [BuiltInDocumentPropertyCollection](../com.aspose.cells/builtindocumentpropertycollection) | A collection of built-in document properties. |
 | [BuiltinStyleType](../com.aspose.cells/builtinstyletype) | Represents all built-in style types. |
-| [Bullet](../com.aspose.cells/bullet) | Represents the bullet. |
+| [Bullet](../com.aspose.cells/bullet) | Represents the bullet points should be applied to a paragraph. |
 | [BulletType](../com.aspose.cells/bullettype) | Represents the type of the bullet. |
 | [BulletValue](../com.aspose.cells/bulletvalue) | Represents the value of the bullet. |
 | [Button](../com.aspose.cells/button) | Represents the Forms control: Button |

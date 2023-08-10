@@ -1,7 +1,7 @@
 ---
 title: Bullet
 second_title: Aspose.Cells for Java API Reference
-description: Represents the bullet.
+description: Represents the bullet points should be applied to a paragraph.
 type: docs
 url: /java/com.aspose.cells/bullet/
 ---
@@ -12,21 +12,21 @@ java.lang.Object
 public class Bullet
 ```
 
-Represents the bullet.
+Represents the bullet points should be applied to a paragraph.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBulletValue()](#getBulletValue--) | Gets bullet value |
+| [getBulletValue()](#getBulletValue--) | Gets the value of bullet. |
 | [getClass()](#getClass--) |  |
 | [getFontName()](#getFontName--) | Gets the name of the font. |
-| [getType()](#getType--) | Gets the bullet type. |
+| [getType()](#getType--) | Gets the type of bullet. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setFontName(String value)](#setFontName-java.lang.String-) | Sets the name of the font. |
-| [setType(int value)](#setType-int-) | Sets the bullet type. |
+| [setType(int value)](#setType-int-) | Sets the type of bullet. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public BulletValue getBulletValue()
 ```
 
 
-Gets bullet value
+Gets the value of bullet.
 
 **Returns:**
 [BulletValue](../../com.aspose.cells/bulletvalue)
@@ -82,7 +82,7 @@ public int getType()
 ```
 
 
-Gets the bullet type.
+Gets the type of bullet.
 
 See [BulletType](../../com.aspose.cells/bullettype).
 
@@ -133,7 +133,7 @@ public void setType(int value)
 ```
 
 
-Sets the bullet type.
+Sets the type of bullet.
 
 See [BulletType](../../com.aspose.cells/bullettype).
 

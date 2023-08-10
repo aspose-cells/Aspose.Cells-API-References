@@ -29,6 +29,7 @@ Settings of formulas and calculation.
 | [getMaxChange()](#getMaxChange--) | The maximum change to resolve a circular reference. |
 | [getMaxIteration()](#getMaxIteration--) | The maximum iterations to resolve a circular reference. |
 | [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | Whether the precision of calculated result be set as they are displayed while calculating formulas |
+| [getPreservePaddingSpaces()](#getPreservePaddingSpaces--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -42,6 +43,7 @@ Settings of formulas and calculation.
 | [setMaxChange(double value)](#setMaxChange-double-) | The maximum change to resolve a circular reference. |
 | [setMaxIteration(int value)](#setMaxIteration-int-) | The maximum iterations to resolve a circular reference. |
 | [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | Whether the precision of calculated result be set as they are displayed while calculating formulas |
+| [setPreservePaddingSpaces(boolean value)](#setPreservePaddingSpaces-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -194,6 +196,20 @@ public boolean getPrecisionAsDisplayed()
 
 
 Whether the precision of calculated result be set as they are displayed while calculating formulas
+
+**Returns:**
+boolean
+### getPreservePaddingSpaces() {#getPreservePaddingSpaces--}
+```
+public boolean getPreservePaddingSpaces()
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+Generally those spaces and line breaks are jsut for visual purpose, Preserving them or not does not affect the calculated result. For performance consideration, if there is no special requirement, it is better not to preserve them while processing formulas.
 
 **Returns:**
 boolean
@@ -373,6 +389,23 @@ public void setPrecisionAsDisplayed(boolean value)
 
 
 Whether the precision of calculated result be set as they are displayed while calculating formulas
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setPreservePaddingSpaces(boolean value) {#setPreservePaddingSpaces-boolean-}
+```
+public void setPreservePaddingSpaces(boolean value)
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+Generally those spaces and line breaks are jsut for visual purpose, Preserving them or not does not affect the calculated result. For performance consideration, if there is no special requirement, it is better not to preserve them while processing formulas.
 
 **Parameters:**
 | Parameter | Type | Description |

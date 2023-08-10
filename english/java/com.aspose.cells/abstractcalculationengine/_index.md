@@ -65,6 +65,7 @@ User should not modify any part of the Workbook directly in this implementation(
 | [getClass()](#getClass--) |  |
 | [getProcessBuiltInFunctions()](#getProcessBuiltInFunctions--) | Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. |
 | [hashCode()](#hashCode--) |  |
+| [isParamArrayModeRequired()](#isParamArrayModeRequired--) | Indicates whether this engine needs the parameter to be calculated in array mode. |
 | [isParamLiteralRequired()](#isParamLiteralRequired--) | Indicates whether this engine needs the literal text of parameter while doing calculation. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -126,7 +127,7 @@ public boolean getProcessBuiltInFunctions()
 ```
 
 
-Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. If user needs to change the calculation logic of some built-in functions, this property should be set as true.
+Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. Default is false. If user needs to change the calculation logic of some built-in functions, this property should be set as true. Otherwise please leave this property as false for performance consideration.
 
 **Returns:**
 boolean
@@ -140,6 +141,20 @@ public native int hashCode()
 
 **Returns:**
 int
+### isParamArrayModeRequired() {#isParamArrayModeRequired--}
+```
+public boolean isParamArrayModeRequired()
+```
+
+
+Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.getParamValueInArrayMode(int,int,int)](../../com.aspose.cells/calculationdata\#getParamValueInArrayMode-int-int-int-) is required when calculating custom functions, this property needs to be set as true.
+
+**Remarks**
+
+If this custom calculation engine needs the parameter to be calculated in array mode, more stacks will be required to cache the tree for parameters and Calculate() method may be called recursively to calculate the parameter's value. For performance consideration, if no special requirement, please keep this property as the default value(false).
+
+**Returns:**
+boolean
 ### isParamLiteralRequired() {#isParamLiteralRequired--}
 ```
 public boolean isParamLiteralRequired()
@@ -150,7 +165,7 @@ Indicates whether this engine needs the literal text of parameter while doing ca
 
 **Remarks**
 
-If this custom calculation engine requires the parameter's literal text, more stacks will be required to cache the literal text for parameters and Calculate() method may be called recursively to calculate the parameter's value. Commonly the literal text is not needed for calculating formulas and this method should return false for most implementations to get better performance.
+If this custom calculation engine needs the parameter's literal text, more stacks will be required to cache the literal text for parameters and Calculate() method may be called recursively to calculate the parameter's value. Generally the literal text is not needed for calculating formulas and this property should be kept as false for most implementations to get better performance.
 
 **Returns:**
 boolean

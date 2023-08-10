@@ -54,6 +54,7 @@ Represents options when importing a html file.
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
+| [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [getProgId()](#getProgId--) | Gets the program id of creating the file. |
 | [getRegion()](#getRegion--) | Gets the system regional settings based on CountryCode at the time the file was loaded. |
 | [getStandardFont()](#getStandardFont--) | Sets the default standard font name |
@@ -95,6 +96,7 @@ Represents options when importing a html file.
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
+| [setPreservePaddingSpacesInFormula(boolean value)](#setPreservePaddingSpacesInFormula-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [setRegion(int value)](#setRegion-int-) | Sets the system regional settings based on CountryCode at the time the file was loaded. |
 | [setStandardFont(String value)](#setStandardFont-java.lang.String-) | Sets the default standard font name |
 | [setStandardFontSize(double value)](#setStandardFontSize-double-) | Sets the default standard font size. |
@@ -487,6 +489,20 @@ Gets the password of the workbook.
 
 **Returns:**
 java.lang.String
+### getPreservePaddingSpacesInFormula() {#getPreservePaddingSpacesInFormula--}
+```
+public boolean getPreservePaddingSpacesInFormula()
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+After loading workbook from template file with this option, [FormulaSettings.getPreservePaddingSpaces()](../../com.aspose.cells/formulasettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Returns:**
+boolean
 ### getProgId() {#getProgId--}
 ```
 public String getProgId()
@@ -1041,6 +1057,23 @@ Sets the password of the workbook.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setPreservePaddingSpacesInFormula(boolean value) {#setPreservePaddingSpacesInFormula-boolean-}
+```
+public void setPreservePaddingSpacesInFormula(boolean value)
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+After loading workbook from template file with this option, [FormulaSettings.getPreservePaddingSpaces()](../../com.aspose.cells/formulasettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setRegion(int value) {#setRegion-int-}
 ```

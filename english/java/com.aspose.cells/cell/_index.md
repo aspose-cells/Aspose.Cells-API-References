@@ -114,6 +114,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [getWorksheet()](#getWorksheet--) | Gets the parent worksheet. |
 | [hasCustomStyle()](#hasCustomStyle--) | Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
+| [insertText(int index, String text)](#insertText-int-java.lang.String-) | Insert some characters to the cell. |
 | [isArrayFormula()](#isArrayFormula--) | Indicates whether the cell formula is an array formula. |
 | [isArrayHeader()](#isArrayHeader--) | Indicates the cell's formula is and array formula and it is the first cell of the array. |
 | [isDynamicArrayFormula()](#isDynamicArrayFormula--) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
@@ -138,6 +139,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [putValue(String stringValue, boolean isConverted)](#putValue-java.lang.String-boolean-) | Puts a string value into the cell and converts the value to other data type if appropriate. |
 | [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [removeArrayFormula(boolean leaveNormalFormula)](#removeArrayFormula-boolean-) | Remove array formula. |
+| [replace(String placeHolder, String newValue, ReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.cells.ReplaceOptions-) | Replace text of the cell with options. |
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber)](#setArrayFormula-java.lang.String-int-int-) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)](#setArrayFormula-java.lang.String-int-int-boolean-boolean-) | Sets an array formula to a range of cells. |
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets an array formula to a range of cells. |
@@ -983,6 +985,20 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for current Cell object.
+### insertText(int index, String text) {#insertText-int-java.lang.String-}
+```
+public void insertText(int index, String text)
+```
+
+
+Insert some characters to the cell. If the cell is rich formatted, this method could keep the original formatting.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The index. |
+| text | java.lang.String | Inserted text. |
+
 ### isArrayFormula() {#isArrayFormula--}
 ```
 public boolean isArrayFormula()
@@ -1284,6 +1300,21 @@ Remove array formula.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | leaveNormalFormula | boolean | True represents converting the array formula to normal formula. |
+
+### replace(String placeHolder, String newValue, ReplaceOptions options) {#replace-java.lang.String-java.lang.String-com.aspose.cells.ReplaceOptions-}
+```
+public void replace(String placeHolder, String newValue, ReplaceOptions options)
+```
+
+
+Replace text of the cell with options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| placeHolder | java.lang.String | Cell placeholder |
+| newValue | java.lang.String | String value to replace |
+| options | [ReplaceOptions](../../com.aspose.cells/replaceoptions) | The replace options |
 
 ### setArrayFormula(String arrayFormula, int rowNumber, int columnNumber) {#setArrayFormula-java.lang.String-int-int-}
 ```

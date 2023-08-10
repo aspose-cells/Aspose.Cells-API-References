@@ -51,6 +51,7 @@ Represents the options for loading text file.
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
 | [getPreferredParsers()](#getPreferredParsers--) | Gets preferred value parsers for loading text file. |
+| [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [getRegion()](#getRegion--) | Gets the system regional settings based on CountryCode at the time the file was loaded. |
 | [getSeparator()](#getSeparator--) | Gets character separator of text file. |
 | [getSeparatorString()](#getSeparatorString--) | Gets a string value as separator. |
@@ -94,6 +95,7 @@ Represents the options for loading text file.
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
 | [setPreferredParsers(ICustomParser[] value)](#setPreferredParsers-com.aspose.cells.ICustomParser---) | Sets preferred value parsers for loading text file. |
+| [setPreservePaddingSpacesInFormula(boolean value)](#setPreservePaddingSpacesInFormula-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [setRegion(int value)](#setRegion-int-) | Sets the system regional settings based on CountryCode at the time the file was loaded. |
 | [setSeparator(char value)](#setSeparator-char-) | Sets character separator of text file. |
 | [setSeparatorString(String value)](#setSeparatorString-java.lang.String-) | Sets a string value as separator. |
@@ -459,6 +461,20 @@ parsers[0] is the parser will be used for the first column in text template file
 
 **Returns:**
 com.aspose.cells.ICustomParser[]
+### getPreservePaddingSpacesInFormula() {#getPreservePaddingSpacesInFormula--}
+```
+public boolean getPreservePaddingSpacesInFormula()
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+After loading workbook from template file with this option, [FormulaSettings.getPreservePaddingSpaces()](../../com.aspose.cells/formulasettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Returns:**
+boolean
 ### getRegion() {#getRegion--}
 ```
 public int getRegion()
@@ -1030,6 +1046,23 @@ parsers[0] is the parser will be used for the first column in text template file
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ICustomParser\[\]](../../com.aspose.cells/icustomparser) |  |
+
+### setPreservePaddingSpacesInFormula(boolean value) {#setPreservePaddingSpacesInFormula-boolean-}
+```
+public void setPreservePaddingSpacesInFormula(boolean value)
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+After loading workbook from template file with this option, [FormulaSettings.getPreservePaddingSpaces()](../../com.aspose.cells/formulasettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setRegion(int value) {#setRegion-int-}
 ```

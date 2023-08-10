@@ -25,12 +25,14 @@ Represent the replace options.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCaseSensitive()](#getCaseSensitive--) | Indicates if the searched string is case sensitive. |
 | [getClass()](#getClass--) |  |
+| [getFontSettings()](#getFontSettings--) | The rich formatted settings for the replaced text. |
 | [getMatchEntireCellContents()](#getMatchEntireCellContents--) | Indicates whether to match entire cells contents |
 | [getRegexKey()](#getRegexKey--) | Indicates whether the searched key is regex. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | Indicates if the searched string is case sensitive. |
+| [setFontSettings(FontSetting[] value)](#setFontSettings-com.aspose.cells.FontSetting---) | The rich formatted settings for the replaced text. |
 | [setMatchEntireCellContents(boolean value)](#setMatchEntireCellContents-boolean-) | Indicates whether to match entire cells contents |
 | [setRegexKey(boolean value)](#setRegexKey-boolean-) | Indicates whether the searched key is regex. |
 | [toString()](#toString--) |  |
@@ -78,6 +80,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFontSettings() {#getFontSettings--}
+```
+public FontSetting[] getFontSettings()
+```
+
+
+The rich formatted settings for the replaced text.
+
+**Returns:**
+com.aspose.cells.FontSetting[]
 ### getMatchEntireCellContents() {#getMatchEntireCellContents--}
 ```
 public boolean getMatchEntireCellContents()
@@ -136,6 +148,19 @@ Indicates if the searched string is case sensitive.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setFontSettings(FontSetting[] value) {#setFontSettings-com.aspose.cells.FontSetting---}
+```
+public void setFontSettings(FontSetting[] value)
+```
+
+
+The rich formatted settings for the replaced text.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [FontSetting\[\]](../../com.aspose.cells/fontsetting) |  |
 
 ### setMatchEntireCellContents(boolean value) {#setMatchEntireCellContents-boolean-}
 ```

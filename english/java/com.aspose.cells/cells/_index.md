@@ -87,6 +87,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [deleteColumns(int columnIndex, int totalColumns, boolean updateReference)](#deleteColumns-int-int-boolean-) | Deletes several columns. |
 | [deleteRange(int startRow, int startColumn, int endRow, int endColumn, int shiftType)](#deleteRange-int-int-int-int-int-) | Deletes a range of cells and shift cells according to the shift option. |
 | [deleteRow(int rowIndex)](#deleteRow-int-) | Deletes a row. |
+| [deleteRow(int rowIndex, boolean updateReference)](#deleteRow-int-boolean-) | Deletes a row. |
 | [deleteRows(int rowIndex, int totalRows)](#deleteRows-int-int-) | Deletes several rows. |
 | [deleteRows(int rowIndex, int totalRows, boolean updateReference)](#deleteRows-int-int-boolean-) | Deletes multiple rows in the worksheet. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
@@ -728,7 +729,7 @@ Deletes a column.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | int | Column index. |
+| columnIndex | int | Index of the column to be deleted. |
 
 ### deleteColumn(int columnIndex, boolean updateReference) {#deleteColumn-int-boolean-}
 ```
@@ -741,8 +742,8 @@ Deletes a column.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | int | Column index. |
-| updateReference | boolean | Indicates if update references in other worksheets. |
+| columnIndex | int | Index of the column to be deleted. |
+| updateReference | boolean | Indicates whether update references in other worksheets. |
 
 ### deleteColumns(int columnIndex, int totalColumns, boolean updateReference) {#deleteColumns-int-int-boolean-}
 ```
@@ -755,9 +756,9 @@ Deletes several columns.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | int | Column index. |
-| totalColumns | int | Number of columns to be deleted. |
-| updateReference | boolean | Indicates if update references in other worksheets. |
+| columnIndex | int | Index of the first column to be deleted. |
+| totalColumns | int | Count of columns to be deleted. |
+| updateReference | boolean | Indicates whether update references in other worksheets. |
 
 ### deleteRange(int startRow, int startColumn, int endRow, int endColumn, int shiftType) {#deleteRange-int-int-int-int-int-}
 ```
@@ -787,7 +788,21 @@ Deletes a row.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowIndex | int | Row index. |
+| rowIndex | int | Index of the row to be deleted. |
+
+### deleteRow(int rowIndex, boolean updateReference) {#deleteRow-int-boolean-}
+```
+public void deleteRow(int rowIndex, boolean updateReference)
+```
+
+
+Deletes a row.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | Index of the row to be deleted. |
+| updateReference | boolean | Indicates whether update references in other worksheets. |
 
 ### deleteRows(int rowIndex, int totalRows) {#deleteRows-int-int-}
 ```
@@ -799,13 +814,13 @@ Deletes several rows.
 
 **Remarks**
 
-If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done.It works as MS Excel.
+If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done. It works in the same way with MS Excel.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rowIndex | int | The first row index to be deleted. |
-| totalRows | int | Number of rows to be deleted. |
+| totalRows | int | Count of rows to be deleted. |
 
 **Returns:**
 boolean
@@ -820,9 +835,9 @@ Deletes multiple rows in the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowIndex | int | Row index. |
-| totalRows | int | Number of rows to be deleted. |
-| updateReference | boolean | Indicates if update references in other worksheets. |
+| rowIndex | int | Index of the first row to be deleted. |
+| totalRows | int | Count of rows to be deleted. |
+| updateReference | boolean | Indicates whether update references in other worksheets. |
 
 **Returns:**
 boolean - 
@@ -2537,7 +2552,7 @@ Inserts a range of cells and shift cells according to the shift option.
 | area | [CellArea](../../com.aspose.cells/cellarea) | Shift area. |
 | shiftNumber | int | Number of rows or columns to be inserted. |
 | shiftType | int | [ShiftType](../../com.aspose.cells/shifttype). Shift cells option. |
-| updateReference | boolean | Indicates if update references in other worksheets. |
+| updateReference | boolean | Indicates whether update references in other worksheets. |
 
 ### insertRow(int rowIndex) {#insertRow-int-}
 ```
