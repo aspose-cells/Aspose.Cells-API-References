@@ -18,7 +18,7 @@ public void InsertRange(CellArea area, int shiftNumber, ShiftType shiftType, boo
 | area | CellArea | Shift area. |
 | shiftNumber | Int32 | Number of rows or columns to be inserted. |
 | shiftType | ShiftType | Shift cells option. |
-| updateReference | Boolean | Indicates if update references in other worksheets. |
+| updateReference | Boolean | Indicates whether update references in other worksheets. |
 
 ### See Also
 

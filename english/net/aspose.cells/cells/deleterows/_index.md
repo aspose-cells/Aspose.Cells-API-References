@@ -16,11 +16,11 @@ public bool DeleteRows(int rowIndex, int totalRows)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rowIndex | Int32 | The first row index to be deleted. |
-| totalRows | Int32 | Number of rows to be deleted. |
+| totalRows | Int32 | Count of rows to be deleted. |
 
 ### Remarks
 
-If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done.It works as MS Excel.
+If the deleted range contains the top part(not whole) of the table(ListObject), the ranged could not be deleted and nothing will be done. It works in the same way with MS Excel.
 
 ### See Also
 
@@ -40,9 +40,9 @@ public bool DeleteRows(int rowIndex, int totalRows, bool updateReference)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowIndex | Int32 | Row index. |
-| totalRows | Int32 | Number of rows to be deleted. |
-| updateReference | Boolean | Indicates if update references in other worksheets. |
+| rowIndex | Int32 | Index of the first row to be deleted. |
+| totalRows | Int32 | Count of rows to be deleted. |
+| updateReference | Boolean | Indicates whether update references in other worksheets. |
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.ImportExcelFileFromJson
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Import file from json
+description: GridJsWorkbook method. Imports the excel file from JSON format string
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/importexcelfilefromjson/
 ---
 ## GridJsWorkbook.ImportExcelFileFromJson method
 
-Import file from json
+Imports the excel file from JSON format string.
 
 ```csharp
 public void ImportExcelFileFromJson(string json)
@@ -15,7 +15,7 @@ public void ImportExcelFileFromJson(string json)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| json | String |  |
+| json | String | The JSON format string. |
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: Config.UsePrintArea
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Sets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. the default value is false 
+description: Config property. Sets/Gets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. the default value is false 
 type: docs
 url: /net/aspose.cells.gridjs/config/useprintarea/
 ---
 ## Config.UsePrintArea property
 
-Sets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. the default value is false .
+Sets/Gets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. the default value is false .
 
 ```csharp
 public static bool UsePrintArea { get; set; }

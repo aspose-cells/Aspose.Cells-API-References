@@ -1,13 +1,13 @@
 ---
 title: GridReferredArea.ExternalFileName
 second_title: Aspose.Cells for .NET API Reference
-description: GridReferredArea property. this.KeepedRels  source.KeepedRels
+description: GridReferredArea property. Get the external file name if this is an external reference
 type: docs
 url: /net/aspose.cells.gridjs/gridreferredarea/externalfilename/
 ---
 ## GridReferredArea.ExternalFileName property
 
-this.KeepedRels = source.KeepedRels;
+Get the external file name if this is an external reference.
 
 ```csharp
 public string ExternalFileName { get; }

@@ -17,7 +17,7 @@ public class BindColumn : ISerializable
 
 | Name | Description |
 | --- | --- |
-| [BindColumn](bindcolumn/)() | Defalut constructor. |
+| [BindColumn](bindcolumn/)() | Default constructor. |
 
 ## Properties
 

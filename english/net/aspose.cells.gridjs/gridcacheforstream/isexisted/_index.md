@@ -1,13 +1,13 @@
 ---
 title: GridCacheForStream.IsExisted
 second_title: Aspose.Cells for .NET API Reference
-description: GridCacheForStream method. check whether the cache with uid is existed
+description: GridCacheForStream method. Checks whether the cache with uid is existed
 type: docs
 url: /net/aspose.cells.gridjs/gridcacheforstream/isexisted/
 ---
 ## GridCacheForStream.IsExisted method
 
-check whether the cache with uid is existed
+Checks whether the cache with uid is existed
 
 ```csharp
 public virtual bool IsExisted(string uid)
@@ -15,7 +15,11 @@ public virtual bool IsExisted(string uid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String |  |
+| uid | String | The unique id for the file cache. |
+
+### Return Value
+
+The bool value
 
 ### See Also
 

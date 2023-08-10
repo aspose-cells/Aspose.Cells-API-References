@@ -15,11 +15,11 @@ public string GetParamText(int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | index of the parameter(0 based) |
+| index | Int32 | The index of the parameter(0 based). |
 
 ### Return Value
 
-literal text of the parameter
+The literal text of the parameter.
 
 ### See Also
 

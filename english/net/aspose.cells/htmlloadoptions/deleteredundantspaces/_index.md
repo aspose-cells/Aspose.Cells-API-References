@@ -1,13 +1,13 @@
 ---
 title: HtmlLoadOptions.DeleteRedundantSpaces
 second_title: Aspose.Cells for .NET API Reference
-description: HtmlLoadOptions property. Indicates whether delete redundant spaces when the text wraps lines using brtag.The default value is false
+description: HtmlLoadOptions property. Indicates whether delete redundant spaces when the text wraps lines using br tag. The default value is false
 type: docs
 url: /net/aspose.cells/htmlloadoptions/deleteredundantspaces/
 ---
 ## HtmlLoadOptions.DeleteRedundantSpaces property
 
-Indicates whether delete redundant spaces when the text wraps lines using &lt;br&gt;tag.The default value is false.
+Indicates whether delete redundant spaces when the text wraps lines using `<br>` tag. The default value is false.
 
 ```csharp
 public bool DeleteRedundantSpaces { get; set; }

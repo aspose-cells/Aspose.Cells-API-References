@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.SetInterruptMonitorForLoad
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. set InterruptMonitor for load operation for workbook
+description: GridJsWorkbook method. Sets InterruptMonitor for load operation
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/setinterruptmonitorforload/
 ---
 ## GridJsWorkbook.SetInterruptMonitorForLoad method
 
-set InterruptMonitor for load operation for workbook
+Sets InterruptMonitor for load operation.
 
 ```csharp
 public void SetInterruptMonitorForLoad(GridInterruptMonitor monitor, 
@@ -16,8 +16,8 @@ public void SetInterruptMonitorForLoad(GridInterruptMonitor monitor,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| monitor | GridInterruptMonitor | Interrupt instance |
-| calculateTimeoutMilliseconds | Int32 | time out for milli seconds |
+| monitor | GridInterruptMonitor | The InterruptMonitor instance. |
+| calculateTimeoutMilliseconds | Int32 | The time out in millisecond for load file. |
 
 ### See Also
 

@@ -21,7 +21,7 @@ public abstract class GridAbstractCalculationEngine
 
 ### Remarks
 
-User should not modify any part of the Workbook directly in this implementation(except the calculated result of the custom function, which can be set by GridCalculationData.CalculatedValue property). Otherwise unexpected result or Exception may be caused. If user needs to change other data than calculated result in the implementation for some custom functions, for example, change cell's formula, style, ...etc., user should gather those data in this implementation and change them out of the scope of formula calculation.
+User should not modify any part of the Workbook directly in this implementation(except the calculated result of the custom function, which can be set by GridCalculationData.CalculatedValue property). Otherwise unexpected result or Exception may be caused. If user needs to change other data than calculated result in the implementation for some custom functions, For example, change cell's formula, style, ...etc., user should gather those data in this implementation and change them out of the scope of formula calculation.
 
 ### Examples
 

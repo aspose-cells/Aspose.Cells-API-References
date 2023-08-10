@@ -17,11 +17,11 @@ public class GridCalculationData
 
 | Name | Description |
 | --- | --- |
-| [CalculatedValue](../../aspose.cells.gridjs/gridcalculationdata/calculatedvalue/) { get; set; } | Gets or sets the calculated value for this function. |
+| [CalculatedValue](../../aspose.cells.gridjs/gridcalculationdata/calculatedvalue/) { get; set; } | Gets/sets the calculated value for this function. |
 | [Column](../../aspose.cells.gridjs/gridcalculationdata/column/) { get; } | Gets the Cell Column index where the function is in. |
 | [Formula](../../aspose.cells.gridjs/gridcalculationdata/formula/) { get; } | Gets the Cell formula where the function is in. |
 | [FunctionName](../../aspose.cells.gridjs/gridcalculationdata/functionname/) { get; } | Gets the function name to be calculated. |
-| [ParamCount](../../aspose.cells.gridjs/gridcalculationdata/paramcount/) { get; } | Gets the count of parameters |
+| [ParamCount](../../aspose.cells.gridjs/gridcalculationdata/paramcount/) { get; } | Gets the count of parameters . |
 | [Row](../../aspose.cells.gridjs/gridcalculationdata/row/) { get; } | Gets the Cell Row index where the function is in. |
 | [SheetName](../../aspose.cells.gridjs/gridcalculationdata/sheetname/) { get; } | Gets the worksheet name where the function is in. |
 | [StringValue](../../aspose.cells.gridjs/gridcalculationdata/stringvalue/) { get; } | Gets the Cell DisplayStringValue where the function is in. |

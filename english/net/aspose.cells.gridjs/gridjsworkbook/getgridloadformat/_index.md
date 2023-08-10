@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.GetGridLoadFormat
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Get GridLoadFormat by file extension
+description: GridJsWorkbook method. Gets the load format by file extension
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/getgridloadformat/
 ---
 ## GridJsWorkbook.GetGridLoadFormat method
 
-Get GridLoadFormat by file extension
+Gets the load format by file extension
 
 ```csharp
 public static GridLoadFormat GetGridLoadFormat(string extension)
@@ -15,7 +15,7 @@ public static GridLoadFormat GetGridLoadFormat(string extension)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | String | file extention ,start with . |
+| extension | String | The file extention ,usually start with '.' . |
 
 ### See Also
 

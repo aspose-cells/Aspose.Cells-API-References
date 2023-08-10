@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.GetUidForFile
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Generate the uid for the file
+description: GridJsWorkbook method. Gets unique id for the file cache
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/getuidforfile/
 ---
 ## GridJsWorkbook.GetUidForFile method
 
-Generate the uid for the file
+Gets unique id for the file cache.
 
 ```csharp
 public static string GetUidForFile(string fileName)
@@ -15,7 +15,7 @@ public static string GetUidForFile(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | The excel file's name. |
+| fileName | String | The file name. |
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.CopyImageOrShape
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. copy image or shape in the worksheet
+description: GridJsWorkbook method. Copys image or shape
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/copyimageorshape/
 ---
 ## GridJsWorkbook.CopyImageOrShape method
 
-copy image or shape in the worksheet
+Copys image or shape.
 
 ```csharp
 public string CopyImageOrShape(string uid, string p)
@@ -15,12 +15,12 @@ public string CopyImageOrShape(string uid, string p)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String | the unique id for the sheet file |
-| p | String | specify the cell location ,json parameter contains sheet name,upper left row,upper left column for the image，etc {name:'sheet1',ri:1,ci:1,srcid:2,srcname:'sheet2',isshape:true} |
+| uid | String | The unique id for the file cache. |
+| p | String | The JSON format string for the operation which specify the cell location ,it contains the worksheet name,upper left row,upper left column for the image or shape，etc {name:'sheet1',ri:1,ci:1,srcid:2,srcname:'sheet2',isshape:true} |
 
 ### Return Value
 
-the json of the image
+The JSON format string of the new copied image
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: GridCalculationData.CalculatedValue
 second_title: Aspose.Cells for .NET API Reference
-description: GridCalculationData property. Gets or sets the calculated value for this function
+description: GridCalculationData property. Gets/sets the calculated value for this function
 type: docs
 url: /net/aspose.cells.gridjs/gridcalculationdata/calculatedvalue/
 ---
 ## GridCalculationData.CalculatedValue property
 
-Gets or sets the calculated value for this function.
+Gets/sets the calculated value for this function.
 
 ```csharp
 public object CalculatedValue { get; set; }

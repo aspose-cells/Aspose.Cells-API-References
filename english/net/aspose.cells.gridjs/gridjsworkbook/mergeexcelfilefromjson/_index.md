@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.MergeExcelFileFromJson
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Apply style update to the cache file
+description: GridJsWorkbook method. Applies a batch update to the memory data
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/mergeexcelfilefromjson/
 ---
 ## GridJsWorkbook.MergeExcelFileFromJson method
 
-Apply style update to the cache file
+Applies a batch update to the memory data.
 
 ```csharp
 public void MergeExcelFileFromJson(string uid, string json)
@@ -15,8 +15,8 @@ public void MergeExcelFileFromJson(string uid, string json)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String |  |
-| json | String |  |
+| uid | String | The unique id for the file cache. |
+| json | String | The update JSON format string. |
 
 ### See Also
 

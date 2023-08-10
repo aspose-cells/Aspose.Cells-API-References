@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.SaveToHtml
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Saves the worksheets to the file paththe save format is html
+description: GridJsWorkbook method. Saves the memory data to the file paththe save format is html
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetohtml/
 ---
 ## SaveToHtml(string) {#savetohtml_1}
 
-Saves the worksheets to the file path,the save format is html
+Saves the memory data to the file path,the save format is html.
 
 ```csharp
 public void SaveToHtml(string path)
@@ -15,7 +15,7 @@ public void SaveToHtml(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | The file path to write to. |
+| path | String | The file path to save. |
 
 ### See Also
 
@@ -27,7 +27,7 @@ public void SaveToHtml(string path)
 
 ## SaveToHtml(Stream) {#savetohtml}
 
-Saves the worksheets to the sream,the save format is html
+Saves the memory data to the sream,the save format is html
 
 ```csharp
 public void SaveToHtml(Stream stream)
@@ -35,7 +35,7 @@ public void SaveToHtml(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to write to. |
+| stream | Stream | The stream to save. |
 
 ### See Also
 

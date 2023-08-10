@@ -1,23 +1,23 @@
 ---
 title: GridJsWorkbook.GetImageUrl
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Get the image URL
+description: GridJsWorkbook method. Gets the image URL
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/getimageurl/
 ---
 ## GridJsWorkbook.GetImageUrl method
 
-Get the image URL
+Gets the image URL.
 
 ```csharp
-public static string GetImageUrl(string uniqueid, string picid, string delimiter)
+public static string GetImageUrl(string uid, string picid, string delimiter)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uniqueid | String | the unique id for the sheet file |
-| picid | String | picture id |
-| delimiter | String | string delimiter |
+| uid | String | The unique id for the file cache. |
+| picid | String | The image id. |
+| delimiter | String | The string delimiter. |
 
 ### See Also
 

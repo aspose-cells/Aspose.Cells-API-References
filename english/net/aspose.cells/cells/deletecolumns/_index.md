@@ -15,9 +15,9 @@ public void DeleteColumns(int columnIndex, int totalColumns, bool updateReferenc
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | Int32 | Column index. |
-| totalColumns | Int32 | Number of columns to be deleted. |
-| updateReference | Boolean | Indicates if update references in other worksheets. |
+| columnIndex | Int32 | Index of the first column to be deleted. |
+| totalColumns | Int32 | Count of columns to be deleted. |
+| updateReference | Boolean | Indicates whether update references in other worksheets. |
 
 ### See Also
 

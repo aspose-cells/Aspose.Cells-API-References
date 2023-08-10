@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.ExportToJson
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Get json from workbook
+description: GridJsWorkbook method. Gets JSON format string from memory data with the specified filename
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/exporttojson/
 ---
 ## ExportToJson(string) {#exporttojson_1}
 
-Get json from workbook
+Gets JSON format string from memory data with the specified filename.
 
 ```csharp
 public string ExportToJson(string filename)
@@ -15,11 +15,11 @@ public string ExportToJson(string filename)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filename | String | the filename of the file . |
+| filename | String | The filename of the spreadsheet file . |
 
 ### Return Value
 
-the json string
+The JSON format string.
 
 ### See Also
 
@@ -31,7 +31,7 @@ the json string
 
 ## ExportToJson() {#exporttojson}
 
-Get json from workbook
+Gets JSON format string of the default empty spreadsheet file.
 
 ```csharp
 public string ExportToJson()
@@ -39,7 +39,7 @@ public string ExportToJson()
 
 ### Return Value
 
-the json string
+The JSON format string.
 
 ### See Also
 

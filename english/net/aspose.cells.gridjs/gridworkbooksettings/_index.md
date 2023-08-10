@@ -1,13 +1,13 @@
 ---
 title: Class GridWorkbookSettings
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.GridJs.GridWorkbookSettings class. Represents settings of the workbook
+description: Aspose.Cells.GridJs.GridWorkbookSettings class. Represents the settings of the workbook
 type: docs
 url: /net/aspose.cells.gridjs/gridworkbooksettings/
 ---
 ## GridWorkbookSettings class
 
-Represents settings of the workbook.
+Represents the settings of the workbook.
 
 ```csharp
 public class GridWorkbookSettings
@@ -23,7 +23,7 @@ public class GridWorkbookSettings
 
 | Name | Description |
 | --- | --- |
-| [Author](../../aspose.cells.gridjs/gridworkbooksettings/author/) { get; set; } | Gets and sets the author of the file. |
+| [Author](../../aspose.cells.gridjs/gridworkbooksettings/author/) { get; set; } | Gets/sets the author of the file. |
 | [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat/) { get; set; } | Indicates whether checking custom number format when setting Style.Custom. |
 | [CreateCalcChain](../../aspose.cells.gridjs/gridworkbooksettings/createcalcchain/) { get; set; } | Indicates whether create calculated formulas chain. Default is false. |
 | [Date1904](../../aspose.cells.gridjs/gridworkbooksettings/date1904/) { get; set; } | Gets or sets a value which represents if the workbook uses the 1904 date system. |

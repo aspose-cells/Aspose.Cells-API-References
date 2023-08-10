@@ -13,12 +13,11 @@ Imports a DataRow into the Excel file.
 public void ImportDataRow(DataRow dataRow, int row, int firstColumn)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| firstColumn | First column index. |
-| dataRow | DataRow object. |
-| row | Row index. |
-| firstColumn | First column index. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataRow | DataRow | DataRow object. |
+| row | Int32 | Row index. |
+| firstColumn | Int32 | First column index. |
 
 ### See Also
 

@@ -32,6 +32,7 @@ public class CalculationData
 | --- | --- |
 | [GetParamText](../../aspose.cells/calculationdata/getparamtext/)(int) | Gets the literal text of the parameter at given index. |
 | [GetParamValue](../../aspose.cells/calculationdata/getparamvalue/)(int) | Gets the represented value object of the parameter at given index. |
+| [GetParamValueInArrayMode](../../aspose.cells/calculationdata/getparamvalueinarraymode/)(int, int, int) | Gets the value(s) of the parameter at given index. If the parameter is some kind of expression that needs to be calculated, then it will be calculated in array mode. |
 
 ### Remarks
 

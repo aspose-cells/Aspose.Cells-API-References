@@ -33,7 +33,7 @@ public class SettablePivotGlobalizationSettings : PivotGlobalizationSettings
 | virtual [GetTextOfProtection](../../aspose.cells.settings/pivotglobalizationsettings/gettextofprotection/)() | (**Obsolete.**) Gets the protection name in the PivotTable.(Inherited from [`PivotGlobalizationSettings`](../../aspose.cells.settings/pivotglobalizationsettings/).) |
 | override [GetTextOfRowLabels](../../aspose.cells/settablepivotglobalizationsettings/gettextofrowlabels/)() | Gets the text of "Row Labels" label in the PivotTable. |
 | override [GetTextOfSubTotal](../../aspose.cells/settablepivotglobalizationsettings/gettextofsubtotal/)(PivotFieldSubtotalType) | Gets the text of [`PivotFieldSubtotalType`](../../aspose.cells.pivot/pivotfieldsubtotaltype/) type in the PivotTable. |
-| override [GetTextOfTotal](../../aspose.cells/settablepivotglobalizationsettings/gettextoftotal/)() |  |
+| override [GetTextOfTotal](../../aspose.cells/settablepivotglobalizationsettings/gettextoftotal/)() | Gets the text of "Total" label in the PivotTable. You need to override this method when the PivotTable contains two or more PivotFields in the data area. |
 | [SetTextOfAll](../../aspose.cells/settablepivotglobalizationsettings/settextofall/)(string) | Sets the text of "(All)" label in the PivotTable. |
 | [SetTextOfColumnLabels](../../aspose.cells/settablepivotglobalizationsettings/settextofcolumnlabels/)(string) | Gets the text of "Column Labels" label in the PivotTable. |
 | [SetTextOfDataFieldHeader](../../aspose.cells/settablepivotglobalizationsettings/settextofdatafieldheader/)(string) | Sets the the text of the value area field header in the PivotTable. |

@@ -19,7 +19,7 @@ The **Aspose.Cells.GridJs** namespace contains all classes of GridJs which provi
 | [GridInterruptMonitor](./gridinterruptmonitor/) | Represents all operator about the interrupt. |
 | [GridJsWorkbook](./gridjsworkbook/) | Represents the main entry class for GridJs |
 | [GridReferredArea](./gridreferredarea/) | Represents a referred area by the formula. |
-| [GridWorkbookSettings](./gridworkbooksettings/) | Represents settings of the workbook. |
+| [GridWorkbookSettings](./gridworkbooksettings/) | Represents the settings of the workbook. |
 ## Enumeration
 
 | Enumeration | Description |

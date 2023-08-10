@@ -1,13 +1,13 @@
 ---
 title: Config.PictureCacheDirectory
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Sets/Gets the cache directory for pictures
+description: Config property. Sets/Gets the cache directory for pictures We need to set it to a specific path before we use GridJs
 type: docs
 url: /net/aspose.cells.gridjs/config/picturecachedirectory/
 ---
 ## Config.PictureCacheDirectory property
 
-Sets/Gets the cache directory for pictures
+Sets/Gets the cache directory for pictures。 We need to set it to a specific path before we use GridJs.
 
 ```csharp
 public static string PictureCacheDirectory { get; set; }

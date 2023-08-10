@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.UpdateCell
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Do update operation
+description: GridJsWorkbook method. Applies the update operation
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/updatecell/
 ---
 ## GridJsWorkbook.UpdateCell method
 
-Do update operation
+Applies the update operation.
 
 ```csharp
 public string UpdateCell(string p, string uid)
@@ -15,8 +15,12 @@ public string UpdateCell(string p, string uid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| p | String | the update json string |
-| uid | String | the unique id for the sheet file |
+| p | String | The JSON format string of update operation. |
+| uid | String | The unique id for the file cache. |
+
+### Return Value
+
+The JSON format string of the update result.
 
 ### See Also
 

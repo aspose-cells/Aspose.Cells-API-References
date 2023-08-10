@@ -1,28 +1,28 @@
 ---
 title: GridJsWorkbook.GetOle
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. get the source of the embedded ole object data
+description: GridJsWorkbook method. Gets the byte array data of the embedded ole object 
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/getole/
 ---
 ## GridJsWorkbook.GetOle method
 
-get the source of the embedded ole object data
+Gets the byte array data of the embedded ole object .
 
 ```csharp
-public byte[] GetOle(string uid, string sheet, int oleid, out string filename)
+public byte[] GetOle(string uid, string sheetname, int oleid, out string label)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String | the unique id for the sheet file |
-| sheet | String | the sheet name |
-| oleid | Int32 | the id for the ole object |
-| filename | String& | the linked file name |
+| uid | String | The unique id for the file cache. |
+| sheetname | String | The worksheet name. |
+| oleid | Int32 | The id for the embedded ole object. |
+| label | String& | The display label of the embedded ole object. |
 
 ### Return Value
 
-the byte array source of the embedded ole object data
+The byte array data of the embedded ole object .
 
 ### See Also
 

@@ -15,7 +15,7 @@ public abstract void Calculate(GridCalculationData data)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | GridCalculationData | the required data to calculate function such as function name, parameters, ...etc. |
+| data | GridCalculationData | The required data to calculate function such as function name, parameters, ...etc. |
 
 ### Remarks
 

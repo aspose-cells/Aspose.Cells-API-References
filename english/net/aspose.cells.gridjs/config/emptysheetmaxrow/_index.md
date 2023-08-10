@@ -1,13 +1,13 @@
 ---
 title: Config.EmptySheetMaxRow
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Sets default max row for an empty worksheet
+description: Config property. Sets/Gets default max row for an empty worksheet. the default value is 12
 type: docs
 url: /net/aspose.cells.gridjs/config/emptysheetmaxrow/
 ---
 ## Config.EmptySheetMaxRow property
 
-Sets default max row for an empty worksheet
+Sets/Gets default max row for an empty worksheet. the default value is 12.
 
 ```csharp
 public static int EmptySheetMaxRow { get; set; }

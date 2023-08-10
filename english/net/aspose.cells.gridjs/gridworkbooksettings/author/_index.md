@@ -1,13 +1,13 @@
 ---
 title: GridWorkbookSettings.Author
 second_title: Aspose.Cells for .NET API Reference
-description: GridWorkbookSettings property. Gets and sets the author of the file
+description: GridWorkbookSettings property. Gets/sets the author of the file
 type: docs
 url: /net/aspose.cells.gridjs/gridworkbooksettings/author/
 ---
 ## GridWorkbookSettings.Author property
 
-Gets and sets the author of the file.
+Gets/sets the author of the file.
 
 ```csharp
 public string Author { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.SaveToExcelFile
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Saves the worksheets to the sreambaseed on the origin file format 
+description: GridJsWorkbook method. Saves the memory data to the sream baseed on the origin file format
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetoexcelfile/
 ---
 ## SaveToExcelFile(Stream) {#savetoexcelfile}
 
-Saves the worksheets to the sream,baseed on the origin file format .
+Saves the memory data to the sream, baseed on the origin file format.
 
 ```csharp
 public void SaveToExcelFile(Stream stream)
@@ -15,7 +15,7 @@ public void SaveToExcelFile(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to write to. |
+| stream | Stream | The stream to save. |
 
 ### See Also
 
@@ -27,7 +27,7 @@ public void SaveToExcelFile(Stream stream)
 
 ## SaveToExcelFile(string) {#savetoexcelfile_1}
 
-Saves the worksheets to the file path,if the file has extension ,save format is baseed on the file extension .
+Saves the memory data to the file path,if the file has extension ,save format is baseed on the file extension .
 
 ```csharp
 public void SaveToExcelFile(string path)
@@ -35,7 +35,7 @@ public void SaveToExcelFile(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | The file path to write to. |
+| path | String | The file path to save. |
 
 ### See Also
 

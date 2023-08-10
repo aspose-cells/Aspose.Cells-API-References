@@ -15,16 +15,15 @@ public PivotTableFormat FormatArea(PivotFieldType axisType, int fieldPosition,
     bool isGrandColumn, Style style)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| axisType | The region of the PivotTable to which this rule applies. |
-| fieldPosition | Position of the field within the axis to which this rule applies. |
-| subtotalType | The subtotal filter type of the pivot field |
-| onlyData | Indicates whether only selecting data. |
-| onlyLabel | Indicates whether only selecting labels. |
-| isGrandRow | Indicates whether selecting grand total rows. |
-| isGrandColumn | Indicates whether selecting grand total columns. |
-| style | The style which appies to the area of the pivot table. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisType | PivotFieldType | The region of the PivotTable to which this rule applies. |
+| fieldPosition | Int32 | Position of the field within the axis to which this rule applies. |
+| subtotalType | PivotFieldSubtotalType | The subtotal filter type of the pivot field |
+| selectionType | PivotTableSelectionType | Indicates how to select data. |
+| isGrandRow | Boolean | Indicates whether selecting grand total rows. |
+| isGrandColumn | Boolean | Indicates whether selecting grand total columns. |
+| style | Style | The style which appies to the area of the pivot table. |
 
 ### See Also
 

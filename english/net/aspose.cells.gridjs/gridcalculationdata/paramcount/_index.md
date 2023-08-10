@@ -1,13 +1,13 @@
 ---
 title: GridCalculationData.ParamCount
 second_title: Aspose.Cells for .NET API Reference
-description: GridCalculationData property. Gets the count of parameters
+description: GridCalculationData property. Gets the count of parameters 
 type: docs
 url: /net/aspose.cells.gridjs/gridcalculationdata/paramcount/
 ---
 ## GridCalculationData.ParamCount property
 
-Gets the count of parameters
+Gets the count of parameters .
 
 ```csharp
 public int ParamCount { get; }

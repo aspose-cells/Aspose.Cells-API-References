@@ -27,6 +27,7 @@ public class FormulaSettings
 | [MaxChange](../../aspose.cells/formulasettings/maxchange/) { get; set; } | The maximum change to resolve a circular reference. |
 | [MaxIteration](../../aspose.cells/formulasettings/maxiteration/) { get; set; } | The maximum iterations to resolve a circular reference. |
 | [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed/) { get; set; } | Whether the precision of calculated result be set as they are displayed while calculating formulas |
+| [PreservePaddingSpaces](../../aspose.cells/formulasettings/preservepaddingspaces/) { get; set; } | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 
 ### See Also
 

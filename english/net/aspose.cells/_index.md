@@ -90,7 +90,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [HtmlLoadOptions](./htmlloadoptions/) | Represents options when importing a html file. |
 | [HtmlSaveOptions](./htmlsaveoptions/) | Represents the options for saving html file. |
 | [HtmlTableLoadOption](./htmltableloadoption/) | Represents the option when import table from html. |
-| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection/) | Represents the table options when import html. |
+| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection/) | Represents the table options when importing html. |
 | [Hyperlink](./hyperlink/) | Encapsulates the object that represents a hyperlink. |
 | [HyperlinkCollection](./hyperlinkcollection/) | Encapsulates a collection of [`Hyperlink`](../aspose.cells/hyperlink/) objects. |
 | [IconFilter](./iconfilter/) | Represents icon filter. |

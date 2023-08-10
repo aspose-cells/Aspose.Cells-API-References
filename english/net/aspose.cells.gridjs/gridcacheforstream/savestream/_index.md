@@ -1,13 +1,13 @@
 ---
 title: GridCacheForStream.SaveStream
 second_title: Aspose.Cells for .NET API Reference
-description: GridCacheForStream method. Implement this method to save cachesave the stream to the cache with the key uid
+description: GridCacheForStream method. Implements this method to save cachesave the stream to the cache with the key uid
 type: docs
 url: /net/aspose.cells.gridjs/gridcacheforstream/savestream/
 ---
 ## GridCacheForStream.SaveStream method
 
-Implement this method to save cache,save the stream to the cache with the key uid.
+Implements this method to save cache,save the stream to the cache with the key uid.
 
 ```csharp
 public virtual void SaveStream(Stream s, string uid)

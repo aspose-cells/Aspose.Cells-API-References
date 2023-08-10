@@ -15,7 +15,7 @@ public virtual bool IsParamLiteralRequired { get; }
 
 ### Remarks
 
-If this custom calculation engine requires the parameter's literal text, more stacks will be required to cache the literal text for parameters and Calculate() method may be called recursively to calculate the parameter's value. Commonly the literal text is not needed for calculating formulas and this method should return false for most implementations to get better performance.
+If this custom calculation engine needs the parameter's literal text, more stacks will be required to cache the literal text for parameters and Calculate() method may be called recursively to calculate the parameter's value. Generally the literal text is not needed for calculating formulas and this property should be kept as false for most implementations to get better performance.
 
 ### See Also
 

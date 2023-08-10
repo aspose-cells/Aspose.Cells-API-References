@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.SaveToXlsx
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Saves the worksheets to the file paththe save format is xlsx
+description: GridJsWorkbook method. Saves the memory data to the file paththe save format is xlsx
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/savetoxlsx/
 ---
 ## SaveToXlsx(string) {#savetoxlsx_1}
 
-Saves the worksheets to the file path,the save format is xlsx
+Saves the memory data to the file path,the save format is xlsx.
 
 ```csharp
 public void SaveToXlsx(string path)
@@ -15,7 +15,7 @@ public void SaveToXlsx(string path)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | String | The file path to write to. |
+| path | String | The file path to save. |
 
 ### See Also
 
@@ -27,7 +27,7 @@ public void SaveToXlsx(string path)
 
 ## SaveToXlsx(Stream) {#savetoxlsx}
 
-Saves the worksheets to the sream,the save format is xlsx
+Saves the memory data to the sream,the save format is xlsx.
 
 ```csharp
 public void SaveToXlsx(Stream stream)
@@ -35,7 +35,7 @@ public void SaveToXlsx(Stream stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | The stream to write to. |
+| stream | Stream | The stream to save. |
 
 ### See Also
 

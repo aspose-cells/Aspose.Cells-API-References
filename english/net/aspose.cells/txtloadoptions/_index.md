@@ -53,6 +53,7 @@ public class TxtLoadOptions : AbstractTextLoadOptions
 | [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords/) { get; set; } | Indicates whether parsing pivot cached records when loading the file. The default value is false.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [Password](../../aspose.cells/loadoptions/password/) { get; set; } | Gets and set the password of the workbook.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [PreferredParsers](../../aspose.cells/txtloadoptions/preferredparsers/) { get; set; } | Gets and sets preferred value parsers for loading text file. |
+| [PreservePaddingSpacesInFormula](../../aspose.cells/loadoptions/preservepaddingspacesinformula/) { get; set; } | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [Region](../../aspose.cells/loadoptions/region/) { get; set; } | Gets or sets the system regional settings based on CountryCode at the time the file was loaded.(Inherited from [`LoadOptions`](../loadoptions/).) |
 | [Separator](../../aspose.cells/txtloadoptions/separator/) { get; set; } | Gets and sets character separator of text file. |
 | [SeparatorString](../../aspose.cells/txtloadoptions/separatorstring/) { get; set; } | Gets and sets a string value as separator. |

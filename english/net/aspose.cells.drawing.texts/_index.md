@@ -12,7 +12,7 @@ The **Aspose.Cells.Drawing.Texts** namespace provides classes that draw and form
 | Class | Description |
 | --- | --- |
 | [AutoNumberedBulletValue](./autonumberedbulletvalue/) | Represents automatic numbered bullet. |
-| [Bullet](./bullet/) | Represents the bullet. |
+| [Bullet](./bullet/) | Represents the bullet points should be applied to a paragraph. |
 | [BulletValue](./bulletvalue/) | Represents the value of the bullet. |
 | [CharacterBulletValue](./characterbulletvalue/) | Represents the character bullet. |
 | [FontSettingCollection](./fontsettingcollection/) | Represents the list of [`FontSetting`](../aspose.cells/fontsetting/). |

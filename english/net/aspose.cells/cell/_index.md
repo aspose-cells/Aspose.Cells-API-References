@@ -88,6 +88,7 @@ public class Cell
 | [GetValidation](../../aspose.cells/cell/getvalidation/)() | Gets the validation applied to this cell. |
 | [GetValidationValue](../../aspose.cells/cell/getvalidationvalue/)() | Gets the value of validation which applied to this cell. |
 | [GetWidthOfValue](../../aspose.cells/cell/getwidthofvalue/)() | Gets the width of the value in unit of pixels. |
+| [InsertText](../../aspose.cells/cell/inserttext/)(int, string) | Insert some characters to the cell. If the cell is rich formatted, this method could keep the original formatting. |
 | [IsRichText](../../aspose.cells/cell/isrichtext/)() | Indicates whether the cell string value is a rich text. |
 | [PutValue](../../aspose.cells/cell/putvalue/#putvalue)(bool) | Puts a boolean value into the cell. |
 | [PutValue](../../aspose.cells/cell/putvalue/#putvalue_3)(DateTime) | Puts a DateTime value into the cell. |
@@ -98,6 +99,7 @@ public class Cell
 | [PutValue](../../aspose.cells/cell/putvalue/#putvalue_6)(string, bool) | Puts a string value into the cell and converts the value to other data type if appropriate. |
 | [PutValue](../../aspose.cells/cell/putvalue/#putvalue_7)(string, bool, bool) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [RemoveArrayFormula](../../aspose.cells/cell/removearrayformula/)(bool) | Remove array formula. |
+| [Replace](../../aspose.cells/cell/replace/)(string, string, ReplaceOptions) | Replace text of the cell with options. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula)(string, int, int) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula_1)(string, int, int, FormulaParseOptions) | Sets an array formula to a range of cells. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula_3)(string, int, int, bool, bool) | (**Obsolete.**) Sets an array formula to a range of cells. |

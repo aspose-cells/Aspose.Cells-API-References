@@ -1,13 +1,13 @@
 ---
 title: Config.FileCacheDirectory
 second_title: Aspose.Cells for .NET API Reference
-description: Config property. Sets/Gets the cache directory for workbook file
+description: Config property. Sets/Gets the cache directory for workbook file. We need to set it to a specific path before we use GridJs
 type: docs
 url: /net/aspose.cells.gridjs/config/filecachedirectory/
 ---
 ## Config.FileCacheDirectory property
 
-Sets/Gets the cache directory for workbook file
+Sets/Gets the cache directory for workbook file. We need to set it to a specific path before we use GridJs.
 
 ```csharp
 public static string FileCacheDirectory { get; set; }

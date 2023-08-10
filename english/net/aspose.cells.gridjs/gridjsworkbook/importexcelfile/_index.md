@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.ImportExcelFile
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Imports from an excel file
+description: GridJsWorkbook method. Imports the excel file from file path and open password
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/importexcelfile/
 ---
 ## ImportExcelFile(string, string, string) {#importexcelfile_8}
 
-Imports from an excel file.
+Imports the excel file from file path and open password.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName, string password)
@@ -15,9 +15,9 @@ public void ImportExcelFile(string uid, string fileName, string password)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String | The uid for the file cache, if set to null,it will be generated later. |
-| fileName | String | The excel file full path with file name . |
-| password | String | The excel file's open password. The value can be null If no passowrd is set |
+| uid | String | The unique id for the file cache, if set to null,it will be generated automatically. |
+| fileName | String | The full path of the file. |
+| password | String | The open password of the excel file.The value can be null If no passowrd is set. |
 
 ### See Also
 
@@ -29,7 +29,7 @@ public void ImportExcelFile(string uid, string fileName, string password)
 
 ## ImportExcelFile(string, string) {#importexcelfile_7}
 
-Imports from an excel file.
+Imports the excel file from the file path.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName)
@@ -37,8 +37,8 @@ public void ImportExcelFile(string uid, string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String | The uid for the file cache, if set to null,it will be generated later. |
-| fileName | String | The excel file full path with file name . |
+| uid | String | The unique id for the file cache, if set to null,it will be generated automatically. |
+| fileName | String | The full path of the file. |
 
 ### See Also
 
@@ -50,7 +50,7 @@ public void ImportExcelFile(string uid, string fileName)
 
 ## ImportExcelFile(string) {#importexcelfile_3}
 
-Imports from an excel file.
+Imports the excel file from the file path.
 
 ```csharp
 public void ImportExcelFile(string fileName)
@@ -58,7 +58,7 @@ public void ImportExcelFile(string fileName)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | The excel file full path with file name . |
+| fileName | String | The full path of the file. |
 
 ### See Also
 
@@ -70,7 +70,7 @@ public void ImportExcelFile(string fileName)
 
 ## ImportExcelFile(Workbook) {#importexcelfile}
 
-Imports from Workbook.
+Imports the excel file from the Workbook object.
 
 ```csharp
 public void ImportExcelFile(Workbook wb)
@@ -90,7 +90,7 @@ public void ImportExcelFile(Workbook wb)
 
 ## ImportExcelFile(string, Workbook) {#importexcelfile_4}
 
-Imports from an excel file.
+Imports the excel file from the Workbook object.
 
 ```csharp
 public void ImportExcelFile(string uid, Workbook wb)
@@ -98,7 +98,7 @@ public void ImportExcelFile(string uid, Workbook wb)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String | The uid for the file cache, if set to null,it will be generated later. |
+| uid | String | The unique id for the file cache, if set to null,it will be generated automatically. |
 | wb | Workbook | The Workbook object . |
 
 ### See Also
@@ -111,7 +111,7 @@ public void ImportExcelFile(string uid, Workbook wb)
 
 ## ImportExcelFile(string, Stream, GridLoadFormat, string) {#importexcelfile_6}
 
-Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
+Imports the excel file from file stream with load format and open password.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format, string password)
@@ -119,10 +119,10 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String | The uid for the file cache, if set to null,it will be generated later. |
-| filestream | Stream | The excel file's stream. |
-| format | GridLoadFormat | The excel file's LoadFormat. |
-| password | String | The excel file's open password.The value can be null If no passowrd is set |
+| uid | String | The unique id for the file cache, if set to null,it will be generated automatically. |
+| filestream | Stream | The stream of the excel file . |
+| format | GridLoadFormat | The LoadFormat of the excel file. |
+| password | String | The open password of the excel file.The value can be null If no passowrd is set |
 
 ### See Also
 
@@ -135,7 +135,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ## ImportExcelFile(string, Stream, GridLoadFormat) {#importexcelfile_5}
 
-Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
+Imports the excel file from file stream.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format)
@@ -143,9 +143,9 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| uid | String | The uid for the file cache, if set to null,it will be generated later. |
-| filestream | Stream | The excel file's stream. |
-| format | GridLoadFormat | The excel file's LoadFormat. |
+| uid | String | The unique id for the file cache, if set to null,it will be generated automatically. |
+| filestream | Stream | The stream of the excel file . |
+| format | GridLoadFormat | The LoadFormat of the excel file. |
 
 ### See Also
 
@@ -158,7 +158,7 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 ## ImportExcelFile(Stream, GridLoadFormat, string) {#importexcelfile_2}
 
-Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
+Imports the excel file from file stream with load format and open password.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format, string password)
@@ -166,9 +166,9 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filestream | Stream | The excel file's stream. |
-| format | GridLoadFormat | The excel file's LoadFormat. |
-| password | String | The excel file's open password.The value can be null If no passowrd is set |
+| filestream | Stream | The stream of the excel file . |
+| format | GridLoadFormat | The LoadFormat of the excel file. |
+| password | String | The open password of the excel file.The value can be null If no passowrd is set. |
 
 ### See Also
 
@@ -181,7 +181,7 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 
 ## ImportExcelFile(Stream, GridLoadFormat) {#importexcelfile_1}
 
-Imports from an excel file stream.must provide loadformat and can set GridJsWorkbook.CacheImp to implement stream cache
+Imports the excel file from file stream with load format.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format)
@@ -189,8 +189,8 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filestream | Stream | The excel file's stream. |
-| format | GridLoadFormat | The excel file's LoadFormat. |
+| filestream | Stream | The stream of the excel file . |
+| format | GridLoadFormat | The LoadFormat of the excel file. |
 
 ### See Also
 

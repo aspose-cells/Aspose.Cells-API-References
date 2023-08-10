@@ -7,7 +7,7 @@ url: /net/aspose.cells.gridjs/gridjsworkbook/calculateengine/
 ---
 ## GridJsWorkbook.CalculateEngine field
 
-Custom implemention for calculation engine ,If you want to do custom calculation, you need to set and implement it
+Custom implemention for calculation engine ,If you want to do custom calculation, you need to set and implement it.
 
 ```csharp
 public static GridAbstractCalculationEngine CalculateEngine;

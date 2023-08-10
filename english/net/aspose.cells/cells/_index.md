@@ -89,7 +89,8 @@ public class Cells : IDisposable, IEnumerable
 | [DeleteColumn](../../aspose.cells/cells/deletecolumn/#deletecolumn_1)(int, bool) | Deletes a column. |
 | [DeleteColumns](../../aspose.cells/cells/deletecolumns/)(int, int, bool) | Deletes several columns. |
 | [DeleteRange](../../aspose.cells/cells/deleterange/)(int, int, int, int, ShiftType) | Deletes a range of cells and shift cells according to the shift option. |
-| [DeleteRow](../../aspose.cells/cells/deleterow/)(int) | Deletes a row. |
+| [DeleteRow](../../aspose.cells/cells/deleterow/#deleterow)(int) | Deletes a row. |
+| [DeleteRow](../../aspose.cells/cells/deleterow/#deleterow_1)(int, bool) | Deletes a row. |
 | [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows)(int, int) | Deletes several rows. |
 | [DeleteRows](../../aspose.cells/cells/deleterows/#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
 | [Dispose](../../aspose.cells/cells/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |

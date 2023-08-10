@@ -7,7 +7,7 @@ url: /net/aspose.cells.gridjs/gridjsworkbook/cacheimp/
 ---
 ## GridJsWorkbook.CacheImp field
 
-Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it
+Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it.
 
 ```csharp
 public static GridCacheForStream CacheImp;

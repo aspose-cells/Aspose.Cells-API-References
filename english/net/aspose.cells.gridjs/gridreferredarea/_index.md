@@ -19,7 +19,7 @@ public class GridReferredArea
 | --- | --- |
 | [EndColumn](../../aspose.cells.gridjs/gridreferredarea/endcolumn/) { get; } | The end column of the area. |
 | [EndRow](../../aspose.cells.gridjs/gridreferredarea/endrow/) { get; } | The end row of the area. |
-| [ExternalFileName](../../aspose.cells.gridjs/gridreferredarea/externalfilename/) { get; } | this.KeepedRels = source.KeepedRels; |
+| [ExternalFileName](../../aspose.cells.gridjs/gridreferredarea/externalfilename/) { get; } | Get the external file name if this is an external reference. |
 | [IsArea](../../aspose.cells.gridjs/gridreferredarea/isarea/) { get; } | Indicates whether this is an area. |
 | [IsExternalLink](../../aspose.cells.gridjs/gridreferredarea/isexternallink/) { get; } | Indicates whether this is an external link. |
 | [SheetName](../../aspose.cells.gridjs/gridreferredarea/sheetname/) { get; } | Indicates which sheet this is in |

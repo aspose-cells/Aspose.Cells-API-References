@@ -15,8 +15,8 @@ public void DeleteColumn(int columnIndex, bool updateReference)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | Int32 | Column index. |
-| updateReference | Boolean | Indicates if update references in other worksheets. |
+| columnIndex | Int32 | Index of the column to be deleted. |
+| updateReference | Boolean | Indicates whether update references in other worksheets. |
 
 ### See Also
 
@@ -36,7 +36,7 @@ public void DeleteColumn(int columnIndex)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnIndex | Int32 | Column index. |
+| columnIndex | Int32 | Index of the column to be deleted. |
 
 ### See Also
 

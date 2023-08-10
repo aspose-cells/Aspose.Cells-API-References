@@ -15,11 +15,15 @@ public object GetParamValue(int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | index of the parameter(0 based) |
+| index | Int32 | The index of the parameter(0 based) |
 
 ### Return Value
 
-If the parameter is plain value, then returns the plain value. If the parameter is reference, then returns ReferredArea object. If the parameter references to multiple datasets, then returns array of objects.
+The calculated value of the parameter.
+
+### Remarks
+
+For one parameter: If it is plain value, then returns the plain value itself; If it is reference, then returns ReferredArea object; If it references to dataset(s) with multiple values, then returns array of objects; If it is some kind of expression that needs to be calculated, then it will be calculated in value mode and generally a single value will be returned according to current cell base. For example, if one parameter of D2's formula is A:A+B:B, then A2+B2 will be calculated and returned.
 
 ### See Also
 
