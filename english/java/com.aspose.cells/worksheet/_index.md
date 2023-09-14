@@ -54,12 +54,15 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [autoFitRows(int startRow, int endRow, AutoFitterOptions options)](#autoFitRows-int-int-com.aspose.cells.AutoFitterOptions-) | Autofits row height in a range. |
 | [calculateArrayFormula(String formula, CalculationOptions opts)](#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-) | Calculates a formula as array formula. |
 | [calculateArrayFormula(String formula, CalculationOptions opts, int maxRowCount, int maxColumnCount)](#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-int-int-) | Calculates a formula as array formula. |
+| [calculateArrayFormula(String formula, FormulaParseOptions pOpts, CalculationOptions cOpts, int baseCellRow, int baseCellColumn, int maxRowCount, int maxColumnCount, CalculationData calculationData)](#calculateArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-com.aspose.cells.CalculationOptions-int-int-int-int-com.aspose.cells.CalculationData-) | Calculates a formula as array formula. |
 | [calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)](#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(CalculationOptions options, boolean recursive)](#calculateFormula-com.aspose.cells.CalculationOptions-boolean-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(String formula)](#calculateFormula-java.lang.String-) | Calculates a formula. |
 | [calculateFormula(String formula, CalculationOptions opts)](#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) | Calculates a formula expression directly. |
+| [calculateFormula(String formula, FormulaParseOptions pOpts, CalculationOptions cOpts, int baseCellRow, int baseCellColumn, CalculationData calculationData)](#calculateFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-com.aspose.cells.CalculationOptions-int-int-com.aspose.cells.CalculationData-) | Calculates a formula expression directly. |
 | [clearComments()](#clearComments--) | Clears all comments in designer spreadsheet. |
 | [closeAccessCache(int opts)](#closeAccessCache-int-) | Closes the session that uses caches to access the data in this worksheet. |
+| [convertFormulaReferenceStyle(String formula, boolean toR1C1, int baseCellRow, int baseCellColumn)](#convertFormulaReferenceStyle-java.lang.String-boolean-int-int-) | Converts the formula reference style. |
 | [copy(Worksheet sourceSheet)](#copy-com.aspose.cells.Worksheet-) | Copies contents and formats from another worksheet. |
 | [copy(Worksheet sourceSheet, CopyOptions copyOptions)](#copy-com.aspose.cells.Worksheet-com.aspose.cells.CopyOptions-) | Copies contents and formats from another worksheet. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
@@ -504,16 +507,46 @@ public Object[][] calculateArrayFormula(String formula, CalculationOptions opts,
 
 Calculates a formula as array formula.
 
+**Remarks**
+
+The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | formula | java.lang.String | Formula to be calculated. |
 | opts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculating formula |
 | maxRowCount | int | the maximum row count of resultant data. If it is non-positive or greater than the actual row count, then actual row count will be used. |
-| maxColumnCount | int | the maximum column count of resultant data. If it is non-positive or greater than the actual row count, then actual column count will be used. Calculated formula result. The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration. |
+| maxColumnCount | int | the maximum column count of resultant data. If it is non-positive or greater than the actual row count, then actual column count will be used. |
 
 **Returns:**
-java.lang.Object[][]
+java.lang.Object[][] - Calculated formula result.
+### calculateArrayFormula(String formula, FormulaParseOptions pOpts, CalculationOptions cOpts, int baseCellRow, int baseCellColumn, int maxRowCount, int maxColumnCount, CalculationData calculationData) {#calculateArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-com.aspose.cells.CalculationOptions-int-int-int-int-com.aspose.cells.CalculationData-}
+```
+public Object[][] calculateArrayFormula(String formula, FormulaParseOptions pOpts, CalculationOptions cOpts, int baseCellRow, int baseCellColumn, int maxRowCount, int maxColumnCount, CalculationData calculationData)
+```
+
+
+Calculates a formula as array formula.
+
+**Remarks**
+
+The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | Formula to be calculated. |
+| pOpts | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing formula |
+| cOpts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculating formula |
+| baseCellRow | int | The row index of the base cell. |
+| baseCellColumn | int | The column index of the base cell. |
+| maxRowCount | int | The maximum row count of resultant data. If it is non-positive or greater than the actual row count, then actual row count will be used. |
+| maxColumnCount | int | The maximum column count of resultant data. If it is non-positive or greater than the actual row count, then actual column count will be used. |
+| calculationData | [CalculationData](../../com.aspose.cells/calculationdata) | The calculation data. It is used for the situation that user needs to calculate some static formulas when implementing custom calculation engine. For such kind of situation, user needs to specify it with the calculation data provided for [AbstractCalculationEngine.calculate(CalculationData)](../../com.aspose.cells/abstractcalculationengine\#calculate-CalculationData-). |
+
+**Returns:**
+java.lang.Object[][] - Calculated formula result.
 ### calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction) {#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-}
 ```
 public void calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)
@@ -582,6 +615,30 @@ The formula will be calculated just like it has been set to cell A1. And the for
 
 **Returns:**
 java.lang.Object - Calculated result of given formula. The returned object may be of possible types of [Cell.getValue()](../../com.aspose.cells/cell\#getValue--), or ReferredArea.
+### calculateFormula(String formula, FormulaParseOptions pOpts, CalculationOptions cOpts, int baseCellRow, int baseCellColumn, CalculationData calculationData) {#calculateFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-com.aspose.cells.CalculationOptions-int-int-com.aspose.cells.CalculationData-}
+```
+public Object calculateFormula(String formula, FormulaParseOptions pOpts, CalculationOptions cOpts, int baseCellRow, int baseCellColumn, CalculationData calculationData)
+```
+
+
+Calculates a formula expression directly.
+
+**Remarks**
+
+The formula will be calculated just like it has been set to the specified base cell. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [calculateArrayFormula(String,FormulaParseOptions,CalculationOptions,int,int,int,int,CalculationData)](../../com.aspose.cells/worksheet\#calculateArrayFormula-String-FormulaParseOptions-CalculationOptions-int-int-int-int-CalculationData-) instead.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | Formula to be calculated. |
+| pOpts | [FormulaParseOptions](../../com.aspose.cells/formulaparseoptions) | Options for parsing formula. |
+| cOpts | [CalculationOptions](../../com.aspose.cells/calculationoptions) | Options for calculating formula. |
+| baseCellRow | int | The row index of the base cell. |
+| baseCellColumn | int | The column index of the base cell. |
+| calculationData | [CalculationData](../../com.aspose.cells/calculationdata) | The calculation data. It is used for the situation that user needs to calculate some static formulas when implementing custom calculation engine. For such kind of situation, user needs to specify it with the calculation data provided for [AbstractCalculationEngine.calculate(CalculationData)](../../com.aspose.cells/abstractcalculationengine\#calculate-CalculationData-). |
+
+**Returns:**
+java.lang.Object - Calculated result of given formula. The returned object may be of possible types of [Cell.getValue()](../../com.aspose.cells/cell\#getValue--), or ReferredArea.
 ### clearComments() {#clearComments--}
 ```
 public void clearComments()
@@ -603,6 +660,24 @@ Closes the session that uses caches to access the data in this worksheet.
 | --- | --- | --- |
 | opts | int | [AccessCacheOptions](../../com.aspose.cells/accesscacheoptions). options of data access |
 
+### convertFormulaReferenceStyle(String formula, boolean toR1C1, int baseCellRow, int baseCellColumn) {#convertFormulaReferenceStyle-java.lang.String-boolean-int-int-}
+```
+public String convertFormulaReferenceStyle(String formula, boolean toR1C1, int baseCellRow, int baseCellColumn)
+```
+
+
+Converts the formula reference style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | java.lang.String | The formula to be converted. |
+| toR1C1 | boolean | Which reference style to convert the formula to. If the original formula is of A1 reference style, then this value should be true so the formula will be converted from A1 to R1C1 reference style; If the original formula is of R1C1 reference style, then this value should be false so the formula will be converted from R1C1 to A1 reference style; |
+| baseCellRow | int | The row index of the base cell. |
+| baseCellColumn | int | The column index of the base cell. |
+
+**Returns:**
+java.lang.String - The converted formula.
 ### copy(Worksheet sourceSheet) {#copy-com.aspose.cells.Worksheet-}
 ```
 public void copy(Worksheet sourceSheet)

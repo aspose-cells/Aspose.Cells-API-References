@@ -147,6 +147,10 @@ public static String convertA1FormulaToR1C1(String formula, int row, int column)
 
 Converts A1 formula of the cell to the r1c1 formula.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaReferenceStyle() method. This property will be removed 12 months later since August 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -163,6 +167,10 @@ public static String convertR1C1FormulaToA1(String r1c1Formula, int row, int col
 
 
 Converts the r1c1 formula of the cell to A1 formula.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaReferenceStyle() method. This property will be removed 12 months later since August 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

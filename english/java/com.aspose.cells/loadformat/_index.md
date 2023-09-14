@@ -19,6 +19,7 @@ Represents the load file format.
 | --- | --- |
 | [AUTO](#AUTO) | Represents recognizing the format automatically. |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
+| [EPUB](#EPUB) | Reprents an EPUB file. |
 | [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Represents an Excel97-2003 xls file. |
 | [FODS](#FODS) | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
 | [HTML](#HTML) | Represents a html file. |
@@ -64,6 +65,14 @@ public static final int CSV
 
 
 Comma-Separated Values(CSV) text file.
+
+### EPUB {#EPUB}
+```
+public static final int EPUB
+```
+
+
+Reprents an EPUB file.
 
 ### EXCEL_97_TO_2003 {#EXCEL-97-TO-2003}
 ```

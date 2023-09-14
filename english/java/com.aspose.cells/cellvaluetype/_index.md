@@ -19,7 +19,7 @@ Specifies a cell value type.
 | --- | --- |
 | [IS_BOOL](#IS-BOOL) | Cell value is boolean. |
 | [IS_DATE_TIME](#IS-DATE-TIME) | Cell value is datetime. |
-| [IS_ERROR](#IS-ERROR) | Cell contains error value |
+| [IS_ERROR](#IS-ERROR) | Cell contains error value. |
 | [IS_NULL](#IS-NULL) | Blank cell. |
 | [IS_NUMERIC](#IS-NUMERIC) | Cell value is numeric. |
 | [IS_STRING](#IS-STRING) | Cell value is string. |
@@ -43,7 +43,7 @@ public static final int IS_BOOL
 ```
 
 
-Cell value is boolean.
+Cell value is boolean. Corresponding value must be bool.
 
 ### IS_DATE_TIME {#IS-DATE-TIME}
 ```
@@ -51,7 +51,7 @@ public static final int IS_DATE_TIME
 ```
 
 
-Cell value is datetime.
+Cell value is datetime. Corresponding value must be DateTime.
 
 ### IS_ERROR {#IS-ERROR}
 ```
@@ -59,7 +59,7 @@ public static final int IS_ERROR
 ```
 
 
-Cell contains error value
+Cell contains error value. Corresponding value must be error string.
 
 ### IS_NULL {#IS-NULL}
 ```
@@ -67,7 +67,7 @@ public static final int IS_NULL
 ```
 
 
-Blank cell.
+Blank cell. Corresponding value should be null.
 
 ### IS_NUMERIC {#IS-NUMERIC}
 ```
@@ -75,7 +75,7 @@ public static final int IS_NUMERIC
 ```
 
 
-Cell value is numeric.
+Cell value is numeric. Corresponding value must be int or double.
 
 ### IS_STRING {#IS-STRING}
 ```
@@ -83,7 +83,7 @@ public static final int IS_STRING
 ```
 
 
-Cell value is string.
+Cell value is string. Corresponding value must be string.
 
 ### IS_UNKNOWN {#IS-UNKNOWN}
 ```

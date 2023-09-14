@@ -78,7 +78,6 @@ Encapsulates the object that represents a single data series in a chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Represents the background area of Series object. |
 | [getBar3DShapeType()](#getBar3DShapeType--) | Gets the 3D shape type used with the 3-D bar or column chart. |
-| [getBarShape()](#getBarShape--) | Gets the 3D shape type used with the 3-D bar or column chart. |
 | [getBorder()](#getBorder--) | Represents border of Series object. |
 | [getBubbleScale()](#getBubbleScale--) | Gets the scale factor for bubbles in the specified chart group. |
 | [getBubbleSizeRepresents()](#getBubbleSizeRepresents--) | Gets what the bubble size represents on a bubble chart. |
@@ -129,18 +128,19 @@ Encapsulates the object that represents a single data series in a chart.
 | [hashCode()](#hashCode--) |  |
 | [isAutoSplit()](#isAutoSplit--) | Indicates whether the threshold value is automatic. |
 | [isColorVaried()](#isColorVaried--) | Represents if the color of points is varied. |
+| [isFiltered()](#isFiltered--) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
 | [isVerticalValues()](#isVerticalValues--) | Indicates whether the data source is vertical. |
 | [move(int count)](#move-int-) | Moves the series up or down. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBar3DShapeType(int value)](#setBar3DShapeType-int-) | Sets the 3D shape type used with the 3-D bar or column chart. |
-| [setBarShape(int value)](#setBarShape-int-) | Sets the 3D shape type used with the 3-D bar or column chart. |
 | [setBubbleScale(int value)](#setBubbleScale-int-) | Sets the scale factor for bubbles in the specified chart group. |
 | [setBubbleSizeRepresents(int value)](#setBubbleSizeRepresents-int-) | Gets what the bubble size represents on a bubble chart. |
 | [setBubbleSizes(String value)](#setBubbleSizes-java.lang.String-) | Sets the bubble sizes values of the chart series. |
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Represents if the color of points is varied. |
 | [setDoughnutHoleSize(int value)](#setDoughnutHoleSize-int-) | Returns or sets the size of the hole in a doughnut chart group. |
 | [setExplosion(int value)](#setExplosion-int-) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
+| [setFiltered(boolean value)](#setFiltered-boolean-) | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
 | [setFirstSliceAngle(short value)](#setFirstSliceAngle-short-) | Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
 | [setGapWidth(short value)](#setGapWidth-short-) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. |
 | [setHas3DEffect(boolean value)](#setHas3DEffect-boolean-) | True if the series has a three-dimensional appearance. |
@@ -202,22 +202,6 @@ public int getBar3DShapeType()
 Gets the 3D shape type used with the 3-D bar or column chart.
 
 See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
-
-**Returns:**
-int
-### getBarShape() {#getBarShape--}
-```
-public int getBarShape()
-```
-
-
-Gets the 3D shape type used with the 3-D bar or column chart.
-
-See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -751,6 +735,16 @@ Represents if the color of points is varied. The chart must contain only one ser
 
 **Returns:**
 boolean
+### isFiltered() {#isFiltered--}
+```
+public boolean isFiltered()
+```
+
+
+Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+
+**Returns:**
+boolean
 ### isVerticalValues() {#isVerticalValues--}
 ```
 public boolean isVerticalValues()
@@ -799,25 +793,6 @@ public void setBar3DShapeType(int value)
 Sets the 3D shape type used with the 3-D bar or column chart.
 
 See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setBarShape(int value) {#setBarShape-int-}
-```
-public void setBarShape(int value)
-```
-
-
-Sets the 3D shape type used with the 3-D bar or column chart.
-
-See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use ASeries.Bar3DShapeType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,6 +882,19 @@ The distance of an open pie slice from the center of the pie chart is expressed 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setFiltered(boolean value) {#setFiltered-boolean-}
+```
+public void setFiltered(boolean value)
+```
+
+
+Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setFirstSliceAngle(short value) {#setFirstSliceAngle-short-}
 ```

@@ -90,7 +90,7 @@ Represents the options for saving html file.
 | [isExpImageToTempDir()](#isExpImageToTempDir--) | Indicates whether exporting image files to temp directory. |
 | [isExportComments()](#isExportComments--) | Indicates if exporting comments when saving file to html, the default value is false. |
 | [isFullPathLink()](#isFullPathLink--) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
-| [isIECompatible()](#isIECompatible--) | Indicating whether IE 10 and earlier versions are supported. |
+| [isIECompatible()](#isIECompatible--) | Indicating whether the output HTML is compatible with IE browser. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAddTooltipText(boolean value)](#setAddTooltipText-boolean-) | Indicates whether adding tooltip text when the data can't be fully displayed. |
@@ -135,7 +135,7 @@ Represents the options for saving html file.
 | [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
 | [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
 | [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
-| [setIECompatible(boolean value)](#setIECompatible-boolean-) | Indicating whether IE 10 and earlier versions are supported. |
+| [setIECompatible(boolean value)](#setIECompatible-boolean-) | Indicating whether the output HTML is compatible with IE browser. |
 | [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | Indicate whether exporting those not visible shapes |
 | [setImageScalable(boolean value)](#setImageScalable-boolean-) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. |
 | [setLinkTargetType(int value)](#setLinkTargetType-int-) | Indicating the type of target attribute in `<a>` link. |
@@ -928,7 +928,7 @@ public boolean isIECompatible()
 ```
 
 
-Indicating whether IE 10 and earlier versions are supported. The defalut value is false
+Indicating whether the output HTML is compatible with IE browser. The defalut value is false
 
 **Returns:**
 boolean
@@ -1538,7 +1538,7 @@ public void setIECompatible(boolean value)
 ```
 
 
-Indicating whether IE 10 and earlier versions are supported. The defalut value is false
+Indicating whether the output HTML is compatible with IE browser. The defalut value is false
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -26,6 +26,7 @@ Represents the file format types.
 | [DOTM](#DOTM) | Represents a dotm file. |
 | [DOTX](#DOTX) | Represents a dotx file. |
 | [EMF](#EMF) | Windows Enhanced Metafile. |
+| [EPUB](#EPUB) | EPUB |
 | [EXCEL_2](#EXCEL-2) | Represents an Excel2.1 xls file. |
 | [EXCEL_3](#EXCEL-3) | Represents an Excel3.0 xls file. |
 | [EXCEL_4](#EXCEL-4) | Represents an Excel4.0 xls file. |
@@ -197,6 +198,14 @@ public static final int EMF
 
 Windows Enhanced Metafile.
 
+### EPUB {#EPUB}
+```
+public static final int EPUB
+```
+
+
+EPUB
+
 ### EXCEL_2 {#EXCEL-2}
 ```
 public static final int EXCEL_2
@@ -364,6 +373,10 @@ public static final int NUMBERS
 
 
 Represents Numbers 9.0 file format by Apple Inc.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [NUMBERS\_09](../../com.aspose.cells/fileformattype\#NUMBERS-09) property. This property will be removed 6 months later since June 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### NUMBERS_09 {#NUMBERS-09}
 ```

@@ -24,6 +24,7 @@ Represents a Workbook render. The constructor of this class , must be used after
 
 | Method | Description |
 | --- | --- |
+| [dispose()](#dispose--) | Releases resources created and used for rendering. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getPageCount()](#getPageCount--) | Gets the total page count of workbook. |
@@ -56,6 +57,14 @@ The construct of WorkbookRender
 | --- | --- | --- |
 | workbook | [Workbook](../../com.aspose.cells/workbook) | Indicate which workbook to be rendered. |
 | options | [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) | ImageOrPrintOptions contains some property of output image |
+
+### dispose() {#dispose--}
+```
+public void dispose()
+```
+
+
+Releases resources created and used for rendering.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

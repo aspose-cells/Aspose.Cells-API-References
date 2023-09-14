@@ -28,12 +28,16 @@ Represents all custom table styles.
 | [getBuiltinTableStyle(int type)](#getBuiltinTableStyle-int-) | Gets the builtin table style |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
+| [getDefaultPivotStyleName()](#getDefaultPivotStyleName--) | Gets the default style name of pivot table . |
+| [getDefaultTableStyleName()](#getDefaultTableStyleName--) | Gets the default style name of the table. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
+| [setDefaultPivotStyleName(String value)](#setDefaultPivotStyleName-java.lang.String-) | Sets the default style name of pivot table . |
+| [setDefaultTableStyleName(String value)](#setDefaultTableStyleName-java.lang.String-) | Sets the default style name of the table. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -186,6 +190,26 @@ Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
 int - The number of elements contained in the CollectionBase instance.
+### getDefaultPivotStyleName() {#getDefaultPivotStyleName--}
+```
+public String getDefaultPivotStyleName()
+```
+
+
+Gets the default style name of pivot table .
+
+**Returns:**
+java.lang.String
+### getDefaultTableStyleName() {#getDefaultTableStyleName--}
+```
+public String getDefaultTableStyleName()
+```
+
+
+Gets the default style name of the table.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -249,6 +273,32 @@ Removes the item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
+
+### setDefaultPivotStyleName(String value) {#setDefaultPivotStyleName-java.lang.String-}
+```
+public void setDefaultPivotStyleName(String value)
+```
+
+
+Sets the default style name of pivot table .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setDefaultTableStyleName(String value) {#setDefaultTableStyleName-java.lang.String-}
+```
+public void setDefaultTableStyleName(String value)
+```
+
+
+Sets the default style name of the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### toString() {#toString--}
 ```

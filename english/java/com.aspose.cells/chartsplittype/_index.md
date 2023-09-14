@@ -43,6 +43,10 @@ public static final int AUTO
 
 Represents the data points shall be split using the default mechanism for this chart type.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Series.IsAutoSplit property. This property will be removed 12 months later since September 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 ### CUSTOM {#CUSTOM}
 ```
 public static final int CUSTOM

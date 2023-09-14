@@ -67,6 +67,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Cell](../com.aspose.cells/cell) | Encapsulates the object that represents a single Workbook cell. |
 | [CellArea](../com.aspose.cells/cellarea) | Represent an area of cells. |
 | [CellBorderType](../com.aspose.cells/cellbordertype) | Enumerates a cell's border type. |
+| [CellValue](../com.aspose.cells/cellvalue) | Represents the cell value and corresponding type. |
 | [CellValueFormatStrategy](../com.aspose.cells/cellvalueformatstrategy) | Specifies how to apply style for the value of the cell. |
 | [CellValueType](../com.aspose.cells/cellvaluetype) | Specifies a cell value type. |
 | [CellWatch](../com.aspose.cells/cellwatch) | Represents Cell Watch Item in the 'watch window'. |
@@ -147,6 +148,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CustomDocumentPropertyCollection](../com.aspose.cells/customdocumentpropertycollection) | A collection of custom document properties. |
 | [CustomFilter](../com.aspose.cells/customfilter) | Represents the custom filter. |
 | [CustomFilterCollection](../com.aspose.cells/customfiltercollection) | Represents the custom filters. |
+| [CustomFunctionDefinition](../com.aspose.cells/customfunctiondefinition) | Definition of custom function for calculating with user's custom engine. |
 | [CustomGeometry](../com.aspose.cells/customgeometry) | Represents a custom geometric shape. |
 | [CustomImplementationFactory](../com.aspose.cells/customimplementationfactory) | Factory to create some instances which may be re-implemented by user for special purpose. |
 | [CustomProperty](../com.aspose.cells/customproperty) | Represents identifier information. |
@@ -196,6 +198,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DxfCollection](../com.aspose.cells/dxfcollection) | Represents the master differential formatting records. |
 | [DynamicFilter](../com.aspose.cells/dynamicfilter) | Represents the dynamic filter. |
 | [DynamicFilterType](../com.aspose.cells/dynamicfiltertype) | Dynamic filter type. |
+| [EbookLoadOptions](../com.aspose.cells/ebookloadoptions) | Represents options when importing an ebook file. |
+| [EbookSaveOptions](../com.aspose.cells/ebooksaveoptions) | Represents the options for saving ebook file. |
 | [EmfRenderSetting](../com.aspose.cells/emfrendersetting) | Setting for rendering Emf metafile. |
 | [Encoding](../com.aspose.cells/encoding) | Represents a character encoding. |
 | [EncryptionType](../com.aspose.cells/encryptiontype) | Encryption Type. |
@@ -421,7 +425,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PdfFontEncoding](../com.aspose.cells/pdffontencoding) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](../com.aspose.cells/pdfoptimizationtype) | Specifies a type of optimization. |
 | [PdfSaveOptions](../com.aspose.cells/pdfsaveoptions) | Represents the options for saving pdf file. |
-| [PdfSecurityOptions](../com.aspose.cells/pdfsecurityoptions) | Settings of pdf when converting excel to pdf, PDF/A does not allow security setting. |
+| [PdfSecurityOptions](../com.aspose.cells/pdfsecurityoptions) | Options for encrypting and access permissions for a PDF document. |
 | [PicFormatOption](../com.aspose.cells/picformatoption) | Represents picture format option |
 | [Picture](../com.aspose.cells/picture) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [PictureBulletValue](../com.aspose.cells/picturebulletvalue) | Represents the value of the image bullet. |

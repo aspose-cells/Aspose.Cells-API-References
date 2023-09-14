@@ -108,7 +108,7 @@ Represents a field in a PivotTable report.
 | [getPivotItems()](#getPivotItems--) | Gets the pivot items of the pivot field |
 | [getPosition()](#getPosition--) | Represents the PivotField index in the PivotFields. |
 | [getRange()](#getRange--) | Gets the group range of the pivot field |
-| [getShowAllItems()](#getShowAllItems--) | Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. |
+| [getShowAllItems()](#getShowAllItems--) | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. |
 | [getShowCompact()](#getShowCompact--) | Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether layout this field in outline form on the Pivot Table view |
 | [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
@@ -162,7 +162,7 @@ Represents a field in a PivotTable report.
 | [setNumber(int value)](#setNumber-int-) | Represents the built-in display format of numbers and dates. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the custom display format of numbers and dates. |
 | [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | indicates whether the field can repeat items labels The default value is false. |
-| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. |
+| [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. |
 | [setShowCompact(boolean value)](#setShowCompact-boolean-) | Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Indicates whether layout this field in outline form on the Pivot Table view |
 | [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
@@ -531,7 +531,7 @@ public boolean getShowAllItems()
 ```
 
 
-Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. show items with no data The default value is false.
+Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
 
 **Returns:**
 boolean
@@ -1188,7 +1188,7 @@ public void setShowAllItems(boolean value)
 ```
 
 
-Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. show items with no data The default value is false.
+Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

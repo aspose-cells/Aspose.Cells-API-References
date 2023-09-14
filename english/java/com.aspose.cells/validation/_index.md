@@ -55,6 +55,7 @@ Represents data validation.settings.
 | [getShowError()](#getShowError--) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
 | [getShowInput()](#getShowInput--) | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
 | [getType()](#getType--) | Represents the data validation type. |
+| [getValue(int row, int column, boolean isValue1)](#getValue-int-int-boolean-) | Get the value of validation on the specific cell. |
 | [getValue1()](#getValue1--) | Represents the first value associated with the data validation. |
 | [getValue2()](#getValue2--) | Represents the second value associated with the data validation. |
 | [hashCode()](#hashCode--) |  |
@@ -412,6 +413,23 @@ See [ValidationType](../../com.aspose.cells/validationtype).
 
 **Returns:**
 int
+### getValue(int row, int column, boolean isValue1) {#getValue-int-int-boolean-}
+```
+public Object getValue(int row, int column, boolean isValue1)
+```
+
+
+Get the value of validation on the specific cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | The row index. |
+| column | int | The column index. |
+| isValue1 | boolean | Indicates whether getting the first value. |
+
+**Returns:**
+java.lang.Object - 
 ### getValue1() {#getValue1--}
 ```
 public Object getValue1()

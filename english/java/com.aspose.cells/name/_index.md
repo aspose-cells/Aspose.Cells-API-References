@@ -95,7 +95,7 @@ public String getComment()
 ```
 
 
-Gets the comment of the name. Only applies for Excel 2007.
+Gets the comment of the name. Only applies for Excel 2007 or higher versions.
 
 **Returns:**
 java.lang.String
@@ -317,7 +317,7 @@ public void setComment(String value)
 ```
 
 
-Sets the comment of the name. Only applies for Excel 2007.
+Sets the comment of the name. Only applies for Excel 2007 or higher versions.
 
 **Parameters:**
 | Parameter | Type | Description |

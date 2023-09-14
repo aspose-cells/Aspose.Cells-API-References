@@ -77,6 +77,7 @@ Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [refreshAll()](#refreshAll--) | Refresh all pivot tables and charts with pivot source. |
 | [refreshPivotTables()](#refreshPivotTables--) | Refreshes all the PivotTables in the WorksheetCollection. |
 | [registerAddInFunction(int id, String functionName)](#registerAddInFunction-int-java.lang.String-) | Adds addin function into the workbook |
 | [registerAddInFunction(String addInFile, String functionName, boolean lib)](#registerAddInFunction-java.lang.String-java.lang.String-boolean-) | Adds addin function into the workbook |
@@ -717,6 +718,14 @@ public final native void notifyAll()
 
 
 
+
+### refreshAll() {#refreshAll--}
+```
+public void refreshAll()
+```
+
+
+Refresh all pivot tables and charts with pivot source.
 
 ### refreshPivotTables() {#refreshPivotTables--}
 ```

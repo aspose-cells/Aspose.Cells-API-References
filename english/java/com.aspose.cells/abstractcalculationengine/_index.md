@@ -147,11 +147,11 @@ public boolean isParamArrayModeRequired()
 ```
 
 
-Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.getParamValueInArrayMode(int,int,int)](../../com.aspose.cells/calculationdata\#getParamValueInArrayMode-int-int-int-) is required when calculating custom functions, this property needs to be set as true.
+Indicates whether this engine needs the parameter to be calculated in array mode. Default value is false. If [CalculationData.getParamValueInArrayMode(int,int,int)](../../com.aspose.cells/calculationdata\#getParamValueInArrayMode-int-int-int-) is required when calculating custom functions and user has not updated the definition for them (by [Workbook.updateCustomFunctionDefinition(CustomFunctionDefinition)](../../com.aspose.cells/workbook\#updateCustomFunctionDefinition-CustomFunctionDefinition-)), this property needs to be set as true.
 
 **Remarks**
 
-If this custom calculation engine needs the parameter to be calculated in array mode, more stacks will be required to cache the tree for parameters and Calculate() method may be called recursively to calculate the parameter's value. For performance consideration, if no special requirement, please keep this property as the default value(false).
+If this custom calculation engine needs the parameter to be calculated in array mode, more stacks will be required to cache the tree for parameters and Calculate() method may be called recursively to calculate the parameter's value. For performance consideration, please keep this property as the default value(false) if there is no special requirement.
 
 **Returns:**
 boolean

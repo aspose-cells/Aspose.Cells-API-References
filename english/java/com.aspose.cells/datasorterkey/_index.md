@@ -67,7 +67,7 @@ Gets the sorted color.
 
 **Remarks**
 
-Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.CELL\_COLOR](../../com.aspose.cells/sortontype\#CELL-COLOR) or [SortOnType.FONT\_COLOR](../../com.aspose.cells/sortontype\#FONT-COLOR).
+Only takes effect when [CellValue.getType()](../../com.aspose.cells/cellvalue\#getType--) is [SortOnType.CELL\_COLOR](../../com.aspose.cells/sortontype\#CELL-COLOR) or [SortOnType.FONT\_COLOR](../../com.aspose.cells/sortontype\#FONT-COLOR).
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
@@ -81,7 +81,7 @@ Represents the id of the icon set type.
 
 **Remarks**
 
-Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
+Only takes effect when [CellValue.getType()](../../com.aspose.cells/cellvalue\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
 
 **Returns:**
 int
@@ -97,7 +97,7 @@ See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Remarks**
 
-Only takes effect when [getType()](../../com.aspose.cells/datasorterkey\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
+Only takes effect when [CellValue.getType()](../../com.aspose.cells/cellvalue\#getType--) is [SortOnType.ICON](../../com.aspose.cells/sortontype\#ICON).
 
 **Returns:**
 int

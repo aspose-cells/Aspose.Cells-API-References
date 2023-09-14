@@ -23,6 +23,7 @@ Represents the format in which the workbook is saved.
 | [DIF](#DIF) | Data Interchange Format. |
 | [DOCX](#DOCX) | Represents .docx file. |
 | [EMF](#EMF) | Windows Enhanced Metafile. |
+| [EPUB](#EPUB) | Represents Epub file. |
 | [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Represents an Excel97-2003 xls file. |
 | [FODS](#FODS) | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
 | [GIF](#GIF) | Gif |
@@ -115,6 +116,14 @@ public static final int EMF
 
 
 Windows Enhanced Metafile.
+
+### EPUB {#EPUB}
+```
+public static final int EPUB
+```
+
+
+Represents Epub file.
 
 ### EXCEL_97_TO_2003 {#EXCEL-97-TO-2003}
 ```

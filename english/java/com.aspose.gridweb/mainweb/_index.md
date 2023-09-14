@@ -83,6 +83,7 @@ Parent class of GridWeb control.Internal use only.
 | [getCustomCalculationEngine()](#getCustomCalculationEngine--) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [getCustomCommandButtons()](#getCustomCommandButtons--) |  |
 | [getCustomStyleFileName()](#getCustomStyleFileName--) | Gets the custom style file name. |
+| [getDPI()](#getDPI--) | Gets /Sets the DPI of the machine. |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
 | [getDefaultFontSize()](#getDefaultFontSize--) | Gets the control's default font size. |
 | [getDefaultGridLineColor()](#getDefaultGridLineColor--) | Gets the default grid line's color. |
@@ -232,6 +233,7 @@ Parent class of GridWeb control.Internal use only.
 | [setCustomCalculationEngine(GridAbstractCalculationEngine value)](#setCustomCalculationEngine-com.aspose.gridweb.GridAbstractCalculationEngine-) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomStyle(InputStream stream)](#setCustomStyle-java.io.InputStream-) | sets the custom style file from stream including disk file stream or memory stream. |
 | [setCustomStyleFileName(String value)](#setCustomStyleFileName-java.lang.String-) | Sets the custom style file name. |
+| [setDPI(double value)](#setDPI-double-) | Gets /Sets the DPI of the machine. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
 | [setDefaultFontSize(FontUnit value)](#setDefaultFontSize-com.aspose.gridweb.FontUnit-) | Sets the control's default font size. |
 | [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) | Sets the default grid line's color. |
@@ -803,6 +805,18 @@ The custom style file is an XML file. When sets the file name, the file will be 
 
 **Returns:**
 java.lang.String
+### getDPI() {#getDPI--}
+```
+public static double getDPI()
+```
+
+
+Gets /Sets the DPI of the machine.
+
+**Remarks**
+
+**Returns:**
+double
 ### getDefaultFontName() {#getDefaultFontName--}
 ```
 public String getDefaultFontName()
@@ -2669,6 +2683,21 @@ The custom style file is an XML file. When sets the file name, the file will be 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setDPI(double value) {#setDPI-double-}
+```
+public static void setDPI(double value)
+```
+
+
+Gets /Sets the DPI of the machine.
+
+**Remarks**
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
 ```

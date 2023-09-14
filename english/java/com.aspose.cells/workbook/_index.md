@@ -149,6 +149,7 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [toString()](#toString--) |  |
 | [unprotect(String password)](#unprotect-java.lang.String-) | Unprotects a workbook. |
 | [unprotectSharedWorkbook(String password)](#unprotectSharedWorkbook-java.lang.String-) | Unprotects a shared workbook. |
+| [updateCustomFunctionDefinition(CustomFunctionDefinition definition)](#updateCustomFunctionDefinition-com.aspose.cells.CustomFunctionDefinition-) | Updates definition of custom functions. |
 | [updateLinkedDataSource(Workbook[] externalWorkbooks)](#updateLinkedDataSource-com.aspose.cells.Workbook---) | If this workbook contains external links to other data source, Aspose.Cells will attempt to retrieve the latest data from give sources. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -1743,6 +1744,23 @@ Unprotects a shared workbook.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | password | java.lang.String | Password to unprotect the workbook. |
+
+### updateCustomFunctionDefinition(CustomFunctionDefinition definition) {#updateCustomFunctionDefinition-com.aspose.cells.CustomFunctionDefinition-}
+```
+public void updateCustomFunctionDefinition(CustomFunctionDefinition definition)
+```
+
+
+Updates definition of custom functions.
+
+**Remarks**
+
+This method can be used for some special scenarios. For example, if user needs some parameters of some custom functions be calculated in array mode, then user may provide their own definition with implemented [CustomFunctionDefinition.getArrayModeParameters(String)](../../com.aspose.cells/customfunctiondefinition\#getArrayModeParameters-String-) for those functions. After the data of formulas being updated, those specified parameters will be calculated in array mode automatically when calculating corresponding custom functions.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| definition | [CustomFunctionDefinition](../../com.aspose.cells/customfunctiondefinition) | Special definition of custom functions for user's special requirement. |
 
 ### updateLinkedDataSource(Workbook[] externalWorkbooks) {#updateLinkedDataSource-com.aspose.cells.Workbook---}
 ```

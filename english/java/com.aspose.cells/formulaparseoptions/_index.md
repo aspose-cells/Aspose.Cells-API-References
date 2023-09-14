@@ -25,6 +25,7 @@ Represents options when parsing formula.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCheckAddIn()](#getCheckAddIn--) | Whether check addins in existing external links of current workbook for user defined function without external link. |
 | [getClass()](#getClass--) |  |
+| [getCustomFunctionDefinition()](#getCustomFunctionDefinition--) | Definition for parsing custom functions. |
 | [getLocaleDependent()](#getLocaleDependent--) | Whether the formula is locale formatted. |
 | [getParse()](#getParse--) | Whether parse given formula. |
 | [getR1C1Style()](#getR1C1Style--) | Whether the formula is R1C1 reference style. |
@@ -32,6 +33,7 @@ Represents options when parsing formula.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCheckAddIn(boolean value)](#setCheckAddIn-boolean-) | Whether check addins in existing external links of current workbook for user defined function without external link. |
+| [setCustomFunctionDefinition(CustomFunctionDefinition value)](#setCustomFunctionDefinition-com.aspose.cells.CustomFunctionDefinition-) | Definition for parsing custom functions. |
 | [setLocaleDependent(boolean value)](#setLocaleDependent-boolean-) | Whether the formula is locale formatted. |
 | [setParse(boolean value)](#setParse-boolean-) | Whether parse given formula. |
 | [setR1C1Style(boolean value)](#setR1C1Style-boolean-) | Whether the formula is R1C1 reference style. |
@@ -80,6 +82,20 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getCustomFunctionDefinition() {#getCustomFunctionDefinition--}
+```
+public CustomFunctionDefinition getCustomFunctionDefinition()
+```
+
+
+Definition for parsing custom functions.
+
+**Remarks**
+
+For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.updateCustomFunctionDefinition(CustomFunctionDefinition)](../../com.aspose.cells/workbook\#updateCustomFunctionDefinition-CustomFunctionDefinition-) to get the same result.
+
+**Returns:**
+[CustomFunctionDefinition](../../com.aspose.cells/customfunctiondefinition)
 ### getLocaleDependent() {#getLocaleDependent--}
 ```
 public boolean getLocaleDependent()
@@ -148,6 +164,23 @@ Whether check addins in existing external links of current workbook for user def
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setCustomFunctionDefinition(CustomFunctionDefinition value) {#setCustomFunctionDefinition-com.aspose.cells.CustomFunctionDefinition-}
+```
+public void setCustomFunctionDefinition(CustomFunctionDefinition value)
+```
+
+
+Definition for parsing custom functions.
+
+**Remarks**
+
+For some special requirements, such as when calculating custom function in user's custom engine, some parameters of it need to be caculated in array mode, using this property can mark those parameters as array mode when parsing the formula. Otherwise user needs to update those custom functions later by [Workbook.updateCustomFunctionDefinition(CustomFunctionDefinition)](../../com.aspose.cells/workbook\#updateCustomFunctionDefinition-CustomFunctionDefinition-) to get the same result.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CustomFunctionDefinition](../../com.aspose.cells/customfunctiondefinition) |  |
 
 ### setLocaleDependent(boolean value) {#setLocaleDependent-boolean-}
 ```

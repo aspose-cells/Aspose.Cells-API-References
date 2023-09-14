@@ -19,6 +19,8 @@ Represents comment title type while rendering when comment is set to display at 
 | --- | --- |
 | [CELL](#CELL) | Represents comment title cell. |
 | [COMMENT](#COMMENT) | Represents comment title comment. |
+| [NOTE](#NOTE) | Represents comment title note. |
+| [REPLY](#REPLY) | Represents comment title reply. |
 ## Methods
 
 | Method | Description |
@@ -47,6 +49,22 @@ public static final int COMMENT
 
 
 Represents comment title comment.
+
+### NOTE {#NOTE}
+```
+public static final int NOTE
+```
+
+
+Represents comment title note.
+
+### REPLY {#REPLY}
+```
+public static final int REPLY
+```
+
+
+Represents comment title reply.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -59,6 +59,7 @@ The following codes show how to create a chart with .Net codes.
 | [getDepthPercent()](#getDepthPercent--) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
 | [getDisplayNaAsBlank()](#getDisplayNaAsBlank--) | Indicates whether displaying \#N/A as blank value. |
 | [getElevation()](#getElevation--) | Represents the elevation of the 3-D chart view, in degrees. |
+| [getFilteredNSeries()](#getFilteredNSeries--) | Gets a [SeriesCollection](../../com.aspose.cells/seriescollection) collection representing the data series that are filtered in the chart. |
 | [getFirstSliceAngle()](#getFirstSliceAngle--) | Gets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). |
 | [getFloor()](#getFloor--) | Returns a [getFloor()](../../com.aspose.cells/chart\#getFloor--) object that represents the walls of a 3-D chart. |
 | [getGapDepth()](#getGapDepth--) | Gets the distance between the data series in a 3-D chart, as a percentage of the marker width. |
@@ -343,6 +344,16 @@ The chart elevation is the height at which you view the chart, in degrees. The d
 
 **Returns:**
 int
+### getFilteredNSeries() {#getFilteredNSeries--}
+```
+public SeriesCollection getFilteredNSeries()
+```
+
+
+Gets a [SeriesCollection](../../com.aspose.cells/seriescollection) collection representing the data series that are filtered in the chart.
+
+**Returns:**
+[SeriesCollection](../../com.aspose.cells/seriescollection)
 ### getFirstSliceAngle() {#getFirstSliceAngle--}
 ```
 public int getFirstSliceAngle()

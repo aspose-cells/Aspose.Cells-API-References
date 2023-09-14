@@ -13,6 +13,10 @@ public class ExportTableOptions
 ```
 
 Represents all export table options.
+
+**Remarks**
+
+If there are some special requirements about the exporting, such as ignoring error values, user may extend this class to overwrite corresponding apis to achive the goal.
 ## Constructors
 
 | Constructor | Description |
@@ -39,6 +43,7 @@ Represents all export table options.
 | [isVertical()](#isVertical--) | True if a row in Workbook file represents a row in DataTable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [preprocessExportedValue(int cellRow, int cellColumn, CellValue value)](#preprocessExportedValue-int-int-com.aspose.cells.CellValue-) | Preprocess the value of current cell to be exported. |
 | [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | False, Aspose.Cells will set the DataColumn's type by the value type of the first row for performance. |
 | [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | Exports the html string value of the cells to the DataTable. |
 | [setExportAsString(boolean value)](#setExportAsString-boolean-) | Exports the string value of the cells to the DataTable. |
@@ -236,6 +241,27 @@ public final native void notifyAll()
 
 
 
+### preprocessExportedValue(int cellRow, int cellColumn, CellValue value) {#preprocessExportedValue-int-int-com.aspose.cells.CellValue-}
+```
+public boolean preprocessExportedValue(int cellRow, int cellColumn, CellValue value)
+```
+
+
+Preprocess the value of current cell to be exported.
+
+**Remarks**
+
+The row and column index is cell's absolute index in the worksheet, not index in the exported table. User may check the value of current cell in the override implementation of this method, if current cell needs to be replaced with other type and value, here the implementation should set the expected type and value to the CellValue object and return true. By default this method does nothing and returns false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellRow | int | the row index of current cell |
+| cellColumn | int | the column index of cell |
+| value | [CellValue](../../com.aspose.cells/cellvalue) | value and type of current cell |
+
+**Returns:**
+boolean - Whether current cell has been replaced with different type and/or value.
 ### setCheckMixedValueType(boolean value) {#setCheckMixedValueType-boolean-}
 ```
 public void setCheckMixedValueType(boolean value)

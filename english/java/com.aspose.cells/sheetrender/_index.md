@@ -22,6 +22,7 @@ Represents a worksheet render which can render worksheet to various images such 
 
 | Method | Description |
 | --- | --- |
+| [dispose()](#dispose--) | Releases resources created and used for rendering. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getPageCount()](#getPageCount--) | Gets the total page count of current worksheet. |
@@ -54,6 +55,14 @@ the construct of SheetRender, need worksheet and ImageOrPrintOptions as params
 | --- | --- | --- |
 | worksheet | [Worksheet](../../com.aspose.cells/worksheet) | Indicate which spreadsheet to be rendered. |
 | options | [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) | ImageOrPrintOptions contains some property of output image |
+
+### dispose() {#dispose--}
+```
+public void dispose()
+```
+
+
+Releases resources created and used for rendering.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
