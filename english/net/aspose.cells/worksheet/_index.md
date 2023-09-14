@@ -102,13 +102,16 @@ public class Worksheet : IDisposable
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows/#autofitrows_3)(int, int) | Autofits row height in a range. |
 | [AutoFitRows](../../aspose.cells/worksheet/autofitrows/#autofitrows_4)(int, int, AutoFitterOptions) | Autofits row height in a range. |
 | [CalculateArrayFormula](../../aspose.cells/worksheet/calculatearrayformula/#calculatearrayformula)(string, CalculationOptions) | Calculates a formula as array formula. |
-| [CalculateArrayFormula](../../aspose.cells/worksheet/calculatearrayformula/#calculatearrayformula_1)(string, CalculationOptions, int, int) |  |
+| [CalculateArrayFormula](../../aspose.cells/worksheet/calculatearrayformula/#calculatearrayformula_1)(string, CalculationOptions, int, int) | Calculates a formula as array formula. |
+| [CalculateArrayFormula](../../aspose.cells/worksheet/calculatearrayformula/#calculatearrayformula_2)(string, FormulaParseOptions, CalculationOptions, int, int, int, int, CalculationData) | Calculates a formula as array formula. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula)(string) | Calculates a formula. |
-| [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_2)(CalculationOptions, bool) | Calculates all formulas in this worksheet. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_3)(CalculationOptions, bool) | Calculates all formulas in this worksheet. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_1)(string, CalculationOptions) | Calculates a formula expression directly. |
-| [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_3)(bool, bool, ICustomFunction) | (**Obsolete.**) Calculates all formulas in this worksheet. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_4)(bool, bool, ICustomFunction) | (**Obsolete.**) Calculates all formulas in this worksheet. |
+| [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_2)(string, FormulaParseOptions, CalculationOptions, int, int, CalculationData) | Calculates a formula expression directly. |
 | [ClearComments](../../aspose.cells/worksheet/clearcomments/)() | Clears all comments in designer spreadsheet. |
 | [CloseAccessCache](../../aspose.cells/worksheet/closeaccesscache/)(AccessCacheOptions) | Closes the session that uses caches to access the data in this worksheet. |
+| [ConvertFormulaReferenceStyle](../../aspose.cells/worksheet/convertformulareferencestyle/)(string, bool, int, int) | Converts the formula reference style. |
 | [Copy](../../aspose.cells/worksheet/copy/#copy)(Worksheet) | Copies contents and formats from another worksheet. |
 | [Copy](../../aspose.cells/worksheet/copy/#copy_1)(Worksheet, CopyOptions) | Copies contents and formats from another worksheet. |
 | [Dispose](../../aspose.cells/worksheet/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |

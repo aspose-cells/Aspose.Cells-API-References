@@ -15,7 +15,7 @@ public PdfSecurityOptions()
 
 ### Examples
 
-The following code sets hight resolution print permisson for the output pdf.
+The following code sets high resolution print permisson for the output pdf.
 
 ```csharp
 Workbook wb = new Workbook();

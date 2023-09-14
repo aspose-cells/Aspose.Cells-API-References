@@ -1,15 +1,21 @@
 ---
 title: WorksheetCollection.ActiveSheetIndex
 second_title: Aspose.Cells for .NET API Reference
-description: WorksheetCollection property. 
+description: WorksheetCollection property. Represents the index of active worksheet when the spreadsheet is opened
 type: docs
 url: /net/aspose.cells.griddesktop/worksheetcollection/activesheetindex/
 ---
 ## WorksheetCollection.ActiveSheetIndex property
 
+Represents the index of active worksheet when the spreadsheet is opened.
+
 ```csharp
 public int ActiveSheetIndex { get; set; }
 ```
+
+### Remarks
+
+Sheet index is zero based.
 
 ### See Also
 

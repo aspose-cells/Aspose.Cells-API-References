@@ -81,6 +81,7 @@ public class GridDesktop : UserControl
 | [RefreshControl](../../aspose.cells.griddesktop/griddesktop/refreshcontrol/)() | Refresh the GridDesktop control. |
 | [RunAllFormulas](../../aspose.cells.griddesktop/griddesktop/runallformulas/)() | Runs all the cells's formula. |
 | [SetAllScrollBarsVisible](../../aspose.cells.griddesktop/griddesktop/setallscrollbarsvisible/)() | Sets all scrollbars visible. |
+| [SetCustomResourceManager](../../aspose.cells.griddesktop/griddesktop/setcustomresourcemanager/)(ResourceManager) | Set custom resource manager to implement user defined localization |
 | [ShowStyleDialog](../../aspose.cells.griddesktop/griddesktop/showstyledialog/)() | Opens a style dialog,to set cells style,font,colors etc. |
 | [StartFormatPainter](../../aspose.cells.griddesktop/griddesktop/startformatpainter/)(bool) | Notifies GridDesktop to start FormatPainter. |
 | [UnDoSplit](../../aspose.cells.griddesktop/griddesktop/undosplit/)() | Unset Split view. |
@@ -121,6 +122,7 @@ public class GridDesktop : UserControl
 | event [FinishCalculate](../../aspose.cells.griddesktop/griddesktop/finishcalculate/) | Occurs after calculate formula in workbook. |
 | event [FinishLoadFile](../../aspose.cells.griddesktop/griddesktop/finishloadfile/) | Occurs when the workbook is loaded. |
 | event [FocusedCellChanged](../../aspose.cells.griddesktop/griddesktop/focusedcellchanged/) | Occurs when the focused cell is changed. |
+| event [PictureClick](../../aspose.cells.griddesktop/griddesktop/pictureclick/) | Occurs when the shape is clicked. |
 | event [RowColumnHiddenChanged](../../aspose.cells.griddesktop/griddesktop/rowcolumnhiddenchanged/) | Occurs when the row/column hide status changed. |
 | event [RowFilteredEvent](../../aspose.cells.griddesktop/griddesktop/rowfilteredevent/) | Occurs after row filter item selected. |
 | event [RowHeaderClick](../../aspose.cells.griddesktop/griddesktop/rowheaderclick/) | Occurs when the row header clicked. |

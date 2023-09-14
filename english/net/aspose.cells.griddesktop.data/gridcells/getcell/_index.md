@@ -1,13 +1,13 @@
 ---
 title: GridCells.GetCell
 second_title: Aspose.Cells for .NET API Reference
-description: GridCells method. Gets the Cell element or null at the specified cell row index and column index
+description: GridCells method. Gets the GridCell element or null at the specified cell row index and column index
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridcells/getcell/
 ---
 ## GridCells.GetCell method
 
-Gets the Cell element or null at the specified cell row index and column index.
+Gets the [`GridCell`](../../gridcell/) element or null at the specified cell row index and column index.
 
 ```csharp
 public GridCell GetCell(int row, int column)

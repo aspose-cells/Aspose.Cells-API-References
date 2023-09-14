@@ -17,7 +17,7 @@ public class Name
 
 | Name | Description |
 | --- | --- |
-| [Comment](../../aspose.cells/name/comment/) { get; set; } | Gets and sets the comment of the name. Only applies for Excel 2007. |
+| [Comment](../../aspose.cells/name/comment/) { get; set; } | Gets and sets the comment of the name. Only applies for Excel 2007 or higher versions. |
 | [FullText](../../aspose.cells/name/fulltext/) { get; } | Gets the name full text of the object with the scope setting. |
 | [IsReferred](../../aspose.cells/name/isreferred/) { get; } | Indicates whether this name is referred by other formulas. |
 | [IsVisible](../../aspose.cells/name/isvisible/) { get; set; } | Indicates whether the name is visible. |

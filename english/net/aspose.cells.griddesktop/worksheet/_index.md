@@ -23,7 +23,7 @@ public class Worksheet
 | [Cells](../../aspose.cells.griddesktop/worksheet/cells/) { get; } |  |
 | [CodeName](../../aspose.cells.griddesktop/worksheet/codename/) { get; } | Represents worksheet code name. |
 | [Columns](../../aspose.cells.griddesktop/worksheet/columns/) { get; } |  |
-| [ColumnsCount](../../aspose.cells.griddesktop/worksheet/columnscount/) { get; set; } |  |
+| [ColumnsCount](../../aspose.cells.griddesktop/worksheet/columnscount/) { get; set; } | Gets/Sets Sheet's columns number . |
 | [Comments](../../aspose.cells.griddesktop/worksheet/comments/) { get; } |  |
 | [Controls](../../aspose.cells.griddesktop/worksheet/controls/) { get; } | Gets the cell control collection. |
 | [CustomColumnCaption](../../aspose.cells.griddesktop/worksheet/customcolumncaption/) { get; set; } | Gets or sets the custom column caption for the worksheet. |
@@ -50,7 +50,7 @@ public class Worksheet
 | [Protected](../../aspose.cells.griddesktop/worksheet/protected/) { get; set; } |  |
 | [RowFilter](../../aspose.cells.griddesktop/worksheet/rowfilter/) { get; } | Gets the RowFilterSettings object of the sheet. |
 | [Rows](../../aspose.cells.griddesktop/worksheet/rows/) { get; } |  |
-| [RowsCount](../../aspose.cells.griddesktop/worksheet/rowscount/) { get; set; } |  |
+| [RowsCount](../../aspose.cells.griddesktop/worksheet/rowscount/) { get; set; } | Gets/Sets Sheet's rows number . |
 | [Selected](../../aspose.cells.griddesktop/worksheet/selected/) { get; set; } | Indicates whether this worksheet is selected when the workbook is opened. |
 | [Shapes](../../aspose.cells.griddesktop/worksheet/shapes/) { get; } | Gets a [`Pictures`](./pictures/) collection. |
 | [ShowGridlines](../../aspose.cells.griddesktop/worksheet/showgridlines/) { get; set; } |  |

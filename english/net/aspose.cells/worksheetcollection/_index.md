@@ -81,6 +81,7 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Worksheet) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Worksheet, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Worksheet, int, int) |  |
+| [RefreshAll](../../aspose.cells/worksheetcollection/refreshall/)() | Refresh all pivot tables and charts with pivot source. |
 | [RefreshPivotTables](../../aspose.cells/worksheetcollection/refreshpivottables/)() | Refreshes all the PivotTables in the WorksheetCollection. |
 | [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction/#registeraddinfunction_1)(int, string) | Adds addin function into the workbook |
 | [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction/#registeraddinfunction)(string, string, bool) | Adds addin function into the workbook |

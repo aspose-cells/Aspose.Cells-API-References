@@ -10,7 +10,7 @@ url: /net/aspose.cells.griddesktop.data/gridpicture/leftoffset/
 Represents the horizontal offset of shape from its left column, in unit of pixels.
 
 ```csharp
-public int LeftOffset { get; }
+public int LeftOffset { get; set; }
 ```
 
 ### See Also

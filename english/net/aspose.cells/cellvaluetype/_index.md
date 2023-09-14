@@ -17,13 +17,13 @@ public enum CellValueType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| IsBool | `0` | Cell value is boolean. |
-| IsDateTime | `1` | Cell value is datetime. |
-| IsError | `2` | Cell contains error value |
-| IsNull | `3` | Blank cell. |
-| IsNumeric | `4` | Cell value is numeric. |
-| IsString | `5` | Cell value is string. |
-| IsUnknown | `6` | Cell value type is unknown. |
+| IsUnknown | `0` | Cell value type is unknown. |
+| IsNull | `1` | Blank cell. Corresponding value should be null. |
+| IsNumeric | `2` | Cell value is numeric. Corresponding value must be int or double. |
+| IsDateTime | `4` | Cell value is datetime. Corresponding value must be DateTime. |
+| IsString | `8` | Cell value is string. Corresponding value must be string. |
+| IsBool | `16` | Cell value is boolean. Corresponding value must be bool. |
+| IsError | `32` | Cell contains error value Corresponding value must be error string. |
 
 ### See Also
 

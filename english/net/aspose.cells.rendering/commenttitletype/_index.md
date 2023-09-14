@@ -19,6 +19,8 @@ public enum CommentTitleType
 | --- | --- | --- |
 | Cell | `0` | Represents comment title cell. |
 | Comment | `1` | Represents comment title comment. |
+| Note | `2` | Represents comment title note. |
+| Reply | `3` | Represents comment title reply. |
 
 ### See Also
 

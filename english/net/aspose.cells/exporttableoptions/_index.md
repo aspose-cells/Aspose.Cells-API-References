@@ -37,6 +37,16 @@ public class ExportTableOptions
 | [RenameStrategy](../../aspose.cells/exporttableoptions/renamestrategy/) { get; set; } | Strategy for duplicate names of columns. |
 | [SkipErrorValue](../../aspose.cells/exporttableoptions/skiperrorvalue/) { get; set; } | Indicates whether skip invalid value for the column. For example,if the column type is decimal ,the value is greater than decimal.MaxValue and this property is true,we will not throw exception again. The default value is false. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [PreprocessExportedValue](../../aspose.cells/exporttableoptions/preprocessexportedvalue/)(int, int, CellValue) | Preprocess the value of current cell to be exported. |
+
+### Remarks
+
+If there are some special requirements about the exporting, such as ignoring error values, user may extend this class to overwrite corresponding apis to achive the goal.
+
 ### See Also
 
 * namespace [Aspose.Cells](../../aspose.cells/)

@@ -31,6 +31,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [CellsException](./cellsexception/) | The exception that is thrown when Aspose.Cells specified error occurs. |
 | [CellsFactory](./cellsfactory/) | Utility for instantiating classes of Cells model. |
 | [CellsHelper](./cellshelper/) | Provides helper functions. |
+| [CellValue](./cellvalue/) | Represents the cell value and corresponding type. |
 | [CellWatch](./cellwatch/) | Represents Cell Watch Item in the 'watch window'. |
 | [CellWatchCollection](./cellwatchcollection/) | Represents the collection of cells on this worksheet being watched in the 'watch window'. |
 | [CollectionBase&lt;T&gt;](./collectionbase-1/) | Provides the abstract base class for a strongly typed collection. |
@@ -49,6 +50,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [CopyOptions](./copyoptions/) | Represents the copy options. |
 | [CustomFilter](./customfilter/) | Represents the custom filter. |
 | [CustomFilterCollection](./customfiltercollection/) | Represents the custom filters. |
+| [CustomFunctionDefinition](./customfunctiondefinition/) | Definition of custom function for calculating with user's custom engine. |
 | [CustomImplementationFactory](./customimplementationfactory/) | Factory to create some instances which may be re-implemented by user for special purpose. |
 | [DataBar](./databar/) | Describe the DataBar conditional formatting rule. This conditional formatting rule displays a gradated data bar in the range of cells. |
 | [DataBarBorder](./databarborder/) | Represents the border of the data bars specified by a conditional formatting rule. |
@@ -62,6 +64,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [DocxSaveOptions](./docxsaveoptions/) | Represents options of saving .docx file. |
 | [DxfCollection](./dxfcollection/) | Represents the master differential formatting records. |
 | [DynamicFilter](./dynamicfilter/) | Represents the dynamic filter. |
+| [EbookLoadOptions](./ebookloadoptions/) | Represents options when importing an ebook file. |
 | [ErrorCheckOption](./errorcheckoption/) | Error check setting applied on certain ranges. |
 | [ErrorCheckOptionCollection](./errorcheckoptioncollection/) | Represents all error check option. |
 | [ExportObjectEvent](./exportobjectevent/) | The event triggered when exporting an object, such as Picture. |

@@ -10,6 +10,8 @@ url: /net/aspose.cells/cellshelper/converta1formulator1c1/
 Converts A1 formula of the cell to the r1c1 formula.
 
 ```csharp
+[Obsolete("Use Worksheet.ConvertFormulaReferenceStyle() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public static string ConvertA1FormulaToR1C1(string formula, int row, int column)
 ```
 
@@ -22,6 +24,10 @@ public static string ConvertA1FormulaToR1C1(string formula, int row, int column)
 ### Return Value
 
 The R1C1 formula.
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Worksheet.ConvertFormulaReferenceStyle() method. This property will be removed 12 months later since August 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: PdfSecurityOptions.AssembleDocumentPermission
 second_title: Aspose.Cells for .NET API Reference
-description: PdfSecurityOptions property. Permission to insert rotate or delete pages and create bookmarks or thumbnail images even if ModifyDocumentPermission is not set
+description: PdfSecurityOptions property. Indicates whether to allow to assemble the document insert rotate or delete pages and create bookmarks or thumbnail images even if ModifyDocumentPermission is clear
 type: docs
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/assembledocumentpermission/
 ---
 ## PdfSecurityOptions.AssembleDocumentPermission property
 
-Permission to insert, rotate, or delete pages and create bookmarks or thumbnail images even if ModifyDocumentPermission is not set.
+Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [`ModifyDocumentPermission`](../modifydocumentpermission/) is clear.
 
 ```csharp
 public bool AssembleDocumentPermission { get; set; }

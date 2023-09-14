@@ -1,11 +1,13 @@
 ---
 title: GridPicture.ToStream
 second_title: Aspose.Cells for .NET API Reference
-description: GridPicture method. 
+description: GridPicture method. Get the stream of the picture
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridpicture/tostream/
 ---
 ## GridPicture.ToStream method
+
+Get the stream of the picture.
 
 ```csharp
 public static Stream ToStream(Image image, ImageFormat formaw)

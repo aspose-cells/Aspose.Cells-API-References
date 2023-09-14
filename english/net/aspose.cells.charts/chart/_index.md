@@ -27,6 +27,7 @@ public class Chart
 | [DepthPercent](../../aspose.cells.charts/chart/depthpercent/) { get; set; } | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
 | [DisplayNaAsBlank](../../aspose.cells.charts/chart/displaynaasblank/) { get; set; } | Indicates whether displaying #N/A as blank value. |
 | [Elevation](../../aspose.cells.charts/chart/elevation/) { get; set; } | Represents the elevation of the 3-D chart view, in degrees. |
+| [FilteredNSeries](../../aspose.cells.charts/chart/filterednseries/) { get; } | Gets a [`SeriesCollection`](../seriescollection/) collection representing the data series that are filtered in the chart. |
 | [FirstSliceAngle](../../aspose.cells.charts/chart/firstsliceangle/) { get; set; } | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. |
 | [Floor](../../aspose.cells.charts/chart/floor/) { get; } | Returns a [`Floor`](./floor/) object that represents the walls of a 3-D chart. |
 | [GapDepth](../../aspose.cells.charts/chart/gapdepth/) { get; set; } | Gets or sets the distance between the data series in a 3-D chart, as a percentage of the marker width. The value of this property must be between 0 and 500. |

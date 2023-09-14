@@ -134,6 +134,7 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | override [Width](../../aspose.cells.gridweb/mainweb/width/) { get; set; } | Gets or sets the width( System.Web.UI.WebControl.Unit ) of the control. |
 | [WorkSheets](../../aspose.cells.gridweb/mainweb/worksheets/) { get; } |  |
 | [XhtmlMode](../../aspose.cells.gridweb/mainweb/xhtmlmode/) { get; set; } |  |
+| static [DPI](../../aspose.cells.gridweb/mainweb/dpi/) { get; set; } | Gets /Sets the DPI of the machine. |
 | static [PictureCachePath](../../aspose.cells.gridweb/mainweb/picturecachepath/) { get; set; } | Gets or sets the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time. |
 
 ## Methods

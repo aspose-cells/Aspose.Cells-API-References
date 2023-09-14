@@ -19,7 +19,6 @@ public class Series
 | --- | --- |
 | [Area](../../aspose.cells.charts/series/area/) { get; } | Represents the background area of Series object. |
 | [Bar3DShapeType](../../aspose.cells.charts/series/bar3dshapetype/) { get; set; } | Gets or sets the 3D shape type used with the 3-D bar or column chart. |
-| [BarShape](../../aspose.cells.charts/series/barshape/) { get; set; } | (**Obsolete.**) Gets or sets the 3D shape type used with the 3-D bar or column chart. |
 | [Border](../../aspose.cells.charts/series/border/) { get; } | Represents border of Series object. |
 | [BubbleScale](../../aspose.cells.charts/series/bubblescale/) { get; set; } | Gets or sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts. |
 | [BubbleSizes](../../aspose.cells.charts/series/bubblesizes/) { get; set; } | Gets or sets the bubble sizes values of the chart series. |
@@ -42,6 +41,7 @@ public class Series
 | [HiLoLines](../../aspose.cells.charts/series/hilolines/) { get; } | Returns a HiLoLines object that represents the high-low lines for a series on a line chart. Applies only to line charts. |
 | [IsAutoSplit](../../aspose.cells.charts/series/isautosplit/) { get; } | Indicates whether the threshold value is automatic. |
 | [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried/) { get; set; } | Represents if the color of points is varied. The chart must contain only one series. |
+| [IsFiltered](../../aspose.cells.charts/series/isfiltered/) { get; set; } | Indicates whether the series is selected or filtered.True represents this series is filtered, and it will not be displayed on the chart. |
 | [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues/) { get; } | Indicates whether the data source is vertical. |
 | [LayoutProperties](../../aspose.cells.charts/series/layoutproperties/) { get; } | Represents the properties of layout. |
 | [LeaderLines](../../aspose.cells.charts/series/leaderlines/) { get; } | Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line. |

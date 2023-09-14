@@ -19,6 +19,8 @@ public class TableStyleCollection : CollectionBase<TableStyle>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [DefaultPivotStyleName](../../aspose.cells.tables/tablestylecollection/defaultpivotstylename/) { get; set; } | Gets and sets the default style name of pivot table . |
+| [DefaultTableStyleName](../../aspose.cells.tables/tablestylecollection/defaulttablestylename/) { get; set; } | Gets and sets the default style name of the table. |
 | [Item](../../aspose.cells.tables/tablestylecollection/item/) { get; } | Gets the table style by the index. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 

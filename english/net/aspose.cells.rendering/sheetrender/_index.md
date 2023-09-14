@@ -31,6 +31,7 @@ public class SheetRender
 | Name | Description |
 | --- | --- |
 | [CustomPrint](../../aspose.cells.rendering/sheetrender/customprint/)(bool, PrintPageEventArgs) | Client can control page setting of printer when print each page using this function. |
+| [Dispose](../../aspose.cells.rendering/sheetrender/dispose/)() | Releases resources created and used for rendering. |
 | [GetPageSizeInch](../../aspose.cells.rendering/sheetrender/getpagesizeinch/)(int) | Get page size in inch of output image. |
 | [ToImage](../../aspose.cells.rendering/sheetrender/toimage/#toimage)(int) | Render certain page to a Bitmap object. |
 | [ToImage](../../aspose.cells.rendering/sheetrender/toimage/#toimage_3)(int, Stream) | Render certain page to a stream. |

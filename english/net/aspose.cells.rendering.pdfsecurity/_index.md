@@ -11,6 +11,6 @@ The **Aspose.Cells.Rendering.PdfSecurity** namespace provides classes security o
 
 | Class | Description |
 | --- | --- |
-| [PdfSecurityOptions](./pdfsecurityoptions/) | Settings of pdf when converting excel to pdf, PDF/A does not allow security setting. |
+| [PdfSecurityOptions](./pdfsecurityoptions/) | Options for encrypting and access permissions for a PDF document. PDF/A does not allow security setting. |
 
 

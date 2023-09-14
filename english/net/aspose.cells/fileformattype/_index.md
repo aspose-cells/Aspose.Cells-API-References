@@ -68,7 +68,7 @@ public enum FileFormatType
 | Ott | `53` | Represents an OTT file. |
 | Bmp | `54` | Represents a BMP file. |
 | Ots | `55` | Represents an ots file. |
-| Numbers | `56` |  |
+| Numbers | `56` | Represents Numbers 9.0 file format by Apple Inc. |
 | Numbers09 | `56` | Represents Numbers 9.0 file format by Apple Inc. |
 | Markdown | `57` | Represents markdown document. |
 | GraphChart | `58` | Represents embedded graph chart. |
@@ -87,6 +87,7 @@ public enum FileFormatType
 | OneNote | `772` | Rrepesents One Note file. |
 | MicrosoftCabinet | `773` | ///  Rrepesents Microsoft Cabinet file.  The file format is not supported Only for detecting file type. |
 | Rtf | `774` |  |
+| Epub | `775` | EPUB |
 | GZip | `35615` | Rrepesents GZip file. |
 
 ### See Also

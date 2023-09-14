@@ -54,7 +54,7 @@ public class PivotField
 | [PivotItems](../../aspose.cells.pivot/pivotfield/pivotitems/) { get; } | Gets the pivot items of the pivot field |
 | [Position](../../aspose.cells.pivot/pivotfield/position/) { get; } | Represents the PivotField index in the PivotFields. |
 | [Range](../../aspose.cells.pivot/pivotfield/range/) { get; } | Gets the group range of the pivot field |
-| [ShowAllItems](../../aspose.cells.pivot/pivotfield/showallitems/) { get; set; } | Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. show items with no data The default value is false. |
+| [ShowAllItems](../../aspose.cells.pivot/pivotfield/showallitems/) { get; set; } | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false. |
 | [ShowCompact](../../aspose.cells.pivot/pivotfield/showcompact/) { get; set; } | Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [ShowInOutlineForm](../../aspose.cells.pivot/pivotfield/showinoutlineform/) { get; set; } | Indicates whether layout this field in outline form on the Pivot Table view |
 | [ShowSubtotalAtTop](../../aspose.cells.pivot/pivotfield/showsubtotalattop/) { get; set; } | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |

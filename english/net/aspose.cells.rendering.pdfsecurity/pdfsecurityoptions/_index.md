@@ -1,13 +1,13 @@
 ---
 title: Class PdfSecurityOptions
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Rendering.PdfSecurity.PdfSecurityOptions class. Settings of pdf when converting excel to pdf PDF/A does not allow security setting
+description: Aspose.Cells.Rendering.PdfSecurity.PdfSecurityOptions class. Options for encrypting and access permissions for a PDF document. PDF/A does not allow security setting
 type: docs
 url: /net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/
 ---
 ## PdfSecurityOptions class
 
-Settings of pdf when converting excel to pdf, PDF/A does not allow security setting.
+Options for encrypting and access permissions for a PDF document. PDF/A does not allow security setting.
 
 ```csharp
 public class PdfSecurityOptions
@@ -23,17 +23,17 @@ public class PdfSecurityOptions
 
 | Name | Description |
 | --- | --- |
-| [AccessibilityExtractContent](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibilityextractcontent/) { get; set; } | Permission to copy or extract content (in support of accessibility to disabled users or for other purposes). |
-| [AnnotationsPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotationspermission/) { get; set; } | Permission to comment on the document. |
-| [AssembleDocumentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/assembledocumentpermission/) { get; set; } | Permission to insert, rotate, or delete pages and create bookmarks or thumbnail images even if ModifyDocumentPermission is not set. |
-| [ExtractContentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermission/) { get; set; } | Permission to copy or extract content. |
-| [ExtractContentPermissionObsolete](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermissionobsolete/) { get; set; } | Permission to copy or extract content Obsoleted according to PDF reference. |
-| [FillFormsPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fillformspermission/) { get; set; } | Permission to fill the form fields. |
-| [FullQualityPrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fullqualityprintpermission/) { get; set; } | Permission to print in high quality. |
-| [ModifyDocumentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modifydocumentpermission/) { get; set; } | Permission to modify pdf document |
-| [OwnerPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/ownerpassword/) { get; set; } | Gets or sets the owner password of the document |
-| [PrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/printpermission/) { get; set; } | Permission to print pdf document |
-| [UserPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/userpassword/) { get; set; } | Gets or sets the user password |
+| [AccessibilityExtractContent](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibilityextractcontent/) { get; set; } | Indicates whether to allow to extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
+| [AnnotationsPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/annotationspermission/) { get; set; } | Indicates whether to allow to add or modify text annotations, fill in interactive form fields. |
+| [AssembleDocumentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/assembledocumentpermission/) { get; set; } | Indicates whether to allow to assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if [`ModifyDocumentPermission`](./modifydocumentpermission/) is clear. |
+| [ExtractContentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermission/) { get; set; } | Indicates whether to allow to copy or otherwise extract text and graphics from the document by operations other than that controlled by [`AccessibilityExtractContent`](./accessibilityextractcontent/). |
+| [ExtractContentPermissionObsolete](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/extractcontentpermissionobsolete/) { get; set; } | (**Obsolete.**) Permission to copy or extract content Obsoleted according to PDF reference. |
+| [FillFormsPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fillformspermission/) { get; set; } | Indicates whether to allow to fill in existing interactive form fields (including signature fields), even if [`ModifyDocumentPermission`](./modifydocumentpermission/) is clear. |
+| [FullQualityPrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/fullqualityprintpermission/) { get; set; } | Indicates whether to allow to print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
+| [ModifyDocumentPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/modifydocumentpermission/) { get; set; } | Indicates whether to allow to modify the contents of the document by operations other than those controlled by [`AnnotationsPermission`](./annotationspermission/), [`FillFormsPermission`](./fillformspermission/) and [`AssembleDocumentPermission`](./assembledocumentpermission/). |
+| [OwnerPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/ownerpassword/) { get; set; } | Gets or sets the owner password for the encrypted PDF document. |
+| [PrintPermission](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/printpermission/) { get; set; } | Indicates whether to allow to print the document. |
+| [UserPassword](../../aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/userpassword/) { get; set; } | Gets or sets the user password required for opening the encrypted PDF document. |
 
 ### See Also
 

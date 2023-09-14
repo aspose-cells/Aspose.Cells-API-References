@@ -47,6 +47,7 @@ public class Validation
 | [GetFormula2](../../aspose.cells/validation/getformula2/#getformula2)(bool, bool) | Gets the value or expression associated with this validation. |
 | [GetFormula2](../../aspose.cells/validation/getformula2/#getformula2_1)(bool, bool, int, int) | Gets the value or expression associated with this validation for specific cell. |
 | [GetListValue](../../aspose.cells/validation/getlistvalue/)(int, int) | Get the value for list of the validation for the specified cell. |
+| [GetValue](../../aspose.cells/validation/getvalue/)(int, int, bool) | Get the value of validation on the specific cell. |
 | [RemoveACell](../../aspose.cells/validation/removeacell/)(int, int) | Remove the validation settings in the cell. |
 | [RemoveArea](../../aspose.cells/validation/removearea/)(CellArea) | Remove the validation settings in the range. |
 | [RemoveAreas](../../aspose.cells/validation/removeareas/)(CellArea[]) | Removes this validation from given areas. |

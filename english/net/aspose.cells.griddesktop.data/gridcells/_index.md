@@ -20,7 +20,7 @@ public class GridCells : IEnumerable
 | [Columns](../../aspose.cells.griddesktop.data/gridcells/columns/) { get; } |  |
 | [Count](../../aspose.cells.griddesktop.data/gridcells/count/) { get; } | Gets the number of cells. |
 | [FirstCell](../../aspose.cells.griddesktop.data/gridcells/firstcell/) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridcells/item/) { get; } | Gets Cell item within the worksheet (3 indexers) |
+| [Item](../../aspose.cells.griddesktop.data/gridcells/item/) { get; } | Gets [`GridCell`](../gridcell/) item within the worksheet (3 indexers) |
 | [LastCell](../../aspose.cells.griddesktop.data/gridcells/lastcell/) { get; } |  |
 | [MaxColumn](../../aspose.cells.griddesktop.data/gridcells/maxcolumn/) { get; } | Maximum column index of cell which contains data or style. |
 | [MaxDataColumn](../../aspose.cells.griddesktop.data/gridcells/maxdatacolumn/) { get; } |  |
@@ -43,7 +43,7 @@ public class GridCells : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell/)(int, int) | Gets the Cell element or null at the specified cell row index and column index. |
+| [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell/)(int, int) | Gets the [`GridCell`](../gridcell/) element or null at the specified cell row index and column index. |
 | [Clear](../../aspose.cells.griddesktop.data/gridcells/clear/)() | Clear all cells in the collection. |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents/#clearcontents)(GridCellArea) | Clears contents of a range. |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents/#clearcontents_1)(int, int, int, int) | Clears contents of a range. |
@@ -63,7 +63,7 @@ public class GridCells : IEnumerable
 | [DeleteRow](../../aspose.cells.griddesktop.data/gridcells/deleterow/)(int) | Deletes a row. |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows/#deleterows)(int, int) | Deletes several rows. |
 | [DeleteRows](../../aspose.cells.griddesktop.data/gridcells/deleterows/#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
-| [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell/)(int, int) | Gets the Cell element or null at the specified cell row index and column index. |
+| [GetCell](../../aspose.cells.griddesktop.data/gridcells/getcell/)(int, int) | Gets the [`GridCell`](../gridcell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells.griddesktop.data/gridcells/getcellstyle/)(int, int) | Get the style of given cell. |
 | [GetColumn](../../aspose.cells.griddesktop.data/gridcells/getcolumn/)(int) | Gets the [`GridColumn`](../gridcolumn/) element or at the specified cell column index. |
 | [GetColumnWidth](../../aspose.cells.griddesktop.data/gridcells/getcolumnwidth/)(int) | Gets the width of the specified column |

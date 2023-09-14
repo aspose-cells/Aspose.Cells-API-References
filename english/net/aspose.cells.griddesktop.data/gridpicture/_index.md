@@ -17,13 +17,13 @@ public class GridPicture
 
 | Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.cells.griddesktop.data/gridpicture/actualheight/) { get; } |  |
-| [ActualWidth](../../aspose.cells.griddesktop.data/gridpicture/actualwidth/) { get; } |  |
+| [ActualHeight](../../aspose.cells.griddesktop.data/gridpicture/actualheight/) { get; } | Gets the actual height of shape . |
+| [ActualWidth](../../aspose.cells.griddesktop.data/gridpicture/actualwidth/) { get; } | Gets the actual width of shape . |
 | [AlternativeText](../../aspose.cells.griddesktop.data/gridpicture/alternativetext/) { get; set; } |  |
 | [BorderLineColor](../../aspose.cells.griddesktop.data/gridpicture/borderlinecolor/) { get; set; } | Represents the Color of the border line of a picture. |
 | [BorderWeight](../../aspose.cells.griddesktop.data/gridpicture/borderweight/) { get; set; } | Gets or sets the weight of the border line of a picture in units of pt. |
 | [Bottom](../../aspose.cells.griddesktop.data/gridpicture/bottom/) { get; set; } |  |
-| [Column](../../aspose.cells.griddesktop.data/gridpicture/column/) { get; } |  |
+| [Column](../../aspose.cells.griddesktop.data/gridpicture/column/) { get; } | Represents upper left corner column index. |
 | [Data](../../aspose.cells.griddesktop.data/gridpicture/data/) { get; set; } | Gets the data of the picture. |
 | [Height](../../aspose.cells.griddesktop.data/gridpicture/height/) { get; set; } | Represents the height of shape, in unit of pixel. |
 | [HeightCM](../../aspose.cells.griddesktop.data/gridpicture/heightcm/) { get; set; } | Represents the height of the shape, in unit of inches. |
@@ -43,8 +43,8 @@ public class GridPicture
 | [Left](../../aspose.cells.griddesktop.data/gridpicture/left/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [LeftCM](../../aspose.cells.griddesktop.data/gridpicture/leftcm/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
 | [LeftInch](../../aspose.cells.griddesktop.data/gridpicture/leftinch/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of inches. |
-| [LeftOffset](../../aspose.cells.griddesktop.data/gridpicture/leftoffset/) { get; } | Represents the horizontal offset of shape from its left column, in unit of pixels. |
-| [LeftToCorner](../../aspose.cells.griddesktop.data/gridpicture/lefttocorner/) { get; } |  |
+| [LeftOffset](../../aspose.cells.griddesktop.data/gridpicture/leftoffset/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of pixels. |
+| [LeftToCorner](../../aspose.cells.griddesktop.data/gridpicture/lefttocorner/) { get; set; } | Gets and sets the horizonal offset of shape from worksheet left border. |
 | [LinkedCell](../../aspose.cells.griddesktop.data/gridpicture/linkedcell/) { get; set; } | Gets or sets the worksheet range linked to the control's value. |
 | [LowerDeltaX](../../aspose.cells.griddesktop.data/gridpicture/lowerdeltax/) { get; set; } | Gets or sets the shape's horizontal offset from its lower right corner column. The range of value is 0 to 1024. |
 | [LowerDeltaY](../../aspose.cells.griddesktop.data/gridpicture/lowerdeltay/) { get; set; } | Gets or sets the shape's vertical offset from its lower right corner row. The range of value is 0 to 256. |
@@ -60,15 +60,15 @@ public class GridPicture
 | [RelativeToOriginalPictureSize](../../aspose.cells.griddesktop.data/gridpicture/relativetooriginalpicturesize/) { get; set; } | Indicates whether shape is relative to original picture size. |
 | [Right](../../aspose.cells.griddesktop.data/gridpicture/right/) { get; set; } | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
 | [RotationAngle](../../aspose.cells.griddesktop.data/gridpicture/rotationangle/) { get; set; } | Gets and sets the rotation of the shape. |
-| [Row](../../aspose.cells.griddesktop.data/gridpicture/row/) { get; } |  |
+| [Row](../../aspose.cells.griddesktop.data/gridpicture/row/) { get; } | Represents upper left corner row index. |
 | [SourceFullName](../../aspose.cells.griddesktop.data/gridpicture/sourcefullname/) { get; set; } | Gets or sets the path and name of the source file for the linked image. |
 | [Text](../../aspose.cells.griddesktop.data/gridpicture/text/) { get; set; } | Represents the string in this TextBox object. |
 | [Title](../../aspose.cells.griddesktop.data/gridpicture/title/) { get; set; } |  |
 | [Top](../../aspose.cells.griddesktop.data/gridpicture/top/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [TopCM](../../aspose.cells.griddesktop.data/gridpicture/topcm/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [TopInch](../../aspose.cells.griddesktop.data/gridpicture/topinch/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of inches. |
-| [TopOffset](../../aspose.cells.griddesktop.data/gridpicture/topoffset/) { get; } | Represents the vertical offset of shape from its top row, in unit of pixels. |
-| [TopToCorner](../../aspose.cells.griddesktop.data/gridpicture/toptocorner/) { get; } |  |
+| [TopOffset](../../aspose.cells.griddesktop.data/gridpicture/topoffset/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of pixels. |
+| [TopToCorner](../../aspose.cells.griddesktop.data/gridpicture/toptocorner/) { get; set; } | Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels. |
 | [UpperDeltaX](../../aspose.cells.griddesktop.data/gridpicture/upperdeltax/) { get; set; } | Gets or sets the shape's horizontal offset from its upper left corner column. The range of value is 0 to 1024. |
 | [UpperDeltaY](../../aspose.cells.griddesktop.data/gridpicture/upperdeltay/) { get; set; } | Gets or sets the shape's vertical offset from its upper left corner row. The range of value is 0 to 256. |
 | [UpperLeftColumn](../../aspose.cells.griddesktop.data/gridpicture/upperleftcolumn/) { get; set; } | Represents upper left corner column index. |
@@ -92,7 +92,7 @@ public class GridPicture
 | [Move](../../aspose.cells.griddesktop.data/gridpicture/move/)(int, int) | Moves the picture to a specified location. |
 | [MoveToRange](../../aspose.cells.griddesktop.data/gridpicture/movetorange/)(int, int, int, int) | Moves the shape to a specified range. |
 | [RemoveHyperlink](../../aspose.cells.griddesktop.data/gridpicture/removehyperlink/)() | Remove the hyperlink of the shape. |
-| static [ToStream](../../aspose.cells.griddesktop.data/gridpicture/tostream/)(Image, ImageFormat) |  |
+| static [ToStream](../../aspose.cells.griddesktop.data/gridpicture/tostream/)(Image, ImageFormat) | Get the stream of the picture. |
 
 ## Fields
 

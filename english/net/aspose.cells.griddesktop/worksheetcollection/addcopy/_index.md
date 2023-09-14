@@ -25,7 +25,7 @@ public int AddCopy(string sheetName)
 
 | exception | condition |
 | --- | --- |
-| CellsException | Specifies an invalid worksheet name. |
+| Exception | Specifies an invalid worksheet name. |
 
 ### See Also
 
@@ -40,16 +40,16 @@ public int AddCopy(string sheetName)
 Adds a worksheet to the collection and copies data from an existed worksheet.
 
 ```csharp
-public int AddCopy(int sheetIndex)
+public int AddCopy(int srcSheetIndex)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sheetIndex | Int32 | Index of source worksheet. |
+| srcSheetIndex | Int32 | Index of source worksheet. |
 
 ### Return Value
 
-[`Worksheet`](../../worksheet/) object index.
+[`Worksheet`](../../worksheet/) Index of of the new worksheet.
 
 ### See Also
 

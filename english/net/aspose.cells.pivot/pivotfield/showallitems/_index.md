@@ -1,13 +1,13 @@
 ---
 title: PivotField.ShowAllItems
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether all items in the PivotTable report are displayed even if they dont contain summary data. show items with no data The default value is false
+description: PivotField property. Indicates whether all items displays in the PivotTable report even if they dont contain summary data. show items with no data The default value is false
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/showallitems/
 ---
 ## PivotField.ShowAllItems property
 
-Indicates whether all items in the PivotTable report are displayed, even if they don't contain summary data. show items with no data The default value is false.
+Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. show items with no data The default value is false.
 
 ```csharp
 public bool ShowAllItems { get; set; }

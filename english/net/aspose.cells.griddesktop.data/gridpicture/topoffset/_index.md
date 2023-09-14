@@ -10,7 +10,7 @@ url: /net/aspose.cells.griddesktop.data/gridpicture/topoffset/
 Represents the vertical offset of shape from its top row, in unit of pixels.
 
 ```csharp
-public int TopOffset { get; }
+public int TopOffset { get; set; }
 ```
 
 ### See Also

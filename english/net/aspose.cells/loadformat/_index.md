@@ -38,6 +38,7 @@ public enum LoadFormat
 | Sxc | `60` | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
 | SXC | `60` | Represents StarOffice Calc Spreadsheet (.sxc) file format. NOTE: This member is now obsolete. Instead, please use Sxc property. This property will be removed 6 months later since April 2021. Aspose apologizes for any inconvenience you may have experienced. |
 | Xml | `51` | Represents a simple xml file. |
+| Epub | `52` | Reprents an EPUB file. |
 | Unknown | `255` | Represents unrecognized format, cannot be loaded. |
 | Image | `254` | Image |
 | Json | `513` | Json |

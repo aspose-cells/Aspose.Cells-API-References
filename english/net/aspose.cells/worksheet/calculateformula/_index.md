@@ -59,7 +59,44 @@ The formula will be calculated just like it has been set to cell A1. And the for
 
 ---
 
-## CalculateFormula(bool, bool, ICustomFunction) {#calculateformula_3}
+## CalculateFormula(string, FormulaParseOptions, CalculationOptions, int, int, CalculationData) {#calculateformula_2}
+
+Calculates a formula expression directly.
+
+```csharp
+public object CalculateFormula(string formula, FormulaParseOptions pOpts, CalculationOptions cOpts, 
+    int baseCellRow, int baseCellColumn, CalculationData calculationData)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | String | Formula to be calculated. |
+| pOpts | FormulaParseOptions | Options for parsing formula. |
+| cOpts | CalculationOptions | Options for calculating formula. |
+| baseCellRow | Int32 | The row index of the base cell. |
+| baseCellColumn | Int32 | The column index of the base cell. |
+| calculationData | CalculationData | The calculation data. It is used for the situation that user needs to calculate some static formulas when implementing custom calculation engine. For such kind of situation, user needs to specify it with the calculation data provided for [`Calculate`](../../abstractcalculationengine/calculate/). |
+
+### Return Value
+
+Calculated result of given formula. The returned object may be of possible types of [`Value`](../../cell/value/), or ReferredArea.
+
+### Remarks
+
+The formula will be calculated just like it has been set to the specified base cell. And the formula will be taken as normal formula. If you need the formula be calculated as an array formula and to get an array for the calculated result, please use [`CalculateArrayFormula`](../calculatearrayformula/) instead.
+
+### See Also
+
+* class [FormulaParseOptions](../../formulaparseoptions/)
+* class [CalculationOptions](../../calculationoptions/)
+* class [CalculationData](../../calculationdata/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## CalculateFormula(bool, bool, ICustomFunction) {#calculateformula_4}
 
 Calculates all formulas in this worksheet.
 
@@ -88,7 +125,7 @@ NOTE: This member is now obsolete. Instead, please use CalculateFormula(Calculat
 
 ---
 
-## CalculateFormula(CalculationOptions, bool) {#calculateformula_2}
+## CalculateFormula(CalculationOptions, bool) {#calculateformula_3}
 
 Calculates all formulas in this worksheet.
 
