@@ -30,8 +30,7 @@ public class Style
 | [ForegroundColor](../../aspose.cells.griddesktop/style/foregroundcolor/) { get; set; } | Gets or sets a style's foreground color. |
 | [HAlignment](../../aspose.cells.griddesktop/style/halignment/) { get; set; } | Gets or sets horizontal alignment attribute. |
 | [Indent](../../aspose.cells.griddesktop/style/indent/) { get; set; } | Represents the m_IndentLevel level for the cell or range. Can only be an integer from 0 to 15. |
-| [NumberFormat](../../aspose.cells.griddesktop/style/numberformat/) { get; set; } | Gets or sets the display format of numbers and dates. |
-| [NumberType](../../aspose.cells.griddesktop/style/numbertype/) { get; set; } | same as NumberFormat |
+| [NumberType](../../aspose.cells.griddesktop/style/numbertype/) { get; set; } | Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
 | [Pattern](../../aspose.cells.griddesktop/style/pattern/) { get; set; } | Gets or sets the cell background pattern type. |
 | [Rotation](../../aspose.cells.griddesktop/style/rotation/) { get; set; } | Represents text rotation angle. |
 | [Shrink](../../aspose.cells.griddesktop/style/shrink/) { get; set; } | Represents if text automatically shrinks to fit in the available column width. |

@@ -105,7 +105,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 
 ### Return Value
 
-Picture object index.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### See Also
 
@@ -134,7 +134,7 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 
 ### Return Value
 
-Picture object index.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### See Also
 

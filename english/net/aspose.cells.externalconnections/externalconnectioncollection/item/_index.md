@@ -40,7 +40,7 @@ public ExternalConnection this[string connectionName] { get; }
 
 | Parameter | Description |
 | --- | --- |
-| connectionName | data connection name |
+| connectionName | the name of data connection |
 
 ### Return Value
 

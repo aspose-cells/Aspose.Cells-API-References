@@ -29,6 +29,7 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 | [Add](../../aspose.cells.vba/vbamodulecollection/add/#add_1)(Worksheet) | Adds module for a worksheet. |
 | [Add](../../aspose.cells.vba/vbamodulecollection/add/#add)(VbaModuleType, string) | Adds module. |
 | [AddDesignerStorage](../../aspose.cells.vba/vbamodulecollection/adddesignerstorage/)(string, byte[]) |  |
+| [AddUserForm](../../aspose.cells.vba/vbamodulecollection/adduserform/)(string, string, byte[]) | Inser user form into VBA Project. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(VbaModule) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(VbaModule, IComparer&lt;VbaModule&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, VbaModule, IComparer&lt;VbaModule&gt;) |  |

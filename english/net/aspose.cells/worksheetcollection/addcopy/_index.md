@@ -57,4 +57,26 @@ public int AddCopy(int sheetIndex)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)
 
+---
+
+## AddCopy(Worksheet[], string[]) {#addcopy_2}
+
+Copy a group of worksheets.
+
+```csharp
+public void AddCopy(Worksheet[] source, string[] destSheetNames)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | Worksheet[] | The source worksheets. |
+| destSheetNames | String[] | The names of the copied sheets. |
+
+### See Also
+
+* class [Worksheet](../../worksheet/)
+* class [WorksheetCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
 

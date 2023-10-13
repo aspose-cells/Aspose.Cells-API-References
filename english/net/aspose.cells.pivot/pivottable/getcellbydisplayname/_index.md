@@ -1,13 +1,13 @@
 ---
 title: PivotTable.GetCellByDisplayName
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable method. Gets the Cell object by the DisplayName of PivotField
+description: PivotTable method. Gets the Cell object by the display name of PivotField
 type: docs
 url: /net/aspose.cells.pivot/pivottable/getcellbydisplayname/
 ---
 ## PivotTable.GetCellByDisplayName method
 
-Gets the Cell object by the DisplayName of PivotField
+Gets the [`Cell`](../../../aspose.cells/cell/) object by the display name of PivotField.
 
 ```csharp
 public Cell GetCellByDisplayName(string displayName)

@@ -114,7 +114,7 @@ public class PivotTable : IDisposable
 | [Format](../../aspose.cells.pivot/pivottable/format/#format_1)(int, int, Style) | Format the cell in the pivottable area |
 | [FormatAll](../../aspose.cells.pivot/pivottable/formatall/)(Style) | Format all the cell in the pivottable area |
 | [FormatRow](../../aspose.cells.pivot/pivottable/formatrow/)(int, Style) | Format the row data in the pivottable area |
-| [GetCellByDisplayName](../../aspose.cells.pivot/pivottable/getcellbydisplayname/)(string) | Gets the Cell object by the DisplayName of PivotField |
+| [GetCellByDisplayName](../../aspose.cells.pivot/pivottable/getcellbydisplayname/)(string) | Gets the [`Cell`](../../aspose.cells/cell/) object by the display name of PivotField. |
 | [GetChildren](../../aspose.cells.pivot/pivottable/getchildren/)() | Gets the Children Pivot Tables which use this PivotTable data as data source. |
 | [GetHorizontalBreaks](../../aspose.cells.pivot/pivottable/gethorizontalbreaks/)() | get pivot table row index list of horizontal pagebreaks |
 | [GetSource](../../aspose.cells.pivot/pivottable/getsource/)() | Get pivottable's source data. |

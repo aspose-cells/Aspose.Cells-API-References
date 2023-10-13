@@ -1,13 +1,13 @@
 ---
 title: Cell.Value
 second_title: Aspose.Cells for .NET API Reference
-description: Cell property. Gets the value contained in this cell
+description: Cell property. Gets/sets the value contained in this cell
 type: docs
 url: /net/aspose.cells/cell/value/
 ---
 ## Cell.Value property
 
-Gets the value contained in this cell.
+Gets/sets the value contained in this cell.
 
 ```csharp
 public object Value { get; set; }

@@ -43,6 +43,7 @@ public class Range
 
 | Name | Description |
 | --- | --- |
+| [AddHyperlink](../../aspose.cells/range/addhyperlink/)(string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
 | [ApplyStyle](../../aspose.cells/range/applystyle/)(Style, StyleFlag) | Applies formats for a whole range. |
 | [AutoFill](../../aspose.cells/range/autofill/#autofill)(Range) | Automaticall fill the target range. |
 | [AutoFill](../../aspose.cells/range/autofill/#autofill_1)(Range, AutoFillType) | Automaticall fill the target range. |
@@ -58,6 +59,7 @@ public class Range
 | [GetEnumerator](../../aspose.cells/range/getenumerator/)() | Gets the enumerator for cells in this Range. |
 | [GetOffset](../../aspose.cells/range/getoffset/)(int, int) | Gets `Range` range by offset. |
 | [Intersect](../../aspose.cells/range/intersect/)(Range) | Returns a `Range` object that represents the rectangular intersection of two ranges. |
+| [IsBlank](../../aspose.cells/range/isblank/)() | Indicates whether the range contains values. |
 | [IsIntersect](../../aspose.cells/range/isintersect/)(Range) | Indicates whether the range is intersect. |
 | [Merge](../../aspose.cells/range/merge/)() | Combines a range of cells into a single cell. |
 | [MoveTo](../../aspose.cells/range/moveto/)(int, int) | Move the current range to the dest range. |

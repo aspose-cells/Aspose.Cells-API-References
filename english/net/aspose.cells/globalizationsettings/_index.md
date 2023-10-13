@@ -40,6 +40,7 @@ public class GlobalizationSettings
 | virtual [GetColumnLabelsOfPivotTable](../../aspose.cells/globalizationsettings/getcolumnlabelsofpivottable/)() | (**Obsolete.**) Gets the name of "Column Labels" label in the PivotTable. |
 | virtual [GetCommentTitleName](../../aspose.cells/globalizationsettings/getcommenttitlename/)(CommentTitleType) | Gets the locale dependent comment title name according to comment title type. |
 | virtual [GetDataFieldHeaderNameOfPivotTable](../../aspose.cells/globalizationsettings/getdatafieldheadernameofpivottable/)() | (**Obsolete.**) Gets the the name of the value area field header in the PivotTable. |
+| virtual [GetDefaultSheetName](../../aspose.cells/globalizationsettings/getdefaultsheetname/)() | Gets the default sheet name for adding worksheet automatically. Default is "Sheet". |
 | virtual [GetEmptyDataName](../../aspose.cells/globalizationsettings/getemptydataname/)() | (**Obsolete.**) Gets the name of "(blank)" label in the PivotTable. |
 | virtual [GetErrorValueString](../../aspose.cells/globalizationsettings/geterrorvaluestring/)(string) | Gets the display string value for cell's error value |
 | virtual [GetGrandTotalName](../../aspose.cells/globalizationsettings/getgrandtotalname/)(ConsolidationFunction) | Gets the grand total name of the function. |
