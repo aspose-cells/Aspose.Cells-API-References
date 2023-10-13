@@ -23,7 +23,7 @@ public enum CellValueType
 | IsDateTime | `4` | Cell value is datetime. Corresponding value must be DateTime. |
 | IsString | `8` | Cell value is string. Corresponding value must be string. |
 | IsBool | `16` | Cell value is boolean. Corresponding value must be bool. |
-| IsError | `32` | Cell contains error value Corresponding value must be error string. |
+| IsError | `32` | Cell contains error value. Corresponding value must be error string. |
 
 ### See Also
 

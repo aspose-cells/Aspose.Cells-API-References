@@ -46,6 +46,7 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [Add](../../aspose.cells/worksheetcollection/add/#add)(string) | Adds a worksheet to the collection. |
 | [AddCopy](../../aspose.cells/worksheetcollection/addcopy/#addcopy)(int) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [AddCopy](../../aspose.cells/worksheetcollection/addcopy/#addcopy_1)(string) | Adds a worksheet to the collection and copies data from an existed worksheet. |
+| [AddCopy](../../aspose.cells/worksheetcollection/addcopy/#addcopy_2)(Worksheet[], string[]) | Copy a group of worksheets. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Worksheet) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Worksheet, IComparer&lt;Worksheet&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Worksheet, IComparer&lt;Worksheet&gt;) |  |

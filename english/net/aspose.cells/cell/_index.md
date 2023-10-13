@@ -50,7 +50,7 @@ public class Cell
 | [StringValue](../../aspose.cells/cell/stringvalue/) { get; } | Gets the string value contained in the cell. If the type of this cell is string, then return the string value itself. For other cell types, the formatted string value (formatted with the specified style of this cell) will be returned. The formatted cell value is same with what you can get from excel when copying a cell as text(such as copying cell to text editor or exporting to csv). |
 | [StringValueWithoutFormat](../../aspose.cells/cell/stringvaluewithoutformat/) { get; } | (**Obsolete.**) Gets cell's value as string without any format. |
 | [Type](../../aspose.cells/cell/type/) { get; } | Represents cell value type. |
-| [Value](../../aspose.cells/cell/value/) { get; set; } | Gets the value contained in this cell. |
+| [Value](../../aspose.cells/cell/value/) { get; set; } | Gets/sets the value contained in this cell. |
 | [Worksheet](../../aspose.cells/cell/worksheet/) { get; } | Gets the parent worksheet. |
 
 ## Methods

@@ -1,13 +1,13 @@
 ---
 title: GridDesktop.PasteType
 second_title: Aspose.Cells for .NET API Reference
-description: GridDesktop property. Indicates which paste type when do paste actiononly available when EnableClipboardCopyPaste is false 
+description: GridDesktop property. Indicates which paste type when do paste actiononly available when EnableClipboardCopyPaste is false .the default value is GridPasteType.Default
 type: docs
 url: /net/aspose.cells.griddesktop/griddesktop/pastetype/
 ---
 ## GridDesktop.PasteType property
 
-Indicates which paste type when do paste action，only available when EnableClipboardCopyPaste is false .
+Indicates which paste type when do paste action，only available when EnableClipboardCopyPaste is false .the default value is GridPasteType.Default;
 
 ```csharp
 public GridPasteType PasteType { get; set; }
