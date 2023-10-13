@@ -34,6 +34,7 @@ Represents the list of [VbaModule](../../com.aspose.cells/vbamodule)
 | [add(int type, String name)](#add-int-java.lang.String-) | Adds module. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [addDesignerStorage(String name, byte[] data)](#addDesignerStorage-java.lang.String-byte---) |  |
+| [addUserForm(String name, String codes, byte[] designerStorage)](#addUserForm-java.lang.String-java.lang.String-byte---) | Inser user form into VBA Project. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -114,6 +115,23 @@ public void addDesignerStorage(String name, byte[] data)
 | name | java.lang.String |  |
 | data | byte[] |  |
 
+### addUserForm(String name, String codes, byte[] designerStorage) {#addUserForm-java.lang.String-java.lang.String-byte---}
+```
+public int addUserForm(String name, String codes, byte[] designerStorage)
+```
+
+
+Inser user form into VBA Project.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of user form |
+| codes | java.lang.String | The codes for the user form |
+| designerStorage | byte[] | the designer setting about the user form |
+
+**Returns:**
+int - 
 ### clear() {#clear--}
 ```
 public void clear()

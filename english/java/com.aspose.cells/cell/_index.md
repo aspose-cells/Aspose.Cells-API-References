@@ -166,7 +166,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [setTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowInputCell, int columnIndexOfRowInputCell, int rowIndexOfColumnInputCell, int columnIndexOfColumnInputCell, Object[][] values)](#setTableFormula-int-int-int-int-int-int-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, String inputCell, boolean isRowInput, Object[][] values)](#setTableFormula-int-int-java.lang.String-boolean-java.lang.Object-----) | Create one-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, String rowInputCell, String columnInputCell, Object[][] values)](#setTableFormula-int-int-java.lang.String-java.lang.String-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Gets the value contained in this cell. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the value contained in this cell. |
 | [toJson()](#toJson--) | Convert [Cell](../../com.aspose.cells/cell) to JSON struct data. |
 | [toString()](#toString--) | Returns a string represents the current Cell object. |
 | [wait()](#wait--) |  |
@@ -1752,7 +1752,7 @@ public void setValue(Object value)
 ```
 
 
-Gets the value contained in this cell.
+Sets the value contained in this cell.
 
 **Remarks**
 

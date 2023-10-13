@@ -24,13 +24,13 @@ Represents the cell value and corresponding type.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Represents the type of cell value. |
-| [getValue()](#getValue--) | Represents the cell value. |
+| [getType()](#getType--) | Gets the type of cell value. |
+| [getValue()](#getValue--) | Gets the cell value. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setType(int value)](#setType-int-) | Represents the type of cell value. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Represents the cell value. |
+| [setType(int value)](#setType-int-) | Sets the type of cell value. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the cell value. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -72,7 +72,7 @@ public int getType()
 ```
 
 
-Represents the type of cell value.
+Gets the type of cell value.
 
 See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
@@ -84,7 +84,7 @@ public Object getValue()
 ```
 
 
-Represents the cell value.
+Gets the cell value.
 
 **Remarks**
 
@@ -133,7 +133,7 @@ public void setType(int value)
 ```
 
 
-Represents the type of cell value.
+Sets the type of cell value.
 
 See [CellValueType](../../com.aspose.cells/cellvaluetype).
 
@@ -148,7 +148,7 @@ public void setValue(Object value)
 ```
 
 
-Represents the cell value.
+Sets the cell value.
 
 **Remarks**
 

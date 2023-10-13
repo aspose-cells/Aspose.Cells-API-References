@@ -130,7 +130,7 @@ Gets the [ExternalConnection](../../com.aspose.cells/externalconnection) element
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| connectionName | java.lang.String | data connection name |
+| connectionName | java.lang.String | the name of data connection |
 
 **Returns:**
 [ExternalConnection](../../com.aspose.cells/externalconnection) - The element with the specified name.

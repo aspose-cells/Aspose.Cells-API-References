@@ -113,7 +113,7 @@ Summary description for PivotTable.
 | [getAutoFormatType()](#getAutoFormatType--) | Gets the PivotTable auto format type. |
 | [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--) | Indicates whether autofitting column width on update |
 | [getBaseFields()](#getBaseFields--) | Returns a PivotFields object that includes all fields in the PivotTable report |
-| [getCellByDisplayName(String displayName)](#getCellByDisplayName-java.lang.String-) | Gets the Cell object by the DisplayName of PivotField |
+| [getCellByDisplayName(String displayName)](#getCellByDisplayName-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) object by the display name of PivotField. |
 | [getChildren()](#getChildren--) | Gets the Children Pivot Tables which use this PivotTable data as data source. |
 | [getClass()](#getClass--) |  |
 | [getColumnFields()](#getColumnFields--) | Returns a PivotFields object that are currently shown as column fields. |
@@ -566,7 +566,7 @@ public Cell getCellByDisplayName(String displayName)
 ```
 
 
-Gets the Cell object by the DisplayName of PivotField
+Gets the [Cell](../../com.aspose.cells/cell) object by the display name of PivotField.
 
 **Parameters:**
 | Parameter | Type | Description |

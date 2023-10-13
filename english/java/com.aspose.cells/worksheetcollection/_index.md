@@ -38,6 +38,7 @@ Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range
 | [add(int type)](#add-int-) | Adds a worksheet to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [add(String sheetName)](#add-java.lang.String-) | Adds a worksheet to the collection. |
+| [addCopy(Worksheet[] source, String[] destSheetNames)](#addCopy-com.aspose.cells.Worksheet---java.lang.String---) | Copy a group of worksheets. |
 | [addCopy(int sheetIndex)](#addCopy-int-) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [addCopy(String sheetName)](#addCopy-java.lang.String-) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [clear()](#clear--) | Clear all worksheets. |
@@ -167,6 +168,20 @@ Adds a worksheet to the collection.
 
 **Returns:**
 [Worksheet](../../com.aspose.cells/worksheet) - [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object.
+### addCopy(Worksheet[] source, String[] destSheetNames) {#addCopy-com.aspose.cells.Worksheet---java.lang.String---}
+```
+public void addCopy(Worksheet[] source, String[] destSheetNames)
+```
+
+
+Copy a group of worksheets.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | [Worksheet\[\]](../../com.aspose.cells/worksheet) | The source worksheets. |
+| destSheetNames | java.lang.String[] | The names of the copied sheets. |
+
 ### addCopy(int sheetIndex) {#addCopy-int-}
 ```
 public int addCopy(int sheetIndex)

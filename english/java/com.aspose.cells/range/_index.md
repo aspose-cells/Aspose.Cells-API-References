@@ -38,6 +38,7 @@ The following example shows how to create a range and set value the range of Exc
 
 | Method | Description |
 | --- | --- |
+| [addHyperlink(String address, String textToDisplay, String screenTip)](#addHyperlink-java.lang.String-java.lang.String-java.lang.String-) | Adds a hyperlink to a specified cell or a range of cells. |
 | [applyStyle(Style style, StyleFlag flag)](#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) | Applies formats for a whole range. |
 | [autoFill(Range target)](#autoFill-com.aspose.cells.Range-) | Automaticall fill the target range. |
 | [autoFill(Range target, int autoFillType)](#autoFill-com.aspose.cells.Range-int-) | Automaticall fill the target range. |
@@ -73,6 +74,7 @@ The following example shows how to create a range and set value the range of Exc
 | [getWorksheet()](#getWorksheet--) | Gets the [getWorksheet()](../../com.aspose.cells/range\#getWorksheet--)object which contains this range. |
 | [hashCode()](#hashCode--) |  |
 | [intersect(Range range)](#intersect-com.aspose.cells.Range-) | Returns a [Range](../../com.aspose.cells/range) object that represents the rectangular intersection of two ranges. |
+| [isBlank()](#isBlank--) | Indicates whether the range contains values. |
 | [isIntersect(Range range)](#isIntersect-com.aspose.cells.Range-) | Indicates whether the range is intersect. |
 | [iterator()](#iterator--) | Gets the enumerator for cells in this Range. |
 | [merge()](#merge--) | Combines a range of cells into a single cell. |
@@ -98,6 +100,23 @@ The following example shows how to create a range and set value the range of Exc
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### addHyperlink(String address, String textToDisplay, String screenTip) {#addHyperlink-java.lang.String-java.lang.String-java.lang.String-}
+```
+public Hyperlink addHyperlink(String address, String textToDisplay, String screenTip)
+```
+
+
+Adds a hyperlink to a specified cell or a range of cells.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| address | java.lang.String | Address of the hyperlink. |
+| textToDisplay | java.lang.String | The text to be displayed for the specified hyperlink. |
+| screenTip | java.lang.String | The screenTip text for the specified hyperlink. |
+
+**Returns:**
+[Hyperlink](../../com.aspose.cells/hyperlink) - [Hyperlink](../../com.aspose.cells/hyperlink) object.
 ### applyStyle(Style style, StyleFlag flag) {#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-}
 ```
 public void applyStyle(Style style, StyleFlag flag)
@@ -572,6 +591,16 @@ If the two ranges are not intersected, returns null.
 
 **Returns:**
 [Range](../../com.aspose.cells/range) - Returns a [Range](../../com.aspose.cells/range) object
+### isBlank() {#isBlank--}
+```
+public boolean isBlank()
+```
+
+
+Indicates whether the range contains values.
+
+**Returns:**
+boolean - 
 ### isIntersect(Range range) {#isIntersect-com.aspose.cells.Range-}
 ```
 public boolean isIntersect(Range range)

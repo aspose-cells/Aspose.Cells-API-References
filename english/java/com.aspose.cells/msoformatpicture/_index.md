@@ -19,13 +19,17 @@ Represents the picture format.
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getBottomCrop()](#getBottomCrop--) | Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height. |
+| [getBottomCropInch()](#getBottomCropInch--) | Represents the location of the bottom of the crop rectangle expressed, in unit of inches. |
 | [getBrightness()](#getBrightness--) | Represents the brightness modification for the picture in unit of percentage. |
 | [getClass()](#getClass--) |  |
 | [getContrast()](#getContrast--) | Represents the contrast modification for the picture.in unit of percentage. |
 | [getGamma()](#getGamma--) | Represents gamma of the picture. |
 | [getLeftCrop()](#getLeftCrop--) | Represents the location of the left of the crop rectangle expressed, expressed as a ratio of the image's width. |
+| [getLeftCropInch()](#getLeftCropInch--) | Represents the location of the left of the crop rectangle expressed, in unit of inches. |
 | [getRightCrop()](#getRightCrop--) | Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width. |
+| [getRightCropInch()](#getRightCropInch--) | Represents the location of the right of the crop rectangle expressed, in unit of inches. |
 | [getTopCrop()](#getTopCrop--) | Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height. |
+| [getTopCropInch()](#getTopCropInch--) | Represents the location of the top of the crop rectangle expressed, in unit of inches. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [getTransparentColor()](#getTransparentColor--) | Gets the transparent color of the picture. |
 | [hashCode()](#hashCode--) | Gets the hash code. |
@@ -35,13 +39,17 @@ Represents the picture format.
 | [notifyAll()](#notifyAll--) |  |
 | [setBiLevel(boolean value)](#setBiLevel-boolean-) | Indicates whether this picture should display in two-color black and white. |
 | [setBottomCrop(double value)](#setBottomCrop-double-) | Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height. |
+| [setBottomCropInch(double value)](#setBottomCropInch-double-) | Represents the location of the bottom of the crop rectangle expressed, in unit of inches. |
 | [setBrightness(double value)](#setBrightness-double-) | Represents the brightness modification for the picture in unit of percentage. |
 | [setContrast(double value)](#setContrast-double-) | Represents the contrast modification for the picture.in unit of percentage. |
 | [setGamma(double value)](#setGamma-double-) | Represents gamma of the picture. |
 | [setGray(boolean value)](#setGray-boolean-) | Indicates whether this picture should display in grayscale. |
 | [setLeftCrop(double value)](#setLeftCrop-double-) | Represents the location of the left of the crop rectangle expressed, expressed as a ratio of the image's width. |
+| [setLeftCropInch(double value)](#setLeftCropInch-double-) | Represents the location of the left of the crop rectangle expressed, in unit of inches. |
 | [setRightCrop(double value)](#setRightCrop-double-) | Represents the location of the right of the crop rectangle expressed, expressed as a ratio of the image's width. |
+| [setRightCropInch(double value)](#setRightCropInch-double-) | Represents the location of the right of the crop rectangle expressed, in unit of inches. |
 | [setTopCrop(double value)](#setTopCrop-double-) | Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height. |
+| [setTopCropInch(double value)](#setTopCropInch-double-) | Represents the location of the top of the crop rectangle expressed, in unit of inches. |
 | [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [setTransparentColor(CellsColor value)](#setTransparentColor-com.aspose.cells.CellsColor-) | Sets the transparent color of the picture. |
 | [toString()](#toString--) |  |
@@ -70,6 +78,16 @@ public double getBottomCrop()
 
 
 Represents the location of the bottom of the crop rectangle expressed, expressed as a ratio of the image's height.
+
+**Returns:**
+double
+### getBottomCropInch() {#getBottomCropInch--}
+```
+public double getBottomCropInch()
+```
+
+
+Represents the location of the bottom of the crop rectangle expressed, in unit of inches.
 
 **Returns:**
 double
@@ -131,6 +149,16 @@ Represents the location of the left of the crop rectangle expressed, expressed a
 
 **Returns:**
 double
+### getLeftCropInch() {#getLeftCropInch--}
+```
+public double getLeftCropInch()
+```
+
+
+Represents the location of the left of the crop rectangle expressed, in unit of inches.
+
+**Returns:**
+double
 ### getRightCrop() {#getRightCrop--}
 ```
 public double getRightCrop()
@@ -141,6 +169,16 @@ Represents the location of the right of the crop rectangle expressed, expressed 
 
 **Returns:**
 double
+### getRightCropInch() {#getRightCropInch--}
+```
+public double getRightCropInch()
+```
+
+
+Represents the location of the right of the crop rectangle expressed, in unit of inches.
+
+**Returns:**
+double
 ### getTopCrop() {#getTopCrop--}
 ```
 public double getTopCrop()
@@ -148,6 +186,16 @@ public double getTopCrop()
 
 
 Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height.
+
+**Returns:**
+double
+### getTopCropInch() {#getTopCropInch--}
+```
+public double getTopCropInch()
+```
+
+
+Represents the location of the top of the crop rectangle expressed, in unit of inches.
 
 **Returns:**
 double
@@ -243,6 +291,19 @@ Represents the location of the bottom of the crop rectangle expressed, expressed
 | --- | --- | --- |
 | value | double |  |
 
+### setBottomCropInch(double value) {#setBottomCropInch-double-}
+```
+public void setBottomCropInch(double value)
+```
+
+
+Represents the location of the bottom of the crop rectangle expressed, in unit of inches.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setBrightness(double value) {#setBrightness-double-}
 ```
 public void setBrightness(double value)
@@ -316,6 +377,19 @@ Represents the location of the left of the crop rectangle expressed, expressed a
 | --- | --- | --- |
 | value | double |  |
 
+### setLeftCropInch(double value) {#setLeftCropInch-double-}
+```
+public void setLeftCropInch(double value)
+```
+
+
+Represents the location of the left of the crop rectangle expressed, in unit of inches.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setRightCrop(double value) {#setRightCrop-double-}
 ```
 public void setRightCrop(double value)
@@ -329,6 +403,19 @@ Represents the location of the right of the crop rectangle expressed, expressed 
 | --- | --- | --- |
 | value | double |  |
 
+### setRightCropInch(double value) {#setRightCropInch-double-}
+```
+public void setRightCropInch(double value)
+```
+
+
+Represents the location of the right of the crop rectangle expressed, in unit of inches.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setTopCrop(double value) {#setTopCrop-double-}
 ```
 public void setTopCrop(double value)
@@ -336,6 +423,19 @@ public void setTopCrop(double value)
 
 
 Represents the location of the top of the crop rectangle expressed, expressed as a ratio of the image's height.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### setTopCropInch(double value) {#setTopCropInch-double-}
+```
+public void setTopCropInch(double value)
+```
+
+
+Represents the location of the top of the crop rectangle expressed, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
