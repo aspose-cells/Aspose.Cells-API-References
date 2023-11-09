@@ -39,7 +39,7 @@ public class Legend : ChartTextFrame
 | [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext/) { get; set; } | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | virtual [IsTextWrapped](../../aspose.cells.charts/charttextframe/istextwrapped/) { get; set; } | Gets or sets a value indicating whether the text is wrapped.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [LegendEntries](../../aspose.cells.charts/legend/legendentries/) { get; } | Gets a collection of all the LegendEntry objects in the specified chart legend. Setting the legend entries of the surface chart is not supported. So it will return null if the chart type is surface chart type. |
-| [LegendEntriesLabels](../../aspose.cells.charts/legend/legendentrieslabels/) { get; } | Gets the labels of the legend entries after call Chart.Calculate() method. |
+| [LegendEntriesLabels](../../aspose.cells.charts/legend/legendentrieslabels/) { get; } | (**Obsolete.**) Gets the labels of the legend entries after call Chart.Calculate() method. |
 | virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource/) { get; set; } | Gets and sets a reference to the worksheet.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [Position](../../aspose.cells.charts/legend/position/) { get; set; } | Gets or sets the legend position type. |
 | [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder/) { get; set; } | Represents text reading order.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
@@ -61,6 +61,7 @@ public class Legend : ChartTextFrame
 | Name | Description |
 | --- | --- |
 | [Characters](../../aspose.cells.charts/charttextframe/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
+| [GetLegendLabels](../../aspose.cells.charts/legend/getlegendlabels/)() | Gets the labels of the legend entries after call Chart.Calculate() method. |
 | virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto/)() | Set position of the frame to automatic(Inherited from [`ChartFrame`](../chartframe/).) |
 
 ### Examples

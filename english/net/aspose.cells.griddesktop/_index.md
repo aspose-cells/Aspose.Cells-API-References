@@ -53,7 +53,7 @@ The **Aspose.Cells.GridDesktop** namespace contains classes of GUI based desktop
 | [WorkbookEventHandler](./workbookeventhandler/) | Represents the method that intend to handle workbook events. |
 | [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler/) | Represents the method that intend to handle workbook fail to load file. |
 | [Worksheet](./worksheet/) | Encapsulates the object that represents a single worksheet. |
-| [WorksheetCollection](./worksheetcollection/) | Collects the  objects that represent the individual rows in a worksheet. |
+| [WorksheetCollection](./worksheetcollection/) | Encapsulates a collection of [`Worksheet`](../aspose.cells.griddesktop/worksheet/) objects. |
 | [WorksheetEventArgs](./worksheeteventargs/) | Provides data for worksheet events. |
 | [WorksheetEventHandler](./worksheeteventhandler/) | Represents the method that intend to handle worksheet events. |
 ## Interfaces

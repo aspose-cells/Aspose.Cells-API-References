@@ -1,15 +1,21 @@
 ---
 title: WorksheetCollection.Count
 second_title: Aspose.Cells for .NET API Reference
-description: WorksheetCollection property. 
+description: WorksheetCollection property. Gets the size of the collection
 type: docs
 url: /net/aspose.cells.griddesktop/worksheetcollection/count/
 ---
 ## WorksheetCollection.Count property
 
+Gets the size of the collection
+
 ```csharp
 public int Count { get; }
 ```
+
+### Return Value
+
+The rows enumerator
 
 ### See Also
 

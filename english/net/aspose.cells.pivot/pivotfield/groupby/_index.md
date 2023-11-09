@@ -1,0 +1,77 @@
+---
+title: PivotField.GroupBy
+second_title: Aspose.Cells for .NET API Reference
+description: PivotField method. Group the file by the date group types
+type: docs
+url: /net/aspose.cells.pivot/pivotfield/groupby/
+---
+## GroupBy(DateTime, DateTime, PivotGroupByType[], double, bool) {#groupby_2}
+
+Group the file by the date group types.
+
+```csharp
+public void GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, double interval, 
+    bool firstAsNewField)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | DateTime | The start datetime |
+| end | DateTime | The end of datetime |
+| groups | PivotGroupByType[] | Group types |
+| interval | Double | The interval |
+| firstAsNewField | Boolean | Indicates whether adding a new field to the pivottable. Only for the first group item. |
+
+### See Also
+
+* enum [PivotGroupByType](../../pivotgroupbytype/)
+* class [PivotField](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## GroupBy(double, double, double, bool) {#groupby_1}
+
+Group the file by number.
+
+```csharp
+public void GroupBy(double start, double end, double interval, bool newField)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | Double | The start value |
+| end | Double | The end of value |
+| interval | Double | The interval |
+| newField | Boolean | Indicates whether adding a new field to the pivottable |
+
+### See Also
+
+* class [PivotField](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## GroupBy(CustomPiovtFieldGroupItem[], bool) {#groupby}
+
+Custom group the field.
+
+```csharp
+public void GroupBy(CustomPiovtFieldGroupItem[] customGroupItems, bool newField)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | CustomPiovtFieldGroupItem[] | The custom group items. |
+| newField | Boolean | Indicates whether adding a new field to the pivottable |
+
+### See Also
+
+* class [CustomPiovtFieldGroupItem](../../custompiovtfieldgroupitem/)
+* class [PivotField](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+

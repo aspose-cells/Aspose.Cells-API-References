@@ -1,19 +1,22 @@
 ---
 title: WorksheetCollection.Insert
 second_title: Aspose.Cells for .NET API Reference
-description: WorksheetCollection method. 
+description: WorksheetCollection method. Insert a worksheet
 type: docs
 url: /net/aspose.cells.griddesktop/worksheetcollection/insert/
 ---
 ## Insert(int, string) {#insert}
 
+Insert a worksheet.
+
 ```csharp
 public Worksheet Insert(int index, string sheetName)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| sheetName | The sheet name. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The sheet index |
+| sheetName | String | The sheet name. |
 
 ### Return Value
 

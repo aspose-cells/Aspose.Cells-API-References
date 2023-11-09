@@ -10,6 +10,8 @@ url: /net/aspose.cells.pivot/pivottable/setmanualgroupfield/
 Sets manual field group by the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void SetManualGroupField(int baseFieldIndex, double startVal, double endVal, 
     ArrayList groupByList, double intervalNum)
 ```
@@ -21,6 +23,10 @@ public void SetManualGroupField(int baseFieldIndex, double startVal, double endV
 | endVal | Double | Specifies the ending value for numeric grouping. |
 | groupByList | ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
 | intervalNum | Double | Specifies the interval number group by numeric grouping. |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 
@@ -35,6 +41,8 @@ public void SetManualGroupField(int baseFieldIndex, double startVal, double endV
 Sets manual field group by the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void SetManualGroupField(PivotField pivotField, double startVal, double endVal, 
     ArrayList groupByList, double intervalNum)
 ```
@@ -46,6 +54,10 @@ public void SetManualGroupField(PivotField pivotField, double startVal, double e
 | endVal | Double | Specifies the ending value for numeric grouping. |
 | groupByList | ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
 | intervalNum | Double | Specifies the interval number group by numeric grouping. |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 
@@ -61,6 +73,8 @@ public void SetManualGroupField(PivotField pivotField, double startVal, double e
 Sets manual field group by the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime endVal, 
     ArrayList groupByList, int intervalNum)
 ```
@@ -72,6 +86,10 @@ public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime 
 | endVal | DateTime | Specifies the ending value for date grouping. |
 | groupByList | ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
 | intervalNum | Int32 | Specifies the interval number group by in days grouping.The number of days must be positive integer of nonzero |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 
@@ -86,6 +104,8 @@ public void SetManualGroupField(int baseFieldIndex, DateTime startVal, DateTime 
 Sets manual field group by the PivotTable.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void SetManualGroupField(PivotField pivotField, DateTime startVal, DateTime endVal, 
     ArrayList groupByList, int intervalNum)
 ```
@@ -97,6 +117,10 @@ public void SetManualGroupField(PivotField pivotField, DateTime startVal, DateTi
 | endVal | DateTime | Specifies the ending value for date grouping. |
 | groupByList | ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
 | intervalNum | Int32 | Specifies the interval number group by in days grouping.The number of days must be positive integer of nonzero |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

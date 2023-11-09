@@ -1,13 +1,13 @@
 ---
 title: Enum PivotGroupByType
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotGroupByType enum. Represents PivotTable groupby type
+description: Aspose.Cells.Pivot.PivotGroupByType enum. Represents group by type
 type: docs
 url: /net/aspose.cells.pivot/pivotgroupbytype/
 ---
 ## PivotGroupByType enumeration
 
-Represents PivotTable groupby type.
+Represents group by type.
 
 ```csharp
 public enum PivotGroupByType
@@ -17,7 +17,8 @@ public enum PivotGroupByType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| RangeOfValues | `0` | Presents range of values groupby type. |
+| RangeOfValues | `0` | Group by numbers. |
+| Numbers | `0` | Group by numbers. |
 | Seconds | `1` | Presents Seconds groupby type. |
 | Minutes | `2` | Presents Minutes groupby type. |
 | Hours | `3` | Presents Hours groupby type. |

@@ -1,13 +1,11 @@
 ---
 title: SxRng.Start
 second_title: Aspose.Cells for .NET API Reference
-description: SxRng property. Represents the start object for the group range
+description: SxRng property. 
 type: docs
 url: /net/aspose.cells.pivot/sxrng/start/
 ---
 ## SxRng.Start property
-
-Represents the start object for the group range.
 
 ```csharp
 public object Start { get; }

@@ -10,7 +10,7 @@ url: /net/aspose.cells.griddesktop/contextmenumanager/contextmenu/
 Gets the shortcut menu associated with the control.
 
 ```csharp
-public ContextMenu ContextMenu { get; }
+public ContextMenuStrip ContextMenu { get; }
 ```
 
 ### See Also

@@ -1,11 +1,13 @@
 ---
 title: ColorFilter.GetColor
 second_title: Aspose.Cells for .NET API Reference
-description: ColorFilter method. 
+description: ColorFilter method. Gets the color of this filter
 type: docs
 url: /net/aspose.cells/colorfilter/getcolor/
 ---
 ## ColorFilter.GetColor method
+
+Gets the color of this filter.
 
 ```csharp
 public Color GetColor(WorksheetCollection sheets)

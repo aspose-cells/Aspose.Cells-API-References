@@ -5,27 +5,6 @@ description: GridCells method. Clears contents of a range
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridcells/clearcontents/
 ---
-## ClearContents(GridCellArea) {#clearcontents}
-
-Clears contents of a range.
-
-```csharp
-public void ClearContents(GridCellArea range)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| range | GridCellArea | Range to be cleared. |
-
-### See Also
-
-* class [GridCellArea](../../gridcellarea/)
-* class [GridCells](../)
-* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
-* assembly [Aspose.Cells.GridDesktop](../../../)
-
----
-
 ## ClearContents(int, int, int, int) {#clearcontents_1}
 
 Clears contents of a range.
@@ -43,6 +22,27 @@ public void ClearContents(int startRow, int startColumn, int endRow, int endColu
 
 ### See Also
 
+* class [GridCells](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## ClearContents(GridCellArea) {#clearcontents}
+
+Clears contents of a range.
+
+```csharp
+public void ClearContents(GridCellArea range)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | GridCellArea | Range to be cleared. |
+
+### See Also
+
+* class [GridCellArea](../../gridcellarea/)
 * class [GridCells](../)
 * namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
 * assembly [Aspose.Cells.GridDesktop](../../../)

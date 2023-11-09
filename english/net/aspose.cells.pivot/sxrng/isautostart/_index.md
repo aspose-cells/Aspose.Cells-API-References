@@ -1,13 +1,11 @@
 ---
 title: SxRng.IsAutoStart
 second_title: Aspose.Cells for .NET API Reference
-description: SxRng property. Specifies a boolean value that indicates whether the application will use the source data to set the beginning range value
+description: SxRng property. 
 type: docs
 url: /net/aspose.cells.pivot/sxrng/isautostart/
 ---
 ## SxRng.IsAutoStart property
-
-Specifies a boolean value that indicates whether the application will use the source data to set the beginning range value.
 
 ```csharp
 public object IsAutoStart { get; }

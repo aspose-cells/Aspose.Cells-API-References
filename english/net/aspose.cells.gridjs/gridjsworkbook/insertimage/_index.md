@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.InsertImage
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook method. Inserts image in the worksheet from file stream or the URLeither the file stream or the URL shall be provided
+description: GridJsWorkbook method. Inserts image in the worksheet from file stream or the URLeither the file stream or the URL shall be provided or Inserts shape when the p.type is one of AutoShapeType
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/insertimage/
 ---
 ## GridJsWorkbook.InsertImage method
 
-Inserts image in the worksheet from file stream or the URL,(either the file stream or the URL shall be provided)
+Inserts image in the worksheet from file stream or the URL,(either the file stream or the URL shall be provided) or Inserts shape ,when the p.type is one of AutoShapeType
 
 ```csharp
 public string InsertImage(string uid, string p, Stream s, string imageUrl)

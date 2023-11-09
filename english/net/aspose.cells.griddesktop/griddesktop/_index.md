@@ -66,6 +66,8 @@ public class GridDesktop : UserControl
 | [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile/#exportexcelfile_2)(string) | Exports to an excel file. |
 | [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile/#exportexcelfile_1)(Stream, FileFormatType) | Exports to a excel file stream, including disk IO stream or memory stream. |
 | [ExportExcelFile](../../aspose.cells.griddesktop/griddesktop/exportexcelfile/#exportexcelfile_3)(string, FileFormatType) | Exports to a excel file. |
+| [ExportPdfFile](../../aspose.cells.griddesktop/griddesktop/exportpdffile/#exportpdffile)(Stream, GridPdfSaveOptions) | Exports to a pdf file stream, including disk IO stream or memory stream. |
+| [ExportPdfFile](../../aspose.cells.griddesktop/griddesktop/exportpdffile/#exportpdffile_1)(string, GridPdfSaveOptions) | Exports to a pdf file stream, including disk IO stream or memory stream. |
 | [GetActiveWorksheet](../../aspose.cells.griddesktop/griddesktop/getactiveworksheet/)() | Gets current active worksheet. |
 | [getHScrollBar](../../aspose.cells.griddesktop/griddesktop/gethscrollbar/)() | return horizontal scroll bar |
 | [getVScrollBar](../../aspose.cells.griddesktop/griddesktop/getvscrollbar/)() | return vertical scroll bar |

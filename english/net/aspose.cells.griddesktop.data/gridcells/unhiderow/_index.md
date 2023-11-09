@@ -10,12 +10,13 @@ url: /net/aspose.cells.griddesktop.data/gridcells/unhiderow/
 Unhides a row.
 
 ```csharp
-public void UnhideRow(int row)
+public void UnhideRow(int row, int height)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | Int32 | Row index. |
+| height | Int32 | Row height. The row's height will be changed only when the row is hidden and given height value is positive. |
 
 ### See Also
 

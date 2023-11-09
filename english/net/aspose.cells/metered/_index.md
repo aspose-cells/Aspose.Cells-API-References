@@ -23,9 +23,11 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
+| [GetProductName](../../aspose.cells/metered/getproductname/)() | Gets the product name |
 | [SetMeteredKey](../../aspose.cells/metered/setmeteredkey/)(string, string) | Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 | static [GetConsumptionCredit](../../aspose.cells/metered/getconsumptioncredit/)() | Gets consumption credit |
 | static [GetConsumptionQuantity](../../aspose.cells/metered/getconsumptionquantity/)() | Gets consumption file size |
+| static [IsMeteredLicensed](../../aspose.cells/metered/ismeteredlicensed/)() | Check whether metered is licensed |
 
 ### Examples
 

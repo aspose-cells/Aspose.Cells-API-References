@@ -17,13 +17,13 @@ public class ColorFilter
 
 | Name | Description |
 | --- | --- |
-| [FilterByFillColor](../../aspose.cells/colorfilter/filterbyfillcolor/) { get; set; } | Flag indicating whether filter by the cell's fill color. |
+| [FilterByFillColor](../../aspose.cells/colorfilter/filterbyfillcolor/) { get; set; } | Whether filter by the cell's fill color. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetColor](../../aspose.cells/colorfilter/getcolor/)(WorksheetCollection) |  |
+| [GetColor](../../aspose.cells/colorfilter/getcolor/)(WorksheetCollection) | Gets the color of this filter. |
 
 ### See Also
 

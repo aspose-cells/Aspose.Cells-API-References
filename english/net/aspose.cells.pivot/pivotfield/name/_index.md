@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivotfield/name/
 Represents the PivotField name.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### See Also

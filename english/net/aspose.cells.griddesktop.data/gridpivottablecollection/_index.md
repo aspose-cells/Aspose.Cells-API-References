@@ -18,7 +18,7 @@ public class GridPivotTableCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.griddesktop.data/gridpivottablecollection/count/) { get; } |  |
-| [Item](../../aspose.cells.griddesktop.data/gridpivottablecollection/item/) { get; } | Gets the PivotTable element at the specified index. |
+| [Item](../../aspose.cells.griddesktop.data/gridpivottablecollection/item/) { get; } | Gets the [`GridPivotTable`](../gridpivottable/) element at the specified index. |
 
 ## Methods
 
@@ -29,7 +29,8 @@ public class GridPivotTableCollection
 | [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add/#add)(Worksheet, GridCellArea, string, string) | Adds a new PivotTable cache to a PivotCaches collection. |
 | [Add](../../aspose.cells.griddesktop.data/gridpivottablecollection/add/#add_1)(string, GridCellArea, int, int, string) | Adds a new PivotTable cache to a PivotCaches collection. |
 | [Clear](../../aspose.cells.griddesktop.data/gridpivottablecollection/clear/)() | Clears all PivotTables. |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridpivottablecollection/removeat/)(int) | Remove the PivotTable at the specified index. |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridpivottablecollection/removeat/#removeat)(int) | Remove the PivotTable at the specified index. |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridpivottablecollection/removeat/#removeat_1)(int, bool) | Deletes the PivotTable at the specified index |
 
 ### See Also
 

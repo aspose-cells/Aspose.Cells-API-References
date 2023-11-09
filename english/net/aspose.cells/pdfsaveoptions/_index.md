@@ -30,7 +30,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [CheckFontCompatibility](../../aspose.cells/paginatedsaveoptions/checkfontcompatibility/) { get; set; } | Indicates whether to check font compatibility for every character in text.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [CheckWorkbookDefaultFont](../../aspose.cells/paginatedsaveoptions/checkworkbookdefaultfont/) { get; set; } | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set this to true to try to use workbook's default font to show these characters first.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
-| [Compliance](../../aspose.cells/pdfsaveoptions/compliance/) { get; set; } | Workbook converts to pdf will according to PdfCompliance in this property. |
+| [Compliance](../../aspose.cells/pdfsaveoptions/compliance/) { get; set; } | Gets or sets the PDF standards compliance level for output documents. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CreatedTime](../../aspose.cells/pdfsaveoptions/createdtime/) { get; set; } | Gets and sets the time of generating the pdf document. |
 | [CustomPropertiesExport](../../aspose.cells/pdfsaveoptions/custompropertiesexport/) { get; set; } | Gets or sets a value determining the way [`CustomDocumentPropertyCollection`](../../aspose.cells.properties/customdocumentpropertycollection/) are exported to PDF file. Default value is None. |
@@ -39,7 +39,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [DisplayDocTitle](../../aspose.cells/pdfsaveoptions/displaydoctitle/) { get; set; } | Indicates whether the window's title bar should display the document title. |
 | [DrawObjectEventHandler](../../aspose.cells/paginatedsaveoptions/drawobjecteventhandler/) { get; set; } | Implements this interface to get DrawObject and Bound when rendering.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [EmbedStandardWindowsFonts](../../aspose.cells/pdfsaveoptions/embedstandardwindowsfonts/) { get; set; } | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
-| [EmfRenderSetting](../../aspose.cells/pdfsaveoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafile. |
+| [EmfRenderSetting](../../aspose.cells/paginatedsaveoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafile.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [ExportDocumentStructure](../../aspose.cells/pdfsaveoptions/exportdocumentstructure/) { get; set; } | Indicates whether to export document structure. |
 | [FontEncoding](../../aspose.cells/pdfsaveoptions/fontencoding/) { get; set; } | Gets or sets embedded font encoding in pdf. |
 | [GridlineType](../../aspose.cells/paginatedsaveoptions/gridlinetype/) { get; set; } | Gets or sets gridline type.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |

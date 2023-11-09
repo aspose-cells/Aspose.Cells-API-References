@@ -44,6 +44,7 @@ public class CellsHelper
 | static [GetUsedColors](../../aspose.cells/cellshelper/getusedcolors/)(Workbook) | Gets all used colors in the workbook. |
 | static [GetVersion](../../aspose.cells/cellshelper/getversion/)() | Get the release version. |
 | static [MergeFiles](../../aspose.cells/cellshelper/mergefiles/)(string[], string, string) | Merges some large xls files to a xls file. |
+| static [NeedQuoteInFormula](../../aspose.cells/cellshelper/needquoteinformula/)(string) | Indicates whether the name of the sheet should be enclosed in single quotes |
 | static [RowIndexToName](../../aspose.cells/cellshelper/rowindextoname/)(int) | Gets row name according to row index. |
 | static [RowNameToIndex](../../aspose.cells/cellshelper/rownametoindex/)(string) | Gets row index according to row name. |
 

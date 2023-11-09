@@ -20,7 +20,7 @@ public class GridWorksheetCollection : CollectionBase, ISerializable
 | [ActiveSheetIndex](../../aspose.cells.gridweb.data/gridworksheetcollection/activesheetindex/) { get; set; } |  |
 | [Count](../../aspose.cells.gridweb.data/gridworksheetcollection/count/) { get; } |  |
 | [DefaultFontName](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname/) { get; set; } | Gets or sets the control's default font name. |
-| [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize/) { get; set; } | Gets or sets the control's default font size. |
+| [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize/) { get; set; } | ????????? |
 | [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized/) { get; } | Gets a value indicating if access to the ICollection is synchronized (thread-safe). |
 | [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item/) { get; } | Gets the [`GridWorksheet`](../gridworksheet/) element at the specified index. (2 indexers) |
 | [Names](../../aspose.cells.gridweb.data/gridworksheetcollection/names/) { get; } | Gets the collection of all the Name objects in the spreadsheet. |
@@ -42,7 +42,7 @@ public class GridWorksheetCollection : CollectionBase, ISerializable
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator/#getenumerator)() | Gets the rows enumerator |
 | [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview/#importdataview)(DataView, TableItemStyle, TableItemStyle) | Imports from a DataView. Creates a sheet with the DataView's table name automatically. |
 | [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview/#importdataview_1)(DataView, TableItemStyle, TableItemStyle, string, int, int) | Imports from a DataView to the specified sheet and position. |
-| [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert/)(int, string) |  |
+| [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert/)(int, string) | Insert a worksheet. |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat/#removeat)(int) | Removes the element at a specified index. |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat/#removeat_2)(string) | Removes the element at a specified name. |
 | [SetVisible](../../aspose.cells.gridweb.data/gridworksheetcollection/setvisible/)(string, bool) | Sets the visible options. |

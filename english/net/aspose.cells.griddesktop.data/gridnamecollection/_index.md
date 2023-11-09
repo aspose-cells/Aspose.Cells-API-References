@@ -1,13 +1,13 @@
 ---
 title: Class GridNameCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.GridDesktop.Data.GridNameCollection class. Encapsulates a collection of Name objects
+description: Aspose.Cells.GridDesktop.Data.GridNameCollection class. Encapsulates a collection of GridName objects
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridnamecollection/
 ---
 ## GridNameCollection class
 
-Encapsulates a collection of Name objects.
+Encapsulates a collection of [`GridName`](../gridname/) objects.
 
 ```csharp
 public class GridNameCollection

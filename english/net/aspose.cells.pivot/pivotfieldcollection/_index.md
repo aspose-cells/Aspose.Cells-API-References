@@ -29,6 +29,7 @@ public class PivotFieldCollection : IEnumerable
 | [AddByBaseIndex](../../aspose.cells.pivot/pivotfieldcollection/addbybaseindex/)(int) | Adds a PivotField Object to the specific type PivotFields. |
 | [Clear](../../aspose.cells.pivot/pivotfieldcollection/clear/)() | clear all fields of PivotFieldCollection |
 | [GetEnumerator](../../aspose.cells.pivot/pivotfieldcollection/getenumerator/)() | Gets an enumerator over the elements in this collection in proper sequence. |
+| [Move](../../aspose.cells.pivot/pivotfieldcollection/move/)(int, int) | Moves the PivotField from current position to destination position |
 
 ### See Also
 

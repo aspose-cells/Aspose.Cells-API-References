@@ -1,13 +1,13 @@
 ---
 title: GridPivotTableCollection.Item
 second_title: Aspose.Cells for .NET API Reference
-description: GridPivotTableCollection property. Gets the PivotTable element at the specified index
+description: GridPivotTableCollection property. Gets the GridPivotTable element at the specified index
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridpivottablecollection/item/
 ---
 ## GridPivotTableCollection indexer
 
-Gets the PivotTable element at the specified index.
+Gets the [`GridPivotTable`](../../gridpivottable/) element at the specified index.
 
 ```csharp
 public GridPivotTable this[int index] { get; }

@@ -17,7 +17,11 @@ public enum PdfCompliance
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | Normal pdf format |
+| None | `0` | Pdf format compatible with PDF 1.4 |
+| Pdf14 | `0` | Pdf format compatible with PDF 1.4 |
+| Pdf15 | `3` | Pdf format compatible with PDF 1.5 |
+| Pdf16 | `4` | Pdf format compatible with PDF 1.6 |
+| Pdf17 | `5` | Pdf format compatible with PDF 1.7 |
 | PdfA1b | `1` | Pdf format compatible with PDFA-1b |
 | PdfA1a | `2` | Pdf format compatible with PDFA-1a |
 

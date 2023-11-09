@@ -23,14 +23,14 @@ public class GridCells : IEnumerable
 | [Item](../../aspose.cells.griddesktop.data/gridcells/item/) { get; } | Gets [`GridCell`](../gridcell/) item within the worksheet (3 indexers) |
 | [LastCell](../../aspose.cells.griddesktop.data/gridcells/lastcell/) { get; } |  |
 | [MaxColumn](../../aspose.cells.griddesktop.data/gridcells/maxcolumn/) { get; } | Maximum column index of cell which contains data or style. |
-| [MaxDataColumn](../../aspose.cells.griddesktop.data/gridcells/maxdatacolumn/) { get; } |  |
-| [MaxDataRow](../../aspose.cells.griddesktop.data/gridcells/maxdatarow/) { get; } |  |
+| [MaxDataColumn](../../aspose.cells.griddesktop.data/gridcells/maxdatacolumn/) { get; } | Maximum column index of cell which contains data. |
+| [MaxDataRow](../../aspose.cells.griddesktop.data/gridcells/maxdatarow/) { get; } | Maximum row index of cell which contains data. |
 | [MaxRow](../../aspose.cells.griddesktop.data/gridcells/maxrow/) { get; } | Maximum row index of cell which contains data or style. |
 | [MergedCells](../../aspose.cells.griddesktop.data/gridcells/mergedcells/) { get; } | Gets the collection of merged cells. |
-| [MinColumn](../../aspose.cells.griddesktop.data/gridcells/mincolumn/) { get; } |  |
-| [MinDataColumn](../../aspose.cells.griddesktop.data/gridcells/mindatacolumn/) { get; } |  |
-| [MinDataRow](../../aspose.cells.griddesktop.data/gridcells/mindatarow/) { get; } |  |
-| [MinRow](../../aspose.cells.griddesktop.data/gridcells/minrow/) { get; } |  |
+| [MinColumn](../../aspose.cells.griddesktop.data/gridcells/mincolumn/) { get; } | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [MinDataColumn](../../aspose.cells.griddesktop.data/gridcells/mindatacolumn/) { get; } | Minimum column index of cell which contains data. |
+| [MinDataRow](../../aspose.cells.griddesktop.data/gridcells/mindatarow/) { get; } | Minimum row index of cell which contains data. |
+| [MinRow](../../aspose.cells.griddesktop.data/gridcells/minrow/) { get; } | Minimum row index of cell which contains data or style. |
 | [RowEnumerator](../../aspose.cells.griddesktop.data/gridcells/rowenumerator/) { get; } | Gets the rows enumerator |
 | [Rows](../../aspose.cells.griddesktop.data/gridcells/rows/) { get; } | Gets the collection of [`GridRow`](../gridrow/) objects that represents the individual rows in this worksheet. |
 | [StandardHeight](../../aspose.cells.griddesktop.data/gridcells/standardheight/) { get; set; } | Gets or sets the default row height in this worksheet,in unit of points. |
@@ -79,7 +79,9 @@ public class GridCells : IEnumerable
 | [GroupColumns](../../aspose.cells.griddesktop.data/gridcells/groupcolumns/#groupcolumns_1)(int, int, bool) | Groups columns. |
 | [GroupRows](../../aspose.cells.griddesktop.data/gridcells/grouprows/)(int, int) | Groups rows. |
 | [HideColumn](../../aspose.cells.griddesktop.data/gridcells/hidecolumn/)(int) | Hides a column. |
+| [HideColumns](../../aspose.cells.griddesktop.data/gridcells/hidecolumns/)(int, int) | Hide multiple columns. |
 | [HideRow](../../aspose.cells.griddesktop.data/gridcells/hiderow/)(int) | Hides a row. |
+| [HideRows](../../aspose.cells.griddesktop.data/gridcells/hiderows/)(int, int) | Hides multiple rows. |
 | [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn/#insertcolumn)(int) | Inserts a new column into the worksheet. |
 | [InsertColumn](../../aspose.cells.griddesktop.data/gridcells/insertcolumn/#insertcolumn_1)(int, bool) | Inserts a new column into the worksheet. |
 | [InsertColumns](../../aspose.cells.griddesktop.data/gridcells/insertcolumns/#insertcolumns)(int, int) | Inserts some columns into the worksheet. |
@@ -106,7 +108,9 @@ public class GridCells : IEnumerable
 | [UngroupColumns](../../aspose.cells.griddesktop.data/gridcells/ungroupcolumns/)(int, int) | Ungroups columns. |
 | [UngroupRows](../../aspose.cells.griddesktop.data/gridcells/ungrouprows/)(int, int) | Ungroups rows. |
 | [UnhideColumn](../../aspose.cells.griddesktop.data/gridcells/unhidecolumn/)(int, double) | Unhides a column |
-| [UnhideRow](../../aspose.cells.griddesktop.data/gridcells/unhiderow/)(int) | Unhides a row. |
+| [UnhideColumns](../../aspose.cells.griddesktop.data/gridcells/unhidecolumns/)(int, int, double) | Unhide multiple columns. |
+| [UnhideRow](../../aspose.cells.griddesktop.data/gridcells/unhiderow/)(int, int) | Unhides a row. |
+| [UnhideRows](../../aspose.cells.griddesktop.data/gridcells/unhiderows/)(int, int, double) | Unhides the hidden rows. |
 | [UnMerge](../../aspose.cells.griddesktop.data/gridcells/unmerge/)(int, int, int, int) | Unmerges a specified range of merged cells. |
 | static [CellIndexToName](../../aspose.cells.griddesktop.data/gridcells/cellindextoname/)(int, int) | Gets cell name according to its row and column indexes. |
 | static [CellNameToIndex](../../aspose.cells.griddesktop.data/gridcells/cellnametoindex/)(string, out int, out int) | Gets the cell row and column indexes according to its name |

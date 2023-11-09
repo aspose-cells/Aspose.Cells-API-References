@@ -25,8 +25,10 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | [GridFont](./gridfont/) | Encapsulates the font object used in a spreadsheet. |
 | [GridHyperlink](./gridhyperlink/) | Encapsulates the object that represents a hyperlink. |
 | [GridHyperlinkCollection](./gridhyperlinkcollection/) | Encapsulates a collection of Hyperlink objects. |
+| [GridImageOrPrintOptions](./gridimageorprintoptions/) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
 | [GridName](./gridname/) | Encapsulates the object that represents a name object. |
-| [GridNameCollection](./gridnamecollection/) | Encapsulates a collection of Name objects. |
+| [GridNameCollection](./gridnamecollection/) | Encapsulates a collection of [`GridName`](../aspose.cells.griddesktop.data/gridname/) objects. |
+| [GridPdfSaveOptions](./gridpdfsaveoptions/) | Represents the options for saving pdf file. |
 | [GridPicture](./gridpicture/) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [GridPictureCollection](./gridpicturecollection/) | Encapsulates a collection of Picture objects. |
 | [GridPivotField](./gridpivotfield/) | Represents a field in a PivotTable report. |
@@ -38,6 +40,8 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | [GridRow](./gridrow/) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [GridRowCollection](./gridrowcollection/) | Encapsulates a collection of [`GridRow`](../aspose.cells.griddesktop.data/gridrow/) objects. |
 | [GridShapeCollection](./gridshapecollection/) | Encapsulates a collection of [`Shape`](../aspose.cells.griddesktop/shape/) objects. |
+| [GridSheetPrintingPreview](./gridsheetprintingpreview/) | Worksheet printing preview. |
+| [GridSheetRender](./gridsheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
 | [GridValidation](./gridvalidation/) | Represents data validation.settings. |
 | [GridValidationCollection](./gridvalidationcollection/) | Encapsulates a collection of [`GridValidation`](../aspose.cells.griddesktop.data/gridvalidation/) objects. |
 | [GridWorkbook](./gridworkbook/) | Represents a root object to create an Excel spreadsheet. |
@@ -49,15 +53,24 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | Enumeration | Description |
 | --- | --- |
 | [GridCellErrorType](./gridcellerrortype/) | Used in WebCellException. Represents the cell error type. |
+| [GridEmfRenderSetting](./gridemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GridFilterOperatorType](./gridfilteroperatortype/) | Custom Filter operator type. |
 | [GridImageType](./gridimagetype/) | Specifies the type (format) of an image. |
+| [GridlineType](./gridlinetype/) | Enumerates grid line Type. |
 | [GridLoadDataFilterOptions](./gridloaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. |
 | [GridMsoDrawingType](./gridmsodrawingtype/) | Represents office drawing objects type. |
 | [GridOperatorType](./gridoperatortype/) | Represents the operator type of conditional format and data validation. |
 | [GridPasteType](./gridpastetype/) | Represents the paste special type. |
+| [GridPdfCompliance](./gridpdfcompliance/) | Allowing user to set PDF conversion's Compatibility |
+| [GridPdfCompressionCore](./gridpdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. |
+| [GridPdfCustomPropertiesExport](./gridpdfcustompropertiesexport/) | Specifies the way are exported to PDF file. |
+| [GridPdfFontEncoding](./gridpdffontencoding/) | Represents pdf embedded font encoding. |
+| [GridPdfOptimizationType](./gridpdfoptimizationtype/) | Specifies a type of optimization. |
 | [GridPivotFieldFunction](./gridpivotfieldfunction/) | Represents consolidation function. |
 | [GridPivotFieldType](./gridpivotfieldtype/) | Represents PivotTable field type. |
+| [GridPrintingPageType](./gridprintingpagetype/) | Indicates which pages will not be printed. |
 | [GridSaveFormat](./gridsaveformat/) | Enumerates supported file format types. |
+| [GridTextCrossType](./gridtextcrosstype/) | Enumerates displaying text type when the text width is larger than cell width. |
 | [GridValidationType](./gridvalidationtype/) | Represents data validation type. |
 | [NumberType](./numbertype/) | Represents the number or datetime format type. |
 | [OnErrorActionType](./onerroractiontype/) | Used in CellError event of the GridWeb. User set the OnErrorActionQuery.OnErrorAction to tell the control Stop processing or Ignore error. |
