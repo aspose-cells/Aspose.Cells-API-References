@@ -95,6 +95,7 @@ Represents a field in a PivotTable report.
 | [getDragToPage()](#getDragToPage--) | Indicates whether the specified field can be dragged to the page position. |
 | [getDragToRow()](#getDragToRow--) | Indicates whether the specified field can be dragged to the row position. |
 | [getFunction()](#getFunction--) | Represents the function used to summarize the PivotTable data field. |
+| [getGroupSettings()](#getGroupSettings--) | Gets the group settings of the pivot field. |
 | [getInsertBlankRow()](#getInsertBlankRow--) | Indicates whether inserting blank line after each item. |
 | [getItemCount()](#getItemCount--) | Gets the base item count of this pivot field. |
 | [getItems()](#getItems--) | Get all base items; |
@@ -113,6 +114,9 @@ Represents a field in a PivotTable report.
 | [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether layout this field in outline form on the Pivot Table view |
 | [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [getSubtotals(int subtotalType)](#getSubtotals-int-) | Gets whether the specified field shows that subtotals. |
+| [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
+| [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
+| [groupBy(double start, double end, double interval, boolean newField)](#groupBy-double-double-double-boolean-) | Group the file by number. |
 | [hashCode()](#hashCode--) |  |
 | [hideDetail(boolean isHiddenDetail)](#hideDetail-boolean-) | Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. |
 | [hideItem(int index, boolean isHidden)](#hideItem-int-boolean-) | Sets whether the specific PivotItem in a data field is hidden. |
@@ -158,6 +162,7 @@ Represents a field in a PivotTable report.
 | [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | Indicates whether inserting blank line after each item. |
 | [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | indicates whether the field can insert page breaks between items insert page break after each item The default value is false. |
 | [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | indicates whether the field can have multiple items selected in the page field The default value is false. |
+| [setName(String value)](#setName-java.lang.String-) | Represents the PivotField name. |
 | [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [setNumber(int value)](#setNumber-int-) | Represents the built-in display format of numbers and dates. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the custom display format of numbers and dates. |
@@ -168,6 +173,7 @@ Represents a field in a PivotTable report.
 | [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets whether the specified field shows that subtotals. |
 | [toString()](#toString--) |  |
+| [ungroup()](#ungroup--) | Ungroup the pivot field. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -390,6 +396,16 @@ See [ConsolidationFunction](../../com.aspose.cells/consolidationfunction).
 
 **Returns:**
 int
+### getGroupSettings() {#getGroupSettings--}
+```
+public PivotFieldGroupSettings getGroupSettings()
+```
+
+
+Gets the group settings of the pivot field.
+
+**Returns:**
+[PivotFieldGroupSettings](../../com.aspose.cells/pivotfieldgroupsettings)
 ### getInsertBlankRow() {#getInsertBlankRow--}
 ```
 public boolean getInsertBlankRow()
@@ -523,6 +539,10 @@ public SxRng getRange()
 
 Gets the group range of the pivot field
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupSettings property. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 [SxRng](../../com.aspose.cells/sxrng)
 ### getShowAllItems() {#getShowAllItems--}
@@ -580,6 +600,53 @@ Gets whether the specified field shows that subtotals.
 
 **Returns:**
 boolean - whether the specified field shows that subtotals.
+### groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField) {#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-}
+```
+public void groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)
+```
+
+
+Custom group the field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | [CustomPiovtFieldGroupItem\[\]](../../com.aspose.cells/custompiovtfieldgroupitem) | The custom group items. |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+### groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField) {#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-}
+```
+public void groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)
+```
+
+
+Group the file by the date group types.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | [DateTime](../../com.aspose.cells/datetime) | The start datetime |
+| end | [DateTime](../../com.aspose.cells/datetime) | The end of datetime |
+| groups | int[] | [PivotGroupByType](../../com.aspose.cells/pivotgroupbytype). Group types |
+| interval | double | The interval |
+| firstAsNewField | boolean | Indicates whether adding a new field to the pivottable. Only for the first group item. |
+
+### groupBy(double start, double end, double interval, boolean newField) {#groupBy-double-double-double-boolean-}
+```
+public void groupBy(double start, double end, double interval, boolean newField)
+```
+
+
+Group the file by number.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | double | The start value |
+| end | double | The end of value |
+| interval | double | The interval |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -1130,6 +1197,19 @@ indicates whether the field can have multiple items selected in the page field T
 | --- | --- | --- |
 | value | boolean |  |
 
+### setName(String value) {#setName-java.lang.String-}
+```
+public void setName(String value)
+```
+
+
+Represents the PivotField name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
 ### setNonAutoSortDefault(boolean value) {#setNonAutoSortDefault-boolean-}
 ```
 public void setNonAutoSortDefault(boolean value)
@@ -1258,6 +1338,14 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### ungroup() {#ungroup--}
+```
+public void ungroup()
+```
+
+
+Ungroup the pivot field.
+
 ### wait() {#wait--}
 ```
 public final void wait()

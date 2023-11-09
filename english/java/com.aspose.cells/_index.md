@@ -151,6 +151,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CustomFunctionDefinition](../com.aspose.cells/customfunctiondefinition) | Definition of custom function for calculating with user's custom engine. |
 | [CustomGeometry](../com.aspose.cells/customgeometry) | Represents a custom geometric shape. |
 | [CustomImplementationFactory](../com.aspose.cells/customimplementationfactory) | Factory to create some instances which may be re-implemented by user for special purpose. |
+| [CustomPiovtFieldGroupItem](../com.aspose.cells/custompiovtfieldgroupitem) | Represents an item of custom grouped field. |
 | [CustomProperty](../com.aspose.cells/customproperty) | Represents identifier information. |
 | [CustomPropertyCollection](../com.aspose.cells/custompropertycollection) | A collection of [CustomProperty](../com.aspose.cells/customproperty) objects that represent additional information. |
 | [CustomXmlPart](../com.aspose.cells/customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
@@ -436,9 +437,13 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotAreaType](../com.aspose.cells/pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |
 | [PivotConditionFormatRuleType](../com.aspose.cells/pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](../com.aspose.cells/pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
+| [PivotDateTimeRangeGroupSettings](../com.aspose.cells/pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
+| [PivotDiscreteGroupSettings](../com.aspose.cells/pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
 | [PivotField](../com.aspose.cells/pivotfield) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](../com.aspose.cells/pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
 | [PivotFieldDataDisplayFormat](../com.aspose.cells/pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |
+| [PivotFieldGroupSettings](../com.aspose.cells/pivotfieldgroupsettings) | Represents the group setting of pivot field. |
+| [PivotFieldGroupType](../com.aspose.cells/pivotfieldgrouptype) | Represents the group type of pivot field. |
 | [PivotFieldSubtotalType](../com.aspose.cells/pivotfieldsubtotaltype) | Summary description for PivotFieldSubtotalType. |
 | [PivotFieldType](../com.aspose.cells/pivotfieldtype) | Represents PivotTable field type. |
 | [PivotFilter](../com.aspose.cells/pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
@@ -447,11 +452,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotFormatCondition](../com.aspose.cells/pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotFormatConditionCollection](../com.aspose.cells/pivotformatconditioncollection) | Represents PivotTable Format Conditions. |
 | [PivotGlobalizationSettings](../com.aspose.cells/pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
-| [PivotGroupByType](../com.aspose.cells/pivotgroupbytype) | Represents PivotTable groupby type. |
+| [PivotGroupByType](../com.aspose.cells/pivotgroupbytype) | Represents group by type. |
 | [PivotItem](../com.aspose.cells/pivotitem) | Represents a item in a PivotField report. |
 | [PivotItemCollection](../com.aspose.cells/pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |
 | [PivotItemPosition](../com.aspose.cells/pivotitemposition) | Represents PivotTable base item Next/Previous/All position in the base field . |
 | [PivotMissingItemLimitType](../com.aspose.cells/pivotmissingitemlimittype) | Represents number of items to retain per field. |
+| [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](../com.aspose.cells/pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](../com.aspose.cells/pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. |
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |

@@ -17,7 +17,11 @@ Allowing user to set PDF conversion's Compatibility
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Normal pdf format |
+| [NONE](#NONE) | Pdf format compatible with PDF 1.4 |
+| [PDF_14](#PDF-14) | Pdf format compatible with PDF 1.4 |
+| [PDF_15](#PDF-15) | Pdf format compatible with PDF 1.5 |
+| [PDF_16](#PDF-16) | Pdf format compatible with PDF 1.6 |
+| [PDF_17](#PDF-17) | Pdf format compatible with PDF 1.7 |
 | [PDF_A_1_A](#PDF-A-1-A) | Pdf format compatible with PDFA-1a |
 | [PDF_A_1_B](#PDF-A-1-B) | Pdf format compatible with PDFA-1b |
 ## Methods
@@ -39,7 +43,43 @@ public static final int NONE
 ```
 
 
-Normal pdf format
+Pdf format compatible with PDF 1.4
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [PDF\_14](../../com.aspose.cells/pdfcompliance\#PDF-14) property. This property will be removed 6 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+### PDF_14 {#PDF-14}
+```
+public static final int PDF_14
+```
+
+
+Pdf format compatible with PDF 1.4
+
+### PDF_15 {#PDF-15}
+```
+public static final int PDF_15
+```
+
+
+Pdf format compatible with PDF 1.5
+
+### PDF_16 {#PDF-16}
+```
+public static final int PDF_16
+```
+
+
+Pdf format compatible with PDF 1.6
+
+### PDF_17 {#PDF-17}
+```
+public static final int PDF_17
+```
+
+
+Pdf format compatible with PDF 1.7
 
 ### PDF_A_1_A {#PDF-A-1-A}
 ```

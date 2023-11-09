@@ -66,6 +66,7 @@ Encapsulates the object that represents the chart legend.
 | [getHeight()](#getHeight--) | Gets the height of frame in units of 1/4000 of the chart area. |
 | [getLegendEntries()](#getLegendEntries--) | Gets a collection of all the LegendEntry objects in the specified chart legend. |
 | [getLegendEntriesLabels()](#getLegendEntriesLabels--) | Gets the labels of the legend entries after call Chart.Calculate() method. |
+| [getLegendLabels()](#getLegendLabels--) | Gets the labels of the legend entries after call Chart.Calculate() method. |
 | [getLinkedSource()](#getLinkedSource--) | Gets a reference to the worksheet. |
 | [getPosition()](#getPosition--) | Gets the legend position type. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
@@ -325,8 +326,22 @@ public ArrayList getLegendEntriesLabels()
 
 Gets the labels of the legend entries after call Chart.Calculate() method.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Legend.GetLegendLabels method. This property will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 java.util.ArrayList
+### getLegendLabels() {#getLegendLabels--}
+```
+public String[] getLegendLabels()
+```
+
+
+Gets the labels of the legend entries after call Chart.Calculate() method.
+
+**Returns:**
+java.lang.String[]
 ### getLinkedSource() {#getLinkedSource--}
 ```
 public String getLinkedSource()

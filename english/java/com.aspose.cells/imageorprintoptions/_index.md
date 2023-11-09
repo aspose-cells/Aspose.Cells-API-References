@@ -53,6 +53,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmbededImageNameInSvg()](#getEmbededImageNameInSvg--) | Indicate the filename of embedded image in svg. |
+| [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution for generated images, in dots per inch. |
 | [getImageType()](#getImageType--) | Gets the format of the generated images. |
@@ -91,6 +92,7 @@ Allows to specify options when rendering worksheet to images, printing worksheet
 | [setDesiredSize(int desiredWidth, int desiredHeight, boolean keepAspectRatio)](#setDesiredSize-int-int-boolean-) | Sets desired width and height of image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
 | [setEmbededImageNameInSvg(String value)](#setEmbededImageNameInSvg-java.lang.String-) | Indicate the filename of embedded image in svg. |
+| [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setHorizontalResolution(int value)](#setHorizontalResolution-int-) | Sets the horizontal resolution for generated images, in dots per inch. |
@@ -235,6 +237,22 @@ Indicate the filename of embedded image in svg. This should be full path with di
 
 **Returns:**
 java.lang.String
+### getEmfRenderSetting() {#getEmfRenderSetting--}
+```
+public int getEmfRenderSetting()
+```
+
+
+Setting for rendering Emf metafile.
+
+See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
+
+**Remarks**
+
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
+
+**Returns:**
+int
 ### getGridlineType() {#getGridlineType--}
 ```
 public int getGridlineType()
@@ -743,6 +761,25 @@ Indicate the filename of embedded image in svg. This should be full path with di
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setEmfRenderSetting(int value) {#setEmfRenderSetting-int-}
+```
+public void setEmfRenderSetting(int value)
+```
+
+
+Setting for rendering Emf metafile.
+
+See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
+
+**Remarks**
+
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setFontSubstitutionCharGranularity(boolean value) {#setFontSubstitutionCharGranularity-boolean-}
 ```

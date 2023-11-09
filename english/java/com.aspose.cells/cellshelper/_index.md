@@ -42,6 +42,7 @@ Provides helper functions.
 | [hashCode()](#hashCode--) |  |
 | [isCloudPlatform()](#isCloudPlatform--) | Please set this property True when running on a cloud platform, such as: Azure, AWSLambda, etc, |
 | [mergeFiles(String[] files, String cachedFile, String destFile)](#mergeFiles-java.lang.String---java.lang.String-java.lang.String-) | Merges some large xls files to a xls file. |
+| [needQuoteInFormula(String sheetName)](#needQuoteInFormula-java.lang.String-) | Indicates whether the name of the sheet should be enclosed in single quotes |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [rowIndexToName(int row)](#rowIndexToName-int-) | Gets row name according to row index. |
@@ -416,6 +417,21 @@ This method only supports merging data, style and formulas to the new file. The 
 | cachedFile | java.lang.String | The cached file. |
 | destFile | java.lang.String | The dest file. |
 
+### needQuoteInFormula(String sheetName) {#needQuoteInFormula-java.lang.String-}
+```
+public static boolean needQuoteInFormula(String sheetName)
+```
+
+
+Indicates whether the name of the sheet should be enclosed in single quotes
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetName | java.lang.String | The name of the sheet |
+
+**Returns:**
+boolean - 
 ### notify() {#notify--}
 ```
 public final native void notify()

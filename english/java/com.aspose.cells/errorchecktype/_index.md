@@ -17,15 +17,20 @@ Represents all error check type.
 
 | Field | Description |
 | --- | --- |
-| [CALC](#CALC) | check for calculation errors |
+| [CALC](#CALC) | **Remarks** |
 | [CALCULATED_COLUMN](#CALCULATED-COLUMN) | Ignore errors when cells contain a value different from a calculated column formula. |
-| [EMPTY_CELL_REF](#EMPTY-CELL-REF) | check for references to empty cells |
-| [INCONSIST_FORMULA](#INCONSIST-FORMULA) | check formulas that are inconsistent with formulas in neighboring cells. |
-| [INCONSIST_RANGE](#INCONSIST-RANGE) | check formulas with references to less than the entirety of a range containing continuous data |
-| [TEXT_DATE](#TEXT-DATE) | check the format of date/time values |
-| [TEXT_NUMBER](#TEXT-NUMBER) | check the format of numeric values |
-| [UNPROCTED_FORMULA](#UNPROCTED-FORMULA) | check for unprotected formulas |
-| [VALIDATION](#VALIDATION) | whether to perform data validation |
+| [EMPTY_CELL_REF](#EMPTY-CELL-REF) | Ignore errors when formulas refer to empty cells. |
+| [EVALUATION_ERROR](#EVALUATION-ERROR) | Ignore errors when cells contain formulas that result in an error. |
+| [INCONSIST_FORMULA](#INCONSIST-FORMULA) | Ignore errors when a formula in a region of your worksheet differs from other formulas in the same region. |
+| [INCONSIST_RANGE](#INCONSIST-RANGE) | Ignore errors when formulas omit certain cells in a region. |
+| [NUMBER_STORED_AS_TEXT](#NUMBER-STORED-AS-TEXT) | Ignore errors when numbers are formatted as text or are preceded by an apostrophe |
+| [TABLE_DATA_VALIDATION](#TABLE-DATA-VALIDATION) | Ignore errors when a cell's value in a Table does not comply with the Data Validation rules specified. |
+| [TEXT_DATE](#TEXT-DATE) | Ignore errors when formulas contain text formatted cells with years represented as 2 digits. |
+| [TEXT_NUMBER](#TEXT-NUMBER) | Ignore errors when numbers are formatted as text or are preceded by an apostrophe |
+| [TWO_DIGIT_TEXT_YEAR](#TWO-DIGIT-TEXT-YEAR) | Ignore errors when formulas contain text formatted cells with years represented as 2 digits. |
+| [UNLOCKED_FORMULA](#UNLOCKED-FORMULA) | Ignore errors when unlocked cells contain formulas. |
+| [UNPROCTED_FORMULA](#UNPROCTED-FORMULA) | Ignore errors when unlocked cells contain formulas. |
+| [VALIDATION](#VALIDATION) | Ignore errors when a cell's value in a Table does not comply with the Data Validation rules specified. |
 ## Methods
 
 | Method | Description |
@@ -45,7 +50,9 @@ public static final int CALC
 ```
 
 
-check for calculation errors
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ErrorCheckType.EvaluationError enum. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### CALCULATED_COLUMN {#CALCULATED-COLUMN}
 ```
@@ -61,7 +68,15 @@ public static final int EMPTY_CELL_REF
 ```
 
 
-check for references to empty cells
+Ignore errors when formulas refer to empty cells.
+
+### EVALUATION_ERROR {#EVALUATION-ERROR}
+```
+public static final int EVALUATION_ERROR
+```
+
+
+Ignore errors when cells contain formulas that result in an error.
 
 ### INCONSIST_FORMULA {#INCONSIST-FORMULA}
 ```
@@ -69,7 +84,7 @@ public static final int INCONSIST_FORMULA
 ```
 
 
-check formulas that are inconsistent with formulas in neighboring cells.
+Ignore errors when a formula in a region of your worksheet differs from other formulas in the same region.
 
 ### INCONSIST_RANGE {#INCONSIST-RANGE}
 ```
@@ -77,7 +92,23 @@ public static final int INCONSIST_RANGE
 ```
 
 
-check formulas with references to less than the entirety of a range containing continuous data
+Ignore errors when formulas omit certain cells in a region.
+
+### NUMBER_STORED_AS_TEXT {#NUMBER-STORED-AS-TEXT}
+```
+public static final int NUMBER_STORED_AS_TEXT
+```
+
+
+Ignore errors when numbers are formatted as text or are preceded by an apostrophe
+
+### TABLE_DATA_VALIDATION {#TABLE-DATA-VALIDATION}
+```
+public static final int TABLE_DATA_VALIDATION
+```
+
+
+Ignore errors when a cell's value in a Table does not comply with the Data Validation rules specified.
 
 ### TEXT_DATE {#TEXT-DATE}
 ```
@@ -85,7 +116,11 @@ public static final int TEXT_DATE
 ```
 
 
-check the format of date/time values
+Ignore errors when formulas contain text formatted cells with years represented as 2 digits.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ErrorCheckType.TwoDigitTextYear enum. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### TEXT_NUMBER {#TEXT-NUMBER}
 ```
@@ -93,7 +128,27 @@ public static final int TEXT_NUMBER
 ```
 
 
-check the format of numeric values
+Ignore errors when numbers are formatted as text or are preceded by an apostrophe
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ErrorCheckType.NumberStoredAsText enum. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
+
+### TWO_DIGIT_TEXT_YEAR {#TWO-DIGIT-TEXT-YEAR}
+```
+public static final int TWO_DIGIT_TEXT_YEAR
+```
+
+
+Ignore errors when formulas contain text formatted cells with years represented as 2 digits.
+
+### UNLOCKED_FORMULA {#UNLOCKED-FORMULA}
+```
+public static final int UNLOCKED_FORMULA
+```
+
+
+Ignore errors when unlocked cells contain formulas.
 
 ### UNPROCTED_FORMULA {#UNPROCTED-FORMULA}
 ```
@@ -101,7 +156,11 @@ public static final int UNPROCTED_FORMULA
 ```
 
 
-check for unprotected formulas
+Ignore errors when unlocked cells contain formulas.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ErrorCheckType.UnproctedFormula enum. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### VALIDATION {#VALIDATION}
 ```
@@ -109,7 +168,11 @@ public static final int VALIDATION
 ```
 
 
-whether to perform data validation
+Ignore errors when a cell's value in a Table does not comply with the Data Validation rules specified.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ErrorCheckType.TableDataValidation enum. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

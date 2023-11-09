@@ -1,7 +1,7 @@
 ---
 title: PivotGroupByType
 second_title: Aspose.Cells for Java API Reference
-description: Represents PivotTable groupby type.
+description: Represents group by type.
 type: docs
 url: /java/com.aspose.cells/pivotgroupbytype/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public final class PivotGroupByType
 ```
 
-Represents PivotTable groupby type.
+Represents group by type.
 ## Fields
 
 | Field | Description |
@@ -21,8 +21,9 @@ Represents PivotTable groupby type.
 | [HOURS](#HOURS) | Presents Hours groupby type. |
 | [MINUTES](#MINUTES) | Presents Minutes groupby type. |
 | [MONTHS](#MONTHS) | Presents Months groupby type. |
+| [NUMBERS](#NUMBERS) | Group by numbers. |
 | [QUARTERS](#QUARTERS) | Presents Quarters groupby type. |
-| [RANGE_OF_VALUES](#RANGE-OF-VALUES) | Presents range of values groupby type. |
+| [RANGE_OF_VALUES](#RANGE-OF-VALUES) | Group by numbers. |
 | [SECONDS](#SECONDS) | Presents Seconds groupby type. |
 | [YEARS](#YEARS) | Presents Years groupby type. |
 ## Methods
@@ -70,6 +71,14 @@ public static final int MONTHS
 
 Presents Months groupby type.
 
+### NUMBERS {#NUMBERS}
+```
+public static final int NUMBERS
+```
+
+
+Group by numbers.
+
 ### QUARTERS {#QUARTERS}
 ```
 public static final int QUARTERS
@@ -84,7 +93,11 @@ public static final int RANGE_OF_VALUES
 ```
 
 
-Presents range of values groupby type.
+Group by numbers.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotGroupByType.Numbers enum. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### SECONDS {#SECONDS}
 ```

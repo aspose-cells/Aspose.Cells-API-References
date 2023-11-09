@@ -27,6 +27,7 @@ Represents the options for saving ebook file.
 | [getAttachedFilesDirectory()](#getAttachedFilesDirectory--) | The directory that the attached files will be saved to. |
 | [getAttachedFilesUrlPrefix()](#getAttachedFilesUrlPrefix--) | Specify the Url prefix of attached files such as image in the html file. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
+| [getCalculateFormula()](#getCalculateFormula--) | Indicates whether to calculate formulas before saving html file. |
 | [getCellCssPrefix()](#getCellCssPrefix--) | Gets the prefix of the css name,the default value is "". |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
@@ -60,6 +61,7 @@ Represents the options for saving ebook file.
 | [getExportWorksheetCSSSeparately()](#getExportWorksheetCSSSeparately--) | Indicating whether export the worksheet css separately.The default value is false. |
 | [getExportWorksheetProperties()](#getExportWorksheetProperties--) | Indicating whether exporting worksheet properties.The default value is true.If you want to import the html or mht file to excel, please keep the default value. |
 | [getFilePathProvider()](#getFilePathProvider--) | Gets the IFilePathProvider for exporting Worksheet to html separately. |
+| [getFormatDataIgnoreColumnWidth()](#getFormatDataIgnoreColumnWidth--) | Indicating whether show the whole formatted data of cell when overflowing the column. |
 | [getHiddenColDisplayType()](#getHiddenColDisplayType--) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
 | [getHiddenRowDisplayType()](#getHiddenRowDisplayType--) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
 | [getHtmlCrossStringType()](#getHtmlCrossStringType--) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
@@ -96,6 +98,7 @@ Represents the options for saving ebook file.
 | [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | The directory that the attached files will be saved to. |
 | [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | Specify the Url prefix of attached files such as image in the html file. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
+| [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving html file. |
 | [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | Sets the prefix of the css name,the default value is "". |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
@@ -130,6 +133,7 @@ Represents the options for saving ebook file.
 | [setExportWorksheetCSSSeparately(boolean value)](#setExportWorksheetCSSSeparately-boolean-) | Indicating whether export the worksheet css separately.The default value is false. |
 | [setExportWorksheetProperties(boolean value)](#setExportWorksheetProperties-boolean-) | Indicating whether exporting worksheet properties.The default value is true.If you want to import the html or mht file to excel, please keep the default value. |
 | [setFilePathProvider(IFilePathProvider value)](#setFilePathProvider-com.aspose.cells.IFilePathProvider-) | Sets the IFilePathProvider for exporting Worksheet to html separately. |
+| [setFormatDataIgnoreColumnWidth(boolean value)](#setFormatDataIgnoreColumnWidth-boolean-) | Indicating whether show the whole formatted data of cell when overflowing the column. |
 | [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
 | [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
 | [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
@@ -222,6 +226,20 @@ The cached file folder is used to store some large data.
 
 **Returns:**
 java.lang.String
+### getCalculateFormula() {#getCalculateFormula--}
+```
+public boolean getCalculateFormula()
+```
+
+
+Indicates whether to calculate formulas before saving html file.
+
+**Remarks**
+
+The default value is false.
+
+**Returns:**
+boolean
 ### getCellCssPrefix() {#getCellCssPrefix--}
 ```
 public String getCellCssPrefix()
@@ -584,6 +602,16 @@ Gets the IFilePathProvider for exporting Worksheet to html separately.
 
 **Returns:**
 [IFilePathProvider](../../com.aspose.cells/ifilepathprovider)
+### getFormatDataIgnoreColumnWidth() {#getFormatDataIgnoreColumnWidth--}
+```
+public boolean getFormatDataIgnoreColumnWidth()
+```
+
+
+Indicating whether show the whole formatted data of cell when overflowing the column. If true then ignore the column width and the whole data of cell will be exported. If false then the data will be exported same as Excel. The default value is false.
+
+**Returns:**
+boolean
 ### getHiddenColDisplayType() {#getHiddenColDisplayType--}
 ```
 public int getHiddenColDisplayType()
@@ -985,6 +1013,23 @@ The cached file folder is used to store some large data.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setCalculateFormula(boolean value) {#setCalculateFormula-boolean-}
+```
+public void setCalculateFormula(boolean value)
+```
+
+
+Indicates whether to calculate formulas before saving html file.
+
+**Remarks**
+
+The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setCellCssPrefix(String value) {#setCellCssPrefix-java.lang.String-}
 ```
@@ -1459,6 +1504,19 @@ Sets the IFilePathProvider for exporting Worksheet to html separately.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IFilePathProvider](../../com.aspose.cells/ifilepathprovider) |  |
+
+### setFormatDataIgnoreColumnWidth(boolean value) {#setFormatDataIgnoreColumnWidth-boolean-}
+```
+public void setFormatDataIgnoreColumnWidth(boolean value)
+```
+
+
+Indicating whether show the whole formatted data of cell when overflowing the column. If true then ignore the column width and the whole data of cell will be exported. If false then the data will be exported same as Excel. The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setFullPathLink(boolean value) {#setFullPathLink-boolean-}
 ```

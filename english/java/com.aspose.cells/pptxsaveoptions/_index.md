@@ -34,6 +34,7 @@ Represents the pptx save options.
 | [getDefaultEditLanguage()](#getDefaultEditLanguage--) | Gets default edit language. |
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
+| [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
@@ -65,6 +66,7 @@ Represents the pptx save options.
 | [setDefaultEditLanguage(int value)](#setDefaultEditLanguage-int-) | Sets default edit language. |
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
+| [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
@@ -241,6 +243,22 @@ Implements this interface to get DrawObject and Bound when rendering.
 
 **Returns:**
 [DrawObjectEventHandler](../../com.aspose.cells/drawobjecteventhandler)
+### getEmfRenderSetting() {#getEmfRenderSetting--}
+```
+public int getEmfRenderSetting()
+```
+
+
+Setting for rendering Emf metafile.
+
+See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
+
+**Remarks**
+
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
+
+**Returns:**
+int
 ### getGridlineType() {#getGridlineType--}
 ```
 public int getGridlineType()
@@ -711,6 +729,25 @@ Implements this interface to get DrawObject and Bound when rendering.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DrawObjectEventHandler](../../com.aspose.cells/drawobjecteventhandler) |  |
+
+### setEmfRenderSetting(int value) {#setEmfRenderSetting-int-}
+```
+public void setEmfRenderSetting(int value)
+```
+
+
+Setting for rendering Emf metafile.
+
+See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
+
+**Remarks**
+
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setFontSubstitutionCharGranularity(boolean value) {#setFontSubstitutionCharGranularity-boolean-}
 ```

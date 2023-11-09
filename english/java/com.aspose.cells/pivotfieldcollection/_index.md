@@ -31,6 +31,7 @@ Represents a collection of all the PivotField objects in the PivotTable's specif
 | [getType()](#getType--) | Gets the PivotFields type. |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets an enumerator over the elements in this collection in proper sequence. |
+| [move(int currPos, int destPos)](#move-int-int-) | Moves the PivotField from current position to destination position |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -172,6 +173,20 @@ Gets an enumerator over the elements in this collection in proper sequence.
 
 **Returns:**
 java.util.Iterator - enumerator
+### move(int currPos, int destPos) {#move-int-int-}
+```
+public void move(int currPos, int destPos)
+```
+
+
+Moves the PivotField from current position to destination position
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| currPos | int | Current position of PivotField based on zero |
+| destPos | int | Destination position of PivotField based on zero |
+
 ### notify() {#notify--}
 ```
 public final native void notify()

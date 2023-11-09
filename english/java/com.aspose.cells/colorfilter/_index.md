@@ -19,12 +19,12 @@ Represents the color filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColor(WorksheetCollection sheets)](#getColor-com.aspose.cells.WorksheetCollection-) |  |
-| [getFilterByFillColor()](#getFilterByFillColor--) | Flag indicating whether filter by the cell's fill color. |
+| [getColor(WorksheetCollection sheets)](#getColor-com.aspose.cells.WorksheetCollection-) | Gets the color of this filter. |
+| [getFilterByFillColor()](#getFilterByFillColor--) | Whether filter by the cell's fill color. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) | Flag indicating whether filter by the cell's fill color. |
+| [setFilterByFillColor(boolean value)](#setFilterByFillColor-boolean-) | Whether filter by the cell's fill color. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,7 @@ public Color getColor(WorksheetCollection sheets)
 ```
 
 
-
+Gets the color of this filter.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -75,7 +75,11 @@ public boolean getFilterByFillColor()
 ```
 
 
-Flag indicating whether filter by the cell's fill color.
+Whether filter by the cell's fill color.
+
+**Remarks**
+
+True: cell's fill color; False: cell's font color.
 
 **Returns:**
 boolean
@@ -111,7 +115,11 @@ public void setFilterByFillColor(boolean value)
 ```
 
 
-Flag indicating whether filter by the cell's fill color.
+Whether filter by the cell's fill color.
+
+**Remarks**
+
+True: cell's fill color; False: cell's font color.
 
 **Parameters:**
 | Parameter | Type | Description |

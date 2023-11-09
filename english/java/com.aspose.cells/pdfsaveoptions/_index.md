@@ -31,7 +31,7 @@ Represents the options for saving pdf file.
 | [getCheckWorkbookDefaultFont()](#getCheckWorkbookDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
-| [getCompliance()](#getCompliance--) | Workbook converts to pdf will according to PdfCompliance in this property. |
+| [getCompliance()](#getCompliance--) | Gets the PDF standards compliance level for output documents. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getCreatedTime()](#getCreatedTime--) | Gets the time of generating the pdf document. |
 | [getCustomPropertiesExport()](#getCustomPropertiesExport--) | Gets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
@@ -78,7 +78,7 @@ Represents the options for saving pdf file.
 | [setCheckFontCompatibility(boolean value)](#setCheckFontCompatibility-boolean-) | Indicates whether to check font compatibility for every character in text. |
 | [setCheckWorkbookDefaultFont(boolean value)](#setCheckWorkbookDefaultFont-boolean-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
-| [setCompliance(int value)](#setCompliance-int-) | Workbook converts to pdf will according to PdfCompliance in this property. |
+| [setCompliance(int value)](#setCompliance-int-) | Sets the PDF standards compliance level for output documents. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setCreatedTime(DateTime value)](#setCreatedTime-com.aspose.cells.DateTime-) | Sets the time of generating the pdf document. |
 | [setCustomPropertiesExport(int value)](#setCustomPropertiesExport-int-) | Sets a value determining the way [CustomDocumentPropertyCollection](../../com.aspose.cells/customdocumentpropertycollection) are exported to PDF file. |
@@ -240,9 +240,13 @@ public int getCompliance()
 ```
 
 
-Workbook converts to pdf will according to PdfCompliance in this property.
+Gets the PDF standards compliance level for output documents.
 
 See [PdfCompliance](../../com.aspose.cells/pdfcompliance).
+
+**Remarks**
+
+Default is Pdf17.
 
 **Returns:**
 int
@@ -358,7 +362,7 @@ See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
 
 **Returns:**
 int
@@ -983,9 +987,13 @@ public void setCompliance(int value)
 ```
 
 
-Workbook converts to pdf will according to PdfCompliance in this property.
+Sets the PDF standards compliance level for output documents.
 
 See [PdfCompliance](../../com.aspose.cells/pdfcompliance).
+
+**Remarks**
+
+Default is Pdf17.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1128,7 +1136,7 @@ See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to pdf, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
 
 **Parameters:**
 | Parameter | Type | Description |

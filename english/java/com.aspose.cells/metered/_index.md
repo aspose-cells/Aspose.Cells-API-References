@@ -26,7 +26,9 @@ Provides methods to set metered key.
 | [getClass()](#getClass--) |  |
 | [getConsumptionCredit()](#getConsumptionCredit--) | Gets consumption credit |
 | [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size |
+| [getProductName()](#getProductName--) | Gets the product name |
 | [hashCode()](#hashCode--) |  |
+| [isMeteredLicensed()](#isMeteredLicensed--) | Check whether metered is licensed |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Sets metered public and private key. |
@@ -87,6 +89,16 @@ Gets consumption file size
 
 **Returns:**
 double - consumption quantity
+### getProductName() {#getProductName--}
+```
+public String getProductName()
+```
+
+
+Gets the product name
+
+**Returns:**
+java.lang.String - 
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -97,6 +109,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isMeteredLicensed() {#isMeteredLicensed--}
+```
+public static boolean isMeteredLicensed()
+```
+
+
+Check whether metered is licensed
+
+**Returns:**
+boolean - True or false
 ### notify() {#notify--}
 ```
 public final native void notify()
