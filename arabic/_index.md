@@ -18,6 +18,7 @@ Aspose.Cells for .NET هي مكتبة برمجة جداول بيانات تتي�
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Cells لمرجع .NET API](/cells/ar/net/)
+- [Aspose.Cells لبرامج .NET API التعليمية](/tutorials/cells/ar/net/)
 
 ## Aspose.Cells لجافا
 
@@ -32,6 +33,7 @@ Aspose.Cells for Java هي مكتبة صفية تمكن تطبيقاتك من أ
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Cells لمرجع Java API](/cells/java/)
+- [Aspose.Cells لبرامج Java API التعليمية](/tutorials/cells/ar/java/)
 
 ## Aspose.Cells لـ C ++
 

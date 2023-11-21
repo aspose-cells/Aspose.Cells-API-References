@@ -19,6 +19,7 @@ Aspose.Cells for .NET 是一个电子表格编程库，允许软件开发人员�
 
 这些是一些有用资源的链接：
 - [Aspose.Cells for .NET API 参考](/cells/zh/net/)
+- [Aspose.Cells for .NET API 教程](/tutorials/cells/zh/net/)
 
 ## Aspose.Cells for Java
 
@@ -33,6 +34,7 @@ Aspose.Cells for Java 是一个类库，使您的应用程序能够执行各种�
 
 这些是一些有用资源的链接：
 - [Aspose.Cells for Java API 参考](/cells/java/)
+- [Aspose.Cells for Java API 教程](/tutorials/cells/zh/java/)
 
 ## Aspose.Cells for C++
 

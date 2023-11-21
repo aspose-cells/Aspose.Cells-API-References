@@ -19,6 +19,7 @@ Aspose.Cells for .NET è una libreria di programmazione di fogli di calcolo che 
 
 Questi sono i link ad alcune risorse utili:
 - [Riferimento alle API di Aspose.Cells per .NET](/cells/it/net/)
+- [Aspose.Cells per tutorial sull'API .NET](/tutorials/cells/it/net/)
 
 ## Aspose.Cells per Java
 
@@ -33,6 +34,7 @@ Aspose.Cells per Java è una libreria di classi che consente alle applicazioni d
 
 Questi sono i link ad alcune risorse utili:
 - [Riferimento all'API di Aspose.Cells per Java](/cells/java/)
+- [Aspose.Cells per tutorial API Java](/tutorials/cells/it/java/)
 
 ## Aspose.Cells per C++
 

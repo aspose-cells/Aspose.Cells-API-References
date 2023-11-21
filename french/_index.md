@@ -19,6 +19,7 @@ Aspose.Cells pour .NET est une bibliothèque de programmation de feuilles de cal
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Cells pour .NET](/cells/fr/net/)
+- [Aspose.Cells pour les didacticiels de l'API .NET](/tutorials/cells/fr/net/)
 
 ## Aspose.Cells pour Java
 
@@ -33,6 +34,7 @@ Aspose.Cells pour Java est une bibliothèque de classes qui permet à vos applic
 
 Voici des liens vers des ressources utiles :
 - [Référence de l'API Aspose.Cells pour Java](/cells/java/)
+- [Aspose.Cells pour les didacticiels de l'API Java](/tutorials/cells/fr/java/)
 
 ## Aspose.Cells pour C++
 
