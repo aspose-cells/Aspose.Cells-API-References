@@ -19,6 +19,7 @@ Aspose.Cells for .NET, yazılım geliştiricilerin kendi uygulamalarından elekt
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Cells for .NET API Referansı](/cells/tr/net/)
+- [Aspose.Cells for .NET API Eğitimleri](/tutorials/cells/tr/net/)
 
 ## Java için Aspose.Cells
 
@@ -33,6 +34,7 @@ Aspose.Cells for Java, uygulamalarınızın çok çeşitli elektronik tablo işl
 
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Cells for Java API Referansı](/cells/java/)
+- [Java API Eğitimleri için Aspose.Cells](/tutorials/cells/tr/java/)
 
 ## C++ için Aspose.Cells
 

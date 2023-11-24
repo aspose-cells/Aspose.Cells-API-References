@@ -19,6 +19,7 @@ Aspose.Cells für .NET ist eine Programmierbibliothek für Tabellenkalkulationen
 
 Dies sind Links zu einigen nützlichen Ressourcen:
 - [Aspose.Cells für .NET-API-Referenz](/cells/de/net/)
+- [Aspose.Cells für .NET API-Tutorials](/tutorials/cells/de/net/)
 
 ## Aspose.Cells für Java
 
@@ -33,6 +34,7 @@ Aspose.Cells für Java ist eine Klassenbibliothek, die es Ihren Anwendungen erm�
 
 Dies sind Links zu einigen nützlichen Ressourcen:
 - [Aspose.Cells für Java-API-Referenz](/cells/java/)
+- [Aspose.Cells für Java API-Tutorials](/tutorials/cells/de/java/)
 
 ## Aspose.Cells für C++
 

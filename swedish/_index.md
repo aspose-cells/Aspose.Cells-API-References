@@ -19,6 +19,7 @@ Aspose.Cells för .NET är ett kalkylbladsprogrammeringsbibliotek som låter mju
 
 Det här är länkar till några användbara resurser:
 - [Aspose.Cells för .NET API-referens](/cells/sv/net/)
+- [Handledning för Aspose.Cells för .NET API](/tutorials/cells/sv/net/)
 
 ## Aspose.Cells för Java
 
@@ -33,6 +34,7 @@ Aspose.Cells för Java är ett klassbibliotek som gör det möjligt för dina ap
 
 Det här är länkar till några användbara resurser:
 - [Aspose.Cells för Java API Referens](/cells/java/)
+- [Tutorials för Aspose.Cells för Java API](/tutorials/cells/sv/java/)
 
 ## Aspose.Cells för C++
 

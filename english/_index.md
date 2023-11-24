@@ -32,6 +32,7 @@ The API reference covers a wide range of Excel processing features, including:
 
 These are links to some useful resources:
 - [Aspose.Cells for .NET API Reference](/cells/net/)
+- [Aspose.Cells for .NET API Tutorials](/tutorials/cells/net/)
 
 ## Aspose.Cells for Java: A Powerful API for Excel Processing
 
@@ -54,6 +55,7 @@ With Aspose.Cells for Java, developers can seamlessly integrate Excel functional
 
 These are links to some useful resources:
 - [Aspose.Cells for Java API Reference](/cells/java/)
+- [Aspose.Cells for Java API Tutorials](/tutorials/cells/java/)
 
 ## Aspose.Cells for C++ API Reference: A Comprehensive Resource for Excel Processing in C++
 
