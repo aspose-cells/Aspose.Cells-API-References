@@ -1,0 +1,58 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotItemCollection::Get method
+linktitle: Get
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotItemCollection::Get method. Gets the PivotItem Object at the specific index in C++.'
+type: docs
+weight: 700
+url: /cpp/aspose.cells.pivot/pivotitemcollection/get/
+---
+## PivotItemCollection::Get(int32_t) method
+
+
+Gets the [PivotItem](../../pivotitem/) Object at the specific index.
+
+```cpp
+PivotItem Aspose::Cells::Pivot::PivotItemCollection::Get(int32_t index)
+```
+
+## See Also
+
+* Class [PivotItem](../../pivotitem/)
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotItemCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotItemCollection::Get(const U16String\&) method
+
+
+Gets the [PivotItem](../../pivotitem/) Object of the specific name.
+
+```cpp
+PivotItem Aspose::Cells::Pivot::PivotItemCollection::Get(const U16String &itemValue)
+```
+
+## See Also
+
+* Class [PivotItem](../../pivotitem/)
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [U16String](../../../aspose.cells/u16string/)
+* Class [PivotItemCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotItemCollection::Get(const char16_t*) method
+
+
+Gets the [PivotItem](../../pivotitem/) Object of the specific name.
+
+```cpp
+PivotItem Aspose::Cells::Pivot::PivotItemCollection::Get(const char16_t *itemValue)
+```
+
+## See Also
+
+* Class [PivotItem](../../pivotitem/)
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotItemCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)

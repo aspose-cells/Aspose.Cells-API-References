@@ -1,0 +1,95 @@
+﻿---
+title: Aspose::Cells::WorksheetCollection::GetBuiltInDocumentProperties method
+linktitle: GetBuiltInDocumentProperties
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::WorksheetCollection::GetBuiltInDocumentProperties method. Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet in C++.'
+type: docs
+weight: 3400
+url: /cpp/aspose.cells/worksheetcollection/getbuiltindocumentproperties/
+---
+## WorksheetCollection::GetBuiltInDocumentProperties method
+
+
+Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet.
+
+```cpp
+BuiltInDocumentPropertyCollection Aspose::Cells::WorksheetCollection::GetBuiltInDocumentProperties()
+```
+
+## Remarks
+
+
+A new property cannot be added to built-in document properties list. You can only get a built-in property and change its value. The following is the built-in properties name list: 
+
+Title
+
+Subject
+
+Author
+
+Keywords
+
+Comments
+
+Template
+
+Last Author
+
+Revision Number
+
+Application [Name](../../name/)
+
+Last Print [Date](../../date/)
+
+Creation [Date](../../date/)
+
+Last Save Time
+
+Total Editing Time
+
+Number of Pages
+
+Number of Words
+
+Number of Characters
+
+Security
+
+Category
+
+Format
+
+Manager
+
+Company
+
+Number of Bytes
+
+Number of Lines
+
+Number of Paragraphs
+
+Number of Slides
+
+Number of Notes
+
+Number of Hidden Slides
+
+Number of Multimedia Clips
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+Workbook workbook;
+DocumentProperty doc = workbook.GetWorksheets().GetBuiltInDocumentProperties().Get(u"Author");
+Aspose::Cells::Cleanup();
+```
+
+## See Also
+
+* Class [BuiltInDocumentPropertyCollection](../../../aspose.cells.properties/builtindocumentpropertycollection/)
+* Class [WorksheetCollection](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)

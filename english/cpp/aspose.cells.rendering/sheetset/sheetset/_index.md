@@ -1,0 +1,64 @@
+﻿---
+title: Aspose::Cells::Rendering::SheetSet::SheetSet constructor
+linktitle: SheetSet
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Rendering::SheetSet::SheetSet constructor. Creates a sheet set based on exact sheet indexes in C++.'
+type: docs
+weight: 100
+url: /cpp/aspose.cells.rendering/sheetset/sheetset/
+---
+## SheetSet::SheetSet(const Vector \<int32_t\>\&) constructor
+
+
+Creates a sheet set based on exact sheet indexes.
+
+```cpp
+Aspose::Cells::Rendering::SheetSet::SheetSet(const Vector<int32_t> &sheets)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheets | const Vector \<int32_t\>\& | zero based sheet indexes. |
+## Remarks
+
+
+
+If a sheet is encountered that is not in the workbook, an exception will be thrown during rendering. 
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [SheetSet](../)
+* Namespace [Aspose::Cells::Rendering](../../)
+* Library [Aspose.Cells for C++](../../../)
+## SheetSet::SheetSet(SheetSet_Impl*) constructor
+
+
+Constructs from an implementation object.
+
+```cpp
+Aspose::Cells::Rendering::SheetSet::SheetSet(SheetSet_Impl *impl)
+```
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [SheetSet](../)
+* Namespace [Aspose::Cells::Rendering](../../)
+* Library [Aspose.Cells for C++](../../../)
+## SheetSet::SheetSet(const SheetSet\&) constructor
+
+
+Copy constructor.
+
+```cpp
+Aspose::Cells::Rendering::SheetSet::SheetSet(const SheetSet &src)
+```
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [SheetSet](../)
+* Class [SheetSet](../)
+* Namespace [Aspose::Cells::Rendering](../../)
+* Library [Aspose.Cells for C++](../../../)

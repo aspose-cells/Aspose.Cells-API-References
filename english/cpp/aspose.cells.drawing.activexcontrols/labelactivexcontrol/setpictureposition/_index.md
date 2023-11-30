@@ -1,0 +1,25 @@
+﻿---
+title: Aspose::Cells::Drawing::ActiveXControls::LabelActiveXControl::SetPicturePosition method
+linktitle: SetPicturePosition
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Drawing::ActiveXControls::LabelActiveXControl::SetPicturePosition method. Gets and set the location of the control''s picture relative to its caption in C++.'
+type: docs
+weight: 1000
+url: /cpp/aspose.cells.drawing.activexcontrols/labelactivexcontrol/setpictureposition/
+---
+## LabelActiveXControl::SetPicturePosition method
+
+
+Gets and set the location of the control's picture relative to its caption.
+
+```cpp
+void Aspose::Cells::Drawing::ActiveXControls::LabelActiveXControl::SetPicturePosition(ControlPicturePositionType value)
+```
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Enum [ControlPicturePositionType](../../controlpicturepositiontype/)
+* Class [LabelActiveXControl](../)
+* Namespace [Aspose::Cells::Drawing::ActiveXControls](../../)
+* Library [Aspose.Cells for C++](../../../)

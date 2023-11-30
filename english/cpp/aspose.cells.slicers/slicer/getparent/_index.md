@@ -1,0 +1,32 @@
+﻿---
+title: Aspose::Cells::Slicers::Slicer::GetParent method
+linktitle: GetParent
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Slicers::Slicer::GetParent method. Returns the Worksheet object that represents the sheet that contains the slicer. Read-only in C++.'
+type: docs
+weight: 2400
+url: /cpp/aspose.cells.slicers/slicer/getparent/
+---
+## Slicer::GetParent method
+
+
+Returns the [Worksheet](../../../aspose.cells/worksheet/) object that represents the sheet that contains the slicer. Read-only.
+
+```cpp
+Worksheet Aspose::Cells::Slicers::Slicer::GetParent()
+```
+
+
+## Examples
+
+
+```cpp
+Worksheet currSheet = slicer.GetParent();
+```
+
+## See Also
+
+* Class [Worksheet](../../../aspose.cells/worksheet/)
+* Class [Slicer](../)
+* Namespace [Aspose::Cells::Slicers](../../)
+* Library [Aspose.Cells for C++](../../../)

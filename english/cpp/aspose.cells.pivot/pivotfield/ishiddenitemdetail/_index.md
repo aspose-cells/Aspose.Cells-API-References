@@ -1,0 +1,33 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotField::IsHiddenItemDetail method
+linktitle: IsHiddenItemDetail
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotField::IsHiddenItemDetail method. Indicates whether the specific PivotItem is hidden detail in C++.'
+type: docs
+weight: 8600
+url: /cpp/aspose.cells.pivot/pivotfield/ishiddenitemdetail/
+---
+## PivotField::IsHiddenItemDetail method
+
+
+Indicates whether the specific [PivotItem](../../pivotitem/) is hidden detail.
+
+```cpp
+bool Aspose::Cells::Pivot::PivotField::IsHiddenItemDetail(int32_t index)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int32_t | the index of the pivotItem in the pivotField. |
+
+## ReturnValue
+
+whether the specific [PivotItem](../../pivotitem/) is hidden detail
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotField](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
