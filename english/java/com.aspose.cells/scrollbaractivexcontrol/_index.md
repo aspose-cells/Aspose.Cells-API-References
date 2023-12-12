@@ -192,7 +192,7 @@ Gets the amount by which the Position property changes
 **Example**
 
 ```
-         activeXControl.setSmallChange(5);
+         activeXControl.setLargeChange(5);
 ```
 
 **Returns:**
@@ -228,7 +228,7 @@ Gets the maximum acceptable value.
 **Example**
 
 ```
-         activeXControl.setMin(100);
+         activeXControl.setMax(100);
 ```
 
 **Returns:**

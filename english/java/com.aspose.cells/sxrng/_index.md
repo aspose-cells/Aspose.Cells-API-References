@@ -13,6 +13,10 @@ public class SxRng
 ```
 
 Represents Group Range in a PivotField.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use PivotFieldGroupSettings class. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
 ## Methods
 
 | Method | Description |

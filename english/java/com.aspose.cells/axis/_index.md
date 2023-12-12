@@ -68,6 +68,7 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [getAxisBetweenCategories()](#getAxisBetweenCategories--) | Represents if the value axis crosses the category axis between categories. |
 | [getAxisLabels()](#getAxisLabels--) | Gets the labels of the axis after call Chart.Calculate() method. |
 | [getAxisLine()](#getAxisLine--) | Gets the appearance of an Axis. |
+| [getAxisTexts()](#getAxisTexts--) | Gets the labels of the axis after call Chart.Calculate() method. |
 | [getBaseUnitScale()](#getBaseUnitScale--) | Represents the base unit scale for the category axis. |
 | [getBins()](#getBins--) | Represents bins on a chart(Histogram/Pareto) axis |
 | [getCategoryType()](#getCategoryType--) | Represents the category axis type. |
@@ -194,6 +195,10 @@ public ArrayList getAxisLabels()
 
 Gets the labels of the axis after call Chart.Calculate() method.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Axis.GetAxisTexts method. This property will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 java.util.ArrayList
 ### getAxisLine() {#getAxisLine--}
@@ -206,6 +211,16 @@ Gets the appearance of an Axis.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
+### getAxisTexts() {#getAxisTexts--}
+```
+public String[] getAxisTexts()
+```
+
+
+Gets the labels of the axis after call Chart.Calculate() method.
+
+**Returns:**
+java.lang.String[]
 ### getBaseUnitScale() {#getBaseUnitScale--}
 ```
 public int getBaseUnitScale()

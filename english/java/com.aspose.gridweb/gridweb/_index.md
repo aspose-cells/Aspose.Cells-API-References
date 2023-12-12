@@ -1360,7 +1360,7 @@ public String getOnCellErrorClientFunction()
 Gets the client side function name to be called when a cell's validation is failed. The client function should be declared like this:
 function MyOnCellError(cell)
 \{
-alert(GridWeb1.getCellValueByCell(cell));
+alert(this.getCellValueByCell(cell));
 \}
 
 Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
@@ -1408,7 +1408,7 @@ public String getOnCellUnselectedClientFunction()
 Gets the client side function to be called when a cell is unselected. The client function should be declared like this:
 function MyOnUnselectCell(cell)
 \{
-GridWeb1.setCellValueByCell(cell, "test");
+this.setCellValueByCell(cell, "test");
 \}
 
 Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
@@ -1458,7 +1458,7 @@ public String getOnDoubleClickCellClientFunction()
 Gets the client side function to be called when a cell is double clicked. The client function should be declared like this:
 function MyOnDoubleClickCell(cell)
 \{
-GridWeb1.setCellValueByCell(cell, "test");
+this.setCellValueByCell(cell, "test");
 \}
 
 Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
@@ -3308,7 +3308,7 @@ public void setOnCellErrorClientFunction(String value)
 Sets the client side function name to be called when a cell's validation is failed. The client function should be declared like this:
 function MyOnCellError(cell)
 \{
-alert(GridWeb1.getCellValueByCell(cell));
+alert(this.getCellValueByCell(cell));
 \}
 
 Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
@@ -3365,7 +3365,7 @@ public void setOnCellUnselectedClientFunction(String value)
 Sets the client side function to be called when a cell is unselected. The client function should be declared like this:
 function MyOnUnselectCell(cell)
 \{
-GridWeb1.setCellValueByCell(cell, "test");
+this.setCellValueByCell(cell, "test");
 \}
 
 Note: You may use the "this" pointer in the client function to point the grid control which fires the event.
@@ -3424,7 +3424,7 @@ public void setOnDoubleClickCellClientFunction(String value)
 Sets the client side function to be called when a cell is double clicked. The client function should be declared like this:
 function MyOnDoubleClickCell(cell)
 \{
-GridWeb1.setCellValueByCell(cell, "test");
+this.setCellValueByCell(cell, "test");
 \}
 
 Note: You may use the "this" pointer in the client function to point the grid control which fires the event.

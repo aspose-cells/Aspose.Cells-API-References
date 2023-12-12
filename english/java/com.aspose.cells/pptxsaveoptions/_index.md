@@ -24,6 +24,7 @@ Represents the pptx save options.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAdjustFontSizeForRowType()](#getAdjustFontSizeForRowType--) | Represents what type of line needs to be adjusted size of font if height of row is small. |
 | [getAllColumnsInOnePagePerSheet()](#getAllColumnsInOnePagePerSheet--) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
 | [getCachedFileFolder()](#getCachedFileFolder--) | The cached file folder is used to store some large data. |
 | [getCheckFontCompatibility()](#getCheckFontCompatibility--) | Indicates whether to check font compatibility for every character in text. |
@@ -37,6 +38,7 @@ Represents the pptx save options.
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
+| [getIgnoreHiddenRows()](#getIgnoreHiddenRows--) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getOnePagePerSheet()](#getOnePagePerSheet--) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [getOutputBlankPageWhenNothingToPrint()](#getOutputBlankPageWhenNothingToPrint--) | Indicates whether to output a blank page when there is nothing to print. |
@@ -57,6 +59,7 @@ Represents the pptx save options.
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAdjustFontSizeForRowType(int value)](#setAdjustFontSizeForRowType-int-) | Represents what type of line needs to be adjusted size of font if height of row is small. |
 | [setAllColumnsInOnePagePerSheet(boolean value)](#setAllColumnsInOnePagePerSheet-boolean-) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setCheckFontCompatibility(boolean value)](#setCheckFontCompatibility-boolean-) | Indicates whether to check font compatibility for every character in text. |
@@ -70,6 +73,7 @@ Represents the pptx save options.
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
+| [setIgnoreHiddenRows(boolean value)](#setIgnoreHiddenRows-boolean-) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setOnePagePerSheet(boolean value)](#setOnePagePerSheet-boolean-) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | Indicates whether to output a blank page when there is nothing to print. |
@@ -125,6 +129,18 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAdjustFontSizeForRowType() {#getAdjustFontSizeForRowType--}
+```
+public int getAdjustFontSizeForRowType()
+```
+
+
+Represents what type of line needs to be adjusted size of font if height of row is small.
+
+See [AdjustFontSizeForRowType](../../com.aspose.cells/adjustfontsizeforrowtype).
+
+**Returns:**
+int
 ### getAllColumnsInOnePagePerSheet() {#getAllColumnsInOnePagePerSheet--}
 ```
 public boolean getAllColumnsInOnePagePerSheet()
@@ -282,6 +298,16 @@ public boolean getIgnoreError()
 
 
 Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc.
+
+**Returns:**
+boolean
+### getIgnoreHiddenRows() {#getIgnoreHiddenRows--}
+```
+public boolean getIgnoreHiddenRows()
+```
+
+
+Inidicates whether ignoring hidden rows when converting Excel to powerpoint.
 
 **Returns:**
 boolean
@@ -595,6 +621,21 @@ public final native void notifyAll()
 
 
 
+### setAdjustFontSizeForRowType(int value) {#setAdjustFontSizeForRowType-int-}
+```
+public void setAdjustFontSizeForRowType(int value)
+```
+
+
+Represents what type of line needs to be adjusted size of font if height of row is small.
+
+See [AdjustFontSizeForRowType](../../com.aspose.cells/adjustfontsizeforrowtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setAllColumnsInOnePagePerSheet(boolean value) {#setAllColumnsInOnePagePerSheet-boolean-}
 ```
 public void setAllColumnsInOnePagePerSheet(boolean value)
@@ -792,6 +833,19 @@ public void setIgnoreError(boolean value)
 
 
 Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setIgnoreHiddenRows(boolean value) {#setIgnoreHiddenRows-boolean-}
+```
+public void setIgnoreHiddenRows(boolean value)
+```
+
+
+Inidicates whether ignoring hidden rows when converting Excel to powerpoint.
 
 **Parameters:**
 | Parameter | Type | Description |

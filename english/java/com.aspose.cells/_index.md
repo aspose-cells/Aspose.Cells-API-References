@@ -25,6 +25,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ActiveXControl](../com.aspose.cells/activexcontrol) | Represents the ActiveX control. |
 | [ActiveXControlBase](../com.aspose.cells/activexcontrolbase) | Represents the ActiveX control. |
 | [ActiveXPersistenceType](../com.aspose.cells/activexpersistencetype) | Represents the persistence method to persist an ActiveX control. |
+| [AdjustFontSizeForRowType](../com.aspose.cells/adjustfontsizeforrowtype) | Represents what kind of rows should be ajusted. |
 | [ArcShape](../com.aspose.cells/arcshape) | Represents the arc shape. |
 | [Area](../com.aspose.cells/area) | Encapsulates the object that represents an area format. |
 | [AutoFillType](../com.aspose.cells/autofilltype) | Represents the auto fill type. |

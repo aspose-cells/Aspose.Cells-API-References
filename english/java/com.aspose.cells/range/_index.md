@@ -97,6 +97,7 @@ The following example shows how to create a range and set value the range of Exc
 | [toString()](#toString--) | Returns a string represents the current Range object. |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
 | [union(Range range)](#union-com.aspose.cells.Range-) | Returns the union of two ranges. |
+| [unionRang(Range range)](#unionRang-com.aspose.cells.Range-) | Returns the union result of two ranges. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -911,6 +912,10 @@ public ArrayList union(Range range)
 
 Returns the union of two ranges.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Range.UnionRang() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -918,6 +923,21 @@ Returns the union of two ranges.
 
 **Returns:**
 java.util.ArrayList - The union of two ranges.
+### unionRang(Range range) {#unionRang-com.aspose.cells.Range-}
+```
+public Range[] unionRang(Range range)
+```
+
+
+Returns the union result of two ranges.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | [Range](../../com.aspose.cells/range) | The range |
+
+**Returns:**
+com.aspose.cells.Range[] - The union of two ranges.
 ### wait() {#wait--}
 ```
 public final void wait()

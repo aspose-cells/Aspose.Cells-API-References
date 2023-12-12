@@ -64,24 +64,34 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [getVerticalAlignment()](#getVerticalAlignment--) | Gets the vertical alignment type of the text in a cell. |
 | [hasBorders()](#hasBorders--) | Checks whether there are borders have been set for the style. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a Style object. |
+| [isAlignmentApplied()](#isAlignmentApplied--) | Indicate whether the alignment formatting should be applied. |
+| [isBorderApplied()](#isBorderApplied--) | Indicate whether the border formatting should be applied. |
 | [isDateTime()](#isDateTime--) | Indicates whether the number format is a date format. |
+| [isFillApplied()](#isFillApplied--) | Indicate whether the fill formatting should be applied. |
+| [isFontApplied()](#isFontApplied--) | Indicate whether the font formatting should be applied. |
 | [isFormulaHidden()](#isFormulaHidden--) | Represents if the formula will be hidden when the worksheet is protected. |
 | [isGradient()](#isGradient--) | Indicates whether the cell shading is a gradient pattern. |
 | [isJustifyDistributed()](#isJustifyDistributed--) | Indicates if the cells justified or distributed alignment should be used on the last line of text. |
 | [isLocked()](#isLocked--) | Gets a value indicating whether a cell can be modified or not. |
 | [isModified(int modifyFlag)](#isModified-int-) | Checks whether the specified properties of the style have been modified. |
+| [isNumberFormatApplied()](#isNumberFormatApplied--) | Indicate whether the number formatting should be applied. |
 | [isPercent()](#isPercent--) | Indicates whether the number format is a percent format. |
+| [isProtectionApplied()](#isProtectionApplied--) | Indicate whether the protection formatting should be applied. |
 | [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text within a cell is wrapped. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAlignmentApplied(boolean value)](#setAlignmentApplied-boolean-) | Indicate whether the alignment formatting should be applied. |
 | [setBackgroundArgbColor(int value)](#setBackgroundArgbColor-int-) | Sets the background color with a 32-bit ARGB value. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Sets a style's background color. |
 | [setBackgroundThemeColor(ThemeColor value)](#setBackgroundThemeColor-com.aspose.cells.ThemeColor-) | Sets the background theme color. |
 | [setBorder(int borderType, int borderStyle, CellsColor borderColor)](#setBorder-int-int-com.aspose.cells.CellsColor-) | Sets the borders of the style. |
 | [setBorder(int borderType, int borderStyle, Color borderColor)](#setBorder-int-int-com.aspose.cells.Color-) | Sets the borders of the style. |
+| [setBorderApplied(boolean value)](#setBorderApplied-boolean-) | Indicate whether the border formatting should be applied. |
 | [setCultureCustom(String value)](#setCultureCustom-java.lang.String-) | Sets the culture-dependent pattern string for number format. |
 | [setCustom(String value)](#setCustom-java.lang.String-) | Represents the custom number format string of this style object. |
 | [setCustom(String custom, boolean builtinPreference)](#setCustom-java.lang.String-boolean-) | Sets the Custom number format string of a cell. |
+| [setFillApplied(boolean value)](#setFillApplied-boolean-) | Indicate whether the fill formatting should be applied. |
+| [setFontApplied(boolean value)](#setFontApplied-boolean-) | Indicate whether the font formatting should be applied. |
 | [setForegroundArgbColor(int value)](#setForegroundArgbColor-int-) | Sets the foreground color with a 32-bit ARGB value. |
 | [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Sets a style's foreground color. |
 | [setForegroundThemeColor(ThemeColor value)](#setForegroundThemeColor-com.aspose.cells.ThemeColor-) | Sets the foreground theme color. |
@@ -93,8 +103,10 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [setLocked(boolean value)](#setLocked-boolean-) | Sets a value indicating whether a cell can be modified or not. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the style. |
 | [setNumber(int value)](#setNumber-int-) | Sets the display format of numbers and dates. |
+| [setNumberFormatApplied(boolean value)](#setNumberFormatApplied-boolean-) | Indicate whether the number formatting should be applied. |
 | [setPattern(int value)](#setPattern-int-) | Sets the cell background pattern type. |
 | [setPatternColor(int pattern, Color color1, Color color2)](#setPatternColor-int-com.aspose.cells.Color-com.aspose.cells.Color-) | Sets the background color. |
+| [setProtectionApplied(boolean value)](#setProtectionApplied-boolean-) | Indicate whether the protection formatting should be applied. |
 | [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | Indicates whether the cell's value starts with single quote mark. |
 | [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle. |
 | [setShrinkToFit(boolean value)](#setShrinkToFit-boolean-) | Represents if text automatically shrinks to fit in the available column width. |
@@ -525,6 +537,34 @@ This method is only for internal use.
 
 **Returns:**
 int - A hash code for the current Object.
+### isAlignmentApplied() {#isAlignmentApplied--}
+```
+public boolean isAlignmentApplied()
+```
+
+
+Indicate whether the alignment formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Returns:**
+boolean
+### isBorderApplied() {#isBorderApplied--}
+```
+public boolean isBorderApplied()
+```
+
+
+Indicate whether the border formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Returns:**
+boolean
 ### isDateTime() {#isDateTime--}
 ```
 public boolean isDateTime()
@@ -532,6 +572,34 @@ public boolean isDateTime()
 
 
 Indicates whether the number format is a date format.
+
+**Returns:**
+boolean
+### isFillApplied() {#isFillApplied--}
+```
+public boolean isFillApplied()
+```
+
+
+Indicate whether the fill formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Returns:**
+boolean
+### isFontApplied() {#isFontApplied--}
+```
+public boolean isFontApplied()
+```
+
+
+Indicate whether the font formatting should be applied.
+
+**Remarks**
+
+Only for named style.
 
 **Returns:**
 boolean
@@ -598,6 +666,20 @@ Checks whether the specified properties of the style have been modified. Used fo
 
 **Returns:**
 boolean - true if the specified properties have been modified
+### isNumberFormatApplied() {#isNumberFormatApplied--}
+```
+public boolean isNumberFormatApplied()
+```
+
+
+Indicate whether the number formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Returns:**
+boolean
 ### isPercent() {#isPercent--}
 ```
 public boolean isPercent()
@@ -605,6 +687,20 @@ public boolean isPercent()
 
 
 Indicates whether the number format is a percent format.
+
+**Returns:**
+boolean
+### isProtectionApplied() {#isProtectionApplied--}
+```
+public boolean isProtectionApplied()
+```
+
+
+Indicate whether the protection formatting should be applied.
+
+**Remarks**
+
+Only for named style.
 
 **Returns:**
 boolean
@@ -633,6 +729,23 @@ public final native void notifyAll()
 
 
 
+
+### setAlignmentApplied(boolean value) {#setAlignmentApplied-boolean-}
+```
+public void setAlignmentApplied(boolean value)
+```
+
+
+Indicate whether the alignment formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setBackgroundArgbColor(int value) {#setBackgroundArgbColor-int-}
 ```
@@ -715,6 +828,23 @@ Sets the borders of the style.
 
 **Returns:**
 boolean - Whether current border settings have been changed.
+### setBorderApplied(boolean value) {#setBorderApplied-boolean-}
+```
+public void setBorderApplied(boolean value)
+```
+
+
+Indicate whether the border formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setCultureCustom(String value) {#setCultureCustom-java.lang.String-}
 ```
 public void setCultureCustom(String value)
@@ -762,6 +892,40 @@ Sets the Custom number format string of a cell.
 | --- | --- | --- |
 | custom | java.lang.String | Custom number format string, should be InvariantCulture pattern. |
 | builtinPreference | boolean | If given Custom number format string matches one of the built-in number formats corresponding to current regional settings, whether set the number format as built-in instead of Custom. |
+
+### setFillApplied(boolean value) {#setFillApplied-boolean-}
+```
+public void setFillApplied(boolean value)
+```
+
+
+Indicate whether the fill formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setFontApplied(boolean value) {#setFontApplied-boolean-}
+```
+public void setFontApplied(boolean value)
+```
+
+
+Indicate whether the font formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setForegroundArgbColor(int value) {#setForegroundArgbColor-int-}
 ```
@@ -971,6 +1135,23 @@ For example, the formatting patterns represented by numbers for en\_US region:
 | --- | --- | --- |
 | value | int |  |
 
+### setNumberFormatApplied(boolean value) {#setNumberFormatApplied-boolean-}
+```
+public void setNumberFormatApplied(boolean value)
+```
+
+
+Indicate whether the number formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setPattern(int value) {#setPattern-int-}
 ```
 public void setPattern(int value)
@@ -1000,6 +1181,23 @@ Sets the background color.
 | pattern | int | [BackgroundType](../../com.aspose.cells/backgroundtype). The pattern. |
 | color1 | [Color](../../com.aspose.cells/color) | The foreground color. |
 | color2 | [Color](../../com.aspose.cells/color) | The background color. Only works when pattern is not BackgroundType.None and BackgroundType.Solid. |
+
+### setProtectionApplied(boolean value) {#setProtectionApplied-boolean-}
+```
+public void setProtectionApplied(boolean value)
+```
+
+
+Indicate whether the protection formatting should be applied.
+
+**Remarks**
+
+Only for named style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setQuotePrefix(boolean value) {#setQuotePrefix-boolean-}
 ```
