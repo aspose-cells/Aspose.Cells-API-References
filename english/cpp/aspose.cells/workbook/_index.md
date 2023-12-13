@@ -75,7 +75,6 @@ class Workbook
 | [ImportXml(const Vector \<uint8_t\>\& stream, const char16_t* sheetName, int32_t row, int32_t col)](./importxml/) | Imports/Updates an XML data file into the workbook. |
 | [IsColorInPalette(const Aspose::Cells::Color\& color)](./iscolorinpalette/) | Checks if a color is in the palette for the spreadsheet. |
 | [IsDigitallySigned()](./isdigitallysigned/) | Indicates if this spreadsheet is digitally signed. |
-| [Isf()](./isf/) |  |
 | [IsLicensed()](./islicensed/) | Indicates whether license is set. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsWorkbookProtectedWithPassword()](./isworkbookprotectedwithpassword/) | Indicates whether structure or window is protected with password. |

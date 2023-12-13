@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::_impl field. The implementation object in C++.'
 type: docs
-weight: 7800
+weight: 7700
 url: /cpp/aspose.cells/workbook/_impl/
 ---
 ## _impl field

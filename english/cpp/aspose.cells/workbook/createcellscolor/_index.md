@@ -4,7 +4,7 @@ linktitle: CreateCellsColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::CreateCellsColor method. Creates a CellsColor object in C++.'
 type: docs
-weight: 1800
+weight: 1700
 url: /cpp/aspose.cells/workbook/createcellscolor/
 ---
 ## Workbook::CreateCellsColor method

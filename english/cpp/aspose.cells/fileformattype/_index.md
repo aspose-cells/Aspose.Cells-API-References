@@ -37,7 +37,7 @@ enum class FileFormatType
 | Unknown | 255 | Represents unrecognized format, cannot be loaded. |
 | Pdf | 13 | PDF (Adobe Portable Document) format. |
 | Xps | 20 | XPS (XML Paper Specification) format. |
-| Tiff | 21 | Represents a TIFF file. |
+| Tiff | 21 | Represents a TIFF file. Tiff is not supported in the C++ version. |
 | Svg | 28 | SVG file. |
 | Excel95 | 22 | Represents an Excel95 xls file. |
 | Excel4 | 23 | Represents an Excel4.0 xls file. |

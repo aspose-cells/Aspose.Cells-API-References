@@ -4,7 +4,7 @@ linktitle: GetFonts
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetFonts method. Gets all fonts in the style pool in C++.'
 type: docs
-weight: 2500
+weight: 2400
 url: /cpp/aspose.cells/workbook/getfonts/
 ---
 ## Workbook::GetFonts method

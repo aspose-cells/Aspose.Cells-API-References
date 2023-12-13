@@ -4,7 +4,7 @@ linktitle: CloseAccessCache
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::CloseAccessCache method. Closes the session that uses caches to access data in C++.'
 type: docs
-weight: 1000
+weight: 900
 url: /cpp/aspose.cells/workbook/closeaccesscache/
 ---
 ## Workbook::CloseAccessCache method

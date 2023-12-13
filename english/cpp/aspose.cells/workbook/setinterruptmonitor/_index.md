@@ -4,7 +4,7 @@ linktitle: SetInterruptMonitor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::SetInterruptMonitor method. Gets and sets the interrupt monitor in C++.'
 type: docs
-weight: 6200
+weight: 6100
 url: /cpp/aspose.cells/workbook/setinterruptmonitor/
 ---
 ## Workbook::SetInterruptMonitor(AbstractInterruptMonitor*) method

@@ -4,7 +4,7 @@ linktitle: GetBuiltInDocumentProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetBuiltInDocumentProperties method. Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet in C++.'
 type: docs
-weight: 5700
+weight: 5600
 url: /cpp/aspose.cells/workbook/getbuiltindocumentproperties/
 ---
 ## Workbook::GetBuiltInDocumentProperties method
@@ -69,11 +69,11 @@ Number of Lines
 
 Number of Paragraphs
 
-Number of Slides
+Number of [Slides](../../../aspose.cells.slides/)
 
 Number of Notes
 
-Number of Hidden Slides
+Number of Hidden [Slides](../../../aspose.cells.slides/)
 
 Number of Multimedia Clips
 

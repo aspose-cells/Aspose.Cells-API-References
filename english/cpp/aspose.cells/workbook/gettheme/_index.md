@@ -4,7 +4,7 @@ linktitle: GetTheme
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetTheme method. Gets the theme name in C++.'
 type: docs
-weight: 5200
+weight: 5100
 url: /cpp/aspose.cells/workbook/gettheme/
 ---
 ## Workbook::GetTheme method

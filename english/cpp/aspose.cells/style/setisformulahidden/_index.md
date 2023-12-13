@@ -4,7 +4,7 @@ linktitle: SetIsFormulaHidden
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetIsFormulaHidden method. Represents if the formula will be hidden when the worksheet is protected in C++.'
 type: docs
-weight: 5200
+weight: 6400
 url: /cpp/aspose.cells/style/setisformulahidden/
 ---
 ## Style::SetIsFormulaHidden method

@@ -4,7 +4,7 @@ linktitle: GetColors
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetColors method. Returns colors in the palette for the spreadsheet in C++.'
 type: docs
-weight: 2200
+weight: 2100
 url: /cpp/aspose.cells/workbook/getcolors/
 ---
 ## Workbook::GetColors method

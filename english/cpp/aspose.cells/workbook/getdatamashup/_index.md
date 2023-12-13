@@ -4,7 +4,7 @@ linktitle: GetDataMashup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetDataMashup method. Gets mashup data in C++.'
 type: docs
-weight: 6500
+weight: 6400
 url: /cpp/aspose.cells/workbook/getdatamashup/
 ---
 ## Workbook::GetDataMashup method

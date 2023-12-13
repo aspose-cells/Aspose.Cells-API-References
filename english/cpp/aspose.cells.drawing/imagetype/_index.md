@@ -28,7 +28,7 @@ enum class ImageType
 | Png | 6 | Portable Network Graphics. |
 | Bmp | 7 | Windows Bitmap. |
 | Gif | 66 | Gif. |
-| Tiff | 67 | Tiff. |
+| Tiff | 67 | Tiff Tiff is not supported in the C++ version. |
 | Svg | 68 | Svg. |
 | Svm | 69 | Svm. |
 | Gltf | 70 | glTF |

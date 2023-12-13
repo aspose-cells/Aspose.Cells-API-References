@@ -4,7 +4,7 @@ linktitle: SetBorder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetBorder method. Sets the borders of the style in C++.'
 type: docs
-weight: 4300
+weight: 5500
 url: /cpp/aspose.cells/style/setborder/
 ---
 ## Style::SetBorder(BorderType, CellBorderType, const Aspose::Cells::Color\&) method

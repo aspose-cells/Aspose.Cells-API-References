@@ -4,7 +4,7 @@ linktitle: SetNumber
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetNumber method. Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions in C++.'
 type: docs
-weight: 4200
+weight: 5400
 url: /cpp/aspose.cells/style/setnumber/
 ---
 ## Style::SetNumber method

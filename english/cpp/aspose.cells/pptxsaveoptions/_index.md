@@ -20,6 +20,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 
 | Method | Description |
 | --- | --- |
+| [GetAdjustFontSizeForRowType()](./getadjustfontsizeforrowtype/) | Represents what type of line needs to be adjusted size of font if height of row is small. |
 | [GetAllColumnsInOnePagePerSheet()](../paginatedsaveoptions/getallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
 | [GetCachedFileFolder()](../saveoptions/getcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [GetCheckFontCompatibility()](../paginatedsaveoptions/getcheckfontcompatibility/) | Indicates whether to check font compatibility for every character in text. |
@@ -32,6 +33,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetEmfRenderSetting()](../paginatedsaveoptions/getemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GetGridlineType()](../paginatedsaveoptions/getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](../paginatedsaveoptions/getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
+| [GetIgnoreHiddenRows()](./getignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetOnePagePerSheet()](../paginatedsaveoptions/getonepagepersheet/) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [GetOutputBlankPageWhenNothingToPrint()](../paginatedsaveoptions/getoutputblankpagewhennothingtoprint/) | Indicates whether to output a blank page when there is nothing to print. |
@@ -64,6 +66,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [PptxSaveOptions(const PaginatedSaveOptions\& src)](./pptxsaveoptions/) | Constructs from a parent object. |
 | [SaveOptions(SaveOptions_Impl* impl)](../saveoptions/saveoptions/) | Constructs from an implementation object. |
 | [SaveOptions(const SaveOptions\& src)](../saveoptions/saveoptions/) | Copy constructor. |
+| [SetAdjustFontSizeForRowType(AdjustFontSizeForRowType value)](./setadjustfontsizeforrowtype/) | Represents what type of line needs to be adjusted size of font if height of row is small. |
 | [SetAllColumnsInOnePagePerSheet(bool value)](../paginatedsaveoptions/setallcolumnsinonepagepersheet/) | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect. |
 | [SetCachedFileFolder(const U16String\& value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
 | [SetCachedFileFolder(const char16_t* value)](../saveoptions/setcachedfilefolder/) | The cached file folder is used to store some large data. |
@@ -78,6 +81,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetEmfRenderSetting(EmfRenderSetting value)](../paginatedsaveoptions/setemfrendersetting/) | Setting for rendering Emf metafile. |
 | [SetGridlineType(GridlineType value)](../paginatedsaveoptions/setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](../paginatedsaveoptions/setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
+| [SetIgnoreHiddenRows(bool value)](./setignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
 | [SetIsFontSubstitutionCharGranularity(bool value)](../paginatedsaveoptions/setisfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetOnePagePerSheet(bool value)](../paginatedsaveoptions/setonepagepersheet/) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |

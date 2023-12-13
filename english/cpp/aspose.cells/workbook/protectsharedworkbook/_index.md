@@ -4,7 +4,7 @@ linktitle: ProtectSharedWorkbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::ProtectSharedWorkbook method. Protects a shared workbook in C++.'
 type: docs
-weight: 3700
+weight: 3600
 url: /cpp/aspose.cells/workbook/protectsharedworkbook/
 ---
 ## Workbook::ProtectSharedWorkbook(const U16String\&) method

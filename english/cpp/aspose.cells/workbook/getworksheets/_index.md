@@ -4,7 +4,7 @@ linktitle: GetWorksheets
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetWorksheets method. Gets the WorksheetCollection collection in the spreadsheet in C++.'
 type: docs
-weight: 1300
+weight: 1200
 url: /cpp/aspose.cells/workbook/getworksheets/
 ---
 ## Workbook::GetWorksheets method

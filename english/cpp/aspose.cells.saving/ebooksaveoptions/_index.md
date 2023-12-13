@@ -94,6 +94,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [IsFullPathLink()](../../aspose.cells/htmlsaveoptions/isfullpathlink/) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false. |
 | [IsIECompatible()](../../aspose.cells/htmlsaveoptions/isiecompatible/) | Indicating whether the output HTML is compatible with IE browser. The defalut value is false. |
 | [IsJsBrowserCompatible()](../../aspose.cells/htmlsaveoptions/isjsbrowsercompatible/) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true. |
+| [IsMobileCompatible()](../../aspose.cells/htmlsaveoptions/ismobilecompatible/) | Indicates whether the output HTML is compatible with mobile devices. The default value is false. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const EbookSaveOptions\& src)](./operator_asm/) | operator= |
@@ -152,6 +153,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetIsFullPathLink(bool value)](../../aspose.cells/htmlsaveoptions/setisfullpathlink/) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false. |
 | [SetIsIECompatible(bool value)](../../aspose.cells/htmlsaveoptions/setisiecompatible/) | Indicating whether the output HTML is compatible with IE browser. The defalut value is false. |
 | [SetIsJsBrowserCompatible(bool value)](../../aspose.cells/htmlsaveoptions/setisjsbrowsercompatible/) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true. |
+| [SetIsMobileCompatible(bool value)](../../aspose.cells/htmlsaveoptions/setismobilecompatible/) | Indicates whether the output HTML is compatible with mobile devices. The default value is false. |
 | [SetLinkTargetType(HtmlLinkTargetType value)](../../aspose.cells/htmlsaveoptions/setlinktargettype/) | Indicating the type of target attribute in **<a>** link. The default value is [HtmlLinkTargetType.Parent](../../aspose.cells/htmllinktargettype/). |
 | [SetMergeAreas(bool value)](../../aspose.cells/saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetMergeEmptyTdForcely(bool value)](../../aspose.cells/htmlsaveoptions/setmergeemptytdforcely/) | Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |

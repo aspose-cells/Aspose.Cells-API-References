@@ -4,7 +4,7 @@ linktitle: SetEncryptionOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::SetEncryptionOptions method. Set Encryption Options in C++.'
 type: docs
-weight: 3500
+weight: 3400
 url: /cpp/aspose.cells/workbook/setencryptionoptions/
 ---
 ## Workbook::SetEncryptionOptions method

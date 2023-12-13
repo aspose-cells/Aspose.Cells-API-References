@@ -4,7 +4,7 @@ linktitle: AcceptAllRevisions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::AcceptAllRevisions method. Accepts all tracked changes in the workbook in C++.'
 type: docs
-weight: 4400
+weight: 4300
 url: /cpp/aspose.cells/workbook/acceptallrevisions/
 ---
 ## Workbook::AcceptAllRevisions method

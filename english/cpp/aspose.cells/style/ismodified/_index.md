@@ -4,7 +4,7 @@ linktitle: IsModified
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::IsModified method. Checks whether the specified properties of the style have been modified. Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell in C++.'
 type: docs
-weight: 2800
+weight: 4000
 url: /cpp/aspose.cells/style/ismodified/
 ---
 ## Style::IsModified method

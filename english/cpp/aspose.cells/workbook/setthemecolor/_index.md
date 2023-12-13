@@ -4,7 +4,7 @@ linktitle: SetThemeColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::SetThemeColor method. Sets the theme color in C++.'
 type: docs
-weight: 5100
+weight: 5000
 url: /cpp/aspose.cells/workbook/setthemecolor/
 ---
 ## Workbook::SetThemeColor method

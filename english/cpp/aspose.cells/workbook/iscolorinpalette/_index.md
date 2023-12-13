@@ -4,7 +4,7 @@ linktitle: IsColorInPalette
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::IsColorInPalette method. Checks if a color is in the palette for the spreadsheet in C++.'
 type: docs
-weight: 2800
+weight: 2700
 url: /cpp/aspose.cells/workbook/iscolorinpalette/
 ---
 ## Workbook::IsColorInPalette method

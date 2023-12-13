@@ -4,7 +4,7 @@ linktitle: ChangePalette
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::ChangePalette method. Changes the palette for the spreadsheet in the specified index in C++.'
 type: docs
-weight: 2700
+weight: 2600
 url: /cpp/aspose.cells/workbook/changepalette/
 ---
 ## Workbook::ChangePalette method

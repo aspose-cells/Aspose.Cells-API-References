@@ -4,7 +4,7 @@ linktitle: UnprotectSharedWorkbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::UnprotectSharedWorkbook method. Unprotects a shared workbook in C++.'
 type: docs
-weight: 3900
+weight: 3800
 url: /cpp/aspose.cells/workbook/unprotectsharedworkbook/
 ---
 ## Workbook::UnprotectSharedWorkbook(const U16String\&) method

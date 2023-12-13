@@ -4,7 +4,7 @@ linktitle: SetFileName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::SetFileName method. Gets and sets the current file name in C++.'
 type: docs
-weight: 4800
+weight: 4700
 url: /cpp/aspose.cells/workbook/setfilename/
 ---
 ## Workbook::SetFileName(const U16String\&) method

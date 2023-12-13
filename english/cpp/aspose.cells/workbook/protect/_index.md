@@ -4,7 +4,7 @@ linktitle: Protect
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::Protect method. Protects a workbook in C++.'
 type: docs
-weight: 3600
+weight: 3500
 url: /cpp/aspose.cells/workbook/protect/
 ---
 ## Workbook::Protect(ProtectionType, const U16String\&) method

@@ -4,7 +4,7 @@ linktitle: SetAbsolutePath
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::SetAbsolutePath method. Gets and sets the absolute path of the file in C++.'
 type: docs
-weight: 6900
+weight: 6800
 url: /cpp/aspose.cells/workbook/setabsolutepath/
 ---
 ## Workbook::SetAbsolutePath(const U16String\&) method

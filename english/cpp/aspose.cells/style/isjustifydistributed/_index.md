@@ -4,7 +4,7 @@ linktitle: IsJustifyDistributed
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::IsJustifyDistributed method. Indicates if the cells justified or distributed alignment should be used on the last line of text in C++.'
 type: docs
-weight: 5700
+weight: 6900
 url: /cpp/aspose.cells/style/isjustifydistributed/
 ---
 ## Style::IsJustifyDistributed method

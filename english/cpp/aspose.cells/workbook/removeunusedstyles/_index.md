@@ -4,7 +4,7 @@ linktitle: RemoveUnusedStyles
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::RemoveUnusedStyles method. Remove all unused styles in C++.'
 type: docs
-weight: 1500
+weight: 1400
 url: /cpp/aspose.cells/workbook/removeunusedstyles/
 ---
 ## Workbook::RemoveUnusedStyles method

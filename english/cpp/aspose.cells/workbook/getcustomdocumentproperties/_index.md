@@ -4,7 +4,7 @@ linktitle: GetCustomDocumentProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetCustomDocumentProperties method. Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet in C++.'
 type: docs
-weight: 5800
+weight: 5700
 url: /cpp/aspose.cells/workbook/getcustomdocumentproperties/
 ---
 ## Workbook::GetCustomDocumentProperties method

@@ -90,6 +90,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [IsFullPathLink()](./isfullpathlink/) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false. |
 | [IsIECompatible()](./isiecompatible/) | Indicating whether the output HTML is compatible with IE browser. The defalut value is false. |
 | [IsJsBrowserCompatible()](./isjsbrowsercompatible/) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true. |
+| [IsMobileCompatible()](./ismobilecompatible/) | Indicates whether the output HTML is compatible with mobile devices. The default value is false. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const HtmlSaveOptions\& src)](./operator_asm/) | operator= |
@@ -147,6 +148,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetIsFullPathLink(bool value)](./setisfullpathlink/) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false. |
 | [SetIsIECompatible(bool value)](./setisiecompatible/) | Indicating whether the output HTML is compatible with IE browser. The defalut value is false. |
 | [SetIsJsBrowserCompatible(bool value)](./setisjsbrowsercompatible/) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true. |
+| [SetIsMobileCompatible(bool value)](./setismobilecompatible/) | Indicates whether the output HTML is compatible with mobile devices. The default value is false. |
 | [SetLinkTargetType(HtmlLinkTargetType value)](./setlinktargettype/) | Indicating the type of target attribute in **<a>** link. The default value is [HtmlLinkTargetType.Parent](../htmllinktargettype/). |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetMergeEmptyTdForcely(bool value)](./setmergeemptytdforcely/) | Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |

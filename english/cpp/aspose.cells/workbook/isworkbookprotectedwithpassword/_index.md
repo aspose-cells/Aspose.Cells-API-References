@@ -4,7 +4,7 @@ linktitle: IsWorkbookProtectedWithPassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::IsWorkbookProtectedWithPassword method. Indicates whether structure or window is protected with password in C++.'
 type: docs
-weight: 4000
+weight: 3900
 url: /cpp/aspose.cells/workbook/isworkbookprotectedwithpassword/
 ---
 ## Workbook::IsWorkbookProtectedWithPassword method

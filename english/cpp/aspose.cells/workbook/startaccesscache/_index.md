@@ -4,7 +4,7 @@ linktitle: StartAccessCache
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::StartAccessCache method. Starts the session that uses caches to access data in C++.'
 type: docs
-weight: 900
+weight: 800
 url: /cpp/aspose.cells/workbook/startaccesscache/
 ---
 ## Workbook::StartAccessCache method

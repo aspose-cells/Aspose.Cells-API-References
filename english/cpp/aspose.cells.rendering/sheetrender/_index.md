@@ -33,9 +33,6 @@ class SheetRender
 | [ToImage(int32_t pageIndex, const U16String\& fileName)](./toimage/) | Render certain page to a file. |
 | [ToImage(int32_t pageIndex, const char16_t* fileName)](./toimage/) | Render certain page to a file. |
 | [ToImage(int32_t pageIndex)](./toimage/) | Render certain page to a stream. |
-| [ToTiff()](./totiff/) | Render whole worksheet as Tiff Image to stream. |
-| [ToTiff(const U16String\& filename)](./totiff/) | Render whole worksheet as Tiff Image to a file. |
-| [ToTiff(const char16_t* filename)](./totiff/) | Render whole worksheet as Tiff Image to a file. |
 | [~SheetRender()](./~sheetrender/) | Destructor. |
 ## Fields
 

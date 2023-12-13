@@ -69,11 +69,11 @@ Number of Lines
 
 Number of Paragraphs
 
-Number of Slides
+Number of [Slides](../../../aspose.cells.slides/)
 
 Number of Notes
 
-Number of Hidden Slides
+Number of Hidden [Slides](../../../aspose.cells.slides/)
 
 Number of Multimedia Clips
 

@@ -4,7 +4,7 @@ linktitle: Aspose::Cells::Timelines
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use Aspose::Cells::Timelines namespace in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells.timelines/
 ---
 

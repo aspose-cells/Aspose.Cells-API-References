@@ -4,7 +4,7 @@ linktitle: CreateStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::CreateStyle method. Creates a new style in C++.'
 type: docs
-weight: 1600
+weight: 1500
 url: /cpp/aspose.cells/workbook/createstyle/
 ---
 ## Workbook::CreateStyle method

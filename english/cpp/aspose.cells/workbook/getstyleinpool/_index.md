@@ -4,7 +4,7 @@ linktitle: GetStyleInPool
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetStyleInPool method. Gets the style in the style pool. All styles in the workbook will be gathered into a pool. There is only a simple reference index in the cells in C++.'
 type: docs
-weight: 2300
+weight: 2200
 url: /cpp/aspose.cells/workbook/getstyleinpool/
 ---
 ## Workbook::GetStyleInPool method

@@ -4,7 +4,7 @@ linktitle: CreateBuiltinStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::CreateBuiltinStyle method. Creates built-in style by given type in C++.'
 type: docs
-weight: 1700
+weight: 1600
 url: /cpp/aspose.cells/workbook/createbuiltinstyle/
 ---
 ## Workbook::CreateBuiltinStyle method

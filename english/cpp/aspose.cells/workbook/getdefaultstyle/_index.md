@@ -4,7 +4,7 @@ linktitle: GetDefaultStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetDefaultStyle method. Gets or sets the default Style object of the workbook in C++.'
 type: docs
-weight: 3100
+weight: 3000
 url: /cpp/aspose.cells/workbook/getdefaultstyle/
 ---
 ## Workbook::GetDefaultStyle method

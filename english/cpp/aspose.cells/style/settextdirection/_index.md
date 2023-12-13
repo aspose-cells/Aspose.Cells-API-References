@@ -4,7 +4,7 @@ linktitle: SetTextDirection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetTextDirection method. Represents text reading order in C++.'
 type: docs
-weight: 5600
+weight: 6800
 url: /cpp/aspose.cells/style/settextdirection/
 ---
 ## Style::SetTextDirection method

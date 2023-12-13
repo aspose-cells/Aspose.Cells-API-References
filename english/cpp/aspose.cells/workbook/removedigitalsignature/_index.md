@@ -4,7 +4,7 @@ linktitle: RemoveDigitalSignature
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::RemoveDigitalSignature method. Removes digital signature from this spreadsheet in C++.'
 type: docs
-weight: 4300
+weight: 4200
 url: /cpp/aspose.cells/workbook/removedigitalsignature/
 ---
 ## Workbook::RemoveDigitalSignature method

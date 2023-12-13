@@ -4,7 +4,7 @@ linktitle: ExportXml
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::ExportXml method. Export XML data linked by the specified XML map in C++.'
 type: docs
-weight: 7200
+weight: 7100
 url: /cpp/aspose.cells/workbook/exportxml/
 ---
 ## Workbook::ExportXml(const U16String\&, const U16String\&) method

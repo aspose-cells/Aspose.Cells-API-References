@@ -4,7 +4,7 @@ linktitle: GetRibbonXml
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetRibbonXml method. Gets and sets the XML file that defines the Ribbon UI in C++.'
 type: docs
-weight: 6600
+weight: 6500
 url: /cpp/aspose.cells/workbook/getribbonxml/
 ---
 ## Workbook::GetRibbonXml method

@@ -4,7 +4,7 @@ linktitle: SaveToStream
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::SaveToStream method. Saves Excel file to a MemoryStream object and returns it in C++.'
 type: docs
-weight: 1200
+weight: 1100
 url: /cpp/aspose.cells/workbook/savetostream/
 ---
 ## Workbook::SaveToStream method

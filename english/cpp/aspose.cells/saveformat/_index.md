@@ -42,7 +42,7 @@ enum class SaveFormat
 | Pdf | 13 | Represents a Pdf file. |
 | Xps | 20 | XPS (XML Paper Specification) format. |
 | XPS | 20 | XPS (XML Paper Specification) format. NOTE: This member is now obsolete. Instead, please use [Xps](../fileformattype/) property. This property will be removed 6 months later since April 2021. **Aspose** apologizes for any inconvenience you may have experienced. |
-| Tiff | 21 | Represents a TIFF file. |
+| Tiff | 21 | Represents a TIFF file. Tiff is not supported in the C++ version. |
 | TIFF | 21 | Represents a TIFF file. NOTE: This member is now obsolete. Instead, please use [Tiff](../fileformattype/) property. This property will be removed 6 months later since April 2021. **Aspose** apologizes for any inconvenience you may have experienced. |
 | Svg | 28 | SVG file. |
 | SVG | 28 | SVG file. NOTE: This member is now obsolete. Instead, please use [Svg](../fileformattype/) property. This property will be removed 6 months later since April 2021. **Aspose** apologizes for any inconvenience you may have experienced. |

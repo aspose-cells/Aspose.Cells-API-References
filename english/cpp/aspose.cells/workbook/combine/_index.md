@@ -4,7 +4,7 @@ linktitle: Combine
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::Combine method. Combines another Workbook object in C++.'
 type: docs
-weight: 2100
+weight: 2000
 url: /cpp/aspose.cells/workbook/combine/
 ---
 ## Workbook::Combine method

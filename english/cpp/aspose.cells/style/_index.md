@@ -46,14 +46,20 @@ class Style
 | [GetTextDirection()](./gettextdirection/) | Represents text reading order. |
 | [GetTwoColorGradientSetting()](./gettwocolorgradientsetting/) | Get the two-color gradient setting. |
 | [GetVerticalAlignment()](./getverticalalignment/) | Gets or sets the vertical alignment type of the text in a cell. |
+| [IsAlignmentApplied()](./isalignmentapplied/) | Indicate whether the alignment formatting should be applied. |
+| [IsBorderApplied()](./isborderapplied/) | Indicate whether the border formatting should be applied. |
 | [IsDateTime()](./isdatetime/) | Indicates whether the number format is a date format. |
+| [IsFillApplied()](./isfillapplied/) | Indicate whether the fill formatting should be applied. |
+| [IsFontApplied()](./isfontapplied/) | Indicate whether the font formatting should be applied. |
 | [IsFormulaHidden()](./isformulahidden/) | Represents if the formula will be hidden when the worksheet is protected. |
 | [IsGradient()](./isgradient/) | Indicates whether the cell shading is a gradient pattern. |
 | [IsJustifyDistributed()](./isjustifydistributed/) | Indicates if the cells justified or distributed alignment should be used on the last line of text. |
 | [IsLocked()](./islocked/) | Gets or sets a value indicating whether a cell can be modified or not. |
 | [IsModified(StyleModifyFlag modifyFlag)](./ismodified/) | Checks whether the specified properties of the style have been modified. Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| [IsNumberFormatApplied()](./isnumberformatapplied/) | Indicate whether the number formatting should be applied. |
 | [IsPercent()](./ispercent/) | Indicates whether the number format is a percent format. |
+| [IsProtectionApplied()](./isprotectionapplied/) | Indicate whether the protection formatting should be applied. |
 | [IsTextWrapped()](./istextwrapped/) | Gets or sets a value indicating whether the text within a cell is wrapped. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Style\& src)](./operator_asm/) | operator= |
@@ -73,10 +79,16 @@ class Style
 | [SetForegroundThemeColor(const ThemeColor\& value)](./setforegroundthemecolor/) | Gets and sets the foreground theme color. |
 | [SetHorizontalAlignment(TextAlignmentType value)](./sethorizontalalignment/) | Gets or sets the horizontal alignment type of the text in a cell. |
 | [SetIndentLevel(int32_t value)](./setindentlevel/) | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
+| [SetIsAlignmentApplied(bool value)](./setisalignmentapplied/) | Indicate whether the alignment formatting should be applied. |
+| [SetIsBorderApplied(bool value)](./setisborderapplied/) | Indicate whether the border formatting should be applied. |
+| [SetIsFillApplied(bool value)](./setisfillapplied/) | Indicate whether the fill formatting should be applied. |
+| [SetIsFontApplied(bool value)](./setisfontapplied/) | Indicate whether the font formatting should be applied. |
 | [SetIsFormulaHidden(bool value)](./setisformulahidden/) | Represents if the formula will be hidden when the worksheet is protected. |
 | [SetIsGradient(bool value)](./setisgradient/) | Indicates whether the cell shading is a gradient pattern. |
 | [SetIsJustifyDistributed(bool value)](./setisjustifydistributed/) | Indicates if the cells justified or distributed alignment should be used on the last line of text. |
 | [SetIsLocked(bool value)](./setislocked/) | Gets or sets a value indicating whether a cell can be modified or not. |
+| [SetIsNumberFormatApplied(bool value)](./setisnumberformatapplied/) | Indicate whether the number formatting should be applied. |
+| [SetIsProtectionApplied(bool value)](./setisprotectionapplied/) | Indicate whether the protection formatting should be applied. |
 | [SetIsTextWrapped(bool value)](./setistextwrapped/) | Gets or sets a value indicating whether the text within a cell is wrapped. |
 | [SetName(const U16String\& value)](./setname/) | Gets or sets the name of the style. |
 | [SetName(const char16_t* value)](./setname/) | Gets or sets the name of the style. |

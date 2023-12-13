@@ -4,7 +4,7 @@ linktitle: GetIndentLevel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::GetIndentLevel method. Represents the indent level for the cell or range. Can only be an integer from 0 to 250 in C++.'
 type: docs
-weight: 3000
+weight: 4200
 url: /cpp/aspose.cells/style/getindentlevel/
 ---
 ## Style::GetIndentLevel method

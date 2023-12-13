@@ -4,7 +4,7 @@ linktitle: SetRotationAngle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetRotationAngle method. Represents text rotation angle in C++.'
 type: docs
-weight: 3400
+weight: 4600
 url: /cpp/aspose.cells/style/setrotationangle/
 ---
 ## Style::SetRotationAngle method

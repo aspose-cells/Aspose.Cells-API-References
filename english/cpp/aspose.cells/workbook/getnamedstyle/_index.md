@@ -4,7 +4,7 @@ linktitle: GetNamedStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetNamedStyle method. Gets the named style in the style pool in C++.'
 type: docs
-weight: 2600
+weight: 2500
 url: /cpp/aspose.cells/workbook/getnamedstyle/
 ---
 ## Workbook::GetNamedStyle(const U16String\&) method

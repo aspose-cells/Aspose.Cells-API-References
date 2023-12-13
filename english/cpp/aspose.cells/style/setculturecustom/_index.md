@@ -4,7 +4,7 @@ linktitle: SetCultureCustom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::SetCultureCustom method. Gets and sets the culture-dependent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned in C++.'
 type: docs
-weight: 4900
+weight: 6100
 url: /cpp/aspose.cells/style/setculturecustom/
 ---
 ## Style::SetCultureCustom(const U16String\&) method

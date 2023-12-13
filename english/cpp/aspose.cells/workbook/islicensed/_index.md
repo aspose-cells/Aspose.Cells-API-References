@@ -4,7 +4,7 @@ linktitle: IsLicensed
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::IsLicensed method. Indicates whether license is set in C++.'
 type: docs
-weight: 1400
+weight: 1300
 url: /cpp/aspose.cells/workbook/islicensed/
 ---
 ## Workbook::IsLicensed method

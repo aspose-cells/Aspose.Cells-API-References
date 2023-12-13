@@ -4,7 +4,7 @@ linktitle: CalculateFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::CalculateFormula method. Calculates the result of formulas in C++.'
 type: docs
-weight: 2900
+weight: 2800
 url: /cpp/aspose.cells/workbook/calculateformula/
 ---
 ## Workbook::CalculateFormula() method

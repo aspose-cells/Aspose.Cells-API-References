@@ -4,7 +4,7 @@ linktitle: Save
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::Save method. Saves the workbook to the disk in C++.'
 type: docs
-weight: 1100
+weight: 1000
 url: /cpp/aspose.cells/workbook/save/
 ---
 ## Workbook::Save(const U16String\&, SaveFormat) method

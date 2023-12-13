@@ -4,7 +4,7 @@ linktitle: GetRotationAngle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::GetRotationAngle method. Represents text rotation angle in C++.'
 type: docs
-weight: 3300
+weight: 4500
 url: /cpp/aspose.cells/style/getrotationangle/
 ---
 ## Style::GetRotationAngle method

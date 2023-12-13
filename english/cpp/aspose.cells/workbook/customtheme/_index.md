@@ -4,7 +4,7 @@ linktitle: CustomTheme
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::CustomTheme method. Customs the theme in C++.'
 type: docs
-weight: 5300
+weight: 5200
 url: /cpp/aspose.cells/workbook/customtheme/
 ---
 ## Workbook::CustomTheme(const U16String\&, const Vector \<Aspose::Cells::Color\>\&) method

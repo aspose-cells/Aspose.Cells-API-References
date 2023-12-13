@@ -4,7 +4,7 @@ linktitle: GetCustomXmlParts
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetCustomXmlParts method. Represents a Custom XML Data Storage Part (custom XML data within a package) in C++.'
 type: docs
-weight: 6400
+weight: 6300
 url: /cpp/aspose.cells/workbook/getcustomxmlparts/
 ---
 ## Workbook::GetCustomXmlParts method

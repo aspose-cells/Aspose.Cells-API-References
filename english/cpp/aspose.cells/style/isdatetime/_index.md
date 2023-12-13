@@ -4,7 +4,7 @@ linktitle: IsDateTime
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Style::IsDateTime method. Indicates whether the number format is a date format in C++.'
 type: docs
-weight: 6600
+weight: 7800
 url: /cpp/aspose.cells/style/isdatetime/
 ---
 ## Style::IsDateTime method

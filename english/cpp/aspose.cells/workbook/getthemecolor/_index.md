@@ -4,7 +4,7 @@ linktitle: GetThemeColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook::GetThemeColor method. Gets theme color in C++.'
 type: docs
-weight: 5000
+weight: 4900
 url: /cpp/aspose.cells/workbook/getthemecolor/
 ---
 ## Workbook::GetThemeColor method
