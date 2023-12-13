@@ -25,7 +25,7 @@ public void RemoveAt(int index)
 
 ---
 
-## RemoveAt(string) {#removeat_1}
+## RemoveAt(string) {#removeat_2}
 
 Removes the element at a specified name.
 

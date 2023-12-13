@@ -13,6 +13,10 @@ Gets the group settings of the pivot field.
 public PivotFieldGroupSettings GroupSettings { get; }
 ```
 
+### Remarks
+
+If this field is not grouped, Null will be returned.
+
 ### See Also
 
 * class [PivotFieldGroupSettings](../../pivotfieldgroupsettings/)

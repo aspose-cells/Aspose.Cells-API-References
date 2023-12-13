@@ -33,7 +33,7 @@ A ScrollBar object.
 
 [C#]
 //add a scroll bar
-ScrollBar scrollBar = shapes.AddScrollBar(1, 0, 1, 0, 100, 50);
+ScrollBar scrollBar = shapes.AddScrollBar(1, 0, 1, 0, 100, 20);
 ```
 
 ### See Also

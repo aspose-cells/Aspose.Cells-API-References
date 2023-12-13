@@ -32,9 +32,20 @@ The element at the specified index.
 
 ## GridPictureCollection indexer (2 of 2)
 
+Gets the list of Picture element at the cell.
+
 ```csharp
 public ArrayList this[int row, int col] { get; }
 ```
+
+| Parameter | Description |
+| --- | --- |
+| row | The row index of the cell. |
+| col | The column index of the cell. |
+
+### Return Value
+
+The element at the specified index.
 
 ### See Also
 

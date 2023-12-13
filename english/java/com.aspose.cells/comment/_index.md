@@ -55,6 +55,7 @@ Encapsulates the object that represents a cell comment.
 | [getHeightInch()](#getHeightInch--) | Represents the height of the comment, in unit of inches. |
 | [getHtmlNote()](#getHtmlNote--) | Gets the html string which contains data and some formats in this comment. |
 | [getNote()](#getNote--) | Represents the content of comment. |
+| [getRichFormattings()](#getRichFormattings--) | Returns all Characters objects that represents a range of characters within the comment text. |
 | [getRow()](#getRow--) | Gets the row index of the comment. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment type of the comment. |
 | [getTextOrientationType()](#getTextOrientationType--) | Gets the text orientation type of the comment. |
@@ -183,10 +184,14 @@ public ArrayList getCharacters()
 
 Returns all Characters objects that represents a range of characters within the comment text.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Comment.GetRichFormattings() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         ArrayList list = comment1.getCharacters();
+         FontSetting fontSetting = comment1.characters(0, 4);
 ```
 
 **Returns:**
@@ -340,6 +345,22 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 
 **Returns:**
 java.lang.String
+### getRichFormattings() {#getRichFormattings--}
+```
+public FontSetting[] getRichFormattings()
+```
+
+
+Returns all Characters objects that represents a range of characters within the comment text.
+
+**Example**
+
+```
+         FontSetting[] list = comment1.getRichFormattings();
+```
+
+**Returns:**
+com.aspose.cells.FontSetting[] - All Characters objects
 ### getRow() {#getRow--}
 ```
 public int getRow()

@@ -92,6 +92,8 @@ Represents the options for saving ebook file.
 | [isExportComments()](#isExportComments--) | Indicates if exporting comments when saving file to html, the default value is false. |
 | [isFullPathLink()](#isFullPathLink--) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
 | [isIECompatible()](#isIECompatible--) | Indicating whether the output HTML is compatible with IE browser. |
+| [isJsBrowserCompatible()](#isJsBrowserCompatible--) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. |
+| [isMobileCompatible()](#isMobileCompatible--) | Indicates whether the output HTML is compatible with mobile devices. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAddTooltipText(boolean value)](#setAddTooltipText-boolean-) | Indicates whether adding tooltip text when the data can't be fully displayed. |
@@ -141,9 +143,11 @@ Represents the options for saving ebook file.
 | [setIECompatible(boolean value)](#setIECompatible-boolean-) | Indicating whether the output HTML is compatible with IE browser. |
 | [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | Indicate whether exporting those not visible shapes |
 | [setImageScalable(boolean value)](#setImageScalable-boolean-) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. |
+| [setJsBrowserCompatible(boolean value)](#setJsBrowserCompatible-boolean-) | Indicates whether JavaScript is compatible with browsers that do not support JavaScript. |
 | [setLinkTargetType(int value)](#setLinkTargetType-int-) | Indicating the type of target attribute in `<a>` link. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Indicates whether merging empty TD element forcedly when exporting file to html. |
+| [setMobileCompatible(boolean value)](#setMobileCompatible-boolean-) | Indicates whether the output HTML is compatible with mobile devices. |
 | [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
 | [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [setPresentationPreference(boolean value)](#setPresentationPreference-boolean-) | Indicating if html or mht file is presentation preference. |
@@ -946,6 +950,26 @@ Indicating whether the output HTML is compatible with IE browser. The defalut va
 
 **Returns:**
 boolean
+### isJsBrowserCompatible() {#isJsBrowserCompatible--}
+```
+public boolean isJsBrowserCompatible()
+```
+
+
+Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true.
+
+**Returns:**
+boolean
+### isMobileCompatible() {#isMobileCompatible--}
+```
+public boolean isMobileCompatible()
+```
+
+
+Indicates whether the output HTML is compatible with mobile devices. The default value is false.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -1619,6 +1643,19 @@ Indicates whether using scalable unit to describe the image width when using sca
 | --- | --- | --- |
 | value | boolean |  |
 
+### setJsBrowserCompatible(boolean value) {#setJsBrowserCompatible-boolean-}
+```
+public void setJsBrowserCompatible(boolean value)
+```
+
+
+Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setLinkTargetType(int value) {#setLinkTargetType-int-}
 ```
 public void setLinkTargetType(int value)
@@ -1658,6 +1695,19 @@ public void setMergeEmptyTdForcely(boolean value)
 
 
 Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setMobileCompatible(boolean value) {#setMobileCompatible-boolean-}
+```
+public void setMobileCompatible(boolean value)
+```
+
+
+Indicates whether the output HTML is compatible with mobile devices. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -26,7 +26,7 @@ Provides methods to set metered key.
 | [getClass()](#getClass--) |  |
 | [getConsumptionCredit()](#getConsumptionCredit--) | Gets consumption credit |
 | [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size |
-| [getProductName()](#getProductName--) | Gets the product name |
+| [getProductName()](#getProductName--) | Gets product name |
 | [hashCode()](#hashCode--) |  |
 | [isMeteredLicensed()](#isMeteredLicensed--) | Check whether metered is licensed |
 | [notify()](#notify--) |  |
@@ -95,10 +95,10 @@ public String getProductName()
 ```
 
 
-Gets the product name
+Gets product name
 
 **Returns:**
-java.lang.String - 
+java.lang.String - product name
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

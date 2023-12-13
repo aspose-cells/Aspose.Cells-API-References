@@ -189,7 +189,7 @@ In the implementation user may also set the expected value as calculated result 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| circularCellsData | java.util.Iterator | IEnumerator with CalculationCell items representing cells that depend on circular references. |
+| circularCellsData | java.util.Iterator | IEnumerator with [CalculationCell](../../com.aspose.cells/calculationcell) items representing cells that depend on circular references. |
 
 **Returns:**
 boolean - Whether the formula engine needs to calculate those cells in circular after this call. True to let the formula engine continue to do calculation for them. False to let the formula engine just mark those cells as Calculated.

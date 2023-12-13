@@ -129,6 +129,7 @@ Represents an OleObject in a worksheet.
 | [getReflection()](#getReflection--) | Represents a [ReflectionEffect](../../com.aspose.cells/reflectioneffect) object that specifies reflection effect for the chart element or shape. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--) | Indicates whether shape is relative to original picture size. |
 | [getResultOfSmartArt()](#getResultOfSmartArt--) | Converting smart art to grouped shapes. |
+| [getRichFormattings()](#getRichFormattings--) | Returns all Characters objects that represents a range of characters within the text . |
 | [getRight()](#getRight--) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
 | [getRotationAngle()](#getRotationAngle--) | Gets the rotation of the shape. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
@@ -444,9 +445,12 @@ Gets the ActiveX control.
 **Example**
 
 ```
-         CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.getActiveXControl();
-         //The font name of CheckBox
-         String fontName = checkBox1.getFont().getName();
+         if(shape.getActiveXControl() != null)
+         {
+             CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.getActiveXControl();
+             //The font name of CheckBox
+             String fontName = checkBox1.getFont().getName();
+         }
 ```
 
 **Returns:**
@@ -580,10 +584,14 @@ public ArrayList getCharacters()
 
 Returns all Characters objects that represents a range of characters within the text .
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Shape.GetRichFormattings() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+
 **Example**
 
 ```
-         ArrayList list = shape.getCharacters();
+         FontSetting fontSetting = shape.characters(0, 4);
 ```
 
 **Returns:**
@@ -759,7 +767,7 @@ Gets the geometry
 **Example**
 
 ```
-         if (shape.getGeometry().getShapeAdjustValues().getCount() == 0)
+         if (shape.getGeometry() != null &&shape.getGeometry().getShapeAdjustValues().getCount() == 0)
              System.out.println("No geometry path.");
 ```
 
@@ -860,8 +868,8 @@ Only Applies when this shape in the group or chart.
 **Example**
 
 ```
-         if (shape.getUpperDeltaY() == 4000)
-             shape.setUpperDeltaY(2000);
+         if (shape.isInGroup() &&shape.getHeightInShape() == 4000)
+             shape.setHeightInShape(2000);
 ```
 
 **Returns:**
@@ -1118,8 +1126,8 @@ Only Applies when this shape in the group or chart.
 **Example**
 
 ```
-         if (shape.getUpperDeltaY() == 2000)
-             shape.setUpperDeltaY(4000);
+         if (shape.isInGroup() &&shape.getLeftInShape() == 2000)
+             shape.setLeftInShape(4000);
 ```
 
 **Returns:**
@@ -1521,11 +1529,30 @@ Converting smart art to grouped shapes.
 **Example**
 
 ```
-         GroupShape groupShape = shape.getResultOfSmartArt();
+         if(shape.isSmartArt())
+         {
+             GroupShape groupShape = shape.getResultOfSmartArt();
+         }
 ```
 
 **Returns:**
 [GroupShape](../../com.aspose.cells/groupshape)
+### getRichFormattings() {#getRichFormattings--}
+```
+public FontSetting[] getRichFormattings()
+```
+
+
+Returns all Characters objects that represents a range of characters within the text .
+
+**Example**
+
+```
+         FontSetting[] list = shape.getRichFormattings();
+```
+
+**Returns:**
+com.aspose.cells.FontSetting[] - All Characters objects
 ### getRight() {#getRight--}
 ```
 public int getRight()
@@ -1702,7 +1729,10 @@ Returns a TextEffectFormat object that contains text-effect formatting propertie
 **Example**
 
 ```
-         TextEffectFormat textEffectFormat = shape.getTextEffect();
+         if(shape.isWordArt())
+         {
+             TextEffectFormat textEffectFormat = shape.getTextEffect();
+         }
 ```
 
 **Returns:**
@@ -1952,7 +1982,7 @@ Only Applies when this shape in the group or chart.
 **Example**
 
 ```
-         if (shape.getTopInShape() == 8000)
+         if (shape.isInGroup() &&shape.getTopInShape() == 8000)
              shape.setTopInShape(4000);
 ```
 
@@ -2153,8 +2183,8 @@ Only Applies when this shape in the group or chart.
 **Example**
 
 ```
-         if (shape.getUpperDeltaY() == 2000)
-             shape.setUpperDeltaY(4000);
+         if (shape.isInGroup() &&shape.getWidthInShape() == 2000)
+             shape.setWidthInShape(4000);
 ```
 
 **Returns:**
@@ -2641,7 +2671,10 @@ Remove activeX control.
 **Example**
 
 ```
-         shape.removeActiveXControl();
+         if(shape.getActiveXControl() != null)
+         {
+             shape.removeActiveXControl();
+         }
 ```
 
 ### removeHyperlink() {#removeHyperlink--}

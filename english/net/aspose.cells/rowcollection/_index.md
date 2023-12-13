@@ -1,13 +1,13 @@
 ---
 title: Class RowCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.RowCollection class. Collects the  objects that represent the individual rows in a worksheet
+description: Aspose.Cells.RowCollection class. Collects the Row objects that represent the individual rows in a worksheet
 type: docs
 url: /net/aspose.cells/rowcollection/
 ---
 ## RowCollection class
 
-Collects the  objects that represent the individual rows in a worksheet.
+Collects the [`Row`](../row/) objects that represent the individual rows in a worksheet.
 
 ```csharp
 public class RowCollection : IEnumerable
@@ -18,7 +18,7 @@ public class RowCollection : IEnumerable
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells/rowcollection/count/) { get; } | Gets the number of rows in this collection. |
-| [Item](../../aspose.cells/rowcollection/item/) { get; } | Gets a  object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
+| [Item](../../aspose.cells/rowcollection/item/) { get; } | Gets a [`Row`](../row/) object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
 
 ## Methods
 

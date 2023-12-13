@@ -210,7 +210,7 @@ Gets the maximum acceptable value.
 **Example**
 
 ```
-         activeXControl.setMin(100);
+         activeXControl.setMax(100);
 ```
 
 **Returns:**

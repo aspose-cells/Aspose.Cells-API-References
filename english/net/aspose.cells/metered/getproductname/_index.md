@@ -1,17 +1,21 @@
 ---
 title: Metered.GetProductName
 second_title: Aspose.Cells for .NET API Reference
-description: Metered method. Gets the product name
+description: Metered method. Gets product name
 type: docs
 url: /net/aspose.cells/metered/getproductname/
 ---
 ## Metered.GetProductName method
 
-Gets the product name
+Gets product name
 
 ```csharp
 public string GetProductName()
 ```
+
+### Return Value
+
+product name
 
 ### See Also
 

@@ -36,7 +36,7 @@ using (FileStream fs = new FileStream("icon.svg", FileMode.Open))
     int len = (int)fs.Length;
     byte[] imageData = new byte[len];
     fs.Read(imageData, 0, len);
-    Picture picture = shapes.AddSvg(4, 0, 5, 0, -1, -1, imageData, null);
+    Picture picture = shapes.AddIcons(4, 0, 5, 0, -1, -1, imageData, null);
 }
 ```
 

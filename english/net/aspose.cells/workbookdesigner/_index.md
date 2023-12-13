@@ -50,6 +50,7 @@ public class WorkbookDesigner
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_5)(string, ICellsDataTable) | Sets data source of a [`ICellsDataTable`](../icellsdatatable/) object. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_8)(string, object) | Sets data binding to a variable. |
 | [SetDataSource](../../aspose.cells/workbookdesigner/setdatasource/#setdatasource_7)(string, IDataReader, int) | Sets data source of a IDataReader object. |
+| [SetJsonDataSource](../../aspose.cells/workbookdesigner/setjsondatasource/)(string, string) |  |
 
 ### Examples
 

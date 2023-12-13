@@ -37,7 +37,7 @@ public class TextOptions : Font
 | [Outline](../../aspose.cells.drawing.texts/textoptions/outline/) { get; } | Represents the outline format of the text. |
 | [SchemeType](../../aspose.cells/font/schemetype/) { get; set; } | Gets and sets the scheme type of the font.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [ScriptOffset](../../aspose.cells/font/scriptoffset/) { get; set; } | Gets and sets the script offset,in unit of percentage(Inherited from [`Font`](../../aspose.cells/font/).) |
-| [Shadow](../../aspose.cells.drawing.texts/textoptions/shadow/) { get; } | Represents a  object that specifies shadow effect for the chart element or shape. |
+| [Shadow](../../aspose.cells.drawing.texts/textoptions/shadow/) { get; } | Represents a [`ShadowEffect`](../../aspose.cells.drawing/shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [Size](../../aspose.cells/font/size/) { get; set; } | Gets or sets the size of the font.(Inherited from [`Font`](../../aspose.cells/font/).) |
 | [Spacing](../../aspose.cells.drawing.texts/textoptions/spacing/) { get; set; } | Specifies the spacing between characters within a text run. |
 | [StrikeType](../../aspose.cells/font/striketype/) { get; set; } | Gets the strike type of the text.(Inherited from [`Font`](../../aspose.cells/font/).) |

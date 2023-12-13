@@ -18,7 +18,10 @@ public void RemoveActiveXControl()
 ```csharp
 
 [C#]
-shape.RemoveActiveXControl();
+if(shape.ActiveXControl != null)
+{
+    shape.RemoveActiveXControl();
+}
 ```
 
 ### See Also

@@ -31,7 +31,7 @@ public class Cells : IDisposable, IEnumerable
 | [MaxDisplayRange](../../aspose.cells/cells/maxdisplayrange/) { get; } | Gets the max range which includes data, merged cells and shapes. |
 | [MaxRow](../../aspose.cells/cells/maxrow/) { get; } | Maximum row index of cell which contains data or style. |
 | [MemorySetting](../../aspose.cells/cells/memorysetting/) { get; set; } | Gets or sets the memory usage option for this cells. |
-| [MergedCells](../../aspose.cells/cells/mergedcells/) { get; } | Gets the collection of merged cells. |
+| [MergedCells](../../aspose.cells/cells/mergedcells/) { get; } | (**Obsolete.**) Gets the collection of merged cells. |
 | [MinColumn](../../aspose.cells/cells/mincolumn/) { get; } | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
 | [MinDataColumn](../../aspose.cells/cells/mindatacolumn/) { get; } | Minimum column index of cell which contains data. |
 | [MinDataRow](../../aspose.cells/cells/mindatarow/) { get; } | Minimum row index of cell which contains data. |
@@ -104,6 +104,7 @@ public class Cells : IDisposable, IEnumerable
 | [ExportDataTable](../../aspose.cells/cells/exportdatatable/#exportdatatable_1)(int, int, int, int, ExportTableOptions) | Exports data in the `Cells` collection to a DataTable object. |
 | [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring/#exportdatatableasstring)(int, int, int, int) | Exports data in the `Cells` collection to a DataTable object. |
 | [ExportDataTableAsString](../../aspose.cells/cells/exportdatatableasstring/#exportdatatableasstring_1)(int, int, int, int, bool) | Exports data in the `Cells` collection to a DataTable object. |
+| [ExportList&lt;T&gt;](../../aspose.cells/cells/exportlist/)(int, int, int, int, ExportTableOptions) |  |
 | [ExportTypeArray](../../aspose.cells/cells/exporttypearray/)(int, int, int, int) | Exports cell value type in the `Cells` collection to a two-dimension array object. |
 | [Find](../../aspose.cells/cells/find/#find)(object, Cell) | Finds the cell containing with the input object. |
 | [Find](../../aspose.cells/cells/find/#find_1)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
@@ -122,6 +123,7 @@ public class Cells : IDisposable, IEnumerable
 | [GetLastDataRow](../../aspose.cells/cells/getlastdatarow/)(int) | Gets the last row index of cell which contains data in the specified column. |
 | [GetMaxGroupedColumnOutlineLevel](../../aspose.cells/cells/getmaxgroupedcolumnoutlinelevel/)() | Gets the max grouped column outline level (zero-based). |
 | [GetMaxGroupedRowOutlineLevel](../../aspose.cells/cells/getmaxgroupedrowoutlinelevel/)() | Gets the max grouped row outline level (zero-based). |
+| [GetMergedAreas](../../aspose.cells/cells/getmergedareas/)() | Gets all merged cells. |
 | [GetRow](../../aspose.cells/cells/getrow/)(int) | Gets the [`Row`](../row/) element at the specified cell row index. |
 | [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator/)() | (**Obsolete.**) Gets the rows enumerator. |
 | [GetRowHeight](../../aspose.cells/cells/getrowheight/)(int) | Gets the height of a specified row, in unit of points. |

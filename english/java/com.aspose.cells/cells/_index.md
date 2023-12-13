@@ -130,6 +130,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getMaxGroupedRowOutlineLevel()](#getMaxGroupedRowOutlineLevel--) | Gets the max grouped row outline level (zero-based). |
 | [getMaxRow()](#getMaxRow--) | Maximum row index of cell which contains data or style. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory usage option for this cells. |
+| [getMergedAreas()](#getMergedAreas--) | Gets all merged cells. |
 | [getMergedCells()](#getMergedCells--) | Gets the collection of merged cells. |
 | [getMinColumn()](#getMinColumn--) | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
 | [getMinDataColumn()](#getMinDataColumn--) | Minimum column index of cell which contains data. |
@@ -1474,6 +1475,16 @@ See [MemorySetting](../../com.aspose.cells/memorysetting).
 
 **Returns:**
 int
+### getMergedAreas() {#getMergedAreas--}
+```
+public CellArea[] getMergedAreas()
+```
+
+
+Gets all merged cells.
+
+**Returns:**
+com.aspose.cells.CellArea[]
 ### getMergedCells() {#getMergedCells--}
 ```
 public ArrayList getMergedCells()
@@ -1484,7 +1495,7 @@ Gets the collection of merged cells.
 
 **Remarks**
 
-In this collection, each item is a [CellArea](../../com.aspose.cells/cellarea) structure which represents an area of merged cells.
+NOTE: This method is now obsolete. Instead, please use Cells.GetMergedAreas() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.util.ArrayList

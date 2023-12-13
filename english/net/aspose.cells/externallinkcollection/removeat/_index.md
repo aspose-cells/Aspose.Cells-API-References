@@ -40,7 +40,7 @@ public void RemoveAt(int index, bool updateReferencesAsLocal)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | Int32 | the index of the external link to be removed. |
-| updateReferencesAsLocal | Boolean | Whether update all references of given external link to reference of current workbook itself. Check  to get more details about this parameter. |
+| updateReferencesAsLocal | Boolean | Whether update all references of given external link to reference of current workbook itself. Check [`Clear`](../clear/) to get more details about this parameter. |
 
 ### See Also
 

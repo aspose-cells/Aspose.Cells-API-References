@@ -67,6 +67,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [setDataSource(String dataSource, ResultSet rs)](#setDataSource-java.lang.String-java.sql.ResultSet-) | Set the data source. |
 | [setDataSource(String dataSource, ResultSet rs, int rowCount)](#setDataSource-java.lang.String-java.sql.ResultSet-int-) | Set the data source. |
 | [setDataSource(ResultSet rs)](#setDataSource-java.sql.ResultSet-) | Set the data source. |
+| [setJsonDataSource(String variable, String data)](#setJsonDataSource-java.lang.String-java.lang.String-) |  |
 | [setLineByLine(boolean value)](#setLineByLine-boolean-) | Indicates whether processing the smart marker line by line. |
 | [setRepeatFormulasWithSubtotal(boolean value)](#setRepeatFormulasWithSubtotal-boolean-) | Indicates whether repeating formulas with subtotal row. |
 | [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | If TRUE, Null will be inserted if the value is ""; |
@@ -378,6 +379,20 @@ Set the data source.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rs | java.sql.ResultSet | The result set. |
+
+### setJsonDataSource(String variable, String data) {#setJsonDataSource-java.lang.String-java.lang.String-}
+```
+public void setJsonDataSource(String variable, String data)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| variable | java.lang.String |  |
+| data | java.lang.String |  |
 
 ### setLineByLine(boolean value) {#setLineByLine-boolean-}
 ```

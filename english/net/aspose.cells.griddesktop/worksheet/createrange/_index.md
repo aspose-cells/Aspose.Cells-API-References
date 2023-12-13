@@ -1,15 +1,22 @@
 ---
 title: Worksheet.CreateRange
 second_title: Aspose.Cells for .NET API Reference
-description: Worksheet method. 
+description: Worksheet method. create CellRange 
 type: docs
 url: /net/aspose.cells.griddesktop/worksheet/createrange/
 ---
 ## CreateRange(string, string) {#createrange_1}
 
+create CellRange .
+
 ```csharp
-public CellRange CreateRange(string upperLeftCell, string lowerRightCell)
+public CellRange CreateRange(string startCellName, string endCellName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startCellName | String | Start cell name. |
+| endCellName | String | End cell name. |
 
 ### See Also
 
@@ -22,9 +29,18 @@ public CellRange CreateRange(string upperLeftCell, string lowerRightCell)
 
 ## CreateRange(int, int, int, int) {#createrange}
 
+create CellRange .
+
 ```csharp
 public CellRange CreateRange(int cStartRow, int cStartCol, int cEndRow, int cEndCol)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cStartRow | Int32 | Start Row index. |
+| cStartCol | Int32 | Start Column index. |
+| cEndRow | Int32 | End Row index. |
+| cEndCol | Int32 | End Column index. |
 
 ### See Also
 

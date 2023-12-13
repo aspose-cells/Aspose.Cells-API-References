@@ -38,7 +38,7 @@ public class ChartPoint
 | [Shadow](../../aspose.cells.charts/chartpoint/shadow/) { get; set; } | True if the chartpoint has a shadow. |
 | [ShapeHeight](../../aspose.cells.charts/chartpoint/shapeheight/) { get; } | Gets the height in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
 | [ShapeHeightPx](../../aspose.cells.charts/chartpoint/shapeheightpx/) { get; } | Gets the height in units of pixels after calls Chart.Calculate() method. |
-| [ShapeProperties](../../aspose.cells.charts/chartpoint/shapeproperties/) { get; } | Gets the  object that holds the visual shape properties of the ChartPoint. |
+| [ShapeProperties](../../aspose.cells.charts/chartpoint/shapeproperties/) { get; } | Gets the [`ShapePropertyCollection`](../../aspose.cells.drawing/shapepropertycollection/) object that holds the visual shape properties of the ChartPoint. |
 | [ShapeWidth](../../aspose.cells.charts/chartpoint/shapewidth/) { get; } | Gets the width in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [ShapeWidthPx](../../aspose.cells.charts/chartpoint/shapewidthpx/) { get; } | Gets the width in units of pixels after calls Chart.Calculate() method. |
 | [ShapeX](../../aspose.cells.charts/chartpoint/shapex/) { get; } | Gets the x coordinate of the upper left corner in units of 1/4000 of chart's width after calls Chart.Calculate() method. |

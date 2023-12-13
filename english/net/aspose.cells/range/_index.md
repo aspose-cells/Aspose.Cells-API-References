@@ -73,7 +73,8 @@ public class Range
 | [SetStyle](../../aspose.cells/range/setstyle/#setstyle)(Style) | Sets the style of the range. |
 | [SetStyle](../../aspose.cells/range/setstyle/#setstyle_1)(Style, bool) | Apply the cell style. |
 | override [ToString](../../aspose.cells/range/tostring/)() | Returns a string represents the current Range object. |
-| [Union](../../aspose.cells/range/union/)(Range) | Returns the union of two ranges. |
+| [Union](../../aspose.cells/range/union/)(Range) | (**Obsolete.**) Returns the union of two ranges. |
+| [UnionRang](../../aspose.cells/range/unionrang/)(Range) | Returns the union result of two ranges. |
 | [UnMerge](../../aspose.cells/range/unmerge/)() | Unmerges merged cells of this range. |
 
 ### Remarks

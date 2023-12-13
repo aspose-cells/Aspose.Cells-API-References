@@ -5,30 +5,6 @@ description: Worksheet method. Autofits the row height
 type: docs
 url: /net/aspose.cells.griddesktop/worksheet/autofitrow/
 ---
-## AutoFitRow(int) {#autofitrow}
-
-Autofits the row height.
-
-```csharp
-public void AutoFitRow(int rowIndex)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rowIndex | Int32 | Row index. |
-
-### Remarks
-
-AutoFitRow is an imprecise function.
-
-### See Also
-
-* class [Worksheet](../)
-* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
-* assembly [Aspose.Cells.GridDesktop](../../../)
-
----
-
 ## AutoFitRow(int, int, int) {#autofitrow_1}
 
 Autofits the row height.
@@ -69,6 +45,30 @@ public void AutoFitRow(int startRow, int endRow, int startColumn, int endColumn)
 | endRow | Int32 | End row index. |
 | startColumn | Int32 | Start column index. |
 | endColumn | Int32 | End column index. |
+
+### See Also
+
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## AutoFitRow(int) {#autofitrow}
+
+Autofits the row height.
+
+```csharp
+public void AutoFitRow(int rowIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | Int32 | Row index. |
+
+### Remarks
+
+AutoFitRow is an imprecise function.
 
 ### See Also
 

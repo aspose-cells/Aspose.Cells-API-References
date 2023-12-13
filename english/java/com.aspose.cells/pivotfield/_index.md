@@ -94,6 +94,7 @@ Represents a field in a PivotTable report.
 | [getDragToHide()](#getDragToHide--) | Indicates whether the specified field can be dragged to the hide position. |
 | [getDragToPage()](#getDragToPage--) | Indicates whether the specified field can be dragged to the page position. |
 | [getDragToRow()](#getDragToRow--) | Indicates whether the specified field can be dragged to the row position. |
+| [getFilters()](#getFilters--) | Gets all pivot filters of this pivot field. |
 | [getFunction()](#getFunction--) | Represents the function used to summarize the PivotTable data field. |
 | [getGroupSettings()](#getGroupSettings--) | Gets the group settings of the pivot field. |
 | [getInsertBlankRow()](#getInsertBlankRow--) | Indicates whether inserting blank line after each item. |
@@ -384,6 +385,16 @@ Indicates whether the specified field can be dragged to the row position. The de
 
 **Returns:**
 boolean
+### getFilters() {#getFilters--}
+```
+public PivotFilter[] getFilters()
+```
+
+
+Gets all pivot filters of this pivot field.
+
+**Returns:**
+com.aspose.cells.PivotFilter[]
 ### getFunction() {#getFunction--}
 ```
 public int getFunction()
@@ -403,6 +414,10 @@ public PivotFieldGroupSettings getGroupSettings()
 
 
 Gets the group settings of the pivot field.
+
+**Remarks**
+
+If this field is not grouped, Null will be returned.
 
 **Returns:**
 [PivotFieldGroupSettings](../../com.aspose.cells/pivotfieldgroupsettings)
@@ -508,6 +523,10 @@ public ArrayList getPivotFilters()
 
 
 Gets the pivot filters of the pivot field
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GetFilters() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.util.ArrayList

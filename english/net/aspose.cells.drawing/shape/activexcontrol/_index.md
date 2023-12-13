@@ -18,9 +18,12 @@ public ActiveXControl ActiveXControl { get; }
 ```csharp
 
 [C#]
-CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.ActiveXControl;
-//The font name of CheckBox
-string fontName = checkBox1.Font.Name;
+if(shape.ActiveXControl != null)
+{
+    CheckBoxActiveXControl checkBox1 = (CheckBoxActiveXControl)shape.ActiveXControl;
+    //The font name of CheckBox
+    string fontName = checkBox1.Font.Name;
+}
 ```
 
 ### See Also

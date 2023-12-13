@@ -22,8 +22,14 @@ Allowing user to set PDF conversion's Compatibility
 | [PDF_15](#PDF-15) | Pdf format compatible with PDF 1.5 |
 | [PDF_16](#PDF-16) | Pdf format compatible with PDF 1.6 |
 | [PDF_17](#PDF-17) | Pdf format compatible with PDF 1.7 |
-| [PDF_A_1_A](#PDF-A-1-A) | Pdf format compatible with PDFA-1a |
-| [PDF_A_1_B](#PDF-A-1-B) | Pdf format compatible with PDFA-1b |
+| [PDF_A_1_A](#PDF-A-1-A) | Pdf format compatible with PDF/A-1a(ISO 19005-1) |
+| [PDF_A_1_B](#PDF-A-1-B) | Pdf format compatible with PDF/A-1b(ISO 19005-1) |
+| [PDF_A_2_A](#PDF-A-2-A) | Pdf format compatible with PDF/A-2a(ISO 19005-2) |
+| [PDF_A_2_B](#PDF-A-2-B) | Pdf format compatible with PDF/A-2b(ISO 19005-2) |
+| [PDF_A_2_U](#PDF-A-2-U) | Pdf format compatible with PDF/A-2u(ISO 19005-2) |
+| [PDF_A_3_A](#PDF-A-3-A) | Pdf format compatible with PDF/A-3a(ISO 19005-3) |
+| [PDF_A_3_B](#PDF-A-3-B) | Pdf format compatible with PDF/A-3b(ISO 19005-3) |
+| [PDF_A_3_U](#PDF-A-3-U) | Pdf format compatible with PDF/A-3u(ISO 19005-3) |
 ## Methods
 
 | Method | Description |
@@ -87,7 +93,7 @@ public static final int PDF_A_1_A
 ```
 
 
-Pdf format compatible with PDFA-1a
+Pdf format compatible with PDF/A-1a(ISO 19005-1)
 
 ### PDF_A_1_B {#PDF-A-1-B}
 ```
@@ -95,7 +101,55 @@ public static final int PDF_A_1_B
 ```
 
 
-Pdf format compatible with PDFA-1b
+Pdf format compatible with PDF/A-1b(ISO 19005-1)
+
+### PDF_A_2_A {#PDF-A-2-A}
+```
+public static final int PDF_A_2_A
+```
+
+
+Pdf format compatible with PDF/A-2a(ISO 19005-2)
+
+### PDF_A_2_B {#PDF-A-2-B}
+```
+public static final int PDF_A_2_B
+```
+
+
+Pdf format compatible with PDF/A-2b(ISO 19005-2)
+
+### PDF_A_2_U {#PDF-A-2-U}
+```
+public static final int PDF_A_2_U
+```
+
+
+Pdf format compatible with PDF/A-2u(ISO 19005-2)
+
+### PDF_A_3_A {#PDF-A-3-A}
+```
+public static final int PDF_A_3_A
+```
+
+
+Pdf format compatible with PDF/A-3a(ISO 19005-3)
+
+### PDF_A_3_B {#PDF-A-3-B}
+```
+public static final int PDF_A_3_B
+```
+
+
+Pdf format compatible with PDF/A-3b(ISO 19005-3)
+
+### PDF_A_3_U {#PDF-A-3-U}
+```
+public static final int PDF_A_3_U
+```
+
+
+Pdf format compatible with PDF/A-3u(ISO 19005-3)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

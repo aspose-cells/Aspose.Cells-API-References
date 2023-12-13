@@ -10,14 +10,13 @@ url: /net/aspose.cells.griddesktop.data/gridpicturecollection/
 Encapsulates a collection of Picture objects.
 
 ```csharp
-public class GridPictureCollection
+public class GridPictureCollection : CollectionBase
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.griddesktop.data/gridpicturecollection/count/) { get; } |  |
 | [Item](../../aspose.cells.griddesktop.data/gridpicturecollection/item/) { get; } | Gets the Picture element at the specified index. (2 indexers) |
 
 ## Methods
@@ -31,10 +30,9 @@ public class GridPictureCollection
 | [Add](../../aspose.cells.griddesktop.data/gridpicturecollection/add/#add)(int, int, int, int, Stream) | Adds a picture to the collection. |
 | [Add](../../aspose.cells.griddesktop.data/gridpicturecollection/add/#add_1)(int, int, int, int, string) | Adds a picture to the collection. |
 | [Add](../../aspose.cells.griddesktop.data/gridpicturecollection/add/#add_4)(int, int, string, int, int) | Adds a picture to the collection. |
-| [Clear](../../aspose.cells.griddesktop.data/gridpicturecollection/clear/)() |  |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridpicturecollection/getenumerator/)() | Gets the rows enumerator |
+| [Clear](../../aspose.cells.griddesktop.data/gridpicturecollection/clear/#clear)() | Clear all pictures. |
 | virtual [Remove](../../aspose.cells.griddesktop.data/gridpicturecollection/remove/)(int, int) | Removes the items at the specified row column index of the cell. |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridpicturecollection/removeat/)(int) |  |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridpicturecollection/removeat/#removeat)(int) | Remove shapes at the specific index |
 
 ### See Also
 

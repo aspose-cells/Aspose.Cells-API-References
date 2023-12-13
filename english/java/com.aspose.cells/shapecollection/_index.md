@@ -434,7 +434,7 @@ Adds svg image.
              int len = (int)fs.available();
              byte[] imageData = new byte[len];
              fs.read(imageData, 0, len);
-             Picture picture = shapes.addSvg(4, 0, 5, 0, -1, -1, imageData, null);
+             Picture picture = shapes.addIcons(4, 0, 5, 0, -1, -1, imageData, null);
          }
          finally { if (fs != null) fs.close(); }
 ```
@@ -775,7 +775,7 @@ Adds a ScrollBar to the worksheet.
 
 ```
          //add a scroll bar
-         ScrollBar scrollBar = shapes.addScrollBar(1, 0, 1, 0, 100, 50);
+         ScrollBar scrollBar = shapes.addScrollBar(1, 0, 1, 0, 100, 20);
 ```
 
 **Parameters:**

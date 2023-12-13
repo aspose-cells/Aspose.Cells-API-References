@@ -18,7 +18,7 @@ public class Area
 | Name | Description |
 | --- | --- |
 | [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Gets or sets the background Color of the `Area`. |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Represents a  object that contains fill formatting properties for the specified chart or shape. |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Represents a [`FillFormat`](./fillformat/) object that contains fill formatting properties for the specified chart or shape. |
 | [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Gets or sets the foreground Color. |
 | [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Represents the formatting of the area. |
 | [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |

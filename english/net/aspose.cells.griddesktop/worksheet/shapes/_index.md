@@ -1,13 +1,13 @@
 ---
 title: Worksheet.Shapes
 second_title: Aspose.Cells for .NET API Reference
-description: Worksheet property. Gets a Pictures collection
+description: Worksheet property. Gets a Shape collection
 type: docs
 url: /net/aspose.cells.griddesktop/worksheet/shapes/
 ---
 ## Worksheet.Shapes property
 
-Gets a [`Pictures`](../pictures/) collection.
+Gets a [`Shape`](../../shape/) collection.
 
 ```csharp
 public GridShapeCollection Shapes { get; }

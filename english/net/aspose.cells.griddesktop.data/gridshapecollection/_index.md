@@ -10,22 +10,21 @@ url: /net/aspose.cells.griddesktop.data/gridshapecollection/
 Encapsulates a collection of [`Shape`](../../aspose.cells.griddesktop/shape/) objects.
 
 ```csharp
-public class GridShapeCollection
+public class GridShapeCollection : CollectionBase
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.griddesktop.data/gridshapecollection/count/) { get; } |  |
 | [Item](../../aspose.cells.griddesktop.data/gridshapecollection/item/) { get; } | Gets the Picture element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.cells.griddesktop.data/gridshapecollection/getenumerator/)() | Gets the rows enumerator |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridshapecollection/removeat/)(int) | Remove the shape. |
+| [Clear](../../aspose.cells.griddesktop.data/gridshapecollection/clear/#clear)() | Clear all shapes. |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridshapecollection/removeat/#removeat)(int) | Remove the shape. |
 
 ### See Also
 

@@ -37,12 +37,18 @@ public class Style
 | [HorizontalAlignment](../../aspose.cells/style/horizontalalignment/) { get; set; } | Gets or sets the horizontal alignment type of the text in a cell. |
 | [IndentLevel](../../aspose.cells/style/indentlevel/) { get; set; } | Represents the indent level for the cell or range. Can only be an integer from 0 to 250. |
 | [InvariantCustom](../../aspose.cells/style/invariantcustom/) { get; } | Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
+| [IsAlignmentApplied](../../aspose.cells/style/isalignmentapplied/) { get; set; } | Indicate whether the alignment formatting should be applied. |
+| [IsBorderApplied](../../aspose.cells/style/isborderapplied/) { get; set; } | Indicate whether the border formatting should be applied. |
 | [IsDateTime](../../aspose.cells/style/isdatetime/) { get; } | Indicates whether the number format is a date format. |
+| [IsFillApplied](../../aspose.cells/style/isfillapplied/) { get; set; } | Indicate whether the fill formatting should be applied. |
+| [IsFontApplied](../../aspose.cells/style/isfontapplied/) { get; set; } | Indicate whether the font formatting should be applied. |
 | [IsFormulaHidden](../../aspose.cells/style/isformulahidden/) { get; set; } | Represents if the formula will be hidden when the worksheet is protected. |
 | [IsGradient](../../aspose.cells/style/isgradient/) { get; set; } | Indicates whether the cell shading is a gradient pattern. |
 | [IsJustifyDistributed](../../aspose.cells/style/isjustifydistributed/) { get; set; } | Indicates if the cells justified or distributed alignment should be used on the last line of text. |
 | [IsLocked](../../aspose.cells/style/islocked/) { get; set; } | Gets or sets a value indicating whether a cell can be modified or not. |
+| [IsNumberFormatApplied](../../aspose.cells/style/isnumberformatapplied/) { get; set; } | Indicate whether the number formatting should be applied. |
 | [IsPercent](../../aspose.cells/style/ispercent/) { get; } | Indicates whether the number format is a percent format. |
+| [IsProtectionApplied](../../aspose.cells/style/isprotectionapplied/) { get; set; } | Indicate whether the protection formatting should be applied. |
 | [IsTextWrapped](../../aspose.cells/style/istextwrapped/) { get; set; } | Gets or sets a value indicating whether the text within a cell is wrapped. |
 | [Name](../../aspose.cells/style/name/) { get; set; } | Gets or sets the name of the style. |
 | [Number](../../aspose.cells/style/number/) { get; set; } | Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |

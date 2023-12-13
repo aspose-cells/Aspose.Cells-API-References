@@ -24,6 +24,7 @@ public class PptxSaveOptions : PaginatedSaveOptions
 
 | Name | Description |
 | --- | --- |
+| [AdjustFontSizeForRowType](../../aspose.cells/pptxsaveoptions/adjustfontsizeforrowtype/) { get; set; } | Represents what type of line needs to be adjusted size of font if height of row is small. |
 | [AllColumnsInOnePagePerSheet](../../aspose.cells/paginatedsaveoptions/allcolumnsinonepagepersheet/) { get; set; } | If AllColumnsInOnePagePerSheet is true , all column content of one sheet will output to only one page in result. The width of paper size of pagesetup will be ignored, and the other settings of pagesetup will still take effect.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | The cached file folder is used to store some large data.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CheckFontCompatibility](../../aspose.cells/paginatedsaveoptions/checkfontcompatibility/) { get; set; } | Indicates whether to check font compatibility for every character in text.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
@@ -36,6 +37,7 @@ public class PptxSaveOptions : PaginatedSaveOptions
 | [EmfRenderSetting](../../aspose.cells/paginatedsaveoptions/emfrendersetting/) { get; set; } | Setting for rendering Emf metafile.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [GridlineType](../../aspose.cells/paginatedsaveoptions/gridlinetype/) { get; set; } | Gets or sets gridline type.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [IgnoreError](../../aspose.cells/paginatedsaveoptions/ignoreerror/) { get; set; } | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [IgnoreHiddenRows](../../aspose.cells/pptxsaveoptions/ignorehiddenrows/) { get; set; } | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
 | [IsFontSubstitutionCharGranularity](../../aspose.cells/paginatedsaveoptions/isfontsubstitutionchargranularity/) { get; set; } | Indicates whether to only substitute the font of character when the cell font is not compatibility for it.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [OnePagePerSheet](../../aspose.cells/paginatedsaveoptions/onepagepersheet/) { get; set; } | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |

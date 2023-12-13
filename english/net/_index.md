@@ -33,6 +33,7 @@ is_root: true
 | [Aspose.Cells.Saving](./aspose.cells.saving/) | The **Aspose.Cells.Saving** namespace provides options classes of saving files. |
 | [Aspose.Cells.Settings](./aspose.cells.settings/) | The **Aspose.Cells.Settings** namespace contains classes that define settings for different features. |
 | [Aspose.Cells.Slicers](./aspose.cells.slicers/) | The **Aspose.Cells.Slicers** namespace provides all classes for Pivot Table Slicer options for Excel Spreadsheet files. |
+| [Aspose.Cells.Slides](./aspose.cells.slides/) | The **Aspose.Cells.Slides** namespace contains classes that define settings for converting Excel to PowerPoint. |
 | [Aspose.Cells.Tables](./aspose.cells.tables/) | The **Aspose.Cells.Tables** namespace contains classes that represent tables, rows, cells and their formatting for Excel Spreadsheet files. |
 | [Aspose.Cells.Timelines](./aspose.cells.timelines/) | The **Aspose.Cells.Timelines** namespace contains classes that allow to access and draw timelines in Excel Spreadsheet files. |
 | [Aspose.Cells.Utility](./aspose.cells.utility/) | The **Aspose.Cells.Utility** namespace contains utility classes processing JSON formats for Excel Spreadsheet files. |
