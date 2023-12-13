@@ -44,7 +44,8 @@ public class Comment
 | --- | --- |
 | [Characters](../../aspose.cells/comment/characters/)(int, int) | Returns a Characters object that represents a range of characters within the comment text. |
 | [FormatCharacters](../../aspose.cells/comment/formatcharacters/)(int, int, Font, StyleFlag) | Format some characters with the font setting. |
-| [GetCharacters](../../aspose.cells/comment/getcharacters/)() | Returns all Characters objects that represents a range of characters within the comment text. |
+| [GetCharacters](../../aspose.cells/comment/getcharacters/)() | (**Obsolete.**) Returns all Characters objects that represents a range of characters within the comment text. |
+| [GetRichFormattings](../../aspose.cells/comment/getrichformattings/)() | Returns all Characters objects that represents a range of characters within the comment text. |
 
 ### Examples
 

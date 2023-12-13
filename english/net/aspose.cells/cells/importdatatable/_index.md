@@ -5,6 +5,74 @@ description: Cells method. Imports a DataTable object into a worksheet
 type: docs
 url: /net/aspose.cells/cells/importdatatable/
 ---
+## ImportDataTable(DataTable, bool, string) {#importdatatable_7}
+
+Imports a DataTable object into a worksheet.
+
+```csharp
+[Obsolete("Use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public int ImportDataTable(DataTable dataTable, bool isFieldNameShown, string startCell)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataTable | DataTable | The DataTable object to be imported. |
+| isFieldNameShown | Boolean | Indicates whether the field name of the datatable will be imported to the first row. |
+| startCell | String | The name of start cell to insert the DataTable, such as "A2". |
+
+### Return Value
+
+Total number of rows imported
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ImportDataTable(DataTable, bool, int, int, bool, bool) {#importdatatable_2}
+
+Imports a DataTable object into a worksheet.
+
+```csharp
+[Obsolete("Use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public int ImportDataTable(DataTable dataTable, bool isFieldNameShown, int firstRow, 
+    int firstColumn, bool insertRows, bool convertStringToNumber)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataTable | DataTable | The DataTable object to be imported. |
+| isFieldNameShown | Boolean | Indicates whether the field name of the datatable will be imported to the first row. Default is true. |
+| firstRow | Int32 | The row number of the first cell to import. |
+| firstColumn | Int32 | The column number of the first cell to import. |
+| insertRows | Boolean | Indicates whether extra rows are added to fit data. |
+| convertStringToNumber | Boolean | Indicates if this method will try to convert string to number. |
+
+### Return Value
+
+Total number of rows imported
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
+
+### See Also
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## ImportDataTable(DataTable, bool, int, int) {#importdatatable}
 
 Imports a DataTable object into a worksheet.
@@ -264,74 +332,6 @@ public int ImportDataTable(DataTable dataTable, bool isFieldNameShown, int first
 ### Return Value
 
 Total number of rows imported.
-
-### Remarks
-
-NOTE: This member is now obsolete. Instead, please use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
-
-### See Also
-
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ImportDataTable(DataTable, bool, string) {#importdatatable_7}
-
-Imports a DataTable object into a worksheet.
-
-```csharp
-[Obsolete("Use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
-public int ImportDataTable(DataTable dataTable, bool isFieldNameShown, string startCell)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataTable | DataTable | The DataTable object to be imported. |
-| isFieldNameShown | Boolean | Indicates whether the field name of the datatable will be imported to the first row. |
-| startCell | String | The name of start cell to insert the DataTable, such as "A2". |
-
-### Return Value
-
-Total number of rows imported
-
-### Remarks
-
-NOTE: This member is now obsolete. Instead, please use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead. This property will be removed 12 months later since December 2018. Aspose apologizes for any inconvenience you may have experienced.
-
-### See Also
-
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ImportDataTable(DataTable, bool, int, int, bool, bool) {#importdatatable_2}
-
-Imports a DataTable object into a worksheet.
-
-```csharp
-[Obsolete("Use Cells.ImportData(DataTable,int,int,ImportTableOptions) method, instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
-public int ImportDataTable(DataTable dataTable, bool isFieldNameShown, int firstRow, 
-    int firstColumn, bool insertRows, bool convertStringToNumber)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataTable | DataTable | The DataTable object to be imported. |
-| isFieldNameShown | Boolean | Indicates whether the field name of the datatable will be imported to the first row. Default is true. |
-| firstRow | Int32 | The row number of the first cell to import. |
-| firstColumn | Int32 | The column number of the first cell to import. |
-| insertRows | Boolean | Indicates whether extra rows are added to fit data. |
-| convertStringToNumber | Boolean | Indicates if this method will try to convert string to number. |
-
-### Return Value
-
-Total number of rows imported
 
 ### Remarks
 

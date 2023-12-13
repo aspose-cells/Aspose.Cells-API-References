@@ -1,13 +1,13 @@
 ---
 title: Class ColumnCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.ColumnCollection class. Collection of the  objects that represent the individual columnsettings in a worksheet. The Column object only represents the settings such as column width styles .etc. for the whole column has nothing to do with the fact that there are nonempty cellsdata or not in corresponding column. And the Count of this collection only represents the count Column objects that have been instantiated in this collection has nothing to do with the fact that there are nonempty cellsdata or not in the worksheet
+description: Aspose.Cells.ColumnCollection class. Collection of the Column objects that represent the individual columnsettings in a worksheet. The Column object only represents the settings such as column width styles .etc. for the whole column has nothing to do with the fact that there are nonempty cellsdata or not in corresponding column. And the Count of this collection only represents the count Column objects that have been instantiated in this collection has nothing to do with the fact that there are nonempty cellsdata or not in the worksheet
 type: docs
 url: /net/aspose.cells/columncollection/
 ---
 ## ColumnCollection class
 
-Collection of the  objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet.
+Collection of the [`Column`](../column/) objects that represent the individual column(setting)s in a worksheet. The Column object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count Column objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet.
 
 ```csharp
 public class ColumnCollection : CollectionBase<Column>
@@ -19,7 +19,7 @@ public class ColumnCollection : CollectionBase<Column>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.cells/columncollection/item/) { get; } | Gets a  object by column index. The Column object of given column index will be instantiated if it does not exist before. |
+| [Item](../../aspose.cells/columncollection/item/) { get; } | Gets a [`Column`](../column/) object by column index. The Column object of given column index will be instantiated if it does not exist before. |
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods

@@ -49,6 +49,7 @@ public class GridDesktop : UserControl
 | [SheetsBarVisible](../../aspose.cells.griddesktop/griddesktop/sheetsbarvisible/) { get; set; } | Gets or sets a value indicating whether sheet bar is visible. |
 | [SheetTabWidth](../../aspose.cells.griddesktop/griddesktop/sheettabwidth/) { get; set; } | Sets /Gets width of Sheet Tab. |
 | [ShowContextMenu](../../aspose.cells.griddesktop/griddesktop/showcontextmenu/) { get; set; } | Gets or sets a value indicating whether the control can show context menu. |
+| [ShowFormulaWarning](../../aspose.cells.griddesktop/griddesktop/showformulawarning/) { get; set; } | Sets/Gets whether to show the error or waring message for set cell formula value,the default value is true. |
 | [ShowStatus](../../aspose.cells.griddesktop/griddesktop/showstatus/) { get; set; } | Gets or sets a value indicating whether to show the calculate status The default value is true. |
 | [UndoManager](../../aspose.cells.griddesktop/griddesktop/undomanager/) { get; } | Gets the UndoManager instance. |
 | [Worksheets](../../aspose.cells.griddesktop/griddesktop/worksheets/) { get; } | Gets the Worksheets. |

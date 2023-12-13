@@ -1,13 +1,13 @@
 ---
 title: Shape.Reflection
 second_title: Aspose.Cells for .NET API Reference
-description: Shape property. Represents a  object that specifies reflection effect for the chart element or shape
+description: Shape property. Represents a ReflectionEffect object that specifies reflection effect for the chart element or shape
 type: docs
 url: /net/aspose.cells.drawing/shape/reflection/
 ---
 ## Shape.Reflection property
 
-Represents a  object that specifies reflection effect for the chart element or shape.
+Represents a [`ReflectionEffect`](../../reflectioneffect/) object that specifies reflection effect for the chart element or shape.
 
 ```csharp
 public ReflectionEffect Reflection { get; }

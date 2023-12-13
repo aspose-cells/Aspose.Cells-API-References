@@ -17,7 +17,7 @@ public int Max { get; set; }
 
 ```csharp
 [C#]
-activeXControl.Min = 100;
+activeXControl.Max = 100;
 ```
 
 ### See Also

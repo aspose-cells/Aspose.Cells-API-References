@@ -17,7 +17,7 @@ public int LargeChange { get; set; }
 
 ```csharp
 [C#]
-activeXControl.SmallChange = 5;
+activeXControl.LargeChange = 5;
 ```
 
 ### See Also

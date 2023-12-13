@@ -54,7 +54,7 @@ public class Series
 | [SecondPlotSize](../../aspose.cells.charts/series/secondplotsize/) { get; set; } | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200. |
 | [SeriesLines](../../aspose.cells.charts/series/serieslines/) { get; } | Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts. |
 | [Shadow](../../aspose.cells.charts/series/shadow/) { get; set; } | True if the series has a shadow. |
-| [ShapeProperties](../../aspose.cells.charts/series/shapeproperties/) { get; } | Gets the  object that holds the visual shape properties of the Series. |
+| [ShapeProperties](../../aspose.cells.charts/series/shapeproperties/) { get; } | Gets the [`ShapePropertyCollection`](../../aspose.cells.drawing/shapepropertycollection/) object that holds the visual shape properties of the Series. |
 | [ShowNegativeBubbles](../../aspose.cells.charts/series/shownegativebubbles/) { get; set; } | True if negative bubbles are shown for the chart group. Valid only for bubble charts. |
 | [SizeRepresents](../../aspose.cells.charts/series/sizerepresents/) { get; set; } | Gets or sets what the bubble size represents on a bubble chart. |
 | [Smooth](../../aspose.cells.charts/series/smooth/) { get; set; } | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |

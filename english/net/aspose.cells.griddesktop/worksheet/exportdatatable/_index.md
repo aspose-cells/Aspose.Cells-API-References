@@ -5,18 +5,17 @@ description: Worksheet method. Exports data in the Cells collection of a Workshe
 type: docs
 url: /net/aspose.cells.griddesktop/worksheet/exportdatatable/
 ---
-## ExportDataTable(DataTable, int, int, int, int, bool) {#exportdatatable_1}
+## ExportDataTable(int, int, int, int, bool) {#exportdatatable_1}
 
 Exports data in the Cells collection of a Worksheet to a specifed DataTable object.
 
 ```csharp
-public DataTable ExportDataTable(DataTable dataTable, int startRow, int startColumn, int rows, 
-    int columns, bool isVertical)
+public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
+    bool isVertical)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataTable | DataTable | The DataTable object that exports data to. |
 | startRow | Int32 | The row number of the first cell to export out. |
 | startColumn | Int32 | The column number of the first cell to export out. |
 | rows | Int32 | Number of rows to be imported. |
@@ -67,7 +66,7 @@ DataGrid1.SetDataBinding(exportTable)
 
 ---
 
-## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable}
+## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable_2}
 
 Exports data in the Cells collection of a Worksheet to a new DataTable object.
 
@@ -105,6 +104,36 @@ DataGrid1.SetDataBinding(exportTable)
 
 ### See Also
 
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+---
+
+## ExportDataTable(int, int, int, int, GridExportTableOptions) {#exportdatatable}
+
+Exports data in the [`Cells`](../cells/) collection to a DataTable object.
+
+```csharp
+public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
+    GridExportTableOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstRow | Int32 | The row number of the first cell to export out. |
+| firstColumn | Int32 | The column number of the first cell to export out. |
+| totalRows | Int32 | Number of rows to be imported. |
+| totalColumns | Int32 | Number of columns to be imported. |
+| options | GridExportTableOptions | All export table options |
+
+### Return Value
+
+Exported DataTable object.
+
+### See Also
+
+* class [GridExportTableOptions](../../../aspose.cells.griddesktop.data/gridexporttableoptions/)
 * class [Worksheet](../)
 * namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
 * assembly [Aspose.Cells.GridDesktop](../../../)

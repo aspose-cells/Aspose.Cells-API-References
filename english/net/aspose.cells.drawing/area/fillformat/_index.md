@@ -1,13 +1,13 @@
 ---
 title: Area.FillFormat
 second_title: Aspose.Cells for .NET API Reference
-description: Area property. Represents a  object that contains fill formatting properties for the specified chart or shape
+description: Area property. Represents a FillFormat object that contains fill formatting properties for the specified chart or shape
 type: docs
 url: /net/aspose.cells.drawing/area/fillformat/
 ---
 ## Area.FillFormat property
 
-Represents a  object that contains fill formatting properties for the specified chart or shape.
+Represents a `FillFormat` object that contains fill formatting properties for the specified chart or shape.
 
 ```csharp
 public FillFormat FillFormat { get; }

@@ -18,7 +18,7 @@ public Geometry Geometry { get; }
 ```csharp
 
 [C#]
-if (shape.Geometry.ShapeAdjustValues.Count == 0)
+if (shape.Geometry != null && shape.Geometry.ShapeAdjustValues.Count == 0)
     Console.WriteLine("No geometry path.");
 ```
 

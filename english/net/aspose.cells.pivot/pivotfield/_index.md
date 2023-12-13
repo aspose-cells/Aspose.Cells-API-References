@@ -66,8 +66,9 @@ public class PivotField
 | --- | --- |
 | [AddCalculatedItem](../../aspose.cells.pivot/pivotfield/addcalculateditem/)(string, string) | Add a calculated item to the pivot field. |
 | [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula/)() | Get the formula string of the specified calculated field . |
+| [GetFilters](../../aspose.cells.pivot/pivotfield/getfilters/)() | Gets all pivot filters of this pivot field. |
 | [GetPivotFilterByType](../../aspose.cells.pivot/pivotfield/getpivotfilterbytype/)(PivotFilterType) | Gets the pivot filter of the pivot field by type |
-| [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters/)() | Gets the pivot filters of the pivot field |
+| [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters/)() | (**Obsolete.**) Gets the pivot filters of the pivot field |
 | [GetSubtotals](../../aspose.cells.pivot/pivotfield/getsubtotals/)(PivotFieldSubtotalType) | Gets whether the specified field shows that subtotals. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby)(CustomPiovtFieldGroupItem[], bool) | Custom group the field. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_1)(double, double, double, bool) | Group the file by number. |

@@ -15,7 +15,7 @@ public virtual bool OnCircular(IEnumerator circularCellsData)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| circularCellsData | IEnumerator | IEnumerator with CalculationCell items representing cells that depend on circular references. |
+| circularCellsData | IEnumerator | IEnumerator with [`CalculationCell`](../../calculationcell/) items representing cells that depend on circular references. |
 
 ### Return Value
 

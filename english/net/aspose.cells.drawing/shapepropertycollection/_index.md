@@ -17,9 +17,9 @@ public class ShapePropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Format3D](../../aspose.cells.drawing/shapepropertycollection/format3d/) { get; } | Represents a  object that specifies 3D shape properties for the chart element or shape. |
-| [GlowEffect](../../aspose.cells.drawing/shapepropertycollection/gloweffect/) { get; } | Represents a  object that specifies glow effect for the chart element or shape. |
-| [ShadowEffect](../../aspose.cells.drawing/shapepropertycollection/shadoweffect/) { get; } | Represents a  object that specifies shadow effect for the chart element or shape. |
+| [Format3D](../../aspose.cells.drawing/shapepropertycollection/format3d/) { get; } | Represents a [`Format3D`](./format3d/) object that specifies 3D shape properties for the chart element or shape. |
+| [GlowEffect](../../aspose.cells.drawing/shapepropertycollection/gloweffect/) { get; } | Represents a [`GlowEffect`](./gloweffect/) object that specifies glow effect for the chart element or shape. |
+| [ShadowEffect](../../aspose.cells.drawing/shapepropertycollection/shadoweffect/) { get; } | Represents a [`ShadowEffect`](./shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [SoftEdgeRadius](../../aspose.cells.drawing/shapepropertycollection/softedgeradius/) { get; set; } | Gets and sets the radius of blur to apply to the edges, in unit of points. |
 
 ## Methods

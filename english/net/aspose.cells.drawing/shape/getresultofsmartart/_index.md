@@ -18,7 +18,10 @@ public virtual GroupShape GetResultOfSmartArt()
 ```csharp
 
 [C#]
-Aspose.Cells.Drawing.GroupShape groupShape = shape.GetResultOfSmartArt();
+if(shape.IsSmartArt)
+{
+    Aspose.Cells.Drawing.GroupShape groupShape = shape.GetResultOfSmartArt();
+}
 ```
 
 ### See Also

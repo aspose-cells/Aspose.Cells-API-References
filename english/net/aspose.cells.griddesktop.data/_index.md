@@ -22,10 +22,12 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | [GridColumnCollection](./gridcolumncollection/) | Collects the  objects that represent the individual columns in a worksheet. |
 | [GridComment](./gridcomment/) | Encapsulates the object that represents a cell comment. |
 | [GridCommentCollection](./gridcommentcollection/) | Encapsulates a collection of Comment objects. |
+| [GridExportTableOptions](./gridexporttableoptions/) | Represents all export table options. |
 | [GridFont](./gridfont/) | Encapsulates the font object used in a spreadsheet. |
 | [GridHyperlink](./gridhyperlink/) | Encapsulates the object that represents a hyperlink. |
 | [GridHyperlinkCollection](./gridhyperlinkcollection/) | Encapsulates a collection of Hyperlink objects. |
 | [GridImageOrPrintOptions](./gridimageorprintoptions/) | Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image. |
+| [GridImportTableOptions](./gridimporttableoptions/) | Represents the options of importing data into cells. |
 | [GridName](./gridname/) | Encapsulates the object that represents a name object. |
 | [GridNameCollection](./gridnamecollection/) | Encapsulates a collection of [`GridName`](../aspose.cells.griddesktop.data/gridname/) objects. |
 | [GridPdfSaveOptions](./gridpdfsaveoptions/) | Represents the options for saving pdf file. |
@@ -40,6 +42,7 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | [GridRow](./gridrow/) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [GridRowCollection](./gridrowcollection/) | Encapsulates a collection of [`GridRow`](../aspose.cells.griddesktop.data/gridrow/) objects. |
 | [GridShapeCollection](./gridshapecollection/) | Encapsulates a collection of [`Shape`](../aspose.cells.griddesktop/shape/) objects. |
+| [GridShapeDraw](./gridshapedraw/) | base class of Shape and Picture |
 | [GridSheetPrintingPreview](./gridsheetprintingpreview/) | Worksheet printing preview. |
 | [GridSheetRender](./gridsheetrender/) | Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style. |
 | [GridValidation](./gridvalidation/) | Represents data validation.settings. |
@@ -53,6 +56,7 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | Enumeration | Description |
 | --- | --- |
 | [GridCellErrorType](./gridcellerrortype/) | Used in WebCellException. Represents the cell error type. |
+| [GridCellValueFormatStrategy](./gridcellvalueformatstrategy/) | Specifies how to apply style for the value of the cell. |
 | [GridEmfRenderSetting](./gridemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GridFilterOperatorType](./gridfilteroperatortype/) | Custom Filter operator type. |
 | [GridImageType](./gridimagetype/) | Specifies the type (format) of an image. |
@@ -69,6 +73,7 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | [GridPivotFieldFunction](./gridpivotfieldfunction/) | Represents consolidation function. |
 | [GridPivotFieldType](./gridpivotfieldtype/) | Represents PivotTable field type. |
 | [GridPrintingPageType](./gridprintingpagetype/) | Indicates which pages will not be printed. |
+| [GridRenameStrategy](./gridrenamestrategy/) | Strategy option for duplicate names of columns. |
 | [GridSaveFormat](./gridsaveformat/) | Enumerates supported file format types. |
 | [GridTextCrossType](./gridtextcrosstype/) | Enumerates displaying text type when the text width is larger than cell width. |
 | [GridValidationType](./gridvalidationtype/) | Represents data validation type. |

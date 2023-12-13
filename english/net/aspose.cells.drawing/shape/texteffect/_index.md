@@ -18,7 +18,10 @@ public TextEffectFormat TextEffect { get; }
 ```csharp
 
 [C#]
-Aspose.Cells.Drawing.TextEffectFormat textEffectFormat = shape.TextEffect;
+if(shape.IsWordArt)
+{
+    Aspose.Cells.Drawing.TextEffectFormat textEffectFormat = shape.TextEffect;
+}
 ```
 
 ### See Also

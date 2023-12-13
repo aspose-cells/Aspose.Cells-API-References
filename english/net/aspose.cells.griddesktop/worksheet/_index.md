@@ -47,12 +47,12 @@ public class Worksheet
 | [OutlineShown](../../aspose.cells.griddesktop/worksheet/outlineshown/) { get; set; } | Indicates whether show outline. |
 | [Pictures](../../aspose.cells.griddesktop/worksheet/pictures/) { get; } | Gets a [`Pictures`](./pictures/) collection. |
 | [PivotTables](../../aspose.cells.griddesktop/worksheet/pivottables/) { get; } | Gets the pivotTables in the worksheet. |
-| [Protected](../../aspose.cells.griddesktop/worksheet/protected/) { get; set; } |  |
+| [Protected](../../aspose.cells.griddesktop/worksheet/protected/) { get; set; } | Indicates if the worksheet is protected. |
 | [RowFilter](../../aspose.cells.griddesktop/worksheet/rowfilter/) { get; } | Gets the RowFilterSettings object of the sheet. |
 | [Rows](../../aspose.cells.griddesktop/worksheet/rows/) { get; } |  |
 | [RowsCount](../../aspose.cells.griddesktop/worksheet/rowscount/) { get; set; } | Gets/Sets Sheet's rows number . |
 | [Selected](../../aspose.cells.griddesktop/worksheet/selected/) { get; set; } | Indicates whether this worksheet is selected when the workbook is opened. |
-| [Shapes](../../aspose.cells.griddesktop/worksheet/shapes/) { get; } | Gets a [`Pictures`](./pictures/) collection. |
+| [Shapes](../../aspose.cells.griddesktop/worksheet/shapes/) { get; } | Gets a [`Shape`](../shape/) collection. |
 | [ShowGridlines](../../aspose.cells.griddesktop/worksheet/showgridlines/) { get; set; } |  |
 | [TabColor](../../aspose.cells.griddesktop/worksheet/tabcolor/) { get; set; } | Represents worksheet tab color. |
 | [Validations](../../aspose.cells.griddesktop/worksheet/validations/) { get; } | Gets the data validation setting collection in the worksheet. |
@@ -90,12 +90,13 @@ public class Worksheet
 | [ColInMerged](../../aspose.cells.griddesktop/worksheet/colinmerged/)(int) | Gets a value that indicates whether the specified column in merges. |
 | [ColInSelection](../../aspose.cells.griddesktop/worksheet/colinselection/)(int) | Determines whether the specified column at index is in selected. |
 | [Copy](../../aspose.cells.griddesktop/worksheet/copy/)(Worksheet) | Copies contents and formats from another worksheet. |
-| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange/#createrange_1)(string, string) |  |
-| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange/#createrange)(int, int, int, int) |  |
+| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange/#createrange_1)(string, string) | create CellRange . |
+| [CreateRange](../../aspose.cells.griddesktop/worksheet/createrange/#createrange)(int, int, int, int) | create CellRange . |
 | [DataBind](../../aspose.cells.griddesktop/worksheet/databind/)(object, string) | Binds data from data source object with Worksheet object. |
 | [DataUnbind](../../aspose.cells.griddesktop/worksheet/dataunbind/)() | Unbind data from data source object with Worksheet object. |
-| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable/#exportdatatable_1)(DataTable, int, int, int, int, bool) | Exports data in the Cells collection of a Worksheet to a specifed DataTable object. |
-| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable/#exportdatatable)(int, int, int, int, bool, bool) | Exports data in the Cells collection of a Worksheet to a new DataTable object. |
+| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable/#exportdatatable_1)(int, int, int, int, bool) | Exports data in the Cells collection of a Worksheet to a specifed DataTable object. |
+| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable/#exportdatatable)(int, int, int, int, GridExportTableOptions) | Exports data in the [`Cells`](./cells/) collection to a DataTable object. |
+| [ExportDataTable](../../aspose.cells.griddesktop/worksheet/exportdatatable/#exportdatatable_2)(int, int, int, int, bool, bool) | Exports data in the Cells collection of a Worksheet to a new DataTable object. |
 | [FilterString](../../aspose.cells.griddesktop/worksheet/filterstring/)(int, string) | Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma-&gt;"," as split char,so the cell value you want to filter shall not contains with comma filterString(10,"123,456") means column 10 shall contain 123 or 456, filterString(10,"123") means column10 shall contain 123 value split with comma,eg. 123,456,789 or abc |
 | [FreezePanes](../../aspose.cells.griddesktop/worksheet/freezepanes/#freezepanes_1)(string, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [FreezePanes](../../aspose.cells.griddesktop/worksheet/freezepanes/#freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
@@ -119,6 +120,7 @@ public class Worksheet
 | [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows/#grouprows_2)(int, int, bool, bool) | Groups rows. |
 | [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows/#grouprows_3)(int, int, int, bool) | Groups rows. |
 | [GroupRows](../../aspose.cells.griddesktop/worksheet/grouprows/#grouprows_4)(int, int, int, bool, bool) | Groups rows. |
+| [ImportData](../../aspose.cells.griddesktop/worksheet/importdata/)(DataTable, int, int, GridImportTableOptions) | Import data from custom data table. |
 | [ImportDataTable](../../aspose.cells.griddesktop/worksheet/importdatatable/)(DataTable, bool, int, int) | Imports a DataTable object into a worksheet. |
 | [InSelection](../../aspose.cells.griddesktop/worksheet/inselection/)(CellLocation) | Determines whether the specified cell location is in selected. |
 | [InsertColumn](../../aspose.cells.griddesktop/worksheet/insertcolumn/)(int) | Inserts a new column. |

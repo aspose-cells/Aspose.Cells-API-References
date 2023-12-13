@@ -19,7 +19,7 @@ public class Axis
 | --- | --- |
 | [Area](../../aspose.cells.charts/axis/area/) { get; } | Gets the [`Area`](./area/). |
 | [AxisBetweenCategories](../../aspose.cells.charts/axis/axisbetweencategories/) { get; set; } | Represents if the value axis crosses the category axis between categories. |
-| [AxisLabels](../../aspose.cells.charts/axis/axislabels/) { get; } | Gets the labels of the axis after call Chart.Calculate() method. |
+| [AxisLabels](../../aspose.cells.charts/axis/axislabels/) { get; } | (**Obsolete.**) Gets the labels of the axis after call Chart.Calculate() method. |
 | [AxisLine](../../aspose.cells.charts/axis/axisline/) { get; } | Gets the appearance of an Axis. |
 | [BaseUnitScale](../../aspose.cells.charts/axis/baseunitscale/) { get; set; } | Represents the base unit scale for the category axis. |
 | [Bins](../../aspose.cells.charts/axis/bins/) { get; } | Represents bins on a chart(Histogram/Pareto) axis |
@@ -56,6 +56,12 @@ public class Axis
 | [TickLabelSpacing](../../aspose.cells.charts/axis/ticklabelspacing/) { get; set; } | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
 | [TickMarkSpacing](../../aspose.cells.charts/axis/tickmarkspacing/) { get; set; } | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
 | [Title](../../aspose.cells.charts/axis/title/) { get; } | Gets the axis' title. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetAxisTexts](../../aspose.cells.charts/axis/getaxistexts/)() | Gets the labels of the axis after call Chart.Calculate() method. |
 
 ### Examples
 

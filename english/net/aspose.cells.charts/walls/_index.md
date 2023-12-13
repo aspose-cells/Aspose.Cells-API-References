@@ -25,7 +25,7 @@ public class Walls : Floor
 | [CenterYPx](../../aspose.cells.charts/walls/centerypx/) { get; } | Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [Depth](../../aspose.cells.charts/walls/depth/) { get; } | Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [DepthPx](../../aspose.cells.charts/walls/depthpx/) { get; } | Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Represents a  object that contains fill formatting properties for the specified chart or shape.(Inherited from [`Area`](../../aspose.cells.drawing/area/).) |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Represents a [`FillFormat`](../../aspose.cells.drawing/area/fillformat/) object that contains fill formatting properties for the specified chart or shape.(Inherited from [`Area`](../../aspose.cells.drawing/area/).) |
 | [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Gets or sets the foreground Color.(Inherited from [`Area`](../../aspose.cells.drawing/area/).) |
 | [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Represents the formatting of the area.(Inherited from [`Area`](../../aspose.cells.drawing/area/).) |
 | [Height](../../aspose.cells.charts/walls/height/) { get; } | Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
