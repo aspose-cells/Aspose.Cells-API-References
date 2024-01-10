@@ -2,7 +2,7 @@
 title: Aspose::Cells::Slides::AdjustFontSizeForRowType enum
 linktitle: AdjustFontSizeForRowType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Slides::AdjustFontSizeForRowType enum. Represents what kind of rows should be ajusted in C++.'
+description: 'Aspose::Cells::Slides::AdjustFontSizeForRowType enum. Represents which kind of rows should be ajusted in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.slides/adjustfontsizeforrowtype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.slides/adjustfontsizeforrowtype/
 ## AdjustFontSizeForRowType enum
 
 
-Represents what kind of rows should be ajusted.
+Represents which kind of rows should be ajusted.
 
 ```cpp
 enum class AdjustFontSizeForRowType

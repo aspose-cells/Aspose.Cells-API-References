@@ -2,7 +2,7 @@
 title: Aspose::Cells::DigitalSignatures::DigitalSignature::DigitalSignature constructor
 linktitle: DigitalSignature
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::DigitalSignatures::DigitalSignature::DigitalSignature constructor. Constructor of digitalSignature. Uses Bouncy Castle implementation in C++.'
+description: 'Aspose::Cells::DigitalSignatures::DigitalSignature::DigitalSignature constructor. Constructor of DigitalSignature in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.digitalsignatures/digitalsignature/digitalsignature/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.digitalsignatures/digitalsignature/digitalsignature/
 ## DigitalSignature::DigitalSignature(const Vector \<uint8_t\>\&, const U16String\&, const U16String\&, const Date\&) constructor
 
 
-Constructor of digitalSignature. Uses Bouncy Castle implementation.
+Constructor of [DigitalSignature](../).
 
 ```cpp
 Aspose::Cells::DigitalSignatures::DigitalSignature::DigitalSignature(const Vector<uint8_t> &rawData, const U16String &password, const U16String &comments, const Date &signTime)
@@ -60,7 +60,7 @@ Aspose::Cells::Cleanup();
 ## DigitalSignature::DigitalSignature(const Vector \<uint8_t\>\&, const char16_t*, const char16_t*, const Date\&) constructor
 
 
-Constructor of digitalSignature. Uses Bouncy Castle implementation.
+Constructor of [DigitalSignature](../).
 
 ```cpp
 Aspose::Cells::DigitalSignatures::DigitalSignature::DigitalSignature(const Vector<uint8_t> &rawData, const char16_t *password, const char16_t *comments, const Date &signTime)
@@ -99,6 +99,53 @@ wb.Save(u"newfile.xlsx");
 
 Aspose::Cells::Cleanup();
 ```
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [DigitalSignature](../)
+* Namespace [Aspose::Cells::DigitalSignatures](../../)
+* Library [Aspose.Cells for C++](../../../)
+## DigitalSignature::DigitalSignature(const U16String\&, const U16String\&, const U16String\&, const Date\&) constructor
+
+
+Constructor of [DigitalSignature](../).
+
+```cpp
+Aspose::Cells::DigitalSignatures::DigitalSignature::DigitalSignature(const U16String &fileName, const U16String &password, const U16String &comments, const Date &signTime)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | const U16String\& | The name of a certificate file. |
+| password | const U16String\& | The password required to access the X.509 certificate data. |
+| comments | const U16String\& | The purpose to signature. |
+| signTime | const Date\& | The utc time when the document was signed. |
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [U16String](../../../aspose.cells/u16string/)
+* Class [DigitalSignature](../)
+* Namespace [Aspose::Cells::DigitalSignatures](../../)
+* Library [Aspose.Cells for C++](../../../)
+## DigitalSignature::DigitalSignature(const char16_t*, const char16_t*, const char16_t*, const Date\&) constructor
+
+
+Constructor of [DigitalSignature](../).
+
+```cpp
+Aspose::Cells::DigitalSignatures::DigitalSignature::DigitalSignature(const char16_t *fileName, const char16_t *password, const char16_t *comments, const Date &signTime)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | const char16_t* | The name of a certificate file. |
+| password | const char16_t* | The password required to access the X.509 certificate data. |
+| comments | const char16_t* | The purpose to signature. |
+| signTime | const Date\& | The utc time when the document was signed. |
 
 ## See Also
 

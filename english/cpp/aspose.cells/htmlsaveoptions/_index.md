@@ -28,6 +28,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCellCssPrefix()](./getcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [GetClearData()](../saveoptions/getcleardata/) | Make the workbook empty after saving the file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [GetCssStyles()](./getcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
 | [GetDefaultFontName()](./getdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [GetDisableDownlevelRevealedComments()](./getdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [GetEncoding()](./getencoding/) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -109,6 +110,8 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCellCssPrefix(const char16_t* value)](./setcellcssprefix/) | Gets and sets the prefix of the css name,the default value is "". |
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [SetCssStyles(const U16String\& value)](./setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
+| [SetCssStyles(const char16_t* value)](./setcssstyles/) | Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True. |
 | [SetDefaultFontName(const U16String\& value)](./setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDefaultFontName(const char16_t* value)](./setdefaultfontname/) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, [Aspose.Cells](../) will use universal font which have the same family with the original font, the default value is null. |
 | [SetDisableDownlevelRevealedComments(bool value)](./setdisabledownlevelrevealedcomments/) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |

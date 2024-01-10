@@ -21,6 +21,14 @@ Vector<FontSetting> Aspose::Cells::Comment::GetRichFormattings()
 
 All Characters objects
 
+
+## Examples
+
+
+```cpp
+Vector<FontSetting> list = comment1.GetRichFormattings();
+```
+
 ## See Also
 
 * Class [Vector](../../vector/)

@@ -2,11 +2,32 @@
 title: Aspose::Cells::Pivot::PivotField::GroupBy method
 linktitle: GroupBy
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::GroupBy method. Group the file by the date group types in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::GroupBy method. Automatically group the field with internal in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.pivot/pivotfield/groupby/
 ---
+## PivotField::GroupBy(double, bool) method
+
+
+Automatically group the field with internal.
+
+```cpp
+void Aspose::Cells::Pivot::PivotField::GroupBy(double interval, bool newField)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| interval | double | The internal of group. Automatic value will be assigned if it's zero, |
+| newField | bool | Indicates whether adding a new field to the pivottable. |
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotField](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## PivotField::GroupBy(const Date\&, const Date\&, const Vector \<PivotGroupByType\>\&, double, bool) method
 
 

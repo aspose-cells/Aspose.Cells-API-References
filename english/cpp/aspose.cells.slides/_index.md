@@ -14,4 +14,5 @@ url: /cpp/aspose.cells.slides/
 
 | Enum | Description |
 | --- | --- |
-| [AdjustFontSizeForRowType](./adjustfontsizeforrowtype/) | Represents what kind of rows should be ajusted. |
+| [AdjustFontSizeForRowType](./adjustfontsizeforrowtype/) | Represents which kind of rows should be ajusted. |
+| [SlideViewType](./slideviewtype/) | Represents the type when exporting to slides. |

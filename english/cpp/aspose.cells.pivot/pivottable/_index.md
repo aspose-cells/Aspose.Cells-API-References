@@ -88,7 +88,7 @@ class PivotTable
 | [GetPreserveFormatting()](./getpreserveformatting/) | Indicates whether formatting is preserved when the [PivotTable](./) is refreshed or recalculated. |
 | [GetPrintDrill()](./getprintdrill/) | Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
 | [GetPrintTitles()](./getprinttitles/) | Indicates whether the print titles for the worksheet are set based on the [PivotTable](./) report. The default value is false. |
-| [GetRefreshDataFlag()](./getrefreshdataflag/) | Indicates whether Refresh Data or not. |
+| [GetRefreshDataFlag()](./getrefreshdataflag/) | Indicates whether Refreshing Data or not. |
 | [GetRefreshDataOnOpeningFile()](./getrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. |
 | [GetRefreshDate()](./getrefreshdate/) | Gets the date when the [PivotTable](./) was last refreshed. |
 | [GetRefreshedByWho()](./getrefreshedbywho/) | Gets the name of the user who last refreshed the [PivotTable](./). |
@@ -181,7 +181,7 @@ class PivotTable
 | [SetPreserveFormatting(bool value)](./setpreserveformatting/) | Indicates whether formatting is preserved when the [PivotTable](./) is refreshed or recalculated. |
 | [SetPrintDrill(bool value)](./setprintdrill/) | Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
 | [SetPrintTitles(bool value)](./setprinttitles/) | Indicates whether the print titles for the worksheet are set based on the [PivotTable](./) report. The default value is false. |
-| [SetRefreshDataFlag(bool value)](./setrefreshdataflag/) | Indicates whether Refresh Data or not. |
+| [SetRefreshDataFlag(bool value)](./setrefreshdataflag/) | Indicates whether Refreshing Data or not. |
 | [SetRefreshDataOnOpeningFile(bool value)](./setrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. |
 | [SetRowGrand(bool value)](./setrowgrand/) | Indicates whether the [PivotTable](./) report shows grand totals for rows. |
 | [SetRowHeaderCaption(const U16String\& value)](./setrowheadercaption/) | Gets the [Row](../../aspose.cells/row/) Header Caption of the [PivotTable](./). |

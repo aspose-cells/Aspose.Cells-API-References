@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::SeriesCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SeriesCollection::Add method. Adds the SeriesCollection collection to a chart in C++.'
+description: 'Aspose::Cells::Charts::SeriesCollection::Add method. Adds the Series collection to a chart in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells.charts/seriescollection/add/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/seriescollection/add/
 ## SeriesCollection::Add(const U16String\&, bool) method
 
 
-Adds the [SeriesCollection](../) collection to a chart.
+Adds the [Series](../../series/) collection to a chart.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SeriesCollection::Add(const U16String &area, bool isVertical)
@@ -44,7 +44,7 @@ If set data on non contiguous cells, use comma to seperate them.For example: ($C
 ## SeriesCollection::Add(const char16_t*, bool) method
 
 
-Adds the [SeriesCollection](../) collection to a chart.
+Adds the [Series](../../series/) collection to a chart.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SeriesCollection::Add(const char16_t *area, bool isVertical)
@@ -77,7 +77,7 @@ If set data on non contiguous cells, use comma to seperate them.For example: ($C
 ## SeriesCollection::Add(const U16String\&, bool, bool) method
 
 
-Adds the [SeriesCollection](../) collection to a chart.
+Adds the [Series](../../series/) collection to a chart.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SeriesCollection::Add(const U16String &area, bool isVertical, bool checkLabels)
@@ -112,7 +112,7 @@ If set data on non contiguous cells, use comma to seperate them.For example, ($C
 ## SeriesCollection::Add(const char16_t*, bool, bool) method
 
 
-Adds the [SeriesCollection](../) collection to a chart.
+Adds the [Series](../../series/) collection to a chart.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SeriesCollection::Add(const char16_t *area, bool isVertical, bool checkLabels)

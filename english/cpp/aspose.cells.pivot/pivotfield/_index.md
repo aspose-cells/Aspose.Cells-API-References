@@ -57,6 +57,7 @@ class PivotField
 | [GetShowInOutlineForm()](./getshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
 | [GetShowSubtotalAtTop()](./getshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Gets whether the specified field shows that subtotals. |
+| [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
 | [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
 | [GroupBy(double start, double end, double interval, bool newField)](./groupby/) | Group the file by number. |
 | [GroupBy(const Vector \<CustomPiovtFieldGroupItem\>\& customGroupItems, bool newField)](./groupby/) | Custom group the field. |
