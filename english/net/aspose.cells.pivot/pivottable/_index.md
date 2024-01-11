@@ -68,7 +68,7 @@ public class PivotTable : IDisposable
 | [PreserveFormatting](../../aspose.cells.pivot/pivottable/preserveformatting/) { get; set; } | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
 | [PrintDrill](../../aspose.cells.pivot/pivottable/printdrill/) { get; set; } | Specifies a boolean value that indicates whether drill indicators should be printed. print expand/collapse buttons when displayed on pivottable. |
 | [PrintTitles](../../aspose.cells.pivot/pivottable/printtitles/) { get; set; } | Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
-| [RefreshDataFlag](../../aspose.cells.pivot/pivottable/refreshdataflag/) { get; set; } | Indicates whether Refresh Data or not. |
+| [RefreshDataFlag](../../aspose.cells.pivot/pivottable/refreshdataflag/) { get; set; } | Indicates whether Refreshing Data or not. |
 | [RefreshDataOnOpeningFile](../../aspose.cells.pivot/pivottable/refreshdataonopeningfile/) { get; set; } | Indicates whether Refresh Data when Opening File. |
 | [RefreshDate](../../aspose.cells.pivot/pivottable/refreshdate/) { get; } | Gets the date when the PivotTable was last refreshed. |
 | [RefreshedByWho](../../aspose.cells.pivot/pivottable/refreshedbywho/) { get; } | Gets the name of the user who last refreshed the PivotTable |

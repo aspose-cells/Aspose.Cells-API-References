@@ -1,11 +1,32 @@
 ---
 title: PivotField.GroupBy
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Group the file by the date group types
+description: PivotField method. Automatically group the field with internal
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/groupby/
 ---
-## GroupBy(DateTime, DateTime, PivotGroupByType[], double, bool) {#groupby_2}
+## GroupBy(double, bool) {#groupby_1}
+
+Automatically group the field with internal
+
+```csharp
+public void GroupBy(double interval, bool newField)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| interval | Double | The internal of group. Automatic value will be assigned if it's zero, |
+| newField | Boolean | Indicates whether adding a new field to the pivottable. |
+
+### See Also
+
+* class [PivotField](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## GroupBy(DateTime, DateTime, PivotGroupByType[], double, bool) {#groupby_3}
 
 Group the file by the date group types.
 
@@ -31,7 +52,7 @@ public void GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, dou
 
 ---
 
-## GroupBy(double, double, double, bool) {#groupby_1}
+## GroupBy(double, double, double, bool) {#groupby_2}
 
 Group the file by number.
 

@@ -49,10 +49,24 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 
 ## Sort(int, int, int, int, int[], SortOrder[], SortOrientation, bool) {#sort_1}
 
+Sorts the data of the area.
+
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int[] indexes, 
     SortOrder[] orders, SortOrientation orientation, bool isCaseSensitive)
 ```
+
+| Parameter | Description |
+| --- | --- |
+| cells | The cells contains the data area. |
+| startRow | The start row of the area. |
+| startColumn | The start column of the area. |
+| rows | the total rows. |
+| columns | The total columns. |
+| indexes | The sorted column index array |
+| orders | The sorted order array |
+| orientation | the sorting orientation:from left to right or from top to bottom. |
+| isCaseSensitive | whether case sensitive when comparing string.. |
 
 ### See Also
 

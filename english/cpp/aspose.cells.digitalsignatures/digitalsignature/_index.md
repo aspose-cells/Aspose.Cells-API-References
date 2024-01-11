@@ -20,8 +20,10 @@ class DigitalSignature
 
 | Method | Description |
 | --- | --- |
-| [DigitalSignature(const Vector \<uint8_t\>\& rawData, const U16String\& password, const U16String\& comments, const Date\& signTime)](./digitalsignature/) | Constructor of digitalSignature. Uses Bouncy Castle implementation. |
-| [DigitalSignature(const Vector \<uint8_t\>\& rawData, const char16_t* password, const char16_t* comments, const Date\& signTime)](./digitalsignature/) | Constructor of digitalSignature. Uses Bouncy Castle implementation. |
+| [DigitalSignature(const Vector \<uint8_t\>\& rawData, const U16String\& password, const U16String\& comments, const Date\& signTime)](./digitalsignature/) | Constructor of [DigitalSignature](./). |
+| [DigitalSignature(const Vector \<uint8_t\>\& rawData, const char16_t* password, const char16_t* comments, const Date\& signTime)](./digitalsignature/) | Constructor of [DigitalSignature](./). |
+| [DigitalSignature(const U16String\& fileName, const U16String\& password, const U16String\& comments, const Date\& signTime)](./digitalsignature/) | Constructor of [DigitalSignature](./). |
+| [DigitalSignature(const char16_t* fileName, const char16_t* password, const char16_t* comments, const Date\& signTime)](./digitalsignature/) | Constructor of [DigitalSignature](./). |
 | [DigitalSignature(DigitalSignature_Impl* impl)](./digitalsignature/) | Constructs from an implementation object. |
 | [DigitalSignature(const DigitalSignature\& src)](./digitalsignature/) | Copy constructor. |
 | [GetComments()](./getcomments/) | The purpose to signature. |

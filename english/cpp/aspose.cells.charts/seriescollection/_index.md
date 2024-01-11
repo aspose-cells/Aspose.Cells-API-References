@@ -20,12 +20,12 @@ class SeriesCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(const U16String\& area, bool isVertical)](./add/) | Adds the [SeriesCollection](./) collection to a chart. |
-| [Add(const char16_t* area, bool isVertical)](./add/) | Adds the [SeriesCollection](./) collection to a chart. |
-| [Add(const U16String\& area, bool isVertical, bool checkLabels)](./add/) | Adds the [SeriesCollection](./) collection to a chart. |
-| [Add(const char16_t* area, bool isVertical, bool checkLabels)](./add/) | Adds the [SeriesCollection](./) collection to a chart. |
-| [AddR1C1(const U16String\& area, bool isVertical)](./addr1c1/) | Adds the [SeriesCollection](./) collection to a chart. |
-| [AddR1C1(const char16_t* area, bool isVertical)](./addr1c1/) | Adds the [SeriesCollection](./) collection to a chart. |
+| [Add(const U16String\& area, bool isVertical)](./add/) | Adds the [Series](../series/) collection to a chart. |
+| [Add(const char16_t* area, bool isVertical)](./add/) | Adds the [Series](../series/) collection to a chart. |
+| [Add(const U16String\& area, bool isVertical, bool checkLabels)](./add/) | Adds the [Series](../series/) collection to a chart. |
+| [Add(const char16_t* area, bool isVertical, bool checkLabels)](./add/) | Adds the [Series](../series/) collection to a chart. |
+| [AddR1C1(const U16String\& area, bool isVertical)](./addr1c1/) | Adds the [Series](../series/) collection to a chart. |
+| [AddR1C1(const char16_t* area, bool isVertical)](./addr1c1/) | Adds the [Series](../series/) collection to a chart. |
 | [ChangeSeriesOrder(int32_t sourceIndex, int32_t destIndex)](./changeseriesorder/) | Directly changes the orders of the two series. |
 | [Clear()](./clear/) | Clears the collection. |
 | [Get(int32_t index)](./get/) | Gets the [Series](../series/) element at the specified index. |

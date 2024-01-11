@@ -22,7 +22,7 @@ Only Applies when this shape in the group or chart.
 ```csharp
 
 [C#]
-if (shape.IsInGroup() && shape.HeightInShape == 4000)
+if (shape.IsInGroup && shape.HeightInShape == 4000)
     shape.HeightInShape = 2000;
 ```
 

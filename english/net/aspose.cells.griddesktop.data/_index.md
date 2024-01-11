@@ -55,6 +55,7 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 
 | Enumeration | Description |
 | --- | --- |
+| [GridAutoFillType](./gridautofilltype/) | Represents the auto fill type. |
 | [GridCellErrorType](./gridcellerrortype/) | Used in WebCellException. Represents the cell error type. |
 | [GridCellValueFormatStrategy](./gridcellvalueformatstrategy/) | Specifies how to apply style for the value of the cell. |
 | [GridEmfRenderSetting](./gridemfrendersetting/) | Setting for rendering Emf metafile. |

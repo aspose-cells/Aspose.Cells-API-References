@@ -31,10 +31,12 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [GetConvertNumericData()](../abstracttextloadoptions/getconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. |
 | [GetDefaultStyleSettings()](../loadoptions/getdefaultstylesettings/) | Gets the default style settings for initializing styles of the workbook. |
 | [GetEncoding()](../abstracttextloadoptions/getencoding/) | Gets and sets the default encoding. Only applies for csv file. |
-| [GetExtendToNextSheet()](./getextendtonextsheet/) | Whether extends data to next sheet when the rows or columns of data exceed limit. If this property is true, extra data will be extended to next sheet behind current one(if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeds limit will be ignored. Default is false;. |
+| [GetExtendToNextSheet()](./getextendtonextsheet/) | Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false. |
 | [GetFontConfigs()](../loadoptions/getfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [GetHasFormula()](./gethasformula/) | Indicates whether the text is formula if it starts with "=". |
 | [GetHasTextQualifier()](./gethastextqualifier/) | Whether there is text qualifier for cell value. Default is true. |
+| [GetHeaderColumnsCount()](./getheadercolumnscount/) | The count of header columns to be repeated for extended sheets. |
+| [GetHeaderRowsCount()](./getheaderrowscount/) | The count of header rows to be repeated for extended sheets. |
 | [GetIgnoreNotPrinted()](../loadoptions/getignorenotprinted/) | Ignore the data which are not printed if directly printing the file. |
 | [GetIgnoreUselessShapes()](../loadoptions/getignoreuselessshapes/) | Indicates whether ignoring useless shapes. |
 | [GetInterruptMonitor()](../loadoptions/getinterruptmonitor/) | Gets and sets the interrupt monitor. |
@@ -45,6 +47,8 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [GetLoadFilter()](../loadoptions/getloadfilter/) | The filter to denote how to load data. |
 | [GetLoadFormat()](../loadoptions/getloadformat/) | Gets the load format. |
 | [GetLoadStyleStrategy()](../abstracttextloadoptions/getloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
+| [GetMaxColumnCount()](./getmaxcolumncount/) | The maximum count of columns to be imported for one sheet. |
+| [GetMaxRowCount()](./getmaxrowcount/) | The maximum count of rows to be imported for one sheet. |
 | [GetMemorySetting()](../loadoptions/getmemorysetting/) | Gets or sets the memory usage options. |
 | [GetParsingFormulaOnOpen()](../loadoptions/getparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |
 | [GetParsingPivotCachedRecords()](../loadoptions/getparsingpivotcachedrecords/) | Indicates whether parsing pivot cached records when loading the file. The default value is false. |
@@ -74,10 +78,12 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [SetConvertDateTimeData(bool value)](../abstracttextloadoptions/setconvertdatetimedata/) | Gets or sets a value that indicates whether the string in text file is converted to date data. |
 | [SetConvertNumericData(bool value)](../abstracttextloadoptions/setconvertnumericdata/) | Gets or sets a value that indicates whether the string in text file is converted to numeric data. |
 | [SetEncoding(EncodingType value)](../abstracttextloadoptions/setencoding/) | Gets and sets the default encoding. Only applies for csv file. |
-| [SetExtendToNextSheet(bool value)](./setextendtonextsheet/) | Whether extends data to next sheet when the rows or columns of data exceed limit. If this property is true, extra data will be extended to next sheet behind current one(if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeds limit will be ignored. Default is false;. |
+| [SetExtendToNextSheet(bool value)](./setextendtonextsheet/) | Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false. |
 | [SetFontConfigs(const IndividualFontConfigs\& value)](../loadoptions/setfontconfigs/) | Gets and sets individual font configs. Only works for the [Workbook](../workbook/) which uses this [LoadOptions](../loadoptions/) to load. |
 | [SetHasFormula(bool value)](./sethasformula/) | Indicates whether the text is formula if it starts with "=". |
 | [SetHasTextQualifier(bool value)](./sethastextqualifier/) | Whether there is text qualifier for cell value. Default is true. |
+| [SetHeaderColumnsCount(int32_t value)](./setheadercolumnscount/) | The count of header columns to be repeated for extended sheets. |
+| [SetHeaderRowsCount(int32_t value)](./setheaderrowscount/) | The count of header rows to be repeated for extended sheets. |
 | [SetIgnoreNotPrinted(bool value)](../loadoptions/setignorenotprinted/) | Ignore the data which are not printed if directly printing the file. |
 | [SetIgnoreUselessShapes(bool value)](../loadoptions/setignoreuselessshapes/) | Indicates whether ignoring useless shapes. |
 | [SetInterruptMonitor(AbstractInterruptMonitor* value)](../loadoptions/setinterruptmonitor/) | Gets and sets the interrupt monitor. |
@@ -88,6 +94,8 @@ class TxtLoadOptions : public Aspose::Cells::AbstractTextLoadOptions
 | [SetLightCellsDataHandler(LightCellsDataHandler* value)](../loadoptions/setlightcellsdatahandler/) | The data handler for processing cells data when reading template file. |
 | [SetLoadFilter(LoadFilter* value)](../loadoptions/setloadfilter/) | The filter to denote how to load data. |
 | [SetLoadStyleStrategy(TxtLoadStyleStrategy value)](../abstracttextloadoptions/setloadstylestrategy/) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
+| [SetMaxColumnCount(int32_t value)](./setmaxcolumncount/) | The maximum count of columns to be imported for one sheet. |
+| [SetMaxRowCount(int32_t value)](./setmaxrowcount/) | The maximum count of rows to be imported for one sheet. |
 | [SetMemorySetting(MemorySetting value)](../loadoptions/setmemorysetting/) | Gets or sets the memory usage options. |
 | [SetPaperSize(PaperSizeType type)](../loadoptions/setpapersize/) | Sets the default print paper size from default printer's setting. |
 | [SetParsingFormulaOnOpen(bool value)](../loadoptions/setparsingformulaonopen/) | Indicates whether parsing the formula when reading the file. |

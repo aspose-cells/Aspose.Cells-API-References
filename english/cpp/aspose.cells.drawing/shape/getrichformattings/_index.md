@@ -21,6 +21,14 @@ Vector<FontSetting> Aspose::Cells::Drawing::Shape::GetRichFormattings()
 
 All Characters objects
 
+
+## Examples
+
+
+```cpp
+Vector<FontSetting> list = shape.GetRichFormattings();
+```
+
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
