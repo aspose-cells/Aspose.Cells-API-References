@@ -1,13 +1,13 @@
 ---
 title: PivotTable.RefreshDataFlag
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Indicates whether Refresh Data or not
+description: PivotTable property. Indicates whether Refreshing Data or not
 type: docs
 url: /net/aspose.cells.pivot/pivottable/refreshdataflag/
 ---
 ## PivotTable.RefreshDataFlag property
 
-Indicates whether Refresh Data or not.
+Indicates whether Refreshing Data or not.
 
 ```csharp
 public bool RefreshDataFlag { get; set; }

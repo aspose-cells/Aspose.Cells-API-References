@@ -38,6 +38,7 @@ public class CellRange
 
 | Name | Description |
 | --- | --- |
+| [AutoFill](../../aspose.cells.griddesktop/cellrange/autofill/)(CellRange, GridAutoFillType) | Automaticall fill the target range. |
 | [Copy](../../aspose.cells.griddesktop/cellrange/copy/)(CellRange) | Copies from another CellRange object. |
 | [getName](../../aspose.cells.griddesktop/cellrange/getname/)() | get the name defined for the cellrange.if no name defined for this cellrange ,just return null |
 | [Inside](../../aspose.cells.griddesktop/cellrange/inside/)(CellRange) | check whether current CellRange is inside in the target CellRange |

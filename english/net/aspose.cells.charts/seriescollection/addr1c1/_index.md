@@ -1,13 +1,13 @@
 ---
 title: SeriesCollection.AddR1C1
 second_title: Aspose.Cells for .NET API Reference
-description: SeriesCollection method. Adds the SeriesCollection collection to a chart
+description: SeriesCollection method. Adds the Series collection to a chart
 type: docs
 url: /net/aspose.cells.charts/seriescollection/addr1c1/
 ---
 ## SeriesCollection.AddR1C1 method
 
-Adds the [`SeriesCollection`](../) collection to a chart.
+Adds the [`Series`](../../series/) collection to a chart.
 
 ```csharp
 public int AddR1C1(string area, bool isVertical)

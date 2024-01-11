@@ -5,31 +5,6 @@ description: SheetRender method. Render certain page to a Graphics
 type: docs
 url: /net/aspose.cells.rendering/sheetrender/toimage/
 ---
-## ToImage(int, Graphics, float, float, float, float) {#toimage_2}
-
-Render certain page to a Graphics
-
-```csharp
-public void ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pageIndex | Int32 | indicate which page is to be converted |
-| g | Graphics | The object where to render to. |
-| x | Single | The X coordinate (in pixels) of the top left corner of the rendered page. |
-| y | Single | The Y coordinate (in pixels) of the top left corner of the rendered page. |
-| width | Single | The maximum width (in pixels) that can be occupied by the rendered page. |
-| height | Single | The maximum height (in pixels) that can be occupied by the rendered page. |
-
-### See Also
-
-* class [SheetRender](../)
-* namespace [Aspose.Cells.Rendering](../../../aspose.cells.rendering/)
-* assembly [Aspose.Cells](../../../)
-
----
-
 ## ToImage(int, Graphics, float, float) {#toimage_1}
 
 Render certain page to a Graphics
@@ -130,6 +105,31 @@ public Bitmap ToImage(int pageIndex)
 ### Return Value
 
 the bitmap object of the page
+
+### See Also
+
+* class [SheetRender](../)
+* namespace [Aspose.Cells.Rendering](../../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ToImage(int, Graphics, float, float, float, float) {#toimage_2}
+
+Render certain page to a Graphics
+
+```csharp
+public void ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | Int32 | indicate which page is to be converted |
+| g | Graphics | The object where to render to. |
+| x | Single | The X coordinate (in pixels) of the top left corner of the rendered page. |
+| y | Single | The Y coordinate (in pixels) of the top left corner of the rendered page. |
+| width | Single | The maximum width (in pixels) that can be occupied by the rendered page. |
+| height | Single | The maximum height (in pixels) that can be occupied by the rendered page. |
 
 ### See Also
 

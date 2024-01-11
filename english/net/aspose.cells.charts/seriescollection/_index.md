@@ -29,9 +29,9 @@ public class SeriesCollection : CollectionBase<Series>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.charts/seriescollection/add/#add)(string, bool) | Adds the `SeriesCollection` collection to a chart. |
-| [Add](../../aspose.cells.charts/seriescollection/add/#add_1)(string, bool, bool) | Adds the `SeriesCollection` collection to a chart. |
-| [AddR1C1](../../aspose.cells.charts/seriescollection/addr1c1/)(string, bool) | Adds the `SeriesCollection` collection to a chart. |
+| [Add](../../aspose.cells.charts/seriescollection/add/#add)(string, bool) | Adds the [`Series`](../series/) collection to a chart. |
+| [Add](../../aspose.cells.charts/seriescollection/add/#add_1)(string, bool, bool) | Adds the [`Series`](../series/) collection to a chart. |
+| [AddR1C1](../../aspose.cells.charts/seriescollection/addr1c1/)(string, bool) | Adds the [`Series`](../series/) collection to a chart. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Series) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Series, IComparer&lt;Series&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Series, IComparer&lt;Series&gt;) |  |

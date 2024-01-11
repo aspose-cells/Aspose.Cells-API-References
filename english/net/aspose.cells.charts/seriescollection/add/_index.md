@@ -1,13 +1,13 @@
 ---
 title: SeriesCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: SeriesCollection method. Adds the SeriesCollection collection to a chart
+description: SeriesCollection method. Adds the Series collection to a chart
 type: docs
 url: /net/aspose.cells.charts/seriescollection/add/
 ---
 ## Add(string, bool) {#add}
 
-Adds the [`SeriesCollection`](../) collection to a chart.
+Adds the [`Series`](../../series/) collection to a chart.
 
 ```csharp
 public int Add(string area, bool isVertical)
@@ -36,7 +36,7 @@ If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C
 
 ## Add(string, bool, bool) {#add_1}
 
-Adds the [`SeriesCollection`](../) collection to a chart.
+Adds the [`Series`](../../series/) collection to a chart.
 
 ```csharp
 public int Add(string area, bool isVertical, bool checkLabels)
