@@ -1,26 +1,24 @@
 ---
-title: AdjustFontSizeForRowType
+title: SlideViewType
 second_title: Aspose.Cells for Java API Reference
-description: Represents which kind of rows should be ajusted.
+description: Represents the type when exporting to slides.
 type: docs
-url: /java/com.aspose.cells/adjustfontsizeforrowtype/
+url: /java/com.aspose.cells/slideviewtype/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class AdjustFontSizeForRowType
+public final class SlideViewType
 ```
 
-Represents which kind of rows should be ajusted.
-
-**Remarks**
+Represents the type when exporting to slides.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [EMPTY_ROWS](#EMPTY-ROWS) | If the row is empty, change font size to fit row height. |
-| [NONE](#NONE) | No adjsut. |
+| [PRINT](#PRINT) | Exporting as printing. |
+| [VIEW](#VIEW) | Exporting as view in MS Excel. |
 ## Methods
 
 | Method | Description |
@@ -34,21 +32,21 @@ Represents which kind of rows should be ajusted.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### EMPTY_ROWS {#EMPTY-ROWS}
+### PRINT {#PRINT}
 ```
-public static final int EMPTY_ROWS
-```
-
-
-If the row is empty, change font size to fit row height.
-
-### NONE {#NONE}
-```
-public static final int NONE
+public static final int PRINT
 ```
 
 
-No adjsut.
+Exporting as printing.
+
+### VIEW {#VIEW}
+```
+public static final int VIEW
+```
+
+
+Exporting as view in MS Excel.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

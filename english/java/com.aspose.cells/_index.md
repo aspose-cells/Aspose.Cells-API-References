@@ -25,7 +25,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ActiveXControl](../com.aspose.cells/activexcontrol) | Represents the ActiveX control. |
 | [ActiveXControlBase](../com.aspose.cells/activexcontrolbase) | Represents the ActiveX control. |
 | [ActiveXPersistenceType](../com.aspose.cells/activexpersistencetype) | Represents the persistence method to persist an ActiveX control. |
-| [AdjustFontSizeForRowType](../com.aspose.cells/adjustfontsizeforrowtype) | Represents what kind of rows should be ajusted. |
+| [AdjustFontSizeForRowType](../com.aspose.cells/adjustfontsizeforrowtype) | Represents which kind of rows should be ajusted. |
 | [ArcShape](../com.aspose.cells/arcshape) | Represents the arc shape. |
 | [Area](../com.aspose.cells/area) | Encapsulates the object that represents an area format. |
 | [AutoFillType](../com.aspose.cells/autofilltype) | Represents the auto fill type. |
@@ -582,6 +582,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [SlicerCacheItemSortType](../com.aspose.cells/slicercacheitemsorttype) | Specify the sort type of SlicerCacheItem |
 | [SlicerCollection](../com.aspose.cells/slicercollection) | Specifies the collection of all the Slicer objects on the specified worksheet. |
 | [SlicerStyleType](../com.aspose.cells/slicerstyletype) | Specify the style of slicer view |
+| [SlideViewType](../com.aspose.cells/slideviewtype) | Represents the type when exporting to slides. |
 | [SmartArtShape](../com.aspose.cells/smartartshape) | Represents the smart art. |
 | [SmartTag](../com.aspose.cells/smarttag) | Represents a smart tag. |
 | [SmartTagCollection](../com.aspose.cells/smarttagcollection) | Represents all smart tags in the cell. |

@@ -35,6 +35,8 @@ Represents the options for loading text file.
 | [getEncoding()](#getEncoding--) | Gets the default encoding. |
 | [getExtendToNextSheet()](#getExtendToNextSheet--) | Whether extends data to next sheet when the rows or columns of data exceed limit. |
 | [getFontConfigs()](#getFontConfigs--) | Gets individual font configs. |
+| [getHeaderColumnsCount()](#getHeaderColumnsCount--) | The count of header columns to be repeated for extended sheets. |
+| [getHeaderRowsCount()](#getHeaderRowsCount--) | The count of header rows to be repeated for extended sheets. |
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--) | Indicates whether ignoring useless shapes. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
@@ -46,6 +48,8 @@ Represents the options for loading text file.
 | [getLoadFormat()](#getLoadFormat--) | Gets the load format. |
 | [getLoadStyleStrategy()](#getLoadStyleStrategy--) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [getLocale()](#getLocale--) | Gets the Locale used for workbook at the time the file was loaded. |
+| [getMaxColumnCount()](#getMaxColumnCount--) | The maximum count of columns to be imported for one sheet. |
+| [getMaxRowCount()](#getMaxRowCount--) | The maximum count of rows to be imported for one sheet. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
@@ -78,6 +82,8 @@ Represents the options for loading text file.
 | [setFontConfigs(IndividualFontConfigs value)](#setFontConfigs-com.aspose.cells.IndividualFontConfigs-) | Sets individual font configs. |
 | [setHasFormula(boolean value)](#setHasFormula-boolean-) | Indicates whether the text is formula if it starts with "=". |
 | [setHasTextQualifier(boolean value)](#setHasTextQualifier-boolean-) | Whether there is text qualifier for cell value. |
+| [setHeaderColumnsCount(int value)](#setHeaderColumnsCount-int-) | The count of header columns to be repeated for extended sheets. |
+| [setHeaderRowsCount(int value)](#setHeaderRowsCount-int-) | The count of header rows to be repeated for extended sheets. |
 | [setIgnoreNotPrinted(boolean value)](#setIgnoreNotPrinted-boolean-) | Ignore the data which are not printed if directly printing the file |
 | [setIgnoreUselessShapes(boolean value)](#setIgnoreUselessShapes-boolean-) | Indicates whether ignoring useless shapes. |
 | [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
@@ -88,6 +94,8 @@ Represents the options for loading text file.
 | [setLoadFilter(LoadFilter value)](#setLoadFilter-com.aspose.cells.LoadFilter-) | The filter to denote how to load data. |
 | [setLoadStyleStrategy(int value)](#setLoadStyleStrategy-int-) | Indicates the strategy to apply style for parsed values when converting string value to number or datetime. |
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the Locale used for workbook at the time the file was loaded. |
+| [setMaxColumnCount(int value)](#setMaxColumnCount-int-) | The maximum count of columns to be imported for one sheet. |
+| [setMaxRowCount(int value)](#setMaxRowCount-int-) | The maximum count of rows to be imported for one sheet. |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
 | [setMultiEncoded(boolean value)](#setMultiEncoded-boolean-) | True means that the file contains several encoding. |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
@@ -253,7 +261,11 @@ public boolean getExtendToNextSheet()
 ```
 
 
-Whether extends data to next sheet when the rows or columns of data exceed limit. If this property is true, extra data will be extended to next sheet behind current one(if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeds limit will be ignored. Default is false;
+Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false.
+
+**Remarks**
+
+If this property is true, extra data will be put into next sheet behind current one (if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeding limit will be ignored.
 
 **Returns:**
 boolean
@@ -267,6 +279,34 @@ Gets individual font configs. Only works for the [Workbook](../../com.aspose.cel
 
 **Returns:**
 [IndividualFontConfigs](../../com.aspose.cells/individualfontconfigs)
+### getHeaderColumnsCount() {#getHeaderColumnsCount--}
+```
+public int getHeaderColumnsCount()
+```
+
+
+The count of header columns to be repeated for extended sheets.
+
+**Remarks**
+
+The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--) is true.
+
+**Returns:**
+int
+### getHeaderRowsCount() {#getHeaderRowsCount--}
+```
+public int getHeaderRowsCount()
+```
+
+
+The count of header rows to be repeated for extended sheets.
+
+**Remarks**
+
+The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--) is true.
+
+**Returns:**
+int
 ### getIgnoreNotPrinted() {#getIgnoreNotPrinted--}
 ```
 public boolean getIgnoreNotPrinted()
@@ -397,6 +437,34 @@ Gets the Locale used for workbook at the time the file was loaded.
 
 **Returns:**
 java.util.Locale
+### getMaxColumnCount() {#getMaxColumnCount--}
+```
+public int getMaxColumnCount()
+```
+
+
+The maximum count of columns to be imported for one sheet.
+
+**Remarks**
+
+Those columns exceeding this limit will be ignored or extended to next sheet according to [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--). This count includes the header columns([getHeaderColumnsCount()](../../com.aspose.cells/txtloadoptions\#getHeaderColumnsCount--)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+
+**Returns:**
+int
+### getMaxRowCount() {#getMaxRowCount--}
+```
+public int getMaxRowCount()
+```
+
+
+The maximum count of rows to be imported for one sheet.
+
+**Remarks**
+
+Those rows exceeding this limit will be ignored or extended to next sheet according to [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--). This count includes the header rows([getHeaderRowsCount()](../../com.aspose.cells/txtloadoptions\#getHeaderRowsCount--)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+
+**Returns:**
+int
 ### getMemorySetting() {#getMemorySetting--}
 ```
 public int getMemorySetting()
@@ -744,7 +812,11 @@ public void setExtendToNextSheet(boolean value)
 ```
 
 
-Whether extends data to next sheet when the rows or columns of data exceed limit. If this property is true, extra data will be extended to next sheet behind current one(if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeds limit will be ignored. Default is false;
+Whether extends data to next sheet when the rows or columns of data exceed limit. Default is false.
+
+**Remarks**
+
+If this property is true, extra data will be put into next sheet behind current one (if current sheet is the last one, new sheet will be appended to current workbook). If this property is false, the data exceeding limit will be ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -789,6 +861,40 @@ Whether there is text qualifier for cell value. Default is true.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setHeaderColumnsCount(int value) {#setHeaderColumnsCount-int-}
+```
+public void setHeaderColumnsCount(int value)
+```
+
+
+The count of header columns to be repeated for extended sheets.
+
+**Remarks**
+
+The header columns specified by this property will be duplicated for those extended sheets. This property only takes effect when [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--) is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setHeaderRowsCount(int value) {#setHeaderRowsCount-int-}
+```
+public void setHeaderRowsCount(int value)
+```
+
+
+The count of header rows to be repeated for extended sheets.
+
+**Remarks**
+
+The header rows specified by this property will be duplicated for those extended sheets. This property only takes effect when [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--) is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setIgnoreNotPrinted(boolean value) {#setIgnoreNotPrinted-boolean-}
 ```
@@ -937,6 +1043,40 @@ Sets the Locale used for workbook at the time the file was loaded.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Locale |  |
+
+### setMaxColumnCount(int value) {#setMaxColumnCount-int-}
+```
+public void setMaxColumnCount(int value)
+```
+
+
+The maximum count of columns to be imported for one sheet.
+
+**Remarks**
+
+Those columns exceeding this limit will be ignored or extended to next sheet according to [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--). This count includes the header columns([getHeaderColumnsCount()](../../com.aspose.cells/txtloadoptions\#getHeaderColumnsCount--)). The maximum value of it is the column limit of corresponding file format, such as for xlsx file it 16384. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setMaxRowCount(int value) {#setMaxRowCount-int-}
+```
+public void setMaxRowCount(int value)
+```
+
+
+The maximum count of rows to be imported for one sheet.
+
+**Remarks**
+
+Those rows exceeding this limit will be ignored or extended to next sheet according to [getExtendToNextSheet()](../../com.aspose.cells/txtloadoptions\#getExtendToNextSheet--). This count includes the header rows([getHeaderRowsCount()](../../com.aspose.cells/txtloadoptions\#getHeaderRowsCount--)). The maximum allowed value of it is the row limit of corresponding file format, such as for xlsx file it 1048576. If this property has not been specified or the specified value is not positive, then the maximum limit will be used too.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setMemorySetting(int value) {#setMemorySetting-int-}
 ```

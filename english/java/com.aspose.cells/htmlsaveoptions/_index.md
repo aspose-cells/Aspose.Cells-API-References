@@ -33,6 +33,7 @@ Represents the options for saving html file.
 | [getClass()](#getClass--) |  |
 | [getClearData()](#getClearData--) | Make the workbook empty after saving the file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [getCssStyles()](#getCssStyles--) | Gets the additional css styles for the formatter. |
 | [getDefaultFontName()](#getDefaultFontName--) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [getDisableDownlevelRevealedComments()](#getDisableDownlevelRevealedComments--) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [getEncoding()](#getEncoding--) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -105,6 +106,7 @@ Represents the options for saving html file.
 | [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | Sets the prefix of the css name,the default value is "". |
 | [setClearData(boolean value)](#setClearData-boolean-) | Make the workbook empty after saving the file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
+| [setCssStyles(String value)](#setCssStyles-java.lang.String-) | Sets the additional css styles for the formatter. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Specify the default font name for exporting html, the default font will be used when the font of style is not existing, If this property is null, Aspose.Cells will use universal font which have the same family with the original font, the default value is null. |
 | [setDisableDownlevelRevealedComments(boolean value)](#setDisableDownlevelRevealedComments-boolean-) | Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false. |
 | [setEncoding(Encoding value)](#setEncoding-com.aspose.cells.Encoding-) | If not set,use Encoding.UTF8 as default enconding type. |
@@ -302,6 +304,16 @@ The default value is false.
 
 **Returns:**
 boolean
+### getCssStyles() {#getCssStyles--}
+```
+public String getCssStyles()
+```
+
+
+Gets the additional css styles for the formatter. Only works when [getSaveAsSingleFile()](../../com.aspose.cells/htmlsaveoptions\#getSaveAsSingleFile--) is True.  CssStyles="body \{ padding: 5px \}";
+
+**Returns:**
+java.lang.String
 ### getDefaultFontName() {#getDefaultFontName--}
 ```
 public String getDefaultFontName()
@@ -1111,6 +1123,19 @@ The default value is false.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setCssStyles(String value) {#setCssStyles-java.lang.String-}
+```
+public void setCssStyles(String value)
+```
+
+
+Sets the additional css styles for the formatter. Only works when [getSaveAsSingleFile()](../../com.aspose.cells/htmlsaveoptions\#getSaveAsSingleFile--) is True.  CssStyles="body \{ padding: 5px \}";
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
 ```

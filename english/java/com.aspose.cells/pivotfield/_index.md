@@ -117,6 +117,7 @@ Represents a field in a PivotTable report.
 | [getSubtotals(int subtotalType)](#getSubtotals-int-) | Gets whether the specified field shows that subtotals. |
 | [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
 | [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
+| [groupBy(double interval, boolean newField)](#groupBy-double-boolean-) | Automatically group the field with internal |
 | [groupBy(double start, double end, double interval, boolean newField)](#groupBy-double-double-double-boolean-) | Group the file by number. |
 | [hashCode()](#hashCode--) |  |
 | [hideDetail(boolean isHiddenDetail)](#hideDetail-boolean-) | Sets whether the PivotItems in a pivot field is hidden detail.That is collapse/expand this field. |
@@ -649,6 +650,20 @@ Group the file by the date group types.
 | groups | int[] | [PivotGroupByType](../../com.aspose.cells/pivotgroupbytype). Group types |
 | interval | double | The interval |
 | firstAsNewField | boolean | Indicates whether adding a new field to the pivottable. Only for the first group item. |
+
+### groupBy(double interval, boolean newField) {#groupBy-double-boolean-}
+```
+public void groupBy(double interval, boolean newField)
+```
+
+
+Automatically group the field with internal
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| interval | double | The internal of group. Automatic value will be assigned if it's zero, |
+| newField | boolean | Indicates whether adding a new field to the pivottable. |
 
 ### groupBy(double start, double end, double interval, boolean newField) {#groupBy-double-double-double-boolean-}
 ```

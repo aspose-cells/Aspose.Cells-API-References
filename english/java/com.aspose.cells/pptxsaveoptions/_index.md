@@ -36,6 +36,7 @@ Represents the pptx save options.
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
+| [getExportViewType()](#getExportViewType--) | Gets the display type when exporting to Excel. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
 | [getIgnoreHiddenRows()](#getIgnoreHiddenRows--) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
@@ -70,6 +71,7 @@ Represents the pptx save options.
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
+| [setExportViewType(int value)](#setExportViewType-int-) | Sets the display type when exporting to Excel. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
@@ -272,6 +274,18 @@ See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 **Remarks**
 
 EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
+
+**Returns:**
+int
+### getExportViewType() {#getExportViewType--}
+```
+public int getExportViewType()
+```
+
+
+Gets the display type when exporting to Excel. The default exporting type is working as printing.
+
+See [SlideViewType](../../com.aspose.cells/slideviewtype).
 
 **Returns:**
 int
@@ -784,6 +798,21 @@ See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 **Remarks**
 
 EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to page, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setExportViewType(int value) {#setExportViewType-int-}
+```
+public void setExportViewType(int value)
+```
+
+
+Sets the display type when exporting to Excel. The default exporting type is working as printing.
+
+See [SlideViewType](../../com.aspose.cells/slideviewtype).
 
 **Parameters:**
 | Parameter | Type | Description |

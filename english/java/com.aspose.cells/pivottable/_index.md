@@ -157,7 +157,7 @@ Summary description for PivotTable.
 | [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
 | [getPrintDrill()](#getPrintDrill--) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [getPrintTitles()](#getPrintTitles--) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
-| [getRefreshDataFlag()](#getRefreshDataFlag--) | Indicates whether Refresh Data or not. |
+| [getRefreshDataFlag()](#getRefreshDataFlag--) | Indicates whether Refreshing Data or not. |
 | [getRefreshDataOnOpeningFile()](#getRefreshDataOnOpeningFile--) | Indicates whether Refresh Data when Opening File. |
 | [getRefreshDate()](#getRefreshDate--) | Gets the date when the PivotTable was last refreshed. |
 | [getRefreshedByWho()](#getRefreshedByWho--) | Gets the name of the user who last refreshed the PivotTable |
@@ -243,7 +243,7 @@ Summary description for PivotTable.
 | [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
 | [setPrintDrill(boolean value)](#setPrintDrill-boolean-) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [setPrintTitles(boolean value)](#setPrintTitles-boolean-) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
-| [setRefreshDataFlag(boolean value)](#setRefreshDataFlag-boolean-) | Indicates whether Refresh Data or not. |
+| [setRefreshDataFlag(boolean value)](#setRefreshDataFlag-boolean-) | Indicates whether Refreshing Data or not. |
 | [setRefreshDataOnOpeningFile(boolean value)](#setRefreshDataOnOpeningFile-boolean-) | Indicates whether Refresh Data when Opening File. |
 | [setRowGrand(boolean value)](#setRowGrand-boolean-) | Indicates whether the PivotTable report shows grand totals for rows. |
 | [setRowHeaderCaption(String value)](#setRowHeaderCaption-java.lang.String-) | Gets the Row Header Caption of the PivotTable. |
@@ -1017,7 +1017,7 @@ public boolean getRefreshDataFlag()
 ```
 
 
-Indicates whether Refresh Data or not.
+Indicates whether Refreshing Data or not.
 
 **Returns:**
 boolean
@@ -2077,7 +2077,7 @@ public void setRefreshDataFlag(boolean value)
 ```
 
 
-Indicates whether Refresh Data or not.
+Indicates whether Refreshing Data or not.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -63,9 +63,9 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | Method | Description |
 | --- | --- |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String area, boolean isVertical)](#add-java.lang.String-boolean-) | Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart. |
-| [add(String area, boolean isVertical, boolean checkLabels)](#add-java.lang.String-boolean-boolean-) | Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart. |
-| [addR1C1(String area, boolean isVertical)](#addR1C1-java.lang.String-boolean-) | Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart. |
+| [add(String area, boolean isVertical)](#add-java.lang.String-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
+| [add(String area, boolean isVertical, boolean checkLabels)](#add-java.lang.String-boolean-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
+| [addR1C1(String area, boolean isVertical)](#addR1C1-java.lang.String-boolean-) | Adds the [Series](../../com.aspose.cells/series) collection to a chart. |
 | [changeSeriesOrder(int sourceIndex, int destIndex)](#changeSeriesOrder-int-int-) | Directly changes the orders of the two series. |
 | [clear()](#clear--) | Clears the collection |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -112,7 +112,7 @@ public int add(String area, boolean isVertical)
 ```
 
 
-Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart.
+Adds the [Series](../../com.aspose.cells/series) collection to a chart.
 
 **Remarks**
 
@@ -136,7 +136,7 @@ public int add(String area, boolean isVertical, boolean checkLabels)
 ```
 
 
-Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart.
+Adds the [Series](../../com.aspose.cells/series) collection to a chart.
 
 **Remarks**
 
@@ -161,7 +161,7 @@ public int addR1C1(String area, boolean isVertical)
 ```
 
 
-Adds the [SeriesCollection](../../com.aspose.cells/seriescollection) collection to a chart.
+Adds the [Series](../../com.aspose.cells/series) collection to a chart.
 
 **Remarks**
 
