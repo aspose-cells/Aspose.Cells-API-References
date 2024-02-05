@@ -10,14 +10,14 @@ url: /net/aspose.cells.griddesktop/rowfiltersettings/customrows/
 Filters a list with a custom criteria.
 
 ```csharp
-public void CustomRows(int column, GridFilterOperatorType operatorType1, object criteria1)
+public void CustomRows(int column, GridFilterOperatorType operatorType, object criteria)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | Int32 | The column of the worksheet |
-| operatorType1 | GridFilterOperatorType | The filter operator type |
-| criteria1 | Object | The custom criteria |
+| operatorType | GridFilterOperatorType | The filter operator type |
+| criteria | Object | The custom criteria |
 
 ### See Also
 

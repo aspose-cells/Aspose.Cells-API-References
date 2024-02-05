@@ -88,6 +88,7 @@ public enum FileFormatType
 | MicrosoftCabinet | `773` | ///  Rrepesents Microsoft Cabinet file.  The file format is not supported Only for detecting file type. |
 | Rtf | `774` |  |
 | Epub | `775` | EPUB |
+| Oxps | `776` | OXPS (Open XML Paper Specification) format. |
 | GZip | `35615` | Rrepesents GZip file. |
 
 ### See Also

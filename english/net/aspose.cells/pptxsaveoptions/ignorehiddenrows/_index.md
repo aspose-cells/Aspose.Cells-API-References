@@ -1,13 +1,13 @@
 ---
 title: PptxSaveOptions.IgnoreHiddenRows
 second_title: Aspose.Cells for .NET API Reference
-description: PptxSaveOptions property. Inidicates whether ignoring hidden rows when converting Excel to powerpoint
+description: PptxSaveOptions property. Inidicates whether ignoring hidden rows when converting Excel to PowerPoint
 type: docs
 url: /net/aspose.cells/pptxsaveoptions/ignorehiddenrows/
 ---
 ## PptxSaveOptions.IgnoreHiddenRows property
 
-Inidicates whether ignoring hidden rows when converting Excel to powerpoint.
+Inidicates whether ignoring hidden rows when converting Excel to PowerPoint.
 
 ```csharp
 public bool IgnoreHiddenRows { get; set; }

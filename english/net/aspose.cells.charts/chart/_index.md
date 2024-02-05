@@ -74,7 +74,8 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
-| [Calculate](../../aspose.cells.charts/chart/calculate/)() | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [Calculate](../../aspose.cells.charts/chart/calculate/#calculate)() | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [Calculate](../../aspose.cells.charts/chart/calculate/#calculate_1)(ChartCalculateOptions) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. |
 | [ChangeTemplate](../../aspose.cells.charts/chart/changetemplate/)(byte[]) | Change chart type with preset template. |
 | [GetActualSize](../../aspose.cells.charts/chart/getactualsize/)() | Gets actual size of chart in unit of pixels. |
 | [GetChartDataRange](../../aspose.cells.charts/chart/getchartdatarange/)() | Gets the data source range of the chart. |

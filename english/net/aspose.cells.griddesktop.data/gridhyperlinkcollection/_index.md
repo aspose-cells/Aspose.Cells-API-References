@@ -10,7 +10,7 @@ url: /net/aspose.cells.griddesktop.data/gridhyperlinkcollection/
 Encapsulates a collection of Hyperlink objects.
 
 ```csharp
-public class GridHyperlinkCollection
+public class GridHyperlinkCollection : CollectionBase
 ```
 
 ## Properties
@@ -29,9 +29,9 @@ public class GridHyperlinkCollection
 | [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add/#add_1)(string, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
 | [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add/#add)(int, int, int, int, string) | Adds a hyperlink to a specified cell or a range of cells. |
 | [Add](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/add/#add_3)(string, string, string, string, string) | Adds a hyperlink to a specified cell or a range of cells. |
-| [Clear](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/clear/)() | Clears all hyperlinks. |
+| [Clear](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/clear/#clear)() | Clears all hyperlinks. |
 | [Remove](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/remove/)(int, int) |  |
-| [RemoveAt](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/removeat/)(int) | Remove the hyperlink at the specified index. |
+| [RemoveAt](../../aspose.cells.griddesktop.data/gridhyperlinkcollection/removeat/#removeat)(int) | Remove the hyperlink at the specified index. |
 
 ### See Also
 

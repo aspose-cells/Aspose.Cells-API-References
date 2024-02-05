@@ -1,13 +1,13 @@
 ---
 title: PivotField.Position
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Represents the PivotField index in the PivotFields
+description: PivotField property. Represents the index of PivotField in the region
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/position/
 ---
 ## PivotField.Position property
 
-Represents the PivotField index in the PivotFields.
+Represents the index of [`PivotField`](../) in the region.
 
 ```csharp
 public int Position { get; }

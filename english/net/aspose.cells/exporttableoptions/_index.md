@@ -23,6 +23,7 @@ public class ExportTableOptions
 
 | Name | Description |
 | --- | --- |
+| [AllowDBNull](../../aspose.cells/exporttableoptions/allowdbnull/) { get; set; } | This value indicates whether DBNulls are allowed in this table. |
 | [CheckMixedValueType](../../aspose.cells/exporttableoptions/checkmixedvaluetype/) { get; set; } | False, Aspose.Cells will set the DataColumn's type by the value type of the first row for performance. True, Aspose.Cells will check whether the value type in the column are mixed before set the DataColumn's type And the value type are mixed, the DataColumn's type will be string. |
 | [DataTable](../../aspose.cells/exporttableoptions/datatable/) { get; set; } | Gets and sets the DataTable which columns' data type is assigned. |
 | [ExportAsHtmlString](../../aspose.cells/exporttableoptions/exportashtmlstring/) { get; set; } | Exports the html string value of the cells to the DataTable. |

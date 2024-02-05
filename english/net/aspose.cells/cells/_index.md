@@ -114,7 +114,8 @@ public class Cells : IDisposable, IEnumerable
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle/)(int, int) | Get the style of given cell. |
 | [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/)(int) | Gets the width(in unit of characters) of the specified column in normal view |
 | [GetColumnWidthInch](../../aspose.cells/cells/getcolumnwidthinch/)(int) | Gets the width of the specified column in normal view, in units of inches. |
-| [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel/)(int) | Gets the width of the specified column in normal view, in units of pixel. |
+| [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel/#getcolumnwidthpixel)(int) | Gets the width of the specified column in normal view, in units of pixel. |
+| [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel/#getcolumnwidthpixel_1)(int, bool) | Gets the width of the specified column in normal view, in units of pixel. |
 | [GetDependents](../../aspose.cells/cells/getdependents/)(bool, int, int) | Get all cells which refer to the specific cell. |
 | [GetDependentsInCalculation](../../aspose.cells/cells/getdependentsincalculation/)(int, int, bool) | Gets all cells whose calculated result depends on specific cell. |
 | [GetEnumerator](../../aspose.cells/cells/getenumerator/)() | Gets the cells enumerator. |

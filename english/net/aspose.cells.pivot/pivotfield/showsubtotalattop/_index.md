@@ -13,6 +13,10 @@ when ShowInOutlineForm is true, then display subtotals at the top of the list of
 public bool ShowSubtotalAtTop { get; set; }
 ```
 
+### Remarks
+
+Only works when ShowInOutlineForm is true.
+
 ### See Also
 
 * class [PivotField](../)

@@ -1,13 +1,13 @@
 ---
 title: PptxSaveOptions.ExportViewType
 second_title: Aspose.Cells for .NET API Reference
-description: PptxSaveOptions property. Gets and sets the display type when exporting to Excel. The default exporting type is working as printing
+description: PptxSaveOptions property. Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing
 type: docs
 url: /net/aspose.cells/pptxsaveoptions/exportviewtype/
 ---
 ## PptxSaveOptions.ExportViewType property
 
-Gets and sets the display type when exporting to Excel. The default exporting type is working as printing.
+Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing.
 
 ```csharp
 public SlideViewType ExportViewType { get; set; }
