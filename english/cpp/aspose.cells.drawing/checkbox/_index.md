@@ -38,6 +38,7 @@ class CheckBox : public Aspose::Cells::Drawing::Shape
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetCheckedValue()](./getcheckedvalue/) | Gets or set checkbox' value. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
+| [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetFill()](../shape/getfill/) | Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
 | [GetFont()](../shape/getfont/) | Represents the font of shape. |
 | [GetFormatPicture()](../shape/getformatpicture/) | Gets and sets the options of the picture format. |
@@ -146,6 +147,7 @@ class CheckBox : public Aspose::Cells::Drawing::Shape
 | [SetAutoShapeType(AutoShapeType value)](../shape/setautoshapetype/) | Gets and sets the auto shape type. |
 | [SetBottom(int32_t value)](../shape/setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [SetCheckedValue(CheckValueType value)](./setcheckedvalue/) | Gets or set checkbox' value. |
+| [SetCreateId(const UUID\& value)](../shape/setcreateid/) | Gets and sets create id for this shape. |
 | [SetFont(const Aspose::Cells::Font\& value)](../shape/setfont/) | Represents the font of shape. |
 | [SetHasLine(bool value)](../shape/sethasline/) | Gets and sets the line border of the shape is visible. |
 | [SetHeight(int32_t value)](../shape/setheight/) | Represents the height of shape, in unit of pixel. |

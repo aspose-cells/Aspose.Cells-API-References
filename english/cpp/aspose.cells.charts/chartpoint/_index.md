@@ -4,7 +4,7 @@ linktitle: ChartPoint
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartPoint class. Represents a single point in a series in a chart in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.charts/chartpoint/
 ---
 ## ChartPoint class

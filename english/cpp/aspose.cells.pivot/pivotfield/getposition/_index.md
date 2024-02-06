@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::GetPosition method
 linktitle: GetPosition
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::GetPosition method. Represents the PivotField index in the PivotFields in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::GetPosition method. Represents the index of PivotField in the region in C++.'
 type: docs
 weight: 1700
 url: /cpp/aspose.cells.pivot/pivotfield/getposition/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/getposition/
 ## PivotField::GetPosition method
 
 
-Represents the [PivotField](../) index in the PivotFields.
+Represents the index of [PivotField](../) in the region.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotField::GetPosition()

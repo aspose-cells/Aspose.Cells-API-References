@@ -2,7 +2,7 @@
 title: Aspose::Cells::PptxSaveOptions::SetExportViewType method
 linktitle: SetExportViewType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::PptxSaveOptions::SetExportViewType method. Gets and sets the display type when exporting to Excel. The default exporting type is working as printing in C++.'
+description: 'Aspose::Cells::PptxSaveOptions::SetExportViewType method. Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells/pptxsaveoptions/setexportviewtype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/pptxsaveoptions/setexportviewtype/
 ## PptxSaveOptions::SetExportViewType method
 
 
-Gets and sets the display type when exporting to Excel. The default exporting type is working as printing.
+Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing.
 
 ```cpp
 void Aspose::Cells::PptxSaveOptions::SetExportViewType(SlideViewType value)

@@ -78,6 +78,7 @@ class Cells
 | [GetColumnWidth(int32_t column)](./getcolumnwidth/) | Gets the width(in unit of characters) of the specified column in normal view. |
 | [GetColumnWidthInch(int32_t column)](./getcolumnwidthinch/) | Gets the width of the specified column in normal view, in units of inches. |
 | [GetColumnWidthPixel(int32_t column)](./getcolumnwidthpixel/) | Gets the width of the specified column in normal view, in units of pixel. |
+| [GetColumnWidthPixel(int32_t column, bool original)](./getcolumnwidthpixel/) | Gets the width of the specified column in normal view, in units of pixel. |
 | [GetCount()](./getcount/) | Gets the total count of instantiated [Cell](../cell/) objects. |
 | [GetCountLarge()](./getcountlarge/) | Gets the total count of instantiated [Cell](../cell/) objects. |
 | [GetDependents(bool isAll, int32_t row, int32_t column)](./getdependents/) | Get all cells which refer to the specific cell. |

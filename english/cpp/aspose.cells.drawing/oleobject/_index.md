@@ -37,6 +37,7 @@ class OleObject : public Aspose::Cells::Drawing::Shape
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetClassIdentifier()](./getclassidentifier/) | Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
+| [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetDisplayAsIcon()](./getdisplayasicon/) | True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [GetFileFormatType()](./getfileformattype/) | Gets and sets the file type of the embedded ole object data. |
 | [GetFill()](../shape/getfill/) | Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
@@ -161,6 +162,7 @@ class OleObject : public Aspose::Cells::Drawing::Shape
 | [SetAutoUpdate(bool value)](./setautoupdate/) | Specifies whether the link to the [OleObject](./) is automatically updated or not. |
 | [SetBottom(int32_t value)](../shape/setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [SetClassIdentifier(const Vector \<uint8_t\>\& value)](./setclassidentifier/) | Gets and sets the class identifier of the embedded object. It means which application opens the embedded file. |
+| [SetCreateId(const UUID\& value)](../shape/setcreateid/) | Gets and sets create id for this shape. |
 | [SetDisplayAsIcon(bool value)](./setdisplayasicon/) | True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [SetEmbeddedObject(bool linkToFile, const Vector \<uint8_t\>\& objectData, const U16String\& sourceFileName, bool displayAsIcon, const U16String\& label)](./setembeddedobject/) | Sets embedded object data. |
 | [SetEmbeddedObject(bool linkToFile, const Vector \<uint8_t\>\& objectData, const char16_t* sourceFileName, bool displayAsIcon, const char16_t* label)](./setembeddedobject/) | Sets embedded object data. |

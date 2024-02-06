@@ -37,6 +37,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [GetBorderWeight()](./getborderweight/) | Gets or sets the weight of the border line of a picture in units of pt. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
+| [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetData()](./getdata/) | Gets the data of the picture. |
 | [GetDisplayAsIcon()](./getdisplayasicon/) | True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [GetFill()](../shape/getfill/) | Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
@@ -163,6 +164,7 @@ class Picture : public Aspose::Cells::Drawing::Shape
 | [SetBorderLineColor(const Aspose::Cells::Color\& value)](./setborderlinecolor/) | Represents the System.Drawing.Color of the border line of a picture. |
 | [SetBorderWeight(double value)](./setborderweight/) | Gets or sets the weight of the border line of a picture in units of pt. |
 | [SetBottom(int32_t value)](../shape/setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [SetCreateId(const UUID\& value)](../shape/setcreateid/) | Gets and sets create id for this shape. |
 | [SetData(const Vector \<uint8_t\>\& value)](./setdata/) | Gets the data of the picture. |
 | [SetDisplayAsIcon(bool value)](./setdisplayasicon/) | True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [SetFont(const Aspose::Cells::Font\& value)](../shape/setfont/) | Represents the font of shape. |

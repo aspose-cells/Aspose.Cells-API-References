@@ -34,6 +34,7 @@ class Spinner : public Aspose::Cells::Drawing::Shape
 | [GetAutoShapeType()](../shape/getautoshapetype/) | Gets and sets the auto shape type. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
+| [GetCreateId(UUID\& uuid)](../shape/getcreateid/) | Gets and sets create id for this shape. |
 | [GetCurrentValue()](./getcurrentvalue/) | Gets or sets the current value. |
 | [GetFill()](../shape/getfill/) | Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
 | [GetFont()](../shape/getfont/) | Represents the font of shape. |
@@ -145,6 +146,7 @@ class Spinner : public Aspose::Cells::Drawing::Shape
 | [SetAnchorType(ShapeAnchorType value)](../shape/setanchortype/) | Gets and set the shape anchor placeholder. |
 | [SetAutoShapeType(AutoShapeType value)](../shape/setautoshapetype/) | Gets and sets the auto shape type. |
 | [SetBottom(int32_t value)](../shape/setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [SetCreateId(const UUID\& value)](../shape/setcreateid/) | Gets and sets create id for this shape. |
 | [SetCurrentValue(int32_t value)](./setcurrentvalue/) | Gets or sets the current value. |
 | [SetFont(const Aspose::Cells::Font\& value)](../shape/setfont/) | Represents the font of shape. |
 | [SetHasLine(bool value)](../shape/sethasline/) | Gets and sets the line border of the shape is visible. |

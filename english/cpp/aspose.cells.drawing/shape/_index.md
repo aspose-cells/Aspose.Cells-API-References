@@ -34,6 +34,7 @@ class Shape
 | [GetAutoShapeType()](./getautoshapetype/) | Gets and sets the auto shape type. |
 | [GetBottom()](./getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetControlData()](./getcontroldata/) | Gets the data of control. |
+| [GetCreateId(UUID\& uuid)](./getcreateid/) | Gets and sets create id for this shape. |
 | [GetFill()](./getfill/) | Returns a [FillFormat](../fillformat/) object that contains fill formatting properties for the specified shape. |
 | [GetFont()](./getfont/) | Represents the font of shape. |
 | [GetFormatPicture()](./getformatpicture/) | Gets and sets the options of the picture format. |
@@ -138,6 +139,7 @@ class Shape
 | [SetAnchorType(ShapeAnchorType value)](./setanchortype/) | Gets and set the shape anchor placeholder. |
 | [SetAutoShapeType(AutoShapeType value)](./setautoshapetype/) | Gets and sets the auto shape type. |
 | [SetBottom(int32_t value)](./setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
+| [SetCreateId(const UUID\& value)](./setcreateid/) | Gets and sets create id for this shape. |
 | [SetFont(const Aspose::Cells::Font\& value)](./setfont/) | Represents the font of shape. |
 | [SetHasLine(bool value)](./sethasline/) | Gets and sets the line border of the shape is visible. |
 | [SetHeight(int32_t value)](./setheight/) | Represents the height of shape, in unit of pixel. |

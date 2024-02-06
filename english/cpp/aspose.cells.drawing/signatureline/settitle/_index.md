@@ -4,7 +4,7 @@ linktitle: SetTitle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureLine::SetTitle method. Gets and sets the title of singer in C++.'
 type: docs
-weight: 900
+weight: 1300
 url: /cpp/aspose.cells.drawing/signatureline/settitle/
 ---
 ## SignatureLine::SetTitle(const U16String\&) method

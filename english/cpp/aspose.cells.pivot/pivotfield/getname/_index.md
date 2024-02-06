@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::GetName method
 linktitle: GetName
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::GetName method. Represents the PivotField name in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::GetName method. Represents the name of PivotField in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.cells.pivot/pivotfield/getname/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/getname/
 ## PivotField::GetName method
 
 
-Represents the [PivotField](../) name.
+Represents the name of [PivotField](../).
 
 ```cpp
 U16String Aspose::Cells::Pivot::PivotField::GetName()

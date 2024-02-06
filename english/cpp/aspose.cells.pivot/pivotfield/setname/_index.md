@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::SetName method
 linktitle: SetName
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::SetName method. Represents the PivotField name in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::SetName method. Represents the name of PivotField in C++.'
 type: docs
 weight: 1900
 url: /cpp/aspose.cells.pivot/pivotfield/setname/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/setname/
 ## PivotField::SetName(const U16String\&) method
 
 
-Represents the [PivotField](../) name.
+Represents the name of [PivotField](../).
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::SetName(const U16String &value)
@@ -26,7 +26,7 @@ void Aspose::Cells::Pivot::PivotField::SetName(const U16String &value)
 ## PivotField::SetName(const char16_t*) method
 
 
-Represents the [PivotField](../) name.
+Represents the name of [PivotField](../).
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::SetName(const char16_t *value)

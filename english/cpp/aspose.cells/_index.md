@@ -289,6 +289,11 @@ url: /cpp/aspose.cells/
 | [ViewType](./viewtype/) | Represents the view type of the worksheet. |
 | [VisibilityType](./visibilitytype/) | Represents the states for sheet visibility. |
 | [WarningType](./warningtype/) | WaringType. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [UUID](./uuid/) | Guid struct. |
 ## Methods
 
 | Method | Description |

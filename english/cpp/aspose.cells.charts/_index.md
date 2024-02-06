@@ -18,6 +18,7 @@ url: /cpp/aspose.cells.charts/
 | [AxisBins](./axisbins/) | Represents axis bins. |
 | [Chart](./chart/) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](./chartarea/) | Encapsulates the object that represents the chart area in the worksheet. |
+| [ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating chart. |
 | [ChartCollection](./chartcollection/) | Encapsulates a collection of [Chart](./chart/) objects. |
 | [ChartDataTable](./chartdatatable/) | Represents a chart data table. |
 | [ChartFrame](./chartframe/) | Encapsulates the object that represents the frame object in a chart. |

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotField::GetSubtotals method
 linktitle: GetSubtotals
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::GetSubtotals method. Gets whether the specified field shows that subtotals in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::GetSubtotals method. Indicates whether showing specified subtotal in C++.'
 type: docs
 weight: 2300
 url: /cpp/aspose.cells.pivot/pivotfield/getsubtotals/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotfield/getsubtotals/
 ## PivotField::GetSubtotals method
 
 
-Gets whether the specified field shows that subtotals.
+Indicates whether showing specified subtotal.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GetSubtotals(PivotFieldSubtotalType subtotalType)
@@ -19,11 +19,11 @@ bool Aspose::Cells::Pivot::PivotField::GetSubtotals(PivotFieldSubtotalType subto
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | PivotFieldSubtotalType | subtotals type. |
+| subtotalType | PivotFieldSubtotalType | subtotal type. |
 
 ## ReturnValue
 
-whether the specified field shows that subtotals.
+Returns whether showing specified subtotal.
 
 ## See Also
 

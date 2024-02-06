@@ -22,7 +22,9 @@ class SignatureLine
 | --- | --- |
 | [GetAllowComments()](./getallowcomments/) | Indicates whether comments could be attached. |
 | [GetEmail()](./getemail/) | Gets and sets the email of singer. |
+| [GetId(UUID\& uuid)](./getid/) | Gets or sets identifier for this signature line. |
 | [GetInstructions()](./getinstructions/) | Gets and sets the text shown to user at signing time. |
+| [GetProviderId(UUID\& uuid)](./getproviderid/) | Gets and sets the id of signature provider. |
 | [GetShowSignedDate()](./getshowsigneddate/) | Indicates whether show signed date. |
 | [GetSigner()](./getsigner/) | Gets and sets the signer. |
 | [GetTitle()](./gettitle/) | Gets and sets the title of singer. |
@@ -33,9 +35,11 @@ class SignatureLine
 | [SetAllowComments(bool value)](./setallowcomments/) | Indicates whether comments could be attached. |
 | [SetEmail(const U16String\& value)](./setemail/) | Gets and sets the email of singer. |
 | [SetEmail(const char16_t* value)](./setemail/) | Gets and sets the email of singer. |
+| [SetId(const UUID\& value)](./setid/) | Gets or sets identifier for this signature line. |
 | [SetInstructions(const U16String\& value)](./setinstructions/) | Gets and sets the text shown to user at signing time. |
 | [SetInstructions(const char16_t* value)](./setinstructions/) | Gets and sets the text shown to user at signing time. |
 | [SetIsLine(bool value)](./setisline/) | Indicates whether it is a signature line. |
+| [SetProviderId(const UUID\& value)](./setproviderid/) | Gets and sets the id of signature provider. |
 | [SetShowSignedDate(bool value)](./setshowsigneddate/) | Indicates whether show signed date. |
 | [SetSigner(const U16String\& value)](./setsigner/) | Gets and sets the signer. |
 | [SetSigner(const char16_t* value)](./setsigner/) | Gets and sets the signer. |

@@ -21,6 +21,7 @@ class RevisionCustomView : public Aspose::Cells::Revisions::Revision
 | Method | Description |
 | --- | --- |
 | [GetActionType()](./getactiontype/) | Gets the type of action. |
+| [GetGuid(UUID\& uuid)](./getguid/) | Gets the globally unique identifier of the custom view. |
 | [GetId()](../revision/getid/) | Gets the number of this revision. |
 | [GetType()](./gettype/) | Gets the type of revision. |
 | [GetWorksheet()](../revision/getworksheet/) | Gets the worksheet. |

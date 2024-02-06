@@ -31,10 +31,10 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetDefaultFont()](../paginatedsaveoptions/getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [GetDrawObjectEventHandler()](../paginatedsaveoptions/getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
 | [GetEmfRenderSetting()](../paginatedsaveoptions/getemfrendersetting/) | Setting for rendering Emf metafile. |
-| [GetExportViewType()](./getexportviewtype/) | Gets and sets the display type when exporting to Excel. The default exporting type is working as printing. |
+| [GetExportViewType()](./getexportviewtype/) | Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing. |
 | [GetGridlineType()](../paginatedsaveoptions/getgridlinetype/) | Gets or sets gridline type. |
 | [GetIgnoreError()](../paginatedsaveoptions/getignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
-| [GetIgnoreHiddenRows()](./getignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
+| [GetIgnoreHiddenRows()](./getignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to PowerPoint. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetOnePagePerSheet()](../paginatedsaveoptions/getonepagepersheet/) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |
 | [GetOutputBlankPageWhenNothingToPrint()](../paginatedsaveoptions/getoutputblankpagewhennothingtoprint/) | Indicates whether to output a blank page when there is nothing to print. |
@@ -80,10 +80,10 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetDefaultFont(const char16_t* value)](../paginatedsaveoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [SetDrawObjectEventHandler(DrawObjectEventHandler* value)](../paginatedsaveoptions/setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
 | [SetEmfRenderSetting(EmfRenderSetting value)](../paginatedsaveoptions/setemfrendersetting/) | Setting for rendering Emf metafile. |
-| [SetExportViewType(SlideViewType value)](./setexportviewtype/) | Gets and sets the display type when exporting to Excel. The default exporting type is working as printing. |
+| [SetExportViewType(SlideViewType value)](./setexportviewtype/) | Gets and sets the display type when exporting to PowerPoint. The default exporting type is working as printing. |
 | [SetGridlineType(GridlineType value)](../paginatedsaveoptions/setgridlinetype/) | Gets or sets gridline type. |
 | [SetIgnoreError(bool value)](../paginatedsaveoptions/setignoreerror/) | Indicates if you need to hide the error while rendering. The error can be error in shape, image, chart rendering, etc. |
-| [SetIgnoreHiddenRows(bool value)](./setignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
+| [SetIgnoreHiddenRows(bool value)](./setignorehiddenrows/) | Inidicates whether ignoring hidden rows when converting Excel to PowerPoint. |
 | [SetIsFontSubstitutionCharGranularity(bool value)](../paginatedsaveoptions/setisfontsubstitutionchargranularity/) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetOnePagePerSheet(bool value)](../paginatedsaveoptions/setonepagepersheet/) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. The paper size of pagesetup will be invalid, and the other settings of pagesetup will still take effect. |

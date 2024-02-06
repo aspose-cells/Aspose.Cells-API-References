@@ -91,6 +91,7 @@ enum class FileFormatType
 | MicrosoftCabinet | 773 | Rrepesents Microsoft Cabinet file. |
 | Rtf | 774 |  |
 | Epub | 775 | EPUB. |
+| Oxps | 776 | OXPS (Open XML Paper Specification) format. |
 | GZip | 35615 | Rrepesents GZip file. |
 
 ## See Also

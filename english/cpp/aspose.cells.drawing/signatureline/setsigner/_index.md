@@ -4,7 +4,7 @@ linktitle: SetSigner
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureLine::SetSigner method. Gets and sets the signer in C++.'
 type: docs
-weight: 700
+weight: 1100
 url: /cpp/aspose.cells.drawing/signatureline/setsigner/
 ---
 ## SignatureLine::SetSigner(const U16String\&) method

@@ -23,7 +23,7 @@ class CalculationOptions
 | [CalculationOptions()](./calculationoptions/) | Default constructor. |
 | [CalculationOptions(CalculationOptions_Impl* impl)](./calculationoptions/) | Constructs from an implementation object. |
 | [CalculationOptions(const CalculationOptions\& src)](./calculationoptions/) | Copy constructor. |
-| [GetCalcStackSize()](./getcalcstacksize/) | Specifies the stack size for calculating cells recursively. |
+| [GetCalcStackSize()](./getcalcstacksize/) | The stack size for calculating cells recursively. Default value is 200. |
 | [GetCharacterEncoding()](./getcharacterencoding/) | Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result. |
 | [GetCustomEngine()](./getcustomengine/) | The custom formula calculation engine to extend the default calculation engine of [Aspose.Cells](../). |
 | [GetIgnoreError()](./getignoreerror/) | Indicates whether errors encountered while calculating formulas should be ignored. The error may be unsupported function, external links, etc. The default value is true. |
@@ -33,7 +33,7 @@ class CalculationOptions
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CalculationOptions\& src)](./operator_asm/) | operator= |
-| [SetCalcStackSize(int32_t value)](./setcalcstacksize/) | Specifies the stack size for calculating cells recursively. |
+| [SetCalcStackSize(int32_t value)](./setcalcstacksize/) | The stack size for calculating cells recursively. Default value is 200. |
 | [SetCharacterEncoding(EncodingType value)](./setcharacterencoding/) | Specifies the encoding used for encoding/decoding characters when calculating formulas. For functions such as CHAR, CODE, the calculated result depends on the region settings and default charset of the environment. With this property user can specify the proper encoding used for those function to get the expected result. |
 | [SetCustomEngine(AbstractCalculationEngine* value)](./setcustomengine/) | The custom formula calculation engine to extend the default calculation engine of [Aspose.Cells](../). |
 | [SetIgnoreError(bool value)](./setignoreerror/) | Indicates whether errors encountered while calculating formulas should be ignored. The error may be unsupported function, external links, etc. The default value is true. |

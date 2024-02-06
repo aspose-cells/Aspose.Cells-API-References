@@ -21,6 +21,7 @@ class Chart
 | Method | Description |
 | --- | --- |
 | [Calculate()](./calculate/) | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [Calculate(const ChartCalculateOptions\& calculateOptions)](./calculate/) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with [Chart](./) Calculate Options. |
 | [ChangeTemplate(const Vector \<uint8_t\>\& data)](./changetemplate/) | Change chart type with preset template. |
 | [Chart(Chart_Impl* impl)](./chart/) | Constructs from an implementation object. |
 | [Chart(const Chart\& src)](./chart/) | Copy constructor. |

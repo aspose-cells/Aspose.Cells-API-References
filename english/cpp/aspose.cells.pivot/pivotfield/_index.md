@@ -45,18 +45,18 @@ class PivotField
 | [GetInsertBlankRow()](./getinsertblankrow/) | Indicates whether inserting blank line after each item. |
 | [GetItemCount()](./getitemcount/) | Gets the base item count of this pivot field. |
 | [GetItems()](./getitems/) | Get all base items;. |
-| [GetName()](./getname/) | Represents the [PivotField](./) name. |
+| [GetName()](./getname/) | Represents the name of [PivotField](./). |
 | [GetNonAutoSortDefault()](./getnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [GetNumber()](./getnumber/) | Represents the built-in display format of numbers and dates. |
 | [GetOriginalItems()](./getoriginalitems/) | Get the original base items;. |
 | [GetPivotFilterByType(PivotFilterType type)](./getpivotfilterbytype/) | Gets the pivot filter of the pivot field by type. |
 | [GetPivotItems()](./getpivotitems/) | Gets the pivot items of the pivot field. |
-| [GetPosition()](./getposition/) | Represents the [PivotField](./) index in the PivotFields. |
+| [GetPosition()](./getposition/) | Represents the index of [PivotField](./) in the region. |
 | [GetShowAllItems()](./getshowallitems/) | Indicates whether all items displays in the [PivotTable](../pivottable/) report, even if they don't contain summary data. show items with no data The default value is false. |
 | [GetShowCompact()](./getshowcompact/) | Indicates whether display labels from the next field in the same column on the [Pivot](../) Table view. |
 | [GetShowInOutlineForm()](./getshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
 | [GetShowSubtotalAtTop()](./getshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
-| [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Gets whether the specified field shows that subtotals. |
+| [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether showing specified subtotal. |
 | [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
 | [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
 | [GroupBy(double start, double end, double interval, bool newField)](./groupby/) | Group the file by number. |
@@ -111,8 +111,8 @@ class PivotField
 | [SetIsInsertPageBreaksBetweenItems(bool value)](./setisinsertpagebreaksbetweenitems/) | indicates whether the field can insert page breaks between items insert page break after each item The default value is false. |
 | [SetIsMultipleItemSelectionAllowed(bool value)](./setismultipleitemselectionallowed/) | indicates whether the field can have multiple items selected in the page field The default value is false. |
 | [SetIsRepeatItemLabels(bool value)](./setisrepeatitemlabels/) | indicates whether the field can repeat items labels The default value is false. |
-| [SetName(const U16String\& value)](./setname/) | Represents the [PivotField](./) name. |
-| [SetName(const char16_t* value)](./setname/) | Represents the [PivotField](./) name. |
+| [SetName(const U16String\& value)](./setname/) | Represents the name of [PivotField](./). |
+| [SetName(const char16_t* value)](./setname/) | Represents the name of [PivotField](./). |
 | [SetNonAutoSortDefault(bool value)](./setnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [SetNumber(int32_t value)](./setnumber/) | Represents the built-in display format of numbers and dates. |
 | [SetNumberFormat(const U16String\& value)](./setnumberformat/) | Represents the custom display format of numbers and dates. |

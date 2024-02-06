@@ -16,6 +16,10 @@ when ShowInOutlineForm is true, then display subtotals at the top of the list of
 bool Aspose::Cells::Pivot::PivotField::GetShowSubtotalAtTop()
 ```
 
+## Remarks
+
+
+Only works when ShowInOutlineForm is true. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
