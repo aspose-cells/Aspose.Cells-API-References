@@ -23,7 +23,7 @@ Represents options for calculation.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCalcStackSize()](#getCalcStackSize--) | Specifies the stack size for calculating cells recursively. |
+| [getCalcStackSize()](#getCalcStackSize--) | The stack size for calculating cells recursively. |
 | [getCalculationMonitor()](#getCalculationMonitor--) | The monitor for user to track the progress of formula calculation. |
 | [getCharacterEncoding()](#getCharacterEncoding--) | Specifies the encoding used for encoding/decoding characters when calculating formulas. |
 | [getClass()](#getClass--) |  |
@@ -36,7 +36,7 @@ Represents options for calculation.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCalcStackSize(int value)](#setCalcStackSize-int-) | Specifies the stack size for calculating cells recursively. |
+| [setCalcStackSize(int value)](#setCalcStackSize-int-) | The stack size for calculating cells recursively. |
 | [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | The monitor for user to track the progress of formula calculation. |
 | [setCharacterEncoding(Encoding value)](#setCharacterEncoding-com.aspose.cells.Encoding-) | Specifies the encoding used for encoding/decoding characters when calculating formulas. |
 | [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
@@ -76,11 +76,11 @@ public int getCalcStackSize()
 ```
 
 
-Specifies the stack size for calculating cells recursively.
+The stack size for calculating cells recursively. Default value is 200.
 
 **Remarks**
 
-When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. Too small value may cause performance degradation for the formula calculation.
+When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. However, too small value may cause performance degradation for the formula calculation and value less than 2 will make it impossible to calculate formula which depends on another one. So if the specified value is less than 2, it will be reset to 2.
 
 **Returns:**
 int
@@ -216,11 +216,11 @@ public void setCalcStackSize(int value)
 ```
 
 
-Specifies the stack size for calculating cells recursively.
+The stack size for calculating cells recursively. Default value is 200.
 
 **Remarks**
 
-When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. Too small value may cause performance degradation for the formula calculation.
+When there are large amount of cells need to be calculated recursively in the dependency tree, StackOverflowException may be caused in the calculation process. If so, user should specify smaller value for this property. For such situation, user should determine the proper value for this property according to the actual formulas and data. However, too small value may cause performance degradation for the formula calculation and value less than 2 will make it impossible to calculate formula which depends on another one. So if the specified value is less than 2, it will be reset to 2.
 
 **Parameters:**
 | Parameter | Type | Description |

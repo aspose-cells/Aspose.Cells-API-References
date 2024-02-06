@@ -58,6 +58,7 @@ Represents the file format types.
 | [OTP](#OTP) | Represents a OTP file. |
 | [OTS](#OTS) | Represents an ots file. |
 | [OTT](#OTT) | Represents an OTT file. |
+| [OXPS](#OXPS) | OXPS (Open XML Paper Specification) format. |
 | [PDF](#PDF) | PDF (Adobe Portable Document) format. |
 | [PNG](#PNG) | Portable Network Graphics. |
 | [POTM](#POTM) | Represents a Potm file. |
@@ -517,6 +518,14 @@ Represents an OTT file.
 **Remarks**
 
 The file format is not supported Only for detecting file type.
+
+### OXPS {#OXPS}
+```
+public static final int OXPS
+```
+
+
+OXPS (Open XML Paper Specification) format.
 
 ### PDF {#PDF}
 ```

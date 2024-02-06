@@ -36,10 +36,10 @@ Represents the pptx save options.
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
-| [getExportViewType()](#getExportViewType--) | Gets the display type when exporting to Excel. |
+| [getExportViewType()](#getExportViewType--) | Gets the display type when exporting to PowerPoint. |
 | [getGridlineType()](#getGridlineType--) | Gets gridline type. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates if you need to hide the error while rendering. |
-| [getIgnoreHiddenRows()](#getIgnoreHiddenRows--) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
+| [getIgnoreHiddenRows()](#getIgnoreHiddenRows--) | Inidicates whether ignoring hidden rows when converting Excel to PowerPoint. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getOnePagePerSheet()](#getOnePagePerSheet--) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [getOutputBlankPageWhenNothingToPrint()](#getOutputBlankPageWhenNothingToPrint--) | Indicates whether to output a blank page when there is nothing to print. |
@@ -71,11 +71,11 @@ Represents the pptx save options.
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
-| [setExportViewType(int value)](#setExportViewType-int-) | Sets the display type when exporting to Excel. |
+| [setExportViewType(int value)](#setExportViewType-int-) | Sets the display type when exporting to PowerPoint. |
 | [setFontSubstitutionCharGranularity(boolean value)](#setFontSubstitutionCharGranularity-boolean-) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [setGridlineType(int value)](#setGridlineType-int-) | Sets gridline type. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates if you need to hide the error while rendering. |
-| [setIgnoreHiddenRows(boolean value)](#setIgnoreHiddenRows-boolean-) | Inidicates whether ignoring hidden rows when converting Excel to powerpoint. |
+| [setIgnoreHiddenRows(boolean value)](#setIgnoreHiddenRows-boolean-) | Inidicates whether ignoring hidden rows when converting Excel to PowerPoint. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setOnePagePerSheet(boolean value)](#setOnePagePerSheet-boolean-) | If OnePagePerSheet is true , all content of one sheet will output to only one page in result. |
 | [setOutputBlankPageWhenNothingToPrint(boolean value)](#setOutputBlankPageWhenNothingToPrint-boolean-) | Indicates whether to output a blank page when there is nothing to print. |
@@ -283,7 +283,7 @@ public int getExportViewType()
 ```
 
 
-Gets the display type when exporting to Excel. The default exporting type is working as printing.
+Gets the display type when exporting to PowerPoint. The default exporting type is working as printing.
 
 See [SlideViewType](../../com.aspose.cells/slideviewtype).
 
@@ -321,7 +321,7 @@ public boolean getIgnoreHiddenRows()
 ```
 
 
-Inidicates whether ignoring hidden rows when converting Excel to powerpoint.
+Inidicates whether ignoring hidden rows when converting Excel to PowerPoint.
 
 **Returns:**
 boolean
@@ -810,7 +810,7 @@ public void setExportViewType(int value)
 ```
 
 
-Sets the display type when exporting to Excel. The default exporting type is working as printing.
+Sets the display type when exporting to PowerPoint. The default exporting type is working as printing.
 
 See [SlideViewType](../../com.aspose.cells/slideviewtype).
 
@@ -874,7 +874,7 @@ public void setIgnoreHiddenRows(boolean value)
 ```
 
 
-Inidicates whether ignoring hidden rows when converting Excel to powerpoint.
+Inidicates whether ignoring hidden rows when converting Excel to PowerPoint.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -83,6 +83,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CharacterBulletValue](../com.aspose.cells/characterbulletvalue) | Represents the character bullet. |
 | [Chart](../com.aspose.cells/chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](../com.aspose.cells/chartarea) | Encapsulates the object that represents the chart area in the worksheet. |
+| [ChartCalculateOptions](../com.aspose.cells/chartcalculateoptions) | Represents the options for calculating chart. |
 | [ChartCollection](../com.aspose.cells/chartcollection) | Encapsulates a collection of [Chart](../com.aspose.cells/chart) objects. |
 | [ChartDataTable](../com.aspose.cells/chartdatatable) | Represents a chart data table. |
 | [ChartFrame](../com.aspose.cells/chartframe) | Encapsulates the object that represents the frame object in a chart. |

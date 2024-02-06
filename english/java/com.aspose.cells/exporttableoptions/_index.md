@@ -27,6 +27,7 @@ If there are some special requirements about the exporting, such as ignoring err
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAllowDBNull()](#getAllowDBNull--) | This value indicates whether DBNulls are allowed in this table. |
 | [getCheckMixedValueType()](#getCheckMixedValueType--) | False, Aspose.Cells will set the DataColumn's type by the value type of the first row for performance. |
 | [getClass()](#getClass--) |  |
 | [getExportAsHtmlString()](#getExportAsHtmlString--) | Exports the html string value of the cells to the DataTable. |
@@ -44,6 +45,7 @@ If there are some special requirements about the exporting, such as ignoring err
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [preprocessExportedValue(int cellRow, int cellColumn, CellValue value)](#preprocessExportedValue-int-int-com.aspose.cells.CellValue-) | Preprocess the value of current cell to be exported. |
+| [setAllowDBNull(boolean value)](#setAllowDBNull-boolean-) | This value indicates whether DBNulls are allowed in this table. |
 | [setCheckMixedValueType(boolean value)](#setCheckMixedValueType-boolean-) | False, Aspose.Cells will set the DataColumn's type by the value type of the first row for performance. |
 | [setExportAsHtmlString(boolean value)](#setExportAsHtmlString-boolean-) | Exports the html string value of the cells to the DataTable. |
 | [setExportAsString(boolean value)](#setExportAsString-boolean-) | Exports the string value of the cells to the DataTable. |
@@ -78,6 +80,16 @@ public boolean equals(Object arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAllowDBNull() {#getAllowDBNull--}
+```
+public boolean getAllowDBNull()
+```
+
+
+This value indicates whether DBNulls are allowed in this table.
 
 **Returns:**
 boolean
@@ -262,6 +274,19 @@ The row and column index is cell's absolute index in the worksheet, not index in
 
 **Returns:**
 boolean - Whether current cell has been replaced with different type and/or value.
+### setAllowDBNull(boolean value) {#setAllowDBNull-boolean-}
+```
+public void setAllowDBNull(boolean value)
+```
+
+
+This value indicates whether DBNulls are allowed in this table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setCheckMixedValueType(boolean value) {#setCheckMixedValueType-boolean-}
 ```
 public void setCheckMixedValueType(boolean value)

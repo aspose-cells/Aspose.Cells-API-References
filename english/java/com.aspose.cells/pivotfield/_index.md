@@ -100,7 +100,7 @@ Represents a field in a PivotTable report.
 | [getInsertBlankRow()](#getInsertBlankRow--) | Indicates whether inserting blank line after each item. |
 | [getItemCount()](#getItemCount--) | Gets the base item count of this pivot field. |
 | [getItems()](#getItems--) | Get all base items; |
-| [getName()](#getName--) | Represents the PivotField name. |
+| [getName()](#getName--) | Represents the name of PivotField. |
 | [getNonAutoSortDefault()](#getNonAutoSortDefault--) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [getNumber()](#getNumber--) | Represents the built-in display format of numbers and dates. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the custom display format of numbers and dates. |
@@ -108,13 +108,13 @@ Represents a field in a PivotTable report.
 | [getPivotFilterByType(int type)](#getPivotFilterByType-int-) | Gets the pivot filter of the pivot field by type |
 | [getPivotFilters()](#getPivotFilters--) | Gets the pivot filters of the pivot field |
 | [getPivotItems()](#getPivotItems--) | Gets the pivot items of the pivot field |
-| [getPosition()](#getPosition--) | Represents the PivotField index in the PivotFields. |
+| [getPosition()](#getPosition--) | Represents the index of [PivotField](../../com.aspose.cells/pivotfield) in the region. |
 | [getRange()](#getRange--) | Gets the group range of the pivot field |
 | [getShowAllItems()](#getShowAllItems--) | Indicates whether all items displays in the PivotTable report, even if they don't contain summary data. |
 | [getShowCompact()](#getShowCompact--) | Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether layout this field in outline form on the Pivot Table view |
 | [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
-| [getSubtotals(int subtotalType)](#getSubtotals-int-) | Gets whether the specified field shows that subtotals. |
+| [getSubtotals(int subtotalType)](#getSubtotals-int-) | Indicates whether showing specified subtotal. |
 | [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
 | [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
 | [groupBy(double interval, boolean newField)](#groupBy-double-boolean-) | Automatically group the field with internal |
@@ -164,7 +164,7 @@ Represents a field in a PivotTable report.
 | [setInsertBlankRow(boolean value)](#setInsertBlankRow-boolean-) | Indicates whether inserting blank line after each item. |
 | [setInsertPageBreaksBetweenItems(boolean value)](#setInsertPageBreaksBetweenItems-boolean-) | indicates whether the field can insert page breaks between items insert page break after each item The default value is false. |
 | [setMultipleItemSelectionAllowed(boolean value)](#setMultipleItemSelectionAllowed-boolean-) | indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [setName(String value)](#setName-java.lang.String-) | Represents the PivotField name. |
+| [setName(String value)](#setName-java.lang.String-) | Represents the name of PivotField. |
 | [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [setNumber(int value)](#setNumber-int-) | Represents the built-in display format of numbers and dates. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the custom display format of numbers and dates. |
@@ -458,7 +458,7 @@ public String getName()
 ```
 
 
-Represents the PivotField name.
+Represents the name of PivotField.
 
 **Returns:**
 java.lang.String
@@ -547,7 +547,7 @@ public int getPosition()
 ```
 
 
-Represents the PivotField index in the PivotFields.
+Represents the index of [PivotField](../../com.aspose.cells/pivotfield) in the region.
 
 **Returns:**
 int
@@ -603,6 +603,10 @@ public boolean getShowSubtotalAtTop()
 
 when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
 
+**Remarks**
+
+Only works when ShowInOutlineForm is true.
+
 **Returns:**
 boolean
 ### getSubtotals(int subtotalType) {#getSubtotals-int-}
@@ -611,15 +615,15 @@ public boolean getSubtotals(int subtotalType)
 ```
 
 
-Gets whether the specified field shows that subtotals.
+Indicates whether showing specified subtotal.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| subtotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). subtotals type. |
+| subtotalType | int | [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype). subtotal type. |
 
 **Returns:**
-boolean - whether the specified field shows that subtotals.
+boolean - Returns whether showing specified subtotal.
 ### groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField) {#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-}
 ```
 public void groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)
@@ -1237,7 +1241,7 @@ public void setName(String value)
 ```
 
 
-Represents the PivotField name.
+Represents the name of PivotField.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1342,6 +1346,10 @@ public void setShowSubtotalAtTop(boolean value)
 
 
 when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom
+
+**Remarks**
+
+Only works when ShowInOutlineForm is true.
 
 **Parameters:**
 | Parameter | Type | Description |

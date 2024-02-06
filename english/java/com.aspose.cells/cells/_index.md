@@ -112,6 +112,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width(in unit of characters) of the specified column in normal view |
 | [getColumnWidthInch(int column)](#getColumnWidthInch-int-) | Gets the width of the specified column in normal view, in units of inches. |
 | [getColumnWidthPixel(int column)](#getColumnWidthPixel-int-) | Gets the width of the specified column in normal view, in units of pixel. |
+| [getColumnWidthPixel(int column, boolean original)](#getColumnWidthPixel-int-boolean-) | Gets the width of the specified column in normal view, in units of pixel. |
 | [getColumns()](#getColumns--) | Gets the collection of [Column](../../com.aspose.cells/column) objects that represents the individual columns in this worksheet. |
 | [getCount()](#getCount--) | Gets the total count of instantiated Cell objects. |
 | [getCountLarge()](#getCountLarge--) | Gets the total count of instantiated Cell objects. |
@@ -1221,6 +1222,22 @@ Gets the width of the specified column in normal view, in units of pixel.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | int | Column index |
+
+**Returns:**
+int - Width of column in normal view.
+### getColumnWidthPixel(int column, boolean original) {#getColumnWidthPixel-int-boolean-}
+```
+public int getColumnWidthPixel(int column, boolean original)
+```
+
+
+Gets the width of the specified column in normal view, in units of pixel.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | int | Column index |
+| original | boolean | Indicates whether returning original width even when the column is hidden |
 
 **Returns:**
 int - Width of column in normal view.

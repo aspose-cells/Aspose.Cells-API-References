@@ -43,6 +43,7 @@ The following codes show how to create a chart with .Net codes.
 | Method | Description |
 | --- | --- |
 | [calculate()](#calculate--) | Calculates the custom position of plot area, axes if the position of them are auto assigned. |
+| [calculate(ChartCalculateOptions calculateOptions)](#calculate-com.aspose.cells.ChartCalculateOptions-) | Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options. |
 | [changeTemplate(byte[] data)](#changeTemplate-byte---) | Change chart type with preset template. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getActualChartSize()](#getActualChartSize--) | Gets actual size of chart in unit of pixels. |
@@ -159,6 +160,19 @@ public void calculate()
 
 
 Calculates the custom position of plot area, axes if the position of them are auto assigned.
+
+### calculate(ChartCalculateOptions calculateOptions) {#calculate-com.aspose.cells.ChartCalculateOptions-}
+```
+public void calculate(ChartCalculateOptions calculateOptions)
+```
+
+
+Calculates the custom position of plot area, axes if the position of them are auto assigned, with Chart Calculate Options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| calculateOptions | [ChartCalculateOptions](../../com.aspose.cells/chartcalculateoptions) |  |
 
 ### changeTemplate(byte[] data) {#changeTemplate-byte---}
 ```
