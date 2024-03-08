@@ -17,7 +17,7 @@ public class MultipleFilterCollection : CollectionBase
 
 | Name | Description |
 | --- | --- |
-| [MultipleFilterCollection](multiplefiltercollection/)() | The default constructor. |
+| [MultipleFilterCollection](multiplefiltercollection/)() | Constructs one new instance. |
 
 ## Properties
 

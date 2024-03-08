@@ -54,7 +54,7 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Hyperlink) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Hyperlink, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Hyperlink, int, int) |  |
-| [RemoveAt](../../aspose.cells/hyperlinkcollection/removeat/#removeat)(int) | Remove the hyperlink at the specified index. (2 methods) |
+| [RemoveAt](../../aspose.cells/hyperlinkcollection/removeat/#removeat)(int) | Remove the hyperlink at the specified index in this collection. (2 methods) |
 
 ### Examples
 

@@ -1,13 +1,13 @@
 ---
 title: RowCollection.RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: RowCollection method. Remove the row at the specified index
+description: RowCollection method. Remove the row item at the specified indexposition in this collection
 type: docs
 url: /net/aspose.cells/rowcollection/removeat/
 ---
 ## RowCollection.RemoveAt method
 
-Remove the row at the specified index
+Remove the row item at the specified index(position) in this collection.
 
 ```csharp
 public void RemoveAt(int index)
@@ -15,7 +15,7 @@ public void RemoveAt(int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | zero-based row index |
+| index | Int32 | zero-based index(position, not [`Index`](../../row/index/)) of the existing row item in this collection. |
 
 ### See Also
 

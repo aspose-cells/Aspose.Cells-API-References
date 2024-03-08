@@ -96,35 +96,6 @@ The formula will be calculated just like it has been set to the specified base c
 
 ---
 
-## CalculateFormula(bool, bool, ICustomFunction) {#calculateformula_4}
-
-Calculates all formulas in this worksheet.
-
-```csharp
-[Obsolete("Use CalculateFormula(CalculationOptions, bool) method instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
-public void CalculateFormula(bool recursive, bool ignoreError, ICustomFunction customFunction)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| recursive | Boolean | True means if the worksheet' cells depend on the cells of other worksheets, the dependent cells in other worksheets will be calculated too. False means all the formulas in the worksheet have been calculated and the values are right. |
-| ignoreError | Boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
-| customFunction | ICustomFunction | The custom formula calculation functions to extend the calculation engine. |
-
-### Remarks
-
-NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions, bool) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-### See Also
-
-* interface [ICustomFunction](../../icustomfunction/)
-* class [Worksheet](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
 ## CalculateFormula(CalculationOptions, bool) {#calculateformula_3}
 
 Calculates all formulas in this worksheet.

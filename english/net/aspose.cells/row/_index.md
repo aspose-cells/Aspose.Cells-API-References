@@ -25,12 +25,11 @@ public class Row : IEnumerable
 | [Index](../../aspose.cells/row/index/) { get; } | Gets the index of this row. |
 | [IsBlank](../../aspose.cells/row/isblank/) { get; } | Indicates whether the row contains any data |
 | [IsCollapsed](../../aspose.cells/row/iscollapsed/) { get; set; } | whether the row is collapsed |
-| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | Indicates that row height and default font height matches. |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
 | [IsHidden](../../aspose.cells/row/ishidden/) { get; set; } | Indicates whether the row is hidden. |
 | [Item](../../aspose.cells/row/item/) { get; } | Gets the cell. |
 | [LastCell](../../aspose.cells/row/lastcell/) { get; } | Gets the last cell object in the row. |
 | [LastDataCell](../../aspose.cells/row/lastdatacell/) { get; } | Gets the last non-blank cell in the row. |
-| [Style](../../aspose.cells/row/style/) { get; } | (**Obsolete.**) Represents the style of this row. |
 
 ## Methods
 
@@ -40,7 +39,7 @@ public class Row : IEnumerable
 | [CopySettings](../../aspose.cells/row/copysettings/)(Row, bool) | Copy settings of row, such as style, height, visibility, ...etc. |
 | override [Equals](../../aspose.cells/row/equals/#equals_1)(object) | Checks whether this object refers to the same row with another. |
 | [Equals](../../aspose.cells/row/equals/#equals)(Row) | Checks whether this object refers to the same row with another row object. |
-| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | (**Obsolete.**) Get the cell by specific index in the list. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | Get the cell by specific index in the cells collection of this row. |
 | [GetCellOrNull](../../aspose.cells/row/getcellornull/)(int) | Gets the cell or null in the specific index. |
 | [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator)() | Gets the cells enumerator |
 | [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator_1)(bool, bool) | Gets an enumerator that iterates cells through this row. |

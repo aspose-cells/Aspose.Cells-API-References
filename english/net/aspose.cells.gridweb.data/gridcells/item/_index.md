@@ -1,40 +1,11 @@
 ---
 title: GridCells.Item
 second_title: Aspose.Cells for .NET API Reference
-description: GridCells property. Gets GridCell item within the worksheet
+description: GridCells property. Gets the GridCell element at the specified cell row index and column index
 type: docs
 url: /net/aspose.cells.gridweb.data/gridcells/item/
 ---
-## GridCells indexer (1 of 3)
-
-Gets [`GridCell`](../../gridcell/) item within the worksheet
-
-```csharp
-public GridCell this[int index] { get; }
-```
-
-| Parameter | Description |
-| --- | --- |
-| index | The zero based index of the element. |
-
-### Property Value
-
-The element at the specified index.
-
-### Remarks
-
-This is the indexer for the Cells class. Gets the cell element at the specified index.
-
-### See Also
-
-* class [GridCell](../../gridcell/)
-* class [GridCells](../)
-* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
-* assembly [Aspose.Cells.GridWeb](../../../)
-
----
-
-## GridCells indexer (2 of 3)
+## GridCells indexer (1 of 2)
 
 Gets the [`GridCell`](../../gridcell/) element at the specified cell row index and column index.
 
@@ -76,7 +47,7 @@ Dim cell As Cell =  cells(0,0)
 
 ---
 
-## GridCells indexer (3 of 3)
+## GridCells indexer (2 of 2)
 
 Gets the [`GridCell`](../../gridcell/) element at the specified cell name.
 

@@ -1,13 +1,13 @@
 ---
 title: Class TickLabelItem
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Charts.TickLabelItem class. Include information of a Ticklabel item
+description: Aspose.Cells.Charts.TickLabelItem class. Represents a tick label in the chart
 type: docs
 url: /net/aspose.cells.charts/ticklabelitem/
 ---
 ## TickLabelItem class
 
-Include information of a Ticklabel item
+Represents a tick label in the chart.
 
 ```csharp
 public class TickLabelItem

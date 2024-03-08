@@ -17,7 +17,7 @@ public class WebCells
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.cells.gridweb.data/webcells/count/) { get; } | Gets the number of cells. |
-| [Item](../../aspose.cells.gridweb.data/webcells/item/) { get; } | Gets Cell item within the worksheet (3 indexers) |
+| [Item](../../aspose.cells.gridweb.data/webcells/item/) { get; } | Gets the Cell element at the specified cell row index and column index. (2 indexers) |
 | [MaxColumn](../../aspose.cells.gridweb.data/webcells/maxcolumn/) { get; } |  |
 | [MaxRow](../../aspose.cells.gridweb.data/webcells/maxrow/) { get; } |  |
 | [MergedCells](../../aspose.cells.gridweb.data/webcells/mergedcells/) { get; } | Gets the collection of merged cells. |

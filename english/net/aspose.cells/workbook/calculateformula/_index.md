@@ -45,34 +45,6 @@ public void CalculateFormula(bool ignoreError)
 
 ---
 
-## CalculateFormula(bool, ICustomFunction) {#calculateformula_3}
-
-Calculates the result of formulas.
-
-```csharp
-[Obsolete("Use CalculateFormula(CalculationOptions) method instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
-public void CalculateFormula(bool ignoreError, ICustomFunction customFunction)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ignoreError | Boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
-| customFunction | ICustomFunction | The custom formula calculation functions to extend the calculation engine. |
-
-### Remarks
-
-NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-### See Also
-
-* interface [ICustomFunction](../../icustomfunction/)
-* class [Workbook](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
 ## CalculateFormula(CalculationOptions) {#calculateformula_1}
 
 Calculating formulas in this workbook.

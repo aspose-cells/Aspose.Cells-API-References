@@ -1,13 +1,13 @@
 ---
 title: Cells.Clear
 second_title: Aspose.Cells for .NET API Reference
-description: Cells method. Clears all cell and row objects
+description: Cells method. Clears all data of the worksheet
 type: docs
 url: /net/aspose.cells/cells/clear/
 ---
 ## Cells.Clear method
 
-Clears all cell and row objects.
+Clears all data of the worksheet.
 
 ```csharp
 public void Clear()

@@ -17,7 +17,7 @@ public class CustomFilterCollection : CollectionBase<CustomFilter>
 
 | Name | Description |
 | --- | --- |
-| [CustomFilterCollection](customfiltercollection/)() | The default constructor. |
+| [CustomFilterCollection](customfiltercollection/)() | Constructs new instance. |
 
 ## Properties
 

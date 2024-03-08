@@ -13,12 +13,6 @@ Represents axis bins
 public class AxisBins
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [AxisBins](axisbins/)() | The default constructor. |
-
 ## Properties
 
 | Name | Description |

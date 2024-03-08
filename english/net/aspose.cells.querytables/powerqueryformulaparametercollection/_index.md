@@ -1,13 +1,13 @@
 ---
 title: Class PowerQueryFormulaParameterCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.QueryTables.PowerQueryFormulaParameterCollection class. Represents the
+description: Aspose.Cells.QueryTables.PowerQueryFormulaParameterCollection class. Represents the parameters of power query formula
 type: docs
 url: /net/aspose.cells.querytables/powerqueryformulaparametercollection/
 ---
 ## PowerQueryFormulaParameterCollection class
 
-Represents the
+Represents the parameters of power query formula.
 
 ```csharp
 public class PowerQueryFormulaParameterCollection : CollectionBase<PowerQueryFormulaParameter>

@@ -18,7 +18,6 @@ public class Range
 | Name | Description |
 | --- | --- |
 | [Address](../../aspose.cells/range/address/) { get; } | Gets address of the range. |
-| [CellCount](../../aspose.cells/range/cellcount/) { get; } | (**Obsolete.**) Gets all cell count in the range. |
 | [ColumnCount](../../aspose.cells/range/columncount/) { get; } | Gets the count of columns in the range. |
 | [ColumnWidth](../../aspose.cells/range/columnwidth/) { get; set; } | Sets or gets the column width of this range |
 | [CurrentRegion](../../aspose.cells/range/currentregion/) { get; } | Returns a Range object that represents the current region. The current region is a range bounded by any combination of blank rows and blank columns. |

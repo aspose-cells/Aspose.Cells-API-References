@@ -1,13 +1,13 @@
 ---
 title: HyperlinkCollection.RemoveAt
 second_title: Aspose.Cells for .NET API Reference
-description: HyperlinkCollection method. Remove the hyperlink at the specified index
+description: HyperlinkCollection method. Remove the hyperlink at the specified index in this collection
 type: docs
 url: /net/aspose.cells/hyperlinkcollection/removeat/
 ---
 ## HyperlinkCollection.RemoveAt method
 
-Remove the hyperlink at the specified index.
+Remove the hyperlink at the specified index in this collection.
 
 ```csharp
 public void RemoveAt(int index)

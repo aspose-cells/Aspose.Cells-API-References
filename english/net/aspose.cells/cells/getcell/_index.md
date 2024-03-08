@@ -10,6 +10,7 @@ url: /net/aspose.cells/cells/getcell/
 Gets the [`Cell`](../../cell/) element or null at the specified cell row index and column index.
 
 ```csharp
+[Obsolete("Use Cells.CheckCell(int row, int column) instead.")]
 public Cell GetCell(int row, int column)
 ```
 
@@ -21,6 +22,10 @@ public Cell GetCell(int row, int column)
 ### Return Value
 
 Return Cell object if a Cell object exists. Return null if the cell does not exist.
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use CheckCell(int row, int column) method. This method will be removed 12 months later since February 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

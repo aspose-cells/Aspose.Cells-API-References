@@ -1,13 +1,13 @@
 ---
 title: WorkbookSettings.AutoRecover
 second_title: Aspose.Cells for .NET API Reference
-description: WorkbookSettings property. Indicates whether the file is mark for autorecovery
+description: WorkbookSettings property. Indicates whether the file is marked for autorecovery
 type: docs
 url: /net/aspose.cells/workbooksettings/autorecover/
 ---
 ## WorkbookSettings.AutoRecover property
 
-Indicates whether the file is mark for auto-recovery.
+Indicates whether the file is marked for auto-recovery.
 
 ```csharp
 public bool AutoRecover { get; set; }

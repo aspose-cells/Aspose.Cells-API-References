@@ -1,13 +1,13 @@
 ---
 title: MultipleFilterCollection.MultipleFilterCollection
 second_title: Aspose.Cells for .NET API Reference
-description: MultipleFilterCollection constructor. The default constructor
+description: MultipleFilterCollection constructor. Constructs one new instance
 type: docs
 url: /net/aspose.cells/multiplefiltercollection/multiplefiltercollection/
 ---
 ## MultipleFilterCollection constructor
 
-The default constructor.
+Constructs one new instance.
 
 ```csharp
 public MultipleFilterCollection()

@@ -23,7 +23,7 @@ public class Cells : IDisposable, IEnumerable
 | [FirstCell](../../aspose.cells/cells/firstcell/) { get; } | Gets the first cell in this worksheet. |
 | [IsDefaultRowHeightMatched](../../aspose.cells/cells/isdefaultrowheightmatched/) { get; set; } | Indicates that row height and default font height matches |
 | [IsDefaultRowHidden](../../aspose.cells/cells/isdefaultrowhidden/) { get; set; } | Indicates whether the row is default hidden. |
-| [Item](../../aspose.cells/cells/item/) { get; } | Gets [`Cell`](../cell/) item within the worksheet (3 indexers) |
+| [Item](../../aspose.cells/cells/item/) { get; } | Gets the [`Cell`](../cell/) element at the specified cell row index and column index. (2 indexers) |
 | [LastCell](../../aspose.cells/cells/lastcell/) { get; } | Gets the last cell in this worksheet. |
 | [MaxColumn](../../aspose.cells/cells/maxcolumn/) { get; } | Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
 | [MaxDataColumn](../../aspose.cells/cells/maxdatacolumn/) { get; } | Maximum column index of cell which contains data. |
@@ -47,7 +47,7 @@ public class Cells : IDisposable, IEnumerable
 | [StandardWidth](../../aspose.cells/cells/standardwidth/) { get; set; } | Gets or sets the default column width in the worksheet, in unit of characters. |
 | [StandardWidthInch](../../aspose.cells/cells/standardwidthinch/) { get; set; } | Gets or sets the default column width in the worksheet, in unit of inches. |
 | [StandardWidthPixels](../../aspose.cells/cells/standardwidthpixels/) { get; set; } | Gets or sets the default column width in the worksheet, in unit of pixels. |
-| [Style](../../aspose.cells/cells/style/) { get; set; } | Gets and sets the default style. |
+| [Style](../../aspose.cells/cells/style/) { get; set; } | Gets and sets the default style of the worksheet. |
 
 ## Methods
 
@@ -59,8 +59,8 @@ public class Cells : IDisposable, IEnumerable
 | [ApplyStyle](../../aspose.cells/cells/applystyle/)(Style, StyleFlag) | Applies formats for a whole worksheet. |
 | [CheckCell](../../aspose.cells/cells/checkcell/)(int, int) | Gets the [`Cell`](../cell/) element or null at the specified cell row index and column index. |
 | [CheckColumn](../../aspose.cells/cells/checkcolumn/)(int) | Gets the [`Column`](../column/) element or null at the specified column index. |
-| [CheckRow](../../aspose.cells/cells/checkrow/)(int) | Gets the [`Row`](../row/) element or at the specified cell row index. |
-| [Clear](../../aspose.cells/cells/clear/)() | Clears all cell and row objects. |
+| [CheckRow](../../aspose.cells/cells/checkrow/)(int) | Gets the [`Row`](../row/) element or null at the specified cell row index. |
+| [Clear](../../aspose.cells/cells/clear/)() | Clears all data of the worksheet. |
 | [ClearContents](../../aspose.cells/cells/clearcontents/#clearcontents)(CellArea) | Clears contents of a range. |
 | [ClearContents](../../aspose.cells/cells/clearcontents/#clearcontents_1)(int, int, int, int) | Clears contents of a range. |
 | [ClearFormats](../../aspose.cells/cells/clearformats/#clearformats)(CellArea) | Clears formatting of a range. |
@@ -68,7 +68,7 @@ public class Cells : IDisposable, IEnumerable
 | [ClearMergedCells](../../aspose.cells/cells/clearmergedcells/)() | Clears all merged ranges. |
 | [ClearRange](../../aspose.cells/cells/clearrange/#clearrange)(CellArea) | Clears contents and formatting of a range. |
 | [ClearRange](../../aspose.cells/cells/clearrange/#clearrange_1)(int, int, int, int) | Clears contents and formatting of a range. |
-| [ConvertStringToNumericValue](../../aspose.cells/cells/convertstringtonumericvalue/)() | Converts string data in cells to numeric value if possible. |
+| [ConvertStringToNumericValue](../../aspose.cells/cells/convertstringtonumericvalue/)() | Converts all string data in the worksheet to numeric value if possible. |
 | [CopyColumn](../../aspose.cells/cells/copycolumn/)(Cells, int, int) | Copies data and formats of a whole column. |
 | [CopyColumns](../../aspose.cells/cells/copycolumns/#copycolumns)(Cells, int, int, int) | Copies data and formats of a whole column. |
 | [CopyColumns](../../aspose.cells/cells/copycolumns/#copycolumns_2)(Cells, int, int, int, int) | Copies data and formats of the whole columns. |
@@ -108,9 +108,7 @@ public class Cells : IDisposable, IEnumerable
 | [ExportTypeArray](../../aspose.cells/cells/exporttypearray/)(int, int, int, int) | Exports cell value type in the `Cells` collection to a two-dimension array object. |
 | [Find](../../aspose.cells/cells/find/#find)(object, Cell) | Finds the cell containing with the input object. |
 | [Find](../../aspose.cells/cells/find/#find_1)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
-| [FindFormula](../../aspose.cells/cells/findformula/)(string, Cell) | (**Obsolete.**) Finds the cell with the input string. |
-| [FindFormulaContains](../../aspose.cells/cells/findformulacontains/)(string, Cell) | (**Obsolete.**) Finds the cell with formula which contains the input string. |
-| [GetCell](../../aspose.cells/cells/getcell/)(int, int) | Gets the [`Cell`](../cell/) element or null at the specified cell row index and column index. |
+| [GetCell](../../aspose.cells/cells/getcell/)(int, int) | (**Obsolete.**) Gets the [`Cell`](../cell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle/)(int, int) | Get the style of given cell. |
 | [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/)(int) | Gets the width(in unit of characters) of the specified column in normal view |
 | [GetColumnWidthInch](../../aspose.cells/cells/getcolumnwidthinch/)(int) | Gets the width of the specified column in normal view, in units of inches. |
@@ -125,7 +123,7 @@ public class Cells : IDisposable, IEnumerable
 | [GetMaxGroupedColumnOutlineLevel](../../aspose.cells/cells/getmaxgroupedcolumnoutlinelevel/)() | Gets the max grouped column outline level (zero-based). |
 | [GetMaxGroupedRowOutlineLevel](../../aspose.cells/cells/getmaxgroupedrowoutlinelevel/)() | Gets the max grouped row outline level (zero-based). |
 | [GetMergedAreas](../../aspose.cells/cells/getmergedareas/)() | Gets all merged cells. |
-| [GetRow](../../aspose.cells/cells/getrow/)(int) | Gets the [`Row`](../row/) element at the specified cell row index. |
+| [GetRow](../../aspose.cells/cells/getrow/)(int) | (**Obsolete.**) Gets the [`Row`](../row/) element at the specified cell row index. |
 | [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator/)() | (**Obsolete.**) Gets the rows enumerator. |
 | [GetRowHeight](../../aspose.cells/cells/getrowheight/)(int) | Gets the height of a specified row, in unit of points. |
 | [GetRowHeightInch](../../aspose.cells/cells/getrowheightinch/)(int) | Gets the height of a specified row in unit of inches. |
@@ -143,7 +141,6 @@ public class Cells : IDisposable, IEnumerable
 | [HideGroupDetail](../../aspose.cells/cells/hidegroupdetail/)(bool, int) | Collapses the grouped rows/columns. |
 | [HideRow](../../aspose.cells/cells/hiderow/)(int) | Hides a row. |
 | [HideRows](../../aspose.cells/cells/hiderows/)(int, int) | Hides multiple rows. |
-| [Import](../../aspose.cells/cells/import/)(IDataReader, int, int, ImportTableOptions) | (**Obsolete.**) Import data from data view. |
 | [ImportArray](../../aspose.cells/cells/importarray/#importarray)(double[], int, int) |  |
 | [ImportArray](../../aspose.cells/cells/importarray/#importarray_2)(int[], int, int) |  |
 | [ImportArray](../../aspose.cells/cells/importarray/#importarray_4)(string[], int, int) |  |
@@ -166,36 +163,9 @@ public class Cells : IDisposable, IEnumerable
 | [ImportDataGrid](../../aspose.cells/cells/importdatagrid/#importdatagrid_1)(DataGrid, int, int, int, int, bool) | Imports a DataGrid into a worksheet. |
 | [ImportDataGrid](../../aspose.cells/cells/importdatagrid/#importdatagrid_2)(DataGrid, int, int, int, int, bool, bool) | Imports a DataGrid into a worksheet. |
 | [ImportDataGridAsString](../../aspose.cells/cells/importdatagridasstring/)(DataGrid, int, int, bool) | Imports a DataGrid into a worksheet. This method doesn't try to convert text into numeric values. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader/#importdatareader_3)(OleDbDataReader, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader/#importdatareader_6)(SqlDataReader, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader/#importdatareader_1)(OleDbDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader/#importdatareader_4)(SqlDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader/#importdatareader)(IDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a IDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader/#importdatareader_2)(OleDbDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
-| [ImportDataReader](../../aspose.cells/cells/importdatareader/#importdatareader_5)(SqlDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
 | [ImportDataRow](../../aspose.cells/cells/importdatarow/)(DataRow, int, int) | Imports a DataRow into the Excel file. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable_7)(DataTable, bool, string) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable)(DataTable, bool, int, int) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable_1)(DataTable, bool, int, int, bool) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable_2)(DataTable, bool, int, int, bool, bool) | (**Obsolete.**) Imports a DataTable object into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable_3)(DataTable, bool, int, int, int, int) | (**Obsolete.**) Imports a DataTable into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable_4)(DataTable, bool, int, int, int, int, bool) | (**Obsolete.**) Imports a DataTable into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable_5)(DataTable, bool, int, int, int, int, bool, string) | (**Obsolete.**) Imports a DataTable into a worksheet. |
-| [ImportDataTable](../../aspose.cells/cells/importdatatable/#importdatatable_6)(DataTable, bool, int, int, int, int, bool, string, bool) | (**Obsolete.**) Imports a DataTable into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview/#importdataview_3)(DataView, int, int) | Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview/#importdataview_4)(DataView, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview/#importdataview)(DataView, bool, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview/#importdataview_5)(DataView, int, int, int, int) | (**Obsolete.**) Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview/#importdataview_6)(DataView, int, int, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview/#importdataview_1)(DataView, bool, int, int, int, int, bool) | (**Obsolete.**) Imports a DataView into a worksheet. |
-| [ImportDataView](../../aspose.cells/cells/importdataview/#importdataview_2)(DataView, bool, int, int, int, int, bool, string) | (**Obsolete.**) Imports a DataView into a worksheet. |
+| [ImportDataView](../../aspose.cells/cells/importdataview/)(DataView, int, int) | Imports a DataView into a worksheet. |
 | [ImportFormulaArray](../../aspose.cells/cells/importformulaarray/)(string[], int, int, bool) | Imports an array of formula into a worksheet. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader/#importfromdatareader_2)(OleDbDataReader, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader/#importfromdatareader_5)(SqlDataReader, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader/#importfromdatareader)(OleDbDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader/#importfromdatareader_3)(SqlDataReader, bool, int, int, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader/#importfromdatareader_1)(OleDbDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a OleDbDataReader object. |
-| [ImportFromDataReader](../../aspose.cells/cells/importfromdatareader/#importfromdatareader_4)(SqlDataReader, bool, int, int, bool, string, bool) | (**Obsolete.**) Imports data from a SqlDataReader object. |
 | [ImportGridView](../../aspose.cells/cells/importgridview/)(GridView, int, int, ImportTableOptions) | Imports a grid view to this cells. |
 | [ImportObjectArray](../../aspose.cells/cells/importobjectarray/#importobjectarray)(object[], int, int, bool) | Imports an array of data into a worksheet. |
 | [ImportObjectArray](../../aspose.cells/cells/importobjectarray/#importobjectarray_1)(object[], int, int, bool, int) | Imports an array of data into a worksheet. |

@@ -63,7 +63,6 @@ public class Workbook : IDisposable
 | [CalculateFormula](../../aspose.cells/workbook/calculateformula/#calculateformula)() | Calculates the result of formulas. |
 | [CalculateFormula](../../aspose.cells/workbook/calculateformula/#calculateformula_2)(bool) | Calculates the result of formulas. |
 | [CalculateFormula](../../aspose.cells/workbook/calculateformula/#calculateformula_1)(CalculationOptions) | Calculating formulas in this workbook. |
-| [CalculateFormula](../../aspose.cells/workbook/calculateformula/#calculateformula_3)(bool, ICustomFunction) | (**Obsolete.**) Calculates the result of formulas. |
 | [ChangePalette](../../aspose.cells/workbook/changepalette/)(Color, int) | Changes the palette for the spreadsheet in the specified index. |
 | [CloseAccessCache](../../aspose.cells/workbook/closeaccesscache/)(AccessCacheOptions) | Closes the session that uses caches to access data. |
 | [Combine](../../aspose.cells/workbook/combine/)(Workbook) | Combines another Workbook object. |

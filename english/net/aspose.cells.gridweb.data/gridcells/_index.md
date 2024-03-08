@@ -20,7 +20,7 @@ public class GridCells : IEnumerable
 | [Columns](../../aspose.cells.gridweb.data/gridcells/columns/) { get; } |  |
 | [Count](../../aspose.cells.gridweb.data/gridcells/count/) { get; } | Gets the number of cells. |
 | [FirstCell](../../aspose.cells.gridweb.data/gridcells/firstcell/) { get; } |  |
-| [Item](../../aspose.cells.gridweb.data/gridcells/item/) { get; } | Gets [`GridCell`](../gridcell/) item within the worksheet (3 indexers) |
+| [Item](../../aspose.cells.gridweb.data/gridcells/item/) { get; } | Gets the [`GridCell`](../gridcell/) element at the specified cell row index and column index. (2 indexers) |
 | [LastCell](../../aspose.cells.gridweb.data/gridcells/lastcell/) { get; } |  |
 | [MaxColumn](../../aspose.cells.gridweb.data/gridcells/maxcolumn/) { get; } | Maximum column index of cell which contains data or style. |
 | [MaxDataColumn](../../aspose.cells.gridweb.data/gridcells/maxdatacolumn/) { get; } |  |

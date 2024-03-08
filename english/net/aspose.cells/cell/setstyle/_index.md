@@ -32,7 +32,7 @@ If the border settings are changed, the border of adjust cells will be updated t
 
 ## SetStyle(Style, bool) {#setstyle_2}
 
-Apply the cell style.
+Apply the changed property of style to the cell.
 
 ```csharp
 public void SetStyle(Style style, bool explicitFlag)
@@ -54,7 +54,7 @@ public void SetStyle(Style style, bool explicitFlag)
 
 ## SetStyle(Style, StyleFlag) {#setstyle_1}
 
-Apply the cell style.
+Apply the cell style based on flags.
 
 ```csharp
 public void SetStyle(Style style, StyleFlag flag)

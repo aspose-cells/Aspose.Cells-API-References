@@ -31,6 +31,7 @@ public class RowFilterSettings : IComparer
 | [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows/#customrows)(int, GridFilterOperatorType, object) | Filters a list with a custom criteria. |
 | [CustomRows](../../aspose.cells.griddesktop/rowfiltersettings/customrows/#customrows_1)(int, GridFilterOperatorType, object, bool, GridFilterOperatorType, object) | Filters a list with a custom criteria. |
 | [FilterRows](../../aspose.cells.griddesktop/rowfiltersettings/filterrows/)(int, string) | Filters rows using criteria string. |
+| [FilterTop10](../../aspose.cells.griddesktop/rowfiltersettings/filtertop10/)(int, bool, bool, int) |  |
 | [ShowAll](../../aspose.cells.griddesktop/rowfiltersettings/showall/)() | Unhide all rows. |
 
 ### See Also

@@ -17,6 +17,7 @@ public class TickLabels
 
 | Name | Description |
 | --- | --- |
+| [AlignmentType](../../aspose.cells.charts/ticklabels/alignmenttype/) { get; set; } | Gets and sets the text alignment for the tick labels on the axis. |
 | [AutoScaleFont](../../aspose.cells.charts/ticklabels/autoscalefont/) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [BackgroundMode](../../aspose.cells.charts/ticklabels/backgroundmode/) { get; set; } | Gets and sets the display mode of the background |
 | [DirectionType](../../aspose.cells.charts/ticklabels/directiontype/) { get; set; } | Gets and sets the direction of text. |

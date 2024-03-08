@@ -1,13 +1,13 @@
 ---
 title: Cells.Style
 second_title: Aspose.Cells for .NET API Reference
-description: Cells property. Gets and sets the default style
+description: Cells property. Gets and sets the default style of the worksheet
 type: docs
 url: /net/aspose.cells/cells/style/
 ---
 ## Cells.Style property
 
-Gets and sets the default style.
+Gets and sets the default style of the worksheet.
 
 ```csharp
 public Style Style { get; set; }

@@ -28,8 +28,9 @@ public class OdsSaveOptions : SaveOptions
 | [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Make the workbook empty after saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [GeneratorType](../../aspose.cells/odssaveoptions/generatortype/) { get; set; } | Gets and sets the generator of the ods file. |
-| [IsStrictSchema11](../../aspose.cells/odssaveoptions/isstrictschema11/) { get; set; } | Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
+| [IsStrictSchema11](../../aspose.cells/odssaveoptions/isstrictschema11/) { get; set; } | (**Obsolete.**) Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indicates whether merge the areas of conditional formatting and validation before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [OdfStrictVersion](../../aspose.cells/odssaveoptions/odfstrictversion/) { get; set; } | Gets and sets the ODF version. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether refreshing chart cache data(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |

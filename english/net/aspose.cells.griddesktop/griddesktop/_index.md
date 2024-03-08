@@ -80,6 +80,7 @@ public class GridDesktop : UserControl
 | [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile/#importexcelfile_5)(string, int) | Imports a worksheet from an excel file. |
 | [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile/#importexcelfile_2)(Stream, string, string, bool, bool) | Imports from an excel file. |
 | [ImportExcelFile](../../aspose.cells.griddesktop/griddesktop/importexcelfile/#importexcelfile_6)(string, string, string, bool, bool) | Imports from an excel file. |
+| [Invalidate](../../aspose.cells.griddesktop/griddesktop/invalidate/#invalidate)() | Override invalidate. |
 | [OpenFindReplaceDialog](../../aspose.cells.griddesktop/griddesktop/openfindreplacedialog/)(bool) | Opens the FindReplace dialog to find or replace cells. |
 | [Paste](../../aspose.cells.griddesktop/griddesktop/paste/)() | Pastes clipboard content to focused cell. |
 | [RefreshControl](../../aspose.cells.griddesktop/griddesktop/refreshcontrol/)() | Refresh the GridDesktop control. |

@@ -107,7 +107,6 @@ public class Worksheet : IDisposable
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula)(string) | Calculates a formula. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_3)(CalculationOptions, bool) | Calculates all formulas in this worksheet. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_1)(string, CalculationOptions) | Calculates a formula expression directly. |
-| [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_4)(bool, bool, ICustomFunction) | (**Obsolete.**) Calculates all formulas in this worksheet. |
 | [CalculateFormula](../../aspose.cells/worksheet/calculateformula/#calculateformula_2)(string, FormulaParseOptions, CalculationOptions, int, int, CalculationData) | Calculates a formula expression directly. |
 | [ClearComments](../../aspose.cells/worksheet/clearcomments/)() | Clears all comments in designer spreadsheet. |
 | [CloseAccessCache](../../aspose.cells/worksheet/closeaccesscache/)(AccessCacheOptions) | Closes the session that uses caches to access the data in this worksheet. |

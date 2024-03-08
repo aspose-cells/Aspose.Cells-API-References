@@ -45,7 +45,6 @@ public class DataLabels : ChartTextFrame
 | [Position](../../aspose.cells.charts/datalabels/position/) { get; set; } | Represents the position of the data label. |
 | [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder/) { get; set; } | Represents text reading order.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | Represents text rotation angle.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
-| [Separator](../../aspose.cells.charts/datalabels/separator/) { get; set; } | (**Obsolete.**) Gets or sets the separator type used for the data labels on a chart. |
 | [SeparatorType](../../aspose.cells.charts/datalabels/separatortype/) { get; set; } | Gets or sets the separator type used for the data labels on a chart. |
 | [SeparatorValue](../../aspose.cells.charts/datalabels/separatorvalue/) { get; set; } | Gets or sets the separator value used for the data labels on a chart. |
 | [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True if the frame has a shadow.(Inherited from [`ChartFrame`](../chartframe/).) |

@@ -1,31 +1,29 @@
 ---
 title: Row.GetCellByIndex
 second_title: Aspose.Cells for .NET API Reference
-description: Row method. Get the cell by specific index in the list
+description: Row method. Get the cell by specific index in the cells collection of this row
 type: docs
 url: /net/aspose.cells/row/getcellbyindex/
 ---
 ## Row.GetCellByIndex method
 
-Get the cell by specific index in the list.
+Get the cell by specific index in the cells collection of this row.
 
 ```csharp
-[Obsolete("Use Row.GetEnumerator() method to iterate all cells in this row instead.")]
-[EditorBrowsable(EditorBrowsableState.Never)]
 public Cell GetCellByIndex(int index)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The position. |
+| index | Int32 | The index(position) of the cell in the cells collection of this row. |
 
 ### Return Value
 
-The Cell object.
+The Cell object at given position.
 
 ### Remarks
 
-NOTE: This member is now obsolete. Instead, please use Row.GetEnumerator() method to iterate all cells in this row. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
+To traverse all cells in sequence without modification, using [`GetEnumerator`](../getenumerator/) will give better performance than using this method to get cell one by one.
 
 ### See Also
 

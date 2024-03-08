@@ -1,64 +1,10 @@
 ---
 title: Cells.ImportData
 second_title: Aspose.Cells for .NET API Reference
-description: Cells method. Imports data from a IDataReader object
+description: Cells method. Import data from custom data table
 type: docs
 url: /net/aspose.cells/cells/importdata/
 ---
-## ImportData(IDataReader, int, int) {#importdata_3}
-
-Imports data from a IDataReader object.
-
-```csharp
-public int ImportData(IDataReader reader, int firstRow, int firstColumn)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| reader | IDataReader | The IDataReader object which contains data. |
-| firstRow | Int32 | The row number of the first cell to import in. |
-| firstColumn | Int32 | The column number of the first cell to import in. |
-
-### Return Value
-
-Total number of rows imported.
-
-### See Also
-
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ImportData(IDataReader, int, int, ImportTableOptions) {#importdata_4}
-
-Imports data from a IDataReader object.
-
-```csharp
-public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportTableOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| reader | IDataReader | The IDataReader object which contains data. |
-| firstRow | Int32 | The row number of the first cell to import in. |
-| firstColumn | Int32 | The column number of the first cell to import in. |
-| options | ImportTableOptions | The options of importing table. |
-
-### Return Value
-
-Total number of rows imported.
-
-### See Also
-
-* class [ImportTableOptions](../../importtableoptions/)
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
 ## ImportData(ICellsDataTable, int, int, ImportTableOptions) {#importdata}
 
 Import data from custom data table.
@@ -183,6 +129,60 @@ public int ImportData(DataView dataView, int firstRow, int firstColumn, ImportTa
 | firstRow | Int32 | First row index. |
 | firstColumn | Int32 | First column index. |
 | options | ImportTableOptions | The import options |
+
+### Return Value
+
+Total number of rows imported.
+
+### See Also
+
+* class [ImportTableOptions](../../importtableoptions/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ImportData(IDataReader, int, int) {#importdata_3}
+
+Imports data from a IDataReader object.
+
+```csharp
+public int ImportData(IDataReader reader, int firstRow, int firstColumn)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| reader | IDataReader | The IDataReader object which contains data. |
+| firstRow | Int32 | The row number of the first cell to import in. |
+| firstColumn | Int32 | The column number of the first cell to import in. |
+
+### Return Value
+
+Total number of rows imported.
+
+### See Also
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ImportData(IDataReader, int, int, ImportTableOptions) {#importdata_4}
+
+Imports data from a IDataReader object.
+
+```csharp
+public int ImportData(IDataReader reader, int firstRow, int firstColumn, ImportTableOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| reader | IDataReader | The IDataReader object which contains data. |
+| firstRow | Int32 | The row number of the first cell to import in. |
+| firstColumn | Int32 | The column number of the first cell to import in. |
+| options | ImportTableOptions | The options of importing table. |
 
 ### Return Value
 

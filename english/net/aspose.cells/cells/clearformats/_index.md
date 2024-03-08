@@ -5,6 +5,27 @@ description: Cells method. Clears formatting of a range
 type: docs
 url: /net/aspose.cells/cells/clearformats/
 ---
+## ClearFormats(CellArea) {#clearformats}
+
+Clears formatting of a range.
+
+```csharp
+public void ClearFormats(CellArea range)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| range | CellArea | Range to be cleared. |
+
+### See Also
+
+* struct [CellArea](../../cellarea/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## ClearFormats(int, int, int, int) {#clearformats_1}
 
 Clears formatting of a range.
@@ -22,27 +43,6 @@ public void ClearFormats(int startRow, int startColumn, int endRow, int endColum
 
 ### See Also
 
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ClearFormats(CellArea) {#clearformats}
-
-Clears formatting of a range.
-
-```csharp
-public void ClearFormats(CellArea range)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| range | CellArea | Range to be cleared. |
-
-### See Also
-
-* struct [CellArea](../../cellarea/)
 * class [Cells](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

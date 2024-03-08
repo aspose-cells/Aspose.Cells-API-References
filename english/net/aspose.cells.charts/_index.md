@@ -41,7 +41,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [SparklineCollection](./sparklinecollection/) | Encapsulates a collection of [`Sparkline`](../aspose.cells.charts/sparkline/) objects. |
 | [SparklineGroup](./sparklinegroup/) | [`Sparkline`](../aspose.cells.charts/sparkline/) is organized into sparkline group. A SparklineGroup contains a variable number of sparkline items. A sparkline group specifies the type, display settings and axis settings for the sparklines. |
 | [SparklineGroupCollection](./sparklinegroupcollection/) | Encapsulates a collection of [`SparklineGroup`](../aspose.cells.charts/sparklinegroup/) objects. |
-| [TickLabelItem](./ticklabelitem/) | Include information of a Ticklabel item |
+| [TickLabelItem](./ticklabelitem/) | Represents a tick label in the chart. |
 | [TickLabels](./ticklabels/) | Represents the tick-mark labels associated with tick marks on a chart axis. |
 | [Title](./title/) | Encapsulates the object that represents the title of chart or axis. |
 | [Trendline](./trendline/) | Represents a trendline in a chart. |
@@ -63,7 +63,6 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [ChartType](./charttype/) | Enumerates all chart types used in Excel. |
 | [CrossType](./crosstype/) | Represents the axis cross type. |
 | [DataLabelsSeparatorType](./datalabelsseparatortype/) | Represents the separator type of DataLabels. |
-| [DataLablesSeparatorType](./datalablesseparatortype/) | Represents the separator type of DataLabels. |
 | [DisplayUnitType](./displayunittype/) | Represents the type of display unit of chart's axis. |
 | [ErrorBarDisplayType](./errorbardisplaytype/) | Represents error bar display type. |
 | [ErrorBarType](./errorbartype/) | Represents error bar amount type. |
@@ -79,6 +78,7 @@ The **Aspose.Cells.Charts** namespace provides classes that allow to access and 
 | [SparklineAxisMinMaxType](./sparklineaxisminmaxtype/) | Represents the minimum and maximum value types for the sparkline vertical axis. |
 | [SparklinePresetStyleType](./sparklinepresetstyletype/) | Represents the preset style types for sparkline. |
 | [SparklineType](./sparklinetype/) | Represents the sparkline types. |
+| [TickLabelAlignmentType](./ticklabelalignmenttype/) | Represents the text alignment type for the tick labels on the axis |
 | [TickLabelPositionType](./ticklabelpositiontype/) | Represents the position type of tick-mark labels on the specified axis. |
 | [TickMarkType](./tickmarktype/) | Represents the tick mark type for the specified axis. |
 | [TimeUnit](./timeunit/) | Represents the base unit for the category axis. |

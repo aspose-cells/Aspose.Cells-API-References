@@ -1,13 +1,13 @@
 ---
 title: Cells.CheckRow
 second_title: Aspose.Cells for .NET API Reference
-description: Cells method. Gets the Row element or at the specified cell row index
+description: Cells method. Gets the Row element or null at the specified cell row index
 type: docs
 url: /net/aspose.cells/cells/checkrow/
 ---
 ## Cells.CheckRow method
 
-Gets the [`Row`](../../row/) element or at the specified cell row index.
+Gets the [`Row`](../../row/) element or null at the specified cell row index.
 
 ```csharp
 public Row CheckRow(int row)
@@ -19,7 +19,7 @@ public Row CheckRow(int row)
 
 ### Return Value
 
-If the row object does exist return Row object, otherwise return null.
+Returns [`Row`](../../row/) object If the row object does exist, otherwise returns null.
 
 ### See Also
 

@@ -1,40 +1,11 @@
 ---
 title: WebCells.Item
 second_title: Aspose.Cells for .NET API Reference
-description: WebCells property. Gets Cell item within the worksheet
+description: WebCells property. Gets the Cell element at the specified cell row index and column index
 type: docs
 url: /net/aspose.cells.gridweb.data/webcells/item/
 ---
-## WebCells indexer (1 of 3)
-
-Gets Cell item within the worksheet
-
-```csharp
-public WebCell this[int cellIndex] { get; }
-```
-
-| Parameter | Description |
-| --- | --- |
-| cellIndex | The zero based index of the element. |
-
-### Property Value
-
-The element at the specified index.
-
-### Remarks
-
-This is the indexer for the Cells class. Gets the cell element at the specified index.
-
-### See Also
-
-* class [WebCell](../../webcell/)
-* class [WebCells](../)
-* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
-* assembly [Aspose.Cells.GridWeb](../../../)
-
----
-
-## WebCells indexer (2 of 3)
+## WebCells indexer (1 of 2)
 
 Gets the Cell element at the specified cell row index and column index.
 
@@ -74,7 +45,7 @@ Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
 
 ---
 
-## WebCells indexer (3 of 3)
+## WebCells indexer (2 of 2)
 
 Gets the Cell element at the specified cell name.
 
