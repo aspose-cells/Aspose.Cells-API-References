@@ -50,7 +50,6 @@ The following example shows how to create a range and set value the range of Exc
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int rowOffset, int columnOffset)](#get-int-int-) | Gets [Cell](../../com.aspose.cells/cell) object in this range. |
 | [getAddress()](#getAddress--) | Gets address of the range. |
-| [getCellCount()](#getCellCount--) | Gets all cell count in the range. |
 | [getCellOrNull(int rowOffset, int columnOffset)](#getCellOrNull-int-int-) | Gets [Cell](../../com.aspose.cells/cell) object or null in this range. |
 | [getClass()](#getClass--) |  |
 | [getColumnCount()](#getColumnCount--) | Gets the count of columns in the range. |
@@ -302,20 +301,6 @@ Gets address of the range.
 
 **Returns:**
 java.lang.String
-### getCellCount() {#getCellCount--}
-```
-public int getCellCount()
-```
-
-
-Gets all cell count in the range.
-
-**Remarks**
-
-NOTE: This property is now obsolete. Instead, please use RowCount and ColumnCount to get total cells count. This property will be removed 12 months later since February 2021. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getCellOrNull(int rowOffset, int columnOffset) {#getCellOrNull-int-int-}
 ```
 public Cell getCellOrNull(int rowOffset, int columnOffset)

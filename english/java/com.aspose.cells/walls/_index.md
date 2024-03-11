@@ -40,11 +40,8 @@ Encapsulates the object that represents the walls of a 3-D chart.
 | [getWidth()](#getWidth--) | Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [getWidthPx()](#getWidthPx--) | Gets the width of left to right in units of pixels after calls Chart.Calculate() method. |
 | [hashCode()](#hashCode--) |  |
-| [isAuto()](#isAuto--) | Indicates Microsoft Workbook automatically determines the area pattern. |
-| [isVisible()](#isVisible--) | Indicates whether the area is visible in the chart. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuto(boolean isAuto)](#setAuto-boolean-) | Sets whether Microsoft Workbook automatically determines the area pattern. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
 | [setBorder(Line value)](#setBorder-com.aspose.cells.Line-) | Sets the border [Line](../../com.aspose.cells/line). |
 | [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Sets the foreground [Color](../../com.aspose.cells/color). |
@@ -333,26 +330,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isAuto() {#isAuto--}
-```
-public boolean isAuto()
-```
-
-
-Indicates Microsoft Workbook automatically determines the area pattern.
-
-**Returns:**
-boolean
-### isVisible() {#isVisible--}
-```
-public boolean isVisible()
-```
-
-
-Indicates whether the area is visible in the chart.
-
-**Returns:**
-boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -368,19 +345,6 @@ public final native void notifyAll()
 
 
 
-
-### setAuto(boolean isAuto) {#setAuto-boolean-}
-```
-public void setAuto(boolean isAuto)
-```
-
-
-Sets whether Microsoft Workbook automatically determines the area pattern.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isAuto | boolean | isAuto whether Microsoft Workbook automatically determines the area pattern. |
 
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.cells.Color-}
 ```

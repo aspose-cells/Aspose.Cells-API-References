@@ -23,6 +23,8 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [cellIndexToName(int row, int column)](#cellIndexToName-int-int-) | Gets cell name according to its row and column indexes. |
 | [cellNameToIndex(String cellName, int row, int column)](#cellNameToIndex-java.lang.String-int-int-) | Gets the cell row and column indexes according to its name |
 | [checkCell(int row, int column)](#checkCell-int-int-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element or null at the specified cell row index and column index. |
+| [checkColumn(int col)](#checkColumn-int-) | Gets the [GridColumn](../../com.aspose.gridweb/gridcolumn) element or null at the specified column index. |
+| [checkRow(int i)](#checkRow-int-) | Gets the [GridRow](../../com.aspose.gridweb/gridrow) element or null at the specified cell row index. |
 | [clear()](#clear--) | Clear all cells in the collection. |
 | [clearContents(GridCellArea range)](#clearContents-com.aspose.gridweb.GridCellArea-) | Clears contents of a range. |
 | [clearContents(int startRow, int startColumn, int endRow, int endColumn)](#clearContents-int-int-int-int-) | Clears contents of a range. |
@@ -47,10 +49,9 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [deleteRows(int rowIndex, int totalRows, boolean updateReference)](#deleteRows-int-int-boolean-) | Deletes multiple rows in the worksheet. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [exportArray(int firstRow, int firstColumn, int totalRows, int totalColumns)](#exportArray-int-int-int-int-) | Exports data in the [GridCells](../../com.aspose.gridweb/gridcells) collection to a two-dimension array object. |
-| [get(int index)](#get-int-) | Gets [GridCell](../../com.aspose.gridweb/gridcell) item within the worksheet |
 | [get(int row, int column)](#get-int-int-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell row index and column index. |
 | [get(String cellName)](#get-java.lang.String-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell name. |
-| [getCell(int row, int column)](#getCell-int-int-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element or null at the specified cell row index and column index. |
+| [getCell(int row, int column)](#getCell-int-int-) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell row index and column index. |
 | [getClass()](#getClass--) |  |
 | [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width of the specified column |
 | [getColumnWidthInch(int column)](#getColumnWidthInch-int-) | Gets the width of the specified column, in units of inches. |
@@ -178,6 +179,36 @@ Gets the [GridCell](../../com.aspose.gridweb/gridcell) element or null at the sp
 
 **Returns:**
 [GridCell](../../com.aspose.gridweb/gridcell) - Return GridCell object if a GridCell object exists. Return null if the GridCell does not exist.
+### checkColumn(int col) {#checkColumn-int-}
+```
+public GridColumn checkColumn(int col)
+```
+
+
+Gets the [GridColumn](../../com.aspose.gridweb/gridcolumn) element or null at the specified column index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| col | int | The column index. |
+
+**Returns:**
+[GridColumn](../../com.aspose.gridweb/gridcolumn) - The Column object.
+### checkRow(int i) {#checkRow-int-}
+```
+public GridRow checkRow(int i)
+```
+
+
+Gets the [GridRow](../../com.aspose.gridweb/gridrow) element or null at the specified cell row index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| i | int | Row index |
+
+**Returns:**
+[GridRow](../../com.aspose.gridweb/gridrow) - Returns [GridRow](../../com.aspose.gridweb/gridrow) object If the row object does exist, otherwise returns null.
 ### clear() {#clear--}
 ```
 public void clear()
@@ -523,25 +554,6 @@ Exports data in the [GridCells](../../com.aspose.gridweb/gridcells) collection t
 
 **Returns:**
 java.lang.Object[][] - Exported cell value array object.
-### get(int index) {#get-int-}
-```
-public GridCell get(int index)
-```
-
-
-Gets [GridCell](../../com.aspose.gridweb/gridcell) item within the worksheet
-
-**Remarks**
-
-This is the indexer for the Cells class. Gets the cell element at the specified index.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index of the element. |
-
-**Returns:**
-[GridCell](../../com.aspose.gridweb/gridcell)
 ### get(int row, int column) {#get-int-int-}
 ```
 public GridCell get(int row, int column)
@@ -596,7 +608,7 @@ public GridCell getCell(int row, int column)
 ```
 
 
-Gets the [GridCell](../../com.aspose.gridweb/gridcell) element or null at the specified cell row index and column index.
+Gets the [GridCell](../../com.aspose.gridweb/gridcell) element at the specified cell row index and column index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -605,7 +617,7 @@ Gets the [GridCell](../../com.aspose.gridweb/gridcell) element or null at the sp
 | column | int | Column index |
 
 **Returns:**
-[GridCell](../../com.aspose.gridweb/gridcell) - Return Cell object if a Cell object exists. Return null if the cell does not exist.
+[GridCell](../../com.aspose.gridweb/gridcell) - Return Cell object
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -814,10 +826,10 @@ Gets the [GridRow](../../com.aspose.gridweb/gridrow) element or at the specified
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| i | int |  |
+| i | int | Row index |
 
 **Returns:**
-[GridRow](../../com.aspose.gridweb/gridrow) - If the row object does exist return Row object,otherwise return null.
+[GridRow](../../com.aspose.gridweb/gridrow) - the row object
 ### getRowEnumerator() {#getRowEnumerator--}
 ```
 public Iterator getRowEnumerator()

@@ -17,7 +17,7 @@ Represents the custom filters.
 
 | Constructor | Description |
 | --- | --- |
-| [CustomFilterCollection()](#CustomFilterCollection--) |  |
+| [CustomFilterCollection()](#CustomFilterCollection--) | Constructs new instance. |
 ## Methods
 
 | Method | Description |
@@ -46,6 +46,8 @@ Represents the custom filters.
 public CustomFilterCollection()
 ```
 
+
+Constructs new instance.
 
 ### add(Object o) {#add-java.lang.Object-}
 ```

@@ -18,6 +18,7 @@ Represents the load file format.
 | Field | Description |
 | --- | --- |
 | [AUTO](#AUTO) | Represents recognizing the format automatically. |
+| [AZW_3](#AZW-3) | Represents an AZW3 file. |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
 | [EPUB](#EPUB) | Reprents an EPUB file. |
 | [EXCEL_97_TO_2003](#EXCEL-97-TO-2003) | Represents an Excel97-2003 xls file. |
@@ -57,6 +58,14 @@ public static final int AUTO
 
 
 Represents recognizing the format automatically.
+
+### AZW_3 {#AZW-3}
+```
+public static final int AZW_3
+```
+
+
+Represents an AZW3 file.
 
 ### CSV {#CSV}
 ```

@@ -51,7 +51,7 @@ Encapsulates a collection of [Hyperlink](../../com.aspose.cells/hyperlink) objec
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Remove the hyperlink at the specified index. |
+| [removeAt(int index)](#removeAt-int-) | Remove the hyperlink at the specified index in this collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -267,7 +267,7 @@ public void removeAt(int index)
 ```
 
 
-Remove the hyperlink at the specified index.
+Remove the hyperlink at the specified index in this collection.
 
 **Parameters:**
 | Parameter | Type | Description |

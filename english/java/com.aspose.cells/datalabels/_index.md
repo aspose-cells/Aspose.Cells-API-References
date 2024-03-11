@@ -63,7 +63,6 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getPosition()](#getPosition--) | Represents the position of the data label. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle. |
-| [getSeparator()](#getSeparator--) | Gets the separator type used for the data labels on a chart. |
 | [getSeparatorType()](#getSeparatorType--) | Gets the separator type used for the data labels on a chart. |
 | [getSeparatorValue()](#getSeparatorValue--) | Gets the separator value used for the data labels on a chart. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
@@ -116,7 +115,6 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
 | [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | Sets whether a shape should be auto-fit to fully contain the text described within it. |
 | [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle. |
-| [setSeparator(int value)](#setSeparator-int-) | Sets the separator type used for the data labels on a chart. |
 | [setSeparatorType(int value)](#setSeparatorType-int-) | Sets the separator type used for the data labels on a chart. |
 | [setSeparatorValue(String value)](#setSeparatorValue-java.lang.String-) | Sets the separator value used for the data labels on a chart. |
 | [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
@@ -408,22 +406,6 @@ Represents text rotation angle.
 
 90: Upward.
 
-
-**Returns:**
-int
-### getSeparator() {#getSeparator--}
-```
-public int getSeparator()
-```
-
-
-Gets the separator type used for the data labels on a chart.
-
-See [DataLablesSeparatorType](../../com.aspose.cells/datalablesseparatortype).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use DataLabels.SeparatorType property. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1061,25 +1043,6 @@ Represents text rotation angle.
 
 90: Upward.
 
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setSeparator(int value) {#setSeparator-int-}
-```
-public void setSeparator(int value)
-```
-
-
-Sets the separator type used for the data labels on a chart.
-
-See [DataLablesSeparatorType](../../com.aspose.cells/datalablesseparatortype).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use DataLabels.SeparatorType property. This property will be removed 12 months later since September 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

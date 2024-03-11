@@ -57,7 +57,6 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [addDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)](#addDigitalSignature-com.aspose.cells.DigitalSignatureCollection-) | Adds digital signature to an OOXML spreadsheet file (Excel2007 and later). |
 | [calculateFormula()](#calculateFormula--) | Calculates the result of formulas. |
 | [calculateFormula(boolean ignoreError)](#calculateFormula-boolean-) | Calculates the result of formulas. |
-| [calculateFormula(boolean ignoreError, ICustomFunction customFunction)](#calculateFormula-boolean-com.aspose.cells.ICustomFunction-) | Calculates the result of formulas. |
 | [calculateFormula(CalculationOptions options)](#calculateFormula-com.aspose.cells.CalculationOptions-) | Calculating formulas in this workbook. |
 | [changePalette(Color color, int index)](#changePalette-com.aspose.cells.Color-int-) | Changes the palette for the spreadsheet in the specified index. |
 | [closeAccessCache(int opts)](#closeAccessCache-int-) | Closes the session that uses caches to access data. |
@@ -302,24 +301,6 @@ Calculates the result of formulas.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreError | boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
-
-### calculateFormula(boolean ignoreError, ICustomFunction customFunction) {#calculateFormula-boolean-com.aspose.cells.ICustomFunction-}
-```
-public void calculateFormula(boolean ignoreError, ICustomFunction customFunction)
-```
-
-
-Calculates the result of formulas.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ignoreError | boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
-| customFunction | [ICustomFunction](../../com.aspose.cells/icustomfunction) | The custom formula calculation functions to extend the calculation engine. |
 
 ### calculateFormula(CalculationOptions options) {#calculateFormula-com.aspose.cells.CalculationOptions-}
 ```
@@ -1230,6 +1211,12 @@ public void refreshDynamicArrayFormulas(boolean calculate, CalculationOptions co
 
 
 Refreshes dynamic array formulas(spill into new range of neighboring cells according to current data)
+
+**Remarks**
+
+For performance consideration, we do not refresh all dynamic array formulas automatically when the formula itself or the data it references to changed. So user need to call this method manually after those operations which may influence dynamic array formulas, such as importing/setting cell values, inserting/deleting rows/columns/ranges, ...etc.
+
+For most formulas with functions, calculating the spill range also needs to calculating the formula, so in general true value for "calculate" flag is preferred. If the formula is simple, such as a range reference or array(for example "=C1:E5", "=\{1,2;3,4\}", ...), simple function on a range or array(for example "=ABS(C1:E5)", "=1+\{1,2;3,4\}", ...), and all formulas will be calculated later(such as by [calculateFormula(CalculationOptions)](../../com.aspose.cells/workbook\#calculateFormula-CalculationOptions-)), then using false vlaue for "calculate" flag may avoid the duplicated calculation for the benefit of performance.
 
 **Parameters:**
 | Parameter | Type | Description |

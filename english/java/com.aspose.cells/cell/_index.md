@@ -59,7 +59,6 @@ Encapsulates the object that represents a single Workbook cell.
 
 | Method | Description |
 | --- | --- |
-| [calculate(boolean ignoreError, ICustomFunction customFunction)](#calculate-boolean-com.aspose.cells.ICustomFunction-) | Calculates the formula of the cell. |
 | [calculate(CalculationOptions options)](#calculate-com.aspose.cells.CalculationOptions-) | Calculates the formula of the cell. |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the cell text. |
 | [containsExternalLink()](#containsExternalLink--) | Indicates whether this cell contains an external link. |
@@ -81,6 +80,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [getDisplayStyle()](#getDisplayStyle--) | Gets the display style of the cell. |
 | [getDisplayStyle(boolean includeMergedBorders)](#getDisplayStyle-boolean-) | Gets the display style of the cell. |
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value contained in the cell. |
+| [getEmbeddedImage()](#getEmbeddedImage--) | Gets the embeddedn image in the cell. |
 | [getFloatValue()](#getFloatValue--) | Gets the float value contained in the cell. |
 | [getFormatConditions()](#getFormatConditions--) | Gets format conditions which applies to this cell. |
 | [getFormula()](#getFormula--) | Gets a formula of the [Cell](../../com.aspose.cells/cell). |
@@ -116,15 +116,15 @@ Encapsulates the object that represents a single Workbook cell.
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [insertText(int index, String text)](#insertText-int-java.lang.String-) | Insert some characters to the cell. |
 | [isArrayFormula()](#isArrayFormula--) | Indicates whether the cell formula is an array formula. |
-| [isArrayHeader()](#isArrayHeader--) | Indicates the cell's formula is and array formula and it is the first cell of the array. |
+| [isArrayHeader()](#isArrayHeader--) | Indicates the cell's formula is an array formula and it is the first cell of the array. |
 | [isDynamicArrayFormula()](#isDynamicArrayFormula--) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
 | [isErrorValue()](#isErrorValue--) | Checks if the value of this cell is an error. |
 | [isFormula()](#isFormula--) | Represents if the specified cell contains formula. |
 | [isInArray()](#isInArray--) | Indicates whether the cell formula is an array formula. |
 | [isInTable()](#isInTable--) | Indicates whether this cell is part of table formula. |
 | [isMerged()](#isMerged--) | Checks if a cell is part of a merged range or not. |
-| [isNumericValue()](#isNumericValue--) | Indicates whether the inner value of this cell is numeric(int, double and datetime) |
-| [isRichText()](#isRichText--) | Indicates whether the cell string value is a rich text. |
+| [isNumericValue()](#isNumericValue--) | Indicates whether the value of this cell is numeric(int, double and datetime) |
+| [isRichText()](#isRichText--) | Indicates whether the string value of this cell is a rich formatted text. |
 | [isSharedFormula()](#isSharedFormula--) | Indicates whether the cell formula is part of shared formula. |
 | [isStyleSet()](#isStyleSet--) | Indicates if the cell's style is set. |
 | [isTableFormula()](#isTableFormula--) | Indicates whether this cell is part of table formula. |
@@ -148,6 +148,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [setEmbeddedImage(byte[] value)](#setEmbeddedImage-byte---) | Sets the embeddedn image in the cell. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [Cell](../../com.aspose.cells/cell). |
 | [setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)](#setFormula-java.lang.String-boolean-boolean-java.lang.Object-) | Set the formula and the value of the formula. |
 | [setFormula(String formula, FormulaParseOptions options, Object value)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-) | Set the formula and the value(calculated result) of the formula. |
@@ -160,8 +161,8 @@ Encapsulates the object that represents a single Workbook cell.
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets shared formulas to a range of cells. |
 | [setSharedFormula(String sharedFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values)](#setSharedFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-java.lang.Object-----) | Sets shared formulas to a range of cells. |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the cell style. |
-| [setStyle(Style style, boolean explicitFlag)](#setStyle-com.aspose.cells.Style-boolean-) | Apply the cell style. |
-| [setStyle(Style style, StyleFlag flag)](#setStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) | Apply the cell style. |
+| [setStyle(Style style, boolean explicitFlag)](#setStyle-com.aspose.cells.Style-boolean-) | Apply the changed property of style to the cell. |
+| [setStyle(Style style, StyleFlag flag)](#setStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) | Apply the cell style based on flags. |
 | [setTableFormula(int rowNumber, int columnNumber, int rowIndexOfInputCell, int columnIndexOfInputCell, boolean isRowInput, Object[][] values)](#setTableFormula-int-int-int-int-boolean-java.lang.Object-----) | Create one-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, int rowIndexOfRowInputCell, int columnIndexOfRowInputCell, int rowIndexOfColumnInputCell, int columnIndexOfColumnInputCell, Object[][] values)](#setTableFormula-int-int-int-int-int-int-java.lang.Object-----) | Create two-variable data table for given range starting from this cell. |
 | [setTableFormula(int rowNumber, int columnNumber, String inputCell, boolean isRowInput, Object[][] values)](#setTableFormula-int-int-java.lang.String-boolean-java.lang.Object-----) | Create one-variable data table for given range starting from this cell. |
@@ -172,24 +173,6 @@ Encapsulates the object that represents a single Workbook cell.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### calculate(boolean ignoreError, ICustomFunction customFunction) {#calculate-boolean-com.aspose.cells.ICustomFunction-}
-```
-public void calculate(boolean ignoreError, ICustomFunction customFunction)
-```
-
-
-Calculates the formula of the cell.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Calculate(CalculationOptions) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ignoreError | boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
-| customFunction | [ICustomFunction](../../com.aspose.cells/icustomfunction) | The custom formula calculation functions to extend the calculation engine. |
-
 ### calculate(CalculationOptions options) {#calculate-com.aspose.cells.CalculationOptions-}
 ```
 public void calculate(CalculationOptions options)
@@ -517,6 +500,16 @@ Gets the double value contained in the cell.
 
 **Returns:**
 double
+### getEmbeddedImage() {#getEmbeddedImage--}
+```
+public byte[] getEmbeddedImage()
+```
+
+
+Gets the embeddedn image in the cell.
+
+**Returns:**
+byte[]
 ### getFloatValue() {#getFloatValue--}
 ```
 public float getFloatValue()
@@ -1019,7 +1012,7 @@ public boolean isArrayHeader()
 ```
 
 
-Indicates the cell's formula is and array formula and it is the first cell of the array.
+Indicates the cell's formula is an array formula and it is the first cell of the array.
 
 **Returns:**
 boolean
@@ -1101,7 +1094,7 @@ public boolean isNumericValue()
 ```
 
 
-Indicates whether the inner value of this cell is numeric(int, double and datetime)
+Indicates whether the value of this cell is numeric(int, double and datetime)
 
 **Remarks**
 
@@ -1115,7 +1108,7 @@ public boolean isRichText()
 ```
 
 
-Indicates whether the cell string value is a rich text.
+Indicates whether the string value of this cell is a rich formatted text.
 
 **Returns:**
 boolean
@@ -1458,6 +1451,19 @@ Sets dynamic array formula and make the formula spill into neighboring cells if 
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea) - the range that the formula should spill into.
+### setEmbeddedImage(byte[] value) {#setEmbeddedImage-byte---}
+```
+public void setEmbeddedImage(byte[] value)
+```
+
+
+Sets the embeddedn image in the cell.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | byte[] |  |
+
 ### setFormula(String value) {#setFormula-java.lang.String-}
 ```
 public void setFormula(String value)
@@ -1657,7 +1663,7 @@ public void setStyle(Style style, boolean explicitFlag)
 ```
 
 
-Apply the cell style.
+Apply the changed property of style to the cell.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1671,7 +1677,7 @@ public void setStyle(Style style, StyleFlag flag)
 ```
 
 
-Apply the cell style.
+Apply the cell style based on flags.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -17,7 +17,7 @@ Represents the multiple filter collection.
 
 | Constructor | Description |
 | --- | --- |
-| [MultipleFilterCollection()](#MultipleFilterCollection--) |  |
+| [MultipleFilterCollection()](#MultipleFilterCollection--) | Constructs one new instance. |
 ## Methods
 
 | Method | Description |
@@ -47,6 +47,8 @@ Represents the multiple filter collection.
 public MultipleFilterCollection()
 ```
 
+
+Constructs one new instance.
 
 ### add(Object o) {#add-java.lang.Object-}
 ```

@@ -43,7 +43,7 @@ Collects the [Row](../../com.aspose.cells/row) objects that represent the indivi
 | [iterator(boolean reversed, boolean sync)](#iterator-boolean-boolean-) | Gets an enumerator that iterates rows through this collection |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Remove the row at the specified index |
+| [removeAt(int index)](#removeAt-int-) | Remove the row item at the specified index(position) in this collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -197,12 +197,12 @@ public void removeAt(int index)
 ```
 
 
-Remove the row at the specified index
+Remove the row item at the specified index(position) in this collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | zero-based row index |
+| index | int | zero-based index(position, not [Row.getIndex()](../../com.aspose.cells/row\#getIndex--)) of the existing row item in this collection. |
 
 ### toString() {#toString--}
 ```

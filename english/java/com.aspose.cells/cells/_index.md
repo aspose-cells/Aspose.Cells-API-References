@@ -56,8 +56,8 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [applyStyle(Style style, StyleFlag flag)](#applyStyle-com.aspose.cells.Style-com.aspose.cells.StyleFlag-) | Applies formats for a whole worksheet. |
 | [checkCell(int row, int column)](#checkCell-int-int-) | Gets the [Cell](../../com.aspose.cells/cell) element or null at the specified cell row index and column index. |
 | [checkColumn(int columnIndex)](#checkColumn-int-) | Gets the [Column](../../com.aspose.cells/column) element or null at the specified column index. |
-| [checkRow(int row)](#checkRow-int-) | Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index. |
-| [clear()](#clear--) | Clears all cell and row objects. |
+| [checkRow(int row)](#checkRow-int-) | Gets the [Row](../../com.aspose.cells/row) element or null at the specified cell row index. |
+| [clear()](#clear--) | Clears all data of the worksheet. |
 | [clearContents(CellArea range)](#clearContents-com.aspose.cells.CellArea-) | Clears contents of a range. |
 | [clearContents(int startRow, int startColumn, int endRow, int endColumn)](#clearContents-int-int-int-int-) | Clears contents of a range. |
 | [clearFormats(CellArea range)](#clearFormats-com.aspose.cells.CellArea-) | Clears formatting of a range. |
@@ -65,7 +65,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [clearMergedCells()](#clearMergedCells--) | Clears all merged ranges. |
 | [clearRange(CellArea range)](#clearRange-com.aspose.cells.CellArea-) | Clears contents and formatting of a range. |
 | [clearRange(int startRow, int startColumn, int endRow, int endColumn)](#clearRange-int-int-int-int-) | Clears contents and formatting of a range. |
-| [convertStringToNumericValue()](#convertStringToNumericValue--) | Converts string data in cells to numeric value if possible. |
+| [convertStringToNumericValue()](#convertStringToNumericValue--) | Converts all string data in the worksheet to numeric value if possible. |
 | [copyColumn(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex)](#copyColumn-com.aspose.cells.Cells-int-int-) | Copies data and formats of a whole column. |
 | [copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber)](#copyColumns-com.aspose.cells.Cells-int-int-int-) | Copies data and formats of a whole column. |
 | [copyColumns(Cells sourceCells0, int sourceColumnIndex, int destinationColumnIndex, int columnNumber, PasteOptions pasteOptions)](#copyColumns-com.aspose.cells.Cells-int-int-int-com.aspose.cells.PasteOptions-) | Copies data and formats of a whole column. |
@@ -100,15 +100,10 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [exportTypeArray(int firstRow, int firstColumn, int totalRows, int totalColumns)](#exportTypeArray-int-int-int-int-) | Exports cell value type in the [Cells](../../com.aspose.cells/cells) collection to a two-dimension array object. |
 | [find(Object what, Cell previousCell)](#find-java.lang.Object-com.aspose.cells.Cell-) | Finds the cell containing with the input object. |
 | [find(Object what, Cell previousCell, FindOptions findOptions)](#find-java.lang.Object-com.aspose.cells.Cell-com.aspose.cells.FindOptions-) | Finds the cell containing with the input object. |
-| [findFormula(String formula, Cell previousCell)](#findFormula-java.lang.String-com.aspose.cells.Cell-) | Finds the cell with the input string. |
-| [findFormulaContains(String formula, Cell previousCell)](#findFormulaContains-java.lang.String-com.aspose.cells.Cell-) | Finds the cell with formula which contains the input string. |
-| [get(int index)](#get-int-) | Gets [Cell](../../com.aspose.cells/cell) item within the worksheet |
 | [get(int row, int column)](#get-int-int-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index. |
 | [get(String cellName)](#get-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name. |
-| [getCell(int row, int column)](#getCell-int-int-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index. |
 | [getCellStyle(int row, int column)](#getCellStyle-int-int-) | Get the style of given cell. |
 | [getClass()](#getClass--) |  |
-| [getColumn(int columnIndex)](#getColumn-int-) | Gets the [Column](../../com.aspose.cells/column) element or at the specified cell row index. |
 | [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width(in unit of characters) of the specified column in normal view |
 | [getColumnWidthInch(int column)](#getColumnWidthInch-int-) | Gets the width of the specified column in normal view, in units of inches. |
 | [getColumnWidthPixel(int column)](#getColumnWidthPixel-int-) | Gets the width of the specified column in normal view, in units of pixel. |
@@ -141,7 +136,6 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getOdsCellFields()](#getOdsCellFields--) | Gets the list of fields of ods. |
 | [getPreserveString()](#getPreserveString--) | Gets a value indicating whether all worksheet values are preserved as strings. |
 | [getRanges()](#getRanges--) | Gets the collection of [Range](../../com.aspose.cells/range) objects created at run time. |
-| [getRow(int row)](#getRow-int-) | Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index. |
 | [getRowEnumerator()](#getRowEnumerator--) | Gets the rows enumerator. |
 | [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of a specified row, in unit of points. |
 | [getRowHeightInch(int row)](#getRowHeightInch-int-) | Gets the height of a specified row in unit of inches. |
@@ -154,7 +148,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getStandardWidth()](#getStandardWidth--) | Gets the default column width in the worksheet, in unit of characters. |
 | [getStandardWidthInch()](#getStandardWidthInch--) | Gets the default column width in the worksheet, in unit of inches. |
 | [getStandardWidthPixels()](#getStandardWidthPixels--) | Gets the default column width in the worksheet, in unit of pixels. |
-| [getStyle()](#getStyle--) | Gets the default style. |
+| [getStyle()](#getStyle--) | Gets the default style of the worksheet. |
 | [getViewColumnWidthPixel(int column)](#getViewColumnWidthPixel-int-) | Get the width in different view type. |
 | [getViewRowHeight(int row)](#getViewRowHeight-int-) | Gets the height of a specified row. |
 | [getViewRowHeightInch(int row)](#getViewRowHeightInch-int-) | Gets the height of a specified row in unit of inches. |
@@ -245,7 +239,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [setStandardWidth(double value)](#setStandardWidth-double-) | Sets the default column width in the worksheet, in unit of characters. |
 | [setStandardWidthInch(double value)](#setStandardWidthInch-double-) | Sets the default column width in the worksheet, in unit of inches. |
 | [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) | Sets the default column width in the worksheet, in unit of pixels. |
-| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | Sets the default style. |
+| [setStyle(Style value)](#setStyle-com.aspose.cells.Style-) | Sets the default style of the worksheet. |
 | [setViewColumnWidthPixel(int column, int pixels)](#setViewColumnWidthPixel-int-int-) | Sets the width of the column in different view. |
 | [showGroupDetail(boolean isVertical, int index)](#showGroupDetail-boolean-int-) | Expands the grouped rows/columns. |
 | [subtotal(CellArea ca, int groupBy, int function, int[] totalList)](#subtotal-com.aspose.cells.CellArea-int-int-int---) | Creates subtotals for the range. |
@@ -357,7 +351,7 @@ public Row checkRow(int row)
 ```
 
 
-Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index.
+Gets the [Row](../../com.aspose.cells/row) element or null at the specified cell row index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,14 +359,14 @@ Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row 
 | row | int | Row index |
 
 **Returns:**
-[Row](../../com.aspose.cells/row) - If the row object does exist return Row object, otherwise return null.
+[Row](../../com.aspose.cells/row) - Returns [Row](../../com.aspose.cells/row) object If the row object does exist, otherwise returns null.
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-Clears all cell and row objects.
+Clears all data of the worksheet.
 
 ### clearContents(CellArea range) {#clearContents-com.aspose.cells.CellArea-}
 ```
@@ -475,7 +469,7 @@ public void convertStringToNumericValue()
 ```
 
 
-Converts string data in cells to numeric value if possible.
+Converts all string data in the worksheet to numeric value if possible.
 
 ### copyColumn(Cells sourceCells, int sourceColumnIndex, int destinationColumnIndex) {#copyColumn-com.aspose.cells.Cells-int-int-}
 ```
@@ -1009,65 +1003,6 @@ Returns null (Nothing) if no cell is found.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell) - Cell object.
-### findFormula(String formula, Cell previousCell) {#findFormula-java.lang.String-com.aspose.cells.Cell-}
-```
-public Cell findFormula(String formula, Cell previousCell)
-```
-
-
-Finds the cell with the input string.
-
-**Remarks**
-
-Returns null (Nothing) if no cell is found. NOTE: This member is now obsolete. Instead, please use Cells.Find(object,Cell,FindOptions) method with LookInType as LookInType.OnlyFormulas and LookAtType as LookAtType.EntireContent. This member will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| formula | java.lang.String | The formula to search for. |
-| previousCell | [Cell](../../com.aspose.cells/cell) | Previous cell with the same formula. This parameter can be set to null if searching from the start. |
-
-**Returns:**
-[Cell](../../com.aspose.cells/cell) - Cell object.
-### findFormulaContains(String formula, Cell previousCell) {#findFormulaContains-java.lang.String-com.aspose.cells.Cell-}
-```
-public Cell findFormulaContains(String formula, Cell previousCell)
-```
-
-
-Finds the cell with formula which contains the input string.
-
-**Remarks**
-
-Returns null (Nothing) if no cell is found. NOTE: This member is now obsolete. Instead, please use Cells.Find(object,Cell,FindOptions) method with LookInType as LookInType.OnlyFormulas and LookAtType as LookAtType.Contains. This member will be removed 12 months later since November 2018. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| formula | java.lang.String | The formula to search for. |
-| previousCell | [Cell](../../com.aspose.cells/cell) | Previous cell with the same formula. This parameter can be set to null if searching from the start. |
-
-**Returns:**
-[Cell](../../com.aspose.cells/cell) - Cell object.
-### get(int index) {#get-int-}
-```
-public Cell get(int index)
-```
-
-
-Gets [Cell](../../com.aspose.cells/cell) item within the worksheet
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Cells.GetEnumerator() method to iterate all cells in this worksheet. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index of the element. |
-
-**Returns:**
-[Cell](../../com.aspose.cells/cell)
 ### get(int row, int column) {#get-int-int-}
 ```
 public Cell get(int row, int column)
@@ -1115,26 +1050,6 @@ Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell) - A [Cell](../../com.aspose.cells/cell) object
-### getCell(int row, int column) {#getCell-int-int-}
-```
-public Cell getCell(int row, int column)
-```
-
-
-Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Cells.Get(int,int) method. This method will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row | int | Row index |
-| column | int | Column index |
-
-**Returns:**
-[Cell](../../com.aspose.cells/cell) - Return Cell object.
 ### getCellStyle(int row, int column) {#getCellStyle-int-int-}
 ```
 public Style getCellStyle(int row, int column)
@@ -1161,25 +1076,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getColumn(int columnIndex) {#getColumn-int-}
-```
-public Column getColumn(int columnIndex)
-```
-
-
-Gets the [Column](../../com.aspose.cells/column) element or at the specified cell row index.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use ColumnCollection[int] method. This method will be removed 12 months later since JANUARY 2010. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| columnIndex | int | The column index. |
-
-**Returns:**
-[Column](../../com.aspose.cells/column) - 
 ### getColumnWidth(int column) {#getColumnWidth-int-}
 ```
 public double getColumnWidth(int column)
@@ -1604,25 +1500,6 @@ Gets the collection of [Range](../../com.aspose.cells/range) objects created at 
 
 **Returns:**
 [RangeCollection](../../com.aspose.cells/rangecollection)
-### getRow(int row) {#getRow-int-}
-```
-public Row getRow(int row)
-```
-
-
-Gets the [Row](../../com.aspose.cells/row) element or at the specified cell row index.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use RowCollection[int] method. This method will be removed 12 months later since JANUARY 2010. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row | int | Row index |
-
-**Returns:**
-[Row](../../com.aspose.cells/row) - return the row object.
 ### getRowEnumerator() {#getRowEnumerator--}
 ```
 public Iterator getRowEnumerator()
@@ -1773,7 +1650,7 @@ public Style getStyle()
 ```
 
 
-Gets the default style.
+Gets the default style of the worksheet.
 
 **Returns:**
 [Style](../../com.aspose.cells/style)
@@ -3168,7 +3045,7 @@ public void setStyle(Style value)
 ```
 
 
-Sets the default style.
+Sets the default style of the worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |

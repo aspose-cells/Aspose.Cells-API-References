@@ -28,7 +28,6 @@ Represents options for calculation.
 | [getCharacterEncoding()](#getCharacterEncoding--) | Specifies the encoding used for encoding/decoding characters when calculating formulas. |
 | [getClass()](#getClass--) |  |
 | [getCustomEngine()](#getCustomEngine--) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [getCustomFunction()](#getCustomFunction--) | The custom formula calculation functions to extend the calculation engine. |
 | [getIgnoreError()](#getIgnoreError--) | Indicates whether errors encountered while calculating formulas should be ignored. |
 | [getLinkedDataSources()](#getLinkedDataSources--) | Specifies the data sources for external links used in formulas. |
 | [getPrecisionStrategy()](#getPrecisionStrategy--) | Specifies the strategy for processing precision of calculation. |
@@ -40,7 +39,6 @@ Represents options for calculation.
 | [setCalculationMonitor(AbstractCalculationMonitor value)](#setCalculationMonitor-com.aspose.cells.AbstractCalculationMonitor-) | The monitor for user to track the progress of formula calculation. |
 | [setCharacterEncoding(Encoding value)](#setCharacterEncoding-com.aspose.cells.Encoding-) | Specifies the encoding used for encoding/decoding characters when calculating formulas. |
 | [setCustomEngine(AbstractCalculationEngine value)](#setCustomEngine-com.aspose.cells.AbstractCalculationEngine-) | The custom formula calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [setCustomFunction(ICustomFunction value)](#setCustomFunction-com.aspose.cells.ICustomFunction-) | The custom formula calculation functions to extend the calculation engine. |
 | [setIgnoreError(boolean value)](#setIgnoreError-boolean-) | Indicates whether errors encountered while calculating formulas should be ignored. |
 | [setLinkedDataSources(Workbook[] value)](#setLinkedDataSources-com.aspose.cells.Workbook---) | Specifies the data sources for external links used in formulas. |
 | [setPrecisionStrategy(int value)](#setPrecisionStrategy-int-) | Specifies the strategy for processing precision of calculation. |
@@ -124,20 +122,6 @@ The custom formula calculation engine to extend the default calculation engine o
 
 **Returns:**
 [AbstractCalculationEngine](../../com.aspose.cells/abstractcalculationengine)
-### getCustomFunction() {#getCustomFunction--}
-```
-public ICustomFunction getCustomFunction()
-```
-
-
-The custom formula calculation functions to extend the calculation engine.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CustomEngine property, AbstractCalculationEngine provides more convenient and flexible APIs for manipulating custom functions. This property will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-[ICustomFunction](../../com.aspose.cells/icustomfunction)
 ### getIgnoreError() {#getIgnoreError--}
 ```
 public boolean getIgnoreError()
@@ -265,23 +249,6 @@ The custom formula calculation engine to extend the default calculation engine o
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [AbstractCalculationEngine](../../com.aspose.cells/abstractcalculationengine) |  |
-
-### setCustomFunction(ICustomFunction value) {#setCustomFunction-com.aspose.cells.ICustomFunction-}
-```
-public void setCustomFunction(ICustomFunction value)
-```
-
-
-The custom formula calculation functions to extend the calculation engine.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CustomEngine property, AbstractCalculationEngine provides more convenient and flexible APIs for manipulating custom functions. This property will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ICustomFunction](../../com.aspose.cells/icustomfunction) |  |
 
 ### setIgnoreError(boolean value) {#setIgnoreError-boolean-}
 ```

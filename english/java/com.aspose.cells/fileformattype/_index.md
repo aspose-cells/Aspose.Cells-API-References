@@ -17,6 +17,7 @@ Represents the file format types.
 
 | Field | Description |
 | --- | --- |
+| [AZW_3](#AZW-3) | AZW3 |
 | [BMP](#BMP) | Represents a BMP file. |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
 | [DIF](#DIF) | Data Interchange Format. |
@@ -103,6 +104,14 @@ Represents the file format types.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AZW_3 {#AZW-3}
+```
+public static final int AZW_3
+```
+
+
+AZW3
+
 ### BMP {#BMP}
 ```
 public static final int BMP

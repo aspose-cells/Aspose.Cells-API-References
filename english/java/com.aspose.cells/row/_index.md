@@ -59,7 +59,7 @@ Represents a single row in a worksheet.
 | [equals(Row row)](#equals-com.aspose.cells.Row-) | Checks whether this object refers to the same row with another row object. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Checks whether this object refers to the same row with another. |
 | [get(int column)](#get-int-) | Gets the cell. |
-| [getCellByIndex(int index)](#getCellByIndex-int-) | Get the cell by specific index in the list. |
+| [getCellByIndex(int index)](#getCellByIndex-int-) | Get the cell by specific index in the cells collection of this row. |
 | [getCellOrNull(int column)](#getCellOrNull-int-) | Gets the cell or null in the specific index. |
 | [getClass()](#getClass--) |  |
 | [getFirstCell()](#getFirstCell--) | Gets the first cell object in the row. |
@@ -74,7 +74,7 @@ Represents a single row in a worksheet.
 | [hashCode()](#hashCode--) |  |
 | [isBlank()](#isBlank--) | Indicates whether the row contains any data |
 | [isCollapsed()](#isCollapsed--) | whether the row is collapsed |
-| [isHeightMatched()](#isHeightMatched--) | Indicates that row height and default font height matches. |
+| [isHeightMatched()](#isHeightMatched--) | Indicates whether the row height matches current default font setting of the workbook. |
 | [isHidden()](#isHidden--) | Indicates whether the row is hidden. |
 | [iterator()](#iterator--) | Gets the cells enumerator |
 | [iterator(boolean reversed, boolean sync)](#iterator-boolean-boolean-) | Gets an enumerator that iterates cells through this row. |
@@ -83,7 +83,7 @@ Represents a single row in a worksheet.
 | [setCollapsed(boolean value)](#setCollapsed-boolean-) | whether the row is collapsed |
 | [setGroupLevel(byte value)](#setGroupLevel-byte-) | Gets the group level of the row. |
 | [setHeight(double value)](#setHeight-double-) | Sets the row height in unit of Points. |
-| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | Indicates that row height and default font height matches. |
+| [setHeightMatched(boolean value)](#setHeightMatched-boolean-) | Indicates whether the row height matches current default font setting of the workbook. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the row is hidden. |
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of this row. |
 | [toString()](#toString--) |  |
@@ -169,19 +169,19 @@ public Cell getCellByIndex(int index)
 ```
 
 
-Get the cell by specific index in the list.
+Get the cell by specific index in the cells collection of this row.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use Row.GetEnumerator() method to iterate all cells in this row. This property will be removed 12 months later since February 2015. Aspose apologizes for any inconvenience you may have experienced.
+To traverse all cells in sequence without modification, using [iterator()](../../com.aspose.cells/row\#iterator--) will give better performance than using this method to get cell one by one.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The position. |
+| index | int | The index(position) of the cell in the cells collection of this row. |
 
 **Returns:**
-[Cell](../../com.aspose.cells/cell) - The Cell object.
+[Cell](../../com.aspose.cells/cell) - The Cell object at given position.
 ### getCellOrNull(int column) {#getCellOrNull-int-}
 ```
 public Cell getCellOrNull(int column)
@@ -339,7 +339,11 @@ public boolean isHeightMatched()
 ```
 
 
-Indicates that row height and default font height matches.
+Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user.
+
+**Remarks**
+
+When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [Worksheet.autoFitRows()](../../com.aspose.cells/worksheet\#autoFitRows--)) to get the same result with what is shown in ms excel when you opening the workbook in it.
 
 **Returns:**
 boolean
@@ -458,7 +462,11 @@ public void setHeightMatched(boolean value)
 ```
 
 
-Indicates that row height and default font height matches.
+Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user.
+
+**Remarks**
+
+When this property is true, if the content in this row changes, generally the row height needs to be re-calculated(such as by [Worksheet.autoFitRows()](../../com.aspose.cells/worksheet\#autoFitRows--)) to get the same result with what is shown in ms excel when you opening the workbook in it.
 
 **Parameters:**
 | Parameter | Type | Description |

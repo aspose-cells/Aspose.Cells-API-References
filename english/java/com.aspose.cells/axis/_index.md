@@ -97,21 +97,18 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [getTitle()](#getTitle--) | Gets the axis' title. |
 | [hasMultiLevelLabels()](#hasMultiLevelLabels--) | Indicates whether the labels shall be shown as multi level. |
 | [hashCode()](#hashCode--) |  |
-| [isAutoCross()](#isAutoCross--) | Indicates whether Microsoft Workbook automatically sets the axis crossing point. |
 | [isAutoTickLabelSpacing()](#isAutoTickLabelSpacing--) | Indicates whether the spacing of tick label is automatic |
 | [isAutomaticMajorUnit()](#isAutomaticMajorUnit--) | Indicates whether the major unit of the axis is automatically assigned. |
 | [isAutomaticMaxValue()](#isAutomaticMaxValue--) | Indicates whether the max value is automatically assigned. |
 | [isAutomaticMinValue()](#isAutomaticMinValue--) | Indicates whether the min value is automatically assigned. |
 | [isAutomaticMinorUnit()](#isAutomaticMinorUnit--) | Indicates whether the minor unit of the axis is automatically assigned. |
 | [isBaseUnitAuto()](#isBaseUnitAuto--) | Represents whether the base unit is automatic. |
-| [isCrossAtMax()](#isCrossAtMax--) | Indicates whether Microsoft Workbook automatically sets the axis crossing point. |
 | [isDisplayUnitLabelShown()](#isDisplayUnitLabelShown--) | Represents if the display unit label is shown on the specified axis. |
 | [isLogarithmic()](#isLogarithmic--) | Represents if the value axis scale type is logarithmic or not. |
 | [isPlotOrderReversed()](#isPlotOrderReversed--) | Represents if Microsoft Excel plots data points from last to first. |
 | [isVisible()](#isVisible--) | Represents if the axis is visible. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoCross()](#setAutoCross--) | Sets the axis crossing point as automatic. |
 | [setAutoTickLabelSpacing(boolean value)](#setAutoTickLabelSpacing-boolean-) | Indicates whether the spacing of tick label is automatic |
 | [setAutomaticMajorUnit(boolean value)](#setAutomaticMajorUnit-boolean-) | Indicates whether the major unit of the axis is automatically assigned. |
 | [setAutomaticMaxValue(boolean value)](#setAutomaticMaxValue-boolean-) | Indicates whether the max value is automatically assigned. |
@@ -122,7 +119,6 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | [setBaseUnitScale(int value)](#setBaseUnitScale-int-) | Represents the base unit scale for the category axis. |
 | [setCategoryType(int value)](#setCategoryType-int-) | Represents the category axis type. |
 | [setCrossAt(double value)](#setCrossAt-double-) | Represents the point on the value axis where the category axis crosses it. |
-| [setCrossAtMax(boolean isCrossAtMax)](#setCrossAtMax-boolean-) | Sets whether the axis crosses at the maximum value. |
 | [setCrossType(int value)](#setCrossType-int-) | Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses. |
 | [setCustUnit(int value)](#setCustUnit-int-) | Specifies a custom value for the display unit. |
 | [setCustomUnit(int value)](#setCustomUnit-int-) | Specifies a custom value for the display unit. |
@@ -582,20 +578,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isAutoCross() {#isAutoCross--}
-```
-public boolean isAutoCross()
-```
-
-
-Indicates whether Microsoft Workbook automatically sets the axis crossing point.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### isAutoTickLabelSpacing() {#isAutoTickLabelSpacing--}
 ```
 public boolean isAutoTickLabelSpacing()
@@ -653,20 +635,6 @@ public boolean isBaseUnitAuto()
 
 
 Represents whether the base unit is automatic.
-
-**Returns:**
-boolean
-### isCrossAtMax() {#isCrossAtMax--}
-```
-public boolean isCrossAtMax()
-```
-
-
-Indicates whether Microsoft Workbook automatically sets the axis crossing point.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -729,18 +697,6 @@ public final native void notifyAll()
 
 
 
-
-### setAutoCross() {#setAutoCross--}
-```
-public void setAutoCross()
-```
-
-
-Sets the axis crossing point as automatic.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setAutoTickLabelSpacing(boolean value) {#setAutoTickLabelSpacing-boolean-}
 ```
@@ -887,23 +843,6 @@ The number should be a integer when it applies to category axis. And the value m
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
-
-### setCrossAtMax(boolean isCrossAtMax) {#setCrossAtMax-boolean-}
-```
-public void setCrossAtMax(boolean isCrossAtMax)
-```
-
-
-Sets whether the axis crosses at the maximum value.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Axis.CrossType property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isCrossAtMax | boolean |  |
 
 ### setCrossType(int value) {#setCrossType-int-}
 ```

@@ -18,6 +18,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAlignmentType()](#getAlignmentType--) | Gets the text alignment for the tick labels on the axis. |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getClass()](#getClass--) |  |
@@ -36,6 +37,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the rotation angle is automatic |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAlignmentType(int value)](#setAlignmentType-int-) | Sets the text alignment for the tick labels on the axis. |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
 | [setAutomaticRotation(boolean value)](#setAutomaticRotation-boolean-) | Indicates whether the rotation angle is automatic |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
@@ -66,6 +68,18 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAlignmentType() {#getAlignmentType--}
+```
+public int getAlignmentType()
+```
+
+
+Gets the text alignment for the tick labels on the axis.
+
+See [TickLabelAlignmentType](../../com.aspose.cells/ticklabelalignmenttype).
+
+**Returns:**
+int
 ### getAutoScaleFont() {#getAutoScaleFont--}
 ```
 public boolean getAutoScaleFont()
@@ -277,6 +291,21 @@ public final native void notifyAll()
 
 
 
+
+### setAlignmentType(int value) {#setAlignmentType-int-}
+```
+public void setAlignmentType(int value)
+```
+
+
+Sets the text alignment for the tick labels on the axis.
+
+See [TickLabelAlignmentType](../../com.aspose.cells/ticklabelalignmenttype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setAutoScaleFont(boolean value) {#setAutoScaleFont-boolean-}
 ```

@@ -1,7 +1,7 @@
 ---
 title: TickLabelItem
 second_title: Aspose.Cells for Java API Reference
-description: Include information of a Ticklabel item
+description: Represents a tick label in the chart.
 type: docs
 url: /java/com.aspose.cells/ticklabelitem/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class TickLabelItem
 ```
 
-Include information of a Ticklabel item
+Represents a tick label in the chart.
 ## Methods
 
 | Method | Description |

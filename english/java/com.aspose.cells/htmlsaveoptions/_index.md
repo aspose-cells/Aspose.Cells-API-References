@@ -73,6 +73,7 @@ Represents the options for saving html file.
 | [getLinkTargetType()](#getLinkTargetType--) | Indicating the type of target attribute in `<a>` link. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getMergeEmptyTdForcely()](#getMergeEmptyTdForcely--) | Indicates whether merging empty TD element forcedly when exporting file to html. |
+| [getMergeEmptyTdType()](#getMergeEmptyTdType--) | Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. |
 | [getPageTitle()](#getPageTitle--) | The title of the html page. |
 | [getParseHtmlTagInCell()](#getParseHtmlTagInCell--) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [getPresentationPreference()](#getPresentationPreference--) | Indicating if html or mht file is presentation preference. |
@@ -150,6 +151,7 @@ Represents the options for saving html file.
 | [setLinkTargetType(int value)](#setLinkTargetType-int-) | Indicating the type of target attribute in `<a>` link. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Indicates whether merging empty TD element forcedly when exporting file to html. |
+| [setMergeEmptyTdType(int value)](#setMergeEmptyTdType-int-) | Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. |
 | [setMobileCompatible(boolean value)](#setMobileCompatible-boolean-) | Indicates whether the output HTML is compatible with mobile devices. |
 | [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
 | [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
@@ -748,6 +750,18 @@ Indicates whether merging empty TD element forcedly when exporting file to html.
 
 **Returns:**
 boolean
+### getMergeEmptyTdType() {#getMergeEmptyTdType--}
+```
+public int getMergeEmptyTdType()
+```
+
+
+Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is MergeEmptyTdType.Default.
+
+See [MergeEmptyTdType](../../com.aspose.cells/mergeemptytdtype).
+
+**Returns:**
+int
 ### getPageTitle() {#getPageTitle--}
 ```
 public String getPageTitle()
@@ -1739,6 +1753,21 @@ Indicates whether merging empty TD element forcedly when exporting file to html.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setMergeEmptyTdType(int value) {#setMergeEmptyTdType-int-}
+```
+public void setMergeEmptyTdType(int value)
+```
+
+
+Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is MergeEmptyTdType.Default.
+
+See [MergeEmptyTdType](../../com.aspose.cells/mergeemptytdtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setMobileCompatible(boolean value) {#setMobileCompatible-boolean-}
 ```

@@ -30,6 +30,7 @@ Represents the options of saving ods file.
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getGeneratorType()](#getGeneratorType--) | Gets the generator of the ods file. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [getOdfStrictVersion()](#getOdfStrictVersion--) | Gets the ODF version. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether refreshing chart cache data |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
@@ -46,6 +47,7 @@ Represents the options of saving ods file.
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setGeneratorType(int value)](#setGeneratorType-int-) | Sets the generator of the ods file. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [setOdfStrictVersion(int value)](#setOdfStrictVersion-int-) | Sets the ODF version. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether refreshing chart cache data |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
@@ -163,6 +165,18 @@ The default value is false.
 
 **Returns:**
 boolean
+### getOdfStrictVersion() {#getOdfStrictVersion--}
+```
+public int getOdfStrictVersion()
+```
+
+
+Gets the ODF version.
+
+See [OpenDocumentFormatVersionType](../../com.aspose.cells/opendocumentformatversiontype).
+
+**Returns:**
+int
 ### getRefreshChartCache() {#getRefreshChartCache--}
 ```
 public boolean getRefreshChartCache()
@@ -261,6 +275,10 @@ public boolean isStrictSchema11()
 
 Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
 
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use OdsSaveOptions.OdfStrictVersion property. This method will be removed 12 months later since February 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### notify() {#notify--}
@@ -354,6 +372,21 @@ The default value is false.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setOdfStrictVersion(int value) {#setOdfStrictVersion-int-}
+```
+public void setOdfStrictVersion(int value)
+```
+
+
+Sets the ODF version.
+
+See [OpenDocumentFormatVersionType](../../com.aspose.cells/opendocumentformatversiontype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setRefreshChartCache(boolean value) {#setRefreshChartCache-boolean-}
 ```
 public void setRefreshChartCache(boolean value)
@@ -400,6 +433,10 @@ public void setStrictSchema11(boolean value)
 
 
 Indicates whether the ods file should be saved as ODF format version 1.1. Default is false.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use OdsSaveOptions.OdfStrictVersion property. This method will be removed 12 months later since February 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

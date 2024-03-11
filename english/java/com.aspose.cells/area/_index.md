@@ -65,11 +65,8 @@ Encapsulates the object that represents an area format.
 | [getInvertIfNegative()](#getInvertIfNegative--) | If the property is true and the value of chart point is a negative number, the foreground color and background color will be exchanged. |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [hashCode()](#hashCode--) |  |
-| [isAuto()](#isAuto--) | Indicates Microsoft Workbook automatically determines the area pattern. |
-| [isVisible()](#isVisible--) | Indicates whether the area is visible in the chart. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuto(boolean isAuto)](#setAuto-boolean-) | Sets whether Microsoft Workbook automatically determines the area pattern. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.cells.Color-) | Sets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
 | [setForegroundColor(Color value)](#setForegroundColor-com.aspose.cells.Color-) | Sets the foreground [Color](../../com.aspose.cells/color). |
 | [setFormatting(int value)](#setFormatting-int-) | Represents the formatting of the area. |
@@ -207,26 +204,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isAuto() {#isAuto--}
-```
-public boolean isAuto()
-```
-
-
-Indicates Microsoft Workbook automatically determines the area pattern.
-
-**Returns:**
-boolean
-### isVisible() {#isVisible--}
-```
-public boolean isVisible()
-```
-
-
-Indicates whether the area is visible in the chart.
-
-**Returns:**
-boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -242,19 +219,6 @@ public final native void notifyAll()
 
 
 
-
-### setAuto(boolean isAuto) {#setAuto-boolean-}
-```
-public void setAuto(boolean isAuto)
-```
-
-
-Sets whether Microsoft Workbook automatically determines the area pattern.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isAuto | boolean | isAuto whether Microsoft Workbook automatically determines the area pattern. |
 
 ### setBackgroundColor(Color value) {#setBackgroundColor-com.aspose.cells.Color-}
 ```

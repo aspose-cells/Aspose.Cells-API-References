@@ -55,7 +55,6 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [calculateArrayFormula(String formula, CalculationOptions opts)](#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-) | Calculates a formula as array formula. |
 | [calculateArrayFormula(String formula, CalculationOptions opts, int maxRowCount, int maxColumnCount)](#calculateArrayFormula-java.lang.String-com.aspose.cells.CalculationOptions-int-int-) | Calculates a formula as array formula. |
 | [calculateArrayFormula(String formula, FormulaParseOptions pOpts, CalculationOptions cOpts, int baseCellRow, int baseCellColumn, int maxRowCount, int maxColumnCount, CalculationData calculationData)](#calculateArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-com.aspose.cells.CalculationOptions-int-int-int-int-com.aspose.cells.CalculationData-) | Calculates a formula as array formula. |
-| [calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)](#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(CalculationOptions options, boolean recursive)](#calculateFormula-com.aspose.cells.CalculationOptions-boolean-) | Calculates all formulas in this worksheet. |
 | [calculateFormula(String formula)](#calculateFormula-java.lang.String-) | Calculates a formula. |
 | [calculateFormula(String formula, CalculationOptions opts)](#calculateFormula-java.lang.String-com.aspose.cells.CalculationOptions-) | Calculates a formula expression directly. |
@@ -547,25 +546,6 @@ The formula will be taken as dynamic array formula to calculate the dimension an
 
 **Returns:**
 java.lang.Object[][] - Calculated formula result.
-### calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction) {#calculateFormula-boolean-boolean-com.aspose.cells.ICustomFunction-}
-```
-public void calculateFormula(boolean recursive, boolean ignoreError, ICustomFunction customFunction)
-```
-
-
-Calculates all formulas in this worksheet.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CalculateFormula(CalculationOptions, bool) method. This method will be removed 12 months later since August 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| recursive | boolean | True means if the worksheet' cells depend on the cells of other worksheets, the dependent cells in other worksheets will be calculated too. False means all the formulas in the worksheet have been calculated and the values are right. |
-| ignoreError | boolean | Indicates if hide the error in calculating formulas. The error may be unsupported function, external links, etc. |
-| customFunction | [ICustomFunction](../../com.aspose.cells/icustomfunction) | The custom formula calculation functions to extend the calculation engine. |
-
 ### calculateFormula(CalculationOptions options, boolean recursive) {#calculateFormula-com.aspose.cells.CalculationOptions-boolean-}
 ```
 public void calculateFormula(CalculationOptions options, boolean recursive)

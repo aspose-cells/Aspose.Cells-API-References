@@ -31,46 +31,34 @@ Represents all settings of the workbook.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | Gets the author of the file. |
 | [getAutoCompressPictures()](#getAutoCompressPictures--) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
-| [getAutoRecover()](#getAutoRecover--) | Indicates whether the file is mark for auto-recovery. |
+| [getAutoRecover()](#getAutoRecover--) | Indicates whether the file is marked for auto-recovery. |
 | [getBuildVersion()](#getBuildVersion--) | Specifies the incremental public release of the application. |
-| [getCalcMode()](#getCalcMode--) | It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. |
-| [getCalcStackSize()](#getCalcStackSize--) | Specifies the stack size for calculating cells recursively. |
-| [getCalculationId()](#getCalculationId--) | Specifies the version of the calculation engine used to calculate values in the workbook. |
 | [getCheckCompatibility()](#getCheckCompatibility--) | Indicates whether check compatibility with earlier versions when saving workbook. |
 | [getCheckCustomNumberFormat()](#getCheckCustomNumberFormat--) | Indicates whether checking custom number format when setting Style.Custom. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Whether check restriction of excel file when user modify cells related objects. |
 | [getClass()](#getClass--) |  |
 | [getCompliance()](#getCompliance--) | Specifies the OOXML version for the output document. |
 | [getCrashSave()](#getCrashSave--) | indicates whether the application last saved the workbook file after a crash. |
-| [getCreateCalcChain()](#getCreateCalcChain--) | Whether creates calculated formulas chain. |
 | [getDataExtractLoad()](#getDataExtractLoad--) | indicates whether the application last opened the workbook for data recovery. |
 | [getDate1904()](#getDate1904--) | Gets a value which represents if the workbook uses the 1904 date system. |
 | [getDisplayDrawingObjects()](#getDisplayDrawingObjects--) | Indicates whether and how to show objects in the workbook. |
 | [getEnableMacros()](#getEnableMacros--) | Enable macros; |
 | [getFirstVisibleTab()](#getFirstVisibleTab--) | Gets the first visible worksheet tab. |
-| [getForceFullCalculate()](#getForceFullCalculate--) | Fully calculates every time when a calculation is triggered. |
 | [getFormulaSettings()](#getFormulaSettings--) | Gets the settings for formula-related features. |
 | [getGlobalizationSettings()](#getGlobalizationSettings--) | Gets the globalization settings. |
 | [getHidePivotFieldList()](#getHidePivotFieldList--) | Gets whether hide the field list for the PivotTable. |
-| [getIteration()](#getIteration--) | Indicates whether enable iterative calculation to resolve circular references. |
 | [getLanguageCode()](#getLanguageCode--) | Gets the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [getLocale()](#getLocale--) | Gets the Locale used by this workbook. |
-| [getMaxChange()](#getMaxChange--) | Returns or sets the maximum number of change to resolve a circular reference. |
 | [getMaxColumn()](#getMaxColumn--) | Gets the max column index, zero-based. |
-| [getMaxIteration()](#getMaxIteration--) | Returns or sets the maximum number of iterations to resolve a circular reference. |
 | [getMaxRow()](#getMaxRow--) | Gets the max row index, zero-based. |
 | [getMaxRowsOfSharedFormula()](#getMaxRowsOfSharedFormula--) | Gets the max row number of shared formula. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory usage options. |
 | [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | Gets the decimal separator for formatting/parsing numeric values. |
 | [getNumberGroupSeparator()](#getNumberGroupSeparator--) | Gets the character that separates groups of digits to the left of the decimal in numeric values. |
 | [getPaperSize()](#getPaperSize--) | Gets the default print paper size. |
-| [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getPassword()](#getPassword--) | Represents Workbook file encryption password. |
-| [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
 | [getProtectionType()](#getProtectionType--) | Gets the protection type of the workbook. |
 | [getQuotePrefixToStyle()](#getQuotePrefixToStyle--) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
-| [getReCalculateOnOpen()](#getReCalculateOnOpen--) | Indicates whether re-calculate all formulas on opening file. |
-| [getRecalculateBeforeSave()](#getRecalculateBeforeSave--) | Indicates whether to recalculate before saving the document. |
 | [getRegion()](#getRegion--) | Gets the regional settings for workbook. |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation--) | True if personal information can be removed from the specified workbook. |
 | [getRepairLoad()](#getRepairLoad--) | Indicates whether the application last opened the workbook in safe or repair mode. |
@@ -109,33 +97,25 @@ Represents all settings of the workbook.
 | [notifyAll()](#notifyAll--) |  |
 | [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of the file. |
 | [setAutoCompressPictures(boolean value)](#setAutoCompressPictures-boolean-) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
-| [setAutoRecover(boolean value)](#setAutoRecover-boolean-) | Indicates whether the file is mark for auto-recovery. |
+| [setAutoRecover(boolean value)](#setAutoRecover-boolean-) | Indicates whether the file is marked for auto-recovery. |
 | [setBuildVersion(String value)](#setBuildVersion-java.lang.String-) | Specifies the incremental public release of the application. |
-| [setCalcMode(int value)](#setCalcMode-int-) | It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations. |
-| [setCalcStackSize(int value)](#setCalcStackSize-int-) | Specifies the stack size for calculating cells recursively. |
-| [setCalculationId(String value)](#setCalculationId-java.lang.String-) | Specifies the version of the calculation engine used to calculate values in the workbook. |
 | [setCheckCompatibility(boolean value)](#setCheckCompatibility-boolean-) | Indicates whether check compatibility with earlier versions when saving workbook. |
 | [setCheckCustomNumberFormat(boolean value)](#setCheckCustomNumberFormat-boolean-) | Indicates whether checking custom number format when setting Style.Custom. |
 | [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Whether check restriction of excel file when user modify cells related objects. |
 | [setCompliance(int value)](#setCompliance-int-) | Specifies the OOXML version for the output document. |
 | [setCrashSave(boolean value)](#setCrashSave-boolean-) | indicates whether the application last saved the workbook file after a crash. |
-| [setCreateCalcChain(boolean value)](#setCreateCalcChain-boolean-) | Whether creates calculated formulas chain. |
 | [setDataExtractLoad(boolean value)](#setDataExtractLoad-boolean-) | indicates whether the application last opened the workbook for data recovery. |
 | [setDate1904(boolean value)](#setDate1904-boolean-) | Sets a value which represents if the workbook uses the 1904 date system. |
 | [setDefaultEncrypted(boolean value)](#setDefaultEncrypted-boolean-) | Indicates whether encrypting the workbook with default password if Structure and Windows of the workbook are locked. |
 | [setDisplayDrawingObjects(int value)](#setDisplayDrawingObjects-int-) | Indicates whether and how to show objects in the workbook. |
 | [setEnableMacros(boolean value)](#setEnableMacros-boolean-) | Enable macros; |
 | [setFirstVisibleTab(int value)](#setFirstVisibleTab-int-) | Sets the first visible worksheet tab. |
-| [setForceFullCalculate(boolean value)](#setForceFullCalculate-boolean-) | Fully calculates every time when a calculation is triggered. |
 | [setGlobalizationSettings(GlobalizationSettings value)](#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-) | Sets the globalization settings. |
 | [setHScrollBarVisible(boolean value)](#setHScrollBarVisible-boolean-) | Sets a value indicating whether the generated spreadsheet will contain a horizontal scroll bar. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether this workbook is hidden. |
 | [setHidePivotFieldList(boolean value)](#setHidePivotFieldList-boolean-) | Sets whether hide the field list for the PivotTable. |
-| [setIteration(boolean value)](#setIteration-boolean-) | Indicates whether enable iterative calculation to resolve circular references. |
 | [setLanguageCode(int value)](#setLanguageCode-int-) | Sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [setLocale(Locale value)](#setLocale-java.util.Locale-) | Sets the Locale used by this workbook. |
-| [setMaxChange(double value)](#setMaxChange-double-) | Returns or sets the maximum number of change to resolve a circular reference. |
-| [setMaxIteration(int value)](#setMaxIteration-int-) | Returns or sets the maximum number of iterations to resolve a circular reference. |
 | [setMaxRowsOfSharedFormula(int value)](#setMaxRowsOfSharedFormula-int-) | Sets the max row number of shared formula. |
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory usage options. |
 | [setMinimized(boolean value)](#setMinimized-boolean-) | Represents whether the generated spreadsheet will be opened Minimized. |
@@ -143,12 +123,8 @@ Represents all settings of the workbook.
 | [setNumberGroupSeparator(char value)](#setNumberGroupSeparator-char-) | Sets the character that separates groups of digits to the left of the decimal in numeric values. |
 | [setPageOrientationType(int pageOrientationType)](#setPageOrientationType-int-) | Set the type of print orientation for the whole workbook. |
 | [setPaperSize(int value)](#setPaperSize-int-) | Sets the default print paper size. |
-| [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Represents Workbook file encryption password. |
-| [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
 | [setQuotePrefixToStyle(boolean value)](#setQuotePrefixToStyle-boolean-) | Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell |
-| [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | Indicates whether re-calculate all formulas on opening file. |
-| [setRecalculateBeforeSave(boolean value)](#setRecalculateBeforeSave-boolean-) | Indicates whether to recalculate before saving the document. |
 | [setRegion(int value)](#setRegion-int-) | Sets the regional settings for workbook. |
 | [setRemovePersonalInformation(boolean value)](#setRemovePersonalInformation-boolean-) | True if personal information can be removed from the specified workbook. |
 | [setRepairLoad(boolean value)](#setRepairLoad-boolean-) | Indicates whether the application last opened the workbook in safe or repair mode. |
@@ -231,7 +207,7 @@ public boolean getAutoRecover()
 ```
 
 
-Indicates whether the file is mark for auto-recovery.
+Indicates whether the file is marked for auto-recovery.
 
 **Returns:**
 boolean
@@ -242,50 +218,6 @@ public String getBuildVersion()
 
 
 Specifies the incremental public release of the application.
-
-**Returns:**
-java.lang.String
-### getCalcMode() {#getCalcMode--}
-```
-public int getCalcMode()
-```
-
-
-It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations.
-
-See [CalcModeType](../../com.aspose.cells/calcmodetype).
-
-**Remarks**
-
-Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
-### getCalcStackSize() {#getCalcStackSize--}
-```
-public int getCalcStackSize()
-```
-
-
-Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand, larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas, this value should be decreased.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CalculationOptions with the specified CalcStackSize when calculating formulas. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
-### getCalculationId() {#getCalculationId--}
-```
-public String getCalculationId()
-```
-
-
-Specifies the version of the calculation engine used to calculate values in the workbook.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String
@@ -359,20 +291,6 @@ indicates whether the application last saved the workbook file after a crash.
 
 **Returns:**
 boolean
-### getCreateCalcChain() {#getCreateCalcChain--}
-```
-public boolean getCreateCalcChain()
-```
-
-
-Whether creates calculated formulas chain. Default is false.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableCalculationChain. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### getDataExtractLoad() {#getDataExtractLoad--}
 ```
 public boolean getDataExtractLoad()
@@ -429,20 +347,6 @@ Gets the first visible worksheet tab.
 
 **Returns:**
 int
-### getForceFullCalculate() {#getForceFullCalculate--}
-```
-public boolean getForceFullCalculate()
-```
-
-
-Fully calculates every time when a calculation is triggered.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### getFormulaSettings() {#getFormulaSettings--}
 ```
 public FormulaSettings getFormulaSettings()
@@ -473,20 +377,6 @@ Gets whether hide the field list for the PivotTable.
 
 **Returns:**
 boolean
-### getIteration() {#getIteration--}
-```
-public boolean getIteration()
-```
-
-
-Indicates whether enable iterative calculation to resolve circular references.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### getLanguageCode() {#getLanguageCode--}
 ```
 public int getLanguageCode()
@@ -513,20 +403,6 @@ Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbook
 
 **Returns:**
 java.util.Locale
-### getMaxChange() {#getMaxChange--}
-```
-public double getMaxChange()
-```
-
-
-Returns or sets the maximum number of change to resolve a circular reference.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-double
 ### getMaxColumn() {#getMaxColumn--}
 ```
 public int getMaxColumn()
@@ -538,20 +414,6 @@ Gets the max column index, zero-based.
 **Remarks**
 
 Returns 255 if the file format is Excel97-2003;
-
-**Returns:**
-int
-### getMaxIteration() {#getMaxIteration--}
-```
-public int getMaxIteration()
-```
-
-
-Returns or sets the maximum number of iterations to resolve a circular reference.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -631,20 +493,6 @@ If there is no setting about paper size,MS Excel will use default printer's sett
 
 **Returns:**
 int
-### getParsingFormulaOnOpen() {#getParsingFormulaOnOpen--}
-```
-public boolean getParsingFormulaOnOpen()
-```
-
-
-Indicates whether parsing the formula when reading the file.
-
-**Remarks**
-
-Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula. NOTE: This member is now obsolete. Instead, please use LoadOptions.ParsingFormulaOnOpen. This property will be removed 12 months later since January 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()
@@ -655,20 +503,6 @@ Represents Workbook file encryption password.
 
 **Returns:**
 java.lang.String
-### getPrecisionAsDisplayed() {#getPrecisionAsDisplayed--}
-```
-public boolean getPrecisionAsDisplayed()
-```
-
-
-True if calculations in this workbook will be done using only the precision of the numbers as they're displayed
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### getProtectionType() {#getProtectionType--}
 ```
 public int getProtectionType()
@@ -688,34 +522,6 @@ public boolean getQuotePrefixToStyle()
 
 
 Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell
-
-**Returns:**
-boolean
-### getReCalculateOnOpen() {#getReCalculateOnOpen--}
-```
-public boolean getReCalculateOnOpen()
-```
-
-
-Indicates whether re-calculate all formulas on opening file.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnOpen. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
-### getRecalculateBeforeSave() {#getRecalculateBeforeSave--}
-```
-public boolean getRecalculateBeforeSave()
-```
-
-
-Indicates whether to recalculate before saving the document.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -1185,7 +991,7 @@ public void setAutoRecover(boolean value)
 ```
 
 
-Indicates whether the file is mark for auto-recovery.
+Indicates whether the file is marked for auto-recovery.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1199,59 +1005,6 @@ public void setBuildVersion(String value)
 
 
 Specifies the incremental public release of the application.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### setCalcMode(int value) {#setCalcMode-int-}
-```
-public void setCalcMode(int value)
-```
-
-
-It specifies whether to calculate formulas manually, automatically or automatically except for multiple table operations.
-
-See [CalcModeType](../../com.aspose.cells/calcmodetype).
-
-**Remarks**
-
-Only sets for MS Excel. Please manually calling Workbook.CalculateFormula() method to calculate formulas with Aspose.Cells. NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationMode. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setCalcStackSize(int value) {#setCalcStackSize-int-}
-```
-public void setCalcStackSize(int value)
-```
-
-
-Specifies the stack size for calculating cells recursively. The large value for this size will give better performance when there are lots of cells need to be calculated recursively. On the other hand, larger value will raise the risk of StackOverflowException. If user gets StackOverflowException when calculating formulas, this value should be decreased.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CalculationOptions with the specified CalcStackSize when calculating formulas. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setCalculationId(String value) {#setCalculationId-java.lang.String-}
-```
-public void setCalculationId(String value)
-```
-
-
-Specifies the version of the calculation engine used to calculate values in the workbook.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculationId. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1327,23 +1080,6 @@ public void setCrashSave(boolean value)
 
 
 indicates whether the application last saved the workbook file after a crash.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setCreateCalcChain(boolean value) {#setCreateCalcChain-boolean-}
-```
-public void setCreateCalcChain(boolean value)
-```
-
-
-Whether creates calculated formulas chain. Default is false.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableCalculationChain. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1438,23 +1174,6 @@ Sets the first visible worksheet tab.
 | --- | --- | --- |
 | value | int |  |
 
-### setForceFullCalculate(boolean value) {#setForceFullCalculate-boolean-}
-```
-public void setForceFullCalculate(boolean value)
-```
-
-
-Fully calculates every time when a calculation is triggered.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.ForceFullCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setGlobalizationSettings(GlobalizationSettings value) {#setGlobalizationSettings-com.aspose.cells.GlobalizationSettings-}
 ```
 public void setGlobalizationSettings(GlobalizationSettings value)
@@ -1511,23 +1230,6 @@ Sets whether hide the field list for the PivotTable.
 | --- | --- | --- |
 | value | boolean |  |
 
-### setIteration(boolean value) {#setIteration-boolean-}
-```
-public void setIteration(boolean value)
-```
-
-
-Indicates whether enable iterative calculation to resolve circular references.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.EnableIterativeCalculation. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setLanguageCode(int value) {#setLanguageCode-int-}
 ```
 public void setLanguageCode(int value)
@@ -1559,40 +1261,6 @@ Returns null if neither Locale nor [getRegion()](../../com.aspose.cells/workbook
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Locale |  |
-
-### setMaxChange(double value) {#setMaxChange-double-}
-```
-public void setMaxChange(double value)
-```
-
-
-Returns or sets the maximum number of change to resolve a circular reference.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxChange. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
-### setMaxIteration(int value) {#setMaxIteration-int-}
-```
-public void setMaxIteration(int value)
-```
-
-
-Returns or sets the maximum number of iterations to resolve a circular reference.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.MaxIteration. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### setMaxRowsOfSharedFormula(int value) {#setMaxRowsOfSharedFormula-int-}
 ```
@@ -1697,23 +1365,6 @@ If there is no setting about paper size,MS Excel will use default printer's sett
 | --- | --- | --- |
 | value | int |  |
 
-### setParsingFormulaOnOpen(boolean value) {#setParsingFormulaOnOpen-boolean-}
-```
-public void setParsingFormulaOnOpen(boolean value)
-```
-
-
-Indicates whether parsing the formula when reading the file.
-
-**Remarks**
-
-Only applies for Excel Xlsx, Xltx, Xltm and Xlsm file because the formulas in the files are stored with a string formula. NOTE: This member is now obsolete. Instead, please use LoadOptions.ParsingFormulaOnOpen. This property will be removed 12 months later since January 2020. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```
 public void setPassword(String value)
@@ -1727,23 +1378,6 @@ Represents Workbook file encryption password.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-### setPrecisionAsDisplayed(boolean value) {#setPrecisionAsDisplayed-boolean-}
-```
-public void setPrecisionAsDisplayed(boolean value)
-```
-
-
-True if calculations in this workbook will be done using only the precision of the numbers as they're displayed
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.PrecisionAsDisplayed. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setQuotePrefixToStyle(boolean value) {#setQuotePrefixToStyle-boolean-}
 ```
 public void setQuotePrefixToStyle(boolean value)
@@ -1751,40 +1385,6 @@ public void setQuotePrefixToStyle(boolean value)
 
 
 Indicates whether setting [Style.getQuotePrefix()](../../com.aspose.cells/style\#getQuotePrefix--) property when entering the string value(which starts with single quote mark ) to the cell
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setReCalculateOnOpen(boolean value) {#setReCalculateOnOpen-boolean-}
-```
-public void setReCalculateOnOpen(boolean value)
-```
-
-
-Indicates whether re-calculate all formulas on opening file.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnOpen. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setRecalculateBeforeSave(boolean value) {#setRecalculateBeforeSave-boolean-}
-```
-public void setRecalculateBeforeSave(boolean value)
-```
-
-
-Indicates whether to recalculate before saving the document.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use FormulaSettings.CalculateOnSave. This property will be removed 12 months later since February 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

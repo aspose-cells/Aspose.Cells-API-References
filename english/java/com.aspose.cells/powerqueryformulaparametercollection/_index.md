@@ -1,7 +1,7 @@
 ---
 title: PowerQueryFormulaParameterCollection
 second_title: Aspose.Cells for Java API Reference
-description: Represents the
+description: Represents the parameters of power query formula.
 type: docs
 url: /java/com.aspose.cells/powerqueryformulaparametercollection/
 ---
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class PowerQueryFormulaParameterCollection extends CollectionBase
 ```
 
-Represents the
+Represents the parameters of power query formula.
 ## Constructors
 
 | Constructor | Description |

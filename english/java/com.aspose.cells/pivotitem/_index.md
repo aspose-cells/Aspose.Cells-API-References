@@ -29,6 +29,7 @@ Represents a item in a PivotField report.
 | [hide(boolean value)](#hide-boolean-) | Sets whether the pivot item is hidden. |
 | [isHidden()](#isHidden--) | Gets whether the pivot item is hidden. |
 | [isHideDetail()](#isHideDetail--) | Gets whether the pivot item hides detail. |
+| [isMissing()](#isMissing--) | Indicates whether the item has a missing value. |
 | [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -170,6 +171,20 @@ public boolean isHideDetail()
 
 
 Gets whether the pivot item hides detail.
+
+**Returns:**
+boolean
+### isMissing() {#isMissing--}
+```
+public boolean isMissing()
+```
+
+
+Indicates whether the item has a missing value.
+
+**Remarks**
+
+True means this value has benn removed from the data source.
 
 **Returns:**
 boolean

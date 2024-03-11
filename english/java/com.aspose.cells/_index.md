@@ -104,7 +104,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CollectionBase](../com.aspose.cells/collectionbase) | Provides the abstract base class for a strongly typed collection. |
 | [Color](../com.aspose.cells/color) | Represents an ARGB (alpha, red, green, blue) color. |
 | [ColorDepth](../com.aspose.cells/colordepth) | Enumerates Bit Depth Type for tiff image. |
-| [ColorFilter](../com.aspose.cells/colorfilter) | Represents the color filter. |
+| [ColorFilter](../com.aspose.cells/colorfilter) | Represents filtering the range by color. |
 | [ColorHelper](../com.aspose.cells/colorhelper) | Provides helper functions about color. |
 | [ColorScale](../com.aspose.cells/colorscale) | Describe the ColorScale conditional formatting rule. |
 | [ColorType](../com.aspose.cells/colortype) | Represents all color type |
@@ -169,7 +169,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DataLabelShapeType](../com.aspose.cells/datalabelshapetype) | Specifies the preset shape geometry that is to be used for a chart. |
 | [DataLabels](../com.aspose.cells/datalabels) | Encapsulates a collection of all the DataLabel objects for the specified Series. |
 | [DataLabelsSeparatorType](../com.aspose.cells/datalabelsseparatortype) | Represents the separator type of DataLabels. |
-| [DataLablesSeparatorType](../com.aspose.cells/datalablesseparatortype) | Represents the separator type of DataLabels. |
 | [DataMashup](../com.aspose.cells/datamashup) | Represents mashup data. |
 | [DataModelConnection](../com.aspose.cells/datamodelconnection) | Specifies a data model connection |
 | [DataSorter](../com.aspose.cells/datasorter) | Summary description for DataSorter. |
@@ -359,6 +358,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [MatrixEquationNode](../com.aspose.cells/matrixequationnode) | This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns. |
 | [MemoryFontSource](../com.aspose.cells/memoryfontsource) | Represents the single TrueType font file stored in memory. |
 | [MemorySetting](../com.aspose.cells/memorysetting) | Memory usage options. |
+| [MergeEmptyTdType](../com.aspose.cells/mergeemptytdtype) | Represents the merge type for empty TD element when exporting file to html. |
 | [MetadataOptions](../com.aspose.cells/metadataoptions) | Represents the options of loading metadata of the file. |
 | [MetadataType](../com.aspose.cells/metadatatype) | Represents the type of metadata. |
 | [Metered](../com.aspose.cells/metered) | Provides methods to set metered key. |
@@ -403,6 +403,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [OoxmlCompliance](../com.aspose.cells/ooxmlcompliance) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. |
 | [OoxmlCompressionType](../com.aspose.cells/ooxmlcompressiontype) | The Ooxml compression type |
 | [OoxmlSaveOptions](../com.aspose.cells/ooxmlsaveoptions) | Represents the options of saving office open xml file. |
+| [OpenDocumentFormatVersionType](../com.aspose.cells/opendocumentformatversiontype) | Open Document Format version type. |
 | [OperatorType](../com.aspose.cells/operatortype) | Represents the operator type of conditional format and data validation. |
 | [Outline](../com.aspose.cells/outline) | Represents an outline on a worksheet. |
 | [Oval](../com.aspose.cells/oval) | Represents the oval shape. |
@@ -479,7 +480,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PowerQueryFormulaItem](../com.aspose.cells/powerqueryformulaitem) | Represents the item of the power query formula. |
 | [PowerQueryFormulaItemCollection](../com.aspose.cells/powerqueryformulaitemcollection) | Represents all item of the power query formula. |
 | [PowerQueryFormulaParameter](../com.aspose.cells/powerqueryformulaparameter) | Represents the parameter of power query formula. |
-| [PowerQueryFormulaParameterCollection](../com.aspose.cells/powerqueryformulaparametercollection) | Represents the |
+| [PowerQueryFormulaParameterCollection](../com.aspose.cells/powerqueryformulaparametercollection) | Represents the parameters of power query formula. |
 | [PptxSaveOptions](../com.aspose.cells/pptxsaveoptions) | Represents the pptx save options. |
 | [PresetCameraType](../com.aspose.cells/presetcameratype) | Represent different algorithmic methods for setting all camera properties, including position. |
 | [PresetMaterialType](../com.aspose.cells/presetmaterialtype) | Describes surface appearance of a shape. |
@@ -657,7 +658,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ThreadedCommentAuthorCollection](../com.aspose.cells/threadedcommentauthorcollection) | Represents all persons who . |
 | [ThreadedCommentCollection](../com.aspose.cells/threadedcommentcollection) | Represents the list of threaded comments. |
 | [ThreeDFormat](../com.aspose.cells/threedformat) | Represents a shape's three-dimensional formatting. |
-| [TickLabelItem](../com.aspose.cells/ticklabelitem) | Include information of a Ticklabel item |
+| [TickLabelAlignmentType](../com.aspose.cells/ticklabelalignmenttype) | Represents the text alignment type for the tick labels on the axis |
+| [TickLabelItem](../com.aspose.cells/ticklabelitem) | Represents a tick label in the chart. |
 | [TickLabelPositionType](../com.aspose.cells/ticklabelpositiontype) | Represents the position type of tick-mark labels on the specified axis. |
 | [TickLabels](../com.aspose.cells/ticklabels) | Represents the tick-mark labels associated with tick marks on a chart axis. |
 | [TickMarkType](../com.aspose.cells/tickmarktype) | Represents the tick mark type for the specified axis. |
@@ -742,7 +744,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | Interface | Description |
 | --- | --- |
 | [ICellsDataTable](../com.aspose.cells/icellsdatatable) | Represents data table. |
-| [ICustomFunction](../com.aspose.cells/icustomfunction) | Allows users to add their custom formula calculation functions to extend the calculation engine. |
 | [ICustomParser](../com.aspose.cells/icustomparser) | Allows users to add their custom value parser for parsing string values to other proper cell value object. |
 | [IExportObjectListener](../com.aspose.cells/iexportobjectlistener) | Allows users to manipulate objects while exporting. |
 | [IFilePathProvider](../com.aspose.cells/ifilepathprovider) | Represents the exported file path provider. |
