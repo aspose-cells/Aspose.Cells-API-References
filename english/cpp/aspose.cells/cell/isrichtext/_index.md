@@ -2,7 +2,7 @@
 title: Aspose::Cells::Cell::IsRichText method
 linktitle: IsRichText
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cell::IsRichText method. Indicates whether the cell string value is a rich text in C++.'
+description: 'Aspose::Cells::Cell::IsRichText method. Indicates whether the string value of this cell is a rich formatted text in C++.'
 type: docs
 weight: 5800
 url: /cpp/aspose.cells/cell/isrichtext/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cell/isrichtext/
 ## Cell::IsRichText method
 
 
-Indicates whether the cell string value is a rich text.
+Indicates whether the string value of this cell is a rich formatted text.
 
 ```cpp
 bool Aspose::Cells::Cell::IsRichText()

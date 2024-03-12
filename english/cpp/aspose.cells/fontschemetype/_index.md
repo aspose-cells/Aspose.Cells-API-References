@@ -20,9 +20,9 @@ enum class FontSchemeType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | None. |
-| Major | 1 | Major scheme. |
-| Minor | 2 | Minor scheme. |
+| None | 0 | <br>None. |
+| Major | 1 | <br>Major scheme. |
+| Minor | 2 | <br>Minor scheme. |
 
 ## See Also
 

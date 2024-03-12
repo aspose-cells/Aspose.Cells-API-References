@@ -4,7 +4,7 @@ linktitle: GetAllowComments
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureLine::GetAllowComments method. Indicates whether comments could be attached in C++.'
 type: docs
-weight: 1400
+weight: 1800
 url: /cpp/aspose.cells.drawing/signatureline/getallowcomments/
 ---
 ## SignatureLine::GetAllowComments method

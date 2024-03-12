@@ -20,15 +20,15 @@ enum class OdsPageBackgroundGraphicPositionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| TopLeft | 0 | Top left. |
-| TopCenter | 1 | Top center. |
-| TopRight | 2 | Top right. |
-| CenterLeft | 3 | Center left. |
-| CenterCenter | 4 | Center. |
-| CenterRight | 5 | Center right. |
-| BottomLeft | 6 | Bottom left. |
-| BottomCenter | 7 | Bottom center. |
-| BottomRight | 8 | Bottom right. |
+| TopLeft | 0 | <br>Top left. |
+| TopCenter | 1 | <br>Top center. |
+| TopRight | 2 | <br>Top right. |
+| CenterLeft | 3 | <br>Center left. |
+| CenterCenter | 4 | <br>Center. |
+| CenterRight | 5 | <br>Center right. |
+| BottomLeft | 6 | <br>Bottom left. |
+| BottomCenter | 7 | <br>Bottom center. |
+| BottomRight | 8 | <br>Bottom right. |
 
 ## See Also
 

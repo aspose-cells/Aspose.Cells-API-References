@@ -2,7 +2,7 @@
 title: Aspose::Cells::QueryTables::PowerQueryFormulaParameterCollection class
 linktitle: PowerQueryFormulaParameterCollection
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::QueryTables::PowerQueryFormulaParameterCollection class. Represents the in C++.'
+description: 'Aspose::Cells::QueryTables::PowerQueryFormulaParameterCollection class. Represents the parameters of power query formula in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.querytables/powerqueryformulaparametercollection/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.querytables/powerqueryformulaparametercollection/
 ## PowerQueryFormulaParameterCollection class
 
 
-Represents the.
+Represents the parameters of power query formula.
 
 ```cpp
 class PowerQueryFormulaParameterCollection

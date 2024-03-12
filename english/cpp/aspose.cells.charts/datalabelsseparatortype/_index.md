@@ -4,7 +4,7 @@ linktitle: DataLabelsSeparatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabelsSeparatorType enum. Represents the separator type of DataLabels in C++.'
 type: docs
-weight: 4700
+weight: 4800
 url: /cpp/aspose.cells.charts/datalabelsseparatortype/
 ---
 ## DataLabelsSeparatorType enum
@@ -20,13 +20,13 @@ enum class DataLabelsSeparatorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Auto | 0 | Represents automatic separator. |
-| Space | 1 | Represents space(" ") |
-| Comma | 2 | Represents comma(",") |
-| Semicolon | 3 | Represents semicolon(";") |
-| Period | 4 | Represents period(".") |
-| NewLine | 5 | Represents newline("\n") |
-| Custom | 6 | Represents custom separator. |
+| Auto | 0 | <br>Represents automatic separator. |
+| Space | 1 | <br>Represents space(" ") |
+| Comma | 2 | <br>Represents comma(",") |
+| Semicolon | 3 | <br>Represents semicolon(";") |
+| Period | 4 | <br>Represents period(".") |
+| NewLine | 5 | <br>Represents newline("\n") |
+| Custom | 6 | <br>Represents custom separator. |
 
 ## See Also
 

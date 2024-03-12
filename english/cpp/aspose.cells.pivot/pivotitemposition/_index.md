@@ -20,9 +20,9 @@ enum class PivotItemPosition
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Previous | 0 | Represents the previous pivot item in the [PivotField](../pivotfield/). |
-| Next | 1 | Represents the next pivot item in the [PivotField](../pivotfield/). |
-| Custom | 2 | Represents a pivot item index, as specified by [Pivot](../) Items, that specifies a pivot item in the [PivotField](../pivotfield/). |
+| Previous | 0 | <br>Represents the previous pivot item in the [PivotField](../pivotfield/). |
+| Next | 1 | <br>Represents the next pivot item in the [PivotField](../pivotfield/). |
+| Custom | 2 | <br>Represents a pivot item index, as specified by [Pivot](../) Items, that specifies a pivot item in the [PivotField](../pivotfield/). |
 
 ## See Also
 

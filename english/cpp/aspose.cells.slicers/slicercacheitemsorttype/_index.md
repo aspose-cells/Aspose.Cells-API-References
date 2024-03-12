@@ -20,8 +20,8 @@ enum class SlicerCacheItemSortType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ascending | 0 | Ascending sort type. |
-| Descending | 1 | Descending sort type. |
+| Ascending | 0 | <br>Ascending sort type. |
+| Descending | 1 | <br>Descending sort type. |
 
 ## See Also
 

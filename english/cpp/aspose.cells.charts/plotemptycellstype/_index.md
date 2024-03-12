@@ -20,9 +20,9 @@ enum class PlotEmptyCellsType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotPlotted | 0 | Not plotted(leave gap) |
-| Zero | 1 | Zero. |
-| Interpolated | 2 | Interpolated. |
+| NotPlotted | 0 | <br>Not plotted(leave gap) |
+| Zero | 1 | <br>Zero. |
+| Interpolated | 2 | <br>Interpolated. |
 
 ## See Also
 

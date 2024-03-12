@@ -4,7 +4,7 @@ linktitle: Title
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Title class. Encapsulates the object that represents the title of chart or axis in C++.'
 type: docs
-weight: 3200
+weight: 3300
 url: /cpp/aspose.cells.charts/title/
 ---
 ## Title class

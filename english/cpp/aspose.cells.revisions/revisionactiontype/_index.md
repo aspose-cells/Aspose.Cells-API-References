@@ -20,12 +20,12 @@ enum class RevisionActionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Add | 0 | Add revision. |
-| Delete | 1 | Delete revision. |
-| DeleteColumn | 2 | [Column](../../aspose.cells/column/) delete revision. |
-| DeleteRow | 3 | [Row](../../aspose.cells/row/) delete revision. |
-| InsertColumn | 4 | [Column](../../aspose.cells/column/) insert revision. |
-| InsertRow | 5 | [Row](../../aspose.cells/row/) insert revision. |
+| Add | 0 | <br>Add revision. |
+| Delete | 1 | <br>Delete revision. |
+| DeleteColumn | 2 | <br>[Column](../../aspose.cells/column/) delete revision. |
+| DeleteRow | 3 | <br>[Row](../../aspose.cells/row/) delete revision. |
+| InsertColumn | 4 | <br>[Column](../../aspose.cells/column/) insert revision. |
+| InsertRow | 5 | <br>[Row](../../aspose.cells/row/) insert revision. |
 
 ## See Also
 

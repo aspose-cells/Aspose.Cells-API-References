@@ -20,11 +20,11 @@ enum class ControlPictureAlignmentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| TopLeft | 0 | The top left corner. |
-| TopRight | 1 | The top right corner. |
-| Center | 2 | The center. |
-| BottomLeft | 3 | The bottom left corner. |
-| BottomRight | 4 | The bottom right corner. |
+| TopLeft | 0 | <br>The top left corner. |
+| TopRight | 1 | <br>The top right corner. |
+| Center | 2 | <br>The center. |
+| BottomLeft | 3 | <br>The bottom left corner. |
+| BottomRight | 4 | <br>The bottom right corner. |
 
 ## See Also
 

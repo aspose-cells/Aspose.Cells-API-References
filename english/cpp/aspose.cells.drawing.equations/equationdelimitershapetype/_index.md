@@ -20,8 +20,8 @@ enum class EquationDelimiterShapeType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Centered | 0 | The divider is centered around the entire height of its content. |
-| Match | 1 | The divider is altered to exactly match their contents' height. |
+| Centered | 0 | <br>The divider is centered around the entire height of its content. |
+| Match | 1 | <br>The divider is altered to exactly match their contents' height. |
 
 ## See Also
 

@@ -20,8 +20,8 @@ enum class GridlineType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Dotted | 0 | Represents dotted line. |
-| Hair | 1 | Represents hair line. |
+| Dotted | 0 | <br>Represents dotted line. |
+| Hair | 1 | <br>Represents hair line. |
 
 ## See Also
 

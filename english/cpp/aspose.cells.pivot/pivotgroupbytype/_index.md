@@ -20,15 +20,15 @@ enum class PivotGroupByType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| RangeOfValues | 0 | Group by numbers. |
-| Numbers | 0 | Group by numbers. |
-| Seconds | 1 | Presents Seconds groupby type. |
-| Minutes | 2 | Presents Minutes groupby type. |
-| Hours | 3 | Presents Hours groupby type. |
-| Days | 4 | Presents Days groupby type. |
-| Months | 5 | Presents Months groupby type. |
-| Quarters | 6 | Presents Quarters groupby type. |
-| Years | 7 | Presents Years groupby type. |
+| RangeOfValues | 0 |  **(Deprecated - Use PivotGroupByType.Numbers instead. )** <br>Group by numbers. |
+| Numbers | 0 | <br>Group by numbers. |
+| Seconds | 1 | <br>Presents Seconds groupby type. |
+| Minutes | 2 | <br>Presents Minutes groupby type. |
+| Hours | 3 | <br>Presents Hours groupby type. |
+| Days | 4 | <br>Presents Days groupby type. |
+| Months | 5 | <br>Presents Months groupby type. |
+| Quarters | 6 | <br>Presents Quarters groupby type. |
+| Years | 7 | <br>Presents Years groupby type. |
 
 ## See Also
 

@@ -20,8 +20,8 @@ enum class PdfCustomPropertiesExport
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No custom properties are exported. |
-| Standard | 1 | Custom properties are exported as entries in Info dictionary. |
+| None | 0 | <br>No custom properties are exported. |
+| Standard | 1 | <br>Custom properties are exported as entries in Info dictionary. |
 
 ## See Also
 

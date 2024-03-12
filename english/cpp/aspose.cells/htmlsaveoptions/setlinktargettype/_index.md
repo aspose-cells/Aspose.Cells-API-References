@@ -4,7 +4,7 @@ linktitle: SetLinkTargetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetLinkTargetType method. Indicating the type of target attribute in <a> link. The default value is HtmlLinkTargetType.Parent in C++.'
 type: docs
-weight: 10400
+weight: 10600
 url: /cpp/aspose.cells/htmlsaveoptions/setlinktargettype/
 ---
 ## HtmlSaveOptions::SetLinkTargetType method

@@ -20,9 +20,9 @@ enum class PivotTableSelectionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DataAndLabel | 0 | Data and labels. |
-| DataOnly | 2 | Only selects data. |
-| LabelOnly | 1 | Only selects labels. |
+| DataAndLabel | 0 | <br>Data and labels. |
+| DataOnly | 2 | <br>Only selects data. |
+| LabelOnly | 1 | <br>Only selects labels. |
 
 ## See Also
 

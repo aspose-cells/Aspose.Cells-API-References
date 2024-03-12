@@ -20,9 +20,9 @@ enum class FillPictureType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Stretch | 0 | Stretch. |
-| Stack | 1 | Stack. |
-| StackAndScale | 2 | StackAndScale. |
+| Stretch | 0 | <br>Stretch. |
+| Stack | 1 | <br>Stack. |
+| StackAndScale | 2 | <br>StackAndScale. |
 
 ## See Also
 

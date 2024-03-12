@@ -4,7 +4,7 @@ linktitle: SparklineCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklineCollection class. Encapsulates a collection of Sparkline objects in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells.charts/sparklinecollection/
 ---
 ## SparklineCollection class

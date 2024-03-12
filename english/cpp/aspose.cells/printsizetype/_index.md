@@ -4,7 +4,7 @@ linktitle: PrintSizeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PrintSizeType enum. Represents the printed chart size in C++.'
 type: docs
-weight: 23900
+weight: 24000
 url: /cpp/aspose.cells/printsizetype/
 ---
 ## PrintSizeType enum
@@ -20,9 +20,9 @@ enum class PrintSizeType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Full | 0 | Use full page. |
-| Fit | 1 | Scale to fit page. |
-| Custom | 2 | Custom. |
+| Full | 0 | <br>Use full page. |
+| Fit | 1 | <br>Scale to fit page. |
+| Custom | 2 | <br>Custom. |
 
 ## See Also
 

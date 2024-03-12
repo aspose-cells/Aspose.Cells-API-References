@@ -25,6 +25,7 @@ class OdsSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetGeneratorType()](./getgeneratortype/) | Gets and sets the generator of the ods file. |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [GetOdfStrictVersion()](./getodfstrictversion/) | Gets and sets the ODF version. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
@@ -33,7 +34,7 @@ class OdsSaveOptions : public Aspose::Cells::SaveOptions
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [GetWarningCallback()](../saveoptions/getwarningcallback/) | Gets or sets warning callback. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsStrictSchema11()](./isstrictschema11/) | Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
+| [IsStrictSchema11()](./isstrictschema11/) |  **(Deprecated)** Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [OdsSaveOptions()](./odssaveoptions/) | Creates the options of saving ods file. |
 | explicit [OdsSaveOptions(SaveFormat saveFormat)](./odssaveoptions/) | Creates the options of saving ods file. |
 | [OdsSaveOptions(OdsSaveOptions_Impl* impl)](./odssaveoptions/) | Constructs from an implementation object. |
@@ -49,8 +50,9 @@ class OdsSaveOptions : public Aspose::Cells::SaveOptions
 | [SetClearData(bool value)](../saveoptions/setcleardata/) | Make the workbook empty after saving the file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetGeneratorType(OdsGeneratorType value)](./setgeneratortype/) | Gets and sets the generator of the ods file. |
-| [SetIsStrictSchema11(bool value)](./setisstrictschema11/) | Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
+| [SetIsStrictSchema11(bool value)](./setisstrictschema11/) |  **(Deprecated)** Indicates whether the ods file should be saved as ODF format version 1.1. Default is false. |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
+| [SetOdfStrictVersion(OpenDocumentFormatVersionType value)](./setodfstrictversion/) | Gets and sets the ODF version. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether refreshing chart cache data. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |

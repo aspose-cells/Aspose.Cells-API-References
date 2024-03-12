@@ -20,10 +20,10 @@ enum class HtmlLinkTargetType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Blank | 0 | Opens the linked document in a new window or tab. |
-| Parent | 1 | Opens the linked document in the parent frame. |
-| Self | 2 | Opens the linked document in the same frame as it was clicked (this is default) |
-| Top | 3 | Opens the linked document in the full body of the window. |
+| Blank | 0 | <br>Opens the linked document in a new window or tab. |
+| Parent | 1 | <br>Opens the linked document in the parent frame. |
+| Self | 2 | <br>Opens the linked document in the same frame as it was clicked (this is default) |
+| Top | 3 | <br>Opens the linked document in the full body of the window. |
 
 ## See Also
 

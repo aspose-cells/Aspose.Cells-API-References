@@ -20,9 +20,9 @@ enum class JsonExportHyperlinkType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DisplayString | 0 | Export display string. |
-| Address | 1 | Export url. |
-| HtmlString | 2 | Export as html string. |
+| DisplayString | 0 | <br>Export display string. |
+| Address | 1 | <br>Export url. |
+| HtmlString | 2 | <br>Export as html string. |
 
 ## See Also
 

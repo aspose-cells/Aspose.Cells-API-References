@@ -4,7 +4,7 @@ linktitle: RenameStrategy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::RenameStrategy enum. Strategy option for duplicate names of columns in C++.'
 type: docs
-weight: 24100
+weight: 24200
 url: /cpp/aspose.cells/renamestrategy/
 ---
 ## RenameStrategy enum
@@ -20,9 +20,9 @@ enum class RenameStrategy
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Exception | 0 | Throws exception. |
-| Digit | 1 | Named with digit. Duplicated names will become ...1, ...2, etc. |
-| Letter | 2 | Named with letter.. Duplicated names will become ...A, ...B, etc. |
+| Exception | 0 | <br>Throws exception. |
+| Digit | 1 | <br>Named with digit. Duplicated names will become ...1, ...2, etc. |
+| Letter | 2 | <br>Named with letter.. Duplicated names will become ...A, ...B, etc. |
 
 ## Remarks
 

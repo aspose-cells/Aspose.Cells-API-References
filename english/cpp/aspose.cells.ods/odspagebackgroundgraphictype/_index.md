@@ -20,9 +20,9 @@ enum class OdsPageBackgroundGraphicType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Position | 0 | Set the image at specific position. |
-| Area | 1 | Stretch the image. |
-| Tile | 2 | Repeat and repeat the image. |
+| Position | 0 | <br>Set the image at specific position. |
+| Area | 1 | <br>Stretch the image. |
+| Tile | 2 | <br>Repeat and repeat the image. |
 
 ## See Also
 

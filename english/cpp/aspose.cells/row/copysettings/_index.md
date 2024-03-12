@@ -4,7 +4,7 @@ linktitle: CopySettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::CopySettings method. Copy settings of row, such as style, height, visibility, ...etc in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells/row/copysettings/
 ---
 ## Row::CopySettings method

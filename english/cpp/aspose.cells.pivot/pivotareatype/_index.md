@@ -20,13 +20,13 @@ enum class PivotAreaType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No [Pivot](../) area. |
-| Normal | 1 | Represents a header or item. |
-| Data | 2 | Represents something in the data area. |
-| All | 3 | Represents the whole [PivotTable](../pivottable/). |
-| Origin | 4 | Represents the blank cells at the top-left of the [PivotTable](../pivottable/) (top-right for RTL sheets). |
-| Button | 5 | Represents a field button. |
-| TopRight | 6 | Represents the blank cells at the top-right of the [PivotTable](../pivottable/) (top-left for RTL sheets). |
+| None | 0 | <br>No [Pivot](../) area. |
+| Normal | 1 | <br>Represents a header or item. |
+| Data | 2 | <br>Represents something in the data area. |
+| All | 3 | <br>Represents the whole [PivotTable](../pivottable/). |
+| Origin | 4 | <br>Represents the blank cells at the top-left of the [PivotTable](../pivottable/) (top-right for RTL sheets). |
+| Button | 5 | <br>Represents a field button. |
+| TopRight | 6 | <br>Represents the blank cells at the top-right of the [PivotTable](../pivottable/) (top-left for RTL sheets). |
 
 ## See Also
 

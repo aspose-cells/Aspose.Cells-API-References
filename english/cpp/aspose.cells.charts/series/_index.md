@@ -4,7 +4,7 @@ linktitle: Series
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Series class. Encapsulates the object that represents a single data series in a chart in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.cells.charts/series/
 ---
 ## Series class

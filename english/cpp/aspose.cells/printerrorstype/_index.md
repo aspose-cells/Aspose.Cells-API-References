@@ -4,7 +4,7 @@ linktitle: PrintErrorsType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PrintErrorsType enum. Represents print errors constants in C++.'
 type: docs
-weight: 23600
+weight: 23700
 url: /cpp/aspose.cells/printerrorstype/
 ---
 ## PrintErrorsType enum
@@ -20,10 +20,10 @@ enum class PrintErrorsType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| PrintErrorsBlank | 0 | Represents not to print errors. |
-| PrintErrorsDash | 1 | Represents to print errors as "--". |
-| PrintErrorsDisplayed | 2 | Represents to print errors as displayed. |
-| PrintErrorsNA | 3 | Represents to print errors as "#N/A". |
+| PrintErrorsBlank | 0 | <br>Represents not to print errors. |
+| PrintErrorsDash | 1 | <br>Represents to print errors as "--". |
+| PrintErrorsDisplayed | 2 | <br>Represents to print errors as displayed. |
+| PrintErrorsNA | 3 | <br>Represents to print errors as "#N/A". |
 
 ## See Also
 

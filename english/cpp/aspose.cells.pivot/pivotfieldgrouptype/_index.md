@@ -20,10 +20,10 @@ enum class PivotFieldGroupType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No group. |
-| DateTimeRange | 1 | Grouped by DateTime range. |
-| NumbericRange | 2 | Grouped by numberic range. |
-| Discrete | 3 | Grouped by discrete points. |
+| None | 0 | <br>No group. |
+| DateTimeRange | 1 | <br>Grouped by DateTime range. |
+| NumbericRange | 2 | <br>Grouped by numberic range. |
+| Discrete | 3 | <br>Grouped by discrete points. |
 
 ## See Also
 

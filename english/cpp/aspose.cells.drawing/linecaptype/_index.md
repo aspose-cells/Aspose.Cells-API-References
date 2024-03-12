@@ -20,10 +20,10 @@ enum class LineCapType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Square | 0 | Square protrudes by half line width. |
-| Round | 1 | Rounded ends. |
-| Flat | 2 | [Line](../line/) ends at end point. |
-| None | 3 | None cap. |
+| Square | 0 | <br>Square protrudes by half line width. |
+| Round | 1 | <br>Rounded ends. |
+| Flat | 2 | <br>[Line](../line/) ends at end point. |
+| None | 3 | <br>None cap. |
 
 ## See Also
 

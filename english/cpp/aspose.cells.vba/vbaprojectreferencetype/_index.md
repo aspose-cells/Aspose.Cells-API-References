@@ -20,9 +20,9 @@ enum class VbaProjectReferenceType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Registered | 0 | Specifies a reference to an Automation type library. |
-| Control | 1 | Specifies a reference to a twiddled type library and its extended type library. |
-| Project | 2 | Specifies a reference to an external VBA project. |
+| Registered | 0 | <br>Specifies a reference to an Automation type library. |
+| Control | 1 | <br>Specifies a reference to a twiddled type library and its extended type library. |
+| Project | 2 | <br>Specifies a reference to an external VBA project. |
 
 ## See Also
 

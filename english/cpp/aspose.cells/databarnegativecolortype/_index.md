@@ -20,8 +20,8 @@ enum class DataBarNegativeColorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Color | 0 | Use the color specified in the Negative Value and Axis Setting dialog box or by using the ColorType and BorderColorType properties of the [NegativeBarFormat](../negativebarformat/) object. |
-| SameAsPositive | 1 | Use the same color as positive data bars. |
+| Color | 0 | <br>Use the color specified in the Negative Value and Axis Setting dialog box or by using the ColorType and BorderColorType properties of the [NegativeBarFormat](../negativebarformat/) object. |
+| SameAsPositive | 1 | <br>Use the same color as positive data bars. |
 
 ## See Also
 

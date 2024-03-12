@@ -4,7 +4,7 @@ linktitle: GetFirstCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::GetFirstCell method. Gets the first cell object in the row in C++.'
 type: docs
-weight: 2500
+weight: 2600
 url: /cpp/aspose.cells/row/getfirstcell/
 ---
 ## Row::GetFirstCell method

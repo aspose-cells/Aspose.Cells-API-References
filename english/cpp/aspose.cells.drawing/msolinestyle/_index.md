@@ -20,11 +20,11 @@ enum class MsoLineStyle
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Single | 0 | Single line (of width lineWidth) |
-| ThickBetweenThin | 1 | Three lines, thin, thick, thin. |
-| ThinThick | 2 | Double lines, one thin, one thick. |
-| ThickThin | 3 | Double lines, one thick, one thin. |
-| ThinThin | 4 | Double lines of equal width. |
+| Single | 0 | <br>Single line (of width lineWidth) |
+| ThickBetweenThin | 1 | <br>Three lines, thin, thick, thin. |
+| ThinThick | 2 | <br>Double lines, one thin, one thick. |
+| ThickThin | 3 | <br>Double lines, one thick, one thin. |
+| ThinThin | 4 | <br>Double lines of equal width. |
 
 ## See Also
 

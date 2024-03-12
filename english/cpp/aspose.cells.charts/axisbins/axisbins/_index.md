@@ -2,25 +2,11 @@
 title: Aspose::Cells::Charts::AxisBins::AxisBins constructor
 linktitle: AxisBins
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::AxisBins::AxisBins constructor. Default constructor in C++.'
+description: 'Aspose::Cells::Charts::AxisBins::AxisBins constructor. Constructs from an implementation object in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.charts/axisbins/axisbins/
 ---
-## AxisBins::AxisBins() constructor
-
-
-Default constructor.
-
-```cpp
-Aspose::Cells::Charts::AxisBins::AxisBins()
-```
-
-## See Also
-
-* Class [AxisBins](../)
-* Namespace [Aspose::Cells::Charts](../../)
-* Library [Aspose.Cells for C++](../../../)
 ## AxisBins::AxisBins(AxisBins_Impl*) constructor
 
 

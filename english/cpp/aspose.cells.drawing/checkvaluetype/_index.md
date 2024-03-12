@@ -20,9 +20,9 @@ enum class CheckValueType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| UnChecked | 0 | UnChecked. |
-| Checked | 1 | Checked. |
-| Mixed | 2 | Mixed. |
+| UnChecked | 0 | <br>UnChecked. |
+| Checked | 1 | <br>Checked. |
+| Mixed | 2 | <br>Mixed. |
 
 ## See Also
 

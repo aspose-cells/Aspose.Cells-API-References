@@ -27,6 +27,7 @@ class PivotItem
 | [GetStringValue()](./getstringvalue/) | Gets the string value of the pivot item If the value is null, it will return "". |
 | [IsHidden()](./ishidden/) | Gets and Sets whether the pivot item is hidden. |
 | [IsHideDetail()](./ishidedetail/) | Gets and Sets whether the pivot item hides detail. |
+| [IsMissing()](./ismissing/) | Indicates whether the item has a missing value. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [Move(int32_t count, bool isSameParent)](./move/) | Moves the item up or down. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

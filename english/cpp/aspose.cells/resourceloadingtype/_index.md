@@ -4,7 +4,7 @@ linktitle: ResourceLoadingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ResourceLoadingType enum. Represents how to loading the linked resource in C++.'
 type: docs
-weight: 24200
+weight: 24300
 url: /cpp/aspose.cells/resourceloadingtype/
 ---
 ## ResourceLoadingType enum
@@ -20,9 +20,9 @@ enum class ResourceLoadingType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | 0 | Loads this resource as usual. |
-| Skip | 1 | Skips loading of this resource. |
-| UserProvided | 2 | Use stream provided by user. |
+| Default | 0 | <br>Loads this resource as usual. |
+| Skip | 1 | <br>Skips loading of this resource. |
+| UserProvided | 2 | <br>Use stream provided by user. |
 
 ## See Also
 

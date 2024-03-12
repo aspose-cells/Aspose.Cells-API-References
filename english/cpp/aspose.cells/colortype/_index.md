@@ -20,11 +20,11 @@ enum class ColorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 | Automatic color. |
-| AutomaticIndex | 1 | It's automatic color,but the displayed color depends the setting of the OS System. |
-| RGB | 2 | The RGB color. |
-| IndexedColor | 3 | The color index in the color palette. |
-| Theme | 4 | The theme color. |
+| Automatic | 0 | <br>Automatic color. |
+| AutomaticIndex | 1 | <br>It's automatic color,but the displayed color depends the setting of the OS System. |
+| RGB | 2 | <br>The RGB color. |
+| IndexedColor | 3 | <br>The color index in the color palette. |
+| Theme | 4 | <br>The theme color. |
 
 ## See Also
 

@@ -20,9 +20,9 @@ enum class SqlScriptOperatorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Insert | 0 | Insert data. |
-| Update | 1 | Update data. |
-| Delete | 2 | Delete data. |
+| Insert | 0 | <br>Insert data. |
+| Update | 1 | <br>Update data. |
+| Delete | 2 | <br>Delete data. |
 
 ## See Also
 

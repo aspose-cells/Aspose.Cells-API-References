@@ -20,9 +20,9 @@ enum class EquationVerticalJustificationType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Top | 0 | top |
-| Center | 1 | center |
-| Bottom | 2 | bottom |
+| Top | 0 | <br>top |
+| Center | 1 | <br>center |
+| Bottom | 2 | <br>bottom |
 
 ## See Also
 

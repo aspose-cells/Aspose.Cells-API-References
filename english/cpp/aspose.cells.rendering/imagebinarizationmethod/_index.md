@@ -20,8 +20,8 @@ enum class ImageBinarizationMethod
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Threshold | 0 | Specifies threshold method. |
-| FloydSteinbergDithering | 1 | Specifies dithering using Floyd-Steinberg error diffusion method. |
+| Threshold | 0 | <br>Specifies threshold method. |
+| FloydSteinbergDithering | 1 | <br>Specifies dithering using Floyd-Steinberg error diffusion method. |
 
 ## See Also
 

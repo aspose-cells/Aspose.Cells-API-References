@@ -4,7 +4,7 @@ linktitle: SortOnType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SortOnType enum. Sorted value type in C++.'
 type: docs
-weight: 24600
+weight: 24700
 url: /cpp/aspose.cells/sortontype/
 ---
 ## SortOnType enum
@@ -20,10 +20,10 @@ enum class SortOnType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Value | 0 | Sorts by cells' value. |
-| CellColor | 1 | Sorts by cells' color. |
-| FontColor | 2 | Sorts by cells' font color. |
-| Icon | 3 | Sorts by conditional icon. |
+| Value | 0 | <br>Sorts by cells' value. |
+| CellColor | 1 | <br>Sorts by cells' color. |
+| FontColor | 2 | <br>Sorts by cells' font color. |
+| Icon | 3 | <br>Sorts by conditional icon. |
 
 ## See Also
 

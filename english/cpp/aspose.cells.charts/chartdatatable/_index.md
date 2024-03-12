@@ -4,7 +4,7 @@ linktitle: ChartDataTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartDataTable class. Represents a chart data table in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class

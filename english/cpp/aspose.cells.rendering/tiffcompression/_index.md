@@ -20,11 +20,11 @@ enum class TiffCompression
 
 | Name | Value | Description |
 | --- | --- | --- |
-| CompressionNone | 0 | Specifies no compression. |
-| CompressionRle | 1 | Specifies the RLE compression scheme. |
-| CompressionLZW | 2 | Specifies the LZW compression scheme. |
-| CompressionCCITT3 | 3 | Specifies the CCITT3 compression scheme. |
-| CompressionCCITT4 | 4 | Specifies the CCITT4 compression scheme. |
+| CompressionNone | 0 | <br>Specifies no compression. |
+| CompressionRle | 1 | <br>Specifies the RLE compression scheme. |
+| CompressionLZW | 2 | <br>Specifies the LZW compression scheme. |
+| CompressionCCITT3 | 3 | <br>Specifies the CCITT3 compression scheme. |
+| CompressionCCITT4 | 4 | <br>Specifies the CCITT4 compression scheme. |
 
 ## See Also
 

@@ -12,6 +12,10 @@ url: /cpp/aspose.cells/cells/getrow/
 
 Gets the [Row](../../row/) element at the specified cell row index.
 
+
+>Deprecated
+>
+>Use Cells.CheckRow(int row) instead. 
 ```cpp
 Row Aspose::Cells::Cells::GetRow(int32_t row)
 ```
@@ -24,6 +28,12 @@ Row Aspose::Cells::Cells::GetRow(int32_t row)
 ## ReturnValue
 
 If the row object does exist return [Row](../../row/) object, otherwise return null.
+## Remarks
+
+
+
+NOTE: This member is now obsolete. Instead, please use [Cells.CheckRow(int row)](../checkrow/) method. This method will be removed 12 months later since February 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

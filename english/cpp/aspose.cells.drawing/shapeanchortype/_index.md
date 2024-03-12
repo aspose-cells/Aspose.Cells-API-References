@@ -20,8 +20,8 @@ enum class ShapeAnchorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| TwoCellAnchor | 0 | Represents a two cell anchor placeholder. |
-| OneCellAnchor | 1 | Represents a one cell anchor placeholder. |
+| TwoCellAnchor | 0 | <br>Represents a two cell anchor placeholder. |
+| OneCellAnchor | 1 | <br>Represents a one cell anchor placeholder. |
 
 ## See Also
 

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Cells::Clear method
 linktitle: Clear
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cells::Clear method. Clears all cell and row objects in C++.'
+description: 'Aspose::Cells::Cells::Clear method. Clears all data of the worksheet in C++.'
 type: docs
 weight: 2700
 url: /cpp/aspose.cells/cells/clear/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cells/clear/
 ## Cells::Clear method
 
 
-Clears all cell and row objects.
+Clears all data of the worksheet.
 
 ```cpp
 void Aspose::Cells::Cells::Clear()

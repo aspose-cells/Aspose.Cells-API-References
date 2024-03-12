@@ -4,7 +4,7 @@ linktitle: Legend
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Legend class. Encapsulates the object that represents the chart legend in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells.charts/legend/
 ---
 ## Legend class

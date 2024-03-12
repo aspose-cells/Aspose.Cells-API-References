@@ -20,8 +20,8 @@ enum class LineSpaceSizeType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Percentage | 0 | Represents in unit of a percentage of the text size. |
-| Points | 1 | Represents in unit of points. |
+| Percentage | 0 | <br>Represents in unit of a percentage of the text size. |
+| Points | 1 | <br>Represents in unit of points. |
 
 ## See Also
 

@@ -20,11 +20,11 @@ enum class PivotFieldType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Undefined | 0 | Presents base pivot field type. |
-| Row | 1 | Presents row pivot field type. |
-| Column | 2 | Presents column pivot field type. |
-| Page | 4 | Presents page pivot field type. |
-| Data | 8 | Presents data pivot field type. |
+| Undefined | 0 | <br>Presents base pivot field type. |
+| Row | 1 | <br>Presents row pivot field type. |
+| Column | 2 | <br>Presents column pivot field type. |
+| Page | 4 | <br>Presents page pivot field type. |
+| Data | 8 | <br>Presents data pivot field type. |
 
 ## See Also
 

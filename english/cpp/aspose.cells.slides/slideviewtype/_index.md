@@ -20,8 +20,8 @@ enum class SlideViewType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| View | 0 | Exporting as view in MS Excel. |
-| Print | 1 | Exporting as printing. |
+| View | 0 | <br>Exporting as view in MS Excel. |
+| Print | 1 | <br>Exporting as printing. |
 
 ## See Also
 

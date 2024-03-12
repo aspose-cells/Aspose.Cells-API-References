@@ -4,7 +4,7 @@ linktitle: AxisType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::AxisType enum. Represents the axis type in C++.'
 type: docs
-weight: 3600
+weight: 3700
 url: /cpp/aspose.cells.charts/axistype/
 ---
 ## AxisType enum
@@ -20,9 +20,9 @@ enum class AxisType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Category | 0 | Category axis. |
-| Value | 1 | Value axis. |
-| Series | 2 | [Series](../series/) axis. |
+| Category | 0 | <br>Category axis. |
+| Value | 1 | <br>Value axis. |
+| Series | 2 | <br>[Series](../series/) axis. |
 
 ## See Also
 

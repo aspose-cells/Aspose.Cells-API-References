@@ -4,7 +4,7 @@ linktitle: SetHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::SetHeight method. Gets and sets the row height in unit of Points in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells/row/setheight/
 ---
 ## Row::SetHeight method

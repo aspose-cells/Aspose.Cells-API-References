@@ -2,7 +2,7 @@
 title: Aspose::Cells::CustomFilterCollection::CustomFilterCollection constructor
 linktitle: CustomFilterCollection
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::CustomFilterCollection::CustomFilterCollection constructor. Default constructor in C++.'
+description: 'Aspose::Cells::CustomFilterCollection::CustomFilterCollection constructor. Constructs new instance in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells/customfiltercollection/customfiltercollection/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/customfiltercollection/customfiltercollection/
 ## CustomFilterCollection::CustomFilterCollection() constructor
 
 
-Default constructor.
+Constructs new instance.
 
 ```cpp
 Aspose::Cells::CustomFilterCollection::CustomFilterCollection()

@@ -20,9 +20,9 @@ enum class MsoArrowheadWidth
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Narrow | 0 | Short line end width. |
-| Medium | 1 | Medium line end width. |
-| Wide | 2 | Wide line end width. |
+| Narrow | 0 | <br>Short line end width. |
+| Medium | 1 | <br>Medium line end width. |
+| Wide | 2 | <br>Wide line end width. |
 
 ## See Also
 

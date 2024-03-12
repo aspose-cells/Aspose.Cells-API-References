@@ -20,10 +20,10 @@ enum class LookAtType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Contains | 0 | [Cell](../cell/) value Contains the find object. |
-| StartWith | 1 | [Cell](../cell/) value Starts with the find object. |
-| EndWith | 2 | [Cell](../cell/) value ends with the find object. |
-| EntireContent | 3 | [Cell](../cell/) value is same as the find object. |
+| Contains | 0 | <br>[Cell](../cell/) value Contains the find object. |
+| StartWith | 1 | <br>[Cell](../cell/) value Starts with the find object. |
+| EndWith | 2 | <br>[Cell](../cell/) value ends with the find object. |
+| EntireContent | 3 | <br>[Cell](../cell/) value is same as the find object. |
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: ApplyStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::ApplyStyle method. Applies formats for a whole row in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells/row/applystyle/
 ---
 ## Row::ApplyStyle method

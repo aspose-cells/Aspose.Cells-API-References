@@ -4,7 +4,7 @@ linktitle: GetCellOrNull
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::GetCellOrNull method. Gets the cell or null in the specific index in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells/row/getcellornull/
 ---
 ## Row::GetCellOrNull method

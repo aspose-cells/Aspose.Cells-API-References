@@ -4,7 +4,7 @@ linktitle: SetExportWorksheetProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportWorksheetProperties method. Indicating whether exporting worksheet properties.The default value is true.If you want to import the html or mht file to excel, please keep the default value in C++.'
 type: docs
-weight: 9600
+weight: 9800
 url: /cpp/aspose.cells/htmlsaveoptions/setexportworksheetproperties/
 ---
 ## HtmlSaveOptions::SetExportWorksheetProperties method

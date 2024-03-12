@@ -20,57 +20,57 @@ enum class BuiltinStyleType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| TwentyPercentAccent1 | 30 |  |
-| TwentyPercentAccent2 | 34 |  |
-| TwentyPercentAccent3 | 38 |  |
-| TwentyPercentAccent4 | 42 |  |
-| TwentyPercentAccent5 | 46 |  |
-| TwentyPercentAccent6 | 50 |  |
-| FortyPercentAccent1 | 31 |  |
-| FortyPercentAccent2 | 35 |  |
-| FortyPercentAccent3 | 39 |  |
-| FortyPercentAccent4 | 43 |  |
-| FortyPercentAccent5 | 47 |  |
-| FortyPercentAccent6 | 51 |  |
-| SixtyPercentAccent1 | 32 |  |
-| SixtyPercentAccent2 | 36 |  |
-| SixtyPercentAccent3 | 40 |  |
-| SixtyPercentAccent4 | 44 |  |
-| SixtyPercentAccent5 | 48 |  |
-| SixtyPercentAccent6 | 52 |  |
-| Accent1 | 29 |  |
-| Accent2 | 33 |  |
-| Accent3 | 37 |  |
-| Accent4 | 41 |  |
-| Accent5 | 45 |  |
-| Accent6 | 49 |  |
-| Bad | 27 |  |
-| Calculation | 22 |  |
-| CheckCell | 23 |  |
-| Comma | 3 |  |
-| Comma1 | 6 |  |
-| Currency | 4 |  |
-| Currency1 | 7 |  |
-| ExplanatoryText | 53 |  |
-| Good | 26 |  |
-| Header1 | 16 |  |
-| Header2 | 17 |  |
-| Header3 | 18 |  |
-| Header4 | 19 |  |
-| Hyperlink | 8 |  |
-| FollowedHyperlink | 9 |  |
-| Input | 20 |  |
-| LinkedCell | 24 |  |
-| Neutral | 28 |  |
-| Normal | 0 |  |
-| Note | 10 |  |
-| Output | 21 |  |
-| Percent | 5 |  |
-| Title | 15 |  |
-| Total | 25 |  |
-| WarningText | 11 |  |
-| RowLevel | 1 |  |
-| ColumnLevel | 2 |  |
+| TwentyPercentAccent1 | 30 | <br> |
+| TwentyPercentAccent2 | 34 | <br> |
+| TwentyPercentAccent3 | 38 | <br> |
+| TwentyPercentAccent4 | 42 | <br> |
+| TwentyPercentAccent5 | 46 | <br> |
+| TwentyPercentAccent6 | 50 | <br> |
+| FortyPercentAccent1 | 31 | <br> |
+| FortyPercentAccent2 | 35 | <br> |
+| FortyPercentAccent3 | 39 | <br> |
+| FortyPercentAccent4 | 43 | <br> |
+| FortyPercentAccent5 | 47 | <br> |
+| FortyPercentAccent6 | 51 | <br> |
+| SixtyPercentAccent1 | 32 | <br> |
+| SixtyPercentAccent2 | 36 | <br> |
+| SixtyPercentAccent3 | 40 | <br> |
+| SixtyPercentAccent4 | 44 | <br> |
+| SixtyPercentAccent5 | 48 | <br> |
+| SixtyPercentAccent6 | 52 | <br> |
+| Accent1 | 29 | <br> |
+| Accent2 | 33 | <br> |
+| Accent3 | 37 | <br> |
+| Accent4 | 41 | <br> |
+| Accent5 | 45 | <br> |
+| Accent6 | 49 | <br> |
+| Bad | 27 | <br> |
+| Calculation | 22 | <br> |
+| CheckCell | 23 | <br> |
+| Comma | 3 | <br> |
+| Comma1 | 6 | <br> |
+| Currency | 4 | <br> |
+| Currency1 | 7 | <br> |
+| ExplanatoryText | 53 | <br> |
+| Good | 26 | <br> |
+| Header1 | 16 | <br> |
+| Header2 | 17 | <br> |
+| Header3 | 18 | <br> |
+| Header4 | 19 | <br> |
+| Hyperlink | 8 | <br> |
+| FollowedHyperlink | 9 | <br> |
+| Input | 20 | <br> |
+| LinkedCell | 24 | <br> |
+| Neutral | 28 | <br> |
+| Normal | 0 | <br> |
+| Note | 10 | <br> |
+| Output | 21 | <br> |
+| Percent | 5 | <br> |
+| Title | 15 | <br> |
+| Total | 25 | <br> |
+| WarningText | 11 | <br> |
+| RowLevel | 1 | <br> |
+| ColumnLevel | 2 | <br> |
 
 ## See Also
 

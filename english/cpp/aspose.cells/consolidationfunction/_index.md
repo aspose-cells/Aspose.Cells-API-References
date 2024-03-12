@@ -20,18 +20,18 @@ enum class ConsolidationFunction
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Sum | 0 | Represents Sum function. |
-| Count | 1 | Represents Count function. |
-| Average | 2 | Represents Average function. |
-| Max | 3 | Represents Max function. |
-| Min | 4 | Represents Min function. |
-| Product | 5 | Represents Product function. |
-| CountNums | 6 | Represents Count Nums function. |
-| StdDev | 7 | Represents StdDev function. |
-| StdDevp | 8 | Represents StdDevp function. |
-| Var | 9 | Represents Var function. |
-| Varp | 10 | Represents Varp function. |
-| DistinctCount | 11 | Represents Distinct Count function. |
+| Sum | 0 | <br>Represents Sum function. |
+| Count | 1 | <br>Represents Count function. |
+| Average | 2 | <br>Represents Average function. |
+| Max | 3 | <br>Represents Max function. |
+| Min | 4 | <br>Represents Min function. |
+| Product | 5 | <br>Represents Product function. |
+| CountNums | 6 | <br>Represents Count Nums function. |
+| StdDev | 7 | <br>Represents StdDev function. |
+| StdDevp | 8 | <br>Represents StdDevp function. |
+| Var | 9 | <br>Represents Var function. |
+| Varp | 10 | <br>Represents Varp function. |
+| DistinctCount | 11 | <br>Represents Distinct Count function. |
 
 ## See Also
 

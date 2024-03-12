@@ -20,9 +20,9 @@ enum class MetadataType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Encryption | 1 | Encrypts the file. |
-| Decryption | 2 | Decrypts the file. |
-| Document_Properties | 4 | Load the properties of the file. |
+| Encryption | 1 | <br>Encrypts the file. |
+| Decryption | 2 | <br>Decrypts the file. |
+| Document_Properties | 4 | <br>Load the properties of the file. |
 
 ## See Also
 

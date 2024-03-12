@@ -20,8 +20,8 @@ enum class DrawObjectEnum
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Image | 0 | Indicate [DrawObject](../drawobject/) is an Image. |
-| Cell | 1 | indicate [DrawObject](../drawobject/) is an [Cell](../../aspose.cells/cell/) |
+| Image | 0 | <br>Indicate [DrawObject](../drawobject/) is an Image. |
+| Cell | 1 | <br>indicate [DrawObject](../drawobject/) is an [Cell](../../aspose.cells/cell/) |
 
 ## See Also
 

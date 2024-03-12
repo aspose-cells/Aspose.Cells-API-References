@@ -20,10 +20,10 @@ enum class GradientFillType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Linear | 0 | Linear. |
-| Radial | 1 | Radial. |
-| Rectangle | 2 | Rectangle. |
-| Path | 3 | Path. |
+| Linear | 0 | <br>Linear. |
+| Radial | 1 | <br>Radial. |
+| Rectangle | 2 | <br>Rectangle. |
+| Path | 3 | <br>Path. |
 
 ## See Also
 

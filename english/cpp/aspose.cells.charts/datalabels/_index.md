@@ -4,7 +4,7 @@ linktitle: DataLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DataLabels class. Encapsulates a collection of all the DataLabel objects for the specified Series in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells.charts/datalabels/
 ---
 ## DataLabels class

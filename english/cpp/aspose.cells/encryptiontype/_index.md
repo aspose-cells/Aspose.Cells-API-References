@@ -20,10 +20,10 @@ enum class EncryptionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| XOR | 0 |  |
-| Compatible | 1 | Office 97/2000 compatible. |
-| EnhancedCryptographicProviderV1 | 2 |  |
-| StrongCryptographicProvider | 3 |  |
+| XOR | 0 | <br> |
+| Compatible | 1 | <br>Office 97/2000 compatible. |
+| EnhancedCryptographicProviderV1 | 2 | <br> |
+| StrongCryptographicProvider | 3 | <br> |
 
 ## See Also
 

@@ -20,7 +20,7 @@ class CustomFilterCollection
 
 | Method | Description |
 | --- | --- |
-| [CustomFilterCollection()](./customfiltercollection/) | Default constructor. |
+| [CustomFilterCollection()](./customfiltercollection/) | Constructs new instance. |
 | [CustomFilterCollection(CustomFilterCollection_Impl* impl)](./customfiltercollection/) | Constructs from an implementation object. |
 | [CustomFilterCollection(const IObject* obj)](./customfiltercollection/) | Constructs from an [IObject](../iobject/) convertible to this. |
 | [CustomFilterCollection(const CustomFilterCollection\& src)](./customfiltercollection/) | Copy constructor. |

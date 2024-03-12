@@ -20,10 +20,10 @@ enum class BulletType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No bullet. |
-| Character | 1 | Character bullet. |
-| Picture | 2 | Image bullet. |
-| AutoNumbered | 3 | Automatic numbered bullet. |
+| None | 0 | <br>No bullet. |
+| Character | 1 | <br>Character bullet. |
+| Picture | 2 | <br>Image bullet. |
+| AutoNumbered | 3 | <br>Automatic numbered bullet. |
 
 ## See Also
 

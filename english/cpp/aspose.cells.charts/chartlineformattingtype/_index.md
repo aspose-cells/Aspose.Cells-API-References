@@ -4,7 +4,7 @@ linktitle: ChartLineFormattingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartLineFormattingType enum. Represents line format type of chart line in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells.charts/chartlineformattingtype/
 ---
 ## ChartLineFormattingType enum
@@ -20,10 +20,10 @@ enum class ChartLineFormattingType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 | Represents automatic formatting type. |
-| Solid | 1 | Represents solid formatting type. |
-| None | 2 | Represents none formatting type. |
-| Gradient | 3 | Gradient. |
+| Automatic | 0 | <br>Represents automatic formatting type. |
+| Solid | 1 | <br>Represents solid formatting type. |
+| None | 2 | <br>Represents none formatting type. |
+| Gradient | 3 | <br>Gradient. |
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: IsLine
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureLine::IsLine method. Indicates whether it is a signature line in C++.'
 type: docs
-weight: 1200
+weight: 1600
 url: /cpp/aspose.cells.drawing/signatureline/isline/
 ---
 ## SignatureLine::IsLine method

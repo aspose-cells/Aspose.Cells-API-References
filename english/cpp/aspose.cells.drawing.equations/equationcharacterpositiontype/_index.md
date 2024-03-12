@@ -20,8 +20,8 @@ enum class EquationCharacterPositionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Top | 0 | At the top of the parent object. |
-| Bottom | 1 | At the bottom of the parent object. |
+| Top | 0 | <br>At the top of the parent object. |
+| Bottom | 1 | <br>At the bottom of the parent object. |
 
 ## See Also
 

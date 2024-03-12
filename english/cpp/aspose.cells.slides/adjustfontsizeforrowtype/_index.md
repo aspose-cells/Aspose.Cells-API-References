@@ -20,8 +20,8 @@ enum class AdjustFontSizeForRowType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No adjsut. |
-| EmptyRows | 1 | If the row is empty, change font size to fit row height. |
+| None | 0 | <br>No adjsut. |
+| EmptyRows | 1 | <br>If the row is empty, change font size to fit row height. |
 
 ## See Also
 

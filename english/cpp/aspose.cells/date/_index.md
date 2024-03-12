@@ -4,7 +4,7 @@ linktitle: Date
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Date struct. Represents a date and time in C++.'
 type: docs
-weight: 26700
+weight: 26900
 url: /cpp/aspose.cells/date/
 ---
 ## Date struct

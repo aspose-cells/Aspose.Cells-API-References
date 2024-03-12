@@ -20,10 +20,10 @@ enum class EquationHorizontalJustificationType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 0 | Centered. |
-| CenterGroup | 1 | Centered as Group. |
-| Left | 2 | Left Justified. |
-| Right | 3 | Right Justified. |
+| Center | 0 | <br>Centered. |
+| CenterGroup | 1 | <br>Centered as Group. |
+| Left | 2 | <br>Left Justified. |
+| Right | 3 | <br>Right Justified. |
 
 ## See Also
 

@@ -20,11 +20,11 @@ enum class ControlSpecialEffectType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Flat | 0 | Flat. |
-| Raised | 1 | Raised. |
-| Sunken | 2 | Sunken. |
-| Etched | 3 | Etched. |
-| Bump | 6 | Bump. |
+| Flat | 0 | <br>Flat. |
+| Raised | 1 | <br>Raised. |
+| Sunken | 2 | <br>Sunken. |
+| Etched | 3 | <br>Etched. |
+| Bump | 6 | <br>Bump. |
 
 ## See Also
 

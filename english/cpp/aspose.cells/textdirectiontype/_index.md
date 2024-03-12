@@ -4,7 +4,7 @@ linktitle: TextDirectionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TextDirectionType enum. Represents the direction of the text flow for this paragraph in C++.'
 type: docs
-weight: 25300
+weight: 25400
 url: /cpp/aspose.cells/textdirectiontype/
 ---
 ## TextDirectionType enum
@@ -20,9 +20,9 @@ enum class TextDirectionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Context | 0 |  |
-| LeftToRight | 1 |  |
-| RightToLeft | 2 |  |
+| Context | 0 | <br> |
+| LeftToRight | 1 | <br> |
+| RightToLeft | 2 | <br> |
 
 ## See Also
 

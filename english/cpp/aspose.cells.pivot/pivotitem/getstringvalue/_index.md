@@ -4,7 +4,7 @@ linktitle: GetStringValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::GetStringValue method. Gets the string value of the pivot item If the value is null, it will return "" in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.pivot/pivotitem/getstringvalue/
 ---
 ## PivotItem::GetStringValue method

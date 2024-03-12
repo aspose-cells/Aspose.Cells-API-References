@@ -4,7 +4,7 @@ linktitle: DisplayUnitLabel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::DisplayUnitLabel class. Represents the display unit label in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.charts/displayunitlabel/
 ---
 ## DisplayUnitLabel class

@@ -24,6 +24,7 @@ class CellArea
 | [CellArea(CellArea_Impl* impl)](./cellarea/) | Constructs from an implementation object. Internal use. |
 | static [CreateCellArea(int startRow, int startColumn, int endRow, int endColumn)](./createcellarea/) | Creates a cell area. |
 | static [CreateCellArea(const char16_t* startCellName, const char16_t* endCellName)](./createcellarea/) | Creates a cell area. |
+| [ToString()](./tostring/) | Returns a string represents the current cell area object. |
 ## Fields
 
 | Field | Description |

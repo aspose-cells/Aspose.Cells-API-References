@@ -20,9 +20,9 @@ enum class CalculationPrecisionStrategy
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No strategy applied on calculation. When calculating just use the original double value as operand and return the result directly. Most efficient for performance and applicable for most cases. |
-| Round | 1 | Rounds the calculation result according with significant digits. |
-| Decimal | 2 | Uses decimal as operands when possible. Most inefficient for performance. |
+| None | 0 | <br>No strategy applied on calculation. When calculating just use the original double value as operand and return the result directly. Most efficient for performance and applicable for most cases. |
+| Round | 1 | <br>Rounds the calculation result according with significant digits. |
+| Decimal | 2 | <br>Uses decimal as operands when possible. Most inefficient for performance. |
 
 ## See Also
 

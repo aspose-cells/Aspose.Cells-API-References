@@ -20,8 +20,8 @@ enum class PlotDataByType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Row | 0 | By row. |
-| Column | 1 | By column. |
+| Row | 0 | <br>By row. |
+| Column | 1 | <br>By column. |
 
 ## See Also
 

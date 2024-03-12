@@ -20,9 +20,9 @@ enum class LoadNumbersTableType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| OneTablePerSheet | 1 |  |
-| OverrideOtherTables | 2 |  |
-| TileTables | 4 |  |
+| OneTablePerSheet | 1 | <br> |
+| OverrideOtherTables | 2 | <br> |
+| TileTables | 4 | <br> |
 
 ## See Also
 

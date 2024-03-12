@@ -4,7 +4,7 @@ linktitle: SetInstructions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureLine::SetInstructions method. Gets and sets the text shown to user at signing time in C++.'
 type: docs
-weight: 1900
+weight: 2300
 url: /cpp/aspose.cells.drawing/signatureline/setinstructions/
 ---
 ## SignatureLine::SetInstructions(const U16String\&) method

@@ -4,7 +4,7 @@ linktitle: GetFirstDataCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::GetFirstDataCell method. Gets the first non-blank cell in the row in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells/row/getfirstdatacell/
 ---
 ## Row::GetFirstDataCell method

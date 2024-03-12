@@ -20,9 +20,9 @@ enum class SparklineAxisMinMaxType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AutoIndividual | 0 | Automatic for each sparkline. |
-| Group | 1 | Same for all sparklines in the group. |
-| Custom | 2 | Custom value for sparkline. |
+| AutoIndividual | 0 | <br>Automatic for each sparkline. |
+| Group | 1 | <br>Same for all sparklines in the group. |
+| Custom | 2 | <br>Custom value for sparkline. |
 
 ## See Also
 

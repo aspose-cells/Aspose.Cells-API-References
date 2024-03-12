@@ -4,7 +4,7 @@ linktitle: ThemeColorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ThemeColorType enum. Enumerates the theme color types in C++.'
 type: docs
-weight: 25600
+weight: 25700
 url: /cpp/aspose.cells/themecolortype/
 ---
 ## ThemeColorType enum
@@ -20,19 +20,19 @@ enum class ThemeColorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Background1 | 0 |  |
-| Text1 | 1 |  |
-| Background2 | 2 |  |
-| Text2 | 3 |  |
-| Accent1 | 4 |  |
-| Accent2 | 5 |  |
-| Accent3 | 6 |  |
-| Accent4 | 7 |  |
-| Accent5 | 8 |  |
-| Accent6 | 9 |  |
-| Hyperlink | 10 |  |
-| FollowedHyperlink | 11 |  |
-| StyleColor | 12 | Inner used. A color used in theme definitions which means to use the color of the style. |
+| Background1 | 0 | <br> |
+| Text1 | 1 | <br> |
+| Background2 | 2 | <br> |
+| Text2 | 3 | <br> |
+| Accent1 | 4 | <br> |
+| Accent2 | 5 | <br> |
+| Accent3 | 6 | <br> |
+| Accent4 | 7 | <br> |
+| Accent5 | 8 | <br> |
+| Accent6 | 9 | <br> |
+| Hyperlink | 10 | <br> |
+| FollowedHyperlink | 11 | <br> |
+| StyleColor | 12 | <br>Inner used. A color used in theme definitions which means to use the color of the style. |
 
 ## See Also
 

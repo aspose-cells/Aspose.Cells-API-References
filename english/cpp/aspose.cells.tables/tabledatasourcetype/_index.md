@@ -20,10 +20,10 @@ enum class TableDataSourceType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Worksheet | 0 | Excel [Worksheet](../../aspose.cells/worksheet/) Table. |
-| SharePoint | 1 | Read-write SharePoint linked List. |
-| XML | 2 | XML mapper Table. |
-| QueryTable | 3 | Query Table. |
+| Worksheet | 0 | <br>Excel [Worksheet](../../aspose.cells/worksheet/) Table. |
+| SharePoint | 1 | <br>Read-write SharePoint linked List. |
+| XML | 2 | <br>XML mapper Table. |
+| QueryTable | 3 | <br>Query Table. |
 
 ## See Also
 

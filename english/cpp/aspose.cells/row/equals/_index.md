@@ -4,7 +4,7 @@ linktitle: Equals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::Equals method. Checks whether this object refers to the same row with another row object in C++.'
 type: docs
-weight: 3000
+weight: 3100
 url: /cpp/aspose.cells/row/equals/
 ---
 ## Row::Equals method

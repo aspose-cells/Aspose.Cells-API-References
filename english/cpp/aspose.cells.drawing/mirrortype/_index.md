@@ -20,10 +20,10 @@ enum class MirrorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | None. |
-| Horizonal | 1 | Horizonal. |
-| Vertical | 2 | Vertical. |
-| Both | 3 | Both. |
+| None | 0 | <br>None. |
+| Horizonal | 1 | <br>Horizonal. |
+| Vertical | 2 | <br>Vertical. |
+| Both | 3 | <br>Both. |
 
 ## See Also
 

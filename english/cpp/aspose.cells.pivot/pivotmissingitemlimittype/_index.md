@@ -20,9 +20,9 @@ enum class PivotMissingItemLimitType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 | The default number of unique items per [PivotField](../pivotfield/) allowed. |
-| Max | 1 | The maximum number of unique items per [PivotField](../pivotfield/) allowed (>32,500). |
-| None | 2 | No unique items per [PivotField](../pivotfield/) allowed. |
+| Automatic | 0 | <br>The default number of unique items per [PivotField](../pivotfield/) allowed. |
+| Max | 1 | <br>The maximum number of unique items per [PivotField](../pivotfield/) allowed (>32,500). |
+| None | 2 | <br>No unique items per [PivotField](../pivotfield/) allowed. |
 
 ## See Also
 

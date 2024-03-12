@@ -20,9 +20,9 @@ enum class PlacementType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FreeFloating | 0 | Don't move or size with cells. |
-| Move | 1 | Move but don't size with cells. |
-| MoveAndSize | 2 | Move and size with cells. |
+| FreeFloating | 0 | <br>Don't move or size with cells. |
+| Move | 1 | <br>Move but don't size with cells. |
+| MoveAndSize | 2 | <br>Move and size with cells. |
 
 ## See Also
 

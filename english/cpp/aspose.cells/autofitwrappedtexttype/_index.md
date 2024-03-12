@@ -20,8 +20,8 @@ enum class AutoFitWrappedTextType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | 0 | Works as MS Excel. |
-| Paragraph | 1 | Auto fit width with the longest paragraph. |
+| Default | 0 | <br>Works as MS Excel. |
+| Paragraph | 1 | <br>Auto fit width with the longest paragraph. |
 
 ## See Also
 

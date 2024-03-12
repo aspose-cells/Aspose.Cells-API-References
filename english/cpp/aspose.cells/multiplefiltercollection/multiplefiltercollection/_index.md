@@ -2,7 +2,7 @@
 title: Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection constructor
 linktitle: MultipleFilterCollection
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection constructor. Default constructor in C++.'
+description: 'Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection constructor. Constructs one new instance in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells/multiplefiltercollection/multiplefiltercollection/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/multiplefiltercollection/multiplefiltercollection/
 ## MultipleFilterCollection::MultipleFilterCollection() constructor
 
 
-Default constructor.
+Constructs one new instance.
 
 ```cpp
 Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection()

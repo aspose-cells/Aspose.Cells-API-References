@@ -20,8 +20,8 @@ enum class DataBarBorderType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | The data bar has no border. |
-| Solid | 1 | The data bar has a solid border. |
+| None | 0 | <br>The data bar has no border. |
+| Solid | 1 | <br>The data bar has a solid border. |
 
 ## See Also
 

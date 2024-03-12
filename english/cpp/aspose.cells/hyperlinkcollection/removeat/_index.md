@@ -2,7 +2,7 @@
 title: Aspose::Cells::HyperlinkCollection::RemoveAt method
 linktitle: RemoveAt
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::HyperlinkCollection::RemoveAt method. Remove the hyperlink at the specified index in C++.'
+description: 'Aspose::Cells::HyperlinkCollection::RemoveAt method. Remove the hyperlink at the specified index in this collection in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells/hyperlinkcollection/removeat/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/hyperlinkcollection/removeat/
 ## HyperlinkCollection::RemoveAt method
 
 
-Remove the hyperlink at the specified index.
+Remove the hyperlink at the specified index in this collection.
 
 ```cpp
 void Aspose::Cells::HyperlinkCollection::RemoveAt(int32_t index)

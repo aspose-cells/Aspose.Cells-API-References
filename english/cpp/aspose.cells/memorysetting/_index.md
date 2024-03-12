@@ -20,8 +20,8 @@ enum class MemorySetting
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Normal | 0 | Default option for cells model. |
-| MemoryPreference | 1 | Memory performance preferrable. With this option the data will be held in compact format so for common scenarios it may give lower memory cost. However, this option also may degrade R/W performance a bit in some special cases. |
+| Normal | 0 | <br>Default option for cells model. |
+| MemoryPreference | 1 | <br>Memory performance preferrable. With this option the data will be held in compact format so for common scenarios it may give lower memory cost. However, this option also may degrade R/W performance a bit in some special cases. |
 
 ## See Also
 

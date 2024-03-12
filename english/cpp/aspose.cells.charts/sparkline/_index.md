@@ -4,7 +4,7 @@ linktitle: Sparkline
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Sparkline class. A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.charts/sparkline/
 ---
 ## Sparkline class

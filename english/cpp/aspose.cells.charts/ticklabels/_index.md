@@ -4,7 +4,7 @@ linktitle: TickLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TickLabels class. Represents the tick-mark labels associated with tick marks on a chart axis in C++.'
 type: docs
-weight: 3100
+weight: 3200
 url: /cpp/aspose.cells.charts/ticklabels/
 ---
 ## TickLabels class
@@ -21,6 +21,7 @@ class TickLabels
 | Method | Description |
 | --- | --- |
 | [Get_NumberFormat()](./get_numberformat/) | Represents the format string for the [TickLabels](./) object. |
+| [GetAlignmentType()](./getalignmenttype/) | Gets and sets the text alignment for the tick labels on the axis. |
 | [GetAutoScaleFont()](./getautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [GetBackgroundMode()](./getbackgroundmode/) | Gets and sets the display mode of the background. |
 | [GetDirectionType()](./getdirectiontype/) | Gets and sets the direction of text. |
@@ -36,6 +37,7 @@ class TickLabels
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const TickLabels\& src)](./operator_asm/) | operator= |
+| [SetAlignmentType(TickLabelAlignmentType value)](./setalignmenttype/) | Gets and sets the text alignment for the tick labels on the axis. |
 | [SetAutoScaleFont(bool value)](./setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [SetBackgroundMode(BackgroundMode value)](./setbackgroundmode/) | Gets and sets the display mode of the background. |
 | [SetDirectionType(ChartTextDirectionType value)](./setdirectiontype/) | Gets and sets the direction of text. |

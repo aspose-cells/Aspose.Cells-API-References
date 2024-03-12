@@ -2,7 +2,7 @@
 title: Aspose::Cells::Cells::GetStyle method
 linktitle: GetStyle
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cells::GetStyle method. Gets and sets the default style in C++.'
+description: 'Aspose::Cells::Cells::GetStyle method. Gets and sets the default style of the worksheet in C++.'
 type: docs
 weight: 2800
 url: /cpp/aspose.cells/cells/getstyle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cells/getstyle/
 ## Cells::GetStyle method
 
 
-Gets and sets the default style.
+Gets and sets the default style of the worksheet.
 
 ```cpp
 Style Aspose::Cells::Cells::GetStyle()

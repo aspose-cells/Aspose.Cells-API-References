@@ -20,8 +20,8 @@ enum class HtmlHiddenColDisplayType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Hidden | 0 | Hidden the hidden columns in html page. |
-| Remove | 1 | Remove the hidden columns in html page. |
+| Hidden | 0 | <br>Hidden the hidden columns in html page. |
+| Remove | 1 | <br>Remove the hidden columns in html page. |
 
 ## See Also
 

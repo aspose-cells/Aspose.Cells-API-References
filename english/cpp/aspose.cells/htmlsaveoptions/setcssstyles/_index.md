@@ -4,7 +4,7 @@ linktitle: SetCssStyles
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetCssStyles method. Gets or sets the additional css styles for the formatter. Only works when SaveAsSingleFile is True in C++.'
 type: docs
-weight: 11600
+weight: 11800
 url: /cpp/aspose.cells/htmlsaveoptions/setcssstyles/
 ---
 ## HtmlSaveOptions::SetCssStyles(const U16String\&) method

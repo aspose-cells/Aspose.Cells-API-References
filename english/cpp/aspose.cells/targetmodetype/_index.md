@@ -4,7 +4,7 @@ linktitle: TargetModeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TargetModeType enum. Represents the type of target mode in C++.'
 type: docs
-weight: 24900
+weight: 25000
 url: /cpp/aspose.cells/targetmodetype/
 ---
 ## TargetModeType enum
@@ -20,10 +20,10 @@ enum class TargetModeType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| External | 0 | External link. |
-| FilePath | 1 | Local and full paths to files or folders. |
-| Email | 2 | Email. |
-| CellReference | 3 | Link on cell or named range. |
+| External | 0 | <br>External link. |
+| FilePath | 1 | <br>Local and full paths to files or folders. |
+| Email | 2 | <br>Email. |
+| CellReference | 3 | <br>Link on cell or named range. |
 
 ## See Also
 

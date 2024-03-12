@@ -20,8 +20,8 @@ enum class HtmlExportDataOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Table | 1 | Export file to html which only contains table part. |
-| All | 255 | Export all the data to html. |
+| Table | 1 | <br>Export file to html which only contains table part. |
+| All | 255 | <br>Export all the data to html. |
 
 ## See Also
 

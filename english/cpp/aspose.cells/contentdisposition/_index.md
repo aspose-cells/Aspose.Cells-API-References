@@ -20,8 +20,8 @@ enum class ContentDisposition
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Inline | 0 |  |
-| Attachment | 1 |  |
+| Inline | 0 | <br> |
+| Attachment | 1 | <br> |
 
 ## See Also
 

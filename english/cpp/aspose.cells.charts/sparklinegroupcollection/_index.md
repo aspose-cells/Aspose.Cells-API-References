@@ -4,7 +4,7 @@ linktitle: SparklineGroupCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SparklineGroupCollection class. Encapsulates a collection of SparklineGroup objects in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells.charts/sparklinegroupcollection/
 ---
 ## SparklineGroupCollection class

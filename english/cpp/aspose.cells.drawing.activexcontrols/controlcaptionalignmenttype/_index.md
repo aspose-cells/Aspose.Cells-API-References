@@ -20,8 +20,8 @@ enum class ControlCaptionAlignmentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Left | 0 | The left of the control. |
-| Right | 1 | The right of the control. |
+| Left | 0 | <br>The left of the control. |
+| Right | 1 | <br>The right of the control. |
 
 ## See Also
 

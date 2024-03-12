@@ -20,9 +20,9 @@ enum class SparklineType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Line | 0 | Line sparkline. |
-| Column | 1 | [Column](../../aspose.cells/column/) sparkline. |
-| Stacked | 2 | Win/Loss sparkline. |
+| Line | 0 | <br>Line sparkline. |
+| Column | 1 | <br>[Column](../../aspose.cells/column/) sparkline. |
+| Stacked | 2 | <br>Win/Loss sparkline. |
 
 ## See Also
 

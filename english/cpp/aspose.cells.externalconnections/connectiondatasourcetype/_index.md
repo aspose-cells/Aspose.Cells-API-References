@@ -20,20 +20,20 @@ enum class ConnectionDataSourceType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ODBCBasedSource | 1 | ODBC-based source. |
-| DAOBasedSource | 2 | DAO-based source. |
-| FileBasedDataBaseSource | 3 | File based database source. |
-| WebQuery | 4 | Web query. |
-| OLEDBBasedSource | 5 | OLE DB-based source. |
-| TextBasedSource | 6 | Text-based source. |
-| ADORecordSet | 7 | ADO record set. |
-| DSP | 8 | DSP. |
-| OLEDBDataModel | 100 | OLE DB data source created by the Spreadsheet Data Model. |
-| DataFeedDataModel | 101 | Data feed data source created by the Spreadsheet Data Model. |
-| WorksheetDataModel | 102 | [Worksheet](../../aspose.cells/worksheet/) data source created by the Spreadsheet Data Model. |
-| Table | 102 | [Worksheet](../../aspose.cells/worksheet/) data source created by the Spreadsheet Data Model. |
-| TextDataModel | 103 | Text data source created by the Spreadsheet Data Model. |
-| Unknown | 255 | Text data source created by the Spreadsheet Data Model. |
+| ODBCBasedSource | 1 | <br>ODBC-based source. |
+| DAOBasedSource | 2 | <br>DAO-based source. |
+| FileBasedDataBaseSource | 3 | <br>File based database source. |
+| WebQuery | 4 | <br>Web query. |
+| OLEDBBasedSource | 5 | <br>OLE DB-based source. |
+| TextBasedSource | 6 | <br>Text-based source. |
+| ADORecordSet | 7 | <br>ADO record set. |
+| DSP | 8 | <br>DSP. |
+| OLEDBDataModel | 100 | <br>OLE DB data source created by the Spreadsheet Data Model. |
+| DataFeedDataModel | 101 | <br>Data feed data source created by the Spreadsheet Data Model. |
+| WorksheetDataModel | 102 | <br>[Worksheet](../../aspose.cells/worksheet/) data source created by the Spreadsheet Data Model. |
+| Table | 102 |  **(Deprecated - Use WorksheetDataModel enum instead. )** <br>[Worksheet](../../aspose.cells/worksheet/) data source created by the Spreadsheet Data Model. |
+| TextDataModel | 103 | <br>Text data source created by the Spreadsheet Data Model. |
+| Unknown | 255 | <br>Text data source created by the Spreadsheet Data Model. |
 
 ## See Also
 

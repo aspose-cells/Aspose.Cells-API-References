@@ -20,8 +20,8 @@ enum class OdsGeneratorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| LibreOffice | 0 | Libre Office. |
-| OpenOffice | 1 | Open Office. |
+| LibreOffice | 0 | <br>Libre Office. |
+| OpenOffice | 1 | <br>Open Office. |
 
 ## See Also
 

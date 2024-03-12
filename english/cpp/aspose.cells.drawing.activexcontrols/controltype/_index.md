@@ -20,19 +20,19 @@ enum class ControlType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| CommandButton | 0 | [Button](../../aspose.cells.drawing/button/). |
-| ComboBox | 1 | [ComboBox](../../aspose.cells.drawing/combobox/). |
-| CheckBox | 2 | [CheckBox](../../aspose.cells.drawing/checkbox/). |
-| ListBox | 3 | [ListBox](../../aspose.cells.drawing/listbox/). |
-| TextBox | 4 | [TextBox](../../aspose.cells.drawing/textbox/). |
-| SpinButton | 5 | [Spinner](../../aspose.cells.drawing/spinner/). |
-| RadioButton | 6 | [RadioButton](../../aspose.cells.drawing/radiobutton/). |
-| Label | 7 | [Label](../../aspose.cells.drawing/label/). |
-| Image | 8 | Image. |
-| ToggleButton | 9 | ToggleButton. |
-| ScrollBar | 10 | [ScrollBar](../../aspose.cells.drawing/scrollbar/). |
-| BarCode | 11 | [ScrollBar](../../aspose.cells.drawing/scrollbar/). |
-| Unknown | 12 | Unknown. |
+| CommandButton | 0 | <br>[Button](../../aspose.cells.drawing/button/). |
+| ComboBox | 1 | <br>[ComboBox](../../aspose.cells.drawing/combobox/). |
+| CheckBox | 2 | <br>[CheckBox](../../aspose.cells.drawing/checkbox/). |
+| ListBox | 3 | <br>[ListBox](../../aspose.cells.drawing/listbox/). |
+| TextBox | 4 | <br>[TextBox](../../aspose.cells.drawing/textbox/). |
+| SpinButton | 5 | <br>[Spinner](../../aspose.cells.drawing/spinner/). |
+| RadioButton | 6 | <br>[RadioButton](../../aspose.cells.drawing/radiobutton/). |
+| Label | 7 | <br>[Label](../../aspose.cells.drawing/label/). |
+| Image | 8 | <br>Image. |
+| ToggleButton | 9 | <br>ToggleButton. |
+| ScrollBar | 10 | <br>[ScrollBar](../../aspose.cells.drawing/scrollbar/). |
+| BarCode | 11 | <br>[ScrollBar](../../aspose.cells.drawing/scrollbar/). |
+| Unknown | 12 | <br>Unknown. |
 
 ## See Also
 

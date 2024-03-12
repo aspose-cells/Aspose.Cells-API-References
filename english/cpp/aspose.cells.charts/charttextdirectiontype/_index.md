@@ -4,7 +4,7 @@ linktitle: ChartTextDirectionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartTextDirectionType enum. Represents the text direction type of the chart in C++.'
 type: docs
-weight: 4400
+weight: 4500
 url: /cpp/aspose.cells.charts/charttextdirectiontype/
 ---
 ## ChartTextDirectionType enum
@@ -20,11 +20,11 @@ enum class ChartTextDirectionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Horizontal | 0 | Horizontal direction type. |
-| Vertical | 1 | Vertical direction type. |
-| Rotate90 | 2 | Rotate 90 angle. |
-| Rotate270 | 3 | Rotate 270 angle. |
-| Stacked | 4 | Stacked text. |
+| Horizontal | 0 | <br>Horizontal direction type. |
+| Vertical | 1 | <br>Vertical direction type. |
+| Rotate90 | 2 | <br>Rotate 90 angle. |
+| Rotate270 | 3 | <br>Rotate 270 angle. |
+| Stacked | 4 | <br>Stacked text. |
 
 ## See Also
 

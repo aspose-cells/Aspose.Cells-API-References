@@ -4,7 +4,7 @@ linktitle: SetAllowComments
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureLine::SetAllowComments method. Indicates whether comments could be attached in C++.'
 type: docs
-weight: 1500
+weight: 1900
 url: /cpp/aspose.cells.drawing/signatureline/setallowcomments/
 ---
 ## SignatureLine::SetAllowComments method

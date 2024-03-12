@@ -35,7 +35,7 @@ url: /cpp/aspose.cells/
 | [CellValue](./cellvalue/) | Represents the cell value and corresponding type. |
 | [CellWatch](./cellwatch/) | Represents [Cell](./cell/) Watch Item in the 'watch window'. |
 | [CellWatchCollection](./cellwatchcollection/) | Represents the collection of cells on this worksheet being watched in the 'watch window'. |
-| [ColorFilter](./colorfilter/) | Represents the color filter. |
+| [ColorFilter](./colorfilter/) | Represents filtering the range by color. |
 | [ColorScale](./colorscale/) | Describe the [ColorScale](./colorscale/) conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells. |
 | [Column](./column/) | Represents a single column in a worksheet. |
 | [ColumnCollection](./columncollection/) | Collection of the [Column](./column/) objects that represent the individual column(setting)s in a worksheet. The [Column](./column/) object only represents the settings such as column width, styles, .etc. for the whole column, has nothing to do with the fact that there are non-empty cells(data) or not in corresponding column. And the "Count" of this collection only represents the count [Column](./column/) objects that have been instantiated in this collection, has nothing to do with the fact that there are non-empty cells(data) or not in the worksheet. |
@@ -246,6 +246,7 @@ url: /cpp/aspose.cells/
 | [LookAtType](./lookattype/) | Represents look at type. |
 | [LookInType](./lookintype/) | Represents look in type. |
 | [MemorySetting](./memorysetting/) | Memory usage options. |
+| [MergeEmptyTdType](./mergeemptytdtype/) | Represents the merge type for empty TD element when exporting file to html. |
 | [NameScopeType](./namescopetype/) | Represents the scope type of defined names. |
 | [NumberCategoryType](./numbercategorytype/) | Represents category type of cell's number formatting. |
 | [OoxmlCompliance](./ooxmlcompliance/) | Allows to specify which OOXML specification will be used when saving in the Xlsx format. |

@@ -20,8 +20,8 @@ enum class ControlListStyle
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Plain | 0 | Displays a list in which the background of an item is highlighted when it is selected. |
-| Option | 1 | Displays a list in which an option button or a checkbox next to each entry displays the selection state of that item. |
+| Plain | 0 | <br>Displays a list in which the background of an item is highlighted when it is selected. |
+| Option | 1 | <br>Displays a list in which an option button or a checkbox next to each entry displays the selection state of that item. |
 
 ## See Also
 

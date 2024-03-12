@@ -4,7 +4,7 @@ linktitle: Walls
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Walls class. Encapsulates the object that represents the walls of a 3-D chart in C++.'
 type: docs
-weight: 3500
+weight: 3600
 url: /cpp/aspose.cells.charts/walls/
 ---
 ## Walls class

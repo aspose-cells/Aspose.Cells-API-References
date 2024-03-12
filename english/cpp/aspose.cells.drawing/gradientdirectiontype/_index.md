@@ -20,12 +20,12 @@ enum class GradientDirectionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FromUpperLeftCorner | 0 | FromUpperLeftCorner. |
-| FromUpperRightCorner | 1 | FromUpperRightCorner. |
-| FromLowerLeftCorner | 2 | FromLowerLeftCorner. |
-| FromLowerRightCorner | 3 | FromLowerRightCorner. |
-| FromCenter | 4 | FromCenter. |
-| Unknown | 5 | Unknown. |
+| FromUpperLeftCorner | 0 | <br>FromUpperLeftCorner. |
+| FromUpperRightCorner | 1 | <br>FromUpperRightCorner. |
+| FromLowerLeftCorner | 2 | <br>FromLowerLeftCorner. |
+| FromLowerRightCorner | 3 | <br>FromLowerRightCorner. |
+| FromCenter | 4 | <br>FromCenter. |
+| Unknown | 5 | <br>Unknown. |
 
 ## See Also
 

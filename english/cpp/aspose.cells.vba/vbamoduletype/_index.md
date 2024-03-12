@@ -20,10 +20,10 @@ enum class VbaModuleType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Procedural | 0 | Represents a procedural module. |
-| Document | 1 | Represents a document module. |
-| Class | 2 | Represents a class module. |
-| Designer | 3 | Represents a designer module. |
+| Procedural | 0 | <br>Represents a procedural module. |
+| Document | 1 | <br>Represents a document module. |
+| Class | 2 | <br>Represents a class module. |
+| Designer | 3 | <br>Represents a designer module. |
 
 ## See Also
 

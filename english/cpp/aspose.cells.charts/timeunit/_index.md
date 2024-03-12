@@ -4,7 +4,7 @@ linktitle: TimeUnit
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TimeUnit enum. Represents the base unit for the category axis in C++.'
 type: docs
-weight: 6600
+weight: 6700
 url: /cpp/aspose.cells.charts/timeunit/
 ---
 ## TimeUnit enum
@@ -20,9 +20,9 @@ enum class TimeUnit
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Days | 0 | Days. |
-| Months | 1 | Months. |
-| Years | 2 | Years. |
+| Days | 0 | <br>Days. |
+| Months | 1 | <br>Months. |
+| Years | 2 | <br>Years. |
 
 ## See Also
 

@@ -20,7 +20,6 @@ class AxisBins
 
 | Method | Description |
 | --- | --- |
-| [AxisBins()](./axisbins/) | Default constructor. |
 | [AxisBins(AxisBins_Impl* impl)](./axisbins/) | Constructs from an implementation object. |
 | [AxisBins(const AxisBins\& src)](./axisbins/) | Copy constructor. |
 | [GetCount()](./getcount/) | Gets or set the count of axis bins. |

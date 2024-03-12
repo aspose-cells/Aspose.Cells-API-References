@@ -28,8 +28,8 @@ class Cells
 | [Cells(const Cells\& src)](./cells/) | Copy constructor. |
 | [CheckCell(int32_t row, int32_t column)](./checkcell/) | Gets the [Cell](../cell/) element or null at the specified cell row index and column index. |
 | [CheckColumn(int32_t columnIndex)](./checkcolumn/) | Gets the [Column](../column/) element or null at the specified column index. |
-| [CheckRow(int32_t row)](./checkrow/) | Gets the [Row](../row/) element or at the specified cell row index. |
-| [Clear()](./clear/) | Clears all cell and row objects. |
+| [CheckRow(int32_t row)](./checkrow/) | Gets the [Row](../row/) element or null at the specified cell row index. |
+| [Clear()](./clear/) | Clears all data of the worksheet. |
 | [ClearContents(const CellArea\& range)](./clearcontents/) | Clears contents of a range. |
 | [ClearContents(int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn)](./clearcontents/) | Clears contents of a range. |
 | [ClearFormats(const CellArea\& range)](./clearformats/) | Clears formatting of a range. |
@@ -37,7 +37,7 @@ class Cells
 | [ClearMergedCells()](./clearmergedcells/) | Clears all merged ranges. |
 | [ClearRange(const CellArea\& range)](./clearrange/) | Clears contents and formatting of a range. |
 | [ClearRange(int32_t startRow, int32_t startColumn, int32_t endRow, int32_t endColumn)](./clearrange/) | Clears contents and formatting of a range. |
-| [ConvertStringToNumericValue()](./convertstringtonumericvalue/) | Converts string data in cells to numeric value if possible. |
+| [ConvertStringToNumericValue()](./convertstringtonumericvalue/) | Converts all string data in the worksheet to numeric value if possible. |
 | [CopyColumn(const Cells\& sourceCells, int32_t sourceColumnIndex, int32_t destinationColumnIndex)](./copycolumn/) | Copies data and formats of a whole column. |
 | [CopyColumns(const Cells\& sourceCells0, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber, const PasteOptions\& pasteOptions)](./copycolumns/) | Copies data and formats of a whole column. |
 | [CopyColumns(const Cells\& sourceCells0, int32_t sourceColumnIndex, int32_t destinationColumnIndex, int32_t columnNumber)](./copycolumns/) | Copies data and formats of a whole column. |
@@ -72,7 +72,7 @@ class Cells
 | [Get(int32_t row, int32_t column)](./get/) | Gets the [Cell](../cell/) element at the specified cell row index and column index. |
 | [Get(const U16String\& cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
 | [Get(const char16_t* cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
-| [GetCell(int32_t row, int32_t column)](./getcell/) | Gets the [Cell](../cell/) element or null at the specified cell row index and column index. |
+| [GetCell(int32_t row, int32_t column)](./getcell/) |  **(Deprecated)** Gets the [Cell](../cell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle(int32_t row, int32_t column)](./getcellstyle/) | Get the style of given cell. |
 | [GetColumns()](./getcolumns/) | Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet. |
 | [GetColumnWidth(int32_t column)](./getcolumnwidth/) | Gets the width(in unit of characters) of the specified column in normal view. |
@@ -106,7 +106,7 @@ class Cells
 | [GetOdsCellFields()](./getodscellfields/) | Gets the list of fields of ods. |
 | [GetPreserveString()](./getpreservestring/) | Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
 | [GetRanges()](./getranges/) | Gets the collection of [Range](../range/) objects created at run time. |
-| [GetRow(int32_t row)](./getrow/) | Gets the [Row](../row/) element at the specified cell row index. |
+| [GetRow(int32_t row)](./getrow/) |  **(Deprecated)** Gets the [Row](../row/) element at the specified cell row index. |
 | [GetRowHeight(int32_t row)](./getrowheight/) | Gets the height of a specified row, in unit of points. |
 | [GetRowHeightInch(int32_t row)](./getrowheightinch/) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel(int32_t row)](./getrowheightpixel/) | Gets the height of a specified row in unit of pixel. |
@@ -118,7 +118,7 @@ class Cells
 | [GetStandardWidth()](./getstandardwidth/) | Gets or sets the default column width in the worksheet, in unit of characters. |
 | [GetStandardWidthInch()](./getstandardwidthinch/) | Gets or sets the default column width in the worksheet, in unit of inches. |
 | [GetStandardWidthPixels()](./getstandardwidthpixels/) | Gets or sets the default column width in the worksheet, in unit of pixels. |
-| [GetStyle()](./getstyle/) | Gets and sets the default style. |
+| [GetStyle()](./getstyle/) | Gets and sets the default style of the worksheet. |
 | [GetViewColumnWidthPixel(int32_t column)](./getviewcolumnwidthpixel/) | Get the width in different view type. |
 | [GetViewRowHeight(int32_t row)](./getviewrowheight/) | Gets the height of a specified row. |
 | [GetViewRowHeightInch(int32_t row)](./getviewrowheightinch/) | Gets the height of a specified row in unit of inches. |
@@ -188,7 +188,7 @@ class Cells
 | [SetStandardWidth(double value)](./setstandardwidth/) | Gets or sets the default column width in the worksheet, in unit of characters. |
 | [SetStandardWidthInch(double value)](./setstandardwidthinch/) | Gets or sets the default column width in the worksheet, in unit of inches. |
 | [SetStandardWidthPixels(int32_t value)](./setstandardwidthpixels/) | Gets or sets the default column width in the worksheet, in unit of pixels. |
-| [SetStyle(const Style\& value)](./setstyle/) | Gets and sets the default style. |
+| [SetStyle(const Style\& value)](./setstyle/) | Gets and sets the default style of the worksheet. |
 | [SetViewColumnWidthPixel(int32_t column, int32_t pixels)](./setviewcolumnwidthpixel/) | Sets the width of the column in different view. |
 | [ShowGroupDetail(bool isVertical, int32_t index)](./showgroupdetail/) | Expands the grouped rows/columns. |
 | [Subtotal(const CellArea\& ca, int32_t groupBy, ConsolidationFunction function, const Vector \<int32_t\>\& totalList)](./subtotal/) | Creates subtotals for the range. |

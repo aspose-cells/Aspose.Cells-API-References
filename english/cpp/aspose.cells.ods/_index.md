@@ -26,3 +26,4 @@ url: /cpp/aspose.cells.ods/
 | [OdsPageBackgroundGraphicPositionType](./odspagebackgroundgraphicpositiontype/) | Represents the position. |
 | [OdsPageBackgroundGraphicType](./odspagebackgroundgraphictype/) | Represents the type of formatting page background with image. |
 | [OdsPageBackgroundType](./odspagebackgroundtype/) | Represents the page background type of ods. |
+| [OpenDocumentFormatVersionType](./opendocumentformatversiontype/) | Open Document Format version type. |

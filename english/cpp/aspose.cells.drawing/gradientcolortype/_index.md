@@ -20,10 +20,10 @@ enum class GradientColorType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No gradient color. |
-| OneColor | 1 | One gradient color. |
-| PresetColors | 2 | Preset gradient colors. |
-| TwoColors | 3 | Two gradient colors. |
+| None | 0 | <br>No gradient color. |
+| OneColor | 1 | <br>One gradient color. |
+| PresetColors | 2 | <br>Preset gradient colors. |
+| TwoColors | 3 | <br>Two gradient colors. |
 
 ## See Also
 

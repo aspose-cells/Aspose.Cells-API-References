@@ -20,56 +20,56 @@ enum class CountryCode
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | 0 |  |
-| USA | 1 | United States. |
-| Canada | 2 | Canada. |
-| LatinAmeric | 3 | Latin America, except Brazil. |
-| Russia | 7 | Russia. |
-| Egypt | 20 | Egypt. |
-| Greece | 30 | Greece. |
-| Netherlands | 31 | Netherlands. |
-| Belgium | 32 | Belgium. |
-| France | 33 | France. |
-| Spain | 34 | Spain. |
-| Hungary | 36 | Hungary. |
-| Italy | 39 | Italy. |
-| Switzerland | 41 | Switzerland. |
-| Austria | 43 | Austria. |
-| UnitedKingdom | 44 | United Kingdom. |
-| Denmark | 45 | Denmark. |
-| Sweden | 46 | Sweden. |
-| Norway | 47 | Norway. |
-| Poland | 48 | Poland. |
-| Germany | 49 | Germany. |
-| Mexico | 52 | Mexico. |
-| Brazil | 55 | Brazil. |
-| Australia | 61 | Australia. |
-| NewZealand | 64 | New Zealand. |
-| Thailand | 66 | Thailand. |
-| Japan | 81 | Japan. |
-| SouthKorea | 82 | SouthKorea. |
-| VietNam | 84 | Viet Nam. |
-| China | 86 | People's Republic of China. |
-| Turkey | 90 | Turkey. |
-| India | 91 | India. |
-| Algeria | 213 | Algeria. |
-| Morocco | 216 | Morocco. |
-| Libya | 218 | Libya. |
-| Portugal | 351 | Portugal. |
-| Iceland | 354 | Iceland. |
-| Finland | 358 | Finland. |
-| Czech | 420 | Czech Republic. |
-| Taiwan | 886 | Taiwan. |
-| Lebanon | 961 | Lebanon. |
-| Jordan | 962 | Jordan. |
-| Syria | 963 | Syria. |
-| Iraq | 964 | Iraq. |
-| Kuwait | 965 | Kuwait. |
-| Saudi | 966 | Saudi Arabia. |
-| UnitedArabEmirates | 971 | United Arab Emirates. |
-| Israel | 972 | Israel. |
-| Qatar | 974 | Qatar. |
-| Iran | 981 | Iran. |
+| Default | 0 | <br> |
+| USA | 1 | <br>United States. |
+| Canada | 2 | <br>Canada. |
+| LatinAmeric | 3 | <br>Latin America, except Brazil. |
+| Russia | 7 | <br>Russia. |
+| Egypt | 20 | <br>Egypt. |
+| Greece | 30 | <br>Greece. |
+| Netherlands | 31 | <br>Netherlands. |
+| Belgium | 32 | <br>Belgium. |
+| France | 33 | <br>France. |
+| Spain | 34 | <br>Spain. |
+| Hungary | 36 | <br>Hungary. |
+| Italy | 39 | <br>Italy. |
+| Switzerland | 41 | <br>Switzerland. |
+| Austria | 43 | <br>Austria. |
+| UnitedKingdom | 44 | <br>United Kingdom. |
+| Denmark | 45 | <br>Denmark. |
+| Sweden | 46 | <br>Sweden. |
+| Norway | 47 | <br>Norway. |
+| Poland | 48 | <br>Poland. |
+| Germany | 49 | <br>Germany. |
+| Mexico | 52 | <br>Mexico. |
+| Brazil | 55 | <br>Brazil. |
+| Australia | 61 | <br>Australia. |
+| NewZealand | 64 | <br>New Zealand. |
+| Thailand | 66 | <br>Thailand. |
+| Japan | 81 | <br>Japan. |
+| SouthKorea | 82 | <br>SouthKorea. |
+| VietNam | 84 | <br>Viet Nam. |
+| China | 86 | <br>People's Republic of China. |
+| Turkey | 90 | <br>Turkey. |
+| India | 91 | <br>India. |
+| Algeria | 213 | <br>Algeria. |
+| Morocco | 216 | <br>Morocco. |
+| Libya | 218 | <br>Libya. |
+| Portugal | 351 | <br>Portugal. |
+| Iceland | 354 | <br>Iceland. |
+| Finland | 358 | <br>Finland. |
+| Czech | 420 | <br>Czech Republic. |
+| Taiwan | 886 | <br>Taiwan. |
+| Lebanon | 961 | <br>Lebanon. |
+| Jordan | 962 | <br>Jordan. |
+| Syria | 963 | <br>Syria. |
+| Iraq | 964 | <br>Iraq. |
+| Kuwait | 965 | <br>Kuwait. |
+| Saudi | 966 | <br>Saudi Arabia. |
+| UnitedArabEmirates | 971 | <br>United Arab Emirates. |
+| Israel | 972 | <br>Israel. |
+| Qatar | 974 | <br>Qatar. |
+| Iran | 981 | <br>Iran. |
 
 ## See Also
 

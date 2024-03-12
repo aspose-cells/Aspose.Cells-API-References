@@ -20,9 +20,9 @@ enum class DisplayDrawingObjects
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DisplayShapes | 0 | Show all objects. |
-| Placeholders | 1 | Show placeholders. |
-| Hide | 2 | Hide all shapes. |
+| DisplayShapes | 0 | <br>Show all objects. |
+| Placeholders | 1 | <br>Show placeholders. |
+| Hide | 2 | <br>Hide all shapes. |
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: GetXAdESType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DigitalSignatures::DigitalSignature::GetXAdESType method. XAdES type. Default value is None(XAdES is off) in C++.'
 type: docs
-weight: 1500
+weight: 1900
 url: /cpp/aspose.cells.digitalsignatures/digitalsignature/getxadestype/
 ---
 ## DigitalSignature::GetXAdESType method

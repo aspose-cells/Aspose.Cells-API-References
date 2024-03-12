@@ -20,12 +20,12 @@ enum class DateTimeGroupingType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Day | 0 | Group by day. |
-| Hour | 1 | Group by hour. |
-| Minute | 2 | Group by Minute. |
-| Month | 3 | Group by Month. |
-| Second | 4 | Group by Second. |
-| Year | 5 | Group by Year. |
+| Day | 0 | <br>Group by day. |
+| Hour | 1 | <br>Group by hour. |
+| Minute | 2 | <br>Group by Minute. |
+| Month | 3 | <br>Group by Month. |
+| Second | 4 | <br>Group by Second. |
+| Year | 5 | <br>Group by Year. |
 
 ## See Also
 

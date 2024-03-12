@@ -4,7 +4,7 @@ linktitle: SeriesLayoutProperties
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SeriesLayoutProperties class. Represents the properties of series layout in C++.'
 type: docs
-weight: 2500
+weight: 2600
 url: /cpp/aspose.cells.charts/serieslayoutproperties/
 ---
 ## SeriesLayoutProperties class

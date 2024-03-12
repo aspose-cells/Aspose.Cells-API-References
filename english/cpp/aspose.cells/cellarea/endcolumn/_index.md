@@ -4,7 +4,7 @@ linktitle: EndColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellArea::EndColumn field. Gets or set the end column of this area in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/cellarea/endcolumn/
 ---
 ## EndColumn field

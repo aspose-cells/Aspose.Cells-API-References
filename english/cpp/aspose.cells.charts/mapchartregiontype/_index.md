@@ -20,10 +20,10 @@ enum class MapChartRegionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 | Automatic. |
-| DataOnly | 1 | Only Data. |
-| CountryRegionList | 2 | Country region list. |
-| World | 3 | World. |
+| Automatic | 0 | <br>Automatic. |
+| DataOnly | 1 | <br>Only Data. |
+| CountryRegionList | 2 | <br>Country region list. |
+| World | 3 | <br>World. |
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: SeriesCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::SeriesCollection class. Encapsulates a collection of Series objects in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells.charts/seriescollection/
 ---
 ## SeriesCollection class

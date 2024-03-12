@@ -20,9 +20,9 @@ enum class MapChartLabelLayout
 
 | Name | Value | Description |
 | --- | --- | --- |
-| BestFitOnly | 0 | Only best fit. |
-| ShowAll | 1 | Shows all labels. |
-| None | 2 | No labels. |
+| BestFitOnly | 0 | <br>Only best fit. |
+| ShowAll | 1 | <br>Shows all labels. |
+| None | 2 | <br>No labels. |
 
 ## See Also
 

@@ -20,8 +20,8 @@ enum class EmfRenderSetting
 
 | Name | Value | Description |
 | --- | --- | --- |
-| EmfOnly | 0 | Only rendering Emf records. |
-| EmfPlusPrefer | 1 | Prefer rendering EmfPlus records. |
+| EmfOnly | 0 | <br>Only rendering Emf records. |
+| EmfPlusPrefer | 1 | <br>Prefer rendering EmfPlus records. |
 
 ## See Also
 

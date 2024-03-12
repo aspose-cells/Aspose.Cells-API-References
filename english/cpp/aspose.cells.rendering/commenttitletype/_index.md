@@ -20,10 +20,10 @@ enum class CommentTitleType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Cell | 0 | Represents comment title cell. |
-| Comment | 1 | Represents comment title comment. |
-| Note | 2 | Represents comment title note. |
-| Reply | 3 | Represents comment title reply. |
+| Cell | 0 | <br>Represents comment title cell. |
+| Comment | 1 | <br>Represents comment title comment. |
+| Note | 2 | <br>Represents comment title note. |
+| Reply | 3 | <br>Represents comment title reply. |
 
 ## See Also
 

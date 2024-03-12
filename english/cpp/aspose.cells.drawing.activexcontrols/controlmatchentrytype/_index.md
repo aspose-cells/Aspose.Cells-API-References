@@ -20,9 +20,9 @@ enum class ControlMatchEntryType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FirstLetter | 0 | The control searches for the next entry that starts with the character entered. Repeatedly typing the same letter cycles through all entries beginning with that letter. |
-| Complete | 1 | As each character is typed, the control searches for an entry matching all characters entered. |
-| None | 2 | The list will not be searched when characters are typed. |
+| FirstLetter | 0 | <br>The control searches for the next entry that starts with the character entered. Repeatedly typing the same letter cycles through all entries beginning with that letter. |
+| Complete | 1 | <br>As each character is typed, the control searches for an entry matching all characters entered. |
+| None | 2 | <br>The list will not be searched when characters are typed. |
 
 ## See Also
 

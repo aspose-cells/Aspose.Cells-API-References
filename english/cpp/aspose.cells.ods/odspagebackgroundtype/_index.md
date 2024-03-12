@@ -20,9 +20,9 @@ enum class OdsPageBackgroundType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No background. |
-| Color | 1 | Formats the background with color. |
-| Graphic | 2 | Formats the background with image. |
+| None | 0 | <br>No background. |
+| Color | 1 | <br>Formats the background with color. |
+| Graphic | 2 | <br>Formats the background with image. |
 
 ## See Also
 

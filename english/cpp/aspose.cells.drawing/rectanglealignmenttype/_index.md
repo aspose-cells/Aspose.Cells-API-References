@@ -20,15 +20,15 @@ enum class RectangleAlignmentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bottom | 0 | Bottom. |
-| BottomLeft | 1 | BottomLeft. |
-| BottomRight | 2 | BottomRight. |
-| Center | 3 | Center. |
-| Left | 4 | Left. |
-| Right | 5 | Right. |
-| Top | 6 | Top. |
-| TopLeft | 7 | TopLeft. |
-| TopRight | 8 | TopRight. |
+| Bottom | 0 | <br>Bottom. |
+| BottomLeft | 1 | <br>BottomLeft. |
+| BottomRight | 2 | <br>BottomRight. |
+| Center | 3 | <br>Center. |
+| Left | 4 | <br>Left. |
+| Right | 5 | <br>Right. |
+| Top | 6 | <br>Top. |
+| TopLeft | 7 | <br>TopLeft. |
+| TopRight | 8 | <br>TopRight. |
 
 ## See Also
 

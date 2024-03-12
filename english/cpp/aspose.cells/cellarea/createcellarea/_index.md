@@ -4,7 +4,7 @@ linktitle: CreateCellArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellArea::CreateCellArea method. Creates a cell area in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.cells/cellarea/createcellarea/
 ---
 ## CellArea::CreateCellArea(int, int, int, int) method

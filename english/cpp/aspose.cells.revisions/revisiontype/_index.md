@@ -20,20 +20,20 @@ enum class RevisionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| CustomView | 0 | Custom view. |
-| DefinedName | 1 | Defined name. |
-| ChangeCells | 2 | [Cells](../../aspose.cells/cells/) change. |
-| AutoFormat | 3 | Auto format. |
-| MergeConflict | 4 | Merge conflict. |
-| Comment | 5 | [Comment](../../aspose.cells/comment/). |
-| Format | 6 | Format. |
-| InsertSheet | 7 | Insert worksheet. |
-| MoveCells | 8 | Move cells. |
-| Undo | 9 | Undo. |
-| QueryTable | 10 | Query table. |
-| InsertDelete | 11 | Inserting or deleting. |
-| RenameSheet | 12 | Rename worksheet. |
-| Unknown | 13 | Unknown. |
+| CustomView | 0 | <br>Custom view. |
+| DefinedName | 1 | <br>Defined name. |
+| ChangeCells | 2 | <br>[Cells](../../aspose.cells/cells/) change. |
+| AutoFormat | 3 | <br>Auto format. |
+| MergeConflict | 4 | <br>Merge conflict. |
+| Comment | 5 | <br>[Comment](../../aspose.cells/comment/). |
+| Format | 6 | <br>Format. |
+| InsertSheet | 7 | <br>Insert worksheet. |
+| MoveCells | 8 | <br>Move cells. |
+| Undo | 9 | <br>Undo. |
+| QueryTable | 10 | <br>Query table. |
+| InsertDelete | 11 | <br>Inserting or deleting. |
+| RenameSheet | 12 | <br>Rename worksheet. |
+| Unknown | 13 | <br>Unknown. |
 
 ## See Also
 

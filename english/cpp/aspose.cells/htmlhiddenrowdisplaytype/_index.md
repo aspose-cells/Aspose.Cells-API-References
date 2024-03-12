@@ -20,8 +20,8 @@ enum class HtmlHiddenRowDisplayType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Hidden | 0 | Hidden the hidden rows in html page. |
-| Remove | 1 | Remove the hidden rows in html page. |
+| Hidden | 0 | <br>Hidden the hidden rows in html page. |
+| Remove | 1 | <br>Remove the hidden rows in html page. |
 
 ## See Also
 

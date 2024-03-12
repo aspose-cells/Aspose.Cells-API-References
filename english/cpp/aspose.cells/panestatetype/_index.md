@@ -4,7 +4,7 @@ linktitle: PaneStateType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaneStateType enum. Represents state of the sheet''s pane in C++.'
 type: docs
-weight: 23000
+weight: 23100
 url: /cpp/aspose.cells/panestatetype/
 ---
 ## PaneStateType enum
@@ -20,10 +20,10 @@ enum class PaneStateType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Frozen | 0 | Panes are frozen, but were not before being frozen. |
-| FrozenSplit | 1 | Panes are frozen and were split before being frozen. |
-| Split | 2 | Panes are split, but not frozen. |
-| Normal | 3 | Panes are not frozen and not split. |
+| Frozen | 0 | <br>Panes are frozen, but were not before being frozen. |
+| FrozenSplit | 1 | <br>Panes are frozen and were split before being frozen. |
+| Split | 2 | <br>Panes are split, but not frozen. |
+| Normal | 3 | <br>Panes are not frozen and not split. |
 
 ## See Also
 

@@ -20,10 +20,10 @@ enum class ErrorBarDisplayType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Both | 0 | Both. |
-| Minus | 1 | Minus. |
-| None | 2 | None. |
-| Plus | 3 | Plus. |
+| Both | 0 | <br>Both. |
+| Minus | 1 | <br>Minus. |
+| None | 2 | <br>None. |
+| Plus | 3 | <br>Plus. |
 
 ## See Also
 

@@ -20,9 +20,9 @@ enum class FormattingType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 | Represents automatic formatting type. |
-| Custom | 2 | Represents custom formatting type. |
-| None | 1 | Represents none formatting type. |
+| Automatic | 0 | <br>Represents automatic formatting type. |
+| Custom | 2 | <br>Represents custom formatting type. |
+| None | 1 | <br>Represents none formatting type. |
 
 ## See Also
 

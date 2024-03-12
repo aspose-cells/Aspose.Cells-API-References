@@ -4,7 +4,7 @@ linktitle: Trendline
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Trendline class. Represents a trendline in a chart in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells.charts/trendline/
 ---
 ## Trendline class

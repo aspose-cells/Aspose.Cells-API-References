@@ -20,10 +20,10 @@ enum class PdfCompressionCore
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | None. |
-| Rle | 1 | Rle. |
-| Lzw | 2 | Lzw. |
-| Flate | 3 | Flate. |
+| None | 0 | <br>None. |
+| Rle | 1 | <br>Rle. |
+| Lzw | 2 | <br>Lzw. |
+| Flate | 3 | <br>Flate. |
 
 ## See Also
 

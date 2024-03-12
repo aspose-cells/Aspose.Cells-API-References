@@ -20,8 +20,8 @@ enum class ExternalLinkType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DDELink | 0 | Represents the DDE link. |
-| External | 1 | Represents external link. |
+| DDELink | 0 | <br>Represents the DDE link. |
+| External | 1 | <br>Represents external link. |
 
 ## See Also
 

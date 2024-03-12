@@ -20,8 +20,8 @@ enum class QuartileCalculationType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Exclusive | 0 | The quartile calculation includes the median when splitting the dataset into quartiles. |
-| Inclusive | 1 | The quartile calculation excludes the median when splitting the dataset into quartiles. |
+| Exclusive | 0 | <br>The quartile calculation includes the median when splitting the dataset into quartiles. |
+| Inclusive | 1 | <br>The quartile calculation excludes the median when splitting the dataset into quartiles. |
 
 ## See Also
 

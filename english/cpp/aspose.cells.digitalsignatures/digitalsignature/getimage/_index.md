@@ -4,7 +4,7 @@ linktitle: GetImage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DigitalSignatures::DigitalSignature::GetImage method. Specifies an image for the digital signature. Default value is null in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells.digitalsignatures/digitalsignature/getimage/
 ---
 ## DigitalSignature::GetImage method

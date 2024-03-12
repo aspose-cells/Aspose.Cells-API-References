@@ -20,9 +20,9 @@ enum class HtmlFormatHandlingType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| All | 0 | Transfer all HTML formatting into the worksheet along with data. |
-| None | 1 | Bring data in as unformatted text (setting data types still occurs). |
-| Rtf | 2 | Translate HTML formatting to rich text formatting on the data brought into the worksheet. |
+| All | 0 | <br>Transfer all HTML formatting into the worksheet along with data. |
+| None | 1 | <br>Bring data in as unformatted text (setting data types still occurs). |
+| Rtf | 2 | <br>Translate HTML formatting to rich text formatting on the data brought into the worksheet. |
 
 ## See Also
 

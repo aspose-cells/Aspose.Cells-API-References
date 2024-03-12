@@ -4,7 +4,7 @@ linktitle: SetIsJsBrowserCompatible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetIsJsBrowserCompatible method. Indicates whether JavaScript is compatible with browsers that do not support JavaScript. The default value is true in C++.'
 type: docs
-weight: 11200
+weight: 11400
 url: /cpp/aspose.cells/htmlsaveoptions/setisjsbrowsercompatible/
 ---
 ## HtmlSaveOptions::SetIsJsBrowserCompatible method

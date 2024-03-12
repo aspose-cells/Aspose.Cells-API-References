@@ -4,7 +4,7 @@ linktitle: SetText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DigitalSignatures::DigitalSignature::SetText method. Specifies the text of actual signature in the digital signature. Default value is Empty in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells.digitalsignatures/digitalsignature/settext/
 ---
 ## DigitalSignature::SetText(const U16String\&) method

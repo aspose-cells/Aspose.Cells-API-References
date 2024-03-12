@@ -20,8 +20,8 @@ enum class EquationLimitLocationType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| UndOvr | 0 | Specifies that the limit is centered above or below the operator. |
-| SubSup | 1 | Specifies that the limit is on the right side of the operator. |
+| UndOvr | 0 | <br>Specifies that the limit is centered above or below the operator. |
+| SubSup | 1 | <br>Specifies that the limit is on the right side of the operator. |
 
 ## See Also
 

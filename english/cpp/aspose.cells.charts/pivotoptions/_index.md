@@ -4,7 +4,7 @@ linktitle: PivotOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::PivotOptions class. Represents a complex type that specifies the pivot controls that appear on the chart in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells.charts/pivotoptions/
 ---
 ## PivotOptions class

@@ -20,8 +20,8 @@ enum class ControlBorderType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | No border. |
-| Single | 1 | The single line. |
+| None | 0 | <br>No border. |
+| Single | 1 | <br>The single line. |
 
 ## See Also
 

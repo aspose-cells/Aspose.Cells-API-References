@@ -4,7 +4,7 @@ linktitle: GetInstructions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::SignatureLine::GetInstructions method. Gets and sets the text shown to user at signing time in C++.'
 type: docs
-weight: 1800
+weight: 2200
 url: /cpp/aspose.cells.drawing/signatureline/getinstructions/
 ---
 ## SignatureLine::GetInstructions method

@@ -20,9 +20,9 @@ enum class TextNodeType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| TextRun | 0 | Represents the text node. |
-| TextParagraph | 1 | Represents the text paragraph. |
-| Equation | 2 | Represents the equation text. |
+| TextRun | 0 | <br>Represents the text node. |
+| TextParagraph | 1 | <br>Represents the text paragraph. |
+| Equation | 2 | <br>Represents the equation text. |
 
 ## See Also
 

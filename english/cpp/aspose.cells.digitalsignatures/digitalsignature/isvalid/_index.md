@@ -4,7 +4,7 @@ linktitle: IsValid
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DigitalSignatures::DigitalSignature::IsValid method. If this digital signature is valid and the document has not been tampered with, this value will be true in C++.'
 type: docs
-weight: 1400
+weight: 1800
 url: /cpp/aspose.cells.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature::IsValid method

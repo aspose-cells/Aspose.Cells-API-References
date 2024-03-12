@@ -20,10 +20,10 @@ enum class TextTabAlignmentType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 0 | The text at this tab stop is center aligned. |
-| Decimal | 1 | At this tab stop, the decimals are lined up. |
-| Left | 2 | The text at this tab stop is left aligned. |
-| Right | 3 | The text at this tab stop is right aligned. |
+| Center | 0 | <br>The text at this tab stop is center aligned. |
+| Decimal | 1 | <br>At this tab stop, the decimals are lined up. |
+| Left | 2 | <br>The text at this tab stop is left aligned. |
+| Right | 3 | <br>The text at this tab stop is right aligned. |
 
 ## See Also
 

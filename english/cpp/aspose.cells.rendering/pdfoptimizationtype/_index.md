@@ -20,8 +20,8 @@ enum class PdfOptimizationType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Standard | 0 | High print quality. |
-| MinimumSize | 1 | File size is more important than print quality. |
+| Standard | 0 | <br>High print quality. |
+| MinimumSize | 1 | <br>File size is more important than print quality. |
 
 ## See Also
 

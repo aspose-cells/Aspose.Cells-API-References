@@ -20,20 +20,20 @@ enum class ImageType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Unknown | 0 | An unknown image type. |
-| Emf | 2 | Windows Enhanced Metafile. |
-| Wmf | 3 | Windows Metafile. |
-| Pict | 4 | Macintosh PICT. |
-| Jpeg | 5 | JPEG JFIF. |
-| Png | 6 | Portable Network Graphics. |
-| Bmp | 7 | Windows Bitmap. |
-| Gif | 66 | Gif. |
-| Tiff | 67 | Tiff. |
-| Svg | 68 | Svg. |
-| Svm | 69 | Svm. |
-| Gltf | 70 | glTF |
-| OfficeCompatibleEmf | 71 | Windows Enhanced Metafile which is more compatible with Office. |
-| WebP | 72 | Weppy image format. |
+| Unknown | 0 | <br>An unknown image type. |
+| Emf | 2 | <br>Windows Enhanced Metafile. |
+| Wmf | 3 | <br>Windows Metafile. |
+| Pict | 4 | <br>Macintosh PICT. |
+| Jpeg | 5 | <br>JPEG JFIF. |
+| Png | 6 | <br>Portable Network Graphics. |
+| Bmp | 7 | <br>Windows Bitmap. |
+| Gif | 66 | <br>Gif. |
+| Tiff | 67 | <br>Tiff. |
+| Svg | 68 | <br>Svg. |
+| Svm | 69 | <br>Svm. |
+| Gltf | 70 | <br>glTF |
+| OfficeCompatibleEmf | 71 | <br>Windows Enhanced Metafile which is more compatible with Office. |
+| WebP | 72 | <br>Weppy image format. |
 
 ## See Also
 

@@ -20,34 +20,34 @@ enum class LightRigType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Balanced | 0 | Balanced. |
-| BrightRoom | 1 | Bright room. |
-| Chilly | 2 | Chilly. |
-| Contrasting | 3 | Contrasting. |
-| Flat | 4 | Flat. |
-| Flood | 5 | Flood. |
-| Freezing | 6 | Freezing. |
-| Glow | 7 | Glow. |
-| Harsh | 8 | Harsh. |
-| LegacyFlat1 | 9 | LegacyFlat1. |
-| LegacyFlat2 | 10 | LegacyFlat2. |
-| LegacyFlat3 | 11 | LegacyFlat3. |
-| LegacyFlat4 | 12 | LegacyFlat4. |
-| LegacyHarsh1 | 13 | LegacyHarsh1. |
-| LegacyHarsh2 | 14 | LegacyHarsh2. |
-| LegacyHarsh3 | 15 | LegacyHarsh3. |
-| LegacyHarsh4 | 16 | LegacyHarsh4. |
-| LegacyNormal1 | 17 | LegacyNormal1. |
-| LegacyNormal2 | 18 | LegacyNormal2. |
-| LegacyNormal3 | 19 | LegacyNormal3. |
-| LegacyNormal4 | 20 | LegacyNormal4. |
-| Morning | 21 | Morning. |
-| Soft | 22 | Soft. |
-| Sunrise | 23 | Sunrise. |
-| Sunset | 24 | Sunset. |
-| ThreePoint | 25 | Three point. |
-| TwoPoint | 26 | Two point. |
-| None | 27 | No light rig. |
+| Balanced | 0 | <br>Balanced. |
+| BrightRoom | 1 | <br>Bright room. |
+| Chilly | 2 | <br>Chilly. |
+| Contrasting | 3 | <br>Contrasting. |
+| Flat | 4 | <br>Flat. |
+| Flood | 5 | <br>Flood. |
+| Freezing | 6 | <br>Freezing. |
+| Glow | 7 | <br>Glow. |
+| Harsh | 8 | <br>Harsh. |
+| LegacyFlat1 | 9 | <br>LegacyFlat1. |
+| LegacyFlat2 | 10 | <br>LegacyFlat2. |
+| LegacyFlat3 | 11 | <br>LegacyFlat3. |
+| LegacyFlat4 | 12 | <br>LegacyFlat4. |
+| LegacyHarsh1 | 13 | <br>LegacyHarsh1. |
+| LegacyHarsh2 | 14 | <br>LegacyHarsh2. |
+| LegacyHarsh3 | 15 | <br>LegacyHarsh3. |
+| LegacyHarsh4 | 16 | <br>LegacyHarsh4. |
+| LegacyNormal1 | 17 | <br>LegacyNormal1. |
+| LegacyNormal2 | 18 | <br>LegacyNormal2. |
+| LegacyNormal3 | 19 | <br>LegacyNormal3. |
+| LegacyNormal4 | 20 | <br>LegacyNormal4. |
+| Morning | 21 | <br>Morning. |
+| Soft | 22 | <br>Soft. |
+| Sunrise | 23 | <br>Sunrise. |
+| Sunset | 24 | <br>Sunset. |
+| ThreePoint | 25 | <br>Three point. |
+| TwoPoint | 26 | <br>Two point. |
+| None | 27 | <br>No light rig. |
 
 ## See Also
 

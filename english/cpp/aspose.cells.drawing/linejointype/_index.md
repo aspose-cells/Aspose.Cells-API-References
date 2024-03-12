@@ -20,10 +20,10 @@ enum class LineJoinType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Round | 0 | Round joint. |
-| Bevel | 1 | [Bevel](../bevel/) joint. |
-| Miter | 2 | Miter joint. |
-| None | 3 | None joint. |
+| Round | 0 | <br>Round joint. |
+| Bevel | 1 | <br>[Bevel](../bevel/) joint. |
+| Miter | 2 | <br>Miter joint. |
+| None | 3 | <br>None joint. |
 
 ## See Also
 

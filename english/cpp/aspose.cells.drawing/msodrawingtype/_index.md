@@ -20,35 +20,35 @@ enum class MsoDrawingType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Group | 0 | Group. |
-| Line | 1 | [Line](../line/). |
-| Rectangle | 2 | Rectangle. |
-| Oval | 3 | [Oval](../oval/). |
-| Arc | 4 | Arc. |
-| Chart | 5 | Chart. |
-| TextBox | 6 | [TextBox](../textbox/). |
-| Button | 7 | [Button](../button/). |
-| Picture | 8 | [Picture](../picture/). |
-| Polygon | 9 | Polygon. |
-| CheckBox | 11 | [CheckBox](../checkbox/). |
-| RadioButton | 12 | [RadioButton](../radiobutton/). |
-| Label | 14 | [Label](../label/). |
-| Dialog_Box | 15 | DialogBox. |
-| Spinner | 16 | [Spinner](../spinner/). |
-| ScrollBar | 17 | [ScrollBar](../scrollbar/). |
-| ListBox | 18 | [ListBox](../listbox/). |
-| GroupBox | 19 | [GroupBox](../groupbox/). |
-| ComboBox | 20 | [ComboBox](../combobox/). |
-| Comment | 25 | [Comment](../../aspose.cells/comment/). |
-| OleObject | 24 | [OleObject](../oleobject/). |
-| CellsDrawing | 30 | Only for preserving the drawing object in the template file. |
-| Unknown | 29 | Only for preserving the drawing object in the xlsx file. |
-| Slicer | 31 | Slicer. |
-| WebExtension | 32 | Web extension. |
-| SmartArt | 33 | Smart Art. |
-| CustomXml | 34 | Custom xml shape ,such as Ink. |
-| Timeline | 35 | Timeline. |
-| Model3D | 36 | 3D Model |
+| Group | 0 | <br>Group. |
+| Line | 1 | <br>[Line](../line/). |
+| Rectangle | 2 | <br>Rectangle. |
+| Oval | 3 | <br>[Oval](../oval/). |
+| Arc | 4 | <br>Arc. |
+| Chart | 5 | <br>Chart. |
+| TextBox | 6 | <br>[TextBox](../textbox/). |
+| Button | 7 | <br>[Button](../button/). |
+| Picture | 8 | <br>[Picture](../picture/). |
+| Polygon | 9 | <br>Polygon. |
+| CheckBox | 11 | <br>[CheckBox](../checkbox/). |
+| RadioButton | 12 | <br>[RadioButton](../radiobutton/). |
+| Label | 14 | <br>[Label](../label/). |
+| Dialog_Box | 15 | <br>DialogBox. |
+| Spinner | 16 | <br>[Spinner](../spinner/). |
+| ScrollBar | 17 | <br>[ScrollBar](../scrollbar/). |
+| ListBox | 18 | <br>[ListBox](../listbox/). |
+| GroupBox | 19 | <br>[GroupBox](../groupbox/). |
+| ComboBox | 20 | <br>[ComboBox](../combobox/). |
+| Comment | 25 | <br>[Comment](../../aspose.cells/comment/). |
+| OleObject | 24 | <br>[OleObject](../oleobject/). |
+| CellsDrawing | 30 | <br>Only for preserving the drawing object in the template file. |
+| Unknown | 29 | <br>Only for preserving the drawing object in the xlsx file. |
+| Slicer | 31 | <br>Slicer. |
+| WebExtension | 32 | <br>Web extension. |
+| SmartArt | 33 | <br>Smart Art. |
+| CustomXml | 34 | <br>Custom xml shape ,such as Ink. |
+| Timeline | 35 | <br>Timeline. |
+| Model3D | 36 | <br>3D Model |
 
 ## See Also
 

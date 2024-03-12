@@ -34,7 +34,7 @@ class HyperlinkCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const HyperlinkCollection\& src)](./operator_asm/) | operator= |
-| [RemoveAt(int32_t index)](./removeat/) | Remove the hyperlink at the specified index. |
+| [RemoveAt(int32_t index)](./removeat/) | Remove the hyperlink at the specified index in this collection. |
 | [~HyperlinkCollection()](./~hyperlinkcollection/) | Destructor. |
 ## Fields
 

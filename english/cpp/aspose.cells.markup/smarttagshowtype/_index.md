@@ -20,9 +20,9 @@ enum class SmartTagShowType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| All | 0 | Indicates that smart tags are enabled and shown. |
-| NoSmartTagIndicator | 1 | Indicates that the smart tags are enabled but the indicator not be shown. |
-| None | 2 | Indicates that smart tags are disabled and not displayed. |
+| All | 0 | <br>Indicates that smart tags are enabled and shown. |
+| NoSmartTagIndicator | 1 | <br>Indicates that the smart tags are enabled but the indicator not be shown. |
+| None | 2 | <br>Indicates that smart tags are disabled and not displayed. |
 
 ## See Also
 

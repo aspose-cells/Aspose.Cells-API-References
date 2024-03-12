@@ -4,7 +4,7 @@ linktitle: IsHidden
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::IsHidden method. Indicates whether the row is hidden in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells/row/ishidden/
 ---
 ## Row::IsHidden method

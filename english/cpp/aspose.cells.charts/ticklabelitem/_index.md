@@ -2,15 +2,15 @@
 title: Aspose::Cells::Charts::TickLabelItem class
 linktitle: TickLabelItem
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::TickLabelItem class. Include information of a Ticklabel item in C++.'
+description: 'Aspose::Cells::Charts::TickLabelItem class. Represents a tick label in the chart in C++.'
 type: docs
-weight: 3000
+weight: 3100
 url: /cpp/aspose.cells.charts/ticklabelitem/
 ---
 ## TickLabelItem class
 
 
-Include information of a Ticklabel item.
+Represents a tick label in the chart.
 
 ```cpp
 class TickLabelItem

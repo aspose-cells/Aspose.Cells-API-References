@@ -4,7 +4,7 @@ linktitle: UpdateLinksType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UpdateLinksType enum. Represents how to update links to other workbooks when the workbook is opened in C++.'
 type: docs
-weight: 26000
+weight: 26100
 url: /cpp/aspose.cells/updatelinkstype/
 ---
 ## UpdateLinksType enum
@@ -20,9 +20,9 @@ enum class UpdateLinksType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| UserSet | 0 | Prompt user to update. |
-| Never | 1 | Do not update, and do not prompt user. |
-| Always | 2 | Always update. |
+| UserSet | 0 | <br>Prompt user to update. |
+| Never | 1 | <br>Do not update, and do not prompt user. |
+| Always | 2 | <br>Always update. |
 
 ## See Also
 

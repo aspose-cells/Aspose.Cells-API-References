@@ -42,6 +42,7 @@ class Cell
 | [GetDisplayStyle()](./getdisplaystyle/) | Gets the display style of the cell. If this cell is also affected by other settings such as conditional formatting, list objects, etc., then the display style may be different from cell.GetStyle(). |
 | [GetDisplayStyle(bool includeMergedBorders)](./getdisplaystyle/) | Gets the display style of the cell. If the cell is conditional formatted, the display style is not same as the cell.GetStyle(). |
 | [GetDoubleValue()](./getdoublevalue/) | Gets the double value contained in the cell. |
+| [GetEmbeddedImage()](./getembeddedimage/) | Gets and sets the embeddedn image in the cell. |
 | [GetFloatValue()](./getfloatvalue/) | Gets the float value contained in the cell. |
 | [GetFormatConditions()](./getformatconditions/) | Gets format conditions which applies to this cell. |
 | [GetFormula()](./getformula/) | Gets or sets a formula of the [Cell](./). |
@@ -74,14 +75,14 @@ class Cell
 | [InsertText(int32_t index, const U16String\& text)](./inserttext/) | Insert some characters to the cell. If the cell is rich formatted, this method could keep the original formatting. |
 | [InsertText(int32_t index, const char16_t* text)](./inserttext/) | Insert some characters to the cell. If the cell is rich formatted, this method could keep the original formatting. |
 | [IsArrayFormula()](./isarrayformula/) | Indicates whether the cell formula is an array formula. |
-| [IsArrayHeader()](./isarrayheader/) | Indicates the cell's formula is and array formula and it is the first cell of the array. |
+| [IsArrayHeader()](./isarrayheader/) | Indicates the cell's formula is an array formula and it is the first cell of the array. |
 | [IsDynamicArrayFormula()](./isdynamicarrayformula/) | Indicates whether the cell's formula is dynamic array formula(true) or legacy array formula(false). |
 | [IsErrorValue()](./iserrorvalue/) | Checks if the value of this cell is an error. |
 | [IsFormula()](./isformula/) | Represents if the specified cell contains formula. |
 | [IsMerged()](./ismerged/) | Checks if a cell is part of a merged range or not. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsNumericValue()](./isnumericvalue/) | Indicates whether the inner value of this cell is numeric(int, double and datetime) |
-| [IsRichText()](./isrichtext/) | Indicates whether the cell string value is a rich text. |
+| [IsNumericValue()](./isnumericvalue/) | Indicates whether the value of this cell is numeric(int, double and datetime) |
+| [IsRichText()](./isrichtext/) | Indicates whether the string value of this cell is a rich formatted text. |
 | [IsSharedFormula()](./issharedformula/) | Indicates whether the cell formula is part of shared formula. |
 | [IsStyleSet()](./isstyleset/) | Indicates if the cell's style is set. If return false, it means this cell has a default cell format. |
 | [IsTableFormula()](./istableformula/) | Indicates whether this cell is part of table formula. |
@@ -107,6 +108,7 @@ class Cell
 | [SetCharacters(const Vector \<FontSetting\>\& characters)](./setcharacters/) | Sets rich text format of the cell. |
 | [SetDynamicArrayFormula(const U16String\& arrayFormula, const FormulaParseOptions\& options, bool calculateValue)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula(const char16_t* arrayFormula, const FormulaParseOptions\& options, bool calculateValue)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
+| [SetEmbeddedImage(const Vector \<uint8_t\>\& value)](./setembeddedimage/) | Gets and sets the embeddedn image in the cell. |
 | [SetFormula(const U16String\& value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
 | [SetFormula(const char16_t* value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
 | [SetFormulaLocal(const U16String\& value)](./setformulalocal/) | Get the locale formatted formula of the cell. |
@@ -120,8 +122,8 @@ class Cell
 | [SetSharedFormula(const U16String\& sharedFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setsharedformula/) | Sets shared formulas to a range of cells. |
 | [SetSharedFormula(const char16_t* sharedFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setsharedformula/) | Sets shared formulas to a range of cells. |
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the cell style. |
-| [SetStyle(const Style\& style, bool explicitFlag)](./setstyle/) | Apply the cell style. |
-| [SetStyle(const Style\& style, const StyleFlag\& flag)](./setstyle/) | Apply the cell style. |
+| [SetStyle(const Style\& style, bool explicitFlag)](./setstyle/) | Apply the changed property of style to the cell. |
+| [SetStyle(const Style\& style, const StyleFlag\& flag)](./setstyle/) | Apply the cell style based on flags. |
 | [ToJson()](./tojson/) | Convert [Cell](./) to JSON struct data. |
 | [ToString()](./tostring/) | Returns a string represents the current [Cell](./) object. |
 | [~Cell()](./~cell/) | Destructor. |

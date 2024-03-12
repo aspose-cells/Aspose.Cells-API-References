@@ -24,6 +24,7 @@ class Row
 | [CopySettings(const Row\& source, bool checkStyle)](./copysettings/) | Copy settings of row, such as style, height, visibility, ...etc. |
 | [Equals(const Row\& row)](./equals/) | Checks whether this object refers to the same row with another row object. |
 | [Get(int32_t column)](./get/) | Gets the cell. |
+| [GetCellByIndex(int32_t index)](./getcellbyindex/) | Get the cell by specific index in the cells collection of this row. |
 | [GetCellOrNull(int32_t column)](./getcellornull/) | Gets the cell or null in the specific index. |
 | [GetEnumerator()](./getenumerator/) | Gets the cells enumerator. |
 | [GetEnumerator(bool reversed, bool sync)](./getenumerator/) | Gets an enumerator that iterates cells through this row. |
@@ -38,7 +39,7 @@ class Row
 | [GetStyle()](./getstyle/) | Gets the style of this row. |
 | [IsBlank()](./isblank/) | Indicates whether the row contains any data. |
 | [IsCollapsed()](./iscollapsed/) | whether the row is collapsed |
-| [IsHeightMatched()](./isheightmatched/) | Indicates that row height and default font height matches. |
+| [IsHeightMatched()](./isheightmatched/) | Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
 | [IsHidden()](./ishidden/) | Indicates whether the row is hidden. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
@@ -48,7 +49,7 @@ class Row
 | [SetGroupLevel(uint8_t value)](./setgrouplevel/) | Gets the group level of the row. |
 | [SetHeight(double value)](./setheight/) | Gets and sets the row height in unit of Points. |
 | [SetIsCollapsed(bool value)](./setiscollapsed/) | whether the row is collapsed |
-| [SetIsHeightMatched(bool value)](./setisheightmatched/) | Indicates that row height and default font height matches. |
+| [SetIsHeightMatched(bool value)](./setisheightmatched/) | Indicates whether the row height matches current default font setting of the workbook. True of this property also denotes the row height is "automatic" without custom height value set by user. |
 | [SetIsHidden(bool value)](./setishidden/) | Indicates whether the row is hidden. |
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the style of this row. |
 | [~Row()](./~row/) | Destructor. |

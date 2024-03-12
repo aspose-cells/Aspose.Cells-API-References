@@ -4,7 +4,7 @@ linktitle: GetEnumerator
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::GetEnumerator method. Gets the cells enumerator in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/row/getenumerator/
 ---
 ## Row::GetEnumerator() method

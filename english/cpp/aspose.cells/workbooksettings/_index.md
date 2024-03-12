@@ -23,7 +23,7 @@ class WorkbookSettings
 | [Dispose()](./dispose/) | Releases resources. |
 | [GetAuthor()](./getauthor/) | Gets and sets the author of the file. |
 | [GetAutoCompressPictures()](./getautocompresspictures/) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
-| [GetAutoRecover()](./getautorecover/) | Indicates whether the file is mark for auto-recovery. |
+| [GetAutoRecover()](./getautorecover/) | Indicates whether the file is marked for auto-recovery. |
 | [GetBuildVersion()](./getbuildversion/) | Specifies the incremental public release of the application. |
 | [GetCheckCompatibility()](./getcheckcompatibility/) | Indicates whether check compatibility with earlier versions when saving workbook. |
 | [GetCheckCustomNumberFormat()](./getcheckcustomnumberformat/) | Indicates whether checking custom number format when setting Style.Custom. |
@@ -86,7 +86,7 @@ class WorkbookSettings
 | [SetAuthor(const U16String\& value)](./setauthor/) | Gets and sets the author of the file. |
 | [SetAuthor(const char16_t* value)](./setauthor/) | Gets and sets the author of the file. |
 | [SetAutoCompressPictures(bool value)](./setautocompresspictures/) | Specifies a boolean value that indicates the application automatically compressed pictures in the workbook. |
-| [SetAutoRecover(bool value)](./setautorecover/) | Indicates whether the file is mark for auto-recovery. |
+| [SetAutoRecover(bool value)](./setautorecover/) | Indicates whether the file is marked for auto-recovery. |
 | [SetBuildVersion(const U16String\& value)](./setbuildversion/) | Specifies the incremental public release of the application. |
 | [SetBuildVersion(const char16_t* value)](./setbuildversion/) | Specifies the incremental public release of the application. |
 | [SetCheckCompatibility(bool value)](./setcheckcompatibility/) | Indicates whether check compatibility with earlier versions when saving workbook. |

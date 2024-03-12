@@ -4,7 +4,7 @@ linktitle: IsBlank
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Row::IsBlank method. Indicates whether the row contains any data in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/row/isblank/
 ---
 ## Row::IsBlank method

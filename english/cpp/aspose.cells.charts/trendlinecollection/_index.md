@@ -4,7 +4,7 @@ linktitle: TrendlineCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::TrendlineCollection class. Represents a collection of all the Trendline objects for the specified data series in C++.'
 type: docs
-weight: 3400
+weight: 3500
 url: /cpp/aspose.cells.charts/trendlinecollection/
 ---
 ## TrendlineCollection class

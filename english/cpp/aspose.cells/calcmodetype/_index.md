@@ -20,9 +20,9 @@ enum class CalcModeType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 |  |
-| AutomaticExceptTable | 1 |  |
-| Manual | 2 |  |
+| Automatic | 0 | <br> |
+| AutomaticExceptTable | 1 | <br> |
+| Manual | 2 | <br> |
 
 ## Remarks
 

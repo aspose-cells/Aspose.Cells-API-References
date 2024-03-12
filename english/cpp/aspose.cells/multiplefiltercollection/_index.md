@@ -26,7 +26,7 @@ class MultipleFilterCollection
 | [GetCount()](./getcount/) |  |
 | [GetMatchBlank()](./getmatchblank/) | Indicates whether to filter by blank. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [MultipleFilterCollection()](./multiplefiltercollection/) | Default constructor. |
+| [MultipleFilterCollection()](./multiplefiltercollection/) | Constructs one new instance. |
 | [MultipleFilterCollection(MultipleFilterCollection_Impl* impl)](./multiplefiltercollection/) | Constructs from an implementation object. |
 | [MultipleFilterCollection(const IObject* obj)](./multiplefiltercollection/) | Constructs from an [IObject](../iobject/) convertible to this. |
 | [MultipleFilterCollection(const MultipleFilterCollection\& src)](./multiplefiltercollection/) | Copy constructor. |

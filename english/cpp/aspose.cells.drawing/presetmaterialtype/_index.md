@@ -20,21 +20,21 @@ enum class PresetMaterialType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Clear | 0 | Clear. |
-| DarkEdge | 1 | Dark edge. |
-| Flat | 2 | Flat. |
-| LegacyMatte | 3 | Legacy matte. |
-| LegacyMetal | 4 | Legacy metal. |
-| LegacyPlastic | 5 | Legacy plastic. |
-| LegacyWireframe | 6 | Legacy wireframe. |
-| Matte | 7 | Matte. |
-| Metal | 8 | Metal. |
-| Plastic | 9 | Plastic. |
-| Powder | 10 | Powder. |
-| SoftEdge | 11 | Soft edge. |
-| SoftMetal | 12 | Soft metal. |
-| TranslucentPowder | 13 | Translucent powder. |
-| WarmMatte | 14 | Warm matte. |
+| Clear | 0 | <br>Clear. |
+| DarkEdge | 1 | <br>Dark edge. |
+| Flat | 2 | <br>Flat. |
+| LegacyMatte | 3 | <br>Legacy matte. |
+| LegacyMetal | 4 | <br>Legacy metal. |
+| LegacyPlastic | 5 | <br>Legacy plastic. |
+| LegacyWireframe | 6 | <br>Legacy wireframe. |
+| Matte | 7 | <br>Matte. |
+| Metal | 8 | <br>Metal. |
+| Plastic | 9 | <br>Plastic. |
+| Powder | 10 | <br>Powder. |
+| SoftEdge | 11 | <br>Soft edge. |
+| SoftMetal | 12 | <br>Soft metal. |
+| TranslucentPowder | 13 | <br>Translucent powder. |
+| WarmMatte | 14 | <br>Warm matte. |
 
 ## See Also
 

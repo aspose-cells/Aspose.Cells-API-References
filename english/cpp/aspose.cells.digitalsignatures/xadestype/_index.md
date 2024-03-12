@@ -20,8 +20,8 @@ enum class XAdESType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | XAdES is off. |
-| XAdES | 1 | Basic XAdES. |
+| None | 0 | <br>XAdES is off. |
+| XAdES | 1 | <br>Basic XAdES. |
 
 ## See Also
 

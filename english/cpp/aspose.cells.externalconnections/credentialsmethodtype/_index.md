@@ -20,10 +20,10 @@ enum class CredentialsMethodType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Integrated | 0 | Integrated Authentication. |
-| None | 1 | No Credentials. |
-| Prompt | 2 | Prompt Credentials. |
-| Stored | 3 | Stored Credentials. |
+| Integrated | 0 | <br>Integrated Authentication. |
+| None | 1 | <br>No Credentials. |
+| Prompt | 2 | <br>Prompt Credentials. |
+| Stored | 3 | <br>Stored Credentials. |
 
 ## See Also
 

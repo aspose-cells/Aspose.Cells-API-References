@@ -20,9 +20,9 @@ enum class CopyFormatType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| SameAsAbove | 0 | Formats same as above row. |
-| SameAsBelow | 1 | Formats same as below row. |
-| Clear | 2 | Clears formatting. |
+| SameAsAbove | 0 | <br>Formats same as above row. |
+| SameAsBelow | 1 | <br>Formats same as below row. |
+| Clear | 2 | <br>Clears formatting. |
 
 ## See Also
 

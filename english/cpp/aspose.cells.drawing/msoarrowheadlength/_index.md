@@ -20,9 +20,9 @@ enum class MsoArrowheadLength
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Short | 0 | Short line end length. |
-| Medium | 1 | Medium line end length. |
-| Long | 2 | Long line end length. |
+| Short | 0 | <br>Short line end length. |
+| Medium | 1 | <br>Medium line end length. |
+| Long | 2 | <br>Long line end length. |
 
 ## See Also
 

@@ -34,7 +34,7 @@ If the border settings are changed, the border of adjust cells will be updated t
 ## Cell::SetStyle(const Style\&, bool) method
 
 
-Apply the cell style.
+Apply the changed property of style to the cell.
 
 ```cpp
 void Aspose::Cells::Cell::SetStyle(const Style &style, bool explicitFlag)
@@ -55,7 +55,7 @@ void Aspose::Cells::Cell::SetStyle(const Style &style, bool explicitFlag)
 ## Cell::SetStyle(const Style\&, const StyleFlag\&) method
 
 
-Apply the cell style.
+Apply the cell style based on flags.
 
 ```cpp
 void Aspose::Cells::Cell::SetStyle(const Style &style, const StyleFlag &flag)

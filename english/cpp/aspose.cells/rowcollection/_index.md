@@ -29,7 +29,7 @@ class RowCollection
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const RowCollection\& src)](./operator_asm/) | operator= |
-| [RemoveAt(int32_t index)](./removeat/) | Remove the row at the specified index. |
+| [RemoveAt(int32_t index)](./removeat/) | Remove the row item at the specified index(position) in this collection. |
 | [RowCollection(RowCollection_Impl* impl)](./rowcollection/) | Constructs from an implementation object. |
 | [RowCollection(const RowCollection\& src)](./rowcollection/) | Copy constructor. |
 | [~RowCollection()](./~rowcollection/) | Destructor. |

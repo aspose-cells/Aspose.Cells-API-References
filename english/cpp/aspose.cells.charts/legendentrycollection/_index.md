@@ -4,7 +4,7 @@ linktitle: LegendEntryCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::LegendEntryCollection class. Represents a collection of all the LegendEntry objects in the specified chart legend in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells.charts/legendentrycollection/
 ---
 ## LegendEntryCollection class

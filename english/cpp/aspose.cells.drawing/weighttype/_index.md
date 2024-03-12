@@ -20,10 +20,10 @@ enum class WeightType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| HairLine | -1 | Represents the weight of hair line. |
-| MediumLine | 1 | Represents the weight of medium line. |
-| SingleLine | 0 | Represents the weight of single line. |
-| WideLine | 2 | Represents the weight of wide line. |
+| HairLine | -1 | <br>Represents the weight of hair line. |
+| MediumLine | 1 | <br>Represents the weight of medium line. |
+| SingleLine | 0 | <br>Represents the weight of single line. |
+| WideLine | 2 | <br>Represents the weight of wide line. |
 
 ## See Also
 

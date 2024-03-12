@@ -4,7 +4,7 @@ linktitle: SetImage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DigitalSignatures::DigitalSignature::SetImage method. Specifies an image for the digital signature. Default value is null in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells.digitalsignatures/digitalsignature/setimage/
 ---
 ## DigitalSignature::SetImage method

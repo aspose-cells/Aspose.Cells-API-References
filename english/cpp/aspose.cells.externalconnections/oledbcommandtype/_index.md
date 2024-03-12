@@ -20,12 +20,12 @@ enum class OLEDBCommandType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | The command type is not specified. |
-| CubeName | 1 | Specifies a cube name. |
-| SqlStatement | 2 | Specifies a SQL statement. |
-| TableName | 3 | Specifies a table name. |
-| DefaultInformation | 4 | Specifies that default information has been given, and it is up to the provider how to interpret. |
-| WebBasedList | 5 | Specifies a query which is against a web based List Data Provider. |
+| None | 0 | <br>The command type is not specified. |
+| CubeName | 1 | <br>Specifies a cube name. |
+| SqlStatement | 2 | <br>Specifies a SQL statement. |
+| TableName | 3 | <br>Specifies a table name. |
+| DefaultInformation | 4 | <br>Specifies that default information has been given, and it is up to the provider how to interpret. |
+| WebBasedList | 5 | <br>Specifies a query which is against a web based List Data Provider. |
 
 ## See Also
 

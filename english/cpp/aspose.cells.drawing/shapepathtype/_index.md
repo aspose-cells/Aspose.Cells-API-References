@@ -20,14 +20,14 @@ enum class ShapePathType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| LineTo | 0 | Straight line segment. |
-| CubicBezierCurveTo | 1 | Cubic Bezier curve. |
-| MoveTo | 2 | Start a new path. |
-| Close | 3 | If the starting POINT and the end POINT are not the same, a single straight line is drawn to connect the starting POINT and ending POINT of the path. |
-| End | 4 | The end of the current path. |
-| Escape | 5 | Escape. |
-| ArcTo | 6 | An arc. |
-| Unknown | 7 | Unknown. |
+| LineTo | 0 | <br>Straight line segment. |
+| CubicBezierCurveTo | 1 | <br>Cubic Bezier curve. |
+| MoveTo | 2 | <br>Start a new path. |
+| Close | 3 | <br>If the starting POINT and the end POINT are not the same, a single straight line is drawn to connect the starting POINT and ending POINT of the path. |
+| End | 4 | <br>The end of the current path. |
+| Escape | 5 | <br>Escape. |
+| ArcTo | 6 | <br>An arc. |
+| Unknown | 7 | <br>Unknown. |
 
 ## See Also
 

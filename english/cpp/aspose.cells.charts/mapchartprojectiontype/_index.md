@@ -20,10 +20,10 @@ enum class MapChartProjectionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 | Automatic. |
-| Mercator | 1 | Mercator. |
-| Miller | 2 | Miller. |
-| Albers | 3 | Albers. |
+| Automatic | 0 | <br>Automatic. |
+| Mercator | 1 | <br>Mercator. |
+| Miller | 2 | <br>Miller. |
+| Albers | 3 | <br>Albers. |
 
 ## See Also
 

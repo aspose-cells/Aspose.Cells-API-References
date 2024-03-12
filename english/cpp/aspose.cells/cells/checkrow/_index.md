@@ -2,7 +2,7 @@
 title: Aspose::Cells::Cells::CheckRow method
 linktitle: CheckRow
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cells::CheckRow method. Gets the Row element or at the specified cell row index in C++.'
+description: 'Aspose::Cells::Cells::CheckRow method. Gets the Row element or null at the specified cell row index in C++.'
 type: docs
 weight: 1600
 url: /cpp/aspose.cells/cells/checkrow/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cells/checkrow/
 ## Cells::CheckRow method
 
 
-Gets the [Row](../../row/) element or at the specified cell row index.
+Gets the [Row](../../row/) element or null at the specified cell row index.
 
 ```cpp
 Row Aspose::Cells::Cells::CheckRow(int32_t row)
@@ -23,7 +23,7 @@ Row Aspose::Cells::Cells::CheckRow(int32_t row)
 
 ## ReturnValue
 
-If the row object does exist return [Row](../../row/) object, otherwise return null.
+Returns [Row](../../row/) object If the row object does exist, otherwise returns null.
 
 ## See Also
 

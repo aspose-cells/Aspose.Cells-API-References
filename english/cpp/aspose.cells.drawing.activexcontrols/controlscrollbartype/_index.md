@@ -20,10 +20,10 @@ enum class ControlScrollBarType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 | Displays no scroll bars. |
-| Horizontal | 1 | Displays a horizontal scroll bar. |
-| BarsVertical | 2 | Displays a vertical scroll bar. |
-| BarsBoth | 3 | Displays both a horizontal and a vertical scroll bar. |
+| None | 0 | <br>Displays no scroll bars. |
+| Horizontal | 1 | <br>Displays a horizontal scroll bar. |
+| BarsVertical | 2 | <br>Displays a vertical scroll bar. |
+| BarsBoth | 3 | <br>Displays both a horizontal and a vertical scroll bar. |
 
 ## See Also
 

@@ -20,11 +20,11 @@ enum class PresetThemeGradientType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| LightGradient | 0 | Light gradient. |
-| TopSpotlight | 1 | Top spotlight. |
-| MediumGradient | 2 | Medium gradient. |
-| BottomSpotlight | 3 | Bottom spotlight. |
-| RadialGradient | 4 | Radial gradient. |
+| LightGradient | 0 | <br>Light gradient. |
+| TopSpotlight | 1 | <br>Top spotlight. |
+| MediumGradient | 2 | <br>Medium gradient. |
+| BottomSpotlight | 3 | <br>Bottom spotlight. |
+| RadialGradient | 4 | <br>Radial gradient. |
 
 ## See Also
 

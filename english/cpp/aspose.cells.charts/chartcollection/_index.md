@@ -4,7 +4,7 @@ linktitle: ChartCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartCollection class. Encapsulates a collection of Chart objects in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells.charts/chartcollection/
 ---
 ## ChartCollection class

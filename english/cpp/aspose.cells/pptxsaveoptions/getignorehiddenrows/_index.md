@@ -2,7 +2,7 @@
 title: Aspose::Cells::PptxSaveOptions::GetIgnoreHiddenRows method
 linktitle: GetIgnoreHiddenRows
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::PptxSaveOptions::GetIgnoreHiddenRows method. Inidicates whether ignoring hidden rows when converting Excel to powerpoint in C++.'
+description: 'Aspose::Cells::PptxSaveOptions::GetIgnoreHiddenRows method. Inidicates whether ignoring hidden rows when converting Excel to PowerPoint in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells/pptxsaveoptions/getignorehiddenrows/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/pptxsaveoptions/getignorehiddenrows/
 ## PptxSaveOptions::GetIgnoreHiddenRows method
 
 
-Inidicates whether ignoring hidden rows when converting Excel to powerpoint.
+Inidicates whether ignoring hidden rows when converting Excel to PowerPoint.
 
 ```cpp
 bool Aspose::Cells::PptxSaveOptions::GetIgnoreHiddenRows()

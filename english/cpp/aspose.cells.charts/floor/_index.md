@@ -4,7 +4,7 @@ linktitle: Floor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::Floor class. Encapsulates the object that represents the floor of a 3-D chart in C++.'
 type: docs
-weight: 1600
+weight: 1700
 url: /cpp/aspose.cells.charts/floor/
 ---
 ## Floor class

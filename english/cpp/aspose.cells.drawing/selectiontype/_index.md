@@ -20,9 +20,9 @@ enum class SelectionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Single | 0 | Sigle selection type. |
-| Multi | 1 | Multiple selection type. |
-| Extend | 2 | Extend selection type. |
+| Single | 0 | <br>Sigle selection type. |
+| Multi | 1 | <br>Multiple selection type. |
+| Extend | 2 | <br>Extend selection type. |
 
 ## See Also
 
