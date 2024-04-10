@@ -74,7 +74,7 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of a specified row. |
 | [getRowHeightInch(int row)](#getRowHeightInch-int-) | Gets the height of a specified row in unit of inches. |
 | [getRowHeightPixel(int row)](#getRowHeightPixel-int-) | Gets the height of a specified row in unit of pixel. |
-| [getRowOutlineLevel(int rowIndex)](#getRowOutlineLevel-int-) | Gets the outline level of the row. |
+| [getRowOutlineLevel(int rowIndex)](#getRowOutlineLevel-int-) | Remove duplicate values in the range. |
 | [getRows()](#getRows--) |  |
 | [getStandardHeight()](#getStandardHeight--) | Gets the default row height in this worksheet,in unit of points. |
 | [getStandardHeightPixels()](#getStandardHeightPixels--) | Gets the default row height in this worksheet,in unit of pixels. |
@@ -891,15 +891,15 @@ public int getRowOutlineLevel(int rowIndex)
 ```
 
 
-Gets the outline level of the row.
+Remove duplicate values in the range.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowIndex | int | row index. |
+| rowIndex | int |  |
 
 **Returns:**
-int - the outline level.
+int
 ### getRows() {#getRows--}
 ```
 public GridRowCollection getRows()

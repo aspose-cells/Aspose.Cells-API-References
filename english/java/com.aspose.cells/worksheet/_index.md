@@ -108,7 +108,6 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [getShowFormulas()](#getShowFormulas--) | Indicates whether to show formulas or their results. |
 | [getSlicers()](#getSlicers--) | Get the Slicer collection in the worksheet |
 | [getSmartTagSetting()](#getSmartTagSetting--) | Gets all [SmartTagCollection](../../com.aspose.cells/smarttagcollection) objects of the worksheet. |
-| [getSparklineGroupCollection()](#getSparklineGroupCollection--) | Gets the sparkline group collection in the worksheet. |
 | [getSparklineGroups()](#getSparklineGroups--) | Gets the sparkline groups in the worksheet. |
 | [getTabColor()](#getTabColor--) | Represents worksheet tab color. |
 | [getTabId()](#getTabId--) | Specifies the internal identifier for the sheet. |
@@ -140,13 +139,13 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [protect(int type)](#protect-int-) | Protects worksheet. |
 | [protect(int type, String password, String oldPassword)](#protect-int-java.lang.String-java.lang.String-) | Protects worksheet. |
 | [refreshPivotTables()](#refreshPivotTables--) | Refreshes all the PivotTables in this Worksheet. |
+| [refreshPivotTables(PivotTableRefreshOption option)](#refreshPivotTables-com.aspose.cells.PivotTableRefreshOption-) | Refreshes all the PivotTables in this Worksheet. |
 | [removeAllDrawingObjects()](#removeAllDrawingObjects--) | Removes all drawing objects in this worksheet. |
 | [removeAutoFilter()](#removeAutoFilter--) | Removes the auto filter of the worksheet. |
 | [removeSplit()](#removeSplit--) | Removes split window. |
 | [replace(String oldString, String newString)](#replace-java.lang.String-java.lang.String-) | Replaces all cells' text with a new string. |
 | [selectRange(int startRow, int startColumn, int totalRows, int totalColumns, boolean removeOthers)](#selectRange-int-int-int-int-boolean-) | Selects a range. |
 | [setActiveCell(String value)](#setActiveCell-java.lang.String-) | Sets the active cell in the worksheet. |
-| [setBackground(byte[] pictureData)](#setBackground-byte---) | Sets worksheet background image. |
 | [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | Sets worksheet background image. |
 | [setCodeName(String value)](#setCodeName-java.lang.String-) | Gets worksheet code name. |
 | [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) | Indicates if the specified worksheet is displayed from right to left instead of from left to right. |
@@ -1180,20 +1179,6 @@ Gets all [SmartTagCollection](../../com.aspose.cells/smarttagcollection) objects
 
 **Returns:**
 [SmartTagSetting](../../com.aspose.cells/smarttagsetting)
-### getSparklineGroupCollection() {#getSparklineGroupCollection--}
-```
-public SparklineGroupCollection getSparklineGroupCollection()
-```
-
-
-Gets the sparkline group collection in the worksheet.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Worksheet.SparklineGroups property. This property will be removed 12 months later since November 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-[SparklineGroupCollection](../../com.aspose.cells/sparklinegroupcollection)
 ### getSparklineGroups() {#getSparklineGroups--}
 ```
 public SparklineGroupCollection getSparklineGroups()
@@ -1545,6 +1530,19 @@ public void refreshPivotTables()
 
 Refreshes all the PivotTables in this Worksheet.
 
+### refreshPivotTables(PivotTableRefreshOption option) {#refreshPivotTables-com.aspose.cells.PivotTableRefreshOption-}
+```
+public void refreshPivotTables(PivotTableRefreshOption option)
+```
+
+
+Refreshes all the PivotTables in this Worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) | The option for refreshing data source of pivot table. |
+
 ### removeAllDrawingObjects() {#removeAllDrawingObjects--}
 ```
 public void removeAllDrawingObjects()
@@ -1614,23 +1612,6 @@ Sets the active cell in the worksheet.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### setBackground(byte[] pictureData) {#setBackground-byte---}
-```
-public void setBackground(byte[] pictureData)
-```
-
-
-Sets worksheet background image.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Worksheet.BackgroundImage property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pictureData | byte[] | Picture data. |
 
 ### setBackgroundImage(byte[] value) {#setBackgroundImage-byte---}
 ```

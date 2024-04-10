@@ -36,7 +36,6 @@ Parent class of GridWeb control.Internal use only.
 | [CellClientUpdate](#CellClientUpdate) | Occurs when a client cell update happen . |
 | [CellCommand](#CellCommand) | Occurs when a cell's command hyperlink is clicked. |
 | [CellDoubleClick](#CellDoubleClick) | Occurs when the cell is double-clicked. |
-| [CellError](#CellError) | Occurs when a cell's input value error. |
 | [CellModifiedOnAjax](#CellModifiedOnAjax) | Occurs when the cell is modified in ajaxcall. |
 | [ColumnDeleted](#ColumnDeleted) | Occurs when user delete a column from client-side menu. |
 | [ColumnDeleting](#ColumnDeleting) | Occurs when user is trying to delete a column from the client-side menu. |
@@ -51,7 +50,6 @@ Parent class of GridWeb control.Internal use only.
 | [RowInserted](#RowInserted) | Occurs when user insert a row from client-side menu. |
 | [SaveCommand](#SaveCommand) | Occurs when the "save" button is clicked. |
 | [SheetAdded](#SheetAdded) | Occurs when user add a worksheet from toolbar menu. |
-| [SheetDataUpdated](#SheetDataUpdated) | Occurs when the control has loaded the posted data and updated the sheet data. |
 | [SheetTabClick](#SheetTabClick) | Occurs when the sheet tab is clicked. |
 | [SubmitCommand](#SubmitCommand) | Occurs when the "submit" button is clicked. |
 | [UndoCommand](#UndoCommand) | Occurs when the "undo" button is clicked. |
@@ -60,6 +58,7 @@ Parent class of GridWeb control.Internal use only.
 | Method | Description |
 | --- | --- |
 | [calculateFormula()](#calculateFormula--) | Calculates the result of formulas. |
+| [createChildControls()](#createChildControls--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getACWClientPath()](#getACWClientPath--) | Gets the web path of the script/image files of the control. |
 | [getACWLanguageFileUrl()](#getACWLanguageFileUrl--) | Gets the web url of the language file of the control. |
@@ -152,8 +151,7 @@ Parent class of GridWeb control.Internal use only.
 | [getSelectCellBgColor()](#getSelectCellBgColor--) | Specifies the background color of the selected cells in multi-select range. |
 | [getSelectCellColor()](#getSelectCellColor--) | Specifies the color of the selected cells in multi-select range. |
 | [getSessionLoaded()](#getSessionLoaded--) |  |
-| [getSessionMode()](#getSessionMode--) | Gets the session mode of the grid. |
-| [getSessionSaved()](#getSessionSaved--) |  |
+| [getSessionSaved()](#getSessionSaved--) | Internal used only. |
 | [getSessionStorePath()](#getSessionStorePath--) | Gets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [getSettings()](#getSettings--) | Represents the workbook settings. |
 | [getShapesTable()](#getShapesTable--) |  |
@@ -189,7 +187,6 @@ Parent class of GridWeb control.Internal use only.
 | [importExcelFile(String fileName)](#importExcelFile-java.lang.String-) | Imports from an excel file. |
 | [importExcelFile(String fileName, String passwordtoOpen)](#importExcelFile-java.lang.String-java.lang.String-) | Imports from an excel file. |
 | [isCalculateFormula()](#isCalculateFormula--) | Gets whether to calculate formula after cell value changes or after import File. |
-| [isPostBack()](#isPostBack--) | Gets a value indicating whether gridweb is being loaded in response to a client postback, or if it is being loaded and accessed for the first time. |
 | [loadCSVFile(InputStream stream)](#loadCSVFile-java.io.InputStream-) | Loads data from a CSV file stream. |
 | [loadCSVFile(String fileName)](#loadCSVFile-java.lang.String-) | Loads data from a CSV file. |
 | [loadHTMLFile(InputStream stream)](#loadHTMLFile-java.io.InputStream-) | Loads data from a HTML file stream. |
@@ -298,7 +295,6 @@ Parent class of GridWeb control.Internal use only.
 | [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the selected cells in multi-select range. |
 | [setSelectCellColor(Color value)](#setSelectCellColor-com.aspose.gridweb.Color-) | Specifies the color of the selected cells in multi-select range. |
 | [setSessionLoaded(boolean value)](#setSessionLoaded-boolean-) |  |
-| [setSessionMode(int value)](#setSessionMode-int-) | Sets the session mode of the grid. |
 | [setSessionSaved(boolean value)](#setSessionSaved-boolean-) |  |
 | [setSessionStorePath(String value)](#setSessionStorePath-java.lang.String-) | Sets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridweb.GridWorkbookSettings-) | Represents the workbook settings. |
@@ -391,14 +387,6 @@ public CellEventHandler CellDoubleClick
 
 
 Occurs when the cell is double-clicked.
-
-### CellError {#CellError}
-```
-public CellErrorHandler CellError
-```
-
-
-Occurs when a cell's input value error.
 
 ### CellModifiedOnAjax {#CellModifiedOnAjax}
 ```
@@ -512,14 +500,6 @@ public SheetEventHandler SheetAdded
 
 Occurs when user add a worksheet from toolbar menu.
 
-### SheetDataUpdated {#SheetDataUpdated}
-```
-public WorkbookEventHandler SheetDataUpdated
-```
-
-
-Occurs when the control has loaded the posted data and updated the sheet data.
-
 ### SheetTabClick {#SheetTabClick}
 ```
 public WorkbookEventHandler SheetTabClick
@@ -551,6 +531,14 @@ public void calculateFormula()
 
 
 Calculates the result of formulas.
+
+### createChildControls() {#createChildControls--}
+```
+public void createChildControls()
+```
+
+
+
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -1705,41 +1693,13 @@ public boolean getSessionLoaded()
 
 **Returns:**
 boolean
-### getSessionMode() {#getSessionMode--}
-```
-public int getSessionMode()
-```
-
-
-Gets the session mode of the grid.
-
-See [SessionMode](../../com.aspose.gridweb/sessionmode).
-
-**Remarks**
-
-There are 4 type of session mode:
-1. Session(default): Use system session to store sheet data.
-Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
-2. ViewState: Use page's viewstate to store sheet data.
-3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
-4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always.
-When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
-
-**Example**
-
-```
-         		GridWeb1.setSessionMode(SessionMode.VIEW_STATE);
-```
-
-**Returns:**
-int
 ### getSessionSaved() {#getSessionSaved--}
 ```
 public boolean getSessionSaved()
 ```
 
 
-
+Internal used only.
 
 **Returns:**
 boolean
@@ -2111,16 +2071,6 @@ public boolean isCalculateFormula()
 
 
 Gets whether to calculate formula after cell value changes or after import File. The default value is true.
-
-**Returns:**
-boolean
-### isPostBack() {#isPostBack--}
-```
-public boolean isPostBack()
-```
-
-
-Gets a value indicating whether gridweb is being loaded in response to a client postback, or if it is being loaded and accessed for the first time.
 
 **Returns:**
 boolean
@@ -3663,31 +3613,6 @@ public void setSessionLoaded(boolean value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
-
-### setSessionMode(int value) {#setSessionMode-int-}
-```
-public void setSessionMode(int value)
-```
-
-
-Sets the session mode of the grid.
-
-See [SessionMode](../../com.aspose.gridweb/sessionmode).
-
-**Remarks**
-
-There are 4 type of session mode:
-1. Session(default): Use system session to store sheet data.
-Generally the asp.net uses InProc session state. The grid also supports "StateServer" out process session state and SQLServer session state.
-2. ViewState: Use page's viewstate to store sheet data.
-3. Custom: Use LoadCustomData and SheetDataUpdated events to store/recover sheet data.
-4. File: store/recover sheet data in SessionStorePath. this is the suggestion way.and can keep the file always.
-When using SessionMode.ViewState, the grid will store some data in the page's view state. This will decrease the server's memory usage, but the page's size will be larger and it will impact the overall performance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### setSessionSaved(boolean value) {#setSessionSaved-boolean-}
 ```

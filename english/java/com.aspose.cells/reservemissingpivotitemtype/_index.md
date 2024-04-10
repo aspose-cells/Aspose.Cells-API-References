@@ -1,24 +1,25 @@
 ---
-title: RowColumnType
+title: ReserveMissingPivotItemType
 second_title: Aspose.Cells for Java API Reference
-description: Represents the row/column type of the row/column events.
+description: Represents how to keep the missing pivot items.
 type: docs
-url: /java/com.aspose.gridweb/rowcolumntype/
+url: /java/com.aspose.cells/reservemissingpivotitemtype/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class RowColumnType
+public final class ReserveMissingPivotItemType
 ```
 
-Represents the row/column type of the row/column events.
+Represents how to keep the missing pivot items.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [COLUMN](#COLUMN) | Column type. |
-| [ROW](#ROW) | Row type. |
+| [ALL](#ALL) | Reserves all missing items. |
+| [DEFAULT](#DEFAULT) | Removes old missint pivot items and reserves visible items which the current data source does not contain as missing items. |
+| [NONE](#NONE) | Removes all missing pivot items. |
 ## Methods
 
 | Method | Description |
@@ -32,21 +33,29 @@ Represents the row/column type of the row/column events.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### COLUMN {#COLUMN}
+### ALL {#ALL}
 ```
-public static final int COLUMN
-```
-
-
-Column type.
-
-### ROW {#ROW}
-```
-public static final int ROW
+public static final int ALL
 ```
 
 
-Row type.
+Reserves all missing items.
+
+### DEFAULT {#DEFAULT}
+```
+public static final int DEFAULT
+```
+
+
+Removes old missint pivot items and reserves visible items which the current data source does not contain as missing items.
+
+### NONE {#NONE}
+```
+public static final int NONE
+```
+
+
+Removes all missing pivot items.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

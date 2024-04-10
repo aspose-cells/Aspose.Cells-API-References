@@ -66,6 +66,7 @@ Represents the options for saving html file.
 | [getFormatDataIgnoreColumnWidth()](#getFormatDataIgnoreColumnWidth--) | Indicating whether show the whole formatted data of cell when overflowing the column. |
 | [getHiddenColDisplayType()](#getHiddenColDisplayType--) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
 | [getHiddenRowDisplayType()](#getHiddenRowDisplayType--) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
+| [getHideOverflowWrappedText()](#getHideOverflowWrappedText--) | Indicates whether to hide overflow text when the cell format is set to wrap text. |
 | [getHtmlCrossStringType()](#getHtmlCrossStringType--) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
 | [getIgnoreInvisibleShapes()](#getIgnoreInvisibleShapes--) | Indicate whether exporting those not visible shapes |
 | [getImageOptions()](#getImageOptions--) | Get the ImageOrPrintOptions object before exporting |
@@ -73,7 +74,7 @@ Represents the options for saving html file.
 | [getLinkTargetType()](#getLinkTargetType--) | Indicating the type of target attribute in `<a>` link. |
 | [getMergeAreas()](#getMergeAreas--) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [getMergeEmptyTdForcely()](#getMergeEmptyTdForcely--) | Indicates whether merging empty TD element forcedly when exporting file to html. |
-| [getMergeEmptyTdType()](#getMergeEmptyTdType--) | Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. |
+| [getMergeEmptyTdType()](#getMergeEmptyTdType--) | The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default. |
 | [getPageTitle()](#getPageTitle--) | The title of the html page. |
 | [getParseHtmlTagInCell()](#getParseHtmlTagInCell--) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
 | [getPresentationPreference()](#getPresentationPreference--) | Indicating if html or mht file is presentation preference. |
@@ -143,6 +144,7 @@ Represents the options for saving html file.
 | [setFullPathLink(boolean value)](#setFullPathLink-boolean-) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
 | [setHiddenColDisplayType(int value)](#setHiddenColDisplayType-int-) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden" |
 | [setHiddenRowDisplayType(int value)](#setHiddenRowDisplayType-int-) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden" |
+| [setHideOverflowWrappedText(boolean value)](#setHideOverflowWrappedText-boolean-) | Indicates whether to hide overflow text when the cell format is set to wrap text. |
 | [setHtmlCrossStringType(int value)](#setHtmlCrossStringType-int-) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. |
 | [setIECompatible(boolean value)](#setIECompatible-boolean-) | Indicating whether the output HTML is compatible with IE browser. |
 | [setIgnoreInvisibleShapes(boolean value)](#setIgnoreInvisibleShapes-boolean-) | Indicate whether exporting those not visible shapes |
@@ -151,7 +153,7 @@ Represents the options for saving html file.
 | [setLinkTargetType(int value)](#setLinkTargetType-int-) | Indicating the type of target attribute in `<a>` link. |
 | [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [setMergeEmptyTdForcely(boolean value)](#setMergeEmptyTdForcely-boolean-) | Indicates whether merging empty TD element forcedly when exporting file to html. |
-| [setMergeEmptyTdType(int value)](#setMergeEmptyTdType-int-) | Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. |
+| [setMergeEmptyTdType(int value)](#setMergeEmptyTdType-int-) | The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default. |
 | [setMobileCompatible(boolean value)](#setMobileCompatible-boolean-) | Indicates whether the output HTML is compatible with mobile devices. |
 | [setPageTitle(String value)](#setPageTitle-java.lang.String-) | The title of the html page. |
 | [setParseHtmlTagInCell(boolean value)](#setParseHtmlTagInCell-boolean-) | Indicates whether html tag(such as `<div></div>`) in cell should be parsed as cell value or preserved as it is. |
@@ -668,6 +670,16 @@ See [HtmlHiddenRowDisplayType](../../com.aspose.cells/htmlhiddenrowdisplaytype).
 
 **Returns:**
 int
+### getHideOverflowWrappedText() {#getHideOverflowWrappedText--}
+```
+public boolean getHideOverflowWrappedText()
+```
+
+
+Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false
+
+**Returns:**
+boolean
 ### getHtmlCrossStringType() {#getHtmlCrossStringType--}
 ```
 public int getHtmlCrossStringType()
@@ -756,7 +768,7 @@ public int getMergeEmptyTdType()
 ```
 
 
-Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is MergeEmptyTdType.Default.
+The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default.
 
 See [MergeEmptyTdType](../../com.aspose.cells/mergeemptytdtype).
 
@@ -1638,6 +1650,19 @@ See [HtmlHiddenRowDisplayType](../../com.aspose.cells/htmlhiddenrowdisplaytype).
 | --- | --- | --- |
 | value | int |  |
 
+### setHideOverflowWrappedText(boolean value) {#setHideOverflowWrappedText-boolean-}
+```
+public void setHideOverflowWrappedText(boolean value)
+```
+
+
+Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setHtmlCrossStringType(int value) {#setHtmlCrossStringType-int-}
 ```
 public void setHtmlCrossStringType(int value)
@@ -1760,7 +1785,7 @@ public void setMergeEmptyTdType(int value)
 ```
 
 
-Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is MergeEmptyTdType.Default.
+The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default.
 
 See [MergeEmptyTdType](../../com.aspose.cells/mergeemptytdtype).
 

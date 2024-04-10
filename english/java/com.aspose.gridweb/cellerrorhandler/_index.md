@@ -30,6 +30,6 @@ handle the related Cell Event.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | The source of the event. |
-| ex | [GridCellException](../../com.aspose.gridweb/gridcellexception) |  |
-| query | [OnErrorActionQuery](../../com.aspose.gridweb/onerroractionquery) |  |
+| ex | [GridCellException](../../com.aspose.gridweb/gridcellexception) | The cell operation error. |
+| query | [OnErrorActionQuery](../../com.aspose.gridweb/onerroractionquery) | can get onerror action type information. |
 

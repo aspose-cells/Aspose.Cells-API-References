@@ -35,6 +35,7 @@ Represents an external link in a workbook.
 | [getClass()](#getClass--) |  |
 | [getDataSource()](#getDataSource--) | Represents data source of the external link. |
 | [getOriginalDataSource()](#getOriginalDataSource--) | Represents stored data source of the external link. |
+| [getPathType()](#getPathType--) | Get the path type of this external link |
 | [getType()](#getType--) | Gets the type of external link. |
 | [hashCode()](#hashCode--) |  |
 | [isReferred()](#isReferred--) | Indicates whether this external link is referenced by others. |
@@ -103,6 +104,16 @@ public String getOriginalDataSource()
 
 
 Represents stored data source of the external link.
+
+**Returns:**
+java.lang.String
+### getPathType() {#getPathType--}
+```
+public String getPathType()
+```
+
+
+Get the path type of this external link
 
 **Returns:**
 java.lang.String

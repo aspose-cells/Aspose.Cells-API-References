@@ -27,18 +27,23 @@ Represents the table options when importing html.
 | [add(int tableIndex, int targetSheetIndex)](#add-int-int-) | Add a HtmlTableLoadOption to the list. |
 | [add(int tableIndex, int targetSheetIndex, int originalSheetIndex)](#add-int-int-int-) | Add a HtmlTableLoadOption to the list. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
+| [add(String tableId)](#add-java.lang.String-) | Add a HtmlTableLoadOption to the list. |
+| [add(String tableId, int targetSheetIndex)](#add-java.lang.String-int-) | Add a HtmlTableLoadOption to the list. |
+| [add(String tableId, int targetSheetIndex, int originalSheetIndex)](#add-java.lang.String-int-int-) | Add a HtmlTableLoadOption to the list. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [HtmlTableLoadOption](../../com.aspose.cells/htmltableloadoption) element at the specified index. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
+| [getTableToListObject()](#getTableToListObject--) | Indicates whether generate list objects from imported tables. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
+| [setTableToListObject(boolean value)](#setTableToListObject-boolean-) | Indicates whether generate list objects from imported tables. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -91,7 +96,7 @@ Add a HtmlTableLoadOption to the list.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tableIndex | int | Table index |
-| targetSheetIndex | int | Worksheet index |
+| targetSheetIndex | int | The target index of worksheet in Excel |
 
 **Returns:**
 int
@@ -107,7 +112,7 @@ Add a HtmlTableLoadOption to the list.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tableIndex | int | Table index |
-| targetSheetIndex | int | The target index of worksheet where table to export to |
+| targetSheetIndex | int | The target index of worksheet in Excel |
 | originalSheetIndex | int | The original index of worksheet in the html |
 
 **Returns:**
@@ -127,6 +132,54 @@ Adds an item to the CollectionBase instance.
 
 **Returns:**
 int - The position into which the new element was inserted.
+### add(String tableId) {#add-java.lang.String-}
+```
+public int add(String tableId)
+```
+
+
+Add a HtmlTableLoadOption to the list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableId | java.lang.String | Table ID |
+
+**Returns:**
+int - 
+### add(String tableId, int targetSheetIndex) {#add-java.lang.String-int-}
+```
+public int add(String tableId, int targetSheetIndex)
+```
+
+
+Add a HtmlTableLoadOption to the list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableId | java.lang.String | Table ID |
+| targetSheetIndex | int | The target index of worksheet in Excel |
+
+**Returns:**
+int - 
+### add(String tableId, int targetSheetIndex, int originalSheetIndex) {#add-java.lang.String-int-int-}
+```
+public int add(String tableId, int targetSheetIndex, int originalSheetIndex)
+```
+
+
+Add a HtmlTableLoadOption to the list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableId | java.lang.String | Table ID |
+| targetSheetIndex | int | The target index of worksheet in Excel |
+| originalSheetIndex | int | The original index of worksheet in the html |
+
+**Returns:**
+int - 
 ### clear() {#clear--}
 ```
 public void clear()
@@ -200,6 +253,16 @@ Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
 int - The number of elements contained in the CollectionBase instance.
+### getTableToListObject() {#getTableToListObject--}
+```
+public boolean getTableToListObject()
+```
+
+
+Indicates whether generate list objects from imported tables. The default value is false.
+
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -263,6 +326,19 @@ Removes the item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
+
+### setTableToListObject(boolean value) {#setTableToListObject-boolean-}
+```
+public void setTableToListObject(boolean value)
+```
+
+
+Indicates whether generate list objects from imported tables. The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### toString() {#toString--}
 ```

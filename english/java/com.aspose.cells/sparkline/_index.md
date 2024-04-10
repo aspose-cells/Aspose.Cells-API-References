@@ -32,11 +32,11 @@ A sparkline represents a tiny chart or graphic in a worksheet cell that provides
          ca.StartRow = 0;
          ca.EndRow = 0;
  
-         int idx = sheet.getSparklineGroupCollection().add(com.aspose.cells.SparklineType.LINE, sheet.getName() + "!A1:D1", false, ca);
+         int idx = sheet.getSparklineGroups().add(com.aspose.cells.SparklineType.LINE, sheet.getName() + "!A1:D1", false, ca);
  
-         SparklineGroup group = sheet.getSparklineGroupCollection().get(idx);
-         idx = group.getSparklineCollection().add(sheet.getName() + "!A1:D1", 0, 4);
-         Sparkline line = group.getSparklineCollection().get(idx);
+         SparklineGroup group = sheet.getSparklineGroups().get(idx);
+         idx = group.getSparklines().add(sheet.getName() + "!A1:D1", 0, 4);
+         Sparkline line = group.getSparklines().get(idx);
          System.out.println("Saprkline data range: " + line.getDataRange() + ", row: " + line.getRow() + ", column: " + line.getColumn());
          line.toImage("output.png", new ImageOrPrintOptions());
 ```

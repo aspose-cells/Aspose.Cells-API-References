@@ -96,7 +96,6 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [PivotSourceType](../com.aspose.gridweb/pivotsourcetype) | Represents the source data type. |
 | [PresetStyle](../com.aspose.gridweb/presetstyle) | Represents the preset style or an GridWeb control. |
 | [RowColumnEventArgs](../com.aspose.gridweb/rowcolumneventargs) | Provides data for row/column events. |
-| [RowColumnType](../com.aspose.gridweb/rowcolumntype) | Represents the row/column type of the row/column events. |
 | [SessionMode](../com.aspose.gridweb/sessionmode) | Represents the session mode of the grid. |
 | [SetBorderPosition](../com.aspose.gridweb/setborderposition) | Represents the border position to be set of a cells range. |
 | [SortByOrder](../com.aspose.gridweb/sortbyorder) | Represents what order the data sort by. |

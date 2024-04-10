@@ -179,6 +179,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DateTimeGroupingType](../com.aspose.cells/datetimegroupingtype) | Specifies how to group dateTime values. |
 | [DefaultEditLanguage](../com.aspose.cells/defaulteditlanguage) | Represents the default edit language. |
 | [DefaultStyleSettings](../com.aspose.cells/defaultstylesettings) | Settings for the default values of workbook's style properties. |
+| [DeleteBlankOptions](../com.aspose.cells/deleteblankoptions) | Represents the setting of deleting blank cells/rows/columns. |
 | [DeleteOptions](../com.aspose.cells/deleteoptions) | Represents the setting of deleting rows/columns. |
 | [DelimiterEquationNode](../com.aspose.cells/delimiterequationnode) | This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a component contained inside. |
 | [DialogBox](../com.aspose.cells/dialogbox) | Represents the dialog box. |
@@ -468,6 +469,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotTableCollection](../com.aspose.cells/pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
 | [PivotTableFormat](../com.aspose.cells/pivottableformat) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](../com.aspose.cells/pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
+| [PivotTableRefreshOption](../com.aspose.cells/pivottablerefreshoption) | Represents the options of refreshing data source of the pivot table. |
 | [PivotTableSelectionType](../com.aspose.cells/pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. |
 | [PivotTableStyleType](../com.aspose.cells/pivottablestyletype) | Represents the pivot table style type. |
 | [PlacementType](../com.aspose.cells/placementtype) | Represents the way the drawing object is attached to the cells below it. |
@@ -516,6 +518,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [RenderingFont](../com.aspose.cells/renderingfont) | Font for rendering. |
 | [RenderingWatermark](../com.aspose.cells/renderingwatermark) | Watermark for rendering. |
 | [ReplaceOptions](../com.aspose.cells/replaceoptions) | Represent the replace options. |
+| [ReserveMissingPivotItemType](../com.aspose.cells/reservemissingpivotitemtype) | Represents how to keep the missing pivot items. |
 | [ResourceLoadingType](../com.aspose.cells/resourceloadingtype) | Represents how to loading the linked resource. |
 | [Revision](../com.aspose.cells/revision) | Represents the revision. |
 | [RevisionActionType](../com.aspose.cells/revisionactiontype) | Represents the type of revision action. |
@@ -618,6 +621,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [SubtotalSetting](../com.aspose.cells/subtotalsetting) | Represents the setting of the subtotal . |
 | [SvgSaveOptions](../com.aspose.cells/svgsaveoptions) | Represents Svg save options. |
 | [SxRng](../com.aspose.cells/sxrng) | Represents Group Range in a PivotField. |
+| [SystemTimeInterruptMonitor](../com.aspose.cells/systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) by checking and comparing current system time with user specified limit. |
 | [TableDataSourceType](../com.aspose.cells/tabledatasourcetype) | Represents the table's data source type. |
 | [TableStyle](../com.aspose.cells/tablestyle) | Represents the table style. |
 | [TableStyleCollection](../com.aspose.cells/tablestylecollection) | Represents all custom table styles. |
@@ -653,6 +657,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [TextureType](../com.aspose.cells/texturetype) | Represents the preset texture type. |
 | [ThemeColor](../com.aspose.cells/themecolor) | Represents a theme color. |
 | [ThemeColorType](../com.aspose.cells/themecolortype) | Enumerates the theme color types. |
+| [ThreadInterruptMonitor](../com.aspose.cells/threadinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) by starting another thread to require the interruption after sleeping user specified limit. |
 | [ThreadedComment](../com.aspose.cells/threadedcomment) | Represents the threaded comment. |
 | [ThreadedCommentAuthor](../com.aspose.cells/threadedcommentauthor) | Represents the person who creates the threaded comments; |
 | [ThreadedCommentAuthorCollection](../com.aspose.cells/threadedcommentauthorcollection) | Represents all persons who . |

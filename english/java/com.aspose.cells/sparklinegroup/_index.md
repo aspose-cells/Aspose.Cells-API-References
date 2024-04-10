@@ -31,9 +31,9 @@ public class SparklineGroup
          ca.EndColumn = 4;
          ca.StartRow = 0;
          ca.EndRow = 0;
-         int idx = sheet.getSparklineGroupCollection().add(com.aspose.cells.SparklineType.LINE, "A1:D1", false, ca);
-         SparklineGroup group = sheet.getSparklineGroupCollection().get(idx);
-         group.getSparklineCollection().add(sheet.getName() + "!A1:D1", 0, 4);
+         int idx = sheet.getSparklineGroups().add(com.aspose.cells.SparklineType.LINE, "A1:D1", false, ca);
+         SparklineGroup group = sheet.getSparklineGroups().get(idx);
+         group.getSparklines().add(sheet.getName() + "!A1:D1", 0, 4);
          // Create CellsColor
          CellsColor clr = book.createCellsColor();
          clr.setColor(Color.getOrange());

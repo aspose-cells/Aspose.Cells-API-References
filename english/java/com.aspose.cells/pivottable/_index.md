@@ -195,6 +195,7 @@ Summary description for PivotTable.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refreshData()](#refreshData--) | Refreshes pivottable's data and setting from it's data source. |
+| [refreshData(PivotTableRefreshOption option)](#refreshData-com.aspose.cells.PivotTableRefreshOption-) | Refreshes pivottable's data and setting from it's data source with options. |
 | [removeField(int fieldType, PivotField pivotField)](#removeField-int-com.aspose.cells.PivotField-) | Remove field from specific field area |
 | [removeField(int fieldType, int baseFieldIndex)](#removeField-int-int-) | Removes a field from specific field area |
 | [removeField(int fieldType, String fieldName)](#removeField-int-java.lang.String-) | Removes a field from specific field area |
@@ -1395,6 +1396,19 @@ Refreshes pivottable's data and setting from it's data source.
 **Remarks**
 
 We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
+
+### refreshData(PivotTableRefreshOption option) {#refreshData-com.aspose.cells.PivotTableRefreshOption-}
+```
+public void refreshData(PivotTableRefreshOption option)
+```
+
+
+Refreshes pivottable's data and setting from it's data source with options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) | The options for refreshing data source of pivot table. |
 
 ### removeField(int fieldType, PivotField pivotField) {#removeField-int-com.aspose.cells.PivotField-}
 ```

@@ -8,8 +8,11 @@ url: /java/com.aspose.gridweb/gridworkbooksettings/
 
 **Inheritance:**
 java.lang.Object
+
+**All Implemented Interfaces:**
+java.io.Serializable
 ```
-public class GridWorkbookSettings
+public class GridWorkbookSettings implements Serializable
 ```
 
 Represents settings of the workbook.
@@ -43,6 +46,7 @@ Represents settings of the workbook.
 | [getIteration()](#getIteration--) | Gets whether use iteration to resolve circular references. |
 | [getMaxIteration()](#getMaxIteration--) | Gets the maximum number of iterations to resolve a circular reference,the default value is 100. |
 | [getPrecisionAsDisplayed()](#getPrecisionAsDisplayed--) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
+| [getPreservePaddingSpaces()](#getPreservePaddingSpaces--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [getReCalculateOnOpen()](#getReCalculateOnOpen--) | Gets whether re-calculate all formulas on opening file. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -56,6 +60,7 @@ Represents settings of the workbook.
 | [setIteration(boolean value)](#setIteration-boolean-) | Sets whether use iteration to resolve circular references. |
 | [setMaxIteration(int value)](#setMaxIteration-int-) | Sets the maximum number of iterations to resolve a circular reference,the default value is 100. |
 | [setPrecisionAsDisplayed(boolean value)](#setPrecisionAsDisplayed-boolean-) | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
+| [setPreservePaddingSpaces(boolean value)](#setPreservePaddingSpaces-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [setReCalculateOnOpen(boolean value)](#setReCalculateOnOpen-boolean-) | Sets whether re-calculate all formulas on opening file. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -179,6 +184,20 @@ public boolean getPrecisionAsDisplayed()
 
 
 True if calculations in this workbook will be done using only the precision of the numbers as they're displayed
+
+**Returns:**
+boolean
+### getPreservePaddingSpaces() {#getPreservePaddingSpaces--}
+```
+public boolean getPreservePaddingSpaces()
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+Generally those spaces and line breaks are jsut for visual purpose, Preserving them or not does not affect the calculated result. For performance consideration, if there is no special requirement, it is better not to preserve them while processing formulas.
 
 **Returns:**
 boolean
@@ -329,6 +348,23 @@ public void setPrecisionAsDisplayed(boolean value)
 
 
 True if calculations in this workbook will be done using only the precision of the numbers as they're displayed
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setPreservePaddingSpaces(boolean value) {#setPreservePaddingSpaces-boolean-}
+```
+public void setPreservePaddingSpaces(boolean value)
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+Generally those spaces and line breaks are jsut for visual purpose, Preserving them or not does not affect the calculated result. For performance consideration, if there is no special requirement, it is better not to preserve them while processing formulas.
 
 **Parameters:**
 | Parameter | Type | Description |

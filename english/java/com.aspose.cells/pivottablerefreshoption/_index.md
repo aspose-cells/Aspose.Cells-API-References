@@ -1,34 +1,46 @@
 ---
-title: GridColumn
+title: PivotTableRefreshOption
 second_title: Aspose.Cells for Java API Reference
-description: Represents a single column in a worksheet.
+description: Represents the options of refreshing data source of the pivot table.
 type: docs
-url: /java/com.aspose.gridweb/gridcolumn/
+url: /java/com.aspose.cells/pivottablerefreshoption/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class GridColumn
+public class PivotTableRefreshOption
 ```
 
-Represents a single column in a worksheet.
+Represents the options of refreshing data source of the pivot table.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PivotTableRefreshOption()](#PivotTableRefreshOption--) | Represents the options of refreshing data source of the pivot table. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHidden()](#getHidden--) | Indicates whether the column is hidden. |
-| [getIndex()](#getIndex--) | Gets the index of this column. |
+| [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--) | Represents how to reserve missing pivot items. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) | Indicates whether the column is hidden. |
+| [setReserveMissingPivotItemType(int value)](#setReserveMissingPivotItemType-int-) | Represents how to reserve missing pivot items. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### PivotTableRefreshOption() {#PivotTableRefreshOption--}
+```
+public PivotTableRefreshOption()
+```
+
+
+Represents the options of refreshing data source of the pivot table.
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -54,23 +66,15 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getHidden() {#getHidden--}
+### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
 ```
-public boolean getHidden()
-```
-
-
-Indicates whether the column is hidden.
-
-**Returns:**
-boolean
-### getIndex() {#getIndex--}
-```
-public int getIndex()
+public int getReserveMissingPivotItemType()
 ```
 
 
-Gets the index of this column.
+Represents how to reserve missing pivot items.
+
+See [ReserveMissingPivotItemType](../../com.aspose.cells/reservemissingpivotitemtype).
 
 **Returns:**
 int
@@ -100,18 +104,20 @@ public final native void notifyAll()
 
 
 
-### setHidden(boolean value) {#setHidden-boolean-}
+### setReserveMissingPivotItemType(int value) {#setReserveMissingPivotItemType-int-}
 ```
-public void setHidden(boolean value)
+public void setReserveMissingPivotItemType(int value)
 ```
 
 
-Indicates whether the column is hidden.
+Represents how to reserve missing pivot items.
+
+See [ReserveMissingPivotItemType](../../com.aspose.cells/reservemissingpivotitemtype).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

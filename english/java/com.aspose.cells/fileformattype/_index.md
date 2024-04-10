@@ -80,6 +80,7 @@ Represents the file format types.
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be loaded. |
 | [VSD](#VSD) | Represents MS Visio VSD binary format. |
 | [VSDX](#VSDX) | Represents MS Visio 2013 VSDX file format. |
+| [WEB_P](#WEB-P) | Webp |
 | [WMF](#WMF) | Windows Metafile. |
 | [XLAM](#XLAM) | Office Open XML SpreadsheetML addinMacro-Enabled file. |
 | [XLSB](#XLSB) | The Excel Binary File Format (.xlsb) |
@@ -731,6 +732,14 @@ Represents MS Visio 2013 VSDX file format.
 **Remarks**
 
 The file format is not supported Only for detecting file type.
+
+### WEB_P {#WEB-P}
+```
+public static final int WEB_P
+```
+
+
+Webp
 
 ### WMF {#WMF}
 ```

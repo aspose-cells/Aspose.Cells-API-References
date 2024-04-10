@@ -104,6 +104,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [get(String cellName)](#get-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name. |
 | [getCellStyle(int row, int column)](#getCellStyle-int-int-) | Get the style of given cell. |
 | [getClass()](#getClass--) |  |
+| [getColumnOriginalWidthPoint(int column)](#getColumnOriginalWidthPoint-int-) | Gets original column's height in unit of point if the column is hidden |
 | [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width(in unit of characters) of the specified column in normal view |
 | [getColumnWidthInch(int column)](#getColumnWidthInch-int-) | Gets the width of the specified column in normal view, in units of inches. |
 | [getColumnWidthPixel(int column)](#getColumnWidthPixel-int-) | Gets the width of the specified column in normal view, in units of pixel. |
@@ -1076,6 +1077,21 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getColumnOriginalWidthPoint(int column) {#getColumnOriginalWidthPoint-int-}
+```
+public double getColumnOriginalWidthPoint(int column)
+```
+
+
+Gets original column's height in unit of point if the column is hidden
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | int | The row index. |
+
+**Returns:**
+double - 
 ### getColumnWidth(int column) {#getColumnWidth-int-}
 ```
 public double getColumnWidth(int column)

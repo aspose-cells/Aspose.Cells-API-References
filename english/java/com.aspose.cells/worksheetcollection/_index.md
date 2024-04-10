@@ -79,7 +79,8 @@ Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refreshAll()](#refreshAll--) | Refresh all pivot tables and charts with pivot source. |
-| [refreshPivotTables()](#refreshPivotTables--) | Refreshes all the PivotTables in the WorksheetCollection. |
+| [refreshPivotTables()](#refreshPivotTables--) | Refreshes all the PivotTables in the Excel file. |
+| [refreshPivotTables(PivotTableRefreshOption option)](#refreshPivotTables-com.aspose.cells.PivotTableRefreshOption-) | Refreshes all the PivotTables in the Excel file. |
 | [registerAddInFunction(int id, String functionName)](#registerAddInFunction-int-java.lang.String-) | Adds addin function into the workbook |
 | [registerAddInFunction(String addInFile, String functionName, boolean lib)](#registerAddInFunction-java.lang.String-java.lang.String-boolean-) | Adds addin function into the workbook |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at a specified index. |
@@ -748,7 +749,20 @@ public void refreshPivotTables()
 ```
 
 
-Refreshes all the PivotTables in the WorksheetCollection.
+Refreshes all the PivotTables in the Excel file.
+
+### refreshPivotTables(PivotTableRefreshOption option) {#refreshPivotTables-com.aspose.cells.PivotTableRefreshOption-}
+```
+public void refreshPivotTables(PivotTableRefreshOption option)
+```
+
+
+Refreshes all the PivotTables in the Excel file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) | The option for refreshing data source of the pivot tables. |
 
 ### registerAddInFunction(int id, String functionName) {#registerAddInFunction-int-java.lang.String-}
 ```

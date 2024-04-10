@@ -18,14 +18,13 @@ Encapsulates a collection of [GridWorksheet](../../com.aspose.gridweb/gridworksh
 | Method | Description |
 | --- | --- |
 | [add()](#add--) | Adds a worksheet to the collection. |
-| [add(Object value)](#add-java.lang.Object-) | Adds a sheet object. |
+| [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [add(String sheetName)](#add-java.lang.String-) | Adds a worksheet to the collection. |
 | [addCopy(int sheetIndex)](#addCopy-int-) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [addCopy(String sheetName)](#addCopy-java.lang.String-) | Adds a worksheet to the collection and copies data from an existed worksheet. |
 | [calculateFormula()](#calculateFormula--) | Calculates the result of formulas. |
 | [clear()](#clear--) | Clear all worksheets. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
-| [copyTo(Object[] array, int index)](#copyTo-java.lang.Object---int-) | Copys contents to an array. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridWorksheet](../../com.aspose.gridweb/gridworksheet) element at the specified index. |
 | [get(String sheetName)](#get-java.lang.String-) | Gets the [GridWorksheet](../../com.aspose.gridweb/gridworksheet) element with the specified name. |
@@ -36,11 +35,9 @@ Encapsulates a collection of [GridWorksheet](../../com.aspose.gridweb/gridworksh
 | [getDefaultFontSize()](#getDefaultFontSize--) | ????????? |
 | [getNames()](#getNames--) | Gets the collection of all the Name objects in the spreadsheet. |
 | [getNumberDecimalSeparator()](#getNumberDecimalSeparator--) | Gets the decimal separator for formatting/parsing numeric values. |
-| [getSyncRoot()](#getSyncRoot--) | Gets the sheets count. |
 | [hashCode()](#hashCode--) |  |
 | [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
 | [insert(int index, String sheetName)](#insert-int-java.lang.String-) | Insert a worksheet. |
-| [isSynchronized()](#isSynchronized--) | Gets a value indicating if access to the ICollection is synchronized (thread-safe). |
 | [iterator()](#iterator--) | Gets the rows enumerator |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -66,21 +63,21 @@ Adds a worksheet to the collection.
 
 **Returns:**
 int - [GridWorksheet](../../com.aspose.gridweb/gridworksheet) object index.
-### add(Object value) {#add-java.lang.Object-}
+### add(Object o) {#add-java.lang.Object-}
 ```
-public int add(Object value)
+public int add(Object o)
 ```
 
 
-Adds a sheet object.
+Adds an item to the CollectionBase instance.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.Object | The sheet. |
+| o | java.lang.Object | The Object to add to the CollectionBase instance. |
 
 **Returns:**
-int - 
+int - The position into which the new element was inserted.
 ### add(String sheetName) {#add-java.lang.String-}
 ```
 public GridWorksheet add(String sheetName)
@@ -161,20 +158,6 @@ Return whether instance contains this object
 
 **Returns:**
 boolean - Whether instance contains this object
-### copyTo(Object[] array, int index) {#copyTo-java.lang.Object---int-}
-```
-public void copyTo(Object[] array, int index)
-```
-
-
-Copys contents to an array.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| array | java.lang.Object[] | An array. |
-| index | int | Index of the array. |
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -297,16 +280,6 @@ Gets the decimal separator for formatting/parsing numeric values. Default is the
 
 **Returns:**
 char
-### getSyncRoot() {#getSyncRoot--}
-```
-public Object getSyncRoot()
-```
-
-
-Gets the sheets count.
-
-**Returns:**
-java.lang.Object
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -348,16 +321,6 @@ Insert a worksheet.
 
 **Returns:**
 [GridWorksheet](../../com.aspose.gridweb/gridworksheet)
-### isSynchronized() {#isSynchronized--}
-```
-public boolean isSynchronized()
-```
-
-
-Gets a value indicating if access to the ICollection is synchronized (thread-safe).
-
-**Returns:**
-boolean
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()

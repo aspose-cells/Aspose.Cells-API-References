@@ -39,6 +39,7 @@ Represents the options for saving pdf file.
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDisplayDocTitle()](#getDisplayDocTitle--) | Indicates whether the window's title bar should display the document title. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
+| [getEmbedAttachments()](#getEmbedAttachments--) | Indicates whether to embed attchment for Ole objects in Excel. |
 | [getEmbedStandardWindowsFonts()](#getEmbedStandardWindowsFonts--) | True to embed true type fonts. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getExportDocumentStructure()](#getExportDocumentStructure--) | Indicates whether to export document structure. |
@@ -86,6 +87,7 @@ Represents the options for saving pdf file.
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDisplayDocTitle(boolean value)](#setDisplayDocTitle-boolean-) | Indicates whether the window's title bar should display the document title. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
+| [setEmbedAttachments(boolean value)](#setEmbedAttachments-boolean-) | Indicates whether to embed attchment for Ole objects in Excel. |
 | [setEmbedStandardWindowsFonts(boolean value)](#setEmbedStandardWindowsFonts-boolean-) | True to embed true type fonts. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean-) | Indicates whether to export document structure. |
@@ -340,6 +342,20 @@ Implements this interface to get DrawObject and Bound when rendering.
 
 **Returns:**
 [DrawObjectEventHandler](../../com.aspose.cells/drawobjecteventhandler)
+### getEmbedAttachments() {#getEmbedAttachments--}
+```
+public boolean getEmbedAttachments()
+```
+
+
+Indicates whether to embed attchment for Ole objects in Excel.
+
+**Remarks**
+
+Default value is false. The value must be false when PDF/A compliance is set or pdf encryption is enabled.
+
+**Returns:**
+boolean
 ### getEmbedStandardWindowsFonts() {#getEmbedStandardWindowsFonts--}
 ```
 public boolean getEmbedStandardWindowsFonts()
@@ -1110,6 +1126,23 @@ Implements this interface to get DrawObject and Bound when rendering.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DrawObjectEventHandler](../../com.aspose.cells/drawobjecteventhandler) |  |
+
+### setEmbedAttachments(boolean value) {#setEmbedAttachments-boolean-}
+```
+public void setEmbedAttachments(boolean value)
+```
+
+
+Indicates whether to embed attchment for Ole objects in Excel.
+
+**Remarks**
+
+Default value is false. The value must be false when PDF/A compliance is set or pdf encryption is enabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setEmbedStandardWindowsFonts(boolean value) {#setEmbedStandardWindowsFonts-boolean-}
 ```

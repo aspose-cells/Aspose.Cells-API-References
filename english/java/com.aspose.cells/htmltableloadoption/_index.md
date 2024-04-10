@@ -28,6 +28,7 @@ Represents the option when import table from html.
 | [getName()](#getName--) | Gets the name of table to import from html |
 | [getOriginalSheetIndex()](#getOriginalSheetIndex--) | Gets the original index of worksheet in the html. |
 | [getTableIndex()](#getTableIndex--) | Gets the index of table to import from html. |
+| [getTableToListObject()](#getTableToListObject--) | Indicates whether generate list objects from imported table. |
 | [getTargetSheetIndex()](#getTargetSheetIndex--) | Gets the target index of worksheet where the table is to be located. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -36,6 +37,7 @@ Represents the option when import table from html.
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of table to import from html |
 | [setOriginalSheetIndex(int value)](#setOriginalSheetIndex-int-) | Sets the original index of worksheet in the html. |
 | [setTableIndex(int value)](#setTableIndex-int-) | Sets the index of table to import from html. |
+| [setTableToListObject(boolean value)](#setTableToListObject-boolean-) | Indicates whether generate list objects from imported table. |
 | [setTargetSheetIndex(int value)](#setTargetSheetIndex-int-) | Sets the target index of worksheet where the table is to be located. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -112,6 +114,16 @@ Gets the index of table to import from html.
 
 **Returns:**
 int
+### getTableToListObject() {#getTableToListObject--}
+```
+public boolean getTableToListObject()
+```
+
+
+Indicates whether generate list objects from imported table. The default value is false.
+
+**Returns:**
+boolean
 ### getTargetSheetIndex() {#getTargetSheetIndex--}
 ```
 public int getTargetSheetIndex()
@@ -199,6 +211,19 @@ Sets the index of table to import from html.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setTableToListObject(boolean value) {#setTableToListObject-boolean-}
+```
+public void setTableToListObject(boolean value)
+```
+
+
+Indicates whether generate list objects from imported table. The default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setTargetSheetIndex(int value) {#setTargetSheetIndex-int-}
 ```

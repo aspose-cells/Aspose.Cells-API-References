@@ -32,9 +32,9 @@ Encapsulates a collection of [SparklineGroup](../../com.aspose.cells/sparklinegr
          ca.StartRow = 0;
          ca.EndRow = 0;
  
-         int idx = sheet.getSparklineGroupCollection().add(com.aspose.cells.SparklineType.LINE, "A1:D1", false, ca);
-         SparklineGroup group = sheet.getSparklineGroupCollection().get(idx);
-         group.getSparklineCollection().add(sheet.getName() + "!A1:D1", 0, 4);
+         int idx = sheet.getSparklineGroups().add(com.aspose.cells.SparklineType.LINE, "A1:D1", false, ca);
+         SparklineGroup group = sheet.getSparklineGroups().get(idx);
+         group.getSparklines().add(sheet.getName() + "!A1:D1", 0, 4);
          book.save("output.xlsx", SaveFormat.XLSX);
 ```
 ## Methods

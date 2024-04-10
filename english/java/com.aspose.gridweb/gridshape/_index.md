@@ -24,7 +24,6 @@ Represents a shape object.
 | [getBuffer()](#getBuffer--) | Gets the Buffer of object. |
 | [getClass()](#getClass--) |  |
 | [getID()](#getID--) |  |
-| [getImageFormat()](#getImageFormat--) | Gets the image format of the picture. |
 | [getLeft()](#getLeft--) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [getLeftToCorner()](#getLeftToCorner--) | Represents the horizontal offset of shape from worksheet left board, in unit of pixels. |
 | [getMsoDrawingType()](#getMsoDrawingType--) | Gets mso drawing type. |
@@ -93,18 +92,6 @@ public String getID()
 
 **Returns:**
 java.lang.String
-### getImageFormat() {#getImageFormat--}
-```
-public int getImageFormat()
-```
-
-
-Gets the image format of the picture.
-
-See [GridImageType](../../com.aspose.gridweb/gridimagetype).
-
-**Returns:**
-int
 ### getLeft() {#getLeft--}
 ```
 public int getLeft()

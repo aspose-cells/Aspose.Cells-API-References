@@ -17,9 +17,7 @@ Encapsulates a collection of [GridPicture](../../com.aspose.gridweb/gridpicture)
 
 | Method | Description |
 | --- | --- |
-| [add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)](#add-int-int-int-int-java.io.InputStream-) | Adds a picture to the collection. |
 | [add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName)](#add-int-int-int-int-java.lang.String-) | Adds a picture to the collection. |
-| [add(int upperLeftRow, int upperLeftColumn, InputStream stream)](#add-int-int-java.io.InputStream-) | Adds a picture to the collection. |
 | [add(int upperLeftRow, int upperLeftColumn, String fileName)](#add-int-int-java.lang.String-) | Adds a picture to the collection. |
 | [add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale)](#add-int-int-java.lang.String-int-int-) | Adds a picture to the collection. |
 | [clear()](#clear--) |  |
@@ -36,25 +34,6 @@ Encapsulates a collection of [GridPicture](../../com.aspose.gridweb/gridpicture)
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream) {#add-int-int-int-int-java.io.InputStream-}
-```
-public int add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, InputStream stream)
-```
-
-
-Adds a picture to the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| lowerRightRow | int | Lower right row index |
-| lowerRightColumn | int | Lower right column index |
-| stream | java.io.InputStream | Stream object which contains the image data. |
-
-**Returns:**
-int - [GridPicture](../../com.aspose.gridweb/gridpicture) object index.
 ### add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName) {#add-int-int-int-int-java.lang.String-}
 ```
 public int add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName)
@@ -71,23 +50,6 @@ Adds a picture to the collection.
 | lowerRightRow | int | Lower right row index |
 | lowerRightColumn | int | Lower right column index |
 | fileName | java.lang.String | Image filename. |
-
-**Returns:**
-int - [GridPicture](../../com.aspose.gridweb/gridpicture) object index.
-### add(int upperLeftRow, int upperLeftColumn, InputStream stream) {#add-int-int-java.io.InputStream-}
-```
-public int add(int upperLeftRow, int upperLeftColumn, InputStream stream)
-```
-
-
-Adds a picture to the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| upperLeftRow | int | Upper left row index. |
-| upperLeftColumn | int | Upper left column index. |
-| stream | java.io.InputStream | Stream object which contains the image data. |
 
 **Returns:**
 int - [GridPicture](../../com.aspose.gridweb/gridpicture) object index.

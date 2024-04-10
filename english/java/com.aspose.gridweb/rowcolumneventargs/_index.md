@@ -21,7 +21,6 @@ Provides data for row/column events.
 | [getArgument()](#getArgument--) | The argument of the event. |
 | [getClass()](#getClass--) |  |
 | [getNum()](#getNum--) | The row or column number, starts from zero. |
-| [getType()](#getType--) | The row or column type. |
 | [hashCode()](#hashCode--) |  |
 | [isCancel()](#isCancel--) | shall we cancel the operation. |
 | [notify()](#notify--) |  |
@@ -73,18 +72,6 @@ public int getNum()
 
 
 The row or column number, starts from zero.
-
-**Returns:**
-int
-### getType() {#getType--}
-```
-public int getType()
-```
-
-
-The row or column type.
-
-See [RowColumnType](../../com.aspose.gridweb/rowcolumntype).
 
 **Returns:**
 int
