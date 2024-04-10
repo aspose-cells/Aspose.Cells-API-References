@@ -4,7 +4,7 @@ linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'How to use GetCount method of Aspose::Cells::HtmlTableLoadOptionCollection class in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells/htmltableloadoptioncollection/getcount/
 ---
 ## HtmlTableLoadOptionCollection::GetCount method

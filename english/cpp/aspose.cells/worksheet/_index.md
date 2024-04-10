@@ -4,7 +4,7 @@ linktitle: Worksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet class. Encapsulates the object that represents a single worksheet in C++.'
 type: docs
-weight: 15800
+weight: 16000
 url: /cpp/aspose.cells/worksheet/
 ---
 ## Worksheet class
@@ -122,6 +122,7 @@ class Worksheet
 | [Protect(ProtectionType type, const U16String\& password, const U16String\& oldPassword)](./protect/) | Protects worksheet. |
 | [Protect(ProtectionType type, const char16_t* password, const char16_t* oldPassword)](./protect/) | Protects worksheet. |
 | [RefreshPivotTables()](./refreshpivottables/) | Refreshes all the PivotTables in this [Worksheet](./). |
+| [RefreshPivotTables(const PivotTableRefreshOption\& option)](./refreshpivottables/) | Refreshes all the PivotTables in this [Worksheet](./). |
 | [RemoveAllDrawingObjects()](./removealldrawingobjects/) | Removes all drawing objects in this worksheet. |
 | [RemoveAutoFilter()](./removeautofilter/) | Removes the auto filter of the worksheet. |
 | [RemoveSplit()](./removesplit/) | Removes split window. |

@@ -4,7 +4,7 @@ linktitle: IsReferred
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalLink::IsReferred method. Indicates whether this external link is referenced by others in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells/externallink/isreferred/
 ---
 ## ExternalLink::IsReferred method

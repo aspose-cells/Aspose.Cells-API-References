@@ -4,7 +4,7 @@ linktitle: MemoryFontSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MemoryFontSource class. Represents the single TrueType font file stored in memory in C++.'
 type: docs
-weight: 9900
+weight: 10000
 url: /cpp/aspose.cells/memoryfontsource/
 ---
 ## MemoryFontSource class

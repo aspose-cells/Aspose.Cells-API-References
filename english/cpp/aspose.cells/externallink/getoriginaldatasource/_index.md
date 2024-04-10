@@ -4,7 +4,7 @@ linktitle: GetOriginalDataSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalLink::GetOriginalDataSource method. Represents stored data source of the external link in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells/externallink/getoriginaldatasource/
 ---
 ## ExternalLink::GetOriginalDataSource method

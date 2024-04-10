@@ -4,7 +4,7 @@ linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlTableLoadOptionCollection::Get method. Gets the HtmlTableLoadOption element at the specified index in C++.'
 type: docs
-weight: 600
+weight: 800
 url: /cpp/aspose.cells/htmltableloadoptioncollection/get/
 ---
 ## HtmlTableLoadOptionCollection::Get method

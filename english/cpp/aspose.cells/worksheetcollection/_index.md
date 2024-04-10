@@ -4,7 +4,7 @@ linktitle: WorksheetCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection class. Encapsulates a collection of Worksheet objects in C++.'
 type: docs
-weight: 15900
+weight: 16100
 url: /cpp/aspose.cells/worksheetcollection/
 ---
 ## WorksheetCollection class
@@ -67,7 +67,8 @@ class WorksheetCollection
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const WorksheetCollection\& src)](./operator_asm/) | operator= |
 | [RefreshAll()](./refreshall/) | Refresh all pivot tables and charts with pivot source. |
-| [RefreshPivotTables()](./refreshpivottables/) | Refreshes all the PivotTables in the [WorksheetCollection](./). |
+| [RefreshPivotTables()](./refreshpivottables/) | Refreshes all the PivotTables in the Excel file. |
+| [RefreshPivotTables(const PivotTableRefreshOption\& option)](./refreshpivottables/) | Refreshes all the PivotTables in the Excel file. |
 | [RegisterAddInFunction(const U16String\& addInFile, const U16String\& functionName, bool lib)](./registeraddinfunction/) | Adds addin function into the workbook. |
 | [RegisterAddInFunction(const char16_t* addInFile, const char16_t* functionName, bool lib)](./registeraddinfunction/) | Adds addin function into the workbook. |
 | [RegisterAddInFunction(int32_t id, const U16String\& functionName)](./registeraddinfunction/) | Adds addin function into the workbook. |

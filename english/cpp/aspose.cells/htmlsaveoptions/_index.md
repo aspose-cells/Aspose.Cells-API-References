@@ -4,7 +4,7 @@ linktitle: HtmlSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions class. Represents the options for saving html file in C++.'
 type: docs
-weight: 7600
+weight: 7700
 url: /cpp/aspose.cells/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -59,6 +59,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetFormatDataIgnoreColumnWidth()](./getformatdataignorecolumnwidth/) | Indicating whether show the whole formatted data of cell when overflowing the column. If true then ignore the column width and the whole data of cell will be exported. If false then the data will be exported same as Excel. The default value is false. |
 | [GetHiddenColDisplayType()](./gethiddencoldisplaytype/) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden". |
 | [GetHiddenRowDisplayType()](./gethiddenrowdisplaytype/) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden". |
+| [GetHideOverflowWrappedText()](./gethideoverflowwrappedtext/) | Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false. |
 | [GetHtmlCrossStringType()](./gethtmlcrossstringtype/) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by [Aspose.Cells](../) and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell. |
 | [GetIgnoreInvisibleShapes()](./getignoreinvisibleshapes/) | Indicate whether exporting those not visible shapes. |
 | [GetImageOptions()](./getimageoptions/) | Get the ImageOrPrintOptions object before exporting. |
@@ -66,7 +67,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetLinkTargetType()](./getlinktargettype/) | Indicating the type of target attribute in **<a>** link. The default value is [HtmlLinkTargetType.Parent](../htmllinktargettype/). |
 | [GetMergeAreas()](../saveoptions/getmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [GetMergeEmptyTdForcely()](./getmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
-| [GetMergeEmptyTdType()](./getmergeemptytdtype/) | Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
+| [GetMergeEmptyTdType()](./getmergeemptytdtype/) | The option to merge contiguous empty cells(empty td elements) The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
 | [GetPageTitle()](./getpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [GetParseHtmlTagInCell()](./getparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |
 | [GetPresentationPreference()](./getpresentationpreference/) | Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true. |
@@ -144,6 +145,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetFormatDataIgnoreColumnWidth(bool value)](./setformatdataignorecolumnwidth/) | Indicating whether show the whole formatted data of cell when overflowing the column. If true then ignore the column width and the whole data of cell will be exported. If false then the data will be exported same as Excel. The default value is false. |
 | [SetHiddenColDisplayType(HtmlHiddenColDisplayType value)](./sethiddencoldisplaytype/) | Hidden column(the width of this column is 0) in excel,before save this into html format, if HtmlHiddenColDisplayType is "Remove",the hidden column would not been output, if the value is "Hidden", the column would been output,but was hidden,the default value is "Hidden". |
 | [SetHiddenRowDisplayType(HtmlHiddenRowDisplayType value)](./sethiddenrowdisplaytype/) | Hidden row(the height of this row is 0) in excel,before save this into html format, if HtmlHiddenRowDisplayType is "Remove",the hidden row would not been output, if the value is "Hidden", the row would been output,but was hidden,the default value is "Hidden". |
+| [SetHideOverflowWrappedText(bool value)](./sethideoverflowwrappedtext/) | Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false. |
 | [SetHtmlCrossStringType(HtmlCrossType value)](./sethtmlcrossstringtype/) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by [Aspose.Cells](../) and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell. |
 | [SetIgnoreInvisibleShapes(bool value)](./setignoreinvisibleshapes/) | Indicate whether exporting those not visible shapes. |
 | [SetImageScalable(bool value)](./setimagescalable/) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true. |
@@ -156,7 +158,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetLinkTargetType(HtmlLinkTargetType value)](./setlinktargettype/) | Indicating the type of target attribute in **<a>** link. The default value is [HtmlLinkTargetType.Parent](../htmllinktargettype/). |
 | [SetMergeAreas(bool value)](../saveoptions/setmergeareas/) | Indicates whether merge the areas of conditional formatting and validation before saving the file. |
 | [SetMergeEmptyTdForcely(bool value)](./setmergeemptytdforcely/) |  **(Deprecated)** Indicates whether merging empty TD element forcedly when exporting file to html. The size of html file will be reduced significantly after setting value to true. The default value is false. If you want to import the html file to excel or export perfect grid lines when saving file to html, please keep the default value. |
-| [SetMergeEmptyTdType(MergeEmptyTdType value)](./setmergeemptytdtype/) | Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
+| [SetMergeEmptyTdType(MergeEmptyTdType value)](./setmergeemptytdtype/) | The option to merge contiguous empty cells(empty td elements) The default value is [MergeEmptyTdType.Default](../mergeemptytdtype/). |
 | [SetPageTitle(const U16String\& value)](./setpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [SetPageTitle(const char16_t* value)](./setpagetitle/) | The title of the html page. Only for saving to html stream. |
 | [SetParseHtmlTagInCell(bool value)](./setparsehtmltagincell/) | Indicates whether html tag(such as **<div></div>**) in cell should be parsed as cell value or preserved as it is. The default value is true. |

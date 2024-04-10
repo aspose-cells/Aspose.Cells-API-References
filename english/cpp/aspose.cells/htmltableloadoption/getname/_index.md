@@ -12,9 +12,15 @@ url: /cpp/aspose.cells/htmltableloadoption/getname/
 
 Get or set the name of table to import from html.
 
+
+>Deprecated
+>
+>Please use HtmlTableLoadOption.Id instead 
 ```cpp
 U16String Aspose::Cells::HtmlTableLoadOption::GetName()
 ```
+
+
 
 ## See Also
 

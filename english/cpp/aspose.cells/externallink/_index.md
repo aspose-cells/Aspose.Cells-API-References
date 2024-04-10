@@ -4,7 +4,7 @@ linktitle: ExternalLink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalLink class. Represents an external link in a workbook in C++.'
 type: docs
-weight: 5400
+weight: 5500
 url: /cpp/aspose.cells/externallink/
 ---
 ## ExternalLink class
@@ -26,6 +26,7 @@ class ExternalLink
 | [ExternalLink(const ExternalLink\& src)](./externallink/) | Copy constructor. |
 | [GetDataSource()](./getdatasource/) | Represents data source of the external link. |
 | [GetOriginalDataSource()](./getoriginaldatasource/) | Represents stored data source of the external link. |
+| [GetPathType()](./getpathtype/) | Get the path type of this external link. |
 | [GetType()](./gettype/) | Gets the type of external link. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsReferred()](./isreferred/) | Indicates whether this external link is referenced by others. |

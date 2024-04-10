@@ -58,6 +58,7 @@ url: /cpp/aspose.cells/
 | [DataSorterKeyCollection](./datasorterkeycollection/) | Represents the key list of data sorter. |
 | [DateTimeGroupItem](./datetimegroupitem/) | Represents the datetime's group setting. |
 | [DefaultStyleSettings](./defaultstylesettings/) | [Settings](../aspose.cells.settings/) for the default values of workbook's style properties. |
+| [DeleteBlankOptions](./deleteblankoptions/) | Represents the setting of deleting blank cells/rows/columns. |
 | [DeleteOptions](./deleteoptions/) | Represents the setting of deleting rows/columns. |
 | [DifSaveOptions](./difsaveoptions/) | Represents the options of saving dif file. |
 | [DocxSaveOptions](./docxsaveoptions/) | Represents options of saving .docx file. |
@@ -151,6 +152,7 @@ url: /cpp/aspose.cells/
 | [Style](./style/) | Represents display style of excel document,such as font,color,alignment,border,etc. The [Style](./style/) object contains all style attributes (font, number format, alignment, and so on) as properties. |
 | [StyleFlag](./styleflag/) | Represents flags which indicates applied formatting properties. |
 | [SubtotalSetting](./subtotalsetting/) | Represents the setting of the subtotal . |
+| [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor/) | Simple implementation of [AbstractInterruptMonitor](./abstractinterruptmonitor/) by checking and comparing current system time with user specified limit. |
 | [ThemeColor](./themecolor/) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment/) | Represents the threaded comment. |
 | [ThreadedCommentAuthor](./threadedcommentauthor/) | Represents the person who creates the threaded comments;. |

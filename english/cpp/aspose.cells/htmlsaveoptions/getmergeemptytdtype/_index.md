@@ -2,7 +2,7 @@
 title: Aspose::Cells::HtmlSaveOptions::GetMergeEmptyTdType method
 linktitle: GetMergeEmptyTdType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::HtmlSaveOptions::GetMergeEmptyTdType method. Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is MergeEmptyTdType.Default in C++.'
+description: 'Aspose::Cells::HtmlSaveOptions::GetMergeEmptyTdType method. The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default in C++.'
 type: docs
 weight: 7700
 url: /cpp/aspose.cells/htmlsaveoptions/getmergeemptytdtype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/htmlsaveoptions/getmergeemptytdtype/
 ## HtmlSaveOptions::GetMergeEmptyTdType method
 
 
-Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is [MergeEmptyTdType.Default](../../mergeemptytdtype/).
+The option to merge contiguous empty cells(empty td elements) The default value is [MergeEmptyTdType.Default](../../mergeemptytdtype/).
 
 ```cpp
 MergeEmptyTdType Aspose::Cells::HtmlSaveOptions::GetMergeEmptyTdType()

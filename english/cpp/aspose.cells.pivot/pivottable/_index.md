@@ -128,6 +128,7 @@ class PivotTable
 | [PivotTable(PivotTable_Impl* impl)](./pivottable/) | Constructs from an implementation object. |
 | [PivotTable(const PivotTable\& src)](./pivottable/) | Copy constructor. |
 | [RefreshData()](./refreshdata/) | Refreshes pivottable's data and setting from it's data source. |
+| [RefreshData(const PivotTableRefreshOption\& option)](./refreshdata/) | Refreshes pivottable's data and setting from it's data source with options. |
 | [RemoveField(PivotFieldType fieldType, const U16String\& fieldName)](./removefield/) | Removes a field from specific field area. |
 | [RemoveField(PivotFieldType fieldType, const char16_t* fieldName)](./removefield/) | Removes a field from specific field area. |
 | [RemoveField(PivotFieldType fieldType, int32_t baseFieldIndex)](./removefield/) | Removes a field from specific field area. |

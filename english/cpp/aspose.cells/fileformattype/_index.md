@@ -4,7 +4,7 @@ linktitle: FileFormatType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FileFormatType enum. Represents the file format types in C++.'
 type: docs
-weight: 20200
+weight: 20400
 url: /cpp/aspose.cells/fileformattype/
 ---
 ## FileFormatType enum
@@ -84,6 +84,7 @@ enum class FileFormatType
 | Jpg | 261 | <br>JPEG JFIF. |
 | Png | 262 | <br>Portable Network Graphics. |
 | Gif | 322 | <br>Gif. |
+| WebP | 323 | <br>Webp. |
 | Json | 513 | <br>[Json](../../aspose.cells.json/). |
 | SqlScript | 514 | <br>Sql. |
 | XHtml | 771 | <br>Rrepesents XHtml file. |
