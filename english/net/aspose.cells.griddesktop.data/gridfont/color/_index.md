@@ -1,14 +1,16 @@
 ---
-title: GridFont.color
+title: GridFont.Color
 second_title: Aspose.Cells for .NET API Reference
-description: GridFont property. 
+description: GridFont property. Gets font color
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridfont/color/
 ---
-## GridFont.color property
+## GridFont.Color property
+
+Gets font color.
 
 ```csharp
-public Color color { get; set; }
+public Color Color { get; set; }
 ```
 
 ### See Also

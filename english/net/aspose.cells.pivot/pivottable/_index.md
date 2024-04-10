@@ -120,7 +120,8 @@ public class PivotTable : IDisposable
 | [GetSource](../../aspose.cells.pivot/pivottable/getsource/)() | Get pivottable's source data. |
 | [Move](../../aspose.cells.pivot/pivottable/move/#move_1)(string) | Moves the PivotTable to a different location in the worksheet. |
 | [Move](../../aspose.cells.pivot/pivottable/move/#move)(int, int) | Moves the PivotTable to a different location in the worksheet. |
-| [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/)() | Refreshes pivottable's data and setting from it's data source. |
+| [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata)() | Refreshes pivottable's data and setting from it's data source. |
+| [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata_1)(PivotTableRefreshOption) | Refreshes pivottable's data and setting from it's data source with options. |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield_1)(PivotFieldType, int) | Removes a field from specific field area |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield)(PivotFieldType, PivotField) | Remove field from specific field area |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield_2)(PivotFieldType, string) | Removes a field from specific field area |

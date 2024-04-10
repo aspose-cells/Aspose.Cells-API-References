@@ -65,6 +65,7 @@ public class GridJsWorkbook
 | static [GetImageStream](../../aspose.cells.gridjs/gridjsworkbook/getimagestream/)(string, string) | Get Stream of image from memory data. |
 | static [GetImageUrl](../../aspose.cells.gridjs/gridjsworkbook/getimageurl/)(string, string, string) | Gets the image URL. |
 | static [GetUidForFile](../../aspose.cells.gridjs/gridjsworkbook/getuidforfile/)(string) | Gets unique id for the file cache. |
+| static [SetImageUrlBase](../../aspose.cells.gridjs/gridjsworkbook/setimageurlbase/)(string) | Set the base image get action URL from controller . |
 
 ## Fields
 

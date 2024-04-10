@@ -61,7 +61,6 @@ public class Worksheet : IDisposable
 | [ShowFormulas](../../aspose.cells/worksheet/showformulas/) { get; set; } | Indicates whether to show formulas or their results. |
 | [Slicers](../../aspose.cells/worksheet/slicers/) { get; } | Get the Slicer collection in the worksheet |
 | [SmartTagSetting](../../aspose.cells/worksheet/smarttagsetting/) { get; } | Gets all [`SmartTagCollection`](../../aspose.cells.markup/smarttagcollection/) objects of the worksheet. |
-| [SparklineGroupCollection](../../aspose.cells/worksheet/sparklinegroupcollection/) { get; } | (**Obsolete.**) Gets the sparkline group collection in the worksheet. |
 | [SparklineGroups](../../aspose.cells/worksheet/sparklinegroups/) { get; } | Gets the sparkline groups in the worksheet. |
 | [TabColor](../../aspose.cells/worksheet/tabcolor/) { get; set; } | Represents worksheet tab color. |
 | [TabId](../../aspose.cells/worksheet/tabid/) { get; set; } | Specifies the internal identifier for the sheet. |
@@ -123,13 +122,13 @@ public class Worksheet : IDisposable
 | [MoveTo](../../aspose.cells/worksheet/moveto/)(int) | Moves the sheet to another location in the spreadsheet. |
 | [Protect](../../aspose.cells/worksheet/protect/#protect)(ProtectionType) | Protects worksheet. |
 | [Protect](../../aspose.cells/worksheet/protect/#protect_1)(ProtectionType, string, string) | Protects worksheet. |
-| [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables/)() | Refreshes all the PivotTables in this Worksheet. |
+| [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables/#refreshpivottables)() | Refreshes all the PivotTables in this Worksheet. |
+| [RefreshPivotTables](../../aspose.cells/worksheet/refreshpivottables/#refreshpivottables_1)(PivotTableRefreshOption) | Refreshes all the PivotTables in this Worksheet. |
 | [RemoveAllDrawingObjects](../../aspose.cells/worksheet/removealldrawingobjects/)() | Removes all drawing objects in this worksheet. |
 | [RemoveAutoFilter](../../aspose.cells/worksheet/removeautofilter/)() | Removes the auto filter of the worksheet. |
 | [RemoveSplit](../../aspose.cells/worksheet/removesplit/)() | Removes split window. |
 | [Replace](../../aspose.cells/worksheet/replace/)(string, string) | Replaces all cells' text with a new string. |
 | [SelectRange](../../aspose.cells/worksheet/selectrange/)(int, int, int, int, bool) | Selects a range. |
-| [SetBackground](../../aspose.cells/worksheet/setbackground/)(byte[]) | (**Obsolete.**) Sets worksheet background image. |
 | [SetVisible](../../aspose.cells/worksheet/setvisible/)(bool, bool) | Sets the visible options. |
 | [Split](../../aspose.cells/worksheet/split/)() | Splits window. |
 | [StartAccessCache](../../aspose.cells/worksheet/startaccesscache/)(AccessCacheOptions) | Starts the session that uses caches to access the data in this worksheet. |

@@ -83,7 +83,8 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Worksheet, int) |  |
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Worksheet, int, int) |  |
 | [RefreshAll](../../aspose.cells/worksheetcollection/refreshall/)() | Refresh all pivot tables and charts with pivot source. |
-| [RefreshPivotTables](../../aspose.cells/worksheetcollection/refreshpivottables/)() | Refreshes all the PivotTables in the WorksheetCollection. |
+| [RefreshPivotTables](../../aspose.cells/worksheetcollection/refreshpivottables/#refreshpivottables)() | Refreshes all the PivotTables in the Excel file. |
+| [RefreshPivotTables](../../aspose.cells/worksheetcollection/refreshpivottables/#refreshpivottables_1)(PivotTableRefreshOption) | Refreshes all the PivotTables in the Excel file. |
 | [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction/#registeraddinfunction_1)(int, string) | Adds addin function into the workbook |
 | [RegisterAddInFunction](../../aspose.cells/worksheetcollection/registeraddinfunction/#registeraddinfunction)(string, string, bool) | Adds addin function into the workbook |
 | [RemoveAt](../../aspose.cells/worksheetcollection/removeat/#removeat)(int) | Removes the element at a specified index. (2 methods) |

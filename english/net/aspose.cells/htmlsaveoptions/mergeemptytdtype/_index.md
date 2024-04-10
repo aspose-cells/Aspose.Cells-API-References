@@ -1,13 +1,13 @@
 ---
 title: HtmlSaveOptions.MergeEmptyTdType
 second_title: Aspose.Cells for .NET API Reference
-description: HtmlSaveOptions property. Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is MergeEmptyTdType.Default
+description: HtmlSaveOptions property. The option to merge contiguous empty cellsempty td elements The default value is MergeEmptyTdType.Default
 type: docs
 url: /net/aspose.cells/htmlsaveoptions/mergeemptytdtype/
 ---
 ## HtmlSaveOptions.MergeEmptyTdType property
 
-Indicates if empty TD element will be merged in the same way as MS Excel when saving an Excel file in html format. The default value is MergeEmptyTdType.Default.
+The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default.
 
 ```csharp
 public MergeEmptyTdType MergeEmptyTdType { get; set; }

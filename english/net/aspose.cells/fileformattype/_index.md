@@ -81,6 +81,7 @@ public enum FileFormatType
 | Jpg | `261` | JPEG JFIF. |
 | Png | `262` | Portable Network Graphics. |
 | Gif | `322` | Gif |
+| WebP | `323` | Webp |
 | Json | `513` | Json |
 | SqlScript | `514` | Sql |
 | XHtml | `771` | Rrepesents XHtml file. |

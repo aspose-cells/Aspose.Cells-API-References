@@ -27,6 +27,7 @@ public class Style
 | [CellLocked](../../aspose.cells.griddesktop/style/celllocked/) { get; set; } | Gets or sets a value indicating whether a cell can be modified or not. |
 | [Color](../../aspose.cells.griddesktop/style/color/) { get; set; } | Gets or sets the cell shading color. when pattern is none ,it return Color.Empty; when pattern is BackgroundType.Solid,it return ForegroundColor; others it return BackgroundColor |
 | [Custom](../../aspose.cells.griddesktop/style/custom/) { get; set; } | Represents the custom number format string of this style object. If the custom number format is not set(For example, the number format is builtin), "" will be returned. |
+| [Font](../../aspose.cells.griddesktop/style/font/) { get; set; } | Gets a [`GridFont`](../../aspose.cells.griddesktop.data/gridfont/) object. |
 | [ForegroundColor](../../aspose.cells.griddesktop/style/foregroundcolor/) { get; set; } | Gets or sets a style's foreground color. |
 | [HAlignment](../../aspose.cells.griddesktop/style/halignment/) { get; set; } | Gets or sets horizontal alignment attribute. |
 | [Indent](../../aspose.cells.griddesktop/style/indent/) { get; set; } | Represents the m_IndentLevel level for the cell or range. Can only be an integer from 0 to 15. |

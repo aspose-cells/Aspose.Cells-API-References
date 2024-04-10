@@ -50,6 +50,26 @@ public int Add(int tableIndex)
 
 ---
 
+## Add(string) {#add_4}
+
+Add a HtmlTableLoadOption to the list.
+
+```csharp
+public int Add(string tableId)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableId | String | Table ID |
+
+### See Also
+
+* class [HtmlTableLoadOptionCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## Add(int, int) {#add_2}
 
 Add a HtmlTableLoadOption to the list.
@@ -61,7 +81,28 @@ public int Add(int tableIndex, int targetSheetIndex)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tableIndex | Int32 | Table index |
-| targetSheetIndex | Int32 | Worksheet index |
+| targetSheetIndex | Int32 | The target index of worksheet in Excel |
+
+### See Also
+
+* class [HtmlTableLoadOptionCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, int) {#add_5}
+
+Add a HtmlTableLoadOption to the list.
+
+```csharp
+public int Add(string tableId, int targetSheetIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableId | String | Table ID |
+| targetSheetIndex | Int32 | The target index of worksheet in Excel |
 
 ### See Also
 
@@ -82,7 +123,29 @@ public int Add(int tableIndex, int targetSheetIndex, int originalSheetIndex)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tableIndex | Int32 | Table index |
-| targetSheetIndex | Int32 | The target index of worksheet where table to export to |
+| targetSheetIndex | Int32 | The target index of worksheet in Excel |
+| originalSheetIndex | Int32 | The original index of worksheet in the html |
+
+### See Also
+
+* class [HtmlTableLoadOptionCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, int, int) {#add_6}
+
+Add a HtmlTableLoadOption to the list.
+
+```csharp
+public int Add(string tableId, int targetSheetIndex, int originalSheetIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableId | String | Table ID |
+| targetSheetIndex | Int32 | The target index of worksheet in Excel |
 | originalSheetIndex | Int32 | The original index of worksheet in the html |
 
 ### See Also

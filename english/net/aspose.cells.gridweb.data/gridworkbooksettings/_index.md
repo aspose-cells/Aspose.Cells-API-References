@@ -32,6 +32,7 @@ public class GridWorkbookSettings
 | [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration/) { get; set; } | Gets or sets whether use iteration to resolve circular references. |
 | [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration/) { get; set; } | Gets or sets the maximum number of iterations to resolve a circular reference,the default value is 100. |
 | [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed/) { get; set; } | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
+| [PreservePaddingSpaces](../../aspose.cells.gridweb.data/gridworkbooksettings/preservepaddingspaces/) { get; set; } | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false. |
 | [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen/) { get; set; } | Gets or sets whether re-calculate all formulas on opening file. |
 
 ### Examples

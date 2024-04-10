@@ -5,7 +5,7 @@ description: Worksheet method. Refreshes all the PivotTables in this Worksheet
 type: docs
 url: /net/aspose.cells/worksheet/refreshpivottables/
 ---
-## Worksheet.RefreshPivotTables method
+## RefreshPivotTables() {#refreshpivottables}
 
 Refreshes all the PivotTables in this Worksheet.
 
@@ -15,6 +15,27 @@ public void RefreshPivotTables()
 
 ### See Also
 
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## RefreshPivotTables(PivotTableRefreshOption) {#refreshpivottables_1}
+
+Refreshes all the PivotTables in this Worksheet.
+
+```csharp
+public void RefreshPivotTables(PivotTableRefreshOption option)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | PivotTableRefreshOption | The option for refreshing data source of pivot table. |
+
+### See Also
+
+* class [PivotTableRefreshOption](../../../aspose.cells.pivot/pivottablerefreshoption/)
 * class [Worksheet](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

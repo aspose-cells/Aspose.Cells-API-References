@@ -21,6 +21,7 @@ public class ExternalLink
 | [IsReferred](../../aspose.cells/externallink/isreferred/) { get; } | Indicates whether this external link is referenced by others. |
 | [IsVisible](../../aspose.cells/externallink/isvisible/) { get; } | Indicates whether this external link is visible in MS Excel. |
 | [OriginalDataSource](../../aspose.cells/externallink/originaldatasource/) { get; set; } | Represents stored data source of the external link. |
+| [PathType](../../aspose.cells/externallink/pathtype/) { get; } | Get the path type of this external link |
 | [Type](../../aspose.cells/externallink/type/) { get; } | Gets the type of external link. |
 
 ## Methods

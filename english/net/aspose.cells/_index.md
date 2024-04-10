@@ -59,6 +59,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [DataSorterKeyCollection](./datasorterkeycollection/) | Represents the key list of data sorter. |
 | [DateTimeGroupItem](./datetimegroupitem/) | Represents the datetime's group setting. |
 | [DefaultStyleSettings](./defaultstylesettings/) | Settings for the default values of workbook's style properties. |
+| [DeleteBlankOptions](./deleteblankoptions/) | Represents the setting of deleting blank cells/rows/columns. |
 | [DeleteOptions](./deleteoptions/) | Represents the setting of deleting rows/columns. |
 | [DifSaveOptions](./difsaveoptions/) | Represents the options of saving dif file. |
 | [DocxSaveOptions](./docxsaveoptions/) | Represents options of saving .docx file. |
@@ -151,11 +152,13 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [StyleFlag](./styleflag/) | Represents flags which indicates applied formatting properties. |
 | [SubtotalSetting](./subtotalsetting/) | Represents the setting of the subtotal . |
 | [SvgSaveOptions](./svgsaveoptions/) |  |
+| [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor/) | Simple implementation of [`AbstractInterruptMonitor`](../aspose.cells/abstractinterruptmonitor/) by checking and comparing current system time with user specified limit. |
 | [ThemeColor](./themecolor/) | Represents a theme color. |
 | [ThreadedComment](./threadedcomment/) | Represents the threaded comment. |
 | [ThreadedCommentAuthor](./threadedcommentauthor/) | Represents the person who creates the threaded comments; |
 | [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection/) | Represents all persons who . |
 | [ThreadedCommentCollection](./threadedcommentcollection/) | Represents the list of threaded comments. |
+| [ThreadInterruptMonitor](./threadinterruptmonitor/) | Simple implementation of [`AbstractInterruptMonitor`](../aspose.cells/abstractinterruptmonitor/) by starting another thread to require the interruption after sleeping user specified limit. |
 | [Top10](./top10/) | Describe the Top10 conditional formatting rule. This conditional formatting rule highlights cells whose values fall in the top N or bottom N bracket, as specified. |
 | [Top10Filter](./top10filter/) | Represents the top 10 filter. |
 | [TwoColorGradient](./twocolorgradient/) | Represents two color gradient. |

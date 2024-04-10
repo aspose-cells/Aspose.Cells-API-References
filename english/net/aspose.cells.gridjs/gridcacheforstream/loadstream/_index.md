@@ -10,7 +10,7 @@ url: /net/aspose.cells.gridjs/gridcacheforstream/loadstream/
 Implements this method to load cache with the key uid,return the stream from the cache.
 
 ```csharp
-public virtual Stream LoadStream(string uid)
+public abstract Stream LoadStream(string uid)
 ```
 
 ### See Also

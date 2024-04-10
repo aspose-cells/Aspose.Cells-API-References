@@ -10,6 +10,7 @@ url: /net/aspose.cells/htmltableloadoption/name/
 Get or set the name of table to import from html
 
 ```csharp
+[Obsolete("Please use HtmlTableLoadOption.Id instead")]
 public string Name { get; set; }
 ```
 

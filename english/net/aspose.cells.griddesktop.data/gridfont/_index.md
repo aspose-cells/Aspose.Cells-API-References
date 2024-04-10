@@ -17,9 +17,9 @@ public class GridFont
 
 | Name | Description |
 | --- | --- |
-| [color](../../aspose.cells.griddesktop.data/gridfont/color/) { get; set; } |  |
-| [DoubleUnderLine](../../aspose.cells.griddesktop.data/gridfont/doubleunderline/) { get; set; } |  |
-| [font](../../aspose.cells.griddesktop.data/gridfont/font/) { get; set; } |  |
+| [Color](../../aspose.cells.griddesktop.data/gridfont/color/) { get; set; } | Gets font color. |
+| [font](../../aspose.cells.griddesktop.data/gridfont/font/) { get; set; } | Gets/Sets drawing font info. |
+| [Underline](../../aspose.cells.griddesktop.data/gridfont/underline/) { get; set; } | Gets or sets the font underline type. |
 
 ### See Also
 

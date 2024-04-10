@@ -32,6 +32,7 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotTableCollection](./pivottablecollection/) | Represents the collection of all the PivotTable objects on the specified worksheet. |
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
+| [PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
 | [SxRng](./sxrng/) |  |
 ## Enumeration
 
@@ -51,5 +52,6 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotTableAutoFormatType](./pivottableautoformattype/) | Represents PivotTable auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a PivotTable during a structured selection. These constants can be combined to select multiple types. |
 | [PivotTableStyleType](./pivottablestyletype/) | Represents the pivot table style type. |
+| [ReserveMissingPivotItemType](./reservemissingpivotitemtype/) | Represents how to keep the missing pivot items. |
 
 

@@ -15,11 +15,11 @@ public GridRow GetRow(int i)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Row index |
+| i | Int32 | Row index |
 
 ### Return Value
 
-If the row object does exist return Row object,otherwise return null.
+the row object
 
 ### See Also
 

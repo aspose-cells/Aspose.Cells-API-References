@@ -44,6 +44,8 @@ public class GridCells : IEnumerable
 | Name | Description |
 | --- | --- |
 | [CheckCell](../../aspose.cells.gridweb.data/gridcells/checkcell/)(int, int) | Gets the [`GridCell`](../gridcell/) element or null at the specified cell row index and column index. |
+| [CheckColumn](../../aspose.cells.gridweb.data/gridcells/checkcolumn/)(int) | Gets the [`GridColumn`](../gridcolumn/) element or null at the specified column index. |
+| [CheckRow](../../aspose.cells.gridweb.data/gridcells/checkrow/)(int) | Gets the [`GridRow`](../gridrow/) element or null at the specified cell row index. |
 | [Clear](../../aspose.cells.gridweb.data/gridcells/clear/)() | Clear all cells in the collection. |
 | [ClearContents](../../aspose.cells.gridweb.data/gridcells/clearcontents/#clearcontents)(GridCellArea) | Clears contents of a range. |
 | [ClearContents](../../aspose.cells.gridweb.data/gridcells/clearcontents/#clearcontents_1)(int, int, int, int) | Clears contents of a range. |
@@ -66,7 +68,7 @@ public class GridCells : IEnumerable
 | [DeleteRows](../../aspose.cells.gridweb.data/gridcells/deleterows/#deleterows_1)(int, int, bool) | Deletes multiple rows in the worksheet. |
 | [Export](../../aspose.cells.gridweb.data/gridcells/export/)(int, int, int, int, bool, bool) | Exports data in the Cells collection of a WebWorksheet to a new DataTable object |
 | [ExportArray](../../aspose.cells.gridweb.data/gridcells/exportarray/)(int, int, int, int) | Exports data in the `GridCells` collection to a two-dimension array object. |
-| [GetCell](../../aspose.cells.gridweb.data/gridcells/getcell/)(int, int) | Gets the [`GridCell`](../gridcell/) element or null at the specified cell row index and column index. |
+| [GetCell](../../aspose.cells.gridweb.data/gridcells/getcell/)(int, int) | Gets the [`GridCell`](../gridcell/) element at the specified cell row index and column index. |
 | [GetColumnWidth](../../aspose.cells.gridweb.data/gridcells/getcolumnwidth/)(int) | Gets the width of the specified column |
 | [GetColumnWidthInch](../../aspose.cells.gridweb.data/gridcells/getcolumnwidthinch/)(int) | Gets the width of the specified column, in units of inches. |
 | [GetColumnWidthPixel](../../aspose.cells.gridweb.data/gridcells/getcolumnwidthpixel/)(int) | Gets the width of the specified column, in units of pixel. |

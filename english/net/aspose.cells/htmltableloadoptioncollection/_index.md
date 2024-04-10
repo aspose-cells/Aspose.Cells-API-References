@@ -23,6 +23,7 @@ public class HtmlTableLoadOptionCollection : CollectionBase<HtmlTableLoadOption>
 
 | Name | Description |
 | --- | --- |
+| [AutoCreateListObjectsForAllTables](../../aspose.cells/htmltableloadoptioncollection/autocreatelistobjectsforalltables/) { get; set; } | Indicates whether generate list objects from table elements for all imported tables. The default value is false. |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
 | [Item](../../aspose.cells/htmltableloadoptioncollection/item/) { get; } | Gets the [`HtmlTableLoadOption`](../htmltableloadoption/) element at the specified index. |
@@ -34,8 +35,11 @@ public class HtmlTableLoadOptionCollection : CollectionBase<HtmlTableLoadOption>
 | --- | --- |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add)(HtmlTableLoadOption) | Adds one HtmlTableLoadOption into this collection. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_1)(int) | Add a HtmlTableLoadOption to the list. |
+| [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_4)(string) | Add a HtmlTableLoadOption to the list. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_2)(int, int) | Add a HtmlTableLoadOption to the list. |
+| [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_5)(string, int) | Add a HtmlTableLoadOption to the list. |
 | [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_3)(int, int, int) | Add a HtmlTableLoadOption to the list. |
+| [Add](../../aspose.cells/htmltableloadoptioncollection/add/#add_6)(string, int, int) | Add a HtmlTableLoadOption to the list. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(HtmlTableLoadOption) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(HtmlTableLoadOption, IComparer&lt;HtmlTableLoadOption&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, HtmlTableLoadOption, IComparer&lt;HtmlTableLoadOption&gt;) |  |

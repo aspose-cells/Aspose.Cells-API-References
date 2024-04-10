@@ -10,7 +10,7 @@ url: /net/aspose.cells.gridjs/gridcacheforstream/getfileurl/
 Implements this method to get the file url from the cache.
 
 ```csharp
-public virtual string GetFileUrl(string uid)
+public abstract string GetFileUrl(string uid)
 ```
 
 | Parameter | Type | Description |

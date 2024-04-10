@@ -1,11 +1,13 @@
 ---
 title: GridFont.font
 second_title: Aspose.Cells for .NET API Reference
-description: GridFont property. 
+description: GridFont property. Gets/Sets drawing font info
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridfont/font/
 ---
 ## GridFont.font property
+
+Gets/Sets drawing font info.
 
 ```csharp
 public Font font { get; set; }

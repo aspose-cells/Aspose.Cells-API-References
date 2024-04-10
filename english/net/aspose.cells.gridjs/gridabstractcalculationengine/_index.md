@@ -40,9 +40,9 @@ public class MyEngine : GridAbstractCalculationEngine
             for (int i = 0; i < count; i++)
             {
                 object pv = data.GetParamValue(i);
-                if (pv is ReferredArea)
+                if (pv is GridReferredArea)
                 {
-                    ReferredArea ra = (ReferredArea)pv;
+                    GridReferredArea ra = (GridReferredArea)pv;
                     pv = ra.GetValue(0, 0);
                 }
                 //process the parameter here

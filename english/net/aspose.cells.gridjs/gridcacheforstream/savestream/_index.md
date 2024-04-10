@@ -10,7 +10,7 @@ url: /net/aspose.cells.gridjs/gridcacheforstream/savestream/
 Implements this method to save cache,save the stream to the cache with the key uid.
 
 ```csharp
-public virtual void SaveStream(Stream s, string uid)
+public abstract void SaveStream(Stream s, string uid)
 ```
 
 ### See Also

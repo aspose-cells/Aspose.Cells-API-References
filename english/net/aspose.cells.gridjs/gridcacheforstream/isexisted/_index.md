@@ -10,7 +10,7 @@ url: /net/aspose.cells.gridjs/gridcacheforstream/isexisted/
 Checks whether the cache with uid is existed
 
 ```csharp
-public virtual bool IsExisted(string uid)
+public abstract bool IsExisted(string uid)
 ```
 
 | Parameter | Type | Description |

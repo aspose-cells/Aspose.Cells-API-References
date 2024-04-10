@@ -60,6 +60,7 @@ The **Aspose.Cells.GridDesktop.Data** namespace contains classes of GridWorkbook
 | [GridCellValueFormatStrategy](./gridcellvalueformatstrategy/) | Specifies how to apply style for the value of the cell. |
 | [GridEmfRenderSetting](./gridemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GridFilterOperatorType](./gridfilteroperatortype/) | Custom Filter operator type. |
+| [GridFontUnderlineType](./gridfontunderlinetype/) | Enumerates the font underline types. |
 | [GridImageType](./gridimagetype/) | Specifies the type (format) of an image. |
 | [GridlineType](./gridlinetype/) | Enumerates grid line Type. |
 | [GridLoadDataFilterOptions](./gridloaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. |
