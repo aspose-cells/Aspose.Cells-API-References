@@ -4,7 +4,7 @@ linktitle: LoadDataFilterOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadDataFilterOptions enum. Represents the options to filter data when loading workbook from template in C++.'
 type: docs
-weight: 21800
+weight: 22200
 url: /cpp/aspose.cells/loaddatafilteroptions/
 ---
 ## LoadDataFilterOptions enum

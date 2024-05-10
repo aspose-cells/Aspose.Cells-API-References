@@ -4,7 +4,7 @@ linktitle: SetBuildVersion
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetBuildVersion method. Specifies the incremental public release of the application in C++.'
 type: docs
-weight: 10400
+weight: 10500
 url: /cpp/aspose.cells/workbooksettings/setbuildversion/
 ---
 ## WorkbookSettings::SetBuildVersion(const U16String\&) method

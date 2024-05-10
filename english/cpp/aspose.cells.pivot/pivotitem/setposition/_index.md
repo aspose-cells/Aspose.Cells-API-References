@@ -4,7 +4,7 @@ linktitle: SetPosition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::SetPosition method. Specifying the position index in all the PivotItems,not the PivotItems under the same parent node in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.pivot/pivotitem/setposition/
 ---
 ## PivotItem::SetPosition method

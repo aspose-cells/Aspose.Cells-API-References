@@ -4,7 +4,7 @@ linktitle: DynamicFilterType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DynamicFilterType enum. Dynamic filter type in C++.'
 type: docs
-weight: 19500
+weight: 19900
 url: /cpp/aspose.cells/dynamicfiltertype/
 ---
 ## DynamicFilterType enum

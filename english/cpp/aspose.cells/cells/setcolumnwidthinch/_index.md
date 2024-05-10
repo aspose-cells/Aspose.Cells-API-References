@@ -4,7 +4,7 @@ linktitle: SetColumnWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetColumnWidthInch method. Sets column width in unit of inches in normal view in C++.'
 type: docs
-weight: 6800
+weight: 6900
 url: /cpp/aspose.cells/cells/setcolumnwidthinch/
 ---
 ## Cells::SetColumnWidthInch method

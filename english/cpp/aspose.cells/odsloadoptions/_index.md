@@ -4,7 +4,7 @@ linktitle: OdsLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OdsLoadOptions class. Represents the options of loading ods file in C++.'
 type: docs
-weight: 10400
+weight: 10600
 url: /cpp/aspose.cells/odsloadoptions/
 ---
 ## OdsLoadOptions class

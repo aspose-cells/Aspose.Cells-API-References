@@ -4,7 +4,7 @@ linktitle: GetVerticalAlignment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DefaultStyleSettings::GetVerticalAlignment method. Gets/Sets the default value for vertical alignment in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells/defaultstylesettings/getverticalalignment/
 ---
 ## DefaultStyleSettings::GetVerticalAlignment method

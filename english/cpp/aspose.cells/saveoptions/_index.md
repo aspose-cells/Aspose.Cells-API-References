@@ -4,7 +4,7 @@ linktitle: SaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SaveOptions class. Represents all save options in C++.'
 type: docs
-weight: 12600
+weight: 12800
 url: /cpp/aspose.cells/saveoptions/
 ---
 ## SaveOptions class

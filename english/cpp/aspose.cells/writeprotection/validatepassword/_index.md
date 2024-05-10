@@ -4,7 +4,7 @@ linktitle: ValidatePassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WriteProtection::ValidatePassword method. Returns true if the specified password is the same as the write-protection password the file was protected with in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells/writeprotection/validatepassword/
 ---
 ## WriteProtection::ValidatePassword(const U16String\&) method

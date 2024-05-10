@@ -4,7 +4,7 @@ linktitle: GetRowHeightInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetRowHeightInch method. Gets the height of a specified row in unit of inches in C++.'
 type: docs
-weight: 6500
+weight: 6600
 url: /cpp/aspose.cells/cells/getrowheightinch/
 ---
 ## Cells::GetRowHeightInch method

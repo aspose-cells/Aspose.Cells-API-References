@@ -4,7 +4,7 @@ linktitle: GetValidations
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetValidations method. Gets the data validation setting collection in the worksheet in C++.'
 type: docs
-weight: 8300
+weight: 8400
 url: /cpp/aspose.cells/worksheet/getvalidations/
 ---
 ## Worksheet::GetValidations method

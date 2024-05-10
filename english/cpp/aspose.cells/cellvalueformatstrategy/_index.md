@@ -4,7 +4,7 @@ linktitle: CellValueFormatStrategy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellValueFormatStrategy enum. Specifies how to apply style for the value of the cell in C++.'
 type: docs
-weight: 18000
+weight: 18400
 url: /cpp/aspose.cells/cellvalueformatstrategy/
 ---
 ## CellValueFormatStrategy enum

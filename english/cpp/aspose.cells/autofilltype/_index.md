@@ -4,7 +4,7 @@ linktitle: AutoFillType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFillType enum. Represents the auto fill type in C++.'
 type: docs
-weight: 17100
+weight: 17400
 url: /cpp/aspose.cells/autofilltype/
 ---
 ## AutoFillType enum

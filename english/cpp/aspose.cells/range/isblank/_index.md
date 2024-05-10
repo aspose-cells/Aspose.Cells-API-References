@@ -4,7 +4,7 @@ linktitle: IsBlank
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::IsBlank method. Indicates whether the range contains values in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells/range/isblank/
 ---
 ## Range::IsBlank method

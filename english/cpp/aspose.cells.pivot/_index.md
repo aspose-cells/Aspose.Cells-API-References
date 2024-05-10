@@ -35,6 +35,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotTableCollection](./pivottablecollection/) | Represents the collection of all the [PivotTable](./pivottable/) objects on the specified worksheet. |
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the [PivotTable](./pivottable/). |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to [PivotTable](./pivottable/). |
+| [PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
 ## Enums
 
 | Enum | Description |
@@ -53,3 +54,4 @@ url: /cpp/aspose.cells.pivot/
 | [PivotTableAutoFormatType](./pivottableautoformattype/) | Represents [PivotTable](./pivottable/) auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a [PivotTable](./pivottable/) during a structured selection. These constants can be combined to select multiple types. |
 | [PivotTableStyleType](./pivottablestyletype/) | Represents the pivot table style type. |
+| [ReserveMissingPivotItemType](./reservemissingpivotitemtype/) | Represents how to keep the missing pivot items. |

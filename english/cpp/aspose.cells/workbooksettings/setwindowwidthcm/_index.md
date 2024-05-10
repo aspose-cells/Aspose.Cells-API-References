@@ -4,7 +4,7 @@ linktitle: SetWindowWidthCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetWindowWidthCM method. The width of the window, in unit of centimeter in C++.'
 type: docs
-weight: 8000
+weight: 8100
 url: /cpp/aspose.cells/workbooksettings/setwindowwidthcm/
 ---
 ## WorkbookSettings::SetWindowWidthCM method

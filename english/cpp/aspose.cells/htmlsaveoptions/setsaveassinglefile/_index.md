@@ -4,7 +4,7 @@ linktitle: SetSaveAsSingleFile
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetSaveAsSingleFile method. Indicates whether save the html as single file. The default value is false in C++.'
 type: docs
-weight: 5400
+weight: 5600
 url: /cpp/aspose.cells/htmlsaveoptions/setsaveassinglefile/
 ---
 ## HtmlSaveOptions::SetSaveAsSingleFile method

@@ -4,7 +4,7 @@ linktitle: GetStartRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea::GetStartRow method. The start row of the area in C++.'
 type: docs
-weight: 1300
+weight: 1500
 url: /cpp/aspose.cells/referredarea/getstartrow/
 ---
 ## ReferredArea::GetStartRow method

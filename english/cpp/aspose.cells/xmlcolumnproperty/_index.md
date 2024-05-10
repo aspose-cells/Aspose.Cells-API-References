@@ -4,7 +4,7 @@ linktitle: XmlColumnProperty
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlColumnProperty class. Represents Xml Data Binding information in C++.'
 type: docs
-weight: 16300
+weight: 16600
 url: /cpp/aspose.cells/xmlcolumnproperty/
 ---
 ## XmlColumnProperty class

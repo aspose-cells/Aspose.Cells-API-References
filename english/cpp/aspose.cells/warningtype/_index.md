@@ -4,7 +4,7 @@ linktitle: WarningType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WarningType enum. WaringType in C++.'
 type: docs
-weight: 26600
+weight: 27000
 url: /cpp/aspose.cells/warningtype/
 ---
 ## WarningType enum

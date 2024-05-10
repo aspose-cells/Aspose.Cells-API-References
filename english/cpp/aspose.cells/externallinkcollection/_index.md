@@ -4,7 +4,7 @@ linktitle: ExternalLinkCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExternalLinkCollection class. Represents external links collection in a workbook in C++.'
 type: docs
-weight: 5500
+weight: 5700
 url: /cpp/aspose.cells/externallinkcollection/
 ---
 ## ExternalLinkCollection class

@@ -4,7 +4,7 @@ linktitle: IsIECompatible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::IsIECompatible method. Indicating whether the output HTML is compatible with IE browser. The defalut value is false in C++.'
 type: docs
-weight: 10700
+weight: 10900
 url: /cpp/aspose.cells/htmlsaveoptions/isiecompatible/
 ---
 ## HtmlSaveOptions::IsIECompatible method

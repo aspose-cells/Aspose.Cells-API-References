@@ -4,7 +4,7 @@ linktitle: PptxSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PptxSaveOptions class. Represents the pptx save options in C++.'
 type: docs
-weight: 11300
+weight: 11500
 url: /cpp/aspose.cells/pptxsaveoptions/
 ---
 ## PptxSaveOptions class

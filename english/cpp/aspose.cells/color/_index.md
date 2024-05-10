@@ -4,7 +4,7 @@ linktitle: Color
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Color struct. Represents an ARGB (alpha, red, green, blue) color in C++.'
 type: docs
-weight: 26800
+weight: 27200
 url: /cpp/aspose.cells/color/
 ---
 ## Color struct

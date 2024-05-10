@@ -4,7 +4,7 @@ linktitle: GetFilePathProvider
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetFilePathProvider method. Gets or sets the IFilePathProvider for exporting Worksheet to html separately in C++.'
 type: docs
-weight: 5000
+weight: 5200
 url: /cpp/aspose.cells/htmlsaveoptions/getfilepathprovider/
 ---
 ## HtmlSaveOptions::GetFilePathProvider method

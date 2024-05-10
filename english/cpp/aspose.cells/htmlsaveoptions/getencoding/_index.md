@@ -4,7 +4,7 @@ linktitle: GetEncoding
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetEncoding method. If not set,use Encoding.UTF8 as default enconding type in C++.'
 type: docs
-weight: 4800
+weight: 5000
 url: /cpp/aspose.cells/htmlsaveoptions/getencoding/
 ---
 ## HtmlSaveOptions::GetEncoding method

@@ -4,7 +4,7 @@ linktitle: XmlMapCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlMapCollection class. A collection of XmlMap objects that represent XmlMap information in C++.'
 type: docs
-weight: 16700
+weight: 17000
 url: /cpp/aspose.cells/xmlmapcollection/
 ---
 ## XmlMapCollection class

@@ -4,7 +4,7 @@ linktitle: Cells
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells class. Encapsulates a collection of cell relevant objects, such as Cell, Row, ...etc in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells/cells/
 ---
 ## Cells class
@@ -74,12 +74,13 @@ class Cells
 | [Get(const char16_t* cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
 | [GetCell(int32_t row, int32_t column)](./getcell/) |  **(Deprecated)** Gets the [Cell](../cell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle(int32_t row, int32_t column)](./getcellstyle/) | Get the style of given cell. |
-| [GetColumnOriginalWidthPoint(int32_t column)](./getcolumnoriginalwidthpoint/) | Gets original column's height in unit of point if the column is hidden. |
+| [GetColumnOriginalWidthPoint(int32_t column)](./getcolumnoriginalwidthpoint/) |  **(Deprecated)** Gets original column's height in unit of point if the column is hidden. |
 | [GetColumns()](./getcolumns/) | Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet. |
+| [GetColumnWidth(int32_t column, bool isOriginal, CellsUnitType unitType)](./getcolumnwidth/) | Gets the column width. |
 | [GetColumnWidth(int32_t column)](./getcolumnwidth/) | Gets the width(in unit of characters) of the specified column in normal view. |
-| [GetColumnWidthInch(int32_t column)](./getcolumnwidthinch/) | Gets the width of the specified column in normal view, in units of inches. |
+| [GetColumnWidthInch(int32_t column)](./getcolumnwidthinch/) |  **(Deprecated)** Gets the width of the specified column in normal view, in units of inches. |
 | [GetColumnWidthPixel(int32_t column)](./getcolumnwidthpixel/) | Gets the width of the specified column in normal view, in units of pixel. |
-| [GetColumnWidthPixel(int32_t column, bool original)](./getcolumnwidthpixel/) | Gets the width of the specified column in normal view, in units of pixel. |
+| [GetColumnWidthPixel(int32_t column, bool original)](./getcolumnwidthpixel/) |  **(Deprecated)** Gets the width of the specified column in normal view, in units of pixel. |
 | [GetCount()](./getcount/) | Gets the total count of instantiated [Cell](../cell/) objects. |
 | [GetCountLarge()](./getcountlarge/) | Gets the total count of instantiated [Cell](../cell/) objects. |
 | [GetDependents(bool isAll, int32_t row, int32_t column)](./getdependents/) | Get all cells which refer to the specific cell. |
@@ -108,10 +109,11 @@ class Cells
 | [GetPreserveString()](./getpreservestring/) | Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
 | [GetRanges()](./getranges/) | Gets the collection of [Range](../range/) objects created at run time. |
 | [GetRow(int32_t row)](./getrow/) |  **(Deprecated)** Gets the [Row](../row/) element at the specified cell row index. |
+| [GetRowHeight(int32_t row, bool isOriginal, CellsUnitType unitType)](./getrowheight/) | Gets original row's height. |
 | [GetRowHeight(int32_t row)](./getrowheight/) | Gets the height of a specified row, in unit of points. |
 | [GetRowHeightInch(int32_t row)](./getrowheightinch/) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel(int32_t row)](./getrowheightpixel/) | Gets the height of a specified row in unit of pixel. |
-| [GetRowOriginalHeightPoint(int32_t row)](./getroworiginalheightpoint/) | Gets original row's height in unit of point if the row is hidden. |
+| [GetRowOriginalHeightPoint(int32_t row)](./getroworiginalheightpoint/) |  **(Deprecated)** Gets original row's height in unit of point if the row is hidden. |
 | [GetRows()](./getrows/) | Gets the collection of [Row](../row/) objects that represents the individual rows in this worksheet. |
 | [GetStandardHeight()](./getstandardheight/) | Gets or sets the default row height in this worksheet, in unit of points. |
 | [GetStandardHeightInch()](./getstandardheightinch/) | Gets or sets the default row height in this worksheet, in unit of inches. |
@@ -122,7 +124,6 @@ class Cells
 | [GetStyle()](./getstyle/) | Gets and sets the default style of the worksheet. |
 | [GetViewColumnWidthPixel(int32_t column)](./getviewcolumnwidthpixel/) | Get the width in different view type. |
 | [GetViewRowHeight(int32_t row)](./getviewrowheight/) | Gets the height of a specified row. |
-| [GetViewRowHeightInch(int32_t row)](./getviewrowheightinch/) | Gets the height of a specified row in unit of inches. |
 | [GroupColumns(int32_t firstIndex, int32_t lastIndex)](./groupcolumns/) | Groups columns. |
 | [GroupColumns(int32_t firstIndex, int32_t lastIndex, bool isHidden)](./groupcolumns/) | Groups columns. |
 | [GroupRows(int32_t firstIndex, int32_t lastIndex, bool isHidden)](./grouprows/) | Groups rows. |

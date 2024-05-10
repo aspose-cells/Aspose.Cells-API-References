@@ -4,7 +4,7 @@ linktitle: ScenarioInputCellCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ScenarioInputCellCollection class. Represents the list of the scenario''s input cells in C++.'
 type: docs
-weight: 13000
+weight: 13200
 url: /cpp/aspose.cells/scenarioinputcellcollection/
 ---
 ## ScenarioInputCellCollection class

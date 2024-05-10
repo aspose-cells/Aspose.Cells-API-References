@@ -4,7 +4,7 @@ linktitle: SetIsExportComments
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetIsExportComments method. Indicates if exporting comments when saving file to html, the default value is false in C++.'
 type: docs
-weight: 1900
+weight: 2100
 url: /cpp/aspose.cells/htmlsaveoptions/setisexportcomments/
 ---
 ## HtmlSaveOptions::SetIsExportComments method

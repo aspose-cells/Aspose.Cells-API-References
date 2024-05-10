@@ -4,7 +4,7 @@ linktitle: Vector
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vector class. Vector template class. The elements are stored contiguously in C++.'
 type: docs
-weight: 15200
+weight: 15500
 url: /cpp/aspose.cells/vector/
 ---
 ## Vector class

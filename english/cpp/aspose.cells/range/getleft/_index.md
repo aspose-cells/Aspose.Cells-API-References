@@ -4,7 +4,7 @@ linktitle: GetLeft
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetLeft method. Gets the distance, in points, from the left edge of column A to the left edge of the range in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells/range/getleft/
 ---
 ## Range::GetLeft method

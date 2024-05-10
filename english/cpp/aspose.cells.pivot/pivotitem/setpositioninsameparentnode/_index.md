@@ -4,7 +4,7 @@ linktitle: SetPositionInSameParentNode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::SetPositionInSameParentNode method. Specifying the position index in the PivotItems under the same parent node in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells.pivot/pivotitem/setpositioninsameparentnode/
 ---
 ## PivotItem::SetPositionInSameParentNode method

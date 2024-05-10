@@ -4,7 +4,7 @@ linktitle: MoveTo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::MoveTo method. Move the current range to the dest range in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells/range/moveto/
 ---
 ## Range::MoveTo method

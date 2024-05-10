@@ -4,7 +4,7 @@ linktitle: SettableChartGlobalizationSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SettableChartGlobalizationSettings class. Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts in C++.'
 type: docs
-weight: 13100
+weight: 13300
 url: /cpp/aspose.cells/settablechartglobalizationsettings/
 ---
 ## SettableChartGlobalizationSettings class

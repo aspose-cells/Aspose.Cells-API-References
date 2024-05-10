@@ -4,7 +4,7 @@ linktitle: Cell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell class. Encapsulates the object that represents a single Workbook cell in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells/cell/
 ---
 ## Cell class

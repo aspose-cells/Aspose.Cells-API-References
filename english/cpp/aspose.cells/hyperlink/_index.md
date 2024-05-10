@@ -4,7 +4,7 @@ linktitle: Hyperlink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Hyperlink class. Encapsulates the object that represents a hyperlink in C++.'
 type: docs
-weight: 7900
+weight: 8100
 url: /cpp/aspose.cells/hyperlink/
 ---
 ## Hyperlink class

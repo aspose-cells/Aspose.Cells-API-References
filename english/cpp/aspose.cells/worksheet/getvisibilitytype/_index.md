@@ -4,7 +4,7 @@ linktitle: GetVisibilityType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetVisibilityType method. Indicates the visible state for this sheet in C++.'
 type: docs
-weight: 6000
+weight: 6100
 url: /cpp/aspose.cells/worksheet/getvisibilitytype/
 ---
 ## Worksheet::GetVisibilityType method

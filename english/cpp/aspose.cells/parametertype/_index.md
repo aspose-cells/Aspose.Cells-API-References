@@ -4,7 +4,7 @@ linktitle: ParameterType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ParameterType enum. Represents all parameters'' type or return value type of function in C++.'
 type: docs
-weight: 23300
+weight: 23700
 url: /cpp/aspose.cells/parametertype/
 ---
 ## ParameterType enum

@@ -4,7 +4,7 @@ linktitle: FilterColumnCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FilterColumnCollection class. A collection of Filter objects that represents all the filters in an autofiltered range in C++.'
 type: docs
-weight: 6000
+weight: 6200
 url: /cpp/aspose.cells/filtercolumncollection/
 ---
 ## FilterColumnCollection class

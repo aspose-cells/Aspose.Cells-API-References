@@ -4,7 +4,7 @@ linktitle: GetWindowHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetWindowHeight method. The height of the window, in unit of point in C++.'
 type: docs
-weight: 8100
+weight: 8200
 url: /cpp/aspose.cells/workbooksettings/getwindowheight/
 ---
 ## WorkbookSettings::GetWindowHeight method

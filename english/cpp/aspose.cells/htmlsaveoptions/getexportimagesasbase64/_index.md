@@ -4,7 +4,7 @@ linktitle: GetExportImagesAsBase64
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetExportImagesAsBase64 method. Specifies whether images are saved in Base64 format to HTML, MHTML or EPUB in C++.'
 type: docs
-weight: 3200
+weight: 3400
 url: /cpp/aspose.cells/htmlsaveoptions/getexportimagesasbase64/
 ---
 ## HtmlSaveOptions::GetExportImagesAsBase64 method

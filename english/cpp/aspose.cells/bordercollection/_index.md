@@ -4,7 +4,7 @@ linktitle: BorderCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderCollection class. Encapsulates a collection of Border objects in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/bordercollection/
 ---
 ## BorderCollection class

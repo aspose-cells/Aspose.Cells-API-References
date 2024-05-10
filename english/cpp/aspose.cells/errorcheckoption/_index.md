@@ -4,7 +4,7 @@ linktitle: ErrorCheckOption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ErrorCheckOption class. Error check setting applied on certain ranges in C++.'
 type: docs
-weight: 5200
+weight: 5400
 url: /cpp/aspose.cells/errorcheckoption/
 ---
 ## ErrorCheckOption class

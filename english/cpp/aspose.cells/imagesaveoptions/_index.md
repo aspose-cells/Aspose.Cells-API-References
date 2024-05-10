@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ImageSaveOptions class. Represents image save options. For advanced usage, please use WorkbookRender or SheetRender in C++.'
 type: docs
-weight: 8400
+weight: 8600
 url: /cpp/aspose.cells/imagesaveoptions/
 ---
 ## ImageSaveOptions class

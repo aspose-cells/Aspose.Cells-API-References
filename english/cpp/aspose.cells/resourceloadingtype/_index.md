@@ -4,7 +4,7 @@ linktitle: ResourceLoadingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ResourceLoadingType enum. Represents how to loading the linked resource in C++.'
 type: docs
-weight: 24300
+weight: 24700
 url: /cpp/aspose.cells/resourceloadingtype/
 ---
 ## ResourceLoadingType enum

@@ -4,7 +4,7 @@ linktitle: SetCalculateFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetCalculateFormula method. Indicates whether to calculate formulas before saving html file in C++.'
 type: docs
-weight: 11200
+weight: 11400
 url: /cpp/aspose.cells/htmlsaveoptions/setcalculateformula/
 ---
 ## HtmlSaveOptions::SetCalculateFormula method

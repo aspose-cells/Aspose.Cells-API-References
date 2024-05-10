@@ -4,7 +4,7 @@ linktitle: GetRowCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetRowCount method. Gets the count of rows in the range in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells/range/getrowcount/
 ---
 ## Range::GetRowCount method

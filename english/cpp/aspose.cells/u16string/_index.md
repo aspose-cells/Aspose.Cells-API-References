@@ -4,7 +4,7 @@ linktitle: U16String
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::U16String class. Represents the char16_t array class and ends with u''\0'' in C++.'
 type: docs
-weight: 14800
+weight: 15100
 url: /cpp/aspose.cells/u16string/
 ---
 ## U16String class

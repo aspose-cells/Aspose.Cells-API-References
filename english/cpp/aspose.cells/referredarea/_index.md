@@ -4,7 +4,7 @@ linktitle: ReferredArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea class. Represents a referred area by the formula in C++.'
 type: docs
-weight: 12100
+weight: 12300
 url: /cpp/aspose.cells/referredarea/
 ---
 ## ReferredArea class
@@ -27,13 +27,15 @@ class ReferredArea
 | [GetStartColumn()](./getstartcolumn/) | The start column of the area. |
 | [GetStartRow()](./getstartrow/) | The start row of the area. |
 | [IsArea()](./isarea/) | Indicates whether this is an area. |
+| [IsEntireColumn()](./isentirecolumn/) | Indicates whether this area contains all rows(entire column). |
+| [IsEntireRow()](./isentirerow/) | Indicates whether this area contains all columns(entire row). |
 | [IsExternalLink()](./isexternallink/) | Indicates whether this is an external link. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ReferredArea\& src)](./operator_asm/) | operator= |
 | [ReferredArea(ReferredArea_Impl* impl)](./referredarea/) | Constructs from an implementation object. |
 | [ReferredArea(const ReferredArea\& src)](./referredarea/) | Copy constructor. |
-| [ToString()](./tostring/) | Returns the simple string representation of this area. |
+| [ToString()](./tostring/) | Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3". |
 | [~ReferredArea()](./~referredarea/) | Destructor. |
 ## Fields
 

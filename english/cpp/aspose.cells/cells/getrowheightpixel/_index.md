@@ -4,7 +4,7 @@ linktitle: GetRowHeightPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetRowHeightPixel method. Gets the height of a specified row in unit of pixel in C++.'
 type: docs
-weight: 6400
+weight: 6700
 url: /cpp/aspose.cells/cells/getrowheightpixel/
 ---
 ## Cells::GetRowHeightPixel method

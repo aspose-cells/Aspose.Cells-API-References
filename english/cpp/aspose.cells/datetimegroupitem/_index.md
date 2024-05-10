@@ -4,7 +4,7 @@ linktitle: DateTimeGroupItem
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem class. Represents the datetime''s group setting in C++.'
 type: docs
-weight: 4300
+weight: 4400
 url: /cpp/aspose.cells/datetimegroupitem/
 ---
 ## DateTimeGroupItem class

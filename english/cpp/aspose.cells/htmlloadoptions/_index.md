@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlLoadOptions class. Represents options when importing a html file in C++.'
 type: docs
-weight: 7500
+weight: 7700
 url: /cpp/aspose.cells/htmlloadoptions/
 ---
 ## HtmlLoadOptions class

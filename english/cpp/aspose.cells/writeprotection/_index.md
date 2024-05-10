@@ -4,7 +4,7 @@ linktitle: WriteProtection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WriteProtection class. Specifies write protection settings for a workbook in C++.'
 type: docs
-weight: 16000
+weight: 16300
 url: /cpp/aspose.cells/writeprotection/
 ---
 ## WriteProtection class
@@ -21,6 +21,7 @@ class WriteProtection
 | Method | Description |
 | --- | --- |
 | [GetAuthor()](./getauthor/) | Gets and sets the author. |
+| [GetPassword()](./getpassword/) | Sets the protected password to modify the file. |
 | [GetRecommendReadOnly()](./getrecommendreadonly/) | Indicates if the Read Only Recommended option is selected. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsWriteProtected()](./iswriteprotected/) | Indicates whether this workbook is write protected. |

@@ -4,7 +4,7 @@ linktitle: SetCompliance
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetCompliance method. Specifies the OOXML version for the output document. The default value is Ecma376_2006 in C++.'
 type: docs
-weight: 11400
+weight: 11500
 url: /cpp/aspose.cells/workbooksettings/setcompliance/
 ---
 ## WorkbookSettings::SetCompliance method

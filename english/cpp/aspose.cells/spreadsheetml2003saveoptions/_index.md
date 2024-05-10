@@ -4,7 +4,7 @@ linktitle: SpreadsheetML2003SaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SpreadsheetML2003SaveOptions class. Represents the options for saving Excel 2003 spreadml file in C++.'
 type: docs
-weight: 13400
+weight: 13600
 url: /cpp/aspose.cells/spreadsheetml2003saveoptions/
 ---
 ## SpreadsheetML2003SaveOptions class

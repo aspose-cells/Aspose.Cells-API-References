@@ -2,7 +2,7 @@
 title: Aspose::Cells::PdfSaveOptions::GetEmbedAttachments method
 linktitle: GetEmbedAttachments
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::PdfSaveOptions::GetEmbedAttachments method. Indicates whether to embed attchment for Ole objects in Excel in C++.'
+description: 'Aspose::Cells::PdfSaveOptions::GetEmbedAttachments method. Indicates whether to embed attachment for Ole objects in Excel in C++.'
 type: docs
 weight: 3500
 url: /cpp/aspose.cells/pdfsaveoptions/getembedattachments/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/pdfsaveoptions/getembedattachments/
 ## PdfSaveOptions::GetEmbedAttachments method
 
 
-Indicates whether to embed attchment for Ole objects in Excel.
+Indicates whether to embed attachment for Ole objects in Excel.
 
 ```cpp
 bool Aspose::Cells::PdfSaveOptions::GetEmbedAttachments()

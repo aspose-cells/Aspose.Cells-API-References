@@ -4,7 +4,7 @@ linktitle: SetExportHiddenWorksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportHiddenWorksheet method. Indicating if exporting the hidden worksheet content.The default value is true in C++.'
 type: docs
-weight: 6200
+weight: 6400
 url: /cpp/aspose.cells/htmlsaveoptions/setexporthiddenworksheet/
 ---
 ## HtmlSaveOptions::SetExportHiddenWorksheet method

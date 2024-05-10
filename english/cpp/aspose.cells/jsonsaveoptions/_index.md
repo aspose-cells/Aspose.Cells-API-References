@@ -4,7 +4,7 @@ linktitle: JsonSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::JsonSaveOptions class. Represents the options of saving the workbook as a json file in C++.'
 type: docs
-weight: 9200
+weight: 9400
 url: /cpp/aspose.cells/jsonsaveoptions/
 ---
 ## JsonSaveOptions class

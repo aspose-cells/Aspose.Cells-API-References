@@ -4,7 +4,7 @@ linktitle: OperatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OperatorType enum. Represents the operator type of conditional format and data validation in C++.'
 type: docs
-weight: 22800
+weight: 23200
 url: /cpp/aspose.cells/operatortype/
 ---
 ## OperatorType enum

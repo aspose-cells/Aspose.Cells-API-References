@@ -4,7 +4,7 @@ linktitle: FormatConditionCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FormatConditionCollection class. Represents conditional formatting. The FormatConditions can contain up to three conditional formats in C++.'
 type: docs
-weight: 6800
+weight: 7000
 url: /cpp/aspose.cells/formatconditioncollection/
 ---
 ## FormatConditionCollection class

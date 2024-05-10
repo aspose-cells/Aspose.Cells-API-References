@@ -4,7 +4,7 @@ linktitle: AutoFitterOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFitterOptions class. Represents all auto fitter options in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/autofitteroptions/
 ---
 ## AutoFitterOptions class

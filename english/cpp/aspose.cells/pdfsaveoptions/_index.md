@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PdfSaveOptions class. Represents the options for saving pdf file in C++.'
 type: docs
-weight: 11300
+weight: 11400
 url: /cpp/aspose.cells/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -35,7 +35,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetDefaultFont()](../paginatedsaveoptions/getdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [GetDisplayDocTitle()](./getdisplaydoctitle/) | Indicates whether the window's title bar should display the document title. |
 | [GetDrawObjectEventHandler()](../paginatedsaveoptions/getdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
-| [GetEmbedAttachments()](./getembedattachments/) | Indicates whether to embed attchment for Ole objects in Excel. |
+| [GetEmbedAttachments()](./getembedattachments/) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [GetEmbedStandardWindowsFonts()](./getembedstandardwindowsfonts/) | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
 | [GetEmfRenderSetting()](../paginatedsaveoptions/getemfrendersetting/) | Setting for rendering Emf metafile. |
 | [GetExportDocumentStructure()](./getexportdocumentstructure/) | Indicates whether to export document structure. |
@@ -95,7 +95,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetDefaultFont(const char16_t* value)](../paginatedsaveoptions/setdefaultfont/) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. Set the DefaultFont such as MingLiu or MS Gothic to show these characters. If this property is not set, [Aspose.Cells](../) will use system default font to show these unicode characters. |
 | [SetDisplayDocTitle(bool value)](./setdisplaydoctitle/) | Indicates whether the window's title bar should display the document title. |
 | [SetDrawObjectEventHandler(DrawObjectEventHandler* value)](../paginatedsaveoptions/setdrawobjecteventhandler/) | Implements this interface to get DrawObject and Bound when rendering. |
-| [SetEmbedAttachments(bool value)](./setembedattachments/) | Indicates whether to embed attchment for Ole objects in Excel. |
+| [SetEmbedAttachments(bool value)](./setembedattachments/) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [SetEmbedStandardWindowsFonts(bool value)](./setembedstandardwindowsfonts/) | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
 | [SetEmfRenderSetting(EmfRenderSetting value)](../paginatedsaveoptions/setemfrendersetting/) | Setting for rendering Emf metafile. |
 | [SetExportDocumentStructure(bool value)](./setexportdocumentstructure/) | Indicates whether to export document structure. |

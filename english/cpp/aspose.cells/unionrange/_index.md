@@ -4,7 +4,7 @@ linktitle: UnionRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::UnionRange class. Represents union range in C++.'
 type: docs
-weight: 14900
+weight: 15200
 url: /cpp/aspose.cells/unionrange/
 ---
 ## UnionRange class

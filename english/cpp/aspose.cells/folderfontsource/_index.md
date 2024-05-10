@@ -4,7 +4,7 @@ linktitle: FolderFontSource
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FolderFontSource class. Represents the folder that contains TrueType font files in C++.'
 type: docs
-weight: 6200
+weight: 6400
 url: /cpp/aspose.cells/folderfontsource/
 ---
 ## FolderFontSource class

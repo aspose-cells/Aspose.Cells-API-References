@@ -4,7 +4,7 @@ linktitle: CopyValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::CopyValue method. Copies cell value from a source range in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells/range/copyvalue/
 ---
 ## Range::CopyValue method

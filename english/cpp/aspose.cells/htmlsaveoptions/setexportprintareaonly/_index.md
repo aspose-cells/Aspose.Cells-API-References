@@ -4,7 +4,7 @@ linktitle: SetExportPrintAreaOnly
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportPrintAreaOnly method. Indicates if only exporting the print area to html file. The default value is false in C++.'
 type: docs
-weight: 3700
+weight: 3900
 url: /cpp/aspose.cells/htmlsaveoptions/setexportprintareaonly/
 ---
 ## HtmlSaveOptions::SetExportPrintAreaOnly method

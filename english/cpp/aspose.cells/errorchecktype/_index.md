@@ -4,7 +4,7 @@ linktitle: ErrorCheckType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ErrorCheckType enum. Represents all error check type in C++.'
 type: docs
-weight: 19900
+weight: 20300
 url: /cpp/aspose.cells/errorchecktype/
 ---
 ## ErrorCheckType enum

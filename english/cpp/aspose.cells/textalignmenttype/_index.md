@@ -4,7 +4,7 @@ linktitle: TextAlignmentType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TextAlignmentType enum. Enumerates text alignment types in C++.'
 type: docs
-weight: 25100
+weight: 25500
 url: /cpp/aspose.cells/textalignmenttype/
 ---
 ## TextAlignmentType enum

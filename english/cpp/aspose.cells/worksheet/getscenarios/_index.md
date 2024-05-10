@@ -4,7 +4,7 @@ linktitle: GetScenarios
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetScenarios method. Gets the collection of Scenario in C++.'
 type: docs
-weight: 11300
+weight: 11400
 url: /cpp/aspose.cells/worksheet/getscenarios/
 ---
 ## Worksheet::GetScenarios method

@@ -4,7 +4,7 @@ linktitle: LoadFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LoadFilter class. Represents the filter that provides options for loading data when loading workbook from template in C++.'
 type: docs
-weight: 9600
+weight: 9800
 url: /cpp/aspose.cells/loadfilter/
 ---
 ## LoadFilter class
@@ -20,7 +20,7 @@ class LoadFilter
 
 | Method | Description |
 | --- | --- |
-| virtual [GetLoadDataFilterOptions()](./getloaddatafilteroptions/) | Gets the filter options to denote what data should be loaded. |
+| [GetLoadDataFilterOptions()](./getloaddatafilteroptions/) | Gets the filter options to denote what data should be loaded. |
 | virtual [GetSheetsInLoadingOrder()](./getsheetsinloadingorder/) | Specifies the sheets(indices) and order to be loaded. Default is null, that denotes to load all sheets in the default order in template file. If not null and some sheet's index is not in the returned array, then the sheet will not be loaded. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [LoadFilter()](./loadfilter/) | Constructs one [LoadFilter](./) with default filter options [LoadDataFilterOptions::All](../loaddatafilteroptions/). |
@@ -28,7 +28,7 @@ class LoadFilter
 | [LoadFilter(const LoadFilter\& src)](./loadfilter/) |  |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const LoadFilter\& src)](./operator_asm/) |  |
-| virtual [SetLoadDataFilterOptions(LoadDataFilterOptions value)](./setloaddatafilteroptions/) | Sets the filter options to denote what data should be loaded. |
+| [SetLoadDataFilterOptions(LoadDataFilterOptions value)](./setloaddatafilteroptions/) | Sets the filter options to denote what data should be loaded. |
 | virtual [StartSheet(Worksheet\& sheet)](./startsheet/) | Prepares filter options before loading given worksheet. User's implementation of [LoadFilter](./) can change the LoadDataFilterOptions here to denote how to load data for this worksheet. |
 | [~LoadFilter()](./~loadfilter/) | Destructor. |
 ## Fields

@@ -4,7 +4,7 @@ linktitle: ExceptionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ExceptionType enum. Represents custom exception type code in C++.'
 type: docs
-weight: 20000
+weight: 20400
 url: /cpp/aspose.cells/exceptiontype/
 ---
 ## ExceptionType enum

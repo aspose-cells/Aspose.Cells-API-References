@@ -4,7 +4,7 @@ linktitle: IsArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea::IsArea method. Indicates whether this is an area in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells/referredarea/isarea/
 ---
 ## ReferredArea::IsArea method

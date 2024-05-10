@@ -4,7 +4,7 @@ linktitle: AutoFitWrappedTextType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFitWrappedTextType enum. Represents the type of auto fitting wrapped text in C++.'
 type: docs
-weight: 17300
+weight: 17600
 url: /cpp/aspose.cells/autofitwrappedtexttype/
 ---
 ## AutoFitWrappedTextType enum

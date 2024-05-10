@@ -4,7 +4,7 @@ linktitle: GetTableCssId
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetTableCssId method. Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "" in C++.'
 type: docs
-weight: 6700
+weight: 6900
 url: /cpp/aspose.cells/htmlsaveoptions/gettablecssid/
 ---
 ## HtmlSaveOptions::GetTableCssId method

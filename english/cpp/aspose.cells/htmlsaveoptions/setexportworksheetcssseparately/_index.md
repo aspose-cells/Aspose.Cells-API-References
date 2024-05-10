@@ -4,7 +4,7 @@ linktitle: SetExportWorksheetCSSSeparately
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportWorksheetCSSSeparately method. Indicating whether export the worksheet css separately.The default value is false in C++.'
 type: docs
-weight: 7200
+weight: 7400
 url: /cpp/aspose.cells/htmlsaveoptions/setexportworksheetcssseparately/
 ---
 ## HtmlSaveOptions::SetExportWorksheetCSSSeparately method

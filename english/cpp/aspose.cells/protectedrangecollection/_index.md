@@ -4,7 +4,7 @@ linktitle: ProtectedRangeCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ProtectedRangeCollection class. Encapsulates a collection of ProtectedRange objects in C++.'
 type: docs
-weight: 11500
+weight: 11700
 url: /cpp/aspose.cells/protectedrangecollection/
 ---
 ## ProtectedRangeCollection class

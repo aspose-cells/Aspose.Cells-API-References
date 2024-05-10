@@ -4,7 +4,7 @@ linktitle: XpsSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XpsSaveOptions class. Represents the additional options when saving the file as the Xps in C++.'
 type: docs
-weight: 16900
+weight: 17200
 url: /cpp/aspose.cells/xpssaveoptions/
 ---
 ## XpsSaveOptions class

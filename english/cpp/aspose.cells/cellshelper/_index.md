@@ -4,7 +4,7 @@ linktitle: CellsHelper
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsHelper class. Provides helper functions in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells/cellshelper/
 ---
 ## CellsHelper class

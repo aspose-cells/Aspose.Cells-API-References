@@ -4,7 +4,7 @@ linktitle: SetViewType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetViewType method. Gets and sets the view type in C++.'
 type: docs
-weight: 9500
+weight: 9600
 url: /cpp/aspose.cells/worksheet/setviewtype/
 ---
 ## Worksheet::SetViewType method

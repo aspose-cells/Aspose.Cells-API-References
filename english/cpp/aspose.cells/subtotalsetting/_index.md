@@ -4,7 +4,7 @@ linktitle: SubtotalSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SubtotalSetting class. Represents the setting of the subtotal  in C++.'
 type: docs
-weight: 13700
+weight: 13900
 url: /cpp/aspose.cells/subtotalsetting/
 ---
 ## SubtotalSetting class

@@ -4,7 +4,7 @@ linktitle: SortOnType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SortOnType enum. Sorted value type in C++.'
 type: docs
-weight: 24700
+weight: 25100
 url: /cpp/aspose.cells/sortontype/
 ---
 ## SortOnType enum

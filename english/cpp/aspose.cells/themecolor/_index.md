@@ -4,7 +4,7 @@ linktitle: ThemeColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ThemeColor class. Represents a theme color in C++.'
 type: docs
-weight: 13800
+weight: 14100
 url: /cpp/aspose.cells/themecolor/
 ---
 ## ThemeColor class

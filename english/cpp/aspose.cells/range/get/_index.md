@@ -4,7 +4,7 @@ linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::Get method. Gets Cell object in this range in C++.'
 type: docs
-weight: 4400
+weight: 4600
 url: /cpp/aspose.cells/range/get/
 ---
 ## Range::Get method

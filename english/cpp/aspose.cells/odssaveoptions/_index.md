@@ -4,7 +4,7 @@ linktitle: OdsSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OdsSaveOptions class. Represents the options of saving ods file in C++.'
 type: docs
-weight: 10500
+weight: 10700
 url: /cpp/aspose.cells/odssaveoptions/
 ---
 ## OdsSaveOptions class

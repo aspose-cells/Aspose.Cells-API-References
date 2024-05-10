@@ -4,7 +4,7 @@ linktitle: PaginatedSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions class. Represents the options for pagination in C++.'
 type: docs
-weight: 10900
+weight: 11100
 url: /cpp/aspose.cells/paginatedsaveoptions/
 ---
 ## PaginatedSaveOptions class

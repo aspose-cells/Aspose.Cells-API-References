@@ -4,7 +4,7 @@ linktitle: GetSignificantDigits
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetSignificantDigits method. Gets and sets the number of significant digits. The default value is CellsHelper.SignificantDigits in C++.'
 type: docs
-weight: 8900
+weight: 9000
 url: /cpp/aspose.cells/workbooksettings/getsignificantdigits/
 ---
 ## WorkbookSettings::GetSignificantDigits method

@@ -4,7 +4,7 @@ linktitle: SetIsFullPathLink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetIsFullPathLink method. Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false in C++.'
 type: docs
-weight: 7000
+weight: 7200
 url: /cpp/aspose.cells/htmlsaveoptions/setisfullpathlink/
 ---
 ## HtmlSaveOptions::SetIsFullPathLink method

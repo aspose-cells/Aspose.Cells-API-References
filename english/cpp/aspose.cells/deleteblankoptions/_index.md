@@ -4,7 +4,7 @@ linktitle: DeleteBlankOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DeleteBlankOptions class. Represents the setting of deleting blank cells/rows/columns in C++.'
 type: docs
-weight: 4500
+weight: 4600
 url: /cpp/aspose.cells/deleteblankoptions/
 ---
 ## DeleteBlankOptions class

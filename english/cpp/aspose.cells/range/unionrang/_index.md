@@ -12,6 +12,10 @@ url: /cpp/aspose.cells/range/unionrang/
 
 Returns the union result of two ranges.
 
+
+>Deprecated
+>
+>Use Range.UnionRanges() instead. 
 ```cpp
 Vector<Range> Aspose::Cells::Range::UnionRang(const Range &range)
 ```
@@ -24,6 +28,12 @@ Vector<Range> Aspose::Cells::Range::UnionRang(const Range &range)
 ## ReturnValue
 
 The union of two ranges.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [Range.UnionRanges()](../unionranges/) method. This method will be removed 12 months later since May 2024. **Aspose** apologizes for any inconvenience you may have experienced. 
+
 
 ## See Also
 

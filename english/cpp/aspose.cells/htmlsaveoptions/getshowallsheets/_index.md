@@ -4,7 +4,7 @@ linktitle: GetShowAllSheets
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetShowAllSheets method. Indicates whether showing all sheets when saving as a single html file in C++.'
 type: docs
-weight: 5500
+weight: 5700
 url: /cpp/aspose.cells/htmlsaveoptions/getshowallsheets/
 ---
 ## HtmlSaveOptions::GetShowAllSheets method

@@ -4,7 +4,7 @@ linktitle: SetExportSingleTab
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportSingleTab method. Indicates whether exporting the single tab when the file only has one worksheet. The default value is false in C++.'
 type: docs
-weight: 3100
+weight: 3300
 url: /cpp/aspose.cells/htmlsaveoptions/setexportsingletab/
 ---
 ## HtmlSaveOptions::SetExportSingleTab method

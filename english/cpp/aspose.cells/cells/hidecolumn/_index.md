@@ -4,7 +4,7 @@ linktitle: HideColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::HideColumn method. Hides a column in C++.'
 type: docs
-weight: 5800
+weight: 6100
 url: /cpp/aspose.cells/cells/hidecolumn/
 ---
 ## Cells::HideColumn method

@@ -4,7 +4,7 @@ linktitle: Worksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet class. Encapsulates the object that represents a single worksheet in C++.'
 type: docs
-weight: 16000
+weight: 16100
 url: /cpp/aspose.cells/worksheet/
 ---
 ## Worksheet class
@@ -53,6 +53,7 @@ class Worksheet
 | [FreezePanes(const U16String\& cellName, int32_t freezedRows, int32_t freezedColumns)](./freezepanes/) | Freezes panes at the specified cell in the worksheet. |
 | [FreezePanes(const char16_t* cellName, int32_t freezedRows, int32_t freezedColumns)](./freezepanes/) | Freezes panes at the specified cell in the worksheet. |
 | [GetActiveCell()](./getactivecell/) | Gets or sets the active cell in the worksheet. |
+| [GetAdvancedFilter()](./getadvancedfilter/) | Gets the settings of advanced filter. |
 | [GetAllowEditRanges()](./getalloweditranges/) | Gets the allow edit range collection in the worksheet. |
 | [GetAutoFilter()](./getautofilter/) | Represents auto filter for the specified worksheet. |
 | [GetBackgroundImage()](./getbackgroundimage/) | Gets and sets worksheet background image. |

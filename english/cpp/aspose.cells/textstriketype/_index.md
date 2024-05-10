@@ -4,7 +4,7 @@ linktitle: TextStrikeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TextStrikeType enum. This type specifies the strike type in C++.'
 type: docs
-weight: 25600
+weight: 26000
 url: /cpp/aspose.cells/textstriketype/
 ---
 ## TextStrikeType enum

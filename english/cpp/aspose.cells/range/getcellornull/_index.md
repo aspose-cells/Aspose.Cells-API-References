@@ -4,7 +4,7 @@ linktitle: GetCellOrNull
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetCellOrNull method. Gets Cell object or null in this range in C++.'
 type: docs
-weight: 4500
+weight: 4700
 url: /cpp/aspose.cells/range/getcellornull/
 ---
 ## Range::GetCellOrNull method

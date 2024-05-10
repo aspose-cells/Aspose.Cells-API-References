@@ -4,7 +4,7 @@ linktitle: Workbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook class. Represents a root object to create an Excel spreadsheet in C++.'
 type: docs
-weight: 15600
+weight: 15900
 url: /cpp/aspose.cells/workbook/
 ---
 ## Workbook class

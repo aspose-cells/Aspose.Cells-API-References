@@ -43,6 +43,7 @@ void Aspose::Cells::Pivot::PivotTable::RefreshData(const PivotTableRefreshOption
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotTableRefreshOption](../../pivottablerefreshoption/)
 * Class [PivotTable](../)
 * Namespace [Aspose::Cells::Pivot](../../)
 * Library [Aspose.Cells for C++](../../../)

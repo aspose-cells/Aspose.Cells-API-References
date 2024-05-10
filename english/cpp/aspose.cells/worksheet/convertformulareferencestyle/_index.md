@@ -4,7 +4,7 @@ linktitle: ConvertFormulaReferenceStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::ConvertFormulaReferenceStyle method. Converts the formula reference style in C++.'
 type: docs
-weight: 11600
+weight: 11700
 url: /cpp/aspose.cells/worksheet/convertformulareferencestyle/
 ---
 ## Worksheet::ConvertFormulaReferenceStyle(const U16String\&, bool, int32_t, int32_t) method

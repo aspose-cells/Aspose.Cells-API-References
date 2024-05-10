@@ -4,7 +4,7 @@ linktitle: CopyData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::CopyData method. Copies cell data (including formulas) from a source range in C++.'
 type: docs
-weight: 4000
+weight: 4100
 url: /cpp/aspose.cells/range/copydata/
 ---
 ## Range::CopyData method

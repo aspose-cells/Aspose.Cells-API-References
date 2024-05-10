@@ -4,7 +4,7 @@ linktitle: SetColumnWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::SetColumnWidthPixel method. Sets column width in unit of pixels in normal view in C++.'
 type: docs
-weight: 6700
+weight: 6800
 url: /cpp/aspose.cells/cells/setcolumnwidthpixel/
 ---
 ## Cells::SetColumnWidthPixel method

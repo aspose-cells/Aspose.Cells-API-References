@@ -4,7 +4,7 @@ linktitle: GetExportRowColumnHeadings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetExportRowColumnHeadings method. Indicates whether exports sheet''s row and column headings when saving to HTML files in C++.'
 type: docs
-weight: 8300
+weight: 8500
 url: /cpp/aspose.cells/htmlsaveoptions/getexportrowcolumnheadings/
 ---
 ## HtmlSaveOptions::GetExportRowColumnHeadings method

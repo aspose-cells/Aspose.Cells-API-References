@@ -4,7 +4,7 @@ linktitle: SetExportActiveWorksheetOnly
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportActiveWorksheetOnly method. Indicates if only exporting the active worksheet to html file. If true then only the active worksheet will be exported to html file; If false then the whole workbook will be exported to html file. The default value is false in C++.'
 type: docs
-weight: 3500
+weight: 3700
 url: /cpp/aspose.cells/htmlsaveoptions/setexportactiveworksheetonly/
 ---
 ## HtmlSaveOptions::SetExportActiveWorksheetOnly method

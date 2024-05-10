@@ -4,7 +4,7 @@ linktitle: SetWindowWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetWindowWidthInch method. The width of the window, in unit of inch in C++.'
 type: docs
-weight: 7800
+weight: 7900
 url: /cpp/aspose.cells/workbooksettings/setwindowwidthinch/
 ---
 ## WorkbookSettings::SetWindowWidthInch method

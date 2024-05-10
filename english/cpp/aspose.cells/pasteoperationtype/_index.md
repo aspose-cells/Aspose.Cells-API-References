@@ -4,7 +4,7 @@ linktitle: PasteOperationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PasteOperationType enum. Represents operation type when pasting range in C++.'
 type: docs
-weight: 23400
+weight: 23800
 url: /cpp/aspose.cells/pasteoperationtype/
 ---
 ## PasteOperationType enum

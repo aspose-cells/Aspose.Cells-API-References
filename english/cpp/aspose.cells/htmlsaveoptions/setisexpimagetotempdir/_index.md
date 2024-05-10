@@ -4,7 +4,7 @@ linktitle: SetIsExpImageToTempDir
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetIsExpImageToTempDir method. Indicates whether exporting image files to temp directory. Only for saving to html stream in C++.'
 type: docs
-weight: 2500
+weight: 2700
 url: /cpp/aspose.cells/htmlsaveoptions/setisexpimagetotempdir/
 ---
 ## HtmlSaveOptions::SetIsExpImageToTempDir method

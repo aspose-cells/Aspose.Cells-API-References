@@ -4,7 +4,7 @@ linktitle: OoxmlSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlSaveOptions class. Represents the options of saving office open xml file in C++.'
 type: docs
-weight: 10600
+weight: 10800
 url: /cpp/aspose.cells/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class

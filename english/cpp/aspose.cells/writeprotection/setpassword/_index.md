@@ -4,7 +4,7 @@ linktitle: SetPassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WriteProtection::SetPassword method. Sets the protected password to modify the file in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells/writeprotection/setpassword/
 ---
 ## WriteProtection::SetPassword(const U16String\&) method

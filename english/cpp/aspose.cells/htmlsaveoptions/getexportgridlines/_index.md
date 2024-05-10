@@ -4,7 +4,7 @@ linktitle: GetExportGridLines
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetExportGridLines method. Indicating whether exporting the gridlines.The default value is false in C++.'
 type: docs
-weight: 8900
+weight: 9100
 url: /cpp/aspose.cells/htmlsaveoptions/getexportgridlines/
 ---
 ## HtmlSaveOptions::GetExportGridLines method

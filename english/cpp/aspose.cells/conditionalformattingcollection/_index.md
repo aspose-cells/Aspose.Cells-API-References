@@ -4,7 +4,7 @@ linktitle: ConditionalFormattingCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ConditionalFormattingCollection class. Encapsulates a collection of FormatCondition objects in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.cells/conditionalformattingcollection/
 ---
 ## ConditionalFormattingCollection class

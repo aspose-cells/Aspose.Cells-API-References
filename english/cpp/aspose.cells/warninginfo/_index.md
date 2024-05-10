@@ -4,7 +4,7 @@ linktitle: WarningInfo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WarningInfo class. Warning info in C++.'
 type: docs
-weight: 15500
+weight: 15800
 url: /cpp/aspose.cells/warninginfo/
 ---
 ## WarningInfo class

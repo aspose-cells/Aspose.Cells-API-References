@@ -4,7 +4,7 @@ linktitle: SetOutlineBorder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::SetOutlineBorder method. Sets outline border around a range of cells in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells/range/setoutlineborder/
 ---
 ## Range::SetOutlineBorder(BorderType, CellBorderType, const CellsColor\&) method

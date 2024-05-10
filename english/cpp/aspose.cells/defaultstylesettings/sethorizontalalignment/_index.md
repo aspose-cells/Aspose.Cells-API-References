@@ -4,7 +4,7 @@ linktitle: SetHorizontalAlignment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DefaultStyleSettings::SetHorizontalAlignment method. Gets/Sets the default value for horizontal alignment in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells/defaultstylesettings/sethorizontalalignment/
 ---
 ## DefaultStyleSettings::SetHorizontalAlignment method

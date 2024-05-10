@@ -4,7 +4,7 @@ linktitle: HtmlLinkTargetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlLinkTargetType enum. Represents the type of target attribute in HTML  tag in C++.'
 type: docs
-weight: 21600
+weight: 22000
 url: /cpp/aspose.cells/htmllinktargettype/
 ---
 ## HtmlLinkTargetType enum

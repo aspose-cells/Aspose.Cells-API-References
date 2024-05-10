@@ -4,7 +4,7 @@ linktitle: AutoFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFilter class. Represents autofiltering for the specified worksheet in C++.'
 type: docs
-weight: 500
+weight: 600
 url: /cpp/aspose.cells/autofilter/
 ---
 ## AutoFilter class

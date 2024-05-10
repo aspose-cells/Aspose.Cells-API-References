@@ -4,7 +4,7 @@ linktitle: FontSourceBase
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontSourceBase class. This is an abstract base class for the classes that allow the user to specify various font sources in C++.'
 type: docs
-weight: 6600
+weight: 6800
 url: /cpp/aspose.cells/fontsourcebase/
 ---
 ## FontSourceBase class

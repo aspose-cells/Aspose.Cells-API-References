@@ -4,7 +4,7 @@ linktitle: EmfRenderSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::EmfRenderSetting enum. Setting for rendering Emf metafile in C++.'
 type: docs
-weight: 19600
+weight: 20000
 url: /cpp/aspose.cells/emfrendersetting/
 ---
 ## EmfRenderSetting enum

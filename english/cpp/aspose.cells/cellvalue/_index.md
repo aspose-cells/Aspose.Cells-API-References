@@ -4,7 +4,7 @@ linktitle: CellValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellValue class. Represents the cell value and corresponding type in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells/cellvalue/
 ---
 ## CellValue class

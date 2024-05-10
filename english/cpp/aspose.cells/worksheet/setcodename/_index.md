@@ -4,7 +4,7 @@ linktitle: SetCodeName
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetCodeName method. Gets worksheet code name in C++.'
 type: docs
-weight: 10300
+weight: 10400
 url: /cpp/aspose.cells/worksheet/setcodename/
 ---
 ## Worksheet::SetCodeName(const U16String\&) method

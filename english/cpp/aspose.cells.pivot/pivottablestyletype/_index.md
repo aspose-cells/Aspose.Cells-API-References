@@ -4,7 +4,7 @@ linktitle: PivotTableStyleType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableStyleType enum. Represents the pivot table style type in C++.'
 type: docs
-weight: 3500
+weight: 3600
 url: /cpp/aspose.cells.pivot/pivottablestyletype/
 ---
 ## PivotTableStyleType enum

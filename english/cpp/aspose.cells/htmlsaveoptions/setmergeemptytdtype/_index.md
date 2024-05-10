@@ -4,7 +4,7 @@ linktitle: SetMergeEmptyTdType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetMergeEmptyTdType method. The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default in C++.'
 type: docs
-weight: 7800
+weight: 8000
 url: /cpp/aspose.cells/htmlsaveoptions/setmergeemptytdtype/
 ---
 ## HtmlSaveOptions::SetMergeEmptyTdType method

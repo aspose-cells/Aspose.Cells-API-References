@@ -4,7 +4,7 @@ linktitle: _impl
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PdfSaveOptions::_impl field. The implementation object in C++.'
 type: docs
-weight: 3500
+weight: 3700
 url: /cpp/aspose.cells/pdfsaveoptions/_impl/
 ---
 ## _impl field

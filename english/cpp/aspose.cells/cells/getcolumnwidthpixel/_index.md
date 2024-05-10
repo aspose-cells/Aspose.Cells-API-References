@@ -4,7 +4,7 @@ linktitle: GetColumnWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetColumnWidthPixel method. Gets the width of the specified column in normal view, in units of pixel in C++.'
 type: docs
-weight: 7000
+weight: 7100
 url: /cpp/aspose.cells/cells/getcolumnwidthpixel/
 ---
 ## Cells::GetColumnWidthPixel(int32_t) method
@@ -36,6 +36,10 @@ Width of column in normal view.
 
 Gets the width of the specified column in normal view, in units of pixel.
 
+
+>Deprecated
+>
+>Use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method, instead. 
 ```cpp
 int32_t Aspose::Cells::Cells::GetColumnWidthPixel(int32_t column, bool original)
 ```
@@ -49,6 +53,12 @@ int32_t Aspose::Cells::Cells::GetColumnWidthPixel(int32_t column, bool original)
 ## ReturnValue
 
 Width of column in normal view.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [Cells.GetColumnWidth(int ,bool , CellsUnitType )](../getcolumnwidth/) method. This method will be removed 12 months later since April 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

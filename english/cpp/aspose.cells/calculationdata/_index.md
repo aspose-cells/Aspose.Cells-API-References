@@ -4,7 +4,7 @@ linktitle: CalculationData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CalculationData class. Represents the required data when calculating one function, such as function name, parameters, ...etc in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells/calculationdata/
 ---
 ## CalculationData class

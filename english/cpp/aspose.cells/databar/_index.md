@@ -4,7 +4,7 @@ linktitle: DataBar
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataBar class. Describe the DataBar conditional formatting rule. This conditional formatting rule displays a gradated data bar in the range of cells in C++.'
 type: docs
-weight: 3800
+weight: 3900
 url: /cpp/aspose.cells/databar/
 ---
 ## DataBar class

@@ -4,7 +4,7 @@ linktitle: SetExportDataOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportDataOptions method. Indicating the rule of exporting html file data.The default value is All in C++.'
 type: docs
-weight: 10400
+weight: 10600
 url: /cpp/aspose.cells/htmlsaveoptions/setexportdataoptions/
 ---
 ## HtmlSaveOptions::SetExportDataOptions method

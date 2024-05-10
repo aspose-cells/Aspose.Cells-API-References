@@ -4,7 +4,7 @@ linktitle: MultipleFilterCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MultipleFilterCollection class. Represents the multiple filter collection in C++.'
 type: docs
-weight: 10000
+weight: 10200
 url: /cpp/aspose.cells/multiplefiltercollection/
 ---
 ## MultipleFilterCollection class

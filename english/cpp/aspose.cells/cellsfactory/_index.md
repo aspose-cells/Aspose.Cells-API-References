@@ -4,7 +4,7 @@ linktitle: CellsFactory
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellsFactory class. Utility for instantiating classes of Cells model in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells/cellsfactory/
 ---
 ## CellsFactory class

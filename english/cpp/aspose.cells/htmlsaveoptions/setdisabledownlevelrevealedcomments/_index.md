@@ -4,7 +4,7 @@ linktitle: SetDisableDownlevelRevealedComments
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetDisableDownlevelRevealedComments method. Indicates if disable Downlevel-revealed conditional comments when exporting file to html, the default value is false in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells/htmlsaveoptions/setdisabledownlevelrevealedcomments/
 ---
 ## HtmlSaveOptions::SetDisableDownlevelRevealedComments method

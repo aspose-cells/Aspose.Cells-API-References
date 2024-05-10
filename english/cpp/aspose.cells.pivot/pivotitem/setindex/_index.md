@@ -4,7 +4,7 @@ linktitle: SetIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::SetIndex method. Gets the index of the pivot item in the pivot field in C++.'
 type: docs
-weight: 1900
+weight: 2100
 url: /cpp/aspose.cells.pivot/pivotitem/setindex/
 ---
 ## PivotItem::SetIndex method

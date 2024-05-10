@@ -4,7 +4,7 @@ linktitle: Comment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Comment class. Encapsulates the object that represents a cell comment in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells/comment/
 ---
 ## Comment class

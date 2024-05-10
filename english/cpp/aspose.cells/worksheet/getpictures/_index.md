@@ -4,7 +4,7 @@ linktitle: GetPictures
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetPictures method. Gets a Picture collection in C++.'
 type: docs
-weight: 7100
+weight: 7200
 url: /cpp/aspose.cells/worksheet/getpictures/
 ---
 ## Worksheet::GetPictures method

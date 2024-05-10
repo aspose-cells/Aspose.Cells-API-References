@@ -4,7 +4,7 @@ linktitle: SetPaperSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetPaperSize method. Gets and sets the default print paper size in C++.'
 type: docs
-weight: 10800
+weight: 10900
 url: /cpp/aspose.cells/workbooksettings/setpapersize/
 ---
 ## WorkbookSettings::SetPaperSize method

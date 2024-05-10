@@ -4,7 +4,7 @@ linktitle: GetMaxRowsOfSharedFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetMaxRowsOfSharedFormula method. Gets and sets the max row number of shared formula in C++.'
 type: docs
-weight: 11100
+weight: 11200
 url: /cpp/aspose.cells/workbooksettings/getmaxrowsofsharedformula/
 ---
 ## WorkbookSettings::GetMaxRowsOfSharedFormula method

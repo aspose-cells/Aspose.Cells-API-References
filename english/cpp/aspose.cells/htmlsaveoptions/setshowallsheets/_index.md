@@ -4,7 +4,7 @@ linktitle: SetShowAllSheets
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetShowAllSheets method. Indicates whether showing all sheets when saving as a single html file in C++.'
 type: docs
-weight: 5600
+weight: 5800
 url: /cpp/aspose.cells/htmlsaveoptions/setshowallsheets/
 ---
 ## HtmlSaveOptions::SetShowAllSheets method

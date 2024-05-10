@@ -4,7 +4,7 @@ linktitle: GetAllowEditRanges
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetAllowEditRanges method. Gets the allow edit range collection in the worksheet in C++.'
 type: docs
-weight: 8400
+weight: 8500
 url: /cpp/aspose.cells/worksheet/getalloweditranges/
 ---
 ## Worksheet::GetAllowEditRanges method

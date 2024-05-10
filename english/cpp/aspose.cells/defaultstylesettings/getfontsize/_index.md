@@ -4,7 +4,7 @@ linktitle: GetFontSize
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DefaultStyleSettings::GetFontSize method. Gets/Sets the default standard font size for the workbook in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells/defaultstylesettings/getfontsize/
 ---
 ## DefaultStyleSettings::GetFontSize method

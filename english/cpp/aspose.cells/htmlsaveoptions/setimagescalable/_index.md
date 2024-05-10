@@ -4,7 +4,7 @@ linktitle: SetImageScalable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetImageScalable method. Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.cells/htmlsaveoptions/setimagescalable/
 ---
 ## HtmlSaveOptions::SetImageScalable method

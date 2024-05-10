@@ -4,7 +4,7 @@ linktitle: Replace
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::Replace method. Replaces all cells'' text with a new string in C++.'
 type: docs
-weight: 9100
+weight: 9200
 url: /cpp/aspose.cells/worksheet/replace/
 ---
 ## Worksheet::Replace(const U16String\&, const U16String\&) method

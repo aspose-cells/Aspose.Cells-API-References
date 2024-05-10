@@ -4,7 +4,7 @@ linktitle: GetOffset
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetOffset method. Gets Range range by offset in C++.'
 type: docs
-weight: 4600
+weight: 4800
 url: /cpp/aspose.cells/range/getoffset/
 ---
 ## Range::GetOffset method

@@ -4,7 +4,7 @@ linktitle: IsProtected
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::IsProtected method. Indicates if the worksheet is protected in C++.'
 type: docs
-weight: 8200
+weight: 8300
 url: /cpp/aspose.cells/worksheet/isprotected/
 ---
 ## Worksheet::IsProtected method

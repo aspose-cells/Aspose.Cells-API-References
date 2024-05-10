@@ -4,7 +4,7 @@ linktitle: HtmlSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions class. Represents the options for saving html file in C++.'
 type: docs
-weight: 7700
+weight: 7800
 url: /cpp/aspose.cells/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -20,6 +20,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 
 | Method | Description |
 | --- | --- |
+| [GetAddGenericFont()](./getaddgenericfont/) | Indicates whether to add a generic font to CSS font-family. The default value is true. |
 | [GetAddTooltipText()](./getaddtooltiptext/) | Indicates whether adding tooltip text when the data can't be fully displayed. The default value is false. |
 | [GetAttachedFilesDirectory()](./getattachedfilesdirectory/) | The directory that the attached files will be saved to. Only for saving to html stream. |
 | [GetAttachedFilesUrlPrefix()](./getattachedfilesurlprefix/) | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream. |
@@ -88,6 +89,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [HtmlSaveOptions(HtmlSaveOptions_Impl* impl)](./htmlsaveoptions/) | Constructs from an implementation object. |
 | [HtmlSaveOptions(const HtmlSaveOptions\& src)](./htmlsaveoptions/) | Copy constructor. |
 | [HtmlSaveOptions(const SaveOptions\& src)](./htmlsaveoptions/) | Constructs from a parent object. |
+| [IsBorderCollapsed()](./isbordercollapsed/) | Indicates whether the table borders are collapsed. The default value is true. |
 | [IsExpImageToTempDir()](./isexpimagetotempdir/) | Indicates whether exporting image files to temp directory. Only for saving to html stream. |
 | [IsExportComments()](./isexportcomments/) | Indicates if exporting comments when saving file to html, the default value is false. |
 | [IsFullPathLink()](./isfullpathlink/) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false. |
@@ -100,6 +102,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [operator=(const SaveOptions\& src)](../saveoptions/operator_asm/) | operator= |
 | [SaveOptions(SaveOptions_Impl* impl)](../saveoptions/saveoptions/) | Constructs from an implementation object. |
 | [SaveOptions(const SaveOptions\& src)](../saveoptions/saveoptions/) | Copy constructor. |
+| [SetAddGenericFont(bool value)](./setaddgenericfont/) | Indicates whether to add a generic font to CSS font-family. The default value is true. |
 | [SetAddTooltipText(bool value)](./setaddtooltiptext/) | Indicates whether adding tooltip text when the data can't be fully displayed. The default value is false. |
 | [SetAttachedFilesDirectory(const U16String\& value)](./setattachedfilesdirectory/) | The directory that the attached files will be saved to. Only for saving to html stream. |
 | [SetAttachedFilesDirectory(const char16_t* value)](./setattachedfilesdirectory/) | The directory that the attached files will be saved to. Only for saving to html stream. |
@@ -149,6 +152,7 @@ class HtmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetHtmlCrossStringType(HtmlCrossType value)](./sethtmlcrossstringtype/) | Indicates if a cross-cell string will be displayed in the same way as MS Excel when saving an Excel file in html format. By default the value is Default, so, for cross-cell strings, there is little difference between the html files created by [Aspose.Cells](../) and MS Excel. But the performance for creating large html files,setting the value to Cross would be several times faster than setting it to Default or Fit2Cell. |
 | [SetIgnoreInvisibleShapes(bool value)](./setignoreinvisibleshapes/) | Indicate whether exporting those not visible shapes. |
 | [SetImageScalable(bool value)](./setimagescalable/) | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true. |
+| [SetIsBorderCollapsed(bool value)](./setisbordercollapsed/) | Indicates whether the table borders are collapsed. The default value is true. |
 | [SetIsExpImageToTempDir(bool value)](./setisexpimagetotempdir/) | Indicates whether exporting image files to temp directory. Only for saving to html stream. |
 | [SetIsExportComments(bool value)](./setisexportcomments/) | Indicates if exporting comments when saving file to html, the default value is false. |
 | [SetIsFullPathLink(bool value)](./setisfullpathlink/) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false. |

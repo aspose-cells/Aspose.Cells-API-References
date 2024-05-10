@@ -4,7 +4,7 @@ linktitle: OoxmlCompressionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlCompressionType enum. The Ooxml compression type in C++.'
 type: docs
-weight: 22700
+weight: 23100
 url: /cpp/aspose.cells/ooxmlcompressiontype/
 ---
 ## OoxmlCompressionType enum

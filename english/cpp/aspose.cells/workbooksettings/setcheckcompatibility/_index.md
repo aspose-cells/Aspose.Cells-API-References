@@ -4,7 +4,7 @@ linktitle: SetCheckCompatibility
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetCheckCompatibility method. Indicates whether check compatibility with earlier versions when saving workbook in C++.'
 type: docs
-weight: 9200
+weight: 9300
 url: /cpp/aspose.cells/workbooksettings/setcheckcompatibility/
 ---
 ## WorkbookSettings::SetCheckCompatibility method

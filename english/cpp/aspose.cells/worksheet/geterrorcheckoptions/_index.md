@@ -4,7 +4,7 @@ linktitle: GetErrorCheckOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetErrorCheckOptions method. Gets error check setting applied on certain ranges in C++.'
 type: docs
-weight: 8500
+weight: 8600
 url: /cpp/aspose.cells/worksheet/geterrorcheckoptions/
 ---
 ## Worksheet::GetErrorCheckOptions method

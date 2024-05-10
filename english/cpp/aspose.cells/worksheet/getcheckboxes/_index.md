@@ -4,7 +4,7 @@ linktitle: GetCheckBoxes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetCheckBoxes method. Gets a CheckBox collection in C++.'
 type: docs
-weight: 7300
+weight: 7400
 url: /cpp/aspose.cells/worksheet/getcheckboxes/
 ---
 ## Worksheet::GetCheckBoxes method

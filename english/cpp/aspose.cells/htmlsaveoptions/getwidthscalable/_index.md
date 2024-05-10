@@ -4,7 +4,7 @@ linktitle: GetWidthScalable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetWidthScalable method. Indicates whether exporting column width in unit of scale to html. The default value is false in C++.'
 type: docs
-weight: 2800
+weight: 3000
 url: /cpp/aspose.cells/htmlsaveoptions/getwidthscalable/
 ---
 ## HtmlSaveOptions::GetWidthScalable method

@@ -4,7 +4,7 @@ linktitle: DataBarNegativeColorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataBarNegativeColorType enum. Specifies whether to use the same border and fill color as positive data bars in C++.'
 type: docs
-weight: 19000
+weight: 19400
 url: /cpp/aspose.cells/databarnegativecolortype/
 ---
 ## DataBarNegativeColorType enum

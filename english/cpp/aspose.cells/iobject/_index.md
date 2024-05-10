@@ -4,7 +4,7 @@ linktitle: IObject
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::IObject class. Base class in C++.'
 type: docs
-weight: 8900
+weight: 9100
 url: /cpp/aspose.cells/iobject/
 ---
 ## IObject class

@@ -4,7 +4,7 @@ linktitle: BackgroundType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BackgroundType enum. Enumerates cell background pattern types in C++.'
 type: docs
-weight: 17400
+weight: 17700
 url: /cpp/aspose.cells/backgroundtype/
 ---
 ## BackgroundType enum

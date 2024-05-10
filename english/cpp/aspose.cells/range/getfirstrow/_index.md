@@ -4,7 +4,7 @@ linktitle: GetFirstRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetFirstRow method. Gets the index of the first row of the range in C++.'
 type: docs
-weight: 2500
+weight: 2600
 url: /cpp/aspose.cells/range/getfirstrow/
 ---
 ## Range::GetFirstRow method

@@ -4,7 +4,7 @@ linktitle: ColorFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ColorFilter class. Represents filtering the range by color in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells/colorfilter/
 ---
 ## ColorFilter class

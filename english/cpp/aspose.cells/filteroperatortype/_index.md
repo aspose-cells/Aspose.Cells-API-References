@@ -4,7 +4,7 @@ linktitle: FilterOperatorType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FilterOperatorType enum. Custom Filter operator type in C++.'
 type: docs
-weight: 20300
+weight: 20700
 url: /cpp/aspose.cells/filteroperatortype/
 ---
 ## FilterOperatorType enum

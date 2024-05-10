@@ -4,7 +4,7 @@ linktitle: FontConfigs
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontConfigs class. Specifies font settings in C++.'
 type: docs
-weight: 6400
+weight: 6600
 url: /cpp/aspose.cells/fontconfigs/
 ---
 ## FontConfigs class

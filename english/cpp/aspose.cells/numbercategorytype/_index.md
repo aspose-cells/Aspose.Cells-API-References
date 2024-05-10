@@ -4,7 +4,7 @@ linktitle: NumberCategoryType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::NumberCategoryType enum. Represents category type of cell''s number formatting in C++.'
 type: docs
-weight: 22500
+weight: 22900
 url: /cpp/aspose.cells/numbercategorytype/
 ---
 ## NumberCategoryType enum

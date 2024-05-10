@@ -4,7 +4,7 @@ linktitle: FindOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FindOptions class. Represents find options in C++.'
 type: docs
-weight: 6100
+weight: 6300
 url: /cpp/aspose.cells/findoptions/
 ---
 ## FindOptions class

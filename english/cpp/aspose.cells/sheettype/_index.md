@@ -4,7 +4,7 @@ linktitle: SheetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SheetType enum. Specifies the worksheet type in C++.'
 type: docs
-weight: 24500
+weight: 24900
 url: /cpp/aspose.cells/sheettype/
 ---
 ## SheetType enum

@@ -4,7 +4,7 @@ linktitle: GetConditionalFormattings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetConditionalFormattings method. Gets the ConditionalFormattings in the worksheet in C++.'
 type: docs
-weight: 10600
+weight: 10700
 url: /cpp/aspose.cells/worksheet/getconditionalformattings/
 ---
 ## Worksheet::GetConditionalFormattings method

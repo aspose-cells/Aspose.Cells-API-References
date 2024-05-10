@@ -4,7 +4,7 @@ linktitle: StyleFlag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::StyleFlag class. Represents flags which indicates applied formatting properties in C++.'
 type: docs
-weight: 13600
+weight: 13800
 url: /cpp/aspose.cells/styleflag/
 ---
 ## StyleFlag class

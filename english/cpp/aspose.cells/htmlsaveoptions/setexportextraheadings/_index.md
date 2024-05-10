@@ -4,7 +4,7 @@ linktitle: SetExportExtraHeadings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportExtraHeadings method. Indicates whether exporting extra headings when the length of text is longer than max display column. The default value is false. If you want to import the html file to excel, please keep the default value in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells/htmlsaveoptions/setexportextraheadings/
 ---
 ## HtmlSaveOptions::SetExportExtraHeadings method

@@ -4,7 +4,7 @@ linktitle: SetWindowLeft
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetWindowLeft method. The distance from the left edge of the client area to the left edge of the window, in unit of point in C++.'
 type: docs
-weight: 6400
+weight: 6500
 url: /cpp/aspose.cells/workbooksettings/setwindowleft/
 ---
 ## WorkbookSettings::SetWindowLeft method

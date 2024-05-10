@@ -4,7 +4,7 @@ linktitle: SetFirstVisibleColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetFirstVisibleColumn method. Represents first visible column index in C++.'
 type: docs
-weight: 9000
+weight: 9100
 url: /cpp/aspose.cells/worksheet/setfirstvisiblecolumn/
 ---
 ## Worksheet::SetFirstVisibleColumn method

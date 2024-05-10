@@ -4,7 +4,7 @@ linktitle: SetCellCssPrefix
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetCellCssPrefix method. Gets and sets the prefix of the css name,the default value is "" in C++.'
 type: docs
-weight: 6600
+weight: 6800
 url: /cpp/aspose.cells/htmlsaveoptions/setcellcssprefix/
 ---
 ## HtmlSaveOptions::SetCellCssPrefix(const U16String\&) method

@@ -4,7 +4,7 @@ linktitle: GetSparklineGroups
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetSparklineGroups method. Gets the sparkline groups in the worksheet in C++.'
 type: docs
-weight: 6800
+weight: 6900
 url: /cpp/aspose.cells/worksheet/getsparklinegroups/
 ---
 ## Worksheet::GetSparklineGroups method

@@ -4,7 +4,7 @@ linktitle: GetColumnOriginalWidthPoint
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetColumnOriginalWidthPoint method. Gets original column''s height in unit of point if the column is hidden in C++.'
 type: docs
-weight: 5800
+weight: 6000
 url: /cpp/aspose.cells/cells/getcolumnoriginalwidthpoint/
 ---
 ## Cells::GetColumnOriginalWidthPoint method
@@ -12,6 +12,10 @@ url: /cpp/aspose.cells/cells/getcolumnoriginalwidthpoint/
 
 Gets original column's height in unit of point if the column is hidden.
 
+
+>Deprecated
+>
+>Use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method, instead. 
 ```cpp
 double Aspose::Cells::Cells::GetColumnOriginalWidthPoint(int32_t column)
 ```
@@ -23,6 +27,12 @@ double Aspose::Cells::Cells::GetColumnOriginalWidthPoint(int32_t column)
 
 ## ReturnValue
 
+Width of column in normal view.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [Cells.GetColumnWidth(int ,bool , CellsUnitType )](../getcolumnwidth/) method. This method will be removed 12 months later since April 2024. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

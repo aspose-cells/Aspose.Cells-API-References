@@ -4,7 +4,7 @@ linktitle: GetFormulaSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetFormulaSettings method. Gets the settings for formula-related features in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells/workbooksettings/getformulasettings/
 ---
 ## WorkbookSettings::GetFormulaSettings method

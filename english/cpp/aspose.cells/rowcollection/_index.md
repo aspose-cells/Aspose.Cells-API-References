@@ -4,7 +4,7 @@ linktitle: RowCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::RowCollection class. Collects the Row objects that represent the individual rows in a worksheet in C++.'
 type: docs
-weight: 12500
+weight: 12700
 url: /cpp/aspose.cells/rowcollection/
 ---
 ## RowCollection class

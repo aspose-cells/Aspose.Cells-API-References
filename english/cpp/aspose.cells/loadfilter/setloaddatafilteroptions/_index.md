@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/loadfilter/setloaddatafilteroptions/
 Sets the filter options to denote what data should be loaded.
 
 ```cpp
-virtual void Aspose::Cells::LoadFilter::SetLoadDataFilterOptions(LoadDataFilterOptions value)
+void Aspose::Cells::LoadFilter::SetLoadDataFilterOptions(LoadDataFilterOptions value)
 ```
 
 ## See Also

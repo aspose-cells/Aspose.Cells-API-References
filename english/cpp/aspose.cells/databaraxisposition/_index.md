@@ -4,7 +4,7 @@ linktitle: DataBarAxisPosition
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataBarAxisPosition enum. Specifies the axis position for a range of cells with conditional formatting as data bars in C++.'
 type: docs
-weight: 18700
+weight: 19100
 url: /cpp/aspose.cells/databaraxisposition/
 ---
 ## DataBarAxisPosition enum

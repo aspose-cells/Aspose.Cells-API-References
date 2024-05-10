@@ -4,7 +4,7 @@ linktitle: DifSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DifSaveOptions class. Represents the options of saving dif file in C++.'
 type: docs
-weight: 4600
+weight: 4800
 url: /cpp/aspose.cells/difsaveoptions/
 ---
 ## DifSaveOptions class

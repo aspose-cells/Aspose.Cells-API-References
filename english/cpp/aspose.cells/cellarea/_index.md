@@ -4,7 +4,7 @@ linktitle: CellArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellArea class. Represent an area of cells in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells/cellarea/
 ---
 ## CellArea class

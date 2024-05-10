@@ -4,7 +4,7 @@ linktitle: PageLayoutAlignmentType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PageLayoutAlignmentType enum. Enumerates page layout alignment types in C++.'
 type: docs
-weight: 22900
+weight: 23300
 url: /cpp/aspose.cells/pagelayoutalignmenttype/
 ---
 ## PageLayoutAlignmentType enum

@@ -4,7 +4,7 @@ linktitle: ValidationAlertType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ValidationAlertType enum. Represents the data validation alert style in C++.'
 type: docs
-weight: 26200
+weight: 26600
 url: /cpp/aspose.cells/validationalerttype/
 ---
 ## ValidationAlertType enum

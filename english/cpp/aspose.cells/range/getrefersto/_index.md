@@ -4,7 +4,7 @@ linktitle: GetRefersTo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetRefersTo method. Gets the range''s refers to in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells/range/getrefersto/
 ---
 ## Range::GetRefersTo method

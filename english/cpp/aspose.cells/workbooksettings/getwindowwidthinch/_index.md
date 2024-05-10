@@ -4,7 +4,7 @@ linktitle: GetWindowWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetWindowWidthInch method. The width of the window, in unit of inch in C++.'
 type: docs
-weight: 7700
+weight: 7800
 url: /cpp/aspose.cells/workbooksettings/getwindowwidthinch/
 ---
 ## WorkbookSettings::GetWindowWidthInch method

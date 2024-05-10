@@ -4,7 +4,7 @@ linktitle: GetExportArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetExportArea method. Gets or Sets the exporting CellArea of current active Worksheet. If you set this attribute, the print area of current active Worksheet will be omitted. Only the specified area will be exported when saving the file to html in C++.'
 type: docs
-weight: 3800
+weight: 4000
 url: /cpp/aspose.cells/htmlsaveoptions/getexportarea/
 ---
 ## HtmlSaveOptions::GetExportArea method

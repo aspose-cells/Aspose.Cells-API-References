@@ -4,7 +4,7 @@ linktitle: GetTop
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetTop method. Gets the distance, in points, from the top edge of row 1 to the top edge of the range in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells/range/gettop/
 ---
 ## Range::GetTop method

@@ -4,7 +4,7 @@ linktitle: GetColumnCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetColumnCount method. Gets the count of columns in the range in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells/range/getcolumncount/
 ---
 ## Range::GetColumnCount method

@@ -4,7 +4,7 @@ linktitle: SetZoom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetZoom method. Represents the scaling factor in percentage. It should be between 10 and 400 in C++.'
 type: docs
-weight: 9300
+weight: 9400
 url: /cpp/aspose.cells/worksheet/setzoom/
 ---
 ## Worksheet::SetZoom method

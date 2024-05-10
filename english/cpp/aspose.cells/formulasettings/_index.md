@@ -4,7 +4,7 @@ linktitle: FormulaSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FormulaSettings class. Settings of formulas and calculation in C++.'
 type: docs
-weight: 7000
+weight: 7200
 url: /cpp/aspose.cells/formulasettings/
 ---
 ## FormulaSettings class

@@ -4,7 +4,7 @@ linktitle: ConditionalFormattingIcon
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ConditionalFormattingIcon class. Represents the custom icon of conditional formatting rule in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells/conditionalformattingicon/
 ---
 ## ConditionalFormattingIcon class

@@ -4,7 +4,7 @@ linktitle: Name
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Name class. Represents a defined name for a range of cells in C++.'
 type: docs
-weight: 10100
+weight: 10300
 url: /cpp/aspose.cells/name/
 ---
 ## Name class

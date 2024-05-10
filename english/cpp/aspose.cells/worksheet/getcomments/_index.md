@@ -4,7 +4,7 @@ linktitle: GetComments
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetComments method. Gets the Comment collection in C++.'
 type: docs
-weight: 7000
+weight: 7100
 url: /cpp/aspose.cells/worksheet/getcomments/
 ---
 ## Worksheet::GetComments method

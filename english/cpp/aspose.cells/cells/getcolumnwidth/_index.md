@@ -2,12 +2,39 @@
 title: Aspose::Cells::Cells::GetColumnWidth method
 linktitle: GetColumnWidth
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cells::GetColumnWidth method. Gets the width(in unit of characters) of the specified column in normal view in C++.'
+description: 'Aspose::Cells::Cells::GetColumnWidth method. Gets the column width in C++.'
 type: docs
-weight: 7200
+weight: 5900
 url: /cpp/aspose.cells/cells/getcolumnwidth/
 ---
-## Cells::GetColumnWidth method
+## Cells::GetColumnWidth(int32_t, bool, CellsUnitType) method
+
+
+Gets the column width.
+
+```cpp
+double Aspose::Cells::Cells::GetColumnWidth(int32_t column, bool isOriginal, CellsUnitType unitType)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | int32_t | The column index. |
+| isOriginal | bool | Indicates whether getting original width. |
+| unitType | CellsUnitType |  |
+
+## ReturnValue
+
+
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Enum [CellsUnitType](../../cellsunittype/)
+* Class [Cells](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## Cells::GetColumnWidth(int32_t) method
 
 
 Gets the width(in unit of characters) of the specified column in normal view.

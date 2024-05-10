@@ -4,7 +4,7 @@ linktitle: UnhideColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::UnhideColumns method. Unhide multiple columns in C++.'
 type: docs
-weight: 6100
+weight: 6400
 url: /cpp/aspose.cells/cells/unhidecolumns/
 ---
 ## Cells::UnhideColumns method

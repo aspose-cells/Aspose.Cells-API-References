@@ -4,7 +4,7 @@ linktitle: Top10Filter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Top10Filter class. Represents the top 10 filter in C++.'
 type: docs
-weight: 14400
+weight: 14700
 url: /cpp/aspose.cells/top10filter/
 ---
 ## Top10Filter class

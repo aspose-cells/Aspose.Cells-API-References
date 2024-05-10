@@ -4,7 +4,7 @@ linktitle: License
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::License class. Provides methods to license the component in C++.'
 type: docs
-weight: 9300
+weight: 9500
 url: /cpp/aspose.cells/license/
 ---
 ## License class

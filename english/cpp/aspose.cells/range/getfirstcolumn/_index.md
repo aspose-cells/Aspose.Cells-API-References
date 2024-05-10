@@ -4,7 +4,7 @@ linktitle: GetFirstColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetFirstColumn method. Gets the index of the first column of the range in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells/range/getfirstcolumn/
 ---
 ## Range::GetFirstColumn method

@@ -4,7 +4,7 @@ linktitle: SetExportPageHeaders
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportPageHeaders method. Indicates whether exporting page headers in C++.'
 type: docs
-weight: 5800
+weight: 6000
 url: /cpp/aspose.cells/htmlsaveoptions/setexportpageheaders/
 ---
 ## HtmlSaveOptions::SetExportPageHeaders method

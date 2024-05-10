@@ -4,7 +4,7 @@ linktitle: IsPageBreakPreview
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::IsPageBreakPreview method. Indicates whether the specified worksheet is shown in normal view or page break preview in C++.'
 type: docs
-weight: 9600
+weight: 9700
 url: /cpp/aspose.cells/worksheet/ispagebreakpreview/
 ---
 ## Worksheet::IsPageBreakPreview method

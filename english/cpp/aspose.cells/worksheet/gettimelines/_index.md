@@ -4,7 +4,7 @@ linktitle: GetTimelines
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetTimelines method. Get the Timeline collection in the worksheet in C++.'
 type: docs
-weight: 7700
+weight: 7800
 url: /cpp/aspose.cells/worksheet/gettimelines/
 ---
 ## Worksheet::GetTimelines method

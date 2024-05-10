@@ -4,7 +4,7 @@ linktitle: PivotAreaType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotAreaType enum. Indicates the type of rule being used to describe an area or aspect of the PivotTable in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells.pivot/pivotareatype/
 ---
 ## PivotAreaType enum

@@ -4,7 +4,7 @@ linktitle: GetAddTooltipText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetAddTooltipText method. Indicates whether adding tooltip text when the data can''t be fully displayed. The default value is false in C++.'
 type: docs
-weight: 8700
+weight: 8900
 url: /cpp/aspose.cells/htmlsaveoptions/getaddtooltiptext/
 ---
 ## HtmlSaveOptions::GetAddTooltipText method

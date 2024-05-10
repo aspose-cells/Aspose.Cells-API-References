@@ -4,7 +4,7 @@ linktitle: DataBarFillType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataBarFillType enum. Specifies how a data bar is filled with color in C++.'
 type: docs
-weight: 18900
+weight: 19300
 url: /cpp/aspose.cells/databarfilltype/
 ---
 ## DataBarFillType enum

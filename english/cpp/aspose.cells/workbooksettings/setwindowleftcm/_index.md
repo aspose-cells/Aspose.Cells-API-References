@@ -4,7 +4,7 @@ linktitle: SetWindowLeftCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetWindowLeftCM method. The distance from the left edge of the client area to the left edge of the window. In unit of centimeter in C++.'
 type: docs
-weight: 6800
+weight: 6900
 url: /cpp/aspose.cells/workbooksettings/setwindowleftcm/
 ---
 ## WorkbookSettings::SetWindowLeftCM method

@@ -4,7 +4,7 @@ linktitle: Move
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::Move method. Moves the item up or down in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells.pivot/pivotitem/move/
 ---
 ## PivotItem::Move method

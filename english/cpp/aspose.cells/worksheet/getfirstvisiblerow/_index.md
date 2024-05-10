@@ -4,7 +4,7 @@ linktitle: GetFirstVisibleRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetFirstVisibleRow method. Represents first visible row index in C++.'
 type: docs
-weight: 8700
+weight: 8800
 url: /cpp/aspose.cells/worksheet/getfirstvisiblerow/
 ---
 ## Worksheet::GetFirstVisibleRow method

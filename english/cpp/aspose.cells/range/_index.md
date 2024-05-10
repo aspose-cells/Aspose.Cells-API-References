@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range class. Encapsulates the object that represents a range of cells within a spreadsheet in C++.'
 type: docs
-weight: 11900
+weight: 12100
 url: /cpp/aspose.cells/range/
 ---
 ## Range class
@@ -77,7 +77,9 @@ class Range
 | [SetStyle(const Style\& style, bool explicitFlag)](./setstyle/) | Apply the cell style. |
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the style of the range. |
 | [ToString()](./tostring/) | Returns a string represents the current [Range](./) object. |
-| [UnionRang(const Range\& range)](./unionrang/) | Returns the union result of two ranges. |
+| [Transpose()](./transpose/) | Transpose (rotate) data from rows to columns or vice versa. |
+| [UnionRang(const Range\& range)](./unionrang/) |  **(Deprecated)** Returns the union result of two ranges. |
+| [UnionRanges(const Vector \<Range\>\& ranges)](./unionranges/) | Returns the union result of two ranges. |
 | [UnMerge()](./unmerge/) | Unmerges merged cells of this range. |
 | [~Range()](./~range/) | Destructor. |
 ## Fields

@@ -4,7 +4,7 @@ linktitle: AutoFitMergedCellsType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::AutoFitMergedCellsType enum. Represents the type of auto fitting merged cells in C++.'
 type: docs
-weight: 17200
+weight: 17500
 url: /cpp/aspose.cells/autofitmergedcellstype/
 ---
 ## AutoFitMergedCellsType enum

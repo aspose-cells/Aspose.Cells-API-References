@@ -4,7 +4,7 @@ linktitle: GetWindowTop
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetWindowTop method. The distance from the top edge of the client area to the top edge of the window, in unit of point in C++.'
 type: docs
-weight: 6900
+weight: 7000
 url: /cpp/aspose.cells/workbooksettings/getwindowtop/
 ---
 ## WorkbookSettings::GetWindowTop method

@@ -4,7 +4,7 @@ linktitle: WorksheetCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorksheetCollection class. Encapsulates a collection of Worksheet objects in C++.'
 type: docs
-weight: 16100
+weight: 16200
 url: /cpp/aspose.cells/worksheetcollection/
 ---
 ## WorksheetCollection class

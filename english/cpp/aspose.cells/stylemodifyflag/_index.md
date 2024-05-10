@@ -4,7 +4,7 @@ linktitle: StyleModifyFlag
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::StyleModifyFlag enum. The style modified flags in C++.'
 type: docs
-weight: 24900
+weight: 25300
 url: /cpp/aspose.cells/stylemodifyflag/
 ---
 ## StyleModifyFlag enum

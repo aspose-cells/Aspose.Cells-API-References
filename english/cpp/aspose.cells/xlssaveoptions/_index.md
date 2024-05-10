@@ -4,7 +4,7 @@ linktitle: XlsSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XlsSaveOptions class. Represents the save options for the Excel 97-2003 file format: xls and xlt in C++.'
 type: docs
-weight: 16200
+weight: 16500
 url: /cpp/aspose.cells/xlssaveoptions/
 ---
 ## XlsSaveOptions class

@@ -4,7 +4,7 @@ linktitle: SetExportCommentsType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetExportCommentsType method. Represents type of exporting comments to html files in C++.'
 type: docs
-weight: 2100
+weight: 2300
 url: /cpp/aspose.cells/htmlsaveoptions/setexportcommentstype/
 ---
 ## HtmlSaveOptions::SetExportCommentsType method

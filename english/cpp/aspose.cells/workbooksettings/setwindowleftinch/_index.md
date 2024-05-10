@@ -4,7 +4,7 @@ linktitle: SetWindowLeftInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetWindowLeftInch method. The distance from the left edge of the client area to the left edge of the window. In unit of inch in C++.'
 type: docs
-weight: 6600
+weight: 6700
 url: /cpp/aspose.cells/workbooksettings/setwindowleftinch/
 ---
 ## WorkbookSettings::SetWindowLeftInch method

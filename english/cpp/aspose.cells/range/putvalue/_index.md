@@ -4,7 +4,7 @@ linktitle: PutValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::PutValue method. Puts a value into the range, if appropriate the value will be converted to other data type and cell''s number format will be reset in C++.'
 type: docs
-weight: 2900
+weight: 3000
 url: /cpp/aspose.cells/range/putvalue/
 ---
 ## Range::PutValue(const U16String\&, bool, bool) method

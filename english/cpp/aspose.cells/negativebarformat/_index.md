@@ -4,7 +4,7 @@ linktitle: NegativeBarFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::NegativeBarFormat class. Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule in C++.'
 type: docs
-weight: 10300
+weight: 10500
 url: /cpp/aspose.cells/negativebarformat/
 ---
 ## NegativeBarFormat class

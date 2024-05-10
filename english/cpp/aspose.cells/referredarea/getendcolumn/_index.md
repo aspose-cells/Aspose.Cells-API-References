@@ -4,7 +4,7 @@ linktitle: GetEndColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ReferredArea::GetEndColumn method. The end column of the area in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells/referredarea/getendcolumn/
 ---
 ## ReferredArea::GetEndColumn method

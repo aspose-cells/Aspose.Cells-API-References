@@ -4,7 +4,7 @@ linktitle: GetPresentationPreference
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetPresentationPreference method. Indicating if html or mht file is presentation preference. The default value is false. if you want to get more beautiful presentation,please set the value to true in C++.'
 type: docs
-weight: 6300
+weight: 6500
 url: /cpp/aspose.cells/htmlsaveoptions/getpresentationpreference/
 ---
 ## HtmlSaveOptions::GetPresentationPreference method

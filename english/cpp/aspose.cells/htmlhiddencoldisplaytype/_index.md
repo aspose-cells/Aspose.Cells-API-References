@@ -4,7 +4,7 @@ linktitle: HtmlHiddenColDisplayType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlHiddenColDisplayType enum. Represents two types of showing the hidden columns in html in C++.'
 type: docs
-weight: 21400
+weight: 21800
 url: /cpp/aspose.cells/htmlhiddencoldisplaytype/
 ---
 ## HtmlHiddenColDisplayType enum

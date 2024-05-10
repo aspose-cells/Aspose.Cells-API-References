@@ -4,7 +4,7 @@ linktitle: GetWarningCallback
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::GetWarningCallback method. Gets or sets warning callback in C++.'
 type: docs
-weight: 11000
+weight: 11100
 url: /cpp/aspose.cells/workbooksettings/getwarningcallback/
 ---
 ## WorkbookSettings::GetWarningCallback method

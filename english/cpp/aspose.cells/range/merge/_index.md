@@ -4,7 +4,7 @@ linktitle: Merge
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::Merge method. Combines a range of cells into a single cell in C++.'
 type: docs
-weight: 2700
+weight: 2800
 url: /cpp/aspose.cells/range/merge/
 ---
 ## Range::Merge method

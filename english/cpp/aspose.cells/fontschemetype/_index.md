@@ -4,7 +4,7 @@ linktitle: FontSchemeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FontSchemeType enum. Represents the scheme type of the font in C++.'
 type: docs
-weight: 20500
+weight: 20900
 url: /cpp/aspose.cells/fontschemetype/
 ---
 ## FontSchemeType enum

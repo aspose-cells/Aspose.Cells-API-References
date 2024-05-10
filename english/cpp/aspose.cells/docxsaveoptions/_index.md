@@ -4,7 +4,7 @@ linktitle: DocxSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DocxSaveOptions class. Represents options of saving .docx file in C++.'
 type: docs
-weight: 4700
+weight: 4900
 url: /cpp/aspose.cells/docxsaveoptions/
 ---
 ## DocxSaveOptions class

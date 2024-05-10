@@ -4,7 +4,7 @@ linktitle: CellValueType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CellValueType enum. Specifies a cell value type in C++.'
 type: docs
-weight: 18100
+weight: 18500
 url: /cpp/aspose.cells/cellvaluetype/
 ---
 ## CellValueType enum

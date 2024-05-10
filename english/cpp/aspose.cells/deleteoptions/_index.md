@@ -4,7 +4,7 @@ linktitle: DeleteOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DeleteOptions class. Represents the setting of deleting rows/columns in C++.'
 type: docs
-weight: 4500
+weight: 4700
 url: /cpp/aspose.cells/deleteoptions/
 ---
 ## DeleteOptions class

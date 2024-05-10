@@ -4,7 +4,7 @@ linktitle: GetHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range::GetHeight method. Gets the width of a range in points in C++.'
 type: docs
-weight: 2400
+weight: 2500
 url: /cpp/aspose.cells/range/getheight/
 ---
 ## Range::GetHeight method

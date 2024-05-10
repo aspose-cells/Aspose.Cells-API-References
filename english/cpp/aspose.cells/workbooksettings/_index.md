@@ -4,7 +4,7 @@ linktitle: WorkbookSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings class. Represents all settings of the workbook in C++.'
 type: docs
-weight: 15700
+weight: 16000
 url: /cpp/aspose.cells/workbooksettings/
 ---
 ## WorkbookSettings class
@@ -32,6 +32,7 @@ class WorkbookSettings
 | [GetCrashSave()](./getcrashsave/) | indicates whether the application last saved the workbook file after a crash. |
 | [GetDataExtractLoad()](./getdataextractload/) | indicates whether the application last opened the workbook for data recovery. |
 | [GetDate1904()](./getdate1904/) | Gets or sets a value which represents if the workbook uses the 1904 date system. |
+| [GetDefaultStyleSettings()](./getdefaultstylesettings/) | Gets the settings for default values of style-related properties for this workbook. |
 | [GetDisplayDrawingObjects()](./getdisplaydrawingobjects/) | Indicates whether and how to show objects in the workbook. |
 | [GetEnableMacros()](./getenablemacros/) | Enable macros;. |
 | [GetFirstVisibleTab()](./getfirstvisibletab/) | Gets or sets the first visible worksheet tab. |

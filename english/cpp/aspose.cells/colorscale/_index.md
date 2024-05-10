@@ -4,7 +4,7 @@ linktitle: ColorScale
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ColorScale class. Describe the ColorScale conditional formatting rule. This conditional formatting rule creates a gradated color scale on the cells in C++.'
 type: docs
-weight: 2300
+weight: 2400
 url: /cpp/aspose.cells/colorscale/
 ---
 ## ColorScale class

@@ -4,7 +4,7 @@ linktitle: QueryTableCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::QueryTableCollection class. A collection of QueryTableCollection objects that represent QueryTable collection information in C++.'
 type: docs
-weight: 11800
+weight: 12000
 url: /cpp/aspose.cells/querytablecollection/
 ---
 ## QueryTableCollection class

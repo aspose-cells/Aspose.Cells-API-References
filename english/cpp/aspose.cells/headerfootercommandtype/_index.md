@@ -4,7 +4,7 @@ linktitle: HeaderFooterCommandType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HeaderFooterCommandType enum. Represents the command type of header and footer in C++.'
 type: docs
-weight: 21100
+weight: 21500
 url: /cpp/aspose.cells/headerfootercommandtype/
 ---
 ## HeaderFooterCommandType enum

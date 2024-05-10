@@ -4,7 +4,7 @@ linktitle: SetIsMobileCompatible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetIsMobileCompatible method. Indicates whether the output HTML is compatible with mobile devices. The default value is false in C++.'
 type: docs
-weight: 11600
+weight: 11800
 url: /cpp/aspose.cells/htmlsaveoptions/setismobilecompatible/
 ---
 ## HtmlSaveOptions::SetIsMobileCompatible method

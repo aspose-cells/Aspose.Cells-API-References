@@ -4,7 +4,7 @@ linktitle: SetMemorySetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetMemorySetting method. Gets or sets the memory usage options. The new option will be taken as the default option for newly created worksheets but does not take effect for existing worksheets in C++.'
 type: docs
-weight: 10600
+weight: 10700
 url: /cpp/aspose.cells/workbooksettings/setmemorysetting/
 ---
 ## WorkbookSettings::SetMemorySetting method

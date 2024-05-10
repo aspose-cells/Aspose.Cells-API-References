@@ -4,7 +4,7 @@ linktitle: DxfCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DxfCollection class. Represents the master differential formatting records in C++.'
 type: docs
-weight: 4800
+weight: 5000
 url: /cpp/aspose.cells/dxfcollection/
 ---
 ## DxfCollection class

@@ -4,7 +4,7 @@ linktitle: IconSet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::IconSet class. Describe the IconSet conditional formatting rule. This conditional formatting rule applies icons to cells according to their values in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells/iconset/
 ---
 ## IconSet class

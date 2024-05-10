@@ -4,7 +4,7 @@ linktitle: SetWindowHeightInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings::SetWindowHeightInch method. The height of the window, in unit of inch in C++.'
 type: docs
-weight: 8400
+weight: 8500
 url: /cpp/aspose.cells/workbooksettings/setwindowheightinch/
 ---
 ## WorkbookSettings::SetWindowHeightInch method

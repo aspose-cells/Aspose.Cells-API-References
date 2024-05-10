@@ -24,6 +24,8 @@ class PivotItem
 | [GetDoubleValue()](./getdoublevalue/) | Gets the double value of the pivot item If the value is null or not number ,it will return 0. |
 | [GetIndex()](./getindex/) | Gets the index of the pivot item in the pivot field. |
 | [GetName()](./getname/) | Gets the name of the pivot item. |
+| [GetPosition()](./getposition/) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [GetPositionInSameParentNode()](./getpositioninsameparentnode/) | Specifying the position index in the PivotItems under the same parent node. |
 | [GetStringValue()](./getstringvalue/) | Gets the string value of the pivot item If the value is null, it will return "". |
 | [IsHidden()](./ishidden/) | Gets and Sets whether the pivot item is hidden. |
 | [IsHideDetail()](./ishidedetail/) | Gets and Sets whether the pivot item hides detail. |

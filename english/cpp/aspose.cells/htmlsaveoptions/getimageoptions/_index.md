@@ -4,7 +4,7 @@ linktitle: GetImageOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetImageOptions method. Get the ImageOrPrintOptions object before exporting in C++.'
 type: docs
-weight: 5200
+weight: 5400
 url: /cpp/aspose.cells/htmlsaveoptions/getimageoptions/
 ---
 ## HtmlSaveOptions::GetImageOptions method

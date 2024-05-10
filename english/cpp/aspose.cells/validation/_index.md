@@ -4,7 +4,7 @@ linktitle: Validation
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Validation class. Represents data validation.settings in C++.'
 type: docs
-weight: 15000
+weight: 15300
 url: /cpp/aspose.cells/validation/
 ---
 ## Validation class

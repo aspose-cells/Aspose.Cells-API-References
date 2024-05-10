@@ -4,7 +4,7 @@ linktitle: XmlSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlSaveOptions class. Represents the options of saving the workbook as an xml file in C++.'
 type: docs
-weight: 16800
+weight: 17100
 url: /cpp/aspose.cells/xmlsaveoptions/
 ---
 ## XmlSaveOptions class

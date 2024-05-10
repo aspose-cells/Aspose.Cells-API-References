@@ -4,7 +4,7 @@ linktitle: IsHideDetail
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::IsHideDetail method. Gets and Sets whether the pivot item hides detail in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells.pivot/pivotitem/ishidedetail/
 ---
 ## PivotItem::IsHideDetail method

@@ -4,7 +4,7 @@ linktitle: GetHideOverflowWrappedText
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::GetHideOverflowWrappedText method. Indicates whether to hide overflow text when the cell format is set to wrap text. The default value is false in C++.'
 type: docs
-weight: 11900
+weight: 12100
 url: /cpp/aspose.cells/htmlsaveoptions/gethideoverflowwrappedtext/
 ---
 ## HtmlSaveOptions::GetHideOverflowWrappedText method

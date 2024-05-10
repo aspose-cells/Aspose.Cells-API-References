@@ -4,7 +4,7 @@ linktitle: MemorySetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MemorySetting enum. Memory usage options in C++.'
 type: docs
-weight: 22200
+weight: 22600
 url: /cpp/aspose.cells/memorysetting/
 ---
 ## MemorySetting enum

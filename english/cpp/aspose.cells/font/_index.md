@@ -4,7 +4,7 @@ linktitle: Font
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Font class. Encapsulates the font object used in a spreadsheet in C++.'
 type: docs
-weight: 6300
+weight: 6500
 url: /cpp/aspose.cells/font/
 ---
 ## Font class

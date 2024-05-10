@@ -4,7 +4,7 @@ linktitle: PivotFieldType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldType enum. Represents PivotTable field type in C++.'
 type: docs
-weight: 2800
+weight: 2900
 url: /cpp/aspose.cells.pivot/pivotfieldtype/
 ---
 ## PivotFieldType enum

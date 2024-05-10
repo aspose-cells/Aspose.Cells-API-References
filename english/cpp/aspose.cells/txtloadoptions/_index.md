@@ -4,7 +4,7 @@ linktitle: TxtLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::TxtLoadOptions class. Represents the options for loading text file in C++.'
 type: docs
-weight: 14600
+weight: 14900
 url: /cpp/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class

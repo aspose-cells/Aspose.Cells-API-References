@@ -4,7 +4,7 @@ linktitle: PaneStateType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaneStateType enum. Represents state of the sheet''s pane in C++.'
 type: docs
-weight: 23100
+weight: 23500
 url: /cpp/aspose.cells/panestatetype/
 ---
 ## PaneStateType enum

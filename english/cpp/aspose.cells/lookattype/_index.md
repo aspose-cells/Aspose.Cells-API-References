@@ -4,7 +4,7 @@ linktitle: LookAtType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LookAtType enum. Represents look at type in C++.'
 type: docs
-weight: 22000
+weight: 22400
 url: /cpp/aspose.cells/lookattype/
 ---
 ## LookAtType enum

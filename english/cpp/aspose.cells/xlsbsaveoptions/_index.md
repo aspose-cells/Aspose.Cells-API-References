@@ -4,7 +4,7 @@ linktitle: XlsbSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XlsbSaveOptions class. Represents the options for saving xlsb file in C++.'
 type: docs
-weight: 16100
+weight: 16400
 url: /cpp/aspose.cells/xlsbsaveoptions/
 ---
 ## XlsbSaveOptions class

@@ -4,7 +4,7 @@ linktitle: IFilePathProvider
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::IFilePathProvider class. Represents the exported file path provider in C++.'
 type: docs
-weight: 8300
+weight: 8500
 url: /cpp/aspose.cells/ifilepathprovider/
 ---
 ## IFilePathProvider class

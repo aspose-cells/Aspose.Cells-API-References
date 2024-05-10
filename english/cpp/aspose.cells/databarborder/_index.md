@@ -4,7 +4,7 @@ linktitle: DataBarBorder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DataBarBorder class. Represents the border of the data bars specified by a conditional formatting rule in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells/databarborder/
 ---
 ## DataBarBorder class

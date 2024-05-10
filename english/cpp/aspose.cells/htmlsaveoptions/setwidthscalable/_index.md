@@ -4,7 +4,7 @@ linktitle: SetWidthScalable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlSaveOptions::SetWidthScalable method. Indicates whether exporting column width in unit of scale to html. The default value is false in C++.'
 type: docs
-weight: 2900
+weight: 3100
 url: /cpp/aspose.cells/htmlsaveoptions/setwidthscalable/
 ---
 ## HtmlSaveOptions::SetWidthScalable method

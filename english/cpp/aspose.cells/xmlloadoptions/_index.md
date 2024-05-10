@@ -4,7 +4,7 @@ linktitle: XmlLoadOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XmlLoadOptions class. Represents the options of loading xml in C++.'
 type: docs
-weight: 16500
+weight: 16800
 url: /cpp/aspose.cells/xmlloadoptions/
 ---
 ## XmlLoadOptions class

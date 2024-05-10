@@ -4,7 +4,7 @@ linktitle: SettableGlobalizationSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SettableGlobalizationSettings class. Implementation of GlobalizationSettings that supports user to set/change pre-defined texts in C++.'
 type: docs
-weight: 13200
+weight: 13400
 url: /cpp/aspose.cells/settableglobalizationsettings/
 ---
 ## SettableGlobalizationSettings class
