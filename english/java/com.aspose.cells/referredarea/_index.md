@@ -31,10 +31,12 @@ Represents a referred area by the formula.
 | [getValues(boolean calculateFormulas)](#getValues-boolean-) | Gets cell values in this area. |
 | [hashCode()](#hashCode--) |  |
 | [isArea()](#isArea--) | Indicates whether this is an area. |
+| [isEntireColumn()](#isEntireColumn--) | Indicates whether this area contains all rows(entire column). |
+| [isEntireRow()](#isEntireRow--) | Indicates whether this area contains all columns(entire row). |
 | [isExternalLink()](#isExternalLink--) | Indicates whether this is an external link. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns the simple string representation of this area. |
+| [toString()](#toString--) | Returns the reference address of this area. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -205,6 +207,26 @@ If this is not an area, only StartRow and StartColumn effect.
 
 **Returns:**
 boolean
+### isEntireColumn() {#isEntireColumn--}
+```
+public boolean isEntireColumn()
+```
+
+
+Indicates whether this area contains all rows(entire column).
+
+**Returns:**
+boolean
+### isEntireRow() {#isEntireRow--}
+```
+public boolean isEntireRow()
+```
+
+
+Indicates whether this area contains all columns(entire row).
+
+**Returns:**
+boolean
 ### isExternalLink() {#isExternalLink--}
 ```
 public boolean isExternalLink()
@@ -237,10 +259,10 @@ public String toString()
 ```
 
 
-Returns the simple string representation of this area.
+Returns the reference address of this area. Generally it is the address of the reference which may be used in formula, such as "Sheet1!A1:C3".
 
 **Returns:**
-java.lang.String - 
+java.lang.String - the reference address of this area.
 ### wait() {#wait--}
 ```
 public final void wait()

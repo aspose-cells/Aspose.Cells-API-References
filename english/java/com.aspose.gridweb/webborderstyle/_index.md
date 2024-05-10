@@ -32,7 +32,7 @@ Please refer to .NET SDK document for further information about System.Web.UI.We
 | [getBorderStyle()](#getBorderStyle--) | Gets the style of the border. |
 | [getBorderWidth()](#getBorderWidth--) | Gets the width of the border. |
 | [getClass()](#getClass--) |  |
-| [hashCode()](#hashCode--) |  |
+| [hashCode()](#hashCode--) | Gets the hash code of this object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.gridweb.Color-) | Sets the color of the border. |
@@ -126,10 +126,10 @@ public int hashCode()
 ```
 
 
-
+Gets the hash code of this object.
 
 **Returns:**
-int
+int - 
 ### notify() {#notify--}
 ```
 public final native void notify()

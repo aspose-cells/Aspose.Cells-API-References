@@ -20,7 +20,7 @@ Encapsulates a collection of [GridRow](../../com.aspose.gridweb/gridrow) objects
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int rowIndex)](#get-int-) | Gets a [GridRow](../../com.aspose.gridweb/gridrow) object by given row index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [getRowByIndex(int index)](#getRowByIndex-int-) | Gets the row object by the position in the list. |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets the rows enumerator |
@@ -76,7 +76,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

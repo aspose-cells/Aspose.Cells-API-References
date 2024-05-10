@@ -20,7 +20,7 @@ Represents a root object to create an Excel spreadsheet.
 | [calculateFormula()](#calculateFormula--) | Calculates the result of formulas. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getWorksheets()](#getWorksheets--) |  |
+| [getWorksheets()](#getWorksheets--) | Gets the collection of [GridWorksheet](../../com.aspose.gridweb/gridworksheet) in this workbook. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -67,7 +67,7 @@ public GridWorksheetCollection getWorksheets()
 ```
 
 
-
+Gets the collection of [GridWorksheet](../../com.aspose.gridweb/gridworksheet) in this workbook.
 
 **Returns:**
 [GridWorksheetCollection](../../com.aspose.gridweb/gridworksheetcollection)

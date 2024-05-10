@@ -17,7 +17,7 @@ Represents the size of a font.
 
 | Constructor | Description |
 | --- | --- |
-| [FontUnit()](#FontUnit--) |  |
+| [FontUnit()](#FontUnit--) | The default constructor . |
 | [FontUnit(int value)](#FontUnit-int-) | Initializes a new instance of the FontUnit class with the specified font size. |
 | [FontUnit(double value)](#FontUnit-double-) | Initializes a new instance of the FontUnit class with the specified font size in points. |
 | [FontUnit(double value, int type)](#FontUnit-double-int-) | Initializes a new instance of the FontUnit class with the specified font size and UnitType value. |
@@ -27,26 +27,26 @@ Represents the size of a font.
 
 | Field | Description |
 | --- | --- |
-| [Empty](#Empty) |  |
-| [Large](#Large) |  |
-| [Larger](#Larger) |  |
-| [Medium](#Medium) |  |
-| [Small](#Small) |  |
-| [Smaller](#Smaller) |  |
-| [XLarge](#XLarge) |  |
-| [XSmall](#XSmall) |  |
-| [XXLarge](#XXLarge) |  |
-| [XXSmall](#XXSmall) |  |
+| [Empty](#Empty) | Specifies an empty FontUnit. |
+| [Large](#Large) | Specifies a FontUnit with LARGE font. |
+| [Larger](#Larger) | Specifies a FontUnit with Larger font. |
+| [Medium](#Medium) | Specifies a FontUnit with MEDIUM font. |
+| [Small](#Small) | Specifies a FontUnit with SMALL font. |
+| [Smaller](#Smaller) | Specifies a FontUnit with Smaller font. |
+| [XLarge](#XLarge) | Specifies a FontUnit with X\_LARGE font. |
+| [XSmall](#XSmall) | Specifies a FontUnit with X\_SMALL font. |
+| [XXLarge](#XXLarge) | Specifies a FontUnit with XX\_LARGE font. |
+| [XXSmall](#XXSmall) | Specifies a FontUnit with XX\_SMALL font. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getType()](#getType--) |  |
+| [getType()](#getType--) | returns the font size type. |
 | [getUnit()](#getUnit--) | Gets a Unit that represents the font size. |
 | [hashCode()](#hashCode--) |  |
-| [isEmpty()](#isEmpty--) |  |
+| [isEmpty()](#isEmpty--) | check whether the font size is empty or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [parse(String s)](#parse-java.lang.String-) | Converts the specified string to its FontUnit equivalent. |
@@ -60,6 +60,8 @@ Represents the size of a font.
 public FontUnit()
 ```
 
+
+The default constructor .
 
 ### FontUnit(int value) {#FontUnit-int-}
 ```
@@ -133,11 +135,15 @@ public static FontUnit Empty
 ```
 
 
+Specifies an empty FontUnit.
+
 ### Large {#Large}
 ```
 public static FontUnit Large
 ```
 
+
+Specifies a FontUnit with LARGE font.
 
 ### Larger {#Larger}
 ```
@@ -145,11 +151,15 @@ public static FontUnit Larger
 ```
 
 
+Specifies a FontUnit with Larger font.
+
 ### Medium {#Medium}
 ```
 public static FontUnit Medium
 ```
 
+
+Specifies a FontUnit with MEDIUM font.
 
 ### Small {#Small}
 ```
@@ -157,11 +167,15 @@ public static FontUnit Small
 ```
 
 
+Specifies a FontUnit with SMALL font.
+
 ### Smaller {#Smaller}
 ```
 public static FontUnit Smaller
 ```
 
+
+Specifies a FontUnit with Smaller font.
 
 ### XLarge {#XLarge}
 ```
@@ -169,11 +183,15 @@ public static FontUnit XLarge
 ```
 
 
+Specifies a FontUnit with X\_LARGE font.
+
 ### XSmall {#XSmall}
 ```
 public static FontUnit XSmall
 ```
 
+
+Specifies a FontUnit with X\_SMALL font.
 
 ### XXLarge {#XXLarge}
 ```
@@ -181,11 +199,15 @@ public static FontUnit XXLarge
 ```
 
 
+Specifies a FontUnit with XX\_LARGE font.
+
 ### XXSmall {#XXSmall}
 ```
 public static FontUnit XXSmall
 ```
 
+
+Specifies a FontUnit with XX\_SMALL font.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -218,10 +240,10 @@ public int getType()
 ```
 
 
-
+returns the font size type.
 
 **Returns:**
-int
+int - 
 ### getUnit() {#getUnit--}
 ```
 public Unit getUnit()
@@ -248,10 +270,10 @@ public boolean isEmpty()
 ```
 
 
-
+check whether the font size is empty or not.
 
 **Returns:**
-boolean
+boolean - bool value
 ### notify() {#notify--}
 ```
 public final native void notify()

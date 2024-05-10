@@ -26,6 +26,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ActiveXControlBase](../com.aspose.cells/activexcontrolbase) | Represents the ActiveX control. |
 | [ActiveXPersistenceType](../com.aspose.cells/activexpersistencetype) | Represents the persistence method to persist an ActiveX control. |
 | [AdjustFontSizeForRowType](../com.aspose.cells/adjustfontsizeforrowtype) | Represents which kind of rows should be ajusted. |
+| [AdvancedFilter](../com.aspose.cells/advancedfilter) | Represents the settings of advanced filter. |
 | [ArcShape](../com.aspose.cells/arcshape) | Represents the arc shape. |
 | [Area](../com.aspose.cells/area) | Encapsulates the object that represents an area format. |
 | [AutoFillType](../com.aspose.cells/autofilltype) | Represents the auto fill type. |
@@ -80,6 +81,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [CellsException](../com.aspose.cells/cellsexception) | The exception that is thrown when Aspose.Cells specified error occurs. |
 | [CellsFactory](../com.aspose.cells/cellsfactory) | Utility for instantiating classes of Cells model. |
 | [CellsHelper](../com.aspose.cells/cellshelper) | Provides helper functions. |
+| [CellsUnitType](../com.aspose.cells/cellsunittype) | Specifies the unit of measurement. |
 | [CharacterBulletValue](../com.aspose.cells/characterbulletvalue) | Represents the character bullet. |
 | [Chart](../com.aspose.cells/chart) | Encapsulates the object that represents a single Excel chart. |
 | [ChartArea](../com.aspose.cells/chartarea) | Encapsulates the object that represents the chart area in the worksheet. |

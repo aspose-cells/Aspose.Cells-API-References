@@ -28,9 +28,9 @@ Encapsulates a collection of [GridWorksheet](../../com.aspose.gridweb/gridworksh
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridWorksheet](../../com.aspose.gridweb/gridworksheet) element at the specified index. |
 | [get(String sheetName)](#get-java.lang.String-) | Gets the [GridWorksheet](../../com.aspose.gridweb/gridworksheet) element with the specified name. |
-| [getActiveSheetIndex()](#getActiveSheetIndex--) |  |
+| [getActiveSheetIndex()](#getActiveSheetIndex--) | Represents the index of active worksheet when the spreadsheet is opened. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
 | [getDefaultFontSize()](#getDefaultFontSize--) | ????????? |
 | [getNames()](#getNames--) | Gets the collection of all the Name objects in the spreadsheet. |
@@ -43,11 +43,11 @@ Encapsulates a collection of [GridWorksheet](../../com.aspose.gridweb/gridworksh
 | [notifyAll()](#notifyAll--) |  |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at a specified index. |
 | [removeAt(String name)](#removeAt-java.lang.String-) | Removes the element at a specified name. |
-| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) |  |
+| [setActiveSheetIndex(int value)](#setActiveSheetIndex-int-) | Represents the index of active worksheet when the spreadsheet is opened. |
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
 | [setDefaultFontSize(FontUnit value)](#setDefaultFontSize-com.aspose.gridweb.FontUnit-) | ????????? |
 | [setNumberDecimalSeparator(char value)](#setNumberDecimalSeparator-char-) | Sets the decimal separator for formatting/parsing numeric values. |
-| [setVisible(String name, boolean v)](#setVisible-java.lang.String-boolean-) | Sets the visible options. |
+| [setVisible(String sheetName, boolean isVisible)](#setVisible-java.lang.String-boolean-) | Sets the visible for the sheet . |
 | [swapSheet(int sheetIndex1, int sheetIndex2)](#swapSheet-int-int-) | Swaps the two sheets. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -209,7 +209,11 @@ public int getActiveSheetIndex()
 ```
 
 
+Represents the index of active worksheet when the spreadsheet is opened.
 
+**Remarks**
+
+Sheet index is zero based.
 
 **Returns:**
 int
@@ -229,7 +233,7 @@ public int getCount()
 ```
 
 
-Gets the number of elements contained in the CollectionBase instance.
+Gets the size of enumerator
 
 **Returns:**
 int
@@ -379,7 +383,11 @@ public void setActiveSheetIndex(int value)
 ```
 
 
+Represents the index of active worksheet when the spreadsheet is opened.
 
+**Remarks**
+
+Sheet index is zero based.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -425,19 +433,19 @@ Sets the decimal separator for formatting/parsing numeric values. Default is the
 | --- | --- | --- |
 | value | char |  |
 
-### setVisible(String name, boolean v) {#setVisible-java.lang.String-boolean-}
+### setVisible(String sheetName, boolean isVisible) {#setVisible-java.lang.String-boolean-}
 ```
-public void setVisible(String name, boolean v)
+public void setVisible(String sheetName, boolean isVisible)
 ```
 
 
-Sets the visible options.
+Sets the visible for the sheet .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String |  |
-| v | boolean |  |
+| sheetName | java.lang.String | Name of source worksheet. |
+| isVisible | boolean | Whether the worksheet is visible |
 
 ### swapSheet(int sheetIndex1, int sheetIndex2) {#swapSheet-int-int-}
 ```

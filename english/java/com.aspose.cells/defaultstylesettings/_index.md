@@ -18,6 +18,7 @@ Settings for the default values of workbook's style properties.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBuiltInPreference()](#getBuiltInPreference--) | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. |
 | [getClass()](#getClass--) |  |
 | [getFontName()](#getFontName--) | Gets the default font name for the workbook |
 | [getFontSize()](#getFontSize--) | Gets the default standard font size for the workbook. |
@@ -26,6 +27,7 @@ Settings for the default values of workbook's style properties.
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setBuiltInPreference(boolean value)](#setBuiltInPreference-boolean-) | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. |
 | [setFontName(String value)](#setFontName-java.lang.String-) | Sets the default font name for the workbook |
 | [setFontSize(double value)](#setFontSize-double-) | Sets the default standard font size for the workbook. |
 | [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Sets the default value for horizontal alignment |
@@ -46,6 +48,20 @@ public boolean equals(Object arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getBuiltInPreference() {#getBuiltInPreference--}
+```
+public boolean getBuiltInPreference()
+```
+
+
+Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+
+**Remarks**
+
+When loading workbook from existing template file, maybe both built-in number and custom pattern are defined for one style. This property determine whether we should use the built-in number or the custom pattern when formatting values with the style.
 
 **Returns:**
 boolean
@@ -128,6 +144,23 @@ public final native void notifyAll()
 
 
 
+
+### setBuiltInPreference(boolean value) {#setBuiltInPreference-boolean-}
+```
+public void setBuiltInPreference(boolean value)
+```
+
+
+Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style.
+
+**Remarks**
+
+When loading workbook from existing template file, maybe both built-in number and custom pattern are defined for one style. This property determine whether we should use the built-in number or the custom pattern when formatting values with the style.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setFontName(String value) {#setFontName-java.lang.String-}
 ```

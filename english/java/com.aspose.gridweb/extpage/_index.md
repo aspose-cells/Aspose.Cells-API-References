@@ -25,7 +25,7 @@ Represents GridWeb java bean
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBean()](#getBean--) | get GridWebBean by the servlet request of the current page |
 | [getClass()](#getClass--) |  |
-| [getInstance()](#getInstance--) |  |
+| [getInstance()](#getInstance--) | get instance of ExtPage which manages GridWebBean |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -80,10 +80,10 @@ public static ExtPage getInstance()
 ```
 
 
-
+get instance of ExtPage which manages GridWebBean
 
 **Returns:**
-[ExtPage](../../com.aspose.gridweb/extpage)
+[ExtPage](../../com.aspose.gridweb/extpage) - 
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

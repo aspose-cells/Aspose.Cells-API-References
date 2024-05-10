@@ -17,10 +17,10 @@ gridline style for a GridView control.
 
 | Field | Description |
 | --- | --- |
-| [BOTH](#BOTH) |  |
-| [HORIZONTAL](#HORIZONTAL) |  |
-| [NONE](#NONE) |  |
-| [VERTICAL](#VERTICAL) |  |
+| [BOTH](#BOTH) | gridlines are visible for both horizontal and vertical lines. |
+| [HORIZONTAL](#HORIZONTAL) | gridlines are visible only for horizontal lines. |
+| [NONE](#NONE) | gridlines are not visible. |
+| [VERTICAL](#VERTICAL) | gridlines are visible only for vertical lines. |
 ## Methods
 
 | Method | Description |
@@ -40,11 +40,15 @@ public static final int BOTH
 ```
 
 
+gridlines are visible for both horizontal and vertical lines.
+
 ### HORIZONTAL {#HORIZONTAL}
 ```
 public static final int HORIZONTAL
 ```
 
+
+gridlines are visible only for horizontal lines.
 
 ### NONE {#NONE}
 ```
@@ -52,11 +56,15 @@ public static final int NONE
 ```
 
 
+gridlines are not visible.
+
 ### VERTICAL {#VERTICAL}
 ```
 public static final int VERTICAL
 ```
 
+
+gridlines are visible only for vertical lines.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

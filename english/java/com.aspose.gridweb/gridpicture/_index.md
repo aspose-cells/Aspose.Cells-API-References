@@ -20,13 +20,13 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 
 | Method | Description |
 | --- | --- |
-| [addHyperlink(String param_string)](#addHyperlink-java.lang.String-) | Adds a hyperlink to the shape. |
+| [addHyperlink(String address)](#addHyperlink-java.lang.String-) | Adds a hyperlink to the shape. |
 | [alignTopRightCorner(int topRow, int rightColumn)](#alignTopRightCorner-int-int-) | Moves the picture to the top-right corner. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlternativeText()](#getAlternativeText--) |  |
+| [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the [GridShape](../../com.aspose.gridweb/gridshape) object. |
 | [getBorderLineColor()](#getBorderLineColor--) | Represents the [Color](../../com.aspose.cells/color) of the border line of a picture. |
 | [getBorderWeight()](#getBorderWeight--) | Gets the weight of the border line of a picture in units of pt. |
-| [getBottom()](#getBottom--) |  |
+| [getBottom()](#getBottom--) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [getClass()](#getClass--) |  |
 | [getData()](#getData--) | Gets the data of the picture. |
 | [getHeight()](#getHeight--) | Represents the height of shape, in unit of pixel. |
@@ -59,7 +59,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getRotationAngle()](#getRotationAngle--) | Gets the rotation of the shape. |
 | [getSourceFullName()](#getSourceFullName--) | Gets the path and name of the source file for the linked image. |
 | [getText()](#getText--) | Represents the string in this TextBox object. |
-| [getTitle()](#getTitle--) |  |
+| [getTitle()](#getTitle--) | Specifies the title (caption) of the current shape object. |
 | [getTop()](#getTop--) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [getTopCM()](#getTopCM--) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [getTopInch()](#getTopInch--) | Represents the vertical offset of shape from its top row, in unit of inches. |
@@ -85,15 +85,15 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [isLocked()](#isLocked--) | True if the object is locked, False if the object can be modified when the sheet is protected. |
 | [isTextWrapped()](#isTextWrapped--) | Gets the text wrapped type of the shape which contains text. |
 | [move(int upperLeftRow, int upperLeftColumn)](#move-int-int-) | Moves the picture to a specified location. |
-| [moveToRange(int param0_int, int param1_int, int param2_int, int param3_int)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
+| [moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeHyperlink()](#removeHyperlink--) | Remove the hyperlink of the shape. |
 | [saveToImage(InputStream s)](#saveToImage-java.io.InputStream-) | Creates the image and saves it to a stream . |
-| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) |  |
+| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the descriptive (alternative) text string of the [GridShape](../../com.aspose.gridweb/gridshape) object. |
 | [setBorderLineColor(Color value)](#setBorderLineColor-com.aspose.gridweb.Color-) | Represents the [Color](../../com.aspose.cells/color) of the border line of a picture. |
 | [setBorderWeight(double value)](#setBorderWeight-double-) | Sets the weight of the border line of a picture in units of pt. |
-| [setBottom(int value)](#setBottom-int-) |  |
+| [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [setData(byte[] value)](#setData-byte---) | Gets the data of the picture. |
 | [setFlippedVertically(boolean value)](#setFlippedVertically-boolean-) | Sets whether shape is vertically flipped . |
 | [setHasLine(boolean value)](#setHasLine-boolean-) | Sets the line border of the shape is visible. |
@@ -123,7 +123,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Sets the path and name of the source file for the linked image. |
 | [setText(String value)](#setText-java.lang.String-) | Represents the string in this TextBox object. |
 | [setTextWrapped(boolean value)](#setTextWrapped-boolean-) | Sets the text wrapped type of the shape which contains text. |
-| [setTitle(String value)](#setTitle-java.lang.String-) |  |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Specifies the title (caption) of the current shape object. |
 | [setTop(int value)](#setTop-int-) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [setTopCM(double value)](#setTopCM-double-) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [setTopInch(double value)](#setTopInch-double-) | Represents the vertical offset of shape from its top row, in unit of inches. |
@@ -144,9 +144,9 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### addHyperlink(String param_string) {#addHyperlink-java.lang.String-}
+### addHyperlink(String address) {#addHyperlink-java.lang.String-}
 ```
-public GridHyperlink addHyperlink(String param_string)
+public GridHyperlink addHyperlink(String address)
 ```
 
 
@@ -155,7 +155,7 @@ Adds a hyperlink to the shape.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| param_string | java.lang.String |  |
+| address | java.lang.String | Address of the hyperlink. |
 
 **Returns:**
 [GridHyperlink](../../com.aspose.gridweb/gridhyperlink) - Return the new hyperlink object.
@@ -194,7 +194,7 @@ public String getAlternativeText()
 ```
 
 
-
+Returns or sets the descriptive (alternative) text string of the [GridShape](../../com.aspose.gridweb/gridshape) object.
 
 **Returns:**
 java.lang.String
@@ -224,7 +224,7 @@ public int getBottom()
 ```
 
 
-
+Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
 
 **Returns:**
 int
@@ -560,7 +560,7 @@ public String getTitle()
 ```
 
 
-
+Specifies the title (caption) of the current shape object.
 
 **Returns:**
 java.lang.String
@@ -826,9 +826,9 @@ Moves the picture to a specified location.
 | upperLeftRow | int | Upper left row index. |
 | upperLeftColumn | int | Upper left column index. |
 
-### moveToRange(int param0_int, int param1_int, int param2_int, int param3_int) {#moveToRange-int-int-int-int-}
+### moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn) {#moveToRange-int-int-int-int-}
 ```
-public void moveToRange(int param0_int, int param1_int, int param2_int, int param3_int)
+public void moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)
 ```
 
 
@@ -837,10 +837,10 @@ Moves the shape to a specified range.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| param0_int | int |  |
-| param1_int | int |  |
-| param2_int | int |  |
-| param3_int | int |  |
+| upperLeftRow | int | Upper left row index. |
+| upperLeftColumn | int | Upper left column index. |
+| lowerRightRow | int | Lower right row index |
+| lowerRightColumn | int | Lower right column index |
 
 ### notify() {#notify--}
 ```
@@ -885,7 +885,7 @@ public void setAlternativeText(String value)
 ```
 
 
-
+Returns or sets the descriptive (alternative) text string of the [GridShape](../../com.aspose.gridweb/gridshape) object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -924,7 +924,7 @@ public void setBottom(int value)
 ```
 
 
-
+Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1318,7 +1318,7 @@ public void setTitle(String value)
 ```
 
 
-
+Specifies the title (caption) of the current shape object.
 
 **Parameters:**
 | Parameter | Type | Description |

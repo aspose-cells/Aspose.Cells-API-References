@@ -21,7 +21,7 @@ Encapsulates a collection of [GridPivotItem](../../com.aspose.gridweb/gridpivoti
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridPivotItem](../../com.aspose.gridweb/gridpivotitem) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,7 +40,7 @@ Adds a PivotItem Object to the specific type PivotItems.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [GridPivotItem](../../com.aspose.gridweb/gridpivotitem) |  |
+| item | [GridPivotItem](../../com.aspose.gridweb/gridpivotitem) | a GridPivotItem Object. |
 
 **Returns:**
 int - the index of the PivotItem Object in this PivotItems.
@@ -90,7 +90,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

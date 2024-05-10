@@ -23,7 +23,7 @@ Encapsulates a collection of [GridName](../../com.aspose.gridweb/gridname) objec
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridName](../../com.aspose.gridweb/gridname) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets the rows enumerator |
 | [notify()](#notify--) |  |
@@ -121,7 +121,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

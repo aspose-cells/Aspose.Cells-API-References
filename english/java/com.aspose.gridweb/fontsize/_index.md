@@ -22,17 +22,17 @@ The FontSize represents font size information for a web control.
 
 | Field | Description |
 | --- | --- |
-| [AS_UNIT](#AS-UNIT) |  |
-| [LARGE](#LARGE) |  |
-| [LARGER](#LARGER) |  |
-| [MEDIUM](#MEDIUM) |  |
-| [NOT_SET](#NOT-SET) |  |
-| [SMALL](#SMALL) |  |
-| [SMALLER](#SMALLER) |  |
-| [XX_LARGE](#XX-LARGE) |  |
-| [XX_SMALL](#XX-SMALL) |  |
-| [X_LARGE](#X-LARGE) |  |
-| [X_SMALL](#X-SMALL) |  |
+| [AS_UNIT](#AS-UNIT) | The font size is specified as point values. |
+| [LARGE](#LARGE) | The font size is large. |
+| [LARGER](#LARGER) | The font size is larger. |
+| [MEDIUM](#MEDIUM) | The font size is medium. |
+| [NOT_SET](#NOT-SET) | The font size is not set. |
+| [SMALL](#SMALL) | The font size is small. |
+| [SMALLER](#SMALLER) | The font size is smaller. |
+| [XX_LARGE](#XX-LARGE) | The font size is extra extra large. |
+| [XX_SMALL](#XX-SMALL) | The font size is extra extra small. |
+| [X_LARGE](#X-LARGE) | The font size is extra large. |
+| [X_SMALL](#X-SMALL) | The font size is extra small. |
 ## Methods
 
 | Method | Description |
@@ -58,11 +58,15 @@ public static int AS_UNIT
 ```
 
 
+The font size is specified as point values.
+
 ### LARGE {#LARGE}
 ```
 public static int LARGE
 ```
 
+
+The font size is large.
 
 ### LARGER {#LARGER}
 ```
@@ -70,11 +74,15 @@ public static int LARGER
 ```
 
 
+The font size is larger.
+
 ### MEDIUM {#MEDIUM}
 ```
 public static int MEDIUM
 ```
 
+
+The font size is medium.
 
 ### NOT_SET {#NOT-SET}
 ```
@@ -82,11 +90,15 @@ public static int NOT_SET
 ```
 
 
+The font size is not set.
+
 ### SMALL {#SMALL}
 ```
 public static int SMALL
 ```
 
+
+The font size is small.
 
 ### SMALLER {#SMALLER}
 ```
@@ -94,11 +106,15 @@ public static int SMALLER
 ```
 
 
+The font size is smaller.
+
 ### XX_LARGE {#XX-LARGE}
 ```
 public static int XX_LARGE
 ```
 
+
+The font size is extra extra large.
 
 ### XX_SMALL {#XX-SMALL}
 ```
@@ -106,17 +122,23 @@ public static int XX_SMALL
 ```
 
 
+The font size is extra extra small.
+
 ### X_LARGE {#X-LARGE}
 ```
 public static int X_LARGE
 ```
 
 
+The font size is extra large.
+
 ### X_SMALL {#X-SMALL}
 ```
 public static int X_SMALL
 ```
 
+
+The font size is extra small.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

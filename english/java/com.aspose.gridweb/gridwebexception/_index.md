@@ -17,7 +17,7 @@ The exception that is thrown when Aspose.Cells.GridWeb specified error occurs.
 
 | Constructor | Description |
 | --- | --- |
-| [GridWebException(String m)](#GridWebException-java.lang.String-) |  |
+| [GridWebException(String m)](#GridWebException-java.lang.String-) | the default constructor |
 ## Methods
 
 | Method | Description |
@@ -49,10 +49,12 @@ public GridWebException(String m)
 ```
 
 
+the default constructor
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| m | java.lang.String |  |
+| m | java.lang.String | the exception message |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```

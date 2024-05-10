@@ -25,6 +25,7 @@ Specifies write protection settings for a workbook.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | Gets the author. |
 | [getClass()](#getClass--) |  |
+| [getPassword()](#getPassword--) | Sets the protected password to modify the file. |
 | [getRecommendReadOnly()](#getRecommendReadOnly--) | Indicates if the Read Only Recommended option is selected. |
 | [hashCode()](#hashCode--) |  |
 | [isWriteProtected()](#isWriteProtected--) | Indicates whether this workbook is write protected. |
@@ -79,6 +80,18 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getPassword() {#getPassword--}
+```
+public String getPassword()
+```
+
+
+Sets the protected password to modify the file.
+
+**Remarks**
+
+**Returns:**
+java.lang.String
 ### getRecommendReadOnly() {#getRecommendReadOnly--}
 ```
 public boolean getRecommendReadOnly()
@@ -145,6 +158,8 @@ public void setPassword(String value)
 
 
 Sets the protected password to modify the file.
+
+**Remarks**
 
 **Parameters:**
 | Parameter | Type | Description |

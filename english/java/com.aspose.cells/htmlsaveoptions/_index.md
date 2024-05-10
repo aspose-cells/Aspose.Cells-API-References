@@ -24,6 +24,7 @@ Represents the options for saving html file.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAddGenericFont()](#getAddGenericFont--) | Indicates whether to add a generic font to CSS font-family. |
 | [getAddTooltipText()](#getAddTooltipText--) | Indicates whether adding tooltip text when the data can't be fully displayed. |
 | [getAttachedFilesDirectory()](#getAttachedFilesDirectory--) | The directory that the attached files will be saved to. |
 | [getAttachedFilesUrlPrefix()](#getAttachedFilesUrlPrefix--) | Specify the Url prefix of attached files such as image in the html file. |
@@ -92,6 +93,7 @@ Represents the options for saving html file.
 | [getWidthScalable()](#getWidthScalable--) | Indicates whether exporting column width in unit of scale to html. |
 | [getWorksheetScalable()](#getWorksheetScalable--) | Indicates if zooming in or out the html via worksheet zoom level when saving file to html, the default value is false. |
 | [hashCode()](#hashCode--) |  |
+| [isBorderCollapsed()](#isBorderCollapsed--) | Indicates whether the table borders are collapsed. |
 | [isExpImageToTempDir()](#isExpImageToTempDir--) | Indicates whether exporting image files to temp directory. |
 | [isExportComments()](#isExportComments--) | Indicates if exporting comments when saving file to html, the default value is false. |
 | [isFullPathLink()](#isFullPathLink--) | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. |
@@ -100,9 +102,11 @@ Represents the options for saving html file.
 | [isMobileCompatible()](#isMobileCompatible--) | Indicates whether the output HTML is compatible with mobile devices. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAddGenericFont(boolean value)](#setAddGenericFont-boolean-) | Indicates whether to add a generic font to CSS font-family. |
 | [setAddTooltipText(boolean value)](#setAddTooltipText-boolean-) | Indicates whether adding tooltip text when the data can't be fully displayed. |
 | [setAttachedFilesDirectory(String value)](#setAttachedFilesDirectory-java.lang.String-) | The directory that the attached files will be saved to. |
 | [setAttachedFilesUrlPrefix(String value)](#setAttachedFilesUrlPrefix-java.lang.String-) | Specify the Url prefix of attached files such as image in the html file. |
+| [setBorderCollapsed(boolean value)](#setBorderCollapsed-boolean-) | Indicates whether the table borders are collapsed. |
 | [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | The cached file folder is used to store some large data. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Indicates whether to calculate formulas before saving html file. |
 | [setCellCssPrefix(String value)](#setCellCssPrefix-java.lang.String-) | Sets the prefix of the css name,the default value is "". |
@@ -207,6 +211,16 @@ public boolean equals(Object arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAddGenericFont() {#getAddGenericFont--}
+```
+public boolean getAddGenericFont()
+```
+
+
+Indicates whether to add a generic font to CSS font-family. The default value is true
 
 **Returns:**
 boolean
@@ -962,6 +976,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isBorderCollapsed() {#isBorderCollapsed--}
+```
+public boolean isBorderCollapsed()
+```
+
+
+Indicates whether the table borders are collapsed. The default value is true.
+
+**Returns:**
+boolean
 ### isExpImageToTempDir() {#isExpImageToTempDir--}
 ```
 public boolean isExpImageToTempDir()
@@ -1038,6 +1062,19 @@ public final native void notifyAll()
 
 
 
+### setAddGenericFont(boolean value) {#setAddGenericFont-boolean-}
+```
+public void setAddGenericFont(boolean value)
+```
+
+
+Indicates whether to add a generic font to CSS font-family. The default value is true
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setAddTooltipText(boolean value) {#setAddTooltipText-boolean-}
 ```
 public void setAddTooltipText(boolean value)
@@ -1076,6 +1113,19 @@ Specify the Url prefix of attached files such as image in the html file. Only fo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setBorderCollapsed(boolean value) {#setBorderCollapsed-boolean-}
+```
+public void setBorderCollapsed(boolean value)
+```
+
+
+Indicates whether the table borders are collapsed. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
 ```

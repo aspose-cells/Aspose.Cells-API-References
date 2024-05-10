@@ -17,11 +17,11 @@ Encapsulates a collection of [GridShape](../../com.aspose.gridweb/gridshape) obj
 
 | Method | Description |
 | --- | --- |
-| [clear()](#clear--) |  |
+| [clear()](#clear--) | Clear all shapes. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridShape](../../com.aspose.gridweb/gridshape) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets the rows enumerator |
 | [notify()](#notify--) |  |
@@ -36,7 +36,7 @@ public void clear()
 ```
 
 
-
+Clear all shapes.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -84,7 +84,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

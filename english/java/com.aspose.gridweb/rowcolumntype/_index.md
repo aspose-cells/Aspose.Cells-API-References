@@ -1,32 +1,24 @@
 ---
-title: BorderStyle
+title: RowColumnType
 second_title: Aspose.Cells for Java API Reference
-description: The BorderStyle   represents the different border style options for a web control..
+description: Represents the row/column type of the row/column events.
 type: docs
-url: /java/com.aspose.gridweb/borderstyle/
+url: /java/com.aspose.gridweb/rowcolumntype/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public final class BorderStyle
+public final class RowColumnType
 ```
 
-The BorderStyle represents the different border style options for a web control..
+Represents the row/column type of the row/column events.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [DASHED](#DASHED) | Represents dashed line. |
-| [DOTTED](#DOTTED) | Represents dotted line. |
-| [DOUBLE](#DOUBLE) | Represents double line. |
-| [GROOVE](#GROOVE) | Represents groove line. |
-| [INSET](#INSET) | Represents inset line. |
-| [NONE](#NONE) | Represents no line. |
-| [NOT_SET](#NOT-SET) | Represents no set line. |
-| [OUTSET](#OUTSET) | Represents outset line. |
-| [RIDGE](#RIDGE) | Represents ridge line. |
-| [SOLID](#SOLID) | Represents solid line. |
+| [COLUMN](#COLUMN) | Column type. |
+| [ROW](#ROW) | Row type. |
 ## Methods
 
 | Method | Description |
@@ -40,85 +32,21 @@ The BorderStyle represents the different border style options for a web control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DASHED {#DASHED}
+### COLUMN {#COLUMN}
 ```
-public static final int DASHED
-```
-
-
-Represents dashed line.
-
-### DOTTED {#DOTTED}
-```
-public static final int DOTTED
+public static final int COLUMN
 ```
 
 
-Represents dotted line.
+Column type.
 
-### DOUBLE {#DOUBLE}
+### ROW {#ROW}
 ```
-public static final int DOUBLE
-```
-
-
-Represents double line.
-
-### GROOVE {#GROOVE}
-```
-public static final int GROOVE
+public static final int ROW
 ```
 
 
-Represents groove line.
-
-### INSET {#INSET}
-```
-public static final int INSET
-```
-
-
-Represents inset line.
-
-### NONE {#NONE}
-```
-public static final int NONE
-```
-
-
-Represents no line.
-
-### NOT_SET {#NOT-SET}
-```
-public static final int NOT_SET
-```
-
-
-Represents no set line.
-
-### OUTSET {#OUTSET}
-```
-public static final int OUTSET
-```
-
-
-Represents outset line.
-
-### RIDGE {#RIDGE}
-```
-public static final int RIDGE
-```
-
-
-Represents ridge line.
-
-### SOLID {#SOLID}
-```
-public static final int SOLID
-```
-
-
-Represents solid line.
+Row type.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -25,7 +25,7 @@ Encapsulates a collection of [GridComment](../../com.aspose.gridweb/gridcomment)
 | [get(int row, int column)](#get-int-int-) | Gets the [GridComment](../../com.aspose.gridweb/gridcomment) element at the specified row index and column index. |
 | [get(String cellName)](#get-java.lang.String-) | Gets the [GridComment](../../com.aspose.gridweb/gridcomment) element at the specified cell. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets the rows enumerator |
 | [notify()](#notify--) |  |
@@ -152,7 +152,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

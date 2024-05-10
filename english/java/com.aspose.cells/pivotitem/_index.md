@@ -23,6 +23,8 @@ Represents a item in a PivotField report.
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
 | [getIndex()](#getIndex--) | Gets the index of the pivot item in the pivot field |
 | [getName()](#getName--) | Gets the name of the pivot item. |
+| [getPosition()](#getPosition--) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [getPositionInSameParentNode()](#getPositionInSameParentNode--) | Specifying the position index in the PivotItems under the same parent node. |
 | [getStringValue()](#getStringValue--) | Gets the string value of the pivot item If the value is null, it will return "" |
 | [getValue()](#getValue--) | Gets the value of the pivot item |
 | [hashCode()](#hashCode--) |  |
@@ -107,6 +109,26 @@ Gets the name of the pivot item.
 
 **Returns:**
 java.lang.String
+### getPosition() {#getPosition--}
+```
+public int getPosition()
+```
+
+
+Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+
+**Returns:**
+int
+### getPositionInSameParentNode() {#getPositionInSameParentNode--}
+```
+public int getPositionInSameParentNode()
+```
+
+
+Specifying the position index in the PivotItems under the same parent node.
+
+**Returns:**
+int
 ### getStringValue() {#getStringValue--}
 ```
 public String getStringValue()

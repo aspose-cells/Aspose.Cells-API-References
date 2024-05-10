@@ -39,7 +39,7 @@ Represents the options for saving pdf file.
 | [getDefaultFont()](#getDefaultFont--) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [getDisplayDocTitle()](#getDisplayDocTitle--) | Indicates whether the window's title bar should display the document title. |
 | [getDrawObjectEventHandler()](#getDrawObjectEventHandler--) | Implements this interface to get DrawObject and Bound when rendering. |
-| [getEmbedAttachments()](#getEmbedAttachments--) | Indicates whether to embed attchment for Ole objects in Excel. |
+| [getEmbedAttachments()](#getEmbedAttachments--) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [getEmbedStandardWindowsFonts()](#getEmbedStandardWindowsFonts--) | True to embed true type fonts. |
 | [getEmfRenderSetting()](#getEmfRenderSetting--) | Setting for rendering Emf metafile. |
 | [getExportDocumentStructure()](#getExportDocumentStructure--) | Indicates whether to export document structure. |
@@ -87,7 +87,7 @@ Represents the options for saving pdf file.
 | [setDefaultFont(String value)](#setDefaultFont-java.lang.String-) | When characters in the Excel are Unicode and not be set with correct font in cell style, They may appear as block in pdf,image. |
 | [setDisplayDocTitle(boolean value)](#setDisplayDocTitle-boolean-) | Indicates whether the window's title bar should display the document title. |
 | [setDrawObjectEventHandler(DrawObjectEventHandler value)](#setDrawObjectEventHandler-com.aspose.cells.DrawObjectEventHandler-) | Implements this interface to get DrawObject and Bound when rendering. |
-| [setEmbedAttachments(boolean value)](#setEmbedAttachments-boolean-) | Indicates whether to embed attchment for Ole objects in Excel. |
+| [setEmbedAttachments(boolean value)](#setEmbedAttachments-boolean-) | Indicates whether to embed attachment for Ole objects in Excel. |
 | [setEmbedStandardWindowsFonts(boolean value)](#setEmbedStandardWindowsFonts-boolean-) | True to embed true type fonts. |
 | [setEmfRenderSetting(int value)](#setEmfRenderSetting-int-) | Setting for rendering Emf metafile. |
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean-) | Indicates whether to export document structure. |
@@ -348,7 +348,7 @@ public boolean getEmbedAttachments()
 ```
 
 
-Indicates whether to embed attchment for Ole objects in Excel.
+Indicates whether to embed attachment for Ole objects in Excel.
 
 **Remarks**
 
@@ -1133,7 +1133,7 @@ public void setEmbedAttachments(boolean value)
 ```
 
 
-Indicates whether to embed attchment for Ole objects in Excel.
+Indicates whether to embed attachment for Ole objects in Excel.
 
 **Remarks**
 

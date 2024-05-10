@@ -17,7 +17,7 @@ Represents a length measurement
 
 | Constructor | Description |
 | --- | --- |
-| [Unit()](#Unit--) |  |
+| [Unit()](#Unit--) | the default constructor |
 | [Unit(double value, int type)](#Unit-double-int-) | Initializes a new instance of the Unit structure with the specified double precision floating point number and UnitType. |
 | [Unit(double value)](#Unit-double-) | Initializes a new instance of the Unit structure with the specified double precision floating point number. |
 | [Unit(int value)](#Unit-int-) | Initializes a new instance of the Unit structure with the specified 32-bit signed integer. |
@@ -32,7 +32,7 @@ Represents a length measurement
 | [getType()](#getType--) | Gets the unit type of the Unit. |
 | [getValue()](#getValue--) | Gets the length of the Unit. |
 | [hashCode()](#hashCode--) |  |
-| [isEmpty()](#isEmpty--) |  |
+| [isEmpty()](#isEmpty--) | Gets a value indicating whether the Unit is empty. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [parse(String s)](#parse-java.lang.String-) | Converts the specified string to a Unit. |
@@ -48,6 +48,8 @@ Represents a length measurement
 public Unit()
 ```
 
+
+the default constructor
 
 ### Unit(double value, int type) {#Unit-double-int-}
 ```
@@ -178,10 +180,10 @@ public boolean isEmpty()
 ```
 
 
-
+Gets a value indicating whether the Unit is empty.
 
 **Returns:**
-boolean
+boolean - 
 ### notify() {#notify--}
 ```
 public final native void notify()

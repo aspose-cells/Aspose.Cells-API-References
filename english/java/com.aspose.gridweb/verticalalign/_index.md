@@ -17,10 +17,10 @@ vertical alignment of a GridView control
 
 | Field | Description |
 | --- | --- |
-| [BOTTOM](#BOTTOM) |  |
-| [MIDDLE](#MIDDLE) |  |
-| [NOT_SET](#NOT-SET) |  |
-| [TOP](#TOP) |  |
+| [BOTTOM](#BOTTOM) | The object or text is aligned with the bottom of the enclosing control. |
+| [MIDDLE](#MIDDLE) | The object or text is placed across the vertical center of the enclosing control. |
+| [NOT_SET](#NOT-SET) | alignment property is not set. |
+| [TOP](#TOP) | The object or text is aligned with the top of the enclosing control. |
 ## Methods
 
 | Method | Description |
@@ -40,11 +40,15 @@ public static final int BOTTOM
 ```
 
 
+The object or text is aligned with the bottom of the enclosing control.
+
 ### MIDDLE {#MIDDLE}
 ```
 public static final int MIDDLE
 ```
 
+
+The object or text is placed across the vertical center of the enclosing control.
 
 ### NOT_SET {#NOT-SET}
 ```
@@ -52,11 +56,15 @@ public static final int NOT_SET
 ```
 
 
+alignment property is not set.
+
 ### TOP {#TOP}
 ```
 public static final int TOP
 ```
 
+
+The object or text is aligned with the top of the enclosing control.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -19,9 +19,9 @@ NOTE: This class is now obsolete. please use GridCellArea Instead. This class wi
 
 | Constructor | Description |
 | --- | --- |
-| [WebCellArea()](#WebCellArea--) |  |
-| [WebCellArea(int startrow, int startcol, int endrow, int endcol)](#WebCellArea-int-int-int-int-) |  |
-| [WebCellArea(GridCellArea ca)](#WebCellArea-com.aspose.gridweb.GridCellArea-) |  |
+| [WebCellArea()](#WebCellArea--) | the default constructor. |
+| [WebCellArea(int startrow, int startcol, int endrow, int endcol)](#WebCellArea-int-int-int-int-) | the constructor. |
+| [WebCellArea(GridCellArea ca)](#WebCellArea-com.aspose.gridweb.GridCellArea-) | the constructor. |
 ## Fields
 
 | Field | Description |
@@ -39,7 +39,7 @@ NOTE: This class is now obsolete. please use GridCellArea Instead. This class wi
 | [hashCode()](#hashCode--) | Get the hashcode. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toGridCellArea()](#toGridCellArea--) |  |
+| [toGridCellArea()](#toGridCellArea--) | to GridCellArea. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,11 +50,15 @@ public WebCellArea()
 ```
 
 
+the default constructor.
+
 ### WebCellArea(int startrow, int startcol, int endrow, int endcol) {#WebCellArea-int-int-int-int-}
 ```
 public WebCellArea(int startrow, int startcol, int endrow, int endcol)
 ```
 
+
+the constructor.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -69,6 +73,8 @@ public WebCellArea(int startrow, int startcol, int endrow, int endcol)
 public WebCellArea(GridCellArea ca)
 ```
 
+
+the constructor.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -164,7 +170,7 @@ public GridCellArea toGridCellArea()
 ```
 
 
-
+to GridCellArea.
 
 **Returns:**
 [GridCellArea](../../com.aspose.gridweb/gridcellarea)

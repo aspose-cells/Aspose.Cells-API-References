@@ -20,16 +20,16 @@ Encapsulates a collection of [GridPicture](../../com.aspose.gridweb/gridpicture)
 | [add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName)](#add-int-int-int-int-java.lang.String-) | Adds a picture to the collection. |
 | [add(int upperLeftRow, int upperLeftColumn, String fileName)](#add-int-int-java.lang.String-) | Adds a picture to the collection. |
 | [add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale)](#add-int-int-java.lang.String-int-int-) | Adds a picture to the collection. |
-| [clear()](#clear--) |  |
+| [clear()](#clear--) | Clear all pictures. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridPicture](../../com.aspose.gridweb/gridpicture) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets the rows enumerator |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int param_int)](#removeAt-int-) |  |
+| [removeAt(int param_int)](#removeAt-int-) | Remove shapes at the specific index |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -95,7 +95,7 @@ public void clear()
 ```
 
 
-
+Clear all pictures.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -143,7 +143,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int
@@ -189,7 +189,7 @@ public void removeAt(int param_int)
 ```
 
 
-
+Remove shapes at the specific index
 
 **Parameters:**
 | Parameter | Type | Description |

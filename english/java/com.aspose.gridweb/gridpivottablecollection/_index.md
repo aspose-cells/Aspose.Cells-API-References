@@ -25,7 +25,7 @@ Encapsulates a collection of [GridPivotTable](../../com.aspose.gridweb/gridpivot
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridPivotTable](../../com.aspose.gridweb/gridpivottable) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -47,7 +47,7 @@ Adds a new PivotTable cache to a PivotCaches collection.
 | --- | --- | --- |
 | sourceSheet | [GridWorksheet](../../com.aspose.gridweb/gridworksheet) | The source work sheet. |
 | sourceArea | [GridCellArea](../../com.aspose.gridweb/gridcellarea) | The area in the source worksheet. |
-| destCellName | java.lang.String |  |
+| destCellName | java.lang.String | The cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | java.lang.String | The name of the new PivotTable report. |
 
 **Returns:**
@@ -160,7 +160,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

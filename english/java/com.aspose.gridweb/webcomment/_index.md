@@ -21,11 +21,11 @@ NOTE: This class is now obsolete. please use GridComment Instead. This class wil
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getNote()](#getNote--) |  |
+| [getNote()](#getNote--) | Represents the content of comment. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setNote(String value)](#setNote-java.lang.String-) |  |
+| [setNote(String value)](#setNote-java.lang.String-) | Represents the content of comment. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,7 +61,7 @@ public String getNote()
 ```
 
 
-
+Represents the content of comment.
 
 **Returns:**
 java.lang.String
@@ -97,7 +97,7 @@ public void setNote(String value)
 ```
 
 
-
+Represents the content of comment.
 
 **Parameters:**
 | Parameter | Type | Description |

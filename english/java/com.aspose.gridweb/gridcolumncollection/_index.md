@@ -21,7 +21,7 @@ Collects the [GridColumn](../../com.aspose.gridweb/gridcolumn) objects that repr
 | [get(int columnIndex)](#get-int-) | Gets a [GridColumn](../../com.aspose.gridweb/gridcolumn) object by column index. |
 | [getClass()](#getClass--) |  |
 | [getColumnByIndex(int index)](#getColumnByIndex-int-) | Gets the [GridColumn](../../com.aspose.gridweb/gridcolumn) object by the position in the list. |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Gets the columns enumerator |
 | [notify()](#notify--) |  |
@@ -91,7 +91,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

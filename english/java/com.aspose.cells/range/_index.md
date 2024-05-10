@@ -94,9 +94,11 @@ The following example shows how to create a range and set value the range of Exc
 | [setStyle(Style style, boolean explicitFlag)](#setStyle-com.aspose.cells.Style-boolean-) | Apply the cell style. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Sets the value of the range. |
 | [toString()](#toString--) | Returns a string represents the current Range object. |
+| [transpose()](#transpose--) | Transpose (rotate) data from rows to columns or vice versa. |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
 | [union(Range range)](#union-com.aspose.cells.Range-) | Returns the union of two ranges. |
 | [unionRang(Range range)](#unionRang-com.aspose.cells.Range-) | Returns the union result of two ranges. |
+| [unionRanges(Range[] ranges)](#unionRanges-com.aspose.cells.Range---) | Returns the union result of two ranges. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -881,6 +883,14 @@ Returns a string represents the current Range object.
 
 **Returns:**
 java.lang.String - 
+### transpose() {#transpose--}
+```
+public void transpose()
+```
+
+
+Transpose (rotate) data from rows to columns or vice versa.
+
 ### unMerge() {#unMerge--}
 ```
 public void unMerge()
@@ -899,7 +909,7 @@ Returns the union of two ranges.
 
 **Remarks**
 
-NOTE: This method is now obsolete. Instead, please use Range.UnionRang() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use Range.UnionRanges() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -916,6 +926,10 @@ public Range[] unionRang(Range range)
 
 Returns the union result of two ranges.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Range.UnionRanges() method. This method will be removed 12 months later since May 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -923,6 +937,21 @@ Returns the union result of two ranges.
 
 **Returns:**
 com.aspose.cells.Range[] - The union of two ranges.
+### unionRanges(Range[] ranges) {#unionRanges-com.aspose.cells.Range---}
+```
+public UnionRange unionRanges(Range[] ranges)
+```
+
+
+Returns the union result of two ranges.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ranges | [Range\[\]](../../com.aspose.cells/range) | The range |
+
+**Returns:**
+[UnionRange](../../com.aspose.cells/unionrange) - The union of two ranges.
 ### wait() {#wait--}
 ```
 public final void wait()

@@ -41,6 +41,7 @@ Represents all settings of the workbook.
 | [getCrashSave()](#getCrashSave--) | indicates whether the application last saved the workbook file after a crash. |
 | [getDataExtractLoad()](#getDataExtractLoad--) | indicates whether the application last opened the workbook for data recovery. |
 | [getDate1904()](#getDate1904--) | Gets a value which represents if the workbook uses the 1904 date system. |
+| [getDefaultStyleSettings()](#getDefaultStyleSettings--) | Gets the settings for default values of style-related properties for this workbook. |
 | [getDisplayDrawingObjects()](#getDisplayDrawingObjects--) | Indicates whether and how to show objects in the workbook. |
 | [getEnableMacros()](#getEnableMacros--) | Enable macros; |
 | [getFirstVisibleTab()](#getFirstVisibleTab--) | Gets the first visible worksheet tab. |
@@ -311,6 +312,16 @@ Gets a value which represents if the workbook uses the 1904 date system.
 
 **Returns:**
 boolean
+### getDefaultStyleSettings() {#getDefaultStyleSettings--}
+```
+public DefaultStyleSettings getDefaultStyleSettings()
+```
+
+
+Gets the settings for default values of style-related properties for this workbook.
+
+**Returns:**
+[DefaultStyleSettings](../../com.aspose.cells/defaultstylesettings)
 ### getDisplayDrawingObjects() {#getDisplayDrawingObjects--}
 ```
 public int getDisplayDrawingObjects()

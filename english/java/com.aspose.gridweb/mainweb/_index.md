@@ -24,7 +24,7 @@ Parent class of GridWeb control.Internal use only.
 
 | Constructor | Description |
 | --- | --- |
-| [MainWeb()](#MainWeb--) |  |
+| [MainWeb()](#MainWeb--) | the default constructor of MainWeb control. |
 ## Fields
 
 | Field | Description |
@@ -58,7 +58,7 @@ Parent class of GridWeb control.Internal use only.
 | Method | Description |
 | --- | --- |
 | [calculateFormula()](#calculateFormula--) | Calculates the result of formulas. |
-| [createChildControls()](#createChildControls--) |  |
+| [createChildControls()](#createChildControls--) | implment CreateChildControls from WebControl,Internal used only. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getACWClientPath()](#getACWClientPath--) | Gets the web path of the script/image files of the control. |
 | [getACWLanguageFileUrl()](#getACWLanguageFileUrl--) | Gets the web url of the language file of the control. |
@@ -78,17 +78,17 @@ Parent class of GridWeb control.Internal use only.
 | [getBottomTableStyle()](#getBottomTableStyle--) | Gets the style of the bottom bar of the control. |
 | [getClass()](#getClass--) |  |
 | [getCssClass()](#getCssClass--) | Gets the CssClass in the WebControl |
-| [getCurrentPageIndex()](#getCurrentPageIndex--) |  |
+| [getCurrentPageIndex()](#getCurrentPageIndex--) | Gets the current page index in paging mode. |
 | [getCustomCalculationEngine()](#getCustomCalculationEngine--) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [getCustomCommandButtons()](#getCustomCommandButtons--) |  |
+| [getCustomCommandButtons()](#getCustomCommandButtons--) | Gets the custom command button collection |
 | [getCustomStyleFileName()](#getCustomStyleFileName--) | Gets the custom style file name. |
 | [getDPI()](#getDPI--) | Gets /Sets the DPI of the machine. |
 | [getDefaultFontName()](#getDefaultFontName--) | Gets the control's default font name. |
 | [getDefaultFontSize()](#getDefaultFontSize--) | Gets the control's default font size. |
 | [getDefaultGridLineColor()](#getDefaultGridLineColor--) | Gets the default grid line's color. |
-| [getDisplayCellTip()](#getDisplayCellTip--) |  |
+| [getDisplayCellTip()](#getDisplayCellTip--) | Gets whether to show tips. the default value is true. |
 | [getEditMode()](#getEditMode--) | Gets the control's edit mode. |
-| [getEnableAJAX()](#getEnableAJAX--) |  |
+| [getEnableAJAX()](#getEnableAJAX--) | Gets whether to use AJAX call . the default value is true. |
 | [getEnableAsync()](#getEnableAsync--) | Gets whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells. |
 | [getEnableClientColumnOperations()](#getEnableClientColumnOperations--) | Gets whether to enable the client side column operations. |
 | [getEnableClientFreeze()](#getEnableClientFreeze--) | Gets whether to enable the client side freezing operations. |
@@ -112,17 +112,16 @@ Parent class of GridWeb control.Internal use only.
 | [getHeaderBarWidth()](#getHeaderBarWidth--) | Gets the width( System.Web.UI.WebControl.Unit ) or the left header bar of the control. |
 | [getHeight()](#getHeight--) | Gets the height( System.Web.UI.WebControl.Unit ) of the control. |
 | [getIgnoreStyleWithNoData()](#getIgnoreStyleWithNoData--) | Gets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. |
-| [getLinksTable()](#getLinksTable--) |  |
 | [getLoadOptions()](#getLoadOptions--) | Represents the loadoptions for GridWeb. |
 | [getMaxColumn()](#getMaxColumn--) | Gets the maximum display column index(zero based) of the web sheet. |
 | [getMaxRow()](#getMaxRow--) | Gets the maximum display row index(zero based) of the web sheet. |
-| [getMessage()](#getMessage--) |  |
-| [getMinColumn()](#getMinColumn--) |  |
+| [getMessage()](#getMessage--) | Gets the message for the grid. |
+| [getMinColumn()](#getMinColumn--) | Gets the minimum display column index(zero based) of the web sheet. |
 | [getMinRow()](#getMinRow--) | Gets the minimum display row index(zero based) of the web sheet. |
 | [getModifiedCells()](#getModifiedCells--) | Gets the collection of the cells that modified by the client. |
 | [getNeedRenderGroupRows()](#getNeedRenderGroupRows--) | Gets whether to show grouprows . |
 | [getNoHScroll()](#getNoHScroll--) | Gets a value indicating whether the horizontal scroll bar is hidden. |
-| [getNoScroll()](#getNoScroll--) |  |
+| [getNoScroll()](#getNoScroll--) | Gets whether to show scroll bar . |
 | [getNoVScroll()](#getNoVScroll--) | Gets a value indicating whether the vertical scroll bar is hidden. |
 | [getOnAjaxCallFinishedClientFunction()](#getOnAjaxCallFinishedClientFunction--) | Gets the client side function name to be called when ajaxcall finished. |
 | [getOnCellErrorClientFunction()](#getOnCellErrorClientFunction--) | Gets the client side function name to be called when a cell's validation is failed. |
@@ -141,7 +140,6 @@ Parent class of GridWeb control.Internal use only.
 | [getOnlyAuto()](#getOnlyAuto--) | Gets whether only fit the rows which height are not customed,the default value is false |
 | [getPageSize()](#getPageSize--) | Gets the page size in paging mode. |
 | [getPictureCachePath()](#getPictureCachePath--) | Gets the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time. |
-| [getPicturesTable()](#getPicturesTable--) |  |
 | [getPresetStyle()](#getPresetStyle--) | Gets the preset style. |
 | [getRefreshValidation()](#getRefreshValidation--) | Gets whether to refresh validation value after cell value changes. |
 | [getRenderHiddenRow()](#getRenderHiddenRow--) | Gets whether the hidden row is rendered in GridControl,the default value is false. |
@@ -150,23 +148,20 @@ Parent class of GridWeb control.Internal use only.
 | [getScrollBarBaseColor()](#getScrollBarBaseColor--) | Specifies the color of the scroll bar of the control. |
 | [getSelectCellBgColor()](#getSelectCellBgColor--) | Specifies the background color of the selected cells in multi-select range. |
 | [getSelectCellColor()](#getSelectCellColor--) | Specifies the color of the selected cells in multi-select range. |
-| [getSessionLoaded()](#getSessionLoaded--) |  |
-| [getSessionSaved()](#getSessionSaved--) | Internal used only. |
 | [getSessionStorePath()](#getSessionStorePath--) | Gets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [getSettings()](#getSettings--) | Represents the workbook settings. |
-| [getShapesTable()](#getShapesTable--) |  |
 | [getShowAddButton()](#getShowAddButton--) | Gets whether to show the add worksheet button. |
 | [getShowBottomBar()](#getShowBottomBar--) | Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control. |
 | [getShowCellEditBox()](#getShowCellEditBox--) | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. |
 | [getShowCommandBarAtTop()](#getShowCommandBarAtTop--) | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
-| [getShowContextMenu()](#getShowContextMenu--) |  |
+| [getShowContextMenu()](#getShowContextMenu--) | Gets whether to show the context menu. the default value is true. |
 | [getShowDefaultGridLine()](#getShowDefaultGridLine--) | Gets whether to show the default grid lines of the cells. |
-| [getShowHeaderBar()](#getShowHeaderBar--) |  |
+| [getShowHeaderBar()](#getShowHeaderBar--) | Gets whether to show header bar |
 | [getShowLoading()](#getShowLoading--) | Specifies whether to show a loading dialogbox while postbacking to server. |
 | [getShowLoadingPosition()](#getShowLoadingPosition--) | Specifies the left,top postion(in px) to show the loading dialogbox while postbacking to server ,etc. 100,200 means the loading dialogbox's left,top postion is at 100px,200px . |
 | [getShowSaveButton()](#getShowSaveButton--) | Gets whether to show the save button. |
 | [getShowSubmitButton()](#getShowSubmitButton--) | Gets whether to show the submit button. |
-| [getShowTabBar()](#getShowTabBar--) |  |
+| [getShowTabBar()](#getShowTabBar--) | Gets whether to show the tab bar. |
 | [getShowTabNavigation()](#getShowTabNavigation--) | Gets whether the tab navigation button is show,the default value is true. |
 | [getShowUndoButton()](#getShowUndoButton--) | Gets whether to show the undo button. |
 | [getSpanWrap()](#getSpanWrap--) | Specifies whether to wrap content in the cell span.the default value is true. |
@@ -174,13 +169,12 @@ Parent class of GridWeb control.Internal use only.
 | [getTabStyle()](#getTabStyle--) | Gets the style of the tab bar. |
 | [getToolTip()](#getToolTip--) | Gets the ToolTip in the WebControl |
 | [getUseClientPageHeight()](#getUseClientPageHeight--) | Gets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false |
-| [getValidationsTable()](#getValidationsTable--) |  |
 | [getViewPanelScrollLeft()](#getViewPanelScrollLeft--) | Gets the position of the scroll bar of the grid's view panel. |
 | [getViewPanelScrollTop()](#getViewPanelScrollTop--) | Gets the position of the scroll bar of the grid's view panel. |
 | [getViewTableStyle()](#getViewTableStyle--) | Gets the data view panel's style. |
 | [getWidth()](#getWidth--) | Gets the width( System.Web.UI.WebControl.Unit ) of the control. |
-| [getWorkSheets()](#getWorkSheets--) |  |
-| [getXhtmlMode()](#getXhtmlMode--) |  |
+| [getWorkSheets()](#getWorkSheets--) | Gets the collection of the worksheets. |
+| [getXhtmlMode()](#getXhtmlMode--) | Gets whether to use XHTML style,the default value is true. |
 | [hashCode()](#hashCode--) |  |
 | [importExcelFile(InputStream stream)](#importExcelFile-java.io.InputStream-) | Imports from an excel file stream, including disk file stream or memory stream. |
 | [importExcelFile(InputStream stream, String passwordtoOpen)](#importExcelFile-java.io.InputStream-java.lang.String-) | Imports from an excel file stream, including disk file stream or memory stream. |
@@ -226,7 +220,7 @@ Parent class of GridWeb control.Internal use only.
 | [setBottomTableStyle(GridTableStyle value)](#setBottomTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the style of the bottom bar of the control. |
 | [setCalculateFormula(boolean value)](#setCalculateFormula-boolean-) | Sets whether to calculate formula after cell value changes or after import File. |
 | [setCssClass(String value)](#setCssClass-java.lang.String-) | Sets the CssClass in the WebControl |
-| [setCurrentPageIndex(int value)](#setCurrentPageIndex-int-) |  |
+| [setCurrentPageIndex(int value)](#setCurrentPageIndex-int-) | Sets the current page index in paging mode. |
 | [setCustomCalculationEngine(GridAbstractCalculationEngine value)](#setCustomCalculationEngine-com.aspose.gridweb.GridAbstractCalculationEngine-) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [setCustomStyle(InputStream stream)](#setCustomStyle-java.io.InputStream-) | sets the custom style file from stream including disk file stream or memory stream. |
 | [setCustomStyleFileName(String value)](#setCustomStyleFileName-java.lang.String-) | Sets the custom style file name. |
@@ -234,9 +228,9 @@ Parent class of GridWeb control.Internal use only.
 | [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the control's default font name. |
 | [setDefaultFontSize(FontUnit value)](#setDefaultFontSize-com.aspose.gridweb.FontUnit-) | Sets the control's default font size. |
 | [setDefaultGridLineColor(Color value)](#setDefaultGridLineColor-com.aspose.gridweb.Color-) | Sets the default grid line's color. |
-| [setDisplayCellTip(boolean value)](#setDisplayCellTip-boolean-) |  |
+| [setDisplayCellTip(boolean value)](#setDisplayCellTip-boolean-) | Sets whether to show tips. the default value is true. |
 | [setEditMode(boolean value)](#setEditMode-boolean-) | Sets the control's edit mode. |
-| [setEnableAJAX(boolean value)](#setEnableAJAX-boolean-) |  |
+| [setEnableAJAX(boolean value)](#setEnableAJAX-boolean-) | Sets whether to use AJAX call . the default value is true. |
 | [setEnableAsync(boolean value)](#setEnableAsync-boolean-) | Sets whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells. |
 | [setEnableClientColumnOperations(boolean value)](#setEnableClientColumnOperations-boolean-) | Sets whether to enable the client side column operations. |
 | [setEnableClientFreeze(boolean value)](#setEnableClientFreeze-boolean-) | Sets whether to enable the client side freezing operations. |
@@ -262,12 +256,12 @@ Parent class of GridWeb control.Internal use only.
 | [setLoadOptions(GridLoadOptions value)](#setLoadOptions-com.aspose.gridweb.GridLoadOptions-) | Represents the loadoptions for GridWeb. |
 | [setMaxColumn(int value)](#setMaxColumn-int-) | Sets the maximum display column index(zero based) of the web sheet. |
 | [setMaxRow(int value)](#setMaxRow-int-) | Sets the maximum display row index(zero based) of the web sheet. |
-| [setMessage(String value)](#setMessage-java.lang.String-) |  |
-| [setMinColumn(int value)](#setMinColumn-int-) |  |
+| [setMessage(String value)](#setMessage-java.lang.String-) | Sets the message for the grid. |
+| [setMinColumn(int value)](#setMinColumn-int-) | Sets the minimum display column index(zero based) of the web sheet. |
 | [setMinRow(int value)](#setMinRow-int-) | Sets the minimum display row index(zero based) of the web sheet. |
 | [setNeedRenderGroupRows(boolean value)](#setNeedRenderGroupRows-boolean-) | Sets whether to show grouprows . |
 | [setNoHScroll(boolean value)](#setNoHScroll-boolean-) | Sets a value indicating whether the horizontal scroll bar is hidden. |
-| [setNoScroll(boolean value)](#setNoScroll-boolean-) |  |
+| [setNoScroll(boolean value)](#setNoScroll-boolean-) | Sets whether to show scroll bar . |
 | [setNoVScroll(boolean value)](#setNoVScroll-boolean-) | Sets a value indicating whether the vertical scroll bar is hidden. |
 | [setOnAjaxCallFinishedClientFunction(String value)](#setOnAjaxCallFinishedClientFunction-java.lang.String-) | Sets the client side function name to be called when ajaxcall finished. |
 | [setOnCellErrorClientFunction(String value)](#setOnCellErrorClientFunction-java.lang.String-) | Sets the client side function name to be called when a cell's validation is failed. |
@@ -294,22 +288,20 @@ Parent class of GridWeb control.Internal use only.
 | [setScrollBarBaseColor(Color value)](#setScrollBarBaseColor-com.aspose.gridweb.Color-) | Specifies the color of the scroll bar of the control. |
 | [setSelectCellBgColor(Color value)](#setSelectCellBgColor-com.aspose.gridweb.Color-) | Specifies the background color of the selected cells in multi-select range. |
 | [setSelectCellColor(Color value)](#setSelectCellColor-com.aspose.gridweb.Color-) | Specifies the color of the selected cells in multi-select range. |
-| [setSessionLoaded(boolean value)](#setSessionLoaded-boolean-) |  |
-| [setSessionSaved(boolean value)](#setSessionSaved-boolean-) |  |
 | [setSessionStorePath(String value)](#setSessionStorePath-java.lang.String-) | Sets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [setSettings(GridWorkbookSettings value)](#setSettings-com.aspose.gridweb.GridWorkbookSettings-) | Represents the workbook settings. |
 | [setShowAddButton(boolean value)](#setShowAddButton-boolean-) | Sets whether to show the add worksheet button. |
 | [setShowBottomBar(boolean value)](#setShowBottomBar-boolean-) | Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control. |
 | [setShowCellEditBox(boolean value)](#setShowCellEditBox-boolean-) | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. |
 | [setShowCommandBarAtTop(boolean value)](#setShowCommandBarAtTop-boolean-) | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
-| [setShowContextMenu(boolean value)](#setShowContextMenu-boolean-) |  |
+| [setShowContextMenu(boolean value)](#setShowContextMenu-boolean-) | Sets whether to show the context menu. the default value is true. |
 | [setShowDefaultGridLine(boolean value)](#setShowDefaultGridLine-boolean-) | Sets whether to show the default grid lines of the cells. |
-| [setShowHeaderBar(boolean value)](#setShowHeaderBar-boolean-) |  |
+| [setShowHeaderBar(boolean value)](#setShowHeaderBar-boolean-) | Sets whether to show header bar |
 | [setShowLoading(boolean value)](#setShowLoading-boolean-) | Specifies whether to show a loading dialogbox while postbacking to server. |
 | [setShowLoadingPosition(String value)](#setShowLoadingPosition-java.lang.String-) | Specifies the left,top postion(in px) to show the loading dialogbox while postbacking to server ,etc. 100,200 means the loading dialogbox's left,top postion is at 100px,200px . |
 | [setShowSaveButton(boolean value)](#setShowSaveButton-boolean-) | Sets whether to show the save button. |
 | [setShowSubmitButton(boolean value)](#setShowSubmitButton-boolean-) | Sets whether to show the submit button. |
-| [setShowTabBar(boolean value)](#setShowTabBar-boolean-) |  |
+| [setShowTabBar(boolean value)](#setShowTabBar-boolean-) | Sets whether to show the tab bar. |
 | [setShowTabNavigation(boolean value)](#setShowTabNavigation-boolean-) | Sets whether the tab navigation button is show,the default value is true. |
 | [setShowUndoButton(boolean value)](#setShowUndoButton-boolean-) | Sets whether to show the undo button. |
 | [setSpanWrap(boolean value)](#setSpanWrap-boolean-) | Specifies whether to wrap content in the cell span.the default value is true. |
@@ -321,7 +313,7 @@ Parent class of GridWeb control.Internal use only.
 | [setViewPanelScrollTop(String value)](#setViewPanelScrollTop-java.lang.String-) | Sets the position of the scroll bar of the grid's view panel. |
 | [setViewTableStyle(GridTableStyle value)](#setViewTableStyle-com.aspose.gridweb.GridTableStyle-) | Sets the data view panel's style. |
 | [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Sets the width( System.Web.UI.WebControl.Unit ) of the control. |
-| [setXhtmlMode(boolean value)](#setXhtmlMode-boolean-) |  |
+| [setXhtmlMode(boolean value)](#setXhtmlMode-boolean-) | Sets whether to use XHTML style,the default value is true. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -331,6 +323,8 @@ Parent class of GridWeb control.Internal use only.
 public MainWeb()
 ```
 
+
+the default constructor of MainWeb control.
 
 ### AfterColumnFilter {#AfterColumnFilter}
 ```
@@ -538,7 +532,7 @@ public void createChildControls()
 ```
 
 
-
+implment CreateChildControls from WebControl,Internal used only.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -749,7 +743,11 @@ public int getCurrentPageIndex()
 ```
 
 
+Gets the current page index in paging mode.
 
+**Remarks**
+
+When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Returns:**
 int
@@ -769,7 +767,7 @@ public CustomCommandButtonCollection getCustomCommandButtons()
 ```
 
 
-
+Gets the custom command button collection
 
 **Returns:**
 [CustomCommandButtonCollection](../../com.aspose.gridweb/customcommandbuttoncollection)
@@ -859,7 +857,7 @@ public boolean getDisplayCellTip()
 ```
 
 
-
+Gets whether to show tips. the default value is true.
 
 **Returns:**
 boolean
@@ -883,7 +881,7 @@ public boolean getEnableAJAX()
 ```
 
 
-
+Gets whether to use AJAX call . the default value is true.
 
 **Returns:**
 boolean
@@ -1178,16 +1176,6 @@ Gets whether GridWeb ignores showing rows or columns that do not contain cell va
 
 **Returns:**
 boolean
-### getLinksTable() {#getLinksTable--}
-```
-public HashMap getLinksTable()
-```
-
-
-
-
-**Returns:**
-java.util.HashMap
 ### getLoadOptions() {#getLoadOptions--}
 ```
 public GridLoadOptions getLoadOptions()
@@ -1244,7 +1232,7 @@ public String getMessage()
 ```
 
 
-
+Gets the message for the grid.
 
 **Returns:**
 java.lang.String
@@ -1254,7 +1242,17 @@ public int getMinColumn()
 ```
 
 
+Gets the minimum display column index(zero based) of the web sheet. The control uses the smaller value of MinColumn and sheet data's min column.
 
+**Example**
+
+```
+         		// Creates a 4x4 "display window".
+         		GridWeb1.setMinRow(2);
+         		GridWeb1.setMaxRow(5);
+         		GridWeb1.setMinColumn(3);
+         		GridWeb1.setMaxColumn(6);
+```
 
 **Returns:**
 int
@@ -1314,7 +1312,7 @@ public boolean getNoScroll()
 ```
 
 
-
+Gets whether to show scroll bar .
 
 **Returns:**
 boolean
@@ -1585,16 +1583,6 @@ Gets the image storage path for the workbook,all the shapes,images will be store
 
 **Returns:**
 java.lang.String
-### getPicturesTable() {#getPicturesTable--}
-```
-public HashMap getPicturesTable()
-```
-
-
-
-
-**Returns:**
-java.util.HashMap
 ### getPresetStyle() {#getPresetStyle--}
 ```
 public int getPresetStyle()
@@ -1683,26 +1671,6 @@ Specifies the color of the selected cells in multi-select range.
 
 **Returns:**
 [Color](../../com.aspose.gridweb/color)
-### getSessionLoaded() {#getSessionLoaded--}
-```
-public boolean getSessionLoaded()
-```
-
-
-
-
-**Returns:**
-boolean
-### getSessionSaved() {#getSessionSaved--}
-```
-public boolean getSessionSaved()
-```
-
-
-Internal used only.
-
-**Returns:**
-boolean
 ### getSessionStorePath() {#getSessionStorePath--}
 ```
 public String getSessionStorePath()
@@ -1723,16 +1691,6 @@ Represents the workbook settings.
 
 **Returns:**
 [GridWorkbookSettings](../../com.aspose.gridweb/gridworkbooksettings)
-### getShapesTable() {#getShapesTable--}
-```
-public HashMap getShapesTable()
-```
-
-
-
-
-**Returns:**
-java.util.HashMap
 ### getShowAddButton() {#getShowAddButton--}
 ```
 public boolean getShowAddButton()
@@ -1779,7 +1737,7 @@ public boolean getShowContextMenu()
 ```
 
 
-
+Gets whether to show the context menu. the default value is true.
 
 **Returns:**
 boolean
@@ -1799,7 +1757,7 @@ public boolean getShowHeaderBar()
 ```
 
 
-
+Gets whether to show header bar
 
 **Returns:**
 boolean
@@ -1849,7 +1807,7 @@ public boolean getShowTabBar()
 ```
 
 
-
+Gets whether to show the tab bar.
 
 **Returns:**
 boolean
@@ -1923,16 +1881,6 @@ Gets whether gridweb use client page height as control height ,suitable for when
 
 **Returns:**
 boolean
-### getValidationsTable() {#getValidationsTable--}
-```
-public HashMap getValidationsTable()
-```
-
-
-
-
-**Returns:**
-java.util.HashMap
 ### getViewPanelScrollLeft() {#getViewPanelScrollLeft--}
 ```
 public String getViewPanelScrollLeft()
@@ -1986,7 +1934,7 @@ public GridWorksheetCollection getWorkSheets()
 ```
 
 
-
+Gets the collection of the worksheets.
 
 **Returns:**
 [GridWorksheetCollection](../../com.aspose.gridweb/gridworksheetcollection)
@@ -1996,7 +1944,7 @@ public boolean getXhtmlMode()
 ```
 
 
-
+Gets whether to use XHTML style,the default value is true.
 
 **Returns:**
 boolean
@@ -2584,7 +2532,11 @@ public void setCurrentPageIndex(int value)
 ```
 
 
+Sets the current page index in paging mode.
 
+**Remarks**
+
+When in paging mode, the control will display PageSize rows of data once, and display the page select control in the tab bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2694,7 +2646,7 @@ public void setDisplayCellTip(boolean value)
 ```
 
 
-
+Sets whether to show tips. the default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2724,7 +2676,7 @@ public void setEnableAJAX(boolean value)
 ```
 
 
-
+Sets whether to use AJAX call . the default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3102,7 +3054,7 @@ public void setMessage(String value)
 ```
 
 
-
+Sets the message for the grid.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3115,7 +3067,7 @@ public void setMinColumn(int value)
 ```
 
 
-
+Sets the minimum display column index(zero based) of the web sheet. The control uses the smaller value of MinColumn and sheet data's min column.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3167,7 +3119,7 @@ public void setNoScroll(boolean value)
 ```
 
 
-
+Sets whether to show scroll bar .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3601,32 +3553,6 @@ Specifies the color of the selected cells in multi-select range.
 | --- | --- | --- |
 | value | [Color](../../com.aspose.gridweb/color) |  |
 
-### setSessionLoaded(boolean value) {#setSessionLoaded-boolean-}
-```
-public void setSessionLoaded(boolean value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### setSessionSaved(boolean value) {#setSessionSaved-boolean-}
-```
-public void setSessionSaved(boolean value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setSessionStorePath(String value) {#setSessionStorePath-java.lang.String-}
 ```
 public void setSessionStorePath(String value)
@@ -3711,7 +3637,7 @@ public void setShowContextMenu(boolean value)
 ```
 
 
-
+Sets whether to show the context menu. the default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3737,7 +3663,7 @@ public void setShowHeaderBar(boolean value)
 ```
 
 
-
+Sets whether to show header bar
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3802,7 +3728,7 @@ public void setShowTabBar(boolean value)
 ```
 
 
-
+Sets whether to show the tab bar.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3958,7 +3884,7 @@ public void setXhtmlMode(boolean value)
 ```
 
 
-
+Sets whether to use XHTML style,the default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

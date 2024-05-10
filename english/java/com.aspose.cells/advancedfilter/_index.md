@@ -1,32 +1,30 @@
 ---
-title: RowColumnEventArgs
+title: AdvancedFilter
 second_title: Aspose.Cells for Java API Reference
-description: Provides data for row/column events.
+description: Represents the settings of advanced filter.
 type: docs
-url: /java/com.aspose.gridweb/rowcolumneventargs/
+url: /java/com.aspose.cells/advancedfilter/
 ---
 
 **Inheritance:**
 java.lang.Object
 ```
-public class RowColumnEventArgs
+public class AdvancedFilter
 ```
 
-Provides data for row/column events.
+Represents the settings of advanced filter.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArgument()](#getArgument--) | The argument of the event. |
 | [getClass()](#getClass--) |  |
-| [getNum()](#getNum--) | The row or column number, starts from zero. |
-| [getType()](#getType--) | The row or column type. |
+| [getCopyToRange()](#getCopyToRange--) | Gets the range where copying the resut of this advanced filter to. |
+| [getCriteriaRange()](#getCriteriaRange--) | Gets the criteria range of this advanced filter. |
+| [getListRange()](#getListRange--) | Gets the list range of this advanced filter. |
 | [hashCode()](#hashCode--) |  |
-| [isCancel()](#isCancel--) | shall we cancel the operation. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [rejectOperation()](#rejectOperation--) | Call this method in RowDeleting/ColumnDeleting event handlers to cancel the deleting operations. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,16 +44,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getArgument() {#getArgument--}
-```
-public Object getArgument()
-```
-
-
-The argument of the event.
-
-**Returns:**
-java.lang.Object
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -66,28 +54,36 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getNum() {#getNum--}
+### getCopyToRange() {#getCopyToRange--}
 ```
-public int getNum()
+public String getCopyToRange()
 ```
 
 
-The row or column number, starts from zero.
+Gets the range where copying the resut of this advanced filter to.
 
 **Returns:**
-int
-### getType() {#getType--}
+java.lang.String
+### getCriteriaRange() {#getCriteriaRange--}
 ```
-public int getType()
+public String getCriteriaRange()
 ```
 
 
-The row or column type.
-
-See [RowColumnType](../../com.aspose.gridweb/rowcolumntype).
+Gets the criteria range of this advanced filter.
 
 **Returns:**
-int
+java.lang.String
+### getListRange() {#getListRange--}
+```
+public String getListRange()
+```
+
+
+Gets the list range of this advanced filter.
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -98,16 +94,6 @@ public native int hashCode()
 
 **Returns:**
 int
-### isCancel() {#isCancel--}
-```
-public boolean isCancel()
-```
-
-
-shall we cancel the operation.
-
-**Returns:**
-boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -123,14 +109,6 @@ public final native void notifyAll()
 
 
 
-
-### rejectOperation() {#rejectOperation--}
-```
-public void rejectOperation()
-```
-
-
-Call this method in RowDeleting/ColumnDeleting event handlers to cancel the deleting operations.
 
 ### toString() {#toString--}
 ```

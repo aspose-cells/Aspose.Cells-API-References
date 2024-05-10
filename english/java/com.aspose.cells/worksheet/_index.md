@@ -69,6 +69,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [freezePanes(String cellName, int freezedRows, int freezedColumns)](#freezePanes-java.lang.String-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [getActiveCell()](#getActiveCell--) | Gets the active cell in the worksheet. |
+| [getAdvancedFilter()](#getAdvancedFilter--) | Gets the settings of advanced filter. |
 | [getAllowEditRanges()](#getAllowEditRanges--) | Gets the allow edit range collection in the worksheet. |
 | [getAutoFilter()](#getAutoFilter--) | Represents auto filter for the specified worksheet. |
 | [getBackgroundImage()](#getBackgroundImage--) | Gets worksheet background image. |
@@ -762,6 +763,16 @@ Gets the active cell in the worksheet.
 
 **Returns:**
 java.lang.String
+### getAdvancedFilter() {#getAdvancedFilter--}
+```
+public AdvancedFilter getAdvancedFilter()
+```
+
+
+Gets the settings of advanced filter.
+
+**Returns:**
+[AdvancedFilter](../../com.aspose.cells/advancedfilter) - 
 ### getAllowEditRanges() {#getAllowEditRanges--}
 ```
 public ProtectedRangeCollection getAllowEditRanges()

@@ -22,9 +22,8 @@ Represents a cell object.
 | [copyStyle(GridTableItemStyle style)](#copyStyle-com.aspose.gridweb.GridTableItemStyle-) | copy the style and set the style for the cell |
 | [createComment(String note, String author, boolean isvisible)](#createComment-java.lang.String-java.lang.String-boolean-) | Creates a comment object for a cell. |
 | [createValidation(int validationType, boolean isRequried)](#createValidation-int-boolean-) | Creates a validation object for a cell. |
-| [equals(Object obj)](#equals-java.lang.Object-) |  |
+| [equals(Object obj)](#equals-java.lang.Object-) | Checks whether this object refers to the same cell with another cell object. |
 | [getBoolValue()](#getBoolValue--) | Gets the boolean value contained in the cell. |
-| [getCellArea()](#getCellArea--) |  |
 | [getClass()](#getClass--) |  |
 | [getColumn()](#getColumn--) | Gets column number (zero based) of the cell. |
 | [getComment()](#getComment--) | Get comment object on this cell |
@@ -42,7 +41,7 @@ Represents a cell object.
 | [getType()](#getType--) | return the cell value type ,the meaning can see GridCellValueType.java |
 | [getValue()](#getValue--) | Gets the value contained in this cell. |
 | [getWidthOfValue()](#getWidthOfValue--) | Gets the width of the value in unit of pixels. |
-| [hashCode()](#hashCode--) |  |
+| [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [isErrorValue()](#isErrorValue--) | Checks if a formula can properly evaluate a result. |
 | [isFormula()](#isFormula--) | Represents if the specified cell contains formula. |
 | [isStyleSet()](#isStyleSet--) | Indicates if the cell's style is set. |
@@ -52,7 +51,7 @@ Represents a cell object.
 | [putValue(DateTime param_date)](#putValue-com.aspose.gridweb.DateTime-) | Puts a DateTime value into the cell. |
 | [putValue(double param_double)](#putValue-double-) | Puts a double value into the cell. |
 | [putValue(int param_int)](#putValue-int-) | Puts a int value into the cell. |
-| [putValue(Object param_object)](#putValue-java.lang.Object-) | Puts an object value into the cell.same as setValue(Object param\_object) |
+| [putValue(Object objectValue)](#putValue-java.lang.Object-) | Puts an object value into the cell.same as setValue(Object param\_object) |
 | [putValue(String param_string)](#putValue-java.lang.String-) | Puts a String value into the cell. |
 | [putValue(String stringValue, boolean isConverted)](#putValue-java.lang.String-boolean-) | Puts a string value into the cell and converts the value to other data type if appropriate. |
 | [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
@@ -62,7 +61,7 @@ Represents a cell object.
 | [setBorder(WebBorderStyle borderStyle)](#setBorder-com.aspose.gridweb.WebBorderStyle-) | Sets borders(top,bottom,left and right) for a cell,all the borders have same borderstyle. |
 | [setCustom(String custom)](#setCustom-java.lang.String-) | sets the custom format, null or empty string means no custom format. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [GridCell](../../com.aspose.gridweb/gridcell). |
-| [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Gets the parent worksheet. |
+| [setFormula(String formula, Object value)](#setFormula-java.lang.String-java.lang.Object-) | Set the formula and the value of the formula. |
 | [setHtmlString(String value)](#setHtmlString-java.lang.String-) | Sets the html string which contains data and some formattings in this cell. |
 | [setNumberType(int numbertype)](#setNumberType-int-) | set the display format of numbers and dates |
 | [setStyle(GridTableItemStyle value)](#setStyle-com.aspose.gridweb.GridTableItemStyle-) | Gets the copy of cell style. set the style for the cell. |
@@ -156,15 +155,15 @@ public boolean equals(Object obj)
 ```
 
 
-
+Checks whether this object refers to the same cell with another cell object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object |  |
+| obj | java.lang.Object | another GridCell object |
 
 **Returns:**
-boolean
+boolean - true if two cell objects refers to the same cell.
 ### getBoolValue() {#getBoolValue--}
 ```
 public boolean getBoolValue()
@@ -175,16 +174,6 @@ Gets the boolean value contained in the cell.
 
 **Returns:**
 boolean
-### getCellArea() {#getCellArea--}
-```
-public GridCellArea getCellArea()
-```
-
-
-
-
-**Returns:**
-[GridCellArea](../../com.aspose.gridweb/gridcellarea)
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -391,10 +380,10 @@ public int hashCode()
 ```
 
 
-
+Serves as a hash function for a particular type.
 
 **Returns:**
-int
+int - A hash code for current GridCell object.
 ### isErrorValue() {#isErrorValue--}
 ```
 public boolean isErrorValue()
@@ -497,9 +486,9 @@ Puts a int value into the cell.
 | --- | --- | --- |
 | param_int | int | Input value |
 
-### putValue(Object param_object) {#putValue-java.lang.Object-}
+### putValue(Object objectValue) {#putValue-java.lang.Object-}
 ```
-public void putValue(Object param_object)
+public void putValue(Object objectValue)
 ```
 
 
@@ -508,7 +497,7 @@ Puts an object value into the cell.same as setValue(Object param\_object)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| param_object | java.lang.Object |  |
+| objectValue | java.lang.Object | input value |
 
 ### putValue(String param_string) {#putValue-java.lang.String-}
 ```
@@ -632,13 +621,13 @@ public void setFormula(String formula, Object value)
 ```
 
 
-Gets the parent worksheet.
+Set the formula and the value of the formula.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formula | java.lang.String |  |
-| value | java.lang.Object |  |
+| formula | java.lang.String | The formula. |
+| value | java.lang.Object | The value of the formula. |
 
 ### setHtmlString(String value) {#setHtmlString-java.lang.String-}
 ```

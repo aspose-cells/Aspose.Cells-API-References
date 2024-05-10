@@ -13,11 +13,6 @@ public class GridValidation
 ```
 
 Represents data validation.settings.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GridValidation()](#GridValidation--) |  |
 ## Fields
 
 | Field | Description |
@@ -44,12 +39,12 @@ Represents data validation.settings.
 | [getOperator()](#getOperator--) | Represents the operator for the data validation. |
 | [getRegEx()](#getRegEx--) | Gets the regular expression string. |
 | [getShowError()](#getShowError--) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
-| [getShowInput()](#getShowInput--) |  |
+| [getShowInput()](#getShowInput--) | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
 | [getValidationType()](#getValidationType--) | Gets the validation type. |
 | [getValue1()](#getValue1--) | Represents the value associated with the data validation. |
 | [getValueList()](#getValueList--) | Gets the value list object. |
 | [hashCode()](#hashCode--) |  |
-| [isRequired()](#isRequired--) |  |
+| [isRequired()](#isRequired--) | Gets whether the cell value is required. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeACell(int row, int column)](#removeACell-int-int-) | Remove the validation settings in the cell. |
@@ -63,21 +58,15 @@ Represents data validation.settings.
 | [setInputTitle(String value)](#setInputTitle-java.lang.String-) | Represents the title of the data-validation input dialog box. |
 | [setOperator(int value)](#setOperator-int-) | Represents the operator for the data validation. |
 | [setRegEx(String value)](#setRegEx-java.lang.String-) | Sets the regular expression string. |
-| [setRequired(boolean value)](#setRequired-boolean-) |  |
+| [setRequired(boolean value)](#setRequired-boolean-) | Sets whether the cell value is required. |
 | [setShowError(boolean value)](#setShowError-boolean-) | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
-| [setShowInput(boolean value)](#setShowInput-boolean-) |  |
+| [setShowInput(boolean value)](#setShowInput-boolean-) | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
 | [setValidationType(int value)](#setValidationType-int-) | Sets the validation type. |
 | [setValueList(ArrayList<String> value)](#setValueList-java.util.ArrayList-java.lang.String--) | Sets the value list object. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### GridValidation() {#GridValidation--}
-```
-public GridValidation()
-```
-
-
 ### ServerValidation {#ServerValidation}
 ```
 public GridCustomServerValidation ServerValidation
@@ -132,7 +121,7 @@ In this method , we will remove all old validations on this area.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cellArea | [GridCellArea](../../com.aspose.gridweb/gridcellarea) |  |
+| cellArea | [GridCellArea](../../com.aspose.gridweb/gridcellarea) | The area. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -307,7 +296,7 @@ public boolean getShowInput()
 ```
 
 
-
+Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range.
 
 **Returns:**
 boolean
@@ -359,7 +348,7 @@ public boolean isRequired()
 ```
 
 
-
+Gets whether the cell value is required.
 
 **Returns:**
 boolean
@@ -537,7 +526,7 @@ public void setRequired(boolean value)
 ```
 
 
-
+Sets whether the cell value is required.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -563,7 +552,7 @@ public void setShowInput(boolean value)
 ```
 
 
-
+Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range.
 
 **Parameters:**
 | Parameter | Type | Description |

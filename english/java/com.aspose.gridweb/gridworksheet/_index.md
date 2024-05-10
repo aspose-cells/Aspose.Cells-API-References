@@ -33,26 +33,26 @@ Encapsulates the object that represents a single worksheet.
 | [createSubtotal(int columnNameRowIndex, int dataRows, int groupByColumnIndex, int subtotalFunction, int[] subtotalColumnIndexList)](#createSubtotal-int-int-int-int-int---) | Creates subtotal in the sheet. |
 | [createSubtotal(int columnNameRowIndex, int dataRows, int groupByColumnIndex, int subtotalFunction, int[] subtotalColumnIndexList, String functionLabel, GridTableItemStyle grandCellStyle, GridTableItemStyle subtotalCellStyle, int numberType, String customString)](#createSubtotal-int-int-int-int-int---java.lang.String-com.aspose.gridweb.GridTableItemStyle-com.aspose.gridweb.GridTableItemStyle-int-java.lang.String-) | Creates subtotal in the sheet. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [filterString(int column, String criteria)](#filterString-int-java.lang.String-) | Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma->"," as split char,so the cell value you want to filter shall not contains with comma filterString(10,"123,456") means column 10 shall contain 123 or 456, filterString(10,"123") means column10 shall contain 123 value split with comma,eg. 123,456,789 or abc |
+| [filterString(int column, String criteria)](#filterString-int-java.lang.String-) | Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma->"," as split char,so the cell value you want to filter shall not contains with comma filterString(10,"123,456") means column 10 shall contain 123 or 456, filterString(10,"123") means column10 shall contain 123 the column index value split with comma,eg. 123,456,789 or abc |
 | [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [freezePanes(String cellName, int freezedRows, int freezedColumns)](#freezePanes-java.lang.String-int-int-) | Freezes panes at the specified cell in the worksheet. |
-| [getActiveCell()](#getActiveCell--) |  |
+| [getActiveCell()](#getActiveCell--) | Gets the active cell in the worksheet. |
 | [getBackgroundImage()](#getBackgroundImage--) | Gets worksheet background image. |
-| [getCells()](#getCells--) |  |
+| [getCells()](#getCells--) | Gets the [GridCell](../../com.aspose.gridweb/gridcell) collection. |
 | [getClass()](#getClass--) |  |
 | [getCodeName()](#getCodeName--) | Represents worksheet code name. |
 | [getColumnCaption(int column)](#getColumnCaption-int-) | Gets the column caption. |
 | [getColumnHeaderToolTip(int colIndex)](#getColumnHeaderToolTip-int-) | Gets the columnheader's tooltip text. |
 | [getColumnReadonly(int columnIndex)](#getColumnReadonly-int-) | Gets if a column is readonly. |
-| [getComments()](#getComments--) |  |
-| [getDisplayRightToLeft()](#getDisplayRightToLeft--) |  |
+| [getComments()](#getComments--) | Gets the [GridComment](../../com.aspose.gridweb/gridcomment) collection. |
+| [getDisplayRightToLeft()](#getDisplayRightToLeft--) | Indicates if the specified worksheet is displayed from right to left instead of from left to right. |
 | [getDisplayZeros()](#getDisplayZeros--) | True if zero values are displayed. |
-| [getFirstVisibleColumn()](#getFirstVisibleColumn--) |  |
-| [getFirstVisibleRow()](#getFirstVisibleRow--) |  |
+| [getFirstVisibleColumn()](#getFirstVisibleColumn--) | Represents first visible column index. |
+| [getFirstVisibleRow()](#getFirstVisibleRow--) | Represents first visible row index. |
 | [getFreezedPanes()](#getFreezedPanes--) | Gets the freeze panes. |
-| [getGridActiveCell()](#getGridActiveCell--) |  |
+| [getGridActiveCell()](#getGridActiveCell--) | Gets the active cell in the worksheet. |
 | [getHyperlinks()](#getHyperlinks--) | Gets the [GridHyperlinkCollection](../../com.aspose.gridweb/gridhyperlinkcollection) collection. |
-| [getIndex()](#getIndex--) |  |
+| [getIndex()](#getIndex--) | Gets the index of sheet in the worksheet collection. |
 | [getIsReadonly(int row, int col)](#getIsReadonly-int-int-) | Gets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
 | [getName()](#getName--) | Gets the name of the worksheet. |
 | [getOutlineShown()](#getOutlineShown--) | Indicates whether show outline. |
@@ -69,8 +69,8 @@ Encapsulates the object that represents a single worksheet.
 | [getUniqueID()](#getUniqueID--) | Gets the UniqueID in the Control |
 | [getValidations()](#getValidations--) | Gets the data validation setting collection in the worksheet. |
 | [getVisible()](#getVisible--) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
-| [getWorkbook()](#getWorkbook--) |  |
-| [getZoom()](#getZoom--) |  |
+| [getWorkbook()](#getWorkbook--) | Gets the [GridWorkbook](../../com.aspose.gridweb/gridworkbook) object of the worksheet collection. |
+| [getZoom()](#getZoom--) | Represents the scaling factor in percentage. |
 | [groupRows(int firstIndex, int lastIndex, boolean isHidden)](#groupRows-int-int-boolean-) | Groups rows. |
 | [hashCode()](#hashCode--) |  |
 | [isGridlinesVisible()](#isGridlinesVisible--) | Gets a value indicating whether the grid lines are visible.Default is true. |
@@ -83,19 +83,19 @@ Encapsulates the object that represents a single worksheet.
 | [removeAutoFilter()](#removeAutoFilter--) | Remove the auto filter of the worksheet. |
 | [removeSubtotal()](#removeSubtotal--) | Removes subtotal created by the CreateSubtotal method in the sheet. |
 | [resetFilter(int fieldIndex)](#resetFilter-int-) | The integer offset of the field on which you want to apply ,based on the first filter column (from the left of the list; the leftmost field is field 0). |
-| [setActiveCell(String value)](#setActiveCell-java.lang.String-) |  |
+| [setActiveCell(String value)](#setActiveCell-java.lang.String-) | Sets the active cell in the worksheet. |
 | [setAllCellsEditable()](#setAllCellsEditable--) | Makes all cells editable.this is extended attribute |
 | [setAllCellsReadonly()](#setAllCellsReadonly--) | Makes all cells readonly.this is extended attribute notice this attribute can not keep in actual cell,if you want to keep protect please use setProtect |
 | [setBackgroundImage(byte[] value)](#setBackgroundImage-byte---) | Sets worksheet background image. |
 | [setColumnCaption(int column, String caption)](#setColumnCaption-int-java.lang.String-) | Sets the caption for the column.please note this is an extension attribute and can not keep in excel file |
 | [setColumnHeaderToolTip(int colIndex, String toolTip)](#setColumnHeaderToolTip-int-java.lang.String-) | Sets the columnheader's tooltip text. |
 | [setColumnReadonly(int columnIndex, boolean isReadonly)](#setColumnReadonly-int-boolean-) | Sets a column to readonly so user can't delete it from client side. |
-| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) |  |
+| [setDisplayRightToLeft(boolean value)](#setDisplayRightToLeft-boolean-) | Indicates if the specified worksheet is displayed from right to left instead of from left to right. |
 | [setDisplayZeros(boolean value)](#setDisplayZeros-boolean-) | True if zero values are displayed. |
 | [setEditableRange(int startRow, int startColumn, int rows, int columns)](#setEditableRange-int-int-int-int-) | Makes a range of cells editable. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Make all cells read only by calling the SetAllCellsReadonly method. |
-| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) |  |
-| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) |  |
-| [setGridActiveCell(GridCell value)](#setGridActiveCell-com.aspose.gridweb.GridCell-) |  |
+| [setFirstVisibleColumn(int value)](#setFirstVisibleColumn-int-) | Represents first visible column index. |
+| [setFirstVisibleRow(int value)](#setFirstVisibleRow-int-) | Represents first visible row index. |
+| [setGridActiveCell(GridCell value)](#setGridActiveCell-com.aspose.gridweb.GridCell-) | Sets the active cell in the worksheet. |
 | [setGridlinesVisible(boolean value)](#setGridlinesVisible-boolean-) | Sets a value indicating whether the grid lines are visible.Default is true. |
 | [setIsReadonly(int row, int col, boolean value)](#setIsReadonly-int-int-boolean-) | Sets whether the cell is readonly.this is an extended attribute of GridWeb ,it will not keep in actual excel file |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the worksheet. |
@@ -111,7 +111,7 @@ Encapsulates the object that represents a single worksheet.
 | [setSummaryRowBelow(boolean value)](#setSummaryRowBelow-boolean-) | Indicates if the summary row will be positioned below the detail rows in the outline. |
 | [setTabColor(Color value)](#setTabColor-com.aspose.gridweb.Color-) | Represents worksheet tab color. |
 | [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
-| [setZoom(int value)](#setZoom-int-) |  |
+| [setZoom(int value)](#setZoom-int-) | Represents the scaling factor in percentage. |
 | [toString()](#toString--) |  |
 | [unFreezePanes()](#unFreezePanes--) | Unfreezes panes in the worksheet. |
 | [unGroupRows(int firstIndex, int lastIndex)](#unGroupRows-int-int-) | Ungroups rows. |
@@ -371,7 +371,7 @@ public void filterString(int column, String criteria)
 ```
 
 
-Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma->"," as split char,so the cell value you want to filter shall not contains with comma filterString(10,"123,456") means column 10 shall contain 123 or 456, filterString(10,"123") means column10 shall contain 123 value split with comma,eg. 123,456,789 or abc
+Sets the filter for the column.notice we shall call AddAutoFilter before calling of filterString The filter criteria string. notice we use comma->"," as split char,so the cell value you want to filter shall not contains with comma filterString(10,"123,456") means column 10 shall contain 123 or 456, filterString(10,"123") means column10 shall contain 123 the column index value split with comma,eg. 123,456,789 or abc
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -426,7 +426,7 @@ public String getActiveCell()
 ```
 
 
-
+Gets the active cell in the worksheet.
 
 **Returns:**
 java.lang.String
@@ -446,7 +446,7 @@ public GridCells getCells()
 ```
 
 
-
+Gets the [GridCell](../../com.aspose.gridweb/gridcell) collection.
 
 **Returns:**
 [GridCells](../../com.aspose.gridweb/gridcells)
@@ -525,7 +525,7 @@ public GridCommentCollection getComments()
 ```
 
 
-
+Gets the [GridComment](../../com.aspose.gridweb/gridcomment) collection.
 
 **Returns:**
 [GridCommentCollection](../../com.aspose.gridweb/gridcommentcollection)
@@ -535,7 +535,7 @@ public boolean getDisplayRightToLeft()
 ```
 
 
-
+Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
 
 **Returns:**
 boolean
@@ -555,7 +555,7 @@ public int getFirstVisibleColumn()
 ```
 
 
-
+Represents first visible column index.
 
 **Returns:**
 int
@@ -565,7 +565,7 @@ public int getFirstVisibleRow()
 ```
 
 
-
+Represents first visible row index.
 
 **Returns:**
 int
@@ -585,7 +585,7 @@ public GridCell getGridActiveCell()
 ```
 
 
-
+Gets the active cell in the worksheet.
 
 **Returns:**
 [GridCell](../../com.aspose.gridweb/gridcell)
@@ -605,7 +605,7 @@ public int getIndex()
 ```
 
 
-
+Gets the index of sheet in the worksheet collection.
 
 **Returns:**
 int
@@ -804,7 +804,7 @@ public GridWorkbook getWorkbook()
 ```
 
 
-
+Gets the [GridWorkbook](../../com.aspose.gridweb/gridworkbook) object of the worksheet collection.
 
 **Returns:**
 [GridWorkbook](../../com.aspose.gridweb/gridworkbook)
@@ -814,7 +814,7 @@ public int getZoom()
 ```
 
 
-
+Represents the scaling factor in percentage. It should be between 10 and 400.
 
 **Returns:**
 int
@@ -945,7 +945,7 @@ public void setActiveCell(String value)
 ```
 
 
-
+Sets the active cell in the worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1029,7 +1029,7 @@ public void setDisplayRightToLeft(boolean value)
 ```
 
 
-
+Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1071,7 +1071,7 @@ public void setFirstVisibleColumn(int value)
 ```
 
 
-
+Represents first visible column index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1084,7 +1084,7 @@ public void setFirstVisibleRow(int value)
 ```
 
 
-
+Represents first visible row index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1097,7 +1097,7 @@ public void setGridActiveCell(GridCell value)
 ```
 
 
-
+Sets the active cell in the worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1320,7 +1320,7 @@ public void setZoom(int value)
 ```
 
 
-
+Represents the scaling factor in percentage. It should be between 10 and 400.
 
 **Parameters:**
 | Parameter | Type | Description |

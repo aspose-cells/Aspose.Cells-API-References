@@ -26,7 +26,7 @@ Encapsulates a collection of [GridValidation](../../com.aspose.gridweb/gridvalid
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridValidation](../../com.aspose.gridweb/gridvalidation) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [getValidationInCell(int row, int column)](#getValidationInCell-int-int-) | Gets the validation applied to given cell. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -165,7 +165,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

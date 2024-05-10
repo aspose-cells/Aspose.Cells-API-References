@@ -17,7 +17,7 @@ Provides data for cell events.
 
 | Constructor | Description |
 | --- | --- |
-| [CellEventArgs()](#CellEventArgs--) |  |
+| [CellEventArgs()](#CellEventArgs--) | the default constructor. |
 ## Methods
 
 | Method | Description |
@@ -38,6 +38,8 @@ Provides data for cell events.
 public CellEventArgs()
 ```
 
+
+the default constructor.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

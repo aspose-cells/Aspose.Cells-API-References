@@ -23,7 +23,7 @@ Represents a shape object.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBuffer()](#getBuffer--) | Gets the Buffer of object. |
 | [getClass()](#getClass--) |  |
-| [getID()](#getID--) |  |
+| [getID()](#getID--) | Gets the Sets ID for the Shape. |
 | [getLeft()](#getLeft--) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [getLeftToCorner()](#getLeftToCorner--) | Represents the horizontal offset of shape from worksheet left board, in unit of pixels. |
 | [getMsoDrawingType()](#getMsoDrawingType--) | Gets mso drawing type. |
@@ -38,7 +38,7 @@ Represents a shape object.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [saveToImage(InputStream s)](#saveToImage-java.io.InputStream-) | Creates the image and saves it to a stream in the specified png format. |
-| [setID(String value)](#setID-java.lang.String-) |  |
+| [setID(String value)](#setID-java.lang.String-) | Gets the Sets ID for the Shape. |
 | [setLeftToCorner(int value)](#setLeftToCorner-int-) | Represents the horizontal offset of shape from worksheet left board, in unit of pixels. |
 | [setText(String value)](#setText-java.lang.String-) | Represents the string in this TextBox object. |
 | [setTopToCorner(int value)](#setTopToCorner-int-) | Represents the vertical offset of shape from worksheet top board, in unit of pixels. |
@@ -88,7 +88,7 @@ public String getID()
 ```
 
 
-
+Gets the Sets ID for the Shape.
 
 **Returns:**
 java.lang.String
@@ -247,7 +247,7 @@ public void setID(String value)
 ```
 
 
-
+Gets the Sets ID for the Shape.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -18,34 +18,34 @@ Encapsulates the object that represents a cell comment.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) |  |
-| [getAutoSize()](#getAutoSize--) |  |
+| [getAuthor()](#getAuthor--) | Gets Name of the original comment author |
+| [getAutoSize()](#getAutoSize--) | Indicates if size of comment is adjusted automatically according to its content. |
 | [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) |  |
+| [getColumn()](#getColumn--) | Gets the column index of the comment. |
 | [getHeight()](#getHeight--) | Represents the Height of the comment, in unit of pixels. |
-| [getHeightCM()](#getHeightCM--) |  |
-| [getHeightInch()](#getHeightInch--) |  |
-| [getHtmlNote()](#getHtmlNote--) |  |
-| [getNote()](#getNote--) |  |
-| [getRow()](#getRow--) |  |
+| [getHeightCM()](#getHeightCM--) | Represents the height of the comment, in unit of centimeters. |
+| [getHeightInch()](#getHeightInch--) | Represents the height of the comment, in unit of inches. |
+| [getHtmlNote()](#getHtmlNote--) | Gets the html string which contains data and some formats in this comment. |
+| [getNote()](#getNote--) | Represents the content of comment. |
+| [getRow()](#getRow--) | Gets the row index of the comment. |
 | [getWidth()](#getWidth--) | Represents the width of the comment, in unit of pixels. |
-| [getWidthCM()](#getWidthCM--) |  |
-| [getWidthInch()](#getWidthInch--) |  |
+| [getWidthCM()](#getWidthCM--) | Represents the width of the comment, in unit of centimeters. |
+| [getWidthInch()](#getWidthInch--) | Represents the width of the comment, in unit of inches. |
 | [hashCode()](#hashCode--) |  |
-| [isVisible()](#isVisible--) |  |
+| [isVisible()](#isVisible--) | Represents if the comment is visible or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) |  |
-| [setAutoSize(boolean value)](#setAutoSize-boolean-) |  |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets Name of the original comment author |
+| [setAutoSize(boolean value)](#setAutoSize-boolean-) | Indicates if size of comment is adjusted automatically according to its content. |
 | [setHeight(int value)](#setHeight-int-) | Represents the Height of the comment, in unit of pixels. |
-| [setHeightCM(double value)](#setHeightCM-double-) |  |
-| [setHeightInch(double value)](#setHeightInch-double-) |  |
-| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) |  |
-| [setNote(String value)](#setNote-java.lang.String-) |  |
-| [setVisible(boolean value)](#setVisible-boolean-) |  |
+| [setHeightCM(double value)](#setHeightCM-double-) | Represents the height of the comment, in unit of centimeters. |
+| [setHeightInch(double value)](#setHeightInch-double-) | Represents the height of the comment, in unit of inches. |
+| [setHtmlNote(String value)](#setHtmlNote-java.lang.String-) | Sets the html string which contains data and some formats in this comment. |
+| [setNote(String value)](#setNote-java.lang.String-) | Represents the content of comment. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Represents if the comment is visible or not. |
 | [setWidth(int value)](#setWidth-int-) | Represents the width of the comment, in unit of pixels. |
-| [setWidthCM(double value)](#setWidthCM-double-) |  |
-| [setWidthInch(double value)](#setWidthInch-double-) |  |
+| [setWidthCM(double value)](#setWidthCM-double-) | Represents the width of the comment, in unit of centimeters. |
+| [setWidthInch(double value)](#setWidthInch-double-) | Represents the width of the comment, in unit of inches. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -71,7 +71,7 @@ public String getAuthor()
 ```
 
 
-
+Gets Name of the original comment author
 
 **Returns:**
 java.lang.String
@@ -81,7 +81,7 @@ public boolean getAutoSize()
 ```
 
 
-
+Indicates if size of comment is adjusted automatically according to its content.
 
 **Returns:**
 boolean
@@ -101,7 +101,7 @@ public int getColumn()
 ```
 
 
-
+Gets the column index of the comment.
 
 **Returns:**
 int
@@ -121,7 +121,7 @@ public double getHeightCM()
 ```
 
 
-
+Represents the height of the comment, in unit of centimeters.
 
 **Returns:**
 double
@@ -131,7 +131,7 @@ public double getHeightInch()
 ```
 
 
-
+Represents the height of the comment, in unit of inches.
 
 **Returns:**
 double
@@ -141,7 +141,7 @@ public String getHtmlNote()
 ```
 
 
-
+Gets the html string which contains data and some formats in this comment.
 
 **Returns:**
 java.lang.String
@@ -151,7 +151,7 @@ public String getNote()
 ```
 
 
-
+Represents the content of comment.
 
 **Returns:**
 java.lang.String
@@ -161,7 +161,7 @@ public int getRow()
 ```
 
 
-
+Gets the row index of the comment.
 
 **Returns:**
 int
@@ -181,7 +181,7 @@ public double getWidthCM()
 ```
 
 
-
+Represents the width of the comment, in unit of centimeters.
 
 **Returns:**
 double
@@ -191,7 +191,7 @@ public double getWidthInch()
 ```
 
 
-
+Represents the width of the comment, in unit of inches.
 
 **Returns:**
 double
@@ -211,7 +211,7 @@ public boolean isVisible()
 ```
 
 
-
+Represents if the comment is visible or not.
 
 **Returns:**
 boolean
@@ -237,7 +237,7 @@ public void setAuthor(String value)
 ```
 
 
-
+Sets Name of the original comment author
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,7 +250,7 @@ public void setAutoSize(boolean value)
 ```
 
 
-
+Indicates if size of comment is adjusted automatically according to its content.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -276,7 +276,7 @@ public void setHeightCM(double value)
 ```
 
 
-
+Represents the height of the comment, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -289,7 +289,7 @@ public void setHeightInch(double value)
 ```
 
 
-
+Represents the height of the comment, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -302,7 +302,7 @@ public void setHtmlNote(String value)
 ```
 
 
-
+Sets the html string which contains data and some formats in this comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -315,7 +315,7 @@ public void setNote(String value)
 ```
 
 
-
+Represents the content of comment.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,7 +328,7 @@ public void setVisible(boolean value)
 ```
 
 
-
+Represents if the comment is visible or not.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -354,7 +354,7 @@ public void setWidthCM(double value)
 ```
 
 
-
+Represents the width of the comment, in unit of centimeters.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -367,7 +367,7 @@ public void setWidthInch(double value)
 ```
 
 
-
+Represents the width of the comment, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |

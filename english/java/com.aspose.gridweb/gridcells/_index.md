@@ -56,31 +56,31 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width of the specified column |
 | [getColumnWidthInch(int column)](#getColumnWidthInch-int-) | Gets the width of the specified column, in units of inches. |
 | [getColumnWidthPixel(int column)](#getColumnWidthPixel-int-) | Gets the width of the specified column, in units of pixel. |
-| [getColumns()](#getColumns--) |  |
+| [getColumns()](#getColumns--) | Gets the collection of [GridColumn](../../com.aspose.gridweb/gridcolumn) objects that represents the individual columns in this worksheet. |
 | [getCount()](#getCount--) | Gets the number of cells. |
-| [getFirstCell()](#getFirstCell--) |  |
-| [getLastCell()](#getLastCell--) |  |
+| [getFirstCell()](#getFirstCell--) | Gets the first cell in this worksheet. |
+| [getLastCell()](#getLastCell--) | Gets the last cell in this worksheet. |
 | [getMaxColumn()](#getMaxColumn--) | Maximum column index of cell which contains data or style. |
-| [getMaxDataColumn()](#getMaxDataColumn--) |  |
-| [getMaxDataRow()](#getMaxDataRow--) |  |
+| [getMaxDataColumn()](#getMaxDataColumn--) | Maximum column index of cell which contains data. |
+| [getMaxDataRow()](#getMaxDataRow--) | Maximum row index of cell which contains data. |
 | [getMaxRow()](#getMaxRow--) | Maximum row index of cell which contains data or style. |
 | [getMergedCells()](#getMergedCells--) | Gets the collection of merged cells. |
-| [getMinColumn()](#getMinColumn--) |  |
-| [getMinDataColumn()](#getMinDataColumn--) |  |
-| [getMinDataRow()](#getMinDataRow--) |  |
-| [getMinRow()](#getMinRow--) |  |
+| [getMinColumn()](#getMinColumn--) | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [getMinDataColumn()](#getMinDataColumn--) | Minimum column index of cell which contains data. |
+| [getMinDataRow()](#getMinDataRow--) | Minimum row index of cell which contains data. |
+| [getMinRow()](#getMinRow--) | Minimum row index of cell which contains data or style. |
 | [getRow(int i)](#getRow-int-) | Gets the [GridRow](../../com.aspose.gridweb/gridrow) element or at the specified cell row index. |
 | [getRowEnumerator()](#getRowEnumerator--) | Gets the rows enumerator |
 | [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of a specified row. |
 | [getRowHeightInch(int row)](#getRowHeightInch-int-) | Gets the height of a specified row in unit of inches. |
 | [getRowHeightPixel(int row)](#getRowHeightPixel-int-) | Gets the height of a specified row in unit of pixel. |
-| [getRowOutlineLevel(int rowIndex)](#getRowOutlineLevel-int-) | Remove duplicate values in the range. |
-| [getRows()](#getRows--) |  |
+| [getRowOutlineLevel(int rowIndex)](#getRowOutlineLevel-int-) | Gets the outline level of the row. |
+| [getRows()](#getRows--) | Gets the collection of [GridRow](../../com.aspose.gridweb/gridrow) objects that represents the individual rows in this worksheet. |
 | [getStandardHeight()](#getStandardHeight--) | Gets the default row height in this worksheet,in unit of points. |
 | [getStandardHeightPixels()](#getStandardHeightPixels--) | Gets the default row height in this worksheet,in unit of pixels. |
 | [getStandardWidth()](#getStandardWidth--) | Gets the default column width in the worksheet,in unit of characters. |
-| [getStandardWidthInch()](#getStandardWidthInch--) |  |
-| [getStandardWidthPixels()](#getStandardWidthPixels--) |  |
+| [getStandardWidthInch()](#getStandardWidthInch--) | Gets the default column width in the worksheet, in unit of inches. |
+| [getStandardWidthPixels()](#getStandardWidthPixels--) | Gets the default column width in the worksheet, in unit of pixels. |
 | [getViewColumnWidthPixel(int column)](#getViewColumnWidthPixel-int-) | Get the width in different view type. |
 | [groupColumns(int firstIndex, int lastIndex)](#groupColumns-int-int-) | Groups columns. |
 | [groupColumns(int firstIndex, int lastIndex, boolean isHidden)](#groupColumns-int-int-boolean-) | Groups columns. |
@@ -105,6 +105,7 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [moveRange(GridCellArea sourceArea, int destRow, int destColumn)](#moveRange-com.aspose.gridweb.GridCellArea-int-int-) | Moves the range. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [removeDuplicates(int startRow, int startColumn, int endRow, int endColumn)](#removeDuplicates-int-int-int-int-) | Remove duplicate values in the range. |
 | [removeFormulas()](#removeFormulas--) | Removes all formula and replaces with the value of the formula. |
 | [setBorders(int firstRow, int firstColumn, int rowNumber, int columnNumber, int position, WebBorderStyle borderStyle)](#setBorders-int-int-int-int-int-com.aspose.gridweb.WebBorderStyle-) | Sets borders for a cells range. |
 | [setColumnWidth(int column, double width)](#setColumnWidth-int-double-) | Sets the width of the specified column. |
@@ -117,8 +118,8 @@ Encapsulates a collection of [GridCell](../../com.aspose.gridweb/gridcell) objec
 | [setStandardHeight(double value)](#setStandardHeight-double-) | Sets the default row height in this worksheet,in unit of points. |
 | [setStandardHeightPixels(int value)](#setStandardHeightPixels-int-) | Sets the default row height in this worksheet,in unit of pixels. |
 | [setStandardWidth(double value)](#setStandardWidth-double-) | Sets the default column width in the worksheet,in unit of characters. |
-| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) |  |
-| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) |  |
+| [setStandardWidthInch(double value)](#setStandardWidthInch-double-) | Sets the default column width in the worksheet, in unit of inches. |
+| [setStandardWidthPixels(int value)](#setStandardWidthPixels-int-) | Sets the default column width in the worksheet, in unit of pixels. |
 | [setStyle(int firstRow, int firstColumn, int rowNumber, int columnNumber, GridTableItemStyle style)](#setStyle-int-int-int-int-com.aspose.gridweb.GridTableItemStyle-) | Sets the style to a specified range of cells. |
 | [setStyle(String cellRange, GridTableItemStyle style)](#setStyle-java.lang.String-com.aspose.gridweb.GridTableItemStyle-) | Sets the style to a specified range of cells. |
 | [sort(int startRow, int startColumn, int rows, int columns, int index, boolean isAsending, boolean isCaseSensitive, boolean islefttoright)](#sort-int-int-int-int-int-boolean-boolean-boolean-) | Sorts the datas ascend/decend top to bottom in a range of a Worksheet by specified column index. |
@@ -679,7 +680,7 @@ public GridColumnCollection getColumns()
 ```
 
 
-
+Gets the collection of [GridColumn](../../com.aspose.gridweb/gridcolumn) objects that represents the individual columns in this worksheet.
 
 **Returns:**
 [GridColumnCollection](../../com.aspose.gridweb/gridcolumncollection)
@@ -699,7 +700,11 @@ public GridCell getFirstCell()
 ```
 
 
+Gets the first cell in this worksheet.
 
+**Remarks**
+
+Returns null if there is no data in the worksheet.
 
 **Returns:**
 [GridCell](../../com.aspose.gridweb/gridcell)
@@ -709,7 +714,11 @@ public GridCell getLastCell()
 ```
 
 
+Gets the last cell in this worksheet.
 
+**Remarks**
+
+Returns null if there is no data in the worksheet.
 
 **Returns:**
 [GridCell](../../com.aspose.gridweb/gridcell)
@@ -733,7 +742,11 @@ public int getMaxDataColumn()
 ```
 
 
+Maximum column index of cell which contains data.
 
+**Remarks**
+
+\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
 
 **Returns:**
 int
@@ -743,7 +756,11 @@ public int getMaxDataRow()
 ```
 
 
+Maximum row index of cell which contains data.
 
+**Remarks**
+
+Return -1 if there is no cell which contains data.
 
 **Returns:**
 int
@@ -781,7 +798,7 @@ public int getMinColumn()
 ```
 
 
-
+Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it).
 
 **Returns:**
 int
@@ -791,7 +808,11 @@ public int getMinDataColumn()
 ```
 
 
+Minimum column index of cell which contains data.
 
+**Remarks**
+
+\-1 will be returned if there is no cell which contains data. This property needs to iterate and check all cells in a worksheet, so it is a time-consumed progress and should not be invoked repeatedly.
 
 **Returns:**
 int
@@ -801,7 +822,7 @@ public int getMinDataRow()
 ```
 
 
-
+Minimum row index of cell which contains data.
 
 **Returns:**
 int
@@ -811,7 +832,7 @@ public int getMinRow()
 ```
 
 
-
+Minimum row index of cell which contains data or style.
 
 **Returns:**
 int
@@ -891,22 +912,22 @@ public int getRowOutlineLevel(int rowIndex)
 ```
 
 
-Remove duplicate values in the range.
+Gets the outline level of the row.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rowIndex | int |  |
+| rowIndex | int | row index. |
 
 **Returns:**
-int
+int - the outline level.
 ### getRows() {#getRows--}
 ```
 public GridRowCollection getRows()
 ```
 
 
-
+Gets the collection of [GridRow](../../com.aspose.gridweb/gridrow) objects that represents the individual rows in this worksheet.
 
 **Returns:**
 [GridRowCollection](../../com.aspose.gridweb/gridrowcollection)
@@ -946,7 +967,7 @@ public double getStandardWidthInch()
 ```
 
 
-
+Gets the default column width in the worksheet, in unit of inches.
 
 **Returns:**
 double
@@ -956,7 +977,7 @@ public int getStandardWidthPixels()
 ```
 
 
-
+Gets the default column width in the worksheet, in unit of pixels.
 
 **Returns:**
 int
@@ -1288,6 +1309,22 @@ public final native void notifyAll()
 
 
 
+### removeDuplicates(int startRow, int startColumn, int endRow, int endColumn) {#removeDuplicates-int-int-int-int-}
+```
+public void removeDuplicates(int startRow, int startColumn, int endRow, int endColumn)
+```
+
+
+Remove duplicate values in the range.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startRow | int | The start row. |
+| startColumn | int | The start column |
+| endRow | int | The end row index. |
+| endColumn | int | The end column index. |
+
 ### removeFormulas() {#removeFormulas--}
 ```
 public void removeFormulas()
@@ -1473,7 +1510,7 @@ public void setStandardWidthInch(double value)
 ```
 
 
-
+Sets the default column width in the worksheet, in unit of inches.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1486,7 +1523,7 @@ public void setStandardWidthPixels(int value)
 ```
 
 
-
+Sets the default column width in the worksheet, in unit of pixels.
 
 **Parameters:**
 | Parameter | Type | Description |

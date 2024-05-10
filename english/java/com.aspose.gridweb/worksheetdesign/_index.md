@@ -18,7 +18,7 @@ Inherited from WebWorksheet. Used in design-time only.
 | Constructor | Description |
 | --- | --- |
 | [WorksheetDesign()](#WorksheetDesign--) | Default constructor. |
-| [WorksheetDesign(MainWeb mw, GridWorksheet gwk)](#WorksheetDesign-com.aspose.gridweb.MainWeb-com.aspose.gridweb.GridWorksheet-) |  |
+| [WorksheetDesign(MainWeb mw, GridWorksheet gwk)](#WorksheetDesign-com.aspose.gridweb.MainWeb-com.aspose.gridweb.GridWorksheet-) | the constructor with MainWeb and GridWorksheet |
 ## Methods
 
 | Method | Description |
@@ -34,7 +34,7 @@ Inherited from WebWorksheet. Used in design-time only.
 | [dataBind()](#dataBind--) | Bind the sheet to the DataSource. |
 | [deleteBindRow(int rowNum)](#deleteBindRow-int-) | Deletes a bind row. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) |  |
+| [freezePanes(int row, int column, int freezedRows, int freezedColumns)](#freezePanes-int-int-int-int-) | Freezes panes at the specified cell in the worksheet. |
 | [getBindStartColumn()](#getBindStartColumn--) | In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource. |
 | [getBindStartRow()](#getBindStartRow--) | In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource. |
 | [getBindingSource()](#getBindingSource--) | The actually binding datasource object at run-time. |
@@ -54,9 +54,8 @@ Inherited from WebWorksheet. Used in design-time only.
 | [isProtected()](#isProtected--) | Gets whether the worksheet is protected. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeSubtotal()](#removeSubtotal--) |  |
-| [setAllCellsEditable()](#setAllCellsEditable--) |  |
-| [setAllCellsReadonly()](#setAllCellsReadonly--) |  |
+| [setAllCellsEditable()](#setAllCellsEditable--) | Makes all cells editable.this is extended attribute |
+| [setAllCellsReadonly()](#setAllCellsReadonly--) | Makes all cells readonly.this is extended attribute notice this attribute can not keep in actual cell,if you want to keep protect please use setProtect |
 | [setBindStartColumn(int value)](#setBindStartColumn-int-) | In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource. |
 | [setBindStartRow(int value)](#setBindStartRow-int-) | In data-binding mode, BindStartRow and BindStartColumn indicate the position of the grid to bind bo the datasource. |
 | [setCurrentBindRows(int value)](#setCurrentBindRows-int-) | Gets the binding rows number in data-binding mode. |
@@ -69,8 +68,8 @@ Inherited from WebWorksheet. Used in design-time only.
 | [setReadonlyRange(int startRow, int startColumn, int rows, int columns)](#setReadonlyRange-int-int-int-int-) | Makes a range of cells readonly. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells First make all cells editable by calling the SetAllCellsEditable method. |
 | [setVisible(boolean value)](#setVisible-boolean-) | Indicates whether this sheet's name is shown in the sheet tabs of the control. |
 | [toString()](#toString--) |  |
-| [unfreezePanes()](#unfreezePanes--) |  |
-| [ungroupRows(int firstIndex, int lastIndex)](#ungroupRows-int-int-) |  |
+| [unfreezePanes()](#unfreezePanes--) | Unfreezes panes in the worksheet. |
+| [ungroupRows(int firstIndex, int lastIndex)](#ungroupRows-int-int-) | Ungroups rows. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -87,6 +86,8 @@ Default constructor.
 public WorksheetDesign(MainWeb mw, GridWorksheet gwk)
 ```
 
+
+the constructor with MainWeb and GridWorksheet
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -243,15 +244,21 @@ public void freezePanes(int row, int column, int freezedRows, int freezedColumns
 ```
 
 
+Freezes panes at the specified cell in the worksheet.
 
+**Remarks**
+
+Row index and column index cannot all be zero. Number of rows and number of columns also cannot all be zero.
+
+The first two parameters specify the freezed position and the last two parameters specify the area freezed on the left top pane.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | int |  |
-| column | int |  |
-| freezedRows | int |  |
-| freezedColumns | int |  |
+| row | int | Row index. |
+| column | int | Column index. |
+| freezedRows | int | Number of visible rows in top pane, no more than row index. |
+| freezedColumns | int | Number of visible columns in left pane, no more than column index. |
 
 ### getBindStartColumn() {#getBindStartColumn--}
 ```
@@ -448,21 +455,13 @@ public final native void notifyAll()
 
 
 
-### removeSubtotal() {#removeSubtotal--}
-```
-public void removeSubtotal()
-```
-
-
-
-
 ### setAllCellsEditable() {#setAllCellsEditable--}
 ```
 public void setAllCellsEditable()
 ```
 
 
-
+Makes all cells editable.this is extended attribute
 
 ### setAllCellsReadonly() {#setAllCellsReadonly--}
 ```
@@ -470,7 +469,7 @@ public void setAllCellsReadonly()
 ```
 
 
-
+Makes all cells readonly.this is extended attribute notice this attribute can not keep in actual cell,if you want to keep protect please use setProtect
 
 ### setBindStartColumn(int value) {#setBindStartColumn-int-}
 ```
@@ -637,7 +636,7 @@ public void unfreezePanes()
 ```
 
 
-
+Unfreezes panes in the worksheet.
 
 ### ungroupRows(int firstIndex, int lastIndex) {#ungroupRows-int-int-}
 ```
@@ -645,13 +644,17 @@ public void ungroupRows(int firstIndex, int lastIndex)
 ```
 
 
+Ungroups rows.
 
+**Remarks**
+
+Only removes outter group info.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| firstIndex | int |  |
-| lastIndex | int |  |
+| firstIndex | int | The first row index to be ungrouped. |
+| lastIndex | int | The last row index to be ungrouped. |
 
 ### wait() {#wait--}
 ```

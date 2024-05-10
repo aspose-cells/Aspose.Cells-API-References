@@ -25,7 +25,7 @@ Encapsulates a collection of [GridHyperlink](../../com.aspose.gridweb/gridhyperl
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [GridHyperlink](../../com.aspose.gridweb/gridhyperlink) element at the specified index. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) |  |
+| [getCount()](#getCount--) | Gets the size of enumerator |
 | [getHyperlink(GridCell cell)](#getHyperlink-com.aspose.gridweb.GridCell-) | Gets the cell's Hyperlink object. |
 | [getHyperlink(int row, int column)](#getHyperlink-int-int-) | Gets the cell's Hyperlink object. |
 | [hashCode()](#hashCode--) |  |
@@ -163,7 +163,7 @@ public int getCount()
 ```
 
 
-
+Gets the size of enumerator
 
 **Returns:**
 int

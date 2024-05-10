@@ -17,11 +17,11 @@ horizontal alignment of a GridView control
 
 | Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) |  |
-| [JUSTIFY](#JUSTIFY) |  |
-| [LEFT](#LEFT) |  |
-| [NOT_SET](#NOT-SET) |  |
-| [RIGHT](#RIGHT) |  |
+| [CENTER](#CENTER) | Center alignment. |
+| [JUSTIFY](#JUSTIFY) | Justify alignment. |
+| [LEFT](#LEFT) | Left alignment. |
+| [NOT_SET](#NOT-SET) | Not set. |
+| [RIGHT](#RIGHT) | Right alignment. |
 ## Methods
 
 | Method | Description |
@@ -41,11 +41,15 @@ public static final int CENTER
 ```
 
 
+Center alignment.
+
 ### JUSTIFY {#JUSTIFY}
 ```
 public static final int JUSTIFY
 ```
 
+
+Justify alignment.
 
 ### LEFT {#LEFT}
 ```
@@ -53,17 +57,23 @@ public static final int LEFT
 ```
 
 
+Left alignment.
+
 ### NOT_SET {#NOT-SET}
 ```
 public static final int NOT_SET
 ```
 
 
+Not set.
+
 ### RIGHT {#RIGHT}
 ```
 public static final int RIGHT
 ```
 
+
+Right alignment.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

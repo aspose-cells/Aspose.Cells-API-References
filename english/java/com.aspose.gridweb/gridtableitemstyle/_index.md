@@ -15,6 +15,31 @@ public class GridTableItemStyle extends WebTableItemStyle
 Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell.
 
 **Example**
+
+```
+         GridWeb GridWeb1 = new GridWeb();
+         GridWorksheetCollection sheets = GridWeb1.getWorkSheets();
+ 
+         GridWorksheet sheet = sheets.add("demo1");
+ 
+         sheet.getCells().get(0,0).putValue("Demo Text");
+         GridTableItemStyle style = sheet.getCells().get(0, 0).getStyle();
+ 
+         style.getFont().setSize(FontUnit.point(72));
+         style.setWrap(false);
+ 
+         style.setBackColor(Color.getGray());
+         style.setBorderStyle(BorderStyle.SOLID);
+         style.setBorderWidth(Unit.pixel(1));
+         style.setBorderColor(Color.getSilver());
+         style.getRightBorderStyle().setBorderColor(Color.getBlack());
+         style.getRightBorderStyle().setBorderStyle(BorderStyle.SOLID);
+         style.getRightBorderStyle().setBorderWidth(Unit.pixel(1));
+         style.getBottomBorderStyle().setBorderColor(Color.getBlack());
+         style.getBottomBorderStyle().setBorderStyle(BorderStyle.SOLID);
+         style.getBottomBorderStyle().setBorderWidth(Unit.pixel(1));
+         sheet.getCells().get(0, 0).setStyle(style);
+```
 ## Constructors
 
 | Constructor | Description |
@@ -45,7 +70,7 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [getNumberType()](#getNumberType--) | Gets the display format of numbers and dates. |
 | [getQuotePrefix()](#getQuotePrefix--) | Indicates whether the cell's value starts with single quote mark. |
 | [getRightBorderStyle()](#getRightBorderStyle--) | Specifies the style of the cell's right border. |
-| [getRotationAngle()](#getRotationAngle--) | Visual filters. |
+| [getRotationAngle()](#getRotationAngle--) | Gets Rotation attribute. |
 | [getTopBorderStyle()](#getTopBorderStyle--) | Specifies the style of the cell's top border. |
 | [getVerticalAlign()](#getVerticalAlign--) | Gets the VerticalAlign in the style |
 | [getWidth()](#getWidth--) | Gets the Width in the style |
@@ -73,7 +98,7 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
 | [setNumberType(int value)](#setNumberType-int-) | Sets the display format of numbers and dates. |
 | [setQuotePrefix(boolean value)](#setQuotePrefix-boolean-) | Indicates whether the cell's value starts with single quote mark. |
 | [setRightBorderStyle(WebBorderStyle value)](#setRightBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's right border. |
-| [setRotationAngle(short value)](#setRotationAngle-short-) | Visual filters. |
+| [setRotationAngle(short value)](#setRotationAngle-short-) | Sets Rotation attribute. |
 | [setTopBorderStyle(WebBorderStyle value)](#setTopBorderStyle-com.aspose.gridweb.WebBorderStyle-) | Specifies the style of the cell's top border. |
 | [setVerticalAlign(int value)](#setVerticalAlign-int-) | Sets the VerticalAlign in the style |
 | [setWidth(Unit value)](#setWidth-com.aspose.gridweb.Unit-) | Sets the Width in the style |
@@ -363,7 +388,19 @@ public short getRotationAngle()
 ```
 
 
-Visual filters.
+Gets Rotation attribute.
+
+**Remarks**
+
+0: Not rotated.
+
+255: Top to Bottom.
+
+\-90: Downward.
+
+90: Upward.
+
+You can set 255 or value ranged from -90 to 90.
 
 **Returns:**
 short
@@ -747,7 +784,19 @@ public void setRotationAngle(short value)
 ```
 
 
-Visual filters.
+Sets Rotation attribute.
+
+**Remarks**
+
+0: Not rotated.
+
+255: Top to Bottom.
+
+\-90: Downward.
+
+90: Upward.
+
+You can set 255 or value ranged from -90 to 90.
 
 **Parameters:**
 | Parameter | Type | Description |

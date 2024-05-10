@@ -106,6 +106,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getClass()](#getClass--) |  |
 | [getColumnOriginalWidthPoint(int column)](#getColumnOriginalWidthPoint-int-) | Gets original column's height in unit of point if the column is hidden |
 | [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width(in unit of characters) of the specified column in normal view |
+| [getColumnWidth(int column, boolean isOriginal, int unitType)](#getColumnWidth-int-boolean-int-) | Gets the column width. |
 | [getColumnWidthInch(int column)](#getColumnWidthInch-int-) | Gets the width of the specified column in normal view, in units of inches. |
 | [getColumnWidthPixel(int column)](#getColumnWidthPixel-int-) | Gets the width of the specified column in normal view, in units of pixel. |
 | [getColumnWidthPixel(int column, boolean original)](#getColumnWidthPixel-int-boolean-) | Gets the width of the specified column in normal view, in units of pixel. |
@@ -139,6 +140,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [getRanges()](#getRanges--) | Gets the collection of [Range](../../com.aspose.cells/range) objects created at run time. |
 | [getRowEnumerator()](#getRowEnumerator--) | Gets the rows enumerator. |
 | [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of a specified row, in unit of points. |
+| [getRowHeight(int row, boolean isOriginal, int unitType)](#getRowHeight-int-boolean-int-) | Gets row's height. |
 | [getRowHeightInch(int row)](#getRowHeightInch-int-) | Gets the height of a specified row in unit of inches. |
 | [getRowHeightPixel(int row)](#getRowHeightPixel-int-) | Gets the height of a specified row in unit of pixel. |
 | [getRowOriginalHeightPoint(int row)](#getRowOriginalHeightPoint-int-) | Gets original row's height in unit of point if the row is hidden |
@@ -1085,13 +1087,17 @@ public double getColumnOriginalWidthPoint(int column)
 
 Gets original column's height in unit of point if the column is hidden
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method. This method will be removed 12 months later since April 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | int | The row index. |
 
 **Returns:**
-double - 
+double - Width of column in normal view.
 ### getColumnWidth(int column) {#getColumnWidth-int-}
 ```
 public double getColumnWidth(int column)
@@ -1107,6 +1113,23 @@ Gets the width(in unit of characters) of the specified column in normal view
 
 **Returns:**
 double - Width of column. For spreadsheet, column width is measured as the number of characters of the maximum digit width of the numbers 0~9 as rendered in the normal style's font.
+### getColumnWidth(int column, boolean isOriginal, int unitType) {#getColumnWidth-int-boolean-int-}
+```
+public double getColumnWidth(int column, boolean isOriginal, int unitType)
+```
+
+
+Gets the column width.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | int | The column index. |
+| isOriginal | boolean | Indicates whether getting original width. |
+| unitType | int | [CellsUnitType](../../com.aspose.cells/cellsunittype). |
+
+**Returns:**
+double - 
 ### getColumnWidthInch(int column) {#getColumnWidthInch-int-}
 ```
 public double getColumnWidthInch(int column)
@@ -1115,13 +1138,17 @@ public double getColumnWidthInch(int column)
 
 Gets the width of the specified column in normal view, in units of inches.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method. This method will be removed 12 months later since April 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | column | int | Column index |
 
 **Returns:**
-double - Width of column
+double - Width of column in normal view.
 ### getColumnWidthPixel(int column) {#getColumnWidthPixel-int-}
 ```
 public int getColumnWidthPixel(int column)
@@ -1144,6 +1171,10 @@ public int getColumnWidthPixel(int column, boolean original)
 
 
 Gets the width of the specified column in normal view, in units of pixel.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method. This method will be removed 12 months later since April 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1545,6 +1576,23 @@ Gets the height of a specified row, in unit of points.
 
 **Returns:**
 double - Height of row
+### getRowHeight(int row, boolean isOriginal, int unitType) {#getRowHeight-int-boolean-int-}
+```
+public double getRowHeight(int row, boolean isOriginal, int unitType)
+```
+
+
+Gets row's height.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | The row index. |
+| isOriginal | boolean | Whether returns the original row height or 0 for hidden row. |
+| unitType | int | [CellsUnitType](../../com.aspose.cells/cellsunittype). Unit type of the returned height value |
+
+**Returns:**
+double - Row's height
 ### getRowHeightInch(int row) {#getRowHeightInch-int-}
 ```
 public double getRowHeightInch(int row)
@@ -1582,6 +1630,10 @@ public double getRowOriginalHeightPoint(int row)
 
 
 Gets original row's height in unit of point if the row is hidden
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use Cells.GetRowHeight(int,bool,CellsUnitType) method. This method will be removed 12 months later since April 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
