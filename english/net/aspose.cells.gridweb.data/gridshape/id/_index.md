@@ -1,11 +1,13 @@
 ---
 title: GridShape.ID
 second_title: Aspose.Cells for .NET API Reference
-description: GridShape property. 
+description: GridShape property. Gets the Sets ID for the Shape
 type: docs
 url: /net/aspose.cells.gridweb.data/gridshape/id/
 ---
 ## GridShape.ID property
+
+Gets the Sets ID for the Shape.
 
 ```csharp
 public string ID { get; set; }

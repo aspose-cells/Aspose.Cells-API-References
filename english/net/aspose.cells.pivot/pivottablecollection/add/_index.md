@@ -1,10 +1,41 @@
 ---
 title: PivotTableCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTableCollection method. Adds a new PivotTable cache to a PivotCaches collection
+description: PivotTableCollection method. Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source
 type: docs
 url: /net/aspose.cells.pivot/pivottablecollection/add/
 ---
+## Add(string[], bool, PivotPageFields, int, int, string) {#add_6}
+
+Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
+
+```csharp
+public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields, int row, 
+    int column, string tableName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | String[] | The multiple consolidation ranges,such as {"Sheet1!A1:C8","Sheet2!A1:B8"} |
+| isAutoPage | Boolean | Whether auto create a single page field. If true,the following param pageFields will be ignored |
+| pageFields | PivotPageFields | The pivot page field items. |
+| row | Int32 | Row index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| column | Int32 | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | String | The name of the new PivotTable report. |
+
+### Return Value
+
+The new added PivotTable index.
+
+### See Also
+
+* class [PivotPageFields](../../pivotpagefields/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## Add(string, string, string) {#add_4}
 
 Adds a new PivotTable cache to a PivotCaches collection.
@@ -184,37 +215,6 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 | pageFields | PivotPageFields | The pivot page field items. |
 | destCellName | String | destCellName The name of the new PivotTable report. |
 | tableName | String | the name of the new PivotTable report. |
-
-### Return Value
-
-The new added PivotTable index.
-
-### See Also
-
-* class [PivotPageFields](../../pivotpagefields/)
-* class [PivotTableCollection](../)
-* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## Add(string[], bool, PivotPageFields, int, int, string) {#add_6}
-
-Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
-
-```csharp
-public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields, int row, 
-    int column, string tableName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceData | String[] | The multiple consolidation ranges,such as {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| isAutoPage | Boolean | Whether auto create a single page field. If true,the following param pageFields will be ignored |
-| pageFields | PivotPageFields | The pivot page field items. |
-| row | Int32 | Row index of the cell in the upper-left corner of the PivotTable report's destination range. |
-| column | Int32 | Column index of the cell in the upper-left corner of the PivotTable report's destination range. |
-| tableName | String | The name of the new PivotTable report. |
 
 ### Return Value
 

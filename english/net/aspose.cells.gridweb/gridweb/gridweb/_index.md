@@ -1,13 +1,13 @@
 ---
 title: GridWeb.GridWeb
 second_title: Aspose.Cells for .NET API Reference
-description: GridWeb constructor. The default constructor
+description: GridWeb constructor. this constructor 
 type: docs
 url: /net/aspose.cells.gridweb/gridweb/gridweb/
 ---
 ## GridWeb constructor
 
-The default constructor.
+this constructor .
 
 ```csharp
 public GridWeb()

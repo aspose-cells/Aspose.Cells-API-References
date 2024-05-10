@@ -17,13 +17,13 @@ The **Aspose.Cells.GridWeb** namespace contains core classes of web control that
 | [CustomCommandButton](./customcommandbutton/) | Represents a custom command button in the tab bar of the GridWeb control. |
 | [CustomCommandButtonCollection](./customcommandbuttoncollection/) | Represents the collection of CustomCommandButton. |
 | [ExtWebControl](./extwebcontrol/) | Extend the WebControl class, internal use only. |
-| [GridTableItemStyle](./gridtableitemstyle/) |  |
+| [GridTableItemStyle](./gridtableitemstyle/) | Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles of a WebCell. |
 | [GridTableStyle](./gridtablestyle/) | Inherited from System.Web.UI.WebControls.TableStyle. Represents the style of a web table. Please refer to .NET SDK document about System.Web.UI.WebControls.TableStyle for further information. |
-| [GridWeb](./gridweb/) |  |
+| [GridWeb](./gridweb/) | The basic class of GridWeb control. |
 | [GridWebForm](./gridwebform/) | GridWebForm control. It works with the GridWeb control. Set the GridWebControl property for it before run it. |
 | [GridWorksheetDesign](./gridworksheetdesign/) | Inherited from GridWorksheet. Used in design-time only. |
 | [License](./license/) | Provides methods to license the component. |
-| [MainWeb](./mainweb/) |  |
+| [MainWeb](./mainweb/) | Parent class of GridWeb control.Internal use only. |
 | [RowColumnEventArgs](./rowcolumneventargs/) | Provides data for row/column events. |
 | [TableItemStyle](./tableitemstyle/) |  |
 | [Validation](./validation/) |  |

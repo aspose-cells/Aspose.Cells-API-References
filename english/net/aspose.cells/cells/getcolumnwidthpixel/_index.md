@@ -34,6 +34,8 @@ Width of column in normal view.
 Gets the width of the specified column in normal view, in units of pixel.
 
 ```csharp
+[Obsolete("Use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int GetColumnWidthPixel(int column, bool original)
 ```
 
@@ -45,6 +47,10 @@ public int GetColumnWidthPixel(int column, bool original)
 ### Return Value
 
 Width of column in normal view.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use Cells.GetColumnWidth(int ,bool , CellsUnitType ) method. This method will be removed 12 months later since April 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

@@ -1,11 +1,13 @@
 ---
 title: GridWorksheet.GridActiveCell
 second_title: Aspose.Cells for .NET API Reference
-description: GridWorksheet property. 
+description: GridWorksheet property. Gets or sets the active cell in the worksheet
 type: docs
 url: /net/aspose.cells.gridweb.data/gridworksheet/gridactivecell/
 ---
 ## GridWorksheet.GridActiveCell property
+
+Gets or sets the active cell in the worksheet.
 
 ```csharp
 public GridCell GridActiveCell { get; set; }

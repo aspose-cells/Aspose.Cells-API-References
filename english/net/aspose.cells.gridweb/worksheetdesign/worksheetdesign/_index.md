@@ -23,9 +23,16 @@ public WorksheetDesign()
 
 ## WorksheetDesign(MainWeb, GridWorksheet) {#constructor_1}
 
+the constructor with MainWeb and GridWorksheet
+
 ```csharp
 public WorksheetDesign(MainWeb mw, GridWorksheet gwk)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mw | MainWeb |  |
+| gwk | GridWorksheet |  |
 
 ### See Also
 

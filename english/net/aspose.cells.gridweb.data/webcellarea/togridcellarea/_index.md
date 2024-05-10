@@ -1,11 +1,13 @@
 ---
 title: WebCellArea.ToGridCellArea
 second_title: Aspose.Cells for .NET API Reference
-description: WebCellArea method. 
+description: WebCellArea method. to GridCellArea
 type: docs
 url: /net/aspose.cells.gridweb.data/webcellarea/togridcellarea/
 ---
 ## WebCellArea.ToGridCellArea method
+
+to GridCellArea.
 
 ```csharp
 public GridCellArea ToGridCellArea()

@@ -1,15 +1,22 @@
 ---
 title: WebWorksheet.WebWorksheet
 second_title: Aspose.Cells for .NET API Reference
-description: WebWorksheet constructor. 
+description: WebWorksheet constructor. the constructor of the WebWorksheet
 type: docs
 url: /net/aspose.cells.gridweb.data/webworksheet/webworksheet/
 ---
 ## WebWorksheet(MainWeb, GridWorksheet) {#constructor_1}
 
+the constructor of the WebWorksheet.
+
 ```csharp
 public WebWorksheet(MainWeb mw, GridWorksheet gwk)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mw | MainWeb |  |
+| gwk | GridWorksheet |  |
 
 ### See Also
 
@@ -23,7 +30,7 @@ public WebWorksheet(MainWeb mw, GridWorksheet gwk)
 
 ## WebWorksheet() {#constructor}
 
-The default constructor.
+the constructor of the WebWorksheet.
 
 ```csharp
 public WebWorksheet()

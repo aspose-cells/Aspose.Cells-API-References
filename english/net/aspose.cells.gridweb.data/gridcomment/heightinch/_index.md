@@ -1,11 +1,13 @@
 ---
 title: GridComment.HeightInch
 second_title: Aspose.Cells for .NET API Reference
-description: GridComment property. 
+description: GridComment property. Represents the height of the comment in unit of inches
 type: docs
 url: /net/aspose.cells.gridweb.data/gridcomment/heightinch/
 ---
 ## GridComment.HeightInch property
+
+Represents the height of the comment, in unit of inches.
 
 ```csharp
 public double HeightInch { get; set; }

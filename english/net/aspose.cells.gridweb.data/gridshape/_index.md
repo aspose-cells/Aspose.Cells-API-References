@@ -18,7 +18,7 @@ public class GridShape
 | Name | Description |
 | --- | --- |
 | [Buffer](../../aspose.cells.gridweb.data/gridshape/buffer/) { get; } | Gets the Buffer of object. |
-| [ID](../../aspose.cells.gridweb.data/gridshape/id/) { get; set; } |  |
+| [ID](../../aspose.cells.gridweb.data/gridshape/id/) { get; set; } | Gets the Sets ID for the Shape. |
 | [ImageFormat](../../aspose.cells.gridweb.data/gridshape/imageformat/) { get; } | Gets the image format of the picture. |
 | [Left](../../aspose.cells.gridweb.data/gridshape/left/) { get; } | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [LeftToCorner](../../aspose.cells.gridweb.data/gridshape/lefttocorner/) { get; set; } | Represents the horizontal offset of shape from worksheet left board, in unit of pixels. |

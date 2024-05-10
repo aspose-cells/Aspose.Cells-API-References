@@ -17,7 +17,7 @@ public class GridValidationCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridvalidationcollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridvalidationcollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridvalidationcollection/item/) { get; } | Gets the [`GridValidation`](../gridvalidation/) element at the specified index. |
 
 ## Methods

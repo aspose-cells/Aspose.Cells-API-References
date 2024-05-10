@@ -48,11 +48,11 @@ public class Sparkline
  ca.StartRow = 0;
  ca.EndRow = 0;
 
- int idx = sheet.SparklineGroupCollection.Add(Aspose.Cells.Charts.SparklineType.Line, sheet.Name + "!A1:D1", false, ca);
+ int idx = sheet.SparklineGroups.Add(Aspose.Cells.Charts.SparklineType.Line, sheet.Name + "!A1:D1", false, ca);
 
- SparklineGroup group = sheet.SparklineGroupCollection[idx];
- idx = group.SparklineCollection.Add(sheet.Name + "!A1:D1", 0, 4);
- Sparkline line = group.SparklineCollection[idx];
+ SparklineGroup group = sheet.SparklineGroups[idx];
+ idx = group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
+ Sparkline line = group.Sparklines[idx];
  Console.WriteLine("Saprkline data range: " + line.DataRange + ", row: " + line.Row + ", column: " + line.Column);
  line.ToImage("output.png", new ImageOrPrintOptions());
 ```

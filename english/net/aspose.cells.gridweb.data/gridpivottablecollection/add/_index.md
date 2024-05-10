@@ -40,13 +40,12 @@ public int Add(GridWorksheet sourceSheet, GridCellArea sourceArea, string destCe
     string tableName)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| sourceSheet | The source work sheet. |
-| sourceArea | The area in the source worksheet. |
-| destRow | The row of the cell in the upper-left corner of the PivotTable report's destination range. |
-| destCol | The column of the cell in the upper-left corner of the PivotTable report's destination range. |
-| tableName | The name of the new PivotTable report. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceSheet | GridWorksheet | The source work sheet. |
+| sourceArea | GridCellArea | The area in the source worksheet. |
+| destCellName | String | The cell in the upper-left corner of the PivotTable report's destination range. |
+| tableName | String | The name of the new PivotTable report. |
 
 ### Return Value
 

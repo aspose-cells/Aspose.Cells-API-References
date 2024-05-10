@@ -70,9 +70,9 @@ public class SparklineGroup
  ca.EndColumn = 4;
  ca.StartRow = 0;
  ca.EndRow = 0;
- int idx = sheet.SparklineGroupCollection.Add(Aspose.Cells.Charts.SparklineType.Line, "A1:D1", false, ca);
- SparklineGroup group = sheet.SparklineGroupCollection[idx];
- group.SparklineCollection.Add(sheet.Name + "!A1:D1", 0, 4);
+ int idx = sheet.SparklineGroups.Add(Aspose.Cells.Charts.SparklineType.Line, "A1:D1", false, ca);
+ SparklineGroup group = sheet.SparklineGroups[idx];
+ group.Sparklines.Add(sheet.Name + "!A1:D1", 0, 4);
  // Create CellsColor
  CellsColor clr = book.CreateCellsColor();
  clr.Color = Color.Orange;

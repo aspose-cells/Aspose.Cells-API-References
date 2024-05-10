@@ -1,13 +1,13 @@
 ---
 title: CellEventArgs.CellEventArgs
 second_title: Aspose.Cells for .NET API Reference
-description: CellEventArgs constructor. The default constructor
+description: CellEventArgs constructor. the default constructor
 type: docs
 url: /net/aspose.cells.gridweb/celleventargs/celleventargs/
 ---
 ## CellEventArgs constructor
 
-The default constructor.
+the default constructor.
 
 ```csharp
 public CellEventArgs()

@@ -43,10 +43,9 @@ public class GridCell
 | [CopyStyle](../../aspose.cells.gridweb.data/gridcell/copystyle/)(GridTableItemStyle) | copy the style and set the style for the cell |
 | [CreateComment](../../aspose.cells.gridweb.data/gridcell/createcomment/)(string, string, bool) | Creates a comment object for a cell. |
 | [CreateValidation](../../aspose.cells.gridweb.data/gridcell/createvalidation/)(GridValidationType, bool) | Creates a validation object for a cell. |
-| override [Equals](../../aspose.cells.gridweb.data/gridcell/equals/)(object) |  |
-| [GetCellArea](../../aspose.cells.gridweb.data/gridcell/getcellarea/)() |  |
+| override [Equals](../../aspose.cells.gridweb.data/gridcell/equals/)(object) | Checks whether this object refers to the same cell with another cell object. |
 | [GetComment](../../aspose.cells.gridweb.data/gridcell/getcomment/)() | Get comment object on this cell |
-| override [GetHashCode](../../aspose.cells.gridweb.data/gridcell/gethashcode/)() |  |
+| override [GetHashCode](../../aspose.cells.gridweb.data/gridcell/gethashcode/)() | Serves as a hash function for a particular type. |
 | [GetWidthOfValue](../../aspose.cells.gridweb.data/gridcell/getwidthofvalue/)() | Gets the width of the value in unit of pixels. |
 | [IsErrorValue](../../aspose.cells.gridweb.data/gridcell/iserrorvalue/)() | Checks if a formula can properly evaluate a result. |
 | [IsFormula](../../aspose.cells.gridweb.data/gridcell/isformula/)() | Represents if the specified cell contains formula. |

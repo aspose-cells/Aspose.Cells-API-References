@@ -15,7 +15,7 @@ public int Add(GridPivotItem item)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| PivotItem | GridPivotItem | a PivotItem Object. |
+| item | GridPivotItem | a GridPivotItem Object. |
 
 ### Return Value
 

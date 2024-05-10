@@ -10,6 +10,8 @@ url: /net/aspose.cells/range/unionrang/
 Returns the union result of two ranges.
 
 ```csharp
+[Obsolete("Use Range.UnionRanges() instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public Range[] UnionRang(Range range)
 ```
 
@@ -20,6 +22,10 @@ public Range[] UnionRang(Range range)
 ### Return Value
 
 The union of two ranges.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use Range.UnionRanges() method. This method will be removed 12 months later since May 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

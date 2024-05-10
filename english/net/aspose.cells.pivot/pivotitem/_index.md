@@ -22,8 +22,8 @@ public class PivotItem
 | [IsHideDetail](../../aspose.cells.pivot/pivotitem/ishidedetail/) { get; set; } | Gets and Sets whether the pivot item hides detail. |
 | [IsMissing](../../aspose.cells.pivot/pivotitem/ismissing/) { get; } | Indicates whether the item has a missing value. |
 | [Name](../../aspose.cells.pivot/pivotitem/name/) { get; } | Gets the name of the pivot item. |
-| [Position](../../aspose.cells.pivot/pivotitem/position/) { set; } | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
-| [PositionInSameParentNode](../../aspose.cells.pivot/pivotitem/positioninsameparentnode/) { set; } | Specifying the position index in the PivotItems under the same parent node. |
+| [Position](../../aspose.cells.pivot/pivotitem/position/) { get; set; } | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [PositionInSameParentNode](../../aspose.cells.pivot/pivotitem/positioninsameparentnode/) { get; set; } | Specifying the position index in the PivotItems under the same parent node. |
 | [Value](../../aspose.cells.pivot/pivotitem/value/) { get; } | Gets the value of the pivot item |
 
 ## Methods

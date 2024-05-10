@@ -16,7 +16,7 @@ public class WebComment
 
 | Name | Description |
 | --- | --- |
-| [Note](../../aspose.cells.gridweb.data/webcomment/note/) { get; set; } |  |
+| [Note](../../aspose.cells.gridweb.data/webcomment/note/) { get; set; } | Represents the content of comment. |
 
 ### Remarks
 

@@ -1,32 +1,10 @@
 ---
 title: MainWeb.SaveToExcelFile
 second_title: Aspose.Cells for .NET API Reference
-description: MainWeb method. Saves the worksheets to an excel file
+description: MainWeb method. Saves the worksheets to an excel file with Excel 2003 format
 type: docs
 url: /net/aspose.cells.gridweb/mainweb/savetoexcelfile/
 ---
-## SaveToExcelFile(string, GridSaveOptions) {#savetoexcelfile_5}
-
-Saves the worksheets to an excel file.
-
-```csharp
-public void SaveToExcelFile(string targetFile, GridSaveOptions saveOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| targetFile | String | The name of the target file to write to. |
-| saveOptions | GridSaveOptions | The save options. |
-
-### See Also
-
-* class [GridSaveOptions](../../../aspose.cells.gridweb.data/gridsaveoptions/)
-* class [MainWeb](../)
-* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
-* assembly [Aspose.Cells.GridWeb](../../../)
-
----
-
 ## SaveToExcelFile(string) {#savetoexcelfile_3}
 
 Saves the worksheets to an excel file with Excel 2003 format.
@@ -55,10 +33,9 @@ Saves the worksheets to an excel file.
 public void SaveToExcelFile(Stream stream)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| stream | The stream to write to. |
-| format | The file format(Excel2003, Excel2007, CSV, SpreadsheetML) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream to write to. |
 
 ### See Also
 
@@ -128,6 +105,28 @@ public void SaveToExcelFile(string targetFile, GridSaveFormat format)
 ### See Also
 
 * enum [GridSaveFormat](../../../aspose.cells.gridweb.data/gridsaveformat/)
+* class [MainWeb](../)
+* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+---
+
+## SaveToExcelFile(string, GridSaveOptions) {#savetoexcelfile_5}
+
+Saves the worksheets to an excel file.
+
+```csharp
+public void SaveToExcelFile(string targetFile, GridSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| targetFile | String | The name of the target file to write to. |
+| saveOptions | GridSaveOptions | The save options. |
+
+### See Also
+
+* class [GridSaveOptions](../../../aspose.cells.gridweb.data/gridsaveoptions/)
 * class [MainWeb](../)
 * namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
 * assembly [Aspose.Cells.GridWeb](../../../)

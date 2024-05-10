@@ -10,7 +10,7 @@ url: /net/aspose.cells/range/union/
 Returns the union of two ranges.
 
 ```csharp
-[Obsolete("Use Range.UnionRang() instead.")]
+[Obsolete("Use Range.UnionRanges() instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public ArrayList Union(Range range)
 ```
@@ -25,7 +25,7 @@ The union of two ranges.
 
 ### Remarks
 
-NOTE: This method is now obsolete. Instead, please use Range.UnionRang() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use Range.UnionRanges() method. This method will be removed 12 months later since November 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

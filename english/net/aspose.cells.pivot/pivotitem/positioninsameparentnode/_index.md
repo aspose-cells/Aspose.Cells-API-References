@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivotitem/positioninsameparentnode/
 Specifying the position index in the PivotItems under the same parent node.
 
 ```csharp
-public int PositionInSameParentNode { set; }
+public int PositionInSameParentNode { get; set; }
 ```
 
 ### See Also

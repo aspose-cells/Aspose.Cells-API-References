@@ -23,11 +23,11 @@ public class HtmlTableLoadOptionCollection : CollectionBase<HtmlTableLoadOption>
 
 | Name | Description |
 | --- | --- |
-| [AutoCreateListObjectsForAllTables](../../aspose.cells/htmltableloadoptioncollection/autocreatelistobjectsforalltables/) { get; set; } | Indicates whether generate list objects from table elements for all imported tables. The default value is false. |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
 | [Item](../../aspose.cells/htmltableloadoptioncollection/item/) { get; } | Gets the [`HtmlTableLoadOption`](../htmltableloadoption/) element at the specified index. |
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
+| [TableToListObject](../../aspose.cells/htmltableloadoptioncollection/tabletolistobject/) { get; set; } | Indicates whether generate list objects from imported tables. The default value is false. |
 
 ## Methods
 

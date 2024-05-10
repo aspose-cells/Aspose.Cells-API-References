@@ -17,8 +17,8 @@ public class GridWorksheetCollection : CollectionBase, ISerializable
 
 | Name | Description |
 | --- | --- |
-| [ActiveSheetIndex](../../aspose.cells.gridweb.data/gridworksheetcollection/activesheetindex/) { get; set; } |  |
-| [Count](../../aspose.cells.gridweb.data/gridworksheetcollection/count/) { get; } |  |
+| [ActiveSheetIndex](../../aspose.cells.gridweb.data/gridworksheetcollection/activesheetindex/) { get; set; } | Represents the index of active worksheet when the spreadsheet is opened. |
+| [Count](../../aspose.cells.gridweb.data/gridworksheetcollection/count/) { get; } | Gets the size of enumerator |
 | [DefaultFontName](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname/) { get; set; } | Gets or sets the control's default font name. |
 | [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize/) { get; set; } | ????????? |
 | [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized/) { get; } | Gets a value indicating if access to the ICollection is synchronized (thread-safe). |
@@ -45,7 +45,7 @@ public class GridWorksheetCollection : CollectionBase, ISerializable
 | [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert/)(int, string) | Insert a worksheet. |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat/#removeat)(int) | Removes the element at a specified index. |
 | [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat/#removeat_2)(string) | Removes the element at a specified name. |
-| [SetVisible](../../aspose.cells.gridweb.data/gridworksheetcollection/setvisible/)(string, bool) | Sets the visible options. |
+| [SetVisible](../../aspose.cells.gridweb.data/gridworksheetcollection/setvisible/)(string, bool) | Sets the visible for the sheet . |
 | [SwapSheet](../../aspose.cells.gridweb.data/gridworksheetcollection/swapsheet/)(int, int) | Swaps the two sheets. |
 
 ### See Also

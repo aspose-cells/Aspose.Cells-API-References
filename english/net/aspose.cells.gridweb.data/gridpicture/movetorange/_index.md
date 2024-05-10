@@ -10,7 +10,8 @@ url: /net/aspose.cells.gridweb.data/gridpicture/movetorange/
 Moves the shape to a specified range.
 
 ```csharp
-public void MoveToRange(int param0_int, int param1_int, int param2_int, int param3_int)
+public void MoveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, 
+    int lowerRightColumn)
 ```
 
 | Parameter | Type | Description |

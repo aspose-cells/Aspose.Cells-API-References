@@ -10,7 +10,7 @@ url: /net/aspose.cells/writeprotection/password/
 Sets the protected password to modify the file.
 
 ```csharp
-public string Password { set; }
+public string Password { get; set; }
 ```
 
 ### See Also

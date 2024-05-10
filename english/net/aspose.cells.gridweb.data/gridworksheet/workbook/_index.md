@@ -1,11 +1,13 @@
 ---
 title: GridWorksheet.Workbook
 second_title: Aspose.Cells for .NET API Reference
-description: GridWorksheet property. 
+description: GridWorksheet property. Gets the GridWorkbook object of the worksheet collection
 type: docs
 url: /net/aspose.cells.gridweb.data/gridworksheet/workbook/
 ---
 ## GridWorksheet.Workbook property
+
+Gets the [`GridWorkbook`](../../gridworkbook/) object of the worksheet collection.
 
 ```csharp
 public GridWorkbook Workbook { get; }

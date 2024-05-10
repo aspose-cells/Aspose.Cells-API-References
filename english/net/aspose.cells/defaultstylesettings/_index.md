@@ -17,6 +17,7 @@ public class DefaultStyleSettings
 
 | Name | Description |
 | --- | --- |
+| [BuiltInPreference](../../aspose.cells/defaultstylesettings/builtinpreference/) { get; set; } | Indicates whether property for number format is preferrable when the style defines both built-in number and custom pattern. Default value is false, that means by default custom pattern will be used to format values as long as it is not empty for one style. |
 | [FontName](../../aspose.cells/defaultstylesettings/fontname/) { get; set; } | Gets/Sets the default font name for the workbook |
 | [FontSize](../../aspose.cells/defaultstylesettings/fontsize/) { get; set; } | Gets/Sets the default standard font size for the workbook. |
 | [HorizontalAlignment](../../aspose.cells/defaultstylesettings/horizontalalignment/) { get; set; } | Gets/Sets the default value for horizontal alignment |

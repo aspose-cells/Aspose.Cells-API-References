@@ -54,6 +54,7 @@ Workbook wb = new Workbook("Large.xlsx", lopts);
 monitor.FinishMonitor();
 monitor.StartMonitor(1500); //time limit is 1.5 seconds
 wb.Save("result.xlsx");
+monitor.FinishMonitor();
 ```
 
 ### See Also

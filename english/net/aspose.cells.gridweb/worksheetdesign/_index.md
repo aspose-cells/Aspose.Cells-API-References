@@ -18,7 +18,7 @@ public class WorksheetDesign : WebWorksheet
 | Name | Description |
 | --- | --- |
 | [WorksheetDesign](worksheetdesign/#constructor)() | Default constructor. |
-| [WorksheetDesign](worksheetdesign/#constructor_1)(MainWeb, GridWorksheet) |  |
+| [WorksheetDesign](worksheetdesign/#constructor_1)(MainWeb, GridWorksheet) | the constructor with MainWeb and GridWorksheet |
 
 ## Properties
 
@@ -57,16 +57,15 @@ public class WorksheetDesign : WebWorksheet
 | [CreateSubtotal](../../aspose.cells.gridweb.data/webworksheet/createsubtotal/)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Creates subtotal in the sheet.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 | override [DataBind](../../aspose.cells.gridweb.data/webworksheet/databind/)() | Bind the sheet to the DataSource.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 | [DeleteBindRow](../../aspose.cells.gridweb.data/webworksheet/deletebindrow/)(int) | Deletes a bind row.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
-| [FreezePanes](../../aspose.cells.gridweb.data/webworksheet/freezepanes/)(int, int, int, int) | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
+| [FreezePanes](../../aspose.cells.gridweb.data/webworksheet/freezepanes/)(int, int, int, int) | Freezes panes at the specified cell in the worksheet.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 | [GroupRows](../../aspose.cells.gridweb.data/webworksheet/grouprows/)(int, int) | Groups rows.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 | [GroupRows](../../aspose.cells.gridweb.data/webworksheet/grouprows/)(int, int, bool) | Groups rows.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
-| [RemoveSubtotal](../../aspose.cells.gridweb.data/webworksheet/removesubtotal/)() | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
-| [SetAllCellsEditable](../../aspose.cells.gridweb.data/webworksheet/setallcellseditable/)() | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
-| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/webworksheet/setallcellsreadonly/)() | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
+| [SetAllCellsEditable](../../aspose.cells.gridweb.data/webworksheet/setallcellseditable/)() | Makes all cells editable.this is extended attribute(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
+| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/webworksheet/setallcellsreadonly/)() | Makes all cells readonly.this is extended attribute notice this attribute can not keep in actual cell,if you want to keep protect please use setProtect(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 | [SetEditableRange](../../aspose.cells.gridweb.data/webworksheet/seteditablerange/)(int, int, int, int) | Makes a range of cells editable. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Make all cells read only by calling the SetAllCellsReadonly method. then call this method to Specify the range of cells that to be editable(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 | [SetReadonlyRange](../../aspose.cells.gridweb.data/webworksheet/setreadonlyrange/)(int, int, int, int) | Makes a range of cells readonly. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells First make all cells editable by calling the SetAllCellsEditable method. then call this method to Specify the range of cells that to be readonly(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
-| [UnfreezePanes](../../aspose.cells.gridweb.data/webworksheet/unfreezepanes/)() | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
-| [UngroupRows](../../aspose.cells.gridweb.data/webworksheet/ungrouprows/)(int, int) | (Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
+| [UnfreezePanes](../../aspose.cells.gridweb.data/webworksheet/unfreezepanes/)() | Unfreezes panes in the worksheet.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
+| [UngroupRows](../../aspose.cells.gridweb.data/webworksheet/ungrouprows/)(int, int) | Ungroups rows.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 | [UpdateBindCellValue](../../aspose.cells.gridweb.data/webworksheet/updatebindcellvalue/)(GridCell) | Updates the binding datasource record's property value according to the cell's value.(Inherited from [`WebWorksheet`](../../aspose.cells.gridweb.data/webworksheet/).) |
 
 ### See Also

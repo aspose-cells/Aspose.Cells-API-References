@@ -1,11 +1,13 @@
 ---
 title: GridCells.MinRow
 second_title: Aspose.Cells for .NET API Reference
-description: GridCells property. 
+description: GridCells property. Minimum row index of cell which contains data or style
 type: docs
 url: /net/aspose.cells.gridweb.data/gridcells/minrow/
 ---
 ## GridCells.MinRow property
+
+Minimum row index of cell which contains data or style.
 
 ```csharp
 public int MinRow { get; }

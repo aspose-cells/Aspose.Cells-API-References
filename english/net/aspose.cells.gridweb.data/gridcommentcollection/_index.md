@@ -17,7 +17,7 @@ public class GridCommentCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridcommentcollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridcommentcollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridcommentcollection/item/) { get; } | Gets the [`GridComment`](../gridcomment/) element at the specified index. (3 indexers) |
 
 ## Methods

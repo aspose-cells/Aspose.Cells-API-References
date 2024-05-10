@@ -17,7 +17,7 @@ public class GridPivotItemCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridpivotitemcollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridpivotitemcollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridpivotitemcollection/item/) { get; } | Gets the [`GridPivotItem`](../gridpivotitem/) element at the specified index. |
 
 ## Methods

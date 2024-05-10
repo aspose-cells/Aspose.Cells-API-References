@@ -17,6 +17,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [AbstractGlobalizationSettings](./abstractglobalizationsettings/) | Represents the globalization settings. |
 | [AbstractInterruptMonitor](./abstractinterruptmonitor/) | Monitor for interruption requests in all time-consuming operations. |
 | [AbstractTextLoadOptions](./abstracttextloadoptions/) | Common options for loading text values |
+| [AdvancedFilter](./advancedfilter/) | Represents the settings of advanced filter. |
 | [AutoFilter](./autofilter/) | Represents autofiltering for the specified worksheet. |
 | [AutoFitterOptions](./autofitteroptions/) | Represents all auto fitter options. |
 | [Border](./border/) | Encapsulates the object that represents the cell border. |
@@ -217,6 +218,7 @@ The **Aspose.Cells** namespace provides fundamental and base classes for generat
 | [CalcModeType](./calcmodetype/) | Represents the mode type of calculating formulas. |
 | [CalculationPrecisionStrategy](./calculationprecisionstrategy/) | Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 Floating-Point Arithmetic, some "seemingly simple" formulas may not be calculated as the expected result. Such as formula "=-0.45+0.43+0.02", when calculating operands by '+' operator directly, the result is not zero. For such kind of precision issue, some special strategies may give the expected result. |
 | [CellBorderType](./cellbordertype/) | Enumerates a cell's border type. |
+| [CellsUnitType](./cellsunittype/) | Specifies the unit of measurement. |
 | [CellValueFormatStrategy](./cellvalueformatstrategy/) | Specifies how to apply style for the value of the cell. |
 | [CellValueType](./cellvaluetype/) | Specifies a cell value type. |
 | [ColorType](./colortype/) | Represents all color type |

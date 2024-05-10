@@ -17,14 +17,14 @@ public class GridShapeCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridshapecollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridshapecollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridshapecollection/item/) { get; } | Gets the [`GridShape`](../gridshape/) element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../aspose.cells.gridweb.data/gridshapecollection/clear/)() |  |
+| [Clear](../../aspose.cells.gridweb.data/gridshapecollection/clear/)() | Clear all shapes. |
 | [GetEnumerator](../../aspose.cells.gridweb.data/gridshapecollection/getenumerator/)() | Gets the rows enumerator |
 
 ### See Also

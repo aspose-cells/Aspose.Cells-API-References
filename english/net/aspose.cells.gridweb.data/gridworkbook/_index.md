@@ -17,7 +17,7 @@ public class GridWorkbook : ISerializable
 
 | Name | Description |
 | --- | --- |
-| [Worksheets](../../aspose.cells.gridweb.data/gridworkbook/worksheets/) { get; } |  |
+| [Worksheets](../../aspose.cells.gridweb.data/gridworkbook/worksheets/) { get; } | Gets the collection of [`GridWorksheet`](../gridworksheet/) in this workbook. |
 
 ## Methods
 

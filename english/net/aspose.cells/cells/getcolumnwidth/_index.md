@@ -1,11 +1,34 @@
 ---
 title: Cells.GetColumnWidth
 second_title: Aspose.Cells for .NET API Reference
-description: Cells method. Gets the widthin unit of characters of the specified column in normal view
+description: Cells method. Gets the column width
 type: docs
 url: /net/aspose.cells/cells/getcolumnwidth/
 ---
-## Cells.GetColumnWidth method
+## GetColumnWidth(int, bool, CellsUnitType) {#getcolumnwidth_1}
+
+Gets the column width.
+
+```csharp
+public double GetColumnWidth(int column, bool isOriginal, CellsUnitType unitType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | Int32 | The column index. |
+| isOriginal | Boolean | Indicates whether getting original width. |
+| unitType | CellsUnitType |  |
+
+### See Also
+
+* enum [CellsUnitType](../../cellsunittype/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## GetColumnWidth(int) {#getcolumnwidth}
 
 Gets the width(in unit of characters) of the specified column in normal view
 

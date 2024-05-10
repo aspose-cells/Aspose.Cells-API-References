@@ -23,6 +23,7 @@ public class EbookSaveOptions : HtmlSaveOptions
 
 | Name | Description |
 | --- | --- |
+| [AddGenericFont](../../aspose.cells/htmlsaveoptions/addgenericfont/) { get; set; } | Indicates whether to add a generic font to CSS font-family. The default value is true(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [AddTooltipText](../../aspose.cells/htmlsaveoptions/addtooltiptext/) { get; set; } | Indicates whether adding tooltip text when the data can't be fully displayed. The default value is false.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [AttachedFilesDirectory](../../aspose.cells/htmlsaveoptions/attachedfilesdirectory/) { get; set; } | The directory that the attached files will be saved to. Only for saving to html stream.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [AttachedFilesUrlPrefix](../../aspose.cells/htmlsaveoptions/attachedfilesurlprefix/) { get; set; } | Specify the Url prefix of attached files such as image in the html file. Only for saving to html stream.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
@@ -69,6 +70,7 @@ public class EbookSaveOptions : HtmlSaveOptions
 | [IgnoreInvisibleShapes](../../aspose.cells/htmlsaveoptions/ignoreinvisibleshapes/) { get; set; } | Indicate whether exporting those not visible shapes(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [ImageOptions](../../aspose.cells/htmlsaveoptions/imageoptions/) { get; } | Get the ImageOrPrintOptions object before exporting(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [ImageScalable](../../aspose.cells/htmlsaveoptions/imagescalable/) { get; set; } | Indicates whether using scalable unit to describe the image width when using scalable unit to describe the column width. The default value is true.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
+| [IsBorderCollapsed](../../aspose.cells/htmlsaveoptions/isbordercollapsed/) { get; set; } | Indicates whether the table borders are collapsed. The default value is true.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [IsExpImageToTempDir](../../aspose.cells/htmlsaveoptions/isexpimagetotempdir/) { get; set; } | Indicates whether exporting image files to temp directory. Only for saving to html stream.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [IsExportComments](../../aspose.cells/htmlsaveoptions/isexportcomments/) { get; set; } | Indicates if exporting comments when saving file to html, the default value is false.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |
 | [IsFullPathLink](../../aspose.cells/htmlsaveoptions/isfullpathlink/) { get; set; } | Indicating whether using full path link in sheet00x.htm,filelist.xml and tabstrip.htm. The default value is false.(Inherited from [`HtmlSaveOptions`](../../aspose.cells/htmlsaveoptions/).) |

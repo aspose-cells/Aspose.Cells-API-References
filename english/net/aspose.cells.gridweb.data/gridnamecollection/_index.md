@@ -17,7 +17,7 @@ public class GridNameCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridnamecollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridnamecollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridnamecollection/item/) { get; } | Gets the [`GridName`](../gridname/) element at the specified index. |
 
 ## Methods

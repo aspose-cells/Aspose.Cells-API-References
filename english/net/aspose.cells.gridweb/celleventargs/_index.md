@@ -17,7 +17,7 @@ public class CellEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [CellEventArgs](celleventargs/)() | The default constructor. |
+| [CellEventArgs](celleventargs/)() | the default constructor. |
 
 ## Properties
 

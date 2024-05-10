@@ -1,13 +1,13 @@
 ---
 title: WebCellArea.WebCellArea
 second_title: Aspose.Cells for .NET API Reference
-description: WebCellArea constructor. The default constructor
+description: WebCellArea constructor. the default constructor
 type: docs
 url: /net/aspose.cells.gridweb.data/webcellarea/webcellarea/
 ---
 ## WebCellArea() {#constructor}
 
-The default constructor.
+the default constructor.
 
 ```csharp
 public WebCellArea()
@@ -23,6 +23,8 @@ public WebCellArea()
 
 ## WebCellArea(int, int, int, int) {#constructor_2}
 
+the constructor.
+
 ```csharp
 public WebCellArea(int startrow, int startcol, int endrow, int endcol)
 ```
@@ -36,6 +38,8 @@ public WebCellArea(int startrow, int startcol, int endrow, int endcol)
 ---
 
 ## WebCellArea(GridCellArea) {#constructor_1}
+
+the constructor.
 
 ```csharp
 public WebCellArea(GridCellArea ca)

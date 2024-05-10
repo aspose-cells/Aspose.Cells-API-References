@@ -25,7 +25,7 @@ public class WriteProtection
 | --- | --- |
 | [Author](../../aspose.cells/writeprotection/author/) { get; set; } | Gets and sets the author. |
 | [IsWriteProtected](../../aspose.cells/writeprotection/iswriteprotected/) { get; } | Indicates whether this workbook is write protected. |
-| [Password](../../aspose.cells/writeprotection/password/) { set; } | Sets the protected password to modify the file. |
+| [Password](../../aspose.cells/writeprotection/password/) { get; set; } | Sets the protected password to modify the file. |
 | [RecommendReadOnly](../../aspose.cells/writeprotection/recommendreadonly/) { get; set; } | Indicates if the Read Only Recommended option is selected. |
 
 ## Methods

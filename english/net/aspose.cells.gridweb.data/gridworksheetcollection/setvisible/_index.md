@@ -1,22 +1,22 @@
 ---
 title: GridWorksheetCollection.SetVisible
 second_title: Aspose.Cells for .NET API Reference
-description: GridWorksheetCollection method. Sets the visible options
+description: GridWorksheetCollection method. Sets the visible for the sheet 
 type: docs
 url: /net/aspose.cells.gridweb.data/gridworksheetcollection/setvisible/
 ---
 ## GridWorksheetCollection.SetVisible method
 
-Sets the visible options.
+Sets the visible for the sheet .
 
 ```csharp
-public void SetVisible(string name, bool v)
+public void SetVisible(string sheetName, bool isVisible)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isVisible | String | Whether the worksheet is visible |
-| ignoreError | Boolean | Whether ignore error if this option is not valid. |
+| sheetName | String | Name of source worksheet. |
+| isVisible | Boolean | Whether the worksheet is visible |
 
 ### See Also
 

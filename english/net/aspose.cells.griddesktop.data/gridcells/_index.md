@@ -44,6 +44,7 @@ public class GridCells : IEnumerable
 | Name | Description |
 | --- | --- |
 | [CheckCell](../../aspose.cells.griddesktop.data/gridcells/checkcell/)(int, int) | Gets the [`GridCell`](../gridcell/) element or null at the specified cell row index and column index. |
+| [CheckRow](../../aspose.cells.griddesktop.data/gridcells/checkrow/)(int) | Gets the [`GridRow`](../gridrow/) element or null at the specified cell row index. |
 | [Clear](../../aspose.cells.griddesktop.data/gridcells/clear/)() | Clear all cells in the collection. |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents/#clearcontents)(GridCellArea) | Clears contents of a range. |
 | [ClearContents](../../aspose.cells.griddesktop.data/gridcells/clearcontents/#clearcontents_1)(int, int, int, int) | Clears contents of a range. |

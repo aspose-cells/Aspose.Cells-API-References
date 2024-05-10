@@ -10,7 +10,7 @@ url: /net/aspose.cells.gridweb.data/gridpicture/addhyperlink/
 Adds a hyperlink to the shape.
 
 ```csharp
-public GridHyperlink AddHyperlink(string param_string)
+public GridHyperlink AddHyperlink(string address)
 ```
 
 | Parameter | Type | Description |

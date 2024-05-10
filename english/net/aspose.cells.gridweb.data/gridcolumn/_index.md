@@ -17,7 +17,7 @@ public class GridColumn
 
 | Name | Description |
 | --- | --- |
-| [Caption](../../aspose.cells.gridweb.data/gridcolumn/caption/) { get; set; } |  |
+| [Caption](../../aspose.cells.gridweb.data/gridcolumn/caption/) { get; set; } | The caption of the column. |
 | [Hidden](../../aspose.cells.gridweb.data/gridcolumn/hidden/) { get; set; } | Indicates whether the column is hidden. |
 | [Index](../../aspose.cells.gridweb.data/gridcolumn/index/) { get; } | Gets the index of this column. |
 

@@ -1,11 +1,13 @@
 ---
 title: GridShapeCollection.Clear
 second_title: Aspose.Cells for .NET API Reference
-description: GridShapeCollection method. 
+description: GridShapeCollection method. Clear all shapes
 type: docs
 url: /net/aspose.cells.gridweb.data/gridshapecollection/clear/
 ---
 ## GridShapeCollection.Clear method
+
+Clear all shapes.
 
 ```csharp
 public void Clear()

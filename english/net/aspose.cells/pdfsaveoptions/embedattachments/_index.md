@@ -1,13 +1,13 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
 second_title: Aspose.Cells for .NET API Reference
-description: PdfSaveOptions property. Indicates whether to embed attchment for Ole objects in Excel
+description: PdfSaveOptions property. Indicates whether to embed attachment for Ole objects in Excel
 type: docs
 url: /net/aspose.cells/pdfsaveoptions/embedattachments/
 ---
 ## PdfSaveOptions.EmbedAttachments property
 
-Indicates whether to embed attchment for Ole objects in Excel.
+Indicates whether to embed attachment for Ole objects in Excel.
 
 ```csharp
 public bool EmbedAttachments { get; set; }

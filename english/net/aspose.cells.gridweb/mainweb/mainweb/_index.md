@@ -1,13 +1,13 @@
 ---
 title: MainWeb.MainWeb
 second_title: Aspose.Cells for .NET API Reference
-description: MainWeb constructor. The default constructor
+description: MainWeb constructor. the default constructor of MainWeb control
 type: docs
 url: /net/aspose.cells.gridweb/mainweb/mainweb/
 ---
 ## MainWeb constructor
 
-The default constructor.
+the default constructor of MainWeb control.
 
 ```csharp
 public MainWeb()

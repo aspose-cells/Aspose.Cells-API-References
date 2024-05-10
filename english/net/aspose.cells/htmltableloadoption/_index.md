@@ -23,11 +23,11 @@ public class HtmlTableLoadOption
 
 | Name | Description |
 | --- | --- |
-| [AutoCreateListObjects](../../aspose.cells/htmltableloadoption/autocreatelistobjects/) { get; set; } | Indicates whether generate list objects from table elements. The default value is false. |
 | [Id](../../aspose.cells/htmltableloadoption/id/) { get; set; } | Get or set the id of table to import from html |
 | [Name](../../aspose.cells/htmltableloadoption/name/) { get; set; } | (**Obsolete.**) Get or set the name of table to import from html |
 | [OriginalSheetIndex](../../aspose.cells/htmltableloadoption/originalsheetindex/) { get; set; } | Get or set the original index of worksheet in the html. |
 | [TableIndex](../../aspose.cells/htmltableloadoption/tableindex/) { get; set; } | Get or set the index of table to import from html. |
+| [TableToListObject](../../aspose.cells/htmltableloadoption/tabletolistobject/) { get; set; } | Indicates whether generate list objects from imported table. The default value is false. |
 | [TargetSheetIndex](../../aspose.cells/htmltableloadoption/targetsheetindex/) { get; set; } | Get or set the target index of worksheet where the table is to be located. |
 
 ### See Also

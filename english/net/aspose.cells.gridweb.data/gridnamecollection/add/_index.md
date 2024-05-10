@@ -38,12 +38,11 @@ Defines a new name in the specified sheet.
 public int Add(int sheetIndex, string text, string refersTo)
 ```
 
-| Parameter | Description |
-| --- | --- |
-| sheetIndex | The sheet index that the name is applyed in. |
-| text | Name text.It can not have sheetname . |
-| refersTo | The formula that the name is defined to refer to.It must have sheetname .eg.'sheet hello!'A1:B2. |
-| sheetIndex | Name's SheetIndex ,the index is from 1. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndex | Int32 | The sheet index that the name is applyed in. |
+| text | String | Name text.It can not have sheetname . |
+| refersTo | String | The formula that the name is defined to refer to.It must have sheetname .eg.'sheet hello!'A1:B2. |
 
 ### Return Value
 

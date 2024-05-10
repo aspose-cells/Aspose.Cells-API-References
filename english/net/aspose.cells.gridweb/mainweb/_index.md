@@ -1,11 +1,13 @@
 ---
 title: Class MainWeb
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.GridWeb.MainWeb class. 
+description: Aspose.Cells.GridWeb.MainWeb class. Parent class of GridWeb control.Internal use only
 type: docs
 url: /net/aspose.cells.gridweb/mainweb/
 ---
 ## MainWeb class
+
+Parent class of GridWeb control.Internal use only.
 
 ```csharp
 public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler, 
@@ -16,7 +18,7 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 
 | Name | Description |
 | --- | --- |
-| [MainWeb](mainweb/)() | The default constructor. |
+| [MainWeb](mainweb/)() | the default constructor of MainWeb control. |
 
 ## Properties
 
@@ -34,16 +36,16 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [ACWLanguageFileUrl](../../aspose.cells.gridweb/mainweb/acwlanguagefileurl/) { get; set; } | Gets or sets the web url of the language file of the control. For example: "/acw_client/lang_en.js". By default, a built-in english file is used. |
 | [AutoRefreshChart](../../aspose.cells.gridweb/mainweb/autorefreshchart/) { get; set; } | Gets or sets whether the Chart image is updated while updating the cell value.the default is true |
 | [BottomTableStyle](../../aspose.cells.gridweb/mainweb/bottomtablestyle/) { get; set; } | Gets or sets the style of the bottom bar of the control. |
-| [CurrentPageIndex](../../aspose.cells.gridweb/mainweb/currentpageindex/) { get; set; } |  |
+| [CurrentPageIndex](../../aspose.cells.gridweb/mainweb/currentpageindex/) { get; set; } | Gets or sets the current page index in paging mode. |
 | [CustomCalculationEngine](../../aspose.cells.gridweb/mainweb/customcalculationengine/) { get; set; } | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [CustomCommandButtons](../../aspose.cells.gridweb/mainweb/customcommandbuttons/) { get; } |  |
+| [CustomCommandButtons](../../aspose.cells.gridweb/mainweb/customcommandbuttons/) { get; } | Gets the custom command button collection |
 | [CustomStyleFileName](../../aspose.cells.gridweb/mainweb/customstylefilename/) { get; set; } | Gets or sets the custom style file name. |
 | [DefaultFontName](../../aspose.cells.gridweb/mainweb/defaultfontname/) { get; set; } | Gets or sets the control's default font name. |
 | [DefaultFontSize](../../aspose.cells.gridweb/mainweb/defaultfontsize/) { get; set; } | Gets or sets the control's default font size. |
 | [DefaultGridLineColor](../../aspose.cells.gridweb/mainweb/defaultgridlinecolor/) { get; set; } | Gets or sets the default grid line's color. |
-| [DisplayCellTip](../../aspose.cells.gridweb/mainweb/displaycelltip/) { get; set; } |  |
+| [DisplayCellTip](../../aspose.cells.gridweb/mainweb/displaycelltip/) { get; set; } | Gets or sets whether to show tips. the default value is true. |
 | [EditMode](../../aspose.cells.gridweb/mainweb/editmode/) { get; set; } | Gets or sets the control's edit mode. |
-| [EnableAJAX](../../aspose.cells.gridweb/mainweb/enableajax/) { get; set; } |  |
+| [EnableAJAX](../../aspose.cells.gridweb/mainweb/enableajax/) { get; set; } | Gets or sets whether to use AJAX call . the default value is true. |
 | [EnableAsync](../../aspose.cells.gridweb/mainweb/enableasync/) { get; set; } | Gets or sets whether load cells data in asynchronous way,suggest to apply for one sheet with more than 10000 cells. |
 | [EnableClientColumnOperations](../../aspose.cells.gridweb/mainweb/enableclientcolumnoperations/) { get; set; } | Gets or sets whether to enable the client side column operations. |
 | [EnableClientFreeze](../../aspose.cells.gridweb/mainweb/enableclientfreeze/) { get; set; } | Gets or sets whether to enable the client side freezing operations. |
@@ -66,17 +68,16 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [IgnoreStyleWithNoData](../../aspose.cells.gridweb/mainweb/ignorestylewithnodata/) { get; set; } | Gets or sets whether GridWeb ignores showing rows or columns that do not contain cell values but are still styled. If set to true, the performance will be better. The default value is false, which means that if the last consecutive row/column has no cell values but is styled, we will still display them. This option is only valid when EnableAsync is false. This option has no effect when EnableAsync is true, which means GridWeb will show all rows/columns with style. |
 | [IsCalculateFormula](../../aspose.cells.gridweb/mainweb/iscalculateformula/) { get; set; } | Gets or sets whether to calculate formula after cell value changes or after import File. The default value is true. |
 | [IsPostBack](../../aspose.cells.gridweb/mainweb/ispostback/) { get; } | Gets a value indicating whether gridweb is being loaded in response to a client postback, or if it is being loaded and accessed for the first time. |
-| [LinksTable](../../aspose.cells.gridweb/mainweb/linkstable/) { get; } |  |
 | [LoadOptions](../../aspose.cells.gridweb/mainweb/loadoptions/) { get; set; } | Represents the loadoptions for GridWeb. |
 | [MaxColumn](../../aspose.cells.gridweb/mainweb/maxcolumn/) { get; set; } | Gets or sets the maximum display column index(zero based) of the web sheet. The control uses the greater value of MaxColumn and sheet data's max column. |
 | [MaxRow](../../aspose.cells.gridweb/mainweb/maxrow/) { get; set; } | Gets or sets the maximum display row index(zero based) of the web sheet. The control uses the greater value of MaxRow and sheet data's max row. |
-| [Message](../../aspose.cells.gridweb/mainweb/message/) { get; set; } |  |
-| [MinColumn](../../aspose.cells.gridweb/mainweb/mincolumn/) { get; set; } |  |
+| [Message](../../aspose.cells.gridweb/mainweb/message/) { get; set; } | Gets or sets the message for the grid. |
+| [MinColumn](../../aspose.cells.gridweb/mainweb/mincolumn/) { get; set; } | Gets or sets the minimum display column index(zero based) of the web sheet. The control uses the smaller value of MinColumn and sheet data's min column. |
 | [MinRow](../../aspose.cells.gridweb/mainweb/minrow/) { get; set; } | Gets or sets the minimum display row index(zero based) of the web sheet. The control uses the smaller value of MinRow and sheet data's min row. |
 | [ModifiedCells](../../aspose.cells.gridweb/mainweb/modifiedcells/) { get; } | Gets the collection of the cells that modified by the client. |
 | [NeedRenderGroupRows](../../aspose.cells.gridweb/mainweb/needrendergrouprows/) { get; set; } | Gets or sets whether to show grouprows . |
 | [NoHScroll](../../aspose.cells.gridweb/mainweb/nohscroll/) { get; set; } | Gets or sets a value indicating whether the horizontal scroll bar is hidden. |
-| [NoScroll](../../aspose.cells.gridweb/mainweb/noscroll/) { get; set; } |  |
+| [NoScroll](../../aspose.cells.gridweb/mainweb/noscroll/) { get; set; } | Gets or sets whether to show scroll bar . |
 | [NoVScroll](../../aspose.cells.gridweb/mainweb/novscroll/) { get; set; } | Gets or sets a value indicating whether the vertical scroll bar is hidden. |
 | [OnAjaxCallFinishedClientFunction](../../aspose.cells.gridweb/mainweb/onajaxcallfinishedclientfunction/) { get; set; } | Gets or sets the client side function name to be called when ajaxcall finished. The client function should be declared like this: function GridAjaxcallFinished() { alert(this.id+" ajaxcall finished "); }Note: You may use the "this" pointer in the client function to point the grid control which fires the event. |
 | [OnCellErrorClientFunction](../../aspose.cells.gridweb/mainweb/oncellerrorclientfunction/) { get; set; } | Gets or sets the client side function name to be called when a cell's validation is failed. The client function should be declared like this: function MyOnCellError(cell) { alert(this.getCellValueByCell(cell)); }Note: You may use the "this" pointer in the client function to point the grid control which fires the event. |
@@ -94,7 +95,6 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [OnShapeSelectedClientFunction](../../aspose.cells.gridweb/mainweb/onshapeselectedclientfunction/) { get; set; } | Gets or sets the client side function to be called when a shape is selected. The client function should be declared like this: function MyOnSelectShape(shape) { var name=shape.getAttribute("namevalue") var text=shape.getAttribute("textvalue") var value=shape.getAttribute("controlvalue") var type=shape.getAttribute("msotype") }Note: You may use the "this" pointer in the client function to point the grid control which fires the event. |
 | [OnSubmitClientFunction](../../aspose.cells.gridweb/mainweb/onsubmitclientfunction/) { get; set; } | Gets or sets the client function to be called before the control is submitted at client side. The client function should be declared like this: function MyOnSubmit(arg, cancelEdit) { return true;} The arg is the submit argument, contains the command to be post to the server. The cancelEdit is boolean value indicates whether the control has discarded the user input before submit. The control will continue submitting if the function returns true. Note: You may use the "this" pointer in the client function to point the grid control which fires the event. |
 | [PageSize](../../aspose.cells.gridweb/mainweb/pagesize/) { get; set; } | Gets or sets the page size in paging mode. |
-| [PicturesTable](../../aspose.cells.gridweb/mainweb/picturestable/) { get; } |  |
 | [PresetStyle](../../aspose.cells.gridweb/mainweb/presetstyle/) { get; set; } | Gets or sets the preset style. |
 | [RefreshValidation](../../aspose.cells.gridweb/mainweb/refreshvalidation/) { get; set; } | Gets or sets whether to refresh validation value after cell value changes. |
 | [RenderHiddenRow](../../aspose.cells.gridweb/mainweb/renderhiddenrow/) { get; set; } | Gets or sets whether the hidden row is rendered in GridControl,the default value is false. if you need to unhide the hidden row latter ,you shall set it as true |
@@ -103,37 +103,33 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | [ScrollBarBaseColor](../../aspose.cells.gridweb/mainweb/scrollbarbasecolor/) { get; set; } | Specifies the color of the scroll bar of the control. |
 | [SelectCellBgColor](../../aspose.cells.gridweb/mainweb/selectcellbgcolor/) { get; set; } | Specifies the background color of the selected cells in multi-select range. |
 | [SelectCellColor](../../aspose.cells.gridweb/mainweb/selectcellcolor/) { get; set; } | Specifies the color of the selected cells in multi-select range. |
-| [SessionLoaded](../../aspose.cells.gridweb/mainweb/sessionloaded/) { get; set; } |  |
 | [SessionMode](../../aspose.cells.gridweb/mainweb/sessionmode/) { get; set; } | Gets or sets the session mode of the grid. |
-| [SessionSaved](../../aspose.cells.gridweb/mainweb/sessionsaved/) { get; set; } |  |
 | [SessionStorePath](../../aspose.cells.gridweb/mainweb/sessionstorepath/) { get; set; } | Gets or sets the session cache store path when session mode is File or ViewState, etc: gridweb.SessionStorePath="c:/mytempdir/session"; then it will store session data in c:/mytempdir/session |
 | [Settings](../../aspose.cells.gridweb/mainweb/settings/) { get; set; } | Represents the workbook settings. |
-| [ShapesTable](../../aspose.cells.gridweb/mainweb/shapestable/) { get; } |  |
 | [ShowAddButton](../../aspose.cells.gridweb/mainweb/showaddbutton/) { get; set; } | Gets or sets whether to show the add worksheet button. |
 | [ShowBottomBar](../../aspose.cells.gridweb/mainweb/showbottombar/) { get; set; } | Specifies whether to show the command bar(includes command bar and tab bar) at the bottom of the control. |
 | [ShowCellEditBox](../../aspose.cells.gridweb/mainweb/showcelleditbox/) { get; set; } | whether Gridweb shows edit box toolbar as in MS-EXCEL.if enable ,a edit box for current cell will display in Gridweb. if we enable this feature, we need to import jquery js library in your aspx files to support this new feature. all the latest jquery version is ok. etc. |
 | [ShowCommandBarAtTop](../../aspose.cells.gridweb/mainweb/showcommandbarattop/) { get; set; } | Specifies whether to show the command bar(includes command bar and tab bar) at the top of the control. |
-| [ShowContextMenu](../../aspose.cells.gridweb/mainweb/showcontextmenu/) { get; set; } |  |
+| [ShowContextMenu](../../aspose.cells.gridweb/mainweb/showcontextmenu/) { get; set; } | Gets or sets whether to show the context menu. the default value is true. |
 | [ShowDefaultGridLine](../../aspose.cells.gridweb/mainweb/showdefaultgridline/) { get; set; } | Gets or sets whether to show the default grid lines of the cells. |
-| [ShowHeaderBar](../../aspose.cells.gridweb/mainweb/showheaderbar/) { get; set; } |  |
+| [ShowHeaderBar](../../aspose.cells.gridweb/mainweb/showheaderbar/) { get; set; } | Gets or sets whether to show header bar |
 | [ShowLoading](../../aspose.cells.gridweb/mainweb/showloading/) { get; set; } | Specifies whether to show a loading dialogbox while postbacking to server. |
 | [ShowLoadingPosition](../../aspose.cells.gridweb/mainweb/showloadingposition/) { get; set; } | Specifies the left,top postion(in px) to show the loading dialogbox while postbacking to server ,etc. 100,200 means the loading dialogbox's left,top postion is at 100px,200px . |
 | [ShowSaveButton](../../aspose.cells.gridweb/mainweb/showsavebutton/) { get; set; } | Gets or sets whether to show the save button. |
 | [ShowSubmitButton](../../aspose.cells.gridweb/mainweb/showsubmitbutton/) { get; set; } | Gets or sets whether to show the submit button. |
-| [ShowTabBar](../../aspose.cells.gridweb/mainweb/showtabbar/) { get; set; } |  |
+| [ShowTabBar](../../aspose.cells.gridweb/mainweb/showtabbar/) { get; set; } | Gets or sets whether to show the tab bar. |
 | [ShowTabNavigation](../../aspose.cells.gridweb/mainweb/showtabnavigation/) { get; set; } | Gets or sets whether the tab navigation button is show,the default value is true. |
 | [ShowUndoButton](../../aspose.cells.gridweb/mainweb/showundobutton/) { get; set; } | Gets or sets whether to show the undo button. |
 | [SpanWrap](../../aspose.cells.gridweb/mainweb/spanwrap/) { get; set; } | Specifies whether to wrap content in the cell span.the default value is true. |
 | [TabStyle](../../aspose.cells.gridweb/mainweb/tabstyle/) { get; set; } | Gets or sets the style of the tab bar. |
 | [UseClientPageHeight](../../aspose.cells.gridweb/mainweb/useclientpageheight/) { get; set; } | Gets or sets whether gridweb use client page height as control height ,suitable for when set Height="100%",default value is false |
-| [ValidationsTable](../../aspose.cells.gridweb/mainweb/validationstable/) { get; } |  |
 | [ViewPanelScrollLeft](../../aspose.cells.gridweb/mainweb/viewpanelscrollleft/) { get; set; } | Gets or sets the position of the scroll bar of the grid's view panel. |
 | [ViewPanelScrollTop](../../aspose.cells.gridweb/mainweb/viewpanelscrolltop/) { get; set; } | Gets or sets the position of the scroll bar of the grid's view panel. |
 | [ViewTableStyle](../../aspose.cells.gridweb/mainweb/viewtablestyle/) { get; set; } | Gets or sets the data view panel's style. |
 | [WebWorksheets](../../aspose.cells.gridweb/mainweb/webworksheets/) { get; } |  |
 | override [Width](../../aspose.cells.gridweb/mainweb/width/) { get; set; } | Gets or sets the width( System.Web.UI.WebControl.Unit ) of the control. |
-| [WorkSheets](../../aspose.cells.gridweb/mainweb/worksheets/) { get; } |  |
-| [XhtmlMode](../../aspose.cells.gridweb/mainweb/xhtmlmode/) { get; set; } |  |
+| [WorkSheets](../../aspose.cells.gridweb/mainweb/worksheets/) { get; } | Gets or sets the collection of the worksheets. |
+| [XhtmlMode](../../aspose.cells.gridweb/mainweb/xhtmlmode/) { get; set; } | Gets or sets whether to use XHTML style,the default value is true. |
 | static [DPI](../../aspose.cells.gridweb/mainweb/dpi/) { get; set; } | Gets /Sets the DPI of the machine. |
 | static [PictureCachePath](../../aspose.cells.gridweb/mainweb/picturecachepath/) { get; set; } | Gets or sets the image storage path for the workbook,all the shapes,images will be stored in this directory, the default path is acwcache under current application Base Directory users need to implement a schedule service to clean the files those are out of session time. |
 
@@ -201,6 +197,14 @@ public class MainWeb : ExtWebControl, INamingContainer, IPostBackDataHandler,
 | event [SheetTabClick](../../aspose.cells.gridweb/mainweb/sheettabclick/) | Occurs when the sheet tab is clicked. |
 | event [SubmitCommand](../../aspose.cells.gridweb/mainweb/submitcommand/) | Occurs when the "submit" button is clicked. |
 | event [UndoCommand](../../aspose.cells.gridweb/mainweb/undocommand/) | Occurs when the "undo" button is clicked. |
+
+### Examples
+
+```csharp
+[C#]
+	GridWeb GridWeb1 = new GridWeb();
+//do your business
+```
 
 ### See Also
 

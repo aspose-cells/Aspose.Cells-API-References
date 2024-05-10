@@ -32,7 +32,7 @@ public class WebBorderStyle
 | Name | Description |
 | --- | --- |
 | [CopyFrom](../../aspose.cells.gridweb/webborderstyle/copyfrom/)(WebBorderStyle) | Copies from another style object. |
-| override [GetHashCode](../../aspose.cells.gridweb/webborderstyle/gethashcode/)() |  |
+| override [GetHashCode](../../aspose.cells.gridweb/webborderstyle/gethashcode/)() | Gets the hash code of this object. |
 
 ### Remarks
 

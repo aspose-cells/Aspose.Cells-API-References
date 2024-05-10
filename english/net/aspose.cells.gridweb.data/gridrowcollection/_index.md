@@ -17,7 +17,7 @@ public class GridRowCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridrowcollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridrowcollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridrowcollection/item/) { get; } | Gets a  object by given row index. The Row object of given row index will be instantiated if it does not exist before. |
 
 ## Methods

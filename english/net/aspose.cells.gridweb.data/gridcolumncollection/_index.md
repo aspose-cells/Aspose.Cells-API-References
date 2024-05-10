@@ -17,7 +17,7 @@ public class GridColumnCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridcolumncollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridcolumncollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridcolumncollection/item/) { get; } | Gets a  object by column index. The Column object of given column index will be instantiated if it does not exist before. |
 
 ## Methods

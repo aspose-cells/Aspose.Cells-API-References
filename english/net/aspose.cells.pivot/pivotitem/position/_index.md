@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivotitem/position/
 Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
 
 ```csharp
-public int Position { set; }
+public int Position { get; set; }
 ```
 
 ### See Also

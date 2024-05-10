@@ -18,8 +18,8 @@ public class WebWorksheet : Control, ISerializable
 
 | Name | Description |
 | --- | --- |
-| [WebWorksheet](webworksheet/#constructor)() | The default constructor. |
-| [WebWorksheet](webworksheet/#constructor_1)(MainWeb, GridWorksheet) |  |
+| [WebWorksheet](webworksheet/#constructor)() | the constructor of the WebWorksheet. |
+| [WebWorksheet](webworksheet/#constructor_1)(MainWeb, GridWorksheet) | the constructor of the WebWorksheet. |
 
 ## Properties
 
@@ -58,16 +58,15 @@ public class WebWorksheet : Control, ISerializable
 | [CreateSubtotal](../../aspose.cells.gridweb.data/webworksheet/createsubtotal/)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Creates subtotal in the sheet. |
 | override [DataBind](../../aspose.cells.gridweb.data/webworksheet/databind/)() | Bind the sheet to the DataSource. |
 | [DeleteBindRow](../../aspose.cells.gridweb.data/webworksheet/deletebindrow/)(int) | Deletes a bind row. |
-| [FreezePanes](../../aspose.cells.gridweb.data/webworksheet/freezepanes/)(int, int, int, int) |  |
+| [FreezePanes](../../aspose.cells.gridweb.data/webworksheet/freezepanes/)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [GroupRows](../../aspose.cells.gridweb.data/webworksheet/grouprows/#grouprows)(int, int) | Groups rows. |
 | [GroupRows](../../aspose.cells.gridweb.data/webworksheet/grouprows/#grouprows_1)(int, int, bool) | Groups rows. |
-| [RemoveSubtotal](../../aspose.cells.gridweb.data/webworksheet/removesubtotal/)() |  |
-| [SetAllCellsEditable](../../aspose.cells.gridweb.data/webworksheet/setallcellseditable/)() |  |
-| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/webworksheet/setallcellsreadonly/)() |  |
+| [SetAllCellsEditable](../../aspose.cells.gridweb.data/webworksheet/setallcellseditable/)() | Makes all cells editable.this is extended attribute |
+| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/webworksheet/setallcellsreadonly/)() | Makes all cells readonly.this is extended attribute notice this attribute can not keep in actual cell,if you want to keep protect please use setProtect |
 | [SetEditableRange](../../aspose.cells.gridweb.data/webworksheet/seteditablerange/)(int, int, int, int) | Makes a range of cells editable. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Make all cells read only by calling the SetAllCellsReadonly method. then call this method to Specify the range of cells that to be editable |
 | [SetReadonlyRange](../../aspose.cells.gridweb.data/webworksheet/setreadonlyrange/)(int, int, int, int) | Makes a range of cells readonly. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells First make all cells editable by calling the SetAllCellsEditable method. then call this method to Specify the range of cells that to be readonly |
-| [UnfreezePanes](../../aspose.cells.gridweb.data/webworksheet/unfreezepanes/)() |  |
-| [UngroupRows](../../aspose.cells.gridweb.data/webworksheet/ungrouprows/)(int, int) |  |
+| [UnfreezePanes](../../aspose.cells.gridweb.data/webworksheet/unfreezepanes/)() | Unfreezes panes in the worksheet. |
+| [UngroupRows](../../aspose.cells.gridweb.data/webworksheet/ungrouprows/)(int, int) | Ungroups rows. |
 | [UpdateBindCellValue](../../aspose.cells.gridweb.data/webworksheet/updatebindcellvalue/)(GridCell) | Updates the binding datasource record's property value according to the cell's value. |
 
 ### Remarks

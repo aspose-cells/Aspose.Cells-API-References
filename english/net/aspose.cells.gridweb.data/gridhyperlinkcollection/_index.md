@@ -17,7 +17,7 @@ public class GridHyperlinkCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb.data/gridhyperlinkcollection/count/) { get; } |  |
+| [Count](../../aspose.cells.gridweb.data/gridhyperlinkcollection/count/) { get; } | Gets the size of enumerator |
 | [Item](../../aspose.cells.gridweb.data/gridhyperlinkcollection/item/) { get; } | Gets the [`GridHyperlink`](../gridhyperlink/) element at the specified index. |
 
 ## Methods

@@ -16,9 +16,9 @@ public class WebCellArea
 
 | Name | Description |
 | --- | --- |
-| [WebCellArea](webcellarea/#constructor)() | The default constructor. |
-| [WebCellArea](webcellarea/#constructor_1)(GridCellArea) |  |
-| [WebCellArea](webcellarea/#constructor_2)(int, int, int, int) |  |
+| [WebCellArea](webcellarea/#constructor)() | the default constructor. |
+| [WebCellArea](webcellarea/#constructor_1)(GridCellArea) | the constructor. |
+| [WebCellArea](webcellarea/#constructor_2)(int, int, int, int) | the constructor. |
 
 ## Methods
 
@@ -26,7 +26,7 @@ public class WebCellArea
 | --- | --- |
 | override [Equals](../../aspose.cells.gridweb.data/webcellarea/equals/)(object) | Test if the object equals to another WebCellArea object. |
 | override [GetHashCode](../../aspose.cells.gridweb.data/webcellarea/gethashcode/)() | Get the hashcode. |
-| [ToGridCellArea](../../aspose.cells.gridweb.data/webcellarea/togridcellarea/)() |  |
+| [ToGridCellArea](../../aspose.cells.gridweb.data/webcellarea/togridcellarea/)() | to GridCellArea. |
 
 ## Fields
 

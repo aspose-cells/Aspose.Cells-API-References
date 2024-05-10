@@ -110,11 +110,12 @@ public class Cells : IDisposable, IEnumerable
 | [Find](../../aspose.cells/cells/find/#find_1)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
 | [GetCell](../../aspose.cells/cells/getcell/)(int, int) | (**Obsolete.**) Gets the [`Cell`](../cell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle/)(int, int) | Get the style of given cell. |
-| [GetColumnOriginalWidthPoint](../../aspose.cells/cells/getcolumnoriginalwidthpoint/)(int) | Gets original column's height in unit of point if the column is hidden |
-| [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/)(int) | Gets the width(in unit of characters) of the specified column in normal view |
-| [GetColumnWidthInch](../../aspose.cells/cells/getcolumnwidthinch/)(int) | Gets the width of the specified column in normal view, in units of inches. |
+| [GetColumnOriginalWidthPoint](../../aspose.cells/cells/getcolumnoriginalwidthpoint/)(int) | (**Obsolete.**) Gets original column's height in unit of point if the column is hidden |
+| [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/#getcolumnwidth)(int) | Gets the width(in unit of characters) of the specified column in normal view |
+| [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/#getcolumnwidth_1)(int, bool, CellsUnitType) | Gets the column width. |
+| [GetColumnWidthInch](../../aspose.cells/cells/getcolumnwidthinch/)(int) | (**Obsolete.**) Gets the width of the specified column in normal view, in units of inches. |
 | [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel/#getcolumnwidthpixel)(int) | Gets the width of the specified column in normal view, in units of pixel. |
-| [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel/#getcolumnwidthpixel_1)(int, bool) | Gets the width of the specified column in normal view, in units of pixel. |
+| [GetColumnWidthPixel](../../aspose.cells/cells/getcolumnwidthpixel/#getcolumnwidthpixel_1)(int, bool) | (**Obsolete.**) Gets the width of the specified column in normal view, in units of pixel. |
 | [GetDependents](../../aspose.cells/cells/getdependents/)(bool, int, int) | Get all cells which refer to the specific cell. |
 | [GetDependentsInCalculation](../../aspose.cells/cells/getdependentsincalculation/)(int, int, bool) | Gets all cells whose calculated result depends on specific cell. |
 | [GetEnumerator](../../aspose.cells/cells/getenumerator/)() | Gets the cells enumerator. |
@@ -126,13 +127,13 @@ public class Cells : IDisposable, IEnumerable
 | [GetMergedAreas](../../aspose.cells/cells/getmergedareas/)() | Gets all merged cells. |
 | [GetRow](../../aspose.cells/cells/getrow/)(int) | (**Obsolete.**) Gets the [`Row`](../row/) element at the specified cell row index. |
 | [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator/)() | (**Obsolete.**) Gets the rows enumerator. |
-| [GetRowHeight](../../aspose.cells/cells/getrowheight/)(int) | Gets the height of a specified row, in unit of points. |
+| [GetRowHeight](../../aspose.cells/cells/getrowheight/#getrowheight)(int) | Gets the height of a specified row, in unit of points. |
+| [GetRowHeight](../../aspose.cells/cells/getrowheight/#getrowheight_1)(int, bool, CellsUnitType) | Gets original row's height. |
 | [GetRowHeightInch](../../aspose.cells/cells/getrowheightinch/)(int) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel](../../aspose.cells/cells/getrowheightpixel/)(int) | Gets the height of a specified row in unit of pixel. |
-| [GetRowOriginalHeightPoint](../../aspose.cells/cells/getroworiginalheightpoint/)(int) | Gets original row's height in unit of point if the row is hidden |
+| [GetRowOriginalHeightPoint](../../aspose.cells/cells/getroworiginalheightpoint/)(int) | (**Obsolete.**) Gets original row's height in unit of point if the row is hidden |
 | [GetViewColumnWidthPixel](../../aspose.cells/cells/getviewcolumnwidthpixel/)(int) | Get the width in different view type. |
 | [GetViewRowHeight](../../aspose.cells/cells/getviewrowheight/)(int) | Gets the height of a specified row. |
-| [GetViewRowHeightInch](../../aspose.cells/cells/getviewrowheightinch/)(int) | Gets the height of a specified row in unit of inches. |
 | [GroupColumns](../../aspose.cells/cells/groupcolumns/#groupcolumns)(int, int) | Groups columns. |
 | [GroupColumns](../../aspose.cells/cells/groupcolumns/#groupcolumns_1)(int, int, bool) | Groups columns. |
 | [GroupRows](../../aspose.cells/cells/grouprows/#grouprows)(int, int) | Groups rows. |

@@ -17,7 +17,7 @@ public class GridWebException : ApplicationException
 
 | Name | Description |
 | --- | --- |
-| [GridWebException](gridwebexception/)(string) |  |
+| [GridWebException](gridwebexception/)(string) | the default constructor |
 
 ### See Also
 

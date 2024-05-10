@@ -13,12 +13,6 @@ Represents data validation.settings.
 public class GridValidation
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [GridValidation](gridvalidation/)() | The default constructor. |
-
 ## Properties
 
 | Name | Description |
@@ -31,11 +25,11 @@ public class GridValidation
 | [Formula2](../../aspose.cells.gridweb.data/gridvalidation/formula2/) { get; set; } | Represents the value or expression associated with the second part of the data validation. |
 | [InputMessage](../../aspose.cells.gridweb.data/gridvalidation/inputmessage/) { get; set; } | Represents the data validation error message. |
 | [InputTitle](../../aspose.cells.gridweb.data/gridvalidation/inputtitle/) { get; set; } | Represents the title of the data-validation input dialog box. |
-| [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired/) { get; set; } |  |
+| [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired/) { get; set; } | Gets or sets whether the cell value is required. |
 | [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator/) { get; set; } | Represents the operator for the data validation. |
 | [RegEx](../../aspose.cells.gridweb.data/gridvalidation/regex/) { get; set; } | Gets or sets the regular expression string. |
 | [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror/) { get; set; } | Indicates whether the data validation error message will be displayed whenever the user enters invalid data. |
-| [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput/) { get; set; } |  |
+| [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput/) { get; set; } | Indicates whether the data validation input message will be displayed whenever the user selects a cell in the data validation range. |
 | [ValidationType](../../aspose.cells.gridweb.data/gridvalidation/validationtype/) { get; set; } | Gets or sets the validation type. |
 | [Value1](../../aspose.cells.gridweb.data/gridvalidation/value1/) { get; } | Represents the value associated with the data validation. |
 | [ValueList](../../aspose.cells.gridweb.data/gridvalidation/valuelist/) { get; set; } | Gets/Sets the value list object. |

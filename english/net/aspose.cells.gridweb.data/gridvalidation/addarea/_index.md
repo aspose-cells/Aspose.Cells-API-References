@@ -15,7 +15,7 @@ public void AddArea(GridCellArea cellArea)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| GridCellArea | GridCellArea | The area. |
+| cellArea | GridCellArea | The area. |
 
 ### Remarks
 

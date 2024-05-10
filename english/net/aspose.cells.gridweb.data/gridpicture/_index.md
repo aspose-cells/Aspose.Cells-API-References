@@ -17,10 +17,10 @@ public class GridPicture
 
 | Name | Description |
 | --- | --- |
-| [AlternativeText](../../aspose.cells.gridweb.data/gridpicture/alternativetext/) { get; set; } |  |
+| [AlternativeText](../../aspose.cells.gridweb.data/gridpicture/alternativetext/) { get; set; } | Returns or sets the descriptive (alternative) text string of the [`GridShape`](../gridshape/) object. |
 | [BorderLineColor](../../aspose.cells.gridweb.data/gridpicture/borderlinecolor/) { get; set; } | Represents the Color of the border line of a picture. |
 | [BorderWeight](../../aspose.cells.gridweb.data/gridpicture/borderweight/) { get; set; } | Gets or sets the weight of the border line of a picture in units of pt. |
-| [Bottom](../../aspose.cells.gridweb.data/gridpicture/bottom/) { get; set; } |  |
+| [Bottom](../../aspose.cells.gridweb.data/gridpicture/bottom/) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [Data](../../aspose.cells.gridweb.data/gridpicture/data/) { get; set; } | Gets the data of the picture. |
 | [HasLine](../../aspose.cells.gridweb.data/gridpicture/hasline/) { get; set; } | Gets and sets the line border of the shape is visible. |
 | [Height](../../aspose.cells.gridweb.data/gridpicture/height/) { get; set; } | Represents the height of shape, in unit of pixel. |
@@ -59,7 +59,7 @@ public class GridPicture
 | [RotationAngle](../../aspose.cells.gridweb.data/gridpicture/rotationangle/) { get; set; } | Gets and sets the rotation of the shape. |
 | [SourceFullName](../../aspose.cells.gridweb.data/gridpicture/sourcefullname/) { get; set; } | Gets or sets the path and name of the source file for the linked image. |
 | [Text](../../aspose.cells.gridweb.data/gridpicture/text/) { get; set; } | Represents the string in this TextBox object. |
-| [Title](../../aspose.cells.gridweb.data/gridpicture/title/) { get; set; } |  |
+| [Title](../../aspose.cells.gridweb.data/gridpicture/title/) { get; set; } | Specifies the title (caption) of the current shape object. |
 | [Top](../../aspose.cells.gridweb.data/gridpicture/top/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [TopCM](../../aspose.cells.gridweb.data/gridpicture/topcm/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of centimeters. |
 | [TopInch](../../aspose.cells.gridweb.data/gridpicture/topinch/) { get; set; } | Represents the vertical offset of shape from its top row, in unit of inches. |

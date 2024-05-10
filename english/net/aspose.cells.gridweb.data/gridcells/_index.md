@@ -17,27 +17,27 @@ public class GridCells : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Columns](../../aspose.cells.gridweb.data/gridcells/columns/) { get; } |  |
+| [Columns](../../aspose.cells.gridweb.data/gridcells/columns/) { get; } | Gets the collection of [`GridColumn`](../gridcolumn/) objects that represents the individual columns in this worksheet. |
 | [Count](../../aspose.cells.gridweb.data/gridcells/count/) { get; } | Gets the number of cells. |
-| [FirstCell](../../aspose.cells.gridweb.data/gridcells/firstcell/) { get; } |  |
+| [FirstCell](../../aspose.cells.gridweb.data/gridcells/firstcell/) { get; } | Gets the first cell in this worksheet. |
 | [Item](../../aspose.cells.gridweb.data/gridcells/item/) { get; } | Gets the [`GridCell`](../gridcell/) element at the specified cell row index and column index. (2 indexers) |
-| [LastCell](../../aspose.cells.gridweb.data/gridcells/lastcell/) { get; } |  |
+| [LastCell](../../aspose.cells.gridweb.data/gridcells/lastcell/) { get; } | Gets the last cell in this worksheet. |
 | [MaxColumn](../../aspose.cells.gridweb.data/gridcells/maxcolumn/) { get; } | Maximum column index of cell which contains data or style. |
-| [MaxDataColumn](../../aspose.cells.gridweb.data/gridcells/maxdatacolumn/) { get; } |  |
-| [MaxDataRow](../../aspose.cells.gridweb.data/gridcells/maxdatarow/) { get; } |  |
+| [MaxDataColumn](../../aspose.cells.gridweb.data/gridcells/maxdatacolumn/) { get; } | Maximum column index of cell which contains data. |
+| [MaxDataRow](../../aspose.cells.gridweb.data/gridcells/maxdatarow/) { get; } | Maximum row index of cell which contains data. |
 | [MaxRow](../../aspose.cells.gridweb.data/gridcells/maxrow/) { get; } | Maximum row index of cell which contains data or style. |
 | [MergedCells](../../aspose.cells.gridweb.data/gridcells/mergedcells/) { get; } | Gets the collection of merged cells. |
-| [MinColumn](../../aspose.cells.gridweb.data/gridcells/mincolumn/) { get; } |  |
-| [MinDataColumn](../../aspose.cells.gridweb.data/gridcells/mindatacolumn/) { get; } |  |
-| [MinDataRow](../../aspose.cells.gridweb.data/gridcells/mindatarow/) { get; } |  |
-| [MinRow](../../aspose.cells.gridweb.data/gridcells/minrow/) { get; } |  |
+| [MinColumn](../../aspose.cells.gridweb.data/gridcells/mincolumn/) { get; } | Minimum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it). |
+| [MinDataColumn](../../aspose.cells.gridweb.data/gridcells/mindatacolumn/) { get; } | Minimum column index of cell which contains data. |
+| [MinDataRow](../../aspose.cells.gridweb.data/gridcells/mindatarow/) { get; } | Minimum row index of cell which contains data. |
+| [MinRow](../../aspose.cells.gridweb.data/gridcells/minrow/) { get; } | Minimum row index of cell which contains data or style. |
 | [RowEnumerator](../../aspose.cells.gridweb.data/gridcells/rowenumerator/) { get; } | Gets the rows enumerator |
-| [Rows](../../aspose.cells.gridweb.data/gridcells/rows/) { get; } |  |
+| [Rows](../../aspose.cells.gridweb.data/gridcells/rows/) { get; } | Gets the collection of [`GridRow`](../gridrow/) objects that represents the individual rows in this worksheet. |
 | [StandardHeight](../../aspose.cells.gridweb.data/gridcells/standardheight/) { get; set; } | Gets or sets the default row height in this worksheet,in unit of points. |
 | [StandardHeightPixels](../../aspose.cells.gridweb.data/gridcells/standardheightpixels/) { get; set; } | Gets or sets the default row height in this worksheet,in unit of pixels. |
 | [StandardWidth](../../aspose.cells.gridweb.data/gridcells/standardwidth/) { get; set; } | Gets or sets the default column width in the worksheet,in unit of characters. |
-| [StandardWidthInch](../../aspose.cells.gridweb.data/gridcells/standardwidthinch/) { get; set; } |  |
-| [StandardWidthPixels](../../aspose.cells.gridweb.data/gridcells/standardwidthpixels/) { get; set; } |  |
+| [StandardWidthInch](../../aspose.cells.gridweb.data/gridcells/standardwidthinch/) { get; set; } | Gets or sets the default column width in the worksheet, in unit of inches. |
+| [StandardWidthPixels](../../aspose.cells.gridweb.data/gridcells/standardwidthpixels/) { get; set; } | Gets or sets the default column width in the worksheet, in unit of pixels. |
 
 ## Methods
 
@@ -98,6 +98,7 @@ public class GridCells : IEnumerable
 | [IsRowHidden](../../aspose.cells.gridweb.data/gridcells/isrowhidden/)(int) | Checks whether a row at given index is hidden. |
 | [Merge](../../aspose.cells.gridweb.data/gridcells/merge/)(int, int, int, int) | Merges a specified range of cells into a single cell. |
 | [MoveRange](../../aspose.cells.gridweb.data/gridcells/moverange/)(GridCellArea, int, int) | Moves the range. |
+| [RemoveDuplicates](../../aspose.cells.gridweb.data/gridcells/removeduplicates/)(int, int, int, int) | Remove duplicate values in the range. |
 | [RemoveFormulas](../../aspose.cells.gridweb.data/gridcells/removeformulas/)() | Removes all formula and replaces with the value of the formula. |
 | [SetBorders](../../aspose.cells.gridweb.data/gridcells/setborders/)(int, int, int, int, SetBorderPosition, WebBorderStyle) | Sets borders for a cells range. |
 | [SetColumnWidth](../../aspose.cells.gridweb.data/gridcells/setcolumnwidth/)(int, double) | Sets the width of the specified column. |

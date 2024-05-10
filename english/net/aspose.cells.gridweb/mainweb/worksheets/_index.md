@@ -1,11 +1,13 @@
 ---
 title: MainWeb.WorkSheets
 second_title: Aspose.Cells for .NET API Reference
-description: MainWeb property. 
+description: MainWeb property. Gets or sets the collection of the worksheets
 type: docs
 url: /net/aspose.cells.gridweb/mainweb/worksheets/
 ---
 ## MainWeb.WorkSheets property
+
+Gets or sets the collection of the worksheets.
 
 ```csharp
 public GridWorksheetCollection WorkSheets { get; }
