@@ -17,7 +17,7 @@ Represents PivotTable base item Next/Previous/All position in the base field .
 
 | Field | Description |
 | --- | --- |
-| [CUSTOM](#CUSTOM) | Represents a pivot item index, as specified by Pivot Items, that specifies a pivot item in the PivotField. |
+| [CUSTOM](#CUSTOM) | Shows values as the different format based the index of pivot item in the PivotField. |
 | [NEXT](#NEXT) | Represents the next pivot item in the PivotField. |
 | [PREVIOUS](#PREVIOUS) | Represents the previous pivot item in the PivotField. |
 ## Methods
@@ -39,7 +39,11 @@ public static final int CUSTOM
 ```
 
 
-Represents a pivot item index, as specified by Pivot Items, that specifies a pivot item in the PivotField. only read
+Shows values as the different format based the index of pivot item in the PivotField.
+
+**Remarks**
+
+Only for getting.
 
 ### NEXT {#NEXT}
 ```

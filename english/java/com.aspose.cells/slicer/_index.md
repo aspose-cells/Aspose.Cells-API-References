@@ -92,7 +92,7 @@ summary description of Slicer View
 | [getLockedPosition()](#getLockedPosition--) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [getName()](#getName--) | Returns or sets the name of the specified slicer |
 | [getNumberOfColumns()](#getNumberOfColumns--) | Returns or sets the number of columns in the specified slicer. |
-| [getParent()](#getParent--) | Returns the Worksheet object that represents the sheet that contains the slicer. |
+| [getParent()](#getParent--) | Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
 | [getRowHeight()](#getRowHeight--) | Returns or sets the height, in points, of each row in the specified slicer. |
 | [getRowHeightPixel()](#getRowHeightPixel--) | Returns or sets the height, in pixels, of each row in the specified slicer. |
@@ -377,7 +377,7 @@ public Worksheet getParent()
 ```
 
 
-Returns the Worksheet object that represents the sheet that contains the slicer. Read-only.
+Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. Read-only.
 
 **Example**
 

@@ -34,9 +34,11 @@ Represents the options for loading text file.
 | [getIgnoreNotPrinted()](#getIgnoreNotPrinted--) | Ignore the data which are not printed if directly printing the file |
 | [getKeepPrecision()](#getKeepPrecision--) | Indicates whether not parsing a string value if the length is 15. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
+| [getOnlyAuto()](#getOnlyAuto--) | Indicates whether only fit the rows which height are not customed. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
+| [getPreservePaddingSpacesInFormula()](#getPreservePaddingSpacesInFormula--) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [getSeparator()](#getSeparator--) | Gets character separator of text file. |
 | [getSeparatorString()](#getSeparatorString--) | Gets a string value as separator. |
 | [getTextQualifier()](#getTextQualifier--) | Specifies the text qualifier for cell values. |
@@ -61,9 +63,11 @@ Represents the options for loading text file.
 | [setKeepPrecision(boolean value)](#setKeepPrecision-boolean-) | Indicates whether not parsing a string value if the length is 15. |
 | [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
 | [setMultiEncoded(boolean value)](#setMultiEncoded-boolean-) | True means that the file contains several encoding. |
+| [setOnlyAuto(boolean value)](#setOnlyAuto-boolean-) | Indicates whether only fit the rows which height are not customed. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
+| [setPreservePaddingSpacesInFormula(boolean value)](#setPreservePaddingSpacesInFormula-boolean-) | Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. |
 | [setSeparator(char value)](#setSeparator-char-) | Sets character separator of text file. |
 | [setSeparatorString(String value)](#setSeparatorString-java.lang.String-) | Sets a string value as separator. |
 | [setTextQualifier(char value)](#setTextQualifier-char-) | Specifies the text qualifier for cell values. |
@@ -222,6 +226,16 @@ For scenarios that user only needs to read some contents from template file and 
 
 **Returns:**
 boolean
+### getOnlyAuto() {#getOnlyAuto--}
+```
+public boolean getOnlyAuto()
+```
+
+
+Indicates whether only fit the rows which height are not customed.
+
+**Returns:**
+boolean
 ### getParsingFormulaOnOpen() {#getParsingFormulaOnOpen--}
 ```
 public boolean getParsingFormulaOnOpen()
@@ -260,6 +274,20 @@ Gets the password of the workbook.
 
 **Returns:**
 java.lang.String
+### getPreservePaddingSpacesInFormula() {#getPreservePaddingSpacesInFormula--}
+```
+public boolean getPreservePaddingSpacesInFormula()
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+After loading workbook from template file with this option, [GridWorkbookSettings.getPreservePaddingSpaces()](../../com.aspose.gridweb/gridworkbooksettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Returns:**
+boolean
 ### getSeparator() {#getSeparator--}
 ```
 public char getSeparator()
@@ -551,6 +579,19 @@ True means that the file contains several encoding.
 | --- | --- | --- |
 | value | boolean |  |
 
+### setOnlyAuto(boolean value) {#setOnlyAuto-boolean-}
+```
+public void setOnlyAuto(boolean value)
+```
+
+
+Indicates whether only fit the rows which height are not customed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setParsingFormulaOnOpen(boolean value) {#setParsingFormulaOnOpen-boolean-}
 ```
 public void setParsingFormulaOnOpen(boolean value)
@@ -597,6 +638,23 @@ Sets the password of the workbook.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setPreservePaddingSpacesInFormula(boolean value) {#setPreservePaddingSpacesInFormula-boolean-}
+```
+public void setPreservePaddingSpacesInFormula(boolean value)
+```
+
+
+Indicates whether preserve those spaces and line breaks that are padded between formula tokens while getting and setting formulas. Default value is false.
+
+**Remarks**
+
+After loading workbook from template file with this option, [GridWorkbookSettings.getPreservePaddingSpaces()](../../com.aspose.gridweb/gridworkbooksettings\#getPreservePaddingSpaces--) will be set to the same value with this property.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setSeparator(char value) {#setSeparator-char-}
 ```

@@ -28,11 +28,11 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [getNumber()](#getNumber--) | Represents the format number for the TickLabels object. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the TickLabels object. |
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [getOffset()](#getOffset--) | Gets the distance of labels from the axis. |
+| [getOffset()](#getOffset--) | Gets the distance between the axis labels and the axis line. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents text rotation angle in clockwise. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
-| [getTickLabelItems()](#getTickLabelItems--) | Gets each tick label item's information of axis. |
+| [getTickLabelItems()](#getTickLabelItems--) | Gets the display tick labels of the axis. |
 | [hashCode()](#hashCode--) |  |
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the rotation angle is automatic |
 | [notify()](#notify--) |  |
@@ -45,7 +45,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [setNumber(int value)](#setNumber-int-) | Represents the format number for the TickLabels object. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the format string for the TickLabels object. |
 | [setNumberFormatLinked(boolean value)](#setNumberFormatLinked-boolean-) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
-| [setOffset(int value)](#setOffset-int-) | Sets the distance of labels from the axis. |
+| [setOffset(int value)](#setOffset-int-) | Sets the distance between the axis labels and the axis line. |
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
 | [setRotationAngle(int value)](#setRotationAngle-int-) | Represents text rotation angle in clockwise. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
@@ -184,7 +184,7 @@ public int getOffset()
 ```
 
 
-Gets the distance of labels from the axis.
+Gets the distance between the axis labels and the axis line.
 
 **Remarks**
 
@@ -248,7 +248,7 @@ public TickLabelItem[] getTickLabelItems()
 ```
 
 
-Gets each tick label item's information of axis.
+Gets the display tick labels of the axis.
 
 **Remarks**
 
@@ -412,7 +412,7 @@ public void setOffset(int value)
 ```
 
 
-Sets the distance of labels from the axis.
+Sets the distance between the axis labels and the axis line.
 
 **Remarks**
 

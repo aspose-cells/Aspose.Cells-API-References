@@ -89,7 +89,7 @@ Encapsulates the object that represents the chart legend.
 | [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data labels is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
-| [isOverLay()](#isOverLay--) | Gets whether other chart elements shall be allowed to overlap this chart element. |
+| [isOverLay()](#isOverLay--) | Gets whether showing the legend without overlapping the chart. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
 | [isTextWrapped()](#isTextWrapped--) | Gets a value indicating whether the text is wrapped. |
 | [notify()](#notify--) |  |
@@ -104,7 +104,7 @@ Encapsulates the object that represents the chart legend.
 | [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | Sets a reference to the worksheet. |
-| [setOverLay(boolean value)](#setOverLay-boolean-) | Sets whether other chart elements shall be allowed to overlap this chart element. |
+| [setOverLay(boolean value)](#setOverLay-boolean-) | Sets whether showing the legend without overlapping the chart. |
 | [setPosition(int value)](#setPosition-int-) | Sets the legend position type. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
@@ -624,7 +624,7 @@ public boolean isOverLay()
 ```
 
 
-Gets whether other chart elements shall be allowed to overlap this chart element.
+Gets whether showing the legend without overlapping the chart.
 
 **Returns:**
 boolean
@@ -818,7 +818,7 @@ public void setOverLay(boolean value)
 ```
 
 
-Sets whether other chart elements shall be allowed to overlap this chart element.
+Sets whether showing the legend without overlapping the chart.
 
 **Parameters:**
 | Parameter | Type | Description |

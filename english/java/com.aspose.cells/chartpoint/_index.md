@@ -82,7 +82,7 @@ Represents a single point in a series in a chart.
 | [getBottomPointXPx(int index)](#getBottomPointXPx-int-) | Gets x-coordinate of the bottom point of shape after calls Chart.Calculate() method. |
 | [getBottomPointYPx(int index)](#getBottomPointYPx-int-) | Gets y-coordinate of the bottom point of shape after calls Chart.Calculate() method. |
 | [getClass()](#getClass--) |  |
-| [getDataLabels()](#getDataLabels--) | Returns a DataLabels object that represents the data label associated with the point. |
+| [getDataLabels()](#getDataLabels--) | Returns a [getDataLabels()](../../com.aspose.cells/chartpoint\#getDataLabels--) object that represents the data label associated with this chart point. |
 | [getEndAngle()](#getEndAngle--) | Gets the ending angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. |
 | [getExplosion()](#getExplosion--) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [getInnerArcEndPointXPx()](#getInnerArcEndPointXPx--) | Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. |
@@ -267,7 +267,7 @@ public DataLabels getDataLabels()
 ```
 
 
-Returns a DataLabels object that represents the data label associated with the point.
+Returns a [getDataLabels()](../../com.aspose.cells/chartpoint\#getDataLabels--) object that represents the data label associated with this chart point.
 
 **Returns:**
 [DataLabels](../../com.aspose.cells/datalabels)

@@ -41,6 +41,7 @@ Represents the options of saving the workbook as a json file.
 | [getSkipEmptyRows()](#getSkipEmptyRows--) | Indicates whether skipping emtpy rows. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
+| [getToExcelStruct()](#getToExcelStruct--) | Indicates whether converting to json struct of the Excel file. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
@@ -65,6 +66,7 @@ Represents the options of saving the workbook as a json file.
 | [setSkipEmptyRows(boolean value)](#setSkipEmptyRows-boolean-) | Indicates whether skipping emtpy rows. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setToExcelStruct(boolean value)](#setToExcelStruct-boolean-) | Indicates whether converting to json struct of the Excel file. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
@@ -294,6 +296,20 @@ public boolean getSortNames()
 
 
 Indicates whether sorting defined names before saving file.
+
+**Returns:**
+boolean
+### getToExcelStruct() {#getToExcelStruct--}
+```
+public boolean getToExcelStruct()
+```
+
+
+Indicates whether converting to json struct of the Excel file.
+
+**Remarks**
+
+Only for converting range to JSON.
 
 **Returns:**
 boolean
@@ -606,6 +622,23 @@ public void setSortNames(boolean value)
 
 
 Indicates whether sorting defined names before saving file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setToExcelStruct(boolean value) {#setToExcelStruct-boolean-}
+```
+public void setToExcelStruct(boolean value)
+```
+
+
+Indicates whether converting to json struct of the Excel file.
+
+**Remarks**
+
+Only for converting range to JSON.
 
 **Parameters:**
 | Parameter | Type | Description |

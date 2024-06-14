@@ -30,7 +30,7 @@ Represents settings of the workbook.
 
 | Constructor | Description |
 | --- | --- |
-| [GridWorkbookSettings()](#GridWorkbookSettings--) |  |
+| [GridWorkbookSettings()](#GridWorkbookSettings--) | default constructor |
 ## Methods
 
 | Method | Description |
@@ -71,6 +71,8 @@ Represents settings of the workbook.
 public GridWorkbookSettings()
 ```
 
+
+default constructor
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -18,9 +18,9 @@ Encryption Type. Only used by excel2003. We will encrypt 2007/2010 workbook usin
 | Field | Description |
 | --- | --- |
 | [COMPATIBLE](#COMPATIBLE) | Office 97/2000 compatible. |
-| [ENHANCED_CRYPTOGRAPHIC_PROVIDER_V_1](#ENHANCED-CRYPTOGRAPHIC-PROVIDER-V-1) |  |
-| [STRONG_CRYPTOGRAPHIC_PROVIDER](#STRONG-CRYPTOGRAPHIC-PROVIDER) |  |
-| [XOR](#XOR) |  |
+| [ENHANCED_CRYPTOGRAPHIC_PROVIDER_V_1](#ENHANCED-CRYPTOGRAPHIC-PROVIDER-V-1) | Enhanced encryption. |
+| [STRONG_CRYPTOGRAPHIC_PROVIDER](#STRONG-CRYPTOGRAPHIC-PROVIDER) | Strong encryption algorithm. |
+| [XOR](#XOR) | XOR encryption algorithm. |
 ## Methods
 
 | Method | Description |
@@ -48,7 +48,7 @@ public static final int ENHANCED_CRYPTOGRAPHIC_PROVIDER_V_1
 ```
 
 
-
+Enhanced encryption.
 
 ### STRONG_CRYPTOGRAPHIC_PROVIDER {#STRONG-CRYPTOGRAPHIC-PROVIDER}
 ```
@@ -56,7 +56,7 @@ public static final int STRONG_CRYPTOGRAPHIC_PROVIDER
 ```
 
 
-
+Strong encryption algorithm.
 
 ### XOR {#XOR}
 ```
@@ -64,7 +64,7 @@ public static final int XOR
 ```
 
 
-
+XOR encryption algorithm.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -26,13 +26,12 @@ Scroll value must be between 0 and 30000.
 | [calculateTextSize()](#calculateTextSize--) | Recalculate the text area |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [formatCharacters(int startIndex, int length, Font font)](#formatCharacters-int-int-com.aspose.cells.Font-) | Formats some characters with the font setting. |
 | [formatCharacters(int startIndex, int length, Font font, StyleFlag flag)](#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-) | Formats some characters with the font setting. |
 | [getActiveXControl()](#getActiveXControl--) | Gets the ActiveX control. |
 | [getActualBox()](#getActualBox--) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [getActualLowerRightRow()](#getActualLowerRightRow--) | Get the actual bottom row. |
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object. |
-| [getAnchorType()](#getAnchorType--) | Gets the shape anchor placeholder. |
+| [getAnchorType()](#getAnchorType--) | Gets the type of the shape anchor placeholder. |
 | [getAutoShapeType()](#getAutoShapeType--) | Gets the auto shape type. |
 | [getBottom()](#getBottom--) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the text . |
@@ -50,7 +49,6 @@ Scroll value must be between 0 and 30000.
 | [getGroup()](#getGroup--) | Gets the group shape which contains this shape. |
 | [getHeight()](#getHeight--) | Represents the height of shape, in unit of pixel. |
 | [getHeightCM()](#getHeightCM--) | Represents the height of the shape, in unit of centimeters. |
-| [getHeightInChart()](#getHeightInChart--) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
 | [getHeightInShape()](#getHeightInShape--) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
 | [getHeightInch()](#getHeightInch--) | Represents the height of the shape, in unit of inches. |
 | [getHeightPt()](#getHeightPt--) | Represents the height of the shape, in unit of points. |
@@ -63,7 +61,6 @@ Scroll value must be between 0 and 30000.
 | [getInputRange(boolean isR1C1, boolean isLocal)](#getInputRange-boolean-boolean-) | Gets the range used to fill the control. |
 | [getLeft()](#getLeft--) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [getLeftCM()](#getLeftCM--) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
-| [getLeftInChart()](#getLeftInChart--) | Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [getLeftInShape()](#getLeftInShape--) | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [getLeftInch()](#getLeftInch--) | Represents the horizontal offset of shape from its left column, in unit of inches. |
 | [getLeftToCorner()](#getLeftToCorner--) | Gets the horizonal offset of shape from worksheet left border. |
@@ -79,13 +76,11 @@ Scroll value must be between 0 and 30000.
 | [getMacroName()](#getMacroName--) | Gets the name of macro. |
 | [getMax()](#getMax--) | Gets the maximum value of a scroll bar or spinner range. |
 | [getMin()](#getMin--) | Gets the minimum value of a scroll bar or spinner range. |
-| [getMsoDrawingType()](#getMsoDrawingType--) | Gets mso drawing type. |
+| [getMsoDrawingType()](#getMsoDrawingType--) | Gets drawing type. |
 | [getName()](#getName--) | Gets the name of the shape. |
 | [getPageChange()](#getPageChange--) | Gets page change |
 | [getPaths()](#getPaths--) | Gets the paths of a custom geometric shape. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
-| [getPositionX()](#getPositionX--) | Gets the horizonal offset of shape from worksheet left border,in unit of pixels. |
-| [getPositionY()](#getPositionY--) | Gets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [getReflection()](#getReflection--) | Represents a [ReflectionEffect](../../com.aspose.cells/reflectioneffect) object that specifies reflection effect for the chart element or shape. |
 | [getRelativeToOriginalPictureSize()](#getRelativeToOriginalPictureSize--) | Indicates whether shape is relative to original picture size. |
 | [getResultOfSmartArt()](#getResultOfSmartArt--) | Converting smart art to grouped shapes. |
@@ -95,13 +90,12 @@ Scroll value must be between 0 and 30000.
 | [getShadow()](#getShadow--) | Indicates whether the shape has 3-D shading. |
 | [getShadowEffect()](#getShadowEffect--) | Represents a [ShadowEffect](../../com.aspose.cells/shadoweffect) object that specifies shadow effect for the chart element or shape. |
 | [getSoftEdges()](#getSoftEdges--) | Gets the radius of blur to apply to the edges, in unit of points. |
-| [getSpid()](#getSpid--) | Specifies an optional string that an application can use to Identify the particular shape. |
+| [getSpid()](#getSpid--) | Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [getSpt()](#getSpt--) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [getText()](#getText--) | Represents the string in this TextBox object. |
+| [getText()](#getText--) | Gets the text of this shape. |
 | [getTextBody()](#getTextBody--) | Gets the setting of the shape's text. |
 | [getTextDirection()](#getTextDirection--) | Gets the direction of the text flow for this object. |
 | [getTextEffect()](#getTextEffect--) | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. |
-| [getTextFrame()](#getTextFrame--) | Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment type of the shape. |
 | [getTextHorizontalOverflow()](#getTextHorizontalOverflow--) | Gets the text horizontal overflow type of the shape which contains text. |
 | [getTextOptions()](#getTextOptions--) | Represents the text options of the shape. |
@@ -113,7 +107,6 @@ Scroll value must be between 0 and 30000.
 | [getTitle()](#getTitle--) | Specifies the title (caption) of the current shape object. |
 | [getTop()](#getTop--) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [getTopCM()](#getTopCM--) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
-| [getTopInChart()](#getTopInChart--) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
 | [getTopInShape()](#getTopInShape--) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
 | [getTopInch()](#getTopInch--) | Represents the vertical offset of shape from its top row, in unit of inches. |
 | [getTopToCorner()](#getTopToCorner--) | Gets the vertical offset of shape from worksheet top border, in unit of pixels. |
@@ -121,10 +114,9 @@ Scroll value must be between 0 and 30000.
 | [getUpperDeltaX()](#getUpperDeltaX--) | Gets the shape's horizontal offset from its upper left corner column. |
 | [getUpperDeltaY()](#getUpperDeltaY--) | Gets the shape's vertical offset from its upper left corner row. |
 | [getUpperLeftColumn()](#getUpperLeftColumn--) | Represents upper left corner column index. |
-| [getUpperLeftRow()](#getUpperLeftRow--) | Represents upper left corner row index. |
+| [getUpperLeftRow()](#getUpperLeftRow--) | Represents the top row index. |
 | [getWidth()](#getWidth--) | Represents the width of shape, in unit of pixels. |
 | [getWidthCM()](#getWidthCM--) | Represents the width of the shape, in unit of centimeters. |
-| [getWidthInChart()](#getWidthInChart--) | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
 | [getWidthInShape()](#getWidthInShape--) | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
 | [getWidthInch()](#getWidthInch--) | Represents the width of the shape, in unit of inch. |
 | [getWidthPt()](#getWidthPt--) | Represents the width of the shape, in unit of point. |
@@ -135,29 +127,31 @@ Scroll value must be between 0 and 30000.
 | [getZOrderPosition()](#getZOrderPosition--) | Returns the position of a shape in the z-order. |
 | [hasLine()](#hasLine--) | Gets the line border of the shape is visible. |
 | [hashCode()](#hashCode--) |  |
+| [isAspectRatioLocked()](#isAspectRatioLocked--) | True means that aspect ratio of the shape is locked. |
 | [isEquation()](#isEquation--) | Indicates whether the shape only contains an equation. |
 | [isFilled()](#isFilled--) | Indicates whether the fill format is visible. |
 | [isFlippedHorizontally()](#isFlippedHorizontally--) | Gets whether shape is horizontally flipped . |
 | [isFlippedVertically()](#isFlippedVertically--) | Gets whether shape is vertically flipped . |
-| [isGroup()](#isGroup--) | Indicates whether the shape is a group. |
+| [isGroup()](#isGroup--) | Indicates whether this shape is a group shape. |
 | [isHidden()](#isHidden--) | Indicates whether the object is visible. |
 | [isHorizontal()](#isHorizontal--) | Indicates whether this is a horizontal scroll bar. |
 | [isInGroup()](#isInGroup--) | Indicates whether the shape is grouped. |
-| [isLockAspectRatio()](#isLockAspectRatio--) | True means that don't allow changes in aspect ratio. |
-| [isLocked()](#isLocked--) | True if the object is locked, False if the object can be modified when the sheet is protected. |
-| [isPrintable()](#isPrintable--) | True if the object is printable |
+| [isLockAspectRatio()](#isLockAspectRatio--) | True means that aspect ratio of the shape is locked. |
+| [isLocked()](#isLocked--) | True means the object can not be modified when the sheet is protected. |
+| [isPrintable()](#isPrintable--) | Indicates whether the object is printable. |
 | [isRichText()](#isRichText--) | Whether or not the text is rich text. |
 | [isSameSetting(Object obj)](#isSameSetting-java.lang.Object-) | Returns whether the shape is same. |
-| [isSmartArt()](#isSmartArt--) | Indicates whether the shape is smart art. |
+| [isSmartArt()](#isSmartArt--) | Indicates whether the shape is a smart art. |
 | [isTextWrapped()](#isTextWrapped--) | Gets the text wrapped type of the shape which contains text. |
 | [isWordArt()](#isWordArt--) | Indicates whether this shape is a word art. |
 | [moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeActiveXControl()](#removeActiveXControl--) | Remove activeX control. |
-| [removeHyperlink()](#removeHyperlink--) | Remove the hyperlink of the shape. |
+| [removeHyperlink()](#removeHyperlink--) | Removes the hyperlink of the shape. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object. |
-| [setAnchorType(int value)](#setAnchorType-int-) | Sets the shape anchor placeholder. |
+| [setAnchorType(int value)](#setAnchorType-int-) | Sets the type of the shape anchor placeholder. |
+| [setAspectRatioLocked(boolean value)](#setAspectRatioLocked-boolean-) | True means that aspect ratio of the shape is locked. |
 | [setAutoShapeType(int value)](#setAutoShapeType-int-) | Sets the auto shape type. |
 | [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Sets create id for this shape. |
@@ -169,7 +163,6 @@ Scroll value must be between 0 and 30000.
 | [setHasLine(boolean value)](#setHasLine-boolean-) | Sets the line border of the shape is visible. |
 | [setHeight(int value)](#setHeight-int-) | Represents the height of shape, in unit of pixel. |
 | [setHeightCM(double value)](#setHeightCM-double-) | Represents the height of the shape, in unit of centimeters. |
-| [setHeightInChart(int value)](#setHeightInChart-int-) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
 | [setHeightInShape(int value)](#setHeightInShape-int-) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.. |
 | [setHeightInch(double value)](#setHeightInch-double-) | Represents the height of the shape, in unit of inches. |
 | [setHeightPt(double value)](#setHeightPt-double-) | Represents the height of the shape, in unit of points. |
@@ -182,14 +175,13 @@ Scroll value must be between 0 and 30000.
 | [setInputRange(String formula, boolean isR1C1, boolean isLocal)](#setInputRange-java.lang.String-boolean-boolean-) | Sets the range used to fill the control. |
 | [setLeft(int value)](#setLeft-int-) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [setLeftCM(double value)](#setLeftCM-double-) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
-| [setLeftInChart(int value)](#setLeftInChart-int-) | Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [setLeftInShape(int value)](#setLeftInShape-int-) | Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape. |
 | [setLeftInch(double value)](#setLeftInch-double-) | Represents the horizontal offset of shape from its left column, in unit of inches. |
 | [setLeftToCorner(int value)](#setLeftToCorner-int-) | Sets the horizonal offset of shape from worksheet left border. |
 | [setLinkedCell(String value)](#setLinkedCell-java.lang.String-) | Sets the worksheet range linked to the control's value. |
 | [setLinkedCell(String formula, boolean isR1C1, boolean isLocal)](#setLinkedCell-java.lang.String-boolean-boolean-) | Sets the range linked to the control's value. |
-| [setLockAspectRatio(boolean value)](#setLockAspectRatio-boolean-) | True means that don't allow changes in aspect ratio. |
-| [setLocked(boolean value)](#setLocked-boolean-) | True if the object is locked, False if the object can be modified when the sheet is protected. |
+| [setLockAspectRatio(boolean value)](#setLockAspectRatio-boolean-) | True means that aspect ratio of the shape is locked. |
+| [setLocked(boolean value)](#setLocked-boolean-) | True means the object can not be modified when the sheet is protected. |
 | [setLockedProperty(int type, boolean value)](#setLockedProperty-int-boolean-) | Set the locked property. |
 | [setLowerDeltaX(int value)](#setLowerDeltaX-int-) | Sets the shape's horizontal offset from its lower right corner column. |
 | [setLowerDeltaY(int value)](#setLowerDeltaY-int-) | Sets the shape's vertical offset from its lower right corner row. |
@@ -201,15 +193,13 @@ Scroll value must be between 0 and 30000.
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the shape. |
 | [setPageChange(int value)](#setPageChange-int-) | Sets page change |
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the drawing object is attached to the cells below it. |
-| [setPositionX(int value)](#setPositionX-int-) | Sets the horizonal offset of shape from worksheet left border,in unit of pixels. |
-| [setPositionY(int value)](#setPositionY-int-) | Sets the vertical offset of shape from worksheet top border,in unit of pixels. |
-| [setPrintable(boolean value)](#setPrintable-boolean-) | True if the object is printable |
+| [setPrintable(boolean value)](#setPrintable-boolean-) | Indicates whether the object is printable. |
 | [setRelativeToOriginalPictureSize(boolean value)](#setRelativeToOriginalPictureSize-boolean-) | Indicates whether shape is relative to original picture size. |
 | [setRight(int value)](#setRight-int-) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
 | [setRotationAngle(double value)](#setRotationAngle-double-) | Sets the rotation of the shape. |
 | [setShadow(boolean value)](#setShadow-boolean-) | Indicates whether the shape has 3-D shading. |
 | [setSoftEdges(double value)](#setSoftEdges-double-) | Sets the radius of blur to apply to the edges, in unit of points. |
-| [setText(String value)](#setText-java.lang.String-) | Represents the string in this TextBox object. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of this shape. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Sets the direction of the text flow for this object. |
 | [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Sets the text horizontal alignment type of the shape. |
 | [setTextHorizontalOverflow(int value)](#setTextHorizontalOverflow-int-) | Sets the text horizontal overflow type of the shape which contains text. |
@@ -222,17 +212,15 @@ Scroll value must be between 0 and 30000.
 | [setTitle(String value)](#setTitle-java.lang.String-) | Specifies the title (caption) of the current shape object. |
 | [setTop(int value)](#setTop-int-) | Represents the vertical offset of shape from its top row, in unit of pixels. |
 | [setTopCM(double value)](#setTopCM-double-) | Represents the vertical offset of shape from its top row, in unit of centimeters. |
-| [setTopInChart(int value)](#setTopInChart-int-) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
 | [setTopInShape(int value)](#setTopInShape-int-) | Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape. |
 | [setTopInch(double value)](#setTopInch-double-) | Represents the vertical offset of shape from its top row, in unit of inches. |
 | [setTopToCorner(int value)](#setTopToCorner-int-) | Sets the vertical offset of shape from worksheet top border, in unit of pixels. |
 | [setUpperDeltaX(int value)](#setUpperDeltaX-int-) | Sets the shape's horizontal offset from its upper left corner column. |
 | [setUpperDeltaY(int value)](#setUpperDeltaY-int-) | Sets the shape's vertical offset from its upper left corner row. |
 | [setUpperLeftColumn(int value)](#setUpperLeftColumn-int-) | Represents upper left corner column index. |
-| [setUpperLeftRow(int value)](#setUpperLeftRow-int-) | Represents upper left corner row index. |
+| [setUpperLeftRow(int value)](#setUpperLeftRow-int-) | Represents the top row index. |
 | [setWidth(int value)](#setWidth-int-) | Represents the width of shape, in unit of pixels. |
 | [setWidthCM(double value)](#setWidthCM-double-) | Represents the width of the shape, in unit of centimeters. |
-| [setWidthInChart(int value)](#setWidthInChart-int-) | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
 | [setWidthInShape(int value)](#setWidthInShape-int-) | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
 | [setWidthInch(double value)](#setWidthInch-double-) | Represents the width of the shape, in unit of inch. |
 | [setWidthPt(double value)](#setWidthPt-double-) | Represents the width of the shape, in unit of point. |
@@ -348,25 +336,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### formatCharacters(int startIndex, int length, Font font) {#formatCharacters-int-int-com.aspose.cells.Font-}
-```
-public void formatCharacters(int startIndex, int length, Font font)
-```
-
-
-Formats some characters with the font setting.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.FormatCharacters(int startIndex, int length, Font font, StyleFlag flag) method. This property will be removed 12 months later since March 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startIndex | int | The start index. |
-| length | int | The length. |
-| font | [Font](../../com.aspose.cells/font) | The font setting. |
-
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)
@@ -456,7 +425,7 @@ public int getAnchorType()
 ```
 
 
-Gets the shape anchor placeholder.
+Gets the type of the shape anchor placeholder.
 
 See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
@@ -736,20 +705,6 @@ Represents the height of the shape, in unit of centimeters.
 
 **Returns:**
 double
-### getHeightInChart() {#getHeightInChart--}
-```
-public int getHeightInChart()
-```
-
-
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.HeightInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getHeightInShape() {#getHeightInShape--}
 ```
 public int getHeightInShape()
@@ -958,20 +913,6 @@ Represents the horizontal offset of shape from its left column, in unit of centi
 
 **Returns:**
 double
-### getLeftInChart() {#getLeftInChart--}
-```
-public int getLeftInChart()
-```
-
-
-Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.LeftInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getLeftInShape() {#getLeftInShape--}
 ```
 public int getLeftInShape()
@@ -1239,7 +1180,7 @@ public int getMsoDrawingType()
 ```
 
 
-Gets mso drawing type.
+Gets drawing type.
 
 See [MsoDrawingType](../../com.aspose.cells/msodrawingtype).
 
@@ -1311,34 +1252,6 @@ See [PlacementType](../../com.aspose.cells/placementtype).
          if (shape.getPlacement() == PlacementType.MOVE)
              shape.setPlacement(PlacementType.MOVE_AND_SIZE);
 ```
-
-**Returns:**
-int
-### getPositionX() {#getPositionX--}
-```
-public int getPositionX()
-```
-
-
-Gets the horizonal offset of shape from worksheet left border,in unit of pixels.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
-### getPositionY() {#getPositionY--}
-```
-public int getPositionY()
-```
-
-
-Gets the vertical offset of shape from worksheet top border,in unit of pixels.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1438,8 +1351,11 @@ Gets the rotation of the shape.
 **Example**
 
 ```
-         if(shape.getRotationAngle() == 45)
-             shape.setRotationAngle(60);
+         //Gets rotation angle of the shape.
+         double angle = shape.getRotationAngle() ;
+ 
+         //Gets rotation angle of the shape.
+          shape.setRotationAngle(60);
 ```
 
 **Returns:**
@@ -1492,7 +1408,7 @@ public String getSpid()
 ```
 
 
-Specifies an optional string that an application can use to Identify the particular shape.
+Specifies an optional string identifier that an application can use to identify the particular shape.
 
 **Example**
 
@@ -1524,7 +1440,7 @@ public String getText()
 ```
 
 
-Represents the string in this TextBox object.
+Gets the text of this shape.
 
 **Example**
 
@@ -1590,20 +1506,6 @@ Returns a TextEffectFormat object that contains text-effect formatting propertie
 
 **Returns:**
 [TextEffectFormat](../../com.aspose.cells/texteffectformat)
-### getTextFrame() {#getTextFrame--}
-```
-public MsoTextFrame getTextFrame()
-```
-
-
-Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.TextBody.TextAlignment property. This property will be removed 12 months later since May 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-[MsoTextFrame](../../com.aspose.cells/msotextframe)
 ### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
 ```
 public int getTextHorizontalAlignment()
@@ -1806,20 +1708,6 @@ Represents the vertical offset of shape from its top row, in unit of centimeters
 
 **Returns:**
 double
-### getTopInChart() {#getTopInChart--}
-```
-public int getTopInChart()
-```
-
-
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.TopInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getTopInShape() {#getTopInShape--}
 ```
 public int getTopInShape()
@@ -1958,7 +1846,7 @@ public int getUpperLeftRow()
 ```
 
 
-Represents upper left corner row index.
+Represents the top row index.
 
 **Remarks**
 
@@ -2007,20 +1895,6 @@ Represents the width of the shape, in unit of centimeters.
 
 **Returns:**
 double
-### getWidthInChart() {#getWidthInChart--}
-```
-public int getWidthInChart()
-```
-
-
-Represents the width of the shape, in unit of 1/4000 of the parent shape.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.WidthInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getWidthInShape() {#getWidthInShape--}
 ```
 public int getWidthInShape()
@@ -2186,6 +2060,26 @@ public native int hashCode()
 
 **Returns:**
 int
+### isAspectRatioLocked() {#isAspectRatioLocked--}
+```
+public boolean isAspectRatioLocked()
+```
+
+
+True means that aspect ratio of the shape is locked.
+
+**Remarks**
+
+Only for pictures and Ole Objects.
+
+**Example**
+
+```
+         shape.setAspectRatioLocked(false);
+```
+
+**Returns:**
+boolean
 ### isEquation() {#isEquation--}
 ```
 public boolean isEquation()
@@ -2263,7 +2157,7 @@ public boolean isGroup()
 ```
 
 
-Indicates whether the shape is a group.
+Indicates whether this shape is a group shape.
 
 **Example**
 
@@ -2318,12 +2212,16 @@ public boolean isLockAspectRatio()
 ```
 
 
-True means that don't allow changes in aspect ratio.
+True means that aspect ratio of the shape is locked.
+
+**Remarks**
+
+Only for pictures and Ole Objects. NOTE: This member is now obsolete. Instead, please use Shape.IsAspectRatioLocked property. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Example**
 
 ```
-         shape.setLockAspectRatio(false);
+         shape.setHidden(false);
 ```
 
 **Returns:**
@@ -2334,13 +2232,22 @@ public boolean isLocked()
 ```
 
 
-True if the object is locked, False if the object can be modified when the sheet is protected.
+True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
 
 **Example**
 
 ```
-         if(shape.isLocked())
+         //Sets the specified shape to unlocked state
+         if (shape.getWorksheet().isProtected() &&shape.isLocked())
+         {
              shape.setLocked(false);
+         }
+ 
+         //Sets the specified shape to a locked state
+         if (shape.getWorksheet().isProtected() &&!shape.isLocked())
+         {
+             shape.setLocked(true);
+         }
 ```
 
 **Returns:**
@@ -2351,7 +2258,7 @@ public boolean isPrintable()
 ```
 
 
-True if the object is printable
+Indicates whether the object is printable. If False, this shape will not be printed when printing.
 
 **Example**
 
@@ -2407,7 +2314,7 @@ public boolean isSmartArt()
 ```
 
 
-Indicates whether the shape is smart art.
+Indicates whether the shape is a smart art.
 
 **Remarks**
 
@@ -2416,7 +2323,7 @@ Only for ooxml file.
 **Example**
 
 ```
-         //if true,the shape is smart art.
+         //if true,the shape is a smart art.
          if(shape.isSmartArt())
          {
              //The shape is SmartArt object.
@@ -2526,7 +2433,7 @@ public void removeHyperlink()
 ```
 
 
-Remove the hyperlink of the shape.
+Removes the hyperlink of the shape.
 
 **Example**
 
@@ -2553,7 +2460,7 @@ public void setAnchorType(int value)
 ```
 
 
-Sets the shape anchor placeholder.
+Sets the type of the shape anchor placeholder.
 
 See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 
@@ -2561,6 +2468,23 @@ See [ShapeAnchorType](../../com.aspose.cells/shapeanchortype).
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setAspectRatioLocked(boolean value) {#setAspectRatioLocked-boolean-}
+```
+public void setAspectRatioLocked(boolean value)
+```
+
+
+True means that aspect ratio of the shape is locked.
+
+**Remarks**
+
+Only for pictures and Ole Objects.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setAutoShapeType(int value) {#setAutoShapeType-int-}
 ```
@@ -2706,23 +2630,6 @@ Represents the height of the shape, in unit of centimeters.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
-
-### setHeightInChart(int value) {#setHeightInChart-int-}
-```
-public void setHeightInChart(int value)
-```
-
-
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape..
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.HeightInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### setHeightInShape(int value) {#setHeightInShape-int-}
 ```
@@ -2912,23 +2819,6 @@ Represents the horizontal offset of shape from its left column, in unit of centi
 | --- | --- | --- |
 | value | double |  |
 
-### setLeftInChart(int value) {#setLeftInChart-int-}
-```
-public void setLeftInChart(int value)
-```
-
-
-Represents the vertical offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.LeftInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### setLeftInShape(int value) {#setLeftInShape-int-}
 ```
 public void setLeftInShape(int value)
@@ -3021,7 +2911,11 @@ public void setLockAspectRatio(boolean value)
 ```
 
 
-True means that don't allow changes in aspect ratio.
+True means that aspect ratio of the shape is locked.
+
+**Remarks**
+
+Only for pictures and Ole Objects. NOTE: This member is now obsolete. Instead, please use Shape.IsAspectRatioLocked property. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3034,7 +2928,7 @@ public void setLocked(boolean value)
 ```
 
 
-True if the object is locked, False if the object can be modified when the sheet is protected.
+True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3201,47 +3095,13 @@ See [PlacementType](../../com.aspose.cells/placementtype).
 | --- | --- | --- |
 | value | int |  |
 
-### setPositionX(int value) {#setPositionX-int-}
-```
-public void setPositionX(int value)
-```
-
-
-Sets the horizonal offset of shape from worksheet left border,in unit of pixels.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.X property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setPositionY(int value) {#setPositionY-int-}
-```
-public void setPositionY(int value)
-```
-
-
-Sets the vertical offset of shape from worksheet top border,in unit of pixels.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.Y property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### setPrintable(boolean value) {#setPrintable-boolean-}
 ```
 public void setPrintable(boolean value)
 ```
 
 
-True if the object is printable
+Indicates whether the object is printable. If False, this shape will not be printed when printing.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3319,7 +3179,7 @@ public void setText(String value)
 ```
 
 
-Represents the string in this TextBox object.
+Sets the text of this shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3500,23 +3360,6 @@ Represents the vertical offset of shape from its top row, in unit of centimeters
 | --- | --- | --- |
 | value | double |  |
 
-### setTopInChart(int value) {#setTopInChart-int-}
-```
-public void setTopInChart(int value)
-```
-
-
-Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.TopInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### setTopInShape(int value) {#setTopInShape-int-}
 ```
 public void setTopInShape(int value)
@@ -3613,7 +3456,7 @@ public void setUpperLeftRow(int value)
 ```
 
 
-Represents upper left corner row index.
+Represents the top row index.
 
 **Remarks**
 
@@ -3649,23 +3492,6 @@ Represents the width of the shape, in unit of centimeters.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
-
-### setWidthInChart(int value) {#setWidthInChart-int-}
-```
-public void setWidthInChart(int value)
-```
-
-
-Represents the width of the shape, in unit of 1/4000 of the parent shape.
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Drawing.Shape.WidthInShape property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### setWidthInShape(int value) {#setWidthInShape-int-}
 ```

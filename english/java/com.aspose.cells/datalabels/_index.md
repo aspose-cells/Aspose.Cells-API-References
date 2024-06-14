@@ -73,7 +73,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getShowCellRange()](#getShowCellRange--) | Indicates whether showing cell range as the data labels. |
 | [getShowLegendKey()](#getShowLegendKey--) | Represents a specified chart's data label legend key display behavior. |
 | [getShowPercentage()](#getShowPercentage--) | Represents a specified chart's data label percentage value display behavior. |
-| [getShowSeriesName()](#getShowSeriesName--) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. |
+| [getShowSeriesName()](#getShowSeriesName--) | Indicates whether the series name displays for the data labels on a chart. |
 | [getShowValue()](#getShowValue--) | Represents a specified chart's data label values display behavior. |
 | [getText()](#getText--) | Gets the text of data label. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
@@ -124,7 +124,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [setShowCellRange(boolean value)](#setShowCellRange-boolean-) | Indicates whether showing cell range as the data labels. |
 | [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | Represents a specified chart's data label legend key display behavior. |
 | [setShowPercentage(boolean value)](#setShowPercentage-boolean-) | Represents a specified chart's data label percentage value display behavior. |
-| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. |
+| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) | Indicates whether the series name displays for the data labels on a chart. |
 | [setShowValue(boolean value)](#setShowValue-boolean-) | Represents a specified chart's data label values display behavior. |
 | [setText(String value)](#setText-java.lang.String-) | Sets the text of data label. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
@@ -523,7 +523,7 @@ public boolean getShowSeriesName()
 ```
 
 
-Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide.
+Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
 
 **Returns:**
 boolean
@@ -1180,7 +1180,7 @@ public void setShowSeriesName(boolean value)
 ```
 
 
-Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide.
+Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
 
 **Parameters:**
 | Parameter | Type | Description |

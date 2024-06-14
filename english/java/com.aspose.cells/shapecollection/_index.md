@@ -40,8 +40,8 @@ Represents all the shape in a worksheet/chart.
 | [addButton(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addButton-int-int-int-int-int-int-) | Adds a Button to the worksheet. |
 | [addCheckBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addCheckBox-int-int-int-int-int-int-) | Adds a checkbox to the worksheet. |
 | [addComboBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addComboBox-int-int-int-int-int-int-) | Adds a ComboBox to the worksheet. |
-| [addCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeftColumn, int left)](#addCopy-com.aspose.cells.Shape-int-int-int-int-) | Adds and copy a shape to the worksheet. |
-| [addEquation(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addEquation-int-int-int-int-int-int-) | Add an equation object to the worksheet. |
+| [addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left)](#addCopy-com.aspose.cells.Shape-int-int-int-int-) | Adds and copy a shape to the worksheet. |
+| [addEquation(int topRow, int top, int leftColumn, int left, int height, int width)](#addEquation-int-int-int-int-int-int-) | Add an equation object to the worksheet. |
 | [addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize)](#addFreeFloatingShape-int-int-int-int-int-byte---boolean-) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
 | [addGroupBox(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addGroupBox-int-int-int-int-int-int-) | Adds a GroupBox to the worksheet. |
 | [addIcons(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)](#addIcons-int-int-int-int-int-int-byte---byte---) | Adds svg image. |
@@ -71,15 +71,15 @@ Represents all the shape in a worksheet/chart.
 | [addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addTextEffect-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-int-int-) | Inserts a WordArt object. |
 | [addTextEffectInChart(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int top, int left, int height, int width)](#addTextEffectInChart-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-) | Inserts a WordArt object to the chart |
 | [addWordArt(int style, String text, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](#addWordArt-int-java.lang.String-int-int-int-int-int-int-) | Adds preset WordArt since Excel 2007.s |
-| [clear()](#clear--) | Clear all shapes. |
+| [clear()](#clear--) | Clear all shapes in the worksheet. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [copyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow, int destColumn)](#copyCommentsInRange-com.aspose.cells.ShapeCollection-com.aspose.cells.CellArea-int-int-) | Copy all comments in the range. |
 | [copyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, int destColumn, boolean isContained)](#copyInRange-com.aspose.cells.ShapeCollection-com.aspose.cells.CellArea-int-int-boolean-) | Copy shapes in the range to destination range. |
 | [deleteInRange(CellArea ca)](#deleteInRange-com.aspose.cells.CellArea-) | Delete shapes in the range.Comment shapes will not be deleted. |
 | [deleteShape(Shape shape)](#deleteShape-com.aspose.cells.Shape-) | Delete a shape. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets the shape object at the specific index. |
-| [get(String name)](#get-java.lang.String-) | Gets the shape object by the shape image |
+| [get(int index)](#get-int-) | Gets the [Shape](../../com.aspose.cells/shape) object at the specific index in the list. |
+| [get(String name)](#get-java.lang.String-) | Gets the [Shape](../../com.aspose.cells/shape) object by the name of the shape. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [group(Shape[] groupItems)](#group-com.aspose.cells.Shape---) | Group the shapes. |
@@ -92,7 +92,7 @@ Represents all the shape in a worksheet/chart.
 | [removeAt(int index)](#removeAt-int-) | Remove the shape. |
 | [toString()](#toString--) |  |
 | [ungroup(GroupShape group)](#ungroup-com.aspose.cells.GroupShape-) | Ungroups the shape items. |
-| [updateSelectedValue()](#updateSelectedValue--) | Update the selected value by the value of the linked cell of the shapes. |
+| [updateSelectedValue()](#updateSelectedValue--) | Update the selected value by the value of the linked cell or range of the shape. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -267,7 +267,7 @@ Adds a checkbox to the worksheet.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int | Upper left row index. |
-| top | int | Represents the vertical offset of checkbox from its left row, in unit of pixel. |
+| top | int | Represents the vertical offset of checkbox from its top row, in unit of pixel. |
 | upperLeftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int | Height of textbox, in unit of pixel. |
@@ -302,9 +302,9 @@ Adds a ComboBox to the worksheet.
 
 **Returns:**
 [ComboBox](../../com.aspose.cells/combobox) - A ComboBox object.
-### addCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeftColumn, int left) {#addCopy-com.aspose.cells.Shape-int-int-int-int-}
+### addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left) {#addCopy-com.aspose.cells.Shape-int-int-int-int-}
 ```
-public Shape addCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeftColumn, int left)
+public Shape addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left)
 ```
 
 
@@ -315,7 +315,7 @@ Adds and copy a shape to the worksheet.
 ```
          //add a shape
          RectangleShape rectangle = shapes.addRectangle(2, 0, 2, 0, 130, 130);
-         //copy
+         //Adds and copies a shape.
          shapes.addCopy(rectangle, 7, 0, 7, 0);
 ```
 
@@ -323,16 +323,16 @@ Adds and copy a shape to the worksheet.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [Shape](../../com.aspose.cells/shape) | Source shape. |
-| upperLeftRow | int | Upper left row index. |
-| top | int | Represents the vertical offset of checkbox from its left row, in unit of pixel. |
-| upperLeftColumn | int | Upper left column index. |
-| left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
+| topRow | int | The top row index. |
+| top | int | Represents the vertical offset from its top row, in unit of pixel. |
+| leftColumn | int | The left column index. |
+| left | int | Represents the horizontal offset from its left column, in unit of pixel. |
 
 **Returns:**
-[Shape](../../com.aspose.cells/shape) - The new shape object index.
-### addEquation(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width) {#addEquation-int-int-int-int-int-int-}
+[Shape](../../com.aspose.cells/shape) - The new [Shape](../../com.aspose.cells/shape) object.
+### addEquation(int topRow, int top, int leftColumn, int left, int height, int width) {#addEquation-int-int-int-int-int-int-}
 ```
-public TextBox addEquation(int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)
+public TextBox addEquation(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 
@@ -341,12 +341,12 @@ Add an equation object to the worksheet.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | int |  |
-| top | int |  |
-| upperLeftColumn | int |  |
-| left | int |  |
-| height | int |  |
-| width | int |  |
+| topRow | int | The top row index. |
+| top | int | The vertical offset its top row, in unit of pixel. |
+| leftColumn | int | The left column index. |
+| left | int | The horizontal offset from its left column, in unit of pixel. |
+| height | int | The height of equation, in unit of pixel. |
+| width | int | The width of equation, in unit of pixel. |
 
 **Returns:**
 [TextBox](../../com.aspose.cells/textbox) - 
@@ -987,7 +987,7 @@ Adds a text box to the worksheet.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int | Upper left row index. |
-| top | int | Represents the vertical offset of textbox from its left row, in unit of pixel. |
+| top | int | Represents the vertical offset of textbox from its top row, in unit of pixel. |
 | upperLeftColumn | int | Upper left column index. |
 | left | int | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int | Represents the height of textbox, in unit of pixel. |
@@ -1105,7 +1105,7 @@ public void clear()
 ```
 
 
-Clear all shapes.
+Clear all shapes in the worksheet.
 
 **Example**
 
@@ -1281,19 +1281,19 @@ public Shape get(int index)
 ```
 
 
-Gets the shape object at the specific index.
+Gets the [Shape](../../com.aspose.cells/shape) object at the specific index in the list.
 
 **Example**
 
 ```
-         //get the shape
-         Shape shape = shapes.get(shapes.getCount() -1);
+         //get the first shape
+         Shape shape = shapes.get(0);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
+| index | int | The index. |
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - 
@@ -1303,14 +1303,14 @@ public Shape get(String name)
 ```
 
 
-Gets the shape object by the shape image
+Gets the [Shape](../../com.aspose.cells/shape) object by the name of the shape.
 
 **Example**
 
 ```
          //add a shape
          shapes.addRectangle(2, 0, 2, 0, 130, 130);
-         //get the shape
+         //get the shape by the name.
          Shape shape1 = shapes.get("Rectangle 1");
          if(shape1 != null)
          {
@@ -1321,7 +1321,7 @@ Gets the shape object by the shape image
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String |  |
+| name | java.lang.String | The name of the shape. |
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - 
@@ -1531,7 +1531,7 @@ public void updateSelectedValue()
 ```
 
 
-Update the selected value by the value of the linked cell of the shapes.
+Update the selected value by the value of the linked cell or range of the shape.
 
 ### wait() {#wait--}
 ```

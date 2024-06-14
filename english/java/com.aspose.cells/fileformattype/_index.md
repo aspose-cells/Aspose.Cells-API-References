@@ -42,7 +42,7 @@ Represents the file format types.
 | [JSON](#JSON) | Json |
 | [MAPI_MESSAGE](#MAPI-MESSAGE) | Represents a email file. |
 | [MARKDOWN](#MARKDOWN) | Represents markdown document. |
-| [MICROSOFT_CABINET](#MICROSOFT-CABINET) | ///  Rrepesents Microsoft Cabinet file. |
+| [MICROSOFT_CABINET](#MICROSOFT-CABINET) | Rrepesents Microsoft Cabinet file. |
 | [MS_EQUATION](#MS-EQUATION) | Represents the MS Equation 3.0 object. |
 | [M_HTML](#M-HTML) | MHTML (Web archive) format. |
 | [NUMBERS](#NUMBERS) | Represents Numbers 9.0 file format by Apple Inc. |
@@ -69,7 +69,7 @@ Represents the file format types.
 | [PPT](#PPT) | Represents a ppt file. |
 | [PPTM](#PPTM) | Represents a pptm file. |
 | [PPTX](#PPTX) | Represents a pptx file. |
-| [RTF](#RTF) |  |
+| [RTF](#RTF) | Rtf |
 | [SPREADSHEET_ML](#SPREADSHEET-ML) | Excel 2003 XML Data file. |
 | [SQL_SCRIPT](#SQL-SCRIPT) | Sql |
 | [SVG](#SVG) | SVG file. |
@@ -355,7 +355,11 @@ public static final int MICROSOFT_CABINET
 ```
 
 
-///  Rrepesents Microsoft Cabinet file. The file format is not supported Only for detecting file type.
+Rrepesents Microsoft Cabinet file.
+
+**Remarks**
+
+The file format is not supported Only for detecting file type.
 
 ### MS_EQUATION {#MS-EQUATION}
 ```
@@ -643,7 +647,7 @@ public static final int RTF
 ```
 
 
-
+Rtf
 
 ### SPREADSHEET_ML {#SPREADSHEET-ML}
 ```

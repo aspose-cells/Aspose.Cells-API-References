@@ -111,11 +111,11 @@ Encapsulates the object that represents a single data series in a chart.
 | [getSmooth()](#getSmooth--) | Represents curve smoothing. |
 | [getSplitType()](#getSplitType--) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [getSplitValue()](#getSplitValue--) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
-| [getTrendLines()](#getTrendLines--) | Returns an object that represents a collection of all the trendlines for the series. |
+| [getTrendLines()](#getTrendLines--) | Returns all the trendlines of this series. |
 | [getType()](#getType--) | Gets a data series' type. |
 | [getUpBars()](#getUpBars--) | Returns an DropBars object that represents the up bars on a line chart. |
-| [getValues()](#getValues--) | Represents the data of the chart series. |
-| [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values\\u9225\\u69ae NumberList. |
+| [getValues()](#getValues--) | Represents the Y values of this chart series. |
+| [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values's NumberList. |
 | [getXErrorBar()](#getXErrorBar--) | Represents X direction error bar of the series. |
 | [getXValues()](#getXValues--) | Represents the x values of the chart series. |
 | [getYErrorBar()](#getYErrorBar--) | Represents Y direction error bar of the series. |
@@ -161,8 +161,8 @@ Encapsulates the object that represents a single data series in a chart.
 | [setSplitType(int value)](#setSplitType-int-) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [setSplitValue(double value)](#setSplitValue-double-) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [setType(int value)](#setType-int-) | Sets a data series' type. |
-| [setValues(String value)](#setValues-java.lang.String-) | Represents the data of the chart series. |
-| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents format code of Values\\u9225\\u69ae NumberList. |
+| [setValues(String value)](#setValues-java.lang.String-) | Represents the Y values of this chart series. |
+| [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents format code of Values's NumberList. |
 | [setXValues(String value)](#setXValues-java.lang.String-) | Represents the x values of the chart series. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -569,7 +569,7 @@ public TrendlineCollection getTrendLines()
 ```
 
 
-Returns an object that represents a collection of all the trendlines for the series.
+Returns all the trendlines of this series.
 
 **Returns:**
 [TrendlineCollection](../../com.aspose.cells/trendlinecollection)
@@ -601,7 +601,7 @@ public String getValues()
 ```
 
 
-Represents the data of the chart series.
+Represents the Y values of this chart series.
 
 **Returns:**
 java.lang.String
@@ -611,7 +611,7 @@ public String getValuesFormatCode()
 ```
 
 
-Represents format code of Values\\u9225\\u69ae NumberList.
+Represents format code of Values's NumberList.
 
 **Returns:**
 java.lang.String
@@ -1172,7 +1172,7 @@ public void setValues(String value)
 ```
 
 
-Represents the data of the chart series.
+Represents the Y values of this chart series.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1185,7 +1185,7 @@ public void setValuesFormatCode(String value)
 ```
 
 
-Represents format code of Values\\u9225\\u69ae NumberList.
+Represents format code of Values's NumberList.
 
 **Parameters:**
 | Parameter | Type | Description |

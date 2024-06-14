@@ -462,10 +462,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotItem](../com.aspose.cells/pivotitem) | Represents a item in a PivotField report. |
 | [PivotItemCollection](../com.aspose.cells/pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |
 | [PivotItemPosition](../com.aspose.cells/pivotitemposition) | Represents PivotTable base item Next/Previous/All position in the base field . |
+| [PivotItemPositionType](../com.aspose.cells/pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotMissingItemLimitType](../com.aspose.cells/pivotmissingitemlimittype) | Represents number of items to retain per field. |
 | [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
 | [PivotOptions](../com.aspose.cells/pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](../com.aspose.cells/pivotpagefields) | Represents the pivot page field items if the pivot table data source is consolidation ranges. |
+| [PivotShowValuesSetting](../com.aspose.cells/pivotshowvaluessetting) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |
 | [PivotTableCollection](../com.aspose.cells/pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |

@@ -17,7 +17,7 @@ Represents the options of json layout type.
 
 | Constructor | Description |
 | --- | --- |
-| [JsonLayoutOptions()](#JsonLayoutOptions--) |  |
+| [JsonLayoutOptions()](#JsonLayoutOptions--) | Constructor of loading JSON layout options. |
 ## Methods
 
 | Method | Description |
@@ -54,6 +54,8 @@ Represents the options of json layout type.
 public JsonLayoutOptions()
 ```
 
+
+Constructor of loading JSON layout options.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -93,6 +93,9 @@ The following example shows how to create a range and set value the range of Exc
 | [setStyle(Style style)](#setStyle-com.aspose.cells.Style-) | Sets the style of the range. |
 | [setStyle(Style style, boolean explicitFlag)](#setStyle-com.aspose.cells.Style-boolean-) | Apply the cell style. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Sets the value of the range. |
+| [toHtml(HtmlSaveOptions saveOptions)](#toHtml-com.aspose.cells.HtmlSaveOptions-) | Convert the range to html . |
+| [toImage(ImageOrPrintOptions options)](#toImage-com.aspose.cells.ImageOrPrintOptions-) | Converts the range to image. |
+| [toJson(JsonSaveOptions options)](#toJson-com.aspose.cells.JsonSaveOptions-) | Convert the range to JSON value. |
 | [toString()](#toString--) | Returns a string represents the current Range object. |
 | [transpose()](#transpose--) | Transpose (rotate) data from rows to columns or vice versa. |
 | [unMerge()](#unMerge--) | Unmerges merged cells of this range. |
@@ -873,6 +876,51 @@ If the range contains multiple cells, the returned/applied object should be Obje
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
+### toHtml(HtmlSaveOptions saveOptions) {#toHtml-com.aspose.cells.HtmlSaveOptions-}
+```
+public byte[] toHtml(HtmlSaveOptions saveOptions)
+```
+
+
+Convert the range to html .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | [HtmlSaveOptions](../../com.aspose.cells/htmlsaveoptions) | Options for coverting range to html. |
+
+**Returns:**
+byte[] - 
+### toImage(ImageOrPrintOptions options) {#toImage-com.aspose.cells.ImageOrPrintOptions-}
+```
+public byte[] toImage(ImageOrPrintOptions options)
+```
+
+
+Converts the range to image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) | The options for converting this range to image |
+
+**Returns:**
+byte[] - 
+### toJson(JsonSaveOptions options) {#toJson-com.aspose.cells.JsonSaveOptions-}
+```
+public String toJson(JsonSaveOptions options)
+```
+
+
+Convert the range to JSON value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [JsonSaveOptions](../../com.aspose.cells/jsonsaveoptions) | The options of converting |
+
+**Returns:**
+java.lang.String - 
 ### toString() {#toString--}
 ```
 public String toString()

@@ -110,7 +110,7 @@ The following codes show how to create a chart with .Net codes.
 | [move(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#move-int-int-int-int-) | Moves the chart to a specified location. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [refreshPivotData()](#refreshPivotData--) | Refreshes pivot chart's data from it's pivot data source. |
+| [refreshPivotData()](#refreshPivotData--) | Refreshes chart's data from pivot table. |
 | [setAutoScaling(boolean value)](#setAutoScaling-boolean-) | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. |
 | [setChartDataRange(String area, boolean isVertical)](#setChartDataRange-java.lang.String-boolean-) | Specifies data range for a chart. |
 | [setDepthPercent(int value)](#setDepthPercent-int-) | Represents the depth of a 3-D chart as a percentage of the chart width (between 20 and 2000 percent). |
@@ -937,11 +937,11 @@ public void refreshPivotData()
 ```
 
 
-Refreshes pivot chart's data from it's pivot data source.
+Refreshes chart's data from pivot table.
 
 **Remarks**
 
-We will gather data from pivot data source to the pivot chart cache. This method is only used to gather all data to a pivot chart.
+We will gather data from pivot data source to the pivot table report. This method is only used to gather all data to a pivot chart.
 
 ### setAutoScaling(boolean value) {#setAutoScaling-boolean-}
 ```

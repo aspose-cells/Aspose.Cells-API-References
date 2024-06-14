@@ -62,7 +62,7 @@ Represents error bar of data series.
 | [getColor()](#getColor--) | Represents the [Color](../../com.aspose.cells/color) of the line. |
 | [getCompoundType()](#getCompoundType--) | Specifies the compound line type |
 | [getDashType()](#getDashType--) | Specifies the dash line type |
-| [getDisplayType()](#getDisplayType--) | Represents error bar display type. |
+| [getDisplayType()](#getDisplayType--) | Represents the display type of error bar. |
 | [getEndArrowLength()](#getEndArrowLength--) | Specifies the length of the arrowhead for the end of a line. |
 | [getEndArrowWidth()](#getEndArrowWidth--) | Specifies the width of the arrowhead for the end of a line. |
 | [getEndType()](#getEndType--) | Specifies an arrowhead for the end of a line. |
@@ -94,7 +94,7 @@ Represents error bar of data series.
 | [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Represents the [Color](../../com.aspose.cells/color) of the line. |
 | [setCompoundType(int value)](#setCompoundType-int-) | Specifies the compound line type |
 | [setDashType(int value)](#setDashType-int-) | Specifies the dash line type |
-| [setDisplayType(int value)](#setDisplayType-int-) | Represents error bar display type. |
+| [setDisplayType(int value)](#setDisplayType-int-) | Represents the display type of error bar. |
 | [setEndArrowLength(int value)](#setEndArrowLength-int-) | Specifies the length of the arrowhead for the end of a line. |
 | [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | Specifies the width of the arrowhead for the end of a line. |
 | [setEndType(int value)](#setEndType-int-) | Specifies an arrowhead for the end of a line. |
@@ -136,7 +136,11 @@ public double getAmount()
 ```
 
 
-Represents amount of error bar.  The amount must be greater than or equal to zero.
+Represents amount of error bar.
+
+**Remarks**
+
+The amount must be greater than or equal to zero.
 
 **Returns:**
 double
@@ -238,7 +242,7 @@ public int getDisplayType()
 ```
 
 
-Represents error bar display type.
+Represents the display type of error bar.
 
 See [ErrorBarDisplayType](../../com.aspose.cells/errorbardisplaytype).
 
@@ -498,7 +502,11 @@ public void setAmount(double value)
 ```
 
 
-Represents amount of error bar.  The amount must be greater than or equal to zero.
+Represents amount of error bar.
+
+**Remarks**
+
+The amount must be greater than or equal to zero.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -627,7 +635,7 @@ public void setDisplayType(int value)
 ```
 
 
-Represents error bar display type.
+Represents the display type of error bar.
 
 See [ErrorBarDisplayType](../../com.aspose.cells/errorbardisplaytype).
 

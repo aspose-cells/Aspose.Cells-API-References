@@ -21,7 +21,7 @@ Represents a item in a PivotField report.
 | [getClass()](#getClass--) |  |
 | [getDateTimeValue()](#getDateTimeValue--) | Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue |
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
-| [getIndex()](#getIndex--) | Gets the index of the pivot item in the pivot field |
+| [getIndex()](#getIndex--) | Gets the index of the pivot item in cache field. |
 | [getName()](#getName--) | Gets the name of the pivot item. |
 | [getPosition()](#getPosition--) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [getPositionInSameParentNode()](#getPositionInSameParentNode--) | Specifying the position index in the PivotItems under the same parent node. |
@@ -29,15 +29,17 @@ Represents a item in a PivotField report.
 | [getValue()](#getValue--) | Gets the value of the pivot item |
 | [hashCode()](#hashCode--) |  |
 | [hide(boolean value)](#hide-boolean-) | Sets whether the pivot item is hidden. |
+| [isFormula()](#isFormula--) | Indicates whether this pivot item is a calculated formula item. |
 | [isHidden()](#isHidden--) | Gets whether the pivot item is hidden. |
 | [isHideDetail()](#isHideDetail--) | Gets whether the pivot item hides detail. |
-| [isMissing()](#isMissing--) | Indicates whether the item has a missing value. |
+| [isMissing()](#isMissing--) | Indicates whether the item is removed from the data source. |
 | [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setFormula(boolean value)](#setFormula-boolean-) | Indicates whether this pivot item is a calculated formula item. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Sets whether the pivot item is hidden. |
 | [setHideDetail(boolean value)](#setHideDetail-boolean-) | Sets whether the pivot item hides detail. |
-| [setIndex(int value)](#setIndex-int-) | Gets the index of the pivot item in the pivot field |
+| [setIndex(int value)](#setIndex-int-) | Gets the index of the pivot item in cache field. |
 | [setPosition(int value)](#setPosition-int-) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
 | [setPositionInSameParentNode(int value)](#setPositionInSameParentNode-int-) | Specifying the position index in the PivotItems under the same parent node. |
 | [toString()](#toString--) |  |
@@ -95,7 +97,7 @@ public int getIndex()
 ```
 
 
-Gets the index of the pivot item in the pivot field
+Gets the index of the pivot item in cache field.
 
 **Returns:**
 int
@@ -176,6 +178,16 @@ NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Pivot.PivotF
 | --- | --- | --- |
 | value | boolean |  |
 
+### isFormula() {#isFormula--}
+```
+public boolean isFormula()
+```
+
+
+Indicates whether this pivot item is a calculated formula item.
+
+**Returns:**
+boolean
 ### isHidden() {#isHidden--}
 ```
 public boolean isHidden()
@@ -202,7 +214,7 @@ public boolean isMissing()
 ```
 
 
-Indicates whether the item has a missing value.
+Indicates whether the item is removed from the data source.
 
 **Remarks**
 
@@ -240,6 +252,19 @@ public final native void notifyAll()
 
 
 
+### setFormula(boolean value) {#setFormula-boolean-}
+```
+public void setFormula(boolean value)
+```
+
+
+Indicates whether this pivot item is a calculated formula item.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setHidden(boolean value) {#setHidden-boolean-}
 ```
 public void setHidden(boolean value)
@@ -272,7 +297,7 @@ public void setIndex(int value)
 ```
 
 
-Gets the index of the pivot item in the pivot field
+Gets the index of the pivot item in cache field.
 
 **Parameters:**
 | Parameter | Type | Description |
