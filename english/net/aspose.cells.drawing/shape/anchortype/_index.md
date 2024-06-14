@@ -1,13 +1,13 @@
 ---
 title: Shape.AnchorType
 second_title: Aspose.Cells for .NET API Reference
-description: Shape property. Gets and set the shape anchor placeholder
+description: Shape property. Gets and set the type of the shape anchor placeholder
 type: docs
 url: /net/aspose.cells.drawing/shape/anchortype/
 ---
 ## Shape.AnchorType property
 
-Gets and set the shape anchor placeholder.
+Gets and set the type of the shape anchor placeholder.
 
 ```csharp
 public ShapeAnchorType AnchorType { get; set; }

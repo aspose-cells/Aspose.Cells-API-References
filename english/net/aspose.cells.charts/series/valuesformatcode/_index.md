@@ -7,7 +7,7 @@ url: /net/aspose.cells.charts/series/valuesformatcode/
 ---
 ## Series.ValuesFormatCode property
 
-Represents format code of Values‘s NumberList.
+Represents format code of Values's NumberList.
 
 ```csharp
 public string ValuesFormatCode { get; set; }

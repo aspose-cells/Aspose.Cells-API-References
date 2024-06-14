@@ -1,13 +1,13 @@
 ---
 title: Shape.MsoDrawingType
 second_title: Aspose.Cells for .NET API Reference
-description: Shape property. Gets mso drawing type
+description: Shape property. Gets drawing type
 type: docs
 url: /net/aspose.cells.drawing/shape/msodrawingtype/
 ---
 ## Shape.MsoDrawingType property
 
-Gets mso drawing type.
+Gets drawing type.
 
 ```csharp
 public MsoDrawingType MsoDrawingType { get; }

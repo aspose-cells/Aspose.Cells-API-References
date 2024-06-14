@@ -1,13 +1,13 @@
 ---
 title: ErrorBar.DisplayType
 second_title: Aspose.Cells for .NET API Reference
-description: ErrorBar property. Represents error bar display type
+description: ErrorBar property. Represents the display type of error bar
 type: docs
 url: /net/aspose.cells.charts/errorbar/displaytype/
 ---
 ## ErrorBar.DisplayType property
 
-Represents error bar display type.
+Represents the display type of error bar.
 
 ```csharp
 public ErrorBarDisplayType DisplayType { get; set; }

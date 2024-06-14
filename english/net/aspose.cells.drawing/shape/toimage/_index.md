@@ -5,32 +5,6 @@ description: Shape method. Creates the shape image and saves it to a stream in t
 type: docs
 url: /net/aspose.cells.drawing/shape/toimage/
 ---
-## ToImage(Stream, ImageFormat) {#toimage_3}
-
-Creates the shape image and saves it to a stream in the specified format.
-
-```csharp
-[Obsolete("Use Shape.ToImage(Stream, ImageType) method instead.")]
-public void ToImage(Stream stream, ImageFormat imageFormat)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The output stream. |
-| imageFormat | ImageFormat | The format in which to save the image. |
-
-### Remarks
-
-NOTE: This member is now obsolete. Instead, please use Shape.ToImage(Stream, ImageType) method. This property will be removed 12 months later since July 2022. Aspose apologizes for any inconvenience you may have experienced.
-
-### See Also
-
-* class [Shape](../)
-* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
-* assembly [Aspose.Cells](../../../)
-
----
-
 ## ToImage(Stream, ImageType) {#toimage_1}
 
 Creates the shape image and saves it to a stream in the specified format.
@@ -66,7 +40,7 @@ shape.ToImage(imageStream, ImageType.Png);
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_4}
+## ToImage(string, ImageOrPrintOptions) {#toimage_3}
 
 Saves the shape to a file.
 

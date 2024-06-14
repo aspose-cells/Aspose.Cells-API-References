@@ -10,14 +10,14 @@ url: /net/aspose.cells.gridweb.data/gridworkbooksettings/
 Represents settings of the workbook.
 
 ```csharp
-public class GridWorkbookSettings
+public class GridWorkbookSettings : ISerializable
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [GridWorkbookSettings](gridworkbooksettings/)() | The default constructor. |
+| [GridWorkbookSettings](gridworkbooksettings/)() | default constructor |
 
 ## Properties
 

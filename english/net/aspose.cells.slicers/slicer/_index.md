@@ -31,7 +31,7 @@ public class Slicer
 | [LockedPosition](../../aspose.cells.slicers/slicer/lockedposition/) { get; set; } | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [Name](../../aspose.cells.slicers/slicer/name/) { get; set; } | Returns or sets the name of the specified slicer |
 | [NumberOfColumns](../../aspose.cells.slicers/slicer/numberofcolumns/) { get; set; } | Returns or sets the number of columns in the specified slicer. |
-| [Parent](../../aspose.cells.slicers/slicer/parent/) { get; } | Returns the Worksheet object that represents the sheet that contains the slicer. Read-only. |
+| [Parent](../../aspose.cells.slicers/slicer/parent/) { get; } | Returns the [`Worksheet`](../../aspose.cells/worksheet/) object which contains this slicer. Read-only. |
 | [Placement](../../aspose.cells.slicers/slicer/placement/) { get; set; } | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
 | [RowHeight](../../aspose.cells.slicers/slicer/rowheight/) { get; set; } | Returns or sets the height, in points, of each row in the specified slicer. |
 | [RowHeightPixel](../../aspose.cells.slicers/slicer/rowheightpixel/) { get; set; } | Returns or sets the height, in pixels, of each row in the specified slicer. |

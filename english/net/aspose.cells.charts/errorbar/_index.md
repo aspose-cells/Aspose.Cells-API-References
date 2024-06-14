@@ -17,7 +17,7 @@ public class ErrorBar : Line
 
 | Name | Description |
 | --- | --- |
-| [Amount](../../aspose.cells.charts/errorbar/amount/) { get; set; } | Represents amount of error bar.  The amount must be greater than or equal to zero. |
+| [Amount](../../aspose.cells.charts/errorbar/amount/) { get; set; } | Represents amount of error bar. |
 | [BeginArrowLength](../../aspose.cells.drawing/line/beginarrowlength/) { get; set; } | Specifies the length of the arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [BeginArrowWidth](../../aspose.cells.drawing/line/beginarrowwidth/) { get; set; } | Specifies the width of the arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [BeginType](../../aspose.cells.drawing/line/begintype/) { get; set; } | Specifies an arrowhead for the begin of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
@@ -25,7 +25,7 @@ public class ErrorBar : Line
 | [Color](../../aspose.cells.drawing/line/color/) { get; set; } | Represents the Color of the line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [CompoundType](../../aspose.cells.drawing/line/compoundtype/) { get; set; } | Specifies the compound line type(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [DashType](../../aspose.cells.drawing/line/dashtype/) { get; set; } | Specifies the dash line type(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
-| [DisplayType](../../aspose.cells.charts/errorbar/displaytype/) { get; set; } | Represents error bar display type. |
+| [DisplayType](../../aspose.cells.charts/errorbar/displaytype/) { get; set; } | Represents the display type of error bar. |
 | [EndArrowLength](../../aspose.cells.drawing/line/endarrowlength/) { get; set; } | Specifies the length of the arrowhead for the end of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [EndArrowWidth](../../aspose.cells.drawing/line/endarrowwidth/) { get; set; } | Specifies the width of the arrowhead for the end of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |
 | [EndType](../../aspose.cells.drawing/line/endtype/) { get; set; } | Specifies an arrowhead for the end of a line.(Inherited from [`Line`](../../aspose.cells.drawing/line/).) |

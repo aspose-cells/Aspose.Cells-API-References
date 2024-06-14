@@ -60,11 +60,11 @@ public class Series
 | [Smooth](../../aspose.cells.charts/series/smooth/) { get; set; } | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
 | [SplitType](../../aspose.cells.charts/series/splittype/) { get; set; } | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [SplitValue](../../aspose.cells.charts/series/splitvalue/) { get; set; } | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
-| [TrendLines](../../aspose.cells.charts/series/trendlines/) { get; } | Returns an object that represents a collection of all the trendlines for the series. |
+| [TrendLines](../../aspose.cells.charts/series/trendlines/) { get; } | Returns all the trendlines of this series. |
 | [Type](../../aspose.cells.charts/series/type/) { get; set; } | Gets or sets a data series' type. |
 | [UpBars](../../aspose.cells.charts/series/upbars/) { get; } | Returns an DropBars object that represents the up bars on a line chart. Applies only to line charts. |
-| [Values](../../aspose.cells.charts/series/values/) { get; set; } | Represents the data of the chart series. |
-| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode/) { get; set; } | Represents format code of Values‘s NumberList. |
+| [Values](../../aspose.cells.charts/series/values/) { get; set; } | Represents the Y values of this chart series. |
+| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode/) { get; set; } | Represents format code of Values's NumberList. |
 | [XErrorBar](../../aspose.cells.charts/series/xerrorbar/) { get; } | Represents X direction error bar of the series. |
 | [XValues](../../aspose.cells.charts/series/xvalues/) { get; set; } | Represents the x values of the chart series. |
 | [YErrorBar](../../aspose.cells.charts/series/yerrorbar/) { get; } | Represents Y direction error bar of the series. |

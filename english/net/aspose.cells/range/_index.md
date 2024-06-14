@@ -71,6 +71,9 @@ public class Range
 | [SetOutlineBorders](../../aspose.cells/range/setoutlineborders/#setoutlineborders_2)(CellBorderType[], Color[]) | Sets out line borders around a range of cells. |
 | [SetStyle](../../aspose.cells/range/setstyle/#setstyle)(Style) | Sets the style of the range. |
 | [SetStyle](../../aspose.cells/range/setstyle/#setstyle_1)(Style, bool) | Apply the cell style. |
+| [ToHtml](../../aspose.cells/range/tohtml/)(HtmlSaveOptions) | Convert the range to html . |
+| [ToImage](../../aspose.cells/range/toimage/)(ImageOrPrintOptions) | Converts the range to image. |
+| [ToJson](../../aspose.cells/range/tojson/)(JsonSaveOptions) | Convert the range to JSON value. |
 | override [ToString](../../aspose.cells/range/tostring/)() | Returns a string represents the current Range object. |
 | [Transpose](../../aspose.cells/range/transpose/)() | Transpose (rotate) data from rows to columns or vice versa. |
 | [Union](../../aspose.cells/range/union/)(Range) | (**Obsolete.**) Returns the union of two ranges. |

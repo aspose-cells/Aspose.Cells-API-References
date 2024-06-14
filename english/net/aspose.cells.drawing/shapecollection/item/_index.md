@@ -1,13 +1,13 @@
 ---
 title: ShapeCollection.Item
 second_title: Aspose.Cells for .NET API Reference
-description: ShapeCollection property. Gets the shape object at the specific index
+description: ShapeCollection property. Gets the Shape object at the specific index in the list
 type: docs
 url: /net/aspose.cells.drawing/shapecollection/item/
 ---
 ## ShapeCollection indexer (1 of 2)
 
-Gets the shape object at the specific index.
+Gets the [`Shape`](../../shape/) object at the specific index in the list.
 
 ```csharp
 public Shape this[int index] { get; }
@@ -15,15 +15,15 @@ public Shape this[int index] { get; }
 
 | Parameter | Description |
 | --- | --- |
-| index |  |
+| index | The index. |
 
 ### Examples
 
 ```csharp
 
 [C#]
-//get the shape
-Shape shape = shapes[shapes.Count -1];
+//get the first shape
+Shape shape = shapes[0];
 ```
 
 ### See Also
@@ -37,7 +37,7 @@ Shape shape = shapes[shapes.Count -1];
 
 ## ShapeCollection indexer (2 of 2)
 
-Gets the shape object by the shape image
+Gets the [`Shape`](../../shape/) object by the name of the shape.
 
 ```csharp
 public Shape this[string name] { get; }
@@ -45,7 +45,7 @@ public Shape this[string name] { get; }
 
 | Parameter | Description |
 | --- | --- |
-| name |  |
+| name | The name of the shape. |
 
 ### Examples
 
@@ -54,7 +54,7 @@ public Shape this[string name] { get; }
 [C#]
 //add a shape
 shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-//get the shape
+//get the shape by the name.
 Shape shape1 = shapes["Rectangle 1"];
 if(shape1 != null)
 {

@@ -1,13 +1,13 @@
 ---
 title: Shape.IsSmartArt
 second_title: Aspose.Cells for .NET API Reference
-description: Shape property. Indicates whether the shape is smart art
+description: Shape property. Indicates whether the shape is a smart art
 type: docs
 url: /net/aspose.cells.drawing/shape/issmartart/
 ---
 ## Shape.IsSmartArt property
 
-Indicates whether the shape is smart art.
+Indicates whether the shape is a smart art.
 
 ```csharp
 public bool IsSmartArt { get; }
@@ -22,7 +22,7 @@ Only for ooxml file.
 ```csharp
 
 [C#]
-//if true,the shape is smart art.
+//if true,the shape is a smart art.
 if(shape.IsSmartArt)
 {
     //The shape is SmartArt object.

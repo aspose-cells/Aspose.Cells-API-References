@@ -128,12 +128,13 @@ public class Cells : IDisposable, IEnumerable
 | [GetRow](../../aspose.cells/cells/getrow/)(int) | (**Obsolete.**) Gets the [`Row`](../row/) element at the specified cell row index. |
 | [GetRowEnumerator](../../aspose.cells/cells/getrowenumerator/)() | (**Obsolete.**) Gets the rows enumerator. |
 | [GetRowHeight](../../aspose.cells/cells/getrowheight/#getrowheight)(int) | Gets the height of a specified row, in unit of points. |
-| [GetRowHeight](../../aspose.cells/cells/getrowheight/#getrowheight_1)(int, bool, CellsUnitType) | Gets original row's height. |
+| [GetRowHeight](../../aspose.cells/cells/getrowheight/#getrowheight_1)(int, bool, CellsUnitType) | Gets row's height. |
 | [GetRowHeightInch](../../aspose.cells/cells/getrowheightinch/)(int) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel](../../aspose.cells/cells/getrowheightpixel/)(int) | Gets the height of a specified row in unit of pixel. |
 | [GetRowOriginalHeightPoint](../../aspose.cells/cells/getroworiginalheightpoint/)(int) | (**Obsolete.**) Gets original row's height in unit of point if the row is hidden |
 | [GetViewColumnWidthPixel](../../aspose.cells/cells/getviewcolumnwidthpixel/)(int) | Get the width in different view type. |
 | [GetViewRowHeight](../../aspose.cells/cells/getviewrowheight/)(int) | Gets the height of a specified row. |
+| [GetViewRowHeightInch](../../aspose.cells/cells/getviewrowheightinch/)(int) | Gets the height of a specified row in unit of inches. |
 | [GroupColumns](../../aspose.cells/cells/groupcolumns/#groupcolumns)(int, int) | Groups columns. |
 | [GroupColumns](../../aspose.cells/cells/groupcolumns/#groupcolumns_1)(int, int, bool) | Groups columns. |
 | [GroupRows](../../aspose.cells/cells/grouprows/#grouprows)(int, int) | Groups rows. |

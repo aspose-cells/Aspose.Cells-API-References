@@ -7,7 +7,7 @@ url: /net/aspose.cells.pivot/pivottable/databodyrange/
 ---
 ## PivotTable.DataBodyRange property
 
-Returns a CellArea object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
+Returns a [`CellArea`](../../../aspose.cells/cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only.
 
 ```csharp
 public CellArea DataBodyRange { get; }

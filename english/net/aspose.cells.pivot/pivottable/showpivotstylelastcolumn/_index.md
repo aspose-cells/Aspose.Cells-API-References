@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ShowPivotStyleLastColumn
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Indicates whether column stripe formatting is applied
+description: PivotTable property. Indicates whether the column formatting is applied
 type: docs
 url: /net/aspose.cells.pivot/pivottable/showpivotstylelastcolumn/
 ---
 ## PivotTable.ShowPivotStyleLastColumn property
 
-Indicates whether column stripe formatting is applied.
+Indicates whether the column formatting is applied.
 
 ```csharp
 public bool ShowPivotStyleLastColumn { get; set; }

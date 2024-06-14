@@ -30,9 +30,9 @@ public class GridWorkbookSettings
 | [EnableMacros](../../aspose.cells.gridjs/gridworkbooksettings/enablemacros/) { get; set; } | Enable macros; Now it only works when copying a worksheet to other worksheet in a workbook. |
 | [ForceFullCalculate](../../aspose.cells.gridjs/gridworkbooksettings/forcefullcalculate/) { get; set; } | Indicates whether fully calculates every time when a calculation is triggered. |
 | [Iteration](../../aspose.cells.gridjs/gridworkbooksettings/iteration/) { get; set; } | Indicates whether use iteration to resolve circular references. |
-| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration/) { get; set; } | Returns or sets the maximum number of iterations to resolve a circular reference,the default value is 100. |
+| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration/) { get; set; } | Returns or sets the maximum number of iterations to resolve a circular reference, the default value is 100. |
 | [PrecisionAsDisplayed](../../aspose.cells.gridjs/gridworkbooksettings/precisionasdisplayed/) { get; set; } | True if calculations in this workbook will be done using only the precision of the numbers as they're displayed |
-| [ReCalculateOnOpen](../../aspose.cells.gridjs/gridworkbooksettings/recalculateonopen/) { get; set; } | Indicates whether re-calculate all formulas on opening file. |
+| [ReCalculateOnOpen](../../aspose.cells.gridjs/gridworkbooksettings/recalculateonopen/) { get; set; } | Indicates whether re-calculate all formulas on opening file. Default is true. |
 
 ### Examples
 

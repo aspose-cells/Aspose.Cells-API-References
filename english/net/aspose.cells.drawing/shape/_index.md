@@ -20,10 +20,9 @@ public class Shape
 | [ActiveXControl](../../aspose.cells.drawing/shape/activexcontrol/) { get; } | Gets the ActiveX control. |
 | [ActualLowerRightRow](../../aspose.cells.drawing/shape/actuallowerrightrow/) { get; } | Get the actual bottom row. |
 | [AlternativeText](../../aspose.cells.drawing/shape/alternativetext/) { get; set; } | Returns or sets the descriptive (alternative) text string of the `Shape` object. |
-| [AnchorType](../../aspose.cells.drawing/shape/anchortype/) { get; set; } | Gets and set the shape anchor placeholder. |
+| [AnchorType](../../aspose.cells.drawing/shape/anchortype/) { get; set; } | Gets and set the type of the shape anchor placeholder. |
 | [AutoShapeType](../../aspose.cells.drawing/shape/autoshapetype/) { get; set; } | Gets and sets the auto shape type. |
 | [Bottom](../../aspose.cells.drawing/shape/bottom/) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
-| [ConnectionPoints](../../aspose.cells.drawing/shape/connectionpoints/) { get; } | (**Obsolete.**) Get the connection points |
 | [ControlData](../../aspose.cells.drawing/shape/controldata/) { get; } | Gets the data of control. |
 | [CreateId](../../aspose.cells.drawing/shape/createid/) { get; set; } | Gets and sets create id for this shape. |
 | [Fill](../../aspose.cells.drawing/shape/fill/) { get; } | Returns a [`FillFormat`](./fillformat/) object that contains fill formatting properties for the specified shape. |
@@ -44,18 +43,19 @@ public class Shape
 | [Hyperlink](../../aspose.cells.drawing/shape/hyperlink/) { get; } | Gets the hyperlink of the shape. |
 | [Id](../../aspose.cells.drawing/shape/id/) { get; } | Gets the identifier of this shape. |
 | [InputRange](../../aspose.cells.drawing/shape/inputrange/) { get; set; } | Gets or sets the worksheet range used to fill the specified combo box. |
+| [IsAspectRatioLocked](../../aspose.cells.drawing/shape/isaspectratiolocked/) { get; set; } | True means that aspect ratio of the shape is locked. |
 | [IsEquation](../../aspose.cells.drawing/shape/isequation/) { get; } | Indicates whether the shape only contains an equation. |
 | [IsFilled](../../aspose.cells.drawing/shape/isfilled/) { get; set; } | Indicates whether the fill format is visible. |
 | [IsFlippedHorizontally](../../aspose.cells.drawing/shape/isflippedhorizontally/) { get; set; } | Gets and sets whether shape is horizontally flipped . |
 | [IsFlippedVertically](../../aspose.cells.drawing/shape/isflippedvertically/) { get; set; } | Gets and sets whether shape is vertically flipped . |
-| [IsGroup](../../aspose.cells.drawing/shape/isgroup/) { get; } | Indicates whether the shape is a group. |
+| [IsGroup](../../aspose.cells.drawing/shape/isgroup/) { get; } | Indicates whether this shape is a group shape. |
 | [IsHidden](../../aspose.cells.drawing/shape/ishidden/) { get; set; } | Indicates whether the object is visible. |
 | [IsInGroup](../../aspose.cells.drawing/shape/isingroup/) { get; } | Indicates whether the shape is grouped. |
-| [IsLockAspectRatio](../../aspose.cells.drawing/shape/islockaspectratio/) { get; set; } | True means that don't allow changes in aspect ratio. |
-| [IsLocked](../../aspose.cells.drawing/shape/islocked/) { get; set; } | True if the object is locked, False if the object can be modified when the sheet is protected. |
-| [IsPrintable](../../aspose.cells.drawing/shape/isprintable/) { get; set; } | True if the object is printable |
+| [IsLockAspectRatio](../../aspose.cells.drawing/shape/islockaspectratio/) { get; set; } | (**Obsolete.**) True means that aspect ratio of the shape is locked. |
+| [IsLocked](../../aspose.cells.drawing/shape/islocked/) { get; set; } | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
+| [IsPrintable](../../aspose.cells.drawing/shape/isprintable/) { get; set; } | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [IsRichText](../../aspose.cells.drawing/shape/isrichtext/) { get; } | Whether or not the text is rich text. |
-| [IsSmartArt](../../aspose.cells.drawing/shape/issmartart/) { get; } | Indicates whether the shape is smart art. |
+| [IsSmartArt](../../aspose.cells.drawing/shape/issmartart/) { get; } | Indicates whether the shape is a smart art. |
 | [IsTextWrapped](../../aspose.cells.drawing/shape/istextwrapped/) { get; set; } | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt](../../aspose.cells.drawing/shape/iswordart/) { get; } | Indicates whether this shape is a word art. |
 | [Left](../../aspose.cells.drawing/shape/left/) { get; set; } | Represents the horizontal offset of shape from its left column, in unit of pixels. |
@@ -71,7 +71,7 @@ public class Shape
 | [LowerRightColumn](../../aspose.cells.drawing/shape/lowerrightcolumn/) { get; set; } | Represents lower right corner column index. |
 | [LowerRightRow](../../aspose.cells.drawing/shape/lowerrightrow/) { get; set; } | Represents lower right corner row index. |
 | [MacroName](../../aspose.cells.drawing/shape/macroname/) { get; set; } | Gets and sets the name of macro. |
-| [MsoDrawingType](../../aspose.cells.drawing/shape/msodrawingtype/) { get; } | Gets mso drawing type. |
+| [MsoDrawingType](../../aspose.cells.drawing/shape/msodrawingtype/) { get; } | Gets drawing type. |
 | [Name](../../aspose.cells.drawing/shape/name/) { get; set; } | Gets and sets the name of the shape. |
 | [Paths](../../aspose.cells.drawing/shape/paths/) { get; } | Gets the paths of a custom geometric shape. |
 | [Placement](../../aspose.cells.drawing/shape/placement/) { get; set; } | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
@@ -81,13 +81,12 @@ public class Shape
 | [RotationAngle](../../aspose.cells.drawing/shape/rotationangle/) { get; set; } | Gets and sets the rotation of the shape. |
 | [ShadowEffect](../../aspose.cells.drawing/shape/shadoweffect/) { get; } | Represents a [`ShadowEffect`](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [SoftEdges](../../aspose.cells.drawing/shape/softedges/) { get; set; } | Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [Spid](../../aspose.cells.drawing/shape/spid/) { get; } | Specifies an optional string that an application can use to Identify the particular shape. |
+| [Spid](../../aspose.cells.drawing/shape/spid/) { get; } | Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [Spt](../../aspose.cells.drawing/shape/spt/) { get; } | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [Text](../../aspose.cells.drawing/shape/text/) { get; set; } | Represents the string in this TextBox object. |
+| [Text](../../aspose.cells.drawing/shape/text/) { get; set; } | Gets and sets the text of this shape. |
 | [TextBody](../../aspose.cells.drawing/shape/textbody/) { get; } | Gets and sets the setting of the shape's text. |
 | [TextDirection](../../aspose.cells.drawing/shape/textdirection/) { get; set; } | Gets/Sets the direction of the text flow for this object. |
 | [TextEffect](../../aspose.cells.drawing/shape/texteffect/) { get; } | Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt. |
-| [TextFrame](../../aspose.cells.drawing/shape/textframe/) { get; } | (**Obsolete.**) Returns a TextFrame object that contains the alignment and anchoring properties for the specified shape. |
 | [TextHorizontalAlignment](../../aspose.cells.drawing/shape/texthorizontalalignment/) { get; set; } | Gets and sets the text horizontal alignment type of the shape. |
 | [TextHorizontalOverflow](../../aspose.cells.drawing/shape/texthorizontaloverflow/) { get; set; } | Gets and sets the text horizontal overflow type of the shape which contains text. |
 | [TextOptions](../../aspose.cells.drawing/shape/textoptions/) { get; set; } | Represents the text options of the shape. |
@@ -106,7 +105,7 @@ public class Shape
 | [UpperDeltaX](../../aspose.cells.drawing/shape/upperdeltax/) { get; set; } | Gets or sets the shape's horizontal offset from its upper left corner column. |
 | [UpperDeltaY](../../aspose.cells.drawing/shape/upperdeltay/) { get; set; } | Gets or sets the shape's vertical offset from its upper left corner row. |
 | [UpperLeftColumn](../../aspose.cells.drawing/shape/upperleftcolumn/) { get; set; } | Represents upper left corner column index. |
-| [UpperLeftRow](../../aspose.cells.drawing/shape/upperleftrow/) { get; set; } | Represents upper left corner row index. |
+| [UpperLeftRow](../../aspose.cells.drawing/shape/upperleftrow/) { get; set; } | Represents the top row index. |
 | [Width](../../aspose.cells.drawing/shape/width/) { get; set; } | Represents the width of shape, in unit of pixels. |
 | [WidthCM](../../aspose.cells.drawing/shape/widthcm/) { get; set; } | Represents the width of the shape, in unit of centimeters. |
 | [WidthInch](../../aspose.cells.drawing/shape/widthinch/) { get; set; } | Represents the width of the shape, in unit of inch. |
@@ -126,8 +125,7 @@ public class Shape
 | [AlignTopRightCorner](../../aspose.cells.drawing/shape/aligntoprightcorner/)(int, int) | Moves the picture to the top-right corner. |
 | [CalculateTextSize](../../aspose.cells.drawing/shape/calculatetextsize/)() | Recalculate the text area |
 | [Characters](../../aspose.cells.drawing/shape/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text. |
-| [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/#formatcharacters)(int, int, Font) | (**Obsolete.**) Formats some characters with the font setting. |
-| [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/#formatcharacters_1)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
+| [FormatCharacters](../../aspose.cells.drawing/shape/formatcharacters/)(int, int, Font, StyleFlag) | Formats some characters with the font setting. |
 | [GetActualBox](../../aspose.cells.drawing/shape/getactualbox/)() | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [GetCharacters](../../aspose.cells.drawing/shape/getcharacters/)() | (**Obsolete.**) Returns all Characters objects that represents a range of characters within the text . |
 | [GetConnectionPoints](../../aspose.cells.drawing/shape/getconnectionpoints/)() | Get the connection points |
@@ -139,16 +137,15 @@ public class Shape
 | virtual [IsSameSetting](../../aspose.cells.drawing/shape/issamesetting/)(object) | Returns whether the shape is same. |
 | [MoveToRange](../../aspose.cells.drawing/shape/movetorange/)(int, int, int, int) | Moves the shape to a specified range. |
 | [RemoveActiveXControl](../../aspose.cells.drawing/shape/removeactivexcontrol/)() | Remove activeX control. |
-| [RemoveHyperlink](../../aspose.cells.drawing/shape/removehyperlink/)() | Remove the hyperlink of the shape. |
+| [RemoveHyperlink](../../aspose.cells.drawing/shape/removehyperlink/)() | Removes the hyperlink of the shape. |
 | [SetInputRange](../../aspose.cells.drawing/shape/setinputrange/)(string, bool, bool) | Sets the range used to fill the control. |
 | [SetLinkedCell](../../aspose.cells.drawing/shape/setlinkedcell/)(string, bool, bool) | Sets the range linked to the control's value. |
 | [SetLockedProperty](../../aspose.cells.drawing/shape/setlockedproperty/)(ShapeLockType, bool) | Set the locked property. |
 | [ToFrontOrBack](../../aspose.cells.drawing/shape/tofrontorback/)(int) | Brings the shape to the front or sends the shape to back. |
 | [ToImage](../../aspose.cells.drawing/shape/toimage/#toimage)(ImageOrPrintOptions) | Returns the bitmap object of the shape . |
-| [ToImage](../../aspose.cells.drawing/shape/toimage/#toimage_3)(Stream, ImageFormat) | (**Obsolete.**) Creates the shape image and saves it to a stream in the specified format. |
 | [ToImage](../../aspose.cells.drawing/shape/toimage/#toimage_2)(Stream, ImageOrPrintOptions) | Saves the shape to a stream. |
 | [ToImage](../../aspose.cells.drawing/shape/toimage/#toimage_1)(Stream, ImageType) | Creates the shape image and saves it to a stream in the specified format. |
-| [ToImage](../../aspose.cells.drawing/shape/toimage/#toimage_4)(string, ImageOrPrintOptions) | Saves the shape to a file. |
+| [ToImage](../../aspose.cells.drawing/shape/toimage/#toimage_3)(string, ImageOrPrintOptions) | Saves the shape to a file. |
 | [UpdateSelectedValue](../../aspose.cells.drawing/shape/updateselectedvalue/)() | Update the selected value by the value of the linked cell. |
 
 ### Examples

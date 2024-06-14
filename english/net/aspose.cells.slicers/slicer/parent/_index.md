@@ -1,13 +1,13 @@
 ---
 title: Slicer.Parent
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer property. Returns the Worksheet object that represents the sheet that contains the slicer. Readonly
+description: Slicer property. Returns the Worksheet object which contains this slicer. Readonly
 type: docs
 url: /net/aspose.cells.slicers/slicer/parent/
 ---
 ## Slicer.Parent property
 
-Returns the Worksheet object that represents the sheet that contains the slicer. Read-only.
+Returns the [`Worksheet`](../../../aspose.cells/worksheet/) object which contains this slicer. Read-only.
 
 ```csharp
 public Worksheet Parent { get; }

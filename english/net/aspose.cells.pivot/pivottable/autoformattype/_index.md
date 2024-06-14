@@ -1,13 +1,13 @@
 ---
 title: PivotTable.AutoFormatType
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets the PivotTable auto format type
+description: PivotTable property. Gets and sets the auto format type of PivotTable
 type: docs
 url: /net/aspose.cells.pivot/pivottable/autoformattype/
 ---
 ## PivotTable.AutoFormatType property
 
-Gets the PivotTable auto format type.
+Gets and sets the auto format type of PivotTable.
 
 ```csharp
 public PivotTableAutoFormatType AutoFormatType { get; set; }

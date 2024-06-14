@@ -49,28 +49,28 @@ public class GridTableItemStyle : TableItemStyle, ISerializable
 
 ```csharp
 [C#]
-        GridWeb GridWeb1 = new GridWeb();
-        GridWorksheetCollection sheets = GridWeb1.WorkSheets;
+GridWeb GridWeb1 = new GridWeb();
+GridWorksheetCollection sheets = GridWeb1.WorkSheets;
 
-        GridWorksheet sheet = sheets.Add("demo1");
+GridWorksheet sheet = sheets.Add("demo1");
 
-         sheet.Cells[0,0].PutValue("Demo Text");
-         GridTableItemStyle style = sheet.Cells[0, 0].Style;
-        
-        style.Font.Size = FontUnit.Point(72);
-     	style.Wrap = false;
+sheet.Cells[0,0].PutValue("Demo Text");
+GridTableItemStyle style = sheet.Cells[0, 0].Style;
 
-     	style.BackColor = Color.Gray;
-     	style.BorderStyle = BorderStyle.Solid;
-     	style.BorderWidth = Unit.Pixel(1);
-     	style.BorderColor = Color.Silver;
-        style.RightBorderStyle.BorderColor = Color.Black;
-     	style.RightBorderStyle.BorderStyle = BorderStyle.Solid;
-     	style.RightBorderStyle.BorderWidth = Unit.Pixel(1);
-     	style.BottomBorderStyle.BorderColor = Color.Black;
-     	style.BottomBorderStyle.BorderStyle = BorderStyle.Solid;
-     	style.BottomBorderStyle.BorderWidth = Unit.Pixel(1);
-         sheet.Cells[0, 0].Style=style;
+style.Font.Size = FontUnit.Point(72);
+style.Wrap = false;
+
+style.BackColor = Color.Gray;
+style.BorderStyle = BorderStyle.Solid;
+style.BorderWidth = Unit.Pixel(1);
+style.BorderColor = Color.Silver;
+style.RightBorderStyle.BorderColor = Color.Black;
+style.RightBorderStyle.BorderStyle = BorderStyle.Solid;
+style.RightBorderStyle.BorderWidth = Unit.Pixel(1);
+style.BottomBorderStyle.BorderColor = Color.Black;
+style.BottomBorderStyle.BorderStyle = BorderStyle.Solid;
+style.BottomBorderStyle.BorderWidth = Unit.Pixel(1);
+sheet.Cells[0, 0].Style=style;
 [Visual Basic]
 Dim sheets As GridWorksheetCollection =  GridWeb1.WorkSheets
 Dim sheet As GridWorksheet =  sheets(sheets.Add(__0__))

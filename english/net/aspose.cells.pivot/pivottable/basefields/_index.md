@@ -1,13 +1,13 @@
 ---
 title: PivotTable.BaseFields
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Returns a PivotFields object that includes all fields in the PivotTable report
+description: PivotTable property. Returns all base pivot fields in the PivotTable
 type: docs
 url: /net/aspose.cells.pivot/pivottable/basefields/
 ---
 ## PivotTable.BaseFields property
 
-Returns a PivotFields object that includes all fields in the PivotTable report
+Returns all base pivot fields in the PivotTable.
 
 ```csharp
 public PivotFieldCollection BaseFields { get; }

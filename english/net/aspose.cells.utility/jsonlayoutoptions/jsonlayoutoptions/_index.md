@@ -1,13 +1,13 @@
 ---
 title: JsonLayoutOptions.JsonLayoutOptions
 second_title: Aspose.Cells for .NET API Reference
-description: JsonLayoutOptions constructor. The default constructor
+description: JsonLayoutOptions constructor. Constructor of loading JSON layout options
 type: docs
 url: /net/aspose.cells.utility/jsonlayoutoptions/jsonlayoutoptions/
 ---
 ## JsonLayoutOptions constructor
 
-The default constructor.
+Constructor of loading JSON layout options.
 
 ```csharp
 public JsonLayoutOptions()

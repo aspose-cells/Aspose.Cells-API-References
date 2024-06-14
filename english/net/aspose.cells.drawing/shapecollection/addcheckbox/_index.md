@@ -17,7 +17,7 @@ public CheckBox AddCheckBox(int upperLeftRow, int top, int upperLeftColumn, int 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | Int32 | Upper left row index. |
-| top | Int32 | Represents the vertical offset of checkbox from its left row, in unit of pixel. |
+| top | Int32 | Represents the vertical offset of checkbox from its top row, in unit of pixel. |
 | upperLeftColumn | Int32 | Upper left column index. |
 | left | Int32 | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | Int32 | Height of textbox, in unit of pixel. |

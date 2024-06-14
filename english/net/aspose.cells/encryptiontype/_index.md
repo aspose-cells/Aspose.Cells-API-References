@@ -17,10 +17,10 @@ public enum EncryptionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| XOR | `0` |  |
+| XOR | `0` | XOR encryption algorithm. |
 | Compatible | `1` | Office 97/2000 compatible. |
-| EnhancedCryptographicProviderV1 | `2` |  |
-| StrongCryptographicProvider | `3` |  |
+| EnhancedCryptographicProviderV1 | `2` | Enhanced encryption. |
+| StrongCryptographicProvider | `3` | Strong encryption algorithm. |
 
 ### See Also
 

@@ -1,13 +1,13 @@
 ---
 title: PivotTable.IsSelected
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Indicates whether the PivotTable is selected
+description: PivotTable property. Indicates whether this PivotTable is selected
 type: docs
 url: /net/aspose.cells.pivot/pivottable/isselected/
 ---
 ## PivotTable.IsSelected property
 
-Indicates whether the PivotTable is selected.
+Indicates whether this PivotTable is selected.
 
 ```csharp
 public bool IsSelected { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: ChartPoint.DataLabels
 second_title: Aspose.Cells for .NET API Reference
-description: ChartPoint property. Returns a DataLabels object that represents the data label associated with the point
+description: ChartPoint property. Returns a DataLabels object that represents the data label associated with this chart point
 type: docs
 url: /net/aspose.cells.charts/chartpoint/datalabels/
 ---
 ## ChartPoint.DataLabels property
 
-Returns a DataLabels object that represents the data label associated with the point.
+Returns a `DataLabels` object that represents the data label associated with this chart point.
 
 ```csharp
 public DataLabels DataLabels { get; }

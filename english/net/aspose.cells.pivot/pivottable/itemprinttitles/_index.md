@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ItemPrintTitles
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. A bit that specifies whether pivot item captions on the row axis are repeated on each printed page for pivot fields in tabular form
+description: PivotTable property. Indicates whether PivotItem names should be repeated at the top of each printed page
 type: docs
 url: /net/aspose.cells.pivot/pivottable/itemprinttitles/
 ---
 ## PivotTable.ItemPrintTitles property
 
-A bit that specifies whether pivot item captions on the row axis are repeated on each printed page for pivot fields in tabular form.
+Indicates whether PivotItem names should be repeated at the top of each printed page.
 
 ```csharp
 public bool ItemPrintTitles { get; set; }

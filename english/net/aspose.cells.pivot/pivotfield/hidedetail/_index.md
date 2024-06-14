@@ -15,7 +15,7 @@ public void HideDetail(bool isHiddenDetail)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isHiddenDetail | Boolean | whether the PivotItems is hidden |
+| isHiddenDetail | Boolean | Whether hide the detail of the pivot field. |
 
 ### See Also
 

@@ -84,7 +84,7 @@ public class Chart
 | [IsChartDataChanged](../../aspose.cells.charts/chart/ischartdatachanged/)() | Detects if a chart's data source has changed. |
 | [IsReferedByChart](../../aspose.cells.charts/chart/isreferedbychart/)(int, int) | (**Obsolete.**) Returns whether the cell refered by the chart. |
 | [Move](../../aspose.cells.charts/chart/move/)(int, int, int, int) | Moves the chart to a specified location. |
-| [RefreshPivotData](../../aspose.cells.charts/chart/refreshpivotdata/)() | Refreshes pivot chart's data from it's pivot data source. |
+| [RefreshPivotData](../../aspose.cells.charts/chart/refreshpivotdata/)() | Refreshes chart's data from pivot table. |
 | [SetChartDataRange](../../aspose.cells.charts/chart/setchartdatarange/)(string, bool) | Specifies data range for a chart. |
 | [SwitchRowColumn](../../aspose.cells.charts/chart/switchrowcolumn/)() | Switches row/column. |
 | [ToImage](../../aspose.cells.charts/chart/toimage/#toimage)() | Gets a 32-bit `Bitmap` object of the chart. |

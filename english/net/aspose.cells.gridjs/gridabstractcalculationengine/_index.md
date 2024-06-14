@@ -33,7 +33,7 @@ public class MyEngine : GridAbstractCalculationEngine
     {
         string funcName = data.FunctionName.ToUpper();
         if ("MYFUNC".Equals(funcName))
-        {
+        {   
             //do calculation for MYFUNC here
             int count = data.ParamCount;
             object res = null;

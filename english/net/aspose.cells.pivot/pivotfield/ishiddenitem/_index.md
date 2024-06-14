@@ -1,13 +1,13 @@
 ---
 title: PivotField.IsHiddenItem
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Indicates whether the specific PivotItem is hidden
+description: PivotField method. Gets whether the specific PivotItem is hidden
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/ishiddenitem/
 ---
 ## PivotField.IsHiddenItem method
 
-Indicates whether the specific PivotItem is hidden.
+Gets whether the specific PivotItem is hidden.
 
 ```csharp
 public bool IsHiddenItem(int index)
@@ -15,7 +15,7 @@ public bool IsHiddenItem(int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | the index of the pivotItem in the pivotField. |
+| index | Int32 | The index of the pivotItem in the pivotField. |
 
 ### Return Value
 

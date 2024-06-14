@@ -1,13 +1,13 @@
 ---
 title: PivotItem.Index
 second_title: Aspose.Cells for .NET API Reference
-description: PivotItem property. Gets the index of the pivot item in the pivot field
+description: PivotItem property. Gets the index of the pivot item in cache field
 type: docs
 url: /net/aspose.cells.pivot/pivotitem/index/
 ---
 ## PivotItem.Index property
 
-Gets the index of the pivot item in the pivot field
+Gets the index of the pivot item in cache field.
 
 ```csharp
 public int Index { get; set; }

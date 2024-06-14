@@ -19,7 +19,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | --- | --- |
 | [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
 | [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
-| [Item](../../aspose.cells.drawing/shapecollection/item/) { get; } | Gets the shape object at the specific index. (2 indexers) |
+| [Item](../../aspose.cells.drawing/shapecollection/item/) { get; } | Gets the [`Shape`](../shape/) object at the specific index in the list. (2 indexers) |
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methods
@@ -67,7 +67,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Shape) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Shape, IComparer&lt;Shape&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Shape, IComparer&lt;Shape&gt;) |  |
-| [Clear](../../aspose.cells.drawing/shapecollection/clear/#clear)() | Clear all shapes. (2 methods) |
+| [Clear](../../aspose.cells.drawing/shapecollection/clear/#clear)() | Clear all shapes in the worksheet. (2 methods) |
 | [Contains](../../aspose.cells/collectionbase-1/contains/)(Shape) |  |
 | [CopyCommentsInRange](../../aspose.cells.drawing/shapecollection/copycommentsinrange/)(ShapeCollection, CellArea, int, int) | Copy all comments in the range. |
 | [CopyInRange](../../aspose.cells.drawing/shapecollection/copyinrange/)(ShapeCollection, CellArea, int, int, bool) | Copy shapes in the range to destination range. |
@@ -97,7 +97,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [Remove](../../aspose.cells.drawing/shapecollection/remove/)(Shape) | Remove the shape. |
 | [RemoveAt](../../aspose.cells.drawing/shapecollection/removeat/#removeat)(int) | Remove the shape. (2 methods) |
 | [Ungroup](../../aspose.cells.drawing/shapecollection/ungroup/)(GroupShape) | Ungroups the shape items. |
-| [UpdateSelectedValue](../../aspose.cells.drawing/shapecollection/updateselectedvalue/)() | Update the selected value by the value of the linked cell of the shapes. |
+| [UpdateSelectedValue](../../aspose.cells.drawing/shapecollection/updateselectedvalue/)() | Update the selected value by the value of the linked cell or range of the shape. |
 
 ### Examples
 

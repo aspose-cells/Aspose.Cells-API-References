@@ -1,13 +1,13 @@
 ---
 title: Series.Values
 second_title: Aspose.Cells for .NET API Reference
-description: Series property. Represents the data of the chart series
+description: Series property. Represents the Y values of this chart series
 type: docs
 url: /net/aspose.cells.charts/series/values/
 ---
 ## Series.Values property
 
-Represents the data of the chart series.
+Represents the Y values of this chart series.
 
 ```csharp
 public string Values { get; set; }

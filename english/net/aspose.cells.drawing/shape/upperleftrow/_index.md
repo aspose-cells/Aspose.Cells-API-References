@@ -1,13 +1,13 @@
 ---
 title: Shape.UpperLeftRow
 second_title: Aspose.Cells for .NET API Reference
-description: Shape property. Represents upper left corner row index
+description: Shape property. Represents the top row index
 type: docs
 url: /net/aspose.cells.drawing/shape/upperleftrow/
 ---
 ## Shape.UpperLeftRow property
 
-Represents upper left corner row index.
+Represents the top row index.
 
 ```csharp
 public int UpperLeftRow { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: PivotField.IsInsertPageBreaksBetweenItems
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. indicates whether the field can insert page breaks between items insert page break after each item The default value is false
+description: PivotField property. Indicates whether inserting page breaks after each item. The default value is false
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems/
 ---
 ## PivotField.IsInsertPageBreaksBetweenItems property
 
-indicates whether the field can insert page breaks between items insert page break after each item The default value is false.
+Indicates whether inserting page breaks after each item. The default value is false.
 
 ```csharp
 public bool IsInsertPageBreaksBetweenItems { get; set; }

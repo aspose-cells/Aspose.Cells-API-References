@@ -10,18 +10,17 @@ url: /net/aspose.cells.drawing/shapecollection/addequation/
 Add an equation object to the worksheet.
 
 ```csharp
-public TextBox AddEquation(int upperLeftRow, int top, int upperLeftColumn, int left, int height, 
-    int width)
+public TextBox AddEquation(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 |  |
-| top | Int32 |  |
-| upperLeftColumn | Int32 |  |
-| left | Int32 |  |
-| height | Int32 |  |
-| width | Int32 |  |
+| topRow | Int32 | The top row index. |
+| top | Int32 | The vertical offset its top row, in unit of pixel. |
+| leftColumn | Int32 | The left column index. |
+| left | Int32 | The horizontal offset from its left column, in unit of pixel. |
+| height | Int32 | The height of equation, in unit of pixel. |
+| width | Int32 | The width of equation, in unit of pixel. |
 
 ### See Also
 

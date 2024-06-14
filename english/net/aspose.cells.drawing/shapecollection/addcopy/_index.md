@@ -10,20 +10,20 @@ url: /net/aspose.cells.drawing/shapecollection/addcopy/
 Adds and copy a shape to the worksheet.
 
 ```csharp
-public Shape AddCopy(Shape sourceShape, int upperLeftRow, int top, int upperLeftColumn, int left)
+public Shape AddCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | Shape | Source shape. |
-| upperLeftRow | Int32 | Upper left row index. |
-| top | Int32 | Represents the vertical offset of checkbox from its left row, in unit of pixel. |
-| upperLeftColumn | Int32 | Upper left column index. |
-| left | Int32 | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
+| topRow | Int32 | The top row index. |
+| top | Int32 | Represents the vertical offset from its top row, in unit of pixel. |
+| leftColumn | Int32 | The left column index. |
+| left | Int32 | Represents the horizontal offset from its left column, in unit of pixel. |
 
 ### Return Value
 
-The new shape object index.
+The new [`Shape`](../../shape/) object.
 
 ### Examples
 
@@ -32,7 +32,7 @@ The new shape object index.
 [C#]
 //add a shape
 RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-//copy
+//Adds and copies a shape.
 shapes.AddCopy(rectangle, 7, 0, 7, 0);
 ```
 

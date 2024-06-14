@@ -78,7 +78,7 @@ public void ImportExcelFile(Workbook wb)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wb | Workbook | The Workbook object . |
+| wb | Workbook | The Workbook object. |
 
 ### See Also
 

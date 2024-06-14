@@ -1,13 +1,13 @@
 ---
 title: GridWorkbookSettings.GridWorkbookSettings
 second_title: Aspose.Cells for .NET API Reference
-description: GridWorkbookSettings constructor. The default constructor
+description: GridWorkbookSettings constructor. default constructor
 type: docs
 url: /net/aspose.cells.gridweb.data/gridworkbooksettings/gridworkbooksettings/
 ---
 ## GridWorkbookSettings constructor
 
-The default constructor.
+default constructor
 
 ```csharp
 public GridWorkbookSettings()

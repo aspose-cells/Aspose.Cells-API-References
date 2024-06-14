@@ -19,7 +19,7 @@ public enum PivotItemPosition
 | --- | --- | --- |
 | Previous | `0` | Represents the previous pivot item in the PivotField. |
 | Next | `1` | Represents the next pivot item in the PivotField. |
-| Custom | `2` | Represents a pivot item index, as specified by Pivot Items, that specifies a pivot item in the PivotField. only read |
+| Custom | `2` | Shows values as the different format based the index of pivot item in the PivotField. |
 
 ### See Also
 

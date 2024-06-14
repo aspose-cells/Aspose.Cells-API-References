@@ -19,13 +19,13 @@ public class PivotField
 | --- | --- |
 | [AutoShowCount](../../aspose.cells.pivot/pivotfield/autoshowcount/) { get; set; } | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
 | [AutoShowField](../../aspose.cells.pivot/pivotfield/autoshowfield/) { get; set; } | Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
-| [AutoSortField](../../aspose.cells.pivot/pivotfield/autosortfield/) { get; set; } | Represents auto sort field index. -1 means PivotField itself,others means the position of the data fields. |
-| [BaseFieldIndex](../../aspose.cells.pivot/pivotfield/basefieldindex/) { get; set; } | Represents the base field for a custom calculation. |
+| [AutoSortField](../../aspose.cells.pivot/pivotfield/autosortfield/) { get; set; } | Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [BaseFieldIndex](../../aspose.cells.pivot/pivotfield/basefieldindex/) { get; set; } | (**Obsolete.**) Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [BaseIndex](../../aspose.cells.pivot/pivotfield/baseindex/) { get; set; } | Represents the PivotField index in the base PivotFields. |
-| [BaseItemIndex](../../aspose.cells.pivot/pivotfield/baseitemindex/) { get; set; } | Represents the item in the base field for a custom calculation. Valid only for data fields. |
-| [BaseItemPosition](../../aspose.cells.pivot/pivotfield/baseitemposition/) { get; set; } | Represents the item in the base field for a custom calculation. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute. |
+| [BaseItemIndex](../../aspose.cells.pivot/pivotfield/baseitemindex/) { get; set; } | (**Obsolete.**) Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. |
+| [BaseItemPosition](../../aspose.cells.pivot/pivotfield/baseitemposition/) { get; set; } | (**Obsolete.**) Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute. |
 | [CurrentPageItem](../../aspose.cells.pivot/pivotfield/currentpageitem/) { get; set; } | Represents the current page item showing for the page field (valid only for page fields). |
-| [DataDisplayFormat](../../aspose.cells.pivot/pivotfield/datadisplayformat/) { get; set; } | Represents how to display the values contained in a data field. |
+| [DataDisplayFormat](../../aspose.cells.pivot/pivotfield/datadisplayformat/) { get; set; } | (**Obsolete.**) Represents how to display the values in a data field of the pivot report. |
 | [DisplayName](../../aspose.cells.pivot/pivotfield/displayname/) { get; set; } | Represents the PivotField display name. |
 | [DragToColumn](../../aspose.cells.pivot/pivotfield/dragtocolumn/) { get; set; } | Indicates whether the specified field can be dragged to the column position. The default value is true. |
 | [DragToData](../../aspose.cells.pivot/pivotfield/dragtodata/) { get; set; } | Indicates whether the specified field can be dragged to the data position. The default value is true. |
@@ -41,12 +41,12 @@ public class PivotField
 | [IsAutoSort](../../aspose.cells.pivot/pivotfield/isautosort/) { get; set; } | Indicates whether the specified PivotTable field is automatically sorted. |
 | [IsAutoSubtotals](../../aspose.cells.pivot/pivotfield/isautosubtotals/) { get; set; } | Indicates whether the specified field shows automatic subtotals. Default is true. |
 | [IsCalculatedField](../../aspose.cells.pivot/pivotfield/iscalculatedfield/) { get; } | Indicates whether the specified PivotTable field is calculated field. |
-| [IsIncludeNewItemsInFilter](../../aspose.cells.pivot/pivotfield/isincludenewitemsinfilter/) { get; set; } | indicates whether the field can include new items in manual filter The default value is false. |
-| [IsInsertPageBreaksBetweenItems](../../aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems/) { get; set; } | indicates whether the field can insert page breaks between items insert page break after each item The default value is false. |
+| [IsIncludeNewItemsInFilter](../../aspose.cells.pivot/pivotfield/isincludenewitemsinfilter/) { get; set; } | Indicates whether including new items to the field in manual filter. The default value is false. |
+| [IsInsertPageBreaksBetweenItems](../../aspose.cells.pivot/pivotfield/isinsertpagebreaksbetweenitems/) { get; set; } | Indicates whether inserting page breaks after each item. The default value is false. |
 | [IsMultipleItemSelectionAllowed](../../aspose.cells.pivot/pivotfield/ismultipleitemselectionallowed/) { get; set; } | indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [IsRepeatItemLabels](../../aspose.cells.pivot/pivotfield/isrepeatitemlabels/) { get; set; } | indicates whether the field can repeat items labels The default value is false. |
-| [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount/) { get; } | Gets the base item count of this pivot field. |
-| [Items](../../aspose.cells.pivot/pivotfield/items/) { get; } | Get all base items; |
+| [IsRepeatItemLabels](../../aspose.cells.pivot/pivotfield/isrepeatitemlabels/) { get; set; } | Indicates whether repeating labels of the field in the region. The default value is false. |
+| [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount/) { get; } | Gets the count of the base items in this pivot field. |
+| [Items](../../aspose.cells.pivot/pivotfield/items/) { get; } | Get all labels of pivot items in this field. |
 | [Name](../../aspose.cells.pivot/pivotfield/name/) { get; set; } | Represents the name of PivotField. |
 | [NonAutoSortDefault](../../aspose.cells.pivot/pivotfield/nonautosortdefault/) { get; set; } | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [Number](../../aspose.cells.pivot/pivotfield/number/) { get; set; } | Represents the built-in display format of numbers and dates. |
@@ -59,12 +59,13 @@ public class PivotField
 | [ShowCompact](../../aspose.cells.pivot/pivotfield/showcompact/) { get; set; } | Indicates whether display labels from the next field in the same column on the Pivot Table view |
 | [ShowInOutlineForm](../../aspose.cells.pivot/pivotfield/showinoutlineform/) { get; set; } | Indicates whether layout this field in outline form on the Pivot Table view |
 | [ShowSubtotalAtTop](../../aspose.cells.pivot/pivotfield/showsubtotalattop/) { get; set; } | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
+| [ShowValuesSetting](../../aspose.cells.pivot/pivotfield/showvaluessetting/) { get; } | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddCalculatedItem](../../aspose.cells.pivot/pivotfield/addcalculateditem/)(string, string) | Add a calculated item to the pivot field. |
+| [AddCalculatedItem](../../aspose.cells.pivot/pivotfield/addcalculateditem/)(string, string) | Add a calculated formula item to the pivot field. |
 | [GetCalculatedFieldFormula](../../aspose.cells.pivot/pivotfield/getcalculatedfieldformula/)() | Get the formula string of the specified calculated field . |
 | [GetFilters](../../aspose.cells.pivot/pivotfield/getfilters/)() | Gets all pivot filters of this pivot field. |
 | [GetPivotFilterByType](../../aspose.cells.pivot/pivotfield/getpivotfilterbytype/)(PivotFilterType) | Gets the pivot filter of the pivot field by type |
@@ -79,9 +80,10 @@ public class PivotField
 | [HideItem](../../aspose.cells.pivot/pivotfield/hideitem/#hideitem_1)(string, bool) | Sets whether the specific PivotItem in a data field is hidden. |
 | [HideItemDetail](../../aspose.cells.pivot/pivotfield/hideitemdetail/)(int, bool) | Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [InitPivotItems](../../aspose.cells.pivot/pivotfield/initpivotitems/)() | Init the pivot items of the pivot field |
-| [IsHiddenItem](../../aspose.cells.pivot/pivotfield/ishiddenitem/)(int) | Indicates whether the specific PivotItem is hidden. |
-| [IsHiddenItemDetail](../../aspose.cells.pivot/pivotfield/ishiddenitemdetail/)(int) | Indicates whether the specific PivotItem is hidden detail. |
+| [IsHiddenItem](../../aspose.cells.pivot/pivotfield/ishiddenitem/)(int) | Gets whether the specific PivotItem is hidden. |
+| [IsHiddenItemDetail](../../aspose.cells.pivot/pivotfield/ishiddenitemdetail/)(int) | Gets whether hidding the detail of the specific PivotItem.. |
 | [SetSubtotals](../../aspose.cells.pivot/pivotfield/setsubtotals/)(PivotFieldSubtotalType, bool) | Sets whether the specified field shows that subtotals. |
+| [ShowValuesAs](../../aspose.cells.pivot/pivotfield/showvaluesas/)(PivotFieldDataDisplayFormat, int, PivotItemPositionType, int) | Show value of data field as different display format when the ShowDataAs calculation is in use. |
 | [Ungroup](../../aspose.cells.pivot/pivotfield/ungroup/)() | Ungroup the pivot field. |
 
 ### Examples

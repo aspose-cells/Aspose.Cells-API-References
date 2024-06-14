@@ -19,8 +19,6 @@ public class GridCellException : ApplicationException
 | --- | --- |
 | [Code](../../aspose.cells.gridjs/gridcellexception/code/) { get; } | Represents the exception code. |
 | override [Message](../../aspose.cells.gridjs/gridcellexception/message/) { get; } | Represents the exception message. |
-| [Source](../../aspose.cells.gridjs/gridcellexception/source/) { get; } | Gets the name of the application or the object that causes the error. |
-| [StackTrace](../../aspose.cells.gridjs/gridcellexception/stacktrace/) { get; } | Gets a string representation of the immediate frames on the call stack. |
 
 ## Methods
 

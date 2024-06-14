@@ -1,13 +1,13 @@
 ---
 title: PivotTable.DataField
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets a PivotField object that represents all the data fields in a PivotTable. Readonly.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area
+description: PivotTable property. Gets a PivotField object that represents all the data fields in a PivotTable. Readonly. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea method 
 type: docs
 url: /net/aspose.cells.pivot/pivottable/datafield/
 ---
 ## PivotTable.DataField property
 
-Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
+Gets a [`PivotField`](../../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method .
 
 ```csharp
 public PivotField DataField { get; }

@@ -1,13 +1,13 @@
 ---
 title: PivotField.Items
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Get all base items
+description: PivotField property. Get all labels of pivot items in this field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/items/
 ---
 ## PivotField.Items property
 
-Get all base items;
+Get all labels of pivot items in this field.
 
 ```csharp
 public string[] Items { get; }

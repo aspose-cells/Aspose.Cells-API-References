@@ -86,8 +86,8 @@ public enum FileFormatType
 | SqlScript | `514` | Sql |
 | XHtml | `771` | Rrepesents XHtml file. |
 | OneNote | `772` | Rrepesents One Note file. |
-| MicrosoftCabinet | `773` | ///  Rrepesents Microsoft Cabinet file.  The file format is not supported Only for detecting file type. |
-| Rtf | `774` |  |
+| MicrosoftCabinet | `773` | Rrepesents Microsoft Cabinet file. |
+| Rtf | `774` | Rtf |
 | Epub | `775` | EPUB |
 | Azw3 | `777` | AZW3 |
 | Oxps | `776` | OXPS (Open XML Paper Specification) format. |

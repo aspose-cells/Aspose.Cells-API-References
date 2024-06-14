@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ShowDrill
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets whether expand/collapse buttons is shown
+description: PivotTable property. Gets and sets whether showing expand/collapse buttons
 type: docs
 url: /net/aspose.cells.pivot/pivottable/showdrill/
 ---
 ## PivotTable.ShowDrill property
 
-Gets whether expand/collapse buttons is shown.
+Gets and sets whether showing expand/collapse buttons.
 
 ```csharp
 public bool ShowDrill { get; set; }

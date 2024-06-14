@@ -1,13 +1,13 @@
 ---
 title: Class GridInterruptMonitor
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.GridJs.GridInterruptMonitor class. Represents all operator about the interrupt
+description: Aspose.Cells.GridJs.GridInterruptMonitor class. Represents all operator about the calculation interrupt
 type: docs
 url: /net/aspose.cells.gridjs/gridinterruptmonitor/
 ---
 ## GridInterruptMonitor class
 
-Represents all operator about the interrupt.
+Represents all operator about the calculation interrupt.
 
 ```csharp
 public class GridInterruptMonitor

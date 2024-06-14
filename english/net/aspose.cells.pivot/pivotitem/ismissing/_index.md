@@ -1,13 +1,13 @@
 ---
 title: PivotItem.IsMissing
 second_title: Aspose.Cells for .NET API Reference
-description: PivotItem property. Indicates whether the item has a missing value
+description: PivotItem property. Indicates whether the item is removed from the data source
 type: docs
 url: /net/aspose.cells.pivot/pivotitem/ismissing/
 ---
 ## PivotItem.IsMissing property
 
-Indicates whether the item has a missing value.
+Indicates whether the item is removed from the data source.
 
 ```csharp
 public bool IsMissing { get; }

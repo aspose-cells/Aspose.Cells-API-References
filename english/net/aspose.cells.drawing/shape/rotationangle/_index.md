@@ -18,8 +18,11 @@ public double RotationAngle { get; set; }
 ```csharp
 
 [C#]
-if(shape.RotationAngle == 45)
-    shape.RotationAngle = 60;
+//Gets rotation angle of the shape.
+double angle = shape.RotationAngle ;
+
+//Gets rotation angle of the shape.
+ shape.RotationAngle = 60;
 ```
 
 ### See Also

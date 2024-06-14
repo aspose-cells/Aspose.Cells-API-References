@@ -1,13 +1,13 @@
 ---
 title: PivotTable.ShowPivotStyleColumnStripes
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Indicates whether column stripe formatting is applied
+description: PivotTable property. Indicates whether stripe formatting is applied for column
 type: docs
 url: /net/aspose.cells.pivot/pivottable/showpivotstylecolumnstripes/
 ---
 ## PivotTable.ShowPivotStyleColumnStripes property
 
-Indicates whether column stripe formatting is applied.
+Indicates whether stripe formatting is applied for column.
 
 ```csharp
 public bool ShowPivotStyleColumnStripes { get; set; }

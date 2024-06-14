@@ -1,13 +1,13 @@
 ---
 title: Chart.RefreshPivotData
 second_title: Aspose.Cells for .NET API Reference
-description: Chart method. Refreshes pivot charts data from its pivot data source
+description: Chart method. Refreshes charts data from pivot table
 type: docs
 url: /net/aspose.cells.charts/chart/refreshpivotdata/
 ---
 ## Chart.RefreshPivotData method
 
-Refreshes pivot chart's data from it's pivot data source.
+Refreshes chart's data from pivot table.
 
 ```csharp
 public void RefreshPivotData()
@@ -15,7 +15,7 @@ public void RefreshPivotData()
 
 ### Remarks
 
-We will gather data from pivot data source to the pivot chart cache. This method is only used to gather all data to a pivot chart.
+We will gather data from pivot data source to the pivot table report. This method is only used to gather all data to a pivot chart.
 
 ### See Also
 

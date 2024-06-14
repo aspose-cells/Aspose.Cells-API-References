@@ -1,13 +1,13 @@
 ---
 title: PivotField.AddCalculatedItem
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Add a calculated item to the pivot field
+description: PivotField method. Add a calculated formula item to the pivot field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/addcalculateditem/
 ---
 ## PivotField.AddCalculatedItem method
 
-Add a calculated item to the pivot field.
+Add a calculated formula item to the pivot field.
 
 ```csharp
 public void AddCalculatedItem(string name, string formula)
@@ -16,7 +16,7 @@ public void AddCalculatedItem(string name, string formula)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | The item's name. |
-| formula | String | The item's formula |
+| formula | String | The formula of pivot item. |
 
 ### Remarks
 

@@ -17,7 +17,7 @@ public class JsonLayoutOptions
 
 | Name | Description |
 | --- | --- |
-| [JsonLayoutOptions](jsonlayoutoptions/)() | The default constructor. |
+| [JsonLayoutOptions](jsonlayoutoptions/)() | Constructor of loading JSON layout options. |
 
 ## Properties
 

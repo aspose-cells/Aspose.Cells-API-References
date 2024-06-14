@@ -55,7 +55,7 @@ public class DataLabels : ChartTextFrame
 | [ShowCellRange](../../aspose.cells.charts/datalabels/showcellrange/) { get; set; } | Indicates whether showing cell range as the data labels. |
 | [ShowLegendKey](../../aspose.cells.charts/datalabels/showlegendkey/) { get; set; } | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [ShowPercentage](../../aspose.cells.charts/datalabels/showpercentage/) { get; set; } | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [ShowSeriesName](../../aspose.cells.charts/datalabels/showseriesname/) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. |
+| [ShowSeriesName](../../aspose.cells.charts/datalabels/showseriesname/) { get; set; } | Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
 | [ShowValue](../../aspose.cells.charts/datalabels/showvalue/) { get; set; } | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
 | override [Text](../../aspose.cells.charts/datalabels/text/) { get; set; } | Gets or sets the text of data label. |
 | [TextDirection](../../aspose.cells.charts/charttextframe/textdirection/) { get; set; } | (**Obsolete.**) Represents text reading order.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
