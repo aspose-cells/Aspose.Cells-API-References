@@ -4,7 +4,7 @@ linktitle: GetSecond
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::GetSecond method. Gets and sets the second of the grouped date time in C++.'
 type: docs
-weight: 1900
+weight: 2000
 url: /cpp/aspose.cells/datetimegroupitem/getsecond/
 ---
 ## DateTimeGroupItem::GetSecond method

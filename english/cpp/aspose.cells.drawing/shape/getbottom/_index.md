@@ -4,7 +4,7 @@ linktitle: GetBottom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetBottom method. Represents the width of the shape''s vertical offset from its lower bottom corner row, in unit of pixels in C++.'
 type: docs
-weight: 7800
+weight: 8000
 url: /cpp/aspose.cells.drawing/shape/getbottom/
 ---
 ## Shape::GetBottom method

@@ -4,7 +4,7 @@ linktitle: GetTopInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTopInch method. Represents the vertical offset of shape from its top row, in unit of inches in C++.'
 type: docs
-weight: 10400
+weight: 10600
 url: /cpp/aspose.cells.drawing/shape/gettopinch/
 ---
 ## Shape::GetTopInch method

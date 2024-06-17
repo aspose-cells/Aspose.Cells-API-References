@@ -4,7 +4,7 @@ linktitle: SetLowerRightRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLowerRightRow method. Represents lower right corner row index in C++.'
 type: docs
-weight: 6900
+weight: 7100
 url: /cpp/aspose.cells.drawing/shape/setlowerrightrow/
 ---
 ## Shape::SetLowerRightRow method

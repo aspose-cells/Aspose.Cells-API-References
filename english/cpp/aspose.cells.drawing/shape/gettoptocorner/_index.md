@@ -4,7 +4,7 @@ linktitle: GetTopToCorner
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTopToCorner method. Gets and sets the vertical offset of shape from worksheet top border, in unit of pixels in C++.'
 type: docs
-weight: 10800
+weight: 11000
 url: /cpp/aspose.cells.drawing/shape/gettoptocorner/
 ---
 ## Shape::GetTopToCorner method

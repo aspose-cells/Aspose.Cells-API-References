@@ -4,7 +4,7 @@ linktitle: IsBlankColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::IsBlankColumn method. Checks whether given column is blank(does not contain any data) in C++.'
 type: docs
-weight: 11200
+weight: 11300
 url: /cpp/aspose.cells/cells/isblankcolumn/
 ---
 ## Cells::IsBlankColumn method

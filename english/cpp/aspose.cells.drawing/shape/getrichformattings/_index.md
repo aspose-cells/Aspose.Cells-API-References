@@ -4,7 +4,7 @@ linktitle: GetRichFormattings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetRichFormattings method. Returns all Characters objects that represents a range of characters within the text  in C++.'
 type: docs
-weight: 16200
+weight: 16400
 url: /cpp/aspose.cells.drawing/shape/getrichformattings/
 ---
 ## Shape::GetRichFormattings method

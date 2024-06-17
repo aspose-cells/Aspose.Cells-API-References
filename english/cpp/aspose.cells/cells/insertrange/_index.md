@@ -4,7 +4,7 @@ linktitle: InsertRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::InsertRange method. Inserts a range of cells and shift cells according to the shift option in C++.'
 type: docs
-weight: 13000
+weight: 13100
 url: /cpp/aspose.cells/cells/insertrange/
 ---
 ## Cells::InsertRange(const CellArea\&, int32_t, ShiftType, bool) method

@@ -4,7 +4,7 @@ linktitle: SetIconId
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::IconFilter::SetIconId method. Gets and sets Zero-based index of an icon in an icon set in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells/iconfilter/seticonid/
 ---
 ## IconFilter::SetIconId method

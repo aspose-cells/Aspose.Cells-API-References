@@ -4,7 +4,7 @@ linktitle: SetTop
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTop method. Represents the vertical offset of shape from its top row, in unit of pixels in C++.'
 type: docs
-weight: 10300
+weight: 10500
 url: /cpp/aspose.cells.drawing/shape/settop/
 ---
 ## Shape::SetTop method

@@ -29,7 +29,7 @@ class BuiltInDocumentPropertyCollection : public Aspose::Cells::Properties::Docu
 | [DocumentPropertyCollection(const DocumentPropertyCollection\& src)](../documentpropertycollection/documentpropertycollection/) | Copy constructor. |
 | [Get(const U16String\& name)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 | [Get(const char16_t* name)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
-| [Get(int32_t index)](../documentpropertycollection/get/) | Returns a [DocumentProperty](../documentproperty/) object by index. |
+| [Get(int32_t index)](./get/) | Returns a [DocumentProperty](../documentproperty/) object by index. |
 | [GetAuthor()](./getauthor/) | Gets or sets the name of the document's author. |
 | [GetCategory()](./getcategory/) | Gets or sets the category of the document. |
 | [GetComments()](./getcomments/) | Gets or sets the document comments. |

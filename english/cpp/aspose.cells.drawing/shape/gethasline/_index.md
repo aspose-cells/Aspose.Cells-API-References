@@ -4,7 +4,7 @@ linktitle: GetHasLine
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetHasLine method. Gets and sets the line border of the shape is visible in C++.'
 type: docs
-weight: 13000
+weight: 13200
 url: /cpp/aspose.cells.drawing/shape/gethasline/
 ---
 ## Shape::GetHasLine method

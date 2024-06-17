@@ -4,7 +4,7 @@ linktitle: PivotTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable class. Summary description for PivotTable in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells.pivot/pivottable/
 ---
 ## PivotTable class
@@ -34,7 +34,6 @@ class PivotTable
 | [ClearData()](./cleardata/) | Clear [PivotTable](./)'s data and formatting. |
 | [CopyStyle(const PivotTable\& pivotTable)](./copystyle/) | Copies named style from another pivot table. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [Fields(PivotFieldType fieldType)](./fields/) | Gets the specific fields by the field type. |
 | [Format(const PivotArea\& pivotArea, const Style\& style)](./format/) | Formats selected area of the [PivotTable](./). |
 | [Format(int32_t row, int32_t column, const Style\& style)](./format/) | Format the cell in the pivottable area. |
 | [FormatAll(const Style\& style)](./formatall/) | Format all the cell in the pivottable area. |
@@ -42,8 +41,8 @@ class PivotTable
 | [GetAltTextDescription()](./getalttextdescription/) | Gets the description of the alt text. |
 | [GetAltTextTitle()](./getalttexttitle/) | Gets the title of the altertext. |
 | [GetAutofitColumnWidthOnUpdate()](./getautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update. |
-| [GetAutoFormatType()](./getautoformattype/) | Gets the [PivotTable](./) auto format type. |
-| [GetBaseFields()](./getbasefields/) | Returns a PivotFields object that includes all fields in the [PivotTable](./) report. |
+| [GetAutoFormatType()](./getautoformattype/) | Gets and sets the auto format type of [PivotTable](./). |
+| [GetBaseFields()](./getbasefields/) | Returns all base pivot fields in the [PivotTable](./). |
 | [GetCellByDisplayName(const U16String\& displayName)](./getcellbydisplayname/) | Gets the [Cell](../../aspose.cells/cell/) object by the display name of [PivotField](../pivotfield/). |
 | [GetCellByDisplayName(const char16_t* displayName)](./getcellbydisplayname/) | Gets the [Cell](../../aspose.cells/cell/) object by the display name of [PivotField](../pivotfield/). |
 | [GetChildren()](./getchildren/) | Gets the Children [Pivot](../)[Tables](../../aspose.cells.tables/) which use this [PivotTable](./) data as data source. |
@@ -53,13 +52,13 @@ class PivotTable
 | [GetColumnRange()](./getcolumnrange/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range that contains the column area in the [PivotTable](./) report. Read-only. |
 | [GetCustomListSort()](./getcustomlistsort/) | Indicates whether consider built-in custom list when sort data. |
 | [GetDataBodyRange()](./getdatabodyrange/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
-| [GetDataField()](./getdatafield/) | Gets a [PivotField](../pivotfield/) object that represents all the data fields in a [PivotTable](./). Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the [PivotTable](./) row/column area . Default is in row area. |
+| [GetDataField()](./getdatafield/) | Gets a [PivotField](../pivotfield/) object that represents all the data fields in a [PivotTable](./). Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with [PivotTable.AddFieldToArea()](./addfieldtoarea/) method . |
 | [GetDataFieldHeaderName()](./getdatafieldheadername/) | Gets and sets the name of the value area field header in the [PivotTable](./). |
 | [GetDataFields()](./getdatafields/) | Gets a [PivotField](../pivotfield/) object that represents all the data fields in a [PivotTable](./). Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the [PivotTable](./) row/column area . Default is in row area. |
 | [GetDataSource()](./getdatasource/) | Gets and sets the data source of the pivot table. |
 | [GetDisplayErrorString()](./getdisplayerrorstring/) | Indicates whether the [PivotTable](./) report displays a custom string in cells that contain errors. |
 | [GetDisplayImmediateItems()](./getdisplayimmediateitems/) | Indicates whether items in the row and column areas are visible when the data area of the [PivotTable](./) is empty. The default value is true. |
-| [GetDisplayNullString()](./getdisplaynullstring/) | Indicates whether the [PivotTable](./) report displays a custom string in cells that contain null values. |
+| [GetDisplayNullString()](./getdisplaynullstring/) | Indicates whether the [PivotTable](./) report displays a custom string if the value is null. |
 | [GetEnableDataValueEditing()](./getenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area. |
 | [GetEnableDrilldown()](./getenabledrilldown/) | Gets whether drilldown is enabled. |
 | [GetEnableFieldDialog()](./getenablefielddialog/) | Indicates whether the [PivotTable](./) Field dialog box is available when the user double-clicks the [PivotTable](./) field. |
@@ -67,20 +66,21 @@ class PivotTable
 | [GetEnableWizard()](./getenablewizard/) | Indicates whether the [PivotTable](./) Wizard is available. |
 | [GetErrorString()](./geterrorstring/) | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
 | [GetExternalConnectionDataSource()](./getexternalconnectiondatasource/) | Gets the external connection data source. |
-| [GetFieldListSortAscending()](./getfieldlistsortascending/) | Specifies a boolean value that indicates whether fields in the [PivotTable](./) are sorted in non-default order in the field list. |
+| [GetFieldListSortAscending()](./getfieldlistsortascending/) | Indicates whether fields in the [PivotTable](./) are sorted in non-default order in the field list. |
+| [GetFields(PivotFieldType fieldType)](./getfields/) | Gets the specific pivot field list by the region. |
 | [GetGrandTotalName()](./getgrandtotalname/) | Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [GetHasBlankRows()](./gethasblankrows/) | Indicates whether to add blank rows. This property only applies for the [PivotTable](./) auto format types which needs to add blank rows. |
 | [GetIndent()](./getindent/) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
-| [GetItemPrintTitles()](./getitemprinttitles/) | A bit that specifies whether pivot item captions on the row axis are repeated on each printed page for pivot fields in tabular form. |
+| [GetItemPrintTitles()](./getitemprinttitles/) | Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [GetManualUpdate()](./getmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
-| [GetMergeLabels()](./getmergelabels/) | Indicates whether the specified [PivotTable](./) report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [GetMergeLabels()](./getmergelabels/) | True if the specified [PivotTable](./) report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
 | [GetMissingItemsLimit()](./getmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [GetName()](./getname/) | Gets the name of the [PivotTable](./). |
 | [GetNullString()](./getnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [GetPageFieldOrder()](./getpagefieldorder/) | Gets the order in which page fields are added to the [PivotTable](./) report's layout. |
 | [GetPageFields()](./getpagefields/) | Returns a PivotFields object that are currently shown as page fields. |
 | [GetPageFieldWrapCount()](./getpagefieldwrapcount/) | Gets the number of page fields in each column or row in the [PivotTable](./) report. |
-| [GetPivotFilters()](./getpivotfilters/) | Returns a [PivotFilterCollection](../pivotfiltercollection/) object. |
+| [GetPivotFilters()](./getpivotfilters/) | Returns a list of pivot filters. |
 | [GetPivotFormatConditions()](./getpivotformatconditions/) | Gets the Format Conditions of the pivot table. |
 | [GetPivotFormats()](./getpivotformats/) | Gets the collection of formats applied to [PivotTable](./). |
 | [GetPivotTableStyleName()](./getpivottablestylename/) | Gets and sets the pivottable style name. |
@@ -90,21 +90,21 @@ class PivotTable
 | [GetPrintTitles()](./getprinttitles/) | Indicates whether the print titles for the worksheet are set based on the [PivotTable](./) report. The default value is false. |
 | [GetRefreshDataFlag()](./getrefreshdataflag/) | Indicates whether Refreshing Data or not. |
 | [GetRefreshDataOnOpeningFile()](./getrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. |
-| [GetRefreshDate()](./getrefreshdate/) | Gets the date when the [PivotTable](./) was last refreshed. |
-| [GetRefreshedByWho()](./getrefreshedbywho/) | Gets the name of the user who last refreshed the [PivotTable](./). |
+| [GetRefreshDate()](./getrefreshdate/) | Gets the last date time when the [PivotTable](./) was refreshed. |
+| [GetRefreshedByWho()](./getrefreshedbywho/) | Gets the name of the last user who refreshed this [PivotTable](./). |
 | [GetRowFields()](./getrowfields/) | Returns a PivotFields object that are currently shown as row fields. |
 | [GetRowGrand()](./getrowgrand/) | Indicates whether the [PivotTable](./) report shows grand totals for rows. |
 | [GetRowHeaderCaption()](./getrowheadercaption/) | Gets the [Row](../../aspose.cells/row/) Header Caption of the [PivotTable](./). |
 | [GetRowRange()](./getrowrange/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range that contains the row area in the [PivotTable](./) report. Read-only. |
 | [GetSaveData()](./getsavedata/) | Indicates whether data for the [PivotTable](./) report is saved with the workbook. |
 | [GetShowDataTips()](./getshowdatatips/) | Specifies a boolean value that indicates whether tooltips should be displayed for [PivotTable](./) data cells. |
-| [GetShowDrill()](./getshowdrill/) | Gets whether expand/collapse buttons is shown. |
+| [GetShowDrill()](./getshowdrill/) | Gets and sets whether showing expand/collapse buttons. |
 | [GetShowEmptyCol()](./getshowemptycol/) | Specifies a boolean value that indicates whether to include empty columns in the table. |
 | [GetShowEmptyRow()](./getshowemptyrow/) | Specifies a boolean value that indicates whether to include empty rows in the table. |
 | [GetShowMemberPropertyTips()](./getshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from [PivotTable](./) tooltips. |
 | [GetShowPivotStyleColumnHeader()](./getshowpivotstylecolumnheader/) | Indicates whether the column header in the pivot table should have the style applied. |
-| [GetShowPivotStyleColumnStripes()](./getshowpivotstylecolumnstripes/) | Indicates whether column stripe formatting is applied. |
-| [GetShowPivotStyleLastColumn()](./getshowpivotstylelastcolumn/) | Indicates whether column stripe formatting is applied. |
+| [GetShowPivotStyleColumnStripes()](./getshowpivotstylecolumnstripes/) | Indicates whether stripe formatting is applied for column. |
+| [GetShowPivotStyleLastColumn()](./getshowpivotstylelastcolumn/) | Indicates whether the column formatting is applied. |
 | [GetShowPivotStyleRowHeader()](./getshowpivotstylerowheader/) | Indicates whether the row header in the pivot table should have the style applied. |
 | [GetShowPivotStyleRowStripes()](./getshowpivotstylerowstripes/) | Indicates whether row stripe formatting is applied. |
 | [GetShowRowHeaderCaption()](./getshowrowheadercaption/) | Indicates whether row header caption is shown in the [PivotTable](./) report Indicates whether Display field captions and filter drop downs. |
@@ -119,7 +119,7 @@ class PivotTable
 | [IsGridDropZones()](./isgriddropzones/) | Indicates whether the [PivotTable](./) report displays classic pivottable layout. (enables dragging fields in the grid) |
 | [IsMultipleFieldFilters()](./ismultiplefieldfilters/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsSelected()](./isselected/) | Indicates whether the [PivotTable](./) is selected. |
+| [IsSelected()](./isselected/) | Indicates whether this [PivotTable](./) is selected. |
 | [Move(int32_t row, int32_t column)](./move/) | Moves the [PivotTable](./) to a different location in the worksheet. |
 | [Move(const U16String\& destCellName)](./move/) | Moves the [PivotTable](./) to a different location in the worksheet. |
 | [Move(const char16_t* destCellName)](./move/) | Moves the [PivotTable](./) to a different location in the worksheet. |
@@ -138,7 +138,7 @@ class PivotTable
 | [SetAltTextTitle(const U16String\& value)](./setalttexttitle/) | Gets the title of the altertext. |
 | [SetAltTextTitle(const char16_t* value)](./setalttexttitle/) | Gets the title of the altertext. |
 | [SetAutofitColumnWidthOnUpdate(bool value)](./setautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update. |
-| [SetAutoFormatType(PivotTableAutoFormatType value)](./setautoformattype/) | Gets the [PivotTable](./) auto format type. |
+| [SetAutoFormatType(PivotTableAutoFormatType value)](./setautoformattype/) | Gets and sets the auto format type of [PivotTable](./). |
 | [SetColumnGrand(bool value)](./setcolumngrand/) | Indicates whether the [PivotTable](./) report shows grand totals for columns. |
 | [SetColumnHeaderCaption(const U16String\& value)](./setcolumnheadercaption/) | Gets the [Column](../../aspose.cells/column/) Header Caption of the [PivotTable](./). |
 | [SetColumnHeaderCaption(const char16_t* value)](./setcolumnheadercaption/) | Gets the [Column](../../aspose.cells/column/) Header Caption of the [PivotTable](./). |
@@ -148,7 +148,7 @@ class PivotTable
 | [SetDataSource(const Vector \<U16String\>\& value)](./setdatasource/) | Gets and sets the data source of the pivot table. |
 | [SetDisplayErrorString(bool value)](./setdisplayerrorstring/) | Indicates whether the [PivotTable](./) report displays a custom string in cells that contain errors. |
 | [SetDisplayImmediateItems(bool value)](./setdisplayimmediateitems/) | Indicates whether items in the row and column areas are visible when the data area of the [PivotTable](./) is empty. The default value is true. |
-| [SetDisplayNullString(bool value)](./setdisplaynullstring/) | Indicates whether the [PivotTable](./) report displays a custom string in cells that contain null values. |
+| [SetDisplayNullString(bool value)](./setdisplaynullstring/) | Indicates whether the [PivotTable](./) report displays a custom string if the value is null. |
 | [SetEnableDataValueEditing(bool value)](./setenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area. |
 | [SetEnableDrilldown(bool value)](./setenabledrilldown/) | Gets whether drilldown is enabled. |
 | [SetEnableFieldDialog(bool value)](./setenablefielddialog/) | Indicates whether the [PivotTable](./) Field dialog box is available when the user double-clicks the [PivotTable](./) field. |
@@ -156,7 +156,7 @@ class PivotTable
 | [SetEnableWizard(bool value)](./setenablewizard/) | Indicates whether the [PivotTable](./) Wizard is available. |
 | [SetErrorString(const U16String\& value)](./seterrorstring/) | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
 | [SetErrorString(const char16_t* value)](./seterrorstring/) | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
-| [SetFieldListSortAscending(bool value)](./setfieldlistsortascending/) | Specifies a boolean value that indicates whether fields in the [PivotTable](./) are sorted in non-default order in the field list. |
+| [SetFieldListSortAscending(bool value)](./setfieldlistsortascending/) | Indicates whether fields in the [PivotTable](./) are sorted in non-default order in the field list. |
 | [SetGrandTotalName(const U16String\& value)](./setgrandtotalname/) | Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [SetGrandTotalName(const char16_t* value)](./setgrandtotalname/) | Returns the text string label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
 | [SetHasBlankRows(bool value)](./sethasblankrows/) | Indicates whether to add blank rows. This property only applies for the [PivotTable](./) auto format types which needs to add blank rows. |
@@ -165,10 +165,10 @@ class PivotTable
 | [SetIsExcel2003Compatible(bool value)](./setisexcel2003compatible/) | Specifies whether the [PivotTable](./) is compatible for Excel2003 when refreshing [PivotTable](./), if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
 | [SetIsGridDropZones(bool value)](./setisgriddropzones/) | Indicates whether the [PivotTable](./) report displays classic pivottable layout. (enables dragging fields in the grid) |
 | [SetIsMultipleFieldFilters(bool value)](./setismultiplefieldfilters/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
-| [SetIsSelected(bool value)](./setisselected/) | Indicates whether the [PivotTable](./) is selected. |
-| [SetItemPrintTitles(bool value)](./setitemprinttitles/) | A bit that specifies whether pivot item captions on the row axis are repeated on each printed page for pivot fields in tabular form. |
+| [SetIsSelected(bool value)](./setisselected/) | Indicates whether this [PivotTable](./) is selected. |
+| [SetItemPrintTitles(bool value)](./setitemprinttitles/) | Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [SetManualUpdate(bool value)](./setmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
-| [SetMergeLabels(bool value)](./setmergelabels/) | Indicates whether the specified [PivotTable](./) report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
+| [SetMergeLabels(bool value)](./setmergelabels/) | True if the specified [PivotTable](./) report's outer-row item, column item, subtotal, and grand total labels use merged cells. |
 | [SetMissingItemsLimit(PivotMissingItemLimitType value)](./setmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [SetName(const U16String\& value)](./setname/) | Gets the name of the [PivotTable](./). |
 | [SetName(const char16_t* value)](./setname/) | Gets the name of the [PivotTable](./). |
@@ -189,13 +189,13 @@ class PivotTable
 | [SetRowHeaderCaption(const char16_t* value)](./setrowheadercaption/) | Gets the [Row](../../aspose.cells/row/) Header Caption of the [PivotTable](./). |
 | [SetSaveData(bool value)](./setsavedata/) | Indicates whether data for the [PivotTable](./) report is saved with the workbook. |
 | [SetShowDataTips(bool value)](./setshowdatatips/) | Specifies a boolean value that indicates whether tooltips should be displayed for [PivotTable](./) data cells. |
-| [SetShowDrill(bool value)](./setshowdrill/) | Gets whether expand/collapse buttons is shown. |
+| [SetShowDrill(bool value)](./setshowdrill/) | Gets and sets whether showing expand/collapse buttons. |
 | [SetShowEmptyCol(bool value)](./setshowemptycol/) | Specifies a boolean value that indicates whether to include empty columns in the table. |
 | [SetShowEmptyRow(bool value)](./setshowemptyrow/) | Specifies a boolean value that indicates whether to include empty rows in the table. |
 | [SetShowMemberPropertyTips(bool value)](./setshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from [PivotTable](./) tooltips. |
 | [SetShowPivotStyleColumnHeader(bool value)](./setshowpivotstylecolumnheader/) | Indicates whether the column header in the pivot table should have the style applied. |
-| [SetShowPivotStyleColumnStripes(bool value)](./setshowpivotstylecolumnstripes/) | Indicates whether column stripe formatting is applied. |
-| [SetShowPivotStyleLastColumn(bool value)](./setshowpivotstylelastcolumn/) | Indicates whether column stripe formatting is applied. |
+| [SetShowPivotStyleColumnStripes(bool value)](./setshowpivotstylecolumnstripes/) | Indicates whether stripe formatting is applied for column. |
+| [SetShowPivotStyleLastColumn(bool value)](./setshowpivotstylelastcolumn/) | Indicates whether the column formatting is applied. |
 | [SetShowPivotStyleRowHeader(bool value)](./setshowpivotstylerowheader/) | Indicates whether the row header in the pivot table should have the style applied. |
 | [SetShowPivotStyleRowStripes(bool value)](./setshowpivotstylerowstripes/) | Indicates whether row stripe formatting is applied. |
 | [SetShowRowHeaderCaption(bool value)](./setshowrowheadercaption/) | Indicates whether row header caption is shown in the [PivotTable](./) report Indicates whether Display field captions and filter drop downs. |

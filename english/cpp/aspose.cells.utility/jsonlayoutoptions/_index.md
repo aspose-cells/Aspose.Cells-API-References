@@ -28,7 +28,7 @@ class JsonLayoutOptions
 | [GetIgnoreTitle()](./getignoretitle/) | Ingores titles of attributes. |
 | [GetTitleStyle()](./gettitlestyle/) | Gets and sets the style of the title. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [JsonLayoutOptions()](./jsonlayoutoptions/) | Default constructor. |
+| [JsonLayoutOptions()](./jsonlayoutoptions/) | Constructor of loading JSON layout options. |
 | [JsonLayoutOptions(JsonLayoutOptions_Impl* impl)](./jsonlayoutoptions/) | Constructs from an implementation object. |
 | [JsonLayoutOptions(const JsonLayoutOptions\& src)](./jsonlayoutoptions/) | Copy constructor. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

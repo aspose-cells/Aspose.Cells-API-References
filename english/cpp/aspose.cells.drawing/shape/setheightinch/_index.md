@@ -4,7 +4,7 @@ linktitle: SetHeightInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetHeightInch method. Represents the height of the shape, in unit of inches in C++.'
 type: docs
-weight: 9100
+weight: 9300
 url: /cpp/aspose.cells.drawing/shape/setheightinch/
 ---
 ## Shape::SetHeightInch method

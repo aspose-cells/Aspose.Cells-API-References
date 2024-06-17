@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::DataLabels::SetShowSeriesName method
 linktitle: SetShowSeriesName
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::DataLabels::SetShowSeriesName method. Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide in C++.'
+description: 'Aspose::Cells::Charts::DataLabels::SetShowSeriesName method. Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide in C++.'
 type: docs
 weight: 2900
 url: /cpp/aspose.cells.charts/datalabels/setshowseriesname/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/datalabels/setshowseriesname/
 ## DataLabels::SetShowSeriesName method
 
 
-Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide.
+Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide.
 
 ```cpp
 void Aspose::Cells::Charts::DataLabels::SetShowSeriesName(bool value)

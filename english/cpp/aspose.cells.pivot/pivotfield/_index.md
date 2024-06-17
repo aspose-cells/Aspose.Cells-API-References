@@ -20,19 +20,19 @@ class PivotField
 
 | Method | Description |
 | --- | --- |
-| [AddCalculatedItem(const U16String\& name, const U16String\& formula)](./addcalculateditem/) | Add a calculated item to the pivot field. |
-| [AddCalculatedItem(const char16_t* name, const char16_t* formula)](./addcalculateditem/) | Add a calculated item to the pivot field. |
+| [AddCalculatedItem(const U16String\& name, const U16String\& formula)](./addcalculateditem/) | Add a calculated formula item to the pivot field. |
+| [AddCalculatedItem(const char16_t* name, const char16_t* formula)](./addcalculateditem/) | Add a calculated formula item to the pivot field. |
 | [Get_NumberFormat()](./get_numberformat/) | Represents the custom display format of numbers and dates. |
 | [GetAutoShowCount()](./getautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
 | [GetAutoShowField()](./getautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
-| [GetAutoSortField()](./getautosortfield/) | Represents auto sort field index. -1 means [PivotField](./) itself,others means the position of the data fields. |
-| [GetBaseFieldIndex()](./getbasefieldindex/) | Represents the base field for a custom calculation. |
+| [GetAutoSortField()](./getautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
+| [GetBaseFieldIndex()](./getbasefieldindex/) |  **(Deprecated)** Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [GetBaseIndex()](./getbaseindex/) | Represents the [PivotField](./) index in the base PivotFields. |
-| [GetBaseItemIndex()](./getbaseitemindex/) | Represents the item in the base field for a custom calculation. Valid only for data fields. |
-| [GetBaseItemPosition()](./getbaseitemposition/) | Represents the item in the base field for a custom calculation. Valid only for data fields. Because [PivotItemPosition.Custom](../pivotitemposition/) is only for read,if you need to set [PivotItemPosition.Custom](../pivotitemposition/), please set PivotField.BaseItemIndex attribute. |
+| [GetBaseItemIndex()](./getbaseitemindex/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. |
+| [GetBaseItemPosition()](./getbaseitemposition/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because [PivotItemPosition.Custom](../pivotitemposition/) is only for read,if you need to set [PivotItemPosition.Custom](../pivotitemposition/), please set PivotField.BaseItemIndex attribute. |
 | [GetCalculatedFieldFormula()](./getcalculatedfieldformula/) | Get the formula string of the specified calculated field . |
 | [GetCurrentPageItem()](./getcurrentpageitem/) | Represents the current page item showing for the page field (valid only for page fields). |
-| [GetDataDisplayFormat()](./getdatadisplayformat/) | Represents how to display the values contained in a data field. |
+| [GetDataDisplayFormat()](./getdatadisplayformat/) |  **(Deprecated)** Represents how to display the values in a data field of the pivot report. |
 | [GetDisplayName()](./getdisplayname/) | Represents the [PivotField](./) display name. |
 | [GetDragToColumn()](./getdragtocolumn/) | Indicates whether the specified field can be dragged to the column position. The default value is true. |
 | [GetDragToData()](./getdragtodata/) | Indicates whether the specified field can be dragged to the data position. The default value is true. |
@@ -43,8 +43,8 @@ class PivotField
 | [GetFunction()](./getfunction/) | Represents the function used to summarize the [PivotTable](../pivottable/) data field. |
 | [GetGroupSettings()](./getgroupsettings/) | Gets the group settings of the pivot field. |
 | [GetInsertBlankRow()](./getinsertblankrow/) | Indicates whether inserting blank line after each item. |
-| [GetItemCount()](./getitemcount/) | Gets the base item count of this pivot field. |
-| [GetItems()](./getitems/) | Get all base items;. |
+| [GetItemCount()](./getitemcount/) | Gets the count of the base items in this pivot field. |
+| [GetItems()](./getitems/) | Get all labels of pivot items in this field. |
 | [GetName()](./getname/) | Represents the name of [PivotField](./). |
 | [GetNonAutoSortDefault()](./getnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [GetNumber()](./getnumber/) | Represents the built-in display format of numbers and dates. |
@@ -56,6 +56,7 @@ class PivotField
 | [GetShowCompact()](./getshowcompact/) | Indicates whether display labels from the next field in the same column on the [Pivot](../) Table view. |
 | [GetShowInOutlineForm()](./getshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
 | [GetShowSubtotalAtTop()](./getshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
+| [GetShowValuesSetting()](./getshowvaluessetting/) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether showing specified subtotal. |
 | [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
 | [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
@@ -73,26 +74,26 @@ class PivotField
 | [IsAutoSort()](./isautosort/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically sorted. |
 | [IsAutoSubtotals()](./isautosubtotals/) | Indicates whether the specified field shows automatic subtotals. Default is true. |
 | [IsCalculatedField()](./iscalculatedfield/) | Indicates whether the specified [PivotTable](../pivottable/) field is calculated field. |
-| [IsHiddenItem(int32_t index)](./ishiddenitem/) | Indicates whether the specific [PivotItem](../pivotitem/) is hidden. |
-| [IsHiddenItemDetail(int32_t index)](./ishiddenitemdetail/) | Indicates whether the specific [PivotItem](../pivotitem/) is hidden detail. |
-| [IsIncludeNewItemsInFilter()](./isincludenewitemsinfilter/) | indicates whether the field can include new items in manual filter The default value is false. |
-| [IsInsertPageBreaksBetweenItems()](./isinsertpagebreaksbetweenitems/) | indicates whether the field can insert page breaks between items insert page break after each item The default value is false. |
+| [IsHiddenItem(int32_t index)](./ishiddenitem/) | Gets whether the specific [PivotItem](../pivotitem/) is hidden. |
+| [IsHiddenItemDetail(int32_t index)](./ishiddenitemdetail/) | Gets whether hidding the detail of the specific [PivotItem](../pivotitem/).. |
+| [IsIncludeNewItemsInFilter()](./isincludenewitemsinfilter/) | Indicates whether including new items to the field in manual filter. The default value is false. |
+| [IsInsertPageBreaksBetweenItems()](./isinsertpagebreaksbetweenitems/) | Indicates whether inserting page breaks after each item. The default value is false. |
 | [IsMultipleItemSelectionAllowed()](./ismultipleitemselectionallowed/) | indicates whether the field can have multiple items selected in the page field The default value is false. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsRepeatItemLabels()](./isrepeatitemlabels/) | indicates whether the field can repeat items labels The default value is false. |
+| [IsRepeatItemLabels()](./isrepeatitemlabels/) | Indicates whether repeating labels of the field in the region. The default value is false. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotField\& src)](./operator_asm/) | operator= |
 | [PivotField(PivotField_Impl* impl)](./pivotfield/) | Constructs from an implementation object. |
 | [PivotField(const PivotField\& src)](./pivotfield/) | Copy constructor. |
 | [SetAutoShowCount(int32_t value)](./setautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
 | [SetAutoShowField(int32_t value)](./setautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
-| [SetAutoSortField(int32_t value)](./setautosortfield/) | Represents auto sort field index. -1 means [PivotField](./) itself,others means the position of the data fields. |
-| [SetBaseFieldIndex(int32_t value)](./setbasefieldindex/) | Represents the base field for a custom calculation. |
+| [SetAutoSortField(int32_t value)](./setautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
+| [SetBaseFieldIndex(int32_t value)](./setbasefieldindex/) |  **(Deprecated)** Represents the base field for a custom calculation when the ShowDataAs calculation is in use. |
 | [SetBaseIndex(int32_t value)](./setbaseindex/) | Represents the [PivotField](./) index in the base PivotFields. |
-| [SetBaseItemIndex(int32_t value)](./setbaseitemindex/) | Represents the item in the base field for a custom calculation. Valid only for data fields. |
-| [SetBaseItemPosition(PivotItemPosition value)](./setbaseitemposition/) | Represents the item in the base field for a custom calculation. Valid only for data fields. Because [PivotItemPosition.Custom](../pivotitemposition/) is only for read,if you need to set [PivotItemPosition.Custom](../pivotitemposition/), please set PivotField.BaseItemIndex attribute. |
+| [SetBaseItemIndex(int32_t value)](./setbaseitemindex/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. |
+| [SetBaseItemPosition(PivotItemPosition value)](./setbaseitemposition/) |  **(Deprecated)** Represents the item in the base field for a custom calculation when the ShowDataAs calculation is in use. Valid only for data fields. Because [PivotItemPosition.Custom](../pivotitemposition/) is only for read,if you need to set [PivotItemPosition.Custom](../pivotitemposition/), please set PivotField.BaseItemIndex attribute. |
 | [SetCurrentPageItem(int16_t value)](./setcurrentpageitem/) | Represents the current page item showing for the page field (valid only for page fields). |
-| [SetDataDisplayFormat(PivotFieldDataDisplayFormat value)](./setdatadisplayformat/) | Represents how to display the values contained in a data field. |
+| [SetDataDisplayFormat(PivotFieldDataDisplayFormat value)](./setdatadisplayformat/) |  **(Deprecated)** Represents how to display the values in a data field of the pivot report. |
 | [SetDisplayName(const U16String\& value)](./setdisplayname/) | Represents the [PivotField](./) display name. |
 | [SetDisplayName(const char16_t* value)](./setdisplayname/) | Represents the [PivotField](./) display name. |
 | [SetDragToColumn(bool value)](./setdragtocolumn/) | Indicates whether the specified field can be dragged to the column position. The default value is true. |
@@ -107,10 +108,10 @@ class PivotField
 | [SetIsAutoShow(bool value)](./setisautoshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown,only valid for excel 2003. |
 | [SetIsAutoSort(bool value)](./setisautosort/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically sorted. |
 | [SetIsAutoSubtotals(bool value)](./setisautosubtotals/) | Indicates whether the specified field shows automatic subtotals. Default is true. |
-| [SetIsIncludeNewItemsInFilter(bool value)](./setisincludenewitemsinfilter/) | indicates whether the field can include new items in manual filter The default value is false. |
-| [SetIsInsertPageBreaksBetweenItems(bool value)](./setisinsertpagebreaksbetweenitems/) | indicates whether the field can insert page breaks between items insert page break after each item The default value is false. |
+| [SetIsIncludeNewItemsInFilter(bool value)](./setisincludenewitemsinfilter/) | Indicates whether including new items to the field in manual filter. The default value is false. |
+| [SetIsInsertPageBreaksBetweenItems(bool value)](./setisinsertpagebreaksbetweenitems/) | Indicates whether inserting page breaks after each item. The default value is false. |
 | [SetIsMultipleItemSelectionAllowed(bool value)](./setismultipleitemselectionallowed/) | indicates whether the field can have multiple items selected in the page field The default value is false. |
-| [SetIsRepeatItemLabels(bool value)](./setisrepeatitemlabels/) | indicates whether the field can repeat items labels The default value is false. |
+| [SetIsRepeatItemLabels(bool value)](./setisrepeatitemlabels/) | Indicates whether repeating labels of the field in the region. The default value is false. |
 | [SetName(const U16String\& value)](./setname/) | Represents the name of [PivotField](./). |
 | [SetName(const char16_t* value)](./setname/) | Represents the name of [PivotField](./). |
 | [SetNonAutoSortDefault(bool value)](./setnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
@@ -122,6 +123,7 @@ class PivotField
 | [SetShowInOutlineForm(bool value)](./setshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
 | [SetShowSubtotalAtTop(bool value)](./setshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)](./setsubtotals/) | Sets whether the specified field shows that subtotals. |
+| [ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem)](./showvaluesas/) | Show value of data field as different display format when the ShowDataAs calculation is in use. |
 | [Ungroup()](./ungroup/) | Ungroup the pivot field. |
 | [~PivotField()](./~pivotfield/) | Destructor. |
 ## Fields

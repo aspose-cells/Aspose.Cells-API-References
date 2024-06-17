@@ -4,7 +4,7 @@ linktitle: SetLowerRightColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLowerRightColumn method. Represents lower right corner column index in C++.'
 type: docs
-weight: 7300
+weight: 7500
 url: /cpp/aspose.cells.drawing/shape/setlowerrightcolumn/
 ---
 ## Shape::SetLowerRightColumn method

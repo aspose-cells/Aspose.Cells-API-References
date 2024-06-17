@@ -4,7 +4,7 @@ linktitle: GetWidthCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetWidthCM method. Represents the width of the shape, in unit of centimeters in C++.'
 type: docs
-weight: 8600
+weight: 8800
 url: /cpp/aspose.cells.drawing/shape/getwidthcm/
 ---
 ## Shape::GetWidthCM method

@@ -4,7 +4,7 @@ linktitle: SetTextHorizontalOverflow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTextHorizontalOverflow method. Gets and sets the text horizontal overflow type of the shape which contains text in C++.'
 type: docs
-weight: 16600
+weight: 16800
 url: /cpp/aspose.cells.drawing/shape/settexthorizontaloverflow/
 ---
 ## Shape::SetTextHorizontalOverflow method

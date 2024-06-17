@@ -4,7 +4,7 @@ linktitle: SetHeightCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetHeightCM method. Represents the height of the shape, in unit of centimeters in C++.'
 type: docs
-weight: 9500
+weight: 9700
 url: /cpp/aspose.cells.drawing/shape/setheightcm/
 ---
 ## Shape::SetHeightCM method

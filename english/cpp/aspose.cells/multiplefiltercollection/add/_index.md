@@ -4,7 +4,7 @@ linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MultipleFilterCollection::Add method. Adds string filter in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells/multiplefiltercollection/add/
 ---
 ## MultipleFilterCollection::Add(const U16String\&) method

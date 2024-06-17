@@ -4,7 +4,7 @@ linktitle: SetWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetWidthInch method. Represents the width of the shape, in unit of inch in C++.'
 type: docs
-weight: 8300
+weight: 8500
 url: /cpp/aspose.cells.drawing/shape/setwidthinch/
 ---
 ## Shape::SetWidthInch method

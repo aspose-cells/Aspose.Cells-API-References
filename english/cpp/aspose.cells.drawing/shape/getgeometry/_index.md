@@ -4,7 +4,7 @@ linktitle: GetGeometry
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetGeometry method. Gets the geometry in C++.'
 type: docs
-weight: 18100
+weight: 18300
 url: /cpp/aspose.cells.drawing/shape/getgeometry/
 ---
 ## Shape::GetGeometry method

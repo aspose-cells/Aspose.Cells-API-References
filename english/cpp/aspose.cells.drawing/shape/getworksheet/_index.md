@@ -4,7 +4,7 @@ linktitle: GetWorksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetWorksheet method. Gets the Worksheet object which contains this shape in C++.'
 type: docs
-weight: 4400
+weight: 4600
 url: /cpp/aspose.cells.drawing/shape/getworksheet/
 ---
 ## Shape::GetWorksheet method

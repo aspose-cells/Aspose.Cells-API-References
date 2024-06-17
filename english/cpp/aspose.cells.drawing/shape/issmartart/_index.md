@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::Shape::IsSmartArt method
 linktitle: IsSmartArt
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::IsSmartArt method. Indicates whether the shape is smart art in C++.'
+description: 'Aspose::Cells::Drawing::Shape::IsSmartArt method. Indicates whether the shape is a smart art in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.drawing/shape/issmartart/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/shape/issmartart/
 ## Shape::IsSmartArt method
 
 
-Indicates whether the shape is smart art.
+Indicates whether the shape is a smart art.
 
 ```cpp
 bool Aspose::Cells::Drawing::Shape::IsSmartArt()
@@ -25,7 +25,7 @@ Only for ooxml file.
 
 
 ```cpp
-//if true,the shape is smart art.
+//if true,the shape is a smart art.
 if (shape.IsSmartArt())
 {
     //The shape is SmartArt object.

@@ -4,7 +4,7 @@ linktitle: GetTopCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTopCM method. Represents the vertical offset of shape from its top row, in unit of centimeters in C++.'
 type: docs
-weight: 10600
+weight: 10800
 url: /cpp/aspose.cells.drawing/shape/gettopcm/
 ---
 ## Shape::GetTopCM method

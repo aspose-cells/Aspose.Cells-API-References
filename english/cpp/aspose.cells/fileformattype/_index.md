@@ -90,7 +90,7 @@ enum class FileFormatType
 | XHtml | 771 | <br>Rrepesents XHtml file. |
 | OneNote | 772 | <br>Rrepesents One Note file. |
 | MicrosoftCabinet | 773 | <br>Rrepesents Microsoft Cabinet file. |
-| Rtf | 774 | <br> |
+| Rtf | 774 | <br>Rtf. |
 | Epub | 775 | <br>EPUB. |
 | Azw3 | 777 | <br>AZW3. |
 | Oxps | 776 | <br>OXPS (Open XML Paper Specification) format. |

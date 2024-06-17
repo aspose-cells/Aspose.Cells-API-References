@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ErrorBar::SetDisplayType method
 linktitle: SetDisplayType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ErrorBar::SetDisplayType method. Represents error bar display type in C++.'
+description: 'Aspose::Cells::Charts::ErrorBar::SetDisplayType method. Represents the display type of error bar in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.charts/errorbar/setdisplaytype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/errorbar/setdisplaytype/
 ## ErrorBar::SetDisplayType method
 
 
-Represents error bar display type.
+Represents the display type of error bar.
 
 ```cpp
 void Aspose::Cells::Charts::ErrorBar::SetDisplayType(ErrorBarDisplayType value)

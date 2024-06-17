@@ -4,7 +4,7 @@ linktitle: GetRanges
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetRanges method. Gets the collection of Range objects created at run time in C++.'
 type: docs
-weight: 11800
+weight: 11900
 url: /cpp/aspose.cells/cells/getranges/
 ---
 ## Cells::GetRanges method

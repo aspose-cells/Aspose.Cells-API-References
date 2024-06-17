@@ -4,7 +4,7 @@ linktitle: ToImage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::ToImage method. Creates the shape image and saves it to a stream in the specified format in C++.'
 type: docs
-weight: 13900
+weight: 14100
 url: /cpp/aspose.cells.drawing/shape/toimage/
 ---
 ## Shape::ToImage(const Vector \<uint8_t\>\&, Aspose::Cells::Drawing::ImageType) method

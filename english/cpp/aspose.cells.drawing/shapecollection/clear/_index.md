@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::ShapeCollection::Clear method
 linktitle: Clear
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::ShapeCollection::Clear method. Clear all shapes in C++.'
+description: 'Aspose::Cells::Drawing::ShapeCollection::Clear method. Clear all shapes in the worksheet in C++.'
 type: docs
 weight: 5000
 url: /cpp/aspose.cells.drawing/shapecollection/clear/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/shapecollection/clear/
 ## ShapeCollection::Clear method
 
 
-Clear all shapes.
+Clear all shapes in the worksheet.
 
 ```cpp
 void Aspose::Cells::Drawing::ShapeCollection::Clear()

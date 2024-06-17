@@ -4,7 +4,7 @@ linktitle: InsertRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::InsertRow method. Inserts a new row into the worksheet in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells/cells/insertrow/
 ---
 ## Cells::InsertRow method

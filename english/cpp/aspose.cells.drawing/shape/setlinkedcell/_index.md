@@ -4,7 +4,7 @@ linktitle: SetLinkedCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLinkedCell method. Gets or sets the worksheet range linked to the control''s value in C++.'
 type: docs
-weight: 14300
+weight: 14500
 url: /cpp/aspose.cells.drawing/shape/setlinkedcell/
 ---
 ## Shape::SetLinkedCell(const U16String\&) method

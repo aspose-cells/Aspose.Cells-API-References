@@ -4,7 +4,7 @@ linktitle: GetMaxColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetMaxColumn method. Maximum column index of those cells that have been instantiated in the collection(does not include the column where style is defined for the whole column but no cell has been instantiated in it) in C++.'
 type: docs
-weight: 7800
+weight: 7900
 url: /cpp/aspose.cells/cells/getmaxcolumn/
 ---
 ## Cells::GetMaxColumn method

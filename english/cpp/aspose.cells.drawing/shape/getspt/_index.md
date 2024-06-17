@@ -4,7 +4,7 @@ linktitle: GetSpt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetSpt method. Specifies an optional number that an application can use to associate the particular shape with a defined shape type in C++.'
 type: docs
-weight: 4300
+weight: 4500
 url: /cpp/aspose.cells.drawing/shape/getspt/
 ---
 ## Shape::GetSpt method

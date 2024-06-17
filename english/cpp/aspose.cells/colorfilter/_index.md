@@ -25,6 +25,7 @@ class ColorFilter
 | [ColorFilter(const ColorFilter\& src)](./colorfilter/) | Copy constructor. |
 | [GetColor(const WorksheetCollection\& sheets)](./getcolor/) | Gets the color of this filter. |
 | [GetFilterByFillColor()](./getfilterbyfillcolor/) | Whether filter by the cell's fill color. |
+| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ColorFilter\& src)](./operator_asm/) | operator= |

@@ -4,7 +4,7 @@ linktitle: GetHeightPt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetHeightPt method. Represents the height of the shape, in unit of points in C++.'
 type: docs
-weight: 9200
+weight: 9400
 url: /cpp/aspose.cells.drawing/shape/getheightpt/
 ---
 ## Shape::GetHeightPt method

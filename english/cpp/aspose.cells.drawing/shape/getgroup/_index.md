@@ -4,7 +4,7 @@ linktitle: GetGroup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetGroup method. Gets the group shape which contains this shape in C++.'
 type: docs
-weight: 12800
+weight: 13000
 url: /cpp/aspose.cells.drawing/shape/getgroup/
 ---
 ## Shape::GetGroup method

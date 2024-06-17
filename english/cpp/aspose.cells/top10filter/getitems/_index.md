@@ -4,7 +4,7 @@ linktitle: GetItems
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Top10Filter::GetItems method. Gets and sets the items of the filter in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells/top10filter/getitems/
 ---
 ## Top10Filter::GetItems method

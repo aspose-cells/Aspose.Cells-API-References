@@ -57,7 +57,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [GetShowCellRange()](./getshowcellrange/) | Indicates whether showing cell range as the data labels. |
 | [GetShowLegendKey()](./getshowlegendkey/) | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [GetShowPercentage()](./getshowpercentage/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [GetShowSeriesName()](./getshowseriesname/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. |
+| [GetShowSeriesName()](./getshowseriesname/) | Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
 | [GetShowValue()](./getshowvalue/) | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
 | [GetText()](./gettext/) | Gets or sets the text of data label. |
 | [GetTextHorizontalAlignment()](../charttextframe/gettexthorizontalalignment/) | Gets and sets the text horizontal alignment. |
@@ -111,7 +111,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 | [SetShowCellRange(bool value)](./setshowcellrange/) | Indicates whether showing cell range as the data labels. |
 | [SetShowLegendKey(bool value)](./setshowlegendkey/) | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. |
 | [SetShowPercentage(bool value)](./setshowpercentage/) | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. |
-| [SetShowSeriesName(bool value)](./setshowseriesname/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. |
+| [SetShowSeriesName(bool value)](./setshowseriesname/) | Indicates whether the series name displays for the data labels on a chart. True to show the series name. False to hide. |
 | [SetShowValue(bool value)](./setshowvalue/) | Represents a specified chart's data label values display behavior. True displays the values. False to hide. |
 | [SetText(const U16String\& value)](./settext/) | Gets or sets the text of data label. |
 | [SetText(const char16_t* value)](./settext/) | Gets or sets the text of data label. |

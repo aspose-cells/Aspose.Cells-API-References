@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::GetUpperLeftRow method
 linktitle: GetUpperLeftRow
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::GetUpperLeftRow method. Represents upper left corner row index in C++.'
+description: 'Aspose::Cells::Drawing::Shape::GetUpperLeftRow method. Represents the top row index in C++.'
 type: docs
-weight: 6000
+weight: 6200
 url: /cpp/aspose.cells.drawing/shape/getupperleftrow/
 ---
 ## Shape::GetUpperLeftRow method
 
 
-Represents upper left corner row index.
+Represents the top row index.
 
 ```cpp
 int32_t Aspose::Cells::Drawing::Shape::GetUpperLeftRow()

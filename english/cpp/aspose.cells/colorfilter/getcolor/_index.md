@@ -4,7 +4,7 @@ linktitle: GetColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ColorFilter::GetColor method. Gets the color of this filter in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/colorfilter/getcolor/
 ---
 ## ColorFilter::GetColor method

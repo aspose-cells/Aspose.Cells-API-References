@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::TickLabels::GetOffset method
 linktitle: GetOffset
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::TickLabels::GetOffset method. Gets and sets the distance of labels from the axis in C++.'
+description: 'Aspose::Cells::Charts::TickLabels::GetOffset method. Gets and sets the distance between the axis labels and the axis line in C++.'
 type: docs
 weight: 2200
 url: /cpp/aspose.cells.charts/ticklabels/getoffset/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/ticklabels/getoffset/
 ## TickLabels::GetOffset method
 
 
-Gets and sets the distance of labels from the axis.
+Gets and sets the distance between the axis labels and the axis line.
 
 ```cpp
 int32_t Aspose::Cells::Charts::TickLabels::GetOffset()

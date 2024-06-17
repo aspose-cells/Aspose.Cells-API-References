@@ -4,7 +4,7 @@ linktitle: SetHasLine
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetHasLine method. Gets and sets the line border of the shape is visible in C++.'
 type: docs
-weight: 13100
+weight: 13300
 url: /cpp/aspose.cells.drawing/shape/sethasline/
 ---
 ## Shape::SetHasLine method

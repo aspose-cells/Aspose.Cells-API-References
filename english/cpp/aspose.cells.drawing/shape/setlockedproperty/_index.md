@@ -4,7 +4,7 @@ linktitle: SetLockedProperty
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLockedProperty method. Set the locked property in C++.'
 type: docs
-weight: 3300
+weight: 3500
 url: /cpp/aspose.cells.drawing/shape/setlockedproperty/
 ---
 ## Shape::SetLockedProperty method

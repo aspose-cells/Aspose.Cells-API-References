@@ -38,6 +38,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [GetSkipEmptyRows()](./getskipemptyrows/) | Indicates whether skipping emtpy rows. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
+| [GetToExcelStruct()](./gettoexcelstruct/) | Indicates whether converting to json struct of the Excel file. |
 | [GetUpdateSmartArt()](../saveoptions/getupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [GetValidateMergedAreas()](../saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [GetWarningCallback()](../saveoptions/getwarningcallback/) | Gets or sets warning callback. |
@@ -70,6 +71,7 @@ class JsonSaveOptions : public Aspose::Cells::SaveOptions
 | [SetSkipEmptyRows(bool value)](./setskipemptyrows/) | Indicates whether skipping emtpy rows. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |
+| [SetToExcelStruct(bool value)](./settoexcelstruct/) | Indicates whether converting to json struct of the Excel file. |
 | [SetUpdateSmartArt(bool value)](../saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [SetValidateMergedAreas(bool value)](../saveoptions/setvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
 | [SetWarningCallback(IWarningCallback* value)](../saveoptions/setwarningcallback/) | Gets or sets warning callback. |

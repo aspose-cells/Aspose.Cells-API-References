@@ -4,7 +4,7 @@ linktitle: IsDefaultRowHeightMatched
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::IsDefaultRowHeightMatched method. Indicates that row height and default font height matches in C++.'
 type: docs
-weight: 8400
+weight: 8500
 url: /cpp/aspose.cells/cells/isdefaultrowheightmatched/
 ---
 ## Cells::IsDefaultRowHeightMatched method

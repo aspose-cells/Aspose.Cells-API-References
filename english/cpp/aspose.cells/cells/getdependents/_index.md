@@ -4,7 +4,7 @@ linktitle: GetDependents
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetDependents method. Get all cells which refer to the specific cell in C++.'
 type: docs
-weight: 13700
+weight: 13800
 url: /cpp/aspose.cells/cells/getdependents/
 ---
 ## Cells::GetDependents method

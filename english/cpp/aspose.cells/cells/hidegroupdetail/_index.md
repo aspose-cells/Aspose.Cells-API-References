@@ -4,7 +4,7 @@ linktitle: HideGroupDetail
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::HideGroupDetail method. Collapses the grouped rows/columns in C++.'
 type: docs
-weight: 10100
+weight: 10200
 url: /cpp/aspose.cells/cells/hidegroupdetail/
 ---
 ## Cells::HideGroupDetail method

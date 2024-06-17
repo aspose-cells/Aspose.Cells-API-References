@@ -22,6 +22,7 @@ class IconFilter
 | --- | --- |
 | [GetIconId()](./geticonid/) | Gets and sets Zero-based index of an icon in an icon set. |
 | [GetIconSetType()](./geticonsettype/) | Gets and sets which icon set is used in the filter criteria. |
+| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [IconFilter(IconFilter_Impl* impl)](./iconfilter/) | Constructs from an implementation object. |
 | [IconFilter(const IObject* obj)](./iconfilter/) | Constructs from an [IObject](../iobject/) convertible to this. |
 | [IconFilter(const IconFilter\& src)](./iconfilter/) | Copy constructor. |

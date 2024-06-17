@@ -4,7 +4,7 @@ linktitle: SetLeftInShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLeftInShape method. Represents the horizontal offset of shape from the left border of the parent shape, in unit of 1/4000 of width of the parent shape in C++.'
 type: docs
-weight: 12300
+weight: 12500
 url: /cpp/aspose.cells.drawing/shape/setleftinshape/
 ---
 ## Shape::SetLeftInShape method

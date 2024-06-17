@@ -21,7 +21,7 @@ class Title : public Aspose::Cells::Charts::ChartTextFrame
 | Method | Description |
 | --- | --- |
 | [Characters()](./characters/) | Gets rich text formatting of this [Title](./). |
-| [Characters(int32_t startIndex, int32_t length)](../charttextframe/characters/) | Returns a Characters object that represents a range of characters within the text. |
+| [Characters(int32_t startIndex, int32_t length)](./characters/) | Returns a Characters object that represents a range of characters within the text. |
 | [ChartFrame(ChartFrame_Impl* impl)](../chartframe/chartframe/) | Constructs from an implementation object. |
 | [ChartFrame(const ChartFrame\& src)](../chartframe/chartframe/) | Copy constructor. |
 | [ChartTextFrame(ChartTextFrame_Impl* impl)](../charttextframe/charttextframe/) | Constructs from an implementation object. |

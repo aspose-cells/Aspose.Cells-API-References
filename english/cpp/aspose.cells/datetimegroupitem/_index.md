@@ -27,6 +27,7 @@ class DateTimeGroupItem
 | [GetDateTimeGroupingType()](./getdatetimegroupingtype/) | Gets and sets the group type. |
 | [GetDay()](./getday/) | Gets and sets the day of the grouped date time. |
 | [GetHour()](./gethour/) | Gets and sets the hour of the grouped date time. |
+| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [GetMinute()](./getminute/) | Gets and sets the minute of the grouped date time. |
 | [GetMinValue()](./getminvalue/) | Gets the min value. |
 | [GetMonth()](./getmonth/) | Gets and sets the month of the grouped date time. |

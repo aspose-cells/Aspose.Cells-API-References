@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::SetText method
 linktitle: SetText
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::SetText method. Represents the string in this TextBox object in C++.'
+description: 'Aspose::Cells::Drawing::Shape::SetText method. Gets and sets the text of this shape in C++.'
 type: docs
-weight: 15600
+weight: 15800
 url: /cpp/aspose.cells.drawing/shape/settext/
 ---
 ## Shape::SetText(const U16String\&) method
 
 
-Represents the string in this [TextBox](../../textbox/) object.
+Gets and sets the text of this shape.
 
 ```cpp
 void Aspose::Cells::Drawing::Shape::SetText(const U16String &value)
@@ -36,7 +36,7 @@ if (shape.GetText().IsNull())
 ## Shape::SetText(const char16_t*) method
 
 
-Represents the string in this [TextBox](../../textbox/) object.
+Gets and sets the text of this shape.
 
 ```cpp
 void Aspose::Cells::Drawing::Shape::SetText(const char16_t *value)

@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::GetAnchorType method
 linktitle: GetAnchorType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::GetAnchorType method. Gets and set the shape anchor placeholder in C++.'
+description: 'Aspose::Cells::Drawing::Shape::GetAnchorType method. Gets and set the type of the shape anchor placeholder in C++.'
 type: docs
-weight: 5600
+weight: 5800
 url: /cpp/aspose.cells.drawing/shape/getanchortype/
 ---
 ## Shape::GetAnchorType method
 
 
-Gets and set the shape anchor placeholder.
+Gets and set the type of the shape anchor placeholder.
 
 ```cpp
 ShapeAnchorType Aspose::Cells::Drawing::Shape::GetAnchorType()

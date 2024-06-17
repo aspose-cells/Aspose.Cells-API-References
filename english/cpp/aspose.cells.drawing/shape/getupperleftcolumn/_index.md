@@ -4,7 +4,7 @@ linktitle: GetUpperLeftColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetUpperLeftColumn method. Represents upper left corner column index in C++.'
 type: docs
-weight: 6400
+weight: 6600
 url: /cpp/aspose.cells.drawing/shape/getupperleftcolumn/
 ---
 ## Shape::GetUpperLeftColumn method

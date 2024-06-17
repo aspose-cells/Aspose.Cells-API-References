@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::ErrorBar::GetDisplayType method
 linktitle: GetDisplayType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::ErrorBar::GetDisplayType method. Represents error bar display type in C++.'
+description: 'Aspose::Cells::Charts::ErrorBar::GetDisplayType method. Represents the display type of error bar in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.charts/errorbar/getdisplaytype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/errorbar/getdisplaytype/
 ## ErrorBar::GetDisplayType method
 
 
-Represents error bar display type.
+Represents the display type of error bar.
 
 ```cpp
 ErrorBarDisplayType Aspose::Cells::Charts::ErrorBar::GetDisplayType()

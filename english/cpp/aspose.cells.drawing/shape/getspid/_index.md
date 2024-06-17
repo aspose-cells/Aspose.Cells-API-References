@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::GetSpid method
 linktitle: GetSpid
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::GetSpid method. Specifies an optional string that an application can use to Identify the particular shape in C++.'
+description: 'Aspose::Cells::Drawing::Shape::GetSpid method. Specifies an optional string identifier that an application can use to identify the particular shape in C++.'
 type: docs
-weight: 4200
+weight: 4400
 url: /cpp/aspose.cells.drawing/shape/getspid/
 ---
 ## Shape::GetSpid method
 
 
-Specifies an optional string that an application can use to Identify the particular shape.
+Specifies an optional string identifier that an application can use to identify the particular shape.
 
 ```cpp
 U16String Aspose::Cells::Drawing::Shape::GetSpid()

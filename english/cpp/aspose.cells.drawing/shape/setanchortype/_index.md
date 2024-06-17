@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::SetAnchorType method
 linktitle: SetAnchorType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::SetAnchorType method. Gets and set the shape anchor placeholder in C++.'
+description: 'Aspose::Cells::Drawing::Shape::SetAnchorType method. Gets and set the type of the shape anchor placeholder in C++.'
 type: docs
-weight: 5700
+weight: 5900
 url: /cpp/aspose.cells.drawing/shape/setanchortype/
 ---
 ## Shape::SetAnchorType method
 
 
-Gets and set the shape anchor placeholder.
+Gets and set the type of the shape anchor placeholder.
 
 ```cpp
 void Aspose::Cells::Drawing::Shape::SetAnchorType(ShapeAnchorType value)

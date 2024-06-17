@@ -4,7 +4,7 @@ linktitle: SetHeightInShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetHeightInShape method. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape in C++.'
 type: docs
-weight: 12700
+weight: 12900
 url: /cpp/aspose.cells.drawing/shape/setheightinshape/
 ---
 ## Shape::SetHeightInShape method

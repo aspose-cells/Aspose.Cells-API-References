@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotField::AddCalculatedItem method
 linktitle: AddCalculatedItem
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::AddCalculatedItem method. Add a calculated item to the pivot field in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::AddCalculatedItem method. Add a calculated formula item to the pivot field in C++.'
 type: docs
-weight: 9200
+weight: 9400
 url: /cpp/aspose.cells.pivot/pivotfield/addcalculateditem/
 ---
 ## PivotField::AddCalculatedItem(const U16String\&, const U16String\&) method
 
 
-Add a calculated item to the pivot field.
+Add a calculated formula item to the pivot field.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::AddCalculatedItem(const U16String &name, const U16String &formula)
@@ -20,7 +20,7 @@ void Aspose::Cells::Pivot::PivotField::AddCalculatedItem(const U16String &name, 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | const U16String\& | The item's name. |
-| formula | const U16String\& | The item's formula |
+| formula | const U16String\& | The formula of pivot item. |
 ## Remarks
 
 
@@ -36,7 +36,7 @@ Only supports to add calculated item to Row/Column field.
 ## PivotField::AddCalculatedItem(const char16_t*, const char16_t*) method
 
 
-Add a calculated item to the pivot field.
+Add a calculated formula item to the pivot field.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::AddCalculatedItem(const char16_t *name, const char16_t *formula)
@@ -46,7 +46,7 @@ void Aspose::Cells::Pivot::PivotField::AddCalculatedItem(const char16_t *name, c
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | const char16_t* | The item's name. |
-| formula | const char16_t* | The item's formula |
+| formula | const char16_t* | The formula of pivot item. |
 ## Remarks
 
 

@@ -4,7 +4,7 @@ linktitle: LinkToXmlMap
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::LinkToXmlMap method. Link to a xml map in C++.'
 type: docs
-weight: 12300
+weight: 12400
 url: /cpp/aspose.cells/cells/linktoxmlmap/
 ---
 ## Cells::LinkToXmlMap(const U16String\&, int32_t, int32_t, const U16String\&) method

@@ -4,7 +4,7 @@ linktitle: SetTopCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTopCM method. Represents the vertical offset of shape from its top row, in unit of centimeters in C++.'
 type: docs
-weight: 10700
+weight: 10900
 url: /cpp/aspose.cells.drawing/shape/settopcm/
 ---
 ## Shape::SetTopCM method

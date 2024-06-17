@@ -4,7 +4,7 @@ linktitle: GetFont
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetFont method. Represents the font of shape in C++.'
 type: docs
-weight: 15000
+weight: 15200
 url: /cpp/aspose.cells.drawing/shape/getfont/
 ---
 ## Shape::GetFont method

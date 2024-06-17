@@ -4,7 +4,7 @@ linktitle: GetMinValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::GetMinValue method. Gets the min value in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/datetimegroupitem/getminvalue/
 ---
 ## DateTimeGroupItem::GetMinValue method

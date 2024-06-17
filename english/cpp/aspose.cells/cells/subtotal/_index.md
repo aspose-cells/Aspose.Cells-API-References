@@ -4,7 +4,7 @@ linktitle: Subtotal
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::Subtotal method. Creates subtotals for the range in C++.'
 type: docs
-weight: 13300
+weight: 13400
 url: /cpp/aspose.cells/cells/subtotal/
 ---
 ## Cells::Subtotal(const CellArea\&, int32_t, ConsolidationFunction, const Vector \<int32_t\>\&) method

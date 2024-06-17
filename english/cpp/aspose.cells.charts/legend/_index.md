@@ -59,7 +59,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data labels is deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsOverLay()](./isoverlay/) | Gets or sets whether other chart elements shall be allowed to overlap this chart element. |
+| [IsOverLay()](./isoverlay/) | Gets or sets whether showing the legend without overlapping the chart. |
 | [IsResizeShapeToFitText()](../charttextframe/isresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [IsTextWrapped()](../charttextframe/istextwrapped/) | Gets or sets a value indicating whether the text is wrapped. |
 | [Legend(Legend_Impl* impl)](./legend/) | Constructs from an implementation object. |
@@ -77,7 +77,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [SetIsAutoText(bool value)](../charttextframe/setisautotext/) | Indicates the text is auto generated. |
 | [SetIsDeleted(bool value)](../charttextframe/setisdeleted/) | Indicates whether this data labels is deleted. |
 | [SetIsInnerMode(bool value)](../chartframe/setisinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
-| [SetIsOverLay(bool value)](./setisoverlay/) | Gets or sets whether other chart elements shall be allowed to overlap this chart element. |
+| [SetIsOverLay(bool value)](./setisoverlay/) | Gets or sets whether showing the legend without overlapping the chart. |
 | [SetIsResizeShapeToFitText(bool value)](../charttextframe/setisresizeshapetofittext/) | Gets or sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside. |
 | [SetIsTextWrapped(bool value)](../charttextframe/setistextwrapped/) | Gets or sets a value indicating whether the text is wrapped. |
 | [SetLinkedSource(const U16String\& value)](../charttextframe/setlinkedsource/) | Gets and sets a reference to the worksheet. |

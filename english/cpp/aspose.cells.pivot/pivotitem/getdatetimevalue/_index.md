@@ -4,7 +4,7 @@ linktitle: GetDateTimeValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItem::GetDateTimeValue method. Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue in C++.'
 type: docs
-weight: 1800
+weight: 2000
 url: /cpp/aspose.cells.pivot/pivotitem/getdatetimevalue/
 ---
 ## PivotItem::GetDateTimeValue method

@@ -4,7 +4,7 @@ linktitle: GetLowerRightColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetLowerRightColumn method. Represents lower right corner column index in C++.'
 type: docs
-weight: 7200
+weight: 7400
 url: /cpp/aspose.cells.drawing/shape/getlowerrightcolumn/
 ---
 ## Shape::GetLowerRightColumn method

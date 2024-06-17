@@ -4,7 +4,7 @@ linktitle: SetInputRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetInputRange method. Gets or sets the worksheet range used to fill the specified combo box in C++.'
 type: docs
-weight: 14500
+weight: 14700
 url: /cpp/aspose.cells.drawing/shape/setinputrange/
 ---
 ## Shape::SetInputRange(const U16String\&) method

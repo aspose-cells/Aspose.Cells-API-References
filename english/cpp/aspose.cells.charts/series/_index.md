@@ -59,11 +59,11 @@ class Series
 | [GetSmooth()](./getsmooth/) | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. |
 | [GetSplitType()](./getsplittype/) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [GetSplitValue()](./getsplitvalue/) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
-| [GetTrendLines()](./gettrendlines/) | Returns an object that represents a collection of all the trendlines for the series. |
+| [GetTrendLines()](./gettrendlines/) | Returns all the trendlines of this series. |
 | [GetType()](./gettype/) | Gets or sets a data series' type. |
 | [GetUpBars()](./getupbars/) | Returns an [DropBars](../dropbars/) object that represents the up bars on a line chart. Applies only to line charts. |
-| [GetValues()](./getvalues/) | Represents the data of the chart series. |
-| [GetValuesFormatCode()](./getvaluesformatcode/) | Represents format code of Values‘s NumberList. |
+| [GetValues()](./getvalues/) | Represents the Y values of this chart series. |
+| [GetValuesFormatCode()](./getvaluesformatcode/) | Represents format code of Values's NumberList. |
 | [GetXErrorBar()](./getxerrorbar/) | Represents X direction error bar of the series. |
 | [GetXValues()](./getxvalues/) | Represents the x values of the chart series. |
 | [GetYErrorBar()](./getyerrorbar/) | Represents Y direction error bar of the series. |
@@ -106,10 +106,10 @@ class Series
 | [SetSplitType(ChartSplitType value)](./setsplittype/) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [SetSplitValue(double value)](./setsplitvalue/) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [SetType(ChartType value)](./settype/) | Gets or sets a data series' type. |
-| [SetValues(const U16String\& value)](./setvalues/) | Represents the data of the chart series. |
-| [SetValues(const char16_t* value)](./setvalues/) | Represents the data of the chart series. |
-| [SetValuesFormatCode(const U16String\& value)](./setvaluesformatcode/) | Represents format code of Values‘s NumberList. |
-| [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents format code of Values‘s NumberList. |
+| [SetValues(const U16String\& value)](./setvalues/) | Represents the Y values of this chart series. |
+| [SetValues(const char16_t* value)](./setvalues/) | Represents the Y values of this chart series. |
+| [SetValuesFormatCode(const U16String\& value)](./setvaluesformatcode/) | Represents format code of Values's NumberList. |
+| [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents format code of Values's NumberList. |
 | [SetXValues(const U16String\& value)](./setxvalues/) | Represents the x values of the chart series. |
 | [SetXValues(const char16_t* value)](./setxvalues/) | Represents the x values of the chart series. |
 | [~Series()](./~series/) | Destructor. |

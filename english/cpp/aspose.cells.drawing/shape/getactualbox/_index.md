@@ -4,7 +4,7 @@ linktitle: GetActualBox
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetActualBox method. Get the actual position and size of the shape (after applying rotation, flip, etc.) in C++.'
 type: docs
-weight: 18400
+weight: 18600
 url: /cpp/aspose.cells.drawing/shape/getactualbox/
 ---
 ## Shape::GetActualBox method

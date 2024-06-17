@@ -4,7 +4,7 @@ linktitle: GetMonth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::GetMonth method. Gets and sets the month of the grouped date time in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells/datetimegroupitem/getmonth/
 ---
 ## DateTimeGroupItem::GetMonth method

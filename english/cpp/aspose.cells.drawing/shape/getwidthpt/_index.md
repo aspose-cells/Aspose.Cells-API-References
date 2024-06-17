@@ -4,7 +4,7 @@ linktitle: GetWidthPt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetWidthPt method. Represents the width of the shape, in unit of point in C++.'
 type: docs
-weight: 8400
+weight: 8600
 url: /cpp/aspose.cells.drawing/shape/getwidthpt/
 ---
 ## Shape::GetWidthPt method

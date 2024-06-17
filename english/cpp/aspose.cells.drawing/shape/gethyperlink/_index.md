@@ -4,7 +4,7 @@ linktitle: GetHyperlink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetHyperlink method. Gets the hyperlink of the shape in C++.'
 type: docs
-weight: 3800
+weight: 4000
 url: /cpp/aspose.cells.drawing/shape/gethyperlink/
 ---
 ## Shape::GetHyperlink method

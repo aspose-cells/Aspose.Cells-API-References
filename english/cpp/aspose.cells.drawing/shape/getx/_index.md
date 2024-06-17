@@ -4,7 +4,7 @@ linktitle: GetX
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetX method. Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels in C++.'
 type: docs
-weight: 11200
+weight: 11400
 url: /cpp/aspose.cells.drawing/shape/getx/
 ---
 ## Shape::GetX method

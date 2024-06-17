@@ -24,6 +24,7 @@ class MultipleFilterCollection
 | [Add(const char16_t* filter)](./add/) | Adds string filter. |
 | [Get(int32_t index)](./get/) | [DateTimeGroupItem](../datetimegroupitem/) or a simple object. |
 | [GetCount()](./getcount/) |  |
+| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [GetMatchBlank()](./getmatchblank/) | Indicates whether to filter by blank. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [MultipleFilterCollection()](./multiplefiltercollection/) | Constructs one new instance. |

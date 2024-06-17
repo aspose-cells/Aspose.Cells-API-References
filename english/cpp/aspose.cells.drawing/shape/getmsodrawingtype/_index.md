@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::GetMsoDrawingType method
 linktitle: GetMsoDrawingType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::GetMsoDrawingType method. Gets mso drawing type in C++.'
+description: 'Aspose::Cells::Drawing::Shape::GetMsoDrawingType method. Gets drawing type in C++.'
 type: docs
-weight: 5300
+weight: 5500
 url: /cpp/aspose.cells.drawing/shape/getmsodrawingtype/
 ---
 ## Shape::GetMsoDrawingType method
 
 
-Gets mso drawing type.
+Gets drawing type.
 
 ```cpp
 MsoDrawingType Aspose::Cells::Drawing::Shape::GetMsoDrawingType()

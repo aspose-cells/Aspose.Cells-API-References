@@ -31,7 +31,7 @@ class ErrorBar : public Aspose::Cells::Drawing::Line
 | [GetColor()](../../aspose.cells.drawing/line/getcolor/) | Represents the System.Drawing.Color of the line. |
 | [GetCompoundType()](../../aspose.cells.drawing/line/getcompoundtype/) | Specifies the compound line type. |
 | [GetDashType()](../../aspose.cells.drawing/line/getdashtype/) | Specifies the dash line type. |
-| [GetDisplayType()](./getdisplaytype/) | Represents error bar display type. |
+| [GetDisplayType()](./getdisplaytype/) | Represents the display type of error bar. |
 | [GetEndArrowLength()](../../aspose.cells.drawing/line/getendarrowlength/) | Specifies the length of the arrowhead for the end of a line. |
 | [GetEndArrowWidth()](../../aspose.cells.drawing/line/getendarrowwidth/) | Specifies the width of the arrowhead for the end of a line. |
 | [GetEndType()](../../aspose.cells.drawing/line/getendtype/) | Specifies an arrowhead for the end of a line. |
@@ -65,7 +65,7 @@ class ErrorBar : public Aspose::Cells::Drawing::Line
 | [SetColor(const Aspose::Cells::Color\& value)](../../aspose.cells.drawing/line/setcolor/) | Represents the System.Drawing.Color of the line. |
 | [SetCompoundType(MsoLineStyle value)](../../aspose.cells.drawing/line/setcompoundtype/) | Specifies the compound line type. |
 | [SetDashType(MsoLineDashStyle value)](../../aspose.cells.drawing/line/setdashtype/) | Specifies the dash line type. |
-| [SetDisplayType(ErrorBarDisplayType value)](./setdisplaytype/) | Represents error bar display type. |
+| [SetDisplayType(ErrorBarDisplayType value)](./setdisplaytype/) | Represents the display type of error bar. |
 | [SetEndArrowLength(MsoArrowheadLength value)](../../aspose.cells.drawing/line/setendarrowlength/) | Specifies the length of the arrowhead for the end of a line. |
 | [SetEndArrowWidth(MsoArrowheadWidth value)](../../aspose.cells.drawing/line/setendarrowwidth/) | Specifies the width of the arrowhead for the end of a line. |
 | [SetEndType(MsoArrowheadStyle value)](../../aspose.cells.drawing/line/setendtype/) | Specifies an arrowhead for the end of a line. |

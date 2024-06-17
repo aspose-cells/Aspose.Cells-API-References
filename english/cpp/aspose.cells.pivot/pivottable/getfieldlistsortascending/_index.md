@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::GetFieldListSortAscending method
 linktitle: GetFieldListSortAscending
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetFieldListSortAscending method. Specifies a boolean value that indicates whether fields in the PivotTable are sorted in non-default order in the field list in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetFieldListSortAscending method. Indicates whether fields in the PivotTable are sorted in non-default order in the field list in C++.'
 type: docs
 weight: 9600
 url: /cpp/aspose.cells.pivot/pivottable/getfieldlistsortascending/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/getfieldlistsortascending/
 ## PivotTable::GetFieldListSortAscending method
 
 
-Specifies a boolean value that indicates whether fields in the [PivotTable](../) are sorted in non-default order in the field list.
+Indicates whether fields in the [PivotTable](../) are sorted in non-default order in the field list.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotTable::GetFieldListSortAscending()

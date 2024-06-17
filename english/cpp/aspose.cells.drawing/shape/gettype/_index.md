@@ -4,7 +4,7 @@ linktitle: GetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetType method. Gets the auto shape type in C++.'
 type: docs
-weight: 12900
+weight: 13100
 url: /cpp/aspose.cells.drawing/shape/gettype/
 ---
 ## Shape::GetType method

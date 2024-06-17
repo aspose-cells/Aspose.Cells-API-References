@@ -4,7 +4,7 @@ linktitle: SetTextVerticalOverflow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTextVerticalOverflow method. Gets and sets the text vertical overflow type of the shape which contains text in C++.'
 type: docs
-weight: 16400
+weight: 16600
 url: /cpp/aspose.cells.drawing/shape/settextverticaloverflow/
 ---
 ## Shape::SetTextVerticalOverflow method

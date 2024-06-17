@@ -4,7 +4,7 @@ linktitle: GetTextBody
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTextBody method. Gets and sets the setting of the shape''s text in C++.'
 type: docs
-weight: 14900
+weight: 15100
 url: /cpp/aspose.cells.drawing/shape/gettextbody/
 ---
 ## Shape::GetTextBody method

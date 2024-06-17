@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::RemoveHyperlink method
 linktitle: RemoveHyperlink
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::RemoveHyperlink method. Remove the hyperlink of the shape in C++.'
+description: 'Aspose::Cells::Drawing::Shape::RemoveHyperlink method. Removes the hyperlink of the shape in C++.'
 type: docs
-weight: 3700
+weight: 3900
 url: /cpp/aspose.cells.drawing/shape/removehyperlink/
 ---
 ## Shape::RemoveHyperlink method
 
 
-Remove the hyperlink of the shape.
+Removes the hyperlink of the shape.
 
 ```cpp
 void Aspose::Cells::Drawing::Shape::RemoveHyperlink()

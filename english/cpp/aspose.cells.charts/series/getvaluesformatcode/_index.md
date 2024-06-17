@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Series::GetValuesFormatCode method
 linktitle: GetValuesFormatCode
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Series::GetValuesFormatCode method. Represents format code of Values‘s NumberList in C++.'
+description: 'Aspose::Cells::Charts::Series::GetValuesFormatCode method. Represents format code of Values''s NumberList in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.cells.charts/series/getvaluesformatcode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/series/getvaluesformatcode/
 ## Series::GetValuesFormatCode method
 
 
-Represents format code of Values‘s NumberList.
+Represents format code of Values's NumberList.
 
 ```cpp
 U16String Aspose::Cells::Charts::Series::GetValuesFormatCode()

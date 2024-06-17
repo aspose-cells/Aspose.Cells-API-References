@@ -4,7 +4,7 @@ linktitle: GetColumnWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetColumnWidthPixel method. Gets the width of the specified column in normal view, in units of pixel in C++.'
 type: docs
-weight: 7100
+weight: 7200
 url: /cpp/aspose.cells/cells/getcolumnwidthpixel/
 ---
 ## Cells::GetColumnWidthPixel(int32_t) method

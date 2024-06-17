@@ -4,7 +4,7 @@ linktitle: GetInputRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetInputRange method. Gets or sets the worksheet range used to fill the specified combo box in C++.'
 type: docs
-weight: 14400
+weight: 14600
 url: /cpp/aspose.cells.drawing/shape/getinputrange/
 ---
 ## Shape::GetInputRange() method

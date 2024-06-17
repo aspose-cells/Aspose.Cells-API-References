@@ -4,7 +4,7 @@ linktitle: IsDefaultRowHidden
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::IsDefaultRowHidden method. Indicates whether the row is default hidden in C++.'
 type: docs
-weight: 8600
+weight: 8700
 url: /cpp/aspose.cells/cells/isdefaultrowhidden/
 ---
 ## Cells::IsDefaultRowHidden method

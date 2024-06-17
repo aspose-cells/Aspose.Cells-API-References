@@ -4,7 +4,7 @@ linktitle: SetLowerDeltaY
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLowerDeltaY method. Gets or sets the shape''s vertical offset from its lower right corner row in C++.'
 type: docs
-weight: 7100
+weight: 7300
 url: /cpp/aspose.cells.drawing/shape/setlowerdeltay/
 ---
 ## Shape::SetLowerDeltaY method

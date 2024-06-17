@@ -4,7 +4,7 @@ linktitle: InsertCutCells
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::InsertCutCells method. Insert cut range in C++.'
 type: docs
-weight: 12900
+weight: 13000
 url: /cpp/aspose.cells/cells/insertcutcells/
 ---
 ## Cells::InsertCutCells method

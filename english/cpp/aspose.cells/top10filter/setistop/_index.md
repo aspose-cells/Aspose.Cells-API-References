@@ -4,7 +4,7 @@ linktitle: SetIsTop
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Top10Filter::SetIsTop method. Indicates whether it''s top filter in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells/top10filter/setistop/
 ---
 ## Top10Filter::SetIsTop method

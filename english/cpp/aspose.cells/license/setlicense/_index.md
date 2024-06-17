@@ -87,7 +87,7 @@ void Aspose::Cells::License::SetLicense(Vector<uint8_t> &stream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| licenseName | Vector \<uint8_t\>\& | A Vector<uint8_t> that contains the license. |
+| stream | Vector \<uint8_t\>\& | A Vector<uint8_t> that contains the license. |
 
 
 ## Examples

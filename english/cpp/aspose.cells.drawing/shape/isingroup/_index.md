@@ -4,7 +4,7 @@ linktitle: IsInGroup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::IsInGroup method. Indicates whether the shape is grouped in C++.'
 type: docs
-weight: 4600
+weight: 4800
 url: /cpp/aspose.cells.drawing/shape/isingroup/
 ---
 ## Shape::IsInGroup method

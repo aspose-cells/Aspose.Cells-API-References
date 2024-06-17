@@ -4,7 +4,7 @@ linktitle: GetRotationAngle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetRotationAngle method. Gets and sets the rotation of the shape in C++.'
 type: docs
-weight: 3400
+weight: 3600
 url: /cpp/aspose.cells.drawing/shape/getrotationangle/
 ---
 ## Shape::GetRotationAngle method
@@ -21,8 +21,11 @@ double Aspose::Cells::Drawing::Shape::GetRotationAngle()
 
 
 ```cpp
-if (shape.GetRotationAngle() == 45)
-    shape.SetRotationAngle(60);
+//Gets rotation angle of the shape.
+double angle = shape.GetRotationAngle();
+
+//Sets rotation angle of the shape.
+shape.SetRotationAngle(60);
 ```
 
 ## See Also

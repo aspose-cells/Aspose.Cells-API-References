@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::GetBaseFields method
 linktitle: GetBaseFields
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetBaseFields method. Returns a PivotFields object that includes all fields in the PivotTable report in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetBaseFields method. Returns all base pivot fields in the PivotTable in C++.'
 type: docs
 weight: 2800
 url: /cpp/aspose.cells.pivot/pivottable/getbasefields/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/getbasefields/
 ## PivotTable::GetBaseFields method
 
 
-Returns a PivotFields object that includes all fields in the [PivotTable](../) report.
+Returns all base pivot fields in the [PivotTable](../).
 
 ```cpp
 PivotFieldCollection Aspose::Cells::Pivot::PivotTable::GetBaseFields()

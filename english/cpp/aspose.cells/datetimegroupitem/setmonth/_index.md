@@ -4,7 +4,7 @@ linktitle: SetMonth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::SetMonth method. Gets and sets the month of the grouped date time in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells/datetimegroupitem/setmonth/
 ---
 ## DateTimeGroupItem::SetMonth method

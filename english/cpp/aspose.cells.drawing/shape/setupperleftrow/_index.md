@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::SetUpperLeftRow method
 linktitle: SetUpperLeftRow
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::SetUpperLeftRow method. Represents upper left corner row index in C++.'
+description: 'Aspose::Cells::Drawing::Shape::SetUpperLeftRow method. Represents the top row index in C++.'
 type: docs
-weight: 6100
+weight: 6300
 url: /cpp/aspose.cells.drawing/shape/setupperleftrow/
 ---
 ## Shape::SetUpperLeftRow method
 
 
-Represents upper left corner row index.
+Represents the top row index.
 
 ```cpp
 void Aspose::Cells::Drawing::Shape::SetUpperLeftRow(int32_t value)

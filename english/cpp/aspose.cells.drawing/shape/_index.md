@@ -30,7 +30,7 @@ class Shape
 | [GetActualBox()](./getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [GetActualLowerRightRow()](./getactuallowerrightrow/) | Get the actual bottom row. |
 | [GetAlternativeText()](./getalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](./) object. |
-| [GetAnchorType()](./getanchortype/) | Gets and set the shape anchor placeholder. |
+| [GetAnchorType()](./getanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [GetAutoShapeType()](./getautoshapetype/) | Gets and sets the auto shape type. |
 | [GetBottom()](./getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetControlData()](./getcontroldata/) | Gets the data of control. |
@@ -67,7 +67,7 @@ class Shape
 | [GetLowerRightColumn()](./getlowerrightcolumn/) | Represents lower right corner column index. |
 | [GetLowerRightRow()](./getlowerrightrow/) | Represents lower right corner row index. |
 | [GetMacroName()](./getmacroname/) | Gets and sets the name of macro. |
-| [GetMsoDrawingType()](./getmsodrawingtype/) | Gets mso drawing type. |
+| [GetMsoDrawingType()](./getmsodrawingtype/) | Gets drawing type. |
 | [GetName()](./getname/) | Gets and sets the name of the shape. |
 | [GetPaths()](./getpaths/) | Gets the paths of a custom geometric shape. |
 | [GetPlacement()](./getplacement/) | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
@@ -79,9 +79,9 @@ class Shape
 | [GetRotationAngle()](./getrotationangle/) | Gets and sets the rotation of the shape. |
 | [GetShadowEffect()](./getshadoweffect/) | Represents a [Drawing.ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [GetSoftEdges()](./getsoftedges/) | Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [GetSpid()](./getspid/) | Specifies an optional string that an application can use to Identify the particular shape. |
+| [GetSpid()](./getspid/) | Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [GetSpt()](./getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [GetText()](./gettext/) | Represents the string in this [TextBox](../textbox/) object. |
+| [GetText()](./gettext/) | Gets and sets the text of this shape. |
 | [GetTextBody()](./gettextbody/) | Gets and sets the setting of the shape's text. |
 | [GetTextDirection()](./gettextdirection/) | Gets/Sets the direction of the text flow for this object. |
 | [GetTextEffect()](./gettexteffect/) | Returns a [TextEffectFormat](../texteffectformat/) object that contains text-effect formatting properties for the specified shape. Applies to [Shape](./) objects that represent WordArt. |
@@ -103,7 +103,7 @@ class Shape
 | [GetUpperDeltaX()](./getupperdeltax/) | Gets or sets the shape's horizontal offset from its upper left corner column. |
 | [GetUpperDeltaY()](./getupperdeltay/) | Gets or sets the shape's vertical offset from its upper left corner row. |
 | [GetUpperLeftColumn()](./getupperleftcolumn/) | Represents upper left corner column index. |
-| [GetUpperLeftRow()](./getupperleftrow/) | Represents upper left corner row index. |
+| [GetUpperLeftRow()](./getupperleftrow/) | Represents the top row index. |
 | [GetWidth()](./getwidth/) | Represents the width of shape, in unit of pixels. |
 | [GetWidthCM()](./getwidthcm/) | Represents the width of the shape, in unit of centimeters. |
 | [GetWidthInch()](./getwidthinch/) | Represents the width of the shape, in unit of inch. |
@@ -114,29 +114,30 @@ class Shape
 | [GetX()](./getx/) | Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
 | [GetY()](./gety/) | Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [GetZOrderPosition()](./getzorderposition/) | Returns the position of a shape in the z-order. |
+| [IsAspectRatioLocked()](./isaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
 | [IsEquation()](./isequation/) | Indicates whether the shape only contains an equation. |
 | [IsFilled()](./isfilled/) | Indicates whether the fill format is visible. |
 | [IsFlippedHorizontally()](./isflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
 | [IsFlippedVertically()](./isflippedvertically/) | Gets and sets whether shape is vertically flipped . |
-| [IsGroup()](./isgroup/) | Indicates whether the shape is a group. |
+| [IsGroup()](./isgroup/) | Indicates whether this shape is a group shape. |
 | [IsHidden()](./ishidden/) | Indicates whether the object is visible. |
 | [IsInGroup()](./isingroup/) | Indicates whether the shape is grouped. |
-| [IsLockAspectRatio()](./islockaspectratio/) | True means that don't allow changes in aspect ratio. |
-| [IsLocked()](./islocked/) | True if the object is locked, False if the object can be modified when the sheet is protected. |
+| [IsLockAspectRatio()](./islockaspectratio/) |  **(Deprecated)** True means that aspect ratio of the shape is locked. |
+| [IsLocked()](./islocked/) | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsPrintable()](./isprintable/) | True if the object is printable. |
+| [IsPrintable()](./isprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [IsRichText()](./isrichtext/) | Whether or not the text is rich text. |
-| [IsSmartArt()](./issmartart/) | Indicates whether the shape is smart art. |
+| [IsSmartArt()](./issmartart/) | Indicates whether the shape is a smart art. |
 | [IsTextWrapped()](./istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt()](./iswordart/) | Indicates whether this shape is a word art. |
 | [MoveToRange(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](./movetorange/) | Moves the shape to a specified range. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Shape\& src)](./operator_asm/) | operator= |
 | [RemoveActiveXControl()](./removeactivexcontrol/) | Remove activeX control. |
-| [RemoveHyperlink()](./removehyperlink/) | Remove the hyperlink of the shape. |
+| [RemoveHyperlink()](./removehyperlink/) | Removes the hyperlink of the shape. |
 | [SetAlternativeText(const U16String\& value)](./setalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](./) object. |
 | [SetAlternativeText(const char16_t* value)](./setalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](./) object. |
-| [SetAnchorType(ShapeAnchorType value)](./setanchortype/) | Gets and set the shape anchor placeholder. |
+| [SetAnchorType(ShapeAnchorType value)](./setanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [SetAutoShapeType(AutoShapeType value)](./setautoshapetype/) | Gets and sets the auto shape type. |
 | [SetBottom(int32_t value)](./setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [SetCreateId(const UUID\& value)](./setcreateid/) | Gets and sets create id for this shape. |
@@ -154,13 +155,14 @@ class Shape
 | [SetInputRange(const char16_t* value)](./setinputrange/) | Gets or sets the worksheet range used to fill the specified combo box. |
 | [SetInputRange(const U16String\& formula, bool isR1C1, bool isLocal)](./setinputrange/) | Sets the range used to fill the control. |
 | [SetInputRange(const char16_t* formula, bool isR1C1, bool isLocal)](./setinputrange/) | Sets the range used to fill the control. |
+| [SetIsAspectRatioLocked(bool value)](./setisaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
 | [SetIsFilled(bool value)](./setisfilled/) | Indicates whether the fill format is visible. |
 | [SetIsFlippedHorizontally(bool value)](./setisflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
 | [SetIsFlippedVertically(bool value)](./setisflippedvertically/) | Gets and sets whether shape is vertically flipped . |
 | [SetIsHidden(bool value)](./setishidden/) | Indicates whether the object is visible. |
-| [SetIsLockAspectRatio(bool value)](./setislockaspectratio/) | True means that don't allow changes in aspect ratio. |
-| [SetIsLocked(bool value)](./setislocked/) | True if the object is locked, False if the object can be modified when the sheet is protected. |
-| [SetIsPrintable(bool value)](./setisprintable/) | True if the object is printable. |
+| [SetIsLockAspectRatio(bool value)](./setislockaspectratio/) |  **(Deprecated)** True means that aspect ratio of the shape is locked. |
+| [SetIsLocked(bool value)](./setislocked/) | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
+| [SetIsPrintable(bool value)](./setisprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [SetIsTextWrapped(bool value)](./setistextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [SetLeft(int32_t value)](./setleft/) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [SetLeftCM(double value)](./setleftcm/) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
@@ -185,8 +187,8 @@ class Shape
 | [SetRight(int32_t value)](./setright/) | Represents the width of the shape's horizontal offset from its lower right corner column, in unit of pixels. |
 | [SetRotationAngle(double value)](./setrotationangle/) | Gets and sets the rotation of the shape. |
 | [SetSoftEdges(double value)](./setsoftedges/) | Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [SetText(const U16String\& value)](./settext/) | Represents the string in this [TextBox](../textbox/) object. |
-| [SetText(const char16_t* value)](./settext/) | Represents the string in this [TextBox](../textbox/) object. |
+| [SetText(const U16String\& value)](./settext/) | Gets and sets the text of this shape. |
+| [SetText(const char16_t* value)](./settext/) | Gets and sets the text of this shape. |
 | [SetTextDirection(TextDirectionType value)](./settextdirection/) | Gets/Sets the direction of the text flow for this object. |
 | [SetTextHorizontalAlignment(TextAlignmentType value)](./settexthorizontalalignment/) | Gets and sets the text horizontal alignment type of the shape. |
 | [SetTextHorizontalOverflow(TextOverflowType value)](./settexthorizontaloverflow/) | Gets and sets the text horizontal overflow type of the shape which contains text. |
@@ -205,7 +207,7 @@ class Shape
 | [SetUpperDeltaX(int32_t value)](./setupperdeltax/) | Gets or sets the shape's horizontal offset from its upper left corner column. |
 | [SetUpperDeltaY(int32_t value)](./setupperdeltay/) | Gets or sets the shape's vertical offset from its upper left corner row. |
 | [SetUpperLeftColumn(int32_t value)](./setupperleftcolumn/) | Represents upper left corner column index. |
-| [SetUpperLeftRow(int32_t value)](./setupperleftrow/) | Represents upper left corner row index. |
+| [SetUpperLeftRow(int32_t value)](./setupperleftrow/) | Represents the top row index. |
 | [SetWidth(int32_t value)](./setwidth/) | Represents the width of shape, in unit of pixels. |
 | [SetWidthCM(double value)](./setwidthcm/) | Represents the width of the shape, in unit of centimeters. |
 | [SetWidthInch(double value)](./setwidthinch/) | Represents the width of the shape, in unit of inch. |

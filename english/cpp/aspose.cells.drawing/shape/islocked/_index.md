@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::IsLocked method
 linktitle: IsLocked
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::IsLocked method. True if the object is locked, False if the object can be modified when the sheet is protected in C++.'
+description: 'Aspose::Cells::Drawing::Shape::IsLocked method. True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected in C++.'
 type: docs
-weight: 4900
+weight: 5100
 url: /cpp/aspose.cells.drawing/shape/islocked/
 ---
 ## Shape::IsLocked method
 
 
-True if the object is locked, False if the object can be modified when the sheet is protected.
+True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected.
 
 ```cpp
 bool Aspose::Cells::Drawing::Shape::IsLocked()
@@ -21,8 +21,17 @@ bool Aspose::Cells::Drawing::Shape::IsLocked()
 
 
 ```cpp
-if (shape.IsLocked())
+//Sets the specified shape to unlocked state
+if (shape.GetWorksheet().IsProtected() && shape.IsLocked())
+{
     shape.SetIsLocked(false);
+}
+
+//Sets the specified shape to a locked state
+if (shape.GetWorksheet().IsProtected() && !shape.IsLocked())
+{
+    shape.SetIsLocked(true);
+}
 ```
 
 ## See Also

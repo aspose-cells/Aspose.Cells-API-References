@@ -4,7 +4,7 @@ linktitle: MoveToRange
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::MoveToRange method. Moves the shape to a specified range in C++.'
 type: docs
-weight: 3900
+weight: 4100
 url: /cpp/aspose.cells.drawing/shape/movetorange/
 ---
 ## Shape::MoveToRange method

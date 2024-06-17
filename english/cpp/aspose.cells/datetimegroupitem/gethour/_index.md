@@ -4,7 +4,7 @@ linktitle: GetHour
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::GetHour method. Gets and sets the hour of the grouped date time in C++.'
 type: docs
-weight: 1500
+weight: 1600
 url: /cpp/aspose.cells/datetimegroupitem/gethour/
 ---
 ## DateTimeGroupItem::GetHour method

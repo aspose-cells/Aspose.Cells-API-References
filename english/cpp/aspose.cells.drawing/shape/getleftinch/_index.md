@@ -4,7 +4,7 @@ linktitle: GetLeftInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetLeftInch method. Represents the horizontal offset of shape from its left column, in unit of inches in C++.'
 type: docs
-weight: 9800
+weight: 10000
 url: /cpp/aspose.cells.drawing/shape/getleftinch/
 ---
 ## Shape::GetLeftInch method

@@ -4,7 +4,7 @@ linktitle: SetDateTimeGroupingType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::SetDateTimeGroupingType method. Gets and sets the group type in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/datetimegroupitem/setdatetimegroupingtype/
 ---
 ## DateTimeGroupItem::SetDateTimeGroupingType method

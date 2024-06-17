@@ -4,7 +4,7 @@ linktitle: GroupRows
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GroupRows method. Groups rows in C++.'
 type: docs
-weight: 10500
+weight: 10600
 url: /cpp/aspose.cells/cells/grouprows/
 ---
 ## Cells::GroupRows(int32_t, int32_t, bool) method

@@ -4,7 +4,7 @@ linktitle: IsPercent
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Top10Filter::IsPercent method. Indicates whether the items is percent in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/top10filter/ispercent/
 ---
 ## Top10Filter::IsPercent method

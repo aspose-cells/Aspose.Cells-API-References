@@ -2,7 +2,7 @@
 title: Aspose::Cells::Cells::GetRowHeight method
 linktitle: GetRowHeight
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cells::GetRowHeight method. Gets original row''s height in C++.'
+description: 'Aspose::Cells::Cells::GetRowHeight method. Gets row''s height in C++.'
 type: docs
 weight: 5700
 url: /cpp/aspose.cells/cells/getrowheight/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cells/getrowheight/
 ## Cells::GetRowHeight(int32_t, bool, CellsUnitType) method
 
 
-Gets original row's height.
+Gets row's height.
 
 ```cpp
 double Aspose::Cells::Cells::GetRowHeight(int32_t row, bool isOriginal, CellsUnitType unitType)
@@ -20,12 +20,12 @@ double Aspose::Cells::Cells::GetRowHeight(int32_t row, bool isOriginal, CellsUni
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int32_t | The row index. |
-| isOriginal | bool |  |
-| unitType | CellsUnitType |  |
+| isOriginal | bool | Whether returns the original row height or 0 for hidden row. |
+| unitType | CellsUnitType | Unit type of the returned height value |
 
 ## ReturnValue
 
-
+[Row](../../row/)'s height
 
 ## See Also
 

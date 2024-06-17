@@ -4,7 +4,7 @@ linktitle: GetWidthScale
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetWidthScale method. Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100; in C++.'
 type: docs
-weight: 11600
+weight: 11800
 url: /cpp/aspose.cells.drawing/shape/getwidthscale/
 ---
 ## Shape::GetWidthScale method

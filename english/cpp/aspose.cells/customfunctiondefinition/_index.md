@@ -22,8 +22,8 @@ class CustomFunctionDefinition
 | --- | --- |
 | [CustomFunctionDefinition()](./customfunctiondefinition/) | Default constructor. |
 | [CustomFunctionDefinition(const CustomFunctionDefinition\& src)](./customfunctiondefinition/) |  |
-| [GetArrayModeParameters(const U16String\& functionName)](./getarraymodeparameters/) | Gets the indices of given custom function's parameters that need to be calculated in array mode. |
-| [GetArrayModeParameters(const char16_t* functionName)](./getarraymodeparameters/) | Gets the indices of given custom function's parameters that need to be calculated in array mode. |
+| virtual [GetArrayModeParameters(const U16String\& functionName)](./getarraymodeparameters/) | Gets the indices of given custom function's parameters that need to be calculated in array mode. |
+| virtual [GetArrayModeParameters(const char16_t* functionName)](./getarraymodeparameters/) | Gets the indices of given custom function's parameters that need to be calculated in array mode. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CustomFunctionDefinition\& src)](./operator_asm/) |  |

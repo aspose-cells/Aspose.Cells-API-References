@@ -4,7 +4,7 @@ linktitle: GetId
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetId method. Gets the identifier of this shape in C++.'
 type: docs
-weight: 4100
+weight: 4300
 url: /cpp/aspose.cells.drawing/shape/getid/
 ---
 ## Shape::GetId method

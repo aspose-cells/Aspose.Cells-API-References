@@ -20,10 +20,10 @@ enum class EncryptionType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| XOR | 0 | <br> |
+| XOR | 0 | <br>XOR encryption algorithm. |
 | Compatible | 1 | <br>Office 97/2000 compatible. |
-| EnhancedCryptographicProviderV1 | 2 | <br> |
-| StrongCryptographicProvider | 3 | <br> |
+| EnhancedCryptographicProviderV1 | 2 | <br>Enhanced encryption. |
+| StrongCryptographicProvider | 3 | <br>Strong encryption algorithm. |
 
 ## See Also
 

@@ -4,7 +4,7 @@ linktitle: GetLeftCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetLeftCM method. Represents the horizontal offset of shape from its left column, in unit of centimeters in C++.'
 type: docs
-weight: 10000
+weight: 10200
 url: /cpp/aspose.cells.drawing/shape/getleftcm/
 ---
 ## Shape::GetLeftCM method

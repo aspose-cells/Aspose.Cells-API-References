@@ -4,7 +4,7 @@ linktitle: FormatCharacters
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::FormatCharacters method. Formats some characters with the font setting in C++.'
 type: docs
-weight: 16000
+weight: 16200
 url: /cpp/aspose.cells.drawing/shape/formatcharacters/
 ---
 ## Shape::FormatCharacters method

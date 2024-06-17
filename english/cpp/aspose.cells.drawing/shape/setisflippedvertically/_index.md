@@ -4,7 +4,7 @@ linktitle: SetIsFlippedVertically
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetIsFlippedVertically method. Gets and sets whether shape is vertically flipped  in C++.'
 type: docs
-weight: 13700
+weight: 13900
 url: /cpp/aspose.cells.drawing/shape/setisflippedvertically/
 ---
 ## Shape::SetIsFlippedVertically method

@@ -4,7 +4,7 @@ linktitle: SetHeightPt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetHeightPt method. Represents the height of the shape, in unit of points in C++.'
 type: docs
-weight: 9300
+weight: 9500
 url: /cpp/aspose.cells.drawing/shape/setheightpt/
 ---
 ## Shape::SetHeightPt method

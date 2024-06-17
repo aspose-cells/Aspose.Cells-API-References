@@ -4,7 +4,7 @@ linktitle: SetMinute
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::SetMinute method. Gets and sets the minute of the grouped date time in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells/datetimegroupitem/setminute/
 ---
 ## DateTimeGroupItem::SetMinute method

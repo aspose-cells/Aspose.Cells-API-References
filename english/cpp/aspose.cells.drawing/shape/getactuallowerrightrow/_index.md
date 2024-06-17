@@ -4,7 +4,7 @@ linktitle: GetActualLowerRightRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetActualLowerRightRow method. Get the actual bottom row in C++.'
 type: docs
-weight: 13800
+weight: 14000
 url: /cpp/aspose.cells.drawing/shape/getactuallowerrightrow/
 ---
 ## Shape::GetActualLowerRightRow method

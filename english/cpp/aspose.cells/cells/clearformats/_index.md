@@ -4,7 +4,7 @@ linktitle: ClearFormats
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::ClearFormats method. Clears formatting of a range in C++.'
 type: docs
-weight: 12100
+weight: 12200
 url: /cpp/aspose.cells/cells/clearformats/
 ---
 ## Cells::ClearFormats(const CellArea\&) method

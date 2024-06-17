@@ -27,6 +27,7 @@ class CustomFilterCollection
 | [Get(int32_t index)](./get/) | Gets the custom filter in the specific index. |
 | [GetAnd()](./getand/) | Indicates whether the two criteria have an "and" relationship. |
 | [GetCount()](./getcount/) |  |
+| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const CustomFilterCollection\& src)](./operator_asm/) | operator= |

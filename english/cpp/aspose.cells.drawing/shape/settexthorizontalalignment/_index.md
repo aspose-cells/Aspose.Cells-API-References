@@ -4,7 +4,7 @@ linktitle: SetTextHorizontalAlignment
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetTextHorizontalAlignment method. Gets and sets the text horizontal alignment type of the shape in C++.'
 type: docs
-weight: 17200
+weight: 17400
 url: /cpp/aspose.cells.drawing/shape/settexthorizontalalignment/
 ---
 ## Shape::SetTextHorizontalAlignment method

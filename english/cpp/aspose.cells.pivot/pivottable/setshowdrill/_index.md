@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::SetShowDrill method
 linktitle: SetShowDrill
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::SetShowDrill method. Gets whether expand/collapse buttons is shown in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::SetShowDrill method. Gets and sets whether showing expand/collapse buttons in C++.'
 type: docs
 weight: 6500
 url: /cpp/aspose.cells.pivot/pivottable/setshowdrill/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/setshowdrill/
 ## PivotTable::SetShowDrill method
 
 
-Gets whether expand/collapse buttons is shown.
+Gets and sets whether showing expand/collapse buttons.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::SetShowDrill(bool value)

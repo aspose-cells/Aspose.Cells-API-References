@@ -4,7 +4,7 @@ linktitle: GetControlData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetControlData method. Gets the data of control in C++.'
 type: docs
-weight: 17700
+weight: 17900
 url: /cpp/aspose.cells.drawing/shape/getcontroldata/
 ---
 ## Shape::GetControlData method

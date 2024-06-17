@@ -4,7 +4,7 @@ linktitle: Get_NumberFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::Get_NumberFormat method. Represents the custom display format of numbers and dates in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells.pivot/pivotfield/get_numberformat/
 ---
 ## PivotField::Get_NumberFormat method

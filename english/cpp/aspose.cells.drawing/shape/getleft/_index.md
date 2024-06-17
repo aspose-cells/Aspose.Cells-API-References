@@ -4,7 +4,7 @@ linktitle: GetLeft
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetLeft method. Represents the horizontal offset of shape from its left column, in unit of pixels in C++.'
 type: docs
-weight: 9600
+weight: 9800
 url: /cpp/aspose.cells.drawing/shape/getleft/
 ---
 ## Shape::GetLeft method

@@ -24,6 +24,7 @@ class DynamicFilter
 | [DynamicFilter(const IObject* obj)](./dynamicfilter/) | Constructs from an [IObject](../iobject/) convertible to this. |
 | [DynamicFilter(const DynamicFilter\& src)](./dynamicfilter/) | Copy constructor. |
 | [GetDynamicFilterType()](./getdynamicfiltertype/) | Gets and sets the dynamic filter type. |
+| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const DynamicFilter\& src)](./operator_asm/) | operator= |

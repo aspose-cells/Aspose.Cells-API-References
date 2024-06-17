@@ -4,7 +4,7 @@ linktitle: RemoveFormulas
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::RemoveFormulas method. Removes all formula and replaces with the value of the formula in C++.'
 type: docs
-weight: 13400
+weight: 13500
 url: /cpp/aspose.cells/cells/removeformulas/
 ---
 ## Cells::RemoveFormulas method

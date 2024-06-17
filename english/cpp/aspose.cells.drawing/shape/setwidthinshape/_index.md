@@ -4,7 +4,7 @@ linktitle: SetWidthInShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetWidthInShape method. Represents the width of the shape, in unit of 1/4000 of the parent shape in C++.'
 type: docs
-weight: 12500
+weight: 12700
 url: /cpp/aspose.cells.drawing/shape/setwidthinshape/
 ---
 ## Shape::SetWidthInShape method

@@ -4,7 +4,7 @@ linktitle: GetLeftToCorner
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetLeftToCorner method. Gets and sets the horizonal offset of shape from worksheet left border in C++.'
 type: docs
-weight: 11000
+weight: 11200
 url: /cpp/aspose.cells.drawing/shape/getlefttocorner/
 ---
 ## Shape::GetLeftToCorner method

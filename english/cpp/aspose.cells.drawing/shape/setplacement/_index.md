@@ -4,7 +4,7 @@ linktitle: SetPlacement
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetPlacement method. Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet in C++.'
 type: docs
-weight: 5900
+weight: 6100
 url: /cpp/aspose.cells.drawing/shape/setplacement/
 ---
 ## Shape::SetPlacement method

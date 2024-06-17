@@ -4,7 +4,7 @@ linktitle: SetLeftInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLeftInch method. Represents the horizontal offset of shape from its left column, in unit of inches in C++.'
 type: docs
-weight: 9900
+weight: 10100
 url: /cpp/aspose.cells.drawing/shape/setleftinch/
 ---
 ## Shape::SetLeftInch method

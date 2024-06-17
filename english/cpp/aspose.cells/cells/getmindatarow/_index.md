@@ -4,7 +4,7 @@ linktitle: GetMinDataRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetMinDataRow method. Minimum row index of cell which contains data in C++.'
 type: docs
-weight: 7900
+weight: 8000
 url: /cpp/aspose.cells/cells/getmindatarow/
 ---
 ## Cells::GetMinDataRow method

@@ -4,7 +4,7 @@ linktitle: GetFilterByFillColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::ColorFilter::GetFilterByFillColor method. Whether filter by the cell''s fill color in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/colorfilter/getfilterbyfillcolor/
 ---
 ## ColorFilter::GetFilterByFillColor method

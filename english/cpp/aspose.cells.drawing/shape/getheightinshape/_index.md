@@ -4,7 +4,7 @@ linktitle: GetHeightInShape
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetHeightInShape method. Represents the vertical offset of shape from the top border of the parent shape, in unit of 1/4000 of height of the parent shape in C++.'
 type: docs
-weight: 12600
+weight: 12800
 url: /cpp/aspose.cells.drawing/shape/getheightinshape/
 ---
 ## Shape::GetHeightInShape method

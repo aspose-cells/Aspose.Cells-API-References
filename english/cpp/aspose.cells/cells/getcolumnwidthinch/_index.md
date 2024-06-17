@@ -4,7 +4,7 @@ linktitle: GetColumnWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetColumnWidthInch method. Gets the width of the specified column in normal view, in units of inches in C++.'
 type: docs
-weight: 7200
+weight: 7300
 url: /cpp/aspose.cells/cells/getcolumnwidthinch/
 ---
 ## Cells::GetColumnWidthInch method

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Utility::JsonLayoutOptions::JsonLayoutOptions constructor
 linktitle: JsonLayoutOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Utility::JsonLayoutOptions::JsonLayoutOptions constructor. Default constructor in C++.'
+description: 'Aspose::Cells::Utility::JsonLayoutOptions::JsonLayoutOptions constructor. Constructor of loading JSON layout options in C++.'
 type: docs
 weight: 100
 url: /cpp/aspose.cells.utility/jsonlayoutoptions/jsonlayoutoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.utility/jsonlayoutoptions/jsonlayoutoptions/
 ## JsonLayoutOptions::JsonLayoutOptions() constructor
 
 
-Default constructor.
+Constructor of loading JSON layout options.
 
 ```cpp
 Aspose::Cells::Utility::JsonLayoutOptions::JsonLayoutOptions()

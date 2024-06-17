@@ -4,7 +4,7 @@ linktitle: SetWidthPt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetWidthPt method. Represents the width of the shape, in unit of point in C++.'
 type: docs
-weight: 8500
+weight: 8700
 url: /cpp/aspose.cells.drawing/shape/setwidthpt/
 ---
 ## Shape::SetWidthPt method

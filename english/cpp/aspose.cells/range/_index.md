@@ -76,6 +76,9 @@ class Range
 | [SetRowHeight(double value)](./setrowheight/) | Sets or gets the height of rows in this range. |
 | [SetStyle(const Style\& style, bool explicitFlag)](./setstyle/) | Apply the cell style. |
 | [SetStyle(const Style\& style)](./setstyle/) | Sets the style of the range. |
+| [ToHtml(const HtmlSaveOptions\& saveOptions)](./tohtml/) | Convert the range to html . |
+| [ToImage(const ImageOrPrintOptions\& options)](./toimage/) | Converts the range to image. |
+| [ToJson(const JsonSaveOptions\& options)](./tojson/) | Convert the range to JSON value. |
 | [ToString()](./tostring/) | Returns a string represents the current [Range](./) object. |
 | [Transpose()](./transpose/) | Transpose (rotate) data from rows to columns or vice versa. |
 | [UnionRang(const Range\& range)](./unionrang/) |  **(Deprecated)** Returns the union result of two ranges. |

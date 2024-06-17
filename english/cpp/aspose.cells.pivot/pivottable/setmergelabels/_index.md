@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::SetMergeLabels method
 linktitle: SetMergeLabels
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::SetMergeLabels method. Indicates whether the specified PivotTable report''s outer-row item, column item, subtotal, and grand total labels use merged cells in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::SetMergeLabels method. True if the specified PivotTable report''s outer-row item, column item, subtotal, and grand total labels use merged cells in C++.'
 type: docs
 weight: 6100
 url: /cpp/aspose.cells.pivot/pivottable/setmergelabels/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/setmergelabels/
 ## PivotTable::SetMergeLabels method
 
 
-Indicates whether the specified [PivotTable](../) report's outer-row item, column item, subtotal, and grand total labels use merged cells.
+True if the specified [PivotTable](../) report's outer-row item, column item, subtotal, and grand total labels use merged cells.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::SetMergeLabels(bool value)

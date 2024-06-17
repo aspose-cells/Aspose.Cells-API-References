@@ -4,7 +4,7 @@ linktitle: GetWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetWidth method. Represents the width of shape, in unit of pixels in C++.'
 type: docs
-weight: 8000
+weight: 8200
 url: /cpp/aspose.cells.drawing/shape/getwidth/
 ---
 ## Shape::GetWidth method

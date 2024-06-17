@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::IsPrintable method
 linktitle: IsPrintable
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::IsPrintable method. True if the object is printable in C++.'
+description: 'Aspose::Cells::Drawing::Shape::IsPrintable method. Indicates whether the object is printable. If False, this shape will not be printed when printing in C++.'
 type: docs
-weight: 5100
+weight: 5300
 url: /cpp/aspose.cells.drawing/shape/isprintable/
 ---
 ## Shape::IsPrintable method
 
 
-True if the object is printable.
+Indicates whether the object is printable. If False, this shape will not be printed when printing.
 
 ```cpp
 bool Aspose::Cells::Drawing::Shape::IsPrintable()

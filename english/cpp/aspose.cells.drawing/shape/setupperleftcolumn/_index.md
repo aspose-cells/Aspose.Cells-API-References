@@ -4,7 +4,7 @@ linktitle: SetUpperLeftColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetUpperLeftColumn method. Represents upper left corner column index in C++.'
 type: docs
-weight: 6500
+weight: 6700
 url: /cpp/aspose.cells.drawing/shape/setupperleftcolumn/
 ---
 ## Shape::SetUpperLeftColumn method

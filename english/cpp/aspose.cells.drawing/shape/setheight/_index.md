@@ -4,7 +4,7 @@ linktitle: SetHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetHeight method. Represents the height of shape, in unit of pixel in C++.'
 type: docs
-weight: 8900
+weight: 9100
 url: /cpp/aspose.cells.drawing/shape/setheight/
 ---
 ## Shape::SetHeight method

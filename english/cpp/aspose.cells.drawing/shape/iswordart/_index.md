@@ -4,7 +4,7 @@ linktitle: IsWordArt
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::IsWordArt method. Indicates whether this shape is a word art in C++.'
 type: docs
-weight: 4700
+weight: 4900
 url: /cpp/aspose.cells.drawing/shape/iswordart/
 ---
 ## Shape::IsWordArt method

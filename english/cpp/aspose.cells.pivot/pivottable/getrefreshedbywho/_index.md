@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::GetRefreshedByWho method
 linktitle: GetRefreshedByWho
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetRefreshedByWho method. Gets the name of the user who last refreshed the PivotTable in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetRefreshedByWho method. Gets the name of the last user who refreshed this PivotTable in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells.pivot/pivottable/getrefreshedbywho/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/getrefreshedbywho/
 ## PivotTable::GetRefreshedByWho method
 
 
-Gets the name of the user who last refreshed the [PivotTable](../).
+Gets the name of the last user who refreshed this [PivotTable](../).
 
 ```cpp
 U16String Aspose::Cells::Pivot::PivotTable::GetRefreshedByWho()

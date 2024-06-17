@@ -31,6 +31,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotItemCollection](./pivotitemcollection/) | Represents a collection of all the [PivotItem](./pivotitem/) objects in the [PivotField](./pivotfield/)'s. |
 | [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |
 | [PivotPageFields](./pivotpagefields/) | Represents the pivot page field items if the pivot table data source is consolidation ranges. It only can contain up to 4 fields. |
+| [PivotShowValuesSetting](./pivotshowvaluessetting/) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](./pivottable/) | Summary description for [PivotTable](./pivottable/). |
 | [PivotTableCollection](./pivottablecollection/) | Represents the collection of all the [PivotTable](./pivottable/) objects on the specified worksheet. |
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the [PivotTable](./pivottable/). |
@@ -50,6 +51,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotFilterType](./pivotfiltertype/) | Represents [PivotTable](./pivottable/) Filter type. |
 | [PivotGroupByType](./pivotgroupbytype/) | Represents group by type. |
 | [PivotItemPosition](./pivotitemposition/) | Represents [PivotTable](./pivottable/) base item Next/Previous/All position in the base field . |
+| [PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotMissingItemLimitType](./pivotmissingitemlimittype/) | Represents number of items to retain per field. |
 | [PivotTableAutoFormatType](./pivottableautoformattype/) | Represents [PivotTable](./pivottable/) auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a [PivotTable](./pivottable/) during a structured selection. These constants can be combined to select multiple types. |

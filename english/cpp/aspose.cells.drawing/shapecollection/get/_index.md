@@ -2,7 +2,7 @@
 title: Aspose::Cells::Drawing::ShapeCollection::Get method
 linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::ShapeCollection::Get method. Gets the shape object at the specific index in C++.'
+description: 'Aspose::Cells::Drawing::ShapeCollection::Get method. Gets the Shape object at the specific index in the list in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.drawing/shapecollection/get/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.drawing/shapecollection/get/
 ## ShapeCollection::Get(int32_t) method
 
 
-Gets the shape object at the specific index.
+Gets the [Shape](../../shape/) object at the specific index in the list.
 
 ```cpp
 Shape Aspose::Cells::Drawing::ShapeCollection::Get(int32_t index)
@@ -19,7 +19,7 @@ Shape Aspose::Cells::Drawing::ShapeCollection::Get(int32_t index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int32_t |  |
+| index | int32_t | The index. |
 
 ## ReturnValue
 
@@ -30,8 +30,8 @@ Shape Aspose::Cells::Drawing::ShapeCollection::Get(int32_t index)
 
 
 ```cpp
-    //get the shape
-Shape shape = shapes.Get(shapes.GetCount() - 1);
+//get the first shape
+Shape shape = shapes.Get(0);
 ```
 
 ## See Also
@@ -44,7 +44,7 @@ Shape shape = shapes.Get(shapes.GetCount() - 1);
 ## ShapeCollection::Get(const U16String\&) method
 
 
-Gets the shape object by the shape image.
+Gets the [Shape](../../shape/) object by the name of the shape.
 
 ```cpp
 Shape Aspose::Cells::Drawing::ShapeCollection::Get(const U16String &name)
@@ -53,7 +53,7 @@ Shape Aspose::Cells::Drawing::ShapeCollection::Get(const U16String &name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const U16String\& |  |
+| name | const U16String\& | The name of the shape. |
 
 ## ReturnValue
 
@@ -66,7 +66,7 @@ Shape Aspose::Cells::Drawing::ShapeCollection::Get(const U16String &name)
 ```cpp
     //add a shape
 shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-//get the shape
+//get the shape by the name.
 U16String val = u"Rectangle 1";
 Shape shape1 = shapes.Get(val);
 if (!shape1.IsNull())
@@ -86,7 +86,7 @@ if (!shape1.IsNull())
 ## ShapeCollection::Get(const char16_t*) method
 
 
-Gets the shape object by the shape image.
+Gets the [Shape](../../shape/) object by the name of the shape.
 
 ```cpp
 Shape Aspose::Cells::Drawing::ShapeCollection::Get(const char16_t *name)
@@ -95,7 +95,7 @@ Shape Aspose::Cells::Drawing::ShapeCollection::Get(const char16_t *name)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | const char16_t* |  |
+| name | const char16_t* | The name of the shape. |
 
 ## ReturnValue
 

@@ -4,7 +4,7 @@ linktitle: GetDependentsInCalculation
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetDependentsInCalculation method. Gets all cells whose calculated result depends on specific cell in C++.'
 type: docs
-weight: 13800
+weight: 13900
 url: /cpp/aspose.cells/cells/getdependentsincalculation/
 ---
 ## Cells::GetDependentsInCalculation method

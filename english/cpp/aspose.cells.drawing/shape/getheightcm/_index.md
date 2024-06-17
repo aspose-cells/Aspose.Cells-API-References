@@ -4,7 +4,7 @@ linktitle: GetHeightCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetHeightCM method. Represents the height of the shape, in unit of centimeters in C++.'
 type: docs
-weight: 9400
+weight: 9600
 url: /cpp/aspose.cells.drawing/shape/getheightcm/
 ---
 ## Shape::GetHeightCM method

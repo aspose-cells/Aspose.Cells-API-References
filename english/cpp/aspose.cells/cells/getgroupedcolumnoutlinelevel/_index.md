@@ -4,7 +4,7 @@ linktitle: GetGroupedColumnOutlineLevel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetGroupedColumnOutlineLevel method. Gets the outline level (zero-based) of the column in C++.'
 type: docs
-weight: 9700
+weight: 9800
 url: /cpp/aspose.cells/cells/getgroupedcolumnoutlinelevel/
 ---
 ## Cells::GetGroupedColumnOutlineLevel method

@@ -4,7 +4,7 @@ linktitle: SetIsFilled
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetIsFilled method. Indicates whether the fill format is visible in C++.'
 type: docs
-weight: 13300
+weight: 13500
 url: /cpp/aspose.cells.drawing/shape/setisfilled/
 ---
 ## Shape::SetIsFilled method

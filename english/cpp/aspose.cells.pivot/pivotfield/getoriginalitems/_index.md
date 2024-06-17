@@ -4,7 +4,7 @@ linktitle: GetOriginalItems
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetOriginalItems method. Get the original base items; in C++.'
 type: docs
-weight: 9000
+weight: 9200
 url: /cpp/aspose.cells.pivot/pivotfield/getoriginalitems/
 ---
 ## PivotField::GetOriginalItems method

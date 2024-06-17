@@ -13,7 +13,7 @@ url: /cpp/aspose.cells/customfunctiondefinition/getarraymodeparameters/
 Gets the indices of given custom function's parameters that need to be calculated in array mode.
 
 ```cpp
-Vector<int32_t> Aspose::Cells::CustomFunctionDefinition::GetArrayModeParameters(const U16String &functionName)
+virtual Vector<int32_t> Aspose::Cells::CustomFunctionDefinition::GetArrayModeParameters(const U16String &functionName)
 ```
 
 
@@ -42,7 +42,7 @@ For an expression that needs to be calculated, taking A:A+B:B as an example: Gen
 Gets the indices of given custom function's parameters that need to be calculated in array mode.
 
 ```cpp
-Vector<int32_t> Aspose::Cells::CustomFunctionDefinition::GetArrayModeParameters(const char16_t *functionName)
+virtual Vector<int32_t> Aspose::Cells::CustomFunctionDefinition::GetArrayModeParameters(const char16_t *functionName)
 ```
 
 

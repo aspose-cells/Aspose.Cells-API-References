@@ -4,7 +4,7 @@ linktitle: GetTextOfSubTotal
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Settings::PivotGlobalizationSettings::GetTextOfSubTotal method. Gets the text of PivotFieldSubtotalType type in the PivotTable in C++.'
 type: docs
-weight: 1500
+weight: 2500
 url: /cpp/aspose.cells.settings/pivotglobalizationsettings/gettextofsubtotal/
 ---
 ## PivotGlobalizationSettings::GetTextOfSubTotal method

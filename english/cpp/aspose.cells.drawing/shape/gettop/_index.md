@@ -4,7 +4,7 @@ linktitle: GetTop
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTop method. Represents the vertical offset of shape from its top row, in unit of pixels in C++.'
 type: docs
-weight: 10200
+weight: 10400
 url: /cpp/aspose.cells.drawing/shape/gettop/
 ---
 ## Shape::GetTop method

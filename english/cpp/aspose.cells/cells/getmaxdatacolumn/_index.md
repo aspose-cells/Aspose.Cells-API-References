@@ -4,7 +4,7 @@ linktitle: GetMaxDataColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetMaxDataColumn method. Maximum column index of cell which contains data in C++.'
 type: docs
-weight: 8200
+weight: 8300
 url: /cpp/aspose.cells/cells/getmaxdatacolumn/
 ---
 ## Cells::GetMaxDataColumn method

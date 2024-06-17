@@ -20,6 +20,7 @@ class Top10Filter
 
 | Method | Description |
 | --- | --- |
+| [GetIObject()](./getiobject/) | Gets the [IObject](../iobject/) pointer of this object. |
 | [GetItems()](./getitems/) | Gets and sets the items of the filter. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsPercent()](./ispercent/) | Indicates whether the items is percent. |

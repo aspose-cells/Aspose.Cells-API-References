@@ -4,7 +4,7 @@ linktitle: DeleteRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::DeleteRow method. Deletes a row in C++.'
 type: docs
-weight: 10900
+weight: 11000
 url: /cpp/aspose.cells/cells/deleterow/
 ---
 ## Cells::DeleteRow(int32_t) method

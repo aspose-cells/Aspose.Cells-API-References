@@ -4,7 +4,7 @@ linktitle: GetMatchBlank
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MultipleFilterCollection::GetMatchBlank method. Indicates whether to filter by blank in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/multiplefiltercollection/getmatchblank/
 ---
 ## MultipleFilterCollection::GetMatchBlank method

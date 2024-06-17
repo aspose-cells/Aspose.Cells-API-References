@@ -4,7 +4,7 @@ linktitle: DeleteBlankColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::DeleteBlankColumns method. Delete all blank columns which do not contain any data in C++.'
 type: docs
-weight: 11100
+weight: 11200
 url: /cpp/aspose.cells/cells/deleteblankcolumns/
 ---
 ## Cells::DeleteBlankColumns() method

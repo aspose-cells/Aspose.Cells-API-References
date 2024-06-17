@@ -4,7 +4,7 @@ linktitle: SetYear
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::SetYear method. Gets and sets the year of the grouped date time in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells/datetimegroupitem/setyear/
 ---
 ## DateTimeGroupItem::SetYear method

@@ -84,7 +84,7 @@ class Chart
 | [Move(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](./move/) | Moves the chart to a specified location. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Chart\& src)](./operator_asm/) | operator= |
-| [RefreshPivotData()](./refreshpivotdata/) | Refreshes pivot chart's data from it's pivot data source. |
+| [RefreshPivotData()](./refreshpivotdata/) | Refreshes chart's data from pivot table. |
 | [SetAutoScaling(bool value)](./setautoscaling/) | True if Microsoft Excel scales a 3-D chart so that it's closer in size to the equivalent 2-D chart. The RightAngleAxes property must be True. |
 | [SetChartDataRange(const U16String\& area, bool isVertical)](./setchartdatarange/) | Specifies data range for a chart. |
 | [SetChartDataRange(const char16_t* area, bool isVertical)](./setchartdatarange/) | Specifies data range for a chart. |

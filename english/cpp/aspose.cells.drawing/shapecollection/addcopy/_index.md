@@ -13,21 +13,21 @@ url: /cpp/aspose.cells.drawing/shapecollection/addcopy/
 Adds and copy a shape to the worksheet.
 
 ```cpp
-Shape Aspose::Cells::Drawing::ShapeCollection::AddCopy(const Shape &sourceShape, int32_t upperLeftRow, int32_t top, int32_t upperLeftColumn, int32_t left)
+Shape Aspose::Cells::Drawing::ShapeCollection::AddCopy(const Shape &sourceShape, int32_t topRow, int32_t top, int32_t leftColumn, int32_t left)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | const Shape\& | Source shape. |
-| upperLeftRow | int32_t | Upper left row index. |
-| top | int32_t | Represents the vertical offset of checkbox from its left row, in unit of pixel. |
-| upperLeftColumn | int32_t | Upper left column index. |
-| left | int32_t | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
+| topRow | int32_t | The top row index. |
+| top | int32_t | Represents the vertical offset from its top row, in unit of pixel. |
+| leftColumn | int32_t | The left column index. |
+| left | int32_t | Represents the horizontal offset from its left column, in unit of pixel. |
 
 ## ReturnValue
 
-The new shape object index.
+The new [Shape](../../shape/) object.
 
 
 ## Examples
@@ -36,7 +36,7 @@ The new shape object index.
 ```cpp
     //add a shape
 RectangleShape rectangle = shapes.AddRectangle(2, 0, 2, 0, 130, 130);
-//copy
+//Adds and copies a shape.
 shapes.AddCopy(rectangle, 7, 0, 7, 0);
 ```
 

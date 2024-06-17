@@ -4,7 +4,7 @@ linktitle: GetTextOrientationType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTextOrientationType method. Gets and sets the text orientation type of the shape in C++.'
 type: docs
-weight: 16900
+weight: 17100
 url: /cpp/aspose.cells.drawing/shape/gettextorientationtype/
 ---
 ## Shape::GetTextOrientationType method

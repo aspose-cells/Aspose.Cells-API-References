@@ -4,7 +4,7 @@ linktitle: SetLowerDeltaX
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLowerDeltaX method. Gets or sets the shape''s horizontal offset from its lower right corner column in C++.'
 type: docs
-weight: 7500
+weight: 7700
 url: /cpp/aspose.cells.drawing/shape/setlowerdeltax/
 ---
 ## Shape::SetLowerDeltaX method

@@ -4,7 +4,7 @@ linktitle: AddHyperlink
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::AddHyperlink method. Adds a hyperlink to the shape in C++.'
 type: docs
-weight: 3600
+weight: 3800
 url: /cpp/aspose.cells.drawing/shape/addhyperlink/
 ---
 ## Shape::AddHyperlink(const U16String\&) method

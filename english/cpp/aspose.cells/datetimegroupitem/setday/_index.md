@@ -4,7 +4,7 @@ linktitle: SetDay
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DateTimeGroupItem::SetDay method. Gets and sets the day of the grouped date time in C++.'
 type: docs
-weight: 1400
+weight: 1500
 url: /cpp/aspose.cells/datetimegroupitem/setday/
 ---
 ## DateTimeGroupItem::SetDay method

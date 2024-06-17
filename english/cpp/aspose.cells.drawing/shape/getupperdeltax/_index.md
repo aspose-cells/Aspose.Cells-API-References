@@ -4,7 +4,7 @@ linktitle: GetUpperDeltaX
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetUpperDeltaX method. Gets or sets the shape''s horizontal offset from its upper left corner column in C++.'
 type: docs
-weight: 6600
+weight: 6800
 url: /cpp/aspose.cells.drawing/shape/getupperdeltax/
 ---
 ## Shape::GetUpperDeltaX method

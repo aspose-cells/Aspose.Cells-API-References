@@ -4,7 +4,7 @@ linktitle: GetViewColumnWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::GetViewColumnWidthPixel method. Get the width in different view type in C++.'
 type: docs
-weight: 7300
+weight: 7400
 url: /cpp/aspose.cells/cells/getviewcolumnwidthpixel/
 ---
 ## Cells::GetViewColumnWidthPixel method

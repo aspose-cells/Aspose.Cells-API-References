@@ -4,7 +4,7 @@ linktitle: GetDynamicFilterType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::DynamicFilter::GetDynamicFilterType method. Gets and sets the dynamic filter type in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells/dynamicfilter/getdynamicfiltertype/
 ---
 ## DynamicFilter::GetDynamicFilterType method

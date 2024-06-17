@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::TickLabels::GetTickLabelItems method
 linktitle: GetTickLabelItems
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::TickLabels::GetTickLabelItems method. Gets each tick label item''s information of axis in C++.'
+description: 'Aspose::Cells::Charts::TickLabels::GetTickLabelItems method. Gets the display tick labels of the axis in C++.'
 type: docs
 weight: 2800
 url: /cpp/aspose.cells.charts/ticklabels/getticklabelitems/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/ticklabels/getticklabelitems/
 ## TickLabels::GetTickLabelItems method
 
 
-Gets each tick label item's information of axis.
+Gets the display tick labels of the axis.
 
 ```cpp
 Vector<TickLabelItem> Aspose::Cells::Charts::TickLabels::GetTickLabelItems()

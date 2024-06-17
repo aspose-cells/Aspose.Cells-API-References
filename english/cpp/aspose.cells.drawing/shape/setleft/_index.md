@@ -4,7 +4,7 @@ linktitle: SetLeft
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLeft method. Represents the horizontal offset of shape from its left column, in unit of pixels in C++.'
 type: docs
-weight: 9700
+weight: 9900
 url: /cpp/aspose.cells.drawing/shape/setleft/
 ---
 ## Shape::SetLeft method

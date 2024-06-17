@@ -30,7 +30,7 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [GetActualBox()](../shape/getactualbox/) | Get the actual position and size of the shape (after applying rotation, flip, etc.) |
 | [GetActualLowerRightRow()](../shape/getactuallowerrightrow/) | Get the actual bottom row. |
 | [GetAlternativeText()](../shape/getalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
-| [GetAnchorType()](../shape/getanchortype/) | Gets and set the shape anchor placeholder. |
+| [GetAnchorType()](../shape/getanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [GetAutoShapeType()](../shape/getautoshapetype/) | Gets and sets the auto shape type. |
 | [GetBottom()](../shape/getbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [GetControlData()](../shape/getcontroldata/) | Gets the data of control. |
@@ -67,7 +67,7 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [GetLowerRightColumn()](../shape/getlowerrightcolumn/) | Represents lower right corner column index. |
 | [GetLowerRightRow()](../shape/getlowerrightrow/) | Represents lower right corner row index. |
 | [GetMacroName()](../shape/getmacroname/) | Gets and sets the name of macro. |
-| [GetMsoDrawingType()](../shape/getmsodrawingtype/) | Gets mso drawing type. |
+| [GetMsoDrawingType()](../shape/getmsodrawingtype/) | Gets drawing type. |
 | [GetName()](../shape/getname/) | Gets and sets the name of the shape. |
 | [GetPaths()](../shape/getpaths/) | Gets the paths of a custom geometric shape. |
 | [GetPlacement()](../shape/getplacement/) | Represents the way the drawing object is attached to the cells below it. The property controls the placement of an object on a worksheet. |
@@ -80,9 +80,9 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [GetShadow()](./getshadow/) | Indicates whether the groupbox has shadow. |
 | [GetShadowEffect()](../shape/getshadoweffect/) | Represents a [Drawing.ShadowEffect](../shadoweffect/) object that specifies shadow effect for the chart element or shape. |
 | [GetSoftEdges()](../shape/getsoftedges/) | Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [GetSpid()](../shape/getspid/) | Specifies an optional string that an application can use to Identify the particular shape. |
+| [GetSpid()](../shape/getspid/) | Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [GetSpt()](../shape/getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [GetText()](../shape/gettext/) | Represents the string in this [TextBox](../textbox/) object. |
+| [GetText()](../shape/gettext/) | Gets and sets the text of this shape. |
 | [GetTextBody()](../shape/gettextbody/) | Gets and sets the setting of the shape's text. |
 | [GetTextDirection()](../shape/gettextdirection/) | Gets/Sets the direction of the text flow for this object. |
 | [GetTextEffect()](../shape/gettexteffect/) | Returns a [TextEffectFormat](../texteffectformat/) object that contains text-effect formatting properties for the specified shape. Applies to [Shape](../shape/) objects that represent WordArt. |
@@ -104,7 +104,7 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [GetUpperDeltaX()](../shape/getupperdeltax/) | Gets or sets the shape's horizontal offset from its upper left corner column. |
 | [GetUpperDeltaY()](../shape/getupperdeltay/) | Gets or sets the shape's vertical offset from its upper left corner row. |
 | [GetUpperLeftColumn()](../shape/getupperleftcolumn/) | Represents upper left corner column index. |
-| [GetUpperLeftRow()](../shape/getupperleftrow/) | Represents upper left corner row index. |
+| [GetUpperLeftRow()](../shape/getupperleftrow/) | Represents the top row index. |
 | [GetWidth()](../shape/getwidth/) | Represents the width of shape, in unit of pixels. |
 | [GetWidthCM()](../shape/getwidthcm/) | Represents the width of the shape, in unit of centimeters. |
 | [GetWidthInch()](../shape/getwidthinch/) | Represents the width of the shape, in unit of inch. |
@@ -118,19 +118,20 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [GroupBox(GroupBox_Impl* impl)](./groupbox/) | Constructs from an implementation object. |
 | [GroupBox(const GroupBox\& src)](./groupbox/) | Copy constructor. |
 | [GroupBox(const Shape\& src)](./groupbox/) | Constructs from a parent object. |
+| [IsAspectRatioLocked()](../shape/isaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
 | [IsEquation()](../shape/isequation/) | Indicates whether the shape only contains an equation. |
 | [IsFilled()](../shape/isfilled/) | Indicates whether the fill format is visible. |
 | [IsFlippedHorizontally()](../shape/isflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
 | [IsFlippedVertically()](../shape/isflippedvertically/) | Gets and sets whether shape is vertically flipped . |
-| [IsGroup()](../shape/isgroup/) | Indicates whether the shape is a group. |
+| [IsGroup()](../shape/isgroup/) | Indicates whether this shape is a group shape. |
 | [IsHidden()](../shape/ishidden/) | Indicates whether the object is visible. |
 | [IsInGroup()](../shape/isingroup/) | Indicates whether the shape is grouped. |
-| [IsLockAspectRatio()](../shape/islockaspectratio/) | True means that don't allow changes in aspect ratio. |
-| [IsLocked()](../shape/islocked/) | True if the object is locked, False if the object can be modified when the sheet is protected. |
+| [IsLockAspectRatio()](../shape/islockaspectratio/) |  **(Deprecated)** True means that aspect ratio of the shape is locked. |
+| [IsLocked()](../shape/islocked/) | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsPrintable()](../shape/isprintable/) | True if the object is printable. |
+| [IsPrintable()](../shape/isprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [IsRichText()](../shape/isrichtext/) | Whether or not the text is rich text. |
-| [IsSmartArt()](../shape/issmartart/) | Indicates whether the shape is smart art. |
+| [IsSmartArt()](../shape/issmartart/) | Indicates whether the shape is a smart art. |
 | [IsTextWrapped()](../shape/istextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [IsWordArt()](../shape/iswordart/) | Indicates whether this shape is a word art. |
 | [MoveToRange(int32_t upperLeftRow, int32_t upperLeftColumn, int32_t lowerRightRow, int32_t lowerRightColumn)](../shape/movetorange/) | Moves the shape to a specified range. |
@@ -138,10 +139,10 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [operator=(const GroupBox\& src)](./operator_asm/) | operator= |
 | [operator=(const Shape\& src)](../shape/operator_asm/) | operator= |
 | [RemoveActiveXControl()](../shape/removeactivexcontrol/) | Remove activeX control. |
-| [RemoveHyperlink()](../shape/removehyperlink/) | Remove the hyperlink of the shape. |
+| [RemoveHyperlink()](../shape/removehyperlink/) | Removes the hyperlink of the shape. |
 | [SetAlternativeText(const U16String\& value)](../shape/setalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
 | [SetAlternativeText(const char16_t* value)](../shape/setalternativetext/) | Returns or sets the descriptive (alternative) text string of the [Shape](../shape/) object. |
-| [SetAnchorType(ShapeAnchorType value)](../shape/setanchortype/) | Gets and set the shape anchor placeholder. |
+| [SetAnchorType(ShapeAnchorType value)](../shape/setanchortype/) | Gets and set the type of the shape anchor placeholder. |
 | [SetAutoShapeType(AutoShapeType value)](../shape/setautoshapetype/) | Gets and sets the auto shape type. |
 | [SetBottom(int32_t value)](../shape/setbottom/) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [SetCreateId(const UUID\& value)](../shape/setcreateid/) | Gets and sets create id for this shape. |
@@ -159,13 +160,14 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [SetInputRange(const char16_t* value)](../shape/setinputrange/) | Gets or sets the worksheet range used to fill the specified combo box. |
 | [SetInputRange(const U16String\& formula, bool isR1C1, bool isLocal)](../shape/setinputrange/) | Sets the range used to fill the control. |
 | [SetInputRange(const char16_t* formula, bool isR1C1, bool isLocal)](../shape/setinputrange/) | Sets the range used to fill the control. |
+| [SetIsAspectRatioLocked(bool value)](../shape/setisaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
 | [SetIsFilled(bool value)](../shape/setisfilled/) | Indicates whether the fill format is visible. |
 | [SetIsFlippedHorizontally(bool value)](../shape/setisflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
 | [SetIsFlippedVertically(bool value)](../shape/setisflippedvertically/) | Gets and sets whether shape is vertically flipped . |
 | [SetIsHidden(bool value)](../shape/setishidden/) | Indicates whether the object is visible. |
-| [SetIsLockAspectRatio(bool value)](../shape/setislockaspectratio/) | True means that don't allow changes in aspect ratio. |
-| [SetIsLocked(bool value)](../shape/setislocked/) | True if the object is locked, False if the object can be modified when the sheet is protected. |
-| [SetIsPrintable(bool value)](../shape/setisprintable/) | True if the object is printable. |
+| [SetIsLockAspectRatio(bool value)](../shape/setislockaspectratio/) |  **(Deprecated)** True means that aspect ratio of the shape is locked. |
+| [SetIsLocked(bool value)](../shape/setislocked/) | True means the object can not be modified when the sheet is protected. Note that this value is meaningful only if the worksheet or objects in the worksheet are protected. |
+| [SetIsPrintable(bool value)](../shape/setisprintable/) | Indicates whether the object is printable. If False, this shape will not be printed when printing. |
 | [SetIsTextWrapped(bool value)](../shape/setistextwrapped/) | Gets and sets the text wrapped type of the shape which contains text. |
 | [SetLeft(int32_t value)](../shape/setleft/) | Represents the horizontal offset of shape from its left column, in unit of pixels. |
 | [SetLeftCM(double value)](../shape/setleftcm/) | Represents the horizontal offset of shape from its left column, in unit of centimeters. |
@@ -191,8 +193,8 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [SetRotationAngle(double value)](../shape/setrotationangle/) | Gets and sets the rotation of the shape. |
 | [SetShadow(bool value)](./setshadow/) | Indicates whether the groupbox has shadow. |
 | [SetSoftEdges(double value)](../shape/setsoftedges/) | Gets and sets the radius of blur to apply to the edges, in unit of points. |
-| [SetText(const U16String\& value)](../shape/settext/) | Represents the string in this [TextBox](../textbox/) object. |
-| [SetText(const char16_t* value)](../shape/settext/) | Represents the string in this [TextBox](../textbox/) object. |
+| [SetText(const U16String\& value)](../shape/settext/) | Gets and sets the text of this shape. |
+| [SetText(const char16_t* value)](../shape/settext/) | Gets and sets the text of this shape. |
 | [SetTextDirection(TextDirectionType value)](../shape/settextdirection/) | Gets/Sets the direction of the text flow for this object. |
 | [SetTextHorizontalAlignment(TextAlignmentType value)](../shape/settexthorizontalalignment/) | Gets and sets the text horizontal alignment type of the shape. |
 | [SetTextHorizontalOverflow(TextOverflowType value)](../shape/settexthorizontaloverflow/) | Gets and sets the text horizontal overflow type of the shape which contains text. |
@@ -211,7 +213,7 @@ class GroupBox : public Aspose::Cells::Drawing::Shape
 | [SetUpperDeltaX(int32_t value)](../shape/setupperdeltax/) | Gets or sets the shape's horizontal offset from its upper left corner column. |
 | [SetUpperDeltaY(int32_t value)](../shape/setupperdeltay/) | Gets or sets the shape's vertical offset from its upper left corner row. |
 | [SetUpperLeftColumn(int32_t value)](../shape/setupperleftcolumn/) | Represents upper left corner column index. |
-| [SetUpperLeftRow(int32_t value)](../shape/setupperleftrow/) | Represents upper left corner row index. |
+| [SetUpperLeftRow(int32_t value)](../shape/setupperleftrow/) | Represents the top row index. |
 | [SetWidth(int32_t value)](../shape/setwidth/) | Represents the width of shape, in unit of pixels. |
 | [SetWidthCM(double value)](../shape/setwidthcm/) | Represents the width of the shape, in unit of centimeters. |
 | [SetWidthInch(double value)](../shape/setwidthinch/) | Represents the width of the shape, in unit of inch. |

@@ -4,7 +4,7 @@ linktitle: IsDeletingRangeEnabled
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::IsDeletingRangeEnabled method. Check whether the range could be deleted in C++.'
 type: docs
-weight: 10800
+weight: 10900
 url: /cpp/aspose.cells/cells/isdeletingrangeenabled/
 ---
 ## Cells::IsDeletingRangeEnabled method

@@ -4,7 +4,7 @@ linktitle: GetHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetHeight method. Represents the height of shape, in unit of pixel in C++.'
 type: docs
-weight: 8800
+weight: 9000
 url: /cpp/aspose.cells.drawing/shape/getheight/
 ---
 ## Shape::GetHeight method

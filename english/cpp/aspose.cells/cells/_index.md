@@ -109,7 +109,7 @@ class Cells
 | [GetPreserveString()](./getpreservestring/) | Gets or sets a value indicating whether all worksheet values are preserved as strings. Default is false. |
 | [GetRanges()](./getranges/) | Gets the collection of [Range](../range/) objects created at run time. |
 | [GetRow(int32_t row)](./getrow/) |  **(Deprecated)** Gets the [Row](../row/) element at the specified cell row index. |
-| [GetRowHeight(int32_t row, bool isOriginal, CellsUnitType unitType)](./getrowheight/) | Gets original row's height. |
+| [GetRowHeight(int32_t row, bool isOriginal, CellsUnitType unitType)](./getrowheight/) | Gets row's height. |
 | [GetRowHeight(int32_t row)](./getrowheight/) | Gets the height of a specified row, in unit of points. |
 | [GetRowHeightInch(int32_t row)](./getrowheightinch/) | Gets the height of a specified row in unit of inches. |
 | [GetRowHeightPixel(int32_t row)](./getrowheightpixel/) | Gets the height of a specified row in unit of pixel. |
@@ -124,6 +124,7 @@ class Cells
 | [GetStyle()](./getstyle/) | Gets and sets the default style of the worksheet. |
 | [GetViewColumnWidthPixel(int32_t column)](./getviewcolumnwidthpixel/) | Get the width in different view type. |
 | [GetViewRowHeight(int32_t row)](./getviewrowheight/) | Gets the height of a specified row. |
+| [GetViewRowHeightInch(int32_t row)](./getviewrowheightinch/) | Gets the height of a specified row in unit of inches. |
 | [GroupColumns(int32_t firstIndex, int32_t lastIndex)](./groupcolumns/) | Groups columns. |
 | [GroupColumns(int32_t firstIndex, int32_t lastIndex, bool isHidden)](./groupcolumns/) | Groups columns. |
 | [GroupRows(int32_t firstIndex, int32_t lastIndex, bool isHidden)](./grouprows/) | Groups rows. |

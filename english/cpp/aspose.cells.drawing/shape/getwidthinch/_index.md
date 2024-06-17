@@ -4,7 +4,7 @@ linktitle: GetWidthInch
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetWidthInch method. Represents the width of the shape, in unit of inch in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells.drawing/shape/getwidthinch/
 ---
 ## Shape::GetWidthInch method

@@ -4,7 +4,7 @@ linktitle: SetAutoShapeType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetAutoShapeType method. Gets and sets the auto shape type in C++.'
 type: docs
-weight: 5500
+weight: 5700
 url: /cpp/aspose.cells.drawing/shape/setautoshapetype/
 ---
 ## Shape::SetAutoShapeType method

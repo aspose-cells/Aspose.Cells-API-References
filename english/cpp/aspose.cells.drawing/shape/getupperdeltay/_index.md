@@ -4,7 +4,7 @@ linktitle: GetUpperDeltaY
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetUpperDeltaY method. Gets or sets the shape''s vertical offset from its upper left corner row in C++.'
 type: docs
-weight: 6200
+weight: 6400
 url: /cpp/aspose.cells.drawing/shape/getupperdeltay/
 ---
 ## Shape::GetUpperDeltaY method

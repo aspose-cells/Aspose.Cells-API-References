@@ -4,7 +4,7 @@ linktitle: SetLeftCM
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetLeftCM method. Represents the horizontal offset of shape from its left column, in unit of centimeters in C++.'
 type: docs
-weight: 10100
+weight: 10300
 url: /cpp/aspose.cells.drawing/shape/setleftcm/
 ---
 ## Shape::SetLeftCM method

@@ -20,7 +20,7 @@ CheckBox Aspose::Cells::Drawing::ShapeCollection::AddCheckBox(int32_t upperLeftR
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int32_t | Upper left row index. |
-| top | int32_t | Represents the vertical offset of checkbox from its left row, in unit of pixel. |
+| top | int32_t | Represents the vertical offset of checkbox from its top row, in unit of pixel. |
 | upperLeftColumn | int32_t | Upper left column index. |
 | left | int32_t | Represents the horizontal offset of textbox from its left column, in unit of pixel. |
 | height | int32_t | Height of textbox, in unit of pixel. |

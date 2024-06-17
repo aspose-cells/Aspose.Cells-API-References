@@ -4,7 +4,7 @@ linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CustomFilterCollection::Get method. Gets the custom filter in the specific index in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/customfiltercollection/get/
 ---
 ## CustomFilterCollection::Get method

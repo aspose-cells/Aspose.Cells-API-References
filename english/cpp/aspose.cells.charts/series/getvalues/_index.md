@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Series::GetValues method
 linktitle: GetValues
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Series::GetValues method. Represents the data of the chart series in C++.'
+description: 'Aspose::Cells::Charts::Series::GetValues method. Represents the Y values of this chart series in C++.'
 type: docs
 weight: 1800
 url: /cpp/aspose.cells.charts/series/getvalues/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/series/getvalues/
 ## Series::GetValues method
 
 
-Represents the data of the chart series.
+Represents the Y values of this chart series.
 
 ```cpp
 U16String Aspose::Cells::Charts::Series::GetValues()

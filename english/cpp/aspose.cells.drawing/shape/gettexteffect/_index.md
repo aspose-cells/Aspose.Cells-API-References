@@ -4,7 +4,7 @@ linktitle: GetTextEffect
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::GetTextEffect method. Returns a TextEffectFormat object that contains text-effect formatting properties for the specified shape. Applies to Shape objects that represent WordArt in C++.'
 type: docs
-weight: 4800
+weight: 5000
 url: /cpp/aspose.cells.drawing/shape/gettexteffect/
 ---
 ## Shape::GetTextEffect method

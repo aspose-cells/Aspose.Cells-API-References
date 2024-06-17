@@ -4,7 +4,7 @@ linktitle: SetBottom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetBottom method. Represents the width of the shape''s vertical offset from its lower bottom corner row, in unit of pixels in C++.'
 type: docs
-weight: 7900
+weight: 8100
 url: /cpp/aspose.cells.drawing/shape/setbottom/
 ---
 ## Shape::SetBottom method

@@ -2,15 +2,15 @@
 title: Aspose::Cells::Drawing::Shape::GetText method
 linktitle: GetText
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Drawing::Shape::GetText method. Represents the string in this TextBox object in C++.'
+description: 'Aspose::Cells::Drawing::Shape::GetText method. Gets and sets the text of this shape in C++.'
 type: docs
-weight: 15500
+weight: 15700
 url: /cpp/aspose.cells.drawing/shape/gettext/
 ---
 ## Shape::GetText method
 
 
-Represents the string in this [TextBox](../../textbox/) object.
+Gets and sets the text of this shape.
 
 ```cpp
 U16String Aspose::Cells::Drawing::Shape::GetText()

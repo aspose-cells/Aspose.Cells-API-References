@@ -4,7 +4,7 @@ linktitle: InsertColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::InsertColumn method. Inserts a new column into the worksheet in C++.'
 type: docs
-weight: 11500
+weight: 11600
 url: /cpp/aspose.cells/cells/insertcolumn/
 ---
 ## Cells::InsertColumn(int32_t, bool) method

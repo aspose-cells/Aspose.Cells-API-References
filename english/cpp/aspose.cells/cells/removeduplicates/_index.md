@@ -4,7 +4,7 @@ linktitle: RemoveDuplicates
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cells::RemoveDuplicates method. Removes duplicate rows in the sheet in C++.'
 type: docs
-weight: 13500
+weight: 13600
 url: /cpp/aspose.cells/cells/removeduplicates/
 ---
 ## Cells::RemoveDuplicates() method

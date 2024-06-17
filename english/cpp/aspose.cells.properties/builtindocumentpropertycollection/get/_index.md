@@ -68,3 +68,23 @@ If you request a property that is not present in the document and the name is no
 * Class [BuiltInDocumentPropertyCollection](../)
 * Namespace [Aspose::Cells::Properties](../../)
 * Library [Aspose.Cells for C++](../../../)
+## BuiltInDocumentPropertyCollection::Get(int32_t) method
+
+
+Returns a [DocumentProperty](../../documentproperty/) object by index.
+
+```cpp
+DocumentProperty Aspose::Cells::Properties::BuiltInDocumentPropertyCollection::Get(int32_t index)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int32_t | Zero-based index of the [DocumentProperty](../../documentproperty/) to retrieve. |
+
+## See Also
+
+* Class [DocumentProperty](../../documentproperty/)
+* Class [BuiltInDocumentPropertyCollection](../)
+* Namespace [Aspose::Cells::Properties](../../)
+* Library [Aspose.Cells for C++](../../../)

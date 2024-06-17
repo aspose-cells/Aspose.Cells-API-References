@@ -4,7 +4,7 @@ linktitle: SetWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Shape::SetWidth method. Represents the width of shape, in unit of pixels in C++.'
 type: docs
-weight: 8100
+weight: 8300
 url: /cpp/aspose.cells.drawing/shape/setwidth/
 ---
 ## Shape::SetWidth method
