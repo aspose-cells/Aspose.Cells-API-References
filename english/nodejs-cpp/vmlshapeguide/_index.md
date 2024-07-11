@@ -1,0 +1,38 @@
+﻿---
+title: VmlShapeGuide
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: just for vml Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape
+type: docs
+url: /nodejs-cpp/vmlshapeguide/
+---
+
+## VmlShapeGuide class
+
+just for vml Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape
+
+```javascript
+class VmlShapeGuide extends BaseShapeGuide;
+```
+
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [constructor(BaseShapeGuide)](#constructor-baseshapeguide-)| Constructs from a parent object convertible to this. |
+
+
+### constructor(BaseShapeGuide) {#constructor-baseshapeguide-}
+
+Constructs from a parent object convertible to this.
+
+```javascript
+constructor(obj: BaseShapeGuide);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | BaseShapeGuide | The parent object. |
+
+

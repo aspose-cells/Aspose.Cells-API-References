@@ -1,0 +1,67 @@
+﻿---
+title: PowerQueryFormulaParameterCollection
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents the parameters of power query formula.
+type: docs
+url: /nodejs-cpp/powerqueryformulaparametercollection/
+---
+
+## PowerQueryFormulaParameterCollection class
+
+Represents the parameters of power query formula.
+
+```javascript
+class PowerQueryFormulaParameterCollection;
+```
+
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [constructor()](#constructor--)| Default Constructor. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [get(number)](#get-number-)| Gets [ PowerQueryFormulaParameter](./ powerqueryformulaparameter/) by the index in the list. |
+| [getCount()](#getCount--)| Gets the number of elements contained in. |
+
+
+### constructor() {#constructor--}
+
+Default Constructor.
+
+```javascript
+constructor();
+```
+
+
+### get(number) {#get-number-}
+
+Gets [ PowerQueryFormulaParameter](./ powerqueryformulaparameter/) by the index in the list.
+
+```javascript
+get(index: number) : PowerQueryFormulaParameter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index. |
+
+**Returns**
+
+[PowerQueryFormulaParameter](./powerqueryformulaparameter/)
+
+### getCount() {#getCount--}
+
+Gets the number of elements contained in.
+
+```javascript
+getCount() : number;
+```
+
+
+

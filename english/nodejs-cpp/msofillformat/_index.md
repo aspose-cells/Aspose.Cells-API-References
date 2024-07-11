@@ -1,0 +1,187 @@
+﻿---
+title: MsoFillFormat
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents fill formatting for a shape.
+type: docs
+url: /nodejs-cpp/msofillformat/
+---
+
+## MsoFillFormat class
+
+Represents fill formatting for a shape.
+
+```javascript
+class MsoFillFormat;
+```
+
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getForeColor()](#getForeColor--)| Gets and sets the fill fore color. |
+| [setForeColor(Color)](#setForeColor-color-)| Gets and sets the fill fore color. |
+| [getTransparency()](#getTransparency--)| Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
+| [setTransparency(number)](#setTransparency-number-)| Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear). |
+| [getBackColor()](#getBackColor--)| Gets and sets the file back color. |
+| [setBackColor(Color)](#setBackColor-color-)| Gets and sets the file back color. |
+| [getImageData()](#getImageData--)| Gets and sets the Texture and Picture fill data. |
+| [setImageData(number[])](#setImageData-number[]-)| Gets and sets the Texture and Picture fill data. |
+| [getTexture()](#getTexture--)| Gets the texture fill type. |
+| [isVisible()](#isVisible--)| Indicates whether there is fill. |
+| [setIsVisible(boolean)](#setIsVisible-boolean-)| Indicates whether there is fill. |
+| [setOneColorGradient(Color, number, GradientStyleType, number)](#setOneColorGradient-color-number-gradientstyletype-number-)| Sets the specified fill to a one-color gradient. |
+
+
+### getForeColor() {#getForeColor--}
+
+Gets and sets the fill fore color.
+
+```javascript
+getForeColor() : Color;
+```
+
+
+**Returns**
+
+[Color](./color/)
+
+### setForeColor(Color) {#setForeColor-color-}
+
+Gets and sets the fill fore color.
+
+```javascript
+setForeColor(value: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](./color/) | The value to set. |
+
+### getTransparency() {#getTransparency--}
+
+Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+getTransparency() : number;
+```
+
+
+### setTransparency(number) {#setTransparency-number-}
+
+Returns or sets the degree of transparency of the specified fill as a value from 0.0 (opaque) through 1.0 (clear).
+
+```javascript
+setTransparency(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getBackColor() {#getBackColor--}
+
+Gets and sets the file back color.
+
+```javascript
+getBackColor() : Color;
+```
+
+
+**Returns**
+
+[Color](./color/)
+
+### setBackColor(Color) {#setBackColor-color-}
+
+Gets and sets the file back color.
+
+```javascript
+setBackColor(value: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Color](./color/) | The value to set. |
+
+### getImageData() {#getImageData--}
+
+Gets and sets the Texture and Picture fill data.
+
+```javascript
+getImageData() : number[];
+```
+
+
+**Returns**
+
+number[]
+
+### setImageData(number[]) {#setImageData-number[]-}
+
+Gets and sets the Texture and Picture fill data.
+
+```javascript
+setImageData(value: number[]) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number[] | The value to set. |
+
+### getTexture() {#getTexture--}
+
+Gets the texture fill type.
+
+```javascript
+getTexture() : TextureType;
+```
+
+
+**Returns**
+
+[TextureType](./texturetype/)
+
+### isVisible() {#isVisible--}
+
+Indicates whether there is fill.
+
+```javascript
+isVisible() : boolean;
+```
+
+
+### setIsVisible(boolean) {#setIsVisible-boolean-}
+
+Indicates whether there is fill.
+
+```javascript
+setIsVisible(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### setOneColorGradient(Color, number, GradientStyleType, number) {#setOneColorGradient-color-number-gradientstyletype-number-}
+
+Sets the specified fill to a one-color gradient.
+
+```javascript
+setOneColorGradient(color: Color, degree: number, style: GradientStyleType, variant: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| color | [Color](./color/) | One gradient color. |
+| degree | number | The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light). |
+| style | [GradientStyleType](./gradientstyletype/) | Gradient shading style. |
+| variant | number | The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If style is GradientStyle.FromCenter, the Variant argument can only be 1 or 2. |
+
+
