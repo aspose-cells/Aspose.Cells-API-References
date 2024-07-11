@@ -1,7 +1,7 @@
 ﻿---
 title: Button
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the Forms control: Button
+description: Represents the Forms control - Button
 type: docs
 url: /nodejs-cpp/button/
 ---
