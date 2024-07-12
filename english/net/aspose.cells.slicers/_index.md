@@ -12,7 +12,7 @@ The **Aspose.Cells.Slicers** namespace provides all classes for Pivot Table Slic
 | Class | Description |
 | --- | --- |
 | [Slicer](./slicer/) | summary description of Slicer View |
-| [SlicerCache](./slicercache/) | summary description of slicer cache |
+| [SlicerCache](./slicercache/) | Represent summary description of slicer cache |
 | [SlicerCacheItem](./slicercacheitem/) | Represent slicer data source item |
 | [SlicerCacheItemCollection](./slicercacheitemcollection/) | Represent the collection of SlicerCacheItem |
 | [SlicerCollection](./slicercollection/) | Specifies the collection of all the Slicer objects on the specified worksheet. |

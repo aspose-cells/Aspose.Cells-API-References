@@ -32,19 +32,6 @@ public class TitleObject
 | [X](../../aspose.cells.gridjs.chart/titleobject/x/) { get; set; } | x |
 | [Y](../../aspose.cells.gridjs.chart/titleobject/y/) { get; set; } | y |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_border](../../aspose.cells.gridjs.chart/titleobject/_border/) |  |
-| [_font](../../aspose.cells.gridjs.chart/titleobject/_font/) |  |
-| [_isVisible](../../aspose.cells.gridjs.chart/titleobject/_isvisible/) |  |
-| [_text](../../aspose.cells.gridjs.chart/titleobject/_text/) |  |
-| [_textHorizontalAlignment](../../aspose.cells.gridjs.chart/titleobject/_texthorizontalalignment/) |  |
-| [_textVerticalAlignment](../../aspose.cells.gridjs.chart/titleobject/_textverticalalignment/) |  |
-| [_x](../../aspose.cells.gridjs.chart/titleobject/_x/) |  |
-| [_y](../../aspose.cells.gridjs.chart/titleobject/_y/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

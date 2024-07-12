@@ -1,15 +1,15 @@
 ---
 title: Enum PivotItemPosition
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotItemPosition enum. Represents PivotTable base item Next/Previous/All position in the base field 
+description: Aspose.Cells.Pivot.PivotItemPosition enum. 
 type: docs
 url: /net/aspose.cells.pivot/pivotitemposition/
 ---
 ## PivotItemPosition enumeration
 
-Represents PivotTable base item Next/Previous/All position in the base field .
-
 ```csharp
+[Obsolete("Use PivotItemPositionType enum instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public enum PivotItemPosition
 ```
 
@@ -17,9 +17,9 @@ public enum PivotItemPosition
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Previous | `0` | Represents the previous pivot item in the PivotField. |
-| Next | `1` | Represents the next pivot item in the PivotField. |
-| Custom | `2` | Shows values as the different format based the index of pivot item in the PivotField. |
+| Previous | `0` |  |
+| Next | `1` |  |
+| Custom | `2` |  |
 
 ### See Also
 

@@ -44,6 +44,7 @@ public class Shape
 | [Id](../../aspose.cells.drawing/shape/id/) { get; } | Gets the identifier of this shape. |
 | [InputRange](../../aspose.cells.drawing/shape/inputrange/) { get; set; } | Gets or sets the worksheet range used to fill the specified combo box. |
 | [IsAspectRatioLocked](../../aspose.cells.drawing/shape/isaspectratiolocked/) { get; set; } | True means that aspect ratio of the shape is locked. |
+| [IsDecorative](../../aspose.cells.drawing/shape/isdecorative/) { get; set; } | Indicates whether the object is decorative. |
 | [IsEquation](../../aspose.cells.drawing/shape/isequation/) { get; } | Indicates whether the shape only contains an equation. |
 | [IsFilled](../../aspose.cells.drawing/shape/isfilled/) { get; set; } | Indicates whether the fill format is visible. |
 | [IsFlippedHorizontally](../../aspose.cells.drawing/shape/isflippedhorizontally/) { get; set; } | Gets and sets whether shape is horizontally flipped . |

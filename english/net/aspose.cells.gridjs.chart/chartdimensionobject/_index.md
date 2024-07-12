@@ -30,17 +30,6 @@ public class ChartDimensionObject
 | [X](../../aspose.cells.gridjs.chart/chartdimensionobject/x/) { get; set; } | x |
 | [Y](../../aspose.cells.gridjs.chart/chartdimensionobject/y/) { get; set; } | y |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_height](../../aspose.cells.gridjs.chart/chartdimensionobject/_height/) |  |
-| [_upperLeftColumn](../../aspose.cells.gridjs.chart/chartdimensionobject/_upperleftcolumn/) |  |
-| [_upperLeftRow](../../aspose.cells.gridjs.chart/chartdimensionobject/_upperleftrow/) |  |
-| [_width](../../aspose.cells.gridjs.chart/chartdimensionobject/_width/) |  |
-| [_x](../../aspose.cells.gridjs.chart/chartdimensionobject/_x/) |  |
-| [_y](../../aspose.cells.gridjs.chart/chartdimensionobject/_y/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

@@ -30,17 +30,6 @@ public class NSeriesDetails
 | [Name](../../aspose.cells.gridjs.chart/nseriesdetails/name/) { get; set; } | name |
 | [Values](../../aspose.cells.gridjs.chart/nseriesdetails/values/) { get; set; } | values |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_area](../../aspose.cells.gridjs.chart/nseriesdetails/_area/) |  |
-| [_data](../../aspose.cells.gridjs.chart/nseriesdetails/_data/) |  |
-| [_dataLabels](../../aspose.cells.gridjs.chart/nseriesdetails/_datalabels/) |  |
-| [_isFiltered](../../aspose.cells.gridjs.chart/nseriesdetails/_isfiltered/) |  |
-| [_name](../../aspose.cells.gridjs.chart/nseriesdetails/_name/) |  |
-| [_values](../../aspose.cells.gridjs.chart/nseriesdetails/_values/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

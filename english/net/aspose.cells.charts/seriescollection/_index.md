@@ -35,7 +35,7 @@ public class SeriesCollection : CollectionBase<Series>
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Series) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Series, IComparer&lt;Series&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Series, IComparer&lt;Series&gt;) |  |
-| [ChangeSeriesOrder](../../aspose.cells.charts/seriescollection/changeseriesorder/)(int, int) | Directly changes the orders of the two series. |
+| [ChangeSeriesOrder](../../aspose.cells.charts/seriescollection/changeseriesorder/)(int, int) | (**Obsolete.**) Directly changes the orders of the two series. |
 | [Clear](../../aspose.cells.charts/seriescollection/clear/#clear)() | Clears the collection (2 methods) |
 | [Contains](../../aspose.cells/collectionbase-1/contains/)(Series) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Series[]) |  |
@@ -61,6 +61,7 @@ public class SeriesCollection : CollectionBase<Series>
 | [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Series, int, int) |  |
 | [RemoveAt](../../aspose.cells.charts/seriescollection/removeat/#removeat)(int) | Remove at a series at the specific index. (2 methods) |
 | [SetSeriesNames](../../aspose.cells.charts/seriescollection/setseriesnames/)(int, string, bool) | Sets the name of all the serieses in the chart. |
+| [SwapSeries](../../aspose.cells.charts/seriescollection/swapseries/)(int, int) | Directly changes the orders of the two series. |
 
 ### Examples
 

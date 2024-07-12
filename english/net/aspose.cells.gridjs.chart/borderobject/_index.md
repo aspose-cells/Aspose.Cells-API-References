@@ -27,14 +27,6 @@ public class BorderObject
 | [Style](../../aspose.cells.gridjs.chart/borderobject/style/) { get; set; } | style |
 | [WeightPx](../../aspose.cells.gridjs.chart/borderobject/weightpx/) { get; set; } | weightpx |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_color](../../aspose.cells.gridjs.chart/borderobject/_color/) |  |
-| [_style](../../aspose.cells.gridjs.chart/borderobject/_style/) |  |
-| [_weightPx](../../aspose.cells.gridjs.chart/borderobject/_weightpx/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

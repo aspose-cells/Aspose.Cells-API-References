@@ -27,14 +27,6 @@ public class CellData
 | [SheetIndex](../../aspose.cells.gridjs.chart/celldata/sheetindex/) { get; set; } | sheet index |
 | [SheetName](../../aspose.cells.gridjs.chart/celldata/sheetname/) { get; set; } | sheet name |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_name](../../aspose.cells.gridjs.chart/celldata/_name/) |  |
-| [_sheetIndex](../../aspose.cells.gridjs.chart/celldata/_sheetindex/) |  |
-| [_sheetName](../../aspose.cells.gridjs.chart/celldata/_sheetname/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

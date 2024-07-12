@@ -1,13 +1,13 @@
 ---
 title: PivotField.ShowValuesAs
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Show value of data field as different display format when the ShowDataAs calculation is in use
+description: PivotField method. Shows values of data field as different display format when the ShowDataAs calculation is in use
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/showvaluesas/
 ---
 ## PivotField.ShowValuesAs method
 
-Show value of data field as different display format when the ShowDataAs calculation is in use.
+Shows values of data field as different display format when the ShowDataAs calculation is in use.
 
 ```csharp
 public void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int baseField, 

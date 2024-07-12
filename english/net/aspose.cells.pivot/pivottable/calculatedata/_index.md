@@ -5,7 +5,7 @@ description: PivotTable method. Calculates pivottables data to cells
 type: docs
 url: /net/aspose.cells.pivot/pivottable/calculatedata/
 ---
-## PivotTable.CalculateData method
+## CalculateData() {#calculatedata}
 
 Calculates pivottable's data to cells.
 
@@ -19,6 +19,27 @@ Cell.Value in the pivot range could not return the correct result if the method 
 
 ### See Also
 
+* class [PivotTable](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## CalculateData(PivotTableCalculateOption) {#calculatedata_1}
+
+Calculating pivot tables with options
+
+```csharp
+public void CalculateData(PivotTableCalculateOption option)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | PivotTableCalculateOption |  |
+
+### See Also
+
+* class [PivotTableCalculateOption](../../pivottablecalculateoption/)
 * class [PivotTable](../)
 * namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../../)

@@ -25,12 +25,6 @@ public class AreaObject
 | --- | --- |
 | [Color](../../aspose.cells.gridjs.chart/areaobject/color/) { get; set; } | color |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_color](../../aspose.cells.gridjs.chart/areaobject/_color/) | color |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

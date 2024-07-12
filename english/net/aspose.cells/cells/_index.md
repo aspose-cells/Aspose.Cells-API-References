@@ -110,6 +110,7 @@ public class Cells : IDisposable, IEnumerable
 | [Find](../../aspose.cells/cells/find/#find_1)(object, Cell, FindOptions) | Finds the cell containing with the input object. |
 | [GetCell](../../aspose.cells/cells/getcell/)(int, int) | (**Obsolete.**) Gets the [`Cell`](../cell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle](../../aspose.cells/cells/getcellstyle/)(int, int) | Get the style of given cell. |
+| [GetCellsWithPlaceInCellPicture](../../aspose.cells/cells/getcellswithplaceincellpicture/)() | Gets all cells that contain embedded picture. |
 | [GetColumnOriginalWidthPoint](../../aspose.cells/cells/getcolumnoriginalwidthpoint/)(int) | (**Obsolete.**) Gets original column's height in unit of point if the column is hidden |
 | [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/#getcolumnwidth)(int) | Gets the width(in unit of characters) of the specified column in normal view |
 | [GetColumnWidth](../../aspose.cells/cells/getcolumnwidth/#getcolumnwidth_1)(int, bool, CellsUnitType) | Gets the column width. |

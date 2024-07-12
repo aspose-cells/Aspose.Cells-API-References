@@ -17,7 +17,8 @@ public class EbookSaveOptions : HtmlSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [EbookSaveOptions](ebooksaveoptions/)() | Creates options for saving ebook file. |
+| [EbookSaveOptions](ebooksaveoptions/#constructor)() | Creates options for saving ebook file. |
+| [EbookSaveOptions](ebooksaveoptions/#constructor_1)(SaveFormat) |  |
 
 ## Properties
 

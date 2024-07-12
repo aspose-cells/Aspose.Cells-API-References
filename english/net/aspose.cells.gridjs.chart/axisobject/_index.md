@@ -28,15 +28,6 @@ public class AxisObject
 | [IsVisible](../../aspose.cells.gridjs.chart/axisobject/isvisible/) { get; set; } | visible |
 | [Title](../../aspose.cells.gridjs.chart/axisobject/title/) { get; set; } | title |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_axisLine](../../aspose.cells.gridjs.chart/axisobject/_axisline/) |  |
-| [_categoryData](../../aspose.cells.gridjs.chart/axisobject/_categorydata/) |  |
-| [_isVisible](../../aspose.cells.gridjs.chart/axisobject/_isvisible/) |  |
-| [_title](../../aspose.cells.gridjs.chart/axisobject/_title/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

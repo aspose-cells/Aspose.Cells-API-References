@@ -26,13 +26,6 @@ public class DataLabelsObject
 | [Position](../../aspose.cells.gridjs.chart/datalabelsobject/position/) { get; set; } | position |
 | [ShowValue](../../aspose.cells.gridjs.chart/datalabelsobject/showvalue/) { get; set; } | show |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_position](../../aspose.cells.gridjs.chart/datalabelsobject/_position/) |  |
-| [_showValue](../../aspose.cells.gridjs.chart/datalabelsobject/_showvalue/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

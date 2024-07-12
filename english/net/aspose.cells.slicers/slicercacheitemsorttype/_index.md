@@ -17,8 +17,9 @@ public enum SlicerCacheItemSortType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ascending | `0` | Ascending sort type |
-| Descending | `1` | Descending sort type |
+| Natural | `0` | Original data order. |
+| Ascending | `1` | Ascending sort type |
+| Descending | `2` | Descending sort type |
 
 ### See Also
 

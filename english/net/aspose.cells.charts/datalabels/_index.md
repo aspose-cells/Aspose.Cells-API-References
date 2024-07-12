@@ -71,6 +71,7 @@ public class DataLabels : ChartTextFrame
 
 | Name | Description |
 | --- | --- |
+| [ApplyFont](../../aspose.cells.charts/datalabels/applyfont/)() | Apply the font of the datalabels to all child nodes. |
 | [Characters](../../aspose.cells.charts/charttextframe/characters/)(int, int) | Returns a Characters object that represents a range of characters within the text.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto/)() | Set position of the frame to automatic(Inherited from [`ChartFrame`](../chartframe/).) |
 

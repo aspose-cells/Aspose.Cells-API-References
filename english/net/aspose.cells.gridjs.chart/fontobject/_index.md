@@ -29,16 +29,6 @@ public class FontObject
 | [Name](../../aspose.cells.gridjs.chart/fontobject/name/) { get; set; } | name |
 | [Size](../../aspose.cells.gridjs.chart/fontobject/size/) { get; set; } | size |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_color](../../aspose.cells.gridjs.chart/fontobject/_color/) |  |
-| [_isBold](../../aspose.cells.gridjs.chart/fontobject/_isbold/) |  |
-| [_isItalic](../../aspose.cells.gridjs.chart/fontobject/_isitalic/) |  |
-| [_name](../../aspose.cells.gridjs.chart/fontobject/_name/) |  |
-| [_size](../../aspose.cells.gridjs.chart/fontobject/_size/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

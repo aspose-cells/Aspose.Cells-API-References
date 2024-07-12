@@ -25,13 +25,14 @@ public class ChartPoint
 | [Border](../../aspose.cells.charts/chartpoint/border/) { get; } | Gets the [` border`](../../aspose.cells.drawing/line/). |
 | [BorderWidthPx](../../aspose.cells.charts/chartpoint/borderwidthpx/) { get; } | Gets the width of border in units of pixels after calls Chart.Calculate() method. |
 | [DataLabels](../../aspose.cells.charts/chartpoint/datalabels/) { get; } | Returns a [`DataLabels`](./datalabels/) object that represents the data label associated with this chart point. |
+| [DoughnutInnerRadius](../../aspose.cells.charts/chartpoint/doughnutinnerradius/) { get; } | Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart. |
 | [EndAngle](../../aspose.cells.charts/chartpoint/endangle/) { get; } | Gets the ending angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. Applies to Pie chart. |
 | [Explosion](../../aspose.cells.charts/chartpoint/explosion/) { get; set; } | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [InnerArcEndPointXPx](../../aspose.cells.charts/chartpoint/innerarcendpointxpx/) { get; } | Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
 | [InnerArcEndPointYPx](../../aspose.cells.charts/chartpoint/innerarcendpointypx/) { get; } | Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
 | [InnerArcStartPointXPx](../../aspose.cells.charts/chartpoint/innerarcstartpointxpx/) { get; } | Gets the x coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
 | [InnerArcStartPointYPx](../../aspose.cells.charts/chartpoint/innerarcstartpointypx/) { get; } | Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Doughnut chart. |
-| [InnerRadiusPx](../../aspose.cells.charts/chartpoint/innerradiuspx/) { get; } | Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart. |
+| [InnerRadiusPx](../../aspose.cells.charts/chartpoint/innerradiuspx/) { get; } | (**Obsolete.**) Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart. |
 | [IsInSecondaryPlot](../../aspose.cells.charts/chartpoint/isinsecondaryplot/) { get; set; } | Gets or sets a value indicates whether this data points is in the second pie or bar on a pie of pie or bar of pie chart |
 | [Marker](../../aspose.cells.charts/chartpoint/marker/) { get; } | Gets the [` marker`](./marker/). |
 | [RadiusPx](../../aspose.cells.charts/chartpoint/radiuspx/) { get; } | Gets the radius of bubble, pie or doughnut in units of pixels after calls Chart.Calculate() method. |

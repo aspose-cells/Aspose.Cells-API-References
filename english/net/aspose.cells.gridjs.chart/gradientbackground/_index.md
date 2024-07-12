@@ -31,18 +31,6 @@ public class GradientBackground : BackgroundColorObject
 | [Y](../../aspose.cells.gridjs.chart/gradientbackground/y/) { get; set; } | y |
 | [Y2](../../aspose.cells.gridjs.chart/gradientbackground/y2/) { get; set; } | y2 |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_colorStops](../../aspose.cells.gridjs.chart/gradientbackground/_colorstops/) |  |
-| [_r](../../aspose.cells.gridjs.chart/gradientbackground/_r/) |  |
-| [_type](../../aspose.cells.gridjs.chart/gradientbackground/_type/) |  |
-| [_x](../../aspose.cells.gridjs.chart/gradientbackground/_x/) |  |
-| [_x2](../../aspose.cells.gridjs.chart/gradientbackground/_x2/) |  |
-| [_y](../../aspose.cells.gridjs.chart/gradientbackground/_y/) |  |
-| [_y2](../../aspose.cells.gridjs.chart/gradientbackground/_y2/) |  |
-
 ### See Also
 
 * class [BackgroundColorObject](../backgroundcolorobject/)

@@ -1,13 +1,13 @@
 ---
 title: Class SlicerCache
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Slicers.SlicerCache class. summary description of slicer cache
+description: Aspose.Cells.Slicers.SlicerCache class. Represent summary description of slicer cache
 type: docs
 url: /net/aspose.cells.slicers/slicercache/
 ---
 ## SlicerCache class
 
-summary description of slicer cache
+Represent summary description of slicer cache
 
 ```csharp
 public class SlicerCache
@@ -21,7 +21,7 @@ public class SlicerCache
 | [List](../../aspose.cells.slicers/slicercache/list/) { get; } | Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only |
 | [Name](../../aspose.cells.slicers/slicercache/name/) { get; } | Returns the name of the slicer cache. |
 | [SlicerCacheItems](../../aspose.cells.slicers/slicercache/slicercacheitems/) { get; } | Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only |
-| [SourceName](../../aspose.cells.slicers/slicercache/sourcename/) { get; } | Returns the name of cache field |
+| [SourceName](../../aspose.cells.slicers/slicercache/sourcename/) { get; } | Returns the name of this slicer cache. |
 
 ### Examples
 

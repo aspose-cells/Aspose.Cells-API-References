@@ -35,22 +35,6 @@ public class GridChartResponseType
 | [ValueAxis](../../aspose.cells.gridjs.chart/gridchartresponsetype/valueaxis/) { get; set; } | valueaxis |
 | [Worksheet](../../aspose.cells.gridjs.chart/gridchartresponsetype/worksheet/) { get; set; } | worksheet |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_backgroundColor](../../aspose.cells.gridjs.chart/gridchartresponsetype/_backgroundcolor/) |  |
-| [_categoryAxis](../../aspose.cells.gridjs.chart/gridchartresponsetype/_categoryaxis/) |  |
-| [_chartObject](../../aspose.cells.gridjs.chart/gridchartresponsetype/_chartobject/) |  |
-| [_iD](../../aspose.cells.gridjs.chart/gridchartresponsetype/_id/) |  |
-| [_legend](../../aspose.cells.gridjs.chart/gridchartresponsetype/_legend/) |  |
-| [_name](../../aspose.cells.gridjs.chart/gridchartresponsetype/_name/) |  |
-| [_nSeries](../../aspose.cells.gridjs.chart/gridchartresponsetype/_nseries/) |  |
-| [_title](../../aspose.cells.gridjs.chart/gridchartresponsetype/_title/) |  |
-| [_type](../../aspose.cells.gridjs.chart/gridchartresponsetype/_type/) |  |
-| [_valueAxis](../../aspose.cells.gridjs.chart/gridchartresponsetype/_valueaxis/) |  |
-| [_worksheet](../../aspose.cells.gridjs.chart/gridchartresponsetype/_worksheet/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

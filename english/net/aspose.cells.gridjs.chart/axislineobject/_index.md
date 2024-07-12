@@ -27,14 +27,6 @@ public class AxisLineObject
 | [Style](../../aspose.cells.gridjs.chart/axislineobject/style/) { get; set; } | style |
 | [WeightPx](../../aspose.cells.gridjs.chart/axislineobject/weightpx/) { get; set; } | weight |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_color](../../aspose.cells.gridjs.chart/axislineobject/_color/) |  |
-| [_style](../../aspose.cells.gridjs.chart/axislineobject/_style/) |  |
-| [_weightPx](../../aspose.cells.gridjs.chart/axislineobject/_weightpx/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

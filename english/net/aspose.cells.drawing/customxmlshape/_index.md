@@ -44,6 +44,7 @@ public class CustomXmlShape : Shape
 | [Id](../../aspose.cells.drawing/shape/id/) { get; } | Gets the identifier of this shape.(Inherited from [`Shape`](../shape/).) |
 | [InputRange](../../aspose.cells.drawing/shape/inputrange/) { get; set; } | Gets or sets the worksheet range used to fill the specified combo box.(Inherited from [`Shape`](../shape/).) |
 | [IsAspectRatioLocked](../../aspose.cells.drawing/shape/isaspectratiolocked/) { get; set; } | True means that aspect ratio of the shape is locked.(Inherited from [`Shape`](../shape/).) |
+| [IsDecorative](../../aspose.cells.drawing/shape/isdecorative/) { get; set; } | Indicates whether the object is decorative.(Inherited from [`Shape`](../shape/).) |
 | [IsEquation](../../aspose.cells.drawing/shape/isequation/) { get; } | Indicates whether the shape only contains an equation.(Inherited from [`Shape`](../shape/).) |
 | [IsFilled](../../aspose.cells.drawing/shape/isfilled/) { get; set; } | Indicates whether the fill format is visible.(Inherited from [`Shape`](../shape/).) |
 | [IsFlippedHorizontally](../../aspose.cells.drawing/shape/isflippedhorizontally/) { get; set; } | Gets and sets whether shape is horizontally flipped .(Inherited from [`Shape`](../shape/).) |

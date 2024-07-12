@@ -25,12 +25,6 @@ public class SolidBackground : BackgroundColorObject
 | --- | --- |
 | [Color](../../aspose.cells.gridjs.chart/solidbackground/color/) { get; set; } | color |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_color](../../aspose.cells.gridjs.chart/solidbackground/_color/) |  |
-
 ### See Also
 
 * class [BackgroundColorObject](../backgroundcolorobject/)

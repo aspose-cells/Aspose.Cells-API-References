@@ -103,7 +103,8 @@ public class PivotTable : IDisposable
 | [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea/#addfieldtoarea_1)(PivotFieldType, int) | Adds the field to the specific area. |
 | [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea/#addfieldtoarea)(PivotFieldType, PivotField) | Adds the field to the specific area. |
 | [AddFieldToArea](../../aspose.cells.pivot/pivottable/addfieldtoarea/#addfieldtoarea_2)(PivotFieldType, string) | Adds the field to the specific area. |
-| [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata/)() | Calculates pivottable's data to cells. |
+| [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata/#calculatedata)() | Calculates pivottable's data to cells. |
+| [CalculateData](../../aspose.cells.pivot/pivottable/calculatedata/#calculatedata_1)(PivotTableCalculateOption) | Calculating pivot tables with options |
 | [CalculateRange](../../aspose.cells.pivot/pivottable/calculaterange/)() | Calculates pivottable's range. |
 | [ChangeDataSource](../../aspose.cells.pivot/pivottable/changedatasource/)(string[]) | Set pivottable's source data. Sheet1!$A$1:$C$3 |
 | [ClearData](../../aspose.cells.pivot/pivottable/cleardata/)() | Clear PivotTable's data and formatting |

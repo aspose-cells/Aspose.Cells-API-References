@@ -67,6 +67,7 @@ public class Series
 | [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode/) { get; set; } | Represents format code of Values's NumberList. |
 | [XErrorBar](../../aspose.cells.charts/series/xerrorbar/) { get; } | Represents X direction error bar of the series. |
 | [XValues](../../aspose.cells.charts/series/xvalues/) { get; set; } | Represents the x values of the chart series. |
+| [XValuesFormatCode](../../aspose.cells.charts/series/xvaluesformatcode/) { get; set; } | Represents format code of X Values's NumberList. |
 | [YErrorBar](../../aspose.cells.charts/series/yerrorbar/) { get; } | Represents Y direction error bar of the series. |
 
 ## Methods

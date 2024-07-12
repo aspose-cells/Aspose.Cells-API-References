@@ -26,13 +26,6 @@ public class LegendObject
 | [Position](../../aspose.cells.gridjs.chart/legendobject/position/) { get; set; } | position |
 | [ShowLegend](../../aspose.cells.gridjs.chart/legendobject/showlegend/) { get; set; } | show |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_position](../../aspose.cells.gridjs.chart/legendobject/_position/) |  |
-| [_showLegend](../../aspose.cells.gridjs.chart/legendobject/_showlegend/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

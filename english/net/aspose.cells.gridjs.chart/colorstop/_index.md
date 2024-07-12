@@ -26,13 +26,6 @@ public class ColorStop
 | [Color](../../aspose.cells.gridjs.chart/colorstop/color/) { get; set; } | color |
 | [Offset](../../aspose.cells.gridjs.chart/colorstop/offset/) { get; set; } | offset |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_color](../../aspose.cells.gridjs.chart/colorstop/_color/) |  |
-| [_offset](../../aspose.cells.gridjs.chart/colorstop/_offset/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

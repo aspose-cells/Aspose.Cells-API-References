@@ -24,6 +24,10 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 
 the range that the formula should spill into.
 
+### Remarks
+
+the returned range may be not same with the actual one that this dynamic array formula spills into. If there are non-empty cells in the range, the formula will be set for current cell only and marked as "#SPILL!". But for such kind of situation we still return the whole range that this formula should spill into.
+
 ### See Also
 
 * struct [CellArea](../../cellarea/)
@@ -54,6 +58,10 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 ### Return Value
 
 the range that the formula should spill into.
+
+### Remarks
+
+the returned range may be not same with the actual one that this dynamic array formula spills into. If there are non-empty cells in the range, the formula will be set for current cell only and marked as "#SPILL!". But for such kind of situation we still return the whole range that this formula should spill into.
 
 ### See Also
 
@@ -86,6 +94,10 @@ public CellArea SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions 
 ### Return Value
 
 the range that the formula should spill into.
+
+### Remarks
+
+the returned range may be not same with the actual one that this dynamic array formula spills into. If there are non-empty cells in the range, the formula will be set for current cell only and marked as "#SPILL!". But for such kind of situation we still return the whole range that this formula should spill into.
 
 ### See Also
 

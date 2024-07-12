@@ -51,6 +51,7 @@ public class Picture : Shape
 | [InputRange](../../aspose.cells.drawing/shape/inputrange/) { get; set; } | Gets or sets the worksheet range used to fill the specified combo box.(Inherited from [`Shape`](../shape/).) |
 | [IsAspectRatioLocked](../../aspose.cells.drawing/shape/isaspectratiolocked/) { get; set; } | True means that aspect ratio of the shape is locked.(Inherited from [`Shape`](../shape/).) |
 | [IsAutoSize](../../aspose.cells.drawing/picture/isautosize/) { get; set; } | True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded content when the ole object is activated. |
+| [IsDecorative](../../aspose.cells.drawing/shape/isdecorative/) { get; set; } | Indicates whether the object is decorative.(Inherited from [`Shape`](../shape/).) |
 | [IsDynamicDataExchange](../../aspose.cells.drawing/picture/isdynamicdataexchange/) { get; set; } | Gets or sets whether dynamic data exchange |
 | [IsEquation](../../aspose.cells.drawing/shape/isequation/) { get; } | Indicates whether the shape only contains an equation.(Inherited from [`Shape`](../shape/).) |
 | [IsFilled](../../aspose.cells.drawing/shape/isfilled/) { get; set; } | Indicates whether the fill format is visible.(Inherited from [`Shape`](../shape/).) |
@@ -155,6 +156,7 @@ public class Picture : Shape
 | override [IsSameSetting](../../aspose.cells.drawing/picture/issamesetting/)(object) | Returns whether the shape is same. |
 | [Move](../../aspose.cells.drawing/picture/move/)(int, int) | Moves the picture to a specified location. |
 | [MoveToRange](../../aspose.cells.drawing/shape/movetorange/)(int, int, int, int) | Moves the shape to a specified range.(Inherited from [`Shape`](../shape/).) |
+| [PlaceInCell](../../aspose.cells.drawing/picture/placeincell/)() | Place this picture in the cell |
 | [RemoveActiveXControl](../../aspose.cells.drawing/shape/removeactivexcontrol/)() | Remove activeX control.(Inherited from [`Shape`](../shape/).) |
 | [RemoveHyperlink](../../aspose.cells.drawing/shape/removehyperlink/)() | Removes the hyperlink of the shape.(Inherited from [`Shape`](../shape/).) |
 | [SetInputRange](../../aspose.cells.drawing/shape/setinputrange/)(string, bool, bool) | Sets the range used to fill the control.(Inherited from [`Shape`](../shape/).) |

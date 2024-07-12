@@ -18,13 +18,15 @@ public class ChartDataTable
 | Name | Description |
 | --- | --- |
 | [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont/) { get; set; } | True if the text in the object changes font size when the object size changes. The default value is True. |
-| [Background](../../aspose.cells.charts/chartdatatable/background/) { get; set; } | (**Obsolete.**) Gets and sets the display mode of the background |
 | [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode/) { get; set; } | Gets and sets the display mode of the background |
 | [Border](../../aspose.cells.charts/chartdatatable/border/) { get; } | Returns a Border object that represents the border of the object |
 | [Font](../../aspose.cells.charts/chartdatatable/font/) { get; } | Gets a [`Font`](./font/) object which represents the font setting of the specified chart data table. |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | True if the chart data table has horizontal cell borders |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | True if the chart data table has outline borders |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | True if the chart data table has vertical cell borders |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | (**Obsolete.**) True if the chart data table has horizontal cell borders |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | (**Obsolete.**) True if the chart data table has outline borders |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | (**Obsolete.**) True if the chart data table has vertical cell borders |
+| [HasHorizontalBorder](../../aspose.cells.charts/chartdatatable/hashorizontalborder/) { get; set; } | True if the chart data table has horizontal cell borders |
+| [HasOutlineBorder](../../aspose.cells.charts/chartdatatable/hasoutlineborder/) { get; set; } | True if the chart data table has outline borders |
+| [HasVerticalBorder](../../aspose.cells.charts/chartdatatable/hasverticalborder/) { get; set; } | True if the chart data table has vertical cell borders |
 | [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey/) { get; set; } | True if the data label legend key is visible. |
 
 ### Examples

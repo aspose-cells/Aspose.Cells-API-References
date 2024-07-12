@@ -45,6 +45,6 @@ is_root: true
 | [Aspose.Cells.GridWeb](./aspose.cells.gridweb/) | The **Aspose.Cells.GridWeb** namespace contains core classes of web control that can be embeded in ASP.NET web forms to integrate spreadsheet manipulation capabilities without Microsoft Excel. |
 | [Aspose.Cells.GridWeb.Data](./aspose.cells.gridweb.data/) | The **Aspose.Cells.GridWeb.Data** namespace contains classes of data control objects such WebWorksheet, GridRow, GridCell, GridPicture, GridPivotTable and more. |
 | [Aspose.Cells.GridJs](./aspose.cells.gridjs/) | The **Aspose.Cells.GridJs** namespace contains all classes of GridJs which provide basic operations for managing spreadsheets without utilizing Microsoft Excel. |
-| [Aspose.Cells.GridJs.Chart](./aspose.cells.gridjs.chart/) | The **Aspose.Cells.GridJs.Chart** namespace contains all classes of GridJs which provide basic data structure for Charts json generation. |
+| [Aspose.Cells.GridJs.Chart](./aspose.cells.gridjs.chart/) | The **Chart** namespace contains all classes of GridJs which provide basic data structure for Charts json generation. |
 
 

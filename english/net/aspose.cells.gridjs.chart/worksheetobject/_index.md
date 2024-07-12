@@ -25,12 +25,6 @@ public class WorksheetObject
 | --- | --- |
 | [Name](../../aspose.cells.gridjs.chart/worksheetobject/name/) { get; set; } | name |
 
-## Fields
-
-| Name | Description |
-| --- | --- |
-| [_name](../../aspose.cells.gridjs.chart/worksheetobject/_name/) |  |
-
 ### See Also
 
 * namespace [Aspose.Cells.GridJs.Chart](../../aspose.cells.gridjs.chart/)

@@ -83,7 +83,7 @@ public class PivotField
 | [IsHiddenItem](../../aspose.cells.pivot/pivotfield/ishiddenitem/)(int) | Gets whether the specific PivotItem is hidden. |
 | [IsHiddenItemDetail](../../aspose.cells.pivot/pivotfield/ishiddenitemdetail/)(int) | Gets whether hidding the detail of the specific PivotItem.. |
 | [SetSubtotals](../../aspose.cells.pivot/pivotfield/setsubtotals/)(PivotFieldSubtotalType, bool) | Sets whether the specified field shows that subtotals. |
-| [ShowValuesAs](../../aspose.cells.pivot/pivotfield/showvaluesas/)(PivotFieldDataDisplayFormat, int, PivotItemPositionType, int) | Show value of data field as different display format when the ShowDataAs calculation is in use. |
+| [ShowValuesAs](../../aspose.cells.pivot/pivotfield/showvaluesas/)(PivotFieldDataDisplayFormat, int, PivotItemPositionType, int) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [Ungroup](../../aspose.cells.pivot/pivotfield/ungroup/)() | Ungroup the pivot field. |
 
 ### Examples

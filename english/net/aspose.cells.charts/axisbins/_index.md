@@ -28,8 +28,8 @@ public class AxisBins
 
 | Name | Description |
 | --- | --- |
-| [ResetOverflow](../../aspose.cells.charts/axisbins/resetoverflow/)() | Reset the overflow |
-| [ResetUnderflow](../../aspose.cells.charts/axisbins/resetunderflow/)() | Reset the underflow |
+| [ResetOverflow](../../aspose.cells.charts/axisbins/resetoverflow/)() | (**Obsolete.**) Reset the overflow |
+| [ResetUnderflow](../../aspose.cells.charts/axisbins/resetunderflow/)() | (**Obsolete.**) Reset the underflow |
 
 ### See Also
 
