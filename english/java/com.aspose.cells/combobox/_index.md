@@ -175,6 +175,7 @@ Represents the control form ComboBox.
 | [hasLine()](#hasLine--) | Gets the line border of the shape is visible. |
 | [hashCode()](#hashCode--) |  |
 | [isAspectRatioLocked()](#isAspectRatioLocked--) | True means that aspect ratio of the shape is locked. |
+| [isDecorative()](#isDecorative--) | Indicates whether the object is decorative. |
 | [isEquation()](#isEquation--) | Indicates whether the shape only contains an equation. |
 | [isFilled()](#isFilled--) | Indicates whether the fill format is visible. |
 | [isFlippedHorizontally()](#isFlippedHorizontally--) | Gets whether shape is horizontally flipped . |
@@ -201,6 +202,7 @@ Represents the control form ComboBox.
 | [setAutoShapeType(int value)](#setAutoShapeType-int-) | Sets the auto shape type. |
 | [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Sets create id for this shape. |
+| [setDecorative(boolean value)](#setDecorative-boolean-) | Indicates whether the object is decorative. |
 | [setDropDownLines(int value)](#setDropDownLines-int-) | Sets the number of list lines displayed in the drop-down portion of a combo box. |
 | [setFilled(boolean value)](#setFilled-boolean-) | Indicates whether the fill format is visible. |
 | [setFlippedHorizontally(boolean value)](#setFlippedHorizontally-boolean-) | Sets whether shape is horizontally flipped . |
@@ -2116,6 +2118,16 @@ Only for pictures and Ole Objects.
 
 **Returns:**
 boolean
+### isDecorative() {#isDecorative--}
+```
+public boolean isDecorative()
+```
+
+
+Indicates whether the object is decorative.
+
+**Returns:**
+boolean
 ### isEquation() {#isEquation--}
 ```
 public boolean isEquation()
@@ -2552,6 +2564,19 @@ Sets create id for this shape.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.UUID |  |
+
+### setDecorative(boolean value) {#setDecorative-boolean-}
+```
+public void setDecorative(boolean value)
+```
+
+
+Indicates whether the object is decorative.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setDropDownLines(int value) {#setDropDownLines-int-}
 ```

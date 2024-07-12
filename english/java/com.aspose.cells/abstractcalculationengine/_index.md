@@ -62,6 +62,7 @@ User should not modify any part of the Workbook directly in this implementation(
 | --- | --- |
 | [calculate(CalculationData data)](#calculate-com.aspose.cells.CalculationData-) | Calculates one function with given data. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [forceRecalculate(String functionName)](#forceRecalculate-java.lang.String-) | Whether force given function to be recalculated always when calculating shared formulas. |
 | [getClass()](#getClass--) |  |
 | [getProcessBuiltInFunctions()](#getProcessBuiltInFunctions--) | Whether built-in functions that have been supported by the built-in engine should be checked and processed by this implementation. |
 | [hashCode()](#hashCode--) |  |
@@ -111,6 +112,25 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### forceRecalculate(String functionName) {#forceRecalculate-java.lang.String-}
+```
+public boolean forceRecalculate(String functionName)
+```
+
+
+Whether force given function to be recalculated always when calculating shared formulas.
+
+**Remarks**
+
+For shared formulas, multiple cells share the same function. If the function's parameters keep same for those cells too, then generally this function needs to be calculated only once. So for performance consideration we only calculate such kind of function once too([calculate(CalculationData)](../../com.aspose.cells/abstractcalculationengine\#calculate-CalculationData-) is called only once, instead of being called repeatedly for every cell). However, for user's custom implementation, maybe the function, especially the custom function, needs to be calculated differently for different cells. If so, user needs to override this method to make it return true for the function. And for [calculate(CalculationData)](../../com.aspose.cells/abstractcalculationengine\#calculate-CalculationData-), the given [CalculationData.getCalculatedValue()](../../com.aspose.cells/calculationdata\#getCalculatedValue--) may have been initialized with the cached value of previous calculation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionName | java.lang.String | name of the function. Generally it is custom function's name. If [getProcessBuiltInFunctions()](../../com.aspose.cells/abstractcalculationengine\#getProcessBuiltInFunctions--) is true, then built-in functions will also be checked here. |
+
+**Returns:**
+boolean - true if the specified function needs to be recalculated always.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

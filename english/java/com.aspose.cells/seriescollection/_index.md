@@ -87,6 +87,7 @@ Encapsulates a collection of [Series](../../com.aspose.cells/series) objects.
 | [setColorVaried(boolean value)](#setColorVaried-boolean-) | Represents if the color of points is varied. |
 | [setSecondCategoryData(String value)](#setSecondCategoryData-java.lang.String-) | Sets the range of second category Axis values. |
 | [setSeriesNames(int startIndex, String area, boolean isVertical)](#setSeriesNames-int-java.lang.String-boolean-) | Sets the name of all the serieses in the chart. |
+| [swapSeries(int sourceIndex, int destIndex)](#swapSeries-int-int-) | Directly changes the orders of the two series. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -186,6 +187,10 @@ public void changeSeriesOrder(int sourceIndex, int destIndex)
 
 
 Directly changes the orders of the two series.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use SeriesCollection.SwapSeries method. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -438,6 +443,20 @@ If set data on contiguous cells, use comma to seperate them.For example, ($C$2,$
 | startIndex | int | The index of the first series which you want to set the name. |
 | area | java.lang.String | Specifies the area for the series name. |
 | isVertical | boolean | >Specifies whether to plot the series from a range of cell values by row or by column. |
+
+### swapSeries(int sourceIndex, int destIndex) {#swapSeries-int-int-}
+```
+public void swapSeries(int sourceIndex, int destIndex)
+```
+
+
+Directly changes the orders of the two series.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceIndex | int | The current index |
+| destIndex | int | The dest index |
 
 ### toString() {#toString--}
 ```

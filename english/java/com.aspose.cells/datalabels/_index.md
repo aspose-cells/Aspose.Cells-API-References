@@ -40,6 +40,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 
 | Method | Description |
 | --- | --- |
+| [applyFont()](#applyFont--) | Apply the font of the datalabels to all child nodes. |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
@@ -138,6 +139,14 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### applyFont() {#applyFont--}
+```
+public void applyFont()
+```
+
+
+Apply the font of the datalabels to all child nodes.
+
 ### characters(int startIndex, int length) {#characters-int-int-}
 ```
 public FontSetting characters(int startIndex, int length)

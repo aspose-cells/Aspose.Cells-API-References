@@ -150,6 +150,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [hashCode()](#hashCode--) |  |
 | [isAspectRatioLocked()](#isAspectRatioLocked--) | True means that aspect ratio of the shape is locked. |
 | [isAutoSize()](#isAutoSize--) | True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded content when the ole object is activated. |
+| [isDecorative()](#isDecorative--) | Indicates whether the object is decorative. |
 | [isDynamicDataExchange()](#isDynamicDataExchange--) | Gets whether dynamic data exchange |
 | [isEquation()](#isEquation--) | Indicates whether the shape only contains an equation. |
 | [isFilled()](#isFilled--) | Indicates whether the fill format is visible. |
@@ -171,6 +172,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [moveToRange(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn)](#moveToRange-int-int-int-int-) | Moves the shape to a specified range. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [placeInCell()](#placeInCell--) | Place this picture in the cell |
 | [removeActiveXControl()](#removeActiveXControl--) | Remove activeX control. |
 | [removeHyperlink()](#removeHyperlink--) | Removes the hyperlink of the shape. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object. |
@@ -183,6 +185,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Sets create id for this shape. |
 | [setData(byte[] value)](#setData-byte---) | Gets the data of the picture. |
+| [setDecorative(boolean value)](#setDecorative-boolean-) | Indicates whether the object is decorative. |
 | [setDisplayAsIcon(boolean value)](#setDisplayAsIcon-boolean-) | True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [setDynamicDataExchange(boolean value)](#setDynamicDataExchange-boolean-) | Sets whether dynamic data exchange |
 | [setFilled(boolean value)](#setFilled-boolean-) | Indicates whether the fill format is visible. |
@@ -2433,6 +2436,16 @@ True indicates that the size of the ole object will be auto changed as the size 
 
 **Returns:**
 boolean
+### isDecorative() {#isDecorative--}
+```
+public boolean isDecorative()
+```
+
+
+Indicates whether the object is decorative.
+
+**Returns:**
+boolean
 ### isDynamicDataExchange() {#isDynamicDataExchange--}
 ```
 public boolean isDynamicDataExchange()
@@ -2821,6 +2834,14 @@ public final native void notifyAll()
 
 
 
+### placeInCell() {#placeInCell--}
+```
+public void placeInCell()
+```
+
+
+Place this picture in the cell
+
 ### removeActiveXControl() {#removeActiveXControl--}
 ```
 public void removeActiveXControl()
@@ -2989,6 +3010,19 @@ Gets the data of the picture.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte[] |  |
+
+### setDecorative(boolean value) {#setDecorative-boolean-}
+```
+public void setDecorative(boolean value)
+```
+
+
+Indicates whether the object is decorative.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setDisplayAsIcon(boolean value) {#setDisplayAsIcon-boolean-}
 ```

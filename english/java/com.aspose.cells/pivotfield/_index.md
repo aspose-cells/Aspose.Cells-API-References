@@ -175,7 +175,7 @@ Represents a field in a PivotTable report.
 | [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Indicates whether layout this field in outline form on the Pivot Table view |
 | [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets whether the specified field shows that subtotals. |
-| [showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem)](#showValuesAs-int-int-int-int-) | Show value of data field as different display format when the ShowDataAs calculation is in use. |
+| [showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem)](#showValuesAs-int-int-int-int-) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [toString()](#toString--) |  |
 | [ungroup()](#ungroup--) | Ungroup the pivot field. |
 | [wait()](#wait--) |  |
@@ -1420,7 +1420,7 @@ public void showValuesAs(int displayFormat, int baseField, int baseItemPositionT
 ```
 
 
-Show value of data field as different display format when the ShowDataAs calculation is in use.
+Shows values of data field as different display format when the ShowDataAs calculation is in use.
 
 **Remarks**
 

@@ -159,6 +159,10 @@ public void resetOverflow()
 
 Reset the overflow
 
+**Remarks**
+
+NOTE: This method is now obsolete. This is an internal method that does not need to be called externally to avoid causing problems. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 ### resetUnderflow() {#resetUnderflow--}
 ```
 public void resetUnderflow()
@@ -166,6 +170,10 @@ public void resetUnderflow()
 
 
 Reset the underflow
+
+**Remarks**
+
+NOTE: This method is now obsolete. This is an internal method that does not need to be called externally to avoid causing problems. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setAutomatic(boolean value) {#setAutomatic-boolean-}
 ```

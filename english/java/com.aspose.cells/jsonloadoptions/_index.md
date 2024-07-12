@@ -34,6 +34,7 @@ Represents the options of loading json files
 | [getIgnoreUselessShapes()](#getIgnoreUselessShapes--) | Indicates whether ignoring useless shapes. |
 | [getInterruptMonitor()](#getInterruptMonitor--) | Gets the interrupt monitor. |
 | [getKeepUnparsedData()](#getKeepUnparsedData--) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
+| [getKeptSchema()](#getKeptSchema--) | Indicates whether keeping schema of this json. |
 | [getLanguageCode()](#getLanguageCode--) | Gets the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [getLayoutOptions()](#getLayoutOptions--) | The options of import json. |
 | [getLightCellsDataHandler()](#getLightCellsDataHandler--) | The data handler for processing cells data when reading template file. |
@@ -63,6 +64,7 @@ Represents the options of loading json files
 | [setIgnoreUselessShapes(boolean value)](#setIgnoreUselessShapes-boolean-) | Indicates whether ignoring useless shapes. |
 | [setInterruptMonitor(AbstractInterruptMonitor value)](#setInterruptMonitor-com.aspose.cells.AbstractInterruptMonitor-) | Sets the interrupt monitor. |
 | [setKeepUnparsedData(boolean value)](#setKeepUnparsedData-boolean-) | Whether keep the unparsed data in memory for the Workbook when it is loaded from template file. |
+| [setKeptSchema(boolean value)](#setKeptSchema-boolean-) | Indicates whether keeping schema of this json. |
 | [setLanguageCode(int value)](#setLanguageCode-int-) | Sets the user interface language of the Workbook version based on CountryCode that has saved the file. |
 | [setLayoutOptions(JsonLayoutOptions value)](#setLayoutOptions-com.aspose.cells.JsonLayoutOptions-) | The options of import json. |
 | [setLightCellsDataHandler(LightCellsDataHandler value)](#setLightCellsDataHandler-com.aspose.cells.LightCellsDataHandler-) | The data handler for processing cells data when reading template file. |
@@ -234,6 +236,20 @@ Whether keep the unparsed data in memory for the Workbook when it is loaded from
 **Remarks**
 
 For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+
+**Returns:**
+boolean
+### getKeptSchema() {#getKeptSchema--}
+```
+public boolean getKeptSchema()
+```
+
+
+Indicates whether keeping schema of this json.
+
+**Remarks**
+
+Sometimes we will save the file to JSON after loading JSON file.
 
 **Returns:**
 boolean
@@ -598,6 +614,23 @@ Whether keep the unparsed data in memory for the Workbook when it is loaded from
 **Remarks**
 
 For scenarios that user only needs to read some contents from template file and does not need to save the workbook back, set this property as false may improve performance, especially when using it together with some kind of LoadFilter,
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setKeptSchema(boolean value) {#setKeptSchema-boolean-}
+```
+public void setKeptSchema(boolean value)
+```
+
+
+Indicates whether keeping schema of this json.
+
+**Remarks**
+
+Sometimes we will save the file to JSON after loading JSON file.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -97,6 +97,7 @@ Summary description for PivotTable.
 | [addFieldToArea(int fieldType, int baseFieldIndex)](#addFieldToArea-int-int-) | Adds the field to the specific area. |
 | [addFieldToArea(int fieldType, String fieldName)](#addFieldToArea-int-java.lang.String-) | Adds the field to the specific area. |
 | [calculateData()](#calculateData--) | Calculates pivottable's data to cells. |
+| [calculateData(PivotTableCalculateOption option)](#calculateData-com.aspose.cells.PivotTableCalculateOption-) | Calculating pivot tables with options |
 | [calculateRange()](#calculateRange--) | Calculates pivottable's range. |
 | [changeDataSource(String[] source)](#changeDataSource-java.lang.String---) | Set pivottable's source data. |
 | [clearData()](#clearData--) | Clear PivotTable's data and formatting |
@@ -365,6 +366,19 @@ Calculates pivottable's data to cells.
 **Remarks**
 
 Cell.Value in the pivot range could not return the correct result if the method is not been called. This method calculates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
+
+### calculateData(PivotTableCalculateOption option) {#calculateData-com.aspose.cells.PivotTableCalculateOption-}
+```
+public void calculateData(PivotTableCalculateOption option)
+```
+
+
+Calculating pivot tables with options
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableCalculateOption](../../com.aspose.cells/pivottablecalculateoption) |  |
 
 ### calculateRange() {#calculateRange--}
 ```

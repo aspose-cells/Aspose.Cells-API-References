@@ -169,6 +169,7 @@ Represents an OleObject in a worksheet.
 | [hashCode()](#hashCode--) |  |
 | [isAspectRatioLocked()](#isAspectRatioLocked--) | True means that aspect ratio of the shape is locked. |
 | [isAutoSize()](#isAutoSize--) | True indicates that the size of the ole object will be auto changed as the size of snapshot of the embedded content when the ole object is activated. |
+| [isDecorative()](#isDecorative--) | Indicates whether the object is decorative. |
 | [isEquation()](#isEquation--) | Indicates whether the shape only contains an equation. |
 | [isFilled()](#isFilled--) | Indicates whether the fill format is visible. |
 | [isFlippedHorizontally()](#isFlippedHorizontally--) | Gets whether shape is horizontally flipped . |
@@ -200,6 +201,7 @@ Represents an OleObject in a worksheet.
 | [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [setClassIdentifier(byte[] value)](#setClassIdentifier-byte---) | Sets the class identifier of the embedded object. |
 | [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Sets create id for this shape. |
+| [setDecorative(boolean value)](#setDecorative-boolean-) | Indicates whether the object is decorative. |
 | [setDisplayAsIcon(boolean value)](#setDisplayAsIcon-boolean-) | True if the specified object is displayed as an icon and the image will not be auto changed. |
 | [setEmbeddedObject(boolean linkToFile, byte[] objectData, String sourceFileName, boolean displayAsIcon, String label)](#setEmbeddedObject-boolean-byte---java.lang.String-boolean-java.lang.String-) | Sets embedded object data. |
 | [setEmbeddedObject(boolean linkToFile, byte[] objectData, String sourceFileName, boolean displayAsIcon, String label, boolean updateIcon)](#setEmbeddedObject-boolean-byte---java.lang.String-boolean-java.lang.String-boolean-) | Sets embedded object data. |
@@ -2237,6 +2239,16 @@ True indicates that the size of the ole object will be auto changed as the size 
 
 **Returns:**
 boolean
+### isDecorative() {#isDecorative--}
+```
+public boolean isDecorative()
+```
+
+
+Indicates whether the object is decorative.
+
+**Returns:**
+boolean
 ### isEquation() {#isEquation--}
 ```
 public boolean isEquation()
@@ -2735,6 +2747,19 @@ Sets create id for this shape.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.UUID |  |
+
+### setDecorative(boolean value) {#setDecorative-boolean-}
+```
+public void setDecorative(boolean value)
+```
+
+
+Indicates whether the object is decorative.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setDisplayAsIcon(boolean value) {#setDisplayAsIcon-boolean-}
 ```

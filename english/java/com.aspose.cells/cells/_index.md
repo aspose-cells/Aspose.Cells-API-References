@@ -103,6 +103,7 @@ Encapsulates a collection of cell relevant objects, such as [Cell](../../com.asp
 | [get(int row, int column)](#get-int-int-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell row index and column index. |
 | [get(String cellName)](#get-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) element at the specified cell name. |
 | [getCellStyle(int row, int column)](#getCellStyle-int-int-) | Get the style of given cell. |
+| [getCellsWithPlaceInCellPicture()](#getCellsWithPlaceInCellPicture--) | Gets all cells that contain embedded picture. |
 | [getClass()](#getClass--) |  |
 | [getColumnOriginalWidthPoint(int column)](#getColumnOriginalWidthPoint-int-) | Gets original column's height in unit of point if the column is hidden |
 | [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width(in unit of characters) of the specified column in normal view |
@@ -1069,6 +1070,20 @@ Get the style of given cell.
 
 **Returns:**
 [Style](../../com.aspose.cells/style) - the style of given cell.
+### getCellsWithPlaceInCellPicture() {#getCellsWithPlaceInCellPicture--}
+```
+public Iterator getCellsWithPlaceInCellPicture()
+```
+
+
+Gets all cells that contain embedded picture.
+
+**Remarks**
+
+If there is no picture which is set as "Place in Cell" in this worksheet, null will be returned. />
+
+**Returns:**
+java.util.Iterator - Enumerator to enumerate all Cell objects that contain embedded picture
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

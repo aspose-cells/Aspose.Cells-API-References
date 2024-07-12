@@ -118,6 +118,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getValuesFormatCode()](#getValuesFormatCode--) | Represents format code of Values's NumberList. |
 | [getXErrorBar()](#getXErrorBar--) | Represents X direction error bar of the series. |
 | [getXValues()](#getXValues--) | Represents the x values of the chart series. |
+| [getXValuesFormatCode()](#getXValuesFormatCode--) | Represents format code of X Values's NumberList. |
 | [getYErrorBar()](#getYErrorBar--) | Represents Y direction error bar of the series. |
 | [hasDropLines()](#hasDropLines--) | True if the chart has drop lines. |
 | [hasHiLoLines()](#hasHiLoLines--) | True if the line chart has high-low lines. |
@@ -164,6 +165,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [setValues(String value)](#setValues-java.lang.String-) | Represents the Y values of this chart series. |
 | [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents format code of Values's NumberList. |
 | [setXValues(String value)](#setXValues-java.lang.String-) | Represents the x values of the chart series. |
+| [setXValuesFormatCode(String value)](#setXValuesFormatCode-java.lang.String-) | Represents format code of X Values's NumberList. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -632,6 +634,16 @@ public String getXValues()
 
 
 Represents the x values of the chart series.
+
+**Returns:**
+java.lang.String
+### getXValuesFormatCode() {#getXValuesFormatCode--}
+```
+public String getXValuesFormatCode()
+```
+
+
+Represents format code of X Values's NumberList.
 
 **Returns:**
 java.lang.String
@@ -1199,6 +1211,19 @@ public void setXValues(String value)
 
 
 Represents the x values of the chart series.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+
+### setXValuesFormatCode(String value) {#setXValuesFormatCode-java.lang.String-}
+```
+public void setXValuesFormatCode(String value)
+```
+
+
+Represents format code of X Values's NumberList.
 
 **Parameters:**
 | Parameter | Type | Description |

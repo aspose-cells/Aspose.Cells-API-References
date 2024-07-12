@@ -1,7 +1,7 @@
 ---
 title: PivotItemPosition
 second_title: Aspose.Cells for Java API Reference
-description: Represents PivotTable base item Next/Previous/All position in the base field .
+description: Represents base item Next/Previous/All position in the base field .
 type: docs
 url: /java/com.aspose.cells/pivotitemposition/
 ---
@@ -12,7 +12,11 @@ java.lang.Object
 public final class PivotItemPosition
 ```
 
-Represents PivotTable base item Next/Previous/All position in the base field .
+Represents base item Next/Previous/All position in the base field .
+
+**Remarks**
+
+NOTE: This enum is now obsolete. Instead, please use PivotItemPositionType enum instead. This method will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 ## Fields
 
 | Field | Description |

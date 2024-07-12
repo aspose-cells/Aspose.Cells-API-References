@@ -19,6 +19,7 @@ Specify the sort type of SlicerCacheItem
 | --- | --- |
 | [ASCENDING](#ASCENDING) | Ascending sort type |
 | [DESCENDING](#DESCENDING) | Descending sort type |
+| [NATURAL](#NATURAL) | Original data order. |
 ## Methods
 
 | Method | Description |
@@ -47,6 +48,14 @@ public static final int DESCENDING
 
 
 Descending sort type
+
+### NATURAL {#NATURAL}
+```
+public static final int NATURAL
+```
+
+
+Original data order.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

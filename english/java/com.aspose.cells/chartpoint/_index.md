@@ -83,6 +83,7 @@ Represents a single point in a series in a chart.
 | [getBottomPointYPx(int index)](#getBottomPointYPx-int-) | Gets y-coordinate of the bottom point of shape after calls Chart.Calculate() method. |
 | [getClass()](#getClass--) |  |
 | [getDataLabels()](#getDataLabels--) | Returns a [getDataLabels()](../../com.aspose.cells/chartpoint\#getDataLabels--) object that represents the data label associated with this chart point. |
+| [getDoughnutInnerRadius()](#getDoughnutInnerRadius--) | Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. |
 | [getEndAngle()](#getEndAngle--) | Gets the ending angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. |
 | [getExplosion()](#getExplosion--) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [getInnerArcEndPointXPx()](#getInnerArcEndPointXPx--) | Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method. |
@@ -271,6 +272,16 @@ Returns a [getDataLabels()](../../com.aspose.cells/chartpoint\#getDataLabels--) 
 
 **Returns:**
 [DataLabels](../../com.aspose.cells/datalabels)
+### getDoughnutInnerRadius() {#getDoughnutInnerRadius--}
+```
+public int getDoughnutInnerRadius()
+```
+
+
+Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart.
+
+**Returns:**
+int
 ### getEndAngle() {#getEndAngle--}
 ```
 public float getEndAngle()
@@ -338,6 +349,10 @@ public int getInnerRadiusPx()
 
 
 Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartPoint.DoughnutInnerRadius property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int

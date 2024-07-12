@@ -18,6 +18,7 @@ Represents the format in which the workbook is saved.
 | Field | Description |
 | --- | --- |
 | [AUTO](#AUTO) | If saving the file to the disk,the file format accords to the extension of the file name. |
+| [AZW_3](#AZW-3) | Represents Azw3 file. |
 | [BMP](#BMP) | Windows Bitmap |
 | [CSV](#CSV) | Comma-Separated Values(CSV) text file. |
 | [DIF](#DIF) | Data Interchange Format. |
@@ -76,6 +77,14 @@ public static final int AUTO
 
 
 If saving the file to the disk,the file format accords to the extension of the file name. If saving the file to the stream, the file format is xlsx.
+
+### AZW_3 {#AZW-3}
+```
+public static final int AZW_3
+```
+
+
+Represents Azw3 file.
 
 ### BMP {#BMP}
 ```

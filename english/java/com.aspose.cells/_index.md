@@ -144,6 +144,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ControlScrollOrientation](../com.aspose.cells/controlscrollorientation) | Represents type of scroll orientation |
 | [ControlSpecialEffectType](../com.aspose.cells/controlspecialeffecttype) | Represents the type of special effect. |
 | [ControlType](../com.aspose.cells/controltype) | Represents all type of ActiveX control. |
+| [ConversionUtility](../com.aspose.cells/conversionutility) | Represents converting files other formats. |
 | [CopyFormatType](../com.aspose.cells/copyformattype) | Represents type of copying format when inserting rows. |
 | [CopyOptions](../com.aspose.cells/copyoptions) | Represents the copy options. |
 | [CountryCode](../com.aspose.cells/countrycode) | Represents Excel country identifiers. |
@@ -461,7 +462,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotGroupByType](../com.aspose.cells/pivotgroupbytype) | Represents group by type. |
 | [PivotItem](../com.aspose.cells/pivotitem) | Represents a item in a PivotField report. |
 | [PivotItemCollection](../com.aspose.cells/pivotitemcollection) | Represents a collection of all the PivotItem objects in the PivotField's |
-| [PivotItemPosition](../com.aspose.cells/pivotitemposition) | Represents PivotTable base item Next/Previous/All position in the base field . |
+| [PivotItemPosition](../com.aspose.cells/pivotitemposition) | Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](../com.aspose.cells/pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotMissingItemLimitType](../com.aspose.cells/pivotmissingitemlimittype) | Represents number of items to retain per field. |
 | [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
@@ -470,6 +471,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotShowValuesSetting](../com.aspose.cells/pivotshowvaluessetting) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |
+| [PivotTableCalculateOption](../com.aspose.cells/pivottablecalculateoption) | Rerepsents the options of calcuating the pivot table. |
 | [PivotTableCollection](../com.aspose.cells/pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
 | [PivotTableFormat](../com.aspose.cells/pivottableformat) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](../com.aspose.cells/pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
@@ -584,7 +586,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ShowDropButtonType](../com.aspose.cells/showdropbuttontype) | Specifies when to show the drop button |
 | [SignatureLine](../com.aspose.cells/signatureline) | Represent the signature line. |
 | [Slicer](../com.aspose.cells/slicer) | summary description of Slicer View |
-| [SlicerCache](../com.aspose.cells/slicercache) | summary description of slicer cache |
+| [SlicerCache](../com.aspose.cells/slicercache) | Represent summary description of slicer cache |
 | [SlicerCacheCrossFilterType](../com.aspose.cells/slicercachecrossfiltertype) | Represent the type of SlicerCacheCrossFilterType |
 | [SlicerCacheItem](../com.aspose.cells/slicercacheitem) | Represent slicer data source item |
 | [SlicerCacheItemCollection](../com.aspose.cells/slicercacheitemcollection) | Represent the collection of SlicerCacheItem |

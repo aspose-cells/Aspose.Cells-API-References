@@ -31,6 +31,7 @@ Represents the options of json layout type.
 | [getIgnoreNull()](#getIgnoreNull--) | Indicates whether ignoring null value. |
 | [getIgnoreObjectTitle()](#getIgnoreObjectTitle--) | Indicates whether ignore title if object is a property of object. |
 | [getIgnoreTitle()](#getIgnoreTitle--) | Ingores titles of attributes |
+| [getKeptSchema()](#getKeptSchema--) | Indicates whether keeping schema of this json. |
 | [getNumberFormat()](#getNumberFormat--) | Gets the format of numeric value. |
 | [getTitleStyle()](#getTitleStyle--) | Gets the style of the title. |
 | [hashCode()](#hashCode--) |  |
@@ -43,6 +44,7 @@ Represents the options of json layout type.
 | [setIgnoreNull(boolean value)](#setIgnoreNull-boolean-) | Indicates whether ignoring null value. |
 | [setIgnoreObjectTitle(boolean value)](#setIgnoreObjectTitle-boolean-) | Indicates whether ignore title if object is a property of object. |
 | [setIgnoreTitle(boolean value)](#setIgnoreTitle-boolean-) | Ingores titles of attributes |
+| [setKeptSchema(boolean value)](#setKeptSchema-boolean-) | Indicates whether keeping schema of this json. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Sets the format of numeric value. |
 | [setTitleStyle(Style value)](#setTitleStyle-com.aspose.cells.Style-) | Sets the style of the title. |
 | [toString()](#toString--) |  |
@@ -157,6 +159,20 @@ public boolean getIgnoreTitle()
 
 
 Ingores titles of attributes
+
+**Returns:**
+boolean
+### getKeptSchema() {#getKeptSchema--}
+```
+public boolean getKeptSchema()
+```
+
+
+Indicates whether keeping schema of this json.
+
+**Remarks**
+
+Sometimes we will save the file to JSON after loading JSON file.
 
 **Returns:**
 boolean
@@ -299,6 +315,23 @@ public void setIgnoreTitle(boolean value)
 
 
 Ingores titles of attributes
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setKeptSchema(boolean value) {#setKeptSchema-boolean-}
+```
+public void setKeptSchema(boolean value)
+```
+
+
+Indicates whether keeping schema of this json.
+
+**Remarks**
+
+Sometimes we will save the file to JSON after loading JSON file.
 
 **Parameters:**
 | Parameter | Type | Description |

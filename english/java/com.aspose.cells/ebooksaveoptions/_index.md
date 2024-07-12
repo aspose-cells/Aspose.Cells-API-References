@@ -18,6 +18,7 @@ Represents the options for saving ebook file.
 | Constructor | Description |
 | --- | --- |
 | [EbookSaveOptions()](#EbookSaveOptions--) | Creates options for saving ebook file. |
+| [EbookSaveOptions(int saveFormat)](#EbookSaveOptions-int-) | Creates options for saving ebook file. |
 ## Methods
 
 | Method | Description |
@@ -184,6 +185,19 @@ public EbookSaveOptions()
 
 
 Creates options for saving ebook file.
+
+### EbookSaveOptions(int saveFormat) {#EbookSaveOptions-int-}
+```
+public EbookSaveOptions(int saveFormat)
+```
+
+
+Creates options for saving ebook file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be [SaveFormat.EPUB](../../com.aspose.cells/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.cells/saveformat\#AZW-3). |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

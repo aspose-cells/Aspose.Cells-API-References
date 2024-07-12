@@ -127,6 +127,7 @@ Scroll value must be between 0 and 30000.
 | [hasLine()](#hasLine--) | Gets the line border of the shape is visible. |
 | [hashCode()](#hashCode--) |  |
 | [isAspectRatioLocked()](#isAspectRatioLocked--) | True means that aspect ratio of the shape is locked. |
+| [isDecorative()](#isDecorative--) | Indicates whether the object is decorative. |
 | [isEquation()](#isEquation--) | Indicates whether the shape only contains an equation. |
 | [isFilled()](#isFilled--) | Indicates whether the fill format is visible. |
 | [isFlippedHorizontally()](#isFlippedHorizontally--) | Gets whether shape is horizontally flipped . |
@@ -155,6 +156,7 @@ Scroll value must be between 0 and 30000.
 | [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Sets create id for this shape. |
 | [setCurrentValue(int value)](#setCurrentValue-int-) | Sets the current value. |
+| [setDecorative(boolean value)](#setDecorative-boolean-) | Indicates whether the object is decorative. |
 | [setFilled(boolean value)](#setFilled-boolean-) | Indicates whether the fill format is visible. |
 | [setFlippedHorizontally(boolean value)](#setFlippedHorizontally-boolean-) | Sets whether shape is horizontally flipped . |
 | [setFlippedVertically(boolean value)](#setFlippedVertically-boolean-) | Sets whether shape is vertically flipped . |
@@ -2068,6 +2070,16 @@ Only for pictures and Ole Objects.
 
 **Returns:**
 boolean
+### isDecorative() {#isDecorative--}
+```
+public boolean isDecorative()
+```
+
+
+Indicates whether the object is decorative.
+
+**Returns:**
+boolean
 ### isEquation() {#isEquation--}
 ```
 public boolean isEquation()
@@ -2527,6 +2539,19 @@ Sets the current value.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setDecorative(boolean value) {#setDecorative-boolean-}
+```
+public void setDecorative(boolean value)
+```
+
+
+Indicates whether the object is decorative.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setFilled(boolean value) {#setFilled-boolean-}
 ```

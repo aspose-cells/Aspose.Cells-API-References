@@ -41,7 +41,8 @@ Encapsulates a collection of [SparklineGroup](../../com.aspose.cells/sparklinegr
 
 | Method | Description |
 | --- | --- |
-| [add(int type, String dataRange, boolean isVertical, CellArea locationRange)](#add-int-java.lang.String-boolean-com.aspose.cells.CellArea-) | Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) item to the collection. |
+| [add(int type)](#add-int-) | Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with a [Sparkline](../../com.aspose.cells/sparkline) to the collection. |
+| [add(int type, String dataRange, boolean isVertical, CellArea locationRange)](#add-int-java.lang.String-boolean-com.aspose.cells.CellArea-) | Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with [Sparkline](../../com.aspose.cells/sparkline) to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [clearSparklineGroups(CellArea cellArea)](#clearSparklineGroups-com.aspose.cells.CellArea-) | Clears the sparkline groups that overlaps an area of cells. |
@@ -61,13 +62,28 @@ Encapsulates a collection of [SparklineGroup](../../com.aspose.cells/sparklinegr
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### add(int type) {#add-int-}
+```
+public int add(int type)
+```
+
+
+Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with a [Sparkline](../../com.aspose.cells/sparkline) to the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | [SparklineType](../../com.aspose.cells/sparklinetype). Specifies the type of the Sparkline group. |
+
+**Returns:**
+int - [SparklineGroup](../../com.aspose.cells/sparklinegroup) object index.
 ### add(int type, String dataRange, boolean isVertical, CellArea locationRange) {#add-int-java.lang.String-boolean-com.aspose.cells.CellArea-}
 ```
 public int add(int type, String dataRange, boolean isVertical, CellArea locationRange)
 ```
 
 
-Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) item to the collection.
+Adds an [SparklineGroup](../../com.aspose.cells/sparklinegroup) with [Sparkline](../../com.aspose.cells/sparkline) to the collection.
 
 **Parameters:**
 | Parameter | Type | Description |

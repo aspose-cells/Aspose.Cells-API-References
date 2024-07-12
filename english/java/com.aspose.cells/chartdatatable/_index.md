@@ -70,7 +70,6 @@ Represents a chart data table.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
-| [getBackground()](#getBackground--) | Gets the display mode of the background |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Returns a Border object that represents the border of the object |
 | [getClass()](#getClass--) |  |
@@ -79,15 +78,20 @@ Represents a chart data table.
 | [hasBorderHorizontal()](#hasBorderHorizontal--) | True if the chart data table has horizontal cell borders |
 | [hasBorderOutline()](#hasBorderOutline--) | True if the chart data table has outline borders |
 | [hasBorderVertical()](#hasBorderVertical--) | True if the chart data table has vertical cell borders |
+| [hasHorizontalBorder()](#hasHorizontalBorder--) | True if the chart data table has horizontal cell borders |
+| [hasOutlineBorder()](#hasOutlineBorder--) | True if the chart data table has outline borders |
+| [hasVerticalBorder()](#hasVerticalBorder--) | True if the chart data table has vertical cell borders |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoScaleFont(boolean value)](#setAutoScaleFont-boolean-) | True if the text in the object changes font size when the object size changes. |
-| [setBackground(int value)](#setBackground-int-) | Sets the display mode of the background |
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background |
 | [setHasBorderHorizontal(boolean value)](#setHasBorderHorizontal-boolean-) | True if the chart data table has horizontal cell borders |
 | [setHasBorderOutline(boolean value)](#setHasBorderOutline-boolean-) | True if the chart data table has outline borders |
 | [setHasBorderVertical(boolean value)](#setHasBorderVertical-boolean-) | True if the chart data table has vertical cell borders |
+| [setHasHorizontalBorder(boolean value)](#setHasHorizontalBorder-boolean-) | True if the chart data table has horizontal cell borders |
+| [setHasOutlineBorder(boolean value)](#setHasOutlineBorder-boolean-) | True if the chart data table has outline borders |
+| [setHasVerticalBorder(boolean value)](#setHasVerticalBorder-boolean-) | True if the chart data table has vertical cell borders |
 | [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | True if the data label legend key is visible. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -118,22 +122,6 @@ True if the text in the object changes font size when the object size changes. T
 
 **Returns:**
 boolean
-### getBackground() {#getBackground--}
-```
-public int getBackground()
-```
-
-
-Gets the display mode of the background
-
-See [BackgroundMode](../../com.aspose.cells/backgroundmode).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use ChartDataTable.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getBackgroundMode() {#getBackgroundMode--}
 ```
 public int getBackgroundMode()
@@ -194,6 +182,10 @@ public boolean hasBorderHorizontal()
 
 True if the chart data table has horizontal cell borders
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasHorizontalBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### hasBorderOutline() {#hasBorderOutline--}
@@ -204,11 +196,49 @@ public boolean hasBorderOutline()
 
 True if the chart data table has outline borders
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasOutlineBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### hasBorderVertical() {#hasBorderVertical--}
 ```
 public boolean hasBorderVertical()
+```
+
+
+True if the chart data table has vertical cell borders
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasVerticalBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+boolean
+### hasHorizontalBorder() {#hasHorizontalBorder--}
+```
+public boolean hasHorizontalBorder()
+```
+
+
+True if the chart data table has horizontal cell borders
+
+**Returns:**
+boolean
+### hasOutlineBorder() {#hasOutlineBorder--}
+```
+public boolean hasOutlineBorder()
+```
+
+
+True if the chart data table has outline borders
+
+**Returns:**
+boolean
+### hasVerticalBorder() {#hasVerticalBorder--}
+```
+public boolean hasVerticalBorder()
 ```
 
 
@@ -255,25 +285,6 @@ True if the text in the object changes font size when the object size changes. T
 | --- | --- | --- |
 | value | boolean |  |
 
-### setBackground(int value) {#setBackground-int-}
-```
-public void setBackground(int value)
-```
-
-
-Sets the display mode of the background
-
-See [BackgroundMode](../../com.aspose.cells/backgroundmode).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use ChartDataTable.BackgroundMode property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### setBackgroundMode(int value) {#setBackgroundMode-int-}
 ```
 public void setBackgroundMode(int value)
@@ -297,6 +308,10 @@ public void setHasBorderHorizontal(boolean value)
 
 True if the chart data table has horizontal cell borders
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasHorizontalBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -310,6 +325,10 @@ public void setHasBorderOutline(boolean value)
 
 True if the chart data table has outline borders
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasOutlineBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -318,6 +337,49 @@ True if the chart data table has outline borders
 ### setHasBorderVertical(boolean value) {#setHasBorderVertical-boolean-}
 ```
 public void setHasBorderVertical(boolean value)
+```
+
+
+True if the chart data table has vertical cell borders
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasVerticalBorder property. This property will be removed 12 months later since June 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setHasHorizontalBorder(boolean value) {#setHasHorizontalBorder-boolean-}
+```
+public void setHasHorizontalBorder(boolean value)
+```
+
+
+True if the chart data table has horizontal cell borders
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setHasOutlineBorder(boolean value) {#setHasOutlineBorder-boolean-}
+```
+public void setHasOutlineBorder(boolean value)
+```
+
+
+True if the chart data table has outline borders
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setHasVerticalBorder(boolean value) {#setHasVerticalBorder-boolean-}
+```
+public void setHasVerticalBorder(boolean value)
 ```
 
 
