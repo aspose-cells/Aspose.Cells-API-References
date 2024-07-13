@@ -2,7 +2,7 @@
 title: Aspose::Cells::Slicers::SlicerCache::GetSourceName method
 linktitle: GetSourceName
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Slicers::SlicerCache::GetSourceName method. Returns the name of cache field in C++.'
+description: 'Aspose::Cells::Slicers::SlicerCache::GetSourceName method. Returns the name of this slicer cache in C++.'
 type: docs
 weight: 1100
 url: /cpp/aspose.cells.slicers/slicercache/getsourcename/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.slicers/slicercache/getsourcename/
 ## SlicerCache::GetSourceName method
 
 
-Returns the name of cache field.
+Returns the name of this slicer cache.
 
 ```cpp
 U16String Aspose::Cells::Slicers::SlicerCache::GetSourceName()
@@ -21,7 +21,7 @@ U16String Aspose::Cells::Slicers::SlicerCache::GetSourceName()
 
 
 ```cpp
-    //get the name of cache field.
+    //get the name of this slicer cache.
 U16String sourceName = slicerCache.GetSourceName();
 ```
 

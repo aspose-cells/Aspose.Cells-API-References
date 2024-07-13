@@ -2,16 +2,20 @@
 title: Aspose::Cells::Pivot::PivotItemPosition enum
 linktitle: PivotItemPosition
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotItemPosition enum. Represents PivotTable base item Next/Previous/All position in the base field  in C++.'
+description: 'Aspose::Cells::Pivot::PivotItemPosition enum. Represents base item Next/Previous/All position in the base field  in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells.pivot/pivotitemposition/
 ---
 ## PivotItemPosition enum
 
 
-Represents [PivotTable](../pivottable/) base item Next/Previous/All position in the base field .
+Represents base item Next/Previous/All position in the base field .
 
+
+>Deprecated
+>
+>Use PivotItemPositionType enum instead. 
 ```cpp
 enum class PivotItemPosition
 ```
@@ -23,6 +27,12 @@ enum class PivotItemPosition
 | Previous | 0 | <br>Represents the previous pivot item in the [PivotField](../pivotfield/). |
 | Next | 1 | <br>Represents the next pivot item in the [PivotField](../pivotfield/). |
 | Custom | 2 | <br>Shows values as the different format based the index of pivot item in the [PivotField](../pivotfield/). |
+
+## Remarks
+
+
+NOTE: This enum is now obsolete. Instead, please use PivotItemPositionType enum instead. This method will be removed 12 months later since June 2024. **Aspose** apologizes for any inconvenience you may have experienced. 
+
 
 ## See Also
 

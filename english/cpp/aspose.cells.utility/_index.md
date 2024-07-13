@@ -14,6 +14,7 @@ url: /cpp/aspose.cells.utility/
 
 | Class | Description |
 | --- | --- |
+| [ConversionUtility](./conversionutility/) | Represents converting files other formats. |
 | [ExportRangeToJsonOptions](./exportrangetojsonoptions/) | Indicates the options that exporting range to json. |
 | [JsonLayoutOptions](./jsonlayoutoptions/) | Represents the options of json layout type. |
 | [JsonUtility](./jsonutility/) | Represents the utility class of processing json. |

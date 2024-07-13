@@ -31,8 +31,8 @@ class AxisBins
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const AxisBins\& src)](./operator_asm/) | operator= |
-| [ResetOverflow()](./resetoverflow/) | Reset the overflow. |
-| [ResetUnderflow()](./resetunderflow/) | Reset the underflow. |
+| [ResetOverflow()](./resetoverflow/) |  **(Deprecated)** Reset the overflow. |
+| [ResetUnderflow()](./resetunderflow/) |  **(Deprecated)** Reset the underflow. |
 | [SetCount(int32_t value)](./setcount/) | Gets or set the count of axis bins. |
 | [SetIsAutomatic(bool value)](./setisautomatic/) | Indicates whether the axis bins are automatic. |
 | [SetIsByCategory(bool value)](./setisbycategory/) | Indicates whether grouping data by category. |

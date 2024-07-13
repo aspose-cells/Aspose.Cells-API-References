@@ -12,9 +12,19 @@ url: /cpp/aspose.cells.charts/chartdatatable/sethasborderhorizontal/
 
 True if the chart data table has horizontal cell borders.
 
+
+>Deprecated
+>
+>Use ChartDataTable.HasHorizontalBorder property, instead. 
 ```cpp
 void Aspose::Cells::Charts::ChartDataTable::SetHasBorderHorizontal(bool value)
 ```
+
+## Remarks
+
+
+NOTE: This property is now obsolete. Instead, please use ChartDataTable.HasHorizontalBorder property. This property will be removed 12 months later since June 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

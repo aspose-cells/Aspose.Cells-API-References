@@ -20,8 +20,9 @@ class SparklineGroupCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(SparklineType type, const U16String\& dataRange, bool isVertical, const CellArea\& locationRange)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) item to the collection. |
-| [Add(SparklineType type, const char16_t* dataRange, bool isVertical, const CellArea\& locationRange)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) item to the collection. |
+| [Add(SparklineType type)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) with a [Sparkline](../sparkline/) to the collection. |
+| [Add(SparklineType type, const U16String\& dataRange, bool isVertical, const CellArea\& locationRange)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) with [Sparkline](../sparkline/) to the collection. |
+| [Add(SparklineType type, const char16_t* dataRange, bool isVertical, const CellArea\& locationRange)](./add/) | Adds an [SparklineGroup](../sparklinegroup/) with [Sparkline](../sparkline/) to the collection. |
 | [ClearSparklineGroups(const CellArea\& cellArea)](./clearsparklinegroups/) | Clears the sparkline groups that overlaps an area of cells. |
 | [ClearSparklines(const CellArea\& cellArea)](./clearsparklines/) | Clears the sparklines that is inside an area of cells. |
 | [Get(int32_t index)](./get/) | Gets the [SparklineGroup](../sparklinegroup/) element at the specified index. |

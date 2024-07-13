@@ -4,7 +4,7 @@ linktitle: GetOriginalWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::Picture::GetOriginalWidth method. Gets the original width of the picture in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.drawing/picture/getoriginalwidth/
 ---
 ## Picture::GetOriginalWidth method

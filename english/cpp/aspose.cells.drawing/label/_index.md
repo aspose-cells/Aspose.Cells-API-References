@@ -115,6 +115,7 @@ class Label : public Aspose::Cells::Drawing::Shape
 | [GetY()](../shape/gety/) | Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [GetZOrderPosition()](../shape/getzorderposition/) | Returns the position of a shape in the z-order. |
 | [IsAspectRatioLocked()](../shape/isaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
+| [IsDecorative()](../shape/isdecorative/) | Indicates whether the object is decorative. |
 | [IsEquation()](../shape/isequation/) | Indicates whether the shape only contains an equation. |
 | [IsFilled()](../shape/isfilled/) | Indicates whether the fill format is visible. |
 | [IsFlippedHorizontally()](../shape/isflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
@@ -160,6 +161,7 @@ class Label : public Aspose::Cells::Drawing::Shape
 | [SetInputRange(const U16String\& formula, bool isR1C1, bool isLocal)](../shape/setinputrange/) | Sets the range used to fill the control. |
 | [SetInputRange(const char16_t* formula, bool isR1C1, bool isLocal)](../shape/setinputrange/) | Sets the range used to fill the control. |
 | [SetIsAspectRatioLocked(bool value)](../shape/setisaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
+| [SetIsDecorative(bool value)](../shape/setisdecorative/) | Indicates whether the object is decorative. |
 | [SetIsFilled(bool value)](../shape/setisfilled/) | Indicates whether the fill format is visible. |
 | [SetIsFlippedHorizontally(bool value)](../shape/setisflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
 | [SetIsFlippedVertically(bool value)](../shape/setisflippedvertically/) | Gets and sets whether shape is vertically flipped . |

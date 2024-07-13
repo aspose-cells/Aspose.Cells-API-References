@@ -74,6 +74,7 @@ class Cells
 | [Get(const char16_t* cellName)](./get/) | Gets the [Cell](../cell/) element at the specified cell name. |
 | [GetCell(int32_t row, int32_t column)](./getcell/) |  **(Deprecated)** Gets the [Cell](../cell/) element or null at the specified cell row index and column index. |
 | [GetCellStyle(int32_t row, int32_t column)](./getcellstyle/) | Get the style of given cell. |
+| [GetCellsWithPlaceInCellPicture()](./getcellswithplaceincellpicture/) | Gets all cells that contain embedded picture. |
 | [GetColumnOriginalWidthPoint(int32_t column)](./getcolumnoriginalwidthpoint/) |  **(Deprecated)** Gets original column's height in unit of point if the column is hidden. |
 | [GetColumns()](./getcolumns/) | Gets the collection of [Column](../column/) objects that represents the individual columns in this worksheet. |
 | [GetColumnWidth(int32_t column, bool isOriginal, CellsUnitType unitType)](./getcolumnwidth/) | Gets the column width. |

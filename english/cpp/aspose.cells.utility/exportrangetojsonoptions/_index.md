@@ -4,7 +4,7 @@ linktitle: ExportRangeToJsonOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Utility::ExportRangeToJsonOptions class. Indicates the options that exporting range to json in C++.'
 type: docs
-weight: 100
+weight: 200
 url: /cpp/aspose.cells.utility/exportrangetojsonoptions/
 ---
 ## ExportRangeToJsonOptions class

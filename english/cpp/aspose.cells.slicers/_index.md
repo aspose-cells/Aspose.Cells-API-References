@@ -15,7 +15,7 @@ url: /cpp/aspose.cells.slicers/
 | Class | Description |
 | --- | --- |
 | [Slicer](./slicer/) | summary description of [Slicer](./slicer/) View |
-| [SlicerCache](./slicercache/) | summary description of slicer cache |
+| [SlicerCache](./slicercache/) | Represent summary description of slicer cache. |
 | [SlicerCacheItem](./slicercacheitem/) | Represent slicer data source item. |
 | [SlicerCacheItemCollection](./slicercacheitemcollection/) | Represent the collection of [SlicerCacheItem](./slicercacheitem/). |
 | [SlicerCollection](./slicercollection/) | Specifies the collection of all the [Slicer](./slicer/) objects on the specified worksheet. |

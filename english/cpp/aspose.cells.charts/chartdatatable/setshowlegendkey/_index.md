@@ -4,7 +4,7 @@ linktitle: SetShowLegendKey
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartDataTable::SetShowLegendKey method. True if the data label legend key is visible in C++.'
 type: docs
-weight: 1800
+weight: 2400
 url: /cpp/aspose.cells.charts/chartdatatable/setshowlegendkey/
 ---
 ## ChartDataTable::SetShowLegendKey method

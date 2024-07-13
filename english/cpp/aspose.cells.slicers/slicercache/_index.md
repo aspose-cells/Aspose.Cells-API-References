@@ -2,7 +2,7 @@
 title: Aspose::Cells::Slicers::SlicerCache class
 linktitle: SlicerCache
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Slicers::SlicerCache class. summary description of slicer cache in C++.'
+description: 'Aspose::Cells::Slicers::SlicerCache class. Represent summary description of slicer cache in C++.'
 type: docs
 weight: 200
 url: /cpp/aspose.cells.slicers/slicercache/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.slicers/slicercache/
 ## SlicerCache class
 
 
-summary description of slicer cache
+Represent summary description of slicer cache.
 
 ```cpp
 class SlicerCache
@@ -24,7 +24,7 @@ class SlicerCache
 | [GetList()](./getlist/) | Returns whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source. Read-only. |
 | [GetName()](./getname/) | Returns the name of the slicer cache. |
 | [GetSlicerCacheItems()](./getslicercacheitems/) | Returns a [SlicerCacheItem](../slicercacheitem/) collection that contains the collection of all items in the slicer cache. Read-only. |
-| [GetSourceName()](./getsourcename/) | Returns the name of cache field. |
+| [GetSourceName()](./getsourcename/) | Returns the name of this slicer cache. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SlicerCache\& src)](./operator_asm/) | operator= |

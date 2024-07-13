@@ -26,18 +26,24 @@ class ChartDataTable
 | [GetBackgroundMode()](./getbackgroundmode/) | Gets and sets the display mode of the background. |
 | [GetBorder()](./getborder/) | Returns a [Border](../../aspose.cells/border/) object that represents the border of the object. |
 | [GetFont()](./getfont/) | Gets a [Font](../../aspose.cells/font/) object which represents the font setting of the specified chart data table. |
-| [GetHasBorderHorizontal()](./gethasborderhorizontal/) | True if the chart data table has horizontal cell borders. |
-| [GetHasBorderOutline()](./gethasborderoutline/) | True if the chart data table has outline borders. |
-| [GetHasBorderVertical()](./gethasbordervertical/) | True if the chart data table has vertical cell borders. |
+| [GetHasBorderHorizontal()](./gethasborderhorizontal/) |  **(Deprecated)** True if the chart data table has horizontal cell borders. |
+| [GetHasBorderOutline()](./gethasborderoutline/) |  **(Deprecated)** True if the chart data table has outline borders. |
+| [GetHasBorderVertical()](./gethasbordervertical/) |  **(Deprecated)** True if the chart data table has vertical cell borders. |
+| [GetHasHorizontalBorder()](./gethashorizontalborder/) | True if the chart data table has horizontal cell borders. |
+| [GetHasOutlineBorder()](./gethasoutlineborder/) | True if the chart data table has outline borders. |
+| [GetHasVerticalBorder()](./gethasverticalborder/) | True if the chart data table has vertical cell borders. |
 | [GetShowLegendKey()](./getshowlegendkey/) | True if the data label legend key is visible. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const ChartDataTable\& src)](./operator_asm/) | operator= |
 | [SetAutoScaleFont(bool value)](./setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [SetBackgroundMode(BackgroundMode value)](./setbackgroundmode/) | Gets and sets the display mode of the background. |
-| [SetHasBorderHorizontal(bool value)](./sethasborderhorizontal/) | True if the chart data table has horizontal cell borders. |
-| [SetHasBorderOutline(bool value)](./sethasborderoutline/) | True if the chart data table has outline borders. |
-| [SetHasBorderVertical(bool value)](./sethasbordervertical/) | True if the chart data table has vertical cell borders. |
+| [SetHasBorderHorizontal(bool value)](./sethasborderhorizontal/) |  **(Deprecated)** True if the chart data table has horizontal cell borders. |
+| [SetHasBorderOutline(bool value)](./sethasborderoutline/) |  **(Deprecated)** True if the chart data table has outline borders. |
+| [SetHasBorderVertical(bool value)](./sethasbordervertical/) |  **(Deprecated)** True if the chart data table has vertical cell borders. |
+| [SetHasHorizontalBorder(bool value)](./sethashorizontalborder/) | True if the chart data table has horizontal cell borders. |
+| [SetHasOutlineBorder(bool value)](./sethasoutlineborder/) | True if the chart data table has outline borders. |
+| [SetHasVerticalBorder(bool value)](./sethasverticalborder/) | True if the chart data table has vertical cell borders. |
 | [SetShowLegendKey(bool value)](./setshowlegendkey/) | True if the data label legend key is visible. |
 | [~ChartDataTable()](./~chartdatatable/) | Destructor. |
 ## Fields

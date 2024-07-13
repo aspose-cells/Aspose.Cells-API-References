@@ -119,6 +119,7 @@ class RadioButton : public Aspose::Cells::Drawing::Shape
 | [GetZOrderPosition()](../shape/getzorderposition/) | Returns the position of a shape in the z-order. |
 | [IsAspectRatioLocked()](../shape/isaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
 | [IsChecked()](./ischecked/) | Indicates if the radiobutton is checked or not. |
+| [IsDecorative()](../shape/isdecorative/) | Indicates whether the object is decorative. |
 | [IsEquation()](../shape/isequation/) | Indicates whether the shape only contains an equation. |
 | [IsFilled()](../shape/isfilled/) | Indicates whether the fill format is visible. |
 | [IsFlippedHorizontally()](../shape/isflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
@@ -165,6 +166,7 @@ class RadioButton : public Aspose::Cells::Drawing::Shape
 | [SetInputRange(const char16_t* formula, bool isR1C1, bool isLocal)](../shape/setinputrange/) | Sets the range used to fill the control. |
 | [SetIsAspectRatioLocked(bool value)](../shape/setisaspectratiolocked/) | True means that aspect ratio of the shape is locked. |
 | [SetIsChecked(bool value)](./setischecked/) | Indicates if the radiobutton is checked or not. |
+| [SetIsDecorative(bool value)](../shape/setisdecorative/) | Indicates whether the object is decorative. |
 | [SetIsFilled(bool value)](../shape/setisfilled/) | Indicates whether the fill format is visible. |
 | [SetIsFlippedHorizontally(bool value)](../shape/setisflippedhorizontally/) | Gets and sets whether shape is horizontally flipped . |
 | [SetIsFlippedVertically(bool value)](../shape/setisflippedvertically/) | Gets and sets whether shape is vertically flipped . |

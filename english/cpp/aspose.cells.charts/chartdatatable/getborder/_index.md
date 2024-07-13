@@ -4,7 +4,7 @@ linktitle: GetBorder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Charts::ChartDataTable::GetBorder method. Returns a Border object that represents the border of the object in C++.'
 type: docs
-weight: 1900
+weight: 2500
 url: /cpp/aspose.cells.charts/chartdatatable/getborder/
 ---
 ## ChartDataTable::GetBorder method

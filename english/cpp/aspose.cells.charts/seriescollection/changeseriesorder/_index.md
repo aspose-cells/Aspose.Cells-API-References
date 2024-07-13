@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.charts/seriescollection/changeseriesorder/
 
 Directly changes the orders of the two series.
 
+
+>Deprecated
+>
+>Use SeriesCollection.SwapSeries property, instead. 
 ```cpp
 void Aspose::Cells::Charts::SeriesCollection::ChangeSeriesOrder(int32_t sourceIndex, int32_t destIndex)
 ```
@@ -21,6 +25,12 @@ void Aspose::Cells::Charts::SeriesCollection::ChangeSeriesOrder(int32_t sourceIn
 | --- | --- | --- |
 | sourceIndex | int32_t | The current index |
 | destIndex | int32_t | The dest index |
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [SeriesCollection.SwapSeries](../swapseries/) method. This method will be removed 12 months later since June 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

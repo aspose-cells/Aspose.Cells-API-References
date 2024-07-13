@@ -21,6 +21,26 @@ Aspose::Cells::Saving::EbookSaveOptions::EbookSaveOptions()
 * Class [EbookSaveOptions](../)
 * Namespace [Aspose::Cells::Saving](../../)
 * Library [Aspose.Cells for C++](../../../)
+## EbookSaveOptions::EbookSaveOptions(SaveFormat) constructor
+
+
+Creates options for saving ebook file.
+
+```cpp
+Aspose::Cells::Saving::EbookSaveOptions::EbookSaveOptions(SaveFormat saveFormat)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveFormat | SaveFormat | The file format. It should be [SaveFormat.Epub](../../../aspose.cells/saveformat/) or [SaveFormat.Azw3](../../../aspose.cells/saveformat/). |
+
+## See Also
+
+* Enum [SaveFormat](../../../aspose.cells/saveformat/)
+* Class [EbookSaveOptions](../)
+* Namespace [Aspose::Cells::Saving](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## EbookSaveOptions::EbookSaveOptions(EbookSaveOptions_Impl*) constructor
 
 

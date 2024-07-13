@@ -4,7 +4,7 @@ linktitle: JsonLayoutOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Utility::JsonLayoutOptions class. Represents the options of json layout type in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.cells.utility/jsonlayoutoptions/
 ---
 ## JsonLayoutOptions class
@@ -26,6 +26,7 @@ class JsonLayoutOptions
 | [GetConvertNumericOrDate()](./getconvertnumericordate/) | Indicates whether converting the string in json to numeric or date value. |
 | [GetIgnoreNull()](./getignorenull/) | Indicates whether ignoring null value. |
 | [GetIgnoreTitle()](./getignoretitle/) | Ingores titles of attributes. |
+| [GetKeptSchema()](./getkeptschema/) | Indicates whether keeping schema of this json. |
 | [GetTitleStyle()](./gettitlestyle/) | Gets and sets the style of the title. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [JsonLayoutOptions()](./jsonlayoutoptions/) | Constructor of loading JSON layout options. |
@@ -39,6 +40,7 @@ class JsonLayoutOptions
 | [SetDateFormat(const char16_t* value)](./setdateformat/) | Gets and sets the format of date value. |
 | [SetIgnoreNull(bool value)](./setignorenull/) | Indicates whether ignoring null value. |
 | [SetIgnoreTitle(bool value)](./setignoretitle/) | Ingores titles of attributes. |
+| [SetKeptSchema(bool value)](./setkeptschema/) | Indicates whether keeping schema of this json. |
 | [SetNumberFormat(const U16String\& value)](./setnumberformat/) | Gets and sets the format of numeric value. |
 | [SetNumberFormat(const char16_t* value)](./setnumberformat/) | Gets and sets the format of numeric value. |
 | [SetTitleStyle(const Style\& value)](./settitlestyle/) | Gets and sets the style of the title. |

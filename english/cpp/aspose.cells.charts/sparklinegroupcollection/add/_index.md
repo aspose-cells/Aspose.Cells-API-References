@@ -2,15 +2,40 @@
 title: Aspose::Cells::Charts::SparklineGroupCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::SparklineGroupCollection::Add method. Adds an SparklineGroup item to the collection in C++.'
+description: 'Aspose::Cells::Charts::SparklineGroupCollection::Add method. Adds an SparklineGroup with a Sparkline to the collection in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.charts/sparklinegroupcollection/add/
 ---
+## SparklineGroupCollection::Add(SparklineType) method
+
+
+Adds an [SparklineGroup](../../sparklinegroup/) with a [Sparkline](../../sparkline/) to the collection.
+
+```cpp
+int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | SparklineType | Specifies the type of the [Sparkline](../../sparkline/) group. |
+
+## ReturnValue
+
+[SparklineGroup](../../sparklinegroup/) object index.
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Enum [SparklineType](../../sparklinetype/)
+* Class [SparklineGroupCollection](../)
+* Namespace [Aspose::Cells::Charts](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## SparklineGroupCollection::Add(SparklineType, const U16String\&, bool, const CellArea\&) method
 
 
-Adds an [SparklineGroup](../../sparklinegroup/) item to the collection.
+Adds an [SparklineGroup](../../sparklinegroup/) with [Sparkline](../../sparkline/) to the collection.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type, const U16String &dataRange, bool isVertical, const CellArea &locationRange)
@@ -40,7 +65,7 @@ int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type,
 ## SparklineGroupCollection::Add(SparklineType, const char16_t*, bool, const CellArea\&) method
 
 
-Adds an [SparklineGroup](../../sparklinegroup/) item to the collection.
+Adds an [SparklineGroup](../../sparklinegroup/) with [Sparkline](../../sparkline/) to the collection.
 
 ```cpp
 int32_t Aspose::Cells::Charts::SparklineGroupCollection::Add(SparklineType type, const char16_t *dataRange, bool isVertical, const CellArea &locationRange)

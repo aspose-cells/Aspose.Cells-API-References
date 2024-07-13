@@ -20,6 +20,7 @@ class DataLabels : public Aspose::Cells::Charts::ChartTextFrame
 
 | Method | Description |
 | --- | --- |
+| [ApplyFont()](./applyfont/) | Apply the font of the datalabels to all child nodes. |
 | [Characters(int32_t startIndex, int32_t length)](../charttextframe/characters/) | Returns a Characters object that represents a range of characters within the text. |
 | [ChartFrame(ChartFrame_Impl* impl)](../chartframe/chartframe/) | Constructs from an implementation object. |
 | [ChartFrame(const ChartFrame\& src)](../chartframe/chartframe/) | Copy constructor. |

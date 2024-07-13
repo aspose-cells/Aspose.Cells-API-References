@@ -66,6 +66,7 @@ class Series
 | [GetValuesFormatCode()](./getvaluesformatcode/) | Represents format code of Values's NumberList. |
 | [GetXErrorBar()](./getxerrorbar/) | Represents X direction error bar of the series. |
 | [GetXValues()](./getxvalues/) | Represents the x values of the chart series. |
+| [GetXValuesFormatCode()](./getxvaluesformatcode/) | Represents format code of X Values's NumberList. |
 | [GetYErrorBar()](./getyerrorbar/) | Represents Y direction error bar of the series. |
 | [IsAutoSplit()](./isautosplit/) | Indicates whether the threshold value is automatic. |
 | [IsColorVaried()](./iscolorvaried/) | Represents if the color of points is varied. The chart must contain only one series. |
@@ -112,6 +113,8 @@ class Series
 | [SetValuesFormatCode(const char16_t* value)](./setvaluesformatcode/) | Represents format code of Values's NumberList. |
 | [SetXValues(const U16String\& value)](./setxvalues/) | Represents the x values of the chart series. |
 | [SetXValues(const char16_t* value)](./setxvalues/) | Represents the x values of the chart series. |
+| [SetXValuesFormatCode(const U16String\& value)](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. |
+| [SetXValuesFormatCode(const char16_t* value)](./setxvaluesformatcode/) | Represents format code of X Values's NumberList. |
 | [~Series()](./~series/) | Destructor. |
 ## Fields
 

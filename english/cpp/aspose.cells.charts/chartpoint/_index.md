@@ -33,13 +33,14 @@ class ChartPoint
 | [GetBottomPointXPx(int32_t index)](./getbottompointxpx/) | Gets x-coordinate of the bottom point of shape after calls [Chart.Calculate()](../chart/calculate/) method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid. |
 | [GetBottomPointYPx(int32_t index)](./getbottompointypx/) | Gets y-coordinate of the bottom point of shape after calls [Chart.Calculate()](../chart/calculate/) method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid. |
 | [GetDataLabels()](./getdatalabels/) | Returns a [DataLabels](../datalabels/) object that represents the data label associated with this chart point. |
+| [GetDoughnutInnerRadius()](./getdoughnutinnerradius/) | Gets the inner radius of doughnut slice in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Doughnut chart. |
 | [GetEndAngle()](./getendangle/) | Gets the ending angle for the pie section, measured in degrees clockwise from the x-axis after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Pie chart. |
 | [GetExplosion()](./getexplosion/) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. |
 | [GetInnerArcEndPointXPx()](./getinnerarcendpointxpx/) | Gets the x coordinate of ending point for the pie section after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Doughnut chart. |
 | [GetInnerArcEndPointYPx()](./getinnerarcendpointypx/) | Gets the y coordinate of ending point for the pie section after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Doughnut chart. |
 | [GetInnerArcStartPointXPx()](./getinnerarcstartpointxpx/) | Gets the x coordinate of starting point for the pie section after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Doughnut chart. |
 | [GetInnerArcStartPointYPx()](./getinnerarcstartpointypx/) | Gets the y coordinate of starting point for the pie section after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Doughnut chart. |
-| [GetInnerRadiusPx()](./getinnerradiuspx/) | Gets the inner radius of doughnut slice in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Doughnut chart. |
+| [GetInnerRadiusPx()](./getinnerradiuspx/) |  **(Deprecated)** Gets the inner radius of doughnut slice in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. Applies to Doughnut chart. |
 | [GetMarker()](./getmarker/) | Gets the [marker](../marker/). |
 | [GetOnCategoryAxisPointCount()](./getoncategoryaxispointcount/) | Gets the number of the points on category axis after calls [Chart.Calculate()](../chart/calculate/) method. Only applies to area chart. |
 | [GetOnCategoryAxisPointXPx(int32_t index)](./getoncategoryaxispointxpx/) | Gets x-coordinate of the point on category axis after calls [Chart.Calculate()](../chart/calculate/) method. Only applies to Area chart. |

@@ -21,6 +21,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | Method | Description |
 | --- | --- |
 | [EbookSaveOptions()](./ebooksaveoptions/) | Creates options for saving ebook file. |
+| explicit [EbookSaveOptions(SaveFormat saveFormat)](./ebooksaveoptions/) | Creates options for saving ebook file. |
 | [EbookSaveOptions(EbookSaveOptions_Impl* impl)](./ebooksaveoptions/) | Constructs from an implementation object. |
 | [EbookSaveOptions(const EbookSaveOptions\& src)](./ebooksaveoptions/) | Copy constructor. |
 | [EbookSaveOptions(const HtmlSaveOptions\& src)](./ebooksaveoptions/) | Constructs from a parent object. |

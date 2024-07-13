@@ -29,6 +29,7 @@ class PivotTable
 | [AddFieldToArea(PivotFieldType fieldType, int32_t baseFieldIndex)](./addfieldtoarea/) | Adds the field to the specific area. |
 | [AddFieldToArea(PivotFieldType fieldType, const PivotField\& pivotField)](./addfieldtoarea/) | Adds the field to the specific area. |
 | [CalculateData()](./calculatedata/) | Calculates pivottable's data to cells. |
+| [CalculateData(const PivotTableCalculateOption\& option)](./calculatedata/) | Calculating pivot tables with options. |
 | [CalculateRange()](./calculaterange/) | Calculates pivottable's range. |
 | [ChangeDataSource(const Vector \<U16String\>\& source)](./changedatasource/) | Set pivottable's source data. Sheet1!$A$1:$C$3. |
 | [ClearData()](./cleardata/) | Clear [PivotTable](./)'s data and formatting. |

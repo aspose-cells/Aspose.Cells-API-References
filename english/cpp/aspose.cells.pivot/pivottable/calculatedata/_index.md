@@ -7,7 +7,7 @@ type: docs
 weight: 13500
 url: /cpp/aspose.cells.pivot/pivottable/calculatedata/
 ---
-## PivotTable::CalculateData method
+## PivotTable::CalculateData() method
 
 
 Calculates pivottable's data to cells.
@@ -23,6 +23,27 @@ Cell.Value in the pivot range could not return the correct result if the method 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotTable](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotTable::CalculateData(const PivotTableCalculateOption\&) method
+
+
+Calculating pivot tables with options.
+
+```cpp
+void Aspose::Cells::Pivot::PivotTable::CalculateData(const PivotTableCalculateOption &option)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | const PivotTableCalculateOption\& |  |
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotTableCalculateOption](../../pivottablecalculateoption/)
 * Class [PivotTable](../)
 * Namespace [Aspose::Cells::Pivot](../../)
 * Library [Aspose.Cells for C++](../../../)

@@ -123,7 +123,7 @@ class PivotField
 | [SetShowInOutlineForm(bool value)](./setshowinoutlineform/) | Indicates whether layout this field in outline form on the [Pivot](../) Table view. |
 | [SetShowSubtotalAtTop(bool value)](./setshowsubtotalattop/) | when ShowInOutlineForm is true, then display subtotals at the top of the list of items instead of at the bottom |
 | [SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)](./setsubtotals/) | Sets whether the specified field shows that subtotals. |
-| [ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem)](./showvaluesas/) | Show value of data field as different display format when the ShowDataAs calculation is in use. |
+| [ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem)](./showvaluesas/) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [Ungroup()](./ungroup/) | Ungroup the pivot field. |
 | [~PivotField()](./~pivotfield/) | Destructor. |
 ## Fields

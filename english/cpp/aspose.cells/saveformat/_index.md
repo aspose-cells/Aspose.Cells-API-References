@@ -67,6 +67,7 @@ enum class SaveFormat
 | SqlScript | 514 | <br>Sql. |
 | XHtml | 771 | <br>Rrepesents XHtml file. |
 | Epub | 772 | <br>Represents Epub file. |
+| Azw3 | 773 | <br>Represents Azw3 file. |
 
 ## See Also
 
