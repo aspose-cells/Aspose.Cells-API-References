@@ -1,7 +1,7 @@
 ﻿---
 title: XlsSaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the save options for the Excel 97-2003 file format: xls and xlt.
+description: Represents the save options for the Excel 97-2003 file format  xls and xlt.
 type: docs
 url: /nodejs-cpp/xlssaveoptions/
 ---
