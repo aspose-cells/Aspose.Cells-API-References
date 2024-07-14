@@ -1,7 +1,7 @@
 ﻿---
 title: SettableChartGlobalizationSettings
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts.
+description: Implementation of PivotGlobalizationSettings that supports user to setchange predefined texts.
 type: docs
 url: /nodejs-cpp/settablechartglobalizationsettings/
 ---

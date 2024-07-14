@@ -1,7 +1,7 @@
 ﻿---
 title: TableStyleType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the built-in table style type.
+description: Represents the builtin table style type.
 type: docs
 url: /nodejs-cpp/tablestyletype/
 ---

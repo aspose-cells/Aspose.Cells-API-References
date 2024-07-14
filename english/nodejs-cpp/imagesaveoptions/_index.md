@@ -1,7 +1,7 @@
 ﻿---
 title: ImageSaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents image save options. For advanced usage, please use [WorkbookRender](./workbookrender/) or [WorkbookRender](./workbookrender/).
+description: Represents image save options. For advanced usage please use WorkbookRender.workbookrender or WorkbookRender.workbookrender.
 type: docs
 url: /nodejs-cpp/imagesaveoptions/
 ---

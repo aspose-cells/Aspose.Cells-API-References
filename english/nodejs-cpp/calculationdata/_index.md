@@ -1,7 +1,7 @@
 ﻿---
 title: CalculationData
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the required data when calculating one function, such as function name, parameters, ...etc.
+description: Represents the required data when calculating one function such as function name parameters ...etc.
 type: docs
 url: /nodejs-cpp/calculationdata/
 ---

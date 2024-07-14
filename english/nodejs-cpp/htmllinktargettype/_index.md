@@ -1,7 +1,7 @@
 ﻿---
 title: HtmlLinkTargetType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the type of target attribute in HTML <a/> tag.
+description: Represents the type of target attribute in HTML a tag.
 type: docs
 url: /nodejs-cpp/htmllinktargettype/
 ---

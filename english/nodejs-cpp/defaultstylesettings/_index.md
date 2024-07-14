@@ -1,7 +1,7 @@
 ﻿---
 title: DefaultStyleSettings
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Settings for the default values of workbook's style properties.
+description: Settings for the default values of workbooks style properties.
 type: docs
 url: /nodejs-cpp/defaultstylesettings/
 ---

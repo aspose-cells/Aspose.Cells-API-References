@@ -1,7 +1,7 @@
 ﻿---
 title: NaryEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies an n-ary operator equation consisting of an n-ary operator, a base (or operand), and optional upper and lower bounds.
+description: This class specifies an nary operator equation consisting of an nary operator a base or operand and optional upper and lower bounds.
 type: docs
 url: /nodejs-cpp/naryequationnode/
 ---

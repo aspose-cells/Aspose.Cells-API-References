@@ -1,7 +1,7 @@
 ﻿---
 title: IconSetType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible.
+description: Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable and the icon order is reversible.
 type: docs
 url: /nodejs-cpp/iconsettype/
 ---

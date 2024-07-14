@@ -1,7 +1,7 @@
 ﻿---
 title: TickLabels
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the tick-mark labels associated with tick marks on a chart axis.
+description: Represents the tickmark labels associated with tick marks on a chart axis.
 type: docs
 url: /nodejs-cpp/ticklabels/
 ---

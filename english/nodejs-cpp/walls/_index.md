@@ -1,7 +1,7 @@
 ﻿---
 title: Walls
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates the object that represents the walls of a 3-D chart.
+description: Encapsulates the object that represents the walls of a 3D chart.
 type: docs
 url: /nodejs-cpp/walls/
 ---

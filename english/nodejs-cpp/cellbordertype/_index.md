@@ -1,7 +1,7 @@
 ﻿---
 title: CellBorderType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Enumerates a cell's border type.
+description: Enumerates a cells border type.
 type: docs
 url: /nodejs-cpp/cellbordertype/
 ---

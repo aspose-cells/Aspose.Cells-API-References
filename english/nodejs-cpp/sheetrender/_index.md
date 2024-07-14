@@ -1,7 +1,7 @@
 ﻿---
 title: SheetRender
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after modification of pagesetup, cell style.
+description: Represents a worksheet render which can render worksheet to various images such as BMP PNG JPEG TIFF.. The constructor of this class  must be used after modification of pagesetup cell style.
 type: docs
 url: /nodejs-cpp/sheetrender/
 ---

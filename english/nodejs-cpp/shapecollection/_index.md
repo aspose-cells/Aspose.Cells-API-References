@@ -1,7 +1,7 @@
 ﻿---
 title: ShapeCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents all the shape in a worksheet/chart.
+description: Represents all the shape in a worksheetchart.
 type: docs
 url: /nodejs-cpp/shapecollection/
 ---

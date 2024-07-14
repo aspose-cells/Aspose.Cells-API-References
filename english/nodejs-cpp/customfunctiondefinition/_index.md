@@ -1,7 +1,7 @@
 ﻿---
 title: CustomFunctionDefinition
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Definition of custom function for calculating with user's custom engine.
+description: Definition of custom function for calculating with users custom engine.
 type: docs
 url: /nodejs-cpp/customfunctiondefinition/
 ---

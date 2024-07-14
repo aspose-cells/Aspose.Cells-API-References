@@ -1,7 +1,7 @@
 ﻿---
 title: NameCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the [Name](./name/) objects in the spreadsheet.
+description: Represents a collection of all the Name.name objects in the spreadsheet.
 type: docs
 url: /nodejs-cpp/namecollection/
 ---

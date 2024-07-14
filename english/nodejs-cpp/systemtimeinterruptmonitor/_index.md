@@ -1,7 +1,7 @@
 ﻿---
 title: SystemTimeInterruptMonitor
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Simple implementation of [AbstractInterruptMonitor](./abstractinterruptmonitor/) by checking and comparing current system time with user specified limit.
+description: Simple implementation of AbstractInterruptMonitor.abstractinterruptmonitor by checking and comparing current system time with user specified limit.
 type: docs
 url: /nodejs-cpp/systemtimeinterruptmonitor/
 ---

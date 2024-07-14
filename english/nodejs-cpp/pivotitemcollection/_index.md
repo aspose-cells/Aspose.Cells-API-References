@@ -1,7 +1,7 @@
 ﻿---
 title: PivotItemCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the PivotItem objects in the PivotField's
+description: Represents a collection of all the PivotItem objects in the PivotFields
 type: docs
 url: /nodejs-cpp/pivotitemcollection/
 ---

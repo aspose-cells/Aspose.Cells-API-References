@@ -1,7 +1,7 @@
 ﻿---
 title: BorderBoxEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the Border Box function, consisting of a border drawn around an equation.
+description: This class specifies the Border Box function consisting of a border drawn around an equation.
 type: docs
 url: /nodejs-cpp/borderboxequationnode/
 ---

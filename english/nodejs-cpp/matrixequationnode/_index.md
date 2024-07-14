@@ -1,7 +1,7 @@
 ﻿---
 title: MatrixEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns.
+description: This class specifies the Matrix equation consisting of one or more elements laid out in one or more rows and one or more columns.
 type: docs
 url: /nodejs-cpp/matrixequationnode/
 ---

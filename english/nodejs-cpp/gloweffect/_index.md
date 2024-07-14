@@ -1,7 +1,7 @@
 ﻿---
 title: GlowEffect
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies a glow effect, in which a color blurred outline is added outside the edges of the object.
+description: This class specifies a glow effect in which a color blurred outline is added outside the edges of the object.
 type: docs
 url: /nodejs-cpp/gloweffect/
 ---

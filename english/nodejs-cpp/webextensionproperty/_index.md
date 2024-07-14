@@ -1,7 +1,7 @@
 ﻿---
 title: WebExtensionProperty
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents an Office Add-in custom property.
+description: Represents an Office Addin custom property.
 type: docs
 url: /nodejs-cpp/webextensionproperty/
 ---

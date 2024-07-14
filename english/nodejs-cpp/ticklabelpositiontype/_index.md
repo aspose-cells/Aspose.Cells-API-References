@@ -1,7 +1,7 @@
 ﻿---
 title: TickLabelPositionType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the position type of tick-mark labels on the specified axis.
+description: Represents the position type of tickmark labels on the specified axis.
 type: docs
 url: /nodejs-cpp/ticklabelpositiontype/
 ---

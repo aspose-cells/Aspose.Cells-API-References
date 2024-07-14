@@ -1,7 +1,7 @@
 ﻿---
 title: IPageSavingCallback
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Control/Indicate progress of page saving process.
+description: ControlIndicate progress of page saving process.
 type: docs
 url: /nodejs-cpp/ipagesavingcallback/
 ---

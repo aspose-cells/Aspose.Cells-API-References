@@ -1,7 +1,7 @@
 ﻿---
 title: ChartMarkerType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the marker style in a line chart, scatter chart, or radar chart.
+description: Represents the marker style in a line chart scatter chart or radar chart.
 type: docs
 url: /nodejs-cpp/chartmarkertype/
 ---

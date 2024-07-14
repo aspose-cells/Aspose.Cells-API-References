@@ -1,7 +1,7 @@
 ﻿---
 title: RadicalEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the radical equation, consisting of an optional degree deg(EquationNodeType.Degree) and a base.
+description: This class specifies the radical equation consisting of an optional degree degEquationNodeType.Degree and a base.
 type: docs
 url: /nodejs-cpp/radicalequationnode/
 ---

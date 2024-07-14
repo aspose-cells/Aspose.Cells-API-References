@@ -1,7 +1,7 @@
 ﻿---
 title: ConditionalFormattingValue
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Describes the values of the interpolation points in a gradient scale, dataBar or iconSet.
+description: Describes the values of the interpolation points in a gradient scale dataBar or iconSet.
 type: docs
 url: /nodejs-cpp/conditionalformattingvalue/
 ---

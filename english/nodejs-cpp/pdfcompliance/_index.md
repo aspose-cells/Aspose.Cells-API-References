@@ -1,7 +1,7 @@
 ﻿---
 title: PdfCompliance
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Allowing user to set PDF conversion's Compatibility
+description: Allowing user to set PDF conversions Compatibility
 type: docs
 url: /nodejs-cpp/pdfcompliance/
 ---

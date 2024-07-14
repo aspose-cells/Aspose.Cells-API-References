@@ -1,7 +1,7 @@
 ﻿---
 title: Timeline
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline
+description: Summary description of Timeline View Due to MS Excel Excel 2003 does not support Timeline
 type: docs
 url: /nodejs-cpp/timeline/
 ---

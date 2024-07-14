@@ -1,7 +1,7 @@
 ﻿---
 title: IndividualFontConfigs
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Font configs for each [Workbook](./workbook/) object.
+description: Font configs for each Workbook.workbook object.
 type: docs
 url: /nodejs-cpp/individualfontconfigs/
 ---

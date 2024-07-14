@@ -1,7 +1,7 @@
 ﻿---
 title: XAdESType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Type of XML Advanced Electronic Signature (XAdES).
+description: Type of XML Advanced Electronic Signature XAdES.
 type: docs
 url: /nodejs-cpp/xadestype/
 ---

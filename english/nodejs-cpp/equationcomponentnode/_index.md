@@ -1,7 +1,7 @@
 ﻿---
 title: EquationComponentNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the components of an equation or mathematical expression. Different types of components combined into different equations. For example, a fraction consists of two parts, a numerator component and a denominator component. For more component types, please refer to 'EquationNodeType'.
+description: This class specifies the components of an equation or mathematical expression. Different types of components combined into different equations. For example a fraction consists of two parts a numerator component and a denominator component. For more component types please refer to EquationNodeType.
 type: docs
 url: /nodejs-cpp/equationcomponentnode/
 ---

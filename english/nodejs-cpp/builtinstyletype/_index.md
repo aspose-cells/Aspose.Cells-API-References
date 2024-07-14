@@ -1,7 +1,7 @@
 ﻿---
 title: BuiltinStyleType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents all built-in style types.
+description: Represents all builtin style types.
 type: docs
 url: /nodejs-cpp/builtinstyletype/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: ShapeTextAlignment
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the setting of shape's text alignment;
+description: Represents the setting of shapes text alignment
 type: docs
 url: /nodejs-cpp/shapetextalignment/
 ---

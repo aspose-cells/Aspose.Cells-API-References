@@ -1,7 +1,7 @@
 ﻿---
 title: TxtSaveOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the save options for csv/tab delimited/other text format.
+description: Represents the save options for csvtab delimitedother text format.
 type: docs
 url: /nodejs-cpp/txtsaveoptions/
 ---

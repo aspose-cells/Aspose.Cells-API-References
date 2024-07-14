@@ -1,7 +1,7 @@
 ﻿---
 title: AutoShapeType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents all built-in auto shape type.
+description: Represents all builtin auto shape type.
 type: docs
 url: /nodejs-cpp/autoshapetype/
 ---

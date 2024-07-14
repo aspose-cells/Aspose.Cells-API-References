@@ -1,7 +1,7 @@
 ﻿---
 title: DisplayUnitType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the type of display unit of chart's axis.
+description: Represents the type of display unit of charts axis.
 type: docs
 url: /nodejs-cpp/displayunittype/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: RevisionInsertDelete
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a revision record of a row/column insert/delete action.
+description: Represents a revision record of a rowcolumn insertdelete action.
 type: docs
 url: /nodejs-cpp/revisioninsertdelete/
 ---

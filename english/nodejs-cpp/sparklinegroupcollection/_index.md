@@ -1,7 +1,7 @@
 ﻿---
 title: SparklineGroupCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of [SparklineGroup](./sparklinegroup/) objects.
+description: Encapsulates a collection of SparklineGroup.sparklinegroup objects.
 type: docs
 url: /nodejs-cpp/sparklinegroupcollection/
 ---

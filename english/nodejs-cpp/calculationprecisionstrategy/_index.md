@@ -1,7 +1,7 @@
 ﻿---
 title: CalculationPrecisionStrategy
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 Floating-Point Arithmetic, some "seemingly simple" formulas may not be calculated as the expected result. Such as formula "=-0.45+0.43+0.02", when calculating operands by '+' operator directly, the result is not zero. For such kind of precision issue, some special strategies may give the expected result.
+description: Enumerates strategies for handling calculation precision. Because of the precision issue of IEEE 754 FloatingPoint Arithmetic some seemingly simple formulas may not be calculated as the expected result. Such as formula 0.450.430.02 when calculating operands by  operator directly the result is not zero. For such kind of precision issue some special strategies may give the expected result.
 type: docs
 url: /nodejs-cpp/calculationprecisionstrategy/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: LineType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Enumerates the type of [Picture](./picture/) border or [Picture](./picture/) line.
+description: Enumerates the type of Picture.picture border or Picture.picture line.
 type: docs
 url: /nodejs-cpp/linetype/
 ---

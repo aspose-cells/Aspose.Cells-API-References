@@ -1,7 +1,7 @@
 ﻿---
 title: NumberCategoryType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents category type of cell's number formatting.
+description: Represents category type of cells number formatting.
 type: docs
 url: /nodejs-cpp/numbercategorytype/
 ---

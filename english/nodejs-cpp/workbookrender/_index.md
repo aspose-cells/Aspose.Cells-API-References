@@ -1,7 +1,7 @@
 ﻿---
 title: WorkbookRender
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a Workbook render. The constructor of this class , must be used after modification of pagesetup, cell style.
+description: Represents a Workbook render. The constructor of this class  must be used after modification of pagesetup cell style.
 type: docs
 url: /nodejs-cpp/workbookrender/
 ---

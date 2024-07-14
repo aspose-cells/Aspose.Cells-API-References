@@ -1,7 +1,7 @@
 ﻿---
 title: DateTimeGroupItem
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the datetime's group setting.
+description: Represents the datetimes group setting.
 type: docs
 url: /nodejs-cpp/datetimegroupitem/
 ---

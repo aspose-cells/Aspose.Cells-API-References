@@ -1,7 +1,7 @@
 ﻿---
 title: RowCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Collects the [Row](./row/) objects that represent the individual rows in a worksheet.
+description: Collects the Row.row objects that represent the individual rows in a worksheet.
 type: docs
 url: /nodejs-cpp/rowcollection/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: SmartTagSetting
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents all [SmartTagCollection](./smarttagcollection/) object in the worksheet.
+description: Represents all SmartTagCollection.smarttagcollection object in the worksheet.
 type: docs
 url: /nodejs-cpp/smarttagsetting/
 ---

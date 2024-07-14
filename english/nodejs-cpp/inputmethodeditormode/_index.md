@@ -1,7 +1,7 @@
 ﻿---
 title: InputMethodEditorMode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the default run-time mode of the Input Method Editor.
+description: Represents the default runtime mode of the Input Method Editor.
 type: docs
 url: /nodejs-cpp/inputmethodeditormode/
 ---

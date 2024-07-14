@@ -1,7 +1,7 @@
 ﻿---
 title: FunctionEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the Function-Apply equation, which consists of a function name and an argument acted upon. The types of the name and argument components are 'EquationNodeType.FunctionName' and 'EquationNodeType.Base' respectively.
+description: This class specifies the FunctionApply equation which consists of a function name and an argument acted upon. The types of the name and argument components are EquationNodeType.FunctionName and EquationNodeType.Base respectively.
 type: docs
 url: /nodejs-cpp/functionequationnode/
 ---

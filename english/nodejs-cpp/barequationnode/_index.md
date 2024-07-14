@@ -1,7 +1,7 @@
 ﻿---
 title: BarEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the bar equation, consisting of a base argument and an overbar or underbar.
+description: This class specifies the bar equation consisting of a base argument and an overbar or underbar.
 type: docs
 url: /nodejs-cpp/barequationnode/
 ---

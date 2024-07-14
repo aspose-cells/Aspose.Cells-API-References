@@ -1,7 +1,7 @@
 ﻿---
 title: FractionEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class  specifies the fraction equation, consisting of a numerator and denominator separated by a fraction bar. The fraction bar can be horizontal or diagonal, depending on the fraction properties. The fraction equation is also used to represent the stack function, which places one element above another, with no fraction bar.
+description: This class  specifies the fraction equation consisting of a numerator and denominator separated by a fraction bar. The fraction bar can be horizontal or diagonal depending on the fraction properties. The fraction equation is also used to represent the stack function which places one element above another with no fraction bar.
 type: docs
 url: /nodejs-cpp/fractionequationnode/
 ---

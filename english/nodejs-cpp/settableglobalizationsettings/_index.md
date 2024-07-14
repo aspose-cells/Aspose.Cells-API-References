@@ -1,7 +1,7 @@
 ﻿---
 title: SettableGlobalizationSettings
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Implementation of GlobalizationSettings that supports user to set/change pre-defined texts.
+description: Implementation of GlobalizationSettings that supports user to setchange predefined texts.
 type: docs
 url: /nodejs-cpp/settableglobalizationsettings/
 ---

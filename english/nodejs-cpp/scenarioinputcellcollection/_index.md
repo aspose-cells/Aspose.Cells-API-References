@@ -1,7 +1,7 @@
 ﻿---
 title: ScenarioInputCellCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of the scenario's input cells.
+description: Represents the list of the scenarios input cells.
 type: docs
 url: /nodejs-cpp/scenarioinputcellcollection/
 ---

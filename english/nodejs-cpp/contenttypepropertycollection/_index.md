@@ -1,7 +1,7 @@
 ﻿---
 title: ContentTypePropertyCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: A collection of [ContentTypeProperty](./contenttypeproperty/) objects that represent additional information.
+description: A collection of ContentTypeProperty.contenttypeproperty objects that represent additional information.
 type: docs
 url: /nodejs-cpp/contenttypepropertycollection/
 ---

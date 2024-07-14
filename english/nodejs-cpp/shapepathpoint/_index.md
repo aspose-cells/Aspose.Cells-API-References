@@ -1,7 +1,7 @@
 ﻿---
 title: ShapePathPoint
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents an x-y coordinate within the path coordinate space.
+description: Represents an xy coordinate within the path coordinate space.
 type: docs
 url: /nodejs-cpp/shapepathpoint/
 ---

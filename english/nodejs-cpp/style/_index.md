@@ -1,7 +1,7 @@
 ﻿---
 title: Style
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents display style of excel document,such as font,color,alignment,border,etc. The Style object contains all style attributes (font, number format, alignment, and so on) as properties.
+description: Represents display style of excel documentsuch as fontcoloralignmentborderetc. The Style object contains all style attributes font number format alignment and so on as properties.
 type: docs
 url: /nodejs-cpp/style/
 ---

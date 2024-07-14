@@ -1,7 +1,7 @@
 ﻿---
 title: DelimiterEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a component contained inside. The delimiter may have more than one component, with a designated separator character between each component.
+description: This class specifies the delimiter equation consisting of opening and closing delimiters such as parentheses braces brackets and vertical bars and a component contained inside. The delimiter may have more than one component with a designated separator character between each component.
 type: docs
 url: /nodejs-cpp/delimiterequationnode/
 ---

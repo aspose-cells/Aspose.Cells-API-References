@@ -1,7 +1,7 @@
 ﻿---
 title: CustomXmlShape
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents Custom xml shape ,such as Ink.
+description: Represents Custom xml shape such as Ink.
 type: docs
 url: /nodejs-cpp/customxmlshape/
 ---

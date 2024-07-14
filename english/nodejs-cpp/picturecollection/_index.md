@@ -1,7 +1,7 @@
 ﻿---
 title: PictureCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of [Picture](./picture/) objects.
+description: Encapsulates a collection of Picture.picture objects.
 type: docs
 url: /nodejs-cpp/picturecollection/
 ---

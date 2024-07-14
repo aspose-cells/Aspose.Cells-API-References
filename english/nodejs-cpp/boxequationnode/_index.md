@@ -1,7 +1,7 @@
 ﻿---
 title: BoxEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the box function, which is used to group components of an equation.
+description: This class specifies the box function which is used to group components of an equation.
 type: docs
 url: /nodejs-cpp/boxequationnode/
 ---

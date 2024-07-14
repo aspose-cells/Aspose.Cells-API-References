@@ -1,7 +1,7 @@
 ﻿---
 title: ThreeDFormat
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a shape's three-dimensional formatting.
+description: Represents a shapes threedimensional formatting.
 type: docs
 url: /nodejs-cpp/threedformat/
 ---

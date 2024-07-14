@@ -1,7 +1,7 @@
 ﻿---
 title: WebExtensionBindingCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of binding relationships between an Office Add-in and the data in the document.
+description: Represents the list of binding relationships between an Office Addin and the data in the document.
 type: docs
 url: /nodejs-cpp/webextensionbindingcollection/
 ---

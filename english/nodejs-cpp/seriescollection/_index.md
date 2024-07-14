@@ -1,7 +1,7 @@
 ﻿---
 title: SeriesCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of [Series](./series/) objects.
+description: Encapsulates a collection of Series.series objects.
 type: docs
 url: /nodejs-cpp/seriescollection/
 ---

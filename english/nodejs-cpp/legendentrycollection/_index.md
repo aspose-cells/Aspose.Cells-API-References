@@ -1,7 +1,7 @@
 ﻿---
 title: LegendEntryCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the [LegendEntry](./legendentry/) objects in the specified chart legend.
+description: Represents a collection of all the LegendEntry.legendentry objects in the specified chart legend.
 type: docs
 url: /nodejs-cpp/legendentrycollection/
 ---

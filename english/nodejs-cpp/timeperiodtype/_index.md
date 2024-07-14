@@ -1,7 +1,7 @@
 ﻿---
 title: TimePeriodType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Used in a FormatConditionType.TimePeriod conditional formatting rule. These are dynamic time periods, which change based on the date the conditional formatting is refreshed / applied.
+description: Used in a FormatConditionType.TimePeriod conditional formatting rule. These are dynamic time periods which change based on the date the conditional formatting is refreshed  applied.
 type: docs
 url: /nodejs-cpp/timeperiodtype/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: TableDataSourceType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the table's data source type.
+description: Represents the tables data source type.
 type: docs
 url: /nodejs-cpp/tabledatasourcetype/
 ---

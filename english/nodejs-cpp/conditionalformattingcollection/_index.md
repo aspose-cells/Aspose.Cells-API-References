@@ -1,7 +1,7 @@
 ﻿---
 title: ConditionalFormattingCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of [FormatCondition](./formatcondition/) objects.
+description: Encapsulates a collection of FormatCondition.formatcondition objects.
 type: docs
 url: /nodejs-cpp/conditionalformattingcollection/
 ---

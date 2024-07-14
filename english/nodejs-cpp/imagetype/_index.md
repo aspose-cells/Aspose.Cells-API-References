@@ -1,7 +1,7 @@
 ﻿---
 title: ImageType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Specifies the type (format) of an image.
+description: Specifies the type format of an image.
 type: docs
 url: /nodejs-cpp/imagetype/
 ---

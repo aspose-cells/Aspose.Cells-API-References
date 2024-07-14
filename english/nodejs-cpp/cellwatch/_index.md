@@ -1,7 +1,7 @@
 ﻿---
 title: CellWatch
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents Cell Watch Item in the 'watch window'.
+description: Represents Cell Watch Item in the watch window.
 type: docs
 url: /nodejs-cpp/cellwatch/
 ---

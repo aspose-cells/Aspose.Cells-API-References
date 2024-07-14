@@ -1,7 +1,7 @@
 ﻿---
 title: TrendlineCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of all the [Trendline](./trendline/) objects for the specified data series.
+description: Represents a collection of all the Trendline.trendline objects for the specified data series.
 type: docs
 url: /nodejs-cpp/trendlinecollection/
 ---

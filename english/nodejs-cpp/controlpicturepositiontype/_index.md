@@ -1,7 +1,7 @@
 ﻿---
 title: ControlPicturePositionType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the location of the control's picture relative to its caption.
+description: Represents the location of the controls picture relative to its caption.
 type: docs
 url: /nodejs-cpp/controlpicturepositiontype/
 ---

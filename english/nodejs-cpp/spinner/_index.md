@@ -1,7 +1,7 @@
 ﻿---
 title: Spinner
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the Forms control  Spinner.
+description: Represents the Forms control Spinner.
 type: docs
 url: /nodejs-cpp/spinner/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: CheckBoxCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of [CheckBox](./checkbox/) objects in a worksheet.
+description: Represents a collection of CheckBox.checkbox objects in a worksheet.
 type: docs
 url: /nodejs-cpp/checkboxcollection/
 ---

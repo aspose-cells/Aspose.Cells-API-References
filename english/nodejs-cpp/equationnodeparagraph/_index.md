@@ -1,7 +1,7 @@
 ﻿---
 title: EquationNodeParagraph
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies a mathematical paragraph containing one or more MathEquationNode(OMath) elements.
+description: This class specifies a mathematical paragraph containing one or more MathEquationNodeOMath elements.
 type: docs
 url: /nodejs-cpp/equationnodeparagraph/
 ---

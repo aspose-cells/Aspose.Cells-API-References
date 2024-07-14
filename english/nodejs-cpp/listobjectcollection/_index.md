@@ -1,7 +1,7 @@
 ﻿---
 title: ListObjectCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a collection of [ListObject](./listobject/) objects in the worksheet.
+description: Represents a collection of ListObject.listobject objects in the worksheet.
 type: docs
 url: /nodejs-cpp/listobjectcollection/
 ---

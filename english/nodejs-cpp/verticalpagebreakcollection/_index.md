@@ -1,7 +1,7 @@
 ﻿---
 title: VerticalPageBreakCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of [VerticalPageBreak](./verticalpagebreak/) objects.
+description: Encapsulates a collection of VerticalPageBreak.verticalpagebreak objects.
 type: docs
 url: /nodejs-cpp/verticalpagebreakcollection/
 ---

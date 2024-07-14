@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentProperty
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a custom or built-in document property.
+description: Represents a custom or builtin document property.
 type: docs
 url: /nodejs-cpp/documentproperty/
 ---

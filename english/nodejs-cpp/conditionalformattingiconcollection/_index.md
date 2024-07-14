@@ -1,7 +1,7 @@
 ﻿---
 title: ConditionalFormattingIconCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents  a collection of [ConditionalFormattingIcon](./conditionalformattingicon/) objects.
+description: Represents  a collection of ConditionalFormattingIcon.conditionalformattingicon objects.
 type: docs
 url: /nodejs-cpp/conditionalformattingiconcollection/
 ---

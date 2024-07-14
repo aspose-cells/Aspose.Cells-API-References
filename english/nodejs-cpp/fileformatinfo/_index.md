@@ -1,7 +1,7 @@
 ﻿---
 title: FileFormatInfo
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Contains data returned by [FileFormatUtil](./fileformatutil/) file format detection methods.
+description: Contains data returned by FileFormatUtil.fileformatutil file format detection methods.
 type: docs
 url: /nodejs-cpp/fileformatinfo/
 ---

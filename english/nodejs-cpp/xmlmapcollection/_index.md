@@ -1,7 +1,7 @@
 ﻿---
 title: XmlMapCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: A collection of [XmlMap](./xmlmap/) objects that represent XmlMap information.
+description: A collection of XmlMap.xmlmap objects that represent XmlMap information.
 type: docs
 url: /nodejs-cpp/xmlmapcollection/
 ---

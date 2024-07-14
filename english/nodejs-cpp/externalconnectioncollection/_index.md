@@ -1,7 +1,7 @@
 ﻿---
 title: ExternalConnectionCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Specifies the [ExternalConnection](./externalconnection/) collection
+description: Specifies the ExternalConnection.externalconnection collection
 type: docs
 url: /nodejs-cpp/externalconnectioncollection/
 ---

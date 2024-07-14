@@ -1,7 +1,7 @@
 ﻿---
 title: TimelineCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel, Excel 2003 does not support Timeline.
+description: Specifies the collection of all the Timeline objects on the specified worksheet. Due to MS Excel Excel 2003 does not support Timeline.
 type: docs
 url: /nodejs-cpp/timelinecollection/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: HeaderFooterCommand
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the command of header/footer
+description: Represents the command of headerfooter
 type: docs
 url: /nodejs-cpp/headerfootercommand/
 ---

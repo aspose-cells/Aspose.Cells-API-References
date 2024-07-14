@@ -1,7 +1,7 @@
 ﻿---
 title: TextRunEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class in the equation node is used to store the actual content(a sequence of mathematical text) of the equation. Usually a node object per character.
+description: This class in the equation node is used to store the actual contenta sequence of mathematical text of the equation. Usually a node object per character.
 type: docs
 url: /nodejs-cpp/textrunequationnode/
 ---

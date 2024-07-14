@@ -1,7 +1,7 @@
 ﻿---
 title: GroupCharacterEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies the Group-Character function, consisting of a character drawn above or below text, often with the purpose of visually grouping items.
+description: This class specifies the GroupCharacter function consisting of a character drawn above or below text often with the purpose of visually grouping items.
 type: docs
 url: /nodejs-cpp/groupcharacterequationnode/
 ---

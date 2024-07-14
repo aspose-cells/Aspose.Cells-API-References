@@ -1,7 +1,7 @@
 ﻿---
 title: WebExtension
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents an Office Add-in instance.
+description: Represents an Office Addin instance.
 type: docs
 url: /nodejs-cpp/webextension/
 ---

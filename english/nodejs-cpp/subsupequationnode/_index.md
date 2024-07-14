@@ -1,7 +1,7 @@
 ﻿---
 title: SubSupEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies an equation that can optionally be superscript or subscript. There are four main forms of this equation, superscript，subscript，superscript and subscript placed to the left of the base, superscript and subscript placed to the right of the base.
+description: This class specifies an equation that can optionally be superscript or subscript. There are four main forms of this equation superscriptsubscriptsuperscript and subscript placed to the left of the base superscript and subscript placed to the right of the base.
 type: docs
 url: /nodejs-cpp/subsupequationnode/
 ---

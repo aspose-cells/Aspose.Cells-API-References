@@ -1,7 +1,7 @@
 ﻿---
 title: EquationNodeType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Equation node type. Notice  (1)[1-99] Currently there is only one node in the scope, and its enumeration value is 1. The node it specifies is used to store mathematical text. (2)[100-199] Indicates that the node is a component of some special function nodes. (3)[200-] Indicates that the node has some special functions(Usually with 'Equation' suffix. 'EquationParagraph' is a special case.).
+description: Equation node type. Notice 1199 Currently there is only one node in the scope and its enumeration value is 1. The node it specifies is used to store mathematical text. 2100199 Indicates that the node is a component of some special function nodes. 3200 Indicates that the node has some special functionsUsually with Equation suffix. EquationParagraph is a special case..
 type: docs
 url: /nodejs-cpp/equationnodetype/
 ---

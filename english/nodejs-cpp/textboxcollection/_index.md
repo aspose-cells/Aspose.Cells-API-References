@@ -1,7 +1,7 @@
 ﻿---
 title: TextBoxCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of [TextBox](./textbox/) objects.
+description: Encapsulates a collection of TextBox.textbox objects.
 type: docs
 url: /nodejs-cpp/textboxcollection/
 ---

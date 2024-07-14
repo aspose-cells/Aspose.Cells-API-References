@@ -1,7 +1,7 @@
 ﻿---
 title: AccentEquationNode
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: This class specifies an accent equation, consisting of a base component and a combining diacritic.
+description: This class specifies an accent equation consisting of a base component and a combining diacritic.
 type: docs
 url: /nodejs-cpp/accentequationnode/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: VbaModuleCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of [VbaModule](./vbamodule/)
+description: Represents the list of VbaModule.vbamodule
 type: docs
 url: /nodejs-cpp/vbamodulecollection/
 ---

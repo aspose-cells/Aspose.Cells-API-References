@@ -1,7 +1,7 @@
 ﻿---
 title: Bar3DShapeType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the shape used with the 3-D bar or column chart.
+description: Represents the shape used with the 3D bar or column chart.
 type: docs
 url: /nodejs-cpp/bar3dshapetype/
 ---

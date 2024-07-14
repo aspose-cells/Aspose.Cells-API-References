@@ -1,7 +1,7 @@
 ﻿---
 title: FontSettingCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the list of [FontSetting](./fontsetting/).
+description: Represents the list of FontSetting.fontsetting.
 type: docs
 url: /nodejs-cpp/fontsettingcollection/
 ---

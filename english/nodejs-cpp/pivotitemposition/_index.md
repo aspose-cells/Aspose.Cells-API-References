@@ -1,7 +1,7 @@
 ﻿---
 title: PivotItemPosition
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents base item Next/Previous/All position in the base field .
+description: Represents base item NextPreviousAll position in the base field .
 type: docs
 url: /nodejs-cpp/pivotitemposition/
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: AccessCacheOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Cache options for data access. Can be combined with | operator for multiple options together.
+description: Cache options for data access. Can be combined with  operator for multiple options together.
 type: docs
 url: /nodejs-cpp/accesscacheoptions/
 ---

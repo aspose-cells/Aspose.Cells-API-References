@@ -1,7 +1,7 @@
 ﻿---
 title: PresetCameraType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represent different algorithmic methods for setting all camera properties, including position.
+description: Represent different algorithmic methods for setting all camera properties including position.
 type: docs
 url: /nodejs-cpp/presetcameratype/
 ---

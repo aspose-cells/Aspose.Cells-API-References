@@ -1,7 +1,7 @@
 ﻿---
 title: CellWatchCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the collection of cells on this worksheet being watched in the 'watch window'.
+description: Represents the collection of cells on this worksheet being watched in the watch window.
 type: docs
 url: /nodejs-cpp/cellwatchcollection/
 ---

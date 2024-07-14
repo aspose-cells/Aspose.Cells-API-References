@@ -1,7 +1,7 @@
 ﻿---
 title: ConnectionParameterCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Specifies the [ConnectionParameter](./connectionparameter/) collection
+description: Specifies the ConnectionParameter.connectionparameter collection
 type: docs
 url: /nodejs-cpp/connectionparametercollection/
 ---

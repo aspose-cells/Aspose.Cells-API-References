@@ -1,7 +1,7 @@
 ﻿---
 title: RevisionCellMove
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a revision record on a cell(s) that moved.
+description: Represents a revision record on a cells that moved.
 type: docs
 url: /nodejs-cpp/revisioncellmove/
 ---

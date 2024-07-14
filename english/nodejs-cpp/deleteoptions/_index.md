@@ -1,7 +1,7 @@
 ﻿---
 title: DeleteOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the setting of deleting rows/columns.
+description: Represents the setting of deleting rowscolumns.
 type: docs
 url: /nodejs-cpp/deleteoptions/
 ---

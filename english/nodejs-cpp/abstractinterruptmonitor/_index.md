@@ -1,7 +1,7 @@
 ﻿---
 title: AbstractInterruptMonitor
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Monitor for interruption requests in all time-consuming operations.
+description: Monitor for interruption requests in all timeconsuming operations.
 type: docs
 url: /nodejs-cpp/abstractinterruptmonitor/
 ---

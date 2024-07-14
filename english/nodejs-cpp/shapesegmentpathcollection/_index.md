@@ -1,7 +1,7 @@
 ﻿---
 title: ShapeSegmentPathCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape.
+description: Represents a creation path consisting of a series of moves lines and curves that when combined will form a geometric shape.
 type: docs
 url: /nodejs-cpp/shapesegmentpathcollection/
 ---

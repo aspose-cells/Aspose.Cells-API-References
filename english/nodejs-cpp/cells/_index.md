@@ -1,7 +1,7 @@
 ﻿---
 title: Cells
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of cell relevant objects, such as [Cell](./cell/), [Cell](./cell/), ...etc.
+description: Encapsulates a collection of cell relevant objects such as Cell.cell Cell.cell ...etc.
 type: docs
 url: /nodejs-cpp/cells/
 ---

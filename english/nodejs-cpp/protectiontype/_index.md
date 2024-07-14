@@ -1,7 +1,7 @@
 ﻿---
 title: ProtectionType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents workbook/worksheet protection type.
+description: Represents workbookworksheet protection type.
 type: docs
 url: /nodejs-cpp/protectiontype/
 ---

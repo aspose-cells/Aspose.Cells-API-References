@@ -1,7 +1,7 @@
 ﻿---
 title: MapChartLabelLayout
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the layout of map chart's labels.
+description: Represents the layout of map charts labels.
 type: docs
 url: /nodejs-cpp/mapchartlabellayout/
 ---

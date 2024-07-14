@@ -1,7 +1,7 @@
 ﻿---
 title: CustomXmlPartCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a Custom XML Data Storage Part (custom XML data within a package).
+description: Represents a Custom XML Data Storage Part custom XML data within a package.
 type: docs
 url: /nodejs-cpp/customxmlpartcollection/
 ---

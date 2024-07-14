@@ -1,7 +1,7 @@
 ﻿---
 title: WorksheetCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Encapsulates a collection of [Worksheet](./worksheet/) objects.
+description: Encapsulates a collection of Worksheet.worksheet objects.
 type: docs
 url: /nodejs-cpp/worksheetcollection/
 ---

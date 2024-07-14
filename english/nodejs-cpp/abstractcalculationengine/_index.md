@@ -1,7 +1,7 @@
 ﻿---
 title: AbstractCalculationEngine
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells.
+description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
 type: docs
 url: /nodejs-cpp/abstractcalculationengine/
 ---

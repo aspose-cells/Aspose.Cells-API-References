@@ -1,7 +1,7 @@
 ﻿---
 title: PdfBookmarkEntry
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level.
+description: PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or  current instance will be hidden and children will be inserted on current level.
 type: docs
 url: /nodejs-cpp/pdfbookmarkentry/
 ---

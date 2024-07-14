@@ -1,7 +1,7 @@
 ﻿---
 title: PdfSecurityOptions
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Options for encrypting and access permissions for a PDF document. PDF/A does not allow security setting.
+description: Options for encrypting and access permissions for a PDF document. PDFA does not allow security setting.
 type: docs
 url: /nodejs-cpp/pdfsecurityoptions/
 ---

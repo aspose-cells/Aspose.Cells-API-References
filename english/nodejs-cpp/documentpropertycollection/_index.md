@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentPropertyCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Base class for [BuiltInDocumentPropertyCollection](./builtindocumentpropertycollection/) and [BuiltInDocumentPropertyCollection](./builtindocumentpropertycollection/) collections.
+description: Base class for BuiltInDocumentPropertyCollection.builtindocumentpropertycollection and BuiltInDocumentPropertyCollection.builtindocumentpropertycollection collections.
 type: docs
 url: /nodejs-cpp/documentpropertycollection/
 ---

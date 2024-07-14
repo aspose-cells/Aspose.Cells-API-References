@@ -1,7 +1,7 @@
 ﻿---
 title: ThreadedCommentAuthor
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents the person who creates the threaded comments;
+description: Represents the person who creates the threaded comments
 type: docs
 url: /nodejs-cpp/threadedcommentauthor/
 ---

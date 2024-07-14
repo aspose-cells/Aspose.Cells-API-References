@@ -1,7 +1,7 @@
 ﻿---
 title: CustomPropertyCollection
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: A collection of [CustomProperty](./customproperty/) objects that represent additional information.
+description: A collection of CustomProperty.customproperty objects that represent additional information.
 type: docs
 url: /nodejs-cpp/custompropertycollection/
 ---

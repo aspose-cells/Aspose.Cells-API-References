@@ -1,7 +1,7 @@
 ﻿---
 title: ParameterType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents all parameters' type or return value type of function.
+description: Represents all parameters type or return value type of function.
 type: docs
 url: /nodejs-cpp/parametertype/
 ---

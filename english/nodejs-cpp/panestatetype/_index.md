@@ -1,7 +1,7 @@
 ﻿---
 title: PaneStateType
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents state of the sheet's pane.
+description: Represents state of the sheets pane.
 type: docs
 url: /nodejs-cpp/panestatetype/
 ---
